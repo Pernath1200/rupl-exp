@@ -1,0 +1,76 @@
+{
+  "id": "a1_food",
+  "title": "Jedzenie i picie",
+  "level": "A1",
+  "tree_node": "leaf_food_a1",
+  "note": "Kawiarnia i stół. EN → PL. Zdanie = wolne polskie z tymi słowami. Owoc = drabina + soft quiz/słowo.",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "food_drinks",
+      "title": "Jedzenie · napoje",
+      "items": [
+        { "en": "water", "pl": "woda" },
+        { "en": "coffee", "pl": "kawa" },
+        { "en": "tea", "pl": "herbata" },
+        { "en": "beer", "pl": "piwo" },
+        { "en": "wine", "pl": "wino" },
+        { "en": "juice", "pl": "sok" },
+        { "en": "milk", "pl": "mleko" },
+        { "en": "drink (verb)", "pl": "pić" },
+        { "en": "bottle", "pl": "butelka" },
+        { "en": "glass", "pl": "szklanka", "accepts": ["kieliszek"] },
+        { "en": "cup", "pl": "kubek", "accepts": ["filiżanka"] },
+        { "en": "please (with order)", "pl": "proszę" }
+      ]
+    },
+    {
+      "id": "food_meals",
+      "title": "Jedzenie · posiłki",
+      "items": [
+        { "en": "food", "pl": "jedzenie", "accepts": ["żywność"] },
+        { "en": "breakfast", "pl": "śniadanie" },
+        { "en": "lunch", "pl": "obiad" },
+        { "en": "dinner", "pl": "kolacja" },
+        { "en": "menu", "pl": "menu", "accepts": ["jadłospis"] },
+        { "en": "bill", "pl": "rachunek" },
+        { "en": "eat", "pl": "jeść" },
+        {
+          "en": "hungry",
+          "pl": "głodny",
+          "accepts": ["głodna", "mam głód"]
+        },
+        {
+          "en": "thirsty",
+          "pl": "spragniony",
+          "accepts": ["spragniona", "chce mi się pić"]
+        },
+        { "en": "restaurant", "pl": "restauracja" },
+        { "en": "café", "pl": "kawiarnia" },
+        {
+          "en": "order (verb)",
+          "pl": "zamówić",
+          "accepts": ["zamawiać"]
+        }
+      ]
+    },
+    {
+      "id": "food_basics",
+      "title": "Jedzenie · podstawy",
+      "items": [
+        { "en": "bread", "pl": "chleb" },
+        { "en": "butter", "pl": "masło" },
+        { "en": "cheese", "pl": "ser" },
+        { "en": "egg", "pl": "jajko", "accepts": ["jajo"] },
+        { "en": "meat", "pl": "mięso" },
+        { "en": "chicken", "pl": "kurczak" },
+        { "en": "fish", "pl": "ryba" },
+        { "en": "soup", "pl": "zupa" },
+        { "en": "salad", "pl": "sałatka" },
+        { "en": "rice", "pl": "ryż" },
+        { "en": "salt", "pl": "sól" },
+        { "en": "sugar", "pl": "cukier" }
+      ]
+    }
+  ]
+}

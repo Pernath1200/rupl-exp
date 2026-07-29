@@ -1,0 +1,118 @@
+{
+  "id": "a1_clothes",
+  "title": "Ubrania",
+  "level": "A1",
+  "tree_node": "leaf_clothes_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_clothes.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "clothes_basic",
+      "title": "Clothes · basic",
+      "items": [
+        {
+          "en": "clothes",
+          "pl": "ubrania"
+        },
+        {
+          "en": "shirt",
+          "pl": "koszula"
+        },
+        {
+          "en": "T-shirt",
+          "pl": "koszulka"
+        },
+        {
+          "en": "sweater",
+          "pl": "sweter"
+        },
+        {
+          "en": "jacket",
+          "pl": "kurtka"
+        },
+        {
+          "en": "coat",
+          "pl": "płaszcz"
+        },
+        {
+          "en": "dress",
+          "pl": "sukienka"
+        },
+        {
+          "en": "skirt",
+          "pl": "spódnica"
+        },
+        {
+          "en": "trousers",
+          "pl": "spodnie"
+        },
+        {
+          "en": "jeans",
+          "pl": "dżinsy"
+        },
+        {
+          "en": "hat",
+          "pl": "kapelusz"
+        },
+        {
+          "en": "wear",
+          "pl": "nosić"
+        }
+      ]
+    },
+    {
+      "id": "clothes_more",
+      "title": "Clothes · more",
+      "items": [
+        {
+          "en": "shoe",
+          "pl": "but"
+        },
+        {
+          "en": "boot",
+          "pl": "but"
+        },
+        {
+          "en": "sock",
+          "pl": "skarpetka"
+        },
+        {
+          "en": "watch (wrist)",
+          "pl": "zegarek"
+        },
+        {
+          "en": "bag",
+          "pl": "torba"
+        },
+        {
+          "en": "glasses",
+          "pl": "okulary"
+        },
+        {
+          "en": "suit",
+          "pl": "garnitur"
+        },
+        {
+          "en": "tie",
+          "pl": "krawat"
+        },
+        {
+          "en": "scarf",
+          "pl": "szalik"
+        },
+        {
+          "en": "glove",
+          "pl": "rękawiczka"
+        },
+        {
+          "en": "umbrella",
+          "pl": "parasol"
+        },
+        {
+          "en": "pocket",
+          "pl": "kieszeń"
+        }
+      ]
+    }
+  ]
+}

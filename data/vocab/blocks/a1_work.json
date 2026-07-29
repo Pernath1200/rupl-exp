@@ -1,0 +1,172 @@
+{
+  "id": "a1_work",
+  "title": "Praca",
+  "level": "A1",
+  "tree_node": "leaf_work_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_work.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "work_jobs",
+      "title": "Work · jobs",
+      "items": [
+        {
+          "en": "job",
+          "pl": "praca"
+        },
+        {
+          "en": "work (noun)",
+          "pl": "praca"
+        },
+        {
+          "en": "teacher",
+          "pl": "nauczyciel"
+        },
+        {
+          "en": "doctor",
+          "pl": "lekarz"
+        },
+        {
+          "en": "student",
+          "pl": "student"
+        },
+        {
+          "en": "nurse",
+          "pl": "pielęgniarka"
+        },
+        {
+          "en": "waiter",
+          "pl": "kelner"
+        },
+        {
+          "en": "engineer",
+          "pl": "inżynier"
+        },
+        {
+          "en": "driver",
+          "pl": "kierowca"
+        },
+        {
+          "en": "manager",
+          "pl": "menedżer"
+        },
+        {
+          "en": "boss",
+          "pl": "szef"
+        },
+        {
+          "en": "colleague",
+          "pl": "kolega z pracy"
+        }
+      ]
+    },
+    {
+      "id": "work_place",
+      "title": "Work · workplace",
+      "items": [
+        {
+          "en": "office",
+          "pl": "biuro"
+        },
+        {
+          "en": "company",
+          "pl": "firma"
+        },
+        {
+          "en": "meeting",
+          "pl": "spotkanie"
+        },
+        {
+          "en": "email",
+          "pl": "e-mail"
+        },
+        {
+          "en": "computer",
+          "pl": "komputer"
+        },
+        {
+          "en": "phone",
+          "pl": "telefon"
+        },
+        {
+          "en": "money",
+          "pl": "pieniądze"
+        },
+        {
+          "en": "salary",
+          "pl": "pensja"
+        },
+        {
+          "en": "work (verb)",
+          "pl": "pracować"
+        },
+        {
+          "en": "start (work)",
+          "pl": "zaczynać"
+        },
+        {
+          "en": "finish (work)",
+          "pl": "kończyć"
+        },
+        {
+          "en": "break (rest)",
+          "pl": "przerwa"
+        }
+      ]
+    },
+    {
+      "id": "work_people",
+      "title": "Work · people & roles",
+      "items": [
+        {
+          "en": "actor",
+          "pl": "aktor"
+        },
+        {
+          "en": "actress",
+          "pl": "aktorka"
+        },
+        {
+          "en": "dancer",
+          "pl": "tancerz"
+        },
+        {
+          "en": "singer",
+          "pl": "piosenkarz"
+        },
+        {
+          "en": "player",
+          "pl": "gracz"
+        },
+        {
+          "en": "farmer",
+          "pl": "rolnik"
+        },
+        {
+          "en": "worker",
+          "pl": "pracownik"
+        },
+        {
+          "en": "writer",
+          "pl": "pisarz"
+        },
+        {
+          "en": "partner",
+          "pl": "partner"
+        },
+        {
+          "en": "career",
+          "pl": "kariera"
+        },
+        {
+          "en": "business",
+          "pl": "biznes"
+        },
+        {
+          "en": "interview",
+          "pl": "rozmowa kwalifikacyjna"
+        }
+      ]
+    }
+  ]
+}

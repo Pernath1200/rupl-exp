@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Polski · RUPL-exp</title>
+  <link rel="stylesheet" href="./css/app.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="util-bar">
+      <span class="brand">RUPL-exp</span>
+      <span class="sep">·</span>
+      <span>eksperyment · gramatyka + słówka</span>
+      <span class="sep">·</span>
+      <span>v0.1</span>
+      <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false">Tryb autorski</button>
+    </div>
+
+    <h1>Polski · Jedno drzewo (eksperyment)</h1>
+    <p class="sub">
+      <strong>System</strong> (korzenie · RUPL2) i <strong>słówka</strong> (pień/liście · RUPL3) w jednej aplikacji.
+      Ścieżka: najpierw ucz wzorca, potem użyj w temacie. Stabilne apki:
+      <a class="today-link" href="http://localhost:8095/" target="_blank" rel="noopener">RUPL2</a>
+      ·
+      <a class="today-link" href="http://localhost:8094/" target="_blank" rel="noopener">RUPL3</a>.
+    </p>
+    <p id="author-hint" class="practice-hint" hidden style="color: var(--accent); margin-top: -0.75rem"></p>
+    <div id="boot-error" class="card" hidden></div>
+
+    <div id="view-map">
+      <div class="rail-label">Poziom</div>
+      <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
+
+      <div class="card" id="up-next-card">
+        <h2>Zrób to dalej · ścieżka</h2>
+        <div id="up-next"></div>
+      </div>
+
+      <div class="card" id="tree-portrait-card">
+        <h2>Portret drzewa</h2>
+        <p class="tree-legend">
+          Status only · nawigacja = ścieżka poniżej · miedź = gramatyka · bursztyn = słówka · zieleń = owoc
+        </p>
+        <div id="tree-portrait" class="tree-portrait-host"></div>
+      </div>
+
+      <div class="panel-grid">
+        <div class="card domain-grammar">
+          <h2>Korzenie · gramatyka</h2>
+          <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
+          <div id="roots-strip" class="roots-strip"></div>
+        </div>
+        <div class="card domain-vocab">
+          <h2>Liście · słówka</h2>
+          <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
+          <div id="vocab-fill" class="roots-strip"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Ścieżka (spine · teach → use)</h2>
+        <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
+        <ul id="path-list" class="path-list"></ul>
+      </div>
+
+      <div class="card" id="node-detail-card">
+        <h2>Węzeł</h2>
+        <div id="node-detail"></div>
+      </div>
+    </div>
+
+    <div id="view-practice" class="card" hidden>
+      <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
+        <button type="button" class="btn smoke-flag-btn" id="p-flag">⚑ Flag item</button>
+        <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge>Flagged list</button>
+        <span class="smoke-toolbar-hint">Smoke · local notes</span>
+      </div>
+      <div id="practice-root"></div>
+      <div class="practice-exit">
+        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1">← Wstecz do mapy</button>
+      </div>
+    </div>
+
+    <div id="smoke-flags-host"></div>
+
+    <p class="foot">
+      Port <code>8096</code> · progress <code>rupl-exp-v0.1-progress</code> · sync: <code>py scripts/sync_from_stable.py</code>
+    </p>
+  </div>
+  <script type="module" src="./js/app.js?v=2026-07-28-portrait"></script>
+</body>
+</html>

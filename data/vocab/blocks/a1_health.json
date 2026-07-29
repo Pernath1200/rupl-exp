@@ -1,0 +1,118 @@
+{
+  "id": "a1_health",
+  "title": "Zdrowie",
+  "level": "A1",
+  "tree_node": "leaf_health_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_health.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "health_feeling",
+      "title": "Health · how I feel",
+      "items": [
+        {
+          "en": "health",
+          "pl": "zdrowie"
+        },
+        {
+          "en": "healthy",
+          "pl": "zdrowy"
+        },
+        {
+          "en": "ill",
+          "pl": "chory"
+        },
+        {
+          "en": "sick",
+          "pl": "chory"
+        },
+        {
+          "en": "pain",
+          "pl": "ból"
+        },
+        {
+          "en": "hurt",
+          "pl": "boleć"
+        },
+        {
+          "en": "headache",
+          "pl": "ból głowy"
+        },
+        {
+          "en": "stomach",
+          "pl": "brzuch"
+        },
+        {
+          "en": "fever",
+          "pl": "gorączka"
+        },
+        {
+          "en": "cough",
+          "pl": "kaszel"
+        },
+        {
+          "en": "cold (illness)",
+          "pl": "przeziębienie"
+        },
+        {
+          "en": "flu",
+          "pl": "grypa"
+        }
+      ]
+    },
+    {
+      "id": "health_care",
+      "title": "Health · care",
+      "items": [
+        {
+          "en": "doctor",
+          "pl": "lekarz"
+        },
+        {
+          "en": "nurse",
+          "pl": "pielęgniarka"
+        },
+        {
+          "en": "patient",
+          "pl": "pacjent"
+        },
+        {
+          "en": "hospital",
+          "pl": "szpital"
+        },
+        {
+          "en": "pharmacy",
+          "pl": "apteka"
+        },
+        {
+          "en": "medicine",
+          "pl": "lekarstwo"
+        },
+        {
+          "en": "pill",
+          "pl": "tabletka"
+        },
+        {
+          "en": "appointment",
+          "pl": "wizyta"
+        },
+        {
+          "en": "ambulance",
+          "pl": "karetka"
+        },
+        {
+          "en": "temperature",
+          "pl": "temperatura"
+        },
+        {
+          "en": "rest (verb)",
+          "pl": "odpoczywać"
+        },
+        {
+          "en": "dentist",
+          "pl": "dentysta"
+        }
+      ]
+    }
+  ]
+}

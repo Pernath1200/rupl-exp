@@ -1,0 +1,70 @@
+{
+  "id": "a1_home_family",
+  "title": "Dom i rodzina",
+  "level": "A1",
+  "tree_node": "leaf_home_family",
+  "note": "Mieszkanie + ludzie. EN → PL. Owoc = drabina + soft quiz/słowo.",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "family_people",
+      "title": "Rodzina · ludzie",
+      "items": [
+        { "en": "family", "pl": "rodzina" },
+        {
+          "en": "mother / mum",
+          "pl": "mama",
+          "accepts": ["matka"]
+        },
+        {
+          "en": "father / dad",
+          "pl": "tata",
+          "accepts": ["ojciec"]
+        },
+        { "en": "brother", "pl": "brat" },
+        { "en": "sister", "pl": "siostra" },
+        { "en": "child", "pl": "dziecko" },
+        { "en": "son", "pl": "syn" },
+        { "en": "daughter", "pl": "córka" },
+        {
+          "en": "friend (m)",
+          "pl": "przyjaciel",
+          "accepts": ["kolega"]
+        },
+        {
+          "en": "friend (f)",
+          "pl": "przyjaciółka",
+          "accepts": ["koleżanka"]
+        },
+        { "en": "man", "pl": "mężczyzna", "accepts": ["pan"] },
+        { "en": "woman", "pl": "kobieta", "accepts": ["pani"] }
+      ]
+    },
+    {
+      "id": "home_rooms",
+      "title": "Dom · pokoje",
+      "items": [
+        {
+          "en": "home / house",
+          "pl": "dom",
+          "accepts": ["domu"]
+        },
+        { "en": "flat / apartment", "pl": "mieszkanie" },
+        { "en": "room", "pl": "pokój" },
+        { "en": "kitchen", "pl": "kuchnia" },
+        { "en": "bathroom", "pl": "łazienka" },
+        { "en": "bedroom", "pl": "sypialnia" },
+        { "en": "door", "pl": "drzwi" },
+        { "en": "window", "pl": "okno" },
+        { "en": "table", "pl": "stół" },
+        { "en": "chair", "pl": "krzesło" },
+        { "en": "bed", "pl": "łóżko" },
+        {
+          "en": "key",
+          "pl": "klucz",
+          "accepts": ["klucze"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "id": "a1_freetime",
+  "title": "Czas wolny",
+  "level": "A1",
+  "tree_node": "leaf_freetime_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_freetime.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "freetime_hobbies",
+      "title": "Free time · hobbies",
+      "items": [
+        {
+          "en": "sport",
+          "pl": "sport"
+        },
+        {
+          "en": "football",
+          "pl": "piłka nożna"
+        },
+        {
+          "en": "tennis",
+          "pl": "tenis"
+        },
+        {
+          "en": "swimming",
+          "pl": "pływanie"
+        },
+        {
+          "en": "running",
+          "pl": "bieganie"
+        },
+        {
+          "en": "gym",
+          "pl": "siłownia"
+        },
+        {
+          "en": "hobby",
+          "pl": "hobby"
+        },
+        {
+          "en": "music",
+          "pl": "muzyka"
+        },
+        {
+          "en": "song",
+          "pl": "piosenka"
+        },
+        {
+          "en": "film",
+          "pl": "film",
+          "accepts": [
+            "kino"
+          ]
+        },
+        {
+          "en": "party",
+          "pl": "impreza"
+        },
+        {
+          "en": "holiday",
+          "pl": "wakacje"
+        }
+      ]
+    },
+    {
+      "id": "freetime_verbs",
+      "title": "Free time · verbs",
+      "items": [
+        {
+          "en": "play (sport/game)",
+          "pl": "grać"
+        },
+        {
+          "en": "watch",
+          "pl": "zegarek"
+        },
+        {
+          "en": "listen (to)",
+          "pl": "słuchać"
+        },
+        {
+          "en": "read",
+          "pl": "czytać"
+        },
+        {
+          "en": "write",
+          "pl": "pisać"
+        },
+        {
+          "en": "cook",
+          "pl": "gotować"
+        },
+        {
+          "en": "shop (verb)",
+          "pl": "sklep"
+        },
+        {
+          "en": "travel",
+          "pl": "podróżować"
+        },
+        {
+          "en": "visit",
+          "pl": "odwiedzać"
+        },
+        {
+          "en": "relax",
+          "pl": "odpoczywać"
+        },
+        {
+          "en": "dance",
+          "pl": "tańczyć"
+        },
+        {
+          "en": "sing",
+          "pl": "śpiewać"
+        }
+      ]
+    },
+    {
+      "id": "freetime_feelings",
+      "title": "Free time · feelings",
+      "items": [
+        {
+          "en": "happy",
+          "pl": "szczęśliwy"
+        },
+        {
+          "en": "sad",
+          "pl": "smutny"
+        },
+        {
+          "en": "busy",
+          "pl": "zajęty"
+        },
+        {
+          "en": "free (time)",
+          "pl": "wolny"
+        },
+        {
+          "en": "hot",
+          "pl": "gorąco"
+        },
+        {
+          "en": "well",
+          "pl": "zdrowy"
+        },
+        {
+          "en": "ill",
+          "pl": "chory"
+        },
+        {
+          "en": "fine",
+          "pl": "w porządku"
+        },
+        {
+          "en": "angry",
+          "pl": "zły"
+        },
+        {
+          "en": "bored",
+          "pl": "znudzony"
+        },
+        {
+          "en": "worried",
+          "pl": "zmartwiony"
+        },
+        {
+          "en": "excited",
+          "pl": "podekscytowany"
+        }
+      ]
+    },
+    {
+      "id": "freetime_feelings_more",
+      "title": "Free time · feelings more",
+      "items": [
+        {
+          "en": "afraid",
+          "pl": "przestraszony"
+        },
+        {
+          "en": "boring",
+          "pl": "nudny"
+        },
+        {
+          "en": "interesting",
+          "pl": "ciekawy"
+        },
+        {
+          "en": "interested",
+          "pl": "zainteresowany"
+        },
+        {
+          "en": "favourite",
+          "pl": "ulubiony"
+        },
+        {
+          "en": "funny",
+          "pl": "zabawny"
+        },
+        {
+          "en": "great",
+          "pl": "świetny"
+        },
+        {
+          "en": "amazing",
+          "pl": "niesamowity"
+        },
+        {
+          "en": "wonderful",
+          "pl": "wspaniały"
+        },
+        {
+          "en": "sick",
+          "pl": "chory"
+        },
+        {
+          "en": "sorry",
+          "pl": "przepraszam"
+        },
+        {
+          "en": "sure",
+          "pl": "pewny"
+        }
+      ]
+    },
+    {
+      "id": "freetime_more",
+      "title": "Free time · more",
+      "items": [
+        {
+          "en": "game",
+          "pl": "gra"
+        },
+        {
+          "en": "fun",
+          "pl": "zabawa"
+        },
+        {
+          "en": "guitar",
+          "pl": "gitara"
+        },
+        {
+          "en": "band",
+          "pl": "zespół"
+        },
+        {
+          "en": "concert",
+          "pl": "koncert"
+        },
+        {
+          "en": "movie",
+          "pl": "film"
+        },
+        {
+          "en": "dancing",
+          "pl": "taniec"
+        },
+        {
+          "en": "exercise",
+          "pl": "ćwiczyć"
+        },
+        {
+          "en": "team",
+          "pl": "drużyna"
+        },
+        {
+          "en": "match",
+          "pl": "mecz"
+        },
+        {
+          "en": "draw",
+          "pl": "rysować"
+        },
+        {
+          "en": "paint",
+          "pl": "malować"
+        }
+      ]
+    },
+    {
+      "id": "freetime_describe",
+      "title": "Free time · describe",
+      "items": [
+        {
+          "en": "dangerous",
+          "pl": "niebezpieczny"
+        },
+        {
+          "en": "fantastic",
+          "pl": "fantastyczny"
+        },
+        {
+          "en": "modern",
+          "pl": "nowoczesny"
+        },
+        {
+          "en": "perfect",
+          "pl": "idealny"
+        },
+        {
+          "en": "popular",
+          "pl": "popularny"
+        },
+        {
+          "en": "pretty",
+          "pl": "ładny"
+        },
+        {
+          "en": "quick",
+          "pl": "szybki"
+        },
+        {
+          "en": "quiet",
+          "pl": "cichy"
+        },
+        {
+          "en": "common",
+          "pl": "powszechny"
+        },
+        {
+          "en": "complete",
+          "pl": "kompletny"
+        },
+        {
+          "en": "correct",
+          "pl": "poprawny"
+        },
+        {
+          "en": "similar",
+          "pl": "podobny"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "a1_trunk_can",
+  "title": "Mogę · umiem",
+  "level": "A1",
+  "tree_node": "trunk_can_a1",
+  "practice": "frames",
+  "note": "A1 · móc / umieć · EN → PL",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "can_seed",
+      "title": "Mogę · umiem · ramy",
+      "items": [
+        {
+          "en": "I can swim.",
+          "pl": "Umiem pływać.",
+          "gap": "Umiem ____.",
+          "gap_answer": "pływać",
+          "accepts": ["Umiem pływać.", "Mogę pływać."]
+        },
+        {
+          "en": "I can speak Polish.",
+          "pl": "Umiem mówić po polsku.",
+          "gap": "Umiem mówić ____.",
+          "gap_answer": "po polsku",
+          "accepts": ["Umiem mówić po polsku.", "Mówię po polsku."]
+        },
+        {
+          "en": "I cannot drive.",
+          "pl": "Nie umiem prowadzić.",
+          "gap": "Nie umiem ____.",
+          "gap_answer": "prowadzić",
+          "accepts": ["Nie umiem prowadzić.", "Nie mogę prowadzić."]
+        },
+        {
+          "en": "Can you help me?",
+          "pl": "Czy możesz mi pomóc?",
+          "gap": "Czy możesz mi ____?",
+          "gap_answer": "pomóc",
+          "accepts": ["Czy możesz mi pomóc?", "Możesz mi pomóc?"]
+        },
+        {
+          "en": "I can come tomorrow.",
+          "pl": "Mogę przyjść jutro.",
+          "gap": "Mogę przyjść ____.",
+          "gap_answer": "jutro",
+          "accepts": ["Mogę przyjść jutro."]
+        },
+        {
+          "en": "We can meet at six.",
+          "pl": "Możemy się spotkać o szóstej.",
+          "gap": "Możemy się spotkać o ____.",
+          "gap_answer": "szóstej",
+          "accepts": ["Możemy się spotkać o szóstej.", "Możemy spotkać się o szóstej."]
+        },
+        {
+          "en": "He can cook well.",
+          "pl": "On umie dobrze gotować.",
+          "gap": "On umie dobrze ____.",
+          "gap_answer": "gotować",
+          "accepts": ["On umie dobrze gotować.", "On dobrze gotuje."]
+        },
+        {
+          "en": "I can see the station.",
+          "pl": "Widzę dworzec.",
+          "gap": "Widzę ____.",
+          "gap_answer": "dworzec",
+          "accepts": ["Widzę dworzec.", "Mogę zobaczyć dworzec."]
+        },
+        {
+          "en": "Can I open the window?",
+          "pl": "Czy mogę otworzyć okno?",
+          "gap": "Czy mogę otworzyć ____?",
+          "gap_answer": "okno",
+          "accepts": ["Czy mogę otworzyć okno?", "Mogę otworzyć okno?"]
+        },
+        {
+          "en": "You can sit here.",
+          "pl": "Możesz tu usiąść.",
+          "gap": "Możesz tu ____.",
+          "gap_answer": "usiąść",
+          "accepts": ["Możesz tu usiąść.", "Możesz tutaj usiąść."]
+        },
+        {
+          "en": "I cannot find my keys.",
+          "pl": "Nie mogę znaleźć kluczy.",
+          "gap": "Nie mogę znaleźć ____.",
+          "gap_answer": "kluczy",
+          "accepts": ["Nie mogę znaleźć kluczy.", "Nie znajduję kluczy."]
+        },
+        {
+          "en": "She can play the guitar.",
+          "pl": "Ona umie grać na gitarze.",
+          "gap": "Ona umie grać na ____.",
+          "gap_answer": "gitarze",
+          "accepts": ["Ona umie grać na gitarze.", "Gra na gitarze."]
+        }
+      ]
+    }
+  ]
+}

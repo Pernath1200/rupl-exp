@@ -1,0 +1,118 @@
+{
+  "id": "a1_body",
+  "title": "Ciało",
+  "level": "A1",
+  "tree_node": "leaf_body_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_body.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "body_parts",
+      "title": "Body · parts",
+      "items": [
+        {
+          "en": "body",
+          "pl": "ciało"
+        },
+        {
+          "en": "head",
+          "pl": "głowa"
+        },
+        {
+          "en": "face",
+          "pl": "twarz"
+        },
+        {
+          "en": "hair",
+          "pl": "włosy"
+        },
+        {
+          "en": "eye",
+          "pl": "oko"
+        },
+        {
+          "en": "ear",
+          "pl": "ucho"
+        },
+        {
+          "en": "nose",
+          "pl": "nos"
+        },
+        {
+          "en": "mouth",
+          "pl": "usta"
+        },
+        {
+          "en": "tooth",
+          "pl": "ząb"
+        },
+        {
+          "en": "hand",
+          "pl": "ręka"
+        },
+        {
+          "en": "arm",
+          "pl": "ramię"
+        },
+        {
+          "en": "leg",
+          "pl": "noga"
+        }
+      ]
+    },
+    {
+      "id": "body_more",
+      "title": "Body · more",
+      "items": [
+        {
+          "en": "foot",
+          "pl": "stopa"
+        },
+        {
+          "en": "back",
+          "pl": "plecy"
+        },
+        {
+          "en": "finger",
+          "pl": "palec"
+        },
+        {
+          "en": "neck",
+          "pl": "szyja"
+        },
+        {
+          "en": "shoulder",
+          "pl": "ramię"
+        },
+        {
+          "en": "knee",
+          "pl": "kolano"
+        },
+        {
+          "en": "heart",
+          "pl": "serce"
+        },
+        {
+          "en": "blood",
+          "pl": "krew"
+        },
+        {
+          "en": "skin",
+          "pl": "skóra"
+        },
+        {
+          "en": "tall",
+          "pl": "wysoki"
+        },
+        {
+          "en": "short (height)",
+          "pl": "krótki"
+        },
+        {
+          "en": "blonde",
+          "pl": "blond"
+        }
+      ]
+    }
+  ]
+}

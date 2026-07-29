@@ -1,0 +1,118 @@
+{
+  "id": "a1_animals",
+  "title": "Zwierzęta",
+  "level": "A1",
+  "tree_node": "leaf_animals_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_animals.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "animals_basic",
+      "title": "Animals · basic",
+      "items": [
+        {
+          "en": "animal",
+          "pl": "zwierzę"
+        },
+        {
+          "en": "dog",
+          "pl": "pies"
+        },
+        {
+          "en": "cat",
+          "pl": "kot"
+        },
+        {
+          "en": "bird",
+          "pl": "ptak"
+        },
+        {
+          "en": "fish",
+          "pl": "ryba"
+        },
+        {
+          "en": "horse",
+          "pl": "koń"
+        },
+        {
+          "en": "cow",
+          "pl": "krowa"
+        },
+        {
+          "en": "pig",
+          "pl": "świnia"
+        },
+        {
+          "en": "sheep",
+          "pl": "owca"
+        },
+        {
+          "en": "mouse",
+          "pl": "mysz"
+        },
+        {
+          "en": "lion",
+          "pl": "lew"
+        },
+        {
+          "en": "elephant",
+          "pl": "słoń"
+        }
+      ]
+    },
+    {
+      "id": "animals_more",
+      "title": "Animals · more",
+      "items": [
+        {
+          "en": "snake",
+          "pl": "wąż"
+        },
+        {
+          "en": "monkey",
+          "pl": "małpa"
+        },
+        {
+          "en": "bear",
+          "pl": "niedźwiedź"
+        },
+        {
+          "en": "rabbit",
+          "pl": "królik"
+        },
+        {
+          "en": "chicken",
+          "pl": "kurczak"
+        },
+        {
+          "en": "duck",
+          "pl": "kaczka"
+        },
+        {
+          "en": "frog",
+          "pl": "żaba"
+        },
+        {
+          "en": "insect",
+          "pl": "owad"
+        },
+        {
+          "en": "pet",
+          "pl": "zwierzę domowe"
+        },
+        {
+          "en": "wild",
+          "pl": "dziki"
+        },
+        {
+          "en": "farm",
+          "pl": "farma"
+        },
+        {
+          "en": "zoo",
+          "pl": "zoo"
+        }
+      ]
+    }
+  ]
+}

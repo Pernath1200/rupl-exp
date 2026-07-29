@@ -1,0 +1,121 @@
+{
+  "id": "a1_trunk_want_like",
+  "title": "Chcę · lubię",
+  "level": "A1",
+  "tree_node": "trunk_want_like_a1",
+  "practice": "frames",
+  "note": "Chcieć / lubić — kawiarnia i miasto. Luka na cel polski. Zdanie EN → PL.",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "want_like_seed",
+      "title": "Chcę · lubię · ramy",
+      "items": [
+        {
+          "en": "I want a coffee.",
+          "pl": "Chcę kawę.",
+          "gap": "Chcę ____.",
+          "gap_answer": "kawę",
+          "accepts": [
+            "Chcę kawę.",
+            "Ja chcę kawę.",
+            "Poproszę kawę."
+          ]
+        },
+        {
+          "en": "I want a beer.",
+          "pl": "Chcę piwo.",
+          "gap": "Chcę ____.",
+          "gap_answer": "piwo",
+          "accepts": ["Chcę piwo.", "Ja chcę piwo.", "Poproszę piwo."]
+        },
+        {
+          "en": "I would like a tea, please.",
+          "pl": "Chciałbym herbatę, proszę.",
+          "gap": "Chciałbym ____, proszę.",
+          "gap_answer": "herbatę",
+          "accepts": [
+            "Chciałbym herbatę, proszę.",
+            "Chciałabym herbatę, proszę.",
+            "Chcę herbatę, proszę.",
+            "Poproszę herbatę."
+          ]
+        },
+        {
+          "en": "I like Warsaw.",
+          "pl": "Lubię Warszawę.",
+          "gap": "Lubię ____.",
+          "gap_answer": "Warszawę",
+          "accepts": ["Lubię Warszawę.", "Podoba mi się Warszawa."]
+        },
+        {
+          "en": "I like coffee.",
+          "pl": "Lubię kawę.",
+          "gap": "Lubię ____.",
+          "gap_answer": "kawę",
+          "accepts": ["Lubię kawę."]
+        },
+        {
+          "en": "I do not like beer.",
+          "pl": "Nie lubię piwa.",
+          "gap": "Nie lubię ____.",
+          "gap_answer": "piwa",
+          "accepts": ["Nie lubię piwa."]
+        },
+        {
+          "en": "I want water, please.",
+          "pl": "Chcę wodę, proszę.",
+          "gap": "Chcę ____, proszę.",
+          "gap_answer": "wodę",
+          "accepts": [
+            "Chcę wodę, proszę.",
+            "Wodę, proszę.",
+            "Poproszę wodę."
+          ]
+        },
+        {
+          "en": "Can I have the bill, please?",
+          "pl": "Rachunek, proszę.",
+          "gap": "____, proszę.",
+          "gap_answer": "Rachunek",
+          "accepts": [
+            "Rachunek, proszę.",
+            "Poproszę rachunek.",
+            "Czy mogę dostać rachunek?"
+          ]
+        },
+        {
+          "en": "I want this.",
+          "pl": "Chcę to.",
+          "gap": "Chcę ____.",
+          "gap_answer": "to",
+          "accepts": ["Chcę to.", "Ja chcę to.", "Chcę to."]
+        },
+        {
+          "en": "I like this restaurant.",
+          "pl": "Lubię tę restaurację.",
+          "gap": "Lubię tę ____.",
+          "gap_answer": "restaurację",
+          "accepts": [
+            "Lubię tę restaurację.",
+            "Podoba mi się ta restauracja."
+          ]
+        },
+        {
+          "en": "I want to eat.",
+          "pl": "Chcę jeść.",
+          "gap": "Chcę ____.",
+          "gap_answer": "jeść",
+          "accepts": ["Chcę jeść.", "Chcę zjeść."]
+        },
+        {
+          "en": "I do not want coffee.",
+          "pl": "Nie chcę kawy.",
+          "gap": "Nie chcę ____.",
+          "gap_answer": "kawy",
+          "accepts": ["Nie chcę kawy.", "Ja nie chcę kawy."]
+        }
+      ]
+    }
+  ]
+}

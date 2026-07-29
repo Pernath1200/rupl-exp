@@ -1,0 +1,101 @@
+{
+  "id": "a1_trunk_prepositions",
+  "title": "Przyimki miejsca",
+  "level": "A1",
+  "tree_node": "trunk_prepositions_a1",
+  "practice": "frames",
+  "note": "A1 · w / na / pod / obok · luka na przyimek lub rzeczownik · EN → PL",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "prep_place",
+      "title": "Przyimki · miejsce",
+      "items": [
+        {
+          "en": "The book is on the table.",
+          "pl": "Książka jest na stole.",
+          "gap": "Książka jest ____ stole.",
+          "gap_answer": "na",
+          "accepts": ["Książka jest na stole."]
+        },
+        {
+          "en": "The keys are in the bag.",
+          "pl": "Klucze są w torbie.",
+          "gap": "Klucze są ____ torbie.",
+          "gap_answer": "w",
+          "accepts": ["Klucze są w torbie."]
+        },
+        {
+          "en": "The cat is under the chair.",
+          "pl": "Kot jest pod krzesłem.",
+          "gap": "Kot jest ____ krzesłem.",
+          "gap_answer": "pod",
+          "accepts": ["Kot jest pod krzesłem."]
+        },
+        {
+          "en": "The shop is next to the bank.",
+          "pl": "Sklep jest obok banku.",
+          "gap": "Sklep jest ____ banku.",
+          "gap_answer": "obok",
+          "accepts": ["Sklep jest obok banku.", "Sklep jest koło banku."]
+        },
+        {
+          "en": "I am at home.",
+          "pl": "Jestem w domu.",
+          "gap": "Jestem ____ domu.",
+          "gap_answer": "w",
+          "accepts": ["Jestem w domu.", "Jestem u siebie."]
+        },
+        {
+          "en": "She is at school.",
+          "pl": "Ona jest w szkole.",
+          "gap": "Ona jest ____ szkole.",
+          "gap_answer": "w",
+          "accepts": ["Ona jest w szkole.", "Jest w szkole."]
+        },
+        {
+          "en": "We are in Warsaw.",
+          "pl": "Jesteśmy w Warszawie.",
+          "gap": "Jesteśmy w ____.",
+          "gap_answer": "Warszawie",
+          "accepts": ["Jesteśmy w Warszawie."]
+        },
+        {
+          "en": "The bus stop is near the park.",
+          "pl": "Przystanek jest blisko parku.",
+          "gap": "Przystanek jest ____ parku.",
+          "gap_answer": "blisko",
+          "accepts": ["Przystanek jest blisko parku.", "Przystanek jest koło parku."]
+        },
+        {
+          "en": "He is from Poland.",
+          "pl": "On jest z Polski.",
+          "gap": "On jest z ____.",
+          "gap_answer": "Polski",
+          "accepts": ["On jest z Polski.", "Jest z Polski."]
+        },
+        {
+          "en": "The picture is above the bed.",
+          "pl": "Obraz jest nad łóżkiem.",
+          "gap": "Obraz jest ____ łóżkiem.",
+          "gap_answer": "nad",
+          "accepts": ["Obraz jest nad łóżkiem."]
+        },
+        {
+          "en": "Come with me.",
+          "pl": "Chodź ze mną.",
+          "gap": "Chodź ____ mną.",
+          "gap_answer": "ze",
+          "accepts": ["Chodź ze mną.", "Idź ze mną."]
+        },
+        {
+          "en": "The café is between the shop and the hotel.",
+          "pl": "Kawiarnia jest między sklepem a hotelem.",
+          "gap": "Kawiarnia jest ____ sklepem a hotelem.",
+          "gap_answer": "między",
+          "accepts": ["Kawiarnia jest między sklepem a hotelem."]
+        }
+      ]
+    }
+  ]
+}

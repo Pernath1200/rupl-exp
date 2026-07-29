@@ -1,0 +1,137 @@
+{
+  "id": "a1_trunk_social",
+  "title": "Społeczne · grzeczności",
+  "level": "A1",
+  "tree_node": "trunk_social_a1",
+  "practice": "frames",
+  "note": "Dzień pierwszy w mieście. Luka na kluczowe polskie słowo. Zdanie = pełne PL z EN.",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "social_hello",
+      "title": "Cześć i do widzenia",
+      "items": [
+        {
+          "en": "Good day. / Hello (polite).",
+          "pl": "Dzień dobry.",
+          "gap": "____ dobry.",
+          "gap_answer": "Dzień",
+          "accepts": [
+            "Dzień dobry."
+          ]
+        },
+        {
+          "en": "Hi (friends).",
+          "pl": "Cześć.",
+          "gap": "____.",
+          "gap_answer": "Cześć",
+          "accepts": [
+            "Cześć.",
+            "Hej."
+          ]
+        },
+        {
+          "en": "Goodbye (polite).",
+          "pl": "Do widzenia.",
+          "gap": "Do ____.",
+          "gap_answer": "widzenia",
+          "accepts": [
+            "Do widzenia.",
+            "Do widzenia"
+          ]
+        },
+        {
+          "en": "Please.",
+          "pl": "Proszę.",
+          "gap": "____.",
+          "gap_answer": "Proszę",
+          "accepts": [
+            "Proszę."
+          ]
+        },
+        {
+          "en": "Thank you.",
+          "pl": "Dziękuję.",
+          "gap": "____.",
+          "gap_answer": "Dziękuję",
+          "accepts": [
+            "Dziękuję.",
+            "Dzięki.",
+            "Dzieki."
+          ]
+        },
+        {
+          "en": "You're welcome. / Please. (reply to thanks)",
+          "pl": "Proszę.",
+          "gap": "____. (odpowiedź na dziękuję)",
+          "gap_answer": "Proszę",
+          "accepts": [
+            "Proszę.",
+            "Nie ma za co.",
+            "Nie ma za co"
+          ]
+        },
+        {
+          "en": "Excuse me. / Sorry. (polite)",
+          "pl": "Przepraszam.",
+          "gap": "____.",
+          "gap_answer": "Przepraszam",
+          "accepts": [
+            "Przepraszam.",
+            "Przepraszam"
+          ]
+        },
+        {
+          "en": "Yes.",
+          "pl": "Tak.",
+          "gap": "____.",
+          "gap_answer": "Tak",
+          "accepts": [
+            "Tak.",
+            "Tak"
+          ]
+        },
+        {
+          "en": "No.",
+          "pl": "Nie.",
+          "gap": "____.",
+          "gap_answer": "Nie",
+          "accepts": [
+            "Nie.",
+            "Nie"
+          ]
+        },
+        {
+          "en": "Good morning.",
+          "pl": "Dzień dobry.",
+          "gap": "____ dobry. (rano / dzień)",
+          "gap_answer": "Dzień",
+          "accepts": [
+            "Dzień dobry."
+          ]
+        },
+        {
+          "en": "Good evening.",
+          "pl": "Dobry wieczór.",
+          "gap": "Dobry ____.",
+          "gap_answer": "wieczór",
+          "accepts": [
+            "Dobry wieczór."
+          ]
+        },
+        {
+          "en": "See you. (informal)",
+          "pl": "Na razie. / Cześć.",
+          "gap": "Na ____. (pa, nieformalnie)",
+          "gap_answer": "razie",
+          "accepts": [
+            "Na razie.",
+            "Cześć.",
+            "Pa.",
+            "Do zobaczenia."
+          ]
+        }
+      ]
+    }
+  ]
+}

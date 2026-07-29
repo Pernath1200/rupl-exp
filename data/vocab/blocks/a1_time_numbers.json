@@ -1,0 +1,388 @@
+{
+  "id": "a1_time_numbers",
+  "title": "Czas i liczby",
+  "level": "A1",
+  "tree_node": "leaf_time_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_time_numbers.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "time_numbers",
+      "title": "Time · numbers",
+      "items": [
+        {
+          "en": "one",
+          "pl": "jeden"
+        },
+        {
+          "en": "two",
+          "pl": "dwa"
+        },
+        {
+          "en": "three",
+          "pl": "trzy"
+        },
+        {
+          "en": "four",
+          "pl": "cztery"
+        },
+        {
+          "en": "five",
+          "pl": "pięć"
+        },
+        {
+          "en": "six",
+          "pl": "sześć"
+        },
+        {
+          "en": "seven",
+          "pl": "siedem"
+        },
+        {
+          "en": "eight",
+          "pl": "osiem"
+        },
+        {
+          "en": "nine",
+          "pl": "dziewięć"
+        },
+        {
+          "en": "ten",
+          "pl": "dziesięć"
+        },
+        {
+          "en": "twenty",
+          "pl": "dwadzieścia"
+        },
+        {
+          "en": "hundred",
+          "pl": "sto"
+        }
+      ]
+    },
+    {
+      "id": "time_days",
+      "title": "Time · days",
+      "items": [
+        {
+          "en": "Monday",
+          "pl": "poniedziałek"
+        },
+        {
+          "en": "Tuesday",
+          "pl": "wtorek"
+        },
+        {
+          "en": "Wednesday",
+          "pl": "środa"
+        },
+        {
+          "en": "Thursday",
+          "pl": "czwartek"
+        },
+        {
+          "en": "Friday",
+          "pl": "piątek"
+        },
+        {
+          "en": "Saturday",
+          "pl": "sobota"
+        },
+        {
+          "en": "Sunday",
+          "pl": "niedziela"
+        },
+        {
+          "en": "day",
+          "pl": "dzień"
+        },
+        {
+          "en": "week",
+          "pl": "tydzień"
+        },
+        {
+          "en": "weekend",
+          "pl": "weekend"
+        },
+        {
+          "en": "today",
+          "pl": "dzisiaj"
+        },
+        {
+          "en": "tomorrow",
+          "pl": "jutro"
+        }
+      ]
+    },
+    {
+      "id": "time_parts",
+      "title": "Time · parts of the day",
+      "items": [
+        {
+          "en": "yesterday",
+          "pl": "wczoraj"
+        },
+        {
+          "en": "morning",
+          "pl": "rano"
+        },
+        {
+          "en": "afternoon",
+          "pl": "popołudnie"
+        },
+        {
+          "en": "evening",
+          "pl": "wieczór"
+        },
+        {
+          "en": "night",
+          "pl": "noc"
+        },
+        {
+          "en": "time",
+          "pl": "czas"
+        },
+        {
+          "en": "hour",
+          "pl": "godzina"
+        },
+        {
+          "en": "minute",
+          "pl": "minuta"
+        },
+        {
+          "en": "early",
+          "pl": "wcześnie"
+        },
+        {
+          "en": "late",
+          "pl": "późno"
+        },
+        {
+          "en": "now",
+          "pl": "teraz"
+        },
+        {
+          "en": "always",
+          "pl": "zawsze"
+        }
+      ]
+    },
+    {
+      "id": "time_months",
+      "title": "Time · months",
+      "items": [
+        {
+          "en": "January",
+          "pl": "styczeń"
+        },
+        {
+          "en": "February",
+          "pl": "luty"
+        },
+        {
+          "en": "March",
+          "pl": "marzec"
+        },
+        {
+          "en": "April",
+          "pl": "kwiecień"
+        },
+        {
+          "en": "May",
+          "pl": "maj"
+        },
+        {
+          "en": "June",
+          "pl": "czerwiec"
+        },
+        {
+          "en": "July",
+          "pl": "lipiec"
+        },
+        {
+          "en": "August",
+          "pl": "sierpień"
+        },
+        {
+          "en": "September",
+          "pl": "wrzesień"
+        },
+        {
+          "en": "October",
+          "pl": "październik"
+        },
+        {
+          "en": "November",
+          "pl": "listopad"
+        },
+        {
+          "en": "December",
+          "pl": "grudzień"
+        }
+      ]
+    },
+    {
+      "id": "time_numbers_teens",
+      "title": "Time · teens & big numbers",
+      "items": [
+        {
+          "en": "eleven",
+          "pl": "jedenaście"
+        },
+        {
+          "en": "twelve",
+          "pl": "dwanaście"
+        },
+        {
+          "en": "thirteen",
+          "pl": "trzynaście"
+        },
+        {
+          "en": "fourteen",
+          "pl": "czternaście"
+        },
+        {
+          "en": "fifteen",
+          "pl": "piętnaście"
+        },
+        {
+          "en": "sixteen",
+          "pl": "szesnaście"
+        },
+        {
+          "en": "seventeen",
+          "pl": "siedemnaście"
+        },
+        {
+          "en": "eighteen",
+          "pl": "osiemnaście"
+        },
+        {
+          "en": "nineteen",
+          "pl": "dziewiętnaście"
+        },
+        {
+          "en": "thirty",
+          "pl": "trzydzieści"
+        },
+        {
+          "en": "thousand",
+          "pl": "tysiąc"
+        },
+        {
+          "en": "million",
+          "pl": "milion"
+        }
+      ]
+    },
+    {
+      "id": "time_numbers_tens",
+      "title": "Time · tens & ordinals",
+      "items": [
+        {
+          "en": "forty",
+          "pl": "czterdzieści"
+        },
+        {
+          "en": "fifty",
+          "pl": "pięćdziesiąt"
+        },
+        {
+          "en": "sixty",
+          "pl": "sześćdziesiąt"
+        },
+        {
+          "en": "seventy",
+          "pl": "siedemdziesiąt"
+        },
+        {
+          "en": "eighty",
+          "pl": "osiemdziesiąt"
+        },
+        {
+          "en": "ninety",
+          "pl": "dziewięćdziesiąt"
+        },
+        {
+          "en": "first",
+          "pl": "pierwszy"
+        },
+        {
+          "en": "second (ordinal)",
+          "pl": "drugi"
+        },
+        {
+          "en": "third",
+          "pl": "trzeci"
+        },
+        {
+          "en": "fourth",
+          "pl": "czwarty"
+        },
+        {
+          "en": "fifth",
+          "pl": "piąty"
+        },
+        {
+          "en": "number",
+          "pl": "liczba"
+        }
+      ]
+    },
+    {
+      "id": "time_frequency",
+      "title": "Time · frequency & more",
+      "items": [
+        {
+          "en": "never",
+          "pl": "nigdy"
+        },
+        {
+          "en": "often",
+          "pl": "często"
+        },
+        {
+          "en": "sometimes",
+          "pl": "czasami"
+        },
+        {
+          "en": "soon",
+          "pl": "wkrótce"
+        },
+        {
+          "en": "ago",
+          "pl": "temu"
+        },
+        {
+          "en": "tonight",
+          "pl": "dziś wieczorem"
+        },
+        {
+          "en": "month",
+          "pl": "miesiąc"
+        },
+        {
+          "en": "year",
+          "pl": "rok"
+        },
+        {
+          "en": "once",
+          "pl": "raz"
+        },
+        {
+          "en": "twice",
+          "pl": "dwa razy"
+        },
+        {
+          "en": "half",
+          "pl": "pół"
+        },
+        {
+          "en": "quarter",
+          "pl": "kwadrans"
+        }
+      ]
+    }
+  ]
+}

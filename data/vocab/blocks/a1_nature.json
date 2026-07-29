@@ -1,0 +1,172 @@
+{
+  "id": "a1_nature",
+  "title": "Przyroda i pogoda",
+  "level": "A1",
+  "tree_node": "leaf_nature_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_nature.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "nature_world",
+      "title": "Nature · world",
+      "items": [
+        {
+          "en": "nature",
+          "pl": "przyroda"
+        },
+        {
+          "en": "weather",
+          "pl": "pogoda"
+        },
+        {
+          "en": "sun",
+          "pl": "słońce"
+        },
+        {
+          "en": "rain",
+          "pl": "deszcz"
+        },
+        {
+          "en": "snow",
+          "pl": "śnieg"
+        },
+        {
+          "en": "wind",
+          "pl": "wiatr"
+        },
+        {
+          "en": "cloud",
+          "pl": "chmura"
+        },
+        {
+          "en": "sky",
+          "pl": "niebo"
+        },
+        {
+          "en": "air",
+          "pl": "powietrze"
+        },
+        {
+          "en": "tree",
+          "pl": "drzewo"
+        },
+        {
+          "en": "flower",
+          "pl": "kwiat"
+        },
+        {
+          "en": "plant",
+          "pl": "roślina"
+        }
+      ]
+    },
+    {
+      "id": "nature_land",
+      "title": "Nature · land & water",
+      "items": [
+        {
+          "en": "mountain",
+          "pl": "góra"
+        },
+        {
+          "en": "hill",
+          "pl": "wzgórze"
+        },
+        {
+          "en": "river",
+          "pl": "rzeka"
+        },
+        {
+          "en": "sea",
+          "pl": "morze"
+        },
+        {
+          "en": "lake",
+          "pl": "jezioro"
+        },
+        {
+          "en": "island",
+          "pl": "wyspa"
+        },
+        {
+          "en": "forest",
+          "pl": "las"
+        },
+        {
+          "en": "field",
+          "pl": "pole"
+        },
+        {
+          "en": "land",
+          "pl": "ląd"
+        },
+        {
+          "en": "world",
+          "pl": "świat"
+        },
+        {
+          "en": "earth",
+          "pl": "ziemia"
+        },
+        {
+          "en": "space",
+          "pl": "kosmos"
+        }
+      ]
+    },
+    {
+      "id": "nature_seasons",
+      "title": "Nature · seasons & feel",
+      "items": [
+        {
+          "en": "spring",
+          "pl": "wiosna"
+        },
+        {
+          "en": "summer",
+          "pl": "lato"
+        },
+        {
+          "en": "autumn",
+          "pl": "jesień"
+        },
+        {
+          "en": "winter",
+          "pl": "zima"
+        },
+        {
+          "en": "warm",
+          "pl": "ciepło"
+        },
+        {
+          "en": "cool",
+          "pl": "chłodno"
+        },
+        {
+          "en": "dry",
+          "pl": "suchy"
+        },
+        {
+          "en": "wet",
+          "pl": "mokry"
+        },
+        {
+          "en": "dark",
+          "pl": "ciemny"
+        },
+        {
+          "en": "light",
+          "pl": "jasny"
+        },
+        {
+          "en": "fire",
+          "pl": "ogień"
+        },
+        {
+          "en": "star",
+          "pl": "gwiazda"
+        }
+      ]
+    }
+  ]
+}

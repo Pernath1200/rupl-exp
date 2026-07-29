@@ -1,0 +1,116 @@
+{
+  "id": "a1_trunk_be_have",
+  "title": "Być · mieć · ramy",
+  "level": "A1",
+  "tree_node": "trunk_be_have_a1",
+  "practice": "frames",
+  "note": "Seed bez narzędnika tożsamości (Jestem studentem → RUPL2). Tu: być + adj/miejsce/skąd, to jest + mianownik, mieć + częste dopełnienie. Naturalny PL only. Cross-link: RUPL2 · być + zawód (narzędnik).",
+  "default_direction": "en_to_pl",
+  "grammar_link": {
+    "app": "rupl2",
+    "topic": "być + zawód / tożsamość · narzędnik",
+    "status": "planned"
+  },
+  "blocks": [
+    {
+      "id": "be_have_seed",
+      "title": "Być i mieć · ramy",
+      "items": [
+        {
+          "en": "I am tired.",
+          "pl": "Jestem zmęczony.",
+          "gap": "Jestem ____.",
+          "gap_answer": "zmęczony",
+          "accepts": [
+            "Jestem zmęczony.",
+            "Jestem zmęczona.",
+            "Ja jestem zmęczony.",
+            "Ja jestem zmęczona."
+          ]
+        },
+        {
+          "en": "I am happy.",
+          "pl": "Jestem szczęśliwy.",
+          "gap": "Jestem ____.",
+          "gap_answer": "szczęśliwy",
+          "accepts": [
+            "Jestem szczęśliwy.",
+            "Jestem szczęśliwa.",
+            "Ja jestem szczęśliwy.",
+            "Ja jestem szczęśliwa."
+          ]
+        },
+        {
+          "en": "I am at home.",
+          "pl": "Jestem w domu.",
+          "gap": "Jestem w ____.",
+          "gap_answer": "domu",
+          "accepts": ["Jestem w domu.", "Ja jestem w domu."]
+        },
+        {
+          "en": "She is at school.",
+          "pl": "Ona jest w szkole.",
+          "gap": "Ona jest w ____.",
+          "gap_answer": "szkole",
+          "accepts": ["Ona jest w szkole.", "Jest w szkole."]
+        },
+        {
+          "en": "I am from Warsaw.",
+          "pl": "Jestem z Warszawy.",
+          "gap": "Jestem z ____.",
+          "gap_answer": "Warszawy",
+          "accepts": ["Jestem z Warszawy.", "Ja jestem z Warszawy."]
+        },
+        {
+          "en": "This is my brother.",
+          "pl": "To jest mój brat.",
+          "gap": "To jest mój ____.",
+          "gap_answer": "brat",
+          "accepts": ["To jest mój brat.", "To mój brat."]
+        },
+        {
+          "en": "This is my bag.",
+          "pl": "To jest moja torba.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "torba",
+          "accepts": ["To jest moja torba.", "To moja torba."]
+        },
+        {
+          "en": "My name is Anna.",
+          "pl": "Nazywam się Anna.",
+          "gap": "Nazywam się ____.",
+          "gap_answer": "Anna",
+          "accepts": ["Nazywam się Anna.", "Mam na imię Anna."]
+        },
+        {
+          "en": "I have a car.",
+          "pl": "Mam samochód.",
+          "gap": "Mam ____.",
+          "gap_answer": "samochód",
+          "accepts": ["Mam samochód.", "Ja mam samochód.", "Mam auto."]
+        },
+        {
+          "en": "I have a house.",
+          "pl": "Mam dom.",
+          "gap": "Mam ____.",
+          "gap_answer": "dom",
+          "accepts": ["Mam dom.", "Ja mam dom."]
+        },
+        {
+          "en": "I have a phone.",
+          "pl": "Mam telefon.",
+          "gap": "Mam ____.",
+          "gap_answer": "telefon",
+          "accepts": ["Mam telefon.", "Mam komórkę."]
+        },
+        {
+          "en": "There is a table.",
+          "pl": "Jest stół.",
+          "gap": "Jest ____.",
+          "gap_answer": "stół",
+          "accepts": ["Jest stół.", "Jest tu stół.", "Tam jest stół."]
+        }
+      ]
+    }
+  ]
+}

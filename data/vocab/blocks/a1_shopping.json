@@ -1,0 +1,172 @@
+{
+  "id": "a1_shopping",
+  "title": "Zakupy",
+  "level": "A1",
+  "tree_node": "leaf_shopping_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_shopping.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "shop_money",
+      "title": "Shopping · money",
+      "items": [
+        {
+          "en": "money",
+          "pl": "pieniądze"
+        },
+        {
+          "en": "price",
+          "pl": "cena"
+        },
+        {
+          "en": "cost",
+          "pl": "kosztować"
+        },
+        {
+          "en": "cheap",
+          "pl": "tani"
+        },
+        {
+          "en": "expensive",
+          "pl": "drogi"
+        },
+        {
+          "en": "buy",
+          "pl": "kupować"
+        },
+        {
+          "en": "sell",
+          "pl": "sprzedawać"
+        },
+        {
+          "en": "pay",
+          "pl": "płacić"
+        },
+        {
+          "en": "pound",
+          "pl": "funt"
+        },
+        {
+          "en": "euro",
+          "pl": "euro"
+        },
+        {
+          "en": "dollar",
+          "pl": "dolar"
+        },
+        {
+          "en": "cent",
+          "pl": "cent"
+        }
+      ]
+    },
+    {
+      "id": "shop_doing",
+      "title": "Shopping · doing it",
+      "items": [
+        {
+          "en": "shopping",
+          "pl": "zakupy"
+        },
+        {
+          "en": "shop (verb)",
+          "pl": "sklep"
+        },
+        {
+          "en": "customer",
+          "pl": "klient"
+        },
+        {
+          "en": "card",
+          "pl": "karta"
+        },
+        {
+          "en": "cash",
+          "pl": "gotówka"
+        },
+        {
+          "en": "change (money)",
+          "pl": "reszta"
+        },
+        {
+          "en": "receipt",
+          "pl": "paragon"
+        },
+        {
+          "en": "bag",
+          "pl": "torba"
+        },
+        {
+          "en": "size",
+          "pl": "rozmiar"
+        },
+        {
+          "en": "open",
+          "pl": "otwarty"
+        },
+        {
+          "en": "closed",
+          "pl": "zamknięty"
+        },
+        {
+          "en": "free (no cost)",
+          "pl": "za darmo"
+        }
+      ]
+    },
+    {
+      "id": "shop_extra",
+      "title": "Shopping · more",
+      "items": [
+        {
+          "en": "discount",
+          "pl": "zniżka"
+        },
+        {
+          "en": "sale",
+          "pl": "wyprzedaż"
+        },
+        {
+          "en": "offer",
+          "pl": "oferta"
+        },
+        {
+          "en": "refund",
+          "pl": "zwrot pieniędzy"
+        },
+        {
+          "en": "queue",
+          "pl": "kolejka"
+        },
+        {
+          "en": "counter",
+          "pl": "lada"
+        },
+        {
+          "en": "checkout",
+          "pl": "kasa"
+        },
+        {
+          "en": "wallet",
+          "pl": "portfel"
+        },
+        {
+          "en": "purse",
+          "pl": "portmonetka"
+        },
+        {
+          "en": "try on",
+          "pl": "przymierzać"
+        },
+        {
+          "en": "market",
+          "pl": "targ"
+        },
+        {
+          "en": "department store",
+          "pl": "dom handlowy"
+        }
+      ]
+    }
+  ]
+}

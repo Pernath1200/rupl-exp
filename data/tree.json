@@ -1,0 +1,513 @@
+{
+  "version": 1,
+  "app": "rupl-exp",
+  "title": "Polski · drzewo eksperymentalne",
+  "levels": [
+    "A1",
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "levels_locked": [
+    "A2",
+    "B1",
+    "B2"
+  ],
+  "default_direction": "en_to_pl",
+  "path_order": [
+    "trunk_social_a1",
+    "a1_gender",
+    "leaf_home_family",
+    "a1_hello",
+    "trunk_be_have_a1",
+    "a1_gender_check",
+    "leaf_food_a1",
+    "a1_miec",
+    "a1_acc_gym",
+    "a1_present",
+    "a1_present_gym",
+    "leaf_freetime_a1",
+    "trunk_want_like_a1",
+    "leaf_places",
+    "leaf_city_a1",
+    "leaf_work_a1"
+  ],
+  "path_order_note": "Spine teach→use pairs; grammar gyms inserted after support targets.",
+  "spine": "data/spine.json",
+  "show_full_canopy_ids": {
+    "grammar": [
+      "a1_gender",
+      "a1_hello",
+      "a1_gender_check",
+      "a1_present",
+      "a1_miec",
+      "a1_acc_gym",
+      "a1_present_gym"
+    ],
+    "vocab": [
+      "trunk_social_a1",
+      "trunk_be_have_a1",
+      "trunk_want_like_a1",
+      "trunk_prepositions_a1",
+      "trunk_adjectives_a1",
+      "trunk_can_a1",
+      "trunk_there_time_a1",
+      "trunk_verbs_daily_a1",
+      "leaf_home_family",
+      "leaf_places",
+      "leaf_food_a1",
+      "leaf_time_a1",
+      "leaf_freetime_a1",
+      "leaf_work_a1",
+      "leaf_colours_a1",
+      "leaf_clothes_a1",
+      "leaf_body_a1",
+      "leaf_health_a1",
+      "leaf_animals_a1",
+      "leaf_school_a1",
+      "leaf_tech_a1",
+      "leaf_shopping_a1",
+      "leaf_nature_a1",
+      "leaf_ideas_a1",
+      "leaf_city_a1"
+    ]
+  },
+  "roots": [
+    {
+      "id": "forms",
+      "label": "Formy",
+      "short": "Frm",
+      "note": "Rodzaj, mianownik, lekka zgoda przymiotnika, biernik lekko"
+    },
+    {
+      "id": "verbs",
+      "label": "Czasowniki",
+      "short": "Czs",
+      "note": "być, mieć, odmiana teraźniejsza, przeczenie"
+    },
+    {
+      "id": "sentence",
+      "label": "Zdanie",
+      "short": "Zdn",
+      "note": "Pytania, szyk, zaimki w kontekście"
+    },
+    {
+      "id": "chunks",
+      "label": "Chunki",
+      "short": "Chk",
+      "note": "Pozdrowienia, sklep, kawiarnia, tramwaj"
+    },
+    {
+      "id": "links",
+      "label": "Spójniki",
+      "short": "Spj",
+      "note": "a / ale / bo · przyimki z lekkim przypadkiem"
+    }
+  ],
+  "tap_root": {
+    "id": "tap_root",
+    "label": "Kół",
+    "note": "Fundament. Grubieje z tematów foundation (hello+być, gender, questions)."
+  },
+  "nodes": [
+    {
+      "id": "trunk_social_a1",
+      "domain": "vocab",
+      "label": "Społeczne",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "codex_unit": "V_PL_COR-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_social.json",
+      "practice": "vocab",
+      "note": "Żywe · powitania i grzeczności",
+      "unit_id": "PL_SOC_01",
+      "spine_steps": [
+        "PL_SOC_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
+      "id": "a1_gender",
+      "domain": "grammar",
+      "label": "Rodzaj + to jest",
+      "label_en": "Gender + this is",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "codex_unit": "G_PL_FORM-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_gender.json",
+      "practice": "grammar",
+      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel",
+      "unit_id": "PL_NOM_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_01"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_home_family"
+    },
+    {
+      "id": "leaf_home_family",
+      "domain": "vocab",
+      "label": "Dom i rodzina",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "home_family",
+      "codex_unit": "V_PL_HOM-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_home_family.json",
+      "practice": "vocab",
+      "note": "Żywe · mieszkanie + ludzie",
+      "unit_id": "PL_NOM_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_gender"
+    },
+    {
+      "id": "a1_hello",
+      "domain": "grammar",
+      "label": "Być · fundament",
+      "label_en": "Być seed (not greetings)",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "codex_unit": "G_PL_VP-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_hello.json",
+      "practice": "grammar",
+      "note": "jestem jesteś jest … · to jest · grzeczność = RUPL3",
+      "unit_id": "PL_BE_SAFE_01",
+      "spine_steps": [
+        "PL_BE_SAFE_01"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "trunk_be_have_a1"
+    },
+    {
+      "id": "trunk_be_have_a1",
+      "domain": "vocab",
+      "label": "Być · mieć",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "codex_unit": "V_PL_COR-A1-02",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_be_have.json",
+      "practice": "vocab",
+      "note": "Żywe · być/mieć seed bez narzędnika tożsamości · zawody → RUPL2",
+      "unit_id": "PL_BE_SAFE_01",
+      "case_tags": [
+        "prep_light"
+      ],
+      "spine_steps": [
+        "PL_BE_SAFE_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_hello"
+    },
+    {
+      "id": "a1_gender_check",
+      "domain": "grammar",
+      "label": "Zgoda: rzeczownik + przymiotnik",
+      "label_en": "Noun–adjective agreement",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "codex_unit": "G_PL_FORM-A1-02",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_gender_check.json",
+      "practice": "grammar",
+      "note": "dobry / dobra / dobre + rzeczownik · mianownik",
+      "unit_id": "PL_NOM_02",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_02"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_food_a1"
+    },
+    {
+      "id": "leaf_food_a1",
+      "domain": "vocab",
+      "label": "Jedzenie i picie",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "food_shopping",
+      "codex_unit": "V_PL_FOOD-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_food.json",
+      "practice": "vocab",
+      "note": "Żywe · kawiarnia i stół",
+      "unit_id": "PL_ACC_01",
+      "case_tags": [
+        "acc"
+      ],
+      "spine_steps": [
+        "PL_ACC_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_miec"
+    },
+    {
+      "id": "a1_miec",
+      "domain": "grammar",
+      "label": "Mieć + biernik",
+      "label_en": "Have + accusative light",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "codex_unit": "G_PL_VP-A1-03",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_miec.json",
+      "practice": "grammar",
+      "note": "mam/masz/ma + Acc -ę gaps",
+      "unit_id": "PL_ACC_01",
+      "case_tags": [
+        "acc"
+      ],
+      "spine_steps": [
+        "PL_ACC_01",
+        "PL_ACC_02"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "trunk_want_like_a1"
+    },
+    {
+      "id": "a1_acc_gym",
+      "domain": "grammar",
+      "label": "Siłownia · biernik -ę",
+      "label_en": "Accusative ending gym",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "codex_unit": "G_PL_FORM-A1-03",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_acc_gym.json",
+      "practice": "grammar",
+      "note": "volume after Acc teach · not a spine step",
+      "case_tags": [
+        "acc"
+      ],
+      "pedagogy": "drill",
+      "spine_support_of": "a1_miec"
+    },
+    {
+      "id": "a1_present",
+      "domain": "grammar",
+      "label": "Teraźniejszy (ja/ty/on)",
+      "label_en": "Present I/you/he",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "codex_unit": "G_PL_VP-A1-02",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_present.json",
+      "practice": "grammar",
+      "note": "wzorce + gap: mówić, mieszkać, lubić, chcieć",
+      "unit_id": "PL_PRES_01",
+      "spine_steps": [
+        "PL_PRES_01"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_freetime_a1"
+    },
+    {
+      "id": "a1_present_gym",
+      "domain": "grammar",
+      "label": "Siłownia · teraźniejszy",
+      "label_en": "Present ending gym",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "codex_unit": "G_PL_VP-A1-02",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_present_gym.json",
+      "practice": "grammar",
+      "note": "volume after present teach · not a spine step",
+      "pedagogy": "drill",
+      "spine_support_of": "a1_present"
+    },
+    {
+      "id": "leaf_freetime_a1",
+      "domain": "vocab",
+      "label": "Czas wolny",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "codex_unit": "V_PL_FREE-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_freetime.json",
+      "practice": "vocab",
+      "note": "Żywe · hobby i uczucia",
+      "unit_id": "PL_PRES_01",
+      "spine_steps": [
+        "PL_PRES_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_present"
+    },
+    {
+      "id": "trunk_want_like_a1",
+      "domain": "vocab",
+      "label": "Chcę · lubię",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "codex_unit": "V_PL_COR-A1-03",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_want_like.json",
+      "practice": "vocab",
+      "note": "Żywe · chcieć / lubić",
+      "unit_id": "PL_ACC_02",
+      "case_tags": [
+        "acc"
+      ],
+      "spine_steps": [
+        "PL_ACC_02"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_miec"
+    },
+    {
+      "id": "leaf_places",
+      "domain": "vocab",
+      "label": "Miejsca",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "travel_city",
+      "codex_unit": "V_PL_PLACE-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_places.json",
+      "practice": "vocab",
+      "note": "Żywe · miejsca w mieście",
+      "unit_id": "PL_PREP_01",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_prep_place"
+    },
+    {
+      "id": "leaf_city_a1",
+      "domain": "vocab",
+      "label": "Miasto i transport",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "travel_city",
+      "codex_unit": "V_PL_CITY-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_city.json",
+      "practice": "vocab",
+      "note": "Żywe · bilety, kierunki, komunikacja",
+      "unit_id": "PL_PREP_02",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_02"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_prep_place"
+    },
+    {
+      "id": "leaf_work_a1",
+      "domain": "vocab",
+      "label": "Praca",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "work_routine",
+      "codex_unit": "V_PL_WRK-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_work.json",
+      "practice": "vocab",
+      "note": "Żywe · zawody i biuro",
+      "unit_id": "PL_INST_01",
+      "case_tags": [
+        "inst"
+      ],
+      "spine_steps": [
+        "PL_INST_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_inst_job"
+    }
+  ],
+  "synced_from": {
+    "rupl2": "C:\\Users\\ADMIN\\Documents\\projects\\rupl2",
+    "rupl3": "C:\\Users\\ADMIN\\Documents\\projects\\rupl3",
+    "spine": "C:\\Users\\ADMIN\\Documents\\projects\\pl-a1-spine.json",
+    "codex": "C:\\Users\\ADMIN\\Documents\\projects\\rupl-codex\\codex.json"
+  },
+  "topology_ref": "../rupl-codex/topology.json"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "a1_school",
+  "title": "Szkoła",
+  "level": "A1",
+  "tree_node": "leaf_school_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_school.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "school_place",
+      "title": "School · place",
+      "items": [
+        {
+          "en": "class",
+          "pl": "klasa"
+        },
+        {
+          "en": "classroom",
+          "pl": "klasa"
+        },
+        {
+          "en": "lesson",
+          "pl": "lekcja"
+        },
+        {
+          "en": "course",
+          "pl": "kurs"
+        },
+        {
+          "en": "college",
+          "pl": "kolegium"
+        },
+        {
+          "en": "subject",
+          "pl": "przedmiot"
+        },
+        {
+          "en": "homework",
+          "pl": "praca domowa"
+        },
+        {
+          "en": "exam",
+          "pl": "egzamin"
+        },
+        {
+          "en": "test",
+          "pl": "sprawdzian"
+        },
+        {
+          "en": "dictionary",
+          "pl": "słownik"
+        },
+        {
+          "en": "language",
+          "pl": "język"
+        },
+        {
+          "en": "learn",
+          "pl": "uczyć się"
+        }
+      ]
+    },
+    {
+      "id": "school_tools",
+      "title": "School · tools & text",
+      "items": [
+        {
+          "en": "pen",
+          "pl": "długopis"
+        },
+        {
+          "en": "pencil",
+          "pl": "ołówek"
+        },
+        {
+          "en": "paper",
+          "pl": "papier"
+        },
+        {
+          "en": "page",
+          "pl": "strona"
+        },
+        {
+          "en": "word",
+          "pl": "słowo"
+        },
+        {
+          "en": "sentence",
+          "pl": "zdanie"
+        },
+        {
+          "en": "story",
+          "pl": "historia"
+        },
+        {
+          "en": "question",
+          "pl": "pytanie"
+        },
+        {
+          "en": "answer",
+          "pl": "odpowiedź"
+        },
+        {
+          "en": "example",
+          "pl": "przykład"
+        },
+        {
+          "en": "spelling",
+          "pl": "pisownia"
+        },
+        {
+          "en": "study",
+          "pl": "studiować"
+        }
+      ]
+    },
+    {
+      "id": "school_subjects",
+      "title": "School · subjects & ideas",
+      "items": [
+        {
+          "en": "history",
+          "pl": "historia"
+        },
+        {
+          "en": "geography",
+          "pl": "geografia"
+        },
+        {
+          "en": "science",
+          "pl": "nauki ścisłe"
+        },
+        {
+          "en": "scientist",
+          "pl": "naukowiec"
+        },
+        {
+          "en": "art",
+          "pl": "sztuka"
+        },
+        {
+          "en": "artist",
+          "pl": "artysta"
+        },
+        {
+          "en": "music",
+          "pl": "muzyka"
+        },
+        {
+          "en": "idea",
+          "pl": "pomysł"
+        },
+        {
+          "en": "problem",
+          "pl": "problem"
+        },
+        {
+          "en": "information",
+          "pl": "informacja"
+        },
+        {
+          "en": "opinion",
+          "pl": "opinia"
+        },
+        {
+          "en": "meaning",
+          "pl": "znaczenie"
+        }
+      ]
+    },
+    {
+      "id": "school_more",
+      "title": "School · more text",
+      "items": [
+        {
+          "en": "letter",
+          "pl": "list"
+        },
+        {
+          "en": "note",
+          "pl": "notatka"
+        },
+        {
+          "en": "list",
+          "pl": "lista"
+        },
+        {
+          "en": "text",
+          "pl": "tekst"
+        },
+        {
+          "en": "title",
+          "pl": "tytuł"
+        },
+        {
+          "en": "article",
+          "pl": "artykuł"
+        },
+        {
+          "en": "paragraph",
+          "pl": "akapit"
+        },
+        {
+          "en": "phrase",
+          "pl": "zwrot"
+        },
+        {
+          "en": "reading",
+          "pl": "czytanie"
+        },
+        {
+          "en": "writing",
+          "pl": "pisanie"
+        },
+        {
+          "en": "practice",
+          "pl": "ćwiczenie"
+        },
+        {
+          "en": "activity",
+          "pl": "aktywność"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "a1_places",
+  "title": "Miejsca",
+  "level": "A1",
+  "tree_node": "leaf_places",
+  "note": "Miejsca w mieście. EN → PL. Osobne bloki na tramwaj/bilety planowane później.",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "places_city",
+      "title": "Miejsca · miasto",
+      "items": [
+        { "en": "city", "pl": "miasto" },
+        { "en": "street", "pl": "ulica" },
+        { "en": "square", "pl": "plac", "accepts": ["rynek"] },
+        { "en": "station", "pl": "dworzec", "accepts": ["stacja"] },
+        { "en": "tram", "pl": "tramwaj" },
+        { "en": "metro / underground", "pl": "metro" },
+        { "en": "bus", "pl": "autobus" },
+        { "en": "stop (noun)", "pl": "przystanek" },
+        {
+          "en": "ticket",
+          "pl": "bilet",
+          "accepts": ["bilety"]
+        },
+        { "en": "map", "pl": "mapa" },
+        { "en": "left", "pl": "lewo", "accepts": ["w lewo", "na lewo"] },
+        { "en": "right", "pl": "prawo", "accepts": ["w prawo", "na prawo"] }
+      ]
+    },
+    {
+      "id": "places_out",
+      "title": "Miejsca · na mieście",
+      "items": [
+        { "en": "shop", "pl": "sklep" },
+        { "en": "supermarket", "pl": "supermarket", "accepts": ["market"] },
+        { "en": "pharmacy", "pl": "apteka" },
+        { "en": "bank", "pl": "bank" },
+        { "en": "post office", "pl": "poczta" },
+        { "en": "school", "pl": "szkoła" },
+        { "en": "work / job", "pl": "praca" },
+        { "en": "hospital", "pl": "szpital" },
+        { "en": "park", "pl": "park" },
+        { "en": "hotel", "pl": "hotel" },
+        { "en": "here", "pl": "tutaj", "accepts": ["tu"] },
+        { "en": "there", "pl": "tam" }
+      ]
+    }
+  ]
+}

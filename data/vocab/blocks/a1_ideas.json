@@ -1,0 +1,226 @@
+{
+  "id": "a1_ideas",
+  "title": "Słowa ogólne",
+  "level": "A1",
+  "tree_node": "leaf_ideas_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_ideas.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "ideas_basic",
+      "title": "Ideas · basic",
+      "items": [
+        {
+          "en": "thing",
+          "pl": "rzecz"
+        },
+        {
+          "en": "part",
+          "pl": "część"
+        },
+        {
+          "en": "place",
+          "pl": "miejsce"
+        },
+        {
+          "en": "person",
+          "pl": "osoba"
+        },
+        {
+          "en": "life",
+          "pl": "życie"
+        },
+        {
+          "en": "group",
+          "pl": "grupa"
+        },
+        {
+          "en": "member",
+          "pl": "członek"
+        },
+        {
+          "en": "plan",
+          "pl": "plan"
+        },
+        {
+          "en": "point",
+          "pl": "punkt"
+        },
+        {
+          "en": "fact",
+          "pl": "fakt"
+        },
+        {
+          "en": "reason",
+          "pl": "powód"
+        },
+        {
+          "en": "result",
+          "pl": "wynik"
+        }
+      ]
+    },
+    {
+      "id": "ideas_more",
+      "title": "Ideas · more",
+      "items": [
+        {
+          "en": "action",
+          "pl": "działanie"
+        },
+        {
+          "en": "advice",
+          "pl": "rada"
+        },
+        {
+          "en": "area",
+          "pl": "obszar"
+        },
+        {
+          "en": "beginning",
+          "pl": "początek"
+        },
+        {
+          "en": "end",
+          "pl": "koniec"
+        },
+        {
+          "en": "event",
+          "pl": "wydarzenie"
+        },
+        {
+          "en": "form",
+          "pl": "formularz"
+        },
+        {
+          "en": "line",
+          "pl": "linia"
+        },
+        {
+          "en": "piece",
+          "pl": "kawałek"
+        },
+        {
+          "en": "pair",
+          "pl": "para"
+        },
+        {
+          "en": "object",
+          "pl": "przedmiot"
+        },
+        {
+          "en": "machine",
+          "pl": "maszyna"
+        }
+      ]
+    },
+    {
+      "id": "ideas_workish",
+      "title": "Ideas · projects & style",
+      "items": [
+        {
+          "en": "product",
+          "pl": "produkt"
+        },
+        {
+          "en": "programme",
+          "pl": "program"
+        },
+        {
+          "en": "project",
+          "pl": "projekt"
+        },
+        {
+          "en": "routine",
+          "pl": "rutyna"
+        },
+        {
+          "en": "rule",
+          "pl": "reguła"
+        },
+        {
+          "en": "section",
+          "pl": "sekcja"
+        },
+        {
+          "en": "situation",
+          "pl": "sytuacja"
+        },
+        {
+          "en": "skill",
+          "pl": "umiejętność"
+        },
+        {
+          "en": "sound",
+          "pl": "dźwięk"
+        },
+        {
+          "en": "style",
+          "pl": "styl"
+        },
+        {
+          "en": "success",
+          "pl": "sukces"
+        },
+        {
+          "en": "topic",
+          "pl": "temat"
+        }
+      ]
+    },
+    {
+      "id": "ideas_time_space",
+      "title": "Ideas · time & world",
+      "items": [
+        {
+          "en": "moment",
+          "pl": "moment"
+        },
+        {
+          "en": "period",
+          "pl": "okres"
+        },
+        {
+          "en": "past",
+          "pl": "przeszłość"
+        },
+        {
+          "en": "future",
+          "pl": "przyszłość"
+        },
+        {
+          "en": "century",
+          "pl": "wiek"
+        },
+        {
+          "en": "date",
+          "pl": "data"
+        },
+        {
+          "en": "midnight",
+          "pl": "północ"
+        },
+        {
+          "en": "culture",
+          "pl": "kultura"
+        },
+        {
+          "en": "health",
+          "pl": "zdrowie"
+        },
+        {
+          "en": "interest",
+          "pl": "zainteresowanie"
+        },
+        {
+          "en": "capital",
+          "pl": "stolica"
+        },
+        {
+          "en": "visitor",
+          "pl": "gość"
+        }
+      ]
+    }
+  ]
+}

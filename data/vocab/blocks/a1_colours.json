@@ -1,0 +1,64 @@
+{
+  "id": "a1_colours",
+  "title": "Kolory",
+  "level": "A1",
+  "tree_node": "leaf_colours_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "colours_basic",
+      "title": "Colours · basic",
+      "items": [
+        {
+          "en": "colour",
+          "pl": "kolor"
+        },
+        {
+          "en": "red",
+          "pl": "czerwony"
+        },
+        {
+          "en": "blue",
+          "pl": "niebieski"
+        },
+        {
+          "en": "green",
+          "pl": "zielony"
+        },
+        {
+          "en": "yellow",
+          "pl": "żółty"
+        },
+        {
+          "en": "black",
+          "pl": "czarny"
+        },
+        {
+          "en": "white",
+          "pl": "biały"
+        },
+        {
+          "en": "brown",
+          "pl": "brązowy"
+        },
+        {
+          "en": "grey",
+          "pl": "szary"
+        },
+        {
+          "en": "pink",
+          "pl": "różowy"
+        },
+        {
+          "en": "purple",
+          "pl": "fioletowy"
+        },
+        {
+          "en": "orange",
+          "pl": "pomarańczowy"
+        }
+      ]
+    }
+  ]
+}

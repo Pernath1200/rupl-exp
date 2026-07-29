@@ -1,0 +1,118 @@
+{
+  "id": "a1_tech",
+  "title": "Technologia i media",
+  "level": "A1",
+  "tree_node": "leaf_tech_a1",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_tech.json · Zdanie = owoc",
+  "default_direction": "en_to_pl",
+  "blocks": [
+    {
+      "id": "tech_devices",
+      "title": "Tech · devices",
+      "items": [
+        {
+          "en": "computer",
+          "pl": "komputer"
+        },
+        {
+          "en": "phone",
+          "pl": "telefon"
+        },
+        {
+          "en": "telephone",
+          "pl": "telefon"
+        },
+        {
+          "en": "mobile",
+          "pl": "komórka"
+        },
+        {
+          "en": "camera",
+          "pl": "aparat"
+        },
+        {
+          "en": "television",
+          "pl": "telewizja"
+        },
+        {
+          "en": "TV",
+          "pl": "telewizor"
+        },
+        {
+          "en": "radio",
+          "pl": "radio"
+        },
+        {
+          "en": "video",
+          "pl": "wideo"
+        },
+        {
+          "en": "DVD",
+          "pl": "DVD"
+        },
+        {
+          "en": "CD",
+          "pl": "CD"
+        },
+        {
+          "en": "screen",
+          "pl": "ekran"
+        }
+      ]
+    },
+    {
+      "id": "tech_online",
+      "title": "Tech · online & media",
+      "items": [
+        {
+          "en": "internet",
+          "pl": "internet"
+        },
+        {
+          "en": "online",
+          "pl": "online"
+        },
+        {
+          "en": "website",
+          "pl": "strona internetowa"
+        },
+        {
+          "en": "email",
+          "pl": "e-mail"
+        },
+        {
+          "en": "blog",
+          "pl": "blog"
+        },
+        {
+          "en": "photo",
+          "pl": "zdjęcie"
+        },
+        {
+          "en": "photograph",
+          "pl": "zdjęcie"
+        },
+        {
+          "en": "picture",
+          "pl": "obrazek"
+        },
+        {
+          "en": "message",
+          "pl": "wiadomość"
+        },
+        {
+          "en": "news",
+          "pl": "wiadomości"
+        },
+        {
+          "en": "newspaper",
+          "pl": "gazeta"
+        },
+        {
+          "en": "magazine",
+          "pl": "czasopismo"
+        }
+      ]
+    }
+  ]
+}
