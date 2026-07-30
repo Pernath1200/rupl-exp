@@ -4,7 +4,7 @@
   "level": "A1",
   "tree_node": "trunk_adjectives_a1",
   "practice": "frames",
-  "note": "A1 · być + przymiotnik · EN → PL",
+  "note": "A1 · być + przymiotnik · EN → PL. Anchor rule: each sentence pairs the new adjective with a noun already taught before this unit (gender/home_family pool), so the adjective is the only unknown. łatwy/trudny deferred to a later context (no anchorable noun this early).",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -12,47 +12,8 @@
       "title": "Przymiotniki · podstawy",
       "items": [
         {
-          "en": "I am happy.",
-          "pl": "Jestem szczęśliwy.",
-          "gap": "Jestem ____.",
-          "gap_answer": "szczęśliwy",
-          "accepts": [
-            "Jestem szczęśliwy.",
-            "Jestem szczęśliwa."
-          ]
-        },
-        {
-          "en": "She is tired.",
-          "pl": "Ona jest zmęczona.",
-          "gap": "Ona jest ____.",
-          "gap_answer": "zmęczona",
-          "accepts": [
-            "Ona jest zmęczona.",
-            "Jest zmęczona."
-          ]
-        },
-        {
-          "en": "This is big.",
-          "pl": "To jest duże.",
-          "gap": "To jest ____.",
-          "gap_answer": "duże",
-          "accepts": [
-            "To jest duże.",
-            "To duże."
-          ]
-        },
-        {
-          "en": "This is small.",
-          "pl": "To jest małe.",
-          "gap": "To jest ____.",
-          "gap_answer": "małe",
-          "accepts": [
-            "To jest małe."
-          ]
-        },
-        {
-          "en": "The coffee is good.",
           "pl": "Kawa jest dobra.",
+          "en": "The coffee is good.",
           "gap": "Kawa jest ____.",
           "gap_answer": "dobra",
           "accepts": [
@@ -60,73 +21,103 @@
           ]
         },
         {
-          "en": "The film is bad.",
-          "pl": "Film jest zły.",
-          "gap": "Film jest ____.",
-          "gap_answer": "zły",
+          "pl": "Piwo jest złe.",
+          "en": "The beer is bad.",
+          "gap": "Piwo jest ____.",
+          "gap_answer": "złe",
           "accepts": [
-            "Film jest zły.",
-            "Film jest słaby."
+            "Piwo jest złe."
           ]
         },
         {
-          "en": "He is young.",
-          "pl": "On jest młody.",
-          "gap": "On jest ____.",
-          "gap_answer": "młody",
-          "accepts": [
-            "On jest młody.",
-            "Jest młody."
-          ]
-        },
-        {
-          "en": "The house is old.",
-          "pl": "Dom jest stary.",
+          "pl": "Dom jest duży.",
+          "en": "The house is big.",
           "gap": "Dom jest ____.",
+          "gap_answer": "duży",
+          "accepts": [
+            "Dom jest duży."
+          ]
+        },
+        {
+          "pl": "Mieszkanie jest małe.",
+          "en": "The flat is small.",
+          "gap": "Mieszkanie jest ____.",
+          "gap_answer": "małe",
+          "accepts": [
+            "Mieszkanie jest małe."
+          ]
+        },
+        {
+          "pl": "Stół jest stary.",
+          "en": "The table is old.",
+          "gap": "Stół jest ____.",
           "gap_answer": "stary",
           "accepts": [
-            "Dom jest stary."
+            "Stół jest stary."
           ]
         },
         {
-          "en": "It is easy.",
-          "pl": "To jest łatwe.",
-          "gap": "To jest ____.",
-          "gap_answer": "łatwe",
+          "pl": "Mój brat jest młody.",
+          "en": "My brother is young.",
+          "gap": "Mój brat jest ____.",
+          "gap_answer": "młody",
           "accepts": [
-            "To jest łatwe.",
-            "To łatwe."
+            "Mój brat jest młody.",
+            "Brat jest młody."
           ]
         },
         {
-          "en": "It is difficult.",
-          "pl": "To jest trudne.",
-          "gap": "To jest ____.",
-          "gap_answer": "trudne",
+          "pl": "Mama jest zmęczona.",
+          "en": "Mum is tired.",
+          "gap": "Mama jest ____.",
+          "gap_answer": "zmęczona",
           "accepts": [
-            "To jest trudne.",
-            "To trudne."
+            "Mama jest zmęczona."
           ]
         },
         {
-          "en": "The weather is nice.",
-          "pl": "Pogoda jest ładna.",
-          "gap": "Pogoda jest ____.",
+          "pl": "Tata jest szczęśliwy.",
+          "en": "Dad is happy.",
+          "gap": "Tata jest ____.",
+          "gap_answer": "szczęśliwy",
+          "accepts": [
+            "Tata jest szczęśliwy."
+          ]
+        },
+        {
+          "pl": "Dziecko jest głodne.",
+          "en": "The child is hungry.",
+          "gap": "Dziecko jest ____.",
+          "gap_answer": "głodne",
+          "accepts": [
+            "Dziecko jest głodne."
+          ]
+        },
+        {
+          "pl": "Kuchnia jest ładna.",
+          "en": "The kitchen is nice.",
+          "gap": "Kuchnia jest ____.",
           "gap_answer": "ładna",
           "accepts": [
-            "Pogoda jest ładna.",
-            "Pogoda jest miła."
+            "Kuchnia jest ładna."
           ]
         },
         {
-          "en": "I am hungry.",
-          "pl": "Jestem głodny.",
-          "gap": "Jestem ____.",
-          "gap_answer": "głodny",
+          "pl": "Woda jest zimna.",
+          "en": "The water is cold.",
+          "gap": "Woda jest ____.",
+          "gap_answer": "zimna",
           "accepts": [
-            "Jestem głodny.",
-            "Jestem głodna.",
-            "Mam głód."
+            "Woda jest zimna."
+          ]
+        },
+        {
+          "pl": "Książka jest nowa.",
+          "en": "The book is new.",
+          "gap": "Książka jest ____.",
+          "gap_answer": "nowa",
+          "accepts": [
+            "Książka jest nowa."
           ]
         }
       ]
@@ -136,7 +127,8 @@
     "byc_adj",
     "zgoda",
     "byc_present",
-    "to_jest"
+    "to_jest",
+    "poss_nom"
   ],
   "teaches_structures": [
     "byc_adj"

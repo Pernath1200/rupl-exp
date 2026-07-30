@@ -48,9 +48,9 @@
     "a1_prep_do_z",
     "leaf_city_a1",
     "leaf_body_a1",
+    "leaf_time_cal_a1",
     "a1_negation",
     "trunk_there_time_a1",
-    "leaf_time_cal_a1",
     "leaf_health_a1",
     "a1_inst_job",
     "leaf_work_a1",
@@ -935,6 +935,29 @@
       "pedagogy": "use"
     },
     {
+      "id": "leaf_time_cal_a1",
+      "domain": "vocab",
+      "label": "Czas i kalendarz",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_time_cal.json",
+      "practice": "vocab",
+      "note": "Żywe · dni, miesiące, pory dnia · zwroty zegarowe w Jest·czas",
+      "unit_id": "PL_TIME_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_TIME_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
       "id": "a1_negation",
       "domain": "grammar",
       "label": "Przeczenie · nie mam",
@@ -983,29 +1006,6 @@
       ],
       "pedagogy": "use",
       "partner_id": "a1_negation"
-    },
-    {
-      "id": "leaf_time_cal_a1",
-      "domain": "vocab",
-      "label": "Czas i kalendarz",
-      "kind": "leaf",
-      "parent": "trunk",
-      "tree_part": "free_time",
-      "levels": [
-        "A1"
-      ],
-      "status": "live",
-      "content": "vocab/blocks/a1_time_cal.json",
-      "practice": "vocab",
-      "note": "Żywe · dni, miesiące, pory dnia · zwroty zegarowe w Jest·czas",
-      "unit_id": "PL_TIME_01",
-      "case_tags": [
-        "nom"
-      ],
-      "spine_steps": [
-        "PL_TIME_01"
-      ],
-      "pedagogy": "use"
     },
     {
       "id": "leaf_health_a1",

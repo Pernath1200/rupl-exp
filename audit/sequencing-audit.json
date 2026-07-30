@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-30T22:30:40+02:00",
+  "generated_at": "2026-07-30T22:35:01+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -37,9 +37,9 @@
     "a1_prep_do_z",
     "leaf_city_a1",
     "leaf_body_a1",
+    "leaf_time_cal_a1",
     "a1_negation",
     "trunk_there_time_a1",
-    "leaf_time_cal_a1",
     "leaf_health_a1",
     "a1_inst_job",
     "leaf_work_a1",
@@ -197,6 +197,7 @@
       "uses_structures": [
         "byc_adj",
         "byc_present",
+        "poss_nom",
         "to_jest",
         "zgoda"
       ],
@@ -956,6 +957,39 @@
     },
     {
       "path_index": 33,
+      "node_id": "leaf_time_cal_a1",
+      "pack_id": "a1_time_cal",
+      "domain": "vocab",
+      "teaches_structures": [],
+      "teaches_lemmas_n": 0,
+      "uses_structures": [
+        "social_chunk",
+        "to_jest"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "miec_acc",
+        "miec_present",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 34,
       "node_id": "a1_negation",
       "pack_id": "a1_negation",
       "domain": "grammar",
@@ -992,7 +1026,7 @@
       ]
     },
     {
-      "path_index": 34,
+      "path_index": 35,
       "node_id": "trunk_there_time_a1",
       "pack_id": "a1_trunk_there_time",
       "domain": "vocab",
@@ -1005,41 +1039,6 @@
         "existential_jest",
         "negation",
         "social_chunk"
-      ],
-      "unlocked_structures_after": [
-        "byc_adj",
-        "byc_present",
-        "can_inf",
-        "existential_jest",
-        "miec_acc",
-        "miec_present",
-        "negation",
-        "poss_nom",
-        "prep_do_gen",
-        "prep_place",
-        "prep_w_loc",
-        "prep_z_gen",
-        "present",
-        "present_am",
-        "present_e_esz",
-        "present_e_isz",
-        "present_uje",
-        "question",
-        "social_chunk",
-        "to_jest",
-        "zgoda"
-      ]
-    },
-    {
-      "path_index": 35,
-      "node_id": "leaf_time_cal_a1",
-      "pack_id": "a1_time_cal",
-      "domain": "vocab",
-      "teaches_structures": [],
-      "teaches_lemmas_n": 0,
-      "uses_structures": [
-        "social_chunk",
-        "to_jest"
       ],
       "unlocked_structures_after": [
         "byc_adj",

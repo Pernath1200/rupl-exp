@@ -81,13 +81,13 @@
           ]
         },
         {
-          "en": "I can see the station.",
-          "pl": "Widzę dworzec.",
+          "pl": "Widzę sklep.",
+          "en": "I can see the shop.",
           "gap": "Widzę ____.",
-          "gap_answer": "dworzec",
+          "gap_answer": "sklep",
           "accepts": [
-            "Widzę dworzec.",
-            "Mogę zobaczyć dworzec."
+            "Widzę sklep.",
+            "Mogę zobaczyć sklep."
           ]
         },
         {
@@ -120,13 +120,13 @@
           ]
         },
         {
-          "en": "She can play the guitar.",
-          "pl": "Ona umie grać na gitarze.",
-          "gap": "Ona umie grać na ____.",
-          "gap_answer": "gitarze",
+          "pl": "Ona umie śpiewać.",
+          "en": "She can sing.",
+          "gap": "Ona umie ____.",
+          "gap_answer": "śpiewać",
           "accepts": [
-            "Ona umie grać na gitarze.",
-            "Gra na gitarze."
+            "Ona umie śpiewać.",
+            "Umie śpiewać."
           ]
         }
       ]

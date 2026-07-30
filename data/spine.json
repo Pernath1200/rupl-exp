@@ -359,6 +359,19 @@
       }
     },
     {
+      "id": "PL_TIME_01",
+      "title": "Czas i kalendarz",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_time_cal_a1",
+        "label": "Czas",
+        "status": "live"
+      }
+    },
+    {
       "id": "PL_NEG_01",
       "title": "Przeczenie · nie mam + dopełniacz",
       "case_tags": [
@@ -375,19 +388,6 @@
         "label": "Jest · czas · nie ma + dopełniacz",
         "status": "live",
         "note": "Slotted after negation on purpose: 'Nie ma mleka' = Gen"
-      }
-    },
-    {
-      "id": "PL_TIME_01",
-      "title": "Czas i kalendarz",
-      "case_tags": [],
-      "rupl2": {
-        "status": "skip"
-      },
-      "rupl3": {
-        "node_id": "leaf_time_cal_a1",
-        "label": "Czas",
-        "status": "live"
       }
     },
     {
@@ -470,9 +470,9 @@
     "a1_prep_do_z",
     "leaf_city_a1",
     "leaf_body_a1",
+    "leaf_time_cal_a1",
     "a1_negation",
     "trunk_there_time_a1",
-    "leaf_time_cal_a1",
     "leaf_health_a1",
     "a1_inst_job",
     "leaf_work_a1",
