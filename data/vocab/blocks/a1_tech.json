@@ -15,11 +15,7 @@
           "pl": "komputer"
         },
         {
-          "en": "phone",
-          "pl": "telefon"
-        },
-        {
-          "en": "telephone",
+          "en": "phone / telephone",
           "pl": "telefon"
         },
         {
@@ -85,11 +81,7 @@
           "pl": "blog"
         },
         {
-          "en": "photo",
-          "pl": "zdjęcie"
-        },
-        {
-          "en": "photograph",
+          "en": "photo / photograph",
           "pl": "zdjęcie"
         },
         {
@@ -114,5 +106,8 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest"
   ]
 }

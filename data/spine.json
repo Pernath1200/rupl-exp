@@ -9,32 +9,6 @@
     "rupl3_pages": "https://pernath1200.github.io/rupl3/",
     "rupl_exp_local": "http://localhost:8096/"
   },
-  "path_24": [
-    "trunk_social_a1",
-    "a1_gender",
-    "a1_poss_simple",
-    "leaf_home_family",
-    "a1_hello",
-    "trunk_be_have_a1",
-    "a1_gender_check",
-    "a1_miec",
-    "a1_acc_gym",
-    "leaf_food_a1",
-    "a1_present",
-    "a1_present_e_isz",
-    "a1_present_e_esz",
-    "a1_present_gym",
-    "leaf_freetime_a1",
-    "trunk_want_like_a1",
-    "a1_questions",
-    "a1_prep_place",
-    "leaf_places",
-    "a1_prep_do_z",
-    "leaf_city_a1",
-    "a1_negation",
-    "a1_inst_job",
-    "leaf_work_a1"
-  ],
   "steps": [
     {
       "id": "PL_SOC_01",
@@ -115,9 +89,24 @@
         "status": "live"
       },
       "rupl3": {
-        "node_id": null,
-        "label": "— (Jedzenie po mieć + biernik)",
+        "node_id": "trunk_adjectives_a1",
+        "label": "Przymiotniki · zgoda w praktyce",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_ADJ_01",
+      "title": "Kolory · mianownik",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
         "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_colours_a1",
+        "label": "Kolory",
+        "status": "live"
       }
     },
     {
@@ -136,6 +125,22 @@
         "node_id": "leaf_food_a1",
         "label": "Jedzenie i picie",
         "status": "live"
+      }
+    },
+    {
+      "id": "PL_ANIM_01",
+      "title": "Zwierzęta · nazywanie",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_animals_a1",
+        "label": "Zwierzęta",
+        "status": "live",
+        "note": "Naming only (Nom) — 'Mam psa' waits for animate Acc in a1_miec"
       }
     },
     {
@@ -186,6 +191,21 @@
       }
     },
     {
+      "id": "PL_TECH_01",
+      "title": "Technologia i media",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_tech_a1",
+        "label": "Technologia",
+        "status": "live"
+      }
+    },
+    {
       "id": "PL_ACC_02",
       "title": "Biernik w użyciu · chcę / lubię",
       "case_tags": [
@@ -200,6 +220,34 @@
       "rupl3": {
         "node_id": "trunk_want_like_a1",
         "label": "Chcę · lubię",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_CAN_01",
+      "title": "Mogę · umiem + bezokolicznik",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "trunk_can_a1",
+        "label": "Mogę · umiem",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_NAT_01",
+      "title": "Przyroda i pogoda",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_nature_a1",
+        "label": "Przyroda",
         "status": "live"
       }
     },
@@ -268,9 +316,10 @@
         "status": "live"
       },
       "rupl3": {
-        "node_id": null,
-        "label": "—",
-        "status": "skip"
+        "node_id": "trunk_there_time_a1",
+        "label": "Jest · czas · nie ma + dopełniacz",
+        "status": "live",
+        "note": "Slotted after negation on purpose: 'Nie ma mleka' = Gen"
       }
     },
     {
@@ -292,5 +341,38 @@
         "status": "live"
       }
     }
+  ],
+  "path_31": [
+    "trunk_social_a1",
+    "a1_gender",
+    "a1_poss_simple",
+    "leaf_home_family",
+    "a1_hello",
+    "trunk_be_have_a1",
+    "a1_gender_check",
+    "trunk_adjectives_a1",
+    "leaf_colours_a1",
+    "a1_miec",
+    "a1_acc_gym",
+    "leaf_food_a1",
+    "leaf_animals_a1",
+    "a1_present",
+    "a1_present_e_isz",
+    "a1_present_e_esz",
+    "a1_present_gym",
+    "leaf_freetime_a1",
+    "leaf_tech_a1",
+    "trunk_want_like_a1",
+    "trunk_can_a1",
+    "leaf_nature_a1",
+    "a1_questions",
+    "a1_prep_place",
+    "leaf_places",
+    "a1_prep_do_z",
+    "leaf_city_a1",
+    "a1_negation",
+    "trunk_there_time_a1",
+    "a1_inst_job",
+    "leaf_work_a1"
   ]
 }

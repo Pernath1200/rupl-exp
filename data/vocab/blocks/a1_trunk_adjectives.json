@@ -16,86 +16,129 @@
           "pl": "Jestem szczęśliwy.",
           "gap": "Jestem ____.",
           "gap_answer": "szczęśliwy",
-          "accepts": ["Jestem szczęśliwy.", "Jestem szczęśliwa."]
+          "accepts": [
+            "Jestem szczęśliwy.",
+            "Jestem szczęśliwa."
+          ]
         },
         {
           "en": "She is tired.",
           "pl": "Ona jest zmęczona.",
           "gap": "Ona jest ____.",
           "gap_answer": "zmęczona",
-          "accepts": ["Ona jest zmęczona.", "Jest zmęczona."]
+          "accepts": [
+            "Ona jest zmęczona.",
+            "Jest zmęczona."
+          ]
         },
         {
           "en": "This is big.",
           "pl": "To jest duże.",
           "gap": "To jest ____.",
           "gap_answer": "duże",
-          "accepts": ["To jest duże.", "To duże."]
+          "accepts": [
+            "To jest duże.",
+            "To duże."
+          ]
         },
         {
           "en": "This is small.",
           "pl": "To jest małe.",
           "gap": "To jest ____.",
           "gap_answer": "małe",
-          "accepts": ["To jest małe."]
+          "accepts": [
+            "To jest małe."
+          ]
         },
         {
           "en": "The coffee is good.",
           "pl": "Kawa jest dobra.",
           "gap": "Kawa jest ____.",
           "gap_answer": "dobra",
-          "accepts": ["Kawa jest dobra."]
+          "accepts": [
+            "Kawa jest dobra."
+          ]
         },
         {
           "en": "The film is bad.",
           "pl": "Film jest zły.",
           "gap": "Film jest ____.",
           "gap_answer": "zły",
-          "accepts": ["Film jest zły.", "Film jest słaby."]
+          "accepts": [
+            "Film jest zły.",
+            "Film jest słaby."
+          ]
         },
         {
           "en": "He is young.",
           "pl": "On jest młody.",
           "gap": "On jest ____.",
           "gap_answer": "młody",
-          "accepts": ["On jest młody.", "Jest młody."]
+          "accepts": [
+            "On jest młody.",
+            "Jest młody."
+          ]
         },
         {
           "en": "The house is old.",
           "pl": "Dom jest stary.",
           "gap": "Dom jest ____.",
           "gap_answer": "stary",
-          "accepts": ["Dom jest stary."]
+          "accepts": [
+            "Dom jest stary."
+          ]
         },
         {
           "en": "It is easy.",
           "pl": "To jest łatwe.",
           "gap": "To jest ____.",
           "gap_answer": "łatwe",
-          "accepts": ["To jest łatwe.", "To łatwe."]
+          "accepts": [
+            "To jest łatwe.",
+            "To łatwe."
+          ]
         },
         {
           "en": "It is difficult.",
           "pl": "To jest trudne.",
           "gap": "To jest ____.",
           "gap_answer": "trudne",
-          "accepts": ["To jest trudne.", "To trudne."]
+          "accepts": [
+            "To jest trudne.",
+            "To trudne."
+          ]
         },
         {
           "en": "The weather is nice.",
           "pl": "Pogoda jest ładna.",
           "gap": "Pogoda jest ____.",
           "gap_answer": "ładna",
-          "accepts": ["Pogoda jest ładna.", "Pogoda jest miła."]
+          "accepts": [
+            "Pogoda jest ładna.",
+            "Pogoda jest miła."
+          ]
         },
         {
           "en": "I am hungry.",
           "pl": "Jestem głodny.",
           "gap": "Jestem ____.",
           "gap_answer": "głodny",
-          "accepts": ["Jestem głodny.", "Jestem głodna.", "Mam głód."]
+          "accepts": [
+            "Jestem głodny.",
+            "Jestem głodna.",
+            "Mam głód."
+          ]
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "byc_adj",
+    "zgoda",
+    "byc_present",
+    "to_jest"
+  ],
+  "teaches_structures": [
+    "byc_adj"
   ]
 }

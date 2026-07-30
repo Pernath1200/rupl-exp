@@ -24,6 +24,33 @@ export const DEFAULT_PASS = 12;
 /** Weight multiplier for items matching pack focus_structures (recycle still appears). */
 export const FOCUS_WEIGHT = 3;
 
+/**
+ * Deck rotation: passes prefer items not yet shown in this pack+mode, so
+ * successive visits walk the whole deck (talia 12/36 → 24/36 → 36/36 → new
+ * cycle) instead of resampling the same random dozen.
+ */
+const SEEN_KEY = "rupl-exp-v0.1-deck-seen";
+
+function loadSeenStore() {
+  try {
+    return JSON.parse(localStorage.getItem(SEEN_KEY) || "{}") || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveSeenStore(store) {
+  try {
+    localStorage.setItem(SEEN_KEY, JSON.stringify(store));
+  } catch {
+    /* private mode etc. — rotation degrades to random sampling */
+  }
+}
+
+function itemDeckKey(it) {
+  return `${it.pl || it.gap_answer || ""}‖${it.en || ""}`;
+}
+
 function shuffle(a) {
   const arr = a.slice();
   for (let i = arr.length - 1; i > 0; i--) {
@@ -53,6 +80,7 @@ function passOrder(listLen, onlyIndices, opts) {
   }
   const items = opts && opts.items;
   const focus = new Set((opts && opts.focusStructures) || []);
+  const seen = (opts && opts.seen) || null;
   const bag = [];
   for (let i = 0; i < listLen; i++) {
     let w = 1;
@@ -63,15 +91,24 @@ function passOrder(listLen, onlyIndices, opts) {
     for (let k = 0; k < w; k++) bag.push(i);
   }
   shuffle(bag);
+  // Unseen-first: fill from unseen items, top up with seen only if short.
   const order = [];
+  const topUp = [];
   const used = new Set();
   for (const i of bag) {
     if (used.has(i)) continue;
     used.add(i);
-    order.push(i);
+    const wasSeen =
+      seen && items && items[i] && seen.has(itemDeckKey(items[i]));
+    if (wasSeen) topUp.push(i);
+    else order.push(i);
     if (order.length >= DEFAULT_PASS) break;
   }
-  return order;
+  for (const i of topUp) {
+    if (order.length >= DEFAULT_PASS) break;
+    order.push(i);
+  }
+  return shuffle(order);
 }
 
 /** Expand common contractions so I'm / I am grade the same. */
@@ -381,6 +418,47 @@ export function startPractice(root, block, opts) {
     return { items, focusStructures };
   }
 
+  // ---- Deck rotation (per pack + mode) ----
+  const deckKeyBase = opts.packId || block.id || block.title || "pack";
+
+  function deckSeen(mode) {
+    const arr = loadSeenStore()[`${deckKeyBase}::${mode}`] || [];
+    return new Set(arr);
+  }
+
+  /** Mark a freshly built pass as seen; a completed cycle resets to empty. */
+  function markDeckSeen(mode, order, items) {
+    if (!items || items.length <= DEFAULT_PASS) return;
+    const key = `${deckKeyBase}::${mode}`;
+    const store = loadSeenStore();
+    const set = new Set(store[key] || []);
+    for (const i of order) {
+      if (items[i]) set.add(itemDeckKey(items[i]));
+    }
+    const allKeys = items.map(itemDeckKey);
+    const complete = allKeys.every((k) => set.has(k));
+    store[key] = complete ? [] : [...set].filter((k) => allKeys.includes(k));
+    saveSeenStore(store);
+  }
+
+  /** "· talia 24/36" coverage suffix for decks bigger than one pass. */
+  function deckLabel(mode, items) {
+    if (!items || items.length <= DEFAULT_PASS) return "";
+    const seen = deckSeen(mode);
+    const n = items.filter((it) => seen.has(itemDeckKey(it))).length;
+    const shown = n === 0 ? items.length : n;
+    return ` · talia ${shown}/${items.length}`;
+  }
+
+  function rotatedOrder(mode, list, onlyIndices) {
+    const order = passOrder(list.length, onlyIndices, {
+      ...orderOpts(list),
+      seen: deckSeen(mode),
+    });
+    if (!onlyIndices || !onlyIndices.length) markDeckSeen(mode, order, list);
+    return order;
+  }
+
   const state = {
     mode: "match",
     plToEn: false, // EN → PL production (default for Polish learners)
@@ -625,10 +703,8 @@ export function startPractice(root, block, opts) {
   }
 
   function newMatch() {
-    const pool = shuffle(block.items).slice(
-      0,
-      Math.min(DEFAULT_PASS, block.items.length),
-    );
+    const order = rotatedOrder("match", block.items, null);
+    const pool = order.map((i) => block.items[i]);
     const left = pool.map((it, i) => ({ t: promptOf(it, state.plToEn), id: i }));
     const right = shuffle(
       pool.map((it, i) => ({ t: answerOf(it, state.plToEn), id: i })),
@@ -674,7 +750,7 @@ export function startPractice(root, block, opts) {
       };
       stage.querySelector("#m-quiz").onclick = () => setMode("quiz");
       bindEnterPrimary(stage);
-      return `Dopasowano ${doneCount} z ${m.total}`;
+      return `Dopasowano ${doneCount} z ${m.total}${deckLabel("match", block.items)}`;
     }
 
     const col = (arr, side) =>
@@ -732,13 +808,13 @@ export function startPractice(root, block, opts) {
         }
       });
     });
-    return `Dopasowano ${doneCount} z ${m.total}`;
+    return `Dopasowano ${doneCount} z ${m.total}${deckLabel("match", block.items)}`;
   }
 
   /** @param {number[] | null} onlyIndices item indices to practice (retry wrong) */
   function newQuiz(onlyIndices) {
     const list = block.items;
-    const order = passOrder(list.length, onlyIndices, orderOpts(list));
+    const order = rotatedOrder("quiz", list, onlyIndices);
     state.quiz = {
       order,
       pos: 0,
@@ -906,13 +982,13 @@ export function startPractice(root, block, opts) {
     // Capture so numbers win even if a button has focus
     document.addEventListener("keydown", state.keyHandler, true);
 
-    return `${q.retryPass ? "Poprawka" : "Pytanie"} ${q.pos + 1} z ${passLen} · wynik ${q.score}`;
+    return `${q.retryPass ? "Poprawka" : "Pytanie"} ${q.pos + 1} z ${passLen} · wynik ${q.score}${q.retryPass ? "" : deckLabel("quiz", block.items)}`;
   }
 
   /** @param {number[] | null} onlyIndices item indices to practice (retry wrong) */
   function newType(onlyIndices) {
     const list = block.items;
-    const order = passOrder(list.length, onlyIndices, orderOpts(list));
+    const order = rotatedOrder("type", list, onlyIndices);
     state.typ = {
       order,
       pos: 0,
@@ -1107,7 +1183,7 @@ export function startPractice(root, block, opts) {
       else grade();
     });
 
-    return `${passLabel} ${t.pos + 1} / ${passLen} · wynik ${t.score}`;
+    return `${passLabel} ${t.pos + 1} / ${passLen} · wynik ${t.score}${t.retryPass ? "" : deckLabel("type", block.items)}`;
   }
 
   // ---- 4 · Type sentence (EN → PL model bank / trunk frames) ----
@@ -1115,7 +1191,7 @@ export function startPractice(root, block, opts) {
   /** Trunk frames or leaf sentences[] — full Polish from English (supports retry wrong). */
   function newFrameSentence(onlyIndices) {
     const list = getSentenceItems() || [];
-    const order = passOrder(list.length, onlyIndices, orderOpts(list));
+    const order = rotatedOrder("sentence", list, onlyIndices);
     state.typ = {
       order,
       pos: 0,
@@ -1279,7 +1355,7 @@ export function startPractice(root, block, opts) {
       else grade();
     });
 
-    return `Zdanie ${t.pos + 1} z ${passLen} · wynik ${t.score}`;
+    return `Zdanie ${t.pos + 1} z ${passLen} · wynik ${t.score}${t.retryPass ? "" : deckLabel("sentence", getSentenceItems() || [])}`;
   }
 
   /** Leaf pack has no sentences[] yet — no free-write. */

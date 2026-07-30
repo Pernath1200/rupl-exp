@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
   <title>Polski · RUPL-exp</title>
-  <link rel="stylesheet" href="./css/app.css?v=2026-07-30-match-dense" />
+  <link rel="stylesheet" href="./css/app.css?v=2026-07-30-deck-rotation" />
 </head>
 <body>
   <div class="container">
@@ -39,31 +39,35 @@
         <div id="up-next"></div>
       </div>
 
-      <div class="card" id="tree-portrait-card">
-        <h2>Portret drzewa</h2>
-        <p class="tree-legend">
-          Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
-        </p>
-        <div id="tree-portrait" class="tree-portrait-host"></div>
-      </div>
+      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">Pokaż drzewo i wszystkie jednostki ▾</button>
 
-      <div class="panel-grid">
-        <div class="card domain-grammar">
-          <h2>Korzenie · gramatyka</h2>
-          <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
-          <div id="roots-strip" class="roots-strip"></div>
+      <div id="map-more" hidden>
+        <div class="card" id="tree-portrait-card">
+          <h2>Portret drzewa</h2>
+          <p class="tree-legend">
+            Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
+          </p>
+          <div id="tree-portrait" class="tree-portrait-host"></div>
         </div>
-        <div class="card domain-vocab">
-          <h2>Liście · słówka</h2>
-          <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
-          <div id="vocab-fill" class="roots-strip"></div>
-        </div>
-      </div>
 
-      <div class="card">
-        <h2>Ścieżka (spine · teach → use)</h2>
-        <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
-        <ul id="path-list" class="path-list"></ul>
+        <div class="panel-grid">
+          <div class="card domain-grammar">
+            <h2>Korzenie · gramatyka</h2>
+            <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
+            <div id="roots-strip" class="roots-strip"></div>
+          </div>
+          <div class="card domain-vocab">
+            <h2>Liście · słówka</h2>
+            <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
+            <div id="vocab-fill" class="roots-strip"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Ścieżka (spine · teach → use)</h2>
+          <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
+          <ul id="path-list" class="path-list"></ul>
+        </div>
       </div>
 
       <div class="card" id="node-detail-card">
@@ -87,9 +91,9 @@
     <div id="smoke-flags-host"></div>
 
     <p class="foot">
-      Port <code>8096</code> · progress <code>rupl-exp-v0.1-progress</code> · sync: <code>py scripts/sync_from_stable.py</code>
+      Port <code>8096</code> · progress <code>rupl-exp-v0.1-progress</code>
     </p>
   </div>
-  <script type="module" src="./js/app.js?v=2026-07-30-match-dense"></script>
+  <script type="module" src="./js/app.js?v=2026-07-30-deck-rotation"></script>
 </body>
 </html>

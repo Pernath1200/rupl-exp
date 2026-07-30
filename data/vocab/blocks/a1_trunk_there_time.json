@@ -16,86 +16,127 @@
           "pl": "Jest tu sklep.",
           "gap": "Jest tu ____.",
           "gap_answer": "sklep",
-          "accepts": ["Jest tu sklep.", "Tu jest sklep."]
+          "accepts": [
+            "Jest tu sklep.",
+            "Tu jest sklep."
+          ]
         },
         {
           "en": "There are two parks.",
           "pl": "Są dwa parki.",
           "gap": "Są dwa ____.",
           "gap_answer": "parki",
-          "accepts": ["Są dwa parki."]
+          "accepts": [
+            "Są dwa parki."
+          ]
         },
         {
           "en": "Is there a bank near here?",
           "pl": "Czy jest tu bank?",
           "gap": "Czy jest tu ____?",
           "gap_answer": "bank",
-          "accepts": ["Czy jest tu bank?", "Jest tu bank?"]
+          "accepts": [
+            "Czy jest tu bank?",
+            "Jest tu bank?"
+          ]
         },
         {
           "en": "There is no milk.",
           "pl": "Nie ma mleka.",
           "gap": "Nie ma ____.",
           "gap_answer": "mleka",
-          "accepts": ["Nie ma mleka."]
+          "accepts": [
+            "Nie ma mleka."
+          ]
         },
         {
           "en": "What time is it?",
           "pl": "Która jest godzina?",
           "gap": "Która jest ____?",
           "gap_answer": "godzina",
-          "accepts": ["Która jest godzina?", "Która godzina?"]
+          "accepts": [
+            "Która jest godzina?",
+            "Która godzina?"
+          ]
         },
         {
           "en": "It is three o'clock.",
           "pl": "Jest trzecia.",
           "gap": "Jest ____.",
           "gap_answer": "trzecia",
-          "accepts": ["Jest trzecia.", "Jest godzina trzecia."]
+          "accepts": [
+            "Jest trzecia.",
+            "Jest godzina trzecia."
+          ]
         },
         {
           "en": "I get up at seven.",
           "pl": "Wstaję o siódmej.",
           "gap": "Wstaję o ____.",
           "gap_answer": "siódmej",
-          "accepts": ["Wstaję o siódmej."]
+          "accepts": [
+            "Wstaję o siódmej."
+          ]
         },
         {
           "en": "I work from nine to five.",
           "pl": "Pracuję od dziewiątej do piątej.",
           "gap": "Pracuję od dziewiątej do ____.",
           "gap_answer": "piątej",
-          "accepts": ["Pracuję od dziewiątej do piątej."]
+          "accepts": [
+            "Pracuję od dziewiątej do piątej."
+          ]
         },
         {
           "en": "See you on Monday.",
           "pl": "Do zobaczenia w poniedziałek.",
           "gap": "Do zobaczenia w ____.",
           "gap_answer": "poniedziałek",
-          "accepts": ["Do zobaczenia w poniedziałek.", "Widzimy się w poniedziałek."]
+          "accepts": [
+            "Do zobaczenia w poniedziałek.",
+            "Widzimy się w poniedziałek."
+          ]
         },
         {
           "en": "I am free tomorrow.",
           "pl": "Jutro jestem wolny.",
           "gap": "Jutro jestem ____.",
           "gap_answer": "wolny",
-          "accepts": ["Jutro jestem wolny.", "Jutro jestem wolna.", "Jutro mam wolne."]
+          "accepts": [
+            "Jutro jestem wolny.",
+            "Jutro jestem wolna.",
+            "Jutro mam wolne."
+          ]
         },
         {
           "en": "It is late.",
           "pl": "Jest późno.",
           "gap": "Jest ____.",
           "gap_answer": "późno",
-          "accepts": ["Jest późno."]
+          "accepts": [
+            "Jest późno."
+          ]
         },
         {
           "en": "There is a problem.",
           "pl": "Jest problem.",
           "gap": "Jest ____.",
           "gap_answer": "problem",
-          "accepts": ["Jest problem.", "Mamy problem."]
+          "accepts": [
+            "Jest problem.",
+            "Mamy problem."
+          ]
         }
       ]
     }
+  ],
+  "teaches_structures": [
+    "existential_jest"
+  ],
+  "uses_structures": [
+    "existential_jest",
+    "byc_present",
+    "negation",
+    "social_chunk"
   ]
 }

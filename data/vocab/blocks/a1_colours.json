@@ -60,5 +60,9 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda"
   ]
 }

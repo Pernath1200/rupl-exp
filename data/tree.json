@@ -22,25 +22,32 @@
     "a1_hello",
     "trunk_be_have_a1",
     "a1_gender_check",
+    "trunk_adjectives_a1",
+    "leaf_colours_a1",
     "a1_miec",
     "a1_acc_gym",
     "leaf_food_a1",
+    "leaf_animals_a1",
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
     "a1_present_gym",
     "leaf_freetime_a1",
+    "leaf_tech_a1",
     "trunk_want_like_a1",
+    "trunk_can_a1",
+    "leaf_nature_a1",
     "a1_questions",
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
     "leaf_city_a1",
     "a1_negation",
+    "trunk_there_time_a1",
     "a1_inst_job",
     "leaf_work_a1"
   ],
-  "path_order_note": "Spine teach→use pairs; grammar gyms inserted after support targets.",
+  "path_order_note": "Path-31: spine teach→use pairs + naming/chunk vocab wired along carriers; grammar gyms after support targets.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -298,7 +305,55 @@
       "spine_steps": [
         "PL_NOM_02"
       ],
-      "pedagogy": "teach"
+      "pedagogy": "teach",
+      "partner_id": "trunk_adjectives_a1"
+    },
+    {
+      "id": "trunk_adjectives_a1",
+      "domain": "vocab",
+      "label": "Przymiotniki",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_adjectives.json",
+      "practice": "vocab",
+      "note": "Żywe · być + przymiotnik · zgoda w praktyce",
+      "unit_id": "PL_NOM_02",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NOM_02"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_gender_check"
+    },
+    {
+      "id": "leaf_colours_a1",
+      "domain": "vocab",
+      "label": "Kolory",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_colours.json",
+      "practice": "vocab",
+      "note": "Żywe · kolory · mianownik",
+      "unit_id": "PL_ADJ_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_ADJ_01"
+      ],
+      "pedagogy": "use"
     },
     {
       "id": "a1_miec",
@@ -376,6 +431,29 @@
       ],
       "pedagogy": "use",
       "partner_id": "a1_miec"
+    },
+    {
+      "id": "leaf_animals_a1",
+      "domain": "vocab",
+      "label": "Zwierzęta",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_animals.json",
+      "practice": "vocab",
+      "note": "Żywe · zwierzęta · nazywanie (mianownik)",
+      "unit_id": "PL_ANIM_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_ANIM_01"
+      ],
+      "pedagogy": "use"
     },
     {
       "id": "a1_present",
@@ -488,6 +566,29 @@
       "partner_id": "a1_present_e_esz"
     },
     {
+      "id": "leaf_tech_a1",
+      "domain": "vocab",
+      "label": "Technologia i media",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_tech.json",
+      "practice": "vocab",
+      "note": "Żywe · tech i media · nazywanie",
+      "unit_id": "PL_TECH_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_TECH_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
       "id": "trunk_want_like_a1",
       "domain": "vocab",
       "label": "Chcę · lubię",
@@ -508,6 +609,50 @@
       ],
       "spine_steps": [
         "PL_ACC_02"
+      ],
+      "pedagogy": "use"
+    },
+    {
+      "id": "trunk_can_a1",
+      "domain": "vocab",
+      "label": "Mogę · umiem",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_can.json",
+      "practice": "vocab",
+      "note": "Żywe · móc / umieć + bezokolicznik",
+      "unit_id": "PL_CAN_01",
+      "case_tags": [],
+      "spine_steps": [
+        "PL_CAN_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
+      "id": "leaf_nature_a1",
+      "domain": "vocab",
+      "label": "Przyroda i pogoda",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_nature.json",
+      "practice": "vocab",
+      "note": "Żywe · przyroda i pogoda · nazywanie",
+      "unit_id": "PL_NAT_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NAT_01"
       ],
       "pedagogy": "use"
     },
@@ -661,7 +806,32 @@
       "spine_steps": [
         "PL_NEG_01"
       ],
-      "pedagogy": "teach"
+      "pedagogy": "teach",
+      "partner_id": "trunk_there_time_a1"
+    },
+    {
+      "id": "trunk_there_time_a1",
+      "domain": "vocab",
+      "label": "Jest · czas",
+      "kind": "trunk",
+      "parent": "trunk",
+      "tree_part": "trunk",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_trunk_there_time.json",
+      "practice": "vocab",
+      "note": "Żywe · jest/są · nie ma + dopełniacz · czas (zwroty)",
+      "unit_id": "PL_NEG_01",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_NEG_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_negation"
     },
     {
       "id": "a1_inst_job",

@@ -585,6 +585,31 @@ async function boot() {
       showMap();
     });
 
+    const MORE_KEY = "rupl-exp-v0.1-map-more";
+    const moreBtn = document.getElementById("btn-map-more");
+    const moreWrap = document.getElementById("map-more");
+    function setMapMore(open) {
+      if (!moreBtn || !moreWrap) return;
+      moreWrap.hidden = !open;
+      moreBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      moreBtn.textContent = open
+        ? "Ukryj drzewo i jednostki ▴"
+        : "Pokaż drzewo i wszystkie jednostki ▾";
+      try {
+        localStorage.setItem(MORE_KEY, open ? "open" : "closed");
+      } catch {
+        /* ignore */
+      }
+    }
+    moreBtn?.addEventListener("click", () => setMapMore(moreWrap.hidden));
+    let moreStored = null;
+    try {
+      moreStored = localStorage.getItem(MORE_KEY);
+    } catch {
+      /* ignore */
+    }
+    setMapMore(moreStored === "open");
+
     const smokeHost = document.getElementById("smoke-flags-host");
     if (smokeHost) mountSmokeFlagsUI(smokeHost);
     updateFlagsBadge();
