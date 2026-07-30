@@ -418,6 +418,24 @@ export function startPractice(root, block, opts) {
     return { items, focusStructures };
   }
 
+  // ---- Swatches: visual anchor for self-illustrating vocab (colours) ----
+  // Items may carry swatch: "#hex". The chip renders beside the word in
+  // Match/Quiz/type prompts so a beginner can derive meaning from the colour
+  // itself (anchor rule when no lexical anchor exists). Typing still
+  // requires producing the word — the chip anchors meaning, not spelling.
+  const swatchByText = new Map();
+  for (const it of block.items || []) {
+    if (it.swatch) {
+      swatchByText.set(it.pl, it.swatch);
+      swatchByText.set(it.en, it.swatch);
+    }
+  }
+
+  function sw(text) {
+    const c = swatchByText.get(text);
+    return c ? `<span class="swatch" style="background:${c}"></span>` : "";
+  }
+
   // ---- Deck rotation (per pack + mode) ----
   const deckKeyBase = opts.packId || block.id || block.title || "pack";
 
@@ -759,7 +777,7 @@ export function startPractice(root, block, opts) {
           const done = m.doneIds.has(x.id);
           const cls = done ? "m done" : "m";
           const label = done ? `✓ ${x.t}` : x.t;
-          return `<button type="button" class="${cls}" data-side="${side}" data-id="${x.id}" ${done ? "disabled" : ""}>${escapeHtml(label)}</button>`;
+          return `<button type="button" class="${cls}" data-side="${side}" data-id="${x.id}" ${done ? "disabled" : ""}>${sw(x.t)}${escapeHtml(label)}</button>`;
         })
         .join("");
 
@@ -893,13 +911,13 @@ export function startPractice(root, block, opts) {
     stage.innerHTML = `
       <div class="q">
         ${diagramBlock(it)}
-        <div class="prompt">${escapeHtml(promptOf(it, state.plToEn))}</div>
+        <div class="prompt">${sw(promptOf(it, state.plToEn))}${escapeHtml(promptOf(it, state.plToEn))}</div>
         <div class="sub">Wybierz wersję ${state.plToEn ? "angielską" : "polską"} — odpowiedz 1–4 · Enter = dalej</div>
         <div class="opts">
           ${opts
             .map(
               (o, i) =>
-                `<button type="button" class="opt" data-i="${i}"><span class="knum">${i + 1}</span>${escapeHtml(o)}</button>`,
+                `<button type="button" class="opt" data-i="${i}"><span class="knum">${i + 1}</span>${sw(o)}${escapeHtml(o)}</button>`,
             )
             .join("")}
         </div>
@@ -1071,7 +1089,7 @@ export function startPractice(root, block, opts) {
       <div class="q">
         ${diagramBlock(it)}
         ${frame ? `<div class="sub" style="margin-bottom:0.35rem">${escapeHtml(it.en)}</div>` : ""}
-        <div class="prompt prompt-gap">${escapeHtml(prompt)}</div>
+        <div class="prompt prompt-gap">${frame ? "" : sw(prompt)}${escapeHtml(prompt)}</div>
         <div class="sub">${sub}</div>
         <input class="type-in" id="ti" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="pisz tutaj…" />
         <div class="fb" id="tfb"></div>

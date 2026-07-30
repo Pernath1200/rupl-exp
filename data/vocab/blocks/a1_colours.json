@@ -3,7 +3,7 @@
   "title": "Kolory",
   "level": "A1",
   "tree_node": "leaf_colours_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc · Swatch chips = visual anchor (kolor anchors as cognate).",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -16,47 +16,58 @@
         },
         {
           "en": "red",
-          "pl": "czerwony"
+          "pl": "czerwony",
+          "swatch": "#e03131"
         },
         {
           "en": "blue",
-          "pl": "niebieski"
+          "pl": "niebieski",
+          "swatch": "#2f6fed"
         },
         {
           "en": "green",
-          "pl": "zielony"
+          "pl": "zielony",
+          "swatch": "#2f9e44"
         },
         {
           "en": "yellow",
-          "pl": "żółty"
+          "pl": "żółty",
+          "swatch": "#fcc419"
         },
         {
           "en": "black",
-          "pl": "czarny"
+          "pl": "czarny",
+          "swatch": "#1a1a1a"
         },
         {
           "en": "white",
-          "pl": "biały"
+          "pl": "biały",
+          "swatch": "#f4f4f2"
         },
         {
           "en": "brown",
-          "pl": "brązowy"
+          "pl": "brązowy",
+          "swatch": "#8b5a2b"
         },
         {
           "en": "grey",
-          "pl": "szary"
+          "pl": "szary",
+          "swatch": "#909090"
         },
         {
           "en": "pink",
-          "pl": "różowy"
+          "pl": "różowy",
+          "swatch": "#f06595"
         },
         {
           "en": "purple",
-          "pl": "fioletowy"
+          "pl": "fioletowy",
+          "swatch": "#8e5cf4"
         },
         {
           "en": "orange",
-          "pl": "pomarańczowy"
+          "pl": "pomarańczowy",
+          "swatch": "#f76707"
         }
       ]
     }

@@ -1329,6 +1329,18 @@ button.m.wrong {
   opacity: 0.9;
 }
 
+/* Swatch chip — visual anchor for self-illustrating vocab (colours) */
+.swatch {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  margin-right: 0.45em;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  vertical-align: baseline;
+  flex-shrink: 0;
+}
+
 /* Typing input / textarea */
 .type-in {
   width: 100%;
