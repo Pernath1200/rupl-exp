@@ -181,8 +181,7 @@ function renderUpNext() {
   const hit = spineNext();
   if (!hit) {
     el.innerHTML = `
-      <p class="tree-legend">Ścieżka spine: wszystkie żywe pary z owocem — albo otwórz węzeł poniżej.</p>
-      <p class="spine-pair"><span class="today-muted">Stabilne: localhost:8095 (gramatyka) · :8094 (słówka)</span></p>`;
+      <p class="tree-legend">Ścieżka spine: wszystkie żywe pary z owocem — albo otwórz węzeł poniżej.</p>`;
     return;
   }
   const { step, node, side, pair } = hit;
