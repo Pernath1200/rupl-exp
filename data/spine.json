@@ -191,6 +191,19 @@
       }
     },
     {
+      "id": "PL_PRES_UJE",
+      "title": "Teraźniejszy · -ować → -uję",
+      "case_tags": [],
+      "rupl2": {
+        "node_id": "a1_present_uje",
+        "label": "Teraźniejszy · wzór pracować",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
       "id": "PL_TECH_01",
       "title": "Technologia i media",
       "case_tags": [
@@ -342,7 +355,7 @@
       }
     }
   ],
-  "path_31": [
+  "path_32": [
     "trunk_social_a1",
     "a1_gender",
     "a1_poss_simple",
@@ -359,6 +372,7 @@
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
+    "a1_present_uje",
     "a1_present_gym",
     "leaf_freetime_a1",
     "leaf_tech_a1",

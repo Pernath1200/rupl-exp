@@ -1,0 +1,559 @@
+{
+  "id": "a1_present_uje",
+  "title": "Teraźniejszy · wzór pracować",
+  "title_en": "Present · -ować → -uję class (pracować, kupować)",
+  "level": "A1",
+  "tree_node": "a1_present_uje",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Fourth class: -ować → -uj-. pracować full grid + kupować. gotować/studiować receptive singles. Unlocks work/shopping/school leaves.",
+  "focus_structures": [
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "The fourth pattern — -ować becomes -uję",
+      "title_pl": "Czwarty wzorzec — -ować → -uję",
+      "body": "Verbs ending in -ować swap that piece for -uj- in the present: pracować → pracuję (I work).\n\nThis is a huge family: pracować (work), kupować (buy), gotować (cook), studiować (study). Learn the swap once and you own them all.\n\nThe endings after -uj- are the ones you know from chcieć: -ę, -esz, -e, -emy, -ecie, -ą.",
+      "body_pl": "Czasowniki na -ować: w teraźniejszym -ować → -uj-: pracować → pracuję.\n\nWielka rodzina: pracować, kupować, gotować, studiować. Końcówki po -uj- jak w chcieć: -ę, -esz, -e…"
+    },
+    {
+      "title": "pracować — full grid",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "pracuję",
+            "I work"
+          ],
+          [
+            "ty",
+            "pracujesz",
+            "you work (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "pracuje",
+            "he / she works"
+          ],
+          [
+            "my",
+            "pracujemy",
+            "we work"
+          ],
+          [
+            "wy",
+            "pracujecie",
+            "you work (pl)"
+          ],
+          [
+            "oni / one",
+            "pracują",
+            "they work"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "kupować — same swap",
+      "title_pl": "kupować — ta sama zamiana",
+      "body": "kupować (to buy) works identically: kupować → kupuj- → kupuję, kupujesz, kupuje… Objects go in the accusative you already know: Kupuję kawę.",
+      "body_pl": "kupować → kupuj-: kupuję, kupujesz… Dopełnienie w bierniku: Kupuję kawę.",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "kupuję",
+            "I buy"
+          ],
+          [
+            "ty",
+            "kupujesz",
+            "you buy (sg)"
+          ],
+          [
+            "on / ona",
+            "kupuje",
+            "he / she buys"
+          ],
+          [
+            "oni / one",
+            "kupują",
+            "they buy"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I work.",
+          "pl": "Pracuję."
+        },
+        {
+          "en": "Do you work? (sg)",
+          "pl": "Pracujesz?"
+        },
+        {
+          "en": "I buy bread.",
+          "pl": "Kupuję chleb."
+        },
+        {
+          "en": "I cook.",
+          "pl": "Gotuję."
+        },
+        {
+          "en": "I study.",
+          "pl": "Studiuję."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I work",
+      "pl": "pracuję"
+    },
+    {
+      "en": "you work (sg)",
+      "pl": "pracujesz"
+    },
+    {
+      "en": "he/she works",
+      "pl": "pracuje"
+    },
+    {
+      "en": "we work",
+      "pl": "pracujemy"
+    },
+    {
+      "en": "you work (pl)",
+      "pl": "pracujecie"
+    },
+    {
+      "en": "they work",
+      "pl": "pracują"
+    },
+    {
+      "en": "I buy",
+      "pl": "kupuję"
+    },
+    {
+      "en": "you buy (sg)",
+      "pl": "kupujesz"
+    },
+    {
+      "en": "he/she buys",
+      "pl": "kupuje"
+    },
+    {
+      "en": "they buy",
+      "pl": "kupują"
+    },
+    {
+      "en": "I cook",
+      "pl": "gotuję"
+    },
+    {
+      "en": "I study",
+      "pl": "studiuję"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I work →",
+      "choices": [
+        "pracuję",
+        "pracujesz",
+        "pracuje",
+        "pracujemy"
+      ],
+      "answer": "pracuję"
+    },
+    {
+      "prompt": "You work (sg) →",
+      "choices": [
+        "pracuję",
+        "pracujesz",
+        "pracuje",
+        "pracujecie"
+      ],
+      "answer": "pracujesz"
+    },
+    {
+      "prompt": "He/she works →",
+      "choices": [
+        "pracuję",
+        "pracujesz",
+        "pracuje",
+        "pracują"
+      ],
+      "answer": "pracuje"
+    },
+    {
+      "prompt": "We work →",
+      "choices": [
+        "pracuję",
+        "pracujemy",
+        "pracujecie",
+        "pracują"
+      ],
+      "answer": "pracujemy"
+    },
+    {
+      "prompt": "They work →",
+      "choices": [
+        "pracuje",
+        "pracujemy",
+        "pracujecie",
+        "pracują"
+      ],
+      "answer": "pracują"
+    },
+    {
+      "prompt": "I buy →",
+      "choices": [
+        "kupuję",
+        "kupujesz",
+        "kupuje",
+        "kupują"
+      ],
+      "answer": "kupuję"
+    },
+    {
+      "prompt": "He/she buys →",
+      "choices": [
+        "kupuję",
+        "kupujesz",
+        "kupuje",
+        "kupują"
+      ],
+      "answer": "kupuje"
+    },
+    {
+      "prompt": "ERROR — ja *pracowam →",
+      "choices": [
+        "pracuję",
+        "pracowam",
+        "pracuje",
+        "pracujemy"
+      ],
+      "answer": "pracuję"
+    },
+    {
+      "prompt": "ERROR — ty *kupuję →",
+      "choices": [
+        "kupuję",
+        "kupujesz",
+        "kupuje",
+        "kupujecie"
+      ],
+      "answer": "kupujesz"
+    },
+    {
+      "prompt": "ERROR — on *pracuję →",
+      "choices": [
+        "pracuję",
+        "pracujesz",
+        "pracuje",
+        "pracują"
+      ],
+      "answer": "pracuje"
+    },
+    {
+      "prompt": "I buy bread:",
+      "choices": [
+        "Kupuję chleb.",
+        "Kupujesz chleb.",
+        "Kupuje chleb.",
+        "Kupują chleb."
+      ],
+      "answer": "Kupuję chleb."
+    },
+    {
+      "prompt": "I cook → form of cook",
+      "choices": [
+        "gotuję",
+        "gotujesz",
+        "gotuje",
+        "gotują"
+      ],
+      "answer": "gotuję"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I work",
+      "mode": "full_word",
+      "answer": "pracuję",
+      "accepts": [
+        "pracuję"
+      ]
+    },
+    {
+      "prompt_en": "you work (sg)",
+      "mode": "full_word",
+      "answer": "pracujesz",
+      "accepts": [
+        "pracujesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she works",
+      "mode": "full_word",
+      "answer": "pracuje",
+      "accepts": [
+        "pracuje"
+      ]
+    },
+    {
+      "prompt_en": "we work",
+      "mode": "full_word",
+      "answer": "pracujemy",
+      "accepts": [
+        "pracujemy"
+      ]
+    },
+    {
+      "prompt_en": "you work (pl)",
+      "mode": "full_word",
+      "answer": "pracujecie",
+      "accepts": [
+        "pracujecie"
+      ]
+    },
+    {
+      "prompt_en": "they work",
+      "mode": "full_word",
+      "answer": "pracują",
+      "accepts": [
+        "pracują"
+      ]
+    },
+    {
+      "prompt_en": "I buy",
+      "mode": "full_word",
+      "answer": "kupuję",
+      "accepts": [
+        "kupuję"
+      ]
+    },
+    {
+      "prompt_en": "you buy (sg)",
+      "mode": "full_word",
+      "answer": "kupujesz",
+      "accepts": [
+        "kupujesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she buys",
+      "mode": "full_word",
+      "answer": "kupuje",
+      "accepts": [
+        "kupuje"
+      ]
+    },
+    {
+      "prompt_en": "they buy",
+      "mode": "full_word",
+      "answer": "kupują",
+      "accepts": [
+        "kupują"
+      ]
+    },
+    {
+      "prompt_en": "I cook",
+      "mode": "full_word",
+      "answer": "gotuję",
+      "accepts": [
+        "gotuję"
+      ]
+    },
+    {
+      "prompt_en": "I study",
+      "mode": "full_word",
+      "answer": "studiuję",
+      "accepts": [
+        "studiuję"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I work.",
+      "answer": "Pracuję.",
+      "accepts": [
+        "Pracuję.",
+        "Pracuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you work? (sg)",
+      "answer": "Pracujesz?",
+      "accepts": [
+        "Pracujesz?",
+        "Czy pracujesz?"
+      ]
+    },
+    {
+      "prompt_en": "Type: He works.",
+      "answer": "On pracuje.",
+      "accepts": [
+        "On pracuje.",
+        "Pracuje.",
+        "On pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: We work.",
+      "answer": "Pracujemy.",
+      "accepts": [
+        "Pracujemy.",
+        "Pracujemy"
+      ]
+    },
+    {
+      "prompt_en": "Type: You work. (pl)",
+      "answer": "Pracujecie.",
+      "accepts": [
+        "Pracujecie.",
+        "Pracujecie"
+      ]
+    },
+    {
+      "prompt_en": "Type: They work.",
+      "answer": "Pracują.",
+      "accepts": [
+        "Pracują.",
+        "Pracują"
+      ]
+    },
+    {
+      "prompt_en": "Type: I buy bread.",
+      "answer": "Kupuję chleb.",
+      "accepts": [
+        "Kupuję chleb.",
+        "Kupuję chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you buy coffee? (sg)",
+      "answer": "Kupujesz kawę?",
+      "accepts": [
+        "Kupujesz kawę?",
+        "Czy kupujesz kawę?"
+      ]
+    },
+    {
+      "prompt_en": "Type: She buys a book.",
+      "answer": "Ona kupuje książkę.",
+      "accepts": [
+        "Ona kupuje książkę.",
+        "Kupuje książkę."
+      ]
+    },
+    {
+      "prompt_en": "Type: They buy water.",
+      "answer": "Kupują wodę.",
+      "accepts": [
+        "Kupują wodę.",
+        "Kupują wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I cook.",
+      "answer": "Gotuję.",
+      "accepts": [
+        "Gotuję.",
+        "Gotuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: I study.",
+      "answer": "Studiuję.",
+      "accepts": [
+        "Studiuję.",
+        "Studiuję"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "present_uje",
+    "present"
+  ],
+  "uses_structures": [
+    "present_uje",
+    "present",
+    "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "pracować",
+    "pracuję",
+    "pracujesz",
+    "pracuje",
+    "pracujemy",
+    "pracujecie",
+    "pracują",
+    "kupować",
+    "kupuję",
+    "kupujesz",
+    "kupuje",
+    "kupują",
+    "gotować",
+    "gotuję",
+    "studiować",
+    "studiuję"
+  ],
+  "uses_lemmas": [
+    "pracować",
+    "pracuję",
+    "pracujesz",
+    "pracuje",
+    "pracujemy",
+    "pracujecie",
+    "pracują",
+    "kupować",
+    "kupuję",
+    "kupujesz",
+    "kupuje",
+    "kupują",
+    "gotować",
+    "gotuję",
+    "studiować",
+    "studiuję",
+    "chleb",
+    "kawa",
+    "kawę",
+    "książka",
+    "książkę",
+    "woda",
+    "wodę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_present_uje",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

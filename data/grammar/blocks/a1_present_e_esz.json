@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "Third class only. chcieć · 6 persons. Match = clean + error-spot (no duplicate rows).",
+  "note": "Third class. chcieć + pić · 6 persons. Match = clean pairs (no duplicate rows). ERROR items in Quiz.",
   "focus_structures": [
     "present_e_esz"
   ],
@@ -138,6 +138,22 @@
     {
       "en": "they want tea",
       "pl": "chcą herbatę"
+    },
+    {
+      "en": "I drink",
+      "pl": "piję"
+    },
+    {
+      "en": "you drink (sg)",
+      "pl": "pijesz"
+    },
+    {
+      "en": "he/she drinks",
+      "pl": "pije"
+    },
+    {
+      "en": "they drink",
+      "pl": "piją"
     }
   ],
   "quiz": [
@@ -260,6 +276,26 @@
         "chcą"
       ],
       "answer": "chcą"
+    },
+    {
+      "prompt": "I drink →",
+      "choices": [
+        "piję",
+        "pijesz",
+        "pije",
+        "piją"
+      ],
+      "answer": "piję"
+    },
+    {
+      "prompt": "ERROR — on *piję →",
+      "choices": [
+        "piję",
+        "pijesz",
+        "pije",
+        "piją"
+      ],
+      "answer": "pije"
     }
   ],
   "type_items": [
@@ -358,6 +394,38 @@
       "answer": "chcecie kawę",
       "accepts": [
         "chcecie kawę"
+      ]
+    },
+    {
+      "prompt_en": "I drink",
+      "mode": "full_word",
+      "answer": "piję",
+      "accepts": [
+        "piję"
+      ]
+    },
+    {
+      "prompt_en": "you drink (sg)",
+      "mode": "full_word",
+      "answer": "pijesz",
+      "accepts": [
+        "pijesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she drinks",
+      "mode": "full_word",
+      "answer": "pije",
+      "accepts": [
+        "pije"
+      ]
+    },
+    {
+      "prompt_en": "they drink",
+      "mode": "full_word",
+      "answer": "piją",
+      "accepts": [
+        "piją"
       ]
     }
   ],
@@ -458,6 +526,39 @@
         "Chcecie kawę.",
         "Chcecie kawę"
       ]
+    },
+    {
+      "prompt_en": "Type: I drink coffee.",
+      "answer": "Piję kawę.",
+      "accepts": [
+        "Piję kawę.",
+        "Piję kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You drink tea. (sg)",
+      "answer": "Pijesz herbatę.",
+      "accepts": [
+        "Pijesz herbatę.",
+        "Pijesz herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: He drinks water.",
+      "answer": "On pije wodę.",
+      "accepts": [
+        "On pije wodę.",
+        "On pije wodę",
+        "Pije wodę."
+      ]
+    },
+    {
+      "prompt_en": "Type: They drink beer.",
+      "answer": "Piją piwo.",
+      "accepts": [
+        "Piją piwo.",
+        "Piją piwo"
+      ]
     }
   ],
   "teaches_structures": [
@@ -476,7 +577,14 @@
     "chce",
     "chcemy",
     "chcecie",
-    "chcą"
+    "chcą",
+    "pić",
+    "piję",
+    "pijesz",
+    "pije",
+    "pijemy",
+    "pijecie",
+    "piją"
   ],
   "uses_lemmas": [
     "chcieć",
@@ -494,7 +602,14 @@
     "wodę",
     "piwo",
     "książka",
-    "książkę"
+    "książkę",
+    "pić",
+    "piję",
+    "pijesz",
+    "pije",
+    "pijemy",
+    "pijecie",
+    "piją"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "ONE class (-am). mieszkać + czytać. Match = clean EN→form only (no error-cues on the match board). ERROR items live in Quiz. No w/na.",
+  "note": "ONE class (-am). mieszkać + czytać + grać. Match = clean EN→form only. ERROR items in Quiz. No w/na.",
   "focus_structures": [
     "present_am"
   ],
@@ -188,6 +188,22 @@
     {
       "en": "they read",
       "pl": "czytają"
+    },
+    {
+      "en": "I play",
+      "pl": "gram"
+    },
+    {
+      "en": "you play (sg)",
+      "pl": "grasz"
+    },
+    {
+      "en": "he/she plays",
+      "pl": "gra"
+    },
+    {
+      "en": "they play",
+      "pl": "grają"
     }
   ],
   "quiz": [
@@ -310,6 +326,26 @@
         "czytacie"
       ],
       "answer": "czytasz"
+    },
+    {
+      "prompt": "I play →",
+      "choices": [
+        "gram",
+        "grasz",
+        "gra",
+        "grają"
+      ],
+      "answer": "gram"
+    },
+    {
+      "prompt": "They play →",
+      "choices": [
+        "gra",
+        "gramy",
+        "gracie",
+        "grają"
+      ],
+      "answer": "grają"
     }
   ],
   "type_items": [
@@ -407,6 +443,38 @@
       "answer": "czytają",
       "accepts": [
         "czytają"
+      ]
+    },
+    {
+      "prompt_en": "I play",
+      "mode": "full_word",
+      "answer": "gram",
+      "accepts": [
+        "gram"
+      ]
+    },
+    {
+      "prompt_en": "you play (sg)",
+      "mode": "full_word",
+      "answer": "grasz",
+      "accepts": [
+        "grasz"
+      ]
+    },
+    {
+      "prompt_en": "he/she plays",
+      "mode": "full_word",
+      "answer": "gra",
+      "accepts": [
+        "gra"
+      ]
+    },
+    {
+      "prompt_en": "they play",
+      "mode": "full_word",
+      "answer": "grają",
+      "accepts": [
+        "grają"
       ]
     }
   ],
@@ -510,6 +578,39 @@
         "Czytają.",
         "Czytają"
       ]
+    },
+    {
+      "prompt_en": "Type: I play.",
+      "answer": "Gram.",
+      "accepts": [
+        "Gram.",
+        "Gram"
+      ]
+    },
+    {
+      "prompt_en": "Type: He plays.",
+      "answer": "On gra.",
+      "accepts": [
+        "On gra.",
+        "On gra",
+        "Gra."
+      ]
+    },
+    {
+      "prompt_en": "Type: We play.",
+      "answer": "Gramy.",
+      "accepts": [
+        "Gramy.",
+        "Gramy"
+      ]
+    },
+    {
+      "prompt_en": "Type: They play.",
+      "answer": "Grają.",
+      "accepts": [
+        "Grają.",
+        "Grają"
+      ]
     }
   ],
   "teaches_structures": [
@@ -534,7 +635,14 @@
     "czyta",
     "czytamy",
     "czytacie",
-    "czytają"
+    "czytają",
+    "grać",
+    "gram",
+    "grasz",
+    "gra",
+    "gramy",
+    "gracie",
+    "grają"
   ],
   "uses_lemmas": [
     "mieszkać",
@@ -555,7 +663,14 @@
     "tata",
     "ojciec",
     "brat",
-    "siostra"
+    "siostra",
+    "grać",
+    "gram",
+    "grasz",
+    "gra",
+    "gramy",
+    "gracie",
+    "grają"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

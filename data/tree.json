@@ -31,6 +31,7 @@
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
+    "a1_present_uje",
     "a1_present_gym",
     "leaf_freetime_a1",
     "leaf_tech_a1",
@@ -47,7 +48,7 @@
     "a1_inst_job",
     "leaf_work_a1"
   ],
-  "path_order_note": "Path-31: spine teach→use pairs + naming/chunk vocab wired along carriers; grammar gyms after support targets.",
+  "path_order_note": "Path-32: spine teach→use pairs + naming/chunk vocab wired along carriers; four present classes; grammar gyms after support targets.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -65,7 +66,8 @@
       "a1_negation",
       "a1_prep_place",
       "a1_prep_do_z",
-      "a1_inst_job"
+      "a1_inst_job",
+      "a1_present_uje"
     ],
     "vocab": [
       "trunk_social_a1",
@@ -522,6 +524,27 @@
       ],
       "pedagogy": "teach",
       "partner_id": "leaf_freetime_a1"
+    },
+    {
+      "id": "a1_present_uje",
+      "domain": "grammar",
+      "label": "Teraźniejszy · wzór pracować",
+      "label_en": "Present · -ować → -uję",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_present_uje.json",
+      "practice": "grammar",
+      "note": "pracować + kupować (gotować/studiować receptive) · -ować → -uj- · Acc objects only",
+      "unit_id": "PL_PRES_UJE",
+      "spine_steps": [
+        "PL_PRES_UJE"
+      ],
+      "pedagogy": "teach"
     },
     {
       "id": "a1_present_gym",

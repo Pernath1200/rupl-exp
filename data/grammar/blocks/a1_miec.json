@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "mieć present grid + Acc object (positive only). Genitive-of-negation chunks → planned a1_negation unit — not this pack.",
+  "note": "mieć present grid + Acc object (positive only) incl. animate masc -a (psa, kota, brata). Genitive-of-negation chunks -> a1_negation, not here.",
   "focus_structures": [
     "miec_present",
     "miec_acc"
@@ -169,6 +169,41 @@
       }
     },
     {
+      "title": "Living things take -a",
+      "title_pl": "Żywe istoty: -a",
+      "body": "Masculine nouns for people and animals show the accusative with -a: kot → kota, brat → brata.\n\npies drops its e as well: pies → psa (mam psa).\n\nMasculine things usually stay unchanged: mam dom, mam sok, mam chleb.",
+      "body_pl": "Męskie osoby i zwierzęta: biernik -a — kot → kota, brat → brata. pies traci e: pies → psa.\n\nMęskie rzeczy zwykle bez zmiany: mam dom.",
+      "table": {
+        "headers": [
+          "Nominative",
+          "Accusative",
+          "With mieć"
+        ],
+        "rows": [
+          [
+            "pies",
+            "psa",
+            "mam psa"
+          ],
+          [
+            "kot",
+            "kota",
+            "mam kota"
+          ],
+          [
+            "brat",
+            "brata",
+            "mam brata"
+          ],
+          [
+            "dom (thing)",
+            "dom",
+            "mam dom"
+          ]
+        ]
+      }
+    },
+    {
       "title": "Statements and questions",
       "title_pl": "Zdania i pytania",
       "body": "Same Acc after mieć in questions. (No negation here — nie + object uses another case later.)",
@@ -249,6 +284,18 @@
     {
       "en": "I have coffee",
       "pl": "Mam kawę."
+    },
+    {
+      "en": "dog (as object)",
+      "pl": "psa"
+    },
+    {
+      "en": "brother (as object)",
+      "pl": "brata"
+    },
+    {
+      "en": "I have a dog",
+      "pl": "Mam psa."
     }
   ],
   "quiz": [
@@ -371,6 +418,36 @@
         "Mam kawą."
       ],
       "answer": "Mam kawę."
+    },
+    {
+      "prompt": "Dog as object: mam ___",
+      "choices": [
+        "pies",
+        "psa",
+        "psu",
+        "psem"
+      ],
+      "answer": "psa"
+    },
+    {
+      "prompt": "Brother as object: mam ___",
+      "choices": [
+        "brat",
+        "brata",
+        "bratu",
+        "bratem"
+      ],
+      "answer": "brata"
+    },
+    {
+      "prompt": "ERROR — *Mam pies →",
+      "choices": [
+        "Mam pies.",
+        "Mam psa.",
+        "Mam psu.",
+        "Mam psem."
+      ],
+      "answer": "Mam psa."
     }
   ],
   "type_items": [
@@ -468,6 +545,22 @@
       "answer": "kota",
       "accepts": [
         "kota"
+      ]
+    },
+    {
+      "prompt_en": "pies → Acc (one word)",
+      "mode": "full_word",
+      "answer": "psa",
+      "accepts": [
+        "psa"
+      ]
+    },
+    {
+      "prompt_en": "brat → Acc (one word)",
+      "mode": "full_word",
+      "answer": "brata",
+      "accepts": [
+        "brata"
       ]
     }
   ],
@@ -569,6 +662,32 @@
         "Mam piwo.",
         "Mam piwo"
       ]
+    },
+    {
+      "prompt_en": "Type: I have a dog.",
+      "answer": "Mam psa.",
+      "accepts": [
+        "Mam psa.",
+        "Mam psa"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you have a brother? (sg)",
+      "answer": "Masz brata?",
+      "accepts": [
+        "Masz brata?",
+        "Masz brata?",
+        "Czy masz brata?"
+      ]
+    },
+    {
+      "prompt_en": "Type: She has a cat.",
+      "answer": "Ona ma kota.",
+      "accepts": [
+        "Ona ma kota.",
+        "Ona ma kota",
+        "Ma kota."
+      ]
     }
   ],
   "teaches_structures": [
@@ -591,7 +710,11 @@
     "wodę",
     "książkę",
     "siostrę",
-    "kota"
+    "kota",
+    "psa",
+    "brata",
+    "pies",
+    "brat"
   ],
   "uses_lemmas": [
     "mam",
@@ -613,7 +736,11 @@
     "siostra",
     "siostrę",
     "kot",
-    "kota"
+    "kota",
+    "pies",
+    "psa",
+    "brat",
+    "brata"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P0: second class only. Full 6 persons. Verbs: mówić, lubić. Not mixed with -am or chcieć.",
+  "note": "P0: second class only. Full 6 persons. Verbs: mówić, lubić, robić. Not mixed with -am or chcieć.",
   "focus_structures": [
     "present_e_isz"
   ],
@@ -181,6 +181,22 @@
     {
       "en": "they like",
       "pl": "lubią"
+    },
+    {
+      "en": "I make/do",
+      "pl": "robię"
+    },
+    {
+      "en": "you make/do (sg)",
+      "pl": "robisz"
+    },
+    {
+      "en": "he/she makes/does",
+      "pl": "robi"
+    },
+    {
+      "en": "they make/do",
+      "pl": "robią"
     }
   ],
   "quiz": [
@@ -303,6 +319,26 @@
         "lubią"
       ],
       "answer": "lubimy"
+    },
+    {
+      "prompt": "I make/do →",
+      "choices": [
+        "robię",
+        "robisz",
+        "robi",
+        "robią"
+      ],
+      "answer": "robię"
+    },
+    {
+      "prompt": "He/she makes/does →",
+      "choices": [
+        "robię",
+        "robisz",
+        "robi",
+        "robimy"
+      ],
+      "answer": "robi"
     }
   ],
   "type_items": [
@@ -400,6 +436,38 @@
       "answer": "lubią",
       "accepts": [
         "lubią"
+      ]
+    },
+    {
+      "prompt_en": "I make/do",
+      "mode": "full_word",
+      "answer": "robię",
+      "accepts": [
+        "robię"
+      ]
+    },
+    {
+      "prompt_en": "you make/do (sg)",
+      "mode": "full_word",
+      "answer": "robisz",
+      "accepts": [
+        "robisz"
+      ]
+    },
+    {
+      "prompt_en": "he/she makes/does",
+      "mode": "full_word",
+      "answer": "robi",
+      "accepts": [
+        "robi"
+      ]
+    },
+    {
+      "prompt_en": "they make/do",
+      "mode": "full_word",
+      "answer": "robią",
+      "accepts": [
+        "robią"
       ]
     }
   ],
@@ -500,6 +568,31 @@
         "Lubicie kawę.",
         "Lubicie kawę"
       ]
+    },
+    {
+      "prompt_en": "Type: I make coffee.",
+      "answer": "Robię kawę.",
+      "accepts": [
+        "Robię kawę.",
+        "Robię kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: She makes tea.",
+      "answer": "Ona robi herbatę.",
+      "accepts": [
+        "Ona robi herbatę.",
+        "Ona robi herbatę",
+        "Robi herbatę."
+      ]
+    },
+    {
+      "prompt_en": "Type: They make coffee.",
+      "answer": "Robią kawę.",
+      "accepts": [
+        "Robią kawę.",
+        "Robią kawę"
+      ]
     }
   ],
   "teaches_structures": [
@@ -525,7 +618,14 @@
     "lubi",
     "lubimy",
     "lubicie",
-    "lubią"
+    "lubią",
+    "robić",
+    "robię",
+    "robisz",
+    "robi",
+    "robimy",
+    "robicie",
+    "robią"
   ],
   "uses_lemmas": [
     "mówić",
@@ -546,7 +646,14 @@
     "kawę",
     "herbata",
     "herbatę",
-    "piwo"
+    "piwo",
+    "robić",
+    "robię",
+    "robisz",
+    "robi",
+    "robimy",
+    "robicie",
+    "robią"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

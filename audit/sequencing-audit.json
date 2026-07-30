@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-30T20:36:12+02:00",
+  "generated_at": "2026-07-30T22:08:09+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -20,6 +20,7 @@
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
+    "a1_present_uje",
     "a1_present_gym",
     "leaf_freetime_a1",
     "leaf_tech_a1",
@@ -37,7 +38,7 @@
     "leaf_work_a1"
   ],
   "summary": {
-    "nodes_audited": 31,
+    "nodes_audited": 32,
     "errors": 0,
     "warns": 0,
     "infos": 0,
@@ -229,7 +230,7 @@
         "miec_acc",
         "miec_present"
       ],
-      "teaches_lemmas_n": 12,
+      "teaches_lemmas_n": 16,
       "uses_structures": [
         "miec_acc",
         "miec_present"
@@ -324,7 +325,7 @@
         "present",
         "present_am"
       ],
-      "teaches_lemmas_n": 14,
+      "teaches_lemmas_n": 21,
       "uses_structures": [
         "present",
         "present_am"
@@ -351,7 +352,7 @@
         "present",
         "present_e_isz"
       ],
-      "teaches_lemmas_n": 14,
+      "teaches_lemmas_n": 21,
       "uses_structures": [
         "miec_acc",
         "present",
@@ -380,7 +381,7 @@
         "present",
         "present_e_esz"
       ],
-      "teaches_lemmas_n": 7,
+      "teaches_lemmas_n": 14,
       "uses_structures": [
         "miec_acc",
         "present",
@@ -403,17 +404,18 @@
     },
     {
       "path_index": 16,
-      "node_id": "a1_present_gym",
-      "pack_id": "a1_present_gym",
+      "node_id": "a1_present_uje",
+      "pack_id": "a1_present_uje",
       "domain": "grammar",
-      "teaches_structures": [],
-      "teaches_lemmas_n": 0,
+      "teaches_structures": [
+        "present",
+        "present_uje"
+      ],
+      "teaches_lemmas_n": 16,
       "uses_structures": [
         "miec_acc",
         "present",
-        "present_am",
-        "present_e_esz",
-        "present_e_isz"
+        "present_uje"
       ],
       "unlocked_structures_after": [
         "byc_adj",
@@ -425,6 +427,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
@@ -432,6 +435,37 @@
     },
     {
       "path_index": 17,
+      "node_id": "a1_present_gym",
+      "pack_id": "a1_present_gym",
+      "domain": "grammar",
+      "teaches_structures": [],
+      "teaches_lemmas_n": 0,
+      "uses_structures": [
+        "miec_acc",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "miec_acc",
+        "miec_present",
+        "poss_nom",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "social_chunk",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 18,
       "node_id": "leaf_freetime_a1",
       "pack_id": "a1_freetime",
       "domain": "vocab",
@@ -458,13 +492,14 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 18,
+      "path_index": 19,
       "node_id": "leaf_tech_a1",
       "pack_id": "a1_tech",
       "domain": "vocab",
@@ -483,13 +518,14 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 19,
+      "path_index": 20,
       "node_id": "trunk_want_like_a1",
       "pack_id": "a1_trunk_want_like",
       "domain": "vocab",
@@ -515,13 +551,14 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 20,
+      "path_index": 21,
       "node_id": "trunk_can_a1",
       "pack_id": "a1_trunk_can",
       "domain": "vocab",
@@ -545,13 +582,14 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 21,
+      "path_index": 22,
       "node_id": "leaf_nature_a1",
       "pack_id": "a1_nature",
       "domain": "vocab",
@@ -572,13 +610,14 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "social_chunk",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 22,
+      "path_index": 23,
       "node_id": "a1_questions",
       "pack_id": "a1_questions",
       "domain": "grammar",
@@ -605,6 +644,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -612,7 +652,7 @@
       ]
     },
     {
-      "path_index": 23,
+      "path_index": 24,
       "node_id": "a1_prep_place",
       "pack_id": "a1_prep_place",
       "domain": "grammar",
@@ -640,6 +680,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -647,7 +688,7 @@
       ]
     },
     {
-      "path_index": 24,
+      "path_index": 25,
       "node_id": "leaf_places",
       "pack_id": "a1_places",
       "domain": "vocab",
@@ -680,6 +721,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -687,7 +729,7 @@
       ]
     },
     {
-      "path_index": 25,
+      "path_index": 26,
       "node_id": "a1_prep_do_z",
       "pack_id": "a1_prep_do_z",
       "domain": "grammar",
@@ -718,6 +760,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -725,7 +768,7 @@
       ]
     },
     {
-      "path_index": 26,
+      "path_index": 27,
       "node_id": "leaf_city_a1",
       "pack_id": "a1_city",
       "domain": "vocab",
@@ -755,6 +798,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -762,7 +806,7 @@
       ]
     },
     {
-      "path_index": 27,
+      "path_index": 28,
       "node_id": "a1_negation",
       "pack_id": "a1_negation",
       "domain": "grammar",
@@ -791,6 +835,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -798,7 +843,7 @@
       ]
     },
     {
-      "path_index": 28,
+      "path_index": 29,
       "node_id": "trunk_there_time_a1",
       "pack_id": "a1_trunk_there_time",
       "domain": "vocab",
@@ -829,6 +874,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -836,7 +882,7 @@
       ]
     },
     {
-      "path_index": 29,
+      "path_index": 30,
       "node_id": "a1_inst_job",
       "pack_id": "a1_inst_job",
       "domain": "grammar",
@@ -866,6 +912,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",
@@ -873,7 +920,7 @@
       ]
     },
     {
-      "path_index": 30,
+      "path_index": 31,
       "node_id": "leaf_work_a1",
       "pack_id": "a1_work",
       "domain": "vocab",
@@ -903,6 +950,7 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
+        "present_uje",
         "question",
         "social_chunk",
         "to_jest",

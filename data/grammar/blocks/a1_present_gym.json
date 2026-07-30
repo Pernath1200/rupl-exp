@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "After all three present classes. Mixed discrimination. No prep/Loc until a1_prep_place.",
+  "note": "After all four present classes. Mixed discrimination. No prep/Loc until a1_prep_place.",
   "intro": [
     {
       "title": "Gym after three classes",
@@ -161,6 +161,14 @@
     {
       "en": "ty · chcieć → ending",
       "pl": "esz"
+    },
+    {
+      "en": "ja · pracować → ending",
+      "pl": "uję"
+    },
+    {
+      "en": "ty · pracować → ending",
+      "pl": "ujesz"
     }
   ],
   "quiz": [
@@ -243,6 +251,26 @@
         "i"
       ],
       "answer": "e"
+    },
+    {
+      "prompt": "pracuj__ (ja) — ending?",
+      "choices": [
+        "ę",
+        "esz",
+        "e",
+        "ą"
+      ],
+      "answer": "ę"
+    },
+    {
+      "prompt": "kupuj__ (ty) — ending?",
+      "choices": [
+        "isz",
+        "esz",
+        "asz",
+        "ę"
+      ],
+      "answer": "esz"
     }
   ],
   "type_items": [
@@ -367,6 +395,22 @@
       "prompt_en": "ona · uczyć",
       "stem": "ucz",
       "ending": "y"
+    },
+    {
+      "prompt_en": "ja · pracować",
+      "stem": "prac",
+      "ending": "uję",
+      "hint": "pattern -ować → -uję"
+    },
+    {
+      "prompt_en": "ty · kupować",
+      "stem": "kup",
+      "ending": "ujesz"
+    },
+    {
+      "prompt_en": "on · pracować",
+      "stem": "prac",
+      "ending": "uje"
     }
   ],
   "use_items": [
@@ -437,6 +481,23 @@
         "Lubi herbatę.",
         "Lubi herbatę"
       ]
+    },
+    {
+      "prompt_en": "Type: I work.",
+      "answer": "Pracuję.",
+      "accepts": [
+        "Pracuję.",
+        "Pracuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: She buys coffee.",
+      "answer": "Ona kupuje kawę.",
+      "accepts": [
+        "Ona kupuje kawę.",
+        "Ona kupuje kawę",
+        "Kupuje kawę."
+      ]
     }
   ],
   "teaches_structures": [],
@@ -445,7 +506,8 @@
     "present_e_isz",
     "present_e_esz",
     "present",
-    "miec_acc"
+    "miec_acc",
+    "present_uje"
   ],
   "teaches_lemmas": [],
   "uses_lemmas": [
