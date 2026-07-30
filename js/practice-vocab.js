@@ -455,6 +455,13 @@ export function startPractice(root, block, opts) {
     }
   }
 
+  // Exits that bypass #p-exit (shell back button, opening the next unit) leave
+  // this instance's document-level Enter handler alive; a stale handler then
+  // re-renders the OLD unit on Enter. Unbind the previous instance on mount
+  // and hand the shell a teardown, mirroring grammar's _rupl2UnbindKeys.
+  if (typeof root._ruplVocabUnbind === "function") root._ruplVocabUnbind();
+  root._ruplVocabUnbind = clearKey;
+
   /** Map digit / numpad key to 0-based option index, or null. */
   function quizKeyToIndex(e, optCount) {
     const codeMap = {

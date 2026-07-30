@@ -263,6 +263,11 @@ def build_tree(spine: dict):
 
 
 def main():
+    raise SystemExit(
+        "RETIRED (2026-07-30): rupl-exp is canonical; rupl2/3 are frozen archives.\n"
+        "Running this would overwrite live exp blocks with stale archive content.\n"
+        "Edit blocks directly under rupl-exp/data/{grammar,vocab}/blocks."
+    )
     assert RUPL2.is_dir() and RUPL3.is_dir(), "rupl2 and rupl3 must exist"
     copy_blocks()
     spine = build_spine()

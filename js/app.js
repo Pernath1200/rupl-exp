@@ -86,6 +86,10 @@ function showMap() {
     pr._rupl2UnbindKeys();
     pr._rupl2UnbindKeys = null;
   }
+  if (pr && typeof pr._ruplVocabUnbind === "function") {
+    pr._ruplVocabUnbind();
+    pr._ruplVocabUnbind = null;
+  }
   pr.innerHTML = "";
   STATE.view = "map";
   document.getElementById("view-map").hidden = false;
