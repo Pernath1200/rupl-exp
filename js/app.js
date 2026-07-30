@@ -312,9 +312,7 @@ function renderPath() {
       <span class="${statusCls}">${escapeHtml(label)}</span>
     `;
     btn.addEventListener("click", () => {
-      STATE.selectedId = node.id;
-      renderPath();
-      renderDetail();
+      focusNodeOnMap(node);
     });
     li.appendChild(btn);
     list.appendChild(li);

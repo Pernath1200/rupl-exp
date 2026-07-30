@@ -267,7 +267,7 @@ def main():
     copy_blocks()
     spine = build_spine()
     build_tree(spine)
-    print("OK →", ROOT)
+    print("OK ->", ROOT)
 
 
 if __name__ == "__main__":

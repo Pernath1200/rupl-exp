@@ -189,9 +189,19 @@ export function startPractice(pack, root, opts) {
 
   document.addEventListener("keydown", onPracticeKeydown, true);
 
+  // ---- Ladder: click a stage to jump straight to it (no hard lock) ----
+  function onLadderClick(e) {
+    const step =
+      e.target.closest && e.target.closest(".ladder-step[data-stage]");
+    if (!step || !root.contains(step)) return;
+    jumpToStage(step.dataset.stage);
+  }
+  root.addEventListener("click", onLadderClick);
+
   function teardown() {
     clearAdvance();
     document.removeEventListener("keydown", onPracticeKeydown, true);
+    root.removeEventListener("click", onLadderClick);
     root._rupl2UnbindKeys = null;
   }
 
@@ -205,6 +215,15 @@ export function startPractice(pack, root, opts) {
   function setStage(s) {
     state.stage = s;
     render();
+  }
+
+  // Jump to any ladder stage via its proper entry (each initialises its items)
+  function jumpToStage(id) {
+    if (!id || id === state.stage) return;
+    if (id === "intro") setStage("intro");
+    else if (id === "check") beginCheck();
+    else if (id === "type") beginType();
+    else if (id === "use") beginUse();
   }
 
   function ladderHtml() {
@@ -255,7 +274,7 @@ export function startPractice(pack, root, opts) {
                 i < steps.length - 1
                   ? `<span class="ladder-arrow" aria-hidden="true">→</span>`
                   : "";
-              return `<span class="${cls}" role="listitem">${label}</span>${arrow}`;
+              return `<button type="button" class="${cls}" data-stage="${id}">${label}</button>${arrow}`;
             })
             .join("")}
         </div>

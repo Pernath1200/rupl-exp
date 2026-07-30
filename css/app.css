@@ -437,6 +437,7 @@ a.today-link:hover {
 }
 
 .ladder-step {
+  font-family: inherit;
   font-size: 0.72rem;
   font-weight: 600;
   padding: 0.3rem 0.55rem;
@@ -444,6 +445,7 @@ a.today-link:hover {
   border: 1px solid var(--accent-border);
   color: var(--muted);
   background: transparent;
+  cursor: pointer;
 }
 
 .ladder-step.is-current {
@@ -662,6 +664,42 @@ a.today-link:hover {
   color: var(--muted);
   margin: 0 0 0.35rem;
   text-align: center;
+}
+
+/* Quiz options — ported from RUE2 format, amber via theme vars */
+.opts {
+  display: grid;
+  gap: 0.45rem;
+  text-align: left;
+}
+
+.opt {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--accent-border);
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+}
+
+.opt:hover {
+  border-color: var(--accent);
+}
+
+.opt.correct {
+  border-color: var(--correct);
+  color: var(--correct);
+  background: rgba(34, 197, 94, 0.1);
+  font-weight: 600;
+}
+
+.opt.wrong {
+  border-color: var(--wrong);
+  color: var(--wrong);
+  background: rgba(239, 68, 68, 0.1);
 }
 
 .match {
@@ -1147,4 +1185,230 @@ button.m.wrong {
 }
 .tree-portrait-svg .tp-knot[data-node]:not([data-node=""]) {
   pointer-events: auto;
+}
+
+/* ============================================================
+   VOCAB ENGINE (practice-vocab.js) — was almost entirely
+   unstyled, so it fell back to browser defaults (white buttons,
+   white focus ring). Matched to the grammar engine's language.
+   ============================================================ */
+
+/* Mode tabs — Dopasuj / Quiz / Słowo / Zdanie */
+.modes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 0.5rem;
+}
+
+.mode {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent-border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.mode:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.mode.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Status bar: "Pytanie 1 z 24 · wynik 0" + direction toggle */
+.p-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 0 0 0.5rem;
+  border-bottom: 1px solid rgba(200, 120, 64, 0.18);
+  margin-bottom: 0.75rem;
+}
+
+.dir {
+  font-family: inherit;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent-border);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.dir:hover {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.dir-static {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* Practice header */
+.practice-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.practice-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Stage container — programmatic focus target, so no default ring */
+.stage {
+  min-height: 12rem;
+}
+
+.stage:focus,
+.stage:focus-visible {
+  outline: none;
+}
+
+/* Question card */
+.q {
+  background: var(--surface);
+  border: 1px solid rgba(200, 120, 64, 0.22);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.prompt {
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0.2rem;
+}
+
+.prompt-gap {
+  color: var(--text);
+}
+
+.frame-prompt {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0.5rem 0 0.35rem;
+}
+
+.scoreline {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0.35rem 0 0.75rem;
+}
+
+/* Option number chip — was rendering glued to the word ("1kuchnia") */
+.opt .knum {
+  display: inline-block;
+  min-width: 1.3rem;
+  margin-right: 0.55rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--accent);
+  opacity: 0.9;
+}
+
+/* Typing input / textarea */
+.type-in {
+  width: 100%;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.55rem 0.7rem;
+  margin: 0.6rem 0 0.1rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-border);
+  background: #0a0a0a;
+  color: var(--text);
+}
+
+.type-in:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.type-area {
+  resize: vertical;
+  line-height: 1.4;
+}
+
+/* Feedback line */
+.fb {
+  min-height: 1.3rem;
+  font-size: 0.9rem;
+  margin: 0.4rem 0 0.2rem;
+}
+
+.fb.good {
+  color: var(--correct);
+  font-weight: 600;
+}
+
+.fb.bad {
+  color: var(--wrong);
+}
+
+.fb.near {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.reveal {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* Frames: word pills above the frame prompt */
+.words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.6rem;
+}
+
+.words .pill small {
+  display: block;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+/* Saved-sentence review */
+.sent-review .sent,
+.sent-list-mini .sent {
+  text-align: left;
+  font-size: 0.9rem;
+  padding: 0.45rem 0.6rem;
+  margin-bottom: 0.35rem;
+  border-left: 2px solid var(--accent-border);
+  background: rgba(200, 120, 64, 0.06);
+  border-radius: 0 6px 6px 0;
+}
+
+/* Picture prompt */
+.picwrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.scene {
+  width: 100%;
+  max-width: 15rem;
+  height: auto;
 }

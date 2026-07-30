@@ -143,7 +143,76 @@ function isCorrectAnswer(userInput, item, primary, opts = {}) {
   return false;
 }
 
-export { norm, isCorrectAnswer, itemAccepts, softSentenceMatch, expandContractions };
+/** Drop Polish diacritics. Near-miss detection ONLY — never used to grade a pass. */
+function deacc(s) {
+  return String(s)
+    .replace(/ą/g, "a")
+    .replace(/ć/g, "c")
+    .replace(/ę/g, "e")
+    .replace(/ł/g, "l")
+    .replace(/ń/g, "n")
+    .replace(/ó/g, "o")
+    .replace(/ś/g, "s")
+    .replace(/ź/g, "z")
+    .replace(/ż/g, "z");
+}
+
+/** Levenshtein distance, bailing out once past `cap`. */
+function editDistance(a, b, cap) {
+  if (Math.abs(a.length - b.length) > cap) return cap + 1;
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j);
+  for (let i = 1; i <= a.length; i++) {
+    const row = [i];
+    let best = i;
+    for (let j = 1; j <= b.length; j++) {
+      row[j] = Math.min(
+        prev[j] + 1,
+        row[j - 1] + 1,
+        prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      );
+      if (row[j] < best) best = row[j];
+    }
+    if (best > cap) return cap + 1;
+    prev = row;
+  }
+  return prev[b.length];
+}
+
+/**
+ * Verdict for an answer that failed isCorrectAnswer().
+ *   "accent" — right word, only diacritics off (English keyboard problem,
+ *              not a knowledge problem) → count it, but show the ogonki.
+ *   "close"  — within a couple of edits (dropped ending, typo) → offer one
+ *              retry instead of a hard wrong + reveal.
+ *   null     — genuinely a different word. Stays wrong.
+ * Never widens the answer key: the model answer shown is unchanged.
+ */
+function nearMiss(userInput, item, primary, opts = {}) {
+  const userN = norm(userInput);
+  if (!userN) return null;
+  const forms = itemAccepts(item, primary, opts);
+  if (!forms.length) return null;
+
+  const userFlat = deacc(userN);
+  if (forms.some((f) => deacc(f) === userFlat)) return "accent";
+
+  // Budget scales with length; short words get none (syn vs sen is a real miss).
+  for (const f of forms) {
+    const cap = f.length >= 7 ? 2 : f.length >= 5 ? 1 : 0;
+    if (cap === 0) continue;
+    if (editDistance(userFlat, deacc(f), cap) <= cap) return "close";
+  }
+  return null;
+}
+
+export {
+  norm,
+  isCorrectAnswer,
+  itemAccepts,
+  softSentenceMatch,
+  expandContractions,
+  nearMiss,
+};
 
 /** Ball-and-box SVG diagrams (from Teaching Material basic-prepositions.html), RUE3 dark tokens. */
 function diagramSvg(key) {
@@ -390,7 +459,7 @@ export function startPractice(root, block, opts) {
           )
           .join("")}
       </div>
-      <div class="bar">
+      <div class="p-bar">
         <span id="p-status">${escapeHtml(statusText || "")}</span>
         ${
           showDir
@@ -851,6 +920,7 @@ export function startPractice(root, block, opts) {
       t.pos++;
       t.answered = false;
       t.missedThis = false;
+      t.nearUsed = false;
       render();
     }
 
@@ -862,31 +932,57 @@ export function startPractice(root, block, opts) {
       chk.focus();
     }
 
-    function grade() {
+    function grade(opts = {}) {
       if (t.answered) return;
-      t.answered = true;
-      t.missedThis = false;
+      const { allowNear = true } = opts;
       if (isCorrectAnswer(inp.value, it, answer, { forGap: frame })) {
+        t.answered = true;
+        t.missedThis = false;
         t.score++;
         fb.textContent = "✓ Dobrze";
         fb.className = "fb good";
-      } else {
-        t.missedThis = true;
-        fb.innerHTML = `✗ Odpowiedź: <span class="reveal">${escapeHtml(answer)}</span>`;
-        fb.className = "fb bad";
-        const s = document.createElement("button");
-        s.type = "button";
-        s.className = "link";
-        s.textContent = "Miałem rację → policz to";
-        s.onclick = () => {
-          t.score++;
-          t.missedThis = false;
-          s.textContent = "zaliczone ✓";
-          s.disabled = true;
-        };
-        fb.appendChild(document.createElement("br"));
-        fb.appendChild(s);
+        afterGrade();
+        return;
       }
+
+      // Near-miss layer: diacritics count as right, a dropped ending gets one retry.
+      const near = allowNear
+        ? nearMiss(inp.value, it, answer, { forGap: frame })
+        : null;
+      if (near === "accent") {
+        t.answered = true;
+        t.missedThis = false;
+        t.score++;
+        fb.innerHTML = `✓ Dobrze — z ogonkami: <span class="reveal">${escapeHtml(answer)}</span>`;
+        fb.className = "fb good";
+        afterGrade();
+        return;
+      }
+      if (near === "close" && !t.nearUsed) {
+        t.nearUsed = true;
+        fb.textContent = "Prawie — sprawdź końcówkę i spróbuj jeszcze raz.";
+        fb.className = "fb near";
+        inp.select();
+        inp.focus();
+        return;
+      }
+
+      t.answered = true;
+      t.missedThis = true;
+      fb.innerHTML = `✗ Odpowiedź: <span class="reveal">${escapeHtml(answer)}</span>`;
+      fb.className = "fb bad";
+      const s = document.createElement("button");
+      s.type = "button";
+      s.className = "link";
+      s.textContent = "Miałem rację → policz to";
+      s.onclick = () => {
+        t.score++;
+        t.missedThis = false;
+        s.textContent = "zaliczone ✓";
+        s.disabled = true;
+      };
+      fb.appendChild(document.createElement("br"));
+      fb.appendChild(s);
       afterGrade();
     }
 
@@ -897,7 +993,7 @@ export function startPractice(root, block, opts) {
     skip.onclick = () => {
       if (t.answered) return;
       inp.value = "";
-      grade();
+      grade({ allowNear: false });
     };
 
     // Enter handled ONLY by the document-level bindEnter handler.
