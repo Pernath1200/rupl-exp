@@ -69,7 +69,7 @@
           "pl": "zakupy"
         },
         {
-          "en": "shop (verb)",
+          "en": "shop (store)",
           "pl": "sklep"
         },
         {
@@ -168,5 +168,10 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda",
+    "present_uje"
   ]
 }

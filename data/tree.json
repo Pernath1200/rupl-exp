@@ -28,27 +28,35 @@
     "a1_acc_gym",
     "leaf_food_a1",
     "leaf_animals_a1",
+    "leaf_numbers_a1",
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
     "a1_present_uje",
     "a1_present_gym",
+    "leaf_shopping_a1",
     "leaf_freetime_a1",
     "leaf_tech_a1",
     "trunk_want_like_a1",
     "trunk_can_a1",
     "leaf_nature_a1",
+    "leaf_clothes_a1",
     "a1_questions",
+    "leaf_school_a1",
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
     "leaf_city_a1",
+    "leaf_body_a1",
     "a1_negation",
     "trunk_there_time_a1",
+    "leaf_time_cal_a1",
+    "leaf_health_a1",
     "a1_inst_job",
-    "leaf_work_a1"
+    "leaf_work_a1",
+    "leaf_ideas_a1"
   ],
-  "path_order_note": "Path-32: spine teach→use pairs + naming/chunk vocab wired along carriers; four present classes; grammar gyms after support targets.",
+  "path_order_note": "Path-40: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -81,7 +89,6 @@
       "leaf_home_family",
       "leaf_places",
       "leaf_food_a1",
-      "leaf_time_a1",
       "leaf_freetime_a1",
       "leaf_work_a1",
       "leaf_colours_a1",
@@ -94,7 +101,9 @@
       "leaf_shopping_a1",
       "leaf_nature_a1",
       "leaf_ideas_a1",
-      "leaf_city_a1"
+      "leaf_city_a1",
+      "leaf_numbers_a1",
+      "leaf_time_cal_a1"
     ]
   },
   "roots": [
@@ -458,6 +467,29 @@
       "pedagogy": "use"
     },
     {
+      "id": "leaf_numbers_a1",
+      "domain": "vocab",
+      "label": "Liczby",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_numbers.json",
+      "practice": "vocab",
+      "note": "Żywe · liczby jako nazwy + wiek (zwroty) · bez gramatyki liczebników",
+      "unit_id": "PL_NUM_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_NUM_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
       "id": "a1_present",
       "domain": "grammar",
       "label": "Teraźniejszy · wzór -am (mieszkać / czytać)",
@@ -544,7 +576,8 @@
       "spine_steps": [
         "PL_PRES_UJE"
       ],
-      "pedagogy": "teach"
+      "pedagogy": "teach",
+      "partner_id": "leaf_shopping_a1"
     },
     {
       "id": "a1_present_gym",
@@ -565,6 +598,30 @@
       "note": "Mixed present classes · after all three teaches · volume",
       "pedagogy": "drill",
       "spine_support_of": "a1_present_e_esz"
+    },
+    {
+      "id": "leaf_shopping_a1",
+      "domain": "vocab",
+      "label": "Zakupy",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "food_shopping",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_shopping.json",
+      "practice": "vocab",
+      "note": "Żywe · zakupy · kupować po -uję",
+      "unit_id": "PL_PRES_UJE",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_PRES_UJE"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_present_uje"
     },
     {
       "id": "leaf_freetime_a1",
@@ -680,6 +737,29 @@
       "pedagogy": "use"
     },
     {
+      "id": "leaf_clothes_a1",
+      "domain": "vocab",
+      "label": "Ubrania",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "self_body",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_clothes.json",
+      "practice": "vocab",
+      "note": "Żywe · ubrania · nazywanie",
+      "unit_id": "PL_CLO_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_CLO_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
       "id": "a1_questions",
       "domain": "grammar",
       "label": "Pytania · skorupy",
@@ -700,7 +780,32 @@
       "spine_steps": [
         "PL_Q_01"
       ],
-      "pedagogy": "teach"
+      "pedagogy": "teach",
+      "partner_id": "leaf_school_a1"
+    },
+    {
+      "id": "leaf_school_a1",
+      "domain": "vocab",
+      "label": "Szkoła i nauka",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "knowledge",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_school.json",
+      "practice": "vocab",
+      "note": "Żywe · szkoła, tekst, przedmioty · pytanie/odpowiedź po questions",
+      "unit_id": "PL_Q_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_Q_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_questions"
     },
     {
       "id": "a1_prep_place",
@@ -807,6 +912,29 @@
       "partner_id": "a1_prep_do_z"
     },
     {
+      "id": "leaf_body_a1",
+      "domain": "vocab",
+      "label": "Ciało",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "self_body",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_body.json",
+      "practice": "vocab",
+      "note": "Żywe · ciało · nazywanie",
+      "unit_id": "PL_BODY_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_BODY_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
       "id": "a1_negation",
       "domain": "grammar",
       "label": "Przeczenie · nie mam",
@@ -855,6 +983,52 @@
       ],
       "pedagogy": "use",
       "partner_id": "a1_negation"
+    },
+    {
+      "id": "leaf_time_cal_a1",
+      "domain": "vocab",
+      "label": "Czas i kalendarz",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_time_cal.json",
+      "practice": "vocab",
+      "note": "Żywe · dni, miesiące, pory dnia · zwroty zegarowe w Jest·czas",
+      "unit_id": "PL_TIME_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_TIME_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
+      "id": "leaf_health_a1",
+      "domain": "vocab",
+      "label": "Zdrowie",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "health_body",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_health.json",
+      "practice": "vocab",
+      "note": "Żywe · zdrowie · jestem chory po przymiotnikach",
+      "unit_id": "PL_HEALTH_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_HEALTH_01"
+      ],
+      "pedagogy": "use"
     },
     {
       "id": "a1_inst_job",
@@ -906,6 +1080,29 @@
       ],
       "pedagogy": "use",
       "partner_id": "a1_inst_job"
+    },
+    {
+      "id": "leaf_ideas_a1",
+      "domain": "vocab",
+      "label": "Pojęcia",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "knowledge",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_ideas.json",
+      "practice": "vocab",
+      "note": "Żywe · pojęcia abstrakcyjne · nazywanie · ostatni liść A1",
+      "unit_id": "PL_IDEAS_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_IDEAS_01"
+      ],
+      "pedagogy": "use"
     }
   ],
   "synced_from": {

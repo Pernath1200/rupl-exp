@@ -11,11 +11,7 @@
       "title": "School · place",
       "items": [
         {
-          "en": "class",
-          "pl": "klasa"
-        },
-        {
-          "en": "classroom",
+          "en": "class / classroom",
           "pl": "klasa"
         },
         {
@@ -90,7 +86,7 @@
         },
         {
           "en": "story",
-          "pl": "historia"
+          "pl": "opowiadanie"
         },
         {
           "en": "question",
@@ -222,5 +218,10 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda",
+    "present_uje"
   ]
 }

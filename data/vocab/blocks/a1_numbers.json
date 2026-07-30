@@ -1,0 +1,194 @@
+{
+  "id": "a1_numbers",
+  "title": "Liczby",
+  "level": "A1",
+  "tree_node": "leaf_numbers_a1",
+  "default_direction": "en_to_pl",
+  "note": "A1 liść · liczby jako nazwy + wiek jako zwroty (chunki). Gramatyka liczebników (pięć piw = Gen pl) NIGDY na A1 — ewentualnie A2.",
+  "uses_structures": [
+    "social_chunk",
+    "miec_present"
+  ],
+  "blocks": [
+    {
+      "id": "time_numbers",
+      "title": "Time · numbers",
+      "items": [
+        {
+          "en": "one",
+          "pl": "jeden"
+        },
+        {
+          "en": "two",
+          "pl": "dwa"
+        },
+        {
+          "en": "three",
+          "pl": "trzy"
+        },
+        {
+          "en": "four",
+          "pl": "cztery"
+        },
+        {
+          "en": "five",
+          "pl": "pięć"
+        },
+        {
+          "en": "six",
+          "pl": "sześć"
+        },
+        {
+          "en": "seven",
+          "pl": "siedem"
+        },
+        {
+          "en": "eight",
+          "pl": "osiem"
+        },
+        {
+          "en": "nine",
+          "pl": "dziewięć"
+        },
+        {
+          "en": "ten",
+          "pl": "dziesięć"
+        },
+        {
+          "en": "twenty",
+          "pl": "dwadzieścia"
+        },
+        {
+          "en": "hundred",
+          "pl": "sto"
+        }
+      ]
+    },
+    {
+      "id": "time_numbers_teens",
+      "title": "Time · teens & big numbers",
+      "items": [
+        {
+          "en": "eleven",
+          "pl": "jedenaście"
+        },
+        {
+          "en": "twelve",
+          "pl": "dwanaście"
+        },
+        {
+          "en": "thirteen",
+          "pl": "trzynaście"
+        },
+        {
+          "en": "fourteen",
+          "pl": "czternaście"
+        },
+        {
+          "en": "fifteen",
+          "pl": "piętnaście"
+        },
+        {
+          "en": "sixteen",
+          "pl": "szesnaście"
+        },
+        {
+          "en": "seventeen",
+          "pl": "siedemnaście"
+        },
+        {
+          "en": "eighteen",
+          "pl": "osiemnaście"
+        },
+        {
+          "en": "nineteen",
+          "pl": "dziewiętnaście"
+        },
+        {
+          "en": "thirty",
+          "pl": "trzydzieści"
+        },
+        {
+          "en": "thousand",
+          "pl": "tysiąc"
+        },
+        {
+          "en": "million",
+          "pl": "milion"
+        }
+      ]
+    },
+    {
+      "id": "time_numbers_tens",
+      "title": "Time · tens & ordinals",
+      "items": [
+        {
+          "en": "forty",
+          "pl": "czterdzieści"
+        },
+        {
+          "en": "fifty",
+          "pl": "pięćdziesiąt"
+        },
+        {
+          "en": "sixty",
+          "pl": "sześćdziesiąt"
+        },
+        {
+          "en": "seventy",
+          "pl": "siedemdziesiąt"
+        },
+        {
+          "en": "eighty",
+          "pl": "osiemdziesiąt"
+        },
+        {
+          "en": "ninety",
+          "pl": "dziewięćdziesiąt"
+        },
+        {
+          "en": "first",
+          "pl": "pierwszy"
+        },
+        {
+          "en": "second (ordinal)",
+          "pl": "drugi"
+        },
+        {
+          "en": "third",
+          "pl": "trzeci"
+        },
+        {
+          "en": "fourth",
+          "pl": "czwarty"
+        },
+        {
+          "en": "fifth",
+          "pl": "piąty"
+        },
+        {
+          "en": "number",
+          "pl": "liczba"
+        }
+      ]
+    },
+    {
+      "id": "numbers_age_chunks",
+      "title": "Liczby · wiek (zwroty)",
+      "items": [
+        {
+          "pl": "Ile masz lat?",
+          "en": "How old are you?"
+        },
+        {
+          "pl": "Mam dwadzieścia lat.",
+          "en": "I am twenty (years old)."
+        },
+        {
+          "pl": "Mam czterdzieści cztery lata.",
+          "en": "I am forty-four (years old)."
+        }
+      ]
+    }
+  ]
+}

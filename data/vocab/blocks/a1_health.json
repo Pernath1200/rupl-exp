@@ -19,11 +19,7 @@
           "pl": "zdrowy"
         },
         {
-          "en": "ill",
-          "pl": "chory"
-        },
-        {
-          "en": "sick",
+          "en": "ill / sick",
           "pl": "chory"
         },
         {
@@ -114,5 +110,10 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda",
+    "byc_adj"
   ]
 }

@@ -1,65 +1,15 @@
 {
-  "id": "a1_time_numbers",
-  "title": "Czas i liczby",
+  "id": "a1_time_cal",
+  "title": "Czas i kalendarz",
   "level": "A1",
-  "tree_node": "leaf_time_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_time_numbers.json · Zdanie = owoc",
+  "tree_node": "leaf_time_cal_a1",
   "default_direction": "en_to_pl",
+  "note": "A1 liść · dni, miesiące, pory dnia, częstotliwość — nazwy i przysłówki. Zwroty zegarowe (o siódmej, w poniedziałek) mieszkają w trunk_there_time_a1 jako chunki.",
+  "uses_structures": [
+    "to_jest",
+    "social_chunk"
+  ],
   "blocks": [
-    {
-      "id": "time_numbers",
-      "title": "Time · numbers",
-      "items": [
-        {
-          "en": "one",
-          "pl": "jeden"
-        },
-        {
-          "en": "two",
-          "pl": "dwa"
-        },
-        {
-          "en": "three",
-          "pl": "trzy"
-        },
-        {
-          "en": "four",
-          "pl": "cztery"
-        },
-        {
-          "en": "five",
-          "pl": "pięć"
-        },
-        {
-          "en": "six",
-          "pl": "sześć"
-        },
-        {
-          "en": "seven",
-          "pl": "siedem"
-        },
-        {
-          "en": "eight",
-          "pl": "osiem"
-        },
-        {
-          "en": "nine",
-          "pl": "dziewięć"
-        },
-        {
-          "en": "ten",
-          "pl": "dziesięć"
-        },
-        {
-          "en": "twenty",
-          "pl": "dwadzieścia"
-        },
-        {
-          "en": "hundred",
-          "pl": "sto"
-        }
-      ]
-    },
     {
       "id": "time_days",
       "title": "Time · days",
@@ -219,114 +169,6 @@
         {
           "en": "December",
           "pl": "grudzień"
-        }
-      ]
-    },
-    {
-      "id": "time_numbers_teens",
-      "title": "Time · teens & big numbers",
-      "items": [
-        {
-          "en": "eleven",
-          "pl": "jedenaście"
-        },
-        {
-          "en": "twelve",
-          "pl": "dwanaście"
-        },
-        {
-          "en": "thirteen",
-          "pl": "trzynaście"
-        },
-        {
-          "en": "fourteen",
-          "pl": "czternaście"
-        },
-        {
-          "en": "fifteen",
-          "pl": "piętnaście"
-        },
-        {
-          "en": "sixteen",
-          "pl": "szesnaście"
-        },
-        {
-          "en": "seventeen",
-          "pl": "siedemnaście"
-        },
-        {
-          "en": "eighteen",
-          "pl": "osiemnaście"
-        },
-        {
-          "en": "nineteen",
-          "pl": "dziewiętnaście"
-        },
-        {
-          "en": "thirty",
-          "pl": "trzydzieści"
-        },
-        {
-          "en": "thousand",
-          "pl": "tysiąc"
-        },
-        {
-          "en": "million",
-          "pl": "milion"
-        }
-      ]
-    },
-    {
-      "id": "time_numbers_tens",
-      "title": "Time · tens & ordinals",
-      "items": [
-        {
-          "en": "forty",
-          "pl": "czterdzieści"
-        },
-        {
-          "en": "fifty",
-          "pl": "pięćdziesiąt"
-        },
-        {
-          "en": "sixty",
-          "pl": "sześćdziesiąt"
-        },
-        {
-          "en": "seventy",
-          "pl": "siedemdziesiąt"
-        },
-        {
-          "en": "eighty",
-          "pl": "osiemdziesiąt"
-        },
-        {
-          "en": "ninety",
-          "pl": "dziewięćdziesiąt"
-        },
-        {
-          "en": "first",
-          "pl": "pierwszy"
-        },
-        {
-          "en": "second (ordinal)",
-          "pl": "drugi"
-        },
-        {
-          "en": "third",
-          "pl": "trzeci"
-        },
-        {
-          "en": "fourth",
-          "pl": "czwarty"
-        },
-        {
-          "en": "fifth",
-          "pl": "piąty"
-        },
-        {
-          "en": "number",
-          "pl": "liczba"
         }
       ]
     },

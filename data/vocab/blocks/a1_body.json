@@ -51,7 +51,7 @@
           "pl": "ręka"
         },
         {
-          "en": "arm",
+          "en": "arm / shoulder",
           "pl": "ramię"
         },
         {
@@ -79,10 +79,6 @@
         {
           "en": "neck",
           "pl": "szyja"
-        },
-        {
-          "en": "shoulder",
-          "pl": "ramię"
         },
         {
           "en": "knee",
@@ -114,5 +110,9 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda"
   ]
 }

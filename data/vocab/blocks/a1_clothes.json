@@ -65,11 +65,7 @@
       "title": "Clothes · more",
       "items": [
         {
-          "en": "shoe",
-          "pl": "but"
-        },
-        {
-          "en": "boot",
+          "en": "shoe / boot",
           "pl": "but"
         },
         {
@@ -114,5 +110,9 @@
         }
       ]
     }
+  ],
+  "uses_structures": [
+    "to_jest",
+    "zgoda"
   ]
 }

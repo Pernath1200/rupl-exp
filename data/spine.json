@@ -144,6 +144,20 @@
       }
     },
     {
+      "id": "PL_NUM_01",
+      "title": "Liczby · nazwy + wiek",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_numbers_a1",
+        "label": "Liczby",
+        "status": "live",
+        "note": "Chunk lane: no numeral grammar (pięć piw = A2+)"
+      }
+    },
+    {
       "id": "PL_PRES_AM",
       "title": "Teraźniejszy · wzór -am (mieszkać / czytać)",
       "case_tags": [],
@@ -200,7 +214,9 @@
         "status": "live"
       },
       "rupl3": {
-        "status": "skip"
+        "node_id": "leaf_shopping_a1",
+        "label": "Zakupy · kupować w akcji",
+        "status": "live"
       }
     },
     {
@@ -265,6 +281,19 @@
       }
     },
     {
+      "id": "PL_CLO_01",
+      "title": "Ubrania · nazywanie",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_clothes_a1",
+        "label": "Ubrania",
+        "status": "live"
+      }
+    },
+    {
       "id": "PL_Q_01",
       "title": "Pytania · skorupy",
       "case_tags": [],
@@ -275,9 +304,9 @@
         "status": "live"
       },
       "rupl3": {
-        "node_id": null,
-        "label": "—",
-        "status": "skip"
+        "node_id": "leaf_school_a1",
+        "label": "Szkoła · pytanie i odpowiedź",
+        "status": "live"
       }
     },
     {
@@ -317,6 +346,19 @@
       }
     },
     {
+      "id": "PL_BODY_01",
+      "title": "Ciało · nazywanie",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_body_a1",
+        "label": "Ciało",
+        "status": "live"
+      }
+    },
+    {
       "id": "PL_NEG_01",
       "title": "Przeczenie · nie mam + dopełniacz",
       "case_tags": [
@@ -333,6 +375,32 @@
         "label": "Jest · czas · nie ma + dopełniacz",
         "status": "live",
         "note": "Slotted after negation on purpose: 'Nie ma mleka' = Gen"
+      }
+    },
+    {
+      "id": "PL_TIME_01",
+      "title": "Czas i kalendarz",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_time_cal_a1",
+        "label": "Czas",
+        "status": "live"
+      }
+    },
+    {
+      "id": "PL_HEALTH_01",
+      "title": "Zdrowie",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_health_a1",
+        "label": "Zdrowie",
+        "status": "live"
       }
     },
     {
@@ -353,9 +421,22 @@
         "label": "Praca",
         "status": "live"
       }
+    },
+    {
+      "id": "PL_IDEAS_01",
+      "title": "Pojęcia · ostatni liść",
+      "case_tags": [],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_ideas_a1",
+        "label": "Pojęcia",
+        "status": "live"
+      }
     }
   ],
-  "path_32": [
+  "path_40": [
     "trunk_social_a1",
     "a1_gender",
     "a1_poss_simple",
@@ -369,24 +450,32 @@
     "a1_acc_gym",
     "leaf_food_a1",
     "leaf_animals_a1",
+    "leaf_numbers_a1",
     "a1_present",
     "a1_present_e_isz",
     "a1_present_e_esz",
     "a1_present_uje",
     "a1_present_gym",
+    "leaf_shopping_a1",
     "leaf_freetime_a1",
     "leaf_tech_a1",
     "trunk_want_like_a1",
     "trunk_can_a1",
     "leaf_nature_a1",
+    "leaf_clothes_a1",
     "a1_questions",
+    "leaf_school_a1",
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
     "leaf_city_a1",
+    "leaf_body_a1",
     "a1_negation",
     "trunk_there_time_a1",
+    "leaf_time_cal_a1",
+    "leaf_health_a1",
     "a1_inst_job",
-    "leaf_work_a1"
+    "leaf_work_a1",
+    "leaf_ideas_a1"
   ]
 }
