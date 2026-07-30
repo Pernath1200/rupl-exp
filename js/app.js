@@ -23,6 +23,10 @@ import {
   rootFill,
   tapFill,
   refreshUnit,
+  levelUnitStats,
+  PASS_RATIO,
+  MASTERY_REPS,
+  FRUIT_SOFT,
 } from "./progress.js";
 import {
   mountSmokeFlagsUI,
@@ -248,6 +252,7 @@ function renderRoots() {
   const portrait = document.getElementById("tree-portrait");
   if (portrait && STATE.tree) {
     renderTreePortrait(portrait, {
+      level: STATE.level || "A1",
       nodes: STATE.tree.nodes || [],
       isFruit: (id) => {
         const n = nodeById(id);
@@ -400,6 +405,11 @@ async function openNode(node) {
         pack.practice === "frames" || pack.practice === "frames"
           ? "frames"
           : undefined;
+      // Pack-level authored EN→PL sentences (leaf Zdanie bank); frames use items.
+      const packSentences = Array.isArray(pack.sentences) ? pack.sentences : [];
+      const focusStructures = Array.isArray(pack.focus_structures)
+        ? pack.focus_structures
+        : pack.teaches_structures || [];
       // RUPL3 opens a block from pack — for simplicity open pack as single block list
       const block =
         Array.isArray(pack.blocks) && pack.blocks.length
@@ -412,15 +422,35 @@ async function openNode(node) {
           id: pack.id || node.id,
           title: pack.title || node.label,
           items: pack.blocks.flatMap((b) => b.items || []),
+          sentences: packSentences,
+          focus_structures: focusStructures,
+          teaches_structures: pack.teaches_structures || [],
+          uses_structures: pack.uses_structures || [],
         };
       } else if (pack.blocks?.[0]) {
         practiceBlock = {
           ...pack.blocks[0],
           title: pack.blocks[0].title || pack.title,
+          sentences: packSentences.length
+            ? packSentences
+            : pack.blocks[0].sentences || [],
+          focus_structures: focusStructures,
+          teaches_structures: pack.teaches_structures || [],
+          uses_structures: pack.uses_structures || [],
+        };
+      } else {
+        practiceBlock = {
+          ...practiceBlock,
+          sentences: packSentences,
+          focus_structures: focusStructures,
         };
       }
       if (practice === "frames") {
         practiceBlock.practice = "frames";
+      }
+      if (!practiceBlock.sentences) practiceBlock.sentences = packSentences;
+      if (!practiceBlock.focus_structures) {
+        practiceBlock.focus_structures = focusStructures;
       }
 
       touchVocabBlock(practiceBlock.id || pack.id || node.id, node.id);
@@ -467,10 +497,62 @@ function renderAuthor() {
   }
 }
 
+/**
+ * Three honest meters: learned (fruit) · remembered (≥1 review) · mastered (≥4).
+ * Same model as RUE2. Review meters stay at 0 until unit SRS writes successfulReps.
+ */
+function renderLevelMeters() {
+  const el = document.getElementById("level-meters");
+  if (!el || !STATE.tree) return;
+  const level = STATE.level || "A1";
+  const nodes = STATE.tree.nodes || [];
+  const s = levelUnitStats(level, nodes);
+  const t = s.total || 0;
+  const pct = (n) => (t ? Math.round((100 * n) / t) : 0);
+  const bar = (n, kind) => {
+    const p = pct(n);
+    const label =
+      kind === "learned"
+        ? "Learned"
+        : kind === "remembered"
+          ? "Remembered"
+          : "Mastered";
+    return `
+      <div class="meter-row meter-${kind}">
+        <div class="meter-label">${label}</div>
+        <div class="meter-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}" aria-label="${label} ${p}% · ${n} of ${t}">
+          <div class="meter-fill" style="width:${p}%"></div>
+        </div>
+        <div class="meter-count"><span class="meter-pct">${p}%</span> <span class="meter-frac">${n}/${t}</span></div>
+      </div>`;
+  };
+  const reviewLive = s.remembered > 0 || s.mastered > 0;
+  const learnedPct = pct(s.learned);
+  const scoreBar = Math.round(
+    (level === "A1" ? Math.min(PASS_RATIO, FRUIT_SOFT) : PASS_RATIO) * 100,
+  );
+  el.innerHTML = `
+    <div class="meters-head">
+      <span class="meters-title">${escapeHtml(level)} progress</span>
+      <span class="meters-sub">${s.partial ? `+${s.partial} started · ` : ""}${t} units · <strong>${learnedPct}%</strong> learned</span>
+    </div>
+    ${bar(s.learned, "learned")}
+    ${bar(s.remembered, "remembered")}
+    ${bar(s.mastered, "mastered")}
+    <p class="meters-hint">
+      <strong>Learned</strong> = finished once (ladder + ≥${scoreBar}% when scored).
+      <strong>Remembered</strong> = came back via review.
+      <strong>Mastered</strong> = held across several reviews (${MASTERY_REPS}+).
+      Not “opened the topic”.
+      ${reviewLive ? "" : " · Review not live yet — last two meters stay at 0 until then."}
+    </p>`;
+}
+
 function renderAll() {
   loadProgress();
   renderAuthor();
   renderRail();
+  renderLevelMeters();
   renderUpNext();
   renderRoots();
   renderPath();

@@ -421,10 +421,10 @@ a.today-link:hover {
   border-color: var(--correct);
 }
 
-/* Practice — clear stage separation */
+/* Practice — clear stage separation (compact chrome so boards fit) */
 .ladder-wrap {
-  margin-bottom: 1rem;
-  padding-bottom: 0.85rem;
+  margin-bottom: 0.55rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--accent-border);
 }
 
@@ -432,15 +432,15 @@ a.today-link:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.25rem 0.2rem;
-  margin-bottom: 0.65rem;
+  gap: 0.2rem 0.15rem;
+  margin-bottom: 0.4rem;
 }
 
 .ladder-step {
   font-family: inherit;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  padding: 0.3rem 0.55rem;
+  padding: 0.22rem 0.45rem;
   border-radius: 4px;
   border: 1px solid var(--accent-border);
   color: var(--muted);
@@ -469,24 +469,24 @@ a.today-link:hover {
 }
 
 .stage-banner {
-  padding: 0.55rem 0.7rem;
+  padding: 0.35rem 0.55rem;
   border-radius: 6px;
   border: 1px solid var(--accent-border);
   background: rgba(200, 120, 64, 0.1);
 }
 
 .stage-banner-title {
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   font-weight: 700;
   color: var(--accent);
   letter-spacing: 0.01em;
 }
 
 .stage-banner-sub {
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--muted);
-  margin-top: 0.2rem;
-  line-height: 1.35;
+  margin-top: 0.12rem;
+  line-height: 1.3;
 }
 
 .ladder-hint {
@@ -581,13 +581,14 @@ a.today-link:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.5rem 1rem;
-  margin-bottom: 0.75rem;
+  gap: 0.35rem 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 .practice-head h2 {
   margin: 0;
   flex: 1;
+  font-size: 1.05rem;
 }
 
 .practice-prompt {
@@ -702,31 +703,33 @@ a.today-link:hover {
   background: rgba(239, 68, 68, 0.1);
 }
 
+/* Dense match boards (12 pairs) — compact chips to avoid page scroll */
 .match {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin: 0.5rem 0 0.75rem;
+  gap: 0.35rem 0.45rem;
+  margin: 0.35rem 0 0.5rem;
 }
 
 .match-col {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.22rem;
 }
 
 button.m {
   font-family: inherit;
-  font-size: 0.9rem;
-  line-height: 1.3;
-  padding: 0.65rem 0.55rem;
-  border-radius: 6px;
+  font-size: 0.76rem;
+  line-height: 1.2;
+  padding: 0.28rem 0.4rem;
+  border-radius: 5px;
   border: 1px solid var(--accent-border);
   background: #0a0a0a;
   color: var(--text);
   cursor: pointer;
   text-align: left;
   width: 100%;
+  min-height: 0;
 }
 
 button.m:hover:not(:disabled):not(.done) {
@@ -746,10 +749,12 @@ button.m.done {
   background: rgba(34, 197, 94, 0.12);
   color: var(--correct);
   text-decoration: line-through;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 1px;
   pointer-events: none;
   cursor: default;
   font-weight: 600;
+  padding-top: 0.22rem;
+  padding-bottom: 0.22rem;
 }
 
 button.m.wrong {
@@ -925,9 +930,9 @@ button.m.wrong {
 }
 
 .score-line {
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   color: var(--muted);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 .foot {
@@ -1411,4 +1416,108 @@ button.m.wrong {
   width: 100%;
   max-width: 15rem;
   height: auto;
+}
+
+/* Three-meter progress: Learned · Remembered · Mastered (RUE2 sibling) */
+.level-meters {
+  margin: 0;
+  padding: 0.15rem 0 0;
+}
+
+.meters-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.meters-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.meters-sub {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.meters-sub strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.meter-row {
+  display: grid;
+  grid-template-columns: 5.6rem 1fr 4.6rem;
+  align-items: center;
+  gap: 0.45rem 0.55rem;
+  margin-bottom: 0.35rem;
+}
+
+.meter-label {
+  font-size: 0.72rem;
+  color: var(--muted);
+}
+
+.meter-track {
+  height: 0.45rem;
+  border-radius: 99px;
+  background: rgba(160, 160, 160, 0.15);
+  overflow: hidden;
+}
+
+.meter-fill {
+  height: 100%;
+  border-radius: 99px;
+  min-width: 0;
+  transition: width 0.25s ease;
+}
+
+.meter-learned .meter-fill {
+  background: var(--accent);
+}
+
+.meter-remembered .meter-fill {
+  background: rgba(86, 156, 214, 0.55);
+}
+
+.meter-mastered .meter-fill {
+  background: rgba(34, 197, 94, 0.75);
+}
+
+.meter-count {
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.meter-pct {
+  display: block;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+.meter-frac {
+  display: block;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.68rem;
+}
+
+.meters-hint {
+  margin: 0.45rem 0 0;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.meters-hint strong {
+  color: #c8c8c8;
+  font-weight: 600;
 }

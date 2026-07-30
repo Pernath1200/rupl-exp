@@ -3,41 +3,363 @@
   "title": "Dom i rodzina",
   "level": "A1",
   "tree_node": "leaf_home_family",
-  "note": "Mieszkanie + ludzie. EN → PL. Owoc = drabina + soft quiz/słowo.",
+  "note": "Mieszkanie + ludzie. EN → PL. Owoc = drabina + soft quiz/słowo. Zdanie after a1_poss_simple: to_jest + poss_nom (mój/twój Nom only).",
   "default_direction": "en_to_pl",
+  "structures_note": "to_jest (bare Nom) · poss_nom (mój/twój + Nom). No miec_acc / present until those units are covered. Grammar teach: a1_poss_simple (PL_POSS_01).",
+  "sentences": [
+    {
+      "en": "This is a house.",
+      "pl": "To jest dom.",
+      "accepts": [
+        "To dom."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "dom"
+      ]
+    },
+    {
+      "en": "This is a flat.",
+      "pl": "To jest mieszkanie.",
+      "accepts": [
+        "To mieszkanie."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "mieszkanie"
+      ]
+    },
+    {
+      "en": "This is the kitchen.",
+      "pl": "To jest kuchnia.",
+      "accepts": [
+        "To kuchnia."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "kuchnia"
+      ]
+    },
+    {
+      "en": "This is a room.",
+      "pl": "To jest pokój.",
+      "accepts": [
+        "To pokój."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "pokój"
+      ]
+    },
+    {
+      "en": "This is a window.",
+      "pl": "To jest okno.",
+      "accepts": [
+        "To okno."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "okno"
+      ]
+    },
+    {
+      "en": "This is a table.",
+      "pl": "To jest stół.",
+      "accepts": [
+        "To stół."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "stół"
+      ]
+    },
+    {
+      "en": "This is a child.",
+      "pl": "To jest dziecko.",
+      "accepts": [
+        "To dziecko."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "dziecko"
+      ]
+    },
+    {
+      "en": "This is my brother.",
+      "pl": "To jest mój brat.",
+      "accepts": [
+        "To mój brat."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "brat"
+      ]
+    },
+    {
+      "en": "This is my sister.",
+      "pl": "To jest moja siostra.",
+      "accepts": [
+        "To moja siostra."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "This is my mum.",
+      "pl": "To jest moja mama.",
+      "accepts": [
+        "To moja mama.",
+        "To jest moja matka.",
+        "To moja matka."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "mama"
+      ]
+    },
+    {
+      "en": "This is my dad.",
+      "pl": "To jest mój tata.",
+      "accepts": [
+        "To mój tata.",
+        "To jest mój ojciec.",
+        "To mój ojciec."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "tata"
+      ]
+    },
+    {
+      "en": "This is my son.",
+      "pl": "To jest mój syn.",
+      "accepts": [
+        "To mój syn."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "syn"
+      ]
+    },
+    {
+      "en": "This is my daughter.",
+      "pl": "To jest moja córka.",
+      "accepts": [
+        "To moja córka."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "córka"
+      ]
+    },
+    {
+      "en": "This is my family.",
+      "pl": "To jest moja rodzina.",
+      "accepts": [
+        "To moja rodzina."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "rodzina"
+      ]
+    },
+    {
+      "en": "This is my friend.",
+      "pl": "To jest mój przyjaciel.",
+      "accepts": [
+        "To mój przyjaciel.",
+        "To jest mój kolega.",
+        "To mój kolega."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "przyjaciel"
+      ]
+    },
+    {
+      "en": "This is my (female) friend.",
+      "pl": "To jest moja przyjaciółka.",
+      "accepts": [
+        "To moja przyjaciółka.",
+        "To jest moja koleżanka.",
+        "To moja koleżanka."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "przyjaciółka"
+      ]
+    },
+    {
+      "en": "This is your brother.",
+      "pl": "To jest twój brat.",
+      "accepts": [
+        "To twój brat."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "brat"
+      ]
+    },
+    {
+      "en": "This is your sister.",
+      "pl": "To jest twoja siostra.",
+      "accepts": [
+        "To twoja siostra."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "This is your house.",
+      "pl": "To jest twój dom.",
+      "accepts": [
+        "To twój dom."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "dom"
+      ]
+    },
+    {
+      "en": "This is my kitchen.",
+      "pl": "To jest moja kuchnia.",
+      "accepts": [
+        "To moja kuchnia."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "kuchnia"
+      ]
+    }
+  ],
   "blocks": [
     {
       "id": "family_people",
       "title": "Rodzina · ludzie",
       "items": [
-        { "en": "family", "pl": "rodzina" },
+        {
+          "en": "family",
+          "pl": "rodzina"
+        },
         {
           "en": "mother / mum",
           "pl": "mama",
-          "accepts": ["matka"]
+          "accepts": [
+            "matka"
+          ]
         },
         {
           "en": "father / dad",
           "pl": "tata",
-          "accepts": ["ojciec"]
+          "accepts": [
+            "ojciec"
+          ]
         },
-        { "en": "brother", "pl": "brat" },
-        { "en": "sister", "pl": "siostra" },
-        { "en": "child", "pl": "dziecko" },
-        { "en": "son", "pl": "syn" },
-        { "en": "daughter", "pl": "córka" },
+        {
+          "en": "brother",
+          "pl": "brat"
+        },
+        {
+          "en": "sister",
+          "pl": "siostra"
+        },
+        {
+          "en": "child",
+          "pl": "dziecko"
+        },
+        {
+          "en": "son",
+          "pl": "syn"
+        },
+        {
+          "en": "daughter",
+          "pl": "córka"
+        },
         {
           "en": "friend (m)",
           "pl": "przyjaciel",
-          "accepts": ["kolega"]
+          "accepts": [
+            "kolega"
+          ]
         },
         {
           "en": "friend (f)",
           "pl": "przyjaciółka",
-          "accepts": ["koleżanka"]
+          "accepts": [
+            "koleżanka"
+          ]
         },
-        { "en": "man", "pl": "mężczyzna", "accepts": ["pan"] },
-        { "en": "woman", "pl": "kobieta", "accepts": ["pani"] }
+        {
+          "en": "man",
+          "pl": "mężczyzna",
+          "accepts": [
+            "pan"
+          ]
+        },
+        {
+          "en": "woman",
+          "pl": "kobieta",
+          "accepts": [
+            "pani"
+          ]
+        }
       ]
     },
     {
@@ -47,24 +369,147 @@
         {
           "en": "home / house",
           "pl": "dom",
-          "accepts": ["domu"]
+          "accepts": [
+            "domu"
+          ]
         },
-        { "en": "flat / apartment", "pl": "mieszkanie" },
-        { "en": "room", "pl": "pokój" },
-        { "en": "kitchen", "pl": "kuchnia" },
-        { "en": "bathroom", "pl": "łazienka" },
-        { "en": "bedroom", "pl": "sypialnia" },
-        { "en": "door", "pl": "drzwi" },
-        { "en": "window", "pl": "okno" },
-        { "en": "table", "pl": "stół" },
-        { "en": "chair", "pl": "krzesło" },
-        { "en": "bed", "pl": "łóżko" },
+        {
+          "en": "flat / apartment",
+          "pl": "mieszkanie"
+        },
+        {
+          "en": "room",
+          "pl": "pokój"
+        },
+        {
+          "en": "kitchen",
+          "pl": "kuchnia"
+        },
+        {
+          "en": "bathroom",
+          "pl": "łazienka"
+        },
+        {
+          "en": "bedroom",
+          "pl": "sypialnia"
+        },
+        {
+          "en": "door",
+          "pl": "drzwi"
+        },
+        {
+          "en": "window",
+          "pl": "okno"
+        },
+        {
+          "en": "table",
+          "pl": "stół"
+        },
+        {
+          "en": "chair",
+          "pl": "krzesło"
+        },
+        {
+          "en": "bed",
+          "pl": "łóżko"
+        },
         {
           "en": "key",
           "pl": "klucz",
-          "accepts": ["klucze"]
+          "accepts": [
+            "klucze"
+          ]
         }
       ]
     }
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom"
+  ],
+  "teaches_lemmas": [
+    "brat",
+    "córka",
+    "dom",
+    "domu",
+    "drzwi",
+    "dziecko",
+    "klucz",
+    "klucze",
+    "kobieta",
+    "kolega",
+    "koleżanka",
+    "krzesło",
+    "kuchnia",
+    "mama",
+    "matka",
+    "mieszkanie",
+    "mężczyzna",
+    "ojciec",
+    "okno",
+    "pan",
+    "pani",
+    "pokój",
+    "przyjaciel",
+    "przyjaciółka",
+    "rodzina",
+    "siostra",
+    "stół",
+    "syn",
+    "sypialnia",
+    "tata",
+    "łazienka",
+    "łóżko"
+  ],
+  "uses_lemmas": [
+    "brat",
+    "córka",
+    "dom",
+    "domu",
+    "drzwi",
+    "dziecko",
+    "klucz",
+    "klucze",
+    "kobieta",
+    "kolega",
+    "koleżanka",
+    "krzesło",
+    "kuchnia",
+    "mama",
+    "matka",
+    "mieszkanie",
+    "mężczyzna",
+    "ojciec",
+    "okno",
+    "pan",
+    "pani",
+    "pokój",
+    "przyjaciel",
+    "przyjaciółka",
+    "rodzina",
+    "siostra",
+    "stół",
+    "syn",
+    "sypialnia",
+    "tata",
+    "łazienka",
+    "łóżko",
+    "mój",
+    "moja",
+    "moje",
+    "twój",
+    "twoja",
+    "twoje"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "leaf_home_family",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "to_jest",
+    "poss_nom"
   ]
 }

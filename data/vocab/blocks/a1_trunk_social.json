@@ -133,5 +133,64 @@
         }
       ]
     }
+  ],
+  "teaches_structures": [
+    "social_chunk"
+  ],
+  "uses_structures": [
+    "social_chunk"
+  ],
+  "teaches_lemmas": [
+    "cześć",
+    "do widzenia",
+    "do zobaczenia",
+    "dobry wieczór",
+    "dzieki",
+    "dzień",
+    "dzień dobry",
+    "dzięki",
+    "dziękuję",
+    "hej",
+    "na razie",
+    "nie",
+    "nie ma za co",
+    "pa",
+    "proszę",
+    "przepraszam",
+    "razie",
+    "tak",
+    "widzenia",
+    "wieczór"
+  ],
+  "uses_lemmas": [
+    "cześć",
+    "do widzenia",
+    "do zobaczenia",
+    "dobry wieczór",
+    "dzieki",
+    "dzień",
+    "dzień dobry",
+    "dzięki",
+    "dziękuję",
+    "hej",
+    "na razie",
+    "nie",
+    "nie ma za co",
+    "pa",
+    "proszę",
+    "przepraszam",
+    "razie",
+    "tak",
+    "widzenia",
+    "wieczór"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "trunk_social_a1",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "social_chunk"
   ]
 }

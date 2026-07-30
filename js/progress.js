@@ -7,6 +7,8 @@
 const KEY = "rupl-exp-v0.1-progress";
 export const PASS_RATIO = 0.8;
 export const FRUIT_SOFT = 0.75;
+/** Successful spaced reviews needed for “Mastered” (RUE2 sibling). */
+export const MASTERY_REPS = 4;
 
 function empty() {
   return {
@@ -16,6 +18,8 @@ function empty() {
     grammar: { blocks: {} },
     vocab: { blocks: {} },
     units: {},
+    /** Per tree-node review state (unit SRS). Honest zeros until review writes. */
+    nodes: {},
   };
 }
 
@@ -30,6 +34,7 @@ export function loadProgress() {
     if (!d.vocab) d.vocab = { blocks: {} };
     if (!d.vocab.blocks) d.vocab.blocks = {};
     if (!d.units) d.units = {};
+    if (!d.nodes) d.nodes = {};
     if (!Array.isArray(d.unlocked)) d.unlocked = ["A1"];
     return d;
   } catch {
@@ -300,6 +305,71 @@ export function tapFill(tree) {
     }
   }
   return sum / live.length;
+}
+
+/**
+ * Review / SRS fields for a tree node. Empty until unit review writes them.
+ * @returns {{ successfulReps: number, learnedAt: string|null, lastReviewAt: string|null, nextDueAt: string|null }}
+ */
+export function getNodeReview(nodeId) {
+  const data = loadProgress();
+  const n = (data.nodes && data.nodes[nodeId]) || null;
+  return {
+    successfulReps:
+      n && typeof n.successfulReps === "number" ? n.successfulReps : 0,
+    learnedAt: n && n.learnedAt ? n.learnedAt : null,
+    lastReviewAt: n && n.lastReviewAt ? n.lastReviewAt : null,
+    nextDueAt: n && n.nextDueAt ? n.nextDueAt : null,
+  };
+}
+
+/**
+ * Three-meter stats for a CEFR level (RUE2 model).
+ * Unit grain = live practice nodes (grammar topics + vocab trunk/leaf) on that level.
+ * Learned = fruit (ladder + score bar). Remembered = ≥1 successful review.
+ * Mastered = ≥ MASTERY_REPS. Review meters stay honest zeros until SRS writes.
+ *
+ * @param {string} level
+ * @param {Array<{ id: string, status?: string, levels?: string[], content?: string|null, domain?: string }>} nodes
+ * @returns {{ total: number, learned: number, remembered: number, mastered: number, partial: number }}
+ */
+export function levelUnitStats(level, nodes) {
+  const list = (nodes || []).filter(
+    (n) =>
+      n &&
+      n.id &&
+      n.status === "live" &&
+      n.content &&
+      Array.isArray(n.levels) &&
+      n.levels.includes(level),
+  );
+  let learned = 0;
+  let remembered = 0;
+  let mastered = 0;
+  let partial = 0;
+  for (const n of list) {
+    const fruited =
+      n.domain === "vocab" ? hasVocabFruit(n) : hasFruit(n.id);
+    const started =
+      n.domain === "vocab"
+        ? nodeProgressStateVocab(n) === "started"
+        : nodeProgressStateGrammar(n) === "started";
+    if (fruited) learned++;
+    else if (started) partial++;
+    const reps = getNodeReview(n.id).successfulReps;
+    // Remembered/mastered only with real review evidence — no decorative glow
+    if (fruited || reps > 0) {
+      if (reps >= 1) remembered++;
+      if (reps >= MASTERY_REPS) mastered++;
+    }
+  }
+  return {
+    total: list.length,
+    learned,
+    remembered,
+    mastered,
+    partial,
+  };
 }
 
 export function resetAllProgress() {

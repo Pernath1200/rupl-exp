@@ -17,6 +17,13 @@ import { setSmokeContext } from "./smoke-flags.js";
 /** Alias for dual-engine shell */
 export { startPractice as startGrammarPractice };
 
+/**
+ * Default questions per graded stage (Kontrola quiz · Pisanie · Użycie).
+ * Also caps Dopasuj board size. Packs should author ≥12 items per stage when possible;
+ * shorter banks use all available items (no padding with junk).
+ */
+export const DEFAULT_PASS = 12;
+
 function shuffle(a) {
   const arr = a.slice();
   for (let i = arr.length - 1; i > 0; i--) {
@@ -24,6 +31,42 @@ function shuffle(a) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+const FOCUS_WEIGHT = 3;
+
+/**
+ * Up to DEFAULT_PASS items; if onlyIndices set, those items (retry pass).
+ * Prefer items tagged with pack focus_structures (weight FOCUS_WEIGHT) so
+ * today's pattern appears often while recycle items still enter the bag.
+ */
+function samplePass(items, onlyIndices, focusStructures) {
+  const list = Array.isArray(items) ? items : [];
+  if (!list.length) return [];
+  if (onlyIndices && onlyIndices.length) {
+    return shuffle(onlyIndices.map((i) => list[i]).filter(Boolean));
+  }
+  if (list.length <= DEFAULT_PASS) return shuffle(list.slice());
+  const focus = new Set(focusStructures || []);
+  const bag = [];
+  for (let i = 0; i < list.length; i++) {
+    const it = list[i];
+    let w = 1;
+    if (focus.size && it && Array.isArray(it.structures)) {
+      if (it.structures.some((s) => focus.has(s))) w = FOCUS_WEIGHT;
+    }
+    for (let k = 0; k < w; k++) bag.push(i);
+  }
+  shuffle(bag);
+  const out = [];
+  const used = new Set();
+  for (const i of bag) {
+    if (used.has(i)) continue;
+    used.add(i);
+    out.push(list[i]);
+    if (out.length >= DEFAULT_PASS) break;
+  }
+  return out;
 }
 
 function norm(s) {
@@ -97,6 +140,13 @@ function pairPl(p) {
 export function startPractice(pack, root, opts) {
   touchBlock(pack.id);
 
+  const focusStructures =
+    Array.isArray(pack.focus_structures) && pack.focus_structures.length
+      ? pack.focus_structures
+      : Array.isArray(pack.teaches_structures)
+        ? pack.teaches_structures
+        : [];
+
   setSmokeContext({
     packId: pack.id || pack.tree_node || "",
     packTitle: pack.title || "",
@@ -120,12 +170,24 @@ export function startPractice(pack, root, opts) {
     quizItems: [],
     quizIndex: 0,
     quizScore: 0,
+    quizWrong: [],
+    quizRetryPass: false,
+    quizGate: false,
+    quizScoreCommitted: false,
     typeItems: [],
     typeIndex: 0,
     typeScore: 0,
+    typeWrong: [],
+    typeRetryPass: false,
+    typeGate: false,
+    typeScoreCommitted: false,
     useItems: [],
     useIndex: 0,
     useScore: 0,
+    useWrong: [],
+    useRetryPass: false,
+    useGate: false,
+    useScoreCommitted: false,
     checkScore: 0,
     checkTotal: 0,
     /** @type {null | (() => void)} */
@@ -387,13 +449,11 @@ export function startPractice(pack, root, opts) {
 
   // ---- Check ----
   /**
-   * Always use the full pack.match set (no random drop).
-   * Only shuffle order of left rows and right chips so the board still varies.
-   * Keep match lists small in the pack if you need one-screen boards.
+   * Match board: up to DEFAULT_PASS pairs (or whole bank if shorter).
+   * Shuffle order of left rows and right chips.
    */
   function newMatchBoard() {
-    const raw = (pack.match || []).slice();
-    // Shuffle left order so it's not always the same top-to-bottom list
+    const raw = samplePass(pack.match || [], null, focusStructures);
     const leftSrc = shuffle(raw);
     const left = leftSrc.map((p, i) => ({
       id: i,
@@ -424,9 +484,13 @@ export function startPractice(pack, root, opts) {
     state.checkPhase = "match";
     state.matchSubmitted = false;
     state.matchBoard = null;
-    state.quizItems = shuffle((pack.quiz || []).slice());
+    state.quizItems = samplePass(pack.quiz || [], null, focusStructures);
     state.quizIndex = 0;
     state.quizScore = 0;
+    state.quizWrong = [];
+    state.quizRetryPass = false;
+    state.quizGate = false;
+    state.quizScoreCommitted = false;
     state.checkScore = 0;
     state.checkTotal = 0;
     const hasMatch = (pack.match || []).length > 0;
@@ -437,6 +501,20 @@ export function startPractice(pack, root, opts) {
     }
     if (!hasMatch) state.checkPhase = "quiz";
     else newMatchBoard();
+    render();
+  }
+
+  function beginQuizRetry() {
+    const wrong = state.quizWrong.slice();
+    if (!wrong.length) return;
+    state.quizItems = shuffle(wrong);
+    state.quizIndex = 0;
+    state.quizScore = 0;
+    state.quizWrong = [];
+    state.quizRetryPass = true;
+    state.quizGate = false;
+    // Retry does not re-commit into checkScore
+    state.checkPhase = "quiz";
     render();
   }
 
@@ -492,7 +570,12 @@ export function startPractice(pack, root, opts) {
         if (state.quizItems.length) {
           state.checkPhase = "quiz";
           render();
-        } else finishCheck();
+        } else {
+          const s = state.checkTotal ? state.checkScore : 1;
+          const t = state.checkTotal || 1;
+          completeMode(pack.id, "check", { score: s, total: t });
+          beginType();
+        }
       };
       root.querySelector("#m-next")?.addEventListener("click", goNext);
       state.enterAdvance = goNext;
@@ -601,11 +684,74 @@ export function startPractice(pack, root, opts) {
     return null;
   }
 
-﻿  function renderQuiz() {
+  function renderQuizGate() {
+    clearAdvance();
+    const total = state.quizItems.length || 1;
+    const score = state.quizScore;
+    const wrongN = state.quizWrong.length;
+    // Commit quiz score once (not on every re-render)
+    if (!state.quizScoreCommitted && !state.quizRetryPass) {
+      state.checkScore += score;
+      state.checkTotal += total;
+      state.quizScoreCommitted = true;
+    }
+    root.innerHTML = `
+      ${ladderHtml()}
+      <div class="practice-head"><h2>${esc(pack.title)} · Quiz · Gotowe</h2></div>
+      <p class="practice-prompt">Wynik: <strong>${score} / ${total}</strong></p>
+      <p class="practice-hint">${
+        wrongN > 0
+          ? `${wrongN} błędów · powtórz albo idź do Pisania`
+          : "Wszystko dobrze · dalej: Pisanie"
+      }${state.quizRetryPass ? " · runda poprawkowa" : ""}</p>
+      <div class="nav">
+        ${
+          wrongN > 0
+            ? `<button type="button" class="btn primary" id="q-retry">Powtórz błędy (${wrongN})</button>
+               <button type="button" class="btn" id="q-next">Dalej do Pisania →</button>`
+            : `<button type="button" class="btn" id="q-again">Cała talia od nowa</button>
+               <button type="button" class="btn primary" id="q-next">Dalej do Pisania →</button>`
+        }
+      </div>
+      ${
+        wrongN > 0
+          ? `<button type="button" class="link" id="q-again">Cała talia od nowa</button>`
+          : ""
+      }
+    `;
+    const goType = () => {
+      const s = state.checkTotal ? state.checkScore : 1;
+      const t = state.checkTotal || 1;
+      completeMode(pack.id, "check", { score: s, total: t });
+      beginType();
+    };
+    root.querySelector("#q-next")?.addEventListener("click", goType);
+    root.querySelector("#q-retry")?.addEventListener("click", () => beginQuizRetry());
+    root.querySelector("#q-again")?.addEventListener("click", () => {
+      if (state.quizScoreCommitted) {
+        state.checkScore = Math.max(0, state.checkScore - score);
+        state.checkTotal = Math.max(0, state.checkTotal - total);
+        state.quizScoreCommitted = false;
+      }
+      state.quizItems = samplePass(pack.quiz || [], null, focusStructures);
+      state.quizIndex = 0;
+      state.quizScore = 0;
+      state.quizWrong = [];
+      state.quizRetryPass = false;
+      state.quizGate = false;
+      state.checkPhase = "quiz";
+      render();
+    });
+    state.enterAdvance = wrongN > 0 ? () => beginQuizRetry() : goType;
+    focusPrimary(wrongN > 0 ? "#q-retry" : "#q-next");
+  }
+
+  function renderQuiz() {
     clearAdvance();
     const items = state.quizItems;
-    if (state.quizIndex >= items.length) {
-      finishCheck();
+    if (state.quizGate || state.quizIndex >= items.length) {
+      if (!state.quizGate) state.quizGate = true;
+      renderQuizGate();
       return;
     }
     const item = items[state.quizIndex];
@@ -623,7 +769,9 @@ export function startPractice(pack, root, opts) {
     root.innerHTML = `
       ${ladderHtml()}
       <div class="practice-head"><h2>${esc(pack.title)} · Quiz</h2></div>
-      <p class="score-line">${state.quizIndex + 1} / ${items.length}</p>
+      <p class="score-line">${state.quizIndex + 1} / ${items.length} · wynik ${state.quizScore}${
+        state.quizRetryPass ? " · poprawka" : ""
+      }</p>
       <p class="practice-prompt">${esc(item.prompt)}</p>
       <p class="practice-hint">Klawisze <strong>1–${choices.length}</strong> · po odpowiedzi Enter = dalej</p>
       <div class="choices" id="choices"></div>
@@ -639,6 +787,7 @@ export function startPractice(pack, root, opts) {
         advanceTimer = null;
       }
       state.quizIndex += 1;
+      if (state.quizIndex >= items.length) state.quizGate = true;
       render();
     };
 
@@ -649,6 +798,7 @@ export function startPractice(pack, root, opts) {
       const buttons = [...box.querySelectorAll(".choice")];
       const good = c === item.answer;
       if (good) state.quizScore += 1;
+      else if (!state.quizWrong.includes(item)) state.quizWrong.push(item);
       if (buttons[i]) buttons[i].classList.add(good ? "is-correct" : "is-wrong");
       buttons.forEach((ch) => {
         ch.disabled = true;
@@ -687,20 +837,20 @@ export function startPractice(pack, root, opts) {
     }
   }
 
-  function finishCheck() {
-    state.checkScore += state.quizScore;
-    state.checkTotal += state.quizItems.length;
-    const score = state.checkTotal ? state.checkScore : 1;
-    const total = state.checkTotal || 1;
-    completeMode(pack.id, "check", { score, total });
-    beginType();
-  }
-
-  function beginType() {
+  function beginType(onlyWrong) {
     state.stage = "type";
-    state.typeItems = shuffle((pack.type_items || []).slice());
+    state.typeGate = false;
+    state.typeScoreCommitted = false;
+    if (onlyWrong && onlyWrong.length) {
+      state.typeItems = shuffle(onlyWrong.slice());
+      state.typeRetryPass = true;
+    } else {
+      state.typeItems = samplePass(pack.type_items || [], null, focusStructures);
+      state.typeRetryPass = false;
+    }
     state.typeIndex = 0;
     state.typeScore = 0;
+    state.typeWrong = [];
     if (!state.typeItems.length) {
       completeMode(pack.id, "type", { score: 1, total: 1 });
       beginUse();
@@ -709,11 +859,20 @@ export function startPractice(pack, root, opts) {
     render();
   }
 
-  function beginUse() {
+  function beginUse(onlyWrong) {
     state.stage = "use";
-    state.useItems = shuffle((pack.use_items || []).slice());
+    state.useGate = false;
+    state.useScoreCommitted = false;
+    if (onlyWrong && onlyWrong.length) {
+      state.useItems = shuffle(onlyWrong.slice());
+      state.useRetryPass = true;
+    } else {
+      state.useItems = samplePass(pack.use_items || [], null, focusStructures);
+      state.useRetryPass = false;
+    }
     state.useIndex = 0;
     state.useScore = 0;
+    state.useWrong = [];
     if (!state.useItems.length) {
       completeMode(pack.id, "use");
       state.stage = "done";
@@ -723,27 +882,96 @@ export function startPractice(pack, root, opts) {
     render();
   }
 
+  function renderTypedGate(kind) {
+    clearAdvance();
+    const items = kind === "type" ? state.typeItems : state.useItems;
+    const score = kind === "type" ? state.typeScore : state.useScore;
+    const wrong = kind === "type" ? state.typeWrong : state.useWrong;
+    const retryPass =
+      kind === "type" ? state.typeRetryPass : state.useRetryPass;
+    const total = items.length || 1;
+    const wrongN = wrong.length;
+    const title = kind === "type" ? "Pisanie" : "Użycie";
+    const nextLabel =
+      kind === "type" ? "Dalej do Użycia →" : "Zakończ · podsumowanie →";
+
+    if (kind === "type" && !state.typeScoreCommitted && !retryPass) {
+      completeMode(pack.id, "type", { score, total });
+      state.typeScoreCommitted = true;
+    }
+    if (kind === "use" && !state.useScoreCommitted && !retryPass) {
+      completeMode(pack.id, "use", { score, total });
+      state.useScoreCommitted = true;
+    }
+
+    root.innerHTML = `
+      ${ladderHtml()}
+      <div class="practice-head"><h2>${esc(pack.title)} · ${title} · Gotowe</h2></div>
+      <p class="practice-prompt">Wynik: <strong>${score} / ${total}</strong></p>
+      <p class="practice-hint">${
+        wrongN > 0
+          ? `${wrongN} błędów · powtórz albo idź dalej`
+          : kind === "type"
+            ? "Wszystko dobrze · dalej: Użycie"
+            : "Wszystko dobrze · podsumowanie"
+      }${retryPass ? " · runda poprawkowa" : ""}</p>
+      <div class="nav">
+        ${
+          wrongN > 0
+            ? `<button type="button" class="btn primary" id="t-retry">Powtórz błędy (${wrongN})</button>
+               <button type="button" class="btn" id="t-next">${nextLabel}</button>`
+            : `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
+               <button type="button" class="btn primary" id="t-next">${nextLabel}</button>`
+        }
+      </div>
+      ${
+        wrongN > 0
+          ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>`
+          : ""
+      }
+    `;
+
+    const goNext = () => {
+      if (kind === "type") beginUse();
+      else {
+        state.stage = "done";
+        render();
+      }
+    };
+    const retry = () => {
+      if (kind === "type") beginType(wrong.slice());
+      else beginUse(wrong.slice());
+    };
+    const again = () => {
+      if (kind === "type") {
+        state.typeScoreCommitted = false;
+        beginType();
+      } else {
+        state.useScoreCommitted = false;
+        beginUse();
+      }
+    };
+
+    root.querySelector("#t-next")?.addEventListener("click", goNext);
+    root.querySelector("#t-retry")?.addEventListener("click", retry);
+    root.querySelector("#t-again")?.addEventListener("click", again);
+    state.enterAdvance = wrongN > 0 ? retry : goNext;
+    focusPrimary(wrongN > 0 ? "#t-retry" : "#t-next");
+  }
+
   function renderTypedStage(kind) {
     clearAdvance();
     const items = kind === "type" ? state.typeItems : state.useItems;
     const idx = kind === "type" ? state.typeIndex : state.useIndex;
     const score = kind === "type" ? state.typeScore : state.useScore;
+    const gate = kind === "type" ? state.typeGate : state.useGate;
+    const retryPass =
+      kind === "type" ? state.typeRetryPass : state.useRetryPass;
 
-    if (idx >= items.length) {
-      if (kind === "type") {
-        completeMode(pack.id, "type", {
-          score: state.typeScore,
-          total: state.typeItems.length,
-        });
-        beginUse();
-      } else {
-        completeMode(pack.id, "use", {
-          score: state.useScore,
-          total: state.useItems.length,
-        });
-        state.stage = "done";
-        render();
-      }
+    if (gate || idx >= items.length) {
+      if (kind === "type") state.typeGate = true;
+      else state.useGate = true;
+      renderTypedGate(kind);
       return;
     }
 
@@ -783,7 +1011,9 @@ export function startPractice(pack, root, opts) {
     root.innerHTML = `
       ${ladderHtml()}
       <div class="practice-head"><h2>${esc(pack.title)} · ${stageLabel}</h2></div>
-      <p class="score-line">${idx + 1} / ${items.length} · wynik ${score}</p>
+      <p class="score-line">${idx + 1} / ${items.length} · wynik ${score}${
+        retryPass ? " · poprawka" : ""
+      }</p>
       <p class="practice-prompt">${esc(prompt)}</p>
       ${hint}
       ${
@@ -808,8 +1038,13 @@ export function startPractice(pack, root, opts) {
         clearTimeout(advanceTimer);
         advanceTimer = null;
       }
-      if (kind === "type") state.typeIndex += 1;
-      else state.useIndex += 1;
+      if (kind === "type") {
+        state.typeIndex += 1;
+        if (state.typeIndex >= items.length) state.typeGate = true;
+      } else {
+        state.useIndex += 1;
+        if (state.useIndex >= items.length) state.useGate = true;
+      }
       render();
     };
 
@@ -825,13 +1060,18 @@ export function startPractice(pack, root, opts) {
           ? `Tak. · ${fullFormOf(item) || item.stem + item.ending}`
           : "Tak.";
       } else {
+        if (kind === "type") {
+          if (!state.typeWrong.includes(item)) state.typeWrong.push(item);
+        } else if (!state.useWrong.includes(item)) {
+          state.useWrong.push(item);
+        }
         fb.className = "feedback bad";
         fb.textContent = isGap
           ? `→ ${item.ending}  ·  ${fullFormOf(item)}`
           : `→ ${item.answer}`;
       }
       input.disabled = true;
-      btn.textContent = idx >= items.length - 1 ? "Dalej →" : "Dalej →";
+      btn.textContent = "Dalej →";
       btn.onclick = goNext;
       focusPrimary("#btn-submit");
       state.enterAdvance = goNext;

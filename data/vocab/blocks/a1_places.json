@@ -3,47 +3,453 @@
   "title": "Miejsca",
   "level": "A1",
   "tree_node": "leaf_places",
-  "note": "Miejsca w mieście. EN → PL. Osobne bloki na tramwaj/bilety planowane później.",
+  "note": "Miejsca. Zdanie without w/z+case until prep teach. Pool: to_jest, poss, mieć, present, być.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
       "id": "places_city",
       "title": "Miejsca · miasto",
       "items": [
-        { "en": "city", "pl": "miasto" },
-        { "en": "street", "pl": "ulica" },
-        { "en": "square", "pl": "plac", "accepts": ["rynek"] },
-        { "en": "station", "pl": "dworzec", "accepts": ["stacja"] },
-        { "en": "tram", "pl": "tramwaj" },
-        { "en": "metro / underground", "pl": "metro" },
-        { "en": "bus", "pl": "autobus" },
-        { "en": "stop (noun)", "pl": "przystanek" },
+        {
+          "en": "city",
+          "pl": "miasto"
+        },
+        {
+          "en": "street",
+          "pl": "ulica"
+        },
+        {
+          "en": "square",
+          "pl": "plac",
+          "accepts": [
+            "rynek"
+          ]
+        },
+        {
+          "en": "station",
+          "pl": "dworzec",
+          "accepts": [
+            "stacja"
+          ]
+        },
+        {
+          "en": "tram",
+          "pl": "tramwaj"
+        },
+        {
+          "en": "metro / underground",
+          "pl": "metro"
+        },
+        {
+          "en": "bus",
+          "pl": "autobus"
+        },
+        {
+          "en": "stop (noun)",
+          "pl": "przystanek"
+        },
         {
           "en": "ticket",
           "pl": "bilet",
-          "accepts": ["bilety"]
+          "accepts": [
+            "bilety"
+          ]
         },
-        { "en": "map", "pl": "mapa" },
-        { "en": "left", "pl": "lewo", "accepts": ["w lewo", "na lewo"] },
-        { "en": "right", "pl": "prawo", "accepts": ["w prawo", "na prawo"] }
+        {
+          "en": "map",
+          "pl": "mapa"
+        },
+        {
+          "en": "left",
+          "pl": "lewo",
+          "accepts": [
+            "w lewo",
+            "na lewo"
+          ]
+        },
+        {
+          "en": "right",
+          "pl": "prawo",
+          "accepts": [
+            "w prawo",
+            "na prawo"
+          ]
+        }
       ]
     },
     {
       "id": "places_out",
       "title": "Miejsca · na mieście",
       "items": [
-        { "en": "shop", "pl": "sklep" },
-        { "en": "supermarket", "pl": "supermarket", "accepts": ["market"] },
-        { "en": "pharmacy", "pl": "apteka" },
-        { "en": "bank", "pl": "bank" },
-        { "en": "post office", "pl": "poczta" },
-        { "en": "school", "pl": "szkoła" },
-        { "en": "work / job", "pl": "praca" },
-        { "en": "hospital", "pl": "szpital" },
-        { "en": "park", "pl": "park" },
-        { "en": "hotel", "pl": "hotel" },
-        { "en": "here", "pl": "tutaj", "accepts": ["tu"] },
-        { "en": "there", "pl": "tam" }
+        {
+          "en": "shop",
+          "pl": "sklep"
+        },
+        {
+          "en": "supermarket",
+          "pl": "supermarket",
+          "accepts": [
+            "market"
+          ]
+        },
+        {
+          "en": "pharmacy",
+          "pl": "apteka"
+        },
+        {
+          "en": "bank",
+          "pl": "bank"
+        },
+        {
+          "en": "post office",
+          "pl": "poczta"
+        },
+        {
+          "en": "school",
+          "pl": "szkoła"
+        },
+        {
+          "en": "work / job",
+          "pl": "praca"
+        },
+        {
+          "en": "hospital",
+          "pl": "szpital"
+        },
+        {
+          "en": "park",
+          "pl": "park"
+        },
+        {
+          "en": "hotel",
+          "pl": "hotel"
+        },
+        {
+          "en": "here",
+          "pl": "tutaj",
+          "accepts": [
+            "tu"
+          ]
+        },
+        {
+          "en": "there",
+          "pl": "tam"
+        }
+      ]
+    }
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom",
+    "miec_acc",
+    "miec_present",
+    "byc_present",
+    "present_am",
+    "present_e_isz",
+    "present_e_esz",
+    "present",
+    "prep_w_loc",
+    "prep_place",
+    "question"
+  ],
+  "teaches_lemmas": [
+    "apteka",
+    "autobus",
+    "bank",
+    "bilet",
+    "bilety",
+    "dworzec",
+    "hotel",
+    "kawa",
+    "lewo",
+    "mapa",
+    "market",
+    "metro",
+    "miasto",
+    "na lewo",
+    "na prawo",
+    "park",
+    "plac",
+    "poczta",
+    "praca",
+    "prawo",
+    "przystanek",
+    "rynek",
+    "siostra",
+    "sklep",
+    "stacja",
+    "supermarket",
+    "szkoła",
+    "szpital",
+    "tam",
+    "tramwaj",
+    "tu",
+    "tutaj",
+    "ulica",
+    "w lewo",
+    "w prawo"
+  ],
+  "uses_lemmas": [
+    "apteka",
+    "autobus",
+    "bank",
+    "bilet",
+    "bilety",
+    "dworzec",
+    "hotel",
+    "kawa",
+    "lewo",
+    "mapa",
+    "market",
+    "metro",
+    "miasto",
+    "na lewo",
+    "na prawo",
+    "park",
+    "plac",
+    "poczta",
+    "praca",
+    "prawo",
+    "przystanek",
+    "rynek",
+    "siostra",
+    "sklep",
+    "stacja",
+    "supermarket",
+    "szkoła",
+    "szpital",
+    "tam",
+    "tramwaj",
+    "tu",
+    "tutaj",
+    "ulica",
+    "w lewo",
+    "w prawo"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "leaf_places",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "prep_w_loc",
+    "to_jest"
+  ],
+  "sentences": [
+    {
+      "en": "This is a city.",
+      "pl": "To jest miasto.",
+      "accepts": [
+        "To jest miasto."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "miasto"
+      ]
+    },
+    {
+      "en": "This is a shop.",
+      "pl": "To jest sklep.",
+      "accepts": [
+        "To jest sklep."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "sklep"
+      ]
+    },
+    {
+      "en": "This is a school.",
+      "pl": "To jest szkoła.",
+      "accepts": [
+        "To jest szkoła."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "szkoła"
+      ]
+    },
+    {
+      "en": "This is a station.",
+      "pl": "To jest dworzec.",
+      "accepts": [
+        "To jest dworzec."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "dworzec"
+      ]
+    },
+    {
+      "en": "This is my map.",
+      "pl": "To jest moja mapa.",
+      "accepts": [
+        "To jest moja mapa.",
+        "To moja mapa."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "mapa"
+      ]
+    },
+    {
+      "en": "This is a ticket.",
+      "pl": "To jest bilet.",
+      "accepts": [
+        "To jest bilet."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "bilet"
+      ]
+    },
+    {
+      "en": "I have a ticket.",
+      "pl": "Mam bilet.",
+      "accepts": [
+        "Mam bilet."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "bilet"
+      ]
+    },
+    {
+      "en": "I have a map.",
+      "pl": "Mam mapę.",
+      "accepts": [
+        "Mam mapę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "mapa"
+      ]
+    },
+    {
+      "en": "This is a bus.",
+      "pl": "To jest autobus.",
+      "accepts": [
+        "To jest autobus."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "autobus"
+      ]
+    },
+    {
+      "en": "This is a bank.",
+      "pl": "To jest bank.",
+      "accepts": [
+        "To jest bank."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "bank"
+      ]
+    },
+    {
+      "en": "I want a ticket.",
+      "pl": "Chcę bilet.",
+      "accepts": [
+        "Chcę bilet."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "bilet"
+      ]
+    },
+    {
+      "en": "This is my sister.",
+      "pl": "To jest moja siostra.",
+      "accepts": [
+        "To jest moja siostra."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "I have coffee.",
+      "pl": "Mam kawę.",
+      "accepts": [
+        "Mam kawę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "I am Anna.",
+      "pl": "Jestem Anna.",
+      "accepts": [
+        "Jestem Anna."
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": []
+    },
+    {
+      "en": "This is a pharmacy.",
+      "pl": "To jest apteka.",
+      "accepts": [
+        "To jest apteka."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "apteka"
+      ]
+    },
+    {
+      "en": "I like the city.",
+      "pl": "Lubię miasto.",
+      "accepts": [
+        "Lubię miasto."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "miasto"
       ]
     }
   ]

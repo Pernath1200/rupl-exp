@@ -17,19 +17,27 @@
   "path_order": [
     "trunk_social_a1",
     "a1_gender",
+    "a1_poss_simple",
     "leaf_home_family",
     "a1_hello",
     "trunk_be_have_a1",
     "a1_gender_check",
-    "leaf_food_a1",
     "a1_miec",
     "a1_acc_gym",
+    "leaf_food_a1",
     "a1_present",
+    "a1_present_e_isz",
+    "a1_present_e_esz",
     "a1_present_gym",
     "leaf_freetime_a1",
     "trunk_want_like_a1",
+    "a1_questions",
+    "a1_prep_place",
     "leaf_places",
+    "a1_prep_do_z",
     "leaf_city_a1",
+    "a1_negation",
+    "a1_inst_job",
     "leaf_work_a1"
   ],
   "path_order_note": "Spine teach→use pairs; grammar gyms inserted after support targets.",
@@ -37,12 +45,20 @@
   "show_full_canopy_ids": {
     "grammar": [
       "a1_gender",
+      "a1_poss_simple",
       "a1_hello",
       "a1_gender_check",
       "a1_present",
+      "a1_present_e_isz",
+      "a1_present_e_esz",
       "a1_miec",
       "a1_acc_gym",
-      "a1_present_gym"
+      "a1_present_gym",
+      "a1_questions",
+      "a1_negation",
+      "a1_prep_place",
+      "a1_prep_do_z",
+      "a1_inst_job"
     ],
     "vocab": [
       "trunk_social_a1",
@@ -147,13 +163,39 @@
       "foundation": true,
       "content": "grammar/blocks/a1_gender.json",
       "practice": "grammar",
-      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel",
+      "note": "JEDEN cel: to jest + N (mianownik) · m/ż/n feel · before possessives",
       "unit_id": "PL_NOM_01",
       "case_tags": [
         "nom"
       ],
       "spine_steps": [
         "PL_NOM_01"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_poss_simple",
+      "domain": "grammar",
+      "label": "Mój / twój · mianownik",
+      "label_en": "My / your · nominative",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "codex_unit": "G_PL_FORM-A1-01b",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_poss_simple.json",
+      "practice": "grammar",
+      "note": "mój/moja/moje + twój/twoja/twoje · Nom only · before Dom use",
+      "unit_id": "PL_POSS_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_POSS_01"
       ],
       "pedagogy": "teach",
       "partner_id": "leaf_home_family"
@@ -172,16 +214,16 @@
       "status": "live",
       "content": "vocab/blocks/a1_home_family.json",
       "practice": "vocab",
-      "note": "Żywe · mieszkanie + ludzie",
-      "unit_id": "PL_NOM_01",
+      "note": "Żywe · mieszkanie + ludzie · after mój/twój teach",
+      "unit_id": "PL_POSS_01",
       "case_tags": [
         "nom"
       ],
       "spine_steps": [
-        "PL_NOM_01"
+        "PL_POSS_01"
       ],
       "pedagogy": "use",
-      "partner_id": "a1_gender"
+      "partner_id": "a1_poss_simple"
     },
     {
       "id": "a1_hello",
@@ -210,7 +252,7 @@
     {
       "id": "trunk_be_have_a1",
       "domain": "vocab",
-      "label": "Być · mieć",
+      "label": "Być · ramy",
       "kind": "trunk",
       "parent": "trunk",
       "tree_part": "trunk",
@@ -221,10 +263,10 @@
       "status": "live",
       "content": "vocab/blocks/a1_trunk_be_have.json",
       "practice": "vocab",
-      "note": "Żywe · być/mieć seed bez narzędnika tożsamości · zawody → RUPL2",
+      "note": "Żywe · być + to jest + mój only (known nouns). Mieć Acc after a1_miec. No prep/place yet.",
       "unit_id": "PL_BE_SAFE_01",
       "case_tags": [
-        "prep_light"
+        "nom"
       ],
       "spine_steps": [
         "PL_BE_SAFE_01"
@@ -256,33 +298,7 @@
       "spine_steps": [
         "PL_NOM_02"
       ],
-      "pedagogy": "teach",
-      "partner_id": "leaf_food_a1"
-    },
-    {
-      "id": "leaf_food_a1",
-      "domain": "vocab",
-      "label": "Jedzenie i picie",
-      "kind": "leaf",
-      "parent": "trunk",
-      "tree_part": "food_shopping",
-      "codex_unit": "V_PL_FOOD-A1-01",
-      "levels": [
-        "A1"
-      ],
-      "status": "live",
-      "content": "vocab/blocks/a1_food.json",
-      "practice": "vocab",
-      "note": "Żywe · kawiarnia i stół",
-      "unit_id": "PL_ACC_01",
-      "case_tags": [
-        "acc"
-      ],
-      "spine_steps": [
-        "PL_ACC_01"
-      ],
-      "pedagogy": "use",
-      "partner_id": "a1_miec"
+      "pedagogy": "teach"
     },
     {
       "id": "a1_miec",
@@ -310,13 +326,13 @@
         "PL_ACC_02"
       ],
       "pedagogy": "teach",
-      "partner_id": "trunk_want_like_a1"
+      "partner_id": "leaf_food_a1"
     },
     {
       "id": "a1_acc_gym",
       "domain": "grammar",
-      "label": "Siłownia · biernik -ę",
-      "label_en": "Accusative ending gym",
+      "label": "Siłownia · biernik",
+      "label_en": "Accusative gym · nom vs acc",
       "kind": "topic",
       "root": "forms",
       "tree_part": "forms",
@@ -336,10 +352,36 @@
       "spine_support_of": "a1_miec"
     },
     {
+      "id": "leaf_food_a1",
+      "domain": "vocab",
+      "label": "Jedzenie i picie",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "food_shopping",
+      "codex_unit": "V_PL_FOOD-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_food.json",
+      "practice": "vocab",
+      "note": "Jedzenie · after miec; Zdanie recycles miec_acc + earlier structures",
+      "unit_id": "PL_ACC_01",
+      "case_tags": [
+        "acc",
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_ACC_01"
+      ],
+      "pedagogy": "use",
+      "partner_id": "a1_miec"
+    },
+    {
       "id": "a1_present",
       "domain": "grammar",
-      "label": "Teraźniejszy (ja/ty/on)",
-      "label_en": "Present I/you/he",
+      "label": "Teraźniejszy · wzór -am (mieszkać / czytać)",
+      "label_en": "Present · -am (mieszkać / czytać)",
       "kind": "topic",
       "root": "verbs",
       "tree_part": "verbs",
@@ -351,10 +393,54 @@
       "foundation": true,
       "content": "grammar/blocks/a1_present.json",
       "practice": "grammar",
-      "note": "wzorce + gap: mówić, mieszkać, lubić, chcieć",
-      "unit_id": "PL_PRES_01",
+      "note": "ONE class: mieszkać · full 6 persons · not być/mieć",
+      "unit_id": "PL_PRES_AM",
       "spine_steps": [
-        "PL_PRES_01"
+        "PL_PRES_AM"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_present_e_isz",
+      "domain": "grammar",
+      "label": "Teraźniejszy · mówić / lubić",
+      "label_en": "Present · -ę/-isz class",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_present_e_isz.json",
+      "practice": "grammar",
+      "note": "ONE class: mówić+lubić · full 6 persons",
+      "unit_id": "PL_PRES_ISZ",
+      "spine_steps": [
+        "PL_PRES_ISZ"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_present_e_esz",
+      "domain": "grammar",
+      "label": "Teraźniejszy · chcieć",
+      "label_en": "Present · -ę/-esz class",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_present_e_esz.json",
+      "practice": "grammar",
+      "note": "ONE class: chcieć · full 6 persons",
+      "unit_id": "PL_PRES_ESZ",
+      "spine_steps": [
+        "PL_PRES_ESZ"
       ],
       "pedagogy": "teach",
       "partner_id": "leaf_freetime_a1"
@@ -375,9 +461,9 @@
       "foundation": true,
       "content": "grammar/blocks/a1_present_gym.json",
       "practice": "grammar",
-      "note": "volume after present teach · not a spine step",
+      "note": "Mixed present classes · after all three teaches · volume",
       "pedagogy": "drill",
-      "spine_support_of": "a1_present"
+      "spine_support_of": "a1_present_e_esz"
     },
     {
       "id": "leaf_freetime_a1",
@@ -393,13 +479,13 @@
       "status": "live",
       "content": "vocab/blocks/a1_freetime.json",
       "practice": "vocab",
-      "note": "Żywe · hobby i uczucia",
-      "unit_id": "PL_PRES_01",
+      "note": "Żywe · hobby i uczucia · Zdanie uses present + pool",
+      "unit_id": "PL_PRES_ESZ",
       "spine_steps": [
-        "PL_PRES_01"
+        "PL_PRES_ESZ"
       ],
       "pedagogy": "use",
-      "partner_id": "a1_present"
+      "partner_id": "a1_present_e_esz"
     },
     {
       "id": "trunk_want_like_a1",
@@ -423,8 +509,57 @@
       "spine_steps": [
         "PL_ACC_02"
       ],
-      "pedagogy": "use",
-      "partner_id": "a1_miec"
+      "pedagogy": "use"
+    },
+    {
+      "id": "a1_questions",
+      "domain": "grammar",
+      "label": "Pytania · skorupy",
+      "label_en": "Question shells",
+      "kind": "topic",
+      "root": "sentence",
+      "tree_part": "sentence",
+      "codex_unit": "G_PL_SS-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_questions.json",
+      "practice": "grammar",
+      "note": "Phrase shells · no new case",
+      "unit_id": "PL_Q_01",
+      "spine_steps": [
+        "PL_Q_01"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_prep_place",
+      "domain": "grammar",
+      "label": "Przyimki · w / na + miejscownik",
+      "label_en": "w/na + locative",
+      "kind": "topic",
+      "root": "links",
+      "tree_part": "links",
+      "codex_unit": "G_PL_PP-A1-01",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_prep_place.json",
+      "practice": "grammar",
+      "note": "Static place · Loc · before Miejsca",
+      "unit_id": "PL_PREP_01",
+      "case_tags": [
+        "loc"
+      ],
+      "spine_steps": [
+        "PL_PREP_01"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_places"
     },
     {
       "id": "leaf_places",
@@ -440,7 +575,7 @@
       "status": "live",
       "content": "vocab/blocks/a1_places.json",
       "practice": "vocab",
-      "note": "Żywe · miejsca w mieście",
+      "note": "Miejsca lemmas; Zdanie without prep case until prep teach",
       "unit_id": "PL_PREP_01",
       "case_tags": [
         "loc",
@@ -451,6 +586,32 @@
       ],
       "pedagogy": "use",
       "partner_id": "a1_prep_place"
+    },
+    {
+      "id": "a1_prep_do_z",
+      "domain": "grammar",
+      "label": "Przyimki · do / z + dopełniacz",
+      "label_en": "do/z + genitive",
+      "kind": "topic",
+      "root": "links",
+      "tree_part": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_prep_do_z.json",
+      "practice": "grammar",
+      "note": "Direction/origin · Gen · after w/na Loc · before city",
+      "unit_id": "PL_PREP_02",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_02"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_city_a1"
     },
     {
       "id": "leaf_city_a1",
@@ -475,7 +636,58 @@
         "PL_PREP_02"
       ],
       "pedagogy": "use",
-      "partner_id": "a1_prep_place"
+      "partner_id": "a1_prep_do_z"
+    },
+    {
+      "id": "a1_negation",
+      "domain": "grammar",
+      "label": "Przeczenie · nie mam",
+      "label_en": "Negation · nie mam + Gen",
+      "kind": "topic",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_negation.json",
+      "practice": "grammar",
+      "note": "Genitive of negation after nie mam",
+      "unit_id": "PL_NEG_01",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_NEG_01"
+      ],
+      "pedagogy": "teach"
+    },
+    {
+      "id": "a1_inst_job",
+      "domain": "grammar",
+      "label": "Być + zawód (narzędnik)",
+      "label_en": "Be + job (instrumental)",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "foundation": true,
+      "content": "grammar/blocks/a1_inst_job.json",
+      "practice": "grammar",
+      "note": "After Acc + preps · identity frames only",
+      "unit_id": "PL_INST_01",
+      "case_tags": [
+        "inst"
+      ],
+      "spine_steps": [
+        "PL_INST_01"
+      ],
+      "pedagogy": "teach",
+      "partner_id": "leaf_work_a1"
     },
     {
       "id": "leaf_work_a1",

@@ -4,22 +4,76 @@
   "level": "A1",
   "tree_node": "trunk_want_like_a1",
   "practice": "frames",
-  "note": "Chcieć / lubić — kawiarnia i miasto. Luka na cel polski. Zdanie EN → PL.",
+  "note": "After present + food. Focus present (chcieć/lubić) + Acc objects from pool. Recycle food/Dom. No prep/genitive of negation yet.",
   "default_direction": "en_to_pl",
+  "focus_structures": [
+    "present_e_esz",
+    "present_e_isz",
+    "miec_acc"
+  ],
+  "uses_structures": [
+    "present_e_esz",
+    "present_e_isz",
+    "present",
+    "miec_acc",
+    "miec_present",
+    "to_jest",
+    "poss_nom",
+    "byc_present"
+  ],
   "blocks": [
     {
       "id": "want_like_seed",
       "title": "Chcę · lubię · ramy",
       "items": [
         {
-          "en": "I want a coffee.",
+          "en": "I want coffee.",
           "pl": "Chcę kawę.",
           "gap": "Chcę ____.",
           "gap_answer": "kawę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "kawa"
+          ],
           "accepts": [
             "Chcę kawę.",
-            "Ja chcę kawę.",
-            "Poproszę kawę."
+            "Ja chcę kawę."
+          ]
+        },
+        {
+          "en": "I want tea.",
+          "pl": "Chcę herbatę.",
+          "gap": "Chcę ____.",
+          "gap_answer": "herbatę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "herbata"
+          ],
+          "accepts": [
+            "Chcę herbatę.",
+            "Ja chcę herbatę."
+          ]
+        },
+        {
+          "en": "I want water.",
+          "pl": "Chcę wodę.",
+          "gap": "Chcę ____.",
+          "gap_answer": "wodę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "woda"
+          ],
+          "accepts": [
+            "Chcę wodę."
           ]
         },
         {
@@ -27,95 +81,291 @@
           "pl": "Chcę piwo.",
           "gap": "Chcę ____.",
           "gap_answer": "piwo",
-          "accepts": ["Chcę piwo.", "Ja chcę piwo.", "Poproszę piwo."]
-        },
-        {
-          "en": "I would like a tea, please.",
-          "pl": "Chciałbym herbatę, proszę.",
-          "gap": "Chciałbym ____, proszę.",
-          "gap_answer": "herbatę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "piwo"
+          ],
           "accepts": [
-            "Chciałbym herbatę, proszę.",
-            "Chciałabym herbatę, proszę.",
-            "Chcę herbatę, proszę.",
-            "Poproszę herbatę."
+            "Chcę piwo."
           ]
-        },
-        {
-          "en": "I like Warsaw.",
-          "pl": "Lubię Warszawę.",
-          "gap": "Lubię ____.",
-          "gap_answer": "Warszawę",
-          "accepts": ["Lubię Warszawę.", "Podoba mi się Warszawa."]
         },
         {
           "en": "I like coffee.",
           "pl": "Lubię kawę.",
           "gap": "Lubię ____.",
           "gap_answer": "kawę",
-          "accepts": ["Lubię kawę."]
-        },
-        {
-          "en": "I do not like beer.",
-          "pl": "Nie lubię piwa.",
-          "gap": "Nie lubię ____.",
-          "gap_answer": "piwa",
-          "accepts": ["Nie lubię piwa."]
-        },
-        {
-          "en": "I want water, please.",
-          "pl": "Chcę wodę, proszę.",
-          "gap": "Chcę ____, proszę.",
-          "gap_answer": "wodę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "kawa"
+          ],
           "accepts": [
-            "Chcę wodę, proszę.",
-            "Wodę, proszę.",
-            "Poproszę wodę."
+            "Lubię kawę."
           ]
         },
         {
-          "en": "Can I have the bill, please?",
-          "pl": "Rachunek, proszę.",
-          "gap": "____, proszę.",
-          "gap_answer": "Rachunek",
+          "en": "I like tea.",
+          "pl": "Lubię herbatę.",
+          "gap": "Lubię ____.",
+          "gap_answer": "herbatę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "herbata"
+          ],
           "accepts": [
-            "Rachunek, proszę.",
-            "Poproszę rachunek.",
-            "Czy mogę dostać rachunek?"
+            "Lubię herbatę."
           ]
         },
         {
-          "en": "I want this.",
-          "pl": "Chcę to.",
+          "en": "I like beer.",
+          "pl": "Lubię piwo.",
+          "gap": "Lubię ____.",
+          "gap_answer": "piwo",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "piwo"
+          ],
+          "accepts": [
+            "Lubię piwo."
+          ]
+        },
+        {
+          "en": "I like music.",
+          "pl": "Lubię muzykę.",
+          "gap": "Lubię ____.",
+          "gap_answer": "muzykę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "muzyka"
+          ],
+          "accepts": [
+            "Lubię muzykę."
+          ]
+        },
+        {
+          "en": "I want a book.",
+          "pl": "Chcę książkę.",
           "gap": "Chcę ____.",
-          "gap_answer": "to",
-          "accepts": ["Chcę to.", "Ja chcę to.", "Chcę to."]
-        },
-        {
-          "en": "I like this restaurant.",
-          "pl": "Lubię tę restaurację.",
-          "gap": "Lubię tę ____.",
-          "gap_answer": "restaurację",
+          "gap_answer": "książkę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "książka"
+          ],
           "accepts": [
-            "Lubię tę restaurację.",
-            "Podoba mi się ta restauracja."
+            "Chcę książkę."
           ]
         },
         {
-          "en": "I want to eat.",
-          "pl": "Chcę jeść.",
-          "gap": "Chcę ____.",
-          "gap_answer": "jeść",
-          "accepts": ["Chcę jeść.", "Chcę zjeść."]
+          "en": "I have coffee.",
+          "pl": "Mam kawę.",
+          "gap": "Mam ____.",
+          "gap_answer": "kawę",
+          "structures": [
+            "miec_present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "kawa"
+          ],
+          "accepts": [
+            "Mam kawę."
+          ]
         },
         {
-          "en": "I do not want coffee.",
-          "pl": "Nie chcę kawy.",
-          "gap": "Nie chcę ____.",
-          "gap_answer": "kawy",
-          "accepts": ["Nie chcę kawy.", "Ja nie chcę kawy."]
+          "en": "This is coffee.",
+          "pl": "To jest kawa.",
+          "gap": "To jest ____.",
+          "gap_answer": "kawa",
+          "structures": [
+            "to_jest"
+          ],
+          "lemmas": [
+            "kawa"
+          ],
+          "accepts": [
+            "To jest kawa.",
+            "To kawa."
+          ]
+        },
+        {
+          "en": "This is my tea.",
+          "pl": "To jest moja herbata.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "herbata",
+          "structures": [
+            "to_jest",
+            "poss_nom"
+          ],
+          "lemmas": [
+            "herbata"
+          ],
+          "accepts": [
+            "To jest moja herbata.",
+            "To moja herbata."
+          ]
+        },
+        {
+          "en": "You want coffee. (sg)",
+          "pl": "Chcesz kawę.",
+          "gap": "Chcesz ____.",
+          "gap_answer": "kawę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "kawa"
+          ],
+          "accepts": [
+            "Chcesz kawę."
+          ]
+        },
+        {
+          "en": "She likes tea.",
+          "pl": "Ona lubi herbatę.",
+          "gap": "Ona lubi ____.",
+          "gap_answer": "herbatę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "herbata"
+          ],
+          "accepts": [
+            "Ona lubi herbatę.",
+            "Lubi herbatę."
+          ]
+        },
+        {
+          "en": "I want soup.",
+          "pl": "Chcę zupę.",
+          "gap": "Chcę ____.",
+          "gap_answer": "zupę",
+          "structures": [
+            "present",
+            "miec_acc"
+          ],
+          "lemmas": [
+            "zupa"
+          ],
+          "accepts": [
+            "Chcę zupę."
+          ]
+        },
+        {
+          "en": "This is my sister.",
+          "pl": "To jest moja siostra.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "siostra",
+          "structures": [
+            "to_jest",
+            "poss_nom"
+          ],
+          "lemmas": [
+            "siostra"
+          ],
+          "accepts": [
+            "To jest moja siostra.",
+            "To moja siostra."
+          ]
         }
       ]
     }
-  ]
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [
+    "chcesz kawę",
+    "chcę herbatę",
+    "chcę kawę",
+    "chcę książkę",
+    "chcę piwo",
+    "chcę wodę",
+    "chcę zupę",
+    "herbata",
+    "herbatę",
+    "ja chcę herbatę",
+    "ja chcę kawę",
+    "kawa",
+    "kawę",
+    "książkę",
+    "lubi herbatę",
+    "lubię herbatę",
+    "lubię kawę",
+    "lubię muzykę",
+    "lubię piwo",
+    "mam kawę",
+    "muzykę",
+    "ona lubi herbatę",
+    "piwo",
+    "siostra",
+    "to jest kawa",
+    "to jest moja herbata",
+    "to jest moja siostra",
+    "to kawa",
+    "to moja herbata",
+    "to moja siostra",
+    "wodę",
+    "zupę"
+  ],
+  "uses_lemmas": [
+    "chcesz kawę",
+    "chcę herbatę",
+    "chcę kawę",
+    "chcę książkę",
+    "chcę piwo",
+    "chcę wodę",
+    "chcę zupę",
+    "herbata",
+    "herbatę",
+    "ja chcę herbatę",
+    "ja chcę kawę",
+    "kawa",
+    "kawę",
+    "książkę",
+    "lubi herbatę",
+    "lubię herbatę",
+    "lubię kawę",
+    "lubię muzykę",
+    "lubię piwo",
+    "mam kawę",
+    "muzykę",
+    "ona lubi herbatę",
+    "piwo",
+    "siostra",
+    "to jest kawa",
+    "to jest moja herbata",
+    "to jest moja siostra",
+    "to kawa",
+    "to moja herbata",
+    "to moja siostra",
+    "wodę",
+    "zupę",
+    "chcę",
+    "lubię",
+    "proszę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "trunk_want_like_a1",
+    "pool_model": "cumulative_focus_recycle"
+  }
 }

@@ -10,37 +10,201 @@
       "id": "city_transport",
       "title": "Miasto · transport",
       "items": [
-        { "en": "ticket", "pl": "bilet" },
-        { "en": "tram", "pl": "tramwaj" },
-        { "en": "bus", "pl": "autobus" },
-        { "en": "metro", "pl": "metro" },
-        { "en": "train", "pl": "pociąg" },
-        { "en": "taxi", "pl": "taksi" },
-        { "en": "stop (noun)", "pl": "przystanek" },
-        { "en": "station", "pl": "dworzec", "accepts": ["stacja"] },
-        { "en": "airport", "pl": "lotnisko" },
-        { "en": "platform", "pl": "peron" },
-        { "en": "delay", "pl": "opóźnienie" },
-        { "en": "bike", "pl": "rower" }
+        {
+          "en": "ticket",
+          "pl": "bilet"
+        },
+        {
+          "en": "tram",
+          "pl": "tramwaj"
+        },
+        {
+          "en": "bus",
+          "pl": "autobus"
+        },
+        {
+          "en": "metro",
+          "pl": "metro"
+        },
+        {
+          "en": "train",
+          "pl": "pociąg"
+        },
+        {
+          "en": "taxi",
+          "pl": "taksi"
+        },
+        {
+          "en": "stop (noun)",
+          "pl": "przystanek"
+        },
+        {
+          "en": "station",
+          "pl": "dworzec",
+          "accepts": [
+            "stacja"
+          ]
+        },
+        {
+          "en": "airport",
+          "pl": "lotnisko"
+        },
+        {
+          "en": "platform",
+          "pl": "peron"
+        },
+        {
+          "en": "delay",
+          "pl": "opóźnienie"
+        },
+        {
+          "en": "bike",
+          "pl": "rower"
+        }
       ]
     },
     {
       "id": "city_directions",
       "title": "Miasto · kierunki",
       "items": [
-        { "en": "left", "pl": "lewo", "accepts": ["w lewo"] },
-        { "en": "right", "pl": "prawo", "accepts": ["w prawo"] },
-        { "en": "straight", "pl": "prosto" },
-        { "en": "near", "pl": "blisko" },
-        { "en": "far", "pl": "daleko" },
-        { "en": "here", "pl": "tutaj", "accepts": ["tu"] },
-        { "en": "there", "pl": "tam" },
-        { "en": "map", "pl": "mapa" },
-        { "en": "address", "pl": "adres" },
-        { "en": "bridge", "pl": "most" },
-        { "en": "road", "pl": "droga" },
-        { "en": "city centre", "pl": "centrum" }
+        {
+          "en": "left",
+          "pl": "lewo",
+          "accepts": [
+            "w lewo"
+          ]
+        },
+        {
+          "en": "right",
+          "pl": "prawo",
+          "accepts": [
+            "w prawo"
+          ]
+        },
+        {
+          "en": "straight",
+          "pl": "prosto"
+        },
+        {
+          "en": "near",
+          "pl": "blisko"
+        },
+        {
+          "en": "far",
+          "pl": "daleko"
+        },
+        {
+          "en": "here",
+          "pl": "tutaj",
+          "accepts": [
+            "tu"
+          ]
+        },
+        {
+          "en": "there",
+          "pl": "tam"
+        },
+        {
+          "en": "map",
+          "pl": "mapa"
+        },
+        {
+          "en": "address",
+          "pl": "adres"
+        },
+        {
+          "en": "bridge",
+          "pl": "most"
+        },
+        {
+          "en": "road",
+          "pl": "droga"
+        },
+        {
+          "en": "city centre",
+          "pl": "centrum"
+        }
       ]
     }
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_w_loc",
+    "prep_place",
+    "to_jest",
+    "miec_acc",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "adres",
+    "autobus",
+    "bilet",
+    "blisko",
+    "centrum",
+    "daleko",
+    "droga",
+    "dworzec",
+    "lewo",
+    "lotnisko",
+    "mapa",
+    "metro",
+    "most",
+    "opóźnienie",
+    "peron",
+    "pociąg",
+    "prawo",
+    "prosto",
+    "przystanek",
+    "rower",
+    "stacja",
+    "taksi",
+    "tam",
+    "tramwaj",
+    "tu",
+    "tutaj",
+    "w lewo",
+    "w prawo"
+  ],
+  "uses_lemmas": [
+    "adres",
+    "autobus",
+    "bilet",
+    "blisko",
+    "centrum",
+    "daleko",
+    "droga",
+    "dworzec",
+    "lewo",
+    "lotnisko",
+    "mapa",
+    "metro",
+    "most",
+    "opóźnienie",
+    "peron",
+    "pociąg",
+    "prawo",
+    "prosto",
+    "przystanek",
+    "rower",
+    "stacja",
+    "taksi",
+    "tam",
+    "tramwaj",
+    "tu",
+    "tutaj",
+    "w lewo",
+    "w prawo"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "leaf_city_a1",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "prep_do_gen",
+    "prep_z_gen"
   ]
 }

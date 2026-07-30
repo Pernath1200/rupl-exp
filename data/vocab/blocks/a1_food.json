@@ -3,54 +3,137 @@
   "title": "Jedzenie i picie",
   "level": "A1",
   "tree_node": "leaf_food_a1",
-  "note": "Kawiarnia i stół. EN → PL. Zdanie = wolne polskie z tymi słowami. Owoc = drabina + soft quiz/słowo.",
+  "note": "Kawiarnia i stół. After a1_miec. Zdanie = EN→PL from structure pool (miec_acc focus + to_jest/poss/być recycle) + Dom lemmas recycle.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
       "id": "food_drinks",
       "title": "Jedzenie · napoje",
       "items": [
-        { "en": "water", "pl": "woda" },
-        { "en": "coffee", "pl": "kawa" },
-        { "en": "tea", "pl": "herbata" },
-        { "en": "beer", "pl": "piwo" },
-        { "en": "wine", "pl": "wino" },
-        { "en": "juice", "pl": "sok" },
-        { "en": "milk", "pl": "mleko" },
-        { "en": "drink (verb)", "pl": "pić" },
-        { "en": "bottle", "pl": "butelka" },
-        { "en": "glass", "pl": "szklanka", "accepts": ["kieliszek"] },
-        { "en": "cup", "pl": "kubek", "accepts": ["filiżanka"] },
-        { "en": "please (with order)", "pl": "proszę" }
+        {
+          "en": "water",
+          "pl": "woda"
+        },
+        {
+          "en": "coffee",
+          "pl": "kawa"
+        },
+        {
+          "en": "tea",
+          "pl": "herbata"
+        },
+        {
+          "en": "beer",
+          "pl": "piwo"
+        },
+        {
+          "en": "wine",
+          "pl": "wino"
+        },
+        {
+          "en": "juice",
+          "pl": "sok"
+        },
+        {
+          "en": "milk",
+          "pl": "mleko"
+        },
+        {
+          "en": "drink (verb)",
+          "pl": "pić"
+        },
+        {
+          "en": "bottle",
+          "pl": "butelka"
+        },
+        {
+          "en": "glass",
+          "pl": "szklanka",
+          "accepts": [
+            "kieliszek"
+          ]
+        },
+        {
+          "en": "cup",
+          "pl": "kubek",
+          "accepts": [
+            "filiżanka"
+          ]
+        },
+        {
+          "en": "please (with order)",
+          "pl": "proszę"
+        }
       ]
     },
     {
       "id": "food_meals",
       "title": "Jedzenie · posiłki",
       "items": [
-        { "en": "food", "pl": "jedzenie", "accepts": ["żywność"] },
-        { "en": "breakfast", "pl": "śniadanie" },
-        { "en": "lunch", "pl": "obiad" },
-        { "en": "dinner", "pl": "kolacja" },
-        { "en": "menu", "pl": "menu", "accepts": ["jadłospis"] },
-        { "en": "bill", "pl": "rachunek" },
-        { "en": "eat", "pl": "jeść" },
+        {
+          "en": "food",
+          "pl": "jedzenie",
+          "accepts": [
+            "żywność"
+          ]
+        },
+        {
+          "en": "breakfast",
+          "pl": "śniadanie"
+        },
+        {
+          "en": "lunch",
+          "pl": "obiad"
+        },
+        {
+          "en": "dinner",
+          "pl": "kolacja"
+        },
+        {
+          "en": "menu",
+          "pl": "menu",
+          "accepts": [
+            "jadłospis"
+          ]
+        },
+        {
+          "en": "bill",
+          "pl": "rachunek"
+        },
+        {
+          "en": "eat",
+          "pl": "jeść"
+        },
         {
           "en": "hungry",
           "pl": "głodny",
-          "accepts": ["głodna", "mam głód"]
+          "accepts": [
+            "głodna",
+            "mam głód"
+          ]
         },
         {
           "en": "thirsty",
           "pl": "spragniony",
-          "accepts": ["spragniona", "chce mi się pić"]
+          "accepts": [
+            "spragniona",
+            "chce mi się pić"
+          ]
         },
-        { "en": "restaurant", "pl": "restauracja" },
-        { "en": "café", "pl": "kawiarnia" },
+        {
+          "en": "restaurant",
+          "pl": "restauracja"
+        },
+        {
+          "en": "café",
+          "pl": "kawiarnia"
+        },
         {
           "en": "order (verb)",
           "pl": "zamówić",
-          "accepts": ["zamawiać"]
+          "accepts": [
+            "zamawiać"
+          ]
         }
       ]
     },
@@ -58,18 +141,402 @@
       "id": "food_basics",
       "title": "Jedzenie · podstawy",
       "items": [
-        { "en": "bread", "pl": "chleb" },
-        { "en": "butter", "pl": "masło" },
-        { "en": "cheese", "pl": "ser" },
-        { "en": "egg", "pl": "jajko", "accepts": ["jajo"] },
-        { "en": "meat", "pl": "mięso" },
-        { "en": "chicken", "pl": "kurczak" },
-        { "en": "fish", "pl": "ryba" },
-        { "en": "soup", "pl": "zupa" },
-        { "en": "salad", "pl": "sałatka" },
-        { "en": "rice", "pl": "ryż" },
-        { "en": "salt", "pl": "sól" },
-        { "en": "sugar", "pl": "cukier" }
+        {
+          "en": "bread",
+          "pl": "chleb"
+        },
+        {
+          "en": "butter",
+          "pl": "masło"
+        },
+        {
+          "en": "cheese",
+          "pl": "ser"
+        },
+        {
+          "en": "egg",
+          "pl": "jajko",
+          "accepts": [
+            "jajo"
+          ]
+        },
+        {
+          "en": "meat",
+          "pl": "mięso"
+        },
+        {
+          "en": "chicken",
+          "pl": "kurczak"
+        },
+        {
+          "en": "fish",
+          "pl": "ryba"
+        },
+        {
+          "en": "soup",
+          "pl": "zupa"
+        },
+        {
+          "en": "salad",
+          "pl": "sałatka"
+        },
+        {
+          "en": "rice",
+          "pl": "ryż"
+        },
+        {
+          "en": "salt",
+          "pl": "sól"
+        },
+        {
+          "en": "sugar",
+          "pl": "cukier"
+        }
+      ]
+    }
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "miec_acc",
+    "miec_present",
+    "to_jest",
+    "poss_nom",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "butelka",
+    "chce mi się pić",
+    "chleb",
+    "cukier",
+    "filiżanka",
+    "głodna",
+    "głodny",
+    "herbata",
+    "jadłospis",
+    "jajko",
+    "jajo",
+    "jedzenie",
+    "jeść",
+    "kawa",
+    "kawiarnia",
+    "kieliszek",
+    "kolacja",
+    "kubek",
+    "kurczak",
+    "mam głód",
+    "masło",
+    "menu",
+    "mięso",
+    "mleko",
+    "obiad",
+    "piwo",
+    "pić",
+    "proszę",
+    "rachunek",
+    "restauracja",
+    "ryba",
+    "ryż",
+    "sałatka",
+    "ser",
+    "siostra",
+    "sok",
+    "spragniona",
+    "spragniony",
+    "szklanka",
+    "sól",
+    "wino",
+    "woda",
+    "zamawiać",
+    "zamówić",
+    "zupa",
+    "śniadanie",
+    "żywność"
+  ],
+  "uses_lemmas": [
+    "butelka",
+    "chce mi się pić",
+    "chleb",
+    "cukier",
+    "filiżanka",
+    "głodna",
+    "głodny",
+    "herbata",
+    "jadłospis",
+    "jajko",
+    "jajo",
+    "jedzenie",
+    "jeść",
+    "kawa",
+    "kawiarnia",
+    "kieliszek",
+    "kolacja",
+    "kubek",
+    "kurczak",
+    "mam głód",
+    "masło",
+    "menu",
+    "mięso",
+    "mleko",
+    "obiad",
+    "piwo",
+    "pić",
+    "proszę",
+    "rachunek",
+    "restauracja",
+    "ryba",
+    "ryż",
+    "sałatka",
+    "ser",
+    "siostra",
+    "sok",
+    "spragniona",
+    "spragniony",
+    "szklanka",
+    "sól",
+    "wino",
+    "woda",
+    "zamawiać",
+    "zamówić",
+    "zupa",
+    "śniadanie",
+    "żywność"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "leaf_food_a1",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "miec_acc",
+    "miec_present"
+  ],
+  "sentences": [
+    {
+      "en": "I have coffee.",
+      "pl": "Mam kawę.",
+      "accepts": [
+        "Mam kawę.",
+        "Mam kawe."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "I have tea.",
+      "pl": "Mam herbatę.",
+      "accepts": [
+        "Mam herbatę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "herbata"
+      ]
+    },
+    {
+      "en": "I have water.",
+      "pl": "Mam wodę.",
+      "accepts": [
+        "Mam wodę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "woda"
+      ]
+    },
+    {
+      "en": "You have beer. (sg)",
+      "pl": "Masz piwo.",
+      "accepts": [
+        "Masz piwo."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "piwo"
+      ]
+    },
+    {
+      "en": "She has juice.",
+      "pl": "Ona ma sok.",
+      "accepts": [
+        "Ona ma sok.",
+        "Ma sok."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "sok"
+      ]
+    },
+    {
+      "en": "I have bread.",
+      "pl": "Mam chleb.",
+      "accepts": [
+        "Mam chleb."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "chleb"
+      ]
+    },
+    {
+      "en": "I have cheese.",
+      "pl": "Mam ser.",
+      "accepts": [
+        "Mam ser."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "ser"
+      ]
+    },
+    {
+      "en": "This is coffee.",
+      "pl": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To kawa."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "This is my tea.",
+      "pl": "To jest moja herbata.",
+      "accepts": [
+        "To jest moja herbata.",
+        "To moja herbata."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "herbata"
+      ]
+    },
+    {
+      "en": "This is beer.",
+      "pl": "To jest piwo.",
+      "accepts": [
+        "To jest piwo.",
+        "To piwo."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "piwo"
+      ]
+    },
+    {
+      "en": "This is my sister.",
+      "pl": "To jest moja siostra.",
+      "accepts": [
+        "To jest moja siostra.",
+        "To moja siostra."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "I am Anna.",
+      "pl": "Jestem Anna.",
+      "accepts": [
+        "Jestem Anna."
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": []
+    },
+    {
+      "en": "I have a sister.",
+      "pl": "Mam siostrę.",
+      "accepts": [
+        "Mam siostrę.",
+        "Mam siostre."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "This is my coffee.",
+      "pl": "To jest moja kawa.",
+      "accepts": [
+        "To jest moja kawa.",
+        "To moja kawa."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "I have soup.",
+      "pl": "Mam zupę.",
+      "accepts": [
+        "Mam zupę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "zupa"
+      ]
+    },
+    {
+      "en": "This is bread.",
+      "pl": "To jest chleb.",
+      "accepts": [
+        "To jest chleb.",
+        "To chleb."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "chleb"
       ]
     }
   ]

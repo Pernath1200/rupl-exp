@@ -1,116 +1,249 @@
 {
   "id": "a1_trunk_be_have",
-  "title": "Być · mieć · ramy",
+  "title": "Być · ramy (seed)",
   "level": "A1",
   "tree_node": "trunk_be_have_a1",
   "practice": "frames",
-  "note": "Seed bez narzędnika tożsamości (Jestem studentem → RUPL2). Tu: być + adj/miejsce/skąd, to jest + mianownik, mieć + częste dopełnienie. Naturalny PL only. Cross-link: RUPL2 · być + zawód (narzędnik).",
+  "note": "USE after a1_hello (być grid). Only: być forms + to jest + mój/twój + nouns from gender/Dom. NO place preps (w/z + case), NO predicative adj, NO nazywam się, NO mieć+Acc (that waits for a1_miec). Instrumental identity still planned later.",
   "default_direction": "en_to_pl",
   "grammar_link": {
     "app": "rupl2",
-    "topic": "być + zawód / tożsamość · narzędnik",
-    "status": "planned"
+    "node_id": "a1_hello",
+    "label": "Być · fundament",
+    "status": "live"
   },
   "blocks": [
     {
-      "id": "be_have_seed",
-      "title": "Być i mieć · ramy",
+      "id": "be_seed",
+      "title": "Być · to jest · mój",
       "items": [
         {
-          "en": "I am tired.",
-          "pl": "Jestem zmęczony.",
+          "en": "I am Anna.",
+          "pl": "Jestem Anna.",
           "gap": "Jestem ____.",
-          "gap_answer": "zmęczony",
+          "gap_answer": "Anna",
           "accepts": [
-            "Jestem zmęczony.",
-            "Jestem zmęczona.",
-            "Ja jestem zmęczony.",
-            "Ja jestem zmęczona."
+            "Jestem Anna.",
+            "Ja jestem Anna.",
+            "Jestem Anna"
           ]
         },
         {
-          "en": "I am happy.",
-          "pl": "Jestem szczęśliwy.",
-          "gap": "Jestem ____.",
-          "gap_answer": "szczęśliwy",
+          "en": "This is coffee.",
+          "pl": "To jest kawa.",
+          "gap": "To jest ____.",
+          "gap_answer": "kawa",
           "accepts": [
-            "Jestem szczęśliwy.",
-            "Jestem szczęśliwa.",
-            "Ja jestem szczęśliwy.",
-            "Ja jestem szczęśliwa."
+            "To jest kawa.",
+            "To kawa.",
+            "To jest kawa"
           ]
-        },
-        {
-          "en": "I am at home.",
-          "pl": "Jestem w domu.",
-          "gap": "Jestem w ____.",
-          "gap_answer": "domu",
-          "accepts": ["Jestem w domu.", "Ja jestem w domu."]
-        },
-        {
-          "en": "She is at school.",
-          "pl": "Ona jest w szkole.",
-          "gap": "Ona jest w ____.",
-          "gap_answer": "szkole",
-          "accepts": ["Ona jest w szkole.", "Jest w szkole."]
-        },
-        {
-          "en": "I am from Warsaw.",
-          "pl": "Jestem z Warszawy.",
-          "gap": "Jestem z ____.",
-          "gap_answer": "Warszawy",
-          "accepts": ["Jestem z Warszawy.", "Ja jestem z Warszawy."]
         },
         {
           "en": "This is my brother.",
           "pl": "To jest mój brat.",
           "gap": "To jest mój ____.",
           "gap_answer": "brat",
-          "accepts": ["To jest mój brat.", "To mój brat."]
+          "accepts": [
+            "To jest mój brat.",
+            "To mój brat.",
+            "To jest mój brat"
+          ]
         },
         {
-          "en": "This is my bag.",
-          "pl": "To jest moja torba.",
+          "en": "This is my sister.",
+          "pl": "To jest moja siostra.",
           "gap": "To jest moja ____.",
-          "gap_answer": "torba",
-          "accepts": ["To jest moja torba.", "To moja torba."]
+          "gap_answer": "siostra",
+          "accepts": [
+            "To jest moja siostra.",
+            "To moja siostra.",
+            "To jest moja siostra"
+          ]
         },
         {
-          "en": "My name is Anna.",
-          "pl": "Nazywam się Anna.",
-          "gap": "Nazywam się ____.",
-          "gap_answer": "Anna",
-          "accepts": ["Nazywam się Anna.", "Mam na imię Anna."]
+          "en": "This is my mum.",
+          "pl": "To jest moja mama.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "mama",
+          "accepts": [
+            "To jest moja mama.",
+            "To moja mama.",
+            "To jest moja matka.",
+            "To moja matka."
+          ]
         },
         {
-          "en": "I have a car.",
-          "pl": "Mam samochód.",
-          "gap": "Mam ____.",
-          "gap_answer": "samochód",
-          "accepts": ["Mam samochód.", "Ja mam samochód.", "Mam auto."]
-        },
-        {
-          "en": "I have a house.",
-          "pl": "Mam dom.",
-          "gap": "Mam ____.",
+          "en": "This is my house.",
+          "pl": "To jest mój dom.",
+          "gap": "To jest mój ____.",
           "gap_answer": "dom",
-          "accepts": ["Mam dom.", "Ja mam dom."]
+          "accepts": [
+            "To jest mój dom.",
+            "To mój dom.",
+            "To jest mój dom"
+          ]
         },
         {
-          "en": "I have a phone.",
-          "pl": "Mam telefon.",
-          "gap": "Mam ____.",
-          "gap_answer": "telefon",
-          "accepts": ["Mam telefon.", "Mam komórkę."]
+          "en": "This is my coffee.",
+          "pl": "To jest moja kawa.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "kawa",
+          "accepts": [
+            "To jest moja kawa.",
+            "To moja kawa.",
+            "To jest moja kawa"
+          ]
         },
         {
-          "en": "There is a table.",
-          "pl": "Jest stół.",
-          "gap": "Jest ____.",
+          "en": "This is my book.",
+          "pl": "To jest moja książka.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "książka",
+          "accepts": [
+            "To jest moja książka.",
+            "To moja książka.",
+            "To jest moja książka"
+          ]
+        },
+        {
+          "en": "This is my child.",
+          "pl": "To jest moje dziecko.",
+          "gap": "To jest moje ____.",
+          "gap_answer": "dziecko",
+          "accepts": [
+            "To jest moje dziecko.",
+            "To moje dziecko.",
+            "To jest moje dziecko"
+          ]
+        },
+        {
+          "en": "This is a table.",
+          "pl": "To jest stół.",
+          "gap": "To jest ____.",
           "gap_answer": "stół",
-          "accepts": ["Jest stół.", "Jest tu stół.", "Tam jest stół."]
+          "accepts": [
+            "To jest stół.",
+            "To stół.",
+            "To jest stół"
+          ]
+        },
+        {
+          "en": "This is my kitchen.",
+          "pl": "To jest moja kuchnia.",
+          "gap": "To jest moja ____.",
+          "gap_answer": "kuchnia",
+          "accepts": [
+            "To jest moja kuchnia.",
+            "To moja kuchnia.",
+            "To jest moja kuchnia"
+          ]
+        },
+        {
+          "en": "This is your house.",
+          "pl": "To jest twój dom.",
+          "gap": "To jest twój ____.",
+          "gap_answer": "dom",
+          "accepts": [
+            "To jest twój dom.",
+            "To twój dom.",
+            "To jest twój dom"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "to_jest",
+    "poss_nom"
+  ],
+  "teaches_lemmas": [
+    "anna",
+    "brat",
+    "dom",
+    "dziecko",
+    "ja jestem anna",
+    "jestem anna",
+    "kawa",
+    "książka",
+    "kuchnia",
+    "mama",
+    "siostra",
+    "stół",
+    "to jest kawa",
+    "to jest moja kawa",
+    "to jest moja książka",
+    "to jest moja kuchnia",
+    "to jest moja mama",
+    "to jest moja matka",
+    "to jest moja siostra",
+    "to jest moje dziecko",
+    "to jest mój brat",
+    "to jest mój dom",
+    "to jest stół",
+    "to jest twój dom",
+    "to kawa",
+    "to moja kawa",
+    "to moja książka",
+    "to moja kuchnia",
+    "to moja mama",
+    "to moja matka",
+    "to moja siostra",
+    "to moje dziecko",
+    "to mój brat",
+    "to mój dom",
+    "to stół",
+    "to twój dom"
+  ],
+  "uses_lemmas": [
+    "anna",
+    "brat",
+    "dom",
+    "dziecko",
+    "ja jestem anna",
+    "jestem anna",
+    "kawa",
+    "książka",
+    "kuchnia",
+    "mama",
+    "siostra",
+    "stół",
+    "to jest kawa",
+    "to jest moja kawa",
+    "to jest moja książka",
+    "to jest moja kuchnia",
+    "to jest moja mama",
+    "to jest moja matka",
+    "to jest moja siostra",
+    "to jest moje dziecko",
+    "to jest mój brat",
+    "to jest mój dom",
+    "to jest stół",
+    "to jest twój dom",
+    "to kawa",
+    "to moja kawa",
+    "to moja książka",
+    "to moja kuchnia",
+    "to moja mama",
+    "to moja matka",
+    "to moja siostra",
+    "to moje dziecko",
+    "to mój brat",
+    "to mój dom",
+    "to stół",
+    "to twój dom",
+    "jestem",
+    "mój",
+    "moja",
+    "moje",
+    "twój"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "trunk_be_have_a1",
+    "pool_model": "cumulative_focus_recycle"
+  }
 }

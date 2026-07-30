@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Polski · RUPL-exp</title>
-  <link rel="stylesheet" href="./css/app.css" />
+  <link rel="stylesheet" href="./css/app.css?v=2026-07-30-match-dense" />
 </head>
 <body>
   <div class="container">
@@ -32,6 +32,10 @@
       <div class="rail-label">Poziom</div>
       <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
 
+      <div class="card" id="progress-meters-card">
+        <div id="level-meters" class="level-meters" aria-live="polite"></div>
+      </div>
+
       <div class="card" id="up-next-card">
         <h2>Zrób to dalej · ścieżka</h2>
         <div id="up-next"></div>
@@ -40,7 +44,7 @@
       <div class="card" id="tree-portrait-card">
         <h2>Portret drzewa</h2>
         <p class="tree-legend">
-          Status only · nawigacja = ścieżka poniżej · miedź = gramatyka · bursztyn = słówka · zieleń = owoc
+          Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
         </p>
         <div id="tree-portrait" class="tree-portrait-host"></div>
       </div>
@@ -88,6 +92,6 @@
       Port <code>8096</code> · progress <code>rupl-exp-v0.1-progress</code> · sync: <code>py scripts/sync_from_stable.py</code>
     </p>
   </div>
-  <script type="module" src="./js/app.js?v=2026-07-28-portrait"></script>
+  <script type="module" src="./js/app.js?v=2026-07-30-match-dense"></script>
 </body>
 </html>

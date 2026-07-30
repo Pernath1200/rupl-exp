@@ -3,7 +3,7 @@
   "title": "Czas wolny",
   "level": "A1",
   "tree_node": "leaf_freetime_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_freetime.json · Zdanie = owoc",
+  "note": "Czas wolny. After present. Zdanie: present + pool (miec_acc, to_jest, poss, być) + food/Dom recycle.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -331,6 +331,411 @@
           "en": "similar",
           "pl": "podobny"
         }
+      ]
+    }
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "present_am",
+    "present_e_isz",
+    "present_e_esz",
+    "present",
+    "miec_acc",
+    "miec_present",
+    "to_jest",
+    "poss_nom",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "bieganie",
+    "chory",
+    "cichy",
+    "ciekawy",
+    "czytać",
+    "drużyna",
+    "fantastyczny",
+    "film",
+    "gitara",
+    "gorąco",
+    "gotować",
+    "gra",
+    "grać",
+    "herbata",
+    "hobby",
+    "idealny",
+    "impreza",
+    "kawa",
+    "kino",
+    "kompletny",
+    "koncert",
+    "książka",
+    "malować",
+    "mecz",
+    "muzyka",
+    "mówić",
+    "niebezpieczny",
+    "niesamowity",
+    "nowoczesny",
+    "nudny",
+    "odpoczywać",
+    "odwiedzać",
+    "pewny",
+    "piosenka",
+    "pisać",
+    "piwo",
+    "piłka nożna",
+    "podekscytowany",
+    "podobny",
+    "podróżować",
+    "poprawny",
+    "popularny",
+    "powszechny",
+    "przepraszam",
+    "przestraszony",
+    "pływanie",
+    "rysować",
+    "siostra",
+    "siłownia",
+    "sklep",
+    "smutny",
+    "sport",
+    "szczęśliwy",
+    "szybki",
+    "słuchać",
+    "taniec",
+    "tańczyć",
+    "tenis",
+    "ulubiony",
+    "w porządku",
+    "wakacje",
+    "woda",
+    "wolny",
+    "wspaniały",
+    "zabawa",
+    "zabawny",
+    "zainteresowany",
+    "zajęty",
+    "zdrowy",
+    "zegarek",
+    "zespół",
+    "zmartwiony",
+    "znudzony",
+    "zły",
+    "ćwiczyć",
+    "ładny",
+    "śpiewać",
+    "świetny"
+  ],
+  "uses_lemmas": [
+    "bieganie",
+    "chory",
+    "cichy",
+    "ciekawy",
+    "czytać",
+    "drużyna",
+    "fantastyczny",
+    "film",
+    "gitara",
+    "gorąco",
+    "gotować",
+    "gra",
+    "grać",
+    "herbata",
+    "hobby",
+    "idealny",
+    "impreza",
+    "kawa",
+    "kino",
+    "kompletny",
+    "koncert",
+    "książka",
+    "malować",
+    "mecz",
+    "muzyka",
+    "mówić",
+    "niebezpieczny",
+    "niesamowity",
+    "nowoczesny",
+    "nudny",
+    "odpoczywać",
+    "odwiedzać",
+    "pewny",
+    "piosenka",
+    "pisać",
+    "piwo",
+    "piłka nożna",
+    "podekscytowany",
+    "podobny",
+    "podróżować",
+    "poprawny",
+    "popularny",
+    "powszechny",
+    "przepraszam",
+    "przestraszony",
+    "pływanie",
+    "rysować",
+    "siostra",
+    "siłownia",
+    "sklep",
+    "smutny",
+    "sport",
+    "szczęśliwy",
+    "szybki",
+    "słuchać",
+    "taniec",
+    "tańczyć",
+    "tenis",
+    "ulubiony",
+    "w porządku",
+    "wakacje",
+    "woda",
+    "wolny",
+    "wspaniały",
+    "zabawa",
+    "zabawny",
+    "zainteresowany",
+    "zajęty",
+    "zdrowy",
+    "zegarek",
+    "zespół",
+    "zmartwiony",
+    "znudzony",
+    "zły",
+    "ćwiczyć",
+    "ładny",
+    "śpiewać",
+    "świetny"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "leaf_freetime_a1",
+    "pool_model": "cumulative_focus_recycle"
+  },
+  "focus_structures": [
+    "present_e_isz",
+    "present_e_esz"
+  ],
+  "sentences": [
+    {
+      "en": "I like coffee.",
+      "pl": "Lubię kawę.",
+      "accepts": [
+        "Lubię kawę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "I like tea.",
+      "pl": "Lubię herbatę.",
+      "accepts": [
+        "Lubię herbatę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "herbata"
+      ]
+    },
+    {
+      "en": "I want coffee.",
+      "pl": "Chcę kawę.",
+      "accepts": [
+        "Chcę kawę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kawa"
+      ]
+    },
+    {
+      "en": "I want water.",
+      "pl": "Chcę wodę.",
+      "accepts": [
+        "Chcę wodę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "woda"
+      ]
+    },
+    {
+      "en": "I like music.",
+      "pl": "Lubię muzykę.",
+      "accepts": [
+        "Lubię muzykę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "muzyka"
+      ]
+    },
+    {
+      "en": "I want a book.",
+      "pl": "Chcę książkę.",
+      "accepts": [
+        "Chcę książkę."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "książka"
+      ]
+    },
+    {
+      "en": "This is a film.",
+      "pl": "To jest film.",
+      "accepts": [
+        "To jest film.",
+        "To film."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "film"
+      ]
+    },
+    {
+      "en": "This is my film.",
+      "pl": "To jest mój film.",
+      "accepts": [
+        "To jest mój film.",
+        "To mój film."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "film"
+      ]
+    },
+    {
+      "en": "This is music.",
+      "pl": "To jest muzyka.",
+      "accepts": [
+        "To jest muzyka."
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "muzyka"
+      ]
+    },
+    {
+      "en": "I have a book.",
+      "pl": "Mam książkę.",
+      "accepts": [
+        "Mam książkę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "książka"
+      ]
+    },
+    {
+      "en": "I am Anna.",
+      "pl": "Jestem Anna.",
+      "accepts": [
+        "Jestem Anna."
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": []
+    },
+    {
+      "en": "This is my sister.",
+      "pl": "To jest moja siostra.",
+      "accepts": [
+        "To jest moja siostra."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "siostra"
+      ]
+    },
+    {
+      "en": "I speak.",
+      "pl": "Mówię.",
+      "accepts": [
+        "Mówię.",
+        "Mówię"
+      ],
+      "structures": [
+        "present"
+      ],
+      "lemmas": [
+        "mówić"
+      ]
+    },
+    {
+      "en": "You speak. (sg)",
+      "pl": "Mówisz.",
+      "accepts": [
+        "Mówisz.",
+        "Mówisz"
+      ],
+      "structures": [
+        "present"
+      ],
+      "lemmas": [
+        "mówić"
+      ]
+    },
+    {
+      "en": "I like beer.",
+      "pl": "Lubię piwo.",
+      "accepts": [
+        "Lubię piwo."
+      ],
+      "structures": [
+        "present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "piwo"
+      ]
+    },
+    {
+      "en": "I have coffee.",
+      "pl": "Mam kawę.",
+      "accepts": [
+        "Mam kawę."
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "kawa"
       ]
     }
   ]

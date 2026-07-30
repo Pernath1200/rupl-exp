@@ -2,10 +2,27 @@
  * Practice ladder (RUPL3 — Polish vocab for EN speakers):
  * Match → Quiz → Type word → Type sentence (Use it)
  * Default for word modes: EN → PL
- * Sentence mode: produce Polish (EN gloss under words / EN prompt for frames)
+ * Default pass size: DEFAULT_PASS (12); shorter banks use all items.
+ * Each stage stops with score (e.g. 11/12) + retry wrongs before next.
+ * Sentence mode:
+ *   - trunk frames (practice: "frames") → model EN→PL from items
+ *   - leaf packs with pack.sentences[] → same grading UI (authored translations)
+ *   - no bank → "Wkrótce" placeholder (no free-write)
+ *
+ * Structure tags (authored on sentences; unlock by spine, not free gen):
+ *   to_jest · byc_adj · zgoda · miec_acc · present
+ * Dom i rodzina v1: to_jest only (no Acc until mieć is covered).
  */
 
 import { getSmokeApi, countFlags, updateFlagsBadge } from "./smoke-flags.js";
+
+/**
+ * Default questions per stage (Dopasuj board · Quiz · Słowo · Zdanie).
+ * Author ≥12 when possible; shorter banks use all items.
+ */
+export const DEFAULT_PASS = 12;
+/** Weight multiplier for items matching pack focus_structures (recycle still appears). */
+export const FOCUS_WEIGHT = 3;
 
 function shuffle(a) {
   const arr = a.slice();
@@ -14,6 +31,47 @@ function shuffle(a) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+/**
+ * Indices for a pass: up to DEFAULT_PASS, or onlyIndices for retry.
+ * Optional weighted sample: focus_structures on items get FOCUS_WEIGHT slots in the bag
+ * so new patterns appear more often while recycle still draws from the rest of the pool.
+ * @param {number} listLen
+ * @param {number[] | null} onlyIndices
+ * @param {{ items?: object[], focusStructures?: string[] }} [opts]
+ */
+function passOrder(listLen, onlyIndices, opts) {
+  if (onlyIndices && onlyIndices.length) {
+    return shuffle(onlyIndices.slice());
+  }
+  if (listLen <= 0) return [];
+  if (listLen <= DEFAULT_PASS) {
+    const idxs = [];
+    for (let i = 0; i < listLen; i++) idxs.push(i);
+    return shuffle(idxs);
+  }
+  const items = opts && opts.items;
+  const focus = new Set((opts && opts.focusStructures) || []);
+  const bag = [];
+  for (let i = 0; i < listLen; i++) {
+    let w = 1;
+    if (focus.size && items && items[i]) {
+      const st = items[i].structures || [];
+      if (st.some((s) => focus.has(s))) w = FOCUS_WEIGHT;
+    }
+    for (let k = 0; k < w; k++) bag.push(i);
+  }
+  shuffle(bag);
+  const order = [];
+  const used = new Set();
+  for (const i of bag) {
+    if (used.has(i)) continue;
+    used.add(i);
+    order.push(i);
+    if (order.length >= DEFAULT_PASS) break;
+  }
+  return order;
 }
 
 /** Expand common contractions so I'm / I am grade the same. */
@@ -271,13 +329,22 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
-const SENTENCE_FRAMES = [
-  "Napisz jedno prawdziwe polskie zdanie o sobie z tymi słowami.",
-  "Napisz jedno polskie zdanie o domu lub rodzinie z tymi słowami.",
-  "Napisz krótkie polskie pytanie z jednym (lub oboma) z tych słów.",
-  "Napisz krótkie polskie zdanie do sklepu lub kawiarni z tymi słowami.",
-  "Napisz jedno polskie zdanie o życiu w mieście z tymi słowami.",
-];
+/** Human labels for structure tags shown as a soft pattern hint. */
+const STRUCTURE_LABELS = {
+  to_jest: "To jest…",
+  poss_nom: "mój / twój (mianownik)",
+  byc_adj: "Jestem / jest + przymiotnik",
+  zgoda: "przymiotnik + rzeczownik",
+  miec_acc: "Mam / ma + biernik",
+  present: "czas teraźniejszy",
+};
+
+function structureHint(item) {
+  const tags = item && Array.isArray(item.structures) ? item.structures : [];
+  if (!tags.length) return "";
+  const parts = tags.map((t) => STRUCTURE_LABELS[t] || t);
+  return `<div class="sub structure-hint">Wzorzec: ${escapeHtml(parts.join(" · "))}</div>`;
+}
 
 function isFrameItem(item) {
   return Boolean(item && item.gap && item.gap_answer);
@@ -292,6 +359,28 @@ export function startPractice(root, block, opts) {
   const isFrames = opts.practice === "frames" || block.practice === "frames";
   const packId = opts.packId || block.id || "";
   const packTitle = opts.packTitle || block.title || "";
+  /** Authored EN→PL sentence bank (leaf packs). Trunk frames use block.items. */
+  const sentenceBank =
+    Array.isArray(block.sentences) && block.sentences.length
+      ? block.sentences
+      : null;
+  const focusStructures =
+    Array.isArray(block.focus_structures) && block.focus_structures.length
+      ? block.focus_structures
+      : Array.isArray(block.teaches_structures)
+        ? block.teaches_structures
+        : [];
+
+  function getSentenceItems() {
+    if (isFrames) return block.items;
+    if (sentenceBank) return sentenceBank;
+    return null;
+  }
+
+  function orderOpts(items) {
+    return { items, focusStructures };
+  }
+
   const state = {
     mode: "match",
     plToEn: false, // EN → PL production (default for Polish learners)
@@ -426,9 +515,7 @@ export function startPractice(root, block, opts) {
     state.match = null;
     state.quiz = null;
     state.typ = null;
-    // Keep saved sentences when re-entering sentence mode from the mode bar
-    if (m !== "sentence") state.use = null;
-    else if (!state.use) newUse();
+    state.use = null;
     render();
   }
 
@@ -441,10 +528,16 @@ export function startPractice(root, block, opts) {
     ];
     const showDir = state.mode !== "sentence";
     const nFlags = countFlags();
+    const bankN = sentenceBank ? sentenceBank.length : 0;
+    const metaBits = isFrames
+      ? `${block.items.length} ram · A1 · rdzeń pnia`
+      : bankN
+        ? `${block.items.length} słów · ${bankN} zdań · A1`
+        : `${block.items.length} słów · A1`;
     return `
       <div class="practice-head">
         <div class="practice-title">${escapeHtml(block.title)}</div>
-        <div class="practice-meta">${block.items.length} ${isFrames ? "ram" : "słów"} · A1${isFrames ? " · rdzeń pnia" : ""}</div>
+        <div class="practice-meta">${metaBits}</div>
       </div>
       <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
         <button type="button" class="btn smoke-flag-btn" id="p-flag" title="Flag this item for smoke review">⚑ Flag item</button>
@@ -525,7 +618,10 @@ export function startPractice(root, block, opts) {
   }
 
   function newMatch() {
-    const pool = shuffle(block.items).slice(0, Math.min(6, block.items.length));
+    const pool = shuffle(block.items).slice(
+      0,
+      Math.min(DEFAULT_PASS, block.items.length),
+    );
     const left = pool.map((it, i) => ({ t: promptOf(it, state.plToEn), id: i }));
     const right = shuffle(
       pool.map((it, i) => ({ t: answerOf(it, state.plToEn), id: i })),
@@ -557,8 +653,9 @@ export function startPractice(root, block, opts) {
       reportMode("match");
       stage.innerHTML = `
         <div class="q">
-          <div class="prompt">Wszystko dopasowane</div>
-          <div class="sub">Dalej: Quiz → Słowo → Zdanie · Enter kontynuuje</div>
+          <div class="prompt">Dopasuj · Gotowe</div>
+          <div class="scoreline">${doneCount} / ${m.total}</div>
+          <div class="sub">Dalej: Quiz · Enter kontynuuje</div>
           <div class="nav">
             <button type="button" class="btn" id="m-again">Nowa talia</button>
             <button type="button" class="btn primary" id="m-quiz">2 · Quiz →</button>
@@ -634,10 +731,7 @@ export function startPractice(root, block, opts) {
   /** @param {number[] | null} onlyIndices item indices to practice (retry wrong) */
   function newQuiz(onlyIndices) {
     const list = block.items;
-    const order =
-      onlyIndices && onlyIndices.length
-        ? shuffle(onlyIndices.slice())
-        : shuffle(list.map((_, i) => i));
+    const order = passOrder(list.length, onlyIndices, orderOpts(list));
     state.quiz = {
       order,
       pos: 0,
@@ -667,7 +761,7 @@ export function startPractice(root, block, opts) {
             wrongN > 0
               ? `${wrongN} do powtórki · lub idź do Słowa`
               : "Wszystko dobrze · dalej: Słowo"
-          }${q.retryPass ? " (runda poprawkowa)" : ""} · Enter pokračuje</div>
+          }${q.retryPass ? " (runda poprawkowa)" : ""} · Enter = dalej</div>
           <div class="nav">
             ${
               wrongN > 0
@@ -811,10 +905,7 @@ export function startPractice(root, block, opts) {
   /** @param {number[] | null} onlyIndices item indices to practice (retry wrong) */
   function newType(onlyIndices) {
     const list = block.items;
-    const order =
-      onlyIndices && onlyIndices.length
-        ? shuffle(onlyIndices.slice())
-        : shuffle(list.map((_, i) => i));
+    const order = passOrder(list.length, onlyIndices, orderOpts(list));
     state.typ = {
       order,
       pos: 0,
@@ -927,7 +1018,7 @@ export function startPractice(root, block, opts) {
     function afterGrade() {
       inp.disabled = true;
       skip.style.visibility = "hidden";
-      chk.textContent = t.pos === passLen - 1 ? "Ukázat wynik" : "Dalej";
+      chk.textContent = t.pos === passLen - 1 ? "Wynik →" : "Dalej";
       chk.onclick = goNext;
       chk.focus();
     }
@@ -1012,130 +1103,12 @@ export function startPractice(root, block, opts) {
     return `${passLabel} ${t.pos + 1} / ${passLen} · wynik ${t.score}`;
   }
 
-  // ---- 4 · Type sentence (Use it) ----
-  function deal() {
-    const words = shuffle(block.items);
-    const n = words.length >= 2 && Math.random() > 0.35 ? 2 : 1;
-    return {
-      words: words.slice(0, n),
-      frame: SENTENCE_FRAMES[Math.floor(Math.random() * SENTENCE_FRAMES.length)],
-    };
-  }
+  // ---- 4 · Type sentence (EN → PL model bank / trunk frames) ----
 
-  function sentenceTarget() {
-    return block.items.length;
-  }
-
-  function newUse() {
-    state.use = {
-      n: 1,
-      sentences: [],
-      cur: deal(),
-      answered: false,
-      review: false,
-      complete: false,
-    };
-  }
-
-  function copySentences(sentences, msgEl) {
-    const text = sentences.map((s) => "• " + s).join("\n");
-    const ok = () => {
-      if (msgEl) msgEl.textContent = "Skopiowano — wklej do notatek / nauczycielowi.";
-    };
-    const fail = () => {
-      if (msgEl) msgEl.textContent = "Kopiowanie zablokowane — zaznacz listę i skopiuj ręcznie.";
-    };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(ok).catch(fail);
-    } else fail();
-  }
-
-  function renderSentenceComplete(stage) {
-    const u = state.use;
-    const target = sentenceTarget();
-    reportMode("sentence", { score: u.sentences.length, total: target });
-    stage.innerHTML = `
-      <div class="q sent-review">
-        <div class="prompt">Część gotowa</div>
-        <div class="scoreline">${u.sentences.length} / ${target}</div>
-        <div class="sub">Napisałeś ${target} zdań. Owoc = cała drabina + Quiz/Słowo ≥ 75 % (nie tylko Zdanie).</div>
-        <div class="sent-list-mini">
-          ${u.sentences.map((s) => `<div class="sent">${escapeHtml(s)}</div>`).join("")}
-        </div>
-        <div class="nav">
-          <button type="button" class="btn" id="u-again">Spróbuj ponownie</button>
-          <button type="button" class="btn primary" id="u-copy-done">Skopiuj wszystko</button>
-        </div>
-        <div class="sub" id="cmsg" style="margin-top:0.5rem"></div>
-        <button type="button" class="link" id="u-more">Pisz dalej (opcjonalnie)</button>
-      </div>`;
-
-    stage.querySelector("#u-again").onclick = () => {
-      newUse();
-      render();
-    };
-    stage.querySelector("#u-copy-done").onclick = () => {
-      copySentences(u.sentences, stage.querySelector("#cmsg"));
-    };
-    stage.querySelector("#u-more").onclick = () => {
-      // Optional extra practice beyond target
-      u.complete = false;
-      u.answered = false;
-      u.cur = deal();
-      u.n = u.sentences.length + 1;
-      render();
-    };
-    bindEnterPrimary(stage);
-    return `Gotowe · ${u.sentences.length} / ${target}`;
-  }
-
-  function renderSentenceReview(stage) {
-    const u = state.use;
-    const target = sentenceTarget();
-    stage.innerHTML = `
-      <div class="q sent-review">
-        <div class="prompt" style="font-size:1.15rem">Moje zdania</div>
-        <div class="sub">${u.sentences.length} / ${target} do zaliczenia · Enter = wstecz</div>
-        ${
-          u.sentences.length
-            ? u.sentences
-                .map((s) => `<div class="sent">${escapeHtml(s)}</div>`)
-                .join("")
-            : `<div class="sub">Na razie nic nie zapisano.</div>`
-        }
-        <div class="nav">
-          <button type="button" class="btn primary" id="u-back">◀ Wstecz</button>
-          ${
-            u.sentences.length
-              ? `<button type="button" class="btn" id="u-copy">Skopiuj wszystko</button>`
-              : ""
-          }
-        </div>
-        <div class="sub" id="cmsg" style="margin-top:0.5rem"></div>
-      </div>`;
-
-    stage.querySelector("#u-back").onclick = () => {
-      u.review = false;
-      if (!u.answered) u.cur = deal();
-      u.answered = false;
-      render();
-    };
-    const cp = stage.querySelector("#u-copy");
-    if (cp) {
-      cp.onclick = () =>
-        copySentences(u.sentences, stage.querySelector("#cmsg"));
-    }
-    bindEnterPrimary(stage);
-    return `${u.sentences.length} / ${target} zdań`;
-  }
-
-  /** Trunk frames: reproduce full Polish from English (supports retry wrong) */
+  /** Trunk frames or leaf sentences[] — full Polish from English (supports retry wrong). */
   function newFrameSentence(onlyIndices) {
-    const list = block.items;
-    const order =
-      onlyIndices && onlyIndices.length
-        ? shuffle(onlyIndices.slice())
-        : shuffle(list.map((_, i) => i));
+    const list = getSentenceItems() || [];
+    const order = passOrder(list.length, onlyIndices, orderOpts(list));
     state.typ = {
       order,
       pos: 0,
@@ -1148,10 +1121,14 @@ export function startPractice(root, block, opts) {
   }
 
   function renderFrameSentence(stage) {
-    const list = block.items;
+    const list = getSentenceItems() || [];
+    if (!list.length) return renderSentenceSoon(stage);
     if (!state.typ) newFrameSentence();
     const t = state.typ;
     const passLen = t.order.length;
+    const doneSub = isFrames
+      ? "Pełne polskie zdania z angielskiego — podstawowe ramy działają."
+      : "Krótkie tłumaczenia EN → PL · wzorce z poprzednich jednostek.";
 
     if (t.pos >= t.order.length) {
       const wrongN = t.wrong.length;
@@ -1162,8 +1139,8 @@ export function startPractice(root, block, opts) {
           <div class="scoreline">${t.score} / ${passLen}</div>
           <div class="sub">${
             wrongN > 0
-              ? `${wrongN} do powtórki · podstawowe ramy`
-              : "Pełne polskie zdania z angielskiego — podstawowe ramy działają."
+              ? `${wrongN} do powtórki`
+              : doneSub
           }${t.retryPass ? " (runda poprawkowa)" : ""}</div>
           <div class="nav">
             ${
@@ -1171,7 +1148,7 @@ export function startPractice(root, block, opts) {
                 ? `<button type="button" class="btn primary" id="fs-retry">Powtórz błędy (${wrongN})</button>
                    <button type="button" class="btn" id="fs-match">1 · Dopasuj</button>`
                 : `<button type="button" class="btn" id="fs-again">Cała talia od nowa</button>
-                   <button type="button" class="btn primary" id="fs-match">1 · Dopasuj znovu</button>`
+                   <button type="button" class="btn primary" id="fs-match">1 · Dopasuj</button>`
             }
           </div>
           ${
@@ -1208,8 +1185,9 @@ export function startPractice(root, block, opts) {
       <div class="q">
         <div class="sub">Zdanie <strong>${t.pos + 1}</strong> z <strong>${passLen}</strong>${t.retryPass ? " (poprawka)" : ""} · napisz po polsku</div>
         ${diagramBlock(it)}
+        ${structureHint(it)}
         <div class="prompt" style="font-size:1.2rem">${escapeHtml(it.en)}</div>
-        <div class="sub">Powtórz polski wzór · Enter = sprawdź / dalej</div>
+        <div class="sub">Przetłumacz na polski · Enter = sprawdź / dalej</div>
         <textarea class="type-in type-area" id="ti" rows="2" autocomplete="off" spellcheck="false" placeholder="napisz polskie zdanie…"></textarea>
         <div class="fb" id="tfb"></div>
         <div class="nav"><button type="button" class="btn primary" id="chk">Sprawdź</button></div>
@@ -1297,131 +1275,38 @@ export function startPractice(root, block, opts) {
     return `Zdanie ${t.pos + 1} z ${passLen} · wynik ${t.score}`;
   }
 
-  function renderSentence(stage) {
-    // Trunk seed frames: reproduce model Polish sentences (not free leaf production)
-    if (isFrames) return renderFrameSentence(stage);
-
-    if (!state.use) newUse();
-    const u = state.use;
-    const target = sentenceTarget();
-
-    if (u.complete) return renderSentenceComplete(stage);
-    if (u.review) return renderSentenceReview(stage);
-
-    // Progress index: next sentence to write is sentences.length + 1 (unless mid-feedback)
-    const progressNum = Math.min(u.sentences.length + (u.answered ? 0 : 1), target);
-    const c = u.cur;
+  /** Leaf pack has no sentences[] yet — no free-write. */
+  function renderSentenceSoon(stage) {
     setFlagContext({
       stage: "sentence",
       itemIndex: null,
-      en: c.words.map((w) => w.en).join(" · "),
-      pl: c.words.map((w) => w.pl).join(" · "),
-      gap: c.frame,
+      en: "",
+      pl: "",
+      gap: "",
       gap_answer: "",
       typed: "",
     });
     stage.innerHTML = `
       <div class="q">
-        <div class="words">
-          ${c.words
-            .map(
-              (w) =>
-                `<span class="pill">${escapeHtml(w.en)}<small>${escapeHtml(w.pl)}</small></span>`,
-            )
-            .join("")}
+        <div class="prompt">Zdanie · wkrótce</div>
+        <div class="sub" style="margin-top:0.75rem;line-height:1.45">
+          Tu będą krótkie tłumaczenia EN → PL (gotowe wzorce z wcześniejszych jednostek).
+          Ten pakiet nie ma jeszcze banku zdań — wróć do Dopasuj / Quiz / Słowo.
         </div>
-        <div class="frame-prompt">${escapeHtml(c.frame)}</div>
-        <div class="sub" style="margin-bottom:0.5rem">
-          Zdanie <strong>${progressNum}</strong> z <strong>${target}</strong>
-          · Enter = zapisz / dalej · Shift+Enter = nowa linia
+        <div class="nav" style="margin-top:1rem">
+          <button type="button" class="btn primary" id="soon-type">3 · Słowo</button>
+          <button type="button" class="btn" id="soon-match">1 · Dopasuj</button>
         </div>
-        <textarea class="type-in type-area" id="ui" rows="3" autocomplete="off" spellcheck="false" placeholder="napisz swoje zdanie po polsku…"></textarea>
-        <div class="fb" id="ufb"></div>
-        <div class="nav"><button type="button" class="btn primary" id="udone">Gotowe</button></div>
-        <button type="button" class="link" id="usaved">Moje zdania (${u.sentences.length} / ${target})</button>
       </div>`;
+    stage.querySelector("#soon-type").onclick = () => setMode("type");
+    stage.querySelector("#soon-match").onclick = () => setMode("match");
+    bindEnterPrimary(stage);
+    return "Zdanie · wkrótce";
+  }
 
-    const ta = stage.querySelector("#ui");
-    const fb = stage.querySelector("#ufb");
-    const btn = stage.querySelector("#udone");
-        ta.addEventListener("input", () => setFlagContext({ typed: ta.value }));
-    ta.focus();
-
-    function advanceOrSave() {
-      if (!u.answered) {
-        const text = ta.value.trim();
-        if (!text) {
-          fb.textContent = "Najpierw napisz zdanie.";
-          fb.className = "fb";
-          fb.style.color = "var(--muted)";
-          return;
-        }
-        u.answered = true;
-        ta.disabled = true;
-        u.sentences.push(text);
-        const lower = norm(text);
-        const used = c.words.filter((w) => {
-          const k = norm(keyWord(w));
-          return k && lower.includes(k);
-        });
-        if (used.length === c.words.length) {
-          fb.textContent =
-            "✓ Zapisano — użyłeś: " + used.map(keyWord).join(", ");
-          fb.className = "fb good";
-        } else {
-          const missing = c.words
-            .filter((w) => !used.includes(w))
-            .map(keyWord)
-            .join(", ");
-          fb.textContent = "Zapisano. Tip: zdanie nie zawierało: " + missing;
-          fb.className = "fb";
-          fb.style.color = "var(--muted)";
-        }
-        const hitTarget = u.sentences.length >= target;
-        btn.textContent = hitTarget ? "Zakończ ✓" : "Dalej";
-        btn.focus();
-      } else {
-        if (u.sentences.length >= target) {
-          u.complete = true;
-          render();
-          return;
-        }
-        u.n++;
-        u.cur = deal();
-        u.answered = false;
-        render();
-      }
-    }
-
-    btn.onclick = advanceOrSave;
-
-    ta.addEventListener("keydown", (e) => {
-      if (e.key !== "Enter") return;
-      if (e.shiftKey) return;
-      e.preventDefault();
-      e.stopPropagation();
-      advanceOrSave();
-    });
-
-    btn.addEventListener("keydown", (e) => {
-      if (e.key !== "Enter" && e.key !== " ") return;
-      e.preventDefault();
-      e.stopPropagation();
-      advanceOrSave();
-    });
-
-    bindEnter((e) => {
-      if (e.target.closest("textarea")) return;
-      e.preventDefault();
-      advanceOrSave();
-    });
-
-    stage.querySelector("#usaved").onclick = () => {
-      u.review = true;
-      render();
-    };
-
-    return `Zdanie ${progressNum} z ${target} · zapisano ${u.sentences.length}`;
+  function renderSentence(stage) {
+    if (getSentenceItems()) return renderFrameSentence(stage);
+    return renderSentenceSoon(stage);
   }
 
   function render() {
