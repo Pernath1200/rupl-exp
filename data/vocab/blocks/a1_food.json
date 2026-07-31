@@ -12,31 +12,38 @@
       "items": [
         {
           "en": "water",
-          "pl": "woda"
+          "pl": "woda",
+          "icon": "💧"
         },
         {
           "en": "coffee",
-          "pl": "kawa"
+          "pl": "kawa",
+          "icon": "☕"
         },
         {
           "en": "tea",
-          "pl": "herbata"
+          "pl": "herbata",
+          "icon": "🍵"
         },
         {
           "en": "beer",
-          "pl": "piwo"
+          "pl": "piwo",
+          "icon": "🍺"
         },
         {
           "en": "wine",
-          "pl": "wino"
+          "pl": "wino",
+          "icon": "🍷"
         },
         {
           "en": "juice",
-          "pl": "sok"
+          "pl": "sok",
+          "icon": "🧃"
         },
         {
           "en": "milk",
-          "pl": "mleko"
+          "pl": "mleko",
+          "icon": "🥛"
         },
         {
           "en": "drink (verb)",
@@ -44,7 +51,8 @@
         },
         {
           "en": "bottle",
-          "pl": "butelka"
+          "pl": "butelka",
+          "icon": "🍾"
         },
         {
           "en": "glass",
@@ -79,7 +87,8 @@
         },
         {
           "en": "breakfast",
-          "pl": "śniadanie"
+          "pl": "śniadanie",
+          "icon": "🍳"
         },
         {
           "en": "lunch",
@@ -94,15 +103,18 @@
           "pl": "menu",
           "accepts": [
             "jadłospis"
-          ]
+          ],
+          "icon": "📋"
         },
         {
           "en": "bill",
-          "pl": "rachunek"
+          "pl": "rachunek",
+          "icon": "🧾"
         },
         {
           "en": "eat",
-          "pl": "jeść"
+          "pl": "jeść",
+          "icon": "🍴"
         },
         {
           "en": "hungry",
@@ -143,50 +155,61 @@
       "items": [
         {
           "en": "bread",
-          "pl": "chleb"
+          "pl": "chleb",
+          "icon": "🍞"
         },
         {
           "en": "butter",
-          "pl": "masło"
+          "pl": "masło",
+          "icon": "🧈"
         },
         {
           "en": "cheese",
-          "pl": "ser"
+          "pl": "ser",
+          "icon": "🧀"
         },
         {
           "en": "egg",
           "pl": "jajko",
           "accepts": [
             "jajo"
-          ]
+          ],
+          "icon": "🥚"
         },
         {
           "en": "meat",
-          "pl": "mięso"
+          "pl": "mięso",
+          "icon": "🥩"
         },
         {
           "en": "chicken",
-          "pl": "kurczak"
+          "pl": "kurczak",
+          "icon": "🍗"
         },
         {
           "en": "fish",
-          "pl": "ryba"
+          "pl": "ryba",
+          "icon": "🐟"
         },
         {
           "en": "soup",
-          "pl": "zupa"
+          "pl": "zupa",
+          "icon": "🍲"
         },
         {
           "en": "salad",
-          "pl": "sałatka"
+          "pl": "sałatka",
+          "icon": "🥗"
         },
         {
           "en": "rice",
-          "pl": "ryż"
+          "pl": "ryż",
+          "icon": "🍚"
         },
         {
           "en": "salt",
-          "pl": "sól"
+          "pl": "sól",
+          "icon": "🧂"
         },
         {
           "en": "sugar",

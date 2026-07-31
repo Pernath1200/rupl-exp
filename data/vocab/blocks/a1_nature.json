@@ -12,31 +12,38 @@
       "items": [
         {
           "en": "nature",
-          "pl": "przyroda"
+          "pl": "przyroda",
+          "icon": "🌿"
         },
         {
           "en": "weather",
-          "pl": "pogoda"
+          "pl": "pogoda",
+          "icon": "🌦"
         },
         {
           "en": "sun",
-          "pl": "słońce"
+          "pl": "słońce",
+          "icon": "☀️"
         },
         {
           "en": "rain",
-          "pl": "deszcz"
+          "pl": "deszcz",
+          "icon": "🌧"
         },
         {
           "en": "snow",
-          "pl": "śnieg"
+          "pl": "śnieg",
+          "icon": "❄️"
         },
         {
           "en": "wind",
-          "pl": "wiatr"
+          "pl": "wiatr",
+          "icon": "💨"
         },
         {
           "en": "cloud",
-          "pl": "chmura"
+          "pl": "chmura",
+          "icon": "☁️"
         },
         {
           "en": "sky",
@@ -48,15 +55,18 @@
         },
         {
           "en": "tree",
-          "pl": "drzewo"
+          "pl": "drzewo",
+          "icon": "🌳"
         },
         {
           "en": "flower",
-          "pl": "kwiat"
+          "pl": "kwiat",
+          "icon": "🌸"
         },
         {
           "en": "plant",
-          "pl": "roślina"
+          "pl": "roślina",
+          "icon": "🌱"
         }
       ]
     },
@@ -66,7 +76,8 @@
       "items": [
         {
           "en": "mountain",
-          "pl": "góra"
+          "pl": "góra",
+          "icon": "⛰"
         },
         {
           "en": "hill",
@@ -74,11 +85,13 @@
         },
         {
           "en": "river",
-          "pl": "rzeka"
+          "pl": "rzeka",
+          "icon": "🏞"
         },
         {
           "en": "sea",
-          "pl": "morze"
+          "pl": "morze",
+          "icon": "🌊"
         },
         {
           "en": "lake",
@@ -86,15 +99,18 @@
         },
         {
           "en": "island",
-          "pl": "wyspa"
+          "pl": "wyspa",
+          "icon": "🏝"
         },
         {
           "en": "forest",
-          "pl": "las"
+          "pl": "las",
+          "icon": "🌲"
         },
         {
           "en": "field",
-          "pl": "pole"
+          "pl": "pole",
+          "icon": "🌾"
         },
         {
           "en": "land",
@@ -102,7 +118,8 @@
         },
         {
           "en": "world",
-          "pl": "świat"
+          "pl": "świat",
+          "icon": "🌍"
         },
         {
           "en": "earth",
@@ -110,7 +127,8 @@
         },
         {
           "en": "space",
-          "pl": "kosmos"
+          "pl": "kosmos",
+          "icon": "🌌"
         }
       ]
     },
@@ -120,7 +138,8 @@
       "items": [
         {
           "en": "spring",
-          "pl": "wiosna"
+          "pl": "wiosna",
+          "icon": "🌷"
         },
         {
           "en": "summer",
@@ -128,11 +147,13 @@
         },
         {
           "en": "autumn",
-          "pl": "jesień"
+          "pl": "jesień",
+          "icon": "🍂"
         },
         {
           "en": "winter",
-          "pl": "zima"
+          "pl": "zima",
+          "icon": "⛄"
         },
         {
           "en": "warm",
@@ -160,11 +181,13 @@
         },
         {
           "en": "fire",
-          "pl": "ogień"
+          "pl": "ogień",
+          "icon": "🔥"
         },
         {
           "en": "star",
-          "pl": "gwiazda"
+          "pl": "gwiazda",
+          "icon": "⭐"
         }
       ]
     }

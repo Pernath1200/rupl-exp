@@ -12,7 +12,8 @@
       "items": [
         {
           "en": "body",
-          "pl": "ciało"
+          "pl": "ciało",
+          "icon": "🧍"
         },
         {
           "en": "head",
@@ -20,7 +21,8 @@
         },
         {
           "en": "face",
-          "pl": "twarz"
+          "pl": "twarz",
+          "icon": "🙂"
         },
         {
           "en": "hair",
@@ -28,35 +30,43 @@
         },
         {
           "en": "eye",
-          "pl": "oko"
+          "pl": "oko",
+          "icon": "👁"
         },
         {
           "en": "ear",
-          "pl": "ucho"
+          "pl": "ucho",
+          "icon": "👂"
         },
         {
           "en": "nose",
-          "pl": "nos"
+          "pl": "nos",
+          "icon": "👃"
         },
         {
           "en": "mouth",
-          "pl": "usta"
+          "pl": "usta",
+          "icon": "👄"
         },
         {
           "en": "tooth",
-          "pl": "ząb"
+          "pl": "ząb",
+          "icon": "🦷"
         },
         {
           "en": "hand",
-          "pl": "ręka"
+          "pl": "ręka",
+          "icon": "✋"
         },
         {
           "en": "arm / shoulder",
-          "pl": "ramię"
+          "pl": "ramię",
+          "icon": "💪"
         },
         {
           "en": "leg",
-          "pl": "noga"
+          "pl": "noga",
+          "icon": "🦵"
         }
       ]
     },
@@ -66,7 +76,8 @@
       "items": [
         {
           "en": "foot",
-          "pl": "stopa"
+          "pl": "stopa",
+          "icon": "🦶"
         },
         {
           "en": "back",
@@ -86,11 +97,13 @@
         },
         {
           "en": "heart",
-          "pl": "serce"
+          "pl": "serce",
+          "icon": "❤️"
         },
         {
           "en": "blood",
-          "pl": "krew"
+          "pl": "krew",
+          "icon": "🩸"
         },
         {
           "en": "skin",
@@ -106,7 +119,8 @@
         },
         {
           "en": "blonde",
-          "pl": "blond"
+          "pl": "blond",
+          "icon": "👱"
         }
       ]
     }

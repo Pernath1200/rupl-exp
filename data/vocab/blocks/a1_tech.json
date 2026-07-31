@@ -12,19 +12,23 @@
       "items": [
         {
           "en": "computer",
-          "pl": "komputer"
+          "pl": "komputer",
+          "icon": "💻"
         },
         {
           "en": "phone / telephone",
-          "pl": "telefon"
+          "pl": "telefon",
+          "icon": "☎️"
         },
         {
           "en": "mobile",
-          "pl": "komórka"
+          "pl": "komórka",
+          "icon": "📱"
         },
         {
           "en": "camera",
-          "pl": "aparat"
+          "pl": "aparat",
+          "icon": "📷"
         },
         {
           "en": "television",
@@ -32,27 +36,33 @@
         },
         {
           "en": "TV",
-          "pl": "telewizor"
+          "pl": "telewizor",
+          "icon": "📺"
         },
         {
           "en": "radio",
-          "pl": "radio"
+          "pl": "radio",
+          "icon": "📻"
         },
         {
           "en": "video",
-          "pl": "wideo"
+          "pl": "wideo",
+          "icon": "📼"
         },
         {
           "en": "DVD",
-          "pl": "DVD"
+          "pl": "DVD",
+          "icon": "💿"
         },
         {
           "en": "CD",
-          "pl": "CD"
+          "pl": "CD",
+          "icon": "📀"
         },
         {
           "en": "screen",
-          "pl": "ekran"
+          "pl": "ekran",
+          "icon": "🖥"
         }
       ]
     },
@@ -62,7 +72,8 @@
       "items": [
         {
           "en": "internet",
-          "pl": "internet"
+          "pl": "internet",
+          "icon": "🌐"
         },
         {
           "en": "online",
@@ -74,7 +85,8 @@
         },
         {
           "en": "email",
-          "pl": "e-mail"
+          "pl": "e-mail",
+          "icon": "📧"
         },
         {
           "en": "blog",
@@ -82,7 +94,8 @@
         },
         {
           "en": "photo / photograph",
-          "pl": "zdjęcie"
+          "pl": "zdjęcie",
+          "icon": "🖼"
         },
         {
           "en": "picture",
@@ -90,15 +103,18 @@
         },
         {
           "en": "message",
-          "pl": "wiadomość"
+          "pl": "wiadomość",
+          "icon": "💬"
         },
         {
           "en": "news",
-          "pl": "wiadomości"
+          "pl": "wiadomości",
+          "icon": "🗞"
         },
         {
           "en": "newspaper",
-          "pl": "gazeta"
+          "pl": "gazeta",
+          "icon": "📰"
         },
         {
           "en": "magazine",

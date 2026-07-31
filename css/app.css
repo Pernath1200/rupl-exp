@@ -1329,6 +1329,13 @@ button.m.wrong {
   opacity: 0.9;
 }
 
+/* Icon chip — emoji anchor for concrete vocab (animals, food, …) */
+.icon-chip {
+  display: inline-block;
+  margin-right: 0.45em;
+  font-style: normal;
+}
+
 /* Swatch chip — visual anchor for self-illustrating vocab (colours) */
 .swatch {
   display: inline-block;

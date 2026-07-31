@@ -12,51 +12,63 @@
       "items": [
         {
           "en": "animal",
-          "pl": "zwierzę"
+          "pl": "zwierzę",
+          "icon": "🐾"
         },
         {
           "en": "dog",
-          "pl": "pies"
+          "pl": "pies",
+          "icon": "🐕"
         },
         {
           "en": "cat",
-          "pl": "kot"
+          "pl": "kot",
+          "icon": "🐈"
         },
         {
           "en": "bird",
-          "pl": "ptak"
+          "pl": "ptak",
+          "icon": "🐦"
         },
         {
           "en": "fish",
-          "pl": "ryba"
+          "pl": "ryba",
+          "icon": "🐟"
         },
         {
           "en": "horse",
-          "pl": "koń"
+          "pl": "koń",
+          "icon": "🐴"
         },
         {
           "en": "cow",
-          "pl": "krowa"
+          "pl": "krowa",
+          "icon": "🐄"
         },
         {
           "en": "pig",
-          "pl": "świnia"
+          "pl": "świnia",
+          "icon": "🐷"
         },
         {
           "en": "sheep",
-          "pl": "owca"
+          "pl": "owca",
+          "icon": "🐑"
         },
         {
           "en": "mouse",
-          "pl": "mysz"
+          "pl": "mysz",
+          "icon": "🐭"
         },
         {
           "en": "lion",
-          "pl": "lew"
+          "pl": "lew",
+          "icon": "🦁"
         },
         {
           "en": "elephant",
-          "pl": "słoń"
+          "pl": "słoń",
+          "icon": "🐘"
         }
       ]
     },
@@ -66,39 +78,48 @@
       "items": [
         {
           "en": "snake",
-          "pl": "wąż"
+          "pl": "wąż",
+          "icon": "🐍"
         },
         {
           "en": "monkey",
-          "pl": "małpa"
+          "pl": "małpa",
+          "icon": "🐒"
         },
         {
           "en": "bear",
-          "pl": "niedźwiedź"
+          "pl": "niedźwiedź",
+          "icon": "🐻"
         },
         {
           "en": "rabbit",
-          "pl": "królik"
+          "pl": "królik",
+          "icon": "🐰"
         },
         {
           "en": "chicken",
-          "pl": "kurczak"
+          "pl": "kurczak",
+          "icon": "🐔"
         },
         {
           "en": "duck",
-          "pl": "kaczka"
+          "pl": "kaczka",
+          "icon": "🦆"
         },
         {
           "en": "frog",
-          "pl": "żaba"
+          "pl": "żaba",
+          "icon": "🐸"
         },
         {
           "en": "insect",
-          "pl": "owad"
+          "pl": "owad",
+          "icon": "🐞"
         },
         {
           "en": "pet",
-          "pl": "zwierzę domowe"
+          "pl": "zwierzę domowe",
+          "icon": "🐹"
         },
         {
           "en": "wild",
@@ -106,11 +127,13 @@
         },
         {
           "en": "farm",
-          "pl": "farma"
+          "pl": "farma",
+          "icon": "🚜"
         },
         {
           "en": "zoo",
-          "pl": "zoo"
+          "pl": "zoo",
+          "icon": "🦓"
         }
       ]
     }

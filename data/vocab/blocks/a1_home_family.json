@@ -296,7 +296,8 @@
       "items": [
         {
           "en": "family",
-          "pl": "rodzina"
+          "pl": "rodzina",
+          "icon": "👨‍👩‍👧‍👦"
         },
         {
           "en": "mother / mum",
@@ -322,7 +323,8 @@
         },
         {
           "en": "child",
-          "pl": "dziecko"
+          "pl": "dziecko",
+          "icon": "👶"
         },
         {
           "en": "son",
@@ -371,7 +373,8 @@
           "pl": "dom",
           "accepts": [
             "domu"
-          ]
+          ],
+          "icon": "🏠"
         },
         {
           "en": "flat / apartment",
@@ -383,11 +386,13 @@
         },
         {
           "en": "kitchen",
-          "pl": "kuchnia"
+          "pl": "kuchnia",
+          "icon": "🍳"
         },
         {
           "en": "bathroom",
-          "pl": "łazienka"
+          "pl": "łazienka",
+          "icon": "🛁"
         },
         {
           "en": "bedroom",
@@ -395,11 +400,13 @@
         },
         {
           "en": "door",
-          "pl": "drzwi"
+          "pl": "drzwi",
+          "icon": "🚪"
         },
         {
           "en": "window",
-          "pl": "okno"
+          "pl": "okno",
+          "icon": "🪟"
         },
         {
           "en": "table",
@@ -407,18 +414,21 @@
         },
         {
           "en": "chair",
-          "pl": "krzesło"
+          "pl": "krzesło",
+          "icon": "🪑"
         },
         {
           "en": "bed",
-          "pl": "łóżko"
+          "pl": "łóżko",
+          "icon": "🛏"
         },
         {
           "en": "key",
           "pl": "klucz",
           "accepts": [
             "klucze"
-          ]
+          ],
+          "icon": "🔑"
         }
       ]
     }

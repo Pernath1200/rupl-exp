@@ -418,22 +418,31 @@ export function startPractice(root, block, opts) {
     return { items, focusStructures };
   }
 
-  // ---- Swatches: visual anchor for self-illustrating vocab (colours) ----
-  // Items may carry swatch: "#hex". The chip renders beside the word in
-  // Match/Quiz/type prompts so a beginner can derive meaning from the colour
-  // itself (anchor rule when no lexical anchor exists). Typing still
-  // requires producing the word — the chip anchors meaning, not spelling.
+  // ---- Visual anchors for self-illustrating vocab ----
+  // Items may carry swatch: "#hex" (colours) or icon: "🐕" (concrete nouns).
+  // The chip renders beside the word in Match/Quiz/type prompts so a beginner
+  // can derive meaning from the visual itself (anchor rule when no lexical
+  // anchor exists). Typing still requires producing the word — the chip
+  // anchors meaning, not spelling.
   const swatchByText = new Map();
+  const iconByText = new Map();
   for (const it of block.items || []) {
     if (it.swatch) {
       swatchByText.set(it.pl, it.swatch);
       swatchByText.set(it.en, it.swatch);
     }
+    if (it.icon) {
+      iconByText.set(it.pl, it.icon);
+      iconByText.set(it.en, it.icon);
+    }
   }
 
   function sw(text) {
     const c = swatchByText.get(text);
-    return c ? `<span class="swatch" style="background:${c}"></span>` : "";
+    if (c) return `<span class="swatch" style="background:${c}"></span>`;
+    const ic = iconByText.get(text);
+    if (ic) return `<span class="icon-chip">${ic}</span>`;
+    return "";
   }
 
   // ---- Deck rotation (per pack + mode) ----

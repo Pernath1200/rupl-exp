@@ -20,7 +20,8 @@
         },
         {
           "en": "T-shirt",
-          "pl": "koszulka"
+          "pl": "koszulka",
+          "icon": "👕"
         },
         {
           "en": "sweater",
@@ -28,7 +29,8 @@
         },
         {
           "en": "jacket",
-          "pl": "kurtka"
+          "pl": "kurtka",
+          "icon": "🧥"
         },
         {
           "en": "coat",
@@ -36,7 +38,8 @@
         },
         {
           "en": "dress",
-          "pl": "sukienka"
+          "pl": "sukienka",
+          "icon": "👗"
         },
         {
           "en": "skirt",
@@ -44,7 +47,8 @@
         },
         {
           "en": "trousers",
-          "pl": "spodnie"
+          "pl": "spodnie",
+          "icon": "👖"
         },
         {
           "en": "jeans",
@@ -52,7 +56,8 @@
         },
         {
           "en": "hat",
-          "pl": "kapelusz"
+          "pl": "kapelusz",
+          "icon": "🎩"
         },
         {
           "en": "wear",
@@ -66,23 +71,28 @@
       "items": [
         {
           "en": "shoe / boot",
-          "pl": "but"
+          "pl": "but",
+          "icon": "👞"
         },
         {
           "en": "sock",
-          "pl": "skarpetka"
+          "pl": "skarpetka",
+          "icon": "🧦"
         },
         {
           "en": "watch (wrist)",
-          "pl": "zegarek"
+          "pl": "zegarek",
+          "icon": "⌚"
         },
         {
           "en": "bag",
-          "pl": "torba"
+          "pl": "torba",
+          "icon": "👜"
         },
         {
           "en": "glasses",
-          "pl": "okulary"
+          "pl": "okulary",
+          "icon": "👓"
         },
         {
           "en": "suit",
@@ -90,19 +100,23 @@
         },
         {
           "en": "tie",
-          "pl": "krawat"
+          "pl": "krawat",
+          "icon": "👔"
         },
         {
           "en": "scarf",
-          "pl": "szalik"
+          "pl": "szalik",
+          "icon": "🧣"
         },
         {
           "en": "glove",
-          "pl": "rękawiczka"
+          "pl": "rękawiczka",
+          "icon": "🧤"
         },
         {
           "en": "umbrella",
-          "pl": "parasol"
+          "pl": "parasol",
+          "icon": "☂️"
         },
         {
           "en": "pocket",
