@@ -1338,6 +1338,7 @@ export function startPractice(root, block, opts) {
         <textarea class="type-in type-area" id="ti" rows="2" autocomplete="off" spellcheck="false" placeholder="napisz polskie zdanie…"></textarea>
         <div class="fb" id="tfb"></div>
         <div class="nav"><button type="button" class="btn primary" id="chk">Sprawdź</button></div>
+        ${it.gap ? `<button type="button" class="link" id="hint">Podpowiedź · rama</button> · ` : ""}
         <button type="button" class="link" id="skip">Pokaż odpowiedź</button>
       </div>`;
 
@@ -1345,6 +1346,13 @@ export function startPractice(root, block, opts) {
     const chk = stage.querySelector("#chk");
     const fb = stage.querySelector("#tfb");
     const skip = stage.querySelector("#skip");
+    // Scaffold hint for chunk sentences: shows the gap frame, no penalty.
+    // "Pokaż odpowiedź" stays the give-up; this is the rung below it.
+    stage.querySelector("#hint")?.addEventListener("click", () => {
+      fb.textContent = `Rama: ${it.gap}`;
+      fb.className = "fb near";
+      inp.focus();
+    });
     inp.addEventListener("input", () => setFlagContext({ typed: inp.value }));
     inp.focus();
 
