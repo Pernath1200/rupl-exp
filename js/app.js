@@ -24,6 +24,8 @@ import {
   tapFill,
   refreshUnit,
   levelUnitStats,
+  reviewDueList,
+  backfillReview,
   PASS_RATIO,
   MASTERY_REPS,
   FRUIT_SOFT,
@@ -558,8 +560,45 @@ function renderLevelMeters() {
       <strong>Remembered</strong> = came back via review.
       <strong>Mastered</strong> = held across several reviews (${MASTERY_REPS}+).
       Not “opened the topic”.
-      ${reviewLive ? "" : " · Review not live yet — last two meters stay at 0 until then."}
+      ${reviewLive ? "" : " · Reviews come due 1 day after a unit is learned (then 3 · 7 · 14 · 30)."}
     </p>`;
+}
+
+/** Due reviews, path order, capped display. Hidden when nothing is due. */
+function renderReview() {
+  const card = document.getElementById("review-card");
+  const list = document.getElementById("review-list");
+  if (!card || !list || !STATE.tree) return;
+  const live = (STATE.tree.nodes || []).filter(
+    (n) => n.status === "live" && n.content,
+  );
+  const due = reviewDueList(live);
+  if (!due.length) {
+    card.hidden = true;
+    return;
+  }
+  const order = STATE.tree.path_order || [];
+  due.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+  card.hidden = false;
+  const MAX = 6;
+  list.innerHTML = `
+    <p class="tree-legend">Wróć do jednostki i zrób Quiz albo Pisanie (≥75%) — to liczy się jako powtórka. Odstępy rosną: 1 · 3 · 7 · 14 · 30 dni.</p>
+    <div class="nav">
+      ${due
+        .slice(0, MAX)
+        .map(
+          (n) =>
+            `<button type="button" class="btn" data-rev="${n.id}">${n.domain === "grammar" ? "⚙ " : ""}${escapeHtml(n.label)}</button>`,
+        )
+        .join(" ")}
+      ${due.length > MAX ? `<span class="today-muted">+${due.length - MAX} więcej</span>` : ""}
+    </div>`;
+  list.querySelectorAll("[data-rev]").forEach((btn) =>
+    btn.addEventListener("click", () => {
+      const n = nodeById(btn.dataset.rev);
+      if (n) openNode(n);
+    }),
+  );
 }
 
 function renderAll() {
@@ -567,6 +606,7 @@ function renderAll() {
   renderAuthor();
   renderRail();
   renderLevelMeters();
+  renderReview();
   renderUpNext();
   renderRoots();
   renderPath();
@@ -587,6 +627,9 @@ async function boot() {
     } catch {
       STATE.spine = null;
     }
+    // Adopt units fruited before the SRS existed (learnedAt <- touchedAt),
+    // so earlier days' units come due immediately, not never.
+    backfillReview(STATE.tree.nodes || []);
 
     document.getElementById("btn-author-unlock")?.addEventListener("click", () => {
       setAuthorUnlock(!isAuthorUnlock());

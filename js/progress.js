@@ -87,12 +87,15 @@ export function completeMode(blockId, mode, result = null) {
   const b = p.grammar.blocks[blockId];
   b.modes[mode] = true;
   b.touchedAt = Date.now();
+  let ratio = null;
   if (result && typeof result.score === "number" && result.total > 0) {
-    const ratio = result.score / result.total;
+    ratio = result.score / result.total;
     const prev = b.best[mode];
     if (prev == null || ratio > prev) b.best[mode] = ratio;
   }
   save(p);
+  // Grammar pack id == tree node id
+  reviewTick(blockId, ratio, hasFruit(blockId));
 }
 
 function gBlock(id) {
@@ -173,16 +176,19 @@ export function completeVocabMode(blockId, mode, meta = {}) {
   b.modes = b.modes || {};
   b.modes[mode] = true;
   b.touchedAt = Date.now();
-  if (mode === "quiz" && meta.score != null && meta.total > 0) {
-    const r = meta.score / meta.total;
-    if (b.bestQuiz == null || r > b.bestQuiz) b.bestQuiz = r;
+  let ratio = null;
+  if (meta.score != null && meta.total > 0) {
+    ratio = meta.score / meta.total;
   }
-  if (mode === "type" && meta.score != null && meta.total > 0) {
-    const r = meta.score / meta.total;
-    if (b.bestType == null || r > b.bestType) b.bestType = r;
+  if (mode === "quiz" && ratio != null) {
+    if (b.bestQuiz == null || ratio > b.bestQuiz) b.bestQuiz = ratio;
+  }
+  if (mode === "type" && ratio != null) {
+    if (b.bestType == null || ratio > b.bestType) b.bestType = ratio;
   }
   if (mode === "sentence") b.sentenceDone = true;
   save(p);
+  reviewTick(b.nodeId || blockId, ratio, blockHasFruit(b));
 }
 
 export function blockHasFruit(b) {
@@ -305,6 +311,83 @@ export function tapFill(tree) {
     }
   }
   return sum / live.length;
+}
+
+// ---- Unit SRS ----
+// A unit becomes reviewable when it first fruits (learnedAt, due next day).
+// A review succeeds when, while due, any scored pass reaches FRUIT_SOFT:
+// reps++ and the interval widens. A weak pass while due re-queues tomorrow.
+const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30];
+const DAY_MS = 24 * 60 * 60 * 1000;
+
+function reviewTick(nodeId, ratio, fruited) {
+  if (!nodeId) return;
+  const p = loadProgress();
+  const n = (p.nodes[nodeId] = p.nodes[nodeId] || {});
+  const now = Date.now();
+  if (fruited && !n.learnedAt) {
+    n.learnedAt = new Date(now).toISOString();
+    n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[0] * DAY_MS).toISOString();
+    save(p);
+    return;
+  }
+  if (!n.learnedAt || !n.nextDueAt || ratio == null) return;
+  if (now < Date.parse(n.nextDueAt)) return;
+  n.lastReviewAt = new Date(now).toISOString();
+  if (ratio >= FRUIT_SOFT) {
+    n.successfulReps = (n.successfulReps || 0) + 1;
+    const idx = Math.min(n.successfulReps, REVIEW_INTERVALS_DAYS.length - 1);
+    n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[idx] * DAY_MS).toISOString();
+  } else {
+    n.nextDueAt = new Date(now + DAY_MS).toISOString();
+  }
+  save(p);
+}
+
+/** Live nodes whose review is due now (pass the tree's live practice nodes). */
+export function reviewDueList(nodes) {
+  const p = loadProgress();
+  const now = Date.now();
+  return (nodes || []).filter((node) => {
+    const n = p.nodes?.[node.id];
+    return n && n.learnedAt && n.nextDueAt && now >= Date.parse(n.nextDueAt);
+  });
+}
+
+/**
+ * One-time adoption for units fruited before the SRS existed: learnedAt is
+ * taken from the block's touchedAt, so yesterday's units come due today.
+ */
+export function backfillReview(nodes) {
+  const p = loadProgress();
+  let changed = 0;
+  for (const node of nodes || []) {
+    if (!node || node.status !== "live" || !node.content) continue;
+    if (p.nodes[node.id]?.learnedAt) continue;
+    const fruited =
+      node.domain === "vocab" ? hasVocabFruit(node) : hasFruit(node.id);
+    if (!fruited) continue;
+    let touched = null;
+    if (node.domain === "grammar") {
+      touched = p.grammar.blocks[node.id]?.touchedAt || null;
+    } else {
+      for (const [id, b] of Object.entries(p.vocab.blocks || {})) {
+        if (b.nodeId === node.id || id === node.id) {
+          touched = b.touchedAt || touched;
+        }
+      }
+      const base = (node.content || "").split("/").pop()?.replace(/\.json$/, "");
+      if (!touched && base) touched = p.vocab.blocks[base]?.touchedAt || null;
+    }
+    const learned = touched || Date.now() - DAY_MS;
+    p.nodes[node.id] = {
+      learnedAt: new Date(learned).toISOString(),
+      nextDueAt: new Date(learned + REVIEW_INTERVALS_DAYS[0] * DAY_MS).toISOString(),
+    };
+    changed++;
+  }
+  if (changed) save(p);
+  return changed;
 }
 
 /**
