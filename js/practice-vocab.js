@@ -514,7 +514,8 @@ export function startPractice(root, block, opts) {
   }
 
   const state = {
-    mode: "match",
+    // Review launches jump straight to production (opts.startMode = "type")
+    mode: opts.startMode || "match",
     plToEn: false, // EN → PL production (default for Polish learners)
     match: null,
     quiz: null,

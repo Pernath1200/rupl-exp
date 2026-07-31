@@ -162,6 +162,7 @@ export function startPractice(pack, root, opts) {
 
   const state = {
     stage: "intro",
+    reviewStart: opts.startStage || null,
     checkPhase: "match",
     introIndex: 0,
     matchPairs: [],
@@ -1154,5 +1155,10 @@ export function startPractice(pack, root, opts) {
     return esc(s).replace(/'/g, "&#39;");
   }
 
-  render();
+  if (state.reviewStart) {
+    // Review launch: straight to production (Pisanie), skip intro/check
+    jumpToStage(state.reviewStart);
+  } else {
+    render();
+  }
 }

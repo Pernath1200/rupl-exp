@@ -194,7 +194,7 @@ function renderUpNext() {
   const hit = spineNext();
   if (!hit) {
     el.innerHTML = `
-      <p class="tree-legend">Ścieżka spine: wszystkie żywe pary z owocem — albo otwórz węzeł poniżej.</p>`;
+      <p class="tree-legend">Wszystko zrobione ✓ · All done for now.</p>`;
     return;
   }
   const { step, node, side, pair } = hit;
@@ -203,36 +203,23 @@ function renderUpNext() {
   const partnerLabel = pair?.label || pair?.node_id || "—";
   const partnerNode = pair?.node_id ? nodeById(pair.node_id) : null;
 
+  const author = isAuthorUnlock();
   el.innerHTML = `
-    <p class="tree-legend">Zigzag w jednej aplikacji: <strong>ucz system</strong> → <strong>użyj w temacie</strong>.</p>
-    <button type="button" class="btn primary" id="btn-continue-next">Pokaż na ścieżce · ${escapeHtml(node.label)}</button>
-    <p class="tree-legend" style="margin-top:0.5rem">${escapeHtml(node.note || "")}</p>
-    <p class="spine-pair">
-      <span class="spine-badge">ścieżka</span>
-      ${unitId ? `<code>${escapeHtml(unitId)}</code>` : ""}
-      ${caseTags ? ` · <span class="today-muted">${escapeHtml(caseTags)}</span>` : ""}
-      <br />
-      <strong>Teraz (${side === "grammar" ? "gramatyka" : "słówka"}):</strong> ${escapeHtml(node.label)}
-      <br />
-      <strong>Para:</strong>
-      ${
-        partnerNode
-          ? `<button type="button" class="today-link" id="btn-partner">${escapeHtml(partnerLabel)}</button>`
-          : `<span class="today-muted">${escapeHtml(partnerLabel)}</span>`
-      }
-      ${
-        unitId && partnerNode && isFruit(node) && isFruit(partnerNode)
-          ? ` <span class="badge-unit">jednostka ✓</span>`
-          : ""
-      }
-    </p>
+    <button type="button" class="btn primary" id="btn-continue-next">Start → ${escapeHtml(node.label)}</button>
+    ${
+      author
+        ? `<p class="spine-pair" style="margin-top:0.5rem">
+             ${unitId ? `<code>${escapeHtml(unitId)}</code>` : ""}
+             ${caseTags ? ` · <span class="today-muted">${escapeHtml(caseTags)}</span>` : ""}
+             ${node.note ? ` · <span class="today-muted">${escapeHtml(node.note)}</span>` : ""}
+             ${partnerNode ? ` · Para: ${escapeHtml(partnerLabel)}` : ""}
+           </p>`
+        : ""
+    }
   `;
   el.querySelector("#btn-continue-next")?.addEventListener("click", () =>
-    focusNodeOnMap(node),
+    openNode(node),
   );
-  el.querySelector("#btn-partner")?.addEventListener("click", () => {
-    if (partnerNode) focusNodeOnMap(partnerNode);
-  });
 }
 
 function renderRoots() {
@@ -327,8 +314,8 @@ function renderPath() {
       <span class="n">${n}</span>
       <span class="meta">
         <span class="title">${dtag} ${escapeHtml(node.label)}</span>
-        ${node.unit_id ? `<span class="note">${escapeHtml(node.unit_id)}</span>` : ""}
-        ${node.note ? `<span class="note">${escapeHtml(node.note)}</span>` : ""}
+        ${isAuthorUnlock() && node.unit_id ? `<span class="note">${escapeHtml(node.unit_id)}</span>` : ""}
+        ${isAuthorUnlock() && node.note ? `<span class="note">${escapeHtml(node.note)}</span>` : ""}
       </span>
       <span class="${statusCls}">${escapeHtml(label)}</span>
     `;
@@ -367,9 +354,9 @@ function renderDetail() {
   box.innerHTML = `
     <div>${pills.join("")}</div>
     <p class="practice-prompt" style="margin-top:0.5rem">${escapeHtml(node.label)}</p>
-    <p class="tree-legend">${escapeHtml(node.note || "")}</p>
+    ${isAuthorUnlock() && node.note ? `<p class="tree-legend">${escapeHtml(node.note)}</p>` : ""}
     ${
-      partner
+      isAuthorUnlock() && partner
         ? `<p class="tree-legend">Para: <button type="button" class="today-link" id="btn-detail-partner">${escapeHtml(partner.label)}</button>
            ${isFruit(partner) ? " · owoc" : " · bez owocu"}</p>`
         : ""
@@ -398,7 +385,7 @@ function renderDetail() {
   }
 }
 
-async function openNode(node) {
+async function openNode(node, launch = {}) {
   if (node.status !== "live" || !node.content) return;
   try {
     const pack = await loadJson(`./data/${node.content}`);
@@ -408,6 +395,7 @@ async function openNode(node) {
 
     if (node.domain === "grammar") {
       startGrammarPractice(pack, root, {
+        startStage: launch.review ? "type" : undefined,
         onExit: () => {
           if (node.unit_id) {
             refreshUnit(node.unit_id, node.id, node.partner_id);
@@ -471,6 +459,7 @@ async function openNode(node) {
 
       touchVocabBlock(practiceBlock.id || pack.id || node.id, node.id);
       startVocabPractice(root, practiceBlock, {
+        startMode: launch.review ? "type" : undefined,
         practice,
         packId: pack.id || node.id,
         packTitle: pack.title || node.label,
@@ -501,6 +490,9 @@ async function openNode(node) {
 function renderAuthor() {
   const btn = document.getElementById("btn-author-unlock");
   const on = isAuthorUnlock();
+  // Smoke/flag toolbar is builder kit — invisible to learners
+  const tb = document.querySelector(".smoke-toolbar");
+  if (tb) tb.hidden = !on;
   btn.setAttribute("aria-pressed", on ? "true" : "false");
   btn.textContent = on ? "Tryb autorski WŁ" : "Tryb autorski";
   const hint = document.getElementById("author-hint");
@@ -556,11 +548,7 @@ function renderLevelMeters() {
     ${bar(s.remembered, "remembered")}
     ${bar(s.mastered, "mastered")}
     <p class="meters-hint">
-      <strong>Learned</strong> = finished once (ladder + ≥${scoreBar}% when scored).
-      <strong>Remembered</strong> = came back via review.
-      <strong>Mastered</strong> = held across several reviews (${MASTERY_REPS}+).
-      Not “opened the topic”.
-      ${reviewLive ? "" : " · Reviews come due 1 day after a unit is learned (then 3 · 7 · 14 · 30)."}
+      Learned = finished once · Remembered / Mastered = kept fresh over spaced reviews.
     </p>`;
 }
 
@@ -582,7 +570,7 @@ function renderReview() {
   card.hidden = false;
   const MAX = 6;
   list.innerHTML = `
-    <p class="tree-legend">Wróć do jednostki i zrób Quiz albo Pisanie (≥75%) — to liczy się jako powtórka. Odstępy rosną: 1 · 3 · 7 · 14 · 30 dni.</p>
+    <p class="tree-legend">Quick review — just the typing. Open a unit, it starts at the typing stage; score 75%+ and it counts. Gaps grow: 1 · 3 · 7 · 14 · 30 days.</p>
     <div class="nav">
       ${due
         .slice(0, MAX)
@@ -591,12 +579,12 @@ function renderReview() {
             `<button type="button" class="btn" data-rev="${n.id}">${n.domain === "grammar" ? "⚙ " : ""}${escapeHtml(n.label)}</button>`,
         )
         .join(" ")}
-      ${due.length > MAX ? `<span class="today-muted">+${due.length - MAX} więcej</span>` : ""}
+      ${due.length > MAX ? `<span class="today-muted">+${due.length - MAX}</span>` : ""}
     </div>`;
   list.querySelectorAll("[data-rev]").forEach((btn) =>
     btn.addEventListener("click", () => {
       const n = nodeById(btn.dataset.rev);
-      if (n) openNode(n);
+      if (n) openNode(n, { review: true });
     }),
   );
 }
