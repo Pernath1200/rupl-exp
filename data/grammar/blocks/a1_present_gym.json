@@ -496,7 +496,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Mum lives.",
+      "prompt_en": "Type: Mum lives (resides).",
       "answer": "Mama mieszka.",
       "accepts": [
         "Mama mieszka.",
@@ -506,12 +506,15 @@
       ]
     },
     {
-      "prompt_en": "Type: Mum is making dinner.",
+      "prompt_en": "Type: Mum is making lunch.",
       "answer": "Mama robi obiad.",
       "accepts": [
         "Mama robi obiad.",
         "Mama robi obiad",
-        "Robi obiad."
+        "Robi obiad.",
+        "Mama gotuje obiad.",
+        "Mama gotuje obiad",
+        "Gotuje obiad."
       ]
     },
     {
@@ -531,7 +534,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Brother lives.",
+      "prompt_en": "Type: Brother lives (resides).",
       "answer": "Brat mieszka.",
       "accepts": [
         "Brat mieszka.",

@@ -23,7 +23,7 @@
     {
       "title": "One pattern · two verbs",
       "title_pl": "Jeden wzorzec · dwa czasowniki",
-      "body": "This unit is only the -am set.\n\nmieszkać (to live) and czytać (to read) share the same endings:\n-am / -asz / -a / -amy / -acie / -ają\n\nAll six persons. Not być / mieć.",
+      "body": "This unit is only the -am set.\n\nmieszkać (to live) and czytać (to read) share the same endings:\n-am / -asz / -a / -amy / -acie / -ają\n\nAll six persons. Not być / mieć.\n\nNote: mieszkać = to live somewhere (reside). Polish uses a different verb (żyć) for “to be alive” — not needed yet.",
       "body_pl": "Tylko wzór -am: mieszkać i czytać. 6 osób."
     },
     {
@@ -148,19 +148,19 @@
   ],
   "match": [
     {
-      "en": "I live",
+      "en": "I live (reside)",
       "pl": "mieszkam"
     },
     {
-      "en": "you live (sg)",
+      "en": "you live (reside) (sg)",
       "pl": "mieszkasz"
     },
     {
-      "en": "he/she lives",
+      "en": "he/she lives (reside)",
       "pl": "mieszka"
     },
     {
-      "en": "they live",
+      "en": "they live (reside)",
       "pl": "mieszkają"
     },
     {
@@ -360,7 +360,7 @@
   ],
   "type_items": [
     {
-      "prompt_en": "I live",
+      "prompt_en": "I live (reside)",
       "mode": "full_word",
       "answer": "mieszkam",
       "accepts": [
@@ -368,7 +368,7 @@
       ]
     },
     {
-      "prompt_en": "you live (sg)",
+      "prompt_en": "you live (reside) (sg)",
       "mode": "full_word",
       "answer": "mieszkasz",
       "accepts": [
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "prompt_en": "he/she lives",
+      "prompt_en": "he/she lives (reside)",
       "mode": "full_word",
       "answer": "mieszka",
       "accepts": [
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "prompt_en": "we live",
+      "prompt_en": "we live (reside)",
       "mode": "full_word",
       "answer": "mieszkamy",
       "accepts": [
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "prompt_en": "you live (pl)",
+      "prompt_en": "you live (reside) (pl)",
       "mode": "full_word",
       "answer": "mieszkacie",
       "accepts": [
@@ -400,7 +400,7 @@
       ]
     },
     {
-      "prompt_en": "they live",
+      "prompt_en": "they live (reside)",
       "mode": "full_word",
       "answer": "mieszkają",
       "accepts": [
@@ -530,7 +530,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Mum lives.",
+      "prompt_en": "Type: Mum lives (resides).",
       "answer": "Mama mieszka.",
       "accepts": [
         "Mama mieszka.",
@@ -538,7 +538,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Sister lives.",
+      "prompt_en": "Type: Sister lives (resides).",
       "answer": "Siostra mieszka.",
       "accepts": [
         "Siostra mieszka.",

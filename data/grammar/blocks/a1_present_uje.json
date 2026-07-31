@@ -524,7 +524,7 @@
       ]
     },
     {
-      "prompt_en": "Type: I am cooking dinner.",
+      "prompt_en": "Type: I am cooking lunch.",
       "answer": "Gotuję obiad.",
       "accepts": [
         "Gotuję obiad.",

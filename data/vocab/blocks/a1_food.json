@@ -103,12 +103,12 @@
           "gender": "n"
         },
         {
-          "en": "lunch",
+          "en": "lunch / dinner (main midday meal)",
           "pl": "obiad",
           "gender": "m"
         },
         {
-          "en": "dinner",
+          "en": "dinner / supper (evening meal)",
           "pl": "kolacja",
           "gender": "f"
         },
