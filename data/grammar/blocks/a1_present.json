@@ -160,14 +160,6 @@
       "pl": "mieszka"
     },
     {
-      "en": "we live",
-      "pl": "mieszkamy"
-    },
-    {
-      "en": "you live (pl)",
-      "pl": "mieszkacie"
-    },
-    {
       "en": "they live",
       "pl": "mieszkają"
     },
@@ -180,36 +172,12 @@
       "pl": "czytasz"
     },
     {
-      "en": "he/she reads",
-      "pl": "czyta"
-    },
-    {
-      "en": "we read",
-      "pl": "czytamy"
-    },
-    {
-      "en": "you read (pl)",
-      "pl": "czytacie"
-    },
-    {
-      "en": "they read",
-      "pl": "czytają"
-    },
-    {
       "en": "I play",
       "pl": "gram"
     },
     {
-      "en": "you play (sg)",
-      "pl": "grasz"
-    },
-    {
-      "en": "he/she plays",
-      "pl": "gra"
-    },
-    {
-      "en": "they play",
-      "pl": "grają"
+      "en": "we play",
+      "pl": "gramy"
     },
     {
       "en": "I know",
@@ -226,10 +194,6 @@
     {
       "en": "they love",
       "pl": "kochają"
-    },
-    {
-      "en": "we play",
-      "pl": "gramy"
     }
   ],
   "quiz": [

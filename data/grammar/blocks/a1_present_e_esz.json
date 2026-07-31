@@ -122,30 +122,6 @@
       "pl": "chcą"
     },
     {
-      "en": "I want coffee",
-      "pl": "chcę kawę"
-    },
-    {
-      "en": "you want tea (sg)",
-      "pl": "chcesz herbatę"
-    },
-    {
-      "en": "he wants water",
-      "pl": "chce wodę"
-    },
-    {
-      "en": "we want coffee",
-      "pl": "chcemy kawę"
-    },
-    {
-      "en": "you want a book (pl)",
-      "pl": "chcecie książkę"
-    },
-    {
-      "en": "they want tea",
-      "pl": "chcą herbatę"
-    },
-    {
       "en": "I drink",
       "pl": "piję"
     },
@@ -158,12 +134,16 @@
       "pl": "pije"
     },
     {
-      "en": "they drink",
-      "pl": "piją"
-    },
-    {
       "en": "we drink",
       "pl": "pijemy"
+    },
+    {
+      "en": "you drink (pl)",
+      "pl": "pijecie"
+    },
+    {
+      "en": "they drink",
+      "pl": "piją"
     }
   ],
   "quiz": [

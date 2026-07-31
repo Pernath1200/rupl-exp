@@ -153,14 +153,6 @@
       "pl": "mówi"
     },
     {
-      "en": "we speak",
-      "pl": "mówimy"
-    },
-    {
-      "en": "you speak (pl)",
-      "pl": "mówicie"
-    },
-    {
       "en": "they speak",
       "pl": "mówią"
     },
@@ -173,16 +165,8 @@
       "pl": "lubisz"
     },
     {
-      "en": "he/she likes",
-      "pl": "lubi"
-    },
-    {
       "en": "we like",
       "pl": "lubimy"
-    },
-    {
-      "en": "you like (pl)",
-      "pl": "lubicie"
     },
     {
       "en": "they like",
@@ -197,20 +181,12 @@
       "pl": "robisz"
     },
     {
-      "en": "he/she makes/does",
-      "pl": "robi"
-    },
-    {
-      "en": "they make/do",
-      "pl": "robią"
-    },
-    {
       "en": "we make/do",
       "pl": "robimy"
     },
     {
-      "en": "you make/do (pl)",
-      "pl": "robicie"
+      "en": "they make/do",
+      "pl": "robią"
     }
   ],
   "quiz": [

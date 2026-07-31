@@ -157,10 +157,6 @@
       "pl": "pracujemy"
     },
     {
-      "en": "you work (pl)",
-      "pl": "pracujecie"
-    },
-    {
       "en": "they work",
       "pl": "pracują"
     },
@@ -177,6 +173,10 @@
       "pl": "kupuje"
     },
     {
+      "en": "we buy",
+      "pl": "kupujemy"
+    },
+    {
       "en": "they buy",
       "pl": "kupują"
     },
@@ -187,14 +187,6 @@
     {
       "en": "I study",
       "pl": "studiuję"
-    },
-    {
-      "en": "we buy",
-      "pl": "kupujemy"
-    },
-    {
-      "en": "you buy (pl)",
-      "pl": "kupujecie"
     }
   ],
   "quiz": [
