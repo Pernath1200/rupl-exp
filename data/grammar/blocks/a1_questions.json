@@ -262,103 +262,43 @@
   ],
   "type_items": [
     {
-      "prompt_en": "What?",
+      "prompt_en": "What? (question word)",
       "mode": "full_word",
       "answer": "Co?",
       "accepts": [
-        "Co?",
-        "co"
+        "Co?"
       ]
     },
     {
-      "prompt_en": "Who?",
+      "prompt_en": "Who? (question word)",
       "mode": "full_word",
       "answer": "Kto?",
       "accepts": [
-        "Kto?",
-        "kto"
+        "Kto?"
       ]
     },
     {
-      "prompt_en": "Where?",
+      "prompt_en": "Where? (question word)",
       "mode": "full_word",
       "answer": "Gdzie?",
       "accepts": [
-        "Gdzie?",
-        "gdzie"
+        "Gdzie?"
       ]
     },
     {
-      "prompt_en": "How?",
+      "prompt_en": "How? (question word)",
       "mode": "full_word",
       "answer": "Jak?",
       "accepts": [
-        "Jak?",
-        "jak"
+        "Jak?"
       ]
     },
     {
-      "prompt_en": "What is this?",
+      "prompt_en": "yes/no question starter",
       "mode": "full_word",
-      "answer": "Co to jest?",
+      "answer": "Czy",
       "accepts": [
-        "Co to jest?"
-      ]
-    },
-    {
-      "prompt_en": "Who is this?",
-      "mode": "full_word",
-      "answer": "Kto to jest?",
-      "accepts": [
-        "Kto to jest?"
-      ]
-    },
-    {
-      "prompt_en": "How are you?",
-      "mode": "full_word",
-      "answer": "Jak się masz?",
-      "accepts": [
-        "Jak się masz?"
-      ]
-    },
-    {
-      "prompt_en": "Where do you live?",
-      "mode": "full_word",
-      "answer": "Gdzie mieszkasz?",
-      "accepts": [
-        "Gdzie mieszkasz?"
-      ]
-    },
-    {
-      "prompt_en": "Do you have coffee?",
-      "mode": "full_word",
-      "answer": "Czy masz kawę?",
-      "accepts": [
-        "Czy masz kawę?"
-      ]
-    },
-    {
-      "prompt_en": "Where is mum?",
-      "mode": "full_word",
-      "answer": "Gdzie jest mama?",
-      "accepts": [
-        "Gdzie jest mama?"
-      ]
-    },
-    {
-      "prompt_en": "Do you have tea?",
-      "mode": "full_word",
-      "answer": "Czy masz herbatę?",
-      "accepts": [
-        "Czy masz herbatę?"
-      ]
-    },
-    {
-      "prompt_en": "Where is dad?",
-      "mode": "full_word",
-      "answer": "Gdzie jest tata?",
-      "accepts": [
-        "Gdzie jest tata?"
+        "Czy"
       ]
     }
   ],
@@ -483,7 +423,12 @@
     "kto to jest",
     "jak się masz",
     "gdzie mieszkasz",
-    "czy masz"
+    "czy masz",
+    "Co",
+    "Kto",
+    "Gdzie",
+    "Jak",
+    "Czy"
   ],
   "uses_lemmas": [
     "co",

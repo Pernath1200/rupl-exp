@@ -257,99 +257,67 @@
   ],
   "type_items": [
     {
-      "prompt_en": "I don't have coffee",
+      "prompt_en": "kawa → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam kawy",
+      "answer": "kawy",
       "accepts": [
-        "nie mam kawy"
+        "kawy"
       ]
     },
     {
-      "prompt_en": "I don't have tea",
+      "prompt_en": "herbata → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam herbaty",
+      "answer": "herbaty",
       "accepts": [
-        "nie mam herbaty"
+        "herbaty"
       ]
     },
     {
-      "prompt_en": "I don't have water",
+      "prompt_en": "woda → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam wody",
+      "answer": "wody",
       "accepts": [
-        "nie mam wody"
+        "wody"
       ]
     },
     {
-      "prompt_en": "I don't have time",
+      "prompt_en": "czas → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam czasu",
+      "answer": "czasu",
       "accepts": [
-        "nie mam czasu"
+        "czasu"
       ]
     },
     {
-      "prompt_en": "I don't have a book",
+      "prompt_en": "książka → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam książki",
+      "answer": "książki",
       "accepts": [
-        "nie mam książki"
+        "książki"
       ]
     },
     {
-      "prompt_en": "I don't have a house",
+      "prompt_en": "dom → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie mam domu",
+      "answer": "domu",
       "accepts": [
-        "nie mam domu"
+        "domu"
       ]
     },
     {
-      "prompt_en": "you don't have coffee (sg)",
+      "prompt_en": "mleko → after nie ma (one word)",
       "mode": "full_word",
-      "answer": "nie masz kawy",
+      "answer": "mleka",
       "accepts": [
-        "nie masz kawy"
+        "mleka"
       ]
     },
     {
-      "prompt_en": "she doesn't have tea",
+      "prompt_en": "piwo → after nie mam (one word)",
       "mode": "full_word",
-      "answer": "nie ma herbaty",
+      "answer": "piwa",
       "accepts": [
-        "nie ma herbaty"
-      ]
-    },
-    {
-      "prompt_en": "we don't have water",
-      "mode": "full_word",
-      "answer": "nie mamy wody",
-      "accepts": [
-        "nie mamy wody"
-      ]
-    },
-    {
-      "prompt_en": "you don't have time (sg)",
-      "mode": "full_word",
-      "answer": "nie masz czasu",
-      "accepts": [
-        "nie masz czasu"
-      ]
-    },
-    {
-      "prompt_en": "he doesn't have a book",
-      "mode": "full_word",
-      "answer": "nie ma książki",
-      "accepts": [
-        "nie ma książki"
-      ]
-    },
-    {
-      "prompt_en": "they don't have coffee",
-      "mode": "full_word",
-      "answer": "nie mają kawy",
-      "accepts": [
-        "nie mają kawy"
+        "piwa"
       ]
     }
   ],
@@ -474,7 +442,10 @@
     "czasu",
     "książki",
     "czas",
-    "nie mają"
+    "nie mają",
+    "domu",
+    "mleka",
+    "piwa"
   ],
   "uses_lemmas": [
     "nie mam",

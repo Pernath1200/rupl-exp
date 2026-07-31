@@ -52,7 +52,7 @@ _None._
 | 33 | `leaf_city_a1` | — | 28 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |
 | 34 | `leaf_body_a1` | — | 23 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 35 | `leaf_time_cal_a1` | — | 48 | `byc_adj`, `byc_present`, `miec_acc`, `present_am`, `present_e_esz`, `present_uje`, `social_chunk`, `to_jest`, `zgoda` |
-| 36 | `a1_negation` | `negation` | 11 | `miec_acc`, `miec_present`, `negation` |
+| 36 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |
 | 37 | `trunk_there_time_a1` | `existential_jest` | 0 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
 | 38 | `leaf_health_a1` | — | 23 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
 | 39 | `a1_inst_job` | `inst_identity` | 16 | `byc_present`, `inst_identity` |

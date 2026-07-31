@@ -246,75 +246,75 @@
   ],
   "type_items": [
     {
-      "prompt_en": "This is a house.",
-      "answer": "To jest dom.",
+      "prompt_en": "house (one word)",
+      "mode": "full_word",
+      "answer": "dom",
       "accepts": [
-        "To jest dom.",
-        "To jest dom"
+        "dom"
       ]
     },
     {
-      "prompt_en": "This is coffee.",
-      "answer": "To jest kawa.",
+      "prompt_en": "coffee (one word)",
+      "mode": "full_word",
+      "answer": "kawa",
       "accepts": [
-        "To jest kawa.",
-        "To jest kawa"
+        "kawa"
       ]
     },
     {
-      "prompt_en": "This is a city.",
-      "answer": "To jest miasto.",
+      "prompt_en": "city (one word)",
+      "mode": "full_word",
+      "answer": "miasto",
       "accepts": [
-        "To jest miasto.",
-        "To jest miasto"
+        "miasto"
       ]
     },
     {
-      "prompt_en": "This is a book.",
-      "answer": "To jest książka.",
+      "prompt_en": "book (one word)",
+      "mode": "full_word",
+      "answer": "książka",
       "accepts": [
-        "To jest książka.",
-        "To jest książka"
+        "książka"
       ]
     },
     {
-      "prompt_en": "This is a cat.",
-      "answer": "To jest kot.",
+      "prompt_en": "cat (one word)",
+      "mode": "full_word",
+      "answer": "kot",
       "accepts": [
-        "To jest kot.",
-        "To jest kot"
+        "kot"
       ]
     },
     {
-      "prompt_en": "This is beer.",
-      "answer": "To jest piwo.",
+      "prompt_en": "beer (one word)",
+      "mode": "full_word",
+      "answer": "piwo",
       "accepts": [
-        "To jest piwo.",
-        "To jest piwo"
+        "piwo"
       ]
     },
     {
-      "prompt_en": "This is tea.",
-      "answer": "To jest herbata.",
+      "prompt_en": "tea (one word)",
+      "mode": "full_word",
+      "answer": "herbata",
       "accepts": [
-        "To jest herbata.",
-        "To jest herbata"
+        "herbata"
       ]
     },
     {
-      "prompt_en": "This is a shop.",
-      "answer": "To jest sklep.",
+      "prompt_en": "shop (one word)",
+      "mode": "full_word",
+      "answer": "sklep",
       "accepts": [
-        "To jest sklep.",
-        "To jest sklep"
+        "sklep"
       ]
     },
     {
-      "prompt_en": "This is a sea.",
-      "answer": "To jest morze.",
+      "prompt_en": "sea (one word)",
+      "mode": "full_word",
+      "answer": "morze",
       "accepts": [
-        "To jest morze.",
-        "To jest morze"
+        "morze"
       ]
     }
   ],
