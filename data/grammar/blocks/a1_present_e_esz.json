@@ -405,12 +405,12 @@
       ]
     },
     {
-      "prompt_en": "Type: She wants.",
-      "answer": "Ona chce.",
+      "prompt_en": "Type: She wants water.",
+      "answer": "Ona chce wodę.",
       "accepts": [
-        "Ona chce.",
-        "Chce.",
-        "Ona chce"
+        "Ona chce wodę.",
+        "Ona chce wodę",
+        "Chce wodę."
       ]
     },
     {

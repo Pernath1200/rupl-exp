@@ -495,12 +495,12 @@
       ]
     },
     {
-      "prompt_en": "Type: They speak.",
-      "answer": "Oni mówią.",
+      "prompt_en": "Type: They like beer.",
+      "answer": "Oni lubią piwo.",
       "accepts": [
-        "Oni mówią.",
-        "Oni mówią",
-        "Mówią."
+        "Oni lubią piwo.",
+        "Oni lubią piwo",
+        "Lubią piwo."
       ]
     },
     {
@@ -545,12 +545,11 @@
       ]
     },
     {
-      "prompt_en": "Type: She speaks.",
-      "answer": "Ona mówi.",
+      "prompt_en": "Type: Dad speaks.",
+      "answer": "Tata mówi.",
       "accepts": [
-        "Ona mówi.",
-        "Mówi.",
-        "Ona mówi"
+        "Tata mówi.",
+        "Tata mówi"
       ]
     },
     {
@@ -663,7 +662,8 @@
     "robimy",
     "robicie",
     "robią",
-    "mama"
+    "mama",
+    "tata"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

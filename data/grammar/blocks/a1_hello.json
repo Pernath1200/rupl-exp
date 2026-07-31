@@ -404,12 +404,11 @@
       ]
     },
     {
-      "prompt_en": "Type: We are.",
-      "answer": "Jesteśmy.",
+      "prompt_en": "Type: This is your tea.",
+      "answer": "To jest twoja herbata.",
       "accepts": [
-        "Jesteśmy.",
-        "Jesteśmy",
-        "My jesteśmy."
+        "To jest twoja herbata.",
+        "To jest twoja herbata"
       ]
     },
     {
@@ -421,19 +420,20 @@
       ]
     },
     {
-      "prompt_en": "Type: You are. (sg)",
-      "answer": "Jesteś.",
+      "prompt_en": "Type: Are you Anna?",
+      "answer": "Jesteś Anna?",
       "accepts": [
-        "Jesteś.",
-        "Jesteś"
+        "Jesteś Anna?",
+        "Jesteś Anna",
+        "Czy jesteś Anna?"
       ]
     },
     {
-      "prompt_en": "Type: They are.",
-      "answer": "Są.",
+      "prompt_en": "Type: This is my key.",
+      "answer": "To jest mój klucz.",
       "accepts": [
-        "Są.",
-        "Są"
+        "To jest mój klucz.",
+        "To jest mój klucz"
       ]
     },
     {
@@ -445,11 +445,11 @@
       ]
     },
     {
-      "prompt_en": "Type: I am.",
-      "answer": "Jestem.",
+      "prompt_en": "Type: I am Adam.",
+      "answer": "Jestem Adam.",
       "accepts": [
-        "Jestem.",
-        "Jestem"
+        "Jestem Adam.",
+        "Jestem Adam"
       ]
     },
     {
@@ -461,12 +461,11 @@
       ]
     },
     {
-      "prompt_en": "Type: He is.",
-      "answer": "Jest.",
+      "prompt_en": "Type: This is my table.",
+      "answer": "To jest mój stół.",
       "accepts": [
-        "Jest.",
-        "On jest.",
-        "Jest"
+        "To jest mój stół.",
+        "To jest mój stół"
       ]
     }
   ],
@@ -499,7 +498,10 @@
     "książka",
     "mój",
     "moja",
-    "twoja"
+    "twoja",
+    "stół",
+    "herbata",
+    "klucz"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

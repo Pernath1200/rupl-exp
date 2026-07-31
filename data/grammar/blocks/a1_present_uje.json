@@ -423,6 +423,22 @@
       "accepts": [
         "kupujecie"
       ]
+    },
+    {
+      "prompt_en": "he/she cooks",
+      "mode": "full_word",
+      "answer": "gotuje",
+      "accepts": [
+        "gotuje"
+      ]
+    },
+    {
+      "prompt_en": "he/she studies",
+      "mode": "full_word",
+      "answer": "studiuje",
+      "accepts": [
+        "studiuje"
+      ]
     }
   ],
   "use_items": [
@@ -443,12 +459,11 @@
       ]
     },
     {
-      "prompt_en": "Type: He works.",
-      "answer": "On pracuje.",
+      "prompt_en": "Type: Brother works.",
+      "answer": "Brat pracuje.",
       "accepts": [
-        "On pracuje.",
-        "Pracuje.",
-        "On pracuje"
+        "Brat pracuje.",
+        "Brat pracuje"
       ]
     },
     {
@@ -469,12 +484,11 @@
       ]
     },
     {
-      "prompt_en": "Type: They work.",
-      "answer": "Oni pracują.",
+      "prompt_en": "Type: Dad cooks.",
+      "answer": "Tata gotuje.",
       "accepts": [
-        "Oni pracują.",
-        "Oni pracują",
-        "Pracują."
+        "Tata gotuje.",
+        "Tata gotuje"
       ]
     },
     {
@@ -510,19 +524,19 @@
       ]
     },
     {
-      "prompt_en": "Type: I cook.",
-      "answer": "Gotuję.",
+      "prompt_en": "Type: I am cooking dinner.",
+      "answer": "Gotuję obiad.",
       "accepts": [
-        "Gotuję.",
-        "Gotuję"
+        "Gotuję obiad.",
+        "Gotuję obiad"
       ]
     },
     {
-      "prompt_en": "Type: I study.",
-      "answer": "Studiuję.",
+      "prompt_en": "Type: Sister studies.",
+      "answer": "Siostra studiuje.",
       "accepts": [
-        "Studiuję.",
-        "Studiuję"
+        "Siostra studiuje.",
+        "Siostra studiuje"
       ]
     }
   ],
@@ -553,7 +567,9 @@
     "studiować",
     "studiuję",
     "kupujemy",
-    "kupujecie"
+    "kupujecie",
+    "gotuje",
+    "studiuje"
   ],
   "uses_lemmas": [
     "pracować",
@@ -581,7 +597,13 @@
     "wodę",
     "mama",
     "kupujemy",
-    "kupujecie"
+    "kupujecie",
+    "brat",
+    "tata",
+    "siostra",
+    "gotuje",
+    "studiuje",
+    "obiad"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

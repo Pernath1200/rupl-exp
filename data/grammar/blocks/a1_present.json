@@ -538,12 +538,11 @@
       ]
     },
     {
-      "prompt_en": "Type: She lives.",
-      "answer": "Ona mieszka.",
+      "prompt_en": "Type: Sister lives.",
+      "answer": "Siostra mieszka.",
       "accepts": [
-        "Ona mieszka.",
-        "Ona mieszka",
-        "Mieszka."
+        "Siostra mieszka.",
+        "Siostra mieszka"
       ]
     },
     {
@@ -580,12 +579,11 @@
       ]
     },
     {
-      "prompt_en": "Type: They are playing.",
-      "answer": "Oni grają.",
+      "prompt_en": "Type: The child plays.",
+      "answer": "Dziecko gra.",
       "accepts": [
-        "Oni grają.",
-        "Oni grają",
-        "Grają."
+        "Dziecko gra.",
+        "Dziecko gra"
       ]
     },
     {
@@ -622,11 +620,11 @@
       ]
     },
     {
-      "prompt_en": "Type: We are playing.",
-      "answer": "Gramy.",
+      "prompt_en": "Type: We know mum.",
+      "answer": "Znamy mamę.",
       "accepts": [
-        "Gramy.",
-        "Gramy"
+        "Znamy mamę.",
+        "Znamy mamę"
       ]
     }
   ],
@@ -716,7 +714,9 @@
     "książka",
     "książkę",
     "kawa",
-    "kawę"
+    "kawę",
+    "dziecko",
+    "znamy"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

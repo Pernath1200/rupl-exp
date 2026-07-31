@@ -34,7 +34,7 @@ _None._
 | 15 | `a1_present` | `present`, `present_am` | 35 | `miec_acc`, `present`, `present_am` |
 | 16 | `a1_present_e_isz` | `present`, `present_e_isz` | 21 | `miec_acc`, `present`, `present_e_isz` |
 | 17 | `a1_present_e_esz` | `present`, `present_e_esz` | 14 | `miec_acc`, `present`, `present_e_esz` |
-| 18 | `a1_present_uje` | `present`, `present_uje` | 18 | `miec_acc`, `present`, `present_uje` |
+| 18 | `a1_present_uje` | `present`, `present_uje` | 20 | `miec_acc`, `present`, `present_uje` |
 | 19 | `a1_present_gym` | — | 0 | `miec_acc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje` |
 | 20 | `leaf_shopping_a1` | — | 36 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `present_uje`, `to_jest`, `zgoda` |
 | 21 | `leaf_freetime_a1` | — | 78 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `to_jest` |

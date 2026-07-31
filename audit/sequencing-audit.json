@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T10:45:00+02:00",
+  "generated_at": "2026-07-31T11:00:07+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -486,7 +486,7 @@
         "present",
         "present_uje"
       ],
-      "teaches_lemmas_n": 18,
+      "teaches_lemmas_n": 20,
       "uses_structures": [
         "miec_acc",
         "present",

@@ -425,11 +425,12 @@
       ]
     },
     {
-      "prompt_en": "Type: I speak.",
-      "answer": "Mówię.",
+      "prompt_en": "Type: Mum is making dinner.",
+      "answer": "Mama robi obiad.",
       "accepts": [
-        "Mówię.",
-        "Mówię"
+        "Mama robi obiad.",
+        "Mama robi obiad",
+        "Robi obiad."
       ]
     },
     {
@@ -457,11 +458,11 @@
       ]
     },
     {
-      "prompt_en": "Type: We live.",
-      "answer": "Mieszkamy.",
+      "prompt_en": "Type: We are reading the menu.",
+      "answer": "Czytamy menu.",
       "accepts": [
-        "Mieszkamy.",
-        "Mieszkamy"
+        "Czytamy menu.",
+        "Czytamy menu"
       ]
     },
     {
@@ -483,11 +484,11 @@
       ]
     },
     {
-      "prompt_en": "Type: I work.",
-      "answer": "Pracuję.",
+      "prompt_en": "Type: Dad works.",
+      "answer": "Tata pracuje.",
       "accepts": [
-        "Pracuję.",
-        "Pracuję"
+        "Tata pracuje.",
+        "Tata pracuje"
       ]
     },
     {
@@ -540,7 +541,13 @@
     "kawa",
     "kawę",
     "herbata",
-    "herbatę"
+    "herbatę",
+    "obiad",
+    "menu",
+    "tata",
+    "robi",
+    "czytamy",
+    "pracuje"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",
