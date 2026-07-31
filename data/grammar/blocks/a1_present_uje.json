@@ -401,11 +401,11 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I work.",
-      "answer": "Pracuję.",
+      "prompt_en": "Type: Mum works.",
+      "answer": "Mama pracuje.",
       "accepts": [
-        "Pracuję.",
-        "Pracuję"
+        "Mama pracuje.",
+        "Mama pracuje"
       ]
     },
     {
@@ -426,27 +426,29 @@
       ]
     },
     {
-      "prompt_en": "Type: We work.",
-      "answer": "Pracujemy.",
+      "prompt_en": "Type: We are buying bread.",
+      "answer": "Kupujemy chleb.",
       "accepts": [
-        "Pracujemy.",
-        "Pracujemy"
+        "Kupujemy chleb.",
+        "Kupujemy chleb"
       ]
     },
     {
-      "prompt_en": "Type: You work. (pl)",
-      "answer": "Pracujecie.",
+      "prompt_en": "Type: Are you buying coffee? (pl)",
+      "answer": "Kupujecie kawę?",
       "accepts": [
-        "Pracujecie.",
-        "Pracujecie"
+        "Kupujecie kawę?",
+        "Kupujecie kawę",
+        "Czy kupujecie kawę?"
       ]
     },
     {
       "prompt_en": "Type: They work.",
-      "answer": "Pracują.",
+      "answer": "Oni pracują.",
       "accepts": [
-        "Pracują.",
-        "Pracują"
+        "Oni pracują.",
+        "Oni pracują",
+        "Pracują."
       ]
     },
     {
@@ -548,7 +550,8 @@
     "książka",
     "książkę",
     "woda",
-    "wodę"
+    "wodę",
+    "mama"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

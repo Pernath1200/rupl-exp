@@ -562,6 +562,22 @@
       "accepts": [
         "brata"
       ]
+    },
+    {
+      "prompt_en": "mama → Acc (one word)",
+      "mode": "full_word",
+      "answer": "mamę",
+      "accepts": [
+        "mamę"
+      ]
+    },
+    {
+      "prompt_en": "tata → Acc (one word · -a → -ę even for people)",
+      "mode": "full_word",
+      "answer": "tatę",
+      "accepts": [
+        "tatę"
+      ]
     }
   ],
   "use_items": [
@@ -688,6 +704,14 @@
         "Ona ma kota",
         "Ma kota."
       ]
+    },
+    {
+      "prompt_en": "Type: I have a mum.",
+      "answer": "Mam mamę.",
+      "accepts": [
+        "Mam mamę.",
+        "Mam mamę"
+      ]
     }
   ],
   "teaches_structures": [
@@ -714,7 +738,9 @@
     "psa",
     "brata",
     "pies",
-    "brat"
+    "brat",
+    "mamę",
+    "tatę"
   ],
   "uses_lemmas": [
     "mam",
@@ -740,7 +766,11 @@
     "pies",
     "psa",
     "brat",
-    "brata"
+    "brata",
+    "mama",
+    "mamę",
+    "tata",
+    "tatę"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

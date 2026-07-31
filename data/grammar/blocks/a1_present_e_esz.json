@@ -431,19 +431,20 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I want.",
-      "answer": "Chcę.",
+      "prompt_en": "Type: Dad wants coffee.",
+      "answer": "Tata chce kawę.",
       "accepts": [
-        "Chcę.",
-        "Chcę"
+        "Tata chce kawę.",
+        "Tata chce kawę"
       ]
     },
     {
-      "prompt_en": "Type: You want. (sg)",
-      "answer": "Chcesz.",
+      "prompt_en": "Type: Do you want beer? (sg)",
+      "answer": "Chcesz piwo?",
       "accepts": [
-        "Chcesz.",
-        "Chcesz"
+        "Chcesz piwo?",
+        "Chcesz piwo",
+        "Czy chcesz piwo?"
       ]
     },
     {
@@ -456,27 +457,28 @@
       ]
     },
     {
-      "prompt_en": "Type: We want.",
-      "answer": "Chcemy.",
+      "prompt_en": "Type: We are drinking water.",
+      "answer": "Pijemy wodę.",
       "accepts": [
-        "Chcemy.",
-        "Chcemy"
+        "Pijemy wodę.",
+        "Pijemy wodę"
       ]
     },
     {
-      "prompt_en": "Type: You want. (pl)",
-      "answer": "Chcecie.",
+      "prompt_en": "Type: Mum wants tea.",
+      "answer": "Mama chce herbatę.",
       "accepts": [
-        "Chcecie.",
-        "Chcecie"
+        "Mama chce herbatę.",
+        "Mama chce herbatę"
       ]
     },
     {
-      "prompt_en": "Type: They want.",
-      "answer": "Chcą.",
+      "prompt_en": "Type: They want bread.",
+      "answer": "Oni chcą chleb.",
       "accepts": [
-        "Chcą.",
-        "Chcą"
+        "Oni chcą chleb.",
+        "Oni chcą chleb",
+        "Chcą chleb."
       ]
     },
     {
@@ -609,7 +611,10 @@
     "pije",
     "pijemy",
     "pijecie",
-    "piją"
+    "piją",
+    "tata",
+    "mama",
+    "chleb"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

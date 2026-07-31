@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "ONE class (-am). mieszkać + czytać + grać. Match = clean EN→form only. ERROR items in Quiz. No w/na.",
+  "note": "ONE class (-am). mieszkać + czytać + grać + znać + kochać. znać/kochać give clean Acc objects so Użycie is real sentences (mieszkać = subject+verb only until preps). No w/na.",
   "focus_structures": [
     "present_am"
   ],
@@ -204,6 +204,22 @@
     {
       "en": "they play",
       "pl": "grają"
+    },
+    {
+      "en": "I know",
+      "pl": "znam"
+    },
+    {
+      "en": "you know (sg)",
+      "pl": "znasz"
+    },
+    {
+      "en": "I love",
+      "pl": "kocham"
+    },
+    {
+      "en": "they love",
+      "pl": "kochają"
     }
   ],
   "quiz": [
@@ -346,6 +362,26 @@
         "grają"
       ],
       "answer": "grają"
+    },
+    {
+      "prompt": "I know →",
+      "choices": [
+        "znam",
+        "znasz",
+        "zna",
+        "znają"
+      ],
+      "answer": "znam"
+    },
+    {
+      "prompt": "I love →",
+      "choices": [
+        "kocham",
+        "kochasz",
+        "kocha",
+        "kochamy"
+      ],
+      "answer": "kocham"
     }
   ],
   "type_items": [
@@ -476,140 +512,139 @@
       "accepts": [
         "grają"
       ]
+    },
+    {
+      "prompt_en": "I know",
+      "mode": "full_word",
+      "answer": "znam",
+      "accepts": [
+        "znam"
+      ]
+    },
+    {
+      "prompt_en": "you know (sg)",
+      "mode": "full_word",
+      "answer": "znasz",
+      "accepts": [
+        "znasz"
+      ]
+    },
+    {
+      "prompt_en": "I love",
+      "mode": "full_word",
+      "answer": "kocham",
+      "accepts": [
+        "kocham"
+      ]
+    },
+    {
+      "prompt_en": "he/she loves",
+      "mode": "full_word",
+      "answer": "kocha",
+      "accepts": [
+        "kocha"
+      ]
     }
   ],
   "use_items": [
-    {
-      "prompt_en": "Type: I live.",
-      "answer": "Mieszkam.",
-      "accepts": [
-        "Mieszkam.",
-        "Mieszkam"
-      ]
-    },
-    {
-      "prompt_en": "Type: You live. (sg)",
-      "answer": "Mieszkasz.",
-      "accepts": [
-        "Mieszkasz.",
-        "Mieszkasz"
-      ]
-    },
     {
       "prompt_en": "Type: Mum lives.",
       "answer": "Mama mieszka.",
       "accepts": [
         "Mama mieszka.",
-        "Mama mieszka",
+        "Mama mieszka"
+      ]
+    },
+    {
+      "prompt_en": "Type: She lives.",
+      "answer": "Ona mieszka.",
+      "accepts": [
         "Ona mieszka.",
-        "Ona mieszka"
+        "Ona mieszka",
+        "Mieszka."
       ]
     },
     {
-      "prompt_en": "Type: We live.",
-      "answer": "Mieszkamy.",
+      "prompt_en": "Type: I am reading a book.",
+      "answer": "Czytam książkę.",
       "accepts": [
-        "Mieszkamy.",
-        "Mieszkamy"
+        "Czytam książkę.",
+        "Czytam książkę"
       ]
     },
     {
-      "prompt_en": "Type: You live. (pl)",
-      "answer": "Mieszkacie.",
+      "prompt_en": "Type: Are you reading a book? (sg)",
+      "answer": "Czytasz książkę?",
       "accepts": [
-        "Mieszkacie.",
-        "Mieszkacie"
+        "Czytasz książkę?",
+        "Czytasz książkę",
+        "Czy czytasz książkę?"
       ]
     },
     {
-      "prompt_en": "Type: They live.",
-      "answer": "Mieszkają.",
+      "prompt_en": "Type: I am reading the menu.",
+      "answer": "Czytam menu.",
       "accepts": [
-        "Mieszkają.",
-        "Mieszkają"
+        "Czytam menu.",
+        "Czytam menu"
       ]
     },
     {
-      "prompt_en": "Type: I read.",
-      "answer": "Czytam.",
-      "accepts": [
-        "Czytam.",
-        "Czytam"
-      ]
-    },
-    {
-      "prompt_en": "Type: You read. (sg)",
-      "answer": "Czytasz.",
-      "accepts": [
-        "Czytasz.",
-        "Czytasz"
-      ]
-    },
-    {
-      "prompt_en": "Type: Brother reads.",
+      "prompt_en": "Type: Brother is reading.",
       "answer": "Brat czyta.",
       "accepts": [
         "Brat czyta.",
-        "Brat czyta",
-        "On czyta.",
-        "On czyta"
+        "Brat czyta"
       ]
     },
     {
-      "prompt_en": "Type: We read.",
-      "answer": "Czytamy.",
+      "prompt_en": "Type: They are playing.",
+      "answer": "Oni grają.",
       "accepts": [
-        "Czytamy.",
-        "Czytamy"
+        "Oni grają.",
+        "Oni grają",
+        "Grają."
       ]
     },
     {
-      "prompt_en": "Type: Sister reads.",
-      "answer": "Siostra czyta.",
+      "prompt_en": "Type: I know mum.",
+      "answer": "Znam mamę.",
       "accepts": [
-        "Siostra czyta.",
-        "Siostra czyta"
+        "Znam mamę.",
+        "Znam mamę"
       ]
     },
     {
-      "prompt_en": "Type: They read.",
-      "answer": "Czytają.",
+      "prompt_en": "Type: Do you know dad? (sg)",
+      "answer": "Znasz tatę?",
       "accepts": [
-        "Czytają.",
-        "Czytają"
+        "Znasz tatę?",
+        "Znasz tatę",
+        "Czy znasz tatę?"
       ]
     },
     {
-      "prompt_en": "Type: I play.",
-      "answer": "Gram.",
+      "prompt_en": "Type: I love coffee.",
+      "answer": "Kocham kawę.",
       "accepts": [
-        "Gram.",
-        "Gram"
+        "Kocham kawę.",
+        "Kocham kawę"
       ]
     },
     {
-      "prompt_en": "Type: He plays.",
-      "answer": "On gra.",
+      "prompt_en": "Type: Mum loves dad.",
+      "answer": "Mama kocha tatę.",
       "accepts": [
-        "On gra.",
-        "On gra",
-        "Gra."
+        "Mama kocha tatę.",
+        "Mama kocha tatę"
       ]
     },
     {
-      "prompt_en": "Type: We play.",
+      "prompt_en": "Type: We are playing.",
       "answer": "Gramy.",
       "accepts": [
         "Gramy.",
         "Gramy"
-      ]
-    },
-    {
-      "prompt_en": "Type: They play.",
-      "answer": "Grają.",
-      "accepts": [
-        "Grają.",
-        "Grają"
       ]
     }
   ],
@@ -619,7 +654,8 @@
   ],
   "uses_structures": [
     "present_am",
-    "present"
+    "present",
+    "miec_acc"
   ],
   "teaches_lemmas": [
     "mieszkać",
@@ -642,7 +678,21 @@
     "gra",
     "gramy",
     "gracie",
-    "grają"
+    "grają",
+    "znać",
+    "znam",
+    "znasz",
+    "zna",
+    "znamy",
+    "znacie",
+    "znają",
+    "kochać",
+    "kocham",
+    "kochasz",
+    "kocha",
+    "kochamy",
+    "kochacie",
+    "kochają"
   ],
   "uses_lemmas": [
     "mieszkać",
@@ -670,7 +720,24 @@
     "gra",
     "gramy",
     "gracie",
-    "grają"
+    "grają",
+    "znać",
+    "znam",
+    "znasz",
+    "kochać",
+    "kocham",
+    "kocha",
+    "kochają",
+    "menu",
+    "mama",
+    "mamę",
+    "tata",
+    "tatę",
+    "brat",
+    "książka",
+    "książkę",
+    "kawa",
+    "kawę"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

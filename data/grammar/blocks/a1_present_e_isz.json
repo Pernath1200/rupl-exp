@@ -473,35 +473,37 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I speak.",
-      "answer": "Mówię.",
+      "prompt_en": "Type: Mum speaks.",
+      "answer": "Mama mówi.",
       "accepts": [
-        "Mówię.",
-        "Mówię"
+        "Mama mówi.",
+        "Mama mówi"
       ]
     },
     {
-      "prompt_en": "Type: We speak.",
-      "answer": "Mówimy.",
+      "prompt_en": "Type: We are making tea.",
+      "answer": "Robimy herbatę.",
       "accepts": [
-        "Mówimy.",
-        "Mówimy"
+        "Robimy herbatę.",
+        "Robimy herbatę"
       ]
     },
     {
       "prompt_en": "Type: They speak.",
-      "answer": "Mówią.",
+      "answer": "Oni mówią.",
       "accepts": [
-        "Mówią.",
-        "Mówią"
+        "Oni mówią.",
+        "Oni mówią",
+        "Mówią."
       ]
     },
     {
-      "prompt_en": "Type: You speak. (pl)",
-      "answer": "Mówicie.",
+      "prompt_en": "Type: Are you making coffee? (pl)",
+      "answer": "Robicie kawę?",
       "accepts": [
-        "Mówicie.",
-        "Mówicie"
+        "Robicie kawę?",
+        "Robicie kawę",
+        "Czy robicie kawę?"
       ]
     },
     {
@@ -554,11 +556,12 @@
       ]
     },
     {
-      "prompt_en": "Type: You speak. (sg)",
-      "answer": "Mówisz.",
+      "prompt_en": "Type: Are you making coffee? (sg)",
+      "answer": "Robisz kawę?",
       "accepts": [
-        "Mówisz.",
-        "Mówisz"
+        "Robisz kawę?",
+        "Robisz kawę",
+        "Czy robisz kawę?"
       ]
     },
     {
@@ -653,7 +656,8 @@
     "robi",
     "robimy",
     "robicie",
-    "robią"
+    "robią",
+    "mama"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

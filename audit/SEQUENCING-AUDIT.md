@@ -25,13 +25,13 @@ _None._
 | 6 | `a1_gender_check` | `zgoda` | 6 | `to_jest`, `zgoda` |
 | 7 | `a1_gender_gym` | `ten_ta_to` | 4 | `ten_ta_to`, `to_jest` |
 | 8 | `trunk_adjectives_a1` | `byc_adj` | 0 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
-| 9 | `a1_miec` | `miec_acc`, `miec_present` | 16 | `miec_acc`, `miec_present` |
+| 9 | `a1_miec` | `miec_acc`, `miec_present` | 18 | `miec_acc`, `miec_present` |
 | 10 | `a1_acc_gym` | — | 0 | `miec_acc`, `miec_present`, `to_jest` |
 | 11 | `leaf_food_a1` | — | 47 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest` |
 | 12 | `leaf_animals_a1` | — | 24 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 13 | `leaf_colours_a1` | — | 12 | `byc_adj`, `byc_present`, `to_jest`, `zgoda` |
 | 14 | `leaf_numbers_a1` | — | 39 | `miec_present`, `social_chunk` |
-| 15 | `a1_present` | `present`, `present_am` | 21 | `present`, `present_am` |
+| 15 | `a1_present` | `present`, `present_am` | 35 | `miec_acc`, `present`, `present_am` |
 | 16 | `a1_present_e_isz` | `present`, `present_e_isz` | 21 | `miec_acc`, `present`, `present_e_isz` |
 | 17 | `a1_present_e_esz` | `present`, `present_e_esz` | 14 | `miec_acc`, `present`, `present_e_esz` |
 | 18 | `a1_present_uje` | `present`, `present_uje` | 16 | `miec_acc`, `present`, `present_uje` |
