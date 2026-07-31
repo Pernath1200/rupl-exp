@@ -1,27 +1,27 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
-  <title>Polski Â· RUPL-exp</title>
+  <title>Polski · RUPL-exp</title>
   <link rel="stylesheet" href="./css/app.css?v=2026-07-31-icons" />
 </head>
 <body>
   <div class="container">
     <div class="util-bar">
       <span class="brand">RUPL-exp</span>
-      <span class="sep">Â·</span>
-      <span>gramatyka + sÅ‚Ã³wka</span>
-      <span class="sep">Â·</span>
+      <span class="sep">·</span>
+      <span>gramatyka + słówka</span>
+      <span class="sep">·</span>
       <span>v0.1</span>
       <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false">Tryb autorski</button>
     </div>
 
-    <h1>Polski Â· Jedno drzewo</h1>
+    <h1>Polski · Jedno drzewo</h1>
     <p class="sub">
-      <strong>System</strong> (korzenie) i <strong>sÅ‚Ã³wka</strong> (pieÅ„/liÅ›cie) w jednej aplikacji.
-      ÅšcieÅ¼ka: najpierw ucz wzorca, potem uÅ¼yj w temacie.
+      <strong>System</strong> (korzenie) i <strong>słówka</strong> (pień/liście) w jednej aplikacji.
+      Ścieżka: najpierw ucz wzorca, potem użyj w temacie.
     </p>
     <p id="author-hint" class="practice-hint" hidden style="color: var(--accent); margin-top: -0.75rem"></p>
     <div id="boot-error" class="card" hidden></div>
@@ -35,63 +35,63 @@
       </div>
 
       <div class="card" id="up-next-card">
-        <h2>ZrÃ³b to dalej Â· Å›cieÅ¼ka</h2>
+        <h2>Zrób to dalej · ścieżka</h2>
         <div id="up-next"></div>
       </div>
 
-      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">PokaÅ¼ drzewo i wszystkie jednostki â–¾</button>
+      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">Pokaż drzewo i wszystkie jednostki ▾</button>
 
       <div id="map-more" hidden>
         <div class="card" id="tree-portrait-card">
           <h2>Portret drzewa</h2>
           <p class="tree-legend">
-            Sadzonka roÅ›nie z poziomem (A1 maÅ‚a â†’ A2 wyÅ¼sza) Â· korzenie = gramatyka Â· pieÅ„/liÅ›cie = sÅ‚Ã³wka Â· zieleÅ„ = owoc Â· nawigacja = Å›cieÅ¼ka
+            Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
           </p>
           <div id="tree-portrait" class="tree-portrait-host"></div>
         </div>
 
         <div class="panel-grid">
           <div class="card domain-grammar">
-            <h2>Korzenie Â· gramatyka</h2>
-            <p class="tree-legend">WypeÅ‚nienie z owocÃ³w gramatycznych</p>
+            <h2>Korzenie · gramatyka</h2>
+            <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
             <div id="roots-strip" class="roots-strip"></div>
           </div>
           <div class="card domain-vocab">
-            <h2>LiÅ›cie Â· sÅ‚Ã³wka</h2>
-            <p class="tree-legend" id="vocab-fill-legend">Owoc sÅ‚Ã³wek na Å›cieÅ¼ce spine</p>
+            <h2>Liście · słówka</h2>
+            <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
             <div id="vocab-fill" class="roots-strip"></div>
           </div>
         </div>
 
         <div class="card">
-          <h2>ÅšcieÅ¼ka (spine Â· teach â†’ use)</h2>
-          <p class="tree-legend">MiedÅº = gramatyka Â· bursztyn = sÅ‚Ã³wka Â· kliknij â†’ szczegÃ³Å‚y (nie otwiera Ä‡wiczenia)</p>
+          <h2>Ścieżka (spine · teach → use)</h2>
+          <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
           <ul id="path-list" class="path-list"></ul>
         </div>
       </div>
 
       <div class="card" id="node-detail-card">
-        <h2>WÄ™zeÅ‚</h2>
+        <h2>Węzeł</h2>
         <div id="node-detail"></div>
       </div>
     </div>
 
     <div id="view-practice" class="card" hidden>
       <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
-        <button type="button" class="btn smoke-flag-btn" id="p-flag">âš‘ Flag item</button>
+        <button type="button" class="btn smoke-flag-btn" id="p-flag">⚑ Flag item</button>
         <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge>Flagged list</button>
-        <span class="smoke-toolbar-hint">Smoke Â· local notes</span>
+        <span class="smoke-toolbar-hint">Smoke · local notes</span>
       </div>
       <div id="practice-root"></div>
       <div class="practice-exit">
-        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1">â† Wstecz do mapy</button>
+        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1">← Wstecz do mapy</button>
       </div>
     </div>
 
     <div id="smoke-flags-host"></div>
 
     <p class="foot">
-      Port <code>8096</code> Â· progress <code>rupl-exp-v0.1-progress</code>
+      Port <code>8096</code> · progress <code>rupl-exp-v0.1-progress</code>
     </p>
   </div>
   <script type="module" src="./js/app.js?v=2026-07-31-icons"></script>
