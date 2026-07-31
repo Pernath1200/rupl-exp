@@ -607,8 +607,8 @@
     {
       "id": "a1_present_gym",
       "domain": "grammar",
-      "label": "Siłownia · teraźniejszy",
-      "label_en": "Present ending gym",
+      "label": "Siłownia · teraźniejszy (4 wzorce)",
+      "label_en": "Present gym · four classes",
       "kind": "topic",
       "root": "verbs",
       "tree_part": "verbs",
@@ -620,7 +620,7 @@
       "foundation": true,
       "content": "grammar/blocks/a1_present_gym.json",
       "practice": "grammar",
-      "note": "Mixed present classes · after all three teaches · volume",
+      "note": "After all four present classes. Mixed discrimination · full-word typing. No prep/Loc until a1_prep_place.",
       "pedagogy": "drill",
       "spine_support_of": "a1_present_e_esz"
     },

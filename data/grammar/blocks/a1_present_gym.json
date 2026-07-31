@@ -1,7 +1,7 @@
 {
   "id": "a1_present_gym",
-  "title": "Siłownia · teraźniejszy (3 wzorce)",
-  "title_en": "Present ending gym",
+  "title": "Siłownia · teraźniejszy (4 wzorce)",
+  "title_en": "Present gym · all four classes mixed",
   "level": "A1",
   "tree_node": "a1_present_gym",
   "kind": "morphology",
@@ -276,141 +276,222 @@
   "type_items": [
     {
       "prompt_en": "ja · mieszkać",
-      "stem": "mieszk",
-      "ending": "am",
+      "mode": "full_word",
+      "answer": "mieszkam",
+      "accepts": [
+        "mieszkam"
+      ],
       "hint": "pattern -am"
     },
     {
       "prompt_en": "ty · mieszkać",
-      "stem": "mieszk",
-      "ending": "asz"
+      "mode": "full_word",
+      "answer": "mieszkasz",
+      "accepts": [
+        "mieszkasz"
+      ]
     },
     {
       "prompt_en": "on · mieszkać",
-      "stem": "mieszk",
-      "ending": "a"
+      "mode": "full_word",
+      "answer": "mieszka",
+      "accepts": [
+        "mieszka"
+      ]
     },
     {
       "prompt_en": "ja · czytać",
-      "stem": "czyt",
-      "ending": "am"
+      "mode": "full_word",
+      "answer": "czytam",
+      "accepts": [
+        "czytam"
+      ]
     },
     {
       "prompt_en": "ty · czytać",
-      "stem": "czyt",
-      "ending": "asz"
+      "mode": "full_word",
+      "answer": "czytasz",
+      "accepts": [
+        "czytasz"
+      ]
     },
     {
       "prompt_en": "ona · czytać",
-      "stem": "czyt",
-      "ending": "a"
+      "mode": "full_word",
+      "answer": "czyta",
+      "accepts": [
+        "czyta"
+      ]
     },
     {
       "prompt_en": "ja · mówić",
-      "stem": "mów",
-      "ending": "ię"
+      "mode": "full_word",
+      "answer": "mówię",
+      "accepts": [
+        "mówię"
+      ]
     },
     {
       "prompt_en": "ty · mówić",
-      "stem": "mów",
-      "ending": "isz"
+      "mode": "full_word",
+      "answer": "mówisz",
+      "accepts": [
+        "mówisz"
+      ]
     },
     {
       "prompt_en": "on · mówić",
-      "stem": "mów",
-      "ending": "i"
+      "mode": "full_word",
+      "answer": "mówi",
+      "accepts": [
+        "mówi"
+      ]
     },
     {
       "prompt_en": "ja · lubić",
-      "stem": "lub",
-      "ending": "ię"
+      "mode": "full_word",
+      "answer": "lubię",
+      "accepts": [
+        "lubię"
+      ]
     },
     {
       "prompt_en": "ty · lubić",
-      "stem": "lub",
-      "ending": "isz"
+      "mode": "full_word",
+      "answer": "lubisz",
+      "accepts": [
+        "lubisz"
+      ]
     },
     {
       "prompt_en": "ona · lubić",
-      "stem": "lub",
-      "ending": "i"
+      "mode": "full_word",
+      "answer": "lubi",
+      "accepts": [
+        "lubi"
+      ]
     },
     {
       "prompt_en": "ja · robić",
-      "stem": "rob",
-      "ending": "ię"
+      "mode": "full_word",
+      "answer": "robię",
+      "accepts": [
+        "robię"
+      ]
     },
     {
       "prompt_en": "ty · robić",
-      "stem": "rob",
-      "ending": "isz"
+      "mode": "full_word",
+      "answer": "robisz",
+      "accepts": [
+        "robisz"
+      ]
     },
     {
       "prompt_en": "on · robić",
-      "stem": "rob",
-      "ending": "i"
+      "mode": "full_word",
+      "answer": "robi",
+      "accepts": [
+        "robi"
+      ]
     },
     {
       "prompt_en": "ja · chcieć",
-      "stem": "chc",
-      "ending": "ę",
+      "mode": "full_word",
+      "answer": "chcę",
+      "accepts": [
+        "chcę"
+      ],
       "hint": "chcę — ę not e"
     },
     {
       "prompt_en": "ty · chcieć",
-      "stem": "chc",
-      "ending": "esz"
+      "mode": "full_word",
+      "answer": "chcesz",
+      "accepts": [
+        "chcesz"
+      ]
     },
     {
       "prompt_en": "ona · chcieć",
-      "stem": "chc",
-      "ending": "e"
+      "mode": "full_word",
+      "answer": "chce",
+      "accepts": [
+        "chce"
+      ]
     },
     {
       "prompt_en": "ja · pisać",
-      "stem": "pisz",
-      "ending": "ę"
+      "mode": "full_word",
+      "answer": "piszę",
+      "accepts": [
+        "piszę"
+      ]
     },
     {
       "prompt_en": "ty · pisać",
-      "stem": "pisz",
-      "ending": "esz"
+      "mode": "full_word",
+      "answer": "piszesz",
+      "accepts": [
+        "piszesz"
+      ]
     },
     {
       "prompt_en": "on · pisać",
-      "stem": "pisz",
-      "ending": "e"
+      "mode": "full_word",
+      "answer": "pisze",
+      "accepts": [
+        "pisze"
+      ]
     },
     {
       "prompt_en": "ja · uczyć",
-      "stem": "ucz",
-      "ending": "ę"
+      "mode": "full_word",
+      "answer": "uczę",
+      "accepts": [
+        "uczę"
+      ]
     },
     {
       "prompt_en": "ty · uczyć",
-      "stem": "ucz",
-      "ending": "ysz"
+      "mode": "full_word",
+      "answer": "uczysz",
+      "accepts": [
+        "uczysz"
+      ]
     },
     {
       "prompt_en": "ona · uczyć",
-      "stem": "ucz",
-      "ending": "y"
+      "mode": "full_word",
+      "answer": "uczy",
+      "accepts": [
+        "uczy"
+      ]
     },
     {
       "prompt_en": "ja · pracować",
-      "stem": "prac",
-      "ending": "uję",
+      "mode": "full_word",
+      "answer": "pracuję",
+      "accepts": [
+        "pracuję"
+      ],
       "hint": "pattern -ować → -uję"
     },
     {
       "prompt_en": "ty · kupować",
-      "stem": "kup",
-      "ending": "ujesz"
+      "mode": "full_word",
+      "answer": "kupujesz",
+      "accepts": [
+        "kupujesz"
+      ]
     },
     {
       "prompt_en": "on · pracować",
-      "stem": "prac",
-      "ending": "uje"
+      "mode": "full_word",
+      "answer": "pracuje",
+      "accepts": [
+        "pracuje"
+      ]
     }
   ],
   "use_items": [
