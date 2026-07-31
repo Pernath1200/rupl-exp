@@ -127,6 +127,194 @@
   ],
   "uses_structures": [
     "to_jest",
-    "zgoda"
+    "zgoda",
+    "byc_adj",
+    "byc_present",
+    "poss_nom"
+  ],
+  "sentences": [
+    {
+      "en": "This is my hand.",
+      "pl": "To jest moja ręka.",
+      "accepts": [
+        "To jest moja ręka.",
+        "To jest moja ręka"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "ręka"
+      ]
+    },
+    {
+      "en": "The eye is blue.",
+      "pl": "Oko jest niebieskie.",
+      "accepts": [
+        "Oko jest niebieskie.",
+        "Oko jest niebieskie"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "oko"
+      ]
+    },
+    {
+      "en": "Blood is red.",
+      "pl": "Krew jest czerwona.",
+      "accepts": [
+        "Krew jest czerwona.",
+        "Krew jest czerwona"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "krew"
+      ]
+    },
+    {
+      "en": "The tooth is white.",
+      "pl": "Ząb jest biały.",
+      "accepts": [
+        "Ząb jest biały.",
+        "Ząb jest biały"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "ząb"
+      ]
+    },
+    {
+      "en": "The nose is small.",
+      "pl": "Nos jest mały.",
+      "accepts": [
+        "Nos jest mały.",
+        "Nos jest mały"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "nos"
+      ]
+    },
+    {
+      "en": "The head is big.",
+      "pl": "Głowa jest duża.",
+      "accepts": [
+        "Głowa jest duża.",
+        "Głowa jest duża"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "głowa"
+      ]
+    },
+    {
+      "en": "The heart is good.",
+      "pl": "Serce jest dobre.",
+      "accepts": [
+        "Serce jest dobre.",
+        "Serce jest dobre"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "serce"
+      ]
+    },
+    {
+      "en": "The hair is blonde.",
+      "pl": "Włosy są blond.",
+      "accepts": [
+        "Włosy są blond.",
+        "Włosy są blond"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "włosy",
+        "blond"
+      ]
+    },
+    {
+      "en": "The foot is small.",
+      "pl": "Stopa jest mała.",
+      "accepts": [
+        "Stopa jest mała.",
+        "Stopa jest mała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "stopa"
+      ]
+    },
+    {
+      "en": "The face is nice.",
+      "pl": "Twarz jest ładna.",
+      "accepts": [
+        "Twarz jest ładna.",
+        "Twarz jest ładna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "twarz"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "ciało",
+    "głowa",
+    "twarz",
+    "włosy",
+    "oko",
+    "ucho",
+    "nos",
+    "usta",
+    "ząb",
+    "ręka",
+    "ramię",
+    "noga",
+    "stopa",
+    "plecy",
+    "palec",
+    "szyja",
+    "kolano",
+    "serce",
+    "krew",
+    "skóra",
+    "wysoki",
+    "krótki",
+    "blond"
   ]
 }

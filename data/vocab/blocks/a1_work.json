@@ -11,11 +11,7 @@
       "title": "Work · jobs",
       "items": [
         {
-          "en": "job",
-          "pl": "praca"
-        },
-        {
-          "en": "work (noun)",
+          "en": "work / job",
           "pl": "praca"
         },
         {
@@ -174,7 +170,13 @@
     "inst_identity",
     "byc_present",
     "to_jest",
-    "poss_nom"
+    "poss_nom",
+    "prep_w_loc",
+    "present_uje",
+    "miec_present",
+    "miec_acc",
+    "byc_adj",
+    "zgoda"
   ],
   "teaches_lemmas": [
     "aktor",
@@ -258,5 +260,195 @@
   },
   "focus_structures": [
     "inst_identity"
+  ],
+  "sentences": [
+    {
+      "en": "I am a teacher.",
+      "pl": "Jestem nauczycielem.",
+      "accepts": [
+        "Jestem nauczycielem.",
+        "Jestem nauczycielem"
+      ],
+      "structures": [
+        "inst_identity",
+        "byc_present"
+      ],
+      "lemmas": [
+        "nauczyciel"
+      ]
+    },
+    {
+      "en": "I am a student.",
+      "pl": "Jestem studentem.",
+      "accepts": [
+        "Jestem studentem.",
+        "Jestem studentem"
+      ],
+      "structures": [
+        "inst_identity",
+        "byc_present"
+      ],
+      "lemmas": [
+        "student"
+      ]
+    },
+    {
+      "en": "He is a doctor.",
+      "pl": "On jest lekarzem.",
+      "accepts": [
+        "On jest lekarzem.",
+        "On jest lekarzem",
+        "Jest lekarzem."
+      ],
+      "structures": [
+        "inst_identity",
+        "byc_present"
+      ],
+      "lemmas": [
+        "lekarz"
+      ]
+    },
+    {
+      "en": "My dad is an engineer.",
+      "pl": "Mój tata jest inżynierem.",
+      "accepts": [
+        "Mój tata jest inżynierem.",
+        "Mój tata jest inżynierem",
+        "Tata jest inżynierem."
+      ],
+      "structures": [
+        "inst_identity",
+        "byc_present",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "inżynier"
+      ]
+    },
+    {
+      "en": "I work in an office.",
+      "pl": "Pracuję w biurze.",
+      "accepts": [
+        "Pracuję w biurze.",
+        "Pracuję w biurze"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "biuro"
+      ]
+    },
+    {
+      "en": "I have a job.",
+      "pl": "Mam pracę.",
+      "accepts": [
+        "Mam pracę.",
+        "Mam pracę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "praca"
+      ]
+    },
+    {
+      "en": "The job is good.",
+      "pl": "Praca jest dobra.",
+      "accepts": [
+        "Praca jest dobra.",
+        "Praca jest dobra"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "praca"
+      ]
+    },
+    {
+      "en": "The boss is young.",
+      "pl": "Szef jest młody.",
+      "accepts": [
+        "Szef jest młody.",
+        "Szef jest młody"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "szef"
+      ]
+    },
+    {
+      "en": "I have a meeting.",
+      "pl": "Mam spotkanie.",
+      "accepts": [
+        "Mam spotkanie.",
+        "Mam spotkanie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "spotkanie"
+      ]
+    },
+    {
+      "en": "The salary is small.",
+      "pl": "Pensja jest mała.",
+      "accepts": [
+        "Pensja jest mała.",
+        "Pensja jest mała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "pensja"
+      ]
+    },
+    {
+      "en": "The company is big.",
+      "pl": "Firma jest duża.",
+      "accepts": [
+        "Firma jest duża.",
+        "Firma jest duża"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "firma"
+      ]
+    },
+    {
+      "en": "The office is new.",
+      "pl": "Biuro jest nowe.",
+      "accepts": [
+        "Biuro jest nowe.",
+        "Biuro jest nowe"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "biuro"
+      ]
+    }
   ]
 }

@@ -194,6 +194,240 @@
   ],
   "uses_structures": [
     "to_jest",
-    "zgoda"
+    "zgoda",
+    "byc_adj",
+    "byc_present"
+  ],
+  "sentences": [
+    {
+      "en": "The sun is yellow.",
+      "pl": "Słońce jest żółte.",
+      "accepts": [
+        "Słońce jest żółte.",
+        "Słońce jest żółte"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "słońce"
+      ]
+    },
+    {
+      "en": "The sky is blue.",
+      "pl": "Niebo jest niebieskie.",
+      "accepts": [
+        "Niebo jest niebieskie.",
+        "Niebo jest niebieskie"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "niebo"
+      ]
+    },
+    {
+      "en": "The forest is green.",
+      "pl": "Las jest zielony.",
+      "accepts": [
+        "Las jest zielony.",
+        "Las jest zielony"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "las"
+      ]
+    },
+    {
+      "en": "The snow is white.",
+      "pl": "Śnieg jest biały.",
+      "accepts": [
+        "Śnieg jest biały.",
+        "Śnieg jest biały"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "śnieg"
+      ]
+    },
+    {
+      "en": "The mountain is big.",
+      "pl": "Góra jest duża.",
+      "accepts": [
+        "Góra jest duża.",
+        "Góra jest duża"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "góra"
+      ]
+    },
+    {
+      "en": "The flower is pink.",
+      "pl": "Kwiat jest różowy.",
+      "accepts": [
+        "Kwiat jest różowy.",
+        "Kwiat jest różowy"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "kwiat"
+      ]
+    },
+    {
+      "en": "The tree is old.",
+      "pl": "Drzewo jest stare.",
+      "accepts": [
+        "Drzewo jest stare.",
+        "Drzewo jest stare"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "drzewo"
+      ]
+    },
+    {
+      "en": "Winter is cold.",
+      "pl": "Zima jest zimna.",
+      "accepts": [
+        "Zima jest zimna.",
+        "Zima jest zimna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zima"
+      ]
+    },
+    {
+      "en": "The river is nice.",
+      "pl": "Rzeka jest ładna.",
+      "accepts": [
+        "Rzeka jest ładna.",
+        "Rzeka jest ładna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "rzeka"
+      ]
+    },
+    {
+      "en": "The world is big.",
+      "pl": "Świat jest duży.",
+      "accepts": [
+        "Świat jest duży.",
+        "Świat jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "świat"
+      ]
+    },
+    {
+      "en": "Fire is red.",
+      "pl": "Ogień jest czerwony.",
+      "accepts": [
+        "Ogień jest czerwony.",
+        "Ogień jest czerwony"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "ogień"
+      ]
+    },
+    {
+      "en": "The star is small.",
+      "pl": "Gwiazda jest mała.",
+      "accepts": [
+        "Gwiazda jest mała.",
+        "Gwiazda jest mała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "gwiazda"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "przyroda",
+    "pogoda",
+    "słońce",
+    "deszcz",
+    "śnieg",
+    "wiatr",
+    "chmura",
+    "niebo",
+    "powietrze",
+    "drzewo",
+    "kwiat",
+    "roślina",
+    "góra",
+    "wzgórze",
+    "rzeka",
+    "morze",
+    "jezioro",
+    "wyspa",
+    "las",
+    "pole",
+    "ląd",
+    "świat",
+    "ziemia",
+    "kosmos",
+    "wiosna",
+    "lato",
+    "jesień",
+    "zima",
+    "ciepło",
+    "chłodno",
+    "suchy",
+    "mokry",
+    "ciemny",
+    "jasny",
+    "ogień",
+    "gwiazda"
   ]
 }

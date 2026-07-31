@@ -140,7 +140,12 @@
   ],
   "uses_structures": [
     "to_jest",
-    "zgoda"
+    "zgoda",
+    "poss_nom",
+    "miec_present",
+    "miec_acc",
+    "byc_adj",
+    "byc_present"
   ],
   "teaches_lemmas": [
     "zwierzę",
@@ -167,5 +172,194 @@
     "dziki",
     "farma",
     "zoo"
+  ],
+  "sentences": [
+    {
+      "en": "This is a dog.",
+      "pl": "To jest pies.",
+      "accepts": [
+        "To jest pies.",
+        "To jest pies"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "pies"
+      ]
+    },
+    {
+      "en": "I have a dog.",
+      "pl": "Mam psa.",
+      "accepts": [
+        "Mam psa.",
+        "Mam psa"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pies"
+      ]
+    },
+    {
+      "en": "I have a cat.",
+      "pl": "Mam kota.",
+      "accepts": [
+        "Mam kota.",
+        "Mam kota"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kot"
+      ]
+    },
+    {
+      "en": "This is my cat.",
+      "pl": "To jest mój kot.",
+      "accepts": [
+        "To jest mój kot.",
+        "To jest mój kot"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "kot"
+      ]
+    },
+    {
+      "en": "The dog is good.",
+      "pl": "Pies jest dobry.",
+      "accepts": [
+        "Pies jest dobry.",
+        "Pies jest dobry"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "pies"
+      ]
+    },
+    {
+      "en": "The cat is tired.",
+      "pl": "Kot jest zmęczony.",
+      "accepts": [
+        "Kot jest zmęczony.",
+        "Kot jest zmęczony"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "kot"
+      ]
+    },
+    {
+      "en": "The cow is old.",
+      "pl": "Krowa jest stara.",
+      "accepts": [
+        "Krowa jest stara.",
+        "Krowa jest stara"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "krowa"
+      ]
+    },
+    {
+      "en": "The lion is hungry.",
+      "pl": "Lew jest głodny.",
+      "accepts": [
+        "Lew jest głodny.",
+        "Lew jest głodny"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "lew"
+      ]
+    },
+    {
+      "en": "The elephant is big.",
+      "pl": "Słoń jest duży.",
+      "accepts": [
+        "Słoń jest duży.",
+        "Słoń jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "słoń"
+      ]
+    },
+    {
+      "en": "The mouse is small.",
+      "pl": "Mysz jest mała.",
+      "accepts": [
+        "Mysz jest mała.",
+        "Mysz jest mała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "mysz"
+      ]
+    },
+    {
+      "en": "The bird is nice.",
+      "pl": "Ptak jest ładny.",
+      "accepts": [
+        "Ptak jest ładny.",
+        "Ptak jest ładny"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "ptak"
+      ]
+    },
+    {
+      "en": "The horse is young.",
+      "pl": "Koń jest młody.",
+      "accepts": [
+        "Koń jest młody.",
+        "Koń jest młody"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "koń"
+      ]
+    }
   ]
 }

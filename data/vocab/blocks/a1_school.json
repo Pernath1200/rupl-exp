@@ -222,6 +222,214 @@
   "uses_structures": [
     "to_jest",
     "zgoda",
-    "present_uje"
+    "present_uje",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "byc_adj",
+    "byc_present",
+    "poss_nom"
+  ],
+  "sentences": [
+    {
+      "en": "I have a question.",
+      "pl": "Mam pytanie.",
+      "accepts": [
+        "Mam pytanie.",
+        "Mam pytanie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pytanie"
+      ]
+    },
+    {
+      "en": "I have an exam.",
+      "pl": "Mam egzamin.",
+      "accepts": [
+        "Mam egzamin.",
+        "Mam egzamin"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "egzamin"
+      ]
+    },
+    {
+      "en": "I study history.",
+      "pl": "Studiuję historię.",
+      "accepts": [
+        "Studiuję historię.",
+        "Studiuję historię"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "historia"
+      ]
+    },
+    {
+      "en": "I am reading a book.",
+      "pl": "Czytam książkę.",
+      "accepts": [
+        "Czytam książkę.",
+        "Czytam książkę"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": []
+    },
+    {
+      "en": "I have a pen.",
+      "pl": "Mam długopis.",
+      "accepts": [
+        "Mam długopis.",
+        "Mam długopis"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "długopis"
+      ]
+    },
+    {
+      "en": "This is a good example.",
+      "pl": "To jest dobry przykład.",
+      "accepts": [
+        "To jest dobry przykład.",
+        "To jest dobry przykład"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przykład"
+      ]
+    },
+    {
+      "en": "This is my class.",
+      "pl": "To jest moja klasa.",
+      "accepts": [
+        "To jest moja klasa.",
+        "To jest moja klasa"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "klasa"
+      ]
+    },
+    {
+      "en": "The word is new.",
+      "pl": "Słowo jest nowe.",
+      "accepts": [
+        "Słowo jest nowe.",
+        "Słowo jest nowe"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "słowo"
+      ]
+    },
+    {
+      "en": "The music is good.",
+      "pl": "Muzyka jest dobra.",
+      "accepts": [
+        "Muzyka jest dobra.",
+        "Muzyka jest dobra"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "muzyka"
+      ]
+    },
+    {
+      "en": "History is old.",
+      "pl": "Historia jest stara.",
+      "accepts": [
+        "Historia jest stara.",
+        "Historia jest stara"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "historia"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "klasa",
+    "lekcja",
+    "kurs",
+    "kolegium",
+    "przedmiot",
+    "praca domowa",
+    "egzamin",
+    "sprawdzian",
+    "słownik",
+    "język",
+    "uczyć się",
+    "długopis",
+    "ołówek",
+    "papier",
+    "strona",
+    "słowo",
+    "zdanie",
+    "opowiadanie",
+    "pytanie",
+    "odpowiedź",
+    "przykład",
+    "pisownia",
+    "studiować",
+    "historia",
+    "geografia",
+    "nauki ścisłe",
+    "naukowiec",
+    "sztuka",
+    "artysta",
+    "muzyka",
+    "pomysł",
+    "problem",
+    "informacja",
+    "opinia",
+    "znaczenie",
+    "list",
+    "notatka",
+    "lista",
+    "tekst",
+    "tytuł",
+    "artykuł",
+    "akapit",
+    "zwrot",
+    "czytanie",
+    "pisanie",
+    "ćwiczenie",
+    "aktywność"
   ]
 }

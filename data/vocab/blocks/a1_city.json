@@ -135,7 +135,12 @@
     "prep_place",
     "to_jest",
     "miec_acc",
-    "byc_present"
+    "byc_present",
+    "present_am",
+    "miec_present",
+    "byc_adj",
+    "zgoda",
+    "poss_nom"
   ],
   "teaches_lemmas": [
     "adres",
@@ -206,5 +211,191 @@
   "focus_structures": [
     "prep_do_gen",
     "prep_z_gen"
+  ],
+  "sentences": [
+    {
+      "en": "I have a ticket.",
+      "pl": "Mam bilet.",
+      "accepts": [
+        "Mam bilet.",
+        "Mam bilet"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "bilet"
+      ]
+    },
+    {
+      "en": "I live in the centre.",
+      "pl": "Mieszkam w centrum.",
+      "accepts": [
+        "Mieszkam w centrum.",
+        "Mieszkam w centrum"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "centrum"
+      ]
+    },
+    {
+      "en": "The station is near.",
+      "pl": "Dworzec jest blisko.",
+      "accepts": [
+        "Dworzec jest blisko.",
+        "Dworzec jest blisko"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "dworzec",
+        "blisko"
+      ]
+    },
+    {
+      "en": "The airport is far.",
+      "pl": "Lotnisko jest daleko.",
+      "accepts": [
+        "Lotnisko jest daleko.",
+        "Lotnisko jest daleko"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "lotnisko",
+        "daleko"
+      ]
+    },
+    {
+      "en": "The tram is yellow.",
+      "pl": "Tramwaj jest żółty.",
+      "accepts": [
+        "Tramwaj jest żółty.",
+        "Tramwaj jest żółty"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "tramwaj"
+      ]
+    },
+    {
+      "en": "The bus is big.",
+      "pl": "Autobus jest duży.",
+      "accepts": [
+        "Autobus jest duży.",
+        "Autobus jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "autobus"
+      ]
+    },
+    {
+      "en": "The metro is new.",
+      "pl": "Metro jest nowe.",
+      "accepts": [
+        "Metro jest nowe.",
+        "Metro jest nowe"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "metro"
+      ]
+    },
+    {
+      "en": "I have a bike.",
+      "pl": "Mam rower.",
+      "accepts": [
+        "Mam rower.",
+        "Mam rower"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "rower"
+      ]
+    },
+    {
+      "en": "I have a map.",
+      "pl": "Mam mapę.",
+      "accepts": [
+        "Mam mapę.",
+        "Mam mapę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "mapa"
+      ]
+    },
+    {
+      "en": "This is my address.",
+      "pl": "To jest mój adres.",
+      "accepts": [
+        "To jest mój adres.",
+        "To jest mój adres"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "adres"
+      ]
+    },
+    {
+      "en": "The bridge is old.",
+      "pl": "Most jest stary.",
+      "accepts": [
+        "Most jest stary.",
+        "Most jest stary"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "most"
+      ]
+    },
+    {
+      "en": "The centre is near.",
+      "pl": "Centrum jest blisko.",
+      "accepts": [
+        "Centrum jest blisko.",
+        "Centrum jest blisko"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "centrum",
+        "blisko"
+      ]
+    }
   ]
 }

@@ -224,6 +224,249 @@
     }
   ],
   "uses_structures": [
-    "to_jest"
+    "to_jest",
+    "miec_present",
+    "miec_acc",
+    "byc_adj",
+    "byc_present",
+    "poss_nom",
+    "comparative",
+    "zgoda"
+  ],
+  "sentences": [
+    {
+      "en": "I have a plan.",
+      "pl": "Mam plan.",
+      "accepts": [
+        "Mam plan.",
+        "Mam plan"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "plan"
+      ]
+    },
+    {
+      "en": "I have an idea.",
+      "pl": "Mam pomysł.",
+      "accepts": [
+        "Mam pomysł.",
+        "Mam pomysł"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pomysł"
+      ]
+    },
+    {
+      "en": "This is the end.",
+      "pl": "To jest koniec.",
+      "accepts": [
+        "To jest koniec.",
+        "To jest koniec"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "koniec"
+      ]
+    },
+    {
+      "en": "This is the beginning.",
+      "pl": "To jest początek.",
+      "accepts": [
+        "To jest początek.",
+        "To jest początek"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "początek"
+      ]
+    },
+    {
+      "en": "Life is good.",
+      "pl": "Życie jest dobre.",
+      "accepts": [
+        "Życie jest dobre.",
+        "Życie jest dobre"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "życie"
+      ]
+    },
+    {
+      "en": "My plan is better.",
+      "pl": "Mój plan jest lepszy.",
+      "accepts": [
+        "Mój plan jest lepszy.",
+        "Mój plan jest lepszy"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present",
+        "poss_nom",
+        "comparative"
+      ],
+      "lemmas": [
+        "plan"
+      ]
+    },
+    {
+      "en": "The problem is big.",
+      "pl": "Problem jest duży.",
+      "accepts": [
+        "Problem jest duży.",
+        "Problem jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "problem"
+      ]
+    },
+    {
+      "en": "This is a fact.",
+      "pl": "To jest fakt.",
+      "accepts": [
+        "To jest fakt.",
+        "To jest fakt"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "fakt"
+      ]
+    },
+    {
+      "en": "The situation is bad.",
+      "pl": "Sytuacja jest zła.",
+      "accepts": [
+        "Sytuacja jest zła.",
+        "Sytuacja jest zła"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "sytuacja"
+      ]
+    },
+    {
+      "en": "The project is new.",
+      "pl": "Projekt jest nowy.",
+      "accepts": [
+        "Projekt jest nowy.",
+        "Projekt jest nowy"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "projekt"
+      ]
+    },
+    {
+      "en": "I have a reason.",
+      "pl": "Mam powód.",
+      "accepts": [
+        "Mam powód.",
+        "Mam powód"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "powód"
+      ]
+    },
+    {
+      "en": "This is good advice.",
+      "pl": "To jest dobra rada.",
+      "accepts": [
+        "To jest dobra rada.",
+        "To jest dobra rada"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rada"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "rzecz",
+    "część",
+    "miejsce",
+    "osoba",
+    "życie",
+    "grupa",
+    "członek",
+    "plan",
+    "punkt",
+    "fakt",
+    "powód",
+    "wynik",
+    "działanie",
+    "rada",
+    "obszar",
+    "początek",
+    "koniec",
+    "wydarzenie",
+    "formularz",
+    "linia",
+    "kawałek",
+    "para",
+    "przedmiot",
+    "maszyna",
+    "produkt",
+    "program",
+    "projekt",
+    "rutyna",
+    "reguła",
+    "sekcja",
+    "sytuacja",
+    "umiejętność",
+    "dźwięk",
+    "styl",
+    "sukces",
+    "temat",
+    "moment",
+    "okres",
+    "przeszłość",
+    "przyszłość",
+    "wiek",
+    "data",
+    "północ",
+    "kultura",
+    "zdrowie",
+    "zainteresowanie",
+    "stolica",
+    "gość"
   ]
 }

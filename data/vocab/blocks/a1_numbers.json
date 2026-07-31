@@ -190,5 +190,92 @@
         }
       ]
     }
+  ],
+  "sentences": [
+    {
+      "en": "How old are you?",
+      "pl": "Ile masz lat?",
+      "accepts": [
+        "Ile masz lat?",
+        "Ile masz lat?"
+      ],
+      "structures": [
+        "social_chunk",
+        "miec_present"
+      ],
+      "lemmas": []
+    },
+    {
+      "en": "I am twenty (years old).",
+      "pl": "Mam dwadzieścia lat.",
+      "accepts": [
+        "Mam dwadzieścia lat.",
+        "Mam dwadzieścia lat"
+      ],
+      "structures": [
+        "social_chunk",
+        "miec_present"
+      ],
+      "lemmas": [
+        "dwadzieścia"
+      ]
+    },
+    {
+      "en": "I am forty-four (years old).",
+      "pl": "Mam czterdzieści cztery lata.",
+      "accepts": [
+        "Mam czterdzieści cztery lata.",
+        "Mam czterdzieści cztery lata"
+      ],
+      "structures": [
+        "social_chunk",
+        "miec_present"
+      ],
+      "lemmas": [
+        "czterdzieści",
+        "cztery"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "jeden",
+    "dwa",
+    "trzy",
+    "cztery",
+    "pięć",
+    "sześć",
+    "siedem",
+    "osiem",
+    "dziewięć",
+    "dziesięć",
+    "dwadzieścia",
+    "sto",
+    "jedenaście",
+    "dwanaście",
+    "trzynaście",
+    "czternaście",
+    "piętnaście",
+    "szesnaście",
+    "siedemnaście",
+    "osiemnaście",
+    "dziewiętnaście",
+    "trzydzieści",
+    "tysiąc",
+    "milion",
+    "czterdzieści",
+    "pięćdziesiąt",
+    "sześćdziesiąt",
+    "siedemdziesiąt",
+    "osiemdziesiąt",
+    "dziewięćdziesiąt",
+    "pierwszy",
+    "drugi",
+    "trzeci",
+    "czwarty",
+    "piąty",
+    "liczba",
+    "Ile masz lat?",
+    "Mam dwadzieścia lat.",
+    "Mam czterdzieści cztery lata."
   ]
 }

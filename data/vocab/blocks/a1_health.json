@@ -114,6 +114,193 @@
   "uses_structures": [
     "to_jest",
     "zgoda",
-    "byc_adj"
+    "byc_adj",
+    "miec_present",
+    "miec_acc",
+    "byc_present"
+  ],
+  "sentences": [
+    {
+      "en": "I am ill.",
+      "pl": "Jestem chory.",
+      "accepts": [
+        "Jestem chory.",
+        "Jestem chory",
+        "Jestem chora."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "chory"
+      ]
+    },
+    {
+      "en": "Mum is ill.",
+      "pl": "Mama jest chora.",
+      "accepts": [
+        "Mama jest chora.",
+        "Mama jest chora"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "chory"
+      ]
+    },
+    {
+      "en": "I am healthy.",
+      "pl": "Jestem zdrowy.",
+      "accepts": [
+        "Jestem zdrowy.",
+        "Jestem zdrowy",
+        "Jestem zdrowa."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zdrowy"
+      ]
+    },
+    {
+      "en": "I have a fever.",
+      "pl": "Mam gorączkę.",
+      "accepts": [
+        "Mam gorączkę.",
+        "Mam gorączkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "gorączka"
+      ]
+    },
+    {
+      "en": "I have a headache.",
+      "pl": "Mam ból głowy.",
+      "accepts": [
+        "Mam ból głowy.",
+        "Mam ból głowy"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ból głowy"
+      ]
+    },
+    {
+      "en": "This is a pharmacy.",
+      "pl": "To jest apteka.",
+      "accepts": [
+        "To jest apteka.",
+        "To jest apteka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "apteka"
+      ]
+    },
+    {
+      "en": "The doctor is good.",
+      "pl": "Lekarz jest dobry.",
+      "accepts": [
+        "Lekarz jest dobry.",
+        "Lekarz jest dobry"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "lekarz"
+      ]
+    },
+    {
+      "en": "I have a cough.",
+      "pl": "Mam kaszel.",
+      "accepts": [
+        "Mam kaszel.",
+        "Mam kaszel"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kaszel"
+      ]
+    },
+    {
+      "en": "The pill is small.",
+      "pl": "Tabletka jest mała.",
+      "accepts": [
+        "Tabletka jest mała.",
+        "Tabletka jest mała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "tabletka"
+      ]
+    },
+    {
+      "en": "The hospital is big.",
+      "pl": "Szpital jest duży.",
+      "accepts": [
+        "Szpital jest duży.",
+        "Szpital jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "szpital"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "zdrowie",
+    "zdrowy",
+    "chory",
+    "ból",
+    "boleć",
+    "ból głowy",
+    "brzuch",
+    "gorączka",
+    "kaszel",
+    "przeziębienie",
+    "grypa",
+    "lekarz",
+    "pielęgniarka",
+    "pacjent",
+    "szpital",
+    "apteka",
+    "lekarstwo",
+    "tabletka",
+    "wizyta",
+    "karetka",
+    "temperatura",
+    "odpoczywać",
+    "dentysta"
   ]
 }

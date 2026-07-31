@@ -124,6 +124,211 @@
     }
   ],
   "uses_structures": [
-    "to_jest"
+    "to_jest",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "byc_adj",
+    "byc_present",
+    "poss_nom",
+    "zgoda"
+  ],
+  "sentences": [
+    {
+      "en": "I have a computer.",
+      "pl": "Mam komputer.",
+      "accepts": [
+        "Mam komputer.",
+        "Mam komputer"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "komputer"
+      ]
+    },
+    {
+      "en": "I have a new phone.",
+      "pl": "Mam nowy telefon.",
+      "accepts": [
+        "Mam nowy telefon.",
+        "Mam nowy telefon"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "telefon"
+      ]
+    },
+    {
+      "en": "The computer is good.",
+      "pl": "Komputer jest dobry.",
+      "accepts": [
+        "Komputer jest dobry.",
+        "Komputer jest dobry"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "komputer"
+      ]
+    },
+    {
+      "en": "The TV is big.",
+      "pl": "Telewizor jest duży.",
+      "accepts": [
+        "Telewizor jest duży.",
+        "Telewizor jest duży"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "telewizor"
+      ]
+    },
+    {
+      "en": "I am reading an email.",
+      "pl": "Czytam e-mail.",
+      "accepts": [
+        "Czytam e-mail.",
+        "Czytam e-mail"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "e-mail"
+      ]
+    },
+    {
+      "en": "I am reading a newspaper.",
+      "pl": "Czytam gazetę.",
+      "accepts": [
+        "Czytam gazetę.",
+        "Czytam gazetę"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "gazeta"
+      ]
+    },
+    {
+      "en": "The radio is old.",
+      "pl": "Radio jest stare.",
+      "accepts": [
+        "Radio jest stare.",
+        "Radio jest stare"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "radio"
+      ]
+    },
+    {
+      "en": "This is my photo.",
+      "pl": "To jest moje zdjęcie.",
+      "accepts": [
+        "To jest moje zdjęcie.",
+        "To jest moje zdjęcie"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "zdjęcie"
+      ]
+    },
+    {
+      "en": "The screen is black.",
+      "pl": "Ekran jest czarny.",
+      "accepts": [
+        "Ekran jest czarny.",
+        "Ekran jest czarny"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "ekran"
+      ]
+    },
+    {
+      "en": "The phone is small.",
+      "pl": "Telefon jest mały.",
+      "accepts": [
+        "Telefon jest mały.",
+        "Telefon jest mały"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "telefon"
+      ]
+    },
+    {
+      "en": "The newspaper is new.",
+      "pl": "Gazeta jest nowa.",
+      "accepts": [
+        "Gazeta jest nowa.",
+        "Gazeta jest nowa"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "gazeta"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "komputer",
+    "telefon",
+    "komórka",
+    "aparat",
+    "telewizja",
+    "telewizor",
+    "radio",
+    "wideo",
+    "DVD",
+    "CD",
+    "ekran",
+    "internet",
+    "online",
+    "strona internetowa",
+    "e-mail",
+    "blog",
+    "zdjęcie",
+    "obrazek",
+    "wiadomość",
+    "wiadomości",
+    "gazeta",
+    "czasopismo"
   ]
 }

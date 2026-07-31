@@ -7,7 +7,14 @@
   "note": "A1 liść · dni, miesiące, pory dnia, częstotliwość — nazwy i przysłówki. Zwroty zegarowe (o siódmej, w poniedziałek) mieszkają w trunk_there_time_a1 jako chunki.",
   "uses_structures": [
     "to_jest",
-    "social_chunk"
+    "social_chunk",
+    "present_am",
+    "present_e_esz",
+    "present_uje",
+    "miec_acc",
+    "byc_adj",
+    "byc_present",
+    "zgoda"
   ],
   "blocks": [
     {
@@ -226,5 +233,214 @@
         }
       ]
     }
+  ],
+  "sentences": [
+    {
+      "en": "Today is Monday.",
+      "pl": "Dzisiaj jest poniedziałek.",
+      "accepts": [
+        "Dzisiaj jest poniedziałek.",
+        "Dzisiaj jest poniedziałek"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "dzisiaj",
+        "poniedziałek"
+      ]
+    },
+    {
+      "en": "Tomorrow is Saturday.",
+      "pl": "Jutro jest sobota.",
+      "accepts": [
+        "Jutro jest sobota.",
+        "Jutro jest sobota"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "jutro",
+        "sobota"
+      ]
+    },
+    {
+      "en": "In the morning I drink coffee.",
+      "pl": "Rano piję kawę.",
+      "accepts": [
+        "Rano piję kawę.",
+        "Rano piję kawę",
+        "Piję kawę rano."
+      ],
+      "structures": [
+        "present_e_esz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "rano"
+      ]
+    },
+    {
+      "en": "Now I am reading.",
+      "pl": "Teraz czytam.",
+      "accepts": [
+        "Teraz czytam.",
+        "Teraz czytam",
+        "Czytam teraz."
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "teraz"
+      ]
+    },
+    {
+      "en": "I often play.",
+      "pl": "Często gram.",
+      "accepts": [
+        "Często gram.",
+        "Często gram",
+        "Gram często."
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "często"
+      ]
+    },
+    {
+      "en": "I always work in the morning.",
+      "pl": "Zawsze pracuję rano.",
+      "accepts": [
+        "Zawsze pracuję rano.",
+        "Zawsze pracuję rano",
+        "Rano zawsze pracuję."
+      ],
+      "structures": [
+        "present_uje"
+      ],
+      "lemmas": [
+        "zawsze",
+        "rano"
+      ]
+    },
+    {
+      "en": "Sometimes I drink beer.",
+      "pl": "Czasami piję piwo.",
+      "accepts": [
+        "Czasami piję piwo.",
+        "Czasami piję piwo",
+        "Piję czasami piwo."
+      ],
+      "structures": [
+        "present_e_esz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "czasami"
+      ]
+    },
+    {
+      "en": "The day is nice.",
+      "pl": "Dzień jest ładny.",
+      "accepts": [
+        "Dzień jest ładny.",
+        "Dzień jest ładny"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "dzień"
+      ]
+    },
+    {
+      "en": "The night is dark.",
+      "pl": "Noc jest ciemna.",
+      "accepts": [
+        "Noc jest ciemna.",
+        "Noc jest ciemna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "noc",
+        "ciemny"
+      ]
+    },
+    {
+      "en": "The weekend is good.",
+      "pl": "Weekend jest dobry.",
+      "accepts": [
+        "Weekend jest dobry.",
+        "Weekend jest dobry"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "weekend"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "poniedziałek",
+    "wtorek",
+    "środa",
+    "czwartek",
+    "piątek",
+    "sobota",
+    "niedziela",
+    "dzień",
+    "tydzień",
+    "weekend",
+    "dzisiaj",
+    "jutro",
+    "wczoraj",
+    "rano",
+    "popołudnie",
+    "wieczór",
+    "noc",
+    "czas",
+    "godzina",
+    "minuta",
+    "wcześnie",
+    "późno",
+    "teraz",
+    "zawsze",
+    "styczeń",
+    "luty",
+    "marzec",
+    "kwiecień",
+    "maj",
+    "czerwiec",
+    "lipiec",
+    "sierpień",
+    "wrzesień",
+    "październik",
+    "listopad",
+    "grudzień",
+    "nigdy",
+    "często",
+    "czasami",
+    "wkrótce",
+    "temu",
+    "dziś wieczorem",
+    "miesiąc",
+    "rok",
+    "raz",
+    "dwa razy",
+    "pół",
+    "kwadrans"
   ]
 }

@@ -172,6 +172,238 @@
   "uses_structures": [
     "to_jest",
     "zgoda",
-    "present_uje"
+    "present_uje",
+    "miec_present",
+    "miec_acc",
+    "byc_adj",
+    "byc_present"
+  ],
+  "sentences": [
+    {
+      "en": "I am buying bread.",
+      "pl": "Kupuję chleb.",
+      "accepts": [
+        "Kupuję chleb.",
+        "Kupuję chleb"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kupować"
+      ]
+    },
+    {
+      "en": "Are you buying milk?",
+      "pl": "Kupujesz mleko?",
+      "accepts": [
+        "Kupujesz mleko?",
+        "Kupujesz mleko?",
+        "Czy kupujesz mleko?"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kupować"
+      ]
+    },
+    {
+      "en": "She is buying cheese.",
+      "pl": "Ona kupuje ser.",
+      "accepts": [
+        "Ona kupuje ser.",
+        "Ona kupuje ser",
+        "Kupuje ser."
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kupować"
+      ]
+    },
+    {
+      "en": "I am buying cheap cheese.",
+      "pl": "Kupuję tani ser.",
+      "accepts": [
+        "Kupuję tani ser.",
+        "Kupuję tani ser"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "tani"
+      ]
+    },
+    {
+      "en": "I have money.",
+      "pl": "Mam pieniądze.",
+      "accepts": [
+        "Mam pieniądze.",
+        "Mam pieniądze"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pieniądze"
+      ]
+    },
+    {
+      "en": "I have a card.",
+      "pl": "Mam kartę.",
+      "accepts": [
+        "Mam kartę.",
+        "Mam kartę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "karta"
+      ]
+    },
+    {
+      "en": "The beer is cheap.",
+      "pl": "Piwo jest tanie.",
+      "accepts": [
+        "Piwo jest tanie.",
+        "Piwo jest tanie"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "tani"
+      ]
+    },
+    {
+      "en": "The wine is expensive.",
+      "pl": "Wino jest drogie.",
+      "accepts": [
+        "Wino jest drogie.",
+        "Wino jest drogie"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "drogi"
+      ]
+    },
+    {
+      "en": "The shop is open.",
+      "pl": "Sklep jest otwarty.",
+      "accepts": [
+        "Sklep jest otwarty.",
+        "Sklep jest otwarty"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "otwarty"
+      ]
+    },
+    {
+      "en": "The checkout is closed.",
+      "pl": "Kasa jest zamknięta.",
+      "accepts": [
+        "Kasa jest zamknięta.",
+        "Kasa jest zamknięta"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "kasa",
+        "zamknięty"
+      ]
+    },
+    {
+      "en": "The price is good.",
+      "pl": "Cena jest dobra.",
+      "accepts": [
+        "Cena jest dobra.",
+        "Cena jest dobra"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "cena"
+      ]
+    },
+    {
+      "en": "This is a market.",
+      "pl": "To jest targ.",
+      "accepts": [
+        "To jest targ.",
+        "To jest targ"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "targ"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "pieniądze",
+    "cena",
+    "kosztować",
+    "tani",
+    "drogi",
+    "kupować",
+    "sprzedawać",
+    "płacić",
+    "funt",
+    "euro",
+    "dolar",
+    "cent",
+    "zakupy",
+    "sklep",
+    "klient",
+    "karta",
+    "gotówka",
+    "reszta",
+    "paragon",
+    "torba",
+    "rozmiar",
+    "otwarty",
+    "zamknięty",
+    "za darmo",
+    "zniżka",
+    "wyprzedaż",
+    "oferta",
+    "zwrot pieniędzy",
+    "kolejka",
+    "lada",
+    "kasa",
+    "portfel",
+    "portmonetka",
+    "przymierzać",
+    "targ",
+    "dom handlowy"
   ]
 }

@@ -127,6 +127,230 @@
   ],
   "uses_structures": [
     "to_jest",
-    "zgoda"
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "present_uje",
+    "byc_adj",
+    "byc_present",
+    "poss_nom"
+  ],
+  "sentences": [
+    {
+      "en": "I have a new T-shirt.",
+      "pl": "Mam nową koszulkę.",
+      "accepts": [
+        "Mam nową koszulkę.",
+        "Mam nową koszulkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "koszulka"
+      ]
+    },
+    {
+      "en": "The jacket is expensive.",
+      "pl": "Kurtka jest droga.",
+      "accepts": [
+        "Kurtka jest droga.",
+        "Kurtka jest droga"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "kurtka"
+      ]
+    },
+    {
+      "en": "The shoe is old.",
+      "pl": "But jest stary.",
+      "accepts": [
+        "But jest stary.",
+        "But jest stary"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "but"
+      ]
+    },
+    {
+      "en": "The dress is nice.",
+      "pl": "Sukienka jest ładna.",
+      "accepts": [
+        "Sukienka jest ładna.",
+        "Sukienka jest ładna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "sukienka"
+      ]
+    },
+    {
+      "en": "I am buying a sweater.",
+      "pl": "Kupuję sweter.",
+      "accepts": [
+        "Kupuję sweter.",
+        "Kupuję sweter"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "sweter"
+      ]
+    },
+    {
+      "en": "My bag is big.",
+      "pl": "Moja torba jest duża.",
+      "accepts": [
+        "Moja torba jest duża.",
+        "Moja torba jest duża"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "torba"
+      ]
+    },
+    {
+      "en": "The watch is expensive.",
+      "pl": "Zegarek jest drogi.",
+      "accepts": [
+        "Zegarek jest drogi.",
+        "Zegarek jest drogi"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zegarek"
+      ]
+    },
+    {
+      "en": "The scarf is green.",
+      "pl": "Szalik jest zielony.",
+      "accepts": [
+        "Szalik jest zielony.",
+        "Szalik jest zielony"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "szalik"
+      ]
+    },
+    {
+      "en": "The hat is black.",
+      "pl": "Kapelusz jest czarny.",
+      "accepts": [
+        "Kapelusz jest czarny.",
+        "Kapelusz jest czarny"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "kapelusz"
+      ]
+    },
+    {
+      "en": "I have an umbrella.",
+      "pl": "Mam parasol.",
+      "accepts": [
+        "Mam parasol.",
+        "Mam parasol"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "parasol"
+      ]
+    },
+    {
+      "en": "The shirt is white.",
+      "pl": "Koszula jest biała.",
+      "accepts": [
+        "Koszula jest biała.",
+        "Koszula jest biała"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "koszula"
+      ]
+    },
+    {
+      "en": "The trousers are blue.",
+      "pl": "Spodnie są niebieskie.",
+      "accepts": [
+        "Spodnie są niebieskie.",
+        "Spodnie są niebieskie"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "spodnie"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "ubrania",
+    "koszula",
+    "koszulka",
+    "sweter",
+    "kurtka",
+    "płaszcz",
+    "sukienka",
+    "spódnica",
+    "spodnie",
+    "dżinsy",
+    "kapelusz",
+    "nosić",
+    "but",
+    "skarpetka",
+    "zegarek",
+    "torba",
+    "okulary",
+    "garnitur",
+    "krawat",
+    "szalik",
+    "rękawiczka",
+    "parasol",
+    "kieszeń"
   ]
 }
