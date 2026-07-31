@@ -130,7 +130,10 @@
         {
           "en": "eat",
           "pl": "jeść",
-          "icon": "🍴"
+          "icon": "🍴",
+          "accepts": [
+            "zjeść"
+          ]
         },
         {
           "en": "hungry",

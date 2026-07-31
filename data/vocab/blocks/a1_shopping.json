@@ -3,7 +3,7 @@
   "title": "Zakupy",
   "level": "A1",
   "tree_node": "leaf_shopping_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_shopping.json · Zdanie = owoc",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_shopping.json · Zdanie = owoc · Verb twins: kupować/kupić, sprzedawać/sprzedać — dictionary may give either; both accepted for the bare gloss. Aspect system = A2.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -34,15 +34,24 @@
         },
         {
           "en": "buy",
-          "pl": "kupować"
+          "pl": "kupować",
+          "accepts": [
+            "kupić"
+          ]
         },
         {
           "en": "sell",
-          "pl": "sprzedawać"
+          "pl": "sprzedawać",
+          "accepts": [
+            "sprzedać"
+          ]
         },
         {
           "en": "pay",
-          "pl": "płacić"
+          "pl": "płacić",
+          "accepts": [
+            "zapłacić"
+          ]
         },
         {
           "en": "pound",
