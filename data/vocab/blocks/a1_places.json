@@ -407,45 +407,6 @@
       ]
     },
     {
-      "en": "This is my sister.",
-      "pl": "To jest moja siostra.",
-      "accepts": [
-        "To jest moja siostra."
-      ],
-      "structures": [
-        "to_jest",
-        "poss_nom"
-      ],
-      "lemmas": [
-        "siostra"
-      ]
-    },
-    {
-      "en": "I have coffee.",
-      "pl": "Mam kawę.",
-      "accepts": [
-        "Mam kawę."
-      ],
-      "structures": [
-        "miec_acc",
-        "miec_present"
-      ],
-      "lemmas": [
-        "kawa"
-      ]
-    },
-    {
-      "en": "I am Anna.",
-      "pl": "Jestem Anna.",
-      "accepts": [
-        "Jestem Anna."
-      ],
-      "structures": [
-        "byc_present"
-      ],
-      "lemmas": []
-    },
-    {
       "en": "This is a pharmacy.",
       "pl": "To jest apteka.",
       "accepts": [
