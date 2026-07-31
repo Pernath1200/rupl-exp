@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-30T22:42:48+02:00",
+  "generated_at": "2026-07-31T04:46:08+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -216,8 +216,10 @@
       "pack_id": "a1_colours",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 0,
+      "teaches_lemmas_n": 12,
       "uses_structures": [
+        "byc_adj",
+        "byc_present",
         "to_jest",
         "zgoda"
       ],

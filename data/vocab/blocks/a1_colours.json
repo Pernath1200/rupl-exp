@@ -3,7 +3,7 @@
   "title": "Kolory",
   "level": "A1",
   "tree_node": "leaf_colours_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc · Swatch chips = visual anchor (kolor anchors as cognate).",
+  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc · Swatch chips = visual anchor (kolor anchors as cognate). · Zdanie = colour+known-noun agreement (anchor rule).",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -74,6 +74,207 @@
   ],
   "uses_structures": [
     "to_jest",
-    "zgoda"
+    "zgoda",
+    "byc_adj",
+    "byc_present"
+  ],
+  "sentences": [
+    {
+      "en": "The house is white.",
+      "pl": "Dom jest biały.",
+      "accepts": [
+        "Dom jest biały."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "biały"
+      ]
+    },
+    {
+      "en": "The cat is black.",
+      "pl": "Kot jest czarny.",
+      "accepts": [
+        "Kot jest czarny."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "czarny"
+      ]
+    },
+    {
+      "en": "The coffee is black.",
+      "pl": "Kawa jest czarna.",
+      "accepts": [
+        "Kawa jest czarna."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "czarny"
+      ]
+    },
+    {
+      "en": "The cheese is yellow.",
+      "pl": "Ser jest żółty.",
+      "accepts": [
+        "Ser jest żółty."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "żółty"
+      ]
+    },
+    {
+      "en": "The sea is blue.",
+      "pl": "Morze jest niebieskie.",
+      "accepts": [
+        "Morze jest niebieskie."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "niebieski"
+      ]
+    },
+    {
+      "en": "The car is red.",
+      "pl": "Auto jest czerwone.",
+      "accepts": [
+        "Auto jest czerwone."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "czerwony"
+      ]
+    },
+    {
+      "en": "The book is green.",
+      "pl": "Książka jest zielona.",
+      "accepts": [
+        "Książka jest zielona."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zielony"
+      ]
+    },
+    {
+      "en": "The table is brown.",
+      "pl": "Stół jest brązowy.",
+      "accepts": [
+        "Stół jest brązowy."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "brązowy"
+      ]
+    },
+    {
+      "en": "The city is grey.",
+      "pl": "Miasto jest szare.",
+      "accepts": [
+        "Miasto jest szare."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "szary"
+      ]
+    },
+    {
+      "en": "My room is pink.",
+      "pl": "Mój pokój jest różowy.",
+      "accepts": [
+        "Mój pokój jest różowy.",
+        "Pokój jest różowy."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "różowy"
+      ]
+    },
+    {
+      "en": "My chair is purple.",
+      "pl": "Moje krzesło jest fioletowe.",
+      "accepts": [
+        "Moje krzesło jest fioletowe.",
+        "Krzesło jest fioletowe."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "fioletowy"
+      ]
+    },
+    {
+      "en": "My bathroom is orange.",
+      "pl": "Moja łazienka jest pomarańczowa.",
+      "accepts": [
+        "Moja łazienka jest pomarańczowa.",
+        "Łazienka jest pomarańczowa."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "pomarańczowy"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "kolor",
+    "biały",
+    "czarny",
+    "czerwony",
+    "niebieski",
+    "zielony",
+    "żółty",
+    "brązowy",
+    "szary",
+    "różowy",
+    "fioletowy",
+    "pomarańczowy"
   ]
 }

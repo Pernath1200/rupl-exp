@@ -1,4 +1,4 @@
-# Sequencing audit · 2026-07-30
+# Sequencing audit · 2026-07-31
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
@@ -24,7 +24,7 @@ _None._
 | 5 | `trunk_be_have_a1` | — | 36 | `byc_present`, `poss_nom`, `to_jest` |
 | 6 | `a1_gender_check` | `zgoda` | 6 | `to_jest`, `zgoda` |
 | 7 | `trunk_adjectives_a1` | `byc_adj` | 0 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
-| 8 | `leaf_colours_a1` | — | 0 | `to_jest`, `zgoda` |
+| 8 | `leaf_colours_a1` | — | 12 | `byc_adj`, `byc_present`, `to_jest`, `zgoda` |
 | 9 | `a1_miec` | `miec_acc`, `miec_present` | 16 | `miec_acc`, `miec_present` |
 | 10 | `a1_acc_gym` | — | 0 | `miec_acc`, `miec_present`, `to_jest` |
 | 11 | `leaf_food_a1` | — | 47 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest` |
