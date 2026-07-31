@@ -4,7 +4,7 @@
   "level": "A1",
   "tree_node": "leaf_numbers_a1",
   "default_direction": "en_to_pl",
-  "note": "A1 liść · liczby jako nazwy + wiek jako zwroty (chunki). Gramatyka liczebników (pięć piw = Gen pl) NIGDY na A1 — ewentualnie A2. Age chunks are focus-weighted so they surface in Match/Quiz/Słowo before Zdanie tests them.",
+  "note": "A1 liść · liczby jako nazwy + wiek jako zwroty (chunki). Gramatyka liczebników (pięć piw = Gen pl) NIGDY na A1 — ewentualnie A2. Age chunks are focus-weighted so they surface in Match/Quiz/Słowo before Zdanie tests them. lat/lata micro-rule lives in the EN glosses (ends 2-4 -> lata, else lat) - chunk lane, never analysed further.",
   "uses_structures": [
     "social_chunk",
     "miec_present"
@@ -179,21 +179,28 @@
       "items": [
         {
           "pl": "Ile masz lat?",
-          "en": "How old are you?",
+          "en": "How old are you? (question → lat)",
           "structures": [
             "social_chunk"
           ]
         },
         {
           "pl": "Mam dwadzieścia lat.",
-          "en": "I am twenty (years old).",
+          "en": "I am twenty (years old · 5+ → lat).",
           "structures": [
             "social_chunk"
           ]
         },
         {
           "pl": "Mam czterdzieści cztery lata.",
-          "en": "I am forty-four (years old).",
+          "en": "I am forty-four (years old · ends 2–4 → lata).",
+          "structures": [
+            "social_chunk"
+          ]
+        },
+        {
+          "pl": "Mam trzydzieści trzy lata.",
+          "en": "I am thirty-three (years old · ends 2–4 → lata).",
           "structures": [
             "social_chunk"
           ]
@@ -203,7 +210,7 @@
   ],
   "sentences": [
     {
-      "en": "How old are you?",
+      "en": "How old are you? (question → lat)",
       "pl": "Ile masz lat?",
       "accepts": [
         "Ile masz lat?",
@@ -216,7 +223,7 @@
       "lemmas": []
     },
     {
-      "en": "I am twenty (years old).",
+      "en": "I am twenty (years old · 5+ → lat).",
       "pl": "Mam dwadzieścia lat.",
       "accepts": [
         "Mam dwadzieścia lat.",
@@ -231,7 +238,7 @@
       ]
     },
     {
-      "en": "I am forty-four (years old).",
+      "en": "I am forty-four (years old · ends 2–4 → lata).",
       "pl": "Mam czterdzieści cztery lata.",
       "accepts": [
         "Mam czterdzieści cztery lata.",
@@ -244,6 +251,22 @@
       "lemmas": [
         "czterdzieści",
         "cztery"
+      ]
+    },
+    {
+      "en": "I am thirty-three (years old · ends 2–4 → lata).",
+      "pl": "Mam trzydzieści trzy lata.",
+      "accepts": [
+        "Mam trzydzieści trzy lata.",
+        "Mam trzydzieści trzy lata"
+      ],
+      "structures": [
+        "social_chunk",
+        "miec_present"
+      ],
+      "lemmas": [
+        "trzydzieści",
+        "trzy"
       ]
     }
   ],
