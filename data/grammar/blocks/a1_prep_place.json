@@ -330,54 +330,19 @@
       ]
     },
     {
-      "prompt_en": "I live at home",
+      "prompt_en": "in the room",
       "mode": "full_word",
-      "answer": "Mieszkam w domu",
+      "answer": "w pokoju",
       "accepts": [
-        "Mieszkam w domu",
-        "mieszkam w domu"
+        "w pokoju"
       ]
     },
     {
-      "prompt_en": "she is in the shop",
+      "prompt_en": "in the flat",
       "mode": "full_word",
-      "answer": "Ona jest w sklepie",
+      "answer": "w mieszkaniu",
       "accepts": [
-        "Ona jest w sklepie",
-        "Jest w sklepie"
-      ]
-    },
-    {
-      "prompt_en": "I am at school",
-      "mode": "full_word",
-      "answer": "Jestem w szkole",
-      "accepts": [
-        "Jestem w szkole"
-      ]
-    },
-    {
-      "prompt_en": "he is in the city",
-      "mode": "full_word",
-      "answer": "On jest w mieście",
-      "accepts": [
-        "On jest w mieście",
-        "Jest w mieście"
-      ]
-    },
-    {
-      "prompt_en": "coffee is on the table",
-      "mode": "full_word",
-      "answer": "Kawa jest na stole",
-      "accepts": [
-        "Kawa jest na stole"
-      ]
-    },
-    {
-      "prompt_en": "we live at home",
-      "mode": "full_word",
-      "answer": "Mieszkamy w domu",
-      "accepts": [
-        "Mieszkamy w domu"
+        "w mieszkaniu"
       ]
     }
   ],
@@ -508,7 +473,9 @@
     "dworcu",
     "szkoła",
     "stół",
-    "dworzec"
+    "dworzec",
+    "pokoju",
+    "mieszkaniu"
   ],
   "uses_lemmas": [
     "w domu",
@@ -539,7 +506,9 @@
     "jest",
     "mama",
     "brat",
-    "kawa"
+    "kawa",
+    "pokój",
+    "mieszkanie"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

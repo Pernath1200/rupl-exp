@@ -316,30 +316,6 @@
         "To jest morze.",
         "To jest morze"
       ]
-    },
-    {
-      "prompt_en": "This is a house. (2)",
-      "answer": "To jest dom.",
-      "accepts": [
-        "To jest dom.",
-        "To jest dom"
-      ]
-    },
-    {
-      "prompt_en": "This is coffee. (2)",
-      "answer": "To jest kawa.",
-      "accepts": [
-        "To jest kawa.",
-        "To jest kawa"
-      ]
-    },
-    {
-      "prompt_en": "This is a book. (2)",
-      "answer": "To jest książka.",
-      "accepts": [
-        "To jest książka.",
-        "To jest książka"
-      ]
     }
   ],
   "use_items": [

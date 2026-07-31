@@ -46,7 +46,7 @@ _None._
 | 27 | `leaf_clothes_a1` | — | 23 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present_uje`, `to_jest`, `zgoda` |
 | 28 | `a1_questions` | `question` | 10 | `byc_present`, `miec_acc`, `miec_present`, `present_am`, `question`, `to_jest` |
 | 29 | `leaf_school_a1` | — | 47 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present_am`, `present_uje`, `to_jest`, `zgoda` |
-| 30 | `a1_prep_place` | `prep_place`, `prep_w_loc` | 15 | `byc_present`, `prep_place`, `prep_w_loc`, `present_am` |
+| 30 | `a1_prep_place` | `prep_place`, `prep_w_loc` | 17 | `byc_present`, `prep_place`, `prep_w_loc`, `present_am` |
 | 31 | `leaf_places` | — | 35 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `question`, `to_jest` |
 | 32 | `a1_prep_do_z` | `prep_do_gen`, `prep_place`, `prep_z_gen` | 11 | `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen` |
 | 33 | `leaf_city_a1` | — | 28 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |

@@ -338,55 +338,6 @@
       ]
     },
     {
-      "prompt_en": "I want coffee",
-      "mode": "full_word",
-      "answer": "chcę kawę",
-      "accepts": [
-        "chcę kawę",
-        "Chcę kawę"
-      ]
-    },
-    {
-      "prompt_en": "you want tea (sg)",
-      "mode": "full_word",
-      "answer": "chcesz herbatę",
-      "accepts": [
-        "chcesz herbatę"
-      ]
-    },
-    {
-      "prompt_en": "we want water",
-      "mode": "full_word",
-      "answer": "chcemy wodę",
-      "accepts": [
-        "chcemy wodę"
-      ]
-    },
-    {
-      "prompt_en": "they want coffee",
-      "mode": "full_word",
-      "answer": "chcą kawę",
-      "accepts": [
-        "chcą kawę"
-      ]
-    },
-    {
-      "prompt_en": "she wants a book",
-      "mode": "full_word",
-      "answer": "chce książkę",
-      "accepts": [
-        "chce książkę"
-      ]
-    },
-    {
-      "prompt_en": "you want coffee (pl)",
-      "mode": "full_word",
-      "answer": "chcecie kawę",
-      "accepts": [
-        "chcecie kawę"
-      ]
-    },
-    {
       "prompt_en": "I drink",
       "mode": "full_word",
       "answer": "piję",
@@ -424,6 +375,14 @@
       "answer": "pijemy",
       "accepts": [
         "pijemy"
+      ]
+    },
+    {
+      "prompt_en": "you drink (pl)",
+      "mode": "full_word",
+      "answer": "pijecie",
+      "accepts": [
+        "pijecie"
       ]
     }
   ],
