@@ -80,6 +80,7 @@ function passOrder(listLen, onlyIndices, opts) {
   }
   const items = opts && opts.items;
   const focus = new Set((opts && opts.focusStructures) || []);
+  const targets = (opts && opts.targets) || null;
   const seen = (opts && opts.seen) || null;
   const bag = [];
   for (let i = 0; i < listLen; i++) {
@@ -87,6 +88,9 @@ function passOrder(listLen, onlyIndices, opts) {
     if (focus.size && items && items[i]) {
       const st = items[i].structures || [];
       if (st.some((s) => focus.has(s))) w = FOCUS_WEIGHT;
+    }
+    if (w === 1 && targets && targets.size && items && items[i]) {
+      if (targets.has(items[i].pl)) w = FOCUS_WEIGHT;
     }
     for (let k = 0; k < w; k++) bag.push(i);
   }
@@ -414,8 +418,16 @@ export function startPractice(root, block, opts) {
     return null;
   }
 
+  // Words the Zdanie bank will demand get focus-weighted in the word modes,
+  // so a big deck cannot reach Zdanie before its targets have surfaced
+  // (guaranteed exposure, not probabilistic — the "Ile masz lat?" lesson).
+  const sentenceTargets = new Set();
+  for (const s of sentenceBank || []) {
+    for (const l of s.lemmas || []) sentenceTargets.add(l);
+  }
+
   function orderOpts(items) {
-    return { items, focusStructures };
+    return { items, focusStructures, targets: sentenceTargets };
   }
 
   // ---- Visual anchors for self-illustrating vocab ----
