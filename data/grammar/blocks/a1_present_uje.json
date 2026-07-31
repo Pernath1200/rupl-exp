@@ -96,6 +96,16 @@
             "he / she buys"
           ],
           [
+            "my",
+            "kupujemy",
+            "we buy"
+          ],
+          [
+            "wy",
+            "kupujecie",
+            "you buy (pl)"
+          ],
+          [
             "oni / one",
             "kupują",
             "they buy"
@@ -177,6 +187,14 @@
     {
       "en": "I study",
       "pl": "studiuję"
+    },
+    {
+      "en": "we buy",
+      "pl": "kupujemy"
+    },
+    {
+      "en": "you buy (pl)",
+      "pl": "kupujecie"
     }
   ],
   "quiz": [
@@ -397,6 +415,22 @@
       "accepts": [
         "studiuję"
       ]
+    },
+    {
+      "prompt_en": "we buy",
+      "mode": "full_word",
+      "answer": "kupujemy",
+      "accepts": [
+        "kupujemy"
+      ]
+    },
+    {
+      "prompt_en": "you buy (pl)",
+      "mode": "full_word",
+      "answer": "kupujecie",
+      "accepts": [
+        "kupujecie"
+      ]
     }
   ],
   "use_items": [
@@ -525,7 +559,9 @@
     "gotować",
     "gotuję",
     "studiować",
-    "studiuję"
+    "studiuję",
+    "kupujemy",
+    "kupujecie"
   ],
   "uses_lemmas": [
     "pracować",
@@ -551,7 +587,9 @@
     "książkę",
     "woda",
     "wodę",
-    "mama"
+    "mama",
+    "kupujemy",
+    "kupujecie"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

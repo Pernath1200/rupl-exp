@@ -1,7 +1,7 @@
 {
   "id": "a1_present_e_esz",
-  "title": "Teraźniejszy · wzór chcieć",
-  "title_en": "Present · -ę/-esz class (chcieć)",
+  "title": "Teraźniejszy · wzór -esz (chcieć · pić)",
+  "title_en": "Present · -ę/-esz class (chcieć, pić)",
   "level": "A1",
   "tree_node": "a1_present_e_esz",
   "default_direction": "en_to_pl",
@@ -88,6 +88,12 @@
           "pl": "Chcą."
         }
       ]
+    },
+    {
+      "title": "pić — same pattern, all six persons",
+      "title_pl": "pić — ten sam wzór, 6 osób",
+      "body": "pić (to drink) walks exactly like chcieć:\npiję · pijesz · pije · pijemy · pijecie · piją.",
+      "body_pl": "pić jak chcieć: piję · pijesz · pije · pijemy · pijecie · piją."
     }
   ],
   "match": [
@@ -154,6 +160,10 @@
     {
       "en": "they drink",
       "pl": "piją"
+    },
+    {
+      "en": "we drink",
+      "pl": "pijemy"
     }
   ],
   "quiz": [
@@ -426,6 +436,14 @@
       "answer": "piją",
       "accepts": [
         "piją"
+      ]
+    },
+    {
+      "prompt_en": "we drink",
+      "mode": "full_word",
+      "answer": "pijemy",
+      "accepts": [
+        "pijemy"
       ]
     }
   ],

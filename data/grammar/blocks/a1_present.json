@@ -1,7 +1,7 @@
 {
   "id": "a1_present",
-  "title": "Teraźniejszy · wzór -am (mieszkać / czytać)",
-  "title_en": "Present · -am class (mieszkać / czytać)",
+  "title": "Teraźniejszy · wzór -am (mieszkać · czytać · +3)",
+  "title_en": "Present · -am class (mieszkać, czytać, grać, znać, kochać)",
   "level": "A1",
   "tree_node": "a1_present",
   "default_direction": "en_to_pl",
@@ -138,6 +138,12 @@
           "pl": "Czytają."
         }
       ]
+    },
+    {
+      "title": "grać, znać, kochać — same pattern",
+      "title_pl": "grać, znać, kochać — ten sam wzór",
+      "body": "Three more -am verbs, identical endings:\ngrać → gram, grasz, gra, gramy, gracie, grają\nznać → znam, znasz, zna, znamy, znacie, znają\nkochać → kocham, kochasz, kocha, kochamy, kochacie, kochają\n\nznać and kochać take the accusative you will meet next: Znam mamę · Kocham kawę.",
+      "body_pl": "grać, znać, kochać — końcówki jak mieszkać. znać/kochać + biernik: Znam mamę."
     }
   ],
   "match": [
@@ -220,6 +226,10 @@
     {
       "en": "they love",
       "pl": "kochają"
+    },
+    {
+      "en": "we play",
+      "pl": "gramy"
     }
   ],
   "quiz": [
@@ -544,6 +554,14 @@
       "accepts": [
         "kocha"
       ]
+    },
+    {
+      "prompt_en": "we play",
+      "mode": "full_word",
+      "answer": "gramy",
+      "accepts": [
+        "gramy"
+      ]
     }
   ],
   "use_items": [
@@ -729,11 +747,8 @@
     "kocha",
     "kochają",
     "menu",
-    "mama",
     "mamę",
-    "tata",
     "tatę",
-    "brat",
     "książka",
     "książkę",
     "kawa",

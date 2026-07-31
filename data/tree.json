@@ -517,8 +517,8 @@
     {
       "id": "a1_present",
       "domain": "grammar",
-      "label": "Teraźniejszy · wzór -am (mieszkać / czytać)",
-      "label_en": "Present · -am (mieszkać / czytać)",
+      "label": "Teraźniejszy · wzór -am (+5 czasowników)",
+      "label_en": "Present · -am class (5 verbs)",
       "kind": "topic",
       "root": "verbs",
       "tree_part": "verbs",
@@ -540,8 +540,8 @@
     {
       "id": "a1_present_e_isz",
       "domain": "grammar",
-      "label": "Teraźniejszy · mówić / lubić",
-      "label_en": "Present · -ę/-isz class",
+      "label": "Teraźniejszy · mówić / lubić / robić",
+      "label_en": "Present · -ę/-isz (mówić, lubić, robić)",
       "kind": "topic",
       "root": "verbs",
       "tree_part": "verbs",
@@ -562,8 +562,8 @@
     {
       "id": "a1_present_e_esz",
       "domain": "grammar",
-      "label": "Teraźniejszy · chcieć",
-      "label_en": "Present · -ę/-esz class",
+      "label": "Teraźniejszy · chcieć / pić",
+      "label_en": "Present · -ę/-esz (chcieć, pić)",
       "kind": "topic",
       "root": "verbs",
       "tree_part": "verbs",

@@ -1,7 +1,7 @@
 {
   "id": "a1_present_e_isz",
-  "title": "Teraźniejszy · wzór mówić / lubić",
-  "title_en": "Present · -ę/-isz class",
+  "title": "Teraźniejszy · wzór -isz (mówić · lubić · robić)",
+  "title_en": "Present · -ę/-isz class (mówić, lubić, robić)",
   "level": "A1",
   "tree_node": "a1_present_e_isz",
   "default_direction": "en_to_pl",
@@ -131,6 +131,12 @@
           "pl": "Lubią."
         }
       ]
+    },
+    {
+      "title": "robić — same pattern, all six persons",
+      "title_pl": "robić — ten sam wzór, 6 osób",
+      "body": "robić (to do / make) walks exactly like mówić:\nrobię · robisz · robi · robimy · robicie · robią.\n\nOnce you own the pattern, every -isz verb gives you all six persons for free.",
+      "body_pl": "robić jak mówić: robię · robisz · robi · robimy · robicie · robią."
     }
   ],
   "match": [
@@ -197,6 +203,14 @@
     {
       "en": "they make/do",
       "pl": "robią"
+    },
+    {
+      "en": "we make/do",
+      "pl": "robimy"
+    },
+    {
+      "en": "you make/do (pl)",
+      "pl": "robicie"
     }
   ],
   "quiz": [
@@ -468,6 +482,22 @@
       "answer": "robią",
       "accepts": [
         "robią"
+      ]
+    },
+    {
+      "prompt_en": "we make/do",
+      "mode": "full_word",
+      "answer": "robimy",
+      "accepts": [
+        "robimy"
+      ]
+    },
+    {
+      "prompt_en": "you make/do (pl)",
+      "mode": "full_word",
+      "answer": "robicie",
+      "accepts": [
+        "robicie"
       ]
     }
   ],
