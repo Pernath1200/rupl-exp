@@ -3,7 +3,7 @@
   "title": "Czas wolny",
   "level": "A1",
   "tree_node": "leaf_freetime_a1",
-  "note": "Czas wolny. After present. Zdanie: present + pool (miec_acc, to_jest, poss, być) + food/Dom recycle.",
+  "note": "A1 liść · hobby i uczucia · Zdanie = freetime words in known frames (anchor rule).",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -360,7 +360,10 @@
     "miec_present",
     "to_jest",
     "poss_nom",
-    "byc_present"
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "present_uje"
   ],
   "teaches_lemmas": [
     "bieganie",
@@ -534,69 +537,14 @@
   ],
   "sentences": [
     {
-      "en": "I like coffee.",
-      "pl": "Lubię kawę.",
-      "accepts": [
-        "Lubię kawę."
-      ],
-      "structures": [
-        "present",
-        "miec_acc"
-      ],
-      "lemmas": [
-        "kawa"
-      ]
-    },
-    {
-      "en": "I like tea.",
-      "pl": "Lubię herbatę.",
-      "accepts": [
-        "Lubię herbatę."
-      ],
-      "structures": [
-        "present",
-        "miec_acc"
-      ],
-      "lemmas": [
-        "herbata"
-      ]
-    },
-    {
-      "en": "I want coffee.",
-      "pl": "Chcę kawę.",
-      "accepts": [
-        "Chcę kawę."
-      ],
-      "structures": [
-        "present",
-        "miec_acc"
-      ],
-      "lemmas": [
-        "kawa"
-      ]
-    },
-    {
-      "en": "I want water.",
-      "pl": "Chcę wodę.",
-      "accepts": [
-        "Chcę wodę."
-      ],
-      "structures": [
-        "present",
-        "miec_acc"
-      ],
-      "lemmas": [
-        "woda"
-      ]
-    },
-    {
       "en": "I like music.",
       "pl": "Lubię muzykę.",
       "accepts": [
-        "Lubię muzykę."
+        "Lubię muzykę.",
+        "Lubię muzykę"
       ],
       "structures": [
-        "present",
+        "present_e_isz",
         "miec_acc"
       ],
       "lemmas": [
@@ -604,31 +552,19 @@
       ]
     },
     {
-      "en": "I want a book.",
-      "pl": "Chcę książkę.",
+      "en": "The music is good.",
+      "pl": "Muzyka jest dobra.",
       "accepts": [
-        "Chcę książkę."
+        "Muzyka jest dobra.",
+        "Muzyka jest dobra"
       ],
       "structures": [
-        "present",
-        "miec_acc"
+        "byc_adj",
+        "zgoda",
+        "byc_present"
       ],
       "lemmas": [
-        "książka"
-      ]
-    },
-    {
-      "en": "This is a film.",
-      "pl": "To jest film.",
-      "accepts": [
-        "To jest film.",
-        "To film."
-      ],
-      "structures": [
-        "to_jest"
-      ],
-      "lemmas": [
-        "film"
+        "muzyka"
       ]
     },
     {
@@ -636,7 +572,7 @@
       "pl": "To jest mój film.",
       "accepts": [
         "To jest mój film.",
-        "To mój film."
+        "To jest mój film"
       ],
       "structures": [
         "to_jest",
@@ -647,111 +583,142 @@
       ]
     },
     {
-      "en": "This is music.",
-      "pl": "To jest muzyka.",
+      "en": "The film is new.",
+      "pl": "Film jest nowy.",
       "accepts": [
-        "To jest muzyka."
+        "Film jest nowy.",
+        "Film jest nowy"
       ],
       "structures": [
-        "to_jest"
-      ],
-      "lemmas": [
-        "muzyka"
-      ]
-    },
-    {
-      "en": "I have a book.",
-      "pl": "Mam książkę.",
-      "accepts": [
-        "Mam książkę."
-      ],
-      "structures": [
-        "miec_acc",
-        "miec_present"
-      ],
-      "lemmas": [
-        "książka"
-      ]
-    },
-    {
-      "en": "I am Anna.",
-      "pl": "Jestem Anna.",
-      "accepts": [
-        "Jestem Anna."
-      ],
-      "structures": [
+        "byc_adj",
+        "zgoda",
         "byc_present"
       ],
-      "lemmas": []
-    },
-    {
-      "en": "This is my sister.",
-      "pl": "To jest moja siostra.",
-      "accepts": [
-        "To jest moja siostra."
-      ],
-      "structures": [
-        "to_jest",
-        "poss_nom"
-      ],
       "lemmas": [
-        "siostra"
+        "film"
       ]
     },
     {
-      "en": "I speak.",
-      "pl": "Mówię.",
+      "en": "I have a guitar.",
+      "pl": "Mam gitarę.",
       "accepts": [
-        "Mówię.",
-        "Mówię"
+        "Mam gitarę.",
+        "Mam gitarę"
       ],
       "structures": [
-        "present"
-      ],
-      "lemmas": [
-        "mówić"
-      ]
-    },
-    {
-      "en": "You speak. (sg)",
-      "pl": "Mówisz.",
-      "accepts": [
-        "Mówisz.",
-        "Mówisz"
-      ],
-      "structures": [
-        "present"
-      ],
-      "lemmas": [
-        "mówić"
-      ]
-    },
-    {
-      "en": "I like beer.",
-      "pl": "Lubię piwo.",
-      "accepts": [
-        "Lubię piwo."
-      ],
-      "structures": [
-        "present",
+        "miec_present",
         "miec_acc"
       ],
       "lemmas": [
-        "piwo"
+        "gitara"
       ]
     },
     {
-      "en": "I have coffee.",
-      "pl": "Mam kawę.",
+      "en": "I like sport.",
+      "pl": "Lubię sport.",
       "accepts": [
-        "Mam kawę."
+        "Lubię sport.",
+        "Lubię sport"
       ],
       "structures": [
-        "miec_acc",
-        "miec_present"
+        "present_e_isz",
+        "miec_acc"
       ],
       "lemmas": [
-        "kawa"
+        "sport"
+      ]
+    },
+    {
+      "en": "I like tennis.",
+      "pl": "Lubię tenis.",
+      "accepts": [
+        "Lubię tenis.",
+        "Lubię tenis"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "tenis"
+      ]
+    },
+    {
+      "en": "The song is nice.",
+      "pl": "Piosenka jest ładna.",
+      "accepts": [
+        "Piosenka jest ładna.",
+        "Piosenka jest ładna"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "piosenka"
+      ]
+    },
+    {
+      "en": "The band is good.",
+      "pl": "Zespół jest dobry.",
+      "accepts": [
+        "Zespół jest dobry.",
+        "Zespół jest dobry"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zespół"
+      ]
+    },
+    {
+      "en": "The party is big.",
+      "pl": "Impreza jest duża.",
+      "accepts": [
+        "Impreza jest duża.",
+        "Impreza jest duża"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "impreza"
+      ]
+    },
+    {
+      "en": "I am buying a game.",
+      "pl": "Kupuję grę.",
+      "accepts": [
+        "Kupuję grę.",
+        "Kupuję grę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "gra"
+      ]
+    },
+    {
+      "en": "The holidays are good.",
+      "pl": "Wakacje są dobre.",
+      "accepts": [
+        "Wakacje są dobre.",
+        "Wakacje są dobre"
+      ],
+      "structures": [
+        "byc_present",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wakacje"
       ]
     }
   ]

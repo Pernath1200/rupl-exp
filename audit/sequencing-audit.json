@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T13:05:31+02:00",
+  "generated_at": "2026-07-31T13:14:12+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -582,6 +582,7 @@
       "teaches_structures": [],
       "teaches_lemmas_n": 78,
       "uses_structures": [
+        "byc_adj",
         "byc_present",
         "miec_acc",
         "miec_present",
@@ -590,7 +591,9 @@
         "present_am",
         "present_e_esz",
         "present_e_isz",
-        "to_jest"
+        "present_uje",
+        "to_jest",
+        "zgoda"
       ],
       "unlocked_structures_after": [
         "byc_adj",
