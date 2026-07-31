@@ -96,6 +96,13 @@ function showMap() {
   document.getElementById("view-practice").hidden = true;
   document.body.classList.remove("domain-grammar", "domain-vocab");
   renderAll();
+  // Land on "what's next": up-next re-renders with the following unit.
+  requestAnimationFrame(() => {
+    const un = document.getElementById("up-next-card");
+    un?.scrollIntoView({ behavior: "smooth", block: "start" });
+    un?.classList.add("is-focus-target");
+    setTimeout(() => un?.classList.remove("is-focus-target"), 1600);
+  });
 }
 
 function showPractice(domain) {

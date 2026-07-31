@@ -1271,16 +1271,12 @@ export function startPractice(root, block, opts) {
             ${
               wrongN > 0
                 ? `<button type="button" class="btn primary" id="fs-retry">Powtórz błędy (${wrongN})</button>
+                   <button type="button" class="btn" id="fs-map">Wróć do mapy →</button>`
+                : `<button type="button" class="btn primary" id="fs-map">Wróć do mapy →</button>
                    <button type="button" class="btn" id="fs-match">1 · Dopasuj</button>`
-                : `<button type="button" class="btn" id="fs-again">Cała talia od nowa</button>
-                   <button type="button" class="btn primary" id="fs-match">1 · Dopasuj</button>`
             }
           </div>
-          ${
-            wrongN > 0
-              ? `<button type="button" class="link" id="fs-again">Cała talia od nowa</button>`
-              : ""
-          }
+          <button type="button" class="link" id="fs-again">Cała talia od nowa</button>
         </div>`;
       const retryBtn = stage.querySelector("#fs-retry");
       if (retryBtn) {
@@ -1289,7 +1285,11 @@ export function startPractice(root, block, opts) {
           render();
         };
       }
-      stage.querySelector("#fs-match").onclick = () => setMode("match");
+      stage.querySelector("#fs-map").onclick = () => {
+        clearKey();
+        opts.onExit();
+      };
+      stage.querySelector("#fs-match")?.addEventListener("click", () => setMode("match"));
       const again = stage.querySelector("#fs-again");
       if (again) {
         again.onclick = () => {

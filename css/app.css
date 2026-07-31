@@ -562,7 +562,8 @@ a.today-link:hover {
   margin: 0 0 0.35rem;
 }
 
-.btn.is-focus-target {
+.btn.is-focus-target,
+.card.is-focus-target {
   box-shadow: 0 0 0 3px var(--accent-dim);
   animation: focus-pulse 0.9s ease 0s 2;
 }
