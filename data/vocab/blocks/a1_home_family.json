@@ -301,7 +301,7 @@
           "gender": "f"
         },
         {
-          "en": "mother / mum",
+          "en": "mum",
           "pl": "mama",
           "accepts": [
             "matka"
@@ -309,11 +309,21 @@
           "gender": "f"
         },
         {
-          "en": "father / dad",
+          "en": "dad",
           "pl": "tata",
           "accepts": [
             "ojciec"
           ],
+          "gender": "m"
+        },
+        {
+          "pl": "matka",
+          "en": "mother",
+          "gender": "f"
+        },
+        {
+          "pl": "ojciec",
+          "en": "father",
           "gender": "m"
         },
         {

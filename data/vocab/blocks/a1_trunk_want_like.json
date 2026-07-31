@@ -19,7 +19,8 @@
     "miec_present",
     "to_jest",
     "poss_nom",
-    "byc_present"
+    "byc_present",
+    "ten_ta_to"
   ],
   "blocks": [
     {
@@ -173,52 +174,27 @@
           ]
         },
         {
-          "en": "I have coffee.",
-          "pl": "Mam kawę.",
-          "gap": "Mam ____.",
-          "gap_answer": "kawę",
-          "structures": [
-            "miec_present",
-            "miec_acc"
-          ],
-          "lemmas": [
-            "kawa"
-          ],
+          "pl": "Lubię sport.",
+          "en": "I like sport.",
           "accepts": [
-            "Mam kawę."
+            "Lubię sport.",
+            "Lubię sport"
           ]
         },
         {
-          "en": "This is coffee.",
-          "pl": "To jest kawa.",
-          "gap": "To jest ____.",
-          "gap_answer": "kawa",
-          "structures": [
-            "to_jest"
-          ],
-          "lemmas": [
-            "kawa"
-          ],
+          "pl": "Chcesz herbatę?",
+          "en": "Do you want tea? (sg)",
           "accepts": [
-            "To jest kawa.",
-            "To kawa."
+            "Chcesz herbatę?",
+            "Czy chcesz herbatę?"
           ]
         },
         {
-          "en": "This is my tea.",
-          "pl": "To jest moja herbata.",
-          "gap": "To jest moja ____.",
-          "gap_answer": "herbata",
-          "structures": [
-            "to_jest",
-            "poss_nom"
-          ],
-          "lemmas": [
-            "herbata"
-          ],
+          "pl": "Ona chce sok.",
+          "en": "She wants juice.",
           "accepts": [
-            "To jest moja herbata.",
-            "To moja herbata."
+            "Ona chce sok.",
+            "Chce sok."
           ]
         },
         {
@@ -271,20 +247,11 @@
           ]
         },
         {
-          "en": "This is my sister.",
-          "pl": "To jest moja siostra.",
-          "gap": "To jest moja ____.",
-          "gap_answer": "siostra",
-          "structures": [
-            "to_jest",
-            "poss_nom"
-          ],
-          "lemmas": [
-            "siostra"
-          ],
+          "pl": "Lubię ten film.",
+          "en": "I like this film.",
           "accepts": [
-            "To jest moja siostra.",
-            "To moja siostra."
+            "Lubię ten film.",
+            "Lubię ten film"
           ]
         }
       ]

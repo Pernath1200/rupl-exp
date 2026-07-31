@@ -39,7 +39,7 @@ _None._
 | 20 | `leaf_shopping_a1` | — | 36 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `present_uje`, `to_jest`, `zgoda` |
 | 21 | `leaf_freetime_a1` | — | 78 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `to_jest`, `zgoda` |
 | 22 | `leaf_tech_a1` | — | 22 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present_am`, `to_jest`, `zgoda` |
-| 23 | `trunk_want_like_a1` | — | 32 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_e_esz`, `present_e_isz`, `to_jest` |
+| 23 | `trunk_want_like_a1` | — | 32 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_e_esz`, `present_e_isz`, `ten_ta_to`, `to_jest` |
 | 24 | `trunk_can_a1` | `can_inf` | 0 | `can_inf`, `miec_acc`, `social_chunk` |
 | 25 | `leaf_nature_a1` | — | 36 | `byc_adj`, `byc_present`, `to_jest`, `zgoda` |
 | 26 | `a1_comparatives` | `comparative` | 28 | `byc_adj`, `byc_present`, `comparative`, `zgoda` |

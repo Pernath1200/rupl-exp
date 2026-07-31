@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T13:39:45+02:00",
+  "generated_at": "2026-07-31T17:44:27+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -661,6 +661,7 @@
         "present",
         "present_e_esz",
         "present_e_isz",
+        "ten_ta_to",
         "to_jest"
       ],
       "unlocked_structures_after": [
