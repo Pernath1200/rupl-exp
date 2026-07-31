@@ -115,24 +115,28 @@ function showPractice(domain) {
   );
 }
 
-/** Spine next: grammar teach first, then vocab use, per step. */
+/**
+ * Next = first unfruited live node in tree.path_order — the single source
+ * of truth for sequence. (Spine steps kept only for unit meta; walking them
+ * directly showed a step's vocab side before later-path units.)
+ */
 function spineNext() {
+  const order = STATE.tree?.path_order || [];
   const steps = STATE.spine?.steps || [];
-  for (const step of steps) {
-    const g = step.rupl2;
-    const v = step.rupl3;
-    if (g?.node_id && g.status === "live") {
-      const gn = nodeById(g.node_id);
-      if (gn && gn.status === "live" && !isFruit(gn)) {
-        return { step, node: gn, side: "grammar", pair: v };
-      }
-    }
-    if (v?.node_id && v.status === "live") {
-      const vn = nodeById(v.node_id);
-      if (vn && vn.status === "live" && !isFruit(vn)) {
-        return { step, node: vn, side: "vocab", pair: g };
-      }
-    }
+  for (const nid of order) {
+    const node = nodeById(nid);
+    if (!node || node.status !== "live" || !node.content) continue;
+    if (isFruit(node)) continue;
+    const step =
+      steps.find(
+        (s) => s.rupl2?.node_id === nid || s.rupl3?.node_id === nid,
+      ) || { id: node.unit_id || "", case_tags: node.case_tags || [] };
+    const side = node.domain === "grammar" ? "grammar" : "vocab";
+    const pairId = node.partner_id;
+    const pair = pairId
+      ? { node_id: pairId, label: nodeById(pairId)?.label || pairId }
+      : null;
+    return { step, node, side, pair };
   }
   return null;
 }
