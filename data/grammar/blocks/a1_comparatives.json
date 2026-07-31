@@ -435,7 +435,7 @@
       ]
     },
     {
-      "prompt_en": "Type: The city is bigger than the village? No — than the house.",
+      "prompt_en": "Type: The city is bigger than the house.",
       "answer": "Miasto jest większe niż dom.",
       "accepts": [
         "Miasto jest większe niż dom.",
