@@ -22,6 +22,7 @@
     "a1_hello",
     "trunk_be_have_a1",
     "a1_gender_check",
+    "a1_gender_gym",
     "trunk_adjectives_a1",
     "a1_miec",
     "a1_acc_gym",
@@ -57,7 +58,7 @@
     "leaf_work_a1",
     "leaf_ideas_a1"
   ],
-  "path_order_note": "Path-41: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
+  "path_order_note": "Path-42: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -77,7 +78,8 @@
       "a1_prep_do_z",
       "a1_inst_job",
       "a1_present_uje",
-      "a1_comparatives"
+      "a1_comparatives",
+      "a1_gender_gym"
     ],
     "vocab": [
       "trunk_social_a1",
@@ -320,6 +322,27 @@
       ],
       "pedagogy": "teach",
       "partner_id": "trunk_adjectives_a1"
+    },
+    {
+      "id": "a1_gender_gym",
+      "domain": "grammar",
+      "label": "Rodzaj · ten / ta / to",
+      "label_en": "Gender spotting · ten / ta / to",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_gender_gym.json",
+      "practice": "grammar",
+      "note": "Ending rules + ten/ta/to probe + traps (tata m., drzwi pl.) · classification reflex before adjective frames",
+      "unit_id": "PL_GEND_01",
+      "spine_steps": [
+        "PL_GEND_01"
+      ],
+      "pedagogy": "teach"
     },
     {
       "id": "trunk_adjectives_a1",

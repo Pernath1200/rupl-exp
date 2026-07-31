@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T05:38:33+02:00",
+  "generated_at": "2026-07-31T05:49:21+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -11,6 +11,7 @@
     "a1_hello",
     "trunk_be_have_a1",
     "a1_gender_check",
+    "a1_gender_gym",
     "trunk_adjectives_a1",
     "a1_miec",
     "a1_acc_gym",
@@ -47,7 +48,7 @@
     "leaf_ideas_a1"
   ],
   "summary": {
-    "nodes_audited": 41,
+    "nodes_audited": 42,
     "errors": 0,
     "warns": 0,
     "infos": 0,
@@ -188,6 +189,28 @@
     },
     {
       "path_index": 7,
+      "node_id": "a1_gender_gym",
+      "pack_id": "a1_gender_gym",
+      "domain": "grammar",
+      "teaches_structures": [
+        "ten_ta_to"
+      ],
+      "teaches_lemmas_n": 4,
+      "uses_structures": [
+        "ten_ta_to",
+        "to_jest"
+      ],
+      "unlocked_structures_after": [
+        "byc_present",
+        "poss_nom",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 8,
       "node_id": "trunk_adjectives_a1",
       "pack_id": "a1_trunk_adjectives",
       "domain": "vocab",
@@ -207,12 +230,13 @@
         "byc_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 8,
+      "path_index": 9,
       "node_id": "a1_miec",
       "pack_id": "a1_miec",
       "domain": "grammar",
@@ -232,12 +256,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 9,
+      "path_index": 10,
       "node_id": "a1_acc_gym",
       "pack_id": "a1_acc_gym",
       "domain": "grammar",
@@ -255,12 +280,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 10,
+      "path_index": 11,
       "node_id": "leaf_food_a1",
       "pack_id": "a1_food",
       "domain": "vocab",
@@ -280,12 +306,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 11,
+      "path_index": 12,
       "node_id": "leaf_animals_a1",
       "pack_id": "a1_animals",
       "domain": "vocab",
@@ -307,12 +334,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 12,
+      "path_index": 13,
       "node_id": "leaf_colours_a1",
       "pack_id": "a1_colours",
       "domain": "vocab",
@@ -331,12 +359,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 13,
+      "path_index": 14,
       "node_id": "leaf_numbers_a1",
       "pack_id": "a1_numbers",
       "domain": "vocab",
@@ -353,12 +382,13 @@
         "miec_present",
         "poss_nom",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 14,
+      "path_index": 15,
       "node_id": "a1_present",
       "pack_id": "a1_present",
       "domain": "grammar",
@@ -380,12 +410,13 @@
         "present",
         "present_am",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 15,
+      "path_index": 16,
       "node_id": "a1_present_e_isz",
       "pack_id": "a1_present_e_isz",
       "domain": "grammar",
@@ -409,12 +440,13 @@
         "present_am",
         "present_e_isz",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 16,
+      "path_index": 17,
       "node_id": "a1_present_e_esz",
       "pack_id": "a1_present_e_esz",
       "domain": "grammar",
@@ -439,12 +471,13 @@
         "present_e_esz",
         "present_e_isz",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 17,
+      "path_index": 18,
       "node_id": "a1_present_uje",
       "pack_id": "a1_present_uje",
       "domain": "grammar",
@@ -470,12 +503,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 18,
+      "path_index": 19,
       "node_id": "a1_present_gym",
       "pack_id": "a1_present_gym",
       "domain": "grammar",
@@ -501,12 +535,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 19,
+      "path_index": 20,
       "node_id": "leaf_shopping_a1",
       "pack_id": "a1_shopping",
       "domain": "vocab",
@@ -533,12 +568,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 20,
+      "path_index": 21,
       "node_id": "leaf_freetime_a1",
       "pack_id": "a1_freetime",
       "domain": "vocab",
@@ -567,12 +603,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 21,
+      "path_index": 22,
       "node_id": "leaf_tech_a1",
       "pack_id": "a1_tech",
       "domain": "vocab",
@@ -600,12 +637,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 22,
+      "path_index": 23,
       "node_id": "trunk_want_like_a1",
       "pack_id": "a1_trunk_want_like",
       "domain": "vocab",
@@ -633,12 +671,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 23,
+      "path_index": 24,
       "node_id": "trunk_can_a1",
       "pack_id": "a1_trunk_can",
       "domain": "vocab",
@@ -664,12 +703,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 24,
+      "path_index": 25,
       "node_id": "leaf_nature_a1",
       "pack_id": "a1_nature",
       "domain": "vocab",
@@ -694,12 +734,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 25,
+      "path_index": 26,
       "node_id": "a1_comparatives",
       "pack_id": "a1_comparatives",
       "domain": "grammar",
@@ -727,12 +768,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 26,
+      "path_index": 27,
       "node_id": "leaf_clothes_a1",
       "pack_id": "a1_clothes",
       "domain": "vocab",
@@ -762,12 +804,13 @@
         "present_e_isz",
         "present_uje",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 27,
+      "path_index": 28,
       "node_id": "a1_questions",
       "pack_id": "a1_questions",
       "domain": "grammar",
@@ -798,12 +841,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 28,
+      "path_index": 29,
       "node_id": "leaf_school_a1",
       "pack_id": "a1_school",
       "domain": "vocab",
@@ -835,12 +879,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 29,
+      "path_index": 30,
       "node_id": "a1_prep_place",
       "pack_id": "a1_prep_place",
       "domain": "grammar",
@@ -872,12 +917,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 30,
+      "path_index": 31,
       "node_id": "leaf_places",
       "pack_id": "a1_places",
       "domain": "vocab",
@@ -914,12 +960,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 31,
+      "path_index": 32,
       "node_id": "a1_prep_do_z",
       "pack_id": "a1_prep_do_z",
       "domain": "grammar",
@@ -954,12 +1001,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 32,
+      "path_index": 33,
       "node_id": "leaf_city_a1",
       "pack_id": "a1_city",
       "domain": "vocab",
@@ -998,12 +1046,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 33,
+      "path_index": 34,
       "node_id": "leaf_body_a1",
       "pack_id": "a1_body",
       "domain": "vocab",
@@ -1035,12 +1084,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 34,
+      "path_index": 35,
       "node_id": "leaf_time_cal_a1",
       "pack_id": "a1_time_cal",
       "domain": "vocab",
@@ -1076,12 +1126,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 35,
+      "path_index": 36,
       "node_id": "a1_negation",
       "pack_id": "a1_negation",
       "domain": "grammar",
@@ -1114,12 +1165,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 36,
+      "path_index": 37,
       "node_id": "trunk_there_time_a1",
       "pack_id": "a1_trunk_there_time",
       "domain": "vocab",
@@ -1154,12 +1206,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 37,
+      "path_index": 38,
       "node_id": "leaf_health_a1",
       "pack_id": "a1_health",
       "domain": "vocab",
@@ -1194,12 +1247,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 38,
+      "path_index": 39,
       "node_id": "a1_inst_job",
       "pack_id": "a1_inst_job",
       "domain": "grammar",
@@ -1233,12 +1287,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 39,
+      "path_index": 40,
       "node_id": "leaf_work_a1",
       "pack_id": "a1_work",
       "domain": "vocab",
@@ -1278,12 +1333,13 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]
     },
     {
-      "path_index": 40,
+      "path_index": 41,
       "node_id": "leaf_ideas_a1",
       "pack_id": "a1_ideas",
       "domain": "vocab",
@@ -1321,6 +1377,7 @@
         "present_uje",
         "question",
         "social_chunk",
+        "ten_ta_to",
         "to_jest",
         "zgoda"
       ]

@@ -1,0 +1,497 @@
+{
+  "id": "a1_gender_gym",
+  "title": "Rodzaj · ten / ta / to",
+  "title_en": "Gender spotting · ten / ta / to",
+  "level": "A1",
+  "tree_node": "a1_gender_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gender classification as a skill: ending rules + ten/ta/to as the native probe + the A1 traps (people override endings; soft feminines flagged by badges). Uses only nouns taught by position 7.",
+  "focus_structures": [
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "You decide gender every time",
+      "title_pl": "Rodzaj wybierasz za każdym razem",
+      "body": "Every Polish noun is masculine (m.), feminine (ż.) or neuter (n.) — and every adjective, and later every case ending, depends on it.\n\nThe endings tell you almost everything:",
+      "body_pl": "Każdy rzeczownik ma rodzaj — i od niego zależy przymiotnik i końcówki.",
+      "table": {
+        "headers": [
+          "Ending",
+          "Gender",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "consonant",
+            "m. (masculine)",
+            "dom · kot · sklep · stół"
+          ],
+          [
+            "-a",
+            "ż. (feminine)",
+            "kawa · mama · kuchnia · woda"
+          ],
+          [
+            "-o · -e · -um",
+            "n. (neuter)",
+            "piwo · morze · miasto · okno"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The native test: ten / ta / to",
+      "title_pl": "Test: ten / ta / to",
+      "body": "Poles check gender by trying \"this\": ten dom (m.) · ta kawa (ż.) · to piwo (n.) · te drzwi (plural).\n\nIf ten fits, it's masculine; ta — feminine; to — neuter. This unit drills that reflex.\n\nWatch the two to's: To jest piwo. = \"This is beer.\" (fixed frame) — but to piwo = \"this beer\" (gender test).",
+      "body_pl": "Sprawdzasz przez „ten/ta/to\": ten dom · ta kawa · to piwo · te drzwi.\n\nUwaga: To jest piwo (rama) ≠ to piwo (wskazanie).",
+      "examples": [
+        {
+          "en": "this house",
+          "pl": "ten dom"
+        },
+        {
+          "en": "this coffee",
+          "pl": "ta kawa"
+        },
+        {
+          "en": "this beer",
+          "pl": "to piwo"
+        },
+        {
+          "en": "this door (plural in Polish)",
+          "pl": "te drzwi"
+        }
+      ]
+    },
+    {
+      "title": "The traps",
+      "title_pl": "Pułapki",
+      "body": "1. People override endings: tata and mężczyzna end in -a but are masculine — ten tata. Natural gender wins for people.\n\n2. Some consonant-ending nouns are feminine: mysz, noc, sól, twarz — you will meet them soon; the ż. badge marks every one. Nouns in -ość are ALWAYS feminine.\n\n3. A few nouns are plural-only: drzwi, and later spodnie, okulary, pieniądze — test with te, and they take są, not jest.",
+      "body_pl": "1. Osoby: tata, mężczyzna = m. mimo -a.\n2. Niektóre spółgłoskowe są żeńskie: mysz, noc, sól, twarz (znaczek ż.); -ość zawsze ż.\n3. Tylko-mnogie: drzwi (te drzwi · są)."
+    }
+  ],
+  "match": [
+    {
+      "en": "this house",
+      "pl": "ten dom"
+    },
+    {
+      "en": "this coffee",
+      "pl": "ta kawa"
+    },
+    {
+      "en": "this beer",
+      "pl": "to piwo"
+    },
+    {
+      "en": "this cat",
+      "pl": "ten kot"
+    },
+    {
+      "en": "this mum",
+      "pl": "ta mama"
+    },
+    {
+      "en": "this city",
+      "pl": "to miasto"
+    },
+    {
+      "en": "this table",
+      "pl": "ten stół"
+    },
+    {
+      "en": "this kitchen",
+      "pl": "ta kuchnia"
+    },
+    {
+      "en": "this window",
+      "pl": "to okno"
+    },
+    {
+      "en": "this dad",
+      "pl": "ten tata"
+    },
+    {
+      "en": "this sea",
+      "pl": "to morze"
+    },
+    {
+      "en": "this door",
+      "pl": "te drzwi"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "dom →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ten"
+    },
+    {
+      "prompt": "kawa →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ta"
+    },
+    {
+      "prompt": "piwo →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "to"
+    },
+    {
+      "prompt": "morze →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "to"
+    },
+    {
+      "prompt": "stół →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ten"
+    },
+    {
+      "prompt": "kuchnia →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ta"
+    },
+    {
+      "prompt": "TRAP — tata →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ten"
+    },
+    {
+      "prompt": "TRAP — mężczyzna →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "ten"
+    },
+    {
+      "prompt": "TRAP — drzwi →",
+      "choices": [
+        "ten",
+        "ta",
+        "to",
+        "te"
+      ],
+      "answer": "te"
+    },
+    {
+      "prompt": "ERROR — *ta tata →",
+      "choices": [
+        "ten tata",
+        "ta tata",
+        "to tata",
+        "te tata"
+      ],
+      "answer": "ten tata"
+    },
+    {
+      "prompt": "ERROR — *ten kawa →",
+      "choices": [
+        "ten kawa",
+        "ta kawa",
+        "to kawa",
+        "te kawa"
+      ],
+      "answer": "ta kawa"
+    },
+    {
+      "prompt": "ERROR — *to sklep →",
+      "choices": [
+        "ten sklep",
+        "ta sklep",
+        "to sklep",
+        "te sklep"
+      ],
+      "answer": "ten sklep"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "dom → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ten",
+      "accepts": [
+        "ten"
+      ]
+    },
+    {
+      "prompt_en": "kawa → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ta",
+      "accepts": [
+        "ta"
+      ]
+    },
+    {
+      "prompt_en": "piwo → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "to",
+      "accepts": [
+        "to"
+      ]
+    },
+    {
+      "prompt_en": "kot → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ten",
+      "accepts": [
+        "ten"
+      ]
+    },
+    {
+      "prompt_en": "woda → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ta",
+      "accepts": [
+        "ta"
+      ]
+    },
+    {
+      "prompt_en": "okno → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "to",
+      "accepts": [
+        "to"
+      ]
+    },
+    {
+      "prompt_en": "miasto → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "to",
+      "accepts": [
+        "to"
+      ]
+    },
+    {
+      "prompt_en": "siostra → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ta",
+      "accepts": [
+        "ta"
+      ]
+    },
+    {
+      "prompt_en": "klucz → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ten",
+      "accepts": [
+        "ten"
+      ]
+    },
+    {
+      "prompt_en": "TRAP: tata → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "ten",
+      "accepts": [
+        "ten"
+      ]
+    },
+    {
+      "prompt_en": "TRAP: drzwi → ten / ta / to / te?",
+      "mode": "full_word",
+      "answer": "te",
+      "accepts": [
+        "te"
+      ]
+    },
+    {
+      "prompt_en": "auto → ten / ta / to?",
+      "mode": "full_word",
+      "answer": "to",
+      "accepts": [
+        "to"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: this house",
+      "answer": "ten dom",
+      "accepts": [
+        "ten dom",
+        "Ten dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: this coffee",
+      "answer": "ta kawa",
+      "accepts": [
+        "ta kawa",
+        "Ta kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: this beer",
+      "answer": "to piwo",
+      "accepts": [
+        "to piwo",
+        "To piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: this cat",
+      "answer": "ten kot",
+      "accepts": [
+        "ten kot",
+        "Ten kot"
+      ]
+    },
+    {
+      "prompt_en": "Type: this kitchen",
+      "answer": "ta kuchnia",
+      "accepts": [
+        "ta kuchnia",
+        "Ta kuchnia"
+      ]
+    },
+    {
+      "prompt_en": "Type: this sea",
+      "answer": "to morze",
+      "accepts": [
+        "to morze",
+        "To morze"
+      ]
+    },
+    {
+      "prompt_en": "Type: this table",
+      "answer": "ten stół",
+      "accepts": [
+        "ten stół",
+        "Ten stół"
+      ]
+    },
+    {
+      "prompt_en": "Type: this water",
+      "answer": "ta woda",
+      "accepts": [
+        "ta woda",
+        "Ta woda"
+      ]
+    },
+    {
+      "prompt_en": "Type: this flat",
+      "answer": "to mieszkanie",
+      "accepts": [
+        "to mieszkanie",
+        "To mieszkanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: this dad",
+      "answer": "ten tata",
+      "accepts": [
+        "ten tata",
+        "Ten tata"
+      ]
+    },
+    {
+      "prompt_en": "Type: this door",
+      "answer": "te drzwi",
+      "accepts": [
+        "te drzwi",
+        "Te drzwi"
+      ]
+    },
+    {
+      "prompt_en": "Type: this room",
+      "answer": "ten pokój",
+      "accepts": [
+        "ten pokój",
+        "Ten pokój"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "ten_ta_to"
+  ],
+  "uses_structures": [
+    "ten_ta_to",
+    "to_jest"
+  ],
+  "teaches_lemmas": [
+    "ten",
+    "ta",
+    "to",
+    "te"
+  ],
+  "uses_lemmas": [
+    "ten",
+    "ta",
+    "to",
+    "te",
+    "dom",
+    "kawa",
+    "piwo",
+    "kot",
+    "mama",
+    "tata",
+    "miasto",
+    "morze",
+    "stół",
+    "kuchnia",
+    "okno",
+    "woda",
+    "siostra",
+    "klucz",
+    "auto",
+    "mieszkanie",
+    "pokój",
+    "drzwi",
+    "mężczyzna",
+    "sklep"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_gender_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

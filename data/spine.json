@@ -95,6 +95,21 @@
       }
     },
     {
+      "id": "PL_GEND_01",
+      "title": "Rodzaj · ten / ta / to",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
+        "node_id": "a1_gender_gym",
+        "label": "Rodzaj · ten / ta / to",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
       "id": "PL_ACC_01",
       "title": "Mieć + biernik",
       "case_tags": [
@@ -449,7 +464,7 @@
       }
     }
   ],
-  "path_41": [
+  "path_42": [
     "trunk_social_a1",
     "a1_gender",
     "a1_poss_simple",
@@ -457,6 +472,7 @@
     "a1_hello",
     "trunk_be_have_a1",
     "a1_gender_check",
+    "a1_gender_gym",
     "trunk_adjectives_a1",
     "a1_miec",
     "a1_acc_gym",
