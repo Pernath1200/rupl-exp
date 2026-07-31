@@ -35,12 +35,12 @@
           "gender": "m"
         },
         {
-          "en": "television",
+          "en": "television (the medium)",
           "pl": "telewizja",
           "gender": "f"
         },
         {
-          "en": "TV",
+          "en": "TV (the set)",
           "pl": "telewizor",
           "icon": "📺",
           "gender": "m"
