@@ -89,7 +89,10 @@
         {
           "en": "email",
           "pl": "e-mail",
-          "gender": "m"
+          "gender": "m",
+          "accepts": [
+            "email"
+          ]
         },
         {
           "en": "computer",

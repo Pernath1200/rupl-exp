@@ -98,7 +98,10 @@
           "en": "email",
           "pl": "e-mail",
           "icon": "📧",
-          "gender": "m"
+          "gender": "m",
+          "accepts": [
+            "email"
+          ]
         },
         {
           "en": "blog",
@@ -219,7 +222,9 @@
       "pl": "Czytam e-mail.",
       "accepts": [
         "Czytam e-mail.",
-        "Czytam e-mail"
+        "Czytam e-mail",
+        "Czytam email.",
+        "Czytam email"
       ],
       "structures": [
         "present_am",
