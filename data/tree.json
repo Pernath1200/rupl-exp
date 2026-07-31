@@ -40,6 +40,7 @@
     "trunk_want_like_a1",
     "trunk_can_a1",
     "leaf_nature_a1",
+    "a1_comparatives",
     "leaf_clothes_a1",
     "a1_questions",
     "leaf_school_a1",
@@ -56,7 +57,7 @@
     "leaf_work_a1",
     "leaf_ideas_a1"
   ],
-  "path_order_note": "Path-40: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
+  "path_order_note": "Path-41: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -75,7 +76,8 @@
       "a1_prep_place",
       "a1_prep_do_z",
       "a1_inst_job",
-      "a1_present_uje"
+      "a1_present_uje",
+      "a1_comparatives"
     ],
     "vocab": [
       "trunk_social_a1",
@@ -735,6 +737,27 @@
         "PL_NAT_01"
       ],
       "pedagogy": "use"
+    },
+    {
+      "id": "a1_comparatives",
+      "domain": "grammar",
+      "label": "Porównania · większy niż",
+      "label_en": "Comparatives · bigger than",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_comparatives.json",
+      "practice": "grammar",
+      "note": "8 comparatives over known adjectives · niż + mianownik (no case cost) · od+Gen = A2",
+      "unit_id": "PL_COMP_01",
+      "spine_steps": [
+        "PL_COMP_01"
+      ],
+      "pedagogy": "teach"
     },
     {
       "id": "leaf_clothes_a1",

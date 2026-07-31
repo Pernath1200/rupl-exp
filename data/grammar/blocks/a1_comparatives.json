@@ -1,0 +1,552 @@
+{
+  "id": "a1_comparatives",
+  "title": "Porównania · większy niż",
+  "title_en": "Comparatives · bigger than",
+  "level": "A1",
+  "tree_node": "a1_comparatives",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Closed set of 8 comparatives over known adjectives + frame X jest [comp] niż Y. niż + Nominative — no case cost. bardziej-comparatives and od+Gen deferred to A2.",
+  "focus_structures": [
+    "comparative"
+  ],
+  "intro": [
+    {
+      "title": "Comparing — the -szy step",
+      "title_pl": "Porównania — krok -szy",
+      "body": "Take an adjective you know and step it up with -szy: stary → starszy (older), młody → młodszy (younger), nowy → nowszy (newer), tani → tańszy (cheaper), drogi → droższy (more expensive).\n\nFour of the most common ones change their whole shape — learn them as words:\ndobry → lepszy (better) · zły → gorszy (worse) · duży → większy (bigger) · mały → mniejszy (smaller).",
+      "body_pl": "Znany przymiotnik + -szy: stary → starszy, młody → młodszy, nowy → nowszy, tani → tańszy, drogi → droższy.\n\nCztery nieregularne jako słowa: dobry → lepszy · zły → gorszy · duży → większy · mały → mniejszy."
+    },
+    {
+      "title": "The eight comparatives",
+      "table": {
+        "headers": [
+          "Adjective",
+          "Comparative",
+          "English"
+        ],
+        "rows": [
+          [
+            "dobry",
+            "lepszy",
+            "better"
+          ],
+          [
+            "zły",
+            "gorszy",
+            "worse"
+          ],
+          [
+            "duży",
+            "większy",
+            "bigger"
+          ],
+          [
+            "mały",
+            "mniejszy",
+            "smaller"
+          ],
+          [
+            "stary",
+            "starszy",
+            "older"
+          ],
+          [
+            "młody",
+            "młodszy",
+            "younger"
+          ],
+          [
+            "drogi",
+            "droższy",
+            "more expensive"
+          ],
+          [
+            "tani",
+            "tańszy",
+            "cheaper"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The frame: niż + dictionary form",
+      "title_pl": "Rama: niż + mianownik",
+      "body": "X jest większy niż Y. — after niż the noun stays in its dictionary (nominative) form. No case change:\n\nDom jest większy niż mieszkanie.\nKot jest mniejszy niż pies.\n\nComparatives agree like adjectives: Brat jest starszy · Siostra jest starsza · Wino jest droższe.",
+      "body_pl": "Po niż rzeczownik zostaje w mianowniku: Dom jest większy niż mieszkanie.\n\nZgoda jak u przymiotnika: starszy / starsza / starsze.",
+      "examples": [
+        {
+          "en": "The house is bigger than the flat.",
+          "pl": "Dom jest większy niż mieszkanie."
+        },
+        {
+          "en": "The cat is smaller than the dog.",
+          "pl": "Kot jest mniejszy niż pies."
+        },
+        {
+          "en": "Coffee is better than tea.",
+          "pl": "Kawa jest lepsza niż herbata."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "better",
+      "pl": "lepszy"
+    },
+    {
+      "en": "worse",
+      "pl": "gorszy"
+    },
+    {
+      "en": "bigger",
+      "pl": "większy"
+    },
+    {
+      "en": "smaller",
+      "pl": "mniejszy"
+    },
+    {
+      "en": "older",
+      "pl": "starszy"
+    },
+    {
+      "en": "younger",
+      "pl": "młodszy"
+    },
+    {
+      "en": "more expensive",
+      "pl": "droższy"
+    },
+    {
+      "en": "cheaper",
+      "pl": "tańszy"
+    },
+    {
+      "en": "than",
+      "pl": "niż"
+    },
+    {
+      "en": "bigger than the flat",
+      "pl": "większy niż mieszkanie"
+    },
+    {
+      "en": "better than tea (about coffee)",
+      "pl": "lepsza niż herbata"
+    },
+    {
+      "en": "smaller than the dog",
+      "pl": "mniejszy niż pies"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "good → better:",
+      "choices": [
+        "lepszy",
+        "gorszy",
+        "większy",
+        "starszy"
+      ],
+      "answer": "lepszy"
+    },
+    {
+      "prompt": "bad → worse:",
+      "choices": [
+        "lepszy",
+        "gorszy",
+        "mniejszy",
+        "młodszy"
+      ],
+      "answer": "gorszy"
+    },
+    {
+      "prompt": "big → bigger:",
+      "choices": [
+        "większy",
+        "mniejszy",
+        "droższy",
+        "lepszy"
+      ],
+      "answer": "większy"
+    },
+    {
+      "prompt": "small → smaller:",
+      "choices": [
+        "większy",
+        "mniejszy",
+        "tańszy",
+        "gorszy"
+      ],
+      "answer": "mniejszy"
+    },
+    {
+      "prompt": "old → older:",
+      "choices": [
+        "starszy",
+        "młodszy",
+        "nowszy",
+        "stary"
+      ],
+      "answer": "starszy"
+    },
+    {
+      "prompt": "expensive → more expensive:",
+      "choices": [
+        "droższy",
+        "tańszy",
+        "drogi",
+        "większy"
+      ],
+      "answer": "droższy"
+    },
+    {
+      "prompt": "Kawa jest ___ (better):",
+      "choices": [
+        "lepszy",
+        "lepsza",
+        "lepsze",
+        "lepiej"
+      ],
+      "answer": "lepsza"
+    },
+    {
+      "prompt": "Wino jest ___ (more expensive):",
+      "choices": [
+        "droższy",
+        "droższa",
+        "droższe",
+        "drogo"
+      ],
+      "answer": "droższe"
+    },
+    {
+      "prompt": "ERROR — *bardziej dobry →",
+      "choices": [
+        "lepszy",
+        "gorszy",
+        "bardziej lepszy",
+        "dobrzejszy"
+      ],
+      "answer": "lepszy"
+    },
+    {
+      "prompt": "ERROR — *Kot jest mniejszy niż psa →",
+      "choices": [
+        "niż pies",
+        "niż psa",
+        "niż psu",
+        "niż psem"
+      ],
+      "answer": "niż pies"
+    },
+    {
+      "prompt": "The house is bigger than the flat:",
+      "choices": [
+        "Dom jest większy niż mieszkanie.",
+        "Dom jest większe niż mieszkanie.",
+        "Dom jest większy niż mieszkania.",
+        "Dom jest duży niż mieszkanie."
+      ],
+      "answer": "Dom jest większy niż mieszkanie."
+    },
+    {
+      "prompt": "Dad is older than mum:",
+      "choices": [
+        "Tata jest starszy niż mama.",
+        "Tata jest starsza niż mama.",
+        "Tata jest starszy niż mamę.",
+        "Tata jest stary niż mama."
+      ],
+      "answer": "Tata jest starszy niż mama."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "better (m)",
+      "mode": "full_word",
+      "answer": "lepszy",
+      "accepts": [
+        "lepszy"
+      ]
+    },
+    {
+      "prompt_en": "worse (m)",
+      "mode": "full_word",
+      "answer": "gorszy",
+      "accepts": [
+        "gorszy"
+      ]
+    },
+    {
+      "prompt_en": "bigger (m)",
+      "mode": "full_word",
+      "answer": "większy",
+      "accepts": [
+        "większy"
+      ]
+    },
+    {
+      "prompt_en": "smaller (m)",
+      "mode": "full_word",
+      "answer": "mniejszy",
+      "accepts": [
+        "mniejszy"
+      ]
+    },
+    {
+      "prompt_en": "older (m)",
+      "mode": "full_word",
+      "answer": "starszy",
+      "accepts": [
+        "starszy"
+      ]
+    },
+    {
+      "prompt_en": "younger (m)",
+      "mode": "full_word",
+      "answer": "młodszy",
+      "accepts": [
+        "młodszy"
+      ]
+    },
+    {
+      "prompt_en": "more expensive (m)",
+      "mode": "full_word",
+      "answer": "droższy",
+      "accepts": [
+        "droższy"
+      ]
+    },
+    {
+      "prompt_en": "cheaper (m)",
+      "mode": "full_word",
+      "answer": "tańszy",
+      "accepts": [
+        "tańszy"
+      ]
+    },
+    {
+      "prompt_en": "better (f — about kawa)",
+      "mode": "full_word",
+      "answer": "lepsza",
+      "accepts": [
+        "lepsza"
+      ]
+    },
+    {
+      "prompt_en": "bigger (n — about miasto)",
+      "mode": "full_word",
+      "answer": "większe",
+      "accepts": [
+        "większe"
+      ]
+    },
+    {
+      "prompt_en": "older (f — about siostra)",
+      "mode": "full_word",
+      "answer": "starsza",
+      "accepts": [
+        "starsza"
+      ]
+    },
+    {
+      "prompt_en": "than",
+      "mode": "full_word",
+      "answer": "niż",
+      "accepts": [
+        "niż"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The house is bigger than the flat.",
+      "answer": "Dom jest większy niż mieszkanie.",
+      "accepts": [
+        "Dom jest większy niż mieszkanie.",
+        "Dom jest większy niż mieszkanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: The cat is smaller than the dog.",
+      "answer": "Kot jest mniejszy niż pies.",
+      "accepts": [
+        "Kot jest mniejszy niż pies.",
+        "Kot jest mniejszy niż pies"
+      ]
+    },
+    {
+      "prompt_en": "Type: The elephant is bigger than the mouse.",
+      "answer": "Słoń jest większy niż mysz.",
+      "accepts": [
+        "Słoń jest większy niż mysz.",
+        "Słoń jest większy niż mysz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Coffee is better than tea.",
+      "answer": "Kawa jest lepsza niż herbata.",
+      "accepts": [
+        "Kawa jest lepsza niż herbata.",
+        "Kawa jest lepsza niż herbata"
+      ]
+    },
+    {
+      "prompt_en": "Type: Wine is more expensive than beer.",
+      "answer": "Wino jest droższe niż piwo.",
+      "accepts": [
+        "Wino jest droższe niż piwo.",
+        "Wino jest droższe niż piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tea is cheaper than coffee.",
+      "answer": "Herbata jest tańsza niż kawa.",
+      "accepts": [
+        "Herbata jest tańsza niż kawa.",
+        "Herbata jest tańsza niż kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is older than mum.",
+      "answer": "Tata jest starszy niż mama.",
+      "accepts": [
+        "Tata jest starszy niż mama.",
+        "Tata jest starszy niż mama"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is younger than my brother.",
+      "answer": "Moja siostra jest młodsza niż mój brat.",
+      "accepts": [
+        "Moja siostra jest młodsza niż mój brat.",
+        "Siostra jest młodsza niż brat."
+      ]
+    },
+    {
+      "prompt_en": "Type: The city is bigger than the village? No — than the house.",
+      "answer": "Miasto jest większe niż dom.",
+      "accepts": [
+        "Miasto jest większe niż dom.",
+        "Miasto jest większe niż dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The film is worse than the book.",
+      "answer": "Film jest gorszy niż książka.",
+      "accepts": [
+        "Film jest gorszy niż książka.",
+        "Film jest gorszy niż książka"
+      ]
+    },
+    {
+      "prompt_en": "Type: The car is newer than the house.",
+      "answer": "Auto jest nowsze niż dom.",
+      "accepts": [
+        "Auto jest nowsze niż dom.",
+        "Auto jest nowsze niż dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The dog is older than the cat.",
+      "answer": "Pies jest starszy niż kot.",
+      "accepts": [
+        "Pies jest starszy niż kot.",
+        "Pies jest starszy niż kot"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "comparative"
+  ],
+  "uses_structures": [
+    "comparative",
+    "byc_adj",
+    "zgoda",
+    "byc_present"
+  ],
+  "teaches_lemmas": [
+    "droższa",
+    "droższe",
+    "droższy",
+    "gorsza",
+    "gorsze",
+    "gorszy",
+    "lepsza",
+    "lepsze",
+    "lepszy",
+    "mniejsza",
+    "mniejsze",
+    "mniejszy",
+    "młodsza",
+    "młodsze",
+    "młodszy",
+    "niż",
+    "nowsza",
+    "nowsze",
+    "nowszy",
+    "starsza",
+    "starsze",
+    "starszy",
+    "tańsza",
+    "tańsze",
+    "tańszy",
+    "większa",
+    "większe",
+    "większy"
+  ],
+  "uses_lemmas": [
+    "lepszy",
+    "lepsza",
+    "gorszy",
+    "większy",
+    "większe",
+    "mniejszy",
+    "starszy",
+    "starsza",
+    "młodszy",
+    "młodsza",
+    "droższy",
+    "droższe",
+    "tańszy",
+    "tańsza",
+    "nowszy",
+    "nowsze",
+    "niż",
+    "dom",
+    "mieszkanie",
+    "kot",
+    "pies",
+    "słoń",
+    "mysz",
+    "kawa",
+    "herbata",
+    "wino",
+    "piwo",
+    "mama",
+    "tata",
+    "brat",
+    "siostra",
+    "miasto",
+    "auto",
+    "film",
+    "książka"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_comparatives",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -141,5 +141,31 @@
   "uses_structures": [
     "to_jest",
     "zgoda"
+  ],
+  "teaches_lemmas": [
+    "zwierzę",
+    "pies",
+    "kot",
+    "ptak",
+    "ryba",
+    "koń",
+    "krowa",
+    "świnia",
+    "owca",
+    "mysz",
+    "lew",
+    "słoń",
+    "wąż",
+    "małpa",
+    "niedźwiedź",
+    "królik",
+    "kurczak",
+    "kaczka",
+    "żaba",
+    "owad",
+    "zwierzę domowe",
+    "dziki",
+    "farma",
+    "zoo"
   ]
 }

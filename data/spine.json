@@ -281,6 +281,19 @@
       }
     },
     {
+      "id": "PL_COMP_01",
+      "title": "Porównania · większy niż",
+      "case_tags": [],
+      "rupl2": {
+        "node_id": "a1_comparatives",
+        "label": "Porównania · większy niż",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
       "id": "PL_CLO_01",
       "title": "Ubrania · nazywanie",
       "case_tags": [],
@@ -436,7 +449,7 @@
       }
     }
   ],
-  "path_40": [
+  "path_41": [
     "trunk_social_a1",
     "a1_gender",
     "a1_poss_simple",
@@ -462,6 +475,7 @@
     "trunk_want_like_a1",
     "trunk_can_a1",
     "leaf_nature_a1",
+    "a1_comparatives",
     "leaf_clothes_a1",
     "a1_questions",
     "leaf_school_a1",
