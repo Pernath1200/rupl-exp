@@ -96,23 +96,24 @@ function passOrder(listLen, onlyIndices, opts) {
     for (let k = 0; k < w; k++) bag.push(i);
   }
   shuffle(bag);
-  // Unseen-first: fill from unseen items, top up with seen only if short.
-  const order = [];
-  const topUp = [];
+  // Three tiers: unseen sentence-targets are GUARANTEED first (Zdanie must
+  // never demand a word the word modes haven't shown — deterministic, not
+  // weighted odds), then other unseen (rotation), then seen top-up.
+  const tTargets = [];
+  const tUnseen = [];
+  const tSeen = [];
   const used = new Set();
   for (const i of bag) {
     if (used.has(i)) continue;
     used.add(i);
-    const wasSeen =
-      seen && items && items[i] && seen.has(itemDeckKey(items[i]));
-    if (wasSeen) topUp.push(i);
-    else order.push(i);
-    if (order.length >= DEFAULT_PASS) break;
+    const it = items && items[i];
+    const wasSeen = seen && it && seen.has(itemDeckKey(it));
+    const isTarget = targets && targets.size && it && targets.has(it.pl);
+    if (wasSeen) tSeen.push(i);
+    else if (isTarget) tTargets.push(i);
+    else tUnseen.push(i);
   }
-  for (const i of topUp) {
-    if (order.length >= DEFAULT_PASS) break;
-    order.push(i);
-  }
+  const order = [...tTargets, ...tUnseen, ...tSeen].slice(0, DEFAULT_PASS);
   return shuffle(order);
 }
 
