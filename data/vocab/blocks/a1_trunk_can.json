@@ -4,7 +4,7 @@
   "level": "A1",
   "tree_node": "trunk_can_a1",
   "practice": "frames",
-  "note": "A1 · móc / umieć · EN → PL",
+  "note": "A1 · móc / umieć + bezokolicznik. DESIGN: modal frames deliberately introduce 9 core infinitives as complements — one unknown per sentence, EN-anchored (anchor rule). Several are natural perfectives after modals (pomóc, przyjść, usiąść, otworzyć) — aspect stays A2; here they are chunks.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -139,5 +139,23 @@
     "can_inf",
     "social_chunk",
     "miec_acc"
+  ],
+  "teaches_lemmas": [
+    "mogę",
+    "możesz",
+    "może",
+    "możemy",
+    "umiem",
+    "umiesz",
+    "umie",
+    "pływać",
+    "śpiewać",
+    "prowadzić",
+    "pomóc",
+    "przyjść",
+    "usiąść",
+    "otworzyć",
+    "spać",
+    "spotkać się"
   ]
 }

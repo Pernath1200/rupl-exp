@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T17:44:27+02:00",
+  "generated_at": "2026-07-31T17:45:52+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -689,7 +689,7 @@
       "teaches_structures": [
         "can_inf"
       ],
-      "teaches_lemmas_n": 0,
+      "teaches_lemmas_n": 16,
       "uses_structures": [
         "can_inf",
         "miec_acc",
