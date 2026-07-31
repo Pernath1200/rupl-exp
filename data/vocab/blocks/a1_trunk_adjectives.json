@@ -132,5 +132,30 @@
   ],
   "teaches_structures": [
     "byc_adj"
+  ],
+  "teaches_lemmas": [
+    "dobra",
+    "dobry",
+    "duży",
+    "głodne",
+    "głodny",
+    "małe",
+    "mały",
+    "młoda",
+    "młody",
+    "nowa",
+    "nowy",
+    "stara",
+    "stary",
+    "szczęśliwy",
+    "zimna",
+    "zimny",
+    "zmęczona",
+    "zmęczony",
+    "zła",
+    "złe",
+    "zły",
+    "ładna",
+    "ładny"
   ]
 }
