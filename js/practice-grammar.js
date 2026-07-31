@@ -809,7 +809,8 @@ export function startPractice(pack, root, opts) {
       fb.className = "feedback " + (good ? "ok" : "bad");
       fb.textContent = good ? "Tak." : `→ ${item.answer}`;
       state.enterAdvance = goNextQ;
-      advanceTimer = setTimeout(goNextQ, 900);
+      // Wrong answers wait for Enter so the correction can be read.
+      if (good) advanceTimer = setTimeout(goNextQ, 900);
     };
 
     function onDigit(e) {
@@ -1076,7 +1077,11 @@ export function startPractice(pack, root, opts) {
       btn.onclick = goNext;
       focusPrimary("#btn-submit");
       state.enterAdvance = goNext;
-      advanceTimer = setTimeout(goNext, isGap ? 750 : 900);
+      // Correct: gentle auto-advance. Wrong: wait for Enter — the learner
+      // must get time to study the correction (James, comparatives smoke).
+      if (good) {
+        advanceTimer = setTimeout(goNext, isGap ? 750 : 900);
+      }
     };
 
     const onEnter = () => {
