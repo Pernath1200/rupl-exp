@@ -98,12 +98,18 @@ function showMap() {
   document.getElementById("view-practice").hidden = true;
   document.body.classList.remove("domain-grammar", "domain-vocab");
   renderAll();
-  // Land on "what's next": up-next re-renders with the following unit.
+  // Land on "what's next" — after a review launch, that means the review
+  // card (finish the day's queue), falling through to up-next once empty.
   requestAnimationFrame(() => {
-    const un = document.getElementById("up-next-card");
-    un?.scrollIntoView({ behavior: "smooth", block: "start" });
-    un?.classList.add("is-focus-target");
-    setTimeout(() => un?.classList.remove("is-focus-target"), 1600);
+    const rc = document.getElementById("review-card");
+    const target =
+      STATE.cameFromReview && rc && !rc.hidden
+        ? rc
+        : document.getElementById("up-next-card");
+    STATE.cameFromReview = false;
+    target?.scrollIntoView({ behavior: "smooth", block: "start" });
+    target?.classList.add("is-focus-target");
+    setTimeout(() => target?.classList.remove("is-focus-target"), 1600);
   });
 }
 
@@ -387,6 +393,7 @@ function renderDetail() {
 
 async function openNode(node, launch = {}) {
   if (node.status !== "live" || !node.content) return;
+  STATE.cameFromReview = !!launch.review;
   try {
     const pack = await loadJson(`./data/${node.content}`);
     showPractice(node.domain);
