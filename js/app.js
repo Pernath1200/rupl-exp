@@ -427,6 +427,7 @@ async function openNode(node, launch = {}) {
           title: pack.title || node.label,
           items: pack.blocks.flatMap((b) => b.items || []),
           sentences: packSentences,
+          intro: pack.intro || null,
           focus_structures: focusStructures,
           teaches_structures: pack.teaches_structures || [],
           uses_structures: pack.uses_structures || [],
@@ -438,6 +439,7 @@ async function openNode(node, launch = {}) {
           sentences: packSentences.length
             ? packSentences
             : pack.blocks[0].sentences || [],
+          intro: pack.intro || null,
           focus_structures: focusStructures,
           teaches_structures: pack.teaches_structures || [],
           uses_structures: pack.uses_structures || [],
