@@ -16,6 +16,12 @@
           "gender": "m"
         },
         {
+          "pl": "samochód",
+          "en": "car",
+          "gender": "m",
+          "icon": "🚗"
+        },
+        {
           "en": "tram",
           "pl": "tramwaj",
           "gender": "m"
@@ -187,7 +193,8 @@
     "tu",
     "tutaj",
     "w lewo",
-    "w prawo"
+    "w prawo",
+    "samochód"
   ],
   "uses_lemmas": [
     "adres",
@@ -412,6 +419,23 @@
       "lemmas": [
         "centrum",
         "blisko"
+      ]
+    },
+    {
+      "en": "The car is old.",
+      "pl": "Samochód jest stary.",
+      "accepts": [
+        "Samochód jest stary.",
+        "Samochód jest stary",
+        "Auto jest stare."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "samochód"
       ]
     }
   ]

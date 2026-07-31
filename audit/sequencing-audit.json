@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T19:35:46+02:00",
+  "generated_at": "2026-07-31T19:50:26+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -1017,7 +1017,7 @@
       "pack_id": "a1_city",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 28,
+      "teaches_lemmas_n": 29,
       "uses_structures": [
         "byc_adj",
         "byc_present",

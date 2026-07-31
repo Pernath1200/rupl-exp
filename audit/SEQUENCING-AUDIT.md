@@ -49,7 +49,7 @@ _None._
 | 30 | `a1_prep_place` | `prep_place`, `prep_w_loc` | 17 | `byc_present`, `prep_place`, `prep_w_loc`, `present_am` |
 | 31 | `leaf_places` | — | 35 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `question`, `to_jest` |
 | 32 | `a1_prep_do_z` | `prep_do_gen`, `prep_place`, `prep_z_gen` | 11 | `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen` |
-| 33 | `leaf_city_a1` | — | 28 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |
+| 33 | `leaf_city_a1` | — | 29 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |
 | 34 | `leaf_body_a1` | — | 23 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 35 | `leaf_time_cal_a1` | — | 48 | `byc_adj`, `byc_present`, `miec_acc`, `present_am`, `present_e_esz`, `present_uje`, `social_chunk`, `to_jest`, `zgoda` |
 | 36 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |

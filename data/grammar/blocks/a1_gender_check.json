@@ -319,7 +319,8 @@
       "prompt_en": "good car",
       "answer": "dobre auto",
       "accepts": [
-        "dobre auto"
+        "dobre auto",
+        "dobry samochód"
       ]
     },
     {
@@ -405,7 +406,9 @@
       "prompt_en": "Type: This is a good car.",
       "answer": "To jest dobre auto.",
       "accepts": [
-        "To jest dobre auto."
+        "To jest dobre auto.",
+        "To jest dobry samochód.",
+        "To jest dobry samochód"
       ]
     },
     {

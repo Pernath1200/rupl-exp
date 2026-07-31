@@ -1033,6 +1033,7 @@ export function startPractice(pack, root, opts) {
     input.focus();
 
     let answered = false;
+    let retype = false; // correction practice after a miss — never scored
     let advanceTimer = null;
 
     const goNext = () => {
@@ -1055,26 +1056,48 @@ export function startPractice(pack, root, opts) {
       answered = true;
       const good = isCorrect(input.value, item, mode);
       if (good) {
-        if (kind === "type") state.typeScore += 1;
-        else state.useScore += 1;
+        if (!retype) {
+          if (kind === "type") state.typeScore += 1;
+          else state.useScore += 1;
+        }
         fb.className = "feedback ok";
-        fb.textContent = isGap
-          ? `Tak. · ${fullFormOf(item) || item.stem + item.ending}`
-          : "Tak.";
+        fb.textContent =
+          (isGap
+            ? `Tak. · ${fullFormOf(item) || item.stem + item.ending}`
+            : "Tak.") + (retype ? " (przepisane)" : "");
       } else {
-        if (kind === "type") {
-          if (!state.typeWrong.includes(item)) state.typeWrong.push(item);
-        } else if (!state.useWrong.includes(item)) {
-          state.useWrong.push(item);
+        if (!retype) {
+          if (kind === "type") {
+            if (!state.typeWrong.includes(item)) state.typeWrong.push(item);
+          } else if (!state.useWrong.includes(item)) {
+            state.useWrong.push(item);
+          }
         }
         fb.className = "feedback bad";
         fb.textContent = isGap
           ? `→ ${item.ending}  ·  ${fullFormOf(item)}`
           : `→ ${item.answer}`;
+        // Let the learner type the correction — motor memory, not score.
+        const fix = document.createElement("button");
+        fix.type = "button";
+        fix.className = "link";
+        fix.textContent = "Przepisz poprawnie →";
+        fix.onclick = () => {
+          retype = true;
+          answered = false;
+          input.disabled = false;
+          input.value = "";
+          btn.textContent = "Sprawdź";
+          state.enterAdvance = onEnter; // Enter grades again, not skip
+          input.focus();
+        };
+        fb.appendChild(document.createElement("br"));
+        fb.appendChild(fix);
       }
       input.disabled = true;
       btn.textContent = "Dalej →";
-      btn.onclick = goNext;
+      // No btn.onclick here — the persistent onEnter click listener already
+      // routes by `answered`; a second handler double-advanced (item skip).
       focusPrimary("#btn-submit");
       state.enterAdvance = goNext;
       // Correct: gentle auto-advance. Wrong: wait for Enter — the learner

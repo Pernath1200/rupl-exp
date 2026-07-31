@@ -455,7 +455,9 @@
       "answer": "Auto jest nowsze niż dom.",
       "accepts": [
         "Auto jest nowsze niż dom.",
-        "Auto jest nowsze niż dom"
+        "Auto jest nowsze niż dom",
+        "Samochód jest nowszy niż dom.",
+        "Samochód jest nowszy niż dom"
       ]
     },
     {
