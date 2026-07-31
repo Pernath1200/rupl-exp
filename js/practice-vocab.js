@@ -15,6 +15,7 @@
  */
 
 import { getSmokeApi, countFlags, updateFlagsBadge } from "./smoke-flags.js";
+import { isAuthorUnlock } from "./progress.js";
 
 /**
  * Default questions per stage (Dopasuj board · Quiz · Słowo · Zdanie).
@@ -405,6 +406,8 @@ export function startPractice(root, block, opts) {
     Array.isArray(block.sentences) && block.sentences.length
       ? block.sentences
       : null;
+  /** Optional read-first stage (concept packs like móc/umieć). */
+  const hasIntro = Array.isArray(block.intro) && block.intro.length > 0;
   const focusStructures =
     Array.isArray(block.focus_structures) && block.focus_structures.length
       ? block.focus_structures
@@ -515,7 +518,7 @@ export function startPractice(root, block, opts) {
 
   const state = {
     // Review launches jump straight to production (opts.startMode = "type")
-    mode: opts.startMode || "match",
+    mode: opts.startMode || (hasIntro ? "intro" : "match"),
     plToEn: false, // EN → PL production (default for Polish learners)
     match: null,
     quiz: null,
@@ -660,12 +663,14 @@ export function startPractice(root, block, opts) {
   }
 
   function renderChrome(statusText) {
-    const modes = [
-      ["match", "1 · Dopasuj"],
-      ["quiz", "2 · Quiz"],
-      ["type", "3 · Słowo"],
-      ["sentence", "4 · Zdanie"],
+    const base = [
+      ["match", "Dopasuj"],
+      ["quiz", "Quiz"],
+      ["type", "Słowo"],
+      ["sentence", "Zdanie"],
     ];
+    if (hasIntro) base.unshift(["intro", "Wstęp"]);
+    const modes = base.map(([id, label], i) => [id, `${i + 1} · ${label}`]);
     const showDir = state.mode !== "sentence";
     const nFlags = countFlags();
     const bankN = sentenceBank ? sentenceBank.length : 0;
@@ -679,11 +684,15 @@ export function startPractice(root, block, opts) {
         <div class="practice-title">${escapeHtml(block.title)}</div>
         <div class="practice-meta">${metaBits}</div>
       </div>
-      <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
+      ${
+        isAuthorUnlock()
+          ? `<div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
         <button type="button" class="btn smoke-flag-btn" id="p-flag" title="Flag this item for smoke review">⚑ Flag item</button>
         <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge title="View flagged items · copy for agent">${nFlags > 0 ? `Flagged (${nFlags})` : "Flagged list"}</button>
         <span class="smoke-toolbar-hint">Smoke · local notes for the agent</span>
-      </div>
+      </div>`
+          : ""
+      }
       <div class="modes">
         ${modes
           .map(
@@ -1447,13 +1456,46 @@ export function startPractice(root, block, opts) {
     return renderSentenceSoon(stage);
   }
 
+  function renderIntro(stage) {
+    setFlagContext({ stage: "intro", itemIndex: null, en: "", pl: "" });
+    const cards = (block.intro || [])
+      .map((sec) => {
+        const table = sec.table
+          ? `<table class="intro-table"><thead><tr>${(sec.table.headers || [])
+              .map((h) => `<th>${escapeHtml(h)}</th>`)
+              .join("")}</tr></thead><tbody>${(sec.table.rows || [])
+              .map(
+                (r) =>
+                  `<tr>${r.map((c) => `<td>${escapeHtml(c)}</td>`).join("")}</tr>`,
+              )
+              .join("")}</tbody></table>`
+          : "";
+        return `
+          <div class="q" style="margin-bottom:0.9rem">
+            <div class="prompt">${escapeHtml(sec.title || "")}</div>
+            ${sec.title_pl ? `<div class="sub"><em>${escapeHtml(sec.title_pl)}</em></div>` : ""}
+            ${sec.body ? `<p style="white-space:pre-line">${escapeHtml(sec.body)}</p>` : ""}
+            ${table}
+            ${sec.body_pl ? `<p class="sub" style="white-space:pre-line"><em>${escapeHtml(sec.body_pl)}</em></p>` : ""}
+          </div>`;
+      })
+      .join("");
+    stage.innerHTML = `
+      ${cards}
+      <div class="nav"><button type="button" class="btn primary" id="in-next">Dalej → Dopasuj</button></div>`;
+    stage.querySelector("#in-next").onclick = () => setMode("match");
+    bindEnterPrimary(stage);
+    return "Wstęp · czytaj · Enter = dalej";
+  }
+
   function render() {
     clearKey();
     root.innerHTML = renderChrome("…");
     wireChrome();
     const stage = root.querySelector("#p-stage");
     let status = "";
-    if (state.mode === "match") status = renderMatch(stage);
+    if (state.mode === "intro") status = renderIntro(stage);
+    else if (state.mode === "match") status = renderMatch(stage);
     else if (state.mode === "quiz") status = renderQuiz(stage);
     else if (state.mode === "type") status = renderType(stage);
     else status = renderSentence(stage);

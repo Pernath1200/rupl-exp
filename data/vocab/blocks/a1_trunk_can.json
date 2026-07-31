@@ -157,5 +157,47 @@
     "otworzyć",
     "spać",
     "spotkać się"
+  ],
+  "intro": [
+    {
+      "title": "Two Polish cans",
+      "title_pl": "Dwa polskie „can”",
+      "body": "English says can for two different things. Polish keeps them apart:\n\numieć = know how to (a skill you learned)\nUmiem pływać. — I can swim (I learned it).\n\nmóc = be able to / be allowed to (circumstances or permission)\nMogę przyjść jutro. — I can come tomorrow (nothing stops me).\nCzy mogę otworzyć okno? — Can I open the window? (permission)",
+      "body_pl": "umieć = potrafię (nauczyłem się) · móc = okoliczności albo pozwolenie."
+    },
+    {
+      "title": "The forms you need",
+      "table": {
+        "headers": [
+          "",
+          "umieć (skill)",
+          "móc (possibility)"
+        ],
+        "rows": [
+          [
+            "ja",
+            "umiem",
+            "mogę"
+          ],
+          [
+            "ty",
+            "umiesz",
+            "możesz"
+          ],
+          [
+            "on / ona",
+            "umie",
+            "może"
+          ],
+          [
+            "my",
+            "umiemy",
+            "możemy"
+          ]
+        ]
+      },
+      "body": "Both take a plain infinitive after them: umiem pływać · mogę przyjść.\n\nRule of thumb: learned skill → umieć. Everything else (can I…? / I'm free to…) → móc.",
+      "body_pl": "Po obu: bezokolicznik. Umiejętność → umieć; możliwość/pozwolenie → móc."
+    }
   ]
 }
