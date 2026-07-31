@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "mieć present grid + Acc object (positive only) incl. animate masc -a (psa, kota, brata). Genitive-of-negation chunks -> a1_negation, not here.",
+  "note": "mieć present grid + Acc object (positive only) incl. animate masc -a (psa, kota, brata). Adjective Acc -ą taught beside noun -ę. Genitive-of-negation chunks -> a1_negation, not here.",
   "focus_structures": [
     "miec_present",
     "miec_acc"
@@ -169,6 +169,31 @@
       }
     },
     {
+      "title": "Adjectives follow: -a → -ą",
+      "title_pl": "Przymiotnik też: -a → -ą",
+      "body": "When a feminine noun takes -ę, its adjective takes -ą:\n\ndobra kawa → Mam dobrą kawę.\nnowa książka → Mam nową książkę.\n\nTwo different endings, side by side: noun -ę, adjective -ą. Masculine-thing and neuter objects change nothing: Mam nowy telefon · Mam zimne piwo.",
+      "body_pl": "Rzeczownik -ę, przymiotnik -ą: Mam dobrą kawę. Męskie rzeczy i nijakie bez zmian.",
+      "table": {
+        "headers": [
+          "Nominative",
+          "Accusative",
+          "With mieć"
+        ],
+        "rows": [
+          [
+            "dobra kawa",
+            "dobrą kawę",
+            "Mam dobrą kawę."
+          ],
+          [
+            "nowa książka",
+            "nową książkę",
+            "Mam nową książkę."
+          ]
+        ]
+      }
+    },
+    {
       "title": "Living things take -a",
       "title_pl": "Żywe istoty: -a",
       "body": "Masculine nouns for people and animals show the accusative with -a: kot → kota, brat → brata.\n\npies drops its e as well: pies → psa (mam psa).\n\nMasculine things usually stay unchanged: mam dom, mam sok, mam chleb.",
@@ -296,6 +321,10 @@
     {
       "en": "I have a dog",
       "pl": "Mam psa."
+    },
+    {
+      "en": "good coffee (as object)",
+      "pl": "dobrą kawę"
     }
   ],
   "quiz": [
@@ -578,6 +607,22 @@
       "accepts": [
         "tatę"
       ]
+    },
+    {
+      "prompt_en": "dobra → Acc (with kawa)",
+      "mode": "full_word",
+      "answer": "dobrą",
+      "accepts": [
+        "dobrą"
+      ]
+    },
+    {
+      "prompt_en": "nowa → Acc (with książka)",
+      "mode": "full_word",
+      "answer": "nową",
+      "accepts": [
+        "nową"
+      ]
     }
   ],
   "use_items": [
@@ -712,6 +757,14 @@
         "Mam mamę.",
         "Mam mamę"
       ]
+    },
+    {
+      "prompt_en": "Type: I have good coffee.",
+      "answer": "Mam dobrą kawę.",
+      "accepts": [
+        "Mam dobrą kawę.",
+        "Mam dobrą kawę"
+      ]
     }
   ],
   "teaches_structures": [
@@ -740,7 +793,9 @@
     "pies",
     "brat",
     "mamę",
-    "tatę"
+    "tatę",
+    "dobrą",
+    "nową"
   ],
   "uses_lemmas": [
     "mam",
@@ -770,7 +825,11 @@
     "mama",
     "mamę",
     "tata",
-    "tatę"
+    "tatę",
+    "dobra",
+    "dobrą",
+    "nowa",
+    "nową"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

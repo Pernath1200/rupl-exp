@@ -2,11 +2,13 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 42 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 42 · **errors:** 1 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
-_None._
+### `a1_miec` (a1_miec)
+
+- **[lemma_not_unlocked]** `nowa` — Teach lemma `nowa` on an earlier path node (teaches_lemmas), or remove it from prompts/answers, or add to glue only if truly glue.
 
 ## Warnings
 
@@ -25,7 +27,7 @@ _None._
 | 6 | `a1_gender_check` | `zgoda` | 6 | `to_jest`, `zgoda` |
 | 7 | `a1_gender_gym` | `ten_ta_to` | 4 | `ten_ta_to`, `to_jest` |
 | 8 | `trunk_adjectives_a1` | `byc_adj` | 0 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
-| 9 | `a1_miec` | `miec_acc`, `miec_present` | 18 | `miec_acc`, `miec_present` |
+| 9 | `a1_miec` | `miec_acc`, `miec_present` | 20 | `miec_acc`, `miec_present` |
 | 10 | `a1_acc_gym` | — | 0 | `miec_acc`, `miec_present`, `to_jest` |
 | 11 | `leaf_food_a1` | — | 47 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest` |
 | 12 | `leaf_animals_a1` | — | 24 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |

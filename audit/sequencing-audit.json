@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T19:50:26+02:00",
+  "generated_at": "2026-07-31T21:13:40+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -49,12 +49,46 @@
   ],
   "summary": {
     "nodes_audited": 42,
-    "errors": 0,
+    "errors": 1,
     "warns": 0,
     "infos": 0,
     "missing_tags": 0
   },
-  "findings": [],
+  "findings": [
+    {
+      "id": "SEQ-001",
+      "severity": "error",
+      "code": "lemma_not_unlocked",
+      "node_id": "a1_miec",
+      "pack_id": "a1_miec",
+      "domain": "grammar",
+      "path_index": 9,
+      "missing": {
+        "kind": "lemma",
+        "id": "nowa"
+      },
+      "available_sample": [
+        "anna",
+        "auto",
+        "brat",
+        "brata",
+        "cześć",
+        "córka",
+        "do widzenia",
+        "do zobaczenia",
+        "dobra",
+        "dobre",
+        "dobry",
+        "dobry wieczór",
+        "dobrą",
+        "dom",
+        "domu",
+        "drzwi"
+      ],
+      "suggest": "Teach lemma `nowa` on an earlier path node (teaches_lemmas), or remove it from prompts/answers, or add to glue only if truly glue.",
+      "item_ref": null
+    }
+  ],
   "trail": [
     {
       "path_index": 0,
@@ -244,7 +278,7 @@
         "miec_acc",
         "miec_present"
       ],
-      "teaches_lemmas_n": 18,
+      "teaches_lemmas_n": 20,
       "uses_structures": [
         "miec_acc",
         "miec_present"
