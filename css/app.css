@@ -1329,6 +1329,27 @@ button.m.wrong {
   opacity: 0.9;
 }
 
+/* Gender badge — rodzaj shown beside Polish nouns during exposure */
+.gender-badge {
+  font-size: 0.68em;
+  font-weight: 700;
+  opacity: 0.85;
+  vertical-align: super;
+  letter-spacing: 0.02em;
+}
+.gender-m {
+  color: #7aa2ff;
+}
+.gender-f {
+  color: #ff9db0;
+}
+.gender-n {
+  color: #a8c98a;
+}
+.gender-pl {
+  color: #9a9a9a;
+}
+
 /* Icon chip — emoji anchor for concrete vocab (animals, food, …) */
 .icon-chip {
   display: inline-block;

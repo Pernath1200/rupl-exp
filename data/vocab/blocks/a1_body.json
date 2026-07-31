@@ -13,60 +13,72 @@
         {
           "en": "body",
           "pl": "ciało",
-          "icon": "🧍"
+          "icon": "🧍",
+          "gender": "n"
         },
         {
           "en": "head",
-          "pl": "głowa"
+          "pl": "głowa",
+          "gender": "f"
         },
         {
           "en": "face",
           "pl": "twarz",
-          "icon": "🙂"
+          "icon": "🙂",
+          "gender": "f"
         },
         {
           "en": "hair",
-          "pl": "włosy"
+          "pl": "włosy",
+          "gender": "pl"
         },
         {
           "en": "eye",
           "pl": "oko",
-          "icon": "👁"
+          "icon": "👁",
+          "gender": "n"
         },
         {
           "en": "ear",
           "pl": "ucho",
-          "icon": "👂"
+          "icon": "👂",
+          "gender": "n"
         },
         {
           "en": "nose",
           "pl": "nos",
-          "icon": "👃"
+          "icon": "👃",
+          "gender": "m"
         },
         {
           "en": "mouth",
           "pl": "usta",
-          "icon": "👄"
+          "icon": "👄",
+          "gender": "pl"
         },
         {
           "en": "tooth",
           "pl": "ząb",
-          "icon": "🦷"
+          "icon": "🦷",
+          "gender": "m"
         },
         {
           "en": "hand",
           "pl": "ręka",
-          "icon": "✋"
+          "icon": "✋",
+          "gender": "f"
         },
         {
           "en": "arm / shoulder",
           "pl": "ramię",
-          "icon": "💪"
+          "icon": "💪",
+          "gender": "n"
         },
         {
           "en": "leg",
           "pl": "noga",
-          "icon": "🦵"
+          "icon": "🦵",
+          "gender": "f"
         }
       ]
     },
@@ -77,37 +89,45 @@
         {
           "en": "foot",
           "pl": "stopa",
-          "icon": "🦶"
+          "icon": "🦶",
+          "gender": "f"
         },
         {
           "en": "back",
-          "pl": "plecy"
+          "pl": "plecy",
+          "gender": "pl"
         },
         {
           "en": "finger",
-          "pl": "palec"
+          "pl": "palec",
+          "gender": "m"
         },
         {
           "en": "neck",
-          "pl": "szyja"
+          "pl": "szyja",
+          "gender": "f"
         },
         {
           "en": "knee",
-          "pl": "kolano"
+          "pl": "kolano",
+          "gender": "n"
         },
         {
           "en": "heart",
           "pl": "serce",
-          "icon": "❤️"
+          "icon": "❤️",
+          "gender": "n"
         },
         {
           "en": "blood",
           "pl": "krew",
-          "icon": "🩸"
+          "icon": "🩸",
+          "gender": "f"
         },
         {
           "en": "skin",
-          "pl": "skóra"
+          "pl": "skóra",
+          "gender": "f"
         },
         {
           "en": "tall",

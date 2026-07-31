@@ -13,60 +13,72 @@
         {
           "en": "nature",
           "pl": "przyroda",
-          "icon": "🌿"
+          "icon": "🌿",
+          "gender": "f"
         },
         {
           "en": "weather",
           "pl": "pogoda",
-          "icon": "🌦"
+          "icon": "🌦",
+          "gender": "f"
         },
         {
           "en": "sun",
           "pl": "słońce",
-          "icon": "☀️"
+          "icon": "☀️",
+          "gender": "n"
         },
         {
           "en": "rain",
           "pl": "deszcz",
-          "icon": "🌧"
+          "icon": "🌧",
+          "gender": "m"
         },
         {
           "en": "snow",
           "pl": "śnieg",
-          "icon": "❄️"
+          "icon": "❄️",
+          "gender": "m"
         },
         {
           "en": "wind",
           "pl": "wiatr",
-          "icon": "💨"
+          "icon": "💨",
+          "gender": "m"
         },
         {
           "en": "cloud",
           "pl": "chmura",
-          "icon": "☁️"
+          "icon": "☁️",
+          "gender": "f"
         },
         {
           "en": "sky",
-          "pl": "niebo"
+          "pl": "niebo",
+          "gender": "n"
         },
         {
           "en": "air",
-          "pl": "powietrze"
+          "pl": "powietrze",
+          "gender": "n"
         },
         {
           "en": "tree",
           "pl": "drzewo",
-          "icon": "🌳"
+          "icon": "🌳",
+          "gender": "n"
         },
         {
           "en": "flower",
           "pl": "kwiat",
-          "icon": "🌸"
+          "icon": "🌸",
+          "gender": "m"
         },
         {
           "en": "plant",
           "pl": "roślina",
-          "icon": "🌱"
+          "icon": "🌱",
+          "gender": "f"
         }
       ]
     },
@@ -77,58 +89,70 @@
         {
           "en": "mountain",
           "pl": "góra",
-          "icon": "⛰"
+          "icon": "⛰",
+          "gender": "f"
         },
         {
           "en": "hill",
-          "pl": "wzgórze"
+          "pl": "wzgórze",
+          "gender": "n"
         },
         {
           "en": "river",
           "pl": "rzeka",
-          "icon": "🏞"
+          "icon": "🏞",
+          "gender": "f"
         },
         {
           "en": "sea",
           "pl": "morze",
-          "icon": "🌊"
+          "icon": "🌊",
+          "gender": "n"
         },
         {
           "en": "lake",
-          "pl": "jezioro"
+          "pl": "jezioro",
+          "gender": "n"
         },
         {
           "en": "island",
           "pl": "wyspa",
-          "icon": "🏝"
+          "icon": "🏝",
+          "gender": "f"
         },
         {
           "en": "forest",
           "pl": "las",
-          "icon": "🌲"
+          "icon": "🌲",
+          "gender": "m"
         },
         {
           "en": "field",
           "pl": "pole",
-          "icon": "🌾"
+          "icon": "🌾",
+          "gender": "n"
         },
         {
           "en": "land",
-          "pl": "ląd"
+          "pl": "ląd",
+          "gender": "m"
         },
         {
           "en": "world",
           "pl": "świat",
-          "icon": "🌍"
+          "icon": "🌍",
+          "gender": "m"
         },
         {
           "en": "earth",
-          "pl": "ziemia"
+          "pl": "ziemia",
+          "gender": "f"
         },
         {
           "en": "space",
           "pl": "kosmos",
-          "icon": "🌌"
+          "icon": "🌌",
+          "gender": "m"
         }
       ]
     },
@@ -139,21 +163,25 @@
         {
           "en": "spring",
           "pl": "wiosna",
-          "icon": "🌷"
+          "icon": "🌷",
+          "gender": "f"
         },
         {
           "en": "summer",
-          "pl": "lato"
+          "pl": "lato",
+          "gender": "n"
         },
         {
           "en": "autumn",
           "pl": "jesień",
-          "icon": "🍂"
+          "icon": "🍂",
+          "gender": "f"
         },
         {
           "en": "winter",
           "pl": "zima",
-          "icon": "⛄"
+          "icon": "⛄",
+          "gender": "f"
         },
         {
           "en": "warm",
@@ -182,12 +210,14 @@
         {
           "en": "fire",
           "pl": "ogień",
-          "icon": "🔥"
+          "icon": "🔥",
+          "gender": "m"
         },
         {
           "en": "star",
           "pl": "gwiazda",
-          "icon": "⭐"
+          "icon": "⭐",
+          "gender": "f"
         }
       ]
     }

@@ -168,7 +168,8 @@
         },
         {
           "en": "number",
-          "pl": "liczba"
+          "pl": "liczba",
+          "gender": "f"
         }
       ]
     },

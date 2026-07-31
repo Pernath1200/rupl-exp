@@ -12,7 +12,8 @@
       "items": [
         {
           "en": "thing",
-          "pl": "rzecz"
+          "pl": "rzecz",
+          "gender": "f"
         },
         {
           "en": "part",
@@ -20,43 +21,53 @@
         },
         {
           "en": "place",
-          "pl": "miejsce"
+          "pl": "miejsce",
+          "gender": "n"
         },
         {
           "en": "person",
-          "pl": "osoba"
+          "pl": "osoba",
+          "gender": "f"
         },
         {
           "en": "life",
-          "pl": "życie"
+          "pl": "życie",
+          "gender": "n"
         },
         {
           "en": "group",
-          "pl": "grupa"
+          "pl": "grupa",
+          "gender": "f"
         },
         {
           "en": "member",
-          "pl": "członek"
+          "pl": "członek",
+          "gender": "m"
         },
         {
           "en": "plan",
-          "pl": "plan"
+          "pl": "plan",
+          "gender": "m"
         },
         {
           "en": "point",
-          "pl": "punkt"
+          "pl": "punkt",
+          "gender": "m"
         },
         {
           "en": "fact",
-          "pl": "fakt"
+          "pl": "fakt",
+          "gender": "m"
         },
         {
           "en": "reason",
-          "pl": "powód"
+          "pl": "powód",
+          "gender": "m"
         },
         {
           "en": "result",
-          "pl": "wynik"
+          "pl": "wynik",
+          "gender": "m"
         }
       ]
     },
@@ -66,51 +77,63 @@
       "items": [
         {
           "en": "action",
-          "pl": "działanie"
+          "pl": "działanie",
+          "gender": "n"
         },
         {
           "en": "advice",
-          "pl": "rada"
+          "pl": "rada",
+          "gender": "f"
         },
         {
           "en": "area",
-          "pl": "obszar"
+          "pl": "obszar",
+          "gender": "m"
         },
         {
           "en": "beginning",
-          "pl": "początek"
+          "pl": "początek",
+          "gender": "m"
         },
         {
           "en": "end",
-          "pl": "koniec"
+          "pl": "koniec",
+          "gender": "m"
         },
         {
           "en": "event",
-          "pl": "wydarzenie"
+          "pl": "wydarzenie",
+          "gender": "n"
         },
         {
           "en": "form",
-          "pl": "formularz"
+          "pl": "formularz",
+          "gender": "m"
         },
         {
           "en": "line",
-          "pl": "linia"
+          "pl": "linia",
+          "gender": "f"
         },
         {
           "en": "piece",
-          "pl": "kawałek"
+          "pl": "kawałek",
+          "gender": "m"
         },
         {
           "en": "pair",
-          "pl": "para"
+          "pl": "para",
+          "gender": "f"
         },
         {
           "en": "object",
-          "pl": "przedmiot"
+          "pl": "przedmiot",
+          "gender": "m"
         },
         {
           "en": "machine",
-          "pl": "maszyna"
+          "pl": "maszyna",
+          "gender": "f"
         }
       ]
     },
@@ -120,31 +143,38 @@
       "items": [
         {
           "en": "product",
-          "pl": "produkt"
+          "pl": "produkt",
+          "gender": "m"
         },
         {
           "en": "programme",
-          "pl": "program"
+          "pl": "program",
+          "gender": "m"
         },
         {
           "en": "project",
-          "pl": "projekt"
+          "pl": "projekt",
+          "gender": "m"
         },
         {
           "en": "routine",
-          "pl": "rutyna"
+          "pl": "rutyna",
+          "gender": "f"
         },
         {
           "en": "rule",
-          "pl": "reguła"
+          "pl": "reguła",
+          "gender": "f"
         },
         {
           "en": "section",
-          "pl": "sekcja"
+          "pl": "sekcja",
+          "gender": "f"
         },
         {
           "en": "situation",
-          "pl": "sytuacja"
+          "pl": "sytuacja",
+          "gender": "f"
         },
         {
           "en": "skill",
@@ -152,19 +182,23 @@
         },
         {
           "en": "sound",
-          "pl": "dźwięk"
+          "pl": "dźwięk",
+          "gender": "m"
         },
         {
           "en": "style",
-          "pl": "styl"
+          "pl": "styl",
+          "gender": "m"
         },
         {
           "en": "success",
-          "pl": "sukces"
+          "pl": "sukces",
+          "gender": "m"
         },
         {
           "en": "topic",
-          "pl": "temat"
+          "pl": "temat",
+          "gender": "m"
         }
       ]
     },
@@ -174,11 +208,13 @@
       "items": [
         {
           "en": "moment",
-          "pl": "moment"
+          "pl": "moment",
+          "gender": "m"
         },
         {
           "en": "period",
-          "pl": "okres"
+          "pl": "okres",
+          "gender": "m"
         },
         {
           "en": "past",
@@ -190,31 +226,38 @@
         },
         {
           "en": "century",
-          "pl": "wiek"
+          "pl": "wiek",
+          "gender": "m"
         },
         {
           "en": "date",
-          "pl": "data"
+          "pl": "data",
+          "gender": "f"
         },
         {
           "en": "midnight",
-          "pl": "północ"
+          "pl": "północ",
+          "gender": "f"
         },
         {
           "en": "culture",
-          "pl": "kultura"
+          "pl": "kultura",
+          "gender": "f"
         },
         {
           "en": "health",
-          "pl": "zdrowie"
+          "pl": "zdrowie",
+          "gender": "n"
         },
         {
           "en": "interest",
-          "pl": "zainteresowanie"
+          "pl": "zainteresowanie",
+          "gender": "n"
         },
         {
           "en": "capital",
-          "pl": "stolica"
+          "pl": "stolica",
+          "gender": "f"
         },
         {
           "en": "visitor",

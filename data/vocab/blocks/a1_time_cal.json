@@ -23,43 +23,53 @@
       "items": [
         {
           "en": "Monday",
-          "pl": "poniedziałek"
+          "pl": "poniedziałek",
+          "gender": "m"
         },
         {
           "en": "Tuesday",
-          "pl": "wtorek"
+          "pl": "wtorek",
+          "gender": "m"
         },
         {
           "en": "Wednesday",
-          "pl": "środa"
+          "pl": "środa",
+          "gender": "f"
         },
         {
           "en": "Thursday",
-          "pl": "czwartek"
+          "pl": "czwartek",
+          "gender": "m"
         },
         {
           "en": "Friday",
-          "pl": "piątek"
+          "pl": "piątek",
+          "gender": "m"
         },
         {
           "en": "Saturday",
-          "pl": "sobota"
+          "pl": "sobota",
+          "gender": "f"
         },
         {
           "en": "Sunday",
-          "pl": "niedziela"
+          "pl": "niedziela",
+          "gender": "f"
         },
         {
           "en": "day",
-          "pl": "dzień"
+          "pl": "dzień",
+          "gender": "m"
         },
         {
           "en": "week",
-          "pl": "tydzień"
+          "pl": "tydzień",
+          "gender": "m"
         },
         {
           "en": "weekend",
-          "pl": "weekend"
+          "pl": "weekend",
+          "gender": "m"
         },
         {
           "en": "today",
@@ -85,27 +95,33 @@
         },
         {
           "en": "afternoon",
-          "pl": "popołudnie"
+          "pl": "popołudnie",
+          "gender": "n"
         },
         {
           "en": "evening",
-          "pl": "wieczór"
+          "pl": "wieczór",
+          "gender": "m"
         },
         {
           "en": "night",
-          "pl": "noc"
+          "pl": "noc",
+          "gender": "f"
         },
         {
           "en": "time",
-          "pl": "czas"
+          "pl": "czas",
+          "gender": "m"
         },
         {
           "en": "hour",
-          "pl": "godzina"
+          "pl": "godzina",
+          "gender": "f"
         },
         {
           "en": "minute",
-          "pl": "minuta"
+          "pl": "minuta",
+          "gender": "f"
         },
         {
           "en": "early",
@@ -131,51 +147,63 @@
       "items": [
         {
           "en": "January",
-          "pl": "styczeń"
+          "pl": "styczeń",
+          "gender": "m"
         },
         {
           "en": "February",
-          "pl": "luty"
+          "pl": "luty",
+          "gender": "m"
         },
         {
           "en": "March",
-          "pl": "marzec"
+          "pl": "marzec",
+          "gender": "m"
         },
         {
           "en": "April",
-          "pl": "kwiecień"
+          "pl": "kwiecień",
+          "gender": "m"
         },
         {
           "en": "May",
-          "pl": "maj"
+          "pl": "maj",
+          "gender": "m"
         },
         {
           "en": "June",
-          "pl": "czerwiec"
+          "pl": "czerwiec",
+          "gender": "m"
         },
         {
           "en": "July",
-          "pl": "lipiec"
+          "pl": "lipiec",
+          "gender": "m"
         },
         {
           "en": "August",
-          "pl": "sierpień"
+          "pl": "sierpień",
+          "gender": "m"
         },
         {
           "en": "September",
-          "pl": "wrzesień"
+          "pl": "wrzesień",
+          "gender": "m"
         },
         {
           "en": "October",
-          "pl": "październik"
+          "pl": "październik",
+          "gender": "m"
         },
         {
           "en": "November",
-          "pl": "listopad"
+          "pl": "listopad",
+          "gender": "m"
         },
         {
           "en": "December",
-          "pl": "grudzień"
+          "pl": "grudzień",
+          "gender": "m"
         }
       ]
     },
@@ -209,11 +237,13 @@
         },
         {
           "en": "month",
-          "pl": "miesiąc"
+          "pl": "miesiąc",
+          "gender": "m"
         },
         {
           "en": "year",
-          "pl": "rok"
+          "pl": "rok",
+          "gender": "m"
         },
         {
           "en": "once",

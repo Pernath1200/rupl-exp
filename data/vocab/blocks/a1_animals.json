@@ -13,62 +13,74 @@
         {
           "en": "animal",
           "pl": "zwierzę",
-          "icon": "🐾"
+          "icon": "🐾",
+          "gender": "n"
         },
         {
           "en": "dog",
           "pl": "pies",
-          "icon": "🐕"
+          "icon": "🐕",
+          "gender": "m"
         },
         {
           "en": "cat",
           "pl": "kot",
-          "icon": "🐈"
+          "icon": "🐈",
+          "gender": "m"
         },
         {
           "en": "bird",
           "pl": "ptak",
-          "icon": "🐦"
+          "icon": "🐦",
+          "gender": "m"
         },
         {
           "en": "fish",
           "pl": "ryba",
-          "icon": "🐟"
+          "icon": "🐟",
+          "gender": "f"
         },
         {
           "en": "horse",
           "pl": "koń",
-          "icon": "🐴"
+          "icon": "🐴",
+          "gender": "m"
         },
         {
           "en": "cow",
           "pl": "krowa",
-          "icon": "🐄"
+          "icon": "🐄",
+          "gender": "f"
         },
         {
           "en": "pig",
           "pl": "świnia",
-          "icon": "🐷"
+          "icon": "🐷",
+          "gender": "f"
         },
         {
           "en": "sheep",
           "pl": "owca",
-          "icon": "🐑"
+          "icon": "🐑",
+          "gender": "f"
         },
         {
           "en": "mouse",
           "pl": "mysz",
-          "icon": "🐭"
+          "icon": "🐭",
+          "gender": "f"
         },
         {
           "en": "lion",
           "pl": "lew",
-          "icon": "🦁"
+          "icon": "🦁",
+          "gender": "m"
         },
         {
           "en": "elephant",
           "pl": "słoń",
-          "icon": "🐘"
+          "icon": "🐘",
+          "gender": "m"
         }
       ]
     },
@@ -79,47 +91,56 @@
         {
           "en": "snake",
           "pl": "wąż",
-          "icon": "🐍"
+          "icon": "🐍",
+          "gender": "m"
         },
         {
           "en": "monkey",
           "pl": "małpa",
-          "icon": "🐒"
+          "icon": "🐒",
+          "gender": "f"
         },
         {
           "en": "bear",
           "pl": "niedźwiedź",
-          "icon": "🐻"
+          "icon": "🐻",
+          "gender": "m"
         },
         {
           "en": "rabbit",
           "pl": "królik",
-          "icon": "🐰"
+          "icon": "🐰",
+          "gender": "m"
         },
         {
           "en": "chicken",
           "pl": "kurczak",
-          "icon": "🐔"
+          "icon": "🐔",
+          "gender": "m"
         },
         {
           "en": "duck",
           "pl": "kaczka",
-          "icon": "🦆"
+          "icon": "🦆",
+          "gender": "f"
         },
         {
           "en": "frog",
           "pl": "żaba",
-          "icon": "🐸"
+          "icon": "🐸",
+          "gender": "f"
         },
         {
           "en": "insect",
           "pl": "owad",
-          "icon": "🐞"
+          "icon": "🐞",
+          "gender": "m"
         },
         {
           "en": "pet",
           "pl": "zwierzę domowe",
-          "icon": "🐹"
+          "icon": "🐹",
+          "gender": "n"
         },
         {
           "en": "wild",
@@ -128,12 +149,14 @@
         {
           "en": "farm",
           "pl": "farma",
-          "icon": "🚜"
+          "icon": "🚜",
+          "gender": "f"
         },
         {
           "en": "zoo",
           "pl": "zoo",
-          "icon": "🦓"
+          "icon": "🦓",
+          "gender": "n"
         }
       ]
     }

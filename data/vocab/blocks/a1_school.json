@@ -12,43 +12,53 @@
       "items": [
         {
           "en": "class / classroom",
-          "pl": "klasa"
+          "pl": "klasa",
+          "gender": "f"
         },
         {
           "en": "lesson",
-          "pl": "lekcja"
+          "pl": "lekcja",
+          "gender": "f"
         },
         {
           "en": "course",
-          "pl": "kurs"
+          "pl": "kurs",
+          "gender": "m"
         },
         {
           "en": "college",
-          "pl": "kolegium"
+          "pl": "kolegium",
+          "gender": "n"
         },
         {
           "en": "subject",
-          "pl": "przedmiot"
+          "pl": "przedmiot",
+          "gender": "m"
         },
         {
           "en": "homework",
-          "pl": "praca domowa"
+          "pl": "praca domowa",
+          "gender": "f"
         },
         {
           "en": "exam",
-          "pl": "egzamin"
+          "pl": "egzamin",
+          "gender": "m"
         },
         {
           "en": "test",
-          "pl": "sprawdzian"
+          "pl": "sprawdzian",
+          "gender": "m"
         },
         {
           "en": "dictionary",
-          "pl": "słownik"
+          "pl": "słownik",
+          "gender": "m"
         },
         {
           "en": "language",
-          "pl": "język"
+          "pl": "język",
+          "gender": "m"
         },
         {
           "en": "learn",
@@ -62,47 +72,58 @@
       "items": [
         {
           "en": "pen",
-          "pl": "długopis"
+          "pl": "długopis",
+          "gender": "m"
         },
         {
           "en": "pencil",
-          "pl": "ołówek"
+          "pl": "ołówek",
+          "gender": "m"
         },
         {
           "en": "paper",
-          "pl": "papier"
+          "pl": "papier",
+          "gender": "m"
         },
         {
           "en": "page",
-          "pl": "strona"
+          "pl": "strona",
+          "gender": "f"
         },
         {
           "en": "word",
-          "pl": "słowo"
+          "pl": "słowo",
+          "gender": "n"
         },
         {
           "en": "sentence",
-          "pl": "zdanie"
+          "pl": "zdanie",
+          "gender": "n"
         },
         {
           "en": "story",
-          "pl": "opowiadanie"
+          "pl": "opowiadanie",
+          "gender": "n"
         },
         {
           "en": "question",
-          "pl": "pytanie"
+          "pl": "pytanie",
+          "gender": "n"
         },
         {
           "en": "answer",
-          "pl": "odpowiedź"
+          "pl": "odpowiedź",
+          "gender": "f"
         },
         {
           "en": "example",
-          "pl": "przykład"
+          "pl": "przykład",
+          "gender": "m"
         },
         {
           "en": "spelling",
-          "pl": "pisownia"
+          "pl": "pisownia",
+          "gender": "f"
         },
         {
           "en": "study",
@@ -116,51 +137,63 @@
       "items": [
         {
           "en": "history",
-          "pl": "historia"
+          "pl": "historia",
+          "gender": "f"
         },
         {
           "en": "geography",
-          "pl": "geografia"
+          "pl": "geografia",
+          "gender": "f"
         },
         {
           "en": "science",
-          "pl": "nauki ścisłe"
+          "pl": "nauki ścisłe",
+          "gender": "pl"
         },
         {
           "en": "scientist",
-          "pl": "naukowiec"
+          "pl": "naukowiec",
+          "gender": "m"
         },
         {
           "en": "art",
-          "pl": "sztuka"
+          "pl": "sztuka",
+          "gender": "f"
         },
         {
           "en": "artist",
-          "pl": "artysta"
+          "pl": "artysta",
+          "gender": "m"
         },
         {
           "en": "music",
-          "pl": "muzyka"
+          "pl": "muzyka",
+          "gender": "f"
         },
         {
           "en": "idea",
-          "pl": "pomysł"
+          "pl": "pomysł",
+          "gender": "m"
         },
         {
           "en": "problem",
-          "pl": "problem"
+          "pl": "problem",
+          "gender": "m"
         },
         {
           "en": "information",
-          "pl": "informacja"
+          "pl": "informacja",
+          "gender": "f"
         },
         {
           "en": "opinion",
-          "pl": "opinia"
+          "pl": "opinia",
+          "gender": "f"
         },
         {
           "en": "meaning",
-          "pl": "znaczenie"
+          "pl": "znaczenie",
+          "gender": "n"
         }
       ]
     },
@@ -170,47 +203,58 @@
       "items": [
         {
           "en": "letter",
-          "pl": "list"
+          "pl": "list",
+          "gender": "m"
         },
         {
           "en": "note",
-          "pl": "notatka"
+          "pl": "notatka",
+          "gender": "f"
         },
         {
           "en": "list",
-          "pl": "lista"
+          "pl": "lista",
+          "gender": "f"
         },
         {
           "en": "text",
-          "pl": "tekst"
+          "pl": "tekst",
+          "gender": "m"
         },
         {
           "en": "title",
-          "pl": "tytuł"
+          "pl": "tytuł",
+          "gender": "m"
         },
         {
           "en": "article",
-          "pl": "artykuł"
+          "pl": "artykuł",
+          "gender": "m"
         },
         {
           "en": "paragraph",
-          "pl": "akapit"
+          "pl": "akapit",
+          "gender": "m"
         },
         {
           "en": "phrase",
-          "pl": "zwrot"
+          "pl": "zwrot",
+          "gender": "m"
         },
         {
           "en": "reading",
-          "pl": "czytanie"
+          "pl": "czytanie",
+          "gender": "n"
         },
         {
           "en": "writing",
-          "pl": "pisanie"
+          "pl": "pisanie",
+          "gender": "n"
         },
         {
           "en": "practice",
-          "pl": "ćwiczenie"
+          "pl": "ćwiczenie",
+          "gender": "n"
         },
         {
           "en": "activity",

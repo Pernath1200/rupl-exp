@@ -297,70 +297,82 @@
         {
           "en": "family",
           "pl": "rodzina",
-          "icon": "👨‍👩‍👧‍👦"
+          "icon": "👨‍👩‍👧‍👦",
+          "gender": "f"
         },
         {
           "en": "mother / mum",
           "pl": "mama",
           "accepts": [
             "matka"
-          ]
+          ],
+          "gender": "f"
         },
         {
           "en": "father / dad",
           "pl": "tata",
           "accepts": [
             "ojciec"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "brother",
-          "pl": "brat"
+          "pl": "brat",
+          "gender": "m"
         },
         {
           "en": "sister",
-          "pl": "siostra"
+          "pl": "siostra",
+          "gender": "f"
         },
         {
           "en": "child",
           "pl": "dziecko",
-          "icon": "👶"
+          "icon": "👶",
+          "gender": "n"
         },
         {
           "en": "son",
-          "pl": "syn"
+          "pl": "syn",
+          "gender": "m"
         },
         {
           "en": "daughter",
-          "pl": "córka"
+          "pl": "córka",
+          "gender": "f"
         },
         {
           "en": "friend (m)",
           "pl": "przyjaciel",
           "accepts": [
             "kolega"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "friend (f)",
           "pl": "przyjaciółka",
           "accepts": [
             "koleżanka"
-          ]
+          ],
+          "gender": "f"
         },
         {
           "en": "man",
           "pl": "mężczyzna",
           "accepts": [
             "pan"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "woman",
           "pl": "kobieta",
           "accepts": [
             "pani"
-          ]
+          ],
+          "gender": "f"
         }
       ]
     },
@@ -374,53 +386,64 @@
           "accepts": [
             "domu"
           ],
-          "icon": "🏠"
+          "icon": "🏠",
+          "gender": "m"
         },
         {
           "en": "flat / apartment",
-          "pl": "mieszkanie"
+          "pl": "mieszkanie",
+          "gender": "n"
         },
         {
           "en": "room",
-          "pl": "pokój"
+          "pl": "pokój",
+          "gender": "m"
         },
         {
           "en": "kitchen",
           "pl": "kuchnia",
-          "icon": "🍳"
+          "icon": "🍳",
+          "gender": "f"
         },
         {
           "en": "bathroom",
           "pl": "łazienka",
-          "icon": "🛁"
+          "icon": "🛁",
+          "gender": "f"
         },
         {
           "en": "bedroom",
-          "pl": "sypialnia"
+          "pl": "sypialnia",
+          "gender": "f"
         },
         {
           "en": "door",
           "pl": "drzwi",
-          "icon": "🚪"
+          "icon": "🚪",
+          "gender": "pl"
         },
         {
           "en": "window",
           "pl": "okno",
-          "icon": "🪟"
+          "icon": "🪟",
+          "gender": "n"
         },
         {
           "en": "table",
-          "pl": "stół"
+          "pl": "stół",
+          "gender": "m"
         },
         {
           "en": "chair",
           "pl": "krzesło",
-          "icon": "🪑"
+          "icon": "🪑",
+          "gender": "n"
         },
         {
           "en": "bed",
           "pl": "łóżko",
-          "icon": "🛏"
+          "icon": "🛏",
+          "gender": "n"
         },
         {
           "en": "key",
@@ -428,7 +451,8 @@
           "accepts": [
             "klucze"
           ],
-          "icon": "🔑"
+          "icon": "🔑",
+          "gender": "m"
         }
       ]
     }

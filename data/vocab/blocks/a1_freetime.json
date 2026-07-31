@@ -12,7 +12,8 @@
       "items": [
         {
           "en": "sport",
-          "pl": "sport"
+          "pl": "sport",
+          "gender": "m"
         },
         {
           "en": "football",
@@ -20,19 +21,23 @@
         },
         {
           "en": "tennis",
-          "pl": "tenis"
+          "pl": "tenis",
+          "gender": "m"
         },
         {
           "en": "swimming",
-          "pl": "pływanie"
+          "pl": "pływanie",
+          "gender": "n"
         },
         {
           "en": "running",
-          "pl": "bieganie"
+          "pl": "bieganie",
+          "gender": "n"
         },
         {
           "en": "gym",
-          "pl": "siłownia"
+          "pl": "siłownia",
+          "gender": "f"
         },
         {
           "en": "hobby",
@@ -40,26 +45,31 @@
         },
         {
           "en": "music",
-          "pl": "muzyka"
+          "pl": "muzyka",
+          "gender": "f"
         },
         {
           "en": "song",
-          "pl": "piosenka"
+          "pl": "piosenka",
+          "gender": "f"
         },
         {
-          "en": "film",
+          "en": "film / movie",
           "pl": "film",
           "accepts": [
             "kino"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "party",
-          "pl": "impreza"
+          "pl": "impreza",
+          "gender": "f"
         },
         {
           "en": "holiday",
-          "pl": "wakacje"
+          "pl": "wakacje",
+          "gender": "pl"
         }
       ]
     },
@@ -73,7 +83,8 @@
         },
         {
           "en": "watch",
-          "pl": "zegarek"
+          "pl": "zegarek",
+          "gender": "m"
         },
         {
           "en": "listen (to)",
@@ -93,7 +104,8 @@
         },
         {
           "en": "shop (verb)",
-          "pl": "sklep"
+          "pl": "sklep",
+          "gender": "m"
         },
         {
           "en": "travel",
@@ -231,31 +243,33 @@
       "items": [
         {
           "en": "game",
-          "pl": "gra"
+          "pl": "gra",
+          "gender": "f"
         },
         {
           "en": "fun",
-          "pl": "zabawa"
+          "pl": "zabawa",
+          "gender": "f"
         },
         {
           "en": "guitar",
-          "pl": "gitara"
+          "pl": "gitara",
+          "gender": "f"
         },
         {
           "en": "band",
-          "pl": "zespół"
+          "pl": "zespół",
+          "gender": "m"
         },
         {
           "en": "concert",
-          "pl": "koncert"
-        },
-        {
-          "en": "movie",
-          "pl": "film"
+          "pl": "koncert",
+          "gender": "m"
         },
         {
           "en": "dancing",
-          "pl": "taniec"
+          "pl": "taniec",
+          "gender": "m"
         },
         {
           "en": "exercise",
@@ -263,11 +277,13 @@
         },
         {
           "en": "team",
-          "pl": "drużyna"
+          "pl": "drużyna",
+          "gender": "f"
         },
         {
           "en": "match",
-          "pl": "mecz"
+          "pl": "mecz",
+          "gender": "m"
         },
         {
           "en": "draw",

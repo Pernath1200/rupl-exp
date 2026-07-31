@@ -12,52 +12,62 @@
       "items": [
         {
           "en": "city",
-          "pl": "miasto"
+          "pl": "miasto",
+          "gender": "n"
         },
         {
           "en": "street",
-          "pl": "ulica"
+          "pl": "ulica",
+          "gender": "f"
         },
         {
           "en": "square",
           "pl": "plac",
           "accepts": [
             "rynek"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "station",
           "pl": "dworzec",
           "accepts": [
             "stacja"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "tram",
-          "pl": "tramwaj"
+          "pl": "tramwaj",
+          "gender": "m"
         },
         {
           "en": "metro / underground",
-          "pl": "metro"
+          "pl": "metro",
+          "gender": "n"
         },
         {
           "en": "bus",
-          "pl": "autobus"
+          "pl": "autobus",
+          "gender": "m"
         },
         {
           "en": "stop (noun)",
-          "pl": "przystanek"
+          "pl": "przystanek",
+          "gender": "m"
         },
         {
           "en": "ticket",
           "pl": "bilet",
           "accepts": [
             "bilety"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "map",
-          "pl": "mapa"
+          "pl": "mapa",
+          "gender": "f"
         },
         {
           "en": "left",
@@ -83,46 +93,56 @@
       "items": [
         {
           "en": "shop",
-          "pl": "sklep"
+          "pl": "sklep",
+          "gender": "m"
         },
         {
           "en": "supermarket",
           "pl": "supermarket",
           "accepts": [
             "market"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "pharmacy",
-          "pl": "apteka"
+          "pl": "apteka",
+          "gender": "f"
         },
         {
           "en": "bank",
-          "pl": "bank"
+          "pl": "bank",
+          "gender": "m"
         },
         {
           "en": "post office",
-          "pl": "poczta"
+          "pl": "poczta",
+          "gender": "f"
         },
         {
           "en": "school",
-          "pl": "szkoła"
+          "pl": "szkoła",
+          "gender": "f"
         },
         {
           "en": "work / job",
-          "pl": "praca"
+          "pl": "praca",
+          "gender": "f"
         },
         {
           "en": "hospital",
-          "pl": "szpital"
+          "pl": "szpital",
+          "gender": "m"
         },
         {
           "en": "park",
-          "pl": "park"
+          "pl": "park",
+          "gender": "m"
         },
         {
           "en": "hotel",
-          "pl": "hotel"
+          "pl": "hotel",
+          "gender": "m"
         },
         {
           "en": "here",

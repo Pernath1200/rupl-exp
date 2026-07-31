@@ -12,7 +12,8 @@
       "items": [
         {
           "en": "colour",
-          "pl": "kolor"
+          "pl": "kolor",
+          "gender": "m"
         },
         {
           "en": "red",

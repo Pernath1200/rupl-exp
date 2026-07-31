@@ -12,7 +12,8 @@
       "items": [
         {
           "en": "health",
-          "pl": "zdrowie"
+          "pl": "zdrowie",
+          "gender": "n"
         },
         {
           "en": "healthy",
@@ -24,7 +25,8 @@
         },
         {
           "en": "pain",
-          "pl": "ból"
+          "pl": "ból",
+          "gender": "m"
         },
         {
           "en": "hurt",
@@ -32,27 +34,33 @@
         },
         {
           "en": "headache",
-          "pl": "ból głowy"
+          "pl": "ból głowy",
+          "gender": "m"
         },
         {
           "en": "stomach",
-          "pl": "brzuch"
+          "pl": "brzuch",
+          "gender": "m"
         },
         {
           "en": "fever",
-          "pl": "gorączka"
+          "pl": "gorączka",
+          "gender": "f"
         },
         {
           "en": "cough",
-          "pl": "kaszel"
+          "pl": "kaszel",
+          "gender": "m"
         },
         {
           "en": "cold (illness)",
-          "pl": "przeziębienie"
+          "pl": "przeziębienie",
+          "gender": "n"
         },
         {
           "en": "flu",
-          "pl": "grypa"
+          "pl": "grypa",
+          "gender": "f"
         }
       ]
     },
@@ -62,43 +70,53 @@
       "items": [
         {
           "en": "doctor",
-          "pl": "lekarz"
+          "pl": "lekarz",
+          "gender": "m"
         },
         {
           "en": "nurse",
-          "pl": "pielęgniarka"
+          "pl": "pielęgniarka",
+          "gender": "f"
         },
         {
           "en": "patient",
-          "pl": "pacjent"
+          "pl": "pacjent",
+          "gender": "m"
         },
         {
           "en": "hospital",
-          "pl": "szpital"
+          "pl": "szpital",
+          "gender": "m"
         },
         {
           "en": "pharmacy",
-          "pl": "apteka"
+          "pl": "apteka",
+          "gender": "f"
         },
         {
           "en": "medicine",
-          "pl": "lekarstwo"
+          "pl": "lekarstwo",
+          "gender": "n"
         },
         {
           "en": "pill",
-          "pl": "tabletka"
+          "pl": "tabletka",
+          "gender": "f"
         },
         {
           "en": "appointment",
-          "pl": "wizyta"
+          "pl": "wizyta",
+          "gender": "f"
         },
         {
           "en": "ambulance",
-          "pl": "karetka"
+          "pl": "karetka",
+          "gender": "f"
         },
         {
           "en": "temperature",
-          "pl": "temperatura"
+          "pl": "temperatura",
+          "gender": "f"
         },
         {
           "en": "rest (verb)",
@@ -106,7 +124,8 @@
         },
         {
           "en": "dentist",
-          "pl": "dentysta"
+          "pl": "dentysta",
+          "gender": "m"
         }
       ]
     }

@@ -12,54 +12,66 @@
       "items": [
         {
           "en": "ticket",
-          "pl": "bilet"
+          "pl": "bilet",
+          "gender": "m"
         },
         {
           "en": "tram",
-          "pl": "tramwaj"
+          "pl": "tramwaj",
+          "gender": "m"
         },
         {
           "en": "bus",
-          "pl": "autobus"
+          "pl": "autobus",
+          "gender": "m"
         },
         {
           "en": "metro",
-          "pl": "metro"
+          "pl": "metro",
+          "gender": "n"
         },
         {
           "en": "train",
-          "pl": "pociąg"
+          "pl": "pociąg",
+          "gender": "m"
         },
         {
           "en": "taxi",
-          "pl": "taksi"
+          "pl": "taksi",
+          "gender": "n"
         },
         {
           "en": "stop (noun)",
-          "pl": "przystanek"
+          "pl": "przystanek",
+          "gender": "m"
         },
         {
           "en": "station",
           "pl": "dworzec",
           "accepts": [
             "stacja"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "airport",
-          "pl": "lotnisko"
+          "pl": "lotnisko",
+          "gender": "n"
         },
         {
           "en": "platform",
-          "pl": "peron"
+          "pl": "peron",
+          "gender": "m"
         },
         {
           "en": "delay",
-          "pl": "opóźnienie"
+          "pl": "opóźnienie",
+          "gender": "n"
         },
         {
           "en": "bike",
-          "pl": "rower"
+          "pl": "rower",
+          "gender": "m"
         }
       ]
     },
@@ -106,23 +118,28 @@
         },
         {
           "en": "map",
-          "pl": "mapa"
+          "pl": "mapa",
+          "gender": "f"
         },
         {
           "en": "address",
-          "pl": "adres"
+          "pl": "adres",
+          "gender": "m"
         },
         {
           "en": "bridge",
-          "pl": "most"
+          "pl": "most",
+          "gender": "m"
         },
         {
           "en": "road",
-          "pl": "droga"
+          "pl": "droga",
+          "gender": "f"
         },
         {
           "en": "city centre",
-          "pl": "centrum"
+          "pl": "centrum",
+          "gender": "n"
         }
       ]
     }

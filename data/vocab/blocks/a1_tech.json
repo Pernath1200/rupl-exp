@@ -13,41 +13,49 @@
         {
           "en": "computer",
           "pl": "komputer",
-          "icon": "💻"
+          "icon": "💻",
+          "gender": "m"
         },
         {
           "en": "phone / telephone",
           "pl": "telefon",
-          "icon": "☎️"
+          "icon": "☎️",
+          "gender": "m"
         },
         {
           "en": "mobile",
           "pl": "komórka",
-          "icon": "📱"
+          "icon": "📱",
+          "gender": "f"
         },
         {
           "en": "camera",
           "pl": "aparat",
-          "icon": "📷"
+          "icon": "📷",
+          "gender": "m"
         },
         {
           "en": "television",
-          "pl": "telewizja"
+          "pl": "telewizja",
+          "gender": "f"
         },
         {
           "en": "TV",
           "pl": "telewizor",
-          "icon": "📺"
+          "icon": "📺",
+          "gender": "m"
         },
         {
           "en": "radio",
           "pl": "radio",
-          "icon": "📻"
+          "icon": "📻",
+          "gender": "n"
         },
         {
           "en": "video",
           "pl": "wideo",
-          "icon": "📼"
+          "icon": "📼",
+          "gender": "n"
         },
         {
           "en": "DVD",
@@ -62,7 +70,8 @@
         {
           "en": "screen",
           "pl": "ekran",
-          "icon": "🖥"
+          "icon": "🖥",
+          "gender": "m"
         }
       ]
     },
@@ -73,7 +82,8 @@
         {
           "en": "internet",
           "pl": "internet",
-          "icon": "🌐"
+          "icon": "🌐",
+          "gender": "m"
         },
         {
           "en": "online",
@@ -81,25 +91,30 @@
         },
         {
           "en": "website",
-          "pl": "strona internetowa"
+          "pl": "strona internetowa",
+          "gender": "f"
         },
         {
           "en": "email",
           "pl": "e-mail",
-          "icon": "📧"
+          "icon": "📧",
+          "gender": "m"
         },
         {
           "en": "blog",
-          "pl": "blog"
+          "pl": "blog",
+          "gender": "m"
         },
         {
           "en": "photo / photograph",
           "pl": "zdjęcie",
-          "icon": "🖼"
+          "icon": "🖼",
+          "gender": "n"
         },
         {
           "en": "picture",
-          "pl": "obrazek"
+          "pl": "obrazek",
+          "gender": "m"
         },
         {
           "en": "message",
@@ -114,11 +129,13 @@
         {
           "en": "newspaper",
           "pl": "gazeta",
-          "icon": "📰"
+          "icon": "📰",
+          "gender": "f"
         },
         {
           "en": "magazine",
-          "pl": "czasopismo"
+          "pl": "czasopismo",
+          "gender": "n"
         }
       ]
     }

@@ -13,37 +13,44 @@
         {
           "en": "water",
           "pl": "woda",
-          "icon": "💧"
+          "icon": "💧",
+          "gender": "f"
         },
         {
           "en": "coffee",
           "pl": "kawa",
-          "icon": "☕"
+          "icon": "☕",
+          "gender": "f"
         },
         {
           "en": "tea",
           "pl": "herbata",
-          "icon": "🍵"
+          "icon": "🍵",
+          "gender": "f"
         },
         {
           "en": "beer",
           "pl": "piwo",
-          "icon": "🍺"
+          "icon": "🍺",
+          "gender": "n"
         },
         {
           "en": "wine",
           "pl": "wino",
-          "icon": "🍷"
+          "icon": "🍷",
+          "gender": "n"
         },
         {
           "en": "juice",
           "pl": "sok",
-          "icon": "🧃"
+          "icon": "🧃",
+          "gender": "m"
         },
         {
           "en": "milk",
           "pl": "mleko",
-          "icon": "🥛"
+          "icon": "🥛",
+          "gender": "n"
         },
         {
           "en": "drink (verb)",
@@ -52,21 +59,24 @@
         {
           "en": "bottle",
           "pl": "butelka",
-          "icon": "🍾"
+          "icon": "🍾",
+          "gender": "f"
         },
         {
           "en": "glass",
           "pl": "szklanka",
           "accepts": [
             "kieliszek"
-          ]
+          ],
+          "gender": "f"
         },
         {
           "en": "cup",
           "pl": "kubek",
           "accepts": [
             "filiżanka"
-          ]
+          ],
+          "gender": "m"
         },
         {
           "en": "please (with order)",
@@ -83,20 +93,24 @@
           "pl": "jedzenie",
           "accepts": [
             "żywność"
-          ]
+          ],
+          "gender": "n"
         },
         {
           "en": "breakfast",
           "pl": "śniadanie",
-          "icon": "🍳"
+          "icon": "🍳",
+          "gender": "n"
         },
         {
           "en": "lunch",
-          "pl": "obiad"
+          "pl": "obiad",
+          "gender": "m"
         },
         {
           "en": "dinner",
-          "pl": "kolacja"
+          "pl": "kolacja",
+          "gender": "f"
         },
         {
           "en": "menu",
@@ -104,12 +118,14 @@
           "accepts": [
             "jadłospis"
           ],
-          "icon": "📋"
+          "icon": "📋",
+          "gender": "n"
         },
         {
           "en": "bill",
           "pl": "rachunek",
-          "icon": "🧾"
+          "icon": "🧾",
+          "gender": "m"
         },
         {
           "en": "eat",
@@ -134,11 +150,13 @@
         },
         {
           "en": "restaurant",
-          "pl": "restauracja"
+          "pl": "restauracja",
+          "gender": "f"
         },
         {
           "en": "café",
-          "pl": "kawiarnia"
+          "pl": "kawiarnia",
+          "gender": "f"
         },
         {
           "en": "order (verb)",
@@ -156,17 +174,20 @@
         {
           "en": "bread",
           "pl": "chleb",
-          "icon": "🍞"
+          "icon": "🍞",
+          "gender": "m"
         },
         {
           "en": "butter",
           "pl": "masło",
-          "icon": "🧈"
+          "icon": "🧈",
+          "gender": "n"
         },
         {
           "en": "cheese",
           "pl": "ser",
-          "icon": "🧀"
+          "icon": "🧀",
+          "gender": "m"
         },
         {
           "en": "egg",
@@ -174,46 +195,55 @@
           "accepts": [
             "jajo"
           ],
-          "icon": "🥚"
+          "icon": "🥚",
+          "gender": "n"
         },
         {
           "en": "meat",
           "pl": "mięso",
-          "icon": "🥩"
+          "icon": "🥩",
+          "gender": "n"
         },
         {
           "en": "chicken",
           "pl": "kurczak",
-          "icon": "🍗"
+          "icon": "🍗",
+          "gender": "m"
         },
         {
           "en": "fish",
           "pl": "ryba",
-          "icon": "🐟"
+          "icon": "🐟",
+          "gender": "f"
         },
         {
           "en": "soup",
           "pl": "zupa",
-          "icon": "🍲"
+          "icon": "🍲",
+          "gender": "f"
         },
         {
           "en": "salad",
           "pl": "sałatka",
-          "icon": "🥗"
+          "icon": "🥗",
+          "gender": "f"
         },
         {
           "en": "rice",
           "pl": "ryż",
-          "icon": "🍚"
+          "icon": "🍚",
+          "gender": "m"
         },
         {
           "en": "salt",
           "pl": "sól",
-          "icon": "🧂"
+          "icon": "🧂",
+          "gender": "f"
         },
         {
           "en": "sugar",
-          "pl": "cukier"
+          "pl": "cukier",
+          "gender": "m"
         }
       ]
     }

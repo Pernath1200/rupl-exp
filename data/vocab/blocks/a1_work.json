@@ -12,47 +12,58 @@
       "items": [
         {
           "en": "work / job",
-          "pl": "praca"
+          "pl": "praca",
+          "gender": "f"
         },
         {
           "en": "teacher",
-          "pl": "nauczyciel"
+          "pl": "nauczyciel",
+          "gender": "m"
         },
         {
           "en": "doctor",
-          "pl": "lekarz"
+          "pl": "lekarz",
+          "gender": "m"
         },
         {
           "en": "student",
-          "pl": "student"
+          "pl": "student",
+          "gender": "m"
         },
         {
           "en": "nurse",
-          "pl": "pielęgniarka"
+          "pl": "pielęgniarka",
+          "gender": "f"
         },
         {
           "en": "waiter",
-          "pl": "kelner"
+          "pl": "kelner",
+          "gender": "m"
         },
         {
           "en": "engineer",
-          "pl": "inżynier"
+          "pl": "inżynier",
+          "gender": "m"
         },
         {
           "en": "driver",
-          "pl": "kierowca"
+          "pl": "kierowca",
+          "gender": "m"
         },
         {
           "en": "manager",
-          "pl": "menedżer"
+          "pl": "menedżer",
+          "gender": "m"
         },
         {
           "en": "boss",
-          "pl": "szef"
+          "pl": "szef",
+          "gender": "m"
         },
         {
           "en": "colleague",
-          "pl": "kolega z pracy"
+          "pl": "kolega z pracy",
+          "gender": "m"
         }
       ]
     },
@@ -62,35 +73,43 @@
       "items": [
         {
           "en": "office",
-          "pl": "biuro"
+          "pl": "biuro",
+          "gender": "n"
         },
         {
           "en": "company",
-          "pl": "firma"
+          "pl": "firma",
+          "gender": "f"
         },
         {
           "en": "meeting",
-          "pl": "spotkanie"
+          "pl": "spotkanie",
+          "gender": "n"
         },
         {
           "en": "email",
-          "pl": "e-mail"
+          "pl": "e-mail",
+          "gender": "m"
         },
         {
           "en": "computer",
-          "pl": "komputer"
+          "pl": "komputer",
+          "gender": "m"
         },
         {
           "en": "phone",
-          "pl": "telefon"
+          "pl": "telefon",
+          "gender": "m"
         },
         {
           "en": "money",
-          "pl": "pieniądze"
+          "pl": "pieniądze",
+          "gender": "pl"
         },
         {
           "en": "salary",
-          "pl": "pensja"
+          "pl": "pensja",
+          "gender": "f"
         },
         {
           "en": "work (verb)",
@@ -106,7 +125,8 @@
         },
         {
           "en": "break (rest)",
-          "pl": "przerwa"
+          "pl": "przerwa",
+          "gender": "f"
         }
       ]
     },
@@ -116,51 +136,63 @@
       "items": [
         {
           "en": "actor",
-          "pl": "aktor"
+          "pl": "aktor",
+          "gender": "m"
         },
         {
           "en": "actress",
-          "pl": "aktorka"
+          "pl": "aktorka",
+          "gender": "f"
         },
         {
           "en": "dancer",
-          "pl": "tancerz"
+          "pl": "tancerz",
+          "gender": "m"
         },
         {
           "en": "singer",
-          "pl": "piosenkarz"
+          "pl": "piosenkarz",
+          "gender": "m"
         },
         {
           "en": "player",
-          "pl": "gracz"
+          "pl": "gracz",
+          "gender": "m"
         },
         {
           "en": "farmer",
-          "pl": "rolnik"
+          "pl": "rolnik",
+          "gender": "m"
         },
         {
           "en": "worker",
-          "pl": "pracownik"
+          "pl": "pracownik",
+          "gender": "m"
         },
         {
           "en": "writer",
-          "pl": "pisarz"
+          "pl": "pisarz",
+          "gender": "m"
         },
         {
           "en": "partner",
-          "pl": "partner"
+          "pl": "partner",
+          "gender": "m"
         },
         {
           "en": "career",
-          "pl": "kariera"
+          "pl": "kariera",
+          "gender": "f"
         },
         {
           "en": "business",
-          "pl": "biznes"
+          "pl": "biznes",
+          "gender": "m"
         },
         {
           "en": "interview",
-          "pl": "rozmowa kwalifikacyjna"
+          "pl": "rozmowa kwalifikacyjna",
+          "gender": "f"
         }
       ]
     }

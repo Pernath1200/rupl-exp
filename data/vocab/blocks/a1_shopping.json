@@ -12,11 +12,13 @@
       "items": [
         {
           "en": "money",
-          "pl": "pieniądze"
+          "pl": "pieniądze",
+          "gender": "pl"
         },
         {
           "en": "price",
-          "pl": "cena"
+          "pl": "cena",
+          "gender": "f"
         },
         {
           "en": "cost",
@@ -44,19 +46,23 @@
         },
         {
           "en": "pound",
-          "pl": "funt"
+          "pl": "funt",
+          "gender": "m"
         },
         {
           "en": "euro",
-          "pl": "euro"
+          "pl": "euro",
+          "gender": "n"
         },
         {
           "en": "dollar",
-          "pl": "dolar"
+          "pl": "dolar",
+          "gender": "m"
         },
         {
           "en": "cent",
-          "pl": "cent"
+          "pl": "cent",
+          "gender": "m"
         }
       ]
     },
@@ -66,39 +72,48 @@
       "items": [
         {
           "en": "shopping",
-          "pl": "zakupy"
+          "pl": "zakupy",
+          "gender": "pl"
         },
         {
           "en": "shop (store)",
-          "pl": "sklep"
+          "pl": "sklep",
+          "gender": "m"
         },
         {
           "en": "customer",
-          "pl": "klient"
+          "pl": "klient",
+          "gender": "m"
         },
         {
           "en": "card",
-          "pl": "karta"
+          "pl": "karta",
+          "gender": "f"
         },
         {
           "en": "cash",
-          "pl": "gotówka"
+          "pl": "gotówka",
+          "gender": "f"
         },
         {
           "en": "change (money)",
-          "pl": "reszta"
+          "pl": "reszta",
+          "gender": "f"
         },
         {
           "en": "receipt",
-          "pl": "paragon"
+          "pl": "paragon",
+          "gender": "m"
         },
         {
           "en": "bag",
-          "pl": "torba"
+          "pl": "torba",
+          "gender": "f"
         },
         {
           "en": "size",
-          "pl": "rozmiar"
+          "pl": "rozmiar",
+          "gender": "m"
         },
         {
           "en": "open",
@@ -120,39 +135,48 @@
       "items": [
         {
           "en": "discount",
-          "pl": "zniżka"
+          "pl": "zniżka",
+          "gender": "f"
         },
         {
           "en": "sale",
-          "pl": "wyprzedaż"
+          "pl": "wyprzedaż",
+          "gender": "f"
         },
         {
           "en": "offer",
-          "pl": "oferta"
+          "pl": "oferta",
+          "gender": "f"
         },
         {
           "en": "refund",
-          "pl": "zwrot pieniędzy"
+          "pl": "zwrot pieniędzy",
+          "gender": "m"
         },
         {
           "en": "queue",
-          "pl": "kolejka"
+          "pl": "kolejka",
+          "gender": "f"
         },
         {
           "en": "counter",
-          "pl": "lada"
+          "pl": "lada",
+          "gender": "f"
         },
         {
           "en": "checkout",
-          "pl": "kasa"
+          "pl": "kasa",
+          "gender": "f"
         },
         {
           "en": "wallet",
-          "pl": "portfel"
+          "pl": "portfel",
+          "gender": "m"
         },
         {
           "en": "purse",
-          "pl": "portmonetka"
+          "pl": "portmonetka",
+          "gender": "f"
         },
         {
           "en": "try on",
@@ -160,11 +184,13 @@
         },
         {
           "en": "market",
-          "pl": "targ"
+          "pl": "targ",
+          "gender": "m"
         },
         {
           "en": "department store",
-          "pl": "dom handlowy"
+          "pl": "dom handlowy",
+          "gender": "m"
         }
       ]
     }

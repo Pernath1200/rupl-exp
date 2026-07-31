@@ -12,52 +12,63 @@
       "items": [
         {
           "en": "clothes",
-          "pl": "ubrania"
+          "pl": "ubrania",
+          "gender": "pl"
         },
         {
           "en": "shirt",
-          "pl": "koszula"
+          "pl": "koszula",
+          "gender": "f"
         },
         {
           "en": "T-shirt",
           "pl": "koszulka",
-          "icon": "👕"
+          "icon": "👕",
+          "gender": "f"
         },
         {
           "en": "sweater",
-          "pl": "sweter"
+          "pl": "sweter",
+          "gender": "m"
         },
         {
           "en": "jacket",
           "pl": "kurtka",
-          "icon": "🧥"
+          "icon": "🧥",
+          "gender": "f"
         },
         {
           "en": "coat",
-          "pl": "płaszcz"
+          "pl": "płaszcz",
+          "gender": "m"
         },
         {
           "en": "dress",
           "pl": "sukienka",
-          "icon": "👗"
+          "icon": "👗",
+          "gender": "f"
         },
         {
           "en": "skirt",
-          "pl": "spódnica"
+          "pl": "spódnica",
+          "gender": "f"
         },
         {
           "en": "trousers",
           "pl": "spodnie",
-          "icon": "👖"
+          "icon": "👖",
+          "gender": "pl"
         },
         {
           "en": "jeans",
-          "pl": "dżinsy"
+          "pl": "dżinsy",
+          "gender": "pl"
         },
         {
           "en": "hat",
           "pl": "kapelusz",
-          "icon": "🎩"
+          "icon": "🎩",
+          "gender": "m"
         },
         {
           "en": "wear",
@@ -72,55 +83,66 @@
         {
           "en": "shoe / boot",
           "pl": "but",
-          "icon": "👞"
+          "icon": "👞",
+          "gender": "m"
         },
         {
           "en": "sock",
           "pl": "skarpetka",
-          "icon": "🧦"
+          "icon": "🧦",
+          "gender": "f"
         },
         {
           "en": "watch (wrist)",
           "pl": "zegarek",
-          "icon": "⌚"
+          "icon": "⌚",
+          "gender": "m"
         },
         {
           "en": "bag",
           "pl": "torba",
-          "icon": "👜"
+          "icon": "👜",
+          "gender": "f"
         },
         {
           "en": "glasses",
           "pl": "okulary",
-          "icon": "👓"
+          "icon": "👓",
+          "gender": "pl"
         },
         {
           "en": "suit",
-          "pl": "garnitur"
+          "pl": "garnitur",
+          "gender": "m"
         },
         {
           "en": "tie",
           "pl": "krawat",
-          "icon": "👔"
+          "icon": "👔",
+          "gender": "m"
         },
         {
           "en": "scarf",
           "pl": "szalik",
-          "icon": "🧣"
+          "icon": "🧣",
+          "gender": "m"
         },
         {
           "en": "glove",
           "pl": "rękawiczka",
-          "icon": "🧤"
+          "icon": "🧤",
+          "gender": "f"
         },
         {
           "en": "umbrella",
           "pl": "parasol",
-          "icon": "☂️"
+          "icon": "☂️",
+          "gender": "m"
         },
         {
           "en": "pocket",
-          "pl": "kieszeń"
+          "pl": "kieszeń",
+          "gender": "f"
         }
       ]
     }

@@ -426,6 +426,10 @@ export function startPractice(root, block, opts) {
   // anchors meaning, not spelling.
   const swatchByText = new Map();
   const iconByText = new Map();
+  // Gender badges keyed by PL only — they mark the Polish noun, and must
+  // never leak onto the EN side (that would gift the answer in PL→EN).
+  const genderByPl = new Map();
+  const GENDER_LABEL = { m: "m.", f: "ż.", n: "n.", pl: "mn." };
   for (const it of block.items || []) {
     if (it.swatch) {
       swatchByText.set(it.pl, it.swatch);
@@ -435,6 +439,9 @@ export function startPractice(root, block, opts) {
       iconByText.set(it.pl, it.icon);
       iconByText.set(it.en, it.icon);
     }
+    if (it.gender && GENDER_LABEL[it.gender]) {
+      genderByPl.set(it.pl, it.gender);
+    }
   }
 
   function sw(text) {
@@ -443,6 +450,14 @@ export function startPractice(root, block, opts) {
     const ic = iconByText.get(text);
     if (ic) return `<span class="icon-chip">${ic}</span>`;
     return "";
+  }
+
+  /** Gender badge after a Polish noun (teaches gender during exposure). */
+  function gb(text) {
+    const g = genderByPl.get(text);
+    return g
+      ? ` <span class="gender-badge gender-${g}">${GENDER_LABEL[g]}</span>`
+      : "";
   }
 
   // ---- Deck rotation (per pack + mode) ----
@@ -786,7 +801,7 @@ export function startPractice(root, block, opts) {
           const done = m.doneIds.has(x.id);
           const cls = done ? "m done" : "m";
           const label = done ? `✓ ${x.t}` : x.t;
-          return `<button type="button" class="${cls}" data-side="${side}" data-id="${x.id}" ${done ? "disabled" : ""}>${sw(x.t)}${escapeHtml(label)}</button>`;
+          return `<button type="button" class="${cls}" data-side="${side}" data-id="${x.id}" ${done ? "disabled" : ""}>${sw(x.t)}${escapeHtml(label)}${gb(x.t)}</button>`;
         })
         .join("");
 
@@ -920,13 +935,13 @@ export function startPractice(root, block, opts) {
     stage.innerHTML = `
       <div class="q">
         ${diagramBlock(it)}
-        <div class="prompt">${sw(promptOf(it, state.plToEn))}${escapeHtml(promptOf(it, state.plToEn))}</div>
+        <div class="prompt">${sw(promptOf(it, state.plToEn))}${escapeHtml(promptOf(it, state.plToEn))}${gb(promptOf(it, state.plToEn))}</div>
         <div class="sub">Wybierz wersję ${state.plToEn ? "angielską" : "polską"} — odpowiedz 1–4 · Enter = dalej</div>
         <div class="opts">
           ${opts
             .map(
               (o, i) =>
-                `<button type="button" class="opt" data-i="${i}"><span class="knum">${i + 1}</span>${sw(o)}${escapeHtml(o)}</button>`,
+                `<button type="button" class="opt" data-i="${i}"><span class="knum">${i + 1}</span>${sw(o)}${escapeHtml(o)}${gb(o)}</button>`,
             )
             .join("")}
         </div>
@@ -1154,7 +1169,7 @@ export function startPractice(root, block, opts) {
         t.answered = true;
         t.missedThis = false;
         t.score++;
-        fb.innerHTML = `✓ Dobrze — z ogonkami: <span class="reveal">${escapeHtml(answer)}</span>`;
+        fb.innerHTML = `✓ Dobrze — z ogonkami: <span class="reveal">${escapeHtml(answer)}</span>${gb(answer)}`;
         fb.className = "fb good";
         afterGrade();
         return;
@@ -1170,7 +1185,7 @@ export function startPractice(root, block, opts) {
 
       t.answered = true;
       t.missedThis = true;
-      fb.innerHTML = `✗ Odpowiedź: <span class="reveal">${escapeHtml(answer)}</span>`;
+      fb.innerHTML = `✗ Odpowiedź: <span class="reveal">${escapeHtml(answer)}</span>${gb(answer)}`;
       fb.className = "fb bad";
       const s = document.createElement("button");
       s.type = "button";
