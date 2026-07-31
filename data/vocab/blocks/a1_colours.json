@@ -3,7 +3,7 @@
   "title": "Kolory",
   "level": "A1",
   "tree_node": "leaf_colours_a1",
-  "note": "A1 liść · EN → PL · z rue3-exp a1_colours.json · Zdanie = owoc · Swatch chips = visual anchor (kolor anchors as cognate). · Zdanie = colour+known-noun agreement (anchor rule).",
+  "note": "A1 liść · kolory · swatch chips (visual anchor) · Zdanie = nouns with their real-world colour (self-checking); fioletowy has no natural A1 noun so it lives in Match/Quiz/Słowo only.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -80,10 +80,10 @@
   ],
   "sentences": [
     {
-      "en": "The house is white.",
-      "pl": "Dom jest biały.",
+      "en": "The milk is white.",
+      "pl": "Mleko jest białe.",
       "accepts": [
-        "Dom jest biały."
+        "Mleko jest białe."
       ],
       "structures": [
         "byc_adj",
@@ -125,6 +125,21 @@
       ]
     },
     {
+      "en": "The wine is red.",
+      "pl": "Wino jest czerwone.",
+      "accepts": [
+        "Wino jest czerwone."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "czerwony"
+      ]
+    },
+    {
       "en": "The cheese is yellow.",
       "pl": "Ser jest żółty.",
       "accepts": [
@@ -137,6 +152,21 @@
       ],
       "lemmas": [
         "żółty"
+      ]
+    },
+    {
+      "en": "The frog is green.",
+      "pl": "Żaba jest zielona.",
+      "accepts": [
+        "Żaba jest zielona."
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zielony"
       ]
     },
     {
@@ -155,40 +185,10 @@
       ]
     },
     {
-      "en": "The car is red.",
-      "pl": "Auto jest czerwone.",
+      "en": "The horse is brown.",
+      "pl": "Koń jest brązowy.",
       "accepts": [
-        "Auto jest czerwone."
-      ],
-      "structures": [
-        "byc_adj",
-        "zgoda",
-        "byc_present"
-      ],
-      "lemmas": [
-        "czerwony"
-      ]
-    },
-    {
-      "en": "The book is green.",
-      "pl": "Książka jest zielona.",
-      "accepts": [
-        "Książka jest zielona."
-      ],
-      "structures": [
-        "byc_adj",
-        "zgoda",
-        "byc_present"
-      ],
-      "lemmas": [
-        "zielony"
-      ]
-    },
-    {
-      "en": "The table is brown.",
-      "pl": "Stół jest brązowy.",
-      "accepts": [
-        "Stół jest brązowy."
+        "Koń jest brązowy."
       ],
       "structures": [
         "byc_adj",
@@ -200,10 +200,10 @@
       ]
     },
     {
-      "en": "The city is grey.",
-      "pl": "Miasto jest szare.",
+      "en": "The mouse is grey.",
+      "pl": "Mysz jest szara.",
       "accepts": [
-        "Miasto jest szare."
+        "Mysz jest szara."
       ],
       "structures": [
         "byc_adj",
@@ -215,11 +215,10 @@
       ]
     },
     {
-      "en": "My room is pink.",
-      "pl": "Mój pokój jest różowy.",
+      "en": "The pig is pink.",
+      "pl": "Świnia jest różowa.",
       "accepts": [
-        "Mój pokój jest różowy.",
-        "Pokój jest różowy."
+        "Świnia jest różowa."
       ],
       "structures": [
         "byc_adj",
@@ -231,27 +230,10 @@
       ]
     },
     {
-      "en": "My chair is purple.",
-      "pl": "Moje krzesło jest fioletowe.",
+      "en": "The juice is orange.",
+      "pl": "Sok jest pomarańczowy.",
       "accepts": [
-        "Moje krzesło jest fioletowe.",
-        "Krzesło jest fioletowe."
-      ],
-      "structures": [
-        "byc_adj",
-        "zgoda",
-        "byc_present"
-      ],
-      "lemmas": [
-        "fioletowy"
-      ]
-    },
-    {
-      "en": "My bathroom is orange.",
-      "pl": "Moja łazienka jest pomarańczowa.",
-      "accepts": [
-        "Moja łazienka jest pomarańczowa.",
-        "Łazienka jest pomarańczowa."
+        "Sok jest pomarańczowy."
       ],
       "structures": [
         "byc_adj",

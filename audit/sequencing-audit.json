@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-07-31T04:46:08+02:00",
+  "generated_at": "2026-07-31T04:47:42+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -12,11 +12,11 @@
     "trunk_be_have_a1",
     "a1_gender_check",
     "trunk_adjectives_a1",
-    "leaf_colours_a1",
     "a1_miec",
     "a1_acc_gym",
     "leaf_food_a1",
     "leaf_animals_a1",
+    "leaf_colours_a1",
     "leaf_numbers_a1",
     "a1_present",
     "a1_present_e_isz",
@@ -212,28 +212,6 @@
     },
     {
       "path_index": 8,
-      "node_id": "leaf_colours_a1",
-      "pack_id": "a1_colours",
-      "domain": "vocab",
-      "teaches_structures": [],
-      "teaches_lemmas_n": 12,
-      "uses_structures": [
-        "byc_adj",
-        "byc_present",
-        "to_jest",
-        "zgoda"
-      ],
-      "unlocked_structures_after": [
-        "byc_adj",
-        "byc_present",
-        "poss_nom",
-        "social_chunk",
-        "to_jest",
-        "zgoda"
-      ]
-    },
-    {
-      "path_index": 9,
       "node_id": "a1_miec",
       "pack_id": "a1_miec",
       "domain": "grammar",
@@ -258,7 +236,7 @@
       ]
     },
     {
-      "path_index": 10,
+      "path_index": 9,
       "node_id": "a1_acc_gym",
       "pack_id": "a1_acc_gym",
       "domain": "grammar",
@@ -281,7 +259,7 @@
       ]
     },
     {
-      "path_index": 11,
+      "path_index": 10,
       "node_id": "leaf_food_a1",
       "pack_id": "a1_food",
       "domain": "vocab",
@@ -306,13 +284,37 @@
       ]
     },
     {
-      "path_index": 12,
+      "path_index": 11,
       "node_id": "leaf_animals_a1",
       "pack_id": "a1_animals",
       "domain": "vocab",
       "teaches_structures": [],
       "teaches_lemmas_n": 0,
       "uses_structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "miec_acc",
+        "miec_present",
+        "poss_nom",
+        "social_chunk",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 12,
+      "node_id": "leaf_colours_a1",
+      "pack_id": "a1_colours",
+      "domain": "vocab",
+      "teaches_structures": [],
+      "teaches_lemmas_n": 12,
+      "uses_structures": [
+        "byc_adj",
+        "byc_present",
         "to_jest",
         "zgoda"
       ],

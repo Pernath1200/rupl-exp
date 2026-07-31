@@ -95,21 +95,6 @@
       }
     },
     {
-      "id": "PL_ADJ_01",
-      "title": "Kolory · mianownik",
-      "case_tags": [
-        "nom"
-      ],
-      "rupl2": {
-        "status": "skip"
-      },
-      "rupl3": {
-        "node_id": "leaf_colours_a1",
-        "label": "Kolory",
-        "status": "live"
-      }
-    },
-    {
       "id": "PL_ACC_01",
       "title": "Mieć + biernik",
       "case_tags": [
@@ -141,6 +126,21 @@
         "label": "Zwierzęta",
         "status": "live",
         "note": "Naming only (Nom) — 'Mam psa' waits for animate Acc in a1_miec"
+      }
+    },
+    {
+      "id": "PL_ADJ_01",
+      "title": "Kolory · mianownik",
+      "case_tags": [
+        "nom"
+      ],
+      "rupl2": {
+        "status": "skip"
+      },
+      "rupl3": {
+        "node_id": "leaf_colours_a1",
+        "label": "Kolory",
+        "status": "live"
       }
     },
     {
@@ -445,11 +445,11 @@
     "trunk_be_have_a1",
     "a1_gender_check",
     "trunk_adjectives_a1",
-    "leaf_colours_a1",
     "a1_miec",
     "a1_acc_gym",
     "leaf_food_a1",
     "leaf_animals_a1",
+    "leaf_colours_a1",
     "leaf_numbers_a1",
     "a1_present",
     "a1_present_e_isz",

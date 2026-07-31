@@ -23,11 +23,11 @@
     "trunk_be_have_a1",
     "a1_gender_check",
     "trunk_adjectives_a1",
-    "leaf_colours_a1",
     "a1_miec",
     "a1_acc_gym",
     "leaf_food_a1",
     "leaf_animals_a1",
+    "leaf_colours_a1",
     "leaf_numbers_a1",
     "a1_present",
     "a1_present_e_isz",
@@ -344,29 +344,6 @@
       "partner_id": "a1_gender_check"
     },
     {
-      "id": "leaf_colours_a1",
-      "domain": "vocab",
-      "label": "Kolory",
-      "kind": "leaf",
-      "parent": "trunk",
-      "tree_part": "free_time",
-      "levels": [
-        "A1"
-      ],
-      "status": "live",
-      "content": "vocab/blocks/a1_colours.json",
-      "practice": "vocab",
-      "note": "Żywe · kolory · mianownik",
-      "unit_id": "PL_ADJ_01",
-      "case_tags": [
-        "nom"
-      ],
-      "spine_steps": [
-        "PL_ADJ_01"
-      ],
-      "pedagogy": "use"
-    },
-    {
       "id": "a1_miec",
       "domain": "grammar",
       "label": "Mieć + biernik",
@@ -463,6 +440,29 @@
       ],
       "spine_steps": [
         "PL_ANIM_01"
+      ],
+      "pedagogy": "use"
+    },
+    {
+      "id": "leaf_colours_a1",
+      "domain": "vocab",
+      "label": "Kolory",
+      "kind": "leaf",
+      "parent": "trunk",
+      "tree_part": "free_time",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "vocab/blocks/a1_colours.json",
+      "practice": "vocab",
+      "note": "Żywe · kolory · Zdanie = rzeczowniki o naturalnym kolorze (mleko białe, świnia różowa)",
+      "unit_id": "PL_ADJ_01",
+      "case_tags": [
+        "nom"
+      ],
+      "spine_steps": [
+        "PL_ADJ_01"
       ],
       "pedagogy": "use"
     },
