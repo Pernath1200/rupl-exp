@@ -58,14 +58,14 @@
           "gender": "n"
         },
         {
-          "en": "DVD",
-          "pl": "DVD",
-          "icon": "💿"
+          "pl": "laptop",
+          "en": "laptop",
+          "gender": "m"
         },
         {
-          "en": "CD",
-          "pl": "CD",
-          "icon": "📀"
+          "pl": "aplikacja",
+          "en": "app / application",
+          "gender": "f"
         },
         {
           "en": "screen",
@@ -333,8 +333,6 @@
     "telewizor",
     "radio",
     "wideo",
-    "DVD",
-    "CD",
     "ekran",
     "internet",
     "online",
@@ -346,6 +344,8 @@
     "wiadomość",
     "wiadomości",
     "gazeta",
-    "czasopismo"
+    "czasopismo",
+    "laptop",
+    "aplikacja"
   ]
 }
