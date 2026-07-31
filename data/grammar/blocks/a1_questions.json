@@ -223,7 +223,7 @@
       "prompt": "Do you have coffee? →",
       "choices": [
         "Czy masz kawę?",
-        "Masz kawę?",
+        "Czy masz kawa?",
         "Co masz kawę?",
         "Gdzie masz kawę?"
       ],
@@ -240,7 +240,7 @@
       "answer": "Gdzie jest mama?"
     },
     {
-      "prompt": "ERROR — Co? when asking who →",
+      "prompt": "You are asking about a PERSON →",
       "choices": [
         "Kto?",
         "Co?",
@@ -250,7 +250,7 @@
       "answer": "Kto?"
     },
     {
-      "prompt": "ERROR — Kto to jest? when asking what →",
+      "prompt": "You are asking about a THING →",
       "choices": [
         "Co to jest?",
         "Kto to jest?",
@@ -340,7 +340,9 @@
       "answer": "Czy masz kawę?",
       "accepts": [
         "Czy masz kawę?",
-        "Czy masz kawę"
+        "Czy masz kawę",
+        "Masz kawę?",
+        "Masz kawę"
       ]
     },
     {
@@ -352,43 +354,13 @@
       ]
     },
     {
-      "prompt_en": "Type: What?",
-      "answer": "Co?",
-      "accepts": [
-        "Co?",
-        "Co"
-      ]
-    },
-    {
-      "prompt_en": "Type: Who?",
-      "answer": "Kto?",
-      "accepts": [
-        "Kto?",
-        "Kto"
-      ]
-    },
-    {
-      "prompt_en": "Type: Where?",
-      "answer": "Gdzie?",
-      "accepts": [
-        "Gdzie?",
-        "Gdzie"
-      ]
-    },
-    {
-      "prompt_en": "Type: How?",
-      "answer": "Jak?",
-      "accepts": [
-        "Jak?",
-        "Jak"
-      ]
-    },
-    {
       "prompt_en": "Type: Do you have tea?",
       "answer": "Czy masz herbatę?",
       "accepts": [
         "Czy masz herbatę?",
-        "Czy masz herbatę"
+        "Czy masz herbatę",
+        "Masz herbatę?",
+        "Masz herbatę"
       ]
     },
     {
@@ -399,6 +371,24 @@
         "Gdzie jest tata",
         "Gdzie jest ojciec?",
         "Gdzie jest ojciec"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you have a dog?",
+      "answer": "Czy masz psa?",
+      "accepts": [
+        "Czy masz psa?",
+        "Czy masz psa",
+        "Masz psa?",
+        "Masz psa"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where is the shop?",
+      "answer": "Gdzie jest sklep?",
+      "accepts": [
+        "Gdzie jest sklep?",
+        "Gdzie jest sklep"
       ]
     }
   ],
