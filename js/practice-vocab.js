@@ -828,7 +828,20 @@ export function startPractice(root, block, opts) {
         })
         .join("");
 
-    stage.innerHTML = `<div class="match"><div>${col(m.left, "L")}</div><div>${col(m.right, "R")}</div></div>`;
+    stage.innerHTML = `
+      <div class="match-hint">Kliknij słowo, potem jego parę · kliknij ponownie (lub Esc), aby odznaczyć</div>
+      <div class="match"><div>${col(m.left, "L")}</div><div>${col(m.right, "R")}</div></div>`;
+
+    // Esc clears a mis-tapped token without needing to find it again.
+    clearKey();
+    state.keyHandler = (e) => {
+      if (e.key !== "Escape" || !m.sel) return;
+      e.preventDefault();
+      m.sel.el.classList.remove("sel");
+      m.sel = null;
+    };
+    document.addEventListener("keydown", state.keyHandler, true);
+
     stage.querySelectorAll(".m:not(.done)").forEach((el) => {
       el.addEventListener("click", () => {
         const id = +el.dataset.id;
@@ -836,6 +849,12 @@ export function startPractice(root, block, opts) {
         if (!m.sel) {
           m.sel = { id, side, el };
           el.classList.add("sel");
+          return;
+        }
+        if (m.sel.el === el) {
+          // De-click: tapped the selected token again → clear it.
+          el.classList.remove("sel");
+          m.sel = null;
           return;
         }
         if (m.sel.side === side) {
@@ -866,8 +885,12 @@ export function startPractice(root, block, opts) {
           a.classList.add("wrong");
           el.classList.add("wrong");
           setTimeout(() => {
-            a.classList.remove("wrong", "sel");
+            a.classList.remove("wrong");
             el.classList.remove("wrong");
+            // Only drop the highlight if nothing was picked during the flash —
+            // a fast re-tap would otherwise leave m.sel set but nothing lit.
+            if (m.sel?.el !== a) a.classList.remove("sel");
+            if (m.sel?.el !== el) el.classList.remove("sel");
           }, 450);
           m.sel = null;
         }

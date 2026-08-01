@@ -1562,3 +1562,11 @@ button.m.wrong {
   color: #c8c8c8;
   font-weight: 600;
 }
+
+/* Match board hint — de-click affordance needs to be visible, not discovered */
+.match-hint {
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-align: center;
+  margin: 0 0 0.6rem;
+}
