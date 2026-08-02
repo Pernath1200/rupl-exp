@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). Not static w/na.",
+  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). Not static w/na. Motion chunk Ide/Idziesz/Wracam/Wracasz taught here (full verbs later). ze sklepu (not z sklepu).",
   "focus_structures": [
     "prep_do_gen",
     "prep_z_gen"
@@ -24,7 +24,7 @@
     {
       "title": "Going to / coming from",
       "title_pl": "Kierunek i pochodzenie",
-      "body": "Static place was w/na + locative.\n\nDirection uses different prepositions and usually the genitive:\n· do + Gen = to / into (do domu, do sklepu, do miasta)\n· z + Gen = from / out of (z domu, z sklepu, z miasta)\n\nDo not mix: w domu (location) ≠ do domu (destination).",
+      "body": "Static place was w/na + locative.\n\nDirection uses different prepositions and usually the genitive:\n· do + Gen = to / into (do domu, do sklepu, do miasta)\n· z + Gen = from / out of (z domu, ze sklepu, z miasta)\n\nDo not mix: w domu (location) ≠ do domu (destination).",
       "body_pl": "Statycznie: w/na + miejscownik. Kierunek: do / z + dopełniacz."
     },
     {
@@ -44,7 +44,7 @@
           [
             "sklep",
             "do sklepu",
-            "z sklepu"
+            "ze sklepu"
           ],
           [
             "miasto",
@@ -58,7 +58,42 @@
           ]
         ]
       },
-      "body": "Note ze szkoły (ze before s-cluster) — learn as a fixed form."
+      "body": "Note ze szkoły and ze sklepu — z becomes ze before an s-cluster. Learn these as fixed forms."
+    },
+    {
+      "title": "Idę · Wracam (chunk)",
+      "title_pl": "Idę · Wracam (zwrot)",
+      "body": "To actually use do and z, you need two motion words. Take these four forms as ready-made chunks — the full verbs come later:\n\nIdę do... = I'm going to...\nIdziesz do...? = are you going to...?\nWracam z... = I'm coming back from...\nWracasz z...? = are you coming back from...?\n\nIdę do domu. · Wracam ze szkoły.",
+      "body_pl": "Cztery gotowe formy: Idę / Idziesz (do...), Wracam / Wracasz (z...). Całe czasowniki później.",
+      "table": {
+        "headers": [
+          "Chunk",
+          "English",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Idę do...",
+            "I'm going to...",
+            "Idę do sklepu."
+          ],
+          [
+            "Idziesz do...?",
+            "are you going to...?",
+            "Idziesz do szkoły?"
+          ],
+          [
+            "Wracam z...",
+            "I'm coming back from...",
+            "Wracam z miasta."
+          ],
+          [
+            "Wracasz z...?",
+            "are you coming back from...?",
+            "Wracasz ze szkoły?"
+          ]
+        ]
+      }
     },
     {
       "title": "Examples",
@@ -77,7 +112,7 @@
         },
         {
           "en": "from the shop",
-          "pl": "z sklepu"
+          "pl": "ze sklepu"
         },
         {
           "en": "to the city",
@@ -105,7 +140,7 @@
     },
     {
       "en": "from the shop",
-      "pl": "z sklepu"
+      "pl": "ze sklepu"
     },
     {
       "en": "to the city",
@@ -150,7 +185,7 @@
       "choices": [
         "do sklepu",
         "w sklepie",
-        "z sklepu",
+        "ze sklepu",
         "do sklep"
       ],
       "answer": "do sklepu"
@@ -158,12 +193,12 @@
     {
       "prompt": "from the shop →",
       "choices": [
+        "ze sklepu",
         "z sklepu",
         "do sklepu",
-        "w sklepie",
-        "ze sklep"
+        "w sklepie"
       ],
-      "answer": "z sklepu"
+      "answer": "ze sklepu"
     },
     {
       "prompt": "to the city →",
@@ -220,7 +255,7 @@
       "choices": [
         "do sklepu",
         "w sklepie",
-        "z sklepu",
+        "ze sklepu",
         "w sklepu"
       ],
       "answer": "do sklepu"
@@ -274,9 +309,9 @@
     {
       "prompt_en": "from the shop",
       "mode": "full_word",
-      "answer": "z sklepu",
+      "answer": "ze sklepu",
       "accepts": [
-        "z sklepu"
+        "ze sklepu"
       ]
     },
     {
@@ -314,99 +349,107 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: to home",
-      "answer": "do domu.",
+      "prompt_en": "Type: I'm going home.",
+      "answer": "Idę do domu.",
       "accepts": [
-        "do domu.",
-        "do domu"
+        "Idę do domu.",
+        "Idę do domu"
       ]
     },
     {
-      "prompt_en": "Type: from home",
-      "answer": "z domu.",
+      "prompt_en": "Type: I'm going to the shop.",
+      "answer": "Idę do sklepu.",
       "accepts": [
-        "z domu.",
-        "z domu"
+        "Idę do sklepu.",
+        "Idę do sklepu"
       ]
     },
     {
-      "prompt_en": "Type: to the shop",
-      "answer": "do sklepu.",
+      "prompt_en": "Type: I'm going to school.",
+      "answer": "Idę do szkoły.",
       "accepts": [
-        "do sklepu.",
-        "do sklepu"
+        "Idę do szkoły.",
+        "Idę do szkoły"
       ]
     },
     {
-      "prompt_en": "Type: from the shop",
-      "answer": "z sklepu.",
+      "prompt_en": "Type: I'm going to the city.",
+      "answer": "Idę do miasta.",
       "accepts": [
-        "z sklepu.",
-        "z sklepu"
+        "Idę do miasta.",
+        "Idę do miasta"
       ]
     },
     {
-      "prompt_en": "Type: to the city",
-      "answer": "do miasta.",
+      "prompt_en": "Type: Are you going to the shop?",
+      "answer": "Idziesz do sklepu?",
       "accepts": [
-        "do miasta.",
-        "do miasta"
+        "Idziesz do sklepu?",
+        "Idziesz do sklepu",
+        "Czy idziesz do sklepu?",
+        "Czy idziesz do sklepu"
       ]
     },
     {
-      "prompt_en": "Type: from the city",
-      "answer": "z miasta.",
+      "prompt_en": "Type: Are you going to school?",
+      "answer": "Idziesz do szkoły?",
       "accepts": [
-        "z miasta.",
-        "z miasta"
+        "Idziesz do szkoły?",
+        "Idziesz do szkoły",
+        "Czy idziesz do szkoły?",
+        "Czy idziesz do szkoły"
       ]
     },
     {
-      "prompt_en": "Type: to school",
-      "answer": "do szkoły.",
+      "prompt_en": "Type: I'm coming back from school.",
+      "answer": "Wracam ze szkoły.",
       "accepts": [
-        "do szkoły.",
-        "do szkoły"
+        "Wracam ze szkoły.",
+        "Wracam ze szkoły"
       ]
     },
     {
-      "prompt_en": "Type: from school",
-      "answer": "ze szkoły.",
+      "prompt_en": "Type: I'm coming back from home.",
+      "answer": "Wracam z domu.",
       "accepts": [
-        "ze szkoły.",
-        "ze szkoły"
+        "Wracam z domu.",
+        "Wracam z domu"
       ]
     },
     {
-      "prompt_en": "Type: going home (to home)",
-      "answer": "do domu.",
+      "prompt_en": "Type: I'm coming back from the city.",
+      "answer": "Wracam z miasta.",
       "accepts": [
-        "do domu.",
-        "do domu"
+        "Wracam z miasta.",
+        "Wracam z miasta"
       ]
     },
     {
-      "prompt_en": "Type: coming from school",
-      "answer": "ze szkoły.",
+      "prompt_en": "Type: I'm coming back from the shop.",
+      "answer": "Wracam ze sklepu.",
       "accepts": [
-        "ze szkoły.",
-        "ze szkoły"
+        "Wracam ze sklepu.",
+        "Wracam ze sklepu"
       ]
     },
     {
-      "prompt_en": "Type: to the shop (destination)",
-      "answer": "do sklepu.",
+      "prompt_en": "Type: Are you coming back from school?",
+      "answer": "Wracasz ze szkoły?",
       "accepts": [
-        "do sklepu.",
-        "do sklepu"
+        "Wracasz ze szkoły?",
+        "Wracasz ze szkoły",
+        "Czy wracasz ze szkoły?",
+        "Czy wracasz ze szkoły"
       ]
     },
     {
-      "prompt_en": "Type: from home (origin)",
-      "answer": "z domu.",
+      "prompt_en": "Type: Are you coming back from the city?",
+      "answer": "Wracasz z miasta?",
       "accepts": [
-        "z domu.",
-        "z domu"
+        "Wracasz z miasta?",
+        "Wracasz z miasta",
+        "Czy wracasz z miasta?",
+        "Czy wracasz z miasta"
       ]
     }
   ],
@@ -425,20 +468,24 @@
     "do domu",
     "z domu",
     "do sklepu",
-    "z sklepu",
+    "ze sklepu",
     "do miasta",
     "z miasta",
     "do szkoły",
     "ze szkoły",
     "sklepu",
     "miasta",
-    "szkoły"
+    "szkoły",
+    "idę",
+    "idziesz",
+    "wracam",
+    "wracasz"
   ],
   "uses_lemmas": [
     "do domu",
     "z domu",
     "do sklepu",
-    "z sklepu",
+    "ze sklepu",
     "do miasta",
     "z miasta",
     "do szkoły",
@@ -452,7 +499,12 @@
     "szkoła",
     "szkoły",
     "w domu",
-    "w sklepie"
+    "w sklepie",
+    "idę",
+    "idziesz",
+    "wracam",
+    "wracasz",
+    "czy"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

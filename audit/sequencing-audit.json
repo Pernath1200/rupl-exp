@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-02T19:23:16+02:00",
+  "generated_at": "2026-08-02T19:30:18+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -980,7 +980,7 @@
         "prep_place",
         "prep_z_gen"
       ],
-      "teaches_lemmas_n": 11,
+      "teaches_lemmas_n": 15,
       "uses_structures": [
         "prep_do_gen",
         "prep_place",
