@@ -27,6 +27,31 @@
       "body_pl": "Miejsce (nie kierunek): w / na + miejscownik. Kierunek (do / z) — następna jednostka."
     },
     {
+      "title": "Two endings: -e or -u",
+      "title_pl": "Dwie końcówki: -e albo -u",
+      "body": "The locative has two main endings.\n\nMost nouns take -e, and the consonant before it softens:\nsklep → w sklepie · stół → na stole · szkoła → w szkole · miasto → w mieście\n\nSome take -u instead — no softening:\n· masculine nouns ending in k / g / ch: bank → w banku\n· a few very common short words: dom → w domu, pokój → w pokoju\n· neuter nouns ending in -e: mieszkanie → w mieszkaniu\n\nWhich ending a noun takes is not always guessable — that is why dom (masc) gives domu but sklep (masc) gives sklepie. At A1: learn each place phrase whole; the rule explains why they look different.",
+      "body_pl": "Większość: -e + zmiękczenie (sklep → sklepie). Część: -u (dom → domu, bank → banku, mieszkanie → mieszkaniu). Frazy uczymy się w całości.",
+      "table": {
+        "headers": [
+          "Ending",
+          "Pattern",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "-e",
+            "consonant softens",
+            "sklep → sklepie · stół → stole · szkoła → szkole"
+          ],
+          [
+            "-u",
+            "no change",
+            "dom → domu · pokój → pokoju · mieszkanie → mieszkaniu"
+          ]
+        ]
+      }
+    },
+    {
       "title": "w + locative · closed set",
       "table": {
         "headers": [
