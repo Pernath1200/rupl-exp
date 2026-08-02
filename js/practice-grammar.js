@@ -231,6 +231,14 @@ export function startPractice(pack, root, opts) {
       return;
     }
 
+    // Esc clears a mis-tapped match token without needing to find it again.
+    if (e.key === "Escape" && state.matchBoard && state.matchBoard.sel) {
+      e.preventDefault();
+      state.matchBoard.sel.el.classList.remove("sel");
+      state.matchBoard.sel = null;
+      return;
+    }
+
     if (e.key === "Backspace" && typeof state.onBackKey === "function") {
       if (isTypingTarget(t)) return;
       e.preventDefault();
@@ -600,7 +608,7 @@ export function startPractice(pack, root, opts) {
     root.innerHTML = `
       ${ladderHtml()}
       <div class="practice-head"><h2>${esc(pack.title)} · Dopasuj</h2></div>
-      <p class="score-line">${doneCount} / ${m.total} · kliknij lewo, potem prawo</p>
+      <p class="score-line">${doneCount} / ${m.total} · kliknij lewo, potem prawo · kliknij ponownie (lub Esc), aby odznaczyć</p>
       <div class="match" id="match-board">
         <div class="match-col">${col(m.left, "L")}</div>
         <div class="match-col">${col(m.right, "R")}</div>
@@ -614,6 +622,12 @@ export function startPractice(pack, root, opts) {
         if (!m.sel) {
           m.sel = { id, side, el: btnEl };
           btnEl.classList.add("sel");
+          return;
+        }
+        if (m.sel.el === btnEl) {
+          // De-click: tapped the selected token again → clear it.
+          btnEl.classList.remove("sel");
+          m.sel = null;
           return;
         }
         if (m.sel.side === side) {
@@ -652,8 +666,12 @@ export function startPractice(pack, root, opts) {
           a.classList.add("wrong");
           btnEl.classList.add("wrong");
           setTimeout(() => {
-            a.classList.remove("wrong", "sel");
+            a.classList.remove("wrong");
             btnEl.classList.remove("wrong");
+            // Only drop the highlight if nothing was picked during the flash —
+            // a fast re-tap would otherwise leave m.sel set but nothing lit.
+            if (m.sel?.el !== a) a.classList.remove("sel");
+            if (m.sel?.el !== btnEl) btnEl.classList.remove("sel");
           }, 450);
           m.sel = null;
         }
