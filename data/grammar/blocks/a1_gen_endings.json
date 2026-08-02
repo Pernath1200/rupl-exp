@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "Endings-only unit split out of a1_prep_do_z (2026-08-02, load). Regular Gen sg by gender: m -u, n -a, f -y. No prepositions here; do/z next unit rides these forms. k/g-stem fem (-i) and masc animate (-a) deferred.",
+  "note": "Endings-only unit split out of a1_prep_do_z (2026-08-02, load). Regular Gen sg by gender: m -u, n -a, f -y. Uzycie = duzo/blisko + Gen sentences (governors that need no case elsewhere). No do/z here; do/z next unit rides these forms. k/g-stem fem (-i) and masc animate (-a) deferred.",
   "focus_structures": [
     "gen_endings"
   ],
@@ -71,6 +71,30 @@
         {
           "en": "coffee →",
           "pl": "kawa → kawy"
+        }
+      ]
+    },
+    {
+      "title": "Two little words that love the genitive",
+      "title_pl": "Dwa słówka z dopełniaczem",
+      "body": "You can already use these endings in real sentences — with two new words:\n\ndużo + Gen = a lot of... → dużo kawy, dużo wody, dużo mleka\nblisko + Gen = near... → blisko domu, blisko sklepu, blisko szkoły\n\nMam dużo kawy. · Piję dużo wody. · Mieszkam blisko sklepu.",
+      "body_pl": "dużo + dopełniacz (dużo kawy) · blisko + dopełniacz (blisko domu).",
+      "examples": [
+        {
+          "en": "I have a lot of coffee.",
+          "pl": "Mam dużo kawy."
+        },
+        {
+          "en": "I drink a lot of water.",
+          "pl": "Piję dużo wody."
+        },
+        {
+          "en": "I live near the shop.",
+          "pl": "Mieszkam blisko sklepu."
+        },
+        {
+          "en": "I'm near home.",
+          "pl": "Jestem blisko domu."
         }
       ]
     }
@@ -325,12 +349,111 @@
       ]
     }
   ],
-  "use_items": [],
+  "use_items": [
+    {
+      "prompt_en": "Type: I have a lot of coffee.",
+      "answer": "Mam dużo kawy.",
+      "accepts": [
+        "Mam dużo kawy.",
+        "Mam dużo kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink a lot of water.",
+      "answer": "Piję dużo wody.",
+      "accepts": [
+        "Piję dużo wody.",
+        "Piję dużo wody"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink a lot of tea.",
+      "answer": "Piję dużo herbaty.",
+      "accepts": [
+        "Piję dużo herbaty.",
+        "Piję dużo herbaty"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want a lot of milk.",
+      "answer": "Chcę dużo mleka.",
+      "accepts": [
+        "Chcę dużo mleka.",
+        "Chcę dużo mleka"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink a lot of beer.",
+      "answer": "Piję dużo piwa.",
+      "accepts": [
+        "Piję dużo piwa.",
+        "Piję dużo piwa"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a lot of soup.",
+      "answer": "Mam dużo zupy.",
+      "accepts": [
+        "Mam dużo zupy.",
+        "Mam dużo zupy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want a lot of water.",
+      "answer": "Chcę dużo wody.",
+      "accepts": [
+        "Chcę dużo wody.",
+        "Chcę dużo wody"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the shop.",
+      "answer": "Mieszkam blisko sklepu.",
+      "accepts": [
+        "Mieszkam blisko sklepu.",
+        "Mieszkam blisko sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the school.",
+      "answer": "Mieszkam blisko szkoły.",
+      "accepts": [
+        "Mieszkam blisko szkoły.",
+        "Mieszkam blisko szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the city.",
+      "answer": "Mieszkam blisko miasta.",
+      "accepts": [
+        "Mieszkam blisko miasta.",
+        "Mieszkam blisko miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm near home.",
+      "answer": "Jestem blisko domu.",
+      "accepts": [
+        "Jestem blisko domu.",
+        "Jestem blisko domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm near the shop.",
+      "answer": "Jestem blisko sklepu.",
+      "accepts": [
+        "Jestem blisko sklepu.",
+        "Jestem blisko sklepu"
+      ]
+    }
+  ],
   "teaches_structures": [
     "gen_endings"
   ],
   "uses_structures": [
-    "gen_endings"
+    "gen_endings",
+    "present_am",
+    "byc_present"
   ],
   "teaches_lemmas": [
     "domu",
@@ -344,7 +467,9 @@
     "kawy",
     "wody",
     "herbaty",
-    "zupy"
+    "zupy",
+    "dużo",
+    "blisko"
   ],
   "uses_lemmas": [
     "dom",
@@ -358,7 +483,12 @@
     "kawa",
     "woda",
     "herbata",
-    "zupa"
+    "zupa",
+    "mam",
+    "piję",
+    "chcę",
+    "mieszkam",
+    "jestem"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

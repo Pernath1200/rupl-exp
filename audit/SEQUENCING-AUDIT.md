@@ -48,7 +48,7 @@ _None._
 | 29 | `leaf_school_a1` | — | 47 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present_am`, `present_uje`, `to_jest`, `zgoda` |
 | 30 | `a1_prep_place` | `prep_place`, `prep_w_loc` | 17 | `byc_present`, `prep_place`, `prep_w_loc`, `present_am` |
 | 31 | `leaf_places` | — | 35 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `question`, `to_jest` |
-| 32 | `a1_gen_endings` | `gen_endings` | 12 | `gen_endings` |
+| 32 | `a1_gen_endings` | `gen_endings` | 14 | `byc_present`, `gen_endings`, `present_am` |
 | 33 | `a1_prep_do_z` | `prep_do_gen`, `prep_place`, `prep_z_gen` | 11 | `gen_endings`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen` |
 | 34 | `a1_motion` | `motion_chunk` | 4 | `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_z_gen` |
 | 35 | `leaf_city_a1` | — | 29 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-02T19:55:50+02:00",
+  "generated_at": "2026-08-02T20:02:02+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -980,9 +980,11 @@
       "teaches_structures": [
         "gen_endings"
       ],
-      "teaches_lemmas_n": 12,
+      "teaches_lemmas_n": 14,
       "uses_structures": [
-        "gen_endings"
+        "byc_present",
+        "gen_endings",
+        "present_am"
       ],
       "unlocked_structures_after": [
         "byc_adj",
