@@ -304,12 +304,15 @@ export function startPractice(pack, root, opts) {
   }
 
   function ladderHtml() {
-    const steps = [
-      ["intro", "1 · Wstęp"],
-      ["check", "2 · Kontrola"],
-      ["type", "3 · Pisanie"],
-      ["use", "4 · Użycie"],
+    // Packs without use_items (pure form units) get a 3-step ladder —
+    // never show a stage that would auto-skip.
+    const stepDefs = [
+      ["intro", "Wstęp"],
+      ["check", "Kontrola"],
+      ["type", "Pisanie"],
     ];
+    if ((pack.use_items || []).length) stepDefs.push(["use", "Użycie"]);
+    const steps = stepDefs.map(([k, label], i) => [k, `${i + 1} · ${label}`]);
     const order = ["intro", "check", "type", "use", "done"];
     const cur = order.indexOf(state.stage);
     const banners = {
@@ -926,7 +929,9 @@ export function startPractice(pack, root, opts) {
     const wrongN = wrong.length;
     const title = kind === "type" ? "Pisanie" : "Użycie";
     const nextLabel =
-      kind === "type" ? "Dalej do Użycia →" : "Zakończ · podsumowanie →";
+      kind === "type" && (pack.use_items || []).length
+        ? "Dalej do Użycia →"
+        : "Zakończ · podsumowanie →";
 
     if (kind === "type" && !state.typeScoreCommitted && !retryPass) {
       completeMode(pack.id, "type", { score, total });

@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). ze sklepu/ze szkoły. Uzycie = w/do/z three-way choice, phrase level. Production sentences moved to a1_motion (split 2026-08-02: unit was overloaded).",
+  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). ze sklepu/ze szkoły. Pisanie = w/do/z three-way choice (12). No Uzycie by design — sentences live in a1_motion (split 2026-08-02).",
   "focus_structures": [
     "prep_do_gen",
     "prep_z_gen"
@@ -248,7 +248,15 @@
   ],
   "type_items": [
     {
-      "prompt_en": "to home",
+      "prompt_en": "at home (you are there)",
+      "mode": "full_word",
+      "answer": "w domu",
+      "accepts": [
+        "w domu"
+      ]
+    },
+    {
+      "prompt_en": "to home (going)",
       "mode": "full_word",
       "answer": "do domu",
       "accepts": [
@@ -256,11 +264,19 @@
       ]
     },
     {
-      "prompt_en": "from home",
+      "prompt_en": "from home (coming)",
       "mode": "full_word",
       "answer": "z domu",
       "accepts": [
         "z domu"
+      ]
+    },
+    {
+      "prompt_en": "in the shop",
+      "mode": "full_word",
+      "answer": "w sklepie",
+      "accepts": [
+        "w sklepie"
       ]
     },
     {
@@ -280,6 +296,14 @@
       ]
     },
     {
+      "prompt_en": "in the city",
+      "mode": "full_word",
+      "answer": "w mieście",
+      "accepts": [
+        "w mieście"
+      ]
+    },
+    {
       "prompt_en": "to the city",
       "mode": "full_word",
       "answer": "do miasta",
@@ -293,6 +317,14 @@
       "answer": "z miasta",
       "accepts": [
         "z miasta"
+      ]
+    },
+    {
+      "prompt_en": "at school",
+      "mode": "full_word",
+      "answer": "w szkole",
+      "accepts": [
+        "w szkole"
       ]
     },
     {
@@ -312,92 +344,7 @@
       ]
     }
   ],
-  "use_items": [
-    {
-      "prompt_en": "Type: at home (you are there)",
-      "answer": "w domu",
-      "accepts": [
-        "w domu"
-      ]
-    },
-    {
-      "prompt_en": "Type: to home (going)",
-      "answer": "do domu",
-      "accepts": [
-        "do domu"
-      ]
-    },
-    {
-      "prompt_en": "Type: from home (coming)",
-      "answer": "z domu",
-      "accepts": [
-        "z domu"
-      ]
-    },
-    {
-      "prompt_en": "Type: in the shop",
-      "answer": "w sklepie",
-      "accepts": [
-        "w sklepie"
-      ]
-    },
-    {
-      "prompt_en": "Type: to the shop",
-      "answer": "do sklepu",
-      "accepts": [
-        "do sklepu"
-      ]
-    },
-    {
-      "prompt_en": "Type: from the shop",
-      "answer": "ze sklepu",
-      "accepts": [
-        "ze sklepu"
-      ]
-    },
-    {
-      "prompt_en": "Type: in the city",
-      "answer": "w mieście",
-      "accepts": [
-        "w mieście"
-      ]
-    },
-    {
-      "prompt_en": "Type: to the city",
-      "answer": "do miasta",
-      "accepts": [
-        "do miasta"
-      ]
-    },
-    {
-      "prompt_en": "Type: from the city",
-      "answer": "z miasta",
-      "accepts": [
-        "z miasta"
-      ]
-    },
-    {
-      "prompt_en": "Type: at school",
-      "answer": "w szkole",
-      "accepts": [
-        "w szkole"
-      ]
-    },
-    {
-      "prompt_en": "Type: to school",
-      "answer": "do szkoły",
-      "accepts": [
-        "do szkoły"
-      ]
-    },
-    {
-      "prompt_en": "Type: from school",
-      "answer": "ze szkoły",
-      "accepts": [
-        "ze szkoły"
-      ]
-    }
-  ],
+  "use_items": [],
   "teaches_structures": [
     "prep_do_gen",
     "prep_z_gen",
@@ -449,6 +396,5 @@
     "phase": 1,
     "node_id": "a1_prep_do_z",
     "pool_model": "cumulative_focus_recycle"
-  },
-  "use_hint": "Fraza po polsku · wybierz w / do / z · Enter = sprawdź · Enter = dalej"
+  }
 }
