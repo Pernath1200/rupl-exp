@@ -123,6 +123,14 @@ export function hasFruit(blockId) {
   return bestOk(b, "check", PASS_RATIO) && bestOk(b, "type", PASS_RATIO);
 }
 
+export function grammarBest(blockId) {
+  const b = gBlock(blockId);
+  return {
+    check: b && b.best && b.best.check != null ? b.best.check : null,
+    type: b && b.best && b.best.type != null ? b.best.type : null,
+  };
+}
+
 export function progressLabelGrammar(node) {
   if (node.status === "planned") return "planowane";
   if (hasFruit(node.id)) return "owoc";

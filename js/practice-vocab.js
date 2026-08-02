@@ -921,9 +921,10 @@ export function startPractice(root, block, opts) {
 
     if (q.pos >= q.order.length) {
       const wrongN = q.wrong.length;
-      // Retry-wrong passes don't feed best-score (fruit stays honest —
-      // only full-set runs raise bestQuiz).
+      // Full-set runs feed best-score; a poprawka round only counts once it
+      // clears every remaining mistake (mastery through correction).
       if (!q.retryPass) reportMode("quiz", { score: q.score, total: passLen });
+      else if (wrongN === 0) reportMode("quiz", { score: 1, total: 1 });
       stage.innerHTML = `
         <div class="q">
           <div class="prompt">Quiz skończony</div>
@@ -1096,7 +1097,10 @@ export function startPractice(root, block, opts) {
 
     if (t.pos >= t.order.length) {
       const wrongN = t.wrong.length;
-      reportMode("type", { score: t.score, total: passLen });
+      // Full-set runs feed best-score; a poprawka round only counts once it
+      // clears every remaining mistake (mastery through correction).
+      if (!t.retryPass) reportMode("type", { score: t.score, total: passLen });
+      else if (wrongN === 0) reportMode("type", { score: 1, total: 1 });
       const sub =
         wrongN > 0
           ? `${wrongN} do powtórki · lub idź do Zdania`

@@ -11,7 +11,13 @@
  * Type modes: full_word | ending_gap (morphology packs)
  */
 
-import { completeMode, touchBlock, PASS_RATIO } from "./progress.js";
+import {
+  completeMode,
+  touchBlock,
+  PASS_RATIO,
+  hasFruit,
+  grammarBest,
+} from "./progress.js";
 import { setSmokeContext } from "./smoke-flags.js";
 
 /** Alias for dual-engine shell */
@@ -714,6 +720,11 @@ export function startPractice(pack, root, opts) {
       state.checkTotal += total;
       state.quizScoreCommitted = true;
     }
+    // Clearing every mistake in the poprawka rounds counts as a full pass —
+    // mastery through correction, not first-try perfection.
+    if (state.quizRetryPass && wrongN === 0) {
+      completeMode(pack.id, "check", { score: 1, total: 1 });
+    }
     root.innerHTML = `
       ${ladderHtml()}
       <div class="practice-head"><h2>${esc(pack.title)} · Quiz · Gotowe</h2></div>
@@ -922,6 +933,11 @@ export function startPractice(pack, root, opts) {
     if (kind === "use" && !state.useScoreCommitted && !retryPass) {
       completeMode(pack.id, "use", { score, total });
       state.useScoreCommitted = true;
+    }
+    // Clearing every mistake in the poprawka rounds counts as a full pass —
+    // mastery through correction, not first-try perfection.
+    if (retryPass && wrongN === 0) {
+      completeMode(pack.id, kind, { score: 1, total: 1 });
     }
 
     root.innerHTML = `
@@ -1136,15 +1152,12 @@ export function startPractice(pack, root, opts) {
 
   function renderDone() {
     clearAdvance();
-    const bCheck = state.checkTotal
-      ? Math.round((state.checkScore / state.checkTotal) * 100)
-      : null;
-    const bType = state.typeItems.length
-      ? Math.round((state.typeScore / state.typeItems.length) * 100)
-      : null;
-    const fruit =
-      (bCheck == null || bCheck >= PASS_RATIO * 100) &&
-      (bType == null || bType >= PASS_RATIO * 100);
+    // Stored bests, not the last round's numbers — a poprawka round of 2
+    // items must never read as "50%" over the whole stage.
+    const best = grammarBest(pack.id);
+    const bCheck = best.check == null ? null : Math.round(best.check * 100);
+    const bType = best.type == null ? null : Math.round(best.type * 100);
+    const fruit = hasFruit(pack.id);
 
     root.innerHTML = `
       ${ladderHtml()}
@@ -1152,7 +1165,7 @@ export function startPractice(pack, root, opts) {
       <p class="practice-prompt">${
         fruit
           ? "Owoc zdobyty (uczciwie)."
-          : "Drabinka skończona — dostań ≥80 % w Kontroli i Pisaniu, żeby zebrać owoc."
+          : "Drabinka skończona — zdobądź ≥80 % w Kontroli i Pisaniu albo popraw wszystkie błędy, żeby zebrać owoc."
       }</p>
       <p class="score-line">
         ${bCheck != null ? `Kontrola: ${bCheck} % · ` : ""}
