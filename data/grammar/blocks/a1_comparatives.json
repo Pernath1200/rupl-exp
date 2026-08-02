@@ -231,7 +231,7 @@
       "answer": "droższe"
     },
     {
-      "prompt": "ERROR — *bardziej dobry →",
+      "prompt": "Fix: bardziej dobry →",
       "choices": [
         "lepszy",
         "gorszy",
@@ -241,7 +241,7 @@
       "answer": "lepszy"
     },
     {
-      "prompt": "ERROR — *Kot jest mniejszy niż psa →",
+      "prompt": "Fix: Kot jest mniejszy niż psa →",
       "choices": [
         "niż pies",
         "niż psa",

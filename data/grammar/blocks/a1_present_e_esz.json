@@ -208,7 +208,7 @@
       "answer": "chcą"
     },
     {
-      "prompt": "ERROR — ty *chcisz →",
+      "prompt": "Fix: ty chcisz →",
       "choices": [
         "chcę",
         "chcesz",
@@ -218,7 +218,7 @@
       "answer": "chcesz"
     },
     {
-      "prompt": "ERROR — ja *chce →",
+      "prompt": "Fix: ja chce →",
       "choices": [
         "chcę",
         "chcesz",
@@ -228,7 +228,7 @@
       "answer": "chcę"
     },
     {
-      "prompt": "ERROR — my *chcę →",
+      "prompt": "Fix: my chcę →",
       "choices": [
         "chcę",
         "chcemy",
@@ -278,7 +278,7 @@
       "answer": "piję"
     },
     {
-      "prompt": "ERROR — on *piję →",
+      "prompt": "Fix: on piję →",
       "choices": [
         "piję",
         "pijesz",

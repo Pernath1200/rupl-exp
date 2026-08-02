@@ -298,7 +298,7 @@
       "answer": "czytamy"
     },
     {
-      "prompt": "ERROR — ja mieszka →",
+      "prompt": "Fix: ja mieszka →",
       "choices": [
         "mieszkam",
         "mieszkasz",
@@ -308,7 +308,7 @@
       "answer": "mieszkam"
     },
     {
-      "prompt": "ERROR — ty czytam →",
+      "prompt": "Fix: ty czytam →",
       "choices": [
         "czytam",
         "czytasz",

@@ -206,7 +206,7 @@
       "answer": "ze szkoły"
     },
     {
-      "prompt": "ERROR — do dom →",
+      "prompt": "to the house — watch the ending →",
       "choices": [
         "do domu",
         "do dom",
@@ -216,7 +216,7 @@
       "answer": "do domu"
     },
     {
-      "prompt": "direction (shop) · not location →",
+      "prompt": "You are GOING to the shop →",
       "choices": [
         "do sklepu",
         "w sklepie",
@@ -226,7 +226,7 @@
       "answer": "do sklepu"
     },
     {
-      "prompt": "origin (home) · not destination →",
+      "prompt": "You are COMING from home →",
       "choices": [
         "z domu",
         "do domu",
@@ -236,7 +236,7 @@
       "answer": "z domu"
     },
     {
-      "prompt": "from school · ze not z →",
+      "prompt": "from school — z or ze? →",
       "choices": [
         "ze szkoły",
         "z szkoły",

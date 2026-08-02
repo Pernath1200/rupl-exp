@@ -263,7 +263,7 @@
       "answer": "na dworcu"
     },
     {
-      "prompt": "ERROR — w dom →",
+      "prompt": "Fix: w dom →",
       "choices": [
         "w domu",
         "w dom",
@@ -273,7 +273,7 @@
       "answer": "w domu"
     },
     {
-      "prompt": "ERROR — w miasto →",
+      "prompt": "Fix: w miasto →",
       "choices": [
         "w mieście",
         "w miasto",
@@ -303,7 +303,7 @@
       "answer": "Ona jest w szkole."
     },
     {
-      "prompt": "static place (shop) · not direction →",
+      "prompt": "You are IN the shop (not going) →",
       "choices": [
         "w sklepie",
         "do sklepu",
@@ -313,7 +313,7 @@
       "answer": "w sklepie"
     },
     {
-      "prompt": "on the table · not in →",
+      "prompt": "on the table (not inside it) →",
       "choices": [
         "na stole",
         "w stole",

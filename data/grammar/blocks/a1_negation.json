@@ -185,7 +185,7 @@
       "answer": "Ona nie ma książki."
     },
     {
-      "prompt": "ERROR — Nie mam kawę →",
+      "prompt": "Fix: Nie mam kawę →",
       "choices": [
         "Nie mam kawy.",
         "Nie mam kawę.",
@@ -235,7 +235,7 @@
       "answer": "Nie masz czasu."
     },
     {
-      "prompt": "ERROR — Nie mam książkę →",
+      "prompt": "Fix: Nie mam książkę →",
       "choices": [
         "Nie mam książki.",
         "Nie mam książkę.",

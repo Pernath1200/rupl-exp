@@ -196,7 +196,7 @@
       "answer": "Jestem nauczycielką."
     },
     {
-      "prompt": "ERROR — Jestem student →",
+      "prompt": "Fix: Jestem student →",
       "choices": [
         "Jestem studentem.",
         "Jestem student.",

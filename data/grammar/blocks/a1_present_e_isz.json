@@ -291,7 +291,7 @@
       "answer": "lubią"
     },
     {
-      "prompt": "ERROR — ja mówi",
+      "prompt": "Fix: ja mówi",
       "choices": [
         "mówię",
         "mówisz",
@@ -301,7 +301,7 @@
       "answer": "mówię"
     },
     {
-      "prompt": "ERROR — my lubię",
+      "prompt": "Fix: my lubię",
       "choices": [
         "lubię",
         "lubimy",

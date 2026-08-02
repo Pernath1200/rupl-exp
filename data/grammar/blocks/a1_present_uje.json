@@ -267,7 +267,7 @@
       "answer": "kupuje"
     },
     {
-      "prompt": "ERROR — ja *pracowam →",
+      "prompt": "Fix: ja pracowam →",
       "choices": [
         "pracuję",
         "pracowam",
@@ -277,7 +277,7 @@
       "answer": "pracuję"
     },
     {
-      "prompt": "ERROR — ty *kupuję →",
+      "prompt": "Fix: ty kupuję →",
       "choices": [
         "kupuję",
         "kupujesz",
@@ -287,7 +287,7 @@
       "answer": "kupujesz"
     },
     {
-      "prompt": "ERROR — on *pracuję →",
+      "prompt": "Fix: on pracuję →",
       "choices": [
         "pracuję",
         "pracujesz",

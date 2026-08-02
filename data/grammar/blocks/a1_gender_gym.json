@@ -223,7 +223,7 @@
       "answer": "te"
     },
     {
-      "prompt": "ERROR — *ta tata →",
+      "prompt": "Fix: ta tata →",
       "choices": [
         "ten tata",
         "ta tata",
@@ -233,7 +233,7 @@
       "answer": "ten tata"
     },
     {
-      "prompt": "ERROR — *ten kawa →",
+      "prompt": "Fix: ten kawa →",
       "choices": [
         "ten kawa",
         "ta kawa",
@@ -243,7 +243,7 @@
       "answer": "ta kawa"
     },
     {
-      "prompt": "ERROR — *to sklep →",
+      "prompt": "Fix: to sklep →",
       "choices": [
         "ten sklep",
         "ta sklep",

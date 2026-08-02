@@ -469,7 +469,7 @@
       "answer": "brata"
     },
     {
-      "prompt": "ERROR — *Mam pies →",
+      "prompt": "Fix: Mam pies →",
       "choices": [
         "Mam pies.",
         "Mam psa.",

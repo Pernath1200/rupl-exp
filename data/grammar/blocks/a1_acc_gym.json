@@ -229,7 +229,7 @@
       "answer": "kota"
     },
     {
-      "prompt": "ERROR CORRECTION — Mam kawa.",
+      "prompt": "Fix: Mam kawa.",
       "choices": [
         "Mam kawę.",
         "Mam kawy.",
@@ -239,7 +239,7 @@
       "answer": "Mam kawę."
     },
     {
-      "prompt": "ERROR CORRECTION — To jest kawę.",
+      "prompt": "Fix: To jest kawę.",
       "choices": [
         "To jest kawa.",
         "Mam kawa.",
@@ -249,7 +249,7 @@
       "answer": "To jest kawa."
     },
     {
-      "prompt": "ERROR CORRECTION — Mam książka.",
+      "prompt": "Fix: Mam książka.",
       "choices": [
         "Mam książkę.",
         "To jest książkę.",
@@ -259,7 +259,7 @@
       "answer": "Mam książkę."
     },
     {
-      "prompt": "ERROR CORRECTION — To jest książkę.",
+      "prompt": "Fix: To jest książkę.",
       "choices": [
         "To jest książka.",
         "Mam książka.",
@@ -269,7 +269,7 @@
       "answer": "To jest książka."
     },
     {
-      "prompt": "ERROR CORRECTION — Ona ma siostra.",
+      "prompt": "Fix: Ona ma siostra.",
       "choices": [
         "Ona ma siostrę.",
         "Ona ma siostra. (OK)",
