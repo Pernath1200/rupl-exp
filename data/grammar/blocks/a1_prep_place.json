@@ -79,6 +79,16 @@
             "szkoła",
             "w szkole",
             "at school"
+          ],
+          [
+            "pokój",
+            "w pokoju",
+            "in the room"
+          ],
+          [
+            "mieszkanie",
+            "w mieszkaniu",
+            "in the flat"
           ]
         ]
       }
@@ -121,6 +131,14 @@
         {
           "en": "at school",
           "pl": "w szkole"
+        },
+        {
+          "en": "in the room",
+          "pl": "w pokoju"
+        },
+        {
+          "en": "in the flat",
+          "pl": "w mieszkaniu"
         },
         {
           "en": "on the table",
