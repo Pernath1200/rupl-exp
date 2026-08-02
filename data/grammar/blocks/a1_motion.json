@@ -1,0 +1,424 @@
+{
+  "id": "a1_motion",
+  "title": "Idę · wracam",
+  "title_en": "Going and coming back (chunks)",
+  "level": "A1",
+  "tree_node": "a1_motion",
+  "default_direction": "en_to_pl",
+  "kind": "frames",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Chunk lane: 4 fixed forms only (Ide/Idziesz/Wracam/Wracasz). Full isc/wracac conjugation = A2. Rides do/z phrases from a1_prep_do_z.",
+  "focus_structures": [
+    "prep_do_gen",
+    "prep_z_gen"
+  ],
+  "intro": [
+    {
+      "title": "Four forms to move with",
+      "title_pl": "Cztery formy ruchu",
+      "body": "You know the do / z phrases. Now four ready-made forms to build real sentences with — take them as chunks, the full verbs come later:\n\nIdę do... = I'm going to...\nIdziesz do...? = are you going to...?\nWracam z... = I'm coming back from...\nWracasz z...? = are you coming back from...?",
+      "body_pl": "Cztery gotowe formy: Idę / Idziesz (do...), Wracam / Wracasz (z...). Całe czasowniki później.",
+      "table": {
+        "headers": [
+          "Chunk",
+          "English",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Idę do...",
+            "I'm going to...",
+            "Idę do sklepu."
+          ],
+          [
+            "Idziesz do...?",
+            "are you going to...?",
+            "Idziesz do szkoły?"
+          ],
+          [
+            "Wracam z...",
+            "I'm coming back from...",
+            "Wracam z miasta."
+          ],
+          [
+            "Wracasz z...?",
+            "are you coming back from...?",
+            "Wracasz ze szkoły?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Questions by tone",
+      "title_pl": "Pytanie tonem",
+      "body": "Idziesz do sklepu? is already a question — just the tone rises. Czy idziesz do sklepu? is the same question with czy in front. Both are correct; both are accepted here.",
+      "body_pl": "Idziesz do sklepu? = pytanie tonem. Czy idziesz do sklepu? = to samo z czy.",
+      "examples": [
+        {
+          "en": "I'm going home.",
+          "pl": "Idę do domu."
+        },
+        {
+          "en": "Are you going to the shop?",
+          "pl": "Idziesz do sklepu?"
+        },
+        {
+          "en": "I'm coming back from school.",
+          "pl": "Wracam ze szkoły."
+        },
+        {
+          "en": "Are you coming back from the city?",
+          "pl": "Wracasz z miasta?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I'm going",
+      "pl": "Idę"
+    },
+    {
+      "en": "you're going",
+      "pl": "Idziesz"
+    },
+    {
+      "en": "I'm coming back",
+      "pl": "Wracam"
+    },
+    {
+      "en": "you're coming back",
+      "pl": "Wracasz"
+    },
+    {
+      "en": "I'm going home",
+      "pl": "Idę do domu"
+    },
+    {
+      "en": "I'm going to the shop",
+      "pl": "Idę do sklepu"
+    },
+    {
+      "en": "I'm going to the city",
+      "pl": "Idę do miasta"
+    },
+    {
+      "en": "are you going to school?",
+      "pl": "Idziesz do szkoły?"
+    },
+    {
+      "en": "I'm coming back from school",
+      "pl": "Wracam ze szkoły"
+    },
+    {
+      "en": "I'm coming back from home",
+      "pl": "Wracam z domu"
+    },
+    {
+      "en": "I'm coming back from the city",
+      "pl": "Wracam z miasta"
+    },
+    {
+      "en": "are you coming back from the shop?",
+      "pl": "Wracasz ze sklepu?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I'm going →",
+      "choices": [
+        "Idę",
+        "Idziesz",
+        "Wracam",
+        "Wracasz"
+      ],
+      "answer": "Idę"
+    },
+    {
+      "prompt": "you're coming back →",
+      "choices": [
+        "Wracasz",
+        "Wracam",
+        "Idziesz",
+        "Idę"
+      ],
+      "answer": "Wracasz"
+    },
+    {
+      "prompt": "I'm going home →",
+      "choices": [
+        "Idę do domu.",
+        "Idę do dom.",
+        "Idę z domu.",
+        "Idę w domu."
+      ],
+      "answer": "Idę do domu."
+    },
+    {
+      "prompt": "Are you going to the shop? →",
+      "choices": [
+        "Idziesz do sklepu?",
+        "Idziesz ze sklepu?",
+        "Idziesz w sklepie?",
+        "Idziesz do sklep?"
+      ],
+      "answer": "Idziesz do sklepu?"
+    },
+    {
+      "prompt": "I'm coming back from school →",
+      "choices": [
+        "Wracam ze szkoły.",
+        "Wracam z szkoły.",
+        "Wracam do szkoły.",
+        "Wracam w szkole."
+      ],
+      "answer": "Wracam ze szkoły."
+    },
+    {
+      "prompt": "Fix: Wracam z szkoły →",
+      "choices": [
+        "Wracam ze szkoły.",
+        "Wracam z szkoły.",
+        "Wracam ze szkołę.",
+        "Wracam do szkoły."
+      ],
+      "answer": "Wracam ze szkoły."
+    },
+    {
+      "prompt": "I'm coming back from the shop →",
+      "choices": [
+        "Wracam ze sklepu.",
+        "Wracam z sklepu.",
+        "Wracam do sklepu.",
+        "Wracam ze sklepie."
+      ],
+      "answer": "Wracam ze sklepu."
+    },
+    {
+      "prompt": "I'm going to the city →",
+      "choices": [
+        "Idę do miasta.",
+        "Wracam z miasta.",
+        "Idę w mieście.",
+        "Idę z miasta."
+      ],
+      "answer": "Idę do miasta."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm going",
+      "mode": "full_word",
+      "answer": "Idę",
+      "accepts": [
+        "Idę"
+      ]
+    },
+    {
+      "prompt_en": "you're going (sg)",
+      "mode": "full_word",
+      "answer": "Idziesz",
+      "accepts": [
+        "Idziesz"
+      ]
+    },
+    {
+      "prompt_en": "I'm coming back",
+      "mode": "full_word",
+      "answer": "Wracam",
+      "accepts": [
+        "Wracam"
+      ]
+    },
+    {
+      "prompt_en": "you're coming back (sg)",
+      "mode": "full_word",
+      "answer": "Wracasz",
+      "accepts": [
+        "Wracasz"
+      ]
+    },
+    {
+      "prompt_en": "I'm going home",
+      "mode": "full_word",
+      "answer": "Idę do domu",
+      "accepts": [
+        "Idę do domu"
+      ]
+    },
+    {
+      "prompt_en": "I'm going to the shop",
+      "mode": "full_word",
+      "answer": "Idę do sklepu",
+      "accepts": [
+        "Idę do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "I'm coming back from school",
+      "mode": "full_word",
+      "answer": "Wracam ze szkoły",
+      "accepts": [
+        "Wracam ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "I'm coming back from the city",
+      "mode": "full_word",
+      "answer": "Wracam z miasta",
+      "accepts": [
+        "Wracam z miasta"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going home.",
+      "answer": "Idę do domu.",
+      "accepts": [
+        "Idę do domu.",
+        "Idę do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the shop.",
+      "answer": "Idę do sklepu.",
+      "accepts": [
+        "Idę do sklepu.",
+        "Idę do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to school.",
+      "answer": "Idę do szkoły.",
+      "accepts": [
+        "Idę do szkoły.",
+        "Idę do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the city.",
+      "answer": "Idę do miasta.",
+      "accepts": [
+        "Idę do miasta.",
+        "Idę do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to the shop?",
+      "answer": "Idziesz do sklepu?",
+      "accepts": [
+        "Idziesz do sklepu?",
+        "Idziesz do sklepu",
+        "Czy idziesz do sklepu?",
+        "Czy idziesz do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to school?",
+      "answer": "Idziesz do szkoły?",
+      "accepts": [
+        "Idziesz do szkoły?",
+        "Idziesz do szkoły",
+        "Czy idziesz do szkoły?",
+        "Czy idziesz do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from school.",
+      "answer": "Wracam ze szkoły.",
+      "accepts": [
+        "Wracam ze szkoły.",
+        "Wracam ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from home.",
+      "answer": "Wracam z domu.",
+      "accepts": [
+        "Wracam z domu.",
+        "Wracam z domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the city.",
+      "answer": "Wracam z miasta.",
+      "accepts": [
+        "Wracam z miasta.",
+        "Wracam z miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the shop.",
+      "answer": "Wracam ze sklepu.",
+      "accepts": [
+        "Wracam ze sklepu.",
+        "Wracam ze sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you coming back from school?",
+      "answer": "Wracasz ze szkoły?",
+      "accepts": [
+        "Wracasz ze szkoły?",
+        "Wracasz ze szkoły",
+        "Czy wracasz ze szkoły?",
+        "Czy wracasz ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you coming back from the city?",
+      "answer": "Wracasz z miasta?",
+      "accepts": [
+        "Wracasz z miasta?",
+        "Wracasz z miasta",
+        "Czy wracasz z miasta?",
+        "Czy wracasz z miasta"
+      ]
+    }
+  ],
+  "teaches_structures": [
+    "motion_chunk"
+  ],
+  "uses_structures": [
+    "motion_chunk",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place"
+  ],
+  "teaches_lemmas": [
+    "idę",
+    "idziesz",
+    "wracam",
+    "wracasz"
+  ],
+  "uses_lemmas": [
+    "idę",
+    "idziesz",
+    "wracam",
+    "wracasz",
+    "czy",
+    "do domu",
+    "do sklepu",
+    "do szkoły",
+    "do miasta",
+    "z domu",
+    "ze sklepu",
+    "z miasta",
+    "ze szkoły"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_motion",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

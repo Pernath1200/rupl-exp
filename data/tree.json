@@ -48,6 +48,7 @@
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
+    "a1_motion",
     "leaf_city_a1",
     "leaf_body_a1",
     "leaf_time_cal_a1",
@@ -931,6 +932,30 @@
       ],
       "pedagogy": "teach",
       "partner_id": "leaf_city_a1"
+    },
+    {
+      "id": "a1_motion",
+      "domain": "grammar",
+      "label": "Idę · wracam",
+      "label_en": "Going and coming back (chunks)",
+      "kind": "topic",
+      "root": "links",
+      "tree_part": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_motion.json",
+      "practice": "grammar",
+      "note": "Chunk lane: Ide/Idziesz/Wracam/Wracasz ride do/z phrases. Split from a1_prep_do_z 2026-08-02 (load). Full verbs A2.",
+      "unit_id": "PL_MOT_01",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_MOT_01"
+      ],
+      "pedagogy": "teach"
     },
     {
       "id": "leaf_city_a1",

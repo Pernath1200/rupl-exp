@@ -330,7 +330,9 @@ export function startPractice(pack, root, opts) {
       },
       use: {
         title: "Etap 4 · Użycie",
-        sub: "Całe zdanie po polsku · Enter = sprawdź · Enter = dalej",
+        sub:
+          pack.use_hint ||
+          "Całe zdanie po polsku · Enter = sprawdź · Enter = dalej",
       },
       done: {
         title: "Gotowe",

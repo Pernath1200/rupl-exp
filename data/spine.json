@@ -374,6 +374,21 @@
       }
     },
     {
+      "id": "PL_MOT_01",
+      "title": "Idę · wracam",
+      "case_tags": [
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_motion",
+        "label": "Idę · wracam",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
       "id": "PL_BODY_01",
       "title": "Ciało · nazywanie",
       "case_tags": [],
@@ -498,6 +513,7 @@
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
+    "a1_motion",
     "leaf_city_a1",
     "leaf_body_a1",
     "leaf_time_cal_a1",

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-02T19:30:18+02:00",
+  "generated_at": "2026-08-02T19:35:38+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -37,6 +37,7 @@
     "a1_prep_place",
     "leaf_places",
     "a1_prep_do_z",
+    "a1_motion",
     "leaf_city_a1",
     "leaf_body_a1",
     "leaf_time_cal_a1",
@@ -48,7 +49,7 @@
     "leaf_ideas_a1"
   ],
   "summary": {
-    "nodes_audited": 42,
+    "nodes_audited": 43,
     "errors": 0,
     "warns": 0,
     "infos": 0,
@@ -980,7 +981,7 @@
         "prep_place",
         "prep_z_gen"
       ],
-      "teaches_lemmas_n": 15,
+      "teaches_lemmas_n": 11,
       "uses_structures": [
         "prep_do_gen",
         "prep_place",
@@ -1013,6 +1014,46 @@
     },
     {
       "path_index": 33,
+      "node_id": "a1_motion",
+      "pack_id": "a1_motion",
+      "domain": "grammar",
+      "teaches_structures": [
+        "motion_chunk"
+      ],
+      "teaches_lemmas_n": 4,
+      "uses_structures": [
+        "motion_chunk",
+        "prep_do_gen",
+        "prep_place",
+        "prep_z_gen"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 34,
       "node_id": "leaf_city_a1",
       "pack_id": "a1_city",
       "domain": "vocab",
@@ -1039,44 +1080,7 @@
         "comparative",
         "miec_acc",
         "miec_present",
-        "poss_nom",
-        "prep_do_gen",
-        "prep_place",
-        "prep_w_loc",
-        "prep_z_gen",
-        "present",
-        "present_am",
-        "present_e_esz",
-        "present_e_isz",
-        "present_uje",
-        "question",
-        "social_chunk",
-        "ten_ta_to",
-        "to_jest",
-        "zgoda"
-      ]
-    },
-    {
-      "path_index": 34,
-      "node_id": "leaf_body_a1",
-      "pack_id": "a1_body",
-      "domain": "vocab",
-      "teaches_structures": [],
-      "teaches_lemmas_n": 23,
-      "uses_structures": [
-        "byc_adj",
-        "byc_present",
-        "poss_nom",
-        "to_jest",
-        "zgoda"
-      ],
-      "unlocked_structures_after": [
-        "byc_adj",
-        "byc_present",
-        "can_inf",
-        "comparative",
-        "miec_acc",
-        "miec_present",
+        "motion_chunk",
         "poss_nom",
         "prep_do_gen",
         "prep_place",
@@ -1096,6 +1100,45 @@
     },
     {
       "path_index": 35,
+      "node_id": "leaf_body_a1",
+      "pack_id": "a1_body",
+      "domain": "vocab",
+      "teaches_structures": [],
+      "teaches_lemmas_n": 23,
+      "uses_structures": [
+        "byc_adj",
+        "byc_present",
+        "poss_nom",
+        "to_jest",
+        "zgoda"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 36,
       "node_id": "leaf_time_cal_a1",
       "pack_id": "a1_time_cal",
       "domain": "vocab",
@@ -1119,45 +1162,7 @@
         "comparative",
         "miec_acc",
         "miec_present",
-        "poss_nom",
-        "prep_do_gen",
-        "prep_place",
-        "prep_w_loc",
-        "prep_z_gen",
-        "present",
-        "present_am",
-        "present_e_esz",
-        "present_e_isz",
-        "present_uje",
-        "question",
-        "social_chunk",
-        "ten_ta_to",
-        "to_jest",
-        "zgoda"
-      ]
-    },
-    {
-      "path_index": 36,
-      "node_id": "a1_negation",
-      "pack_id": "a1_negation",
-      "domain": "grammar",
-      "teaches_structures": [
-        "negation"
-      ],
-      "teaches_lemmas_n": 14,
-      "uses_structures": [
-        "miec_acc",
-        "miec_present",
-        "negation"
-      ],
-      "unlocked_structures_after": [
-        "byc_adj",
-        "byc_present",
-        "can_inf",
-        "comparative",
-        "miec_acc",
-        "miec_present",
-        "negation",
+        "motion_chunk",
         "poss_nom",
         "prep_do_gen",
         "prep_place",
@@ -1177,6 +1182,46 @@
     },
     {
       "path_index": 37,
+      "node_id": "a1_negation",
+      "pack_id": "a1_negation",
+      "domain": "grammar",
+      "teaches_structures": [
+        "negation"
+      ],
+      "teaches_lemmas_n": 14,
+      "uses_structures": [
+        "miec_acc",
+        "miec_present",
+        "negation"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 38,
       "node_id": "trunk_there_time_a1",
       "pack_id": "a1_trunk_there_time",
       "domain": "vocab",
@@ -1198,6 +1243,7 @@
         "existential_jest",
         "miec_acc",
         "miec_present",
+        "motion_chunk",
         "negation",
         "poss_nom",
         "prep_do_gen",
@@ -1217,7 +1263,7 @@
       ]
     },
     {
-      "path_index": 38,
+      "path_index": 39,
       "node_id": "leaf_health_a1",
       "pack_id": "a1_health",
       "domain": "vocab",
@@ -1239,46 +1285,7 @@
         "existential_jest",
         "miec_acc",
         "miec_present",
-        "negation",
-        "poss_nom",
-        "prep_do_gen",
-        "prep_place",
-        "prep_w_loc",
-        "prep_z_gen",
-        "present",
-        "present_am",
-        "present_e_esz",
-        "present_e_isz",
-        "present_uje",
-        "question",
-        "social_chunk",
-        "ten_ta_to",
-        "to_jest",
-        "zgoda"
-      ]
-    },
-    {
-      "path_index": 39,
-      "node_id": "a1_inst_job",
-      "pack_id": "a1_inst_job",
-      "domain": "grammar",
-      "teaches_structures": [
-        "inst_identity"
-      ],
-      "teaches_lemmas_n": 16,
-      "uses_structures": [
-        "byc_present",
-        "inst_identity"
-      ],
-      "unlocked_structures_after": [
-        "byc_adj",
-        "byc_present",
-        "can_inf",
-        "comparative",
-        "existential_jest",
-        "inst_identity",
-        "miec_acc",
-        "miec_present",
+        "motion_chunk",
         "negation",
         "poss_nom",
         "prep_do_gen",
@@ -1299,6 +1306,47 @@
     },
     {
       "path_index": 40,
+      "node_id": "a1_inst_job",
+      "pack_id": "a1_inst_job",
+      "domain": "grammar",
+      "teaches_structures": [
+        "inst_identity"
+      ],
+      "teaches_lemmas_n": 16,
+      "uses_structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "existential_jest",
+        "inst_identity",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 41,
       "node_id": "leaf_work_a1",
       "pack_id": "a1_work",
       "domain": "vocab",
@@ -1325,6 +1373,7 @@
         "inst_identity",
         "miec_acc",
         "miec_present",
+        "motion_chunk",
         "negation",
         "poss_nom",
         "prep_do_gen",
@@ -1344,7 +1393,7 @@
       ]
     },
     {
-      "path_index": 41,
+      "path_index": 42,
       "node_id": "leaf_ideas_a1",
       "pack_id": "a1_ideas",
       "domain": "vocab",
@@ -1369,6 +1418,7 @@
         "inst_identity",
         "miec_acc",
         "miec_present",
+        "motion_chunk",
         "negation",
         "poss_nom",
         "prep_do_gen",
