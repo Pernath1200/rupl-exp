@@ -1,0 +1,369 @@
+{
+  "id": "a1_gen_endings",
+  "title": "Dopełniacz · końcówki",
+  "title_en": "Genitive endings",
+  "level": "A1",
+  "tree_node": "a1_gen_endings",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Endings-only unit split out of a1_prep_do_z (2026-08-02, load). Regular Gen sg by gender: m -u, n -a, f -y. No prepositions here; do/z next unit rides these forms. k/g-stem fem (-i) and masc animate (-a) deferred.",
+  "focus_structures": [
+    "gen_endings"
+  ],
+  "intro": [
+    {
+      "title": "One new ending per gender",
+      "title_pl": "Jedna końcówka na rodzaj",
+      "body": "The next units use do (to) and z (from). Those little words change the noun's ending — the new form is called the genitive (dopełniacz).\n\nGood news: for the words you know, the ending follows the gender you can already spot. One rule per gender:",
+      "body_pl": "Do i z zmieniają końcówkę rzeczownika — to dopełniacz. Jedna reguła na rodzaj:",
+      "table": {
+        "headers": [
+          "Gender",
+          "Rule",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "m. (masculine thing)",
+            "add -u",
+            "dom → domu · sklep → sklepu · telefon → telefonu"
+          ],
+          [
+            "n. (neuter, -o)",
+            "-o → -a",
+            "miasto → miasta · mleko → mleka · piwo → piwa"
+          ],
+          [
+            "ż. (feminine, -a)",
+            "-a → -y",
+            "szkoła → szkoły · kawa → kawy · woda → wody"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Careful: this is not the locative",
+      "title_pl": "Uwaga: to nie miejscownik",
+      "body": "You just learned w sklepie (in the shop). Sklepu is a DIFFERENT form with a different job — sklepie says where you are, sklepu will say where you're going to or from (next unit).\n\nHere, just learn the endings. No sentences yet.",
+      "body_pl": "Sklepie (miejscownik) ≠ sklepu (dopełniacz). Tu tylko końcówki, bez zdań.",
+      "examples": [
+        {
+          "en": "house/home → ",
+          "pl": "dom → domu"
+        },
+        {
+          "en": "city →",
+          "pl": "miasto → miasta"
+        },
+        {
+          "en": "school →",
+          "pl": "szkoła → szkoły"
+        },
+        {
+          "en": "coffee →",
+          "pl": "kawa → kawy"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "dom · m.",
+      "pl": "domu"
+    },
+    {
+      "en": "sklep · m.",
+      "pl": "sklepu"
+    },
+    {
+      "en": "pokój · m.",
+      "pl": "pokoju"
+    },
+    {
+      "en": "telefon · m.",
+      "pl": "telefonu"
+    },
+    {
+      "en": "miasto · n.",
+      "pl": "miasta"
+    },
+    {
+      "en": "mleko · n.",
+      "pl": "mleka"
+    },
+    {
+      "en": "piwo · n.",
+      "pl": "piwa"
+    },
+    {
+      "en": "szkoła · ż.",
+      "pl": "szkoły"
+    },
+    {
+      "en": "kawa · ż.",
+      "pl": "kawy"
+    },
+    {
+      "en": "woda · ż.",
+      "pl": "wody"
+    },
+    {
+      "en": "herbata · ż.",
+      "pl": "herbaty"
+    },
+    {
+      "en": "zupa · ż.",
+      "pl": "zupy"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "sklep · m. →",
+      "choices": [
+        "sklepu",
+        "sklepa",
+        "sklepy",
+        "sklepie"
+      ],
+      "answer": "sklepu"
+    },
+    {
+      "prompt": "miasto · n. →",
+      "choices": [
+        "miasta",
+        "miastu",
+        "miasty",
+        "mieście"
+      ],
+      "answer": "miasta"
+    },
+    {
+      "prompt": "szkoła · ż. →",
+      "choices": [
+        "szkoły",
+        "szkołu",
+        "szkoła",
+        "szkole"
+      ],
+      "answer": "szkoły"
+    },
+    {
+      "prompt": "telefon · m. →",
+      "choices": [
+        "telefonu",
+        "telefona",
+        "telefony",
+        "telefonie"
+      ],
+      "answer": "telefonu"
+    },
+    {
+      "prompt": "kawa · ż. →",
+      "choices": [
+        "kawy",
+        "kawu",
+        "kawa",
+        "kawie"
+      ],
+      "answer": "kawy"
+    },
+    {
+      "prompt": "piwo · n. →",
+      "choices": [
+        "piwa",
+        "piwu",
+        "piwy",
+        "piwie"
+      ],
+      "answer": "piwa"
+    },
+    {
+      "prompt": "Fix: woda → wodu →",
+      "choices": [
+        "wody",
+        "wodu",
+        "woda",
+        "wodzie"
+      ],
+      "answer": "wody"
+    },
+    {
+      "prompt": "Fix: dom → doma →",
+      "choices": [
+        "domu",
+        "doma",
+        "domy",
+        "domie"
+      ],
+      "answer": "domu"
+    },
+    {
+      "prompt": "Which gender adds -u? →",
+      "choices": [
+        "m. (masculine)",
+        "ż. (feminine)",
+        "n. (neuter)",
+        "all of them"
+      ],
+      "answer": "m. (masculine)"
+    },
+    {
+      "prompt": "mleko · n. →",
+      "choices": [
+        "mleka",
+        "mleku",
+        "mleky",
+        "mleczie"
+      ],
+      "answer": "mleka"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "dom · m. (house/home)",
+      "mode": "full_word",
+      "answer": "domu",
+      "accepts": [
+        "domu"
+      ]
+    },
+    {
+      "prompt_en": "sklep · m. (shop)",
+      "mode": "full_word",
+      "answer": "sklepu",
+      "accepts": [
+        "sklepu"
+      ]
+    },
+    {
+      "prompt_en": "pokój · m. (room)",
+      "mode": "full_word",
+      "answer": "pokoju",
+      "accepts": [
+        "pokoju"
+      ]
+    },
+    {
+      "prompt_en": "telefon · m. (phone)",
+      "mode": "full_word",
+      "answer": "telefonu",
+      "accepts": [
+        "telefonu"
+      ]
+    },
+    {
+      "prompt_en": "miasto · n. (city)",
+      "mode": "full_word",
+      "answer": "miasta",
+      "accepts": [
+        "miasta"
+      ]
+    },
+    {
+      "prompt_en": "mleko · n. (milk)",
+      "mode": "full_word",
+      "answer": "mleka",
+      "accepts": [
+        "mleka"
+      ]
+    },
+    {
+      "prompt_en": "piwo · n. (beer)",
+      "mode": "full_word",
+      "answer": "piwa",
+      "accepts": [
+        "piwa"
+      ]
+    },
+    {
+      "prompt_en": "szkoła · ż. (school)",
+      "mode": "full_word",
+      "answer": "szkoły",
+      "accepts": [
+        "szkoły"
+      ]
+    },
+    {
+      "prompt_en": "kawa · ż. (coffee)",
+      "mode": "full_word",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "woda · ż. (water)",
+      "mode": "full_word",
+      "answer": "wody",
+      "accepts": [
+        "wody"
+      ]
+    },
+    {
+      "prompt_en": "herbata · ż. (tea)",
+      "mode": "full_word",
+      "answer": "herbaty",
+      "accepts": [
+        "herbaty"
+      ]
+    },
+    {
+      "prompt_en": "zupa · ż. (soup)",
+      "mode": "full_word",
+      "answer": "zupy",
+      "accepts": [
+        "zupy"
+      ]
+    }
+  ],
+  "use_items": [],
+  "teaches_structures": [
+    "gen_endings"
+  ],
+  "uses_structures": [
+    "gen_endings"
+  ],
+  "teaches_lemmas": [
+    "domu",
+    "sklepu",
+    "pokoju",
+    "telefonu",
+    "miasta",
+    "mleka",
+    "piwa",
+    "szkoły",
+    "kawy",
+    "wody",
+    "herbaty",
+    "zupy"
+  ],
+  "uses_lemmas": [
+    "dom",
+    "sklep",
+    "pokój",
+    "telefon",
+    "miasto",
+    "mleko",
+    "piwo",
+    "szkoła",
+    "kawa",
+    "woda",
+    "herbata",
+    "zupa"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_gen_endings",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

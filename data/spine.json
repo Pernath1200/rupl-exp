@@ -356,6 +356,21 @@
       }
     },
     {
+      "id": "PL_DOP_01",
+      "title": "Dopełniacz · końcówki",
+      "case_tags": [
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_gen_endings",
+        "label": "Dopełniacz · końcówki",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
       "id": "PL_PREP_02",
       "title": "Przyimki · do / z + dopełniacz",
       "case_tags": [
@@ -512,6 +527,7 @@
     "leaf_school_a1",
     "a1_prep_place",
     "leaf_places",
+    "a1_gen_endings",
     "a1_prep_do_z",
     "a1_motion",
     "leaf_city_a1",

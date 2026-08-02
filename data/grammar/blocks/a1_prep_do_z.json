@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P1: direction/origin. do + Gen (to), z + Gen (from). ze sklepu/ze szkoły. Pisanie = w/do/z three-way choice (12). No Uzycie by design — sentences live in a1_motion (split 2026-08-02).",
+  "note": "P1: direction/origin. Gen endings pretaught in a1_gen_endings. do + Gen (to), z + Gen (from). ze sklepu/ze szkoły. Pisanie = w/do/z three-way choice (12). No Uzycie by design — sentences live in a1_motion (split 2026-08-02).",
   "focus_structures": [
     "prep_do_gen",
     "prep_z_gen"
@@ -28,37 +28,39 @@
       "body_pl": "Statycznie: w/na + miejscownik. Kierunek: do / z + dopełniacz."
     },
     {
-      "title": "do / z · closed set",
+      "title": "There · going · coming from",
+      "title_pl": "Jesteś · idziesz · wracasz",
+      "body": "Same four places, three jobs. The do/z column endings are the genitive you just learned (m -u · n -a · ż -y). Only ze szkoły and ze sklepu add an e to z (s-cluster).",
+      "body_pl": "Kolumny do/z = dopełniacz z poprzedniej jednostki. ze szkoły, ze sklepu (zbitka s-).",
       "table": {
         "headers": [
-          "Nom",
-          "do + Gen",
-          "z + Gen"
+          "You're there (w + Loc)",
+          "Going (do + Gen)",
+          "Coming from (z + Gen)"
         ],
         "rows": [
           [
-            "dom",
+            "w domu",
             "do domu",
             "z domu"
           ],
           [
-            "sklep",
+            "w sklepie",
             "do sklepu",
             "ze sklepu"
           ],
           [
-            "miasto",
+            "w mieście",
             "do miasta",
             "z miasta"
           ],
           [
-            "szkoła",
+            "w szkole",
             "do szkoły",
             "ze szkoły"
           ]
         ]
-      },
-      "body": "Note ze szkoły and ze sklepu — z becomes ze before an s-cluster. Learn these as fixed forms."
+      }
     },
     {
       "title": "Examples",
@@ -354,7 +356,8 @@
     "prep_do_gen",
     "prep_z_gen",
     "prep_place",
-    "prep_w_loc"
+    "prep_w_loc",
+    "gen_endings"
   ],
   "teaches_lemmas": [
     "do domu",
