@@ -615,6 +615,33 @@ function renderAll() {
   renderDetail();
 }
 
+// Chrome stamps translated-ltr/rtl on <html> when it machine-translates the
+// page — which replaces the Polish content itself. If that ever happens
+// (despite the notranslate meta), warn loudly in English.
+function watchAutoTranslate() {
+  const el = document.documentElement;
+  const check = () => {
+    if (!/\btranslated-(ltr|rtl)\b/.test(el.className)) return;
+    if (document.getElementById("translate-warning")) return;
+    const b = document.createElement("div");
+    b.id = "translate-warning";
+    b.className = "card notranslate";
+    b.setAttribute("translate", "no");
+    b.style.cssText = "border-color:#dc2626";
+    b.innerHTML =
+      "<strong>⚠ Turn off translation!</strong> Your browser has translated " +
+      "this page into English — the Polish you are here to learn has been " +
+      "replaced. Tap the translate icon in the address bar and choose " +
+      "<em>Show original</em>, then <em>Never translate this site</em>.";
+    document.querySelector(".container")?.prepend(b);
+  };
+  new MutationObserver(check).observe(el, {
+    attributes: true,
+    attributeFilter: ["class"],
+  });
+  check();
+}
+
 async function boot() {
   const err = document.getElementById("boot-error");
   try {
@@ -627,6 +654,8 @@ async function boot() {
     // Adopt units fruited before the SRS existed (learnedAt <- touchedAt),
     // so earlier days' units come due immediately, not never.
     backfillReview(STATE.tree.nodes || []);
+
+    watchAutoTranslate();
 
     document.getElementById("btn-author-unlock")?.addEventListener("click", () => {
       setAuthorUnlock(!isAuthorUnlock());
