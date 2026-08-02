@@ -1,0 +1,491 @@
+{
+  "level": "A1",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "focus_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "gen_endings",
+    "motion_chunk",
+    "byc_present",
+    "present_am"
+  ],
+  "id": "a1_prep_review_1",
+  "title": "Przyimki · powtórka · miasto",
+  "title_en": "Prepositions review · around town",
+  "tree_node": "a1_prep_review_1",
+  "note": "Review unit (2026-08-02, James design session): taught preps only (w/na-static/do/z/blisko) slotted onto city vocab. park/bank/hotel all -u both cases; centrum indeclinable. No new rules.",
+  "intro": [
+    {
+      "title": "Same system, new places",
+      "title_pl": "Ten sam system, nowe miejsca",
+      "body": "Nothing new here — the w / do / z system you know, on the city words you know. Good news: these four all take -u (or nothing at all), in every column:",
+      "body_pl": "Nic nowego: w / do / z na słowach z miasta. Te cztery mają wszędzie -u (albo nic):",
+      "table": {
+        "headers": [
+          "You're there (w)",
+          "Going (do)",
+          "Coming from (z)"
+        ],
+        "rows": [
+          [
+            "w parku",
+            "do parku",
+            "z parku"
+          ],
+          [
+            "w banku",
+            "do banku",
+            "z banku"
+          ],
+          [
+            "w hotelu",
+            "do hotelu",
+            "z hotelu"
+          ],
+          [
+            "w centrum",
+            "do centrum",
+            "z centrum"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Still true",
+      "title_pl": "Nadal obowiązuje",
+      "body": "· na-places stay fixed: na dworcu (at the station), na stole (on the table)\n· blisko + genitive: blisko parku, blisko centrum\n· ze before an s-cluster: ze szkoły, ze sklepu",
+      "body_pl": "na dworcu / na stole · blisko + dopełniacz · ze szkoły, ze sklepu.",
+      "examples": [
+        {
+          "en": "I'm going to the park.",
+          "pl": "Idę do parku."
+        },
+        {
+          "en": "I'm coming back from the bank.",
+          "pl": "Wracam z banku."
+        },
+        {
+          "en": "I live near the centre.",
+          "pl": "Mieszkam blisko centrum."
+        },
+        {
+          "en": "I'm at the station.",
+          "pl": "Jestem na dworcu."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "in the park",
+      "pl": "w parku"
+    },
+    {
+      "en": "to the park",
+      "pl": "do parku"
+    },
+    {
+      "en": "from the park",
+      "pl": "z parku"
+    },
+    {
+      "en": "in the bank",
+      "pl": "w banku"
+    },
+    {
+      "en": "to the bank",
+      "pl": "do banku"
+    },
+    {
+      "en": "from the hotel",
+      "pl": "z hotelu"
+    },
+    {
+      "en": "in the hotel",
+      "pl": "w hotelu"
+    },
+    {
+      "en": "to the centre",
+      "pl": "do centrum"
+    },
+    {
+      "en": "from the centre",
+      "pl": "z centrum"
+    },
+    {
+      "en": "near the park",
+      "pl": "blisko parku"
+    },
+    {
+      "en": "at the station",
+      "pl": "na dworcu"
+    },
+    {
+      "en": "to school",
+      "pl": "do szkoły"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You are IN the park →",
+      "choices": [
+        "w parku",
+        "do parku",
+        "z parku",
+        "na parku"
+      ],
+      "answer": "w parku"
+    },
+    {
+      "prompt": "You are GOING to the bank →",
+      "choices": [
+        "do banku",
+        "w banku",
+        "z banku",
+        "do banka"
+      ],
+      "answer": "do banku"
+    },
+    {
+      "prompt": "coming from the hotel →",
+      "choices": [
+        "z hotelu",
+        "do hotelu",
+        "w hotelu",
+        "ze hotelu"
+      ],
+      "answer": "z hotelu"
+    },
+    {
+      "prompt": "near the park →",
+      "choices": [
+        "blisko parku",
+        "blisko park",
+        "w parku",
+        "do parku"
+      ],
+      "answer": "blisko parku"
+    },
+    {
+      "prompt": "Fix: w park →",
+      "choices": [
+        "w parku",
+        "w park",
+        "do parku",
+        "na parku"
+      ],
+      "answer": "w parku"
+    },
+    {
+      "prompt": "Fix: do bank →",
+      "choices": [
+        "do banku",
+        "do bank",
+        "w banku",
+        "z banku"
+      ],
+      "answer": "do banku"
+    },
+    {
+      "prompt": "You are at the station →",
+      "choices": [
+        "na dworcu",
+        "w dworcu",
+        "do dworca",
+        "na dworzec"
+      ],
+      "answer": "na dworcu"
+    },
+    {
+      "prompt": "from school — z or ze? →",
+      "choices": [
+        "ze szkoły",
+        "z szkoły",
+        "do szkoły",
+        "w szkole"
+      ],
+      "answer": "ze szkoły"
+    },
+    {
+      "prompt": "to the centre →",
+      "choices": [
+        "do centrum",
+        "do centruma",
+        "w centrum",
+        "z centrum"
+      ],
+      "answer": "do centrum"
+    },
+    {
+      "prompt": "The coffee is ON the table →",
+      "choices": [
+        "Kawa jest na stole.",
+        "Kawa jest w stole.",
+        "Kawa jest do stołu.",
+        "Kawa jest stole."
+      ],
+      "answer": "Kawa jest na stole."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "in the park",
+      "mode": "full_word",
+      "answer": "w parku",
+      "accepts": [
+        "w parku"
+      ]
+    },
+    {
+      "prompt_en": "to the park",
+      "mode": "full_word",
+      "answer": "do parku",
+      "accepts": [
+        "do parku"
+      ]
+    },
+    {
+      "prompt_en": "from the park",
+      "mode": "full_word",
+      "answer": "z parku",
+      "accepts": [
+        "z parku"
+      ]
+    },
+    {
+      "prompt_en": "in the bank",
+      "mode": "full_word",
+      "answer": "w banku",
+      "accepts": [
+        "w banku"
+      ]
+    },
+    {
+      "prompt_en": "to the bank",
+      "mode": "full_word",
+      "answer": "do banku",
+      "accepts": [
+        "do banku"
+      ]
+    },
+    {
+      "prompt_en": "from the bank",
+      "mode": "full_word",
+      "answer": "z banku",
+      "accepts": [
+        "z banku"
+      ]
+    },
+    {
+      "prompt_en": "in the hotel",
+      "mode": "full_word",
+      "answer": "w hotelu",
+      "accepts": [
+        "w hotelu"
+      ]
+    },
+    {
+      "prompt_en": "to the hotel",
+      "mode": "full_word",
+      "answer": "do hotelu",
+      "accepts": [
+        "do hotelu"
+      ]
+    },
+    {
+      "prompt_en": "from the hotel",
+      "mode": "full_word",
+      "answer": "z hotelu",
+      "accepts": [
+        "z hotelu"
+      ]
+    },
+    {
+      "prompt_en": "to the centre",
+      "mode": "full_word",
+      "answer": "do centrum",
+      "accepts": [
+        "do centrum"
+      ]
+    },
+    {
+      "prompt_en": "near the park",
+      "mode": "full_word",
+      "answer": "blisko parku",
+      "accepts": [
+        "blisko parku"
+      ]
+    },
+    {
+      "prompt_en": "near the bank",
+      "mode": "full_word",
+      "answer": "blisko banku",
+      "accepts": [
+        "blisko banku"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going to the park.",
+      "answer": "Idę do parku.",
+      "accepts": [
+        "Idę do parku.",
+        "Idę do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in the park.",
+      "answer": "Jestem w parku.",
+      "accepts": [
+        "Jestem w parku.",
+        "Jestem w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the bank.",
+      "answer": "Idę do banku.",
+      "accepts": [
+        "Idę do banku.",
+        "Idę do banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the bank.",
+      "answer": "Wracam z banku.",
+      "accepts": [
+        "Wracam z banku.",
+        "Wracam z banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in the hotel.",
+      "answer": "Jestem w hotelu.",
+      "accepts": [
+        "Jestem w hotelu.",
+        "Jestem w hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the hotel.",
+      "answer": "Wracam z hotelu.",
+      "accepts": [
+        "Wracam z hotelu.",
+        "Wracam z hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the centre.",
+      "answer": "Idę do centrum.",
+      "accepts": [
+        "Idę do centrum.",
+        "Idę do centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the centre.",
+      "answer": "Wracam z centrum.",
+      "accepts": [
+        "Wracam z centrum.",
+        "Wracam z centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the park.",
+      "answer": "Mieszkam blisko parku.",
+      "accepts": [
+        "Mieszkam blisko parku.",
+        "Mieszkam blisko parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the centre.",
+      "answer": "Mieszkam blisko centrum.",
+      "accepts": [
+        "Mieszkam blisko centrum.",
+        "Mieszkam blisko centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm at the station.",
+      "answer": "Jestem na dworcu.",
+      "accepts": [
+        "Jestem na dworcu.",
+        "Jestem na dworcu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to the park?",
+      "answer": "Idziesz do parku?",
+      "accepts": [
+        "Idziesz do parku?",
+        "Idziesz do parku",
+        "Czy idziesz do parku?",
+        "Czy idziesz do parku"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "parku",
+    "banku",
+    "hotelu",
+    "w parku",
+    "do parku",
+    "z parku",
+    "w banku",
+    "do banku",
+    "z banku",
+    "w hotelu",
+    "do hotelu",
+    "z hotelu",
+    "w centrum",
+    "do centrum",
+    "z centrum"
+  ],
+  "uses_lemmas": [
+    "park",
+    "bank",
+    "hotel",
+    "centrum",
+    "na dworcu",
+    "dworcu",
+    "na stole",
+    "stole",
+    "do szkoły",
+    "ze szkoły",
+    "szkoły",
+    "idę",
+    "idziesz",
+    "wracam",
+    "jestem",
+    "mieszkam",
+    "jest",
+    "kawa",
+    "czy",
+    "blisko"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_prep_review_1",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

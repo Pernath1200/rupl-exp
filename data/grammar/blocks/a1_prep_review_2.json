@@ -1,0 +1,484 @@
+{
+  "level": "A1",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "focus_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "gen_endings",
+    "motion_chunk",
+    "byc_present",
+    "present_am"
+  ],
+  "id": "a1_prep_review_2",
+  "title": "Przyimki · powtórka · praca",
+  "title_en": "Prepositions review · work & life",
+  "tree_node": "a1_prep_review_2",
+  "note": "Final A1 review (2026-08-02): work/health vocab on taught preps. praca = pracy in all three slots; biuro/firma regular; na spotkaniu rides neuter -e->-u Loc; szpital exception (-a) taught whole. No new rules beyond the szpital chunk.",
+  "intro": [
+    {
+      "title": "Prepositions at work",
+      "title_pl": "Przyimki w pracy",
+      "body": "The same three columns, on the work words. Praca is a gift — one form everywhere: w pracy, do pracy, z pracy.",
+      "body_pl": "Praca: jedna forma wszędzie (pracy). Biuro i firma — regularnie.",
+      "table": {
+        "headers": [
+          "You're there (w)",
+          "Going (do)",
+          "Coming from (z)"
+        ],
+        "rows": [
+          [
+            "w pracy",
+            "do pracy",
+            "z pracy"
+          ],
+          [
+            "w biurze",
+            "do biura",
+            "z biura"
+          ],
+          [
+            "w firmie",
+            "do firmy",
+            "z firmy"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Meetings and hospital",
+      "title_pl": "Spotkanie i szpital",
+      "body": "Jestem na spotkaniu = I'm in a meeting. Meetings use na, and spotkanie → spotkaniu is the -e → -u ending you know from mieszkanie → mieszkaniu.\n\nSzpital is a rebel: do szpitala, ze szpitala (-a, not -u) — learn it whole. In hospital is regular: w szpitalu.",
+      "body_pl": "na spotkaniu (jak mieszkaniu). Szpital: do szpitala, ze szpitala (wyjątek), ale w szpitalu.",
+      "examples": [
+        {
+          "en": "I'm at work.",
+          "pl": "Jestem w pracy."
+        },
+        {
+          "en": "I'm going to the office.",
+          "pl": "Idę do biura."
+        },
+        {
+          "en": "I'm in a meeting.",
+          "pl": "Jestem na spotkaniu."
+        },
+        {
+          "en": "I'm going to the hospital.",
+          "pl": "Idę do szpitala."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "at work",
+      "pl": "w pracy"
+    },
+    {
+      "en": "to work",
+      "pl": "do pracy"
+    },
+    {
+      "en": "from work",
+      "pl": "z pracy"
+    },
+    {
+      "en": "in the office",
+      "pl": "w biurze"
+    },
+    {
+      "en": "to the office",
+      "pl": "do biura"
+    },
+    {
+      "en": "from the office",
+      "pl": "z biura"
+    },
+    {
+      "en": "in the company",
+      "pl": "w firmie"
+    },
+    {
+      "en": "to the company",
+      "pl": "do firmy"
+    },
+    {
+      "en": "at a meeting",
+      "pl": "na spotkaniu"
+    },
+    {
+      "en": "to the hospital",
+      "pl": "do szpitala"
+    },
+    {
+      "en": "in the hospital",
+      "pl": "w szpitalu"
+    },
+    {
+      "en": "from the hospital",
+      "pl": "ze szpitala"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You are AT work →",
+      "choices": [
+        "w pracy",
+        "do pracy",
+        "z pracy",
+        "na pracy"
+      ],
+      "answer": "w pracy"
+    },
+    {
+      "prompt": "You are GOING to work →",
+      "choices": [
+        "do pracy",
+        "w pracy",
+        "z pracy",
+        "do pracę"
+      ],
+      "answer": "do pracy"
+    },
+    {
+      "prompt": "coming back from work →",
+      "choices": [
+        "z pracy",
+        "do pracy",
+        "w pracy",
+        "ze pracy"
+      ],
+      "answer": "z pracy"
+    },
+    {
+      "prompt": "in the office →",
+      "choices": [
+        "w biurze",
+        "do biura",
+        "w biuru",
+        "na biurze"
+      ],
+      "answer": "w biurze"
+    },
+    {
+      "prompt": "to the office →",
+      "choices": [
+        "do biura",
+        "do biurze",
+        "w biurze",
+        "z biura"
+      ],
+      "answer": "do biura"
+    },
+    {
+      "prompt": "from the office →",
+      "choices": [
+        "z biura",
+        "z biurze",
+        "do biura",
+        "w biurze"
+      ],
+      "answer": "z biura"
+    },
+    {
+      "prompt": "I'm in a meeting →",
+      "choices": [
+        "Jestem na spotkaniu.",
+        "Jestem w spotkaniu.",
+        "Jestem do spotkania.",
+        "Jestem spotkanie."
+      ],
+      "answer": "Jestem na spotkaniu."
+    },
+    {
+      "prompt": "to the hospital — careful! →",
+      "choices": [
+        "do szpitala",
+        "do szpitalu",
+        "w szpitalu",
+        "na szpital"
+      ],
+      "answer": "do szpitala"
+    },
+    {
+      "prompt": "Fix: w firmy →",
+      "choices": [
+        "w firmie",
+        "w firmy",
+        "do firmie",
+        "z firmie"
+      ],
+      "answer": "w firmie"
+    },
+    {
+      "prompt": "from the hospital — z or ze? →",
+      "choices": [
+        "ze szpitala",
+        "z szpitala",
+        "do szpitala",
+        "w szpitalu"
+      ],
+      "answer": "ze szpitala"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "at work",
+      "mode": "full_word",
+      "answer": "w pracy",
+      "accepts": [
+        "w pracy"
+      ]
+    },
+    {
+      "prompt_en": "to work",
+      "mode": "full_word",
+      "answer": "do pracy",
+      "accepts": [
+        "do pracy"
+      ]
+    },
+    {
+      "prompt_en": "from work",
+      "mode": "full_word",
+      "answer": "z pracy",
+      "accepts": [
+        "z pracy"
+      ]
+    },
+    {
+      "prompt_en": "in the office",
+      "mode": "full_word",
+      "answer": "w biurze",
+      "accepts": [
+        "w biurze"
+      ]
+    },
+    {
+      "prompt_en": "to the office",
+      "mode": "full_word",
+      "answer": "do biura",
+      "accepts": [
+        "do biura"
+      ]
+    },
+    {
+      "prompt_en": "from the office",
+      "mode": "full_word",
+      "answer": "z biura",
+      "accepts": [
+        "z biura"
+      ]
+    },
+    {
+      "prompt_en": "in the company",
+      "mode": "full_word",
+      "answer": "w firmie",
+      "accepts": [
+        "w firmie"
+      ]
+    },
+    {
+      "prompt_en": "to the company",
+      "mode": "full_word",
+      "answer": "do firmy",
+      "accepts": [
+        "do firmy"
+      ]
+    },
+    {
+      "prompt_en": "at a meeting",
+      "mode": "full_word",
+      "answer": "na spotkaniu",
+      "accepts": [
+        "na spotkaniu"
+      ]
+    },
+    {
+      "prompt_en": "to the hospital",
+      "mode": "full_word",
+      "answer": "do szpitala",
+      "accepts": [
+        "do szpitala"
+      ]
+    },
+    {
+      "prompt_en": "in the hospital",
+      "mode": "full_word",
+      "answer": "w szpitalu",
+      "accepts": [
+        "w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "from the hospital",
+      "mode": "full_word",
+      "answer": "ze szpitala",
+      "accepts": [
+        "ze szpitala"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm at work.",
+      "answer": "Jestem w pracy.",
+      "accepts": [
+        "Jestem w pracy.",
+        "Jestem w pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to work.",
+      "answer": "Idę do pracy.",
+      "accepts": [
+        "Idę do pracy.",
+        "Idę do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from work.",
+      "answer": "Wracam z pracy.",
+      "accepts": [
+        "Wracam z pracy.",
+        "Wracam z pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in the office.",
+      "answer": "Jestem w biurze.",
+      "accepts": [
+        "Jestem w biurze.",
+        "Jestem w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the office.",
+      "answer": "Idę do biura.",
+      "accepts": [
+        "Idę do biura.",
+        "Idę do biura"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the office.",
+      "answer": "Wracam z biura.",
+      "accepts": [
+        "Wracam z biura.",
+        "Wracam z biura"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in a meeting.",
+      "answer": "Jestem na spotkaniu.",
+      "accepts": [
+        "Jestem na spotkaniu.",
+        "Jestem na spotkaniu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the hospital.",
+      "answer": "Idę do szpitala.",
+      "accepts": [
+        "Idę do szpitala.",
+        "Idę do szpitala"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in the hospital.",
+      "answer": "Jestem w szpitalu.",
+      "accepts": [
+        "Jestem w szpitalu.",
+        "Jestem w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the hospital.",
+      "answer": "Wracam ze szpitala.",
+      "accepts": [
+        "Wracam ze szpitala.",
+        "Wracam ze szpitala"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the office.",
+      "answer": "Mieszkam blisko biura.",
+      "accepts": [
+        "Mieszkam blisko biura.",
+        "Mieszkam blisko biura"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to work?",
+      "answer": "Idziesz do pracy?",
+      "accepts": [
+        "Idziesz do pracy?",
+        "Idziesz do pracy",
+        "Czy idziesz do pracy?",
+        "Czy idziesz do pracy"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "pracy",
+    "biura",
+    "biurze",
+    "firmy",
+    "firmie",
+    "spotkaniu",
+    "szpitala",
+    "szpitalu",
+    "w pracy",
+    "do pracy",
+    "z pracy",
+    "w biurze",
+    "do biura",
+    "z biura",
+    "w firmie",
+    "do firmy",
+    "z firmy",
+    "na spotkaniu",
+    "do szpitala",
+    "w szpitalu",
+    "ze szpitala"
+  ],
+  "uses_lemmas": [
+    "praca",
+    "biuro",
+    "firma",
+    "spotkanie",
+    "szpital",
+    "idę",
+    "idziesz",
+    "wracam",
+    "jestem",
+    "mieszkam",
+    "czy",
+    "blisko"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_prep_review_2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

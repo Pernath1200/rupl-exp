@@ -492,6 +492,38 @@
         "label": "Pojęcia",
         "status": "live"
       }
+    },
+    {
+      "id": "PL_PREP_R1",
+      "title": "Przyimki · powtórka · miasto",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_prep_review_1",
+        "label": "Przyimki · powtórka · miasto",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
+      "id": "PL_PREP_R2",
+      "title": "Przyimki · powtórka · praca",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_prep_review_2",
+        "label": "Przyimki · powtórka · praca",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
     }
   ],
   "path_42": [
@@ -533,11 +565,13 @@
     "leaf_city_a1",
     "leaf_body_a1",
     "leaf_time_cal_a1",
+    "a1_prep_review_1",
     "a1_negation",
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
     "leaf_work_a1",
-    "leaf_ideas_a1"
+    "leaf_ideas_a1",
+    "a1_prep_review_2"
   ]
 }

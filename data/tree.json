@@ -53,12 +53,14 @@
     "leaf_city_a1",
     "leaf_body_a1",
     "leaf_time_cal_a1",
+    "a1_prep_review_1",
     "a1_negation",
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
     "leaf_work_a1",
-    "leaf_ideas_a1"
+    "leaf_ideas_a1",
+    "a1_prep_review_2"
   ],
   "path_order_note": "Path-42: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
   "spine": "data/spine.json",
@@ -1054,6 +1056,31 @@
       "pedagogy": "use"
     },
     {
+      "id": "a1_prep_review_1",
+      "domain": "grammar",
+      "label": "Przyimki · powtórka · miasto",
+      "label_en": "Prepositions review · town",
+      "kind": "topic",
+      "root": "links",
+      "tree_part": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_prep_review_1.json",
+      "practice": "grammar",
+      "note": "Review: taught preps on city vocab.",
+      "unit_id": "PL_PREP_R1",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_R1"
+      ],
+      "pedagogy": "review"
+    },
+    {
       "id": "a1_negation",
       "domain": "grammar",
       "label": "Przeczenie · nie mam",
@@ -1199,6 +1226,31 @@
         "PL_IDEAS_01"
       ],
       "pedagogy": "use"
+    },
+    {
+      "id": "a1_prep_review_2",
+      "domain": "grammar",
+      "label": "Przyimki · powtórka · praca",
+      "label_en": "Prepositions review · work & life",
+      "kind": "topic",
+      "root": "links",
+      "tree_part": "links",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_prep_review_2.json",
+      "practice": "grammar",
+      "note": "Final A1 review: taught preps on work/health vocab.",
+      "unit_id": "PL_PREP_R2",
+      "case_tags": [
+        "loc",
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_PREP_R2"
+      ],
+      "pedagogy": "review"
     }
   ],
   "synced_from": {
