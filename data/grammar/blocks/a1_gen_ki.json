@@ -1,0 +1,450 @@
+{
+  "id": "a1_gen_ki",
+  "title": "Dopełniacz · -ki i -gi",
+  "title_en": "Genitive · -i after k and g",
+  "level": "A1",
+  "tree_node": "a1_gen_ki",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Completes fem Gen: -ka/-ga nouns take -i (Polish never writes y after k/g — 100% reliable spelling rule). Placed before negation, which drills 'nie mam ksiazki'. Contrast -y regulars kept in every deck.",
+  "focus_structures": [
+    "gen_endings"
+  ],
+  "teaches_structures": [
+    "gen_endings"
+  ],
+  "uses_structures": [
+    "gen_endings",
+    "prep_do_gen",
+    "prep_z_gen",
+    "byc_present",
+    "present_am",
+    "present_e_esz"
+  ],
+  "intro": [
+    {
+      "title": "After k and g: -i, never -y",
+      "title_pl": "Po k i g: -i, nigdy -y",
+      "body": "You know feminine -a → -y (kawa → kawy). One spelling fact finishes the rule: Polish never writes y after k or g. So -ka and -ga words take -i instead:\n\napteka → apteki · książka → książki · matka → matki · noga → nogi\n\nThat's the whole rule, and it never fails.",
+      "body_pl": "Po k i g nigdy nie piszemy y — więc -ka/-ga → -ki/-gi: apteka → apteki, noga → nogi.",
+      "table": {
+        "headers": [
+          "Ending",
+          "Rule",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "-a → -y",
+            "normal feminine",
+            "kawa → kawy · szkoła → szkoły · woda → wody"
+          ],
+          [
+            "-ka/-ga → -ki/-gi",
+            "k/g never take y",
+            "apteka → apteki · książka → książki · noga → nogi"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Same little words as before",
+      "title_pl": "Te same słówka co zawsze",
+      "body": "Every genitive word you know works the same with these forms: do apteki (to the pharmacy), z apteki, blisko apteki, dużo — and soon nie mam książki.",
+      "body_pl": "do apteki · z apteki · blisko apteki · dużo · (wkrótce: nie mam książki).",
+      "examples": [
+        {
+          "en": "I'm going to the pharmacy.",
+          "pl": "Idę do apteki."
+        },
+        {
+          "en": "I'm coming back from the pharmacy.",
+          "pl": "Wracam z apteki."
+        },
+        {
+          "en": "I live near the road.",
+          "pl": "Mieszkam blisko drogi."
+        },
+        {
+          "en": "I'm going to my mother's.",
+          "pl": "Idę do matki."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "apteka · ż. (pharmacy)",
+      "pl": "apteki"
+    },
+    {
+      "en": "książka · ż. (book)",
+      "pl": "książki"
+    },
+    {
+      "en": "matka · ż. (mother)",
+      "pl": "matki"
+    },
+    {
+      "en": "koszulka · ż. (t-shirt)",
+      "pl": "koszulki"
+    },
+    {
+      "en": "kurtka · ż. (jacket)",
+      "pl": "kurtki"
+    },
+    {
+      "en": "noga · ż. (leg)",
+      "pl": "nogi"
+    },
+    {
+      "en": "ręka · ż. (hand)",
+      "pl": "ręki"
+    },
+    {
+      "en": "droga · ż. (road)",
+      "pl": "drogi"
+    },
+    {
+      "en": "kawa · ż. (coffee)",
+      "pl": "kawy"
+    },
+    {
+      "en": "szkoła · ż. (school)",
+      "pl": "szkoły"
+    },
+    {
+      "en": "woda · ż. (water)",
+      "pl": "wody"
+    },
+    {
+      "en": "herbata · ż. (tea)",
+      "pl": "herbaty"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "apteka →",
+      "choices": [
+        "apteki",
+        "apteky",
+        "aptekę",
+        "aptece"
+      ],
+      "answer": "apteki"
+    },
+    {
+      "prompt": "kawa →",
+      "choices": [
+        "kawy",
+        "kawi",
+        "kawę",
+        "kawie"
+      ],
+      "answer": "kawy"
+    },
+    {
+      "prompt": "Fix: książky →",
+      "choices": [
+        "książki",
+        "książky",
+        "książkę",
+        "książka"
+      ],
+      "answer": "książki"
+    },
+    {
+      "prompt": "Fix: nogy →",
+      "choices": [
+        "nogi",
+        "nogy",
+        "nogę",
+        "noga"
+      ],
+      "answer": "nogi"
+    },
+    {
+      "prompt": "matka →",
+      "choices": [
+        "matki",
+        "matky",
+        "matkę",
+        "matka"
+      ],
+      "answer": "matki"
+    },
+    {
+      "prompt": "After k and g you write... →",
+      "choices": [
+        "-i",
+        "-y",
+        "-ę",
+        "either"
+      ],
+      "answer": "-i"
+    },
+    {
+      "prompt": "koszulka →",
+      "choices": [
+        "koszulki",
+        "koszulky",
+        "koszulkę",
+        "koszulce"
+      ],
+      "answer": "koszulki"
+    },
+    {
+      "prompt": "szkoła →",
+      "choices": [
+        "szkoły",
+        "szkołi",
+        "szkołę",
+        "szkole"
+      ],
+      "answer": "szkoły"
+    },
+    {
+      "prompt": "droga →",
+      "choices": [
+        "drogi",
+        "drogy",
+        "drogę",
+        "drodze"
+      ],
+      "answer": "drogi"
+    },
+    {
+      "prompt": "kurtka →",
+      "choices": [
+        "kurtki",
+        "kurtky",
+        "kurtkę",
+        "kurtce"
+      ],
+      "answer": "kurtki"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "apteka · ż. (pharmacy)",
+      "mode": "full_word",
+      "answer": "apteki",
+      "accepts": [
+        "apteki"
+      ]
+    },
+    {
+      "prompt_en": "książka · ż. (book)",
+      "mode": "full_word",
+      "answer": "książki",
+      "accepts": [
+        "książki"
+      ]
+    },
+    {
+      "prompt_en": "matka · ż. (mother)",
+      "mode": "full_word",
+      "answer": "matki",
+      "accepts": [
+        "matki"
+      ]
+    },
+    {
+      "prompt_en": "koszulka · ż. (t-shirt)",
+      "mode": "full_word",
+      "answer": "koszulki",
+      "accepts": [
+        "koszulki"
+      ]
+    },
+    {
+      "prompt_en": "kurtka · ż. (jacket)",
+      "mode": "full_word",
+      "answer": "kurtki",
+      "accepts": [
+        "kurtki"
+      ]
+    },
+    {
+      "prompt_en": "noga · ż. (leg)",
+      "mode": "full_word",
+      "answer": "nogi",
+      "accepts": [
+        "nogi"
+      ]
+    },
+    {
+      "prompt_en": "ręka · ż. (hand)",
+      "mode": "full_word",
+      "answer": "ręki",
+      "accepts": [
+        "ręki"
+      ]
+    },
+    {
+      "prompt_en": "droga · ż. (road)",
+      "mode": "full_word",
+      "answer": "drogi",
+      "accepts": [
+        "drogi"
+      ]
+    },
+    {
+      "prompt_en": "kawa · ż. (coffee)",
+      "mode": "full_word",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "szkoła · ż. (school)",
+      "mode": "full_word",
+      "answer": "szkoły",
+      "accepts": [
+        "szkoły"
+      ]
+    },
+    {
+      "prompt_en": "woda · ż. (water)",
+      "mode": "full_word",
+      "answer": "wody",
+      "accepts": [
+        "wody"
+      ]
+    },
+    {
+      "prompt_en": "herbata · ż. (tea)",
+      "mode": "full_word",
+      "answer": "herbaty",
+      "accepts": [
+        "herbaty"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going to the pharmacy.",
+      "answer": "Idę do apteki.",
+      "accepts": [
+        "Idę do apteki.",
+        "Idę do apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the pharmacy.",
+      "answer": "Wracam z apteki.",
+      "accepts": [
+        "Wracam z apteki.",
+        "Wracam z apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the pharmacy.",
+      "answer": "Mieszkam blisko apteki.",
+      "accepts": [
+        "Mieszkam blisko apteki.",
+        "Mieszkam blisko apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to the pharmacy?",
+      "answer": "Idziesz do apteki?",
+      "accepts": [
+        "Idziesz do apteki?",
+        "Idziesz do apteki",
+        "Czy idziesz do apteki?",
+        "Czy idziesz do apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to my mother's.",
+      "answer": "Idę do matki.",
+      "accepts": [
+        "Idę do matki.",
+        "Idę do matki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the road.",
+      "answer": "Mieszkam blisko drogi.",
+      "accepts": [
+        "Mieszkam blisko drogi.",
+        "Mieszkam blisko drogi"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink a lot of water.",
+      "answer": "Piję dużo wody.",
+      "accepts": [
+        "Piję dużo wody.",
+        "Piję dużo wody"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a lot of tea.",
+      "answer": "Mam dużo herbaty.",
+      "accepts": [
+        "Mam dużo herbaty.",
+        "Mam dużo herbaty"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "apteki",
+    "książki",
+    "matki",
+    "koszulki",
+    "kurtki",
+    "nogi",
+    "ręki",
+    "drogi",
+    "do apteki",
+    "z apteki",
+    "blisko apteki",
+    "do matki",
+    "blisko drogi"
+  ],
+  "uses_lemmas": [
+    "apteka",
+    "książka",
+    "matka",
+    "koszulka",
+    "kurtka",
+    "noga",
+    "ręka",
+    "droga",
+    "kawa",
+    "szkoła",
+    "woda",
+    "herbata",
+    "kawy",
+    "szkoły",
+    "wody",
+    "herbaty",
+    "idę",
+    "idziesz",
+    "wracam",
+    "mieszkam",
+    "mam",
+    "piję",
+    "dużo",
+    "blisko",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_gen_ki",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

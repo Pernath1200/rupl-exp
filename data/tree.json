@@ -54,10 +54,12 @@
     "leaf_body_a1",
     "leaf_time_cal_a1",
     "a1_prep_review_1",
+    "a1_gen_ki",
     "a1_negation",
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
+    "a1_case_gym",
     "leaf_work_a1",
     "leaf_ideas_a1",
     "a1_prep_review_2"
@@ -1081,6 +1083,30 @@
       "pedagogy": "review"
     },
     {
+      "id": "a1_gen_ki",
+      "domain": "grammar",
+      "label": "Dopełniacz · -ki i -gi",
+      "label_en": "Genitive -i after k/g",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_gen_ki.json",
+      "practice": "grammar",
+      "note": "Fem Gen completed: -ka/-ga -> -i (k/g never take y). Before negation (ksiazki).",
+      "unit_id": "PL_DOP_02",
+      "case_tags": [
+        "gen"
+      ],
+      "spine_steps": [
+        "PL_DOP_02"
+      ],
+      "pedagogy": "teach"
+    },
+    {
       "id": "a1_negation",
       "domain": "grammar",
       "label": "Przeczenie · nie mam",
@@ -1178,6 +1204,33 @@
       ],
       "pedagogy": "teach",
       "partner_id": "leaf_work_a1"
+    },
+    {
+      "id": "a1_case_gym",
+      "domain": "grammar",
+      "label": "Przypadki · trening",
+      "label_en": "Case gym (mixed)",
+      "kind": "topic",
+      "root": "forms",
+      "tree_part": "forms",
+      "levels": [
+        "A1"
+      ],
+      "status": "live",
+      "content": "grammar/blocks/a1_case_gym.json",
+      "practice": "grammar",
+      "note": "Automaticity: Nom/Acc/Gen/Loc discrimination on known nouns. Zero new material.",
+      "unit_id": "PL_CASE_GYM",
+      "case_tags": [
+        "nom",
+        "acc",
+        "gen",
+        "loc"
+      ],
+      "spine_steps": [
+        "PL_CASE_GYM"
+      ],
+      "pedagogy": "review"
     },
     {
       "id": "leaf_work_a1",

@@ -1,8 +1,8 @@
-# Sequencing audit · 2026-08-02
+# Sequencing audit · 2026-08-03
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 46 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 48 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -55,11 +55,13 @@ _None._
 | 36 | `leaf_body_a1` | — | 23 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 37 | `leaf_time_cal_a1` | — | 48 | `byc_adj`, `byc_present`, `miec_acc`, `present_am`, `present_e_esz`, `present_uje`, `social_chunk`, `to_jest`, `zgoda` |
 | 38 | `a1_prep_review_1` | — | 15 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
-| 39 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |
-| 40 | `trunk_there_time_a1` | `existential_jest` | 0 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
-| 41 | `leaf_health_a1` | — | 23 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
-| 42 | `a1_inst_job` | `inst_identity` | 16 | `byc_present`, `inst_identity` |
-| 43 | `leaf_work_a1` | — | 35 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `present_uje`, `to_jest`, `zgoda` |
-| 44 | `leaf_ideas_a1` | — | 48 | `byc_adj`, `byc_present`, `comparative`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |
-| 45 | `a1_prep_review_2` | — | 21 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
+| 39 | `a1_gen_ki` | `gen_endings` | 13 | `byc_present`, `gen_endings`, `prep_do_gen`, `prep_z_gen`, `present_am`, `present_e_esz` |
+| 40 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |
+| 41 | `trunk_there_time_a1` | `existential_jest` | 0 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
+| 42 | `leaf_health_a1` | — | 23 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
+| 43 | `a1_inst_job` | `inst_identity` | 16 | `byc_present`, `inst_identity` |
+| 44 | `a1_case_gym` | — | 15 | `byc_present`, `gen_endings`, `miec_acc`, `negation`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `to_jest` |
+| 45 | `leaf_work_a1` | — | 35 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `present_uje`, `to_jest`, `zgoda` |
+| 46 | `leaf_ideas_a1` | — | 48 | `byc_adj`, `byc_present`, `comparative`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |
+| 47 | `a1_prep_review_2` | — | 21 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
 

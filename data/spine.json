@@ -524,6 +524,36 @@
       "rupl3": {
         "status": "skip"
       }
+    },
+    {
+      "id": "PL_DOP_02",
+      "title": "Dopełniacz · -ki i -gi",
+      "case_tags": [
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_gen_ki",
+        "label": "Dopełniacz · -ki i -gi",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
+    },
+    {
+      "id": "PL_CASE_GYM",
+      "title": "Przypadki · trening",
+      "case_tags": [
+        "gen"
+      ],
+      "rupl2": {
+        "node_id": "a1_case_gym",
+        "label": "Przypadki · trening",
+        "status": "live"
+      },
+      "rupl3": {
+        "status": "skip"
+      }
     }
   ],
   "path_42": [
@@ -566,10 +596,12 @@
     "leaf_body_a1",
     "leaf_time_cal_a1",
     "a1_prep_review_1",
+    "a1_gen_ki",
     "a1_negation",
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
+    "a1_case_gym",
     "leaf_work_a1",
     "leaf_ideas_a1",
     "a1_prep_review_2"

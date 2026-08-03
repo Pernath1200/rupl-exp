@@ -1,0 +1,495 @@
+{
+  "id": "a1_case_gym",
+  "title": "Przypadki · trening",
+  "title_en": "Case gym · Nom/Acc/Gen/Loc mixed",
+  "level": "A1",
+  "tree_node": "a1_case_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gym idiom (like acc_gym/present_gym): ZERO new material — same taught nouns cycling through Nom/Acc/Gen/Loc against situation cues. Automaticity = choosing under mixed conditions. James's automaticity goal, unit 1 of 2 (rep stations = layer 2, parked).",
+  "focus_structures": [
+    "miec_acc",
+    "gen_endings",
+    "prep_w_loc"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "byc_present",
+    "present_am",
+    "present_e_esz"
+  ],
+  "intro": [
+    {
+      "title": "The four jobs of a noun",
+      "title_pl": "Cztery role rzeczownika",
+      "body": "You now know four forms of the same word. Nothing new in this unit — just choosing the right one, fast.",
+      "body_pl": "Nic nowego — tylko szybki wybór właściwej formy.",
+      "table": {
+        "headers": [
+          "Job",
+          "Cue",
+          "Example"
+        ],
+        "rows": [
+          [
+            "naming",
+            "to jest...",
+            "To jest kawa."
+          ],
+          [
+            "object",
+            "have · drink · want",
+            "Mam kawę. · Piję kawę."
+          ],
+          [
+            "'of'-form",
+            "nie mam · do/z · dużo · blisko",
+            "Nie mam kawy. · Idę do sklepu."
+          ],
+          [
+            "place",
+            "w / na = where you are",
+            "Jestem w sklepie."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Hear the cue, pick the form",
+      "title_pl": "Sygnał → forma",
+      "body": "Ask yourself one question: what is the noun doing?\n\n· Just being named? → basic form (kawa)\n· Being had / drunk / wanted? → -ę form (kawę)\n· After nie mam, do, z, dużo, blisko? → of-form (kawy, sklepu)\n· After w or na, saying where you are? → place form (sklepie, domu)",
+      "body_pl": "Nazywasz? kawa · Masz/pijesz? kawę · nie mam/do/z/dużo/blisko? kawy · w/na? w sklepie."
+    }
+  ],
+  "match": [
+    {
+      "en": "naming it · kawa",
+      "pl": "kawa"
+    },
+    {
+      "en": "you drink it · kawa",
+      "pl": "kawę"
+    },
+    {
+      "en": "you don't have it · kawa",
+      "pl": "kawy"
+    },
+    {
+      "en": "you have it · książka",
+      "pl": "książkę"
+    },
+    {
+      "en": "you're going there · sklep",
+      "pl": "do sklepu"
+    },
+    {
+      "en": "you're there · sklep",
+      "pl": "w sklepie"
+    },
+    {
+      "en": "you're there · dom",
+      "pl": "w domu"
+    },
+    {
+      "en": "you're there · szkoła",
+      "pl": "w szkole"
+    },
+    {
+      "en": "coming from it · szkoła",
+      "pl": "ze szkoły"
+    },
+    {
+      "en": "you're going there · park",
+      "pl": "do parku"
+    },
+    {
+      "en": "a lot of it · woda",
+      "pl": "dużo wody"
+    },
+    {
+      "en": "near it · bank",
+      "pl": "blisko banku"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You DON'T have it — kawa →",
+      "choices": [
+        "kawy",
+        "kawę",
+        "kawa",
+        "kawie"
+      ],
+      "answer": "kawy"
+    },
+    {
+      "prompt": "You drink it — herbata →",
+      "choices": [
+        "herbatę",
+        "herbaty",
+        "herbata",
+        "herbacie"
+      ],
+      "answer": "herbatę"
+    },
+    {
+      "prompt": "You're GOING there — sklep →",
+      "choices": [
+        "do sklepu",
+        "w sklepie",
+        "ze sklepu",
+        "sklep"
+      ],
+      "answer": "do sklepu"
+    },
+    {
+      "prompt": "You ARE there — miasto →",
+      "choices": [
+        "w mieście",
+        "do miasta",
+        "z miasta",
+        "miasto"
+      ],
+      "answer": "w mieście"
+    },
+    {
+      "prompt": "Naming it — woda →",
+      "choices": [
+        "woda",
+        "wodę",
+        "wody",
+        "wodzie"
+      ],
+      "answer": "woda"
+    },
+    {
+      "prompt": "A lot of it — kawa →",
+      "choices": [
+        "dużo kawy",
+        "dużo kawę",
+        "dużo kawa",
+        "dużo kawie"
+      ],
+      "answer": "dużo kawy"
+    },
+    {
+      "prompt": "You have it — pies →",
+      "choices": [
+        "psa",
+        "pies",
+        "psy",
+        "psie"
+      ],
+      "answer": "psa"
+    },
+    {
+      "prompt": "Fix: Mam kawa →",
+      "choices": [
+        "Mam kawę.",
+        "Mam kawa.",
+        "Mam kawy.",
+        "Mam kawie."
+      ],
+      "answer": "Mam kawę."
+    },
+    {
+      "prompt": "Fix: Nie mam kawę →",
+      "choices": [
+        "Nie mam kawy.",
+        "Nie mam kawę.",
+        "Nie mam kawa.",
+        "Nie mam kawie."
+      ],
+      "answer": "Nie mam kawy."
+    },
+    {
+      "prompt": "Fix: Jestem w sklep →",
+      "choices": [
+        "Jestem w sklepie.",
+        "Jestem w sklep.",
+        "Jestem do sklepu.",
+        "Jestem w sklepu."
+      ],
+      "answer": "Jestem w sklepie."
+    },
+    {
+      "prompt": "Near it — bank →",
+      "choices": [
+        "blisko banku",
+        "blisko bank",
+        "w banku",
+        "do banku"
+      ],
+      "answer": "blisko banku"
+    },
+    {
+      "prompt": "Coming from it — szkoła →",
+      "choices": [
+        "ze szkoły",
+        "z szkoły",
+        "do szkoły",
+        "w szkole"
+      ],
+      "answer": "ze szkoły"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Mam ___ · kawa",
+      "mode": "full_word",
+      "answer": "kawę",
+      "accepts": [
+        "kawę"
+      ]
+    },
+    {
+      "prompt_en": "Nie mam ___ · kawa",
+      "mode": "full_word",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "Piję ___ · herbata",
+      "mode": "full_word",
+      "answer": "herbatę",
+      "accepts": [
+        "herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Idę do ___ · sklep",
+      "mode": "full_word",
+      "answer": "sklepu",
+      "accepts": [
+        "sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Jestem w ___ · sklep",
+      "mode": "full_word",
+      "answer": "sklepie",
+      "accepts": [
+        "sklepie"
+      ]
+    },
+    {
+      "prompt_en": "To jest ___ · kawa",
+      "mode": "full_word",
+      "answer": "kawa",
+      "accepts": [
+        "kawa"
+      ]
+    },
+    {
+      "prompt_en": "Jestem w ___ · miasto",
+      "mode": "full_word",
+      "answer": "mieście",
+      "accepts": [
+        "mieście"
+      ]
+    },
+    {
+      "prompt_en": "Idę do ___ · park",
+      "mode": "full_word",
+      "answer": "parku",
+      "accepts": [
+        "parku"
+      ]
+    },
+    {
+      "prompt_en": "Nie mam ___ · czas",
+      "mode": "full_word",
+      "answer": "czasu",
+      "accepts": [
+        "czasu"
+      ]
+    },
+    {
+      "prompt_en": "Mam ___ · pies",
+      "mode": "full_word",
+      "answer": "psa",
+      "accepts": [
+        "psa"
+      ]
+    },
+    {
+      "prompt_en": "dużo ___ · woda",
+      "mode": "full_word",
+      "answer": "wody",
+      "accepts": [
+        "wody"
+      ]
+    },
+    {
+      "prompt_en": "blisko ___ · dom",
+      "mode": "full_word",
+      "answer": "domu",
+      "accepts": [
+        "domu"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I have coffee.",
+      "answer": "Mam kawę.",
+      "accepts": [
+        "Mam kawę.",
+        "Mam kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have coffee.",
+      "answer": "Nie mam kawy.",
+      "accepts": [
+        "Nie mam kawy.",
+        "Nie mam kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink tea.",
+      "answer": "Piję herbatę.",
+      "accepts": [
+        "Piję herbatę.",
+        "Piję herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the shop.",
+      "answer": "Idę do sklepu.",
+      "accepts": [
+        "Idę do sklepu.",
+        "Idę do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm in the shop.",
+      "answer": "Jestem w sklepie.",
+      "accepts": [
+        "Jestem w sklepie.",
+        "Jestem w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from school.",
+      "answer": "Wracam ze szkoły.",
+      "accepts": [
+        "Wracam ze szkoły.",
+        "Wracam ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm at school.",
+      "answer": "Jestem w szkole.",
+      "accepts": [
+        "Jestem w szkole.",
+        "Jestem w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the park.",
+      "answer": "Idę do parku.",
+      "accepts": [
+        "Idę do parku.",
+        "Idę do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have time.",
+      "answer": "Nie mam czasu.",
+      "accepts": [
+        "Nie mam czasu.",
+        "Nie mam czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a dog.",
+      "answer": "Mam psa.",
+      "accepts": [
+        "Mam psa.",
+        "Mam psa"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is coffee.",
+      "answer": "To jest kawa.",
+      "accepts": [
+        "To jest kawa.",
+        "To jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink a lot of water.",
+      "answer": "Piję dużo wody.",
+      "accepts": [
+        "Piję dużo wody.",
+        "Piję dużo wody"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "kawę",
+    "kawy",
+    "herbatę",
+    "książkę",
+    "sklepu",
+    "sklepie",
+    "mieście",
+    "parku",
+    "czasu",
+    "psa",
+    "wody",
+    "domu",
+    "szkoły",
+    "szkole",
+    "banku"
+  ],
+  "uses_lemmas": [
+    "kawa",
+    "herbata",
+    "książka",
+    "sklep",
+    "miasto",
+    "park",
+    "czas",
+    "pies",
+    "woda",
+    "dom",
+    "szkoła",
+    "bank",
+    "mam",
+    "piję",
+    "idę",
+    "wracam",
+    "jestem",
+    "jest",
+    "dużo",
+    "blisko",
+    "nie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_case_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
