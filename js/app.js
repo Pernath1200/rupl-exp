@@ -685,8 +685,8 @@ async function boot() {
       moreWrap.hidden = !open;
       moreBtn.setAttribute("aria-expanded", open ? "true" : "false");
       moreBtn.textContent = open
-        ? "Ukryj drzewo i jednostki ▴"
-        : "Pokaż drzewo i wszystkie jednostki ▾";
+        ? "Hide · Ukryj drzewo i jednostki ▴"
+        : "Show all units · Pokaż drzewo i jednostki ▾";
       try {
         localStorage.setItem(MORE_KEY, open ? "open" : "closed");
       } catch {

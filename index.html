@@ -19,7 +19,7 @@
     <div id="boot-error" class="card" hidden></div>
 
     <div id="view-map">
-      <div class="rail-label">Poziom</div>
+      <div class="rail-label">Level · Poziom</div>
       <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
 
       <div class="card" id="progress-meters-card">
@@ -36,11 +36,11 @@
         <div id="up-next"></div>
       </div>
 
-      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">Pokaż drzewo i wszystkie jednostki ▾</button>
+      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">Show all units · Pokaż drzewo i jednostki ▾</button>
 
       <div id="map-more" hidden>
         <div class="card" id="tree-portrait-card">
-          <h2>Portret drzewa</h2>
+          <h2>Tree · Portret drzewa</h2>
           <p class="tree-legend">
             Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
           </p>
@@ -49,25 +49,25 @@
 
         <div class="panel-grid">
           <div class="card domain-grammar">
-            <h2>Korzenie · gramatyka</h2>
+            <h2>Grammar roots · Korzenie</h2>
             <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
             <div id="roots-strip" class="roots-strip"></div>
           </div>
           <div class="card domain-vocab">
-            <h2>Liście · słówka</h2>
+            <h2>Vocabulary leaves · Liście</h2>
             <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
             <div id="vocab-fill" class="roots-strip"></div>
           </div>
         </div>
 
         <div class="card" id="path-card">
-          <h2>Ścieżka (spine · teach → use)</h2>
+          <h2>Path · Ścieżka</h2>
           <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
           <ul id="path-list" class="path-list"></ul>
         </div>
 
         <div class="card" id="node-detail-card">
-          <h2>Jednostka</h2>
+          <h2>Unit · Jednostka</h2>
           <div id="node-detail"></div>
         </div>
       </div>
@@ -91,6 +91,6 @@
       <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false">Tryb autorski</button>
     </p>
   </div>
-  <script type="module" src="./js/app.js?v=2026-08-03-gloss"></script>
+  <script type="module" src="./js/app.js?v=2026-08-03-chrome"></script>
 </body>
 </html>
