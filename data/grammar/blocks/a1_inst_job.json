@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P1: identity only — jestem + Inst job. After Acc + place preps. Neuter -em taught via dziecko/dzieckiem (James 2026-08-03); intro endings table m/f/n.",
+  "note": "P1: identity only — jestem + Inst job. After Acc + place preps. Neuter -em taught via dziecko/dzieckiem (James 2026-08-03); intro endings table m/f/n. Pisanie = gap-fill frames (Jestem ___) so the Inst demand is visible (James 2026-08-03).",
   "focus_structures": [
     "inst_identity"
   ],
@@ -302,7 +302,7 @@
   ],
   "type_items": [
     {
-      "prompt_en": "student (m)",
+      "prompt_en": "Jestem ___ · student (m)",
       "mode": "full_word",
       "answer": "studentem",
       "accepts": [
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "prompt_en": "student (f)",
+      "prompt_en": "Jestem ___ · student (f)",
       "mode": "full_word",
       "answer": "studentką",
       "accepts": [
@@ -318,7 +318,7 @@
       ]
     },
     {
-      "prompt_en": "teacher (m)",
+      "prompt_en": "Jestem ___ · teacher (m)",
       "mode": "full_word",
       "answer": "nauczycielem",
       "accepts": [
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "prompt_en": "teacher (f)",
+      "prompt_en": "Jestem ___ · teacher (f)",
       "mode": "full_word",
       "answer": "nauczycielką",
       "accepts": [
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "prompt_en": "doctor (m)",
+      "prompt_en": "Jestem ___ · doctor (m)",
       "mode": "full_word",
       "answer": "lekarzem",
       "accepts": [
@@ -342,7 +342,7 @@
       ]
     },
     {
-      "prompt_en": "doctor (f)",
+      "prompt_en": "Jestem ___ · doctor (f)",
       "mode": "full_word",
       "answer": "lekarką",
       "accepts": [
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "prompt_en": "waiter (m)",
+      "prompt_en": "Jestem ___ · waiter",
       "mode": "full_word",
       "answer": "kelnerem",
       "accepts": [
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "prompt_en": "waitress (f)",
+      "prompt_en": "Jestem ___ · waitress",
       "mode": "full_word",
       "answer": "kelnerką",
       "accepts": [
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "prompt_en": "I am a student (m) — job word",
+      "prompt_en": "On jest ___ · student",
       "mode": "full_word",
       "answer": "studentem",
       "accepts": [
@@ -374,7 +374,7 @@
       ]
     },
     {
-      "prompt_en": "I am a teacher (f) — job word",
+      "prompt_en": "Ona jest ___ · teacher",
       "mode": "full_word",
       "answer": "nauczycielką",
       "accepts": [
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "prompt_en": "he is a doctor — job word",
+      "prompt_en": "On jest ___ · doctor",
       "mode": "full_word",
       "answer": "lekarzem",
       "accepts": [
@@ -390,15 +390,7 @@
       ]
     },
     {
-      "prompt_en": "she is a waitress — job word",
-      "mode": "full_word",
-      "answer": "kelnerką",
-      "accepts": [
-        "kelnerką"
-      ]
-    },
-    {
-      "prompt_en": "child · n. (he is a ...)",
+      "prompt_en": "On jest ___ · child",
       "mode": "full_word",
       "answer": "dzieckiem",
       "accepts": [
