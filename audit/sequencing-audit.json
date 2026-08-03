@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-03T13:48:53+02:00",
+  "generated_at": "2026-08-03T14:23:07+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -1501,7 +1501,7 @@
       "teaches_structures": [
         "inst_identity"
       ],
-      "teaches_lemmas_n": 16,
+      "teaches_lemmas_n": 18,
       "uses_structures": [
         "byc_present",
         "inst_identity"

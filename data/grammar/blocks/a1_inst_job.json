@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "P1: identity only — jestem + Inst job. After Acc + place preps.",
+  "note": "P1: identity only — jestem + Inst job. After Acc + place preps. Neuter -em taught via dziecko/dzieckiem (James 2026-08-03); intro endings table m/f/n.",
   "focus_structures": [
     "inst_identity"
   ],
@@ -54,6 +54,36 @@
             "waiter / waitress",
             "kelnerem",
             "kelnerką"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Endings: -em and -ą",
+      "title_pl": "Końcówki: -em i -ą",
+      "body": "Jobs come in masculine/feminine pairs, so you mostly need -em and -ą. Neuter nouns take -em too — the everyday example is dziecko (child): On jest dzieckiem. = He is a child.",
+      "body_pl": "Zawody: m -em, ż -ą. Nijakie też -em: dziecko → dzieckiem.",
+      "table": {
+        "headers": [
+          "Gender",
+          "Ending",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "m.",
+            "-em",
+            "student → studentem · lekarz → lekarzem"
+          ],
+          [
+            "ż.",
+            "-ą",
+            "studentka → studentką · lekarka → lekarką"
+          ],
+          [
+            "n.",
+            "-em",
+            "dziecko → dzieckiem (child)"
           ]
         ]
       }
@@ -132,6 +162,10 @@
     {
       "en": "she is a teacher",
       "pl": "Ona jest nauczycielką"
+    },
+    {
+      "en": "he is a child",
+      "pl": "On jest dzieckiem"
     }
   ],
   "quiz": [
@@ -254,6 +288,16 @@
         "Jest nauczycielką."
       ],
       "answer": "Jesteś nauczycielką."
+    },
+    {
+      "prompt": "He is a child →",
+      "choices": [
+        "On jest dzieckiem.",
+        "On jest dziecko.",
+        "On jest dziecka.",
+        "To jest dzieckiem."
+      ],
+      "answer": "On jest dzieckiem."
     }
   ],
   "type_items": [
@@ -351,6 +395,14 @@
       "answer": "kelnerką",
       "accepts": [
         "kelnerką"
+      ]
+    },
+    {
+      "prompt_en": "child · n. (he is a ...)",
+      "mode": "full_word",
+      "answer": "dzieckiem",
+      "accepts": [
+        "dzieckiem"
       ]
     }
   ],
@@ -460,6 +512,14 @@
         "Jest nauczycielką.",
         "Jest nauczycielką"
       ]
+    },
+    {
+      "prompt_en": "Type: He is a child.",
+      "answer": "On jest dzieckiem.",
+      "accepts": [
+        "On jest dzieckiem.",
+        "On jest dzieckiem"
+      ]
     }
   ],
   "teaches_structures": [
@@ -485,7 +545,9 @@
     "lekarz",
     "lekarka",
     "kelner",
-    "kelnerka"
+    "kelnerka",
+    "dziecko",
+    "dzieckiem"
   ],
   "uses_lemmas": [
     "studentem",
@@ -498,7 +560,10 @@
     "kelnerką",
     "jestem",
     "jesteś",
-    "jest"
+    "jest",
+    "on",
+    "dziecko",
+    "dzieckiem"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

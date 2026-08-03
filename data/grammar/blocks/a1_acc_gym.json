@@ -74,12 +74,6 @@
         ],
         "rows": [
           [
-            "feminine",
-            "kawa · książka · woda · siostra",
-            "kawę · książkę · wodę · siostrę",
-            "yes: -a → -ę"
-          ],
-          [
             "masculine thing",
             "dom · sklep",
             "dom · sklep",
@@ -90,6 +84,12 @@
             "kot",
             "kota",
             "often -a"
+          ],
+          [
+            "feminine",
+            "kawa · książka · woda · siostra",
+            "kawę · książkę · wodę · siostrę",
+            "yes: -a → -ę"
           ],
           [
             "neuter",
