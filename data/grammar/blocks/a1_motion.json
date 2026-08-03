@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "Chunk lane: 4 fixed forms only (Ide/Idziesz/Wracam/Wracasz). Full isc/wracac conjugation = A2. Rides do/z phrases from a1_prep_do_z.",
+  "note": "Chunk lane: 4 fixed forms only (Ide/Idziesz/Wracam/Wracasz). Full isc/wracac conjugation = A2. Rides do/z phrases from a1_prep_do_z. Pisanie = 4 chunk forms only (sentences are Uzycie, James flag 2026-08-03).",
   "focus_structures": [
     "prep_do_gen",
     "prep_z_gen"
@@ -244,38 +244,6 @@
       "answer": "Wracasz",
       "accepts": [
         "Wracasz"
-      ]
-    },
-    {
-      "prompt_en": "I'm going home",
-      "mode": "full_word",
-      "answer": "Idę do domu",
-      "accepts": [
-        "Idę do domu"
-      ]
-    },
-    {
-      "prompt_en": "I'm going to the shop",
-      "mode": "full_word",
-      "answer": "Idę do sklepu",
-      "accepts": [
-        "Idę do sklepu"
-      ]
-    },
-    {
-      "prompt_en": "I'm coming back from school",
-      "mode": "full_word",
-      "answer": "Wracam ze szkoły",
-      "accepts": [
-        "Wracam ze szkoły"
-      ]
-    },
-    {
-      "prompt_en": "I'm coming back from the city",
-      "mode": "full_word",
-      "answer": "Wracam z miasta",
-      "accepts": [
-        "Wracam z miasta"
       ]
     }
   ],
