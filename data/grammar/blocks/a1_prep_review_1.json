@@ -31,7 +31,7 @@
   "title": "Przyimki · powtórka · miasto",
   "title_en": "Prepositions review · around town",
   "tree_node": "a1_prep_review_1",
-  "note": "Review unit (2026-08-02, James design session): taught preps only (w/na-static/do/z/blisko) slotted onto city vocab. park/bank/hotel all -u both cases; centrum indeclinable. No new rules.",
+  "note": "Review unit (2026-08-02, James design session): taught preps only (w/na-static/do/z/blisko) slotted onto city vocab. park/bank/hotel all -u both cases; centrum indeclinable. No new rules. Rebalanced 2026-08-03 (James): every deck spans m -u, fem, neuter, na-fixed; szkola/miasto triplets.",
   "intro": [
     {
       "title": "Same system, new places",
@@ -99,18 +99,6 @@
       "pl": "w parku"
     },
     {
-      "en": "to the park",
-      "pl": "do parku"
-    },
-    {
-      "en": "from the park",
-      "pl": "z parku"
-    },
-    {
-      "en": "in the bank",
-      "pl": "w banku"
-    },
-    {
       "en": "to the bank",
       "pl": "do banku"
     },
@@ -119,28 +107,40 @@
       "pl": "z hotelu"
     },
     {
-      "en": "in the hotel",
-      "pl": "w hotelu"
+      "en": "near the park",
+      "pl": "blisko parku"
     },
     {
       "en": "to the centre",
       "pl": "do centrum"
     },
     {
-      "en": "from the centre",
-      "pl": "z centrum"
-    },
-    {
-      "en": "near the park",
-      "pl": "blisko parku"
-    },
-    {
-      "en": "at the station",
-      "pl": "na dworcu"
+      "en": "at school",
+      "pl": "w szkole"
     },
     {
       "en": "to school",
       "pl": "do szkoły"
+    },
+    {
+      "en": "from school",
+      "pl": "ze szkoły"
+    },
+    {
+      "en": "in the city",
+      "pl": "w mieście"
+    },
+    {
+      "en": "to the city",
+      "pl": "do miasta"
+    },
+    {
+      "en": "from the city",
+      "pl": "z miasta"
+    },
+    {
+      "en": "at the station",
+      "pl": "na dworcu"
     }
   ],
   "quiz": [
@@ -255,59 +255,11 @@
       ]
     },
     {
-      "prompt_en": "to the park",
-      "mode": "full_word",
-      "answer": "do parku",
-      "accepts": [
-        "do parku"
-      ]
-    },
-    {
-      "prompt_en": "from the park",
-      "mode": "full_word",
-      "answer": "z parku",
-      "accepts": [
-        "z parku"
-      ]
-    },
-    {
-      "prompt_en": "in the bank",
-      "mode": "full_word",
-      "answer": "w banku",
-      "accepts": [
-        "w banku"
-      ]
-    },
-    {
       "prompt_en": "to the bank",
       "mode": "full_word",
       "answer": "do banku",
       "accepts": [
         "do banku"
-      ]
-    },
-    {
-      "prompt_en": "from the bank",
-      "mode": "full_word",
-      "answer": "z banku",
-      "accepts": [
-        "z banku"
-      ]
-    },
-    {
-      "prompt_en": "in the hotel",
-      "mode": "full_word",
-      "answer": "w hotelu",
-      "accepts": [
-        "w hotelu"
-      ]
-    },
-    {
-      "prompt_en": "to the hotel",
-      "mode": "full_word",
-      "answer": "do hotelu",
-      "accepts": [
-        "do hotelu"
       ]
     },
     {
@@ -319,14 +271,6 @@
       ]
     },
     {
-      "prompt_en": "to the centre",
-      "mode": "full_word",
-      "answer": "do centrum",
-      "accepts": [
-        "do centrum"
-      ]
-    },
-    {
       "prompt_en": "near the park",
       "mode": "full_word",
       "answer": "blisko parku",
@@ -335,11 +279,67 @@
       ]
     },
     {
-      "prompt_en": "near the bank",
+      "prompt_en": "to the centre",
       "mode": "full_word",
-      "answer": "blisko banku",
+      "answer": "do centrum",
       "accepts": [
-        "blisko banku"
+        "do centrum"
+      ]
+    },
+    {
+      "prompt_en": "at school",
+      "mode": "full_word",
+      "answer": "w szkole",
+      "accepts": [
+        "w szkole"
+      ]
+    },
+    {
+      "prompt_en": "to school",
+      "mode": "full_word",
+      "answer": "do szkoły",
+      "accepts": [
+        "do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "from school",
+      "mode": "full_word",
+      "answer": "ze szkoły",
+      "accepts": [
+        "ze szkoły"
+      ]
+    },
+    {
+      "prompt_en": "in the city",
+      "mode": "full_word",
+      "answer": "w mieście",
+      "accepts": [
+        "w mieście"
+      ]
+    },
+    {
+      "prompt_en": "to the city",
+      "mode": "full_word",
+      "answer": "do miasta",
+      "accepts": [
+        "do miasta"
+      ]
+    },
+    {
+      "prompt_en": "from the city",
+      "mode": "full_word",
+      "answer": "z miasta",
+      "accepts": [
+        "z miasta"
+      ]
+    },
+    {
+      "prompt_en": "at the station",
+      "mode": "full_word",
+      "answer": "na dworcu",
+      "accepts": [
+        "na dworcu"
       ]
     }
   ],
@@ -401,27 +401,27 @@
       ]
     },
     {
-      "prompt_en": "Type: I'm coming back from the centre.",
-      "answer": "Wracam z centrum.",
+      "prompt_en": "Type: I'm coming back from the city.",
+      "answer": "Wracam z miasta.",
       "accepts": [
-        "Wracam z centrum.",
-        "Wracam z centrum"
+        "Wracam z miasta.",
+        "Wracam z miasta"
       ]
     },
     {
-      "prompt_en": "Type: I live near the park.",
-      "answer": "Mieszkam blisko parku.",
+      "prompt_en": "Type: I'm at school.",
+      "answer": "Jestem w szkole.",
       "accepts": [
-        "Mieszkam blisko parku.",
-        "Mieszkam blisko parku"
+        "Jestem w szkole.",
+        "Jestem w szkole"
       ]
     },
     {
-      "prompt_en": "Type: I live near the centre.",
-      "answer": "Mieszkam blisko centrum.",
+      "prompt_en": "Type: I'm coming back from school.",
+      "answer": "Wracam ze szkoły.",
       "accepts": [
-        "Mieszkam blisko centrum.",
-        "Mieszkam blisko centrum"
+        "Wracam ze szkoły.",
+        "Wracam ze szkoły"
       ]
     },
     {
@@ -480,7 +480,14 @@
     "jest",
     "kawa",
     "czy",
-    "blisko"
+    "blisko",
+    "w szkole",
+    "szkole",
+    "w mieście",
+    "mieście",
+    "do miasta",
+    "z miasta",
+    "miasta"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",
