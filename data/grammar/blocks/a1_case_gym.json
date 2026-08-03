@@ -44,27 +44,32 @@
       "table": {
         "headers": [
           "Job",
+          "Case name",
           "Cue",
           "Example"
         ],
         "rows": [
           [
             "naming",
+            "Nominative · mianownik",
             "to jest...",
             "To jest kawa."
           ],
           [
             "object",
+            "Accusative · biernik",
             "have · drink · want",
             "Mam kawę. · Piję kawę."
           ],
           [
             "'of'-form",
+            "Genitive · dopełniacz",
             "nie mam · do/z · dużo · blisko",
             "Nie mam kawy. · Idę do sklepu."
           ],
           [
             "place",
+            "Locative · miejscownik",
             "w / na = where you are",
             "Jestem w sklepie."
           ]
@@ -74,7 +79,7 @@
     {
       "title": "Hear the cue, pick the form",
       "title_pl": "Sygnał → forma",
-      "body": "Ask yourself one question: what is the noun doing?\n\n· Just being named? → basic form (kawa)\n· Being had / drunk / wanted? → -ę form (kawę)\n· After nie mam, do, z, dużo, blisko? → of-form (kawy, sklepu)\n· After w or na, saying where you are? → place form (sklepie, domu)",
+      "body": "Ask yourself one question: what is the noun doing?\n\n· Just being named? → basic form (kawa)\n· Being had / drunk / wanted? → -ę form (kawę)\n· After nie mam, do, z, dużo, blisko? → of-form (kawy, sklepu)\n· After w or na, saying where you are? → place form (sklepie, domu)\n\nThe proper names, if you want them: Nominative = mianownik, Accusative = biernik, Genitive = dopełniacz, Locative = miejscownik. They are labels only — never tested.",
       "body_pl": "Nazywasz? kawa · Masz/pijesz? kawę · nie mam/do/z/dużo/blisko? kawy · w/na? w sklepie."
     }
   ],
