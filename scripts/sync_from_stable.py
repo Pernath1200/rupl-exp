@@ -234,7 +234,7 @@ def build_tree(spine: dict):
     tree = {
         "version": 1,
         "app": "rupl-exp",
-        "title": "Polski · drzewo eksperymentalne",
+        "title": "Polski · RUPL v0.2",
         "levels": ["A1", "A2", "B1", "B2"],
         "levels_locked": ["A2", "B1", "B2"],
         "default_direction": "en_to_pl",

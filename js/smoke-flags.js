@@ -113,7 +113,7 @@ export function formatFlagsForAgent() {
   const list = loadFlags();
   if (!list.length) return "(no smoke flags)";
   const lines = [
-    `RUPL-exp smoke flags · ${list.length} item(s) · ${new Date().toISOString().slice(0, 10)}`,
+    `RUPL v0.2 smoke flags · ${list.length} item(s) · ${new Date().toISOString().slice(0, 10)}`,
     `Process P0 first. Workspace: rupl-exp. Fix accepts/cues/UI only — no drive-by refactors.`,
     "",
   ];
