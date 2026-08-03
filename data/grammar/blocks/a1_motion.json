@@ -247,7 +247,7 @@
       ]
     },
     {
-      "prompt_en": "I am going to... (verb + its little word)",
+      "prompt_en": "I am going to... (verb + preposition)",
       "mode": "full_word",
       "answer": "Idę do",
       "accepts": [
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "prompt_en": "are you going to...? (verb + its little word)",
+      "prompt_en": "are you going to...? (verb + preposition)",
       "mode": "full_word",
       "answer": "Idziesz do",
       "accepts": [
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "prompt_en": "I am coming back from... (verb + its little word)",
+      "prompt_en": "I am coming back from... (verb + preposition)",
       "mode": "full_word",
       "answer": "Wracam z",
       "accepts": [
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "prompt_en": "are you coming back from...? (verb + its little word)",
+      "prompt_en": "are you coming back from...? (verb + preposition)",
       "mode": "full_word",
       "answer": "Wracasz z",
       "accepts": [
