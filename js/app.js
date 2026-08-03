@@ -172,7 +172,6 @@ function focusNodeOnMap(node) {
 function renderRail() {
   const rail = document.getElementById("level-rail");
   const levels = STATE.tree?.levels || ["A1", "A2", "B1", "B2"];
-  if (!isLevelUnlocked(STATE.level)) STATE.level = "A1";
   rail.innerHTML = "";
   for (const lv of levels) {
     const btn = document.createElement("button");
@@ -180,9 +179,19 @@ function renderRail() {
     btn.className = "level-btn";
     const locked = !isLevelUnlocked(lv);
     if (locked) {
-      btn.classList.add("is-locked");
-      btn.disabled = true;
-      btn.innerHTML = `${lv}<span class="tag">zablokowane</span>`;
+      // Preview: a locked level can be browsed — unit list and detail
+      // cards render; practice stays closed (planned nodes have no content).
+      btn.classList.add("is-preview");
+      btn.setAttribute("aria-pressed", lv === STATE.level ? "true" : "false");
+      btn.innerHTML = `${lv}<span class="tag">podgląd</span>`;
+      btn.addEventListener("click", () => {
+        STATE.level = lv;
+        renderAll();
+        STATE.setMapMore?.(true);
+        document
+          .getElementById("path-card")
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
     } else {
       btn.setAttribute("aria-pressed", lv === STATE.level ? "true" : "false");
       btn.textContent = lv;
@@ -682,6 +691,7 @@ async function boot() {
       }
     }
     moreBtn?.addEventListener("click", () => setMapMore(moreWrap.hidden));
+    STATE.setMapMore = setMapMore;
     let moreStored = null;
     try {
       moreStored = localStorage.getItem(MORE_KEY);

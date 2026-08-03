@@ -164,6 +164,18 @@ h1 {
   border-color: var(--locked);
 }
 
+.level-btn.is-preview {
+  opacity: 0.6;
+  border-style: dashed;
+  border-color: var(--locked);
+}
+
+.level-btn.is-preview[aria-pressed="true"] {
+  opacity: 0.85;
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .level-btn .tag {
   display: block;
   font-size: 0.62rem;
