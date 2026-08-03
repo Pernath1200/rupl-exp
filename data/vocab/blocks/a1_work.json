@@ -361,18 +361,18 @@
       ]
     },
     {
-      "en": "I work in an office.",
-      "pl": "Pracuję w biurze.",
+      "en": "I work at home.",
+      "pl": "Pracuję w domu.",
       "accepts": [
-        "Pracuję w biurze.",
-        "Pracuję w biurze"
+        "Pracuję w domu.",
+        "Pracuję w domu"
       ],
       "structures": [
         "present_uje",
         "prep_w_loc"
       ],
       "lemmas": [
-        "biuro"
+        "pracować"
       ]
     },
     {

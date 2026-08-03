@@ -364,11 +364,11 @@
       ]
     },
     {
-      "prompt_en": "Type: I'm in the office.",
-      "answer": "Jestem w biurze.",
+      "prompt_en": "Type: I work in an office.",
+      "answer": "Pracuję w biurze.",
       "accepts": [
-        "Jestem w biurze.",
-        "Jestem w biurze"
+        "Pracuję w biurze.",
+        "Pracuję w biurze"
       ]
     },
     {
@@ -473,7 +473,8 @@
     "jestem",
     "mieszkam",
     "czy",
-    "blisko"
+    "blisko",
+    "pracuję"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",
