@@ -15,7 +15,7 @@
       "quiz"
     ]
   },
-  "note": "Gym idiom (like acc_gym/present_gym): ZERO new material — same taught nouns cycling through Nom/Acc/Gen/Loc against situation cues. Automaticity = choosing under mixed conditions. James's automaticity goal, unit 1 of 2 (rep stations = layer 2, parked).",
+  "note": "Gym idiom (like acc_gym/present_gym): ZERO new material — same taught nouns cycling through Nom/Acc/Gen/Loc against situation cues. Automaticity = choosing under mixed conditions. James's automaticity goal, unit 1 of 2 (rep stations = layer 2, parked). Cues are English-only (Polish lives in frames/answers), matching the inst gap-fill convention.",
   "focus_structures": [
     "miec_acc",
     "gen_endings",
@@ -127,39 +127,39 @@
   ],
   "match": [
     {
-      "en": "naming it · kawa",
+      "en": "naming it · coffee",
       "pl": "kawa"
     },
     {
-      "en": "you drink it · kawa",
+      "en": "you drink it · coffee",
       "pl": "kawę"
     },
     {
-      "en": "you don't have it · kawa",
+      "en": "you don't have it · coffee",
       "pl": "kawy"
     },
     {
-      "en": "you have it · książka",
+      "en": "you have it · book",
       "pl": "książkę"
     },
     {
-      "en": "you're going there · sklep",
+      "en": "you're going there · shop",
       "pl": "do sklepu"
     },
     {
-      "en": "you're there · sklep",
+      "en": "you're there · shop",
       "pl": "w sklepie"
     },
     {
-      "en": "you're there · dom",
+      "en": "you're there · house",
       "pl": "w domu"
     },
     {
-      "en": "you're there · szkoła",
+      "en": "you're there · school",
       "pl": "w szkole"
     },
     {
-      "en": "coming from it · szkoła",
+      "en": "coming from it · school",
       "pl": "ze szkoły"
     },
     {
@@ -167,7 +167,7 @@
       "pl": "do parku"
     },
     {
-      "en": "a lot of it · woda",
+      "en": "a lot of it · water",
       "pl": "dużo wody"
     },
     {
@@ -177,7 +177,7 @@
   ],
   "quiz": [
     {
-      "prompt": "You DON'T have it — kawa →",
+      "prompt": "You DON'T have it — coffee →",
       "choices": [
         "kawy",
         "kawę",
@@ -187,7 +187,7 @@
       "answer": "kawy"
     },
     {
-      "prompt": "You drink it — herbata →",
+      "prompt": "You drink it — tea →",
       "choices": [
         "herbatę",
         "herbaty",
@@ -197,7 +197,7 @@
       "answer": "herbatę"
     },
     {
-      "prompt": "You're GOING there — sklep →",
+      "prompt": "You're GOING there — shop →",
       "choices": [
         "do sklepu",
         "w sklepie",
@@ -207,7 +207,7 @@
       "answer": "do sklepu"
     },
     {
-      "prompt": "You ARE there — miasto →",
+      "prompt": "You ARE there — city →",
       "choices": [
         "w mieście",
         "do miasta",
@@ -217,7 +217,7 @@
       "answer": "w mieście"
     },
     {
-      "prompt": "Naming it — woda →",
+      "prompt": "Naming it — water →",
       "choices": [
         "woda",
         "wodę",
@@ -227,7 +227,7 @@
       "answer": "woda"
     },
     {
-      "prompt": "A lot of it — kawa →",
+      "prompt": "A lot of it — coffee →",
       "choices": [
         "dużo kawy",
         "dużo kawę",
@@ -237,7 +237,7 @@
       "answer": "dużo kawy"
     },
     {
-      "prompt": "You have it — pies →",
+      "prompt": "You have it — dog →",
       "choices": [
         "psa",
         "pies",
@@ -287,7 +287,7 @@
       "answer": "blisko banku"
     },
     {
-      "prompt": "Coming from it — szkoła →",
+      "prompt": "Coming from it — school →",
       "choices": [
         "ze szkoły",
         "z szkoły",
@@ -299,7 +299,7 @@
   ],
   "type_items": [
     {
-      "prompt_en": "Mam ___ · kawa",
+      "prompt_en": "Mam ___ · coffee",
       "mode": "full_word",
       "answer": "kawę",
       "accepts": [
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "prompt_en": "Nie mam ___ · kawa",
+      "prompt_en": "Nie mam ___ · coffee",
       "mode": "full_word",
       "answer": "kawy",
       "accepts": [
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "prompt_en": "Piję ___ · herbata",
+      "prompt_en": "Piję ___ · tea",
       "mode": "full_word",
       "answer": "herbatę",
       "accepts": [
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "prompt_en": "Idę do ___ · sklep",
+      "prompt_en": "Idę do ___ · shop",
       "mode": "full_word",
       "answer": "sklepu",
       "accepts": [
@@ -331,7 +331,7 @@
       ]
     },
     {
-      "prompt_en": "Jestem w ___ · sklep",
+      "prompt_en": "Jestem w ___ · shop",
       "mode": "full_word",
       "answer": "sklepie",
       "accepts": [
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "prompt_en": "To jest ___ · kawa",
+      "prompt_en": "To jest ___ · coffee",
       "mode": "full_word",
       "answer": "kawa",
       "accepts": [
@@ -347,7 +347,7 @@
       ]
     },
     {
-      "prompt_en": "Jestem w ___ · miasto",
+      "prompt_en": "Jestem w ___ · city",
       "mode": "full_word",
       "answer": "mieście",
       "accepts": [
@@ -363,7 +363,7 @@
       ]
     },
     {
-      "prompt_en": "Nie mam ___ · czas",
+      "prompt_en": "Nie mam ___ · time",
       "mode": "full_word",
       "answer": "czasu",
       "accepts": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "prompt_en": "Mam ___ · pies",
+      "prompt_en": "Mam ___ · dog",
       "mode": "full_word",
       "answer": "psa",
       "accepts": [
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "prompt_en": "dużo ___ · woda",
+      "prompt_en": "dużo ___ · water",
       "mode": "full_word",
       "answer": "wody",
       "accepts": [
@@ -387,7 +387,7 @@
       ]
     },
     {
-      "prompt_en": "blisko ___ · dom",
+      "prompt_en": "blisko ___ · house",
       "mode": "full_word",
       "answer": "domu",
       "accepts": [
