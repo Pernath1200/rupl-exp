@@ -35,6 +35,14 @@
         ],
         "rows": [
           [
+            "mam czas",
+            "nie mam czasu"
+          ],
+          [
+            "mam dom",
+            "nie mam domu"
+          ],
+          [
             "mam kawę",
             "nie mam kawy"
           ],
@@ -47,16 +55,16 @@
             "nie mam wody"
           ],
           [
-            "mam czas",
-            "nie mam czasu"
-          ],
-          [
             "mam książkę",
             "nie mam książki"
           ],
           [
-            "mam dom",
-            "nie mam domu"
+            "mam mleko",
+            "nie mam mleka"
+          ],
+          [
+            "mam piwo",
+            "nie mam piwa"
           ]
         ]
       }
