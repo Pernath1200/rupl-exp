@@ -62,7 +62,59 @@
     "a1_case_gym",
     "leaf_work_a1",
     "leaf_ideas_a1",
-    "a1_prep_review_2"
+    "a1_prep_review_2",
+    "a2_past_byc",
+    "a2_time_past",
+    "a2_past_ac",
+    "a2_weather",
+    "a2_past_rest",
+    "a2_past_gym",
+    "a2_smalltalk",
+    "a2_feelings",
+    "a2_plural_nom",
+    "a2_family2",
+    "a2_gen_pl",
+    "a2_station_1",
+    "a2_numbers_gen",
+    "a2_shopping2",
+    "a2_shopping_func",
+    "a2_inst_z",
+    "a2_people2",
+    "a2_jechac",
+    "a2_inst_transport",
+    "a2_transport2",
+    "a2_directions_func",
+    "a2_travel",
+    "a2_countries",
+    "a2_chodzic",
+    "a2_station_2",
+    "a2_sie",
+    "a2_routine",
+    "a2_house",
+    "a2_bedzie",
+    "a2_musiec",
+    "a2_work2",
+    "a2_school2",
+    "a2_aspect",
+    "a2_food2",
+    "a2_ordering_func",
+    "a2_dat_chunks",
+    "a2_health2",
+    "a2_station_3",
+    "a2_o_loc",
+    "a2_tech2",
+    "a2_phone_func",
+    "a2_ordinals_time",
+    "a2_celebrations",
+    "a2_superlatives",
+    "a2_nature2",
+    "a2_sport",
+    "a2_imperative",
+    "a2_questions2",
+    "a2_case_gym2",
+    "a2_prep_review",
+    "a2_wrapup_func",
+    "a2_station_4"
   ],
   "path_order_note": "Path-42: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
   "spine": "data/spine.json",
@@ -1304,6 +1356,890 @@
         "PL_PREP_R2"
       ],
       "pedagogy": "review"
+    },
+    {
+      "id": "a2_past_byc",
+      "domain": "grammar",
+      "label": "Czas przeszły · być",
+      "label_en": "Past tense · to be",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] l-forms: byłem/byłaś/był/była/było/byliśmy/byli. Gender agreement = payoff of A1 gender work. First past unit.",
+      "unit_id": "PL2_01",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_time_past",
+      "domain": "vocab",
+      "label": "Czas · wczoraj i dawniej",
+      "label_en": "Time words for the past",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~12 new: przedwczoraj, w zeszłym tygodniu/miesiącu/roku, dawno, ostatnio, niedawno, wtedy. Feeds past narration.",
+      "unit_id": "PL2_02",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "time"
+    },
+    {
+      "id": "a2_past_ac",
+      "domain": "grammar",
+      "label": "Czas przeszły · -ać",
+      "label_en": "Past tense · -ać class",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] mieszkałem, czytałem, grałem, znałem, kochałem, pracowałem?? NO: -ować past = pracowałem (regular from infinitive) — include. Stem = infinitive minus ć + ł + endings.",
+      "unit_id": "PL2_03",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_weather",
+      "domain": "vocab",
+      "label": "Pogoda i pory roku",
+      "label_en": "Weather & seasons",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: pada, śnieg, deszcz, słońce, wiatr, zimno, ciepło, gorąco, zima/wiosna/lato/jesień, stopnie. Impersonal jest zimno / było zimno pairs with past.",
+      "unit_id": "PL2_04",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "nature"
+    },
+    {
+      "id": "a2_past_rest",
+      "domain": "grammar",
+      "label": "Czas przeszły · reszta",
+      "label_en": "Past tense · other classes",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] piłem, robiłem, lubiłem, mówiłem, miałem, chciałem (vowel shift e→a flagged), musiałem preview. One rule: infinitive stem + ł.",
+      "unit_id": "PL2_05",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_past_gym",
+      "domain": "grammar",
+      "label": "Czas przeszły · trening",
+      "label_en": "Past gym (gender + person)",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Gym idiom, zero new: byłem/byłam discrimination, mixed verbs, ja/ty/on/ona frames. Wczoraj-prompts.",
+      "unit_id": "PL2_06",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_smalltalk",
+      "domain": "grammar",
+      "label": "Rozmówki · Jak było?",
+      "label_en": "Small talk · How was it?",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Chunk unit: Jak było? Było super/fajnie. Co słychać? Wszystko dobrze. Jak minął weekend? Rides past tense.",
+      "unit_id": "PL2_07",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_feelings",
+      "domain": "vocab",
+      "label": "Uczucia i nastroje",
+      "label_en": "Feelings & moods",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: szczęśliwy, smutny, zmęczony, zły, wesoły, spokojny, zdenerwowany, głodny, śpiący. Byłem zmęczony = past+adj payoff.",
+      "unit_id": "PL2_08",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "people"
+    },
+    {
+      "id": "a2_plural_nom",
+      "domain": "grammar",
+      "label": "Liczba mnoga · -y/-i/-a/-e",
+      "label_en": "Plural Nom/Acc (non-virile)",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Noun pl: f/m -y/-i (kawy, sklepy, banki), n -a (miasta, piwa), soft -e. Adjective pl -e. są + to są. Virile (ci studenci) explicitly fenced to B1.",
+      "unit_id": "PL2_09",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_family2",
+      "domain": "vocab",
+      "label": "Rodzina 2",
+      "label_en": "Family extended",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~15 new: dziadek, babcia, wujek, ciocia, kuzyn, żona, mąż, dziecko/dzieci, wnuk, rodzice, rodzeństwo. dzieci/rodzice = plural payoff.",
+      "unit_id": "PL2_10",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "people"
+    },
+    {
+      "id": "a2_gen_pl",
+      "domain": "grammar",
+      "label": "Dopełniacz · liczba mnoga",
+      "label_en": "Genitive plural",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] m -ów (domów, kotów), f/n zero-ending (kaw, szkół, piw — vowel shifts ó flagged), soft -y/-i. Governors already known: dużo, nie ma, blisko.",
+      "unit_id": "PL2_11",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_station_1",
+      "domain": "grammar",
+      "label": "Stacja 1 · tempo",
+      "label_en": "Rep station 1 (~25%)",
+      "kind": "station",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] PLACEHOLDER — rep layer (parked design): ending-cloze, cumulative A1+early-A2 bank, speed emphasis.",
+      "unit_id": "PL2_12",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_numbers_gen",
+      "domain": "grammar",
+      "label": "Liczby 5+ · dopełniacz",
+      "label_en": "Numbers 5+ + Gen pl",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] pięć kaw, sześć domów, ile masz lat payoff; 2-4 + Nom pl vs 5+ + Gen pl rule. The deferred numeral grammar lands here.",
+      "unit_id": "PL2_13",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_shopping2",
+      "domain": "vocab",
+      "label": "Zakupy i pieniądze",
+      "label_en": "Shopping & money",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~15 new: cena, tani, drogi(expensive — collision with droga road flagged), płacić, kosztować, karta, gotówka, reszta, promocja, za darmo.",
+      "unit_id": "PL2_14",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "daily"
+    },
+    {
+      "id": "a2_shopping_func",
+      "domain": "grammar",
+      "label": "Rozmówki · w sklepie",
+      "label_en": "Situations · at the shop",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Ile to kosztuje? Poproszę... Czy jest...? Płacę kartą (Inst preview flagged). Gdzie są...?",
+      "unit_id": "PL2_15",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_inst_z",
+      "domain": "grammar",
+      "label": "Narzędnik · z kimś",
+      "label_en": "Instrumental · with someone",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] z + Inst: z mamą, z bratem, z kolegą (m -em, f -ą — extends jobs unit rule to common nouns). Mieszkam z..., idę z...",
+      "unit_id": "PL2_16",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_people2",
+      "domain": "vocab",
+      "label": "Ludzie · wygląd i charakter",
+      "label_en": "People · looks & character",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: młody, ładny, brzydki, miły, mądry, głupi, śmieszny, poważny, niski, gruby, szczupły, sympatyczny.",
+      "unit_id": "PL2_17",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "people"
+    },
+    {
+      "id": "a2_jechac",
+      "domain": "grammar",
+      "label": "Jechać · jadę czy idę?",
+      "label_en": "jechać · going by vehicle",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] jadę/jedziesz/jedzie grid + idę vs jadę discrimination. Unlocks transport Inst next.",
+      "unit_id": "PL2_18",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_inst_transport",
+      "domain": "grammar",
+      "label": "Narzędnik · czym jedziesz?",
+      "label_en": "Instrumental · transport",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] jadę autobusem/tramwajem/pociągiem/samochodem/rowerem, lecę samolotem preview. Czym? frame.",
+      "unit_id": "PL2_19",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_transport2",
+      "domain": "vocab",
+      "label": "Podróż · logistyka",
+      "label_en": "Travel logistics",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: kierunek, przesiadka, spóźniony, odjazd, przyjazd, bagaż, walizka, paszport, granica, lot.",
+      "unit_id": "PL2_20",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "travel_city"
+    },
+    {
+      "id": "a2_directions_func",
+      "domain": "grammar",
+      "label": "Rozmówki · droga",
+      "label_en": "Situations · directions",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Przepraszam, gdzie jest...? Jak dojść do...? Proszę iść prosto/w lewo/w prawo. To daleko? Rides prosto/lewo/prawo from A1 city.",
+      "unit_id": "PL2_21",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_travel",
+      "domain": "vocab",
+      "label": "Wakacje",
+      "label_en": "Holidays",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: wakacje, podróż, plaża, morze recycled, zwiedzać, zdjęcie recycled, pamiątka, przewodnik, namiot, wycieczka.",
+      "unit_id": "PL2_22",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "travel_city"
+    },
+    {
+      "id": "a2_countries",
+      "domain": "vocab",
+      "label": "Kraje i języki",
+      "label_en": "Countries, nationalities, languages",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~18 new: Polska/Polak/polski, Anglia/Anglik/angielski, Niemcy, Francja, Czechy... + mówię po polsku chunk. Jestem z Anglii = Gen payoff.",
+      "unit_id": "PL2_23",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "world"
+    },
+    {
+      "id": "a2_chodzic",
+      "domain": "grammar",
+      "label": "Iść czy chodzić?",
+      "label_en": "iść vs chodzić (habitual)",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Full iść grid + chodzić grid; codziennie chodzę vs teraz idę. Motion-chunk unit graduates.",
+      "unit_id": "PL2_24",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_station_2",
+      "domain": "grammar",
+      "label": "Stacja 2 · tempo",
+      "label_en": "Rep station 2 (~50%)",
+      "kind": "station",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] PLACEHOLDER — rep layer: past tense + plural + Inst in the bank.",
+      "unit_id": "PL2_25",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_sie",
+      "domain": "grammar",
+      "label": "Czasowniki z się",
+      "label_en": "Reflexive verbs",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] nazywam się (recycled chunk→rule), uczę się, spotykam się z+Inst, czuję się, myję się. się placement kept simple (after verb).",
+      "unit_id": "PL2_26",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_routine",
+      "domain": "vocab",
+      "label": "Dzień codzienny",
+      "label_en": "Daily routine",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: wstaję, budzę się, myję się, ubieram się, śniadanie recycled, wychodzę, wracam recycled, kładę się spać, zwykle, codziennie.",
+      "unit_id": "PL2_27",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "daily"
+    },
+    {
+      "id": "a2_house",
+      "domain": "vocab",
+      "label": "Dom i meble",
+      "label_en": "House & furniture",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: kuchnia, łazienka, sypialnia, salon, łóżko, szafa, biurko, lampa, lodówka, kuchenka, prysznic, balkon, piętro, klucz.",
+      "unit_id": "PL2_28",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "home"
+    },
+    {
+      "id": "a2_bedzie",
+      "domain": "grammar",
+      "label": "Czas przyszły · będę",
+      "label_en": "Future · będę + infinitive",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] będę/będziesz/będzie/będziemy/będą + inf (infinitives long taught via can-trunk). jutro będę pracować. Perfective future = aspect unit's job.",
+      "unit_id": "PL2_29",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_musiec",
+      "domain": "grammar",
+      "label": "Muszę · można · trzeba",
+      "label_en": "Must / one can / one must",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] muszę/musisz + inf grid; impersonal można/trzeba/warto + inf chunks. Completes modal set with umiem/mogę/chcę.",
+      "unit_id": "PL2_30",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_work2",
+      "domain": "vocab",
+      "label": "Praca 2",
+      "label_en": "Work life",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: zarabiać, urlop, klient, zebranie recycled(spotkanie), umowa, szukać pracy chunk, bezrobotny, zawód, doświadczenie.",
+      "unit_id": "PL2_31",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "work"
+    },
+    {
+      "id": "a2_school2",
+      "domain": "vocab",
+      "label": "Nauka",
+      "label_en": "Learning & school",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: uczyć się payoff, egzamin, lekcja, zadanie, błąd, poprawka(!), zdać, oblać, ocena, kurs, ćwiczenie, słówko.",
+      "unit_id": "PL2_32",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "work"
+    },
+    {
+      "id": "a2_aspect",
+      "domain": "grammar",
+      "label": "Pary czasowników",
+      "label_en": "Aspect twins (in the past)",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] kupować/kupić, robić/zrobić, pić/wypić, jeść/zjeść, czytać/przeczytać in past contexts: kupowałem (used to/was buying) vs kupiłem (bought, done). A1 preview cashes in. Full system stays B1.",
+      "unit_id": "PL2_33",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_food2",
+      "domain": "vocab",
+      "label": "Jedzenie 2 · restauracja",
+      "label_en": "Food 2 · restaurant",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~18 new: menu, rachunek, zamawiać, kelner recycled, danie, zupa recycled, deser, napój, smaczny, słodki, ostry, świeży, kuchnia polska.",
+      "unit_id": "PL2_34",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "food"
+    },
+    {
+      "id": "a2_ordering_func",
+      "domain": "grammar",
+      "label": "Rozmówki · restauracja",
+      "label_en": "Situations · ordering",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Poproszę zupę. Co pan/pani poleca? (polite forms as fixed chunks). Rachunek poproszę. Smacznego!",
+      "unit_id": "PL2_35",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_dat_chunks",
+      "domain": "grammar",
+      "label": "Mi się podoba",
+      "label_en": "Dative chunks · mi/ci",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] NOT full dative: mi/ci chunks only. podoba mi się, smakuje mi, daj mi, pomóż mi. Full noun Dat = B1.",
+      "unit_id": "PL2_36",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_health2",
+      "domain": "vocab",
+      "label": "Zdrowie 2 · boli mnie",
+      "label_en": "Health 2 · aches",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: boli mnie głowa/brzuch/gardło chunk-frame, kaszel recycled, katar, recepta, badanie, zdrowy tryb życia lite.",
+      "unit_id": "PL2_37",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "health"
+    },
+    {
+      "id": "a2_station_3",
+      "domain": "grammar",
+      "label": "Stacja 3 · tempo",
+      "label_en": "Rep station 3 (~75%)",
+      "kind": "station",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] PLACEHOLDER — rep layer: aspect pairs + dative chunks in bank.",
+      "unit_id": "PL2_38",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_o_loc",
+      "domain": "grammar",
+      "label": "O czym mówisz?",
+      "label_en": "o + Locative · about",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] mówię o pracy, myślę o domu, o tobie/o mnie chunks. Loc recycled with a second governor — case generalisation moment.",
+      "unit_id": "PL2_39",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_tech2",
+      "domain": "vocab",
+      "label": "Internet i telefon",
+      "label_en": "Internet & phone",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: strona, hasło, wiadomość, dzwonić, oddzwonić, wysyłać, ładować, wifi, ekran, ustawienia.",
+      "unit_id": "PL2_40",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "tech"
+    },
+    {
+      "id": "a2_phone_func",
+      "domain": "grammar",
+      "label": "Rozmówki · telefon i SMS",
+      "label_en": "Situations · calls & messages",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Halo, słucham? Oddzwonię później. Napisz mi SMS-a. Umówimy się na...? Przepraszam, nie słyszę.",
+      "unit_id": "PL2_41",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_ordinals_time",
+      "domain": "grammar",
+      "label": "Która godzina?",
+      "label_en": "Ordinals & telling time",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] pierwszy-dwunasty + o której? o trzeciej (Loc fem chunk). Half-past/quarter chunks (wpół do). Chunk lane, no full ordinal declension.",
+      "unit_id": "PL2_42",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_celebrations",
+      "domain": "vocab",
+      "label": "Święta i daty",
+      "label_en": "Celebrations & dates",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: urodziny, prezent, impreza, gość recycled, życzenia, tort, Boże Narodzenie, Wielkanoc, sylwester, zapraszać. Kiedy masz urodziny? + dates chunk.",
+      "unit_id": "PL2_43",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "social"
+    },
+    {
+      "id": "a2_superlatives",
+      "domain": "grammar",
+      "label": "Naj- · stopniowanie 2",
+      "label_en": "Superlatives + od-comparison",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] najlepszy/największy/najstarszy over known comparatives; X jest większy od Y (od+Gen alternative to niż). Small closed set.",
+      "unit_id": "PL2_44",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_nature2",
+      "domain": "vocab",
+      "label": "Natura · wycieczki",
+      "label_en": "Nature & trips out",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: góry, jezioro, las, rzeka, ścieżka, widok, świeże powietrze, grzyby(!), spacer recycled, w górach chunk (Loc pl preview as fixed phrase).",
+      "unit_id": "PL2_45",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "nature"
+    },
+    {
+      "id": "a2_sport",
+      "domain": "vocab",
+      "label": "Sport i hobby",
+      "label_en": "Sport & hobbies",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: pływać, biegać, jeździć na rowerze, siłownia, mecz, drużyna, wygrywać, przegrywać, trenować, boisko, basen.",
+      "unit_id": "PL2_46",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "daily"
+    },
+    {
+      "id": "a2_imperative",
+      "domain": "grammar",
+      "label": "Tryb rozkazujący · chunki",
+      "label_en": "Imperative chunks",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] daj, idź, czekaj, patrz, słuchaj, weź, proszę + inf as polite fallback. Chunk lane — full imperative morphology B1.",
+      "unit_id": "PL2_47",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_questions2",
+      "domain": "grammar",
+      "label": "Pytania 2 · dlaczego, który",
+      "label_en": "Questions 2",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] dlaczego/bo, kiedy, ile, który/która/które (Nom agreement only). Question-word completion.",
+      "unit_id": "PL2_48",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_case_gym2",
+      "domain": "grammar",
+      "label": "Przypadki · trening 2",
+      "label_en": "Case gym 2 (all cases + plural)",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] Gym: Nom/Acc/Gen/Loc/Inst sg + Nom/Gen pl mixed, situation cues, zero new. The A2 automaticity checkpoint.",
+      "unit_id": "PL2_49",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_prep_review",
+      "domain": "grammar",
+      "label": "Przyimki · powtórka A2",
+      "label_en": "Preposition review · A2 vocab",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] A1-review-unit pattern on A2 vocab: w górach, na plaży, do Polski, z pracy... + o+Loc + z+Inst woven in.",
+      "unit_id": "PL2_50",
+      "pedagogy": "teach",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_wrapup_func",
+      "domain": "grammar",
+      "label": "Rozmówki · powtórka",
+      "label_en": "Situations · combined review",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] All five situation sets recombined: shop→restaurant→directions→phone→small talk. A2 can-do check.",
+      "unit_id": "PL2_51",
+      "pedagogy": "chunk",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "a2_station_4",
+      "domain": "grammar",
+      "label": "Stacja 4 · tempo",
+      "label_en": "Rep station 4 (100%)",
+      "kind": "station",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[A2 DRAFT SPINE 2026-08-03] PLACEHOLDER — rep layer: full A1+A2 cumulative bank. Exit velocity check.",
+      "unit_id": "PL2_52",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
     }
   ],
   "synced_from": {
