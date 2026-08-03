@@ -232,9 +232,12 @@ function renderUpNext() {
         : ""
     }
   `;
-  el.querySelector("#btn-continue-next")?.addEventListener("click", () =>
-    openNode(node),
-  );
+  el.querySelector("#btn-continue-next")?.addEventListener("click", () => {
+    // Never launch practice directly (James): reveal the unit's detail
+    // card and let the learner start from its Ćwicz button.
+    STATE.setMapMore?.(true);
+    focusNodeOnMap(node);
+  });
 }
 
 function renderRoots() {
