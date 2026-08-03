@@ -17,7 +17,8 @@
         },
         {
           "en": "part",
-          "pl": "część"
+          "pl": "część",
+          "gender": "f"
         },
         {
           "en": "place",
@@ -178,7 +179,8 @@
         },
         {
           "en": "skill",
-          "pl": "umiejętność"
+          "pl": "umiejętność",
+          "gender": "f"
         },
         {
           "en": "sound",
@@ -218,11 +220,13 @@
         },
         {
           "en": "past",
-          "pl": "przeszłość"
+          "pl": "przeszłość",
+          "gender": "f"
         },
         {
           "en": "future",
-          "pl": "przyszłość"
+          "pl": "przyszłość",
+          "gender": "f"
         },
         {
           "en": "century",
@@ -261,7 +265,8 @@
         },
         {
           "en": "visitor",
-          "pl": "gość"
+          "pl": "gość",
+          "gender": "m"
         }
       ]
     }
