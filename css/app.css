@@ -164,6 +164,12 @@ h1 {
   border-color: var(--locked);
 }
 
+.unit-gloss {
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+}
+
 .level-btn.is-preview {
   opacity: 0.6;
   border-style: dashed;

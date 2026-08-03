@@ -364,6 +364,11 @@ export function startPractice(pack, root, opts) {
           <div class="stage-banner-title">${ban.title}</div>
           <div class="stage-banner-sub">${ban.sub}</div>
         </div>
+        ${
+          pack.title_en
+            ? `<div class="unit-gloss">${esc(pack.title_en)}</div>`
+            : ""
+        }
       </div>`;
   }
 

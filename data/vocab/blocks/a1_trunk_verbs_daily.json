@@ -16,86 +16,113 @@
           "pl": "Mieszkam w Warszawie.",
           "gap": "____ w Warszawie.",
           "gap_answer": "Mieszkam",
-          "accepts": ["Mieszkam w Warszawie."]
+          "accepts": [
+            "Mieszkam w Warszawie."
+          ]
         },
         {
           "en": "I work in an office.",
           "pl": "Pracuję w biurze.",
           "gap": "____ w biurze.",
           "gap_answer": "Pracuję",
-          "accepts": ["Pracuję w biurze."]
+          "accepts": [
+            "Pracuję w biurze."
+          ]
         },
         {
           "en": "I go to school.",
           "pl": "Idę do szkoły.",
           "gap": "____ do szkoły.",
           "gap_answer": "Idę",
-          "accepts": ["Idę do szkoły.", "Chodzę do szkoły."]
+          "accepts": [
+            "Idę do szkoły.",
+            "Chodzę do szkoły."
+          ]
         },
         {
           "en": "I eat breakfast.",
           "pl": "Jem śniadanie.",
           "gap": "____ śniadanie.",
           "gap_answer": "Jem",
-          "accepts": ["Jem śniadanie."]
+          "accepts": [
+            "Jem śniadanie."
+          ]
         },
         {
           "en": "I drink coffee.",
           "pl": "Piję kawę.",
           "gap": "____ kawę.",
           "gap_answer": "Piję",
-          "accepts": ["Piję kawę."]
+          "accepts": [
+            "Piję kawę."
+          ]
         },
         {
           "en": "I sleep well.",
           "pl": "Śpię dobrze.",
           "gap": "____ dobrze.",
           "gap_answer": "Śpię",
-          "accepts": ["Śpię dobrze."]
+          "accepts": [
+            "Śpię dobrze."
+          ]
         },
         {
           "en": "I read a book.",
           "pl": "Czytam książkę.",
           "gap": "____ książkę.",
           "gap_answer": "Czytam",
-          "accepts": ["Czytam książkę."]
+          "accepts": [
+            "Czytam książkę."
+          ]
         },
         {
           "en": "I write an email.",
           "pl": "Piszę e-mail.",
           "gap": "____ e-mail.",
           "gap_answer": "Piszę",
-          "accepts": ["Piszę e-mail.", "Piszę maila."]
+          "accepts": [
+            "Piszę e-mail.",
+            "Piszę maila."
+          ]
         },
         {
           "en": "I buy bread.",
           "pl": "Kupuję chleb.",
           "gap": "____ chleb.",
           "gap_answer": "Kupuję",
-          "accepts": ["Kupuję chleb."]
+          "accepts": [
+            "Kupuję chleb."
+          ]
         },
         {
           "en": "I open the door.",
           "pl": "Otwieram drzwi.",
           "gap": "____ drzwi.",
           "gap_answer": "Otwieram",
-          "accepts": ["Otwieram drzwi."]
+          "accepts": [
+            "Otwieram drzwi."
+          ]
         },
         {
           "en": "I close the window.",
           "pl": "Zamykam okno.",
           "gap": "____ okno.",
           "gap_answer": "Zamykam",
-          "accepts": ["Zamykam okno."]
+          "accepts": [
+            "Zamykam okno."
+          ]
         },
         {
           "en": "I wait for the bus.",
           "pl": "Czekam na autobus.",
           "gap": "____ na autobus.",
           "gap_answer": "Czekam",
-          "accepts": ["Czekam na autobus."]
+          "accepts": [
+            "Czekam na autobus."
+          ]
         }
       ]
     }
-  ]
+  ],
+  "title_en": "Daily verbs"
 }

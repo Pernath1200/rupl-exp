@@ -683,6 +683,11 @@ export function startPractice(root, block, opts) {
     return `
       <div class="practice-head">
         <div class="practice-title">${escapeHtml(block.title)}</div>
+        ${
+          block.title_en
+            ? `<div class="unit-gloss">${escapeHtml(block.title_en)}</div>`
+            : ""
+        }
         <div class="practice-meta">${metaBits}</div>
       </div>
       ${
