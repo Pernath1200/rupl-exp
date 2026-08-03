@@ -1,7 +1,9 @@
-# RUPL-exp — Charter (experimental)
+# RUPL · Charter **v0.2**
 
-**Status:** open 2026-07-28 · experiment · grammar + vocab in one shell  
+**Status:** active · grammar + vocab in one shell  
 **Folder:** `projects/rupl-exp` only  
+**Live:** https://pernath1200.github.io/rupl-exp/  
+**Fallback:** tag `v0.1` / `fallback/v0.1` — [FALLBACK.md](./FALLBACK.md)  
 **Does not replace:** `rupl2` (grammar) · `rupl3` (vocab)
 
 ---

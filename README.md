@@ -1,14 +1,25 @@
-# RUPL-exp · experimental Polish tree
+# RUPL · **v0.2** (unified Polish)
 
-Grammar (**RUPL2**) + vocab (**RUPL3**) in **one** shell for smoke demos and weekend testing.
+Grammar (**RUPL2**) + vocab (**RUPL3**) in **one** shell.
 
-**Live (friends):** [https://pernath1200.github.io/rupl-exp/](https://pernath1200.github.io/rupl-exp/)  
+**Live:** [https://pernath1200.github.io/rupl-exp/](https://pernath1200.github.io/rupl-exp/)  
 **Repo:** [Pernath1200/rupl-exp](https://github.com/Pernath1200/rupl-exp)
+
+| | |
+|--|--|
+| **Product version** | **v0.2** (active) |
+| **Fallback** | tag **`v0.1`** · branch **`fallback/v0.1`** — [FALLBACK.md](./FALLBACK.md) |
+| **Progress key** | `rupl-exp-v0.1-progress` (do not rename) |
+| **Agents** | [AGENTS.md](./AGENTS.md) |
 
 Stable siblings (separate apps):  
 [RUPL2 grammar](https://pernath1200.github.io/rupl2/) · [RUPL3 vocab](https://pernath1200.github.io/rupl3/)
 
 Read **[CHARTER.md](./CHARTER.md)** before changing scope.
+
+```powershell
+py scripts\smoke.py
+```
 
 ## GitHub Pages
 
@@ -64,4 +75,5 @@ Pages rebuilds in about a minute.
 
 ## Version
 
-**v0.1-exp** · prototype for friend feedback · does not replace rupl2/rupl3
+**v0.2** · active unified shell · does not replace rupl2/rupl3  
+**v0.1** · fallback save only
