@@ -742,7 +742,7 @@ export function startPractice(pack, root, opts) {
       <p class="practice-hint">${
         wrongN > 0
           ? `${wrongN} błędów · powtórz albo idź do Pisania`
-          : "Wszystko dobrze · dalej: Pisanie"
+          : "Wszystko poprawnie · dalej: Pisanie"
       }${state.quizRetryPass ? " · runda poprawkowa" : ""}</p>
       <div class="nav">
         ${
@@ -846,7 +846,7 @@ export function startPractice(pack, root, opts) {
       });
       const fb = root.querySelector("#feedback");
       fb.className = "feedback " + (good ? "ok" : "bad");
-      fb.textContent = good ? "Tak." : `→ ${item.answer}`;
+      fb.textContent = good ? "✓ Poprawnie" : `→ ${item.answer}`;
       state.enterAdvance = goNextQ;
       // Wrong answers wait for Enter so the correction can be read.
       if (good) advanceTimer = setTimeout(goNextQ, 900);
@@ -960,8 +960,8 @@ export function startPractice(pack, root, opts) {
         wrongN > 0
           ? `${wrongN} błędów · powtórz albo idź dalej`
           : kind === "type"
-            ? "Wszystko dobrze · dalej: Użycie"
-            : "Wszystko dobrze · podsumowanie"
+            ? "Wszystko poprawnie · dalej: Użycie"
+            : "Wszystko poprawnie · podsumowanie"
       }${retryPass ? " · runda poprawkowa" : ""}</p>
       <div class="nav">
         ${
@@ -1109,8 +1109,8 @@ export function startPractice(pack, root, opts) {
         fb.className = "feedback ok";
         fb.textContent =
           (isGap
-            ? `Tak. · ${fullFormOf(item) || item.stem + item.ending}`
-            : "Tak.") + (retype ? " (przepisane)" : "");
+            ? `✓ Poprawnie · ${fullFormOf(item) || item.stem + item.ending}`
+            : "✓ Poprawnie") + (retype ? " (przepisane)" : "");
       } else {
         if (!retype) {
           if (kind === "type") {

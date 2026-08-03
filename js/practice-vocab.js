@@ -937,7 +937,7 @@ export function startPractice(root, block, opts) {
           <div class="sub">${
             wrongN > 0
               ? `${wrongN} do powtórki · lub idź do Słowa`
-              : "Wszystko dobrze · dalej: Słowo"
+              : "Wszystko poprawnie · dalej: Słowo"
           }${q.retryPass ? " (runda poprawkowa)" : ""} · Enter = dalej</div>
           <div class="nav">
             ${
@@ -1109,7 +1109,7 @@ export function startPractice(root, block, opts) {
       const sub =
         wrongN > 0
           ? `${wrongN} do powtórki · lub idź do Zdania`
-          : "Wszystko dobrze · dalej: Zdanie";
+          : "Wszystko poprawnie · dalej: Zdanie";
       stage.innerHTML = `
         <div class="q">
           <div class="prompt">Pisanie skończone</div>
@@ -1210,7 +1210,7 @@ export function startPractice(root, block, opts) {
         t.answered = true;
         t.missedThis = false;
         t.score++;
-        fb.textContent = "✓ Dobrze";
+        fb.textContent = "✓ Poprawnie";
         fb.className = "fb good";
         afterGrade();
         return;
@@ -1224,7 +1224,7 @@ export function startPractice(root, block, opts) {
         t.answered = true;
         t.missedThis = false;
         t.score++;
-        fb.innerHTML = `✓ Dobrze — z ogonkami: <span class="reveal">${escapeHtml(answer)}</span>${gb(answer)}`;
+        fb.innerHTML = `✓ Poprawnie — z ogonkami: <span class="reveal">${escapeHtml(answer)}</span>${gb(answer)}`;
         fb.className = "fb good";
         afterGrade();
         return;
@@ -1414,7 +1414,7 @@ export function startPractice(root, block, opts) {
       t.missedThis = false;
       if (isCorrectAnswer(inp.value, it, it.pl)) {
         t.score++;
-        fb.textContent = "✓ Dobrze";
+        fb.textContent = "✓ Poprawnie";
         fb.className = "fb good";
       } else {
         t.missedThis = true;
