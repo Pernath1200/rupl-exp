@@ -72,6 +72,7 @@
     "a2_smalltalk",
     "a2_feelings",
     "a2_plural_nom",
+    "a2_past_plural",
     "a2_family2",
     "a2_gen_pl",
     "a2_station_1",
@@ -116,7 +117,7 @@
     "a2_wrapup_func",
     "a2_station_4"
   ],
-  "path_order_note": "Path-42: full A1 canopy wired along carriers; four present classes; numbers/time as chunk-lane naming; gyms after support targets.",
+  "path_order_note": "Path-50: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -1366,9 +1367,10 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
+      "content": "grammar/blocks/a2_past_byc.json",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] l-forms: byłem/byłaś/był/była/było/byliśmy/byli. Gender agreement = payoff of A1 gender work. First past unit.",
+      "note": "First past unit — SINGULAR only, both genders in production (James 2026-08-04); plural split to a2_past_plural after plural-Nom. Gender agreement = payoff of A1 gender work.",
       "unit_id": "PL2_01",
       "pedagogy": "teach",
       "root": "forms",
@@ -1411,15 +1413,16 @@
     {
       "id": "a2_weather",
       "domain": "vocab",
-      "label": "Pogoda i pory roku",
-      "label_en": "Weather & seasons",
+      "label": "Pogoda",
+      "label_en": "Weather",
       "kind": "leaf",
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
+      "content": "vocab/blocks/a2_weather.json",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: pada, śnieg, deszcz, słońce, wiatr, zimno, ciepło, gorąco, zima/wiosna/lato/jesień, stopnie. Impersonal jest zimno / było zimno pairs with past.",
+      "note": "Frames pack riding a2_past_byc: pada→padał pairs + 6 new words (zimno, mgła, burza, mróz, upał, pochmurno). Nouns/seasons recycled from a1_nature — NOT re-taught.",
       "unit_id": "PL2_04",
       "pedagogy": "use",
       "parent": "trunk",
@@ -1506,6 +1509,23 @@
       "practice": "grammar",
       "note": "[A2 DRAFT SPINE 2026-08-03] Noun pl: f/m -y/-i (kawy, sklepy, banki), n -a (miasta, piwa), soft -e. Adjective pl -e. są + to są. Virile (ci studenci) explicitly fenced to B1.",
       "unit_id": "PL2_09",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "a2_past_plural",
+      "domain": "grammar",
+      "label": "Czas przeszły · liczba mnoga",
+      "label_en": "Past tense · we/you/they",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[SPLIT from a2_past_byc, James 2026-08-04] byliśmy/byłyśmy, byliście/byłyście, byli/były — taught as a simple people-vs-everything-else rule (byli = groups with a man in them, były = everyone/everything else). Lands after plural-Nom so plural subjects exist. Full virile system stays B1.",
+      "unit_id": "PL2_09B",
       "pedagogy": "teach",
       "root": "forms",
       "tree_part": "forms"

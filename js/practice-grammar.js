@@ -19,6 +19,7 @@ import {
   grammarBest,
 } from "./progress.js";
 import { setSmokeContext } from "./smoke-flags.js";
+import { attachExplain } from "./explain.js";
 
 /** Alias for dual-engine shell */
 export { startPractice as startGrammarPractice };
@@ -847,6 +848,12 @@ export function startPractice(pack, root, opts) {
       const fb = root.querySelector("#feedback");
       fb.className = "feedback " + (good ? "ok" : "bad");
       fb.textContent = good ? "✓ Poprawnie" : `→ ${item.answer}`;
+      attachExplain(fb, item, () => {
+        if (advanceTimer) {
+          clearTimeout(advanceTimer);
+          advanceTimer = null;
+        }
+      });
       state.enterAdvance = goNextQ;
       // Wrong answers wait for Enter so the correction can be read.
       if (good) advanceTimer = setTimeout(goNextQ, 900);
@@ -1140,6 +1147,12 @@ export function startPractice(pack, root, opts) {
         fb.appendChild(document.createElement("br"));
         fb.appendChild(fix);
       }
+      attachExplain(fb, item, () => {
+        if (advanceTimer) {
+          clearTimeout(advanceTimer);
+          advanceTimer = null;
+        }
+      });
       input.disabled = true;
       btn.textContent = "Dalej →";
       // No btn.onclick here — the persistent onEnter click listener already

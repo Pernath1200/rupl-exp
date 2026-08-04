@@ -1,0 +1,469 @@
+{
+  "id": "a2_past_byc",
+  "title": "Czas przeszły · być",
+  "title_en": "Past tense · to be",
+  "level": "A2",
+  "tree_node": "a2_past_byc",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "First past unit. SINGULAR ONLY — plural (byliśmy/byli/były) split to a2_past_plural after plural-Nom (James 2026-08-04). Full both-gender production (James 2026-08-04): Dad types byłam/byłaś too. Imperfective world — no aspect talk until a2_aspect. Gender cue convention: (m)/(f) as in inst_job.",
+  "focus_structures": [
+    "past_byc"
+  ],
+  "teaches_structures": [
+    "past_byc"
+  ],
+  "uses_structures": [
+    "past_byc",
+    "prep_w_loc",
+    "zgoda",
+    "byc_adj",
+    "byc_present",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Yesterday: your first past tense",
+      "title_pl": "Wczoraj: pierwszy czas przeszły",
+      "body": "The past of być (to be) fits in one small table — and it does something English can't: the ending tells you who was there, and whether they are male or female.\n\nThe ł is the past marker. Everything after it says who.",
+      "body_pl": "Czas przeszły być: ł = przeszłość, końcówka = osoba.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "byłem",
+            "I was",
+            "man speaking (m)"
+          ],
+          [
+            "byłam",
+            "I was",
+            "woman speaking (f)"
+          ],
+          [
+            "byłeś",
+            "you were",
+            "to a man (m)"
+          ],
+          [
+            "byłaś",
+            "you were",
+            "to a woman (f)"
+          ],
+          [
+            "był",
+            "he was",
+            "on · tata, pies, film"
+          ],
+          [
+            "była",
+            "she was",
+            "ona · mama, kawa"
+          ],
+          [
+            "było",
+            "it was",
+            "ono · dziecko, piwo"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The pattern under it",
+      "title_pl": "Wzór",
+      "body": "The stem był- never changes. Men's forms take -em / -eś, women's take -am / -aś — the same -a that marks feminine nouns (mama, kawa).\n\nThis is the payoff of all your gender work: things use their gender too. Kawa była (f). Piwo było (n). Film był (m). The noun's gender picks the verb form — automatically, by the badges you already know.\n\nWe were / they were come later, in their own unit. Singular first.",
+      "body_pl": "był- + em/am/eś/aś/–/a/o. Rzeczy też: kawa była, piwo było, film był.",
+      "examples": [
+        {
+          "en": "The coffee was good.",
+          "pl": "Kawa była dobra."
+        },
+        {
+          "en": "The beer was good.",
+          "pl": "Piwo było dobre."
+        },
+        {
+          "en": "The film was good.",
+          "pl": "Film był dobry."
+        }
+      ]
+    },
+    {
+      "title": "Where were you?",
+      "title_pl": "Gdzie byłeś?",
+      "body": "Every place you can be in (w domu, w pracy, w szkole...) now works in the past. Add wczoraj (yesterday) and you are telling stories.",
+      "body_pl": "Wszystkie miejsca z w + miejscownik działają w przeszłości.",
+      "examples": [
+        {
+          "en": "I was at home. (m)",
+          "pl": "Byłem w domu."
+        },
+        {
+          "en": "Where were you yesterday? (to a woman)",
+          "pl": "Gdzie byłaś wczoraj?"
+        },
+        {
+          "en": "Mum was at work.",
+          "pl": "Mama była w pracy."
+        },
+        {
+          "en": "The child was at school.",
+          "pl": "Dziecko było w szkole."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was (m)",
+      "pl": "byłem"
+    },
+    {
+      "en": "I was (f)",
+      "pl": "byłam"
+    },
+    {
+      "en": "you were (m)",
+      "pl": "byłeś"
+    },
+    {
+      "en": "you were (f)",
+      "pl": "byłaś"
+    },
+    {
+      "en": "he was",
+      "pl": "był"
+    },
+    {
+      "en": "she was",
+      "pl": "była"
+    },
+    {
+      "en": "it was",
+      "pl": "było"
+    },
+    {
+      "en": "Mum was at home.",
+      "pl": "Mama była w domu."
+    },
+    {
+      "en": "Dad was at work.",
+      "pl": "Tata był w pracy."
+    },
+    {
+      "en": "Where were you? (m)",
+      "pl": "Gdzie byłeś?"
+    },
+    {
+      "en": "The child was at school.",
+      "pl": "Dziecko było w szkole."
+    },
+    {
+      "en": "I was in the park. (f)",
+      "pl": "Byłam w parku."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I was (m) →",
+      "choices": [
+        "byłem",
+        "byłam",
+        "byłeś",
+        "był"
+      ],
+      "answer": "byłem"
+    },
+    {
+      "prompt": "I was (f) →",
+      "choices": [
+        "byłam",
+        "byłem",
+        "byłaś",
+        "była"
+      ],
+      "answer": "byłam"
+    },
+    {
+      "prompt": "Mama ___ w domu.",
+      "choices": [
+        "była",
+        "był",
+        "było",
+        "byłam"
+      ],
+      "answer": "była",
+      "explain": "mama is feminine, so its past verb takes -a: mama była. The noun's gender picks the form."
+    },
+    {
+      "prompt": "Tata ___ w pracy.",
+      "choices": [
+        "był",
+        "była",
+        "było",
+        "byłeś"
+      ],
+      "answer": "był",
+      "explain": "tata ends in -a but is a man — natural gender wins for people: tata był (same trick as kolega)."
+    },
+    {
+      "prompt": "Dziecko ___ w szkole.",
+      "choices": [
+        "było",
+        "był",
+        "była",
+        "byłem"
+      ],
+      "answer": "było",
+      "explain": "dziecko is neuter (n.), and neuter past takes -o: dziecko było."
+    },
+    {
+      "prompt": "you were (f) →",
+      "choices": [
+        "byłaś",
+        "byłeś",
+        "byłam",
+        "była"
+      ],
+      "answer": "byłaś"
+    },
+    {
+      "prompt": "Fix: Ona był w sklepie. →",
+      "choices": [
+        "była",
+        "był",
+        "było",
+        "byłaś"
+      ],
+      "answer": "była"
+    },
+    {
+      "prompt": "The ł in byłem tells you it is... →",
+      "choices": [
+        "past",
+        "present",
+        "a question",
+        "feminine"
+      ],
+      "answer": "past"
+    },
+    {
+      "prompt": "Piwo ___ dobre.",
+      "choices": [
+        "było",
+        "był",
+        "była",
+        "byłeś"
+      ],
+      "answer": "było"
+    },
+    {
+      "prompt": "Kawa ___ dobra.",
+      "choices": [
+        "była",
+        "było",
+        "był",
+        "byłam"
+      ],
+      "answer": "była"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was (m)",
+      "mode": "full_word",
+      "answer": "byłem",
+      "accepts": [
+        "byłem"
+      ]
+    },
+    {
+      "prompt_en": "I was (f)",
+      "mode": "full_word",
+      "answer": "byłam",
+      "accepts": [
+        "byłam"
+      ],
+      "explain": "Women's forms take -a- (byłam, byłaś) — the same a that marks feminine nouns like mama and kawa."
+    },
+    {
+      "prompt_en": "you were (m)",
+      "mode": "full_word",
+      "answer": "byłeś",
+      "accepts": [
+        "byłeś"
+      ]
+    },
+    {
+      "prompt_en": "you were (f)",
+      "mode": "full_word",
+      "answer": "byłaś",
+      "accepts": [
+        "byłaś"
+      ]
+    },
+    {
+      "prompt_en": "he was",
+      "mode": "full_word",
+      "answer": "był",
+      "accepts": [
+        "był"
+      ],
+      "explain": "No ending at all = he. Then -a = she (była), -o = it (było) — the noun-gender vowels you know."
+    },
+    {
+      "prompt_en": "she was",
+      "mode": "full_word",
+      "answer": "była",
+      "accepts": [
+        "była"
+      ]
+    },
+    {
+      "prompt_en": "it was",
+      "mode": "full_word",
+      "answer": "było",
+      "accepts": [
+        "było"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum was at home.",
+      "answer": "Mama była w domu.",
+      "accepts": [
+        "Mama była w domu.",
+        "Mama była w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was at work.",
+      "answer": "Tata był w pracy.",
+      "accepts": [
+        "Tata był w pracy.",
+        "Tata był w pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I was at the bank. (m)",
+      "answer": "Byłem w banku.",
+      "accepts": [
+        "Byłem w banku.",
+        "Byłem w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I was at the shop. (f)",
+      "answer": "Byłam w sklepie.",
+      "accepts": [
+        "Byłam w sklepie.",
+        "Byłam w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where were you yesterday? (to a man)",
+      "answer": "Gdzie byłeś wczoraj?",
+      "accepts": [
+        "Gdzie byłeś wczoraj?",
+        "Gdzie byłeś wczoraj",
+        "Gdzie wczoraj byłeś?",
+        "Gdzie wczoraj byłeś"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child was at school.",
+      "answer": "Dziecko było w szkole.",
+      "accepts": [
+        "Dziecko było w szkole.",
+        "Dziecko było w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: The dog was in the park.",
+      "answer": "Pies był w parku.",
+      "accepts": [
+        "Pies był w parku.",
+        "Pies był w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coffee was good.",
+      "answer": "Kawa była dobra.",
+      "accepts": [
+        "Kawa była dobra.",
+        "Kawa była dobra"
+      ],
+      "explain": "Double agreement: kawa is feminine, so both the verb and the adjective take -a: była dobra."
+    },
+    {
+      "prompt_en": "Type: Were you at home yesterday? (to a woman)",
+      "answer": "Byłaś wczoraj w domu?",
+      "accepts": [
+        "Byłaś wczoraj w domu?",
+        "Byłaś wczoraj w domu",
+        "Byłaś w domu wczoraj?",
+        "Byłaś w domu wczoraj",
+        "Czy byłaś wczoraj w domu?",
+        "Czy byłaś wczoraj w domu",
+        "Czy byłaś w domu wczoraj?",
+        "Czy byłaś w domu wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: The film was good.",
+      "answer": "Film był dobry.",
+      "accepts": [
+        "Film był dobry.",
+        "Film był dobry"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "byłem",
+    "byłam",
+    "byłeś",
+    "byłaś",
+    "był",
+    "była",
+    "było"
+  ],
+  "uses_lemmas": [
+    "mama",
+    "tata",
+    "dziecko",
+    "pies",
+    "kawa",
+    "piwo",
+    "film",
+    "dobry",
+    "w domu",
+    "w pracy",
+    "w banku",
+    "w sklepie",
+    "w szkole",
+    "w parku",
+    "wczoraj",
+    "gdzie",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_past_byc",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

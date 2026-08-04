@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-03T14:51:22+02:00",
+  "generated_at": "2026-08-04T22:36:54+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -61,6 +61,7 @@
     "a2_smalltalk",
     "a2_feelings",
     "a2_plural_nom",
+    "a2_past_plural",
     "a2_family2",
     "a2_gen_pl",
     "a2_station_1",
@@ -106,7 +107,7 @@
     "a2_station_4"
   ],
   "summary": {
-    "nodes_audited": 48,
+    "nodes_audited": 50,
     "errors": 0,
     "warns": 0,
     "infos": 0,
@@ -1721,6 +1722,101 @@
         "social_chunk",
         "ten_ta_to",
         "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 48,
+      "node_id": "a2_past_byc",
+      "pack_id": "a2_past_byc",
+      "domain": "grammar",
+      "teaches_structures": [
+        "past_byc"
+      ],
+      "teaches_lemmas_n": 7,
+      "uses_structures": [
+        "byc_adj",
+        "byc_present",
+        "past_byc",
+        "prep_w_loc",
+        "question",
+        "zgoda"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "existential_jest",
+        "gen_endings",
+        "inst_identity",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "past_byc",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 51,
+      "node_id": "a2_weather",
+      "pack_id": "a2_weather",
+      "domain": "vocab",
+      "teaches_structures": [
+        "weather_chunk"
+      ],
+      "teaches_lemmas_n": 14,
+      "uses_structures": [
+        "byc_adj",
+        "byc_present",
+        "existential_jest",
+        "past_byc",
+        "weather_chunk",
+        "zgoda"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "existential_jest",
+        "gen_endings",
+        "inst_identity",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "past_byc",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "weather_chunk",
         "zgoda"
       ]
     }

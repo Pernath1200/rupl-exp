@@ -1,0 +1,355 @@
+{
+  "id": "a2_weather",
+  "title": "Pogoda",
+  "title_en": "Weather",
+  "level": "A2",
+  "tree_node": "a2_weather",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a2_past_byc. Nature already taught deszcz/śnieg/słońce/wiatr/pogoda/seasons/ciepło/gorąco — this pack teaches FRAMES on those nouns (pada → padał, świeci → świeciło) plus 6 new weather words. Past forms are fixed 3rd-person chunks (weather_chunk); full past verb classes come in a2_past_ac.",
+  "teaches_structures": [
+    "weather_chunk"
+  ],
+  "uses_structures": [
+    "weather_chunk",
+    "past_byc",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "zgoda"
+  ],
+  "blocks": [
+    {
+      "id": "weather_words",
+      "title": "Weather · new words",
+      "items": [
+        {
+          "en": "cold (it's cold out)",
+          "pl": "zimno",
+          "icon": "🥶"
+        },
+        {
+          "en": "cloudy",
+          "pl": "pochmurno",
+          "icon": "☁️"
+        },
+        {
+          "en": "fog",
+          "pl": "mgła",
+          "icon": "🌫",
+          "gender": "f"
+        },
+        {
+          "en": "storm",
+          "pl": "burza",
+          "icon": "⛈",
+          "gender": "f"
+        },
+        {
+          "en": "frost",
+          "pl": "mróz",
+          "icon": "🧊",
+          "gender": "m"
+        },
+        {
+          "en": "heatwave heat",
+          "pl": "upał",
+          "icon": "🔥",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "weather_frames",
+      "title": "Weather · now and yesterday",
+      "items": [
+        {
+          "en": "it's raining",
+          "pl": "pada deszcz",
+          "icon": "🌧"
+        },
+        {
+          "en": "it was raining",
+          "pl": "padał deszcz"
+        },
+        {
+          "en": "it's snowing",
+          "pl": "pada śnieg",
+          "icon": "🌨"
+        },
+        {
+          "en": "it was snowing",
+          "pl": "padał śnieg"
+        },
+        {
+          "en": "the sun is shining",
+          "pl": "świeci słońce",
+          "icon": "☀️"
+        },
+        {
+          "en": "the sun was shining",
+          "pl": "świeciło słońce"
+        },
+        {
+          "en": "the wind is blowing",
+          "pl": "wieje wiatr",
+          "icon": "💨"
+        },
+        {
+          "en": "the wind was blowing",
+          "pl": "wiał wiatr"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "It's cold today.",
+      "pl": "Dzisiaj jest zimno.",
+      "accepts": [
+        "Dzisiaj jest zimno.",
+        "Dzisiaj jest zimno",
+        "Jest dzisiaj zimno.",
+        "Jest dzisiaj zimno",
+        "Jest zimno dzisiaj.",
+        "Jest zimno dzisiaj"
+      ],
+      "structures": [
+        "weather_chunk",
+        "byc_present"
+      ],
+      "lemmas": [
+        "zimno"
+      ]
+    },
+    {
+      "en": "It was cold yesterday.",
+      "pl": "Wczoraj było zimno.",
+      "accepts": [
+        "Wczoraj było zimno.",
+        "Wczoraj było zimno",
+        "Było wczoraj zimno.",
+        "Było wczoraj zimno",
+        "Było zimno wczoraj.",
+        "Było zimno wczoraj"
+      ],
+      "structures": [
+        "weather_chunk",
+        "past_byc"
+      ],
+      "lemmas": [
+        "zimno"
+      ],
+      "explain": "Weather 'it' is invisible in Polish: było zimno = (it) was cold. było is the neuter past of być you just learned."
+    },
+    {
+      "en": "It was hot yesterday.",
+      "pl": "Wczoraj było gorąco.",
+      "accepts": [
+        "Wczoraj było gorąco.",
+        "Wczoraj było gorąco",
+        "Było wczoraj gorąco.",
+        "Było wczoraj gorąco",
+        "Było gorąco wczoraj.",
+        "Było gorąco wczoraj"
+      ],
+      "structures": [
+        "weather_chunk",
+        "past_byc"
+      ],
+      "lemmas": [
+        "gorąco"
+      ]
+    },
+    {
+      "en": "It's raining.",
+      "pl": "Pada deszcz.",
+      "accepts": [
+        "Pada deszcz.",
+        "Pada deszcz",
+        "Deszcz pada.",
+        "Deszcz pada"
+      ],
+      "structures": [
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "pada deszcz"
+      ]
+    },
+    {
+      "en": "It was raining yesterday.",
+      "pl": "Wczoraj padał deszcz.",
+      "accepts": [
+        "Wczoraj padał deszcz.",
+        "Wczoraj padał deszcz",
+        "Padał deszcz wczoraj.",
+        "Padał deszcz wczoraj"
+      ],
+      "structures": [
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "padał deszcz"
+      ],
+      "explain": "padał = past of pada, with the same -ł past marker as był. deszcz is masculine, so its verb ends in plain -ł. Full past verbs come in the next grammar unit — here it's just the weather pair."
+    },
+    {
+      "en": "It's snowing.",
+      "pl": "Pada śnieg.",
+      "accepts": [
+        "Pada śnieg.",
+        "Pada śnieg",
+        "Śnieg pada.",
+        "Śnieg pada"
+      ],
+      "structures": [
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "pada śnieg"
+      ]
+    },
+    {
+      "en": "The sun is shining.",
+      "pl": "Świeci słońce.",
+      "accepts": [
+        "Świeci słońce.",
+        "Świeci słońce",
+        "Słońce świeci.",
+        "Słońce świeci"
+      ],
+      "structures": [
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "świeci słońce"
+      ]
+    },
+    {
+      "en": "The sun was shining.",
+      "pl": "Świeciło słońce.",
+      "accepts": [
+        "Świeciło słońce.",
+        "Świeciło słońce",
+        "Słońce świeciło.",
+        "Słońce świeciło"
+      ],
+      "structures": [
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "świeciło słońce"
+      ],
+      "explain": "słońce is neuter, so its past verb ends in -ło — the same -o as było. Gender agreement works on the sun too."
+    },
+    {
+      "en": "There was a storm yesterday.",
+      "pl": "Wczoraj była burza.",
+      "accepts": [
+        "Wczoraj była burza.",
+        "Wczoraj była burza",
+        "Była wczoraj burza.",
+        "Była wczoraj burza"
+      ],
+      "structures": [
+        "weather_chunk",
+        "past_byc",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "burza"
+      ],
+      "explain": "burza is feminine, so 'there was' becomes była: Była burza. Polish has no extra word for 'there' here."
+    },
+    {
+      "en": "There's fog today.",
+      "pl": "Dzisiaj jest mgła.",
+      "accepts": [
+        "Dzisiaj jest mgła.",
+        "Dzisiaj jest mgła",
+        "Jest dzisiaj mgła.",
+        "Jest dzisiaj mgła",
+        "Jest mgła dzisiaj.",
+        "Jest mgła dzisiaj"
+      ],
+      "structures": [
+        "weather_chunk",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "mgła"
+      ]
+    },
+    {
+      "en": "The weather is good.",
+      "pl": "Pogoda jest dobra.",
+      "accepts": [
+        "Pogoda jest dobra.",
+        "Pogoda jest dobra"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "pogoda"
+      ]
+    },
+    {
+      "en": "The weather was good yesterday.",
+      "pl": "Wczoraj pogoda była dobra.",
+      "accepts": [
+        "Wczoraj pogoda była dobra.",
+        "Wczoraj pogoda była dobra",
+        "Pogoda była wczoraj dobra.",
+        "Pogoda była wczoraj dobra",
+        "Pogoda wczoraj była dobra.",
+        "Pogoda wczoraj była dobra",
+        "Pogoda była dobra wczoraj.",
+        "Pogoda była dobra wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "zgoda",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "pogoda"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "zimno",
+    "pochmurno",
+    "mgła",
+    "burza",
+    "mróz",
+    "upał",
+    "pada deszcz",
+    "padał deszcz",
+    "pada śnieg",
+    "padał śnieg",
+    "świeci słońce",
+    "świeciło słońce",
+    "wieje wiatr",
+    "wiał wiatr"
+  ],
+  "uses_lemmas": [
+    "deszcz",
+    "śnieg",
+    "słońce",
+    "wiatr",
+    "pogoda",
+    "gorąco",
+    "dobry",
+    "wczoraj",
+    "dzisiaj"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_weather",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

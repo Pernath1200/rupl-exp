@@ -15,6 +15,7 @@
  */
 
 import { getSmokeApi, countFlags, updateFlagsBadge } from "./smoke-flags.js";
+import { attachExplain } from "./explain.js";
 import { isAuthorUnlock } from "./progress.js";
 
 /**
@@ -1196,6 +1197,7 @@ export function startPractice(root, block, opts) {
     }
 
     function afterGrade() {
+      attachExplain(fb, it);
       inp.disabled = true;
       skip.style.visibility = "hidden";
       chk.textContent = t.pos === passLen - 1 ? "Wynik →" : "Dalej";
@@ -1401,6 +1403,7 @@ export function startPractice(root, block, opts) {
     }
 
     function afterGrade() {
+      attachExplain(fb, it);
       inp.disabled = true;
       skip.style.visibility = "hidden";
       chk.textContent = t.pos === passLen - 1 ? "Zakończ ✓" : "Dalej";
