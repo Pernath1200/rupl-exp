@@ -64,9 +64,9 @@
     "leaf_ideas_a1",
     "a1_prep_review_2",
     "a2_past_byc",
+    "a2_weather",
     "a2_time_past",
     "a2_past_ac",
-    "a2_weather",
     "a2_past_rest",
     "a2_past_gym",
     "a2_smalltalk",
@@ -117,7 +117,7 @@
     "a2_wrapup_func",
     "a2_station_4"
   ],
-  "path_order_note": "Path-50: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1.",
+  "path_order_note": "Path-54: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1.",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -1385,13 +1385,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~12 new: przedwczoraj, w zeszłym tygodniu/miesiącu/roku, dawno, ostatnio, niedawno, wtedy. Feeds past narration.",
+      "note": "Past time words: 10 chunks/adverbs riding a2_past_byc. Bare adverbs vs fixed w-phrases split into two blocks.",
       "unit_id": "PL2_02",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "time"
+      "tree_part": "time",
+      "content": "vocab/blocks/a2_time_past.json"
     },
     {
       "id": "a2_past_ac",
@@ -1402,13 +1403,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] mieszkałem, czytałem, grałem, znałem, kochałem, pracowałem?? NO: -ować past = pracowałem (regular from infinitive) — include. Stem = infinitive minus ć + ł + endings.",
+      "note": "Past of -ac/-owac verbs, singular both genders. One rule: infinitive minus c + l + person ending. Imperfective only.",
       "unit_id": "PL2_03",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_past_ac.json"
     },
     {
       "id": "a2_weather",
@@ -1437,13 +1439,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] piłem, robiłem, lubiłem, mówiłem, miałem, chciałem (vowel shift e→a flagged), musiałem preview. One rule: infinitive stem + ł.",
+      "note": "Same past rule on -ic/-ec verbs + whole-form mialem/chcialem (e->a shift deliberately NOT explained until B1). Teaches infinitive miec (gap closed 2026-08-04).",
       "unit_id": "PL2_05",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_past_rest.json"
     },
     {
       "id": "a2_past_gym",
@@ -1454,13 +1457,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Gym idiom, zero new: byłem/byłam discrimination, mixed verbs, ja/ty/on/ona frames. Wczoraj-prompts.",
+      "note": "Gym: gender + person discrimination across all taught past forms. Zero new material. Wczoraj-framed.",
       "unit_id": "PL2_06",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_past_gym.json"
     },
     {
       "id": "a2_smalltalk",

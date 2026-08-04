@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 50 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 54 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -64,6 +64,10 @@ _None._
 | 45 | `leaf_work_a1` | — | 35 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `present_uje`, `to_jest`, `zgoda` |
 | 46 | `leaf_ideas_a1` | — | 48 | `byc_adj`, `byc_present`, `comparative`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 47 | `a1_prep_review_2` | — | 21 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
-| 48 | `a2_past_byc` | `past_byc` | 7 | `byc_adj`, `byc_present`, `past_byc`, `prep_w_loc`, `question`, `zgoda` |
-| 51 | `a2_weather` | `weather_chunk` | 14 | `byc_adj`, `byc_present`, `existential_jest`, `past_byc`, `weather_chunk`, `zgoda` |
+| 48 | `a2_past_byc` | `past_byc` | 8 | `byc_adj`, `byc_present`, `past_byc`, `prep_w_loc`, `question`, `zgoda` |
+| 49 | `a2_weather` | `weather_chunk` | 14 | `byc_adj`, `byc_present`, `existential_jest`, `past_byc`, `weather_chunk`, `zgoda` |
+| 50 | `a2_time_past` | `time_past_chunk` | 10 | `byc_adj`, `past_byc`, `prep_w_loc`, `question`, `time_past_chunk`, `weather_chunk`, `zgoda` |
+| 51 | `a2_past_ac` | `past_ac` | 31 | `miec_acc`, `past_ac`, `past_byc`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question` |
+| 52 | `a2_past_rest` | `past_rest` | 35 | `miec_acc`, `past_byc`, `past_rest`, `poss_nom`, `present_e_esz`, `question` |
+| 53 | `a2_past_gym` | — | 0 | `byc_adj`, `gen_endings`, `miec_acc`, `negation`, `past_ac`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `zgoda` |
 

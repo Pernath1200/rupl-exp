@@ -1,0 +1,628 @@
+{
+  "id": "a2_past_ac",
+  "title": "Czas przeszły · -ać",
+  "title_en": "Past tense · -ać verbs",
+  "level": "A2",
+  "tree_node": "a2_past_ac",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Direct sequel to a2_past_byc: the first RULE for the past of ordinary verbs. SINGULAR ONLY — plural past (mieszkaliśmy/mieszkali/mieszkały) is forbidden here, it belongs to a2_past_plural after plural-Nom. Full both-gender production: Dad types mieszkałam/mieszkałaś too, cued (m)/(f) as in a1_inst_job and a2_past_byc. IMPERFECTIVE ONLY — no perfective twins (kupiłem, przeczytałem), no aspect talk until a2_aspect. Verbs: mieszkać, czytać, grać, znać, kochać (-am class) + pracować, kupować (-ować, regular from the infinitive). mieszkać carries the full paradigm; the other six are spread across the stages.",
+  "focus_structures": [
+    "past_ac"
+  ],
+  "teaches_structures": [
+    "past_ac"
+  ],
+  "uses_structures": [
+    "past_ac",
+    "past_byc",
+    "prep_w_loc",
+    "miec_acc",
+    "poss_nom",
+    "present",
+    "present_am",
+    "present_uje",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "One rule for the whole past tense",
+      "title_pl": "Jedna zasada",
+      "body": "You already have the past of być. Every other verb is built the same way, from one rule:\n\n1. Take the infinitive — mieszkać.\n2. Drop the -ć — mieszka-.\n3. Add -ł — mieszkał.\n4. Add the person ending you already know from był.\n\nThat -ł- is the past-tense signature you met in byłem. The endings are exactly the ones you have learned: -em / -am / -eś / -aś, and nothing for he.",
+      "body_pl": "Bezokolicznik minus -ć, plus -ł, plus końcówka z był.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "mieszkałem",
+            "I lived",
+            "man speaking (m)"
+          ],
+          [
+            "mieszkałam",
+            "I lived",
+            "woman speaking (f)"
+          ],
+          [
+            "mieszkałeś",
+            "you lived",
+            "to a man (m)"
+          ],
+          [
+            "mieszkałaś",
+            "you lived",
+            "to a woman (f)"
+          ],
+          [
+            "mieszkał",
+            "he lived",
+            "on · tata, brat"
+          ],
+          [
+            "mieszkała",
+            "she lived",
+            "ona · mama, Anna"
+          ],
+          [
+            "mieszkało",
+            "it lived",
+            "ono · dziecko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same rule on every verb",
+      "title_pl": "Ta sama zasada",
+      "body": "Cover the -ć, write -ł. That is the whole operation. Here is the he-form (on) of every verb in this unit — no ending after the -ł, because he takes no ending at all.\n\nOnce you have the -ł form, the four personal endings (-em, -am, -eś, -aś) hook straight on.",
+      "body_pl": "Zakryj -ć, dopisz -ł. Forma on nie ma końcówki.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "Drop -ć, add -ł",
+          "he ..."
+        ],
+        "rows": [
+          [
+            "mieszkać",
+            "mieszka + ł",
+            "mieszkał"
+          ],
+          [
+            "czytać",
+            "czyta + ł",
+            "czytał"
+          ],
+          [
+            "grać",
+            "gra + ł",
+            "grał"
+          ],
+          [
+            "znać",
+            "zna + ł",
+            "znał"
+          ],
+          [
+            "kochać",
+            "kocha + ł",
+            "kochał"
+          ],
+          [
+            "pracować",
+            "pracowa + ł",
+            "pracował"
+          ],
+          [
+            "kupować",
+            "kupowa + ł",
+            "kupował"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "pracować, kupować: build from the infinitive",
+      "title_pl": "Czasowniki na -ować",
+      "body": "These two look like they should be trouble, because their present tense changes shape: pracować → pracuję, pracuje. That -uj- belongs to the present tense only. It never appears in the past.\n\nThe past is built from the infinitive, not from the present. So pracować gives pracowa- → pracował, and kupować gives kupowa- → kupował. They are completely regular — you just have to start from the right word.",
+      "body_pl": "Przeszłość budujemy z bezokolicznika, nie z czasu teraźniejszego: pracować → pracował.",
+      "examples": [
+        {
+          "en": "I worked in the office. (m)",
+          "pl": "Pracowałem w biurze."
+        },
+        {
+          "en": "I bought bread. (m)",
+          "pl": "Kupowałem chleb."
+        },
+        {
+          "en": "Mum bought milk.",
+          "pl": "Mama kupowała mleko."
+        }
+      ]
+    },
+    {
+      "title": "Now you can tell a story",
+      "title_pl": "Zdania",
+      "body": "The subject picks the form, exactly as it did with był / była / było. A masculine noun takes the bare -ł form, a feminine noun takes -a, a neuter noun takes -o.\n\nAdd wczoraj and you are talking about yesterday.",
+      "body_pl": "Rzeczownik wybiera formę: tata mieszkał, mama czytała, dziecko mieszkało.",
+      "examples": [
+        {
+          "en": "Yesterday I played in the park. (f)",
+          "pl": "Wczoraj grałam w parku."
+        },
+        {
+          "en": "Dad lived in the city.",
+          "pl": "Tata mieszkał w mieście."
+        },
+        {
+          "en": "Mum read a book.",
+          "pl": "Mama czytała książkę."
+        },
+        {
+          "en": "The child lived at home.",
+          "pl": "Dziecko mieszkało w domu."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I lived (m)",
+      "pl": "mieszkałem"
+    },
+    {
+      "en": "I lived (f)",
+      "pl": "mieszkałam"
+    },
+    {
+      "en": "he lived",
+      "pl": "mieszkał"
+    },
+    {
+      "en": "she lived",
+      "pl": "mieszkała"
+    },
+    {
+      "en": "I read (m)",
+      "pl": "czytałem"
+    },
+    {
+      "en": "she read",
+      "pl": "czytała"
+    },
+    {
+      "en": "you played (m)",
+      "pl": "grałeś"
+    },
+    {
+      "en": "he played",
+      "pl": "grał"
+    },
+    {
+      "en": "I knew (f)",
+      "pl": "znałam"
+    },
+    {
+      "en": "she loved",
+      "pl": "kochała"
+    },
+    {
+      "en": "I worked (m)",
+      "pl": "pracowałem"
+    },
+    {
+      "en": "he bought",
+      "pl": "kupował"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I lived (m) →",
+      "choices": [
+        "mieszkałem",
+        "mieszkałam",
+        "mieszkałeś",
+        "mieszkał"
+      ],
+      "answer": "mieszkałem"
+    },
+    {
+      "prompt": "Mama ___ w domu.",
+      "choices": [
+        "mieszkała",
+        "mieszkał",
+        "mieszkało",
+        "mieszkam"
+      ],
+      "answer": "mieszkała",
+      "explain": "mama is feminine, so the past verb takes -a — the same choice you made with mama była."
+    },
+    {
+      "prompt": "Tata ___ książkę.",
+      "choices": [
+        "czytał",
+        "czytała",
+        "czytałem",
+        "czyta"
+      ],
+      "answer": "czytał",
+      "explain": "The he-form has no ending at all — the word stops at the -ł. Adding -em would make it mean I, and -a would make it she."
+    },
+    {
+      "prompt": "Wczoraj ___ w domu. (f)",
+      "choices": [
+        "pracowałam",
+        "pracowałem",
+        "pracowała",
+        "pracuję"
+      ],
+      "answer": "pracowałam",
+      "explain": "The past comes from the infinitive pracować, never from the present pracuję — so it is pracowa- + ł, then -am for a woman speaking."
+    },
+    {
+      "prompt": "Fix: Ona mieszkał w mieście. →",
+      "choices": [
+        "mieszkała",
+        "mieszkał",
+        "mieszkało",
+        "mieszkałam"
+      ],
+      "answer": "mieszkała"
+    },
+    {
+      "prompt": "he worked →",
+      "choices": [
+        "pracował",
+        "pracowała",
+        "pracowałem",
+        "pracuje"
+      ],
+      "answer": "pracował"
+    },
+    {
+      "prompt": "Anna ___ w parku.",
+      "choices": [
+        "grała",
+        "grał",
+        "grałem",
+        "gra"
+      ],
+      "answer": "grała"
+    },
+    {
+      "prompt": "Dziecko ___ w mieście.",
+      "choices": [
+        "mieszkało",
+        "mieszkał",
+        "mieszkała",
+        "mieszkałem"
+      ],
+      "answer": "mieszkało",
+      "explain": "dziecko is neuter, and the neuter past ending is -o — exactly as in dziecko było."
+    },
+    {
+      "prompt": "Mama ___ chleb.",
+      "choices": [
+        "kupowała",
+        "kupował",
+        "kupowałam",
+        "kupuje"
+      ],
+      "answer": "kupowała",
+      "explain": "kupuje is the present. For the past, go back to the infinitive kupować: kupowa- + ł + -a for a feminine subject."
+    },
+    {
+      "prompt": "I knew (f) →",
+      "choices": [
+        "znałam",
+        "znała",
+        "znał",
+        "znam"
+      ],
+      "answer": "znałam"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "you lived (m)",
+      "mode": "full_word",
+      "answer": "mieszkałeś",
+      "accepts": [
+        "mieszkałeś"
+      ]
+    },
+    {
+      "prompt_en": "you lived (f)",
+      "mode": "full_word",
+      "answer": "mieszkałaś",
+      "accepts": [
+        "mieszkałaś"
+      ]
+    },
+    {
+      "prompt_en": "he read",
+      "mode": "full_word",
+      "answer": "czytał",
+      "accepts": [
+        "czytał"
+      ],
+      "explain": "Stop at the -ł. The he-form is the bare past stem with nothing after it; every other person adds something."
+    },
+    {
+      "prompt_en": "I read (f)",
+      "mode": "full_word",
+      "answer": "czytałam",
+      "accepts": [
+        "czytałam"
+      ]
+    },
+    {
+      "prompt_en": "you read (m)",
+      "mode": "full_word",
+      "answer": "czytałeś",
+      "accepts": [
+        "czytałeś"
+      ]
+    },
+    {
+      "prompt_en": "I played (m)",
+      "mode": "full_word",
+      "answer": "grałem",
+      "accepts": [
+        "grałem"
+      ],
+      "explain": "grać loses only the -ć, so the past stem is the short gra- + ł. Short infinitives give short past forms."
+    },
+    {
+      "prompt_en": "she played",
+      "mode": "full_word",
+      "answer": "grała",
+      "accepts": [
+        "grała"
+      ]
+    },
+    {
+      "prompt_en": "he knew",
+      "mode": "full_word",
+      "answer": "znał",
+      "accepts": [
+        "znał"
+      ]
+    },
+    {
+      "prompt_en": "she knew",
+      "mode": "full_word",
+      "answer": "znała",
+      "accepts": [
+        "znała"
+      ]
+    },
+    {
+      "prompt_en": "I loved (m)",
+      "mode": "full_word",
+      "answer": "kochałem",
+      "accepts": [
+        "kochałem"
+      ]
+    },
+    {
+      "prompt_en": "he loved",
+      "mode": "full_word",
+      "answer": "kochał",
+      "accepts": [
+        "kochał"
+      ]
+    },
+    {
+      "prompt_en": "I worked (f)",
+      "mode": "full_word",
+      "answer": "pracowałam",
+      "accepts": [
+        "pracowałam"
+      ],
+      "explain": "Do not start from pracuję. The -uj- exists only in the present; the past is cut from the infinitive pracować, giving pracowa- + ł + am."
+    },
+    {
+      "prompt_en": "she worked",
+      "mode": "full_word",
+      "answer": "pracowała",
+      "accepts": [
+        "pracowała"
+      ]
+    },
+    {
+      "prompt_en": "she bought",
+      "mode": "full_word",
+      "answer": "kupowała",
+      "accepts": [
+        "kupowała"
+      ]
+    },
+    {
+      "prompt_en": "I bought (f)",
+      "mode": "full_word",
+      "answer": "kupowałam",
+      "accepts": [
+        "kupowałam"
+      ],
+      "explain": "Same trap as pracować: the present is kupuję, but the past is built on the infinitive kupować — kupowa- + ł + am."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad read a book.",
+      "answer": "Tata czytał książkę.",
+      "accepts": [
+        "Tata czytał książkę.",
+        "Tata czytał książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum bought bread.",
+      "answer": "Mama kupowała chleb.",
+      "accepts": [
+        "Mama kupowała chleb.",
+        "Mama kupowała chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: I lived in the city. (m)",
+      "answer": "Mieszkałem w mieście.",
+      "accepts": [
+        "Mieszkałem w mieście.",
+        "Mieszkałem w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I worked at home. (m)",
+      "answer": "Wczoraj pracowałem w domu.",
+      "accepts": [
+        "Wczoraj pracowałem w domu.",
+        "Wczoraj pracowałem w domu",
+        "Pracowałem wczoraj w domu.",
+        "Pracowałem wczoraj w domu"
+      ],
+      "explain": "pracowałem, not pracuję — the past ignores the present stem and is cut straight from pracować."
+    },
+    {
+      "prompt_en": "Type: Anna worked at the shop.",
+      "answer": "Anna pracowała w sklepie.",
+      "accepts": [
+        "Anna pracowała w sklepie.",
+        "Anna pracowała w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother played in the park.",
+      "answer": "Mój brat grał w parku.",
+      "accepts": [
+        "Mój brat grał w parku.",
+        "Mój brat grał w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I read a letter. (f)",
+      "answer": "Czytałam list.",
+      "accepts": [
+        "Czytałam list.",
+        "Czytałam list"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum knew the address.",
+      "answer": "Mama znała adres.",
+      "accepts": [
+        "Mama znała adres.",
+        "Mama znała adres"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad loved music.",
+      "answer": "Tata kochał muzykę.",
+      "accepts": [
+        "Tata kochał muzykę.",
+        "Tata kochał muzykę"
+      ],
+      "explain": "Two things at once: kochał has no ending because tata is a he, and muzykę carries the -ę of the accusative because it is the object."
+    },
+    {
+      "prompt_en": "Type: Anna loved the dog.",
+      "answer": "Anna kochała psa.",
+      "accepts": [
+        "Anna kochała psa.",
+        "Anna kochała psa"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "mieszkałem",
+    "mieszkałam",
+    "mieszkałeś",
+    "mieszkałaś",
+    "mieszkał",
+    "mieszkała",
+    "mieszkało",
+    "czytałem",
+    "czytałam",
+    "czytałeś",
+    "czytał",
+    "czytała",
+    "grałem",
+    "grałam",
+    "grałeś",
+    "grał",
+    "grała",
+    "znałam",
+    "znał",
+    "znała",
+    "kochałem",
+    "kochał",
+    "kochała",
+    "pracowałem",
+    "pracowałam",
+    "pracował",
+    "pracowała",
+    "kupowałem",
+    "kupowałam",
+    "kupował",
+    "kupowała"
+  ],
+  "uses_lemmas": [
+    "mieszkać",
+    "czytać",
+    "grać",
+    "znać",
+    "kochać",
+    "pracować",
+    "kupować",
+    "mieszkam",
+    "czyta",
+    "gra",
+    "znam",
+    "pracuje",
+    "pracuję",
+    "kupuje",
+    "był",
+    "była",
+    "było",
+    "tata",
+    "mama",
+    "anna",
+    "brat",
+    "mój",
+    "dziecko",
+    "psa",
+    "książkę",
+    "chleb",
+    "list",
+    "adres",
+    "muzykę",
+    "mleko",
+    "w domu",
+    "w mieście",
+    "w parku",
+    "w sklepie",
+    "w biurze",
+    "wczoraj"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_past_ac",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
