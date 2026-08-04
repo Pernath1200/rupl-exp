@@ -1475,13 +1475,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Chunk unit: Jak było? Było super/fajnie. Co słychać? Wszystko dobrze. Jak minął weekend? Rides past tense.",
+      "note": "Chunk unit riding the past block: Jak bylo? / Co slychac? / Nic nowego. Teaches the adverb dobrze (real gap - course had only adjective dobry). Perfective \"Jak minal weekend?\" replaced 2026-08-05 with \"Jak bylo w weekend?\".",
       "unit_id": "PL2_07",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_smalltalk.json"
     },
     {
       "id": "a2_feelings",
@@ -1492,13 +1493,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: szczęśliwy, smutny, zmęczony, zły, wesoły, spokojny, zdenerwowany, głodny, śpiący. Byłem zmęczony = past+adj payoff.",
+      "note": "Feelings riding past+adjective: Bylem zmeczony / Bylam smutna. 7 NEW adjectives only - a1_freetime already owned szczesliwy/smutny/zly and a1_trunk_adjectives owned zmeczony. Both genders on the board.",
       "unit_id": "PL2_08",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "people"
+      "tree_part": "people",
+      "content": "vocab/blocks/a2_feelings.json"
     },
     {
       "id": "a2_plural_nom",

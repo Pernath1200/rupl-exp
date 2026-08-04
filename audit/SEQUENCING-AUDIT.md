@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 54 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 56 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -70,4 +70,6 @@ _None._
 | 51 | `a2_past_ac` | `past_ac` | 31 | `miec_acc`, `past_ac`, `past_byc`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question` |
 | 52 | `a2_past_rest` | `past_rest` | 35 | `miec_acc`, `past_byc`, `past_rest`, `poss_nom`, `present_e_esz`, `question` |
 | 53 | `a2_past_gym` | — | 0 | `byc_adj`, `gen_endings`, `miec_acc`, `negation`, `past_ac`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `zgoda` |
+| 54 | `a2_smalltalk` | `smalltalk_chunk` | 16 | `byc_adj`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `smalltalk_chunk`, `social_chunk`, `time_past_chunk` |
+| 55 | `a2_feelings` | — | 14 | `byc_adj`, `byc_present`, `past_byc`, `poss_nom`, `prep_w_loc`, `question`, `time_past_chunk`, `zgoda` |
 
