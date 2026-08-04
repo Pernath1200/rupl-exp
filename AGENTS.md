@@ -21,13 +21,44 @@
 
 ## Critical — where fixes go
 
+`rupl-exp` is the **one canonical repo** (decided 2026-07-30). Everything is edited here:
+
 | Kind | Edit here |
 |------|-----------|
-| **Shell** (HTML/CSS/JS in rupl-exp) | `rupl-exp` directly |
-| **Grammar content / blocks** | **`rupl2`** then `py scripts/sync_from_stable.py` |
-| **Vocab content / blocks** | **`rupl3`** then sync |
+| **Shell** (HTML/CSS/JS) | `rupl-exp/` directly |
+| **Grammar content / blocks** | `rupl-exp/data/grammar/blocks/` directly |
+| **Vocab content / blocks** | `rupl-exp/data/vocab/blocks/` directly |
+| **Path / node wiring** | `rupl-exp/data/tree.json` (`path_order` + `nodes`) |
 
-If you only patch `rupl-exp/data/` copies, **sync will overwrite them**.
+> **`rupl2` / `rupl3` are FROZEN archives — never edit them, never sync from them.**
+> `scripts/sync_from_stable.py` is retired and carries a hard guard. The old
+> "edit stable then sync" instruction was wrong and is gone.
+
+## Quality gate
+
+The sequencing auditor lives in the sibling repo `rupl-codex` (local-only):
+
+```powershell
+cd C:\Users\ADMIN\Documents\projects\rupl-codex
+py -X utf8 sequencing\audit.py     # must report: errors 0 · warns 0
+```
+
+It walks `tree.json` `path_order`, and for every **live** node checks that the pack
+never *uses* a structure or lemma that was not *taught* at or before that point.
+Spec + structure-ID catalogue: `rupl-codex/SEQUENCING.md`. **Never invent structure
+IDs** — add them to the catalogue and to `STRUCTURE_CATALOGUE` in `audit.py` first.
+
+Copy the refreshed report back to `rupl-exp/audit/` when it changes.
+
+## Windows gotchas
+
+- Use `py -X utf8` for anything touching Polish text.
+- **Never** use PowerShell `-replace` + `Set-Content` on files with Polish
+  characters — it mojibakes UTF-8. Use the Edit tool or Python with
+  `encoding="utf-8"`.
+- Documents sync can fork a file mid-edit into a `(# Name clash … #)` copy and
+  roll back the original. **Check `git status` for clash files before every
+  commit.**
 
 ## Do
 
@@ -47,3 +78,89 @@ If you only patch `rupl-exp/data/` copies, **sync will overwrite them**.
 cd C:\Users\ADMIN\documents\projects\rupl-exp
 py scripts\smoke.py
 ```
+
+James smoke-tests by hand — agents never claim a unit is "tested", only
+"audit-clean". Flag-button smoke is his job, not yours.
+
+---
+
+# Authoring contract (learner-facing content)
+
+These are James's standing rules. They are not style preferences; breaking them
+has produced real learner failures. The auditor catches **none** of them.
+
+## Who the learner is
+
+Dad — a distractible absolute beginner who **reads no Polish**. Every must-read
+instruction, hint, prompt and button is in **English**. Polish appears only as
+the material being learned. No teacher/builder surfaces (unit codes, case tags,
+structure IDs, notes) are ever visible unless *Tryb autorski* is on.
+
+Use plain, real grammar terms — *preposition*, *genitive*, *neuter*. Baby-talk
+("its little word") is **banned**. Naming the real category is respectful and
+it is what makes the pattern learnable.
+
+## The anchor rule (most-broken, highest-cost)
+
+> Every frame sentence contains **exactly one unknown** — the new word — anchored
+> by material already taught, so the learner can work it out from context.
+
+Never write lookalike frames where both halves are new (*To jest łatwe / trudne*).
+Where no lexical anchor exists, use a **visual anchor**: `icon` (emoji) or
+`swatch` ("#hex") on the item renders in Match/Quiz/type.
+
+## Stage contracts (grammar packs)
+
+| Stage | Contract |
+|-------|----------|
+| **Wstęp** (intro) | Slides may carry `table` + `examples`. Tables/bullets, never prose walls. |
+| **Dopasuj** (match) | Exactly **12 balanced rows**; whole board is shown, so every verb/form of the unit must appear. Clean pairs — no object phrases padding a form board. |
+| **Kontrola** (quiz) | Discrimination items. Real forms, not meta-questions *about* the language. |
+| **Pisanie** (type) | The **minimal pattern unit only** — a single form for conjugation; a phrase where the pattern *is* a phrase (*dobra kawa, w domu*); a frame for to-jest/questions. |
+| **Użycie** (use) | **Real sentences with a noun subject and/or object.** Pronoun+verb alone is pro-drop-degenerate (*On pracuje* ≈ *pracuje*) and bare 1sg declaratives are Pisanie material. One-word questions (*Pracujesz?*) are exempt. |
+
+**No duplicates anywhere** — not within a stage, not across stages.
+**Użycie ≠ Pisanie**: a use item must never be a bare form repeating the type stage.
+
+## Every-form-taught rule
+
+Any inflected form a prompt demands must (a) appear in intro/match/type, and
+(b) be listed in `teaches_lemmas` so the auditor polices it. Tagging only the
+citation form (*biuro*) while the sentence uses *biurze* **evades the check** —
+tag the inflected surface form too.
+
+## Load-splitting
+
+If a unit would teach two new systems at once, **split it**. Precedent: the old
+do/z unit was a cliff (first genitive endings + ze-rule + 3-way contrast) and
+became three units. James's reason: *"if students get frustrated they give up —
+I can't allow this."* An assembly unit should introduce only one new thing.
+
+## Vocab packs
+
+- Every Polish noun carries `gender: m|f|n|pl` → renders as a colour-coded badge
+  on the **PL side only**, never on an EN prompt. Watch soft feminines (*mysz,
+  noc*) and -a masculines (*tata, kolega*).
+- Sense-indicators on ambiguous glosses: `cost (verb)`, `cough (noun)`.
+- `sentences[]` (Zdanie) is the pack's fruit; tag `structures` + `lemmas` per item.
+- Recycle a range of unlocked structures, not just the last grammar unit.
+- Never re-teach a lemma an earlier pack already taught — recycle it instead,
+  and list it in `uses_lemmas`.
+
+## Explanations
+
+Items may carry an optional `explain` string (learner English). It renders as an
+on-demand **"Dlaczego? · Why?"** link at answer reveal — never shown unprompted.
+Author them from A2 onward, especially on hard or exceptional forms. Explain
+*why the form is what it is*; do not restate the answer.
+
+## Progress rules
+
+First completion of the ladder earns the fruit — the app is **not strict on a
+first pass** (James, 2026-08-04). Spaced reviews keep the 75% bar. Never
+reintroduce a first-pass score gate.
+
+## Honesty
+
+Report what you actually did. If a unit was parked, say so. If the audit failed,
+paste the failure. Never describe unbuilt work as built.
