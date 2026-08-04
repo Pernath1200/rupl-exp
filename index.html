@@ -5,92 +5,127 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="noindex" />
   <meta name="google" content="notranslate" />
-  <title>Polski · RUPL v0.2</title>
-  <link rel="stylesheet" href="./css/app.css?v=2026-08-03-gloss" />
+  <title>Polski · RUPL</title>
+  <link rel="stylesheet" href="./css/app.css?v=2026-08-04-home" />
 </head>
 <body>
   <div class="container">
     <div class="util-bar">
-      <span class="brand">Polski · RUPL v0.2</span>
+      <span class="brand">Polski · RUPL</span>
     </div>
 
-    <h1>Ucz się polskiego · krok po kroku</h1>
+    <div id="howto-overlay" class="howto-overlay" hidden>
+      <div class="howto-panel" role="dialog" aria-modal="true" aria-labelledby="howto-title">
+        <h2 id="howto-title">Jak używać tej strony</h2>
+        <p class="howto-lead">Krótki przewodnik</p>
+        <ol class="howto-steps">
+          <li><strong>Poziom</strong> — wybierz A1 (na razie główny poziom).</li>
+          <li><strong>Dalej</strong> — następny krok na ścieżce (gramatyka ↔ słówka).</li>
+          <li><strong>Ćwicz</strong> — po wyborze jednostki naciśnij Ćwicz (intro, potem ćwiczenia).</li>
+          <li><strong>Powtórka</strong> — tematy na dziś do powtórki.</li>
+          <li><strong>Tematy</strong> — pełna lista / drzewo jednostek.</li>
+          <li><strong>Tylko ta przeglądarka</strong> — postęp nie jest w chmurze.</li>
+        </ol>
+        <details class="howto-more">
+          <summary>Więcej · mapa i postęp</summary>
+          <ul class="howto-more-list">
+            <li><strong>Mapa / drzewo</strong> — opcjonalne. Możesz używać tylko Dalej.</li>
+            <li><strong>Postęp</strong> — opcjonalne paski. Otwórz, jeśli chcesz.</li>
+          </ul>
+        </details>
+        <div class="howto-actions">
+          <button type="button" class="home-btn home-btn-primary" id="howto-start">Rozumiem · Dalej</button>
+          <button type="button" class="home-btn" id="howto-dismiss">Zamknij</button>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="home-title">Ucz się polskiego</h1>
+    <p class="home-intro">
+      Krok po kroku: gramatyka i słówka.
+      Nowy? Otwórz <strong>Jak używać</strong>.
+      Potem naciśnij <strong>Dalej</strong>.
+    </p>
     <p id="author-hint" class="practice-hint" hidden style="color: var(--accent); margin-top: -0.75rem"></p>
     <div id="boot-error" class="card" hidden></div>
 
     <div id="view-map">
-      <div class="rail-label">Level · Poziom</div>
+      <div class="rail-label">Poziom · Level</div>
       <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
 
-      <div class="card" id="progress-meters-card">
-        <div id="level-meters" class="level-meters" aria-live="polite"></div>
+      <div class="card home-actions-card">
+        <p class="home-next-line" id="home-next-line">Ładowanie…</p>
+        <div class="home-actions" role="group" aria-label="Główne akcje">
+          <button type="button" class="home-btn home-btn-primary" id="btn-do-next">Dalej</button>
+          <button type="button" class="home-btn" id="btn-home-review">Powtórka</button>
+          <button type="button" class="home-btn" id="btn-home-topics">Tematy</button>
+          <button type="button" class="home-btn" id="btn-how-to-use">Jak używać</button>
+        </div>
+        <p class="home-hint" id="home-review-hint" hidden></p>
       </div>
 
-      <div class="card" id="review-card" hidden>
-        <h2>Review today · Powtórka</h2>
+      <div class="card home-panel" id="review-card" hidden>
+        <h2>Powtórka · Review</h2>
         <div id="review-list"></div>
       </div>
 
-      <div class="card" id="up-next-card">
-        <h2>Next · Dalej</h2>
+      <div class="card" id="up-next-card" hidden>
         <div id="up-next"></div>
       </div>
 
-      <button type="button" class="btn" id="btn-map-more" aria-expanded="false" aria-controls="map-more">Show all units · Pokaż drzewo i jednostki ▾</button>
-
-      <div id="map-more" hidden>
-        <div class="card" id="tree-portrait-card">
-          <h2>Tree · Portret drzewa</h2>
-          <p class="tree-legend">
-            Sadzonka rośnie z poziomem (A1 mała → A2 wyższa) · korzenie = gramatyka · pień/liście = słówka · zieleń = owoc · nawigacja = ścieżka
-          </p>
-          <div id="tree-portrait" class="tree-portrait-host"></div>
-        </div>
-
-        <div class="panel-grid">
-          <div class="card domain-grammar">
-            <h2>Grammar roots · Korzenie</h2>
-            <p class="tree-legend">Wypełnienie z owoców gramatycznych</p>
-            <div id="roots-strip" class="roots-strip"></div>
-          </div>
-          <div class="card domain-vocab">
-            <h2>Vocabulary leaves · Liście</h2>
-            <p class="tree-legend" id="vocab-fill-legend">Owoc słówek na ścieżce spine</p>
-            <div id="vocab-fill" class="roots-strip"></div>
-          </div>
-        </div>
-
-        <div class="card" id="path-card">
-          <h2>Path · Ścieżka</h2>
-          <p class="tree-legend">Miedź = gramatyka · bursztyn = słówka · kliknij → szczegóły (nie otwiera ćwiczenia)</p>
-          <ul id="path-list" class="path-list"></ul>
-        </div>
-
-        <div class="card" id="node-detail-card">
-          <h2>Unit · Jednostka</h2>
-          <div id="node-detail"></div>
-        </div>
+      <div class="card" id="node-detail-card">
+        <h2>Jednostka · Unit</h2>
+        <div id="node-detail"></div>
       </div>
+
+      <details class="card quiet-details" id="progress-details">
+        <summary>Postęp · Progress <span class="quiet-summary-meta" id="progress-summary-meta"></span></summary>
+        <div id="level-meters" class="level-meters" aria-live="polite"></div>
+      </details>
+
+      <details class="card quiet-details" id="map-details">
+        <summary>Mapa i wszystkie jednostki</summary>
+        <p class="home-hint">Opcjonalne. Korzenie = gramatyka · liście = słówka. Klik → szczegóły, potem Ćwicz.</p>
+        <button type="button" class="btn" id="btn-map-more" aria-expanded="true" aria-controls="map-more" hidden>map</button>
+        <div id="map-more">
+          <div class="card" id="tree-portrait-card">
+            <h2>Drzewo</h2>
+            <div id="tree-portrait" class="tree-portrait-host"></div>
+          </div>
+          <div class="panel-grid">
+            <div class="card domain-grammar">
+              <h2>Korzenie · Grammar</h2>
+              <div id="roots-strip" class="roots-strip"></div>
+            </div>
+            <div class="card domain-vocab">
+              <h2>Liście · Vocab</h2>
+              <div id="vocab-fill" class="roots-strip"></div>
+            </div>
+          </div>
+          <div class="card" id="path-card">
+            <h2>Ścieżka · Path</h2>
+            <ul id="path-list" class="path-list"></ul>
+          </div>
+        </div>
+      </details>
     </div>
 
     <div id="view-practice" class="card" hidden>
       <div class="smoke-toolbar" role="toolbar" aria-label="Smoke flags">
-        <button type="button" class="btn smoke-flag-btn" id="p-flag">⚑ Flag item</button>
-        <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge>Flagged list</button>
-        <span class="smoke-toolbar-hint">Smoke · local notes</span>
+        <button type="button" class="btn smoke-flag-btn" id="p-flag">⚑ Flag</button>
+        <button type="button" class="btn smoke-flag-list" id="p-flag-list" data-smoke-badge>Flagged</button>
       </div>
       <div id="practice-root"></div>
       <div class="practice-exit">
-        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1">← Wstecz do mapy</button>
+        <button type="button" class="btn-ghost" id="btn-practice-back" tabindex="-1">← Wstecz</button>
       </div>
     </div>
 
     <div id="smoke-flags-host"></div>
-
     <p class="foot">
       <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false">Tryb autorski</button>
     </p>
   </div>
-  <script type="module" src="./js/app.js?v=2026-08-03-poprawnie"></script>
+  <script type="module" src="./js/app.js?v=2026-08-04-home"></script>
 </body>
 </html>

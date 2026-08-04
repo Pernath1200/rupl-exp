@@ -205,38 +205,105 @@ function renderRail() {
 }
 
 function renderUpNext() {
+  // Home chrome drives next line + Dalej
+  renderHomeChrome();
   const el = document.getElementById("up-next");
-  const hit = spineNext();
-  if (!hit) {
-    el.innerHTML = `
-      <p class="tree-legend">Wszystko zrobione ✓ · All done for now.</p>`;
-    return;
-  }
-  const { step, node, side, pair } = hit;
-  const unitId = step.id || "";
-  const caseTags = (step.case_tags || []).join(" · ");
-  const partnerLabel = pair?.label || pair?.node_id || "—";
-  const partnerNode = pair?.node_id ? nodeById(pair.node_id) : null;
+  if (el) el.innerHTML = "";
+}
 
-  const author = isAuthorUnlock();
-  el.innerHTML = `
-    <button type="button" class="btn primary" id="btn-continue-next">Start → ${escapeHtml(node.label)}</button>
-    ${
-      author
-        ? `<p class="spine-pair" style="margin-top:0.5rem">
-             ${unitId ? `<code>${escapeHtml(unitId)}</code>` : ""}
-             ${caseTags ? ` · <span class="today-muted">${escapeHtml(caseTags)}</span>` : ""}
-             ${node.note ? ` · <span class="today-muted">${escapeHtml(node.note)}</span>` : ""}
-             ${partnerNode ? ` · Para: ${escapeHtml(partnerLabel)}` : ""}
-           </p>`
-        : ""
+const HOWTO_KEY = "rupl-exp-howto-seen";
+
+function renderHomeChrome() {
+  const line = document.getElementById("home-next-line");
+  const hit = spineNext();
+  const due = typeof reviewDueList === "function" ? reviewDueList(STATE.tree?.nodes || []) : [];
+  if (line) {
+    if (!hit) {
+      line.textContent = "Ścieżka na teraz skończona · Path complete for now.";
+    } else {
+      line.innerHTML = `Dalej: <strong>${escapeHtml(hit.node.label)}</strong>`;
     }
-  `;
-  el.querySelector("#btn-continue-next")?.addEventListener("click", () => {
-    // Never launch practice directly (James): reveal the unit's detail
-    // card and let the learner start from its Ćwicz button.
+  }
+  const revHint = document.getElementById("home-review-hint");
+  if (revHint) {
+    revHint.hidden = false;
+    revHint.textContent = due.length
+      ? `${due.length} na powtórkę · due for review`
+      : "Nic na powtórkę · nothing due.";
+  }
+  const progMeta = document.getElementById("progress-summary-meta");
+  if (progMeta) {
+    const s = levelUnitStats(STATE.level, STATE.tree?.nodes || []);
+    if (s?.total) {
+      const pct = Math.round((100 * (s.learned || 0)) / s.total);
+      progMeta.textContent = `· ${pct}%`;
+    }
+  }
+  const review = document.getElementById("review-card");
+  if (review && STATE.homePanel !== "review") {
+    // leave visibility to wireHome unless review open
+  }
+}
+
+function showHowto() {
+  const overlay = document.getElementById("howto-overlay");
+  if (!overlay) return;
+  overlay.hidden = false;
+  const finish = (runNext) => {
+    try {
+      localStorage.setItem(HOWTO_KEY, "1");
+    } catch {
+      /* ignore */
+    }
+    overlay.hidden = true;
+    if (runNext) void startDoNext();
+  };
+  const startBtn = document.getElementById("howto-start");
+  const dismissBtn = document.getElementById("howto-dismiss");
+  if (startBtn) startBtn.onclick = () => finish(true);
+  if (dismissBtn) dismissBtn.onclick = () => finish(false);
+}
+
+async function startDoNext() {
+  const hit = spineNext();
+  if (!hit?.node) return;
+  // Open practice for that node (grammar or vocab)
+  try {
+    await openNode(hit.node);
+  } catch (e) {
+    console.warn(e);
+    focusNodeOnMap(hit.node);
+  }
+}
+
+function wireHomeActions() {
+  if (document.body.dataset.homeWired === "1") return;
+  document.body.dataset.homeWired = "1";
+  STATE.homePanel = null;
+  document.getElementById("btn-do-next")?.addEventListener("click", () => {
+    void startDoNext();
+  });
+  document.getElementById("btn-how-to-use")?.addEventListener("click", () => {
+    showHowto();
+  });
+  document.getElementById("btn-home-review")?.addEventListener("click", () => {
+    const card = document.getElementById("review-card");
+    if (!card) return;
+    const open = card.hidden;
+    card.hidden = !open;
+    STATE.homePanel = open ? "review" : null;
+    if (open) {
+      renderReview();
+      card.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  });
+  document.getElementById("btn-home-topics")?.addEventListener("click", () => {
+    const det = document.getElementById("map-details");
+    if (det) {
+      det.open = true;
+      det.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     STATE.setMapMore?.(true);
-    focusNodeOnMap(node);
   });
 }
 
@@ -625,6 +692,7 @@ function renderAll() {
       hit?.node?.id || STATE.tree.path_order?.[0] || null;
   }
   renderDetail();
+  wireHomeActions();
 }
 
 // Chrome stamps translated-ltr/rtl on <html> when it machine-translates the
