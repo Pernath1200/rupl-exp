@@ -1188,8 +1188,8 @@ export function startPractice(pack, root, opts) {
       <div class="practice-head"><h2>${esc(pack.title)} · Gotowe</h2></div>
       <p class="practice-prompt">${
         fruit
-          ? "Owoc zdobyty (uczciwie)."
-          : "Drabinka skończona — zdobądź ≥80 % w Kontroli i Pisaniu albo popraw wszystkie błędy, żeby zebrać owoc."
+          ? "Owoc zdobyty."
+          : "Drabinka skończona."
       }</p>
       <p class="score-line">
         ${bCheck != null ? `Kontrola: ${bCheck} % · ` : ""}

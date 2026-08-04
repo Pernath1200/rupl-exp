@@ -339,11 +339,11 @@
       ]
     },
     {
-      "prompt_en": "Type: I don't have tea.",
-      "answer": "Nie mam herbaty.",
+      "prompt_en": "Type: I don't have a sister.",
+      "answer": "Nie mam siostry.",
       "accepts": [
-        "Nie mam herbaty.",
-        "Nie mam herbaty"
+        "Nie mam siostry.",
+        "Nie mam siostry"
       ]
     },
     {
@@ -379,12 +379,13 @@
       ]
     },
     {
-      "prompt_en": "Type: You don't have coffee. (sg)",
-      "answer": "Nie masz kawy.",
+      "prompt_en": "Type: You don't have a car.",
+      "answer": "Nie masz samochodu.",
       "accepts": [
-        "Nie masz kawy.",
-        "Nie masz kawy"
-      ]
+        "Nie masz samochodu.",
+        "Nie masz samochodu"
+      ],
+      "explain": "samochód → samochodu: the regular masculine -u genitive, same rule as czasu and domu."
     },
     {
       "prompt_en": "Type: She doesn't have tea.",
@@ -423,11 +424,11 @@
       ]
     },
     {
-      "prompt_en": "Type: They don't have coffee.",
-      "answer": "Nie mają kawy.",
+      "prompt_en": "Type: They don't have a car.",
+      "answer": "Nie mają samochodu.",
       "accepts": [
-        "Nie mają kawy.",
-        "Nie mają kawy"
+        "Nie mają samochodu.",
+        "Nie mają samochodu"
       ]
     }
   ],
@@ -475,7 +476,9 @@
     "mam",
     "masz",
     "ma",
-    "nie mają"
+    "nie mają",
+    "siostra",
+    "samochód"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

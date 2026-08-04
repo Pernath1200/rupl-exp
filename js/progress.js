@@ -106,21 +106,19 @@ function modeDone(b, mode) {
   return !!(b && b.modes && b.modes[mode]);
 }
 
-function bestOk(b, mode, ratio) {
-  if (!b || !b.best || b.best[mode] == null) return modeDone(b, mode);
-  return b.best[mode] >= ratio;
-}
-
 export function hasFruit(blockId) {
   const b = gBlock(blockId);
   if (!b) return false;
-  const ladder =
+  // First completion fruits (James, 2026-08-04 smoke: "it shouldn't be
+  // strict first time around") — walking the whole ladder is the bar.
+  // Quality is policed where it matters: SRS reviews still need
+  // FRUIT_SOFT to advance the schedule, and meters fill from real reps.
+  return (
     modeDone(b, "intro") &&
     modeDone(b, "check") &&
     modeDone(b, "type") &&
-    modeDone(b, "use");
-  if (!ladder) return false;
-  return bestOk(b, "check", PASS_RATIO) && bestOk(b, "type", PASS_RATIO);
+    modeDone(b, "use")
+  );
 }
 
 export function grammarBest(blockId) {
@@ -202,10 +200,9 @@ export function completeVocabMode(blockId, mode, meta = {}) {
 export function blockHasFruit(b) {
   if (!b || !b.modes) return false;
   const m = b.modes;
-  if (!m.match || !m.quiz || !m.type || !m.sentence) return false;
-  const q = b.bestQuiz == null ? 1 : b.bestQuiz;
-  const t = b.bestType == null ? 1 : b.bestType;
-  return q >= FRUIT_SOFT && t >= FRUIT_SOFT;
+  // First completion fruits (James 2026-08-04) — see hasFruit(). Scores
+  // are still recorded; SRS reviews keep the FRUIT_SOFT bar.
+  return !!(m.match && m.quiz && m.type && m.sentence);
 }
 
 export function vocabBlockFruit(blockId) {

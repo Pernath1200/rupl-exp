@@ -411,19 +411,19 @@
       ]
     },
     {
-      "prompt_en": "Type: This is beer.",
-      "answer": "To jest piwo.",
+      "prompt_en": "Type: This is a dog.",
+      "answer": "To jest pies.",
       "accepts": [
-        "To jest piwo.",
-        "To jest piwo"
+        "To jest pies.",
+        "To jest pies"
       ]
     },
     {
-      "prompt_en": "Type: I have beer.",
-      "answer": "Mam piwo.",
+      "prompt_en": "Type: I have a dog.",
+      "answer": "Mam psa.",
       "accepts": [
-        "Mam piwo.",
-        "Mam piwo"
+        "Mam psa.",
+        "Mam psa"
       ]
     },
     {
@@ -459,20 +459,21 @@
       ]
     },
     {
-      "prompt_en": "Type: You have tea. (sg)",
-      "answer": "Masz herbatę.",
+      "prompt_en": "Type: Do you have a brother?",
+      "answer": "Masz brata?",
       "accepts": [
-        "Masz herbatę.",
-        "Masz herbatę"
+        "Masz brata?",
+        "Masz brata",
+        "Czy masz brata?",
+        "Czy masz brata"
       ]
     },
     {
-      "prompt_en": "Type: She has water.",
-      "answer": "Ona ma wodę.",
+      "prompt_en": "Type: She has a flat.",
+      "answer": "Ona ma mieszkanie.",
       "accepts": [
-        "Ona ma wodę.",
-        "Ma wodę.",
-        "Ona ma wodę"
+        "Ona ma mieszkanie.",
+        "Ona ma mieszkanie"
       ]
     }
   ],
@@ -502,7 +503,10 @@
     "kot",
     "kota",
     "sklep",
-    "miasto"
+    "miasto",
+    "pies",
+    "brat",
+    "mieszkanie"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

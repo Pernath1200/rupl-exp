@@ -397,19 +397,19 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I have coffee.",
-      "answer": "Mam kawę.",
+      "prompt_en": "Type: I have a brother.",
+      "answer": "Mam brata.",
       "accepts": [
-        "Mam kawę.",
-        "Mam kawę"
+        "Mam brata.",
+        "Mam brata"
       ]
     },
     {
-      "prompt_en": "Type: I don't have coffee.",
-      "answer": "Nie mam kawy.",
+      "prompt_en": "Type: I don't have a book.",
+      "answer": "Nie mam książki.",
       "accepts": [
-        "Nie mam kawy.",
-        "Nie mam kawy"
+        "Nie mam książki.",
+        "Nie mam książki"
       ]
     },
     {
@@ -477,11 +477,11 @@
       ]
     },
     {
-      "prompt_en": "Type: This is coffee.",
-      "answer": "To jest kawa.",
+      "prompt_en": "Type: This is a doctor.",
+      "answer": "To jest lekarz.",
       "accepts": [
-        "To jest kawa.",
-        "To jest kawa"
+        "To jest lekarz.",
+        "To jest lekarz"
       ]
     },
     {
@@ -531,7 +531,9 @@
     "jest",
     "dużo",
     "blisko",
-    "nie"
+    "nie",
+    "brat",
+    "lekarz"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

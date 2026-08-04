@@ -34,8 +34,8 @@
     {
       "title": "Yesterday: your first past tense",
       "title_pl": "Wczoraj: pierwszy czas przeszły",
-      "body": "The past of być (to be) fits in one small table — and it does something English can't: the ending tells you who was there, and whether they are male or female.\n\nThe ł is the past marker. Everything after it says who.",
-      "body_pl": "Czas przeszły być: ł = przeszłość, końcówka = osoba.",
+      "body": "The past of być (to be) fits in one small table — and it does something English can't: the ending tells you who was there, and whether they are male or female.\n\nAll seven forms are built on był-: the verb stem plus -ł-. On a verb, that -ł- before the ending is the past-tense signature — later you'll meet it on every verb (miałem, pracowałem). Only on verbs, though: in words like ładny or szkoła the ł is just a letter.",
+      "body_pl": "Czas przeszły być: -ł- w czasowniku = przeszłość, końcówka = osoba.",
       "table": {
         "headers": [
           "Form",
@@ -251,14 +251,15 @@
       "answer": "była"
     },
     {
-      "prompt": "The ł in byłem tells you it is... →",
+      "prompt": "Anna ___ w sklepie.",
       "choices": [
-        "past",
-        "present",
-        "a question",
-        "feminine"
+        "była",
+        "był",
+        "było",
+        "byłaś"
       ],
-      "answer": "past"
+      "answer": "była",
+      "explain": "Anna is a woman, so the verb takes -a: Anna była — the same rule as mama była."
     },
     {
       "prompt": "Piwo ___ dobre.",

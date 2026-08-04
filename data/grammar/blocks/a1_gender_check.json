@@ -321,7 +321,8 @@
       "accepts": [
         "dobre auto",
         "dobry samochód"
-      ]
+      ],
+      "explain": "Two car words, two genders: auto is neuter — dobre auto; samochód is masculine — dobry samochód. Both are accepted, but the adjective must match the noun you chose."
     },
     {
       "prompt_en": "good cat",

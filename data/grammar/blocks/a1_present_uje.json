@@ -506,11 +506,13 @@
       ]
     },
     {
-      "prompt_en": "Type: Do you buy coffee? (sg)",
-      "answer": "Kupujesz kawę?",
+      "prompt_en": "Type: Are you buying bread?",
+      "answer": "Kupujesz chleb?",
       "accepts": [
-        "Kupujesz kawę?",
-        "Czy kupujesz kawę?"
+        "Kupujesz chleb?",
+        "Kupujesz chleb",
+        "Czy kupujesz chleb?",
+        "Czy kupujesz chleb"
       ]
     },
     {
@@ -522,11 +524,11 @@
       ]
     },
     {
-      "prompt_en": "Type: They buy water.",
-      "answer": "Kupują wodę.",
+      "prompt_en": "Type: They are buying meat.",
+      "answer": "Kupują mięso.",
       "accepts": [
-        "Kupują wodę.",
-        "Kupują wodę"
+        "Kupują mięso.",
+        "Kupują mięso"
       ]
     },
     {
@@ -609,7 +611,8 @@
     "siostra",
     "gotuje",
     "studiuje",
-    "obiad"
+    "obiad",
+    "mięso"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

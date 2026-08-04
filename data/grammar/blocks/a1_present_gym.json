@@ -526,11 +526,13 @@
       ]
     },
     {
-      "prompt_en": "Type: You (sg) like tea.",
-      "answer": "Lubisz herbatę.",
+      "prompt_en": "Type: Do you like cheese?",
+      "answer": "Lubisz ser?",
       "accepts": [
-        "Lubisz herbatę.",
-        "Lubisz herbatę"
+        "Lubisz ser?",
+        "Lubisz ser",
+        "Czy lubisz ser?",
+        "Czy lubisz ser"
       ]
     },
     {
@@ -550,21 +552,19 @@
       ]
     },
     {
-      "prompt_en": "Type: They want coffee.",
-      "answer": "Chcą kawę.",
+      "prompt_en": "Type: They want meat.",
+      "answer": "Chcą mięso.",
       "accepts": [
-        "Chcą kawę.",
-        "Chcą kawę"
+        "Chcą mięso.",
+        "Chcą mięso"
       ]
     },
     {
-      "prompt_en": "Type: She likes tea.",
-      "answer": "Ona lubi herbatę.",
+      "prompt_en": "Type: She likes soup.",
+      "answer": "Ona lubi zupę.",
       "accepts": [
-        "Ona lubi herbatę.",
-        "Ona lubi herbatę",
-        "Lubi herbatę.",
-        "Lubi herbatę"
+        "Ona lubi zupę.",
+        "Ona lubi zupę"
       ]
     },
     {
@@ -576,12 +576,11 @@
       ]
     },
     {
-      "prompt_en": "Type: She buys coffee.",
-      "answer": "Ona kupuje kawę.",
+      "prompt_en": "Type: She is buying bread.",
+      "answer": "Ona kupuje chleb.",
       "accepts": [
-        "Ona kupuje kawę.",
-        "Ona kupuje kawę",
-        "Kupuje kawę."
+        "Ona kupuje chleb.",
+        "Ona kupuje chleb"
       ]
     }
   ],
@@ -631,7 +630,11 @@
     "tata",
     "robi",
     "czytamy",
-    "pracuje"
+    "pracuje",
+    "ser",
+    "mięso",
+    "zupa",
+    "chleb"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

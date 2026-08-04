@@ -354,13 +354,13 @@
       ]
     },
     {
-      "prompt_en": "Type: Do you have tea?",
-      "answer": "Czy masz herbatę?",
+      "prompt_en": "Type: Do you have a key?",
+      "answer": "Czy masz klucz?",
       "accepts": [
-        "Czy masz herbatę?",
-        "Czy masz herbatę",
-        "Masz herbatę?",
-        "Masz herbatę"
+        "Czy masz klucz?",
+        "Czy masz klucz",
+        "Masz klucz?",
+        "Masz klucz"
       ]
     },
     {
@@ -435,7 +435,8 @@
     "kawę",
     "masz",
     "jest",
-    "mieszkasz"
+    "mieszkasz",
+    "klucz"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

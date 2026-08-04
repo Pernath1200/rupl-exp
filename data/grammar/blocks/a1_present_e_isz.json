@@ -487,11 +487,11 @@
       ]
     },
     {
-      "prompt_en": "Type: We are making tea.",
-      "answer": "Robimy herbatę.",
+      "prompt_en": "Type: We are making lunch.",
+      "answer": "Robimy obiad.",
       "accepts": [
-        "Robimy herbatę.",
-        "Robimy herbatę"
+        "Robimy obiad.",
+        "Robimy obiad"
       ]
     },
     {
@@ -504,44 +504,47 @@
       ]
     },
     {
-      "prompt_en": "Type: Are you making coffee? (pl)",
-      "answer": "Robicie kawę?",
+      "prompt_en": "Type: Are you (pl) making breakfast?",
+      "answer": "Robicie śniadanie?",
       "accepts": [
-        "Robicie kawę?",
-        "Robicie kawę",
-        "Czy robicie kawę?"
+        "Robicie śniadanie?",
+        "Robicie śniadanie",
+        "Czy robicie śniadanie?",
+        "Czy robicie śniadanie"
       ]
     },
     {
-      "prompt_en": "Type: I like coffee.",
-      "answer": "Lubię kawę.",
+      "prompt_en": "Type: I like cheese.",
+      "answer": "Lubię ser.",
       "accepts": [
-        "Lubię kawę.",
-        "Lubię kawę"
+        "Lubię ser.",
+        "Lubię ser"
       ]
     },
     {
-      "prompt_en": "Type: You like tea. (sg)",
-      "answer": "Lubisz herbatę.",
+      "prompt_en": "Type: Do you like bread?",
+      "answer": "Lubisz chleb?",
       "accepts": [
-        "Lubisz herbatę.",
-        "Lubisz herbatę"
+        "Lubisz chleb?",
+        "Lubisz chleb",
+        "Czy lubisz chleb?",
+        "Czy lubisz chleb"
       ]
     },
     {
-      "prompt_en": "Type: We like beer.",
-      "answer": "Lubimy piwo.",
+      "prompt_en": "Type: We like meat.",
+      "answer": "Lubimy mięso.",
       "accepts": [
-        "Lubimy piwo.",
-        "Lubimy piwo"
+        "Lubimy mięso.",
+        "Lubimy mięso"
       ]
     },
     {
-      "prompt_en": "Type: They like coffee.",
-      "answer": "Lubią kawę.",
+      "prompt_en": "Type: They like soup.",
+      "answer": "Lubią zupę.",
       "accepts": [
-        "Lubią kawę.",
-        "Lubią kawę"
+        "Lubią zupę.",
+        "Lubią zupę"
       ]
     },
     {
@@ -553,28 +556,31 @@
       ]
     },
     {
-      "prompt_en": "Type: He likes tea.",
-      "answer": "On lubi herbatę.",
+      "prompt_en": "Type: He likes milk.",
+      "answer": "On lubi mleko.",
       "accepts": [
-        "On lubi herbatę.",
-        "Lubi herbatę."
+        "On lubi mleko.",
+        "On lubi mleko"
       ]
     },
     {
-      "prompt_en": "Type: Are you making coffee? (sg)",
-      "answer": "Robisz kawę?",
+      "prompt_en": "Type: Are you making soup?",
+      "answer": "Robisz zupę?",
       "accepts": [
-        "Robisz kawę?",
-        "Robisz kawę",
-        "Czy robisz kawę?"
+        "Robisz zupę?",
+        "Robisz zupę",
+        "Czy robisz zupę?",
+        "Czy robisz zupę"
       ]
     },
     {
-      "prompt_en": "Type: You like coffee. (pl)",
-      "answer": "Lubicie kawę.",
+      "prompt_en": "Type: Do you (pl) like wine?",
+      "answer": "Lubicie wino?",
       "accepts": [
-        "Lubicie kawę.",
-        "Lubicie kawę"
+        "Lubicie wino?",
+        "Lubicie wino",
+        "Czy lubicie wino?",
+        "Czy lubicie wino"
       ]
     },
     {
@@ -586,20 +592,19 @@
       ]
     },
     {
-      "prompt_en": "Type: She makes tea.",
-      "answer": "Ona robi herbatę.",
+      "prompt_en": "Type: She is making dinner.",
+      "answer": "Ona robi kolację.",
       "accepts": [
-        "Ona robi herbatę.",
-        "Ona robi herbatę",
-        "Robi herbatę."
+        "Ona robi kolację.",
+        "Ona robi kolację"
       ]
     },
     {
-      "prompt_en": "Type: They make coffee.",
-      "answer": "Robią kawę.",
+      "prompt_en": "Type: They are making a salad.",
+      "answer": "Robią sałatkę.",
       "accepts": [
-        "Robią kawę.",
-        "Robią kawę"
+        "Robią sałatkę.",
+        "Robią sałatkę"
       ]
     }
   ],
@@ -663,7 +668,17 @@
     "robicie",
     "robią",
     "mama",
-    "tata"
+    "tata",
+    "obiad",
+    "śniadanie",
+    "zupa",
+    "kolacja",
+    "sałatka",
+    "ser",
+    "chleb",
+    "mięso",
+    "mleko",
+    "wino"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

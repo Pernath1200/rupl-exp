@@ -380,11 +380,11 @@
       ]
     },
     {
-      "prompt_en": "Type: This is coffee.",
-      "answer": "To jest kawa.",
+      "prompt_en": "Type: This is a shop.",
+      "answer": "To jest sklep.",
       "accepts": [
-        "To jest kawa.",
-        "To jest kawa"
+        "To jest sklep.",
+        "To jest sklep"
       ]
     },
     {
@@ -404,11 +404,11 @@
       ]
     },
     {
-      "prompt_en": "Type: This is your tea.",
-      "answer": "To jest twoja herbata.",
+      "prompt_en": "Type: This is your sister.",
+      "answer": "To jest twoja siostra.",
       "accepts": [
-        "To jest twoja herbata.",
-        "To jest twoja herbata"
+        "To jest twoja siostra.",
+        "To jest twoja siostra"
       ]
     },
     {
@@ -501,7 +501,9 @@
     "twoja",
     "stół",
     "herbata",
-    "klucz"
+    "klucz",
+    "sklep",
+    "siostra"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

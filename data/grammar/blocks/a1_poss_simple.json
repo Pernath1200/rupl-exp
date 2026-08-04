@@ -430,11 +430,11 @@
       ]
     },
     {
-      "prompt_en": "Type: This is your tea.",
-      "answer": "To jest twoja herbata.",
+      "prompt_en": "Type: This is your shop.",
+      "answer": "To jest twój sklep.",
       "accepts": [
-        "To jest twoja herbata.",
-        "To twoja herbata."
+        "To jest twój sklep.",
+        "To twój sklep."
       ]
     },
     {
@@ -446,11 +446,11 @@
       ]
     },
     {
-      "prompt_en": "Type: This is your beer.",
-      "answer": "To jest twoje piwo.",
+      "prompt_en": "Type: This is my city.",
+      "answer": "To jest moje miasto.",
       "accepts": [
-        "To jest twoje piwo.",
-        "To twoje piwo."
+        "To jest moje miasto.",
+        "To moje miasto."
       ]
     },
     {

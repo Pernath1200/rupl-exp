@@ -635,19 +635,19 @@
       ]
     },
     {
-      "prompt_en": "Type: I have tea.",
-      "answer": "Mam herbatę.",
+      "prompt_en": "Type: I have a key.",
+      "answer": "Mam klucz.",
       "accepts": [
-        "Mam herbatę.",
-        "Mam herbatę"
+        "Mam klucz.",
+        "Mam klucz"
       ]
     },
     {
-      "prompt_en": "Type: I have water.",
-      "answer": "Mam wodę.",
+      "prompt_en": "Type: I have a dad.",
+      "answer": "Mam tatę.",
       "accepts": [
-        "Mam wodę.",
-        "Mam wodę"
+        "Mam tatę.",
+        "Mam tatę"
       ]
     },
     {
@@ -700,20 +700,19 @@
       ]
     },
     {
-      "prompt_en": "Type: We have coffee.",
-      "answer": "Mamy kawę.",
+      "prompt_en": "Type: We have a flat.",
+      "answer": "Mamy mieszkanie.",
       "accepts": [
-        "Mamy kawę.",
-        "Mamy kawę"
+        "Mamy mieszkanie.",
+        "Mamy mieszkanie"
       ]
     },
     {
-      "prompt_en": "Type: He has tea.",
-      "answer": "On ma herbatę.",
+      "prompt_en": "Type: He has a new book.",
+      "answer": "On ma nową książkę.",
       "accepts": [
-        "On ma herbatę.",
-        "Ma herbatę.",
-        "On ma herbatę"
+        "On ma nową książkę.",
+        "On ma nową książkę"
       ]
     },
     {
@@ -829,7 +828,9 @@
     "dobra",
     "dobrą",
     "nowa",
-    "nową"
+    "nową",
+    "klucz",
+    "mieszkanie"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

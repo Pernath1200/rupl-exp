@@ -351,11 +351,11 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: I have a lot of coffee.",
-      "answer": "Mam dużo kawy.",
+      "prompt_en": "Type: I have a lot of rice.",
+      "answer": "Mam dużo ryżu.",
       "accepts": [
-        "Mam dużo kawy.",
-        "Mam dużo kawy"
+        "Mam dużo ryżu.",
+        "Mam dużo ryżu"
       ]
     },
     {
@@ -399,11 +399,11 @@
       ]
     },
     {
-      "prompt_en": "Type: I want a lot of water.",
-      "answer": "Chcę dużo wody.",
+      "prompt_en": "Type: I want a lot of meat.",
+      "answer": "Chcę dużo mięsa.",
       "accepts": [
-        "Chcę dużo wody.",
-        "Chcę dużo wody"
+        "Chcę dużo mięsa.",
+        "Chcę dużo mięsa"
       ]
     },
     {
@@ -488,7 +488,9 @@
     "piję",
     "chcę",
     "mieszkam",
-    "jestem"
+    "jestem",
+    "ryż",
+    "mięso"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

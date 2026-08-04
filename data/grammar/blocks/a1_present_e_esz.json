@@ -388,45 +388,45 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Dad wants coffee.",
-      "answer": "Tata chce kawę.",
+      "prompt_en": "Type: Dad wants lunch.",
+      "answer": "Tata chce obiad.",
       "accepts": [
-        "Tata chce kawę.",
-        "Tata chce kawę"
+        "Tata chce obiad.",
+        "Tata chce obiad"
       ]
     },
     {
-      "prompt_en": "Type: Do you want beer? (sg)",
-      "answer": "Chcesz piwo?",
+      "prompt_en": "Type: Do you want soup?",
+      "answer": "Chcesz zupę?",
       "accepts": [
-        "Chcesz piwo?",
-        "Chcesz piwo",
-        "Czy chcesz piwo?"
+        "Chcesz zupę?",
+        "Chcesz zupę",
+        "Czy chcesz zupę?",
+        "Czy chcesz zupę"
       ]
     },
     {
-      "prompt_en": "Type: She wants water.",
-      "answer": "Ona chce wodę.",
+      "prompt_en": "Type: She wants a salad.",
+      "answer": "Ona chce sałatkę.",
       "accepts": [
-        "Ona chce wodę.",
-        "Ona chce wodę",
-        "Chce wodę."
+        "Ona chce sałatkę.",
+        "Ona chce sałatkę"
       ]
     },
     {
-      "prompt_en": "Type: We are drinking water.",
-      "answer": "Pijemy wodę.",
+      "prompt_en": "Type: We drink juice.",
+      "answer": "Pijemy sok.",
       "accepts": [
-        "Pijemy wodę.",
-        "Pijemy wodę"
+        "Pijemy sok.",
+        "Pijemy sok"
       ]
     },
     {
-      "prompt_en": "Type: Mum wants tea.",
-      "answer": "Mama chce herbatę.",
+      "prompt_en": "Type: Mum wants fish.",
+      "answer": "Mama chce rybę.",
       "accepts": [
-        "Mama chce herbatę.",
-        "Mama chce herbatę"
+        "Mama chce rybę.",
+        "Mama chce rybę"
       ]
     },
     {
@@ -439,35 +439,37 @@
       ]
     },
     {
-      "prompt_en": "Type: I want coffee.",
-      "answer": "Chcę kawę.",
+      "prompt_en": "Type: I want bread.",
+      "answer": "Chcę chleb.",
       "accepts": [
-        "Chcę kawę.",
-        "Chcę kawę"
+        "Chcę chleb.",
+        "Chcę chleb"
       ]
     },
     {
-      "prompt_en": "Type: You want tea. (sg)",
-      "answer": "Chcesz herbatę.",
+      "prompt_en": "Type: Do you want cheese?",
+      "answer": "Chcesz ser?",
       "accepts": [
-        "Chcesz herbatę.",
-        "Chcesz herbatę"
+        "Chcesz ser?",
+        "Chcesz ser",
+        "Czy chcesz ser?",
+        "Czy chcesz ser"
       ]
     },
     {
-      "prompt_en": "Type: We want water.",
-      "answer": "Chcemy wodę.",
+      "prompt_en": "Type: We want rice.",
+      "answer": "Chcemy ryż.",
       "accepts": [
-        "Chcemy wodę.",
-        "Chcemy wodę"
+        "Chcemy ryż.",
+        "Chcemy ryż"
       ]
     },
     {
-      "prompt_en": "Type: They want beer.",
-      "answer": "Chcą piwo.",
+      "prompt_en": "Type: They want meat.",
+      "answer": "Chcą mięso.",
       "accepts": [
-        "Chcą piwo.",
-        "Chcą piwo"
+        "Chcą mięso.",
+        "Chcą mięso"
       ]
     },
     {
@@ -479,11 +481,13 @@
       ]
     },
     {
-      "prompt_en": "Type: You want coffee. (pl)",
-      "answer": "Chcecie kawę.",
+      "prompt_en": "Type: Do you (pl) want breakfast?",
+      "answer": "Chcecie śniadanie?",
       "accepts": [
-        "Chcecie kawę.",
-        "Chcecie kawę"
+        "Chcecie śniadanie?",
+        "Chcecie śniadanie",
+        "Czy chcecie śniadanie?",
+        "Czy chcecie śniadanie"
       ]
     },
     {
@@ -495,11 +499,13 @@
       ]
     },
     {
-      "prompt_en": "Type: You drink tea. (sg)",
-      "answer": "Pijesz herbatę.",
+      "prompt_en": "Type: Do you drink milk?",
+      "answer": "Pijesz mleko?",
       "accepts": [
-        "Pijesz herbatę.",
-        "Pijesz herbatę"
+        "Pijesz mleko?",
+        "Pijesz mleko",
+        "Czy pijesz mleko?",
+        "Czy pijesz mleko"
       ]
     },
     {
@@ -571,7 +577,17 @@
     "piją",
     "tata",
     "mama",
-    "chleb"
+    "chleb",
+    "obiad",
+    "zupa",
+    "sałatka",
+    "ryba",
+    "ser",
+    "ryż",
+    "mięso",
+    "śniadanie",
+    "sok",
+    "mleko"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",
