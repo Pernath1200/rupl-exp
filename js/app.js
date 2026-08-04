@@ -31,7 +31,6 @@ import {
   FRUIT_SOFT,
   downloadProgressFile,
   importProgressPayload,
-  loadProgress,
 } from "./progress.js";
 import {
   mountSmokeFlagsUI,
