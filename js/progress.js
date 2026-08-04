@@ -466,3 +466,100 @@ export function levelUnitStats(level, nodes) {
 export function resetAllProgress() {
   localStorage.removeItem(KEY);
 }
+
+/** Storage key (stable — never rename; renaming wipes browsers). */
+export function progressStorageKey() {
+  return KEY;
+}
+
+/**
+ * Portable progress file for Download / Import.
+ * Move between localhost and GitHub Pages, or backup before updates.
+ */
+export function buildProgressExport() {
+  return {
+    app: "rupl-exp",
+    key: KEY,
+    exportedAt: new Date().toISOString(),
+    progress: loadProgress(),
+  };
+}
+
+/**
+ * Validate and apply an exported file (or raw progress object).
+ * Returns { ok, message, unitish }.
+ */
+export function importProgressPayload(raw) {
+  let obj = raw;
+  if (typeof raw === "string") {
+    try {
+      obj = JSON.parse(raw);
+    } catch {
+      return { ok: false, message: "Not valid JSON." };
+    }
+  }
+  if (!obj || typeof obj !== "object") {
+    return { ok: false, message: "Empty or invalid file." };
+  }
+  if (obj.key && obj.key !== KEY) {
+    return {
+      ok: false,
+      message: `Wrong file (key ${obj.key}). Need ${KEY}.`,
+    };
+  }
+  if (obj.app && obj.app !== "rupl-exp") {
+    return { ok: false, message: "This file is not RUPL progress (wrong app)." };
+  }
+  const body = obj.progress != null ? obj.progress : obj;
+  if (!body || typeof body !== "object") {
+    return { ok: false, message: "No progress data in file." };
+  }
+  // Normalize via load-style checks
+  const normalized = {
+    version: 1,
+    authorUnlock: !!body.authorUnlock,
+    unlocked: Array.isArray(body.unlocked) ? body.unlocked.slice() : ["A1"],
+    grammar: {
+      blocks:
+        body.grammar && body.grammar.blocks && typeof body.grammar.blocks === "object"
+          ? body.grammar.blocks
+          : {},
+    },
+    vocab: {
+      blocks:
+        body.vocab && body.vocab.blocks && typeof body.vocab.blocks === "object"
+          ? body.vocab.blocks
+          : {},
+    },
+    units: body.units && typeof body.units === "object" ? body.units : {},
+    nodes: body.nodes && typeof body.nodes === "object" ? body.nodes : {},
+  };
+  if (!normalized.unlocked.includes("A1")) {
+    normalized.unlocked = ["A1", ...normalized.unlocked];
+  }
+  const gN = Object.keys(normalized.grammar.blocks).length;
+  const vN = Object.keys(normalized.vocab.blocks).length;
+  try {
+    localStorage.setItem(KEY, JSON.stringify(normalized));
+  } catch {
+    return { ok: false, message: "Could not save (private mode / full storage)." };
+  }
+  return {
+    ok: true,
+    message: `Imported (grammar units: ${gN}, vocab banks: ${vN}).`,
+    unitish: gN + vN,
+  };
+}
+
+/** Download current progress as a .json file. */
+export function downloadProgressFile() {
+  const blob = new Blob([JSON.stringify(buildProgressExport(), null, 2)], {
+    type: "application/json",
+  });
+  const a = document.createElement("a");
+  const day = new Date().toISOString().slice(0, 10);
+  a.href = URL.createObjectURL(blob);
+  a.download = `rupl-progress-${day}.json`;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}

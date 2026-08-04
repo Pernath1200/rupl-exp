@@ -81,6 +81,20 @@
       <details class="card quiet-details" id="progress-details">
         <summary>Postęp · Progress <span class="quiet-summary-meta" id="progress-summary-meta"></span></summary>
         <div id="level-meters" class="level-meters" aria-live="polite"></div>
+        <div class="progress-transfer" id="progress-transfer">
+          <p class="home-hint">
+            Progress stays <strong>in this browser on this site</strong>
+            (localhost ≠ GitHub Pages). Updating the app does not wipe it
+            if the progress key stays the same.
+            Backup: <strong>Download</strong> · restore: <strong>Import</strong>.
+          </p>
+          <div class="progress-transfer-actions">
+            <button type="button" class="home-btn" id="btn-progress-download">Download progress</button>
+            <button type="button" class="home-btn" id="btn-progress-import">Import progress…</button>
+            <input type="file" id="input-progress-import" accept="application/json,.json" hidden />
+          </div>
+          <p class="home-hint" id="progress-transfer-msg" hidden></p>
+        </div>
       </details>
 
       <details class="card quiet-details" id="map-details">

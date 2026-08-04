@@ -29,6 +29,9 @@ import {
   PASS_RATIO,
   MASTERY_REPS,
   FRUIT_SOFT,
+  downloadProgressFile,
+  importProgressPayload,
+  loadProgress,
 } from "./progress.js";
 import {
   mountSmokeFlagsUI,
@@ -786,6 +789,8 @@ async function boot() {
       getSmokeApi()?.openList();
     });
 
+    bindProgressTransfer();
+
     if (new URLSearchParams(location.search).get("unlock") === "all") {
       setAuthorUnlock(true);
     }
@@ -793,6 +798,70 @@ async function boot() {
   } catch (e) {
     err.hidden = false;
     err.textContent = String(e.message || e);
+  }
+}
+
+/** Download / Import RUPL progress (backup before updates; localhost ↔ Pages). */
+function bindProgressTransfer() {
+  const dl = document.getElementById("btn-progress-download");
+  const imp = document.getElementById("btn-progress-import");
+  const file = document.getElementById("input-progress-import");
+  const msg = document.getElementById("progress-transfer-msg");
+  const show = (text, isErr) => {
+    if (!msg) return;
+    msg.hidden = false;
+    msg.textContent = text;
+    msg.style.color = isErr ? "var(--wrong, #c4a574)" : "var(--muted, #a0a0a0)";
+  };
+  if (dl) {
+    dl.addEventListener("click", () => {
+      try {
+        downloadProgressFile();
+        const p = loadProgress();
+        const g = Object.keys(p.grammar?.blocks || {}).length;
+        const v = Object.keys(p.vocab?.blocks || {}).length;
+        show(`Downloaded (grammar ${g} · vocab ${v}). Keep the file as backup.`);
+      } catch (e) {
+        show(String(e.message || e), true);
+      }
+    });
+  }
+  if (imp && file) {
+    imp.addEventListener("click", () => file.click());
+    file.addEventListener("change", async () => {
+      const f = file.files && file.files[0];
+      file.value = "";
+      if (!f) return;
+      let text;
+      try {
+        text = await f.text();
+      } catch {
+        show("Could not read file.", true);
+        return;
+      }
+      try {
+        downloadProgressFile();
+      } catch {
+        /* ignore */
+      }
+      const ok = window.confirm(
+        "Import this RUPL progress file?\n\n" +
+          "• Current progress on THIS site will be replaced.\n" +
+          "• A backup download of current progress was just attempted.\n" +
+          "• Page will reload after a successful import.",
+      );
+      if (!ok) {
+        show("Import cancelled.");
+        return;
+      }
+      const result = importProgressPayload(text);
+      if (!result.ok) {
+        show(result.message || "Import failed.", true);
+        return;
+      }
+      show(result.message + " Reloading…");
+      setTimeout(() => location.reload(), 400);
+    });
   }
 }
 
