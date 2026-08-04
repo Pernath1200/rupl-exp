@@ -403,7 +403,7 @@
       "explain": "The he form has no ending after -ł. robić minus -ć is robi-, plus -ł, and that is the finished word."
     },
     {
-      "prompt_en": "I said (m)",
+      "prompt_en": "I was speaking (m)",
       "mode": "full_word",
       "answer": "mówiłem",
       "accepts": [
@@ -411,7 +411,7 @@
       ]
     },
     {
-      "prompt_en": "she said",
+      "prompt_en": "she was speaking",
       "mode": "full_word",
       "answer": "mówiła",
       "accepts": [
@@ -427,7 +427,7 @@
       ]
     },
     {
-      "prompt_en": "I drank (m)",
+      "prompt_en": "I was drinking (m)",
       "mode": "full_word",
       "answer": "piłem",
       "accepts": [
@@ -535,7 +535,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Mum said hi.",
+      "prompt_en": "Type: Mum was saying hello.",
       "answer": "Mama mówiła cześć.",
       "accepts": [
         "Mama mówiła cześć.",

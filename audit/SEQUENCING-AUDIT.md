@@ -1,4 +1,4 @@
-# Sequencing audit · 2026-08-04
+# Sequencing audit · 2026-08-05
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  

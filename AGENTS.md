@@ -119,8 +119,25 @@ Where no lexical anchor exists, use a **visual anchor**: `icon` (emoji) or
 | **Pisanie** (type) | The **minimal pattern unit only** — a single form for conjugation; a phrase where the pattern *is* a phrase (*dobra kawa, w domu*); a frame for to-jest/questions. |
 | **Użycie** (use) | **Real sentences with a noun subject and/or object.** Pronoun+verb alone is pro-drop-degenerate (*On pracuje* ≈ *pracuje*) and bare 1sg declaratives are Pisanie material. One-word questions (*Pracujesz?*) are exempt. |
 
-**No duplicates anywhere** — not within a stage, not across stages.
+**No duplicates within a stage** — never pad a stage by repeating an item.
+
+**Stage overlap IS allowed and wanted** (James, 2026-08-05): Match and Pisanie may
+drill the same core paradigm. That is the ladder — recognition then production —
+and it holds the form-count per unit down, which matters more for a distractible
+learner than breadth. Do **not** force the two stages to be disjoint.
+
 **Użycie ≠ Pisanie**: a use item must never be a bare form repeating the type stage.
+
+## Glossing the past (imperfective)
+
+All A2 past is imperfective; aspect is fenced to `a2_aspect`. English glosses must
+not teach a mapping that breaks when aspect arrives. Rule (James, 2026-08-05) —
+**split by verb type**:
+
+| Verb type | Gloss | Why |
+|---|---|---|
+| **Dynamic** (*kupować, czytać, robić, pić, pracować, grać, mówić*) | progressive or habitual — "was buying", "used to read" | "Mum bought bread" really maps to perfective *kupiła*; teaching it against *kupowała* has to be un-taught later. |
+| **Stative** (*znać, lubić, mieć, chcieć*) | plain simple past — "knew", "liked", "had", "wanted" | "I was knowing the address" is not English, and these verbs have no everyday perfective, so simple past is unambiguous. |
 
 ## Every-form-taught rule
 

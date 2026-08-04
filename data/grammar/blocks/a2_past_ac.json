@@ -284,7 +284,7 @@
       "answer": "mieszkała"
     },
     {
-      "prompt": "he worked →",
+      "prompt": "he was working →",
       "choices": [
         "pracował",
         "pracowała",
@@ -354,7 +354,7 @@
       ]
     },
     {
-      "prompt_en": "he read",
+      "prompt_en": "he was reading",
       "mode": "full_word",
       "answer": "czytał",
       "accepts": [
@@ -363,7 +363,7 @@
       "explain": "Stop at the -ł. The he-form is the bare past stem with nothing after it; every other person adds something."
     },
     {
-      "prompt_en": "I read (f)",
+      "prompt_en": "I was reading (f)",
       "mode": "full_word",
       "answer": "czytałam",
       "accepts": [
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "prompt_en": "you read (m)",
+      "prompt_en": "you were reading (m)",
       "mode": "full_word",
       "answer": "czytałeś",
       "accepts": [
@@ -379,7 +379,7 @@
       ]
     },
     {
-      "prompt_en": "I played (m)",
+      "prompt_en": "I was playing (m)",
       "mode": "full_word",
       "answer": "grałem",
       "accepts": [
@@ -388,7 +388,7 @@
       "explain": "grać loses only the -ć, so the past stem is the short gra- + ł. Short infinitives give short past forms."
     },
     {
-      "prompt_en": "she played",
+      "prompt_en": "she was playing",
       "mode": "full_word",
       "answer": "grała",
       "accepts": [
@@ -428,7 +428,7 @@
       ]
     },
     {
-      "prompt_en": "I worked (f)",
+      "prompt_en": "I was working (f)",
       "mode": "full_word",
       "answer": "pracowałam",
       "accepts": [
@@ -437,7 +437,7 @@
       "explain": "Do not start from pracuję. The -uj- exists only in the present; the past is cut from the infinitive pracować, giving pracowa- + ł + am."
     },
     {
-      "prompt_en": "she worked",
+      "prompt_en": "she was working",
       "mode": "full_word",
       "answer": "pracowała",
       "accepts": [
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "prompt_en": "she bought",
+      "prompt_en": "she was buying",
       "mode": "full_word",
       "answer": "kupowała",
       "accepts": [
@@ -453,7 +453,7 @@
       ]
     },
     {
-      "prompt_en": "I bought (f)",
+      "prompt_en": "I was buying (f)",
       "mode": "full_word",
       "answer": "kupowałam",
       "accepts": [
@@ -464,7 +464,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Dad read a book.",
+      "prompt_en": "Type: Dad was reading a book.",
       "answer": "Tata czytał książkę.",
       "accepts": [
         "Tata czytał książkę.",
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Mum bought bread.",
+      "prompt_en": "Type: Mum was buying bread.",
       "answer": "Mama kupowała chleb.",
       "accepts": [
         "Mama kupowała chleb.",
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Yesterday I worked at home. (m)",
+      "prompt_en": "Type: Yesterday I was working at home. (m)",
       "answer": "Wczoraj pracowałem w domu.",
       "accepts": [
         "Wczoraj pracowałem w domu.",
@@ -499,7 +499,7 @@
       "explain": "pracowałem, not pracuję — the past ignores the present stem and is cut straight from pracować."
     },
     {
-      "prompt_en": "Type: Anna worked at the shop.",
+      "prompt_en": "Type: Anna was working at the shop.",
       "answer": "Anna pracowała w sklepie.",
       "accepts": [
         "Anna pracowała w sklepie.",
@@ -507,7 +507,7 @@
       ]
     },
     {
-      "prompt_en": "Type: My brother played in the park.",
+      "prompt_en": "Type: My brother was playing in the park.",
       "answer": "Mój brat grał w parku.",
       "accepts": [
         "Mój brat grał w parku.",
@@ -515,7 +515,7 @@
       ]
     },
     {
-      "prompt_en": "Type: I read a letter. (f)",
+      "prompt_en": "Type: I was reading a letter. (f)",
       "answer": "Czytałam list.",
       "accepts": [
         "Czytałam list.",
