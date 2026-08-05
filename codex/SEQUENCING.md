@@ -216,6 +216,7 @@ Extend only by PR/docs update — agents must not invent IDs.
 | `perf_future` | Perfective future of the four taught twins (*kupie, zrobie, wypije, przeczytam* + persons). Lifts the A2 one-future fence in a dedicated unit. |
 | `conditional_sg` | Conditional SINGULAR only (*bym/bys/by* on taught past stems; *chcialbym/chcialabym*). Plural conditional deferred past the virile block. |
 | `past_isc` | Suppletive past of *isc* (*szedlem/szlam/szedl/szla/szlo*), taught whole; m/f stem split is a table fact, not a rule. |
+| `motion_prefixed` | Prefixed motion pairs *przyjsc/wyjsc* (on the *szedl* stems) and *przyjechac/wyjechac* (regular), past + perfective future. Other prefixes deferred. |
 | `wrapup_func` | Combined recombination of the five Situations units (shop, directions, restaurant, phone) into mixed scenes. Zero new material. |
 
 **UI labels** (exp vocab hints) may map a subset; catalogue above is the audit vocabulary.

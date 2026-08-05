@@ -84,6 +84,7 @@ STRUCTURE_CATALOGUE = {
     "perf_future",
     "conditional_sg",
     "past_isc",
+    "motion_prefixed",
 }
 
 GLUE_LEMMAS = {

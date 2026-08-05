@@ -2465,12 +2465,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] przyjsc/wyjsc (rides the szedl stems - b1_past_isc MUST precede) + przyjechac/wyjechac (regular). Futures too, since b1_perf_future precedes.",
+      "note": "The szedl-payoff kept: przyszedlem/wyszedlem mirror the just-learned stems (\"not one letter changed behind it\"). Bonus find: przyjsc was already taught in A1 trunk_can (Moge przyjsc jutro) - recycled, honestly told to the learner. 43 forms; futures held to 3 singular persons (load call, logged). wyjechac-do withheld to keep przy-=do / wy-=z clean on first contact.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b1_arrive_leave.json"
     },
     {
       "id": "b1_journeys",
@@ -2481,11 +2482,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] Journey-narrative register. check_new.py everything.",
+      "note": "Journey-as-narrative register. zgubic call DEVIATED from zdac/oblac precedent with sound reasoning: perfective past morphology is owned since a2_aspect, so zgubilem/spoznilem sie taught as tagged wholes. Verified: zero perfective futures of the new verbs. First background-imperfective + event-perfective sentence in the course: Szedlem do domu i po drodze kupilem chleb.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_journeys.json"
     },
     {
       "id": "b1_virile_reco",

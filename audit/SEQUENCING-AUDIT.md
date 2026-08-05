@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 104 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 106 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -121,4 +121,6 @@ _None._
 | 105 | `b1_conditional_sg` | `conditional_sg` | 14 | `aspect_past`, `conditional_sg`, `miec_acc`, `past_byc`, `past_rest`, `poss_nom`, `present`, `question` |
 | 106 | `b1_polite` | `situation_chunk` | 25 | `conditional_sg`, `dat_chunks`, `existential_jest`, `miec_acc`, `negation`, `question`, `situation_chunk`, `social_chunk` |
 | 107 | `b1_past_isc` | `past_isc` | 7 | `chodzic`, `past_byc`, `past_isc`, `past_rest`, `prep_do_gen`, `question` |
+| 108 | `b1_arrive_leave` | `motion_prefixed` | 43 | `can_inf`, `chodzic`, `inst_transport`, `jechac`, `motion_chunk`, `motion_prefixed`, `ordinals_time`, `past_ac`, `past_isc`, `perf_future`, `poss_nom`, `prep_do_gen`, `prep_z_gen`, `question` |
+| 109 | `b1_journeys` | — | 25 | `aspect_past`, `byc_adj`, `byc_present`, `can_inf`, `musiec`, `negation`, `past_byc`, `past_isc`, `past_plural`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `sie_reflexive`, `ten_ta_to`, `time_past_chunk`, `zgoda` |
 

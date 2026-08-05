@@ -1,0 +1,488 @@
+{
+  "id": "b1_journeys",
+  "title": "Podróż · w drodze",
+  "title_en": "Journeys · on the way",
+  "level": "B1",
+  "tree_node": "b1_journeys",
+  "default_direction": "en_to_pl",
+  "note": "B1 liść · narrative-journey REGISTER, not a transport-topic revisit — a2_transport2 owns bagaż/walizka/przesiadka/spóźniony and is only recycled here. Rides b1_past_isc (szedłem narrative past) and the perfective past owned since a2_aspect. ANCHORS, never re-taught: droga, podróż, pociąg, bilet, klucz, las, stacja, wcześnie, spóźniony/spóźniona. ZGUBIĆ DECISION (logged): zgubić is perfective, but unlike the zdać/oblać bare-infinitive-only treatment its past IS taught here — zgubiłem/zgubiłam/zgubił/zgubiła are morphologically identical to the owned kupiłem family (aspect_past pooled), so 'Zgubiłem się' = I got lost is taught as a whole chunk with every form tagged, plus the infinitive after chcę (Nie chcę się zgubić). spóźnić się gets the same treatment (spóźniłem się mirrors kupiłem; link to the taught adjective spóźniony named in an explain). BORROWED FORM: przyjechał (3sg) is assumed from b1_arrive_leave per the B1 spine — used in exactly ONE sentence (Pociąg przyjechał na czas) and tagged in uses_lemmas; no other arrive/leave forms used. HOMOGRAPH CHECKS: droga was taught as ROAD (a1_city) — that is exactly the sense inside w drodze / po drodze; the adjective drogi/droga = expensive (leaf_shopping_a1) is never used in this pack. bilet and klucz are inanimate masculines, so the accusatives in Tata zgubił bilet / Zgubiłam klucz are string-identical to the taught nominatives — legitimate. korek is taught in the traffic sense only (the cork sense is mentioned in an explain as a memory hook, never as a gloss). czas is a taught noun; na czas is taught as a whole chunk. drodze and autostradzie are tagged explicitly (every-form-taught). Nouns badged m/f; verbs and chunks take no badge.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "past_byc",
+    "past_isc",
+    "past_plural",
+    "aspect_past",
+    "prep_do_gen",
+    "prep_w_loc",
+    "prep_place",
+    "musiec",
+    "can_inf",
+    "negation",
+    "sie_reflexive",
+    "ten_ta_to",
+    "byc_adj",
+    "zgoda",
+    "time_past_chunk"
+  ],
+  "blocks": [
+    {
+      "id": "journeys_words",
+      "title": "Journeys · new words",
+      "items": [
+        {
+          "en": "on the way (mid-journey: I am on the way)",
+          "pl": "w drodze",
+          "icon": "🚶"
+        },
+        {
+          "en": "along the way (on the route)",
+          "pl": "po drodze",
+          "icon": "📍"
+        },
+        {
+          "en": "on time",
+          "pl": "na czas",
+          "icon": "⏰"
+        },
+        {
+          "en": "motorway",
+          "pl": "autostrada",
+          "gender": "f",
+          "icon": "🛣️"
+        },
+        {
+          "en": "traffic jam",
+          "pl": "korek",
+          "gender": "m",
+          "icon": "🚗"
+        },
+        {
+          "en": "to lose (an object — once, for good)",
+          "pl": "zgubić",
+          "icon": "🔑"
+        },
+        {
+          "en": "to be late (once)",
+          "pl": "spóźnić się",
+          "icon": "⌛"
+        }
+      ]
+    },
+    {
+      "id": "journeys_forms",
+      "title": "Journeys · the forms you say",
+      "items": [
+        {
+          "en": "on the motorway",
+          "pl": "na autostradzie"
+        },
+        {
+          "en": "I lost (m)",
+          "pl": "zgubiłem"
+        },
+        {
+          "en": "I lost (f)",
+          "pl": "zgubiłam"
+        },
+        {
+          "en": "he lost",
+          "pl": "zgubił"
+        },
+        {
+          "en": "she lost",
+          "pl": "zgubiła"
+        },
+        {
+          "en": "I got lost (m)",
+          "pl": "zgubiłem się"
+        },
+        {
+          "en": "I got lost (f)",
+          "pl": "zgubiłam się"
+        },
+        {
+          "en": "I was late (m)",
+          "pl": "spóźniłem się"
+        },
+        {
+          "en": "I was late (f)",
+          "pl": "spóźniłam się"
+        },
+        {
+          "en": "he was late",
+          "pl": "spóźnił się"
+        },
+        {
+          "en": "she was late",
+          "pl": "spóźniła się"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I'm on my way home.",
+      "pl": "Jestem w drodze do domu.",
+      "accepts": [
+        "Jestem w drodze do domu.",
+        "Jestem w drodze do domu"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "w drodze"
+      ],
+      "explain": "w drodze = literally 'in the road' — mid-journey, still travelling. droga is the road you already know; the locative drodze is the same change you see in szkoła → szkole."
+    },
+    {
+      "en": "I was on my way to work. (f)",
+      "pl": "Byłam w drodze do pracy.",
+      "accepts": [
+        "Byłam w drodze do pracy.",
+        "Byłam w drodze do pracy"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "w drodze"
+      ]
+    },
+    {
+      "en": "Along the way there was a forest.",
+      "pl": "Po drodze był las.",
+      "accepts": [
+        "Po drodze był las.",
+        "Po drodze był las"
+      ],
+      "structures": [
+        "past_byc"
+      ],
+      "lemmas": [
+        "po drodze"
+      ],
+      "explain": "w drodze says where YOU are (mid-journey); po drodze says something sits on your route or gets done en route. Two different prepositions on the same noun droga."
+    },
+    {
+      "en": "I was walking home and on the way I bought bread. (m)",
+      "pl": "Szedłem do domu i po drodze kupiłem chleb.",
+      "accepts": [
+        "Szedłem do domu i po drodze kupiłem chleb.",
+        "Szedłem do domu i po drodze kupiłem chleb"
+      ],
+      "structures": [
+        "past_isc",
+        "aspect_past",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "po drodze"
+      ],
+      "explain": "The narrative pattern: szedłem (was walking — the background) plus kupiłem (bought — the one finished event). po drodze hangs the event on the route."
+    },
+    {
+      "en": "I have to be on time.",
+      "pl": "Muszę być na czas.",
+      "accepts": [
+        "Muszę być na czas.",
+        "Muszę być na czas"
+      ],
+      "structures": [
+        "musiec",
+        "can_inf"
+      ],
+      "lemmas": [
+        "na czas"
+      ],
+      "explain": "na czas is a frozen chunk — na plus the czas you already know. Learn it whole, like na razie."
+    },
+    {
+      "en": "The train arrived on time.",
+      "pl": "Pociąg przyjechał na czas.",
+      "accepts": [
+        "Pociąg przyjechał na czas.",
+        "Pociąg przyjechał na czas"
+      ],
+      "structures": [
+        "aspect_past"
+      ],
+      "lemmas": [
+        "na czas"
+      ],
+      "explain": "przyjechał is the arrive-verb from the last unit — one finished arrival, so the perfective past, and na czas says it happened exactly when it should."
+    },
+    {
+      "en": "This motorway is new.",
+      "pl": "Ta autostrada jest nowa.",
+      "accepts": [
+        "Ta autostrada jest nowa.",
+        "Ta autostrada jest nowa"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "autostrada"
+      ]
+    },
+    {
+      "en": "We were on the motorway.",
+      "pl": "Byliśmy na autostradzie.",
+      "accepts": [
+        "Byliśmy na autostradzie.",
+        "Byliśmy na autostradzie"
+      ],
+      "structures": [
+        "past_byc",
+        "past_plural",
+        "prep_place"
+      ],
+      "lemmas": [
+        "na autostradzie"
+      ],
+      "explain": "na + locative: autostrada changes to autostradzie exactly the way droga changes to drodze — the -da/-ga endings both soften to -dzie."
+    },
+    {
+      "en": "There was a big traffic jam.",
+      "pl": "Był duży korek.",
+      "accepts": [
+        "Był duży korek.",
+        "Był duży korek"
+      ],
+      "structures": [
+        "past_byc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "korek"
+      ],
+      "explain": "korek literally means a cork — Polish sees the traffic stuck in the road's neck like a cork in a bottle. Here it always means the traffic jam."
+    },
+    {
+      "en": "In the city there was a traffic jam.",
+      "pl": "W mieście był korek.",
+      "accepts": [
+        "W mieście był korek.",
+        "W mieście był korek",
+        "Był korek w mieście.",
+        "Był korek w mieście"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "korek"
+      ]
+    },
+    {
+      "en": "Dad lost the ticket.",
+      "pl": "Tata zgubił bilet.",
+      "accepts": [
+        "Tata zgubił bilet.",
+        "Tata zgubił bilet"
+      ],
+      "structures": [
+        "aspect_past"
+      ],
+      "lemmas": [
+        "zgubił"
+      ],
+      "explain": "zgubić is perfective, like kupić — one finished event. zgubił works exactly like kupił: the ticket is gone, once and for good."
+    },
+    {
+      "en": "I lost the key. (f)",
+      "pl": "Zgubiłam klucz.",
+      "accepts": [
+        "Zgubiłam klucz.",
+        "Zgubiłam klucz"
+      ],
+      "structures": [
+        "aspect_past"
+      ],
+      "lemmas": [
+        "zgubiłam"
+      ],
+      "explain": "Losing an object is zgubić; losing a game is przegrywać — Polish keeps them apart."
+    },
+    {
+      "en": "I don't want to get lost.",
+      "pl": "Nie chcę się zgubić.",
+      "accepts": [
+        "Nie chcę się zgubić.",
+        "Nie chcę się zgubić"
+      ],
+      "structures": [
+        "negation",
+        "can_inf",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "zgubić"
+      ],
+      "explain": "zgubić się = to lose yourself — that is how Polish says 'get lost'. The same się you know from nazywam się."
+    },
+    {
+      "en": "I got lost in the city. (m)",
+      "pl": "Zgubiłem się w mieście.",
+      "accepts": [
+        "Zgubiłem się w mieście.",
+        "Zgubiłem się w mieście",
+        "W mieście zgubiłem się.",
+        "W mieście zgubiłem się"
+      ],
+      "structures": [
+        "aspect_past",
+        "sie_reflexive",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "zgubiłem się"
+      ]
+    },
+    {
+      "en": "I got lost in the park. (f)",
+      "pl": "Zgubiłam się w parku.",
+      "accepts": [
+        "Zgubiłam się w parku.",
+        "Zgubiłam się w parku"
+      ],
+      "structures": [
+        "aspect_past",
+        "sie_reflexive",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "zgubiłam się"
+      ]
+    },
+    {
+      "en": "I don't want to be late.",
+      "pl": "Nie chcę się spóźnić.",
+      "accepts": [
+        "Nie chcę się spóźnić.",
+        "Nie chcę się spóźnić"
+      ],
+      "structures": [
+        "negation",
+        "can_inf",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "spóźnić się"
+      ],
+      "explain": "You already know spóźniony — the late person. spóźnić się is the verb behind it: the one moment of arriving too late."
+    },
+    {
+      "en": "Yesterday I was late for work. (m)",
+      "pl": "Wczoraj spóźniłem się do pracy.",
+      "accepts": [
+        "Wczoraj spóźniłem się do pracy.",
+        "Wczoraj spóźniłem się do pracy",
+        "Spóźniłem się wczoraj do pracy.",
+        "Spóźniłem się wczoraj do pracy",
+        "Spóźniłem się do pracy wczoraj.",
+        "Spóźniłem się do pracy wczoraj"
+      ],
+      "structures": [
+        "aspect_past",
+        "sie_reflexive",
+        "time_past_chunk",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "spóźniłem się"
+      ],
+      "explain": "spóźniłem się works exactly like kupiłem — perfective past, one finished event. Late for a place is spóźnić się do: do pracy, do szkoły."
+    },
+    {
+      "en": "Anna was late for school.",
+      "pl": "Anna spóźniła się do szkoły.",
+      "accepts": [
+        "Anna spóźniła się do szkoły.",
+        "Anna spóźniła się do szkoły"
+      ],
+      "structures": [
+        "aspect_past",
+        "sie_reflexive",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "spóźniła się"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "w drodze",
+    "po drodze",
+    "drodze",
+    "na czas",
+    "autostrada",
+    "na autostradzie",
+    "autostradzie",
+    "korek",
+    "zgubić",
+    "zgubiłem",
+    "zgubiłam",
+    "zgubił",
+    "zgubiła",
+    "zgubiłem się",
+    "zgubiłam się",
+    "spóźnić się",
+    "spóźnić",
+    "spóźniłem się",
+    "spóźniłem",
+    "spóźniłam się",
+    "spóźniłam",
+    "spóźnił się",
+    "spóźnił",
+    "spóźniła się",
+    "spóźniła"
+  ],
+  "uses_lemmas": [
+    "podróż",
+    "jestem",
+    "byłam",
+    "był",
+    "byliśmy",
+    "szedłem",
+    "kupiłem",
+    "przyjechał",
+    "chleb",
+    "las",
+    "pociąg",
+    "bilet",
+    "klucz",
+    "tata",
+    "anna",
+    "ta",
+    "jest",
+    "nowa",
+    "duży",
+    "i",
+    "nie",
+    "chcę",
+    "się",
+    "muszę",
+    "być",
+    "wczoraj",
+    "do domu",
+    "do pracy",
+    "do szkoły",
+    "w mieście",
+    "w parku"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_journeys",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
