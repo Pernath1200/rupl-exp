@@ -2532,12 +2532,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] A2 people-rule becomes the full system. TEACHES oni/one - fenced everywhere before this node.",
+      "note": "B1 SPINE block 4, unit 3/3 (closes the virile block). Teaches oni/one at last (fenced everywhere before this node) and applies the already-taught -li/-ly rule to real virile-noun subjects (ci studenci, ci lekarze) vs non-virile ones (te kobiety, te domy) instead of a2_past_plural's 'name i name' workaround. One new verb spread to the plural past to match the spine's own example: pracowali/pracowaly.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_virile_past.json"
     },
     {
       "id": "b1_people",

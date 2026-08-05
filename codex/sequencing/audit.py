@@ -87,6 +87,7 @@ STRUCTURE_CATALOGUE = {
     "motion_prefixed",
     "virile_reco",
     "virile_nom",
+    "virile_past",
 }
 
 GLUE_LEMMAS = {
