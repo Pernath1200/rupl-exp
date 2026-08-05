@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 77 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 78 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -93,4 +93,5 @@ _None._
 | 76 | `a2_house` | — | 22 | `byc_adj`, `byc_present`, `existential_jest`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `question`, `ten_ta_to`, `to_jest`, `zgoda` |
 | 77 | `a2_bedzie` | `bedzie` | 6 | `bedzie`, `can_inf`, `inst_transport`, `miec_acc`, `past_byc`, `poss_nom`, `prep_w_loc`, `present`, `question` |
 | 78 | `a2_musiec` | `musiec` | 9 | `bedzie`, `can_inf`, `inst_transport`, `miec_acc`, `musiec`, `past_ac`, `past_byc`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question`, `situation_chunk` |
+| 81 | `a2_aspect` | `aspect_past` | 22 | `aspect_past`, `miec_acc`, `past_ac`, `past_byc`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_e_esz`, `present_uje`, `question` |
 

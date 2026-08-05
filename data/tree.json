@@ -1957,13 +1957,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] kupować/kupić, robić/zrobić, pić/wypić, jeść/zjeść, czytać/przeczytać in past contexts: kupowałem (used to/was buying) vs kupiłem (bought, done). A1 preview cashes in. Full system stays B1.",
+      "note": "Aspect named at last, PAST ONLY. Four twins (kupic/zrobic/wypic/przeczytac) taught as pairs to learn whole - NO prefix rule, because z-/wy-/prze-/nothing is genuinely unpredictable and a rule would be false. gotowac/ugotowac dropped: gotowac has no past form taught anywhere, so there was no imperfective to contrast against. Perfective FUTURE fenced absolutely - verified zero occurrences - so it cannot contradict a2_bedzie. Beginner fallback taught explicitly: when unsure use the imperfective, since the perfective adds the completion claim you can be wrong about.",
       "unit_id": "PL2_33",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_aspect.json"
     },
     {
       "id": "a2_food2",
