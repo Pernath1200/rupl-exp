@@ -41,15 +41,11 @@
     </div>
 
     <h1 class="home-title">Ucz się polskiego</h1>
-    <p class="home-intro">
-      Krok po kroku: gramatyka i słówka.
-      Nowy? Otwórz <strong>Jak używać</strong>.
-      Potem naciśnij <strong>Dalej</strong>.
-    </p>
+    <p class="home-intro">Naciśnij <strong>Dalej</strong>, żeby się uczyć.</p>
     <p id="author-hint" class="practice-hint" hidden style="color: var(--accent); margin-top: -0.75rem"></p>
     <div id="boot-error" class="card" hidden></div>
 
-    <div id="view-map">
+    <div id="view-map" class="home-minimal">
       <div class="rail-label">Poziom · Level</div>
       <div id="level-rail" class="level-rail" role="toolbar" aria-label="Poziom CEFR"></div>
 
@@ -60,68 +56,79 @@
           <button type="button" class="home-btn" id="btn-home-review">Powtórka</button>
           <button type="button" class="home-btn" id="btn-home-topics">Tematy</button>
           <button type="button" class="home-btn" id="btn-how-to-use">Jak używać</button>
+          <button type="button" class="home-btn" id="btn-home-more" aria-expanded="false">Więcej</button>
         </div>
         <p class="home-hint" id="home-review-hint" hidden></p>
       </div>
 
       <div class="card home-panel" id="review-card" hidden>
         <h2>Powtórka · Review</h2>
-        <div id="review-list"></div>
+        <div id="review-list" class="home-panel-scroll"></div>
       </div>
 
       <div class="card" id="up-next-card" hidden>
         <div id="up-next"></div>
       </div>
 
-      <div class="card" id="node-detail-card">
+      <div class="card" id="node-detail-card" hidden>
         <h2>Jednostka · Unit</h2>
         <div id="node-detail"></div>
       </div>
 
-      <details class="card quiet-details" id="progress-details">
-        <summary>Postęp · Progress <span class="quiet-summary-meta" id="progress-summary-meta"></span></summary>
-        <div id="level-meters" class="level-meters" aria-live="polite"></div>
-        <div class="progress-transfer" id="progress-transfer">
-          <p class="home-hint">
-            Progress stays <strong>in this browser on this site</strong>
-            (localhost ≠ GitHub Pages). Updating the app does not wipe it
-            if the progress key stays the same.
-            Backup: <strong>Download</strong> · restore: <strong>Import</strong>.
-          </p>
-          <div class="progress-transfer-actions">
-            <button type="button" class="home-btn" id="btn-progress-download">Download progress</button>
-            <button type="button" class="home-btn" id="btn-progress-import">Import progress…</button>
-            <input type="file" id="input-progress-import" accept="application/json,.json" hidden />
-          </div>
-          <p class="home-hint" id="progress-transfer-msg" hidden></p>
-        </div>
-      </details>
-
-      <details class="card quiet-details" id="map-details">
-        <summary>Mapa i wszystkie jednostki</summary>
-        <p class="home-hint">Optional · wszystkie jednostki. Tap a unit for details, then Ćwicz (practice).</p>
-        <button type="button" class="btn" id="btn-map-more" aria-expanded="true" aria-controls="map-more" hidden>map</button>
-        <div id="map-more">
-          <div class="card" id="tree-portrait-card">
-            <h2>Drzewo</h2>
-            <div id="tree-portrait" class="tree-portrait-host"></div>
-          </div>
-          <div class="panel-grid" id="roots-panel-grid" hidden>
-            <div class="card domain-grammar">
-              <h2>Korzenie · Grammar</h2>
-              <div id="roots-strip" class="roots-strip"></div>
+      <div class="card home-panel" id="panel-more" hidden>
+        <h2>Więcej · More</h2>
+        <details class="quiet-details home-more-block" id="progress-details" open>
+          <summary>Postęp · Progress <span class="quiet-summary-meta" id="progress-summary-meta"></span></summary>
+          <div id="level-meters" class="level-meters" aria-live="polite"></div>
+          <div class="progress-transfer" id="progress-transfer">
+            <p class="home-hint">
+              Progress stays <strong>in this browser on this site</strong>.
+              Backup: <strong>Download</strong> · restore: <strong>Import</strong>.
+            </p>
+            <div class="progress-transfer-actions">
+              <button type="button" class="home-btn" id="btn-progress-download">Download progress</button>
+              <button type="button" class="home-btn" id="btn-progress-import">Import progress…</button>
+              <input type="file" id="input-progress-import" accept="application/json,.json" hidden />
             </div>
-            <div class="card domain-vocab">
-              <h2>Liście · Vocab</h2>
-              <div id="vocab-fill" class="roots-strip"></div>
+            <p class="home-hint" id="progress-transfer-msg" hidden></p>
+          </div>
+        </details>
+        <details class="quiet-details home-more-block" id="map-details" open>
+          <summary class="tree-map-summary">
+            <span class="tree-map-summary-label">Mapa · Map</span>
+            <span class="map-help-wrap">
+              <button type="button" class="map-help-btn" id="btn-map-help"
+                aria-label="Co oznaczają korzenie?" aria-expanded="false" aria-controls="map-help-tip">?</button>
+              <span class="map-help-tip" id="map-help-tip" role="tooltip" hidden>
+                <strong>Korzenie</strong> to podstawa języka (gramatyka); <strong>liście</strong> to słówka.
+                Ucz się krok po kroku — możesz pominąć mapę i użyć <strong>Dalej</strong>.
+              </span>
+            </span>
+          </summary>
+          <p class="home-hint">Opcjonalnie · tap a unit, then Ćwicz.</p>
+          <button type="button" class="btn" id="btn-map-more" aria-expanded="true" aria-controls="map-more" hidden>map</button>
+          <div id="map-more">
+            <div class="card" id="tree-portrait-card">
+              <h2>Drzewo</h2>
+              <div id="tree-portrait" class="tree-portrait-host"></div>
+            </div>
+            <div class="panel-grid" id="roots-panel-grid" hidden>
+              <div class="card domain-grammar">
+                <h2>Korzenie · Grammar</h2>
+                <div id="roots-strip" class="roots-strip"></div>
+              </div>
+              <div class="card domain-vocab">
+                <h2>Liście · Vocab</h2>
+                <div id="vocab-fill" class="roots-strip"></div>
+              </div>
+            </div>
+            <div class="card" id="path-card">
+              <h2>Ścieżka · Path</h2>
+              <ul id="path-list" class="path-list home-panel-scroll"></ul>
             </div>
           </div>
-          <div class="card" id="path-card">
-            <h2>Ścieżka · Path</h2>
-            <ul id="path-list" class="path-list"></ul>
-          </div>
-        </div>
-      </details>
+        </details>
+      </div>
     </div>
 
     <div id="view-practice" class="card" hidden>
@@ -140,6 +147,6 @@
       <button type="button" class="util-btn" id="btn-author-unlock" aria-pressed="false">Tryb autorski</button>
     </p>
   </div>
-  <script type="module" src="./js/app.js?v=2026-08-04-home"></script>
+  <script type="module" src="./js/app.js?v=2026-08-05-home-min"></script>
 </body>
 </html>

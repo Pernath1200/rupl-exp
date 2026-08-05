@@ -1619,8 +1619,30 @@ button.m.wrong {
 .howto-more-list { margin: 0.5rem 0 0; padding-left: 1.1rem; }
 .howto-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .home-title { margin: 0 0 0.5rem; font-size: 1.45rem; font-weight: 650; }
-.home-intro { margin: 0 0 1rem; font-size: 0.95rem; color: var(--muted); max-width: 28rem; line-height: 1.5; }
+.home-intro { margin: 0 0 0.75rem; font-size: 0.9rem; color: var(--muted); max-width: 28rem; line-height: 1.4; }
 .home-intro strong { color: var(--text); }
+.home-minimal .level-rail { margin-bottom: 0.75rem; }
+.home-panel-scroll { max-height: min(50vh, 22rem); overflow: auto; margin-top: 0.35rem; }
+.home-more-block { margin-top: 0.75rem; padding-top: 0.35rem; }
+.tree-map-summary { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.55rem; }
+.map-help-wrap { position: relative; display: inline-flex; align-items: center; }
+.map-help-btn {
+  font-family: inherit; font-size: 0.72rem; font-weight: 700; line-height: 1;
+  width: 1.25rem; height: 1.25rem; padding: 0; border-radius: 99px;
+  border: 1px solid var(--accent-border); background: transparent; color: var(--muted); cursor: help;
+}
+.map-help-btn:hover, .map-help-btn:focus-visible, .map-help-btn[aria-expanded="true"] {
+  border-color: var(--accent); color: var(--accent); background: var(--accent-dim); outline: none;
+}
+.map-help-tip {
+  position: absolute; left: 0; top: calc(100% + 0.4rem); z-index: 20;
+  width: min(16.5rem, 72vw); padding: 0.55rem 0.65rem; border-radius: 6px;
+  border: 1px solid var(--accent-border); background: var(--surface); color: var(--text);
+  font-size: 0.78rem; font-weight: 400; line-height: 1.4;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45); pointer-events: none;
+}
+.map-help-tip strong { color: var(--accent); font-weight: 600; }
+.map-help-tip:not([hidden]) { display: block; }
 .home-actions-card {
   border-color: var(--accent-border, rgba(200, 120, 64, 0.45));
   background: linear-gradient(180deg, rgba(200, 120, 64, 0.12), var(--surface) 70%);
