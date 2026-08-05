@@ -36,19 +36,44 @@
 
 ## Quality gate
 
-The sequencing auditor lives in the sibling repo `rupl-codex` (local-only):
+The sequencing auditor, pool generator and vocab-triage tool live in `codex/`
+inside this same repo (merged 2026-08-06 from the sibling repo `rupl-codex`,
+which had no git remote — a single clone is now self-sufficient):
 
 ```powershell
-cd C:\Users\ADMIN\Documents\projects\rupl-codex
-py -X utf8 sequencing\audit.py     # must report: errors 0 · warns 0
+cd C:\Users\ADMIN\Documents\projects\rupl-exp\codex\sequencing
+py -X utf8 audit.py     # must report: errors 0 · warns 0
 ```
 
 It walks `tree.json` `path_order`, and for every **live** node checks that the pack
 never *uses* a structure or lemma that was not *taught* at or before that point.
-Spec + structure-ID catalogue: `rupl-codex/SEQUENCING.md`. **Never invent structure
+Spec + structure-ID catalogue: `codex/SEQUENCING.md`. **Never invent structure
 IDs** — add them to the catalogue and to `STRUCTURE_CATALOGUE` in `audit.py` first.
 
-Copy the refreshed report back to `rupl-exp/audit/` when it changes.
+`audit.py` writes straight to `rupl-exp/audit/` (no separate copy step needed —
+that used to be a manual cross-repo mirror; it's now the same directory).
+
+**Before authoring a batch, regenerate the position-aware pool:**
+
+```powershell
+py -X utf8 make_pool.py <output-path> --before <the-next-unbuilt-node-id>
+```
+
+Hand agents the pool file, not the raw tree — a stale or position-blind pool
+has caused a real sequencing bug and repeatedly made agents wrongly cautious.
+`--before` matters: the pool for a unit is everything taught *strictly before
+it* on `path_order`, not everything taught anywhere (units are authored out of
+order, so live nodes routinely sit later than the one being written).
+
+**Before treating a vocabulary candidate as new, check it:**
+
+```powershell
+py -X utf8 check_new.py word1 word2 word3
+```
+
+It reports which pack already teaches each word, at which path index — and
+what it was taught **as** (see the homograph trap below). Several briefs this
+project wrongly assumed a word was new when an earlier pack already owned it.
 
 ## Windows gotchas
 

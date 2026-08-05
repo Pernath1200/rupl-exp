@@ -1,7 +1,7 @@
 # Sequencing audit · 2026-08-05
 
-**Spec:** `rupl-codex/SEQUENCING.md`  
-**Path source:** `rupl-exp/data/tree.json`  
+**Spec:** `codex/SEQUENCING.md`  
+**Path source:** `data/tree.json`  
 **Nodes audited:** 97 · **errors:** 0 · **warns:** 1 · **missing_tags:** 0
 
 ## Errors

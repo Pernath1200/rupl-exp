@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-05T18:10:03+02:00",
-  "path_source": "rupl-exp/data/tree.json",
+  "spec": "codex/SEQUENCING.md",
+  "generated_at": "2026-08-05T19:21:53+02:00",
+  "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
     "a1_gender",
