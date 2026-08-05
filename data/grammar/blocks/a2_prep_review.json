@@ -572,23 +572,7 @@
       ]
     }
   ],
-  "teaches_lemmas": [
-    "w górach",
-    "na plaży",
-    "w salonie",
-    "do apteki",
-    "ze sklepu",
-    "o pracy",
-    "o mieście",
-    "o banku",
-    "o biurze",
-    "z siostrą",
-    "z babcią",
-    "z kolegą",
-    "pociągiem",
-    "rowerem",
-    "samochodem"
-  ],
+  "teaches_lemmas": [],
   "uses_lemmas": [
     "bank",
     "banku",
@@ -672,7 +656,22 @@
     "czy",
     "wczoraj",
     "mój",
-    "moja"
+    "moja",
+    "w górach",
+    "na plaży",
+    "w salonie",
+    "do apteki",
+    "ze sklepu",
+    "o pracy",
+    "o mieście",
+    "o banku",
+    "o biurze",
+    "z siostrą",
+    "z babcią",
+    "z kolegą",
+    "pociągiem",
+    "rowerem",
+    "samochodem"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

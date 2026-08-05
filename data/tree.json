@@ -2264,13 +2264,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] A1-review-unit pattern on A2 vocab: w górach, na plaży, do Polski, z pracy... + o+Loc + z+Inst woven in.",
+      "note": "A2 preposition/case review, zero new material. Forces real choice by putting w/na/do/z/o all on the SAME noun (biuro: w biurze/do biura/z biura/o biurze). z+Inst (company) vs bare Inst (transport) drilled as the highest-value trap named in both source units own notes. Countries and restauracja/kawiarnia dropped - both genuinely untaught in those forms, confirmed by the owning packs own notes. FIX APPLIED: agent had put all 15 recombined phrases in teaches_lemmas despite its own report admitting every one was already taught verbatim elsewhere - moved to uses_lemmas, which is what a review unit should actually declare.",
       "unit_id": "PL2_50",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_prep_review.json"
     },
     {
       "id": "a2_wrapup_func",
