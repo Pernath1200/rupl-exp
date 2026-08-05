@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 92 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 93 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -107,5 +107,6 @@ _None._
 | 91 | `a2_celebrations` | — | 17 | `aspect_past`, `byc_adj`, `byc_present`, `inst_z`, `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `prep_place`, `prep_w_loc`, `present_e_isz`, `present_uje`, `question`, `time_past_chunk`, `to_jest`, `zgoda` |
 | 92 | `a2_superlatives` | `superlative` | 29 | `byc_adj`, `byc_present`, `comparative`, `gen_endings`, `poss_nom`, `superlative`, `ten_ta_to`, `zgoda` |
 | 93 | `a2_nature2` | — | 22 | `bedzie`, `byc_adj`, `byc_present`, `existential_jest`, `inst_z`, `miec_acc`, `miec_present`, `motion_chunk`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present_e_isz`, `ten_ta_to`, `to_jest`, `zgoda` |
+| 94 | `a2_sport` | — | 19 | `byc_adj`, `byc_present`, `existential_jest`, `inst_identity`, `miec_acc`, `miec_present`, `motion_chunk`, `past_byc`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_am`, `to_jest`, `zgoda` |
 | 95 | `a2_imperative` | `imperative` | 18 | `byc_adj`, `byc_present`, `imperative`, `miec_acc`, `motion_chunk`, `negation`, `prep_do_gen`, `prep_w_loc`, `present_am`, `question`, `situation_chunk`, `social_chunk` |
 

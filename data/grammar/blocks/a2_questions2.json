@@ -1,0 +1,539 @@
+{
+  "id": "a2_questions2",
+  "title": "Pytania 2",
+  "title_en": "More question words",
+  "level": "A2",
+  "tree_node": "a2_questions2",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Second question-word wave, completing a1_questions (co/gdzie/jak/czy already own that ground and are only recycled here). THREE new things: (1) dlaczego + bo taught as a pair on purpose — a question you can answer is worth twice one you can't. (2) kiedy — when. (3) ktory/ktora/ktore — Nominative ONLY, taught as the exact same gender-test reflex as ten/ta/to (structure ten_ta_to, a1_gender_gym): ktory matches ten, ktora matches ta, ktore matches to. FENCED: no case forms of ktory beyond Nominative (ktorego/ktorej/ktorym are B1+), no relative clauses (film, ktory... is B1), no indirect questions (Nie wiem, kiedy... is B1). Every ktory/ktora/ktore sentence in this pack keeps the word in SUBJECT position (Ktory film jest dobry?) so it never has to take an object case — that boundary is never even hinted at to the learner beyond one quarantine line in the intro, matching the a2_shopping_func 'Place karta' / a2_ordinals_time 'o trzeciej' precedent of naming the fence without explaining the machinery behind it. HOMOGRAPH CHECK (POOL + check_new): ktora is already in POOL, taught by a2_ordinals_time inside the frozen chunk 'ktora godzina' (what time is it) — same word, same function (interrogative, feminine nominative, agreeing with a feminine noun), not a homograph mismatch, so it is RECYCLED here rather than re-taught: it does not appear in teaches_lemmas, only in uses_lemmas, and the intro explicitly points back to 'ktora godzina' as the anchor the learner already has. ktory and ktore are genuinely new and are taught. ktorej (genitive/locative, taught by a2_ordinals_time only as the frozen chunk 'o ktorej' = at what time, never explained as a case form) is deliberately NOT reused here at all, precisely because reusing it would dress up a case form as if it were part of the Nominative-only paradigm this unit teaches — safer to leave it untouched. ILE CHECK: ile (how much/how many) is already in POOL, taught by a2_shopping_func (Ile to kosztuje?, Ile kosztuje kawa?) and seeded even earlier via the frozen chunk 'Ile masz lat?'. It is NOT re-taught here — one intro recap line names it and moves on; it carries no teaches_lemmas entry and no dedicated match/quiz/type/use items, only a mention in uses_lemmas. All verbs imperfective, all forms already in POOL (present_uje: pracuje/pracujesz; present_e_isz: lubi; present_e_esz: pije; musiec: musze; byc_adj: zmeczony/zmeczona, dobry/dobra/dobre; existential_jest: jest + subject for 'when is the film'). dobry/dobra/dobre (a1_gender_check) is used deliberately as the predicate adjective across all three ktory/ktora/ktore sentences so the two closed 3-gender sets line up side by side — the clearest 'live application of the gender work' available in POOL.",
+  "focus_structures": [
+    "questions2"
+  ],
+  "teaches_structures": [
+    "questions2"
+  ],
+  "uses_structures": [
+    "questions2",
+    "question",
+    "ten_ta_to",
+    "byc_adj",
+    "byc_present",
+    "existential_jest",
+    "present_uje",
+    "present_e_isz",
+    "present_e_esz",
+    "musiec"
+  ],
+  "intro": [
+    {
+      "title": "Dlaczego? and bo — learn them as a pair",
+      "title_pl": "Dlaczego? i bo",
+      "body": "Dlaczego? means \"Why?\". Bo means \"because\".\n\nThey are taught together on purpose. A question you can actually answer is worth twice one you can't — so every time you meet dlaczego, you get bo in the same breath.",
+      "body_pl": "Dlaczego? = pytanie. Bo = odpowiedź.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Dlaczego?",
+            "Why?"
+          ],
+          [
+            "Bo…",
+            "Because…"
+          ],
+          [
+            "Dlaczego pracujesz?",
+            "Why do you work?"
+          ],
+          [
+            "Bo muszę.",
+            "Because I have to."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Why is dad tired?",
+          "pl": "Dlaczego tata jest zmęczony?"
+        },
+        {
+          "en": "Because dad is working.",
+          "pl": "Bo tata pracuje."
+        }
+      ]
+    },
+    {
+      "title": "Kiedy? — when",
+      "title_pl": "Kiedy?",
+      "body": "Kiedy means \"when\". It asks about a point in time, in general — a different job from o której, which you already have for a fixed clock hour (o trzeciej). Kiedy is the wider question; o której is the narrow one.",
+      "body_pl": "Kiedy pracujesz? Kiedy jest film?",
+      "examples": [
+        {
+          "en": "When do you work?",
+          "pl": "Kiedy pracujesz?"
+        },
+        {
+          "en": "When is the film?",
+          "pl": "Kiedy jest film?"
+        }
+      ]
+    },
+    {
+      "title": "Który / która / które — the same test as ten / ta / to",
+      "title_pl": "Który / która / które",
+      "body": "You already have a reflex for checking a noun's gender: ten dom, ta kawa, to piwo. Który/która/które is built on exactly that reflex — it just means \"which\" instead of \"this\".\n\nKtóry matches ten. Która matches ta — and you have actually met która before, in która godzina? (\"what time is it?\"). Które matches to.\n\nSame three endings you already sort by ear, doing a new job.",
+      "body_pl": "Który = jak ten. Która = jak ta (znasz z która godzina?). Które = jak to.",
+      "table": {
+        "headers": [
+          "Gender",
+          "Test you know",
+          "which…?"
+        ],
+        "rows": [
+          [
+            "męski",
+            "ten dom",
+            "który film?"
+          ],
+          [
+            "żeński",
+            "ta kawa",
+            "która kawa?"
+          ],
+          [
+            "nijaki",
+            "to piwo",
+            "które piwo?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Który / która / które in a real sentence",
+      "title_pl": "W zdaniu",
+      "body": "Put który/która/które at the front, followed by the noun, and ask about it. In this unit it always stands as the subject, the same way ten/ta/to did — that keeps it simple. Ktory changes its ending after other verbs, but that is a later unit; for now it is always który jest, która jest, które jest.",
+      "body_pl": "Który film jest dobry? Która kawa jest dobra? Które piwo jest dobre?",
+      "examples": [
+        {
+          "en": "Which film is good?",
+          "pl": "Który film jest dobry?"
+        },
+        {
+          "en": "Which coffee is good?",
+          "pl": "Która kawa jest dobra?"
+        },
+        {
+          "en": "Which beer is good?",
+          "pl": "Które piwo jest dobre?"
+        }
+      ]
+    },
+    {
+      "title": "Ile — already yours",
+      "title_pl": "Ile — już znasz",
+      "body": "One more question word belongs in this family, and you already have it: ile (\"how much / how many\"). You met it at the very start — Ile masz lat? — and again in the shop — Ile kosztuje kawa?\n\nNo new teaching here. This unit's job was the other three: dlaczego (+ bo), kiedy, and który/która/które.",
+      "body_pl": "Ile już znasz: Ile masz lat? Ile kosztuje kawa?"
+    }
+  ],
+  "match": [
+    {
+      "en": "Why?",
+      "pl": "Dlaczego?"
+    },
+    {
+      "en": "Because…",
+      "pl": "Bo…"
+    },
+    {
+      "en": "When?",
+      "pl": "Kiedy?"
+    },
+    {
+      "en": "Which (m.)?",
+      "pl": "Który?"
+    },
+    {
+      "en": "Which (f.)?",
+      "pl": "Która?"
+    },
+    {
+      "en": "Which (n.)?",
+      "pl": "Które?"
+    },
+    {
+      "en": "Which film?",
+      "pl": "Który film?"
+    },
+    {
+      "en": "Which coffee?",
+      "pl": "Która kawa?"
+    },
+    {
+      "en": "Which beer?",
+      "pl": "Które piwo?"
+    },
+    {
+      "en": "When do you work?",
+      "pl": "Kiedy pracujesz?"
+    },
+    {
+      "en": "Why is dad tired?",
+      "pl": "Dlaczego tata jest zmęczony?"
+    },
+    {
+      "en": "Because dad is working.",
+      "pl": "Bo tata pracuje."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Why? →",
+      "choices": [
+        "Dlaczego?",
+        "Kiedy?",
+        "Który?",
+        "Ile?"
+      ],
+      "answer": "Dlaczego?"
+    },
+    {
+      "prompt": "When? →",
+      "choices": [
+        "Kiedy?",
+        "Dlaczego?",
+        "Gdzie?",
+        "Która?"
+      ],
+      "answer": "Kiedy?"
+    },
+    {
+      "prompt": "Because →",
+      "choices": [
+        "Bo",
+        "Dlaczego",
+        "Czy",
+        "Jak"
+      ],
+      "answer": "Bo",
+      "explain": "Bo answers a dlaczego question — the two are learned as a pair."
+    },
+    {
+      "prompt": "Which film? →",
+      "choices": [
+        "Który film?",
+        "Która film?",
+        "Które film?",
+        "Który filmu?"
+      ],
+      "answer": "Który film?",
+      "explain": "Film is masculine — the same test you already run with ten film. Który matches ten."
+    },
+    {
+      "prompt": "Which coffee? →",
+      "choices": [
+        "Która kawa?",
+        "Który kawa?",
+        "Które kawa?",
+        "Która kawę?"
+      ],
+      "answer": "Która kawa?",
+      "explain": "Kawa is feminine — ta kawa, która kawa. It is the same word you already know from która godzina?"
+    },
+    {
+      "prompt": "Which beer? →",
+      "choices": [
+        "Które piwo?",
+        "Który piwo?",
+        "Która piwo?",
+        "Które piwa?"
+      ],
+      "answer": "Które piwo?",
+      "explain": "Piwo is neuter — to piwo, które piwo."
+    },
+    {
+      "prompt": "Fix: Który kawa? →",
+      "choices": [
+        "Która kawa?",
+        "Który kawa?",
+        "Które kawa?",
+        "Który film?"
+      ],
+      "answer": "Która kawa?",
+      "explain": "Kawa is feminine, so it needs która, not który — exactly as it needs ta, not ten."
+    },
+    {
+      "prompt": "— Dlaczego tata jest zmęczony? — ___ pracuje.",
+      "choices": [
+        "Bo",
+        "Dlaczego",
+        "Kiedy",
+        "Który"
+      ],
+      "answer": "Bo",
+      "explain": "Bo gives the reason — it is the only one of the four that can answer a dlaczego question."
+    },
+    {
+      "prompt": "Który film jest dobry? =",
+      "choices": [
+        "Which film is good?",
+        "Why is the film good?",
+        "When is the film good?",
+        "How much is the film?"
+      ],
+      "answer": "Which film is good?"
+    },
+    {
+      "prompt": "You want to know when something happens. You ask:",
+      "choices": [
+        "Kiedy?",
+        "Dlaczego?",
+        "Który?",
+        "Ile?"
+      ],
+      "answer": "Kiedy?"
+    },
+    {
+      "prompt": "You are choosing between two beers. Piwo is neuter, so you ask:",
+      "choices": [
+        "Które?",
+        "Który?",
+        "Która?",
+        "Której?"
+      ],
+      "answer": "Które?"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Why? (question word)",
+      "mode": "full_word",
+      "answer": "Dlaczego?",
+      "accepts": [
+        "Dlaczego?"
+      ]
+    },
+    {
+      "prompt_en": "Because (connector)",
+      "mode": "full_word",
+      "answer": "Bo",
+      "accepts": [
+        "Bo"
+      ]
+    },
+    {
+      "prompt_en": "When? (question word)",
+      "mode": "full_word",
+      "answer": "Kiedy?",
+      "accepts": [
+        "Kiedy?"
+      ]
+    },
+    {
+      "prompt_en": "Which (masculine)",
+      "mode": "full_word",
+      "answer": "Który?",
+      "accepts": [
+        "Który?"
+      ]
+    },
+    {
+      "prompt_en": "Which (feminine)",
+      "mode": "full_word",
+      "answer": "Która?",
+      "accepts": [
+        "Która?"
+      ],
+      "explain": "Same word you already use in która godzina? — feminine nouns take która, the way they take ta."
+    },
+    {
+      "prompt_en": "Which (neuter)",
+      "mode": "full_word",
+      "answer": "Które?",
+      "accepts": [
+        "Które?"
+      ]
+    },
+    {
+      "prompt_en": "Which film?",
+      "mode": "full_word",
+      "answer": "Który film?",
+      "accepts": [
+        "Który film?"
+      ]
+    },
+    {
+      "prompt_en": "Which coffee?",
+      "mode": "full_word",
+      "answer": "Która kawa?",
+      "accepts": [
+        "Która kawa?"
+      ]
+    },
+    {
+      "prompt_en": "Which beer?",
+      "mode": "full_word",
+      "answer": "Które piwo?",
+      "accepts": [
+        "Które piwo?"
+      ]
+    },
+    {
+      "prompt_en": "When do you work?",
+      "mode": "full_word",
+      "answer": "Kiedy pracujesz?",
+      "accepts": [
+        "Kiedy pracujesz?"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type the exchange: — Why is dad tired? — Because dad is working.",
+      "answer": "— Dlaczego tata jest zmęczony? — Bo tata pracuje.",
+      "accepts": [
+        "— Dlaczego tata jest zmęczony? — Bo tata pracuje.",
+        "Dlaczego tata jest zmęczony? Bo tata pracuje.",
+        "Dlaczego tata jest zmęczony? Bo tata pracuje",
+        "- Dlaczego tata jest zmęczony? - Bo tata pracuje."
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Why does Anna like coffee? — Because the coffee is good.",
+      "answer": "— Dlaczego Anna lubi kawę? — Bo kawa jest dobra.",
+      "accepts": [
+        "— Dlaczego Anna lubi kawę? — Bo kawa jest dobra.",
+        "Dlaczego Anna lubi kawę? Bo kawa jest dobra.",
+        "Dlaczego Anna lubi kawę? Bo kawa jest dobra",
+        "- Dlaczego Anna lubi kawę? - Bo kawa jest dobra."
+      ],
+      "explain": "Kawa jest dobra uses the same dobry/dobra/dobre set you are about to see line up against który/która/które."
+    },
+    {
+      "prompt_en": "Type: When do you work?",
+      "answer": "Kiedy pracujesz?",
+      "accepts": [
+        "Kiedy pracujesz?"
+      ]
+    },
+    {
+      "prompt_en": "Type: When is the film?",
+      "answer": "Kiedy jest film?",
+      "accepts": [
+        "Kiedy jest film?"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — When is the film? — In the evening.",
+      "answer": "— Kiedy jest film? — Wieczorem.",
+      "accepts": [
+        "— Kiedy jest film? — Wieczorem.",
+        "Kiedy jest film? Wieczorem.",
+        "Kiedy jest film? Wieczorem",
+        "- Kiedy jest film? - Wieczorem."
+      ]
+    },
+    {
+      "prompt_en": "Type: Which film is good?",
+      "answer": "Który film jest dobry?",
+      "accepts": [
+        "Który film jest dobry?"
+      ],
+      "explain": "Film is masculine, so both który and dobry take the plain masculine ending — the same shape as ten film, dobry film."
+    },
+    {
+      "prompt_en": "Type: Which coffee is good?",
+      "answer": "Która kawa jest dobra?",
+      "accepts": [
+        "Która kawa jest dobra?"
+      ]
+    },
+    {
+      "prompt_en": "Type: Which beer is good?",
+      "answer": "Które piwo jest dobre?",
+      "accepts": [
+        "Które piwo jest dobre?"
+      ],
+      "explain": "Piwo is neuter, so który and dobry both switch to their neuter form: które, dobre."
+    },
+    {
+      "prompt_en": "Type: Why does mum like tea?",
+      "answer": "Dlaczego mama lubi herbatę?",
+      "accepts": [
+        "Dlaczego mama lubi herbatę?"
+      ]
+    },
+    {
+      "prompt_en": "Type: Because mum likes tea.",
+      "answer": "Bo mama lubi herbatę.",
+      "accepts": [
+        "Bo mama lubi herbatę.",
+        "Bo mama lubi herbatę"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "dlaczego",
+    "Dlaczego",
+    "bo",
+    "Bo",
+    "kiedy",
+    "Kiedy",
+    "który",
+    "Który",
+    "które",
+    "Które",
+    "który film",
+    "które piwo",
+    "kiedy pracujesz"
+  ],
+  "uses_lemmas": [
+    "która",
+    "ile",
+    "ten",
+    "ta",
+    "to",
+    "dom",
+    "film",
+    "kawa",
+    "kawę",
+    "piwo",
+    "herbatę",
+    "jest",
+    "zmęczony",
+    "zmęczona",
+    "dobry",
+    "dobra",
+    "dobre",
+    "tata",
+    "mama",
+    "anna",
+    "pracuje",
+    "pracujesz",
+    "lubi",
+    "pije",
+    "muszę",
+    "wieczorem",
+    "która godzina",
+    "ile masz lat?",
+    "ile kosztuje kawa"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_questions2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

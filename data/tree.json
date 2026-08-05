@@ -2192,13 +2192,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: pływać, biegać, jeździć na rowerze, siłownia, mecz, drużyna, wygrywać, przegrywać, trenować, boisko, basen.",
+      "note": "Sport spectating + exercise. siłownia/drużyna/ćwiczyć confirmed already taught (a1_freetime), dropped. jeździć fenced and confirmed absent - a stale draft note on this very node had listed \"jeździć na rowerze\" as a candidate, which the author caught and ignored. wygrywać/przegrywać kept present-tense only - their real past-tense use is perfective (wygrać/przegrać), fenced to a2_aspect.",
       "unit_id": "PL2_46",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "daily"
+      "tree_part": "daily",
+      "content": "vocab/blocks/a2_sport.json"
     },
     {
       "id": "a2_imperative",
