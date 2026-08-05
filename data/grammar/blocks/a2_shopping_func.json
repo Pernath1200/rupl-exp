@@ -1,0 +1,748 @@
+{
+  "id": "a2_shopping_func",
+  "title": "W sklepie · zwroty",
+  "title_en": "At the shop · what to say",
+  "level": "A2",
+  "tree_node": "a2_shopping_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Situations/chunk unit — what Dad actually says in a Polish shop. Fixed phrases, learned whole, no rule slides. NEW words taught here: ile, kosztuje, poprosze, place, karta(inst), gotowka(inst), tylko, ogladac/ogladam. INSTRUMENTAL QUARANTINE (2026-08-05): 'Place karta.' / 'Place gotowka.' are taught STRICTLY as frozen blocks. The case is never named, never explained, never contrasted, and no instrumental structure id is tagged. a2_inst_z is a later unit and owns that ground. Every quiz choice touching these phrases is a WHOLE PHRASE, never a four-way ending drill (karta/karte/karty/karta) — that would open the case by the back door. 'Czy moge zaplacic karta?' from the brief was changed to 'Czy moge placic karta?': zaplacic is PERFECTIVE and the standing decision for this batch is imperfective-only, even in fixed chunks. The imperfective version is genuine shop Polish and keeps moge + infinitive (can_inf). 'Poprosze' is kept despite being formally perfective — it is on James's target list and in the tree note, it is opaque to the learner, and it is presented as an unanalysable politeness word: never conjugated, never glossed as a verb form, no aspect or future content attached to it. Real contrast the unit DOES teach, because both cases are already taught: Poprosze kawe (Accusative, same form as after mam) vs Czy jest kawa? (Nominative, plain dictionary form). The conjunction 'i' is deliberately absent — it is not in POOL (see report).",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "existential_jest",
+    "question",
+    "can_inf",
+    "miec_acc",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "social_chunk",
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "Poproszę — the word that does most of the work",
+      "title_pl": "Poproszę…",
+      "body": "In a Polish shop you almost never need a full sentence. Poproszę is the polite \"I'll have… / …please\". Put it in front of the thing you want and you are finished.\n\nOne thing to watch, and you already know it. Whatever follows Poproszę takes the same form it takes after mam. Mam kawę → Poproszę kawę. That is the accusative, and for most masculine and neuter words it changes nothing at all: chleb, ser, cukier, mleko, paragon all stay exactly as they are.\n\nPoproszę itself never changes. Treat it as one polite word, not as a verb to be conjugated.",
+      "body_pl": "Poproszę kawę. Poproszę chleb. Poproszę paragon.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What happened to the word"
+        ],
+        "rows": [
+          [
+            "Poproszę kawę.",
+            "A coffee, please.",
+            "kawa → kawę, the same -ę as in mam kawę"
+          ],
+          [
+            "Poproszę zupę.",
+            "A soup, please.",
+            "zupa → zupę, same again"
+          ],
+          [
+            "Poproszę chleb.",
+            "Bread, please.",
+            "masculine — no change"
+          ],
+          [
+            "Poproszę mleko.",
+            "Milk, please.",
+            "neuter — no change"
+          ],
+          [
+            "Poproszę paragon.",
+            "A receipt, please.",
+            "ask for this at the till"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "A tea, please.",
+          "pl": "Poproszę herbatę."
+        },
+        {
+          "en": "Some cheese, please.",
+          "pl": "Poproszę ser."
+        },
+        {
+          "en": "Some sugar, please.",
+          "pl": "Poproszę cukier."
+        }
+      ]
+    },
+    {
+      "title": "Ile to kosztuje? · Czy jest…? — the two questions you will use most",
+      "title_pl": "Ile to kosztuje? Czy jest…?",
+      "body": "Ile means \"how much / how many\". You have been saying it since the very first weeks — Ile masz lat? Same word, new job.\n\nIle to kosztuje? = \"How much does this cost?\" To means \"this\", so point at the thing while you say it. If you would rather name the thing, put its name where to was: Ile kosztuje kawa?\n\nCzy jest…? is how you ask whether the shop has something. After both Ile kosztuje and Czy jest the noun stays in its plain dictionary form — kawa, chleb, mleko. So the two frames of this unit pull in opposite directions, and it is worth ten seconds: Poproszę kawę, but Czy jest kawa?",
+      "body_pl": "Ile to kosztuje? Ile kosztuje kawa? Czy jest chleb?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Form of the noun"
+        ],
+        "rows": [
+          [
+            "Ile to kosztuje?",
+            "How much does this cost?",
+            "to = this, nothing to change"
+          ],
+          [
+            "Ile kosztuje kawa?",
+            "How much does the coffee cost?",
+            "kawa — plain form"
+          ],
+          [
+            "Czy jest chleb?",
+            "Is there any bread? / Do you have bread?",
+            "chleb — plain form"
+          ],
+          [
+            "Czy jest kawa?",
+            "Is there any coffee?",
+            "kawa — plain form, NOT kawę"
+          ],
+          [
+            "Poproszę kawę.",
+            "A coffee, please.",
+            "kawę — this frame is the odd one out"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "How much does the book cost?",
+          "pl": "Ile kosztuje książka?"
+        },
+        {
+          "en": "Is there any milk?",
+          "pl": "Czy jest mleko?"
+        },
+        {
+          "en": "Excuse me, is there any sugar?",
+          "pl": "Przepraszam, czy jest cukier?"
+        }
+      ]
+    },
+    {
+      "title": "Paying — take these whole",
+      "title_pl": "Płacę kartą. Płacę gotówką.",
+      "body": "Płacę kartą = \"I'm paying by card.\" Płacę gotówką = \"I'm paying cash.\"\n\nThese two are fixed phrases and this unit asks you to learn them exactly as they stand. Do not change the last word, and do not try to build the phrases out of karta and gotówka — the endings on them belong to something you meet properly in a later unit. Say the phrase whole and it is always right.\n\nCzy mogę płacić kartą? is the polite version: \"Can I pay by card?\" That one you can take apart — it is mogę plus a plain infinitive, the same shape as mogę czytać.\n\nKasa is the till, the checkout. Gdzie jest kasa? finds it.",
+      "body_pl": "Płacę kartą. Płacę gotówką. Czy mogę płacić kartą? Gdzie jest kasa?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Płacę kartą.",
+            "I'm paying by card.",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "Płacę gotówką.",
+            "I'm paying cash.",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "Czy mogę płacić kartą?",
+            "Can I pay by card?",
+            "mogę + infinitive, as in mogę czytać"
+          ],
+          [
+            "Gdzie jest kasa?",
+            "Where is the till?",
+            "kasa = till, checkout"
+          ],
+          [
+            "Poproszę paragon.",
+            "A receipt, please.",
+            "the last thing you say at the till"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me, where is the till?",
+          "pl": "Przepraszam, gdzie jest kasa?"
+        },
+        {
+          "en": "That's everything. I'm paying by card.",
+          "pl": "To wszystko. Płacę kartą."
+        },
+        {
+          "en": "Excuse me. Can I pay by card?",
+          "pl": "Przepraszam. Czy mogę płacić kartą?"
+        }
+      ]
+    },
+    {
+      "title": "Browsing, and getting out politely",
+      "title_pl": "Tylko oglądam. To wszystko, dziękuję.",
+      "body": "Two more, and the shop is survivable.\n\nTylko means \"only, just\". On its own with words you already have: Tylko kawa, dziękuję — \"Just a coffee, thanks.\"\n\nOglądam means \"I'm looking (at things), I'm browsing\". It is an -am verb, exactly like mam and czytam, so there is no new pattern in it.\n\nPut the two together and you get Tylko oglądam — the standard answer when an assistant offers to help and you would rather be left alone.\n\nTo wszystko, dziękuję = \"That's everything, thank you.\" Every word in it is already yours. Say it at the till when the assistant is waiting to see if you want anything else.",
+      "body_pl": "Tylko kawa, dziękuję. Tylko oglądam. To wszystko, dziękuję.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "New word in it"
+        ],
+        "rows": [
+          [
+            "Tylko kawa, dziękuję.",
+            "Just a coffee, thanks.",
+            "tylko = only, just"
+          ],
+          [
+            "Tylko oglądam.",
+            "I'm just looking.",
+            "oglądam — an -am verb like mam"
+          ],
+          [
+            "To wszystko, dziękuję.",
+            "That's everything, thank you.",
+            "nothing new — all known"
+          ],
+          [
+            "Do widzenia.",
+            "Goodbye.",
+            "already known — end on it"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm just looking, thank you.",
+          "pl": "Tylko oglądam, dziękuję."
+        },
+        {
+          "en": "Good day. A cheese, please. That's everything, thank you.",
+          "pl": "Dzień dobry. Poproszę ser. To wszystko, dziękuję."
+        },
+        {
+          "en": "A soup, please. I'm paying cash.",
+          "pl": "Poproszę zupę. Płacę gotówką."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "How much does it cost?",
+      "pl": "Ile to kosztuje?"
+    },
+    {
+      "en": "A coffee, please.",
+      "pl": "Poproszę kawę."
+    },
+    {
+      "en": "Bread, please.",
+      "pl": "Poproszę chleb."
+    },
+    {
+      "en": "A receipt, please.",
+      "pl": "Poproszę paragon."
+    },
+    {
+      "en": "Is there any milk?",
+      "pl": "Czy jest mleko?"
+    },
+    {
+      "en": "Is there any sugar?",
+      "pl": "Czy jest cukier?"
+    },
+    {
+      "en": "I'm paying by card.",
+      "pl": "Płacę kartą."
+    },
+    {
+      "en": "I'm paying cash.",
+      "pl": "Płacę gotówką."
+    },
+    {
+      "en": "Can I pay by card?",
+      "pl": "Czy mogę płacić kartą?"
+    },
+    {
+      "en": "Where is the till?",
+      "pl": "Gdzie jest kasa?"
+    },
+    {
+      "en": "I'm just looking.",
+      "pl": "Tylko oglądam."
+    },
+    {
+      "en": "That's everything, thank you.",
+      "pl": "To wszystko, dziękuję."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "How much does it cost? →",
+      "choices": [
+        "Ile to kosztuje?",
+        "Ile masz lat?",
+        "Gdzie jest kasa?",
+        "Czy jest kawa?"
+      ],
+      "answer": "Ile to kosztuje?",
+      "explain": "Ile is the same word you already use in Ile masz lat? — it means how much or how many. Here it is doing the price job."
+    },
+    {
+      "prompt": "You want a coffee. You say:",
+      "choices": [
+        "Poproszę kawę.",
+        "Czy jest kawa?",
+        "Ile to kosztuje?",
+        "Tylko oglądam."
+      ],
+      "answer": "Poproszę kawę.",
+      "explain": "Czy jest kawa? only asks whether they have any. Poproszę is what actually orders it."
+    },
+    {
+      "prompt": "A coffee, please. →  Poproszę ___.",
+      "choices": [
+        "kawę",
+        "kawa",
+        "kawy",
+        "herbatę"
+      ],
+      "answer": "kawę",
+      "explain": "Poproszę takes the accusative, the same form you already use after mam: mam kawę → poproszę kawę."
+    },
+    {
+      "prompt": "Is there any coffee? →  Czy jest ___?",
+      "choices": [
+        "kawa",
+        "kawę",
+        "kawy",
+        "herbata"
+      ],
+      "answer": "kawa",
+      "explain": "Czy jest asks whether the thing exists at all, so the noun stays in its plain dictionary form — the nominative. This is the frame that does NOT behave like Poproszę."
+    },
+    {
+      "prompt": "You are paying by card. You say:",
+      "choices": [
+        "Płacę kartą.",
+        "Płacę gotówką.",
+        "Poproszę paragon.",
+        "Gdzie jest kasa?"
+      ],
+      "answer": "Płacę kartą.",
+      "explain": "Karta is a card, gotówka is cash. Learn each phrase as one block and you never have to think about the ending."
+    },
+    {
+      "prompt": "You are paying cash. You say:",
+      "choices": [
+        "Płacę gotówką.",
+        "Płacę kartą.",
+        "Czy mogę płacić kartą?",
+        "To wszystko, dziękuję."
+      ],
+      "answer": "Płacę gotówką."
+    },
+    {
+      "prompt": "You want the receipt. You say:",
+      "choices": [
+        "Poproszę paragon.",
+        "Poproszę chleb.",
+        "Gdzie jest kasa?",
+        "Płacę gotówką."
+      ],
+      "answer": "Poproszę paragon.",
+      "explain": "Paragon is masculine, so nothing is added to it after Poproszę — unlike kawę."
+    },
+    {
+      "prompt": "An assistant offers to help and you would rather browse. You say:",
+      "choices": [
+        "Tylko oglądam.",
+        "To wszystko, dziękuję.",
+        "Poproszę paragon.",
+        "Ile to kosztuje?"
+      ],
+      "answer": "Tylko oglądam.",
+      "explain": "Oglądam is an -am verb, built exactly like mam and czytam, so the ending is one you already produce."
+    },
+    {
+      "prompt": "Where is the till? →",
+      "choices": [
+        "Gdzie jest kasa?",
+        "Gdzie jest sklep?",
+        "Czy jest kasa?",
+        "Ile kosztuje kasa?"
+      ],
+      "answer": "Gdzie jest kasa?",
+      "explain": "Czy jest kasa? would ask whether the shop has a till at all. Gdzie asks where it is."
+    },
+    {
+      "prompt": "You have finished and the assistant is waiting. You say:",
+      "choices": [
+        "To wszystko, dziękuję.",
+        "Tylko oglądam.",
+        "Czy jest chleb?",
+        "Poproszę kawę."
+      ],
+      "answer": "To wszystko, dziękuję."
+    },
+    {
+      "prompt": "Can I pay by card? →",
+      "choices": [
+        "Czy mogę płacić kartą?",
+        "Płacę kartą.",
+        "Czy jest karta?",
+        "Gdzie jest karta?"
+      ],
+      "answer": "Czy mogę płacić kartą?",
+      "explain": "Mogę is always followed by the plain infinitive — płacić, not płacę. It is the same shape as mogę czytać."
+    },
+    {
+      "prompt": "— Czy jest chleb? — ___",
+      "choices": [
+        "Tak, jest.",
+        "Poproszę paragon.",
+        "Tylko oglądam.",
+        "Ile to kosztuje?"
+      ],
+      "answer": "Tak, jest.",
+      "explain": "A czy question is a yes/no question, so the answer comes back with tak or nie, not with another request."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "How much does it cost?",
+      "mode": "full_word",
+      "answer": "Ile to kosztuje?",
+      "accepts": [
+        "Ile to kosztuje?",
+        "Ile to kosztuje"
+      ],
+      "explain": "To means this — you are pointing at the thing. Swap in a name and you get Ile kosztuje kawa?"
+    },
+    {
+      "prompt_en": "A coffee, please.",
+      "mode": "full_word",
+      "answer": "Poproszę kawę.",
+      "accepts": [
+        "Poproszę kawę.",
+        "Poproszę kawę"
+      ],
+      "explain": "Poproszę takes the accusative, the form you already use after mam: mam kawę."
+    },
+    {
+      "prompt_en": "Bread, please.",
+      "mode": "full_word",
+      "answer": "Poproszę chleb.",
+      "accepts": [
+        "Poproszę chleb.",
+        "Poproszę chleb"
+      ],
+      "explain": "Chleb is masculine and not alive, so the accusative looks identical to the dictionary form. Nothing to add."
+    },
+    {
+      "prompt_en": "A receipt, please.",
+      "mode": "full_word",
+      "answer": "Poproszę paragon.",
+      "accepts": [
+        "Poproszę paragon.",
+        "Poproszę paragon"
+      ]
+    },
+    {
+      "prompt_en": "Is there any milk?",
+      "mode": "full_word",
+      "answer": "Czy jest mleko?",
+      "accepts": [
+        "Czy jest mleko?",
+        "Czy jest mleko"
+      ]
+    },
+    {
+      "prompt_en": "Is there any sugar?",
+      "mode": "full_word",
+      "answer": "Czy jest cukier?",
+      "accepts": [
+        "Czy jest cukier?",
+        "Czy jest cukier"
+      ],
+      "explain": "After Czy jest the noun keeps its plain dictionary form. Compare Poproszę cukier — here it happens to look the same, because cukier is masculine."
+    },
+    {
+      "prompt_en": "I'm paying by card.",
+      "mode": "full_word",
+      "answer": "Płacę kartą.",
+      "accepts": [
+        "Płacę kartą.",
+        "Płacę kartą"
+      ],
+      "explain": "This is a fixed phrase. Learn the two words as one block and leave the ending alone — it belongs to a pattern you meet later."
+    },
+    {
+      "prompt_en": "I'm paying cash.",
+      "mode": "full_word",
+      "answer": "Płacę gotówką.",
+      "accepts": [
+        "Płacę gotówką.",
+        "Płacę gotówką"
+      ],
+      "explain": "Same fixed phrase, different means of payment. Take it whole, exactly as it stands."
+    },
+    {
+      "prompt_en": "Can I pay by card?",
+      "mode": "full_word",
+      "answer": "Czy mogę płacić kartą?",
+      "accepts": [
+        "Czy mogę płacić kartą?",
+        "Czy mogę płacić kartą",
+        "Mogę płacić kartą?",
+        "Mogę płacić kartą"
+      ],
+      "explain": "Mogę is followed by the infinitive płacić — never by płacę. Czy at the front simply turns it into a question."
+    },
+    {
+      "prompt_en": "Where is the till?",
+      "mode": "full_word",
+      "answer": "Gdzie jest kasa?",
+      "accepts": [
+        "Gdzie jest kasa?",
+        "Gdzie jest kasa"
+      ]
+    },
+    {
+      "prompt_en": "I'm just looking.",
+      "mode": "full_word",
+      "answer": "Tylko oglądam.",
+      "accepts": [
+        "Tylko oglądam.",
+        "Tylko oglądam"
+      ],
+      "explain": "Oglądam sits in the -am family with mam and czytam, so the ending is one you can already build."
+    },
+    {
+      "prompt_en": "That's everything, thank you.",
+      "mode": "full_word",
+      "answer": "To wszystko, dziękuję.",
+      "accepts": [
+        "To wszystko, dziękuję.",
+        "To wszystko dziękuję",
+        "To wszystko, dziękuję",
+        "To wszystko, dziekuje."
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Good day. A coffee, please.",
+      "answer": "Dzień dobry. Poproszę kawę.",
+      "accepts": [
+        "Dzień dobry. Poproszę kawę.",
+        "Dzień dobry. Poproszę kawę",
+        "Dzień dobry, poproszę kawę."
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me, where is the till?",
+      "answer": "Przepraszam, gdzie jest kasa?",
+      "accepts": [
+        "Przepraszam, gdzie jest kasa?",
+        "Przepraszam gdzie jest kasa",
+        "Przepraszam, gdzie jest kasa"
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me, is there any bread?",
+      "answer": "Przepraszam, czy jest chleb?",
+      "accepts": [
+        "Przepraszam, czy jest chleb?",
+        "Przepraszam czy jest chleb",
+        "Przepraszam, czy jest chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: How much does the book cost?",
+      "answer": "Ile kosztuje książka?",
+      "accepts": [
+        "Ile kosztuje książka?",
+        "Ile kosztuje książka"
+      ],
+      "explain": "Name the thing instead of pointing at it, and it simply takes the place of to. Książka stays in its plain form."
+    },
+    {
+      "prompt_en": "Type: How much does the jacket cost?",
+      "answer": "Ile kosztuje kurtka?",
+      "accepts": [
+        "Ile kosztuje kurtka?",
+        "Ile kosztuje kurtka"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm just looking, thank you.",
+      "answer": "Tylko oglądam, dziękuję.",
+      "accepts": [
+        "Tylko oglądam, dziękuję.",
+        "Tylko oglądam dziękuję",
+        "Tylko oglądam, dziękuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: That's everything. I'm paying by card.",
+      "answer": "To wszystko. Płacę kartą.",
+      "accepts": [
+        "To wszystko. Płacę kartą.",
+        "To wszystko. Płacę kartą",
+        "To wszystko, płacę kartą."
+      ]
+    },
+    {
+      "prompt_en": "Type: Good day. Is there any sugar?",
+      "answer": "Dzień dobry. Czy jest cukier?",
+      "accepts": [
+        "Dzień dobry. Czy jest cukier?",
+        "Dzień dobry. Czy jest cukier",
+        "Dzień dobry, czy jest cukier?"
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me. Can I pay by card?",
+      "answer": "Przepraszam. Czy mogę płacić kartą?",
+      "accepts": [
+        "Przepraszam. Czy mogę płacić kartą?",
+        "Przepraszam. Czy mogę płacić kartą",
+        "Przepraszam, czy mogę płacić kartą?"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — How much does it cost? — Five euros.",
+      "answer": "— Ile to kosztuje? — Pięć euro.",
+      "accepts": [
+        "— Ile to kosztuje? — Pięć euro.",
+        "Ile to kosztuje? Pięć euro.",
+        "Ile to kosztuje? Pięć euro",
+        "- Ile to kosztuje? - Pięć euro."
+      ],
+      "explain": "Euro never changes its ending, whatever number stands in front of it — one of the few free gifts in Polish counting."
+    },
+    {
+      "prompt_en": "Type: A soup, please. I'm paying cash.",
+      "answer": "Poproszę zupę. Płacę gotówką.",
+      "accepts": [
+        "Poproszę zupę. Płacę gotówką.",
+        "Poproszę zupę. Płacę gotówką",
+        "Poproszę zupę, płacę gotówką."
+      ]
+    },
+    {
+      "prompt_en": "Type: Good day. Some cheese, please. That's everything, thank you.",
+      "answer": "Dzień dobry. Poproszę ser. To wszystko, dziękuję.",
+      "accepts": [
+        "Dzień dobry. Poproszę ser. To wszystko, dziękuję.",
+        "Dzień dobry. Poproszę ser. To wszystko dziękuję",
+        "Dzień dobry. Poproszę ser. To wszystko, dziękuję"
+      ],
+      "explain": "A whole shop visit in three short phrases. Ser is masculine, so nothing is added to it after Poproszę."
+    }
+  ],
+  "teaches_lemmas": [
+    "ile",
+    "kosztuje",
+    "poproszę",
+    "płacę",
+    "kartą",
+    "gotówką",
+    "tylko",
+    "oglądać",
+    "oglądam",
+    "ile to kosztuje",
+    "ile kosztuje kawa",
+    "ile kosztuje książka",
+    "ile kosztuje kurtka",
+    "poproszę kawę",
+    "poproszę herbatę",
+    "poproszę zupę",
+    "poproszę chleb",
+    "poproszę ser",
+    "poproszę cukier",
+    "poproszę mleko",
+    "poproszę paragon",
+    "czy jest",
+    "czy jest chleb",
+    "czy jest kawa",
+    "czy jest mleko",
+    "czy jest cukier",
+    "czy jest herbata",
+    "płacę kartą",
+    "płacę gotówką",
+    "czy mogę płacić kartą",
+    "gdzie jest kasa",
+    "tylko oglądam",
+    "tylko kawa",
+    "to wszystko",
+    "to wszystko, dziękuję",
+    "tak, jest"
+  ],
+  "uses_lemmas": [
+    "kosztować",
+    "płacić",
+    "karta",
+    "gotówka",
+    "kasa",
+    "paragon",
+    "sklep",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "zupa",
+    "zupę",
+    "chleb",
+    "ser",
+    "cukier",
+    "mleko",
+    "książka",
+    "kurtka",
+    "czy",
+    "gdzie",
+    "jest",
+    "to",
+    "tak",
+    "nie",
+    "wszystko",
+    "mogę",
+    "mam",
+    "czytam",
+    "pięć",
+    "euro",
+    "dziękuję",
+    "dzień dobry",
+    "do widzenia",
+    "przepraszam",
+    "ile masz lat?"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_shopping_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

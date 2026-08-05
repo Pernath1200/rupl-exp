@@ -1,0 +1,651 @@
+{
+  "id": "a2_inst_z",
+  "title": "Z + narzędnik",
+  "title_en": "With someone · instrumental",
+  "level": "A2",
+  "tree_node": "a2_inst_z",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Second job of the instrumental, straight off a1_inst_job: same case, same endings (-em / -ą), new duty — companionship after z. The unit is deliberately ONE new thing: the preposition z now governs the instrumental. Twelve nouns, twelve forms, and every stage carries all twelve, so match/quiz/type/use are the same paradigm at four depths (stage overlap is allowed, James 2026-08-05). Six masculine-side / six feminine to keep the board balanced. FENCED: plural instrumental (z rodzicami, z dziećmi) — B1, different ending set; transport uses (jadę autobusem) — later unit; z mężem (mąż has an ą→ę stem shift, not worth an exception here); z przyjacielem (soft -iel declension). Forks taken, conservative path per batch rule 7: (a) kim is a new pronoun form and is not in POOL, so it is never taught, never glossed in English and never demanded by a prompt — it appears only in the mandated title and, mirroring it, in the Polish shorthand line of two intro slides, exactly as other packs use untaught grammar metalanguage there (miejscownik, dopełniacz). If James wants Z kim? as a live question it needs its own small unit; (b) the z+Gen vs z+Inst contrast is stated once in intro slide 4 but never drilled as its own quiz stem — instead the genitive forms sit inside the quiz distractors (z brata, z taty, z babci), which gets the discrimination without rebuilding the old do/z cliff. dzieckiem is recycled in the endings table only (already taught in a1_inst_job) and is never demanded by a prompt.",
+  "focus_structures": [
+    "inst_z"
+  ],
+  "teaches_structures": [
+    "inst_z"
+  ],
+  "uses_structures": [
+    "inst_z",
+    "inst_identity",
+    "prep_z_gen",
+    "prep_do_gen",
+    "prep_w_loc",
+    "byc_present",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "present",
+    "present_am",
+    "present_uje",
+    "motion_chunk",
+    "miec_acc",
+    "poss_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Saying who you are with",
+      "title_pl": "Towarzystwo: z + narzędnik",
+      "body": "English puts the person straight after with — with my brother, with mum.\n\nPolish uses z, and the person's name changes its ending. The case is the instrumental (narzędnik) — the very one you already used for jobs in Jestem nauczycielem.\n\nbrat → z bratem\nmama → z mamą\n\nNothing else in the sentence moves.\n\nOne thing to expect: Polish normally leaves mój out. z bratem on its own already means with my brother. (mój would change shape after z as well — that is a later lesson.)",
+      "body_pl": "z + narzędnik = z kim. Ta sama końcówka co w Jestem nauczycielem. mój zwykle pomijamy."
+    },
+    {
+      "title": "The endings — you already have them",
+      "title_pl": "Końcówki: -em i -ą",
+      "body": "Read this table twice: it is the same table as Jestem studentem / Jestem lekarką. Same case, new job — there it said who somebody is, here it says who you are with.\n\nWatch the second row. tata and kolega end in -a and look feminine, but they are masculine. Luckily the ending follows the look, not the gender: they take -ą, exactly like mama.",
+      "body_pl": "m. -em · m. na -a → -ą · ż. -ą · n. -em (znane z dzieckiem).",
+      "table": {
+        "headers": [
+          "Noun type",
+          "Ending",
+          "Example"
+        ],
+        "rows": [
+          [
+            "masculine (ends in a consonant)",
+            "-em",
+            "brat → z bratem · syn → z synem"
+          ],
+          [
+            "masculine ending in -a",
+            "-ą",
+            "tata → z tatą · kolega → z kolegą"
+          ],
+          [
+            "feminine",
+            "-ą",
+            "mama → z mamą · żona → z żoną"
+          ],
+          [
+            "neuter (already known)",
+            "-em",
+            "dziecko → z dzieckiem"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two nouns that shift: wujek, dziadek",
+      "title_pl": "Uwaga: wujek, dziadek",
+      "body": "Nouns ending in -ek drop that e the moment any ending is added. The k that is left then takes -iem, not plain -em.\n\nBoth things happen in one step, so learn the finished form whole.\n\nThe i is the same fact you met in banki and książki: after k, Polish reaches for i. Feminine -ka words are safe — the ending there is -ą, and córką, kuzynką, wnuczką need no i at all.",
+      "body_pl": "-ek: e wypada, k + iem. Rodzaj żeński na -ka bez zmian: córką.",
+      "table": {
+        "headers": [
+          "Noun",
+          "Drop the e",
+          "Finished form"
+        ],
+        "rows": [
+          [
+            "wujek",
+            "wujk-",
+            "z wujkiem"
+          ],
+          [
+            "dziadek",
+            "dziadk-",
+            "z dziadkiem"
+          ],
+          [
+            "córka",
+            "no change",
+            "z córką"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "z has two jobs",
+      "title_pl": "Dwa z",
+      "body": "You already know a z: the one meaning from. z domu = from home. That z takes the genitive.\n\nThis unit is the other z: with. That one takes the instrumental. Same little word, two jobs — and the ending on the noun is what tells them apart.",
+      "body_pl": "z + dopełniacz = skąd. z + narzędnik = z kim.",
+      "table": {
+        "headers": [
+          "Polish",
+          "Case",
+          "English"
+        ],
+        "rows": [
+          [
+            "z domu",
+            "genitive",
+            "from home"
+          ],
+          [
+            "z bratem",
+            "instrumental",
+            "with my brother"
+          ],
+          [
+            "z pracy",
+            "genitive",
+            "from work"
+          ],
+          [
+            "z tatą",
+            "instrumental",
+            "with dad"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "with my brother",
+          "pl": "z bratem"
+        },
+        {
+          "en": "with dad",
+          "pl": "z tatą"
+        },
+        {
+          "en": "with mum",
+          "pl": "z mamą"
+        },
+        {
+          "en": "with my uncle",
+          "pl": "z wujkiem"
+        },
+        {
+          "en": "I'm going to the park with my brother.",
+          "pl": "Idę do parku z bratem."
+        },
+        {
+          "en": "Dad was drinking coffee with my uncle.",
+          "pl": "Tata pił kawę z wujkiem."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "with my brother",
+      "pl": "z bratem"
+    },
+    {
+      "en": "with my son",
+      "pl": "z synem"
+    },
+    {
+      "en": "with my uncle",
+      "pl": "z wujkiem"
+    },
+    {
+      "en": "with grandad",
+      "pl": "z dziadkiem"
+    },
+    {
+      "en": "with a friend (kolega)",
+      "pl": "z kolegą"
+    },
+    {
+      "en": "with dad",
+      "pl": "z tatą"
+    },
+    {
+      "en": "with mum",
+      "pl": "z mamą"
+    },
+    {
+      "en": "with my sister",
+      "pl": "z siostrą"
+    },
+    {
+      "en": "with my wife",
+      "pl": "z żoną"
+    },
+    {
+      "en": "with my daughter",
+      "pl": "z córką"
+    },
+    {
+      "en": "with grandma",
+      "pl": "z babcią"
+    },
+    {
+      "en": "with auntie",
+      "pl": "z ciocią"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "with my brother →",
+      "choices": [
+        "z bratem",
+        "z brat",
+        "z brata",
+        "z bratą"
+      ],
+      "answer": "z bratem",
+      "explain": "z brata would be the genitive — the z that means from. Companionship needs the instrumental, so the masculine ending is -em."
+    },
+    {
+      "prompt": "with my son →",
+      "choices": [
+        "z synem",
+        "z syn",
+        "z syna",
+        "z syną"
+      ],
+      "answer": "z synem"
+    },
+    {
+      "prompt": "with my uncle →",
+      "choices": [
+        "z wujkiem",
+        "z wujekiem",
+        "z wujkem",
+        "z wujka"
+      ],
+      "answer": "z wujkiem",
+      "explain": "Two changes at once: the e of wujek falls out, and the k left behind takes -iem rather than -em."
+    },
+    {
+      "prompt": "with grandad →",
+      "choices": [
+        "z dziadkiem",
+        "z dziadekiem",
+        "z dziadkem",
+        "z dziadka"
+      ],
+      "answer": "z dziadkiem",
+      "explain": "dziadek behaves exactly like wujek — the e goes, and k pulls in the i. It is a pattern, not a one-off."
+    },
+    {
+      "prompt": "with a friend (kolega) →",
+      "choices": [
+        "z kolegą",
+        "z kolegiem",
+        "z kolega",
+        "z kolegi"
+      ],
+      "answer": "z kolegą",
+      "explain": "kolega is masculine but ends in -a, and the ending follows the shape of the word: -ą, like mama. Only nouns ending in a consonant take -em."
+    },
+    {
+      "prompt": "with dad →",
+      "choices": [
+        "z tatą",
+        "z tatem",
+        "z tata",
+        "z taty"
+      ],
+      "answer": "z tatą",
+      "explain": "Same trap as kolega. tata is a man, but the word ends in -a, so the ending is -ą. You still say mój tata — the gender shows up there, not here."
+    },
+    {
+      "prompt": "with mum →",
+      "choices": [
+        "z mamą",
+        "z mama",
+        "z mamem",
+        "z mamy"
+      ],
+      "answer": "z mamą"
+    },
+    {
+      "prompt": "with my sister →",
+      "choices": [
+        "z siostrą",
+        "z siostrem",
+        "z siostra",
+        "z siostry"
+      ],
+      "answer": "z siostrą"
+    },
+    {
+      "prompt": "with my wife →",
+      "choices": [
+        "z żoną",
+        "z żona",
+        "z żonem",
+        "z żony"
+      ],
+      "answer": "z żoną"
+    },
+    {
+      "prompt": "with my daughter →",
+      "choices": [
+        "z córką",
+        "z córkiem",
+        "z córkią",
+        "z córki"
+      ],
+      "answer": "z córką",
+      "explain": "No i is needed here. The k only asks for one in front of e — and this ending is -ą, so córka simply becomes córką."
+    },
+    {
+      "prompt": "with grandma →",
+      "choices": [
+        "z babcią",
+        "z babcia",
+        "z babciem",
+        "z babci"
+      ],
+      "answer": "z babcią",
+      "explain": "babcia already carries an i before its -a. Swap the a for ą and the i stays where it was: babcią."
+    },
+    {
+      "prompt": "with auntie →",
+      "choices": [
+        "z ciocią",
+        "z ciocia",
+        "z ciociem",
+        "z cioci"
+      ],
+      "answer": "z ciocią"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "with my brother · brat",
+      "mode": "full_word",
+      "answer": "z bratem",
+      "accepts": [
+        "z bratem"
+      ],
+      "explain": "Two words only. Polish leaves mój out here — z bratem already carries with my brother."
+    },
+    {
+      "prompt_en": "with my son · syn",
+      "mode": "full_word",
+      "answer": "z synem",
+      "accepts": [
+        "z synem"
+      ]
+    },
+    {
+      "prompt_en": "with my uncle · wujek",
+      "mode": "full_word",
+      "answer": "z wujkiem",
+      "accepts": [
+        "z wujkiem"
+      ],
+      "explain": "wujek loses its e before any ending, then the k takes -iem."
+    },
+    {
+      "prompt_en": "with grandad · dziadek",
+      "mode": "full_word",
+      "answer": "z dziadkiem",
+      "accepts": [
+        "z dziadkiem"
+      ]
+    },
+    {
+      "prompt_en": "with a friend (m) · kolega",
+      "mode": "full_word",
+      "answer": "z kolegą",
+      "accepts": [
+        "z kolegą"
+      ]
+    },
+    {
+      "prompt_en": "with dad · tata",
+      "mode": "full_word",
+      "answer": "z tatą",
+      "accepts": [
+        "z tatą"
+      ],
+      "explain": "A word ending in -a takes -ą, whether it is a man or a woman. tata is the classic case."
+    },
+    {
+      "prompt_en": "with mum · mama",
+      "mode": "full_word",
+      "answer": "z mamą",
+      "accepts": [
+        "z mamą"
+      ]
+    },
+    {
+      "prompt_en": "with my sister · siostra",
+      "mode": "full_word",
+      "answer": "z siostrą",
+      "accepts": [
+        "z siostrą"
+      ]
+    },
+    {
+      "prompt_en": "with my wife · żona",
+      "mode": "full_word",
+      "answer": "z żoną",
+      "accepts": [
+        "z żoną"
+      ]
+    },
+    {
+      "prompt_en": "with my daughter · córka",
+      "mode": "full_word",
+      "answer": "z córką",
+      "accepts": [
+        "z córką"
+      ]
+    },
+    {
+      "prompt_en": "with grandma · babcia",
+      "mode": "full_word",
+      "answer": "z babcią",
+      "accepts": [
+        "z babcią"
+      ]
+    },
+    {
+      "prompt_en": "with auntie · ciocia",
+      "mode": "full_word",
+      "answer": "z ciocią",
+      "accepts": [
+        "z ciocią"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going to the park with my brother.",
+      "answer": "Idę do parku z bratem.",
+      "accepts": [
+        "Idę do parku z bratem.",
+        "Idę do parku z bratem"
+      ],
+      "explain": "Two prepositions, two different cases, side by side: do parku is the genitive (where to), z bratem the instrumental (who with)."
+    },
+    {
+      "prompt_en": "Type: Grandad used to work with his son.",
+      "answer": "Dziadek pracował z synem.",
+      "accepts": [
+        "Dziadek pracował z synem.",
+        "Dziadek pracował z synem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was drinking coffee with my uncle.",
+      "answer": "Tata pił kawę z wujkiem.",
+      "accepts": [
+        "Tata pił kawę z wujkiem.",
+        "Tata pił kawę z wujkiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother was at home with grandad.",
+      "answer": "Mój brat był w domu z dziadkiem.",
+      "accepts": [
+        "Mój brat był w domu z dziadkiem.",
+        "Mój brat był w domu z dziadkiem",
+        "Brat był w domu z dziadkiem.",
+        "Brat był w domu z dziadkiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My son works with a friend. (kolega)",
+      "answer": "Syn pracuje z kolegą.",
+      "accepts": [
+        "Syn pracuje z kolegą.",
+        "Syn pracuje z kolegą",
+        "Mój syn pracuje z kolegą.",
+        "Mój syn pracuje z kolegą"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday mum was at the shop with dad.",
+      "answer": "Wczoraj mama była w sklepie z tatą.",
+      "accepts": [
+        "Wczoraj mama była w sklepie z tatą.",
+        "Wczoraj mama była w sklepie z tatą",
+        "Mama była wczoraj w sklepie z tatą.",
+        "Mama była wczoraj w sklepie z tatą",
+        "Mama była w sklepie z tatą wczoraj.",
+        "Mama była w sklepie z tatą wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister lives with mum.",
+      "answer": "Moja siostra mieszka z mamą.",
+      "accepts": [
+        "Moja siostra mieszka z mamą.",
+        "Moja siostra mieszka z mamą",
+        "Siostra mieszka z mamą.",
+        "Siostra mieszka z mamą"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was reading a book with my sister.",
+      "answer": "Mama czytała książkę z siostrą.",
+      "accepts": [
+        "Mama czytała książkę z siostrą.",
+        "Mama czytała książkę z siostrą"
+      ]
+    },
+    {
+      "prompt_en": "Type: Was grandad in the park with his wife?",
+      "answer": "Czy dziadek był w parku z żoną?",
+      "accepts": [
+        "Czy dziadek był w parku z żoną?",
+        "Czy dziadek był w parku z żoną",
+        "Dziadek był w parku z żoną?",
+        "Dziadek był w parku z żoną"
+      ],
+      "explain": "czy only opens the question; every other word keeps its place and its ending, z żoną included."
+    },
+    {
+      "prompt_en": "Type: Auntie was at school with her daughter.",
+      "answer": "Ciocia była w szkole z córką.",
+      "accepts": [
+        "Ciocia była w szkole z córką.",
+        "Ciocia była w szkole z córką"
+      ]
+    },
+    {
+      "prompt_en": "Type: My granddaughter lived with grandma.",
+      "answer": "Wnuczka mieszkała z babcią.",
+      "accepts": [
+        "Wnuczka mieszkała z babcią.",
+        "Wnuczka mieszkała z babcią",
+        "Moja wnuczka mieszkała z babcią.",
+        "Moja wnuczka mieszkała z babcią"
+      ]
+    },
+    {
+      "prompt_en": "Type: My cousin was at home with auntie. (male cousin)",
+      "answer": "Kuzyn był w domu z ciocią.",
+      "accepts": [
+        "Kuzyn był w domu z ciocią.",
+        "Kuzyn był w domu z ciocią",
+        "Mój kuzyn był w domu z ciocią.",
+        "Mój kuzyn był w domu z ciocią"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "bratem",
+    "synem",
+    "wujkiem",
+    "dziadkiem",
+    "kolegą",
+    "tatą",
+    "mamą",
+    "siostrą",
+    "żoną",
+    "córką",
+    "babcią",
+    "ciocią",
+    "z bratem",
+    "z synem",
+    "z wujkiem",
+    "z dziadkiem",
+    "z kolegą",
+    "z tatą",
+    "z mamą",
+    "z siostrą",
+    "z żoną",
+    "z córką",
+    "z babcią",
+    "z ciocią"
+  ],
+  "uses_lemmas": [
+    "brat",
+    "syn",
+    "wujek",
+    "dziadek",
+    "kolega",
+    "tata",
+    "mama",
+    "siostra",
+    "żona",
+    "córka",
+    "babcia",
+    "ciocia",
+    "kuzyn",
+    "wnuczka",
+    "dziecko",
+    "dzieckiem",
+    "z domu",
+    "z pracy",
+    "do parku",
+    "w domu",
+    "w parku",
+    "w sklepie",
+    "w szkole",
+    "był",
+    "była",
+    "mieszka",
+    "mieszkała",
+    "pracował",
+    "pracuje",
+    "pił",
+    "czytała",
+    "idę",
+    "kawę",
+    "książkę",
+    "czy",
+    "wczoraj",
+    "mój",
+    "moja",
+    "nauczycielem",
+    "lekarką",
+    "studentem"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_inst_z",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1600,13 +1600,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] pięć kaw, sześć domów, ile masz lat payoff; 2-4 + Nom pl vs 5+ + Gen pl rule. The deferred numeral grammar lands here.",
+      "note": "2-4 + Nom pl, 5+ + Gen pl. Teaches dwie (fem two), dolary/dolarow, godziny/minuty, lata/lat. Ile masz lat? is the payoff. Teens (11-19) behave as 5+ - caught by the author, without it the age payoff induces *dwanascie lata.",
       "unit_id": "PL2_13",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_numbers_gen.json"
     },
     {
       "id": "a2_shopping2",
@@ -1617,13 +1618,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~15 new: cena, tani, drogi(expensive — collision with droga road flagged), płacić, kosztować, karta, gotówka, reszta, promocja, za darmo.",
+      "note": "SECOND layer of money vocab - all 14 original candidates were already owned by a1_shopping. 19 genuinely new: moneta, banknot, bankomat, konto, platnosc, kredyt, sprzedawca, koszyk, wozek, prezent, wydawac, zarabiac, oszczedzac, bogaty, biedny. zloty omitted (adjectival declension).",
       "unit_id": "PL2_14",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "daily"
+      "tree_part": "daily",
+      "content": "vocab/blocks/a2_shopping2.json"
     },
     {
       "id": "a2_shopping_func",
@@ -1634,13 +1636,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Ile to kosztuje? Poproszę... Czy jest...? Płacę kartą (Inst preview flagged). Gdzie są...?",
+      "note": "Shop chunks. Instrumental karta/gotowka quarantined as frozen phrases - case never named. zaplacic -> placic (perfective ban). Poprosze kept as an opaque politeness word despite being formally perfective.",
       "unit_id": "PL2_15",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_shopping_func.json"
     },
     {
       "id": "a2_inst_z",
@@ -1651,13 +1654,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] z + Inst: z mamą, z bratem, z kolegą (m -em, f -ą — extends jobs unit rule to common nouns). Mieszkam z..., idę z...",
+      "note": "z + Instrumental for company. Same endings as a1_inst_job, second job. -a masculines (tata->tata, kolega->kolega) and k->-iem (wujek->wujkiem) taught. Plural inst, z mezem and z przyjacielem fenced.",
       "unit_id": "PL2_16",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_inst_z.json"
     },
     {
       "id": "a2_people2",

@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 60 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 64 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -76,4 +76,8 @@ _None._
 | 57 | `a2_past_plural` | `past_plural` | 19 | `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `prep_place`, `prep_w_loc`, `question` |
 | 58 | `a2_family2` | — | 12 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_e_isz`, `present_uje`, `question`, `zgoda` |
 | 59 | `a2_gen_pl` | `gen_pl` | 18 | `existential_jest`, `gen_endings`, `gen_pl`, `miec_present`, `negation`, `plural_nom`, `prep_w_loc`, `present_am` |
+| 61 | `a2_numbers_gen` | `numbers_gen` | 7 | `byc_present`, `existential_jest`, `gen_pl`, `miec_acc`, `miec_present`, `numbers_gen`, `plural_nom`, `present_e_esz`, `social_chunk` |
+| 62 | `a2_shopping2` | — | 19 | `byc_adj`, `byc_present`, `can_inf`, `gen_pl`, `miec_acc`, `miec_present`, `past_ac`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `present_am`, `time_past_chunk`, `to_jest`, `zgoda` |
+| 63 | `a2_shopping_func` | `situation_chunk` | 36 | `can_inf`, `existential_jest`, `miec_acc`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `social_chunk`, `ten_ta_to` |
+| 64 | `a2_inst_z` | `inst_z` | 24 | `byc_present`, `inst_identity`, `inst_z`, `miec_acc`, `motion_chunk`, `past_ac`, `past_byc`, `past_rest`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `present`, `present_am`, `present_uje`, `question` |
 

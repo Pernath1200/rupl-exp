@@ -1,0 +1,516 @@
+{
+  "id": "a2_shopping2",
+  "title": "Zakupy i pieniądze",
+  "title_en": "Shopping & money",
+  "level": "A2",
+  "tree_node": "a2_shopping2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a2_gen_pl, which lands immediately before it. CHECK RESULT: a1_shopping already owns every word on the original candidate list — cena, tani, drogi, płacić, kosztować, kasa, gotówka, karta, paragon, reszta, wyprzedaż, zniżka, portfel, pieniądze — plus kupować, sprzedawać, sklep, klient, torba, rozmiar, otwarty, zamknięty, za darmo, oferta, zwrot pieniędzy, kolejka, lada, portmonetka, przymierzać, targ, dom handlowy, funt, euro, dolar, cent. None of those are re-taught here; they are ANCHORS. This pack teaches the second layer: the physical money (moneta, banknot, bankomat), the bank side (konto, kredyt, płatność), the shop objects (koszyk, wózek, prezent), the person (sprzedawca), what you do with money (wydawać, zarabiać, oszczędzać) and rich/poor. DROGI/DROGA: both are already taught — drogi = expensive (a1_shopping), droga = road (a1_city), and blisko drogi is a live chunk. They are handled here by recycling drogi in a sentence with an explain that names the clash. FORKS: (1) złoty (the actual currency) is omitted — it declines adjectivally (pięć złotych) and a2_numbers_gen is not built, so teaching it would invite *pięć złoty*. (2) No numeral+noun phrases anywhere for the same reason. (3) Only citation forms are demanded — every noun here is masculine inanimate or neuter, so accusative = nominative for free; moneta and płatność are kept in the nominative so no untaught inflected form is ever required. Adjectives take no gender badge.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "poss_nom",
+    "prep_w_loc",
+    "prep_place",
+    "gen_pl",
+    "past_ac",
+    "past_byc",
+    "can_inf",
+    "present_am",
+    "time_past_chunk"
+  ],
+  "blocks": [
+    {
+      "id": "money_new",
+      "title": "Money · new words",
+      "items": [
+        {
+          "en": "coin",
+          "pl": "moneta",
+          "gender": "f",
+          "icon": "🪙"
+        },
+        {
+          "en": "banknote",
+          "pl": "banknot",
+          "gender": "m",
+          "icon": "💵"
+        },
+        {
+          "en": "cash machine",
+          "pl": "bankomat",
+          "gender": "m",
+          "icon": "🏧"
+        },
+        {
+          "en": "bank account",
+          "pl": "konto",
+          "gender": "n"
+        },
+        {
+          "en": "payment",
+          "pl": "płatność",
+          "gender": "f",
+          "explain": "płatność ends in a consonant but it is feminine. Every Polish noun ending in -ość is feminine — the same soft-feminine group as noc and mysz."
+        },
+        {
+          "en": "loan (credit)",
+          "pl": "kredyt",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "shop_new",
+      "title": "In the shop · new words",
+      "items": [
+        {
+          "en": "shop assistant",
+          "pl": "sprzedawca",
+          "gender": "m",
+          "explain": "sprzedawca ends in -a, which normally means feminine, but it is masculine — the same exception as tata and kolega. The person decides the gender, not the ending."
+        },
+        {
+          "en": "basket (shopping)",
+          "pl": "koszyk",
+          "gender": "m",
+          "icon": "🧺"
+        },
+        {
+          "en": "trolley (shopping)",
+          "pl": "wózek",
+          "gender": "m",
+          "icon": "🛒"
+        },
+        {
+          "en": "gift",
+          "pl": "prezent",
+          "gender": "m",
+          "icon": "🎁"
+        }
+      ]
+    },
+    {
+      "id": "money_verbs",
+      "title": "Money · what you do with it",
+      "items": [
+        {
+          "en": "spend (money)",
+          "pl": "wydawać"
+        },
+        {
+          "en": "earn (money)",
+          "pl": "zarabiać"
+        },
+        {
+          "en": "I earn",
+          "pl": "zarabiam"
+        },
+        {
+          "en": "save (money)",
+          "pl": "oszczędzać"
+        },
+        {
+          "en": "I save",
+          "pl": "oszczędzam"
+        }
+      ]
+    },
+    {
+      "id": "rich_poor",
+      "title": "Rich & poor (m / f)",
+      "items": [
+        {
+          "en": "rich (m)",
+          "pl": "bogaty"
+        },
+        {
+          "en": "rich (f)",
+          "pl": "bogata"
+        },
+        {
+          "en": "poor (m)",
+          "pl": "biedny"
+        },
+        {
+          "en": "poor (f)",
+          "pl": "biedna"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is a coin.",
+      "pl": "To jest moneta.",
+      "accepts": [
+        "To jest moneta.",
+        "To jest moneta",
+        "To moneta.",
+        "To moneta"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "moneta"
+      ]
+    },
+    {
+      "en": "I have a banknote.",
+      "pl": "Mam banknot.",
+      "accepts": [
+        "Mam banknot.",
+        "Mam banknot"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "banknot"
+      ],
+      "explain": "banknot does not change after mam. Masculine words for things keep the same form as the object of a sentence — only masculine words for people and animals change."
+    },
+    {
+      "en": "The cash machine is near the shops.",
+      "pl": "Bankomat jest blisko sklepów.",
+      "accepts": [
+        "Bankomat jest blisko sklepów.",
+        "Bankomat jest blisko sklepów"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place",
+        "gen_pl"
+      ],
+      "lemmas": [
+        "bankomat"
+      ],
+      "explain": "blisko always takes the genitive, exactly as in blisko apteki. With more than one shop you need the genitive plural: sklep → sklepów."
+    },
+    {
+      "en": "This is my bank account.",
+      "pl": "To jest moje konto.",
+      "accepts": [
+        "To jest moje konto.",
+        "To jest moje konto",
+        "To moje konto.",
+        "To moje konto"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "konto"
+      ],
+      "explain": "konto is neuter, like okno and biuro, so the possessive is moje — not mój and not moja."
+    },
+    {
+      "en": "The payment is fine.",
+      "pl": "Płatność jest w porządku.",
+      "accepts": [
+        "Płatność jest w porządku.",
+        "Płatność jest w porządku"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "płatność"
+      ]
+    },
+    {
+      "en": "I have a loan at the bank.",
+      "pl": "Mam kredyt w banku.",
+      "accepts": [
+        "Mam kredyt w banku.",
+        "Mam kredyt w banku",
+        "W banku mam kredyt.",
+        "W banku mam kredyt"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kredyt"
+      ]
+    },
+    {
+      "en": "The shop assistant was working in the shop.",
+      "pl": "Sprzedawca pracował w sklepie.",
+      "accepts": [
+        "Sprzedawca pracował w sklepie.",
+        "Sprzedawca pracował w sklepie",
+        "W sklepie pracował sprzedawca.",
+        "W sklepie pracował sprzedawca"
+      ],
+      "structures": [
+        "past_ac",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "sprzedawca"
+      ],
+      "explain": "sprzedawca looks feminine but takes the masculine past pracował, not pracowała — the same way tata takes był."
+    },
+    {
+      "en": "I have a basket.",
+      "pl": "Mam koszyk.",
+      "accepts": [
+        "Mam koszyk.",
+        "Mam koszyk"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "koszyk"
+      ]
+    },
+    {
+      "en": "The trolley is big.",
+      "pl": "Wózek jest duży.",
+      "accepts": [
+        "Wózek jest duży.",
+        "Wózek jest duży"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wózek"
+      ]
+    },
+    {
+      "en": "Yesterday I was buying a gift. (m)",
+      "pl": "Wczoraj kupowałem prezent.",
+      "accepts": [
+        "Wczoraj kupowałem prezent.",
+        "Wczoraj kupowałem prezent",
+        "Kupowałem wczoraj prezent.",
+        "Kupowałem wczoraj prezent",
+        "Kupowałem prezent wczoraj.",
+        "Kupowałem prezent wczoraj"
+      ],
+      "structures": [
+        "past_ac",
+        "miec_acc",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "prezent"
+      ]
+    },
+    {
+      "en": "The gift is expensive.",
+      "pl": "Prezent jest drogi.",
+      "accepts": [
+        "Prezent jest drogi.",
+        "Prezent jest drogi"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prezent",
+        "drogi"
+      ],
+      "explain": "Two different words are spelled drogi. Here it is the adjective expensive, agreeing with the masculine prezent. In blisko drogi it is a form of droga, road. Position tells you which: after jest it is describing something, after blisko it is a place."
+    },
+    {
+      "en": "I can spend money.",
+      "pl": "Mogę wydawać pieniądze.",
+      "accepts": [
+        "Mogę wydawać pieniądze.",
+        "Mogę wydawać pieniądze"
+      ],
+      "structures": [
+        "can_inf",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wydawać"
+      ],
+      "explain": "After mogę the second verb stays in the dictionary form — wydawać, never a conjugated form."
+    },
+    {
+      "en": "I earn money.",
+      "pl": "Zarabiam pieniądze.",
+      "accepts": [
+        "Zarabiam pieniądze.",
+        "Zarabiam pieniądze",
+        "Ja zarabiam pieniądze.",
+        "Ja zarabiam pieniądze"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "zarabiam"
+      ],
+      "explain": "zarabiać is a plain -ać verb, so the I-form is -am: zarabiam. Same pattern as mam and czytam."
+    },
+    {
+      "en": "I save at the bank.",
+      "pl": "Oszczędzam w banku.",
+      "accepts": [
+        "Oszczędzam w banku.",
+        "Oszczędzam w banku",
+        "W banku oszczędzam.",
+        "W banku oszczędzam"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "oszczędzam"
+      ]
+    },
+    {
+      "en": "My brother is rich.",
+      "pl": "Mój brat jest bogaty.",
+      "accepts": [
+        "Mój brat jest bogaty.",
+        "Mój brat jest bogaty",
+        "Brat jest bogaty.",
+        "Brat jest bogaty"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "bogaty"
+      ]
+    },
+    {
+      "en": "My sister is rich.",
+      "pl": "Moja siostra jest bogata.",
+      "accepts": [
+        "Moja siostra jest bogata.",
+        "Moja siostra jest bogata",
+        "Siostra jest bogata.",
+        "Siostra jest bogata"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "bogata"
+      ],
+      "explain": "Feminine subject, so the adjective swaps -y for -a: bogaty → bogata. The same swap you already make on dobry → dobra."
+    },
+    {
+      "en": "The student was poor.",
+      "pl": "Student był biedny.",
+      "accepts": [
+        "Student był biedny.",
+        "Student był biedny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "biedny"
+      ]
+    },
+    {
+      "en": "My friend was poor. (f)",
+      "pl": "Moja koleżanka była biedna.",
+      "accepts": [
+        "Moja koleżanka była biedna.",
+        "Moja koleżanka była biedna",
+        "Koleżanka była biedna.",
+        "Koleżanka była biedna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "biedna"
+      ],
+      "explain": "Feminine subject takes -a twice over: była biedna. A man would be był biedny."
+    }
+  ],
+  "teaches_lemmas": [
+    "moneta",
+    "banknot",
+    "bankomat",
+    "konto",
+    "płatność",
+    "kredyt",
+    "sprzedawca",
+    "koszyk",
+    "wózek",
+    "prezent",
+    "wydawać",
+    "zarabiać",
+    "zarabiam",
+    "oszczędzać",
+    "oszczędzam",
+    "bogaty",
+    "bogata",
+    "biedny",
+    "biedna"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "mam",
+    "mogę",
+    "mój",
+    "moja",
+    "moje",
+    "brat",
+    "siostra",
+    "koleżanka",
+    "student",
+    "był",
+    "była",
+    "pracował",
+    "kupowałem",
+    "wczoraj",
+    "blisko",
+    "sklepów",
+    "w sklepie",
+    "w banku",
+    "w porządku",
+    "duży",
+    "drogi",
+    "droga",
+    "blisko drogi",
+    "pieniądze"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_shopping2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
