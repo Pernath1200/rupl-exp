@@ -2615,10 +2615,11 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Noun datives singular (mamie/tacie/bratu/siostrze) + pomagac/dawac/dziekowac. The A2 mi/mnie chunks finally explained as a case.",
+      "note": "[B1 SPINE] Noun datives singular with pomagać/dziękować (both riding already-owned present classes). Regular masc -owi (studentowi, nauczycielowi) taught as a real rule; mamie/tacie/bratu/siostrze handed over as four memorized whole forms, NOT a derived feminine rule (fenced — logged open question for James, see pack note). dawać deferred to b1_giving, logged. The A2 mi/mnie chunks finally explained as a case doing a job.",
       "pedagogy": "teach",
+      "content": "grammar/blocks/b1_dative_sg.json",
       "root": "forms",
       "tree_part": "forms"
     },
