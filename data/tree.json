@@ -1923,13 +1923,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: zarabiać, urlop, klient, zebranie recycled(spotkanie), umowa, szukać pracy chunk, bezrobotny, zawód, doświadczenie.",
+      "note": "Employment only, kept strictly distinct from a2_school2 (zero shared lemmas). zwolnienie dropped as two-sense (dismissal / sick note) - premia took its slot. szukac anchored to szukam pracy.",
       "unit_id": "PL2_31",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "work"
+      "tree_part": "work",
+      "content": "vocab/blocks/a2_work2.json"
     },
     {
       "id": "a2_school2",
@@ -1940,13 +1941,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: uczyć się payoff, egzamin, lekcja, zadanie, błąd, poprawka(!), zdać, oblać, ocena, kurs, ćwiczenie, słówko.",
+      "note": "Studying only. zdac/oblac are PERFECTIVE and this node precedes a2_aspect, so they appear only as bare infinitives after moge/moze - never in the past, never after bedzie where a perfective infinitive would be ungrammatical. zadanie sits one letter from the taught zdanie; explain names that confusion directly.",
       "unit_id": "PL2_32",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "work"
+      "tree_part": "work",
+      "content": "vocab/blocks/a2_school2.json"
     },
     {
       "id": "a2_aspect",

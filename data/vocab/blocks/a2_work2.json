@@ -1,0 +1,560 @@
+{
+  "id": "a2_work2",
+  "title": "W pracy",
+  "title_en": "Work life",
+  "level": "A2",
+  "tree_node": "a2_work2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides past_byc / bedzie / miec_acc / present_am. a1_work already owns praca, biuro, firma, szef, spotkanie, pensja, pieniądze, kolega z pracy, pracownik, menedżer, kariera, biznes, rozmowa kwalifikacyjna, pracować, zaczynać, kończyć, przerwa — and the pool also already owns klient, zarabiać/zarabiam and urlop. All of those are ANCHORS here, never re-taught. This pack teaches 11 new employment words plus the -am paradigm of szukać, and the payoff is talking about a working life over time: Szukam pracy · Będę szukać pracy · Tata był bezrobotny. Kept strictly to EMPLOYMENT so it does not overlap a2_school2 (studying). szkolenie is claimed here as workplace training; wykład went to school2. doświadczenie and szukać are general words assigned here because their first useful collocations are doświadczenie w pracy and szukam pracy. zwolnienie was dropped: it means both a dismissal and a doctor's sick note, and a two-sense noun breaks the one-unknown rule; premia took its place. zarobki is plural-only — always są, never jest, and no plural past exists in the pool. No copular future anywhere (będę w pracy is not expressible yet); będę appears only with a bare infinitive. Adjectives take no gender badge.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "gen_endings",
+    "bedzie",
+    "prep_w_loc",
+    "poss_nom",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "work2_words",
+      "title": "Work life · new words",
+      "items": [
+        {
+          "en": "contract",
+          "pl": "umowa",
+          "gender": "f"
+        },
+        {
+          "en": "profession / trade",
+          "pl": "zawód",
+          "gender": "m"
+        },
+        {
+          "en": "experience (at a job)",
+          "pl": "doświadczenie",
+          "gender": "n"
+        },
+        {
+          "en": "employer",
+          "pl": "pracodawca",
+          "gender": "m"
+        },
+        {
+          "en": "promotion (at work)",
+          "pl": "awans",
+          "gender": "m"
+        },
+        {
+          "en": "earnings (plural only)",
+          "pl": "zarobki",
+          "gender": "pl"
+        },
+        {
+          "en": "bonus (extra pay)",
+          "pl": "premia",
+          "gender": "f"
+        },
+        {
+          "en": "training (course at work)",
+          "pl": "szkolenie",
+          "gender": "n"
+        },
+        {
+          "en": "retirement pension",
+          "pl": "emerytura",
+          "gender": "f"
+        },
+        {
+          "en": "unemployed",
+          "pl": "bezrobotny"
+        },
+        {
+          "en": "look for (verb)",
+          "pl": "szukać"
+        }
+      ]
+    },
+    {
+      "id": "work2_forms",
+      "title": "Work life · these words in a sentence",
+      "items": [
+        {
+          "en": "I am looking for",
+          "pl": "szukam"
+        },
+        {
+          "en": "you are looking for",
+          "pl": "szukasz"
+        },
+        {
+          "en": "he / she is looking for",
+          "pl": "szuka"
+        },
+        {
+          "en": "they are looking for",
+          "pl": "szukają"
+        },
+        {
+          "en": "a contract (object form)",
+          "pl": "umowę",
+          "gender": "f"
+        },
+        {
+          "en": "a pension (object form)",
+          "pl": "emeryturę",
+          "gender": "f"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is a contract.",
+      "pl": "To jest umowa.",
+      "accepts": [
+        "To jest umowa.",
+        "To jest umowa",
+        "To umowa.",
+        "To umowa"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "umowa"
+      ]
+    },
+    {
+      "en": "I have a contract.",
+      "pl": "Mam umowę.",
+      "accepts": [
+        "Mam umowę.",
+        "Mam umowę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "umowa",
+        "umowę"
+      ],
+      "explain": "After mam a feminine word ending in -a swaps that -a for -ę. It is the same move you already make in mam pracę and mam kawę."
+    },
+    {
+      "en": "The contract was good.",
+      "pl": "Umowa była dobra.",
+      "accepts": [
+        "Umowa była dobra.",
+        "Umowa była dobra"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "umowa",
+        "była",
+        "dobra"
+      ],
+      "explain": "umowa is feminine, so the past być takes -a (była) and the adjective takes -a too (dobra) — the same double -a as praca była dobra."
+    },
+    {
+      "en": "I am looking for a job.",
+      "pl": "Szukam pracy.",
+      "accepts": [
+        "Szukam pracy.",
+        "Szukam pracy"
+      ],
+      "structures": [
+        "present_am",
+        "gen_endings"
+      ],
+      "lemmas": [
+        "szukać",
+        "szukam",
+        "pracy"
+      ],
+      "explain": "szukać always sends its object into the genitive, so praca becomes pracy — the very form you already say in do pracy and z pracy. The verb itself goes like czytam: szukam, szukasz, szuka."
+    },
+    {
+      "en": "Dad is looking for a job.",
+      "pl": "Tata szuka pracy.",
+      "accepts": [
+        "Tata szuka pracy.",
+        "Tata szuka pracy"
+      ],
+      "structures": [
+        "present_am",
+        "gen_endings"
+      ],
+      "lemmas": [
+        "szuka",
+        "pracy",
+        "tata"
+      ]
+    },
+    {
+      "en": "I will look for a job.",
+      "pl": "Będę szukać pracy.",
+      "accepts": [
+        "Będę szukać pracy.",
+        "Będę szukać pracy"
+      ],
+      "structures": [
+        "bedzie",
+        "gen_endings"
+      ],
+      "lemmas": [
+        "będę",
+        "szukać",
+        "pracy"
+      ],
+      "explain": "The future is będę plus the plain dictionary verb — szukam becomes szukać and nothing else in the sentence moves. pracy stays in the genitive because szukać still governs it."
+    },
+    {
+      "en": "Dad will look for a job.",
+      "pl": "Tata będzie szukać pracy.",
+      "accepts": [
+        "Tata będzie szukać pracy.",
+        "Tata będzie szukać pracy"
+      ],
+      "structures": [
+        "bedzie",
+        "gen_endings"
+      ],
+      "lemmas": [
+        "będzie",
+        "szukać",
+        "pracy",
+        "tata"
+      ]
+    },
+    {
+      "en": "This is a good profession.",
+      "pl": "To jest dobry zawód.",
+      "accepts": [
+        "To jest dobry zawód.",
+        "To jest dobry zawód",
+        "To dobry zawód.",
+        "To dobry zawód"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zawód",
+        "dobry"
+      ]
+    },
+    {
+      "en": "My brother has a new profession.",
+      "pl": "Mój brat ma nowy zawód.",
+      "accepts": [
+        "Mój brat ma nowy zawód.",
+        "Mój brat ma nowy zawód",
+        "Brat ma nowy zawód.",
+        "Brat ma nowy zawód"
+      ],
+      "structures": [
+        "poss_nom",
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zawód",
+        "brat",
+        "mój",
+        "nowy"
+      ],
+      "explain": "zawód is masculine and it is a thing, not a person, so after ma it looks exactly like the dictionary form — no ending is added. Compare mam telefon."
+    },
+    {
+      "en": "I have experience.",
+      "pl": "Mam doświadczenie.",
+      "accepts": [
+        "Mam doświadczenie.",
+        "Mam doświadczenie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "doświadczenie"
+      ]
+    },
+    {
+      "en": "The boss has great experience.",
+      "pl": "Szef ma duże doświadczenie.",
+      "accepts": [
+        "Szef ma duże doświadczenie.",
+        "Szef ma duże doświadczenie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "doświadczenie",
+        "szef",
+        "duże"
+      ],
+      "explain": "doświadczenie ends in -e, so it is neuter — that is why the adjective takes the neuter -e as well: duże, not duży."
+    },
+    {
+      "en": "My employer is nice.",
+      "pl": "Mój pracodawca jest miły.",
+      "accepts": [
+        "Mój pracodawca jest miły.",
+        "Mój pracodawca jest miły",
+        "Pracodawca jest miły.",
+        "Pracodawca jest miły"
+      ],
+      "structures": [
+        "poss_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pracodawca",
+        "mój",
+        "miły"
+      ],
+      "explain": "pracodawca ends in -a but names a man, so the masculine forms win: mój ... miły, never moja ... miła. Exactly like tata and kolega."
+    },
+    {
+      "en": "The employer was in the office.",
+      "pl": "Pracodawca był w biurze.",
+      "accepts": [
+        "Pracodawca był w biurze.",
+        "Pracodawca był w biurze",
+        "W biurze był pracodawca.",
+        "W biurze był pracodawca"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "pracodawca",
+        "był",
+        "w biurze",
+        "biurze"
+      ]
+    },
+    {
+      "en": "I've got a promotion.",
+      "pl": "Mam awans.",
+      "accepts": [
+        "Mam awans.",
+        "Mam awans"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "awans"
+      ]
+    },
+    {
+      "en": "The promotion was good.",
+      "pl": "Awans był dobry.",
+      "accepts": [
+        "Awans był dobry.",
+        "Awans był dobry"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "awans",
+        "był",
+        "dobry"
+      ]
+    },
+    {
+      "en": "The earnings are good.",
+      "pl": "Zarobki są dobre.",
+      "accepts": [
+        "Zarobki są dobre.",
+        "Zarobki są dobre"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zarobki",
+        "są",
+        "dobre"
+      ],
+      "explain": "zarobki has no singular, like meble and pieniądze. Words of that kind always take są and the plural adjective dobre."
+    },
+    {
+      "en": "Was there a bonus?",
+      "pl": "Czy była premia?",
+      "accepts": [
+        "Czy była premia?",
+        "Czy była premia",
+        "Była premia?",
+        "Była premia"
+      ],
+      "structures": [
+        "question",
+        "past_byc"
+      ],
+      "lemmas": [
+        "premia",
+        "była",
+        "czy"
+      ],
+      "explain": "czy only opens the question — nothing else moves. premia is feminine, so the past być is była."
+    },
+    {
+      "en": "The training was good.",
+      "pl": "Szkolenie było dobre.",
+      "accepts": [
+        "Szkolenie było dobre.",
+        "Szkolenie było dobre"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "szkolenie",
+        "było",
+        "dobre"
+      ],
+      "explain": "szkolenie is neuter, so the past być takes -o (było) and the adjective takes -e (dobre). The same neuter pair as biurko jest nowe."
+    },
+    {
+      "en": "I have training tomorrow.",
+      "pl": "Jutro mam szkolenie.",
+      "accepts": [
+        "Jutro mam szkolenie.",
+        "Jutro mam szkolenie",
+        "Mam jutro szkolenie.",
+        "Mam jutro szkolenie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "szkolenie",
+        "jutro"
+      ]
+    },
+    {
+      "en": "Grandma has a pension.",
+      "pl": "Babcia ma emeryturę.",
+      "accepts": [
+        "Babcia ma emeryturę.",
+        "Babcia ma emeryturę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "emerytura",
+        "emeryturę",
+        "babcia"
+      ],
+      "explain": "The same -a to -ę swap as mam umowę: after ma a feminine noun ends in -ę."
+    },
+    {
+      "en": "Dad was unemployed.",
+      "pl": "Tata był bezrobotny.",
+      "accepts": [
+        "Tata był bezrobotny.",
+        "Tata był bezrobotny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "bezrobotny",
+        "tata",
+        "był"
+      ],
+      "explain": "bezrobotny is an adjective, so it behaves like zmęczony: był bezrobotny for a man, była bezrobotna for a woman."
+    }
+  ],
+  "teaches_lemmas": [
+    "umowa",
+    "umowę",
+    "zawód",
+    "doświadczenie",
+    "pracodawca",
+    "awans",
+    "zarobki",
+    "premia",
+    "szkolenie",
+    "emerytura",
+    "emeryturę",
+    "bezrobotny",
+    "szukać",
+    "szukam",
+    "szukasz",
+    "szuka",
+    "szukają"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "są",
+    "był",
+    "była",
+    "było",
+    "mam",
+    "ma",
+    "będę",
+    "będzie",
+    "tata",
+    "babcia",
+    "brat",
+    "szef",
+    "mój",
+    "praca",
+    "pracy",
+    "biurze",
+    "w biurze",
+    "jutro",
+    "czy",
+    "dobry",
+    "dobra",
+    "dobre",
+    "duże",
+    "nowy",
+    "miły"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_work2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

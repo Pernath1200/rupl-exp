@@ -1,0 +1,525 @@
+{
+  "id": "a2_school2",
+  "title": "W szkole",
+  "title_en": "Learning & school",
+  "level": "A2",
+  "tree_node": "a2_school2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides past_byc / bedzie / can_inf / miec_acc / present_am. a1_school already owns klasa, lekcja, kurs, kolegium, przedmiot, praca domowa, egzamin, sprawdzian, słownik, język, uczyć się, studiować, długopis, ołówek, zdanie, słowo, pytanie, odpowiedź, notatka, ćwiczenie — and the pool also owns książka, nauczyciel, nauczycielka, student, studentka, szkoła and wynik. All of those are ANCHORS here, never re-taught. This pack teaches 11 new studying words and the payoff is judging a piece of study: Ocena była dobra · Mogę zdać egzamin · Jutro będę powtarzać angielski. Kept strictly to STUDYING so it does not overlap a2_work2 (employment); wykład is claimed here, szkolenie went to work2. WATCH: zadanie (a task) sits one letter from the already-taught zdanie (a sentence) — the first sentence carries an explain for exactly that. zdać and oblać are perfective, and aspect is fenced to a2_aspect, so they appear ONLY as bare infinitives after mogę / może — never in the past and never after będę, where a perfective infinitive would be ungrammatical. powtarzać is imperfective and goes like czytać, so it takes the future freely. Adjectives take no gender badge.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "can_inf",
+    "bedzie",
+    "prep_place",
+    "poss_nom",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "school2_words",
+      "title": "Learning · new words",
+      "items": [
+        {
+          "en": "task / exercise (to do)",
+          "pl": "zadanie",
+          "gender": "n"
+        },
+        {
+          "en": "mistake",
+          "pl": "błąd",
+          "gender": "m"
+        },
+        {
+          "en": "mark / grade",
+          "pl": "ocena",
+          "gender": "f"
+        },
+        {
+          "en": "lecture",
+          "pl": "wykład",
+          "gender": "m"
+        },
+        {
+          "en": "pupil (at school)",
+          "pl": "uczeń",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "school2_things",
+      "title": "Learning · places & things",
+      "items": [
+        {
+          "en": "exercise book",
+          "pl": "zeszyt",
+          "gender": "m"
+        },
+        {
+          "en": "board (in a classroom)",
+          "pl": "tablica",
+          "gender": "f"
+        },
+        {
+          "en": "university",
+          "pl": "uniwersytet",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "school2_doing",
+      "title": "Learning · what you do",
+      "items": [
+        {
+          "en": "revise / go over again (verb)",
+          "pl": "powtarzać"
+        },
+        {
+          "en": "I revise",
+          "pl": "powtarzam"
+        },
+        {
+          "en": "you revise",
+          "pl": "powtarzasz"
+        },
+        {
+          "en": "he / she revises",
+          "pl": "powtarza"
+        },
+        {
+          "en": "pass (an exam)",
+          "pl": "zdać"
+        },
+        {
+          "en": "fail (an exam)",
+          "pl": "oblać"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I have a task.",
+      "pl": "Mam zadanie.",
+      "accepts": [
+        "Mam zadanie.",
+        "Mam zadanie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "zadanie"
+      ],
+      "explain": "Read this one slowly: zadanie is a task you have to do, while the zdanie you already know is a sentence. One letter apart, two different words."
+    },
+    {
+      "en": "This is my task.",
+      "pl": "To jest moje zadanie.",
+      "accepts": [
+        "To jest moje zadanie.",
+        "To jest moje zadanie",
+        "To moje zadanie.",
+        "To moje zadanie"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zadanie",
+        "moje"
+      ],
+      "explain": "zadanie ends in -e, so it is neuter and the possessive is moje — the same form as moje biurko."
+    },
+    {
+      "en": "This is my mistake.",
+      "pl": "To jest mój błąd.",
+      "accepts": [
+        "To jest mój błąd.",
+        "To jest mój błąd",
+        "To mój błąd.",
+        "To mój błąd"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "błąd",
+        "mój"
+      ]
+    },
+    {
+      "en": "The mistake was small.",
+      "pl": "Błąd był mały.",
+      "accepts": [
+        "Błąd był mały.",
+        "Błąd był mały"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "błąd",
+        "był",
+        "mały"
+      ]
+    },
+    {
+      "en": "The mark was good.",
+      "pl": "Ocena była dobra.",
+      "accepts": [
+        "Ocena była dobra.",
+        "Ocena była dobra"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ocena",
+        "była",
+        "dobra"
+      ],
+      "explain": "ocena ends in -a, so it is feminine: the past być takes -a (była) and so does the adjective (dobra)."
+    },
+    {
+      "en": "Is the mark good?",
+      "pl": "Czy ocena jest dobra?",
+      "accepts": [
+        "Czy ocena jest dobra?",
+        "Czy ocena jest dobra",
+        "Ocena jest dobra?",
+        "Ocena jest dobra"
+      ],
+      "structures": [
+        "question",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ocena",
+        "czy",
+        "dobra"
+      ]
+    },
+    {
+      "en": "The lecture was interesting.",
+      "pl": "Wykład był ciekawy.",
+      "accepts": [
+        "Wykład był ciekawy.",
+        "Wykład był ciekawy"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wykład",
+        "był",
+        "ciekawy"
+      ]
+    },
+    {
+      "en": "I have a lecture tomorrow.",
+      "pl": "Jutro mam wykład.",
+      "accepts": [
+        "Jutro mam wykład.",
+        "Jutro mam wykład",
+        "Mam jutro wykład.",
+        "Mam jutro wykład"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wykład",
+        "jutro"
+      ],
+      "explain": "wykład is masculine and it is a thing, not a person, so after mam it keeps its dictionary shape — nothing is added."
+    },
+    {
+      "en": "The pupil is young.",
+      "pl": "Uczeń jest młody.",
+      "accepts": [
+        "Uczeń jest młody.",
+        "Uczeń jest młody"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "uczeń",
+        "młody"
+      ],
+      "explain": "uczeń ends in a soft -ń but it is masculine, so the adjective takes the plain masculine -y: młody."
+    },
+    {
+      "en": "This is a new pupil.",
+      "pl": "To jest nowy uczeń.",
+      "accepts": [
+        "To jest nowy uczeń.",
+        "To jest nowy uczeń",
+        "To nowy uczeń.",
+        "To nowy uczeń"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "uczeń",
+        "nowy"
+      ]
+    },
+    {
+      "en": "I have a new exercise book.",
+      "pl": "Mam nowy zeszyt.",
+      "accepts": [
+        "Mam nowy zeszyt.",
+        "Mam nowy zeszyt"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zeszyt",
+        "nowy"
+      ]
+    },
+    {
+      "en": "The exercise book is on the desk.",
+      "pl": "Zeszyt jest na biurku.",
+      "accepts": [
+        "Zeszyt jest na biurku.",
+        "Zeszyt jest na biurku",
+        "Na biurku jest zeszyt.",
+        "Na biurku jest zeszyt"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "zeszyt",
+        "biurku",
+        "na biurku"
+      ]
+    },
+    {
+      "en": "The board is new.",
+      "pl": "Tablica jest nowa.",
+      "accepts": [
+        "Tablica jest nowa.",
+        "Tablica jest nowa"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "tablica",
+        "nowa"
+      ]
+    },
+    {
+      "en": "This is the university.",
+      "pl": "To jest uniwersytet.",
+      "accepts": [
+        "To jest uniwersytet.",
+        "To jest uniwersytet",
+        "To uniwersytet.",
+        "To uniwersytet"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "uniwersytet"
+      ]
+    },
+    {
+      "en": "The university is old.",
+      "pl": "Uniwersytet jest stary.",
+      "accepts": [
+        "Uniwersytet jest stary.",
+        "Uniwersytet jest stary"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "uniwersytet",
+        "stary"
+      ]
+    },
+    {
+      "en": "I'm revising English.",
+      "pl": "Powtarzam angielski.",
+      "accepts": [
+        "Powtarzam angielski.",
+        "Powtarzam angielski"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "powtarzać",
+        "powtarzam",
+        "angielski"
+      ],
+      "explain": "powtarzać runs on the -am / -asz pattern you already use for czytam and mam: powtarzam, powtarzasz, powtarza."
+    },
+    {
+      "en": "Dad is revising English.",
+      "pl": "Tata powtarza angielski.",
+      "accepts": [
+        "Tata powtarza angielski.",
+        "Tata powtarza angielski"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "powtarza",
+        "angielski",
+        "tata"
+      ]
+    },
+    {
+      "en": "Tomorrow I will revise English.",
+      "pl": "Jutro będę powtarzać angielski.",
+      "accepts": [
+        "Jutro będę powtarzać angielski.",
+        "Jutro będę powtarzać angielski",
+        "Będę jutro powtarzać angielski.",
+        "Będę jutro powtarzać angielski"
+      ],
+      "structures": [
+        "bedzie",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "będę",
+        "powtarzać",
+        "angielski",
+        "jutro"
+      ],
+      "explain": "będę takes the plain dictionary verb, so powtarzam goes back to powtarzać. The object angielski does not move."
+    },
+    {
+      "en": "I can pass the exam.",
+      "pl": "Mogę zdać egzamin.",
+      "accepts": [
+        "Mogę zdać egzamin.",
+        "Mogę zdać egzamin"
+      ],
+      "structures": [
+        "can_inf",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "zdać",
+        "mogę",
+        "egzamin"
+      ],
+      "explain": "After mogę the second verb stays in its dictionary form, exactly as in mogę pracować. egzamin is masculine and a thing, so it keeps its shape too."
+    },
+    {
+      "en": "My friend might fail the exam.",
+      "pl": "Kolega może oblać egzamin.",
+      "accepts": [
+        "Kolega może oblać egzamin.",
+        "Kolega może oblać egzamin"
+      ],
+      "structures": [
+        "can_inf",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "oblać",
+        "może",
+        "kolega",
+        "egzamin"
+      ],
+      "explain": "Polish uses two separate verbs for an exam result: zdać egzamin and oblać egzamin. Both keep the dictionary form after może."
+    }
+  ],
+  "teaches_lemmas": [
+    "zadanie",
+    "błąd",
+    "ocena",
+    "wykład",
+    "uczeń",
+    "zeszyt",
+    "tablica",
+    "uniwersytet",
+    "powtarzać",
+    "powtarzam",
+    "powtarzasz",
+    "powtarza",
+    "zdać",
+    "oblać"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "mam",
+    "był",
+    "była",
+    "będę",
+    "mogę",
+    "może",
+    "mój",
+    "moje",
+    "czy",
+    "jutro",
+    "tata",
+    "kolega",
+    "egzamin",
+    "angielski",
+    "biurku",
+    "na biurku",
+    "dobra",
+    "mały",
+    "ciekawy",
+    "młody",
+    "nowy",
+    "nowa",
+    "stary"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_school2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
