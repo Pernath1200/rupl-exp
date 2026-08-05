@@ -81,6 +81,9 @@ STRUCTURE_CATALOGUE = {
     "case_gym2",
     "prep_review2",
     "wrapup_func",
+    "perf_future",
+    "conditional_sg",
+    "past_isc",
 }
 
 GLUE_LEMMAS = {

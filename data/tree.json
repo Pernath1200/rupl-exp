@@ -2347,12 +2347,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE 2026-08-05, James-locked] The four taught twins get their future: kupie/zrobie/wypije/przeczytam. Framed as the past he knows pointed forwards (kupilem -> kupie). Explicitly amends the A2 one-future claim in a dedicated moment. Decision #2: own unit FIRST, contrast second.",
+      "note": "FIRST B1 UNIT. The four taught twins get their future (24 forms, plural included - no gender, so the load is fair; kupicie/wypijecie/przeczytasz/przeczytaja intro-table-only but tagged). THE AMENDMENT: slide 1 honestly updates a2_bedzie one-future claim before any new form appears; bede kupowac appears ONLY there, verified. Which-future-when is explicitly deferred to b1_two_futures. The kupie-does-NOT-copy-kupuje trap gets its own slide.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_perf_future.json"
     },
     {
       "id": "b1_two_futures",
@@ -2410,12 +2411,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE, James decision #3] bym/bys/by SINGULAR only, riding taught past stems; chcialbym/chcialabym politeness payoff. PLURAL FENCED until b1_conditional_pl (after virile block).",
+      "note": "Conditional SINGULAR (James decision #3). 14 forms on three verbs (chciec/kupic/zrobic). Politeness payoff: Chce kawe -> Chcialbym kawe, same sentence one register up. 2sg conditionals grounded on taught 3sg stem + byles ending - the honest morphological decomposition, since chciales/kupilas were never taught. Plural conditional: zero forms, zero mentions.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_conditional_sg.json"
     },
     {
       "id": "b1_polite",
@@ -2442,12 +2444,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] The suppletive past: szedlem/szlam etc, taught WHOLE like mialem; m/f stem split (szed-/sz-) is a table fact not a rule. Own undiluted unit - first truly irregular past.",
+      "note": "The course first suppletive past: szedlem/szlam etc, 7 forms taught WHOLE in the mialem lineage. Stem split (szed-/sz-) = table fact, no rule, no historical morphology. Payoff promised but no prefixed form named anywhere, note included. MUST precede b1_arrive_leave.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b1_past_isc.json"
     },
     {
       "id": "b1_arrive_leave",

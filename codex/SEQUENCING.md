@@ -213,6 +213,9 @@ Extend only by PR/docs update — agents must not invent IDs.
 | `questions2` | Second question wave: *dlaczego/bo, kiedy, ile, ktory/ktora/ktore* (Nominative agreement only). |
 | `case_gym2` | Gym: discrimination across Nom/Acc/Gen/Loc/Inst singular + Nom/Gen plural, all cases already taught. Zero new material. |
 | `prep_review2` | A2-vocabulary review pass over the already-taught preposition families (w/na, do/z, o), plus the transport/company Instrumental. Zero new material. |
+| `perf_future` | Perfective future of the four taught twins (*kupie, zrobie, wypije, przeczytam* + persons). Lifts the A2 one-future fence in a dedicated unit. |
+| `conditional_sg` | Conditional SINGULAR only (*bym/bys/by* on taught past stems; *chcialbym/chcialabym*). Plural conditional deferred past the virile block. |
+| `past_isc` | Suppletive past of *isc* (*szedlem/szlam/szedl/szla/szlo*), taught whole; m/f stem split is a table fact, not a rule. |
 | `wrapup_func` | Combined recombination of the five Situations units (shop, directions, restaurant, phone) into mixed scenes. Zero new material. |
 
 **UI labels** (exp vocab hints) may map a subset; catalogue above is the audit vocabulary.
