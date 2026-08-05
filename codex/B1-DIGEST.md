@@ -120,3 +120,87 @@ full batch.
 - Both units lean on `dobrzy`/`kobiety` as adjective/contrast anchors — worth
   a read to see if the "at least one man" framing lands for an absolute
   beginner, or needs a gentler restatement.
+
+## Batch 5 — Virile block closed (unit 3 of 3) + its payoff vocab + its gym
+
+Built `b1_virile_past`, `b1_people`, `b1_virile_gym` — the rest of block 4 on
+the spine. All three audit-clean (0 errors; the same 2 pre-existing warns from
+`a2_prep_review`/`b1_two_futures` persist, unrelated to this batch), pushed to
+`origin/b1-build` one at a time, not batched. Path is now live through
+`b1_virile_gym`; next unbuilt B1 node is `b1_conditional_pl`.
+
+### `b1_virile_past` (block 4, unit 3/3 — closes the block)
+
+Teaches `oni`/`one` at last (fenced by name since the block opened — verified
+NEW via `check_new.py` right before writing) and applies the already-taught
+`past_plural` -li/-ły rule to real virile-noun subjects (`ci studenci
+pracowali`) instead of `a2_past_plural`'s "name i name" workaround. New
+structure `virile_past`, registered in `SEQUENCING.md` + `audit.py` before the
+audit ran. One new verb spread to the plural past, matching the spine's own
+worked example: `pracowali`/`pracowały` — `pracować` was already known in
+present and singular past, never in plural, so this is the owned rule applied
+to a new verb, not new grammar. Kept deliberately light (only 4 new lemmas:
+`oni`, `one`, `pracowali`, `pracowały`) since the real payload is wiring, not
+vocabulary — the fourteen virile nouns from the two prior units carry the
+sentence-level content.
+
+**One thing I want flagged, not just logged:** I found `oni`/`one` already
+sitting in `audit.py`'s `GLUE_LEMMAS` set — meaning the auditor would **not**
+have caught it if an earlier B1 pack had used them before this unit taught
+them. I did not touch that (it's long-standing, from A1's "person pronouns in
+grids are glue" design decision in `SEQUENCING.md` §6.2, not something this
+session introduced), and I confirmed by hand that no live pack before
+`b1_virile_past` actually uses them — but the fence is currently
+author-discipline only, not machine-enforced. Worth knowing if a future batch
+gets rushed.
+
+### `b1_people` (vocab — "the vocab that makes the virile units worth having")
+
+Five new profession pairs — `policjant/-ka`, `informatyk/-czka`,
+`kucharz/-ka`, `dziennikarz/-ka`, `turysta/-tka` — picked so every masculine
+noun falls inside the regular `virile_nom` production rule already taught
+(-t, -k, already-soft classes; no r-stems, no `-ca` nouns like `kierowca`
+which turned out to take a *fourth*, untaught plural pattern and were dropped
+for that reason) and every feminine plural rides the already-taught
+`a2_plural_nom` hard-stem rule. Plus `ludzie` (people), handed over whole as
+the one closed irregular, since leaving the single highest-frequency virile
+noun out of the unit literally named "Ludzie" felt like the wrong kind of
+conservative. **Judgment call, logged in the pack note:** `dzieci` (children)
+was considered as a second whole-form irregular for contrast — it's
+famously *not* virile despite meaning people — and dropped, since it's
+already fenced elsewhere and stacking two suppletives in one pack for an
+absolute beginner seemed like the wrong trade for a payoff the spine never
+asked for.
+
+### `b1_virile_gym` (zero-new discrimination gym, closes the block)
+
+Same idiom as `a1_case_gym`/`b1_aspect_gym`: `teaches_structures` and
+`teaches_lemmas` both empty. Drills `ci`/`te`, `byli`/`pracowali` vs
+`były`/`pracowały`, and `oni`/`one` together as the same repeated question,
+recycling every virile noun from the three grammar units plus `b1_people`'s
+profession pairs.
+
+**Caught during self-verification, before it shipped:** my first draft of
+this gym's intro slide used `zmęczeni`/`zmęczone` ("tired", virile/non-virile
+plural) as example sentences. `check_new.py` came back NEW on both — I'd
+pattern-matched off `dobrzy` without checking that *every* adjective's
+virile plural is a separate, mostly-untaught alternation (`zmęczony` only
+has its singular forms taught; `b1_virile_nom`'s own note already flagged
+this exact trap for adjectives like `mały`/`duży`, and I nearly repeated it
+for a *different* adjective). Replaced both examples with already-taught
+material (`dobrzy`, plain `były w parku`) before wiring the unit live —
+this is exactly the kind of leak the audit's string-matching can't see
+because I hadn't yet run `check_new.py` on my own draft text; it only
+matters if you actually run the check on every string before shipping,
+which is what caught it here.
+
+### For James's next smoke pass
+
+- `b1_virile_past` is the first unit to say `oni`/`one` out loud — worth
+  clicking through to see whether introducing two pronouns for a concept
+  he's had wordlessly since `a2_past_plural` lands naturally or feels like
+  a rug-pull ("wait, I could have been saying this the whole time?").
+- `b1_people`'s profession list is deliberately narrow (5 pairs) to stay
+  inside the taught production rule — if it feels thin standing alone,
+  that's the intended trade-off (breadth was sacrificed for zero new
+  grammar risk), not an oversight.
