@@ -1975,13 +1975,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~18 new: menu, rachunek, zamawiać, kelner recycled, danie, zupa recycled, deser, napój, smaczny, słodki, ostry, świeży, kuchnia polska.",
+      "note": "At the table: 12 new items incl. cutlery. Adjective feminines verified individually before use (slodka/slona/smaczna/goraca) - duza/mala/wysoka confirmed still untaught and avoided. gorzki rejected as a near-homograph of the taught comparative gorszy.",
       "unit_id": "PL2_34",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "food"
+      "tree_part": "food",
+      "content": "vocab/blocks/a2_food2.json"
     },
     {
       "id": "a2_ordering_func",
@@ -2009,13 +2010,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] NOT full dative: mi/ci chunks only. podoba mi się, smakuje mi, daj mi, pomóż mi. Full noun Dat = B1.",
+      "note": "Dative PRONOUN CHUNKS only - the case is never named anywhere, no ci/mu/jej, no paradigm. The subject-flip is the whole unit: the film does the pleasing, the coffee does the tasting. Made actionable by forcing \"Smakuje mi ta kawa\" (nominative) against the known \"chce kawe\". daj mi dropped: imperative is a new system AND it is the one chunk that does not show the flip.",
       "unit_id": "PL2_36",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_dat_chunks.json"
     },
     {
       "id": "a2_health2",
