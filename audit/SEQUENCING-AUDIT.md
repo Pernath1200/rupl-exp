@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 89 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 90 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -105,4 +105,5 @@ _None._
 | 89 | `a2_phone_func` | `situation_chunk` | 25 | `byc_present`, `can_inf`, `inst_z`, `miec_acc`, `miec_present`, `negation`, `prep_do_gen`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `social_chunk`, `to_jest`, `zgoda` |
 | 90 | `a2_ordinals_time` | `ordinals_time` | 36 | `byc_present`, `chodzic`, `existential_jest`, `jechac`, `miec_acc`, `miec_present`, `ordinals_time`, `prep_do_gen`, `present`, `present_e_esz`, `present_uje`, `question`, `social_chunk` |
 | 91 | `a2_celebrations` | — | 17 | `aspect_past`, `byc_adj`, `byc_present`, `inst_z`, `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `prep_place`, `prep_w_loc`, `present_e_isz`, `present_uje`, `question`, `time_past_chunk`, `to_jest`, `zgoda` |
+| 92 | `a2_superlatives` | `superlative` | 29 | `byc_adj`, `byc_present`, `comparative`, `gen_endings`, `poss_nom`, `superlative`, `ten_ta_to`, `zgoda` |
 

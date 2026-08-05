@@ -146,6 +146,29 @@ Any inflected form a prompt demands must (a) appear in intro/match/type, and
 citation form (*biuro*) while the sentence uses *biurze* **evades the check** —
 tag the inflected surface form too.
 
+## Homograph trap — the auditor cannot see this one
+
+The auditor matches **strings**. A form can be tagged as taught while meaning
+something completely different, and a pack that reuses the string will audit
+clean while showing the learner a form they read as the wrong word.
+
+Real examples, all caught by agents rather than by the gate:
+
+| Form | Taught as | Would have been used as |
+|---|---|---|
+| `mamy` | the verb *we have* (`a1_miec`) | genitive of *mama* — "than mum" |
+| `córki`, `wina`, `gazety`, `okna` | nominative **plurals** (`a2_plural_nom`) | genitive **singulars** |
+| `góry` | plural noun *mountains* (`a2_travel`) | genitive of *góra* |
+| `kawy`, `szkoły` | genitive singular (`a1_gen_endings`) | nominative plural |
+
+**So:** before reusing a form, check not just that it is taught but **what it was
+taught AS**. `check_new.py` names the owning pack — read it. If the function
+differs, either pick a different word or teach the form yourself and say so.
+
+Masculine-animate nouns are the honest exception: *brata / psa / kota* really are
+identical in the accusative and the genitive. Using them across both is legitimate
+— but name it in one line rather than letting it slip past.
+
 ## Load-splitting
 
 If a unit would teach two new systems at once, **split it**. Precedent: the old

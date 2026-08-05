@@ -2156,13 +2156,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] najlepszy/największy/najstarszy over known comparatives; X jest większy od Y (od+Gen alternative to niż). Small closed set.",
+      "note": "naj- on the inherited comparative set + od+Gen, the comparison a1_comparatives explicitly deferred. HOMOGRAPH DISCIPLINE: od mamy/taty/siostry/corki/wina/gazety all REFUSED - mamy is taught only as the verb \"we have\", the rest only as nominative plurals, so each would have passed a string-matching audit while showing a form the learner reads as something else. matki (a real taught genitive) carries the family slot instead. niz/od framed as a free choice and made structurally true: 7 of 12 Uzycie items accept both.",
       "unit_id": "PL2_44",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_superlatives.json"
     },
     {
       "id": "a2_nature2",

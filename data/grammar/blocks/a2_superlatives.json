@@ -1,0 +1,716 @@
+{
+  "id": "a2_superlatives",
+  "title": "Najlepszy · od + dopełniacz",
+  "title_en": "Superlatives · od + genitive",
+  "level": "A2",
+  "tree_node": "a2_superlatives",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Completes a1_comparatives. Half 1: naj- over that unit's closed set of nine (lepszy, gorszy, wiekszy, mniejszy, starszy, mlodszy, droszy, tanszy, nowszy) - one prefix, no stem change, no exceptions, deliberately framed as the easy unit after gen_pl and aspect. Half 2: the od+Gen comparison a1_comparatives deferred, taught as a free CHOICE against niz rather than a second thing to master. GENITIVE FORMS ARE THE LOAD-BEARING CHECK: every noun after od uses a genitive already taught - herbaty/kawy/domu/miasta/piwa (a1_gen_endings), matki (a1_gen_ki), brata/psa/kota (a1_miec, masculine animate, where accusative and genitive are the same form and the intro says so). Rejected after checking the pool: od mamy (mamy is taught ONLY as the verb 'we have' - the genitive of mama is untaught and the homograph would mislead), od taty (untaught), od siostry (untaught). Also refused as unsafe homographs: corki, wina, gazety, okna, gory - all taught as nominative plurals in a2_plural_nom / a2_travel, not as genitives. Fenced and never on screen: adverb comparison (lepiej, wiecej, najlepiej), najbardziej + adjective, comparative of adverbs, any superlative outside the inherited nine.",
+  "focus_structures": [
+    "superlative"
+  ],
+  "teaches_structures": [
+    "superlative"
+  ],
+  "uses_structures": [
+    "superlative",
+    "comparative",
+    "gen_endings",
+    "byc_adj",
+    "zgoda",
+    "byc_present",
+    "ten_ta_to",
+    "poss_nom"
+  ],
+  "intro": [
+    {
+      "title": "One prefix. That is the whole rule.",
+      "title_pl": "Jeden przedrostek",
+      "body": "You already have the comparatives: lepszy (better), większy (bigger), starszy (older).\n\nTo say the best, the biggest, the oldest, put naj- on the front. Nothing else changes — no new ending, no stem change, no exceptions, no list of awkward ones to memorise.\n\nlepszy → najlepszy · większy → największy · starszy → najstarszy\n\nAfter the genitive plural and the aspect pairs, you have earned an easy one. This is the cleanest rule in the language so far, and it is worth saying plainly: there is nothing else to learn here.",
+      "body_pl": "Stopień najwyższy: naj- + stopień wyższy. Bez wyjątków."
+    },
+    {
+      "title": "All nine, built the same way",
+      "title_pl": "Stopień najwyższy",
+      "table": {
+        "headers": [
+          "Comparative",
+          "Superlative",
+          "English"
+        ],
+        "rows": [
+          [
+            "lepszy",
+            "najlepszy",
+            "the best"
+          ],
+          [
+            "gorszy",
+            "najgorszy",
+            "the worst"
+          ],
+          [
+            "większy",
+            "największy",
+            "the biggest"
+          ],
+          [
+            "mniejszy",
+            "najmniejszy",
+            "the smallest"
+          ],
+          [
+            "starszy",
+            "najstarszy",
+            "the oldest"
+          ],
+          [
+            "młodszy",
+            "najmłodszy",
+            "the youngest"
+          ],
+          [
+            "droższy",
+            "najdroższy",
+            "the most expensive"
+          ],
+          [
+            "tańszy",
+            "najtańszy",
+            "the cheapest"
+          ],
+          [
+            "nowszy",
+            "najnowszy",
+            "the newest"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "It agrees like any adjective",
+      "title_pl": "Końcówka: -y / -a / -e",
+      "body": "The superlative changes its ending for the noun exactly as the comparative already does: -y for masculine, -a for feminine, -e for neuter. The naj- never changes.",
+      "body_pl": "Końcówka jak w stopniu wyższym: -y / -a / -e. Naj- zostaje bez zmian.",
+      "table": {
+        "headers": [
+          "m.",
+          "ż.",
+          "n."
+        ],
+        "rows": [
+          [
+            "najlepszy",
+            "najlepsza",
+            "najlepsze"
+          ],
+          [
+            "największy",
+            "największa",
+            "największe"
+          ],
+          [
+            "najstarszy",
+            "najstarsza",
+            "najstarsze"
+          ],
+          [
+            "najmłodszy",
+            "najmłodsza",
+            "najmłodsze"
+          ],
+          [
+            "najtańszy",
+            "najtańsza",
+            "najtańsze"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad is the oldest.",
+          "pl": "Tata jest najstarszy."
+        },
+        {
+          "en": "Coffee is the best.",
+          "pl": "Kawa jest najlepsza."
+        },
+        {
+          "en": "The city is the biggest.",
+          "pl": "Miasto jest największe."
+        }
+      ]
+    },
+    {
+      "title": "Two ways to say than — pick either",
+      "title_pl": "niż albo od — do wyboru",
+      "body": "You already have one way: niż + the dictionary form.\n\nTata jest starszy niż brat.\n\nPolish has a second way that means exactly the same thing: od + the genitive.\n\nTata jest starszy od brata.\n\nSame meaning, same register, both completely normal. The only difference is what happens to the second noun. After niż it does not change at all. After od it goes into the genitive — the case you already use after do, z, blisko and dużo.\n\nUse whichever you find easier. Polish speakers use both, and you cannot get this choice wrong.",
+      "body_pl": "niż + mianownik = od + dopełniacz. To samo znaczenie. Wybierasz sam.",
+      "examples": [
+        {
+          "en": "The cat is smaller than the dog.",
+          "pl": "Kot jest mniejszy niż pies. = Kot jest mniejszy od psa."
+        },
+        {
+          "en": "Coffee is better than tea.",
+          "pl": "Kawa jest lepsza niż herbata. = Kawa jest lepsza od herbaty."
+        },
+        {
+          "en": "The city is bigger than the house.",
+          "pl": "Miasto jest większe niż dom. = Miasto jest większe od domu."
+        }
+      ]
+    },
+    {
+      "title": "The genitive after od — all of it is old news",
+      "title_pl": "Dopełniacz po od",
+      "body": "No new endings. Every form below is one you have already written after do, z, blisko or nie ma.\n\nThe last three are a man and two animals. Masculine nouns for people and animals take -a in the genitive: brata, psa, kota. That is the same form you already write after mam — Mam brata. Mam psa.",
+      "body_pl": "Po od zawsze dopełniacz — te same formy co po do, z, blisko.",
+      "table": {
+        "headers": [
+          "Noun",
+          "After od"
+        ],
+        "rows": [
+          [
+            "herbata · ż.",
+            "od herbaty"
+          ],
+          [
+            "kawa · ż.",
+            "od kawy"
+          ],
+          [
+            "matka · ż.",
+            "od matki"
+          ],
+          [
+            "dom · m.",
+            "od domu"
+          ],
+          [
+            "piwo · n.",
+            "od piwa"
+          ],
+          [
+            "miasto · n.",
+            "od miasta"
+          ],
+          [
+            "brat · m.",
+            "od brata"
+          ],
+          [
+            "pies · m.",
+            "od psa"
+          ],
+          [
+            "kot · m.",
+            "od kota"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "the best",
+      "pl": "najlepszy"
+    },
+    {
+      "en": "the worst",
+      "pl": "najgorszy"
+    },
+    {
+      "en": "the biggest",
+      "pl": "największy"
+    },
+    {
+      "en": "the smallest",
+      "pl": "najmniejszy"
+    },
+    {
+      "en": "the oldest",
+      "pl": "najstarszy"
+    },
+    {
+      "en": "the youngest",
+      "pl": "najmłodszy"
+    },
+    {
+      "en": "the most expensive",
+      "pl": "najdroższy"
+    },
+    {
+      "en": "the cheapest",
+      "pl": "najtańszy"
+    },
+    {
+      "en": "the newest",
+      "pl": "najnowszy"
+    },
+    {
+      "en": "than (+ genitive)",
+      "pl": "od"
+    },
+    {
+      "en": "older than the brother",
+      "pl": "starszy od brata"
+    },
+    {
+      "en": "smaller than the dog",
+      "pl": "mniejszy od psa"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "better → the best:",
+      "choices": [
+        "najlepszy",
+        "najgorszy",
+        "lepszy",
+        "naj lepszy"
+      ],
+      "answer": "najlepszy",
+      "explain": "naj- is a prefix, not a separate word — it is written joined onto the comparative with no space and nothing else changes."
+    },
+    {
+      "prompt": "bigger → the biggest:",
+      "choices": [
+        "największy",
+        "najduży",
+        "najmniejszy",
+        "większy"
+      ],
+      "answer": "największy",
+      "explain": "The superlative is built on the comparative większy, never on the plain adjective duży — which is why najduży does not exist."
+    },
+    {
+      "prompt": "worse → the worst:",
+      "choices": [
+        "najgorszy",
+        "najzły",
+        "najlepszy",
+        "gorszy"
+      ],
+      "answer": "najgorszy",
+      "explain": "Zły has an irregular comparative gorszy, and the superlative is built on that, so the irregularity is already paid for."
+    },
+    {
+      "prompt": "cheaper → the cheapest:",
+      "choices": [
+        "najtańszy",
+        "najtani",
+        "najdroższy",
+        "tańszy"
+      ],
+      "answer": "najtańszy"
+    },
+    {
+      "prompt": "the newest:",
+      "choices": [
+        "najnowszy",
+        "najnowy",
+        "nowszy",
+        "najstarszy"
+      ],
+      "answer": "najnowszy"
+    },
+    {
+      "prompt": "Kawa jest ___ (the best):",
+      "choices": [
+        "najlepszy",
+        "najlepsza",
+        "najlepsze",
+        "naj lepsza"
+      ],
+      "answer": "najlepsza",
+      "explain": "Kawa is feminine, so the ending is -a. The prefix naj- takes no part in the agreement."
+    },
+    {
+      "prompt": "Miasto jest ___ (the biggest):",
+      "choices": [
+        "największy",
+        "największa",
+        "największe",
+        "naj większe"
+      ],
+      "answer": "największe",
+      "explain": "Miasto is neuter, so the ending is -e — the same ending you already put on większe."
+    },
+    {
+      "prompt": "Same meaning as: Tata jest starszy niż brat.",
+      "choices": [
+        "Tata jest starszy od brata.",
+        "Tata jest starszy od brat.",
+        "Tata jest starszy od bratem.",
+        "Tata jest starszy niż brata."
+      ],
+      "answer": "Tata jest starszy od brata.",
+      "explain": "od hands the genitive to the noun after it, exactly as do and z do. niż does the opposite and leaves the noun alone — so niż brata is wrong for the same reason od brat is."
+    },
+    {
+      "prompt": "Kot jest mniejszy od ___ (dog):",
+      "choices": [
+        "psa",
+        "pies",
+        "psu",
+        "psem"
+      ],
+      "answer": "psa",
+      "explain": "Pies is the dictionary form, which is what niż would take. After od you need the genitive, and masculine animals take -a."
+    },
+    {
+      "prompt": "Kawa jest lepsza od ___ (tea):",
+      "choices": [
+        "herbaty",
+        "herbata",
+        "herbatę",
+        "herbatą"
+      ],
+      "answer": "herbaty",
+      "explain": "The same genitive you already write after nie ma and dużo — herbata loses its -a and takes -y."
+    },
+    {
+      "prompt": "Siostra jest młodsza od ___ (mother):",
+      "choices": [
+        "matki",
+        "matka",
+        "matkę",
+        "matką"
+      ],
+      "answer": "matki",
+      "explain": "Matka ends in -ka, and Polish never writes y after k, so the genitive ending is spelled -i."
+    },
+    {
+      "prompt": "Fix: Miasto jest większe od dom. →",
+      "choices": [
+        "od domu",
+        "od dom",
+        "od domy",
+        "od domem"
+      ],
+      "answer": "od domu",
+      "explain": "Dom is the dictionary form and only niż accepts that. After od the masculine genitive is domu — the same word you already use in do domu."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "the best (m)",
+      "mode": "full_word",
+      "answer": "najlepszy",
+      "accepts": [
+        "najlepszy"
+      ]
+    },
+    {
+      "prompt_en": "the biggest (m)",
+      "mode": "full_word",
+      "answer": "największy",
+      "accepts": [
+        "największy"
+      ]
+    },
+    {
+      "prompt_en": "the smallest (m)",
+      "mode": "full_word",
+      "answer": "najmniejszy",
+      "accepts": [
+        "najmniejszy"
+      ]
+    },
+    {
+      "prompt_en": "the oldest (m)",
+      "mode": "full_word",
+      "answer": "najstarszy",
+      "accepts": [
+        "najstarszy"
+      ]
+    },
+    {
+      "prompt_en": "the youngest (m)",
+      "mode": "full_word",
+      "answer": "najmłodszy",
+      "accepts": [
+        "najmłodszy"
+      ]
+    },
+    {
+      "prompt_en": "the most expensive (m)",
+      "mode": "full_word",
+      "answer": "najdroższy",
+      "accepts": [
+        "najdroższy"
+      ]
+    },
+    {
+      "prompt_en": "the cheapest (m)",
+      "mode": "full_word",
+      "answer": "najtańszy",
+      "accepts": [
+        "najtańszy"
+      ]
+    },
+    {
+      "prompt_en": "the best (f — about kawa)",
+      "mode": "full_word",
+      "answer": "najlepsza",
+      "accepts": [
+        "najlepsza"
+      ]
+    },
+    {
+      "prompt_en": "the biggest (n — about miasto)",
+      "mode": "full_word",
+      "answer": "największe",
+      "accepts": [
+        "największe"
+      ]
+    },
+    {
+      "prompt_en": "the oldest (f — about siostra)",
+      "mode": "full_word",
+      "answer": "najstarsza",
+      "accepts": [
+        "najstarsza"
+      ]
+    },
+    {
+      "prompt_en": "older than the brother (od)",
+      "mode": "full_word",
+      "answer": "starszy od brata",
+      "accepts": [
+        "starszy od brata"
+      ],
+      "explain": "Brat is masculine and animate, so its genitive is brata — the form you already write after mam."
+    },
+    {
+      "prompt_en": "smaller than the dog (od)",
+      "mode": "full_word",
+      "answer": "mniejszy od psa",
+      "accepts": [
+        "mniejszy od psa"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad is the oldest.",
+      "answer": "Tata jest najstarszy.",
+      "accepts": [
+        "Tata jest najstarszy.",
+        "Tata jest najstarszy"
+      ]
+    },
+    {
+      "prompt_en": "Type: This film is the worst.",
+      "answer": "Ten film jest najgorszy.",
+      "accepts": [
+        "Ten film jest najgorszy.",
+        "Ten film jest najgorszy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Coffee is the best.",
+      "answer": "Kawa jest najlepsza.",
+      "accepts": [
+        "Kawa jest najlepsza.",
+        "Kawa jest najlepsza"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is the youngest.",
+      "answer": "Moja siostra jest najmłodsza.",
+      "accepts": [
+        "Moja siostra jest najmłodsza.",
+        "Moja siostra jest najmłodsza",
+        "Siostra jest najmłodsza.",
+        "Siostra jest najmłodsza"
+      ]
+    },
+    {
+      "prompt_en": "Type: The city is the biggest.",
+      "answer": "Miasto jest największe.",
+      "accepts": [
+        "Miasto jest największe.",
+        "Miasto jest największe"
+      ]
+    },
+    {
+      "prompt_en": "Type: The cat is smaller than the dog. (niż or od — both are right)",
+      "answer": "Kot jest mniejszy od psa.",
+      "accepts": [
+        "Kot jest mniejszy od psa.",
+        "Kot jest mniejszy od psa",
+        "Kot jest mniejszy niż pies.",
+        "Kot jest mniejszy niż pies"
+      ],
+      "explain": "Both versions are ordinary Polish. niż leaves pies in its dictionary form; od pushes it into the genitive, psa."
+    },
+    {
+      "prompt_en": "Type: Dad is older than the brother. (niż or od — both are right)",
+      "answer": "Tata jest starszy od brata.",
+      "accepts": [
+        "Tata jest starszy od brata.",
+        "Tata jest starszy od brata",
+        "Tata jest starszy niż brat.",
+        "Tata jest starszy niż brat"
+      ]
+    },
+    {
+      "prompt_en": "Type: Coffee is better than tea. (niż or od — both are right)",
+      "answer": "Kawa jest lepsza od herbaty.",
+      "accepts": [
+        "Kawa jest lepsza od herbaty.",
+        "Kawa jest lepsza od herbaty",
+        "Kawa jest lepsza niż herbata.",
+        "Kawa jest lepsza niż herbata"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tea is cheaper than coffee. (niż or od — both are right)",
+      "answer": "Herbata jest tańsza od kawy.",
+      "accepts": [
+        "Herbata jest tańsza od kawy.",
+        "Herbata jest tańsza od kawy",
+        "Herbata jest tańsza niż kawa.",
+        "Herbata jest tańsza niż kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: The city is bigger than the house. (niż or od — both are right)",
+      "answer": "Miasto jest większe od domu.",
+      "accepts": [
+        "Miasto jest większe od domu.",
+        "Miasto jest większe od domu",
+        "Miasto jest większe niż dom.",
+        "Miasto jest większe niż dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: Wine is more expensive than beer. (niż or od — both are right)",
+      "answer": "Wino jest droższe od piwa.",
+      "accepts": [
+        "Wino jest droższe od piwa.",
+        "Wino jest droższe od piwa",
+        "Wino jest droższe niż piwo.",
+        "Wino jest droższe niż piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: The sister is younger than the mother. (niż or od — both are right)",
+      "answer": "Siostra jest młodsza od matki.",
+      "accepts": [
+        "Siostra jest młodsza od matki.",
+        "Siostra jest młodsza od matki",
+        "Siostra jest młodsza niż matka.",
+        "Siostra jest młodsza niż matka"
+      ],
+      "explain": "Matka takes -i rather than -y in the genitive only because Polish never writes y after k. The rule for od is the same for every noun."
+    }
+  ],
+  "teaches_lemmas": [
+    "najdroższy",
+    "najgorszy",
+    "najlepsza",
+    "najlepsze",
+    "najlepszy",
+    "najmniejszy",
+    "najmłodsza",
+    "najmłodsze",
+    "najmłodszy",
+    "najnowszy",
+    "najstarsza",
+    "najstarsze",
+    "najstarszy",
+    "najtańsza",
+    "najtańsze",
+    "najtańszy",
+    "największa",
+    "największe",
+    "największy",
+    "od",
+    "od brata",
+    "od domu",
+    "od herbaty",
+    "od kawy",
+    "od kota",
+    "od matki",
+    "od miasta",
+    "od piwa",
+    "od psa"
+  ],
+  "uses_lemmas": [
+    "lepszy",
+    "lepsza",
+    "gorszy",
+    "większy",
+    "większe",
+    "mniejszy",
+    "starszy",
+    "starsza",
+    "młodszy",
+    "młodsza",
+    "droższy",
+    "droższe",
+    "tańszy",
+    "tańsza",
+    "nowszy",
+    "niż",
+    "dobry",
+    "zły",
+    "duży",
+    "mały",
+    "stary",
+    "młody",
+    "drogi",
+    "tani",
+    "jest",
+    "ten",
+    "moja",
+    "tata",
+    "brat",
+    "brata",
+    "siostra",
+    "matka",
+    "matki",
+    "kot",
+    "kota",
+    "pies",
+    "psa",
+    "kawa",
+    "kawy",
+    "herbata",
+    "herbaty",
+    "dom",
+    "domu",
+    "miasto",
+    "miasta",
+    "wino",
+    "piwo",
+    "piwa",
+    "film",
+    "mam",
+    "do domu",
+    "do matki",
+    "blisko",
+    "dużo",
+    "nie ma"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_superlatives",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
