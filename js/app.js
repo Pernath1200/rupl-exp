@@ -153,13 +153,17 @@ function spineNext() {
 
 function focusNodeOnMap(node) {
   if (!node) return;
+  STATE._userPickedUnit = true;
+  STATE.homePanel = null;
   STATE.selectedId = node.id;
   renderPath();
   renderDetail();
+  renderHomeChrome();
+  syncUnitDetailVisibility();
   requestAnimationFrame(() => {
     document
       .getElementById("node-detail-card")
-      ?.scrollIntoView({ behavior: "smooth", block: "center" });
+      ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     const go = document.querySelector("#node-actions .btn:not(:disabled)");
     go?.classList.add("is-focus-target");
     try {
@@ -228,10 +232,13 @@ function renderHomeChrome() {
   }
   const revHint = document.getElementById("home-review-hint");
   if (revHint) {
-    revHint.hidden = false;
-    revHint.textContent = due.length
-      ? `${due.length} na powtórkę · due for review`
-      : "Nic na powtórkę · nothing due.";
+    if (due.length) {
+      revHint.hidden = false;
+      revHint.textContent = `${due.length} na powtórkę · due for review`;
+    } else {
+      revHint.hidden = true;
+      revHint.textContent = "";
+    }
   }
   const progMeta = document.getElementById("progress-summary-meta");
   if (progMeta) {
@@ -242,9 +249,28 @@ function renderHomeChrome() {
     }
   }
   const review = document.getElementById("review-card");
-  if (review && STATE.homePanel !== "review") {
-    // leave visibility to wireHome unless review open
+  const more = document.getElementById("panel-more");
+  if (review) review.hidden = STATE.homePanel !== "review";
+  if (more) more.hidden = STATE.homePanel !== "more";
+  const moreBtn = document.getElementById("btn-home-more");
+  if (moreBtn) {
+    moreBtn.setAttribute(
+      "aria-expanded",
+      STATE.homePanel === "more" ? "true" : "false",
+    );
   }
+  syncUnitDetailVisibility();
+}
+
+/** Unit card only after a pick — not on first paint, not under Review/More. */
+function syncUnitDetailVisibility() {
+  const card = document.getElementById("node-detail-card");
+  if (!card) return;
+  const show =
+    Boolean(STATE.selectedId) &&
+    STATE.homePanel == null &&
+    STATE.view !== "practice";
+  card.hidden = !show;
 }
 
 function showHowto() {
@@ -278,34 +304,81 @@ async function startDoNext() {
   }
 }
 
+function wireMapHelp() {
+  const btn = document.getElementById("btn-map-help");
+  const tip = document.getElementById("map-help-tip");
+  if (!btn || !tip || btn.dataset.wired) return;
+  btn.dataset.wired = "1";
+  const setOpen = (open) => {
+    tip.hidden = !open;
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  };
+  btn.addEventListener("mouseenter", () => setOpen(true));
+  btn.addEventListener("mouseleave", () => {
+    if (document.activeElement !== btn) setOpen(false);
+  });
+  btn.addEventListener("focus", () => setOpen(true));
+  btn.addEventListener("blur", () => setOpen(false));
+  btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setOpen(tip.hidden);
+  });
+  btn.addEventListener("pointerdown", (e) => e.stopPropagation());
+}
+
 function wireHomeActions() {
   if (document.body.dataset.homeWired === "1") return;
   document.body.dataset.homeWired = "1";
   STATE.homePanel = null;
+  wireMapHelp();
   document.getElementById("btn-do-next")?.addEventListener("click", () => {
     void startDoNext();
   });
   document.getElementById("btn-how-to-use")?.addEventListener("click", () => {
     showHowto();
   });
+  document.getElementById("btn-home-more")?.addEventListener("click", () => {
+    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    renderHomeChrome();
+    if (STATE.homePanel === "more") {
+      const det = document.getElementById("map-details");
+      if (det) det.open = true;
+      STATE.setMapMore?.(true);
+      renderRoots();
+      renderPath();
+      renderLevelMeters();
+      document.getElementById("panel-more")?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  });
   document.getElementById("btn-home-review")?.addEventListener("click", () => {
-    const card = document.getElementById("review-card");
-    if (!card) return;
-    const open = card.hidden;
-    card.hidden = !open;
-    STATE.homePanel = open ? "review" : null;
-    if (open) {
+    STATE.homePanel = STATE.homePanel === "review" ? null : "review";
+    renderHomeChrome();
+    if (STATE.homePanel === "review") {
       renderReview();
-      card.scrollIntoView({ behavior: "smooth", block: "start" });
+      document.getElementById("review-card")?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
     }
   });
   document.getElementById("btn-home-topics")?.addEventListener("click", () => {
-    const det = document.getElementById("map-details");
-    if (det) {
-      det.open = true;
-      det.scrollIntoView({ behavior: "smooth", block: "start" });
+    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    renderHomeChrome();
+    if (STATE.homePanel === "more") {
+      const det = document.getElementById("map-details");
+      if (det) det.open = true;
+      STATE.setMapMore?.(true);
+      renderRoots();
+      renderPath();
+      document.getElementById("panel-more")?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
     }
-    STATE.setMapMore?.(true);
   });
 }
 
@@ -583,6 +656,14 @@ function renderAuthor() {
   // Smoke/flag toolbar is builder kit — invisible to learners
   const tb = document.querySelector(".smoke-toolbar");
   if (tb) tb.hidden = !on;
+  // Roots/leaves meters are the teacher-facing tree model (James, 2026-08-05):
+  // near-meaningless to a learner, and they were misleading too — the grammar
+  // roots were hard-filtered to A1 so they never moved on A2, while the vocab
+  // bar counted every level at once. Learners get the level meters instead,
+  // which are correctly scoped. Nothing is lost: these are derived views,
+  // recomputed from tree.json + progress on every render.
+  const rootsPanel = document.getElementById("roots-panel-grid");
+  if (rootsPanel) rootsPanel.hidden = !on;
   btn.setAttribute("aria-pressed", on ? "true" : "false");
   btn.textContent = on ? "Tryb autorski WŁ" : "Tryb autorski";
   const hint = document.getElementById("author-hint");
@@ -657,7 +738,8 @@ function renderReview() {
   }
   const order = STATE.tree.path_order || [];
   due.sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
-  card.hidden = false;
+  // Only show when Review panel is open (minimal home)
+  card.hidden = STATE.homePanel !== "review";
   const MAX = 6;
   list.innerHTML = `
     <p class="tree-legend">Quick review — just the typing. Open a unit, it starts at the typing stage; score 75%+ and it counts. Gaps grow: 1 · 3 · 7 · 14 · 30 days.</p>
@@ -688,13 +770,13 @@ function renderAll() {
   renderUpNext();
   renderRoots();
   renderPath();
-  if (!STATE.selectedId) {
-    const hit = spineNext();
-    STATE.selectedId =
-      hit?.node?.id || STATE.tree.path_order?.[0] || null;
+  // Minimal home: never auto-select on paint (user picks via Tematy/map or Dalej)
+  if (!STATE._userPickedUnit) {
+    STATE.selectedId = null;
   }
   renderDetail();
   wireHomeActions();
+  syncUnitDetailVisibility();
 }
 
 // Chrome stamps translated-ltr/rtl on <html> when it machine-translates the
