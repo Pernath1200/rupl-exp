@@ -1,0 +1,486 @@
+{
+  "id": "a2_health2",
+  "title": "Apteka i lekarz",
+  "title_en": "At the pharmacy & the doctor's",
+  "level": "A2",
+  "tree_node": "a2_health2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · the payoff for a2_dat_chunks. POOL-CHECKED against end-of-a2_dat_chunks: apteka, tabletka, lekarstwo, zdrowie, boleć, temperatura, gorączka, kaszel, przeziębienie, grypa, lekarz, szpital, wizyta, dentysta are ALL already owned by a1_health and are ANCHORS here, never re-taught. plecy is already owned by a1_body (gender pl) — also an anchor, not re-taught. 12 genuinely new words: katar, gardło, alergia, syrop, recepta, plaster, termometr, przychodnia, badanie, szczepienie, ubezpieczenie, ciśnienie. umówić się DROPPED — perfective, and the batch is imperfective-only. BOLĄ: a2_dat_chunks fenced out plural subjects, so boli was the only form Dad has. This pack deliberately opens that one crack and no more — bolą is taught as the plural twin inside the same frozen block (bolą mnie plecy / bolą mnie nogi), tagged in teaches_lemmas, with no paradigm, no other verb, and no new structure id. It is safe because plecy and nogi are both already taught, so each of those sentences still has exactly ONE unknown: the form bolą. The -ENIE FAMILY is the quiet pattern of this unit: badanie, szczepienie, ubezpieczenie, ciśnienie all end in -enie and are all neuter, and Dad already has przeziębienie from A1 — so the gender is predictable rather than four separate facts. Accusative surfaces receptę and alergię appear in sentences, so they are taught as whole mam-phrases in the third block and tagged. Tone is everyday-ailment only: a cold, a sore throat, a plaster, a free flu jab, a routine check-up. No serious illness anywhere.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "dat_chunks",
+    "miec_present",
+    "miec_acc",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "question",
+    "existential_jest",
+    "situation_chunk",
+    "prep_w_loc",
+    "poss_nom"
+  ],
+  "blocks": [
+    {
+      "id": "health2_apteka",
+      "title": "At the pharmacy · new words",
+      "items": [
+        {
+          "en": "runny nose (a cold in the nose)",
+          "pl": "katar",
+          "gender": "m",
+          "icon": "🤧"
+        },
+        {
+          "en": "throat",
+          "pl": "gardło",
+          "gender": "n"
+        },
+        {
+          "en": "allergy",
+          "pl": "alergia",
+          "gender": "f"
+        },
+        {
+          "en": "syrup (cough medicine)",
+          "pl": "syrop",
+          "gender": "m"
+        },
+        {
+          "en": "prescription",
+          "pl": "recepta",
+          "gender": "f",
+          "icon": "📝"
+        },
+        {
+          "en": "plaster (sticking plaster)",
+          "pl": "plaster",
+          "gender": "m",
+          "icon": "🩹"
+        },
+        {
+          "en": "thermometer",
+          "pl": "termometr",
+          "gender": "m",
+          "icon": "🌡️"
+        }
+      ]
+    },
+    {
+      "id": "health2_lekarz",
+      "title": "At the doctor's · new words",
+      "items": [
+        {
+          "en": "clinic (local surgery)",
+          "pl": "przychodnia",
+          "gender": "f",
+          "icon": "🏥",
+          "explain": "przychodnia is the local surgery you walk into for an ordinary appointment. szpital, which you already know, is the hospital."
+        },
+        {
+          "en": "test / check-up (medical)",
+          "pl": "badanie",
+          "gender": "n",
+          "icon": "🩺"
+        },
+        {
+          "en": "vaccination",
+          "pl": "szczepienie",
+          "gender": "n",
+          "icon": "💉"
+        },
+        {
+          "en": "insurance",
+          "pl": "ubezpieczenie",
+          "gender": "n"
+        },
+        {
+          "en": "blood pressure",
+          "pl": "ciśnienie",
+          "gender": "n",
+          "explain": "You already have przeziębienie from A1. Every one of these -enie words is neuter: badanie, szczepienie, ubezpieczenie, ciśnienie. The ending tells you the gender, so it is one fact and not four."
+        }
+      ]
+    },
+    {
+      "id": "health2_chunks",
+      "title": "Saying what is wrong",
+      "items": [
+        {
+          "en": "my throat hurts",
+          "pl": "boli mnie gardło"
+        },
+        {
+          "en": "my head hurts",
+          "pl": "boli mnie głowa"
+        },
+        {
+          "en": "my back hurts",
+          "pl": "bolą mnie plecy",
+          "explain": "plecy is plural in Polish — there is no singular form of it at all — so the verb goes plural too: bolą, not boli. Nothing else in the block moves."
+        },
+        {
+          "en": "my legs hurt",
+          "pl": "bolą mnie nogi"
+        },
+        {
+          "en": "I have a runny nose",
+          "pl": "mam katar"
+        },
+        {
+          "en": "I have an allergy",
+          "pl": "mam alergię"
+        },
+        {
+          "en": "I have a prescription",
+          "pl": "mam receptę"
+        },
+        {
+          "en": "I have a check-up",
+          "pl": "mam badanie"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "My throat hurts.",
+      "pl": "Boli mnie gardło.",
+      "accepts": [
+        "Boli mnie gardło.",
+        "Boli mnie gardło"
+      ],
+      "structures": [
+        "dat_chunks"
+      ],
+      "lemmas": [
+        "gardło"
+      ],
+      "explain": "No word for \"my\" is needed — boli mnie already says whose throat it is. gardło is the one doing the hurting, so it keeps its plain dictionary form."
+    },
+    {
+      "en": "I have a runny nose.",
+      "pl": "Mam katar.",
+      "accepts": [
+        "Mam katar.",
+        "Mam katar"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "katar"
+      ],
+      "explain": "katar is masculine and does not change after mam — exactly like mam kaszel. Feminine words ending in -a do change: mam kawę."
+    },
+    {
+      "en": "I have a runny nose and a cough.",
+      "pl": "Mam katar i kaszel.",
+      "accepts": [
+        "Mam katar i kaszel.",
+        "Mam katar i kaszel",
+        "Mam kaszel i katar.",
+        "Mam kaszel i katar"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "katar"
+      ]
+    },
+    {
+      "en": "Some cough syrup, please.",
+      "pl": "Poproszę syrop.",
+      "accepts": [
+        "Poproszę syrop.",
+        "Poproszę syrop"
+      ],
+      "structures": [
+        "situation_chunk"
+      ],
+      "lemmas": [
+        "syrop"
+      ],
+      "explain": "syrop behaves after poproszę exactly as chleb does — masculine, no ending change."
+    },
+    {
+      "en": "I have a prescription.",
+      "pl": "Mam receptę.",
+      "accepts": [
+        "Mam receptę.",
+        "Mam receptę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "receptę"
+      ],
+      "explain": "recepta ends in -a, so after mam it takes -ę: receptę. It is the same change you already make in mam kawę and poproszę zupę."
+    },
+    {
+      "en": "Is this a prescription?",
+      "pl": "Czy to jest recepta?",
+      "accepts": [
+        "Czy to jest recepta?",
+        "Czy to jest recepta",
+        "To jest recepta?",
+        "To jest recepta"
+      ],
+      "structures": [
+        "to_jest",
+        "question"
+      ],
+      "lemmas": [
+        "recepta"
+      ],
+      "explain": "Here the word is not sitting after mam, so it stays in its dictionary form: recepta, not receptę."
+    },
+    {
+      "en": "Do you have a plaster? (in a shop)",
+      "pl": "Czy jest plaster?",
+      "accepts": [
+        "Czy jest plaster?",
+        "Czy jest plaster",
+        "Jest plaster?",
+        "Jest plaster"
+      ],
+      "structures": [
+        "existential_jest",
+        "question"
+      ],
+      "lemmas": [
+        "plaster"
+      ],
+      "explain": "czy jest …? is how you ask a shop or a pharmacy whether they have something — the same question as czy jest chleb?"
+    },
+    {
+      "en": "I have a thermometer at home.",
+      "pl": "Mam termometr w domu.",
+      "accepts": [
+        "Mam termometr w domu.",
+        "Mam termometr w domu",
+        "W domu mam termometr.",
+        "W domu mam termometr"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "termometr"
+      ]
+    },
+    {
+      "en": "My blood pressure is good.",
+      "pl": "Moje ciśnienie jest dobre.",
+      "accepts": [
+        "Moje ciśnienie jest dobre.",
+        "Moje ciśnienie jest dobre"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "ciśnienie"
+      ],
+      "explain": "ciśnienie is neuter, and both words around it follow from that: moje and dobre take -e. It is the same agreement as to jest moje dziecko."
+    },
+    {
+      "en": "Tomorrow I have a check-up.",
+      "pl": "Jutro mam badanie.",
+      "accepts": [
+        "Jutro mam badanie.",
+        "Jutro mam badanie",
+        "Mam jutro badanie.",
+        "Mam jutro badanie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "badanie"
+      ],
+      "explain": "Neuter words do not change after mam, so badanie stays exactly as it is."
+    },
+    {
+      "en": "The vaccination is free.",
+      "pl": "Szczepienie jest za darmo.",
+      "accepts": [
+        "Szczepienie jest za darmo.",
+        "Szczepienie jest za darmo"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "szczepienie"
+      ],
+      "explain": "szczepienie belongs to the -enie family with przeziębienie, badanie and ubezpieczenie — all of them neuter."
+    },
+    {
+      "en": "I have insurance in Poland.",
+      "pl": "Mam ubezpieczenie w Polsce.",
+      "accepts": [
+        "Mam ubezpieczenie w Polsce.",
+        "Mam ubezpieczenie w Polsce",
+        "W Polsce mam ubezpieczenie.",
+        "W Polsce mam ubezpieczenie"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "ubezpieczenie"
+      ]
+    },
+    {
+      "en": "Where is the clinic?",
+      "pl": "Gdzie jest przychodnia?",
+      "accepts": [
+        "Gdzie jest przychodnia?",
+        "Gdzie jest przychodnia"
+      ],
+      "structures": [
+        "question",
+        "byc_present"
+      ],
+      "lemmas": [
+        "przychodnia"
+      ],
+      "explain": "Same question you already use for the pharmacy and the bank: gdzie jest apteka, gdzie jest bank, gdzie jest przychodnia."
+    },
+    {
+      "en": "The clinic is near.",
+      "pl": "Przychodnia jest blisko.",
+      "accepts": [
+        "Przychodnia jest blisko.",
+        "Przychodnia jest blisko"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "przychodnia"
+      ]
+    },
+    {
+      "en": "I have an allergy.",
+      "pl": "Mam alergię.",
+      "accepts": [
+        "Mam alergię.",
+        "Mam alergię"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "alergię"
+      ],
+      "explain": "alergia ends in -a, so after mam it takes -ę, like kawa → mam kawę."
+    },
+    {
+      "en": "My back hurts.",
+      "pl": "Bolą mnie plecy.",
+      "accepts": [
+        "Bolą mnie plecy.",
+        "Bolą mnie plecy"
+      ],
+      "structures": [
+        "dat_chunks"
+      ],
+      "lemmas": [
+        "bolą",
+        "bolą mnie",
+        "plecy"
+      ],
+      "explain": "plecy is plural in Polish — there is no singular form of it at all — so the verb has to be plural too: bolą, not boli. Everything else in the block stays put, and there is still no word for \"my\"."
+    },
+    {
+      "en": "My legs hurt.",
+      "pl": "Bolą mnie nogi.",
+      "accepts": [
+        "Bolą mnie nogi.",
+        "Bolą mnie nogi"
+      ],
+      "structures": [
+        "dat_chunks"
+      ],
+      "lemmas": [
+        "bolą",
+        "bolą mnie"
+      ],
+      "explain": "Two legs, so bolą again. One leg on its own would be boli mnie noga."
+    }
+  ],
+  "teaches_lemmas": [
+    "katar",
+    "gardło",
+    "alergia",
+    "alergię",
+    "syrop",
+    "recepta",
+    "receptę",
+    "plaster",
+    "termometr",
+    "przychodnia",
+    "badanie",
+    "szczepienie",
+    "ubezpieczenie",
+    "ciśnienie",
+    "bolą",
+    "bolą mnie"
+  ],
+  "uses_lemmas": [
+    "boli",
+    "boli mnie",
+    "mnie",
+    "mieć",
+    "mam",
+    "poproszę",
+    "czy",
+    "czy jest",
+    "gdzie jest",
+    "to",
+    "jest",
+    "i",
+    "jutro",
+    "blisko",
+    "za darmo",
+    "w domu",
+    "w polsce",
+    "moje",
+    "dobre",
+    "głowa",
+    "plecy",
+    "nogi",
+    "noga",
+    "kaszel",
+    "przeziębienie",
+    "szpital",
+    "apteka",
+    "chleb",
+    "kawa",
+    "kawę",
+    "zupę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_health2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

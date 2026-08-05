@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 82 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 84 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -98,4 +98,6 @@ _None._
 | 81 | `a2_aspect` | `aspect_past` | 22 | `aspect_past`, `miec_acc`, `past_ac`, `past_byc`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_e_esz`, `present_uje`, `question` |
 | 82 | `a2_food2` | — | 24 | `byc_adj`, `byc_present`, `existential_jest`, `miec_acc`, `miec_present`, `past_byc`, `poss_nom`, `prep_place`, `ten_ta_to`, `to_jest`, `zgoda` |
 | 84 | `a2_dat_chunks` | `dat_chunks` | 12 | `dat_chunks`, `negation`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `sie_reflexive`, `ten_ta_to` |
+| 85 | `a2_health2` | — | 16 | `byc_adj`, `byc_present`, `dat_chunks`, `existential_jest`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `question`, `situation_chunk`, `to_jest`, `zgoda` |
+| 87 | `a2_o_loc` | `o_loc` | 17 | `o_loc`, `past_rest`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present`, `present_e_isz`, `question` |
 

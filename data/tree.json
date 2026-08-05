@@ -2030,13 +2030,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: boli mnie głowa/brzuch/gardło chunk-frame, kaszel recycled, katar, recepta, badanie, zdrowy tryb życia lite.",
+      "note": "Pharmacy + doctor. 6 of 14 candidates turned out already taught (incl. plecy, owned by a1_body). Teaches bola so \"Bola mnie plecy\" works - a deliberate ONE-crack exception to the plural fence a2_dat_chunks set, inside the frozen block only, no paradigm. The -enie neuter pattern (badanie/szczepienie/ubezpieczenie/cisnienie) flagged so the gender is one fact not four.",
       "unit_id": "PL2_37",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "health"
+      "tree_part": "health",
+      "content": "vocab/blocks/a2_health2.json"
     },
     {
       "id": "a2_station_3",
@@ -2064,13 +2065,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] mówię o pracy, myślę o domu, o tobie/o mnie chunks. Loc recycled with a second governor — case generalisation moment.",
+      "note": "o + Locative for topic - same case and endings as w/na, third governor. Consolidation slide sets all three preposition families side by side (w/na=where, do/z=direction, o=topic). Teaches myslec (untaught before); its PAST is fenced (e->a shift). Pronoun objects o tobie/o mnie deferred to their own unit.",
       "unit_id": "PL2_39",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_o_loc.json"
     },
     {
       "id": "a2_tech2",
