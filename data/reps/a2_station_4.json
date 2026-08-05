@@ -1,0 +1,1574 @@
+{
+  "id": "a2_station_4",
+  "level": "A2",
+  "kind": "rep_station",
+  "position": "100%",
+  "note": "Rep station 4 — the exit-velocity check. Full A1+A2 cumulative bank, drawing across the entire course and weighted toward the latest material: o+Locative, superlatives, imperative chunks (a handful, fixed forms only), the second question wave, dative chunks, aspect twins (imperfective and perfective both legal), and ordinals/clock time. Earlier ground — present tense, all four cases, weather, feelings, family, work/school, motion verbs, instrumental, reflexive się, future będę, musieć/trzeba — is recycled throughout so nothing atrophies. Singular only, no virile forms. The perfective future never appears (a2_bedzie's 'one future' claim holds). Each sentence is pre-marked with typed cloze slots so the engine needs no runtime language processing.",
+  "bank": [
+    {
+      "pl": "Tata mówi o pracy.",
+      "en": "Dad talks about work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mówi",
+          "stem": "mów",
+          "answer": "i",
+          "hint": "he"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Mama myśli o domu.",
+      "en": "Mum is thinking about home.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "myśli",
+          "stem": "myśl",
+          "answer": "i",
+          "hint": "she"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "domu",
+          "stem": "dom",
+          "answer": "u",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Brat mówił o szkole.",
+      "en": "My brother was talking about school.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mówił",
+          "stem": "mówi",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "szkole",
+          "stem": "szko",
+          "answer": "le",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Myślę o mieście.",
+      "en": "I'm thinking about the city.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "myślę",
+          "stem": "myśl",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "mieście",
+          "stem": "mie",
+          "answer": "ście",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Anna mówiła o hotelu.",
+      "en": "Anna was talking about the hotel.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "anna",
+          "answer": "anna"
+        },
+        {
+          "type": "ending",
+          "word": "mówiła",
+          "stem": "mówił",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "hotelu",
+          "stem": "hotel",
+          "answer": "u",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Czy dziadek myśli o banku?",
+      "en": "Is grandad thinking about the bank?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "content",
+          "word": "dziadek",
+          "answer": "dziadek"
+        },
+        {
+          "type": "ending",
+          "word": "myśli",
+          "stem": "myśl",
+          "answer": "i",
+          "hint": "he"
+        },
+        {
+          "type": "ending",
+          "word": "banku",
+          "stem": "bank",
+          "answer": "u",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Syn myśli o szkole.",
+      "en": "My son is thinking about school.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "syn",
+          "answer": "syn"
+        },
+        {
+          "type": "ending",
+          "word": "myśli",
+          "stem": "myśl",
+          "answer": "i",
+          "hint": "he"
+        },
+        {
+          "type": "ending",
+          "word": "szkole",
+          "stem": "szko",
+          "answer": "le",
+          "hint": "after o"
+        }
+      ]
+    },
+    {
+      "pl": "Tata jest najstarszy.",
+      "en": "Dad is the oldest.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jest",
+          "answer": "jest"
+        },
+        {
+          "type": "ending",
+          "word": "najstarszy",
+          "stem": "najstarsz",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Kawa jest najlepsza.",
+      "en": "Coffee is the best.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "kawa",
+          "answer": "kawa"
+        },
+        {
+          "type": "ending",
+          "word": "najlepsza",
+          "stem": "najlepsz",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Miasto jest największe.",
+      "en": "The city is the biggest.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "miasto",
+          "answer": "miasto"
+        },
+        {
+          "type": "ending",
+          "word": "największe",
+          "stem": "największ",
+          "answer": "e",
+          "hint": "adjective (n)"
+        }
+      ]
+    },
+    {
+      "pl": "Tata jest starszy od brata.",
+      "en": "Dad is older than the brother.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "starszy",
+          "stem": "starsz",
+          "answer": "y",
+          "hint": "adjective (m) — comparative"
+        },
+        {
+          "type": "grammar",
+          "word": "od",
+          "answer": "od",
+          "hint": "than"
+        },
+        {
+          "type": "ending",
+          "word": "brata",
+          "stem": "brat",
+          "answer": "a",
+          "hint": "after od"
+        }
+      ]
+    },
+    {
+      "pl": "Kawa jest lepsza od herbaty.",
+      "en": "Coffee is better than tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "lepsza",
+          "stem": "lepsz",
+          "answer": "a",
+          "hint": "adjective (f) — comparative"
+        },
+        {
+          "type": "grammar",
+          "word": "od",
+          "answer": "od",
+          "hint": "than"
+        },
+        {
+          "type": "ending",
+          "word": "herbaty",
+          "stem": "herbat",
+          "answer": "y",
+          "hint": "after od"
+        }
+      ]
+    },
+    {
+      "pl": "Kot jest mniejszy od psa.",
+      "en": "The cat is smaller than the dog.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mniejszy",
+          "stem": "mniejsz",
+          "answer": "y",
+          "hint": "adjective (m) — comparative"
+        },
+        {
+          "type": "grammar",
+          "word": "od",
+          "answer": "od",
+          "hint": "than"
+        },
+        {
+          "type": "ending",
+          "word": "psa",
+          "stem": "ps",
+          "answer": "a",
+          "hint": "after od"
+        }
+      ]
+    },
+    {
+      "pl": "Ten dom jest najtańszy.",
+      "en": "This house is the cheapest.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "ten",
+          "answer": "ten"
+        },
+        {
+          "type": "ending",
+          "word": "najtańszy",
+          "stem": "najtańsz",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Chodź do parku.",
+      "en": "Come to the park.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "chodź",
+          "answer": "chodź"
+        },
+        {
+          "type": "ending",
+          "word": "parku",
+          "stem": "park",
+          "answer": "u",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Idź do sklepu.",
+      "en": "Go to the shop.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "idź",
+          "answer": "idź"
+        },
+        {
+          "type": "ending",
+          "word": "sklepu",
+          "stem": "sklep",
+          "answer": "u",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Daj kawę.",
+      "en": "Give me a coffee.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "daj",
+          "answer": "daj"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Słuchaj, mam problem.",
+      "en": "Listen, I have a problem.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "słuchaj",
+          "answer": "słuchaj"
+        },
+        {
+          "type": "ending",
+          "word": "mam",
+          "stem": "ma",
+          "answer": "m",
+          "hint": "I"
+        }
+      ]
+    },
+    {
+      "pl": "Dlaczego tata jest zmęczony?",
+      "en": "Why is dad tired?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "dlaczego",
+          "answer": "dlaczego"
+        },
+        {
+          "type": "ending",
+          "word": "zmęczony",
+          "stem": "zmęczon",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Bo tata pracuje.",
+      "en": "Because dad is working.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "bo",
+          "answer": "bo"
+        },
+        {
+          "type": "ending",
+          "word": "pracuje",
+          "stem": "pracuj",
+          "answer": "e",
+          "hint": "he"
+        }
+      ]
+    },
+    {
+      "pl": "Kiedy pracujesz?",
+      "en": "When do you work?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "kiedy",
+          "answer": "kiedy"
+        },
+        {
+          "type": "ending",
+          "word": "pracujesz",
+          "stem": "pracuj",
+          "answer": "esz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Która kawa jest dobra?",
+      "en": "Which coffee is good?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "która",
+          "answer": "która"
+        },
+        {
+          "type": "ending",
+          "word": "dobra",
+          "stem": "dobr",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Podoba mi się ten film.",
+      "en": "I like this film.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "podoba",
+          "answer": "podoba"
+        },
+        {
+          "type": "grammar",
+          "word": "mi",
+          "answer": "mi"
+        },
+        {
+          "type": "grammar",
+          "word": "się",
+          "answer": "się"
+        }
+      ]
+    },
+    {
+      "pl": "Smakuje mi ta kawa.",
+      "en": "This coffee tastes good to me.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "smakuje",
+          "answer": "smakuje"
+        },
+        {
+          "type": "grammar",
+          "word": "mi",
+          "answer": "mi"
+        }
+      ]
+    },
+    {
+      "pl": "Boli mnie głowa.",
+      "en": "My head hurts.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "boli",
+          "answer": "boli"
+        },
+        {
+          "type": "grammar",
+          "word": "mnie",
+          "answer": "mnie"
+        }
+      ]
+    },
+    {
+      "pl": "Nie podoba mi się ten sklep.",
+      "en": "I don't like this shop.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "content",
+          "word": "podoba",
+          "answer": "podoba"
+        },
+        {
+          "type": "grammar",
+          "word": "mi",
+          "answer": "mi"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj kupiłem chleb.",
+      "en": "Yesterday I bought the bread.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupiłem",
+          "stem": "kupił",
+          "answer": "em",
+          "hint": "I (m) — perfective"
+        },
+        {
+          "type": "content",
+          "word": "chleb",
+          "answer": "chleb"
+        }
+      ]
+    },
+    {
+      "pl": "Zawsze kupowałem chleb w sklepie.",
+      "en": "I always used to buy bread at the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupowałem",
+          "stem": "kupował",
+          "answer": "em",
+          "hint": "I (m) — imperfective"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Mama zrobiła obiad.",
+      "en": "Mum made lunch.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "zrobiła",
+          "stem": "zrobił",
+          "answer": "a",
+          "hint": "she — perfective"
+        },
+        {
+          "type": "content",
+          "word": "obiad",
+          "answer": "obiad"
+        }
+      ]
+    },
+    {
+      "pl": "Tata wypił piwo.",
+      "en": "Dad drank the beer up.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "wypił",
+          "stem": "wypi",
+          "answer": "ł",
+          "hint": "he — past marker, perfective"
+        },
+        {
+          "type": "content",
+          "word": "piwo",
+          "answer": "piwo"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj przeczytałem książkę.",
+      "en": "Yesterday I read the whole book.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "przeczytałem",
+          "stem": "przeczytał",
+          "answer": "em",
+          "hint": "I (m) — perfective"
+        },
+        {
+          "type": "ending",
+          "word": "książkę",
+          "stem": "książk",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Mama często piła herbatę.",
+      "en": "Mum often drank tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "piła",
+          "stem": "pi",
+          "answer": "ła",
+          "hint": "she — imperfective"
+        },
+        {
+          "type": "ending",
+          "word": "herbatę",
+          "stem": "herbat",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Kupiłam nową książkę.",
+      "en": "I bought a new book.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupiłam",
+          "stem": "kupił",
+          "answer": "am",
+          "hint": "I (f) — perfective"
+        },
+        {
+          "type": "ending",
+          "word": "nową",
+          "stem": "now",
+          "answer": "ą",
+          "hint": "adjective, object"
+        },
+        {
+          "type": "ending",
+          "word": "książkę",
+          "stem": "książk",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Zawsze piłam kawę.",
+      "en": "I always used to drink coffee.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "piłam",
+          "stem": "pi",
+          "answer": "łam",
+          "hint": "I (f) — imperfective"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Pociąg jest o siódmej.",
+      "en": "The train is at seven.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "content",
+          "word": "siódmej",
+          "answer": "siódmej"
+        }
+      ]
+    },
+    {
+      "pl": "Anna idzie do sklepu o drugiej.",
+      "en": "Anna is going to the shop at two.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "sklepu",
+          "stem": "sklep",
+          "answer": "u",
+          "hint": "after do"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "content",
+          "word": "drugiej",
+          "answer": "drugiej"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat jest lekarzem.",
+      "en": "My brother is a doctor.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "brat",
+          "answer": "brat"
+        },
+        {
+          "type": "ending",
+          "word": "lekarzem",
+          "stem": "lekarz",
+          "answer": "em",
+          "hint": "instrumental"
+        }
+      ]
+    },
+    {
+      "pl": "Jadę autobusem do pracy.",
+      "en": "I'm going to work by bus.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jadę",
+          "stem": "jad",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "autobusem",
+          "stem": "autobus",
+          "answer": "em",
+          "hint": "instrumental — by"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Mama jest nauczycielką.",
+      "en": "My mum is a teacher.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "mama",
+          "answer": "mama"
+        },
+        {
+          "type": "ending",
+          "word": "nauczycielką",
+          "stem": "nauczycielk",
+          "answer": "ą",
+          "hint": "instrumental"
+        }
+      ]
+    },
+    {
+      "pl": "Jadę do pracy samochodem.",
+      "en": "I'm going to work by car.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jadę",
+          "stem": "jad",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after do"
+        },
+        {
+          "type": "ending",
+          "word": "samochodem",
+          "stem": "samochod",
+          "answer": "em",
+          "hint": "instrumental — by"
+        }
+      ]
+    },
+    {
+      "pl": "Jadę do miasta.",
+      "en": "I'm going to the city.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jadę",
+          "stem": "jad",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "miasta",
+          "stem": "miast",
+          "answer": "a",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Chodzę do pracy.",
+      "en": "I go to work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "chodzę",
+          "stem": "chodz",
+          "answer": "ę",
+          "hint": "I — habitual"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Idę do banku.",
+      "en": "I am going to the bank.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "idę",
+          "stem": "id",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "banku",
+          "stem": "bank",
+          "answer": "u",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Czy chodzisz do szkoły?",
+      "en": "Do you go to school?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "chodzisz",
+          "stem": "chodz",
+          "answer": "isz",
+          "hint": "you — habitual"
+        },
+        {
+          "type": "ending",
+          "word": "szkoły",
+          "stem": "szko",
+          "answer": "ły",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Budzę się o siódmej.",
+      "en": "I wake up at seven.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "budzę",
+          "stem": "budz",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "się",
+          "answer": "się"
+        }
+      ]
+    },
+    {
+      "pl": "Jak się czujesz?",
+      "en": "How are you feeling?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jak",
+          "answer": "jak"
+        },
+        {
+          "type": "grammar",
+          "word": "się",
+          "answer": "się"
+        },
+        {
+          "type": "ending",
+          "word": "czujesz",
+          "stem": "czuj",
+          "answer": "esz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Mama nazywa się Anna.",
+      "en": "Mum's name is Anna.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "nazywa",
+          "stem": "nazyw",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "grammar",
+          "word": "się",
+          "answer": "się"
+        }
+      ]
+    },
+    {
+      "pl": "Jutro będę pracować.",
+      "en": "Tomorrow I will work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "będę",
+          "stem": "będ",
+          "answer": "ę",
+          "hint": "I — future"
+        },
+        {
+          "type": "content",
+          "word": "pracować",
+          "answer": "pracować"
+        }
+      ]
+    },
+    {
+      "pl": "Mama będzie gotować obiad.",
+      "en": "Mum will cook lunch.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "będzie",
+          "answer": "będzie"
+        }
+      ]
+    },
+    {
+      "pl": "Muszę pracować.",
+      "en": "I have to work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "muszę",
+          "stem": "musz",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "pracować",
+          "answer": "pracować"
+        }
+      ]
+    },
+    {
+      "pl": "Czy musisz iść do szkoły?",
+      "en": "Do you have to go to school?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "musisz",
+          "stem": "mus",
+          "answer": "isz",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "szkoły",
+          "stem": "szko",
+          "answer": "ły",
+          "hint": "after do"
+        }
+      ]
+    },
+    {
+      "pl": "Mama pije kawę o dziewiątej.",
+      "en": "Mum drinks coffee at nine.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pije",
+          "stem": "pij",
+          "answer": "e",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        },
+        {
+          "type": "grammar",
+          "word": "o",
+          "answer": "o",
+          "hint": "preposition"
+        },
+        {
+          "type": "content",
+          "word": "dziewiątej",
+          "answer": "dziewiątej"
+        }
+      ]
+    },
+    {
+      "pl": "Mam dwadzieścia lat.",
+      "en": "I am twenty years old.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mam",
+          "stem": "ma",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "dwadzieścia",
+          "answer": "dwadzieścia"
+        }
+      ]
+    },
+    {
+      "pl": "To kosztuje pięć dolarów.",
+      "en": "That costs five dollars.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kosztuje",
+          "stem": "kosztuj",
+          "answer": "e",
+          "hint": "it — 3rd person"
+        },
+        {
+          "type": "content",
+          "word": "dolarów",
+          "answer": "dolarów"
+        }
+      ]
+    },
+    {
+      "pl": "Kawa jest lepsza niż herbata.",
+      "en": "Coffee is better than tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "lepsza",
+          "stem": "lepsz",
+          "answer": "a",
+          "hint": "adjective (f) — comparative"
+        },
+        {
+          "type": "content",
+          "word": "niż",
+          "answer": "niż"
+        }
+      ]
+    },
+    {
+      "pl": "Ten dom jest większy niż hotel.",
+      "en": "This house is bigger than the hotel.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "ten",
+          "answer": "ten"
+        },
+        {
+          "type": "ending",
+          "word": "większy",
+          "stem": "większ",
+          "answer": "y",
+          "hint": "adjective (m) — comparative"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj pracowałam w sklepie.",
+      "en": "Yesterday I was working at the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracowałam",
+          "stem": "pracował",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Mój tata mieszkał w Anglii.",
+      "en": "My dad lived in England.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mieszkał",
+          "stem": "mieszka",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "content",
+          "word": "Anglii",
+          "answer": "Anglii"
+        }
+      ]
+    },
+    {
+      "pl": "Brat miał czas wczoraj.",
+      "en": "My brother had time yesterday.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "brat",
+          "answer": "brat"
+        },
+        {
+          "type": "ending",
+          "word": "miał",
+          "stem": "mia",
+          "answer": "ł",
+          "hint": "he — past marker"
+        }
+      ]
+    },
+    {
+      "pl": "Mama znała ten hotel.",
+      "en": "Mum knew this hotel.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "znała",
+          "stem": "znał",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "grammar",
+          "word": "ten",
+          "answer": "ten"
+        }
+      ]
+    },
+    {
+      "pl": "Robiłam zakupy w weekend.",
+      "en": "I was doing the shopping at the weekend.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "robiłam",
+          "stem": "robił",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "content",
+          "word": "zakupy",
+          "answer": "zakupy"
+        }
+      ]
+    },
+    {
+      "pl": "Syn lubił tenis.",
+      "en": "My son liked tennis.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "syn",
+          "answer": "syn"
+        },
+        {
+          "type": "ending",
+          "word": "lubił",
+          "stem": "lubi",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "content",
+          "word": "tenis",
+          "answer": "tenis"
+        }
+      ]
+    },
+    {
+      "pl": "Dzisiaj pada śnieg.",
+      "en": "Today it's snowing.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "pada",
+          "answer": "pada"
+        },
+        {
+          "type": "content",
+          "word": "śnieg",
+          "answer": "śnieg"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj było gorąco.",
+      "en": "Yesterday it was hot.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "było",
+          "stem": "był",
+          "answer": "o",
+          "hint": "it"
+        },
+        {
+          "type": "content",
+          "word": "gorąco",
+          "answer": "gorąco"
+        }
+      ]
+    },
+    {
+      "pl": "Jestem szczęśliwy.",
+      "en": "I am happy.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jestem",
+          "stem": "jest",
+          "answer": "em",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "szczęśliwy",
+          "answer": "szczęśliwy"
+        }
+      ]
+    },
+    {
+      "pl": "Czy jesteś zmęczona?",
+      "en": "Are you tired?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "jesteś",
+          "stem": "jest",
+          "answer": "eś",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "zmęczona",
+          "stem": "zmęczon",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama była zaskoczona.",
+      "en": "My mum was surprised.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "była",
+          "stem": "był",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "zaskoczona",
+          "stem": "zaskoczon",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat pracuje w banku.",
+      "en": "My brother works at a bank.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracuje",
+          "stem": "pracuj",
+          "answer": "e",
+          "hint": "he"
+        },
+        {
+          "type": "ending",
+          "word": "banku",
+          "stem": "bank",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Czy lubisz zupę?",
+      "en": "Do you like soup?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "lubisz",
+          "stem": "lub",
+          "answer": "isz",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "zupę",
+          "stem": "zup",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Moja córka studiuje w mieście.",
+      "en": "My daughter studies in the city.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "córka",
+          "answer": "córka"
+        },
+        {
+          "type": "ending",
+          "word": "studiuje",
+          "stem": "studiuj",
+          "answer": "e",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "mieście",
+          "stem": "mie",
+          "answer": "ście",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Nie mam czasu dzisiaj.",
+      "en": "I don't have time today.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "ending",
+          "word": "mam",
+          "stem": "ma",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "czasu",
+          "stem": "czas",
+          "answer": "u",
+          "hint": "genitive after nie mam"
+        }
+      ]
+    },
+    {
+      "pl": "Wracam z pracy o piątej.",
+      "en": "I'm coming back from work at five.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "wracam",
+          "stem": "wraca",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after z"
+        },
+        {
+          "type": "content",
+          "word": "piątej",
+          "answer": "piątej"
+        }
+      ]
+    },
+    {
+      "pl": "Chcę herbatę.",
+      "en": "I want tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "chcę",
+          "stem": "chc",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "herbatę",
+          "stem": "herbat",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Kupuję chleb w sklepie.",
+      "en": "I buy bread at the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupuję",
+          "stem": "kupuj",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Jak się nazywasz?",
+      "en": "What's your name?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jak",
+          "answer": "jak"
+        },
+        {
+          "type": "grammar",
+          "word": "się",
+          "answer": "się"
+        },
+        {
+          "type": "ending",
+          "word": "nazywasz",
+          "stem": "nazywa",
+          "answer": "sz",
+          "hint": "you"
+        }
+      ]
+    }
+  ]
+}
