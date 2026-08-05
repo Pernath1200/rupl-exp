@@ -2582,12 +2582,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE, James decision #3] Plural conditional deferred to AFTER the virile block because it rides -li/-ly.",
+      "note": "[B1 SPINE, James decision #3] Plural conditional, closing block 4. No new rule: by attaches to the plural L-form (chcieli/chciały, kupili/kupiły, zrobili/zrobiły) exactly as it attached to the singular one in b1_conditional_sg, with the my/wy endings already owned from byliśmy/byłyście. The virile/non-virile choice is the same test from b1_virile_past, now asked of a would. chcieć full paradigm (payoff verb) + kupić/zrobić partial spread, 20 teaches_lemmas (14 conditional forms + 6 bare plural-past stems shown as the stepping stone).",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_conditional_pl.json"
     },
     {
       "id": "b1_station_1",

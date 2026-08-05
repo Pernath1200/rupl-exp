@@ -88,6 +88,7 @@ STRUCTURE_CATALOGUE = {
     "virile_reco",
     "virile_nom",
     "virile_past",
+    "conditional_pl",
 }
 
 GLUE_LEMMAS = {

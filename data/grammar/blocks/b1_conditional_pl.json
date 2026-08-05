@@ -1,0 +1,593 @@
+{
+  "id": "b1_conditional_pl",
+  "title": "Tryb przypuszczający · liczba mnoga",
+  "title_en": "Conditional · plural: we/you all/they would",
+  "level": "B1",
+  "tree_node": "b1_conditional_pl",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 4 closer, James's locked decision #3: PLURAL conditional, deferred until after the virile block because it rides -li/-ły. No new formation rule: by attaches to the plural L-form exactly as it attached to the singular one in b1_conditional_sg, and the person markers are the ones already owned from byliśmy/byłyście/byliście/byłyście (a2_past_plural) — my takes -śmy, wy takes -ście, oni/one take nothing extra, mirroring on/ona taking nothing extra in the singular unit. The virile/non-virile choice on my/wy/oni/one is not new either — it is the same 'at least one man?' test from b1_virile_past, now asked of the conditional instead of the plain past. Verbs: chcieć (full 6-slot paradigm: my/wy/oni-one x virile/non-virile, the politeness payoff), kupić (my + oni/one, 4 forms), zrobić (wy + oni/one, 4 forms) — 14 teaches_lemmas total, same load as the singular unit. One flagged irregularity: chcieć's virile plural stem is chcie- (chcieli) while its non-virile/singular stem is chcia- (chciały, chciał, chciała) — a genuine vowel alternation, not a typo. This is NOT explained as a rule here, same conservative choice b1_conditional_sg already made for chciał/chciała itself (catalogue: 'e→a shift deliberately unexplained until B1'); chcieli/chciały are handed over as memorized whole forms, exactly like chciał/chciała were. kupić and zrobić carry no such alternation (kupi-/zrobi- stem throughout), so most of the unit is the clean regular case. Subjects for the oni/one forms use real virile/non-virile nouns already owned from the virile block and b1_people (studenci, pracownicy, nauczyciele, kobiety, turystki) rather than bare pronouns, so the 'which group?' test has real content to bite on. Both-gender-equivalent (virile/non-virile) production, as everywhere in this block. teaches_lemmas also lists the six bare plural-past stems (chcieli/chciały, kupili/kupiły, zrobili/zrobiły) with no by attached — the intro tables show them as the literal stepping stone to the -by- forms and quiz uses them as discrimination distractors (plain past vs conditional), so they are genuinely first-taught here, same treatment b1_virile_past gave pracowali/pracowały.",
+  "focus_structures": [
+    "conditional_pl"
+  ],
+  "teaches_structures": [
+    "conditional_pl"
+  ],
+  "uses_structures": [
+    "conditional_pl",
+    "conditional_sg",
+    "past_plural",
+    "virile_past",
+    "virile_nom",
+    "virile_reco",
+    "plural_nom",
+    "miec_acc",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "We, you all, they would: the plural echo",
+      "title_pl": "Liczba mnoga trybu przypuszczającego",
+      "body": "You already build he-would and she-would by adding -by to the past form: chciał + by = chciałby. Plural does the exact same thing to the plural past forms you already own from oni/one.\n\n1. Take the plural past — chcieli (a group with a man), chciały (a group of women).\n2. Add -by — chcieliby, chciałyby. That is already they-would.\n3. For we and you-all, add the same endings you know from byliśmy/byłyście, after the by — chcielibyśmy, chciałybyście.\n\nNothing new is happening except which pronoun is speaking. The choice between -li- and -ły- is the same test as always: at least one man in the group?",
+      "body_pl": "Forma przeszła (mnoga) + by + końcówka z byliśmy: chcieli + by + śmy = chcielibyśmy.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used for"
+        ],
+        "rows": [
+          [
+            "chcielibyśmy",
+            "we would like",
+            "my · group with a man"
+          ],
+          [
+            "chciałybyśmy",
+            "we would like",
+            "my · all-women group"
+          ],
+          [
+            "chcielibyście",
+            "you all would like",
+            "wy · group with a man"
+          ],
+          [
+            "chciałybyście",
+            "you all would like",
+            "wy · all-women group"
+          ],
+          [
+            "chcieliby",
+            "they would like",
+            "oni · men present"
+          ],
+          [
+            "chciałyby",
+            "they would like",
+            "one · all women"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Same test as byli/były",
+      "title_pl": "Ten sam test",
+      "body": "You met this exact split already — it decided byli vs były, and studenci pracowali vs kobiety pracowały. The conditional does not add a new question. It just asks the same one about a would.",
+      "body_pl": "Studenci pracowali. Kobiety pracowały. Studenci chcieliby kawę. Kobiety chciałyby herbatę.",
+      "examples": [
+        {
+          "en": "We were at work. → We would like coffee. (a group with a man)",
+          "pl": "Byliśmy w pracy. → Chcielibyśmy kawę."
+        },
+        {
+          "en": "We were at home. → We would like tea. (a group of women)",
+          "pl": "Byłyśmy w domu. → Chciałybyśmy herbatę."
+        }
+      ]
+    },
+    {
+      "title": "Same glue on kupić and zrobić",
+      "title_pl": "Kupić, zrobić — liczba mnoga",
+      "body": "kupić and zrobić do not have chcieć's spelling quirk — their plural past is one stem all the way through, so the pattern is completely regular.",
+      "body_pl": "kupili + by + śmy = kupilibyśmy. zrobili + by + ście = zrobilibyście.",
+      "table": {
+        "headers": [
+          "Past form",
+          "+ by...",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "kupili",
+            "kupilibyśmy",
+            "we would buy (with a man)"
+          ],
+          [
+            "kupiły",
+            "kupiłybyśmy",
+            "we would buy (all women)"
+          ],
+          [
+            "kupili",
+            "kupiliby",
+            "they would buy (oni)"
+          ],
+          [
+            "kupiły",
+            "kupiłyby",
+            "they would buy (one)"
+          ],
+          [
+            "zrobili",
+            "zrobilibyście",
+            "you all would make (with a man)"
+          ],
+          [
+            "zrobiły",
+            "zrobiłybyście",
+            "you all would make (all women)"
+          ],
+          [
+            "zrobili",
+            "zrobiliby",
+            "they would make (oni)"
+          ],
+          [
+            "zrobiły",
+            "zrobiłyby",
+            "they would make (one)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Real groups, real would",
+      "title_pl": "Prawdziwe grupy",
+      "body": "The learner already met these nouns as virile or non-virile subjects for plain past. The same choice now feeds the conditional: studenci is a group that can include a man, so it always takes the -li- forms; kobiety and turystki never do, so they always take -ły-.",
+      "body_pl": "Studenci chcieliby kawę. Kobiety chciałyby herbatę. Pracownicy kupiliby prezent.",
+      "examples": [
+        {
+          "en": "The students would like coffee.",
+          "pl": "Studenci chcieliby kawę."
+        },
+        {
+          "en": "The women would like tea.",
+          "pl": "Kobiety chciałyby herbatę."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "we would like (with a man)",
+      "pl": "chcielibyśmy"
+    },
+    {
+      "en": "we would like (all women)",
+      "pl": "chciałybyśmy"
+    },
+    {
+      "en": "you all would like (with a man)",
+      "pl": "chcielibyście"
+    },
+    {
+      "en": "you all would like (all women)",
+      "pl": "chciałybyście"
+    },
+    {
+      "en": "they would like (oni)",
+      "pl": "chcieliby"
+    },
+    {
+      "en": "they would like (one)",
+      "pl": "chciałyby"
+    },
+    {
+      "en": "we would buy (with a man)",
+      "pl": "kupilibyśmy"
+    },
+    {
+      "en": "they would buy (oni)",
+      "pl": "kupiliby"
+    },
+    {
+      "en": "they would buy (one)",
+      "pl": "kupiłyby"
+    },
+    {
+      "en": "you all would make (with a man)",
+      "pl": "zrobilibyście"
+    },
+    {
+      "en": "they would make (oni)",
+      "pl": "zrobiliby"
+    },
+    {
+      "en": "they would make (one)",
+      "pl": "zrobiłyby"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "We would like (a group with a man) →",
+      "choices": [
+        "chcielibyśmy",
+        "chciałybyśmy",
+        "chciałbym",
+        "chcielibyście"
+      ],
+      "answer": "chcielibyśmy",
+      "explain": "chcieli + by + śmy — the same -śmy you know from byliśmy, on the virile plural stem."
+    },
+    {
+      "prompt": "We would like (a group of women) →",
+      "choices": [
+        "chciałybyśmy",
+        "chcielibyśmy",
+        "chciałabym",
+        "chciałyby"
+      ],
+      "answer": "chciałybyśmy",
+      "explain": "chciały + by + śmy, like byłyśmy — the -ł- stem, not -li-."
+    },
+    {
+      "prompt": "Studenci ___ kawę. (would like)",
+      "choices": [
+        "chcieliby",
+        "chciałyby",
+        "chcielibyśmy",
+        "chcieli"
+      ],
+      "answer": "chcieliby",
+      "explain": "studenci can include a man, so oni chcieliby — chcieli + by, no ending after by for they, same as chciałby took none for he."
+    },
+    {
+      "prompt": "Kobiety ___ herbatę. (would like)",
+      "choices": [
+        "chciałyby",
+        "chcieliby",
+        "chciały",
+        "chciałybyśmy"
+      ],
+      "answer": "chciałyby",
+      "explain": "kobiety is never virile, so one chciałyby — chciały + by."
+    },
+    {
+      "prompt": "We would buy (with a man) →",
+      "choices": [
+        "kupilibyśmy",
+        "kupiłybyśmy",
+        "kupiłbym",
+        "kupili"
+      ],
+      "answer": "kupilibyśmy",
+      "explain": "kupić has no vowel quirk: kupili + by + śmy, fully regular."
+    },
+    {
+      "prompt": "Pracownicy ___ prezent. (would buy)",
+      "choices": [
+        "kupiliby",
+        "kupiłyby",
+        "kupili",
+        "kupiłby"
+      ],
+      "answer": "kupiliby",
+      "explain": "pracownicy is virile: kupili + by, no ending after by for they."
+    },
+    {
+      "prompt": "Turystki ___ wino. (would buy)",
+      "choices": [
+        "kupiłyby",
+        "kupiliby",
+        "kupiły",
+        "kupiłaby"
+      ],
+      "answer": "kupiłyby",
+      "explain": "turystki is a group of women: kupiły + by."
+    },
+    {
+      "prompt": "You all would make (a group with a man) →",
+      "choices": [
+        "zrobilibyście",
+        "zrobiłybyście",
+        "zrobiliby",
+        "zrobiłby"
+      ],
+      "answer": "zrobilibyście",
+      "explain": "zrobili + by + ście, like byliście — no vowel quirk on zrobić."
+    },
+    {
+      "prompt": "Nauczyciele ___ kawę. (would make)",
+      "choices": [
+        "zrobiliby",
+        "zrobiłyby",
+        "zrobili",
+        "zrobiłby"
+      ],
+      "answer": "zrobiliby",
+      "explain": "nauczyciele is virile: zrobili + by."
+    },
+    {
+      "prompt": "Fix: Kobiety chcieliby kawę. →",
+      "choices": [
+        "chciałyby",
+        "chcieliby",
+        "chciałaby",
+        "chciały"
+      ],
+      "answer": "chciałyby",
+      "explain": "kobiety has no men in it, so it needs the -ły- stem: chciały + by, not chcieli + by."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "we would like (with a man)",
+      "mode": "full_word",
+      "answer": "chcielibyśmy",
+      "accepts": [
+        "chcielibyśmy"
+      ],
+      "explain": "chcieli + by + śmy. chcieli is chcieć's virile past — a spelling fact to memorize, like chciał/chciała already were."
+    },
+    {
+      "prompt_en": "we would like (all women)",
+      "mode": "full_word",
+      "answer": "chciałybyśmy",
+      "accepts": [
+        "chciałybyśmy"
+      ]
+    },
+    {
+      "prompt_en": "you all would like (with a man)",
+      "mode": "full_word",
+      "answer": "chcielibyście",
+      "accepts": [
+        "chcielibyście"
+      ]
+    },
+    {
+      "prompt_en": "you all would like (all women)",
+      "mode": "full_word",
+      "answer": "chciałybyście",
+      "accepts": [
+        "chciałybyście"
+      ]
+    },
+    {
+      "prompt_en": "they would like (oni)",
+      "mode": "full_word",
+      "answer": "chcieliby",
+      "accepts": [
+        "chcieliby"
+      ],
+      "explain": "They take nothing after the by, exactly as he took nothing in chciałby."
+    },
+    {
+      "prompt_en": "they would like (one)",
+      "mode": "full_word",
+      "answer": "chciałyby",
+      "accepts": [
+        "chciałyby"
+      ]
+    },
+    {
+      "prompt_en": "we would buy (with a man)",
+      "mode": "full_word",
+      "answer": "kupilibyśmy",
+      "accepts": [
+        "kupilibyśmy"
+      ],
+      "explain": "kupić has one stem throughout — kupi-li-by-śmy, no spelling quirk."
+    },
+    {
+      "prompt_en": "we would buy (all women)",
+      "mode": "full_word",
+      "answer": "kupiłybyśmy",
+      "accepts": [
+        "kupiłybyśmy"
+      ]
+    },
+    {
+      "prompt_en": "they would buy (oni)",
+      "mode": "full_word",
+      "answer": "kupiliby",
+      "accepts": [
+        "kupiliby"
+      ]
+    },
+    {
+      "prompt_en": "they would buy (one)",
+      "mode": "full_word",
+      "answer": "kupiłyby",
+      "accepts": [
+        "kupiłyby"
+      ]
+    },
+    {
+      "prompt_en": "you all would make (with a man)",
+      "mode": "full_word",
+      "answer": "zrobilibyście",
+      "accepts": [
+        "zrobilibyście"
+      ]
+    },
+    {
+      "prompt_en": "you all would make (all women)",
+      "mode": "full_word",
+      "answer": "zrobiłybyście",
+      "accepts": [
+        "zrobiłybyście"
+      ],
+      "explain": "zrobiły + by + ście, like byłyście — the -ł- stem, not -li-."
+    },
+    {
+      "prompt_en": "they would make (oni)",
+      "mode": "full_word",
+      "answer": "zrobiliby",
+      "accepts": [
+        "zrobiliby"
+      ]
+    },
+    {
+      "prompt_en": "they would make (one)",
+      "mode": "full_word",
+      "answer": "zrobiłyby",
+      "accepts": [
+        "zrobiłyby"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: We would like coffee.",
+      "answer": "Chcielibyśmy kawę.",
+      "accepts": [
+        "Chcielibyśmy kawę.",
+        "Chcielibyśmy kawę"
+      ],
+      "explain": "Assumes a mixed or male-included group speaking, the default virile reading of my."
+    },
+    {
+      "prompt_en": "Type: We would like tea. (a group of women)",
+      "answer": "Chciałybyśmy herbatę.",
+      "accepts": [
+        "Chciałybyśmy herbatę.",
+        "Chciałybyśmy herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Would you all like wine?",
+      "answer": "Chcielibyście wino?",
+      "accepts": [
+        "Chcielibyście wino?",
+        "Chcielibyście wino",
+        "Czy chcielibyście wino?",
+        "Czy chcielibyście wino"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students would like coffee.",
+      "answer": "Studenci chcieliby kawę.",
+      "accepts": [
+        "Studenci chcieliby kawę.",
+        "Studenci chcieliby kawę"
+      ],
+      "explain": "studenci is virile, so oni chcieliby — the same test that already decided studenci pracowali."
+    },
+    {
+      "prompt_en": "Type: The women would like tea.",
+      "answer": "Kobiety chciałyby herbatę.",
+      "accepts": [
+        "Kobiety chciałyby herbatę.",
+        "Kobiety chciałyby herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: We would buy a house.",
+      "answer": "Kupilibyśmy dom.",
+      "accepts": [
+        "Kupilibyśmy dom.",
+        "Kupilibyśmy dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The workers would buy a present.",
+      "answer": "Pracownicy kupiliby prezent.",
+      "accepts": [
+        "Pracownicy kupiliby prezent.",
+        "Pracownicy kupiliby prezent"
+      ]
+    },
+    {
+      "prompt_en": "Type: The tourists would buy wine. (a group of women)",
+      "answer": "Turystki kupiłyby wino.",
+      "accepts": [
+        "Turystki kupiłyby wino.",
+        "Turystki kupiłyby wino"
+      ]
+    },
+    {
+      "prompt_en": "Type: Would you all make lunch?",
+      "answer": "Zrobilibyście obiad?",
+      "accepts": [
+        "Zrobilibyście obiad?",
+        "Zrobilibyście obiad",
+        "Czy zrobilibyście obiad?",
+        "Czy zrobilibyście obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teachers would make coffee.",
+      "answer": "Nauczyciele zrobiliby kawę.",
+      "accepts": [
+        "Nauczyciele zrobiliby kawę.",
+        "Nauczyciele zrobiliby kawę"
+      ],
+      "explain": "nauczyciele is virile — the same list from b1_virile_reco, now doing real conditional work."
+    }
+  ],
+  "teaches_lemmas": [
+    "chcielibyśmy",
+    "chciałybyśmy",
+    "chcielibyście",
+    "chciałybyście",
+    "chcieliby",
+    "chciałyby",
+    "kupilibyśmy",
+    "kupiłybyśmy",
+    "kupiliby",
+    "kupiłyby",
+    "zrobilibyście",
+    "zrobiłybyście",
+    "zrobiliby",
+    "zrobiłyby",
+    "chcieli",
+    "chciały",
+    "kupili",
+    "kupiły",
+    "zrobili",
+    "zrobiły"
+  ],
+  "uses_lemmas": [
+    "chcieć",
+    "kupić",
+    "zrobić",
+    "byliśmy",
+    "byłyśmy",
+    "byliście",
+    "byłyście",
+    "byli",
+    "były",
+    "pracowali",
+    "pracowały",
+    "oni",
+    "one",
+    "studenci",
+    "kobiety",
+    "pracownicy",
+    "turystki",
+    "nauczyciele",
+    "kawę",
+    "herbatę",
+    "wino",
+    "dom",
+    "prezent",
+    "obiad"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_conditional_pl",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
