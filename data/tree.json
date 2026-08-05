@@ -2174,13 +2174,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: góry, jezioro, las, rzeka, ścieżka, widok, świeże powietrze, grzyby(!), spacer recycled, w górach chunk (Loc pl preview as fixed phrase).",
+      "note": "Nature and days out. jezdzic fence held (a2_chodzic reserves it). AUTHORED BUT NOT AGENT-REPORTED (agent died mid-stream); verified independently by the orchestrator - pool-checked position-aware, no re-teaching, gender badges correct.",
       "unit_id": "PL2_45",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "nature"
+      "tree_part": "nature",
+      "content": "vocab/blocks/a2_nature2.json"
     },
     {
       "id": "a2_sport",
@@ -2208,13 +2209,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] daj, idź, czekaj, patrz, słuchaj, weź, proszę + inf as polite fallback. Chunk lane — full imperative morphology B1.",
+      "note": "Imperative as a CLOSED CHUNK SET, never a rule - czekaj/sluchaj/idz/chodz/daj learned whole, formation never explained. Plus the polite escape hatch prosze + infinitive, which needs no imperative morphology at all. Negative imperatives, niech pan and 1pl all fenced. AUTHORED BUT NOT AGENT-REPORTED (agent died mid-stream); verified independently by the orchestrator.",
       "unit_id": "PL2_47",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_imperative.json"
     },
     {
       "id": "a2_questions2",
