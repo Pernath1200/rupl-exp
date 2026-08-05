@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 110 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 111 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -127,4 +127,5 @@ _None._
 | 111 | `b1_virile_nom` | `virile_nom` | 8 | `byc_adj`, `byc_present`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `ten_ta_to`, `virile_nom`, `virile_reco`, `zgoda` |
 | 112 | `b1_virile_past` | `virile_past` | 4 | `byc_adj`, `byc_present`, `past_ac`, `past_byc`, `past_plural`, `plural_nom`, `prep_w_loc`, `ten_ta_to`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
 | 113 | `b1_people` | — | 21 | `byc_adj`, `byc_present`, `past_plural`, `plural_nom`, `prep_w_loc`, `present_uje`, `ten_ta_to`, `to_jest`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
+| 114 | `b1_virile_gym` | — | 0 | `byc_adj`, `byc_present`, `past_plural`, `plural_nom`, `prep_w_loc`, `ten_ta_to`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
 

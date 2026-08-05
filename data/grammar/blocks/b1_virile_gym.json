@@ -1,0 +1,435 @@
+{
+  "id": "b1_virile_gym",
+  "title": "Siłownia · oni czy one?",
+  "title_en": "Virile gym · oni vs one",
+  "level": "B1",
+  "tree_node": "b1_virile_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gym idiom (a1_case_gym / a2_past_gym / b1_aspect_gym line): ZERO new material — teaches_structures and teaches_lemmas both empty. Closes the four-unit virile block (b1_virile_reco -> b1_virile_nom -> b1_virile_past -> b1_people) with one mixed discrimination pass over the whole system: one test, asked three ways. ci vs te on the noun, byli vs były / pracowali vs pracowały on the verb, oni vs one on the pronoun -- all three are the SAME question (is there at least one man in the group?) and this gym's entire point is drilling that a learner never has to re-derive the answer three times, only decide it once and carry it across the sentence. Every noun recycled: the fourteen virile plurals from b1_virile_reco/b1_virile_nom (studenci, lekarze, pracownicy, kelnerzy, pacjenci, klienci, artyści, rolnicy, anglicy, goście, kibice, przyjaciele) and the five new virile/non-virile profession pairs plus ludzie from b1_people (policjanci/policjantki, informatycy/informatyczki, kucharze/kucharki, dziennikarze/dziennikarki, turyści/turystki), alongside the non-virile stock from a2_plural_nom (kobiety, domy, nowe) and a2_past_plural's verb forms (byli, były, mieszkali, mieszkały, robili, robiły) plus b1_virile_past's own pracowali/pracowały and oni/one. No form appears here that was not already taught by an earlier live node -- checked individually against check_new.py / the running pool before this file was finalized. dobrzy is recalled once, in predicate position, exactly as every earlier unit used it -- no other adjective's virile form appears. POOL: end of b1_people (path index 111), strictly before this node.",
+  "focus_structures": [
+    "virile_reco",
+    "virile_nom",
+    "virile_past"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "virile_reco",
+    "virile_nom",
+    "virile_past",
+    "plural_nom",
+    "past_plural",
+    "ten_ta_to",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "Nothing new — one question, asked three times",
+      "title_pl": "Nic nowego — jedno pytanie, trzy razy",
+      "body": "Every choice in this unit is the same test: is there at least one man in the group? Answer it once and it decides the demonstrative, the verb ending, and the pronoun, all at the same time.",
+      "body_pl": "Choć jeden mężczyzna w grupie? Tak → ci / -li / oni. Nie → te / -ły / one.",
+      "table": {
+        "headers": [
+          "Question answered",
+          "with a man",
+          "no man (women only, or things)"
+        ],
+        "rows": [
+          [
+            "Demonstrative",
+            "ci",
+            "te"
+          ],
+          [
+            "Past verb",
+            "-li (byli, pracowali…)",
+            "-ły (były, pracowały…)"
+          ],
+          [
+            "Pronoun",
+            "oni",
+            "one"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These cooks worked a lot. They were good.",
+          "pl": "Ci kucharze pracowali dużo. Oni byli dobrzy."
+        },
+        {
+          "en": "These tourists (f) were in the park.",
+          "pl": "Te turystki były w parku."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "these students",
+      "pl": "ci studenci"
+    },
+    {
+      "en": "these women",
+      "pl": "te kobiety"
+    },
+    {
+      "en": "these doctors",
+      "pl": "ci lekarze"
+    },
+    {
+      "en": "these houses",
+      "pl": "te domy"
+    },
+    {
+      "en": "these guests",
+      "pl": "ci goście"
+    },
+    {
+      "en": "these tourists (m)",
+      "pl": "ci turyści"
+    },
+    {
+      "en": "these tourists (f)",
+      "pl": "te turystki"
+    },
+    {
+      "en": "these cooks (f)",
+      "pl": "te kucharki"
+    },
+    {
+      "en": "they were (with a man)",
+      "pl": "oni byli"
+    },
+    {
+      "en": "they were (no man, or things)",
+      "pl": "one były"
+    },
+    {
+      "en": "they worked (with a man)",
+      "pl": "oni pracowali"
+    },
+    {
+      "en": "they worked (no man, or things)",
+      "pl": "one pracowały"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ dziennikarze pracowali w mieście.",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "dziennikarze is virile (a group with a man), so ci, not te."
+    },
+    {
+      "prompt": "___ dziennikarki pracowały w mieście.",
+      "choices": [
+        "Te",
+        "Ci",
+        "Ten",
+        "Ta"
+      ],
+      "answer": "Te",
+      "explain": "A group of women only is never virile, however many — te."
+    },
+    {
+      "prompt": "Ci kucharze ___ dużo. (worked)",
+      "choices": [
+        "pracowali",
+        "pracowały",
+        "pracował",
+        "pracowała"
+      ],
+      "answer": "pracowali",
+      "explain": "kucharze already told you ci — the verb has to agree: -li."
+    },
+    {
+      "prompt": "Te kucharki ___ dużo. (worked)",
+      "choices": [
+        "pracowały",
+        "pracowali",
+        "pracowała",
+        "pracował"
+      ],
+      "answer": "pracowały",
+      "explain": "kucharki already told you te — the verb has to agree: -ły."
+    },
+    {
+      "prompt": "___ byli w parku. (they — a group with a man)",
+      "choices": [
+        "Oni",
+        "One",
+        "Ona",
+        "On"
+      ],
+      "answer": "Oni",
+      "explain": "oni pairs with -li, same test as ci."
+    },
+    {
+      "prompt": "___ były w parku. (they — women only)",
+      "choices": [
+        "One",
+        "Oni",
+        "Ono",
+        "Ona"
+      ],
+      "answer": "One",
+      "explain": "one pairs with -ły, same test as te."
+    },
+    {
+      "prompt": "Ci informatycy są ___. (good)",
+      "choices": [
+        "dobrzy",
+        "dobra",
+        "dobre",
+        "dobry"
+      ],
+      "answer": "dobrzy",
+      "explain": "dobrzy is the one virile adjective form you own — a group with a man always takes it."
+    },
+    {
+      "prompt": "Ci turyści ___ w parku. (are)",
+      "choices": [
+        "są",
+        "jest",
+        "był",
+        "była"
+      ],
+      "answer": "są",
+      "explain": "Present tense są does not change for virile vs non-virile — only the past and the demonstrative do."
+    },
+    {
+      "prompt": "Fix: Ci policjanci była w banku. →",
+      "choices": [
+        "byli",
+        "była",
+        "były",
+        "był"
+      ],
+      "answer": "byli",
+      "explain": "policjanci already said ci — the verb must be byli, not była (which is even the wrong number, singular)."
+    },
+    {
+      "prompt": "Te informatyczki ___ w firmie. (worked)",
+      "choices": [
+        "pracowały",
+        "pracowali",
+        "pracowała",
+        "pracował"
+      ],
+      "answer": "pracowały",
+      "explain": "informatyczki is not virile — the verb takes -ły."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "they · pronoun (a group with a man)",
+      "mode": "full_word",
+      "answer": "oni",
+      "accepts": [
+        "oni"
+      ]
+    },
+    {
+      "prompt_en": "they · pronoun (women only, or things)",
+      "mode": "full_word",
+      "answer": "one",
+      "accepts": [
+        "one"
+      ]
+    },
+    {
+      "prompt_en": "these guests",
+      "mode": "full_word",
+      "answer": "ci goście",
+      "accepts": [
+        "ci goście"
+      ]
+    },
+    {
+      "prompt_en": "these women",
+      "mode": "full_word",
+      "answer": "te kobiety",
+      "accepts": [
+        "te kobiety"
+      ]
+    },
+    {
+      "prompt_en": "they worked (with a man)",
+      "mode": "full_word",
+      "answer": "pracowali",
+      "accepts": [
+        "pracowali"
+      ]
+    },
+    {
+      "prompt_en": "they worked (women only, or things)",
+      "mode": "full_word",
+      "answer": "pracowały",
+      "accepts": [
+        "pracowały"
+      ]
+    },
+    {
+      "prompt_en": "these cooks (m)",
+      "mode": "full_word",
+      "answer": "ci kucharze",
+      "accepts": [
+        "ci kucharze"
+      ]
+    },
+    {
+      "prompt_en": "these tourists (f)",
+      "mode": "full_word",
+      "answer": "te turystki",
+      "accepts": [
+        "te turystki"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These policemen were at the bank.",
+      "answer": "Ci policjanci byli w banku.",
+      "accepts": [
+        "Ci policjanci byli w banku.",
+        "Ci policjanci byli w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These policewomen were at the bank.",
+      "answer": "Te policjantki były w banku.",
+      "accepts": [
+        "Te policjantki były w banku.",
+        "Te policjantki były w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These IT specialists worked at the company.",
+      "answer": "Ci informatycy pracowali w firmie.",
+      "accepts": [
+        "Ci informatycy pracowali w firmie.",
+        "Ci informatycy pracowali w firmie"
+      ]
+    },
+    {
+      "prompt_en": "Type: These IT specialists (f) worked at the company.",
+      "answer": "Te informatyczki pracowały w firmie.",
+      "accepts": [
+        "Te informatyczki pracowały w firmie.",
+        "Te informatyczki pracowały w firmie"
+      ]
+    },
+    {
+      "prompt_en": "Type: These journalists lived in the city.",
+      "answer": "Ci dziennikarze mieszkali w mieście.",
+      "accepts": [
+        "Ci dziennikarze mieszkali w mieście.",
+        "Ci dziennikarze mieszkali w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These journalists (f) lived in the city.",
+      "answer": "Te dziennikarki mieszkały w mieście.",
+      "accepts": [
+        "Te dziennikarki mieszkały w mieście.",
+        "Te dziennikarki mieszkały w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These tourists are in the park.",
+      "answer": "Ci turyści są w parku.",
+      "accepts": [
+        "Ci turyści są w parku.",
+        "Ci turyści są w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These tourists (f) are in the park.",
+      "answer": "Te turystki są w parku.",
+      "accepts": [
+        "Te turystki są w parku.",
+        "Te turystki są w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These people worked a lot.",
+      "answer": "Ci ludzie pracowali dużo.",
+      "accepts": [
+        "Ci ludzie pracowali dużo.",
+        "Ci ludzie pracowali dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: These friends were making dinner.",
+      "answer": "Ci przyjaciele robili obiad.",
+      "accepts": [
+        "Ci przyjaciele robili obiad.",
+        "Ci przyjaciele robili obiad"
+      ]
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "ci",
+    "te",
+    "oni",
+    "one",
+    "studenci",
+    "lekarze",
+    "goście",
+    "kibice",
+    "przyjaciele",
+    "kobiety",
+    "domy",
+    "nowe",
+    "turyści",
+    "turystki",
+    "kucharze",
+    "kucharki",
+    "informatycy",
+    "informatyczki",
+    "dziennikarze",
+    "dziennikarki",
+    "policjanci",
+    "policjantki",
+    "ludzie",
+    "dobrzy",
+    "byli",
+    "były",
+    "pracowali",
+    "pracowały",
+    "mieszkali",
+    "mieszkały",
+    "robili",
+    "są",
+    "w banku",
+    "w firmie",
+    "w mieście",
+    "w parku",
+    "dużo"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_virile_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

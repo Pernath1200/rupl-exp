@@ -2565,12 +2565,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Virile vs non-virile discrimination. Zero new.",
+      "note": "Zero new material. Closes the virile block (reco -> nom -> past -> people) with one mixed discrimination pass: ci/te, byli-pracowali/były-pracowały, oni/one are all the same 'at least one man?' test, drilled together.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_virile_gym.json"
     },
     {
       "id": "b1_conditional_pl",
