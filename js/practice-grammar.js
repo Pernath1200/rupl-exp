@@ -724,11 +724,20 @@ export function startPractice(pack, root, opts) {
     const total = state.quizItems.length || 1;
     const score = state.quizScore;
     const wrongN = state.quizWrong.length;
-    // Commit quiz score once (not on every re-render)
+    // Commit quiz score once (not on every re-render). Kontrola is recorded
+    // HERE, on reaching the gate — not on clicking through to Pisanie. Both
+    // the ladder (jumpToStage -> beginType) and leaving the unit bypass that
+    // click, which silently lost a finished Kontrola and left units stuck at
+    // 3/4 (James, 2026-08-05). Pisanie and Użycie already commit on gate
+    // render; this makes Kontrola behave the same.
     if (!state.quizScoreCommitted && !state.quizRetryPass) {
       state.checkScore += score;
       state.checkTotal += total;
       state.quizScoreCommitted = true;
+      completeMode(pack.id, "check", {
+        score: state.checkScore,
+        total: state.checkTotal,
+      });
     }
     // Clearing every mistake in the poprawka rounds counts as a full pass —
     // mastery through correction, not first-try perfection.

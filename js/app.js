@@ -583,6 +583,14 @@ function renderAuthor() {
   // Smoke/flag toolbar is builder kit — invisible to learners
   const tb = document.querySelector(".smoke-toolbar");
   if (tb) tb.hidden = !on;
+  // Roots/leaves meters are the teacher-facing tree model (James, 2026-08-05):
+  // near-meaningless to a learner, and they were misleading too — the grammar
+  // roots were hard-filtered to A1 so they never moved on A2, while the vocab
+  // bar counted every level at once. Learners get the level meters instead,
+  // which are correctly scoped. Nothing is lost: these are derived views,
+  // recomputed from tree.json + progress on every render.
+  const rootsPanel = document.getElementById("roots-panel-grid");
+  if (rootsPanel) rootsPanel.hidden = !on;
   btn.setAttribute("aria-pressed", on ? "true" : "false");
   btn.textContent = on ? "Tryb autorski WŁ" : "Tryb autorski";
   const hint = document.getElementById("author-hint");

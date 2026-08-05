@@ -99,14 +99,14 @@
 
       <details class="card quiet-details" id="map-details">
         <summary>Mapa i wszystkie jednostki</summary>
-        <p class="home-hint">Opcjonalne. Korzenie = gramatyka · liście = słówka. Klik → szczegóły, potem Ćwicz.</p>
+        <p class="home-hint">Optional · wszystkie jednostki. Tap a unit for details, then Ćwicz (practice).</p>
         <button type="button" class="btn" id="btn-map-more" aria-expanded="true" aria-controls="map-more" hidden>map</button>
         <div id="map-more">
           <div class="card" id="tree-portrait-card">
             <h2>Drzewo</h2>
             <div id="tree-portrait" class="tree-portrait-host"></div>
           </div>
-          <div class="panel-grid">
+          <div class="panel-grid" id="roots-panel-grid" hidden>
             <div class="card domain-grammar">
               <h2>Korzenie · Grammar</h2>
               <div id="roots-strip" class="roots-strip"></div>
