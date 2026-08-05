@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 87 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 89 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -101,6 +101,8 @@ _None._
 | 84 | `a2_dat_chunks` | `dat_chunks` | 12 | `dat_chunks`, `negation`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `sie_reflexive`, `ten_ta_to` |
 | 85 | `a2_health2` | — | 16 | `byc_adj`, `byc_present`, `dat_chunks`, `existential_jest`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `question`, `situation_chunk`, `to_jest`, `zgoda` |
 | 87 | `a2_o_loc` | `o_loc` | 17 | `o_loc`, `past_rest`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present`, `present_e_isz`, `question` |
+| 88 | `a2_tech2` | — | 19 | `byc_adj`, `byc_present`, `can_inf`, `existential_jest`, `miec_acc`, `miec_present`, `musiec`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present_am`, `present_e_isz`, `present_uje`, `question`, `to_jest`, `zgoda` |
+| 89 | `a2_phone_func` | `situation_chunk` | 25 | `byc_present`, `can_inf`, `inst_z`, `miec_acc`, `miec_present`, `negation`, `prep_do_gen`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `social_chunk`, `to_jest`, `zgoda` |
 | 90 | `a2_ordinals_time` | `ordinals_time` | 36 | `byc_present`, `chodzic`, `existential_jest`, `jechac`, `miec_acc`, `miec_present`, `ordinals_time`, `prep_do_gen`, `present`, `present_e_esz`, `present_uje`, `question`, `social_chunk` |
 | 91 | `a2_celebrations` | — | 17 | `aspect_past`, `byc_adj`, `byc_present`, `inst_z`, `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `prep_place`, `prep_w_loc`, `present_e_isz`, `present_uje`, `question`, `time_past_chunk`, `to_jest`, `zgoda` |
 

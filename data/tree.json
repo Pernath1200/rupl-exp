@@ -2084,13 +2084,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: strona, hasło, wiadomość, dzwonić, oddzwonić, wysyłać, ładować, wifi, ekran, ustawienia.",
+      "note": "Internet + phone, 13 new items. All three new verbs land in conjugation classes already taught, so no new pattern. myszka needed a sense indicator because mysz is already taught as the animal. strona confirmed already taught; haslo genuinely new.",
       "unit_id": "PL2_40",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "tech"
+      "tree_part": "tech",
+      "content": "vocab/blocks/a2_tech2.json"
     },
     {
       "id": "a2_phone_func",
@@ -2101,13 +2102,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Halo, słucham? Oddzwonię później. Napisz mi SMS-a. Umówimy się na...? Przepraszam, nie słyszę.",
+      "note": "Phone chunks. oddzwonie (perfective future) not substituted but REMOVED - the future left the unit entirely, since any perfective-present-shaped future would contradict a2_bedzie. Do uslyszenia carries the goodbye instead: a frozen do-phrase parallel to the taught do widzenia / do zobaczenia, with no verb in it, so aspect never arises. Imperative \"Napisz mi SMS\" dropped outright (doubly illegal: imperative unit is 6 nodes later AND perfective).",
       "unit_id": "PL2_41",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_phone_func.json"
     },
     {
       "id": "a2_ordinals_time",
