@@ -1,0 +1,683 @@
+{
+  "id": "a2_prep_review",
+  "title": "Przyimki · powtórka A2",
+  "title_en": "Prepositions review · A2",
+  "level": "A2",
+  "tree_node": "a2_prep_review",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "A2 finale review, pattern of a1_prep_review_1/2 scaled up: mixed situational drilling of the five preposition/case families that opened up across A2, with ZERO new material. Families: w/na + Locative (place: w banku, w górach, na plaży, w salonie), do/z + Genitive (direction: do apteki, ze sklepu), o + Locative (topic: o pracy, o banku), z + Instrumental (company: z siostrą, z babcią, z kolegą), bare Instrumental (transport: pociągiem, samochodem, rowerem). Every single phrase demanded was already taught VERBATIM by an earlier live pack (a1_prep_review_1/2 for w/do/z on bank/office/school/city/hospital, a2_o_loc for the topic set, a2_inst_z for the company set, a2_inst_transport for the vehicle set, a2_travel for w górach/na plaży, a2_house for w salonie) — unlike the A1 review units, which were the first place several of their combo phrases appeared as complete chunks, this pack recombines chunks that already existed whole, so teaches_lemmas is genuinely minimal-not-owned; every answer form was cross-checked against the position-aware pool (generated at end of a2_questions2 — the one live node between it and this one, a2_case_gym2, is status:planned with no content file, so the pool is still current for this launch position). The point of the unit, per brief, is forcing real choice between the families rather than recognising them in isolation: quiz items 1-4 put w/do/z/o on the SAME noun (biuro) so the learner must pick the governor, not just recall an ending; items 5-8 isolate the highest-value trap named in both a2_inst_z and a2_inst_transport's own notes — z+Instrumental for people vs bare Instrumental for vehicles (z bratem but autobusem, never z autobusem) — including one sentence that uses the instrumental for both jobs at once (Jadę samochodem z mamą.) so only the person gets a z. HOMOGRAPH / TRAP CHECKS (all verified against POOL and the owning packs before use, several rejected): (1) do Polski / z Polski — REJECTED. Polska's genitive is Polski, identical in spelling to the untaught-as-such adjective polski (Polish, language) taught only lowercase in a2_countries; using it would show the learner a form he would misread. w Polsce (locative, taught in a2_countries) was kept out too, simply for load reasons — countries were dropped from this pack entirely. (2) z Anglii — considered, not used; Anglii is a genuine syncretism for -ia feminines (locative and genitive share the ending, the same honest exception AGENTS.md names for masculine-animate accusative/genitive) but adding a third preposition-family noun on top of bank/biuro/apteka/sklep was unnecessary load. (3) o restauracji, w/do/z kawiarni — REJECTED, both explicitly flagged as absent from POOL by their owning packs' own notes (a2_ordering_func: 'restauracji not in POOL'; kawiarni appears only in body_pl shorthand lines elsewhere, never drilled). (4) do gór / z gór — REJECTED as real answers; only a1_travel's w górach (locative) and the plural nominative góry exist in POOL, the genitive plural gór was never taught, so 'do gór'/'z gór' appear ONLY as wrong quiz distractors (deliberately broken Polish testing the rule, same convention a1_prep_review_1 used for 'do banka'), never demanded of the learner. (5) z dziećmi — REJECTED; a2_inst_z's own note fences plural instrumental explicitly. Company items stay singular (z synem, not z dziećmi). (6) past of jechać — REJECTED; a2_inst_transport's own note says no past of jechać exists anywhere in POOL, so every transport sentence here stays present tense (jedzie, jadą), never 'jechał/jechała'. (7) past of jeść (jadł/jadła) — checked, absent from POOL; the one food+company sentence uses pić (pił), already established via a2_inst_z's own 'Tata pił kawę z wujkiem' precedent. IMPERFECTIVE ONLY. No virile forms. No plural past beyond byliśmy/były, both already established (a2_travel, a1 units). teaches_lemmas lists the phrase-level combinations this pack puts through their paces, per the A1 review genre convention, even though every one of them is a recycle of an already-taught chunk, not new material.",
+  "focus_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "o_loc",
+    "inst_z",
+    "inst_transport"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "prep_z_gen",
+    "o_loc",
+    "inst_z",
+    "inst_transport",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "present_e_isz",
+    "jechac",
+    "chodzic",
+    "poss_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "The whole board — nothing new",
+      "title_pl": "Cała tablica, nic nowego",
+      "body": "This unit puts four questions about the same word side by side. You have answered every one of them before, just never all four at once.\n\nw banku = you are there\ndo banku = you are going there\nz banku = you are coming from there\no banku = you are talking about it\n\nThe noun barely moves. The little word in front of it is what changes the meaning — so that is the one thing to watch for.",
+      "body_pl": "w / do / z / o — cztery pytania, jedno słowo. Przyimek decyduje, nie rzeczownik.",
+      "table": {
+        "headers": [
+          "Question",
+          "Preposition",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Where are you?",
+            "w",
+            "locative",
+            "w banku"
+          ],
+          [
+            "Where are you going?",
+            "do",
+            "genitive",
+            "do banku"
+          ],
+          [
+            "Where are you coming from?",
+            "z",
+            "genitive",
+            "z banku"
+          ],
+          [
+            "What are you talking about?",
+            "o",
+            "locative",
+            "o banku"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "z has two jobs — keep them apart",
+      "title_pl": "Dwa z, jedna litera",
+      "body": "You already met this fact on its own: the z that means from takes the genitive, and the z that means with takes the instrumental. This unit is where the two finally sit next to each other.\n\nz banku = from the bank (genitive)\nz bratem = with my brother (instrumental)\n\nThe ending on the word after z is what tells you which job it is doing.",
+      "body_pl": "z + dopełniacz = skąd. z + narzędnik = z kim. Ten sam wyraz, dwie końcówki.",
+      "table": {
+        "headers": [
+          "Polish",
+          "Case",
+          "English"
+        ],
+        "rows": [
+          [
+            "z banku",
+            "genitive",
+            "from the bank"
+          ],
+          [
+            "z bratem",
+            "instrumental",
+            "with my brother"
+          ],
+          [
+            "z pracy",
+            "genitive",
+            "from work"
+          ],
+          [
+            "z babcią",
+            "instrumental",
+            "with grandma"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The one with no preposition at all",
+      "title_pl": "Bez przyimka: pojazdy",
+      "body": "Vehicles are the exception. English still says by, but Polish drops the little word completely — the ending on the vehicle is the whole of it.\n\nautobusem = by bus, no z, no w, nothing\n\nPeople keep their z. Vehicles never do. That contrast is worth another look here, because it is the single easiest slip in this whole unit.",
+      "body_pl": "Pojazd: sam narzędnik, bez przyimka. Osoba: zawsze z + narzędnik.",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "Preposition?"
+        ],
+        "rows": [
+          [
+            "by bus",
+            "autobusem",
+            "none"
+          ],
+          [
+            "by car",
+            "samochodem",
+            "none"
+          ],
+          [
+            "with my brother",
+            "z bratem",
+            "z"
+          ],
+          [
+            "with mum",
+            "z mamą",
+            "z"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I'm going to the bank by bus.",
+          "pl": "Idę do banku autobusem."
+        },
+        {
+          "en": "Dad talks about work.",
+          "pl": "Tata mówi o pracy."
+        },
+        {
+          "en": "We were in the mountains with grandad.",
+          "pl": "Byliśmy w górach z dziadkiem."
+        },
+        {
+          "en": "I'm going by car with mum.",
+          "pl": "Jadę samochodem z mamą."
+        },
+        {
+          "en": "My sister was on the beach.",
+          "pl": "Moja siostra była na plaży."
+        },
+        {
+          "en": "My son is thinking about school.",
+          "pl": "Syn myśli o szkole."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "in the mountains",
+      "pl": "w górach"
+    },
+    {
+      "en": "on the beach",
+      "pl": "na plaży"
+    },
+    {
+      "en": "in the living room",
+      "pl": "w salonie"
+    },
+    {
+      "en": "to the pharmacy",
+      "pl": "do apteki"
+    },
+    {
+      "en": "from the shop",
+      "pl": "ze sklepu"
+    },
+    {
+      "en": "about work",
+      "pl": "o pracy"
+    },
+    {
+      "en": "about the city",
+      "pl": "o mieście"
+    },
+    {
+      "en": "with my sister",
+      "pl": "z siostrą"
+    },
+    {
+      "en": "with grandma",
+      "pl": "z babcią"
+    },
+    {
+      "en": "with a friend (kolega)",
+      "pl": "z kolegą"
+    },
+    {
+      "en": "by train",
+      "pl": "pociągiem"
+    },
+    {
+      "en": "by car · samochód",
+      "pl": "samochodem"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Say you're AT the office. →",
+      "choices": [
+        "w biurze",
+        "do biura",
+        "z biura",
+        "o biurze"
+      ],
+      "answer": "w biurze",
+      "explain": "You are there, so it is w + locative — no destination, no origin, no topic."
+    },
+    {
+      "prompt": "Say you're GOING TO the office. →",
+      "choices": [
+        "do biura",
+        "w biurze",
+        "z biura",
+        "o biurze"
+      ],
+      "answer": "do biura"
+    },
+    {
+      "prompt": "Say you're COMING FROM the office. →",
+      "choices": [
+        "z biura",
+        "w biurze",
+        "do biura",
+        "o biurze"
+      ],
+      "answer": "z biura",
+      "explain": "Same noun as the other three, different little word. z here means from, not with — there is no person in this sentence."
+    },
+    {
+      "prompt": "Say you're TALKING ABOUT the office. →",
+      "choices": [
+        "o biurze",
+        "w biurze",
+        "do biura",
+        "z biura"
+      ],
+      "answer": "o biurze"
+    },
+    {
+      "prompt": "by bus →",
+      "choices": [
+        "autobusem",
+        "z autobusem",
+        "autobus",
+        "w autobusie"
+      ],
+      "answer": "autobusem",
+      "explain": "Vehicles take no preposition at all. z belongs to people you travel with, never to what you travel in."
+    },
+    {
+      "prompt": "with my brother →",
+      "choices": [
+        "z bratem",
+        "bratem",
+        "z brata",
+        "do brata"
+      ],
+      "answer": "z bratem",
+      "explain": "People keep their z — the bare instrumental (bratem alone) is the vehicle pattern, and a brother is not a vehicle."
+    },
+    {
+      "prompt": "I'm going by car with mum. →",
+      "choices": [
+        "Jadę samochodem z mamą.",
+        "Jadę z samochodem z mamą.",
+        "Jadę samochodem mamą.",
+        "Jadę z samochodem mamą."
+      ],
+      "answer": "Jadę samochodem z mamą.",
+      "explain": "Both nouns are instrumental, but only the person gets a z. The car never does."
+    },
+    {
+      "prompt": "I'm going to the pharmacy with grandma. →",
+      "choices": [
+        "Idę do apteki z babcią.",
+        "Idę z apteki z babcią.",
+        "Idę do apteki babcią.",
+        "Idę apteki z babcią."
+      ],
+      "answer": "Idę do apteki z babcią.",
+      "explain": "Two different cases in one sentence: do apteki is the genitive (where to), z babcią is the instrumental (who with)."
+    },
+    {
+      "prompt": "I was in the mountains. →",
+      "choices": [
+        "Byłem w górach.",
+        "Byłem do gór.",
+        "Byłem z gór.",
+        "Byłem górach."
+      ],
+      "answer": "Byłem w górach.",
+      "explain": "You are describing where you WERE, not where you went or came from — that is w, not do or z."
+    },
+    {
+      "prompt": "We were on the beach with my son. →",
+      "choices": [
+        "Byliśmy na plaży z synem.",
+        "Byliśmy na plaży synem.",
+        "Byliśmy do plaży z synem.",
+        "Byliśmy z plaży z synem."
+      ],
+      "answer": "Byliśmy na plaży z synem."
+    },
+    {
+      "prompt": "The children are going to school by bus. →",
+      "choices": [
+        "Dzieci jadą do szkoły autobusem.",
+        "Dzieci jadą do szkoły z autobusem.",
+        "Dzieci jadą do szkoły autobus.",
+        "Dzieci jadą szkoły autobusem."
+      ],
+      "answer": "Dzieci jadą do szkoły autobusem."
+    },
+    {
+      "prompt": "Say you're talking about the bank. →",
+      "choices": [
+        "o banku",
+        "w banku",
+        "do banku",
+        "z banku"
+      ],
+      "answer": "o banku"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "in the mountains",
+      "mode": "full_word",
+      "answer": "w górach",
+      "accepts": [
+        "w górach"
+      ]
+    },
+    {
+      "prompt_en": "on the beach",
+      "mode": "full_word",
+      "answer": "na plaży",
+      "accepts": [
+        "na plaży"
+      ]
+    },
+    {
+      "prompt_en": "at the bank",
+      "mode": "full_word",
+      "answer": "w banku",
+      "accepts": [
+        "w banku"
+      ]
+    },
+    {
+      "prompt_en": "to the bank",
+      "mode": "full_word",
+      "answer": "do banku",
+      "accepts": [
+        "do banku"
+      ]
+    },
+    {
+      "prompt_en": "from the bank",
+      "mode": "full_word",
+      "answer": "z banku",
+      "accepts": [
+        "z banku"
+      ]
+    },
+    {
+      "prompt_en": "about the bank",
+      "mode": "full_word",
+      "answer": "o banku",
+      "accepts": [
+        "o banku"
+      ],
+      "explain": "Same ending as w banku — o takes the same case as w, only the little word in front changes."
+    },
+    {
+      "prompt_en": "with my sister",
+      "mode": "full_word",
+      "answer": "z siostrą",
+      "accepts": [
+        "z siostrą"
+      ]
+    },
+    {
+      "prompt_en": "with grandma",
+      "mode": "full_word",
+      "answer": "z babcią",
+      "accepts": [
+        "z babcią"
+      ]
+    },
+    {
+      "prompt_en": "with a friend (kolega)",
+      "mode": "full_word",
+      "answer": "z kolegą",
+      "accepts": [
+        "z kolegą"
+      ]
+    },
+    {
+      "prompt_en": "by train",
+      "mode": "full_word",
+      "answer": "pociągiem",
+      "accepts": [
+        "pociągiem"
+      ]
+    },
+    {
+      "prompt_en": "by bike",
+      "mode": "full_word",
+      "answer": "rowerem",
+      "accepts": [
+        "rowerem"
+      ]
+    },
+    {
+      "prompt_en": "by car · samochód",
+      "mode": "full_word",
+      "answer": "samochodem",
+      "accepts": [
+        "samochodem"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad is going to the bank by bus.",
+      "answer": "Tata jedzie do banku autobusem.",
+      "accepts": [
+        "Tata jedzie do banku autobusem.",
+        "Tata jedzie do banku autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is talking about the office.",
+      "answer": "Mama mówi o biurze.",
+      "accepts": [
+        "Mama mówi o biurze.",
+        "Mama mówi o biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother was in the mountains with grandad.",
+      "answer": "Mój brat był w górach z dziadkiem.",
+      "accepts": [
+        "Mój brat był w górach z dziadkiem.",
+        "Mój brat był w górach z dziadkiem",
+        "Brat był w górach z dziadkiem.",
+        "Brat był w górach z dziadkiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is going to the pharmacy with grandma.",
+      "answer": "Moja siostra idzie do apteki z babcią.",
+      "accepts": [
+        "Moja siostra idzie do apteki z babcią.",
+        "Moja siostra idzie do apteki z babcią",
+        "Siostra idzie do apteki z babcią.",
+        "Siostra idzie do apteki z babcią"
+      ]
+    },
+    {
+      "prompt_en": "Type: We were on the beach yesterday.",
+      "answer": "Wczoraj byliśmy na plaży.",
+      "accepts": [
+        "Wczoraj byliśmy na plaży.",
+        "Wczoraj byliśmy na plaży",
+        "Byliśmy wczoraj na plaży.",
+        "Byliśmy wczoraj na plaży"
+      ]
+    },
+    {
+      "prompt_en": "Type: My son is thinking about school.",
+      "answer": "Syn myśli o szkole.",
+      "accepts": [
+        "Syn myśli o szkole.",
+        "Syn myśli o szkole",
+        "Mój syn myśli o szkole.",
+        "Mój syn myśli o szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma is going home by tram.",
+      "answer": "Babcia jedzie do domu tramwajem.",
+      "accepts": [
+        "Babcia jedzie do domu tramwajem.",
+        "Babcia jedzie do domu tramwajem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Was dad at work?",
+      "answer": "Czy tata był w pracy?",
+      "accepts": [
+        "Czy tata był w pracy?",
+        "Czy tata był w pracy",
+        "Tata był w pracy?",
+        "Tata był w pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My daughter is going to school with a friend. (kolega)",
+      "answer": "Moja córka idzie do szkoły z kolegą.",
+      "accepts": [
+        "Moja córka idzie do szkoły z kolegą.",
+        "Moja córka idzie do szkoły z kolegą",
+        "Córka idzie do szkoły z kolegą.",
+        "Córka idzie do szkoły z kolegą"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are going to the city by car. (samochód)",
+      "answer": "Dzieci jadą do miasta samochodem.",
+      "accepts": [
+        "Dzieci jadą do miasta samochodem.",
+        "Dzieci jadą do miasta samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I was talking about the hotel with my wife.",
+      "answer": "Mówiłem o hotelu z żoną.",
+      "accepts": [
+        "Mówiłem o hotelu z żoną.",
+        "Mówiłem o hotelu z żoną"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was drinking tea with my uncle.",
+      "answer": "Tata pił herbatę z wujkiem.",
+      "accepts": [
+        "Tata pił herbatę z wujkiem.",
+        "Tata pił herbatę z wujkiem"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "w górach",
+    "na plaży",
+    "w salonie",
+    "do apteki",
+    "ze sklepu",
+    "o pracy",
+    "o mieście",
+    "o banku",
+    "o biurze",
+    "z siostrą",
+    "z babcią",
+    "z kolegą",
+    "pociągiem",
+    "rowerem",
+    "samochodem"
+  ],
+  "uses_lemmas": [
+    "bank",
+    "banku",
+    "w banku",
+    "do banku",
+    "z banku",
+    "biuro",
+    "biura",
+    "biurze",
+    "w biurze",
+    "do biura",
+    "z biura",
+    "apteka",
+    "apteki",
+    "sklep",
+    "sklepu",
+    "góry",
+    "górach",
+    "salon",
+    "plaża",
+    "plaży",
+    "praca",
+    "pracy",
+    "w pracy",
+    "miasto",
+    "mieście",
+    "do miasta",
+    "szkoła",
+    "szkole",
+    "do szkoły",
+    "dom",
+    "domu",
+    "do domu",
+    "hotel",
+    "hotelu",
+    "o hotelu",
+    "autobus",
+    "autobusem",
+    "tramwaj",
+    "tramwajem",
+    "brat",
+    "bratem",
+    "z bratem",
+    "syn",
+    "synem",
+    "z synem",
+    "mama",
+    "mamą",
+    "z mamą",
+    "tata",
+    "dziadek",
+    "dziadkiem",
+    "z dziadkiem",
+    "babcia",
+    "córka",
+    "siostra",
+    "żona",
+    "żoną",
+    "z żoną",
+    "wujek",
+    "wujkiem",
+    "z wujkiem",
+    "kolega",
+    "dzieci",
+    "jedzie",
+    "jedziesz",
+    "jadą",
+    "idzie",
+    "idę",
+    "mówi",
+    "mówię",
+    "mówiłem",
+    "myśli",
+    "był",
+    "była",
+    "byłem",
+    "byliśmy",
+    "pił",
+    "herbatę",
+    "kawę",
+    "czy",
+    "wczoraj",
+    "mój",
+    "moja"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_prep_review",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

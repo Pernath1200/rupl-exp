@@ -2246,13 +2246,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Gym: Nom/Acc/Gen/Loc/Inst sg + Nom/Gen pl mixed, situation cues, zero new. The A2 automaticity checkpoint.",
+      "note": "A2 automaticity gym. Zero new material, mixed Nom/Acc/Gen-sg/Loc-sg/Inst-sg/Nom-pl/Gen-pl discrimination. Homograph traps checked individually - gazety/wina/okna/córki (nom-pl only) never used as correct answers; the one \"gazety\" appearance is a wrong-choice distractor for the item whose real answer is the taught genitive plural \"gazet\". domu and banku/parku dual-duty (genitive AND locative, both genuinely taught) named explicitly for the learner.",
       "unit_id": "PL2_49",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_case_gym2.json"
     },
     {
       "id": "a2_prep_review",
