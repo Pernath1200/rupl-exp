@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 68 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 71 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -84,4 +84,7 @@ _None._
 | 66 | `a2_jechac` | `jechac` | 7 | `jechac`, `motion_chunk`, `plural_nom`, `poss_nom`, `prep_do_gen`, `present`, `present_e_esz`, `question` |
 | 67 | `a2_inst_transport` | `inst_transport` | 7 | `byc_present`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `motion_chunk`, `plural_nom`, `poss_nom`, `prep_do_gen`, `question` |
 | 68 | `a2_transport2` | — | 14 | `byc_adj`, `byc_present`, `existential_jest`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `negation`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `question`, `to_jest`, `zgoda` |
+| 69 | `a2_directions_func` | `situation_chunk` | 37 | `byc_present`, `existential_jest`, `negation`, `prep_do_gen`, `prep_place`, `question`, `situation_chunk`, `social_chunk`, `ten_ta_to`, `zgoda` |
+| 72 | `a2_chodzic` | `chodzic` | 13 | `chodzic`, `jechac`, `motion_chunk`, `plural_nom`, `prep_do_gen`, `present`, `present_e_esz`, `present_e_isz`, `question` |
+| 74 | `a2_sie` | `sie_reflexive` | 23 | `byc_adj`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `question`, `sie_reflexive` |
 

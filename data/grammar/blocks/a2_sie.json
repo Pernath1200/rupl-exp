@@ -1,0 +1,587 @@
+{
+  "id": "a2_sie",
+  "title": "Nazywam się · uczę się · czuję się",
+  "title_en": "Verbs that travel with się",
+  "level": "A2",
+  "tree_node": "a2_sie",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "THREE verbs only: nazywać się, uczyć się, czuć się. Each is anchored on a present class Dad already owns — nazywam się on mieszkam (-am), uczę się on mówię (-ę/-isz), czuję się on pracuję (-uję). się is framed as a word BELONGING to the verb, never as 'self': uczę się and nazywam się are not reflexive in any sense English recognises, so a 'myself' gloss would mislead. HOOK: Jak się masz? — taught in a1_questions and in the pool, so he has been producing się since A1 without knowing what it is. NOTE (2026-08-05): the brief said a1_hello taught 'Nazywam się…' as a chunk; it does NOT — a1_hello is the być grid only, and nazywam się appears nowhere in the repo or the pool. So this pack TEACHES nazywam się outright and uses Jak się masz? as the real known-chunk hook. spotykać się DROPPED: it needs z + narzędnik, which is untaught, and that would make this a two-system unit. Word order: default after the verb, plus the one attested exception 'Jak + się + verb'. NO clitic-placement rules. NO past of any się verb. NO genitive objects (uczę się polskiego is fenced — polskiego untaught). NO siebie/sobie. Both genders on Czuję się zmęczony / zmęczona.",
+  "focus_structures": [
+    "sie_reflexive"
+  ],
+  "teaches_structures": [
+    "sie_reflexive"
+  ],
+  "uses_structures": [
+    "sie_reflexive",
+    "present",
+    "present_am",
+    "present_uje",
+    "present_e_isz",
+    "question",
+    "byc_adj",
+    "poss_nom",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "You have been saying się since your first lesson",
+      "title_pl": "Słowo, które już znasz",
+      "body": "Every time you say Jak się masz? you say się. You have never been told what it is.\n\nsię is a word that belongs to a verb. Some Polish verbs travel alone. Others always take się with them, and the się is simply part of the verb — you can no more drop it than you could drop half of the word.\n\nIt does not mean \"self\". Do not try to translate it. uczę się is just \"I study\", and nazywam się is just \"my name is\". There is nothing about a self in either of them. Learn the verb and its się as one unit and you will never go wrong.",
+      "body_pl": "się należy do czasownika — nie tłumaczymy tego słowa osobno.",
+      "table": {
+        "headers": [
+          "Travels alone",
+          "Travels with się",
+          "English"
+        ],
+        "rows": [
+          [
+            "mieszkam",
+            "nazywam się",
+            "my name is"
+          ],
+          [
+            "mówię",
+            "uczę się",
+            "I study"
+          ],
+          [
+            "pracuję",
+            "czuję się",
+            "I feel"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Three verbs, three endings you already have",
+      "title_pl": "Trzy czasowniki",
+      "body": "No new endings in this unit. Each of the three verbs runs on a present-tense pattern you have already learned — nazywać się takes the endings of mieszkam, uczyć się takes the endings of mówię, czuć się takes the endings of pracuję. The only new thing is the się riding along behind.\n\nOne spelling point: after cz Polish writes y, never i. So it is uczysz — never uczisz.",
+      "body_pl": "Końcówki znane: nazywam jak mieszkam, uczę jak mówię, czuję jak pracuję. Nowe jest tylko się.",
+      "table": {
+        "headers": [
+          "Person",
+          "be called",
+          "study",
+          "feel"
+        ],
+        "rows": [
+          [
+            "ja",
+            "nazywam się",
+            "uczę się",
+            "czuję się"
+          ],
+          [
+            "ty",
+            "nazywasz się",
+            "uczysz się",
+            "czujesz się"
+          ],
+          [
+            "on / ona",
+            "nazywa się",
+            "uczy się",
+            "czuje się"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where się sits",
+      "title_pl": "Miejsce się",
+      "body": "The default is easy: się comes straight after its verb.\n\nOne place it moves, and you already produce it correctly: in a question opening with jak, się hops in front of the verb. Jak się masz? has been in your mouth for months. Jak się nazywasz? is built exactly the same way.\n\nThose two patterns — after the verb normally, in front of the verb after jak — cover everything in this unit.",
+      "body_pl": "Zwykle: czasownik + się. W pytaniu z jak: jak + się + czasownik.",
+      "table": {
+        "headers": [
+          "Pattern",
+          "Example",
+          "English"
+        ],
+        "rows": [
+          [
+            "verb + się",
+            "Czuję się dobrze.",
+            "I feel well."
+          ],
+          [
+            "verb + się",
+            "Tata uczy się w domu.",
+            "Dad studies at home."
+          ],
+          [
+            "jak + się + verb",
+            "Jak się masz?",
+            "How are you?"
+          ],
+          [
+            "jak + się + verb",
+            "Jak się nazywasz?",
+            "What is your name?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Now say it about people",
+      "title_pl": "Zdania",
+      "body": "czuć się takes the same adjectives you met with jestem — and they still change for a man or a woman speaking: zmęczony for a man, zmęczona for a woman.\n\nWith nazywać się, the person or thing named is the subject, so the verb follows the subject exactly as always: Moja siostra nazywa się Anna.",
+      "body_pl": "Przymiotnik po czuję się zmienia się jak po jestem: zmęczony / zmęczona.",
+      "examples": [
+        {
+          "en": "My sister's name is Anna.",
+          "pl": "Moja siostra nazywa się Anna."
+        },
+        {
+          "en": "Anna studies at school.",
+          "pl": "Anna uczy się w szkole."
+        },
+        {
+          "en": "Mum feels well.",
+          "pl": "Mama czuje się dobrze."
+        },
+        {
+          "en": "I feel tired. (m)",
+          "pl": "Czuję się zmęczony."
+        },
+        {
+          "en": "I feel tired. (f)",
+          "pl": "Czuję się zmęczona."
+        },
+        {
+          "en": "What is your brother called?",
+          "pl": "Jak się nazywa twój brat?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "my name is (I am called)",
+      "pl": "nazywam się"
+    },
+    {
+      "en": "your name is (you are called)",
+      "pl": "nazywasz się"
+    },
+    {
+      "en": "his / her name is",
+      "pl": "nazywa się"
+    },
+    {
+      "en": "I study",
+      "pl": "uczę się"
+    },
+    {
+      "en": "you study",
+      "pl": "uczysz się"
+    },
+    {
+      "en": "he / she studies",
+      "pl": "uczy się"
+    },
+    {
+      "en": "I feel",
+      "pl": "czuję się"
+    },
+    {
+      "en": "you feel",
+      "pl": "czujesz się"
+    },
+    {
+      "en": "he / she feels",
+      "pl": "czuje się"
+    },
+    {
+      "en": "What is your name?",
+      "pl": "Jak się nazywasz?"
+    },
+    {
+      "en": "How are you?",
+      "pl": "Jak się masz?"
+    },
+    {
+      "en": "I feel well.",
+      "pl": "Czuję się dobrze."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Nazywam ___ Anna.",
+      "choices": [
+        "się",
+        "jest",
+        "to",
+        "masz"
+      ],
+      "answer": "się",
+      "explain": "nazywać is one of the verbs that always carries się. The się is not doing a job of its own here — it simply belongs to the verb, so it is never left out."
+    },
+    {
+      "prompt": "I study →",
+      "choices": [
+        "uczę się",
+        "uczysz się",
+        "uczy się",
+        "uczę"
+      ],
+      "answer": "uczę się",
+      "explain": "uczę on its own is not a word you can use for this. The verb is uczyć się, and both halves travel together."
+    },
+    {
+      "prompt": "Anna ___ się dobrze.",
+      "choices": [
+        "czuje",
+        "czuję",
+        "czujesz",
+        "czuć"
+      ],
+      "answer": "czuje",
+      "explain": "Anna is a she, so the ending is -e, exactly as in pracuje. The dot on czuję would make it mean I."
+    },
+    {
+      "prompt": "What is your name? →",
+      "choices": [
+        "Jak się nazywasz?",
+        "Jak się nazywam?",
+        "Jak się nazywa?",
+        "Jak się nazywacie?"
+      ],
+      "answer": "Jak się nazywasz?",
+      "explain": "You are asking the other person, so the ending is -asz — the ty ending you know from mieszkasz."
+    },
+    {
+      "prompt": "Tata ___ w szkole.",
+      "choices": [
+        "uczy się",
+        "uczę się",
+        "uczysz się",
+        "uczy"
+      ],
+      "answer": "uczy się"
+    },
+    {
+      "prompt": "I feel well →",
+      "choices": [
+        "Czuję się dobrze.",
+        "Się czuję dobrze.",
+        "Czuję dobrze się.",
+        "Dobrze się."
+      ],
+      "answer": "Czuję się dobrze.",
+      "explain": "The default place for się is straight after its verb. It never opens a sentence, and it does not sit at the far end."
+    },
+    {
+      "prompt": "you feel →",
+      "choices": [
+        "czujesz się",
+        "czuje się",
+        "czuję się",
+        "czujesz"
+      ],
+      "answer": "czujesz się"
+    },
+    {
+      "prompt": "Fix: Uczę w domu. →",
+      "choices": [
+        "Uczę się w domu.",
+        "Uczę w domu się.",
+        "Się uczę w domu.",
+        "Uczysz się w domu."
+      ],
+      "answer": "Uczę się w domu.",
+      "explain": "The się was dropped. Put it back where it belongs — immediately after the verb it is part of."
+    },
+    {
+      "prompt": "Moja siostra ___ się Anna.",
+      "choices": [
+        "nazywa",
+        "nazywam",
+        "nazywasz",
+        "nazywać"
+      ],
+      "answer": "nazywa",
+      "explain": "siostra is a she, so the verb takes the same -a ending you use in mieszka."
+    },
+    {
+      "prompt": "How are you? →",
+      "choices": [
+        "Jak się masz?",
+        "Jak masz się?",
+        "Jak się mam?",
+        "Się jak masz?"
+      ],
+      "answer": "Jak się masz?",
+      "explain": "This is the question you have said since your first lesson, and it shows the one movement rule: after jak, się goes in front of the verb."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "my name is / I am called",
+      "mode": "full_word",
+      "answer": "nazywam się",
+      "accepts": [
+        "nazywam się"
+      ],
+      "explain": "Two words, always. Type the verb, then the się that belongs to it."
+    },
+    {
+      "prompt_en": "your name is / you are called",
+      "mode": "full_word",
+      "answer": "nazywasz się",
+      "accepts": [
+        "nazywasz się"
+      ]
+    },
+    {
+      "prompt_en": "his / her name is",
+      "mode": "full_word",
+      "answer": "nazywa się",
+      "accepts": [
+        "nazywa się"
+      ]
+    },
+    {
+      "prompt_en": "I study",
+      "mode": "full_word",
+      "answer": "uczę się",
+      "accepts": [
+        "uczę się"
+      ]
+    },
+    {
+      "prompt_en": "you study",
+      "mode": "full_word",
+      "answer": "uczysz się",
+      "accepts": [
+        "uczysz się"
+      ],
+      "explain": "uczysz, not uczisz. Polish never writes i after cz — the y does the same job."
+    },
+    {
+      "prompt_en": "he / she studies",
+      "mode": "full_word",
+      "answer": "uczy się",
+      "accepts": [
+        "uczy się"
+      ]
+    },
+    {
+      "prompt_en": "I feel",
+      "mode": "full_word",
+      "answer": "czuję się",
+      "accepts": [
+        "czuję się"
+      ],
+      "explain": "Same endings as pracuję: czuję, czujesz, czuje."
+    },
+    {
+      "prompt_en": "you feel",
+      "mode": "full_word",
+      "answer": "czujesz się",
+      "accepts": [
+        "czujesz się"
+      ]
+    },
+    {
+      "prompt_en": "he / she feels",
+      "mode": "full_word",
+      "answer": "czuje się",
+      "accepts": [
+        "czuje się"
+      ]
+    },
+    {
+      "prompt_en": "What is your name?",
+      "mode": "full_word",
+      "answer": "Jak się nazywasz?",
+      "accepts": [
+        "Jak się nazywasz?",
+        "Jak się nazywasz"
+      ],
+      "explain": "After jak, się moves in front of the verb — the same order as Jak się masz?"
+    },
+    {
+      "prompt_en": "I feel tired. (m)",
+      "mode": "full_word",
+      "answer": "Czuję się zmęczony.",
+      "accepts": [
+        "Czuję się zmęczony.",
+        "Czuję się zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "I feel tired. (f)",
+      "mode": "full_word",
+      "answer": "Czuję się zmęczona.",
+      "accepts": [
+        "Czuję się zmęczona.",
+        "Czuję się zmęczona"
+      ],
+      "explain": "The adjective still shows who is speaking, exactly as after jestem: zmęczony from a man, zmęczona from a woman."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: My sister's name is Anna.",
+      "answer": "Moja siostra nazywa się Anna.",
+      "accepts": [
+        "Moja siostra nazywa się Anna.",
+        "Moja siostra nazywa się Anna"
+      ]
+    },
+    {
+      "prompt_en": "Type: What is your brother called?",
+      "answer": "Jak się nazywa twój brat?",
+      "accepts": [
+        "Jak się nazywa twój brat?",
+        "Jak się nazywa twój brat",
+        "Jak nazywa się twój brat?",
+        "Jak nazywa się twój brat"
+      ],
+      "explain": "brat is the subject, so the verb is the he-form nazywa. Both orders you see here are used by Poles; keep to jak + się + verb and you will always be right."
+    },
+    {
+      "prompt_en": "Type: Anna studies at school.",
+      "answer": "Anna uczy się w szkole.",
+      "accepts": [
+        "Anna uczy się w szkole.",
+        "Anna uczy się w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad studies at home.",
+      "answer": "Tata uczy się w domu.",
+      "accepts": [
+        "Tata uczy się w domu.",
+        "Tata uczy się w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: My child studies at school.",
+      "answer": "Moje dziecko uczy się w szkole.",
+      "accepts": [
+        "Moje dziecko uczy się w szkole.",
+        "Moje dziecko uczy się w szkole"
+      ],
+      "explain": "dziecko is neuter, so it takes moje — but the verb does not care about gender in the present tense, and stays uczy się."
+    },
+    {
+      "prompt_en": "Type: Mum feels well.",
+      "answer": "Mama czuje się dobrze.",
+      "accepts": [
+        "Mama czuje się dobrze.",
+        "Mama czuje się dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad feels tired.",
+      "answer": "Tata czuje się zmęczony.",
+      "accepts": [
+        "Tata czuje się zmęczony.",
+        "Tata czuje się zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna feels tired.",
+      "answer": "Anna czuje się zmęczona.",
+      "accepts": [
+        "Anna czuje się zmęczona.",
+        "Anna czuje się zmęczona"
+      ],
+      "explain": "The adjective follows the subject, not the speaker: Anna is a she, so zmęczona."
+    },
+    {
+      "prompt_en": "Type: Does your brother feel well?",
+      "answer": "Czy twój brat czuje się dobrze?",
+      "accepts": [
+        "Czy twój brat czuje się dobrze?",
+        "Czy twój brat czuje się dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: My friend feels great.",
+      "answer": "Mój przyjaciel czuje się super.",
+      "accepts": [
+        "Mój przyjaciel czuje się super.",
+        "Mój przyjaciel czuje się super"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "się",
+    "nazywać się",
+    "nazywam się",
+    "nazywasz się",
+    "nazywa się",
+    "nazywam",
+    "nazywasz",
+    "nazywa",
+    "uczę się",
+    "uczysz się",
+    "uczy się",
+    "uczę",
+    "uczysz",
+    "uczy",
+    "czuć się",
+    "czuję się",
+    "czujesz się",
+    "czuje się",
+    "czuję",
+    "czujesz",
+    "czuje",
+    "jak się nazywasz",
+    "czuję się dobrze"
+  ],
+  "uses_lemmas": [
+    "uczyć się",
+    "jak się masz",
+    "jak",
+    "czy",
+    "masz",
+    "mieszkam",
+    "mieszkasz",
+    "mieszka",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "pracuję",
+    "pracujesz",
+    "pracuje",
+    "jestem",
+    "dobrze",
+    "super",
+    "zmęczony",
+    "zmęczona",
+    "mój",
+    "moja",
+    "moje",
+    "twój",
+    "brat",
+    "siostra",
+    "dziecko",
+    "tata",
+    "mama",
+    "anna",
+    "przyjaciel",
+    "w domu",
+    "w szkole"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_sie",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

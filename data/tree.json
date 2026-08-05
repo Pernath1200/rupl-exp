@@ -1744,13 +1744,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Przepraszam, gdzie jest...? Jak dojść do...? Proszę iść prosto/w lewo/w prawo. To daleko? Rides prosto/lewo/prawo from A1 city.",
+      "note": "Street directions. \"Jak dojsc do...?\" DROPPED (dojsc perfective) and replaced with \"Ktoredy do...?\" which has no verb slot at all, so aspect cannot arise. isc carried as an opaque block, never named or conjugated. Ordinals dropped with the \"first street on the left\" function.",
       "unit_id": "PL2_21",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_directions_func.json"
     },
     {
       "id": "a2_travel",
@@ -1795,13 +1796,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Full iść grid + chodzić grid; codziennie chodzę vs teraz idę. Motion-chunk unit graduates.",
+      "note": "Closes the isc grid a2_jechac left open (all six persons) + habitual chodzic. Now-vs-habit carried by teraz/codziennie, not grammar talk. Teaches codziennie (was untaught). jezdzic fenced, named nowhere.",
       "unit_id": "PL2_24",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_chodzic.json"
     },
     {
       "id": "a2_station_2",
@@ -1829,13 +1831,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] nazywam się (recycled chunk→rule), uczę się, spotykam się z+Inst, czuję się, myję się. się placement kept simple (after verb).",
+      "note": "Verbs that travel with sie. Framed as a word belonging to the verb, NEVER as \"self\". Hook is Jak sie masz? (genuinely taught) - NOT nazywam sie, which turned out to be untaught anywhere. spotykac sie dropped: it governs z+Inst and would make this a two-system unit.",
       "unit_id": "PL2_26",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_sie.json"
     },
     {
       "id": "a2_routine",

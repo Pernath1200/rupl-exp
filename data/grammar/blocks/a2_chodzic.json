@@ -1,0 +1,750 @@
+{
+  "id": "a2_chodzic",
+  "title": "Idę czy chodzę?",
+  "title_en": "iść vs chodzić · now vs regularly",
+  "level": "A2",
+  "tree_node": "a2_chodzic",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Direct sequel to a2_jechac and the pack that finally closes a1_motion. TWO JOBS: (1) the full present of isc -- ide, idziesz, idzie, idziemy, idziecie, ida -- which a2_jechac deliberately reserved for this node, so its discrimination was live at ja and ty only; (2) the habitual partner chodzic. The now-vs-habit split carries the intro's weight exactly as jechac-vs-isc did in the previous unit, because English 'go' covers both and gives him nothing to hang it on. Load is kept to one new SYSTEM: isc is the -e/-esz class he already owns (chciec, jechac) and its id-/idzi- stem split is presented as the same table fact as ja-/je-, never as a rule; chodzic is the -e/-isz class he owns from mowic, lubic, robic. Adverbs do the semantic work: teraz (already taught) vs codziennie (NOT in the taught pool -- this pack teaches it, tagged in teaches_lemmas, introduced on slide 1 in an all-known frame Codziennie pije kawe so it is never a second unknown). FENCED, must not appear: the habitual counterpart of jechac (the by-vehicle verb) is not named, glossed, hinted at or used as a distractor anywhere in this file, note included, so the intro never opens that door -- which is why slide 3 borrows jechac only for its ENDINGS and says nothing about jechac having a routine partner of its own; ALL past forms of both verbs; all prefixed motion verbs. FORKS TAKEN: (a) the unit has 14 forms (2 infinitives + 12 present) and Dopasuj is capped at 12, so the board is the 12 present forms, 6 isc + 6 chodzic, perfectly balanced and drilling the exact contrast; the infinitives isc/chodzic are carried by the intro grids plus a Kontrola item each, which satisfies the every-form-taught rule via intro. (b) codziennie is production-demanded across Uzycie, so it gets its own Pisanie item rather than riding on the intro alone; that makes Pisanie 13. (c) my/wy cannot take a noun subject, so those four Uzycie items are adverb + destination (two of them questions, which AGENTS exempts); the other ten carry real noun subjects (tata, mama, dzieci). (d) present tense carries no gender, so the both-gender production rule has nothing to bite on here -- it belongs to the fenced past. NOTE FOR THE HUMAN: the POOL.md handed to this build was regenerated at END OF a2_feelings (node 55) but this node is 72, with twelve live nodes in between; dzieci, rodzice and i are taught at a2_plural_nom / a2_family2 / a2_past_plural and are legal here.",
+  "focus_structures": [
+    "chodzic"
+  ],
+  "teaches_structures": [
+    "chodzic"
+  ],
+  "uses_structures": [
+    "chodzic",
+    "jechac",
+    "motion_chunk",
+    "prep_do_gen",
+    "present",
+    "present_e_esz",
+    "present_e_isz",
+    "plural_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "One English word, two Polish verbs",
+      "title_pl": "Idę czy chodzę?",
+      "body": "English lets you say I go and I'm going almost interchangeably. Polish will not. There are two different verbs, and you choose by WHEN it happens:\n\n- On the way right now → idę. You have had this one since Idę do sklepu.\n- Something you do again and again → chodzę. That is the new word.\n\nOne small word first. codziennie means every day, and it sits in a sentence like the time words you already use: Codziennie piję kawę. = Every day I drink coffee.\n\nNow the pair. Same shop, same feet, same do + genitive — only the timing changes, and the timing changes the verb.",
+      "body_pl": "Teraz = idę. Codziennie = chodzę. Po obu: do + dopełniacz.",
+      "table": {
+        "headers": [
+          "When",
+          "Polish",
+          "Example"
+        ],
+        "rows": [
+          [
+            "on the way right now",
+            "idę",
+            "Teraz idę do sklepu."
+          ],
+          [
+            "every day, regularly",
+            "chodzę",
+            "Codziennie chodzę do sklepu."
+          ],
+          [
+            "on the way right now (you)",
+            "idziesz",
+            "Idziesz teraz do pracy?"
+          ],
+          [
+            "every day, regularly (you)",
+            "chodzisz",
+            "Chodzisz codziennie do pracy?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "iść — the full grid",
+      "title_pl": "iść — wszystkie osoby",
+      "body": "The dictionary form is iść — to go on foot. You have owned idę and idziesz since your first do-phrases; here are the other four, and now the verb is complete.\n\nRead the two shapes straight off the table: id- in idę and idą, idzi- in the four in the middle. That is simply how the word is built — exactly the way jadę and jadą sat outside the je- block last time.",
+      "body_pl": "Bezokolicznik: iść. Dwa kształty: id- (idę, idą), idzi- (środek tabeli).",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "idę",
+            "I'm going (on my way now)"
+          ],
+          [
+            "ty",
+            "idziesz",
+            "you're going (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "idzie",
+            "he / she / it is going"
+          ],
+          [
+            "my",
+            "idziemy",
+            "we're going"
+          ],
+          [
+            "wy",
+            "idziecie",
+            "you're going (pl)"
+          ],
+          [
+            "oni / one",
+            "idą",
+            "they're going"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "iść uses endings you already own",
+      "title_pl": "Znane końcówki: -ę / -esz",
+      "body": "iść is in the -ę/-esz class — the same class as chcieć and jechać. Put the two motion verbs side by side and every ending matches, line for line:\n\n-ę · -esz · -e · -emy · -ecie · -ą\n\nListen to the bottom line especially: jadą, idą. The they-forms rhyme. Nothing on this slide is new — only the stem is.",
+      "body_pl": "iść = klasa -ę/-esz, jak jechać i chcieć. Te same końcówki, inny temat.",
+      "table": {
+        "headers": [
+          "Person",
+          "jechać (known)",
+          "iść (new)"
+        ],
+        "rows": [
+          [
+            "ja",
+            "jadę",
+            "idę"
+          ],
+          [
+            "ty",
+            "jedziesz",
+            "idziesz"
+          ],
+          [
+            "on / ona / ono",
+            "jedzie",
+            "idzie"
+          ],
+          [
+            "my",
+            "jedziemy",
+            "idziemy"
+          ],
+          [
+            "wy",
+            "jedziecie",
+            "idziecie"
+          ],
+          [
+            "oni / one",
+            "jadą",
+            "idą"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "chodzić — the regular-habit verb",
+      "title_pl": "chodzić — wszystkie osoby",
+      "body": "chodzić means to go somewhere again and again, on foot — a routine, not a trip you are on right now. It belongs to the other class you already own: the -ę/-isz class of mówić, lubić and robić.\n\nWatch the top and bottom lines. lubię and lubią keep their i; chodzę and chodzą do not — the same shape as płacę. Take it from the table; there is nothing to work out.",
+      "body_pl": "chodzić = klasa -ę/-isz, jak lubić i mówić. Uwaga: chodzę, chodzą (bez i).",
+      "table": {
+        "headers": [
+          "Person",
+          "lubić (known)",
+          "chodzić (new)"
+        ],
+        "rows": [
+          [
+            "ja",
+            "lubię",
+            "chodzę"
+          ],
+          [
+            "ty",
+            "lubisz",
+            "chodzisz"
+          ],
+          [
+            "on / ona / ono",
+            "lubi",
+            "chodzi"
+          ],
+          [
+            "my",
+            "lubimy",
+            "chodzimy"
+          ],
+          [
+            "wy",
+            "lubicie",
+            "chodzicie"
+          ],
+          [
+            "oni / one",
+            "lubią",
+            "chodzą"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which one? Let the time word decide",
+      "title_pl": "Teraz czy codziennie?",
+      "body": "Nothing else in the sentence moves — not the subject, not the destination. Only the verb tells your listener whether this is happening now or happens always.\n\nA test you can use out loud: if teraz fits, use iść. If codziennie fits, use chodzić.",
+      "body_pl": "Pasuje teraz → iść. Pasuje codziennie → chodzić.",
+      "examples": [
+        {
+          "en": "Right now Dad is on his way to work.",
+          "pl": "Teraz tata idzie do pracy."
+        },
+        {
+          "en": "Dad goes to work every day.",
+          "pl": "Codziennie tata chodzi do pracy."
+        },
+        {
+          "en": "The children are on their way to the park right now.",
+          "pl": "Dzieci teraz idą do parku."
+        },
+        {
+          "en": "The children go to school every day.",
+          "pl": "Codziennie dzieci chodzą do szkoły."
+        },
+        {
+          "en": "Are you going to the shop? (right now)",
+          "pl": "Idziesz teraz do sklepu?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I'm going now (on foot)",
+      "pl": "idę"
+    },
+    {
+      "en": "you're going now (on foot, sg)",
+      "pl": "idziesz"
+    },
+    {
+      "en": "he/she is going now (on foot)",
+      "pl": "idzie"
+    },
+    {
+      "en": "we're going now (on foot)",
+      "pl": "idziemy"
+    },
+    {
+      "en": "you're going now (on foot, pl)",
+      "pl": "idziecie"
+    },
+    {
+      "en": "they're going now (on foot)",
+      "pl": "idą"
+    },
+    {
+      "en": "I go regularly (on foot)",
+      "pl": "chodzę"
+    },
+    {
+      "en": "you go regularly (on foot, sg)",
+      "pl": "chodzisz"
+    },
+    {
+      "en": "he/she goes regularly (on foot)",
+      "pl": "chodzi"
+    },
+    {
+      "en": "we go regularly (on foot)",
+      "pl": "chodzimy"
+    },
+    {
+      "en": "you go regularly (on foot, pl)",
+      "pl": "chodzicie"
+    },
+    {
+      "en": "they go regularly (on foot)",
+      "pl": "chodzą"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Right now I'm on my way to the shop →",
+      "choices": [
+        "Teraz idę do sklepu.",
+        "Teraz chodzę do sklepu.",
+        "Codziennie chodzę do sklepu.",
+        "Codziennie idę do sklepu."
+      ],
+      "answer": "Teraz idę do sklepu.",
+      "explain": "teraz means this is happening as you speak, and that is what iść is for. chodzę would tell your listener you do it as a routine, which is a different piece of news."
+    },
+    {
+      "prompt": "Every day I go to the park →",
+      "choices": [
+        "Codziennie chodzę do parku.",
+        "Codziennie idę do parku.",
+        "Teraz idę do parku.",
+        "Teraz chodzę do parku."
+      ],
+      "answer": "Codziennie chodzę do parku.",
+      "explain": "codziennie is a routine word, so the routine verb has to follow it. Polish will not let you use idę here even though English says the same word both times."
+    },
+    {
+      "prompt": "Tata ___ do pracy. (every day)",
+      "choices": [
+        "chodzi",
+        "idzie",
+        "chodzę",
+        "chodzą"
+      ],
+      "answer": "chodzi",
+      "explain": "tata is a he, and the he-slot in the -ę/-isz class is bare -i — the same slot that gives lubi and mówi."
+    },
+    {
+      "prompt": "Tata ___ do pracy. (he is on his way now)",
+      "choices": [
+        "idzie",
+        "chodzi",
+        "idą",
+        "idziesz"
+      ],
+      "answer": "idzie"
+    },
+    {
+      "prompt": "Dzieci ___ teraz do parku.",
+      "choices": [
+        "idą",
+        "idzie",
+        "chodzą",
+        "idziemy"
+      ],
+      "answer": "idą",
+      "explain": "dzieci is plural, so you need the they-form. idą is the second of the two id- forms — it rhymes with jadą, which you already know."
+    },
+    {
+      "prompt": "The children go to school every day →",
+      "choices": [
+        "Dzieci chodzą do szkoły.",
+        "Dzieci idą do szkoły.",
+        "Dzieci chodzi do szkoły.",
+        "Dzieci chodzicie do szkoły."
+      ],
+      "answer": "Dzieci chodzą do szkoły.",
+      "explain": "Two things at once: plural subject gives the they-form, and every day gives the routine verb — chodzą."
+    },
+    {
+      "prompt": "we're on our way home (right now) →",
+      "choices": [
+        "idziemy",
+        "chodzimy",
+        "idziecie",
+        "idą"
+      ],
+      "answer": "idziemy"
+    },
+    {
+      "prompt": "you (plural) go to the office every day →",
+      "choices": [
+        "chodzicie",
+        "chodzimy",
+        "idziecie",
+        "chodzą"
+      ],
+      "answer": "chodzicie"
+    },
+    {
+      "prompt": "to go on foot — dictionary form →",
+      "choices": [
+        "iść",
+        "idę",
+        "chodzić",
+        "idziemy"
+      ],
+      "answer": "iść",
+      "explain": "The dictionary form looks almost nothing like the present tense — iść, but idę and idziesz. Nothing to derive; the grid is the thing to know."
+    },
+    {
+      "prompt": "to go regularly, on foot — dictionary form →",
+      "choices": [
+        "chodzić",
+        "iść",
+        "chodzę",
+        "chodzą"
+      ],
+      "answer": "chodzić"
+    },
+    {
+      "prompt": "every day →",
+      "choices": [
+        "codziennie",
+        "teraz",
+        "dzisiaj",
+        "często"
+      ],
+      "answer": "codziennie"
+    },
+    {
+      "prompt": "Fix: Codziennie idę do szkoły. →",
+      "choices": [
+        "chodzę",
+        "idę",
+        "chodzi",
+        "idą"
+      ],
+      "answer": "chodzę",
+      "explain": "The person is right and the destination is right; only the verb is wrong. codziennie says routine, and routine is chodzić territory."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm going now (on foot)",
+      "mode": "full_word",
+      "answer": "idę",
+      "accepts": [
+        "idę"
+      ]
+    },
+    {
+      "prompt_en": "you're going now (on foot, sg)",
+      "mode": "full_word",
+      "answer": "idziesz",
+      "accepts": [
+        "idziesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she is going now (on foot)",
+      "mode": "full_word",
+      "answer": "idzie",
+      "accepts": [
+        "idzie"
+      ],
+      "explain": "The plain -e ending of this class, the one that also gives chce and jedzie. The stem is idzi-, so the two run together as idzie."
+    },
+    {
+      "prompt_en": "we're going now (on foot)",
+      "mode": "full_word",
+      "answer": "idziemy",
+      "accepts": [
+        "idziemy"
+      ]
+    },
+    {
+      "prompt_en": "you're going now (on foot, pl)",
+      "mode": "full_word",
+      "answer": "idziecie",
+      "accepts": [
+        "idziecie"
+      ]
+    },
+    {
+      "prompt_en": "they're going now (on foot)",
+      "mode": "full_word",
+      "answer": "idą",
+      "accepts": [
+        "idą"
+      ],
+      "explain": "Back to the short id- stem, just as jadą went back to ja-. The table starts and ends with the short shape."
+    },
+    {
+      "prompt_en": "I go regularly (on foot)",
+      "mode": "full_word",
+      "answer": "chodzę",
+      "accepts": [
+        "chodzę"
+      ],
+      "explain": "The -ę here is written with no i in front of it, unlike lubię. Compare płacę — same shape."
+    },
+    {
+      "prompt_en": "you go regularly (on foot, sg)",
+      "mode": "full_word",
+      "answer": "chodzisz",
+      "accepts": [
+        "chodzisz"
+      ],
+      "explain": "-isz is the badge of this class. If a verb has -isz here, it will have -imy and -icie further down — lubisz, mówisz, chodzisz."
+    },
+    {
+      "prompt_en": "he/she goes regularly (on foot)",
+      "mode": "full_word",
+      "answer": "chodzi",
+      "accepts": [
+        "chodzi"
+      ]
+    },
+    {
+      "prompt_en": "we go regularly (on foot)",
+      "mode": "full_word",
+      "answer": "chodzimy",
+      "accepts": [
+        "chodzimy"
+      ]
+    },
+    {
+      "prompt_en": "you go regularly (on foot, pl)",
+      "mode": "full_word",
+      "answer": "chodzicie",
+      "accepts": [
+        "chodzicie"
+      ]
+    },
+    {
+      "prompt_en": "they go regularly (on foot)",
+      "mode": "full_word",
+      "answer": "chodzą",
+      "accepts": [
+        "chodzą"
+      ],
+      "explain": "No i before the -ą, matching chodzę at the top. lubią and mówią keep theirs; this verb does not."
+    },
+    {
+      "prompt_en": "every day",
+      "mode": "full_word",
+      "answer": "codziennie",
+      "accepts": [
+        "codziennie"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Right now I'm going to the shop.",
+      "answer": "Teraz idę do sklepu.",
+      "accepts": [
+        "Teraz idę do sklepu.",
+        "Teraz idę do sklepu",
+        "Idę teraz do sklepu.",
+        "Idę teraz do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Every day I go to the park.",
+      "answer": "Codziennie chodzę do parku.",
+      "accepts": [
+        "Codziennie chodzę do parku.",
+        "Codziennie chodzę do parku",
+        "Chodzę codziennie do parku.",
+        "Chodzę codziennie do parku"
+      ],
+      "explain": "Same park, same feet as the sentence above — but codziennie makes it a habit, and Polish keeps a separate verb for habits."
+    },
+    {
+      "prompt_en": "Type: Right now Dad is going to work.",
+      "answer": "Teraz tata idzie do pracy.",
+      "accepts": [
+        "Teraz tata idzie do pracy.",
+        "Teraz tata idzie do pracy",
+        "Tata teraz idzie do pracy.",
+        "Tata teraz idzie do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad goes to work every day.",
+      "answer": "Codziennie tata chodzi do pracy.",
+      "accepts": [
+        "Codziennie tata chodzi do pracy.",
+        "Codziennie tata chodzi do pracy",
+        "Tata codziennie chodzi do pracy.",
+        "Tata codziennie chodzi do pracy"
+      ],
+      "explain": "The pair to the sentence above. Only the verb tells your listener whether Dad is out of the door now or does this every morning."
+    },
+    {
+      "prompt_en": "Type: Mum is going to the pharmacy right now.",
+      "answer": "Mama teraz idzie do apteki.",
+      "accepts": [
+        "Mama teraz idzie do apteki.",
+        "Mama teraz idzie do apteki",
+        "Teraz mama idzie do apteki.",
+        "Teraz mama idzie do apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum goes to the shop every day.",
+      "answer": "Codziennie mama chodzi do sklepu.",
+      "accepts": [
+        "Codziennie mama chodzi do sklepu.",
+        "Codziennie mama chodzi do sklepu",
+        "Mama codziennie chodzi do sklepu.",
+        "Mama codziennie chodzi do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are going to the park right now.",
+      "answer": "Dzieci teraz idą do parku.",
+      "accepts": [
+        "Dzieci teraz idą do parku.",
+        "Dzieci teraz idą do parku",
+        "Teraz dzieci idą do parku.",
+        "Teraz dzieci idą do parku"
+      ],
+      "explain": "dzieci is plural, so the verb is the they-form idą — the short id- shape, the one that rhymes with jadą."
+    },
+    {
+      "prompt_en": "Type: The children go to school every day.",
+      "answer": "Codziennie dzieci chodzą do szkoły.",
+      "accepts": [
+        "Codziennie dzieci chodzą do szkoły.",
+        "Codziennie dzieci chodzą do szkoły",
+        "Dzieci codziennie chodzą do szkoły.",
+        "Dzieci codziennie chodzą do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to the shop? (right now)",
+      "answer": "Idziesz teraz do sklepu?",
+      "accepts": [
+        "Idziesz teraz do sklepu?",
+        "Idziesz teraz do sklepu",
+        "Czy idziesz teraz do sklepu?",
+        "Czy idziesz teraz do sklepu",
+        "Teraz idziesz do sklepu?",
+        "Teraz idziesz do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you go to the park every day?",
+      "answer": "Chodzisz codziennie do parku?",
+      "accepts": [
+        "Chodzisz codziennie do parku?",
+        "Chodzisz codziennie do parku",
+        "Czy chodzisz codziennie do parku?",
+        "Czy chodzisz codziennie do parku",
+        "Codziennie chodzisz do parku?",
+        "Codziennie chodzisz do parku"
+      ],
+      "explain": "English needs a different question shape for the habit — do you go, not are you going. Polish changes the verb instead and leaves the question alone."
+    },
+    {
+      "prompt_en": "Type: We're going home right now.",
+      "answer": "Teraz idziemy do domu.",
+      "accepts": [
+        "Teraz idziemy do domu.",
+        "Teraz idziemy do domu",
+        "Idziemy teraz do domu.",
+        "Idziemy teraz do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: We go to school every day.",
+      "answer": "Codziennie chodzimy do szkoły.",
+      "accepts": [
+        "Codziennie chodzimy do szkoły.",
+        "Codziennie chodzimy do szkoły",
+        "Chodzimy codziennie do szkoły.",
+        "Chodzimy codziennie do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you (plural) going to the bank right now?",
+      "answer": "Idziecie teraz do banku?",
+      "accepts": [
+        "Idziecie teraz do banku?",
+        "Idziecie teraz do banku",
+        "Czy idziecie teraz do banku?",
+        "Czy idziecie teraz do banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you (plural) go to the office every day?",
+      "answer": "Chodzicie codziennie do biura?",
+      "accepts": [
+        "Chodzicie codziennie do biura?",
+        "Chodzicie codziennie do biura",
+        "Czy chodzicie codziennie do biura?",
+        "Czy chodzicie codziennie do biura"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "iść",
+    "idzie",
+    "idziemy",
+    "idziecie",
+    "idą",
+    "chodzić",
+    "chodzę",
+    "chodzisz",
+    "chodzi",
+    "chodzimy",
+    "chodzicie",
+    "chodzą",
+    "codziennie"
+  ],
+  "uses_lemmas": [
+    "iść",
+    "idę",
+    "idziesz",
+    "idzie",
+    "idziemy",
+    "idziecie",
+    "idą",
+    "chodzić",
+    "chodzę",
+    "chodzisz",
+    "chodzi",
+    "chodzimy",
+    "chodzicie",
+    "chodzą",
+    "codziennie",
+    "teraz",
+    "dzisiaj",
+    "często",
+    "jechać",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "jedziemy",
+    "jedziecie",
+    "jadą",
+    "chcieć",
+    "chce",
+    "lubić",
+    "lubię",
+    "lubisz",
+    "lubi",
+    "lubimy",
+    "lubicie",
+    "lubią",
+    "mówić",
+    "robić",
+    "płacę",
+    "piję",
+    "kawę",
+    "czy",
+    "do sklepu",
+    "do parku",
+    "do pracy",
+    "do szkoły",
+    "do domu",
+    "do apteki",
+    "do banku",
+    "do biura",
+    "tata",
+    "mama",
+    "dzieci"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_chodzic",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
