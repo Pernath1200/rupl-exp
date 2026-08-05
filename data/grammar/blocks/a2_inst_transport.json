@@ -1,0 +1,673 @@
+{
+  "id": "a2_inst_transport",
+  "title": "Jadę autobusem",
+  "title_en": "Going by bus, train, car",
+  "level": "A2",
+  "tree_node": "a2_inst_transport",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Third job of the instrumental: identity (Jestem nauczycielem) → company (z bratem) → means (autobusem). Same case, same -em every time; that callback is the unit's gift and it opens intro slide 2. The single teaching point is the ABSENCE of a preposition — English 'by bus' has two words, Polish has none — so *z autobusem is planted as a wrong choice in nine of the twelve quiz items and the five Pisanie sentence items exist purely so the learner has a slot in front of the noun that he must leave empty. Seven forms only: autobusem, tramwajem, samochodem, rowerem, pociągiem (g pulls in i, the a1_gen_ki fact doing a third job, same as z wujkiem), plus neuter metrem and autem, which take the same -em he met in dzieckiem. Forks taken, conservative path per batch rule 7: (a) taksi IS in POOL and is genuinely indeclinable, but it is shown once in an intro table as a curiosity and never drilled, never demanded by a prompt — a whole stage of 'type nothing' would teach nothing, and the learner's job here is the ending; (b) karetka was considered as a feminine -ą form and rejected — 'by ambulance' is not everyday language for this learner and a lone feminine would dilute the one ending the unit is built on; (c) samochód → samochodem carries an ó→o stem shift, which a2_gen_pl fenced. It is unavoidable (samochód is the everyday word for car and the brief names it) so it is taught whole, flagged on its own intro row and given an explain in quiz and Pisanie; auto/autem sits beside it as the shift-free alternative. (d) jechać is assumed to supply exactly six present forms (jadę/jedziesz/jedzie/jedziemy/jedziecie/jadą) from a2_jechac and nothing else — no past of jechać anywhere, no prefixed motion verbs. FENCED: plural instrumental (autobusami), pieszo / na piechotę, past of jechać, prefixed motion verbs (pojechać, przyjechać), na rowerze / w autobusie (locative rivals, untaught), and czym — the question word is never used, hence the title Jadę autobusem.",
+  "focus_structures": [
+    "inst_transport"
+  ],
+  "teaches_structures": [
+    "inst_transport"
+  ],
+  "uses_structures": [
+    "inst_transport",
+    "inst_z",
+    "inst_identity",
+    "jechac",
+    "prep_do_gen",
+    "motion_chunk",
+    "byc_present",
+    "poss_nom",
+    "plural_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Polish has no word for by",
+      "title_pl": "Jadę autobusem — bez przyimka",
+      "body": "English needs two words: by + bus.\n\nPolish needs none. The ending on the vehicle does the whole job.\n\nJadę autobusem. = I'm going by bus.\n\nLook at what is not there. No z, no other little word — nothing at all stands in front of autobusem. The ending -em is the whole of by.\n\nThis is the one thing to get right in this unit. English will push you to write z autobusem, and that is wrong. z is for the person you travel with, never for the vehicle.",
+      "body_pl": "Środek transportu: sam narzędnik, bez przyimka.",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "What carries by / with"
+        ],
+        "rows": [
+          [
+            "by bus",
+            "autobusem",
+            "the ending, nothing else"
+          ],
+          [
+            "by car",
+            "samochodem",
+            "the ending, nothing else"
+          ],
+          [
+            "with my brother",
+            "z bratem",
+            "z + the ending"
+          ],
+          [
+            "with mum",
+            "z mamą",
+            "z + the ending"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One case, three jobs",
+      "title_pl": "Narzędnik — trzy zadania",
+      "body": "This is the instrumental (narzędnik) for the third time. You have now used one case for three different duties, and the endings have never changed.\n\nThat is the whole trick of Polish cases: you learn the endings once and they keep paying out. Masculine takes -em — in nauczycielem, in z bratem, and now in autobusem.",
+      "body_pl": "Ten sam przypadek, trzecie zadanie. Końcówka bez zmian: -em.",
+      "table": {
+        "headers": [
+          "Job",
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "who somebody is",
+            "Jestem nauczycielem.",
+            "I am a teacher."
+          ],
+          [
+            "who you are with",
+            "Idę do parku z bratem.",
+            "I'm going to the park with my brother."
+          ],
+          [
+            "how you travel",
+            "Jadę autobusem.",
+            "I'm going by bus."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The forms",
+      "title_pl": "Formy: -em",
+      "body": "Seven vehicles, one ending. Add -em to the vehicle and you have said by.\n\nmetro and auto are neuter, and neuter takes -em too — the ending you already met in On jest dzieckiem.",
+      "body_pl": "m. -em, n. -em. Ta sama końcówka co w dzieckiem.",
+      "table": {
+        "headers": [
+          "Vehicle",
+          "by ...",
+          "Note"
+        ],
+        "rows": [
+          [
+            "autobus",
+            "autobusem",
+            "plain -em"
+          ],
+          [
+            "tramwaj",
+            "tramwajem",
+            "plain -em"
+          ],
+          [
+            "rower",
+            "rowerem",
+            "plain -em"
+          ],
+          [
+            "samochód",
+            "samochodem",
+            "ó becomes o"
+          ],
+          [
+            "pociąg",
+            "pociągiem",
+            "g asks for an i"
+          ],
+          [
+            "metro",
+            "metrem",
+            "neuter, -em"
+          ],
+          [
+            "auto",
+            "autem",
+            "neuter, -em"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two to watch, one that never moves",
+      "title_pl": "Uwaga: pociągiem, samochodem, taksi",
+      "body": "pociąg → pociągiem. Polish does not put a plain e straight after g here; the g pulls an i in front of the ending, giving -iem. You have seen this fact twice already — in banki and książki, and in z wujkiem. After k and g, Polish reaches for i.\n\nsamochód → samochodem. The ó flattens to a plain o the moment an ending is added. Learn the finished word whole.\n\ntaksi never changes at all. Jadę taksi. It is one of a small handful of borrowed words that take no endings ever — a gift, not a rule.",
+      "body_pl": "g → -iem (jak wujkiem). ó → o. taksi nieodmienne.",
+      "table": {
+        "headers": [
+          "Word",
+          "What happens",
+          "Finished form"
+        ],
+        "rows": [
+          [
+            "pociąg",
+            "g takes -iem",
+            "pociągiem"
+          ],
+          [
+            "samochód",
+            "ó becomes o",
+            "samochodem"
+          ],
+          [
+            "taksi",
+            "nothing at all",
+            "taksi"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "I'm going by bus.",
+          "pl": "Jadę autobusem."
+        },
+        {
+          "en": "I'm going by train.",
+          "pl": "Jadę pociągiem."
+        },
+        {
+          "en": "My brother is going to work by car.",
+          "pl": "Brat jedzie do pracy samochodem."
+        },
+        {
+          "en": "We're going to the city by tram.",
+          "pl": "Jedziemy do miasta tramwajem."
+        },
+        {
+          "en": "Dad is going by car with mum.",
+          "pl": "Tata jedzie samochodem z mamą."
+        },
+        {
+          "en": "The children are going to school by bus.",
+          "pl": "Dzieci jadą do szkoły autobusem."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "by bus · autobus",
+      "pl": "autobusem"
+    },
+    {
+      "en": "by tram · tramwaj",
+      "pl": "tramwajem"
+    },
+    {
+      "en": "by bike · rower",
+      "pl": "rowerem"
+    },
+    {
+      "en": "by car · samochód",
+      "pl": "samochodem"
+    },
+    {
+      "en": "by train · pociąg",
+      "pl": "pociągiem"
+    },
+    {
+      "en": "by metro · metro",
+      "pl": "metrem"
+    },
+    {
+      "en": "by car · auto",
+      "pl": "autem"
+    },
+    {
+      "en": "you're going by train (sg)",
+      "pl": "Jedziesz pociągiem"
+    },
+    {
+      "en": "he's going by bike",
+      "pl": "Jedzie rowerem"
+    },
+    {
+      "en": "we're going by car",
+      "pl": "Jedziemy samochodem"
+    },
+    {
+      "en": "you're going by tram (pl)",
+      "pl": "Jedziecie tramwajem"
+    },
+    {
+      "en": "they're going by bus",
+      "pl": "Jadą autobusem"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I'm going by bus. →",
+      "choices": [
+        "Jadę autobusem.",
+        "Jadę z autobusem.",
+        "Jadę autobus.",
+        "Jadę w autobusem."
+      ],
+      "answer": "Jadę autobusem.",
+      "explain": "English by has no Polish word in front of it here. z belongs to people you travel with — z bratem — and never to the vehicle. The ending -em is doing all the work."
+    },
+    {
+      "prompt": "by train · pociąg →",
+      "choices": [
+        "pociągiem",
+        "pociągem",
+        "z pociągiem",
+        "pociąga"
+      ],
+      "answer": "pociągiem",
+      "explain": "The g will not sit straight in front of a plain e, so it pulls an i in first: -iem. Exactly what happened in z wujkiem, and the same fact as banki and książki."
+    },
+    {
+      "prompt": "by car · samochód →",
+      "choices": [
+        "samochodem",
+        "samochódem",
+        "z samochodem",
+        "samochoda"
+      ],
+      "answer": "samochodem",
+      "explain": "The ó only survives when nothing follows it. Add an ending and it flattens to a plain o: samochód, but samochodem."
+    },
+    {
+      "prompt": "by tram · tramwaj →",
+      "choices": [
+        "tramwajem",
+        "z tramwajem",
+        "tramwaja",
+        "tramwają"
+      ],
+      "answer": "tramwajem"
+    },
+    {
+      "prompt": "by bike · rower →",
+      "choices": [
+        "rowerem",
+        "z rowerem",
+        "rowera",
+        "rowerą"
+      ],
+      "answer": "rowerem"
+    },
+    {
+      "prompt": "by metro · metro →",
+      "choices": [
+        "metrem",
+        "metro",
+        "z metrem",
+        "metrom"
+      ],
+      "answer": "metrem",
+      "explain": "metro is neuter, and neuter takes the same -em as masculine. You met it once before in On jest dzieckiem."
+    },
+    {
+      "prompt": "by car · auto →",
+      "choices": [
+        "autem",
+        "auto",
+        "z autem",
+        "autom"
+      ],
+      "answer": "autem"
+    },
+    {
+      "prompt": "with my brother →",
+      "choices": [
+        "z bratem",
+        "bratem",
+        "z brata",
+        "brat"
+      ],
+      "answer": "z bratem",
+      "explain": "People keep their z. Only vehicles go bare. That is the whole difference: z bratem, but autobusem."
+    },
+    {
+      "prompt": "My brother is going to work by bus. →",
+      "choices": [
+        "Brat jedzie do pracy autobusem.",
+        "Brat jedzie do pracy z autobusem.",
+        "Brat jedzie do pracy autobus.",
+        "Brat jedzie do pracy autobusie."
+      ],
+      "answer": "Brat jedzie do pracy autobusem."
+    },
+    {
+      "prompt": "Dad is going by car with mum. →",
+      "choices": [
+        "Tata jedzie samochodem z mamą.",
+        "Tata jedzie z samochodem z mamą.",
+        "Tata jedzie samochód z mamą.",
+        "Tata jedzie samochodem mamą."
+      ],
+      "answer": "Tata jedzie samochodem z mamą.",
+      "explain": "One case doing two of its jobs in one sentence. Both nouns are in the instrumental; only the person gets a z in front of it."
+    },
+    {
+      "prompt": "We're going to the city by train. →",
+      "choices": [
+        "Jedziemy do miasta pociągiem.",
+        "Jedziemy do miasta z pociągiem.",
+        "Jedziemy do miasta pociąg.",
+        "Jedziemy do miasta pociągem."
+      ],
+      "answer": "Jedziemy do miasta pociągiem."
+    },
+    {
+      "prompt": "Are you going by tram? →",
+      "choices": [
+        "Czy jedziesz tramwajem?",
+        "Czy jedziesz z tramwajem?",
+        "Czy jedziesz tramwaj?",
+        "Czy jedziesz tramwają?"
+      ],
+      "answer": "Czy jedziesz tramwajem?",
+      "explain": "A question changes nothing inside the sentence. czy opens it, and the vehicle keeps its bare -em ending."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "by bus · autobus",
+      "mode": "full_word",
+      "answer": "autobusem",
+      "accepts": [
+        "autobusem"
+      ]
+    },
+    {
+      "prompt_en": "by tram · tramwaj",
+      "mode": "full_word",
+      "answer": "tramwajem",
+      "accepts": [
+        "tramwajem"
+      ]
+    },
+    {
+      "prompt_en": "by bike · rower",
+      "mode": "full_word",
+      "answer": "rowerem",
+      "accepts": [
+        "rowerem"
+      ]
+    },
+    {
+      "prompt_en": "by car · samochód",
+      "mode": "full_word",
+      "answer": "samochodem",
+      "accepts": [
+        "samochodem"
+      ],
+      "explain": "No ó in the middle. The vowel flattens to o as soon as an ending arrives."
+    },
+    {
+      "prompt_en": "by train · pociąg",
+      "mode": "full_word",
+      "answer": "pociągiem",
+      "accepts": [
+        "pociągiem"
+      ],
+      "explain": "Four letters at the end, not three: g asks for an i before the ending, so it is -giem."
+    },
+    {
+      "prompt_en": "by metro · metro",
+      "mode": "full_word",
+      "answer": "metrem",
+      "accepts": [
+        "metrem"
+      ]
+    },
+    {
+      "prompt_en": "by car · auto",
+      "mode": "full_word",
+      "answer": "autem",
+      "accepts": [
+        "autem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going by bus.",
+      "mode": "full_word",
+      "answer": "Jadę autobusem",
+      "accepts": [
+        "Jadę autobusem",
+        "Jadę autobusem."
+      ],
+      "explain": "Two words and no more. Nothing goes in front of autobusem — the space where English puts by stays empty in Polish."
+    },
+    {
+      "prompt_en": "Type: I'm going by train.",
+      "mode": "full_word",
+      "answer": "Jadę pociągiem",
+      "accepts": [
+        "Jadę pociągiem",
+        "Jadę pociągiem."
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going by car. (samochód)",
+      "mode": "full_word",
+      "answer": "Jadę samochodem",
+      "accepts": [
+        "Jadę samochodem",
+        "Jadę samochodem."
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going by bike.",
+      "mode": "full_word",
+      "answer": "Jadę rowerem",
+      "accepts": [
+        "Jadę rowerem",
+        "Jadę rowerem."
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going by tram.",
+      "mode": "full_word",
+      "answer": "Jadę tramwajem",
+      "accepts": [
+        "Jadę tramwajem",
+        "Jadę tramwajem."
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: My brother is going to work by bus.",
+      "answer": "Brat jedzie do pracy autobusem.",
+      "accepts": [
+        "Brat jedzie do pracy autobusem.",
+        "Brat jedzie do pracy autobusem",
+        "Mój brat jedzie do pracy autobusem.",
+        "Mój brat jedzie do pracy autobusem"
+      ],
+      "explain": "Two nouns, two different cases: do pracy is the genitive (where to), autobusem the instrumental (how). Only one of them takes a preposition."
+    },
+    {
+      "prompt_en": "Type: Mum is going to the shop by car. (samochód)",
+      "answer": "Mama jedzie do sklepu samochodem.",
+      "accepts": [
+        "Mama jedzie do sklepu samochodem.",
+        "Mama jedzie do sklepu samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is going to the city by train.",
+      "answer": "Tata jedzie do miasta pociągiem.",
+      "accepts": [
+        "Tata jedzie do miasta pociągiem.",
+        "Tata jedzie do miasta pociągiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My son is going to school by bike.",
+      "answer": "Syn jedzie do szkoły rowerem.",
+      "accepts": [
+        "Syn jedzie do szkoły rowerem.",
+        "Syn jedzie do szkoły rowerem",
+        "Mój syn jedzie do szkoły rowerem.",
+        "Mój syn jedzie do szkoły rowerem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is going to the centre by metro.",
+      "answer": "Siostra jedzie do centrum metrem.",
+      "accepts": [
+        "Siostra jedzie do centrum metrem.",
+        "Siostra jedzie do centrum metrem",
+        "Moja siostra jedzie do centrum metrem.",
+        "Moja siostra jedzie do centrum metrem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandad is going to the pharmacy by tram.",
+      "answer": "Dziadek jedzie do apteki tramwajem.",
+      "accepts": [
+        "Dziadek jedzie do apteki tramwajem.",
+        "Dziadek jedzie do apteki tramwajem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to the office by bus with dad.",
+      "answer": "Mama jedzie do biura autobusem z tatą.",
+      "accepts": [
+        "Mama jedzie do biura autobusem z tatą.",
+        "Mama jedzie do biura autobusem z tatą"
+      ],
+      "explain": "The same case twice over: autobusem is how she travels, z tatą is who with. The person needs z, the bus does not."
+    },
+    {
+      "prompt_en": "Type: Is dad going to work by car? (samochód)",
+      "answer": "Czy tata jedzie do pracy samochodem?",
+      "accepts": [
+        "Czy tata jedzie do pracy samochodem?",
+        "Czy tata jedzie do pracy samochodem",
+        "Tata jedzie do pracy samochodem?",
+        "Tata jedzie do pracy samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are going to school by bus.",
+      "answer": "Dzieci jadą do szkoły autobusem.",
+      "accepts": [
+        "Dzieci jadą do szkoły autobusem.",
+        "Dzieci jadą do szkoły autobusem"
+      ],
+      "explain": "dzieci is plural, so the verb is jadą — but the vehicle is untouched by that. autobusem stays exactly as it was."
+    },
+    {
+      "prompt_en": "Type: My friend is going home by train. (kolega)",
+      "answer": "Kolega jedzie do domu pociągiem.",
+      "accepts": [
+        "Kolega jedzie do domu pociągiem.",
+        "Kolega jedzie do domu pociągiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma is going to the hotel by car. (auto)",
+      "answer": "Babcia jedzie do hotelu autem.",
+      "accepts": [
+        "Babcia jedzie do hotelu autem.",
+        "Babcia jedzie do hotelu autem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My granddaughter is going to the park by bike.",
+      "answer": "Wnuczka jedzie do parku rowerem.",
+      "accepts": [
+        "Wnuczka jedzie do parku rowerem.",
+        "Wnuczka jedzie do parku rowerem",
+        "Moja wnuczka jedzie do parku rowerem.",
+        "Moja wnuczka jedzie do parku rowerem"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "autobusem",
+    "tramwajem",
+    "rowerem",
+    "samochodem",
+    "pociągiem",
+    "metrem",
+    "autem"
+  ],
+  "uses_lemmas": [
+    "autobus",
+    "tramwaj",
+    "rower",
+    "samochód",
+    "pociąg",
+    "metro",
+    "auto",
+    "taksi",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "jedziemy",
+    "jedziecie",
+    "jadą",
+    "idę",
+    "jestem",
+    "brat",
+    "bratem",
+    "z bratem",
+    "mamą",
+    "z mamą",
+    "tatą",
+    "z tatą",
+    "mama",
+    "tata",
+    "syn",
+    "siostra",
+    "dziadek",
+    "babcia",
+    "wnuczka",
+    "dzieci",
+    "kolega",
+    "dzieckiem",
+    "nauczycielem",
+    "do pracy",
+    "do sklepu",
+    "do miasta",
+    "do szkoły",
+    "do centrum",
+    "do apteki",
+    "do biura",
+    "do domu",
+    "do hotelu",
+    "do parku",
+    "czy",
+    "mój",
+    "moja"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_inst_transport",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 64 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 68 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -80,4 +80,8 @@ _None._
 | 62 | `a2_shopping2` | — | 19 | `byc_adj`, `byc_present`, `can_inf`, `gen_pl`, `miec_acc`, `miec_present`, `past_ac`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `present_am`, `time_past_chunk`, `to_jest`, `zgoda` |
 | 63 | `a2_shopping_func` | `situation_chunk` | 36 | `can_inf`, `existential_jest`, `miec_acc`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `social_chunk`, `ten_ta_to` |
 | 64 | `a2_inst_z` | `inst_z` | 24 | `byc_present`, `inst_identity`, `inst_z`, `miec_acc`, `motion_chunk`, `past_ac`, `past_byc`, `past_rest`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `present`, `present_am`, `present_uje`, `question` |
+| 65 | `a2_people2` | — | 22 | `byc_adj`, `byc_present`, `past_byc`, `poss_nom`, `prep_w_loc`, `question`, `ten_ta_to`, `time_past_chunk`, `zgoda` |
+| 66 | `a2_jechac` | `jechac` | 7 | `jechac`, `motion_chunk`, `plural_nom`, `poss_nom`, `prep_do_gen`, `present`, `present_e_esz`, `question` |
+| 67 | `a2_inst_transport` | `inst_transport` | 7 | `byc_present`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `motion_chunk`, `plural_nom`, `poss_nom`, `prep_do_gen`, `question` |
+| 68 | `a2_transport2` | — | 14 | `byc_adj`, `byc_present`, `existential_jest`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `negation`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `question`, `to_jest`, `zgoda` |
 

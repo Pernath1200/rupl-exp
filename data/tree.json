@@ -1672,13 +1672,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: młody, ładny, brzydki, miły, mądry, głupi, śmieszny, poważny, niski, gruby, szczupły, sympatyczny.",
+      "note": "11 new character/looks adjectives x both genders. TONE: brzydki/glupi/gruby/chudy/slaby deliberately never aimed at a named relative - weather, films, animals, a thick book, the speaker himself. Family sentences are all compliments.",
       "unit_id": "PL2_17",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "people"
+      "tree_part": "people",
+      "content": "vocab/blocks/a2_people2.json"
     },
     {
       "id": "a2_jechac",
@@ -1689,13 +1690,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] jadę/jedziesz/jedzie grid + idę vs jadę discrimination. Unlocks transport Inst next.",
+      "note": "jechac = go BY VEHICLE vs already-known ide = on foot. Endings are the -e/-esz class he owns; only the ja-/je- stem swap is new. Teaches the infinitive jechac (untaught before). isc deliberately left to a2_chodzic, so the contrast is live only at ja/ty - that unit must close it.",
       "unit_id": "PL2_18",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_jechac.json"
     },
     {
       "id": "a2_inst_transport",
@@ -1706,13 +1708,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] jadę autobusem/tramwajem/pociągiem/samochodem/rowerem, lecę samolotem preview. Czym? frame.",
+      "note": "Bare instrumental of means - NO preposition. z+vehicle planted as a wrong choice in 7 of 12 quiz items so the English-interference error is repeatedly rejected. Third job of one case: identity, company, means. samochodem taught whole (o->o shift), auto->autem beside it as the shift-free case.",
       "unit_id": "PL2_19",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_inst_transport.json"
     },
     {
       "id": "a2_transport2",
@@ -1723,13 +1726,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: kierunek, przesiadka, spóźniony, odjazd, przyjazd, bagaż, walizka, paszport, granica, lot.",
+      "note": "11 new travel nouns + spozniony/spozniona. Two soft-ending gender traps taught explicitly: bagaz is m despite -z, podroz is f despite the consonant.",
       "unit_id": "PL2_20",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "travel_city"
+      "tree_part": "travel_city",
+      "content": "vocab/blocks/a2_transport2.json"
     },
     {
       "id": "a2_directions_func",

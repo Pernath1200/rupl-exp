@@ -1,0 +1,629 @@
+{
+  "id": "a2_jechac",
+  "title": "Idę czy jadę?",
+  "title_en": "jechać · going by vehicle",
+  "level": "A2",
+  "tree_node": "a2_jechac",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Direct sequel to a1_motion, which handed him Ide/Idziesz/Wracam/Wracasz as chunks. This unit is the OTHER half of English 'go': jechac = travel by vehicle, against ide = on foot. That conceptual split is the unit, so it carries the intro's weight; the six-form grid is the second job. jechac is an -e/-esz verb, so the endings are literally the chcec/pic set from a1_present_e_esz -- called out as a callback to keep the load to one new thing. The ja-/je- stem alternation (jade/jada vs the middle four) is shown as a table fact ONLY, never dressed up as a rule -- there is nothing at A2 for him to derive. FENCED, must not appear: habitual jezdzic/chodzic (a2_chodzic), ALL past forms of jechac (jechalem etc.), prefixed motion verbs (przyjechac, wyjechac), and transport instrumentals (autobusem, pociagiem) which are the whole point of a2_inst_transport, the very next node -- vehicles appear here only as bare Nominative SUBJECTS (Autobus jedzie...), never as means. FORKS TAKEN (conservative path, batch rule 7): (a) the infinitive 'isc' is untaught anywhere in the course and tree.json explicitly assigns the full isc grid to a2_chodzic, so isc is not taught, not glossed and not even used as a quiz distractor here; the on-foot side of every contrast uses ONLY the two chunks already in the pool, ide and idziesz. Consequence, accepted: the discrimination is live at ja and ty only, and jedzie/jedziemy/jedziecie/jada have no on-foot partner in this unit. (b) Match reaches 12 with three verb+do-phrase rows; AGENTS warns against object phrases padding a form board, but the do-phrase IS the discrimination context here and a1_motion, the direct predecessor, built its board exactly this way. (c) jedziemy/jedziecie cannot take a noun subject, so those Uzycie items carry a destination phrase instead; every other Uzycie item has a real noun subject.",
+  "focus_structures": [
+    "jechac"
+  ],
+  "teaches_structures": [
+    "jechac"
+  ],
+  "uses_structures": [
+    "jechac",
+    "motion_chunk",
+    "prep_do_gen",
+    "present_e_esz",
+    "present",
+    "question",
+    "poss_nom",
+    "plural_nom"
+  ],
+  "intro": [
+    {
+      "title": "English has one word. Polish has two.",
+      "title_pl": "Idę czy jadę?",
+      "body": "English says I'm going for both of these, and never makes you say which:\n\n- I'm going to the shop — walking, on your own two feet.\n- I'm going to work — sitting in a car, a bus, a train, a tram.\n\nPolish makes you choose, every single time. There is no neutral word.\n\nOn foot → Idę. You already have this one from Idę do sklepu.\nBy vehicle → Jadę. That is the new word.\n\nThe destination does not change. Both take do + the genitive, exactly as before: do sklepu, do pracy, do domu, do szkoły.",
+      "body_pl": "Pieszo = Idę. Pojazdem = Jadę. Po obu: do + dopełniacz.",
+      "table": {
+        "headers": [
+          "How you travel",
+          "Polish",
+          "Example"
+        ],
+        "rows": [
+          [
+            "on foot",
+            "Idę",
+            "Idę do sklepu."
+          ],
+          [
+            "by car / bus / train",
+            "Jadę",
+            "Jadę do pracy."
+          ],
+          [
+            "on foot (you)",
+            "Idziesz",
+            "Idziesz do szkoły?"
+          ],
+          [
+            "by car / bus / train (you)",
+            "Jedziesz",
+            "Jedziesz do pracy?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "jechać — the full grid",
+      "title_pl": "jechać — wszystkie osoby",
+      "body": "The dictionary form is jechać — to go by vehicle. Here are all six persons.\n\nRead the two shapes straight off the table: ja- in jadę and jadą, je- in the four in the middle. That is simply how the word is built. Learn the table; there is nothing to work out.",
+      "body_pl": "Bezokolicznik: jechać. Dwa kształty: ja- (jadę, jadą), je- (środek tabeli).",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "English"
+        ],
+        "rows": [
+          [
+            "ja",
+            "jadę",
+            "I'm going (by vehicle)"
+          ],
+          [
+            "ty",
+            "jedziesz",
+            "you're going (sg)"
+          ],
+          [
+            "on / ona / ono",
+            "jedzie",
+            "he / she / it is going"
+          ],
+          [
+            "my",
+            "jedziemy",
+            "we're going"
+          ],
+          [
+            "wy",
+            "jedziecie",
+            "you're going (pl)"
+          ],
+          [
+            "oni / one",
+            "jadą",
+            "they're going"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The endings are ones you already own",
+      "title_pl": "Znane końcówki",
+      "body": "jechać belongs to the -ę/-esz class — the same class as chcieć and pić. Line them up and the endings are identical:\n\nchcę · chcesz · chce · chcemy · chcecie · chcą\njadę · jedziesz · jedzie · jedziemy · jedziecie · jadą\n\n-ę · -esz · -e · -emy · -ecie · -ą\n\nSo there is only one new thing to hold: the stem swaps between ja- and je-. The endings are old news.",
+      "body_pl": "jechać = klasa -ę/-esz, jak chcieć i pić. Końcówki te same, zmienia się tylko temat: ja- / je-.",
+      "table": {
+        "headers": [
+          "Person",
+          "chcieć (known)",
+          "jechać (new)"
+        ],
+        "rows": [
+          [
+            "ja",
+            "chcę",
+            "jadę"
+          ],
+          [
+            "ty",
+            "chcesz",
+            "jedziesz"
+          ],
+          [
+            "on / ona / ono",
+            "chce",
+            "jedzie"
+          ],
+          [
+            "my",
+            "chcemy",
+            "jedziemy"
+          ],
+          [
+            "wy",
+            "chcecie",
+            "jedziecie"
+          ],
+          [
+            "oni / one",
+            "chcą",
+            "jadą"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Vehicles travel too",
+      "title_pl": "Pojazd też jedzie",
+      "body": "A bus or a train is a he/she/it, so it takes jedzie — the same form as tata jedzie.\n\nWatch how the choice works in real sentences. Nothing about the destination tells you which verb to use; only how the person travels does.",
+      "body_pl": "Autobus, pociąg, tramwaj = on/ono → jedzie.",
+      "examples": [
+        {
+          "en": "The bus is going to the centre.",
+          "pl": "Autobus jedzie do centrum."
+        },
+        {
+          "en": "The tram is going to the city.",
+          "pl": "Tramwaj jedzie do miasta."
+        },
+        {
+          "en": "Dad is going to work. (he drives)",
+          "pl": "Tata jedzie do pracy."
+        },
+        {
+          "en": "I'm going to the shop. (I walk)",
+          "pl": "Idę do sklepu."
+        },
+        {
+          "en": "The children are going to the park. (by bus)",
+          "pl": "Dzieci jadą do parku."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "to go by vehicle (dictionary form)",
+      "pl": "jechać"
+    },
+    {
+      "en": "I'm going (by vehicle)",
+      "pl": "jadę"
+    },
+    {
+      "en": "you're going (by vehicle, sg)",
+      "pl": "jedziesz"
+    },
+    {
+      "en": "he/she is going (by vehicle)",
+      "pl": "jedzie"
+    },
+    {
+      "en": "we're going (by vehicle)",
+      "pl": "jedziemy"
+    },
+    {
+      "en": "you're going (by vehicle, pl)",
+      "pl": "jedziecie"
+    },
+    {
+      "en": "they're going (by vehicle)",
+      "pl": "jadą"
+    },
+    {
+      "en": "I'm going (on foot)",
+      "pl": "idę"
+    },
+    {
+      "en": "you're going (on foot, sg)",
+      "pl": "idziesz"
+    },
+    {
+      "en": "I'm going to work (by vehicle)",
+      "pl": "jadę do pracy"
+    },
+    {
+      "en": "I'm going to the shop (on foot)",
+      "pl": "idę do sklepu"
+    },
+    {
+      "en": "we're going home (by vehicle)",
+      "pl": "jedziemy do domu"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I'm going to work — I take the bus →",
+      "choices": [
+        "Jadę do pracy.",
+        "Idę do pracy.",
+        "Jedziesz do pracy.",
+        "Jadą do pracy."
+      ],
+      "answer": "Jadę do pracy.",
+      "explain": "Polish picks the verb by how you travel, not by where you are going. A bus has wheels, so it is jadę. The do-phrase after it is unchanged."
+    },
+    {
+      "prompt": "I'm walking to the shop →",
+      "choices": [
+        "Idę do sklepu.",
+        "Jadę do sklepu.",
+        "Jedzie do sklepu.",
+        "Jedziemy do sklepu."
+      ],
+      "answer": "Idę do sklepu.",
+      "explain": "On your own two feet it is always idę, however far away the shop is. Distance is irrelevant — only the vehicle matters."
+    },
+    {
+      "prompt": "Tata ___ do pracy. (he drives)",
+      "choices": [
+        "jedzie",
+        "jadę",
+        "jedziesz",
+        "jadą"
+      ],
+      "answer": "jedzie",
+      "explain": "tata is a he, and the he-slot in this class takes plain -e — the same slot that gives chce and pije."
+    },
+    {
+      "prompt": "we're going (by train) →",
+      "choices": [
+        "jedziemy",
+        "jedziecie",
+        "jadą",
+        "jadę"
+      ],
+      "answer": "jedziemy"
+    },
+    {
+      "prompt": "they're going (by car) →",
+      "choices": [
+        "jadą",
+        "jedziemy",
+        "jedziecie",
+        "jedzie"
+      ],
+      "answer": "jadą",
+      "explain": "jadą is the second of the two ja- forms. The je- shape covers the middle of the table only; the outer two, jadę and jadą, keep ja-."
+    },
+    {
+      "prompt": "you (plural) are going (by bus) →",
+      "choices": [
+        "jedziecie",
+        "jedziemy",
+        "jedziesz",
+        "jadą"
+      ],
+      "answer": "jedziecie"
+    },
+    {
+      "prompt": "Fix: Ja jedę do domu. →",
+      "choices": [
+        "jadę",
+        "jedziesz",
+        "jedzie",
+        "jedę"
+      ],
+      "answer": "jadę",
+      "explain": "The ja-form is one of the two that keep ja-. The ending -ę is right; the stem is not."
+    },
+    {
+      "prompt": "Fix: Ty jadziesz do szkoły. →",
+      "choices": [
+        "jedziesz",
+        "jadę",
+        "jedzie",
+        "jadziesz"
+      ],
+      "answer": "jedziesz",
+      "explain": "The mirror of the last one: ty is inside the je- block, so the stem is je-, not ja-."
+    },
+    {
+      "prompt": "to go by vehicle — dictionary form →",
+      "choices": [
+        "jechać",
+        "jadę",
+        "jedziemy",
+        "jedziecie"
+      ],
+      "answer": "jechać",
+      "explain": "The dictionary form has an -ch- that never survives into the present tense — jechać, but jadę and jedziesz. Nothing to derive; the grid is the thing to know."
+    },
+    {
+      "prompt": "Are you going to the shop? — you walk there →",
+      "choices": [
+        "Idziesz do sklepu?",
+        "Jedziesz do sklepu?",
+        "Jadę do sklepu?",
+        "Jadą do sklepu?"
+      ],
+      "answer": "Idziesz do sklepu?"
+    },
+    {
+      "prompt": "Mama ___ do apteki. (she drives)",
+      "choices": [
+        "jedzie",
+        "jedziesz",
+        "jadę",
+        "jedziemy"
+      ],
+      "answer": "jedzie"
+    },
+    {
+      "prompt": "Autobus ___ do centrum.",
+      "choices": [
+        "jedzie",
+        "jadę",
+        "jedziemy",
+        "jadą"
+      ],
+      "answer": "jedzie",
+      "explain": "A bus is an it, and it sits in the same slot as he and she — so the form is jedzie. The bus is the one doing the travelling, so it is the subject."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to go by vehicle (dictionary form)",
+      "mode": "full_word",
+      "answer": "jechać",
+      "accepts": [
+        "jechać"
+      ]
+    },
+    {
+      "prompt_en": "I'm going (by vehicle)",
+      "mode": "full_word",
+      "answer": "jadę",
+      "accepts": [
+        "jadę"
+      ],
+      "explain": "Only two forms keep the ja- shape, and this is one of them. The other is jadą."
+    },
+    {
+      "prompt_en": "you're going (by vehicle, sg)",
+      "mode": "full_word",
+      "answer": "jedziesz",
+      "accepts": [
+        "jedziesz"
+      ],
+      "explain": "The -esz ending is the one you already use in chcesz and pijesz — this class always has it. What is new is the je- stem."
+    },
+    {
+      "prompt_en": "he/she is going (by vehicle)",
+      "mode": "full_word",
+      "answer": "jedzie",
+      "accepts": [
+        "jedzie"
+      ]
+    },
+    {
+      "prompt_en": "we're going (by vehicle)",
+      "mode": "full_word",
+      "answer": "jedziemy",
+      "accepts": [
+        "jedziemy"
+      ]
+    },
+    {
+      "prompt_en": "you're going (by vehicle, pl)",
+      "mode": "full_word",
+      "answer": "jedziecie",
+      "accepts": [
+        "jedziecie"
+      ]
+    },
+    {
+      "prompt_en": "they're going (by vehicle)",
+      "mode": "full_word",
+      "answer": "jadą",
+      "accepts": [
+        "jadą"
+      ],
+      "explain": "Back to ja-. The table starts and ends with the ja- shape and has je- in between."
+    },
+    {
+      "prompt_en": "I'm going (on foot)",
+      "mode": "full_word",
+      "answer": "idę",
+      "accepts": [
+        "idę"
+      ]
+    },
+    {
+      "prompt_en": "you're going (on foot, sg)",
+      "mode": "full_word",
+      "answer": "idziesz",
+      "accepts": [
+        "idziesz"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad is going to work. (he drives)",
+      "answer": "Tata jedzie do pracy.",
+      "accepts": [
+        "Tata jedzie do pracy.",
+        "Tata jedzie do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to the shop. (she drives)",
+      "answer": "Mama jedzie do sklepu.",
+      "accepts": [
+        "Mama jedzie do sklepu.",
+        "Mama jedzie do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the shop. (I walk)",
+      "answer": "Idę do sklepu.",
+      "accepts": [
+        "Idę do sklepu.",
+        "Idę do sklepu"
+      ],
+      "explain": "Same shop, different verb from the sentence above. Polish is not asking where you are going — it is asking whether your feet or your wheels are doing the work."
+    },
+    {
+      "prompt_en": "Type: The bus is going to the centre.",
+      "answer": "Autobus jedzie do centrum.",
+      "accepts": [
+        "Autobus jedzie do centrum.",
+        "Autobus jedzie do centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: The train is going to the city.",
+      "answer": "Pociąg jedzie do miasta.",
+      "accepts": [
+        "Pociąg jedzie do miasta.",
+        "Pociąg jedzie do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is going to school. (by bus)",
+      "answer": "Mój brat jedzie do szkoły.",
+      "accepts": [
+        "Mój brat jedzie do szkoły.",
+        "Mój brat jedzie do szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma is going to the pharmacy. (by car)",
+      "answer": "Babcia jedzie do apteki.",
+      "accepts": [
+        "Babcia jedzie do apteki.",
+        "Babcia jedzie do apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are going to the park. (by bus)",
+      "answer": "Dzieci jadą do parku.",
+      "accepts": [
+        "Dzieci jadą do parku.",
+        "Dzieci jadą do parku"
+      ],
+      "explain": "dzieci is plural, so the verb is the they-form jadą — the ja- shape again."
+    },
+    {
+      "prompt_en": "Type: My parents are going home. (by car)",
+      "answer": "Rodzice jadą do domu.",
+      "accepts": [
+        "Rodzice jadą do domu.",
+        "Rodzice jadą do domu",
+        "Moi rodzice jadą do domu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to work? (by car)",
+      "answer": "Jedziesz do pracy?",
+      "accepts": [
+        "Jedziesz do pracy?",
+        "Jedziesz do pracy",
+        "Czy jedziesz do pracy?",
+        "Czy jedziesz do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you going to work? (on foot)",
+      "answer": "Idziesz do pracy?",
+      "accepts": [
+        "Idziesz do pracy?",
+        "Idziesz do pracy",
+        "Czy idziesz do pracy?",
+        "Czy idziesz do pracy"
+      ],
+      "explain": "The pair to the question above. Only the verb tells your listener whether you are walking or driving — nothing else in the sentence carries that."
+    },
+    {
+      "prompt_en": "Type: Today I'm going to the office. (by car)",
+      "answer": "Dzisiaj jadę do biura.",
+      "accepts": [
+        "Dzisiaj jadę do biura.",
+        "Dzisiaj jadę do biura",
+        "Jadę dzisiaj do biura.",
+        "Jadę dzisiaj do biura"
+      ]
+    },
+    {
+      "prompt_en": "Type: We're going to the hotel. (by car)",
+      "answer": "Jedziemy do hotelu.",
+      "accepts": [
+        "Jedziemy do hotelu.",
+        "Jedziemy do hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are you (plural) going to the bank? (by car)",
+      "answer": "Jedziecie do banku?",
+      "accepts": [
+        "Jedziecie do banku?",
+        "Jedziecie do banku",
+        "Czy jedziecie do banku?",
+        "Czy jedziecie do banku"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "jechać",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "jedziemy",
+    "jedziecie",
+    "jadą"
+  ],
+  "uses_lemmas": [
+    "jechać",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "jedziemy",
+    "jedziecie",
+    "jadą",
+    "idę",
+    "idziesz",
+    "chcę",
+    "chcesz",
+    "chce",
+    "chcemy",
+    "chcecie",
+    "chcą",
+    "czy",
+    "do pracy",
+    "do sklepu",
+    "do domu",
+    "do szkoły",
+    "do miasta",
+    "do centrum",
+    "do parku",
+    "do apteki",
+    "do biura",
+    "do hotelu",
+    "do banku",
+    "tata",
+    "mama",
+    "brat",
+    "mój",
+    "babcia",
+    "dzieci",
+    "rodzice",
+    "autobus",
+    "tramwaj",
+    "pociąg",
+    "centrum",
+    "dzisiaj"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_jechac",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

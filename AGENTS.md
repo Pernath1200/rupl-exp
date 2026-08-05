@@ -164,6 +164,22 @@ I can't allow this."* An assembly unit should introduce only one new thing.
 - Never re-teach a lemma an earlier pack already taught — recycle it instead,
   and list it in `uses_lemmas`.
 
+## Unit titles are learner-visible chrome
+
+Both `title` (Polish) and `title_en` appear on the map and in practice. So:
+
+- **Never put an untaught Polish form in a title.** Caught three times in one
+  night: *Z kim?* (`kim`), *Jechać · pojazdem* (`pojazdem`), and A1's own
+  *Być · fundament* — where *być* itself was untaught for 45 units.
+- Prefer the house pattern — name the case or the contrast with material the
+  learner already has: `Mieć + biernik`, `Z + narzędnik`, `Idę czy jadę?`.
+- **No builder jargon in `title_en`.** *seed*, *light*, *shells* are not learner
+  English. A1 still carries "Być seed (not greetings)" and "Have + accusative
+  light"; don't add more.
+
+The Polish shorthand line (`body_pl`) is the one place untaught metalanguage is
+allowed by convention — case names like *miejscownik* already live there.
+
 ## Explanations
 
 Items may carry an optional `explain` string (learner English). It renders as an
