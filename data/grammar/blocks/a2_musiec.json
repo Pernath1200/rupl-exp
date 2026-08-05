@@ -1,0 +1,654 @@
+{
+  "id": "a2_musiec",
+  "title": "Muszę · można · trzeba",
+  "title_en": "Must / one can / one must",
+  "level": "A2",
+  "tree_node": "a2_musiec",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Closes the modal set opened by a1_trunk_can (moge / umiem) and continued by a2_bedzie (bede). Same helper+infinitive shape, stated outright on slide 1 so the only new material is the six forms of musiec plus two invariable words. POOL CHECK: musiec itself is NOT in the taught pool (verified against the end-of-a2_transport2 regeneration), so the infinitive is named on slide 1 and carried in teaches_lemmas alongside the six present forms. TWO GIFTS, both echoing a2_bedzie: (1) muszE / muszA carry sz, the middle four carry plain s -- slide 2 isolates that one spelling trap so it does not get discovered by failing; (2) NO GENDER anywhere -- slide 3 sets mieszkalem/mieszkalam against a single muszE, and quiz 7 tests it directly; mozna and trzeba go further and carry no person, gender or number at all, which slide 4 names as the whole point of them. IMPERSONALS framed as situation-not-person: mozna/trzeba describe the shop or the station, moge/musze describe the speaker. Slide 5 makes the bridge on material he already owns -- the a2_shopping_func chunk 'Czy moge placic karta?' becomes 'Czy tu mozna placic karta?', which is the question that actually gets a useful answer. FENCED, absent everywhere: (a) past of musiec (musialem/musiala, trzeba bylo) -- it would hand back the gender this unit just removed; (b) conditional powinienem; (c) warto, listed on the tree draft note but dropped -- a third invariable word is load for no survival gain; (d) perfective infinitives after the modals (kupic, ugotowac, zaplacic) -- aspect is a2_aspect, so every complement here is imperfective. FORK TAKEN ON NEGATION: nie muszE ('I do not have to') and nie mozna ('it is forbidden') both flip meaning in ways English speakers get wrong, and setting them against each other is well past A2. No item in this pack is negated, and nothing implies a negative exists yet; nie mozna belongs with sign-reading later. GLOSS POLICY: modal complements are glossed with plain 'have to / can' + bare English verb ('has to cook lunch'), not progressive -- unlike a2_bedzie there is no rival future form to mis-map, and the obligation reading is habitual anyway. VERBS USED, all pool-verified: pracowac, mieszkac, czytac, robic, pic, kupowac, gotowac, jechac, placic. Deliberately NOT used: czekac, isc, chodzic -- absent from the pool, so 'Trzeba czekac' had to be replaced (Tu trzeba placic gotowka, Na dworcu trzeba kupowac bilety).",
+  "focus_structures": [
+    "musiec"
+  ],
+  "teaches_structures": [
+    "musiec"
+  ],
+  "uses_structures": [
+    "musiec",
+    "can_inf",
+    "bedzie",
+    "past_ac",
+    "past_byc",
+    "present",
+    "present_uje",
+    "present_am",
+    "question",
+    "prep_w_loc",
+    "prep_place",
+    "inst_transport",
+    "situation_chunk",
+    "poss_nom",
+    "plural_nom",
+    "miec_acc"
+  ],
+  "intro": [
+    {
+      "title": "A fourth helper",
+      "title_pl": "Czwarty pomocnik",
+      "body": "You have built this shape three times already:\n\nMogę pracować. — I can work.\nUmiem gotować. — I can cook.\nBędę pracować. — I will work.\n\nOne helper verb carries the person, and the second verb stays exactly as a dictionary prints it. Nothing else happens in the sentence.\n\nHere is the fourth helper. The verb is musieć, and English gives you two ways to say it — must, or have to. Take whichever sounds better; Polish makes no distinction.\n\nMuszę pracować. — I have to work.\n\nSix forms, and the shape around them is already yours.",
+      "body_pl": "musieć + bezokolicznik — jak mogę / umiem / będę. Nowy jest tylko pomocnik.",
+      "table": {
+        "headers": [
+          "Person",
+          "Helper",
+          "Example"
+        ],
+        "rows": [
+          [
+            "ja",
+            "muszę",
+            "Muszę pracować."
+          ],
+          [
+            "ty",
+            "musisz",
+            "Musisz płacić."
+          ],
+          [
+            "on / ona / ono",
+            "musi",
+            "Mama musi gotować obiad."
+          ],
+          [
+            "my",
+            "musimy",
+            "Musimy czytać książkę."
+          ],
+          [
+            "wy",
+            "musicie",
+            "Musicie pić wodę."
+          ],
+          [
+            "oni / one",
+            "muszą",
+            "Dzieci muszą pić mleko."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "s or sz?",
+      "title_pl": "s czy sz?",
+      "body": "Six forms, one small spelling trap. Two of them carry sz in the middle. The other four keep a plain s.\n\nmuszę · muszą — sz\nmusisz · musi · musimy · musicie — s\n\nThe ty-form musisz does end in -sz, but every ty-form does — pracujesz, czytasz, mieszkasz. That final -sz is the person ending, and it tells you nothing about the middle of the word. The stem s in front of it stays plain.",
+      "body_pl": "muszę i muszą mają sz. Pozostałe cztery formy mają s. Końcówka -sz w musisz to końcówka osoby.",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "Middle letter"
+        ],
+        "rows": [
+          [
+            "ja",
+            "muszę",
+            "sz"
+          ],
+          [
+            "ty",
+            "musisz",
+            "s"
+          ],
+          [
+            "on / ona / ono",
+            "musi",
+            "s"
+          ],
+          [
+            "my",
+            "musimy",
+            "s"
+          ],
+          [
+            "wy",
+            "musicie",
+            "s"
+          ],
+          [
+            "oni / one",
+            "muszą",
+            "sz"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Nothing here has a gender",
+      "title_pl": "Bez rodzaju",
+      "body": "In the past you had to stop and choose every single time — mieszkałem if a man is speaking, mieszkałam if a woman is. Byłem or byłam. Two Polish words for one English one.\n\nMuszę asks nothing of the kind. A man writes muszę, a woman writes muszę, and it is the same word on the page. The same goes for all six forms, exactly as it did for będę.\n\nIt holds from the other side too. Mama musi gotować and Tata musi gotować — the same musi both times. The subject changes; the helper does not notice.",
+      "body_pl": "Czas przeszły: mieszkałem / mieszkałam. Tutaj: muszę dla wszystkich.",
+      "table": {
+        "headers": [
+          "Speaker",
+          "Past — pick one",
+          "Now — no choice"
+        ],
+        "rows": [
+          [
+            "I (man)",
+            "mieszkałem",
+            "muszę"
+          ],
+          [
+            "I (woman)",
+            "mieszkałam",
+            "muszę"
+          ],
+          [
+            "you (man)",
+            "mieszkałeś",
+            "musisz"
+          ],
+          [
+            "you (woman)",
+            "mieszkałaś",
+            "musisz"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two words that never change at all",
+      "title_pl": "można · trzeba",
+      "body": "Six forms is a short list. Here are two words with no list at all.\n\nmożna + dictionary form — one can, it is allowed\ntrzeba + dictionary form — one must, it is necessary\n\nNeither word ever changes. No person ending, no male or female form, no singular and no plural. There is one można, there is one trzeba, and that is the whole verb.\n\nMożna płacić kartą. — You can pay by card.\nTrzeba płacić gotówką. — You have to pay in cash.\n\nNotice what is missing from both: anybody. Muszę names me. Można and trzeba name nobody — they describe the situation, not the person standing in it.",
+      "body_pl": "można / trzeba — formy nieosobowe. Nie odmieniają się: bez osoby, bez rodzaju, bez liczby.",
+      "examples": [
+        {
+          "en": "You can pay by card.",
+          "pl": "Można płacić kartą."
+        },
+        {
+          "en": "You have to pay in cash.",
+          "pl": "Trzeba płacić gotówką."
+        },
+        {
+          "en": "You can cook at home.",
+          "pl": "Można gotować w domu."
+        },
+        {
+          "en": "You have to buy tickets.",
+          "pl": "Trzeba kupować bilety."
+        }
+      ]
+    },
+    {
+      "title": "The question you already ask, made general",
+      "title_pl": "Czy mogę…? · Czy można…?",
+      "body": "At the shop you learned this one:\n\nCzy mogę płacić kartą? — Can I pay by card?\n\nThat asks about you. Swap mogę for można and the question stops being personal:\n\nCzy tu można płacić kartą? — Can you pay by card here?\n\nThis is usually the more useful question, because the answer is about the shop rather than about you.\n\nEnglish hides the difference — we say you can pay by card here even when we mean anyone at all. Polish keeps the two apart, and można is the word for anyone.\n\nTrzeba does the same job for obligation. Na dworcu trzeba kupować bilety says the tickets have to be bought there, without naming who buys them.",
+      "body_pl": "Czy mogę…? pyta o mnie. Czy można…? pyta o sytuację.",
+      "examples": [
+        {
+          "en": "Can you pay by card here?",
+          "pl": "Czy tu można płacić kartą?"
+        },
+        {
+          "en": "Here you have to pay in cash.",
+          "pl": "Tu trzeba płacić gotówką."
+        },
+        {
+          "en": "At the station you have to buy tickets.",
+          "pl": "Na dworcu trzeba kupować bilety."
+        },
+        {
+          "en": "Mum has to cook lunch.",
+          "pl": "Mama musi gotować obiad."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I must …",
+      "pl": "muszę"
+    },
+    {
+      "en": "you must … (sg)",
+      "pl": "musisz"
+    },
+    {
+      "en": "he / she must …",
+      "pl": "musi"
+    },
+    {
+      "en": "we must …",
+      "pl": "musimy"
+    },
+    {
+      "en": "you must … (pl)",
+      "pl": "musicie"
+    },
+    {
+      "en": "they must …",
+      "pl": "muszą"
+    },
+    {
+      "en": "one can … / it is allowed",
+      "pl": "można"
+    },
+    {
+      "en": "one must … / it is necessary",
+      "pl": "trzeba"
+    },
+    {
+      "en": "I have to work",
+      "pl": "muszę pracować"
+    },
+    {
+      "en": "you have to pay (sg)",
+      "pl": "musisz płacić"
+    },
+    {
+      "en": "one can read",
+      "pl": "można czytać"
+    },
+    {
+      "en": "one has to cook",
+      "pl": "trzeba gotować"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ pracować. (ja)",
+      "choices": [
+        "Muszę",
+        "Musisz",
+        "Musi",
+        "Muszą"
+      ],
+      "answer": "Muszę",
+      "explain": "The helper carries the person, and ja takes muszę — one of the two forms with sz in the middle."
+    },
+    {
+      "prompt": "Mama ___ gotować obiad.",
+      "choices": [
+        "musi",
+        "muszę",
+        "muszą",
+        "musimy"
+      ],
+      "answer": "musi",
+      "explain": "mama is a she, so the helper is musi — and tata would take musi too. One form covers he, she and it."
+    },
+    {
+      "prompt": "Dzieci ___ pić mleko.",
+      "choices": [
+        "muszą",
+        "musi",
+        "musimy",
+        "musicie"
+      ],
+      "answer": "muszą",
+      "explain": "dzieci is plural, so the subject is a they — muszą."
+    },
+    {
+      "prompt": "Jutro ___ czytać książkę. (my)",
+      "choices": [
+        "musimy",
+        "musicie",
+        "muszą",
+        "musisz"
+      ],
+      "answer": "musimy"
+    },
+    {
+      "prompt": "___ płacić kartą. (wy)",
+      "choices": [
+        "Musicie",
+        "Musimy",
+        "Muszą",
+        "Muszę"
+      ],
+      "answer": "Musicie"
+    },
+    {
+      "prompt": "Which is Polish?",
+      "choices": [
+        "Muszę pracować.",
+        "Muszę pracuję.",
+        "Muszę pracujesz.",
+        "Musisz pracuję."
+      ],
+      "answer": "Muszę pracować.",
+      "explain": "Only the helper takes a person ending. The second verb stays in its dictionary form — the same build as mogę pracować and będę pracować."
+    },
+    {
+      "prompt": "I have to cook — a woman speaking →",
+      "choices": [
+        "muszę gotować",
+        "musisz gotować",
+        "musi gotować",
+        "muszą gotować"
+      ],
+      "answer": "muszę gotować",
+      "explain": "There is no woman's form to look for. The past made you choose mieszkałam over mieszkałem; muszę is the only form there is."
+    },
+    {
+      "prompt": "Czy tu ___ płacić kartą?",
+      "choices": [
+        "można",
+        "muszę",
+        "musi",
+        "musimy"
+      ],
+      "answer": "można",
+      "explain": "The question is about the shop, not about you. Można asks whether card payment is possible here at all — mogę would ask only about yourself."
+    },
+    {
+      "prompt": "Na dworcu ___ kupować bilety.",
+      "choices": [
+        "trzeba",
+        "można",
+        "musisz",
+        "muszą"
+      ],
+      "answer": "trzeba",
+      "explain": "Nobody is named in this sentence, so no person form fits. Trzeba states the requirement and leaves the buyer out."
+    },
+    {
+      "prompt": "Trzeba ___ bilety.",
+      "choices": [
+        "kupować",
+        "kupuję",
+        "kupujesz",
+        "kupują"
+      ],
+      "answer": "kupować",
+      "explain": "Trzeba has no person of its own, so there is no person for the second verb to agree with. It stays in its dictionary form."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I must …",
+      "mode": "full_word",
+      "answer": "muszę",
+      "accepts": [
+        "muszę"
+      ],
+      "explain": "sz in the middle, and one form only — a man and a woman both write muszę."
+    },
+    {
+      "prompt_en": "you must … (sg)",
+      "mode": "full_word",
+      "answer": "musisz",
+      "accepts": [
+        "musisz"
+      ],
+      "explain": "Plain s in the middle. The -sz on the end is the ty ending you already write in czytasz and mieszkasz."
+    },
+    {
+      "prompt_en": "he / she must …",
+      "mode": "full_word",
+      "answer": "musi",
+      "accepts": [
+        "musi"
+      ],
+      "explain": "The past needed three here — mieszkał, mieszkała, mieszkało. This needs one: musi."
+    },
+    {
+      "prompt_en": "we must …",
+      "mode": "full_word",
+      "answer": "musimy",
+      "accepts": [
+        "musimy"
+      ]
+    },
+    {
+      "prompt_en": "you must … (pl)",
+      "mode": "full_word",
+      "answer": "musicie",
+      "accepts": [
+        "musicie"
+      ]
+    },
+    {
+      "prompt_en": "they must …",
+      "mode": "full_word",
+      "answer": "muszą",
+      "accepts": [
+        "muszą"
+      ],
+      "explain": "The second sz form. muszę and muszą are the pair that break the plain s."
+    },
+    {
+      "prompt_en": "one can … / it is allowed",
+      "mode": "full_word",
+      "answer": "można",
+      "accepts": [
+        "można"
+      ],
+      "explain": "Nothing to choose. There is no ja-form, no ty-form and no woman's form of można — this is the whole word."
+    },
+    {
+      "prompt_en": "one must … / it is necessary",
+      "mode": "full_word",
+      "answer": "trzeba",
+      "accepts": [
+        "trzeba"
+      ]
+    },
+    {
+      "prompt_en": "I have to work",
+      "mode": "full_word",
+      "answer": "muszę pracować",
+      "accepts": [
+        "muszę pracować"
+      ],
+      "explain": "Helper first, dictionary form second — the same two-part build as mogę pracować."
+    },
+    {
+      "prompt_en": "one can pay",
+      "mode": "full_word",
+      "answer": "można płacić",
+      "accepts": [
+        "można płacić"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum has to cook lunch.",
+      "answer": "Mama musi gotować obiad.",
+      "accepts": [
+        "Mama musi gotować obiad.",
+        "Mama musi gotować obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad has to work in the office.",
+      "answer": "Tata musi pracować w biurze.",
+      "accepts": [
+        "Tata musi pracować w biurze.",
+        "Tata musi pracować w biurze"
+      ],
+      "explain": "musi for Dad and musi for Mum. The helper does not react to gender the way mieszkał / mieszkała did."
+    },
+    {
+      "prompt_en": "Type: My brother has to buy bread.",
+      "answer": "Mój brat musi kupować chleb.",
+      "accepts": [
+        "Mój brat musi kupować chleb.",
+        "Mój brat musi kupować chleb",
+        "Brat musi kupować chleb.",
+        "Brat musi kupować chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children have to drink milk.",
+      "answer": "Dzieci muszą pić mleko.",
+      "accepts": [
+        "Dzieci muszą pić mleko.",
+        "Dzieci muszą pić mleko"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow we have to read a book.",
+      "answer": "Jutro musimy czytać książkę.",
+      "accepts": [
+        "Jutro musimy czytać książkę.",
+        "Jutro musimy czytać książkę",
+        "Musimy jutro czytać książkę.",
+        "Musimy jutro czytać książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: You (plural) have to drink water.",
+      "answer": "Musicie pić wodę.",
+      "accepts": [
+        "Musicie pić wodę.",
+        "Musicie pić wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you have to cook lunch tomorrow?",
+      "answer": "Czy musisz jutro gotować obiad?",
+      "accepts": [
+        "Czy musisz jutro gotować obiad?",
+        "Czy musisz jutro gotować obiad",
+        "Czy jutro musisz gotować obiad?",
+        "Czy jutro musisz gotować obiad",
+        "Musisz jutro gotować obiad?",
+        "Musisz jutro gotować obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna has to go by bus.",
+      "answer": "Anna musi jechać autobusem.",
+      "accepts": [
+        "Anna musi jechać autobusem.",
+        "Anna musi jechać autobusem"
+      ],
+      "explain": "jechać goes in after the helper untouched, like every other verb — and autobusem still tells you the means of travel."
+    },
+    {
+      "prompt_en": "Type: Can you pay by card here?",
+      "answer": "Czy tu można płacić kartą?",
+      "accepts": [
+        "Czy tu można płacić kartą?",
+        "Czy tu można płacić kartą",
+        "Czy można tu płacić kartą?",
+        "Czy można tu płacić kartą",
+        "Czy tutaj można płacić kartą?",
+        "Czy tutaj można płacić kartą"
+      ],
+      "explain": "Można, not mogę. The question is about what this shop allows, so nobody is named — and with no person named there is no ending to get wrong."
+    },
+    {
+      "prompt_en": "Type: Here you have to pay in cash.",
+      "answer": "Tu trzeba płacić gotówką.",
+      "accepts": [
+        "Tu trzeba płacić gotówką.",
+        "Tu trzeba płacić gotówką",
+        "Tutaj trzeba płacić gotówką.",
+        "Tutaj trzeba płacić gotówką"
+      ]
+    },
+    {
+      "prompt_en": "Type: At the station you have to buy tickets.",
+      "answer": "Na dworcu trzeba kupować bilety.",
+      "accepts": [
+        "Na dworcu trzeba kupować bilety.",
+        "Na dworcu trzeba kupować bilety",
+        "Trzeba kupować bilety na dworcu.",
+        "Trzeba kupować bilety na dworcu"
+      ],
+      "explain": "Trzeba never says who. The sentence states what the station requires and leaves the person out of it entirely."
+    }
+  ],
+  "teaches_lemmas": [
+    "musieć",
+    "muszę",
+    "musisz",
+    "musi",
+    "musimy",
+    "musicie",
+    "muszą",
+    "można",
+    "trzeba"
+  ],
+  "uses_lemmas": [
+    "mogę",
+    "możesz",
+    "może",
+    "umiem",
+    "umie",
+    "będę",
+    "będzie",
+    "pracować",
+    "mieszkać",
+    "czytać",
+    "robić",
+    "pić",
+    "kupować",
+    "gotować",
+    "jechać",
+    "płacić",
+    "pracuję",
+    "pracujesz",
+    "czytasz",
+    "mieszkasz",
+    "kupuję",
+    "kupujesz",
+    "kupują",
+    "mieszkałem",
+    "mieszkałam",
+    "mieszkałeś",
+    "mieszkałaś",
+    "mieszkał",
+    "mieszkała",
+    "mieszkało",
+    "byłem",
+    "byłam",
+    "czy mogę płacić kartą",
+    "płacę kartą",
+    "płacę gotówką",
+    "kartą",
+    "gotówką",
+    "mama",
+    "tata",
+    "brat",
+    "mój",
+    "dzieci",
+    "anna",
+    "obiad",
+    "chleb",
+    "mleko",
+    "wodę",
+    "książkę",
+    "bilet",
+    "bilety",
+    "w domu",
+    "w biurze",
+    "w sklepie",
+    "na dworcu",
+    "autobusem",
+    "tu",
+    "tutaj",
+    "jutro",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_musiec",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

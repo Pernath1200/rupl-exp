@@ -1851,13 +1851,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: wstaję, budzę się, myję się, ubieram się, śniadanie recycled, wychodzę, wracam recycled, kładę się spać, zwykle, codziennie.",
+      "note": "Daily routine, built to a five-line connected day - the first paragraph-shaped thing he can say. sie verbs framed exactly as a2_sie: sie belongs to the verb, never \"self\", and the English glosses (wake up / have a wash / get dressed) carry no self either. Closes two real gaps: jem/jesz (present of jesc) and the infinitive wracac were taught nowhere.",
       "unit_id": "PL2_27",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "daily"
+      "tree_part": "daily",
+      "content": "vocab/blocks/a2_routine.json"
     },
     {
       "id": "a2_house",
@@ -1904,13 +1905,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] muszę/musisz + inf grid; impersonal można/trzeba/warto + inf chunks. Completes modal set with umiem/mogę/chcę.",
+      "note": "musze + infinitive, plus the invariable impersonals mozna/trzeba framed as situation-not-person. Negation deliberately kept out entirely: nie musze and nie mozna both flip meaning and setting them against each other is past A2. warto dropped as load for no survival gain.",
       "unit_id": "PL2_30",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_musiec.json"
     },
     {
       "id": "a2_work2",

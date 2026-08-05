@@ -1,0 +1,671 @@
+{
+  "id": "a2_aspect",
+  "title": "Kupowałem czy kupiłem?",
+  "title_en": "Was buying, or bought?",
+  "level": "A2",
+  "tree_node": "a2_aspect",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Aspect, named for the first time, IN THE PAST TENSE ONLY. The whole course to this point has been imperfective by design and the past glosses were written to survive this unit (dynamic = 'was buying', stative = 'knew'), so nothing has to be un-taught here. FOUR twins only: kupować/kupić, robić/zrobić, pić/wypić, czytać/przeczytać. DROPPED the fifth candidate gotować/ugotować — POOL has gotować/gotuje/gotuję but NO past form of gotować has ever been taught, so there is no imperfective past to contrast against; teaching ugotowałem would have meant teaching two new forms at once. FENCED, must not appear anywhere: the PERFECTIVE FUTURE (kupię, zrobię, wypiję, przeczytam) — B1, a different formation, and a2_bedzie has just told the learner the future is będę + infinitive. No table, no distractor, no explain hints that a second future exists. Also note będę itself is NOT in the taught pool at this point (POOL regenerated at the last live node, a2_transport2), so the future is not referenced in Polish at all — the fence is made in English on intro slide 6 ('this choice belongs to the past'). NO PREFIX RULE. The prefixes are z-, wy-, prze- and they are unpredictable; intro slide 2 says so outright and points at the miałem/chciałem precedent — learn the pair whole, never build the second verb from the first. SINGULAR ONLY, both genders in production. Neuter perfectives (kupiło, wypiło) deliberately not taught — nothing demands them and 18 new forms is already the ceiling. FORM BUDGET: wypić carries the full singular paradigm incl. ty-forms (chosen because its imperfective partner piłeś/piłaś IS taught, unlike kupowałeś/czytałaś which are not); kupić, zrobić, przeczytać get I-m / I-f / he / she. 18 new forms total. TIME EVIDENCE verified against POOL: zawsze, często, czasami, wczoraj all present. codziennie is NOT in the pool and was therefore dropped in favour of czasami. Match is deliberately the contrast itself — 6 minimal pairs, imperfective beside perfective — which is what the whole-board reveal is for.",
+  "focus_structures": [
+    "aspect_past"
+  ],
+  "teaches_structures": [
+    "aspect_past"
+  ],
+  "uses_structures": [
+    "aspect_past",
+    "past_ac",
+    "past_rest",
+    "past_byc",
+    "miec_acc",
+    "poss_nom",
+    "prep_w_loc",
+    "present_uje",
+    "present_e_esz",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Two pasts, not one",
+      "title_pl": "Dwa rodzaje przeszłości",
+      "body": "Everything you have said about the past so far has described an activity — what was going on, or what you used to do. Kupowałem chleb: I was buying bread, I used to buy bread.\n\nThere is a second way to talk about the past, and Polish uses a different verb for it. Kupiłem chleb: I bought the bread. Once. Finished. The bread is in the bag.\n\nEnglish shows this by changing the shape of the verb — was buying / bought. Polish shows it by swapping the verb itself. The two verbs come as a pair, and you learn both together.\n\nThe names for them are imperfective — the activity, no endpoint — and perfective — one finished action with a result.",
+      "body_pl": "Czasownik niedokonany: czynność. Czasownik dokonany: wynik.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What it tells you"
+        ],
+        "rows": [
+          [
+            "Kupowałem chleb.",
+            "I was buying bread. / I used to buy bread.",
+            "the activity — going on, or repeated"
+          ],
+          [
+            "Kupiłem chleb.",
+            "I bought the bread.",
+            "one action, finished — and I have the bread"
+          ],
+          [
+            "Czytałem książkę.",
+            "I was reading a book.",
+            "I was in the middle of it"
+          ],
+          [
+            "Przeczytałem książkę.",
+            "I read the book.",
+            "I got to the end of it"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The four pairs — learn them as pairs",
+      "title_pl": "Cztery pary czasowników",
+      "body": "Here are the four pairs. Read each line as one item of vocabulary: one meaning, two verbs, two different jobs.\n\nNow look at the front of the perfective verbs. One takes z-, one takes wy-, one takes prze-, and kupić takes nothing at all. There is no rule here and nothing to work out — you cannot predict which piece a verb takes. Polish simply has these pairs.\n\nSo learn the pair, the way you learned miałem and chciałem as whole words instead of building them. Never try to make the second verb out of the first.",
+      "body_pl": "Pary: kupować/kupić, robić/zrobić, pić/wypić, czytać/przeczytać. Uczymy się parami.",
+      "table": {
+        "headers": [
+          "Meaning",
+          "Activity — imperfective",
+          "Finished — perfective"
+        ],
+        "rows": [
+          [
+            "to buy",
+            "kupować — kupował",
+            "kupić — kupił"
+          ],
+          [
+            "to do, to make",
+            "robić — robił",
+            "zrobić — zrobił"
+          ],
+          [
+            "to drink",
+            "pić — pił",
+            "wypić — wypił"
+          ],
+          [
+            "to read",
+            "czytać — czytał",
+            "przeczytać — przeczytał"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The endings are the ones you already have",
+      "title_pl": "Końcówki bez zmian",
+      "body": "Nothing new happens at the end of the word. Take the perfective verb, cut off the -ć, add -ł, and put on the same person ending you have been using since byłem: -em, -am, -eś, -aś, and nothing at all for he.\n\nwypić is the shortest of the four, so take it as the model: wypi- + ł + ending.",
+      "body_pl": "wypić → wypi + ł + końcówka.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "wypiłem",
+            "I drank it up",
+            "man speaking (m)"
+          ],
+          [
+            "wypiłam",
+            "I drank it up",
+            "woman speaking (f)"
+          ],
+          [
+            "wypiłeś",
+            "you drank it up",
+            "to a man (m)"
+          ],
+          [
+            "wypiłaś",
+            "you drank it up",
+            "to a woman (f)"
+          ],
+          [
+            "wypił",
+            "he drank it up",
+            "on · tata, brat"
+          ],
+          [
+            "wypiła",
+            "she drank it up",
+            "ona · mama, Anna"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The other three",
+      "title_pl": "Pozostałe trzy",
+      "body": "Same cut, same endings. The only thing you have to remember is which perfective verb goes with which activity — and you get that from the pairs on the previous slide.",
+      "body_pl": "Ta sama zasada: kupi-, zrobi-, przeczyta- + ł + końcówka.",
+      "table": {
+        "headers": [
+          "Perfective verb",
+          "I … (m)",
+          "I … (f)",
+          "he …",
+          "she …"
+        ],
+        "rows": [
+          [
+            "kupić — to buy",
+            "kupiłem",
+            "kupiłam",
+            "kupił",
+            "kupiła"
+          ],
+          [
+            "zrobić — to do, to make",
+            "zrobiłem",
+            "zrobiłam",
+            "zrobił",
+            "zrobiła"
+          ],
+          [
+            "przeczytać — to read",
+            "przeczytałem",
+            "przeczytałam",
+            "przeczytał",
+            "przeczytała"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The time words are your evidence",
+      "title_pl": "Słowa czasu podpowiadają",
+      "body": "The words around the verb usually decide for you.\n\nzawsze (always), często (often) and czasami (sometimes) describe a habit — something that happened again and again. A habit has no single finish, so these words take the imperfective verb.\n\nwczoraj (yesterday) points at one occasion. If that occasion finished and left a result, take the perfective verb.\n\nOne warning: wczoraj on its own does not force the perfective. Wczoraj czytałem książkę is perfectly good — I was reading a book yesterday, and I may never have finished it.",
+      "body_pl": "zawsze, często, czasami → niedokonany. wczoraj + wynik → dokonany.",
+      "examples": [
+        {
+          "en": "I always bought bread at the shop. (m)",
+          "pl": "Zawsze kupowałem chleb w sklepie."
+        },
+        {
+          "en": "Yesterday I bought the bread. (m)",
+          "pl": "Wczoraj kupiłem chleb."
+        },
+        {
+          "en": "Mum often drank tea.",
+          "pl": "Mama często piła herbatę."
+        },
+        {
+          "en": "Mum drank the tea up.",
+          "pl": "Mama wypiła herbatę."
+        }
+      ]
+    },
+    {
+      "title": "When you are not sure",
+      "title_pl": "Gdy nie wiesz",
+      "body": "Two things worth holding on to.\n\nFirst: this is a choice you make about the past. It is a choice between two verbs — not a new tense, not a new set of endings. Every sentence in this unit is a past-tense sentence.\n\nSecond: if you cannot decide, use the imperfective. It only says the activity happened, which is nearly always true. The perfective makes the extra claim that it was carried through to the end, and that is the part you can be wrong about.",
+      "body_pl": "Nie wiesz? Wybierz czasownik niedokonany."
+    }
+  ],
+  "match": [
+    {
+      "en": "I was buying (m)",
+      "pl": "kupowałem"
+    },
+    {
+      "en": "I bought it (m)",
+      "pl": "kupiłem"
+    },
+    {
+      "en": "she was buying",
+      "pl": "kupowała"
+    },
+    {
+      "en": "she bought it",
+      "pl": "kupiła"
+    },
+    {
+      "en": "I was making (f)",
+      "pl": "robiłam"
+    },
+    {
+      "en": "I made it (f)",
+      "pl": "zrobiłam"
+    },
+    {
+      "en": "he was drinking",
+      "pl": "pił"
+    },
+    {
+      "en": "he drank it up",
+      "pl": "wypił"
+    },
+    {
+      "en": "I was reading (m)",
+      "pl": "czytałem"
+    },
+    {
+      "en": "I read it all (m)",
+      "pl": "przeczytałem"
+    },
+    {
+      "en": "she was reading",
+      "pl": "czytała"
+    },
+    {
+      "en": "she read it all",
+      "pl": "przeczytała"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Zawsze ___ chleb w sklepie. (m)",
+      "choices": [
+        "kupowałem",
+        "kupiłem",
+        "kupował",
+        "kupuję"
+      ],
+      "answer": "kupowałem",
+      "explain": "zawsze describes a habit — the same trip again and again. A habit has no single finish, so it takes the imperfective kupować. kupiłem would report buying bread once."
+    },
+    {
+      "prompt": "I bought the bread — it is at home now. (m) →",
+      "choices": [
+        "kupiłem",
+        "kupowałem",
+        "kupił",
+        "kupuję"
+      ],
+      "answer": "kupiłem",
+      "explain": "The bread is at home: the action reached its end and left a result. That is exactly what the perfective kupić says. kupowałem would only report the shopping going on."
+    },
+    {
+      "prompt": "Fix: Zawsze kupiłem chleb. →",
+      "choices": [
+        "kupowałem",
+        "kupiłem",
+        "kupował",
+        "kupowała"
+      ],
+      "answer": "kupowałem",
+      "explain": "zawsze and a single finished action contradict each other. Keep zawsze and the verb has to be the imperfective one: kupowałem."
+    },
+    {
+      "prompt": "Mama często ___ herbatę.",
+      "choices": [
+        "piła",
+        "wypiła",
+        "pił",
+        "pije"
+      ],
+      "answer": "piła",
+      "explain": "często means it happened many times, so the verb describes the activity, not one emptied cup. wypiła would name a single finished drink."
+    },
+    {
+      "prompt": "Tata ___ wszystko.",
+      "choices": [
+        "wypił",
+        "pił",
+        "wypiła",
+        "wypiłem"
+      ],
+      "answer": "wypił",
+      "explain": "wszystko is a finished amount — there is nothing left. A result like that calls for the perfective wypić, and tata is he, so the word stops at the -ł."
+    },
+    {
+      "prompt": "Czasami ___ kawę. (f)",
+      "choices": [
+        "piłam",
+        "wypiłam",
+        "piła",
+        "piję"
+      ],
+      "answer": "piłam",
+      "explain": "czasami — sometimes — is a habit word, and habits are imperfective. wypiłam would point at one particular cup that you finished."
+    },
+    {
+      "prompt": "I read the whole book (f) →",
+      "choices": [
+        "przeczytałam",
+        "czytałam",
+        "przeczytał",
+        "przeczytałem"
+      ],
+      "answer": "przeczytałam",
+      "explain": "Reaching the end of the book is a result, so the verb is przeczytać. czytałam leaves it open — you were reading, and may have stopped in the middle."
+    },
+    {
+      "prompt": "Anna made lunch and it was ready →",
+      "choices": [
+        "zrobiła",
+        "robiła",
+        "zrobił",
+        "zrobiłam"
+      ],
+      "answer": "zrobiła",
+      "explain": "The lunch was ready, so the making was carried through: zrobić. Anna is she, so the ending is -a with nothing after it."
+    },
+    {
+      "prompt": "Fix: Mama często zrobiła śniadanie. →",
+      "choices": [
+        "robiła",
+        "zrobiła",
+        "robił",
+        "robiłam"
+      ],
+      "answer": "robiła",
+      "explain": "często says it happened on many mornings, and many mornings is a habit. Habits take the imperfective: robiła."
+    },
+    {
+      "prompt": "you drank the coffee up (to a woman) →",
+      "choices": [
+        "wypiłaś",
+        "piłaś",
+        "wypiłeś",
+        "wypiła"
+      ],
+      "answer": "wypiłaś",
+      "explain": "Drank it up — the cup is empty — so wypić, not pić. Then the ordinary -aś you already put on piłaś."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I bought it (m)",
+      "mode": "full_word",
+      "answer": "kupiłem",
+      "accepts": [
+        "kupiłem"
+      ],
+      "explain": "Do not start from kupowałem. kupić is its own word, so cut its own infinitive: kupi- + ł + em. The -owa- belongs to the other twin."
+    },
+    {
+      "prompt_en": "I bought it (f)",
+      "mode": "full_word",
+      "answer": "kupiłam",
+      "accepts": [
+        "kupiłam"
+      ]
+    },
+    {
+      "prompt_en": "he bought it",
+      "mode": "full_word",
+      "answer": "kupił",
+      "accepts": [
+        "kupił"
+      ]
+    },
+    {
+      "prompt_en": "I made it (m)",
+      "mode": "full_word",
+      "answer": "zrobiłem",
+      "accepts": [
+        "zrobiłem"
+      ],
+      "explain": "zrobić takes z-, wypić takes wy-, przeczytać takes prze-. There is no way to work out which one — that is why the pairs are learned whole."
+    },
+    {
+      "prompt_en": "he made it",
+      "mode": "full_word",
+      "answer": "zrobił",
+      "accepts": [
+        "zrobił"
+      ]
+    },
+    {
+      "prompt_en": "she made it",
+      "mode": "full_word",
+      "answer": "zrobiła",
+      "accepts": [
+        "zrobiła"
+      ]
+    },
+    {
+      "prompt_en": "I drank it up (m)",
+      "mode": "full_word",
+      "answer": "wypiłem",
+      "accepts": [
+        "wypiłem"
+      ]
+    },
+    {
+      "prompt_en": "I drank it up (f)",
+      "mode": "full_word",
+      "answer": "wypiłam",
+      "accepts": [
+        "wypiłam"
+      ]
+    },
+    {
+      "prompt_en": "you drank it up (m)",
+      "mode": "full_word",
+      "answer": "wypiłeś",
+      "accepts": [
+        "wypiłeś"
+      ],
+      "explain": "wypić is pić with wy- welded onto the front. Everything after the stem is the ordinary ending you already put on piłeś."
+    },
+    {
+      "prompt_en": "you drank it up (f)",
+      "mode": "full_word",
+      "answer": "wypiłaś",
+      "accepts": [
+        "wypiłaś"
+      ]
+    },
+    {
+      "prompt_en": "she drank it up",
+      "mode": "full_word",
+      "answer": "wypiła",
+      "accepts": [
+        "wypiła"
+      ]
+    },
+    {
+      "prompt_en": "I read it all (f)",
+      "mode": "full_word",
+      "answer": "przeczytałam",
+      "accepts": [
+        "przeczytałam"
+      ],
+      "explain": "przeczytać means to read something right through to the end. czytałam would say only that you were reading it."
+    },
+    {
+      "prompt_en": "he read it all",
+      "mode": "full_word",
+      "answer": "przeczytał",
+      "accepts": [
+        "przeczytał"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum bought the bread.",
+      "answer": "Mama kupiła chleb.",
+      "accepts": [
+        "Mama kupiła chleb.",
+        "Mama kupiła chleb"
+      ],
+      "explain": "The bread was bought and the shopping is over — one finished action, so kupić. mama is she, so kupiła."
+    },
+    {
+      "prompt_en": "Type: Mum used to buy bread.",
+      "answer": "Mama kupowała chleb.",
+      "accepts": [
+        "Mama kupowała chleb.",
+        "Mama kupowała chleb"
+      ],
+      "explain": "used to is a habit, and a habit has no single finish — so the imperfective kupować, exactly as you had it before this unit."
+    },
+    {
+      "prompt_en": "Type: My brother bought a bike.",
+      "answer": "Mój brat kupił rower.",
+      "accepts": [
+        "Mój brat kupił rower.",
+        "Mój brat kupił rower"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad drank the beer up.",
+      "answer": "Tata wypił piwo.",
+      "accepts": [
+        "Tata wypił piwo.",
+        "Tata wypił piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad always drank beer.",
+      "answer": "Tata zawsze pił piwo.",
+      "accepts": [
+        "Tata zawsze pił piwo.",
+        "Tata zawsze pił piwo",
+        "Tata pił zawsze piwo.",
+        "Tata pił zawsze piwo"
+      ],
+      "explain": "zawsze puts you in habit territory, so the verb is pić, not wypić. wypił would mean he emptied one particular glass."
+    },
+    {
+      "prompt_en": "Type: Yesterday I read the whole book. (m)",
+      "answer": "Wczoraj przeczytałem książkę.",
+      "accepts": [
+        "Wczoraj przeczytałem książkę.",
+        "Wczoraj przeczytałem książkę",
+        "Przeczytałem wczoraj książkę.",
+        "Przeczytałem wczoraj książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was reading a letter.",
+      "answer": "Mama czytała list.",
+      "accepts": [
+        "Mama czytała list.",
+        "Mama czytała list"
+      ],
+      "explain": "was reading is the activity with no end in sight, so czytać. przeczytała would say she finished the letter."
+    },
+    {
+      "prompt_en": "Type: Yesterday Dad made the soup.",
+      "answer": "Wczoraj tata zrobił zupę.",
+      "accepts": [
+        "Wczoraj tata zrobił zupę.",
+        "Wczoraj tata zrobił zupę",
+        "Tata wczoraj zrobił zupę.",
+        "Tata wczoraj zrobił zupę",
+        "Tata zrobił zupę wczoraj.",
+        "Tata zrobił zupę wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum often made breakfast.",
+      "answer": "Mama często robiła śniadanie.",
+      "accepts": [
+        "Mama często robiła śniadanie.",
+        "Mama często robiła śniadanie",
+        "Mama robiła często śniadanie.",
+        "Mama robiła często śniadanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Did you drink the coffee up? (to a man)",
+      "answer": "Wypiłeś kawę?",
+      "accepts": [
+        "Wypiłeś kawę?",
+        "Wypiłeś kawę"
+      ],
+      "explain": "The question is whether the cup is empty, so wypić. Asking Piłeś kawę? would only ask whether you were drinking coffee at all."
+    }
+  ],
+  "teaches_lemmas": [
+    "kupić",
+    "kupiłem",
+    "kupiłam",
+    "kupił",
+    "kupiła",
+    "zrobić",
+    "zrobiłem",
+    "zrobiłam",
+    "zrobił",
+    "zrobiła",
+    "wypić",
+    "wypiłem",
+    "wypiłam",
+    "wypiłeś",
+    "wypiłaś",
+    "wypił",
+    "wypiła",
+    "przeczytać",
+    "przeczytałem",
+    "przeczytałam",
+    "przeczytał",
+    "przeczytała"
+  ],
+  "uses_lemmas": [
+    "kupować",
+    "kupował",
+    "kupowała",
+    "kupowałem",
+    "kupuję",
+    "robić",
+    "robił",
+    "robiła",
+    "robiłam",
+    "pić",
+    "pił",
+    "piła",
+    "piłam",
+    "piłaś",
+    "piję",
+    "pije",
+    "czytać",
+    "czytał",
+    "czytała",
+    "czytałem",
+    "czytałam",
+    "byłem",
+    "miałem",
+    "chciałem",
+    "mama",
+    "tata",
+    "brat",
+    "anna",
+    "mój",
+    "chleb",
+    "herbata",
+    "herbatę",
+    "kawa",
+    "kawę",
+    "książka",
+    "książkę",
+    "list",
+    "piwo",
+    "rower",
+    "zupa",
+    "zupę",
+    "śniadanie",
+    "wszystko",
+    "w sklepie",
+    "zawsze",
+    "często",
+    "czasami",
+    "wczoraj"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_aspect",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
