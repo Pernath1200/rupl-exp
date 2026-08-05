@@ -115,9 +115,39 @@
     "a2_case_gym2",
     "a2_prep_review",
     "a2_wrapup_func",
-    "a2_station_4"
+    "a2_station_4",
+    "b1_perf_future",
+    "b1_two_futures",
+    "b1_plans",
+    "b1_aspect_gym",
+    "b1_conditional_sg",
+    "b1_polite",
+    "b1_past_isc",
+    "b1_arrive_leave",
+    "b1_journeys",
+    "b1_virile_reco",
+    "b1_virile_nom",
+    "b1_virile_past",
+    "b1_people",
+    "b1_virile_gym",
+    "b1_conditional_pl",
+    "b1_station_1",
+    "b1_dative_sg",
+    "b1_dative_pron",
+    "b1_giving",
+    "b1_ktory_cases",
+    "b1_zeby",
+    "b1_stories",
+    "b1_stories_func",
+    "b1_imperative_rule",
+    "b1_adverb_comp",
+    "b1_vocative_chunks",
+    "b1_opinions",
+    "b1_case_gym",
+    "b1_wrapup",
+    "b1_station_2"
   ],
-  "path_order_note": "Path-54: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1.",
+  "path_order_note": "Path-54: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1. B1 spine added 2026-08-05 (30 planned nodes, James-locked decisions in codex/B1-SPINE.md).",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -2304,6 +2334,480 @@
       "practice": "grammar",
       "note": "[A2 DRAFT SPINE 2026-08-03] PLACEHOLDER — rep layer: full A1+A2 cumulative bank. Exit velocity check.",
       "unit_id": "PL2_52",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_perf_future",
+      "domain": "grammar",
+      "label": "Czas przyszły dokonany",
+      "label_en": "Future · finished actions",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE 2026-08-05, James-locked] The four taught twins get their future: kupie/zrobie/wypije/przeczytam. Framed as the past he knows pointed forwards (kupilem -> kupie). Explicitly amends the A2 one-future claim in a dedicated moment. Decision #2: own unit FIRST, contrast second.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_two_futures",
+      "domain": "grammar",
+      "label": "Dwa czasy przyszłe",
+      "label_en": "The two futures",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Pure discrimination: bede kupowac (ongoing/repeated) vs kupie (once, finished), decided through time words. No new forms.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_plans",
+      "domain": "vocab",
+      "label": "Plany",
+      "label_en": "Plans & arrangements",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] Plans register riding the new future. All candidates through check_new.py first.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_aspect_gym",
+      "domain": "grammar",
+      "label": "Siłownia · aspekt",
+      "label_en": "Aspect gym",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Past + future aspect discrimination. Zero new material.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_conditional_sg",
+      "domain": "grammar",
+      "label": "Chciałbym · tryb przypuszczający",
+      "label_en": "Would like to · conditional",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE, James decision #3] bym/bys/by SINGULAR only, riding taught past stems; chcialbym/chcialabym politeness payoff. PLURAL FENCED until b1_conditional_pl (after virile block).",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_polite",
+      "domain": "grammar",
+      "label": "Uprzejmość · zwroty",
+      "label_en": "Being polite · chunks",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Politeness chunks; moglby pan taught WHOLE, no moc-conditional paradigm. situation_chunk genre.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b1_past_isc",
+      "domain": "grammar",
+      "label": "Szedłem · przeszłość iść",
+      "label_en": "Past of iść (irregular)",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] The suppletive past: szedlem/szlam etc, taught WHOLE like mialem; m/f stem split (szed-/sz-) is a table fact not a rule. Own undiluted unit - first truly irregular past.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b1_arrive_leave",
+      "domain": "grammar",
+      "label": "Przyjść · wyjść",
+      "label_en": "Arriving and leaving",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] przyjsc/wyjsc (rides the szedl stems - b1_past_isc MUST precede) + przyjechac/wyjechac (regular). Futures too, since b1_perf_future precedes.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b1_journeys",
+      "domain": "vocab",
+      "label": "W drodze",
+      "label_en": "On the way",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] Journey-narrative register. check_new.py everything.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_virile_reco",
+      "domain": "grammar",
+      "label": "Oni · rozpoznawanie",
+      "label_en": "Virile plural · recognition",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE, James decision #1: THREE units] RECOGNITION ONLY - reading ci/-i/-y virile forms. Learner never produces one here.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_virile_nom",
+      "domain": "grammar",
+      "label": "Oni · mianownik",
+      "label_en": "Virile plural · production",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Producing virile Nom pl, REGULAR consonant sets only (student->studenci, Polak->Polacy, lekarz->lekarze). Irregulars (bracia, ludzie) whole or fenced - conservative, logged.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_virile_past",
+      "domain": "grammar",
+      "label": "Oni byli · one były",
+      "label_en": "They · full agreement",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] A2 people-rule becomes the full system. TEACHES oni/one - fenced everywhere before this node.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_people",
+      "domain": "vocab",
+      "label": "Ludzie",
+      "label_en": "People in the plural",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] The vocab that makes the virile units worth having.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_virile_gym",
+      "domain": "grammar",
+      "label": "Siłownia · oni/one",
+      "label_en": "Virile gym",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Virile vs non-virile discrimination. Zero new.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_conditional_pl",
+      "domain": "grammar",
+      "label": "Chcielibyśmy",
+      "label_en": "Conditional · plural",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE, James decision #3] Plural conditional deferred to AFTER the virile block because it rides -li/-ly.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_station_1",
+      "domain": "grammar",
+      "label": "Stacja B1 · 1",
+      "label_en": "Rep station B1-1",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] PLACEHOLDER - bank authored when block live; engine future work.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_dative_sg",
+      "domain": "grammar",
+      "label": "Celownik",
+      "label_en": "The Dative at last",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Noun datives singular (mamie/tacie/bratu/siostrze) + pomagac/dawac/dziekowac. The A2 mi/mnie chunks finally explained as a case.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_dative_pron",
+      "domain": "grammar",
+      "label": "Mi · ci · mu · jej",
+      "label_en": "Dative pronouns",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] The set A2 fenced: ci/mu/jej (+nam/wam/im only if path-legal). podoba ci sie payoff.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_giving",
+      "domain": "vocab",
+      "label": "Dawanie i pomaganie",
+      "label_en": "Giving & helping",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] Giving/helping register.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_ktory_cases",
+      "domain": "grammar",
+      "label": "Który · przez przypadki",
+      "label_en": "Which/that · relative clauses",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] ktory beyond Nom: Acc + Gen relatives on known material. Loc/Inst relatives = author conservative call, logged.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b1_zeby",
+      "domain": "grammar",
+      "label": "Żeby",
+      "label_en": "So that · want that",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Purpose zeby + inf; chce, zebys + past-form as a pattern fact.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b1_stories",
+      "domain": "vocab",
+      "label": "Opowiadanie",
+      "label_en": "Telling stories",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] Narrative connectives (najpierw/potem/w koncu/nagle) - the real B1 milestone: telling a story. potem confirmed untaught in A2.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_stories_func",
+      "domain": "grammar",
+      "label": "Co się stało?",
+      "label_en": "What happened · situations",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Situations: telling what happened - past+aspect+motion+connectives recombined.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b1_imperative_rule",
+      "domain": "grammar",
+      "label": "Tryb rozkazujący",
+      "label_en": "The imperative rule",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] The formation A2 withheld, anchored on the five A2 chunks. Negative imperative = nie + IMPERFECTIVE, aspect flip named plainly.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_adverb_comp",
+      "domain": "grammar",
+      "label": "Szybciej · lepiej",
+      "label_en": "Comparing adverbs",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Fenced out of a2_superlatives, lands here: szybciej/lepiej/wiecej.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_vocative_chunks",
+      "domain": "grammar",
+      "label": "Mamo! Tato!",
+      "label_en": "Calling people · chunks",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE, James decision #4] Address forms as WHOLE chunks. Never analysed, no case rule.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b1_opinions",
+      "domain": "vocab",
+      "label": "Opinie",
+      "label_en": "Opinions",
+      "kind": "leaf",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B1 SPINE] Opinion register: moim zdaniem (whole), zgadzac sie, miec racje.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b1_case_gym",
+      "domain": "grammar",
+      "label": "Siłownia · wszystkie przypadki",
+      "label_en": "All-cases gym",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] All cases incl Dative + virile. Zero new.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b1_wrapup",
+      "domain": "grammar",
+      "label": "Jeden dzień · B1",
+      "label_en": "B1 capstone",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] Recombines narrative, plans, politeness, opinions. Genre of a2_wrapup_func.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b1_station_2",
+      "domain": "grammar",
+      "label": "Stacja B1 · 2",
+      "label_en": "Rep station B1-2 (exit)",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B1 SPINE] PLACEHOLDER - end-of-level exit-velocity bank.",
       "pedagogy": "teach",
       "root": "forms",
       "tree_part": "forms"
