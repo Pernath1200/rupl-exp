@@ -323,7 +323,6 @@
     "w zeszłym tygodniu",
     "w zeszłym miesiącu",
     "w zeszłym roku",
-    "w poniedziałek",
     "w weekend"
   ],
   "uses_lemmas": [
@@ -352,7 +351,8 @@
     "weekend",
     "tydzień",
     "miesiąc",
-    "rok"
+    "rok",
+    "w poniedziałek"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

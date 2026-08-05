@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-05T18:05:55+02:00",
+  "generated_at": "2026-08-05T18:10:03+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -1433,7 +1433,7 @@
       "teaches_structures": [
         "existential_jest"
       ],
-      "teaches_lemmas_n": 0,
+      "teaches_lemmas_n": 1,
       "uses_structures": [
         "byc_present",
         "existential_jest",
@@ -1845,7 +1845,7 @@
       "teaches_structures": [
         "time_past_chunk"
       ],
-      "teaches_lemmas_n": 10,
+      "teaches_lemmas_n": 9,
       "uses_structures": [
         "byc_adj",
         "past_byc",

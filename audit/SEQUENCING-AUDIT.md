@@ -57,7 +57,7 @@ _None._
 | 38 | `a1_prep_review_1` | — | 15 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
 | 39 | `a1_gen_ki` | `gen_endings` | 13 | `byc_present`, `gen_endings`, `prep_do_gen`, `prep_z_gen`, `present_am`, `present_e_esz` |
 | 40 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |
-| 41 | `trunk_there_time_a1` | `existential_jest` | 0 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
+| 41 | `trunk_there_time_a1` | `existential_jest` | 1 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
 | 42 | `leaf_health_a1` | — | 24 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
 | 43 | `a1_inst_job` | `inst_identity` | 18 | `byc_present`, `inst_identity` |
 | 44 | `a1_case_gym` | — | 15 | `byc_present`, `gen_endings`, `miec_acc`, `negation`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `to_jest` |
@@ -66,7 +66,7 @@ _None._
 | 47 | `a1_prep_review_2` | — | 21 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
 | 48 | `a2_past_byc` | `past_byc` | 8 | `byc_adj`, `byc_present`, `past_byc`, `prep_w_loc`, `question`, `zgoda` |
 | 49 | `a2_weather` | `weather_chunk` | 14 | `byc_adj`, `byc_present`, `existential_jest`, `past_byc`, `weather_chunk`, `zgoda` |
-| 50 | `a2_time_past` | `time_past_chunk` | 10 | `byc_adj`, `past_byc`, `prep_w_loc`, `question`, `time_past_chunk`, `weather_chunk`, `zgoda` |
+| 50 | `a2_time_past` | `time_past_chunk` | 9 | `byc_adj`, `past_byc`, `prep_w_loc`, `question`, `time_past_chunk`, `weather_chunk`, `zgoda` |
 | 51 | `a2_past_ac` | `past_ac` | 31 | `miec_acc`, `past_ac`, `past_byc`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question` |
 | 52 | `a2_past_rest` | `past_rest` | 35 | `miec_acc`, `past_byc`, `past_rest`, `poss_nom`, `present_e_esz`, `question` |
 | 53 | `a2_past_gym` | — | 0 | `byc_adj`, `gen_endings`, `miec_acc`, `negation`, `past_ac`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `zgoda` |
