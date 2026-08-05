@@ -1,0 +1,577 @@
+{
+  "id": "a2_gen_pl",
+  "title": "Dopełniacz · liczba mnoga",
+  "title_en": "Genitive plural",
+  "level": "A2",
+  "tree_node": "a2_gen_pl",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Plural sibling of a1_gen_endings, same restraint: ONE rule per side (masc -ow / fem+neut zero ending), irregulars fenced out entirely. REGULAR STEMS ONLY — every noun in this pack keeps its stem letter-for-letter, so the rule never has an exception on screen. Deliberately excluded and never named anywhere in the unit: stems with a vowel alternation, stems with a disappearing vowel before the final consonant cluster, the one suppletive time-noun, soft-stem masculines, and every virile plural. Two nouns on the batch brief's allowed list were also dropped for the same reason (one fleeting-vowel masculine, one o-alternating masculine) — conservative fork, reported to the batch owner. Governors are only the ones already taught: nie ma / nie mam, duzo, blisko. Nominative plurals appear for contrast only (domy, koty, kawy, gazety), taken from the batch brief, and are taught by a2_plural_nom which lands just before this node. Numerals + genitive plural belong to a2_numbers_gen, not here.",
+  "focus_structures": [
+    "gen_pl"
+  ],
+  "teaches_structures": [
+    "gen_pl"
+  ],
+  "uses_structures": [
+    "gen_pl",
+    "plural_nom",
+    "gen_endings",
+    "miec_present",
+    "negation",
+    "existential_jest",
+    "prep_w_loc",
+    "present_am"
+  ],
+  "intro": [
+    {
+      "title": "Two rules, one for each gender",
+      "title_pl": "Dwie zasady",
+      "body": "You already know the genitive of one thing: domu, kawy, piwa. Now the same case for many things.\n\nThere are only two rules, and the gender you can already spot tells you which one to use.",
+      "body_pl": "Dopełniacz liczby mnogiej: rodzaj męski + -ów, rodzaj żeński i nijaki bez końcówki.",
+      "table": {
+        "headers": [
+          "Gender",
+          "Rule",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "m. (masculine thing)",
+            "add -ów",
+            "dom → domów · sklep → sklepów · kot → kotów"
+          ],
+          [
+            "ż. (feminine, -a)",
+            "take the -a off, add nothing",
+            "kawa → kaw · gazeta → gazet · zupa → zup"
+          ],
+          [
+            "n. (neuter, -o)",
+            "take the -o off, add nothing",
+            "piwo → piw · miasto → miast · biuro → biur"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The ending that isn't there",
+      "title_pl": "Końcówka zerowa",
+      "body": "The feminine and neuter form looks wrong the first time you see it, because it looks unfinished. It isn't. The word simply stops.\n\nThis is the shortest form the noun ever has. Take off the final -a or -o and write nothing in its place.",
+      "body_pl": "Rzeczownik po prostu się kończy — nic nie dopisujemy.",
+      "examples": [
+        {
+          "en": "tea →",
+          "pl": "herbata → herbat"
+        },
+        {
+          "en": "fish →",
+          "pl": "ryba → ryb"
+        },
+        {
+          "en": "hour →",
+          "pl": "godzina → godzin"
+        },
+        {
+          "en": "minute →",
+          "pl": "minuta → minut"
+        },
+        {
+          "en": "wine →",
+          "pl": "wino → win"
+        },
+        {
+          "en": "office →",
+          "pl": "biuro → biur"
+        }
+      ]
+    },
+    {
+      "title": "Not the plural you learned last time",
+      "title_pl": "To nie mianownik",
+      "body": "Domy and domów are both plural, and they are not interchangeable.\n\nDomy is the subject form — the one you use when the houses are doing something or simply being counted off. Domów is the form that only ever appears after a word that demands the genitive: nie ma, dużo, blisko.\n\nNotice what happens to the feminine words: kawy is the subject form, and the genitive is shorter, not longer.",
+      "body_pl": "Domy (mianownik) ≠ domów (dopełniacz). Kawy ≠ kaw.",
+      "table": {
+        "headers": [
+          "One",
+          "Many (subject)",
+          "After nie ma / dużo / blisko"
+        ],
+        "rows": [
+          [
+            "dom",
+            "domy",
+            "domów"
+          ],
+          [
+            "kot",
+            "koty",
+            "kotów"
+          ],
+          [
+            "kawa",
+            "kawy",
+            "kaw"
+          ],
+          [
+            "gazeta",
+            "gazety",
+            "gazet"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The words that demand it",
+      "title_pl": "Kiedy używamy",
+      "body": "Nothing new to learn here. The three words you already use with the genitive behave exactly the same way with many things as they did with one:\n\nnie ma / nie mam + genitive = there isn't / I don't have\ndużo + genitive = a lot of\nblisko + genitive = near\n\nOne shop was blisko sklepu. Several shops are blisko sklepów.",
+      "body_pl": "nie ma, nie mam, dużo, blisko — te same słowa, teraz z liczbą mnogą.",
+      "examples": [
+        {
+          "en": "I don't have any films.",
+          "pl": "Nie mam filmów."
+        },
+        {
+          "en": "There are no newspapers in the shop.",
+          "pl": "W sklepie nie ma gazet."
+        },
+        {
+          "en": "Dad has a lot of films.",
+          "pl": "Tata ma dużo filmów."
+        },
+        {
+          "en": "I live near the shops.",
+          "pl": "Mieszkam blisko sklepów."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "dom · m.",
+      "pl": "domów"
+    },
+    {
+      "en": "sklep · m.",
+      "pl": "sklepów"
+    },
+    {
+      "en": "kot · m.",
+      "pl": "kotów"
+    },
+    {
+      "en": "film · m.",
+      "pl": "filmów"
+    },
+    {
+      "en": "bank · m.",
+      "pl": "banków"
+    },
+    {
+      "en": "telefon · m.",
+      "pl": "telefonów"
+    },
+    {
+      "en": "kawa · ż.",
+      "pl": "kaw"
+    },
+    {
+      "en": "herbata · ż.",
+      "pl": "herbat"
+    },
+    {
+      "en": "gazeta · ż.",
+      "pl": "gazet"
+    },
+    {
+      "en": "zupa · ż.",
+      "pl": "zup"
+    },
+    {
+      "en": "piwo · n.",
+      "pl": "piw"
+    },
+    {
+      "en": "miasto · n.",
+      "pl": "miast"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "dom · m. → many, after nie ma",
+      "choices": [
+        "domów",
+        "domy",
+        "domu",
+        "doma"
+      ],
+      "answer": "domów",
+      "explain": "Domy is the subject form and domu is the genitive of one house. For many houses after nie ma, the masculine ending is -ów."
+    },
+    {
+      "prompt": "kawa · ż. → many, after dużo",
+      "choices": [
+        "kaw",
+        "kawy",
+        "kawów",
+        "kawa"
+      ],
+      "answer": "kaw",
+      "explain": "Feminine nouns take no ending at all here — the word stops at the stem. -ów belongs to masculine nouns only, and kawy is the subject form."
+    },
+    {
+      "prompt": "piwo · n. → many, after nie ma",
+      "choices": [
+        "piw",
+        "piwa",
+        "piwów",
+        "piwo"
+      ],
+      "answer": "piw",
+      "explain": "Neuter works exactly like feminine: take the -o off and write nothing. Piwa is the form you already know from dużo piwa — one beer, not many."
+    },
+    {
+      "prompt": "Nie mam ___. (films)",
+      "choices": [
+        "filmów",
+        "filmy",
+        "film",
+        "filma"
+      ],
+      "answer": "filmów",
+      "explain": "After nie mam the object goes genitive. Plural films = filmów. filmy is the plain plural (subject form) and film is just one film."
+    },
+    {
+      "prompt": "W sklepie nie ma ___. (newspapers)",
+      "choices": [
+        "gazet",
+        "gazety",
+        "gazetów",
+        "gazeta"
+      ],
+      "answer": "gazet"
+    },
+    {
+      "prompt": "Fix: Mam dużo koty. →",
+      "choices": [
+        "kotów",
+        "koty",
+        "kota",
+        "kotu"
+      ],
+      "answer": "kotów",
+      "explain": "Dużo always demands the genitive, so the subject form koty cannot stand there. Kota would be one cat."
+    },
+    {
+      "prompt": "bank · m. → many, after nie ma",
+      "choices": [
+        "banków",
+        "banki",
+        "banku",
+        "banka"
+      ],
+      "answer": "banków",
+      "explain": "The subject form is banki because Polish never writes y after k. That rule has nothing to do with the genitive: -ów joins onto the whole word and the k is left alone."
+    },
+    {
+      "prompt": "wino · n. → many, after nie ma",
+      "choices": [
+        "win",
+        "wina",
+        "winów",
+        "wino"
+      ],
+      "answer": "win"
+    },
+    {
+      "prompt": "Mieszkam blisko ___. (shops)",
+      "choices": [
+        "sklepów",
+        "sklepy",
+        "sklepu",
+        "sklepa"
+      ],
+      "answer": "sklepów",
+      "explain": "Blisko takes the genitive whether there is one thing or many. Blisko sklepu is one shop; blisko sklepów is several."
+    },
+    {
+      "prompt": "Fix: W biurze nie ma telefony. →",
+      "choices": [
+        "telefonów",
+        "telefony",
+        "telefonu",
+        "telefona"
+      ],
+      "answer": "telefonów",
+      "explain": "Nie ma cannot be followed by the subject form. Telefony is what the phones would be called if they were there; after nie ma they must be telefonów."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "dom · m. (house) → many",
+      "mode": "full_word",
+      "answer": "domów",
+      "accepts": [
+        "domów"
+      ]
+    },
+    {
+      "prompt_en": "sklep · m. (shop) → many",
+      "mode": "full_word",
+      "answer": "sklepów",
+      "accepts": [
+        "sklepów"
+      ]
+    },
+    {
+      "prompt_en": "park · m. (park) → many",
+      "mode": "full_word",
+      "answer": "parków",
+      "accepts": [
+        "parków"
+      ]
+    },
+    {
+      "prompt_en": "film · m. (film) → many",
+      "mode": "full_word",
+      "answer": "filmów",
+      "accepts": [
+        "filmów"
+      ]
+    },
+    {
+      "prompt_en": "telefon · m. (phone) → many",
+      "mode": "full_word",
+      "answer": "telefonów",
+      "accepts": [
+        "telefonów"
+      ]
+    },
+    {
+      "prompt_en": "kawa · ż. (coffee) → many",
+      "mode": "full_word",
+      "answer": "kaw",
+      "accepts": [
+        "kaw"
+      ],
+      "explain": "Nothing goes on the end. Three letters is the whole answer — the genitive plural of a feminine noun is shorter than the word you started with."
+    },
+    {
+      "prompt_en": "herbata · ż. (tea) → many",
+      "mode": "full_word",
+      "answer": "herbat",
+      "accepts": [
+        "herbat"
+      ]
+    },
+    {
+      "prompt_en": "ryba · ż. (fish) → many",
+      "mode": "full_word",
+      "answer": "ryb",
+      "accepts": [
+        "ryb"
+      ]
+    },
+    {
+      "prompt_en": "godzina · ż. (hour) → many",
+      "mode": "full_word",
+      "answer": "godzin",
+      "accepts": [
+        "godzin"
+      ]
+    },
+    {
+      "prompt_en": "minuta · ż. (minute) → many",
+      "mode": "full_word",
+      "answer": "minut",
+      "accepts": [
+        "minut"
+      ]
+    },
+    {
+      "prompt_en": "piwo · n. (beer) → many",
+      "mode": "full_word",
+      "answer": "piw",
+      "accepts": [
+        "piw"
+      ]
+    },
+    {
+      "prompt_en": "biuro · n. (office) → many",
+      "mode": "full_word",
+      "answer": "biur",
+      "accepts": [
+        "biur"
+      ],
+      "explain": "Neuter follows the feminine pattern, not the masculine one: the -o comes off and nothing replaces it."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad has a lot of films.",
+      "answer": "Tata ma dużo filmów.",
+      "accepts": [
+        "Tata ma dużo filmów.",
+        "Tata ma dużo filmów"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has a lot of newspapers.",
+      "answer": "Mama ma dużo gazet.",
+      "accepts": [
+        "Mama ma dużo gazet.",
+        "Mama ma dużo gazet"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna has a lot of cats.",
+      "answer": "Anna ma dużo kotów.",
+      "accepts": [
+        "Anna ma dużo kotów.",
+        "Anna ma dużo kotów"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no phones in the office.",
+      "answer": "W biurze nie ma telefonów.",
+      "accepts": [
+        "W biurze nie ma telefonów.",
+        "W biurze nie ma telefonów"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no fish in the shop.",
+      "answer": "W sklepie nie ma ryb.",
+      "accepts": [
+        "W sklepie nie ma ryb.",
+        "W sklepie nie ma ryb"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no banks in the centre.",
+      "answer": "W centrum nie ma banków.",
+      "accepts": [
+        "W centrum nie ma banków.",
+        "W centrum nie ma banków"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no houses here.",
+      "answer": "Tu nie ma domów.",
+      "accepts": [
+        "Tu nie ma domów.",
+        "Tu nie ma domów"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the shops.",
+      "answer": "Mieszkam blisko sklepów.",
+      "accepts": [
+        "Mieszkam blisko sklepów.",
+        "Mieszkam blisko sklepów"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the parks.",
+      "answer": "Mieszkam blisko parków.",
+      "accepts": [
+        "Mieszkam blisko parków.",
+        "Mieszkam blisko parków"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no newspapers at home.",
+      "answer": "W domu nie ma gazet.",
+      "accepts": [
+        "W domu nie ma gazet.",
+        "W domu nie ma gazet"
+      ],
+      "explain": "Nie ma is the only verb in the sentence and it hands the genitive to whatever follows it, however many there are — so gazeta becomes gazet."
+    }
+  ],
+  "teaches_lemmas": [
+    "domów",
+    "sklepów",
+    "kotów",
+    "filmów",
+    "banków",
+    "parków",
+    "telefonów",
+    "kaw",
+    "herbat",
+    "gazet",
+    "zup",
+    "ryb",
+    "godzin",
+    "minut",
+    "piw",
+    "miast",
+    "biur",
+    "win"
+  ],
+  "uses_lemmas": [
+    "dom",
+    "sklep",
+    "kot",
+    "film",
+    "bank",
+    "park",
+    "telefon",
+    "kawa",
+    "herbata",
+    "gazeta",
+    "zupa",
+    "ryba",
+    "godzina",
+    "minuta",
+    "piwo",
+    "miasto",
+    "biuro",
+    "wino",
+    "domy",
+    "sklepy",
+    "koty",
+    "filmy",
+    "banki",
+    "telefony",
+    "kawy",
+    "gazety",
+    "piwa",
+    "wina",
+    "domu",
+    "sklepu",
+    "banku",
+    "telefonu",
+    "kota",
+    "dużo",
+    "blisko",
+    "nie ma",
+    "nie mam",
+    "ma",
+    "mam",
+    "mieszkam",
+    "tata",
+    "mama",
+    "anna",
+    "tu",
+    "w biurze",
+    "w sklepie",
+    "w centrum",
+    "w domu"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_gen_pl",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

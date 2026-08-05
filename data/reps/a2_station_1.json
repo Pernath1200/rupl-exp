@@ -1,0 +1,1648 @@
+{
+  "id": "a2_station_1",
+  "level": "A2",
+  "kind": "rep_station",
+  "position": "25%",
+  "note": "Rep station 1 — mixed recall bank. Recombines only material taught up to and including a2_feelings: past of byc, -ac and -ic past verbs, all four present classes, Nom/Acc/Gen/Loc/Inst, weather, feelings, time words, negation, questions, smalltalk. Singular only, imperfective only, no virile forms. Each sentence is pre-marked with typed cloze slots so the engine needs no runtime language processing.",
+  "bank": [
+    {
+      "pl": "Wczoraj byłem w domu.",
+      "en": "Yesterday I was at home.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "byłem",
+          "stem": "był",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "domu",
+          "stem": "dom",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj byłam w pracy.",
+      "en": "Yesterday I was at work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "byłam",
+          "stem": "był",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Czy byłeś w sklepie?",
+      "en": "Were you at the shop?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "byłeś",
+          "stem": "był",
+          "answer": "eś",
+          "hint": "you (m)"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama była w szpitalu.",
+      "en": "My mum was at the hospital.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "mama",
+          "answer": "mama"
+        },
+        {
+          "type": "ending",
+          "word": "była",
+          "stem": "był",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "szpitalu",
+          "stem": "szpital",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat był w banku.",
+      "en": "My brother was at the bank.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "brat",
+          "answer": "brat"
+        },
+        {
+          "type": "ending",
+          "word": "był",
+          "stem": "by",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "ending",
+          "word": "banku",
+          "stem": "bank",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Czy byłaś w domu?",
+      "en": "Were you at home?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "byłaś",
+          "stem": "był",
+          "answer": "aś",
+          "hint": "you (f)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "domu",
+          "stem": "dom",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Byłem na spotkaniu.",
+      "en": "I was at a meeting.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "byłem",
+          "stem": "był",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "grammar",
+          "word": "na",
+          "answer": "na",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "spotkaniu",
+          "stem": "spotkani",
+          "answer": "u",
+          "hint": "after na"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj czytałem książkę.",
+      "en": "Yesterday I was reading a book.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "czytałem",
+          "stem": "czytał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "ending",
+          "word": "książkę",
+          "stem": "książk",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Czytałam nową książkę.",
+      "en": "I was reading a new book.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "czytałam",
+          "stem": "czytał",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "ending",
+          "word": "nową",
+          "stem": "now",
+          "answer": "ą",
+          "hint": "adjective, object"
+        },
+        {
+          "type": "content",
+          "word": "książkę",
+          "answer": "książkę"
+        }
+      ]
+    },
+    {
+      "pl": "Mój tata czytał list.",
+      "en": "My dad was reading a letter.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "tata",
+          "answer": "tata"
+        },
+        {
+          "type": "ending",
+          "word": "czytał",
+          "stem": "czyta",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "content",
+          "word": "list",
+          "answer": "list"
+        }
+      ]
+    },
+    {
+      "pl": "Dawno temu mieszkałem w mieście.",
+      "en": "A long time ago I lived in the city.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mieszkałem",
+          "stem": "mieszkał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "content",
+          "word": "mieście",
+          "answer": "mieście"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        }
+      ]
+    },
+    {
+      "pl": "Gdzie mieszkałeś?",
+      "en": "Where did you live?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "gdzie",
+          "answer": "gdzie"
+        },
+        {
+          "type": "ending",
+          "word": "mieszkałeś",
+          "stem": "mieszkał",
+          "answer": "eś",
+          "hint": "you (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj grałem w parku.",
+      "en": "Yesterday I was playing in the park.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "grałem",
+          "stem": "grał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "parku",
+          "stem": "park",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj pracowałem w biurze.",
+      "en": "Yesterday I was working in the office.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracowałem",
+          "stem": "pracował",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "biurze",
+          "stem": "biur",
+          "answer": "ze",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Kupowałam chleb w sklepie.",
+      "en": "I was buying bread at the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupowałam",
+          "stem": "kupował",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "content",
+          "word": "chleb",
+          "answer": "chleb"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama pracowała w szkole.",
+      "en": "My mum was working at the school.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracowała",
+          "stem": "pracował",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "szkole",
+          "stem": "szko",
+          "answer": "le",
+          "hint": "after w"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj chciałem kawę.",
+      "en": "Yesterday I wanted a coffee.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "chciałem",
+          "stem": "chciał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Znałam ten adres.",
+      "en": "I knew this address.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "znałam",
+          "stem": "znał",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "content",
+          "word": "adres",
+          "answer": "adres"
+        }
+      ]
+    },
+    {
+      "pl": "Kochałem muzykę.",
+      "en": "I loved music.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kochałem",
+          "stem": "kochał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "ending",
+          "word": "muzykę",
+          "stem": "muzyk",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj robiłem obiad.",
+      "en": "Yesterday I was making lunch.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "robiłem",
+          "stem": "robił",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "content",
+          "word": "obiad",
+          "answer": "obiad"
+        }
+      ]
+    },
+    {
+      "pl": "Co robiłaś w weekend?",
+      "en": "What were you doing at the weekend?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "co",
+          "answer": "co"
+        },
+        {
+          "type": "ending",
+          "word": "robiłaś",
+          "stem": "robił",
+          "answer": "aś",
+          "hint": "you (f)"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        }
+      ]
+    },
+    {
+      "pl": "Kto to mówił?",
+      "en": "Who was saying that?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "kto",
+          "answer": "kto"
+        },
+        {
+          "type": "ending",
+          "word": "mówił",
+          "stem": "mówi",
+          "answer": "ł",
+          "hint": "he — past marker"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat lubił tenis.",
+      "en": "My brother liked tennis.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "lubił",
+          "stem": "lubi",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "content",
+          "word": "tenis",
+          "answer": "tenis"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj piłem piwo.",
+      "en": "Yesterday I was drinking beer.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "piłem",
+          "stem": "pił",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "content",
+          "word": "piwo",
+          "answer": "piwo"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama piła herbatę.",
+      "en": "My mum was drinking tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "piła",
+          "stem": "pi",
+          "answer": "ła",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "herbatę",
+          "stem": "herbat",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj miałem czas.",
+      "en": "Yesterday I had time.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "miałem",
+          "stem": "miał",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "content",
+          "word": "czas",
+          "answer": "czas"
+        }
+      ]
+    },
+    {
+      "pl": "Moja siostra miała nowy telefon.",
+      "en": "My sister had a new phone.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "miała",
+          "stem": "miał",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "content",
+          "word": "nowy",
+          "answer": "nowy"
+        },
+        {
+          "type": "content",
+          "word": "telefon",
+          "answer": "telefon"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj padał deszcz.",
+      "en": "Yesterday it was raining.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "wczoraj",
+          "answer": "wczoraj"
+        },
+        {
+          "type": "ending",
+          "word": "padał",
+          "stem": "pada",
+          "answer": "ł",
+          "hint": "past marker"
+        },
+        {
+          "type": "content",
+          "word": "deszcz",
+          "answer": "deszcz"
+        }
+      ]
+    },
+    {
+      "pl": "W weekend padał śnieg.",
+      "en": "At the weekend it was snowing.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "padał",
+          "stem": "pada",
+          "answer": "ł",
+          "hint": "past marker"
+        },
+        {
+          "type": "content",
+          "word": "śnieg",
+          "answer": "śnieg"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj wiał wiatr.",
+      "en": "Yesterday the wind was blowing.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "wiał",
+          "stem": "wia",
+          "answer": "ł",
+          "hint": "past marker"
+        },
+        {
+          "type": "content",
+          "word": "wiatr",
+          "answer": "wiatr"
+        }
+      ]
+    },
+    {
+      "pl": "Dzisiaj świeci słońce.",
+      "en": "Today the sun is shining.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "dzisiaj",
+          "answer": "dzisiaj"
+        },
+        {
+          "type": "ending",
+          "word": "świeci",
+          "stem": "świec",
+          "answer": "i",
+          "hint": "3rd person, -ić verb"
+        },
+        {
+          "type": "content",
+          "word": "słońce",
+          "answer": "słońce"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj świeciło słońce.",
+      "en": "Yesterday the sun was shining.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "świeciło",
+          "stem": "świeci",
+          "answer": "ło",
+          "hint": "it — past marker"
+        },
+        {
+          "type": "content",
+          "word": "słońce",
+          "answer": "słońce"
+        }
+      ]
+    },
+    {
+      "pl": "Dzisiaj pada deszcz.",
+      "en": "Today it is raining.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pada",
+          "stem": "pad",
+          "answer": "a",
+          "hint": "3rd person, -ać verb"
+        },
+        {
+          "type": "content",
+          "word": "deszcz",
+          "answer": "deszcz"
+        }
+      ]
+    },
+    {
+      "pl": "Teraz wieje wiatr.",
+      "en": "Now the wind is blowing.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "teraz",
+          "answer": "teraz"
+        },
+        {
+          "type": "ending",
+          "word": "wieje",
+          "stem": "wiej",
+          "answer": "e",
+          "hint": "3rd person"
+        },
+        {
+          "type": "content",
+          "word": "wiatr",
+          "answer": "wiatr"
+        }
+      ]
+    },
+    {
+      "pl": "W zeszłym tygodniu było zimno.",
+      "en": "Last week it was cold.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "było",
+          "stem": "był",
+          "answer": "o",
+          "hint": "it"
+        },
+        {
+          "type": "content",
+          "word": "zimno",
+          "answer": "zimno"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj byłem zmęczony.",
+      "en": "Yesterday I was tired.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "byłem",
+          "stem": "był",
+          "answer": "em",
+          "hint": "I (m)"
+        },
+        {
+          "type": "ending",
+          "word": "zmęczony",
+          "stem": "zmęczon",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama była zmęczona.",
+      "en": "My mum was tired.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "była",
+          "stem": "był",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "zmęczona",
+          "stem": "zmęczon",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Jestem głodny.",
+      "en": "I am hungry.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jestem",
+          "stem": "jest",
+          "answer": "em",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "głodny",
+          "stem": "głodn",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Czy jesteś głodna?",
+      "en": "Are you hungry?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "jesteś",
+          "stem": "jest",
+          "answer": "eś",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "głodna",
+          "stem": "głodn",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Wczoraj byłam spokojna.",
+      "en": "Yesterday I was calm.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "byłam",
+          "stem": "był",
+          "answer": "am",
+          "hint": "I (f)"
+        },
+        {
+          "type": "ending",
+          "word": "spokojna",
+          "stem": "spokojn",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat był zdenerwowany.",
+      "en": "My brother was upset.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "był",
+          "stem": "by",
+          "answer": "ł",
+          "hint": "he — past marker"
+        },
+        {
+          "type": "ending",
+          "word": "zdenerwowany",
+          "stem": "zdenerwowan",
+          "answer": "y",
+          "hint": "adjective (m)"
+        }
+      ]
+    },
+    {
+      "pl": "Moja siostra była zaskoczona.",
+      "en": "My sister was surprised.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "była",
+          "stem": "był",
+          "answer": "a",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "zaskoczona",
+          "stem": "zaskoczon",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama jest dumna.",
+      "en": "My mum is proud.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jest",
+          "answer": "jest"
+        },
+        {
+          "type": "ending",
+          "word": "dumna",
+          "stem": "dumn",
+          "answer": "a",
+          "hint": "adjective (f)"
+        }
+      ]
+    },
+    {
+      "pl": "Czytam książkę.",
+      "en": "I am reading a book.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "czytam",
+          "stem": "czyta",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "książkę",
+          "stem": "książk",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Gdzie mieszkasz?",
+      "en": "Where do you live?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "gdzie",
+          "answer": "gdzie"
+        },
+        {
+          "type": "ending",
+          "word": "mieszkasz",
+          "stem": "mieszka",
+          "answer": "sz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat mieszka w hotelu.",
+      "en": "My brother lives in a hotel.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mieszka",
+          "stem": "mieszk",
+          "answer": "a",
+          "hint": "he"
+        },
+        {
+          "type": "ending",
+          "word": "hotelu",
+          "stem": "hotel",
+          "answer": "u",
+          "hint": "after w"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        }
+      ]
+    },
+    {
+      "pl": "Jak się masz?",
+      "en": "How are you?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jak",
+          "answer": "jak"
+        },
+        {
+          "type": "ending",
+          "word": "masz",
+          "stem": "ma",
+          "answer": "sz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Czy znasz ten sklep?",
+      "en": "Do you know this shop?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "znasz",
+          "stem": "zna",
+          "answer": "sz",
+          "hint": "you"
+        },
+        {
+          "type": "content",
+          "word": "sklep",
+          "answer": "sklep"
+        }
+      ]
+    },
+    {
+      "pl": "Piję kawę.",
+      "en": "I drink coffee.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "piję",
+          "stem": "pij",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Czy pijesz herbatę?",
+      "en": "Do you drink tea?",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "czy",
+          "answer": "czy",
+          "hint": "question word"
+        },
+        {
+          "type": "ending",
+          "word": "pijesz",
+          "stem": "pij",
+          "answer": "esz",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "herbatę",
+          "stem": "herbat",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Chcę kawę.",
+      "en": "I want a coffee.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "chcę",
+          "stem": "chc",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "kawę",
+          "stem": "kaw",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Czy chcesz zupę?",
+      "en": "Do you want soup?",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "chcesz",
+          "stem": "chc",
+          "answer": "esz",
+          "hint": "you"
+        },
+        {
+          "type": "ending",
+          "word": "zupę",
+          "stem": "zup",
+          "answer": "ę",
+          "hint": "object"
+        }
+      ]
+    },
+    {
+      "pl": "Co robisz?",
+      "en": "What are you doing?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "co",
+          "answer": "co"
+        },
+        {
+          "type": "ending",
+          "word": "robisz",
+          "stem": "rob",
+          "answer": "isz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Robię obiad.",
+      "en": "I am making lunch.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "robię",
+          "stem": "rob",
+          "answer": "ię",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "obiad",
+          "answer": "obiad"
+        }
+      ]
+    },
+    {
+      "pl": "Co mówisz?",
+      "en": "What are you saying?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "co",
+          "answer": "co"
+        },
+        {
+          "type": "ending",
+          "word": "mówisz",
+          "stem": "mów",
+          "answer": "isz",
+          "hint": "you"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama lubi herbatę.",
+      "en": "My mum likes tea.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "lubi",
+          "stem": "lub",
+          "answer": "i",
+          "hint": "she"
+        },
+        {
+          "type": "ending",
+          "word": "herbatę",
+          "stem": "herbat",
+          "answer": "ę",
+          "hint": "object"
+        },
+        {
+          "type": "content",
+          "word": "mama",
+          "answer": "mama"
+        }
+      ]
+    },
+    {
+      "pl": "Pracuję w biurze.",
+      "en": "I work in an office.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracuję",
+          "stem": "pracuj",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "biurze",
+          "stem": "biur",
+          "answer": "ze",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Mój tata pracuje w banku.",
+      "en": "My dad works at a bank.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "pracuje",
+          "stem": "pracuj",
+          "answer": "e",
+          "hint": "he"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "banku",
+          "stem": "bank",
+          "answer": "u",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Kupuję chleb w sklepie.",
+      "en": "I buy bread at the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "kupuję",
+          "stem": "kupuj",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "chleb",
+          "answer": "chleb"
+        },
+        {
+          "type": "ending",
+          "word": "sklepie",
+          "stem": "sklep",
+          "answer": "ie",
+          "hint": "after w"
+        }
+      ]
+    },
+    {
+      "pl": "Moja siostra studiuje.",
+      "en": "My sister studies.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "studiuje",
+          "stem": "studiuj",
+          "answer": "e",
+          "hint": "she"
+        },
+        {
+          "type": "content",
+          "word": "siostra",
+          "answer": "siostra"
+        }
+      ]
+    },
+    {
+      "pl": "Nie mam czasu.",
+      "en": "I don't have time.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "ending",
+          "word": "czasu",
+          "stem": "czas",
+          "answer": "u",
+          "hint": "genitive after nie mam"
+        }
+      ]
+    },
+    {
+      "pl": "Nie mam psa.",
+      "en": "I don't have a dog.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "ending",
+          "word": "mam",
+          "stem": "ma",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "content",
+          "word": "psa",
+          "answer": "psa"
+        }
+      ]
+    },
+    {
+      "pl": "Mam dużo pracy.",
+      "en": "I have a lot of work.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "dużo",
+          "answer": "dużo"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "genitive after dużo"
+        }
+      ]
+    },
+    {
+      "pl": "Nie ma mleka.",
+      "en": "There is no milk.",
+      "cloze": [
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "ending",
+          "word": "mleka",
+          "stem": "mlek",
+          "answer": "a",
+          "hint": "genitive after nie ma"
+        }
+      ]
+    },
+    {
+      "pl": "Idę do sklepu.",
+      "en": "I am going to the shop.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "idę",
+          "stem": "id",
+          "answer": "ę",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "do",
+          "answer": "do",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "sklepu",
+          "stem": "sklep",
+          "answer": "u",
+          "hint": "genitive after do"
+        }
+      ]
+    },
+    {
+      "pl": "Wracam z pracy.",
+      "en": "I am coming back from work.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "wracam",
+          "stem": "wraca",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "z",
+          "answer": "z",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "pracy",
+          "stem": "prac",
+          "answer": "y",
+          "hint": "genitive after z"
+        }
+      ]
+    },
+    {
+      "pl": "Wracasz ze sklepu?",
+      "en": "Are you coming back from the shop?",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "wracasz",
+          "stem": "wraca",
+          "answer": "sz",
+          "hint": "you"
+        },
+        {
+          "type": "grammar",
+          "word": "ze",
+          "answer": "ze",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "sklepu",
+          "stem": "sklep",
+          "answer": "u",
+          "hint": "genitive after ze"
+        }
+      ]
+    },
+    {
+      "pl": "Mieszkam blisko apteki.",
+      "en": "I live near the pharmacy.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "mieszkam",
+          "stem": "mieszka",
+          "answer": "m",
+          "hint": "I"
+        },
+        {
+          "type": "grammar",
+          "word": "blisko",
+          "answer": "blisko",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "apteki",
+          "stem": "aptek",
+          "answer": "i",
+          "hint": "genitive after blisko"
+        }
+      ]
+    },
+    {
+      "pl": "Mój brat jest lekarzem.",
+      "en": "My brother is a doctor.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jest",
+          "answer": "jest"
+        },
+        {
+          "type": "ending",
+          "word": "lekarzem",
+          "stem": "lekarz",
+          "answer": "em",
+          "hint": "instrumental"
+        }
+      ]
+    },
+    {
+      "pl": "Moja mama jest nauczycielką.",
+      "en": "My mum is a teacher.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "nauczycielką",
+          "stem": "nauczycielk",
+          "answer": "ą",
+          "hint": "instrumental"
+        },
+        {
+          "type": "content",
+          "word": "mama",
+          "answer": "mama"
+        }
+      ]
+    },
+    {
+      "pl": "Jestem studentem.",
+      "en": "I am a student.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "jestem",
+          "stem": "jest",
+          "answer": "em",
+          "hint": "I"
+        },
+        {
+          "type": "ending",
+          "word": "studentem",
+          "stem": "student",
+          "answer": "em",
+          "hint": "instrumental"
+        }
+      ]
+    },
+    {
+      "pl": "Moja córka jest studentką.",
+      "en": "My daughter is a student.",
+      "cloze": [
+        {
+          "type": "ending",
+          "word": "studentką",
+          "stem": "studentk",
+          "answer": "ą",
+          "hint": "instrumental"
+        },
+        {
+          "type": "content",
+          "word": "córka",
+          "answer": "córka"
+        }
+      ]
+    },
+    {
+      "pl": "Jak było w weekend?",
+      "en": "How was the weekend?",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "jak",
+          "answer": "jak"
+        },
+        {
+          "type": "ending",
+          "word": "było",
+          "stem": "był",
+          "answer": "o",
+          "hint": "it"
+        },
+        {
+          "type": "grammar",
+          "word": "w",
+          "answer": "w",
+          "hint": "preposition"
+        }
+      ]
+    },
+    {
+      "pl": "Klucz jest na stole.",
+      "en": "The key is on the table.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "klucz",
+          "answer": "klucz"
+        },
+        {
+          "type": "grammar",
+          "word": "na",
+          "answer": "na",
+          "hint": "preposition"
+        },
+        {
+          "type": "ending",
+          "word": "stole",
+          "stem": "sto",
+          "answer": "le",
+          "hint": "after na"
+        }
+      ]
+    },
+    {
+      "pl": "Nigdy nie byłem w hotelu.",
+      "en": "I have never been in a hotel.",
+      "cloze": [
+        {
+          "type": "content",
+          "word": "nigdy",
+          "answer": "nigdy"
+        },
+        {
+          "type": "grammar",
+          "word": "nie",
+          "answer": "nie",
+          "hint": "negation"
+        },
+        {
+          "type": "ending",
+          "word": "byłem",
+          "stem": "był",
+          "answer": "em",
+          "hint": "I (m)"
+        }
+      ]
+    }
+  ]
+}

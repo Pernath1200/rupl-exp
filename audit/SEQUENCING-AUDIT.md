@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 56 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
+**Nodes audited:** 60 · **errors:** 0 · **warns:** 0 · **missing_tags:** 0
 
 ## Errors
 
@@ -72,4 +72,8 @@ _None._
 | 53 | `a2_past_gym` | — | 0 | `byc_adj`, `gen_endings`, `miec_acc`, `negation`, `past_ac`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `zgoda` |
 | 54 | `a2_smalltalk` | `smalltalk_chunk` | 16 | `byc_adj`, `past_byc`, `past_rest`, `prep_w_loc`, `question`, `smalltalk_chunk`, `social_chunk`, `time_past_chunk` |
 | 55 | `a2_feelings` | — | 14 | `byc_adj`, `byc_present`, `past_byc`, `poss_nom`, `prep_w_loc`, `question`, `time_past_chunk`, `zgoda` |
+| 56 | `a2_plural_nom` | `plural_nom` | 16 | `byc_adj`, `byc_present`, `gen_endings`, `miec_acc`, `past_ac`, `plural_nom`, `poss_nom`, `present_am`, `question`, `to_jest` |
+| 57 | `a2_past_plural` | `past_plural` | 19 | `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `prep_place`, `prep_w_loc`, `question` |
+| 58 | `a2_family2` | — | 12 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_e_isz`, `present_uje`, `question`, `zgoda` |
+| 59 | `a2_gen_pl` | `gen_pl` | 18 | `existential_jest`, `gen_endings`, `gen_pl`, `miec_present`, `negation`, `plural_nom`, `prep_w_loc`, `present_am` |
 

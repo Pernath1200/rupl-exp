@@ -1,0 +1,629 @@
+{
+  "id": "a2_past_plural",
+  "title": "Czas przeszły · liczba mnoga",
+  "title_en": "Past tense · we, you, they",
+  "level": "A2",
+  "tree_node": "a2_past_plural",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Completes the split made in a2_past_byc (James 2026-08-04): singular past there, plural past here, after plural-Nom. The -li/-ły choice is taught ONLY as a people-vs-everything-else test — at least one man or boy in the group takes -li, everything else takes -ły. The full virile system, virile adjectives and ci/ci sami are B1 and appear nowhere. No oni/one either: the pronouns encode the same distinction and would drag the virile system in early. Plural NOUN subjects are deliberately near-zero — the unit is about the verb — so groups of people are built from two singular nouns joined by i (mama i tata), and the only plural nouns used are klucze and książki, both already in the pool. i (and) is the one new lemma taught; without it a mixed group cannot be shown at all. Verbs: być (full six), mieszkać and robić (full six each, shown and tagged; the -ście forms are shown in a table and drilled only lightly, as the ty-forms were in a2_past_rest). IMPERFECTIVE ONLY — no aspect talk until a2_aspect. mieszkać glossed simple past (as in a2_past_ac), robić glossed progressive.",
+  "focus_structures": [
+    "past_plural"
+  ],
+  "teaches_structures": [
+    "past_plural"
+  ],
+  "uses_structures": [
+    "past_plural",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "prep_w_loc",
+    "prep_place",
+    "miec_acc",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "We, you, they: the other half of the past",
+      "title_pl": "Liczba mnoga w czasie przeszłym",
+      "body": "You already have the singular past: byłem, byłaś, był, była, było. Here is the rest of it.\n\nThe plural does not use -ł at all. It replaces that -ł with -li or -ły, and then adds the person ending:\n\n· we → -śmy — the same -my you type on mieszkamy, robimy\n· you (more than one person) → -ście — the same -cie as in mieszkacie, robicie\n· they → nothing at all, exactly as the he-form had nothing\n\nSo być gives by- + li → byli, and byli + śmy → byliśmy.",
+      "body_pl": "Liczba mnoga: nie -ł, tylko -li / -ły. Potem -śmy (my), -ście (wy), a dla nich nic.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used for"
+        ],
+        "rows": [
+          [
+            "byliśmy",
+            "we were",
+            "a group with a man in it"
+          ],
+          [
+            "byłyśmy",
+            "we were",
+            "women only"
+          ],
+          [
+            "byliście",
+            "you were",
+            "a group with a man in it"
+          ],
+          [
+            "byłyście",
+            "you were",
+            "women only"
+          ],
+          [
+            "byli",
+            "they were",
+            "a group with a man in it"
+          ],
+          [
+            "były",
+            "they were",
+            "women only · and all things"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "-li or -ły? Ask one question",
+      "title_pl": "Test: -li czy -ły?",
+      "body": "One new word first: i means and.\n\nNow the whole choice, and it is a question about people, not about grammar labels:\n\nIs there at least one man or boy in the group?\n· Yes → -li\n· No → -ły\n\n-ły covers everything else — women and girls on their own, and every thing, animal and place. Polish treats two women and two keys the same way here. One man among nine women is still enough to make it -li.",
+      "body_pl": "Choć jeden mężczyzna w grupie → -li. Wszystko inne → -ły.",
+      "table": {
+        "headers": [
+          "Who or what",
+          "Ending",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Mum and Dad",
+            "-li",
+            "Mama i tata byli w domu."
+          ],
+          [
+            "Mum and Anna",
+            "-ły",
+            "Mama i Anna były w domu."
+          ],
+          [
+            "the keys",
+            "-ły",
+            "Klucze były na stole."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same rule on every verb",
+      "title_pl": "Ta sama zasada",
+      "body": "Take the he-form you already know, drop the -ł, put -li or -ły in its place.\n\nmieszkał → mieszka- → mieszkali / mieszkały\nrobił → robi- → robili / robiły\n\nThen -śmy for we, or nothing at all for they. The -ł never survives into the plural — if you can still see it, the form is singular.",
+      "body_pl": "Forma on minus -ł, plus -li / -ły. Potem -śmy albo nic.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "we … (with a man)",
+          "we … (women only)",
+          "they … (with a man)",
+          "they … (women only, things)"
+        ],
+        "rows": [
+          [
+            "być — to be",
+            "byliśmy",
+            "byłyśmy",
+            "byli",
+            "były"
+          ],
+          [
+            "mieszkać — to live",
+            "mieszkaliśmy",
+            "mieszkałyśmy",
+            "mieszkali",
+            "mieszkały"
+          ],
+          [
+            "robić — to do, to make",
+            "robiliśmy",
+            "robiłyśmy",
+            "robili",
+            "robiły"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad and my brother lived in the city.",
+          "pl": "Tata i brat mieszkali w mieście."
+        },
+        {
+          "en": "Mum and my sister lived in the city.",
+          "pl": "Mama i siostra mieszkały w mieście."
+        },
+        {
+          "en": "Mum and Dad were making breakfast.",
+          "pl": "Mama i tata robili śniadanie."
+        }
+      ]
+    },
+    {
+      "title": "Talking to a group",
+      "title_pl": "Forma wy",
+      "body": "-ście is the plural you — the one you use to a room rather than to one person. It is the -cie you already type on mieszkacie and robicie.\n\nThe order matters: choose -li or -ły first, then hang -ście on the end.",
+      "body_pl": "Końcówka -ście = wy. Najpierw -li / -ły, potem -ście.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "you … (with a man)",
+          "you … (women only)"
+        ],
+        "rows": [
+          [
+            "być — to be",
+            "byliście",
+            "byłyście"
+          ],
+          [
+            "mieszkać — to live",
+            "mieszkaliście",
+            "mieszkałyście"
+          ],
+          [
+            "robić — to do, to make",
+            "robiliście",
+            "robiłyście"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Where were you yesterday? (to a group with a man)",
+          "pl": "Gdzie byliście wczoraj?"
+        },
+        {
+          "en": "What were you doing yesterday? (to a group with a man)",
+          "pl": "Co robiliście wczoraj?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "we were (a group with a man)",
+      "pl": "byliśmy"
+    },
+    {
+      "en": "we were (women only)",
+      "pl": "byłyśmy"
+    },
+    {
+      "en": "you were (a group with a man)",
+      "pl": "byliście"
+    },
+    {
+      "en": "you were (women only)",
+      "pl": "byłyście"
+    },
+    {
+      "en": "they were (a group with a man)",
+      "pl": "byli"
+    },
+    {
+      "en": "they were (women only, or things)",
+      "pl": "były"
+    },
+    {
+      "en": "we lived (a group with a man)",
+      "pl": "mieszkaliśmy"
+    },
+    {
+      "en": "we lived (women only)",
+      "pl": "mieszkałyśmy"
+    },
+    {
+      "en": "they lived (a group with a man)",
+      "pl": "mieszkali"
+    },
+    {
+      "en": "they lived (women only, or things)",
+      "pl": "mieszkały"
+    },
+    {
+      "en": "they were doing (a group with a man)",
+      "pl": "robili"
+    },
+    {
+      "en": "they were doing (women only, or things)",
+      "pl": "robiły"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mama i tata ___ w domu.",
+      "choices": [
+        "byli",
+        "były",
+        "byliśmy",
+        "był"
+      ],
+      "answer": "byli",
+      "explain": "There is a man in the group, so the verb takes -li. One man is enough — he does not have to be the majority."
+    },
+    {
+      "prompt": "Mama i Anna ___ w sklepie.",
+      "choices": [
+        "były",
+        "byli",
+        "byłyśmy",
+        "była"
+      ],
+      "answer": "były",
+      "explain": "No man in the group, so -ły. byłyśmy would mean we — the -śmy puts the speaker inside the group."
+    },
+    {
+      "prompt": "Klucze ___ na stole.",
+      "choices": [
+        "były",
+        "byli",
+        "było",
+        "była"
+      ],
+      "answer": "były",
+      "explain": "Things take -ły. było is the singular it — one key would be klucz był, but more than one moves to the plural."
+    },
+    {
+      "prompt": "we were (women only) →",
+      "choices": [
+        "byłyśmy",
+        "byliśmy",
+        "byłyście",
+        "byłam"
+      ],
+      "answer": "byłyśmy"
+    },
+    {
+      "prompt": "Tata i brat ___ w mieście.",
+      "choices": [
+        "mieszkali",
+        "mieszkały",
+        "mieszkaliśmy",
+        "mieszkał"
+      ],
+      "answer": "mieszkali",
+      "explain": "Two men, so -li. The -ł of mieszkał is replaced, not kept: mieszka- + li."
+    },
+    {
+      "prompt": "Mama i siostra ___ obiad.",
+      "choices": [
+        "robiły",
+        "robili",
+        "robiłyśmy",
+        "robiła"
+      ],
+      "answer": "robiły"
+    },
+    {
+      "prompt": "Fix: Mama i tata były w domu. →",
+      "choices": [
+        "byli",
+        "były",
+        "byliśmy",
+        "był"
+      ],
+      "answer": "byli",
+      "explain": "były says there is no man in the group. tata is a man, so the verb has to move to byli."
+    },
+    {
+      "prompt": "Książki ___ na stole.",
+      "choices": [
+        "były",
+        "byli",
+        "była",
+        "byłyśmy"
+      ],
+      "answer": "były"
+    },
+    {
+      "prompt": "Gdzie ___ wczoraj? (to a group with a man)",
+      "choices": [
+        "byliście",
+        "byłyście",
+        "byliśmy",
+        "byłeś"
+      ],
+      "answer": "byliście",
+      "explain": "-ście is the plural you. Make the -li / -ły choice first — the group has a man — then add -ście: byli + ście."
+    },
+    {
+      "prompt": "they were doing (women only) →",
+      "choices": [
+        "robiły",
+        "robili",
+        "robiłyśmy",
+        "robiła"
+      ],
+      "answer": "robiły"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "we were (a group with a man)",
+      "mode": "full_word",
+      "answer": "byliśmy",
+      "accepts": [
+        "byliśmy"
+      ]
+    },
+    {
+      "prompt_en": "we were (women only)",
+      "mode": "full_word",
+      "answer": "byłyśmy",
+      "accepts": [
+        "byłyśmy"
+      ],
+      "explain": "The -ły- sits in front of the person ending, not after it. Choose -li or -ły first, then add -śmy."
+    },
+    {
+      "prompt_en": "you were (a group with a man)",
+      "mode": "full_word",
+      "answer": "byliście",
+      "accepts": [
+        "byliście"
+      ]
+    },
+    {
+      "prompt_en": "you were (women only)",
+      "mode": "full_word",
+      "answer": "byłyście",
+      "accepts": [
+        "byłyście"
+      ]
+    },
+    {
+      "prompt_en": "they were (a group with a man)",
+      "mode": "full_word",
+      "answer": "byli",
+      "accepts": [
+        "byli"
+      ],
+      "explain": "they takes no ending at all, just like the he-form. The word stops at -li."
+    },
+    {
+      "prompt_en": "they were (women only, or things)",
+      "mode": "full_word",
+      "answer": "były",
+      "accepts": [
+        "były"
+      ]
+    },
+    {
+      "prompt_en": "we lived (a group with a man)",
+      "mode": "full_word",
+      "answer": "mieszkaliśmy",
+      "accepts": [
+        "mieszkaliśmy"
+      ]
+    },
+    {
+      "prompt_en": "we lived (women only)",
+      "mode": "full_word",
+      "answer": "mieszkałyśmy",
+      "accepts": [
+        "mieszkałyśmy"
+      ]
+    },
+    {
+      "prompt_en": "they lived (a group with a man)",
+      "mode": "full_word",
+      "answer": "mieszkali",
+      "accepts": [
+        "mieszkali"
+      ],
+      "explain": "Nothing is added to mieszkał — the -ł itself is swapped out. Keeping it would give the singular back."
+    },
+    {
+      "prompt_en": "they lived (women only, or things)",
+      "mode": "full_word",
+      "answer": "mieszkały",
+      "accepts": [
+        "mieszkały"
+      ]
+    },
+    {
+      "prompt_en": "we were doing (a group with a man)",
+      "mode": "full_word",
+      "answer": "robiliśmy",
+      "accepts": [
+        "robiliśmy"
+      ]
+    },
+    {
+      "prompt_en": "we were doing (women only)",
+      "mode": "full_word",
+      "answer": "robiłyśmy",
+      "accepts": [
+        "robiłyśmy"
+      ]
+    },
+    {
+      "prompt_en": "they were doing (a group with a man)",
+      "mode": "full_word",
+      "answer": "robili",
+      "accepts": [
+        "robili"
+      ]
+    },
+    {
+      "prompt_en": "they were doing (women only, or things)",
+      "mode": "full_word",
+      "answer": "robiły",
+      "accepts": [
+        "robiły"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum and Dad were at home.",
+      "answer": "Mama i tata byli w domu.",
+      "accepts": [
+        "Mama i tata byli w domu.",
+        "Mama i tata byli w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum and Anna were at the shop.",
+      "answer": "Mama i Anna były w sklepie.",
+      "accepts": [
+        "Mama i Anna były w sklepie.",
+        "Mama i Anna były w sklepie"
+      ],
+      "explain": "Two women and no man, so -ły. Swap Anna for tata and the same sentence needs byli."
+    },
+    {
+      "prompt_en": "Type: The keys were on the table.",
+      "answer": "Klucze były na stole.",
+      "accepts": [
+        "Klucze były na stole.",
+        "Klucze były na stole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad and my brother lived in the city.",
+      "answer": "Tata i brat mieszkali w mieście.",
+      "accepts": [
+        "Tata i brat mieszkali w mieście.",
+        "Tata i brat mieszkali w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum and my sister lived in the city.",
+      "answer": "Mama i siostra mieszkały w mieście.",
+      "accepts": [
+        "Mama i siostra mieszkały w mieście.",
+        "Mama i siostra mieszkały w mieście"
+      ],
+      "explain": "Same sentence as Dad and my brother, one letter apart in the verb — that letter is the whole test."
+    },
+    {
+      "prompt_en": "Type: Mum and Dad were making breakfast.",
+      "answer": "Mama i tata robili śniadanie.",
+      "accepts": [
+        "Mama i tata robili śniadanie.",
+        "Mama i tata robili śniadanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum and my sister were making lunch.",
+      "answer": "Mama i siostra robiły obiad.",
+      "accepts": [
+        "Mama i siostra robiły obiad.",
+        "Mama i siostra robiły obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday we were in the park. (a group with a man)",
+      "answer": "Wczoraj byliśmy w parku.",
+      "accepts": [
+        "Wczoraj byliśmy w parku.",
+        "Wczoraj byliśmy w parku",
+        "Byliśmy wczoraj w parku.",
+        "Byliśmy wczoraj w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where were you yesterday? (to a group with a man)",
+      "answer": "Gdzie byliście wczoraj?",
+      "accepts": [
+        "Gdzie byliście wczoraj?",
+        "Gdzie byliście wczoraj",
+        "Gdzie wczoraj byliście?",
+        "Gdzie wczoraj byliście"
+      ]
+    },
+    {
+      "prompt_en": "Type: What were you doing yesterday? (to a group with a man)",
+      "answer": "Co robiliście wczoraj?",
+      "accepts": [
+        "Co robiliście wczoraj?",
+        "Co robiliście wczoraj",
+        "Co wczoraj robiliście?",
+        "Co wczoraj robiliście"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "i",
+    "byliśmy",
+    "byłyśmy",
+    "byliście",
+    "byłyście",
+    "byli",
+    "były",
+    "mieszkaliśmy",
+    "mieszkałyśmy",
+    "mieszkaliście",
+    "mieszkałyście",
+    "mieszkali",
+    "mieszkały",
+    "robiliśmy",
+    "robiłyśmy",
+    "robiliście",
+    "robiłyście",
+    "robili",
+    "robiły"
+  ],
+  "uses_lemmas": [
+    "być",
+    "był",
+    "była",
+    "było",
+    "mieszkać",
+    "mieszkał",
+    "mieszkała",
+    "mieszkamy",
+    "mieszkacie",
+    "robić",
+    "robił",
+    "robiła",
+    "robimy",
+    "robicie",
+    "mama",
+    "tata",
+    "anna",
+    "brat",
+    "siostra",
+    "klucze",
+    "książki",
+    "obiad",
+    "śniadanie",
+    "na stole",
+    "w domu",
+    "w sklepie",
+    "w mieście",
+    "w parku",
+    "wczoraj",
+    "gdzie",
+    "co"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_past_plural",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

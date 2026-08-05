@@ -1511,13 +1511,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Noun pl: f/m -y/-i (kawy, sklepy, banki), n -a (miasta, piwa), soft -e. Adjective pl -e. są + to są. Virile (ci studenci) explicitly fenced to B1.",
+      "note": "Non-virile plural Nom/Acc (identical - taught as the gift). -y / -i after k,g / -e soft / neuter -a; adjectives always -e. k/g rule is the a1_gen_ki payoff. Suppletives + virile fenced.",
       "unit_id": "PL2_09",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_plural_nom.json"
     },
     {
       "id": "a2_past_plural",
@@ -1528,13 +1529,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[SPLIT from a2_past_byc, James 2026-08-04] byliśmy/byłyśmy, byliście/byłyście, byli/były — taught as a simple people-vs-everything-else rule (byli = groups with a man in them, były = everyone/everything else). Lands after plural-Nom so plural subjects exist. Full virile system stays B1.",
+      "note": "Plural past: -li = any group with a man, -ly = everything else. Byc + mieszkac + robic, all six persons. Teaches the conjunction \"i\" (and) - a real gap, nothing taught it before. Virile system stays B1.",
       "unit_id": "PL2_09B",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_past_plural.json"
     },
     {
       "id": "a2_family2",
@@ -1545,13 +1547,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~15 new: dziadek, babcia, wujek, ciocia, kuzyn, żona, mąż, dziecko/dzieci, wnuk, rodzice, rodzeństwo. dzieci/rodzice = plural payoff.",
+      "note": "12 new family nouns incl. plural-only rodzice/dzieci (taught whole - both are irregular and fenced from plural_nom). Rides past_plural for 3 sentences.",
       "unit_id": "PL2_10",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "people"
+      "tree_part": "people",
+      "content": "vocab/blocks/a2_family2.json"
     },
     {
       "id": "a2_gen_pl",
@@ -1562,13 +1565,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] m -ów (domów, kotów), f/n zero-ending (kaw, szkół, piw — vowel shifts ó flagged), soft -y/-i. Governors already known: dużo, nie ma, blisko.",
+      "note": "Genitive plural, REGULAR ONLY: masc -ow, fem/neut zero-ending on non-shifting stems. Every vowel-shift and fleeting-e stem fenced, including pies->psow and samochod->samochodow (both dropped by the author as stem-changing - correct).",
       "unit_id": "PL2_11",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_gen_pl.json"
     },
     {
       "id": "a2_station_1",
