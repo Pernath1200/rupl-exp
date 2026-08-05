@@ -2118,13 +2118,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] pierwszy-dwunasty + o której? o trzeciej (Loc fem chunk). Half-past/quarter chunks (wpół do). Chunk lane, no full ordinal declension.",
+      "note": "Ordinals 6th-12th (a1_numbers already owned 1st-5th) + clock as FROZEN chunks. The -ej forms are never put beside their ordinal number-for-number and no locative id is tagged, so the case cannot be induced. Half-past/quarter deliberately absent. KNOWN GAP: teaches asking the time and saying WHEN things happen, but not saying the hour back (Jest trzecia) - that is a third inflected set and wants its own small unit.",
       "unit_id": "PL2_42",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_ordinals_time.json"
     },
     {
       "id": "a2_celebrations",
@@ -2135,13 +2136,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~14 new: urodziny, prezent, impreza, gość recycled, życzenia, tort, Boże Narodzenie, Wielkanoc, sylwester, zapraszać. Kiedy masz urodziny? + dates chunk.",
+      "note": "Celebrations. urodziny turned out NOT taught (brief was wrong) so it is taught here. karta is taken by the bank card, so kartka is used with an explain naming the contrast. Dates avoided entirely - locative months (w maju) are not taught anywhere, verified. Plural-only block (urodziny/zyczenia/gratulacje) mirrors a2_family2; agreement load split so no sentence stacks adjective agreement and plural verb at once.",
       "unit_id": "PL2_43",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "social"
+      "tree_part": "social",
+      "content": "vocab/blocks/a2_celebrations.json"
     },
     {
       "id": "a2_superlatives",

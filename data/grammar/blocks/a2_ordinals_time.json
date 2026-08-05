@@ -1,0 +1,803 @@
+{
+  "id": "a2_ordinals_time",
+  "title": "Liczby porządkowe · godziny",
+  "title_en": "Ordinals and the clock",
+  "level": "A2",
+  "tree_node": "a2_ordinals_time",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Two halves, deliberately kept apart. (1) Ordinals 1st-12th. a1_numbers already owns pierwszy, drugi, trzeci, czwarty, piaty (its time_numbers_tens block), so ONLY szosty, siodmy, osmy, dziewiaty, dziesiaty, jedenasty, dwunasty are taught here; the first five are recycled and listed in uses_lemmas. (2) Whole-hour clock time as FROZEN CHUNKS. LOCATIVE QUARANTINE: 'o trzeciej' is a feminine locative agreeing with an unspoken godzinie. That machinery is NOT taught here and must not be. Exactly the a2_shopping_func 'Place karta' treatment is applied: the case is never named, never explained, and no locative structure id is tagged on any o-time item. The ONLY statement made about the shape is the permitted one - the clock words all end in -ej and are learned whole. Critically, the pack NEVER contrasts an o-form with its plain ordinal: no item, explain, table row or quiz choice ever puts szosty next to o szostej, and every quiz choice touching an o-form is a WHOLE PHRASE set against other whole phrases (o siodmej / o szostej / o osmej), never a four-way ending drill, which would open the case by the back door. In type_items the ordinals are grouped first and the o-forms second so the two sets are never juxtaposed number-for-number. FENCED, must not appear anywhere: wpol do, za pietnascie, kwadrans po, any minutes-past-the-hour, any half-past or quarter form. All of those need genitive machinery plus a different clock logic (Polish counts toward the next hour) and are a separate unit. Whole hours only. ALSO FENCED: the feminine nominative answer set (Jest trzecia / Jest godzina trzecia). That is a THIRD inflected set on top of the ordinals and the -ej chunks, and the load-splitting rule forbids it here - so the unit teaches the learner to ASK the time and to SAY when things happen, and defers saying the hour back. FORKS, all reported: (a) 'O ktorej?' was added beyond the brief's list - it is in this node's own tree note, and without it the twelve -ej chunks have no natural prompt; it is taught whole exactly like 'Ktora godzina?', and 'ktorej' is tagged so the auditor sees it. (b) Both the bare -ej token (siodmej) and the full chunk (o siodmej) are tagged in teaches_lemmas, following the a2_shopping_func precedent of tagging both 'karta' and 'place karta'. (c) 'po poludniu' is NOT used anywhere: a1_time_cal taught only the noun popoludnie and 'po poludniu' is not in POOL. Verified and available for anchoring instead: rano, wieczorem, dzisiaj, jutro, wczoraj, codziennie. (d) a1_trunk_there_time (path 41, live) contains 'Ktora jest godzina?', 'Jest trzecia', 'Wstaje o siodmej' and 'od dziewiatej do piatej' as frames, but that pack carries NO teaches_lemmas, so none of those forms are in POOL - they are treated as untaught here and 'Ktora godzina?' is taught properly. 'od ... do ...' is not touched: od is untaught. All verbs imperfective. Every 3sg used (jest, ma, pije, kupuje, idzie, jedzie) is in POOL; wraca and wstaje are NOT in POOL and are deliberately absent.",
+  "focus_structures": [
+    "ordinals_time"
+  ],
+  "teaches_structures": [
+    "ordinals_time"
+  ],
+  "uses_structures": [
+    "ordinals_time",
+    "byc_present",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_e_esz",
+    "present_uje",
+    "chodzic",
+    "jechac",
+    "prep_do_gen",
+    "question",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "Ordinals: first, second, third…",
+      "title_pl": "Liczby porządkowe 1–12",
+      "body": "Cardinals count how many — jeden, dwa, trzy. Ordinals name the position — first, second, third. Polish has a separate word for each, and it behaves like an adjective.\n\nThe first five are already yours from your numbers work. Seven are new, and only those seven are drilled in this unit.\n\nTwo to watch. Ósmy and siódmy both carry ó, which is simply the u sound — say oosmy and syoodmy. And the ordinal of twelve is dwunasty, not dwanasty: the cardinal dwanaście changes its middle when it becomes an ordinal. Jedenaście does not, so jedenasty is straightforward.",
+      "body_pl": "Liczby porządkowe: pierwszy, drugi, trzeci, czwarty, piąty, szósty, siódmy, ósmy, dziewiąty, dziesiąty, jedenasty, dwunasty.",
+      "table": {
+        "headers": [
+          "Number",
+          "Ordinal",
+          "English"
+        ],
+        "rows": [
+          [
+            "1",
+            "pierwszy",
+            "first — already yours"
+          ],
+          [
+            "2",
+            "drugi",
+            "second — already yours"
+          ],
+          [
+            "3",
+            "trzeci",
+            "third — already yours"
+          ],
+          [
+            "4",
+            "czwarty",
+            "fourth — already yours"
+          ],
+          [
+            "5",
+            "piąty",
+            "fifth — already yours"
+          ],
+          [
+            "6",
+            "szósty",
+            "sixth — new"
+          ],
+          [
+            "7",
+            "siódmy",
+            "seventh — new"
+          ],
+          [
+            "8",
+            "ósmy",
+            "eighth — new"
+          ],
+          [
+            "9",
+            "dziewiąty",
+            "ninth — new"
+          ],
+          [
+            "10",
+            "dziesiąty",
+            "tenth — new"
+          ],
+          [
+            "11",
+            "jedenasty",
+            "eleventh — new"
+          ],
+          [
+            "12",
+            "dwunasty",
+            "twelfth — new"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The clock: twelve phrases, learned whole",
+      "title_pl": "O której? · zwroty w całości",
+      "body": "To say when something happens, Polish puts o in front of a clock word. You already know o from o domu, o pracy — here it is doing a different job, and the word after it is a fixed phrase.\n\nEvery clock word ends in -ej. That is the whole of what you need to notice about their shape. Do not try to build them out of anything, and do not change them. Learn each phrase whole, exactly as it stands — the same way you learned Płacę kartą.\n\nTwelve phrases, one for each hour. Polish uses the same twelve for morning and evening in ordinary speech, so o ósmej covers eight in the morning and eight at night; rano and wieczorem sort it out when it matters.",
+      "body_pl": "Godziny w całości: o pierwszej, o drugiej, o trzeciej, o czwartej, o piątej, o szóstej, o siódmej, o ósmej, o dziewiątej, o dziesiątej, o jedenastej, o dwunastej.",
+      "table": {
+        "headers": [
+          "Hour",
+          "Polish — take it whole",
+          "English"
+        ],
+        "rows": [
+          [
+            "1",
+            "o pierwszej",
+            "at one o'clock"
+          ],
+          [
+            "2",
+            "o drugiej",
+            "at two o'clock"
+          ],
+          [
+            "3",
+            "o trzeciej",
+            "at three o'clock"
+          ],
+          [
+            "4",
+            "o czwartej",
+            "at four o'clock"
+          ],
+          [
+            "5",
+            "o piątej",
+            "at five o'clock"
+          ],
+          [
+            "6",
+            "o szóstej",
+            "at six o'clock"
+          ],
+          [
+            "7",
+            "o siódmej",
+            "at seven o'clock"
+          ],
+          [
+            "8",
+            "o ósmej",
+            "at eight o'clock"
+          ],
+          [
+            "9",
+            "o dziewiątej",
+            "at nine o'clock"
+          ],
+          [
+            "10",
+            "o dziesiątej",
+            "at ten o'clock"
+          ],
+          [
+            "11",
+            "o jedenastej",
+            "at eleven o'clock"
+          ],
+          [
+            "12",
+            "o dwunastej",
+            "at twelve o'clock"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Asking the time, and asking when",
+      "title_pl": "Która godzina? · O której?",
+      "body": "Two questions, both fixed phrases.\n\nKtóra godzina? = \"What time is it?\" Godzina is the hour, a word you have had since your calendar lessons. Put przepraszam in front of it and you can stop a stranger in the street.\n\nO której? = \"At what time?\" This is the one that pairs with everything on the last slide: ask O której?, and the answer comes back as one of your twelve phrases.\n\n— O której? — O trzeciej.\n\nThis unit stops at whole hours. Half past and quarter past work differently in Polish and they wait for their own unit.",
+      "body_pl": "Która godzina? O której? — O trzeciej.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Która godzina?",
+            "What time is it?",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "Przepraszam, która godzina?",
+            "Excuse me, what time is it?",
+            "przepraszam is already yours"
+          ],
+          [
+            "O której?",
+            "At what time?",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "— O której? — O siódmej.",
+            "— At what time? — At seven.",
+            "question and answer, both whole"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me, what time is it?",
+          "pl": "Przepraszam, która godzina?"
+        },
+        {
+          "en": "— At what time? — At ten.",
+          "pl": "— O której? — O dziesiątej."
+        }
+      ]
+    },
+    {
+      "title": "Putting the hour into a sentence",
+      "title_pl": "Godzina w zdaniu",
+      "body": "The clock phrase goes at the end of the sentence and nothing else has to move. Every one of these sentences is built from words you already produce — only the hour is new.\n\nAdd rano or wieczorem after it when the half of the day matters, and codziennie in front when it happens every day.",
+      "body_pl": "Pociąg jest o siódmej. Tata ma spotkanie o dziesiątej. Codziennie jem obiad o pierwszej.",
+      "examples": [
+        {
+          "en": "The train is at seven.",
+          "pl": "Pociąg jest o siódmej."
+        },
+        {
+          "en": "The film is at eight in the evening.",
+          "pl": "Film jest o ósmej wieczorem."
+        },
+        {
+          "en": "Dad has a meeting at ten.",
+          "pl": "Tata ma spotkanie o dziesiątej."
+        },
+        {
+          "en": "Mum drinks coffee at nine in the morning.",
+          "pl": "Mama pije kawę o dziewiątej rano."
+        },
+        {
+          "en": "Every day I eat lunch at one.",
+          "pl": "Codziennie jem obiad o pierwszej."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "sixth",
+      "pl": "szósty"
+    },
+    {
+      "en": "seventh",
+      "pl": "siódmy"
+    },
+    {
+      "en": "eighth",
+      "pl": "ósmy"
+    },
+    {
+      "en": "ninth",
+      "pl": "dziewiąty"
+    },
+    {
+      "en": "tenth",
+      "pl": "dziesiąty"
+    },
+    {
+      "en": "eleventh",
+      "pl": "jedenasty"
+    },
+    {
+      "en": "twelfth",
+      "pl": "dwunasty"
+    },
+    {
+      "en": "at one o'clock",
+      "pl": "o pierwszej"
+    },
+    {
+      "en": "at three o'clock",
+      "pl": "o trzeciej"
+    },
+    {
+      "en": "at seven o'clock",
+      "pl": "o siódmej"
+    },
+    {
+      "en": "at twelve o'clock",
+      "pl": "o dwunastej"
+    },
+    {
+      "en": "What time is it?",
+      "pl": "Która godzina?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "sixth →",
+      "choices": [
+        "szósty",
+        "siódmy",
+        "ósmy",
+        "piąty"
+      ],
+      "answer": "szósty",
+      "explain": "Szósty carries ó, which is just the u sound: shoosty. Piąty is fifth and it is already yours, so it is the one you can rule out first."
+    },
+    {
+      "prompt": "seventh →",
+      "choices": [
+        "siódmy",
+        "szósty",
+        "siedem",
+        "ósmy"
+      ],
+      "answer": "siódmy",
+      "explain": "Siedem is the cardinal — it counts how many. Siódmy names the position."
+    },
+    {
+      "prompt": "eighth →",
+      "choices": [
+        "ósmy",
+        "siódmy",
+        "dziewiąty",
+        "dziesiąty"
+      ],
+      "answer": "ósmy",
+      "explain": "The word opens on ó, so it starts with the u sound: oosmy. Nothing else about it is unusual."
+    },
+    {
+      "prompt": "ninth →",
+      "choices": [
+        "dziewiąty",
+        "dziesiąty",
+        "dziewięć",
+        "ósmy"
+      ],
+      "answer": "dziewiąty",
+      "explain": "Ninth and tenth sound alike and sit next to each other. Nine has the nasal ą in the middle: dziewiąty. Ten does not."
+    },
+    {
+      "prompt": "tenth →",
+      "choices": [
+        "dziesiąty",
+        "dziewiąty",
+        "dziesięć",
+        "dwunasty"
+      ],
+      "answer": "dziesiąty",
+      "explain": "Dziesięć is the cardinal you already have. The ordinal keeps the s of dziesięć — dziewiąty, ninth, has a w there instead."
+    },
+    {
+      "prompt": "eleventh →",
+      "choices": [
+        "jedenasty",
+        "jedenaście",
+        "dwunasty",
+        "dziesiąty"
+      ],
+      "answer": "jedenasty",
+      "explain": "Jedenaście is the cardinal. The ordinal swaps its tail for -asty and changes nothing else."
+    },
+    {
+      "prompt": "twelfth →",
+      "choices": [
+        "dwunasty",
+        "dwanasty",
+        "dwanaście",
+        "jedenasty"
+      ],
+      "answer": "dwunasty",
+      "explain": "Watch the middle. The cardinal is dwanaście but the ordinal is dwunasty — dwu-, not dwa-. It is the only ordinal in this set that changes shape like that."
+    },
+    {
+      "prompt": "at seven o'clock →",
+      "choices": [
+        "o siódmej",
+        "o szóstej",
+        "o ósmej",
+        "o dziewiątej"
+      ],
+      "answer": "o siódmej",
+      "explain": "All four are real clock phrases and all four end in -ej. That ending tells you nothing about which hour it is — the middle of the word does."
+    },
+    {
+      "prompt": "at twelve o'clock →",
+      "choices": [
+        "o dwunastej",
+        "o jedenastej",
+        "o dziesiątej",
+        "o drugiej"
+      ],
+      "answer": "o dwunastej",
+      "explain": "O drugiej is at two. Dwunastej is the twelve one — take the phrase whole and there is nothing to work out."
+    },
+    {
+      "prompt": "The train is at five. →",
+      "choices": [
+        "Pociąg jest o piątej.",
+        "Pociąg jest o pierwszej.",
+        "Pociąg jest o czwartej.",
+        "Pociąg jest o szóstej."
+      ],
+      "answer": "Pociąg jest o piątej.",
+      "explain": "The sentence never changes — only the fixed clock phrase at the end of it does."
+    },
+    {
+      "prompt": "What time is it? →",
+      "choices": [
+        "Która godzina?",
+        "O której?",
+        "Ile to kosztuje?",
+        "Ile masz lat?"
+      ],
+      "answer": "Która godzina?",
+      "explain": "Która godzina? asks what the time is now. O której? asks when something happens — a different question with a different answer."
+    },
+    {
+      "prompt": "At what time? →",
+      "choices": [
+        "O której?",
+        "Która godzina?",
+        "Gdzie jest sklep?",
+        "Ile masz lat?"
+      ],
+      "answer": "O której?",
+      "explain": "This is the question your twelve clock phrases answer: — O której? — O trzeciej."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "sixth",
+      "mode": "full_word",
+      "answer": "szósty",
+      "accepts": [
+        "szósty"
+      ]
+    },
+    {
+      "prompt_en": "seventh",
+      "mode": "full_word",
+      "answer": "siódmy",
+      "accepts": [
+        "siódmy"
+      ],
+      "explain": "The ó is the u sound, so this comes out as syoodmy. It is written ó and never u."
+    },
+    {
+      "prompt_en": "eighth",
+      "mode": "full_word",
+      "answer": "ósmy",
+      "accepts": [
+        "ósmy"
+      ],
+      "explain": "The word begins on ó — the u sound. Oosmy."
+    },
+    {
+      "prompt_en": "ninth",
+      "mode": "full_word",
+      "answer": "dziewiąty",
+      "accepts": [
+        "dziewiąty"
+      ]
+    },
+    {
+      "prompt_en": "tenth",
+      "mode": "full_word",
+      "answer": "dziesiąty",
+      "accepts": [
+        "dziesiąty"
+      ],
+      "explain": "Ninth and tenth differ by one letter in the middle: dziewiąty has w, dziesiąty has s — the same s as in dziesięć."
+    },
+    {
+      "prompt_en": "eleventh",
+      "mode": "full_word",
+      "answer": "jedenasty",
+      "accepts": [
+        "jedenasty"
+      ]
+    },
+    {
+      "prompt_en": "twelfth",
+      "mode": "full_word",
+      "answer": "dwunasty",
+      "accepts": [
+        "dwunasty"
+      ],
+      "explain": "Not dwanasty. The cardinal dwanaście changes its middle to dwu- when it becomes an ordinal, and this is the only word in the set that does it."
+    },
+    {
+      "prompt_en": "at one o'clock",
+      "mode": "full_word",
+      "answer": "o pierwszej",
+      "accepts": [
+        "o pierwszej"
+      ],
+      "explain": "A fixed phrase, taken whole. Every clock word ends in -ej and there is nothing in it for you to build."
+    },
+    {
+      "prompt_en": "at two o'clock",
+      "mode": "full_word",
+      "answer": "o drugiej",
+      "accepts": [
+        "o drugiej"
+      ]
+    },
+    {
+      "prompt_en": "at three o'clock",
+      "mode": "full_word",
+      "answer": "o trzeciej",
+      "accepts": [
+        "o trzeciej"
+      ]
+    },
+    {
+      "prompt_en": "at four o'clock",
+      "mode": "full_word",
+      "answer": "o czwartej",
+      "accepts": [
+        "o czwartej"
+      ]
+    },
+    {
+      "prompt_en": "at five o'clock",
+      "mode": "full_word",
+      "answer": "o piątej",
+      "accepts": [
+        "o piątej"
+      ]
+    },
+    {
+      "prompt_en": "at six o'clock",
+      "mode": "full_word",
+      "answer": "o szóstej",
+      "accepts": [
+        "o szóstej"
+      ]
+    },
+    {
+      "prompt_en": "at seven o'clock",
+      "mode": "full_word",
+      "answer": "o siódmej",
+      "accepts": [
+        "o siódmej"
+      ],
+      "explain": "Written with ó, said with the u sound: o syoodmey."
+    },
+    {
+      "prompt_en": "at eight o'clock",
+      "mode": "full_word",
+      "answer": "o ósmej",
+      "accepts": [
+        "o ósmej"
+      ],
+      "explain": "Two o sounds run together here — o oosmey. Polish is happy with that and does not join them up."
+    },
+    {
+      "prompt_en": "at nine o'clock",
+      "mode": "full_word",
+      "answer": "o dziewiątej",
+      "accepts": [
+        "o dziewiątej"
+      ]
+    },
+    {
+      "prompt_en": "at ten o'clock",
+      "mode": "full_word",
+      "answer": "o dziesiątej",
+      "accepts": [
+        "o dziesiątej"
+      ]
+    },
+    {
+      "prompt_en": "at eleven o'clock",
+      "mode": "full_word",
+      "answer": "o jedenastej",
+      "accepts": [
+        "o jedenastej"
+      ]
+    },
+    {
+      "prompt_en": "at twelve o'clock",
+      "mode": "full_word",
+      "answer": "o dwunastej",
+      "accepts": [
+        "o dwunastej"
+      ],
+      "explain": "Midday or midnight — the phrase is the same either way, and rano or wieczorem sorts it out if it matters."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Excuse me, what time is it?",
+      "answer": "Przepraszam, która godzina?",
+      "accepts": [
+        "Przepraszam, która godzina?",
+        "Przepraszam, która godzina",
+        "Przepraszam która godzina?",
+        "Która godzina?"
+      ],
+      "explain": "Przepraszam is the same word you already use to stop someone in the street. The question after it never changes."
+    },
+    {
+      "prompt_en": "Type the exchange: — At what time? — At three.",
+      "answer": "— O której? — O trzeciej.",
+      "accepts": [
+        "— O której? — O trzeciej.",
+        "O której? O trzeciej.",
+        "O której? O trzeciej",
+        "- O której? - O trzeciej."
+      ],
+      "explain": "This is the pair the whole unit is built on: ask O której?, answer with one fixed clock phrase and nothing else."
+    },
+    {
+      "prompt_en": "Type: The train is at seven.",
+      "answer": "Pociąg jest o siódmej.",
+      "accepts": [
+        "Pociąg jest o siódmej.",
+        "Pociąg jest o siódmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bus is at five.",
+      "answer": "Autobus jest o piątej.",
+      "accepts": [
+        "Autobus jest o piątej.",
+        "Autobus jest o piątej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The film is at eight in the evening.",
+      "answer": "Film jest o ósmej wieczorem.",
+      "accepts": [
+        "Film jest o ósmej wieczorem.",
+        "Film jest o ósmej wieczorem"
+      ],
+      "explain": "Polish uses the same twelve clock phrases day and night, so wieczorem is what tells you this is not eight in the morning."
+    },
+    {
+      "prompt_en": "Type: The match is at twelve.",
+      "answer": "Mecz jest o dwunastej.",
+      "accepts": [
+        "Mecz jest o dwunastej.",
+        "Mecz jest o dwunastej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad has a meeting at ten.",
+      "answer": "Tata ma spotkanie o dziesiątej.",
+      "accepts": [
+        "Tata ma spotkanie o dziesiątej.",
+        "Tata ma spotkanie o dziesiątej"
+      ],
+      "explain": "Spotkanie is neuter, so it looks the same after ma as it does on its own. The clock phrase simply sits at the end."
+    },
+    {
+      "prompt_en": "Type: Mum drinks coffee at nine in the morning.",
+      "answer": "Mama pije kawę o dziewiątej rano.",
+      "accepts": [
+        "Mama pije kawę o dziewiątej rano.",
+        "Mama pije kawę o dziewiątej rano"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna is going to the shop at two.",
+      "answer": "Anna idzie do sklepu o drugiej.",
+      "accepts": [
+        "Anna idzie do sklepu o drugiej.",
+        "Anna idzie do sklepu o drugiej"
+      ],
+      "explain": "Idzie, not chodzi — this is one particular trip at one particular hour, which is exactly what a clock phrase pins down."
+    },
+    {
+      "prompt_en": "Type: Dad goes to work at six.",
+      "answer": "Tata jedzie do pracy o szóstej.",
+      "accepts": [
+        "Tata jedzie do pracy o szóstej.",
+        "Tata jedzie do pracy o szóstej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Every day I eat lunch at one.",
+      "answer": "Codziennie jem obiad o pierwszej.",
+      "accepts": [
+        "Codziennie jem obiad o pierwszej.",
+        "Codziennie jem obiad o pierwszej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum buys bread at eleven.",
+      "answer": "Mama kupuje chleb o jedenastej.",
+      "accepts": [
+        "Mama kupuje chleb o jedenastej.",
+        "Mama kupuje chleb o jedenastej"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "szósty",
+    "siódmy",
+    "ósmy",
+    "dziewiąty",
+    "dziesiąty",
+    "jedenasty",
+    "dwunasty",
+    "pierwszej",
+    "drugiej",
+    "trzeciej",
+    "czwartej",
+    "piątej",
+    "szóstej",
+    "siódmej",
+    "ósmej",
+    "dziewiątej",
+    "dziesiątej",
+    "jedenastej",
+    "dwunastej",
+    "o pierwszej",
+    "o drugiej",
+    "o trzeciej",
+    "o czwartej",
+    "o piątej",
+    "o szóstej",
+    "o siódmej",
+    "o ósmej",
+    "o dziewiątej",
+    "o dziesiątej",
+    "o jedenastej",
+    "o dwunastej",
+    "która",
+    "której",
+    "która godzina",
+    "o której",
+    "przepraszam, która godzina"
+  ],
+  "uses_lemmas": [
+    "pierwszy",
+    "drugi",
+    "trzeci",
+    "czwarty",
+    "piąty",
+    "siedem",
+    "dziewięć",
+    "dziesięć",
+    "jedenaście",
+    "dwanaście",
+    "o",
+    "godzina",
+    "jest",
+    "ma",
+    "pije",
+    "kupuje",
+    "idzie",
+    "jedzie",
+    "jem",
+    "pociąg",
+    "autobus",
+    "film",
+    "mecz",
+    "spotkanie",
+    "obiad",
+    "chleb",
+    "kawę",
+    "do sklepu",
+    "do pracy",
+    "tata",
+    "mama",
+    "anna",
+    "rano",
+    "wieczorem",
+    "codziennie",
+    "przepraszam",
+    "gdzie jest",
+    "ile to kosztuje",
+    "ile masz lat?"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_ordinals_time",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "id": "a2_phone_func",
+  "title": "Telefon · zwroty",
+  "title_en": "On the phone · what to say",
+  "level": "A2",
+  "tree_node": "a2_phone_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Situations/chunk unit — calls and messages. Fixed phrases, learned whole, no rule slides. Sits directly on a2_tech2 (path_order 88 -> 89), which teaches dzwonie, wysylam, laduje and numer; those are RECYCLED here, never re-taught. Only FIVE genuinely new words: halo, slucham, rozmawiac, slysze, usluszenia (inside 'Do uslyszenia'). TRAP 1 — 'Oddzwonie pozniej' was DROPPED and NOT replaced by any future form. oddzwonie is a PERFECTIVE FUTURE and is B1-fenced; a2_bedzie has already told the learner Polish has one future (bedzie + infinitive), and a perfective present-shaped future would contradict that lesson outright. 'pozniej' is also absent from POOL (only 'pozno'). The call-back function is served instead by two imperfective phrases that do the same social work: 'Nie moge teraz rozmawiac.' (moge + infinitive, can_inf, already taught) closes the conversation now, and 'Do uslyszenia.' closes the call. No future tense appears anywhere in this unit. TRAP 2 — 'Napisz mi SMS' was DROPPED ENTIRELY. napisz is an IMPERATIVE and a2_imperative sits at path_order 95, six units later; it is also PERFECTIVE. The text-message function is served by 'Wysylam wiadomosc.' — wysylam comes from a2_tech2 and wiadomosc from a1_tech, so the phrase costs nothing new and breaks no fence. No imperative form appears anywhere in this unit. TRAP 3 — 'Nie slysze cie' became 'Nie slysze.' The pronoun 'cie' is NOT in POOL (only mnie, mi, sie are), and dropping it is what Poles actually say on a bad line. 'slyszec' is not in POOL either, so 'Nie slysze.' is carried as an OPAQUE BLOCK, exactly as 'Nie wiem.' is in a2_directions_func: slysze is never conjugated, the infinitive is never shown, and there is no slysze/slyszysz four-way anywhere in quiz. Only 'slysze' and 'nie slysze' are tagged. SLUCHAM by contrast is NOT quarantined — sluchac is already in POOL and it is a plain -am verb like mam and czytam, so naming the pattern is honest and costs nothing. 'Zly numer' became 'To zly numer.': zly is already taught (bad/angry) and numer arrives from a2_tech2, so the phrase is a sense-shift on known material, not new vocabulary. Real contrast the unit DOES teach, because all three are already taught or taught here: Do widzenia (seeing) vs Do zobaczenia (seeing again) vs Do uslyszenia (hearing — the phone one). 'Czy moge rozmawiac z...?' is legal ground: moge + infinitive is can_inf, and z + Instrumental is a2_inst_z at path_order 64, so every person-noun used (z mama, z tata, z siostra, z bratem, z babcia) is a form already in POOL. 'sms', 'sygnal', 'dzwonek', 'polaczenie', 'chwila' were all checked against POOL, found absent, and left out for restraint.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "can_inf",
+    "inst_z",
+    "negation",
+    "question",
+    "to_jest",
+    "zgoda",
+    "byc_present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "prep_do_gen",
+    "miec_present",
+    "miec_acc",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "Słucham? · Halo? — the first second of a Polish call",
+      "title_pl": "Słucham? Halo?",
+      "body": "Two words get you through the moment the phone is picked up.\n\nSłucham? is what you say when you answer a call. It means \"I'm listening?\" and it is the ordinary Polish way to pick up — far more common than anything else. There is nothing awkward inside it: słuchać is a word you already have, and słucham is built with the -am ending you already produce on mam and czytam.\n\nHalo? is the other one, and it does a different job. Use it when the line has gone quiet and you want to know whether anyone is still there. It is not a greeting. Do not use it in place of Dzień dobry.",
+      "body_pl": "Słucham? Halo? Halo? Nie słyszę.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When you say it"
+        ],
+        "rows": [
+          [
+            "Słucham?",
+            "Yes? / Speaking?",
+            "you have just answered a call"
+          ],
+          [
+            "Halo?",
+            "Hello? Are you there?",
+            "the line has gone quiet"
+          ],
+          [
+            "Dzień dobry.",
+            "Good day.",
+            "the real greeting — say it after Słucham?"
+          ],
+          [
+            "Słucham? Dzień dobry.",
+            "Hello? Good day.",
+            "the safe full opening"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "— Yes? — Good day.",
+          "pl": "— Słucham? — Dzień dobry."
+        },
+        {
+          "en": "Hello? I can't hear you.",
+          "pl": "Halo? Nie słyszę."
+        },
+        {
+          "en": "Yes? Good day. Excuse me…",
+          "pl": "Słucham? Dzień dobry. Przepraszam…"
+        }
+      ]
+    },
+    {
+      "title": "Czy mogę rozmawiać z…? — asking for the person you want",
+      "title_pl": "Czy mogę rozmawiać z…?",
+      "body": "One frame does the whole job, and you already own most of it.\n\nCzy mogę is yours — mogę followed by a plain infinitive, exactly as in Czy mogę płacić kartą? The infinitive here is the one new word: rozmawiać, \"to talk, to have a conversation\".\n\nThen comes z, and after z the person takes the instrumental ending you learned in Z + narzędnik. These are the very forms you already practised: z mamą, z tatą, z siostrą, z bratem, z babcią. Nothing new is being asked of them — the same endings, in a new place.\n\nSo the whole question is two known pieces with one new word wedged between them.",
+      "body_pl": "Czy mogę rozmawiać z mamą? Czy mogę rozmawiać z tatą? Czy mogę rozmawiać z siostrą?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Form of the person"
+        ],
+        "rows": [
+          [
+            "Czy mogę rozmawiać z mamą?",
+            "Can I speak to Mum?",
+            "mama → mamą, instrumental after z"
+          ],
+          [
+            "Czy mogę rozmawiać z tatą?",
+            "Can I speak to Dad?",
+            "tata → tatą, the same -ą"
+          ],
+          [
+            "Czy mogę rozmawiać z siostrą?",
+            "Can I speak to my sister?",
+            "siostra → siostrą"
+          ],
+          [
+            "Czy mogę rozmawiać z bratem?",
+            "Can I speak to my brother?",
+            "brat → bratem, masculine takes -em"
+          ],
+          [
+            "Czy mogę rozmawiać z babcią?",
+            "Can I speak to Grandma?",
+            "babcia → babcią"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Good day. Can I speak to my brother?",
+          "pl": "Dzień dobry. Czy mogę rozmawiać z bratem?"
+        },
+        {
+          "en": "Excuse me, can I speak to Grandma?",
+          "pl": "Przepraszam, czy mogę rozmawiać z babcią?"
+        },
+        {
+          "en": "Yes? — Can I speak to Mum?",
+          "pl": "— Słucham? — Czy mogę rozmawiać z mamą?"
+        }
+      ]
+    },
+    {
+      "title": "Nie słyszę. · To zły numer. — when the call goes wrong",
+      "title_pl": "Nie słyszę. To zły numer.",
+      "body": "Two phrases cover almost everything that goes wrong on a phone.\n\nNie słyszę = \"I can't hear you.\" Polish leaves the \"you\" out here; the phrase is complete exactly as it stands and this unit asks you to say it whole. Słyszę is not a word to take apart at this stage — its family is a later unit and you lose nothing by leaving it closed.\n\nTo zły numer = \"That's a wrong number.\" Zły is a word you have already met for bad or angry. On the phone it simply means wrong. Say it to the stranger who has dialled you by mistake — and it is also what you will hear back when you have dialled one yourself.\n\nNumer came in the last unit, so the only thing new in this whole slide is słyszę.",
+      "body_pl": "Nie słyszę. To zły numer. Przepraszam, to zły numer.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Nie słyszę.",
+            "I can't hear you.",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "Halo? Nie słyszę.",
+            "Hello? I can't hear you.",
+            "what you actually say on a bad line"
+          ],
+          [
+            "To zły numer.",
+            "That's a wrong number.",
+            "zły = wrong here, not angry"
+          ],
+          [
+            "Przepraszam, to zły numer.",
+            "Sorry, that's a wrong number.",
+            "the polite version"
+          ],
+          [
+            "Mam nowy numer.",
+            "I have a new number.",
+            "both words already yours"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me, I can't hear you.",
+          "pl": "Przepraszam, nie słyszę."
+        },
+        {
+          "en": "— Can I speak to Dad? — Sorry, that's a wrong number.",
+          "pl": "— Czy mogę rozmawiać z tatą? — Przepraszam, to zły numer."
+        },
+        {
+          "en": "I have a new number.",
+          "pl": "Mam nowy numer."
+        }
+      ]
+    },
+    {
+      "title": "Dzwonię do… · Wysyłam… · Ładuję… — saying what you are doing",
+      "title_pl": "Dzwonię do biura. Wysyłam wiadomość. Ładuję telefon.",
+      "body": "Three verbs from the last unit do most of the everyday phone work, and there is nothing new to learn on this slide at all.\n\nDzwonię do… — in Polish you always ring TO somewhere or to someone, using the same do you already use for going there: dzwonię do biura, dzwonię do matki, dzwonię do domu.\n\nWysyłam wiadomość. Wysyłam e-mail. Nothing is added to either word after wysyłam — both stay exactly as the dictionary has them.\n\nŁaduję telefon. That is what you say when the battery is nearly gone and you are about to disappear.",
+      "body_pl": "Dzwonię do biura. Dzwonię do matki. Wysyłam wiadomość. Ładuję telefon.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "New word in it"
+        ],
+        "rows": [
+          [
+            "Dzwonię do biura.",
+            "I'm calling the office.",
+            "nothing new — do biura is already yours"
+          ],
+          [
+            "Dzwonię do matki.",
+            "I'm calling my mother.",
+            "nothing new"
+          ],
+          [
+            "Dzwonię do domu.",
+            "I'm calling home.",
+            "nothing new"
+          ],
+          [
+            "Wysyłam wiadomość.",
+            "I'm sending a message.",
+            "nothing new"
+          ],
+          [
+            "Ładuję telefon.",
+            "I'm charging the phone.",
+            "nothing new"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm not calling, I'm sending a message.",
+          "pl": "Nie dzwonię, wysyłam wiadomość."
+        },
+        {
+          "en": "I'm charging the phone. I have a new number.",
+          "pl": "Ładuję telefon. Mam nowy numer."
+        },
+        {
+          "en": "I'm sending an email.",
+          "pl": "Wysyłam e-mail."
+        }
+      ]
+    },
+    {
+      "title": "Nie mogę teraz rozmawiać. · Do usłyszenia. — getting off the phone",
+      "title_pl": "Nie mogę teraz rozmawiać. Do usłyszenia.",
+      "body": "Two phrases and you can end any call politely.\n\nNie mogę teraz rozmawiać = \"I can't talk now.\" Every piece of it is already yours: nie, mogę, teraz — and rozmawiać, which you met on the second slide. It is the phrase for when the call has come at a bad moment.\n\nDo usłyszenia is the phone goodbye. You already have two goodbyes and this makes three, so it is worth ten seconds:\nDo widzenia — for seeing. The face-to-face goodbye.\nDo zobaczenia — for seeing again. The one that means \"see you\".\nDo usłyszenia — for hearing. The one you say at the end of a call.\n\nTake it whole. There is nothing inside it that needs opening.",
+      "body_pl": "Nie mogę teraz rozmawiać. Do usłyszenia. Dziękuję bardzo. Do usłyszenia.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Where you use it"
+        ],
+        "rows": [
+          [
+            "Nie mogę teraz rozmawiać.",
+            "I can't talk now.",
+            "the call came at a bad moment"
+          ],
+          [
+            "Do usłyszenia.",
+            "Speak to you soon.",
+            "end of a phone call"
+          ],
+          [
+            "Do widzenia.",
+            "Goodbye.",
+            "face to face, already yours"
+          ],
+          [
+            "Do zobaczenia.",
+            "See you.",
+            "face to face, already yours"
+          ],
+          [
+            "Dziękuję bardzo. Do usłyszenia.",
+            "Thank you very much. Speak to you soon.",
+            "the standard way to hang up"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I can't talk now. Speak to you soon.",
+          "pl": "Nie mogę teraz rozmawiać. Do usłyszenia."
+        },
+        {
+          "en": "Thank you very much. Speak to you soon.",
+          "pl": "Dziękuję bardzo. Do usłyszenia."
+        },
+        {
+          "en": "— Can I speak to my sister? — I can't talk now.",
+          "pl": "— Czy mogę rozmawiać z siostrą? — Nie mogę teraz rozmawiać."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Yes? (answering the phone)",
+      "pl": "Słucham?"
+    },
+    {
+      "en": "Hello? Are you there?",
+      "pl": "Halo?"
+    },
+    {
+      "en": "Can I speak to Mum?",
+      "pl": "Czy mogę rozmawiać z mamą?"
+    },
+    {
+      "en": "Can I speak to Dad?",
+      "pl": "Czy mogę rozmawiać z tatą?"
+    },
+    {
+      "en": "Can I speak to my sister?",
+      "pl": "Czy mogę rozmawiać z siostrą?"
+    },
+    {
+      "en": "I can't talk now.",
+      "pl": "Nie mogę teraz rozmawiać."
+    },
+    {
+      "en": "I can't hear you.",
+      "pl": "Nie słyszę."
+    },
+    {
+      "en": "That's a wrong number.",
+      "pl": "To zły numer."
+    },
+    {
+      "en": "I'm calling the office.",
+      "pl": "Dzwonię do biura."
+    },
+    {
+      "en": "I'm sending a message.",
+      "pl": "Wysyłam wiadomość."
+    },
+    {
+      "en": "I'm charging the phone.",
+      "pl": "Ładuję telefon."
+    },
+    {
+      "en": "Speak to you soon. (on the phone)",
+      "pl": "Do usłyszenia."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Your phone rings. You pick it up and say:",
+      "choices": [
+        "Słucham?",
+        "Do usłyszenia.",
+        "Nie słyszę.",
+        "To zły numer."
+      ],
+      "answer": "Słucham?",
+      "explain": "Słucham is the -am form of słuchać, built exactly like mam and czytam. The other three all belong later in the call, not at the start of it."
+    },
+    {
+      "prompt": "The line has gone quiet and you want to know if anyone is still there. You say:",
+      "choices": [
+        "Halo?",
+        "Dziękuję bardzo.",
+        "Wysyłam wiadomość.",
+        "Do usłyszenia."
+      ],
+      "answer": "Halo?",
+      "explain": "Halo is not a greeting — it is the word for checking whether the line is still alive. The real greeting is Dzień dobry."
+    },
+    {
+      "prompt": "You want to speak to Mum. You say:",
+      "choices": [
+        "Czy mogę rozmawiać z mamą?",
+        "Dzwonię do matki.",
+        "Słucham?",
+        "Mam nowy numer."
+      ],
+      "answer": "Czy mogę rozmawiać z mamą?",
+      "explain": "Dzwonię do matki only says who you are ringing. Czy mogę rozmawiać z… is what actually asks for the person on the other end."
+    },
+    {
+      "prompt": "Can I speak to Dad?  →  Czy mogę rozmawiać z ___?",
+      "choices": [
+        "tatą",
+        "tata",
+        "tatę",
+        "taty"
+      ],
+      "answer": "tatą",
+      "explain": "Z always pulls the instrumental — the same z tatą you already know. Tata ends in -a but is a man, and the ending is -ą all the same."
+    },
+    {
+      "prompt": "Can I speak to my sister? →",
+      "choices": [
+        "Czy mogę rozmawiać z siostrą?",
+        "Czy mogę rozmawiam z siostrą?",
+        "Czy mogę rozmawiać z siostra?",
+        "Czy mogę rozmawiać siostrą?"
+      ],
+      "answer": "Czy mogę rozmawiać z siostrą?",
+      "explain": "Mogę is always followed by the plain infinitive rozmawiać, and z has to stay in front of siostrą — take away either piece and the question falls apart."
+    },
+    {
+      "prompt": "The other person has gone faint and you cannot make them out. You say:",
+      "choices": [
+        "Nie słyszę.",
+        "Nie mogę teraz rozmawiać.",
+        "To zły numer.",
+        "Słucham?"
+      ],
+      "answer": "Nie słyszę.",
+      "explain": "One fixed phrase, said exactly as it stands. Polish leaves out the word for you — there is nothing missing from it."
+    },
+    {
+      "prompt": "A stranger has dialled you by mistake. You tell them:",
+      "choices": [
+        "To zły numer.",
+        "Mam nowy numer.",
+        "Nie słyszę.",
+        "Halo?"
+      ],
+      "answer": "To zły numer.",
+      "explain": "Zły means bad or angry elsewhere, but with numer it means wrong. Mam nowy numer says something quite different — that your own number has changed."
+    },
+    {
+      "prompt": "The call has come at a bad moment. You say:",
+      "choices": [
+        "Nie mogę teraz rozmawiać.",
+        "Nie słyszę.",
+        "Czy mogę rozmawiać z mamą?",
+        "Ładuję telefon."
+      ],
+      "answer": "Nie mogę teraz rozmawiać.",
+      "explain": "Nie mogę takes the infinitive rozmawiać, exactly as the positive Czy mogę rozmawiać…? does. Only nie and teraz have been added."
+    },
+    {
+      "prompt": "You are hanging up at the end of a phone call. You say:",
+      "choices": [
+        "Do usłyszenia.",
+        "Do widzenia.",
+        "Do zobaczenia.",
+        "Dzień dobry."
+      ],
+      "answer": "Do usłyszenia.",
+      "explain": "All three do-goodbyes name what happens next. Widzenia and zobaczenia are about seeing, so they are for face to face. Usłyszenia is about hearing — that is the phone one."
+    },
+    {
+      "prompt": "I'm calling the office. →",
+      "choices": [
+        "Dzwonię do biura.",
+        "Dzwonię biuro.",
+        "Dzwonię w biurze.",
+        "Dzwonię do biuro."
+      ],
+      "answer": "Dzwonię do biura.",
+      "explain": "In Polish you ring TO a place, so do is never dropped, and do pulls the genitive biura. Dzwonię w biurze would mean you are standing inside the office making a call."
+    },
+    {
+      "prompt": "I'm sending a message. →",
+      "choices": [
+        "Wysyłam wiadomość.",
+        "Wysyłasz wiadomość.",
+        "Wysyłam wiadomości.",
+        "Ładuję wiadomość."
+      ],
+      "answer": "Wysyłam wiadomość.",
+      "explain": "Wysyłasz is you, not I. Wiadomości is the news, a different word altogether."
+    },
+    {
+      "prompt": "The battery is nearly gone. You say:",
+      "choices": [
+        "Ładuję telefon.",
+        "Wysyłam telefon.",
+        "Dzwonię do telefonu.",
+        "To zły numer."
+      ],
+      "answer": "Ładuję telefon.",
+      "explain": "Ładować is the -uję verb from the last unit, built like kupuję and pracuję. Telefon is masculine and not alive, so nothing is added to it."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Yes? (answering the phone)",
+      "mode": "full_word",
+      "answer": "Słucham?",
+      "accepts": [
+        "Słucham?",
+        "Słucham",
+        "Slucham?",
+        "Slucham"
+      ],
+      "explain": "Słucham is słuchać with the -am ending you already put on mam and czytam. Nothing irregular in it."
+    },
+    {
+      "prompt_en": "Hello? Are you there?",
+      "mode": "full_word",
+      "answer": "Halo?",
+      "accepts": [
+        "Halo?",
+        "Halo"
+      ]
+    },
+    {
+      "prompt_en": "Can I speak to Mum?",
+      "mode": "full_word",
+      "answer": "Czy mogę rozmawiać z mamą?",
+      "accepts": [
+        "Czy mogę rozmawiać z mamą?",
+        "Czy mogę rozmawiać z mamą",
+        "Mogę rozmawiać z mamą?",
+        "Czy moge rozmawiac z mama?"
+      ],
+      "explain": "Mogę is followed by the infinitive rozmawiać, never by a personal ending. After z the person takes the instrumental — the same z mamą you already have."
+    },
+    {
+      "prompt_en": "Can I speak to Dad?",
+      "mode": "full_word",
+      "answer": "Czy mogę rozmawiać z tatą?",
+      "accepts": [
+        "Czy mogę rozmawiać z tatą?",
+        "Czy mogę rozmawiać z tatą",
+        "Mogę rozmawiać z tatą?",
+        "Czy moge rozmawiac z tata?"
+      ],
+      "explain": "Tata is a man even though the word ends in -a, and after z it still takes -ą: z tatą."
+    },
+    {
+      "prompt_en": "Can I speak to my sister?",
+      "mode": "full_word",
+      "answer": "Czy mogę rozmawiać z siostrą?",
+      "accepts": [
+        "Czy mogę rozmawiać z siostrą?",
+        "Czy mogę rozmawiać z siostrą",
+        "Mogę rozmawiać z siostrą?",
+        "Czy moge rozmawiac z siostra?"
+      ]
+    },
+    {
+      "prompt_en": "I can't talk now.",
+      "mode": "full_word",
+      "answer": "Nie mogę teraz rozmawiać.",
+      "accepts": [
+        "Nie mogę teraz rozmawiać.",
+        "Nie mogę teraz rozmawiać",
+        "Nie moge teraz rozmawiac"
+      ],
+      "explain": "Nie simply goes in front of mogę. The infinitive rozmawiać stays exactly as it was in the question."
+    },
+    {
+      "prompt_en": "I can't hear you.",
+      "mode": "full_word",
+      "answer": "Nie słyszę.",
+      "accepts": [
+        "Nie słyszę.",
+        "Nie słyszę",
+        "Nie slysze"
+      ],
+      "explain": "One fixed phrase, said exactly as it stands. Do not try to add a word for you — Polish does not put one here."
+    },
+    {
+      "prompt_en": "That's a wrong number.",
+      "mode": "full_word",
+      "answer": "To zły numer.",
+      "accepts": [
+        "To zły numer.",
+        "To zły numer",
+        "To zly numer"
+      ],
+      "explain": "Numer is masculine, so the adjective in front of it is zły — not zła or złe."
+    },
+    {
+      "prompt_en": "I'm calling the office.",
+      "mode": "full_word",
+      "answer": "Dzwonię do biura.",
+      "accepts": [
+        "Dzwonię do biura.",
+        "Dzwonię do biura",
+        "Dzwonie do biura"
+      ],
+      "explain": "Polish rings TO a place. Do pulls the genitive biura — the same do biura you already use for going there."
+    },
+    {
+      "prompt_en": "I'm sending a message.",
+      "mode": "full_word",
+      "answer": "Wysyłam wiadomość.",
+      "accepts": [
+        "Wysyłam wiadomość.",
+        "Wysyłam wiadomość",
+        "Wysylam wiadomosc"
+      ]
+    },
+    {
+      "prompt_en": "I'm charging the phone.",
+      "mode": "full_word",
+      "answer": "Ładuję telefon.",
+      "accepts": [
+        "Ładuję telefon.",
+        "Ładuję telefon",
+        "Laduje telefon"
+      ]
+    },
+    {
+      "prompt_en": "Speak to you soon. (on the phone)",
+      "mode": "full_word",
+      "answer": "Do usłyszenia.",
+      "accepts": [
+        "Do usłyszenia.",
+        "Do usłyszenia",
+        "Do uslyszenia."
+      ],
+      "explain": "The third of your do-goodbyes. Widzenia and zobaczenia are for seeing; usłyszenia is for hearing, so it belongs on the phone."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type the exchange: — Yes? — Good day. Can I speak to Mum?",
+      "answer": "— Słucham? — Dzień dobry. Czy mogę rozmawiać z mamą?",
+      "accepts": [
+        "— Słucham? — Dzień dobry. Czy mogę rozmawiać z mamą?",
+        "Słucham? Dzień dobry. Czy mogę rozmawiać z mamą?",
+        "Słucham? Dzień dobry. Czy mogę rozmawiać z mamą",
+        "- Słucham? - Dzień dobry. Czy mogę rozmawiać z mamą?"
+      ],
+      "explain": "Słucham? answers the phone, then the real greeting follows. Poles do it in that order and it sounds odd the other way round."
+    },
+    {
+      "prompt_en": "Type: Hello? I can't hear you.",
+      "answer": "Halo? Nie słyszę.",
+      "accepts": [
+        "Halo? Nie słyszę.",
+        "Halo? Nie słyszę",
+        "Halo? Nie slysze"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Can I speak to Dad? — Sorry, that's a wrong number.",
+      "answer": "— Czy mogę rozmawiać z tatą? — Przepraszam, to zły numer.",
+      "accepts": [
+        "— Czy mogę rozmawiać z tatą? — Przepraszam, to zły numer.",
+        "Czy mogę rozmawiać z tatą? Przepraszam, to zły numer.",
+        "Czy mogę rozmawiać z tatą? Przepraszam, to zły numer",
+        "- Czy mogę rozmawiać z tatą? - Przepraszam, to zły numer."
+      ],
+      "explain": "Przepraszam does the apologising here, exactly as it does in the street when you cannot help someone."
+    },
+    {
+      "prompt_en": "Type: Good day. Can I speak to my brother?",
+      "answer": "Dzień dobry. Czy mogę rozmawiać z bratem?",
+      "accepts": [
+        "Dzień dobry. Czy mogę rozmawiać z bratem?",
+        "Dzień dobry. Czy mogę rozmawiać z bratem",
+        "Dzień dobry, czy mogę rozmawiać z bratem?"
+      ],
+      "explain": "Brat is masculine, so after z it takes -em: z bratem. The feminine words in this unit all take -ą."
+    },
+    {
+      "prompt_en": "Type: Excuse me, can I speak to Grandma?",
+      "answer": "Przepraszam, czy mogę rozmawiać z babcią?",
+      "accepts": [
+        "Przepraszam, czy mogę rozmawiać z babcią?",
+        "Przepraszam, czy mogę rozmawiać z babcią",
+        "Przepraszam czy mogę rozmawiać z babcią?"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm not calling, I'm sending a message.",
+      "answer": "Nie dzwonię, wysyłam wiadomość.",
+      "accepts": [
+        "Nie dzwonię, wysyłam wiadomość.",
+        "Nie dzwonię, wysyłam wiadomość",
+        "Nie dzwonie, wysylam wiadomosc"
+      ],
+      "explain": "Nie goes straight in front of the verb and nothing else moves — the same nie you already use with nie mam and nie wiem."
+    },
+    {
+      "prompt_en": "Type: I'm charging the phone. I have a new number.",
+      "answer": "Ładuję telefon. Mam nowy numer.",
+      "accepts": [
+        "Ładuję telefon. Mam nowy numer.",
+        "Ładuję telefon. Mam nowy numer",
+        "Laduje telefon. Mam nowy numer."
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Can I speak to my sister? — I can't talk now. Speak to you soon.",
+      "answer": "— Czy mogę rozmawiać z siostrą? — Nie mogę teraz rozmawiać. Do usłyszenia.",
+      "accepts": [
+        "— Czy mogę rozmawiać z siostrą? — Nie mogę teraz rozmawiać. Do usłyszenia.",
+        "Czy mogę rozmawiać z siostrą? Nie mogę teraz rozmawiać. Do usłyszenia.",
+        "Czy mogę rozmawiać z siostrą? Nie mogę teraz rozmawiać. Do usłyszenia",
+        "- Czy mogę rozmawiać z siostrą? - Nie mogę teraz rozmawiać. Do usłyszenia."
+      ],
+      "explain": "The same infinitive rozmawiać carries both halves of the exchange — once in a question, once after nie mogę."
+    },
+    {
+      "prompt_en": "Type: Thank you very much. Speak to you soon.",
+      "answer": "Dziękuję bardzo. Do usłyszenia.",
+      "accepts": [
+        "Dziękuję bardzo. Do usłyszenia.",
+        "Dziękuję bardzo. Do usłyszenia",
+        "Dziekuje bardzo. Do uslyszenia."
+      ],
+      "explain": "This is the standard way to hang up in Polish — thank, then name the hearing."
+    },
+    {
+      "prompt_en": "Type: Excuse me, I can't hear you.",
+      "answer": "Przepraszam, nie słyszę.",
+      "accepts": [
+        "Przepraszam, nie słyszę.",
+        "Przepraszam, nie słyszę",
+        "Przepraszam nie słyszę",
+        "Przepraszam, nie slysze"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Yes? — Hello? I can't hear you.",
+      "answer": "— Słucham? — Halo? Nie słyszę.",
+      "accepts": [
+        "— Słucham? — Halo? Nie słyszę.",
+        "Słucham? Halo? Nie słyszę.",
+        "Słucham? Halo? Nie słyszę",
+        "- Słucham? - Halo? Nie słyszę."
+      ],
+      "explain": "Słucham? answers the call; Halo? is the one you fall back on when the line is bad. They are not the same word doing the same job."
+    },
+    {
+      "prompt_en": "Type: I'm calling home. I'm sending an email.",
+      "answer": "Dzwonię do domu. Wysyłam e-mail.",
+      "accepts": [
+        "Dzwonię do domu. Wysyłam e-mail.",
+        "Dzwonię do domu. Wysyłam e-mail",
+        "Dzwonię do domu. Wysyłam email."
+      ],
+      "explain": "Do domu is the phrase you already use for going home — ringing home uses exactly the same do."
+    }
+  ],
+  "teaches_lemmas": [
+    "halo",
+    "słucham",
+    "rozmawiać",
+    "słyszę",
+    "usłyszenia",
+    "czy mogę rozmawiać z",
+    "czy mogę rozmawiać z mamą",
+    "czy mogę rozmawiać z tatą",
+    "czy mogę rozmawiać z siostrą",
+    "czy mogę rozmawiać z bratem",
+    "czy mogę rozmawiać z babcią",
+    "nie mogę teraz rozmawiać",
+    "nie słyszę",
+    "zły numer",
+    "to zły numer",
+    "do usłyszenia",
+    "dzwonię do",
+    "dzwonię do biura",
+    "dzwonię do matki",
+    "dzwonię do domu",
+    "nie dzwonię",
+    "wysyłam wiadomość",
+    "wysyłam e-mail",
+    "ładuję telefon",
+    "mam nowy numer"
+  ],
+  "uses_lemmas": [
+    "dzwonić",
+    "dzwonię",
+    "wysyłać",
+    "wysyłam",
+    "wysyłasz",
+    "ładować",
+    "ładuję",
+    "numer",
+    "telefon",
+    "telefonu",
+    "wiadomość",
+    "wiadomości",
+    "e-mail",
+    "słuchać",
+    "mogę",
+    "nie",
+    "czy",
+    "to",
+    "teraz",
+    "zły",
+    "mam",
+    "nowy",
+    "mama",
+    "z mamą",
+    "tata",
+    "z tatą",
+    "siostra",
+    "z siostrą",
+    "brat",
+    "z bratem",
+    "babcia",
+    "z babcią",
+    "matki",
+    "do matki",
+    "biura",
+    "do biura",
+    "domu",
+    "do domu",
+    "w biurze",
+    "do widzenia",
+    "do zobaczenia",
+    "dzień dobry",
+    "dziękuję",
+    "bardzo",
+    "dziękuję bardzo",
+    "przepraszam",
+    "czytam",
+    "kupuję",
+    "pracuję"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_phone_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
