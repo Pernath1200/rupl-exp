@@ -85,6 +85,8 @@ STRUCTURE_CATALOGUE = {
     "conditional_sg",
     "past_isc",
     "motion_prefixed",
+    "virile_reco",
+    "virile_nom",
 }
 
 GLUE_LEMMAS = {

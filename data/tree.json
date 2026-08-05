@@ -2492,34 +2492,36 @@
     {
       "id": "b1_virile_reco",
       "domain": "grammar",
-      "label": "Oni · rozpoznawanie",
-      "label_en": "Virile plural · recognition",
+      "label": "Ci czy te? · rozpoznawanie",
+      "label_en": "Virile plural · recognition (ci vs te)",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE, James decision #1: THREE units] RECOGNITION ONLY - reading ci/-i/-y virile forms. Learner never produces one here.",
+      "note": "B1 SPINE block 4, unit 1/3 (James decision #1). RECOGNITION ONLY: ci vs te, plus six whole virile plural nouns + dobrzy, handed over with no formation rule. type_items/use_items intentionally empty (zero production, per spine text) — see pack note for the engine trace confirming this ladders cleanly to Wstep-Kontrola-Done and still earns fruit. Production rule = b1_virile_nom (next). oni/one stay untaught until b1_virile_past — neither appears here.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_virile_reco.json"
     },
     {
       "id": "b1_virile_nom",
       "domain": "grammar",
-      "label": "Oni · mianownik",
-      "label_en": "Virile plural · production",
+      "label": "Studenci, Polacy… · mianownik",
+      "label_en": "Virile plural · the production rule",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Producing virile Nom pl, REGULAR consonant sets only (student->studenci, Polak->Polacy, lekarz->lekarze). Irregulars (bracia, ludzie) whole or fenced - conservative, logged.",
+      "note": "B1 SPINE block 4, unit 2/3. PRODUCTION of virile Nom plural, REGULAR consonant sets only: -t->-ci, -k->-cy, already-soft->+e (student->studenci, Polak->Polacy, lekarz->lekarze). r->rz (kelnerzy) and all true irregulars (brat->bracia, kolega->koledzy, mezczyzna->mezczyzni, the -owie family) fenced out, logged in pack note. oni/one still untaught until b1_virile_past.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_virile_nom.json"
     },
     {
       "id": "b1_virile_past",

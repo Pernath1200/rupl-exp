@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 106 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 108 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -123,4 +123,6 @@ _None._
 | 107 | `b1_past_isc` | `past_isc` | 7 | `chodzic`, `past_byc`, `past_isc`, `past_rest`, `prep_do_gen`, `question` |
 | 108 | `b1_arrive_leave` | `motion_prefixed` | 43 | `can_inf`, `chodzic`, `inst_transport`, `jechac`, `motion_chunk`, `motion_prefixed`, `ordinals_time`, `past_ac`, `past_isc`, `perf_future`, `poss_nom`, `prep_do_gen`, `prep_z_gen`, `question` |
 | 109 | `b1_journeys` | — | 25 | `aspect_past`, `byc_adj`, `byc_present`, `can_inf`, `musiec`, `negation`, `past_byc`, `past_isc`, `past_plural`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `sie_reflexive`, `ten_ta_to`, `time_past_chunk`, `zgoda` |
+| 110 | `b1_virile_reco` | `virile_reco` | 9 | `byc_adj`, `byc_present`, `plural_nom`, `prep_w_loc`, `present`, `present_uje`, `ten_ta_to`, `virile_reco`, `zgoda` |
+| 111 | `b1_virile_nom` | `virile_nom` | 8 | `byc_adj`, `byc_present`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `ten_ta_to`, `virile_nom`, `virile_reco`, `zgoda` |
 

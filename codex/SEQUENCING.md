@@ -217,6 +217,8 @@ Extend only by PR/docs update — agents must not invent IDs.
 | `conditional_sg` | Conditional SINGULAR only (*bym/bys/by* on taught past stems; *chcialbym/chcialabym*). Plural conditional deferred past the virile block. |
 | `past_isc` | Suppletive past of *isc* (*szedlem/szlam/szedl/szla/szlo*), taught whole; m/f stem split is a table fact, not a rule. |
 | `motion_prefixed` | Prefixed motion pairs *przyjsc/wyjsc* (on the *szedl* stems) and *przyjechac/wyjechac* (regular), past + perfective future. Other prefixes deferred. |
+| `virile_reco` | Virile (masculine-personal) plural, RECOGNITION only: *ci* vs *te*, and whole ready-made virile plural noun/adjective forms (*studenci, Polacy, lekarze, dobrzy* …) handed over with no formation rule. Extends `plural_nom`'s people-vs-everything-else split into the virile subtype itself. Production of the same forms via the actual consonant-alternation rule = `virile_nom` (next unit). |
+| `virile_nom` | PRODUCTION of virile nominative plural, REGULAR consonant sets only: stem -t → -ci (student→studenci), stem -k → -cy (Polak→Polacy), stem already soft → +e (lekarz→lekarze). r→rz (kelnerzy) and all true irregulars (brat→bracia, kolega→koledzy, mężczyzna→mężczyźni, the -owie family) are explicitly fenced out. |
 | `wrapup_func` | Combined recombination of the five Situations units (shop, directions, restaurant, phone) into mixed scenes. Zero new material. |
 
 **UI labels** (exp vocab hints) may map a subset; catalogue above is the audit vocabulary.

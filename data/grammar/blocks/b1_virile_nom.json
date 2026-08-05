@@ -1,0 +1,496 @@
+{
+  "id": "b1_virile_nom",
+  "title": "Jeden, dwa, trzy — cy",
+  "title_en": "The virile plural rule",
+  "level": "B1",
+  "tree_node": "b1_virile_nom",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Block 4, unit 2/3 (B1-SPINE.md decision #1). PRODUCTION of virile nominative plural, REGULAR CONSONANT SETS ONLY, as the spine specifies. b1_virile_reco (previous unit) handed over six whole forms with no rule; this unit supplies the rule and asks the learner to type the output. THE RULE AS TAUGHT (one system, three surface endings, kept as ONE mental model rather than three unrelated facts — 'look at the last consonant of the stem'): (1) stem ends -t -> -ci (student -> studenci, pacjent -> pacjenci); (2) stem ends -k -> -cy (Polak -> Polacy, rolnik -> rolnicy); (3) stem already ends in a soft/postalveolar consonant (rz, l, sc/sc-cluster, c) -> just add -e, nothing changes (lekarz -> lekarze, gosc -> goscie). REGULAR-SET BOUNDARY, decided conservatively per the spine's explicit instruction to log this call: -r stems (kelner -> kelnerzy, aktor -> aktorzy) are NOT taught here even though b1_virile_reco already showed kelnerzy for recognition -- r->rz is a fourth alternation and adding it would make this a two-new-things unit (spine names only the t/k/soft-e family via its own three worked examples). kelnerzy stays recognition-only until a later unit (virile_gym or a dedicated pass) chooses to open it; nothing in this pack asks the learner to produce it. IRREGULARS -- FENCED, per spine's explicit 'author decides conservatively and logs it': brat->bracia, czlowiek->ludzie, kolega->koledzy (stem-final -a with a g->dz shift, not the plain -k rule), mezczyzna->mezczyzni, dziadek/wujek/syn/szef->-owie plurals, przyjaciel is the ONE exception let through -- verified it is NOT irregular (soft -l, regular +e, same family as nauczyciel/lekarz) and correctly belongs in the regular set, not the fenced pile. None of the true irregulars (brat, kolega, mezczyzna, and the -owie family) appear anywhere in this file, in any stage, even as a distractor string. ADJECTIVE SCOPE, logged: dobrzy (virile plural of dobry) is reused as a predicate recall item (Ci Anglicy sa dobrzy) because it was already TAUGHT WHOLE in b1_virile_reco -- typing it here is recall of an already-taught form, not derivation of a new one. No OTHER adjective's virile form is introduced or asked for (maly->mali, duzy->duzi, etc. all have their own alternation quirks and are out of scope -- adjective virile agreement as its own system is not on the B1-SPINE and is left for a future call, flagged in the digest). PRONOUNS: oni/one remain untaught, per the fence that holds until b1_virile_past -- every sentence here names its subject with ci + a noun, never a bare pronoun. EIGHT NEW PLURALS taught (all singulars already known -- verified with check_new.py -- the only new load is the transformation): pacjenci, klienci, artysci (t-pattern, 2 of which -- pacjent, klient -- are brand new productions and artysta shows the same rule surviving an -a-final masculine stem); rolnicy, anglicy (k-pattern); goscie, kibice, przyjaciele (soft-e pattern). student/Polak/pracownik/lekarz/nauczyciel/dobrzy/ci are all RECYCLED from b1_virile_reco (not re-declared in teaches_lemmas -- that pack owns them) and appear in the intro recap table and quiz distractors only. STAGE DESIGN: unlike b1_virile_reco, this unit DOES carry type_items and use_items -- production is exactly the point now that the rule has been taught. Quiz stays discrimination-among-real-taught-forms (same style as b1_virile_reco's quiz: correct virile plural vs. the known singular vs. another already-taught virile plural of a different noun) rather than testing raw derivation via multiple choice, since Pisanie is where derivation is actually tested by typing. Every quiz distractor and every match row checked individually against check_new.py / the running pool.",
+  "focus_structures": [
+    "virile_nom"
+  ],
+  "teaches_structures": [
+    "virile_nom"
+  ],
+  "uses_structures": [
+    "virile_nom",
+    "virile_reco",
+    "plural_nom",
+    "ten_ta_to",
+    "zgoda",
+    "byc_adj",
+    "byc_present",
+    "present_uje",
+    "present",
+    "present_am",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "One rule, three endings",
+      "title_pl": "Jedna zasada, trzy końcówki",
+      "body": "Look at the last consonant of the singular stem, then apply one of three changes to build the virile (masculine-personal) plural. You already recognize all three from last unit — now you build them yourself.",
+      "body_pl": "Ostatnia spółgłoska decyduje: -t → -ci, -k → -cy, miękka → +e.",
+      "table": {
+        "headers": [
+          "Stem ends in…",
+          "Change to…",
+          "Known example"
+        ],
+        "rows": [
+          [
+            "-t",
+            "-ci",
+            "student → studenci"
+          ],
+          [
+            "-k",
+            "-cy",
+            "Polak → Polacy"
+          ],
+          [
+            "already soft (rz, l, ć, ś…)",
+            "+e (nothing else changes)",
+            "lekarz → lekarze"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Try it: -t → -ci",
+      "title_pl": "-t → -ci",
+      "body": "Same move every time: drop the -t, add -ci. Works on a masculine noun ending in -a too, as long as the stem underneath still ends -t.",
+      "body_pl": "pacjent → pacjenci. klient → klienci. artysta → artyści.",
+      "examples": [
+        {
+          "en": "patient → patients (the group)",
+          "pl": "pacjent → pacjenci"
+        },
+        {
+          "en": "client → clients (the group)",
+          "pl": "klient → klienci"
+        },
+        {
+          "en": "artist → artists (the group)",
+          "pl": "artysta → artyści"
+        }
+      ]
+    },
+    {
+      "title": "Try it: -k → -cy",
+      "title_pl": "-k → -cy",
+      "body": "Drop the -k, add -cy. The same move you already saw in Polak → Polacy.",
+      "body_pl": "rolnik → rolnicy. Anglik → Anglicy.",
+      "examples": [
+        {
+          "en": "farmer → farmers (the group)",
+          "pl": "rolnik → rolnicy"
+        },
+        {
+          "en": "Englishman → Englishmen (the group)",
+          "pl": "Anglik → Anglicy"
+        }
+      ]
+    },
+    {
+      "title": "Try it: already soft — just add -e",
+      "title_pl": "Już miękkie — tylko +e",
+      "body": "Some consonants are already in the soft/hissing family Polish uses for virile plurals — rz, l, ś, ć, c. Nothing changes; you just add -e.",
+      "body_pl": "gość → goście. kibic → kibice. przyjaciel → przyjaciele.",
+      "examples": [
+        {
+          "en": "guest → guests (the group)",
+          "pl": "gość → goście"
+        },
+        {
+          "en": "fan → fans (the group)",
+          "pl": "kibic → kibice"
+        },
+        {
+          "en": "friend → friends (the group)",
+          "pl": "przyjaciel → przyjaciele"
+        }
+      ]
+    },
+    {
+      "title": "Not every noun follows this",
+      "title_pl": "Nie każdy rzeczownik tak działa",
+      "body": "A handful of very common words (brat, kolega, mężczyzna and a few others) build their virile plural in their own irregular way. Those are not in this lesson — you'll meet them called out by name when they come up, not folded into this rule.",
+      "body_pl": "brat, kolega, mężczyzna — inna, nieregularna droga. Nie tutaj."
+    }
+  ],
+  "match": [
+    {
+      "en": "patients",
+      "pl": "pacjenci"
+    },
+    {
+      "en": "clients",
+      "pl": "klienci"
+    },
+    {
+      "en": "artists",
+      "pl": "artyści"
+    },
+    {
+      "en": "farmers",
+      "pl": "rolnicy"
+    },
+    {
+      "en": "Englishmen",
+      "pl": "Anglicy"
+    },
+    {
+      "en": "guests",
+      "pl": "goście"
+    },
+    {
+      "en": "fans",
+      "pl": "kibice"
+    },
+    {
+      "en": "friends",
+      "pl": "przyjaciele"
+    },
+    {
+      "en": "these patients",
+      "pl": "ci pacjenci"
+    },
+    {
+      "en": "these clients",
+      "pl": "ci klienci"
+    },
+    {
+      "en": "these artists",
+      "pl": "ci artyści"
+    },
+    {
+      "en": "these guests",
+      "pl": "ci goście"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ci ___ są w szpitalu. (these patients are at the hospital)",
+      "choices": [
+        "pacjenci",
+        "pacjent",
+        "klienci",
+        "goście"
+      ],
+      "answer": "pacjenci",
+      "explain": "pacjenci is the virile plural of pacjent — the -t → -ci move. pacjent alone is just the singular; klienci and goście are real virile plurals, just the wrong noun."
+    },
+    {
+      "prompt": "Ci ___ pracują w mieście. (these clients work in the city)",
+      "choices": [
+        "klienci",
+        "klient",
+        "pacjenci",
+        "rolnicy"
+      ],
+      "answer": "klienci",
+      "explain": "klienci is the virile plural of klient — same -t → -ci move as pacjenci."
+    },
+    {
+      "prompt": "Ci ___ mieszkają w Polsce. (these artists live in Poland)",
+      "choices": [
+        "artyści",
+        "artysta",
+        "studenci",
+        "Polacy"
+      ],
+      "answer": "artyści",
+      "explain": "artyści is the virile plural of artysta — the stem underneath still ends -t, so the same rule applies even though the singular ends in -a."
+    },
+    {
+      "prompt": "Ci ___ pracują dużo. (these farmers work a lot)",
+      "choices": [
+        "rolnicy",
+        "rolnik",
+        "Polacy",
+        "pracownicy"
+      ],
+      "answer": "rolnicy",
+      "explain": "rolnicy is the virile plural of rolnik — the -k → -cy move, same as Polak → Polacy."
+    },
+    {
+      "prompt": "Ci ___ są dobrzy. (these Englishmen are good)",
+      "choices": [
+        "Anglicy",
+        "anglik",
+        "rolnicy",
+        "lekarze"
+      ],
+      "answer": "Anglicy",
+      "explain": "Anglicy is the virile plural of Anglik — the -k → -cy move again."
+    },
+    {
+      "prompt": "Ci ___ czytają dużo. (these guests read a lot)",
+      "choices": [
+        "goście",
+        "gość",
+        "kibice",
+        "nauczyciele"
+      ],
+      "answer": "goście",
+      "explain": "goście is the virile plural of gość — already soft, just add -e."
+    },
+    {
+      "prompt": "Ci ___ są tutaj. (these fans are here)",
+      "choices": [
+        "kibice",
+        "kibic",
+        "goście",
+        "studenci"
+      ],
+      "answer": "kibice",
+      "explain": "kibice is the virile plural of kibic — already soft (c), just add -e."
+    },
+    {
+      "prompt": "Ci ___ mieszkają w mieście. (these friends live in the city)",
+      "choices": [
+        "przyjaciele",
+        "przyjaciel",
+        "nauczyciele",
+        "lekarze"
+      ],
+      "answer": "przyjaciele",
+      "explain": "przyjaciele is the virile plural of przyjaciel — already soft (l), just add -e, same family as nauczyciele."
+    },
+    {
+      "prompt": "student → ___",
+      "choices": [
+        "studenci",
+        "student",
+        "pacjenci",
+        "klienci"
+      ],
+      "answer": "studenci",
+      "explain": "Recap from last unit — student ends -t, so -ci: studenci."
+    },
+    {
+      "prompt": "___ rolnicy mieszkają na wsi. (these farmers live in the countryside)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "rolnicy is a group of farmers, virile — ci, not te."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "pacjent · m. (patient) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "pacjenci",
+      "accepts": [
+        "pacjenci"
+      ],
+      "explain": "-t → -ci."
+    },
+    {
+      "prompt_en": "klient · m. (client) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "klienci",
+      "accepts": [
+        "klienci"
+      ],
+      "explain": "-t → -ci."
+    },
+    {
+      "prompt_en": "artysta · m. (artist) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "artyści",
+      "accepts": [
+        "artyści"
+      ],
+      "explain": "Ends in -a, but the stem underneath is artyst- — same -t → -ci move."
+    },
+    {
+      "prompt_en": "rolnik · m. (farmer) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "rolnicy",
+      "accepts": [
+        "rolnicy"
+      ],
+      "explain": "-k → -cy."
+    },
+    {
+      "prompt_en": "Anglik · m. (Englishman) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "Anglicy",
+      "accepts": [
+        "Anglicy",
+        "anglicy"
+      ],
+      "explain": "-k → -cy, same as Polak → Polacy."
+    },
+    {
+      "prompt_en": "gość · m. (guest) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "goście",
+      "accepts": [
+        "goście"
+      ],
+      "explain": "Already soft — just add -e."
+    },
+    {
+      "prompt_en": "kibic · m. (fan) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "kibice",
+      "accepts": [
+        "kibice"
+      ],
+      "explain": "Already soft (c) — just add -e."
+    },
+    {
+      "prompt_en": "przyjaciel · m. (friend) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "przyjaciele",
+      "accepts": [
+        "przyjaciele"
+      ],
+      "explain": "Already soft (l) — just add -e."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These patients are at the hospital.",
+      "answer": "Ci pacjenci są w szpitalu.",
+      "accepts": [
+        "Ci pacjenci są w szpitalu.",
+        "Ci pacjenci są w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: These clients work in the city.",
+      "answer": "Ci klienci pracują w mieście.",
+      "accepts": [
+        "Ci klienci pracują w mieście.",
+        "Ci klienci pracują w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These artists live in Poland.",
+      "answer": "Ci artyści mieszkają w Polsce.",
+      "accepts": [
+        "Ci artyści mieszkają w Polsce.",
+        "Ci artyści mieszkają w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: These farmers work a lot.",
+      "answer": "Ci rolnicy pracują dużo.",
+      "accepts": [
+        "Ci rolnicy pracują dużo.",
+        "Ci rolnicy pracują dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: These Englishmen are good.",
+      "answer": "Ci Anglicy są dobrzy.",
+      "accepts": [
+        "Ci Anglicy są dobrzy.",
+        "Ci Anglicy są dobrzy"
+      ],
+      "explain": "dobrzy is the virile plural of dobry you already met in the last unit — recall, not a new rule."
+    },
+    {
+      "prompt_en": "Type: These guests read a lot.",
+      "answer": "Ci goście czytają dużo.",
+      "accepts": [
+        "Ci goście czytają dużo.",
+        "Ci goście czytają dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: These fans are here.",
+      "answer": "Ci kibice są tutaj.",
+      "accepts": [
+        "Ci kibice są tutaj.",
+        "Ci kibice są tutaj"
+      ]
+    },
+    {
+      "prompt_en": "Type: These friends live in the city.",
+      "answer": "Ci przyjaciele mieszkają w mieście.",
+      "accepts": [
+        "Ci przyjaciele mieszkają w mieście.",
+        "Ci przyjaciele mieszkają w mieście"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "pacjenci",
+    "klienci",
+    "artyści",
+    "rolnicy",
+    "anglicy",
+    "goście",
+    "kibice",
+    "przyjaciele"
+  ],
+  "uses_lemmas": [
+    "pacjenci",
+    "klienci",
+    "artyści",
+    "rolnicy",
+    "anglicy",
+    "goście",
+    "kibice",
+    "przyjaciele",
+    "pacjent",
+    "klient",
+    "artysta",
+    "rolnik",
+    "anglik",
+    "gość",
+    "kibic",
+    "przyjaciel",
+    "student",
+    "studenci",
+    "polak",
+    "polacy",
+    "pracownik",
+    "pracownicy",
+    "lekarz",
+    "lekarze",
+    "nauczyciel",
+    "nauczyciele",
+    "dobry",
+    "dobrzy",
+    "brat",
+    "kolega",
+    "mężczyzna",
+    "ci",
+    "są",
+    "pracują",
+    "mieszkają",
+    "czytają",
+    "w mieście",
+    "w szpitalu",
+    "w polsce",
+    "tutaj",
+    "dużo",
+    "na wsi"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_virile_nom",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
