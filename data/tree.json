@@ -2549,11 +2549,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] The vocab that makes the virile units worth having.",
+      "note": "Five new profession pairs (m/f), all inside the regular virile-nom rule and the a2 non-virile plural rule already taught, plus ludzie (people) handed over whole as the one closed irregular. dzieci deliberately not added alongside it — logged in the pack note.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_people.json"
     },
     {
       "id": "b1_virile_gym",
