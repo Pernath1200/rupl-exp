@@ -1,0 +1,543 @@
+{
+  "id": "a2_countries",
+  "title": "Kraj i język",
+  "title_en": "Country & language",
+  "level": "A2",
+  "tree_node": "a2_countries",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a1_inst_job (inst_identity). Written for THIS learner: he is English, so Jestem Anglikiem / Nie mówię po polsku / Mieszkam w Anglii are the spine, not a neutral country list. Three deliberate calls, all reported to James: (1) CAPITALISATION is taught as content — Polska/Polak/Anglik take a capital, polski/angielski do not. The pair Polska (Poland) vs polska książka (a Polish book) carries it, with an explain on each. (2) FEMININE NATIONALITIES Polka and Angielka ARE included — the -ka/-ką slot is already fully known from a1_inst_job (nauczycielka/nauczycielką), so they are new nouns in an old frame, not a new system; feminines for the German/French/Czech nationalities are NOT included (those nationality nouns are not taught here at all, only the countries). (3) po polsku / po angielsku ARE taught, as OPAQUE WHOLE CHUNKS — never analysed, never presented as related to the adjective. They are declared as multi-word lemmas (the house mechanism, cf. 'w domu', 'pada deszcz'), so no new structure ID was invented. Reason: Nie mówię po polsku is the single most useful sentence an English beginner owns in Poland; leaving it out to protect a rule he will never be asked to state would be the wrong trade. Niemcy and Czechy are plural-only → gender pl → są, not jest; that is drilled in two sentences and one explain. NO extra countries were added beyond the brief's ten: the pack already carries a capitalisation rule, an instrumental nationality set and two opaque chunks, and load-splitting outranks breadth. stolica was left unused — every clean frame for it needed a second unknown (Warszawa, or the genitive Polski which collides visually with the adjective polski). Adjectives take no gender badge (that field is for nouns).",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "inst_identity",
+    "poss_nom",
+    "question",
+    "negation",
+    "present_e_isz",
+    "present_am",
+    "to_jest",
+    "miec_acc",
+    "byc_adj",
+    "zgoda",
+    "prep_w_loc"
+  ],
+  "blocks": [
+    {
+      "id": "countries_words",
+      "title": "Countries · new words",
+      "items": [
+        {
+          "en": "Poland",
+          "pl": "Polska",
+          "icon": "🇵🇱",
+          "gender": "f"
+        },
+        {
+          "en": "England",
+          "pl": "Anglia",
+          "icon": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "gender": "f"
+        },
+        {
+          "en": "Germany (plural word in Polish)",
+          "pl": "Niemcy",
+          "icon": "🇩🇪",
+          "gender": "pl"
+        },
+        {
+          "en": "France",
+          "pl": "Francja",
+          "icon": "🇫🇷",
+          "gender": "f"
+        },
+        {
+          "en": "Czechia (plural word in Polish)",
+          "pl": "Czechy",
+          "icon": "🇨🇿",
+          "gender": "pl"
+        },
+        {
+          "en": "country",
+          "pl": "kraj",
+          "icon": "🗺️",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "countries_people_lang",
+      "title": "People & languages · new words",
+      "items": [
+        {
+          "en": "a Pole (man)",
+          "pl": "Polak",
+          "gender": "m"
+        },
+        {
+          "en": "a Pole (woman)",
+          "pl": "Polka",
+          "gender": "f"
+        },
+        {
+          "en": "an Englishman",
+          "pl": "Anglik",
+          "gender": "m"
+        },
+        {
+          "en": "an Englishwoman",
+          "pl": "Angielka",
+          "gender": "f"
+        },
+        {
+          "en": "Polish (adjective, and the language) — small p",
+          "pl": "polski"
+        },
+        {
+          "en": "English (adjective, and the language) — small e",
+          "pl": "angielski"
+        },
+        {
+          "en": "the Polish language",
+          "pl": "język polski"
+        },
+        {
+          "en": "the English language",
+          "pl": "język angielski"
+        }
+      ]
+    },
+    {
+      "id": "countries_saying_it",
+      "title": "Saying who you are · saying what you speak",
+      "items": [
+        {
+          "en": "I am English (m)",
+          "pl": "Jestem Anglikiem"
+        },
+        {
+          "en": "I am English (f)",
+          "pl": "Jestem Angielką"
+        },
+        {
+          "en": "he is Polish",
+          "pl": "On jest Polakiem"
+        },
+        {
+          "en": "she is Polish",
+          "pl": "Ona jest Polką"
+        },
+        {
+          "en": "in Polish (as in: speak Polish)",
+          "pl": "po polsku"
+        },
+        {
+          "en": "in English (as in: speak English)",
+          "pl": "po angielsku"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I am English. (m)",
+      "pl": "Jestem Anglikiem.",
+      "accepts": [
+        "Jestem Anglikiem.",
+        "Jestem Anglikiem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "anglikiem"
+      ],
+      "explain": "Nationality works exactly like a job. You already say Jestem nauczycielem, so you say Jestem Anglikiem — the same instrumental -em. Note the capital A: in Polish a nationality is a name, so it is capitalised."
+    },
+    {
+      "en": "I am English. (f)",
+      "pl": "Jestem Angielką.",
+      "accepts": [
+        "Jestem Angielką.",
+        "Jestem Angielką"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "angielką"
+      ],
+      "explain": "A woman takes -ą, exactly like nauczycielką and lekarką. The word itself shifts a little on the way: Anglik → Angielka → Angielką."
+    },
+    {
+      "en": "My mum is English.",
+      "pl": "Moja mama jest Angielką.",
+      "accepts": [
+        "Moja mama jest Angielką.",
+        "Moja mama jest Angielką",
+        "Mama jest Angielką.",
+        "Mama jest Angielką"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "angielką"
+      ]
+    },
+    {
+      "en": "My friend is Polish.",
+      "pl": "Mój przyjaciel jest Polakiem.",
+      "accepts": [
+        "Mój przyjaciel jest Polakiem.",
+        "Mój przyjaciel jest Polakiem",
+        "Przyjaciel jest Polakiem.",
+        "Przyjaciel jest Polakiem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "polakiem"
+      ]
+    },
+    {
+      "en": "Anna is Polish.",
+      "pl": "Anna jest Polką.",
+      "accepts": [
+        "Anna jest Polką.",
+        "Anna jest Polką"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "polką"
+      ]
+    },
+    {
+      "en": "Are you English? (to a man)",
+      "pl": "Czy jesteś Anglikiem?",
+      "accepts": [
+        "Czy jesteś Anglikiem?",
+        "Czy jesteś Anglikiem",
+        "Jesteś Anglikiem?",
+        "Jesteś Anglikiem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "question"
+      ],
+      "lemmas": [
+        "anglikiem"
+      ],
+      "explain": "czy only opens the question — nothing else moves, and the nationality still takes the instrumental. To a woman it would be Czy jesteś Angielką?"
+    },
+    {
+      "en": "I don't speak Polish.",
+      "pl": "Nie mówię po polsku.",
+      "accepts": [
+        "Nie mówię po polsku.",
+        "Nie mówię po polsku"
+      ],
+      "structures": [
+        "present_e_isz",
+        "negation"
+      ],
+      "lemmas": [
+        "po polsku"
+      ],
+      "explain": "po polsku is a fixed phrase — learn it as one piece and never take it apart. It is not the word polski. Whenever you talk about speaking a language, Polish uses this form: po polsku, po angielsku."
+    },
+    {
+      "en": "I speak English.",
+      "pl": "Mówię po angielsku.",
+      "accepts": [
+        "Mówię po angielsku.",
+        "Mówię po angielsku"
+      ],
+      "structures": [
+        "present_e_isz"
+      ],
+      "lemmas": [
+        "po angielsku"
+      ]
+    },
+    {
+      "en": "Do you speak Polish?",
+      "pl": "Czy mówisz po polsku?",
+      "accepts": [
+        "Czy mówisz po polsku?",
+        "Czy mówisz po polsku",
+        "Mówisz po polsku?",
+        "Mówisz po polsku"
+      ],
+      "structures": [
+        "present_e_isz",
+        "question"
+      ],
+      "lemmas": [
+        "po polsku"
+      ]
+    },
+    {
+      "en": "Mum speaks English.",
+      "pl": "Mama mówi po angielsku.",
+      "accepts": [
+        "Mama mówi po angielsku.",
+        "Mama mówi po angielsku"
+      ],
+      "structures": [
+        "present_e_isz"
+      ],
+      "lemmas": [
+        "po angielsku"
+      ]
+    },
+    {
+      "en": "This is a Polish book.",
+      "pl": "To jest polska książka.",
+      "accepts": [
+        "To jest polska książka.",
+        "To jest polska książka",
+        "To polska książka.",
+        "To polska książka"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "polska"
+      ],
+      "explain": "Small p. Polska with a capital is the country, Poland. polska with a small letter is the adjective, Polish. English writes a capital both times — Polish does not, so the capital letter tells you which one you are looking at."
+    },
+    {
+      "en": "This is an English newspaper.",
+      "pl": "To jest angielska gazeta.",
+      "accepts": [
+        "To jest angielska gazeta.",
+        "To jest angielska gazeta",
+        "To angielska gazeta.",
+        "To angielska gazeta"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "angielska"
+      ],
+      "explain": "Same rule again: Anglia and Anglik get a capital because they are names, but angielski / angielska is only an adjective, so it stays small. gazeta is feminine, so the adjective ends -a."
+    },
+    {
+      "en": "This is a big country.",
+      "pl": "To jest duży kraj.",
+      "accepts": [
+        "To jest duży kraj.",
+        "To jest duży kraj",
+        "To duży kraj.",
+        "To duży kraj"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kraj"
+      ]
+    },
+    {
+      "en": "Poland has a sea.",
+      "pl": "Polska ma morze.",
+      "accepts": [
+        "Polska ma morze.",
+        "Polska ma morze"
+      ],
+      "structures": [
+        "miec_acc"
+      ],
+      "lemmas": [
+        "polska"
+      ],
+      "explain": "The Baltic is Poland's northern edge, so this one is true. morze is neuter, and neuter nouns do not change after ma — you already saw that with dziecko."
+    },
+    {
+      "en": "Germany is big.",
+      "pl": "Niemcy są duże.",
+      "accepts": [
+        "Niemcy są duże.",
+        "Niemcy są duże"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "niemcy"
+      ],
+      "explain": "Niemcy is a plural word in Polish, the way scissors is plural in English. So the verb is są, not jest, and the adjective is duże, not duży. Czechy behaves the same way."
+    },
+    {
+      "en": "Czechia is small.",
+      "pl": "Czechy są małe.",
+      "accepts": [
+        "Czechy są małe.",
+        "Czechy są małe"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "czechy"
+      ]
+    },
+    {
+      "en": "France is pretty.",
+      "pl": "Francja jest ładna.",
+      "accepts": [
+        "Francja jest ładna.",
+        "Francja jest ładna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "francja"
+      ],
+      "explain": "Francja ends in -a, so it is feminine and the adjective ends in -a too: ładna. Polska and Anglia work the same way."
+    },
+    {
+      "en": "I live in England.",
+      "pl": "Mieszkam w Anglii.",
+      "accepts": [
+        "Mieszkam w Anglii.",
+        "Mieszkam w Anglii",
+        "W Anglii mieszkam.",
+        "W Anglii mieszkam"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w anglii"
+      ],
+      "explain": "After w the country name changes shape: Anglia → w Anglii, Polska → w Polsce. Learn each pair whole, the same way you learned dom → w domu."
+    },
+    {
+      "en": "My sister lives in Poland.",
+      "pl": "Moja siostra mieszka w Polsce.",
+      "accepts": [
+        "Moja siostra mieszka w Polsce.",
+        "Moja siostra mieszka w Polsce",
+        "Siostra mieszka w Polsce.",
+        "Siostra mieszka w Polsce"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "w polsce"
+      ]
+    },
+    {
+      "en": "My city is in England.",
+      "pl": "Moje miasto jest w Anglii.",
+      "accepts": [
+        "Moje miasto jest w Anglii.",
+        "Moje miasto jest w Anglii"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "w anglii"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "polska",
+    "polak",
+    "polka",
+    "polakiem",
+    "polką",
+    "polski",
+    "anglia",
+    "anglik",
+    "angielka",
+    "anglikiem",
+    "angielką",
+    "angielski",
+    "angielska",
+    "niemcy",
+    "francja",
+    "czechy",
+    "kraj",
+    "anglii",
+    "w anglii",
+    "polsce",
+    "w polsce",
+    "po polsku",
+    "po angielsku",
+    "polsku",
+    "angielsku",
+    "język polski",
+    "język angielski"
+  ],
+  "uses_lemmas": [
+    "jestem",
+    "jesteś",
+    "jest",
+    "są",
+    "czy",
+    "nie",
+    "to",
+    "ma",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "mieszkam",
+    "mieszka",
+    "mój",
+    "moja",
+    "moje",
+    "mama",
+    "siostra",
+    "przyjaciel",
+    "anna",
+    "on",
+    "ona",
+    "książka",
+    "gazeta",
+    "morze",
+    "miasto",
+    "język",
+    "duży",
+    "duże",
+    "małe",
+    "ładna"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_countries",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

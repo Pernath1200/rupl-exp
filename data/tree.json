@@ -1762,13 +1762,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: wakacje, podróż, plaża, morze recycled, zwiedzać, zdjęcie recycled, pamiątka, przewodnik, namiot, wycieczka.",
+      "note": "Holidays. wakacje turned out to be ALREADY taught by a1_freetime (recycled, not re-taught). gory is genuinely new (a1 taught only singular gora). Locative chunks na plazy / w gorach taught as forms since neither noun is usable without them.",
       "unit_id": "PL2_22",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "travel_city"
+      "tree_part": "travel_city",
+      "content": "vocab/blocks/a2_travel.json"
     },
     {
       "id": "a2_countries",
@@ -1866,13 +1867,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~16 new: kuchnia, łazienka, sypialnia, salon, łóżko, szafa, biurko, lampa, lodówka, kuchenka, prysznic, balkon, piętro, klucz.",
+      "note": "Home + furniture. Every locative verified individually: w kuchni / w sypialni / w lazience are NOT taught anywhere, so those rooms are left out of every sentence rather than sneaking the forms in (the biuro/biurze trap).",
       "unit_id": "PL2_28",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "home"
+      "tree_part": "home",
+      "content": "vocab/blocks/a2_house.json"
     },
     {
       "id": "a2_bedzie",
@@ -1883,13 +1885,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] będę/będziesz/będzie/będziemy/będą + inf (infinitives long taught via can-trunk). jutro będę pracować. Perfective future = aspect unit's job.",
+      "note": "Compound future bede + infinitive. Two gifts named explicitly: it is the same shape as moge+infinitive he already builds, and the future has NO gender after a whole block of bylem/bylam. Perfective future and bede pisal both fenced. Copular future (bede w domu) deliberately excluded - bede byc is not Polish.",
       "unit_id": "PL2_29",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_bedzie.json"
     },
     {
       "id": "a2_musiec",
