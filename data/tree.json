@@ -2364,12 +2364,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Pure discrimination: bede kupowac (ongoing/repeated) vs kupie (once, finished), decided through time words. No new forms.",
+      "note": "Pure discrimination between the two owned futures, decided by taught time words. Delivers exactly the promise b1_perf_future made. Beginner fallback carried over from a2_aspect: when unsure, bede+verb is never wrong grammar. caly checked untaught and dropped from the caveat example.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_two_futures.json"
     },
     {
       "id": "b1_plans",
@@ -2380,11 +2381,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] Plans register riding the new future. All candidates through check_new.py first.",
+      "note": "Plans register riding the new future. Perfective trio (obiecac/zalatwic/umowic sie) held to the zdac/oblac precedent: bare infinitives after moge/musze/chce only. Orchestrator applied the agents own offered fix: \"Musze to zalatwic\" -> \"Musze zalatwic bilet\" (to-as-object-pronoun was an untaught function).",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_plans.json"
     },
     {
       "id": "b1_aspect_gym",
@@ -2395,12 +2397,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Past + future aspect discrimination. Zero new material.",
+      "note": "The full four-way grid: kupowalem/kupilem/bede kupowac/kupie, drilled with time-word and result cues. Zero new material, all 120 distinct tokens pool-verified, every untaught person-form explicitly avoided.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_aspect_gym.json"
     },
     {
       "id": "b1_conditional_sg",
@@ -2428,12 +2431,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Politeness chunks; moglby pan taught WHOLE, no moc-conditional paradigm. situation_chunk genre.",
+      "note": "Politeness register riding the fresh conditional. moglby/moglaby exist only inside two whole opening questions, never derived from moge. Sharp homograph call: \"Poprosze o...\" DROPPED because o is taught AS the locative governor - an o+Acc frame would be a live trap on a function word he owns; plain Poprosze+noun already does the job.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b1_polite.json"
     },
     {
       "id": "b1_past_isc",

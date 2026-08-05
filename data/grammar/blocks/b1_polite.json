@@ -1,0 +1,713 @@
+{
+  "id": "b1_polite",
+  "title": "Czy mógłby pan…? · zwroty",
+  "title_en": "Could you…? · polite Polish",
+  "level": "B1",
+  "tree_node": "b1_polite",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Situations/chunk unit — the politeness register, riding b1_conditional_sg. MÓGŁBY QUARANTINE (James's standing fence): mógłby/mogłaby are taught STRICTLY as parts of two whole opaque openings — Czy mógłby pan…? / Czy mogłaby pani…? — exactly as pan/pani address was handled in a2_ordering_func. One line of English orientation only ('you can hear the by of chciałbym inside it, but this verb is irregular — take the whole opening ready-made'); móc's conditional is NEVER paradigmed: no mógłbym, no mogłabyś, no plural, no derivation from mogę, no four-way ending drill anywhere. Every quiz choice touching the frames is a WHOLE SENTENCE. Only the two 3rd-person surface forms are tagged. The learner produces nothing but the frozen frames. NO plural conditional anywhere (fenced to b1_conditional_pl); oni/one still untaught and absent. DROPPED: 'Poproszę o…' — o is taught as LOCATIVE (o_loc: o pracy, o siódmej), so an o + Accusative frame is a live homograph trap on a function word, and plain Poproszę + noun (a2_shopping_func) already does the identical job; the frame buys nothing and risks the o the learner owns. Not replaced. KEPT WHOLE: 'Przepraszam, że przeszkadzam.' — że and przeszkadzam both verified untaught (check_new), so the sentence is a frozen block like Nie słyszę: one honest gloss line (że = that, przeszkadzam = I'm disturbing), never built, przeszkadzać never conjugated, że never used to build any other sentence. KEPT AS ONE NEW WORD IN A KNOWN FRAME: 'Chciałbym zapytać, …' — zapytać verified untaught, taught here as the infinitive 'to ask' after the recycled chciałbym/chciałabym; it is perfective but no aspect content is attached to it (poproszę precedent); the tail after the comma is always a question already owned whole (gdzie jest bank / ile to kosztuje). KEPT WITH ONE-LINE ACC LINK: 'Dziękuję (bardzo) za + thing' — za verified untaught, taught as 'for'; the noun takes the mam-form, which is the TAUGHT accusative (miec_acc), stated in one line exactly as a2_shopping_func did for Poproszę kawę — no new case machinery. KEPT FROZEN: 'Nie ma problemu.' — problemu verified untaught as a form; 'nie ma + genitive' was never taught as a rule, so the phrase is fixed; the explain points at the familiar -u of do banku without stating any new rule. KEPT: Oczywiście, verified untaught, one opaque politeness word. Real contrast the unit DOES teach: Dziękuję → Nie ma za co (already taught) vs Przepraszam/request → Nie ma problemu (taught here). Word order: the frames keep the contiguous order Czy mógłby pan mi pomóc? — mi-before-pan is also natural Polish, but the contiguous frame keeps the chunk in one piece for the learner; logged as an authoring choice. check_new run 2026-08-05: mógłby, mogłaby, zapytać, przeszkadzam, oczywiście, za, że, problemu all NEW; pomóc (trunk_can_a1, infinitive 'to help' — same function here), mi (a2_dat_chunks, dative 'to me' — same function), pan/pani (leaf_home_family + a2 address use — same function), prezent/obiad/dworzec all recycled as taught.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "conditional_sg",
+    "question",
+    "dat_chunks",
+    "miec_acc",
+    "negation",
+    "existential_jest",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "Czy mógłby pan…? · Czy mogłaby pani…? — the polite could-you",
+      "title_pl": "Czy mógłby pan…? Czy mogłaby pani…?",
+      "body": "This is how you ask a stranger for something in Polish without sounding blunt: Czy mógłby pan…? to a man, Czy mogłaby pani…? to a woman — \"Could you…?\" The pan and pani are the same polite words you have used since Co pan poleca?\n\nYou can hear the by of chciałbym inside mógłby — good ear — but this verb is irregular, so do not build anything: learn each opening ready-made, as one block, and never change it.\n\nAfter the opening comes a plain infinitive you already own: pomóc, mówić, zrobić. And mi is the same mi as in smakuje mi — \"to me\". Czy mógłby pan mi pomóc? — Could you help me?",
+      "body_pl": "Czy mógłby pan mi pomóc? Czy mogłaby pani zrobić kawę?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Czy mógłby pan mi pomóc?",
+            "Could you help me? (to a man)",
+            "opening + mi + infinitive — take the opening whole"
+          ],
+          [
+            "Czy mogłaby pani mi pomóc?",
+            "Could you help me? (to a woman)",
+            "the woman-facing opening — also whole"
+          ],
+          [
+            "Czy mógłby pan mówić po angielsku?",
+            "Could you speak English? (to a man)",
+            "mówić — an infinitive you already have"
+          ],
+          [
+            "Czy mogłaby pani zrobić kawę?",
+            "Could you make coffee? (to a woman)",
+            "zrobić kawę — both already yours"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me. Could you help me? (to a man)",
+          "pl": "Przepraszam. Czy mógłby pan mi pomóc?"
+        },
+        {
+          "en": "Could you speak Polish? (to a woman)",
+          "pl": "Czy mogłaby pani mówić po polsku?"
+        },
+        {
+          "en": "Could you make coffee? (to a woman)",
+          "pl": "Czy mogłaby pani zrobić kawę?"
+        }
+      ]
+    },
+    {
+      "title": "Chciałbym zapytać… · Przepraszam, że przeszkadzam. — the two openers",
+      "title_pl": "Chciałbym zapytać… Przepraszam, że przeszkadzam.",
+      "body": "Two ways to open on a stranger politely, and you own most of both already.\n\nChciałbym zapytać, … = \"I would like to ask, …\" Chciałbym is last unit's word; zapytać — \"to ask\" — is the one new word here, an infinitive that follows it exactly as kawę did. After the comma, put any question you already have: Chciałbym zapytać, gdzie jest bank. A woman says Chciałabym zapytać, … — the same gender split you already make.\n\nPrzepraszam, że przeszkadzam = \"Sorry to disturb you.\" Word for word it is \"I'm sorry that I'm disturbing\" — że means that, przeszkadzam means I'm disturbing — but you never need to build it. It is said exactly as it stands, every time. Learn it whole.",
+      "body_pl": "Chciałbym zapytać, gdzie jest bank. Przepraszam, że przeszkadzam.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Chciałbym zapytać, gdzie jest bank.",
+            "I would like to ask where the bank is. (m)",
+            "zapytać = to ask — the one new word"
+          ],
+          [
+            "Chciałabym zapytać, gdzie jest apteka.",
+            "I would like to ask where the pharmacy is. (f)",
+            "a woman builds on chciałabym, as always"
+          ],
+          [
+            "Chciałbym zapytać, ile to kosztuje.",
+            "I would like to ask how much it costs. (m)",
+            "any question you own can follow"
+          ],
+          [
+            "Przepraszam, że przeszkadzam.",
+            "Sorry to disturb you.",
+            "fixed sentence — learn whole"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Good day. I would like to ask where the station is. (m)",
+          "pl": "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec."
+        },
+        {
+          "en": "Sorry to disturb you. Could you help me? (to a man)",
+          "pl": "Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc?"
+        },
+        {
+          "en": "I would like to ask how much it costs. (f)",
+          "pl": "Chciałabym zapytać, ile to kosztuje."
+        }
+      ]
+    },
+    {
+      "title": "Dziękuję bardzo za… — thanking for the thing",
+      "title_pl": "Dziękuję bardzo za kawę.",
+      "body": "Dziękuję bardzo you have said a hundred times. To name what you are thanking for, add za — \"for\" — and then the thing.\n\nOne rule, and you already own it: after za the thing takes the same form it takes after mam. Mam kawę → Dziękuję za kawę. That is the accusative doing the same job it always does — for most masculine and neuter words it changes nothing at all: za prezent, za obiad.",
+      "body_pl": "Dziękuję bardzo za kawę. Dziękuję za prezent.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What happened to the word"
+        ],
+        "rows": [
+          [
+            "Dziękuję bardzo za kawę.",
+            "Thank you very much for the coffee.",
+            "kawa → kawę, the same -ę as in mam kawę"
+          ],
+          [
+            "Dziękuję bardzo za herbatę.",
+            "Thank you very much for the tea.",
+            "herbata → herbatę, same again"
+          ],
+          [
+            "Dziękuję za prezent.",
+            "Thank you for the present.",
+            "masculine — no change"
+          ],
+          [
+            "Dziękuję bardzo za obiad.",
+            "Thank you very much for the lunch.",
+            "masculine — no change"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Thank you very much for the coffee.",
+          "pl": "Dziękuję bardzo za kawę."
+        },
+        {
+          "en": "Thank you for the present.",
+          "pl": "Dziękuję za prezent."
+        },
+        {
+          "en": "Thank you very much for the tea. Goodbye.",
+          "pl": "Dziękuję bardzo za herbatę. Do widzenia."
+        }
+      ]
+    },
+    {
+      "title": "Oczywiście. · Nie ma problemu. — saying yes politely",
+      "title_pl": "Oczywiście. Nie ma problemu.",
+      "body": "The other side of the conversation: what comes back when someone asks you.\n\nOczywiście = \"Of course.\" The warm yes to any request: — Czy mógłby pan mi pomóc? — Oczywiście.\n\nNie ma problemu = \"No problem.\" A fixed phrase — learn it whole. The -u on the end is the same shape you see in do banku, but nothing here needs building; say it exactly as it stands.\n\nAnd keep your two replies apart. Someone thanks you → Nie ma za co, the reply you already have. Someone apologises or asks for something → Nie ma problemu.",
+      "body_pl": "— Czy mógłby pan mi pomóc? — Oczywiście. — Przepraszam, że przeszkadzam. — Nie ma problemu.",
+      "table": {
+        "headers": [
+          "They say",
+          "You answer",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Czy mogłaby pani mi pomóc?",
+            "Oczywiście.",
+            "a request gets of course"
+          ],
+          [
+            "Przepraszam, że przeszkadzam.",
+            "Nie ma problemu.",
+            "an apology gets no problem"
+          ],
+          [
+            "Dziękuję bardzo za obiad.",
+            "Nie ma za co.",
+            "thanks gets the reply you already own"
+          ],
+          [
+            "Czy mogłaby pani zrobić kawę?",
+            "Oczywiście. Nie ma problemu.",
+            "the two together — very Polish"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "— Could you help me? (to a man) — Of course.",
+          "pl": "— Czy mógłby pan mi pomóc? — Oczywiście."
+        },
+        {
+          "en": "— Sorry to disturb you. — No problem.",
+          "pl": "— Przepraszam, że przeszkadzam. — Nie ma problemu."
+        },
+        {
+          "en": "— Thank you very much for the coffee. — You're welcome.",
+          "pl": "— Dziękuję bardzo za kawę. — Nie ma za co."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Could you help me? (to a man)",
+      "pl": "Czy mógłby pan mi pomóc?"
+    },
+    {
+      "en": "Could you help me? (to a woman)",
+      "pl": "Czy mogłaby pani mi pomóc?"
+    },
+    {
+      "en": "Could you speak English? (to a man)",
+      "pl": "Czy mógłby pan mówić po angielsku?"
+    },
+    {
+      "en": "Could you speak Polish? (to a woman)",
+      "pl": "Czy mogłaby pani mówić po polsku?"
+    },
+    {
+      "en": "Could you make coffee? (to a woman)",
+      "pl": "Czy mogłaby pani zrobić kawę?"
+    },
+    {
+      "en": "I would like to ask… (man speaking)",
+      "pl": "Chciałbym zapytać…"
+    },
+    {
+      "en": "I would like to ask… (woman speaking)",
+      "pl": "Chciałabym zapytać…"
+    },
+    {
+      "en": "Sorry to disturb you.",
+      "pl": "Przepraszam, że przeszkadzam."
+    },
+    {
+      "en": "Thank you very much for the coffee.",
+      "pl": "Dziękuję bardzo za kawę."
+    },
+    {
+      "en": "Thank you for the present.",
+      "pl": "Dziękuję za prezent."
+    },
+    {
+      "en": "No problem.",
+      "pl": "Nie ma problemu."
+    },
+    {
+      "en": "Of course.",
+      "pl": "Oczywiście."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You stop a man in the street — could he help you? You say:",
+      "choices": [
+        "Czy mógłby pan mi pomóc?",
+        "Czy mogłaby pani mi pomóc?",
+        "Nie ma problemu.",
+        "Chciałbym zapytać…"
+      ],
+      "answer": "Czy mógłby pan mi pomóc?",
+      "explain": "Pan is for a man, the same pan as in Co pan poleca? The whole opening Czy mógłby pan is one ready-made block."
+    },
+    {
+      "prompt": "Now you are asking a woman for help. You say:",
+      "choices": [
+        "Czy mogłaby pani mi pomóc?",
+        "Czy mógłby pan mi pomóc?",
+        "Przepraszam, że przeszkadzam.",
+        "Oczywiście."
+      ],
+      "answer": "Czy mogłaby pani mi pomóc?",
+      "explain": "Pani is for a woman, and the opening changes with her: Czy mogłaby pani. Learn the two openings as two whole blocks."
+    },
+    {
+      "prompt": "— Czy mógłby pan mi pomóc? — ___ (you agree to help)",
+      "choices": [
+        "Oczywiście.",
+        "Nie ma za co.",
+        "Do usłyszenia.",
+        "Przepraszam, że przeszkadzam."
+      ],
+      "answer": "Oczywiście.",
+      "explain": "A request gets Oczywiście — of course. Nie ma za co is the reply to being thanked, not to being asked."
+    },
+    {
+      "prompt": "— Przepraszam, że przeszkadzam. — ___",
+      "choices": [
+        "Nie ma problemu.",
+        "Poproszę kawę.",
+        "Do widzenia.",
+        "Nie słyszę."
+      ],
+      "answer": "Nie ma problemu.",
+      "explain": "An apology gets Nie ma problemu — no problem. It is a fixed phrase, said exactly as it stands."
+    },
+    {
+      "prompt": "The polite two-step version of Gdzie jest dworzec? — a man speaking:",
+      "choices": [
+        "Chciałbym zapytać, gdzie jest dworzec.",
+        "Chciałabym zapytać, gdzie jest dworzec.",
+        "Czy jest dworzec?",
+        "Gdzie jest bank?"
+      ],
+      "answer": "Chciałbym zapytać, gdzie jest dworzec.",
+      "explain": "Chciałabym is a woman speaking — the same gender split as in the last unit. The question after the comma stays exactly as you already say it."
+    },
+    {
+      "prompt": "Thank you very much for the coffee. →  Dziękuję bardzo za ___.",
+      "choices": [
+        "kawę",
+        "kawa",
+        "kawy",
+        "herbatę"
+      ],
+      "answer": "kawę",
+      "explain": "After za the thing takes the same form as after mam: mam kawę → dziękuję za kawę. The accusative you already own, in one more place."
+    },
+    {
+      "prompt": "— Dziękuję bardzo za obiad. — ___",
+      "choices": [
+        "Nie ma za co.",
+        "Nie ma problemu.",
+        "Oczywiście.",
+        "Do usłyszenia."
+      ],
+      "answer": "Nie ma za co.",
+      "explain": "Keep the two replies apart: thanks gets Nie ma za co; an apology or a request gets Nie ma problemu."
+    },
+    {
+      "prompt": "Chciałbym ___, gdzie jest apteka.",
+      "choices": [
+        "zapytać",
+        "rozmawiać",
+        "mówić",
+        "pomóc"
+      ],
+      "answer": "zapytać",
+      "explain": "Zapytać means to ask — the one new word of this opener. Like every verb after chciałbym, it stays a plain infinitive."
+    },
+    {
+      "prompt": "You want the waiter — a man — to speak English. You say:",
+      "choices": [
+        "Czy mógłby pan mówić po angielsku?",
+        "Czy mogłaby pani mówić po polsku?",
+        "Proszę mówić po polsku.",
+        "Nie mogę teraz rozmawiać."
+      ],
+      "answer": "Czy mógłby pan mówić po angielsku?",
+      "explain": "The pan opening plus the infinitive mówić you already own. Po angielsku names the language you are asking for."
+    },
+    {
+      "prompt": "Sorry to disturb you. →",
+      "choices": [
+        "Przepraszam, że przeszkadzam.",
+        "Przepraszam, nie słyszę.",
+        "Przepraszam, to zły numer.",
+        "Nie ma problemu."
+      ],
+      "answer": "Przepraszam, że przeszkadzam.",
+      "explain": "One fixed sentence — word for word \"I'm sorry that I'm disturbing\" — but you never build it. Say it whole, every time."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Could you help me? (to a man)",
+      "mode": "full_word",
+      "answer": "Czy mógłby pan mi pomóc?",
+      "accepts": [
+        "Czy mógłby pan mi pomóc?",
+        "Czy mógłby pan mi pomóc",
+        "Czy moglby pan mi pomoc?",
+        "Czy moglby pan mi pomoc"
+      ],
+      "explain": "The opening Czy mógłby pan is one ready-made block; mi is the same to-me as in smakuje mi, and pomóc stays a plain infinitive."
+    },
+    {
+      "prompt_en": "Could you help me? (to a woman)",
+      "mode": "full_word",
+      "answer": "Czy mogłaby pani mi pomóc?",
+      "accepts": [
+        "Czy mogłaby pani mi pomóc?",
+        "Czy mogłaby pani mi pomóc",
+        "Czy moglaby pani mi pomoc?",
+        "Czy moglaby pani mi pomoc"
+      ],
+      "explain": "The woman-facing opening is Czy mogłaby pani — its own whole block, never mixed with the pan one."
+    },
+    {
+      "prompt_en": "Could you speak English? (to a man)",
+      "mode": "full_word",
+      "answer": "Czy mógłby pan mówić po angielsku?",
+      "accepts": [
+        "Czy mógłby pan mówić po angielsku?",
+        "Czy mógłby pan mówić po angielsku",
+        "Czy moglby pan mowic po angielsku?"
+      ]
+    },
+    {
+      "prompt_en": "Could you speak Polish? (to a woman)",
+      "mode": "full_word",
+      "answer": "Czy mogłaby pani mówić po polsku?",
+      "accepts": [
+        "Czy mogłaby pani mówić po polsku?",
+        "Czy mogłaby pani mówić po polsku",
+        "Czy moglaby pani mowic po polsku?"
+      ]
+    },
+    {
+      "prompt_en": "Could you make coffee? (to a woman)",
+      "mode": "full_word",
+      "answer": "Czy mogłaby pani zrobić kawę?",
+      "accepts": [
+        "Czy mogłaby pani zrobić kawę?",
+        "Czy mogłaby pani zrobić kawę",
+        "Czy moglaby pani zrobic kawe?"
+      ],
+      "explain": "After the opening comes any infinitive you own — zrobić kawę is the same zrobić as in Zrobiłbyś kawę?, one register up."
+    },
+    {
+      "prompt_en": "I would like to ask where the bank is. (m)",
+      "mode": "full_word",
+      "answer": "Chciałbym zapytać, gdzie jest bank.",
+      "accepts": [
+        "Chciałbym zapytać, gdzie jest bank.",
+        "Chciałbym zapytać, gdzie jest bank",
+        "Chciałbym zapytać gdzie jest bank",
+        "Chcialbym zapytac, gdzie jest bank."
+      ],
+      "explain": "Zapytać follows chciałbym as a plain infinitive, and the question after the comma is one you already say on its own."
+    },
+    {
+      "prompt_en": "I would like to ask where the pharmacy is. (f)",
+      "mode": "full_word",
+      "answer": "Chciałabym zapytać, gdzie jest apteka.",
+      "accepts": [
+        "Chciałabym zapytać, gdzie jest apteka.",
+        "Chciałabym zapytać, gdzie jest apteka",
+        "Chciałabym zapytać gdzie jest apteka",
+        "Chcialabym zapytac, gdzie jest apteka."
+      ]
+    },
+    {
+      "prompt_en": "Sorry to disturb you.",
+      "mode": "full_word",
+      "answer": "Przepraszam, że przeszkadzam.",
+      "accepts": [
+        "Przepraszam, że przeszkadzam.",
+        "Przepraszam, że przeszkadzam",
+        "Przepraszam że przeszkadzam",
+        "Przepraszam, ze przeszkadzam."
+      ],
+      "explain": "A fixed sentence — say it exactly as it stands. Nothing in it ever changes."
+    },
+    {
+      "prompt_en": "Thank you very much for the coffee.",
+      "mode": "full_word",
+      "answer": "Dziękuję bardzo za kawę.",
+      "accepts": [
+        "Dziękuję bardzo za kawę.",
+        "Dziękuję bardzo za kawę",
+        "Dziekuje bardzo za kawe."
+      ],
+      "explain": "After za, kawa takes the mam-form: kawę. The same accusative you have used since mam kawę."
+    },
+    {
+      "prompt_en": "Thank you for the present.",
+      "mode": "full_word",
+      "answer": "Dziękuję za prezent.",
+      "accepts": [
+        "Dziękuję za prezent.",
+        "Dziękuję za prezent",
+        "Dziekuje za prezent."
+      ],
+      "explain": "Prezent is masculine and not alive, so after za nothing is added to it."
+    },
+    {
+      "prompt_en": "No problem.",
+      "mode": "full_word",
+      "answer": "Nie ma problemu.",
+      "accepts": [
+        "Nie ma problemu.",
+        "Nie ma problemu"
+      ],
+      "explain": "A fixed phrase — learn it whole. The -u is the same shape you see in do banku, but nothing here needs building."
+    },
+    {
+      "prompt_en": "Of course.",
+      "mode": "full_word",
+      "answer": "Oczywiście.",
+      "accepts": [
+        "Oczywiście.",
+        "Oczywiście",
+        "Oczywiscie."
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type the exchange: — Sorry to disturb you. Could you help me? (to a man) — Of course.",
+      "answer": "— Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc? — Oczywiście.",
+      "accepts": [
+        "— Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc? — Oczywiście.",
+        "Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc? Oczywiście.",
+        "Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc? Oczywiście",
+        "- Przepraszam, że przeszkadzam. Czy mógłby pan mi pomóc? - Oczywiście."
+      ],
+      "explain": "The full polite approach: soften first, then ask. Oczywiście is the warm yes that comes back."
+    },
+    {
+      "prompt_en": "Type: Good day. I would like to ask where the station is. (m)",
+      "answer": "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec.",
+      "accepts": [
+        "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec.",
+        "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec",
+        "Dzień dobry, chciałbym zapytać, gdzie jest dworzec."
+      ],
+      "explain": "Greet, then open with chciałbym zapytać — the question itself stays exactly as you already say it."
+    },
+    {
+      "prompt_en": "Type the exchange: — Could you make coffee? (to a woman) — No problem.",
+      "answer": "— Czy mogłaby pani zrobić kawę? — Nie ma problemu.",
+      "accepts": [
+        "— Czy mogłaby pani zrobić kawę? — Nie ma problemu.",
+        "Czy mogłaby pani zrobić kawę? Nie ma problemu.",
+        "Czy mogłaby pani zrobić kawę? Nie ma problemu",
+        "- Czy mogłaby pani zrobić kawę? - Nie ma problemu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me, could you speak English? (to a man)",
+      "answer": "Przepraszam, czy mógłby pan mówić po angielsku?",
+      "accepts": [
+        "Przepraszam, czy mógłby pan mówić po angielsku?",
+        "Przepraszam, czy mógłby pan mówić po angielsku",
+        "Przepraszam czy mógłby pan mówić po angielsku?"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Thank you very much for the lunch. — You're welcome.",
+      "answer": "— Dziękuję bardzo za obiad. — Nie ma za co.",
+      "accepts": [
+        "— Dziękuję bardzo za obiad. — Nie ma za co.",
+        "Dziękuję bardzo za obiad. Nie ma za co.",
+        "Dziękuję bardzo za obiad. Nie ma za co",
+        "- Dziękuję bardzo za obiad. - Nie ma za co."
+      ],
+      "explain": "Thanks gets Nie ma za co — the reply you have had since A1. Nie ma problemu answers apologies and requests, not thanks."
+    },
+    {
+      "prompt_en": "Type: I would like to ask how much it costs. (f)",
+      "answer": "Chciałabym zapytać, ile to kosztuje.",
+      "accepts": [
+        "Chciałabym zapytać, ile to kosztuje.",
+        "Chciałabym zapytać, ile to kosztuje",
+        "Chciałabym zapytać ile to kosztuje"
+      ],
+      "explain": "Any question you own can follow the opener — ile to kosztuje goes in unchanged."
+    },
+    {
+      "prompt_en": "Type the exchange: — Could you help me? (to a woman) — Of course.",
+      "answer": "— Czy mogłaby pani mi pomóc? — Oczywiście.",
+      "accepts": [
+        "— Czy mogłaby pani mi pomóc? — Oczywiście.",
+        "Czy mogłaby pani mi pomóc? Oczywiście.",
+        "Czy mogłaby pani mi pomóc? Oczywiście",
+        "- Czy mogłaby pani mi pomóc? - Oczywiście."
+      ]
+    },
+    {
+      "prompt_en": "Type: Thank you very much for the tea. Goodbye.",
+      "answer": "Dziękuję bardzo za herbatę. Do widzenia.",
+      "accepts": [
+        "Dziękuję bardzo za herbatę. Do widzenia.",
+        "Dziękuję bardzo za herbatę. Do widzenia",
+        "Dziekuje bardzo za herbate. Do widzenia."
+      ],
+      "explain": "Herbata takes the mam-form after za: herbatę. Then the goodbye you have always had."
+    },
+    {
+      "prompt_en": "Type the exchange: — Sorry to disturb you. — No problem.",
+      "answer": "— Przepraszam, że przeszkadzam. — Nie ma problemu.",
+      "accepts": [
+        "— Przepraszam, że przeszkadzam. — Nie ma problemu.",
+        "Przepraszam, że przeszkadzam. Nie ma problemu.",
+        "Przepraszam, że przeszkadzam. Nie ma problemu",
+        "- Przepraszam, że przeszkadzam. - Nie ma problemu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Good day. Sorry to disturb you. I would like to ask where the hotel is. (m)",
+      "answer": "Dzień dobry. Przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel.",
+      "accepts": [
+        "Dzień dobry. Przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel.",
+        "Dzień dobry. Przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel",
+        "Dzień dobry, przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel."
+      ],
+      "explain": "The whole polite approach in three pieces you now own: greet, soften, ask."
+    }
+  ],
+  "teaches_lemmas": [
+    "mógłby",
+    "mogłaby",
+    "zapytać",
+    "przeszkadzam",
+    "oczywiście",
+    "za",
+    "że",
+    "problemu",
+    "czy mógłby pan",
+    "czy mogłaby pani",
+    "czy mógłby pan mi pomóc",
+    "czy mogłaby pani mi pomóc",
+    "czy mógłby pan mówić po angielsku",
+    "czy mogłaby pani mówić po polsku",
+    "czy mogłaby pani zrobić kawę",
+    "chciałbym zapytać",
+    "chciałabym zapytać",
+    "przepraszam, że przeszkadzam",
+    "dziękuję za",
+    "dziękuję bardzo za",
+    "dziękuję bardzo za kawę",
+    "dziękuję bardzo za herbatę",
+    "dziękuję bardzo za obiad",
+    "dziękuję za prezent",
+    "nie ma problemu"
+  ],
+  "uses_lemmas": [
+    "pan",
+    "pani",
+    "pomóc",
+    "mi",
+    "mówić",
+    "po angielsku",
+    "po polsku",
+    "zrobić",
+    "kawa",
+    "kawę",
+    "herbatę",
+    "prezent",
+    "obiad",
+    "chciałbym",
+    "chciałabym",
+    "przepraszam",
+    "dziękuję",
+    "bardzo",
+    "dziękuję bardzo",
+    "nie ma",
+    "nie ma za co",
+    "dzień dobry",
+    "do widzenia",
+    "do usłyszenia",
+    "czy",
+    "czy jest",
+    "gdzie",
+    "gdzie jest bank",
+    "gdzie jest apteka",
+    "gdzie jest dworzec",
+    "gdzie jest hotel",
+    "ile to kosztuje",
+    "bank",
+    "apteka",
+    "dworzec",
+    "hotel",
+    "mam",
+    "smakuje mi",
+    "poproszę",
+    "poproszę kawę",
+    "nie słyszę",
+    "to zły numer",
+    "proszę mówić po polsku",
+    "nie mogę teraz rozmawiać",
+    "rozmawiać",
+    "co pan poleca"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_polite",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

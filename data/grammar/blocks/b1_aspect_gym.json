@@ -1,0 +1,658 @@
+{
+  "id": "b1_aspect_gym",
+  "title": "Siłownia · aspekt",
+  "title_en": "Aspect gym · past + future",
+  "level": "B1",
+  "tree_node": "b1_aspect_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gym idiom (a1_case_gym / a2_past_gym line): ZERO new material — teaches_structures and teaches_lemmas both empty. Drills the full four-way grid the learner now owns: kupowałem (past activity/habit) / kupiłem (past, once, finished) / będę kupować (future activity/repeated) / kupię (future, once, finished) — past and future MIXED, time-word and result cues in English, Polish only in frames and answers. The four-way is complete only for the four twins (kupować/kupić, robić/zrobić, pić/wypić, czytać/przeczytać), so the gym stays inside them. MATCH is three complete four-ways (buy·I-m, read·she, drink·he) = 12 rows, so the whole-board reveal IS the grid. QUIZ is 12 discrimination items, each demanding one cell against distractors from the other cells; PISANIE is the 12-cell production core; UŻYCIE is 12 sentences with noun subjects/objects, one per cell across the verbs. POOL: POOL_b1_early.md (end of b1_perf_future) — strictly earlier than this node's path slot; the two intervening nodes teach no grammar forms (b1_two_futures = pure discrimination by design, b1_plans = vocab), so the pool is conservative and safe. FORM FENCE, every demanded and distractor form checked against the pool: AVOIDED as never taught — kupowałeś/kupowałaś/kupowało, kupiłeś/kupiłaś/kupiło, zrobiłeś/zrobiłaś/zrobiło, przeczytałeś/przeczytałaś, czytałaś, wypiło. USED past forms are exactly the pooled set: kupowałem/kupował, kupiłem/kupił/kupiła, robił/robiła, zrobił/zrobiła, pił/piła/piłam/piłem, wypił/wypiłam, czytał/czytała/czytałam/czytałem, przeczytał/przeczytała/przeczytałam/przeczytałem; futures are the 24 b1_perf_future forms plus a2_bedzie's helpers + pooled infinitives. B1 FENCES: no conditional; no oni/one anywhere (the only plural tasks are my/będziemy forms or noun subjects — none needed 3pl pronouns); no vocative; no new perfective verbs. GLOSSES: per B1-SPINE post-b1_two_futures rule, every future gloss distinguishes 'will buy it (once, finished)' from 'will be buying'; past dynamic verbs keep 'was buying / used to buy' per AGENTS. TIME WORDS verified in pool: zawsze, często, czasami, codziennie (now pooled — it was not at a2_aspect time), wczoraj, jutro, rano, dziś wieczorem, w weekend. HOMOGRAPHS: recycled objects kawę/herbatę/książkę/zupę are taught accusatives used as accusatives; chleb/obiad/piwo/list/wszystko inanimate nom=acc, same reading. FORK LOGGED: b1_two_futures.json did not exist yet when this gym was authored (parallel batch), so the decision-rule language (habit words → imperfective, jutro+result → kupię, repeated future → będę kupować) follows the spine's own examples rather than quoting that unit; no contradiction is possible because this gym asserts nothing new. FORK LOGGED: intro slide 3 shows the 4×4 he-form grid — all 16 cells pool-verified; będzie kupować / będzie robić appear there and in tasks as legal a2_bedzie assemblies.",
+  "focus_structures": [
+    "aspect_past",
+    "perf_future",
+    "bedzie"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "aspect_past",
+    "perf_future",
+    "bedzie",
+    "past_ac",
+    "past_rest",
+    "miec_acc",
+    "poss_nom",
+    "present_am",
+    "present_e_isz",
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "Nothing new — the whole grid is yours",
+      "title_pl": "Nic nowego — cała siatka jest twoja",
+      "body": "Four forms of to buy, and you already own every one of them. Two questions pick the right cell, every time.\n\nFirst: past or future? Second: the activity — ongoing or repeated — or one finished action with a result?\n\nAnswer both and the form chooses itself. This unit only trains the choosing, at speed.",
+      "body_pl": "Dwa pytania: przeszłość czy przyszłość? Czynność czy wynik?",
+      "table": {
+        "headers": [
+          "Form",
+          "English",
+          "When"
+        ],
+        "rows": [
+          [
+            "kupowałem",
+            "I was buying · I used to buy",
+            "past — the activity, or a habit"
+          ],
+          [
+            "kupiłem",
+            "I bought it",
+            "past — once, finished, result"
+          ],
+          [
+            "będę kupować",
+            "I will be buying",
+            "future — ongoing or repeated"
+          ],
+          [
+            "kupię",
+            "I will buy it",
+            "future — once, finished"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The time words decide",
+      "title_pl": "Słowa czasu decydują",
+      "body": "You rarely have to think hard — the words around the verb usually make the choice for you.\n\nHabit words point at the imperfective twin, whichever direction time runs. One occasion plus a result points at the perfective twin. And as before: when you truly cannot decide, take the imperfective — it only claims the activity happened, which is nearly always true.",
+      "body_pl": "zawsze · często · czasami · codziennie → niedokonany. Jedna skończona sprawa → dokonany.",
+      "table": {
+        "headers": [
+          "Cue",
+          "Pick",
+          "Example"
+        ],
+        "rows": [
+          [
+            "zawsze · często · czasami · codziennie — a habit, in the past",
+            "imperfective past",
+            "Zawsze kupowałem chleb."
+          ],
+          [
+            "wczoraj + a result",
+            "perfective past",
+            "Wczoraj kupiłem chleb."
+          ],
+          [
+            "jutro · w weekend + once, done",
+            "perfective future",
+            "Jutro kupię chleb."
+          ],
+          [
+            "a future activity or habit — no finish promised",
+            "będę + verb",
+            "Codziennie będę kupować chleb."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "All four verbs, all four cells",
+      "title_pl": "Cztery czasowniki, cztery pola",
+      "body": "Here is the whole board, shown on the he-forms. Read across a row and you can hear the system: same pair of verbs, past on the left, future on the right, activity above result — sixteen cells and not one of them is new.",
+      "body_pl": "Szesnaście pól — i żadne nie jest nowe.",
+      "table": {
+        "headers": [
+          "Pair",
+          "was doing",
+          "did it",
+          "will be doing",
+          "will do it"
+        ],
+        "rows": [
+          [
+            "kupować / kupić",
+            "kupował",
+            "kupił",
+            "będzie kupować",
+            "kupi"
+          ],
+          [
+            "robić / zrobić",
+            "robił",
+            "zrobił",
+            "będzie robić",
+            "zrobi"
+          ],
+          [
+            "pić / wypić",
+            "pił",
+            "wypił",
+            "będzie pić",
+            "wypije"
+          ],
+          [
+            "czytać / przeczytać",
+            "czytał",
+            "przeczytał",
+            "będzie czytać",
+            "przeczyta"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I was buying (m)",
+      "pl": "kupowałem"
+    },
+    {
+      "en": "I bought it (m)",
+      "pl": "kupiłem"
+    },
+    {
+      "en": "I will be buying",
+      "pl": "będę kupować"
+    },
+    {
+      "en": "I will buy it",
+      "pl": "kupię"
+    },
+    {
+      "en": "she was reading",
+      "pl": "czytała"
+    },
+    {
+      "en": "she read it all",
+      "pl": "przeczytała"
+    },
+    {
+      "en": "she will be reading",
+      "pl": "będzie czytać"
+    },
+    {
+      "en": "she will read it all",
+      "pl": "przeczyta"
+    },
+    {
+      "en": "he was drinking",
+      "pl": "pił"
+    },
+    {
+      "en": "he drank it up",
+      "pl": "wypił"
+    },
+    {
+      "en": "he will be drinking",
+      "pl": "będzie pić"
+    },
+    {
+      "en": "he will drink it up",
+      "pl": "wypije"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Codziennie ___ kawę. · I used to drink — a woman speaking",
+      "choices": [
+        "piłam",
+        "wypiłam",
+        "wypiję",
+        "będę pić"
+      ],
+      "answer": "piłam",
+      "explain": "codziennie is a habit word and the drinking is behind you — past plus imperfective: piłam. wypiłam would report one finished cup; wypiję and będę pić point forwards."
+    },
+    {
+      "prompt": "Jutro ___ chleb. · I will buy it — once, done",
+      "choices": [
+        "kupię",
+        "kupiłem",
+        "będę kupować",
+        "kupuję"
+      ],
+      "answer": "kupię",
+      "explain": "One trip, bread in the bag — perfective future. będę kupować would promise a repeated activity, and kupuję means I am buying it right now."
+    },
+    {
+      "prompt": "Codziennie ___ chleb. · I will be buying — every day from now on",
+      "choices": [
+        "będę kupować",
+        "kupię",
+        "kupowałem",
+        "kupuję"
+      ],
+      "answer": "będę kupować",
+      "explain": "A repeated future has no single finish, so it takes będę plus the activity verb. kupię would name one purchase, done once."
+    },
+    {
+      "prompt": "Wczoraj mama ___ zupę. · made it — it was ready",
+      "choices": [
+        "zrobiła",
+        "robiła",
+        "zrobi",
+        "robi"
+      ],
+      "answer": "zrobiła",
+      "explain": "The soup was ready — a result, so the perfective zrobić; and wczoraj keeps it in the past: zrobiła, not zrobi."
+    },
+    {
+      "prompt": "Mama często ___ obiad. · used to make",
+      "choices": [
+        "robiła",
+        "zrobiła",
+        "zrobi",
+        "będzie robić"
+      ],
+      "answer": "robiła",
+      "explain": "często means many occasions, and a habit takes the imperfective. zrobiła would point at one finished lunch."
+    },
+    {
+      "prompt": "Jutro mama ___ obiad. · will make it — once, finished",
+      "choices": [
+        "zrobi",
+        "będzie robić",
+        "zrobiła",
+        "robi"
+      ],
+      "answer": "zrobi",
+      "explain": "jutro plus one finished lunch — the perfective future zrobi. będzie robić would leave the cooking open-ended, with no lunch promised."
+    },
+    {
+      "prompt": "Tata ___ wszystko. · drank it up",
+      "choices": [
+        "wypił",
+        "pił",
+        "wypije",
+        "będzie pić"
+      ],
+      "answer": "wypił",
+      "explain": "wszystko is a finished amount — nothing left — so wypić; and it already happened, so the past form wypił."
+    },
+    {
+      "prompt": "Dziś wieczorem tata ___ piwo. · will be drinking — the evening activity",
+      "choices": [
+        "będzie pić",
+        "wypije",
+        "pił",
+        "wypił"
+      ],
+      "answer": "będzie pić",
+      "explain": "The gloss claims only the activity — an evening with a beer, no promise the glass ends empty. wypije would make that extra claim."
+    },
+    {
+      "prompt": "Fix: Jutro przeczytałem książkę. →",
+      "choices": [
+        "przeczytam",
+        "przeczytałem",
+        "czytałem",
+        "będę czytać"
+      ],
+      "answer": "przeczytam",
+      "explain": "jutro and a past form contradict each other. Keep jutro and keep the whole-book claim: przeczytam."
+    },
+    {
+      "prompt": "Zawsze ___ chleb w sklepie. · I used to buy — a man speaking",
+      "choices": [
+        "kupowałem",
+        "kupiłem",
+        "kupię",
+        "będę kupować"
+      ],
+      "answer": "kupowałem",
+      "explain": "zawsze is habit territory and the habit is in the past — the imperfective past kupowałem, exactly as in the aspect unit."
+    },
+    {
+      "prompt": "W weekend ___ książkę. · we will read it all",
+      "choices": [
+        "przeczytamy",
+        "będziemy czytać",
+        "czytamy",
+        "przeczytam"
+      ],
+      "answer": "przeczytamy",
+      "explain": "Read it all — to the end — is the perfective claim, so przeczytamy. będziemy czytać only promises time with the book."
+    },
+    {
+      "prompt": "Dziś wieczorem ___ książkę. · I will be reading — no promise to finish",
+      "choices": [
+        "będę czytać",
+        "przeczytam",
+        "czytałem",
+        "czytamy"
+      ],
+      "answer": "będę czytać",
+      "explain": "No finish promised — the activity future, będę czytać. przeczytam would commit you to the last page tonight."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was buying (m)",
+      "mode": "full_word",
+      "answer": "kupowałem",
+      "accepts": [
+        "kupowałem"
+      ]
+    },
+    {
+      "prompt_en": "I bought it (m)",
+      "mode": "full_word",
+      "answer": "kupiłem",
+      "accepts": [
+        "kupiłem"
+      ]
+    },
+    {
+      "prompt_en": "I will be buying",
+      "mode": "full_word",
+      "answer": "będę kupować",
+      "accepts": [
+        "będę kupować"
+      ],
+      "explain": "Helper plus the activity verb — and no gender to choose, whoever is speaking."
+    },
+    {
+      "prompt_en": "I will buy it",
+      "mode": "full_word",
+      "answer": "kupię",
+      "accepts": [
+        "kupię"
+      ],
+      "explain": "Not kupuję — that means now. The one-word future is built on kupić's own stem: kupi- + ę."
+    },
+    {
+      "prompt_en": "she made it",
+      "mode": "full_word",
+      "answer": "zrobiła",
+      "accepts": [
+        "zrobiła"
+      ]
+    },
+    {
+      "prompt_en": "she will make it",
+      "mode": "full_word",
+      "answer": "zrobi",
+      "accepts": [
+        "zrobi"
+      ],
+      "explain": "The past chose between zrobił and zrobiła; the future does not — zrobi covers he and she alike."
+    },
+    {
+      "prompt_en": "he was drinking",
+      "mode": "full_word",
+      "answer": "pił",
+      "accepts": [
+        "pił"
+      ]
+    },
+    {
+      "prompt_en": "he drank it up",
+      "mode": "full_word",
+      "answer": "wypił",
+      "accepts": [
+        "wypił"
+      ]
+    },
+    {
+      "prompt_en": "he will drink it up",
+      "mode": "full_word",
+      "answer": "wypije",
+      "accepts": [
+        "wypije"
+      ],
+      "explain": "No tail on the -e: wypije is he or she. wypiję with the tail would put you in the sentence."
+    },
+    {
+      "prompt_en": "I was reading (f)",
+      "mode": "full_word",
+      "answer": "czytałam",
+      "accepts": [
+        "czytałam"
+      ]
+    },
+    {
+      "prompt_en": "I will be reading",
+      "mode": "full_word",
+      "answer": "będę czytać",
+      "accepts": [
+        "będę czytać"
+      ]
+    },
+    {
+      "prompt_en": "I will read it all",
+      "mode": "full_word",
+      "answer": "przeczytam",
+      "accepts": [
+        "przeczytam"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Yesterday Dad made lunch.",
+      "answer": "Wczoraj tata zrobił obiad.",
+      "accepts": [
+        "Wczoraj tata zrobił obiad.",
+        "Wczoraj tata zrobił obiad",
+        "Tata wczoraj zrobił obiad.",
+        "Tata wczoraj zrobił obiad",
+        "Tata zrobił obiad wczoraj.",
+        "Tata zrobił obiad wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum often made soup.",
+      "answer": "Mama często robiła zupę.",
+      "accepts": [
+        "Mama często robiła zupę.",
+        "Mama często robiła zupę",
+        "Mama robiła często zupę.",
+        "Mama robiła często zupę"
+      ],
+      "explain": "często — many pots over many days — keeps the verb imperfective. zrobiła would name one finished pot."
+    },
+    {
+      "prompt_en": "Type: Tomorrow Mum will make lunch.",
+      "answer": "Jutro mama zrobi obiad.",
+      "accepts": [
+        "Jutro mama zrobi obiad.",
+        "Jutro mama zrobi obiad",
+        "Mama jutro zrobi obiad.",
+        "Mama jutro zrobi obiad",
+        "Mama zrobi obiad jutro.",
+        "Mama zrobi obiad jutro"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I bought the bread. (m)",
+      "answer": "Wczoraj kupiłem chleb.",
+      "accepts": [
+        "Wczoraj kupiłem chleb.",
+        "Wczoraj kupiłem chleb",
+        "Kupiłem wczoraj chleb.",
+        "Kupiłem wczoraj chleb",
+        "Kupiłem chleb wczoraj.",
+        "Kupiłem chleb wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will buy the coffee.",
+      "answer": "Jutro kupię kawę.",
+      "accepts": [
+        "Jutro kupię kawę.",
+        "Jutro kupię kawę",
+        "Kupię kawę jutro.",
+        "Kupię kawę jutro"
+      ],
+      "explain": "One purchase, done — kupię. And whether a man or a woman says it, the form is the same: the gender choice stayed behind in the past."
+    },
+    {
+      "prompt_en": "Type: I will be buying bread every day.",
+      "answer": "Codziennie będę kupować chleb.",
+      "accepts": [
+        "Codziennie będę kupować chleb.",
+        "Codziennie będę kupować chleb",
+        "Będę codziennie kupować chleb.",
+        "Będę codziennie kupować chleb",
+        "Będę kupować chleb codziennie.",
+        "Będę kupować chleb codziennie"
+      ],
+      "explain": "every day makes it a repeated future — będę plus the activity verb. Jutro kupię would be one loaf, once."
+    },
+    {
+      "prompt_en": "Type: Yesterday Dad drank the beer up.",
+      "answer": "Wczoraj tata wypił piwo.",
+      "accepts": [
+        "Wczoraj tata wypił piwo.",
+        "Wczoraj tata wypił piwo",
+        "Tata wczoraj wypił piwo.",
+        "Tata wczoraj wypił piwo",
+        "Tata wypił piwo wczoraj.",
+        "Tata wypił piwo wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow morning Dad will drink the coffee up.",
+      "answer": "Jutro rano tata wypije kawę.",
+      "accepts": [
+        "Jutro rano tata wypije kawę.",
+        "Jutro rano tata wypije kawę",
+        "Tata wypije kawę jutro rano.",
+        "Tata wypije kawę jutro rano",
+        "Tata jutro rano wypije kawę.",
+        "Tata jutro rano wypije kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna will be drinking tea.",
+      "answer": "Anna będzie pić herbatę.",
+      "accepts": [
+        "Anna będzie pić herbatę.",
+        "Anna będzie pić herbatę"
+      ],
+      "explain": "Only the activity is claimed — tea-drinking, no empty cup promised — so będzie plus pić, not wypije."
+    },
+    {
+      "prompt_en": "Type: Yesterday I read the whole book. (f)",
+      "answer": "Wczoraj przeczytałam książkę.",
+      "accepts": [
+        "Wczoraj przeczytałam książkę.",
+        "Wczoraj przeczytałam książkę",
+        "Przeczytałam wczoraj książkę.",
+        "Przeczytałam wczoraj książkę",
+        "Przeczytałam książkę wczoraj.",
+        "Przeczytałam książkę wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: At the weekend my brother will read the whole letter.",
+      "answer": "W weekend mój brat przeczyta list.",
+      "accepts": [
+        "W weekend mój brat przeczyta list.",
+        "W weekend mój brat przeczyta list",
+        "Mój brat przeczyta list w weekend.",
+        "Mój brat przeczyta list w weekend",
+        "W weekend brat przeczyta list.",
+        "W weekend brat przeczyta list",
+        "Brat przeczyta list w weekend.",
+        "Brat przeczyta list w weekend"
+      ]
+    },
+    {
+      "prompt_en": "Type: This evening I will be reading a book.",
+      "answer": "Dziś wieczorem będę czytać książkę.",
+      "accepts": [
+        "Dziś wieczorem będę czytać książkę.",
+        "Dziś wieczorem będę czytać książkę",
+        "Będę czytać książkę dziś wieczorem.",
+        "Będę czytać książkę dziś wieczorem"
+      ],
+      "explain": "An evening with the book, no last-page promise — będę czytać. przeczytam would commit you to finishing it tonight."
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "kupować",
+    "kupowałem",
+    "kupował",
+    "kupić",
+    "kupiłem",
+    "kupił",
+    "kupię",
+    "kupi",
+    "kupuję",
+    "robić",
+    "robił",
+    "robiła",
+    "robi",
+    "zrobić",
+    "zrobił",
+    "zrobiła",
+    "zrobi",
+    "pić",
+    "pił",
+    "piłam",
+    "wypić",
+    "wypił",
+    "wypiłam",
+    "wypije",
+    "wypiję",
+    "czytać",
+    "czytał",
+    "czytała",
+    "czytałam",
+    "czytałem",
+    "czytamy",
+    "przeczytać",
+    "przeczytał",
+    "przeczytała",
+    "przeczytałam",
+    "przeczytałem",
+    "przeczytam",
+    "przeczyta",
+    "przeczytamy",
+    "będę",
+    "będzie",
+    "będziemy",
+    "mama",
+    "tata",
+    "anna",
+    "brat",
+    "mój",
+    "kawę",
+    "chleb",
+    "zupę",
+    "obiad",
+    "piwo",
+    "herbatę",
+    "książkę",
+    "list",
+    "wszystko",
+    "jutro",
+    "wczoraj",
+    "rano",
+    "codziennie",
+    "często",
+    "zawsze",
+    "czasami",
+    "dziś wieczorem",
+    "w weekend",
+    "w sklepie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_aspect_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

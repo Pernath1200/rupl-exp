@@ -1,0 +1,616 @@
+{
+  "id": "b1_two_futures",
+  "title": "Kupię czy będę kupować?",
+  "title_en": "Will buy, or will be buying?",
+  "level": "B1",
+  "tree_node": "b1_two_futures",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "THE CONTRAST UNIT (James decision #2, second half): b1_perf_future put the forms in his hands and promised outright that which-future-when is this unit's whole job — intro slide 1 opens by keeping that promise in that unit's voice. TEACHES NOTHING NEW: teaches_structures [] and teaches_lemmas [] on the gym convention (a2_past_gym); pure discrimination between two owned systems — będę + taught imperfective infinitive (a2_bedzie) vs the four twins' perfective futures (b1_perf_future, all 24 forms live). DECISION RULE taught through owned time words: codziennie / zawsze / często / czasami name a repeat with no single finish → będę + infinitive; jutro / jutro rano / dziś wieczorem / w poniedziałek / w weekend point at one occasion, and a single finished act on that occasion → the perfective future. HONEST CAVEAT in the a2_aspect tradition (its wczoraj warning, pointed forwards): jutro alone does not force the perfective — Jutro będę pracować w biurze is fine. The brief's example (cały dzień) was checked: cały is UNTAUGHT (check_new.py: NEW), so the caveat example is the pool-legal 'Jutro będę pracować w biurze' instead — same point, no untaught word. BEGINNER FALLBACK echoes a2_aspect slide 6 exactly: when genuinely unsure, będę + infinitive is never wrong grammar — it only claims the activity; the perfective makes the extra claim of completion, which is the part you can be wrong about. NEVER-MIX FACT stated on slide 5 before it is quizzed: będę takes only the activity verb, będę kupić is not Polish — licensing the ungrammatical distractors będę wypić / będą wypić (precedent: a2_bedzie's 'Będę pracuję'). PISANIE CALL (logged): full sentences were NOT needed — the aspect-bearing English glosses ('will be buying' vs 'will buy it') make a bare verb phrase show the choice, and the two-word compound będę kupować is that future's minimal pattern unit (precedent: a2_bedzie type items). So Pisanie is 12 gloss-cued verb phrases, 6 per system. FENCES HONOURED: no new verbs of either aspect (no napiszę, no pojadę, no ugotuję); no conditional; no oni/one — every 3pl subject is a noun (dzieci) or the EN cue says 'they'; no virile. GLOSSES per the spine's post-b1_two_futures rule: compound future = 'will be X-ing' (dynamic verbs, a2_bedzie policy), perfective future = 'will buy it / will drink it up / will read it all' result-language. HOMOGRAPHS: check_new.py run — codziennie taught a2_chodzic (adverb, same function), w poniedziałek trunk_there_time_a1, rano / dziś wieczorem / zawsze / często / czasami / jutro leaf_time_cal_a1, all used as the same time words; all perfective future forms owned by b1_perf_future as exactly these futures; kawę/herbatę/książkę/zupę taught as accusatives, used as accusatives; chleb/obiad/piwo/list/rower/mleko/śniadanie citation nouns used as accusative objects — inanimate nom=acc, identical strings, same reading (named per AGENTS). kupiłeś and wypiły/piły are NOT in the pool and appear nowhere (past distractors restricted to taught forms: kupiłem, wypiłem, piłem, zrobiła, przeczytałem, pracowałem, robiłem). cały avoided (untaught). No new time words: potem/zaraz remain untouched.",
+  "focus_structures": [
+    "perf_future",
+    "bedzie"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "perf_future",
+    "bedzie",
+    "aspect_past",
+    "past_ac",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "miec_acc",
+    "poss_nom",
+    "prep_w_loc",
+    "question",
+    "questions2"
+  ],
+  "intro": [
+    {
+      "title": "The promise kept — one choice, two futures",
+      "title_pl": "Dwie przyszłości — wybór",
+      "body": "Last unit ended with a promise: the forms first, the choice today. Here is the choice.\n\nAnd you have made it before. In the past you learned to pick between kupowałem — I was buying, the activity — and kupiłem — I bought it, once, finished, bread in the bag. The future asks for exactly the same decision, with the same two verbs doing the same two jobs.\n\nbędę kupować is kupowałem pointed forwards: the activity will be going on, or will keep happening. kupię is kupiłem pointed forwards: it will happen once, it will be finished, and there will be a result.\n\nNothing in this unit is new. Both futures are yours already — today you learn which one to reach for.",
+      "body_pl": "Ten sam wybór co w przeszłości: kupowałem/kupiłem → będę kupować/kupię.",
+      "table": {
+        "headers": [
+          "Past — you chose this way",
+          "Future — same choice",
+          "The claim"
+        ],
+        "rows": [
+          [
+            "kupowałem — I was buying",
+            "będę kupować — I will be buying",
+            "the activity — ongoing or repeated, no endpoint"
+          ],
+          [
+            "kupiłem — I bought it",
+            "kupię — I will buy it",
+            "once, finished — with a result"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Habit words point at będę",
+      "title_pl": "codziennie, zawsze, często → będę",
+      "body": "The time words decide most sentences for you, and they are all words you own.\n\ncodziennie (every day), zawsze (always), często (often) and czasami (sometimes) describe a repeat — the same thing happening again and again. A repeat has no single finish, so no single result can be claimed. These words take będę + verb, every time.\n\nThis is the same evidence rule you used in the past tense: zawsze kupowałem, never zawsze kupiłem. Point it forwards and nothing changes.",
+      "body_pl": "codziennie · zawsze · często · czasami → będę + czasownik.",
+      "examples": [
+        {
+          "en": "Every day I will be buying bread.",
+          "pl": "Codziennie będę kupować chleb."
+        },
+        {
+          "en": "I will always be drinking coffee in the morning.",
+          "pl": "Zawsze będę pić kawę rano."
+        },
+        {
+          "en": "Mum will often be cooking lunch.",
+          "pl": "Mama często będzie gotować obiad."
+        },
+        {
+          "en": "Sometimes we will be reading in the evening.",
+          "pl": "Czasami będziemy czytać wieczorem."
+        }
+      ]
+    },
+    {
+      "title": "One occasion, one finished act — the perfective",
+      "title_pl": "jutro, w poniedziałek → kupię",
+      "body": "jutro, jutro rano, dziś wieczorem, w poniedziałek, w weekend — these words point at one occasion.\n\nIf what happens on that occasion is a single act, carried through and finished — the bread bought, the lunch made, the book read to the end — the verb is the perfective future: kupię, zrobię, wypiję, przeczytam.\n\nOne occasion plus one finished act: that combination is what the perfective future is for.",
+      "body_pl": "Jedna okazja + jedna skończona sprawa → kupię, zrobię, wypiję, przeczytam.",
+      "examples": [
+        {
+          "en": "Tomorrow morning I will buy the bread.",
+          "pl": "Jutro rano kupię chleb."
+        },
+        {
+          "en": "On Monday Mum will make lunch.",
+          "pl": "W poniedziałek mama zrobi obiad."
+        },
+        {
+          "en": "This evening I will drink the tea up.",
+          "pl": "Dziś wieczorem wypiję herbatę."
+        },
+        {
+          "en": "At the weekend we will read the whole book.",
+          "pl": "W weekend przeczytamy książkę."
+        }
+      ]
+    },
+    {
+      "title": "One warning: jutro does not decide by itself",
+      "title_pl": "Samo jutro nie wystarczy",
+      "body": "In the past tense you met this warning about wczoraj, and it holds for jutro too.\n\njutro tells you which day. It does not tell you what kind of thing fills the day. One finished purchase tomorrow — Jutro kupię chleb. But a day of ordinary work tomorrow is an activity, hours of it, and no finish is being claimed: Jutro będę pracować w biurze — perfectly good Polish.\n\nSo the time word is evidence, not law. The question that actually decides is the one you already know: once and finished, or an activity going on? Ask it about the sentence, then pick the verb.",
+      "body_pl": "Jutro kupię chleb. — ale też: Jutro będę pracować w biurze.",
+      "table": {
+        "headers": [
+          "Tomorrow…",
+          "Future",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Jutro kupię chleb.",
+            "perfective",
+            "one purchase, done — bread in the bag"
+          ],
+          [
+            "Jutro będę pracować w biurze.",
+            "będę + verb",
+            "an activity filling the day — no endpoint claimed"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two facts to lean on",
+      "title_pl": "Gdy nie wiesz",
+      "body": "First: the two futures never mix. będę takes only the activity verb — będę kupować, będę pić. będę kupić is not Polish, and it never will be. The perfective future stands alone as one word.\n\nSecond, the same safety net you had in the past tense: if you genuinely cannot decide, take będę + verb. It is never wrong grammar — it only says the activity will happen, which is nearly always true. The perfective makes the extra claim that the act will be carried through to the end, and that is the part you can be wrong about.",
+      "body_pl": "Nigdy: będę kupić. Nie wiesz? Wybierz będę + czasownik."
+    }
+  ],
+  "match": [
+    {
+      "en": "I will be buying",
+      "pl": "będę kupować"
+    },
+    {
+      "en": "I will buy it",
+      "pl": "kupię"
+    },
+    {
+      "en": "you will be drinking (sg)",
+      "pl": "będziesz pić"
+    },
+    {
+      "en": "you will drink it up (sg)",
+      "pl": "wypijesz"
+    },
+    {
+      "en": "he / she will be reading",
+      "pl": "będzie czytać"
+    },
+    {
+      "en": "he / she will read it all",
+      "pl": "przeczyta"
+    },
+    {
+      "en": "we will be making",
+      "pl": "będziemy robić"
+    },
+    {
+      "en": "we will make it",
+      "pl": "zrobimy"
+    },
+    {
+      "en": "they will be buying",
+      "pl": "będą kupować"
+    },
+    {
+      "en": "they will buy it",
+      "pl": "kupią"
+    },
+    {
+      "en": "I will be making",
+      "pl": "będę robić"
+    },
+    {
+      "en": "I will make it",
+      "pl": "zrobię"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Codziennie ___ kawę. (ja)",
+      "choices": [
+        "będę pić",
+        "wypiję",
+        "piję",
+        "wypiłem"
+      ],
+      "answer": "będę pić",
+      "explain": "codziennie promises a repeat — a coffee every day, no single finish. A repeat takes będę + verb. wypiję would claim one particular cup, emptied once."
+    },
+    {
+      "prompt": "Jutro rano ___ chleb — one loaf, once. (ja)",
+      "choices": [
+        "kupię",
+        "będę kupować",
+        "kupuję",
+        "kupiłem"
+      ],
+      "answer": "kupię",
+      "explain": "One occasion, one finished purchase — the perfective future. będę kupować would describe buying as an ongoing or repeated activity, and kupuję means now."
+    },
+    {
+      "prompt": "W poniedziałek mama ___ obiad — one lunch, made and done.",
+      "choices": [
+        "zrobi",
+        "będzie robić",
+        "robi",
+        "zrobiła"
+      ],
+      "answer": "zrobi",
+      "explain": "w poniedziałek points at one occasion and the lunch gets finished — zrobi. zrobiła already happened; będzie robić would leave the lunch with no endpoint."
+    },
+    {
+      "prompt": "Zawsze ___ herbatę rano. (ja)",
+      "choices": [
+        "będę pić",
+        "wypiję",
+        "będę wypić",
+        "piłem"
+      ],
+      "answer": "będę pić",
+      "explain": "zawsze is a habit word, so the activity verb rides with będę. And będę wypić is not Polish at all — the helper only ever takes the activity verb."
+    },
+    {
+      "prompt": "Fix: Codziennie kupię chleb. →",
+      "choices": [
+        "będę kupować",
+        "kupię",
+        "kupuję",
+        "kupiłem"
+      ],
+      "answer": "będę kupować",
+      "explain": "codziennie and a single finished act contradict each other — the same clash as zawsze kupiłem in the past. Keep codziennie and the future has to be będę kupować."
+    },
+    {
+      "prompt": "Dziś wieczorem ___ książkę — right to the end. (ja)",
+      "choices": [
+        "przeczytam",
+        "będę czytać",
+        "czytam",
+        "przeczytałem"
+      ],
+      "answer": "przeczytam",
+      "explain": "To the end is a result, so the perfective: przeczytam. będę czytać only promises the reading, not the finishing."
+    },
+    {
+      "prompt": "Jutro ___ w biurze — an ordinary day's work. (ja)",
+      "choices": [
+        "będę pracować",
+        "pracuję",
+        "pracowałem",
+        "będę pracuję"
+      ],
+      "answer": "będę pracować",
+      "explain": "jutro alone does not force the perfective — a day's work is an activity filling the day, no endpoint claimed, so będę pracować. And będę pracuję has one person ending too many."
+    },
+    {
+      "prompt": "Dzieci codziennie ___ mleko.",
+      "choices": [
+        "będą pić",
+        "wypiją",
+        "piją",
+        "będą wypić"
+      ],
+      "answer": "będą pić",
+      "explain": "Every day is a repeat, so the activity future: będą pić. wypiją would name one glass finished once — and będą wypić mixes the two systems, which Polish never does."
+    },
+    {
+      "prompt": "W weekend ___ rower — one bike, bought and done. (ty)",
+      "choices": [
+        "kupisz",
+        "będziesz kupować",
+        "kupujesz",
+        "kupię"
+      ],
+      "answer": "kupisz",
+      "explain": "One purchase, carried through — perfective, and ty takes -isz: kupisz. kupię is the right system but the wrong person."
+    },
+    {
+      "prompt": "Which one claims the job will be finished?",
+      "choices": [
+        "zrobię",
+        "będę robić",
+        "robię",
+        "robiłem"
+      ],
+      "answer": "zrobię",
+      "explain": "zrobię says it will be done — once, to the end, with a result. będę robić only says the activity will be going on; robię and robiłem are not futures at all."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I will be buying — ongoing or repeated",
+      "mode": "full_word",
+      "answer": "będę kupować",
+      "accepts": [
+        "będę kupować"
+      ],
+      "explain": "will be buying claims only the activity, so the helper plus the activity verb — the future kupowałem points to."
+    },
+    {
+      "prompt_en": "I will buy it — once, finished",
+      "mode": "full_word",
+      "answer": "kupię",
+      "accepts": [
+        "kupię"
+      ],
+      "explain": "One finished purchase is the perfective's job: one word, no helper — the future kupiłem points to."
+    },
+    {
+      "prompt_en": "you will be reading (sg)",
+      "mode": "full_word",
+      "answer": "będziesz czytać",
+      "accepts": [
+        "będziesz czytać"
+      ]
+    },
+    {
+      "prompt_en": "you will read it all (sg)",
+      "mode": "full_word",
+      "answer": "przeczytasz",
+      "accepts": [
+        "przeczytasz"
+      ],
+      "explain": "it all means to the end — a result, so przeczytać's future, not będziesz czytać."
+    },
+    {
+      "prompt_en": "he / she will be cooking",
+      "mode": "full_word",
+      "answer": "będzie gotować",
+      "accepts": [
+        "będzie gotować"
+      ],
+      "explain": "gotować has no perfective twin in this course yet, so its only future is będzie + gotować — which is exactly what an evening of cooking needs anyway."
+    },
+    {
+      "prompt_en": "he / she will make it",
+      "mode": "full_word",
+      "answer": "zrobi",
+      "accepts": [
+        "zrobi"
+      ]
+    },
+    {
+      "prompt_en": "we will be drinking",
+      "mode": "full_word",
+      "answer": "będziemy pić",
+      "accepts": [
+        "będziemy pić"
+      ]
+    },
+    {
+      "prompt_en": "we will drink it up",
+      "mode": "full_word",
+      "answer": "wypijemy",
+      "accepts": [
+        "wypijemy"
+      ]
+    },
+    {
+      "prompt_en": "they will be working",
+      "mode": "full_word",
+      "answer": "będą pracować",
+      "accepts": [
+        "będą pracować"
+      ]
+    },
+    {
+      "prompt_en": "they will make it",
+      "mode": "full_word",
+      "answer": "zrobią",
+      "accepts": [
+        "zrobią"
+      ]
+    },
+    {
+      "prompt_en": "you will buy it (sg)",
+      "mode": "full_word",
+      "answer": "kupisz",
+      "accepts": [
+        "kupisz"
+      ],
+      "explain": "Not będziesz kupować — that would make it an ongoing or repeated activity. One finished purchase stays one word."
+    },
+    {
+      "prompt_en": "I will be drinking",
+      "mode": "full_word",
+      "answer": "będę pić",
+      "accepts": [
+        "będę pić"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Every day Mum will be cooking lunch.",
+      "answer": "Codziennie mama będzie gotować obiad.",
+      "accepts": [
+        "Codziennie mama będzie gotować obiad.",
+        "Codziennie mama będzie gotować obiad",
+        "Mama codziennie będzie gotować obiad.",
+        "Mama codziennie będzie gotować obiad",
+        "Mama będzie codziennie gotować obiad.",
+        "Mama będzie codziennie gotować obiad"
+      ],
+      "explain": "codziennie promises a repeat, and a repeat takes będzie + the activity verb — lunch after lunch, no single finish."
+    },
+    {
+      "prompt_en": "Type: On Monday I will buy the bread.",
+      "answer": "W poniedziałek kupię chleb.",
+      "accepts": [
+        "W poniedziałek kupię chleb.",
+        "W poniedziałek kupię chleb",
+        "Kupię chleb w poniedziałek.",
+        "Kupię chleb w poniedziałek"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children will be drinking milk every day.",
+      "answer": "Dzieci codziennie będą pić mleko.",
+      "accepts": [
+        "Dzieci codziennie będą pić mleko.",
+        "Dzieci codziennie będą pić mleko",
+        "Codziennie dzieci będą pić mleko.",
+        "Codziennie dzieci będą pić mleko",
+        "Dzieci będą codziennie pić mleko.",
+        "Dzieci będą codziennie pić mleko"
+      ]
+    },
+    {
+      "prompt_en": "Type: This evening Dad will drink the beer up.",
+      "answer": "Dziś wieczorem tata wypije piwo.",
+      "accepts": [
+        "Dziś wieczorem tata wypije piwo.",
+        "Dziś wieczorem tata wypije piwo",
+        "Tata wypije piwo dziś wieczorem.",
+        "Tata wypije piwo dziś wieczorem",
+        "Tata dziś wieczorem wypije piwo.",
+        "Tata dziś wieczorem wypije piwo"
+      ],
+      "explain": "One glass, one evening, emptied — the perfective wypije. będzie pić would describe the drinking with no finish in sight."
+    },
+    {
+      "prompt_en": "Type: Mum will often be making breakfast.",
+      "answer": "Mama często będzie robić śniadanie.",
+      "accepts": [
+        "Mama często będzie robić śniadanie.",
+        "Mama często będzie robić śniadanie",
+        "Mama będzie często robić śniadanie.",
+        "Mama będzie często robić śniadanie",
+        "Często mama będzie robić śniadanie.",
+        "Często mama będzie robić śniadanie"
+      ],
+      "explain": "często keeps this in habit territory — many mornings, so robić rides with będzie. zrobi would name one breakfast, made once."
+    },
+    {
+      "prompt_en": "Type: At the weekend my brother will read the whole letter.",
+      "answer": "W weekend mój brat przeczyta list.",
+      "accepts": [
+        "W weekend mój brat przeczyta list.",
+        "W weekend mój brat przeczyta list",
+        "Mój brat przeczyta list w weekend.",
+        "Mój brat przeczyta list w weekend",
+        "Mój brat w weekend przeczyta list.",
+        "Mój brat w weekend przeczyta list"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow Anna will be working in the office.",
+      "answer": "Jutro Anna będzie pracować w biurze.",
+      "accepts": [
+        "Jutro Anna będzie pracować w biurze.",
+        "Jutro Anna będzie pracować w biurze",
+        "Anna będzie jutro pracować w biurze.",
+        "Anna będzie jutro pracować w biurze",
+        "Anna jutro będzie pracować w biurze.",
+        "Anna jutro będzie pracować w biurze"
+      ],
+      "explain": "Here is the warning in action: jutro, yet będzie pracować — a day of work is an activity filling the day, and no finish is being claimed."
+    },
+    {
+      "prompt_en": "Type: On Monday we will read the whole book.",
+      "answer": "W poniedziałek przeczytamy książkę.",
+      "accepts": [
+        "W poniedziałek przeczytamy książkę.",
+        "W poniedziałek przeczytamy książkę",
+        "Przeczytamy książkę w poniedziałek.",
+        "Przeczytamy książkę w poniedziałek"
+      ]
+    },
+    {
+      "prompt_en": "Type: What will you be doing at the weekend? (to one person)",
+      "answer": "Co będziesz robić w weekend?",
+      "accepts": [
+        "Co będziesz robić w weekend?",
+        "Co będziesz robić w weekend",
+        "Co w weekend będziesz robić?",
+        "Co w weekend będziesz robić"
+      ],
+      "explain": "An open question about how the time will be filled is an activity question — będziesz robić. Co zrobisz? would ask about one act carried through."
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will make the soup.",
+      "answer": "Jutro zrobię zupę.",
+      "accepts": [
+        "Jutro zrobię zupę.",
+        "Jutro zrobię zupę",
+        "Zrobię zupę jutro.",
+        "Zrobię zupę jutro"
+      ]
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "będę",
+    "będziesz",
+    "będzie",
+    "będziemy",
+    "będziecie",
+    "będą",
+    "kupować",
+    "kupić",
+    "czytać",
+    "robić",
+    "pić",
+    "wypić",
+    "przeczytać",
+    "zrobić",
+    "pracować",
+    "gotować",
+    "kupię",
+    "kupisz",
+    "kupią",
+    "zrobię",
+    "zrobi",
+    "zrobimy",
+    "zrobią",
+    "wypiję",
+    "wypijesz",
+    "wypije",
+    "wypijemy",
+    "wypiją",
+    "przeczytam",
+    "przeczytasz",
+    "przeczyta",
+    "przeczytamy",
+    "kupowałem",
+    "kupiłem",
+    "kupuję",
+    "kupujesz",
+    "wypiłem",
+    "piłem",
+    "piję",
+    "piją",
+    "zrobiła",
+    "robi",
+    "robię",
+    "robiłem",
+    "przeczytałem",
+    "czytam",
+    "pracuję",
+    "pracowałem",
+    "codziennie",
+    "zawsze",
+    "często",
+    "czasami",
+    "jutro",
+    "rano",
+    "wieczorem",
+    "dziś wieczorem",
+    "w poniedziałek",
+    "w weekend",
+    "wczoraj",
+    "mama",
+    "tata",
+    "brat",
+    "anna",
+    "dzieci",
+    "mój",
+    "chleb",
+    "obiad",
+    "mleko",
+    "piwo",
+    "list",
+    "rower",
+    "śniadanie",
+    "zupę",
+    "książkę",
+    "kawę",
+    "herbatę",
+    "w biurze",
+    "co"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_two_futures",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
