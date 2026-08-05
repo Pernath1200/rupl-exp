@@ -311,7 +311,7 @@
         "Które?",
         "Który?",
         "Która?",
-        "Której?"
+        "Kiedy?"
       ],
       "answer": "Które?"
     }
@@ -527,6 +527,7 @@
     "muszę",
     "wieczorem",
     "która godzina",
+    "o której",
     "ile masz lat?",
     "ile kosztuje kawa"
   ],

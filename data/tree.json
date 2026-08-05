@@ -2228,13 +2228,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] dlaczego/bo, kiedy, ile, który/która/które (Nom agreement only). Question-word completion.",
+      "note": "Second question wave: dlaczego/bo paired, kiedy, ile (recycled, already taught), ktory/ktora/ktore Nominative ONLY. Oblique forms (ktorego/ktorej/ktorym) absent as fenced - the one \"ktorej\" hit is the already-taught frozen clock chunk \"o ktorej\" from a2_ordinals_time, used legitimately to contrast kiedy (general time) against a fixed hour, not a new case form.",
       "unit_id": "PL2_48",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/a2_questions2.json"
     },
     {
       "id": "a2_case_gym2",
