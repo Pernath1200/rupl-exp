@@ -1995,13 +1995,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] Chunks: Poproszę zupę. Co pan/pani poleca? (polite forms as fixed chunks). Rachunek poproszę. Smacznego!",
+      "note": "Restaurant chunks. The author found a real ordering constraint: a2_dat_chunks sits AFTER this node, so \"Smakuje mi ta zupa\" was dropped despite being in the pool - \"It was delicious\" is carried by Bylo bardzo smaczne instead. zamawiac family dropped (only the infinitive is taught). pan/pani used as two opaque whole questions with one line of orientation, no declension; plus a free escape route \"Co jest dobre?\" using zero new words so he always has a version he can produce under pressure. Table-for-two dropped entirely (dla is not even taught).",
       "unit_id": "PL2_35",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_ordering_func.json"
     },
     {
       "id": "a2_dat_chunks",
