@@ -2282,13 +2282,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[A2 DRAFT SPINE 2026-08-03] All five situation sets recombined: shop→restaurant→directions→phone→small talk. A2 can-do check.",
+      "note": "A2 CAPSTONE. Recombines all five Situations units (shop, directions, restaurant, phone, smalltalk) into mixed scenes forcing choice between confusable chunks, not just recall in isolation - Nie wiem/Nie slysze/Nic nowego, Wszystko w porzadku/To wszystko dziekuje, To zly numer/To daleko/To blisko. Closes with a nine-chunk one-day sentence chaining shop->directions->restaurant->phone. teaches_lemmas empty by design - verified with an independent token-level sweep of every answer field against the pool, zero unresolved words (unlike the two units before it, both of which had real tagging bugs the orchestrator had to fix).",
       "unit_id": "PL2_51",
       "pedagogy": "chunk",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/a2_wrapup_func.json"
     },
     {
       "id": "a2_station_4",

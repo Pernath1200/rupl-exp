@@ -576,7 +576,6 @@
     "proszę iść prosto",
     "nie słyszę",
     "halo",
-    "przepraszam, gdzie jest apteka",
     "ile to kosztuje",
     "było super",
     "to wszystko, dziękuję",
@@ -607,7 +606,8 @@
     "czy",
     "to",
     "nie",
-    "wszystko"
+    "wszystko",
+    "gdzie jest apteka"
   ],
   "sequencing": {
     "spec": "rupl-codex/SEQUENCING.md",

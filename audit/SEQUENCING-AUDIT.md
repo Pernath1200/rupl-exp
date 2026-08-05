@@ -2,7 +2,7 @@
 
 **Spec:** `rupl-codex/SEQUENCING.md`  
 **Path source:** `rupl-exp/data/tree.json`  
-**Nodes audited:** 96 · **errors:** 0 · **warns:** 1 · **missing_tags:** 0
+**Nodes audited:** 97 · **errors:** 0 · **warns:** 1 · **missing_tags:** 0
 
 ## Errors
 
@@ -112,4 +112,5 @@ _None._
 | 96 | `a2_questions2` | `questions2` | 8 | `byc_adj`, `byc_present`, `existential_jest`, `musiec`, `present_e_esz`, `present_e_isz`, `present_uje`, `question`, `questions2`, `ten_ta_to` |
 | 97 | `a2_case_gym2` | — | 0 | `byc_present`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `negation`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_isz`, `to_jest` |
 | 98 | `a2_prep_review` | — | 0 | `chodzic`, `inst_transport`, `inst_z`, `jechac`, `o_loc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_e_isz`, `question` |
+| 99 | `a2_wrapup_func` | `situation_chunk` | 0 | `byc_adj`, `byc_present`, `can_inf`, `existential_jest`, `inst_z`, `miec_acc`, `miec_present`, `negation`, `past_byc`, `past_rest`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `smalltalk_chunk`, `social_chunk`, `ten_ta_to`, `time_past_chunk`, `to_jest`, `zgoda` |
 
