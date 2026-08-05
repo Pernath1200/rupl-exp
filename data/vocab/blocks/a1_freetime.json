@@ -180,6 +180,10 @@
         {
           "en": "excited",
           "pl": "podekscytowany"
+        },
+        {
+          "en": "sad (f)",
+          "pl": "smutna"
         }
       ]
     },
@@ -346,6 +350,10 @@
         {
           "en": "similar",
           "pl": "podobny"
+        },
+        {
+          "en": "quick (f)",
+          "pl": "szybka"
         }
       ]
     }
@@ -443,7 +451,9 @@
     "ćwiczyć",
     "ładny",
     "śpiewać",
-    "świetny"
+    "świetny",
+    "szybka",
+    "smutna"
   ],
   "uses_lemmas": [
     "bieganie",

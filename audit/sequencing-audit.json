@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "rupl-codex/SEQUENCING.md",
-  "generated_at": "2026-08-05T16:51:26+02:00",
+  "generated_at": "2026-08-05T18:05:55+02:00",
   "path_source": "rupl-exp/data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -293,7 +293,7 @@
       "teaches_structures": [
         "byc_adj"
       ],
-      "teaches_lemmas_n": 23,
+      "teaches_lemmas_n": 26,
       "uses_structures": [
         "byc_adj",
         "byc_present",
@@ -623,7 +623,7 @@
       "pack_id": "a1_shopping",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 36,
+      "teaches_lemmas_n": 37,
       "uses_structures": [
         "byc_adj",
         "byc_present",
@@ -656,7 +656,7 @@
       "pack_id": "a1_freetime",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 78,
+      "teaches_lemmas_n": 80,
       "uses_structures": [
         "byc_adj",
         "byc_present",
@@ -1220,7 +1220,7 @@
       "pack_id": "a1_body",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 23,
+      "teaches_lemmas_n": 24,
       "uses_structures": [
         "byc_adj",
         "byc_present",
@@ -1474,7 +1474,7 @@
       "pack_id": "a1_health",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 23,
+      "teaches_lemmas_n": 24,
       "uses_structures": [
         "byc_adj",
         "byc_present",

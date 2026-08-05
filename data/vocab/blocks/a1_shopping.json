@@ -402,6 +402,22 @@
       "lemmas": [
         "targ"
       ]
+    },
+    {
+      "en": "The bag is cheap.",
+      "pl": "Torba jest tania.",
+      "accepts": [
+        "Torba jest tania.",
+        "Torba jest tania"
+      ],
+      "structures": [
+        "byc_adj",
+        "zgoda",
+        "byc_present"
+      ],
+      "lemmas": [
+        "tania"
+      ]
     }
   ],
   "teaches_lemmas": [
@@ -440,7 +456,8 @@
     "portmonetka",
     "przymierzać",
     "targ",
-    "dom handlowy"
+    "dom handlowy",
+    "tania"
   ],
   "title_en": "Shopping"
 }

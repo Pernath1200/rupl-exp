@@ -24,7 +24,7 @@ _None._
 | 5 | `trunk_be_have_a1` | — | 36 | `byc_present`, `poss_nom`, `to_jest` |
 | 6 | `a1_gender_check` | `zgoda` | 6 | `to_jest`, `zgoda` |
 | 7 | `a1_gender_gym` | `ten_ta_to` | 4 | `ten_ta_to`, `to_jest` |
-| 8 | `trunk_adjectives_a1` | `byc_adj` | 23 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
+| 8 | `trunk_adjectives_a1` | `byc_adj` | 26 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 9 | `a1_miec` | `miec_acc`, `miec_present` | 20 | `miec_acc`, `miec_present` |
 | 10 | `a1_acc_gym` | — | 0 | `miec_acc`, `miec_present`, `to_jest` |
 | 11 | `leaf_food_a1` | — | 47 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest` |
@@ -36,8 +36,8 @@ _None._
 | 17 | `a1_present_e_esz` | `present`, `present_e_esz` | 14 | `miec_acc`, `present`, `present_e_esz` |
 | 18 | `a1_present_uje` | `present`, `present_uje` | 20 | `miec_acc`, `present`, `present_uje` |
 | 19 | `a1_present_gym` | — | 0 | `miec_acc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje` |
-| 20 | `leaf_shopping_a1` | — | 36 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `present_uje`, `to_jest`, `zgoda` |
-| 21 | `leaf_freetime_a1` | — | 78 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `to_jest`, `zgoda` |
+| 20 | `leaf_shopping_a1` | — | 37 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `present_uje`, `to_jest`, `zgoda` |
+| 21 | `leaf_freetime_a1` | — | 80 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `to_jest`, `zgoda` |
 | 22 | `leaf_tech_a1` | — | 22 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present_am`, `to_jest`, `zgoda` |
 | 23 | `trunk_want_like_a1` | — | 32 | `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `present`, `present_e_esz`, `present_e_isz`, `ten_ta_to`, `to_jest` |
 | 24 | `trunk_can_a1` | `can_inf` | 16 | `can_inf`, `miec_acc`, `social_chunk` |
@@ -52,13 +52,13 @@ _None._
 | 33 | `a1_prep_do_z` | `prep_do_gen`, `prep_place`, `prep_z_gen` | 11 | `gen_endings`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen` |
 | 34 | `a1_motion` | `motion_chunk` | 4 | `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_z_gen` |
 | 35 | `leaf_city_a1` | — | 29 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `to_jest`, `zgoda` |
-| 36 | `leaf_body_a1` | — | 23 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
+| 36 | `leaf_body_a1` | — | 24 | `byc_adj`, `byc_present`, `poss_nom`, `to_jest`, `zgoda` |
 | 37 | `leaf_time_cal_a1` | — | 48 | `byc_adj`, `byc_present`, `miec_acc`, `present_am`, `present_e_esz`, `present_uje`, `social_chunk`, `to_jest`, `zgoda` |
 | 38 | `a1_prep_review_1` | — | 15 | `byc_present`, `gen_endings`, `motion_chunk`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am` |
 | 39 | `a1_gen_ki` | `gen_endings` | 13 | `byc_present`, `gen_endings`, `prep_do_gen`, `prep_z_gen`, `present_am`, `present_e_esz` |
 | 40 | `a1_negation` | `negation` | 14 | `miec_acc`, `miec_present`, `negation` |
 | 41 | `trunk_there_time_a1` | `existential_jest` | 0 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
-| 42 | `leaf_health_a1` | — | 23 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
+| 42 | `leaf_health_a1` | — | 24 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
 | 43 | `a1_inst_job` | `inst_identity` | 18 | `byc_present`, `inst_identity` |
 | 44 | `a1_case_gym` | — | 15 | `byc_present`, `gen_endings`, `miec_acc`, `negation`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `to_jest` |
 | 45 | `leaf_work_a1` | — | 35 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `present_uje`, `to_jest`, `zgoda` |
