@@ -1780,13 +1780,14 @@
       "levels": [
         "A2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[A2 DRAFT SPINE 2026-08-03] ~18 new: Polska/Polak/polski, Anglia/Anglik/angielski, Niemcy, Francja, Czechy... + mówię po polsku chunk. Jestem z Anglii = Gen payoff.",
+      "note": "Countries, nationalities, languages, aimed at an ENGLISH learner: Jestem Anglikiem / Nie mowie po polsku. Capitalisation taught as content via Polska vs polska ksiazka. Feminine nationalities included (Polka/Polka) because a1_inst_job already drilled the -ka/-ka slot. po polsku / po angielsku taught as opaque whole chunks, never analysed against the adjective polski. England tag-sequence flag emoji removed - does not render on Win10.",
       "unit_id": "PL2_23",
       "pedagogy": "use",
       "parent": "trunk",
-      "tree_part": "world"
+      "tree_part": "world",
+      "content": "vocab/blocks/a2_countries.json"
     },
     {
       "id": "a2_chodzic",
