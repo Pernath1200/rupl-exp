@@ -112,6 +112,7 @@ STRUCTURE_CATALOGUE = {
     "indirect_q",
     "ktory_full",
     "jesli",
+    "gdyby",
 }
 
 GLUE_LEMMAS = {

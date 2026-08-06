@@ -1,0 +1,637 @@
+{
+ "id": "b2_gdyby",
+ "title": "Gdybym miał czas…",
+ "title_en": "Unreal conditions · if I had",
+ "level": "B2",
+ "tree_node": "b2_gdyby",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 7 (spine). PAYS b1_conditional_sg's NAMED FENCE — that pack restricted itself to 'simple wishes and soft requests only, no gdybym/jeśli…by clauses' — and it deliberately sits one node after b2_jesli, so real and unreal conditions arrive back to back and are taught against each other.\n\nTHREE NEW STRINGS AND NOTHING ELSE: gdybym, gdybyś, gdyby. THE PERSON MARKER IS THE THIRD TURN OF ONE PATTERN, not a new fact, and slide 2 says so out loud: -m / -ś / nothing is the identical family already owned twice over, as bym/byś/by (b1_conditional_sg) and as żebym/żebyś (b1_zeby).\n\nTHE SHAPE PARALLEL WITH żeby IS THE UNIT'S BEST ANCHOR and it is drilled rather than merely mentioned — quiz 10 and Użycie 9 both make the learner produce a żeby sentence inside this unit. Chcę, ŻEBYŚ zrobił obiad and GDYBYŚ miał czas, zrobiłbyś obiad have the identical skeleton: the marker welds onto the function word and the verb stays a plain L-form. You never say żebyś zrobiłbyś, and for the same reason you never say gdybyś miałbyś.\n\nTHE DOUBLE MARKER is named once, on slide 3, because it looks like a mistake until somebody points at it: in a full sentence -bym surfaces twice, once on gdyby and once on the result verb (Gdybym miał czas, kupiłbym…).\n\nTHE APODOSIS IS SHARPLY LIMITED BY WHAT b1_conditional_sg ACTUALLY TAUGHT, and this constrained the entire pack rather than one sentence. zrobiłbym is verified NEW, so 'I would make dinner' — the single most natural sentence in the unit — IS NOT EXPRESSIBLE and appears nowhere. The only owned first-person conditionals are chciałbym/chciałabym and kupiłbym/kupiłabym, so every 1sg result clause in the pack is built from those two verbs. Third person is much freer (zrobiłby, zrobiłaby, kupiłby, kupiłaby, mógłby, mogłaby), which is why most of the board runs on mama and tata as subjects rather than on ja. This is a real scope limit, not a stylistic choice, and it is the thing to look at first if the unit feels narrow.\n\nREAL AGAINST UNREAL is the discrimination carried forward from b2_jesli, and it lands as a minimal pair on ONE clause: quiz 2 Jeśli mama ma czas, zrobi obiad (she might have time) against quiz 1 Gdyby mama miała czas, zrobiłaby obiad (she has not). The three-way English collapse is held open by quiz 9, since English 'if' is czy, jeśli or gdyby depending on the job — the first time all three are live at once.\n\nFENCED, all verified NEW: byłbym and byłby — the conditional of być is NOT taught, so 'I would be…' is unavailable and every result clause that wanted it was rebuilt around chciałbym być; zrobiłbym, zrobiłabyś, kupiłbyś, miałbym, mógłbym; and poszedłbym, which is the spine's own drafted example sentence for this unit and is also the third prefix on iść's suppletive past stem that b1_wrapup already caught and rejected once — it is not used here either. ALL PLURAL gdyby FORMS (gdybyśmy, gdybyście) are held, mirroring b1_conditional_sg's and b1_zeby's own singular-first splits, and logged for the C1 inbox. THE CONDITIONAL PAST (byłbym miał) is B2-SPINE O6's explicit deferral to C1, so the L-form after gdyby is glossed ONLY as a present-tense unreal ('if I had time', never 'if I had had time'); the fact that Polish uses one shape for both readings is not mentioned at all rather than half-taught. jeżeli, gdy and the resumptive to stay fenced from b2_jesli.\n\nDISTRACTORS ARE OWNED FORMS IN THE WRONG SLOT throughout — miałem, mam, będę, zrobił, zrobi, robi, kupiła, kupi, kupuje, jesteś, byłeś, będziesz. Deliberately NOT used: miałby and miałaby, which would be the sharpest possible distractors for the plain-L-form fact but are real untaught Polish, and putting them on a button would teach the string through the back door. Instead the same fact is drilled from the other side, in quiz 5 (what follows gdybym) and quiz 6 and 7 (what the result half needs).\n\nGLOSSING needs no special handling: every L-form used after gdyby is stative (mieć, być, chcieć), which AGENTS.md already glosses as plain simple past, and the perfective result verbs map straight onto English 'would buy' and 'would make'.",
+ "focus_structures": [
+  "gdyby"
+ ],
+ "teaches_structures": [
+  "gdyby"
+ ],
+ "teaches_lemmas": [
+  "gdybym",
+  "gdybyś",
+  "gdyby"
+ ],
+ "uses_structures": [
+  "gdyby",
+  "jesli",
+  "conditional_sg",
+  "zeby",
+  "indirect_q",
+  "questions2",
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "miec_present",
+  "miec_acc",
+  "past_byc",
+  "past_rest",
+  "aspect_past",
+  "perf_future",
+  "can_inf",
+  "imperative",
+  "prep_w_loc",
+  "prep_do_gen",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_e_esz",
+  "present_uje",
+  "motion_chunk"
+ ],
+ "intro": [
+  {
+   "title": "gdyby is the if for things that are not so",
+   "title_pl": "Gdyby mama miała czas, zrobiłaby obiad.",
+   "body": "One unit ago you learned jeśli, the if for a condition that may well come true: Jeśli mama ma czas, zrobi obiad — she might have time, and if she does, dinner happens.\n\ngdyby is the other one. It is for a condition you are treating as not true: Gdyby mama miała czas, zrobiłaby obiad — she has not got time, and this is what would happen if she had. Same two halves, same clause, and the opener alone decides whether you are talking about something that might happen or something that is not the case.",
+   "body_pl": "Jeśli mama ma czas, zrobi obiad. · Gdyby mama miała czas, zrobiłaby obiad.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "What it says about the world"
+    ],
+    "rows": [
+     [
+      "Jeśli mama ma czas, zrobi obiad.",
+      "If Mum has time, she will make dinner.",
+      "she might have time"
+     ],
+     [
+      "Gdyby mama miała czas, zrobiłaby obiad.",
+      "If Mum had time, she would make dinner.",
+      "she has not got time"
+     ],
+     [
+      "Jeśli tata jest w domu, zrobi kawę.",
+      "If Dad is at home, he will make coffee.",
+      "he may well be at home"
+     ],
+     [
+      "Gdyby tata był w domu, zrobiłby kawę.",
+      "If Dad were at home, he would make coffee.",
+      "he is not at home"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "If I had money, I would buy a car.",
+     "pl": "Gdybym miał pieniądze, kupiłbym samochód."
+    },
+    {
+     "en": "If Dad were at home, he could help.",
+     "pl": "Gdyby tata był w domu, mógłby pomóc."
+    }
+   ]
+  },
+  {
+   "title": "The person marker moves onto gdyby — you have done this twice already",
+   "title_pl": "Gdybym miał… · Gdybyś miał… · Gdyby miał…",
+   "body": "Here is the only piece of machinery in the unit, and you already own it.\n\nYou know bym, byś, by from the conditional: chciałbym, chciałbyś, chciałby. You know żebym and żebyś from B1: Chcę, żebyś zrobił obiad. In both, a small marker says who — m for I, ś for you, nothing at all for he or she.\n\ngdyby takes exactly the same marker, in exactly the same place, and then the verb stays a plain miał or była. This is the third time you have met this pattern, not a new one.",
+   "body_pl": "gdyby + m → gdybym · gdyby + ś → gdybyś · gdyby → gdyby",
+   "table": {
+    "headers": [
+     "Who",
+     "The opener",
+     "Example"
+    ],
+    "rows": [
+     [
+      "ja",
+      "gdybym",
+      "Gdybym miał czas…"
+     ],
+     [
+      "ty",
+      "gdybyś",
+      "Gdybyś miał czas…"
+     ],
+     [
+      "on / mama, tata",
+      "gdyby",
+      "Gdyby tata miał czas…"
+     ],
+     [
+      "ona",
+      "gdyby",
+      "Gdyby mama miała czas…"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I want you to make dinner.",
+     "pl": "Chcę, żebyś zrobił obiad."
+    },
+    {
+     "en": "If you had time, you would make dinner.",
+     "pl": "Gdybyś miał czas, zrobiłbyś obiad."
+    }
+   ]
+  },
+  {
+   "title": "The verb after gdyby stays plain — the second half is where the by goes",
+   "title_pl": "Gdybym miał czas, kupiłbym książkę.",
+   "body": "Because the marker has moved onto gdyby, the verb straight after it is left plain: miał, była, chciał — never a by form. It is the same rule you follow after żebyś without ever thinking about it: Chcę, żebyś zrobił obiad, and not żebyś zrobiłby obiad.\n\nThe second half is different. That is the ordinary conditional you have had since B1, and it keeps its own ending: kupiłbym, zrobiłaby, mógłby.\n\nSo in a full sentence the same little marker turns up twice — once glued to gdyby and once glued to the result verb. That is correct, and it is worth expecting so that it does not look like a slip.",
+   "body_pl": "Gdybym miał czas, kupiłbym książkę. · Gdyby mama miała czas, zrobiłaby obiad.",
+   "table": {
+    "headers": [
+     "The unreal half",
+     "The result half"
+    ],
+    "rows": [
+     [
+      "Gdybym miał czas,",
+      "kupiłbym książkę."
+     ],
+     [
+      "Gdybyś miał czas,",
+      "zrobiłbyś obiad."
+     ],
+     [
+      "Gdyby mama miała czas,",
+      "zrobiłaby obiad."
+     ],
+     [
+      "Gdyby tata był w domu,",
+      "mógłby pomóc."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "If I had time, I would like to be in the park.",
+     "pl": "Gdybym miał czas, chciałbym być w parku."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "If I had money, I would buy a car.",
+   "pl": "Gdybym miał pieniądze, kupiłbym samochód."
+  },
+  {
+   "en": "If I had time, I would like to be in the park.",
+   "pl": "Gdybym miał czas, chciałbym być w parku."
+  },
+  {
+   "en": "If I were in Poland, I would like to speak Polish.",
+   "pl": "Gdybym był w Polsce, chciałbym mówić po polsku."
+  },
+  {
+   "en": "If you had time, you would make dinner.",
+   "pl": "Gdybyś miał czas, zrobiłbyś obiad."
+  },
+  {
+   "en": "If you had money, you would want a new car.",
+   "pl": "Gdybyś miał pieniądze, chciałbyś nowy samochód."
+  },
+  {
+   "en": "If you were in Poland, you would want to speak Polish. (to a woman)",
+   "pl": "Gdybyś była w Polsce, chciałabyś mówić po polsku."
+  },
+  {
+   "en": "If Mum had time, she would make dinner.",
+   "pl": "Gdyby mama miała czas, zrobiłaby obiad."
+  },
+  {
+   "en": "If Dad had time, he would make coffee.",
+   "pl": "Gdyby tata miał czas, zrobiłby kawę."
+  },
+  {
+   "en": "If Mum were in the shop, she would buy bread.",
+   "pl": "Gdyby mama była w sklepie, kupiłaby chleb."
+  },
+  {
+   "en": "If Dad were at home, he could help.",
+   "pl": "Gdyby tata był w domu, mógłby pomóc."
+  },
+  {
+   "en": "If Mum had money, she would buy a house.",
+   "pl": "Gdyby mama miała pieniądze, kupiłaby dom."
+  },
+  {
+   "en": "If Dad wanted to, he would buy a new phone.",
+   "pl": "Gdyby tata chciał, kupiłby nowy telefon."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "___ mama miała czas, zrobiłaby obiad. (If Mum had time, she would make dinner — but she has not got any.)",
+   "choices": [
+    "Gdyby",
+    "Jeśli",
+    "Czy",
+    "Że"
+   ],
+   "answer": "Gdyby",
+   "explain": "The English says she has not got time, so the condition is being treated as not true — that is gdyby. jeśli would leave it open, as though she might still turn out to have some."
+  },
+  {
+   "prompt": "___ mama ma czas, zrobi obiad. (If Mum has time, she will make dinner.)",
+   "choices": [
+    "Jeśli",
+    "Gdyby",
+    "Czy",
+    "Bo"
+   ],
+   "answer": "Jeśli",
+   "explain": "Nothing here says she has not got time — she might well have. A condition that may come true is jeśli, and notice both verbs stay ordinary: ma, zrobi, with no by anywhere."
+  },
+  {
+   "prompt": "___ miał pieniądze, kupiłbym samochód. (If I had money, I would buy a car.)",
+   "choices": [
+    "Gdybym",
+    "Gdybyś",
+    "Gdyby",
+    "Jeśli"
+   ],
+   "answer": "Gdybym",
+   "explain": "The second half says kupiłbym, so the person is I — and the same marker has to be on the opener: gdyby plus m. The two halves always agree about who."
+  },
+  {
+   "prompt": "___ miał czas, zrobiłbyś obiad. (If you had time, you would make dinner.)",
+   "choices": [
+    "Gdybyś",
+    "Gdybym",
+    "Gdyby",
+    "Jeśli"
+   ],
+   "answer": "Gdybyś",
+   "explain": "zrobiłbyś carries ś, so the opener carries ś as well: gdybyś. Read the result half first if you are unsure who the sentence is about."
+  },
+  {
+   "prompt": "Gdybym ___ pieniądze, kupiłbym samochód. (If I had money, I would buy a car.)",
+   "choices": [
+    "miał",
+    "miałem",
+    "mam",
+    "będę"
+   ],
+   "answer": "miał",
+   "explain": "The m that says I has already been used — it is sitting on gdybym. So the verb is left plain: miał, not miałem. This is exactly what you do after żebyś, where the verb is a bare zrobił."
+  },
+  {
+   "prompt": "Gdyby tata miał czas, ___ kawę. (If Dad had time, he would make coffee.)",
+   "choices": [
+    "zrobiłby",
+    "zrobił",
+    "zrobi",
+    "robi"
+   ],
+   "answer": "zrobiłby",
+   "explain": "The first half is unreal, so the second half has to be the conditional: zrobiłby, the form you have used since B1. zrobił would just say he made it, which is not what the sentence means."
+  },
+  {
+   "prompt": "Gdyby mama była w sklepie, ___ chleb. (If Mum were in the shop, she would buy bread.)",
+   "choices": [
+    "kupiłaby",
+    "kupiła",
+    "kupi",
+    "kupuje"
+   ],
+   "answer": "kupiłaby",
+   "explain": "Mum is not in the shop, so the bread is not bought either — the result half needs the conditional. mama is a woman, so it is kupiłaby."
+  },
+  {
+   "prompt": "___ jesteś zmęczony, idź do domu. (If you are tired, go home.)",
+   "choices": [
+    "Jeśli",
+    "Gdyby",
+    "Gdybyś",
+    "Czy"
+   ],
+   "answer": "Jeśli",
+   "explain": "You may well be tired — nothing is being treated as untrue here, and the second half is a plain instruction. That is jeśli. gdyby would be strange advice, since there would be no point going home over something that is not so."
+  },
+  {
+   "prompt": "Nie wiem, ___ mama jest w domu. (I don't know if Mum is at home.)",
+   "choices": [
+    "czy",
+    "jeśli",
+    "gdyby",
+    "że"
+   ],
+   "answer": "czy",
+   "explain": "English uses one word, if, for all three of these. Here it means whether — an open question inside a sentence — so it is czy. jeśli would make it a condition and gdyby would make it an unreal one, and this is neither."
+  },
+  {
+   "prompt": "Chcę, ___ mama zrobiła obiad. (I want Mum to make dinner.)",
+   "choices": [
+    "żeby",
+    "gdyby",
+    "jeśli",
+    "że"
+   ],
+   "answer": "żeby",
+   "explain": "This is what you want somebody to do, not a condition, so it is żeby. Worth comparing though: żeby and gdyby take the marker and the plain L-form in exactly the same way — żeby mama zrobiła, gdyby mama zrobiła."
+  },
+  {
+   "prompt": "___ tata był w domu, mógłby pomóc. (If Dad were at home, he could help.)",
+   "choices": [
+    "Gdyby",
+    "Jeśli",
+    "Gdybym",
+    "Czy"
+   ],
+   "answer": "Gdyby",
+   "explain": "Dad is not at home — that is why the help is only hypothetical, and mógłby in the second half confirms it. tata is he, so the opener takes no marker at all: plain gdyby."
+  },
+  {
+   "prompt": "Gdybyś ___ w Polsce, chciałbyś mówić po polsku. (If you were in Poland, you would want to speak Polish.)",
+   "choices": [
+    "był",
+    "jesteś",
+    "byłeś",
+    "będziesz"
+   ],
+   "answer": "był",
+   "explain": "After gdybyś the verb is the plain L-form był — the ś that says you is already on the opener, so byłeś would say it twice."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "If I had money, I would buy a car.",
+   "mode": "full_word",
+   "answer": "Gdybym miał pieniądze, kupiłbym samochód.",
+   "accepts": [
+    "Gdybym miał pieniądze, kupiłbym samochód.",
+    "Gdybym miał pieniądze, kupiłbym samochód"
+   ],
+   "explain": "The marker turns up twice on purpose: once on gdybym and once on kupiłbym. Between them the verb is a plain miał."
+  },
+  {
+   "prompt_en": "If Mum had time, she would make dinner.",
+   "mode": "full_word",
+   "answer": "Gdyby mama miała czas, zrobiłaby obiad.",
+   "accepts": [
+    "Gdyby mama miała czas, zrobiłaby obiad.",
+    "Gdyby mama miała czas, zrobiłaby obiad"
+   ],
+   "explain": "For he or she the opener takes no marker at all — just gdyby. Only the result verb shows who, and for a woman that is zrobiłaby."
+  },
+  {
+   "prompt_en": "If you had time, you would make dinner.",
+   "mode": "full_word",
+   "answer": "Gdybyś miał czas, zrobiłbyś obiad.",
+   "accepts": [
+    "Gdybyś miał czas, zrobiłbyś obiad.",
+    "Gdybyś miał czas, zrobiłbyś obiad"
+   ],
+   "explain": "ś on the opener and ś on the result verb, with a bare miał in between — the same shape as Chcę, żebyś zrobił obiad."
+  },
+  {
+   "prompt_en": "If Dad had time, he would make coffee.",
+   "mode": "full_word",
+   "answer": "Gdyby tata miał czas, zrobiłby kawę.",
+   "accepts": [
+    "Gdyby tata miał czas, zrobiłby kawę.",
+    "Gdyby tata miał czas, zrobiłby kawę"
+   ]
+  },
+  {
+   "prompt_en": "If I had time, I would like to be in the park.",
+   "mode": "full_word",
+   "answer": "Gdybym miał czas, chciałbym być w parku.",
+   "accepts": [
+    "Gdybym miał czas, chciałbym być w parku.",
+    "Gdybym miał czas, chciałbym być w parku"
+   ],
+   "explain": "chciałbym takes the plain dictionary verb być after it, and być then needs nothing but the place."
+  },
+  {
+   "prompt_en": "If Mum were in the shop, she would buy bread.",
+   "mode": "full_word",
+   "answer": "Gdyby mama była w sklepie, kupiłaby chleb.",
+   "accepts": [
+    "Gdyby mama była w sklepie, kupiłaby chleb.",
+    "Gdyby mama była w sklepie, kupiłaby chleb"
+   ]
+  },
+  {
+   "prompt_en": "If Dad were at home, he could help.",
+   "mode": "full_word",
+   "answer": "Gdyby tata był w domu, mógłby pomóc.",
+   "accepts": [
+    "Gdyby tata był w domu, mógłby pomóc.",
+    "Gdyby tata był w domu, mógłby pomóc"
+   ],
+   "explain": "mógłby is could rather than would, and like every conditional it takes the plain dictionary verb after it: pomóc."
+  },
+  {
+   "prompt_en": "If I were in Poland, I would like to speak Polish.",
+   "mode": "full_word",
+   "answer": "Gdybym był w Polsce, chciałbym mówić po polsku.",
+   "accepts": [
+    "Gdybym był w Polsce, chciałbym mówić po polsku.",
+    "Gdybym był w Polsce, chciałbym mówić po polsku"
+   ],
+   "explain": "English switches to were here — if I were. Polish does not change anything: it is the same plain był it uses for he."
+  },
+  {
+   "prompt_en": "If Mum had money, she would buy a house.",
+   "mode": "full_word",
+   "answer": "Gdyby mama miała pieniądze, kupiłaby dom.",
+   "accepts": [
+    "Gdyby mama miała pieniądze, kupiłaby dom.",
+    "Gdyby mama miała pieniądze, kupiłaby dom"
+   ]
+  },
+  {
+   "prompt_en": "If you had money, you would want a new car.",
+   "mode": "full_word",
+   "answer": "Gdybyś miał pieniądze, chciałbyś nowy samochód.",
+   "accepts": [
+    "Gdybyś miał pieniądze, chciałbyś nowy samochód.",
+    "Gdybyś miał pieniądze, chciałbyś nowy samochód"
+   ],
+   "explain": "samochód is a masculine thing, so neither it nor nowy changes after chciałbyś."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: If Dad wanted to, he would buy a new phone.",
+   "answer": "Gdyby tata chciał, kupiłby nowy telefon.",
+   "accepts": [
+    "Gdyby tata chciał, kupiłby nowy telefon.",
+    "Gdyby tata chciał, kupiłby nowy telefon"
+   ],
+   "explain": "The unreal half can be very short — just gdyby and a plain chciał. English needs a whole wanted to; Polish does not."
+  },
+  {
+   "prompt_en": "Type: If you were in Poland, you would want to speak Polish. (to a woman)",
+   "answer": "Gdybyś była w Polsce, chciałabyś mówić po polsku.",
+   "accepts": [
+    "Gdybyś była w Polsce, chciałabyś mówić po polsku.",
+    "Gdybyś była w Polsce, chciałabyś mówić po polsku"
+   ],
+   "explain": "The opener is gdybyś whoever you are talking to — it never shows gender. The gender is on the two verbs instead: była and chciałabyś."
+  },
+  {
+   "prompt_en": "Type: If Mum were at home, she could help.",
+   "answer": "Gdyby mama była w domu, mogłaby pomóc.",
+   "accepts": [
+    "Gdyby mama była w domu, mogłaby pomóc.",
+    "Gdyby mama była w domu, mogłaby pomóc"
+   ],
+   "explain": "mogłaby is the woman's form of mógłby, and it comes from the same polite could you have been using since B1."
+  },
+  {
+   "prompt_en": "Type: If Mum has time, she will make dinner.",
+   "answer": "Jeśli mama ma czas, zrobi obiad.",
+   "accepts": [
+    "Jeśli mama ma czas, zrobi obiad.",
+    "Jeśli mama ma czas, zrobi obiad"
+   ],
+   "explain": "This is the real one, so nothing carries by: jeśli, ma, zrobi. Compare it with Gdyby mama miała czas, zrobiłaby obiad — same words, opposite claim about the world."
+  },
+  {
+   "prompt_en": "Type: If I had a car, I would like to be in the mountains.",
+   "answer": "Gdybym miał samochód, chciałbym być w górach.",
+   "accepts": [
+    "Gdybym miał samochód, chciałbym być w górach.",
+    "Gdybym miał samochód, chciałbym być w górach"
+   ],
+   "explain": "w górach is one of the oldest phrases you own, from A2, and it drops into the result half unchanged."
+  },
+  {
+   "prompt_en": "Type: If Dad had money, he would buy a house.",
+   "answer": "Gdyby tata miał pieniądze, kupiłby dom.",
+   "accepts": [
+    "Gdyby tata miał pieniądze, kupiłby dom.",
+    "Gdyby tata miał pieniądze, kupiłby dom"
+   ],
+   "explain": "tata ends in -a but is masculine, so the result verb is kupiłby, not kupiłaby."
+  },
+  {
+   "prompt_en": "Type: If my sister had time, she would make coffee.",
+   "answer": "Gdyby siostra miała czas, zrobiłaby kawę.",
+   "accepts": [
+    "Gdyby siostra miała czas, zrobiłaby kawę.",
+    "Gdyby siostra miała czas, zrobiłaby kawę"
+   ],
+   "explain": "Both verbs agree with siostra: miała in the unreal half, zrobiłaby in the result. The opener gdyby stays the same shape whoever it is."
+  },
+  {
+   "prompt_en": "Type: If my brother were at home, he could help.",
+   "answer": "Gdyby brat był w domu, mógłby pomóc.",
+   "accepts": [
+    "Gdyby brat był w domu, mógłby pomóc.",
+    "Gdyby brat był w domu, mógłby pomóc"
+   ],
+   "explain": "English says were for a hypothetical brother; Polish uses its ordinary był and lets gdyby carry the whole meaning."
+  },
+  {
+   "prompt_en": "Type: I want Mum to make dinner.",
+   "answer": "Chcę, żeby mama zrobiła obiad.",
+   "accepts": [
+    "Chcę, żeby mama zrobiła obiad.",
+    "Chcę, żeby mama zrobiła obiad"
+   ],
+   "explain": "Not a condition at all — this is what you want, so it is żeby. It is here because the shape is identical: the opener carries the marker and the verb stays a plain zrobiła, exactly as after gdyby."
+  },
+  {
+   "prompt_en": "Type: If I had time, I would buy a book.",
+   "answer": "Gdybym miał czas, kupiłbym książkę.",
+   "accepts": [
+    "Gdybym miał czas, kupiłbym książkę.",
+    "Gdybym miał czas, kupiłbym książkę"
+   ],
+   "explain": "książka is feminine, so it becomes książkę after kupiłbym — the object still behaves normally inside a conditional."
+  }
+ ],
+ "uses_lemmas": [
+  "jeśli",
+  "czy",
+  "że",
+  "żeby",
+  "żebyś",
+  "bo",
+  "nie wiem",
+  "chcę",
+  "miał",
+  "miała",
+  "miałem",
+  "mam",
+  "ma",
+  "był",
+  "była",
+  "byłeś",
+  "jest",
+  "jesteś",
+  "być",
+  "będę",
+  "będziesz",
+  "chciał",
+  "chciałbym",
+  "chciałbyś",
+  "chciałabyś",
+  "kupiłbym",
+  "kupiłby",
+  "kupiłaby",
+  "kupiła",
+  "kupi",
+  "kupuje",
+  "zrobiłby",
+  "zrobiłaby",
+  "zrobiłbyś",
+  "zrobił",
+  "zrobiła",
+  "zrobi",
+  "robi",
+  "mógłby",
+  "mogłaby",
+  "pomóc",
+  "mówić",
+  "po polsku",
+  "idź do domu",
+  "czas",
+  "pieniądze",
+  "samochód",
+  "telefon",
+  "książkę",
+  "obiad",
+  "kawę",
+  "chleb",
+  "dom",
+  "nowy",
+  "zmęczony",
+  "mama",
+  "tata",
+  "siostra",
+  "brat",
+  "w domu",
+  "w parku",
+  "w sklepie",
+  "w Polsce",
+  "w górach",
+  "ja",
+  "ty",
+  "on",
+  "ona"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_gdyby",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}
