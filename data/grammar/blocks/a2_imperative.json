@@ -564,14 +564,15 @@
     },
     {
       "prompt_en": "Please speak Polish.",
-      "mode": "full_word",
-      "answer": "Proszę mówić po polsku.",
+      "mode": "cloze",
+      "frame": "Proszę ___ po polsku.",
+      "answer": "mówić",
       "accepts": [
-        "Proszę mówić po polsku.",
-        "Proszę mówić po polsku",
-        "Prosze mowic po polsku."
+        "mówić",
+        "mowic"
       ],
-      "explain": "Say this when someone switches to English on you. Po polsku never changes."
+      "explain": "Proszę is followed by the plain dictionary form — mówić, never mówię or mów. Po polsku never changes.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Proszę + dictionary-verb pattern with po polsku bolted on. Blank is the unit's teaching point — the infinitive after Proszę. Items 5-7 already type Proszę czekać / słuchać / powtarzać whole, so the pattern is still produced in full three times."
     }
   ],
   "use_items": [
