@@ -3079,18 +3079,19 @@
     {
       "id": "b2_pron_prep",
       "domain": "grammar",
-      "label": "O nim, z nią",
-      "label_en": "Pronouns after prepositions",
+      "label": "Znam go · do niego",
+      "label_en": "Pronouns after a preposition · they all start with n-",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 3, unit 2. The n- forms after prepositions: o nim, o niej, z nim, z nia, do niego, dla niej (nim, niej, nich, nimi all verified NEW). Pays a2_o_loc's named fence: 'pronoun objects - o tobie, o mnie, o nim, o niej are new pronoun forms, absent from POOL... They need their own small unit.' Each preposition reuses its already-taught case; only the pronoun shape is new.",
+      "note": "B2 Block 3, unit 2 (spine). SIX NEW FORMS: niego, niej, nim, nią, nich, nimi — all verified NEW. PAYS a2_o_loc's NAMED FENCE, which said in its own note: 'pronoun objects — o tobie, o mnie, o nim, o niej are new pronoun forms, absent from POOL, and are never shown, glossed or demanded… They need their own small unit.' This is that unit, for the third person. THE WHOLE RULE IS ONE LINE: after a preposition, the him/her/them pronouns all start with n-. The three governors are the three already owned and each keeps the case it has always had — o + Locative, z + Instrumental, do + Genitive — so nothing about the prepositions changes; a clean 3x3 grid with only six distinct shapes in it. THE GIFT, slide 2: the pronoun collapses its cases in exactly the pattern the adjective block just taught — nim covers Locative and Instrumental for masculine precisely as dobrym does (w dobrym hotelu / z dobrym kolegą), and niej covers Genitive and Locative for feminine precisely as dobrej does (do dobrej szkoły / w dobrej firmie). Naming that parallel costs nothing and turns six forms into three plus a pattern already owned. THE ONE REAL JUDGMENT CALL, conservative branch taken — THIRD PERSON ONLY: o mnie, o tobie, ze mną, z tobą, do ciebie, z nami, z wami appear nowhere, because tobie, tobą, mną, ciebie, nami and wami are all verified NEW (six more forms) and ze mną additionally needs the ze-shape of z before m + consonant, which is a fact about the PREPOSITION, not the pronoun — the do/z cliff in miniature. The tempting middle option was rejected on purpose: o mnie, o nas and o was would cost zero new strings (all three were taught one unit ago), but shipping them without o tobie would leave the most frequent cell of the row missing, and a half-row whose hole is the useful cell is worse than a clean fence. THE ALTERNATIVE if James wants it: a small follow-up unit with those six forms plus the ze-rule, or folding them in here at the cost of doubling the unit. dla WAS DROPPED — B2-SPINE's own illustrative example for this unit is 'do niego, dla niej', but dla reports NEW: a preposition the course has never taught, so using it would smuggle a new governor into a pronoun unit. This is batch 3's finding repeating — the spine is a design document, not a pool. niemu is not taught either, for a cleaner reason: no preposition in this course governs the Dative, so the form would have no legal sentence to sit in. w/na + pronoun fenced too, since w nim would put nim into a third job inside the unit that introduces it. THE RISK THE UNIT IS BUILT AROUND: the learner has owned go, ją and ich for exactly one unit, and the wrong sentence is 'do go' rather than 'do niego' — so every bare-form / n-form pair is drilled against itself (quiz 1 vs 7, 2 vs 8, 5 vs 9, with mu/jej/im as third options), and Match rows 10-12 deliberately put the three bare object forms on the same board as their n- partners. FENCED, held from b2_pron_acc: je and nie, jego, ciebie, siebie/sobie (C1, spine O15), and negated objects anywhere. None of this is machine-enforced — person pronouns sit in audit.py's GLUE_LEMMAS, so every pronoun fence in this block was checked by hand, string by string, over every learner-facing surface. All 12 quiz answers distinct.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/b2_pron_prep.json"
     },
     {
       "id": "b2_kim_czym",
