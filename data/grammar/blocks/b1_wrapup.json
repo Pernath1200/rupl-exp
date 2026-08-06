@@ -294,12 +294,15 @@
     },
     {
       "prompt_en": "We have an appointment next week.",
-      "mode": "full_word",
-      "answer": "Mamy termin w przyszłym tygodniu.",
+      "mode": "cloze",
+      "answer": "w przyszłym tygodniu",
+      "frame": "Mamy termin ___.",
       "accepts": [
-        "Mamy termin w przyszłym tygodniu.",
-        "Mamy termin w przyszłym tygodniu"
-      ]
+        "w przyszłym tygodniu",
+        "w przyszlym tygodniu"
+      ],
+      "explain": "W przyszłym tygodniu is one ready-made time phrase — learn it as a block, the way you already use w weekend.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Capstone consistency rule: b1_plans is a vocab pack with no Pisanie stage, so there is no source frame to mirror; the blank follows the a2_smalltalk / a2_wrapup_func precedent of blanking the whole time chunk ('Jak było ___?' -> w weekend). The chunk is blanked WHOLE and not split: check_new reports tygodniu is not independently taught — b1_plans owns 'w przyszłym tygodniu' as a single multi-word lemma — so blanking inside it would demand an untaught form. Homograph checked: Mamy stays on screen and is the a1_miec verb 'we have', not the genitive of mama."
     },
     {
       "prompt_en": "I have to sort it out.",
@@ -330,30 +333,41 @@
     },
     {
       "prompt_en": "First I was going to the bank.",
-      "mode": "full_word",
-      "answer": "Najpierw szedłem do banku.",
+      "mode": "cloze",
+      "answer": "szedłem",
+      "frame": "Najpierw ___ do banku.",
       "accepts": [
-        "Najpierw szedłem do banku.",
-        "Najpierw szedłem do banku"
-      ]
+        "szedłem",
+        "szedlem"
+      ],
+      "explain": "Szedłem is the past of iść for a man on foot — the journey itself, not its arrival.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the past motion verb (b1_past_isc), the most load-bearing form in the sentence and a genuine B1 sticking point; the narrative connective najpierw stays on screen. Answer distinct from items 6 and 7."
     },
     {
       "prompt_en": "Suddenly I got lost.",
-      "mode": "full_word",
-      "answer": "Nagle zgubiłem się.",
+      "mode": "cloze",
+      "answer": "zgubiłem",
+      "frame": "Nagle ___ się.",
       "accepts": [
-        "Nagle zgubiłem się.",
-        "Nagle zgubiłem się"
-      ]
+        "zgubiłem",
+        "zgubilem"
+      ],
+      "explain": "Zgubiłem się is 'I got lost' — literally 'I lost myself', so się never leaves the verb.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 3 words — NOT in the swept queue list, caught by the refinement's composition test: connective bolted onto a clause, the same shape as the listed item 5. Blank on the reflexive past verb (b1_journeys); nagle stays on screen."
     },
     {
       "prompt_en": "I was late for work.",
-      "mode": "full_word",
-      "answer": "Spóźniłem się do pracy.",
+      "mode": "cloze",
+      "answer": "Spóźniłem",
+      "frame": "___ się do pracy.",
       "accepts": [
-        "Spóźniłem się do pracy.",
-        "Spóźniłem się do pracy"
-      ]
+        "Spóźniłem",
+        "spóźniłem",
+        "Spoznilem",
+        "spoznilem"
+      ],
+      "explain": "Spóźnić się always keeps się, and after do the place takes the do banku shape: do pracy.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the past reflexive verb (b1_journeys), the teaching point of the phrase. Sentence-initial, so accepts covers both capitalisations, following b1_polite #6 (Chciałabym)."
     },
     {
       "prompt_en": "I agree.",
