@@ -410,45 +410,41 @@
     },
     {
       "prompt_en": "How was the weekend?",
-      "mode": "full_word",
-      "answer": "Jak było w weekend?",
+      "mode": "cloze",
+      "answer": "w weekend",
       "accepts": [
-        "Jak było w weekend?",
-        "Jak było w weekend"
+        "w weekend"
       ],
-      "explain": "Nothing new here: Jak było? plus w weekend, both already yours. Swap in any place you know — Jak było w pracy?"
+      "explain": "Nothing new here: Jak było? plus w weekend, both already yours. Swap in any place you know — Jak było w pracy?",
+      "frame": "Jak było ___?"
     },
     {
       "prompt_en": "What were you doing yesterday? (to a man)",
-      "mode": "full_word",
-      "answer": "Co robiłeś wczoraj?",
+      "mode": "cloze",
+      "answer": "robiłeś",
       "accepts": [
-        "Co robiłeś wczoraj?",
-        "Co robiłeś wczoraj",
-        "Co wczoraj robiłeś?",
-        "Co wczoraj robiłeś"
-      ]
+        "robiłeś"
+      ],
+      "frame": "Co ___ wczoraj?"
     },
     {
       "prompt_en": "What were you doing yesterday? (to a woman)",
-      "mode": "full_word",
-      "answer": "Co robiłaś wczoraj?",
+      "mode": "cloze",
+      "answer": "robiłaś",
       "accepts": [
-        "Co robiłaś wczoraj?",
-        "Co robiłaś wczoraj",
-        "Co wczoraj robiłaś?",
-        "Co wczoraj robiłaś"
+        "robiłaś"
       ],
-      "explain": "The -aś ending is you, spoken to a woman — the same -aś you met in byłaś."
+      "explain": "The -aś ending is you, spoken to a woman — the same -aś you met in byłaś.",
+      "frame": "Co ___ wczoraj?"
     },
     {
       "prompt_en": "How was it at work?",
-      "mode": "full_word",
-      "answer": "Jak było w pracy?",
+      "mode": "cloze",
+      "answer": "w pracy",
       "accepts": [
-        "Jak było w pracy?",
-        "Jak było w pracy"
-      ]
+        "w pracy"
+      ],
+      "frame": "Jak było ___?"
     }
   ],
   "use_items": [

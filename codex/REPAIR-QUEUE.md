@@ -6,7 +6,7 @@
 - **The blank = the unit's teaching point** (the pattern word the unit exists to teach: gdybym/że/którym/mógłby/robiłeś…). If an item contains no teaching-point word (pure recycled scaffold), blank the most load-bearing form and log it in the item's note.
 - Format: `{"mode": "cloze", "frame": "Gdyby mama ___ czas, zrobiłaby obiad.", "answer": "miała", "prompt_en": …, "accepts": […]}` — engine support shipped (practice-grammar cloze branch). `frame` must contain exactly one `___`. `accepts` = genuine answer variants only.
 - Prompts (`prompt_en`) stay as they are unless the blank makes them misleading.
-- 3-word answers stay typed-whole (Co słychać? / w nowym domu are correct as-is). This queue lists 4+ only.
+- **Refinement (James, 2026-08-06, second smoke report):** the word cap alone is not the rule. **Frozen chunks taught whole** (Co słychać?, Nic nowego., Wszystko w porządku.) and **pattern phrases** (Było super., w nowym domu) may be typed whole at ≤3 words; **COMPOSED sentences are cloze regardless of length** — anything built from parts (chunk + bolted-on phrase like "Jak było w pracy?", or a real conjugated question like "Co robiłaś wczoraj?"). While repairing a queued pack, ALSO audit its ≤3-word type items against this test and cloze the composed ones (they are not listed below — the sweep was word-count-based and cannot see composition). Worked example: a2_smalltalk items 8-11, converted by hand 2026-08-06 ("Jak było ___?" → w weekend / w pracy; "Co ___ wczoraj?" → robiłeś / robiłaś).
 - After converting a pack: re-run the audit (tags unchanged, must stay 0 errors), verify no duplicate answers within the stage, tick the pack below and note the commit hash.
 
 ## Queue (routine: process up to 3 packs per run, BEFORE building new units)
@@ -18,7 +18,7 @@
 - [ ] `a2_ordering_func` (data/grammar/blocks/a2_ordering_func.json) — 3 item(s): #0 „Czy jest wolny stolik?”; #1 „Czy ten stolik jest wolny?”; #11 „Czy mogę płacić kartą?”
 - [ ] `a2_phone_func` (data/grammar/blocks/a2_phone_func.json) — 4 item(s): #2 „Czy mogę rozmawiać z mamą?”; #3 „Czy mogę rozmawiać z tatą?”; #4 „Czy mogę rozmawiać z siostrą?”; #5 „Nie mogę teraz rozmawiać.”
 - [ ] `a2_shopping_func` (data/grammar/blocks/a2_shopping_func.json) — 1 item(s): #8 „Czy mogę płacić kartą?”
-- [ ] `a2_smalltalk` (data/grammar/blocks/a2_smalltalk.json) — 2 item(s): #8 „Jak było w weekend?”; #11 „Jak było w pracy?”
+- [x] `a2_smalltalk` (data/grammar/blocks/a2_smalltalk.json) — DONE by hand 2026-08-06, items 8-11 incl. the two 3-word composed questions the sweep missed.
 - [ ] `a2_wrapup_func` (data/grammar/blocks/a2_wrapup_func.json) — 4 item(s): #2 „Czy jest wolny stolik?”; #3 „Czy mogę rozmawiać z siostrą?”; #4 „Jak było w weekend?”; #5 „Proszę iść w lewo.”
 - [ ] `b1_polite` (data/grammar/blocks/b1_polite.json) — 8 item(s): #0 „Czy mógłby pan mi pomóc?”; #1 „Czy mogłaby pani mi pomóc?”; #2 „Czy mógłby pan mówić po angielsku?”; #3 „Czy mogłaby pani mówić po polsku?”; #4 „Czy mogłaby pani zrobić kawę?”; #5 „Chciałbym zapytać, gdzie jest bank.”; #6 „Chciałabym zapytać, gdzie jest apteka.”; #8 „Dziękuję bardzo za kawę.”
 - [ ] `b1_stories_func` (data/grammar/blocks/b1_stories_func.json) — 1 item(s): #2 „Nic się nie stało.”
