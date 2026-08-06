@@ -631,3 +631,264 @@ was wired:
   a `b2_adj_dat` type item, and `dobrym nauczycielem` as a `b2_adj_inst` one.
 - All three units are **audit-clean, not tested** — nobody has clicked through
   them.
+
+---
+
+## Batch 4 — Block 2 closes, Block 3 opens (units 1–3)
+
+Built `b2_adj_gym`, `b2_pron_acc`, `b2_pron_prep`. Each audit-clean (0 errors; the
+same 2 pre-existing, unrelated warns from `a2_prep_review` / `b1_two_futures` that
+every B1 and B2 batch has carried), pushed to `origin/b1-build` one at a time, not
+batched. Two new structures registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before each audit ran: `pron_acc`, `pron_prep`. `b2_adj_gym`
+registered nothing, correctly — it teaches nothing.
+
+Path is now live through `b2_pron_prep` (path index 142, 137 live nodes). Next
+unbuilt B2 node: `b2_kim_czym`.
+
+**Environment note for whoever runs next, because it cost time:** the routine
+brief and `AGENTS.md` both say `py -X utf8`. That is the Windows launcher and it
+does not exist in the cloud container — the interpreter there is `python3`, and
+every tool (`make_pool.py`, `check_new.py`, `audit.py`) runs fine under
+`python3 -X utf8`. Also: `tree.json` is written with **indent=2**. Re-serialising
+it with any other indent rewrites all 3,700 lines and buries the real change; the
+first attempt this batch did exactly that and was reverted before committing.
+
+### `b2_adj_gym` (Block 2, unit 6 of 6 — the adjective block closes)
+
+Zero new material, both `teaches_*` empty. Confirmed in the source before relying
+on it that `audit.py` exempts gyms from the `teaches_empty_grammar` warn — it
+skips the check when `"gym"` is in the node or pack id, which is why this unit
+adds no third warn.
+
+**What the gym adds that no single unit could.** The block taught the adjective
+one case at a time, so the learner has never once seen the collisions. Slide 2 is
+the whole unit: `dobrej` does **three** jobs (Genitive, Locative, Dative,
+feminine), `dobrym` does two (Locative and Instrumental, m/n), `dobrą` does two
+(Accusative and Instrumental, feminine), `dobrego` does two (Genitive, and the
+object form of a masculine animate). The line it lands: the ending does not name
+the job — the verb or preposition in front of it does.
+
+**Kontrola items 6 and 7 carry the same four choices** (`nowego` / `nowym` /
+`nowemu` / `nowy`) under two different sentences — *Idę do ___ sklepu* versus
+*Mieszkam w ___ domu*. That is deliberate, and it is the cleanest demonstration
+available that the sentence decides, because nothing else about the two items
+differs. Same idiom as `b1_case_gym`'s paired `ci`/`te` items. Item 7's `explain`
+also points out that `domu` itself is identical in both sentences, so the
+adjective is the only thing carrying the case — which is `b2_adj_loc`'s central
+contrast, re-met as a drill instead of a slide.
+
+**All 12 quiz answers are distinct**, which is a genuine constraint for a gym
+whose subject is one form doing several jobs. Solved by varying the *adjective*
+rather than the job.
+
+**`zimny` evened up, partially and honestly.** Batch 3 flagged that `zimny`
+quietly dropped out of the block after `b2_adj_loc`, leaving Dad with `dobry` in
+six forms and `zimny` in four. This gym puts `zimną` (Accusative), `zimnej`
+(Genitive and Locative) and `zimnym` (Locative) back into real slots. It does
+**not** reach `zimnemu` — that form is taught nowhere in the course, `b2_adj_dat`
+fenced it deliberately, and the Dative of `zimny` therefore stays out, distractors
+included.
+
+**`nowe` and `duże` still appear nowhere at all** — `a2_plural_nom` taught both as
+**plurals**. That is `b2_adj_acc`'s standing line, now held for six units running.
+
+### `b2_pron_acc` (Block 3, unit 1 — an IOU three levels old is paid)
+
+Six new forms (`cię`, `go`, `ją`, `nas`, `was`, `ich`) plus `mnie`, which reports
+TAUGHT but only inside a frozen block and is re-taught here explicitly.
+
+**This is the batch's real payoff and it was owed twice over.** `a2_dat_chunks`
+taught *boli mnie* and its own note says: *"mnie in boli mnie is accusative, not
+dative — deliberately NOT explained; Dad is told only that boli keeps mnie and
+podoba/smakuje keep mi."* Then `b1_dative_pron` refused to generalise `boleć` onto
+the new dative pronouns and said exactly why: *"it takes the accusative in every
+person, a different pronoun set the course has not taught, and generalising the
+new dative pronouns onto it would be a genuine grammar error, not a
+simplification. This unit does not touch that fence."* The course now has that
+set, so the fence comes down here and nowhere earlier — and `boli` is finally run
+across persons (*boli mnie / boli cię / boli go*). Chunk-to-paradigm reveal, the
+`dziękuję` / `której` / `nowego` precedent.
+
+**The gift is that half the table was already owned.** The Dative column (`mi`,
+`ci`, `mu`, `jej`, `nam`, `wam`, `im`) has been complete since path 118, so slide 2
+is one new column beside one Dad already has, not fourteen new words. Slide 3 is
+the verb list that decides which column, and every verb on it is already owned on
+both sides.
+
+**Word order — a real fence, and the reason the sentences look the way they do.**
+Every item puts the object pronoun immediately after its verb, and where the
+pronoun is a short clitic (`cię`, `go`, `ją`, `mi`, `ci`, `mu`, `jej`) the verb is
+also clause-initial: *Kocham cię. Lubię go. Pomagam mu. Boli mnie głowa.* That
+placement is always natural. Noun-subject sentences use **only** the full forms
+(*Mama zna nas. Tata lubi was. Znam ich.*), because *Mama kocha cię* is marked
+where *Mama cię kocha* is neutral — and choosing between those is a word-order
+fact, not a pronoun fact. Stated to the learner as the same rule `się` has had
+since `a2_sie`, with the fuller story left where B2-SPINE's C1 list already puts
+it (item 19).
+
+**`je` is fenced, and the consequence is stated openly.** The neuter and
+non-virile-plural accusative is kept out for two reasons: the virile split
+arriving in a new place is a second fact, and `je` collides head-on with *je*
+"he/she eats". The spine's own list of this unit's forms stops at `ich`, so this
+follows the spine rather than extending it. **Consequence: after this unit "them"
+is expressible only for people.** Handed to C1.
+
+Also fenced: `jego` and `ciebie` (long emphatic forms — sentence-initial emphasis
+is a second fact); `siebie`/`sobie` (C1, spine O15); and **negated objects
+anywhere**, since *nie znam jej* would put the object in the Genitive, which is
+`b2_neg_gen`'s job later in this level.
+
+**Two warnings logged for later units,** both in the `b1_virile_reco` tradition of
+predicting a collision a batch before it bites:
+
+1. `ich` is also the possessive "their". No collision today, since only `mój` and
+   `twój` are taught — but whichever unit extends the possessives will be
+   re-teaching this exact string as an unrelated word, and should expect the
+   `ci`/`ci` treatment.
+2. **A cross-language homograph the AGENTS.md table does not cover:** `was` is an
+   English word. A learner reading an English prompt can read the Polish `was` as
+   the English verb. Named in the `explain` on its own quiz item rather than left
+   to sting.
+
+`ci` appears in this pack **only** in its Dative sense. Its virile-demonstrative
+sense appears nowhere, deliberately: `cię` and `ci` are already a one-letter
+minimal pair carrying the unit's central contrast, and forcing a third reading of
+`ci` onto the same board is exactly the collision `b1_case_gym` declined to re-run.
+
+### `b2_pron_prep` (Block 3, unit 2 — pays `a2_o_loc`'s named fence)
+
+Six new forms: `niego`, `niej`, `nim`, `nią`, `nich`, `nimi`. `a2_o_loc`'s note
+said *"pronoun objects — o tobie, o mnie, o nim, o niej are new pronoun forms,
+absent from POOL, and are never shown, glossed or demanded… They need their own
+small unit."* This is that unit, for the third person.
+
+**The whole rule is one line** — after a preposition, the him/her/them pronouns
+all start with `n-` — and the three governors are the three already owned, each
+keeping the case it has always had: `o` + Locative, `z` + Instrumental, `do` +
+Genitive. A clean 3×3 grid with only six distinct shapes in it.
+
+**The gift, and the reason this unit lands where it does on the path:** the
+pronoun collapses its cases in *exactly* the pattern the adjective block just
+taught. `nim` covers Locative and Instrumental for masculine, precisely as
+`dobrym` does (*w dobrym hotelu* / *z dobrym kolegą*). `niej` covers Genitive and
+Locative for feminine, precisely as `dobrej` does (*do dobrej szkoły* / *w dobrej
+firmie*). Naming that parallel costs nothing and turns six forms into three plus a
+pattern owned two units ago. Slide 2 is that table, with a column that literally
+names the matching adjective.
+
+**The unit's one real judgment call, and the conservative branch was taken:
+THIRD PERSON ONLY.** `o mnie`, `o tobie`, `ze mną`, `z tobą`, `do ciebie`,
+`z nami`, `z wami` appear nowhere. `tobie`, `tobą`, `mną`, `ciebie`, `nami` and
+`wami` are all verified NEW — six more forms — and `ze mną` additionally requires
+the `ze`-shape of `z` before m + consonant, which is a fact about the
+**preposition**, not the pronoun. That is the do/z cliff in miniature.
+
+The tempting middle option was considered and rejected on purpose: `o mnie`,
+`o nas` and `o was` would cost **zero** new strings, since `mnie`, `nas` and `was`
+were all taught one unit earlier. But shipping them without `o tobie` leaves the
+most frequent cell of the row missing, and a half-row whose hole is the useful
+cell is worse than a clean fence. **If James disagrees, the fix is a small
+follow-up unit with those six forms plus the `ze`-rule** — nothing here depends on
+the decision.
+
+**`dla` was dropped, and it is batch 3's finding repeating.** B2-SPINE's own
+illustrative example for this unit is *"do niego, dla niej"*, but `dla` reports
+**NEW**: a preposition the course has never taught, so using it would smuggle a
+new governor into a pronoun unit. Third batch running in which a spine example
+turned out not to be pool-legal. **The spine is a design document, not a pool.**
+
+`niemu` is not taught either, for a cleaner reason: no preposition in this course
+governs the Dative, so the form would have no legal sentence to sit in. `w`/`na` +
+pronoun is fenced too — `w nim` would put `nim` into a third job inside the very
+unit that introduces it.
+
+**The risk the unit is built around.** Dad has owned `go`, `ją` and `ich` for
+exactly one unit, and the wrong sentence is **do go** rather than *do niego*. So
+every bare-form / `n`-form pair is drilled against itself (quiz 1 vs 7, 2 vs 8,
+5 vs 9, with `mu`/`jej`/`im` from the Dative column as third options), and Match
+rows 10–12 deliberately put the three bare object forms on the same board as their
+`n-` partners. Slide 3 is the same contrast stated once, plainly: look for the
+little word first.
+
+### Verification performed on all three packs
+
+The batch-1/2/3 scanner was rebuilt from scratch for this run and used on every
+pack before it was wired:
+
+- Every authored string in every stage — intro tables (**every cell**, not just
+  columns headed "Polish"), `title_pl`, `body_pl`, examples, match, quiz prompts,
+  **quiz distractors**, `accepts` arrays — extracted and scanned token by token
+  against the position-aware pool plus the pack's own `teaches_lemmas`. Roughly
+  1,400 Polish tokens across the batch.
+- **One string was changed as a result, the same class of error batch 3 caught.**
+  `b2_pron_acc`'s slide 3 `body_pl` was drafted as *"czasownik wybiera formę"*.
+  All four words came back NEW, and it is prose rather than established
+  metalanguage — the exact objection that rewrote `choć` out of `b2_adj_inst` last
+  batch. Replaced with *"biernik: kocham · lubię · znam · boli · celownik: podoba
+  się · smakuje · pomagam · dziękuję"*, which uses only taught words plus two case
+  names. The case names were then themselves verified rather than assumed: all six
+  (`mianownik`, `biernik`, `dopełniacz`, `miejscownik`, `narzędnik`, `celownik`)
+  occur between 8 and 46 times across existing packs, so they are house
+  metalanguage, not an invention of this batch.
+- **A learner-visible title was corrected before wiring**, per the standing B1
+  batch 10 reminder. `b2_pron_acc`'s drafted `title_en` was *"Object pronouns · and
+  why it is boli mnie, not boli mi"*. That puts a deliberately **ungrammatical**
+  Polish string (*boli mi*) on the map, where a distractible learner meets it with
+  no context. Rewritten to *"Object pronouns · the other half of mi, ci, mu"*,
+  which states the same gift using only correct, taught forms; the *boli mnie /
+  boli mi* contrast survives inside slide 1, where there is a sentence around it.
+- **Pronoun fence scanned by hand over both pronoun packs**, because the auditor
+  cannot see it at all: person pronouns sit in `audit.py`'s `GLUE_LEMMAS`, so a
+  pronoun leak audits perfectly clean. Every fenced form (`niego`, `niej`, `nim`,
+  `nich`, `nimi`, `jego`, `ciebie`, `siebie`, `sobie`, `je`, `tobie`, `tobą`,
+  `mną`, `nami`, `wami`, `dla`, `niemu`) was grepped for across each pack with the
+  `note` field stripped out first — since the note legitimately *names* what it
+  fences, and leaving it in produces a false positive that looks like a leak.
+  `b2_adj_gym` and `b2_pron_acc` came back clean of every `n-` form.
+- Adjective fence scan re-run on `b2_adj_gym`: no `-ych`/`-ymi` plural obliques,
+  no `nowe`/`duże`, no `zimne`. Clean.
+- Mechanical stage checks per pack: Match exactly 12 rows with no duplicate `pl`
+  or `en`, **no duplicate answers within any stage**, every quiz answer present
+  among its own four choices, no duplicated choices inside an item, no Użycie item
+  repeating a Pisanie item, every `teaches_lemma` both demanded in a drill stage
+  *and* shown in intro/match/type, and a meta-question sniff over every Kontrola
+  prompt.
+- Distractor discipline held throughout: every wrong choice in all three packs is
+  real taught Polish in the wrong slot. In the two pronoun packs the wrong choices
+  are always the same person out of a different column or a different shape, so
+  every `explain` can name the specific mistake rather than just asserting the
+  answer. Nothing fabricated anywhere.
+
+### For James's next smoke pass
+
+- **`b2_pron_prep`'s third-person-only scope is the call I would most want a
+  second opinion on.** After this batch Dad can say *about him / with her / to
+  them* but not *about you* or *with me*. That is a real hole in an everyday
+  register, and it was accepted deliberately — see the reasoning above. It is
+  cheap to reverse with one small follow-up unit.
+- **`b2_pron_acc`'s `je` fence has the same shape**: "them" now works for people
+  and not for things. Also deliberate, also easy to add later, and it is what the
+  spine itself specified.
+- **`b2_pron_acc` slide 1 is the framing I would watch live.** It has to land as
+  "here is finally the reason for a thing you have been saying since A2", not as
+  "you have been saying something you did not understand". Batches 1 and 2 flagged
+  the same hazard on `b2_copular_future`'s gender slide and `b2_adj_gen`'s *nic
+  nowego* reveal; this is the third turn of that idiom and the highest-stakes one,
+  because *boli mnie* is a phrase Dad genuinely uses.
+- **`cię` and `ci` are one letter apart** and now sit in adjacent columns of the
+  same table. If that pair turns out to be a real stumbling block in practice, the
+  honest fix is a small discrimination gym after `b2_kim_czym`, not a rewrite of
+  either unit.
+- **`b2_adj_gym` is dense**: three intro surfaces, 12 match rows, 12 quiz items,
+  10 type items, 10 use items, and it teaches nothing. If it plays as long rather
+  than as consolidation, the quiz is the stage to trim — items 10 and 11 (`małym`
+  / `małego`) repeat discriminations already made on `dobry` and `nowy`.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
+- Titles re-checked word by word at the moment of wiring, per the standing B1
+  batch 10 reminder. `b2_adj_gym` → *Siłownia · dobry* (both words taught,
+  matching `b1_case_gym`'s *Siłownia · wszystko*); `b2_pron_acc` → *Kocham cię ·
+  biernik*; `b2_pron_prep` → *Znam go · do niego*, which shows the unit's actual
+  contrast rather than the spine's drafted *O nim, z nią*. Every Polish word in
+  all three titles is taught at or before its own node.
