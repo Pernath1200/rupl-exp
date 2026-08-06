@@ -2,8 +2,9 @@
  * RUPL-exp dual progress — never writes rupl2/rupl3 keys.
  *
  * First-learn fruit (2026-08-06, aligned with RUE2):
- * - Grammar: Check clear + Type clear + Use finished (intro optional for jumpers).
- * - Vocab: Match done + Quiz clear + Type clear + Sentence finished.
+ * - Grammar: Check clear + Type clear + USE CLEAR (James 2026-08-06: a2_smalltalk
+ *   fruited at Use 67% — 'finished' was not enough; intro optional for jumpers).
+ * - Vocab: Match done + Quiz clear + Type clear + Sentence CLEAR (same ruling).
  * Clear = best ratio ≥ 1 (score ≥ total) or sticky cleanPass after Retry wrong.
  * Soft PASS_RATIO / FRUIT_SOFT = reviews only — not first-learn celebration.
  * Use/Sentence entry blocked until prior stages clear (RUE2-style).
@@ -49,6 +50,7 @@ export function loadProgress() {
     if (!d.nodes) d.nodes = {};
     if (!Array.isArray(d.unlocked)) d.unlocked = ["A1"];
     migrateFruitGates(d);
+    migrateUseClear(d);
     return d;
   } catch {
     return empty();
@@ -80,6 +82,27 @@ function migrateFruitGates(d) {
     }
   }
   d.fruitGatesMigrated = true;
+}
+
+/**
+ * Second grandfather pass (2026-08-06, Use-clear ruling): blocks whose Use/
+ * Sentence stage was walked before the rule existed keep their fruit — the
+ * stricter bar applies to new play only. Same never-revoke-retroactively
+ * principle as pass one.
+ */
+function migrateUseClear(d) {
+  if (d.useClearMigrated) return;
+  for (const b of Object.values(d.grammar.blocks || {})) {
+    if (b && b.modes && b.modes.use && b.useCleanPass === undefined) {
+      b.useCleanPass = true;
+    }
+  }
+  for (const b of Object.values(d.vocab.blocks || {})) {
+    if (b && b.modes && b.modes.sentence && b.sentenceCleanPass === undefined) {
+      b.sentenceCleanPass = true;
+    }
+  }
+  d.useClearMigrated = true;
   try {
     localStorage.setItem(KEY, JSON.stringify(d));
   } catch {
@@ -169,6 +192,7 @@ export function completeMode(blockId, mode, result = null) {
   const b = p.grammar.blocks[blockId];
   if (b.checkCleanPass === undefined) b.checkCleanPass = false;
   if (b.typeCleanPass === undefined) b.typeCleanPass = false;
+  if (b.useCleanPass === undefined) b.useCleanPass = false;
   b.modes = b.modes || {};
   b.best = b.best || {};
   b.modes[mode] = true;
@@ -182,6 +206,7 @@ export function completeMode(blockId, mode, result = null) {
     if (ratio >= 1) {
       if (mode === "check") b.checkCleanPass = true;
       if (mode === "type") b.typeCleanPass = true;
+      if (mode === "use") b.useCleanPass = true;
     }
   }
   save(p);
@@ -213,6 +238,11 @@ export function grammarTypeClear(b) {
   return stageIsClear(b.best && b.best.type, b.typeCleanPass);
 }
 
+export function grammarUseClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.best && b.best.use, b.useCleanPass);
+}
+
 /** Check + Type fully clear — required before Use (RUE2-style). */
 export function canEnterGrammarUse(blockId) {
   const b = gBlock(blockId);
@@ -229,7 +259,7 @@ export function hasFruit(blockId) {
   if (!modeDone(b, "check") || !modeDone(b, "type") || !modeDone(b, "use")) {
     return false;
   }
-  return grammarCheckClear(b) && grammarTypeClear(b);
+  return grammarCheckClear(b) && grammarTypeClear(b) && grammarUseClear(b);
 }
 
 export function grammarBest(blockId) {
@@ -313,7 +343,13 @@ export function completeVocabMode(blockId, mode, meta = {}) {
     if (b.bestType == null || ratio > b.bestType) b.bestType = ratio;
     if (ratio >= 1) b.typeCleanPass = true;
   }
-  if (mode === "sentence") b.sentenceDone = true;
+  if (mode === "sentence") {
+    b.sentenceDone = true;
+    if (ratio != null) {
+      if (b.bestSentence == null || ratio > b.bestSentence) b.bestSentence = ratio;
+      if (ratio >= 1) b.sentenceCleanPass = true;
+    }
+  }
   save(p);
   const nowFruit = blockHasFruit(b);
   reviewTick(b.nodeId || blockId, ratio, nowFruit);
@@ -346,12 +382,18 @@ export function canEnterVocabSentence(blockId) {
   return vocabQuizClear(b) && vocabTypeClear(b);
 }
 
+export function vocabSentenceClear(b) {
+  if (!b) return false;
+  // Old records carry only the boolean; the migration stamps them clear.
+  return stageIsClear(b.bestSentence, b.sentenceCleanPass);
+}
+
 export function blockHasFruit(b) {
   if (!b || !b.modes) return false;
   const m = b.modes;
-  // Modes walked + Quiz/Type fully clear (not soft 75%)
+  // Modes walked + Quiz/Type/Sentence fully clear (not soft 75%)
   if (!(m.match && m.quiz && m.type && m.sentence)) return false;
-  return vocabQuizClear(b) && vocabTypeClear(b);
+  return vocabQuizClear(b) && vocabTypeClear(b) && vocabSentenceClear(b);
 }
 
 export function vocabBlockFruit(blockId) {
