@@ -1140,3 +1140,230 @@ The scanner was rebuilt for this batch and run on every pack before it was wired
   `leaf_places`). `b2_ze_clauses` → *Wiem, że…*, whose two Polish words are the
   two chunk-to-slot reveals the unit is built on. Every Polish word in all three
   titles is taught at or before its own node.
+
+## Batch 6 — Block 4, units 2–4 of 7 (`b2_reported`, `b2_indirect_q`, `b2_ktory_full`)
+
+Built the next three unbuilt nodes in path order, one at a time, each wired and
+audited before the next was started. Each audit-clean (**0 errors**; the same two
+pre-existing, unrelated warns from `a2_prep_review` / `b1_two_futures` that B1 and
+every B2 batch have carried), pushed to `origin/b1-build` per unit, not batched.
+Three new structures registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before each audit ran: `reported`, `indirect_q`, `ktory_full`.
+
+Path is now live through `b2_ktory_full` (path index 149, **143 live nodes**, 18 of
+B2's 48 non-station nodes done). Next unbuilt B2 node: **`b2_abstract`** — the
+Block 4 vocab leaf, and the first vocab pack since `b2_health_system`.
+
+**Environment note for whoever runs next, because it cost time.** This repo's
+`main` is still the old v0.2 shell and has **no `codex/` directory at all** — the
+whole course world lives on `b1-build`. A cloud session starts detached at `main`,
+so the first act must be `git fetch origin && git checkout -B b1-build
+origin/b1-build`. Also `py -X utf8` is a Windows launcher and does not exist on
+the Linux runner; use `python3 -X utf8`. Everything in AGENTS.md otherwise holds.
+
+### `b2_reported` (Block 4, unit 2)
+
+One new word and one new fact. The fact: **Polish does not back-shift the tense** —
+whatever tense the speaker used is the tense you keep, so English "Dad said the shop
+WAS closed" is *Tata powiedział, że sklep JEST zamknięty*. Framed as a gift (the
+`a2_bedzie` "the future has no gender" idiom), which makes it the third unit in a
+row that removes work rather than adding it.
+
+This **cashes in `b2_ze_clauses`' logged deferral exactly as that pack predicted** —
+it kept every matrix verb in the present precisely so this fact would land here, and
+it recorded that nothing downstream depended on the choice being reversed. It did
+not: the joint arrived entirely owned, and this pack added only the past-tense
+matrix verb on top of it.
+
+*powiedzieć* is handed over **whole in five forms** as the perfective twin of the
+owned *mówić*, per O7.2's closed-list treatment. Worth noting it honours
+`a2_aspect`'s "prefixes are unpredictable" line cleanly rather than straining it,
+being **suppletive rather than prefixed**. The gender split is not a new fact, just
+`past_ac` on a new verb, and is presented that way.
+
+**THE JUDGMENT CALL, conservative branch, and the one I would most want James to
+look at.** The **person shift is fenced**: no item asks the learner to turn a quoted
+*Jestem zmęczony* into a reported *jest zmęczony*. Intro transformations use
+noun-subject quotes so literally nothing inside the clause moves, and third-person
+reports are only ever driven from English prompts that already say "he" — so the
+learner translates, never transforms. **The counter-argument is real and is recorded
+in the pack note rather than buried:** the person shift is *not a Polish-specific
+fact*, since English shifts identically, so including it would arguably cost no new
+learning. It was still left out because it is extra production work inside the unit
+that introduces the tense fact, and load-splitting decides ties in this course.
+**If James wants it, it is one slide and three items — not a rewrite.**
+
+### `b2_indirect_q` (Block 4, unit 3)
+
+Zero new lemmas. Pays `a2_questions2`'s fence by name ("no indirect questions:
+*Nie wiem, kiedy…* is B1"), which was never built at B1.
+
+The headline is again a **gift**: English *reorders* a question when it goes inside a
+sentence ("Where IS the chemist's?" → "I don't know where the chemist's IS"), and
+Polish never inverted in the first place, so there is nothing to undo. Stated as the
+slide-1 headline deliberately — an English speaker will otherwise expect to have to
+do something and go hunting for it. The one new job is *czy* = "whether"/"if",
+framed honestly as the same word doing the same job, just embedded; the asymmetry is
+on the English side, which switches words where Polish does not.
+
+The **że / czy minimal pair** is the sharpest thing in the unit and costs nothing:
+*Wiem, że mama jest w domu* vs *Nie wiem, czy mama jest w domu* — same clause, and
+the opener alone decides settled versus open. Quiz items 3 and 4 are that pair back
+to back. It also guards the predictable error of over-reaching for *że*, which had
+been taught two nodes earlier.
+
+The **Match board is twelve question words, one per row** — the first place the five
+oblique forms from `b2_kim_czym` do real work, that pack having fenced embedded
+questions absolutely.
+
+**A REAL SCOPE LIMIT, logged rather than worked around.** The standing *wiem*
+quarantine (`a2_directions_func`: "never conjugates wiem", held by `b2_ze_clauses`)
+means the only available openers are *Wiem*, *Nie wiem* and *powiedział*/
+*powiedziała* from the previous node. **Consequence, stated plainly: Dad can say "I
+don't know where…" but not "Do you know where…?"** — which is the more useful
+sentence in a street. Lifting the quarantine means teaching *wiedzieć* properly with
+the *wiedzieć*/*znać* split; that is a real unit and belongs on the **C1 inbox**. It
+was not smuggled in here.
+
+**AN IOU DELIBERATELY CREATED FOR `b2_jesli`, recorded because it will not be
+obvious later.** The classic English-speaker error with *czy* is confusing it with
+*jeśli*. That error is **impossible today** — *jeśli* is verified NEW and untaught
+until `b2_jesli`, two nodes on — so this pack cannot usefully drill the contrast.
+**`b2_jesli` arrives holding the other half and should carry the *czy*/*jeśli*
+discrimination**, since by then Dad will own both and English collapses them onto
+one word.
+
+### `b2_ktory_full` (Block 4, unit 5)
+
+Pays **B1-DIGEST deferred item #2, both halves.** (a) Locative and Instrumental
+relatives, which `b1_ktory_cases` fenced and logged as "deferred to a later pass or
+a dedicated unit". (b) Masculine-animate antecedents, fenced at B1 because *którego*
+would then sit in the Accusative table for a *different* reason than in the Genitive
+table — **an objection that has since dissolved**, because `b2_adj_gen` taught
+Acc≡Gen for masculine animates as a general fact. The spine's placement reasoning
+held up exactly.
+
+**One new string in the entire unit: *którym*.** *której*, *którą* and *którego* are
+all owned and are extended to new jobs. Slide 4 exists to say so: every merger here
+has already been met three or four times — *którym* covers Loc+Inst exactly as
+*dobrym*, *nim* and *kim* do; *której* covers Gen+Loc as *dobrej* and *niej* do;
+*którą* covers Acc+Inst as *dobrą* and *nią* do; *którego* covers Gen+Acc-animate as
+*dobrego* and *kogo* do. Fifth turn of the "same endings, another job" idiom.
+
+**The homograph trap here is the sharpest the level has hit, and it is named out
+loud on slide 2.** *o której* has been a **frozen chunk since `a2_ordinals_time`
+meaning "at what time"** (*O której jest spotkanie?*); the relative *o której* is the
+same two strings doing an unrelated job. Quiz item 12 puts the frozen chunk directly
+beside the relative — the *ci*/*ci*, *może*/*może* treatment. Note this is the
+**second** re-opening of that string: `b1_ktory_cases` already re-taught it as a
+Genitive.
+
+Fenced and **handed to the C1 inbox**: all **plural relatives** (*którzy*, *których*,
+*którymi*, plural *którym*) — the relative declines like an adjective, so shipping
+them would breach B2-SPINE **O3**'s plural-oblique-adjective hand-over *by the back
+door*, which is worth flagging because it is not obvious; and **`któremu`**, the
+dative relative, a fifth case and fifth new string in a unit already landing four
+jobs, mirroring `b2_pron_prep`'s fencing of *niemu*. Both are scope cuts, not
+oversights.
+
+### Verification performed on all three packs
+
+The scanner was rebuilt for this batch and, before being trusted, **calibrated
+against all thirteen already-shipped B2 packs** — it had to reproduce "clean" on
+every one of them before it was allowed to judge new work. That calibration changed
+the tool three times and is worth recording, because two of the changes encode house
+conventions a naive scanner gets wrong:
+
+- Bare governor prepositions (*do, z, w, na, o, od, po, za*) appear in the pool only
+  inside multiword phrases but are genuinely taught as governors. Allowed. **`dla`
+  is deliberately excluded** — it is verified NEW.
+- `title_pl` / `body_pl` are the one surface AGENTS.md permits untaught metalanguage
+  on, and shipped packs also put bare ending fragments there (*-ego*, *-ym*, *-ą*).
+  Reclassified from strict to eyeball.
+- **Bare subject pronouns are course-wide glue.** A first pass flagged `on` in
+  `b2_adj_gen`'s live Użycie as an untaught-pronoun leak. Before touching a shipped
+  unit I swept every live pack: *on*/*ona* are used in **16–17 packs since
+  `a1_miec`**, so this is an established convention, not a defect. **Nothing was
+  "fixed".** This does *not* license the oblique pronouns, which are genuinely
+  fenced.
+
+With that calibration in place, on all three new packs: every authored learner-facing
+string — intro tables (every cell), titles, `body_pl`, examples, match, quiz prompts,
+**quiz distractors**, `accepts`, type and use items — extracted and scanned token by
+token against the position-aware pool plus the pack's own `teaches_lemmas`. Strict
+surfaces (`pl`, `answer`, `accepts`, `choices`, and the pure-Polish head of each
+gap-fill prompt) came back **completely clean on all three**.
+
+- **One real leak caught and fixed before wiring:** `filmie` (verified NEW, and
+  fenced by this very pack) had got into a `b2_ktory_full` quiz explanation, inside
+  the phrase *o dobrym filmie*. Rewritten to *o nim*. **This is the fourth
+  consecutive batch in which the scanner caught a leak the author had not seen** —
+  and note it had no diacritics, so it hid in the English-looking residue rather
+  than the obvious pile.
+- **One real audit error caught and fixed honestly.** `b2_indirect_q` first audited
+  with `errors 1`: I had declared the bare phrase `to jest` in `uses_lemmas`, but
+  that is a **structure** (`to_jest`, already declared), never a taught lemma. The
+  sentence *Nie wiem, kto to jest* is legal by every route — *kto to jest* is itself
+  a taught chunk and every word is independently owned. **The bogus tag was removed
+  rather than the error silenced.**
+- **Pool regenerated three times**, once before each unit (`--before b2_reported`,
+  `--before b2_indirect_q`, `--before b2_ktory_full`), so each pack was written
+  against what is taught strictly before *it*. This mattered: `b2_indirect_q` legally
+  recycles *powiedziała* from `b2_reported` one node earlier, in three items.
+- **Two candidate sentences were killed by `check_new.py` during drafting** rather
+  than smuggled in: *Znam kolegę, z którym pracujesz* and *Mama mówi o filmie…* —
+  `kolegę` and `filmie` both verified NEW. Replaced, and the fences logged.
+- **Homograph "taught AS" check re-run on every recycled form.** The ones that
+  mattered: *o której* (the whole point of `b2_ktory_full` slide 2); *otwarty* and
+  *zamknięty*, used as the **plain adjectives** `leaf_shopping_a1` taught, not as the
+  participles `b2_participle_pass` will later reveal — the same care `b2_ze_clauses`
+  took; *kupił* as `a2_aspect`'s perfective past; *którą* used as a distractor in its
+  real B1 job.
+- **Fence greps with `note` stripped first**, since a note legitimately names what it
+  fences. All clean. One instructive false positive: grepping bare `wiedzieć` "hit"
+  ten times in `b2_reported` — because **`po·wiedzieć` contains it**. Re-run with
+  word boundaries: zero. Worth remembering, as the same trap will fire on any future
+  pack teaching a prefixed verb.
+- **A dedicated indirect-question sniff** (matrix verb + comma + question word) run
+  over `b2_reported`: **zero hits**, which is the fence that mattered most, the unit
+  sitting one node before `b2_indirect_q`.
+- **A relative-*który* sniff** run over `b2_indirect_q` (noun antecedent + comma +
+  *który*): the raw regex hit seven times, all preceded by *wiem* — i.e. the
+  **interrogative** use inside an embedded question, not a relative. **No noun
+  antecedent anywhere**, so `b2_ktory_full`'s material did not leak backwards.
+- Mechanical stage checks per pack: Match exactly 12 rows with no duplicate `pl` or
+  `en`, every quiz answer present among its own choices, no duplicated choices, no
+  duplicate prompts, no duplicate type or use answers, no Użycie item repeating a
+  Pisanie item, every `teaches_lemma` demanded in a drill stage, and a meta-question
+  sniff over every Kontrola prompt. All three clean.
+- **All eight station placeholders re-checked as `planned` after every wiring** — by
+  assertion, not by eye.
+
+### For James's next smoke pass
+
+- **`b2_reported`'s fenced person shift is the call I would most want a second
+  opinion on.** After this unit Dad can say *Tata powiedział, że sklep jest
+  zamknięty* fluently, but he has never been asked to produce *jest* from a quoted
+  *jestem*. One slide and three items if you want it.
+- **`b2_indirect_q` cannot express "Do you know where…?"**, which is the sentence a
+  real traveller actually needs. That is the *wiem* quarantine, inherited and held
+  for the third unit running. It may be the single highest-value item on the C1
+  inbox.
+- **`b2_ktory_full` is the densest of the three** — four jobs and four slides. Slide
+  4 is the one to watch live: it has to land as *"you have met all of these
+  already"*, not as *"here are four more things"*. That framing is now on its fifth
+  outing and every batch has flagged it; this is the cheapest instance yet, since
+  three of the four mergers were taught inside the last ten nodes.
+- **The *o której* item (`b2_ktory_full` quiz 12) is the one most likely to feel
+  unfair in practice.** It is deliberately the frozen A2 time question sitting in a
+  unit about relatives. If it plays badly the honest fix is to move it into the intro
+  as a shown contrast rather than a scored item — not to remove the trap, which is
+  real and will bite in the wild.
+- All three units are **audit-clean, not tested** — nobody has clicked through them.
+- Titles re-checked word by word at the moment of wiring, per the standing B1 batch
+  10 reminder, and **two drafted `tree.json` labels were corrected**: `b2_reported`
+  → *Powiedział, że…* (drafted *Mówił, że…*; the shipped title names the verb the
+  unit actually teaches, and *powiedział* is legal in its own node's title),
+  and `b2_ktory_full` → *Film, o którym…* (drafted *Z którym? O którym?*, which read
+  as a pair of questions when the unit is about relatives, not questions). Every
+  Polish word in all three titles is taught at or before its own node.
