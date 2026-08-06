@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 167 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 168 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -184,4 +184,5 @@ _None._
 | 171 | `b2_powinien` | `powinien` | 14 | `aspect_past`, `aspect_prefixes`, `bedzie`, `byc_adj`, `can_inf`, `conjunctions`, `inst_transport`, `miec_acc`, `musiec`, `ordinals_time`, `past_ac`, `past_byc`, `past_rest`, `plural_nom`, `powinien`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `question`, `reported`, `ze_clauses` |
 | 172 | `b2_verbal_nouns` | `verbal_nouns` | 6 | `byc_adj`, `byc_present`, `can_inf`, `conjunctions`, `miec_acc`, `past_byc`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_uje`, `question`, `ten_ta_to`, `to_jest`, `verbal_nouns`, `zgoda` |
 | 173 | `b2_participle_pass` | `participle_pass` | 16 | `aspect_past`, `aspect_prefixes`, `byc_adj`, `byc_present`, `conjunctions`, `participle_pass`, `present`, `question`, `ten_ta_to`, `verbal_nouns`, `zgoda` |
+| 174 | `b2_passive` | `passive` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `participle_pass`, `passive`, `past_byc`, `zgoda` |
 

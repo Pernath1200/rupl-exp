@@ -134,6 +134,7 @@ STRUCTURE_CATALOGUE = {
     "powinien",
     "verbal_nouns",
     "participle_pass",
+    "passive",
 }
 
 GLUE_LEMMAS = {

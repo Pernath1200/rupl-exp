@@ -1,0 +1,593 @@
+{
+  "id": "b2_passive",
+  "title": "Jest · był · będzie zamknięty",
+  "title_en": "The passive in three tenses",
+  "level": "B2",
+  "tree_node": "b2_passive",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2-SPINE Block 7 unit 3, spine O5 — the last unit of Block 7 and the CONSTRUCTION half of a load split stated one node earlier. b2_participle_pass was the FORM and its agreement, and every sentence in it was X jest <participle> in the present; this unit moves that sentence through time (byl / bedzie) and gives the construction its name. The previous pack's final slide told the learner exactly this edge was coming, so the two are read as a pair rather than as an overlap.\n\nZERO NEW LEMMAS, and the arithmetic is honest rather than a boast: every participle comes from the unit before, and byl / byla / bylo (past_byc, A2) and bedzie (bedzie + copular_future) have been owned for a hundred nodes. teaches_lemmas is legitimately empty on the adj_gen / copular_future / adj_inst / ze_clauses / indirect_q convention — the pack teaches a STRUCTURE, not words. What is new is that two owned pieces are allowed to combine, and that the combination has a name.\n\nTHE REAL CONTENT IS DOUBLE AGREEMENT, and it is the one thing in the unit that can actually be got wrong. In the past BOTH words carry the gender and they must carry the same one: Sklep byl zamkniety / Apteka byla zamknieta / Biuro bylo zamkniete. Slide 2 puts the three rows under each other so the two columns of endings line up on the page. The predictable error is changing the tense and leaving the participle behind, and the pack says so in terms.\n\nTHE FUTURE IS THE ASYMMETRY AND IT PAYS BACK A2's GIFT. a2_bedzie's headline was that the future of byc has NO gender — one word for a man, a woman and a table. That is still true, and the participle after it still agrees anyway, so the future is the odd one out: Sklep bedzie zamkniety / Apteka bedzie zamknieta. In the past both words move; in the future only the second one does. This is the unit's second fact and it costs nothing, because both halves are already owned — only their interaction is new. Slide 4 then closes the loop from the other side: with a masculine noun fixed (obiad), the participle never moves and ONLY the copula carries the time.\n\nTHE PASSIVE IS NAMED, per AGENTS' register ruling — the learner is linguistically inclined and Polish is a case language he is here for. Slide 1 names it, says what it does (the subject is what the work was done TO, not who did it), and points out that English builds it the same way, with a form of 'to be' plus a participle, so the machinery is new in neither language. No cute framing, no 'free gift'.\n\nSTATE PASSIVE ONLY, AND THE PACK SAYS SO RATHER THAN LETTING IT PASS AS THE WHOLE STORY. Sklep byl zamkniety describes how things STOOD, the result; the dynamic passive naming the moment of closing needs zostac, which is verified NEW (along with zostal and zostanie) and is fenced to C1 by O5. Slide 5 states that a second passive exists and that its verb is not taught here — an accepted gap named out loud, on the b2_powinien precedent of naming the missing past of moc rather than letting the learner discover it by failing.\n\nTHE AGENT PHRASE IS IMPOSSIBLE AND THAT IS LUCKY, not a scope cut that had to be policed: przez is verified NEW, so 'closed BY somebody' cannot be built with taught material at all. Named on slide 5 anyway, because a learner who knows the English passive will reach for it.\n\nSINGULAR ONLY, inherited unchanged from b2_participle_pass and for its reason, not a fresh one: zrobione is the neuter singular here and nothing else, while it is also the non-virile plural and zrobieni the virile one — a form that means two things is what the AGENTS homograph rule says to keep out until it can be named. No plural appears on a slide, in a board, or as a distractor.\n\nPISANIE IS ALL CLOZE, per the James-locked hard cap: every sentence in this unit is COMPOSED (noun + copula + participle built from parts), so none of them may be typed whole at any length. FIVE of the twelve blank the teaching point itself — the copula, which has exactly five distinct forms available here (jest, byl, byla, bylo, bedzie) and cannot supply a sixth without duplicating an answer within the stage. The remaining SEVEN blank the agreeing participle, logged per item under the queue's fallback clause; that is not a dodge, since the participle still agreeing under a changed tense is precisely the unit's second fact, and it is the half a learner drops. All twelve answers are distinct, checked with a mirror of the engine's norm().\n\nNO FABRICATED NON-WORDS anywhere. Every quiz distractor is a real taught form doing the wrong job — a copula of the wrong gender or tense, or a participle that agrees correctly but means something else (zapłacony offered against ugotowany, zrobiona against ugotowana).\n\nADJECTIVE POVERTY AVOIDED RATHER THAN HIT: gotowy ('ready'), the obvious English gloss for several of these, is verified NEW and appears nowhere; the glosses stay on 'cooked', 'done', 'paid', 'written', 'open', 'closed'. NEGATION IS ABSENT by choice — nie + byl is legal and owned, but the unit is about tense and agreement, and adding a negated copula would put a third moving part in sentences that already have two.",
+  "focus_structures": [
+    "passive"
+  ],
+  "teaches_structures": [
+    "passive"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "passive",
+    "participle_pass",
+    "byc_present",
+    "byc_adj",
+    "past_byc",
+    "bedzie",
+    "copular_future",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "The sentence you built last unit has a name",
+      "title_pl": "Strona bierna",
+      "body": "Last unit you put a participle after jest and left it there:\n\nSklep jest zamknięty. — The shop is closed.\n\nThat sentence has a name. It is the passive. The noun at the front is not doing anything — it is what somebody else's work was done to. The shop did not close itself; someone closed it, and the sentence talks about the shop rather than about them.\n\nEnglish builds it the same way, out of the same two pieces: a form of to be, plus a participle. is closed · was written · will be paid.\n\nSo neither the idea nor the machinery is new to you. What is new is that Polish lets you move this construction through time, and that is the whole of this unit: jest, był, będzie.",
+      "body_pl": "Strona bierna: być + imiesłów bierny.",
+      "examples": [
+        {
+          "en": "The shop is closed.",
+          "pl": "Sklep jest zamknięty."
+        },
+        {
+          "en": "The work is done.",
+          "pl": "Praca jest zrobiona."
+        },
+        {
+          "en": "The bill is paid.",
+          "pl": "Rachunek jest zapłacony."
+        }
+      ]
+    },
+    {
+      "title": "The past — and both words carry the gender",
+      "title_pl": "był · była · było",
+      "body": "To move the passive into the past, change jest to the past of być. You have had these three since A2: był, była, było.\n\nSklep jest zamknięty. → Sklep był zamknięty.\nApteka jest zamknięta. → Apteka była zamknięta.\nBiuro jest zamknięte. → Biuro było zamknięte.\n\nRead down the endings rather than across. Both words agree with the noun, and they agree in the same direction every time: był … zamknięty, była … zamknięta, było … zamknięte.\n\nThis is the one thing in the unit that can go wrong. It is easy to change the tense and leave the participle behind — to reach for był and then say zamknięta after it. The noun decides both words, not one of them.",
+      "body_pl": "Czas przeszły: był / była / było + imiesłów. Oba wyrazy zgodne z rzeczownikiem.",
+      "table": {
+        "headers": [
+          "Noun",
+          "Present",
+          "Past"
+        ],
+        "rows": [
+          [
+            "sklep",
+            "jest zamknięty",
+            "był zamknięty"
+          ],
+          [
+            "apteka",
+            "jest zamknięta",
+            "była zamknięta"
+          ],
+          [
+            "biuro",
+            "jest zamknięte",
+            "było zamknięte"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The future — where A2's gift comes back, and only half applies",
+      "title_pl": "będzie + imiesłów",
+      "body": "The future uses będzie, and here something you were given at A2 returns.\n\nWhen you learned the future of być, the headline was that będzie has no gender: the same word for a man, a woman and a table. That is still completely true.\n\nBut the participle after it has not changed its mind. It still agrees with the noun, exactly as it did in the past.\n\nSklep będzie zamknięty.\nApteka będzie zamknięta.\nBiuro będzie zamknięte.\n\nSo the future is the odd one out in this construction. In the past, both words move. In the future, the first word stands still and the second one keeps moving.",
+      "body_pl": "Czas przyszły: będzie bez rodzaju, imiesłów z rodzajem.",
+      "table": {
+        "headers": [
+          "Present",
+          "Past",
+          "Future"
+        ],
+        "rows": [
+          [
+            "jest zamknięty",
+            "był zamknięty",
+            "będzie zamknięty"
+          ],
+          [
+            "jest zamknięta",
+            "była zamknięta",
+            "będzie zamknięta"
+          ],
+          [
+            "jest zamknięte",
+            "było zamknięte",
+            "będzie zamknięte"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same thing seen from the other side",
+      "title_pl": "obiad: jeden rodzaj, trzy czasy",
+      "body": "Slides 2 and 3 held the tense still and moved the gender. Turn it around: hold the noun still and move the tense.\n\nObiad jest ugotowany. — The dinner is cooked.\nObiad był ugotowany. — The dinner was cooked.\nObiad będzie ugotowany. — The dinner will be cooked.\n\nobiad is masculine in all three, so ugotowany never moves at all. Only the first word changes, and all it is doing is carrying the time.\n\nThat is the shape worth holding on to: one word for when, one word for what was done, and the noun in front deciding how the second one ends.",
+      "body_pl": "Rzeczownik bez zmian: rodzaj stały, czas ruchomy.",
+      "examples": [
+        {
+          "en": "The soup was cooked.",
+          "pl": "Zupa była ugotowana."
+        },
+        {
+          "en": "The letter will be written.",
+          "pl": "List będzie napisany."
+        },
+        {
+          "en": "The task was done.",
+          "pl": "Zadanie było zrobione."
+        }
+      ]
+    },
+    {
+      "title": "What this unit does not cover",
+      "title_pl": "Bez drugiej strony biernej",
+      "body": "Three limits, named so you know where the edge is rather than walking into it.\n\nFirst, and this is a real distinction rather than a scope note: what you have here describes a state — the result, how things stood. Sklep był zamknięty says the shop stood closed. Polish has a second passive for the action itself, the moment of the closing, and it is built with a different verb. That verb is not taught in this course yet, and it appears nowhere in this unit.\n\nSecond: you cannot yet say who did it. English adds by somebody; Polish has its own way of doing that and it needs a word you do not have. Every sentence here is about the thing, never about the person behind it.\n\nThird: singular only, the same limit the last unit set and for the same reason. The plural of these participles is a shape that means two different things at once, and it has to be named properly before it is safe to use.",
+      "body_pl": "Tylko stan, tylko liczba pojedyncza.",
+      "examples": [
+        {
+          "en": "The office was closed.",
+          "pl": "Biuro było zamknięte."
+        },
+        {
+          "en": "The café will be open.",
+          "pl": "Kawiarnia będzie otwarta."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "The shop is closed.",
+      "pl": "Sklep jest zamknięty."
+    },
+    {
+      "en": "The shop was closed.",
+      "pl": "Sklep był zamknięty."
+    },
+    {
+      "en": "The shop will be closed.",
+      "pl": "Sklep będzie zamknięty."
+    },
+    {
+      "en": "The chemist's is open.",
+      "pl": "Apteka jest otwarta."
+    },
+    {
+      "en": "The chemist's was open.",
+      "pl": "Apteka była otwarta."
+    },
+    {
+      "en": "The chemist's will be open.",
+      "pl": "Apteka będzie otwarta."
+    },
+    {
+      "en": "The office was closed.",
+      "pl": "Biuro było zamknięte."
+    },
+    {
+      "en": "The office will be closed.",
+      "pl": "Biuro będzie zamknięte."
+    },
+    {
+      "en": "The dinner was cooked.",
+      "pl": "Obiad był ugotowany."
+    },
+    {
+      "en": "The soup was cooked.",
+      "pl": "Zupa była ugotowana."
+    },
+    {
+      "en": "The bill will be paid.",
+      "pl": "Rachunek będzie zapłacony."
+    },
+    {
+      "en": "The work was done.",
+      "pl": "Praca była zrobiona."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Sklep ___ zamknięty. (was)",
+      "choices": [
+        "był",
+        "była",
+        "było",
+        "będzie"
+      ],
+      "answer": "był",
+      "explain": "sklep is masculine, so the past of być takes its masculine form — the same był you have used since A2, now carrying a participle after it."
+    },
+    {
+      "prompt": "Apteka ___ zamknięta. (was)",
+      "choices": [
+        "była",
+        "był",
+        "było",
+        "będzie"
+      ],
+      "answer": "była",
+      "explain": "The participle at the end already tells you the gender: zamknięta is feminine, so the word in front of it has to be była. Both words answer to apteka."
+    },
+    {
+      "prompt": "Biuro ___ zamknięte. (was)",
+      "choices": [
+        "było",
+        "był",
+        "była",
+        "będzie"
+      ],
+      "answer": "było",
+      "explain": "biuro is neuter, so było — and zamknięte agrees with it in the same direction."
+    },
+    {
+      "prompt": "Sklep ___ zamknięty. (will be)",
+      "choices": [
+        "będzie",
+        "był",
+        "była",
+        "było"
+      ],
+      "answer": "będzie",
+      "explain": "The future needs no gender on this word at all. będzie would be the answer here whatever the noun was."
+    },
+    {
+      "prompt": "Apteka będzie ___. (open)",
+      "choices": [
+        "otwarta",
+        "otwarty",
+        "otwarte",
+        "zamknięta"
+      ],
+      "answer": "otwarta",
+      "explain": "będzie gave you no clue, because it never does. The gender has to come off apteka, so the participle ends in -a. zamknięta is the right shape and the wrong meaning."
+    },
+    {
+      "prompt": "Obiad był ___. (cooked)",
+      "choices": [
+        "ugotowany",
+        "ugotowana",
+        "ugotowane",
+        "zapłacony"
+      ],
+      "answer": "ugotowany",
+      "explain": "obiad is masculine and był has already agreed with it; the participle now does the same. zapłacony agrees correctly but would have the dinner paid rather than cooked."
+    },
+    {
+      "prompt": "Zupa była ___. (cooked)",
+      "choices": [
+        "ugotowana",
+        "ugotowany",
+        "ugotowane",
+        "zrobiona"
+      ],
+      "answer": "ugotowana",
+      "explain": "zupa is feminine, so both words end in -a. zrobiona is feminine too and says the soup was made rather than cooked."
+    },
+    {
+      "prompt": "Praca ___ zrobiona. (was)",
+      "choices": [
+        "była",
+        "był",
+        "było",
+        "będzie"
+      ],
+      "answer": "była",
+      "explain": "praca is feminine. This is the error the unit warns about: reaching for był after changing the tense, when zrobiona at the end is already telling you it must be była."
+    },
+    {
+      "prompt": "Rachunek będzie ___. (paid)",
+      "choices": [
+        "zapłacony",
+        "zapłacona",
+        "zapłacone",
+        "napisany"
+      ],
+      "answer": "zapłacony",
+      "explain": "rachunek is masculine, so -y. napisany is masculine as well, but a bill is paid rather than written."
+    },
+    {
+      "prompt": "List ___ napisany. (will be)",
+      "choices": [
+        "będzie",
+        "był",
+        "była",
+        "było"
+      ],
+      "answer": "będzie",
+      "explain": "One word for the future, whatever the noun. The gender is still visible — but on napisany, not here."
+    },
+    {
+      "prompt": "Okno ___ otwarte. (was)",
+      "choices": [
+        "było",
+        "był",
+        "była",
+        "będzie"
+      ],
+      "answer": "było",
+      "explain": "okno is neuter, so było. The -e on otwarte and the -o on było are the same fact said twice."
+    },
+    {
+      "prompt": "Zadanie będzie ___. (done)",
+      "choices": [
+        "zrobione",
+        "zrobiony",
+        "zrobiona",
+        "napisane"
+      ],
+      "answer": "zrobione",
+      "explain": "zadanie is neuter, so -e. napisane is neuter too, but it would say the task was written out rather than done."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "The shop is closed.",
+      "mode": "cloze",
+      "frame": "Sklep ___ zamknięty.",
+      "answer": "jest",
+      "accepts": [
+        "jest"
+      ],
+      "explain": "The present, for contrast — this is the sentence you already built last unit, before any of it could move."
+    },
+    {
+      "prompt_en": "The bank was closed.",
+      "mode": "cloze",
+      "frame": "Bank ___ zamknięty.",
+      "answer": "był",
+      "accepts": [
+        "był"
+      ],
+      "explain": "bank is masculine, and zamknięty at the end has already agreed with it — so the missing word has to agree the same way."
+    },
+    {
+      "prompt_en": "The chemist's was closed.",
+      "mode": "cloze",
+      "frame": "Apteka ___ zamknięta.",
+      "answer": "była",
+      "accepts": [
+        "była"
+      ]
+    },
+    {
+      "prompt_en": "The office was closed.",
+      "mode": "cloze",
+      "frame": "Biuro ___ zamknięte.",
+      "answer": "było",
+      "accepts": [
+        "było"
+      ]
+    },
+    {
+      "prompt_en": "The café will be open.",
+      "mode": "cloze",
+      "frame": "Kawiarnia ___ otwarta.",
+      "answer": "będzie",
+      "accepts": [
+        "będzie"
+      ],
+      "explain": "The future takes no gender here, even though kawiarnia is feminine and otwarta shows it plainly."
+    },
+    {
+      "prompt_en": "The dinner was cooked.",
+      "mode": "cloze",
+      "frame": "Obiad był ___.",
+      "answer": "ugotowany",
+      "accepts": [
+        "ugotowany"
+      ],
+      "note": "Blank falls on the participle rather than on the copula, which is this unit's teaching point. Forced: the copula has exactly five distinct forms available in the singular (jest, był, była, było, będzie), all five are produced at items 0-4, and a sixth copula blank would duplicate an answer within the stage. The participle under a moved tense is the unit's second fact and the half a learner drops, so it is the right fallback.",
+      "explain": "The tense moved to the past; the participle did not move at all, because obiad is still masculine."
+    },
+    {
+      "prompt_en": "The soup was cooked.",
+      "mode": "cloze",
+      "frame": "Zupa była ___.",
+      "answer": "ugotowana",
+      "accepts": [
+        "ugotowana"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice."
+    },
+    {
+      "prompt_en": "The bill was paid.",
+      "mode": "cloze",
+      "frame": "Rachunek był ___.",
+      "answer": "zapłacony",
+      "accepts": [
+        "zapłacony"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice."
+    },
+    {
+      "prompt_en": "The letter will be written.",
+      "mode": "cloze",
+      "frame": "List będzie ___.",
+      "answer": "napisany",
+      "accepts": [
+        "napisany"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice.",
+      "explain": "będzie tells you nothing about the gender, so the ending has to be worked out from list itself."
+    },
+    {
+      "prompt_en": "The work was done.",
+      "mode": "cloze",
+      "frame": "Praca była ___.",
+      "answer": "zrobiona",
+      "accepts": [
+        "zrobiona"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice."
+    },
+    {
+      "prompt_en": "The task will be done.",
+      "mode": "cloze",
+      "frame": "Zadanie będzie ___.",
+      "answer": "zrobione",
+      "accepts": [
+        "zrobione"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice."
+    },
+    {
+      "prompt_en": "The window was open.",
+      "mode": "cloze",
+      "frame": "Okno było ___.",
+      "answer": "otwarte",
+      "accepts": [
+        "otwarte"
+      ],
+      "note": "Blank on the participle rather than the copula — see item 5. Same forced choice."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The hotel was closed.",
+      "answer": "Hotel był zamknięty.",
+      "accepts": [
+        "Hotel był zamknięty.",
+        "Hotel był zamknięty"
+      ],
+      "explain": "hotel is masculine, so both words end masculine: był and zamknięty."
+    },
+    {
+      "prompt_en": "Type: The school will be closed.",
+      "answer": "Szkoła będzie zamknięta.",
+      "accepts": [
+        "Szkoła będzie zamknięta.",
+        "Szkoła będzie zamknięta"
+      ],
+      "explain": "będzie stays as it is; only zamknięta shows that szkoła is feminine."
+    },
+    {
+      "prompt_en": "Type: The shop was open.",
+      "answer": "Sklep był otwarty.",
+      "accepts": [
+        "Sklep był otwarty.",
+        "Sklep był otwarty"
+      ]
+    },
+    {
+      "prompt_en": "Type: The post office will be open.",
+      "answer": "Poczta będzie otwarta.",
+      "accepts": [
+        "Poczta będzie otwarta.",
+        "Poczta będzie otwarta"
+      ]
+    },
+    {
+      "prompt_en": "Type: The breakfast was cooked.",
+      "answer": "Śniadanie było ugotowane.",
+      "accepts": [
+        "Śniadanie było ugotowane.",
+        "Śniadanie było ugotowane"
+      ],
+      "explain": "śniadanie is neuter, so było and ugotowane — the -o and the -e are the same agreement said twice."
+    },
+    {
+      "prompt_en": "Type: The report was written.",
+      "answer": "Raport był napisany.",
+      "accepts": [
+        "Raport był napisany.",
+        "Raport był napisany"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coffee was made.",
+      "answer": "Kawa była zrobiona.",
+      "accepts": [
+        "Kawa była zrobiona.",
+        "Kawa była zrobiona"
+      ]
+    },
+    {
+      "prompt_en": "Type: The dinner will be cooked.",
+      "answer": "Obiad będzie ugotowany.",
+      "accepts": [
+        "Obiad będzie ugotowany.",
+        "Obiad będzie ugotowany"
+      ]
+    },
+    {
+      "prompt_en": "Type: The window will be open.",
+      "answer": "Okno będzie otwarte.",
+      "accepts": [
+        "Okno będzie otwarte.",
+        "Okno będzie otwarte"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bill was paid.",
+      "answer": "Rachunek był zapłacony.",
+      "accepts": [
+        "Rachunek był zapłacony.",
+        "Rachunek był zapłacony"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "jest",
+    "był",
+    "była",
+    "było",
+    "będzie",
+    "otwarty",
+    "otwarta",
+    "otwarte",
+    "zamknięty",
+    "zamknięta",
+    "zamknięte",
+    "zrobiona",
+    "zrobione",
+    "zrobiony",
+    "napisany",
+    "napisane",
+    "ugotowany",
+    "ugotowana",
+    "ugotowane",
+    "zapłacony",
+    "zapłacona",
+    "zapłacone",
+    "sklep",
+    "bank",
+    "apteka",
+    "biuro",
+    "kawiarnia",
+    "hotel",
+    "szkoła",
+    "poczta",
+    "okno",
+    "obiad",
+    "zupa",
+    "śniadanie",
+    "kawa",
+    "rachunek",
+    "list",
+    "raport",
+    "praca",
+    "zadanie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_passive",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

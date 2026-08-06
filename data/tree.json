@@ -3551,18 +3551,19 @@
     {
       "id": "b2_passive",
       "domain": "grammar",
-      "label": "Sklep jest zamknięty",
-      "label_en": "The state passive",
+      "label": "Jest · był · będzie zamknięty",
+      "label_en": "The passive in three tenses",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 7, unit 3 (spine O5). byc + participle: Sklep jest zamkniety. Praca jest zrobiona. Obiad byl ugotowany. ZERO new forms - the participles come from the unit before, byc is owned in all three tenses. FENCED TO C1: the zostac dynamic passive (Sklep zostal zamkniety) - zostac is an untaught verb with its own conjugation, so teaching it here would stack a new verb on a new construction.",
+      "note": "[B2 Block 7 unit 3, spine O5] The passive as a CONSTRUCTION, moved through time - the other half of a load split b2_participle_pass states in its own note: that unit is the FORM and its agreement (X jest <participle>, present only); this one adds byl/byla/bylo and bedzie, and names the passive. ZERO NEW LEMMAS - teaches_lemmas is legitimately empty on the adj_gen/copular_future/adj_inst/ze_clauses/indirect_q convention; the participles come from the node before, byl from past_byc (A2) and bedzie from bedzie/copular_future. THE REAL CONTENT IS DOUBLE AGREEMENT: in the past BOTH words carry the gender and must carry the same one (Sklep byl zamkniety / Apteka byla zamknieta / Biuro bylo zamkniete), and the predictable error - moving the tense and leaving the participle behind - is named. THE FUTURE IS THE ASYMMETRY, paying back a2_bedzie's gift: bedzie has no gender and the participle after it agrees anyway, so in the past both words move and in the future only the second one does. STATE PASSIVE ONLY and the pack says so: zostac (dynamic passive) is verified NEW along with zostal/zostanie and stays fenced to C1, named on the last slide as an accepted gap. THE AGENT PHRASE IS IMPOSSIBLE rather than policed - przez is verified NEW. SINGULAR ONLY, inherited from b2_participle_pass for its homograph reason (zrobione is neuter singular here and also the non-virile plural). Pisanie is ALL CLOZE - every sentence is composed; 5 of 12 blank the copula (all five distinct singular forms) and 7 blank the agreeing participle under the repair-queue fallback clause, logged per item. See B2-SPINE Block 7.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b2_passive.json"
     },
     {
       "id": "b2_travel_func",
