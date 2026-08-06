@@ -3585,18 +3585,19 @@
     {
       "id": "b2_discussion_func",
       "domain": "grammar",
-      "label": "Rozmowa",
-      "label_en": "Situations · taking part in a discussion",
+      "label": "Uważam, że…",
+      "label_en": "Taking part in a discussion",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 8, unit 2. Situations/chunk unit: agreeing, disagreeing politely, asking someone to expand, conceding a point. Recombines b1_opinions, b2_ze_clauses, b2_abstract and the conditional. Candidates verified NEW: uwazam, wydaje mi sie, zalezy, raczej, wlasnie, wedlug. Label uses 'rozmowa', taught earlier in B2 by b2_work - re-verify at wire time.",
+      "note": "[B2 Block 8 unit 2] SITUATIONS unit, chunk lane, reusing situation_chunk (no new structure ID). Recombines b1_opinions, b2_ze_clauses and the conjunctions; the learner already owns moim zdaniem, zgadzam sie, nie zgadzam sie, masz racje, moze and na pewno, and what he has never had is the layer BETWEEN agreeing and disagreeing. THE SPINE'S LIST WAS CUT BY ONE and it is the loudest call in the batch: the spine offers 'wydaje mi sie', but check_new.py reports WYDAJE AS ALREADY TAUGHT by b2_verb_family2 at path 170 - FIVE NODES BACK - where it is the 3sg of wydawac, TO SPEND MONEY. mi and sie are owned too, so the whole phrase would be assembled from three owned strings all meaning something else, at the worst possible distance. DROPPED on the conservative-fork rule and flagged for James; if he wants it, it needs its own moment naming the collision (the dziekuje / ktorej chunk-to-slot treatment). `chyba` was brought in to fill the hedging hole, logged as a substitution not a silent addition. SIX NEW WORDS ORGANISED BY JOB, because six near-synonymous adverbs in a list is the cliff load-splitting forbids: state a view (uwazam ze, wedlug mnie) / hedge (chyba, raczej) / agree sharply (wlasnie) / refuse to commit (to zalezy). pewnie, naprawde and dokladnie verified NEW and DELIBERATELY NOT TAKEN - near-synonyms that would have flattened the four jobs into a pile; logged for C1. TAUGHT CHUNKS ARE NEVER DECOMPOSED: racja/racje/zgadzam are all NEW as bare forms while mam racje / zgadzam sie are owned WHOLE, so no item blanks inside one - several natural quiz items were drafted and cut for this. Verified by script that every occurrence of racje/zgadzam/zgadzasz/pewno in learner-facing text sits inside its whole chunk. WEDLUG in one frozen phrase only (taty, lekarza both NEW, so wedlug taty is unbuildable); wedlug mnie works because mnie is genuinely syncretic, named in one line. UWAZAM IS FIRST PERSON ONLY on the wiem-quarantine pattern; the consequence is stated and the learner asks back with owned material (Dlaczego tak myslisz?). NIE MIEC RACJI FENCED per B2-SPINE leaves-to-C1 item 12. Synonym pairs (uwazam/mysle, wedlug mnie/moim zdaniem) forced every quiz choice list to exclude a true rival of its own answer. Pisanie is 8 items - twelve is the MATCH board's size, not this stage's. See B2-SPINE Block 8.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b2_discussion_func.json"
     },
     {
       "id": "b2_case_gym",

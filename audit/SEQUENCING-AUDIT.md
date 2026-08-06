@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 169 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 170 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -186,4 +186,5 @@ _None._
 | 173 | `b2_participle_pass` | `participle_pass` | 16 | `aspect_past`, `aspect_prefixes`, `byc_adj`, `byc_present`, `conjunctions`, `participle_pass`, `present`, `question`, `ten_ta_to`, `verbal_nouns`, `zgoda` |
 | 174 | `b2_passive` | `passive` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `participle_pass`, `passive`, `past_byc`, `zgoda` |
 | 175 | `b2_travel_func` | `situation_chunk` | 27 | `bedzie`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `existential_jest`, `miec_acc`, `miec_present`, `ordinals_time`, `participle_pass`, `passive`, `prep_place`, `prep_w_loc`, `question`, `situation_chunk`, `zgoda` |
+| 176 | `b2_discussion_func` | `situation_chunk` | 12 | `bedzie`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `miec_present`, `present`, `question`, `questions2`, `situation_chunk`, `ten_ta_to`, `ze_clauses`, `zgoda` |
 
