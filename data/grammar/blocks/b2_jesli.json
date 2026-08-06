@@ -368,99 +368,109 @@
  "type_items": [
   {
    "prompt_en": "If you have time, I will make dinner.",
-   "mode": "full_word",
-   "answer": "Jeśli masz czas, zrobię obiad.",
+   "mode": "cloze",
+   "answer": "Jeśli",
    "accepts": [
-    "Jeśli masz czas, zrobię obiad.",
-    "Jeśli masz czas, zrobię obiad"
-   ]
+    "Jeśli"
+   ],
+   "frame": "___ masz czas, zrobię obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on jeśli — the unit's single new word and its only teaches_lemma. Produced exactly once in the stage."
   },
   {
    "prompt_en": "If the shop is open, I will buy bread.",
-   "mode": "full_word",
-   "answer": "Jeśli sklep jest otwarty, kupię chleb.",
+   "mode": "cloze",
+   "answer": "kupię",
    "accepts": [
-    "Jeśli sklep jest otwarty, kupię chleb.",
-    "Jeśli sklep jest otwarty, kupię chleb"
-   ]
+    "kupię"
+   ],
+   "frame": "Jeśli sklep jest otwarty, ___ chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Present condition, future result. Blank on the result verb; jest was spent at item 9, where it carries the tense-choice explain."
   },
   {
    "prompt_en": "If the weather is nice, I will be in the park.",
-   "mode": "full_word",
-   "answer": "Jeśli pogoda będzie ładna, będę w parku.",
+   "mode": "cloze",
+   "answer": "będzie",
    "accepts": [
-    "Jeśli pogoda będzie ładna, będę w parku.",
-    "Jeśli pogoda będzie ładna, będę w parku"
+    "będzie"
    ],
-   "explain": "The weather here is next weekend, not this second, so Polish says będzie. English writes is after \"if\" and means the future anyway — Polish just puts the real tense in."
+   "explain": "The weather here is next weekend, not this second, so Polish says będzie. English writes is after \"if\" and means the future anyway — Polish just puts the real tense in.",
+   "frame": "Jeśli pogoda ___ ładna, będę w parku.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Blank INSIDE the jeśli-clause on the future form — the unit's one real teaching point, and exactly what this item's explain names (English says 'is', Polish says będzie). Keeps the fact in production, as the pack note requires."
   },
   {
    "prompt_en": "If it is cold, I will be at home.",
-   "mode": "full_word",
-   "answer": "Jeśli będzie zimno, będę w domu.",
+   "mode": "cloze",
+   "answer": "będę",
    "accepts": [
-    "Jeśli będzie zimno, będę w domu.",
-    "Jeśli będzie zimno, będę w domu"
+    "będę"
    ],
-   "explain": "Both halves are about later, so both halves are future: będzie zimno, będę w domu. będzie has one shape here — there is no subject for it to agree with."
+   "explain": "Both halves are about later, so both halves are future: będzie zimno, będę w domu. będzie has one shape here — there is no subject for it to agree with.",
+   "frame": "Jeśli będzie zimno, ___ w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Both halves are future; będzie was spent at item 2, so the blank takes the other future form in the same sentence. The item's explain covers both halves, so it still fits the blank."
   },
   {
    "prompt_en": "If you are tired, go home.",
-   "mode": "full_word",
-   "answer": "Jeśli jesteś zmęczony, idź do domu.",
+   "mode": "cloze",
+   "answer": "idź",
    "accepts": [
-    "Jeśli jesteś zmęczony, idź do domu.",
-    "Jeśli jesteś zmęczony, idź do domu"
-   ]
+    "idź"
+   ],
+   "frame": "Jeśli jesteś zmęczony, ___ do domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the imperative result — the harder form; the present-tense condition stays visible."
   },
   {
    "prompt_en": "If you have money, buy a ticket.",
-   "mode": "full_word",
-   "answer": "Jeśli masz pieniądze, kup bilet.",
+   "mode": "cloze",
+   "answer": "kup",
    "accepts": [
-    "Jeśli masz pieniądze, kup bilet.",
-    "Jeśli masz pieniądze, kup bilet"
-   ]
+    "kup"
+   ],
+   "frame": "Jeśli masz pieniądze, ___ bilet.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the imperative result, distinct from item 4."
   },
   {
    "prompt_en": "If Dad is at home, I will come.",
-   "mode": "full_word",
-   "answer": "Jeśli tata będzie w domu, przyjdę.",
+   "mode": "cloze",
+   "answer": "przyjdę",
    "accepts": [
-    "Jeśli tata będzie w domu, przyjdę.",
-    "Jeśli tata będzie w domu, przyjdę"
+    "przyjdę"
    ],
-   "explain": "You are coming later, so Dad is at home later too: będzie w domu. będzie needs nothing after it but the place."
+   "explain": "You are coming later, so Dad is at home later too: będzie w domu. będzie needs nothing after it but the place.",
+   "frame": "Jeśli tata będzie w domu, ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. będzie was spent at item 2, so the blank takes the perfective-future result verb — still a future form, so the item keeps demanding the unit's tense fact in production."
   },
   {
    "prompt_en": "If you are hungry, I will make soup.",
-   "mode": "full_word",
-   "answer": "Jeśli będziesz głodny, zrobię zupę.",
+   "mode": "cloze",
+   "answer": "będziesz",
    "accepts": [
-    "Jeśli będziesz głodny, zrobię zupę.",
-    "Jeśli będziesz głodny, zrobię zupę"
+    "będziesz"
    ],
-   "explain": "The soup is not made yet, so the hunger is later as well: będziesz głodny. The adjective still agrees with you — głodny for a man, głodna for a woman."
+   "explain": "The soup is not made yet, so the hunger is later as well: będziesz głodny. The adjective still agrees with you — głodny for a man, głodna for a woman.",
+   "frame": "Jeśli ___ głodny, zrobię zupę.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank inside the jeśli-clause on the 2sg future — the unit's teaching point and the second item that produces it, this time in a person that is unique in the stage."
   },
   {
    "prompt_en": "If Mum is at work, Dad will make dinner.",
-   "mode": "full_word",
-   "answer": "Jeśli mama będzie w pracy, tata zrobi obiad.",
+   "mode": "cloze",
+   "answer": "zrobi",
    "accepts": [
-    "Jeśli mama będzie w pracy, tata zrobi obiad.",
-    "Jeśli mama będzie w pracy, tata zrobi obiad"
+    "zrobi"
    ],
-   "explain": "Dinner is later, so Mum's shift is later: będzie w pracy. English says is here and means will be."
+   "explain": "Dinner is later, so Mum's shift is later: będzie w pracy. English says is here and means will be.",
+   "frame": "Jeśli mama będzie w pracy, tata ___ obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 8 words. będzie was spent at item 2; the blank takes the perfective-future result verb, so the item still demands a future form."
   },
   {
    "prompt_en": "If this is a good decision, it will be fine.",
-   "mode": "full_word",
-   "answer": "Jeśli to jest dobra decyzja, będzie dobrze.",
+   "mode": "cloze",
+   "answer": "jest",
    "accepts": [
-    "Jeśli to jest dobra decyzja, będzie dobrze.",
-    "Jeśli to jest dobra decyzja, będzie dobrze"
+    "jest"
    ],
-   "explain": "The decision is a good one now, so that half stays present: to jest. Only the second half looks forward, and there będzie dobrze does the work."
+   "explain": "The decision is a good one now, so that half stays present: to jest. Only the second half looks forward, and there będzie dobrze does the work.",
+   "frame": "Jeśli to ___ dobra decyzja, będzie dobrze.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Blank on the PRESENT form in the jeśli-clause — the other side of the unit's tense point, and precisely what this item's explain says: the decision is good now, so that half stays present."
   }
  ],
  "use_items": [
