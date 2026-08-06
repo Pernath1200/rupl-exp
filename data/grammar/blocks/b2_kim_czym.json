@@ -1,0 +1,634 @@
+{
+ "id": "b2_kim_czym",
+ "title": "Kto? Kogo? Z kim?",
+ "title_en": "Question words take cases too",
+ "level": "B2",
+ "tree_node": "b2_kim_czym",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 3, unit 3 (spine). FIVE NEW FORMS: kogo, czego, komu, kim, czym — all verified NEW. kto and co both report TAUGHT (a1_questions) and are the anchors, recycled and never re-taught.\n\nPAYS TWO NAMED FENCES AT ONCE, which is why the spine gave it a slot. (1) a2_inst_z's: 'kim is a new pronoun form and is not in POOL; if James wants Z kim? as a live question it needs its own small unit.' That fence is also the reason one of AGENTS.md's three named title-rule violations exists (the old 'Z kim?' title carrying an untaught form). (2) a2_o_loc's: o czym was kept out of every slide AND out of body_pl there. Both are paid here, in the same five forms.\n\nTHE FRAME: kto and co have been subjects since A1 (Kto to jest? Co to jest?). Put either one anywhere else in the sentence and it takes a case, exactly like a noun or an adjective, and exactly the same governor decides which — the verb or the preposition in front of it. No new governors anywhere in this unit: object verbs (miec_acc, pron_acc's verb list), do + Genitive (prep_do_gen), nie ma + Genitive (negation), pomagać/dziękować + Dative (dative_sg), o + Locative (o_loc), z + Instrumental (inst_z), bare Instrumental of transport (inst_transport), and być + Instrumental identity (inst_identity).\n\nTHE GIFT, and slide 2 — the forms collapse in patterns the learner has met twice in the last five units. kogo does the object job AND the do / nie ma job, which is not a new idea at all: b2_adj_gen taught exactly that merger for masculine people and animals (Mam małego psa / do małego psa), and kto is a person, so it behaves like one. kim and czym each cover Locative and Instrumental, precisely as nim does (b2_pron_prep, one unit ago) and precisely as dobrym does (b2_adj_loc / b2_adj_inst). So five forms carry eight jobs and only three of the mergers have to be learned, because all three are re-sightings.\n\nTHE HONEST CONTRAST that keeps the learner from over-applying it: for a THING the object form is just co (Co masz?), because things never do the Acc-equals-Gen merger. czego is the do / nie ma form only. This is one line and one quiz pair (items 1 and 10).\n\nczemu IS FENCED AND APPEARS NOWHERE — not in a table, not as a distractor. Two reasons, either sufficient: the Dative of a thing is rare enough that this learner gets no value from it, and czemu is also colloquial Polish for 'why', so shipping it here would plant a homograph in the same unit that introduces the form. The Dative row of the table therefore carries an em dash in the thing column, and the slide says plainly that things almost never take that one.\n\nINDIRECT QUESTIONS ARE FENCED ABSOLUTELY. Every kim / czym / kogo / czego / komu in this pack is a DIRECT question with a question mark. Nie wiem, kogo znasz appears nowhere — embedded questions are b2_indirect_q's single new fact, four units later on the path, and a2_questions2 already fenced them by name ('no indirect questions: Nie wiem, kiedy... is B1').\n\nQUIZ ANSWER REPEATS ARE DELIBERATE, and this is the b2_adj_gym precedent stated again. The unit has exactly seven legal answer strings (kto, co, kogo, czego, komu, kim, czym), so twelve distinct quiz answers is arithmetically impossible without padding or fabrication. Instead the quiz is built on FIVE MINIMAL PAIRS — items 1/2 (kogo as object vs kogo after do), 4/5 (komu after two different Dative verbs), 6/7 (kim after o vs after z), 8/9 (czym after o vs bare for transport), 1/10 (kogo for a person vs co for a thing). Two items carrying the same answer under two different sentences is the cleanest possible demonstration that the sentence decides the form, which is the whole unit; b2_adj_gym made the same call for the same reason. No two prompts are the same.\n\nFENCED: czemu (above); czyj (NEW); kim/czym in any plural or after any preposition other than o and z; na/za/dla + question word (dla itself reports NEW and was already dropped from b2_pron_prep for that reason); negated objects anywhere, held from b2_pron_acc, since Nie znam kogo would need the Genitive of negation, which is b2_neg_gen's job later in this level; and Kogo nie ma? — deliberately not shown even though it is grammatical, because it puts a person into the nie ma slot the pack has just used for things, one contrast too many.\n\nWORD-ORDER NOTE: every question here puts the question word first, which is the only order taught and the only one used. Noun subjects sit after the verb (O kim mówi tata?), which is the neutral order for a wh-question and matches how b1_ktory_cases already writes them.\n\nDistractors are real taught Polish in the wrong slot throughout — every wrong choice is another form from this same unit, or kto/co, doing a job it does not do. Nothing fabricated. Bare governed prepositions (o, z, do) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride o_loc, inst_z and prep_do_gen, all declared in uses_structures.",
+ "focus_structures": [
+  "question_cases"
+ ],
+ "teaches_structures": [
+  "question_cases"
+ ],
+ "teaches_lemmas": [
+  "kogo",
+  "czego",
+  "komu",
+  "kim",
+  "czym"
+ ],
+ "uses_structures": [
+  "question_cases",
+  "question",
+  "questions2",
+  "o_loc",
+  "inst_z",
+  "inst_transport",
+  "inst_identity",
+  "prep_do_gen",
+  "prep_w_loc",
+  "negation",
+  "existential_jest",
+  "dative_sg",
+  "miec_present",
+  "miec_acc",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "byc_present",
+  "jechac",
+  "poss_nom",
+  "to_jest"
+ ],
+ "intro": [
+  {
+   "title": "Kto and co change shape too",
+   "title_pl": "Kto? Kogo? Komu? Z kim?",
+   "body": "You have asked Kto to jest? and Co to jest? since the very first units. In those questions kto and co are the subject — the person or thing doing something.\n\nMove the question word anywhere else in the sentence and it takes a case, exactly like a noun or an adjective. And exactly the same thing decides which case: the verb or the preposition standing in front of it. There is not one new verb or one new preposition in this unit — only five new shapes of two words you have had since A1.",
+   "body_pl": "kto · kogo · komu · kim   ·   co · czego · czym",
+   "table": {
+    "headers": [
+     "What decides it",
+     "About a person",
+     "About a thing"
+    ],
+    "rows": [
+     [
+      "subject of the verb",
+      "kto",
+      "co"
+     ],
+     [
+      "object of znam, lubię, mam",
+      "kogo",
+      "co"
+     ],
+     [
+      "after do, after nie ma",
+      "kogo",
+      "czego"
+     ],
+     [
+      "after pomagam, dziękuję",
+      "komu",
+      "—"
+     ],
+     [
+      "after o, after z",
+      "kim",
+      "czym"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Who do you know?",
+     "pl": "Kogo znasz?"
+    },
+    {
+     "en": "Who are you calling?",
+     "pl": "Do kogo dzwonisz?"
+    }
+   ]
+  },
+  {
+   "title": "Three of these mergers you have already seen",
+   "title_pl": "kogo: biernik i dopełniacz · kim, czym: miejscownik i narzędnik",
+   "body": "Five forms cover eight jobs, because three of them do double duty — and you have met all three of those mergers already, on other words, in the last few units.\n\nkogo is both the object form and the do / nie ma form. That is the merger b2_adj_gen taught you for masculine people and animals: Mam małego psa and do małego psa are the same shape. Kto is a person, so kto behaves like one.\n\nkim and czym each cover the o job and the z job. That is the merger you learned twice over: nim covers both (o nim, z nim), and so does dobrym (w dobrym hotelu, z dobrym kolegą).\n\nOne thing does not merge, and it is worth a moment: for a thing the object form is just co. Co masz? never becomes czego masz. Things do not do the object-equals-do merger — only people and animals do.",
+   "body_pl": "Kogo znasz? · Do kogo dzwonisz?   ·   O kim mówisz? · Z kim pracujesz?   ·   Co masz?",
+   "table": {
+    "headers": [
+     "Form",
+     "One job",
+     "And also",
+     "You saw this on"
+    ],
+    "rows": [
+     [
+      "kogo",
+      "Kogo znasz?",
+      "Do kogo dzwonisz?",
+      "psa · małego psa"
+     ],
+     [
+      "kim",
+      "O kim mówisz?",
+      "Z kim pracujesz?",
+      "nim · dobrym"
+     ],
+     [
+      "czym",
+      "O czym myślisz?",
+      "Czym jedziesz?",
+      "nim · dobrym"
+     ],
+     [
+      "co",
+      "Co to jest?",
+      "Co masz?",
+      "things never merge"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "What are you thinking about?",
+     "pl": "O czym myślisz?"
+    },
+    {
+     "en": "What do you have?",
+     "pl": "Co masz?"
+    }
+   ]
+  },
+  {
+   "title": "The five questions worth having ready",
+   "title_pl": "Z kim? · O czym? · Komu? · Kogo? · Czym?",
+   "body": "These are the ones that come up in a real conversation, each with the sort of answer it expects. Notice that the answer always uses the same case the question did — the question word and the answer are in the same slot.\n\nCzym jedziesz? is the one people are most surprised by. It is the plain Instrumental of transport you have used since jadę autobusem — no preposition, just the bare form, and czym is what you ask it with.",
+   "body_pl": "Z kim pracujesz? — Pracuję z bratem.   ·   Czym jedziesz? — Jadę autobusem.",
+   "table": {
+    "headers": [
+     "Question",
+     "An answer it expects"
+    ],
+    "rows": [
+     [
+      "Kogo znasz?",
+      "Znam brata."
+     ],
+     [
+      "Komu pomagasz?",
+      "Pomagam mamie."
+     ],
+     [
+      "O kim mówisz?",
+      "Mówię o siostrze."
+     ],
+     [
+      "Z kim pracujesz?",
+      "Pracuję z bratem."
+     ],
+     [
+      "Czym jedziesz?",
+      "Jadę autobusem."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Who are you helping?",
+     "pl": "Komu pomagasz?"
+    },
+    {
+     "en": "What is missing?",
+     "pl": "Czego nie ma?"
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "Who do you know?",
+   "pl": "Kogo znasz?"
+  },
+  {
+   "en": "Who are you calling?",
+   "pl": "Do kogo dzwonisz?"
+  },
+  {
+   "en": "Who do you love?",
+   "pl": "Kogo kochasz?"
+  },
+  {
+   "en": "What is missing?",
+   "pl": "Czego nie ma?"
+  },
+  {
+   "en": "Who are you helping?",
+   "pl": "Komu pomagasz?"
+  },
+  {
+   "en": "Who are you thanking?",
+   "pl": "Komu dziękujesz?"
+  },
+  {
+   "en": "Who are you talking about?",
+   "pl": "O kim mówisz?"
+  },
+  {
+   "en": "Who do you work with?",
+   "pl": "Z kim pracujesz?"
+  },
+  {
+   "en": "Who are you? (what do you do)",
+   "pl": "Kim jesteś?"
+  },
+  {
+   "en": "What are you thinking about?",
+   "pl": "O czym myślisz?"
+  },
+  {
+   "en": "What are you travelling by?",
+   "pl": "Czym jedziesz?"
+  },
+  {
+   "en": "Who is at home?",
+   "pl": "Kto jest w domu?"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "___ znasz? (Who do you know?)",
+   "choices": [
+    "Kogo",
+    "Kto",
+    "Komu",
+    "Kim"
+   ],
+   "answer": "Kogo",
+   "explain": "znam takes an object, and for a person the object form is kogo. Kto is the subject form — Kto zna? would be asking who does the knowing."
+  },
+  {
+   "prompt": "Do ___ dzwonisz? (Who are you calling?)",
+   "choices": [
+    "kogo",
+    "komu",
+    "kim",
+    "kto"
+   ],
+   "answer": "kogo",
+   "explain": "do has taken the Genitive since do domu, and for kto the Genitive is kogo — the same shape as the object form, exactly as with małego psa."
+  },
+  {
+   "prompt": "___ nie ma w lodówce? (What is missing from the fridge?)",
+   "choices": [
+    "Czego",
+    "Co",
+    "Czym",
+    "Kogo"
+   ],
+   "answer": "Czego",
+   "explain": "nie ma has always been followed by the Genitive — nie ma kawy. So the question word goes into the Genitive too: czego."
+  },
+  {
+   "prompt": "___ pomagasz? (Who are you helping?)",
+   "choices": [
+    "Komu",
+    "Kogo",
+    "Kim",
+    "Kto"
+   ],
+   "answer": "Komu",
+   "explain": "pomagać takes the Dative — pomagam mamie, pomagam studentowi. The Dative question word is komu."
+  },
+  {
+   "prompt": "___ dziękujesz? (Who are you thanking?)",
+   "choices": [
+    "Komu",
+    "Kogo",
+    "Czego",
+    "Kim"
+   ],
+   "answer": "Komu",
+   "explain": "dziękować takes the Dative just as pomagać does, so it is komu again — the verb decides, and these two verbs decide the same way. Czego is a thing word, and you thank a person."
+  },
+  {
+   "prompt": "O ___ mówi tata? (Who is Dad talking about?)",
+   "choices": [
+    "kim",
+    "kogo",
+    "komu",
+    "czym"
+   ],
+   "answer": "kim",
+   "explain": "o has taken the Locative since mówię o pracy, and for a person the Locative question word is kim. czym would be asking about a thing, not a person."
+  },
+  {
+   "prompt": "Z ___ pracujesz? (Who do you work with?)",
+   "choices": [
+    "kim",
+    "kogo",
+    "komu",
+    "kto"
+   ],
+   "answer": "kim",
+   "explain": "z takes the Instrumental — z bratem, z mamą. For kto the Instrumental is kim, the same shape as after o. This is the merger nim and dobrym already showed you."
+  },
+  {
+   "prompt": "O ___ myślisz? (What are you thinking about?)",
+   "choices": [
+    "czym",
+    "czego",
+    "co",
+    "kim"
+   ],
+   "answer": "czym",
+   "explain": "o + Locative again, but the question is about a thing, so it is czym. czego is the do / nie ma form and does not belong after o."
+  },
+  {
+   "prompt": "___ jedziesz do pracy? (What do you travel to work by?)",
+   "choices": [
+    "Czym",
+    "Czego",
+    "Co",
+    "Kim"
+   ],
+   "answer": "Czym",
+   "explain": "The means of travel has been a bare Instrumental with no preposition since jadę autobusem. czym is that same slot as a question."
+  },
+  {
+   "prompt": "___ masz? (What do you have?)",
+   "choices": [
+    "Co",
+    "Czego",
+    "Czym",
+    "Kogo"
+   ],
+   "answer": "Co",
+   "explain": "This is the contrast worth remembering: for a thing the object form is just co, unchanged. Only people and animals merge their object form with the Genitive."
+  },
+  {
+   "prompt": "___ jest w biurze? (Who is in the office?)",
+   "choices": [
+    "Kto",
+    "Kogo",
+    "Komu",
+    "Kim"
+   ],
+   "answer": "Kto",
+   "explain": "Here the question word is the subject — the one doing the being — so it stays in its plain form kto, exactly as in Kto to jest?"
+  },
+  {
+   "prompt": "___ jest twoja siostra? (What does your sister do?)",
+   "choices": [
+    "Kim",
+    "Kto",
+    "Kogo",
+    "Czym"
+   ],
+   "answer": "Kim",
+   "explain": "Asking someone's job uses być plus the Instrumental — Jestem nauczycielem. So the question word is the Instrumental kim, not kto."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "about whom",
+   "mode": "full_word",
+   "answer": "o kim",
+   "accepts": [
+    "o kim"
+   ]
+  },
+  {
+   "prompt_en": "about what",
+   "mode": "full_word",
+   "answer": "o czym",
+   "accepts": [
+    "o czym"
+   ]
+  },
+  {
+   "prompt_en": "with whom",
+   "mode": "full_word",
+   "answer": "z kim",
+   "accepts": [
+    "z kim"
+   ]
+  },
+  {
+   "prompt_en": "to whom (as in calling someone)",
+   "mode": "full_word",
+   "answer": "do kogo",
+   "accepts": [
+    "do kogo"
+   ]
+  },
+  {
+   "prompt_en": "who (as the object of znam)",
+   "mode": "full_word",
+   "answer": "kogo",
+   "accepts": [
+    "kogo"
+   ]
+  },
+  {
+   "prompt_en": "what (as the object of mam)",
+   "mode": "full_word",
+   "answer": "co",
+   "accepts": [
+    "co"
+   ]
+  },
+  {
+   "prompt_en": "to whom (as in helping someone)",
+   "mode": "full_word",
+   "answer": "komu",
+   "accepts": [
+    "komu"
+   ]
+  },
+  {
+   "prompt_en": "what (after nie ma)",
+   "mode": "full_word",
+   "answer": "czego",
+   "accepts": [
+    "czego"
+   ]
+  },
+  {
+   "prompt_en": "by what (the means you travel by)",
+   "mode": "full_word",
+   "answer": "czym",
+   "accepts": [
+    "czym"
+   ]
+  },
+  {
+   "prompt_en": "who (as the subject)",
+   "mode": "full_word",
+   "answer": "kto",
+   "accepts": [
+    "kto"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Who does Mum know?",
+   "answer": "Kogo zna mama?",
+   "accepts": [
+    "Kogo zna mama?",
+    "Kogo zna mama"
+   ],
+   "explain": "zna needs an object and the object is a person, so kto goes to kogo. The subject mama sits after the verb, which is the ordinary order in a question."
+  },
+  {
+   "prompt_en": "Type: Who are you calling?",
+   "answer": "Do kogo dzwonisz?",
+   "accepts": [
+    "Do kogo dzwonisz?",
+    "Do kogo dzwonisz"
+   ],
+   "explain": "You have said dzwonię do domu and dzwonię do matki. The preposition do keeps its Genitive here, and the Genitive of kto is kogo."
+  },
+  {
+   "prompt_en": "Type: Who is Dad talking about?",
+   "answer": "O kim mówi tata?",
+   "accepts": [
+    "O kim mówi tata?",
+    "O kim mówi tata"
+   ],
+   "explain": "o has taken the Locative since mówię o pracy. For a person that form is kim."
+  },
+  {
+   "prompt_en": "Type: What is Mum thinking about?",
+   "answer": "O czym myśli mama?",
+   "accepts": [
+    "O czym myśli mama?",
+    "O czym myśli mama"
+   ],
+   "explain": "Same preposition, same case, but the question is about a thing — so czym, not kim."
+  },
+  {
+   "prompt_en": "Type: Who does your sister work with?",
+   "answer": "Z kim pracuje twoja siostra?",
+   "accepts": [
+    "Z kim pracuje twoja siostra?",
+    "Z kim pracuje twoja siostra"
+   ],
+   "explain": "z takes the Instrumental, as in z siostrą and z bratem. The Instrumental of kto is kim — the same shape you just used after o."
+  },
+  {
+   "prompt_en": "Type: Who is the teacher helping?",
+   "answer": "Komu pomaga nauczyciel?",
+   "accepts": [
+    "Komu pomaga nauczyciel?",
+    "Komu pomaga nauczyciel"
+   ],
+   "explain": "pomagać takes the Dative — pomagam nauczycielowi — so the question word is komu."
+  },
+  {
+   "prompt_en": "Type: What is missing from the fridge?",
+   "answer": "Czego nie ma w lodówce?",
+   "accepts": [
+    "Czego nie ma w lodówce?",
+    "Czego nie ma w lodówce"
+   ],
+   "explain": "nie ma is followed by the Genitive — nie ma mleka — so the question word is the Genitive czego."
+  },
+  {
+   "prompt_en": "Type: What does Dad travel to the office by?",
+   "answer": "Czym tata jedzie do biura?",
+   "accepts": [
+    "Czym tata jedzie do biura?",
+    "Czym tata jedzie do biura"
+   ],
+   "explain": "The means of travel is a bare Instrumental with no preposition — jedzie autobusem — and czym asks for exactly that slot."
+  },
+  {
+   "prompt_en": "Type: What does your sister do? (asking her job)",
+   "answer": "Kim jest twoja siostra?",
+   "accepts": [
+    "Kim jest twoja siostra?",
+    "Kim jest twoja siostra"
+   ],
+   "explain": "Jobs are said with być plus the Instrumental — Jestem nauczycielką — so asking about one uses the Instrumental kim."
+  },
+  {
+   "prompt_en": "Type: Who has the key?",
+   "answer": "Kto ma klucz?",
+   "accepts": [
+    "Kto ma klucz?",
+    "Kto ma klucz"
+   ],
+   "explain": "Here the question word is the one doing the having, so it is the plain subject form kto. The thing had, klucz, is the object."
+  }
+ ],
+ "uses_lemmas": [
+  "kto",
+  "co",
+  "znam",
+  "znasz",
+  "zna",
+  "kocham",
+  "kochasz",
+  "mam",
+  "masz",
+  "ma",
+  "lubię",
+  "pomagam",
+  "pomagasz",
+  "pomaga",
+  "dziękuję",
+  "dziękujesz",
+  "dzwonisz",
+  "dzwonię do",
+  "mówię",
+  "mówisz",
+  "mówi",
+  "myślisz",
+  "myśli",
+  "pracuję",
+  "pracujesz",
+  "pracuje",
+  "jadę",
+  "jedziesz",
+  "jedzie",
+  "jest",
+  "jesteś",
+  "jestem",
+  "nie ma",
+  "mama",
+  "mamie",
+  "tata",
+  "brat",
+  "brata",
+  "bratem",
+  "siostra",
+  "siostrą",
+  "siostrze",
+  "twoja",
+  "nauczyciel",
+  "nauczycielem",
+  "nauczycielką",
+  "nauczycielowi",
+  "student",
+  "studentowi",
+  "klucz",
+  "praca",
+  "pracy",
+  "biura",
+  "biurze",
+  "domu",
+  "lodówce",
+  "autobusem",
+  "psa",
+  "małego",
+  "kawy",
+  "mleka",
+  "kolegą",
+  "dobrym",
+  "hotelu",
+  "nim",
+  "to"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_kim_czym",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

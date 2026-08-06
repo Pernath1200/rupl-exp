@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 137 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 138 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -154,4 +154,5 @@ _None._
 | 140 | `b2_adj_gym` | — | 0 | `adj_acc`, `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `byc_present`, `conjunctions`, `dative_sg`, `existential_jest`, `gen_endings`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `o_loc`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_uje`, `to_jest`, `zgoda` |
 | 141 | `b2_pron_acc` | `pron_acc` | 7 | `conjunctions`, `dat_chunks`, `dative_pron`, `dative_sg`, `miec_acc`, `present`, `present_am`, `present_e_isz`, `pron_acc`, `sie_reflexive`, `ten_ta_to`, `zgoda` |
 | 142 | `b2_pron_prep` | `pron_prep` | 6 | `byc_adj`, `byc_present`, `conjunctions`, `dat_chunks`, `dative_pron`, `dative_sg`, `inst_z`, `motion_chunk`, `o_loc`, `poss_nom`, `prep_do_gen`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `virile_reco` |
+| 143 | `b2_kim_czym` | `question_cases` | 5 | `byc_present`, `dative_sg`, `existential_jest`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `miec_present`, `negation`, `o_loc`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `question`, `question_cases`, `questions2`, `to_jest` |
 
