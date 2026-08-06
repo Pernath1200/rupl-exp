@@ -150,7 +150,7 @@ function escapeXml(s) {
  * First fruit only: tick + level chip + Learned bar (from RUE2).
  * Fires only when progress helpers say justFruited — not after a partial Use.
  */
-function showFruitPayoff({ before, after, kind = "learned" }) {
+function showFruitPayoff({ before, after, kind = "learned", level: lvlIn, nodeId }) {
   const root = document.getElementById("practice-root");
   if (!root) return;
   if (typeof root._rupl2UnbindKeys === "function") {
@@ -180,7 +180,7 @@ function showFruitPayoff({ before, after, kind = "learned" }) {
   const meterKey = isRemember ? "remembered" : "learned";
   const meterLabel = isRemember ? "Zapamiętane" : "Nauczone";
   const meterClass = isRemember ? "meter-remembered" : "meter-learned";
-  const level = STATE.level || "A1";
+  const level = lvlIn || levelOfNode(nodeById(nodeId)) || STATE.level || "A1";
   const total = after?.total > 0 ? after.total : 1;
   const pctOf = (n) => Math.round((100 * (n || 0)) / total);
   const fromN = before?.[meterKey] ?? 0;
@@ -202,6 +202,37 @@ function showFruitPayoff({ before, after, kind = "learned" }) {
     if (pctEl) pctEl.textContent = `${p}%`;
     if (track) track.setAttribute("aria-valuenow", String(p));
   };
+
+  // Author mode: WHY did fruit fire — gate snapshot for the played block.
+  // (James 2026-08-06: a fresh unit fruited before everything was right;
+  // this line makes the next occurrence self-diagnosing.)
+  let gateDiag = "";
+  if (isAuthorUnlock() && nodeId) {
+    try {
+      const prog = loadProgress();
+      const gb = prog.grammar.blocks[nodeId] || null;
+      const vb =
+        prog.vocab.blocks[nodeId] ||
+        Object.values(prog.vocab.blocks).find((b) => b && b.nodeId === nodeId) ||
+        null;
+      const b = gb || vb;
+      if (b) {
+        const bits = [];
+        bits.push(`modes: ${Object.keys(b.modes || {}).join(",") || "-"}`);
+        if (gb) {
+          bits.push(`best check=${b.best?.check ?? "-"} type=${b.best?.type ?? "-"}`);
+          bits.push(`cleanPass check=${!!b.checkCleanPass} type=${!!b.typeCleanPass}`);
+        } else {
+          bits.push(`best quiz=${b.bestQuiz ?? "-"} type=${b.bestType ?? "-"}`);
+          bits.push(`cleanPass quiz=${!!b.quizCleanPass} type=${!!b.typeCleanPass}`);
+          bits.push(`sentenceDone=${!!b.sentenceDone}`);
+        }
+        gateDiag = `<div class="fruit-payoff-diag">${escapeXml(nodeId)} · ${escapeXml(bits.join(" · "))}</div>`;
+      }
+    } catch {
+      gateDiag = "";
+    }
+  }
 
   root.innerHTML = `
     <div class="fruit-payoff" role="status" aria-live="polite"
@@ -228,6 +259,7 @@ function showFruitPayoff({ before, after, kind = "learned" }) {
           <div class="meter-fill" id="payoff-fill" style="width:${reduce ? toP : fromP}%"></div>
         </div>
       </div>
+      ${gateDiag}
       <div class="home-actions fruit-payoff-nav" role="group" aria-label="Główne akcje">
         <button type="button" class="home-btn home-btn-primary" id="${primaryId}">${primaryLabel}</button>
         <button type="button" class="home-btn" id="payoff-home">Start</button>
@@ -323,6 +355,13 @@ function showFruitPayoff({ before, after, kind = "learned" }) {
   root.querySelector(`#${primaryId}`)?.focus();
 }
 
+/** Level the payoff meter should show — the PLAYED node's level, not the
+ * level-rail selection (an A2 unit finished while the rail sat on A1 used
+ * to animate the A1 meter). */
+function levelOfNode(node) {
+  return (Array.isArray(node?.levels) && node.levels[0]) || STATE.level || "A1";
+}
+
 /** Returns true if payoff was shown. */
 function maybeShowFruitPayoff() {
   if (!STATE.pendingFruitPayoff) return false;
@@ -334,11 +373,13 @@ function maybeShowFruitPayoff() {
 
 function queueFruitPayoff(nodeId, statsBefore) {
   const nodes = STATE.tree?.nodes || [];
-  const statsAfter = levelUnitStats(STATE.level, nodes);
+  const lvl = levelOfNode(nodeById(nodeId));
+  const statsAfter = levelUnitStats(lvl, nodes);
   STATE.pendingFruitPayoff = {
     before: statsBefore,
     after: statsAfter,
     nodeId,
+    level: lvl,
     kind: "learned",
   };
   queueMicrotask(() => {
@@ -798,12 +839,12 @@ async function openNode(node, launch = {}) {
       startGrammarPractice(pack, root, {
         startStage: launch.review ? "type" : undefined,
         onBeforeProgress: () => {
-          statsBefore = levelUnitStats(STATE.level, STATE.tree?.nodes || []);
+          statsBefore = levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []);
         },
         onFruit: () => {
           queueFruitPayoff(
             node.id,
-            statsBefore || levelUnitStats(STATE.level, STATE.tree?.nodes || []),
+            statsBefore || levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []),
           );
         },
         onExit: () => {
@@ -880,7 +921,7 @@ async function openNode(node, launch = {}) {
         onTouch: () => touchVocabBlock(blockId, node.id),
         onModeComplete: (mode, meta) => {
           const nodes = STATE.tree?.nodes || [];
-          const statsBefore = levelUnitStats(STATE.level, nodes);
+          const statsBefore = levelUnitStats(levelOfNode(node), nodes);
           const wasFruit = hasVocabFruit(node);
           const r = completeVocabMode(blockId, mode, meta || {});
           const nowFruit = hasVocabFruit(node);
