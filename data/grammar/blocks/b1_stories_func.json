@@ -308,14 +308,15 @@
     },
     {
       "prompt_en": "Nothing happened. / It's fine.",
-      "mode": "full_word",
-      "answer": "Nic się nie stało.",
+      "mode": "cloze",
+      "answer": "stało",
+      "frame": "Nic się nie ___.",
       "accepts": [
-        "Nic się nie stało.",
-        "Nic się nie stało",
-        "Nic sie nie stalo",
-        "Nic sie nie stalo."
-      ]
+        "stało",
+        "stalo"
+      ],
+      "explain": "The reassurance idiom keeps the same closed word stało you met in Co się stało? — only Nic … nie is wrapped round it.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on stało, this pack's one genuinely new word and its teaching point. Items 0 and 1 stay typed whole: at 3 words each they are inside the cap and are frozen chunks taught whole (the pack's own note calls stało an opaque closed form), so they are not composed sentences under the refinement test. Their answers are the full strings 'Co się stało?' / 'Coś się stało.', so this blank creates no duplicate answer in the stage."
     }
   ],
   "use_items": [
