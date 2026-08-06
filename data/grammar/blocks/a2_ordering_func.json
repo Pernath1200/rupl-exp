@@ -495,23 +495,25 @@
   "type_items": [
     {
       "prompt_en": "Is there a free table?",
-      "mode": "full_word",
-      "answer": "Czy jest wolny stolik?",
+      "mode": "cloze",
+      "frame": "Czy jest wolny ___?",
+      "answer": "stolik",
       "accepts": [
-        "Czy jest wolny stolik?",
-        "Czy jest wolny stolik"
+        "stolik"
       ],
-      "explain": "Stolik is the small table you sit at in a restaurant — not stół, the big one at home."
+      "explain": "Stolik is the small table you sit at in a restaurant — not stół, the big one at home.",
+      "note": "Pisanie hard cap (James 2026-08-06). Blank on stolik, the one genuinely new word this unit teaches. The frame keeps the word order visible so the contrast with item 1 survives."
     },
     {
       "prompt_en": "Is this table free?",
-      "mode": "full_word",
-      "answer": "Czy ten stolik jest wolny?",
+      "mode": "cloze",
+      "frame": "Czy ten stolik jest ___?",
+      "answer": "wolny",
       "accepts": [
-        "Czy ten stolik jest wolny?",
-        "Czy ten stolik jest wolny"
+        "wolny"
       ],
-      "explain": "Stolik is masculine, so it takes ten and the adjective ends in -y: wolny."
+      "explain": "Stolik is masculine, so it takes ten and the adjective ends in -y: wolny.",
+      "note": "Pisanie hard cap (James 2026-08-06). Blank on wolny — exactly what this item's explain is about, the masculine -y ending. The second word order stays on screen in the frame."
     },
     {
       "prompt_en": "The menu, please.",
@@ -610,15 +612,15 @@
     },
     {
       "prompt_en": "Can I pay by card?",
-      "mode": "full_word",
-      "answer": "Czy mogę płacić kartą?",
+      "mode": "cloze",
+      "frame": "Czy mogę ___ kartą?",
+      "answer": "płacić",
       "accepts": [
-        "Czy mogę płacić kartą?",
-        "Czy mogę płacić kartą",
-        "Mogę płacić kartą?",
-        "Mogę płacić kartą"
+        "płacić",
+        "placic"
       ],
-      "explain": "Exactly the same question as in a shop. Mogę is always followed by the plain infinitive płacić."
+      "explain": "Exactly the same question as in a shop. Mogę is always followed by the plain infinitive płacić — never płacę.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with kartą bolted on. Blank on płacić, the form this item's explain exists to fix."
     }
   ],
   "use_items": [
