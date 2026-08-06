@@ -113,6 +113,7 @@ STRUCTURE_CATALOGUE = {
     "ktory_full",
     "jesli",
     "gdyby",
+    "loc_pl",
 }
 
 GLUE_LEMMAS = {

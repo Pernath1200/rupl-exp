@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 146 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 147 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -163,4 +163,5 @@ _None._
 | 150 | `b2_abstract` | — | 15 | `adj_acc`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `miec_acc`, `miec_present`, `past_byc`, `plural_nom`, `present`, `present_am`, `present_e_isz`, `reported`, `superlative`, `ten_ta_to`, `to_jest`, `ze_clauses`, `zgoda` |
 | 151 | `b2_jesli` | `jesli` | 1 | `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `existential_jest`, `gen_endings`, `imperative`, `imperative_rule`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `perf_future`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `questions2`, `to_jest`, `ze_clauses`, `zeby`, `zgoda` |
 | 152 | `b2_gdyby` | `gdyby` | 3 | `aspect_past`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `gdyby`, `imperative`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `motion_chunk`, `past_byc`, `past_rest`, `perf_future`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `questions2`, `to_jest`, `zeby`, `zgoda` |
+| 153 | `b2_loc_pl` | `loc_pl` | 11 | `byc_present`, `conjunctions`, `existential_jest`, `gen_endings`, `gen_pl`, `loc_pl`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_past` |
 

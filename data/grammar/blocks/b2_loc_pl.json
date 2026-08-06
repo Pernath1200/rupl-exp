@@ -1,0 +1,636 @@
+{
+ "id": "b2_loc_pl",
+ "title": "W domach, w sklepach · miejscownik",
+ "title_en": "The Locative plural · one ending, -ach",
+ "level": "B2",
+ "tree_node": "b2_loc_pl",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 5, unit 1 of 7 (spine O9). ONE ending, -ach, for every gender. The spine calls this the easiest unit in B2 and put it first in the block for that reason; the pack is built to feel that way rather than merely to be that way.\n\nTHE ANCHOR IS A WHOLE PHRASE THE LEARNER HAS OWNED SINCE A2. a2_travel taught w gorach as a frozen holiday chunk and check_new.py confirms gorach TAUGHT <- a2_travel [path 70]. Slide 1 opens by pointing at it: the ending is not something special about mountains. gorach is recycled, never re-taught, and is the one match row that is not new.\n\nELEVEN NEW FORMS, all verified NEW: domach, sklepach, hotelach, bankach, szkolach, firmach, gazetach, miastach, biurach, mieszkaniach, biurkach. Four masculine, four feminine, four neuter counting the recycled gorach, which is deliberate: the unit's claim is that gender does not matter here, so the board has to show all three genders taking the identical ending.\n\nTHE RULE IS STATED IN THE FORM IT IS ACTUALLY TRUE IN. Not 'add -ach to the plural' and not 'add -ach to the Locative singular' - both are false for these words (w miescie -> w miastach, w kuchni -> ...). The honest statement, and the one on slide 2, is: take the plain dictionary word, drop a final vowel if there is one, add -ach. That holds without exception across every noun this pack touches - dom, bank, sklep, hotel (nothing to drop); szkola, firma, gazeta, gora (drop -a); miasto, biuro, biurko (drop -o); mieszkanie (drop -e).\n\nTHE NOMINATIVE PLURAL IS DELIBERATELY NOT USED AS THE LEFT-HAND COLUMN, and this is the homograph decision that shaped the whole pack. The obvious table is 'plural -> plural in this case', i.e. szkoly -> szkolach. It is wrong here. check_new.py reports szkoly TAUGHT, but the owning packs are a1_gen_endings (szkola -> szkoly, the GENITIVE singular) and a1_prep_do_z / a1_case_gym (ze szkoly). The same trap holds for miasta (a1_gen_endings: miasto -> miasta, genitive singular; a1_prep_do_z: do miasta), ksiazki (a1_gen_ki, a1_negation: nie mam ksiazki), biura (a1_prep_review_2: do biura, z biura) and firmy (a1_prep_review_2: do firmy, z firmy) - every one of them is owned as a GENITIVE SINGULAR and none of them is owned as a nominative plural. A table pairing szkoly -> szkolach would have shown the learner a form he reads as 'of the school'. So the intro pairs the LOCATIVE SINGULAR he genuinely owns (w szkole, w miescie, w biurze, w firmie) with the new plural, and the plain dictionary word carries the stem story.\n\nThe nominative plurals that ARE honestly owned as plurals - sklepy, banki, hotele, domy, okna, telefony, klucze, gory (a2_plural_nom, a2_travel) - are used freely as sentence subjects, which is exactly the job a2_plural_nom taught them in.\n\nSLIDE 4 GUARDS THE PREDICTABLE ERROR, which is not the singular but the genitive plural. a2_gen_pl taught domow, sklepow, bankow, gazet, miast, biur two levels ago and taught them alongside duzo, blisko and nie ma. Those forms are also plural, they are also 'not the subject form', and a learner who has just met -ach will reach for it after duzo. The slide names the split (duzo sklepow, never duzo sklepach) and four quiz items put the genitive plural on the button row for exactly that reason.\n\nDISTRACTORS ARE REAL OWNED FORMS IN THE WRONG SLOT, never fabricated. Every wrong button in the Kontrola stage is a form some earlier pack actually teaches: the Locative singular (domu, sklepie, miescie, banku, hotelu, szkole, firmie, biurze), the nominative plural (domy, sklepy, banki, hotele, gazety), the genitive plural (domow, sklepow, bankow, gazet, miast, biur), the genitive singular (miasta, szkoly, biura, firmy) and the bare dictionary form. The one full-sentence item uses wrong COMBINATIONS of real forms - singular preposition phrase with a plural subject, jest with a plural subject, sa with a singular one - so each explain can name which half failed to move.\n\nQUIZ ITEM 1 IS DELIBERATELY NOT THIS LESSON'S FORM. The answer is domu, and domach is on the button row. A unit whose every answer is the new ending teaches the learner to pick the new ending, not to read the sentence.\n\nFENCED:\n- NO PLURAL ADJECTIVES OF ANY KIND. dobrych, dobrym (pl), dobrymi are B2-SPINE O3's hand-over to C1 and appear nowhere, not in a slide and not as a distractor. This unit is therefore entirely bare-noun: there is not one adjective+noun plural phrase in the pack, which is why several natural sentences ('in the big cities') are absent.\n- gor, szkol, firm - the GENITIVE plurals of the feminine nouns used here - are all verified NEW and appear nowhere. a2_gen_pl taught the -a/-o-dropping genitive plural on a different word list (kaw, herbat, gazet, zup, ryb, godzin, minut, piw, miast, biur, win), and only the words on that list are used in the duzo contrast. Completing that list is b2_gen_pl_full, four nodes later.\n- oknie, mieszkania, biurka, restauracje, komputery, tych, moi, wiele - all verified NEW, all absent.\n- dzieciach and ludziach are regular and would have been legal, but the two words also head the irregular INSTRUMENTAL plurals dziecmi/ludzmi, which are b2_inst_pl's problem one node later. Keeping both words out of the Locative-plural board keeps that decision clean; dzieci and ludzie appear as subjects only.\n- filmie, wodzie, restauracji, samochodzie stay out for the reason b2_adj_loc recorded: they are NEW Locative singulars, so no Locative singular anchor exists for those words.\n\nSTAGE OVERLAP between Dopasuj and Pisanie is the intended ladder per AGENTS.md - the same twelve phrases recognised then produced - and it is what holds the new-form count at eleven. Uzycie never repeats a Pisanie item: every use item is a full sentence with a noun subject or object.",
+ "focus_structures": [
+  "loc_pl"
+ ],
+ "teaches_structures": [
+  "loc_pl"
+ ],
+ "teaches_lemmas": [
+  "domach",
+  "sklepach",
+  "hotelach",
+  "bankach",
+  "szkołach",
+  "firmach",
+  "gazetach",
+  "miastach",
+  "biurach",
+  "mieszkaniach",
+  "biurkach"
+ ],
+ "uses_structures": [
+  "loc_pl",
+  "prep_w_loc",
+  "prep_place",
+  "o_loc",
+  "plural_nom",
+  "gen_pl",
+  "gen_endings",
+  "byc_present",
+  "existential_jest",
+  "present",
+  "present_uje",
+  "present_e_isz",
+  "past_byc",
+  "past_plural",
+  "virile_past",
+  "conjunctions",
+  "poss_nom"
+ ],
+ "intro": [
+  {
+   "title": "One ending — and you have been using it since your holiday lesson",
+   "title_pl": "w górach → w domach",
+   "body": "You already say w górach — in the mountains. That -ach on the end is not something special about mountains. It is what Polish puts on any word when you are talking about more than one of them, in the same place where you would have said w domu or w szkole about a single one. And here is the gift: unlike every other case you have learned, this one does not split by gender. Masculine, feminine, neuter — all -ach.",
+   "body_pl": "-ach · miejscownik, liczba mnoga",
+   "table": {
+    "headers": [
+     "Gender",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "w domu",
+      "w domach"
+     ],
+     [
+      "masculine",
+      "w sklepie",
+      "w sklepach"
+     ],
+     [
+      "feminine",
+      "w szkole",
+      "w szkołach"
+     ],
+     [
+      "feminine",
+      "w firmie",
+      "w firmach"
+     ],
+     [
+      "neuter",
+      "w mieście",
+      "w miastach"
+     ],
+     [
+      "neuter",
+      "w biurze",
+      "w biurach"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Where the ending goes",
+   "title_pl": "dom → domach · szkoła → szkołach",
+   "body": "Do not build this form from w domu or w mieście — those have already changed once, and the change is different. Start from the plain dictionary word instead. If it ends in a vowel, drop that vowel; then add -ach. Among the words you own there is nothing that breaks it.",
+   "body_pl": "dom → domach · szkoła → szkołach",
+   "table": {
+    "headers": [
+     "Plain word",
+     "Drop",
+     "Add -ach"
+    ],
+    "rows": [
+     [
+      "dom",
+      "nothing",
+      "domach"
+     ],
+     [
+      "bank",
+      "nothing",
+      "bankach"
+     ],
+     [
+      "szkoła",
+      "-a",
+      "szkołach"
+     ],
+     [
+      "gazeta",
+      "-a",
+      "gazetach"
+     ],
+     [
+      "miasto",
+      "-o",
+      "miastach"
+     ],
+     [
+      "mieszkanie",
+      "-e",
+      "mieszkaniach"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The same three little words pull it",
+   "title_pl": "w… · na… · o…",
+   "body": "There is nothing new to learn about when this form turns up. The three words that have been pulling single things into w domu, na biurku and o szkole since your first lessons do exactly the same job with more than one thing.",
+   "body_pl": "w · na · o — bez zmian",
+   "table": {
+    "headers": [
+     "Trigger",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "w",
+      "w hotelu",
+      "w hotelach"
+     ],
+     [
+      "na",
+      "na biurku",
+      "na biurkach"
+     ],
+     [
+      "o",
+      "o szkole",
+      "o szkołach"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The one to look twice at — it is not the singular",
+   "title_pl": "w sklepach · dużo sklepów",
+   "body": "You already own a second plural form of these words: sklepów, domów, gazet, miast, biur. That is the genitive plural, and it only ever turns up after words like dużo, blisko and nie ma. It is not interchangeable with this lesson. Dużo sklepów never becomes dużo sklepach, and w sklepach never becomes w sklepów.",
+   "body_pl": "dużo sklepów ≠ w sklepach",
+   "table": {
+    "headers": [
+     "What you mean",
+     "Polish",
+     "Which form"
+    ],
+    "rows": [
+     [
+      "in the shop",
+      "w sklepie",
+      "one thing — unchanged"
+     ],
+     [
+      "in the shops",
+      "w sklepach",
+      "this lesson"
+     ],
+     [
+      "a lot of shops",
+      "dużo sklepów",
+      "the genitive plural, from before"
+     ],
+     [
+      "near the shops",
+      "blisko sklepów",
+      "the genitive plural again"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "in the houses",
+   "pl": "w domach"
+  },
+  {
+   "en": "in the shops",
+   "pl": "w sklepach"
+  },
+  {
+   "en": "in the hotels",
+   "pl": "w hotelach"
+  },
+  {
+   "en": "in the banks",
+   "pl": "w bankach"
+  },
+  {
+   "en": "in the schools",
+   "pl": "w szkołach"
+  },
+  {
+   "en": "at the companies",
+   "pl": "w firmach"
+  },
+  {
+   "en": "in the mountains",
+   "pl": "w górach"
+  },
+  {
+   "en": "about the newspapers",
+   "pl": "o gazetach"
+  },
+  {
+   "en": "in the cities",
+   "pl": "w miastach"
+  },
+  {
+   "en": "in the offices",
+   "pl": "w biurach"
+  },
+  {
+   "en": "in the flats",
+   "pl": "w mieszkaniach"
+  },
+  {
+   "en": "on the desks",
+   "pl": "na biurkach"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Mieszkam w ___ . (in a house — one)",
+   "choices": [
+    "domu",
+    "domach",
+    "domy",
+    "domów"
+   ],
+   "answer": "domu",
+   "explain": "One house, so nothing has changed — w domu is the form you have had since A1. The new ending is only for more than one."
+  },
+  {
+   "prompt": "W ___ są sklepy i banki. (in cities)",
+   "choices": [
+    "miastach",
+    "mieście",
+    "miasta",
+    "miast"
+   ],
+   "answer": "miastach",
+   "explain": "Neuter words take -ach like everything else. Watch miasta — that is the genitive singular you learned in do miasta, not a plural here. And miast is the genitive plural, which belongs after dużo."
+  },
+  {
+   "prompt": "Ludzie pracują w ___ . (in banks)",
+   "choices": [
+    "bankach",
+    "banku",
+    "banki",
+    "banków"
+   ],
+   "answer": "bankach",
+   "explain": "w pulls this form whether it is one bank or twenty. banki is the subject form — it would be right in Banki są duże."
+  },
+  {
+   "prompt": "Dzieci są w ___ . (in the schools)",
+   "choices": [
+    "szkołach",
+    "szkole",
+    "szkoły",
+    "szkoła"
+   ],
+   "answer": "szkołach",
+   "explain": "You already say Dzieci były w szkole about one school. More than one, and the ending moves to -ach. szkoły is not a plural here — it is the genitive you use in ze szkoły."
+  },
+  {
+   "prompt": "Tata mówi o ___ . (about the newspapers)",
+   "choices": [
+    "gazetach",
+    "gazety",
+    "gazet",
+    "gazeta"
+   ],
+   "answer": "gazetach",
+   "explain": "o takes the same form as w and na. gazety is the subject form and gazet is the genitive plural — dużo gazet, but o gazetach."
+  },
+  {
+   "prompt": "Mama i tata pracują w ___ . (in offices)",
+   "choices": [
+    "biurach",
+    "biurze",
+    "biura",
+    "biur"
+   ],
+   "answer": "biurach",
+   "explain": "biurze is one office. biura is the genitive singular from do biura, and biur is the genitive plural — three forms that all look plural and only one of them is this one."
+  },
+  {
+   "prompt": "Turyści są w ___ . (in the hotels)",
+   "choices": [
+    "hotelach",
+    "hotelu",
+    "hotele",
+    "hotel"
+   ],
+   "answer": "hotelach",
+   "explain": "hotele is the subject form — Hotele są duże. After w it becomes hotelach, the same -ach as every other word in this lesson."
+  },
+  {
+   "prompt": "W ___ są ludzie. (in the shops)",
+   "choices": [
+    "sklepach",
+    "sklepie",
+    "sklepy",
+    "sklepów"
+   ],
+   "answer": "sklepach",
+   "explain": "sklepów is the trap here. It is also plural and it is also not the subject form, but it only ever appears after dużo, blisko or nie ma — never after w."
+  },
+  {
+   "prompt": "Myślę o ___ . (about the companies)",
+   "choices": [
+    "firmach",
+    "firmie",
+    "firmy",
+    "firma"
+   ],
+   "answer": "firmach",
+   "explain": "Feminine words take -ach exactly like the masculine ones. firmy is the genitive singular from do firmy — it is not the plural it looks like."
+  },
+  {
+   "prompt": "There are windows in the flats. →",
+   "choices": [
+    "W mieszkaniach są okna.",
+    "W mieszkaniu są okna.",
+    "W mieszkaniach jest okna.",
+    "W mieszkaniach są okno."
+   ],
+   "answer": "W mieszkaniach są okna.",
+   "explain": "Every word has to agree on how many. W mieszkaniu is one flat, jest is one thing being there, and okno is one window — each of the other three leaves exactly one word behind in the singular."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "in the houses",
+   "mode": "full_word",
+   "answer": "w domach",
+   "accepts": [
+    "w domach"
+   ]
+  },
+  {
+   "prompt_en": "in the shops",
+   "mode": "full_word",
+   "answer": "w sklepach",
+   "accepts": [
+    "w sklepach"
+   ]
+  },
+  {
+   "prompt_en": "in the banks",
+   "mode": "full_word",
+   "answer": "w bankach",
+   "accepts": [
+    "w bankach"
+   ]
+  },
+  {
+   "prompt_en": "in the hotels",
+   "mode": "full_word",
+   "answer": "w hotelach",
+   "accepts": [
+    "w hotelach"
+   ]
+  },
+  {
+   "prompt_en": "in the schools",
+   "mode": "full_word",
+   "answer": "w szkołach",
+   "accepts": [
+    "w szkołach"
+   ]
+  },
+  {
+   "prompt_en": "at the companies",
+   "mode": "full_word",
+   "answer": "w firmach",
+   "accepts": [
+    "w firmach"
+   ]
+  },
+  {
+   "prompt_en": "in the cities",
+   "mode": "full_word",
+   "answer": "w miastach",
+   "accepts": [
+    "w miastach"
+   ]
+  },
+  {
+   "prompt_en": "in the offices",
+   "mode": "full_word",
+   "answer": "w biurach",
+   "accepts": [
+    "w biurach"
+   ]
+  },
+  {
+   "prompt_en": "in the flats",
+   "mode": "full_word",
+   "answer": "w mieszkaniach",
+   "accepts": [
+    "w mieszkaniach"
+   ]
+  },
+  {
+   "prompt_en": "on the desks",
+   "mode": "full_word",
+   "answer": "na biurkach",
+   "accepts": [
+    "na biurkach"
+   ]
+  },
+  {
+   "prompt_en": "about the newspapers",
+   "mode": "full_word",
+   "answer": "o gazetach",
+   "accepts": [
+    "o gazetach"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: There are hotels and banks in the cities.",
+   "answer": "W miastach są hotele i banki.",
+   "accepts": [
+    "W miastach są hotele i banki.",
+    "W miastach są hotele i banki"
+   ]
+  },
+  {
+   "prompt_en": "Type: People work in offices.",
+   "answer": "Ludzie pracują w biurach.",
+   "accepts": [
+    "Ludzie pracują w biurach.",
+    "Ludzie pracują w biurach"
+   ]
+  },
+  {
+   "prompt_en": "Type: The keys are on the desks.",
+   "answer": "Klucze są na biurkach.",
+   "accepts": [
+    "Klucze są na biurkach.",
+    "Klucze są na biurkach"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is thinking about the newspapers.",
+   "answer": "Mama myśli o gazetach.",
+   "accepts": [
+    "Mama myśli o gazetach.",
+    "Mama myśli o gazetach"
+   ]
+  },
+  {
+   "prompt_en": "Type: There are windows in the houses and in the flats.",
+   "answer": "W domach i w mieszkaniach są okna.",
+   "accepts": [
+    "W domach i w mieszkaniach są okna.",
+    "W domach i w mieszkaniach są okna"
+   ]
+  },
+  {
+   "prompt_en": "Type: My parents were in the mountains, and the children were in the schools.",
+   "answer": "Rodzice byli w górach, a dzieci były w szkołach.",
+   "accepts": [
+    "Rodzice byli w górach, a dzieci były w szkołach.",
+    "Rodzice byli w górach, a dzieci były w szkołach"
+   ],
+   "explain": "You met Dzieci były w szkole about a single school; only the last word moves when there is more than one. The two past forms are not about this lesson: byli goes with a group that includes men, były with everyone else."
+  },
+  {
+   "prompt_en": "Type: There are telephones in the hotels.",
+   "answer": "W hotelach są telefony.",
+   "accepts": [
+    "W hotelach są telefony.",
+    "W hotelach są telefony"
+   ]
+  },
+  {
+   "prompt_en": "Type: I live in a house, but my parents live in the mountains.",
+   "answer": "Mieszkam w domu, ale rodzice mieszkają w górach.",
+   "accepts": [
+    "Mieszkam w domu, ale rodzice mieszkają w górach.",
+    "Mieszkam w domu, ale rodzice mieszkają w górach"
+   ],
+   "explain": "One house is still w domu. The new ending is not something you add to every place word — only to the ones that mean more than one."
+  },
+  {
+   "prompt_en": "Type: My sister works in a bank, and my brother is thinking about the companies.",
+   "answer": "Moja siostra pracuje w banku, a mój brat myśli o firmach.",
+   "accepts": [
+    "Moja siostra pracuje w banku, a mój brat myśli o firmach.",
+    "Moja siostra pracuje w banku, a mój brat myśli o firmach"
+   ],
+   "explain": "One bank, several companies — the two halves of this sentence need different endings for exactly that reason, and nothing else in them differs."
+  },
+  {
+   "prompt_en": "Type: The tourists are in the shops.",
+   "answer": "Turyści są w sklepach.",
+   "accepts": [
+    "Turyści są w sklepach.",
+    "Turyści są w sklepach"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "górach",
+  "dom",
+  "domu",
+  "domy",
+  "domów",
+  "sklepie",
+  "sklepy",
+  "sklepów",
+  "bank",
+  "banku",
+  "banki",
+  "banków",
+  "hotel",
+  "hotelu",
+  "hotele",
+  "szkoła",
+  "szkole",
+  "szkoły",
+  "firma",
+  "firmie",
+  "firmy",
+  "gazeta",
+  "gazety",
+  "gazet",
+  "miasto",
+  "mieście",
+  "miasta",
+  "miast",
+  "biurze",
+  "biura",
+  "biur",
+  "biurku",
+  "mieszkanie",
+  "mieszkaniu",
+  "okno",
+  "okna",
+  "telefony",
+  "klucze",
+  "dzieci",
+  "ludzie",
+  "turyści",
+  "rodzice",
+  "mama",
+  "tata",
+  "siostra",
+  "brat",
+  "jest",
+  "są",
+  "byli",
+  "były",
+  "mieszkam",
+  "mieszkają",
+  "pracuje",
+  "pracują",
+  "mówi",
+  "myślę",
+  "myśli",
+  "dużo",
+  "blisko",
+  "nie ma",
+  "duże",
+  "mój",
+  "moja",
+  "i",
+  "a",
+  "ale",
+  "w domu",
+  "w sklepie",
+  "w szkole",
+  "w mieście",
+  "w biurze",
+  "w banku",
+  "w hotelu",
+  "w firmie",
+  "na biurku",
+  "o szkole",
+  "w górach"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_loc_pl",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

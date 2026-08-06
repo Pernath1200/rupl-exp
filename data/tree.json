@@ -3269,12 +3269,13 @@
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 5, unit 1. Locative plural -ach: one ending, no gender split, essentially no exceptions - the easiest unit in B2 and placed first in the block for that reason. ANCHOR: 'w gorach' is already taught whole (a2_travel), so the unit can open with 'you have been saying one of these since A2.'",
+   "note": "B2 Block 5, unit 1 of 7 (spine O9). Locative plural -ach: ONE ending for every gender, no exception among the words this course owns - the smallest thing in the level and placed first in the block for that reason. THE ANCHOR IS A PHRASE ALREADY OWNED: a2_travel taught w gorach as a frozen holiday chunk, so slide 1 opens by pointing at a form Dad has produced since A2 rather than by announcing a new case; gorach is recycled and is the one match row that is not new. ELEVEN NEW FORMS, all verified NEW: domach, sklepach, hotelach, bankach, szkolach, firmach, gazetach, miastach, biurach, mieszkaniach, biurkach - four masculine, four feminine, four neuter counting gorach, because the unit's claim is that gender stops mattering here and the board has to show it. THE RULE IS STATED IN THE FORM IT IS ACTUALLY TRUE IN: not 'add -ach to the plural' and not 'add -ach to the Locative singular' (w miescie -> w miastach kills both), but 'take the plain dictionary word, drop a final vowel if there is one, add -ach'. THE HOMOGRAPH DECISION SHAPED THE WHOLE PACK: the obvious table pairs the nominative plural with the new form (szkoly -> szkolach) and is WRONG - szkoly reports TAUGHT but its owners are a1_gen_endings and a1_prep_do_z, where it is the GENITIVE SINGULAR (ze szkoly). Same trap on miasta, ksiazki, biura and firmy, every one owned as a genitive singular and none as a nominative plural. So the left column is the LOCATIVE SINGULAR he really owns (w szkole, w miescie, w biurze, w firmie), and the honestly-owned nominative plurals (sklepy, banki, hotele, domy, okna, telefony, klucze) are used only as sentence subjects. THE PREDICTABLE ERROR IS THE GENITIVE PLURAL, not the singular: a2_gen_pl taught domow, sklepow, bankow, gazet, miast, biur next to duzo, blisko and nie ma, so slide 4 and four quiz items hold duzo sklepow apart from w sklepach. QUIZ ITEM 1 IS DELIBERATELY NOT THIS LESSON'S FORM - the answer is domu with domach on the button row - because a unit whose every answer is the new ending teaches button-picking. FENCED: no plural adjectives of any kind (spine O3 -> C1), which makes this an entirely bare-noun unit; gor, szkol, firm (verified NEW), so only a2_gen_pl's own word list appears in the duzo contrast; oknie, mieszkania, biurka, restauracje, komputery, tych, moi, wiele, all verified NEW; and dzieciach/ludziach, regular and legal but held back because those two nouns head the irregular INSTRUMENTAL plurals b2_inst_pl must rule on one node later - dzieci and ludzie appear as subjects only.",
    "pedagogy": "teach",
    "root": "forms",
-   "tree_part": "forms"
+   "tree_part": "forms",
+   "content": "grammar/blocks/b2_loc_pl.json"
   },
   {
    "id": "b2_inst_pl",
