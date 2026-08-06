@@ -3219,11 +3219,12 @@
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "vocab",
-   "note": "[B2 SPINE] Block 4 vocab. Abstract-discussion nouns - the vocabulary opinions actually need. Verified NEW: przyczyna, skutek, wplyw, zmiana, rozwiazanie, korzysc, wada, zaleta, cel, sposob, wartosc, mozliwosc, wybor, decyzja, spoleczenstwo, srodowisko. TRIM TO 12 - the list is deliberately longer than the unit needs so the author can drop any word whose oblique forms would cost extra. ANCHORS: powod/sytuacja/przyszlosc/przeszlosc (leaf_ideas_a1), problem/przyklad/znaczenie (leaf_school_a1), all of b1_opinions.",
+   "note": "B2 Block 4 vocab (spine). TWELVE NEW WORDS, all verified NEW: przyczyna, skutek, wpływ, zmiana, rozwiązanie, wada, zaleta, cel, sposób, możliwość, wybór, decyzja. The spine offered sixteen and said trim to twelve; korzyść, wartość, społeczeństwo and środowisko were dropped (korzyść duplicates zaleta's gloss and would have been a third soft feminine; the other three are essay words, not opinion words) and handed to the C1 inbox. TAUGHT AS PAIRS because that is how they are used: przyczyna/skutek and wada/zaleta. THREE INFLECTED FORMS taught alongside the citations: przyczynę (feminine accusative) and wady/zalety (feminine plural, which covers Nom and Acc alike for non-virile nouns). wady/zalety carry the -y homograph AGENTS.md names — plural versus genitive singular — so the pack teaches them explicitly as plurals, says so in an explain, and uses them in no other job. możliwość is a soft feminine, badged f and anchored on mysz and noc. sposób, wybór (ó/o alternation) and skutek (fleeting e) appear in the Nominative and Accusative only, where a masculine thing does not move, so their alternations are never met. FENCED: no genitive of any new noun, which cost Nie ma rozwiązania deliberately — b2_health_system already spent one flagged exception on the -e neuter genitive (skierowania) and asked James to rule on it, so this pack does not double down; no locative or dative of any new noun; na + Accusative held out per b2_health_system, which cost mieć wpływ na and is the strongest argument for a na + Accusative unit at C1; ważny fenced (verified NEW, belongs to b2_travel_func); zmienić, jaki, trudny all untaught and kept out.",
    "pedagogy": "teach",
-   "parent": "trunk"
+   "parent": "trunk",
+   "content": "vocab/blocks/b2_abstract.json"
   },
   {
    "id": "b2_jesli",
