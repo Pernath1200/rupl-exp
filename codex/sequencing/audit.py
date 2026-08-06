@@ -129,6 +129,7 @@ STRUCTURE_CATALOGUE = {
     "motion_imperf",
     "prefix_lens",
     "prefix_two_jobs",
+    "pisac_family",
 }
 
 GLUE_LEMMAS = {

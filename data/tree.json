@@ -3695,18 +3695,19 @@
     {
       "id": "b2_pisac_family",
       "domain": "grammar",
-      "label": "Rodzina pisać",
-      "label_en": "The pisać family",
+      "label": "Podpisać czy zapisać?",
+      "label_en": "Signing and noting down",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "verbs",
       "tree_part": "verbs",
-      "note": "[B2 Block 6a, JAMES-LOCKED] Root family 1: pisac/napisac (owned) grows podpisac (sign) + zapisac (note down); office register. Everyday imperfective partners as whole twins where needed (podpisywac). przepisac/opisac only if load allows, log it. za- NOT lens-claimed. See B2-SPINE Block 6a.",
-      "pedagogy": "teach"
+      "note": "[B2 Block 6a unit 4, JAMES-LOCKED decision #6] Root family 1. Three new verbs, twenty new forms, ZERO new endings: podpisac (sign), zapisac (write down), podpisywac (sign again and again). Past = past_ac, perfective future = the -e/-esz/-e b2_aspect_prefixes gave on this same pisz- stem, podpisywac conjugates on present_uje (pracowac/kupowac). Root usable only because b2_aspect_prefixes taught pisze for exactly this unit, as its own note predicted. NO PREFIX MEANING CLAIMED: pod- and za- are outside the locked core-4 lens and slide 2 says so; pod- gets one memory hook for this one word, za- gets none. podpisywac is a WHOLE TWIN (locked decision #4) - the -ywa- formation rule is NOT named, C1 owns it. SCOPE CUTS logged: przepisac/opisac dropped, zapisywac fenced and never raised. FENCED: past of podpisywac, imperfective future, imperatives, plural, nazwisko/dokument (NEW), kartke (taught AS a greetings card), oblique pronouns. TITLE CORRECTED from the planned 'Rodzina pisac' - rodzina is verified NEW. See B2-SPINE Block 6a.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/b2_pisac_family.json"
     },
     {
       "id": "b2_verb_family2",
