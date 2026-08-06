@@ -115,6 +115,7 @@ STRUCTURE_CATALOGUE = {
     "gdyby",
     "loc_pl",
     "inst_pl",
+    "dat_pl",
 }
 
 GLUE_LEMMAS = {

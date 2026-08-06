@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 148 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 149 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -165,4 +165,5 @@ _None._
 | 152 | `b2_gdyby` | `gdyby` | 3 | `aspect_past`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `gdyby`, `imperative`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `motion_chunk`, `past_byc`, `past_rest`, `perf_future`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `questions2`, `to_jest`, `zeby`, `zgoda` |
 | 153 | `b2_loc_pl` | `loc_pl` | 11 | `byc_present`, `conjunctions`, `existential_jest`, `gen_endings`, `gen_pl`, `loc_pl`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_past` |
 | 154 | `b2_inst_pl` | `inst_pl` | 12 | `byc_present`, `conjunctions`, `gen_endings`, `gen_pl`, `inst_pl`, `inst_z`, `loc_pl`, `miec_acc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_nom`, `virile_past` |
+| 155 | `b2_dat_pl` | `dat_pl` | 12 | `byc_present`, `conjunctions`, `dat_pl`, `dative_sg`, `gen_pl`, `inst_pl`, `inst_z`, `loc_pl`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question_cases`, `virile_nom` |
 
