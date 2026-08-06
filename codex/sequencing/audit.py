@@ -123,6 +123,7 @@ STRUCTURE_CATALOGUE = {
     "double_neg",
     "sie_impersonal",
     "prosic_o",
+    "jezdzic",
 }
 
 GLUE_LEMMAS = {

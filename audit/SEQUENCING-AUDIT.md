@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 156 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 157 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -173,4 +173,5 @@ _None._
 | 160 | `b2_double_neg` | `double_neg` | 2 | `byc_adj`, `byc_present`, `conjunctions`, `existential_jest`, `gen_endings`, `gen_pl`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `neg_gen`, `negation`, `past_byc`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `questions2`, `smalltalk_chunk` |
 | 161 | `b2_sie_impersonal` | `sie_impersonal` | 5 | `byc_adj`, `byc_present`, `conjunctions`, `miec_acc`, `negation`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `question`, `questions2`, `sie_reflexive`, `situation_chunk`, `social_chunk`, `ze_clauses`, `zgoda` |
 | 162 | `b2_prosic_o` | `prosic_o` | 7 | `byc_adj`, `byc_present`, `conjunctions`, `miec_acc`, `negation`, `o_loc`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `question`, `sie_impersonal`, `situation_chunk`, `social_chunk`, `ze_clauses`, `zgoda` |
+| 163 | `b2_jezdzic` | `jezdzic` | 7 | `byc_present`, `chodzic`, `conjunctions`, `double_neg`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `plural_nom`, `prep_do_gen`, `present`, `present_e_esz`, `present_e_isz`, `present_uje`, `question`, `questions2` |
 

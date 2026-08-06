@@ -3450,17 +3450,18 @@
    "id": "b2_jezdzic",
    "domain": "grammar",
    "label": "Idę, chodzę, jadę, jeżdżę",
-   "label_en": "The motion grid closed",
+   "label_en": "The motion grid closed · going by vehicle, regularly",
    "kind": "topic",
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 6, unit 5. Closes the motion grid a2_chodzic left open. That pack fenced jezdzic so hard its own note says the word is 'not named, glossed, hinted at or used as a distractor anywhere in this file, note included'. Four verbs finally in one table: ide/chodze (on foot, now/habitually) x jade/jezdze (by vehicle, now/habitually). Only jezdze's forms are new; the four-way grid is the payoff.",
+   "note": "B2 Block 6, unit 5. Closes the motion grid a2_chodzic left open - that pack fenced jezdzic so hard its own note says the word is 'not named, glossed, hinted at or used as a distractor anywhere in this file, note included', which is why its slide 3 borrowed jechac only for its ENDINGS. SEVEN NEW STRINGS, ONE VERB: jezdzic, jezdze, jezdzisz, jezdzi, jezdzimy, jezdzicie, jezdza. Nothing else in the pack is new - the other three corners (isc/chodzic from a2_chodzic, jechac from a2_jechac) are owned in full, so three quarters of what is on screen is recall. THE GRID IS THE PAYOFF, NOT THE PARADIGM: two independent questions decide the verb (on foot or by vehicle; now or regularly), four Polish verbs where English has one word, and English gives nothing to hang the split on. The owned adverbs teraz/codziennie/czesto/zawsze do the semantic work in every item. LOAD IS ONE NEW SYSTEM AND BARELY THAT: the -e/-isz class is owned from chodzic, and the z/zdz split (jezdze, jezdza at the outside vs the middle four) is a TABLE FACT only - explicitly the same shape as jade/jedziesz, which a2_jechac already handed over the same way. Match board: all six new forms plus six anchor rows building the four-way grid at ja and ty, so every new form is on the board and the board IS the contrast; the infinitive rides the intro plus a Pisanie item (a2_chodzic precedent). FENCED, all verified NEW: przyjezdzam/wyjezdzam and the whole prefixed imperfective family, which belongs to b2_motion_imperf in the JAMES-LOCKED Block 6a - teaching them here would open the secondary-imperfective strand four nodes early; jezdzilem and ALL past forms of both by-vehicle verbs (a2_chodzic's fence kept unchanged); the future and the imperatives; do Polski, do kina, do lekarza, each of which killed a natural destination sentence, so only owned do-phrases appear; siebie/sobie; all oblique pronouns (GLUE_LEMMAS blind spot). TAUGHT-AS: the transport instrumentals are used in exactly a2_inst_transport's bare-means job, never after z; gory is deliberately absent, since a2_travel owns that string as a plural noun. Pisanie is ten single forms typed whole - the minimal pattern unit for a conjugation, nothing composed anywhere near the cap.",
    "pedagogy": "teach",
    "root": "verbs",
-   "tree_part": "verbs"
+   "tree_part": "verbs",
+   "content": "grammar/blocks/b2_jezdzic.json"
   },
   {
    "id": "b2_motion_prefixes2",

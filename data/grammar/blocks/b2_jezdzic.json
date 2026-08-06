@@ -1,0 +1,656 @@
+{
+ "id": "b2_jezdzic",
+ "title": "Idę, chodzę, jadę, jeżdżę",
+ "title_en": "The motion grid closed · going by vehicle, regularly",
+ "level": "B2",
+ "tree_node": "b2_jezdzic",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 6, unit 5. Closes the motion grid a2_chodzic left open. That pack fenced jeździć so hard its own note says the word is 'not named, glossed, hinted at or used as a distractor anywhere in this file, note included', and it is why a2_chodzic's slide 3 borrows jechać only for its ENDINGS and says nothing about jechać having a routine partner. This unit is the promised payment.\n\nSEVEN NEW STRINGS, ONE VERB: jeździć, jeżdżę, jeździsz, jeździ, jeździmy, jeździcie, jeżdżą. Nothing else in the pack is new. The other three corners of the grid are owned in full — iść and chodzić from a2_chodzic, jechać from a2_jechac — so three quarters of what is on screen is recall, not learning.\n\nTHE GRID IS THE PAYOFF, not the paradigm. Two questions decide the verb, and they are independent: on foot or by vehicle, and now or regularly. That gives four verbs where English has one word, go — and English gives the learner nothing to hang the split on, which is exactly why a2_jechac and a2_chodzic each spent their intro on it. Slide 1 is the 2x2 table; the adverbs (teraz, codziennie, często, zawsze, all owned) do the semantic work in every item after it.\n\nLOAD IS ONE NEW SYSTEM, and barely that: jeździć is the -ę/-isz class the learner owns from chodzić, mówić, robić and lubić, so the endings are recall. The ż/źdź split (jeżdżę and jeżdżą against jeździsz / jeździ / jeździmy / jeździcie) is presented as a TABLE FACT and nothing more — and it is the SAME SHAPE as the ja-/je- split in jadę / jedziesz that a2_jechac already handed over as a table fact. Slide 2 says so out loud: the outside two forms go one way, the middle four the other, in both by-vehicle verbs. There is no rule offered and none to derive.\n\nMATCH BOARD: all six new present forms, plus six anchor rows that build the four-way grid at ja (idę, chodzę, jadę) and ty (idziesz, chodzisz, jedziesz). Every new form of the unit therefore appears on the board, and the board itself IS the contrast. The infinitive jeździć is carried by the intro grids plus a Pisanie item, the a2_chodzic precedent for a unit with more forms than a board can hold.\n\nGLOSSING: English progressive for the now-verbs (I'm going) and English simple present for the habitual ones (I go). This is a present-tense pack, so AGENTS.md's imperfective-past gloss rule has nothing to bite on; the now/habit split is carried entirely by the English tense plus an adverb.\n\nFENCED, all verified NEW:\n- przyjeżdżam, wyjeżdżam and the whole prefixed imperfective family. b1_arrive_leave owns the perfective przyjechać / wyjechać, and their everyday imperfective partners are b2_motion_imperf's job in Block 6a — teaching them here would open the secondary-imperfective strand four nodes early and break the James-locked plan for it.\n- jeździłem and ALL past forms of both by-vehicle verbs. a2_chodzic fenced 'ALL past forms of both verbs' and this unit keeps that fence unchanged; the pack is present-tense throughout.\n- The future (będę jeździć) and the imperatives (jedź, jeźdź).\n- do Polski, do kina, do lekarza — every one verified NEW, and each of them killed a natural destination sentence. Only owned do-phrases are used: do pracy, do szkoły, do sklepu, do parku, do miasta, do biura, do apteki.\n- siebie / sobie (spine O15 → C1); no oblique pronouns anywhere — every subject is a noun or a bare verb form, a fence audit.py cannot see because person pronouns sit in GLUE_LEMMAS.\n- No plural oblique adjectives (spine O3 → C1); bare nouns throughout, the eleventh consecutive unit.\n\nTAUGHT-AS CHECKS: rowerem, autobusem, pociągiem, samochodem are the bare Instrumental of transport (a2_inst_transport) and are used here in exactly that job — never after z, which would be the accompaniment sense. góry is deliberately absent: a2_travel owns that string as a plural noun and w góry is NEW anyway. dzieci and rodzice are recycled as plural subjects only, in the Nominative they were taught in.\n\nPISANIE is ten single forms typed whole — the minimal pattern unit for a conjugation, per AGENTS.md, and comfortably inside the James-locked three-word cap with nothing composed anywhere near it. Seven are the new verb (dictionary form plus all six persons), three are the anchors that make the grid a choice rather than a list.\n\nBare governed prepositions (do) are not listed in uses_lemmas per SEQUENCING.md 6.3 — the job rides prep_do_gen in uses_structures.",
+ "focus_structures": [
+  "jezdzic"
+ ],
+ "teaches_structures": [
+  "jezdzic"
+ ],
+ "teaches_lemmas": [
+  "jeździć",
+  "jeżdżę",
+  "jeździsz",
+  "jeździ",
+  "jeździmy",
+  "jeździcie",
+  "jeżdżą"
+ ],
+ "uses_structures": [
+  "chodzic",
+  "jechac",
+  "motion_chunk",
+  "inst_transport",
+  "prep_do_gen",
+  "present",
+  "present_e_isz",
+  "present_e_esz",
+  "present_uje",
+  "byc_present",
+  "miec_present",
+  "miec_acc",
+  "question",
+  "questions2",
+  "negation",
+  "double_neg",
+  "plural_nom",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "Four verbs where English has one",
+   "title_pl": "idę · chodzę · jadę · jeżdżę",
+   "body": "English says go for all of this. Polish asks you two questions first, and they are separate questions.\n\nAm I on foot, or in something with wheels?\nAm I on my way right now, or is this what I do regularly?\n\nTwo questions, two answers each, four verbs. You already own three of the four corners — and this unit hands over the last one.\n\njeżdżę is by vehicle, regularly. It is what you say about your commute, your weekly shop, the way you always get to your daughter's house.",
+   "body_pl": "Teraz: idę, jadę. Codziennie: chodzę, jeżdżę.",
+   "table": {
+    "headers": [
+     "",
+     "right now",
+     "regularly"
+    ],
+    "rows": [
+     [
+      "on foot",
+      "idę",
+      "chodzę"
+     ],
+     [
+      "by vehicle",
+      "jadę",
+      "jeżdżę"
+     ],
+     [
+      "example (now)",
+      "Teraz idę do parku.",
+      "Teraz jadę do pracy."
+     ],
+     [
+      "example (regularly)",
+      "Codziennie chodzę do sklepu.",
+      "Codziennie jeżdżę do pracy."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The forms of jeździć",
+   "title_pl": "jeżdżę · jeździsz · jeździ · jeździmy · jeździcie · jeżdżą",
+   "body": "The endings are ones you already own: jeździć belongs to the same family as chodzić, mówić and robić, so if you can say chodzę and chodzisz, these will come out right.\n\nThe one thing to look at is the middle of the word. The first form and the last form go one way — jeżdżę, jeżdżą — and the middle four go the other: jeździsz, jeździ, jeździmy, jeździcie.\n\nYou have seen that exact shape before. jechać does the same thing: jadę and jadą at the outside, jedziesz, jedzie, jedziemy, jedziecie in the middle. Both by-vehicle verbs behave the same way, so it is one habit, not two.\n\nTake it as a picture of the table rather than a rule. There is nothing to work out here.",
+   "body_pl": "jeżdżę · jeździsz · jeździ · jeździmy · jeździcie · jeżdżą",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Compare"
+    ],
+    "rows": [
+     [
+      "jeżdżę",
+      "I go (by vehicle, regularly)",
+      "chodzę — same ending"
+     ],
+     [
+      "jeździsz",
+      "you go (by vehicle, regularly)",
+      "chodzisz — same ending"
+     ],
+     [
+      "jeździ",
+      "he or she goes (by vehicle, regularly)",
+      "chodzi — same ending"
+     ],
+     [
+      "jeździmy",
+      "we go (by vehicle, regularly)",
+      "chodzimy — same ending"
+     ],
+     [
+      "jeździcie",
+      "you all go (by vehicle, regularly)",
+      "chodzicie — same ending"
+     ],
+     [
+      "jeżdżą",
+      "they go (by vehicle, regularly)",
+      "chodzą — same ending"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The word that tells you which one",
+   "title_pl": "teraz → idę, jadę. codziennie → chodzę, jeżdżę.",
+   "body": "In real sentences you rarely have to guess, because there is almost always a time word standing next to the verb, and it settles the question for you.\n\nteraz — right now. So it is idę or jadę.\ncodziennie, często, zawsze — regularly. So it is chodzę or jeżdżę.\n\nThe other half of the choice is simply what you are sitting in. Feet: idę, chodzę. Car, bus, train, bicycle: jadę, jeżdżę.\n\nA useful check: if you could not do it in slippers, it is the by-vehicle one.",
+   "body_pl": "teraz / codziennie / często / zawsze.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Why that verb"
+    ],
+    "rows": [
+     [
+      "Teraz idę do sklepu.",
+      "I'm walking to the shop now.",
+      "teraz + on foot"
+     ],
+     [
+      "Codziennie chodzę do sklepu.",
+      "I walk to the shop every day.",
+      "codziennie + on foot"
+     ],
+     [
+      "Teraz jadę do pracy.",
+      "I'm on my way to work.",
+      "teraz + by vehicle"
+     ],
+     [
+      "Codziennie jeżdżę do pracy.",
+      "I go to work every day.",
+      "codziennie + by vehicle"
+     ],
+     [
+      "Często jeździmy do miasta.",
+      "We often go into town.",
+      "często + by vehicle"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "The children walk to school.",
+     "pl": "Dzieci chodzą do szkoły."
+    },
+    {
+     "en": "My parents often go into town by car.",
+     "pl": "Rodzice często jeżdżą do miasta samochodem."
+    }
+   ]
+  },
+  {
+   "title": "What you are travelling in",
+   "title_pl": "autobusem · pociągiem · rowerem · samochodem",
+   "body": "The by-vehicle verbs take the travelling-in form you have had since A2, and nothing about it changes here: autobusem, pociągiem, rowerem, samochodem.\n\nPut it on the end and the sentence is complete: Tata jeździ do pracy autobusem. Mama jeździ do sklepu rowerem.\n\nThis is where the new verb earns its place. Almost everything you will ever want to say about how somebody gets about is a habit rather than a journey happening this minute — how your son gets to work, how you do the weekly shop, how the children get to school. That is jeździć, every time.",
+   "body_pl": "jeżdżę do pracy autobusem. Jeździmy do miasta pociągiem.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "The vehicle"
+    ],
+    "rows": [
+     [
+      "Tata jeździ do pracy autobusem.",
+      "Dad goes to work by bus.",
+      "autobus → autobusem"
+     ],
+     [
+      "Mama jeździ do sklepu rowerem.",
+      "Mum goes to the shop by bike.",
+      "rower → rowerem"
+     ],
+     [
+      "Często jeździmy do miasta pociągiem.",
+      "We often go into town by train.",
+      "pociąg → pociągiem"
+     ],
+     [
+      "Rodzice jeżdżą do biura samochodem.",
+      "My parents go to the office by car.",
+      "samochód → samochodem"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I go (by vehicle, regularly)",
+   "pl": "jeżdżę"
+  },
+  {
+   "en": "you go (by vehicle, regularly)",
+   "pl": "jeździsz"
+  },
+  {
+   "en": "he or she goes (by vehicle, regularly)",
+   "pl": "jeździ"
+  },
+  {
+   "en": "we go (by vehicle, regularly)",
+   "pl": "jeździmy"
+  },
+  {
+   "en": "you all go (by vehicle, regularly)",
+   "pl": "jeździcie"
+  },
+  {
+   "en": "they go (by vehicle, regularly)",
+   "pl": "jeżdżą"
+  },
+  {
+   "en": "I'm going (on foot, right now)",
+   "pl": "idę"
+  },
+  {
+   "en": "I go (on foot, regularly)",
+   "pl": "chodzę"
+  },
+  {
+   "en": "I'm going (by vehicle, right now)",
+   "pl": "jadę"
+  },
+  {
+   "en": "you're going (on foot, right now)",
+   "pl": "idziesz"
+  },
+  {
+   "en": "you go (on foot, regularly)",
+   "pl": "chodzisz"
+  },
+  {
+   "en": "you're going (by vehicle, right now)",
+   "pl": "jedziesz"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Teraz ___ do sklepu. (I'm walking there right now)",
+   "choices": [
+    "idę",
+    "chodzę",
+    "jadę",
+    "jeżdżę"
+   ],
+   "answer": "idę",
+   "explain": "teraz settles the first question and on foot settles the second. chodzę would make it a habit rather than this afternoon."
+  },
+  {
+   "prompt": "Codziennie ___ do pracy. (I go by bus, every day)",
+   "choices": [
+    "jeżdżę",
+    "jadę",
+    "chodzę",
+    "idę"
+   ],
+   "answer": "jeżdżę",
+   "explain": "codziennie makes it a habit and the bus makes it by vehicle, so it is the new verb. jadę would be about this one journey, happening now."
+  },
+  {
+   "prompt": "Tata codziennie ___ do biura autobusem.",
+   "choices": [
+    "jeździ",
+    "jedzie",
+    "chodzi",
+    "idzie"
+   ],
+   "answer": "jeździ",
+   "explain": "tata is he, and codziennie plus a bus puts it in the by-vehicle habit corner."
+  },
+  {
+   "prompt": "Mama ___ do apteki. (she is on her way there now, on foot)",
+   "choices": [
+    "idzie",
+    "chodzi",
+    "jedzie",
+    "jeździ"
+   ],
+   "answer": "idzie",
+   "explain": "chodzi would say she goes to the chemist's regularly, which is not what this sentence is about."
+  },
+  {
+   "prompt": "Which one means you are walking there right now?",
+   "choices": [
+    "idziesz",
+    "chodzisz",
+    "jedziesz",
+    "jeździsz"
+   ],
+   "answer": "idziesz",
+   "explain": "All four are the you-form. The first two are on foot, the last two by vehicle; and within each pair the first is now and the second is regularly."
+  },
+  {
+   "prompt": "Dzieci ___ do szkoły. (they walk there every day)",
+   "choices": [
+    "chodzą",
+    "idą",
+    "jeżdżą",
+    "jadą"
+   ],
+   "answer": "chodzą",
+   "explain": "Every day is a habit, and school is close enough to walk to — so it is the on-foot habit verb."
+  },
+  {
+   "prompt": "Często ___ do miasta pociągiem. (we go by train often)",
+   "choices": [
+    "jeździmy",
+    "jedziemy",
+    "chodzimy",
+    "idziemy"
+   ],
+   "answer": "jeździmy",
+   "explain": "często is a habit word, and a train is not something you do on foot."
+  },
+  {
+   "prompt": "___ do parku? (are you all on your way there now, on foot?)",
+   "choices": [
+    "Idziecie",
+    "Chodzicie",
+    "Jedziecie",
+    "Jeździcie"
+   ],
+   "answer": "Idziecie",
+   "explain": "Chodzicie do parku? would be asking whether you go to the park as a rule — a different question altogether."
+  },
+  {
+   "prompt": "Rodzice często ___ do miasta samochodem.",
+   "choices": [
+    "jeżdżą",
+    "jadą",
+    "chodzą",
+    "idą"
+   ],
+   "answer": "jeżdżą",
+   "explain": "rodzice is they, często is a habit, and a car is a vehicle — all three point at the same corner of the grid."
+  },
+  {
+   "prompt": "Teraz ___ do pracy. (we are in the car, on our way)",
+   "choices": [
+    "jedziemy",
+    "jeździmy",
+    "idziemy",
+    "chodzimy"
+   ],
+   "answer": "jedziemy",
+   "explain": "This is the journey happening this minute, so it is jechać and not the habit verb."
+  },
+  {
+   "prompt": "Zawsze ___ do sklepu rowerem.",
+   "choices": [
+    "jeździsz",
+    "jedziesz",
+    "chodzisz",
+    "idziesz"
+   ],
+   "answer": "jeździsz",
+   "explain": "zawsze is as habitual as a word gets, and a bicycle counts as a vehicle here — you are riding it, not walking."
+  },
+  {
+   "prompt": "Mama ___ teraz do biura rowerem.",
+   "choices": [
+    "jedzie",
+    "jeździ",
+    "idzie",
+    "chodzi"
+   ],
+   "answer": "jedzie",
+   "explain": "teraz makes it this journey, and the bicycle makes it by vehicle. jeździ would be her usual way of getting there."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to go by vehicle, regularly (dictionary form)",
+   "mode": "full_word",
+   "answer": "jeździć",
+   "accepts": [
+    "jeździć",
+    "jezdzic"
+   ],
+   "explain": "The -ić ending puts it in the same family as chodzić, mówić and robić, so its endings are ones you already own."
+  },
+  {
+   "prompt_en": "I go (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeżdżę",
+   "accepts": [
+    "jeżdżę",
+    "jezdze"
+   ],
+   "explain": "One of the two outside forms: jeżdżę and jeżdżą are the pair that are spelled alike, and the middle four go the other way."
+  },
+  {
+   "prompt_en": "you go (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeździsz",
+   "accepts": [
+    "jeździsz",
+    "jezdzisz"
+   ],
+   "explain": "Same ending as chodzisz — the family is one you have had since A2."
+  },
+  {
+   "prompt_en": "he or she goes (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeździ",
+   "accepts": [
+    "jeździ",
+    "jezdzi"
+   ],
+   "explain": "This is the form you will need most often, because it is the one for how somebody else gets about."
+  },
+  {
+   "prompt_en": "we go (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeździmy",
+   "accepts": [
+    "jeździmy",
+    "jezdzimy"
+   ]
+  },
+  {
+   "prompt_en": "you all go (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeździcie",
+   "accepts": [
+    "jeździcie",
+    "jezdzicie"
+   ]
+  },
+  {
+   "prompt_en": "they go (by vehicle, regularly)",
+   "mode": "full_word",
+   "answer": "jeżdżą",
+   "accepts": [
+    "jeżdżą",
+    "jezdza"
+   ],
+   "explain": "The other outside form, so the ż is back — jeżdżę and jeżdżą are the pair that behave alike."
+  },
+  {
+   "prompt_en": "I go (on foot, regularly)",
+   "mode": "full_word",
+   "answer": "chodzę",
+   "accepts": [
+    "chodzę",
+    "chodze"
+   ],
+   "explain": "The corner of the grid next door: same habit, different means."
+  },
+  {
+   "prompt_en": "I'm going (by vehicle, right now)",
+   "mode": "full_word",
+   "answer": "jadę",
+   "accepts": [
+    "jadę",
+    "jade"
+   ],
+   "explain": "Same means as jeżdżę, but this journey rather than the habit."
+  },
+  {
+   "prompt_en": "I'm going (on foot, right now)",
+   "mode": "full_word",
+   "answer": "idę",
+   "accepts": [
+    "idę",
+    "ide"
+   ],
+   "explain": "The corner you have owned the longest, and the one the other three are measured against."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Dad goes to work by bus every day.",
+   "answer": "Tata codziennie jeździ do pracy autobusem.",
+   "accepts": [
+    "Tata codziennie jeździ do pracy autobusem.",
+    "Tata codziennie jeździ do pracy autobusem",
+    "Tata jeździ codziennie do pracy autobusem."
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum goes to the shop by bike.",
+   "answer": "Mama jeździ do sklepu rowerem.",
+   "accepts": [
+    "Mama jeździ do sklepu rowerem.",
+    "Mama jeździ do sklepu rowerem"
+   ]
+  },
+  {
+   "prompt_en": "Type: The children walk to school, but today they are going by bus.",
+   "answer": "Dzieci chodzą do szkoły, ale dzisiaj jadą autobusem.",
+   "accepts": [
+    "Dzieci chodzą do szkoły, ale dzisiaj jadą autobusem.",
+    "Dzieci chodzą do szkoły, ale dzisiaj jadą autobusem"
+   ],
+   "explain": "The habit and the exception in one sentence: chodzą for what they normally do, jadą for what is happening today."
+  },
+  {
+   "prompt_en": "Type: I'm walking to the park now, but I go to work by car every day.",
+   "answer": "Teraz idę do parku, ale codziennie jeżdżę do pracy samochodem.",
+   "accepts": [
+    "Teraz idę do parku, ale codziennie jeżdżę do pracy samochodem.",
+    "Teraz idę do parku, ale codziennie jeżdżę do pracy samochodem"
+   ],
+   "explain": "Both halves are I, and both are about going — the verbs differ because one is this walk and the other is every working morning."
+  },
+  {
+   "prompt_en": "Type: My parents often go into town by car.",
+   "answer": "Rodzice często jeżdżą do miasta samochodem.",
+   "accepts": [
+    "Rodzice często jeżdżą do miasta samochodem.",
+    "Rodzice często jeżdżą do miasta samochodem"
+   ]
+  },
+  {
+   "prompt_en": "Type: Anna is on her way to the office now, because she has a meeting.",
+   "answer": "Anna jedzie teraz do biura, bo ma spotkanie.",
+   "accepts": [
+    "Anna jedzie teraz do biura, bo ma spotkanie.",
+    "Anna jedzie teraz do biura, bo ma spotkanie"
+   ]
+  },
+  {
+   "prompt_en": "Type: Do you go to work by train?",
+   "answer": "Czy jeździsz do pracy pociągiem?",
+   "accepts": [
+    "Czy jeździsz do pracy pociągiem?",
+    "Czy jeździsz do pracy pociągiem",
+    "Jeździsz do pracy pociągiem?"
+   ],
+   "explain": "A question about somebody's usual way of getting to work is always the habit verb, never jedziesz."
+  },
+  {
+   "prompt_en": "Type: We often go into town by train, because we work there.",
+   "answer": "Często jeździmy do miasta pociągiem, bo tam pracujemy.",
+   "accepts": [
+    "Często jeździmy do miasta pociągiem, bo tam pracujemy.",
+    "Często jeździmy do miasta pociągiem, bo tam pracujemy"
+   ]
+  },
+  {
+   "prompt_en": "Type: The children never go to school by car.",
+   "answer": "Dzieci nigdy nie jeżdżą do szkoły samochodem.",
+   "accepts": [
+    "Dzieci nigdy nie jeżdżą do szkoły samochodem.",
+    "Dzieci nigdy nie jeżdżą do szkoły samochodem"
+   ],
+   "explain": "nigdy still needs the second nie on the verb — the new verb changes nothing about that."
+  },
+  {
+   "prompt_en": "Type: Dad goes by bike, and mum walks to work.",
+   "answer": "Tata jeździ rowerem, a mama chodzi do pracy.",
+   "accepts": [
+    "Tata jeździ rowerem, a mama chodzi do pracy.",
+    "Tata jeździ rowerem, a mama chodzi do pracy"
+   ],
+   "explain": "Two habits side by side, one in each half of the grid — a simply sets them against each other."
+  }
+ ],
+ "uses_lemmas": [
+  "idę",
+  "idziesz",
+  "idzie",
+  "idziemy",
+  "idziecie",
+  "idą",
+  "chodzić",
+  "chodzę",
+  "chodzisz",
+  "chodzi",
+  "chodzimy",
+  "chodzicie",
+  "chodzą",
+  "jechać",
+  "jadę",
+  "jedziesz",
+  "jedzie",
+  "jedziemy",
+  "jedziecie",
+  "jadą",
+  "teraz",
+  "codziennie",
+  "często",
+  "zawsze",
+  "dzisiaj",
+  "autobusem",
+  "pociągiem",
+  "rowerem",
+  "samochodem",
+  "autobus",
+  "pociąg",
+  "rower",
+  "samochód",
+  "do pracy",
+  "do szkoły",
+  "do sklepu",
+  "do parku",
+  "do miasta",
+  "do biura",
+  "do apteki",
+  "tam",
+  "pracujemy",
+  "ma",
+  "spotkanie",
+  "bo",
+  "ale",
+  "a",
+  "czy",
+  "nie",
+  "nigdy",
+  "tata",
+  "mama",
+  "dzieci",
+  "rodzice"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_jezdzic",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}
