@@ -212,11 +212,12 @@ export function completeMode(blockId, mode, result = null) {
   save(p);
   const nowFruit = hasFruit(blockId);
   // Grammar pack id == tree node id
-  reviewTick(blockId, ratio, nowFruit);
+  const review = reviewTick(blockId, ratio, nowFruit);
   return {
     wasFruit,
     nowFruit,
     justFruited: !wasFruit && nowFruit,
+    review,
   };
 }
 
@@ -352,11 +353,12 @@ export function completeVocabMode(blockId, mode, meta = {}) {
   }
   save(p);
   const nowFruit = blockHasFruit(b);
-  reviewTick(b.nodeId || blockId, ratio, nowFruit);
+  const review = reviewTick(b.nodeId || blockId, ratio, nowFruit);
   return {
     wasFruit,
     nowFruit,
     justFruited: !wasFruit && nowFruit,
+    review,
   };
 }
 
@@ -517,7 +519,7 @@ const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30];
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 function reviewTick(nodeId, ratio, fruited) {
-  if (!nodeId) return;
+  if (!nodeId) return null;
   const p = loadProgress();
   const n = (p.nodes[nodeId] = p.nodes[nodeId] || {});
   const now = Date.now();
@@ -525,19 +527,30 @@ function reviewTick(nodeId, ratio, fruited) {
     n.learnedAt = new Date(now).toISOString();
     n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[0] * DAY_MS).toISOString();
     save(p);
-    return;
+    return null;
   }
-  if (!n.learnedAt || !n.nextDueAt || ratio == null) return;
-  if (now < Date.parse(n.nextDueAt)) return;
+  if (!n.learnedAt || !n.nextDueAt || ratio == null) return null;
+  if (now < Date.parse(n.nextDueAt)) return null;
   n.lastReviewAt = new Date(now).toISOString();
+  const before = n.successfulReps || 0;
+  let outcome = null;
   if (ratio >= FRUIT_SOFT) {
-    n.successfulReps = (n.successfulReps || 0) + 1;
+    n.successfulReps = before + 1;
     const idx = Math.min(n.successfulReps, REVIEW_INTERVALS_DAYS.length - 1);
     n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[idx] * DAY_MS).toISOString();
+    // First successful rep = this unit just became "remembered".
+    outcome = {
+      reviewPassed: true,
+      justRemembered: before === 0,
+      justMastered: before + 1 === MASTERY_REPS,
+      reps: n.successfulReps,
+    };
   } else {
     n.nextDueAt = new Date(now + DAY_MS).toISOString();
+    outcome = { reviewPassed: false, justRemembered: false, reps: before };
   }
   save(p);
+  return outcome;
 }
 
 /** Live nodes whose review is due now (pass the tree's live practice nodes). */

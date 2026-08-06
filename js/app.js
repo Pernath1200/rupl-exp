@@ -376,6 +376,20 @@ function maybeShowFruitPayoff() {
   return true;
 }
 
+/** Review payoff — the Remembered meter beat (James 2026-08-06: a passed
+ * review completed silently; the tick belongs here too). */
+function queueReviewPayoff(nodeId, statsBefore) {
+  const nodes = STATE.tree?.nodes || [];
+  const lvl = levelOfNode(nodeById(nodeId));
+  STATE.pendingFruitPayoff = {
+    before: statsBefore,
+    after: levelUnitStats(lvl, nodes),
+    nodeId,
+    level: lvl,
+    kind: "remembered",
+  };
+}
+
 function queueFruitPayoff(nodeId, statsBefore) {
   const nodes = STATE.tree?.nodes || [];
   const lvl = levelOfNode(nodeById(nodeId));
@@ -853,6 +867,14 @@ async function openNode(node, launch = {}) {
             statsBefore || levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []),
           );
         },
+        onReview: (outcome) => {
+          if (!outcome || !outcome.reviewPassed) return;
+          if (STATE.pendingFruitPayoff) return; // a fruit beat wins
+          queueReviewPayoff(
+            node.id,
+            statsBefore || levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []),
+          );
+        },
         onExit: () => {
           if (node.unit_id) {
             refreshUnit(node.unit_id, node.id, node.partner_id);
@@ -936,6 +958,8 @@ async function openNode(node, launch = {}) {
             (!wasFruit && nowFruit)
           ) {
             queueFruitPayoff(node.id, statsBefore);
+          } else if (r && r.review && r.review.reviewPassed) {
+            queueReviewPayoff(node.id, statsBefore);
           }
         },
         onExit: () => {

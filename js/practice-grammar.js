@@ -301,6 +301,9 @@ export function startPractice(pack, root, opts) {
     if (r && r.justFruited && typeof opts.onFruit === "function") {
       opts.onFruit({ domain: "grammar", packId: pack.id, mode });
     }
+    if (r && r.review && typeof opts.onReview === "function") {
+      opts.onReview(r.review, mode);
+    }
     return r;
   }
 
