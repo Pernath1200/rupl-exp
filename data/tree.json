@@ -2940,17 +2940,18 @@
       "id": "b2_adj_acc",
       "domain": "grammar",
       "label": "Dobrą kawę · biernik",
-      "label_en": "Adjectives in the Accusative",
+      "label_en": "Adjectives in the Accusative · only the feminine changes",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 1 of 6 (spine O2 - the adjective case system, split so no unit adds more than two endings). NO NEW ENDINGS: feminine -a is already taught (dobra, nowa, a1_miec: Mam dobra kawe) and is generalised to more adjectives; masculine-inanimate and neuter are unchanged from the Nominative, which is the relief slide. FENCED: masculine-ANIMATE (dobrego psa) waits for b2_adj_gen, where -ego is actually taught. Also fenced, per the spine's standing fence: -ego/-ym/-emu must not appear anywhere in this unit, not even as a distractor.",
+      "note": "B2 Block 2, unit 1 of 6 — the opening unit of the adjective-case block (spine O2), and deliberately the easiest of the six. IT ADDS NO NEW ENDING: a1_miec already taught the feminine swap in its own words (dobra kawa -> Mam dobrą kawę) and already stated the masculine-thing/neuter relief in its own body_pl (Męskie rzeczy i nijakie bez zmian). Verified with check_new.py: dobrą and nową are TAUGHT; małą, dużą, zimną, gorącą, starą, ładną are NEW. What is actually new is two small things — six more feminine object forms, each the same mechanical -a -> -ą on an adjective already owned in the Nominative, and the generalisation off mieć: a1_miec ran the pattern with one verb, this unit runs it after mam, piję, czytam, kupuję, kupię, robi and poproszę, which is what makes it a rule rather than a fact about having things. FENCED, and this is the fence most easily broken in this block: no oblique adjective endings (-ego, -ej, -ym, -emu) appear anywhere, not even as a quiz distractor, because b2_adj_gen is the very next unit. FENCED, second: masculine-animate accusative (dobrego psa) — named in one English line on slide 2 with no form shown; masculine animates appear in the pack only as grammatical subjects. No plural objects anywhere. Every recycled noun was re-checked for what it was taught AS (walizkę, pocztówkę, umowę, serwetkę, zupę, kawę, herbatę, wodę, książkę — all accusatives in their own packs); nowe and duże are deliberately unused, since a2_plural_nom taught them as PLURAL adjectives and using them as neuter singulars would spring that homograph unannounced.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_acc.json"
     },
     {
       "id": "b2_adj_gen",

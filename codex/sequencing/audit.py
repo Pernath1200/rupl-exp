@@ -99,6 +99,7 @@ STRUCTURE_CATALOGUE = {
     "conjunctions",
     "copular_future",
     "fem_dat_loc",
+    "adj_acc",
 }
 
 GLUE_LEMMAS = {
