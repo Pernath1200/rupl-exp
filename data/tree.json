@@ -68,7 +68,6 @@
     "a2_time_past",
     "a2_past_ac",
     "a2_past_rest",
-    "a2_past_gym",
     "a2_smalltalk",
     "a2_feelings",
     "a2_plural_nom",
@@ -1537,9 +1536,9 @@
       "levels": [
         "A2"
       ],
-      "status": "live",
+      "status": "planned",
       "practice": "grammar",
-      "note": "Gym: gender + person discrimination across all taught past forms. Zero new material. Wczoraj-framed.",
+      "note": "Gym: gender + person discrimination across all taught past forms. Zero new material. Wczoraj-framed. [RETIRED from path 2026-08-06, James: repetition of not-difficult material = waste of time; drill-only-whats-hard principle, see AGENTS.md. Bank reserved for the future rep-stations layer. Do NOT re-wire live.]",
       "unit_id": "PL2_06",
       "pedagogy": "teach",
       "root": "forms",

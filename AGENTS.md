@@ -201,6 +201,25 @@ do/z unit was a cliff (first genitive endings + ze-rule + 3-way contrast) and
 became three units. James's reason: *"if students get frustrated they give up —
 I can't allow this."* An assembly unit should introduce only one new thing.
 
+## Gyms — drill only what's hard (James, 2026-08-06)
+
+James retired `a2_past_gym` from the live path after smoking it: *"heavy
+drilling is needed for some endings, at early stages, as this is a major
+sticking point in reaching automaticity, but this was a repetition of things
+that were not difficult, and just seemed a waste of time."* The binding rule
+for every future gym decision:
+
+- A gym earns its path slot ONLY when it drills endings that are genuinely
+  hard at that stage (case endings, virile alternations — the cliffs).
+  Comfortable material gets NO gym.
+- The default recycling mechanism is not a gym at all: **use new grammar and
+  vocabulary actively in later units' sentences** (the pool makes this free).
+- Massed reps on easy material belong to the future rep-stations layer, not
+  the teaching path. A retired gym's bank is stations feed, not dead work.
+- Existing gyms are subject to James's live smoke verdicts, one by one —
+  do not add new gyms beyond the current spines without a spine-level note
+  justifying them against this rule.
+
 ## Vocab packs
 
 - Every Polish noun carries `gender: m|f|n|pl` → renders as a colour-coded badge
