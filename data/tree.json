@@ -3661,18 +3661,19 @@
     {
       "id": "b2_prefix_lens",
       "domain": "grammar",
-      "label": "Przedrostki · soczewka",
-      "label_en": "Prefixes · the reading lens",
+      "label": "Wyjść czy przyjść?",
+      "label_en": "Reading the front of the verb · out, to, up-to, back",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "verbs",
       "tree_part": "verbs",
-      "note": "[B2 Block 6a, JAMES-LOCKED] RECEPTIVE-ONLY lens on core 4: wy- out, przy- to/arrive, do- reach, od- away/back. Every example an ALREADY-TAUGHT verb re-seen; zero/near-zero new lemmas; recognition tasks only, learner never types an untaught prefixed verb. Intro must say: read these, do not build new ones. za-/po-/prze- named as no-promise prefixes, one line. See B2-SPINE Block 6a.",
-      "pedagogy": "teach"
+      "note": "B2 Block 6a unit 2 (JAMES-LOCKED). RECEPTIVE-ONLY lens on the core 4: wy- out, przy- to/arrive, do- all-the-way, od- away/back. ZERO new lemmas - every example is already-taught material re-seen. Receptive-only is STRUCTURAL: type_items and use_items are empty arrays, on the live b1_virile_reco 'recognition only' precedent, so the learner never types a prefixed verb at all. TITLE CORRECTED from the planned 'Przedrostki · soczewka': przedrostki AND soczewka are both untaught Polish, which the AGENTS title rule forbids in learner-visible chrome; retitled to the house pattern on the 'Ide czy jade?' model. FENCED: wypic is never a lens example (its wy- is completive, not spatial - that is b2_prefix_two_jobs's material); opaque core-4 words (przyjaciel, przystanek, przychodnia) are excluded as examples and named on slide 1 as the reason the lens is a reading aid only; za-/po-/prze- get one no-promise line, no drills; no formation rule anywhere. od- is thin (oddawac/oddaje + odjazd) and carried by the przyjazd/odjazd station-board pair.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/b2_prefix_lens.json"
     },
     {
       "id": "b2_prefix_two_jobs",

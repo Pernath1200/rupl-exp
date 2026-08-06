@@ -127,6 +127,7 @@ STRUCTURE_CATALOGUE = {
     "motion_prefixed2",
     "aspect_prefixes",
     "motion_imperf",
+    "prefix_lens",
 }
 
 GLUE_LEMMAS = {
