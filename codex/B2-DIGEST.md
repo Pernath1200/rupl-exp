@@ -2162,3 +2162,250 @@ is used instead. *koledzy* is fenced on the same grounds.
   are the largest single thing C1 inherits from Block 5.
 - All three units are **audit-clean, not tested** — nobody has clicked through
   them.
+
+
+## Batch 10 — Block 5 closes, Block 6 opens (`b2_plural_gym`, `b2_neg_gen`, `b2_double_neg`)
+
+Built the next three unbuilt nodes in path order, one at a time, each authored,
+scanned, wired and audited before the next was started. Each audit-clean
+(**0 errors**; the same two pre-existing, unrelated warns from `a2_prep_review` /
+`b1_two_futures`), pushed to `origin/b1-build` per unit, not batched. Two new
+structures registered in `SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE`
+before each audit ran: `neg_gen`, `double_neg` (the gym registers nothing — it
+teaches nothing).
+
+Path is live through `b2_double_neg` (path index 160, **154 live nodes**, 30 of
+B2's 48 non-station nodes done). Next unbuilt B2 node: **`b2_sie_impersonal`**.
+
+**The run started by rebasing onto two commits James pushed while it was
+working, and the second of them changed the authoring contract mid-run.**
+`2921d7c` added a James-locked **Pisanie hard cap: a typed-whole answer is at
+most 3 words**, anything longer becomes a `mode:"cloze"` item with one `___` on
+the unit's teaching point, plus `codex/REPAIR-QUEUE.md` — 19 packs, 104 items,
+with the standing instruction that the routine processes **up to 3 packs per run,
+before building**. So this batch is four pieces of work, not three: the queue
+first, then the units. `b2_plural_gym` was already written when the rule landed
+and needed no change — all ten of its Pisanie answers were two words or fewer.
+
+### Repair queue: `a1_hello`, `a2_dat_chunks`, `a2_directions_func` (12 items)
+
+Taken in queue order rather than by size, so the next run can simply take the
+next three. **Ten of the twelve blanks land on the unit's teaching point.** The
+two that do not are `a1_hello` #9 and #10, and the reason is the no-duplicates
+rule colliding with the queue's own instruction: the teaching point there is
+`jest`, but items 2 and 6 of that same stage already type `jest` whole, so
+blanking it twice more would have put **three identical answers in one stage**.
+Those two blank the possessive instead — `To jest ___ dom.` / `To jest ___
+książka.` — which is also the only thing that distinguishes the two items from
+each other. Logged per-item in an item `note`, per the queue's fallback clause,
+and again in the queue's new conversion log.
+
+Everywhere else the blank is the point: `a2_dat_chunks` blanks the **plain-form
+noun** (`Smakuje mi ta ___.` → *kawa*), which is the subject-flip that pack
+exists to teach and is named in its own explain — *kawa, not kawę* — plus the
+front `Nie` on the negation item; `a2_directions_func` blanks the place name
+that does not change after *gdzie jest*, and the direction word that item 5's
+explain already calls the only moving part.
+
+**`a2_dat_chunks` items 7 and 8 ship with identical frames** (`Smakuje mi ta
+___.`) and different answers (*kawa*, *zupa*). That is deliberate — the
+`prompt_en` disambiguates and the pair drills the same fact on two nouns — but
+it is the one thing in the conversion worth a look on screen.
+
+### `b2_plural_gym` (Block 5, unit 7 of 7 — the block closes)
+
+Zero new material, `teaches_structures` and `teaches_lemmas` both empty, the
+`a1_case_gym` → `b2_adj_gym` idiom.
+
+**Why it earns its slot, stated against James's own post-`a2_past_gym` rule.**
+That gym was retired for drilling material that was not hard. This one drills
+seven plural jobs that arrived **one per node across six consecutive units** and
+were never once mixed. The endings are individually easy; choosing between them
+with all seven live is the part nothing on the path has ever asked for. If it
+plays comfortable, the verdict is James's and the bank becomes stations feed.
+
+**The spine brief was re-read against what is actually taught**, as batch 9's
+digest instructed. It predates `gen_pl_full`, `num_subject` and `num_virile` and
+names seven jobs; the honest count is seven jobs **plus two numeral agreement
+patterns**, so slide 3 covers those rather than leaving the block's two newest
+units undrilled.
+
+**Slide 2 runs opposite to `b2_adj_gym`'s, and that reversal is the whole value
+the gym adds.** The adjective gym's message was *one form does several jobs*.
+Here it is the reverse and it is good news: `-ach`, `-ami` and `-om` each do
+exactly one job and never ask about gender, so six of the seven jobs are
+unambiguous and **all the difficulty in the plural is concentrated in the
+Genitive** — which is why that case needed two whole units. Naming where the
+work actually is, is something no single unit could say.
+
+**Kontrola items 6 and 7 carry the same four choices in the same order**
+(*rodzicami / rodzicom / rodzice / rodzina*) under *Idę do parku z ___* and
+*Dziękuję ___*. Direct echo of `b2_adj_gym`'s paired *nowego*/*nowym* items.
+All 12 answers distinct.
+
+**No adjectives anywhere, and it is a scope call rather than tidiness.** *nowe*
+and *duże* are legitimately owned as Nominative/Accusative plural adjectives, so
+they could have appeared in two of the seven rows — but plural **oblique**
+adjectives are C1 (**O3**), and a board that allows an adjective in two jobs and
+forbids it in five teaches the wrong lesson by silence. Bare nouns throughout,
+matching the six units before it.
+
+**Homograph work, re-run rather than assumed.** *szkoły, kawy, piwa, miasta,
+biura, książki, herbaty, zupy, kurtki* are owned as **genitive singulars** and
+appear in no plural job here; *szkołach* and *szkół* do appear, because those
+forms are unambiguous. *klucze* is left out over `gen_pl_full`'s
+ambiguous-number finding. *drogi* appears nowhere, as in every pack since —
+`leaf_shopping_a1` owns that string as the **adjective** "expensive".
+
+**Fenced:** *siostry* and *koledzy* are both verified NEW, which is worth
+recording — `inst_pl` and `dat_pl` taught *siostrami/siostrom* and
+*kolegami/kolegom* without ever teaching those nouns' nominative plurals, so two
+of the block's twelve cast members exist only in oblique forms. Also *bracia,
+mężczyźni, ryby, wiele, kilka, dwaj, pięcioro, widzę,* and *pracowało* — the
+last of which is why use item 8 reads *Pięciu studentów **było** w biurze* and
+not *pracowało*.
+
+### `b2_neg_gen` (Block 6, unit 1 — the rule was never about mieć)
+
+The genitive of negation, generalised. `a1_negation` taught *nie mam kawy* at A1
+as a fact about one verb; it is a fact about every negated transitive verb, and
+this unit says so: *Piję kawę* → *Nie piję kawy*, *Czytam książkę* → *Nie czytam
+książki*, *Kupuję mleko* → *Nie kupuję mleka*.
+
+**One new lemma in the whole unit — *chleba* — and including it was the batch's
+sharpest judgment call.** The tree node's own spine note flagged it: *chleba* is
+verified NEW and *chleb* is a real-world exception to this course's simplified
+masculine-genitive rule. The conservative reading is to fence it and keep the
+unit at zero new lemmas. The unit teaches it anyway, and the reason is that the
+alternative is worse: the unit **states** "masculine takes `-u`" (*telefon →
+telefonu*, *pokój → pokoju*, *dom → domu*), and *chleb* has been owned since
+`leaf_food_a1`, sits inside *poproszę chleb*, and is the object of `b2_jesli`'s
+own *kupię chleb*. Teaching the rule while leaving *chleba* out would hand Dad a
+rule that manufactures a wrong form on one of the highest-frequency nouns he
+owns. It is one boxed exception in the `dziećmi`/`ludźmi`/`kelnerzy` closed-set
+idiom, never a sub-rule, and **the non-word *chlebu* is printed nowhere,
+distractors included** — the `gen_pl_full` no-fabrications rule.
+
+**Everything else is recycled**, which is why a rule this broad is nearly free:
+both halves of every pair are owned (*kawę/kawy, wodę/wody, herbatę/herbaty,
+zupę/zupy, książkę/książki, mleko/mleka, piwo/piwa, telefon/telefonu, psa/psa*).
+
+**The match board is six minimal pairs, positive row above negative row.** A
+board of negatives alone would show the new forms and hide the fact that makes
+them new. The masculine-animate pair is last on purpose: *Mam psa* → *Nie mam
+psa*, nothing changes at all, because AGENTS.md's named Acc≡Gen exception means
+the object form of a man or an animal already **is** the genitive.
+
+**Slide 3 is a guard against over-application, and it is deliberate rather than
+a second fact.** Only a direct object moves: *Nie mieszkam w domu*, *Nie jestem
+lekarzem*, *Nie idę do sklepu*, *Nie pomagam mamie* are all unchanged. Quiz
+items 11 and 12 are that guard, in the idiom of `num_virile`'s *osoba* guard — a
+learner told "nie moves the word after it" will move the wrong ones.
+
+**Plural objects are held and logged, and this is the scope call James might
+want to overturn.** *Nie mam gazet* is fully legal by this point (`gen_pl_full`
+is three nodes back). The unit has one fact and number is orthogonal to it, so
+the recombination belongs to `b2_case_gym` and `b2_wrapup`.
+
+### `b2_double_neg` (Block 6, unit 2 — Polish says no twice)
+
+Obligatory double negation: a negative word **and** a second `nie` on the verb,
+both, always. Spine **O13**, an addition beyond the routine brief's list and
+logged there rather than guessed silently.
+
+**Two new lemmas only, *nikt* and *nigdzie*,** because *nic* (`a2_smalltalk`,
+frozen inside *nic nowego*) and *nigdy* (`leaf_time_cal_a1`) are already owned.
+Dad arrives holding half the set and none of the syntax, which is exactly the
+gap the unit exists for — English speakers get this permanently wrong unless it
+is named.
+
+***żaden* is dropped, a deliberate departure from the spine's own list.** The
+spine names *nikt, nigdzie, żaden*. *żaden* is adjective-shaped with a full
+declension, and its natural home — *Nie mam żadnej książki* — stacks a new
+declining word directly on top of `neg_gen`, taught **one node earlier**. The
+four invariable negative words do the unit's one job without it. Fenced
+entirely, C1 inbox.
+
+**The unit is not titled *Nikt nie wie*, despite that being the spine's headline
+phrase.** `check_new.py` reports *wie* NEW: *wiem* is owned only inside the
+frozen chunk *nie wiem* (`a2_directions_func`), so *wie* would be a new form of
+an irregular verb whose paradigm nobody owns. It appears nowhere in the pack,
+title included. That is AGENTS.md's most-repeated violation, caught by checking
+rather than by luck, and it is the fourth time the title rule has bitten a spine
+phrase.
+
+**Slide 3 is consolidation, not a second fact.** The verb still carries `nie`,
+so the object is still in the of-form: *Nigdy nie piję kawy*, not *kawę*; *Nikt
+nie kupuje chleba*. The unit re-drills `neg_gen` at zero cost, which is why the
+two nodes are adjacent.
+
+Word order is negative-word-first throughout, matching the English being
+translated from. *Nie ma nikogo* and every other order is held, along with
+*nikogo/nikomu/niczego* and the past with *nikt* as subject (masculine-singular
+agreement — a second fact).
+
+### Verification performed on all three packs
+
+- **Pool regenerated three times**, once before each unit (`--before
+  b2_plural_gym`, `--before b2_neg_gen`, `--before b2_double_neg`), so each pack
+  was written against what is taught strictly before *it*. It mattered twice:
+  `double_neg` recycles *chleba* from `neg_gen` one node earlier, in four
+  separate items.
+- **`codex/scripts/verify_pack.py` run on every pack** against its own
+  position-aware pool. **0 FAIL on all three.** Every flagged token was read by
+  eye rather than filtered; the only Polish-looking survivors were bare ending
+  fragments in slide text (`-ach`, `-ami`, `-om`, `-ów`, `-ka`, `-u`, `-y`, the
+  `ó` in *pokój → pokoju*), all legitimate.
+- **Mechanical stage checks per pack**, run independently of the tool: match
+  exactly 12 rows with no duplicate `pl` or `en`; every quiz answer present among
+  its own four choices; no duplicated choices inside an item; no duplicate quiz
+  prompts; **all 12 quiz answers distinct in every pack**; no duplicate type or
+  use answers; no Użycie item verbatim a Pisanie item; every `uses_lemmas` entry
+  present in that node's pool. All three clean.
+- **New Pisanie cap checked mechanically** on every pack and every converted
+  pack: no typed-whole answer over 3 words, every `frame` containing exactly one
+  `___`.
+- **One dead tag removed** before wiring: *kupuj* in `double_neg`'s
+  `uses_lemmas`, caught by the tool.
+- **Homograph "taught AS" check re-run on every recycled form.** The finds that
+  shaped packs are in the unit notes above; the two that recur are *gazety*
+  (owned as a NOMINATIVE PLURAL, so it is kept out of every genitive-singular
+  object slot in both Block 6 units) and *drogi* (the adjective "expensive").
+- **All eight station placeholders re-asserted as `planned` after every wiring**,
+  by assertion rather than by eye.
+- **`scripts/smoke.py` run after each wiring** — SMOKE PASSED each time. Note
+  this is the repo's file-integrity smoke, not a click-through; nobody has played
+  these units.
+- Known blind spot, stated again: person pronouns sit in `audit.py`'s
+  `GLUE_LEMMAS`, so the machine cannot see a pronoun leak. All three units are
+  bare-noun throughout and use no oblique pronoun anywhere, checked by hand.
+
+### For James's next smoke pass
+
+- **The one I would most want you to rule on is *chleba* in `b2_neg_gen`.** The
+  conservative path was to fence it and ship a zero-new-lemma unit. I taught it,
+  because the unit states a rule that would otherwise manufacture *chlebu* on a
+  word Dad orders in a shop. If you disagree, the fix is small: drop the *chleb*
+  row from slide 2, quiz 9 and type 7, and drop the two use items that carry it.
+- **Second is dropping *żaden* from `b2_double_neg`.** It leaves the unit at two
+  new words, which will feel very short. That is the unit being honest — the
+  content is syntax, not vocabulary — but if it plays thin, *żaden* is the
+  natural top-up and it now needs a small unit of its own rather than a line.
+- **Watch whether `b2_plural_gym` is too easy.** It is the first gym since you
+  retired `a2_past_gym`, and the case it makes for itself is that seven plural
+  jobs have never been mixed. If it still feels like repetition of things that
+  were not difficult, that is the same verdict again and the bank goes to
+  stations.
+- **The two `a2_dat_chunks` cloze items with identical frames** (`Smakuje mi ta
+  ___.`, answers *kawa* and *zupa*) are worth seeing on screen — the prompt
+  disambiguates them, but only if the prompt reads clearly above the frame.
+- **Also worth a look: the cloze rendering on `a1_hello` #9/#10**, since those
+  are the earliest units in the course and the first place Dad will ever meet an
+  inline blank.
+- **Still open from this batch, all logged in the packs**: plural objects under
+  negation (*Nie mam gazet*); *żaden* and its declension; *nikogo/nikomu/
+  niczego*; the past with *nikt* as subject; *wie* and the rest of *wiedzieć*;
+  inverted word order with a counted subject; and plural oblique adjectives, now
+  fenced by eight consecutive units.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
