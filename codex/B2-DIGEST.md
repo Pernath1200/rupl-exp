@@ -1367,3 +1367,255 @@ gap-fill prompt) came back **completely clean on all three**.
   and `b2_ktory_full` → *Film, o którym…* (drafted *Z którym? O którym?*, which read
   as a pair of questions when the unit is about relatives, not questions). Every
   Polish word in all three titles is taught at or before its own node.
+
+---
+
+## Batch 7 — Block 4 closes (`b2_abstract`, `b2_jesli`, `b2_gdyby`)
+
+Built the next three unbuilt nodes in path order, one at a time, each wired and
+audited before the next was started. Each audit-clean (**0 errors**; the same two
+pre-existing, unrelated warns from `a2_prep_review` / `b1_two_futures` that every
+batch since B1 has carried), pushed to `origin/b1-build` per unit, not batched.
+Two new structures registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before each audit ran: `jesli`, `gdyby`. `b2_abstract` is a
+vocab leaf and registers none, per the standing convention.
+
+**Block 4 is now complete.** Path is live through `b2_gdyby` (path index 152,
+**146 live nodes**, 21 of B2's 48 non-station nodes done). Next unbuilt B2 node:
+**`b2_loc_pl`** — the opener of Block 5, plural cases, and per the spine the
+easiest unit in the level.
+
+The batch-6 environment note still holds and still matters: `main` has no
+`codex/` directory, so a cloud session must start with `git fetch origin && git
+checkout -B b1-build origin/b1-build`, and `py -X utf8` does not exist on the
+Linux runner — use `python3 -X utf8`.
+
+### `b2_abstract` (Block 4 vocab — the nouns an opinion needs)
+
+Twelve new words, all verified NEW: przyczyna, skutek, wpływ, zmiana,
+rozwiązanie, wada, zaleta, cel, sposób, możliwość, wybór, decyzja.
+
+**The spine offered sixteen and said trim to twelve; here is which four went and
+why.** Dropped **korzyść** — its English gloss ("benefit") is barely
+distinguishable from *zaleta*'s, and keeping it would have put a *third* soft
+feminine in one pack; **wartość**, the most abstract of the set and the one that
+earns this learner least; **społeczeństwo** and **środowisko**, which are words
+for essays about society and ecology rather than words for saying what you think
+about an ordinary thing. All four are verified NEW, cost nothing to teach later,
+and go to the **C1 inbox**.
+
+Taught as pairs where they are used as pairs — przyczyna/skutek, wada/zaleta —
+and the glosses are deliberately held apart, with *wpływ* glossed "an influence"
+and never "an effect" so it does not collide with *skutek*.
+
+Three inflected forms taught alongside the citations: **przyczynę**, and
+**wady / zalety**. Those two carry the `-y` homograph AGENTS.md names — plural
+versus genitive singular, the *córki / wina / gazety / okna* collision — and
+since both words are new here nothing earlier can be misread, but the pack still
+teaches them explicitly as plurals, says so in an explain, and uses them in no
+other job anywhere. *Wady i zalety* is the single most useful phrase in the set
+and was worth the care.
+
+**sposób and wybór carry the ó/o alternation and skutek a fleeting e**
+(sposobu, wyboru, skutku). None of those forms appears. All three are used in the
+Nominative and Accusative only, where a masculine thing does not move at all, so
+the alternations are never met and never have to be explained — which is what
+decided them over the four words dropped.
+
+**Two fences worth knowing about, both of which cost real sentences.** No
+genitive of any new noun, which killed *Nie ma rozwiązania*: `b2_health_system`
+already spent one flagged exception on the `-e` neuter genitive (*skierowania*)
+and asked James to rule on it, and doubling down before he answers would turn a
+single flagged instance into a half-taught rule. And `na` + Accusative stays
+fenced per that same pack, which cost **mieć wpływ na** — the real collocation
+for *wpływ*, and the reason that word appears in plainer frames than it deserves.
+It is now the strongest single argument for a `na` + Accusative unit at C1.
+
+*ważny* is verified NEW and was kept out of every sentence, gloss and explain
+because B2-SPINE hands it to `b2_travel_func`.
+
+### `b2_jesli` (Block 4, unit 6 — Polish puts in the tense it means)
+
+One new word in the entire unit, *jeśli*, and zero new morphology.
+
+The one teaching point beyond the word is the tense inside the *jeśli*-clause,
+and it is framed as **English being the odd one out** rather than Polish
+demanding something extra — the `a2_bedzie` / `b2_indirect_q` gift idiom, now on
+its fourth outing. English says a present after "if" even when it plainly means
+the future; Polish just puts in the tense it means. Present-tense conditions stay
+present, so both are drilled and the choice is always "what do you actually
+mean". Five Pisanie items demand *będzie* / *będziesz* from an English present
+and **each carries an explain**, since the prompt deliberately does not show it.
+
+**Pays `b2_indirect_q`'s explicit IOU.** That pack created it, flagged it as one
+that would not be obvious later, and named this unit as the place: the classic
+error is confusing *czy* with *jeśli*, and it was undrillable there because
+*jeśli* was still untaught. It lands as a minimal pair on **one clause** — quiz
+11 *Nie wiem, **czy** to jest dobra decyzja* against quiz 12 ***Jeśli** to jest
+dobra decyzja, będzie dobrze* — plus a test the learner can apply in English
+without knowing any Polish: swap "if" for "whether" → *czy*; swap it for "in the
+case that" → *jeśli*. Both *czy* sentences are **produced**, not merely
+recognised, in Użycie.
+
+**Word order fenced to *jeśli*-first, conservative branch, logged.** The reversed
+order (*Będę w parku, jeśli…*) is grammatical and common but is a second fact,
+and every subordinate clause the learner owns so far — *że*, *żeby*, *który*,
+embedded questions — comes second, so *jeśli*-first is already the new shape. All
+twelve match rows share one skeleton on purpose. **C1 inbox.**
+
+**The spine's own example sentence was rebuilt.** B2-SPINE gives *Jeśli będzie
+ładna pogoda, będę w parku*, but *będzie ładna pogoda* is the existential
+*będzie* that `b2_copular_future` explicitly fenced. Every weather condition in
+the pack is therefore built subject-first: *Jeśli pogoda będzie ładna*.
+
+### `b2_gdyby` (Block 4, unit 7 — the marker moves onto the opener)
+
+Pays `b1_conditional_sg`'s named fence ("simple wishes and soft requests only, no
+*gdybym* / *jeśli…by* clauses"), and sits one node after `b2_jesli` so real and
+unreal conditions arrive back to back and are taught against each other.
+
+Three new strings and nothing else: *gdybym*, *gdybyś*, *gdyby*. The person
+marker is the **third turn of one pattern**, said out loud on slide 2: `-m` / `-ś`
+/ nothing is the identical family already owned as *bym/byś/by* and as
+*żebym/żebyś*. The **żeby parallel is the unit's best anchor and is drilled, not
+merely mentioned** — quiz 10 and Użycie 9 both make the learner produce a *żeby*
+sentence inside this unit, because the skeleton is identical: marker welded to
+the function word, plain L-form on the verb.
+
+**The one thing to check first if this unit reads narrow.** The result half is
+sharply limited by what `b1_conditional_sg` actually taught, and this shaped the
+whole pack rather than one sentence. **`zrobiłbym` is verified NEW**, so *"I would
+make dinner"* — the most natural sentence in the unit — is **not expressible** and
+appears nowhere. The only owned first-person conditionals are
+*chciałbym/chciałabym* and *kupiłbym/kupiłabym*, so every 1sg result clause is
+built from those two verbs; third person is much freer (*zrobiłby, zrobiłaby,
+kupiłby, kupiłaby, mógłby, mogłaby*), which is why most of the board runs on
+*mama* and *tata* as subjects rather than on *ja*. This is a real scope limit,
+not a stylistic preference, and the honest fix if James wants it is a handful of
+extra first-person conditionals, not a rewrite of this unit.
+
+**`byłbym` is NEW too**, so *"I would be…"* is unavailable and every result clause
+that wanted it was rebuilt around *chciałbym być*.
+
+**`poszedłbym` is the spine's own drafted example for this unit and is untaught.**
+It is also the third prefix on *iść*'s suppletive past stem that `b1_wrapup`'s
+digest records being caught and rejected once already. It was not used here
+either — which makes this the second time that exact form has been stopped at the
+door, and a good argument for `b2_motion_prefixes2` landing before anything else
+reaches for it.
+
+Plural *gdyby* forms (*gdybyśmy*, *gdybyście*) held, mirroring
+`b1_conditional_sg`'s and `b1_zeby`'s own singular-first splits — **C1 inbox**.
+The conditional past (*byłbym miał*) is B2-SPINE **O6**'s deferral, so the L-form
+after *gdyby* is glossed **only** as a present unreal ("if I had time", never "if
+I had had time"), and the fact that Polish uses one shape for both readings is
+not mentioned at all rather than half-taught.
+
+### Verification performed on all three packs
+
+The batch-6 scanner was rebuilt for this batch and, before being trusted,
+**re-calibrated against five already-shipped packs** (`b2_health_system`,
+`b2_work`, `b2_ze_clauses`, `b2_ktory_full`, `b2_indirect_q`, `b2_reported`) — it
+had to reproduce "clean" on every one of them before it was allowed to judge new
+work. Calibration changed the tool twice, and both changes are worth recording:
+
+- The intro/table pass drowned in English. Table cells legitimately mix English
+  and Polish, so it now flags only **diacritic-bearing** tokens there and the
+  diacritic-free Polish in tables is eyeballed by hand. This is a known
+  false-negative and is the weakest part of the scanner.
+- **A real bug in my own tool, caught by calibration rather than by luck.** The
+  `teaches_lemmas` / `uses_lemmas` coverage check built its haystack from the
+  whole pack — *including the tag lists themselves* — so every tag matched itself
+  and the check could never fail. Fixed to search only content keys. It
+  immediately found two dead tags in `b2_jesli` (`był`, `problemu`, both declared
+  and never used), which were removed rather than left as decoration.
+
+With that in place, on all three new packs: every authored learner-facing string
+— intro tables (every cell), titles, `body_pl`, examples, match, quiz prompts,
+**quiz distractors**, `accepts`, type and use items — extracted and scanned token
+by token against the position-aware pool plus the pack's own `teaches_lemmas`.
+Strict surfaces came back **completely clean on all three**.
+
+- **One real leak caught and fixed before wiring**, and it is an instructive one
+  because I wrote it deliberately. `b2_gdyby`'s slide 3 said *"Never miałby"* as a
+  worked negative example — but **`miałby` is real untaught Polish**, and the
+  pack's own note claimed the form appeared nowhere. So the note and the slide
+  contradicted each other. Rewritten to "never a *by* form", keeping the
+  illustration on *żebyś zrobiłby*, which **is** owned. This is the fifth
+  consecutive batch in which the scanner caught something the author had not
+  seen, and the first where the leak was a stated fence contradicting itself.
+- **Pool regenerated three times**, once before each unit (`--before b2_abstract`,
+  `--before b2_jesli`, `--before b2_gdyby`), so each pack was written against what
+  is taught strictly before *it*. This mattered twice: `b2_jesli` legally recycles
+  *sposób*, *decyzja* and *rozwiązanie* from `b2_abstract` one node earlier, and
+  `b2_gdyby` recycles *jeśli* from `b2_jesli` one node earlier for its own
+  real/unreal contrast.
+- **Dedicated fence greps per pack, with `note` stripped first** since a note
+  legitimately names what it fences. `b2_jesli`: zero *by*-forms anywhere — the
+  two `\bby\b` hits were both the English word "by" in explain prose, checked
+  individually. `b2_gdyby`: zero occurrences of *byłbym, byłby, byłaby,
+  zrobiłbym, zrobiłabyś, kupiłbyś, miałbym, mógłbym, poszedłbym, gdybyśmy,
+  gdybyście*, and a regex confirming no *by*-form ever follows a *gdyby* opener
+  directly. Zero *jeżeli*, *gdy*, *wtedy* in either.
+- **A reversed-word-order sniff** on `b2_jesli` (any word followed by comma then
+  *jeśli*): zero hits, which is the fence the unit's whole match board rests on.
+- **Homograph "taught AS" check re-run on every recycled form**, all 34 of
+  `b2_abstract`'s and all 25 of `b2_gdyby`'s content words. The ones that
+  mattered: *kawy* used in an explain in exactly the genitive job
+  `a1_gen_endings` taught it in; *nową* in the accusative job `a1_miec` taught;
+  *noc* and *mysz* as the soft-feminine anchors for *możliwość*; *otwarty* and
+  *zamknięty* as the **plain adjectives** `leaf_shopping_a1` taught, not the
+  participles `b2_participle_pass` will later reveal; and *mógłby* / *mogłaby*,
+  which `b1_polite` taught inside the *czy mógłby pan* request formula and which
+  this pack uses as plain third-person "could" — the same grammatical job in a
+  new frame, named in an explain rather than let slip.
+- **Distractor discipline, stated because it shaped a whole stage.** *miałby* and
+  *miałaby* would be the sharpest possible distractors for `b2_gdyby`'s
+  plain-L-form fact, and both are real Polish — but neither is taught, and a
+  button teaches a string as surely as a table does. They are on no choice list.
+  The same fact is drilled from the other side instead, in quiz 5, 6 and 7.
+- **Pronoun labels checked against precedent, not assumed.** `b2_gdyby`'s slide 2
+  uses *ja / ty / on / ona* as paradigm labels; `b1_zeby`'s intro table does
+  exactly the same thing in the same shape (*kupiłbym | żebym kupił | ja*), so
+  this is established convention. Noted because AGENTS.md and the run brief both
+  warn that pronouns sit in `audit.py`'s `GLUE_LEMMAS` and are invisible to the
+  auditor — this one was verified by hand.
+- Mechanical stage checks per pack: Match exactly 12 rows with no duplicate `pl`
+  or `en`, every quiz answer present among its own choices, no duplicated
+  choices, no duplicate prompts, no duplicate type or use answers, no Użycie item
+  repeating a Pisanie item, every `teaches_lemma` actually demanded in a drill
+  stage, and a meta-question sniff over every Kontrola prompt. All three clean.
+- **All eight station placeholders re-asserted as `planned` after every wiring**,
+  by assertion rather than by eye.
+
+### For James's next smoke pass
+
+- **`b2_gdyby`'s missing first person is the call I would most want you to look
+  at.** Dad finishes this unit able to say *"If Mum had time, she would make
+  dinner"* fluently but **not** *"If I had time, I would make dinner"* — because
+  `zrobiłbym` was never taught and this unit would not smuggle it in. He can say
+  *I would buy* and *I would like*, and nothing else in the first person. If that
+  feels too thin live, the cheap fix is a short first-person conditional top-up
+  (`zrobiłbym`, `byłbym`, `miałbym`), not a change to this unit.
+- **`b2_jesli`'s five Pisanie items that demand *będzie* from an English present
+  are the ones to watch.** They are the unit's real content, and each has an
+  explain, but they are also the only place in the pack where the English prompt
+  does not show the learner what to type. If they play badly, the honest fix is
+  to reword those prompts ("If the weather is nice **tomorrow**…"), not to drop
+  the fact.
+- **The three-way "if" is now live for the first time** — *czy*, *jeśli* and
+  *gdyby* all collapse onto one English word, and `b2_gdyby` quiz 9 is the only
+  item that puts all three on one button row. Worth watching whether that item
+  lands as a summary or as a pile-up.
+- **`b2_abstract` is a twelve-word leaf with no genitive and no locative**, which
+  makes it noticeably flatter than `b2_work` or `b2_health_system`. That is
+  deliberate (the `-e` neuter genitive question is still open with you), but if
+  you would rather it earned its keep, ruling on *skierowania* unblocks
+  *rozwiązania* and about four more sentences here.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
+- Titles re-checked word by word at the moment of wiring, per the standing B1
+  batch 10 reminder. All three pass: *Powód i cel* (*powód* `leaf_ideas_a1`, *cel*
+  taught by its own node), *Jeśli…* (taught by its own node), *Gdybym miał czas…*
+  (*gdybym* its own node, *miał* `a2_past_rest`, *czas* owned). No `title_en`
+  carries builder jargon.
