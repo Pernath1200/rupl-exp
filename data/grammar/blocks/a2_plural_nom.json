@@ -36,9 +36,9 @@
   ],
   "intro": [
     {
-      "title": "More than one: add -y",
+      "title": "Mianownik liczby mnogiej — the plural: -y",
       "title_pl": "Liczba mnoga: -y",
-      "body": "To talk about more than one thing, you change the end of the word.\n\nMost nouns take -y. A word ending in a consonant simply adds it: sklep → sklepy. A word ending in -a swaps that -a for -y: gazeta → gazety.\n\nThis is the main rule and it covers most of the language. The three rules that follow are the exceptions to it.\n\nOne small extra: to jest (this is) becomes to są when there is more than one.",
+      "body": "The plural is a form of the noun, and this unit builds it in the nominative — the case a noun takes as the subject of a sentence, and its dictionary form.\n\nMost nouns take -y. A noun ending in a consonant adds it: sklep → sklepy. A noun ending in -a swaps that -a for -y: gazeta → gazety.\n\nThis is the main rule; the three slides that follow are its exceptions.\n\nOne more form: to jest (this is) becomes to są in the plural.",
       "body_pl": "Większość rzeczowników: -y. sklep → sklepy, gazeta → gazety. To jest → to są.",
       "table": {
         "headers": [
@@ -94,7 +94,8 @@
           "en": "These are my newspapers.",
           "pl": "To są moje gazety."
         }
-      ]
+      ],
+      "title_en": "Nominative plural: -y"
     },
     {
       "title": "After k and g: -i, never -y",
@@ -237,9 +238,9 @@
       }
     },
     {
-      "title": "A free gift: subject and object look the same",
+      "title": "Biernik = mianownik (w liczbie mnogiej)",
       "title_pl": "Biernik = mianownik",
-      "body": "In the singular you have to change a noun when it becomes the object of a verb: kawa → Mam kawę. Książka → Mam książkę.\n\nIn the plural you do not. The form you have just learned does both jobs, unchanged:\n\nKsiążki są nowe. — The books are new. (subject)\nMam nowe książki. — I have new books. (object)\n\nThe accusative plural is identical to the nominative plural. That is one whole case you never have to learn.",
+      "body": "In the singular, a noun changes when it becomes the object of a verb — the accusative: kawa → Mam kawę, książka → Mam książkę.\n\nIn the plural it does not. The form you have just learned does both jobs unchanged:\n\nKsiążki są nowe. — The books are new. (subject · nominative)\nMam nowe książki. — I have new books. (object · accusative)\n\nFor these nouns the accusative plural and the nominative plural are the same form. That is one fewer ending to learn, and it holds for every noun in this unit.",
       "body_pl": "W liczbie mnogiej biernik = mianownik: Książki są nowe. Mam nowe książki.",
       "examples": [
         {
@@ -258,7 +259,8 @@
           "en": "I have the keys.",
           "pl": "Mam klucze."
         }
-      ]
+      ],
+      "title_en": "Accusative plural = Nominative plural"
     }
   ],
   "match": [

@@ -118,7 +118,7 @@
       },
       "examples": [
         {
-          "en": "Good day. I would like to ask where the station is. (m)",
+          "en": "Hello. I would like to ask where the station is. (m)",
           "pl": "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec."
         },
         {
@@ -547,7 +547,7 @@
       "explain": "The full polite approach: soften first, then ask. Oczywiście is the warm yes that comes back."
     },
     {
-      "prompt_en": "Type: Good day. I would like to ask where the station is. (m)",
+      "prompt_en": "Type: Hello. I would like to ask where the station is. (m)",
       "answer": "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec.",
       "accepts": [
         "Dzień dobry. Chciałbym zapytać, gdzie jest dworzec.",
@@ -627,7 +627,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Good day. Sorry to disturb you. I would like to ask where the hotel is. (m)",
+      "prompt_en": "Type: Hello. Sorry to disturb you. I would like to ask where the hotel is. (m)",
       "answer": "Dzień dobry. Przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel.",
       "accepts": [
         "Dzień dobry. Przepraszam, że przeszkadzam. Chciałbym zapytać, gdzie jest hotel.",

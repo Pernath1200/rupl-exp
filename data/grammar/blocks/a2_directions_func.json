@@ -720,7 +720,7 @@
    "explain": "Szpital becomes szpitala after do — the same do szpitala you already know."
   },
   {
-   "prompt_en": "Type: Good day. Excuse me, where is the market square?",
+   "prompt_en": "Type: Hello. Excuse me, where is the market square?",
    "answer": "Dzień dobry. Przepraszam, gdzie jest rynek?",
    "accepts": [
     "Dzień dobry. Przepraszam, gdzie jest rynek?",

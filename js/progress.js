@@ -558,6 +558,10 @@ export function reviewDueList(nodes) {
   const p = loadProgress();
   const now = Date.now();
   return (nodes || []).filter((node) => {
+    // Retired units (taken off the path — a2_past_gym) must not keep
+    // demanding reviews: James 2026-08-06, "no point drilling material
+    // judged not worth teaching".
+    if (node.status !== "live" || !node.content) return false;
     const n = p.nodes?.[node.id];
     return n && n.learnedAt && n.nextDueAt && now >= Date.parse(n.nextDueAt);
   });

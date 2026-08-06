@@ -134,7 +134,7 @@
       "body_pl": "Jak było w weekend? Co robiłeś / robiłaś wczoraj?",
       "examples": [
         {
-          "en": "Good day. How was the weekend?",
+          "en": "Hello. How was the weekend?",
           "pl": "Dzień dobry. Jak było w weekend?"
         },
         {
@@ -495,7 +495,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Good day. How was the weekend?",
+      "prompt_en": "Type: Hello. How was the weekend?",
       "answer": "Dzień dobry. Jak było w weekend?",
       "accepts": [
         "Dzień dobry. Jak było w weekend?",

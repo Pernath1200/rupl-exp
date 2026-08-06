@@ -237,7 +237,7 @@
           "pl": "Tylko oglądam, dziękuję."
         },
         {
-          "en": "Good day. A cheese, please. That's everything, thank you.",
+          "en": "Hello. A cheese, please. That's everything, thank you.",
           "pl": "Dzień dobry. Poproszę ser. To wszystko, dziękuję."
         },
         {
@@ -553,7 +553,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Good day. A coffee, please.",
+      "prompt_en": "Type: Hello. A coffee, please.",
       "answer": "Dzień dobry. Poproszę kawę.",
       "accepts": [
         "Dzień dobry. Poproszę kawę.",
@@ -615,7 +615,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Good day. Is there any sugar?",
+      "prompt_en": "Type: Hello. Is there any sugar?",
       "answer": "Dzień dobry. Czy jest cukier?",
       "accepts": [
         "Dzień dobry. Czy jest cukier?",
@@ -653,7 +653,7 @@
       ]
     },
     {
-      "prompt_en": "Type: Good day. Some cheese, please. That's everything, thank you.",
+      "prompt_en": "Type: Hello. Some cheese, please. That's everything, thank you.",
       "answer": "Dzień dobry. Poproszę ser. To wszystko, dziękuję.",
       "accepts": [
         "Dzień dobry. Poproszę ser. To wszystko, dziękuję.",

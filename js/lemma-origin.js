@@ -51,7 +51,7 @@ async function buildIndex() {
       order += 1;
       const pos = order;
       jobs.push(
-        fetchJson(`./${node.content.replace(/^\.\//, "")}`)
+        fetchJson(`./data/${node.content.replace(/^\.\//, "")}`)
           .then((pack) => ({ node, pos, lemmas: pack.teaches_lemmas || [] }))
           .catch(() => null),
       );

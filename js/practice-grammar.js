@@ -118,6 +118,33 @@ function acceptsList(item, mode) {
   return [...new Set(raw.map(norm).filter(Boolean))];
 }
 
+/** Strip Polish diacritics for near-miss comparison (ż/ź, ą/a …). */
+function deacc(s) {
+  return String(s)
+    .replace(/ą/g, "a")
+    .replace(/ć/g, "c")
+    .replace(/ę/g, "e")
+    .replace(/ł/g, "l")
+    .replace(/ń/g, "n")
+    .replace(/ó/g, "o")
+    .replace(/ś/g, "s")
+    .replace(/ź/g, "z")
+    .replace(/ż/g, "z");
+}
+
+/**
+ * Diacritics-only miss (James 2026-08-06): the answer is right apart from
+ * ogonki/kreski. Scores as correct, feedback shows the fully-accented form
+ * so the correct spelling is still seen. Vocab has done this since day one;
+ * the grammar engine was the strict outlier.
+ */
+function isAccentNearMiss(user, item, mode) {
+  const u = mode === "ending_gap" ? normEnding(user) : norm(user);
+  if (!u) return false;
+  const flat = deacc(u);
+  return acceptsList(item, mode).some((f) => deacc(f) === flat);
+}
+
 function isCorrect(user, item, mode) {
   if (mode === "ending_gap") {
     const u = normEnding(user);
@@ -1217,17 +1244,22 @@ export function startPractice(pack, root, opts) {
     const grade = () => {
       if (answered) return;
       answered = true;
-      const good = isCorrect(input.value, item, mode);
+      const exact = isCorrect(input.value, item, mode);
+      const accentOnly = !exact && isAccentNearMiss(input.value, item, mode);
+      const good = exact || accentOnly;
       if (good) {
         if (!retype) {
           if (kind === "type") state.typeScore += 1;
           else state.useScore += 1;
         }
         fb.className = "feedback ok";
-        fb.textContent =
-          (isGap
-            ? `✓ Poprawnie · ${fullFormOf(item) || item.stem + item.ending}`
-            : "✓ Poprawnie") + (retype ? " (przepisane)" : "");
+        const full = isGap
+          ? fullFormOf(item) || item.stem + item.ending
+          : item.answer || fullFormOf(item) || "";
+        fb.textContent = accentOnly
+          ? `✓ Poprawnie — z ogonkami: ${full}`
+          : (isGap ? `✓ Poprawnie · ${full}` : "✓ Poprawnie") +
+            (retype ? " (przepisane)" : "");
       } else {
         if (!retype) {
           if (kind === "type") {

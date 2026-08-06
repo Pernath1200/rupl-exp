@@ -9,6 +9,20 @@
 - **Refinement (James, 2026-08-06, second smoke report):** the word cap alone is not the rule. **Frozen chunks taught whole** (Co słychać?, Nic nowego., Wszystko w porządku.) and **pattern phrases** (Było super., w nowym domu) may be typed whole at ≤3 words; **COMPOSED sentences are cloze regardless of length** — anything built from parts (chunk + bolted-on phrase like "Jak było w pracy?", or a real conjugated question like "Co robiłaś wczoraj?"). While repairing a queued pack, ALSO audit its ≤3-word type items against this test and cloze the composed ones (they are not listed below — the sweep was word-count-based and cannot see composition). Worked example: a2_smalltalk items 8-11, converted by hand 2026-08-06 ("Jak było ___?" → w weekend / w pracy; "Co ___ wczoraj?" → robiłeś / robiłaś).
 - After converting a pack: re-run the audit (tags unchanged, must stay 0 errors), verify no duplicate answers within the stage, tick the pack below and note the commit hash.
 
+## Second sweep — intro register (James, 2026-08-06)
+
+While repairing ANY pack below, also audit its **intro slides** against the
+rewritten "Who the learner is" section of `AGENTS.md`: name the real
+grammatical category in titles and bodies (*Mianownik liczby mnogiej*, not
+"More than one"; *Biernik = mianownik*, not "subject and object look the
+same"), delete cute framing ("A free gift", cheerleading), and break up
+walltext. James's ruling: RUPL's learner is linguistically inclined and
+learning a hard language on purpose — the English may be sophisticated even
+though his Polish is at zero. Worked example, done by hand 2026-08-06:
+`a2_plural_nom` slides 0 and 5. This applies to packs NOT otherwise in the
+queue too — when a run has spare capacity, sweep the intros of the packs
+nearest the learner's current position first (A2 before B2).
+
 ## Queue (routine: process up to 3 packs per run, BEFORE building new units)
 
 - [x] `a1_hello` (data/grammar/blocks/a1_hello.json) — 2 item(s): #9 „To jest mój dom.”; #10 „To jest twoja książka.”

@@ -504,8 +504,10 @@
     },
     {
       "prompt_en": "Type: Dad and my brother lived in the city.",
-      "answer": "Tata i brat mieszkali w mieście.",
+      "answer": "Tata i mój brat mieszkali w mieście.",
       "accepts": [
+        "Tata i mój brat mieszkali w mieście.",
+        "Tata i mój brat mieszkali w mieście",
         "Tata i brat mieszkali w mieście.",
         "Tata i brat mieszkali w mieście"
       ]

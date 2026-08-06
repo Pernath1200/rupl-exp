@@ -64,19 +64,19 @@
           ],
           [
             "Dzień dobry.",
-            "Good day.",
+            "Hello.",
             "the real greeting — say it after Słucham?"
           ],
           [
             "Słucham? Dzień dobry.",
-            "Hello? Good day.",
+            "Hello? Hello.",
             "the safe full opening"
           ]
         ]
       },
       "examples": [
         {
-          "en": "— Yes? — Good day.",
+          "en": "— Yes? — Hello.",
           "pl": "— Słucham? — Dzień dobry."
         },
         {
@@ -84,7 +84,7 @@
           "pl": "Halo? Nie słyszę."
         },
         {
-          "en": "Yes? Good day. Excuse me…",
+          "en": "Yes? Hello. Excuse me…",
           "pl": "Słucham? Dzień dobry. Przepraszam…"
         }
       ]
@@ -130,7 +130,7 @@
       },
       "examples": [
         {
-          "en": "Good day. Can I speak to my brother?",
+          "en": "Hello. Can I speak to my brother?",
           "pl": "Dzień dobry. Czy mogę rozmawiać z bratem?"
         },
         {
@@ -625,7 +625,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type the exchange: — Yes? — Good day. Can I speak to Mum?",
+      "prompt_en": "Type the exchange: — Yes? — Hello. Can I speak to Mum?",
       "answer": "— Słucham? — Dzień dobry. Czy mogę rozmawiać z mamą?",
       "accepts": [
         "— Słucham? — Dzień dobry. Czy mogę rozmawiać z mamą?",
@@ -656,7 +656,7 @@
       "explain": "Przepraszam does the apologising here, exactly as it does in the street when you cannot help someone."
     },
     {
-      "prompt_en": "Type: Good day. Can I speak to my brother?",
+      "prompt_en": "Type: Hello. Can I speak to my brother?",
       "answer": "Dzień dobry. Czy mogę rozmawiać z bratem?",
       "accepts": [
         "Dzień dobry. Czy mogę rozmawiać z bratem?",

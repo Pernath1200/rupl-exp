@@ -116,14 +116,31 @@ has produced real learner failures. The auditor catches **none** of them.
 
 ## Who the learner is
 
-Dad — a distractible absolute beginner who **reads no Polish**. Every must-read
-instruction, hint, prompt and button is in **English**. Polish appears only as
-the material being learned. No teacher/builder surfaces (unit codes, case tags,
-structure IDs, notes) are ever visible unless *Tryb autorski* is on.
+Dad — an **intelligent adult** starting from zero Polish, who **reads no
+Polish** yet. Every must-read instruction, hint, prompt and button is in
+**English**. Polish appears only as the material being learned. No
+teacher/builder surfaces (unit codes, case tags, structure IDs, notes) are ever
+visible unless *Tryb autorski* is on.
 
-Use plain, real grammar terms — *preposition*, *genitive*, *neuter*. Baby-talk
-("its little word") is **banned**. Naming the real category is respectful and
-it is what makes the pattern learnable.
+**Pitch the register for a linguistically-minded adult** (James, 2026-08-06,
+the ruling that governs every intro slide): *"RUE has to be for people who are
+busy and need simple simple terms, but RUPL is different. It is for people who
+are linguistically inclined and are learning a difficult language for often
+personal reasons."* Concretely:
+
+- **Name the real category, always.** *Nominative plural*, not "more than one".
+  *Accusative = Nominative in the plural*, not "subject and object look the
+  same". Case names in slide titles are correct and wanted — Polish is a case
+  language and the learner is here for that.
+- **No cute framing.** "A free gift", "here's a treat", exclamation-mark
+  cheerleading — all **banned**. A real simplification in the system (Acc pl =
+  Nom pl) is interesting *as a fact*; say it plainly and let it land.
+- **Baby-talk ("its little word") stays banned.** Unchanged, now with teeth.
+- **Simple ≠ simplified.** Sentences stay short and the load stays split — that
+  is about attention, not intellect. Never buy brevity by mis-stating the
+  grammar or dodging its vocabulary.
+- Beginner status limits **what he can read in Polish**, never the sophistication
+  of the English explaining it.
 
 ## The anchor rule (most-broken, highest-cost)
 

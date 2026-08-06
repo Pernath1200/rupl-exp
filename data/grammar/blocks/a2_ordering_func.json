@@ -71,14 +71,14 @@
           ],
           [
             "Dzień dobry. Czy jest wolny stolik?",
-            "Good day. Is there a free table?",
+            "Hello. Is there a free table?",
             "the whole thing, from your side"
           ]
         ]
       },
       "examples": [
         {
-          "en": "Good day. Is there a free table?",
+          "en": "Hello. Is there a free table?",
           "pl": "Dzień dobry. Czy jest wolny stolik?"
         },
         {
@@ -625,7 +625,7 @@
   ],
   "use_items": [
     {
-      "prompt_en": "Type: Good day. Is there a free table?",
+      "prompt_en": "Type: Hello. Is there a free table?",
       "answer": "Dzień dobry. Czy jest wolny stolik?",
       "accepts": [
         "Dzień dobry. Czy jest wolny stolik?",
