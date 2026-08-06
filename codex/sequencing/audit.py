@@ -98,6 +98,7 @@ STRUCTURE_CATALOGUE = {
     "vocative_chunk",
     "conjunctions",
     "copular_future",
+    "fem_dat_loc",
 }
 
 GLUE_LEMMAS = {

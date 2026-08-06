@@ -2923,17 +2923,18 @@
       "id": "b2_fem_soft",
       "domain": "grammar",
       "label": "Mamie, szkole, pracy",
-      "label_en": "Feminine Dative & Locative · one rule",
+      "label_en": "Feminine nouns · one form for Dative and Locative",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 1, unit 3. PAYS B1-DIGEST DEFERRED ITEM 1: the general feminine Dative/Locative rule b1_dative_sg refused to derive ('stays untaught - James should decide whether it needs a slot'). Feminine -a -> -e with stem softening (mama/mamie, siostra/siostrze, szkola/szkole, kobieta/kobiecie) plus the -i sub-class after a soft stem (kuchnia/kuchni, praca/pracy). THE GIFT, stated openly: Dative and Locative are the same form for feminine nouns, so one rule pays for two cases. Anchors already taught on both sides: szkole/pracy (Loc, a1_prep_place), mamie/siostrze/tacie (Dat, b1_dative_sg). Verified NEW and available: kuchni, sypialni, lazience, ulicy.",
+      "note": "Pays the item b1_dative_sg deferred by name: it handed mamie/tacie/siostrze over as memorised whole forms and logged that the general feminine dative/locative rule stayed untaught, for James to decide whether it needed a slot. This is that slot. THE GIFT, and the reason the unit earns its place: for feminine nouns the Dative and the Locative are the same form, so one rule pays for two cases — slide 1 is entirely this, with three nouns shown doing both jobs side by side. Light despite looking big: four of the nine forms drilled are already in the pool as one case each (mamie/siostrze as Datives, szkole/pracy as Locatives), so only kobiecie, łazience, ulicy, kuchni and sypialni are genuinely new. Two classes, both taught as visible closed families rather than a rule to run on an unseen noun: hard stem -a → -e with the consonant softening, and already-soft stem → -y/-i with nothing else changing. Teaching only the first class was the more conservative option and was rejected, because pracy is one of the most frequent forms in the course and would then sit in plain sight as a counterexample. tata is named in one line as the masculine -a noun that follows the same pattern (which is why the learner already says tacie) and is never drilled. Masculine datives, feminine accusatives and all plurals are fenced.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_fem_soft.json"
     },
     {
       "id": "b2_adj_acc",

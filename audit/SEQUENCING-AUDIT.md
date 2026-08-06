@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 127 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 128 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -144,4 +144,5 @@ _None._
 | 129 | `b1_wrapup` | `situation_chunk` | 0 | `conditional_sg`, `dat_chunks`, `miec_present`, `musiec`, `past_byc`, `past_isc`, `prep_do_gen`, `question`, `sie_reflexive`, `situation_chunk`, `zgoda` |
 | 131 | `b2_conjunctions` | `conjunctions` | 7 | `byc_adj`, `byc_present`, `conjunctions`, `gen_endings`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `prep_do_gen`, `prep_w_loc`, `present_e_esz`, `present_uje` |
 | 132 | `b2_copular_future` | `copular_future` | 0 | `bedzie`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `inst_identity`, `poss_nom`, `prep_w_loc`, `virile_reco`, `weather_chunk`, `zgoda` |
+| 133 | `b2_fem_soft` | `fem_dat_loc` | 5 | `byc_present`, `conjunctions`, `copular_future`, `dative_sg`, `fem_dat_loc`, `o_loc`, `poss_nom`, `prep_w_loc`, `present_am`, `present_e_isz` |
 
