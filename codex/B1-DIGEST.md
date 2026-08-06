@@ -332,3 +332,127 @@ Deliberately light — only 6 teaches_lemmas, matching `b1_virile_past`'s
   `b1_dative_sg`) and whatever `b1_giving`'s own vocab brief already
   planned (pożyczać, oddawać, prosić o). Whoever builds it next should
   treat `dawać` as required, not optional.
+
+## Batch 7 — Block 5 closes, Block 6 opens (2 of 4 units) + żeby
+
+Built `b1_giving`, `b1_ktory_cases`, `b1_zeby` — three units, each audit-clean
+(0 errors; same 2 pre-existing unrelated warns from `a2_prep_review` /
+`b1_two_futures`), pushed to `origin/b1-build` one at a time, not batched.
+Two new structures registered before their audits ran: `ktory_cases`, `zeby`.
+Path is now live through `b1_zeby`; next unbuilt B1 node is `b1_stories`
+(VOCAB, opens the narrative-connectives register).
+
+### `b1_giving` (closes Block 5 — dative)
+
+Delivers the `dawać` the digest for `b1_dative_sg` (batch 6) flagged as
+required, not optional. Zero new structures: `dawać` (full 6-form) and
+`oddawać` (partial, same conjugation family — literally `dawać` + `od-`)
+both ride the already-taught `present_e_esz` class (same ending shape as
+`piję/pijesz`, already generalised onto `wstaję/wstajesz` back in
+`a2_routine`); `pożyczać` (partial) rides `present_am`. Every recipient
+(mamie/tacie/bratu/etc., ci/mu/jej/nam/wam/mi) and every object
+(prezent/książkę/pieniądze/klucze/zeszyt/parasol/długopis) is recycled
+whole from `b1_dative_sg`/`b1_dative_pron`/A1-A2 — confirmed via
+`check_new.py`, no surprises.
+
+**Two scope cuts, both logged loudly in the pack note:**
+1. `pożyczać` is bidirectional in Polish (lend-to vs borrow-from); this
+   pack teaches ONLY lend-to, with a dative recipient, matching
+   `dawać`/`oddawać`'s frame. Borrow-from would need `od` + Genitive as a
+   new job for a preposition already teaching a different case elsewhere
+   (comparison) — flagged with an explain string rather than silently
+   picking one sense.
+2. `prosić o` — named as a spine candidate — is **not** in this pack.
+   `prosić o` + Accusative would be a brand-new case-government job for
+   `o`, distinct from the already-taught `o_loc` (`o` + Locative, for
+   topics: `mówię o pracy`). Teaching it inside an otherwise
+   zero-new-structure vocab leaf risked exactly the kind of silent
+   case-confusion AGENTS.md's homograph table warns about for content
+   words, just on a function word instead. Deferred entirely; James
+   should decide whether it gets its own small chunk-lane slot later —
+   it is not on the current B1-SPINE as its own node.
+
+### `b1_ktory_cases` (opens Block 6 — complex sentences)
+
+`który` stops being the `a2_questions2` interrogative (Nominative,
+subject-position only) and becomes a real relative pronoun: Accusative
+(`książka, którą czytałem` — case set by the already-known transitive
+verb inside the clause) and Genitive (`film, którego nie ma` — case set
+by the already-known `nie ma` + Genitive pattern from `a1_negation`).
+New structure `ktory_cases`.
+
+**Homograph, confirmed exactly as `b1_virile_reco`-style advance flagging
+would predict, caught by running `check_new.py` before writing a single
+line:** `której` was already sitting in POOL — taught by
+`a2_ordinals_time`, frozen inside the chunk `o której?` ("at what time"),
+never explained as a case, never contrasted with anything. Rather than
+treat this as a `ci`/`ci`-style unrelated-word collision, I read it as the
+same shape as `b1_dative_sg`'s treatment of `dziękuję` (frozen chunk →
+real paradigm slot for the first time) — same underlying grammatical
+fact, generalised — and wrote the intro to say so explicitly: "you
+already said this word, just never like this." `które` are also
+re-listed in `teaches_lemmas` for the same reason `ci` was in
+`b1_dative_pron`: same string, genuinely new function (relative pronoun,
+not interrogative), logged rather than assumed identical for free.
+
+**Two scope cuts, both logged:**
+1. Locative/Instrumental relatives (`o którym myślę`, `z którym mieszkam`)
+   are completely fenced — not shown, not a distractor, not hinted at.
+   Spine explicitly left this to author's conservative call; deferred to
+   a later pass or a dedicated gym, not on the current B1-SPINE.
+2. Antecedents are restricted to inanimate/abstract nouns only (książka,
+   film, wino, kawa, list). Masculine-**animate** antecedents (pies,
+   brat) would merge Accusative with Genitive on the noun itself (the
+   already-known "honest exception" from AGENTS.md) — but that would put
+   `którego` in the Accusative table for a *different* reason than the
+   Genitive table's `którego`, stacking two unrelated justifications for
+   the same surface form in one unit. Judged the wrong trade for the
+   first relative-clause unit; animate relatives deferred, flagged for
+   James.
+
+### `b1_zeby` (Block 6, unit 2 — purpose and want-that)
+
+Two uses of `żeby` taught in one unit because both ride fully-owned
+material — checked the load honestly rather than just trusting the
+spine's single-unit framing. New structure `zeby`. Purpose (`żeby` + bare
+infinitive: `Idę do sklepu, żeby kupić chleb`) adds zero morphology — just
+a new conjunction in front of infinitives already known. Want-that
+(`Chcę, żebyś zrobił zakupy`) reuses two systems wholesale: the person
+marker on `żeby` itself (`żebym/żebyś/żeby`) is the identical `-m/-ś/zero`
+family already owned from `conditional_sg`/`conditional_pl`'s
+`bym/byś/by`, and the verb that follows is the bare L-form already owned
+from `a2_aspect`'s perfective past twins (`zrobił`, not `zrobiłby`). The
+one genuinely new fact — the person marker moves onto the conjunction
+instead of the verb — is stated as a pattern, per the spine's own
+instruction, not explained historically.
+
+**Scope cut, logged, matching the `conditional_sg`→`conditional_pl`
+precedent exactly:** singular person markers only (`żebym`/`żebyś`/bare
+`żeby` for 3rd). Plural (`żebyśmy`/`żebyście`) is not in this unit even
+though `byśmy`/`byście` are already owned — deferred, not on the current
+B1-SPINE as its own slot.
+
+**Design note, not a cut but worth flagging:** every want-that example is
+built so the wanter and the doer are different people (`Chcę,
+żebyś...`/`Mama chce, żebym...`) — "chcę, żebym..." (wanting yourself to
+do something) is not idiomatic Polish and doesn't appear anywhere in the
+pack. This constrained which example sentences were possible but wasn't
+a difficulty compromise — it's just how the construction actually works.
+
+### For James's next smoke pass
+
+- `b1_giving`'s `pożyczać` = lend-only decision is worth a click-through:
+  if it reads as incomplete without the borrow-from sense, that's the
+  intended trade (see scope cut above), not an oversight.
+- `b1_ktory_cases`'s `której` homograph slide is the one I'd most want
+  watched live — like `b1_dative_pron`'s `ci`/`ci` slide, it's a bet that
+  explaining the connection in prose lands better than a drilled
+  contrast would for this learner.
+- `b1_zeby`'s "wanter ≠ doer" constraint is worth checking against
+  real use — if Dad ever wants to say "I want to do X myself" using
+  żeby, the course should make clear (via the intro, already written)
+  that plain `chcę + infinitive` is the right tool, not żeby.
+- Two open scope questions now on record for whoever plans past this
+  batch: whether `prosić o` deserves its own chunk-lane slot, and
+  whether Loc/Inst `który` relatives + animate `który` relatives get a
+  dedicated follow-up unit or fold into `b1_case_gym`.
