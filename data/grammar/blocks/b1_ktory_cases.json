@@ -1,0 +1,417 @@
+{
+ "id": "b1_ktory_cases",
+ "title": "Który · przez przypadki",
+ "title_en": "Który beyond Nominative: relative clauses",
+ "level": "B1",
+ "tree_node": "b1_ktory_cases",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B1 Block 6 opener. Opens complex sentences: który stops being just the a2_questions2 interrogative ('which film?', Nominative, subject position only) and becomes a real RELATIVE pronoun connecting two clauses ('the film THAT I was watching'). This is genuinely one new idea — który's CASE is set by its job inside its OWN clause, not by the noun it refers back to (which stays whatever case the main clause needs, unmarked) — demonstrated on the two case values the spine names: Accusative (książka, którą czytałem — czytać is a plain transitive verb, already known to take an accusative object) and Genitive (film, którego nie ma — nie ma is the already-known existential-negation pattern that always takes genitive, a1_negation). Both cases are motivated by verbs/patterns the learner already owns; the only new thing is that który itself now carries that case.\n\nSCOPE CUT, logged (spine: 'Loc/Inst relatives deferred within B1 or fenced — author's conservative call'): Locative and Instrumental relatives (o którym myślę, z którym mieszkam) are NOT in this unit. Fenced completely — not shown, not hinted, not a distractor string anywhere. Left for a later B1 pass or a dedicated case_gym-style unit; not on the current B1-SPINE as its own slot.\n\nSECOND SCOPE CUT, logged: antecedents are restricted to INANIMATE/ABSTRACT nouns only (książka, film, wino, kawa, list) in both the Accusative and Genitive tables. Masculine-ANIMATE antecedents (pies, brat, kolega) would merge Accusative with Genitive on the noun itself — a real, already-known rule (AGENTS.md's 'honest exception': brata/psa/kota identical in Acc and Gen) — but bringing that in here means the masculine relative pronoun would need to look like Gen (\"którego\") for animate antecedents in the ACCUSATIVE table too, for a different reason than the Genitive table's którego. Stacking two unrelated reasons for the same surface form in one unit was judged the wrong trade for an absolute beginner's first relative-clause unit; conservative call is inanimate-only, animate relatives deferred (most likely a gym or a small follow-up), flagged for James.\n\nHOMOGRAPH, confirmed via check_new.py before writing a single line, exactly the shape AGENTS.md's table warns about: której already sits in POOL, taught by a2_ordinals_time — but frozen inside the chunk o której? ('at what time'), never explained as a case, never contrasted with anything. This is the SAME underlying grammatical fact (feminine genitive of który) the learner has been saying by rote since A2, now generalised into a real, productive case form for the first time. Treated like b1_dative_sg treated dziękuję (chunk -> real paradigm slot), not like the ci/ci pair (two unrelated words) — the intro names the connection explicitly rather than pretending the string is brand new. który and które are re-listed in teaches_lemmas too, for the same reason ci was in b1_dative_pron: same string, genuinely new FUNCTION (relative pronoun, not interrogative) — logged rather than silently assumed identical.\n\n6 teaches_lemmas: którą (fem Acc, genuinely new form), którego (masc/neut Gen, genuinely new form), której (re-taught, see above), który + które (re-taught for the new relative function, same strings as a2_questions2's interrogative), oglądałem (past tense of the already-present-tense-known verb oglądać, applying the already-owned past_ac rule to a new lemma — not new grammar). Every other word in every example (czytałem/czytałam, piłem, nie ma, film, książka, wino, kawa, list) confirmed already taught via check_new.py, listed in uses_lemmas, recycled untouched.",
+ "focus_structures": [
+  "ktory_cases"
+ ],
+ "teaches_structures": [
+  "ktory_cases"
+ ],
+ "uses_structures": [
+  "ktory_cases",
+  "negation",
+  "past_ac",
+  "past_rest",
+  "to_jest"
+ ],
+ "intro": [
+  {
+   "title": "Który becomes a real word: relative clauses",
+   "title_pl": "Który jako łącznik",
+   "body": "You already know który as a question word: Który film? (Which film?) — always in subject position, always Nominative. From here, który does something new: it joins two sentences into one, meaning \"that\" or \"which\".\n\nTo jest książka. Czytałem ją. → To jest książka, którą czytałem. (This is the book that I was reading.)\n\nThe key rule: który agrees in GENDER with the noun it points back to (like ten/ta/to), but its CASE comes from its own job inside its own little clause — completely separate from whatever case the main sentence needs.",
+   "body_pl": "który = \"that/which\" — łączy dwa zdania w jedno. Rodzaj = jak rzeczownik. Przypadek = jak jego rola we własnym zdaniu.",
+   "table": {
+    "headers": [
+     "Gender",
+     "Nominative (already yours)",
+     "Accusative (new job)",
+     "Genitive (new job)"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "który",
+      "który (inanimate — same as Nom)",
+      "którego"
+     ],
+     [
+      "feminine",
+      "która",
+      "którą",
+      "której"
+     ],
+     [
+      "neuter",
+      "które",
+      "które (same as Nom)",
+      "którego"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Accusative relative: the verb inside decides",
+   "title_pl": "Biernik: decyduje czasownik w środku",
+   "body": "czytać, oglądać and pić are plain transitive verbs — you have always given them a direct object in the accusative (Czytam książkę). Put one of them inside a który-clause and który itself takes that same accusative job, agreeing in gender with the noun it refers to.",
+   "body_pl": "książka (f) → którą. film (m, nieżywotny) → który, tak jak Nominative. wino (n) → które, tak jak Nominative.",
+   "examples": [
+    {
+     "en": "This is the book that I was reading.",
+     "pl": "To jest książka, którą czytałem."
+    },
+    {
+     "en": "This is the film that I was watching.",
+     "pl": "To jest film, który oglądałem."
+    },
+    {
+     "en": "This is the wine that I was drinking.",
+     "pl": "To jest wino, które piłem."
+    }
+   ]
+  },
+  {
+   "title": "Genitive relative: nie ma decides",
+   "title_pl": "Dopełniacz: decyduje nie ma",
+   "body": "You have known since your very first unit that nie ma always takes the genitive (Nie ma domu). That rule doesn't change here — it just now reaches into a który-clause too. Genitive który: masculine and neuter both look like którego; feminine is której.",
+   "body_pl": "nie ma + dopełniacz (bez zmian). film (m) → którego. wino (n) → którego (tak samo). kawa (f) → której.",
+   "examples": [
+    {
+     "en": "The film that isn't there.",
+     "pl": "Film, którego nie ma."
+    },
+    {
+     "en": "The wine that isn't there.",
+     "pl": "Wino, którego nie ma."
+    },
+    {
+     "en": "The coffee that isn't there.",
+     "pl": "Kawa, której nie ma."
+    }
+   ]
+  },
+  {
+   "title": "You already said której — just never like this",
+   "title_pl": "Której już znasz",
+   "body": "Since A2 you have asked O której? — \"At what time?\". That której is this exact same word: the feminine genitive of który. It was frozen as a fixed phrase back then, with no explanation. Now you are learning it as a real, reusable case form — the same word, doing the same grammatical job, just no longer locked inside one fixed question.",
+   "body_pl": "O której? (już Twoje) = ta sama której, teraz jako prawdziwy przypadek, nie tylko zwrot."
+  }
+ ],
+ "match": [
+  {
+   "en": "that (feminine, accusative)",
+   "pl": "którą"
+  },
+  {
+   "en": "that (masculine/neuter, genitive)",
+   "pl": "którego"
+  },
+  {
+   "en": "that (feminine, genitive)",
+   "pl": "której"
+  },
+  {
+   "en": "that (masculine inanimate, accusative — same as which)",
+   "pl": "który"
+  },
+  {
+   "en": "that (neuter, accusative — same as which)",
+   "pl": "które"
+  },
+  {
+   "en": "the book that I was reading",
+   "pl": "książka, którą czytałem"
+  },
+  {
+   "en": "the film that I was watching",
+   "pl": "film, który oglądałem"
+  },
+  {
+   "en": "the wine that I was drinking",
+   "pl": "wino, które piłem"
+  },
+  {
+   "en": "the film that isn't there",
+   "pl": "film, którego nie ma"
+  },
+  {
+   "en": "the wine that isn't there",
+   "pl": "wino, którego nie ma"
+  },
+  {
+   "en": "the coffee that isn't there",
+   "pl": "kawa, której nie ma"
+  },
+  {
+   "en": "the book that I was reading (said by a woman)",
+   "pl": "książka, którą czytałam"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "The book that I was reading. →",
+   "choices": [
+    "Książka, którą czytałem.",
+    "Książka, który czytałem.",
+    "Książka, które czytałem.",
+    "Książka, która czytałem."
+   ],
+   "answer": "Książka, którą czytałem.",
+   "explain": "książka is feminine and is the object of czytałem inside its own clause — feminine accusative, którą."
+  },
+  {
+   "prompt": "The film that I was watching. →",
+   "choices": [
+    "Film, który oglądałem.",
+    "Film, którą oglądałem.",
+    "Film, którego oglądałem.",
+    "Film, które oglądałem."
+   ],
+   "answer": "Film, który oglądałem.",
+   "explain": "film is masculine inanimate — accusative looks exactly like Nominative here, który, the same as with any inanimate object."
+  },
+  {
+   "prompt": "The wine that I was drinking. →",
+   "choices": [
+    "Wino, które piłem.",
+    "Wino, który piłem.",
+    "Wino, którą piłem.",
+    "Wino, którego piłem."
+   ],
+   "answer": "Wino, które piłem.",
+   "explain": "wino is neuter — accusative = Nominative, które, the same shape you already know."
+  },
+  {
+   "prompt": "The film that isn't there. →",
+   "choices": [
+    "Film, którego nie ma.",
+    "Film, który nie ma.",
+    "Film, którą nie ma.",
+    "Film, które nie ma."
+   ],
+   "answer": "Film, którego nie ma.",
+   "explain": "nie ma always takes genitive (nie ma domu) — który follows the same rule here: masculine genitive, którego."
+  },
+  {
+   "prompt": "The coffee that isn't there. →",
+   "choices": [
+    "Kawa, której nie ma.",
+    "Kawa, która nie ma.",
+    "Kawa, którą nie ma.",
+    "Kawa, które nie ma."
+   ],
+   "answer": "Kawa, której nie ma.",
+   "explain": "You already say o której (at what time) — this is that exact feminine genitive form, now doing the same job after nie ma."
+  },
+  {
+   "prompt": "The wine that isn't there. →",
+   "choices": [
+    "Wino, którego nie ma.",
+    "Wino, które nie ma.",
+    "Wino, której nie ma.",
+    "Wino, którą nie ma."
+   ],
+   "answer": "Wino, którego nie ma.",
+   "explain": "Neuter and masculine share the same genitive ending here: którego, exactly like film above."
+  },
+  {
+   "prompt": "Książka, ___ czytałem. (that — feminine, accusative)",
+   "choices": [
+    "którą",
+    "który",
+    "które",
+    "której"
+   ],
+   "answer": "którą",
+   "explain": "Feminine accusative: którą."
+  },
+  {
+   "prompt": "Film, ___ nie ma. (that — masculine, genitive)",
+   "choices": [
+    "którego",
+    "który",
+    "które",
+    "której"
+   ],
+   "answer": "którego",
+   "explain": "Masculine genitive: którego, forced by nie ma."
+  },
+  {
+   "prompt": "Kawa, ___ nie ma. (that — feminine, genitive)",
+   "choices": [
+    "której",
+    "która",
+    "którą",
+    "które"
+   ],
+   "answer": "której",
+   "explain": "Feminine genitive: której — the same word as o której, doing a new job."
+  },
+  {
+   "prompt": "The letter that I was reading. →",
+   "choices": [
+    "List, który czytałem.",
+    "List, która czytałem.",
+    "List, które czytałem.",
+    "List, którego czytałem."
+   ],
+   "answer": "List, który czytałem.",
+   "explain": "list is masculine inanimate, same pattern as film: accusative looks like Nominative, który."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "that (feminine, accusative)",
+   "mode": "full_word",
+   "answer": "którą",
+   "accepts": [
+    "którą"
+   ]
+  },
+  {
+   "prompt_en": "that (masculine/neuter, genitive)",
+   "mode": "full_word",
+   "answer": "którego",
+   "accepts": [
+    "którego"
+   ]
+  },
+  {
+   "prompt_en": "that (feminine, genitive)",
+   "mode": "full_word",
+   "answer": "której",
+   "accepts": [
+    "której"
+   ],
+   "explain": "The same word you already know from o której? (at what time) — now a real, reusable case form."
+  },
+  {
+   "prompt_en": "that (masculine inanimate, accusative)",
+   "mode": "full_word",
+   "answer": "który",
+   "accepts": [
+    "który"
+   ],
+   "explain": "Same string as the question word który — but here it is a relative pronoun, not a question."
+  },
+  {
+   "prompt_en": "that (neuter, accusative)",
+   "mode": "full_word",
+   "answer": "które",
+   "accepts": [
+    "które"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: The book that I was reading.",
+   "answer": "Książka, którą czytałem.",
+   "accepts": [
+    "Książka, którą czytałem.",
+    "Książka, którą czytałem"
+   ]
+  },
+  {
+   "prompt_en": "Type: The book that I was reading. (said by a woman)",
+   "answer": "Książka, którą czytałam.",
+   "accepts": [
+    "Książka, którą czytałam.",
+    "Książka, którą czytałam"
+   ]
+  },
+  {
+   "prompt_en": "Type: The film that I was watching.",
+   "answer": "Film, który oglądałem.",
+   "accepts": [
+    "Film, który oglądałem.",
+    "Film, który oglądałem"
+   ]
+  },
+  {
+   "prompt_en": "Type: The wine that I was drinking.",
+   "answer": "Wino, które piłem.",
+   "accepts": [
+    "Wino, które piłem.",
+    "Wino, które piłem"
+   ]
+  },
+  {
+   "prompt_en": "Type: The film that isn't there.",
+   "answer": "Film, którego nie ma.",
+   "accepts": [
+    "Film, którego nie ma.",
+    "Film, którego nie ma"
+   ]
+  },
+  {
+   "prompt_en": "Type: The coffee that isn't there.",
+   "answer": "Kawa, której nie ma.",
+   "accepts": [
+    "Kawa, której nie ma.",
+    "Kawa, której nie ma"
+   ]
+  },
+  {
+   "prompt_en": "Type: The wine that isn't there.",
+   "answer": "Wino, którego nie ma.",
+   "accepts": [
+    "Wino, którego nie ma.",
+    "Wino, którego nie ma"
+   ]
+  },
+  {
+   "prompt_en": "Type: The letter that I was reading.",
+   "answer": "List, który czytałem.",
+   "accepts": [
+    "List, który czytałem.",
+    "List, który czytałem"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "którą",
+  "którego",
+  "której",
+  "który",
+  "które",
+  "oglądałem"
+ ],
+ "uses_lemmas": [
+  "czytałem",
+  "czytałam",
+  "piłem",
+  "nie ma",
+  "film",
+  "książka",
+  "wino",
+  "kawa",
+  "list",
+  "czytać",
+  "pić",
+  "oglądać",
+  "to",
+  "jest",
+  "która"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b1_ktory_cases",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

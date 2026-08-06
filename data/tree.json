@@ -2665,12 +2665,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] ktory beyond Nom: Acc + Gen relatives on known material. Loc/Inst relatives = author conservative call, logged.",
+      "note": "który stops being just the a2_questions2 interrogative and becomes a real relative pronoun: Accusative (książka, którą czytałem — case set by the known transitive verb inside the clause) and Genitive (film, którego nie ma — case set by the known nie ma pattern). Inanimate/abstract antecedents only this unit — masculine-animate relatives (Acc=Gen merge) deferred, logged as open question for James. Homograph: której was already a frozen a2_ordinals_time chunk (o której? = at what time) — re-taught here as a real, productive case form, same treatment b1_dative_sg gave dziękuję.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/b1_ktory_cases.json"
     },
     {
       "id": "b1_zeby",

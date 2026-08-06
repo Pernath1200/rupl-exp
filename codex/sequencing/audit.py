@@ -91,6 +91,7 @@ STRUCTURE_CATALOGUE = {
     "conditional_pl",
     "dative_sg",
     "dative_pron",
+    "ktory_cases",
 }
 
 GLUE_LEMMAS = {
