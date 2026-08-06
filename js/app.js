@@ -26,6 +26,7 @@ import {
   levelUnitStats,
   reviewDueList,
   backfillReview,
+  autoUnlockLevels,
   PASS_RATIO,
   MASTERY_REPS,
   FRUIT_SOFT,
@@ -103,6 +104,10 @@ function showMap() {
   document.getElementById("view-map").hidden = false;
   document.getElementById("view-practice").hidden = true;
   document.body.classList.remove("domain-grammar", "domain-vocab");
+  // Rail mirrors the action (James 2026-08-06): returning from practice
+  // lands on the played unit's level; manual picks are temporary browsing.
+  autoUnlockLevels(STATE.tree?.nodes || []);
+  if (STATE.lastPlayedLevel) STATE.level = STATE.lastPlayedLevel;
   renderAll();
   // Land on "what's next" — after a review launch, that means the review
   // card (finish the day's queue), falling through to up-next once empty.
@@ -828,6 +833,7 @@ function renderDetail() {
 async function openNode(node, launch = {}) {
   if (node.status !== "live" || !node.content) return;
   STATE.cameFromReview = !!launch.review;
+  STATE.lastPlayedLevel = levelOfNode(node);
   try {
     const pack = await loadJson(`./data/${node.content}`);
     showPractice(node.domain);
@@ -1116,6 +1122,12 @@ async function boot() {
     // Adopt units fruited before the SRS existed (learnedAt <- touchedAt),
     // so earlier days' units come due immediately, not never.
     backfillReview(STATE.tree.nodes || []);
+    // Boot rail = the level Dalej will actually go to (James 2026-08-06).
+    autoUnlockLevels(STATE.tree.nodes || []);
+    {
+      const hit = spineNext();
+      if (hit?.node) STATE.level = levelOfNode(hit.node);
+    }
 
     // Word-origin index + tap-to-check ("skąd to słowo?") — body-wide,
     // interactive elements excluded inside the handler.

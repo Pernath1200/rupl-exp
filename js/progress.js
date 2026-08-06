@@ -112,6 +112,33 @@ export function isLevelUnlocked(level) {
   return (p.unlocked || []).includes(level);
 }
 
+/**
+ * Auto-unlock (James 2026-08-06): a level unlocks the moment the previous
+ * level is 100% learned. Call at boot and after fruit changes. Persists
+ * into p.unlocked so meters/rail stay consistent everywhere.
+ */
+export function autoUnlockLevels(nodes) {
+  const p = loadProgress();
+  const seen = [];
+  for (const n of nodes || []) {
+    const lv = Array.isArray(n.levels) ? n.levels[0] : null;
+    if (lv && !seen.includes(lv)) seen.push(lv);
+  }
+  let changed = false;
+  for (let i = 1; i < seen.length; i++) {
+    const prev = seen[i - 1];
+    const lv = seen[i];
+    if (p.unlocked.includes(lv)) continue;
+    const s = levelUnitStats(prev, nodes);
+    if (s && s.total > 0 && s.learned >= s.total) {
+      p.unlocked.push(lv);
+      changed = true;
+    }
+  }
+  if (changed) save(p);
+  return changed;
+}
+
 // ---- Grammar API (compatible with practice-grammar.js) ----
 
 export function touchBlock(blockId) {
