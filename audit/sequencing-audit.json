@@ -1,7 +1,11 @@
 {
   "version": 1,
   "spec": "codex/SEQUENCING.md",
+<<<<<<< HEAD
   "generated_at": "2026-08-06T08:51:03+00:00",
+=======
+  "generated_at": "2026-08-06T10:55:04+02:00",
+>>>>>>> 069a133 (B2 Block 6a: prefix strand — 5 units, JAMES-LOCKED (dropdown session 2026-08-06))
   "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -171,6 +175,11 @@
     "b2_jezdzic",
     "b2_motion_prefixes2",
     "b2_aspect_prefixes",
+    "b2_motion_imperf",
+    "b2_prefix_lens",
+    "b2_prefix_two_jobs",
+    "b2_pisac_family",
+    "b2_verb_family2",
     "b2_powinien",
     "b2_verbal_nouns",
     "b2_participle_pass",

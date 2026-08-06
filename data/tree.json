@@ -182,6 +182,11 @@
     "b2_jezdzic",
     "b2_motion_prefixes2",
     "b2_aspect_prefixes",
+    "b2_motion_imperf",
+    "b2_prefix_lens",
+    "b2_prefix_two_jobs",
+    "b2_pisac_family",
+    "b2_verb_family2",
     "b2_powinien",
     "b2_verbal_nouns",
     "b2_participle_pass",
@@ -3608,6 +3613,86 @@
       "pedagogy": "teach",
       "root": "forms",
       "tree_part": "forms"
+    },
+    {
+      "id": "b2_motion_imperf",
+      "domain": "grammar",
+      "label": "Wychodzę · przychodzę",
+      "label_en": "Leaving & arriving · every day",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[B2 Block 6a, JAMES-LOCKED 2026-08-06] Secondary-imperfective bridge: wychodzic/przychodzic (+ wyjezdzac/przyjezdzac if load allows, log the call) as everyday partners of owned wyjsc/przyjsc/wyjechac/przyjechac. MEMORIZED WHOLE TWINS (mialem/moglby treatment) - the -ywa-/-a- formation rule is NOT stated, C1 names it. Conjugate as owned classes (wychodze like chodze). See B2-SPINE Block 6a.",
+      "pedagogy": "teach"
+    },
+    {
+      "id": "b2_prefix_lens",
+      "domain": "grammar",
+      "label": "Przedrostki · soczewka",
+      "label_en": "Prefixes · the reading lens",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[B2 Block 6a, JAMES-LOCKED] RECEPTIVE-ONLY lens on core 4: wy- out, przy- to/arrive, do- reach, od- away/back. Every example an ALREADY-TAUGHT verb re-seen; zero/near-zero new lemmas; recognition tasks only, learner never types an untaught prefixed verb. Intro must say: read these, do not build new ones. za-/po-/prze- named as no-promise prefixes, one line. See B2-SPINE Block 6a.",
+      "pedagogy": "teach"
+    },
+    {
+      "id": "b2_prefix_two_jobs",
+      "domain": "grammar",
+      "label": "Przedrostki · dwie prace",
+      "label_en": "Prefixes · two different jobs",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[B2 Block 6a, JAMES-LOCKED] The James-question unit, b1_two_futures idiom, ZERO new material. Job 1: robic->zrobic, pic->wypic = same verb, DONE. Job 2: isc->przyjsc, dawac->oddawac = NEW verb with own meaning + own twin. Discrimination only, on owned pairs. Landing line: same machinery, two jobs, you learn which from the pair, not the prefix. See B2-SPINE Block 6a.",
+      "pedagogy": "teach"
+    },
+    {
+      "id": "b2_pisac_family",
+      "domain": "grammar",
+      "label": "Rodzina pisać",
+      "label_en": "The pisać family",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[B2 Block 6a, JAMES-LOCKED] Root family 1: pisac/napisac (owned) grows podpisac (sign) + zapisac (note down); office register. Everyday imperfective partners as whole twins where needed (podpisywac). przepisac/opisac only if load allows, log it. za- NOT lens-claimed. See B2-SPINE Block 6a.",
+      "pedagogy": "teach"
+    },
+    {
+      "id": "b2_verb_family2",
+      "domain": "grammar",
+      "label": "Rodzina czasownika 2",
+      "label_en": "Verb family 2",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[B2 Block 6a, JAMES-LOCKED] Root family 2 - AUTHOR PICKS root, logs choice + alternative: dawac (oddawac owned -> wydawac, podawac) or placic (zaplacic owned -> doplacic, przeplacic). Fewer untaught-case landmines wins. Whole-twin treatment for imperfective partners. Further families = C1. See B2-SPINE Block 6a.",
+      "pedagogy": "teach"
     }
   ],
   "synced_from": {

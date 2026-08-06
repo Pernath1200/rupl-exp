@@ -127,6 +127,36 @@ grammar in the learner's hands.
 **Alternative:** a B2 unit teaching 3–4 prefix meanings productively.
 Rejected as directly contradicting `a2_aspect`'s standing framing.
 
+**JAMES OVERRULE, 2026-08-06 (dropdown session — LOCKED, not draft):** O7's
+defaults 1–3 stand, but the strand is EXTENDED with a recognition lens and
+four more units — see "Block 6a — Prefix strand (JAMES-LOCKED)" below. The
+locked decisions, binding on every unit in that block:
+
+1. **Goal = recognition lens + taught families.** Dad learns to DECODE
+   unfamiliar prefixed verbs receptively and to PRODUCE only verbs the
+   course explicitly taught. Free derivation is never asked for and never
+   implied to work. This sits BETWEEN O7's default (no lens at all) and its
+   rejected alternative (productive rules): the lens is receptive-only,
+   which does not contradict a2_aspect's "prefixes are unpredictable" line —
+   that line is about *building* words, not *reading* them.
+2. **Lens prefix set = core 4 only: wy-, przy-, do-, od-** (the ~90%-reliable
+   spatial set). za-/po-/prze-/na- verbs still get taught where needed, but
+   only as vocabulary — never as lens examples, never with a claimed meaning.
+3. **The two jobs of prefixes get a dedicated discrimination unit**
+   (b1_two_futures idiom, zero new material): zrobić/wypić = same verb,
+   "done" (aspect job) vs przyjść/oddawać = a different verb (word-building
+   job). This is the level's honest answer to a question the course has
+   been silently stepping around since a2_aspect.
+4. **Secondary imperfectives: whole forms at B2, rule at C1.** Pairs like
+   wychodzić/wyjść are taught as memorized twins (miałem/mógłby treatment);
+   the -ywa-/-iwa-/-a- formation rule is NAMED only at C1, when enough
+   examples are owned. C1 spine MUST include that rule-naming unit.
+5. **Unit organisation: lens units cut across roots; vocab/family units go
+   root-by-root** (anchor rule: one unknown per item, anchored in a deeply
+   known root).
+6. **B2 gets the motion bridge + 2 families** (pisać family + one more, the
+   author picks the root and logs it); further families are C1 material.
+
 ### O8 · Numerals split into two units — and a correction to the brief
 
 **Correction, stated plainly because the routine brief is out of date on this
@@ -333,6 +363,21 @@ that hard.
 | `b2_aspect_prefixes` | GRAM | A closed set of new aspect pairs, learned whole, **no rule** (O7.2): `pisać/napisać`, `gotować/ugotować`, `jeść/zjeść`, `płacić/zapłacić`, `sprzątać/posprzątać`. Every imperfective member is already owned, so each pair is one new word, not two. Pays `a2_aspect`'s four-twins-only limit without breaking its "prefixes are unpredictable" framing — the pack must restate that framing out loud. |
 | `b2_powinien` | GRAM | Modal completion, paying two `a2_musiec` fences ("past of musieć — it would hand back the gender this unit just removed"; "conditional powinienem" dropped). Teaches `powinienem`/`powinnam`/`powinien`/`powinna` (NEW — obligation with gender, unusual and worth naming) plus the past of the modals the learner owns: `musiałem`/`musiała`, `trzeba było`, `można było` — all straight applications of the `past_ac` rule he has had since A2. |
 
+### Block 6a — Prefix strand (JAMES-LOCKED 2026-08-06 — see O7 overrule)
+
+Sits immediately after `b2_aspect_prefixes` on the path, which is deliberate:
+by then the learner owns prefixed motion (przy-/wy- since B1, po-/we-/do-/prze-
+from `b2_motion_prefixes2`), five new aspect twins, and `oddawać` (b1_giving) —
+everything the lens needs to point at, all of it already taught.
+
+| id | domain | what it does |
+|----|--------|--------------|
+| `b2_motion_imperf` | GRAM | The secondary-imperfective bridge: `wychodzić`/`przychodzić` (+ `wyjeżdżać`/`przyjeżdżać` if load allows — author's call, logged) as the everyday "I leave the house at 8" partners of the owned `wyjść`/`przyjść`/`wyjechać`/`przyjechać`. Taught as MEMORIZED WHOLE TWINS (miałem/mógłby treatment) — the -ywa-/-a- formation rule is NOT stated; C1 names it (locked decision #4). These conjugate as owned classes (wychodzę like chodzę), so each is one new word, not a new system. |
+| `b2_prefix_lens` | GRAM | RECEPTIVE-ONLY recognition lens on the core 4: **wy- = out, przy- = to/arrive, do- = reach/up-to, od- = away/back**. Every example is an ALREADY-TAUGHT verb re-seen through the lens (wyjść/wychodzić/wyjechać, przyjść/przyjechać, dojść, oddawać) — zero or near-zero new lemmas. Tasks are recognition/discrimination only (match meaning-halves, quiz on which direction a sentence implies); the learner NEVER types a prefixed verb the course didn't teach, and the intro says out loud: "you can READ these; don't build new ones — Polish doesn't always cooperate." za-/po-/prze- are explicitly named as "no promise" prefixes, one line, no examples drilled. |
+| `b2_prefix_two_jobs` | GRAM | The James-question unit (locked decision #3), b1_two_futures idiom, ZERO new material: prefixes do two different jobs — (1) `robić→zrobić`, `pić→wypić`: same verb, prefix just means DONE (and the future flips: zrobię); (2) `iść→przyjść`, `dawać→oddawać`: a NEW verb with its own meaning (and its own twin: przychodzić). Discrimination tasks: given an owned pair, which job is the prefix doing? Uses only verbs taught by this point. The honest line the unit must land: "same machinery, two jobs — you always learn which job from the pair itself, not from the prefix." |
+| `b2_pisac_family` | GRAM | First root family (locked decision #6): `pisać`/`napisać` (owned by now) grows `podpisać` (sign) and `zapisać` (write down/note) — office/admin register, real-life payoff for forms. Each new perfective comes with its everyday imperfective partner as a whole twin where genuinely needed (`podpisywać` — sign habitually, e.g. documents at work); `przepisać`/`opisać` only if load allows, author's call, logged. Family framing: "one root you know deeply, new directions bolted on" — the lens applies where honest (za- is NOT lens-claimed; podpisać's pod- gets a one-line story, not a rule). |
+| `b2_verb_family2` | GRAM | Second root family — AUTHOR PICKS the root, logs the choice + alternative: `dawać` (oddawać owned → `wydawać` spend, `podawać` pass/serve) or `płacić` (zapłacić owned → `dopłacić`, `przepłacić`). Pick whichever yields the more useful everyday register with fewer untaught-case landmines; same whole-twin treatment for any imperfective partners. Further families are C1 material (locked decision #6). |
+
 ### Block 7 — Verbal nouns and the first participle
 
 | id | domain | what it does |
@@ -379,6 +424,13 @@ take:
 4. Conditional past `byłbym zrobił` (O6).
 5. Productive semantic prefixation on non-motion verbs (O7.3).
 6. `siebie` / `sobie`, the true reflexive pronoun (O15).
+7. **The secondary-imperfective formation rule** (-ywa-/-iwa-/-a-: podpisać→
+   podpisywać, wychodzić from wyjść) — B2 teaches these pairs as memorized
+   whole twins only (Block 6a, James-locked decision #4); C1 MUST name the
+   rule in its own unit, once enough pairs are owned for it to click. Also
+   C1's inbox: further root families beyond pisać + family2 (decision #6),
+   and any lens extension beyond the core 4 prefixes (James's call, not the
+   scoper's).
 7. The Vocative as a case, if James ever overrules B1 decision #4 (O15).
 8. Soft-stem and irregular noun declensions not reached by B2's closed sets;
    the `-owie` masculine plural family; `brat→bracia`, `kolega→koledzy`,
