@@ -128,6 +128,7 @@ STRUCTURE_CATALOGUE = {
     "aspect_prefixes",
     "motion_imperf",
     "prefix_lens",
+    "prefix_two_jobs",
 }
 
 GLUE_LEMMAS = {

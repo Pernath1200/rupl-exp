@@ -3678,18 +3678,19 @@
     {
       "id": "b2_prefix_two_jobs",
       "domain": "grammar",
-      "label": "Przedrostki · dwie prace",
-      "label_en": "Prefixes · two different jobs",
+      "label": "Wypić czy wyjść?",
+      "label_en": "The same prefix, two different jobs",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "verbs",
       "tree_part": "verbs",
-      "note": "[B2 Block 6a, JAMES-LOCKED] The James-question unit, b1_two_futures idiom, ZERO new material. Job 1: robic->zrobic, pic->wypic = same verb, DONE. Job 2: isc->przyjsc, dawac->oddawac = NEW verb with own meaning + own twin. Discrimination only, on owned pairs. Landing line: same machinery, two jobs, you learn which from the pair, not the prefix. See B2-SPINE Block 6a.",
-      "pedagogy": "teach"
+      "note": "B2 Block 6a unit 3 (JAMES-LOCKED decision #3). The two jobs a prefix does: JOB 1 leaves the verb's meaning alone and only puts an end on it (pic/wypic, robic/zrobic, czytac/przeczytac, pisac/napisac) and flips the tense (zrobie = I will make); JOB 2 makes a different verb with its own meaning (isc -> przyjsc/wyjsc/dojsc, dawac -> oddawac). ZERO NEW MATERIAL - teaches_lemmas is empty; the unit teaches a discrimination and declares the structure prefix_two_jobs alone, on the b2_prefix_lens precedent. Landing line carried by the wypic/wyjsc minimal pair (the title): the same wy- does both jobs, so you learn which job from the PAIR, not the front piece - the handoff b2_prefix_lens set up when it excluded wypic from its lens. b1_two_futures idiom, so the ladder is full (match/quiz/Pisanie/Uzycie), but production is always CHOOSING between owned forms, never building a prefixed verb; Pisanie is 12 single-word forms so the 3-word cap is met by construction. No meta-questions in Kontrola - the spine's 'which job is the prefix doing?' would be a question ABOUT the language, so every quiz item is a real form in a real sentence. TITLE CORRECTED from the planned 'Przedrostki - dwie prace': both przedrostki and prace are untaught Polish, which the AGENTS title rule forbids in learner-visible chrome. FENCED: pojsc/pojechac (po- on isc is aspectual, a third fact - logged for C1); any formation rule; za-/po-/prze- as readable prefixes. REGISTER: authored to James's 2026-08-06 learner-model ruling - the intro names the real categories (prefix, aspect, perfective, imperfective, derivation), not the 'front piece / twins' framing the earlier prefix units use; b2_prefix_lens and b2_motion_imperf still need the intro-register sweep to match. See B2-SPINE Block 6a.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/b2_prefix_two_jobs.json"
     },
     {
       "id": "b2_pisac_family",
