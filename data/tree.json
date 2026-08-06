@@ -2793,18 +2793,19 @@
     {
       "id": "b1_case_gym",
       "domain": "grammar",
-      "label": "Siłownia · wszystkie przypadki",
+      "label": "Siłownia · wszystko",
       "label_en": "All-cases gym",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] All cases incl Dative + virile. Zero new.",
+      "note": "Zero-new-material discrimination gym. Extends a2_case_gym2's seven-job case grid with the four systems B1 added: Dative-noun (b1_dative_sg), Dative-pronoun (b1_dative_pron), virile Nominative (b1_virile_reco/nom), virile past (b1_virile_past). Title changed from placeholder 'wszystkie przypadki' (both words untaught) to 'wszystko' (taught, a2_smalltalk).",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_case_gym.json"
     },
     {
       "id": "b1_wrapup",

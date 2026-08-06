@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 123 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 124 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -140,4 +140,5 @@ _None._
 | 125 | `b1_adverb_comp` | `adverb_comp` | 12 | `adverb_comp`, `comparative`, `gen_endings`, `present`, `present_am`, `present_e_isz`, `present_uje`, `superlative` |
 | 126 | `b1_vocative_chunks` | `vocative_chunk` | 12 | `byc_adj`, `conditional_sg`, `question`, `situation_chunk`, `social_chunk`, `vocative_chunk` |
 | 127 | `b1_opinions` | — | 10 | `adverb_comp`, `byc_adj`, `conditional_sg`, `inst_z`, `miec_acc`, `miec_present`, `motion_prefixed`, `perf_future`, `question`, `superlative`, `virile_nom`, `virile_reco`, `vocative_chunk` |
+| 128 | `b1_case_gym` | — | 0 | `byc_adj`, `byc_present`, `dative_pron`, `dative_sg`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_z`, `miec_acc`, `negation`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `ten_ta_to`, `to_jest`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
 

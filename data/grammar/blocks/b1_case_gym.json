@@ -1,0 +1,562 @@
+{
+  "id": "b1_case_gym",
+  "title": "Siłownia · wszystko",
+  "title_en": "All-cases gym",
+  "level": "B1",
+  "tree_node": "b1_case_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gym idiom (a1_case_gym / a2_case_gym2 / b1_aspect_gym / b1_virile_gym line): ZERO new material — teaches_structures and teaches_lemmas both empty. Extends a2_case_gym2's seven-job case grid (Nom/Acc/Gen-sg/Loc/Inst/Nom-pl/Gen-pl) with the four systems B1 added since then: Dative with a noun (b1_dative_sg), Dative with a pronoun (b1_dative_pron), virile Nominative production (b1_virile_reco/b1_virile_nom), and virile past agreement (b1_virile_past) -- eleven jobs total, one noun (or pronoun) each. Title changed from tree.json's placeholder 'wszystkie przypadki' to 'wszystko' after check_new.py showed both 'wszystkie' and 'przypadki' are NEW -- neither is taught anywhere in the course, so the original label would have put an untaught Polish form in a title, the exact AGENTS.md violation already caught three times before (Z kim / pojazdem / Być fundament). 'wszystko' is taught (a2_smalltalk) and does the same job; tree.json's label field corrected to match when wiring this unit live. Every noun/pronoun/verb form used was checked individually against check_new.py / POOL before writing: brat family (brata/bratu/bratem, all taught, in three different cases -- accusative a1_miec, dative b1_dative_sg, instrumental a2_inst_z), kawa family (kawa/kawy/kawę/kaw, all taught, four different cases/numbers), bank/banku (nominative/locative-genitive dual duty, same trap a2_case_gym2's own intro already named), dom/domy/domów (singular/plural-nominative/plural-genitive), the fourteen virile nouns and dobrzy/nowe contrast pair from the virile block, and the six dative pronouns from b1_dative_pron. Confirmed NOT pool-legal and excluded: bracia/bracie (irregular plural of brat -- fenced, never even a distractor, same rule b1_virile_nom's own note set), kawą/kawie (instrumental/locative of kawa -- never taught, this course only ever inflects kawa through Nom/Acc/Gen), nauczyciela (accusative of nauczyciel -- never taught, only nauczycielem/nauczycielowi/nauczyciel/nauczycielka are), go/jemu (accusative-him and emphatic-dative-him pronouns -- neither taught, this course's pronoun grid stops at mu/ci/jej/nam/wam/im from b1_dative_pron). Bare governed prepositions (w, do, z, o) are never listed in uses_lemmas per SEQUENCING.md 6.3 -- their jobs are carried by the structure tags (prep_w_loc, prep_do_gen, prep_z_gen, o_loc), all already in uses_structures. HOMOGRAPH REVIEW, not re-teach: this gym deliberately does NOT re-run the ci/ci (virile demonstrative vs dative-pronoun) drill b1_dative_pron already did in full -- ci appears here only in its virile sense (ci studenci), consistent with how b1_virile_gym itself used it, and the second intro slide simply reminds the learner both meanings exist rather than drilling them side by side again, so as not to force a third collision test onto a unit that is meant to be zero-new review.",
+  "focus_structures": [
+    "dative_sg",
+    "dative_pron",
+    "virile_reco",
+    "virile_nom",
+    "virile_past"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "o_loc",
+    "inst_identity",
+    "inst_z",
+    "plural_nom",
+    "gen_pl",
+    "dative_sg",
+    "dative_pron",
+    "virile_reco",
+    "virile_nom",
+    "virile_past",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "Eleven jobs, one word",
+      "title_pl": "Jedenaście ról, jedno słowo",
+      "body": "Everything below is a noun, pronoun or verb form you already own, doing a job you already know. Nothing new here — just choosing the right form fast, now that all eleven jobs are mixed together, cases and virile agreement included.",
+      "body_pl": "Nic nowego — tylko szybki wybór właściwej formy, gdy wszystkie role są wymieszane.",
+      "table": {
+        "headers": [
+          "Job",
+          "Case / system",
+          "Cue",
+          "Example"
+        ],
+        "rows": [
+          [
+            "naming (one)",
+            "Nominative · mianownik",
+            "to jest…",
+            "To jest bank."
+          ],
+          [
+            "object",
+            "Accusative · biernik",
+            "mam · piję · chcę",
+            "Mam brata. · Piję kawę."
+          ],
+          [
+            "'of'-form",
+            "Genitive · dopełniacz",
+            "nie mam · nie ma",
+            "Nie mam kawy."
+          ],
+          [
+            "place",
+            "Locative · miejscownik",
+            "w/na = where",
+            "Jestem w banku."
+          ],
+          [
+            "who / how",
+            "Instrumental · narzędnik",
+            "jestem…",
+            "Jestem nauczycielem."
+          ],
+          [
+            "recipient (noun)",
+            "Dative · celownik",
+            "pomagam…",
+            "Pomagam bratu."
+          ],
+          [
+            "recipient (pronoun)",
+            "Dative pronoun",
+            "pomagam…",
+            "Pomagam mu."
+          ],
+          [
+            "naming (many)",
+            "Nominative plural",
+            "to są…",
+            "To są domy."
+          ],
+          [
+            "'of'-form (many)",
+            "Genitive plural",
+            "nie ma…",
+            "Nie ma domów."
+          ],
+          [
+            "naming (with a man)",
+            "Virile Nominative",
+            "ci…",
+            "Ci studenci."
+          ],
+          [
+            "verb (with a man)",
+            "Virile past",
+            "-li",
+            "Oni pracowali."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Same ending, different job — still on purpose",
+      "title_pl": "Ta sama końcówka, inna rola — wciąż celowo",
+      "body": "banku still does two jobs, exactly like before: blisko banku is genitive, w banku is locative. That has not changed.\n\nOne more word does this too, further back than you might remember: ci. As a demonstrative it means 'these' and only appears before a virile plural noun — ci studenci. As a dative pronoun it means '[to/for] you' — Podoba ci się? Same four letters, two unrelated words. You already met both; this gym does not re-teach the split, just reminds you it exists so it does not trip you up mid-drill.",
+      "body_pl": "blisko banku (dopełniacz) i w banku (miejscownik). ci studenci (ci = these) i podoba ci się (ci = to you).",
+      "examples": [
+        {
+          "en": "I am at the bank.",
+          "pl": "Jestem w banku."
+        },
+        {
+          "en": "These students help him.",
+          "pl": "Ci studenci pomagają mu."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "naming it · bank",
+      "pl": "bank"
+    },
+    {
+      "en": "you have it · brother",
+      "pl": "brata"
+    },
+    {
+      "en": "you don't have it · coffee",
+      "pl": "kawy"
+    },
+    {
+      "en": "you're there · bank",
+      "pl": "w banku"
+    },
+    {
+      "en": "you are (identity) · teacher",
+      "pl": "nauczycielem"
+    },
+    {
+      "en": "you help someone · brother",
+      "pl": "bratu"
+    },
+    {
+      "en": "you help someone · him",
+      "pl": "mu"
+    },
+    {
+      "en": "naming them · houses",
+      "pl": "domy"
+    },
+    {
+      "en": "you don't have them · houses",
+      "pl": "domów"
+    },
+    {
+      "en": "naming them (with a man) · students",
+      "pl": "ci studenci"
+    },
+    {
+      "en": "they worked (with a man)",
+      "pl": "pracowali"
+    },
+    {
+      "en": "they worked (no man, or things)",
+      "pl": "pracowały"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mam ___. (my brother — the thing I have)",
+      "choices": [
+        "brata",
+        "bratu",
+        "bratem",
+        "brat"
+      ],
+      "answer": "brata",
+      "explain": "mam takes an accusative object — brata, not the dative bratu you'd use after pomagam."
+    },
+    {
+      "prompt": "Pomagam ___. (my brother — who I'm helping)",
+      "choices": [
+        "bratu",
+        "brata",
+        "bratem",
+        "brat"
+      ],
+      "answer": "bratu",
+      "explain": "pomagać governs the dative, not the accusative — bratu, not brata."
+    },
+    {
+      "prompt": "Jestem ___. (a teacher — who I am)",
+      "choices": [
+        "nauczycielem",
+        "nauczycielowi",
+        "nauczyciel",
+        "nauczycielka"
+      ],
+      "answer": "nauczycielem",
+      "explain": "jestem + instrumental for identity. nauczycielowi is dative (wrong job), nauczyciel is bare nominative, nauczycielka is the wrong gender word."
+    },
+    {
+      "prompt": "Nie mam ___. (coffee)",
+      "choices": [
+        "kawy",
+        "kawę",
+        "kawa",
+        "kaw"
+      ],
+      "answer": "kawy",
+      "explain": "negation takes the genitive singular — kawy. kawę is accusative (for a positive mam), kaw is genitive plural (wrong number)."
+    },
+    {
+      "prompt": "Piję ___. (coffee)",
+      "choices": [
+        "kawę",
+        "kawy",
+        "kawa",
+        "kaw"
+      ],
+      "answer": "kawę",
+      "explain": "piję takes an accusative object, same job as mam — kawę, not the genitive kawy."
+    },
+    {
+      "prompt": "Idę ___ banku. (heading to the bank)",
+      "choices": [
+        "do",
+        "w",
+        "z",
+        "o"
+      ],
+      "answer": "do",
+      "explain": "do + genitive = destination. w = where you already are, z = where you came from, o = what you're talking about."
+    },
+    {
+      "prompt": "___ studenci są dobrzy. (these — a group with a man)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "studenci is virile — ci, not te."
+    },
+    {
+      "prompt": "___ domy są nowe. (these — houses, not people)",
+      "choices": [
+        "Te",
+        "Ci",
+        "Ten",
+        "Ta"
+      ],
+      "answer": "Te",
+      "explain": "domy is never virile, however many there are — te."
+    },
+    {
+      "prompt": "Ci studenci ___ wczoraj. (worked)",
+      "choices": [
+        "pracowali",
+        "pracowały",
+        "pracował",
+        "pracowała"
+      ],
+      "answer": "pracowali",
+      "explain": "ci already told you virile — the verb has to agree: -li."
+    },
+    {
+      "prompt": "Te kobiety ___ wczoraj. (worked)",
+      "choices": [
+        "pracowały",
+        "pracowali",
+        "pracowała",
+        "pracował"
+      ],
+      "answer": "pracowały",
+      "explain": "kobiety is never virile — the verb takes -ły."
+    },
+    {
+      "prompt": "Pomagam ___. (him)",
+      "choices": [
+        "mu",
+        "mi",
+        "ci",
+        "jej"
+      ],
+      "answer": "mu",
+      "explain": "mu = him/it. mi = me, ci = you, jej = her — same dative family, different person."
+    },
+    {
+      "prompt": "Pomagam ___. (her)",
+      "choices": [
+        "jej",
+        "mu",
+        "ci",
+        "mi"
+      ],
+      "answer": "jej",
+      "explain": "jej = her. Same test as the last question, different person."
+    },
+    {
+      "prompt": "Nie ma ___. (houses — none here)",
+      "choices": [
+        "domów",
+        "domy",
+        "domu",
+        "dom"
+      ],
+      "answer": "domów",
+      "explain": "nie ma + genitive plural — domów. domy is the plain plural (for to są…), domu/dom are singular."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "brother (the object — you have it)",
+      "mode": "full_word",
+      "answer": "brata",
+      "accepts": [
+        "brata"
+      ]
+    },
+    {
+      "prompt_en": "brother (the recipient — you help him)",
+      "mode": "full_word",
+      "answer": "bratu",
+      "accepts": [
+        "bratu"
+      ]
+    },
+    {
+      "prompt_en": "teacher (identity — jestem…)",
+      "mode": "full_word",
+      "answer": "nauczycielem",
+      "accepts": [
+        "nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "coffee (after nie mam)",
+      "mode": "full_word",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "coffee (the object — piję…)",
+      "mode": "full_word",
+      "answer": "kawę",
+      "accepts": [
+        "kawę"
+      ]
+    },
+    {
+      "prompt_en": "at the bank",
+      "mode": "full_word",
+      "answer": "w banku",
+      "accepts": [
+        "w banku"
+      ]
+    },
+    {
+      "prompt_en": "houses (naming them — to są…)",
+      "mode": "full_word",
+      "answer": "domy",
+      "accepts": [
+        "domy"
+      ]
+    },
+    {
+      "prompt_en": "houses (after nie ma)",
+      "mode": "full_word",
+      "answer": "domów",
+      "accepts": [
+        "domów"
+      ]
+    },
+    {
+      "prompt_en": "these students (a group with a man)",
+      "mode": "full_word",
+      "answer": "ci studenci",
+      "accepts": [
+        "ci studenci"
+      ]
+    },
+    {
+      "prompt_en": "him (the recipient — pomagam…)",
+      "mode": "full_word",
+      "answer": "mu",
+      "accepts": [
+        "mu"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I help my brother.",
+      "answer": "Pomagam bratu.",
+      "accepts": [
+        "Pomagam bratu.",
+        "Pomagam bratu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have coffee.",
+      "answer": "Nie mam kawy.",
+      "accepts": [
+        "Nie mam kawy.",
+        "Nie mam kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am drinking coffee.",
+      "answer": "Piję kawę.",
+      "accepts": [
+        "Piję kawę.",
+        "Piję kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am a teacher.",
+      "answer": "Jestem nauczycielem.",
+      "accepts": [
+        "Jestem nauczycielem.",
+        "Jestem nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am at the bank.",
+      "answer": "Jestem w banku.",
+      "accepts": [
+        "Jestem w banku.",
+        "Jestem w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These students are good.",
+      "answer": "Ci studenci są dobrzy.",
+      "accepts": [
+        "Ci studenci są dobrzy.",
+        "Ci studenci są dobrzy"
+      ]
+    },
+    {
+      "prompt_en": "Type: These houses are new.",
+      "answer": "Te domy są nowe.",
+      "accepts": [
+        "Te domy są nowe.",
+        "Te domy są nowe"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no houses here.",
+      "answer": "Nie ma tutaj domów.",
+      "accepts": [
+        "Nie ma tutaj domów.",
+        "Nie ma tutaj domów"
+      ]
+    },
+    {
+      "prompt_en": "Type: They (a group with a man) worked at the bank.",
+      "answer": "Oni pracowali w banku.",
+      "accepts": [
+        "Oni pracowali w banku.",
+        "Oni pracowali w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These teachers help him.",
+      "answer": "Ci nauczyciele pomagają mu.",
+      "accepts": [
+        "Ci nauczyciele pomagają mu.",
+        "Ci nauczyciele pomagają mu"
+      ]
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "bank",
+    "to",
+    "jest",
+    "mam",
+    "brata",
+    "bratu",
+    "bratem",
+    "brat",
+    "nie",
+    "kawy",
+    "kawę",
+    "kawa",
+    "kaw",
+    "jestem",
+    "banku",
+    "nauczycielem",
+    "nauczycielowi",
+    "nauczyciel",
+    "nauczycielka",
+    "pomagam",
+    "pomagają",
+    "mu",
+    "mi",
+    "ci",
+    "jej",
+    "piję",
+    "idę",
+    "są",
+    "domy",
+    "ma",
+    "domów",
+    "domu",
+    "dom",
+    "studenci",
+    "nauczyciele",
+    "dobrzy",
+    "te",
+    "nowe",
+    "oni",
+    "pracowali",
+    "pracowały",
+    "kobiety",
+    "tutaj",
+    "wczoraj"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_case_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
