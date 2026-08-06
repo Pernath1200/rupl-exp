@@ -385,41 +385,48 @@
     },
     {
       "prompt_en": "Is there a free table?",
-      "mode": "full_word",
-      "answer": "Czy jest wolny stolik?",
+      "mode": "cloze",
+      "answer": "stolik",
+      "frame": "Czy jest wolny ___?",
       "accepts": [
-        "Czy jest wolny stolik?",
-        "Czy jest wolny stolik"
-      ]
+        "stolik"
+      ],
+      "explain": "Restaurant, not street: stolik is the small table you ask for when you walk in.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed question, 4 words. Same frame and same blank a2_ordering_func #0 got for this identical sentence, so the capstone drills it exactly as the source unit taught it."
     },
     {
       "prompt_en": "Can I speak to my sister?",
-      "mode": "full_word",
-      "answer": "Czy mogę rozmawiać z siostrą?",
+      "mode": "cloze",
+      "answer": "siostrą",
+      "frame": "Czy mogę rozmawiać z ___?",
       "accepts": [
-        "Czy mogę rozmawiać z siostrą?",
-        "Czy mogę rozmawiać z siostrą",
-        "Czy moge rozmawiac z siostra?"
-      ]
+        "siostrą",
+        "siostra"
+      ],
+      "explain": "Phone, not shop. After z the person takes the instrumental: siostra becomes siostrą.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with a z-phrase bolted on. Same frame and blank as a2_phone_func #4 for the identical sentence."
     },
     {
       "prompt_en": "How was the weekend?",
-      "mode": "full_word",
-      "answer": "Jak było w weekend?",
+      "mode": "cloze",
+      "answer": "w weekend",
+      "frame": "Jak było ___?",
       "accepts": [
-        "Jak było w weekend?",
-        "Jak było w weekend"
-      ]
+        "w weekend"
+      ],
+      "explain": "Small talk, not a shop phrase. Jak było? plus w weekend, both already yours.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Jak było? chunk with a time phrase bolted on — the queue's own worked example. Same frame and blank a2_smalltalk #8 got by hand."
     },
     {
       "prompt_en": "Please go left.",
-      "mode": "full_word",
-      "answer": "Proszę iść w lewo.",
+      "mode": "cloze",
+      "answer": "lewo",
+      "frame": "Proszę iść w ___.",
       "accepts": [
-        "Proszę iść w lewo.",
-        "Proszę iść w lewo",
-        "Prosze isc w lewo"
-      ]
+        "lewo"
+      ],
+      "explain": "Directions, not the restaurant. Only the last word moves: w lewo, w prawo.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Proszę + dictionary-verb pattern with a direction bolted on. Same frame and blank as a2_directions_func #6."
     },
     {
       "prompt_en": "The bill, please.",
