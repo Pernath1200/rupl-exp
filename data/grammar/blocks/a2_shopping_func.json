@@ -510,15 +510,15 @@
     },
     {
       "prompt_en": "Can I pay by card?",
-      "mode": "full_word",
-      "answer": "Czy mogę płacić kartą?",
+      "mode": "cloze",
+      "frame": "Czy mogę ___ kartą?",
+      "answer": "płacić",
       "accepts": [
-        "Czy mogę płacić kartą?",
-        "Czy mogę płacić kartą",
-        "Mogę płacić kartą?",
-        "Mogę płacić kartą"
+        "płacić",
+        "placic"
       ],
-      "explain": "Mogę is followed by the infinitive płacić — never by płacę. Czy at the front simply turns it into a question."
+      "explain": "Mogę is followed by the infinitive płacić — never by płacę. Czy at the front simply turns it into a question.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with the frozen kartą block bolted on. Blank on płacić, the form this item's explain exists to fix — same conversion a2_ordering_func #11 got for the identical sentence. Items 6-7 still type Płacę kartą / Płacę gotówką whole, so the frozen phrase itself is still produced."
     },
     {
       "prompt_en": "Where is the till?",
