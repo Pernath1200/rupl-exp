@@ -406,93 +406,103 @@
  "type_items": [
   {
    "prompt_en": "This is the film I was talking about.",
-   "mode": "full_word",
-   "answer": "To jest film, o którym mówiłem.",
+   "mode": "cloze",
+   "answer": "którym",
    "accepts": [
-    "To jest film, o którym mówiłem.",
-    "To jest film, o którym mówiłem"
-   ]
+    "którym"
+   ],
+   "frame": "To jest film, o ___ mówiłem.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on którym — the unit's single teaches_lemma, in the locative after o."
   },
   {
    "prompt_en": "This is the book I was talking about.",
-   "mode": "full_word",
-   "answer": "To jest książka, o której mówiłem.",
+   "mode": "cloze",
+   "answer": "której",
    "accepts": [
-    "To jest książka, o której mówiłem.",
-    "To jest książka, o której mówiłem"
-   ]
+    "której"
+   ],
+   "frame": "To jest książka, o ___ mówiłem.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on której, the feminine shape after o."
   },
   {
    "prompt_en": "This is the colleague I work with.",
-   "mode": "full_word",
-   "answer": "To jest kolega, z którym pracuję.",
+   "mode": "cloze",
+   "answer": "pracuję",
    "accepts": [
-    "To jest kolega, z którym pracuję.",
-    "To jest kolega, z którym pracuję"
-   ]
+    "pracuję"
+   ],
+   "frame": "To jest kolega, z którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: którym is spent at item 0 and a second którym answer would duplicate within the stage. Blanks the relative clause's finite verb — the load-bearing form, and the word that selects z + instrumental here. The clause verb is sentence-final in this pattern, so the input sits before the full stop (b2_jesli #6 precedent)."
   },
   {
    "prompt_en": "This is the colleague (a woman) I work with.",
-   "mode": "full_word",
-   "answer": "To jest koleżanka, z którą pracuję.",
+   "mode": "cloze",
+   "answer": "którą",
    "accepts": [
-    "To jest koleżanka, z którą pracuję.",
-    "To jest koleżanka, z którą pracuję"
-   ]
+    "którą"
+   ],
+   "frame": "To jest koleżanka, z ___ pracuję.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on którą, the feminine instrumental shape after z."
   },
   {
    "prompt_en": "This is the house I live in.",
-   "mode": "full_word",
-   "answer": "To jest dom, w którym mieszkam.",
+   "mode": "cloze",
+   "answer": "mieszkam",
    "accepts": [
-    "To jest dom, w którym mieszkam.",
-    "To jest dom, w którym mieszkam"
-   ]
+    "mieszkam"
+   ],
+   "frame": "To jest dom, w którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: którym spent at item 0. Blanks the clause verb that governs w + locative."
   },
   {
    "prompt_en": "This is the dog that I have.",
-   "mode": "full_word",
-   "answer": "To jest pies, którego mam.",
+   "mode": "cloze",
+   "answer": "którego",
    "accepts": [
-    "To jest pies, którego mam.",
-    "To jest pies, którego mam"
-   ]
+    "którego"
+   ],
+   "frame": "To jest pies, ___ mam.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on którego — the animate shape, slide 2's fact."
   },
   {
    "prompt_en": "This is the brother that you know.",
-   "mode": "full_word",
-   "answer": "To jest brat, którego znasz.",
+   "mode": "cloze",
+   "answer": "znasz",
    "accepts": [
-    "To jest brat, którego znasz.",
-    "To jest brat, którego znasz"
-   ]
+    "znasz"
+   ],
+   "frame": "To jest brat, którego ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: którego spent at item 5. Blanks the clause verb."
   },
   {
    "prompt_en": "This is the bus I am travelling on.",
-   "mode": "full_word",
-   "answer": "To jest autobus, którym jadę.",
+   "mode": "cloze",
+   "answer": "jadę",
    "accepts": [
-    "To jest autobus, którym jadę.",
-    "To jest autobus, którym jadę"
-   ]
+    "jadę"
+   ],
+   "frame": "To jest autobus, którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: którym spent at item 0. Blanks the clause verb — the bare instrumental of means, which is what licenses którym with no preposition at all."
   },
   {
    "prompt_en": "This is the job I was talking about.",
-   "mode": "full_word",
-   "answer": "To jest praca, o której mówiłem.",
+   "mode": "cloze",
+   "answer": "mówiłem",
    "accepts": [
-    "To jest praca, o której mówiłem.",
-    "To jest praca, o której mówiłem"
-   ]
+    "mówiłem"
+   ],
+   "frame": "To jest praca, o której ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: której spent at item 1. Blanks the clause verb that governs o + locative."
   },
   {
    "prompt_en": "This is the shop where I buy bread.",
-   "mode": "full_word",
-   "answer": "To jest sklep, w którym kupuję chleb.",
+   "mode": "cloze",
+   "answer": "kupuję",
    "accepts": [
-    "To jest sklep, w którym kupuję chleb.",
-    "To jest sklep, w którym kupuję chleb"
-   ]
+    "kupuję"
+   ],
+   "frame": "To jest sklep, w którym ___ chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: którym spent at item 0. Blanks the clause verb."
   }
  ],
  "use_items": [
