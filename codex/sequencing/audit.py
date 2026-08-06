@@ -107,6 +107,7 @@ STRUCTURE_CATALOGUE = {
     "pron_acc",
     "pron_prep",
     "question_cases",
+    "ze_clauses",
 }
 
 GLUE_LEMMAS = {
