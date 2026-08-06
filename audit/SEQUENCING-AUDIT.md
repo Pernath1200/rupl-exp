@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 119 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 120 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -136,4 +136,5 @@ _None._
 | 121 | `b1_zeby` | `zeby` | 3 | `aspect_past`, `miec_acc`, `prep_do_gen`, `zeby` |
 | 122 | `b1_stories` | — | 6 | `aspect_past`, `can_inf`, `motion_prefixed`, `negation`, `past_byc`, `past_plural`, `prep_do_gen`, `prep_w_loc`, `sie_reflexive`, `virile_past` |
 | 123 | `b1_stories_func` | `situation_chunk` | 5 | `aspect_past`, `byc_adj`, `motion_prefixed`, `negation`, `past_byc`, `past_isc`, `past_plural`, `prep_do_gen`, `prep_w_loc`, `question`, `sie_reflexive`, `situation_chunk`, `virile_past`, `zgoda` |
+| 124 | `b1_imperative_rule` | `imperative_rule` | 12 | `byc_adj`, `gen_endings`, `imperative`, `imperative_rule`, `miec_acc`, `negation`, `perf_future`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje` |
 

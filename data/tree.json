@@ -2726,18 +2726,19 @@
     {
       "id": "b1_imperative_rule",
       "domain": "grammar",
-      "label": "Tryb rozkazujący",
+      "label": "Kupuj czy kup?",
       "label_en": "The imperative rule",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] The formation A2 withheld, anchored on the five A2 chunks. Negative imperative = nie + IMPERFECTIVE, aspect flip named plainly.",
+      "note": "The formation rule A2 withheld: 3sg present (or, for perfective verbs, future) minus its ending, +j if vowel-final, bare if consonant-final. Retroactively explains 4 of A2's 5 chunk imperatives. Negative imperative = nie + IMPERFECTIVE always, demonstrated with the kupic/kupowac and wypic/pic aspect pairs. robic->rob (o->o with acute shift) fenced out entirely, including from learner-facing content.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_imperative_rule.json"
     },
     {
       "id": "b1_adverb_comp",

@@ -93,6 +93,7 @@ STRUCTURE_CATALOGUE = {
     "dative_pron",
     "ktory_cases",
     "zeby",
+    "imperative_rule",
 }
 
 GLUE_LEMMAS = {
