@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 116 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 117 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -133,4 +133,5 @@ _None._
 | 118 | `b1_dative_pron` | `dative_pron` | 6 | `dat_chunks`, `dative_pron`, `dative_sg`, `negation`, `question`, `sie_reflexive`, `ten_ta_to`, `virile_reco` |
 | 119 | `b1_giving` | — | 15 | `dat_chunks`, `dative_pron`, `dative_sg`, `miec_acc`, `question` |
 | 120 | `b1_ktory_cases` | `ktory_cases` | 6 | `ktory_cases`, `negation`, `past_ac`, `past_rest`, `to_jest` |
+| 121 | `b1_zeby` | `zeby` | 3 | `aspect_past`, `miec_acc`, `prep_do_gen`, `zeby` |
 

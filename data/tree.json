@@ -2682,12 +2682,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Purpose zeby + inf; chce, zebys + past-form as a pattern fact.",
+      "note": "Two uses of żeby, taught together since both ride owned material with zero new endings: purpose (żeby + bare infinitive) and want-that (żebym/żebyś/żeby, singular only, + the bare L-form verb — the same person-marker family as conditional bym/byś/by, attached to żeby instead of the verb). Every want-that example keeps the wanter and the doer as different people, since self-wanting doesn't use żeby in Polish. Plural żeby-forms deliberately deferred, logged as open question for James.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/b1_zeby.json"
     },
     {
       "id": "b1_stories",
