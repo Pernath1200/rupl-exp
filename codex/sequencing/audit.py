@@ -94,6 +94,7 @@ STRUCTURE_CATALOGUE = {
     "ktory_cases",
     "zeby",
     "imperative_rule",
+    "adverb_comp",
 }
 
 GLUE_LEMMAS = {

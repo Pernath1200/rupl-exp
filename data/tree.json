@@ -2749,12 +2749,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Fenced out of a2_superlatives, lands here: szybciej/lepiej/wiecej.",
+      "note": "Comparison of ADVERBS (fenced out of a2_superlatives). Adjectives compare with -y/-a/-e agreement; adverbs compare as one invariant word. szybko->szybciej->najszybciej (regular -o->-iej), dobrze->lepiej->najlepiej and duzo->wiecej->najwiecej (irregular, bases already taught), mało->mniej->najmniej (added beyond the spine three to reach a clean 12-row Match board, zero new grammar). od+Gen and niz both recycle unchanged from a2_superlatives.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_adverb_comp.json"
     },
     {
       "id": "b1_vocative_chunks",

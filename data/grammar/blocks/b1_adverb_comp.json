@@ -1,0 +1,485 @@
+{
+  "id": "b1_adverb_comp",
+  "title": "Szybciej, lepiej, więcej",
+  "title_en": "Comparing adverbs",
+  "level": "B1",
+  "tree_node": "b1_adverb_comp",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Fenced out of a2_superlatives on purpose (its own note names this exact gap). Adjectives compare with agreement (lepszy/lepsza/lepsze); adverbs compare with ONE fixed word that never changes for gender or number - that is the whole new fact this unit teaches, riding the already-owned naj- prefix rule wholesale. Four families, matching the spine's three named examples (szybko/dobrze/duzo) plus one logged addition: szybko->szybciej->najszybciej is the one genuinely regular pattern (-o adverb -> -iej, k softens to ci - the same softening family the learner has already met in Polak->Polacy from virile_nom, named as a family resemblance, not asserted as one formal rule). dobrze->lepiej->najlepiej and duzo->wiecej->najwiecej are irregular whole forms, but their base adverbs (dobrze, duzo) are already-taught recycled material (a2_smalltalk, a1_gen_endings), so only the comparative/superlative halves are new. mało->mniej->najmniej was added beyond the spine's three examples: its base (mało) is new vocabulary, but it teaches zero new grammar (same rule, same naj- prefix) and was the cleanest way to reach Match's mandatory 12-row board without padding with object-phrase pairs - logged as a scope addition, not a silent guess. niz and od+Gen recycle unchanged from a2_superlatives: od still assigns genitive to the NOUN after it (od brata, od psa - both already taught there), but the adverb itself is invariant either way, which is the direct payoff of 'adverbs never agree.' No new structure risk beyond adverb_comp itself; every noun/verb in example sentences checked individually against the pool before writing (see teaches_lemmas for the four new families; dobrze, duzo, niz, od, brata, psa and every subject noun are pool-legal recycles).",
+  "focus_structures": [
+    "adverb_comp"
+  ],
+  "teaches_structures": [
+    "adverb_comp"
+  ],
+  "uses_structures": [
+    "adverb_comp",
+    "superlative",
+    "comparative",
+    "gen_endings",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "present"
+  ],
+  "intro": [
+    {
+      "title": "The same naj-, on a different kind of word",
+      "title_pl": "Ten sam przedrostek, inne słowo",
+      "body": "You already compare adjectives: dobry → lepszy → najlepszy. Those describe NOUNS, and they agree — lepszy, lepsza, lepsze.\n\nAdverbs describe VERBS instead — how you do something, not what a thing is like. They compare the same way, with the same naj- on top for the superlative — but they never agree. One fixed word, always.\n\ndobrze (well) → lepiej (better) → najlepiej (best)\ndużo (a lot) → więcej (more) → najwięcej (most)\n\nMama gotuje lepiej. Tata gotuje lepiej. Dzieci gotują lepiej. — lepiej never changes, no matter who is cooking.",
+      "body_pl": "Przysłówki: bez końcówek -y/-a/-e. Jedno słowo dla wszystkich."
+    },
+    {
+      "title": "Four families, one pattern",
+      "title_pl": "Cztery rodziny, jeden wzór",
+      "table": {
+        "headers": [
+          "Plain",
+          "More / -er",
+          "Most / -est"
+        ],
+        "rows": [
+          [
+            "szybko (fast)",
+            "szybciej",
+            "najszybciej"
+          ],
+          [
+            "dobrze (well)",
+            "lepiej",
+            "najlepiej"
+          ],
+          [
+            "dużo (a lot)",
+            "więcej",
+            "najwięcej"
+          ],
+          [
+            "mało (a little)",
+            "mniej",
+            "najmniej"
+          ]
+        ]
+      },
+      "body": "szybko → szybciej is the regular one: drop -o, add -iej. dobrze/lepiej and dużo/więcej are irregular whole forms — but you have met their root before: lepiej shares its stem with lepszy, więcej with większy. mało/mniej is new vocabulary, built on the exact same pattern as dużo/więcej — they are opposites, like większy/mniejszy already are.",
+      "body_pl": "szybko→szybciej: końcówka -o znika, dochodzi -iej."
+    },
+    {
+      "title": "niż and od still work exactly the same",
+      "title_pl": "niż i od bez zmian",
+      "body": "Both ways of saying than still apply, unchanged from najlepszy/od + genitive:\n\nBrat czyta więcej niż ja. — niż leaves the second word alone.\nPracuję więcej od brata. — od still hands the genitive to the NOUN after it (brata, psa — the same forms from od + genitive you already know).\n\nThe difference from adjectives: więcej itself never changes shape either way. Only the noun after od ever does.",
+      "body_pl": "od + dopełniacz (rzeczownik) — przysłówek się nie zmienia.",
+      "examples": [
+        {
+          "en": "The son reads more than the father.",
+          "pl": "Syn czyta więcej niż ojciec."
+        },
+        {
+          "en": "I work more than the brother.",
+          "pl": "Pracuję więcej od brata."
+        },
+        {
+          "en": "The father works less than the brother.",
+          "pl": "Ojciec pracuje mniej od brata."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "fast",
+      "pl": "szybko"
+    },
+    {
+      "en": "faster",
+      "pl": "szybciej"
+    },
+    {
+      "en": "fastest",
+      "pl": "najszybciej"
+    },
+    {
+      "en": "well",
+      "pl": "dobrze"
+    },
+    {
+      "en": "better (adverb)",
+      "pl": "lepiej"
+    },
+    {
+      "en": "best (adverb)",
+      "pl": "najlepiej"
+    },
+    {
+      "en": "a lot",
+      "pl": "dużo"
+    },
+    {
+      "en": "more",
+      "pl": "więcej"
+    },
+    {
+      "en": "most",
+      "pl": "najwięcej"
+    },
+    {
+      "en": "a little",
+      "pl": "mało"
+    },
+    {
+      "en": "less",
+      "pl": "mniej"
+    },
+    {
+      "en": "least",
+      "pl": "najmniej"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Brat czyta ___ niż ja. (more)",
+      "choices": [
+        "więcej",
+        "większy",
+        "duży",
+        "dużo"
+      ],
+      "answer": "więcej",
+      "explain": "więcej is the comparative of dużo. It never changes for gender — unlike the adjective większy, which would describe a noun instead."
+    },
+    {
+      "prompt": "Mama gotuje ___ niż ja. (better)",
+      "choices": [
+        "lepiej",
+        "lepsza",
+        "lepszy",
+        "dobrze"
+      ],
+      "answer": "lepiej",
+      "explain": "gotuje is a verb, so it takes the adverb lepiej. lepsza/lepszy would describe a noun, not how someone cooks."
+    },
+    {
+      "prompt": "Kawa jest lepsza. Mama gotuje ___.",
+      "choices": [
+        "lepiej",
+        "lepsza",
+        "lepszy",
+        "najlepsza"
+      ],
+      "answer": "lepiej",
+      "explain": "lepsza describes kawa, a noun. gotuje is a verb — verbs always take the adverb lepiej, never the adjective form."
+    },
+    {
+      "prompt": "Ten dom jest większy. On pracuje ___.",
+      "choices": [
+        "więcej",
+        "większy",
+        "dużo",
+        "duży"
+      ],
+      "answer": "więcej",
+      "explain": "większy describes dom, a noun. pracuje is a verb, so it needs the adverb więcej, which never changes shape."
+    },
+    {
+      "prompt": "On mówi po polsku ___. (fastest)",
+      "choices": [
+        "najszybciej",
+        "szybciej",
+        "szybko",
+        "najlepiej"
+      ],
+      "answer": "najszybciej",
+      "explain": "naj- is the same prefix from najlepszy — it attaches to the comparative szybciej with nothing else changing."
+    },
+    {
+      "prompt": "Ojciec pracuje ___. (least)",
+      "choices": [
+        "najmniej",
+        "najmniejszy",
+        "mniej",
+        "mało"
+      ],
+      "answer": "najmniej",
+      "explain": "najmniej is naj- + mniej. najmniejszy is the adjective form — it would need a noun to describe."
+    },
+    {
+      "prompt": "Syn czyta ___ od brata. (more)",
+      "choices": [
+        "więcej",
+        "więcej niż",
+        "dużo",
+        "duży"
+      ],
+      "answer": "więcej",
+      "explain": "od still puts brata into the genitive, same as after od + Gen with adjectives — but więcej itself is invariant either way."
+    },
+    {
+      "prompt": "Nauczyciel mówi ___. (the fastest)",
+      "choices": [
+        "najszybciej",
+        "szybciej",
+        "najwięcej",
+        "najmniej"
+      ],
+      "answer": "najszybciej"
+    },
+    {
+      "prompt": "Mama gotuje ___. (the best)",
+      "choices": [
+        "najlepiej",
+        "najlepsza",
+        "lepiej",
+        "najlepszy"
+      ],
+      "answer": "najlepiej"
+    },
+    {
+      "prompt": "Syn czyta ___. (the most)",
+      "choices": [
+        "najwięcej",
+        "największy",
+        "więcej",
+        "najmniej"
+      ],
+      "answer": "najwięcej"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "fast",
+      "mode": "full_word",
+      "answer": "szybko",
+      "accepts": [
+        "szybko"
+      ]
+    },
+    {
+      "prompt_en": "faster",
+      "mode": "full_word",
+      "answer": "szybciej",
+      "accepts": [
+        "szybciej"
+      ]
+    },
+    {
+      "prompt_en": "fastest",
+      "mode": "full_word",
+      "answer": "najszybciej",
+      "accepts": [
+        "najszybciej"
+      ]
+    },
+    {
+      "prompt_en": "better (adverb)",
+      "mode": "full_word",
+      "answer": "lepiej",
+      "accepts": [
+        "lepiej"
+      ]
+    },
+    {
+      "prompt_en": "best (adverb)",
+      "mode": "full_word",
+      "answer": "najlepiej",
+      "accepts": [
+        "najlepiej"
+      ]
+    },
+    {
+      "prompt_en": "more",
+      "mode": "full_word",
+      "answer": "więcej",
+      "accepts": [
+        "więcej"
+      ]
+    },
+    {
+      "prompt_en": "most",
+      "mode": "full_word",
+      "answer": "najwięcej",
+      "accepts": [
+        "najwięcej"
+      ]
+    },
+    {
+      "prompt_en": "a little",
+      "mode": "full_word",
+      "answer": "mało",
+      "accepts": [
+        "mało"
+      ]
+    },
+    {
+      "prompt_en": "less",
+      "mode": "full_word",
+      "answer": "mniej",
+      "accepts": [
+        "mniej"
+      ]
+    },
+    {
+      "prompt_en": "least",
+      "mode": "full_word",
+      "answer": "najmniej",
+      "accepts": [
+        "najmniej"
+      ]
+    },
+    {
+      "prompt_en": "more than the brother (od)",
+      "mode": "full_word",
+      "answer": "więcej od brata",
+      "accepts": [
+        "więcej od brata"
+      ],
+      "explain": "od still hands brat the genitive (brata), exactly as it did with adjectives — więcej itself never changes."
+    },
+    {
+      "prompt_en": "less than the dog (od)",
+      "mode": "full_word",
+      "answer": "mniej od psa",
+      "accepts": [
+        "mniej od psa"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The brother reads more than me.",
+      "answer": "Brat czyta więcej niż ja.",
+      "accepts": [
+        "Brat czyta więcej niż ja.",
+        "Brat czyta więcej niż ja"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mom cooks better than me.",
+      "answer": "Mama gotuje lepiej niż ja.",
+      "accepts": [
+        "Mama gotuje lepiej niż ja.",
+        "Mama gotuje lepiej niż ja"
+      ]
+    },
+    {
+      "prompt_en": "Type: The father works less than the son.",
+      "answer": "Ojciec pracuje mniej niż syn.",
+      "accepts": [
+        "Ojciec pracuje mniej niż syn.",
+        "Ojciec pracuje mniej niż syn"
+      ]
+    },
+    {
+      "prompt_en": "Type: The brother speaks Polish faster than the sister.",
+      "answer": "Brat mówi po polsku szybciej niż siostra.",
+      "accepts": [
+        "Brat mówi po polsku szybciej niż siostra.",
+        "Brat mówi po polsku szybciej niż siostra"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher speaks the fastest.",
+      "answer": "Nauczyciel mówi najszybciej.",
+      "accepts": [
+        "Nauczyciel mówi najszybciej.",
+        "Nauczyciel mówi najszybciej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mom cooks the best.",
+      "answer": "Mama gotuje najlepiej.",
+      "accepts": [
+        "Mama gotuje najlepiej.",
+        "Mama gotuje najlepiej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The son reads the most.",
+      "answer": "Syn czyta najwięcej.",
+      "accepts": [
+        "Syn czyta najwięcej.",
+        "Syn czyta najwięcej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The father works the least.",
+      "answer": "Ojciec pracuje najmniej.",
+      "accepts": [
+        "Ojciec pracuje najmniej.",
+        "Ojciec pracuje najmniej"
+      ]
+    },
+    {
+      "prompt_en": "Type: I work more than the brother. (od)",
+      "answer": "Pracuję więcej od brata.",
+      "accepts": [
+        "Pracuję więcej od brata.",
+        "Pracuję więcej od brata"
+      ]
+    },
+    {
+      "prompt_en": "Type: The father works less than the brother. (od)",
+      "answer": "Ojciec pracuje mniej od brata.",
+      "accepts": [
+        "Ojciec pracuje mniej od brata.",
+        "Ojciec pracuje mniej od brata"
+      ],
+      "explain": "od still assigns brat the genitive brata, exactly as after od + Gen with adjectives — the adverb mniej is invariant."
+    }
+  ],
+  "teaches_lemmas": [
+    "szybko",
+    "szybciej",
+    "najszybciej",
+    "lepiej",
+    "najlepiej",
+    "więcej",
+    "najwięcej",
+    "mało",
+    "mniej",
+    "najmniej",
+    "więcej od brata",
+    "mniej od psa"
+  ],
+  "uses_lemmas": [
+    "dobrze",
+    "dużo",
+    "niż",
+    "od",
+    "brat",
+    "brata",
+    "psa",
+    "syn",
+    "ojciec",
+    "mama",
+    "siostra",
+    "nauczyciel",
+    "ja",
+    "czyta",
+    "gotuje",
+    "pracuje",
+    "pracuję",
+    "mówi",
+    "po polsku",
+    "jest",
+    "lepsza",
+    "większy",
+    "dom",
+    "kawa"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_adverb_comp",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
