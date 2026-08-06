@@ -31,8 +31,16 @@ async function fetchJson(path) {
 /** Kick this off at boot; safe to call repeatedly. */
 export function initLemmaOrigin() {
   if (indexPromise) return indexPromise;
-  indexPromise = (async () => {
-    const tree = await fetchJson("./data/tree.json");
+  indexPromise = buildIndex().catch((err) => {
+    console.error("origin index FAILED:", err);
+    INDEX = new Map(); // degrade to empty rather than permanent silence
+    return INDEX;
+  });
+  return indexPromise;
+}
+
+async function buildIndex() {
+  const tree = await fetchJson("./data/tree.json");
     const byId = new Map((tree.nodes || []).map((n) => [n.id, n]));
     const map = new Map();
     let order = 0;
@@ -65,9 +73,8 @@ export function initLemmaOrigin() {
       }
     }
     INDEX = map;
+    console.info(`origin index ready: ${map.size} taught forms from ${packs.length} packs`);
     return map;
-  })();
-  return indexPromise;
 }
 
 /** Sync lookup — null until the index has finished building. */
@@ -192,7 +199,18 @@ export function wireWordTap(container, { isAuthor } = {}) {
     if (!word || normalize(word).length < 2) return;
     const entry = lookupWordSync(word);
     const author = typeof isAuthor === "function" ? isAuthor() : false;
-    if (entry === undefined) return; // index still building — stay silent
+    if (entry === undefined) {
+      // index not ready — tell the author instead of silent nothing
+      if (author) {
+        showPopup(
+          e.clientX,
+          e.clientY,
+          `<div class="origin-pop-word">${escapeHtml(normalize(word))}</div>
+           <div class="origin-pop-meta">origin index still building — tap again in a moment (or check console for errors)</div>`,
+        );
+      }
+      return;
+    }
     if (entry) {
       const lvl = entry.level ? `${escapeHtml(entry.level)} · ` : "";
       const detail = author

@@ -16,7 +16,10 @@
 
 import { getSmokeApi, countFlags, updateFlagsBadge } from "./smoke-flags.js";
 import { attachExplain } from "./explain.js";
-import { isAuthorUnlock } from "./progress.js";
+import {
+  isAuthorUnlock,
+  canEnterVocabSentence,
+} from "./progress.js";
 
 /**
  * Default questions per stage (Dopasuj board · Quiz · Słowo · Zdanie).
@@ -656,6 +659,18 @@ export function startPractice(root, block, opts) {
 
   function setMode(m) {
     clearKey();
+    // RUE2-style: no Sentence/Use until Quiz + Type clear
+    if (m === "sentence") {
+      const bid = block.id || packId;
+      if (!canEnterVocabSentence(bid)) {
+        const st = root.querySelector("#p-status");
+        if (st) {
+          st.textContent =
+            "Najpierw wyczyść Quiz i Słowo (powtórz błędy) — potem Zdanie";
+        }
+        return;
+      }
+    }
     state.mode = m;
     state.match = null;
     state.quiz = null;
@@ -1107,10 +1122,16 @@ export function startPractice(root, block, opts) {
       // clears every remaining mistake (mastery through correction).
       if (!t.retryPass) reportMode("type", { score: t.score, total: passLen });
       else if (wrongN === 0) reportMode("type", { score: 1, total: 1 });
+      const bid = block.id || packId;
+      // Scores already reported above — check unlock after this type commit
+      const sentenceOk =
+        wrongN === 0 && canEnterVocabSentence(bid);
       const sub =
         wrongN > 0
-          ? `${wrongN} do powtórki · lub idź do Zdania`
-          : "Wszystko poprawnie · dalej: Zdanie";
+          ? `${wrongN} do powtórki · powtórz aż będzie czysto — potem Zdanie`
+          : sentenceOk
+            ? "Wszystko poprawnie · dalej: Zdanie"
+            : "Słowo czyste · wyczyść Quiz, potem Zdanie";
       stage.innerHTML = `
         <div class="q">
           <div class="prompt">Pisanie skończone</div>
@@ -1119,16 +1140,21 @@ export function startPractice(root, block, opts) {
           <div class="nav">
             ${
               wrongN > 0
-                ? `<button type="button" class="btn primary" id="t-retry">Powtórz błędy (${wrongN})</button>
-                   <button type="button" class="btn" id="t-sent">4 · Zdanie →</button>`
-                : `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
-                   <button type="button" class="btn primary" id="t-sent">4 · Zdanie →</button>`
+                ? `<button type="button" class="btn primary" id="t-retry">Powtórz błędy (${wrongN})</button>`
+                : sentenceOk
+                  ? `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
+                     <button type="button" class="btn primary" id="t-sent">4 · Zdanie →</button>`
+                  : `<button type="button" class="btn primary" id="t-fix-quiz">Wróć do Quizu</button>
+                     <button type="button" class="btn" id="t-again">Cała talia od nowa</button>`
             }
           </div>
           ${
             wrongN > 0
-              ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>`
-              : ""
+              ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>
+                 <p class="sub" style="margin-top:0.5rem">Zdanie zablokowane, dopóki Quiz i Słowo nie są czyste.</p>`
+              : !sentenceOk
+                ? `<p class="sub" style="margin-top:0.5rem">Zdanie zablokowane — powtórz błędy w Quizie.</p>`
+                : ""
           }
         </div>`;
       const retryBtn = stage.querySelector("#t-retry");
@@ -1138,7 +1164,14 @@ export function startPractice(root, block, opts) {
           render();
         };
       }
-      stage.querySelector("#t-sent").onclick = () => setMode("sentence");
+      const sent = stage.querySelector("#t-sent");
+      if (sent) {
+        sent.onclick = () => setMode("sentence");
+      }
+      const fixQuiz = stage.querySelector("#t-fix-quiz");
+      if (fixQuiz) {
+        fixQuiz.onclick = () => setMode("quiz");
+      }
       const again = stage.querySelector("#t-again");
       if (again) {
         again.onclick = () => {

@@ -16,6 +16,7 @@ import {
   touchBlock,
   hasFruit,
   grammarBest,
+  canEnterGrammarUse,
 } from "./progress.js";
 import { setSmokeContext } from "./smoke-flags.js";
 import { attachExplain } from "./explain.js";
@@ -294,13 +295,35 @@ export function startPractice(pack, root, opts) {
     render();
   }
 
+  function notifyProgress(mode, result) {
+    if (typeof opts.onBeforeProgress === "function") opts.onBeforeProgress();
+    const r = completeMode(pack.id, mode, result);
+    if (r && r.justFruited && typeof opts.onFruit === "function") {
+      opts.onFruit({ domain: "grammar", packId: pack.id, mode });
+    }
+    return r;
+  }
+
+  /** Block Use until Check + Type are fully clear (RUE2-style). */
+  function guardEnterUse() {
+    if (canEnterGrammarUse(pack.id)) return true;
+    const st = root.querySelector("#p-status, .stage-banner-sub, .practice-hint");
+    const msg =
+      "Najpierw wyczyść Kontrolę i Pisanie (powtórz błędy) — potem Użycie";
+    if (st) st.textContent = msg;
+    return false;
+  }
+
   // Jump to any ladder stage via its proper entry (each initialises its items)
   function jumpToStage(id) {
     if (!id || id === state.stage) return;
     if (id === "intro") setStage("intro");
     else if (id === "check") beginCheck();
     else if (id === "type") beginType();
-    else if (id === "use") beginUse();
+    else if (id === "use") {
+      if (!guardEnterUse()) return;
+      beginUse();
+    }
   }
 
   function ladderHtml() {
@@ -387,7 +410,7 @@ export function startPractice(pack, root, opts) {
     clearAdvance();
     const cards = pack.intro || [];
     if (!cards.length) {
-      completeMode(pack.id, "intro");
+      notifyProgress( "intro");
       beginCheck();
       return;
     }
@@ -457,7 +480,7 @@ export function startPractice(pack, root, opts) {
     };
     const goNext = () => {
       if (last) {
-        completeMode(pack.id, "intro");
+        notifyProgress( "intro");
         beginCheck();
       } else {
         state.introIndex += 1;
@@ -520,7 +543,7 @@ export function startPractice(pack, root, opts) {
     state.checkTotal = 0;
     const hasMatch = (pack.match || []).length > 0;
     if (!hasMatch && !state.quizItems.length) {
-      completeMode(pack.id, "check", { score: 1, total: 1 });
+      notifyProgress( "check", { score: 1, total: 1 });
       beginType();
       return;
     }
@@ -598,7 +621,7 @@ export function startPractice(pack, root, opts) {
         } else {
           const s = state.checkTotal ? state.checkScore : 1;
           const t = state.checkTotal || 1;
-          completeMode(pack.id, "check", { score: s, total: t });
+          notifyProgress( "check", { score: s, total: t });
           beginType();
         }
       };
@@ -734,7 +757,7 @@ export function startPractice(pack, root, opts) {
       state.checkScore += score;
       state.checkTotal += total;
       state.quizScoreCommitted = true;
-      completeMode(pack.id, "check", {
+      notifyProgress( "check", {
         score: state.checkScore,
         total: state.checkTotal,
       });
@@ -742,7 +765,7 @@ export function startPractice(pack, root, opts) {
     // Clearing every mistake in the poprawka rounds counts as a full pass —
     // mastery through correction, not first-try perfection.
     if (state.quizRetryPass && wrongN === 0) {
-      completeMode(pack.id, "check", { score: 1, total: 1 });
+      notifyProgress( "check", { score: 1, total: 1 });
     }
     root.innerHTML = `
       ${ladderHtml()}
@@ -771,7 +794,7 @@ export function startPractice(pack, root, opts) {
     const goType = () => {
       const s = state.checkTotal ? state.checkScore : 1;
       const t = state.checkTotal || 1;
-      completeMode(pack.id, "check", { score: s, total: t });
+      notifyProgress( "check", { score: s, total: t });
       beginType();
     };
     root.querySelector("#q-next")?.addEventListener("click", goType);
@@ -908,7 +931,7 @@ export function startPractice(pack, root, opts) {
     state.typeScore = 0;
     state.typeWrong = [];
     if (!state.typeItems.length) {
-      completeMode(pack.id, "type", { score: 1, total: 1 });
+      notifyProgress( "type", { score: 1, total: 1 });
       beginUse();
       return;
     }
@@ -916,6 +939,11 @@ export function startPractice(pack, root, opts) {
   }
 
   function beginUse(onlyWrong) {
+    // Permanent: no Use until Check + Type clear (retries of Use OK)
+    if (!onlyWrong && !canEnterGrammarUse(pack.id)) {
+      guardEnterUse();
+      return;
+    }
     state.stage = "use";
     state.useGate = false;
     state.useScoreCommitted = false;
@@ -930,7 +958,11 @@ export function startPractice(pack, root, opts) {
     state.useScore = 0;
     state.useWrong = [];
     if (!state.useItems.length) {
-      completeMode(pack.id, "use");
+      if (!canEnterGrammarUse(pack.id)) {
+        guardEnterUse();
+        return;
+      }
+      notifyProgress("use");
       state.stage = "done";
       render();
       return;
@@ -948,23 +980,38 @@ export function startPractice(pack, root, opts) {
     const total = items.length || 1;
     const wrongN = wrong.length;
     const title = kind === "type" ? "Pisanie" : "Użycie";
-    const nextLabel =
-      kind === "type" && (pack.use_items || []).length
+    const hasUse = (pack.use_items || []).length > 0;
+    const useUnlocked =
+      kind !== "type" || canEnterGrammarUse(pack.id) || wrongN === 0;
+    // After committing type scores below, re-check unlock for Type→Use
+    let nextLabel =
+      kind === "type" && hasUse
         ? "Dalej do Użycia →"
         : "Zakończ · podsumowanie →";
 
     if (kind === "type" && !state.typeScoreCommitted && !retryPass) {
-      completeMode(pack.id, "type", { score, total });
+      notifyProgress("type", { score, total });
       state.typeScoreCommitted = true;
     }
     if (kind === "use" && !state.useScoreCommitted && !retryPass) {
-      completeMode(pack.id, "use", { score, total });
+      notifyProgress("use", { score, total });
       state.useScoreCommitted = true;
     }
     // Clearing every mistake in the poprawka rounds counts as a full pass —
     // mastery through correction, not first-try perfection.
     if (retryPass && wrongN === 0) {
-      completeMode(pack.id, kind, { score: 1, total: 1 });
+      notifyProgress(kind, { score: 1, total: 1 });
+    }
+
+    const canGoUse =
+      kind === "type" && hasUse && canEnterGrammarUse(pack.id) && wrongN === 0;
+    const blockUseMsg =
+      kind === "type" && hasUse && wrongN === 0 && !canEnterGrammarUse(pack.id);
+    if (blockUseMsg) {
+      nextLabel = "Najpierw wyczyść Kontrolę";
+    }
+    if (kind === "type" && wrongN > 0) {
+      nextLabel = "Użycie zablokowane";
     }
 
     root.innerHTML = `
@@ -973,34 +1020,56 @@ export function startPractice(pack, root, opts) {
       <p class="practice-prompt">Wynik: <strong>${score} / ${total}</strong></p>
       <p class="practice-hint">${
         wrongN > 0
-          ? `${wrongN} błędów · powtórz albo idź dalej`
+          ? kind === "type"
+            ? `${wrongN} błędów · powtórz aż będzie czysto — wtedy Użycie`
+            : `${wrongN} błędów · powtórz albo idź dalej`
           : kind === "type"
-            ? "Wszystko poprawnie · dalej: Użycie"
+            ? canGoUse
+              ? "Wszystko poprawnie · dalej: Użycie"
+              : "Pisanie czyste · wyczyść Kontrolę, potem Użycie"
             : "Wszystko poprawnie · podsumowanie"
       }${retryPass ? " · runda poprawkowa" : ""}</p>
       <div class="nav">
         ${
           wrongN > 0
             ? `<button type="button" class="btn primary" id="t-retry">Powtórz błędy (${wrongN})</button>
-               <button type="button" class="btn" id="t-next">${nextLabel}</button>`
-            : `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
-               <button type="button" class="btn primary" id="t-next">${nextLabel}</button>`
+               ${
+                 kind === "use"
+                   ? `<button type="button" class="btn" id="t-next">${nextLabel}</button>`
+                   : ""
+               }`
+            : canGoUse || kind === "use" || !hasUse
+              ? `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
+                 <button type="button" class="btn primary" id="t-next">${nextLabel}</button>`
+              : `<button type="button" class="btn primary" id="t-fix-check">Wróć do Kontroli</button>
+                 <button type="button" class="btn" id="t-again">Cała talia od nowa</button>`
         }
       </div>
       ${
         wrongN > 0
-          ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>`
-          : ""
+          ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>
+             <p class="practice-hint" style="margin-top:0.5rem">Użycie jest zablokowane, dopóki Kontrola i Pisanie nie są czyste.</p>`
+          : blockUseMsg
+            ? `<p class="practice-hint" style="margin-top:0.5rem">Użycie zablokowane — powtórz błędy w Kontroli.</p>`
+            : ""
       }
     `;
 
     const goNext = () => {
-      if (kind === "type") beginUse();
-      else {
+      if (kind === "type") {
+        if (!canEnterGrammarUse(pack.id)) {
+          guardEnterUse();
+          return;
+        }
+        beginUse();
+      } else {
         state.stage = "done";
         render();
       }
     };
+    root.querySelector("#t-fix-check")?.addEventListener("click", () => {
+      beginCheck();
+    });
     const retry = () => {
       if (kind === "type") beginType(wrong.slice());
       else beginUse(wrong.slice());
@@ -1018,8 +1087,19 @@ export function startPractice(pack, root, opts) {
     root.querySelector("#t-next")?.addEventListener("click", goNext);
     root.querySelector("#t-retry")?.addEventListener("click", retry);
     root.querySelector("#t-again")?.addEventListener("click", again);
-    state.enterAdvance = wrongN > 0 ? retry : goNext;
-    focusPrimary(wrongN > 0 ? "#t-retry" : "#t-next");
+    state.enterAdvance =
+      wrongN > 0
+        ? retry
+        : root.querySelector("#t-next")
+          ? goNext
+          : () => root.querySelector("#t-fix-check")?.click();
+    focusPrimary(
+      wrongN > 0
+        ? "#t-retry"
+        : root.querySelector("#t-next")
+          ? "#t-next"
+          : "#t-fix-check",
+    );
   }
 
   function renderTypedStage(kind) {

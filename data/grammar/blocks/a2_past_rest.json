@@ -314,7 +314,7 @@
       "explain": "siostra is feminine and it is she, not I — so -a with nothing after it: piła."
     },
     {
-      "prompt": "Wczoraj ___ herbatę. (f)",
+      "prompt": "Wczoraj ___ herbatę. (ja, f)",
       "choices": [
         "chciałam",
         "chciałem",
@@ -347,7 +347,7 @@
       "explain": "syn is a man and it is he, not I: the bare stem with -ł and no ending."
     },
     {
-      "prompt": "Wczoraj ___ obiad. (m)",
+      "prompt": "Wczoraj ___ obiad. (ja, m)",
       "choices": [
         "robiłem",
         "robiłam",
