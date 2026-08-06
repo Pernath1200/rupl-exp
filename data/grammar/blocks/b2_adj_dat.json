@@ -1,0 +1,582 @@
+{
+ "id": "b2_adj_dat",
+ "title": "Dobremu bratu · celownik",
+ "title_en": "Adjectives in the Dative · -emu, and -ej a third time",
+ "level": "B2",
+ "tree_node": "b2_adj_dat",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 2, unit 6 of 6 (spine O2) — the last teaching unit of the adjective block, and small by design, exactly as the spine said it should be.\n\nTHREE NEW FORMS: dobremu, nowemu, małemu (all verified NEW). The feminine -ej is recycled for the THIRD time — Genitive (b2_adj_gen), Locative (b2_adj_loc), and now here — which is what slide 2 is built on: dobrej has quietly become the busiest adjective form the learner owns.\n\nGOVERNORS: all three are already owned and all three are used. pomagać and dziękować come from b1_dative_sg; dawać comes from b1_giving, which is where b1_dative_sg's own logged deferral of that verb was paid ('do not assume dawać is already covered' — it is, since path 119, and this was re-checked rather than assumed).\n\nDATIVE NOUNS: studentowi, nauczycielowi, bratu, siostrze, mamie (b1_dative_sg) and kobiecie (b2_fem_soft). Homograph check performed on every one — all six are reused in exactly the slot they were taught in, as Datives. siostrze and mamie are also Locatives, but b1_dative_sg taught them as Datives and b2_fem_soft's whole point was that the two are the same form for feminine nouns, so nothing is being shown as a different word than it was learned as.\n\nTHE UNIT'S ONE REAL JUDGMENT CALL — NEUTER IS STATED BUT NOT DRILLED: dziecku reports NEW, and it is the only plausible neuter Dative noun anywhere in reach, so the course owns NO neuter noun in this case. Teaching one would mean bolting a new noun form onto a unit that is already adding a new adjective ending. Instead the neuter is named in one English line and given its column in the recap table. That is true, it is consistent with every other oblique case in this block (m and n have shared an ending in all of them), and it demands no form the learner has not met. If James wants neuter drilled, dziecku is the single form to add and małemu dziecku is the phrase.\n\nCLOSES THE BLOCK: b2_adj_gym is next and teaches nothing, so slide 4 is the natural place for a recap — six rows covering the adjective across all four cases in three genders. Every cell was checked individually; all are forms taught at or before this point (dobry, dobre, dobra, dobrą, dobrego, dobrej, dobrym, and this unit's dobremu).\n\nFENCED:\n- zimny is left out of the unit entirely, for the second unit running. No natural Dative recipient is cold, and zimnemu would be a fourth new form bought for nothing.\n- nowe and duże remain unused anywhere, holding b2_adj_acc's standing line about a2_plural_nom's plurals.\n- No plural oblique adjectives — spine O3 sends those to C1.\n- nowej and zimnej are not used either: two feminine examples (dobrej, małej) make the -ej point, and adding more would pad a unit whose whole virtue is being small.\n\nKONTROLA CONTAINS THE BLOCK'S PAYOFF: items 6 and 7 are cross-case discriminations against the Genitive (Nie mam dobrego brata) and the Instrumental (Jestem dobrym studentem) — the first time the learner has had to choose between four oblique adjective forms rather than two. All ten quiz answers are distinct.\n\nDISTRACTORS are real taught Polish in the wrong slot: the Genitive, Locative/Instrumental and Accusative forms of the same adjectives, plus Nominatives. Nothing fabricated.",
+ "focus_structures": [
+  "adj_dat"
+ ],
+ "teaches_structures": [
+  "adj_dat"
+ ],
+ "teaches_lemmas": [
+  "dobremu",
+  "nowemu",
+  "małemu"
+ ],
+ "uses_structures": [
+  "adj_dat",
+  "adj_inst",
+  "adj_loc",
+  "adj_gen",
+  "adj_acc",
+  "dative_sg",
+  "dative_pron",
+  "inst_identity",
+  "negation",
+  "miec_acc",
+  "miec_present",
+  "byc_present",
+  "present",
+  "present_am",
+  "present_uje",
+  "poss_nom",
+  "conjunctions",
+  "zgoda"
+ ],
+ "intro": [
+  {
+   "title": "One new ending: -emu",
+   "title_pl": "dobry → dobremu",
+   "body": "This is the case for the person you give something to, help, or thank. You have had it since B1 with plain nouns — Pomagam mamie, Dziękuję bratu. The adjective in front takes -emu for masculine words. Neuter words take -emu too, though you have not yet met a neuter word in this case, so there is nothing to do about that one.",
+   "body_pl": "celownik · -emu (m. i n.)",
+   "table": {
+    "headers": [
+     "Gender",
+     "Plain form",
+     "This form",
+     "In a phrase"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "dobry",
+      "dobremu",
+      "Pomagam dobremu studentowi."
+     ],
+     [
+      "masculine",
+      "nowy",
+      "nowemu",
+      "Pomagam nowemu nauczycielowi."
+     ],
+     [
+      "masculine",
+      "mały",
+      "małemu",
+      "Pomagam małemu bratu."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The feminine form again — that is three cases now",
+   "title_pl": "dobrej · trzeci raz",
+   "body": "Feminine words take -ej here, which is the same form you learned for the genitive and then used again for the locative. It is now doing a third job, and it is the hardest-working adjective form you own. Nothing new to memorise on this side of the lesson.",
+   "body_pl": "-ej (ż.) — dopełniacz, miejscownik, celownik",
+   "table": {
+    "headers": [
+     "Plain form",
+     "This form",
+     "In a phrase"
+    ],
+    "rows": [
+     [
+      "dobra",
+      "dobrej",
+      "Dziękuję dobrej mamie."
+     ],
+     [
+      "mała",
+      "małej",
+      "Pomagam małej siostrze."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The three verbs that ask for it",
+   "title_pl": "pomagam · dziękuję · daję",
+   "body": "No new verbs here either. These are the three you already use with this case; the only change is that the adjective now comes along.",
+   "body_pl": "Pomagam dobrej mamie. · Dziękuję dobrej siostrze. · Daję książkę małemu bratu.",
+   "table": {
+    "headers": [
+     "Verb",
+     "What you already said",
+     "With an adjective"
+    ],
+    "rows": [
+     [
+      "pomagam",
+      "Pomagam mamie.",
+      "Pomagam dobrej mamie."
+     ],
+     [
+      "dziękuję",
+      "Dziękuję siostrze.",
+      "Dziękuję dobrej siostrze."
+     ],
+     [
+      "daję",
+      "Daję książkę bratu.",
+      "Daję książkę małemu bratu."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The whole adjective, in one place",
+   "title_pl": "dobry · dobra · dobre",
+   "body": "That is the last of them. Every form of the adjective you will need in the singular is now in your hands, and here they all are together. Read down the columns rather than trying to memorise the table — the point is that the feminine has only three different forms in the whole list, and masculine and neuter never differ once you are past the subject.",
+   "body_pl": "cztery przypadki · trzy rodzaje",
+   "table": {
+    "headers": [
+     "What it follows",
+     "Masculine",
+     "Neuter",
+     "Feminine"
+    ],
+    "rows": [
+     [
+      "nothing — the subject",
+      "dobry",
+      "dobre",
+      "dobra"
+     ],
+     [
+      "mam (a thing)",
+      "dobry",
+      "dobre",
+      "dobrą"
+     ],
+     [
+      "mam (a man or animal), nie ma, do",
+      "dobrego",
+      "dobrego",
+      "dobrej"
+     ],
+     [
+      "w, na, o",
+      "dobrym",
+      "dobrym",
+      "dobrej"
+     ],
+     [
+      "z, jestem, how you travel",
+      "dobrym",
+      "dobrym",
+      "dobrą"
+     ],
+     [
+      "pomagam, dziękuję, daję",
+      "dobremu",
+      "dobremu",
+      "dobrej"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I'm helping the good student.",
+   "pl": "Pomagam dobremu studentowi."
+  },
+  {
+   "en": "I'm helping the new teacher.",
+   "pl": "Pomagam nowemu nauczycielowi."
+  },
+  {
+   "en": "I'm helping my little brother.",
+   "pl": "Pomagam małemu bratu."
+  },
+  {
+   "en": "I'm helping my little sister.",
+   "pl": "Pomagam małej siostrze."
+  },
+  {
+   "en": "I'm helping a good woman.",
+   "pl": "Pomagam dobrej kobiecie."
+  },
+  {
+   "en": "I thank the good teacher.",
+   "pl": "Dziękuję dobremu nauczycielowi."
+  },
+  {
+   "en": "I thank the new student.",
+   "pl": "Dziękuję nowemu studentowi."
+  },
+  {
+   "en": "I thank my good mum.",
+   "pl": "Dziękuję dobrej mamie."
+  },
+  {
+   "en": "I thank my good sister.",
+   "pl": "Dziękuję dobrej siostrze."
+  },
+  {
+   "en": "I'm giving the book to my little brother.",
+   "pl": "Daję książkę małemu bratu."
+  },
+  {
+   "en": "I'm giving the coffee to my good mum.",
+   "pl": "Daję kawę dobrej mamie."
+  },
+  {
+   "en": "I'm giving the key to the new student.",
+   "pl": "Daję klucz nowemu studentowi."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Pomagam ___ studentowi. (good)",
+   "choices": [
+    "dobremu",
+    "dobrego",
+    "dobrym",
+    "dobry"
+   ],
+   "answer": "dobremu",
+   "explain": "pomagam asks for this case, and student is masculine, so -emu. The noun already told you: it is studentowi, not student."
+  },
+  {
+   "prompt": "Pomagam ___ nauczycielowi. (new)",
+   "choices": [
+    "nowemu",
+    "nowego",
+    "nowym",
+    "nowy"
+   ],
+   "answer": "nowemu",
+   "explain": "Same ending as dobremu — every masculine adjective behaves alike here."
+  },
+  {
+   "prompt": "Pomagam ___ bratu. (small)",
+   "choices": [
+    "małemu",
+    "małego",
+    "małym",
+    "mały"
+   ],
+   "answer": "małemu",
+   "explain": "bratu is the form brat takes after pomagam, and the adjective follows it into the same case."
+  },
+  {
+   "prompt": "Pomagam ___ siostrze. (small)",
+   "choices": [
+    "małej",
+    "małą",
+    "małym",
+    "małego"
+   ],
+   "answer": "małej",
+   "explain": "Feminine, so -ej — the form you already know from two other jobs. Only the noun changed shape here."
+  },
+  {
+   "prompt": "Dziękuję ___ kobiecie. (good)",
+   "choices": [
+    "dobrej",
+    "dobrą",
+    "dobremu",
+    "dobrego"
+   ],
+   "answer": "dobrej",
+   "explain": "kobieta is feminine, so -ej again. dobremu is the masculine form from this same lesson."
+  },
+  {
+   "prompt": "Nie mam ___ brata. (good)",
+   "choices": [
+    "dobrego",
+    "dobremu",
+    "dobrym",
+    "dobry"
+   ],
+   "answer": "dobrego",
+   "explain": "This is not this lesson's case. nie mam still takes -ego, exactly as it did before. Only pomagam, dziękuję and daję take -emu."
+  },
+  {
+   "prompt": "Jestem ___ studentem. (good)",
+   "choices": [
+    "dobrym",
+    "dobremu",
+    "dobrego",
+    "dobry"
+   ],
+   "answer": "dobrym",
+   "explain": "Saying what someone is takes -ym, not -emu. The noun is your clue: studentem, not studentowi."
+  },
+  {
+   "prompt": "I'm helping the good student. →",
+   "choices": [
+    "Pomagam dobremu studentowi.",
+    "Pomagam dobrego studentowi.",
+    "Pomagam dobremu student.",
+    "Pomagam dobry studentowi."
+   ],
+   "answer": "Pomagam dobremu studentowi.",
+   "explain": "Both words move together. dobry studentowi leaves the adjective as a subject and dobremu student leaves the noun behind."
+  },
+  {
+   "prompt": "I'm giving the book to my little brother. →",
+   "choices": [
+    "Daję książkę małemu bratu.",
+    "Daję książkę małego bratu.",
+    "Daję książkę mały bratu.",
+    "Daję książkę małemu brat."
+   ],
+   "answer": "Daję książkę małemu bratu.",
+   "explain": "Two objects, two cases: książkę is the thing given and takes the object form, bratu is the person given to and takes this lesson's."
+  },
+  {
+   "prompt": "I thank my good mum. →",
+   "choices": [
+    "Dziękuję dobrej mamie.",
+    "Dziękuję dobrą mamie.",
+    "Dziękuję dobra mamie.",
+    "Dziękuję dobrej mama."
+   ],
+   "answer": "Dziękuję dobrej mamie.",
+   "explain": "dobrą is the object form — right after mam, wrong after dziękuję. dobrej mama moves only the adjective."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to the good student (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobremu studentowi",
+   "accepts": [
+    "dobremu studentowi"
+   ]
+  },
+  {
+   "prompt_en": "to the new teacher (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "nowemu nauczycielowi",
+   "accepts": [
+    "nowemu nauczycielowi"
+   ]
+  },
+  {
+   "prompt_en": "to my little brother (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "małemu bratu",
+   "accepts": [
+    "małemu bratu"
+   ]
+  },
+  {
+   "prompt_en": "to the good brother (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobremu bratu",
+   "accepts": [
+    "dobremu bratu"
+   ]
+  },
+  {
+   "prompt_en": "to the good teacher (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobremu nauczycielowi",
+   "accepts": [
+    "dobremu nauczycielowi"
+   ]
+  },
+  {
+   "prompt_en": "to the new student (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "nowemu studentowi",
+   "accepts": [
+    "nowemu studentowi"
+   ]
+  },
+  {
+   "prompt_en": "to my little sister (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "małej siostrze",
+   "accepts": [
+    "małej siostrze"
+   ]
+  },
+  {
+   "prompt_en": "to my good mum (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobrej mamie",
+   "accepts": [
+    "dobrej mamie"
+   ]
+  },
+  {
+   "prompt_en": "to my good sister (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobrej siostrze",
+   "accepts": [
+    "dobrej siostrze"
+   ]
+  },
+  {
+   "prompt_en": "to a good woman (the person you help or thank)",
+   "mode": "full_word",
+   "answer": "dobrej kobiecie",
+   "accepts": [
+    "dobrej kobiecie"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum helps my little brother.",
+   "answer": "Mama pomaga małemu bratu.",
+   "accepts": [
+    "Mama pomaga małemu bratu.",
+    "Mama pomaga małemu bratu"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad helps the good student.",
+   "answer": "Tata pomaga dobremu studentowi.",
+   "accepts": [
+    "Tata pomaga dobremu studentowi.",
+    "Tata pomaga dobremu studentowi"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister helps the new teacher.",
+   "answer": "Moja siostra pomaga nowemu nauczycielowi.",
+   "accepts": [
+    "Moja siostra pomaga nowemu nauczycielowi.",
+    "Moja siostra pomaga nowemu nauczycielowi"
+   ]
+  },
+  {
+   "prompt_en": "Type: I thank my good mum for the coffee.",
+   "answer": "Dziękuję dobrej mamie za kawę.",
+   "accepts": [
+    "Dziękuję dobrej mamie za kawę.",
+    "Dziękuję dobrej mamie za kawę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is giving the coffee to a good woman.",
+   "answer": "Mama daje kawę dobrej kobiecie.",
+   "accepts": [
+    "Mama daje kawę dobrej kobiecie.",
+    "Mama daje kawę dobrej kobiecie"
+   ]
+  },
+  {
+   "prompt_en": "Type: My brother helps my little sister.",
+   "answer": "Mój brat pomaga małej siostrze.",
+   "accepts": [
+    "Mój brat pomaga małej siostrze.",
+    "Mój brat pomaga małej siostrze"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm giving the key to the new student.",
+   "answer": "Daję klucz nowemu studentowi.",
+   "accepts": [
+    "Daję klucz nowemu studentowi.",
+    "Daję klucz nowemu studentowi"
+   ]
+  },
+  {
+   "prompt_en": "Type: I don't have a good brother, but I help my little sister.",
+   "answer": "Nie mam dobrego brata, ale pomagam małej siostrze.",
+   "accepts": [
+    "Nie mam dobrego brata, ale pomagam małej siostrze.",
+    "Nie mam dobrego brata, ale pomagam małej siostrze"
+   ],
+   "explain": "Two cases in one sentence: nie mam takes dobrego, pomagam takes this lesson's form — and for the feminine that form is the -ej you already had."
+  },
+  {
+   "prompt_en": "Type: I'm a good student, and my sister helps the new teacher.",
+   "answer": "Jestem dobrym studentem, a moja siostra pomaga nowemu nauczycielowi.",
+   "accepts": [
+    "Jestem dobrym studentem, a moja siostra pomaga nowemu nauczycielowi.",
+    "Jestem dobrym studentem, a moja siostra pomaga nowemu nauczycielowi"
+   ],
+   "explain": "dobrym after jestem, nowemu after pomaga — two different cases on two masculine words, and the nouns show it too: studentem against nauczycielowi."
+  },
+  {
+   "prompt_en": "Type: Dad thanks the good woman.",
+   "answer": "Tata dziękuje dobrej kobiecie.",
+   "accepts": [
+    "Tata dziękuje dobrej kobiecie.",
+    "Tata dziękuje dobrej kobiecie"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "dobra",
+  "dobre",
+  "dobry",
+  "dobrą",
+  "dobrego",
+  "dobrej",
+  "dobrym",
+  "nowa",
+  "nowy",
+  "nowego",
+  "nowym",
+  "mała",
+  "mały",
+  "małą",
+  "małego",
+  "małej",
+  "małym",
+  "student",
+  "studentowi",
+  "studentem",
+  "nauczyciel",
+  "nauczycielowi",
+  "brat",
+  "brata",
+  "bratu",
+  "siostra",
+  "siostrze",
+  "mama",
+  "mamie",
+  "kobieta",
+  "kobiecie",
+  "tata",
+  "książkę",
+  "kawę",
+  "klucz",
+  "pomagać",
+  "pomagam",
+  "pomaga",
+  "dziękować",
+  "dziękuję",
+  "dziękuje",
+  "dawać",
+  "daję",
+  "daje",
+  "jestem",
+  "mam",
+  "nie mam",
+  "mój",
+  "moja",
+  "ale",
+  "a",
+  "za",
+  "dziękuję za"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_adj_dat",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

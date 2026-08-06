@@ -3029,17 +3029,18 @@
       "id": "b2_adj_dat",
       "domain": "grammar",
       "label": "Dobremu · celownik",
-      "label_en": "Adjectives in the Dative",
+      "label_en": "Adjectives in the Dative · -emu, and -ej a third time",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 5 of 6. -emu (m/n) is the one new ending; -ej (f) recycles for the third time. Small by design. Rides pomagac/dawac/dziekowac from B1's dative block.",
+      "note": "B2 Block 2, unit 6 of 6 (spine O2) — the last teaching unit of the adjective block, and small by design exactly as the spine said. THREE NEW FORMS: dobremu, nowemu, małemu. The feminine -ej is recycled for the THIRD time (Genitive, Locative, now Dative), which is what slide 2 is built on: dobrej has quietly become the busiest adjective form the learner owns. GOVERNORS all owned and all used — pomagać and dziękować from b1_dative_sg, dawać from b1_giving, which is where b1_dative_sg's own logged deferral of that verb was paid ('do not assume dawać is already covered' — it is, since path 119, and this was re-checked rather than assumed). DATIVE NOUNS: studentowi, nauczycielowi, bratu, siostrze, mamie (b1_dative_sg) and kobiecie (b2_fem_soft); homograph check performed on all six and every one is reused in exactly the slot it was taught in. THE ONE REAL JUDGMENT CALL — NEUTER IS STATED BUT NOT DRILLED: dziecku reports NEW and is the only plausible neuter Dative noun in reach, so the course owns NO neuter noun in this case. Rather than bolt a new noun form onto a unit already adding an ending, the neuter is named in one English line and given its column in the recap table — true, consistent with every other oblique case in the block, and demanding no unmet form. If James wants it drilled, dziecku is the single form to add and małemu dziecku is the phrase. CLOSES THE BLOCK: b2_adj_gym is next and teaches nothing, so slide 4 is a six-row recap of the adjective across all four cases in three genders — every cell checked individually, all forms taught at or before this point. KONTROLA CARRIES THE BLOCK'S PAYOFF: items 6 and 7 are cross-case discriminations against the Genitive (Nie mam dobrego brata) and the Instrumental (Jestem dobrym studentem) — the first time the learner must choose among four oblique adjective forms rather than two. All ten quiz answers distinct. FENCED: zimny left out for the second unit running (no Dative recipient is cold, and zimnemu would be a fourth new form bought for nothing); nowej and zimnej unused too, since two feminine examples make the -ej point and more would pad a unit whose whole virtue is being small; nowe and duże still unused anywhere, holding b2_adj_acc's standing line; no plural obliques (C1, spine O3).",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_dat.json"
     },
     {
       "id": "b2_adj_gym",

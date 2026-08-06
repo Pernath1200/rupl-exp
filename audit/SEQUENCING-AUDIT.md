@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 133 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 134 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -150,4 +150,5 @@ _None._
 | 136 | `b2_work` | — | 13 | `adj_acc`, `adj_gen`, `byc_adj`, `byc_present`, `chodzic`, `comparative`, `conditional_sg`, `conjunctions`, `existential_jest`, `miec_acc`, `miec_present`, `negation`, `past_byc`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `question`, `to_jest`, `zgoda` |
 | 137 | `b2_adj_loc` | `adj_loc` | 4 | `adj_acc`, `adj_gen`, `adj_loc`, `byc_present`, `conjunctions`, `existential_jest`, `miec_present`, `motion_chunk`, `negation`, `o_loc`, `past_byc`, `past_plural`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_past`, `zgoda` |
 | 138 | `b2_adj_inst` | `adj_inst` | 0 | `adj_acc`, `adj_gen`, `adj_inst`, `adj_loc`, `byc_present`, `conjunctions`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `motion_chunk`, `o_loc`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `zgoda` |
+| 139 | `b2_adj_dat` | `adj_dat` | 3 | `adj_acc`, `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `byc_present`, `conjunctions`, `dative_pron`, `dative_sg`, `inst_identity`, `miec_acc`, `miec_present`, `negation`, `poss_nom`, `present`, `present_am`, `present_uje`, `zgoda` |
 
