@@ -3046,17 +3046,18 @@
       "id": "b2_adj_gym",
       "domain": "grammar",
       "label": "Siłownia · dobry",
-      "label_en": "Adjective case gym",
+      "label_en": "Adjective gym · every case, one adjective",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 6 of 6. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym line): ZERO new material, teaches_structures and teaches_lemmas both empty. Six-way adjective-case discrimination on one or two adjectives across many already-taught nouns.",
+      "note": "B2 Block 2, unit 6 of 6 (spine O2) — the gym that closes the adjective block. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym line): ZERO new material, teaches_structures and teaches_lemmas both EMPTY. WHAT THE GYM ADDS THAT NO SINGLE UNIT COULD: the block taught the adjective one case at a time, so the learner has never seen the collisions. Slide 2 is the whole point — dobrej does THREE jobs (Genitive, Locative, Dative, feminine), dobrym does TWO (Locative and Instrumental, m/n), dobrą does TWO (Accusative and Instrumental, feminine), dobrego does TWO (Genitive, and the object form of a masculine animate). The line the slide lands: the ending alone does not name the job — the verb or preposition in front of it does. KONTROLA ITEMS 6 AND 7 ARE DELIBERATELY THE SAME FOUR CHOICES (nowego/nowym/nowemu/nowy) under two different sentences, Idę do ___ sklepu versus Mieszkam w ___ domu — the cleanest demonstration that the sentence decides, since nothing else about the two items differs (b1_case_gym's paired ci/te idiom). All 12 quiz answers distinct, achieved by varying the adjective rather than the job. ZIMNY EVENED UP, partially and honestly: B2-DIGEST batch 3 flagged that zimny dropped out of the block after b2_adj_loc, so this gym puts zimną (Acc), zimnej (Gen and Loc) and zimnym (Loc) back in real slots; it does NOT reach zimnemu, which is taught nowhere in the course, so the Dative of zimny stays out, distractors included. HOMOGRAPH CHECKS on every recycled form: kawy is used only as a Genitive singular (a1_gen_endings), never as the nominative plural AGENTS.md names as the trap; nowego is used only in the real Genitive sense b2_adj_gen re-taught, not a2_smalltalk's frozen nic nowego; mamie and siostrze are Datives, as b1_dative_sg taught them; brata and psa are the masculine-animate Acc=Gen exception, named in its own slide row rather than slipped past; mamy appears nowhere. FENCED: nowe and duże appear nowhere including as distractors (a2_plural_nom taught both as PLURALS — b2_adj_acc's standing line, held for six units running); zimne is NEW and appears nowhere; no plural oblique adjectives anywhere (C1, spine O3); no oblique pronouns (go, ją, cię, nim, niej) since b2_pron_acc and b2_pron_prep are the next two units — a fence the auditor cannot see at all, because person pronouns sit in audit.py's GLUE_LEMMAS.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_gym.json"
     },
     {
       "id": "b2_pron_acc",

@@ -1,0 +1,609 @@
+{
+ "id": "b2_adj_gym",
+ "title": "Siłownia · dobry",
+ "title_en": "Adjective gym · every case, one adjective",
+ "level": "B2",
+ "tree_node": "b2_adj_gym",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 2, unit 6 of 6 (spine O2) — the gym that closes the adjective block. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym line): ZERO new material, teaches_structures and teaches_lemmas both EMPTY. Every form used was taught by b2_adj_acc, b2_adj_gen, b2_adj_loc, b2_adj_inst or b2_adj_dat, or earlier.\n\nWHAT THE GYM ADDS THAT NO SINGLE UNIT COULD: the block taught the adjective one case at a time, so the learner has never seen the collisions. Slide 2 is the whole point — dobrej does THREE jobs (Genitive, Locative, Dative, all feminine), dobrym does TWO (Locative and Instrumental, m/n), dobrą does TWO (Accusative and Instrumental, feminine), dobrego does TWO (Genitive, and the object form of a masculine animate). The honest line the slide lands: the ending alone does not name the job — the verb or preposition in front of it does.\n\nKONTROLA ITEMS 6 AND 7 ARE DELIBERATELY THE SAME FOUR CHOICES (nowego / nowym / nowemu / nowy) under two different sentences — Idę do ___ sklepu versus Mieszkam w ___ domu. This is intentional, not an oversight: it is the cleanest possible demonstration that the sentence decides, because nothing else about the two items differs. Same idiom as b1_case_gym's paired ci/te items.\n\nALL 12 QUIZ ANSWERS ARE DISTINCT, which is a real constraint for a gym whose subject is one form doing several jobs — solved by varying the adjective rather than the job (dobrej, zimną, nowej, małej, dobrego, nowego, nowym, dobrym, dobremu, małym, małego, dobrą).\n\nZIMNY EVENED UP, partially and honestly. B2-DIGEST batch 3 flagged that zimny quietly dropped out of the block after b2_adj_loc, so Dad finished it having met dobry in six forms and zimny in four. This gym puts zimną (Accusative, quiz 2), zimnej (Genitive and Locative, use 8) and zimnym (Locative, use 10) back in real slots. It does NOT reach zimnemu — that form is not taught anywhere in the course (b2_adj_dat fenced it deliberately), so the Dative of zimny stays out, distractors included.\n\nHOMOGRAPH / TAUGHT-AS CHECKS PERFORMED ON EVERY RECYCLED FORM:\n- kawy is used only as a GENITIVE singular, which is what a1_gen_endings taught it as. AGENTS.md's own table names kawy as a trap in the other direction (nominative plural); that reading appears nowhere here.\n- nowego reports TAUGHT from a2_smalltalk, but only frozen inside nic nowego. b2_adj_gen re-taught it explicitly as a real Genitive one block ago, and that is the only sense used here.\n- mamie and siostrze are Datives here, which is what b1_dative_sg taught them as; b2_fem_soft's point was that for feminine nouns the Dative and Locative are the same form, so no form is shown as a different word than it was learned as.\n- brata / psa are masculine animates, AGENTS.md's named honest exception: the Accusative really is identical to the Genitive. Slide 1 names it in its own row rather than letting it slip past.\n- mamy is not used anywhere, in any slot: AGENTS.md records it as the verb we have (a1_miec), not a form of mama.\n\nFENCED, held from the whole block:\n- nowe and duże appear NOWHERE, not even as distractors — a2_plural_nom taught both as PLURALS. This is b2_adj_acc's standing line, now held for six units running.\n- zimne is NEW (verified again at build time) and appears nowhere.\n- No plural oblique adjectives (dobrych, dobrymi, dobrym-pl) anywhere, distractors included — spine O3 sends those to C1.\n- No oblique PRONOUNS (go, ją, cię, nim, niej) — b2_pron_acc and b2_pron_prep are the very next two units and own those. Note the auditor cannot see this fence at all: person pronouns sit in audit.py's GLUE_LEMMAS, so it is author discipline only.\n- dużego, starego, gorącego and every other oblique form of an adjective outside the block's four are NEW and appear nowhere; duży, stary, gorący and ładny survive in the course only in the Nominative and the Accusative feminine, which is why the gym runs on dobry, nowy, mały and zimny.\n\nDISTRACTORS are real taught Polish in the wrong slot throughout — every wrong choice is another case of the same adjective, so each explain can name which job the learner picked by mistake. Nothing fabricated.\n\nBare governed prepositions (w, na, do, z, o) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride the structure tags prep_w_loc, prep_place, prep_do_gen, inst_z and o_loc, all of which are in uses_structures.",
+ "focus_structures": [
+  "adj_acc",
+  "adj_gen",
+  "adj_loc",
+  "adj_inst",
+  "adj_dat"
+ ],
+ "teaches_structures": [],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "adj_acc",
+  "adj_gen",
+  "adj_loc",
+  "adj_inst",
+  "adj_dat",
+  "zgoda",
+  "to_jest",
+  "miec_acc",
+  "miec_present",
+  "negation",
+  "existential_jest",
+  "gen_endings",
+  "prep_do_gen",
+  "prep_w_loc",
+  "prep_place",
+  "o_loc",
+  "inst_identity",
+  "inst_z",
+  "inst_transport",
+  "dative_sg",
+  "byc_present",
+  "present",
+  "present_am",
+  "present_e_esz",
+  "present_uje",
+  "poss_nom",
+  "motion_chunk",
+  "jechac",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "Seven jobs, one adjective",
+   "title_pl": "dobry · mianownik · biernik · dopełniacz · miejscownik · narzędnik · celownik",
+   "body": "Nothing new below. Every form is one you have already been taught in the last five units — this is only about choosing the right one quickly, now that all the jobs are mixed together instead of arriving one at a time.\n\nRead the Cue column first. The word in front of the adjective is what names the job, and it is always a word you already know.",
+   "body_pl": "Nic nowego · dobra kawa · dobrą kawę · dobrej kawy · w dobrej firmie · dobrej mamie · dobrym nauczycielem",
+   "table": {
+    "headers": [
+     "Job",
+     "Case",
+     "Cue",
+     "Example"
+    ],
+    "rows": [
+     [
+      "naming it",
+      "Nominative · mianownik",
+      "to jest…",
+      "To jest dobra kawa."
+     ],
+     [
+      "the object",
+      "Accusative · biernik",
+      "mam · piję",
+      "Piję dobrą kawę."
+     ],
+     [
+      "the object, a man or an animal",
+      "Accusative = Genitive",
+      "mam",
+      "Mam dobrego brata."
+     ],
+     [
+      "the 'of'-form",
+      "Genitive · dopełniacz",
+      "nie mam · do · dużo",
+      "Nie mam dobrej kawy."
+     ],
+     [
+      "where, or what about",
+      "Locative · miejscownik",
+      "w · na · o",
+      "Mieszkam w nowym domu."
+     ],
+     [
+      "who you are, who with, how you travel",
+      "Instrumental · narzędnik",
+      "jestem · z",
+      "Jestem dobrym nauczycielem."
+     ],
+     [
+      "who gets it",
+      "Dative · celownik",
+      "pomagam · dziękuję · daję",
+      "Pomagam dobremu studentowi."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "One form, several jobs",
+   "title_pl": "dobrej · dobrym · dobrą · dobrego",
+   "body": "Six cases, but not six different endings. Four of the forms you have learned do more than one job each, and which job it is never shows on the adjective — it shows on the verb or the preposition in front of it.\n\nThis is good news, not bad. It means there is less to remember than the six cases suggest. Read the table as: this shape is safe in all of these places.",
+   "body_pl": "dobrej ×3 · dobrym ×2 · dobrą ×2 · dobrego ×2",
+   "table": {
+    "headers": [
+     "Form",
+     "Gender",
+     "Jobs it does",
+     "Examples"
+    ],
+    "rows": [
+     [
+      "dobrej",
+      "feminine",
+      "Genitive, Locative, Dative — three jobs",
+      "Nie mam dobrej kawy. · w dobrej firmie · Dziękuję dobrej mamie."
+     ],
+     [
+      "dobrym",
+      "masculine, neuter",
+      "Locative and Instrumental",
+      "w dobrym hotelu · Jestem dobrym nauczycielem."
+     ],
+     [
+      "dobrą",
+      "feminine",
+      "Accusative and Instrumental",
+      "Piję dobrą kawę. · z dobrą siostrą"
+     ],
+     [
+      "dobrego",
+      "masculine, neuter",
+      "Genitive, and the object form of a man or an animal",
+      "dużo dobrego piwa · Mam dobrego brata."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I work in a good firm.",
+     "pl": "Pracuję w dobrej firmie."
+    },
+    {
+     "en": "I am going with a good sister.",
+     "pl": "Idę z dobrą siostrą."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "naming it · good coffee",
+   "pl": "dobra kawa"
+  },
+  {
+   "en": "you drink it · good coffee",
+   "pl": "dobrą kawę"
+  },
+  {
+   "en": "you don't have it · good coffee",
+   "pl": "dobrej kawy"
+  },
+  {
+   "en": "you work there · good firm",
+   "pl": "w dobrej firmie"
+  },
+  {
+   "en": "you thank her · good mum",
+   "pl": "dobrej mamie"
+  },
+  {
+   "en": "you go with her · little sister",
+   "pl": "z małą siostrą"
+  },
+  {
+   "en": "you have him · good brother",
+   "pl": "dobrego brata"
+  },
+  {
+   "en": "you're heading there · new shop",
+   "pl": "do nowego sklepu"
+  },
+  {
+   "en": "you live there · new house",
+   "pl": "w nowym domu"
+  },
+  {
+   "en": "you are one · good teacher",
+   "pl": "dobrym nauczycielem"
+  },
+  {
+   "en": "you help him · good student",
+   "pl": "dobremu studentowi"
+  },
+  {
+   "en": "you drink it · good beer",
+   "pl": "dobre piwo"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Nie mam ___ kawy. (good)",
+   "choices": [
+    "dobrej",
+    "dobrą",
+    "dobra",
+    "dobremu"
+   ],
+   "answer": "dobrej",
+   "explain": "nie mam takes the Genitive, and for a feminine word that is dobrej. dobrą would be the object form after a positive mam, dobra the plain naming form."
+  },
+  {
+   "prompt": "Piję ___ wodę. (cold)",
+   "choices": [
+    "zimną",
+    "zimnej",
+    "zimna",
+    "zimnym"
+   ],
+   "answer": "zimną",
+   "explain": "piję takes an object, so both words move: zimną wodę. zimnej is the Genitive you would need after nie mam."
+  },
+  {
+   "prompt": "Pracuję w ___ firmie. (new)",
+   "choices": [
+    "nowej",
+    "nową",
+    "nowym",
+    "nowa"
+   ],
+   "answer": "nowej",
+   "explain": "w answers where, so it is the Locative — and for a feminine word the Locative adjective is nowej, the same shape as the Genitive. nowym is the masculine Locative."
+  },
+  {
+   "prompt": "Pomagam ___ siostrze. (small)",
+   "choices": [
+    "małej",
+    "małą",
+    "małemu",
+    "mała"
+   ],
+   "answer": "małej",
+   "explain": "pomagać takes the Dative, and siostra is feminine — so małej, the same shape again. małemu is the masculine Dative you would use before bratu."
+  },
+  {
+   "prompt": "Mam ___ brata. (good)",
+   "choices": [
+    "dobrego",
+    "dobrym",
+    "dobremu",
+    "dobry"
+   ],
+   "answer": "dobrego",
+   "explain": "brat is a man, and for men and animals the object form is the same as the Genitive — dobrego. dobry would be right only if the brother were the one doing something."
+  },
+  {
+   "prompt": "Idę do ___ sklepu. (new)",
+   "choices": [
+    "nowego",
+    "nowym",
+    "nowemu",
+    "nowy"
+   ],
+   "answer": "nowego",
+   "explain": "do always takes the Genitive — nowego sklepu. The next question has these very same four choices and a different answer, because the sentence decides, not the word."
+  },
+  {
+   "prompt": "Mieszkam w ___ domu. (new)",
+   "choices": [
+    "nowego",
+    "nowym",
+    "nowemu",
+    "nowy"
+   ],
+   "answer": "nowym",
+   "explain": "Here w means where you are, so it is the Locative — nowym. Note that domu itself did not change between this sentence and the last one: only the adjective tells you which case it is."
+  },
+  {
+   "prompt": "Jestem ___ nauczycielem. (good)",
+   "choices": [
+    "dobrym",
+    "dobrego",
+    "dobremu",
+    "dobry"
+   ],
+   "answer": "dobrym",
+   "explain": "jestem + Instrumental for who you are — dobrym, which is the same shape you use after w. dobry is the plain form and would leave nauczycielem stranded."
+  },
+  {
+   "prompt": "Pomagam ___ studentowi. (good)",
+   "choices": [
+    "dobremu",
+    "dobrego",
+    "dobrym",
+    "dobry"
+   ],
+   "answer": "dobremu",
+   "explain": "-owi on the noun already told you this is the Dative, so the adjective takes -emu. dobrego is the Genitive, dobrym the Locative and Instrumental."
+  },
+  {
+   "prompt": "Jadę ___ samochodem. (small)",
+   "choices": [
+    "małym",
+    "małego",
+    "małemu",
+    "mały"
+   ],
+   "answer": "małym",
+   "explain": "How you travel is the Instrumental with no preposition at all — małym samochodem, the same adjective shape as w małym domu."
+  },
+  {
+   "prompt": "Mam ___ psa. (small)",
+   "choices": [
+    "małego",
+    "małym",
+    "małemu",
+    "mały"
+   ],
+   "answer": "małego",
+   "explain": "pies is an animal, so its object form is małego psa — the Genitive shape doing an object's job, exactly as with brata."
+  },
+  {
+   "prompt": "Idę z ___ siostrą. (good)",
+   "choices": [
+    "dobrą",
+    "dobrej",
+    "dobra",
+    "dobrym"
+   ],
+   "answer": "dobrą",
+   "explain": "z + Instrumental for who you are with, and for a feminine word that is dobrą — the very same shape you already use as an object in Piję dobrą kawę."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "good coffee (the object — piję…)",
+   "mode": "full_word",
+   "answer": "dobrą kawę",
+   "accepts": [
+    "dobrą kawę"
+   ]
+  },
+  {
+   "prompt_en": "good coffee (after nie mam)",
+   "mode": "full_word",
+   "answer": "dobrej kawy",
+   "accepts": [
+    "dobrej kawy"
+   ]
+  },
+  {
+   "prompt_en": "in the good firm",
+   "mode": "full_word",
+   "answer": "w dobrej firmie",
+   "accepts": [
+    "w dobrej firmie"
+   ]
+  },
+  {
+   "prompt_en": "to my good mum (dziękuję…)",
+   "mode": "full_word",
+   "answer": "dobrej mamie",
+   "accepts": [
+    "dobrej mamie"
+   ]
+  },
+  {
+   "prompt_en": "good brother (the object — mam…)",
+   "mode": "full_word",
+   "answer": "dobrego brata",
+   "accepts": [
+    "dobrego brata"
+   ]
+  },
+  {
+   "prompt_en": "to the new shop (idę…)",
+   "mode": "full_word",
+   "answer": "do nowego sklepu",
+   "accepts": [
+    "do nowego sklepu"
+   ]
+  },
+  {
+   "prompt_en": "in the new house",
+   "mode": "full_word",
+   "answer": "w nowym domu",
+   "accepts": [
+    "w nowym domu"
+   ]
+  },
+  {
+   "prompt_en": "a good teacher (identity — jestem…)",
+   "mode": "full_word",
+   "answer": "dobrym nauczycielem",
+   "accepts": [
+    "dobrym nauczycielem"
+   ]
+  },
+  {
+   "prompt_en": "to the good student (pomagam…)",
+   "mode": "full_word",
+   "answer": "dobremu studentowi",
+   "accepts": [
+    "dobremu studentowi"
+   ]
+  },
+  {
+   "prompt_en": "with the little sister (idę z…)",
+   "mode": "full_word",
+   "answer": "z małą siostrą",
+   "accepts": [
+    "z małą siostrą"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: My brother lives in a new house.",
+   "answer": "Mój brat mieszka w nowym domu.",
+   "accepts": [
+    "Mój brat mieszka w nowym domu.",
+    "Mój brat mieszka w nowym domu"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad drinks good coffee, and mum drinks cold water.",
+   "answer": "Tata pije dobrą kawę, a mama pije zimną wodę.",
+   "accepts": [
+    "Tata pije dobrą kawę, a mama pije zimną wodę.",
+    "Tata pije dobrą kawę, a mama pije zimną wodę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I don't have good coffee, but I have good tea.",
+   "answer": "Nie mam dobrej kawy, ale mam dobrą herbatę.",
+   "accepts": [
+    "Nie mam dobrej kawy, ale mam dobrą herbatę.",
+    "Nie mam dobrej kawy, ale mam dobrą herbatę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is helping the new teacher.",
+   "answer": "Mama pomaga nowemu nauczycielowi.",
+   "accepts": [
+    "Mama pomaga nowemu nauczycielowi.",
+    "Mama pomaga nowemu nauczycielowi"
+   ]
+  },
+  {
+   "prompt_en": "Type: I am a good teacher, and my sister is a good doctor.",
+   "answer": "Jestem dobrym nauczycielem, a moja siostra jest dobrą lekarką.",
+   "accepts": [
+    "Jestem dobrym nauczycielem, a moja siostra jest dobrą lekarką.",
+    "Jestem dobrym nauczycielem, a moja siostra jest dobrą lekarką"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is going to the new shop with my little brother.",
+   "answer": "Tata idzie do nowego sklepu z małym bratem.",
+   "accepts": [
+    "Tata idzie do nowego sklepu z małym bratem.",
+    "Tata idzie do nowego sklepu z małym bratem"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have a good brother and a small dog.",
+   "answer": "Mam dobrego brata i małego psa.",
+   "accepts": [
+    "Mam dobrego brata i małego psa.",
+    "Mam dobrego brata i małego psa"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum works in a good firm, but today she is in the cold kitchen.",
+   "answer": "Mama pracuje w dobrej firmie, ale dzisiaj jest w zimnej kuchni.",
+   "accepts": [
+    "Mama pracuje w dobrej firmie, ale dzisiaj jest w zimnej kuchni.",
+    "Mama pracuje w dobrej firmie, ale dzisiaj jest w zimnej kuchni"
+   ]
+  },
+  {
+   "prompt_en": "Type: I go to work by the new car.",
+   "answer": "Jadę do pracy nowym samochodem.",
+   "accepts": [
+    "Jadę do pracy nowym samochodem.",
+    "Jadę do pracy nowym samochodem"
+   ]
+  },
+  {
+   "prompt_en": "Type: The key is on the new desk in the cold living room.",
+   "answer": "Klucz jest na nowym biurku w zimnym salonie.",
+   "accepts": [
+    "Klucz jest na nowym biurku w zimnym salonie.",
+    "Klucz jest na nowym biurku w zimnym salonie"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "to",
+  "jest",
+  "dobra",
+  "kawa",
+  "piję",
+  "dobrą",
+  "kawę",
+  "mam",
+  "dobrego",
+  "brata",
+  "nie",
+  "nie mam",
+  "nie ma",
+  "dobrej",
+  "kawy",
+  "dużo",
+  "mieszkam",
+  "nowym",
+  "domu",
+  "jestem",
+  "dobrym",
+  "nauczycielem",
+  "pomagam",
+  "dobremu",
+  "studentowi",
+  "dziękuję",
+  "daję",
+  "firmie",
+  "mamie",
+  "hotelu",
+  "siostrą",
+  "piwa",
+  "dobre",
+  "piwo",
+  "pracuję",
+  "idę",
+  "małą",
+  "nowego",
+  "sklepu",
+  "zimną",
+  "wodę",
+  "zimnej",
+  "zimna",
+  "zimnym",
+  "nowej",
+  "nową",
+  "nowa",
+  "małej",
+  "siostrze",
+  "małemu",
+  "mała",
+  "dobry",
+  "nowemu",
+  "nowy",
+  "małym",
+  "samochodem",
+  "jadę",
+  "małego",
+  "psa",
+  "mały",
+  "mój",
+  "brat",
+  "mieszka",
+  "tata",
+  "pije",
+  "mama",
+  "a",
+  "ale",
+  "i",
+  "herbatę",
+  "pomaga",
+  "nauczycielowi",
+  "moja",
+  "siostra",
+  "lekarką",
+  "idzie",
+  "bratem",
+  "pracuje",
+  "dzisiaj",
+  "kuchni",
+  "pracy",
+  "klucz",
+  "biurku",
+  "salonie"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_adj_gym",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}
