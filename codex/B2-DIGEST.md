@@ -422,7 +422,7 @@ scanned token by token against the position-aware pool plus each pack's own
 
 ---
 
-## Batch 3 — Block 2, units 4–6 of 7 (the adjective block's oblique cases close)
+## Batch 3 — Block 2, units 3–5 of 6 (the adjective block's oblique cases close)
 
 Built `b2_adj_loc`, `b2_adj_inst`, `b2_adj_dat` — the Locative, Instrumental and
 Dative of the attributive adjective. Each audit-clean (0 errors; the same 2
