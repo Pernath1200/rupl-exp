@@ -3233,3 +3233,152 @@ node: **`b2_powinien`** (path 171), then Block 7 (`b2_verbal_nouns`, `b2_partici
 `b2_wrapup`) — **eight teaching nodes left in B2.** `b2_station_1` / `b2_station_2` stay
 `planned` forever; `a2_past_gym` stays retired. The Pisanie repair queue is empty, so the
 next run's step 0 is a no-op and it can build straight away.
+
+## Batch 16 — `b2_powinien`, `b2_verbal_nouns`, `b2_participle_pass`
+
+The repair queue was empty at step 0 (all 19 packs ticked, 104 items converted),
+so this was a clean three-unit build run: the last unit of Block 6 and the first
+two of Block 7. Three new structure IDs registered in `SEQUENCING.md` **and**
+`audit.py`'s `STRUCTURE_CATALOGUE` before each audit: `powinien`,
+`verbal_nouns`, `participle_pass`. Audit-clean at every step (0 errors; the same
+two pre-existing `teaches_empty_grammar` warns on `a2_prep_review` and
+`b1_two_futures`), smoke passed, committed and pushed one unit at a time.
+
+### What each unit does
+
+**`b2_powinien` — Powinienem · musiałem.** Pays two `a2_musiec` fences by name:
+the past of *musieć*, and the gender that unit deliberately removed. The two
+halves are one theme — *powinienem/powinnam* is a PRESENT-tense form carrying
+gender, which is the genuinely unusual fact and the only helper in the course
+that does it; *musiałem/musiałam* is an ordinary past; and *trzeba było* /
+*można było* pick up nothing at all, which is the contrast the last slide makes
+into a table. Fourteen new forms, **zero new endings**: the markers on *powinien*
+are the past-tense set owned since `a2_past_byc` (-em / -ś / zero, said out loud
+against *byłem/byłeś/był*), and *musieć*'s past is `past_ac`'s shape.
+
+**`b2_verbal_nouns` — Czytanie, pisanie, gotowanie.** The best-anchored unit in
+B2 and possibly the course: `check_new.py` reports **nineteen** of these already
+taught as ordinary nouns between path 3 and path 143. Six new words, and a
+re-reading of a pile the learner has owned for a hundred nodes.
+
+**`b2_participle_pass` — Otwarty, zamknięty, zrobiony.** Deliberately built as
+the same shape as the unit before it, which is the point: `b2_verbal_nouns` gave
+a rule for the -ać class and whole words for the -ić class, and the participle
+splits on exactly the same line (*napisa-ny* by rule; *zrobiony*, *zapłacony* as
+words, because b→bi and ć→c are two different changes with nothing in the
+infinitive to predict them). One split, learned twice, two nodes apart.
+
+### Judgment calls
+
+1. **The spine's list was corrected for the fifth time in B2.** `b2_verbal_nouns`
+   was briefed to produce *sprzątanie*; `check_new.py` shows **`sprzątać` itself
+   is NEW** — `b2_aspect_prefixes` had already dropped the *sprzątać/posprzątać*
+   pair for being the only one in its set costing two verbs. A verbal noun built
+   on an untaught verb is the two-new-halves frame the anchor rule forbids, so it
+   was dropped and *czekanie*, *granie*, *kupowanie* replace it.
+2. **The e→a shift stays unexplained, on purpose.** *musieć* builds its past on
+   *musia-* exactly as *chcieć* builds *chciałem* — and `SEQUENCING`'s own
+   `past_rest` entry records that shift as "deliberately unexplained", while
+   B2-SPINE's leaves-to-C1 item 17 still books it. Slide 4 points at *chciałem*
+   as a precedent for learning the forms WHOLE and says in terms that there is
+   more to say and it is not said here. No rule is stated anywhere.
+3. **The past of *móc* is absent, and the unit says so.** The spine calls
+   `b2_powinien` "the past of the modals"; it delivers the past of two of the
+   three. *mogłem/mogła* is held out under `b1_polite`'s unresolved MÓGŁBY
+   QUARANTINE, and *móc* is verified NEW even as an infinitive — so the third
+   modal simply has no past in this course. Slide 6 names the resulting gap
+   ("I should have worked" is not expressible) rather than letting the learner
+   discover it by failing.
+4. **Negation stays fenced, inheriting `a2_musiec`'s open fork unchanged.**
+   *nie powinienem* carries no trap of its own — it means straightforwardly
+   "I should not" — but putting a negated modal on screen invites the
+   generalisation to *nie muszę* / *nie można*, which is the fork James still
+   owns. No item in the pack is negated and nothing implies a negative exists.
+5. **Perfective complements after a modal are now allowed**, and this is the one
+   place `b2_powinien` deliberately goes beyond `a2_musiec`. That pack fenced
+   *kupić/ugotować/zapłacić* because aspect was untaught; `aspect_past` and
+   `aspect_prefixes` have since taught every twin used here.
+6. **Genitive objects after a verbal noun are a real scope cut**, stated in the
+   pack rather than quietly avoided. *gotowanie obiadu*, *słuchanie muzyki* — the
+   construction these nouns most naturally live in — appear nowhere, because it is
+   a case-government system of its own and load-splitting forbids stacking it on a
+   new derivation. Every verbal noun in the pack stands bare, as a subject or as
+   *lubić*'s object. Consequence: the unit teaches the words, not yet the phrases.
+7. **`b2_participle_pass` fences the plural for a homograph reason, not a scope
+   one.** *zrobione* is the neuter singular there and nothing else; it is also the
+   non-virile plural, and *zrobieni* is the virile one. A form that means two
+   things is exactly what the AGENTS homograph rule says to keep out until it can
+   be named, so the whole plural is absent — not on a slide, not as a distractor.
+8. **The two Block 7 units were load-split against each other explicitly.**
+   `b2_participle_pass` is the FORM and its agreement, and every sentence in it is
+   *X jest <participle>* in the present. `b2_passive`, next, is the CONSTRUCTION —
+   *był* / *będzie*, and the passive named as such. The participle pack's last
+   slide tells the learner where that edge is rather than leaving him to guess.
+9. **Adjective poverty visibly shaped `b2_verbal_nouns`' Użycie stage**, and it is
+   worth recording because it will bite again. The natural predicate adjectives
+   for an activity — *trudne, łatwe, ciekawe, zdrowe, nudne, ważne* — are **all**
+   verified NEW, and *trudny* is untaught in every form. Only
+   *dobre/małe/nowe/duże/złe/smaczne* exist as neuter strings. Rather than teach
+   six adjectives inside a derivation unit, Użycie was rebuilt on the *lubić*
+   frame (*Mama lubi gotowanie*).
+10. **Taught-AS catches that killed real sentences.** *do mamy* is NOT owned —
+    `a1_gen_endings` gives *do matki*, and **mamy is owned as the verb "we have"**,
+    the first row of the AGENTS homograph table — so every calling sentence in
+    `b2_powinien` uses *do matki* or *do biura*. *do lekarza*, *w sobotę* and *tę*
+    are all verified NEW and each killed an otherwise natural sentence.
+    In `b2_participle_pass`, a draft slide read *ugotować → ugotowanie →
+    ugotowany*: **`ugotowanie` is not taught** — the unit one node earlier
+    explicitly fenced perfective verbal nouns — so the slide was rebuilt to show
+    the parallel through the owned *czytać → czytanie* instead. *prosić →
+    proszony* was cut from the same slide for the same reason.
+11. **Distractor discipline.** No fabricated non-words anywhere. The obvious quiz
+    shape for a derivation unit (*mówienie / mówianie / mówenie*) is banned by
+    AGENTS, so every derivation item offers four REAL verbal nouns and asks which
+    verb this one came from. Choices were then rebuilt around the pool: *biega,
+    pływa, pływam, czekam* and *pisze* are all verified NEW, their packs having
+    taught other persons. Two items where the infinitive would have been a
+    **legal** rival (*Mama lubi gotować*, *Tata lubi grać*) had that choice
+    removed rather than marked wrong.
+12. **Match boards.** `b2_powinien` and `b2_participle_pass` both teach more forms
+    than a twelve-row board holds (14 and 16), so both follow the
+    `b2_jezdzic`/`b2_pisac_family` precedent: the intro tables carry every form,
+    the board carries the highest-value twelve, and the remainder are produced in
+    Pisanie. `b2_verbal_nouns`' board is the exception and is the unit's argument
+    rather than a list — six new nouns against six owned ones, four pure
+    activities and two of the hardened kind (*spotkanie*, *mieszkanie*).
+
+### Smoke-check shortlist for James
+
+1. **Still open and still yours:** the accent folds. 161 items across 18 packs
+   carry an `accepts` entry that is the deaccented form of their own answer,
+   silently suppressing the „z ogonkami" correction on exactly the words where
+   seeing the ogonki matters. Untouched again this run — it changes grading across
+   packs outside the repair queue. Full list in `REPAIR-QUEUE.md`.
+2. **`b2_powinien` is fourteen forms in one unit**, two paradigms plus two
+   phrases. The claim is that it costs one new word, because every ending is
+   already owned. Worth checking whether it *feels* like one word in the hand —
+   this is the same question `b2_pisac_family` raised at twenty forms.
+3. **The gender reversal is the unit's whole argument** and it depends on Dad
+   remembering `a2_musiec`'s "nothing here has a gender" slide from path 77. If
+   that has faded, slide 1 lands as a bare fact rather than as a surprise.
+4. **`b2_verbal_nouns` slide 5 (the hardened meanings)** tells him to say
+   *mieszkanie* for a flat and not for the act of living. That is the right
+   ruling, but it is also the one place the unit tells him NOT to apply the
+   pattern it just taught, one slide after teaching it.
+5. **Three units in a row now use the -ać / -ić split** (`verbal_nouns`,
+   `participle_pass`, and `powinien` glancingly). If that reads as repetitive
+   rather than as reinforcement, the participle pack's slide 2 is the place to cut.
+
+### Where the path stands
+
+Live through `b2_participle_pass` (path index 173, **167 live nodes**). Audit 167
+nodes, **0 errors**, 2 warns (both pre-existing). Smoke passed. **Block 6 is
+complete and Block 7 is two-thirds built.** Next unbuilt non-station B2 node:
+**`b2_passive`** (path 174), then Block 8 — `b2_travel_func`,
+`b2_discussion_func`, `b2_case_gym`, `b2_wrapup` — **five teaching nodes left in
+B2.** `b2_station_1` / `b2_station_2` stay `planned` forever; `a2_past_gym` stays
+retired. The Pisanie repair queue is empty, so the next run's step 0 is a no-op
+again and it can build straight away. After `b2_wrapup` the level is done and the
+next run scopes **C1** (`codex/C1-SPINE.md`), which must sweep both digests and
+every pack note for phrase-level IOUs and must include the secondary-imperfective
+rule-naming unit (B2-SPINE leaves-to-C1 item 7).
