@@ -3382,3 +3382,187 @@ again and it can build straight away. After `b2_wrapup` the level is done and th
 next run scopes **C1** (`codex/C1-SPINE.md`), which must sweep both digests and
 every pack note for phrase-level IOUs and must include the secondary-imperfective
 rule-naming unit (B2-SPINE leaves-to-C1 item 7).
+
+---
+
+## Batch 17 — Block 7 CLOSES (`b2_passive`) and Block 8 opens (`b2_travel_func`, `b2_discussion_func`)
+
+Cloud routine, 2026-08-06. Step 0 was a no-op: `codex/REPAIR-QUEUE.md` is fully
+ticked — 19 packs, 104 items, all closed by the sixth repair run — so this run
+built straight away. Three units, one per commit, audit re-run and clean before
+each. Path: **170 live nodes, 0 errors, 2 warns** (the same pre-existing
+empty-teaches review nodes `a2_prep_review` and `b1_two_futures`).
+
+One environment note for whoever runs next: this container has **no `py`
+launcher**. Every command in AGENTS.md and the spines is written `py -X utf8`
+(Windows); here it must be `python3 -X utf8`. Nothing else differed.
+
+### What each unit does
+
+**`b2_passive` (path 174)** — Block 7 unit 3, spine O5, and the unit that closes
+Block 7. It is the CONSTRUCTION half of a load split `b2_participle_pass`
+declared in its own note one node earlier: that unit was the FORM and its
+agreement, every sentence being *X jest <participle>* in the present; this one
+adds *był/była/było* and *będzie*, and names the passive. Zero new lemmas —
+`teaches_lemmas` is legitimately empty on the `adj_gen` / `copular_future` /
+`ze_clauses` / `indirect_q` convention. The real content is **double agreement**:
+in the past both words carry the gender and must carry the same one, and the
+predictable error — moving the tense and leaving the participle behind — is named
+in terms. The **future is the asymmetry**, and it pays back `a2_bedzie`'s gift:
+*będzie* has no gender, and the participle after it agrees anyway, so in the past
+both words move and in the future only the second one does. Slide 4 turns it
+around — hold the noun still (*obiad*) and only the copula carries the time.
+
+**`b2_travel_func` (path 175)** — Block 8 unit 1, spine O12. Situations unit,
+chunk lane, genre of `a2_directions_func` / `b1_polite`. O12's evidence was
+re-verified rather than trusted and held exactly: *peron, dworzec, bagaż,
+rozkład, rezerwacja, przesiadka, opóźnienie, walizka, lotnisko, odjazd,
+przyjazd, pociąg, lot* are all already taught and are recycled, never re-taught.
+Only *nocleg, odlot, przylot, wsiadać, wysiadać, potwierdzić, ważny, doba* came
+back NEW, plus *opóźniony/odwołany*.
+
+**`b2_discussion_func` (path 176)** — Block 8 unit 2. Six new words organised by
+**job** rather than as a vocabulary list: state a view (*uważam, że* / *według
+mnie*) · hedge (*chyba, raczej*) · agree sharply (*właśnie*) · refuse to commit
+(*to zależy*). The learner already owned both ends of a discussion; this is the
+middle.
+
+### Judgment calls
+
+1. **The loudest call in the batch: `wydaje mi się` was DROPPED from
+   `b2_discussion_func`, against the spine's own candidate list.** `check_new.py`
+   reports **`wydaje` as already TAUGHT — by `b2_verb_family2` at path 170, five
+   nodes back**, where it is the third person of *wydawać*, **to spend money**.
+   *mi* and *się* are owned too, so the whole phrase would have been assembled
+   from three strings the learner owns, every one of them meaning something else,
+   and the collision sits at the worst possible distance — recent enough to be
+   live in his memory. This is the AGENTS homograph trap in textbook form and the
+   auditor cannot see it. Dropped on the conservative-fork rule. **If James wants
+   the phrase, it needs its own moment naming the collision out loud** — the
+   *dziękuję* / *której* chunk-to-slot treatment — not a line in a chunk board.
+   `chyba` was brought in to fill the hedging hole it leaves, logged as a
+   substitution rather than a silent addition.
+2. **A near-pair the spine did not predict, and it became the sharpest thing in
+   `b2_travel_func`.** Caught by reading `a2_transport2`'s `teaches_lemmas`
+   rather than by any tool: **`spóźniony` is already taught there.** English calls
+   both "late"; Polish does not — a PERSON is *spóźniony*, a SERVICE is
+   *opóźniony*. Slide 2 is that split, and it turns *opóźniony* from a merely new
+   word into a properly anchored one. The noun *opóźnienie* is owned too
+   (`leaf_city_a1`), so the derivation is visible on the page.
+3. **Case leaks that `check_new.py` killed in `b2_travel_func`, all verified
+   rather than assumed:** *pociągu, autobusu, peronie, lotnisku, bagażu, biletu,
+   noclegu* are **all NEW** — so *do pociągu*, *na peronie* and *na lotnisku*, the
+   three most natural sentences in the entire domain, cannot be built and appear
+   nowhere. That is why *wsiadać/wysiadać* are taught in the *proszę* +
+   infinitive frame only (the *proszę iść* precedent) rather than with a
+   complement. *dworcu* and *hotelu* ARE taught and are used.
+4. **Taught chunks are never decomposed, and this shaped `b2_discussion_func`'s
+   quiz more than anything else.** `b1_opinions` owns *mam rację* / *masz rację*
+   and *zgadzam się* WHOLE; *racja*, *rację* and *zgadzam* are all verified NEW as
+   bare forms. Several otherwise natural items (*Masz ___*, *Nie ___ się*) were
+   drafted and cut. Verified by script rather than by eye: every occurrence of
+   *rację / zgadzam / zgadzasz / pewno* in learner-facing text sits inside its
+   whole chunk.
+5. **`według` is taught in one frozen phrase only.** It governs the Genitive, and
+   *taty* and *lekarza* are both verified NEW, so *według taty* is unbuildable and
+   absent. *według mnie* works because *mnie* is genuinely syncretic for *ja* —
+   the same string in the Genitive and the Accusative — and that is named in one
+   line rather than left to slip past.
+6. **`uważam` is first person only**, on `b2_indirect_q`'s standing *wiem*
+   quarantine pattern. *uważasz* and *uważa* are absent. The consequence is stated
+   rather than hidden: Dad says what HE considers, and turns the question round
+   with material he already owns (*Dlaczego tak myślisz?*, *Zgadzasz się?*), which
+   is why both are on the board.
+7. **`ważny` carries a sense indicator and a named second meaning.** It is glossed
+   "valid (of a ticket or booking)" throughout. Its everyday sense *important* is
+   stated in one line and drilled nowhere — omitting it entirely would have set up
+   a misreading the first time he meets it.
+8. **`wysiadam` drafted and cut** (verified NEW): a conjugated form does not belong
+   in a chunk unit whose whole idiom is infinitives and frozen phrases, exactly as
+   `a2_directions_func` left *iść* unconjugated inside *proszę iść*. Consequence,
+   stated in the pack: Dad can obey the announcement and cannot yet narrate his own
+   alighting.
+9. **Three words deliberately not taken in `b2_discussion_func`:** *pewnie*,
+   *naprawdę*, *dokładnie* — all verified NEW and available. They are near-synonyms
+   of what is already there, and adding them would have flattened four contrasting
+   jobs into a pile of interchangeable adverbs. Logged for C1 rather than silently
+   skipped.
+10. **Pisanie counts are deliberate and vary: 12, 11, 8.** Twelve is the fixed size
+    of the MATCH board, not of the type stage (`b1_stories_func` ships three). In
+    `b2_travel_func` and `b2_discussion_func` a further item would have had to
+    repeat an answer already produced, and padding a stage by duplication is what
+    the no-duplicates rule forbids.
+11. **`b2_passive`'s Pisanie needed the repair-queue fallback clause, and it is
+    logged per item.** Every sentence in the unit is COMPOSED, so all twelve are
+    cloze. The copula — the teaching point — has exactly **five** distinct forms
+    available in the singular (*jest, był, była, było, będzie*), all five are
+    produced at items 0–4, and a sixth copula blank would have duplicated an
+    answer. The remaining seven blank the agreeing participle, which is the unit's
+    second fact and the half a learner drops.
+12. **Agreement is thin in `b2_travel_func` and that is the pool's doing, not a
+    shortcut:** *pociąg, autobus, lot* are all masculine, so *opóźniony* and
+    *odwołany* need no other form and none is taught. *opóźniona/opóźnione/
+    odwołana/odwołane* are verified NEW and appear nowhere, not even as
+    distractors. Only *ważny* takes a second form (*ważna*, for *rezerwacja*).
+13. **Titles corrected at wire-live time**, per `b1_wrapup`'s standing instruction.
+    `b2_passive`'s draft label named the PRESENT tense — which is the previous
+    unit's content — and became *Jest · był · będzie zamknięty*. Both Block 8 stubs
+    carried `label_en` beginning "Situations · ", which is builder jargon rather
+    than learner English; both were rewritten. Every title word re-verified TAUGHT
+    (or taught by its own pack, the `b2_participle_pass` convention).
+14. **No new structure IDs were invented for the two chunk units.** Every `*_func`
+    pack in the course uses `situation_chunk`, and these two follow it. Only
+    `passive` was added, registered in `SEQUENCING.md` **and** `audit.py` before
+    the audit ran.
+15. **One audit error was caught and fixed before commit**, worth recording because
+    it is a repeatable trap: `b2_travel_func` tagged *ile kosztuje* as a lemma. The
+    course teaches *ile kosztuje kawa*, *ile kosztuje książka* and *ile to
+    kosztuje* — never the bare two-word chunk. Re-tagged as its two owned words.
+
+### Smoke-check shortlist for James
+
+1. **`wydaje mi się` is the one that needs your ruling** (judgment call 1). It is a
+   genuinely useful hedge and it is currently absent from the course because
+   *wydaje* means "spends" five nodes earlier. Either it stays out, or it gets a
+   slide that names the collision.
+2. **Still open and still yours: the accent folds.** 161 items across 18 packs carry
+   an `accepts` entry that is the deaccented form of their own answer, silently
+   suppressing the „z ogonkami" correction on exactly the words where the ogonki
+   matter. Untouched again this run. Full list in `REPAIR-QUEUE.md`.
+3. **`b2_passive` claims to cost nothing** — zero new words, two owned pieces
+   allowed to combine. Worth checking whether it *feels* free in the hand, or
+   whether double agreement plus the future asymmetry is two facts rather than one.
+4. **The `spóźniony` / `opóźniony` split** (judgment call 2) is the most useful
+   thing in `b2_travel_func` and also the easiest to forget. It may deserve a
+   station-bank slot later.
+5. **`b2_discussion_func` leans hard on recombination** — three of its twelve match
+   rows are pure recycled anchors from `b1_opinions`. That is deliberate for a
+   capstone-adjacent chunk unit, but if the board reads as padded rather than as
+   consolidation, those three rows are where to cut.
+6. **`według mnie` versus `moim zdaniem`** are true synonyms and the unit now ships
+   both. No item asks him to choose between them, but he may ask why he has two.
+
+### Where the path stands
+
+Live through `b2_discussion_func` (path index 176, **170 live nodes**). Audit 170
+nodes, **0 errors**, 2 warns (both pre-existing). **Block 7 is complete and Block 8
+is half built.** Next unbuilt non-station B2 node: **`b2_case_gym`** (path 177),
+then **`b2_wrapup`** (path 178) — **two teaching nodes left in B2.**
+
+A standing warning for whoever takes `b2_case_gym`: it is a **gym**, and AGENTS'
+gyms rule (James, 2026-08-06, after retiring `a2_past_gym`) is binding — a gym
+earns its path slot ONLY when it drills endings that are genuinely hard at that
+stage. The B2 spine planned it before that rule existed. It is already spine-level
+planned, which the rule allows, but the pack should justify itself against the rule
+in its own note rather than assume the slot, and the spine's own line ("this board
+will be dense — split across two intro slides rather than compressing, and log the
+call") still stands.
+
+`b2_station_1` / `b2_station_2` stay `planned` forever; `a2_past_gym` stays retired.
+The Pisanie repair queue is empty, so the next run's step 0 is a no-op again. After
+`b2_wrapup` the level is done and the following run scopes **C1**
+(`codex/C1-SPINE.md`), which must sweep both digests and every pack note for
+phrase-level IOUs, must include the secondary-imperfective rule-naming unit
+(B2-SPINE leaves-to-C1 item 7), and now also inherits from this batch: the
+`wydaje mi się` collision (1), *pewnie / naprawdę / dokładnie* (9), the rest of
+*według*'s Genitive complements (5), and the other persons of *uważać* (6).
