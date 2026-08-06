@@ -3602,18 +3602,19 @@
     {
       "id": "b2_case_gym",
       "domain": "grammar",
-      "label": "Siłownia · wszystko 2",
-      "label_en": "All-cases gym · B2",
+      "label": "Siłownia · kogo, komu, o kim",
+      "label_en": "Case gym · one word in English, three in Polish",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 8, unit 3. Gym idiom: ZERO new material, teaches_* empty. Extends b1_case_gym's eleven jobs with everything B2 added - adjective agreement in five cases, oblique pronouns, the three plural obliques. This board will be dense: split it across two intro slides rather than compressing, and log the call (b1_case_gym's own digest entry already flagged its eleven-job table as borderline for a review unit).",
+      "note": "[B2 SPINE] Block 8, unit 3. Gym idiom: ZERO new material, teaches_* empty. Extends b1_case_gym's eleven jobs with everything B2 added - adjective agreement in five cases, oblique pronouns, the three plural obliques. This board will be dense: split it across two intro slides rather than compressing, and log the call (b1_case_gym's own digest entry already flagged its eleven-job table as borderline for a review unit). [WIRED LIVE] Title corrected per b1_wrapup's standing instruction: the stub read 'Silownia · wszystko 2' - a raw builder numeral bolted onto a Polish word, not Polish - and label_en carried the raw level code B2. Every word of the new title re-verified TAUGHT (silownia, kogo, komu, kim). SPINE BRIEF NARROWED, logged in full in the pack note: adjective cases and the plural obliques already have their own gyms (b2_adj_gym path 139, b2_plural_gym path 158), BOTH BUILT AFTER THIS STUB WAS WRITTEN, so re-drilling them here would be the repetition of comfortable material AGENTS' gyms rule forbids after a2_past_gym was retired. What B2 added and never gymmed is the PRONOUN and QUESTION-WORD system, and that is the cliff: English collapses go / mu / nim into one word, him.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_case_gym.json"
     },
     {
       "id": "b2_wrapup",

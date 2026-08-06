@@ -1,0 +1,687 @@
+{
+  "id": "b2_case_gym",
+  "title": "Siłownia · kogo, komu, o kim",
+  "title_en": "Case gym · one word in English, three in Polish",
+  "level": "B2",
+  "tree_node": "b2_case_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 8, unit 3. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym / b2_adj_gym / b2_plural_gym line): ZERO new material, teaches_structures and teaches_lemmas both EMPTY. Every form used was taught by b2_pron_acc, b1_dative_pron, b2_pron_prep, b2_kim_czym, b2_prosic_o, b2_neg_gen, a2_gen_pl or earlier.\n\nTHE SPINE'S BRIEF WAS DELIBERATELY NARROWED, and this is the loudest call in the pack. tree.json's stub and B2-SPINE Block 8 both say this gym should extend b1_case_gym with 'adjective agreement in five cases, oblique pronouns, the three plural obliques'. TWO OF THOSE THREE ALREADY HAVE THEIR OWN GYM, both built after the spine was written: b2_adj_gym (path 139) drills the adjective in all five cases on exactly those frames (dobrej kawy, w nowym domu, dobremu studentowi), and b2_plural_gym (path 158) drills -ach / -ami / -om plus both numeral agreements. Re-running either board here would be a repetition of material the learner has already been drilled on twice, which is precisely the failure James named when he retired a2_past_gym ('a repetition of things that were not difficult, and just seemed a waste of time'). AGENTS' gyms rule post-dates the spine and is binding, so the spine was followed where it is still true and narrowed where it is not — logged loudly rather than taken silently, and B2-DIGEST batch 17 explicitly asked for this justification.\n\nWHY THE SLOT IS EARNED ANYWAY. What B2 added and never gymmed is the PRONOUN system, and it is the sharpest cliff in the level because the difficulty is not Polish morphology at all — it is that ENGLISH collapses three distinct Polish words into one. 'Him' is go after znam, mu after pomagam, and nim / niego after a preposition. Nothing on the path has ever asked the learner to choose between those three columns: b2_pron_acc built the object column, b1_dative_pron had built the dative column 22 nodes earlier, b2_pron_prep added the n- forms, and the three have sat side by side unmixed for 37 nodes. That is a genuine hard ending choice at this stage, which is the test the gyms rule sets. The question words (b2_kim_czym, path 142) are the same system with the same three columns and have not been touched since.\n\nADJECTIVES AND PLURALS ARE STILL PRESENT — as the RECYCLED FRAME MATERIAL that AGENTS' gyms rule names as the correct mechanism for comfortable material ('use new grammar and vocabulary actively in later units' sentences'), never as the thing being answered. No item's answer is an adjective or a plural oblique.\n\nTHE ONE PIECE OF RECOMBINATION b2_neg_gen HANDED HERE BY NAME. That pack fenced plural objects under negation and said so in its own note: 'Nie mam gazet is fully legal by this point and is still held. The unit has one fact and number is orthogonal to it; b2_case_gym and b2_wrapup are where the recombination belongs.' Quiz 12 and use item 6 are that recombination, and they are the only place in the pack where a plural is the answer.\n\nTHREE INTRO SLIDES, NOT TWO. The spine said 'this board will be dense — split across two intro slides rather than compressing, and log the call.' Three was taken instead, on the same reasoning pushed one step further: slide 1 is the pronoun grid, slide 2 is the question-word grid (the identical three columns, so it reads as a re-sighting rather than a second system), and slide 3 is the two traps that are not about endings at all. Compressing the traps into either grid would have buried them.\n\nHOMOGRAPH / TAUGHT-AS CHECKS PERFORMED ON EVERY RECYCLED FORM:\n- gazety appears ONLY as a nominative/accusative plural, which is what a2_plural_nom taught it as, and gazet only as its genitive plural. The genitive-singular reading of that string is never used.\n- ksiazki, kawy, szkoly, piwa, wina, okna are NOT used in any plural job anywhere — b2_plural_gym's own finding, re-run rather than assumed: they are owned as GENITIVE SINGULARS (a1_gen_endings, a1_gen_ki). kawy appears once, as a distractor, in exactly that genitive-singular sense.\n- jej is used only as the DATIVE pronoun 'to her' (b1_dative_pron). It is also the genitive/accusative of ona in real Polish, and that reading appears nowhere.\n- ich is used only as the ACCUSATIVE 'them' (b2_pron_acc). Its other real-Polish life as the possessive 'their' is not taught anywhere in this course, and b2_pron_acc's own advance warning about it is respected: no item here reads ich as a possessive.\n- proszę is used only as prosić's first person ('I ask for'), the third of the three jobs b2_prosic_o named for that string. The A1 'please / here you are' sense and the a2_imperative 'Proszę czekać' sense appear nowhere in this pack, so no item can be read two ways.\n- pracy is the LOCATIVE from a2_o_loc (o pracy), never the genitive.\n\nci IS ON THE BOARD IN ONE SENSE ONLY, and it is not drilled. It appears once, in the slide-1 reference table, in the dative sense b1_dative_pron taught (b2_pron_acc made the same call). The virile demonstrative ci studenci appears nowhere. This follows b1_case_gym's explicit decision not to re-run the ci/ci collision inside a zero-new review unit; a gym is not the place to force a third reading of a string.\n\nFENCED, appearing nowhere including as distractors — every one held from the unit that set it:\n- FIRST AND SECOND PERSON AFTER A PREPOSITION: o mnie, o tobie, ze mną, z tobą, do ciebie, z nami, z wami. b2_pron_prep took the third-person-only branch deliberately and tobie / tobą / mną / ciebie / nami / wami are all NEW. The slide-1 table carries an em dash in those two cells and says out loud that the course does not have them yet, rather than leaving a silent hole.\n- je and nie as pronouns (the neuter and non-virile-plural accusative), jego, ciebie — all held from b2_pron_acc.\n- siebie / sobie — spine O15, C1.\n- czemu and czyj — held from b2_kim_czym, and czemu additionally because it is colloquial 'why'.\n- dla + anything: dla is verified NEW and was already dropped from b2_pron_prep for that reason.\n- w and na + pronoun (w nim, na niej) — held from b2_pron_prep.\n- z czym: b2_kim_czym taught czym after o and bare for transport, never after z. The slide-2 table carries an em dash there.\n- INDIRECT QUESTIONS. Every kogo / komu / kim / czym here is a DIRECT question with a question mark. Nie wiem, kogo znasz appears nowhere — held from b2_kim_czym, which held it from a2_questions2.\n- PROSIĆ O + A PRONOUN. Proszę o niego would be legal Polish and is absent on purpose: b2_pron_prep taught niego after do (Genitive) only, so putting it after prosić's o would be a silent new job for the form inside a gym that teaches nothing. The o-trap is drilled on nouns only.\n- NEGATED PRONOUN OBJECTS (Nie znam go / jej). b2_pron_acc, b2_pron_prep and b2_neg_gen each fenced this independently; the genitive of negation on a pronoun is a form set the course does not own. Every negated object in this pack is a noun.\n- No plural oblique adjectives (spine O3, C1). No participles beyond the passive one, no zostać, no conditional past.\n\nTHE AUDITOR CANNOT SEE MOST OF THE FENCES ABOVE. Person pronouns sit in audit.py's GLUE_LEMMAS, so every pronoun fence in this pack — and this pack is almost entirely pronouns — is author discipline only. Every learner-facing surface was scanned by hand, string by string.\n\nWORD ORDER, and it constrained the Użycie stage more than anything else. b2_pron_acc's rule is held exactly: a SHORT CLITIC (go, ją, cię, mi, ci, mu, jej) only ever appears after a clause-initial verb — Znam go, Pomagam mu — never after a noun subject, because Mama kocha go is marked where Mama go kocha is neutral and choosing between them is a word-order fact this course has not taught. Use item 9 therefore gives its noun subject the FULL forms (Studenci znają ich i pomagają im), and every other clitic sentence in the pack is verb-initial. Prepositional n- forms are not clitics, so Mama mówi o nim is free and is used.\n\nQUIZ ITEMS 1-4 ARE THE SAME PERSON UNDER FOUR SENTENCES with four different answers (go / mu / nim / niego), sharing the same four choices. This extends b2_adj_gym's and b2_plural_gym's paired-item idiom from two items to four, deliberately: with two items the learner can still read it as an exception, and the claim here is that ONE English word maps onto four Polish ones. All 12 quiz answers are distinct.\n\nDISTRACTORS are real taught Polish in the wrong slot throughout — every wrong pronoun choice is the same person out of a different column, so each explain can name which column the learner reached into. Nothing fabricated.\n\nBare governed prepositions (o, z, do) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride o_loc, inst_z and prep_do_gen, all declared in uses_structures.",
+  "focus_structures": [
+    "pron_acc",
+    "dative_pron",
+    "pron_prep",
+    "question_cases",
+    "prosic_o",
+    "neg_gen"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "pron_acc",
+    "dative_pron",
+    "pron_prep",
+    "question_cases",
+    "prosic_o",
+    "neg_gen",
+    "negation",
+    "gen_pl",
+    "gen_endings",
+    "plural_nom",
+    "o_loc",
+    "inst_z",
+    "inst_identity",
+    "inst_transport",
+    "prep_do_gen",
+    "prep_w_loc",
+    "dative_sg",
+    "dat_chunks",
+    "miec_present",
+    "miec_acc",
+    "byc_present",
+    "existential_jest",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "motion_chunk",
+    "jechac",
+    "poss_nom",
+    "question",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "One word in English, three in Polish",
+      "title_pl": "biernik · celownik · o nim, do niego",
+      "body": "Nothing new below. Every form is one you already own — the object pronouns from Kocham cię, the recipient pronouns you have had since B1, and the n- forms that follow a preposition.\n\nWhat you have never had to do is choose between them under pressure. English gives you one word, him, for all three columns. Polish gives you three, and the word in front of the pronoun is what tells you which column you are in: a plain verb takes the object form, a giving-or-helping verb takes the recipient form, and any preposition takes the n- form.\n\nThe last two rows are honest about a gap: for me and you the course does not yet have the after-a-preposition forms, so that cell is empty rather than guessed at.",
+      "body_pl": "Znam go · Pomagam mu · Mówię o nim",
+      "table": {
+        "headers": [
+          "English",
+          "The object (znam…)",
+          "The recipient (pomagam…)",
+          "After a preposition (o…, z…, do…)"
+        ],
+        "rows": [
+          [
+            "him",
+            "go",
+            "mu",
+            "nim · niego"
+          ],
+          [
+            "her",
+            "ją",
+            "jej",
+            "niej · nią"
+          ],
+          [
+            "them (people)",
+            "ich",
+            "im",
+            "nich · nimi"
+          ],
+          [
+            "me",
+            "mnie",
+            "mi",
+            "—"
+          ],
+          [
+            "you",
+            "cię",
+            "ci",
+            "—"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I know him and I help him.",
+          "pl": "Znam go i pomagam mu."
+        },
+        {
+          "en": "Mum is talking about him.",
+          "pl": "Mama mówi o nim."
+        }
+      ]
+    },
+    {
+      "title": "The question words do exactly the same thing",
+      "title_pl": "kto · kogo · komu · kim · co · czego · czym",
+      "body": "This is not a second system. Kto and co take cases in the same three columns, decided by the same words in front of them — so if you can see which column a sentence wants, you already know both the pronoun and the question word for it.\n\nOne asymmetry, and it is worth holding on to: for a person the object form and the 'of'-form are the same word, kogo, because people behave like małego psa — the object form of a man or an animal is the 'of'-form. Things never do that merger, so a thing's object form stays plain co.",
+      "body_pl": "Kogo znasz? · Komu pomagasz? · O kim mówisz? · O czym myślisz?",
+      "table": {
+        "headers": [
+          "The job",
+          "Cue",
+          "About a person",
+          "About a thing"
+        ],
+        "rows": [
+          [
+            "the subject",
+            "…jest w domu?",
+            "Kto?",
+            "Co?"
+          ],
+          [
+            "the object",
+            "znam · lubię",
+            "Kogo?",
+            "Co?"
+          ],
+          [
+            "the 'of'-form",
+            "nie ma · do",
+            "Kogo?",
+            "Czego?"
+          ],
+          [
+            "the recipient",
+            "pomagam · dziękuję",
+            "Komu?",
+            "—"
+          ],
+          [
+            "after o (about)",
+            "mówię · myślę",
+            "O kim?",
+            "O czym?"
+          ],
+          [
+            "after z (with)",
+            "jadę · pracuję",
+            "Z kim?",
+            "—"
+          ],
+          [
+            "identity, or how you travel",
+            "jestem · jadę",
+            "Kim?",
+            "Czym?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Who do you know, and who do you help?",
+          "pl": "Kogo znasz, a komu pomagasz?"
+        },
+        {
+          "en": "What are you thinking about?",
+          "pl": "O czym myślisz?"
+        }
+      ]
+    },
+    {
+      "title": "Two traps that are not about endings",
+      "title_pl": "mówię o pracy · proszę o kawę · nie mam gazet",
+      "body": "Both of these you have met one at a time. Mixed in with everything else, they are where the mistakes actually happen.\n\nFirst: o does two different jobs. After mówić and myśleć it takes the in-form — o pracy, o szkole. After prosić it takes the object form — o kawę, o wodę. The preposition never changes; the ending after it does, and only the verb in front tells you which one.\n\nSecond: nie moves a direct object into the 'of'-form, and that is just as true when the object is plural. Mam gazety becomes Nie mam gazet. Only a direct object moves — a place, an identity or a recipient is untouched by nie.",
+      "body_pl": "o pracy · o kawę · gazety · gazet",
+      "table": {
+        "headers": [
+          "Positive",
+          "Negative",
+          "What moved"
+        ],
+        "rows": [
+          [
+            "Mam gazety.",
+            "Nie mam gazet.",
+            "the object, into the 'of'-form"
+          ],
+          [
+            "Mam telefony.",
+            "Nie mam telefonów.",
+            "the object, into the 'of'-form"
+          ],
+          [
+            "Mieszkam w domu.",
+            "Nie mieszkam w domu.",
+            "nothing — it is a place"
+          ],
+          [
+            "Pomagam mamie.",
+            "Nie pomagam mamie.",
+            "nothing — it is a recipient"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm asking for coffee, and mum is talking about work.",
+          "pl": "Proszę o kawę, a mama mówi o pracy."
+        },
+        {
+          "en": "I don't have newspapers and I don't have telephones.",
+          "pl": "Nie mam gazet i nie mam telefonów."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I know him",
+      "pl": "Znam go."
+    },
+    {
+      "en": "I help him",
+      "pl": "Pomagam mu."
+    },
+    {
+      "en": "I'm talking about him",
+      "pl": "Mówię o nim."
+    },
+    {
+      "en": "I know her",
+      "pl": "Znam ją."
+    },
+    {
+      "en": "I help her",
+      "pl": "Pomagam jej."
+    },
+    {
+      "en": "I'm talking about her",
+      "pl": "Mówię o niej."
+    },
+    {
+      "en": "I know them",
+      "pl": "Znam ich."
+    },
+    {
+      "en": "I help them",
+      "pl": "Pomagam im."
+    },
+    {
+      "en": "I'm talking about them",
+      "pl": "Mówię o nich."
+    },
+    {
+      "en": "Who do you know?",
+      "pl": "Kogo znasz?"
+    },
+    {
+      "en": "Who do you help?",
+      "pl": "Komu pomagasz?"
+    },
+    {
+      "en": "Who are you talking about?",
+      "pl": "O kim mówisz?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Znam ___. (him)",
+      "choices": [
+        "go",
+        "mu",
+        "nim",
+        "niego"
+      ],
+      "answer": "go",
+      "explain": "znać takes a plain object, so him is go. mu is the recipient column — what you would need after pomagam — and nim and niego only ever appear after a preposition."
+    },
+    {
+      "prompt": "Pomagam ___. (him)",
+      "choices": [
+        "mu",
+        "go",
+        "nim",
+        "niego"
+      ],
+      "answer": "mu",
+      "explain": "pomagać governs the recipient column, not the object one — the same split you already had with pomagam bratu rather than brata. Same four choices as the last question, different verb, different answer."
+    },
+    {
+      "prompt": "Mówię o ___. (him)",
+      "choices": [
+        "nim",
+        "go",
+        "mu",
+        "niego"
+      ],
+      "answer": "nim",
+      "explain": "After any preposition the pronoun starts with n-, so go is impossible here however plain the sentence looks. o keeps the in-form it has always taken, which for him is nim."
+    },
+    {
+      "prompt": "Idę do ___. (him)",
+      "choices": [
+        "niego",
+        "nim",
+        "go",
+        "mu"
+      ],
+      "answer": "niego",
+      "explain": "do has taken the 'of'-form since A1, and the 'of'-form of him is niego. nim is the shape o and z take — same n-, different job. Four sentences, one English word, four different Polish ones."
+    },
+    {
+      "prompt": "Znam ___. (her)",
+      "choices": [
+        "ją",
+        "jej",
+        "nią",
+        "niej"
+      ],
+      "answer": "ją",
+      "explain": "Plain object, so the object column: ją. jej is the recipient form, and nią and niej cannot appear without a preposition in front of them."
+    },
+    {
+      "prompt": "Pomagam ___. (her)",
+      "choices": [
+        "jej",
+        "ją",
+        "niej",
+        "nią"
+      ],
+      "answer": "jej",
+      "explain": "pomagać wants the recipient, so jej. Note that her is the one person where the recipient form and the after-preposition form look almost alike — jej and niej — which is exactly why the n- is worth watching for."
+    },
+    {
+      "prompt": "Jadę z ___. (her)",
+      "choices": [
+        "nią",
+        "ją",
+        "niej",
+        "jej"
+      ],
+      "answer": "nią",
+      "explain": "z for who you are with has taken the with-form since A2, and for her that is nią. niej is the shape o and do take — the same n- word in a different job."
+    },
+    {
+      "prompt": "Znam ___. (them — people)",
+      "choices": [
+        "ich",
+        "im",
+        "nich",
+        "nimi"
+      ],
+      "answer": "ich",
+      "explain": "Plain object again, so ich. im is who you help or thank, and nich and nimi both need a preposition in front of them."
+    },
+    {
+      "prompt": "___ znasz? (who — the one you know)",
+      "choices": [
+        "Kogo",
+        "Komu",
+        "Kim",
+        "Kto"
+      ],
+      "answer": "Kogo",
+      "explain": "The question word takes the column its verb asks for, exactly like the pronoun did. znasz wants an object, and for a person the object form is kogo. Kto is the subject form — that would be asking who is doing the knowing."
+    },
+    {
+      "prompt": "___ pomagasz? (who — the one you help)",
+      "choices": [
+        "Komu",
+        "Kogo",
+        "Kim",
+        "Kto"
+      ],
+      "answer": "Komu",
+      "explain": "pomagać takes the recipient in a question as surely as it does in a statement, so komu. Nothing changed between this question and the last one except the verb — and that is the whole gym."
+    },
+    {
+      "prompt": "Proszę o ___. (coffee)",
+      "choices": [
+        "kawę",
+        "kawy",
+        "kawa",
+        "kaw"
+      ],
+      "answer": "kawę",
+      "explain": "After prosić the o takes the object form, so kawę — the same shape you use after mam. This is the one place where o does not behave the way it does in mówię o pracy, and the verb in front is the only thing that tells you."
+    },
+    {
+      "prompt": "Nie mam ___. (newspapers)",
+      "choices": [
+        "gazet",
+        "gazety",
+        "gazeta",
+        "gazetach"
+      ],
+      "answer": "gazet",
+      "explain": "nie sends a direct object into the 'of'-form, and that holds in the plural too: gazety becomes gazet. gazetach is the after-w form, and gazeta is one newspaper."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "him (the object — znam…)",
+      "mode": "full_word",
+      "answer": "go",
+      "accepts": [
+        "go"
+      ]
+    },
+    {
+      "prompt_en": "him (the recipient — pomagam…)",
+      "mode": "full_word",
+      "answer": "mu",
+      "accepts": [
+        "mu"
+      ]
+    },
+    {
+      "prompt_en": "about him",
+      "mode": "full_word",
+      "answer": "o nim",
+      "accepts": [
+        "o nim"
+      ]
+    },
+    {
+      "prompt_en": "to him (idę…)",
+      "mode": "full_word",
+      "answer": "do niego",
+      "accepts": [
+        "do niego"
+      ],
+      "explain": "do has always taken the 'of'-form, and for him that is niego, not the nim that o and z take."
+    },
+    {
+      "prompt_en": "her (the object — znam…)",
+      "mode": "full_word",
+      "answer": "ją",
+      "accepts": [
+        "ją"
+      ]
+    },
+    {
+      "prompt_en": "her (the recipient — pomagam…)",
+      "mode": "full_word",
+      "answer": "jej",
+      "accepts": [
+        "jej"
+      ]
+    },
+    {
+      "prompt_en": "with her (jadę…)",
+      "mode": "full_word",
+      "answer": "z nią",
+      "accepts": [
+        "z nią"
+      ]
+    },
+    {
+      "prompt_en": "them (the object — znam…)",
+      "mode": "full_word",
+      "answer": "ich",
+      "accepts": [
+        "ich"
+      ]
+    },
+    {
+      "prompt_en": "them (the recipient — pomagam…)",
+      "mode": "full_word",
+      "answer": "im",
+      "accepts": [
+        "im"
+      ]
+    },
+    {
+      "prompt_en": "with them (jadę…)",
+      "mode": "full_word",
+      "answer": "z nimi",
+      "accepts": [
+        "z nimi"
+      ]
+    },
+    {
+      "prompt_en": "who (the object — ___ znasz?)",
+      "mode": "full_word",
+      "answer": "kogo",
+      "accepts": [
+        "kogo"
+      ]
+    },
+    {
+      "prompt_en": "who (the recipient — ___ pomagasz?)",
+      "mode": "full_word",
+      "answer": "komu",
+      "accepts": [
+        "komu"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I know him and I help him.",
+      "answer": "Znam go i pomagam mu.",
+      "accepts": [
+        "Znam go i pomagam mu.",
+        "Znam go i pomagam mu"
+      ],
+      "explain": "One person, one sentence, two different words for him — the object form after znam and the recipient form after pomagam."
+    },
+    {
+      "prompt_en": "Type: Mum is talking about him, and dad is talking about her.",
+      "answer": "Mama mówi o nim, a tata mówi o niej.",
+      "accepts": [
+        "Mama mówi o nim, a tata mówi o niej.",
+        "Mama mówi o nim, a tata mówi o niej"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to him, and dad is going to her.",
+      "answer": "Idę do niego, a tata idzie do niej.",
+      "accepts": [
+        "Idę do niego, a tata idzie do niej.",
+        "Idę do niego, a tata idzie do niej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is travelling with them to the city.",
+      "answer": "Tata jedzie z nimi do miasta.",
+      "accepts": [
+        "Tata jedzie z nimi do miasta.",
+        "Tata jedzie z nimi do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: Who do you know, and who do you help?",
+      "answer": "Kogo znasz, a komu pomagasz?",
+      "accepts": [
+        "Kogo znasz, a komu pomagasz?",
+        "Kogo znasz a komu pomagasz?"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have newspapers and I don't have telephones.",
+      "answer": "Nie mam gazet i nie mam telefonów.",
+      "accepts": [
+        "Nie mam gazet i nie mam telefonów.",
+        "Nie mam gazet i nie mam telefonów"
+      ],
+      "explain": "Both objects are plural and both move into the 'of'-form after nie — the plural changes nothing about the rule."
+    },
+    {
+      "prompt_en": "Type: I'm asking for coffee, and mum is talking about work.",
+      "answer": "Proszę o kawę, a mama mówi o pracy.",
+      "accepts": [
+        "Proszę o kawę, a mama mówi o pracy.",
+        "Proszę o kawę, a mama mówi o pracy"
+      ],
+      "explain": "The same o twice, with two different endings after it. prosić asks for a thing, so the thing is an object; mówić talks about a thing, so the thing takes the in-form."
+    },
+    {
+      "prompt_en": "Type: Who does your brother work with?",
+      "answer": "Z kim pracuje twój brat?",
+      "accepts": [
+        "Z kim pracuje twój brat?"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students know them and help them.",
+      "answer": "Studenci znają ich i pomagają im.",
+      "accepts": [
+        "Studenci znają ich i pomagają im.",
+        "Studenci znają ich i pomagają im"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — What are you thinking about? — I'm thinking about work.",
+      "answer": "— O czym myślisz? — Myślę o pracy.",
+      "accepts": [
+        "— O czym myślisz? — Myślę o pracy.",
+        "O czym myślisz? Myślę o pracy.",
+        "- O czym myślisz? - Myślę o pracy."
+      ],
+      "explain": "The question word and the answer sit in the same column: o takes the in-form both times, so o czym is answered by o pracy."
+    }
+  ],
+  "uses_lemmas": [
+    "znam",
+    "znasz",
+    "znają",
+    "go",
+    "ją",
+    "ich",
+    "mnie",
+    "cię",
+    "pomagam",
+    "pomagasz",
+    "pomagają",
+    "mu",
+    "jej",
+    "im",
+    "mi",
+    "ci",
+    "nim",
+    "niego",
+    "niej",
+    "nią",
+    "nich",
+    "nimi",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "myślę",
+    "myślisz",
+    "kto",
+    "kogo",
+    "komu",
+    "kim",
+    "co",
+    "czego",
+    "czym",
+    "idę",
+    "idzie",
+    "jadę",
+    "jedzie",
+    "mama",
+    "tata",
+    "brat",
+    "twój",
+    "studenci",
+    "pracuje",
+    "pracuję",
+    "pracy",
+    "szkole",
+    "domu",
+    "w domu",
+    "mieszkam",
+    "miasta",
+    "mamie",
+    "bratu",
+    "brata",
+    "psa",
+    "małego",
+    "lubię",
+    "jestem",
+    "jest",
+    "nie",
+    "mam",
+    "gazety",
+    "gazet",
+    "gazeta",
+    "gazetach",
+    "telefony",
+    "telefonów",
+    "proszę",
+    "kawę",
+    "kawy",
+    "kawa",
+    "kaw",
+    "wodę",
+    "dziękuję",
+    "nie ma",
+    "i",
+    "a"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_case_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
