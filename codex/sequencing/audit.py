@@ -109,6 +109,7 @@ STRUCTURE_CATALOGUE = {
     "question_cases",
     "ze_clauses",
     "reported",
+    "indirect_q",
 }
 
 GLUE_LEMMAS = {
