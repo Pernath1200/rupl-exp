@@ -514,49 +514,49 @@
     },
     {
       "prompt_en": "Can I speak to Mum?",
-      "mode": "full_word",
-      "answer": "Czy mogę rozmawiać z mamą?",
+      "mode": "cloze",
+      "frame": "Czy mogę rozmawiać z ___?",
+      "answer": "mamą",
       "accepts": [
-        "Czy mogę rozmawiać z mamą?",
-        "Czy mogę rozmawiać z mamą",
-        "Mogę rozmawiać z mamą?",
-        "Czy moge rozmawiac z mama?"
+        "mamą",
+        "mama"
       ],
-      "explain": "Mogę is followed by the infinitive rozmawiać, never by a personal ending. After z the person takes the instrumental — the same z mamą you already have."
+      "explain": "After z the person takes the instrumental, so mama becomes mamą — the same z mamą you already have.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with a z-phrase bolted on. Items 2-4 share one frame and blank the person, because that is the only part that moves — and blanking rozmawiać three times would give three identical answers in one stage. The infinitive is still produced whole at item 5."
     },
     {
       "prompt_en": "Can I speak to Dad?",
-      "mode": "full_word",
-      "answer": "Czy mogę rozmawiać z tatą?",
+      "mode": "cloze",
+      "frame": "Czy mogę rozmawiać z ___?",
+      "answer": "tatą",
       "accepts": [
-        "Czy mogę rozmawiać z tatą?",
-        "Czy mogę rozmawiać z tatą",
-        "Mogę rozmawiać z tatą?",
-        "Czy moge rozmawiac z tata?"
+        "tatą",
+        "tata"
       ],
       "explain": "Tata is a man even though the word ends in -a, and after z it still takes -ą: z tatą."
     },
     {
       "prompt_en": "Can I speak to my sister?",
-      "mode": "full_word",
-      "answer": "Czy mogę rozmawiać z siostrą?",
+      "mode": "cloze",
+      "frame": "Czy mogę rozmawiać z ___?",
+      "answer": "siostrą",
       "accepts": [
-        "Czy mogę rozmawiać z siostrą?",
-        "Czy mogę rozmawiać z siostrą",
-        "Mogę rozmawiać z siostrą?",
-        "Czy moge rozmawiac z siostra?"
-      ]
+        "siostrą",
+        "siostra"
+      ],
+      "explain": "Siostra ends in -a like mama, so it goes the same way after z: siostrą."
     },
     {
       "prompt_en": "I can't talk now.",
-      "mode": "full_word",
-      "answer": "Nie mogę teraz rozmawiać.",
+      "mode": "cloze",
+      "frame": "Nie mogę teraz ___.",
+      "answer": "rozmawiać",
       "accepts": [
-        "Nie mogę teraz rozmawiać.",
-        "Nie mogę teraz rozmawiać",
-        "Nie moge teraz rozmawiac"
+        "rozmawiać",
+        "rozmawiac"
       ],
-      "explain": "Nie simply goes in front of mogę. The infinitive rozmawiać stays exactly as it was in the question."
+      "explain": "Nie simply goes in front of mogę, and the infinitive rozmawiać stays exactly as it was in the question — it never picks up an ending of its own.",
+      "note": "Pisanie hard cap (James 2026-08-06). Blank on rozmawiać, the unit's new word and the teaching point items 2-4 could not carry without three identical answers."
     },
     {
       "prompt_en": "I can't hear you.",
