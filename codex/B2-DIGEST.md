@@ -419,3 +419,215 @@ scanned token by token against the position-aware pool plus each pack's own
   learner-visible title shows the ending doing a job rather than two bare
   forms, and `b2_adj_acc`'s `label_en` was extended to state the gift
   ("only the feminine changes") rather than just naming the case.
+
+---
+
+## Batch 3 — Block 2, units 4–6 of 7 (the adjective block's oblique cases close)
+
+Built `b2_adj_loc`, `b2_adj_inst`, `b2_adj_dat` — the Locative, Instrumental and
+Dative of the attributive adjective. Each audit-clean (0 errors; the same 2
+pre-existing, unrelated warns from `a2_prep_review` / `b1_two_futures` that every
+B1 and B2 batch has carried), pushed to `origin/b1-build` one at a time, not
+batched. Three new structures registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before each audit ran: `adj_loc`, `adj_inst`, `adj_dat`.
+
+Path is now live through `b2_adj_dat` (path index 139, 134 live nodes). Next
+unbuilt B2 node: `b2_adj_gym`, which teaches nothing and closes the block.
+
+**Total new material across all three units: seven forms.** `dobrym, nowym,
+małym, zimnym` (Locative), nothing at all (Instrumental), `dobremu, nowemu,
+małemu` (Dative). That is the whole of three cases, and it is small because the
+block was sequenced so that each unit could borrow from the one before it.
+
+**Mid-run rebase.** James pushed his O7 overrule and the JAMES-LOCKED "Block 6a —
+Prefix strand" while `b2_adj_inst` was being committed, so the push was rejected
+and the commit was rebased onto the new tip; the only conflict was in the
+generated audit artifact, which was regenerated rather than hand-merged, and the
+audit was re-run clean afterwards. Block 6a sits after `b2_aspect_prefixes`
+(path ~166) and touches nothing in this batch.
+
+### The spine gave two examples that are not legal Polish *for this learner*
+
+This is the finding of the batch and it is worth stating first, because it would
+have shipped silently. B2-SPINE.md's own illustrative sentences for two of these
+three units use forms the course has never taught:
+
+| Spine's example | The problem |
+|---|---|
+| `b2_adj_loc`: *Myślę o dobrym filmie.* | `filmie` is **NEW**. The course owns `film`, `filmy`, `filmów` and has never inflected the word. |
+| `b2_adj_inst`: *Jadę z miłą siostrą.* | `miłą` is **NEW**. The course owns `miła` and `miły` and has never inflected either. |
+
+Neither was caught by reading the spine — both were caught by running
+`check_new.py` on the spine's own words before writing a line. `wodzie`, `mleku`,
+`samochodzie`, `restauracji`, `dziecku`, `studenta` and `nauczycielce` all came
+back NEW in the same sweep, which between them rule out most of the obvious
+Locative and Dative phrases in the language. **The standing lesson for whoever
+authors the rest of B2: the spine is a design document, not a pool. Its example
+sentences have not been checked and two of the three in this batch were wrong.**
+
+### `b2_adj_loc` (Block 2, unit 4 — the one new ending in the batch)
+
+`-ym` for masculine and neuter; four new forms and no more. The feminine `-ej`
+is `b2_adj_gen`'s form recycled unchanged one unit later, so half the unit is
+free. Same four adjectives as `b2_adj_gen` on purpose — the block should read as
+one paradigm widening, not a growing word list.
+
+**The unit's central contrast, and the reason it can be this small.** The
+Genitive and the Locative disagree about *which word moves*, and they disagree in
+opposite directions depending on gender:
+
+- Feminine — the adjective is the same in both cases and the noun is not:
+  *do dobrej szkoły* → *w dobrej szkole*.
+- Masculine like `dom` — the noun is the same in both (`domu` is Genitive and
+  Locative alike) and **only the adjective marks the difference**:
+  *do nowego domu* → *w nowym domu*.
+
+Slide 4 is that pair and the Kontrola stage is built on it. It is also the whole
+argument for this unit sitting immediately after `b2_adj_gen` rather than
+anywhere else in the block.
+
+No new governors: `w`, `na` and `o` were all re-checked as whole chunks against
+the pool rather than assumed — `o domu`, `o sklepie`, `o pracy`, `o banku` come
+wholesale from `a2_o_loc`.
+
+### `b2_adj_inst` (Block 2, unit 5 — zero new endings, zero new lemmas)
+
+All six forms in the unit report TAUGHT: `dobrym`, `nowym`, `małym` from
+`b2_adj_loc` one unit earlier, `dobrą`, `nową` from `a1_miec` (path 9), `małą`
+from `b2_adj_acc`. `teaches_lemmas` is **empty**, which is legitimate and
+precedented — `b2_copular_future` is the same shape, and the auditor only warns
+when *both* `teaches_*` fields are empty, which was checked in the source before
+relying on it.
+
+This is the **fourth turn of the course's signature "same endings, another job"
+idiom**: `inst_identity` → `inst_z` → `inst_transport` → here. The adjective
+joins all three existing Instrumental jobs at once rather than a fourth being
+invented.
+
+**What earns it a slot rather than folding into `b2_adj_loc`** — and this is the
+judgment call I would most want James's eye on in this batch. The discrimination
+it adds is invisible from either unit standing alone: for masculine and neuter
+the Locative and Instrumental adjective are the **same** form (*w dobrym hotelu*
+/ *z dobrym kolegą*), but for feminine they **differ** (*w dobrej firmie* /
+*z dobrą siostrą*). So gender decides whether the two cases can be told apart at
+all. Slide 4 is that table and quiz item 8 tests it. The spine's rejected
+alternative was merging Loc and Inst into one unit; having written both, I think
+the split is right, but the *reason* is this contrast rather than the "different
+governors" argument the spine gave.
+
+**One line that had to be said out loud:** `kolega` is a masculine noun whose
+Instrumental ends in `-ą`, so *z dobrym kolegą* pairs a masculine adjective with
+an `-ą` noun. Dad has owned `kolegą` since `a2_inst_z` and `kolega`'s masculinity
+since A1, but this is the first moment that masculinity is visible on the page. A
+Match board showing *z dobrym kolegą* next to *z małą siostrą* would otherwise
+look self-contradictory, so it gets one slide row and one `explain`. Treated as a
+gift, not a new load.
+
+### `b2_adj_dat` (Block 2, unit 6 — closes the block)
+
+`-emu` for masculine and neuter; three new forms. The feminine `-ej` is recycled
+for the **third** time — Genitive, Locative, Dative — and slide 2 says so
+plainly, because at this point `dobrej` is the hardest-working adjective form
+Dad owns and noticing that is worth more than another drill.
+
+`dawać` was re-checked rather than assumed: `b1_dative_sg` deferred it with a
+loud note ("do not assume `dawać` is already covered") and `b1_giving` paid that
+deferral at path 119. It is owned, so all three of the spine's governors are used.
+
+**The unit's one real judgment call, and the second thing worth James's eye:
+neuter is stated but not drilled.** `dziecku` reports NEW, and it is the only
+plausible neuter Dative noun anywhere in reach — so the course owns **no** neuter
+noun in this case at all. Teaching one would mean bolting a new noun form onto a
+unit that is already adding a new adjective ending. Instead the neuter is named
+in one English line and given its column in the recap table. That is true, it is
+consistent with every other oblique case in the block (m and n have shared an
+ending in all of them), and it demands no form Dad has not met. **If James wants
+it drilled, `dziecku` is the single form to add and *małemu dziecku* is the
+phrase** — it is a one-line change, not a restructure.
+
+**Slide 4 is a six-row recap of the whole singular adjective** across four cases
+and three genders. It sits here because `b2_adj_gym` is next and teaches nothing,
+so this is the last teaching moment in the block. Every cell was checked
+individually against the pool — that discipline exists because batch 2 shipped a
+draft table with two wrong "plain form" cells, and a recap table is exactly the
+shape that invites the same mistake.
+
+**Kontrola items 6 and 7 are the block's payoff:** *Nie mam ___ brata* and
+*Jestem ___ studentem*, both answered with forms this unit does not teach. It is
+the first time Dad has had to choose among four oblique adjective forms rather
+than two.
+
+### Verification performed on all three packs
+
+The batch-1/2 scanner was rebuilt and extended, and run on every pack before it
+was wired:
+
+- Every Polish string in every stage — intro tables, `title_pl`, `body_pl`, quiz
+  prompts, **quiz distractors**, `accepts` arrays — extracted and scanned token
+  by token against the position-aware pool plus the pack's own
+  `teaches_lemmas`. Everything it flagged was either English table text or
+  `body_pl` metalanguage; each metalanguage word was then checked for precedent
+  in an existing pack rather than waved through (`bez zmian` from `a1_miec`,
+  `końcówka` from `a2_inst_transport`, `rodzaj` from `a1_gender`, and the case
+  names, which sibling unit *titles* already carry).
+- **One string was changed as a result.** `b2_adj_inst`'s slide 3 `body_pl` was
+  drafted as *"kolega, tata — męskie, choć na -a"*. `choć` is untaught and is
+  prose rather than metalanguage, so it was rewritten as *"kolega (m) · tata (m)
+  — rodzaj męski, końcówka -a"*, which uses only vocabulary the house style
+  already established.
+- Mechanical stage checks per pack: Match exactly 12 rows with no duplicate `pl`
+  or `en`, **no duplicate answers within any stage**, every quiz answer present
+  among its own four choices, no duplicated choices inside an item, no Użycie
+  item repeating a Pisanie item verbatim, every `teaches_lemma` both demanded in
+  a drill stage *and* shown in intro/match/type, and a meta-question sniff over
+  every Kontrola prompt.
+- Fence scan re-run per pack, inverting each time as the block moved: `-emu`
+  kept out of `b2_adj_loc` and `b2_adj_inst` entirely including distractors, and
+  `-ych`/`-ymi` kept out of all three. Clean in all three.
+- Homograph check on every recycled noun. The Dative nouns are the ones that
+  mattered: `siostrze` and `mamie` are Locatives as well as Datives, but
+  `b1_dative_sg` taught them as Datives and `b2_fem_soft`'s whole point was that
+  the two are the same form for feminine nouns — so nothing is shown as a
+  different word than it was learned as. `pracy` is used in `b2_adj_loc` as a
+  Locative, which is what `a1_prep_review_2` and `b2_fem_soft` taught it as;
+  `b2_adj_gen` deliberately avoided it one unit earlier because *there* it would
+  have been a Genitive.
+- `nowe` and `duże` are still used nowhere at all, in any of the three packs,
+  including as distractors — `a2_plural_nom` taught them as **plurals** and the
+  neuter singular slots take `dobre` and `małe`. That is `b2_adj_acc`'s standing
+  line, now held for five units running.
+- Distractor discipline: every wrong choice in all three packs is real taught
+  Polish in the wrong slot. As the block progressed the distractors got better
+  rather than harder — by `b2_adj_dat` the wrong choices are the Genitive,
+  Locative/Instrumental and Accusative of the *same* adjective, so each one is a
+  genuine near-miss the `explain` can name. `zimne` and `stare` are NEW and
+  appear nowhere.
+
+### For James's next smoke pass
+
+- **`b2_adj_inst` is the unit I would most want a second opinion on.** It teaches
+  no form at all. The case for it is the Loc/Inst discrimination described above,
+  which is real — but if it plays as filler standing between two units that do
+  add endings, the honest fix is to merge it into `b2_adj_loc` (the spine's own
+  rejected alternative) and let `b2_adj_gym` carry the discrimination. That would
+  be a clean reversal; nothing else depends on it.
+- **`b2_adj_dat`'s undrilled neuter** is the second call. One-line fix if wrong,
+  as described above.
+- **`zimny` quietly dropped out of the block after `b2_adj_loc`.** It has no
+  natural home in the Instrumental's three jobs or as a Dative recipient, and
+  `zimnemu`/`wodą` are both NEW. So Dad will finish the block having met `zimny`
+  in four cases but `dobry` in six. `b2_adj_gym` is the place to even that up if
+  it matters — it teaches nothing and can drill any taught form.
+- **`b2_adj_dat`'s slide 4 recap table is the densest single surface in the
+  block** — six rows, four columns. It is the one I would watch Dad read. If it
+  overwhelms, it can be cut to the three oblique rows without losing the unit;
+  the subject and `mam` rows are there for completeness, not because they are
+  new.
+- Titles re-checked word by word at wiring, per the standing B1 batch 10
+  reminder. All three show the ending doing a job rather than bare forms, per the
+  correction batch 2 made to `b2_adj_gen`: *W nowej pracy · miejscownik*,
+  *Dobrym nauczycielem · narzędnik*, *Dobremu bratu · celownik*. Every Polish
+  word in all three titles was confirmed taught — `dobremu bratu` is attested as
+  a `b2_adj_dat` type item, and `dobrym nauczycielem` as a `b2_adj_inst` one.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
