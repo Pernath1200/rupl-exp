@@ -395,81 +395,88 @@
   "type_items": [
     {
       "prompt_en": "Could you help me? (to a man)",
-      "mode": "full_word",
-      "answer": "Czy mógłby pan mi pomóc?",
+      "mode": "cloze",
+      "answer": "mógłby",
+      "frame": "Czy ___ pan mi pomóc?",
       "accepts": [
-        "Czy mógłby pan mi pomóc?",
-        "Czy mógłby pan mi pomóc",
-        "Czy moglby pan mi pomoc?",
-        "Czy moglby pan mi pomoc"
+        "mógłby",
+        "moglby"
       ],
-      "explain": "The opening Czy mógłby pan is one ready-made block; mi is the same to-me as in smakuje mi, and pomóc stays a plain infinitive."
+      "explain": "The opening Czy mógłby pan is one ready-made block; mi is the same to-me as in smakuje mi, and pomóc stays a plain infinitive.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on mógłby — the unit's teaching point and the man-facing half of the frozen opening. The rest of the frame stays on screen so the block is still read whole. MÓGŁBY QUARANTINE, checked not assumed: the pack's fence bans paradigming móc (no mógłbym/mogłabyś, no plural, no derivation from mogę, no four-way ending drill) — it does not ban producing one of the two tagged surface forms inside its own frame, and the repair rule James locked names mógłby itself as an example blank target. The whole opening stays visible on screen. Flagged for smoke anyway."
     },
     {
       "prompt_en": "Could you help me? (to a woman)",
-      "mode": "full_word",
-      "answer": "Czy mogłaby pani mi pomóc?",
+      "mode": "cloze",
+      "answer": "mogłaby",
+      "frame": "Czy ___ pani mi pomóc?",
       "accepts": [
-        "Czy mogłaby pani mi pomóc?",
-        "Czy mogłaby pani mi pomóc",
-        "Czy moglaby pani mi pomoc?",
-        "Czy moglaby pani mi pomoc"
+        "mogłaby",
+        "moglaby"
       ],
-      "explain": "The woman-facing opening is Czy mogłaby pani — its own whole block, never mixed with the pan one."
+      "explain": "The woman-facing opening is Czy mogłaby pani — its own whole block, never mixed with the pan one.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on mogłaby, the teaching point and the woman-facing half of the opening. Paired directly with item 0 so the two blocks are produced once each. MÓGŁBY QUARANTINE, checked not assumed: the pack's fence bans paradigming móc (no mógłbym/mogłabyś, no plural, no derivation from mogę, no four-way ending drill) — it does not ban producing one of the two tagged surface forms inside its own frame, and the repair rule James locked names mógłby itself as an example blank target. The whole opening stays visible on screen. Flagged for smoke anyway."
     },
     {
       "prompt_en": "Could you speak English? (to a man)",
-      "mode": "full_word",
-      "answer": "Czy mógłby pan mówić po angielsku?",
+      "mode": "cloze",
+      "answer": "mówić",
+      "frame": "Czy mógłby pan ___ po angielsku?",
       "accepts": [
-        "Czy mógłby pan mówić po angielsku?",
-        "Czy mógłby pan mówić po angielsku",
-        "Czy moglby pan mowic po angielsku?"
-      ]
+        "mówić",
+        "mowic"
+      ],
+      "explain": "After the ready-made opening comes a plain infinitive — mówić, never mówię.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. mógłby is already the answer at item 0, so blanking it again would give two identical answers in one stage. Blank instead on the infinitive after the opening, which is this pack's own stated pattern ('after the opening comes any infinitive you own')."
     },
     {
       "prompt_en": "Could you speak Polish? (to a woman)",
-      "mode": "full_word",
-      "answer": "Czy mogłaby pani mówić po polsku?",
+      "mode": "cloze",
+      "answer": "polsku",
+      "frame": "Czy mogłaby pani mówić po ___?",
       "accepts": [
-        "Czy mogłaby pani mówić po polsku?",
-        "Czy mogłaby pani mówić po polsku",
-        "Czy moglaby pani mowic po polsku?"
-      ]
+        "polsku"
+      ],
+      "explain": "Only the language word changes: po polsku, po angielsku. The opening in front of it never moves.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. NOT the teaching point, and logged as such per the queue's fallback clause: mogłaby is taken by item 1 and mówić by item 2, so both teaching-point blanks were already spent. Blank falls on the language word — the only part that distinguishes this item from item 2 — and it is recycled material, not new."
     },
     {
       "prompt_en": "Could you make coffee? (to a woman)",
-      "mode": "full_word",
-      "answer": "Czy mogłaby pani zrobić kawę?",
+      "mode": "cloze",
+      "answer": "zrobić",
+      "frame": "Czy mogłaby pani ___ kawę?",
       "accepts": [
-        "Czy mogłaby pani zrobić kawę?",
-        "Czy mogłaby pani zrobić kawę",
-        "Czy moglaby pani zrobic kawe?"
+        "zrobić",
+        "zrobic"
       ],
-      "explain": "After the opening comes any infinitive you own — zrobić kawę is the same zrobić as in Zrobiłbyś kawę?, one register up."
+      "explain": "After the opening comes any infinitive you own — zrobić kawę is the same zrobić as in Zrobiłbyś kawę?, one register up.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the infinitive, exactly what this item's explain is about; mogłaby is spent at item 1."
     },
     {
       "prompt_en": "I would like to ask where the bank is. (m)",
-      "mode": "full_word",
-      "answer": "Chciałbym zapytać, gdzie jest bank.",
+      "mode": "cloze",
+      "answer": "zapytać",
+      "frame": "Chciałbym ___, gdzie jest bank.",
       "accepts": [
-        "Chciałbym zapytać, gdzie jest bank.",
-        "Chciałbym zapytać, gdzie jest bank",
-        "Chciałbym zapytać gdzie jest bank",
-        "Chcialbym zapytac, gdzie jest bank."
+        "zapytać",
+        "zapytac"
       ],
-      "explain": "Zapytać follows chciałbym as a plain infinitive, and the question after the comma is one you already say on its own."
+      "explain": "Zapytać follows chciałbym as a plain infinitive, and the question after the comma is one you already say on its own.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words across two clauses. Blank on zapytać, the unit's one genuinely new verb."
     },
     {
       "prompt_en": "I would like to ask where the pharmacy is. (f)",
-      "mode": "full_word",
-      "answer": "Chciałabym zapytać, gdzie jest apteka.",
+      "mode": "cloze",
+      "answer": "Chciałabym",
+      "frame": "___ zapytać, gdzie jest apteka.",
       "accepts": [
-        "Chciałabym zapytać, gdzie jest apteka.",
-        "Chciałabym zapytać, gdzie jest apteka",
-        "Chciałabym zapytać gdzie jest apteka",
-        "Chcialabym zapytac, gdzie jest apteka."
-      ]
+        "Chciałabym",
+        "chciałabym",
+        "Chcialabym",
+        "chcialabym"
+      ],
+      "explain": "A woman says chciałabym — the same -a- you hear in byłam and chciałam. The rest of the sentence is unchanged.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. zapytać is spent at item 5, so the blank moves to the gendered conditional form, which is what actually separates this item from item 5. Recycled from b1_conditional_sg, not new here."
     },
     {
       "prompt_en": "Sorry to disturb you.",
@@ -485,14 +492,15 @@
     },
     {
       "prompt_en": "Thank you very much for the coffee.",
-      "mode": "full_word",
-      "answer": "Dziękuję bardzo za kawę.",
+      "mode": "cloze",
+      "answer": "kawę",
+      "frame": "Dziękuję bardzo za ___.",
       "accepts": [
-        "Dziękuję bardzo za kawę.",
-        "Dziękuję bardzo za kawę",
-        "Dziekuje bardzo za kawe."
+        "kawę",
+        "kawe"
       ],
-      "explain": "After za, kawa takes the mam-form: kawę. The same accusative you have used since mam kawę."
+      "explain": "After za, kawa takes the mam-form: kawę. The same accusative you have used since mam kawę.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on kawę, the accusative this item's explain exists for — za itself is still produced whole at item 9 (Dziękuję za prezent.)."
     },
     {
       "prompt_en": "Thank you for the present.",
