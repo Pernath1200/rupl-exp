@@ -259,6 +259,20 @@ function renderHomeChrome() {
       STATE.homePanel === "more" ? "true" : "false",
     );
   }
+  const activeBtn =
+    STATE.homePanel === "review"
+      ? "btn-home-review"
+      : STATE.homePanel === "more"
+        ? STATE.homePanelSource === "topics"
+          ? "btn-home-topics"
+          : "btn-home-more"
+        : null;
+  for (const id of ["btn-home-review", "btn-home-topics", "btn-home-more"]) {
+    document.getElementById(id)?.classList.toggle("is-active", id === activeBtn);
+  }
+  document
+    .getElementById("btn-do-next")
+    ?.classList.toggle("home-btn-primary", activeBtn == null);
   syncUnitDetailVisibility();
 }
 
@@ -339,7 +353,9 @@ function wireHomeActions() {
     showHowto();
   });
   document.getElementById("btn-home-more")?.addEventListener("click", () => {
-    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    const reopen = STATE.homePanel === "more" && STATE.homePanelSource !== "more";
+    STATE.homePanel = STATE.homePanel === "more" && !reopen ? null : "more";
+    STATE.homePanelSource = "more";
     renderHomeChrome();
     if (STATE.homePanel === "more") {
       const det = document.getElementById("map-details");
@@ -366,7 +382,9 @@ function wireHomeActions() {
     }
   });
   document.getElementById("btn-home-topics")?.addEventListener("click", () => {
-    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    const reopen = STATE.homePanel === "more" && STATE.homePanelSource !== "topics";
+    STATE.homePanel = STATE.homePanel === "more" && !reopen ? null : "more";
+    STATE.homePanelSource = "topics";
     renderHomeChrome();
     if (STATE.homePanel === "more") {
       const det = document.getElementById("map-details");

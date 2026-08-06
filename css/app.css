@@ -1663,7 +1663,8 @@ button.m.wrong {
   flex: 0 0 auto;
 }
 .home-btn:hover { border-color: var(--accent); color: var(--accent); background: rgba(200, 120, 64, 0.12); }
-.home-btn-primary {
+.home-btn-primary,
+.home-btn.is-active {
   border-color: var(--accent);
   background: rgba(200, 120, 64, 0.18);
   color: var(--accent);
