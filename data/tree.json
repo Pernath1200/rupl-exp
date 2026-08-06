@@ -145,9 +145,54 @@
     "b1_opinions",
     "b1_case_gym",
     "b1_wrapup",
-    "b1_station_2"
+    "b1_station_2",
+    "b2_conjunctions",
+    "b2_copular_future",
+    "b2_fem_soft",
+    "b2_adj_acc",
+    "b2_adj_gen",
+    "b2_work",
+    "b2_adj_loc",
+    "b2_adj_inst",
+    "b2_adj_dat",
+    "b2_adj_gym",
+    "b2_pron_acc",
+    "b2_pron_prep",
+    "b2_kim_czym",
+    "b2_health_system",
+    "b2_station_1",
+    "b2_ze_clauses",
+    "b2_reported",
+    "b2_indirect_q",
+    "b2_ktory_full",
+    "b2_abstract",
+    "b2_jesli",
+    "b2_gdyby",
+    "b2_loc_pl",
+    "b2_inst_pl",
+    "b2_dat_pl",
+    "b2_gen_pl_full",
+    "b2_num_subject",
+    "b2_num_virile",
+    "b2_plural_gym",
+    "b2_neg_gen",
+    "b2_double_neg",
+    "b2_sie_impersonal",
+    "b2_prosic_o",
+    "b2_jezdzic",
+    "b2_motion_prefixes2",
+    "b2_aspect_prefixes",
+    "b2_powinien",
+    "b2_verbal_nouns",
+    "b2_participle_pass",
+    "b2_passive",
+    "b2_travel_func",
+    "b2_discussion_func",
+    "b2_case_gym",
+    "b2_wrapup",
+    "b2_station_2"
   ],
-  "path_order_note": "Path-54: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1. B1 spine added 2026-08-05 (30 planned nodes, James-locked decisions in codex/B1-SPINE.md).",
+  "path_order_note": "Path-54: full A1 canopy (48 live) + A2 begun 2026-08-04 (a2_past_byc, a2_weather live; rest of A2 draft spine planned, skipped by live walk). A2 decisions 2026-08-04: full both-gender past production; singular first (a2_past_plural split, after plural-Nom); imperfective-only until a2_aspect; interleave grammar+vocab; explain fields authored from A2 unit 1. B1 spine added 2026-08-05 (30 planned nodes, James-locked decisions in codex/B1-SPINE.md). B2 spine added 2026-08-06 (45 planned nodes, agent-authored defaults in codex/B2-SPINE.md; every design fork logged in its 'Open for James to overrule' section).",
   "spine": "data/spine.json",
   "show_full_canopy_ids": {
     "grammar": [
@@ -2836,6 +2881,723 @@
       "status": "planned",
       "practice": "grammar",
       "note": "[B1 SPINE] PLACEHOLDER - end-of-level exit-velocity bank.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_conjunctions",
+      "domain": "grammar",
+      "label": "Ale, a, więc",
+      "label_en": "Joining sentences · but, and, so",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 1, unit 1. The function words the course never taught - ale, a, wiec, albo, tez, juz, jeszcze, all verified NEW via check_new.py. Zero new morphology. Placed FIRST in B2 (spine O14) because it costs no grammar and improves every B2 example sentence after it; three B1 packs record catching ale/a/tez leaking into drafts. One teaching point: ale vs a (contrast vs juxtaposition). bo (a2_questions2) and i (a2_past_plural) are anchors, never re-taught.",
+      "pedagogy": "teach",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "b2_copular_future",
+      "domain": "grammar",
+      "label": "Będę w domu",
+      "label_en": "I will be… · future of być",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 1, unit 2. Pays a2_bedzie's explicitly accepted gap: 'the COPULAR future is NOT taught... consequence, accepted: I will be at home is not yet expressible.' ZERO new forms - bede..beda are owned, every place phrase and predicate adjective is owned. The whole unit is the syntactic fact that byc's future takes no infinitive after it. Cheapest high-value unit in B2.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_fem_soft",
+      "domain": "grammar",
+      "label": "Mamie, szkole, pracy",
+      "label_en": "Feminine Dative & Locative · one rule",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 1, unit 3. PAYS B1-DIGEST DEFERRED ITEM 1: the general feminine Dative/Locative rule b1_dative_sg refused to derive ('stays untaught - James should decide whether it needs a slot'). Feminine -a -> -e with stem softening (mama/mamie, siostra/siostrze, szkola/szkole, kobieta/kobiecie) plus the -i sub-class after a soft stem (kuchnia/kuchni, praca/pracy). THE GIFT, stated openly: Dative and Locative are the same form for feminine nouns, so one rule pays for two cases. Anchors already taught on both sides: szkole/pracy (Loc, a1_prep_place), mamie/siostrze/tacie (Dat, b1_dative_sg). Verified NEW and available: kuchni, sypialni, lazience, ulicy.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_adj_acc",
+      "domain": "grammar",
+      "label": "Dobrą kawę · biernik",
+      "label_en": "Adjectives in the Accusative",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 1 of 6 (spine O2 - the adjective case system, split so no unit adds more than two endings). NO NEW ENDINGS: feminine -a is already taught (dobra, nowa, a1_miec: Mam dobra kawe) and is generalised to more adjectives; masculine-inanimate and neuter are unchanged from the Nominative, which is the relief slide. FENCED: masculine-ANIMATE (dobrego psa) waits for b2_adj_gen, where -ego is actually taught. Also fenced, per the spine's standing fence: -ego/-ym/-emu must not appear anywhere in this unit, not even as a distractor.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_adj_gen",
+      "domain": "grammar",
+      "label": "Dobrego, dobrej · dopełniacz",
+      "label_en": "Adjectives in the Genitive",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 2 of 6. Teaches -ego (m/n) and -ej (f) - one paradigm row. Payoffs on owned governors only: nie ma dobrej kawy (negation), do duzego sklepu (prep_do_gen), duzo zimnej wody (a1_gen_endings). Masculine-animate Accusative folds in here as the honest Acc=Gen exception AGENTS.md names. TRAP, flagged in advance (spine O16): check_new.py reports 'nowego' as TAUGHT - it is frozen inside a2_smalltalk's chunk 'nic nowego' and the learner has never been shown it as a genitive adjective. Treat as a chunk-to-paradigm re-teach, the dziekuje/ktorej precedent.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_work",
+      "domain": "vocab",
+      "label": "Praca i biuro",
+      "label_en": "Work & office",
+      "kind": "leaf",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B2 SPINE] Block 2 vocab interleave (so the adjective block is not six grammar units in a row). Work & office register. Verified NEW via check_new.py: wynagrodzenie, zwolnienie, nadgodziny, obowiazek, stanowisko, podanie, rozmowa, zatrudnienie, wyksztalcenie, kwalifikacje, etat, raport. ANCHORS, never re-taught (all verified TAUGHT): umowa/awans/premia/pracodawca/doswiadczenie (a2_work2), pensja/firma/szef/pracownik/biuro/spotkanie/kariera (leaf_work_a1), zarabiac (a2_shopping2).",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b2_adj_loc",
+      "domain": "grammar",
+      "label": "W nowej pracy · miejscownik",
+      "label_en": "Adjectives in the Locative",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 3 of 6. -ym (m/n) is the one new ending; -ej (f) recycles from b2_adj_gen one unit earlier. Rides all three Locative governors already owned: w/na (prep_w_loc) and o (o_loc). W nowej pracy. Mysle o dobrym filmie.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_adj_inst",
+      "domain": "grammar",
+      "label": "Dobrym nauczycielem · narzędnik",
+      "label_en": "Adjectives in the Instrumental",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 4 of 6. NO NEW ENDINGS - -ym recycles from Locative, -a from Accusative. The course's signature 'same endings, another job' unit; this is the fourth turn of the pattern that runs inst_identity -> inst_z -> inst_transport. Jestem dobrym nauczycielem. Jade z mila siostra. Jade nowym autobusem.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_adj_dat",
+      "domain": "grammar",
+      "label": "Dobremu · celownik",
+      "label_en": "Adjectives in the Dative",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 5 of 6. -emu (m/n) is the one new ending; -ej (f) recycles for the third time. Small by design. Rides pomagac/dawac/dziekowac from B1's dative block.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_adj_gym",
+      "domain": "grammar",
+      "label": "Siłownia · dobry",
+      "label_en": "Adjective case gym",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 2, unit 6 of 6. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym line): ZERO new material, teaches_structures and teaches_lemmas both empty. Six-way adjective-case discrimination on one or two adjectives across many already-taught nouns.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_pron_acc",
+      "domain": "grammar",
+      "label": "Mnie, cię, go",
+      "label_en": "Accusative pronouns",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 3, unit 1. Accusative personal pronouns: mnie, cie, go, ja, nas, was, ich (all verified NEW except mnie). THE PAYOFF IS AN IOU THREE LEVELS OLD: a2_dat_chunks taught 'boli mnie' and its own note says 'mnie in boli mnie is accusative, not dative - deliberately NOT explained.' This unit explains it. Second half is a CONTRAST with the Dative set b1_dative_pron already owns (mi/ci/mu/jej) - a contrast, not new material. AUDITOR BLIND SPOT: person pronouns sit in audit.py's GLUE_LEMMAS, so no pronoun fence in B2 is machine-enforced; it is author discipline only.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_pron_prep",
+      "domain": "grammar",
+      "label": "O nim, z nią",
+      "label_en": "Pronouns after prepositions",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 3, unit 2. The n- forms after prepositions: o nim, o niej, z nim, z nia, do niego, dla niej (nim, niej, nich, nimi all verified NEW). Pays a2_o_loc's named fence: 'pronoun objects - o tobie, o mnie, o nim, o niej are new pronoun forms, absent from POOL... They need their own small unit.' Each preposition reuses its already-taught case; only the pronoun shape is new.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_kim_czym",
+      "domain": "grammar",
+      "label": "Z kim? O czym?",
+      "label_en": "Who with? About what?",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 3, unit 3. The oblique question words: kim, czym, kogo, czego, komu (all verified NEW). Pays two named fences at once - a2_inst_z's ('kim is a new pronoun form and is not in POOL... if James wants Z kim? as a live question it needs its own small unit', the fence behind one of AGENTS.md's three title-rule violations) and a2_o_loc's (o czym kept out of every slide and out of body_pl too). Deliberately small.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_health_system",
+      "domain": "vocab",
+      "label": "Przychodnia i szpital",
+      "label_en": "The health system",
+      "kind": "leaf",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B2 SPINE] Block 3 vocab. The health SYSTEM register - navigating care, not body parts (a1_body/a1_health/a2_health2 own those). Verified NEW: skierowanie, leczenie, objaw, diagnoza, oddzial, pogotowie, zabieg, operacja, specjalista, rejestracja, wyniki, izba. ANCHORS, never re-taught: karetka (leaf_health_a1), ubezpieczenie (a2_health2), kolejka (leaf_shopping_a1).",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b2_station_1",
+      "domain": "grammar",
+      "label": "Stacja B2 · 1",
+      "label_en": "Rep station B2-1",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] PLACEHOLDER - rep bank. Stays 'planned' forever, same as A2's four stations and B1's two. Never authored, never flipped live.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_ze_clauses",
+      "domain": "grammar",
+      "label": "Wiem, że…",
+      "label_en": "I know that… · że-clauses",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 1. ze as a productive complement conjunction: Wiem, ze... / Mysle, ze... / Mowil, ze... Rides wiem (a2_directions_func), mysle (a2_o_loc), mowil/mowila (a2_past_rest) - all owned, so the only new thing is the joint. TRAP, flagged in advance (spine O16): check_new.py reports 'ze' as TAUGHT, from b1_polite - but it is frozen inside 'Przepraszam, ze przeszkadzam' and that pack's own note says ze was verified untaught and never built. Re-teach explicitly, dziekuje/ktorej precedent, and say so on the slide. Also teaches the comma Polish requires and English does not - one line, one fact.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_reported",
+      "domain": "grammar",
+      "label": "Mówił, że…",
+      "label_en": "Reported speech",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 2. ONE new fact, and it is a relief: Polish does not back-shift the tense. 'Jestem zmeczony' -> Powiedzial, ze JEST zmeczony. Framed like a2_bedzie's 'the future has no gender' gift. mowil/mowila (owned) carry the unit; powiedzial/powiedziala (NEW) taught here as the perfective twin, whole, per the spine's closed-list treatment of aspect pairs (O7.2) - no prefix rule.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_indirect_q",
+      "domain": "grammar",
+      "label": "Nie wiem, gdzie…",
+      "label_en": "Indirect questions",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 3. Pays a2_questions2's own fence, named there and never built: 'no indirect questions (Nie wiem, kiedy... is B1)'. Nie wiem, gdzie on mieszka. Nie wiem, czy... Every question word is already owned (gdzie, kiedy, ile, czy, dlaczego, ktory); czy doing double duty as 'whether' is the one new job and is named as such.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_ktory_full",
+      "domain": "grammar",
+      "label": "Z którym? O którym?",
+      "label_en": "który · all cases + animate antecedents",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 4. PAYS B1-DIGEST DEFERRED ITEM 2, both halves. (a) Locative and Instrumental relatives (film, o ktorym mowilem; kolega, z ktorym pracuje) - b1_ktory_cases fenced these completely and logged 'deferred to a later pass or a dedicated unit'. (b) Masculine-ANIMATE antecedents (pies, ktorego mam) - fenced there because ktorego would sit in the Accusative table for a different reason than in the Genitive table; that objection dissolves once b2_adj_gen has taught Acc=Gen for masculine animates as a general fact, which is why this node sits after the adjective block.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_abstract",
+      "domain": "vocab",
+      "label": "Powód i cel",
+      "label_en": "Abstract ideas · discussion nouns",
+      "kind": "leaf",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "vocab",
+      "note": "[B2 SPINE] Block 4 vocab. Abstract-discussion nouns - the vocabulary opinions actually need. Verified NEW: przyczyna, skutek, wplyw, zmiana, rozwiazanie, korzysc, wada, zaleta, cel, sposob, wartosc, mozliwosc, wybor, decyzja, spoleczenstwo, srodowisko. TRIM TO 12 - the list is deliberately longer than the unit needs so the author can drop any word whose oblique forms would cost extra. ANCHORS: powod/sytuacja/przyszlosc/przeszlosc (leaf_ideas_a1), problem/przyklad/znaczenie (leaf_school_a1), all of b1_opinions.",
+      "pedagogy": "teach",
+      "parent": "trunk"
+    },
+    {
+      "id": "b2_jesli",
+      "domain": "grammar",
+      "label": "Jeśli…",
+      "label_en": "Real conditions · if",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 5. Real conditions: jesli + present/future (jesli verified NEW). Jesli bedzie ladna pogoda, bede w parku. Zero new morphology - both halves are tenses the learner owns, and b2_copular_future back in Block 1 is what makes the natural main clause expressible.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_gdyby",
+      "domain": "grammar",
+      "label": "Gdybym miał czas…",
+      "label_en": "Unreal conditions · if I had",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 4, unit 6. Unreal conditions: gdybym/gdybys/gdyby + L-form, main clause in the conditional. Pays b1_conditional_sg's named fence ('no gdybym/jesli...by clauses - simple wishes and soft requests only'). The person marker on gdyby is the IDENTICAL -m/-s/zero family already owned twice over (bym/bys/by from the conditional units, zebym/zebys from b1_zeby) - say so; it is the third turn of one pattern, not a new one.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_loc_pl",
+      "domain": "grammar",
+      "label": "W domach, w sklepach",
+      "label_en": "Locative plural · -ach",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 1. Locative plural -ach: one ending, no gender split, essentially no exceptions - the easiest unit in B2 and placed first in the block for that reason. ANCHOR: 'w gorach' is already taught whole (a2_travel), so the unit can open with 'you have been saying one of these since A2.'",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_inst_pl",
+      "domain": "grammar",
+      "label": "Z rodzicami",
+      "label_en": "Instrumental plural · -ami",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 2. Instrumental plural -ami. Pays a2_inst_z's named fence ('plural instrumental (z rodzicami, z dziecmi) - B1, different ending set'). rodzicami verified NEW; rodzice owned from a2_family2. dziecmi/ludzmi are irregular - taught whole or fenced, author's conservative call, to be logged in the pack note.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_dat_pl",
+      "domain": "grammar",
+      "label": "Studentom, rodzicom",
+      "label_en": "Dative plural · -om",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 3. Dative plural -om. One ending. Rides B1's dative verbs (pomagac, dziekowac, dawac). Deliberately small - spine O9 kept the three plural obliques as three one-ending units rather than one three-ending cliff.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_gen_pl_full",
+      "domain": "grammar",
+      "label": "Szkół, książek, okien",
+      "label_en": "Genitive plural · the hard stems",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 4. Opens what a2_gen_pl fenced, as CLOSED FAMILIES OF WHOLE FORMS, not a productive rule (spine O10): vowel-shift (szkol), fleeting-e (ksiazek, okien), soft-stem masculines. All verified NEW. Every noun used must already be owned in the Nominative plural. The kelnerzy/moglby/family-datives treatment - never asked to apply it to an unseen noun.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_num_subject",
+      "domain": "grammar",
+      "label": "Pięć osób było",
+      "label_en": "Numbers as subject",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 5. A 5+ numeral phrase as grammatical SUBJECT takes a neuter-singular verb (Piec osob bylo w sklepie). This is a2_numbers_gen's own deferral, in its own words: '5+ phrases never stand as the subject of a verb in this pack, because that would need the neuter-singular agreement rule (B1)' - never built. NOTE (spine O8): the routine brief's claim that 'piec piw Gen-pl' is still deferred is out of date - a2_numbers_gen teaches it and piec piw is one of its own frames. This unit and b2_num_virile are what actually remained.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_num_virile",
+      "domain": "grammar",
+      "label": "Pięciu studentów",
+      "label_en": "Counting men",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 6. Virile numerals: pieciu studentow, dwoch lekarzy (pieciu, wielu, osob all verified NEW). a2_numbers_gen's other deferral: 'NO PEOPLE-COUNTING anywhere - virile numerals (pieciu) are B1.' Sits deep in B2 because it needs the whole virile block (B1) AND Gen-pl completion. Closed set of numerals only; no derivation rule.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_plural_gym",
+      "domain": "grammar",
+      "label": "Siłownia · domy i ludzie",
+      "label_en": "Plural case gym",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 5, unit 7. Gym idiom: ZERO new material, teaches_* empty. All seven plural jobs the learner now owns - Nom, Acc, Gen, Loc, Inst, Dat, virile Nom - in one discrimination board.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_neg_gen",
+      "domain": "grammar",
+      "label": "Nie kupiłem chleba",
+      "label_en": "Genitive after nie",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 1. The genitive of negation, generalised past 'nie mam'. a1_negation taught nie mam kawy as a fact about miec; it is a fact about EVERY negated transitive verb (Nie kupilem chleba. Nie widze kawy.). One rule extension, high frequency, and it names a pattern the learner has already met without a name. NOTE: chleba is verified NEW - chleb is one of the real-world exceptions to this course's simplified masculine-genitive rule, already caught once in b1_imperative_rule; teach the form or pick another noun.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_double_neg",
+      "domain": "grammar",
+      "label": "Nikt nie wie",
+      "label_en": "Double negation",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 2. ADDED BEYOND THE ROUTINE BRIEF'S LIST, logged as an addition rather than a silent guess (spine O13, the na szczescie / nie zgadzac sie / malo precedent). Obligatory double negation: nikt, nigdzie, zaden (all verified NEW) with an obligatory second nie on the verb - Nikt nie wie. Nigdzie nie ide. nic and nigdy are already owned and are the anchors, so the learner has half the set and none of the syntax. English speakers get this wrong permanently unless it is named.",
+      "pedagogy": "teach",
+      "root": "sentence",
+      "tree_part": "sentence"
+    },
+    {
+      "id": "b2_sie_impersonal",
+      "domain": "grammar",
+      "label": "Jak się mówi?",
+      "label_en": "Impersonal się",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 3. Impersonal sie: Jak sie mowi po polsku? Tu sie nie pali. Mowi sie, ze... Extends a2_sie's framing (sie is a word that BELONGS to the verb, never 'self') to a construction with no subject at all. Verb always 3sg. Big functional payoff for someone reading signs.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_prosic_o",
+      "domain": "grammar",
+      "label": "Proszę o kawę",
+      "label_en": "prosić o + Accusative",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 4. PAYS B1-DIGEST DEFERRED ITEM 3 (spine O11). prosic o + ACCUSATIVE (prosic verified NEW). b1_giving deferred it and asked James to decide whether it needs a slot; b1_polite separately dropped 'Poprosze o...' for the same reason. Both gave the same argument: o is already taught as a LOCATIVE governor (o_loc: mowie o pracy), so o + Accusative is a live homograph trap ON A FUNCTION WORD - which is exactly why it earns its own moment. The contrast (mowie o pracy vs prosze o kawe) IS the unit.",
+      "pedagogy": "teach",
+      "root": "links",
+      "tree_part": "links"
+    },
+    {
+      "id": "b2_jezdzic",
+      "domain": "grammar",
+      "label": "Idę, chodzę, jadę, jeżdżę",
+      "label_en": "The motion grid closed",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 5. Closes the motion grid a2_chodzic left open. That pack fenced jezdzic so hard its own note says the word is 'not named, glossed, hinted at or used as a distractor anywhere in this file, note included'. Four verbs finally in one table: ide/chodze (on foot, now/habitually) x jade/jezdze (by vehicle, now/habitually). Only jezdze's forms are new; the four-way grid is the payoff.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_motion_prefixes2",
+      "domain": "grammar",
+      "label": "Poszedłem, wszedłem",
+      "label_en": "More motion prefixes",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 6 (spine O7.1). More prefixes on the owned motion stems: pojsc, wejsc, dojsc, przejsc and their -jechac partners. b1_arrive_leave taught only przy- and wy-; b1_wrapup's digest records poszedlem being caught and rejected during drafting as 'a THIRD prefix on isc's suppletive past stem beyond the two b1_arrive_leave actually taught'. Same treatment as b1_arrive_leave: the prefix welds onto a stem table the learner already has.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_aspect_prefixes",
+      "domain": "grammar",
+      "label": "Pisać czy napisać?",
+      "label_en": "More aspect pairs",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 7 (spine O7.2). A CLOSED SET of new aspect pairs, learned whole, NO RULE: pisac/napisac, gotowac/ugotowac, jesc/zjesc, placic/zaplacic, sprzatac/posprzatac (all perfectives verified NEW). Every imperfective member is already owned, so each pair costs one new word, not two. Pays a2_aspect's four-twins-only limit WITHOUT breaking its framing - that pack's own note says 'the prefixes are unpredictable... learn the pair whole, never build the second verb from the first', and this pack must restate that out loud. Productive semantic prefixation on non-motion verbs is C1.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_powinien",
+      "domain": "grammar",
+      "label": "Powinienem",
+      "label_en": "Should · and past modals",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 6, unit 8. Modal completion, paying two a2_musiec fences ('past of musiec (musialem/musiala, trzeba bylo) - it would hand back the gender this unit just removed'; 'conditional powinienem' dropped). Teaches powinienem/powinnam/powinien/powinna (verified NEW - obligation carrying gender, unusual and worth naming) plus the past of the modals already owned: musialem/musiala, trzeba bylo, mozna bylo - straight applications of the past_ac rule owned since A2.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_verbal_nouns",
+      "domain": "grammar",
+      "label": "Czytanie, pisanie, gotowanie",
+      "label_en": "Verbal nouns · -anie/-enie",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 7, unit 1. The -anie/-enie pattern. EXCEPTIONALLY WELL ANCHORED: check_new.py confirms pisanie, czytanie, plywanie, bieganie and spotkanie are ALREADY TAUGHT - as ordinary nouns, since A1. So the unit's whole idea is 'five words you already know are made from verbs you already know, and the pattern is regular.' Produces gotowanie, sprzatanie, mowienie, robienie (all verified NEW). Gender is uniformly neuter - a second gift, since it makes every one of them decline in a pattern already owned.",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_participle_pass",
+      "domain": "grammar",
+      "label": "Otwarty, zamknięty, zrobiony",
+      "label_en": "Passive participles",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 7, unit 2 (spine O4 - the B2/C1 participle fork). The passive adjectival participle, PREDICATE POSITION ONLY: zrobiony, napisany (NEW), anchored on otwarty/zamkniety, which check_new.py confirms are ALREADY TAUGHT as plain adjectives by leaf_shopping_a1. Agrees like any adjective - which Block 2 has just taught, so agreement costs nothing. FENCED TO C1: attributive/declined participles (w zamknietym sklepie), adverbial participles (robiac, zrobiwszy), the active adjectival participle (pracujacy).",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_passive",
+      "domain": "grammar",
+      "label": "Sklep jest zamknięty",
+      "label_en": "The state passive",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 7, unit 3 (spine O5). byc + participle: Sklep jest zamkniety. Praca jest zrobiona. Obiad byl ugotowany. ZERO new forms - the participles come from the unit before, byc is owned in all three tenses. FENCED TO C1: the zostac dynamic passive (Sklep zostal zamkniety) - zostac is an untaught verb with its own conjugation, so teaching it here would stack a new verb on a new construction.",
+      "pedagogy": "teach",
+      "root": "verbs",
+      "tree_part": "verbs"
+    },
+    {
+      "id": "b2_travel_func",
+      "domain": "grammar",
+      "label": "Dworzec i hotel",
+      "label_en": "Situations · travel logistics",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 8, unit 1. Situations/chunk unit (spine O12): checking in, the delayed train, the booked room. Genre of a2_directions_func / b1_polite. EVIDENCE FOR THE CHUNK-LANE CALL, not preference: of 16 obvious travel-logistics nouns run through check_new.py, TWELVE are already taught (lotnisko, peron, dworzec, bilet, przesiadka, opoznienie, bagaz, walizka, rezerwacja, odjazd, przyjazd, rozklad) - the gap in this domain is phrases, not words. Verified NEW and available: nocleg, odlot, przylot, wsiadac, wysiadac, potwierdzic, wazny, doba, plus opozniony/odwolany - which are PASSIVE PARTICIPLES, so this unit sits immediately after b2_participle_pass on purpose and gets them for free.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b2_discussion_func",
+      "domain": "grammar",
+      "label": "Rozmowa",
+      "label_en": "Situations · taking part in a discussion",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 8, unit 2. Situations/chunk unit: agreeing, disagreeing politely, asking someone to expand, conceding a point. Recombines b1_opinions, b2_ze_clauses, b2_abstract and the conditional. Candidates verified NEW: uwazam, wydaje mi sie, zalezy, raczej, wlasnie, wedlug. Label uses 'rozmowa', taught earlier in B2 by b2_work - re-verify at wire time.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b2_case_gym",
+      "domain": "grammar",
+      "label": "Siłownia · wszystko 2",
+      "label_en": "All-cases gym · B2",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 8, unit 3. Gym idiom: ZERO new material, teaches_* empty. Extends b1_case_gym's eleven jobs with everything B2 added - adjective agreement in five cases, oblique pronouns, the three plural obliques. This board will be dense: split it across two intro slides rather than compressing, and log the call (b1_case_gym's own digest entry already flagged its eleven-job table as borderline for a review unit).",
+      "pedagogy": "teach",
+      "root": "forms",
+      "tree_part": "forms"
+    },
+    {
+      "id": "b2_wrapup",
+      "domain": "grammar",
+      "label": "Praca, zdrowie, droga",
+      "label_en": "B2 capstone",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] Block 8, unit 4. B2 CAPSTONE, genre of a2_wrapup_func / b1_wrapup. Zero new material. Recombines the registers B2 added - work, health system, travel logistics, discussion - into mixed scenes. FOUR registers, matching b1_wrapup's own deliberate four-way limit; do not stack a fifth.",
+      "pedagogy": "teach",
+      "root": "chunks",
+      "tree_part": "chunks"
+    },
+    {
+      "id": "b2_station_2",
+      "domain": "grammar",
+      "label": "Stacja B2 · 2",
+      "label_en": "Rep station B2-2 (exit)",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "note": "[B2 SPINE] PLACEHOLDER - end-of-level exit-velocity bank. Stays 'planned' forever.",
       "pedagogy": "teach",
       "root": "forms",
       "tree_part": "forms"
