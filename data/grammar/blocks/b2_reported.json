@@ -368,93 +368,103 @@
  "type_items": [
   {
    "prompt_en": "Dad said that the shop was closed.",
-   "mode": "full_word",
-   "answer": "Tata powiedział, że sklep jest zamknięty.",
+   "mode": "cloze",
+   "answer": "powiedział",
    "accepts": [
-    "Tata powiedział, że sklep jest zamknięty.",
-    "Tata powiedział, że sklep jest zamknięty"
-   ]
+    "powiedział"
+   ],
+   "frame": "Tata ___, że sklep jest zamknięty.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on powiedział — a teaches_lemma and the unit's headline form."
   },
   {
    "prompt_en": "Mum said that the coffee was good.",
-   "mode": "full_word",
-   "answer": "Mama powiedziała, że kawa jest dobra.",
+   "mode": "cloze",
+   "answer": "powiedziała",
    "accepts": [
-    "Mama powiedziała, że kawa jest dobra.",
-    "Mama powiedziała, że kawa jest dobra"
-   ]
+    "powiedziała"
+   ],
+   "frame": "Mama ___, że kawa jest dobra.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on powiedziała, the feminine third-person teaches_lemma."
   },
   {
    "prompt_en": "The doctor said that the results were good.",
-   "mode": "full_word",
-   "answer": "Lekarz powiedział, że wyniki są dobre.",
+   "mode": "cloze",
+   "answer": "są",
    "accepts": [
-    "Lekarz powiedział, że wyniki są dobre.",
-    "Lekarz powiedział, że wyniki są dobre"
-   ]
+    "są"
+   ],
+   "frame": "Lekarz powiedział, że wyniki ___ dobre.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: powiedział is spent at item 0. Blanks the reported clause's verb, which is where the no-back-shift rule actually bites — English says 'were', Polish keeps the są that was spoken."
   },
   {
    "prompt_en": "I (a man) said that I was tired.",
-   "mode": "full_word",
-   "answer": "Powiedziałem, że jestem zmęczony.",
+   "mode": "cloze",
+   "answer": "Powiedziałem",
    "accepts": [
-    "Powiedziałem, że jestem zmęczony.",
-    "Powiedziałem, że jestem zmęczony"
-   ]
+    "Powiedziałem"
+   ],
+   "frame": "___, że jestem zmęczony.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on Powiedziałem, the masculine first-person teaches_lemma. The frame's zmęczony fixes the gender the prompt names."
   },
   {
    "prompt_en": "I (a woman) said that I was tired.",
-   "mode": "full_word",
-   "answer": "Powiedziałam, że jestem zmęczona.",
+   "mode": "cloze",
+   "answer": "Powiedziałam",
    "accepts": [
-    "Powiedziałam, że jestem zmęczona.",
-    "Powiedziałam, że jestem zmęczona"
-   ]
+    "Powiedziałam"
+   ],
+   "frame": "___, że jestem zmęczona.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on Powiedziałam, the feminine first-person teaches_lemma. The frame's zmęczona fixes the gender the prompt names."
   },
   {
    "prompt_en": "Dad said that Mum would be at home.",
-   "mode": "full_word",
-   "answer": "Tata powiedział, że mama będzie w domu.",
+   "mode": "cloze",
+   "answer": "będzie",
    "accepts": [
-    "Tata powiedział, że mama będzie w domu.",
-    "Tata powiedział, że mama będzie w domu"
-   ]
+    "będzie"
+   ],
+   "frame": "Tata powiedział, że mama ___ w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Fallback blank: powiedział spent at item 0. Blanks będzie — slide 1's fact in production, where English reaches for 'would be' and Polish keeps what was said."
   },
   {
    "prompt_en": "My sister said that she had a new car.",
-   "mode": "full_word",
-   "answer": "Siostra powiedziała, że ma nowy samochód.",
+   "mode": "cloze",
+   "answer": "ma",
    "accepts": [
-    "Siostra powiedziała, że ma nowy samochód.",
-    "Siostra powiedziała, że ma nowy samochód"
-   ]
+    "ma"
+   ],
+   "frame": "Siostra powiedziała, że ___ nowy samochód.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: powiedziała spent at item 1. Blanks the un-back-shifted present ma against the prompt's English 'had'."
   },
   {
    "prompt_en": "Mum said that the weather would be nice.",
-   "mode": "full_word",
-   "answer": "Mama powiedziała, że pogoda będzie ładna.",
+   "mode": "cloze",
+   "answer": "ładna",
    "accepts": [
-    "Mama powiedziała, że pogoda będzie ładna.",
-    "Mama powiedziała, że pogoda będzie ładna"
-   ]
+    "ładna"
+   ],
+   "frame": "Mama powiedziała, że pogoda będzie ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. THE ONE OFF-POINT BLANK IN THIS PACK: powiedziała is spent at item 1 and będzie at item 5, so neither the saying verb nor the kept tense was available. Blanks the feminine adjective agreeing with pogoda — the most load-bearing form left, per the queue's fallback clause."
   },
   {
    "prompt_en": "The doctor said that I had a referral.",
-   "mode": "full_word",
-   "answer": "Lekarz powiedział, że mam skierowanie.",
+   "mode": "cloze",
+   "answer": "mam",
    "accepts": [
-    "Lekarz powiedział, że mam skierowanie.",
-    "Lekarz powiedział, że mam skierowanie"
-   ]
+    "mam"
+   ],
+   "frame": "Lekarz powiedział, że ___ skierowanie.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: powiedział spent at item 0. Blanks the un-back-shifted 1sg mam against the prompt's English 'had' — distinct from item 6's ma."
   },
   {
    "prompt_en": "My brother said that he was working in an office.",
-   "mode": "full_word",
-   "answer": "Brat powiedział, że pracuje w biurze.",
+   "mode": "cloze",
+   "answer": "pracuje",
    "accepts": [
-    "Brat powiedział, że pracuje w biurze.",
-    "Brat powiedział, że pracuje w biurze"
-   ]
+    "pracuje"
+   ],
+   "frame": "Brat powiedział, że ___ w biurze.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: powiedział spent at item 0. Blanks the un-back-shifted present pracuje against the prompt's English 'was working'."
   }
  ],
  "use_items": [
