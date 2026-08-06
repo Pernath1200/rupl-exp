@@ -2710,17 +2710,18 @@
       "id": "b1_stories_func",
       "domain": "grammar",
       "label": "Co się stało?",
-      "label_en": "What happened · situations",
+      "label_en": "What happened? · telling a story",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Situations: telling what happened - past+aspect+motion+connectives recombined.",
+      "note": "Situations unit: recombines najpierw/potem/w koncu/nagle/niestety/na szczescie with already-taught past/aspect/motion/virile material into short narratives. Teaches one small new closed chunk set on the opaque form stalo: Co sie stalo? / Cos sie stalo. / Nic sie nie stalo. — never conjugated as a verb, same chunk-lane treatment as nie slysze.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b1_stories_func.json"
     },
     {
       "id": "b1_imperative_rule",
