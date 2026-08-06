@@ -221,3 +221,201 @@ Polish tokens across the batch. Notes on what that caught:
   Dative & Locative · one rule" to "Feminine nouns · one form for Dative and
   Locative") so the learner-visible title states the gift rather than just
   naming the cases.
+
+## Batch 2 — Block 2, units 1–3 of 7
+
+Built `b2_adj_acc`, `b2_adj_gen`, `b2_work` — the first three units of B2's
+adjective-case block, which is the largest untaught system left in the course.
+Each audit-clean (0 errors; the same 2 pre-existing, unrelated warns from
+`a2_prep_review` / `b1_two_futures` that B1 and B2 batch 1 both carried),
+pushed to `origin/b1-build` one at a time, not batched. Two new structures
+registered in `SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before
+each audit ran: `adj_acc`, `adj_gen`.
+
+Path is now live through `b2_work` (path index 136, 131 live nodes). Next
+unbuilt B2 node: `b2_adj_loc` — where `-ym` is finally taught.
+
+### `b2_adj_acc` (Block 2, unit 1 — the block opens with no new ending at all)
+
+The spine put this first on the reasoning that it is the cheapest of the six,
+and reading `a1_miec` confirmed the claim is stronger than the spine knew.
+`a1_miec` does not merely *use* `dobrą kawę` — it teaches the swap explicitly
+(*dobra kawa → Mam dobrą kawę. nowa książka → Mam nową książkę.*) and its own
+`body_pl` already states the relief in Polish: *Męskie rzeczy i nijakie bez
+zmian.* So both halves of this unit's rule have been in Dad's hands since path
+index 9.
+
+What is genuinely new is therefore small and was kept small: **six more
+feminine object forms** (`małą`, `dużą`, `zimną`, `gorącą`, `starą`, `ładną` —
+all verified NEW, and every one of their Nominative base forms already taught
+from a *Jest*-predicate sentence in an A1/A2 vocab leaf), plus **the
+generalisation off `mieć`**. That second half is the real content: `a1_miec`
+ran the pattern with exactly one verb, and this unit runs it after `mam`,
+`piję`, `czytam`, `kupuję`, `kupię`, `robi` and `poproszę`, which is what turns
+a fact about having things into a rule.
+
+**The fence that mattered most,** and the one this whole block will keep
+threatening: no oblique adjective ending appears anywhere — not `-ego`, not
+`-ej`, not `-ym`, not `-emu`, and not as a distractor. `b2_adj_gen` was the
+very next unit written in this same run, so the temptation to preview was
+immediate and concrete; it was refused. Masculine-**animate** accusative is
+fenced with it and named in one English line on slide 2 with no form shown.
+Masculine animates appear in the pack only as grammatical *subjects*
+(*Mój brat ma stary samochód*).
+
+**A homograph avoided that the machine would never have caught:** `nowe` and
+`duże` are not used in this pack at all, despite both reporting TAUGHT. They
+were taught by `a2_plural_nom` as **plural** adjectives (*nowe książki*), and
+using them here as neuter *singulars* would have sprung that collision
+unannounced. The neuter slots take `dobre` and `małe` instead, both of which
+were taught as neuter singulars (`a1_gender_check`'s *dobre piwo*,
+`trunk_adjectives_a1`'s *Mieszkanie jest małe*). The same line is held in
+`b2_work` two units later.
+
+### `b2_adj_gen` (Block 2, unit 2 — the first real endings, and the O16 trap pays)
+
+`-ego` for masculine and neuter, `-ej` for feminine. **Form count deliberately
+held down:** only four adjectives — `dobry`, `nowy`, `mały`, `zimny` — each in
+*both* forms, so the learner meets a symmetrical paradigm rather than a word
+list. `duży` and `stary` were dropped for that reason alone and cost nothing to
+add later inside `b2_adj_gym`. Seven forms verified NEW.
+
+**The spine predicted this trap one batch in advance and it landed exactly as
+described.** `nowego` reports TAUGHT — `a2_smalltalk`, path 54 — but only
+frozen inside the chunk *Nic nowego*. Slide 3 is entirely that reveal and is
+played as a gift rather than a correction: a lump Dad already says turns out to
+contain the ending he has just learned. Same treatment `b1_dative_sg` gave
+`dziękuję` and `b1_ktory_cases` gave `której`.
+
+**No new governors.** All three triggers are already owned and are the ones the
+spine named: `nie mam`/`nie ma` + Gen, `do` + Gen, and `dużo` + Gen — the last
+of which `a1_gen_endings` literally teaches as *dużo kawy / dużo wody / dużo
+mleka*. The only change is that the adjective now comes along.
+
+**Masculine-animate Accusative folds in here** and closes the gap `b2_adj_acc`
+left open by design an hour earlier. For masculine people and animals the
+object form *is* this form (*Mam małego psa*), and the nouns have been
+Acc≡Gen since `a1_miec`, which says so in its own note. That pairing is the
+entire reason these two units sit in this order, and it worked.
+
+**One fence nobody in this project has had to state before, and it is the
+judgment call worth James's eye in this batch:** `z` / `ze` + Genitive is kept
+out of the unit completely, even though it is a perfectly good owned Genitive
+governor and would have widened the practice. Reason: Dad owns `ze sklepu` and
+`ze szkoły` as whole forms, and inserting an adjective flips the preposition
+back to `z` — *z nowego sklepu* — because `ze`/`z` looks at the word
+immediately after it, not at the noun. That is a second fact about the
+*preposition*, not about the adjective, and teaching it alongside two new
+endings is the do/z cliff in miniature. `do` and `nie ma` carry the unit
+instead. **If that call is wrong it is cheap to reverse** — it adds match rows,
+it does not restructure anything.
+
+Also fenced: `-ym`/`-emu` including as distractors; plural genitive adjectives
+(C1, spine O3); and `pracy`, which is a perfectly good feminine Genitive but
+which `b2_fem_soft` taught *one unit earlier* as the Dative/Locative form —
+re-showing it here as a Genitive in the same breath as a new ending would have
+been a self-inflicted homograph.
+
+### `b2_work` (Block 2 vocab interleave)
+
+Twelve new words. Every one re-checked with `check_new.py` at build time rather
+than trusted from the spine, and every one of the spine's thirteen claimed
+anchors re-checked too — all thirteen came back TAUGHT and are recycled in the
+sentence bank, never re-taught.
+
+**The unexpected gift, and why the pack is far lighter than "twelve new words"
+sounds:** eleven of the twelve need no second form. Six are neuter
+(`wynagrodzenie`, `zwolnienie`, `stanowisko`, `podanie`, `zatrudnienie`,
+`wykształcenie`), three are masculine things (`obowiązek`, `etat`, `raport`)
+and two are plural non-virile (`nadgodziny`, `kwalifikacje`) — and for all
+three of those groups the object form is identical to the plain form. Only
+`rozmowa` takes a second form, `rozmowę`, which is the `-a → -ę` swap owned
+since A1. **Twelve words, one extra form.**
+
+**`rozmowa` is a chunk-to-word reveal, flagged because the tool cannot see
+it:** `check_new.py` reports the bare word NEW, and it is — but `a2_work2`
+taught `rozmowa kwalifikacyjna` ("job interview") as one frozen lump a level
+ago, so Dad has been saying the string for months. The gloss names the plain
+word ("conversation, talk") and the sentence bank uses it only in that plain
+sense.
+
+**A sense was deliberately cut, and this is the second judgment call worth
+James's eye:** `zwolnienie` is glossed *only* as "dismissal, being let go". Its
+other everyday sense — `zwolnienie lekarskie`, a doctor's sick note — appears
+nowhere in the pack, not even as a parenthetical. It belongs to
+`b2_health_system` later in this same block-list, which is exactly the register
+for it. Teaching both senses at once would be two words wearing one spelling.
+
+**Feeds `b2_verbal_nouns` and deliberately does not spend it:** five of these
+words (`wynagrodzenie`, `zwolnienie`, `zatrudnienie`, `wykształcenie`,
+`podanie`) are `-enie`/`-anie` verbal nouns, which is precisely the material
+that later unit is built on — words already owned as ordinary nouns turning out
+to share a pattern. Nothing in this pack names the verb behind any of them or
+mentions the pattern at all.
+
+### Verification performed on all three packs
+
+Same discipline as batch 1, with the scanner from that batch reused and
+extended: every Polish string in every stage — intro tables, `body_pl`, quiz
+distractors, `accepts` arrays and vocab block items included — extracted and
+scanned token by token against the position-aware pool plus each pack's own
+`teaches_lemmas`. Notes on what that caught:
+
+- **A real error in my own slide, caught by the scanner and not by the audit.**
+  `b2_adj_gen`'s slide 1 table originally listed the neuter row as
+  `zimny → zimnego` and the feminine row as `dobry → dobrej`. Both "plain
+  form" cells were simply wrong — the neuter of `zimny` is `zimne` and the
+  feminine of `dobry` is `dobra` — and worse, `zimne` came back **NEW**, so
+  the corrected version could not be shown either. The table was rebuilt with
+  six rows using only plain forms that are actually taught (`nowy`, `mały`,
+  `dobre`, `dobra`, `nowa`, `zimna`), and slide 2's example column was
+  re-pointed so that all seven taught forms appear somewhere in the intro.
+  **The auditor would never have flagged this**: `zimny` and `dobry` are both
+  taught, so every string was legal. It was wrong pedagogy wearing legal tags.
+- **Fence scan added for this block specifically.** A regex pass over every
+  Polish string in all three packs looking for `-ym`/`-emu`/`-ych`/`-ymi` on
+  any of the eight adjective stems in play. Clean in all three. This is worth
+  re-running on `b2_adj_loc` and `b2_adj_inst`, where the fence inverts.
+- Mechanical stage checks per grammar pack: Match exactly 12 rows, no duplicate
+  answers within any stage, every quiz answer present among its own choices, no
+  duplicated choices, no Użycie item repeating a Pisanie item, and every form in
+  `teaches_lemmas` actually demanded in a drill stage.
+- For `b2_work`: no duplicate block items, no duplicate sentences, gender badge
+  present on every one of the twelve nouns, every item-level `structures`/
+  `lemmas` tag a subset of the pack declaration, and every taught lemma demanded.
+- Distractor discipline held throughout: every wrong choice in both grammar
+  packs is real taught Polish in the wrong slot. `b2_adj_gen`'s two
+  full-sentence items use wrong *combinations* of real forms (*Nie mam zimną
+  wody.*, *Mam małego pies.*) so that each explain can name which half failed
+  to move. `zimne` and `stare` were kept out of every distractor pool — both
+  came back NEW and neither is taught anywhere.
+- No meta-questions about the language in any Kontrola stage.
+
+### For James's next smoke pass
+
+- **The `z`/`ze` fence in `b2_adj_gen` is the call I would most want a second
+  opinion on** — see above. It narrows the unit's practice to `do`, `nie ma`
+  and `dużo`, which is three governors and plenty, but it does mean Dad will
+  meet *z nowego sklepu* in the wild before the course explains why it is not
+  *ze nowego sklepu*.
+- **`b2_adj_gen`'s slide 3** (the *Nic nowego* reveal) is the framing I would
+  watch live. It has to land as "you already own this" and not as "you have
+  been saying something you did not understand". Batch 1 flagged the same risk
+  on `b2_copular_future`'s gender slide; it is the same idiom and the same
+  hazard.
+- **`b2_adj_acc` is deliberately slight**, like `b2_conjunctions` before it. It
+  adds no ending. If it feels thin standing alone that is the intended trade —
+  it exists so that `b2_adj_gen` can be one clean paradigm row instead of two.
+- `b2_work`'s `zwolnienie` gloss is a one-word decision that is easy to revisit
+  when `b2_health_system` is built; if the sick-note sense turns out to matter
+  more in Dad's life than the dismissal sense, swap them and let the health
+  unit take the other.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them. `b2_adj_gen` is the densest of the three: four intro slides, 12 match
+  rows, 10 quiz items, 10 type items, 10 use items.
+- Titles re-checked word by word at the moment of wiring, per the B1 batch 10
+  standing reminder. `b2_adj_gen`'s drafted label was corrected from
+  *"Dobrego, dobrej · dopełniacz"* to *"Dobrej kawy · dopełniacz"* so the
+  learner-visible title shows the ending doing a job rather than two bare
+  forms, and `b2_adj_acc`'s `label_en` was extended to state the gift
+  ("only the feminine changes") rather than just naming the case.
