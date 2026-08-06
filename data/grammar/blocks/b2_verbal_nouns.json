@@ -1,0 +1,681 @@
+{
+  "id": "b2_verbal_nouns",
+  "title": "Czytanie, pisanie, gotowanie",
+  "title_en": "Nouns built from verbs",
+  "level": "B2",
+  "tree_node": "b2_verbal_nouns",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2-SPINE Block 7, unit 1 — THE VERBAL NOUN (-anie / -enie). The best-anchored unit in B2 and possibly in the course: check_new.py reports NINETEEN of these already TAUGHT as ordinary nouns, spread from path 3 to path 143 — pisanie, czytanie, zdanie, znaczenie, cwiczenie (leaf_school_a1), plywanie, bieganie (leaf_freetime_a1), mieszkanie (leaf_home_family), jedzenie (leaf_food_a1), spotkanie (leaf_work_a1), opoznienie (leaf_city_a1), zadanie (a2_school2), szkolenie (a2_work2), danie (a2_food2), badanie + ubezpieczenie (a2_health2), zaproszenie (a2_celebrations), wynagrodzenie (b2_work), leczenie (b2_health_system). So the unit teaches SIX new words and re-reads a pile the learner has owned for a hundred nodes. The whole idea is 'these are not nineteen unrelated nouns'.\n\nTHE SPINE'S LIST IS CORRECTED, the fifth time in B2. B2-SPINE names sprzatanie as one of the four to produce; it is DROPPED, because check_new.py shows sprzatac ITSELF is NEW — aspect_prefixes had already dropped the sprzatac/posprzatac pair for being the only one in its set that would cost two verbs. A verbal noun built from a verb the learner does not own is exactly the lookalike frame the anchor rule forbids: both halves would be new. Replaced by czekanie, granie and kupowanie, all three from verbs owned since A1/A2.\n\nTHE -AC RULE IS STATED PRODUCTIVELY; THE -ENIE GROUP IS NOT. Drop the c of an -ac / -owac infinitive and add -nie — czytac->czytanie, gotowac->gotowanie, grac->granie, czekac->czekanie, kupowac->kupowanie — and that is reliable, so slide 2 gives it as a rule the learner may use. The -ic / -ec group is handed over as WORDS: the ending is -enie, but the stem in front of it changes shape unpredictably (the owned zaproszenie against prosic is the visible proof, and leczenie, znaczenie, ubezpieczenie all sit on stems the learner cannot reconstruct). robienie and mowienie happen to be straightforward, and slide 3 says so while refusing to generalise from two examples — the gen_pl_full / kelnerzy / mogl by treatment, closed families of whole forms rather than a rule the learner cannot trust.\n\nNEUTER IS THE SECOND GIFT AND IT IS FREE. Every one of them is neuter, so the adjective takes -e (dobre, male, nowe), the past takes bylo, and — the part that costs nothing at all — the Accusative is identical to the Nominative, so the word does not move when it becomes an object. Mama lubi gotowanie uses no form the learner has to build. All the agreement material is owned: byc_adj, zgoda, past_byc.\n\nTHE HARDENED MEANINGS ARE NAMED RATHER THAN LEFT AS A TRAP (slide 5). mieszkanie is a flat, not 'living'; spotkanie is a meeting, danie a dish, zdanie a sentence, jedzenie food. The activity sense is visible underneath but the everyday word is the concrete one — which is precisely why the learner already knew these words without knowing the pattern. Saying this out loud is what stops him producing 'mieszkanie' when he means the act of living somewhere.\n\nFENCED, and the first one is the significant scope cut: GENITIVE OBJECTS AFTER A VERBAL NOUN (gotowanie obiadu, sluchanie muzyki) appear NOWHERE. That is the construction these nouns most naturally take in real Polish, and it is a second system — a case government rule of its own — which load-splitting forbids stacking on a new derivation. Every verbal noun in this pack therefore stands bare, as a subject or as the object of lubic. Consequence stated plainly so nobody reads it as an oversight: this unit teaches the words, not yet the phrases they normally live in. ALSO FENCED: every oblique form of the six new nouns (gotowania, gotowaniu) — the pack uses Nominative and Accusative only, which are the same string; verbal nouns from PERFECTIVE verbs (zrobienie, ugotowanie), which carry a different meaning and would reopen aspect inside a derivation unit; reflexive verbal nouns (uczenie sie); and the plural.\n\nMATCH BOARD IS THE UNIT'S ARGUMENT, not a list: six new nouns against six owned ones, four of the owned being pure activities (czytanie, pisanie, bieganie, plywanie) and two the hardened kind (spotkanie, mieszkanie), so the board itself shows the pattern reaching backwards into vocabulary the learner already had.\n\nDISTRACTOR DISCIPLINE, and the pool bit twice. NO FABRICATED NON-WORDS anywhere — the obvious quiz shape here is 'mowic -> mowienie / mowianie / mowenie', which AGENTS forbids, so every derivation item instead offers four REAL verbal nouns and asks which verb this one came from. And the choices had to be rebuilt around the pool: biega, plywa, plywam, czekam and pisze are all verified NEW (their packs taught other persons), so 'Bieganie jest dobre' takes Biegac / Biegam / Plywac as its rivals. Two items where the infinitive would have been a LEGAL rival (Mama lubi gotowac, Tata lubi grac) had that choice removed rather than marked wrong.\n\nADJECTIVES ARE POOL-LIMITED AND THE UNIT WAS DESIGNED AROUND IT, logged because it visibly shapes the Uzycie stage: the natural predicate adjectives for an activity — trudne, latwe, ciekawe, zdrowe, nudne, wazne — are ALL verified NEW, and trudny is not taught in any form. Only dobre, male, nowe, duze, zle and smaczne exist as neuter strings. Rather than teach six adjectives inside a derivation unit, Uzycie is built on the lubic frame (Mama lubi gotowanie) and on the two owned adjectives, and the missing ones are left for a later pack.",
+  "focus_structures": [
+    "verbal_nouns"
+  ],
+  "teaches_structures": [
+    "verbal_nouns"
+  ],
+  "teaches_lemmas": [
+    "gotowanie",
+    "mówienie",
+    "robienie",
+    "czekanie",
+    "granie",
+    "kupowanie"
+  ],
+  "uses_structures": [
+    "verbal_nouns",
+    "present",
+    "present_am",
+    "present_uje",
+    "present_e_esz",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "ten_ta_to",
+    "miec_acc",
+    "to_jest",
+    "question",
+    "conjunctions",
+    "poss_nom",
+    "can_inf"
+  ],
+  "intro": [
+    {
+      "title": "Nouns you already own, and where they came from",
+      "title_pl": "czytać → czytanie",
+      "body": "Look at these five words. You have had every one of them since A1, and you learned them as ordinary nouns with no explanation attached:\n\npisanie · czytanie · pływanie · bieganie · spotkanie\n\nThey are not five unrelated words. Each one is built from a verb you also own, and the join is the same every time.\n\nThis is the verbal noun — the name of an activity. English does the same job with -ing: to read becomes reading, and reading can then be the subject of a sentence or the object of a verb, which the verb itself could not be.\n\nThere are about twenty of these already in your vocabulary. This unit is mostly about seeing them.",
+      "body_pl": "Rzeczownik odczasownikowy — nazwa czynności.",
+      "table": {
+        "headers": [
+          "Verb",
+          "Noun",
+          "The noun means"
+        ],
+        "rows": [
+          [
+            "czytać",
+            "czytanie",
+            "reading"
+          ],
+          [
+            "pisać",
+            "pisanie",
+            "writing"
+          ],
+          [
+            "pływać",
+            "pływanie",
+            "swimming"
+          ],
+          [
+            "biegać",
+            "bieganie",
+            "running"
+          ],
+          [
+            "gotować",
+            "gotowanie",
+            "cooking"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The -ać rule: drop the ć, add -nie",
+      "title_pl": "-ać → -anie",
+      "body": "For verbs whose dictionary form ends in -ać or -ować, this is a rule you can use. Take the infinitive, drop the final ć, and add -nie.\n\nczytać − ć = czyta, + nie = czytanie\ngrać − ć = gra, + nie = granie\nkupować − ć = kupowa, + nie = kupowanie\n\nNothing else moves. No vowel changes, no consonant softens, and the stress stays where it was. This is one of the few genuinely mechanical operations in Polish, and you may apply it.",
+      "body_pl": "Bezokolicznik na -ać: bez -ć, plus -nie.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "minus ć",
+          "plus -nie"
+        ],
+        "rows": [
+          [
+            "czytać",
+            "czyta",
+            "czytanie"
+          ],
+          [
+            "gotować",
+            "gotowa",
+            "gotowanie"
+          ],
+          [
+            "czekać",
+            "czeka",
+            "czekanie"
+          ],
+          [
+            "grać",
+            "gra",
+            "granie"
+          ],
+          [
+            "kupować",
+            "kupowa",
+            "kupowanie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The other group ends in -enie, and it is learned word by word",
+      "title_pl": "-ić / -eć → -enie",
+      "body": "Verbs whose dictionary form ends in -ić or -eć build a noun in -enie instead. Two of them are wanted here:\n\nrobić → robienie — doing, making\nmówić → mówienie — speaking, talking\n\nThose two are straightforward, but two examples are not a rule and this one is not offered as one. In this group the stem in front of -enie often changes shape, and there is no way to predict how. You already own several where it plainly has:\n\nznaczenie · leczenie · ubezpieczenie · zaproszenie · ćwiczenie\n\nNone of those can be reconstructed from the verb by ear. So: use the -anie rule freely, and take the -enie words as words.",
+      "body_pl": "Bezokolicznik na -ić / -eć: końcówka -enie. Temat bywa nieregularny.",
+      "table": {
+        "headers": [
+          "Verb",
+          "Noun",
+          "The noun means"
+        ],
+        "rows": [
+          [
+            "robić",
+            "robienie",
+            "doing, making"
+          ],
+          [
+            "mówić",
+            "mówienie",
+            "speaking"
+          ],
+          [
+            "—",
+            "znaczenie",
+            "meaning (owned since A1)"
+          ],
+          [
+            "—",
+            "leczenie",
+            "treatment (owned)"
+          ],
+          [
+            "—",
+            "zaproszenie",
+            "an invitation (owned)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Every one of them is neuter",
+      "title_pl": "Rodzaj nijaki — wszystkie",
+      "body": "The whole class is neuter, without a single exception. That is worth more than it sounds, because you have already learned everything neuter nouns do.\n\nThe adjective takes -e: dobre, małe, nowe.\nThe past of być is było.\nAnd the Accusative is identical to the Nominative — so when the noun becomes an object, nothing at all happens to it.\n\nSpotkanie było dobre. — The meeting was good.\nMama lubi gotowanie. — Mum likes cooking.\n\nIn the second sentence gotowanie is the object, and it is the same string it would be as the subject. There is no form to build.",
+      "body_pl": "Wszystkie na -anie / -enie są rodzaju nijakiego. Biernik = mianownik.",
+      "table": {
+        "headers": [
+          "Sentence",
+          "The noun's job",
+          "Its shape"
+        ],
+        "rows": [
+          [
+            "Spotkanie było dobre.",
+            "subject",
+            "spotkanie"
+          ],
+          [
+            "Mama lubi gotowanie.",
+            "object",
+            "gotowanie"
+          ],
+          [
+            "Mieszkanie jest małe.",
+            "subject",
+            "mieszkanie"
+          ],
+          [
+            "Brat lubi granie.",
+            "object",
+            "granie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Some of them have hardened into things",
+      "title_pl": "mieszkanie · spotkanie · danie",
+      "body": "This is why you knew so many of these words without knowing the pattern. Several stopped naming an activity and became a concrete thing instead.\n\nmieszkanie — from mieszkać, but it is a flat, not the act of living somewhere.\nspotkanie — from spotkać się, but it is a meeting: an event in a diary.\ndanie — a dish on a menu.\nzdanie — a sentence.\njedzenie — food, the stuff itself.\n\nThe activity sense is still visible underneath each one, and that is a good way to remember them. But the everyday meaning is the concrete one, and it is the meaning you should use. Say mieszkanie for a flat; the pattern does not license you to use it for the act of living.",
+      "body_pl": "Niektóre znaczą konkretną rzecz, nie czynność.",
+      "table": {
+        "headers": [
+          "Noun",
+          "Built from",
+          "What it actually means"
+        ],
+        "rows": [
+          [
+            "mieszkanie",
+            "mieszkać",
+            "a flat"
+          ],
+          [
+            "spotkanie",
+            "spotkać się",
+            "a meeting"
+          ],
+          [
+            "danie",
+            "—",
+            "a dish"
+          ],
+          [
+            "zdanie",
+            "—",
+            "a sentence"
+          ],
+          [
+            "jedzenie",
+            "jeść",
+            "food"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "cooking (the activity)",
+      "pl": "gotowanie"
+    },
+    {
+      "en": "speaking, talking",
+      "pl": "mówienie"
+    },
+    {
+      "en": "doing, making",
+      "pl": "robienie"
+    },
+    {
+      "en": "waiting",
+      "pl": "czekanie"
+    },
+    {
+      "en": "playing",
+      "pl": "granie"
+    },
+    {
+      "en": "buying, shopping",
+      "pl": "kupowanie"
+    },
+    {
+      "en": "reading",
+      "pl": "czytanie"
+    },
+    {
+      "en": "writing",
+      "pl": "pisanie"
+    },
+    {
+      "en": "running",
+      "pl": "bieganie"
+    },
+    {
+      "en": "swimming",
+      "pl": "pływanie"
+    },
+    {
+      "en": "a meeting",
+      "pl": "spotkanie"
+    },
+    {
+      "en": "a flat, an apartment",
+      "pl": "mieszkanie"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Moje hobby to ___. (reading)",
+      "choices": [
+        "czytanie",
+        "pisanie",
+        "gotowanie",
+        "bieganie"
+      ],
+      "answer": "czytanie",
+      "explain": "czytanie comes from czytać. All four are verbal nouns; only this one names reading."
+    },
+    {
+      "prompt": "___ jest dobre. (running is good)",
+      "choices": [
+        "Bieganie",
+        "Biegać",
+        "Biegam",
+        "Pływać"
+      ],
+      "answer": "Bieganie",
+      "explain": "The subject of a sentence has to be a noun. Biegać is the verb itself and cannot hold that slot — this is exactly the job the verbal noun exists for."
+    },
+    {
+      "prompt": "Spotkanie ___ dobre. (the meeting was good)",
+      "choices": [
+        "było",
+        "była",
+        "był",
+        "były"
+      ],
+      "answer": "było",
+      "explain": "Every -anie / -enie noun is neuter, so the past of być is było. No exceptions in the whole class."
+    },
+    {
+      "prompt": "Mieszkanie jest ___. (small)",
+      "choices": [
+        "małe",
+        "mała",
+        "mały",
+        "duże"
+      ],
+      "answer": "małe",
+      "explain": "Neuter again, so the adjective takes -e. duże is the right shape but the wrong word."
+    },
+    {
+      "prompt": "czekać → ___",
+      "choices": [
+        "czekanie",
+        "granie",
+        "gotowanie",
+        "robienie"
+      ],
+      "answer": "czekanie",
+      "explain": "Drop the ć from czekać and add -nie. Every -ać verb behaves this way, and you may apply it yourself."
+    },
+    {
+      "prompt": "mówić → ___",
+      "choices": [
+        "mówienie",
+        "robienie",
+        "czytanie",
+        "pisanie"
+      ],
+      "answer": "mówienie",
+      "explain": "mówić ends in -ić, so the noun ends in -enie rather than -anie."
+    },
+    {
+      "prompt": "robić → ___",
+      "choices": [
+        "robienie",
+        "mówienie",
+        "granie",
+        "kupowanie"
+      ],
+      "answer": "robienie",
+      "explain": "Another -ić verb, another -enie noun. Learn these two as words — the group as a whole is not predictable."
+    },
+    {
+      "prompt": "kupować → ___",
+      "choices": [
+        "kupowanie",
+        "gotowanie",
+        "czekanie",
+        "granie"
+      ],
+      "answer": "kupowanie",
+      "explain": "kupowa + nie. The -owa- stays exactly as it is in the infinitive."
+    },
+    {
+      "prompt": "Mama lubi ___. (cooking, the activity)",
+      "choices": [
+        "gotowanie",
+        "gotuje",
+        "gotuję",
+        "kupuje"
+      ],
+      "answer": "gotowanie",
+      "explain": "lubić takes an object here, so it needs the noun. gotuje would be a second verb with nothing to join it on."
+    },
+    {
+      "prompt": "Tata lubi ___. (playing)",
+      "choices": [
+        "granie",
+        "gram",
+        "gra",
+        "grają"
+      ],
+      "answer": "granie",
+      "explain": "Same slot, same reason. gra is a noun, but it is a game, not the activity of playing."
+    },
+    {
+      "prompt": "pisać → ___",
+      "choices": [
+        "pisanie",
+        "czekanie",
+        "mówienie",
+        "kupowanie"
+      ],
+      "answer": "pisanie",
+      "explain": "A word you have owned since A1, now visibly built from a verb you also own."
+    },
+    {
+      "prompt": "To jest nowe ___. (a new flat)",
+      "choices": [
+        "mieszkanie",
+        "spotkanie",
+        "jedzenie",
+        "czekanie"
+      ],
+      "answer": "mieszkanie",
+      "explain": "mieszkanie is built from mieszkać, but it hardened long ago into a thing: a flat."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "cooking (the activity)",
+      "mode": "full_word",
+      "answer": "gotowanie",
+      "accepts": [
+        "gotowanie"
+      ],
+      "explain": "gotować minus ć, plus -nie."
+    },
+    {
+      "prompt_en": "speaking, talking",
+      "mode": "full_word",
+      "answer": "mówienie",
+      "accepts": [
+        "mówienie"
+      ],
+      "explain": "An -ić verb, so -enie rather than -anie."
+    },
+    {
+      "prompt_en": "doing, making",
+      "mode": "full_word",
+      "answer": "robienie",
+      "accepts": [
+        "robienie"
+      ]
+    },
+    {
+      "prompt_en": "waiting",
+      "mode": "full_word",
+      "answer": "czekanie",
+      "accepts": [
+        "czekanie"
+      ]
+    },
+    {
+      "prompt_en": "playing",
+      "mode": "full_word",
+      "answer": "granie",
+      "accepts": [
+        "granie"
+      ]
+    },
+    {
+      "prompt_en": "buying, shopping",
+      "mode": "full_word",
+      "answer": "kupowanie",
+      "accepts": [
+        "kupowanie"
+      ]
+    },
+    {
+      "prompt_en": "reading",
+      "mode": "full_word",
+      "answer": "czytanie",
+      "accepts": [
+        "czytanie"
+      ]
+    },
+    {
+      "prompt_en": "writing",
+      "mode": "full_word",
+      "answer": "pisanie",
+      "accepts": [
+        "pisanie"
+      ]
+    },
+    {
+      "prompt_en": "running",
+      "mode": "full_word",
+      "answer": "bieganie",
+      "accepts": [
+        "bieganie"
+      ]
+    },
+    {
+      "prompt_en": "swimming",
+      "mode": "full_word",
+      "answer": "pływanie",
+      "accepts": [
+        "pływanie"
+      ]
+    },
+    {
+      "prompt_en": "a meeting",
+      "mode": "full_word",
+      "answer": "spotkanie",
+      "accepts": [
+        "spotkanie"
+      ]
+    },
+    {
+      "prompt_en": "food",
+      "mode": "full_word",
+      "answer": "jedzenie",
+      "accepts": [
+        "jedzenie"
+      ],
+      "explain": "Built from jeść, and one of the ones that hardened: it is the food, not the eating."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum likes cooking.",
+      "answer": "Mama lubi gotowanie.",
+      "accepts": [
+        "Mama lubi gotowanie.",
+        "Mama lubi gotowanie"
+      ],
+      "explain": "gotowanie is the object here, and neuter nouns do not change in the Accusative — it is the same string as the subject form."
+    },
+    {
+      "prompt_en": "Type: Dad likes running.",
+      "answer": "Tata lubi bieganie.",
+      "accepts": [
+        "Tata lubi bieganie.",
+        "Tata lubi bieganie"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister likes swimming.",
+      "answer": "Siostra lubi pływanie.",
+      "accepts": [
+        "Siostra lubi pływanie.",
+        "Siostra lubi pływanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother likes playing.",
+      "answer": "Brat lubi granie.",
+      "accepts": [
+        "Brat lubi granie.",
+        "Brat lubi granie"
+      ]
+    },
+    {
+      "prompt_en": "Type: My hobby is reading.",
+      "answer": "Moje hobby to czytanie.",
+      "accepts": [
+        "Moje hobby to czytanie.",
+        "Moje hobby to czytanie"
+      ],
+      "explain": "to joins two nouns here, exactly as in To moja mama. Both sides of it are nouns, which is why czytać would not fit."
+    },
+    {
+      "prompt_en": "Type: The meeting was good.",
+      "answer": "Spotkanie było dobre.",
+      "accepts": [
+        "Spotkanie było dobre.",
+        "Spotkanie było dobre"
+      ],
+      "explain": "Neuter throughout: było for the verb, dobre for the adjective."
+    },
+    {
+      "prompt_en": "Type: The food was tasty.",
+      "answer": "Jedzenie było smaczne.",
+      "accepts": [
+        "Jedzenie było smaczne.",
+        "Jedzenie było smaczne"
+      ]
+    },
+    {
+      "prompt_en": "Type: Who likes waiting?",
+      "answer": "Kto lubi czekanie?",
+      "accepts": [
+        "Kto lubi czekanie?",
+        "Kto lubi czekanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I like reading and speaking.",
+      "answer": "Lubię czytanie i mówienie.",
+      "accepts": [
+        "Lubię czytanie i mówienie.",
+        "Lubię czytanie i mówienie"
+      ],
+      "explain": "Two objects joined by i, and neither one changes shape."
+    },
+    {
+      "prompt_en": "Type: The flat is small.",
+      "answer": "Mieszkanie jest małe.",
+      "accepts": [
+        "Mieszkanie jest małe.",
+        "Mieszkanie jest małe"
+      ],
+      "explain": "One of the hardened ones — a flat, not the act of living. The neuter agreement works the same either way."
+    }
+  ],
+  "uses_lemmas": [
+    "czytać",
+    "pisać",
+    "pływać",
+    "biegać",
+    "gotować",
+    "grać",
+    "czekać",
+    "kupować",
+    "robić",
+    "mówić",
+    "jeść",
+    "mieszkać",
+    "spotkać się",
+    "czytanie",
+    "pisanie",
+    "pływanie",
+    "bieganie",
+    "spotkanie",
+    "mieszkanie",
+    "jedzenie",
+    "danie",
+    "zdanie",
+    "znaczenie",
+    "leczenie",
+    "zaproszenie",
+    "ćwiczenie",
+    "ubezpieczenie",
+    "lubi",
+    "lubię",
+    "jest",
+    "było",
+    "to",
+    "moje",
+    "hobby",
+    "kto",
+    "i",
+    "dobre",
+    "małe",
+    "nowe",
+    "smaczne",
+    "gra",
+    "gram",
+    "grają",
+    "gotuje",
+    "gotuję",
+    "kupuje",
+    "biegam",
+    "czyta",
+    "czytam",
+    "mama",
+    "tata",
+    "siostra",
+    "brat"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_verbal_nouns",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

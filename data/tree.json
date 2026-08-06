@@ -3518,17 +3518,18 @@
       "id": "b2_verbal_nouns",
       "domain": "grammar",
       "label": "Czytanie, pisanie, gotowanie",
-      "label_en": "Verbal nouns · -anie/-enie",
+      "label_en": "Nouns built from verbs",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 7, unit 1. The -anie/-enie pattern. EXCEPTIONALLY WELL ANCHORED: check_new.py confirms pisanie, czytanie, plywanie, bieganie and spotkanie are ALREADY TAUGHT - as ordinary nouns, since A1. So the unit's whole idea is 'five words you already know are made from verbs you already know, and the pattern is regular.' Produces gotowanie, sprzatanie, mowienie, robienie (all verified NEW). Gender is uniformly neuter - a second gift, since it makes every one of them decline in a pattern already owned.",
+      "note": "[B2 Block 7 unit 1] The verbal noun, -anie/-enie. THE BEST-ANCHORED UNIT IN B2: check_new.py finds NINETEEN of these already taught as ordinary nouns between path 3 and 143 (pisanie, czytanie, plywanie, bieganie, spotkanie, mieszkanie, jedzenie, zdanie, danie, zadanie, badanie, znaczenie, cwiczenie, szkolenie, zaproszenie, ubezpieczenie, wynagrodzenie, opoznienie, leczenie), so the unit teaches SIX new words and re-reads a pile he has owned for a hundred nodes. SPINE LIST CORRECTED: sprzatanie DROPPED - sprzatac itself is verified NEW, so both halves would have been new; czekanie, granie, kupowanie replace it. THE -AC RULE IS GIVEN PRODUCTIVELY (drop c, add -nie - mechanical); THE -ENIE GROUP IS NOT - robienie and mowienie handed over as words, with the owned znaczenie/leczenie/zaproszenie shown as proof the stem changes unpredictably. NEUTER THROUGHOUT is the second gift and it is free: adjective -e, past bylo, and Accusative = Nominative, so the noun does not move when it becomes an object. Hardened meanings named rather than left as a trap (mieszkanie = a flat). FENCED, and the first is a real scope cut: GENITIVE OBJECTS after a verbal noun (gotowanie obiadu) appear nowhere - a second system; every verbal noun here stands bare. Also fenced: all oblique forms of the six new nouns, perfective verbal nouns, reflexive ones, the plural. No fabricated non-words in any distractor. See B2-SPINE Block 7.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_verbal_nouns.json"
     },
     {
       "id": "b2_participle_pass",

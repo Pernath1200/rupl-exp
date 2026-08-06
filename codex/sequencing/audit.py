@@ -132,6 +132,7 @@ STRUCTURE_CATALOGUE = {
     "pisac_family",
     "dawac_family",
     "powinien",
+    "verbal_nouns",
 }
 
 GLUE_LEMMAS = {
