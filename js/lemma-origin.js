@@ -189,7 +189,11 @@ function wordAtPoint(x, y) {
 export function wireWordTap(container, { isAuthor } = {}) {
   if (!container || container.dataset.originWired) return;
   container.dataset.originWired = "1";
-  container.addEventListener("click", (e) => {
+  // Capture phase: practice engines stopPropagation() on their own click
+  // handling, which silently killed a bubble-phase listener here.
+  container.addEventListener(
+    "click",
+    (e) => {
     if (e.target.closest("button, a, input, textarea, select, [contenteditable], .origin-pop, .type-in")) {
       return;
     }
@@ -232,5 +236,7 @@ export function wireWordTap(container, { isAuthor } = {}) {
          <div class="origin-pop-meta">taught form missing — possible leak (or an EN/glue word)</div>`,
       );
     }
-  });
+    },
+    true,
+  );
 }

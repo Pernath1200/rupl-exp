@@ -14,7 +14,12 @@
  * Dom i rodzina v1: to_jest only (no Acc until mieć is covered).
  */
 
-import { getSmokeApi, countFlags, updateFlagsBadge } from "./smoke-flags.js";
+import {
+  getSmokeApi,
+  countFlags,
+  updateFlagsBadge,
+  setSmokeContext,
+} from "./smoke-flags.js";
 import { attachExplain } from "./explain.js";
 import {
   isAuthorUnlock,
@@ -550,6 +555,13 @@ export function startPractice(root, block, opts) {
 
   function setFlagContext(partial) {
     state.flagContext = { ...state.flagContext, ...partial };
+    // Bridge to the real dialog context — smoke-flags reads its module
+    // store, which only the grammar engine used to write (stale-pack bug).
+    setSmokeContext({
+      packId: block.id || packId || "",
+      packTitle: block.title || "",
+      ...partial,
+    });
   }
 
   function captureTyped() {
@@ -1567,6 +1579,20 @@ export function startPractice(root, block, opts) {
 
   function render() {
     clearKey();
+    // Baseline flag context — vocab units previously never set this, so
+    // flags carried the last GRAMMAR unit's context (stale-pack bug).
+    setSmokeContext({
+      packId: block.id || packId || "",
+      packTitle: block.title || "",
+      stage: state.mode,
+      checkPhase: "",
+      itemIndex: null,
+      en: "",
+      pl: "",
+      gap: "",
+      gap_answer: "",
+      typed: "",
+    });
     root.innerHTML = renderChrome("…");
     wireChrome();
     const stage = root.querySelector("#p-stage");
