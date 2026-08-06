@@ -95,6 +95,7 @@ STRUCTURE_CATALOGUE = {
     "zeby",
     "imperative_rule",
     "adverb_comp",
+    "vocative_chunk",
 }
 
 GLUE_LEMMAS = {

@@ -1,0 +1,527 @@
+{
+  "id": "b1_vocative_chunks",
+  "title": "Mamo! Tato! · zwroty",
+  "title_en": "Calling people · chunks",
+  "level": "B1",
+  "tree_node": "b1_vocative_chunks",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "James's spine decision #4: vocative stays CHUNK-LANE ONLY, never opened as a case, no endings rule stated anywhere in the pack. Six frozen calling-forms, each handed over as a memorized whole exactly like mogłby/mogłaby were in b1_polite: mama->Mamo!, tata->Tato!, babcia->Babciu!, dziadek->Dziadku! (all four verified NEW via check_new before writing), plus two panie/pani + name chunks named in the spine text itself: Panie Piotrze! and Pani Anno! (piotr/anna already GLUE names in audit.py; their inflected calling-forms Piotrze/Anno are new strings, taught here as one more frozen whole, same treatment). SCOPE CUT, logged: the name-vocative pattern itself is NOT generalised to any other name and no rule connecting Piotr->Piotrze or Anna->Anno is stated anywhere in the pack - a productive proper-noun vocative rule would be a second alternation stacked on top of the family-word set in the same unit, which the spine's own 'never taught as a case, no endings rule' line already forecloses; if James wants a general name-vocative unit later, nothing here blocks it, but it is not on the current B1-SPINE as its own slot. Every combination sentence recycles a b1_polite/A1/A2 frame in full (dziękuję za prezent, chciałbym zapytać, gdzie jest dworzec, jak się masz, wszystko dobrze, czy mogłaby pani mi pomóc, czy mógłby pan mi pomóc, przepraszam że przeszkadzam) - checked individually via check_new.py, all confirmed already taught, none touched or altered.",
+  "focus_structures": [
+    "vocative_chunk"
+  ],
+  "teaches_structures": [
+    "vocative_chunk"
+  ],
+  "uses_structures": [
+    "vocative_chunk",
+    "situation_chunk",
+    "conditional_sg",
+    "question",
+    "byc_adj",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "A special voice for calling someone",
+      "title_pl": "Specjalna forma — wołanie",
+      "body": "When you call out directly to someone in Polish, some words change shape — not to say something ABOUT the person, just to call them. This is a small closed set. Learn each one whole, exactly as it stands. There is no rule to build from — just six words to remember, the same way you learned mógłby and mogłaby as whole blocks.",
+      "body_pl": "Wołacz: forma wołania. Zapamiętaj całe słowo — bez reguły.",
+      "table": {
+        "headers": [
+          "Saying it",
+          "Calling them"
+        ],
+        "rows": [
+          [
+            "mama",
+            "Mamo!"
+          ],
+          [
+            "tata",
+            "Tato!"
+          ],
+          [
+            "babcia",
+            "Babciu!"
+          ],
+          [
+            "dziadek",
+            "Dziadku!"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Formal address: panie/pani + name",
+      "title_pl": "Panie Piotrze! Pani Anno!",
+      "body": "Two more calling-forms, this time formal — panie for a man, pani for a woman, in front of the first name. The name changes shape too, but you never need to work out how: take each one whole, exactly as given.\n\nPanie Piotrze! — calling out to a man named Piotr, formally.\nPani Anno! — calling out to a woman named Anna, formally.\n\nThese are the only two names this course teaches the calling-form for. It does not generalise to other names.",
+      "body_pl": "Panie Piotrze! Pani Anno! — całe zwroty, bez reguły.",
+      "examples": [
+        {
+          "en": "Mr. Piotr! Excuse me, could you help me?",
+          "pl": "Panie Piotrze! Przepraszam, czy mógłby pan mi pomóc?"
+        },
+        {
+          "en": "Ms. Anna! Thank you very much!",
+          "pl": "Pani Anno! Dziękuję bardzo!"
+        }
+      ]
+    },
+    {
+      "title": "Putting it at the front of a sentence you already own",
+      "title_pl": "Na początku zdania, które już znasz",
+      "body": "The calling-word goes first, then any sentence you already have.",
+      "body_pl": "Wołacz + zdanie, które już znasz.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Mamo, gdzie jest apteka?",
+            "Mom, where is the pharmacy?"
+          ],
+          [
+            "Tato, dziękuję za prezent!",
+            "Dad, thank you for the present!"
+          ],
+          [
+            "Babciu, jak się masz?",
+            "Grandma, how are you?"
+          ],
+          [
+            "Dziadku, jestem głodny.",
+            "Grandpa, I'm hungry."
+          ],
+          [
+            "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?",
+            "Mr. Piotr, excuse me, could you help me?"
+          ],
+          [
+            "Pani Anno, dziękuję bardzo!",
+            "Ms. Anna, thank you very much!"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "Mom! (calling)",
+      "pl": "Mamo!"
+    },
+    {
+      "en": "Dad! (calling)",
+      "pl": "Tato!"
+    },
+    {
+      "en": "Grandma! (calling)",
+      "pl": "Babciu!"
+    },
+    {
+      "en": "Grandpa! (calling)",
+      "pl": "Dziadku!"
+    },
+    {
+      "en": "Mr. Piotr! (calling, formal)",
+      "pl": "Panie Piotrze!"
+    },
+    {
+      "en": "Ms. Anna! (calling, formal)",
+      "pl": "Pani Anno!"
+    },
+    {
+      "en": "Mom, where is the pharmacy?",
+      "pl": "Mamo, gdzie jest apteka?"
+    },
+    {
+      "en": "Dad, thank you for the present!",
+      "pl": "Tato, dziękuję za prezent!"
+    },
+    {
+      "en": "Grandma, how are you?",
+      "pl": "Babciu, jak się masz?"
+    },
+    {
+      "en": "Grandpa, I'm hungry.",
+      "pl": "Dziadku, jestem głodny."
+    },
+    {
+      "en": "Mr. Piotr, excuse me, could you help me?",
+      "pl": "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?"
+    },
+    {
+      "en": "Ms. Anna, thank you very much!",
+      "pl": "Pani Anno, dziękuję bardzo!"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You want your mom's attention. You say:",
+      "choices": [
+        "Mamo!",
+        "Mama!",
+        "Mamę!",
+        "Tato!"
+      ],
+      "answer": "Mamo!",
+      "explain": "Mamo is the special calling-form — a different word from plain mama, used only to call out to her."
+    },
+    {
+      "prompt": "Calling your dad:",
+      "choices": [
+        "Tato!",
+        "Tata!",
+        "Tacie!",
+        "Babciu!"
+      ],
+      "answer": "Tato!"
+    },
+    {
+      "prompt": "Calling your grandma:",
+      "choices": [
+        "Babciu!",
+        "Babcia!",
+        "Babcią!",
+        "Dziadku!"
+      ],
+      "answer": "Babciu!"
+    },
+    {
+      "prompt": "Calling your grandpa:",
+      "choices": [
+        "Dziadku!",
+        "Dziadek!",
+        "Dziadkiem!",
+        "Tato!"
+      ],
+      "answer": "Dziadku!"
+    },
+    {
+      "prompt": "___, gdzie jest apteka? (calling Mom)",
+      "choices": [
+        "Mamo",
+        "Mama",
+        "Mamę",
+        "Mamy"
+      ],
+      "answer": "Mamo",
+      "explain": "Only the calling-form Mamo opens a sentence this way — the other three are the plain, possessive-object and genitive forms you already know."
+    },
+    {
+      "prompt": "___, dziękuję za prezent! (calling Dad)",
+      "choices": [
+        "Tato",
+        "Tata",
+        "Tacie",
+        "Tatę"
+      ],
+      "answer": "Tato"
+    },
+    {
+      "prompt": "Addressing a man named Piotr, formally:",
+      "choices": [
+        "Panie Piotrze!",
+        "Pan Piotr!",
+        "Panie Piotr!",
+        "Pani Piotrze!"
+      ],
+      "answer": "Panie Piotrze!",
+      "explain": "This whole phrase — panie, not pan, and Piotrze, not Piotr — is memorized as one block. Nothing here is built from a rule."
+    },
+    {
+      "prompt": "Addressing a woman named Anna, formally:",
+      "choices": [
+        "Pani Anno!",
+        "Pani Anna!",
+        "Panie Anno!",
+        "Pan Anna!"
+      ],
+      "answer": "Pani Anno!"
+    },
+    {
+      "prompt": "Przepraszam, ___, czy mógłby pan mi pomóc? (to Piotr)",
+      "choices": [
+        "panie Piotrze",
+        "pan Piotr",
+        "pani Piotrze",
+        "panie Piotr"
+      ],
+      "answer": "panie Piotrze",
+      "explain": "The formal calling-form comes before the request, exactly as pan/pani already do in Czy mógłby pan…?"
+    },
+    {
+      "prompt": "Dziadku, ___. (I'm hungry)",
+      "choices": [
+        "jestem głodny",
+        "jestem głodna",
+        "jestem głodne",
+        "głodny jestem"
+      ],
+      "answer": "jestem głodny",
+      "explain": "Głodny agrees with the speaker, not with dziadek — a man speaking says głodny, a woman speaking would say głodna."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Mom! (calling)",
+      "mode": "full_word",
+      "answer": "Mamo!",
+      "accepts": [
+        "Mamo!",
+        "Mamo"
+      ]
+    },
+    {
+      "prompt_en": "Dad! (calling)",
+      "mode": "full_word",
+      "answer": "Tato!",
+      "accepts": [
+        "Tato!",
+        "Tato"
+      ]
+    },
+    {
+      "prompt_en": "Grandma! (calling)",
+      "mode": "full_word",
+      "answer": "Babciu!",
+      "accepts": [
+        "Babciu!",
+        "Babciu"
+      ]
+    },
+    {
+      "prompt_en": "Grandpa! (calling)",
+      "mode": "full_word",
+      "answer": "Dziadku!",
+      "accepts": [
+        "Dziadku!",
+        "Dziadku"
+      ]
+    },
+    {
+      "prompt_en": "Mr. Piotr! (calling, formal)",
+      "mode": "full_word",
+      "answer": "Panie Piotrze!",
+      "accepts": [
+        "Panie Piotrze!",
+        "Panie Piotrze"
+      ],
+      "explain": "One frozen block — panie and Piotrze both change together, and neither is derived from a rule."
+    },
+    {
+      "prompt_en": "Ms. Anna! (calling, formal)",
+      "mode": "full_word",
+      "answer": "Pani Anno!",
+      "accepts": [
+        "Pani Anno!",
+        "Pani Anno"
+      ]
+    },
+    {
+      "prompt_en": "Mom, where is the pharmacy?",
+      "mode": "full_word",
+      "answer": "Mamo, gdzie jest apteka?",
+      "accepts": [
+        "Mamo, gdzie jest apteka?",
+        "Mamo, gdzie jest apteka"
+      ]
+    },
+    {
+      "prompt_en": "Dad, thank you for the present!",
+      "mode": "full_word",
+      "answer": "Tato, dziękuję za prezent!",
+      "accepts": [
+        "Tato, dziękuję za prezent!",
+        "Tato, dziękuję za prezent",
+        "Tato, dziekuje za prezent!"
+      ]
+    },
+    {
+      "prompt_en": "Grandma, how are you?",
+      "mode": "full_word",
+      "answer": "Babciu, jak się masz?",
+      "accepts": [
+        "Babciu, jak się masz?",
+        "Babciu, jak się masz"
+      ]
+    },
+    {
+      "prompt_en": "Grandpa, I'm hungry.",
+      "mode": "full_word",
+      "answer": "Dziadku, jestem głodny.",
+      "accepts": [
+        "Dziadku, jestem głodny.",
+        "Dziadku, jestem głodny"
+      ]
+    },
+    {
+      "prompt_en": "Mr. Piotr, excuse me, could you help me?",
+      "mode": "full_word",
+      "answer": "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?",
+      "accepts": [
+        "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?",
+        "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc",
+        "Panie Piotrze, przepraszam, czy moglby pan mi pomoc?"
+      ]
+    },
+    {
+      "prompt_en": "Ms. Anna, thank you very much!",
+      "mode": "full_word",
+      "answer": "Pani Anno, dziękuję bardzo!",
+      "accepts": [
+        "Pani Anno, dziękuję bardzo!",
+        "Pani Anno, dziękuję bardzo",
+        "Pani Anno, dziekuje bardzo!"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mom, thank you very much for the lunch!",
+      "answer": "Mamo, dziękuję bardzo za obiad!",
+      "accepts": [
+        "Mamo, dziękuję bardzo za obiad!",
+        "Mamo, dziękuję bardzo za obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad, I would like to ask how much it costs.",
+      "answer": "Tato, chciałbym zapytać, ile to kosztuje.",
+      "accepts": [
+        "Tato, chciałbym zapytać, ile to kosztuje.",
+        "Tato, chciałbym zapytać, ile to kosztuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma, sorry to disturb you.",
+      "answer": "Babciu, przepraszam, że przeszkadzam.",
+      "accepts": [
+        "Babciu, przepraszam, że przeszkadzam.",
+        "Babciu, przepraszam, że przeszkadzam"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandpa, where is the station?",
+      "answer": "Dziadku, gdzie jest dworzec?",
+      "accepts": [
+        "Dziadku, gdzie jest dworzec?",
+        "Dziadku, gdzie jest dworzec"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mr. Piotr, thank you for the present!",
+      "answer": "Panie Piotrze, dziękuję za prezent!",
+      "accepts": [
+        "Panie Piotrze, dziękuję za prezent!",
+        "Panie Piotrze, dziękuję za prezent"
+      ]
+    },
+    {
+      "prompt_en": "Type: Ms. Anna, could you help me?",
+      "answer": "Pani Anno, czy mogłaby pani mi pomóc?",
+      "accepts": [
+        "Pani Anno, czy mogłaby pani mi pomóc?",
+        "Pani Anno, czy mogłaby pani mi pomóc"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mom, I'm tired.",
+      "answer": "Mamo, jestem zmęczony.",
+      "accepts": [
+        "Mamo, jestem zmęczony.",
+        "Mamo, jestem zmęczony",
+        "Mamo, jestem zmęczona.",
+        "Mamo, jestem zmęczona"
+      ],
+      "explain": "zmęczony/zmęczona agrees with the speaker — a man says zmęczony, a woman says zmęczona."
+    },
+    {
+      "prompt_en": "Type: Dad, I'm hungry.",
+      "answer": "Tato, jestem głodny.",
+      "accepts": [
+        "Tato, jestem głodny.",
+        "Tato, jestem głodny",
+        "Tato, jestem głodna.",
+        "Tato, jestem głodna"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma, is everything OK?",
+      "answer": "Babciu, wszystko dobrze?",
+      "accepts": [
+        "Babciu, wszystko dobrze?",
+        "Babciu, wszystko dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandpa, goodbye!",
+      "answer": "Dziadku, do widzenia!",
+      "accepts": [
+        "Dziadku, do widzenia!",
+        "Dziadku, do widzenia"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "mamo",
+    "tato",
+    "babciu",
+    "dziadku",
+    "panie piotrze",
+    "pani anno",
+    "mamo, gdzie jest apteka",
+    "tato, dziękuję za prezent",
+    "babciu, jak się masz",
+    "dziadku, jestem głodny",
+    "panie piotrze, przepraszam, czy mógłby pan mi pomóc",
+    "pani anno, dziękuję bardzo"
+  ],
+  "uses_lemmas": [
+    "mama",
+    "tata",
+    "babcia",
+    "dziadek",
+    "pan",
+    "pani",
+    "piotr",
+    "anna",
+    "gdzie jest apteka",
+    "dziękuję za prezent",
+    "jak się masz",
+    "jestem",
+    "głodny",
+    "głodna",
+    "zmęczony",
+    "zmęczona",
+    "wszystko dobrze",
+    "dziękuję bardzo za",
+    "dziękuję bardzo",
+    "chciałbym zapytać",
+    "ile to kosztuje",
+    "przepraszam, że przeszkadzam",
+    "gdzie jest dworzec",
+    "czy mógłby pan mi pomóc",
+    "czy mogłaby pani mi pomóc",
+    "do widzenia",
+    "przepraszam",
+    "dziękuję za"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_vocative_chunks",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

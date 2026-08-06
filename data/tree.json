@@ -2766,12 +2766,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE, James decision #4] Address forms as WHOLE chunks. Never analysed, no case rule.",
+      "note": "Vocative stays CHUNK-LANE ONLY (James decision #4) - never taught as a case, no endings rule anywhere. Six frozen calling-forms: Mamo!/Tato!/Babciu!/Dziadku! (family) plus two formal panie/pani+name chunks named in the spine itself, Panie Piotrze!/Pani Anno! (piotr/anna already glue names). Name-vocative pattern NOT generalised beyond these two named examples.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b1_vocative_chunks.json"
     },
     {
       "id": "b1_opinions",

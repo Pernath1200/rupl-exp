@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 121 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 122 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -138,4 +138,5 @@ _None._
 | 123 | `b1_stories_func` | `situation_chunk` | 5 | `aspect_past`, `byc_adj`, `motion_prefixed`, `negation`, `past_byc`, `past_isc`, `past_plural`, `prep_do_gen`, `prep_w_loc`, `question`, `sie_reflexive`, `situation_chunk`, `virile_past`, `zgoda` |
 | 124 | `b1_imperative_rule` | `imperative_rule` | 12 | `byc_adj`, `gen_endings`, `imperative`, `imperative_rule`, `miec_acc`, `negation`, `perf_future`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje` |
 | 125 | `b1_adverb_comp` | `adverb_comp` | 12 | `adverb_comp`, `comparative`, `gen_endings`, `present`, `present_am`, `present_e_isz`, `present_uje`, `superlative` |
+| 126 | `b1_vocative_chunks` | `vocative_chunk` | 12 | `byc_adj`, `conditional_sg`, `question`, `situation_chunk`, `social_chunk`, `vocative_chunk` |
 
