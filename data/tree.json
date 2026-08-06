@@ -3535,17 +3535,18 @@
       "id": "b2_participle_pass",
       "domain": "grammar",
       "label": "Otwarty, zamknięty, zrobiony",
-      "label_en": "Passive participles",
+      "label_en": "The passive participle",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 7, unit 2 (spine O4 - the B2/C1 participle fork). The passive adjectival participle, PREDICATE POSITION ONLY: zrobiony, napisany (NEW), anchored on otwarty/zamkniety, which check_new.py confirms are ALREADY TAUGHT as plain adjectives by leaf_shopping_a1. Agrees like any adjective - which Block 2 has just taught, so agreement costs nothing. FENCED TO C1: attributive/declined participles (w zamknietym sklepie), adverbial participles (robiac, zrobiwszy), the active adjectival participle (pracujacy).",
+      "note": "[B2 Block 7 unit 2, spine O4] The passive adjectival participle - PREDICATE POSITION and PRESENT TENSE only, the only participle in B2. ANCHOR CONFIRMED: otwarty and zamkniety are already taught by leaf_shopping_a1 at path 20 as plain adjectives, and otworzyc is owned - so the opening claim is that two shop-door words are built from verbs. SAME SHAPE AS b2_verbal_nouns ONE NODE EARLIER, which is why it is cheap: rule for the -ac class (stem + -ny), whole words for the -ic class (-ony with an unpredictable stem change: zrobiony b->bi, zaplacony c->c). One split, learned twice, two nodes apart. 16 new forms but FOUR new words - agreement is the -y/-a/-e Nominative owned since zgoda. LOAD SPLIT against b2_passive: this unit is the FORM and its agreement (X jest <participle>); the next is the CONSTRUCTION (byl/bedzie) and names the passive. FENCED TO C1: attributive and DECLINED participles, adverbial participles, the active participle, the zostac passive. ALSO FENCED - THE PLURAL, because zrobione is the neuter singular here and is ALSO the non-virile plural; a form meaning two things stays out until it can be named. The -ty class gets no rule (zamknac is verified NEW). kupiony drafted and cut. See B2-SPINE Block 7.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_participle_pass.json"
     },
     {
       "id": "b2_passive",
