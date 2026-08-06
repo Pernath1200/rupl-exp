@@ -331,60 +331,72 @@
     },
     {
       "prompt_en": "Mom, where is the pharmacy?",
-      "mode": "full_word",
-      "answer": "Mamo, gdzie jest apteka?",
+      "mode": "cloze",
+      "answer": "apteka",
+      "frame": "Mamo, gdzie jest ___?",
       "accepts": [
-        "Mamo, gdzie jest apteka?",
-        "Mamo, gdzie jest apteka"
-      ]
+        "apteka"
+      ],
+      "explain": "After the calling-word comes a question you already own, completely unchanged — gdzie jest apteka? is the same sentence you have said since the directions unit.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words (calling-chunk + bolted-on question). NOT the teaching point, logged per the queue's fallback clause: the six calling-forms are all produced whole at items 0-5, so blanking Mamo here would repeat item 0's answer and break the no-duplicates rule. Blank matches the source unit's own frame and blank exactly — a2_directions_func #0 is 'Przepraszam, gdzie jest ___?' -> apteka — per the consistency rule (drill a recycled phrase the way it was taught). The calling-form stays on screen so the chunk is still read whole."
     },
     {
       "prompt_en": "Dad, thank you for the present!",
-      "mode": "full_word",
-      "answer": "Tato, dziękuję za prezent!",
+      "mode": "cloze",
+      "answer": "prezent",
+      "frame": "Tato, dziękuję za ___!",
       "accepts": [
-        "Tato, dziękuję za prezent!",
-        "Tato, dziękuję za prezent",
-        "Tato, dziekuje za prezent!"
-      ]
+        "prezent"
+      ],
+      "explain": "Prezent is masculine and not alive, so after za nothing is added to it.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. NOT the teaching point (Tato is produced whole at item 1) — fallback clause. Source b1_polite #9 'Dziękuję za prezent.' stayed typed whole at 3 words, so there is no source blank to mirror; blank falls on the most load-bearing form in the bolted-on clause, and its explain is copied from that source item."
     },
     {
       "prompt_en": "Grandma, how are you?",
-      "mode": "full_word",
-      "answer": "Babciu, jak się masz?",
+      "mode": "cloze",
+      "answer": "masz",
+      "frame": "Babciu, jak się ___?",
       "accepts": [
-        "Babciu, jak się masz?",
-        "Babciu, jak się masz"
-      ]
+        "masz"
+      ],
+      "explain": "Jak się masz? is the greeting you learned whole in A1 — the verb inside it is the same masz as in masz kawę.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. NOT the teaching point (Babciu is produced whole at item 2) — fallback clause. Blank on the finite verb of the bolted-on greeting. Homograph checked: masz is taught in a1_miec as 'you have', and inside jak się masz it is that same verb form, so no re-reading is forced."
     },
     {
       "prompt_en": "Grandpa, I'm hungry.",
-      "mode": "full_word",
-      "answer": "Dziadku, jestem głodny.",
+      "mode": "cloze",
+      "answer": "głodny",
+      "frame": "Dziadku, jestem ___.",
       "accepts": [
-        "Dziadku, jestem głodny.",
-        "Dziadku, jestem głodny"
-      ]
+        "głodny",
+        "glodny"
+      ],
+      "explain": "Głodny is the man's form — a woman says głodna. The calling-word in front never changes it.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 3 words — NOT in the swept queue list (the sweep was word-count-based), caught by the refinement's composition test: calling-chunk + bolted-on clause, the same shape as 'Jak było w pracy?'. NOT the teaching point (Dziadku is produced whole at item 3) — fallback clause. Blank on the gendered adjective, the only part of the clause that varies."
     },
     {
       "prompt_en": "Mr. Piotr, excuse me, could you help me?",
-      "mode": "full_word",
-      "answer": "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?",
+      "mode": "cloze",
+      "answer": "pomóc",
+      "frame": "Panie Piotrze, przepraszam, czy mógłby pan mi ___?",
       "accepts": [
-        "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?",
-        "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc",
-        "Panie Piotrze, przepraszam, czy moglby pan mi pomoc?"
-      ]
+        "pomóc",
+        "pomoc"
+      ],
+      "explain": "After the ready-made Czy mógłby pan opening comes a plain infinitive — pomóc, never pomogę.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 8 words. NOT the teaching point (Panie Piotrze is produced whole at item 4) — fallback clause. DESIGN FORK, conservative default taken and logged: the consistency rule would mirror the source blank, and b1_polite #0 blanks mógłby — but that item is itself flagged for James's smoke against b1_polite's MÓGŁBY QUARANTINE, and the previous repair run recorded that the conservative fix, if it feels wrong in the hand, is to move the blank onto pomóc and leave the quarantined forms unproduced. Since James has not ruled yet, this pack does not add a third quarantined production: the blank goes on the infinitive instead, and the whole polite opening stays visible on screen. If James clears the quarantine, this can be moved to mógłby to match the source."
     },
     {
       "prompt_en": "Ms. Anna, thank you very much!",
-      "mode": "full_word",
-      "answer": "Pani Anno, dziękuję bardzo!",
+      "mode": "cloze",
+      "answer": "dziękuję",
+      "frame": "Pani Anno, ___ bardzo!",
       "accepts": [
-        "Pani Anno, dziękuję bardzo!",
-        "Pani Anno, dziękuję bardzo",
-        "Pani Anno, dziekuje bardzo!"
-      ]
+        "dziękuję",
+        "dziekuje"
+      ],
+      "explain": "Dziękuję bardzo is just dziękuję with bardzo added for warmth — nothing about the word changes.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. NOT the teaching point (Pani Anno is produced whole at item 5) — fallback clause. Blank on the finite verb, the most load-bearing form in the bolted-on thanks; prezent is already the answer at item 7, so the two thanking items stay distinct."
     }
   ],
   "use_items": [
