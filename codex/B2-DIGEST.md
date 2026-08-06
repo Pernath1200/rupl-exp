@@ -1619,3 +1619,291 @@ Strict surfaces came back **completely clean on all three**.
   taught by its own node), *Jeśli…* (taught by its own node), *Gdybym miał czas…*
   (*gdybym* its own node, *miał* `a2_past_rest`, *czas* owned). No `title_en`
   carries builder jargon.
+
+---
+
+## Batch 8 — Block 5 opens: the plural obliques (`b2_loc_pl`, `b2_inst_pl`, `b2_dat_pl`)
+
+Built the next three unbuilt nodes in path order, one at a time, each authored,
+scanned, wired and audited before the next was started. Each audit-clean
+(**0 errors**; the same two pre-existing, unrelated warns from `a2_prep_review` /
+`b1_two_futures` that every batch since B1 has carried), pushed to
+`origin/b1-build` per unit, not batched. Three new structures registered in
+`SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before each audit ran:
+`loc_pl`, `inst_pl`, `dat_pl`.
+
+Path is live through `b2_dat_pl` (path index 155, **149 live nodes**, 24 of B2's
+48 non-station nodes done). Next unbuilt B2 node: **`b2_gen_pl_full`**.
+
+**The batch has one shape, and it is the thing to look at first.** All three
+units run on the same fixed cast of nouns, in the same order, taking three
+different endings on three consecutive nodes — `w domach` / `z rodzicami` /
+`pomagam rodzicom`. That was not the spine's instruction; it is this batch's
+design decision, and it pays off twice: the plural obliques read as one table
+with three columns rather than three unrelated word lists, and by unit 3 the
+Kontrola choice lists are four real forms of the *same* noun in four different
+cases (`siostrom / siostrami / siostrze / siostrą`), with nothing imported and
+nothing fabricated.
+
+**Environment note, still true and still worth stating:** `main` has no `codex/`
+directory, so a cloud session must start with `git fetch origin && git checkout
+-B b1-build origin/b1-build`, and `py -X utf8` does not exist on the Linux
+runner — use `python3 -X utf8`. The remote moved twice mid-run (James's
+word-origin index, then the fruit-payoff port); both times the fix was fetch,
+rebase, re-run `audit.py`, push. The only rebase conflict was
+`audit/sequencing-audit.json`, a generated artifact — resolved by regenerating
+it, never by hand-merging.
+
+### `b2_loc_pl` (Block 5, unit 1 — the easiest unit in B2, and built to feel it)
+
+Locative plural `-ach`: one ending for every gender, no exception among the words
+this course owns. Eleven new forms, all verified NEW: *domach, sklepach,
+hotelach, bankach, szkołach, firmach, gazetach, miastach, biurach, mieszkaniach,
+biurkach* — four masculine, four feminine, four neuter counting the recycled
+*górach*.
+
+**The anchor is a whole phrase he has owned since A2.** `a2_travel` taught
+*w górach* as a frozen holiday chunk and `check_new.py` confirms it. Slide 1
+opens by pointing at it rather than by announcing a new case: the ending is not
+something special about mountains.
+
+**The homograph decision shaped the entire pack, and it is the judgment call I
+would most want checked.** The obvious intro table pairs the nominative plural
+with the new form — *szkoły → szkołach*. It is wrong. `check_new.py` reports
+*szkoły* TAUGHT, but the owners are `a1_gen_endings` (*szkoła → szkoły*, the
+GENITIVE singular) and `a1_prep_do_z` / `a1_case_gym` (*ze szkoły*). The
+identical trap holds for *miasta* (`a1_gen_endings`, *do miasta*), *książki*
+(`a1_gen_ki`, *nie mam książki*), *biura* and *firmy* (`a1_prep_review_2`,
+*do biura* / *do firmy*) — **every one of them owned as a genitive singular, none
+of them as a nominative plural.** A table pairing *szkoły → szkołach* would have
+shown Dad a form he reads as "of the school". So the left-hand column is the
+LOCATIVE SINGULAR he genuinely owns (*w szkole, w mieście, w biurze, w firmie*),
+and the nominative plurals that *are* honestly owned as plurals (*sklepy, banki,
+hotele, domy, okna, telefony, klucze*, `a2_plural_nom`) appear only as sentence
+subjects — the job that pack taught them in.
+
+**The rule is stated in the form it is actually true in.** Neither "add `-ach` to
+the plural" nor "add `-ach` to the Locative singular" is true of these words
+(*w mieście → w miastach* kills both). Slide 2 says: take the plain dictionary
+word, drop a final vowel if there is one, add `-ach`.
+
+**Slide 4 guards the predictable error, which is not the singular but the
+genitive plural.** `a2_gen_pl` taught *domów, sklepów, banków, gazet, miast,
+biur* alongside *dużo*, *blisko* and *nie ma*; those forms are also plural and
+also not the subject form, so a learner fresh from `-ach` reaches for it after
+*dużo*. Four quiz items put the genitive plural on the button row for exactly
+that reason. Both halves of every negative illustration are owned strings.
+
+Quiz item 1's answer is deliberately **not** this lesson's form (*domu*, with
+*domach* on the button row) — a unit whose every answer is the new ending
+teaches button-picking, not reading.
+
+Fenced: all plural adjectives (spine **O3** → C1), which makes this an entirely
+bare-noun unit and is why "in the big cities" is nowhere in it; *gór, szkół,
+firm* (verified NEW), so only `a2_gen_pl`'s own word list appears in the *dużo*
+contrast; *oknie, mieszkania, biurka, restauracje, komputery, tych, moi, wiele*;
+and *dzieciach* / *ludziach*, regular and legal but held back so `b2_inst_pl`'s
+irregular-instrumental call stayed clean.
+
+### `b2_inst_pl` (Block 5, unit 2 — `a2_inst_z`'s fence paid in full, not in half)
+
+Instrumental plural `-ami`, drilled in ONE owned job: companionship after *z*.
+`a2_inst_z`'s fence reads *"plural instrumental (z rodzicami, z dziećmi) — B1,
+different ending set"*. **It named both phrases, so both are paid.** Twelve new
+forms, all verified NEW.
+
+**One job only, deliberately.** The Instrumental has three owned duties —
+identity (`a1_inst_job`), companionship (`a2_inst_z`) and transport
+(`a2_inst_transport`) — and only companionship gets a plural, mirroring
+`a2_inst_z`'s own "deliberately ONE new thing" framing. *Jesteśmy studentami* is
+a logged, cost-free top-up if the unit plays thin.
+
+**`braćmi` is a deliberate extension beyond the spine's list, and it is the
+decision in this batch most worth overruling if you disagree.** B2-SPINE **O9**
+left *dziećmi*/*ludźmi* to the author as "taught whole or fenced"; both are
+taught whole, and I added a third. The reason: `a2_inst_z` made *z bratem* the
+**first item on its board**, so *brat* is the noun Dad has produced most often in
+exactly this construction, and a unit that teaches `-ami` while leaving *brat*
+alone hands him a wrong form he has every reason to build. Three memorised
+strings in one marked box is the standing closed-set idiom (`a2_gen_pl`'s lists,
+`b2_reported`'s five forms of *powiedzieć*), and the framing is already owned:
+`a2_family2` taught *dziecko → dzieci* with the words "one of a handful of words
+you learn whole rather than build", which slide 4 quotes back at him.
+**The conservative alternative** was two exceptions instead of three, leaving
+*brat* silently unpayable.
+
+**No non-word is ever printed.** The natural way to mark an exception is to show
+the form it is *not*, and both candidates here are fabrications. Slide 4
+therefore says *brat* "does not simply add `-ami`" rather than spelling one out,
+and no choice list contains an invented string. (This is the b2_gdyby *miałby*
+lesson generalised: a button teaches a string as surely as a table does.)
+
+**`ze` is verified NEW and shaped the word list.** *z* becomes *ze* before an
+s-cluster, so *ze studentami* was the natural "with students" row — but
+`a1_prep_do_z` taught only the whole chunks *ze szkoły* and *ze sklepu*, never
+the bare preposition. *studentami* was dropped for that reason alone and
+*klientami*/*pacjentami* took its place; all twelve rows take plain *z*.
+
+Fenced: *przyjaciółmi* and *gośćmi* (a fourth and fifth exception would turn a
+marked box into a paradigm; `a2_inst_z` had already fenced *z przyjacielem*);
+*lekarzami*, *nauczycielami*; *bracia, synowie, siostry, ciocie, kolegi, syna,
+cioci, klienta, pacjenta, kotem, człowiek* — so *ludzie* is handed over with no
+singular anchor at all and slide 4 says so rather than working around it;
+*rozmawiam*/*rozmawia* (`a2_phone_func` owns only the infinitive), which cost the
+unit's most natural sentence; *razem, spotykam, w piłkę, na wakacje*. **The whole
+dative plural** — *rodzicom, dzieciom, ludziom* — appears nowhere, not as a
+distractor, because it was the very next node.
+
+### `b2_dat_pl` (Block 5, unit 3 — the strand closes)
+
+Dative plural `-om`. Twelve new forms, all verified NEW, on the same cast.
+
+**The headline is that the hard part is behind him.** `b1_dative_sg` had to teach
+its singular endings one word at a time (*mamie, tacie, siostrze, studentowi,
+nauczycielowi*) because the dative singular genuinely is unpredictable. The
+plural is a single `-om`.
+
+**The build rule changes, and it had to.** Nine of the twelve are last lesson's
+`-ami` with `-om` in its place, so that is what slide 2 teaches. The "drop a
+final vowel" rule that served units 1 and 2 **breaks on *dzieci***, whose final
+`-i` belongs to the stem (*dzieci* + *om*); applying it would produce a
+fabrication. So *dzieci* and *ludzie* get their own slide rather than being
+forced into the general rule — and that slide is the payoff for unit 2's
+exception box: the two words that refused `-ami` are perfectly ordinary here,
+with the useful part said out loud, that they must be built from *dzieci*/*ludzie*
+and **not** from *dziećmi*/*ludźmi*, which is precisely the mistake unit 2 sets up.
+
+***brat* is absent by design and is this unit's one real gap.** *braciom* is
+verified NEW and cannot be reached from *brat* by any rule this course has stated
+— it needs the *braci-* plural stem. Unit 2 taught *braćmi* on the argument above;
+the same argument would justify *braciom*, but this unit's whole claim is "one
+ending, nothing to learn whole", and re-opening an exception box for a single
+word costs more than the word is worth. **A first draft quoted the owned dative
+SINGULAR *bratu* on slide 1 among the singular endings, and it was cut** — naming
+the word is exactly what invites a learner to reach for its plural.
+
+Governors are the two already owned, *pomagać* and *dziękować*. *dziękuję* (1sg)
+is owned back at `trunk_social_a1` as the bare social chunk, and `b1_dative_sg`'s
+own shorthand line says "*dziękuję* (już twoje)" before conjugating the rest, so
+governing the dative with it is that pack's move, not a new one. **The
+`a2_dat_chunks` frame is fenced**: *podoba mi się* / *smakuje mi* take dative
+PRONOUNS, and a plural dative NOUN in that frame (*podoba się dzieciom*) is a
+different construction shape, not a new ending. Held, logged, C1 inbox.
+
+Quiz item 9's answer is LAST lesson's ending (*córkami* after *z*), the same
+guard unit 1 used. Item 10 puts both endings on ONE noun in ONE sentence
+(*Mieszkam z rodzicami i pomagam rodzicom*) — the sharpest discrimination the
+block can make, and only possible because the three units share a cast.
+
+Also fenced: *nauczycielom* and *lekarzom* — those nouns appear as SUBJECTS only,
+which holds the count at twelve, and a draft use item wanting *nauczycielom* was
+rewritten rather than allowed to add a thirteenth form; *czemu*; **and *mamom* /
+*tatom* deliberately**, since *mamy* is AGENTS.md's own headline homograph
+(the VERB "we have" at `a1_miec`) and this pack will not go near that string.
+
+### Verification performed on all three packs
+
+The batch-7 scanner was not committed, so it was rebuilt from scratch this run.
+Before being trusted it was **calibrated against already-shipped packs** —
+`b2_adj_loc`, `b2_gdyby`, `b2_jesli` and `a2_gen_pl` — and had to reproduce
+"clean" on each before it was allowed to judge new work.
+
+- Every authored learner-facing string — intro bodies and **every table cell**,
+  titles, `body_pl`, match rows, quiz prompts, **quiz distractors**, `explain`
+  text, `accepts`, type and use items — extracted and scanned token by token
+  against the position-aware pool plus the pack's own `teaches_lemmas`. `note` is
+  excluded, since a note legitimately names what it fences.
+- **Pool regenerated three times**, once before each unit (`--before b2_loc_pl`,
+  `--before b2_inst_pl`, `--before b2_dat_pl`), so each pack was written against
+  what is taught strictly before *it*. This mattered every time: unit 2 recycles
+  *górach*/*domach*/*szkołach* from unit 1 one node earlier, and unit 3 recycles
+  unit 2's entire `-ami` board as its own distractor set.
+- **Five real problems caught before wiring**, listed because the pattern is
+  instructive — three of the five are the author's stated fence contradicting the
+  author's own content:
+  1. **A builder unit code in learner-facing text.** `b2_inst_pl`'s quiz-7
+     `explain` read "the phrase a2_inst_z promised you". AGENTS.md forbids unit
+     codes on learner surfaces outside *Tryb autorski*; rewritten to name the
+     phrases instead. This one the token scanner could not see — it took a
+     separate regex for `(a1|a2|b1|b2)_[a-z_]+` over every non-`note` string, now
+     part of the check.
+  2. **`bratu` on `b2_dat_pl` slide 1**, directly contradicting that pack's own
+     note claiming *brat* appeared nowhere. Cut.
+  3. **`nauczycielom` in a `b2_dat_pl` use item** — a thirteenth new form, in a
+     pack whose note fenced that exact string. The item was rewritten, not the
+     fence.
+  4. **`w mieszkaniu` tagged as a chunk lemma in `b2_loc_pl`** — the only audit
+     error of the batch. `a1_prep_place` drills the phrase on its board but
+     declares only *mieszkaniu* in `teaches_lemmas`, so the chunk string is not a
+     declared lemma anywhere. Dropped the over-specific tag and kept
+     *mieszkaniu*; the material is genuinely taught, so this was a tagging
+     artifact rather than a sequencing bug. Unit 2 and unit 3 were then written
+     tagging only chunks that are genuinely declared somewhere.
+  5. **Word-fragment stems (`szkoł-`, `mieszkani-`) in a `b2_loc_pl` intro
+     table.** Standard morphology apparatus, but this learner reads no Polish and
+     would meet them as words. The column now shows the letter dropped (`-a`,
+     `-o`, `-e`) instead of the bare stem.
+- **Nine dead tags removed across the three packs** (*góry, sklep, biuro, biurko,
+  córka, nauczycielowi, bratu*, plus two chunk forms) — declared and never used.
+  Left in, they are decoration that makes the tag lists lie.
+- **Homograph "taught AS" check re-run on every recycled form**, not just the
+  suspicious ones. The ones that mattered are in the unit notes above; the
+  headline is `b2_loc_pl`'s five genitive-singulars-masquerading-as-plurals.
+- **Dedicated fence greps per pack, with `note` stripped first.** `b2_dat_pl`:
+  zero *brat/braci/brać*, zero *mamom/tatom*, zero *czemu*, zero
+  *lekarzom/nauczycielom*, zero *podoba/smakuje*. `b2_inst_pl`: zero dative
+  plurals of any kind. `b2_loc_pl`: zero plural adjectives.
+- **Mechanical stage checks per pack**: match exactly 12 rows with no duplicate
+  `pl` or `en`; every quiz answer present among its own choices; no duplicated
+  choices; no duplicate prompts; no duplicate type or use answers; no Użycie item
+  repeating a Pisanie item; every `teaches_lemma` actually demanded in a drill
+  stage; and a meta-question sniff over every Kontrola prompt. All three clean.
+- **`b2_loc_pl`'s Użycie stage was rebuilt after the first draft**, because four
+  of its ten items were verbatim the completed sentence from a Kontrola item. Not
+  a rule violation — the sanctioned overlap is Dopasuj↔Pisanie — but Użycie has to
+  earn its place, so those four are now different sentences.
+- **All eight station placeholders re-asserted as `planned` after every wiring**,
+  by assertion rather than by eye. Confirmed after the final rebase too.
+- Known blind spot, unchanged and stated again: person pronouns sit in `audit.py`'s
+  `GLUE_LEMMAS`, so the machine cannot see a pronoun leak. These three units are
+  bare-noun throughout and use no oblique pronoun anywhere, checked by hand.
+
+### For James's next smoke pass
+
+- **`braćmi` is the call I would most want you to look at.** It is a deliberate
+  extension beyond what B2-SPINE O9 authorised, on the argument that `a2_inst_z`
+  made *z bratem* its very first board item so *brat* is the word Dad will reach
+  for. If you would rather Block 5 stayed strictly to the spine, cutting it is
+  one match row, one type item and one quiz item, and the unit still works.
+- **And then `braciom` is the mirror-image gap.** Having taught *braćmi* in unit
+  2, unit 3 does **not** teach *braciom* — so after this batch Dad can say "with
+  my brothers" but not "to my brothers", which is a slightly odd shape. The fix
+  is one string on `b2_dat_pl` slide 3, beside *dzieciom* and *ludziom*. I left
+  it out because that unit's whole claim is "one ending, nothing to learn whole",
+  but this is the batch's clearest single top-up and I would not argue with you
+  adding it.
+- **Watch whether the shared cast reads as elegant or as repetitive.** Twelve
+  people take three endings across three consecutive units. My judgment is that
+  it turns the plural obliques into one learnable table; the risk is that unit 3
+  feels like unit 2 again. If it drags, the cheap fix is to swap three or four
+  nouns in `b2_dat_pl` (*lekarzom*, *nauczycielom*, *turystom* are all one clean
+  string each), **not** to cut the unit — but that would cost the four-forms-of-
+  one-noun distractor lists, which are the best thing in it.
+- **`b2_loc_pl`'s slide 4 shows two ungrammatical strings on purpose** — "*dużo
+  sklepów* never becomes *dużo sklepach*, and *w sklepach* never becomes *w
+  sklepów*". Both halves of both are owned words, so nothing untaught is smuggled
+  in, but they are still wrong Polish printed on a slide. If negative examples
+  bother you live, that line can go and the four quiz items carry the same fact.
+- **Unit 1 is bare-noun throughout and may feel thinner than the adjective
+  block.** That is spine O3 doing its job — plural oblique adjectives go to C1 —
+  and it is why "in the big cities" is not expressible. Worth a look at whether
+  the absence is felt.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
+- Titles re-checked word by word at the moment of wiring, per the standing B1
+  batch 10 reminder. All three pass: *W domach, w sklepach · miejscownik* and
+  *Z rodzicami, z dziećmi · narzędnik* and *Pomagam rodzicom · celownik* — every
+  Polish form either taught by its own node or long owned (*pomagam*,
+  `b1_dative_sg`), and the case names are the sanctioned metalanguage AGENTS.md
+  names as the house pattern (*Z + narzędnik*). No `title_en` carries builder
+  jargon.
