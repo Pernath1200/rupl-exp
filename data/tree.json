@@ -2810,18 +2810,19 @@
     {
       "id": "b1_wrapup",
       "domain": "grammar",
-      "label": "Jeden dzień · B1",
+      "label": "Jeden dzień · koniec",
       "label_en": "B1 capstone",
       "kind": "topic",
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] Recombines narrative, plans, politeness, opinions. Genre of a2_wrapup_func.",
+      "note": "B1 CAPSTONE, genre of a2_wrapup_func. Zero-new recombination of four registers named in this node's original spine note: plans (b1_plans), politeness (b1_polite), narrative (b1_stories + b1_journeys), opinions (b1_opinions). Title changed from placeholder using the raw level code 'B1' to 'Jeden dzień, koniec' (both words taught) since a level code is not learner Polish vocabulary.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b1_wrapup.json"
     },
     {
       "id": "b1_station_2",
