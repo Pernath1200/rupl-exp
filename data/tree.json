@@ -2699,11 +2699,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] Narrative connectives (najpierw/potem/w koncu/nagle) - the real B1 milestone: telling a story. potem confirmed untaught in A2.",
+      "note": "Narrative connectives (najpierw, potem, w koncu, nagle, niestety, na szczescie) — zero new structures, every example sentence recycles past tense/aspect/motion/virile material already live. This is the unit that unlocks telling a story in the past.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_stories.json"
     },
     {
       "id": "b1_stories_func",
