@@ -351,93 +351,103 @@
  "type_items": [
   {
    "prompt_en": "I know that Mum is at home.",
-   "mode": "full_word",
-   "answer": "Wiem, że mama jest w domu.",
+   "mode": "cloze",
+   "answer": "że",
    "accepts": [
-    "Wiem, że mama jest w domu.",
-    "Wiem, że mama jest w domu"
-   ]
+    "że"
+   ],
+   "frame": "Wiem, ___ mama jest w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on że — the unit's whole teaching point, the joint itself. Produced exactly once in the stage; the no-duplicates rule forbids a second że answer, so the other eight że-items blank the load-bearing form of one half instead (queue fallback clause)."
   },
   {
    "prompt_en": "I think that the coffee is good.",
-   "mode": "full_word",
-   "answer": "Myślę, że kawa jest dobra.",
+   "mode": "cloze",
+   "answer": "Myślę",
    "accepts": [
-    "Myślę, że kawa jest dobra.",
-    "Myślę, że kawa jest dobra"
-   ]
+    "Myślę"
+   ],
+   "frame": "___, że kawa jest dobra.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że is spent at item 0. Blanks the opener — the verb of thinking that licenses the że-clause, which is the half of the joint still under the learner's control here."
   },
   {
    "prompt_en": "I know that Dad is working.",
-   "mode": "full_word",
-   "answer": "Wiem, że tata pracuje.",
+   "mode": "cloze",
+   "answer": "Wiem",
    "accepts": [
-    "Wiem, że tata pracuje.",
-    "Wiem, że tata pracuje"
-   ]
+    "Wiem"
+   ],
+   "frame": "___, że tata pracuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: że spent at item 0. Blanks the other opener, wiem — held to the first person, per the pack note's a2_directions_func quarantine (no wiesz / wie / wiedzieć anywhere)."
   },
   {
    "prompt_en": "I think that the shop is closed.",
-   "mode": "full_word",
-   "answer": "Myślę, że sklep jest zamknięty.",
+   "mode": "cloze",
+   "answer": "zamknięty",
    "accepts": [
-    "Myślę, że sklep jest zamknięty.",
-    "Myślę, że sklep jest zamknięty"
-   ]
+    "zamknięty"
+   ],
+   "frame": "Myślę, że sklep jest ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the masculine adjective inside the clause — the point being that the clause's own agreement is untouched by że."
   },
   {
    "prompt_en": "Mum says that the weather is nice.",
-   "mode": "full_word",
-   "answer": "Mama mówi, że pogoda jest ładna.",
+   "mode": "cloze",
+   "answer": "mówi",
    "accepts": [
-    "Mama mówi, że pogoda jest ładna.",
-    "Mama mówi, że pogoda jest ładna"
-   ]
+    "mówi"
+   ],
+   "frame": "Mama ___, że pogoda jest ładna.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: że spent at item 0. Blanks the third opener, the verb of saying that takes że."
   },
   {
    "prompt_en": "I know that my brother is tired.",
-   "mode": "full_word",
-   "answer": "Wiem, że brat jest zmęczony.",
+   "mode": "cloze",
+   "answer": "jest",
    "accepts": [
-    "Wiem, że brat jest zmęczony.",
-    "Wiem, że brat jest zmęczony"
-   ]
+    "jest"
+   ],
+   "frame": "Wiem, że brat ___ zmęczony.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Wiem at item 2. Blanks the inner clause's own verb, which is exactly what the intro claims never moves."
   },
   {
    "prompt_en": "I think that this is good.",
-   "mode": "full_word",
-   "answer": "Myślę, że to jest dobre.",
+   "mode": "cloze",
+   "answer": "dobre",
    "accepts": [
-    "Myślę, że to jest dobre.",
-    "Myślę, że to jest dobre"
-   ]
+    "dobre"
+   ],
+   "frame": "Myślę, że to jest ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the neuter adjective — agreement decided inside the clause, not by że."
   },
   {
    "prompt_en": "I know that I have a referral.",
-   "mode": "full_word",
-   "answer": "Wiem, że mam skierowanie.",
+   "mode": "cloze",
+   "answer": "mam",
    "accepts": [
-    "Wiem, że mam skierowanie.",
-    "Wiem, że mam skierowanie"
-   ]
+    "mam"
+   ],
+   "frame": "Wiem, że ___ skierowanie.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: że spent at item 0, Wiem at item 2. Blanks the inner 1sg verb, which keeps its person unchanged under że."
   },
   {
    "prompt_en": "I think that the results are good.",
-   "mode": "full_word",
-   "answer": "Myślę, że wyniki są dobre.",
+   "mode": "cloze",
+   "answer": "są",
    "accepts": [
-    "Myślę, że wyniki są dobre.",
-    "Myślę, że wyniki są dobre"
-   ]
+    "są"
+   ],
+   "frame": "Myślę, że wyniki ___ dobre.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the plural verb inside the clause."
   },
   {
    "prompt_en": "I am going to the shop to buy bread.",
-   "mode": "full_word",
-   "answer": "Idę do sklepu, żeby kupić chleb.",
+   "mode": "cloze",
+   "answer": "żeby",
    "accepts": [
-    "Idę do sklepu, żeby kupić chleb.",
-    "Idę do sklepu, żeby kupić chleb"
-   ]
+    "żeby"
+   ],
+   "frame": "Idę do sklepu, ___ kupić chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on żeby — the że / żeby discrimination this unit exists to draw, and the one item in the stage that is not a że-clause."
   }
  ],
  "use_items": [
