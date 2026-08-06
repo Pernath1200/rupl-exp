@@ -663,3 +663,128 @@ audit-breaking) tag.
   `b1_wrapup`, `b1_station_2` — all of Block 7's remaining slots. The next
   build run should treat this as closing out the level, not opening new
   ground.
+
+## Batch 10 — B1-SPINE.md closed out
+
+Built `b1_case_gym`, `b1_wrapup` — the last two real content nodes on the
+whole B1 spine, both audit-clean (0 errors; same 2 pre-existing unrelated
+warns from `a2_prep_review`/`b1_two_futures`), pushed to `origin/b1-build`
+one at a time, not batched. `b1_station_2` was left `planned` on purpose —
+same permanent-placeholder treatment `b1_station_1` and every A2 station got
+(batch 6 confirmed this by checking every `*_station_*` node in `tree.json`;
+re-confirmed here rather than re-guessed). **This closes the B1-SPINE.md
+teaching content — no unbuilt B1 grammar or vocab nodes remain on
+`path_order`.**
+
+### `b1_case_gym` (all-cases + virile + dative review gym)
+
+Zero new material, extending `a2_case_gym2`'s seven-job case grid (Nom/Acc/
+Gen-sg/Loc/Inst/Nom-pl/Gen-pl) with the four systems B1 added since: Dative
+with a noun (`b1_dative_sg`), Dative with a pronoun (`b1_dative_pron`), virile
+Nominative production (`b1_virile_reco`/`b1_virile_nom`), virile past
+agreement (`b1_virile_past`) — eleven jobs total.
+
+**Title fix, caught before writing a single content item:** `tree.json`'s
+placeholder label was "Siłownia · wszystkie przypadki" — `check_new.py`
+showed both `wszystkie` and `przypadki` are NEW, never taught anywhere in
+the course. Shipping that verbatim would have put two untaught Polish words
+in a learner-visible title, the exact class of bug AGENTS.md's title rule
+already caught three times (*Z kim*, *pojazdem*, *Być · fundament*).
+Retitled to "Siłownia · wszystko" (wszystko, taught by `a2_smalltalk`) and
+corrected `tree.json`'s own label to match when wiring the unit live.
+
+**Self-verification caught real leaks before shipping**, none of which the
+auditor's string-matching would have seen on its own: `bracia`/`bracie`
+(irregular plural of *brat*, fenced since `b1_virile_nom`) were nearly used
+as quiz distractors before `check_new.py` confirmed they're NEW — swapped
+for real taught forms of *brat* in three different cases instead
+(brata/bratu/bratem). `kawą`/`kawie` (instrumental/locative of *kawa* — this
+course only ever inflects *kawa* through Nom/Acc/Gen) and `nauczyciela`
+(accusative of *nauczyciel* — only `nauczycielem`/`nauczycielowi`/
+`nauczyciel`/`nauczycielka` are taught) were caught the same way before
+being used as distractors. `go`/`jemu` (accusative-him / emphatic-dative-him
+pronouns) were considered for the dative-pronoun discrimination items and
+dropped — this course's pronoun grid stops at `mu`/`ci`/`jej`/`nam`/`wam`/
+`im` from `b1_dative_pron`, and neither is taught.
+
+**Homograph handled by NOT re-drilling it:** `ci` is taught twice (virile
+demonstrative in `b1_virile_reco`, dative clitic in `b1_dative_pron` — the
+collision `b1_virile_reco`'s own batch-4 digest entry predicted in advance).
+This gym uses `ci` only in its virile sense (`ci studenci`) and picked `mu`
+for the dative-pronoun drill items instead of re-running `b1_dative_pron`'s
+own ci/ci contrast a second time — a zero-new review gym isn't the place to
+introduce a third collision test, so the second intro slide just reminds the
+learner both meanings exist rather than drilling them side by side again.
+
+### `b1_wrapup` (B1 capstone, closes the spine)
+
+Same genre as `a2_wrapup_func`: zero new material, `teaches_structures` is
+just `[situation_chunk]` re-declared, `teaches_lemmas` empty, every phrase
+copied verbatim from its owning unit. Built strictly from the four registers
+this node's own pre-existing `tree.json` note named — plans (`b1_plans`),
+politeness (`b1_polite`), narrative (`b1_stories` + `b1_journeys`), opinions
+(`b1_opinions`) — and nothing else; `b1_vocative_chunks` was considered as a
+fifth register and deliberately left out, logged in the pack note, so the
+four-way discrimination drill wouldn't get diluted the way `a2_wrapup_func`
+never tried to stack a sixth situation onto its own five.
+
+**Title fix, same class of catch as `b1_case_gym`'s:** `tree.json`'s
+placeholder title used the raw level code "B1" inside the learner-visible
+Polish title field. A level code is not Polish vocabulary — shipping it
+would have read as the same kind of problem the title rule bans, even though
+it isn't literally an untaught inflected word. Retitled to "Jeden dzień,
+koniec" (both words taught: `dzień` from `trunk_social_a1`, `koniec` from
+`leaf_ideas_a1`).
+
+**Self-verification caught two real leaks before shipping:**
+1. A first-draft `body_pl` shorthand line named the four registers as
+   single abstract nouns — "Plany. Uprzejmość. Opowieść. Opinia." —
+   assuming the `body_pl` metalanguage exemption (case names like
+   *miejscownik* are allowed there by convention) would cover it.
+   `check_new.py` showed `Uprzejmość` and `Opowieść` are NEW (never taught
+   as vocabulary anywhere) and even `Plany` — the plural of the taught
+   singular `plan` — is a form this course has never produced. The
+   exemption is for grammar metalanguage, not fresh content vocabulary;
+   replaced the line with the same already-taught four-chunk-fragment
+   style the pack's own second intro slide already used safely
+   ("Planuję… Przepraszam, że przeszkadzam… Najpierw… Moim zdaniem…").
+2. `uses_lemmas` originally tagged the whole sentence `spóźniłem się do
+   pracy` as one atomic string — this is the exact multi-word atomic-tag
+   trap AGENTS.md warns bit the A2 build repeatedly. Only `spóźniłem się`
+   is an actual taught chunk (from `b1_journeys`); `do pracy` is a
+   preposition frame plus the separately-taught noun `pracy`. Split the
+   tag into its two real constituent parts.
+
+Also rejected during drafting, all confirmed NEW via `check_new.py` before
+a single sentence was finalized: `wycieczkę` (only the nominative `wycieczka`
+is taught), `zadzwonić`, `jechałem`/`jechał` (no taught past of *jechać* —
+only its present is), `pomógł`/`pomagał`/`pomagali` (no taught past of
+*pomóc* or *pomagać* — `b1_dative_sg` only ever taught `pomagać`'s present),
+`długi`, `powtórzy`, and — the one that would have been hardest to catch by
+eye — `poszedłem`, a THIRD prefix on *iść*'s suppletive past stem beyond the
+two `b1_arrive_leave` actually taught (`przyszedłem`/`wyszedłem` only; `po-`
+was never taught and would have been a silent new-prefix leak dressed up as
+"just more of the same verb"). `Planuję spotkanie` was kept, relying on
+neuter Acc=Nom needing no new form — the same standing pattern as `Kupiłem
+chleb` (masc inanimate, also unchanged) already used repeatedly since
+`a2_aspect`, confirmed by grep before trusting it rather than assumed.
+
+### For James's next smoke pass
+
+- **B1 is now fully authored end to end** (bar the permanent `b1_station_2`
+  placeholder). Worth a full click-through of the level at some point, not
+  just the two units in this batch — this is the first point where that's
+  even possible.
+- `b1_case_gym`'s eleven-job table (intro slide 1) is dense — worth checking
+  whether presenting Dative-noun/Dative-pronoun/virile-Nom/virile-past as
+  four *additional* rows on top of the original seven reads as a coherent
+  system or as overload for a review unit.
+- `b1_wrapup`'s final chained use-item (eight chunks, four registers, one
+  long sentence) is the single hardest task in the whole level — matching
+  `a2_wrapup_func`'s own capstone finale, but longer. Worth watching Dad
+  attempt it specifically.
+- Both units' title fixes (tree.json placeholders had untaught/non-Polish
+  text) are a reminder that a spine document's provisional label text is
+  not itself audited or vocabulary-checked — worth treating every
+  tree.json `label` as a draft to re-verify, not a fact, when wiring any
+  future unit live.
