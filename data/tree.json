@@ -3484,17 +3484,18 @@
       "id": "b2_aspect_prefixes",
       "domain": "grammar",
       "label": "Pisać czy napisać?",
-      "label_en": "More aspect pairs",
+      "label_en": "Four more pairs · doing it, and getting it done",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 6, unit 7 (spine O7.2). A CLOSED SET of new aspect pairs, learned whole, NO RULE: pisac/napisac, gotowac/ugotowac, jesc/zjesc, placic/zaplacic, sprzatac/posprzatac (all perfectives verified NEW). Every imperfective member is already owned, so each pair costs one new word, not two. Pays a2_aspect's four-twins-only limit WITHOUT breaking its framing - that pack's own note says 'the prefixes are unpredictable... learn the pair whole, never build the second verb from the first', and this pack must restate that out loud. Productive semantic prefixation on non-motion verbs is C1.",
+      "note": "B2 Block 6, unit 7 (spine O7.2). A closed set of new aspect pairs learned WHOLE, no rule - and the pack restates a2_aspect's 'the prefixes are unpredictable, learn the pair whole' framing out loud, as the spine required. THE SPINE'S PREMISE WAS WRONG AND THIS UNIT CORRECTS IT: B2-SPINE says 'every imperfective member is already owned, so each pair is one new word, not two'; check_new.py says sprzatac AND posprzatac are BOTH new, pisac is owned as an infinitive only, and gotowac/jesc/placic are owned in the present but never in the past. CONSEQUENCES, both logged: sprzatac/posprzatac DROPPED (the only pair costing two verbs, which is the arithmetic the spine used to justify the set), and the IMPERFECTIVE PAST of the four survivors is taught here rather than assumed - three of four are free applications of the owned past rule, only jadlem/jadlam costs a whole form. Plus one extra form, pisze, so napisze sits on an anchored stem and b2_pisac_family finds the root usable as Block 6a assumes. 41 new forms, all verified NEW, zero collisions. PAYS A NAMED IOU: a2_shopping_func dropped 'Czy moge zaplacic karta?' because zaplacic is perfective; it is taught here. NO PREFIX MEANING CLAIMED - na-/u-/z-/za- are named as unpredictable, never as meanings, leaving b2_prefix_lens and b2_prefix_two_jobs their material. Dopasuj is a balanced 4x3 board: each pair contributes its imperfective past, perfective past and perfective future in the ja form, so the board IS the contrast. FENCED: sprzatac/posprzatac; the imperfective future (bede pisac) - b1_two_futures owns that contrast; 3sg/2sg imperfective pasts; all plural; oni/one; conditional; imperatives. Pisanie is 18 single forms typed whole.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b2_aspect_prefixes.json"
     },
     {
       "id": "b2_powinien",
