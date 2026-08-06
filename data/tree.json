@@ -3619,18 +3619,19 @@
     {
       "id": "b2_wrapup",
       "domain": "grammar",
-      "label": "Praca, zdrowie, droga",
+      "label": "Praca, zdrowie, podróż",
       "label_en": "B2 capstone",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 8, unit 4. B2 CAPSTONE, genre of a2_wrapup_func / b1_wrapup. Zero new material. Recombines the registers B2 added - work, health system, travel logistics, discussion - into mixed scenes. FOUR registers, matching b1_wrapup's own deliberate four-way limit; do not stack a fifth.",
+      "note": "[B2 SPINE] Block 8, unit 4. B2 CAPSTONE, genre of a2_wrapup_func / b1_wrapup. Zero new material. Recombines the registers B2 added - work, health system, travel logistics, discussion - into mixed scenes. FOUR registers, matching b1_wrapup's own deliberate four-way limit; do not stack a fifth. [WIRED LIVE] Title: the stub read 'Praca, zdrowie, droga'; droga was changed to podroz because the register is travel LOGISTICS (trains, flights, hotel nights), not roads, and podroz is verified TAUGHT. praca, zdrowie and podroz all re-verified TAUGHT per b1_wrapup's standing title instruction; label_en 'B2 capstone' kept, matching a2_wrapup_func and b1_wrapup being allowed to name the level informally in English. FOUR REGISTERS HELD, no fifth: b2_abstract and b2_prefix_lens were considered and dropped on this node note's own instruction. Two of the four sources (b2_work, b2_health_system) are VOCAB packs with no chunk lane, so their three chunks each are lifted verbatim from those packs' sentences[] banks - checked row by row against both files.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b2_wrapup.json"
     },
     {
       "id": "b2_station_2",
