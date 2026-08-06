@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 168 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 169 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -185,4 +185,5 @@ _None._
 | 172 | `b2_verbal_nouns` | `verbal_nouns` | 6 | `byc_adj`, `byc_present`, `can_inf`, `conjunctions`, `miec_acc`, `past_byc`, `poss_nom`, `present`, `present_am`, `present_e_esz`, `present_uje`, `question`, `ten_ta_to`, `to_jest`, `verbal_nouns`, `zgoda` |
 | 173 | `b2_participle_pass` | `participle_pass` | 16 | `aspect_past`, `aspect_prefixes`, `byc_adj`, `byc_present`, `conjunctions`, `participle_pass`, `present`, `question`, `ten_ta_to`, `verbal_nouns`, `zgoda` |
 | 174 | `b2_passive` | `passive` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `participle_pass`, `passive`, `past_byc`, `zgoda` |
+| 175 | `b2_travel_func` | `situation_chunk` | 27 | `bedzie`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `existential_jest`, `miec_acc`, `miec_present`, `ordinals_time`, `participle_pass`, `passive`, `prep_place`, `prep_w_loc`, `question`, `situation_chunk`, `zgoda` |
 

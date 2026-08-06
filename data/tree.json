@@ -3568,18 +3568,19 @@
     {
       "id": "b2_travel_func",
       "domain": "grammar",
-      "label": "Dworzec i hotel",
-      "label_en": "Situations · travel logistics",
+      "label": "Pociąg jest opóźniony",
+      "label_en": "Travel: delays, tickets and bookings",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 8, unit 1. Situations/chunk unit (spine O12): checking in, the delayed train, the booked room. Genre of a2_directions_func / b1_polite. EVIDENCE FOR THE CHUNK-LANE CALL, not preference: of 16 obvious travel-logistics nouns run through check_new.py, TWELVE are already taught (lotnisko, peron, dworzec, bilet, przesiadka, opoznienie, bagaz, walizka, rezerwacja, odjazd, przyjazd, rozklad) - the gap in this domain is phrases, not words. Verified NEW and available: nocleg, odlot, przylot, wsiadac, wysiadac, potwierdzic, wazny, doba, plus opozniony/odwolany - which are PASSIVE PARTICIPLES, so this unit sits immediately after b2_participle_pass on purpose and gets them for free.",
+      "note": "[B2 Block 8 unit 1, spine O12] SITUATIONS unit, chunk lane, genre of a2_directions_func / b1_polite; reuses the existing situation_chunk structure ID as every *_func pack does - no new ID. O12's evidence re-verified and it held: peron, dworzec, bagaz, rozklad, rezerwacja, przesiadka, opoznienie, walizka, lotnisko, odjazd, przyjazd, pociag and lot are ALL already taught and are recycled, never re-taught; only nocleg, odlot, przylot, wsiadac, wysiadac, potwierdzic, wazny and doba came back NEW, plus opozniony/odwolany. THE PARTICIPLE PAYOFF is why the unit sits here - opozniony and odwolany are passive participles and b2_participle_pass's note records placing this unit after it for that reason; they land one node after b2_passive named the construction. SHARPEST POINT IS A NEAR-PAIR THE SPINE DID NOT PREDICT, caught by reading a2_transport2's teaches_lemmas: SPOZNIONY IS ALREADY TAUGHT there. English calls both 'late'; Polish does not - a PERSON is spozniony, a SERVICE is opozniony. Slide 2 is that split. ODLOT/PRZYLOT are transparent: lot is taught and odjazd/przyjazd are the taught LAND pair, so od-+lot and przy-+lot read off parts already owned; the b2_prefix_lens link is drawn in ONE receptive line per the James-locked O7 overrule and invites no derivation. CASE LEAKS KILLED BY check_new.py: pociagu, autobusu, peronie, lotnisku, bagazu, biletu, noclegu are ALL NEW, so 'do pociagu' / 'na peronie' / 'na lotnisku' are impossible and absent - hence wsiadac/wysiadac taught in the prosze + infinitive frame only. dworcu and hotelu ARE taught and are used. WAZNY carries a sense indicator ('valid, of a ticket or booking') and its second everyday sense 'important' is named in one line and drilled nowhere. wysiadam drafted and CUT (verified NEW; a conjugated form does not belong in a chunk unit). Agreement is thin because pociag/autobus/lot are all masculine; only wazny takes a second form (wazna). Pisanie is ELEVEN items, not twelve - twelve is the MATCH board's fixed size, not this stage's, and a twelfth would have duplicated an answer. See B2-SPINE Block 8.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/b2_travel_func.json"
     },
     {
       "id": "b2_discussion_func",
