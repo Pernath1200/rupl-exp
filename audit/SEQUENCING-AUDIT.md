@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 149 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 150 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -166,4 +166,5 @@ _None._
 | 153 | `b2_loc_pl` | `loc_pl` | 11 | `byc_present`, `conjunctions`, `existential_jest`, `gen_endings`, `gen_pl`, `loc_pl`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_past` |
 | 154 | `b2_inst_pl` | `inst_pl` | 12 | `byc_present`, `conjunctions`, `gen_endings`, `gen_pl`, `inst_pl`, `inst_z`, `loc_pl`, `miec_acc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `virile_nom`, `virile_past` |
 | 155 | `b2_dat_pl` | `dat_pl` | 12 | `byc_present`, `conjunctions`, `dat_pl`, `dative_sg`, `gen_pl`, `inst_pl`, `inst_z`, `loc_pl`, `plural_nom`, `poss_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `question_cases`, `virile_nom` |
+| 156 | `b2_gen_pl_full` | `gen_pl_full` | 12 | `conjunctions`, `dat_pl`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_pl`, `loc_pl`, `miec_acc`, `miec_present`, `negation`, `numbers_gen`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `ten_ta_to` |
 

@@ -116,6 +116,7 @@ STRUCTURE_CATALOGUE = {
     "loc_pl",
     "inst_pl",
     "dat_pl",
+    "gen_pl_full",
 }
 
 GLUE_LEMMAS = {

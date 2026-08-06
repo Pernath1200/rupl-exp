@@ -1,0 +1,608 @@
+{
+  "id": "b2_gen_pl_full",
+  "title": "Szkół, książek, okien · dopełniacz",
+  "title_en": "The Genitive plural · the words that change",
+  "level": "B2",
+  "tree_node": "b2_gen_pl_full",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 5, unit 4 of 7 (spine O10). Opens what a2_gen_pl deliberately fenced. That pack's own note says it excluded 'stems with a vowel alternation, stems with a disappearing vowel before the final consonant cluster, soft-stem masculines' so that its one rule per gender never had an exception on screen. Those three exclusions are exactly this unit's three families, and they are handed over as CLOSED SETS OF WHOLE FORMS, never as a productive rule - the kelnerzy / moglby / family-datives treatment. Slide 4 says out loud that the learner should not work out a new word for himself.\n\nTWELVE NEW FORMS, all verified NEW against 149 live nodes: szkol, gor, drog, slow (o -> o with an accent); ksiazek, kurtek, corek, okien (an e appears); hoteli, nauczycieli, kluczy, lekarzy (soft masculines taking -i / -y instead of -ow). Four per family, which is why the board is twelve and not fifteen.\n\nTHE LEFT-HAND COLUMN IS THE DICTIONARY SINGULAR, NOT THE NOMINATIVE PLURAL, AND THAT IS A DELIBERATE DEPARTURE FROM THE SPINE BRIEF. The brief says 'every noun used must already be owned in the Nominative plural'. Held to literally that would kill the spine's own three named targets: check_new.py reports szkoly TAUGHT by a1_gen_endings (GENITIVE singular, do szkoly / ze szkoly), ksiazki TAUGHT by a1_gen_ki (GENITIVE singular, nie mam ksiazki) and kurtki likewise - none of the three is owned as a plural at all. a2_gen_pl itself built from the dictionary form (kawa -> kaw, gazeta -> gazet) and most of its own nouns were in the same position, so the singular column is this unit type's established anchor and the brief's line is stricter than the precedent it was written from. Following it would have meant either dropping szkol and ksiazek - the two forms the spine names first - or printing a genitive singular as if it were a plural, which is the homograph trap itself. The nouns that ARE honestly owned as nominative plurals (hotele, klucze, lekarze, nauczyciele, okna, corki, gory) are used as plurals freely; the ones that are not (szkoly, ksiazki, kurtki, drogi) appear only in their owned singular job, and every quiz explain that names one names it correctly.\n\nDROGI IS FENCED FROM THE PACK ENTIRELY and this is the sharpest homograph catch of the unit. check_new.py reports drogi TAUGHT by leaf_shopping_a1 - where it is the ADJECTIVE 'expensive', not a form of droga at all. The obvious distractor list for drog would have led with it. The item uses droga and drodze instead, both unambiguous.\n\nNO FABRICATED STRING IS PRINTED ANYWHERE. This matters here more than usual, because the natural distractor for every single item is the regular ending the word refuses (*szkolow, *ksiazkow, *kluczow, *okn) and all four are non-words. a2_gen_pl, the direct predecessor, did print such strings - doma, kawow, piwow are in its own choice lists - and this pack does not follow it there, on the standing b2_gdyby rule that a button teaches a string as surely as a table does. Every distractor is a real Polish form that is either taught by this pack or verified in the pool: where four owned forms of the noun exist the list is that noun's own paradigm (corek / corki / corkami / corkom; nauczycieli / nauczyciele / nauczycielem / nauczycielowi; hoteli / hotele / hotelu / hotelach), and where they do not, the fourth button is another real word's form and the explain says which word it is.\n\nQUIZ ITEM 10'S ANSWER IS NOT THIS LESSON'S FAMILY - the standing guard b2_loc_pl and b2_dat_pl both used. It asks for gazet, a2_gen_pl's own regular feminine, so a learner who has spent nine items changing stems has to notice that most words still do not.\n\nGOVERNORS ARE ONLY THE ONES ALREADY OWNED: duzo and nie ma / nie mam (a1_gen_endings, a1_negation), plus 2-4 + Nominative plural and 5+ + Genitive plural from a2_numbers_gen, which is where use item 7 (dwie corki, a babcia ma piec corek) comes from. blisko was dropped - it is owned, but blisko + a plural is not idiomatic and would have taught a wrong habit.\n\nEVERY NUMERAL PHRASE IN THE PACK IS AN OBJECT, NEVER A SUBJECT. b2_num_subject is the very next node and the neuter-singular agreement rule is its entire content; piec corek sits after ma, so nothing here anticipates it.\n\nFENCED, all verified NEW: slowa, oknie, obrazkow, koszulek, matek - the last two only because twelve is the board size, not because they are hard; wiele, which would be the natural second quantifier; all plural adjectives (spine O3 -> C1), which is why 'a lot of big schools' is not expressible and the pack is bare-noun throughout, as b2_loc_pl, b2_inst_pl and b2_dat_pl all were; virile numerals of every kind (pieciu, dwoch), which are b2_num_virile two nodes later - lekarzy and nauczycieli appear here as ordinary soft-stem masculines after duzo, never after a number.",
+  "focus_structures": [
+    "gen_pl_full"
+  ],
+  "teaches_structures": [
+    "gen_pl_full"
+  ],
+  "teaches_lemmas": [
+    "szkół",
+    "gór",
+    "dróg",
+    "słów",
+    "książek",
+    "kurtek",
+    "córek",
+    "okien",
+    "hoteli",
+    "nauczycieli",
+    "kluczy",
+    "lekarzy"
+  ],
+  "uses_structures": [
+    "gen_pl",
+    "gen_endings",
+    "negation",
+    "existential_jest",
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "miec_present",
+    "miec_acc",
+    "numbers_gen",
+    "plural_nom",
+    "ten_ta_to",
+    "conjunctions",
+    "loc_pl",
+    "inst_pl",
+    "dat_pl",
+    "dative_sg",
+    "inst_identity"
+  ],
+  "intro": [
+    {
+      "title": "You already have this form — for the words that hold still",
+      "title_pl": "dopełniacz, liczba mnoga",
+      "body": "You have been saying dużo sklepów and nie ma gazet since A2. That lesson was easy because every word in it kept its letters exactly as they were: add -ów to a masculine word, take the ending off a feminine or neuter one, done. Most Polish words really do behave like that. But a small handful of very common ones change a letter when the ending comes off, and they were left out of that lesson on purpose. This is where you get them — three small families, learned as whole words. You are never asked to guess what a word you have not met would do.",
+      "body_pl": "trzy rodziny · słowa, które się zmieniają",
+      "table": {
+        "headers": [
+          "Word",
+          "Many of them",
+          "What changed"
+        ],
+        "rows": [
+          [
+            "sklep · m.",
+            "sklepów",
+            "nothing — the -ów goes straight on"
+          ],
+          [
+            "gazeta · ż.",
+            "gazet",
+            "nothing — the -a comes straight off"
+          ],
+          [
+            "miasto · n.",
+            "miast",
+            "nothing — the -o comes straight off"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Family 1 — the o turns into ó",
+      "title_pl": "szkoła → szkół",
+      "body": "Four words you use constantly. The ending comes off exactly as you expect, and the o inside the word turns into ó as it goes. Nothing else moves. There is no way to see this coming from the word itself, which is why these four are simply handed to you.",
+      "body_pl": "o → ó",
+      "table": {
+        "headers": [
+          "Word",
+          "Many of them"
+        ],
+        "rows": [
+          [
+            "szkoła · ż.",
+            "szkół"
+          ],
+          [
+            "góra · ż.",
+            "gór"
+          ],
+          [
+            "droga · ż.",
+            "dróg"
+          ],
+          [
+            "słowo · n.",
+            "słów"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Family 2 — an e appears",
+      "title_pl": "książka → książek",
+      "body": "Here the opposite happens. Taking the ending off these words would leave two consonants jammed against each other at the end, so an e drops in between them to break the pair up. Three of the four are -ka words and behave identically; okno is the same trick on a neuter word. Four more whole forms, not a rule to apply.",
+      "body_pl": "książka → książek · okno → okien",
+      "table": {
+        "headers": [
+          "Word",
+          "Many of them"
+        ],
+        "rows": [
+          [
+            "książka · ż.",
+            "książek"
+          ],
+          [
+            "kurtka · ż.",
+            "kurtek"
+          ],
+          [
+            "córka · ż.",
+            "córek"
+          ],
+          [
+            "okno · n.",
+            "okien"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Family 3 — a few masculine words refuse -ów",
+      "title_pl": "hotel → hoteli · klucz → kluczy",
+      "body": "Masculine words normally take -ów, and most of yours do: sklepów, banków, kotów. These four end in a soft or a hissing consonant and take -i or -y instead. Which of the two you get does follow the last letter of the word, but do not try to work that out for a word you have not been given — get these four solid and take the next one when it comes.",
+      "body_pl": "-ów → -i / -y",
+      "table": {
+        "headers": [
+          "Word",
+          "Many of them"
+        ],
+        "rows": [
+          [
+            "hotel · m.",
+            "hoteli"
+          ],
+          [
+            "nauczyciel · m.",
+            "nauczycieli"
+          ],
+          [
+            "klucz · m.",
+            "kluczy"
+          ],
+          [
+            "lekarz · m.",
+            "lekarzy"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "szkoła · ż. (school) → many",
+      "pl": "szkół"
+    },
+    {
+      "en": "góra · ż. (mountain) → many",
+      "pl": "gór"
+    },
+    {
+      "en": "droga · ż. (road) → many",
+      "pl": "dróg"
+    },
+    {
+      "en": "słowo · n. (word) → many",
+      "pl": "słów"
+    },
+    {
+      "en": "książka · ż. (book) → many",
+      "pl": "książek"
+    },
+    {
+      "en": "kurtka · ż. (jacket) → many",
+      "pl": "kurtek"
+    },
+    {
+      "en": "córka · ż. (daughter) → many",
+      "pl": "córek"
+    },
+    {
+      "en": "okno · n. (window) → many",
+      "pl": "okien"
+    },
+    {
+      "en": "hotel · m. (hotel) → many",
+      "pl": "hoteli"
+    },
+    {
+      "en": "nauczyciel · m. (teacher) → many",
+      "pl": "nauczycieli"
+    },
+    {
+      "en": "klucz · m. (key) → many",
+      "pl": "kluczy"
+    },
+    {
+      "en": "lekarz · m. (doctor) → many",
+      "pl": "lekarzy"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "W mieście jest dużo ___ . (schools)",
+      "choices": [
+        "szkół",
+        "szkoły",
+        "szkole",
+        "szkołach"
+      ],
+      "answer": "szkół",
+      "explain": "The o turns into ó and the -a is gone. szkoły is the form after do and ze — do szkoły. szkole is w szkole, and szkołach is w szkołach."
+    },
+    {
+      "prompt": "Mama ma dużo ___ . (books)",
+      "choices": [
+        "książek",
+        "książki",
+        "książkę",
+        "książka"
+      ],
+      "answer": "książek",
+      "explain": "An e appears between the ż and the k. książki is one book after nie mam, and książkę is one book after mam — both singular, however plural they look."
+    },
+    {
+      "prompt": "W domu jest dużo ___ . (windows)",
+      "choices": [
+        "okien",
+        "okna",
+        "okno",
+        "biur"
+      ],
+      "answer": "okien",
+      "explain": "okna is the subject form — Okna są duże. biur is the plain neuter pattern you already had, from biuro, and it is what okno would look like if it were an ordinary word."
+    },
+    {
+      "prompt": "W centrum jest dużo ___ . (hotels)",
+      "choices": [
+        "hoteli",
+        "hotele",
+        "hotelu",
+        "hotelach"
+      ],
+      "answer": "hoteli",
+      "explain": "This is the masculine word that will not take -ów. hotele is the subject form, hotelu is w hotelu, hotelach is w hotelach — four real forms of one word, and only the job tells them apart."
+    },
+    {
+      "prompt": "W biurze nie ma ___ . (keys)",
+      "choices": [
+        "kluczy",
+        "klucze",
+        "klucz",
+        "lekarzy"
+      ],
+      "answer": "kluczy",
+      "explain": "Same family as hoteli, but this one ends in -y rather than -i. lekarzy has exactly the right ending and is this lesson's word too — it just means doctors."
+    },
+    {
+      "prompt": "W szpitalu jest dużo ___ . (doctors)",
+      "choices": [
+        "lekarzy",
+        "lekarze",
+        "lekarzem",
+        "nauczycieli"
+      ],
+      "answer": "lekarzy",
+      "explain": "lekarze is the subject form — Lekarze pracują. lekarzem is jestem lekarzem, one person. nauczycieli is the right shape on the wrong word."
+    },
+    {
+      "prompt": "Babcia ma dużo ___ . (daughters)",
+      "choices": [
+        "córek",
+        "córki",
+        "córkami",
+        "córkom"
+      ],
+      "answer": "córek",
+      "explain": "All four are real forms of the same word and you have met three of them: córki is the subject form, córkami goes after z, córkom goes after pomagam. This is the fourth."
+    },
+    {
+      "prompt": "W Polsce jest dużo ___ . (mountains)",
+      "choices": [
+        "gór",
+        "góry",
+        "górach",
+        "dróg"
+      ],
+      "answer": "gór",
+      "explain": "You have said w górach since A2, and góry is the word itself. dróg is this lesson's form as well — it means roads."
+    },
+    {
+      "prompt": "Szkoła ma dużo ___ . (teachers)",
+      "choices": [
+        "nauczycieli",
+        "nauczyciele",
+        "nauczycielowi",
+        "nauczycielem"
+      ],
+      "answer": "nauczycieli",
+      "explain": "nauczyciele is the subject form. nauczycielowi is one teacher after pomagam, nauczycielem is one teacher after jestem — the singular has more shapes than the plural does."
+    },
+    {
+      "prompt": "Tata ma dużo ___ . (newspapers)",
+      "choices": [
+        "gazet",
+        "gazety",
+        "gazetach",
+        "gazeta"
+      ],
+      "answer": "gazet",
+      "explain": "This one is not in any of today's families. gazeta keeps every letter it has, so the -a simply comes off — the plain rule you already had, and it still covers most words. gazety is the subject form, gazetach is w gazetach."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "szkoła · ż. (school) → many",
+      "mode": "full_word",
+      "answer": "szkół",
+      "accepts": [
+        "szkół"
+      ]
+    },
+    {
+      "prompt_en": "góra · ż. (mountain) → many",
+      "mode": "full_word",
+      "answer": "gór",
+      "accepts": [
+        "gór"
+      ]
+    },
+    {
+      "prompt_en": "droga · ż. (road) → many",
+      "mode": "full_word",
+      "answer": "dróg",
+      "accepts": [
+        "dróg"
+      ]
+    },
+    {
+      "prompt_en": "słowo · n. (word) → many",
+      "mode": "full_word",
+      "answer": "słów",
+      "accepts": [
+        "słów"
+      ]
+    },
+    {
+      "prompt_en": "książka · ż. (book) → many",
+      "mode": "full_word",
+      "answer": "książek",
+      "accepts": [
+        "książek"
+      ]
+    },
+    {
+      "prompt_en": "kurtka · ż. (jacket) → many",
+      "mode": "full_word",
+      "answer": "kurtek",
+      "accepts": [
+        "kurtek"
+      ]
+    },
+    {
+      "prompt_en": "córka · ż. (daughter) → many",
+      "mode": "full_word",
+      "answer": "córek",
+      "accepts": [
+        "córek"
+      ]
+    },
+    {
+      "prompt_en": "okno · n. (window) → many",
+      "mode": "full_word",
+      "answer": "okien",
+      "accepts": [
+        "okien"
+      ]
+    },
+    {
+      "prompt_en": "hotel · m. (hotel) → many",
+      "mode": "full_word",
+      "answer": "hoteli",
+      "accepts": [
+        "hoteli"
+      ]
+    },
+    {
+      "prompt_en": "nauczyciel · m. (teacher) → many",
+      "mode": "full_word",
+      "answer": "nauczycieli",
+      "accepts": [
+        "nauczycieli"
+      ]
+    },
+    {
+      "prompt_en": "klucz · m. (key) → many",
+      "mode": "full_word",
+      "answer": "kluczy",
+      "accepts": [
+        "kluczy"
+      ]
+    },
+    {
+      "prompt_en": "lekarz · m. (doctor) → many",
+      "mode": "full_word",
+      "answer": "lekarzy",
+      "accepts": [
+        "lekarzy"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: There are a lot of schools in the city.",
+      "answer": "W mieście jest dużo szkół.",
+      "accepts": [
+        "W mieście jest dużo szkół.",
+        "W mieście jest dużo szkół"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has a lot of books.",
+      "answer": "Mama ma dużo książek.",
+      "accepts": [
+        "Mama ma dużo książek.",
+        "Mama ma dużo książek"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no jackets in the shop.",
+      "answer": "W sklepie nie ma kurtek.",
+      "accepts": [
+        "W sklepie nie ma kurtek.",
+        "W sklepie nie ma kurtek"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are a lot of windows in the house, but there are no keys.",
+      "answer": "W domu jest dużo okien, ale nie ma kluczy.",
+      "accepts": [
+        "W domu jest dużo okien, ale nie ma kluczy.",
+        "W domu jest dużo okien, ale nie ma kluczy"
+      ],
+      "explain": "Two of today's families in one sentence, and both are pulled by the same thing — dużo and nie ma have wanted this form since A2. Only the words changed shape, not the job."
+    },
+    {
+      "prompt_en": "Type: There are a lot of mountains and a lot of roads in Poland.",
+      "answer": "W Polsce jest dużo gór i dużo dróg.",
+      "accepts": [
+        "W Polsce jest dużo gór i dużo dróg.",
+        "W Polsce jest dużo gór i dużo dróg"
+      ],
+      "explain": "Both words lost their -a and turned their o into ó. You have been saying w górach for the same mountains since A2."
+    },
+    {
+      "prompt_en": "Type: There are a lot of doctors in the hospital.",
+      "answer": "W szpitalu jest dużo lekarzy.",
+      "accepts": [
+        "W szpitalu jest dużo lekarzy.",
+        "W szpitalu jest dużo lekarzy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has two daughters, and Grandma has five daughters.",
+      "answer": "Mama ma dwie córki, a babcia ma pięć córek.",
+      "accepts": [
+        "Mama ma dwie córki, a babcia ma pięć córek.",
+        "Mama ma dwie córki, a babcia ma pięć córek"
+      ],
+      "explain": "Two and five pull different forms, exactly as they did with dolary and dolarów. Two takes the subject form córki; five takes today's córek."
+    },
+    {
+      "prompt_en": "Type: The school has a lot of teachers.",
+      "answer": "Szkoła ma dużo nauczycieli.",
+      "accepts": [
+        "Szkoła ma dużo nauczycieli.",
+        "Szkoła ma dużo nauczycieli"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are a lot of hotels in the centre.",
+      "answer": "W centrum jest dużo hoteli.",
+      "accepts": [
+        "W centrum jest dużo hoteli.",
+        "W centrum jest dużo hoteli"
+      ]
+    },
+    {
+      "prompt_en": "Type: This book has a lot of words.",
+      "answer": "Ta książka ma dużo słów.",
+      "accepts": [
+        "Ta książka ma dużo słów.",
+        "Ta książka ma dużo słów"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "sklepów",
+    "gazet",
+    "gazety",
+    "gazetach",
+    "gazeta",
+    "miast",
+    "biur",
+    "sklep",
+    "miasto",
+    "szkoła",
+    "szkoły",
+    "szkole",
+    "szkołach",
+    "góra",
+    "góry",
+    "górach",
+    "droga",
+    "słowo",
+    "książka",
+    "książki",
+    "książkę",
+    "kurtka",
+    "córka",
+    "córki",
+    "córkami",
+    "córkom",
+    "okno",
+    "okna",
+    "hotel",
+    "hotele",
+    "hotelu",
+    "hotelach",
+    "nauczyciel",
+    "nauczyciele",
+    "nauczycielem",
+    "nauczycielowi",
+    "klucz",
+    "klucze",
+    "lekarz",
+    "lekarze",
+    "lekarzem",
+    "banków",
+    "kotów",
+    "mama",
+    "ma",
+    "tata",
+    "babcia",
+    "dwie",
+    "pięć",
+    "ta",
+    "jest",
+    "dużo",
+    "nie ma",
+    "w mieście",
+    "w sklepie",
+    "w domu",
+    "w biurze",
+    "w szpitalu",
+    "w centrum",
+    "w polsce",
+    "w szkole",
+    "w hotelu",
+    "w górach",
+    "do szkoły",
+    "nie mam",
+    "mam",
+    "są",
+    "duże",
+    "pracują",
+    "jestem",
+    "pomagam",
+    "i",
+    "a",
+    "ale",
+    "biuro",
+    "dolary",
+    "dolarów"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_gen_pl_full",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
