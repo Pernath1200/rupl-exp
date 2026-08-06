@@ -1,0 +1,668 @@
+{
+ "id": "b2_prosic_o",
+ "title": "Proszę o kawę",
+ "title_en": "Asking for things · prosić o + Accusative",
+ "level": "B2",
+ "tree_node": "b2_prosic_o",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 6, unit 4. PAYS B1-DIGEST DEFERRED ITEM 3 (spine O11). prosić o + ACCUSATIVE. b1_giving deferred it and asked James whether it needed a slot; b1_polite separately dropped 'Poproszę o…' for the same reason. Both gave the same argument, and it is the reason this is a unit and not a line in a vocab leaf: o is already taught as a LOCATIVE governor (a2_o_loc, mówię o pracy), so o + Accusative is a live homograph trap ON A FUNCTION WORD.\n\nTHREE NEW FORMS — prosić, prosisz, prosi. prosić is the -ę/-isz class already owned from mówić / robić / lubić, so the endings cost nothing; the s→sz in proszę is shown as a TABLE FACT, never as a rule (the a2_jechac ja-/je- precedent), because there is nothing at this level for the learner to derive from it.\n\nPROSZĘ IS THE REAL TRAP, AND IT IS THE UNIT'S BEST SLIDE. check_new.py reports proszę TAUGHT from trunk_social_a1. The learner has now met that one string doing three unrelated jobs: (1) please / here you are, since A1; (2) Proszę + dictionary verb = a polite instruction, from a2_imperative (Proszę czekać); (3) from here, the 1sg of the verb prosić — I am asking for. Slide 3 names all three side by side. This is the dziękuję / której / że / nic / się treatment, sixth turn, and this string is the most overloaded one the course has re-opened.\n\nPOPROSZĘ O vs POPROSZĘ, STATED HONESTLY: a2_shopping_func taught Poproszę rachunek with no o, and that is perfectly good Polish. Poproszę o rachunek is equally good and is what the learner will also hear. The pack says both are right rather than quietly replacing one with the other. With the VERB prosić, however, the o is not optional — Proszę kawę is not what a Pole says — and that is the unit's one hard fact.\n\nTHE CONTRAST COULD NOT BE BUILT AS A SAME-NOUN MINIMAL PAIR, and this is the unit's one weakness, flagged rather than hidden. The ideal slide would be mówię o kawie / proszę o kawę — one noun, two cases. But kawie, wodzie, pracę and szkołę are ALL verified NEW, so no noun in the course owns both its Locative and its Accusative. The contrast is therefore carried across nouns, in two columns: after mówić / myśleć the o-word takes the in-form (o pracy, o szkole, o domu, all owned from a2_o_loc); after prosić it takes the object form (o kawę, o wodę, o rachunek). The constant is o and the ending is what moves. James may want to smoke this slide specifically.\n\nTAUGHT-AS CHECKS: rachunek, menu, klucz, chleb, zupę, herbatę, wodę, kawę are all recycled in exactly the function they were taught in (objects after mam / poproszę). chleb appears only in positive sentences, so it stays chleb — chleba belongs to b2_neg_gen and is named in a type explain so the two do not blur. pracy is the Locative from a2_o_loc, never the Genitive.\n\nFENCED, all verified NEW:\n- pomoc. Proszę o pomoc is the single most useful sentence this construction makes, and it is dropped anyway: pomoc is a soft feminine whose Accusative is identical to its Nominative, so as the unit's flagship example it would show the learner an o + Accusative phrase in which nothing visibly changes. That is the worst possible first example of this pattern. Logged as a scope cut, not an oversight — it is the obvious top-up if James wants the unit bigger.\n- klucza, pracę, szkołę, kawie, wodzie, herbacie, rachunku — every one of them killed a natural draft sentence or a natural quiz distractor and every one was replaced rather than smuggled in. klucza in particular was caught in a use item (…ale nie mam klucza), and b2_neg_gen had already fenced that exact string by name.\n- kawiarnia's Locative kawiarni, which would have given the perfect café frame.\n- prosimy / prosicie / proszą: the plural persons. The unit teaches the three singular persons plus the dictionary form, on the a2_chodzic precedent, because the useful sentences here are all first- and third-person.\n- prosić + a PERSON as well as a thing (Proszę mamę o klucz) — two objects in one frame, a second fact.\n- The past of prosić; the perfective poprosić as a verb (poproszę stays the unanalysable politeness word a2_shopping_func made it).\n- siebie / sobie (O15 → C1); no oblique pronouns anywhere — every argument is a noun, a fence audit.py cannot see because person pronouns sit in GLUE_LEMMAS.\n- No plural oblique adjectives (O3 → C1); bare nouns throughout, the tenth consecutive unit.\n\nMATCH BOARD: 12 rows, and the last one is the dictionary form prosić on its own. AGENTS.md requires every form of the unit to appear on the board; carrying the infinitive as a one-word row is what makes that possible without dropping the o + Locative contrast rows, which are the point of the unit. Three rows are that contrast, deliberately.\n\nPISANIE: two items typed whole (Proszę o kawę. and Poproszę o rachunek. — three words each, and both are the unit's minimal pattern unit, a verb plus its o-phrase, not composed sentences), one bare dictionary form, and seven cloze with the blank on the teaching point.\n\nBare governed prepositions (o, w) are not listed in uses_lemmas per SEQUENCING.md 6.3 — the jobs ride o_loc, prep_w_loc and prep_place in uses_structures.",
+ "focus_structures": [
+  "prosic_o"
+ ],
+ "teaches_structures": [
+  "prosic_o"
+ ],
+ "teaches_lemmas": [
+  "prosić",
+  "prosisz",
+  "prosi",
+  "proszę o",
+  "proszę o kawę",
+  "poproszę o",
+  "poproszę o rachunek"
+ ],
+ "uses_structures": [
+  "o_loc",
+  "miec_acc",
+  "present",
+  "present_e_isz",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "negation",
+  "question",
+  "prep_w_loc",
+  "prep_place",
+  "situation_chunk",
+  "social_chunk",
+  "conjunctions",
+  "ze_clauses",
+  "sie_impersonal"
+ ],
+ "intro": [
+  {
+   "title": "One little word for asking",
+   "title_pl": "Proszę o kawę. · Proszę o wodę.",
+   "body": "prosić means to ask for something. It is the verb behind a word you have been saying since your very first lesson, and now you get to use it properly.\n\nThe one thing to hold on to is this: prosić always needs o in front of the thing you want. Not sometimes — always.\n\nProszę o kawę. — I'm asking for a coffee.\nProszę o wodę. — I'm asking for water.\nProszę o rachunek. — I'm asking for the bill.\n\nAnd the thing you are asking for takes the object form, the same ending you have been putting on it since Mam kawę: kawa becomes kawę, woda becomes wodę, and words like rachunek, klucz and menu do not change at all.",
+   "body_pl": "prosić + o + biernik: proszę o kawę, proszę o wodę, proszę o rachunek.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "The thing asked for"
+    ],
+    "rows": [
+     [
+      "Proszę o kawę.",
+      "I'm asking for a coffee.",
+      "kawa → kawę"
+     ],
+     [
+      "Proszę o wodę.",
+      "I'm asking for water.",
+      "woda → wodę"
+     ],
+     [
+      "Proszę o zupę.",
+      "I'm asking for soup.",
+      "zupa → zupę"
+     ],
+     [
+      "Proszę o rachunek.",
+      "I'm asking for the bill.",
+      "rachunek — no change"
+     ],
+     [
+      "Proszę o menu.",
+      "I'm asking for the menu.",
+      "menu — never changes"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The three persons of prosić",
+   "title_pl": "proszę · prosisz · prosi",
+   "body": "The endings are ones you already own — prosić belongs to the same family as mówić, robić and lubić, so if you can say mówię and mówisz you can say these.\n\nThe one worth a second look is the I-form, proszę. Take it exactly as it stands — there is nothing here to work out, and it is the same kind of small shift you already met between jadę and jedziesz.",
+   "body_pl": "proszę · prosisz · prosi — jak mówię, mówisz, mówi.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Compare"
+    ],
+    "rows": [
+     [
+      "prosić",
+      "to ask for",
+      "the dictionary form"
+     ],
+     [
+      "proszę o kawę",
+      "I'm asking for a coffee",
+      "mówię — same family"
+     ],
+     [
+      "prosisz o klucz",
+      "you're asking for the key",
+      "mówisz — same ending"
+     ],
+     [
+      "prosi o zupę",
+      "he or she is asking for soup",
+      "mówi — same ending"
+     ],
+     [
+      "tata prosi o chleb",
+      "dad is asking for bread",
+      "the he-or-she form again"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Mum is asking for tea.",
+     "pl": "Mama prosi o herbatę."
+    },
+    {
+     "en": "You're asking for the menu.",
+     "pl": "Prosisz o menu."
+    }
+   ]
+  },
+  {
+   "title": "proszę — one word, three jobs",
+   "title_pl": "Proszę. · Proszę czekać. · Proszę o kawę.",
+   "body": "You have now met this word doing three different things, and it is worth putting them side by side once, because nothing about the word itself tells you which job it is doing.\n\nOn its own it is the polite word you have had since A1 — please, or here you are as you hand something over.\n\nIn front of a dictionary verb it gives a polite instruction to anybody at all: Proszę czekać. Proszę mówić po polsku.\n\nAnd in front of o it is this unit's verb: Proszę o kawę — I am asking for a coffee.\n\nWhat comes after it is what tells you which one you are hearing. A verb after it means an instruction; an o after it means somebody is asking for something.",
+   "body_pl": "Proszę. → grzecznie. Proszę czekać. → instrukcja. Proszę o kawę. → prosić.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Which job"
+    ],
+    "rows": [
+     [
+      "Proszę.",
+      "Please. / Here you are.",
+      "the polite word, since A1"
+     ],
+     [
+      "Proszę czekać.",
+      "Please wait.",
+      "instruction — a verb follows"
+     ],
+     [
+      "Proszę mówić po polsku.",
+      "Please speak Polish.",
+      "instruction — a verb follows"
+     ],
+     [
+      "Proszę o kawę.",
+      "I'm asking for a coffee.",
+      "the verb prosić — o follows"
+     ],
+     [
+      "Poproszę o rachunek.",
+      "The bill, please.",
+      "at a counter, with or without o"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The same o, pulling two different ways",
+   "title_pl": "Mówię o pracy. · Proszę o kawę.",
+   "body": "You already know o from talking about things: Mówię o pracy. Myślę o szkole. Mówię o domu. There the word after o takes the in-form — pracy, szkole, domu.\n\nAfter prosić the very same o takes the object form instead: o kawę, o wodę, o rachunek.\n\nSo o itself tells you nothing. The verb in front of it decides, and the ending on the word after it is where you can see which one is happening.\n\nTalking about it, or asking for it — that is the whole difference, and Polish marks it on the noun rather than on the little word.",
+   "body_pl": "mówić / myśleć + o + miejscownik. prosić + o + biernik.",
+   "table": {
+    "headers": [
+     "Talking about it",
+     "Asking for it",
+     "What moved"
+    ],
+    "rows": [
+     [
+      "Mówię o pracy.",
+      "Proszę o kawę.",
+      "pracy is the in-form; kawę is the object form"
+     ],
+     [
+      "Myślę o szkole.",
+      "Proszę o wodę.",
+      "szkole in-form; wodę object form"
+     ],
+     [
+      "Mówię o domu.",
+      "Proszę o klucz.",
+      "domu in-form; klucz does not change"
+     ],
+     [
+      "Myślę o domu.",
+      "Prosisz o zupę.",
+      "the o is identical in both columns"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I'm talking about work, and dad is asking for coffee.",
+     "pl": "Mówię o pracy, a tata prosi o kawę."
+    },
+    {
+     "en": "I'm talking about the house, but I'm asking for the key.",
+     "pl": "Mówię o domu, ale proszę o klucz."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "to ask for",
+   "pl": "prosić"
+  },
+  {
+   "en": "I'm asking for a coffee",
+   "pl": "proszę o kawę"
+  },
+  {
+   "en": "I'm asking for water",
+   "pl": "proszę o wodę"
+  },
+  {
+   "en": "I'm asking for the menu",
+   "pl": "proszę o menu"
+  },
+  {
+   "en": "you're asking for the key",
+   "pl": "prosisz o klucz"
+  },
+  {
+   "en": "he's asking for soup",
+   "pl": "prosi o zupę"
+  },
+  {
+   "en": "dad is asking for bread",
+   "pl": "tata prosi o chleb"
+  },
+  {
+   "en": "mum is asking for tea",
+   "pl": "mama prosi o herbatę"
+  },
+  {
+   "en": "the bill, please",
+   "pl": "poproszę o rachunek"
+  },
+  {
+   "en": "I'm talking about work",
+   "pl": "mówię o pracy"
+  },
+  {
+   "en": "I'm thinking about school",
+   "pl": "myślę o szkole"
+  },
+  {
+   "en": "I'm talking about the house",
+   "pl": "mówię o domu"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "I'm asking for a coffee. →",
+   "choices": [
+    "Proszę o kawę.",
+    "Proszę o kawa.",
+    "Proszę o kawy.",
+    "Proszę kawę."
+   ],
+   "answer": "Proszę o kawę.",
+   "explain": "Two things have to be right at once: the o, which prosić always needs, and the object form kawę after it."
+  },
+  {
+   "prompt": "Proszę o ___. (water)",
+   "choices": [
+    "wodę",
+    "wody",
+    "woda",
+    "herbatę"
+   ],
+   "answer": "wodę",
+   "explain": "After o here the word takes the object form, so woda turns into wodę — the same ending you put on it after mam."
+  },
+  {
+   "prompt": "Mówię o ___. (about work)",
+   "choices": [
+    "pracy",
+    "praca",
+    "szkole",
+    "domu"
+   ],
+   "answer": "pracy",
+   "explain": "After mówię o the word takes the in-form: pracy. szkole and domu are the in-forms of the wrong nouns, and praca is the plain dictionary form."
+  },
+  {
+   "prompt": "Tata ___ o chleb. (dad is asking for bread)",
+   "choices": [
+    "prosi",
+    "proszę",
+    "prosisz",
+    "prosić"
+   ],
+   "answer": "prosi",
+   "explain": "tata is he, so the verb is the he-or-she form — the same ending as in mówi and robi."
+  },
+  {
+   "prompt": "___ o klucz. (you're asking for the key)",
+   "choices": [
+    "Prosisz",
+    "Proszę",
+    "Prosi",
+    "Prosić"
+   ],
+   "answer": "Prosisz",
+   "explain": "The -sz ending points at the person you are talking to, exactly as it does in mówisz."
+  },
+  {
+   "prompt": "You are in a café and you want the bill. You say:",
+   "choices": [
+    "Poproszę o rachunek.",
+    "Poproszę o wodę.",
+    "Proszę o pracy.",
+    "Mówię o rachunek."
+   ],
+   "answer": "Poproszę o rachunek.",
+   "explain": "Poproszę o rachunek is what you want; Poproszę o wodę would get you water. The other two put the wrong ending after o in each direction."
+  },
+  {
+   "prompt": "Myślę o ___. (about school)",
+   "choices": [
+    "szkole",
+    "szkoły",
+    "szkoła",
+    "pracy"
+   ],
+   "answer": "szkole",
+   "explain": "myśleć o takes the in-form, and for szkoła that is szkole. szkoły is the of-form and belongs after nie ma or dużo."
+  },
+  {
+   "prompt": "Mama prosi o ___. (for tea)",
+   "choices": [
+    "herbatę",
+    "herbaty",
+    "herbata",
+    "wodę"
+   ],
+   "answer": "herbatę",
+   "explain": "The object form again: herbata → herbatę. herbaty is what you would use after nie ma."
+  },
+  {
+   "prompt": "Which sentence is asking for something?",
+   "choices": [
+    "Prosi o wodę.",
+    "Mówi o szkole.",
+    "Myśli o domu.",
+    "Jest w pracy."
+   ],
+   "answer": "Prosi o wodę.",
+   "explain": "Only prosić asks. The next two are about talking and thinking, and the last one is not about o at all."
+  },
+  {
+   "prompt": "___ o menu. (I'm asking for the menu)",
+   "choices": [
+    "Proszę",
+    "Mówię",
+    "Myślę",
+    "Jestem"
+   ],
+   "answer": "Proszę",
+   "explain": "Mówię o… and Myślę o… would mean you are discussing the menu rather than trying to get one."
+  },
+  {
+   "prompt": "Which one is right?",
+   "choices": [
+    "Prosisz o zupę.",
+    "Prosisz o zupa.",
+    "Prosisz zupę.",
+    "Prosisz o zupy."
+   ],
+   "answer": "Prosisz o zupę.",
+   "explain": "Prosisz zupę drops the o, which prosić will not do without. The other two get the o right and the ending wrong."
+  },
+  {
+   "prompt": "Tata prosi o ___. (bread)",
+   "choices": [
+    "chleb",
+    "chleba",
+    "zupę",
+    "menu"
+   ],
+   "answer": "chleb",
+   "explain": "Nothing is added to chleb as an object. chleba is the form it takes after a nie — Nie kupuję chleba — and this sentence has no nie in it."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to ask for (dictionary form)",
+   "mode": "full_word",
+   "answer": "prosić",
+   "accepts": [
+    "prosić",
+    "prosic"
+   ],
+   "explain": "The -ić ending puts it in the same family as mówić, robić and lubić, so its endings are ones you already own."
+  },
+  {
+   "prompt_en": "I'm asking for a coffee.",
+   "mode": "full_word",
+   "answer": "Proszę o kawę.",
+   "accepts": [
+    "Proszę o kawę.",
+    "Proszę o kawę",
+    "Prosze o kawe."
+   ],
+   "explain": "The whole pattern in three words: the verb, the o it always needs, and the object form after it."
+  },
+  {
+   "prompt_en": "The bill, please.",
+   "mode": "full_word",
+   "answer": "Poproszę o rachunek.",
+   "accepts": [
+    "Poproszę o rachunek.",
+    "Poproszę o rachunek",
+    "Poprosze o rachunek."
+   ],
+   "explain": "Poproszę rachunek without the o is also right and you have been saying it since A2 — this is the other version you will hear at the same counter."
+  },
+  {
+   "prompt_en": "I'm asking for water.",
+   "mode": "cloze",
+   "frame": "Proszę o ___.",
+   "answer": "wodę",
+   "accepts": [
+    "wodę",
+    "wode"
+   ],
+   "explain": "woda takes the object ending after o here, exactly as it does after mam."
+  },
+  {
+   "prompt_en": "You're asking for the menu.",
+   "mode": "cloze",
+   "frame": "___ o menu.",
+   "answer": "Prosisz",
+   "accepts": [
+    "Prosisz",
+    "prosisz"
+   ],
+   "explain": "menu never changes its ending, so the only thing this sentence asks you to get right is the person on the verb."
+  },
+  {
+   "prompt_en": "Dad is asking for bread.",
+   "mode": "cloze",
+   "frame": "Tata ___ o chleb.",
+   "answer": "prosi",
+   "accepts": [
+    "prosi"
+   ],
+   "explain": "The he-or-she form. chleb stays as it is, because there is no nie anywhere in the sentence."
+  },
+  {
+   "prompt_en": "Mum is asking for tea.",
+   "mode": "cloze",
+   "frame": "Mama prosi o ___.",
+   "answer": "herbatę",
+   "accepts": [
+    "herbatę",
+    "herbate"
+   ]
+  },
+  {
+   "prompt_en": "He's asking for soup.",
+   "mode": "cloze",
+   "frame": "Prosi o ___.",
+   "answer": "zupę",
+   "accepts": [
+    "zupę",
+    "zupe"
+   ]
+  },
+  {
+   "prompt_en": "I'm talking about work.",
+   "mode": "cloze",
+   "frame": "Mówię o ___.",
+   "answer": "pracy",
+   "accepts": [
+    "pracy"
+   ],
+   "explain": "The other side of the contrast: after mówić the o-word takes the in-form, so it is pracy and never the object form."
+  },
+  {
+   "prompt_en": "I'm thinking about school.",
+   "mode": "cloze",
+   "frame": "Myślę o ___.",
+   "answer": "szkole",
+   "accepts": [
+    "szkole"
+   ],
+   "explain": "Same job as the item before it, on a different noun — thinking about something, not asking for it."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Excuse me, the bill please.",
+   "answer": "Przepraszam, poproszę o rachunek.",
+   "accepts": [
+    "Przepraszam, poproszę o rachunek.",
+    "Przepraszam, poproszę o rachunek"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is asking for bread, but the shop is closed.",
+   "answer": "Tata prosi o chleb, ale sklep jest zamknięty.",
+   "accepts": [
+    "Tata prosi o chleb, ale sklep jest zamknięty.",
+    "Tata prosi o chleb, ale sklep jest zamknięty"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is asking for tea, because she is tired.",
+   "answer": "Mama prosi o herbatę, bo jest zmęczona.",
+   "accepts": [
+    "Mama prosi o herbatę, bo jest zmęczona.",
+    "Mama prosi o herbatę, bo jest zmęczona"
+   ],
+   "explain": "zmęczona rather than zmęczony, because it is mum who is tired."
+  },
+  {
+   "prompt_en": "Type: I'm talking about work, and dad is asking for coffee.",
+   "answer": "Mówię o pracy, a tata prosi o kawę.",
+   "accepts": [
+    "Mówię o pracy, a tata prosi o kawę.",
+    "Mówię o pracy, a tata prosi o kawę"
+   ],
+   "explain": "The whole unit in one sentence: the same o twice, and two different endings after it because the two verbs want different things."
+  },
+  {
+   "prompt_en": "Type: They say the coffee is good, so I'm asking for a coffee.",
+   "answer": "Mówi się, że kawa jest dobra, więc proszę o kawę.",
+   "accepts": [
+    "Mówi się, że kawa jest dobra, więc proszę o kawę.",
+    "Mówi się, że kawa jest dobra, więc proszę o kawę"
+   ],
+   "explain": "Mówi się, że… is last lesson's construction, still running — nobody in particular said it, and więc turns it into your reason."
+  },
+  {
+   "prompt_en": "Type: You're asking for the key, but dad is at work.",
+   "answer": "Prosisz o klucz, ale tata jest w pracy.",
+   "accepts": [
+    "Prosisz o klucz, ale tata jest w pracy.",
+    "Prosisz o klucz, ale tata jest w pracy"
+   ],
+   "explain": "w pracy is the in-form after w — the same word that follows mówię o, doing a different job here."
+  },
+  {
+   "prompt_en": "Type: The menu please. Thank you very much.",
+   "answer": "Poproszę o menu. Dziękuję bardzo.",
+   "accepts": [
+    "Poproszę o menu. Dziękuję bardzo.",
+    "Poproszę o menu. Dziękuję bardzo"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm thinking about school and I'm asking for a book.",
+   "answer": "Myślę o szkole i proszę o książkę.",
+   "accepts": [
+    "Myślę o szkole i proszę o książkę.",
+    "Myślę o szkole i proszę o książkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is asking for soup, and mum is asking for water.",
+   "answer": "Tata prosi o zupę, a mama prosi o wodę.",
+   "accepts": [
+    "Tata prosi o zupę, a mama prosi o wodę.",
+    "Tata prosi o zupę, a mama prosi o wodę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm talking about the house, but I'm asking for the key.",
+   "answer": "Mówię o domu, ale proszę o klucz.",
+   "accepts": [
+    "Mówię o domu, ale proszę o klucz.",
+    "Mówię o domu, ale proszę o klucz"
+   ],
+   "explain": "domu after mówię o, klucz after proszę o — one house, one key, and the endings tell you which verb is in charge."
+  }
+ ],
+ "uses_lemmas": [
+  "proszę",
+  "poproszę",
+  "poproszę rachunek",
+  "proszę czekać",
+  "proszę mówić po polsku",
+  "mówię",
+  "mówi",
+  "mówisz",
+  "myślę",
+  "myśli",
+  "o pracy",
+  "o szkole",
+  "o domu",
+  "pracy",
+  "praca",
+  "szkole",
+  "szkoły",
+  "szkoła",
+  "domu",
+  "w pracy",
+  "kawa",
+  "kawę",
+  "kawy",
+  "woda",
+  "wodę",
+  "wody",
+  "herbata",
+  "herbatę",
+  "herbaty",
+  "zupę",
+  "chleb",
+  "chleba",
+  "rachunek",
+  "menu",
+  "klucz",
+  "książkę",
+  "mówi się",
+  "że",
+  "dobra",
+  "jest",
+  "jestem",
+  "sklep",
+  "zamknięty",
+  "zmęczona",
+  "tata",
+  "mama",
+  "ale",
+  "a",
+  "i",
+  "więc",
+  "bo",
+  "przepraszam",
+  "dziękuję bardzo",
+  "po polsku"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_prosic_o",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

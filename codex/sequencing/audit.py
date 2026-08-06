@@ -122,6 +122,7 @@ STRUCTURE_CATALOGUE = {
     "neg_gen",
     "double_neg",
     "sie_impersonal",
+    "prosic_o",
 }
 
 GLUE_LEMMAS = {

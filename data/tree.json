@@ -3433,17 +3433,18 @@
    "id": "b2_prosic_o",
    "domain": "grammar",
    "label": "Proszę o kawę",
-   "label_en": "prosić o + Accusative",
+   "label_en": "Asking for things · prosić o + Accusative",
    "kind": "topic",
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 6, unit 4. PAYS B1-DIGEST DEFERRED ITEM 3 (spine O11). prosic o + ACCUSATIVE (prosic verified NEW). b1_giving deferred it and asked James to decide whether it needs a slot; b1_polite separately dropped 'Poprosze o...' for the same reason. Both gave the same argument: o is already taught as a LOCATIVE governor (o_loc: mowie o pracy), so o + Accusative is a live homograph trap ON A FUNCTION WORD - which is exactly why it earns its own moment. The contrast (mowie o pracy vs prosze o kawe) IS the unit.",
+   "note": "B2 Block 6, unit 4. PAYS B1-DIGEST DEFERRED ITEM 3 (spine O11). prosic o + ACCUSATIVE. b1_giving deferred it and asked James whether it needed a slot; b1_polite separately dropped 'Poprosze o...' for the same reason - o is already taught as a LOCATIVE governor (a2_o_loc, mowie o pracy), so o + Accusative is a live homograph trap ON A FUNCTION WORD. THREE NEW FORMS: prosic, prosisz, prosi - the -e/-isz class already owned from mowic/robic/lubic, so the endings cost nothing, and the s->sz of prosze is a TABLE FACT, never a rule. PROSZE IS THE REAL TRAP AND THE BEST SLIDE: one string, three jobs the learner has now met - please/here you are (A1), Prosze + dictionary verb = polite instruction (a2_imperative), and from here the 1sg of prosic. Slide 3 sets all three side by side and names what tells them apart: a verb after it = instruction, an o after it = asking. Poprosze rachunek (taught) and Poprosze o rachunek are BOTH stated correct rather than one replacing the other; with the verb prosic the o is obligatory, and that is the unit's one hard fact. THE CONTRAST IS CROSS-NOUN, NOT A MINIMAL PAIR, flagged in the pack as its own weakness: kawie, wodzie, prace and szkole are ALL verified NEW, so no noun in the course owns both its Locative and its Accusative - two columns carry it instead (mowic/myslec + in-form vs prosic + object form) with o constant. FENCED, all verified NEW: pomoc, dropped deliberately though Prosze o pomoc is the most useful sentence here, because pomoc is a soft feminine whose Accusative equals its Nominative and would show a pattern in which nothing visibly moves (logged as the obvious top-up if James wants the unit bigger); klucza (caught in a draft use item, already fenced by name in b2_neg_gen), prace, szkole, kawie, wodzie, herbacie, rachunku, kawiarni; the plural persons; prosic with a person as well as a thing; the past of prosic and perfective poprosic as a verb; siebie/sobie; all oblique pronouns (GLUE_LEMMAS blind spot). Match carries the bare infinitive as its own row so all four forms appear without dropping the three o + Locative contrast rows. Pisanie: two typed whole (both three-word minimal pattern units), one bare dictionary form, seven cloze on the teaching point.",
    "pedagogy": "teach",
    "root": "links",
-   "tree_part": "links"
+   "tree_part": "links",
+   "content": "grammar/blocks/b2_prosic_o.json"
   },
   {
    "id": "b2_jezdzic",
