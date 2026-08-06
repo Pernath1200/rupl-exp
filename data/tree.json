@@ -2956,18 +2956,19 @@
     {
       "id": "b2_adj_gen",
       "domain": "grammar",
-      "label": "Dobrego, dobrej · dopełniacz",
-      "label_en": "Adjectives in the Genitive",
+      "label": "Dobrej kawy · dopełniacz",
+      "label_en": "Adjectives in the Genitive · -ego and -ej",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 2 of 6. Teaches -ego (m/n) and -ej (f) - one paradigm row. Payoffs on owned governors only: nie ma dobrej kawy (negation), do duzego sklepu (prep_do_gen), duzo zimnej wody (a1_gen_endings). Masculine-animate Accusative folds in here as the honest Acc=Gen exception AGENTS.md names. TRAP, flagged in advance (spine O16): check_new.py reports 'nowego' as TAUGHT - it is frozen inside a2_smalltalk's chunk 'nic nowego' and the learner has never been shown it as a genitive adjective. Treat as a chunk-to-paradigm re-teach, the dziekuje/ktorej precedent.",
+      "note": "B2 Block 2, unit 2 of 6 (spine O2) — the first unit of the block that adds real endings: -ego for masculine and neuter, -ej for feminine. FORM COUNT HELD DOWN ON PURPOSE: only four adjectives (dobry, nowy, mały, zimny), each in BOTH forms, so the learner sees a symmetrical paradigm rather than a word list. duży and stary were dropped for that reason alone and cost nothing to add later in a gym. Verified NEW: dobrego, dobrej, nowej, małego, małej, zimnego, zimnej. NO NEW GOVERNORS — all three triggers are already owned and are the ones the spine named: nie mam / nie ma + Gen, do + Gen, and dużo + Gen (a1_gen_endings literally teaches dużo kawy / dużo wody / dużo mleka). The only change is that the adjective now comes along. THE TRAP, predicted by spine O16 one batch in advance and confirmed here: nowego reports TAUGHT (a2_smalltalk) but is frozen inside the chunk Nic nowego. Slide 3 is entirely that reveal, played as a gift rather than a correction — the dziękuję / której precedent. MASCULINE-ANIMATE ACCUSATIVE folds in here and closes the gap b2_adj_acc left open by design one unit earlier: for masculine people and animals the object form IS this form (Mam małego psa), and the nouns have been Acc=Gen since a1_miec. That pairing is the whole reason these two units sit in this order. FENCED: z / ze + Genitive is kept out entirely, even though it is an owned Genitive governor, because inserting an adjective flips the learner's whole-form ze sklepu back to z nowego sklepu — a second fact about the preposition, not the adjective, and the do/z cliff in miniature. Also fenced: -ym and -emu anywhere including distractors; plural genitive adjectives (C1); and pracy, which b2_fem_soft taught one unit earlier as the Dative/Locative form. Distractors are real taught forms in the wrong slot, including last unit's accusatives (dobrą, nową, małą, zimną); zimne and stare are avoided as both came back NEW and are taught nowhere.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_gen.json"
     },
     {
       "id": "b2_work",

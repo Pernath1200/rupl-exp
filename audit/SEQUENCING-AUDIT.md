@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 129 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 130 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -146,4 +146,5 @@ _None._
 | 132 | `b2_copular_future` | `copular_future` | 0 | `bedzie`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `inst_identity`, `poss_nom`, `prep_w_loc`, `virile_reco`, `weather_chunk`, `zgoda` |
 | 133 | `b2_fem_soft` | `fem_dat_loc` | 5 | `byc_present`, `conjunctions`, `copular_future`, `dative_sg`, `fem_dat_loc`, `o_loc`, `poss_nom`, `prep_w_loc`, `present_am`, `present_e_isz` |
 | 134 | `b2_adj_acc` | `adj_acc` | 6 | `adj_acc`, `aspect_past`, `conjunctions`, `miec_acc`, `miec_present`, `perf_future`, `poss_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `situation_chunk`, `zgoda` |
+| 135 | `b2_adj_gen` | `adj_gen` | 7 | `adj_acc`, `adj_gen`, `byc_present`, `chodzic`, `conjunctions`, `existential_jest`, `gen_endings`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `zgoda` |
 
