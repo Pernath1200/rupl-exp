@@ -456,3 +456,90 @@ a difficulty compromise — it's just how the construction actually works.
   batch: whether `prosić o` deserves its own chunk-lane slot, and
   whether Loc/Inst `który` relatives + animate `który` relatives get a
   dedicated follow-up unit or fold into `b1_case_gym`.
+
+## Batch 8 — Block 6 closes (stories), Block 7 opens (imperative rule)
+
+Built `b1_stories`, `b1_stories_func`, `b1_imperative_rule` — three units, each
+audit-clean (0 errors; same 2 pre-existing unrelated warns from
+`a2_prep_review`/`b1_two_futures`), pushed to `origin/b1-build` one at a time,
+not batched. One new structure registered before its audit ran:
+`imperative_rule`. Path is now live through `b1_imperative_rule`; next
+unbuilt B1 node is `b1_adverb_comp`.
+
+### `b1_stories` (closes Block 6's vocab side — narrative connectives)
+
+Six connectives: the five the spine named (najpierw, potem, w końcu, nagle,
+niestety) plus na szczęście, added as niestety's natural opposite and logged
+as a scope addition, not a silent guess. Zero new structures — every example
+sentence recycles past/aspect/motion/virile material already live.
+
+**Caught before shipping:** a draft nagle example used `było zimno`, assuming
+the `weather_chunk` catalogue description ("fixed past 3sg chunks... było
+zimno") meant it was already taught — `check_new.py` returned NEW. The
+catalogue row describes what the structure is *for*, not what any live pack
+has actually tagged. Replaced with `zgubiłem` (confirmed b1_journeys teach).
+Worth flagging for whoever next reaches into that same catalogue row.
+
+### `b1_stories_func` (closes Block 6 — situations: telling what happened)
+
+One small new closed chunk set on the opaque form `stało` (from `stać się`):
+`Co się stało?` / `Coś się stało.` / `Nic się nie stało.` — never conjugated,
+same chunk-lane treatment `nie słyszę` got in `a2_phone_func`. A design fork
+is logged in the pack note: opening `stać się` as a real reflexive-verb
+paradigm was considered and rejected as the wrong load for a recombination
+unit; if James wants that later, nothing here blocks it.
+
+**Caught before shipping:** an intro example used `wyglądasz`/`zdenerwowanego`
+(only the noun's nominative, `zdenerwowany`, is taught, not the accusative)
+and `nie martw się` — all three genuinely new, none intended for teaching
+here. Replaced with `Jesteś zdenerwowany — co się stało?`, built entirely
+from taught material.
+
+### `b1_imperative_rule` (opens Block 7 — the formation A2 withheld)
+
+New structure `imperative_rule`. Derives the actual rule (3sg present, or
+3sg future for perfective verbs, minus its ending — add -j if vowel-final,
+bare if consonant-final) across grać/mówić/kupować/pić plus the perfective
+kupić/wypić for the aspect-flip payoff. Retroactively shows 4 of A2's 5
+chunk imperatives (czekaj/słuchaj/idź/chodź) falling out of the same rule —
+`daj` is deliberately left out, since `a2_imperative`'s own note confirms
+`dać` was never taught. `robić→rób` (the o→ó shift) is fenced out
+completely — not just withheld from production, but absent from every
+learner-facing slide, table, and quiz item, after a self-check caught it
+sitting in both.
+
+Negative imperative (`nie` + IMPERFECTIVE, always) is demonstrated, not
+asserted, with two aspect-twin pairs already fully owned since
+`a2_aspect`/`b1_perf_future`: `Kup wodę!` vs `Nie kupuj wody!` and `Wypij
+herbatę!` vs `Nie pij herbaty!`.
+
+**Self-verification caught six real leaks before shipping**, all via
+`check_new.py`, none of which the auditor's string-matching would have
+caught: `chleba` (genitive) isn't taught — `chleb` is one of the real-world
+exceptions to the course's own simplified masculine-genitive rule, so an
+early Kup-example was rebuilt on `wodę`/`wody` instead; a draft fourth
+present-class model used `pisze`, which turns out never to have been taught
+(only the infinitive `pisać` and the noun `pisanie` are in POOL); a first
+draft derived `Daj` from `dać→da` — exactly the fifth A2 chunk that pack's
+own note says was left deliberately opaque; a slide used the conjunction
+`ale` ("but"), which is untaught; four quiz distractors
+(`Grajesz!`/`Mówij!`/`Kupujej!`/`Pijej!`) were fabricated non-words rather
+than real Polish, replaced with real already-taught forms used in the wrong
+slot instead; and one quiz item asked "which verb is NOT covered by this
+rule," naming `robić`/`rób` directly — a meta-question about the language,
+against the Kontrola stage contract, and a direct violation of this same
+pack's own robić fence, caught only by re-reading the note against the
+actual shipped content.
+
+### For James's next smoke pass
+
+- `b1_stories_func`'s `stać się` design fork (chunk-lane, not a full verb
+  paradigm) is the call most worth a second opinion — it's a real either-way
+  decision, not a forced one.
+- `b1_imperative_rule`'s `Kup wodę!` vs `Nie kupuj wody!` pair is the one
+  I'd most want watched live — it's the first time this course has asked
+  Dad to actively apply the aspect distinction rather than just recognise
+  it, and that's a genuinely harder ask than anything else in this batch.
+- Nothing else new is flagged as uncertain this batch; the three units
+  lean more on careful recombination and rule-derivation than on fresh
+  judgment calls.
