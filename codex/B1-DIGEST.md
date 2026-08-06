@@ -543,3 +543,123 @@ actual shipped content.
 - Nothing else new is flagged as uncertain this batch; the three units
   lean more on careful recombination and rule-derivation than on fresh
   judgment calls.
+
+## Batch 9 — Block 7 continues (adverbs, vocative) + opinions vocab
+
+Built `b1_adverb_comp`, `b1_vocative_chunks`, `b1_opinions` — three units, each
+audit-clean (0 errors; same 2 pre-existing unrelated warns from
+`a2_prep_review`/`b1_two_futures`), pushed to `origin/b1-build` one at a time,
+not batched. Two new structures registered before their audits ran:
+`adverb_comp`, `vocative_chunk`. Path is now live through `b1_opinions`; next
+unbuilt B1 nodes are `b1_case_gym`, `b1_wrapup`, `b1_station_2` — the whole
+level's remaining spine, all in Block 7.
+
+### `b1_adverb_comp` (Block 7, unit 2 — adverb comparison)
+
+Fenced out of `a2_superlatives` on purpose (its own note names this exact
+gap). New structure `adverb_comp`. Adjectives compare with -y/-a/-e
+agreement; adverbs compare as one invariant word — that's the whole new fact,
+riding the already-owned naj- prefix rule wholesale. Four families:
+szybko→szybciej→najszybciej (the one regular pattern, -o→-iej), dobrze→lepiej
+and dużo→więcej (irregular, but the base adverbs were already taught —
+`dobrze` even by a2_smalltalk explicitly as "the adverb, not the adjective",
+a precedent that made this whole unit's core distinction land almost for
+free), and mało→mniej→najmniej — the fourth family, **added beyond the
+spine's three named examples**, logged as a scope addition: its base (mało)
+is new vocabulary but zero new grammar, and it was the cleanest way to reach
+Match's mandatory 12-row board without padding with object-phrase pairs.
+
+**Self-verification caught real leaks in the quiz distractors**, none of
+which the auditor's string-matching would have seen: five wrong-answer
+choices (więksi, bardziej, najszybszy, najszybszym, najwięksi) turned out to
+be untaught adjective-superlative/virile forms rather than real pool-legal
+Polish — every one checked individually via check_new.py and swapped for
+already-taught or own-unit forms before shipping, matching the
+"distractors must be pool-legal" convention `b1_conditional_pl`'s batch
+established. Also caught: two tag words (`kota`, `matki`) sitting in
+`uses_lemmas` that were never actually used anywhere in the pack's content —
+removed rather than left as dead/misleading tags.
+
+### `b1_vocative_chunks` (Block 7, unit 3 — James decision #4)
+
+New structure `vocative_chunk`. Six frozen calling-forms, each handed over
+whole exactly like `mógłby`/`mogłaby` were in `b1_polite`: Mamo!/Tato!/
+Babciu!/Dziadku! (family, all four confirmed genuinely new) plus the two
+panie/pani+name chunks the spine names by name, Panie Piotrze!/Pani Anno!
+(using the already-glue names piotr/anna). **Never taught as a case, no
+endings rule stated anywhere** — the spine's own instruction, followed to
+the letter.
+
+**Scope cut, logged:** the name-vocative pattern is not generalised past
+these two named examples — no rule connecting Piotr→Piotrze or Anna→Anno is
+ever stated, since a productive proper-noun vocative rule would be a second
+alternation stacked on the family-word set in the same unit. If James wants
+a general name-vocative unit later, it isn't on the current spine.
+
+**Self-verification caught one real leak:** a quiz distractor for "calling
+your grandma" (`Babci!`, the genitive of babcia) turned out to be untaught —
+check_new.py confirmed NEW — and was swapped for the already-taught
+instrumental `Babcią!` before shipping. A second near-miss: I had initially
+tagged the compound phrase "jestem głodny" itself in `uses_lemmas`, which
+would have been a hard audit error (the auditor checks exact declared
+strings, not word-by-word decomposition) — caught before wiring the unit
+live, fixed by tagging the individually-taught words `jestem`/`głodny`/
+`głodna` instead.
+
+### `b1_opinions` (opinion/discussion vocab register)
+
+moim zdaniem, zgadzać się / nie zgadzać się (the second logged as a scope
+addition, matching `b1_stories`' na szczęście/niestety precedent), mieć
+rację, na pewno, and a re-taught `może`. Zero new structures — every
+sentence recycles something already live, deliberately spread wide rather
+than leaning on the last grammar unit only: `b1_adverb_comp` and
+`b1_vocative_chunks`, both from earlier in this same batch, each get a
+sentence, alongside `virile_reco`/`virile_nom`, `perf_future`,
+`motion_prefixed`, `conditional_sg` and `inst_z`.
+
+**Homograph, flagged loudly, same treatment as `b1_dative_pron`'s ci/ci and
+`b1_ktory_cases`' której/której:** `może` is already taught by
+`trunk_can_a1` as the 3sg present of *móc* — "he/she/it CAN". This unit
+re-teaches the identical string as a completely unrelated word, the sentence
+adverb "maybe/perhaps" — disambiguated in the item's own explain string and
+kept apart by context in every example sentence, never by a meta quiz
+question. A second, lighter instance of the same pattern: `zdanie` was
+already taught as "sentence" (a school-context noun); `moim zdaniem` uses
+the same word in its other everyday sense, "opinion" — a real polysemy
+rather than an unrelated collision, but named explicitly all the same.
+
+**Scope cut, logged:** the natural negative of `mieć rację` is real Polish
+`nie mieć racji` — genitive after the negated verb, the already-owned `nie
+mam X + Gen` pattern — but *racji* is a soft `-cja`-noun genitive ending
+this course has never taught or generalised (a different consonant class
+from `a1_gen_ki`'s k/g-stem exception). Stacking a new genitive sub-pattern
+onto a vocab-only leaf was judged the wrong load; used `nie zgadzać się`
+for the negative-opinion register instead, which needs zero new grammar.
+
+**Self-verification caught one real leak:** a draft sentence ("Ty zgadzasz
+się i ja też się zgadzam") used `też` ("too/also"), which check_new.py
+confirmed was never taught anywhere in the course — replaced with a
+question, "Zgadzasz się z tatą?", built entirely from already-taught
+material. A second, smaller catch: the bare preposition `z` had been listed
+in `uses_lemmas`, which isn't how this course tags governed prepositions —
+per SEQUENCING.md §6.3 a produced preposition+case frame is carried by its
+*structure* tag (`inst_z`), not a standalone lemma; removed the redundant
+(and, since `z` alone has never been independently taught, actually
+audit-breaking) tag.
+
+### For James's next smoke pass
+
+- `b1_adverb_comp`'s core payoff line — "Mama gotuje lepiej. Tata gotuje
+  lepiej. Dzieci gotują lepiej." — is worth clicking through to see whether
+  "adverbs never agree" lands as a clean, reassuring rule (one less thing to
+  conjugate) rather than confusing after two levels of everything-agrees.
+- `b1_vocative_chunks`' Panie Piotrze!/Pani Anno! slide is the one judgment
+  call most worth a second opinion: teaching two frozen name-vocative forms
+  with zero generalising rule is a real either-way choice, not a forced one.
+- `b1_opinions`' może/może homograph is the same kind of bet
+  `b1_dative_pron`'s ci/ci was — that context disambiguates two identical
+  spellings better than an explicit drilled contrast would for this learner.
+- **The B1-SPINE is now down to its last three nodes**: `b1_case_gym`,
+  `b1_wrapup`, `b1_station_2` — all of Block 7's remaining slots. The next
+  build run should treat this as closing out the level, not opening new
+  ground.
