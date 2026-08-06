@@ -114,6 +114,7 @@ STRUCTURE_CATALOGUE = {
     "jesli",
     "gdyby",
     "loc_pl",
+    "inst_pl",
 }
 
 GLUE_LEMMAS = {
