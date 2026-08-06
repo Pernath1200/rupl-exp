@@ -3087,3 +3087,149 @@ Live through `b2_prefix_two_jobs` (path index 168, **162 live nodes**). Audit 16
 **0 errors**, 2 warns (both the pre-existing empty-teaches review nodes). Next unbuilt
 non-station B2 node: **`b2_pisac_family`** (path 169), then `b2_verb_family2` to close
 Block 6a. `b2_station_1` / `b2_station_2` stay `planned` forever; `a2_past_gym` stays retired.
+
+---
+
+## Batch 15 — Block 6a CLOSES (`b2_pisac_family`, `b2_verb_family2`) + the last 3 repair packs
+
+**The Pisanie repair queue is empty.** `b2_ktory_full`, `b2_reported` and `b2_ze_clauses`
+converted (30 items), closing all 19 packs and all 104 items of the original sweep. As in
+batch 14, every one of the 30 was a composed 4–7 word sentence, so nothing sat under the
+word cap and no composition sweep was needed. The intro-register second sweep was run on
+all three and found nothing to change — all three already name real categories in their
+titles and carry no cute framing — which is recorded in `REPAIR-QUEUE.md` so a later run
+does not re-sweep them.
+
+`b2_reported` came out best of the three: four blanks land on the `powiedział` family and
+five more on the **un-back-shifted verb inside the reported clause** (`są`, `będzie`, `ma`,
+`mam`, `pracuje`), each against an English prompt that says *were / would be / had / was
+working*. That pack's second fact is now produced rather than only read. Exactly **one blank
+in 30** falls off its unit's teaching point (`b2_reported` #7, *ładna*), logged per item.
+
+**And Block 6a is closed**, which means the James-locked prefix strand is complete: motion
+bridge, lens, two-jobs discrimination, and both root families.
+
+### `b2_pisac_family` (path 169) — three verbs, twenty forms, zero new endings
+
+`podpisać` (sign), `zapisać` (write down), `podpisywać` (sign as a routine). The arithmetic
+is the design: the past is `past_ac`, the perfective future is the -ę/-esz/-e
+`b2_aspect_prefixes` already handed over **on this very stem** (napiszę/napiszesz/napisze),
+and `podpisywać` conjugates on `present_uje`, owned since *pracować*. So twenty new strings
+cost three words and their meanings, nothing more.
+
+That unit is only buildable because `b2_aspect_prefixes` said so in advance — its own note
+records teaching the extra form *piszę* "so that napiszę sits on an anchored stem rather
+than a floating one and so `pisac_family` finds the root usable". Verified rather than
+trusted: every *pisać*/*napisać* form the family board leans on came back TAUGHT.
+
+**No prefix meaning is claimed**, per the spine's explicit instruction. `pod-` and `za-` sit
+outside the James-locked core-4 lens, and slide 2 says so out loud rather than letting the
+learner assume the lens stretches. `pod-` gets the single memory hook the spine allows — a
+signature goes *under* the text — labelled as a hook for that one word. `za-` gets nothing.
+
+**Scope cuts, both invited by the spine and both taken conservatively:** `przepisać` and
+`opisać` dropped (three verbs and twenty forms is the top of one unit); `zapisywać` fenced
+and never raised, so the twin idea is introduced **once** rather than twice — and because
+`zapisać`'s everyday sense really is a single finished act. The asymmetry is deliberate and
+is flagged below.
+
+### `b2_verb_family2` (path 170) — the root pick, and a spine premise corrected
+
+The spine left the root to the author and named the alternative. **`-dawać` chosen**, with
+`płacić` costed and rejected: (a) register — giving, giving back, spending and passing
+things at table are daily verbs, where *dopłacić*/*przepłacić* are counter-desk vocabulary;
+(b) landmines — this family governs a Dative person and an Accusative thing and **both are
+owned**, where `płacić` would want **za + Accusative** and *za* is owned only in
+`b1_polite`'s thanking job, a governor homograph on a function word (the trap that earned
+`b2_prosic_o` a unit of its own); (c) cost — one new verb against two.
+
+**The spine's premise was partly wrong and the pack corrects it — the third time in Block
+6a.** B2-SPINE lists *wydawać* as new material here. `check_new.py` says it is TAUGHT, by
+`a2_shopping2` at path 61, in exactly the money sense, on that pack's own money_verbs board.
+What is genuinely new is its **present tense** — *wydaję, wydajesz, wydaje*. So the learner
+has owned this verb as a dictionary word for a hundred nodes and has never been able to say
+*I spend*, and the unit is built on that anchor rather than around it, exactly as
+`b2_motion_imperf` was rebuilt on *wychodzić*. Final cost: **seven new forms, one new verb**
+(`podawać`), **zero new endings** — all four verbs run on the `present_e_esz` paradigm
+`b1_giving` gave for *dawać*, shown as four columns side by side.
+
+**The unit's real content is the honest limit of the lens, and it pays a named fence.**
+`b2_prefix_lens` excluded *wydawać* from its lens **by name**, its note recording that its
+wy- is not spatial. This is the unit that tells the learner why. `od-` in *oddawać* is the
+lens working (and was one of its own examples); `wy-` in *wydawać* is the lens failing —
+spending money is not giving it out of anywhere; `pod-` in *podawać* is not in the lens at
+all, and is pointedly the **same pod- met one node earlier in podpisać**, doing something
+else. Two of four readable, four of four to be learned. That is `b2_prefix_two_jobs`'
+landing line arriving a second time on new material, which is why the unit sits here.
+
+**Imperfective, present, singular only.** *dać, oddać, wydać, podać* are all verified NEW
+and all fenced — *dać* is irregular (dam/dasz/da, an -m/-sz paradigm the course has never
+taught), so the family's perfective half is a genuine second system. `b1_giving`'s
+imperfective-only treatment is not reopened. **Consequence stated so nobody later reads it
+as an oversight:** this unit teaches no aspect twin at all, unlike `b2_pisac_family` one
+node back. There was nothing to twin — all four verbs here are already the imperfective
+member.
+
+### Judgment calls and catches
+
+1. **Both planned tree labels were untaught Polish and both were corrected** — the third and
+   fourth time in this strand. `Rodzina pisać` (*rodzina* verified NEW, and not grammatical
+   Polish for a verb family either) → **`Podpisać czy zapisać?`**, on the *Idę czy jadę?*
+   model using two verbs the pack itself teaches. `Rodzina czasownika 2` (*rodzina* and
+   *czasownika* both NEW, and "Verb family 2" is builder jargon rather than learner English)
+   → **`Daję, oddaję, wydaję, podaję`**, on `b2_jezdzic`'s four-way label pattern, because
+   the payoff is a grid and not a binary choice. The standing instruction at the foot of
+   B2-SPINE has now caught a title in every single Block 6a unit.
+2. **`rdzeń` is new metalanguage**, used once in a `body_pl` line — the one lane AGENTS
+   allows untaught metalanguage in, where *przedrostek* already lives from three earlier
+   packs. Flagged rather than assumed.
+3. **A builder-surface leak was caught in draft**: `b2_verb_family2` slide 2 originally read
+   "the endings b1_giving gave you", a unit code in learner-facing text. Rewritten to "back
+   in B1" — level names are precedented in learner text (`b2_ze_clauses` says "since B1"),
+   unit codes are not.
+4. **Taught-AS catches that killed real sentences.** `kartkę` IS taught but as a *greetings
+   card* (`a2_celebrations`), so *zapisać kartkę* would read as writing a Christmas card
+   rather than noting something on a slip — dropped. `wydaje mi się` kept out of
+   `b2_verb_family2` entirely: it is `b2_discussion_func`'s verified-NEW material and using
+   it here, in a completely different sense of the very verb the unit teaches, would be the
+   homograph trap in its purest form. `nazwisko` and `dokument` both verified NEW and both
+   killed otherwise natural admin sentences.
+5. **Distractor discipline, applied from the start rather than found late.**
+   `b2_prefix_two_jobs`' pool catch was carried forward: *pisał* and *pisała* are not owned
+   (`b2_aspect_prefixes` teaches *pisać*'s past in the first person only), so every
+   imperfective-past distractor in `b2_pisac_family` is *pisałem*. In `b2_verb_family2`
+   every wrong choice is another member of the same family in the wrong slot.
+6. **Oblique pronouns.** *go* is owned since `b2_pron_acc`, but its clitic word order is what
+   that pack left to C1, so "Dad wrote the letter and signed it" was rebuilt as two noun
+   clauses. Dative *mi* IS used, in the post-verbal position `b1_giving` already ships
+   (*Dajesz mi klucze?*) — used, not extended.
+
+### Smoke-check shortlist for James
+
+1. **Still open and still yours:** the accent folds. 161 items across 18 packs carry an
+   `accepts` entry that is the deaccented form of their own answer, which makes a
+   diacritics-less answer score as an exact hit and silently suppresses the new
+   „z ogonkami" correction. Unchanged this run — it changes grading across packs outside
+   the repair queue. Full list in `REPAIR-QUEUE.md`.
+2. **`b2_pisac_family`'s deliberate asymmetry**: `podpisać` gets a twin (`podpisywać`),
+   `zapisać` does not, and *zapisywać* is never raised. The reasoning is that the twin idea
+   should land once and that noting something down really is a single act — but it is the
+   kind of thing that may simply look inconsistent in the hand.
+3. **Twenty new forms in one unit** (`b2_pisac_family`) is the largest single-unit form count
+   in Block 6a. The claim is that it costs three words because every ending is a rule
+   application on an owned stem. Worth checking whether it *feels* like three words.
+4. **`b2_verb_family2` teaches no aspect twin at all**, one node after a unit whose point was
+   partly the twin. Deliberate, and explained in both notes — but if the two units read as
+   contradicting each other, the fix is a line on the second unit's first slide.
+5. `b2_reported` #7 — the one blank in 30 that had to fall off the teaching point.
+
+### Where the path stands
+
+Live through `b2_verb_family2` (path index 170, **164 live nodes**). Audit 164 nodes,
+**0 errors**, 2 warns (both the pre-existing empty-teaches review nodes `a2_prep_review`
+and `b1_two_futures`). Smoke passed. **Block 6a is complete.** Next unbuilt non-station B2
+node: **`b2_powinien`** (path 171), then Block 7 (`b2_verbal_nouns`, `b2_participle_pass`,
+`b2_passive`) and Block 8 (`b2_travel_func`, `b2_discussion_func`, `b2_case_gym`,
+`b2_wrapup`) — **eight teaching nodes left in B2.** `b2_station_1` / `b2_station_2` stay
+`planned` forever; `a2_past_gym` stays retired. The Pisanie repair queue is empty, so the
+next run's step 0 is a no-op and it can build straight away.
