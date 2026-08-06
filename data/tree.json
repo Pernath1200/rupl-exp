@@ -3398,18 +3398,19 @@
   {
    "id": "b2_double_neg",
    "domain": "grammar",
-   "label": "Nikt nie wie",
-   "label_en": "Double negation",
+   "label": "Nikt nie pracuje · nigdzie nie idę",
+   "label_en": "Two negative words, not one",
    "kind": "topic",
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 6, unit 2. ADDED BEYOND THE ROUTINE BRIEF'S LIST, logged as an addition rather than a silent guess (spine O13, the na szczescie / nie zgadzac sie / malo precedent). Obligatory double negation: nikt, nigdzie, zaden (all verified NEW) with an obligatory second nie on the verb - Nikt nie wie. Nigdzie nie ide. nic and nigdy are already owned and are the anchors, so the learner has half the set and none of the syntax. English speakers get this wrong permanently unless it is named.",
+   "note": "B2 Block 6, unit 2 (spine O13 - an addition beyond the routine brief's list, logged in the spine rather than guessed silently). Obligatory double negation: a negative word AND a second nie on the verb, both, always. TWO NEW LEMMAS ONLY - nikt and nigdzie - because nic (a2_smalltalk, frozen inside nic nowego) and nigdy (leaf_time_cal_a1) are already owned, so the learner arrives holding half the set and none of the syntax. ZADEN IS DROPPED, a deliberate departure from the spine's own list and the one scope call here: it is an adjective-shaped word with a full declension whose natural home (Nie mam zadnej ksiazki) stacks a new declining word directly on top of b2_neg_gen one node earlier; zaden/zadna/zadne are fenced entirely, verified NEW, C1 inbox. THE UNIT IS NOT TITLED 'Nikt nie wie' despite that being the spine's headline phrase: check_new.py reports wie NEW, since wiem is owned only inside the frozen chunk nie wiem, so wie would be a new form of an irregular verb whose paradigm nobody owns - it appears nowhere, title included. SLIDE 3 IS A CONSOLIDATION, NOT A SECOND FACT: because the verb still carries nie, the object stays in the of-form (Nigdy nie pije kawy, Nikt nie kupuje chleba), so the unit re-drills b2_neg_gen at zero cost and the two nodes are adjacent for that reason. WORD ORDER IS NEGATIVE-WORD-FIRST THROUGHOUT; Nie ma nikogo and every other order is held. HOMOGRAPH CHECKS: nic is re-taught explicitly in its own slot (the dziekuje / ktorej / ze treatment) because a2_smalltalk owns it only inside nic nowego; gazety appears in no object slot, since a2_plural_nom owns that string as a NOMINATIVE PLURAL; czasami is deliberately not a distractor for czasu, because it means 'sometimes'. FENCED, all verified NEW: nikogo, nikomu, niczego; wie, wiesz, rozumiem, ktos, gdzies, wszedzie, wszyscy; and the past with nikt as subject, which takes masculine-singular agreement and is a second fact. No oblique pronouns (a fence audit.py cannot see, GLUE_LEMMAS); no plural oblique adjectives (O3 -> C1), the eighth bare-noun unit running. Pisanie honours the James-locked 3-word cap: four typed-whole items, six cloze with the blank on the teaching point.",
    "pedagogy": "teach",
    "root": "sentence",
-   "tree_part": "sentence"
+   "tree_part": "sentence",
+   "content": "grammar/blocks/b2_double_neg.json"
   },
   {
    "id": "b2_sie_impersonal",
