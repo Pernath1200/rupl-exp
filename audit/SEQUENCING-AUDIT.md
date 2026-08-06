@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 114 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 115 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -131,4 +131,5 @@ _None._
 | 115 | `b1_conditional_pl` | `conditional_pl` | 20 | `conditional_pl`, `conditional_sg`, `miec_acc`, `past_plural`, `plural_nom`, `question`, `virile_nom`, `virile_past`, `virile_reco` |
 | 117 | `b1_dative_sg` | `dative_sg` | 17 | `dat_chunks`, `dative_sg`, `inst_identity`, `inst_z`, `miec_acc`, `present_am`, `present_uje`, `question`, `virile_nom` |
 | 118 | `b1_dative_pron` | `dative_pron` | 6 | `dat_chunks`, `dative_pron`, `dative_sg`, `negation`, `question`, `sie_reflexive`, `ten_ta_to`, `virile_reco` |
+| 119 | `b1_giving` | — | 15 | `dat_chunks`, `dative_pron`, `dative_sg`, `miec_acc`, `question` |
 

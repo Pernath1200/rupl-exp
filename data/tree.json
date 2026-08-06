@@ -2649,11 +2649,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] Giving/helping register.",
+      "note": "The vocab payoff of the dative block: dawać (full 6-form, the verb b1_dative_sg deferred here), oddawać and pożyczać (partial spreads) — all riding already-taught present classes (present_e_esz, present_am), zero new structures. Every recipient/object recycled from b1_dative_sg/b1_dative_pron/A1-A2. prosić o deliberately NOT included (would need a new o+Accusative structure distinct from the taught o+Locative o_loc) — logged as open question for James in the pack note.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_giving.json"
     },
     {
       "id": "b1_ktory_cases",
