@@ -1,0 +1,623 @@
+{
+ "id": "b2_reported",
+ "title": "Powiedział, że…",
+ "title_en": "Reporting what somebody said",
+ "level": "B2",
+ "tree_node": "b2_reported",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 2 (spine). ONE NEW WORD (powiedzieć, handed over whole in five forms) and ONE NEW FACT: Polish does not back-shift the tense. Whatever tense the speaker actually used is the tense you keep when you report them, so English 'Dad said the shop WAS closed' is Polish Tata powiedział, że sklep JEST zamknięty. Framed as a gift, the a2_bedzie 'the future has no gender' idiom: this is one fewer thing to do than English, not one more.\n\nTHE UNIT INHERITS A CLEAN SLATE AND SPENDS IT ON EXACTLY ONE THING. b2_ze_clauses one node earlier deliberately kept every matrix verb in the present tense and logged why: the instant a past-tense verb of saying takes a że-clause the learner meets the no-back-shift fact, and that fact belongs here. That deferral is now cashed in. The joint itself (matrix + comma + że + untouched clause) is therefore entirely owned material, and the only thing this pack adds on top of it is the past-tense matrix verb.\n\npowiedzieć IS TAUGHT AS THE PERFECTIVE TWIN OF THE OWNED mówić, whole, per B2-SPINE O7.2's closed-list treatment and a2_aspect's standing framing (the prefixes are unpredictable; learn the pair whole, never build the second verb from the first). powiedzieć is not even prefixed — it is a suppletive partner — which makes it the honest kind of pair for that rule rather than a counterexample to it. Five forms taught: powiedzieć, powiedziałem, powiedziałam, powiedział, powiedziała. The gender split is not a new fact, just past_ac applied to a new verb, and it is presented that way.\n\nGLOSSING, per AGENTS.md's dynamic-verb rule. powiedzieć is perfective and glosses as plain 'said' — one completed act of speech, no ambiguity. mówić is imperfective and dynamic, so wherever mówił/mówiła appears it is glossed 'was saying' or 'kept saying', never 'said'. That is precisely the pair contrast slide 3 teaches, and it is why b2_ze_clauses' note flagged 'was saying' as reading oddly in a reporting frame: it reads oddly only when it is doing the job of 'said', and here it never is.\n\nTHE PERSON SHIFT IS FENCED, and this is the unit's one real judgment call, taken on the conservative branch. No item anywhere asks the learner to turn a quoted Jestem zmęczony into a reported jest zmęczony. Every intro transformation shows a quote whose subject is a noun (Sklep jest zamknięty → Tata powiedział, że sklep jest zamknięty), so literally nothing inside the clause moves and the no-back-shift message lands uncluttered. Where a report does come out third-person (Tata powiedział, że jest zmęczony) it is only ever driven from an English prompt that already says 'he', so the learner is never performing a person transformation, only a translation. THE ARGUMENT FOR THE OTHER BRANCH IS REAL AND IS RECORDED HERE: the person shift is not a Polish-specific fact at all — English does the identical shift — so including it would arguably cost no new learning. It was still left out because it is extra production work inside the unit that introduces the tense fact, and load-splitting decides ties in this course. If James wants it, it is a slide and three items, not a rewrite.\n\nFENCED, all verified and deliberate: PLURAL past of both verbs — powiedzieli, powiedziały and mówili are all verified NEW strings and would add virile forms to a unit that is about tense, so every matrix verb here is singular; the non-past forms of powiedzieć (powiem, powiesz — verified NEW), which are perfective FUTURE and would put a second tense job on the new word; wiedzieć, wiesz and wie, still held under a2_directions_func's quarantine that b2_ze_clauses restated (wiem appears here not at all, since the openers are all verbs of saying); INDIRECT QUESTIONS ABSOLUTELY — no question word after any matrix verb anywhere in this pack, not in a prompt, not as a distractor, because that is b2_indirect_q's single new fact on the very next node and a2_questions2 fenced it by name; masculine-ANIMATE relative pronouns (którego with a person antecedent), which is b2_ktory_full's material two nodes later, so the one który item here keeps b1_ktory_cases' inanimate antecedent; pamiętam (verified NEW), which would have been the obvious second matrix verb and is simply not owned.\n\nDISTRACTORS ARE REAL TAUGHT POLISH IN THE WRONG SLOT throughout. The tense items are guarded with był/była/miała/miałem — genuine past forms the learner owns since A2, which is what makes the choice a real discrimination rather than a spelling test: the wrong answer is exactly what an English speaker would produce by back-shifting. The gender items are guarded with the other three forms of powiedzieć taught in this same pack. Nothing fabricated anywhere.\n\nQUIZ ANSWER REPEATS: none — twelve items, twelve distinct answers, which a unit with four new forms plus a tense contrast can afford (b2_ze_clauses could not, and said so).",
+ "focus_structures": [
+  "reported"
+ ],
+ "teaches_structures": [
+  "reported"
+ ],
+ "teaches_lemmas": [
+  "powiedzieć",
+  "powiedziałem",
+  "powiedziałam",
+  "powiedział",
+  "powiedziała"
+ ],
+ "uses_structures": [
+  "reported",
+  "ze_clauses",
+  "zeby",
+  "ktory_cases",
+  "questions2",
+  "aspect_past",
+  "past_ac",
+  "past_rest",
+  "past_byc",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "miec_present",
+  "miec_acc",
+  "adj_acc",
+  "bedzie",
+  "copular_future",
+  "can_inf",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "plural_nom",
+  "prep_w_loc",
+  "prep_do_gen",
+  "prep_place",
+  "ordinals_time"
+ ],
+ "intro": [
+  {
+   "title": "Polish keeps the words the person actually said",
+   "title_pl": "Tata powiedział, że sklep jest zamknięty.",
+   "body": "English quietly moves the tense back. Somebody says \"the shop is closed\", and when you report it an hour later you say \"he said the shop WAS closed\" — even though it still is.\n\nPolish does not do that. You keep the sentence exactly as it was spoken. He said jest, so you report jest. Nothing inside the second half moves at all.\n\nThis is one thing fewer to do than in English, not one thing more.",
+   "body_pl": "Sklep jest zamknięty. → Tata powiedział, że sklep jest zamknięty.",
+   "table": {
+    "headers": [
+     "What he actually said",
+     "You report it",
+     "English"
+    ],
+    "rows": [
+     [
+      "Sklep jest zamknięty.",
+      "Tata powiedział, że sklep jest zamknięty.",
+      "Dad said the shop WAS closed."
+     ],
+     [
+      "Kawa jest dobra.",
+      "Mama powiedziała, że kawa jest dobra.",
+      "Mum said the coffee WAS good."
+     ],
+     [
+      "Wyniki są dobre.",
+      "Lekarz powiedział, że wyniki są dobre.",
+      "The doctor said the results WERE good."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Dad said that he was tired.",
+     "pl": "Tata powiedział, że jest zmęczony."
+    },
+    {
+     "en": "The doctor said that I had a referral.",
+     "pl": "Lekarz powiedział, że mam skierowanie."
+    }
+   ]
+  },
+  {
+   "title": "The same rule for the future and for the past",
+   "title_pl": "Tata powiedział, że mama będzie w domu.",
+   "body": "The rule is not about the present. It is about keeping whatever was said, so it works in every direction.\n\nIf he said będzie, you keep będzie — where English reaches for \"would be\". If he said kupił, you keep kupił — where English reaches for \"had bought\". In both cases Polish simply leaves the sentence alone.",
+   "body_pl": "Mama będzie w domu. → Tata powiedział, że mama będzie w domu.",
+   "table": {
+    "headers": [
+     "What was said",
+     "You report it",
+     "English"
+    ],
+    "rows": [
+     [
+      "Mama będzie w domu.",
+      "Tata powiedział, że mama będzie w domu.",
+      "Dad said Mum WOULD BE at home."
+     ],
+     [
+      "Pogoda będzie ładna.",
+      "Mama powiedziała, że pogoda będzie ładna.",
+      "Mum said the weather WOULD BE nice."
+     ],
+     [
+      "Kupiłem chleb.",
+      "Tata powiedział, że kupił chleb.",
+      "Dad said he HAD BOUGHT bread."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "The boss said that the meeting would be at four.",
+     "pl": "Szef powiedział, że spotkanie będzie o czwartej."
+    }
+   ]
+  },
+  {
+   "title": "powiedzieć — said once. mówić — was saying.",
+   "title_pl": "Mama powiedziała… · Mama mówiła…",
+   "body": "You already have mówić. Its partner for one finished act of speech is powiedzieć, and the two work as a pair exactly like the pairs you met at A2 — learn them together, and do not try to build one from the other.\n\nmówiła is what she was saying, or kept saying. powiedziała is what she said, once, and that is the one you want almost every time you report somebody.\n\nThe endings are nothing new: -łem and -łam when you are talking about yourself, -ł and -ła for somebody else. That is the same past you have had since A2.",
+   "body_pl": "Mama mówiła, że… · Mama powiedziała, że…",
+   "table": {
+    "headers": [
+     "Who is speaking",
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "a man, about himself",
+      "powiedziałem",
+      "Powiedziałem, że jestem zmęczony."
+     ],
+     [
+      "a woman, about herself",
+      "powiedziałam",
+      "Powiedziałam, że jestem zmęczona."
+     ],
+     [
+      "he",
+      "powiedział",
+      "Tata powiedział, że jest w pracy."
+     ],
+     [
+      "she",
+      "powiedziała",
+      "Mama powiedziała, że jest w domu."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Mum kept saying that Dad works in an office.",
+     "pl": "Mama mówiła, że tata pracuje w biurze."
+    },
+    {
+     "en": "Mum said that Dad works in an office.",
+     "pl": "Mama powiedziała, że tata pracuje w biurze."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "Dad said that the shop was closed.",
+   "pl": "Tata powiedział, że sklep jest zamknięty."
+  },
+  {
+   "en": "Mum said that the coffee was good.",
+   "pl": "Mama powiedziała, że kawa jest dobra."
+  },
+  {
+   "en": "The doctor said that the results were good.",
+   "pl": "Lekarz powiedział, że wyniki są dobre."
+  },
+  {
+   "en": "My sister said that she had a new car.",
+   "pl": "Siostra powiedziała, że ma nowy samochód."
+  },
+  {
+   "en": "I said (a man) that I was tired.",
+   "pl": "Powiedziałem, że jestem zmęczony."
+  },
+  {
+   "en": "I said (a woman) that I was tired.",
+   "pl": "Powiedziałam, że jestem zmęczona."
+  },
+  {
+   "en": "Dad said that Mum would be at home.",
+   "pl": "Tata powiedział, że mama będzie w domu."
+  },
+  {
+   "en": "Mum said that the weather would be nice.",
+   "pl": "Mama powiedziała, że pogoda będzie ładna."
+  },
+  {
+   "en": "The boss said that I had a new contract.",
+   "pl": "Szef powiedział, że mam nową umowę."
+  },
+  {
+   "en": "Dad said that he had bought bread.",
+   "pl": "Tata powiedział, że kupił chleb."
+  },
+  {
+   "en": "Mum kept saying that Dad works in an office.",
+   "pl": "Mama mówiła, że tata pracuje w biurze."
+  },
+  {
+   "en": "The doctor said that I had a referral.",
+   "pl": "Lekarz powiedział, że mam skierowanie."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Tata powiedział, że sklep ___ zamknięty. (Dad said the shop was closed.)",
+   "choices": [
+    "jest",
+    "był",
+    "będzie",
+    "są"
+   ],
+   "answer": "jest",
+   "explain": "He actually said Sklep jest zamknięty, so jest is what you keep. English slides it back to \"was\"; Polish never does."
+  },
+  {
+   "prompt": "Mama powiedziała, że pogoda ___ ładna. (Mum said the weather would be nice.)",
+   "choices": [
+    "będzie",
+    "jest",
+    "była",
+    "są"
+   ],
+   "answer": "będzie",
+   "explain": "What she said was Pogoda będzie ładna — a future sentence — so it stays in the future. English turns that into \"would be\", which is why this one is easy to get wrong."
+  },
+  {
+   "prompt": "Siostra powiedziała, że ___ nowy samochód. (My sister said she had a new car.)",
+   "choices": [
+    "ma",
+    "miała",
+    "mam",
+    "mają"
+   ],
+   "answer": "ma",
+   "explain": "She said Mam nowy samochód, and she still has it. English says \"had\" out of habit; Polish keeps ma."
+  },
+  {
+   "prompt": "Szef powiedział, że ___ nową umowę. (The boss said I had a new contract.)",
+   "choices": [
+    "mam",
+    "miałem",
+    "ma",
+    "mamy"
+   ],
+   "answer": "mam",
+   "explain": "The contract is yours, so the second half is the sentence you would say yourself: mam nową umowę. Nothing about reporting it changes the person or the tense."
+  },
+  {
+   "prompt": "Mama ___, że wyniki są dobre. (Mum said that the results were good.)",
+   "choices": [
+    "powiedziała",
+    "powiedział",
+    "powiedziałam",
+    "powiedziałem"
+   ],
+   "answer": "powiedziała",
+   "explain": "mama is the one speaking and she is somebody else, so it is -ła: powiedziała. powiedziałam would mean you said it yourself."
+  },
+  {
+   "prompt": "Tata ___, że jest zmęczony. (Dad said that he was tired.)",
+   "choices": [
+    "powiedział",
+    "powiedziała",
+    "powiedziałem",
+    "mówiła"
+   ],
+   "answer": "powiedział",
+   "explain": "tata is a man and it is somebody else speaking, so the bare -ł form: powiedział."
+  },
+  {
+   "prompt": "___, że jestem zmęczony. (I — a man — said that I was tired.)",
+   "choices": [
+    "Powiedziałem",
+    "Powiedziałam",
+    "Powiedział",
+    "Powiedziała"
+   ],
+   "answer": "Powiedziałem",
+   "explain": "You are talking about yourself, so the ending is -łem for a man — the same -łem you have used since A2."
+  },
+  {
+   "prompt": "___, że jestem zmęczona. (I — a woman — said that I was tired.)",
+   "choices": [
+    "Powiedziałam",
+    "Powiedziałem",
+    "Powiedziała",
+    "Mówiłam"
+   ],
+   "answer": "Powiedziałam",
+   "explain": "A woman talking about herself takes -łam. Notice zmęczona matches it — both halves of the sentence agree with the same person."
+  },
+  {
+   "prompt": "Mama ___, że tata pracuje w biurze. (Mum kept saying that Dad works in an office.)",
+   "choices": [
+    "mówiła",
+    "powiedziała",
+    "powiedział",
+    "powiedziałam"
+   ],
+   "answer": "mówiła",
+   "explain": "\"Kept saying\" is something repeated over time, and that is mówiła. powiedziała would be one single act of saying it."
+  },
+  {
+   "prompt": "Lekarz powiedział, ___ mam skierowanie. (The doctor said that I have a referral.)",
+   "choices": [
+    "że",
+    "żeby",
+    "bo",
+    "który"
+   ],
+   "answer": "że",
+   "explain": "He is reporting something that is so, which is że — and the comma before it is still written, exactly as you learned one unit ago."
+  },
+  {
+   "prompt": "Chcę ___, że mam nowy numer. (I want to say that I have a new number.)",
+   "choices": [
+    "powiedzieć",
+    "powiedziałem",
+    "powiedział",
+    "mówiła"
+   ],
+   "answer": "powiedzieć",
+   "explain": "After chcę comes the plain dictionary verb, and the dictionary form of this one is powiedzieć."
+  },
+  {
+   "prompt": "To jest film, ___ oglądałem. (This is the film that I watched.)",
+   "choices": [
+    "który",
+    "że",
+    "żeby",
+    "którą"
+   ],
+   "answer": "który",
+   "explain": "This word points back at film, so it is który. English uses \"that\" both for pointing back and for reporting; Polish keeps który and że completely apart."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "Dad said that the shop was closed.",
+   "mode": "full_word",
+   "answer": "Tata powiedział, że sklep jest zamknięty.",
+   "accepts": [
+    "Tata powiedział, że sklep jest zamknięty.",
+    "Tata powiedział, że sklep jest zamknięty"
+   ]
+  },
+  {
+   "prompt_en": "Mum said that the coffee was good.",
+   "mode": "full_word",
+   "answer": "Mama powiedziała, że kawa jest dobra.",
+   "accepts": [
+    "Mama powiedziała, że kawa jest dobra.",
+    "Mama powiedziała, że kawa jest dobra"
+   ]
+  },
+  {
+   "prompt_en": "The doctor said that the results were good.",
+   "mode": "full_word",
+   "answer": "Lekarz powiedział, że wyniki są dobre.",
+   "accepts": [
+    "Lekarz powiedział, że wyniki są dobre.",
+    "Lekarz powiedział, że wyniki są dobre"
+   ]
+  },
+  {
+   "prompt_en": "I (a man) said that I was tired.",
+   "mode": "full_word",
+   "answer": "Powiedziałem, że jestem zmęczony.",
+   "accepts": [
+    "Powiedziałem, że jestem zmęczony.",
+    "Powiedziałem, że jestem zmęczony"
+   ]
+  },
+  {
+   "prompt_en": "I (a woman) said that I was tired.",
+   "mode": "full_word",
+   "answer": "Powiedziałam, że jestem zmęczona.",
+   "accepts": [
+    "Powiedziałam, że jestem zmęczona.",
+    "Powiedziałam, że jestem zmęczona"
+   ]
+  },
+  {
+   "prompt_en": "Dad said that Mum would be at home.",
+   "mode": "full_word",
+   "answer": "Tata powiedział, że mama będzie w domu.",
+   "accepts": [
+    "Tata powiedział, że mama będzie w domu.",
+    "Tata powiedział, że mama będzie w domu"
+   ]
+  },
+  {
+   "prompt_en": "My sister said that she had a new car.",
+   "mode": "full_word",
+   "answer": "Siostra powiedziała, że ma nowy samochód.",
+   "accepts": [
+    "Siostra powiedziała, że ma nowy samochód.",
+    "Siostra powiedziała, że ma nowy samochód"
+   ]
+  },
+  {
+   "prompt_en": "Mum said that the weather would be nice.",
+   "mode": "full_word",
+   "answer": "Mama powiedziała, że pogoda będzie ładna.",
+   "accepts": [
+    "Mama powiedziała, że pogoda będzie ładna.",
+    "Mama powiedziała, że pogoda będzie ładna"
+   ]
+  },
+  {
+   "prompt_en": "The doctor said that I had a referral.",
+   "mode": "full_word",
+   "answer": "Lekarz powiedział, że mam skierowanie.",
+   "accepts": [
+    "Lekarz powiedział, że mam skierowanie.",
+    "Lekarz powiedział, że mam skierowanie"
+   ]
+  },
+  {
+   "prompt_en": "My brother said that he was working in an office.",
+   "mode": "full_word",
+   "answer": "Brat powiedział, że pracuje w biurze.",
+   "accepts": [
+    "Brat powiedział, że pracuje w biurze.",
+    "Brat powiedział, że pracuje w biurze"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum kept saying that Dad works in an office.",
+   "answer": "Mama mówiła, że tata pracuje w biurze.",
+   "accepts": [
+    "Mama mówiła, że tata pracuje w biurze.",
+    "Mama mówiła, że tata pracuje w biurze"
+   ],
+   "explain": "mówiła is the one for something said over and over. If she had said it once, it would be powiedziała."
+  },
+  {
+   "prompt_en": "Type: The boss said that I had a new contract.",
+   "answer": "Szef powiedział, że mam nową umowę.",
+   "accepts": [
+    "Szef powiedział, że mam nową umowę.",
+    "Szef powiedział, że mam nową umowę"
+   ],
+   "explain": "English says \"had\", but the contract is still yours and he said mam — so mam is what you keep. umowa is feminine, hence nową umowę after mam."
+  },
+  {
+   "prompt_en": "Type: I want to say that I have a new number.",
+   "answer": "Chcę powiedzieć, że mam nowy numer.",
+   "accepts": [
+    "Chcę powiedzieć, że mam nowy numer.",
+    "Chcę powiedzieć, że mam nowy numer"
+   ],
+   "explain": "chcę takes the plain dictionary verb, so powiedzieć — and że still joins the two halves with a comma."
+  },
+  {
+   "prompt_en": "Type: Dad said that the specialist was good.",
+   "answer": "Tata powiedział, że specjalista jest dobry.",
+   "accepts": [
+    "Tata powiedział, że specjalista jest dobry.",
+    "Tata powiedział, że specjalista jest dobry"
+   ],
+   "explain": "specjalista ends in -a but is masculine, so dobry — and jest stays jest, because that is the word Dad used."
+  },
+  {
+   "prompt_en": "Type: My sister said that the children were in the park.",
+   "answer": "Siostra powiedziała, że dzieci są w parku.",
+   "accepts": [
+    "Siostra powiedziała, że dzieci są w parku.",
+    "Siostra powiedziała, że dzieci są w parku"
+   ],
+   "explain": "She said Dzieci są w parku, so są stays. English shifts it to \"were\" even when they are still there."
+  },
+  {
+   "prompt_en": "Type: The doctor said that the treatment would be good.",
+   "answer": "Lekarz powiedział, że leczenie będzie dobre.",
+   "accepts": [
+    "Lekarz powiedział, że leczenie będzie dobre.",
+    "Lekarz powiedział, że leczenie będzie dobre"
+   ],
+   "explain": "leczenie is neuter, so dobre. The future he spoke in stays the future — będzie, not była."
+  },
+  {
+   "prompt_en": "Type: Mum said that she is going to the shop.",
+   "answer": "Mama powiedziała, że idzie do sklepu.",
+   "accepts": [
+    "Mama powiedziała, że idzie do sklepu.",
+    "Mama powiedziała, że idzie do sklepu"
+   ],
+   "explain": "do always takes the genitive, so do sklepu — reporting it changes nothing inside the second half."
+  },
+  {
+   "prompt_en": "Type: Dad said that he had bought bread.",
+   "answer": "Tata powiedział, że kupił chleb.",
+   "accepts": [
+    "Tata powiedział, że kupił chleb.",
+    "Tata powiedział, że kupił chleb"
+   ],
+   "explain": "He said Kupiłem chleb, so the buying stays in the past exactly as he put it. English adds an extra layer with \"had bought\"; Polish does not."
+  },
+  {
+   "prompt_en": "Type: My brother said that he lives in Poland.",
+   "answer": "Brat powiedział, że mieszka w Polsce.",
+   "accepts": [
+    "Brat powiedział, że mieszka w Polsce.",
+    "Brat powiedział, że mieszka w Polsce"
+   ],
+   "explain": "w takes the locative, so w Polsce — and mieszka is untouched by the reporting."
+  },
+  {
+   "prompt_en": "Type: The boss said that the meeting would be at four.",
+   "answer": "Szef powiedział, że spotkanie będzie o czwartej.",
+   "accepts": [
+    "Szef powiedział, że spotkanie będzie o czwartej.",
+    "Szef powiedział, że spotkanie będzie o czwartej"
+   ],
+   "explain": "Times run on o plus the locative, so o czwartej — and the meeting is still ahead, so będzie stays."
+  }
+ ],
+ "uses_lemmas": [
+  "że",
+  "żeby",
+  "bo",
+  "który",
+  "którą",
+  "mówić",
+  "mówiła",
+  "mówiłam",
+  "chcę",
+  "jest",
+  "są",
+  "jestem",
+  "był",
+  "była",
+  "będzie",
+  "ma",
+  "mam",
+  "mamy",
+  "mają",
+  "miała",
+  "miałem",
+  "pracuje",
+  "mieszka",
+  "idzie",
+  "kupił",
+  "oglądałem",
+  "mama",
+  "tata",
+  "brat",
+  "siostra",
+  "szef",
+  "lekarz",
+  "specjalista",
+  "dzieci",
+  "sklep",
+  "sklepu",
+  "kawa",
+  "chleb",
+  "pogoda",
+  "samochód",
+  "numer",
+  "film",
+  "umowę",
+  "wyniki",
+  "skierowanie",
+  "leczenie",
+  "spotkanie",
+  "domu",
+  "biurze",
+  "parku",
+  "pracy",
+  "polsce",
+  "o czwartej",
+  "dobra",
+  "dobre",
+  "dobry",
+  "ładna",
+  "nowy",
+  "nową",
+  "zamknięty",
+  "zmęczony",
+  "zmęczona",
+  "mam nowy numer"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_reported",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}
