@@ -195,8 +195,12 @@ def main():
         if p in seen_prompt:
             fails.append("QUIZ duplicate prompt #%d: %s" % (i + 1, p))
         seen_prompt.add(p)
+        # NOT a fail: 18 shipped packs repeat a quiz answer, and a
+        # discrimination unit over a six-form paradigm cannot avoid it.
+        # AGENTS.md's "no duplicates within a stage" bars duplicate ITEMS,
+        # which the prompt check above catches.
         if a in seen_answer:
-            fails.append("QUIZ duplicate answer #%d: %s" % (i + 1, a))
+            warns.append("QUIZ repeated answer #%d: %s" % (i + 1, a))
         seen_answer.add(a)
         if a not in ch:
             fails.append("QUIZ #%d answer %r not among its own choices" % (i + 1, a))

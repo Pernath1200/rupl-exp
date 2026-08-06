@@ -117,6 +117,7 @@ STRUCTURE_CATALOGUE = {
     "inst_pl",
     "dat_pl",
     "gen_pl_full",
+    "num_subject",
 }
 
 GLUE_LEMMAS = {

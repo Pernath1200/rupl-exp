@@ -1,0 +1,553 @@
+{
+  "id": "b2_num_subject",
+  "title": "Pięć osób było · liczebnik i czasownik",
+  "title_en": "Five of something · what the verb does",
+  "level": "B2",
+  "tree_node": "b2_num_subject",
+  "default_direction": "en_to_pl",
+  "kind": "agreement",
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 5, unit 5 of 7 (spine O8). ONE FACT, ONE UNIT: when a counted phrase is the SUBJECT of a verb, 5-and-up takes a NEUTER SINGULAR verb (Piec osob bylo) while 2-4 takes an ordinary plural (Dwie osoby byly).\n\nTHIS IS a2_numbers_gen's OWN DEFERRAL, IN ITS OWN WORDS, AND IT WAS NEVER BUILT: '5+ phrases never stand as the subject of a verb in this pack, because that would need the neuter-singular agreement rule (B1)'. Spine O8 also records that the routine brief's claim that 'piec piw Gen-pl' is still deferred is out of date - a2_numbers_gen teaches it, and piec piw is one of its own frames. This unit and b2_num_virile are what actually remained.\n\nONLY TWO NEW LEMMAS, osoby and osob, and that is the point. The unit's content is a STRUCTURE, not vocabulary: every verb form it drills (bylo, byly, jest, sa, bedzie, beda) has been owned since A2, and every counted noun on the board is recycled. osoba was already owned (leaf_ideas_a1); its two plural forms are new and are taught here because 'five people were in the shop' is the spine's own headline frame and the most natural thing anyone counts. osob is a vowel-shift genitive plural - exactly the family taught one node earlier at b2_gen_pl_full - and slide 2 points at that on purpose, so the new form arrives as a fifth member of a family the learner has just met rather than as an isolated oddity.\n\nTHE BOARD IS SIX MINIMAL PAIRS IN THE PAST TENSE, twelve rows, half plural verb and half neuter singular. The past is chosen for the board because bylo / byly is where the contrast is loudest; the present and future carry the SAME rule and appear on slide 2 and in four quiz items, so the fact is never left looking like a past-tense quirk. That split is a judgment call: putting all three tenses on the board would have meant thirty-six rows or a thinner contrast, and the load-splitting rule says the board shows one thing clearly.\n\nADJECTIVES ARE FENCED ABSOLUTELY, and this is load-bearing rather than tidy. 'Piec okien bylo nowych' needs a GENITIVE PLURAL adjective, which spine O3 hands to C1, so a single adjective anywhere in this pack would have either taught an untaught form or printed a wrong one. Every subject in the unit is a bare counted noun. Plural adjectives are absent for the fourth consecutive unit, as in loc_pl, inst_pl and dat_pl.\n\nDUZO IS THE SAME FACT, NOT A SECOND ONE, and is included for that reason: it has pulled the many-form of the noun since a1_gen_endings, and it pulls the singular verb for the identical reason. Slide 3 says so in one line. Teens are named in one line too and cost nothing - a2_numbers_gen already caught and taught that 11-19 behave as 5+.\n\nQUIZ ANSWERS COVER ALL SIX VERB FORMS PLUS BOTH NEW NOUN FORMS, and four of the ten answers are the ORDINARY plural or the ordinary subject form rather than this lesson's odd one, which is the standing loc_pl / dat_pl guard against a unit that teaches button-picking. Items 9 and 10 flip the blank onto the noun instead of the verb, so the learner has to hold both halves of the pattern rather than only its tail.\n\nWORD ORDER IS SUBJECT-FIRST THROUGHOUT. 'W domu bylo piec okien' is more natural Polish than the subject-first version and would have shown that the rule survives inversion, but inversion is a second fact and this unit has one. Held and logged.\n\nFENCED, all verified NEW: wiele and wielu - wiele is the natural partner of duzo here and was dropped because duzo already does the job and wielu belongs to b2_num_virile; osobie, osobami, osobom; every virile numeral (pieciu, dwoch) and every people-counting phrase built with one, which is b2_num_virile on the very next node - the people in this pack are counted with plain piec and dwie because osoba is grammatically feminine and takes the ordinary numerals, and slide 4 does not hint that men will behave differently. piwa is fenced as a plural: a1_gen_endings owns it as the GENITIVE SINGULAR in duzo piwa, so counting beers would have printed a homograph.",
+  "focus_structures": [
+    "num_subject"
+  ],
+  "teaches_structures": [
+    "num_subject"
+  ],
+  "teaches_lemmas": [
+    "osoby",
+    "osób"
+  ],
+  "uses_structures": [
+    "numbers_gen",
+    "gen_pl",
+    "gen_pl_full",
+    "gen_endings",
+    "plural_nom",
+    "past_byc",
+    "past_plural",
+    "bedzie",
+    "byc_present",
+    "prep_w_loc",
+    "prep_place",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "Five of something makes the verb go odd",
+      "title_pl": "dwa koty były · pięć kotów było",
+      "body": "You have counted things since A2: two, three and four take the plain subject form of the noun, and five and upwards take the many-form — dwa koty, but pięć kotów. That much is old. Here is the part that was held back. When the counted phrase is the one doing something — when it is the subject of a verb — five and upwards also changes the verb. It stops being plural and goes into the -o form, the one you know from było.",
+      "body_pl": "5+ → czasownik w liczbie pojedynczej",
+      "table": {
+        "headers": [
+          "Subject",
+          "Verb",
+          ""
+        ],
+        "rows": [
+          [
+            "dwa koty",
+            "były",
+            "two, three, four — everything ordinary"
+          ],
+          [
+            "pięć kotów",
+            "było",
+            "five and up — the odd one"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "It is not a past-tense quirk — it happens in every tense",
+      "title_pl": "było · jest · będzie",
+      "body": "The same split runs through all three tenses, and every one of these verb forms is already yours. The way to think about it: a group of five or more is being treated as one lump rather than as five separate things, and Polish gives a lump the singular verb. Notice also that osób is last lesson's o-turns-into-ó family — osoba loses its -a and the o lifts, exactly like szkoła and góra did.",
+      "body_pl": "dwie osoby były · pięć osób było",
+      "table": {
+        "headers": [
+          "",
+          "two, three, four",
+          "five and up"
+        ],
+        "rows": [
+          [
+            "past",
+            "dwie osoby były",
+            "pięć osób było"
+          ],
+          [
+            "now",
+            "dwie osoby są",
+            "pięć osób jest"
+          ],
+          [
+            "later",
+            "dwie osoby będą",
+            "pięć osób będzie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "dużo does exactly the same thing",
+      "title_pl": "dużo osób było",
+      "body": "This is not a new rule to learn, it is the same one. dużo has pulled the many-form of the noun since you first said dużo kawy, and it pulls the singular verb for the identical reason — it describes a lump, not a countable set. So dużo behaves like pięć and not like dwa.",
+      "body_pl": "dużo + dopełniacz + czasownik pojedynczy",
+      "table": {
+        "headers": [
+          "Subject",
+          "Verb"
+        ],
+        "rows": [
+          [
+            "dużo osób",
+            "było"
+          ],
+          [
+            "dużo gazet",
+            "jest"
+          ],
+          [
+            "dużo sklepów",
+            "będzie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which numbers do it",
+      "title_pl": "2, 3, 4 · 5 i więcej",
+      "body": "Only three numbers are the ordinary ones. Everything from five upwards behaves the same way, and so do the teens — you already met that when you learned to say your age, where jedenaście took the many-form just as pięć does. If you can remember that two, three and four are the exceptions, the rest looks after itself.",
+      "body_pl": "2, 3, 4 → liczba mnoga · 5, 6, 7… → -o",
+      "table": {
+        "headers": [
+          "Number",
+          "Noun",
+          "Verb"
+        ],
+        "rows": [
+          [
+            "dwa · trzy · cztery",
+            "subject form",
+            "plural"
+          ],
+          [
+            "pięć · sześć · dziesięć",
+            "many-form",
+            "singular -o"
+          ],
+          [
+            "jedenaście · dwanaście",
+            "many-form",
+            "singular -o"
+          ],
+          [
+            "dużo",
+            "many-form",
+            "singular -o"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "two people were",
+      "pl": "dwie osoby były"
+    },
+    {
+      "en": "five people were",
+      "pl": "pięć osób było"
+    },
+    {
+      "en": "two cats were",
+      "pl": "dwa koty były"
+    },
+    {
+      "en": "five cats were",
+      "pl": "pięć kotów było"
+    },
+    {
+      "en": "three shops were",
+      "pl": "trzy sklepy były"
+    },
+    {
+      "en": "six shops were",
+      "pl": "sześć sklepów było"
+    },
+    {
+      "en": "three newspapers were",
+      "pl": "trzy gazety były"
+    },
+    {
+      "en": "five newspapers were",
+      "pl": "pięć gazet było"
+    },
+    {
+      "en": "four windows were",
+      "pl": "cztery okna były"
+    },
+    {
+      "en": "five windows were",
+      "pl": "pięć okien było"
+    },
+    {
+      "en": "three daughters were",
+      "pl": "trzy córki były"
+    },
+    {
+      "en": "six daughters were",
+      "pl": "sześć córek było"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Pięć osób ___ w sklepie. (were)",
+      "choices": [
+        "było",
+        "były",
+        "jest",
+        "są"
+      ],
+      "answer": "było",
+      "explain": "Five and up hands the verb the -o form. były would be right after dwie osoby, and it is what English pushes you towards, because English says were either way."
+    },
+    {
+      "prompt": "Dwie osoby ___ w sklepie. (were)",
+      "choices": [
+        "były",
+        "było",
+        "była",
+        "był"
+      ],
+      "answer": "były",
+      "explain": "Two, three and four leave everything alone — the plain subject form of the noun and an ordinary plural verb. Nothing odd happens until five."
+    },
+    {
+      "prompt": "Sześć sklepów ___ w centrum. (are)",
+      "choices": [
+        "jest",
+        "są",
+        "było",
+        "będzie"
+      ],
+      "answer": "jest",
+      "explain": "The rule has nothing to do with the past. Six is five-or-more, so the verb goes singular in the present too."
+    },
+    {
+      "prompt": "Trzy koty ___ w domu. (were)",
+      "choices": [
+        "były",
+        "było",
+        "są",
+        "będą"
+      ],
+      "answer": "były",
+      "explain": "Three is one of the ordinary numbers. koty is the subject form and the verb is a plain plural — this is the sentence you could already write."
+    },
+    {
+      "prompt": "Dużo osób ___ w hotelu. (were)",
+      "choices": [
+        "było",
+        "były",
+        "jest",
+        "będzie"
+      ],
+      "answer": "było",
+      "explain": "dużo has pulled the many-form of the noun since dużo kawy, and it pulls the singular verb for the same reason. It sides with pięć, not with dwie."
+    },
+    {
+      "prompt": "Cztery gazety ___ na stole. (are)",
+      "choices": [
+        "są",
+        "jest",
+        "było",
+        "będą"
+      ],
+      "answer": "są",
+      "explain": "Four is still ordinary. gazety is the subject form and the verb agrees with it normally."
+    },
+    {
+      "prompt": "Dziesięć osób ___ w parku. (will be)",
+      "choices": [
+        "będzie",
+        "będą",
+        "było",
+        "są"
+      ],
+      "answer": "będzie",
+      "explain": "Ten is five-or-more, so the future goes singular as well. będą is the form you would need after dwie osoby."
+    },
+    {
+      "prompt": "Trzy córki ___ w szkole. (will be)",
+      "choices": [
+        "będą",
+        "będzie",
+        "były",
+        "było"
+      ],
+      "answer": "będą",
+      "explain": "Three daughters, three of the ordinary numbers, ordinary plural future. Six would have made it będzie."
+    },
+    {
+      "prompt": "Pięć ___ było w sklepie. (people)",
+      "choices": [
+        "osób",
+        "osoby",
+        "osoba",
+        "córek"
+      ],
+      "answer": "osób",
+      "explain": "Five pulls the many-form of the noun, exactly as it did with dwa dolary and pięć dolarów. osoby is what dwie would want, and córek is the right shape on the wrong word."
+    },
+    {
+      "prompt": "Dwie ___ były w sklepie. (people)",
+      "choices": [
+        "osoby",
+        "osób",
+        "osoba",
+        "córki"
+      ],
+      "answer": "osoby",
+      "explain": "Both halves stay ordinary after two — the subject form of the noun and a plural verb. osoba is one person."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "two people were",
+      "mode": "phrase",
+      "answer": "dwie osoby były",
+      "accepts": [
+        "dwie osoby były"
+      ]
+    },
+    {
+      "prompt_en": "five people were",
+      "mode": "phrase",
+      "answer": "pięć osób było",
+      "accepts": [
+        "pięć osób było"
+      ]
+    },
+    {
+      "prompt_en": "two cats were",
+      "mode": "phrase",
+      "answer": "dwa koty były",
+      "accepts": [
+        "dwa koty były"
+      ]
+    },
+    {
+      "prompt_en": "five cats were",
+      "mode": "phrase",
+      "answer": "pięć kotów było",
+      "accepts": [
+        "pięć kotów było"
+      ]
+    },
+    {
+      "prompt_en": "three shops were",
+      "mode": "phrase",
+      "answer": "trzy sklepy były",
+      "accepts": [
+        "trzy sklepy były"
+      ]
+    },
+    {
+      "prompt_en": "six shops were",
+      "mode": "phrase",
+      "answer": "sześć sklepów było",
+      "accepts": [
+        "sześć sklepów było"
+      ]
+    },
+    {
+      "prompt_en": "three newspapers were",
+      "mode": "phrase",
+      "answer": "trzy gazety były",
+      "accepts": [
+        "trzy gazety były"
+      ]
+    },
+    {
+      "prompt_en": "five newspapers were",
+      "mode": "phrase",
+      "answer": "pięć gazet było",
+      "accepts": [
+        "pięć gazet było"
+      ]
+    },
+    {
+      "prompt_en": "four windows were",
+      "mode": "phrase",
+      "answer": "cztery okna były",
+      "accepts": [
+        "cztery okna były"
+      ]
+    },
+    {
+      "prompt_en": "five windows were",
+      "mode": "phrase",
+      "answer": "pięć okien było",
+      "accepts": [
+        "pięć okien było"
+      ]
+    },
+    {
+      "prompt_en": "three daughters were",
+      "mode": "phrase",
+      "answer": "trzy córki były",
+      "accepts": [
+        "trzy córki były"
+      ]
+    },
+    {
+      "prompt_en": "six daughters were",
+      "mode": "phrase",
+      "answer": "sześć córek było",
+      "accepts": [
+        "sześć córek było"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Five people were in the shop.",
+      "answer": "Pięć osób było w sklepie.",
+      "accepts": [
+        "Pięć osób było w sklepie.",
+        "Pięć osób było w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two people were in the shop.",
+      "answer": "Dwie osoby były w sklepie.",
+      "accepts": [
+        "Dwie osoby były w sklepie.",
+        "Dwie osoby były w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: A lot of people were at the hotel.",
+      "answer": "Dużo osób było w hotelu.",
+      "accepts": [
+        "Dużo osób było w hotelu.",
+        "Dużo osób było w hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three cats were at home, and five cats were in the park.",
+      "answer": "Trzy koty były w domu, a pięć kotów było w parku.",
+      "accepts": [
+        "Trzy koty były w domu, a pięć kotów było w parku.",
+        "Trzy koty były w domu, a pięć kotów było w parku"
+      ],
+      "explain": "The whole lesson in one sentence. Same animal, same place, same tense — only the number changed, and it changed both the noun and the verb."
+    },
+    {
+      "prompt_en": "Type: Six shops are in the centre.",
+      "answer": "Sześć sklepów jest w centrum.",
+      "accepts": [
+        "Sześć sklepów jest w centrum.",
+        "Sześć sklepów jest w centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: Four newspapers are on the table.",
+      "answer": "Cztery gazety są na stole.",
+      "accepts": [
+        "Cztery gazety są na stole.",
+        "Cztery gazety są na stole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Ten people will be in the park.",
+      "answer": "Dziesięć osób będzie w parku.",
+      "accepts": [
+        "Dziesięć osób będzie w parku.",
+        "Dziesięć osób będzie w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three daughters will be at school.",
+      "answer": "Trzy córki będą w szkole.",
+      "accepts": [
+        "Trzy córki będą w szkole.",
+        "Trzy córki będą w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Five windows were in the office.",
+      "answer": "Pięć okien było w biurze.",
+      "accepts": [
+        "Pięć okien było w biurze.",
+        "Pięć okien było w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: A lot of people are in the city.",
+      "answer": "Dużo osób jest w mieście.",
+      "accepts": [
+        "Dużo osób jest w mieście.",
+        "Dużo osób jest w mieście"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "osoba",
+    "koty",
+    "kotów",
+    "sklepy",
+    "sklepów",
+    "gazety",
+    "gazet",
+    "okna",
+    "okien",
+    "córki",
+    "córek",
+    "dolary",
+    "dolarów",
+    "szkoła",
+    "góra",
+    "kawy",
+    "dwa",
+    "dwie",
+    "trzy",
+    "cztery",
+    "pięć",
+    "sześć",
+    "dziesięć",
+    "jedenaście",
+    "dwanaście",
+    "dużo",
+    "było",
+    "były",
+    "była",
+    "był",
+    "jest",
+    "są",
+    "będzie",
+    "będą",
+    "w sklepie",
+    "w centrum",
+    "w domu",
+    "w hotelu",
+    "w parku",
+    "w szkole",
+    "w biurze",
+    "w mieście",
+    "na stole",
+    "a"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_num_subject",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

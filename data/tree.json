@@ -3332,17 +3332,18 @@
       "id": "b2_num_subject",
       "domain": "grammar",
       "label": "Pięć osób było",
-      "label_en": "Numbers as subject",
+      "label_en": "Counted subjects · what the verb does",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 5, unit 5. A 5+ numeral phrase as grammatical SUBJECT takes a neuter-singular verb (Piec osob bylo w sklepie). This is a2_numbers_gen's own deferral, in its own words: '5+ phrases never stand as the subject of a verb in this pack, because that would need the neuter-singular agreement rule (B1)' - never built. NOTE (spine O8): the routine brief's claim that 'piec piw Gen-pl' is still deferred is out of date - a2_numbers_gen teaches it and piec piw is one of its own frames. This unit and b2_num_virile are what actually remained.",
+      "note": "B2 Block 5, unit 5 of 7 (spine O8). ONE FACT: a counted phrase as the SUBJECT of a verb takes a NEUTER SINGULAR verb from five upwards (Piec osob bylo) and an ordinary plural at 2-4 (Dwie osoby byly). This is a2_numbers_gen's own deferral in its own words, never built. Only TWO new lemmas, osoby and osob - the content is a structure, so every verb form drilled is owned from A2 and every counted noun is recycled. osob is a vowel-shift genitive plural, the family taught one node earlier, and slide 2 says so. Board is six minimal pairs in the past, where the contrast is loudest; present and future carry the same rule on slide 2 and in four quiz items. ADJECTIVES ARE FENCED ABSOLUTELY and that is load-bearing: piec okien bylo nowych needs a GENITIVE PLURAL adjective, which spine O3 hands to C1. duzo is the same fact, not a second one. Word order is subject-first throughout; inversion is a second fact and was held. Fenced: wiele/wielu, all virile numerals (next node), and piwa as a plural (owned as the genitive singular in duzo piwa).",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_num_subject.json"
     },
     {
       "id": "b2_num_virile",
