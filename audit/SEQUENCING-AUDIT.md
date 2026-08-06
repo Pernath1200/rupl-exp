@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 144 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 145 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -161,4 +161,5 @@ _None._
 | 148 | `b2_indirect_q` | `indirect_q` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `dative_sg`, `existential_jest`, `indirect_q`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `miec_acc`, `miec_present`, `past_ac`, `plural_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `question`, `question_cases`, `questions2`, `reported`, `situation_chunk`, `smalltalk_chunk`, `to_jest`, `ze_clauses`, `zeby`, `zgoda` |
 | 149 | `b2_ktory_full` | `ktory_full` | 1 | `adj_gen`, `adj_inst`, `adj_loc`, `byc_present`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `ktory_full`, `miec_acc`, `miec_present`, `o_loc`, `ordinals_time`, `past_ac`, `past_rest`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_prep`, `question_cases`, `questions2`, `to_jest`, `zgoda` |
 | 150 | `b2_abstract` | — | 15 | `adj_acc`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `miec_acc`, `miec_present`, `past_byc`, `plural_nom`, `present`, `present_am`, `present_e_isz`, `reported`, `superlative`, `ten_ta_to`, `to_jest`, `ze_clauses`, `zgoda` |
+| 151 | `b2_jesli` | `jesli` | 1 | `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `existential_jest`, `gen_endings`, `imperative`, `imperative_rule`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `perf_future`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `questions2`, `to_jest`, `ze_clauses`, `zeby`, `zgoda` |
 

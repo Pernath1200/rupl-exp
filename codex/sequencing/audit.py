@@ -111,6 +111,7 @@ STRUCTURE_CATALOGUE = {
     "reported",
     "indirect_q",
     "ktory_full",
+    "jesli",
 }
 
 GLUE_LEMMAS = {
