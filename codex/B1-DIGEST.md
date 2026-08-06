@@ -204,3 +204,131 @@ which is what caught it here.
   inside the taught production rule — if it feels thin standing alone,
   that's the intended trade-off (breadth was sacrificed for zero new
   grammar risk), not an oversight.
+
+## Batch 6 — Conditional plural (closes block 4) + Dative opens (block 5, 2 of 3)
+
+Built `b1_conditional_pl`, `b1_dative_sg`, `b1_dative_pron` — three units, each
+audit-clean (0 errors; same 2 pre-existing warns from `a2_prep_review` /
+`b1_two_futures`, unrelated), pushed to `origin/b1-build` one at a time, not
+batched. `b1_station_1` was deliberately skipped and left `planned` — every
+station on the whole path (A2's four, B1's two) is a permanent placeholder,
+"engine future work," never authored; confirmed this by checking every
+`*_station_*` node in `tree.json` before treating it as in-scope. Path is now
+live through `b1_dative_pron`; next unbuilt B1 node is `b1_giving` (VOCAB).
+
+### `b1_conditional_pl` (closes block 4 — plural conditional)
+
+my/wy/oni/one + by, riding the plural L-forms and byśmy/byście endings
+already owned. New structure `conditional_pl`. chcieć gets the full 6-slot
+paradigm (the payoff — chcielibyśmy, "we would like"); kupić and zrobić get
+partial spreads (4 forms each). 20 teaches_lemmas: the 14 -by- forms plus 6
+bare plural-past stems (chcieli/chciały, kupili/kupiły, zrobili/zrobiły)
+that turned out to be genuinely new too — caught only because I ran
+check_new.py on every string the intro *displays*, not just the ones I'd
+already decided were "the point" of the unit.
+
+**One real flag for James:** chcieć's virile plural stem is chcie- (chcieli)
+against its non-virile/singular chcia- (chciały/chciał/chciała) — a genuine
+vowel alternation, not a typo. I did not explain it as a rule; I handed the
+plural forms over as memorized whole forms, the same conservative treatment
+`b1_conditional_sg` already gave chciał/chciała itself (the catalogue's own
+note already flagged that shift as "deliberately unexplained until B1" — I
+read that as license to keep deferring, not an instruction that this unit
+specifically had to be the one to explain it). If that reasoning is wrong,
+it's an easy fix — nothing downstream depends on the vowel shift itself.
+
+**Self-verification caught two real leaks before shipping**, both the kind
+the audit's string-matching can't see:
+- An early draft of the grounding example used `zmęczeni`/`zmęczone`
+  ("tired," virile/non-virile) — the *exact* trap `b1_virile_gym`'s own
+  digest entry flagged one batch ago, and I nearly repeated it verbatim.
+  `check_new.py` caught both as NEW; replaced with taught material
+  (`byliśmy w pracy` / `byłyśmy w domu`).
+- Two quiz distractors (`zrobilibyśmy`, `zrobiliście`) were invented rather
+  than pool-legal — AGENTS.md's "distractors all pool-legal" convention
+  from `b1_conditional_sg` — replaced with taught forms.
+
+### `b1_dative_sg` (opens block 5 — noun datives, singular)
+
+The case behind the A2 `dat_chunks` pronouns. New structure `dative_sg`.
+`pomagać` (present_am, full 6-form — genuinely regular, so the only new
+thing is its object's case) and `dziękować` (present_uje, partial spread —
+`dziękuję` was a fixed social chunk since `trunk_social_a1` and is analysed
+as a real verb for the first time here) govern dative objects.
+
+**Two design forks logged loudly, both in the pack note and `SEQUENCING.md`:**
+1. Spine names three verbs (pomagać/dawać/dziękować); I shipped two. `dawać`
+   conjugates as an irregular `-awać` class (daję/dajesz…) not covered by
+   any present class already taught — stacking a new verb-conjugation
+   class on top of a brand-new case in one unit would be two systems at
+   once. Deferred to `b1_giving`, flagged loudly for whoever builds it —
+   **do not assume dawać is already covered.**
+2. The dative-*noun* side does not teach one general rule. Regular
+   masculine `-owi` (studentowi, nauczycielowi) is real and generalisable.
+   The spine's own headline examples — mamie/tacie/bratu/siostrze — are
+   NOT that rule: three different feminine consonant-softening classes
+   (m→mi, t→ci, r→rz) plus brat's own irregular -u would be the do/z cliff
+   again if derived honestly in one unit. Handed over as four memorized
+   whole forms instead, same treatment as `kelnerzy`/`mógłby`. **The
+   general feminine dative/locative rule stays untaught — it is not on
+   the current B1-SPINE as its own slot. James should decide whether it
+   needs one**; I did not invent a slot for it.
+
+**Self-verification caught one real leak:** the bare infinitives
+`pomagać`/`dziękować` were being used in intro exposition without being
+tagged. `check_new.py` confirmed both genuinely new (never taught before in
+this course, despite `pomagać`/`dziękować` "feeling" like they should
+already be common vocabulary) — moved from `uses_lemmas` into
+`teaches_lemmas`.
+
+### `b1_dative_pron` (closes block 5's pronoun side)
+
+Completes the dative pronoun grid A2 fenced to mi/mnie only: ci, mu, jej,
+nam, wam, im. New structure `dative_pron`. Generalises onto `podobać się`
+(full paradigm — the real payoff) and `smakować` (partial). **Deliberately
+excluded `boleć`** even though it sits in the same A2 chunk family: `boleć`
+governs the accusative in every person (boli mnie/cię/go), a pronoun set
+this course has never taught, and generalising today's new dative pronouns
+onto it would have been a real grammar error, not a simplification —
+caught before a single `boleć` example got written, by re-reading
+`a2_dat_chunks`'s own note, which had already flagged `boli mnie` as
+accusative and left it unexplained on purpose.
+
+**Homograph, predicted in advance and confirmed on schedule:**
+`b1_virile_reco`'s own digest entry (batch 4) warned that whoever built
+this unit would find `check_new.py ci` reporting TAUGHT (citing the virile
+demonstrative) and must not read that as "already available, recycle it."
+Confirmed exactly that. Re-taught `ci` explicitly as the unrelated 2sg
+dative clitic, with a dedicated intro slide naming both meanings side by
+side and a real contrastive sentence (`Ci nauczyciele pomagają
+studentowi.`) placed in quiz *and* use — deliberately not a meta
+"which meaning" question, since the Kontrola stage contract forbids
+meta-questions about the language.
+
+**Self-verification caught one leak:** an intro gloss used `tobie`
+(emphatic "to you") to explain `ci`'s meaning parenthetically —
+`check_new.py` showed it was never taught. Replaced with `ci = ty,
+celownik`, using only the glue pronoun `ty` and the case-name metalanguage
+AGENTS.md already permits in `body_pl`.
+
+Deliberately light — only 6 teaches_lemmas, matching `b1_virile_past`'s
+"payload is wiring, not vocabulary" precedent.
+
+### For James's next smoke pass
+
+- `b1_conditional_pl`'s `chcieli`/`chciały` vowel-shift call (memorized,
+  unexplained) is the one judgment call in this batch most worth a second
+  opinion — everything else is either a straight rule extension or an
+  explicitly logged, conservative scope cut.
+- `b1_dative_sg`'s family datives (mamie/tacie/bratu/siostrze) are taught
+  as pure memorization, not a rule — worth clicking through to see whether
+  that reads as arbitrary to an absolute beginner or lands fine as "just
+  four words to learn," the same way `dobrzy`/`mógłby` already do.
+- `b1_dative_pron`'s ci/ci homograph slide is the one I'd most want
+  watched live — the disambiguation is designed to work through context
+  rather than a drilled contrast, and that's a real bet about how this
+  particular learner reads two identically-spelled words apart.
+- Two verbs are now on record as deferred to `b1_giving`: `dawać` (from
+  `b1_dative_sg`) and whatever `b1_giving`'s own vocab brief already
+  planned (pożyczać, oddawać, prosić o). Whoever builds it next should
+  treat `dawać` as required, not optional.
