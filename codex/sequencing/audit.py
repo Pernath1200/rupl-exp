@@ -101,6 +101,7 @@ STRUCTURE_CATALOGUE = {
     "fem_dat_loc",
     "adj_acc",
     "adj_gen",
+    "adj_loc",
 }
 
 GLUE_LEMMAS = {

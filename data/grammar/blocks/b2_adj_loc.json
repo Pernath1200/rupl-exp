@@ -1,0 +1,613 @@
+{
+ "id": "b2_adj_loc",
+ "title": "W nowej pracy · miejscownik",
+ "title_en": "Adjectives in the Locative · -ym, and -ej again",
+ "level": "B2",
+ "tree_node": "b2_adj_loc",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 2, unit 4 of 6 (spine O2). ONE new ending: -ym for masculine and neuter. The feminine -ej is the form b2_adj_gen taught one unit ago, unchanged.\n\nFOUR NEW FORMS IN THE WHOLE UNIT: dobrym, nowym, małym, zimnym (all verified NEW with check_new.py). The same four adjectives as b2_adj_gen — dobry, nowy, mały, zimny — deliberately, so the block reads as one paradigm widening rather than a growing word list. dobrej, nowej, małej, zimnej all report TAUGHT <- b2_adj_gen [path 135] and are recycled, never re-taught.\n\nTHE UNIT'S CENTRAL CONTRAST, and the reason it can be this small: the Genitive and the Locative disagree about which word moves, and they disagree in opposite directions depending on gender.\n- Feminine: the ADJECTIVE is the same in both cases and the NOUN is not — do dobrej szkoły vs w dobrej szkole.\n- Masculine like dom: the NOUN is the same in both cases (domu is Genitive and Locative alike) and only the ADJECTIVE marks the difference — do nowego domu vs w nowym domu.\nThat minimal pair is slide 4 and it is what the Kontrola stage is built on. It is also why this unit sits immediately after b2_adj_gen and not anywhere else.\n\nNO NEW GOVERNORS. All three Locative triggers are already owned and were checked as whole chunks, not assumed: w and na (a1_prep_place, a1_prep_review_1/2, a2_house) and o (a2_o_loc, which supplies o domu / o sklepie / o pracy / o banku wholesale). The only change is that the adjective now comes along.\n\nA SPINE EXAMPLE HAD TO BE REJECTED. B2-SPINE's own illustration for this unit was 'Myślę o dobrym filmie.' — but check_new.py reports filmie as NEW (the course owns film, filmy, filmów and has never inflected it). wodzie, mleku, samochodzie and restauracji are NEW for the same reason, which rules out the other obvious Locative phrases. The unit runs on attested Locative noun forms only: domu, sklepie, biurze, hotelu, salonie, banku, mieście, mieszkaniu, biurku, pracy, szkole, firmie, kuchni.\n\nFENCED:\n- -emu appears nowhere, not in a slide and not as a distractor. b2_adj_dat owns it, two units away.\n- No plural oblique adjectives (dobrych, dobrymi) — spine O3 sends those to C1.\n- nowe and duże are used nowhere at all, including as distractors, despite both reporting TAUGHT: a2_plural_nom taught them as PLURALS, and the neuter singular slots take dobre and małe instead. This is b2_adj_acc's standing line and b2_work held it too.\n- zimne and stare are NEW and appear nowhere.\n\nDISTRACTORS are real taught Polish in the wrong slot, never fabricated. The oblique distractors are the Genitive forms taught last unit (nowego, małego, dobrego, zimnego) and the Accusatives from two units back (nową, małą, dobrą, zimną), which makes every wrong choice a genuine near-miss rather than noise. The two full-sentence items use wrong combinations of real forms so each explain can name which half failed to move.\n\nQUIZ ANSWERS ARE ALL DISTINCT — eight single forms plus one Genitive-vs-Locative discrimination item and one full sentence.",
+ "focus_structures": [
+  "adj_loc"
+ ],
+ "teaches_structures": [
+  "adj_loc"
+ ],
+ "teaches_lemmas": [
+  "dobrym",
+  "nowym",
+  "małym",
+  "zimnym"
+ ],
+ "uses_structures": [
+  "adj_loc",
+  "adj_gen",
+  "adj_acc",
+  "prep_w_loc",
+  "prep_place",
+  "o_loc",
+  "prep_do_gen",
+  "negation",
+  "miec_present",
+  "byc_present",
+  "existential_jest",
+  "present",
+  "present_uje",
+  "present_e_isz",
+  "motion_chunk",
+  "poss_nom",
+  "conjunctions",
+  "past_byc",
+  "past_plural",
+  "virile_past",
+  "zgoda"
+ ],
+ "intro": [
+  {
+   "title": "One new ending: -ym, for masculine and neuter",
+   "title_pl": "nowy → nowym",
+   "body": "You have been saying w domu, w sklepie, o pracy since your very first lessons — the noun's form for talking about where something is, or what you are talking about. What you have never had is the adjective in front of it. For masculine and neuter words it is one ending, -ym, and there are no exceptions among the words you own.",
+   "body_pl": "-ym (m. i n.) · miejscownik",
+   "table": {
+    "headers": [
+     "Gender",
+     "Plain form",
+     "This form",
+     "In a phrase"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "nowy",
+      "nowym",
+      "w nowym sklepie"
+     ],
+     [
+      "masculine",
+      "dobry",
+      "dobrym",
+      "w dobrym hotelu"
+     ],
+     [
+      "masculine",
+      "zimny",
+      "zimnym",
+      "w zimnym salonie"
+     ],
+     [
+      "neuter",
+      "małe",
+      "małym",
+      "w małym mieście"
+     ],
+     [
+      "neuter",
+      "dobre",
+      "dobrym",
+      "w dobrym mieszkaniu"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The feminine form has not changed at all",
+   "title_pl": "dobrej · nowej · małej · zimnej",
+   "body": "Last lesson you learned -ej for feminine words. That is also the form here — the same four words, doing a different job. So the feminine half of this lesson is nothing new to memorise. Notice what that means: the noun moves between the two cases and the adjective does not. do dobrej szkoły, but w dobrej szkole — szkoły became szkole, and dobrej just stayed where it was.",
+   "body_pl": "-ej (ż.) — bez zmian",
+   "table": {
+    "headers": [
+     "Plain form",
+     "This form",
+     "In a phrase"
+    ],
+    "rows": [
+     [
+      "dobra",
+      "dobrej",
+      "w dobrej firmie"
+     ],
+     [
+      "nowa",
+      "nowej",
+      "w nowej pracy"
+     ],
+     [
+      "mała",
+      "małej",
+      "w małej szkole"
+     ],
+     [
+      "zimna",
+      "zimnej",
+      "w zimnej kuchni"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Where it turns up — three words you already use",
+   "title_pl": "w… · na… · o…",
+   "body": "There is nothing new to learn about when to use this form. Three little words you have had for a long time already pull the noun into it; from now on they pull the adjective too.",
+   "body_pl": "w nowym domu · na nowym biurku · o nowej pracy",
+   "table": {
+    "headers": [
+     "Trigger",
+     "What you already said",
+     "With an adjective"
+    ],
+    "rows": [
+     [
+      "w",
+      "w domu",
+      "w nowym domu"
+     ],
+     [
+      "na",
+      "na biurku",
+      "na nowym biurku"
+     ],
+     [
+      "o",
+      "o pracy",
+      "o nowej pracy"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The one place to look twice",
+   "title_pl": "do nowego domu · w nowym domu",
+   "body": "These two cases can look almost identical, and which word gives the game away depends on the gender. With dom the noun is domu either way — so the adjective is the only thing telling you which one you meant. With a feminine word it is the other way round: the adjective is dobrej either way, and the noun tells you.",
+   "body_pl": "-ego → -ym · szkoły → szkole",
+   "table": {
+    "headers": [
+     "After do (last lesson)",
+     "After w (this lesson)",
+     "Which word moved"
+    ],
+    "rows": [
+     [
+      "do nowego domu",
+      "w nowym domu",
+      "the adjective only"
+     ],
+     [
+      "do dobrej szkoły",
+      "w dobrej szkole",
+      "the noun only"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "in the new house",
+   "pl": "w nowym domu"
+  },
+  {
+   "en": "in the new shop",
+   "pl": "w nowym sklepie"
+  },
+  {
+   "en": "in the small city",
+   "pl": "w małym mieście"
+  },
+  {
+   "en": "in the small flat",
+   "pl": "w małym mieszkaniu"
+  },
+  {
+   "en": "in the good hotel",
+   "pl": "w dobrym hotelu"
+  },
+  {
+   "en": "in the cold living room",
+   "pl": "w zimnym salonie"
+  },
+  {
+   "en": "on the new desk",
+   "pl": "na nowym biurku"
+  },
+  {
+   "en": "about the new bank",
+   "pl": "o nowym banku"
+  },
+  {
+   "en": "at the new job",
+   "pl": "w nowej pracy"
+  },
+  {
+   "en": "in the small school",
+   "pl": "w małej szkole"
+  },
+  {
+   "en": "at a good company",
+   "pl": "w dobrej firmie"
+  },
+  {
+   "en": "in the cold kitchen",
+   "pl": "w zimnej kuchni"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Jestem w ___ domu. (new)",
+   "choices": [
+    "nowym",
+    "nowego",
+    "nowy",
+    "nowa"
+   ],
+   "answer": "nowym",
+   "explain": "w takes this lesson's form, and dom is masculine, so -ym. nowego is last lesson's form — right after do, wrong after w, and here the noun domu looks the same either way, so the adjective is doing all the work."
+  },
+  {
+   "prompt": "Mieszkam w ___ mieście. (small)",
+   "choices": [
+    "małym",
+    "małego",
+    "mały",
+    "małe"
+   ],
+   "answer": "małym",
+   "explain": "Neuter words take -ym, exactly like masculine ones. Only the feminine has its own ending here."
+  },
+  {
+   "prompt": "Byliśmy w ___ hotelu. (good)",
+   "choices": [
+    "dobrym",
+    "dobrego",
+    "dobry",
+    "dobrej"
+   ],
+   "answer": "dobrym",
+   "explain": "hotel is masculine. The past tense changes nothing about the case — w still pulls the same form."
+  },
+  {
+   "prompt": "Mama jest w ___ salonie. (cold)",
+   "choices": [
+    "zimnym",
+    "zimnego",
+    "zimny",
+    "zimną"
+   ],
+   "answer": "zimnym",
+   "explain": "salon is masculine, so -ym. zimną is the object form from two lessons ago — it belongs after mam, not after w."
+  },
+  {
+   "prompt": "Tata jest w ___ pracy. (new)",
+   "choices": [
+    "nowej",
+    "nowym",
+    "nową",
+    "nowego"
+   ],
+   "answer": "nowej",
+   "explain": "praca is feminine, and the feminine form is the one you already learned last lesson. nowym would be right in front of a masculine or neuter word."
+  },
+  {
+   "prompt": "Moja siostra pracuje w ___ szkole. (small)",
+   "choices": [
+    "małej",
+    "małym",
+    "małą",
+    "małego"
+   ],
+   "answer": "małej",
+   "explain": "Feminine, so -ej — unchanged from last lesson. The noun is what moved: szkoła became szkole here, and it was szkoły after do."
+  },
+  {
+   "prompt": "Pracuję w ___ firmie. (good)",
+   "choices": [
+    "dobrej",
+    "dobrym",
+    "dobrą",
+    "dobrego"
+   ],
+   "answer": "dobrej",
+   "explain": "firma is feminine. Same ending as in dobrej kawy from last lesson — one form, two jobs."
+  },
+  {
+   "prompt": "Mama jest w ___ kuchni. (cold)",
+   "choices": [
+    "zimnej",
+    "zimnym",
+    "zimną",
+    "zimna"
+   ],
+   "answer": "zimnej",
+   "explain": "Feminine again, so -ej. Compare the same sentence about the salon, which is masculine and takes zimnym."
+  },
+  {
+   "prompt": "Idę do ___ sklepu. (new)",
+   "choices": [
+    "nowego",
+    "nowym",
+    "nowy",
+    "nowej"
+   ],
+   "answer": "nowego",
+   "explain": "This one is not this lesson's form. do still takes -ego, the same as it always did. Only w, na and o take -ym."
+  },
+  {
+   "prompt": "I live in a small city. →",
+   "choices": [
+    "Mieszkam w małym mieście.",
+    "Mieszkam w małego mieście.",
+    "Mieszkam w mały mieście.",
+    "Mieszkam w małym miasto."
+   ],
+   "answer": "Mieszkam w małym mieście.",
+   "explain": "Both words have to move together. małego mieście moves the adjective the wrong way, mały mieście leaves it as a subject, and małym miasto leaves the noun behind."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "in the new house",
+   "mode": "full_word",
+   "answer": "w nowym domu",
+   "accepts": [
+    "w nowym domu"
+   ]
+  },
+  {
+   "prompt_en": "in the small city",
+   "mode": "full_word",
+   "answer": "w małym mieście",
+   "accepts": [
+    "w małym mieście"
+   ]
+  },
+  {
+   "prompt_en": "in the good hotel",
+   "mode": "full_word",
+   "answer": "w dobrym hotelu",
+   "accepts": [
+    "w dobrym hotelu"
+   ]
+  },
+  {
+   "prompt_en": "in the cold living room",
+   "mode": "full_word",
+   "answer": "w zimnym salonie",
+   "accepts": [
+    "w zimnym salonie"
+   ]
+  },
+  {
+   "prompt_en": "on the new desk",
+   "mode": "full_word",
+   "answer": "na nowym biurku",
+   "accepts": [
+    "na nowym biurku"
+   ]
+  },
+  {
+   "prompt_en": "in the small flat",
+   "mode": "full_word",
+   "answer": "w małym mieszkaniu",
+   "accepts": [
+    "w małym mieszkaniu"
+   ]
+  },
+  {
+   "prompt_en": "at the new job",
+   "mode": "full_word",
+   "answer": "w nowej pracy",
+   "accepts": [
+    "w nowej pracy"
+   ]
+  },
+  {
+   "prompt_en": "in the small school",
+   "mode": "full_word",
+   "answer": "w małej szkole",
+   "accepts": [
+    "w małej szkole"
+   ]
+  },
+  {
+   "prompt_en": "at a good company",
+   "mode": "full_word",
+   "answer": "w dobrej firmie",
+   "accepts": [
+    "w dobrej firmie"
+   ]
+  },
+  {
+   "prompt_en": "in the cold kitchen",
+   "mode": "full_word",
+   "answer": "w zimnej kuchni",
+   "accepts": [
+    "w zimnej kuchni"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum works in a new office.",
+   "answer": "Mama pracuje w nowym biurze.",
+   "accepts": [
+    "Mama pracuje w nowym biurze.",
+    "Mama pracuje w nowym biurze"
+   ]
+  },
+  {
+   "prompt_en": "Type: My brother lives in a small city.",
+   "answer": "Mój brat mieszka w małym mieście.",
+   "accepts": [
+    "Mój brat mieszka w małym mieście.",
+    "Mój brat mieszka w małym mieście"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is at the new job today.",
+   "answer": "Tata jest dzisiaj w nowej pracy.",
+   "accepts": [
+    "Tata jest dzisiaj w nowej pracy.",
+    "Tata jest dzisiaj w nowej pracy"
+   ]
+  },
+  {
+   "prompt_en": "Type: The key is on the new desk.",
+   "answer": "Klucz jest na nowym biurku.",
+   "accepts": [
+    "Klucz jest na nowym biurku.",
+    "Klucz jest na nowym biurku"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister is talking about the new shop.",
+   "answer": "Moja siostra mówi o nowym sklepie.",
+   "accepts": [
+    "Moja siostra mówi o nowym sklepie.",
+    "Moja siostra mówi o nowym sklepie"
+   ]
+  },
+  {
+   "prompt_en": "Type: We're thinking about the small school.",
+   "answer": "Myślimy o małej szkole.",
+   "accepts": [
+    "Myślimy o małej szkole.",
+    "Myślimy o małej szkole"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is in the cold kitchen, and Dad is in the cold living room.",
+   "answer": "Mama jest w zimnej kuchni, a tata jest w zimnym salonie.",
+   "accepts": [
+    "Mama jest w zimnej kuchni, a tata jest w zimnym salonie.",
+    "Mama jest w zimnej kuchni, a tata jest w zimnym salonie"
+   ],
+   "explain": "Same adjective, two genders: kuchnia is feminine and takes -ej, salon is masculine and takes -ym."
+  },
+  {
+   "prompt_en": "Type: Dad is going to the new shop, but he works at a good company.",
+   "answer": "Tata idzie do nowego sklepu, ale pracuje w dobrej firmie.",
+   "accepts": [
+    "Tata idzie do nowego sklepu, ale pracuje w dobrej firmie.",
+    "Tata idzie do nowego sklepu, ale pracuje w dobrej firmie"
+   ],
+   "explain": "Two halves, two cases: do keeps last lesson's -ego, w takes this lesson's form — and here the feminine dobrej happens to look the same in both."
+  },
+  {
+   "prompt_en": "Type: I don't have a new house, but I live in a good flat.",
+   "answer": "Nie mam nowego domu, ale mieszkam w dobrym mieszkaniu.",
+   "accepts": [
+    "Nie mam nowego domu, ale mieszkam w dobrym mieszkaniu.",
+    "Nie mam nowego domu, ale mieszkam w dobrym mieszkaniu"
+   ],
+   "explain": "domu and mieszkaniu are both nouns that do not change between these two cases — so the adjective is the only thing marking which one you mean."
+  },
+  {
+   "prompt_en": "Type: My parents were in a good hotel.",
+   "answer": "Rodzice byli w dobrym hotelu.",
+   "accepts": [
+    "Rodzice byli w dobrym hotelu.",
+    "Rodzice byli w dobrym hotelu"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "dobra",
+  "dobre",
+  "dobry",
+  "dobrą",
+  "dobrego",
+  "dobrej",
+  "nowa",
+  "nowy",
+  "nową",
+  "nowego",
+  "nowej",
+  "mała",
+  "małe",
+  "mały",
+  "małą",
+  "małego",
+  "małej",
+  "zimna",
+  "zimny",
+  "zimną",
+  "zimnego",
+  "zimnej",
+  "dom",
+  "domu",
+  "sklepie",
+  "sklepu",
+  "biuro",
+  "biurze",
+  "biurku",
+  "hotelu",
+  "salonie",
+  "banku",
+  "miasto",
+  "mieście",
+  "mieszkaniu",
+  "pracy",
+  "szkole",
+  "szkoły",
+  "firmie",
+  "kuchni",
+  "klucz",
+  "mama",
+  "tata",
+  "brat",
+  "siostra",
+  "rodzice",
+  "jest",
+  "jestem",
+  "mieszkam",
+  "mieszka",
+  "pracuje",
+  "pracuję",
+  "myślimy",
+  "mówi",
+  "idę",
+  "idzie",
+  "byliśmy",
+  "byli",
+  "mam",
+  "nie mam",
+  "mój",
+  "moja",
+  "dzisiaj",
+  "ale",
+  "a",
+  "w domu",
+  "w sklepie",
+  "w biurze",
+  "w mieście",
+  "w hotelu",
+  "w banku",
+  "w pracy",
+  "w szkole",
+  "w firmie",
+  "w salonie",
+  "na biurku",
+  "o pracy",
+  "o sklepie",
+  "o domu",
+  "o banku",
+  "o szkole",
+  "do sklepu",
+  "do domu",
+  "do szkoły"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_adj_loc",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

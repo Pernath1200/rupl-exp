@@ -2990,17 +2990,18 @@
       "id": "b2_adj_loc",
       "domain": "grammar",
       "label": "W nowej pracy · miejscownik",
-      "label_en": "Adjectives in the Locative",
+      "label_en": "Adjectives in the Locative · -ym, and -ej again",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 3 of 6. -ym (m/n) is the one new ending; -ej (f) recycles from b2_adj_gen one unit earlier. Rides all three Locative governors already owned: w/na (prep_w_loc) and o (o_loc). W nowej pracy. Mysle o dobrym filmie.",
+      "note": "B2 Block 2, unit 4 of 6 (spine O2). ONE new ending: -ym for masculine and neuter. The feminine -ej is the form b2_adj_gen taught one unit ago, unchanged — so the whole unit is FOUR NEW FORMS: dobrym, nowym, małym, zimnym (all verified NEW). Same four adjectives as b2_adj_gen on purpose, so the block reads as one paradigm widening rather than a growing word list. THE CENTRAL CONTRAST, and the reason the unit can be this small: Genitive and Locative disagree about which word moves, and they disagree in opposite directions by gender. Feminine — the adjective is the same in both and the noun is not (do dobrej szkoły vs w dobrej szkole). Masculine like dom — the noun is the same in both (domu either way) and only the adjective marks the difference (do nowego domu vs w nowym domu). That minimal pair is slide 4 and the Kontrola stage is built on it; it is also why this unit sits immediately after b2_adj_gen. NO NEW GOVERNORS: w and na (a1_prep_place, a1_prep_review_1/2, a2_house) and o (a2_o_loc, which supplies o domu / o sklepie / o pracy / o banku wholesale) — all re-checked as whole chunks rather than assumed. A SPINE EXAMPLE HAD TO BE REJECTED: B2-SPINE's own illustration for this unit was 'Myślę o dobrym filmie', but filmie reports NEW (the course owns film, filmy, filmów and has never inflected it); wodzie, mleku, samochodzie and restauracji are NEW for the same reason. The unit runs on attested Locative noun forms only. FENCED: -emu appears nowhere including as a distractor (b2_adj_dat owns it, two units away); no plural oblique adjectives (C1, spine O3); nowe and duże are used nowhere at all despite reporting TAUGHT, because a2_plural_nom taught them as PLURALS — the neuter singular slots take dobre and małe instead, holding b2_adj_acc's standing line; zimne and stare are NEW and appear nowhere. Distractors are real taught Polish in the wrong slot: last unit's Genitives (nowego, małego, dobrego, zimnego) and the Accusatives from two units back (nową, małą, dobrą, zimną), which makes every wrong choice a genuine near-miss rather than noise.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_loc.json"
     },
     {
       "id": "b2_adj_inst",
