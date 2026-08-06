@@ -2783,11 +2783,12 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B1 SPINE] Opinion register: moim zdaniem (whole), zgadzac sie, miec racje.",
+      "note": "Opinion register: moim zdaniem, zgadzac sie / nie zgadzac sie, miec racje, na pewno, and a re-taught moze (maybe) — HOMOGRAPH flagged loudly against trunk_can_a1s moze (he can). Zero new structures; sentences deliberately recycle a wide spread including b1_adverb_comp and b1_vocative_chunks, the two units immediately before this one on the path.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b1_opinions.json"
     },
     {
       "id": "b1_case_gym",

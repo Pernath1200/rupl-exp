@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 122 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 123 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -139,4 +139,5 @@ _None._
 | 124 | `b1_imperative_rule` | `imperative_rule` | 12 | `byc_adj`, `gen_endings`, `imperative`, `imperative_rule`, `miec_acc`, `negation`, `perf_future`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje` |
 | 125 | `b1_adverb_comp` | `adverb_comp` | 12 | `adverb_comp`, `comparative`, `gen_endings`, `present`, `present_am`, `present_e_isz`, `present_uje`, `superlative` |
 | 126 | `b1_vocative_chunks` | `vocative_chunk` | 12 | `byc_adj`, `conditional_sg`, `question`, `situation_chunk`, `social_chunk`, `vocative_chunk` |
+| 127 | `b1_opinions` | — | 10 | `adverb_comp`, `byc_adj`, `conditional_sg`, `inst_z`, `miec_acc`, `miec_present`, `motion_prefixed`, `perf_future`, `question`, `superlative`, `virile_nom`, `virile_reco`, `vocative_chunk` |
 
