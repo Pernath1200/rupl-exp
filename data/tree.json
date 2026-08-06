@@ -2894,12 +2894,13 @@
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 1, unit 1. The function words the course never taught - ale, a, wiec, albo, tez, juz, jeszcze, all verified NEW via check_new.py. Zero new morphology. Placed FIRST in B2 (spine O14) because it costs no grammar and improves every B2 example sentence after it; three B1 packs record catching ale/a/tez leaking into drafts. One teaching point: ale vs a (contrast vs juxtaposition). bo (a2_questions2) and i (a2_past_plural) are anchors, never re-taught.",
+      "note": "First unit of B2. Seven invariable words the course never taught, all verified NEW: four joiners (ale, a, więc, albo) and three in-sentence particles (też, już, jeszcze). Zero morphology — none of them ever changes shape. The one teaching point, given its own slide and table, is i / a / ale: English collapses all three into and/but, Polish splits them by how the two halves relate. i (a2_past_plural) and bo (a2_questions2) are already-owned anchors, recycled as distractors, never re-taught. Two conservative scope cuts logged in the pack note: dlatego is left out (its partner dlatego że is on the C1 subordination list), and the negative-polarity readings już nie / jeszcze nie are fenced completely, since each flips its word's meaning rather than extending it.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/b2_conjunctions.json"
     },
     {
       "id": "b2_copular_future",

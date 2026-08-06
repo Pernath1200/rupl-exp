@@ -96,6 +96,7 @@ STRUCTURE_CATALOGUE = {
     "imperative_rule",
     "adverb_comp",
     "vocative_chunk",
+    "conjunctions",
 }
 
 GLUE_LEMMAS = {
