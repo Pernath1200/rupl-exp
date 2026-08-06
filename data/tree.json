@@ -3712,18 +3712,19 @@
     {
       "id": "b2_verb_family2",
       "domain": "grammar",
-      "label": "Rodzina czasownika 2",
-      "label_en": "Verb family 2",
+      "label": "Daję, oddaję, wydaję, podaję",
+      "label_en": "Four everyday verbs from one root",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "verbs",
       "tree_part": "verbs",
-      "note": "[B2 Block 6a, JAMES-LOCKED] Root family 2 - AUTHOR PICKS root, logs choice + alternative: dawac (oddawac owned -> wydawac, podawac) or placic (zaplacic owned -> doplacic, przeplacic). Fewer untaught-case landmines wins. Whole-twin treatment for imperfective partners. Further families = C1. See B2-SPINE Block 6a.",
-      "pedagogy": "teach"
+      "note": "[B2 Block 6a unit 5, JAMES-LOCKED decision #6] Root family 2. ROOT CHOSEN: -dawac, with the rejected placic option costed in the pack - dawac wins on register, on landmines (dative+accusative both owned, where placic would need za+Accusative and za is owned only in b1_polite's thanking job) and on cost (one new verb against two). SPINE PREMISE CORRECTED: wydawac is NOT new - a2_shopping2 taught it at path 61 in the money sense; what is new is its PRESENT (wydaje/wydajesz/wydaje). Seven new forms, one new verb (podawac), ZERO new endings - all four run on dawac's present_e_esz paradigm. THE LENS REACHES TWO OF FOUR: od- in oddawac is the lens's own od-, wy- in wydawac is NOT spatial (pays b2_prefix_lens's named exclusion of this verb), pod- in podawac is the same pod- as podpisac one node back doing something else. IMPERFECTIVE/PRESENT/SINGULAR ONLY - dac, oddac, wydac, podac all NEW and fenced (dac is the irregular dam/dasz/da). No aspect twin here, unlike b2_pisac_family: all four are already imperfective. SENSE CUTS: podawac = pass/serve only; wydawac = money only, so wydaje mi sie appears nowhere (b2_discussion_func's material). TITLE CORRECTED from 'Rodzina czasownika 2' - rodzina and czasownika both verified NEW. See B2-SPINE Block 6a.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/b2_verb_family2.json"
     }
   ],
   "synced_from": {

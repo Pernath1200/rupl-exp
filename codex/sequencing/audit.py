@@ -130,6 +130,7 @@ STRUCTURE_CATALOGUE = {
     "prefix_lens",
     "prefix_two_jobs",
     "pisac_family",
+    "dawac_family",
 }
 
 GLUE_LEMMAS = {

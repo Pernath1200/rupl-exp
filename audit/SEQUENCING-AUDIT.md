@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 163 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 164 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -180,4 +180,5 @@ _None._
 | 167 | `b2_prefix_lens` | `prefix_lens` | 0 | `conjunctions`, `inst_transport`, `miec_acc`, `motion_imperf`, `motion_prefixed`, `motion_prefixed2`, `ordinals_time`, `past_ac`, `past_isc`, `perf_future`, `prefix_lens`, `prep_do_gen`, `prep_z_gen`, `question` |
 | 168 | `b2_prefix_two_jobs` | `prefix_two_jobs` | 0 | `aspect_past`, `aspect_prefixes`, `bedzie`, `conjunctions`, `dative_sg`, `motion_imperf`, `motion_prefixed`, `motion_prefixed2`, `ordinals_time`, `past_ac`, `past_isc`, `perf_future`, `plural_nom`, `prefix_lens`, `prefix_two_jobs`, `prep_do_gen`, `prep_z_gen`, `present` |
 | 169 | `b2_pisac_family` | `pisac_family` | 20 | `aspect_past`, `aspect_prefixes`, `conjunctions`, `gen_endings`, `miec_acc`, `musiec`, `past_ac`, `perf_future`, `pisac_family`, `prefix_lens`, `prefix_two_jobs`, `prep_w_loc`, `present`, `present_uje`, `question`, `questions2`, `ten_ta_to` |
+| 170 | `b2_verb_family2` | `dawac_family` | 7 | `can_inf`, `dative_pron`, `dative_sg`, `dawac_family`, `miec_acc`, `musiec`, `pisac_family`, `prefix_lens`, `prefix_two_jobs`, `prep_w_loc`, `present`, `present_e_esz`, `question`, `questions2` |
 
