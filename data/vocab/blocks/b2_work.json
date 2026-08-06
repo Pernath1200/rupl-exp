@@ -1,0 +1,526 @@
+{
+ "id": "b2_work",
+ "title": "Praca i biuro",
+ "title_en": "Work & office",
+ "level": "B2",
+ "tree_node": "b2_work",
+ "default_direction": "en_to_pl",
+ "note": "B2 Block 2 vocab interleave — placed here so the six-unit adjective block is not six grammar units in a row, and so the two adjective cases just taught (b2_adj_acc, b2_adj_gen) get a whole pack of real sentences to breathe in.\n\nALL TWELVE WORDS RE-VERIFIED with check_new.py at build time rather than trusted from the spine: wynagrodzenie, zwolnienie, nadgodziny, obowiązek, stanowisko, podanie, rozmowa, zatrudnienie, wykształcenie, kwalifikacje, etat, raport — all NEW. The spine's anchor list was re-verified the same way and all thirteen came back TAUGHT: umowa, awans, premia, pracodawca, doświadczenie (a2_work2); pensja, firma, szef, pracownik, biuro, spotkanie, kariera (leaf_work_a1); zarabiać (a2_shopping2). None of them is re-taught here; doświadczenie, firma, biuro, pracownik are recycled in the sentence bank only.\n\nTHE UNEXPECTED GIFT, and the reason this pack is much lighter than twelve new words sounds: eleven of the twelve need NO second form. Six are neuter (wynagrodzenie, zwolnienie, stanowisko, podanie, zatrudnienie, wykształcenie), three are masculine things (obowiązek, etat, raport) and two are plural non-virile (nadgodziny, kwalifikacje) — and for every one of those groups the object form is identical to the plain form. Only rozmowa, the single feminine word, takes a second form: rozmowę, which is the -a → -ę swap owned since a1_miec. So the pack teaches 12 words and exactly 1 extra form.\n\nROZMOWA IS A CHUNK-TO-WORD REVEAL, flagged because check_new.py reports the bare word as NEW while the learner has in fact been saying it for a level: a2_work2 taught rozmowa kwalifikacyjna ('job interview') as one frozen lump. The gloss here names the plain word ('conversation, talk') and the sentence bank uses it only in that plain sense. Same shape as b2_adj_gen's Nic nowego reveal one unit ago, and the same shape b2_verbal_nouns will use later in the level.\n\nA SENSE WAS DELIBERATELY CUT: zwolnienie is glossed only as 'dismissal, being let go'. Its other everyday sense — zwolnienie lekarskie, a doctor's sick note — is not taught, not hinted at, and appears nowhere. It belongs to b2_health_system later in this block-list, which is exactly the register for it. Teaching both senses at once would be two words wearing one spelling, which is the trap AGENTS.md's homograph table is about.\n\nFEEDS A LATER UNIT ON PURPOSE, and the connection is deliberately NOT made here: five of these words (wynagrodzenie, zwolnienie, zatrudnienie, wykształcenie, podanie) are -enie/-anie verbal nouns. b2_verbal_nouns later in B2 is built on exactly that pattern being visible in words already owned as ordinary nouns. Nothing in this pack names the verb behind any of them, or mentions the pattern — that is the later unit's whole payload and previewing it would spend it.\n\nFENCED, and this one is easy to break in a vocab pack: adjectives appear ONLY in the Nominative, the Accusative and the Genitive — the three the learner now owns. No adjective ever appears inside a Locative or Instrumental phrase (nowym biurze, dobrym stanowiskiem), because -ym is b2_adj_loc's, two units away. Every place phrase in the sentence bank takes a bare noun: w firmie, do firmy, do biura. Checked sentence by sentence.\n\nAlso fenced: no genitive forms of the twelve new words (wynagrodzenia, raportu, nadgodzin) — the two genitive sentences in the bank use already-owned nouns (biura) so that the new adjective ending gets drilled without a new noun ending riding along. nowe is used only where a2_plural_nom actually taught it, in front of a plural noun (nowe kwalifikacje); the neuter singular nowe stanowisko is avoided, keeping the same line b2_adj_acc drew.\n\nSTRUCTURE RANGE in the sentence bank, per the recycle rule — not just the last grammar unit: to_jest, byc_present, byc_adj, zgoda, past_byc, miec_acc, adj_acc, adj_gen, negation, existential_jest, prep_w_loc, prep_do_gen, poss_nom, plural_nom, question, conjunctions, conditional_sg, comparative and chodzic all appear.",
+ "teaches_structures": [],
+ "uses_structures": [
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "past_byc",
+  "miec_present",
+  "miec_acc",
+  "adj_acc",
+  "adj_gen",
+  "negation",
+  "existential_jest",
+  "prep_w_loc",
+  "prep_do_gen",
+  "poss_nom",
+  "plural_nom",
+  "question",
+  "conjunctions",
+  "conditional_sg",
+  "comparative",
+  "chodzic",
+  "present"
+ ],
+ "blocks": [
+  {
+   "id": "work_b2_words",
+   "title": "Work & office · new words",
+   "items": [
+    {
+     "en": "pay (the money for the work)",
+     "pl": "wynagrodzenie",
+     "gender": "n"
+    },
+    {
+     "en": "dismissal (being let go from a job)",
+     "pl": "zwolnienie",
+     "gender": "n"
+    },
+    {
+     "en": "overtime (plural only)",
+     "pl": "nadgodziny",
+     "gender": "pl"
+    },
+    {
+     "en": "duty, obligation",
+     "pl": "obowiązek",
+     "gender": "m"
+    },
+    {
+     "en": "post, position (the job you hold)",
+     "pl": "stanowisko",
+     "gender": "n"
+    },
+    {
+     "en": "application (the form you send in)",
+     "pl": "podanie",
+     "gender": "n"
+    },
+    {
+     "en": "conversation, talk",
+     "pl": "rozmowa",
+     "gender": "f"
+    },
+    {
+     "en": "employment",
+     "pl": "zatrudnienie",
+     "gender": "n"
+    },
+    {
+     "en": "education (the level you have)",
+     "pl": "wykształcenie",
+     "gender": "n"
+    },
+    {
+     "en": "qualifications (plural only)",
+     "pl": "kwalifikacje",
+     "gender": "pl"
+    },
+    {
+     "en": "full-time post",
+     "pl": "etat",
+     "gender": "m"
+    },
+    {
+     "en": "report (a written one)",
+     "pl": "raport",
+     "gender": "m"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "en": "This is a good post.",
+   "pl": "To jest dobre stanowisko.",
+   "accepts": [
+    "To jest dobre stanowisko.",
+    "To jest dobre stanowisko",
+    "To dobre stanowisko.",
+    "To dobre stanowisko"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "stanowisko",
+    "dobre"
+   ]
+  },
+  {
+   "en": "I have a new full-time post.",
+   "pl": "Mam nowy etat.",
+   "accepts": [
+    "Mam nowy etat.",
+    "Mam nowy etat"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "adj_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "etat",
+    "nowy"
+   ],
+   "explain": "etat is masculine and it is a thing, so nothing moves after mam — neither the noun nor the adjective."
+  },
+  {
+   "en": "Tomorrow I have a conversation.",
+   "pl": "Jutro mam rozmowę.",
+   "accepts": [
+    "Jutro mam rozmowę.",
+    "Jutro mam rozmowę"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "rozmowę",
+    "jutro"
+   ],
+   "explain": "rozmowa is the one feminine word in this set, so it is the one that changes: after mam the -a swaps to -ę, exactly as in mam kawę."
+  },
+  {
+   "en": "The conversation was good.",
+   "pl": "Rozmowa była dobra.",
+   "accepts": [
+    "Rozmowa była dobra.",
+    "Rozmowa była dobra"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "rozmowa",
+    "była",
+    "dobra"
+   ]
+  },
+  {
+   "en": "I have overtime.",
+   "pl": "Mam nadgodziny.",
+   "accepts": [
+    "Mam nadgodziny.",
+    "Mam nadgodziny"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "plural_nom"
+   ],
+   "lemmas": [
+    "nadgodziny"
+   ],
+   "explain": "nadgodziny only ever exists in the plural, and a plural like this looks the same as an object as it does as a subject."
+  },
+  {
+   "en": "I have good pay.",
+   "pl": "Mam dobre wynagrodzenie.",
+   "accepts": [
+    "Mam dobre wynagrodzenie.",
+    "Mam dobre wynagrodzenie"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wynagrodzenie",
+    "dobre"
+   ]
+  },
+  {
+   "en": "The pay is small.",
+   "pl": "Wynagrodzenie jest małe.",
+   "accepts": [
+    "Wynagrodzenie jest małe.",
+    "Wynagrodzenie jest małe"
+   ],
+   "structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wynagrodzenie",
+    "małe"
+   ]
+  },
+  {
+   "en": "My education is good.",
+   "pl": "Moje wykształcenie jest dobre.",
+   "accepts": [
+    "Moje wykształcenie jest dobre.",
+    "Moje wykształcenie jest dobre"
+   ],
+   "structures": [
+    "poss_nom",
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wykształcenie",
+    "moje",
+    "dobre"
+   ]
+  },
+  {
+   "en": "This is my duty.",
+   "pl": "To jest mój obowiązek.",
+   "accepts": [
+    "To jest mój obowiązek.",
+    "To jest mój obowiązek",
+    "To mój obowiązek.",
+    "To mój obowiązek"
+   ],
+   "structures": [
+    "to_jest",
+    "poss_nom"
+   ],
+   "lemmas": [
+    "obowiązek",
+    "mój"
+   ]
+  },
+  {
+   "en": "This is an application to the company.",
+   "pl": "To jest podanie do firmy.",
+   "accepts": [
+    "To jest podanie do firmy.",
+    "To jest podanie do firmy",
+    "To podanie do firmy.",
+    "To podanie do firmy"
+   ],
+   "structures": [
+    "to_jest",
+    "prep_do_gen"
+   ],
+   "lemmas": [
+    "podanie",
+    "do firmy"
+   ]
+  },
+  {
+   "en": "I'm reading a new report.",
+   "pl": "Czytam nowy raport.",
+   "accepts": [
+    "Czytam nowy raport.",
+    "Czytam nowy raport"
+   ],
+   "structures": [
+    "present",
+    "adj_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "raport",
+    "nowy",
+    "czytam"
+   ]
+  },
+  {
+   "en": "I have employment at the company.",
+   "pl": "Mam zatrudnienie w firmie.",
+   "accepts": [
+    "Mam zatrudnienie w firmie.",
+    "Mam zatrudnienie w firmie"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "prep_w_loc"
+   ],
+   "lemmas": [
+    "zatrudnienie",
+    "w firmie"
+   ]
+  },
+  {
+   "en": "The dismissal was bad.",
+   "pl": "Zwolnienie było złe.",
+   "accepts": [
+    "Zwolnienie było złe.",
+    "Zwolnienie było złe"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zwolnienie",
+    "było",
+    "złe"
+   ]
+  },
+  {
+   "en": "My qualifications are good.",
+   "pl": "Moje kwalifikacje są dobre.",
+   "accepts": [
+    "Moje kwalifikacje są dobre.",
+    "Moje kwalifikacje są dobre"
+   ],
+   "structures": [
+    "poss_nom",
+    "byc_present",
+    "byc_adj",
+    "plural_nom",
+    "zgoda"
+   ],
+   "lemmas": [
+    "kwalifikacje",
+    "moje",
+    "dobre"
+   ]
+  },
+  {
+   "en": "The employee has new qualifications.",
+   "pl": "Pracownik ma nowe kwalifikacje.",
+   "accepts": [
+    "Pracownik ma nowe kwalifikacje.",
+    "Pracownik ma nowe kwalifikacje"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "plural_nom",
+    "zgoda"
+   ],
+   "lemmas": [
+    "kwalifikacje",
+    "pracownik",
+    "nowe"
+   ]
+  },
+  {
+   "en": "There's no new office at the company.",
+   "pl": "W firmie nie ma nowego biura.",
+   "accepts": [
+    "W firmie nie ma nowego biura.",
+    "W firmie nie ma nowego biura"
+   ],
+   "structures": [
+    "prep_w_loc",
+    "negation",
+    "existential_jest",
+    "adj_gen",
+    "zgoda"
+   ],
+   "lemmas": [
+    "w firmie",
+    "nie ma",
+    "biura",
+    "nowego"
+   ],
+   "explain": "nie ma drags both words with it: biuro becomes biura and the adjective takes -ego to match."
+  },
+  {
+   "en": "I'm going to the new office.",
+   "pl": "Idę do nowego biura.",
+   "accepts": [
+    "Idę do nowego biura.",
+    "Idę do nowego biura"
+   ],
+   "structures": [
+    "chodzic",
+    "prep_do_gen",
+    "adj_gen",
+    "zgoda"
+   ],
+   "lemmas": [
+    "idę",
+    "do biura",
+    "biura",
+    "nowego"
+   ]
+  },
+  {
+   "en": "I have qualifications and experience.",
+   "pl": "Mam kwalifikacje i doświadczenie.",
+   "accepts": [
+    "Mam kwalifikacje i doświadczenie.",
+    "Mam kwalifikacje i doświadczenie"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "conjunctions"
+   ],
+   "lemmas": [
+    "kwalifikacje",
+    "doświadczenie",
+    "i"
+   ]
+  },
+  {
+   "en": "I'd like to have better pay.",
+   "pl": "Chciałbym mieć lepsze wynagrodzenie.",
+   "accepts": [
+    "Chciałbym mieć lepsze wynagrodzenie.",
+    "Chciałbym mieć lepsze wynagrodzenie"
+   ],
+   "structures": [
+    "conditional_sg",
+    "comparative",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wynagrodzenie",
+    "chciałbym",
+    "mieć",
+    "lepsze"
+   ]
+  },
+  {
+   "en": "Do you have the application?",
+   "pl": "Czy masz podanie?",
+   "accepts": [
+    "Czy masz podanie?",
+    "Czy masz podanie"
+   ],
+   "structures": [
+    "question",
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "podanie",
+    "czy",
+    "masz"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "wynagrodzenie",
+  "zwolnienie",
+  "nadgodziny",
+  "obowiązek",
+  "stanowisko",
+  "podanie",
+  "rozmowa",
+  "rozmowę",
+  "zatrudnienie",
+  "wykształcenie",
+  "kwalifikacje",
+  "etat",
+  "raport"
+ ],
+ "uses_lemmas": [
+  "to",
+  "jest",
+  "są",
+  "była",
+  "było",
+  "mam",
+  "ma",
+  "masz",
+  "czytam",
+  "idę",
+  "chciałbym",
+  "mieć",
+  "czy",
+  "nie ma",
+  "dobra",
+  "dobre",
+  "małe",
+  "złe",
+  "lepsze",
+  "nowy",
+  "nowe",
+  "nowego",
+  "mój",
+  "moje",
+  "jutro",
+  "i",
+  "pracownik",
+  "doświadczenie",
+  "biura",
+  "do biura",
+  "firmie",
+  "w firmie",
+  "do firmy"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_work",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

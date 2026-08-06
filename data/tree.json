@@ -2979,11 +2979,12 @@
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[B2 SPINE] Block 2 vocab interleave (so the adjective block is not six grammar units in a row). Work & office register. Verified NEW via check_new.py: wynagrodzenie, zwolnienie, nadgodziny, obowiazek, stanowisko, podanie, rozmowa, zatrudnienie, wyksztalcenie, kwalifikacje, etat, raport. ANCHORS, never re-taught (all verified TAUGHT): umowa/awans/premia/pracodawca/doswiadczenie (a2_work2), pensja/firma/szef/pracownik/biuro/spotkanie/kariera (leaf_work_a1), zarabiac (a2_shopping2).",
+      "note": "B2 Block 2 vocab interleave, placed so the six-unit adjective block is not six grammar units in a row and so the two adjective cases just taught get a pack of real sentences to breathe in. All twelve words re-verified NEW with check_new.py at build time rather than trusted from the spine (wynagrodzenie, zwolnienie, nadgodziny, obowiązek, stanowisko, podanie, rozmowa, zatrudnienie, wykształcenie, kwalifikacje, etat, raport), and all thirteen spine anchors re-verified TAUGHT and recycled, never re-taught. THE GIFT: eleven of the twelve need no second form — six neuter, three masculine things and two non-virile plurals all have an object form identical to the plain form, so only rozmowa takes one (rozmowę, the -a/-ę swap owned since a1_miec). Twelve words, one extra form. ROZMOWA IS A CHUNK-TO-WORD REVEAL: check_new.py calls the bare word new, but a2_work2 taught rozmowa kwalifikacyjna as one frozen lump a level ago; the gloss names the plain word and the bank uses only that sense. A SENSE WAS CUT ON PURPOSE: zwolnienie is glossed only as dismissal — the sick-note sense (zwolnienie lekarskie) appears nowhere and belongs to b2_health_system later in this same block-list. FEEDS b2_verbal_nouns and deliberately does not spend it: five of these words are -enie/-anie verbal nouns, and nothing here names the verb behind any of them or mentions the pattern. FENCED, the easy one to break in a vocab pack: adjectives appear only in Nominative, Accusative and Genitive — never inside a Locative or Instrumental phrase (no nowym biurze), because -ym is two units away. Every place phrase takes a bare noun. No genitive forms of the new nouns either; the two genitive sentences use already-owned biura so the new adjective ending drills without a new noun ending riding along.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/b2_work.json"
     },
     {
       "id": "b2_adj_loc",
