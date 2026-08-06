@@ -48,9 +48,42 @@ export function loadProgress() {
     if (!d.units) d.units = {};
     if (!d.nodes) d.nodes = {};
     if (!Array.isArray(d.unlocked)) d.unlocked = ["A1"];
+    migrateFruitGates(d);
     return d;
   } catch {
     return empty();
+  }
+}
+
+/**
+ * One-time grandfather pass (2026-08-06). The RUE2-aligned gates demand
+ * quiz/type fully clear, but records from before the port carry soft
+ * bests and no cleanPass flags — fruit those units earned under the
+ * rule in force at the time ("first completion fruits", James
+ * 2026-08-04) must not be revoked retroactively. Any block with its
+ * full mode ladder walked before this migration is stamped clear.
+ */
+function migrateFruitGates(d) {
+  if (d.fruitGatesMigrated) return;
+  for (const b of Object.values(d.grammar.blocks || {})) {
+    const m = (b && b.modes) || {};
+    if (m.check && m.type && m.use) {
+      b.checkCleanPass = true;
+      b.typeCleanPass = true;
+    }
+  }
+  for (const b of Object.values(d.vocab.blocks || {})) {
+    const m = (b && b.modes) || {};
+    if (m.match && m.quiz && m.type && m.sentence) {
+      b.quizCleanPass = true;
+      b.typeCleanPass = true;
+    }
+  }
+  d.fruitGatesMigrated = true;
+  try {
+    localStorage.setItem(KEY, JSON.stringify(d));
+  } catch {
+    /* quota — harmless, migration reruns next load */
   }
 }
 
