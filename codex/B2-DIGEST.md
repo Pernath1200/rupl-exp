@@ -2409,3 +2409,232 @@ agreement — a second fact).
   fenced by eight consecutive units.
 - All three units are **audit-clean, not tested** — nobody has clicked through
   them.
+
+## Batch 11 — Block 6 continues (`b2_sie_impersonal`, `b2_prosic_o`, `b2_jezdzic`)
+
+Built the next three unbuilt nodes in path order, one at a time, each authored,
+scanned, wired and audited before the next was started. Each audit-clean
+(**0 errors**; the same two pre-existing, unrelated warns from `a2_prep_review` /
+`b1_two_futures`), pushed to `origin/b1-build` per unit, not batched. Three new
+structures registered in `SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE`
+before each audit ran: `sie_impersonal`, `prosic_o`, `jezdzic`.
+
+Path is live through `b2_jezdzic` (path index 163, **157 live nodes**, 33 of B2's
+48 non-station nodes done). Next unbuilt B2 node: **`b2_motion_prefixes2`**, which
+opens the run-up to the James-locked Block 6a prefix strand.
+
+Repair queue first, per the standing routine: three more packs converted before
+any new unit was written (below). Remaining after this run: **12 packs, 82 items**.
+
+### Repair queue: `a2_imperative`, `a2_ordering_func`, `a2_phone_func` (8 items)
+
+Taken in queue order. Six of the eight blanks land on the unit's teaching point.
+The two that do not are `a2_phone_func` #2–#4 and the reason is the same
+collision batch 10 hit: those three items share one frame,
+`Czy mogę rozmawiać z ___?`, and blanking the teaching-point word `rozmawiać`
+in all three would have put **three identical answers in one Pisanie stage**.
+The person is blanked instead (*mamą / tatą / siostrą*) — it is the only part
+that moves across the three, and it is what those items' own `explain`s are
+about. Item #5 then carries the infinitive blank on its own, so the unit's new
+word is still produced once. `a2_ordering_func` #8 blanks the place phrase for
+the same reason and is logged in an item `note`.
+
+**Two judgment calls in `a2_ordering_func` that James should smoke**, both about
+the composition test rather than the word count:
+
+- ***Co pan poleca? / Co pani poleca?*** are conjugated questions in FORM, which
+  is the shape James's refinement names as composed. They were kept typed whole
+  anyway, because the pack teaches `polecać` as an opaque chunk that is never
+  conjugated, declined or taken apart anywhere — so under the refinement they
+  read as frozen chunks, not as real conjugated questions. If they feel like
+  sentences in the hand, the fix is one line each: `Co ___ poleca?` (pan/pani),
+  which would also turn two near-identical typed items into a real discrimination.
+- ***Było bardzo smaczne.*** was held as a pattern phrase on the explicit
+  *Było super.* precedent. Three words, no bolted-on phrase, no conjugated
+  question — but it is the closest call in the three packs.
+
+Everything else in the sweep was left whole on the "minimal pattern unit"
+ground: `Poproszę` + accusative (four items), `Proszę czekać / słuchać /
+powtarzać`, and `Dzwonię do biura.` / `Wysyłam wiadomość.` / `Ładuję telefon.`
+— verb plus its own case, which AGENTS.md keeps in Pisanie by name.
+
+### `b2_sie_impersonal` (Block 6, unit 3 — sentences with nobody in them)
+
+**One new verb in the entire unit**: `palić`/`pali`. Every other verb on screen
+is a 3sg the learner already owns (*mówi, robi, kupuje, pracuje, pije, czeka*),
+which is the whole reason a construction this useful is cheap — he has been
+saying *się* since A2 and owns six of the seven verbs.
+
+`się` is re-taught explicitly in its new job on slide 1 — the *dziękuję* /
+*której* / *że* / *nic* treatment, and the slide says so in those words: the
+same word, a job you have never seen it do.
+
+**Word order is a table fact, never a rule**, and this was the batch's main
+design decision. `a2_sie` fenced clitic placement by name ("NO clitic-placement
+rules") and the spine hands *się*-placement beyond "after the verb" to C1
+(inbox item 19) — but the construction is unusable without saying where the
+word goes. The conservative path taken is `a2_jechac`'s: show exactly **two**
+shapes as a picture of the table and state in plain English that there is
+nothing to work out. (a) a question word or place word at the front, then *się*,
+then the verb — which is literally the *Jak + się + verb* order `a2_sie` already
+taught and Dad already produces in *Jak się masz?*; (b) verb first, *się*
+straight after it (*Mówi się, że…*). No third shape appears anywhere, and the
+pack never claims *się* goes "second in the clause", because that is the clitic
+rule and it belongs to C1.
+
+**A homograph trap inside the unit's own new word**, and it is a real one: bare
+*Pali się.* means THERE IS A FIRE, not "someone is smoking". The pack never
+prints *pali się* unfronted — every occurrence is *Tu się nie pali* or
+*W szpitalu się nie pali*, which forces the smoking reading — and slide 4 warns
+the learner in as many words to keep the phrase whole. The bare phrase appears
+nowhere, distractors included.
+
+*pisze*, *płaci*, *sprzedaje* and *otwiera* would each have written a more
+natural sign sentence (*Jak się pisze…?*, *Gdzie się płaci?*) and all four are
+verified NEW 3sg forms of paradigms nobody owns, so all four were dropped
+rather than smuggled in. *je* is absent on two grounds at once: NEW, and a
+collision with the pronoun *je*.
+
+### `b2_prosic_o` (Block 6, unit 4 — the same little word pulling two ways)
+
+Pays **B1-DIGEST deferred item 3** (spine O11). Three new forms — *prosić,
+prosisz, prosi* — in the `-ę/-isz` class owned from *mówić*/*robić*/*lubić*, so
+the endings cost nothing.
+
+**The best slide in the unit is `proszę` itself.** `check_new.py` reports it
+TAUGHT from `trunk_social_a1`, and the learner has now met that one string doing
+three unrelated jobs: *please / here you are* since A1; *Proszę* + dictionary
+verb = a polite instruction (`a2_imperative`, *Proszę czekać*); and from here,
+the 1sg of the verb *prosić*. Slide 3 sets all three side by side and names what
+disambiguates them — a verb after it means an instruction, an *o* after it means
+somebody is asking. Sixth turn of that treatment, and the most overloaded string
+the course has re-opened.
+
+*Poproszę rachunek* (taught, A2) and *Poproszę o rachunek* are **both** stated
+to be correct rather than one quietly replacing the other. With the verb
+*prosić*, by contrast, the *o* is obligatory, and that is the unit's one hard
+fact.
+
+**The unit's own weakness, flagged rather than hidden.** The ideal contrast slide
+would be *mówię o kawie* / *proszę o kawę* — one noun, two cases. It cannot be
+built: *kawie*, *wodzie*, *pracę* and *szkołę* are **all verified NEW**, so no
+noun in this course owns both its Locative and its Accusative. The contrast is
+carried across nouns in two columns instead (*o pracy, o szkole, o domu* against
+*o kawę, o wodę, o rachunek*), with *o* constant and the ending doing the work.
+**This is the slide to smoke first.**
+
+*pomoc* was dropped even though *Proszę o pomoc* is the most useful sentence
+this construction makes: it is a soft feminine whose Accusative is identical to
+its Nominative, so as the unit's flagship example it would show an *o* +
+Accusative phrase in which nothing visibly moves — the worst possible first
+example of the pattern. Logged as a scope cut and the obvious top-up if the unit
+plays thin.
+
+### `b2_jezdzic` (Block 6, unit 5 — the motion grid closed)
+
+The payment of the hardest fence in A2. `a2_chodzic`'s note says *jeździć* is
+"not named, glossed, hinted at or used as a distractor anywhere in this file,
+note included", which is why that pack borrowed *jechać* only for its endings
+and said nothing about *jechać* having a routine partner.
+
+Seven new strings, one verb. Nothing else in the pack is new — the other three
+corners are owned in full, so three quarters of what is on screen is recall.
+**The grid is the payoff, not the paradigm**: two independent questions (on foot
+or by vehicle; now or regularly) give four Polish verbs where English has one
+word, and the owned adverbs *teraz / codziennie / często / zawsze* carry the
+meaning in every item after the intro.
+
+The ż/źdź split (*jeżdżę*, *jeżdżą* at the outside against the middle four) is a
+**table fact and nothing more** — and it is explicitly the same shape as
+*jadę*/*jedziesz*, which `a2_jechac` already handed over that way, so slide 2
+says so out loud: both by-vehicle verbs behave alike, one habit and not two.
+
+The match board is all six new present forms **plus** six anchor rows building
+the four-way grid at *ja* and *ty*, so every new form of the unit appears on the
+board and the board itself is the contrast. The infinitive rides the intro plus
+a Pisanie item — the `a2_chodzic` precedent for a unit with more forms than a
+twelve-row board can hold.
+
+*przyjeżdżam* / *wyjeżdżam* and the whole prefixed imperfective family are
+fenced hard: they belong to `b2_motion_imperf` in the **James-locked Block 6a**,
+and teaching them here would open the secondary-imperfective strand four nodes
+early and break that plan. All past forms stay fenced exactly as `a2_chodzic`
+left them.
+
+### Verification performed on all three packs
+
+- **`codex/scripts/verify_pack.py` run on every pack** against its own
+  position-aware pool, regenerated with `--before` at each node in turn.
+  **0 FAIL on all three.** Every flagged token was read by eye rather than
+  filtered; the surviving non-English ones were unaccented `accepts` variants,
+  bare ending fragments in slide text (`-ić`), the sanctioned Polish metalanguage
+  in `body_pl`, and the glue name *Piotr*.
+- **Three real defects were caught by that reading, not by the auditor:**
+  - *wie* in a `b2_sie_impersonal` use item (*Mama wie.*) — NEW for exactly the
+    reason `b2_double_neg` logged one node earlier, since *wiem* is owned only
+    inside the frozen *nie wiem*. **Third consecutive pack to trip on that
+    string.** Item rewritten.
+  - **a non-word printed in `b2_prosic_o`'s slide 2 prose** — the draft named
+    the form the I-form is *not*. `b2_neg_gen`'s standing rule is that the
+    non-word an exception exists to prevent is never printed, distractors
+    included. Sentence rewritten.
+  - *pojazdem* in a `b2_jezdzic` `body_pl` line. Permitted there by convention,
+    but AGENTS.md names that exact word as one of its three caught title
+    violations, so it was replaced with owned material rather than re-introduced.
+- **Mechanical stage checks per pack**: match exactly 12 rows with no duplicate
+  `pl` or `en`; every quiz answer present among its own four choices; no
+  duplicated choices inside an item; **all 12 quiz answers distinct in every
+  pack**; no duplicate type or use answers; no Użycie item verbatim a Pisanie
+  item. One real find — `b2_sie_impersonal` had *Tu się nie pali.* as the answer
+  to two different quiz items; the word-order item was rebuilt on
+  *W szpitalu się nie pali.* with distractors that are genuinely impossible
+  orders rather than merely marked ones.
+- **Two dead tags removed** before wiring, both caught by the tool: *mama* and
+  *piotr* in `b2_sie_impersonal` (left behind by the rewritten use item), *iść*
+  in `b2_jezdzic`.
+- **Pisanie cap checked mechanically** on all three new packs and all three
+  converted packs: no typed-whole answer over 3 words, every `frame` containing
+  exactly one `___`, and no answer visible inside its own frame.
+- **Homograph "taught AS" check re-run on every recycled form.** The find that
+  shaped a pack is *pali się* (above). *góry* stayed out of `b2_jezdzic`
+  entirely, since `a2_travel` owns that string as a plural noun; *chleb* appears
+  only in positive sentences in `b2_prosic_o`, with *chleba* named in an
+  `explain` so the two do not blur.
+- **All station placeholders re-asserted `planned` after every wiring**, by
+  assertion rather than by eye, and `a2_past_gym` re-checked as absent from
+  `path_order`.
+- **`scripts/smoke.py` run after each wiring** — SMOKE PASSED each time. This is
+  the repo's file-integrity smoke, not a click-through; nobody has played these
+  units.
+- Known blind spot, stated again: person pronouns sit in `audit.py`'s
+  `GLUE_LEMMAS`, so the machine cannot see a pronoun leak. All three units are
+  bare-noun throughout and use no oblique pronoun anywhere, checked by hand.
+
+### For James's next smoke pass
+
+- **The one I would most want you to rule on is the cross-noun contrast in
+  `b2_prosic_o`.** No same-noun minimal pair exists in the course, and the pack
+  says so rather than faking one. If the two-column slide does not land, the fix
+  is a decision you have to make, not one I can take: teach one extra Locative
+  (*o kawie*) purely so the pair can be shown.
+- **Second is the two `a2_ordering_func` judgment calls** above — *Co pan
+  poleca?* and *Było bardzo smaczne.* Both are exactly on the line the
+  composition refinement draws, and both went the conservative way (kept whole).
+- **Watch whether `b2_sie_impersonal`'s word-order slide is enough.** It gives
+  two shapes and refuses to state the rule behind them. That is the honest
+  choice under the C1 fence, but it is the first unit in the course where a
+  construction's usability depends on a placement fact we have decided not to
+  explain.
+- **The fire warning on slide 4 of `b2_sie_impersonal`** is worth reading as Dad
+  would read it. It deliberately does not print what *Pali się.* means, which
+  keeps the non-word rule but may read as coy.
+- **`b2_jezdzic` may feel long on forms** — six new endings in a course that has
+  just had three light units. Everything about them is recall except the middle
+  of the word, but it is the densest paradigm since B1.
+- **Still open from this batch, all logged in the packs**: *pomoc* and
+  *Proszę o pomoc*; *prosić* with a person as well as a thing; the past
+  impersonal and the *-no*/*-to* forms; *dużo* hung on a verb; plural objects,
+  now held for four consecutive units; and plural oblique adjectives, now fenced
+  by eleven.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
