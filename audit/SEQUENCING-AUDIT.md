@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 142 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 143 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -159,4 +159,5 @@ _None._
 | 146 | `b2_ze_clauses` | `ze_clauses` | 0 | `aspect_past`, `byc_adj`, `byc_present`, `can_inf`, `conjunctions`, `copular_future`, `existential_jest`, `ktory_cases`, `miec_acc`, `miec_present`, `past_rest`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `question`, `questions2`, `to_jest`, `ze_clauses`, `zeby`, `zgoda` |
 | 147 | `b2_reported` | `reported` | 5 | `adj_acc`, `aspect_past`, `bedzie`, `byc_adj`, `byc_present`, `can_inf`, `copular_future`, `ktory_cases`, `miec_acc`, `miec_present`, `ordinals_time`, `past_ac`, `past_byc`, `past_rest`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `questions2`, `reported`, `ze_clauses`, `zeby`, `zgoda` |
 | 148 | `b2_indirect_q` | `indirect_q` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `dative_sg`, `existential_jest`, `indirect_q`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `miec_acc`, `miec_present`, `past_ac`, `plural_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `question`, `question_cases`, `questions2`, `reported`, `situation_chunk`, `smalltalk_chunk`, `to_jest`, `ze_clauses`, `zeby`, `zgoda` |
+| 149 | `b2_ktory_full` | `ktory_full` | 1 | `adj_gen`, `adj_inst`, `adj_loc`, `byc_present`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `ktory_full`, `miec_acc`, `miec_present`, `o_loc`, `ordinals_time`, `past_ac`, `past_rest`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_prep`, `question_cases`, `questions2`, `to_jest`, `zgoda` |
 

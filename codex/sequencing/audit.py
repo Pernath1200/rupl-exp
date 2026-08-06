@@ -110,6 +110,7 @@ STRUCTURE_CATALOGUE = {
     "ze_clauses",
     "reported",
     "indirect_q",
+    "ktory_full",
 }
 
 GLUE_LEMMAS = {
