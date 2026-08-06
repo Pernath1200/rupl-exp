@@ -3381,18 +3381,19 @@
   {
    "id": "b2_neg_gen",
    "domain": "grammar",
-   "label": "Nie kupiłem chleba",
-   "label_en": "Genitive after nie",
+   "label": "Nie piję kawy · dopełniacz",
+   "label_en": "The genitive after nie — not just after nie mam",
    "kind": "topic",
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 6, unit 1. The genitive of negation, generalised past 'nie mam'. a1_negation taught nie mam kawy as a fact about miec; it is a fact about EVERY negated transitive verb (Nie kupilem chleba. Nie widze kawy.). One rule extension, high frequency, and it names a pattern the learner has already met without a name. NOTE: chleba is verified NEW - chleb is one of the real-world exceptions to this course's simplified masculine-genitive rule, already caught once in b1_imperative_rule; teach the form or pick another noun.",
+   "note": "B2 Block 6, unit 1. The genitive of negation, generalised off miec. a1_negation taught nie mam kawy at A1 as a fact about ONE verb; it is a fact about every negated transitive verb, and this unit says so. ONE NEW LEMMA IN THE WHOLE UNIT - chleba - and it is here for exactly the reason this node's spine note flagged: the unit states 'masculine takes -u' (telefon -> telefonu, pokoj -> pokoju, dom -> domu), and chleb is the one high-frequency masculine in this course that refuses it. chleb has been owned since leaf_food_a1, it sits inside poprosze chleb, and b2_jesli's own type stage has kupie chleb, so teaching the rule while leaving chleba out would set Dad up to build chlebu on a word he uses constantly. Handed over as ONE boxed exception (the dziecmi / ludzmi / kelnerzy closed-set idiom), never as a sub-rule, and the non-word chlebu is never printed anywhere, distractors included. EVERYTHING ELSE IS RECYCLED - both halves of every pair are owned, which is why a rule this broad costs almost nothing. THE MATCH BOARD IS SIX MINIMAL PAIRS, positive row then negative row, because the contrast IS the content. THE MASCULINE-ANIMATE PAIR IS THE RELIEF: Mam psa -> Nie mam psa, nothing changes at all, since AGENTS.md's named Acc=Gen exception means the object form of a man or an animal already IS the genitive. SLIDE 3 IS A GUARD AGAINST OVER-APPLICATION and is deliberate rather than a second fact: only a direct OBJECT moves, so Nie mieszkam w domu, Nie jestem lekarzem, Nie ide do sklepu and Nie pomagam mamie are all unchanged - quiz items 11 and 12 are that guard, in the idiom of b2_num_virile's osoba guard. HOMOGRAPH CHECKS: gazety stays out of every object slot (a2_plural_nom owns that string as a NOMINATIVE PLURAL); wina is not used as a genitive of wino for the same reason; drogi appears nowhere (leaf_shopping_a1 owns it as the adjective 'expensive'); piwa and ksiazki are used only in the genitive-singular job their own packs taught them in. FENCED AND LOGGED: PLURAL OBJECTS (Nie mam gazet) are legal by now and are still held - the unit has one fact and number is orthogonal to it; b2_case_gym and b2_wrapup are where that recombination belongs, and this is the one scope call James might want to overturn. Also fenced: samochodu, adresu, cukru, soku, biletu, klucza, kurtke (all verified NEW); chlebu, never printed; no oblique pronouns; no plural oblique adjectives (O3 -> C1), the seventh bare-noun unit running.",
    "pedagogy": "teach",
    "root": "forms",
-   "tree_part": "forms"
+   "tree_part": "forms",
+   "content": "grammar/blocks/b2_neg_gen.json"
   },
   {
    "id": "b2_double_neg",
