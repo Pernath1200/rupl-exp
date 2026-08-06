@@ -2998,3 +2998,92 @@ Live through `b2_prefix_lens` (path index 167, **161 live nodes**). Next unbuilt
 non-station B2 node: **`b2_prefix_two_jobs`** (path 168), then `b2_pisac_family`,
 `b2_verb_family2` to close Block 6a. `b2_station_1` / `b2_station_2` stay `planned`
 forever; `a2_past_gym` stays retired.
+
+## Batch 14 — b2_prefix_two_jobs, 3 repair packs, and a mid-run ruling
+
+**Repairs first (step 0), 3 packs, 30 items — the whole remaining `b2_*` front half.**
+`b2_gdyby`, `b2_indirect_q`, `b2_jesli` converted from full-sentence Pisanie to cloze.
+First run where three ENTIRE Pisanie stages convert: every item in all three packs was a
+composed 4–8 word sentence, so there was nothing under the word cap left to re-test with
+the composition sweep. Only **one blank in 30** falls off its unit's teaching point
+(`b2_indirect_q` #9 — the pack has two `czy` sentences and a second `czy` answer would
+duplicate within the stage), logged per-item. Verification was mechanical rather than
+visual: every frame asserted to reconstruct its original sentence character-for-character,
+duplicates checked with a Python mirror of the engine's own `norm()`, and every field
+outside `type_items` proven identical to HEAD by dict comparison. Remaining queue: **3
+packs, 30 items** (`b2_ktory_full`, `b2_reported`, `b2_ze_clauses`).
+
+`b2_jesli` deserves a note: its pack note requires the future-inside-the-jeśli-clause fact
+to be demanded *in production*, and a careless conversion would have quietly destroyed
+that. Every one of its five future items still blanks a future form — two inside the
+jeśli-clause itself (`będzie`, `będziesz`), and where `będzie` was already spent the blank
+takes the perfective future in the result clause rather than dropping to a present.
+
+**Built: `b2_prefix_two_jobs`** (path 168) — Block 6a unit 3, the James-question unit.
+ZERO new material; `teaches_lemmas` is empty and the unit declares `prefix_two_jobs`
+alone, the `b2_prefix_lens` precedent that keeps it off the `teaches_empty_grammar` warn.
+First job: the prefix contributes no meaning and only marks the perfective, and a
+perfective has no present so `zrobię` is a future. Second job: the prefix derives a
+different verb. The landing line is carried by the **wypić/wyjść** minimal pair, which is
+also the title — the same `wy-` doing both jobs — and that pair is exactly the handoff
+`b2_prefix_lens` set up when it excluded `wypić` from its lens on purpose.
+
+Full ladder rather than receptive-only, following the `b1_two_futures` idiom the spine
+names by ID; production is always *choosing* between forms the course already taught,
+never building a prefixed verb. Pisanie is 12 single-word forms, so the ≤3-word cap is met
+by construction. **Kontrola needed a ruling against the spine:** the spine phrases the task
+as "which job is the prefix doing?", which asked literally is a meta-question ABOUT the
+language and is banned by AGENTS — so every quiz item is a real form in a real sentence
+with the job-1 and job-2 candidates side by side, and the two form-choice items follow the
+`b2_aspect_prefixes` quiz-10 precedent instead.
+
+**The sharpest fence:** `pójść`/`pojechać` appear nowhere. `po-` on `iść` is aspectual —
+`pójść` is `iść`'s perfective, not a directional verb — so it is the FIRST job landing on a
+motion verb, a genuine third fact that would blur the very split this unit exists to draw.
+Logged for C1.
+
+**Pool catch:** `pisała` was drafted as a quiz distractor and rejected — `b2_aspect_prefixes`
+teaches `pisać`'s past in the first person only, so the third person is not owned. Rebuilt as
+`napisałem`/`pisałem`. Every Polish token in the pack was checked against the position-aware
+pool by script, not by eye. Title corrected from the planned `Przedrostki · dwie prace`
+(both words untaught) on the `b2_prefix_lens` precedent.
+
+### James's ruling landed mid-run and the unit was rewritten to it
+
+The push was rejected because `b21a195` had arrived. After rebasing, the unit was
+**re-registered before shipping**: the intro now names the real categories — prefix,
+aspect, perfective, imperfective, derivation — instead of the "front piece / two jobs /
+twins" framing it was first drafted with, and the Polish in the slide `pl` lines
+(`przedrostek`, `aspekt dokonany`, `nowy czasownik`) is the metalanguage set already live
+in `a2_aspect` and `b2_aspect_prefixes`. Checking the ruling against the course showed the
+first draft was out of step with what was *already there*, not only with the new rule:
+"perfective" appears 25× in `a2_aspect` and 22× in `b2_aspect_prefixes`, and `a2_aspect`'s
+own slide `title_pl` is *Cztery pary czasowników*.
+
+**Consequence for James to see:** this makes `b2_prefix_two_jobs` the odd one out in its own
+strand. `b2_prefix_lens` (167) and `b2_motion_imperf` (166) still speak of a "front piece"
+and of "twins". The terminology in the new unit is the target, not a local choice — those
+two are the obvious first stop for the intro-register sweep, ahead of their A2 neighbours,
+because they are the same strand and one node apart.
+
+### Smoke-check shortlist for James
+
+1. **The accent folds now suppress your new „z ogonkami" feedback.** `isAccentNearMiss` only
+   fires when `isCorrect` returned false, so any item whose `accepts` already holds the
+   deaccented string scores a diacritics-less answer as an exact hit and never shows the
+   correction. Measured: **161 items across 18 packs**, biggest offenders `b2_aspect_prefixes`
+   (28), `b2_motion_prefixes2` (28), `b2_motion_imperf` (19), `a2_imperative` (17),
+   `b1_polite` (11). Full list and counts in `REPAIR-QUEUE.md`. Not swept — it changes
+   grading across packs outside the repair queue, so it is your call; one script either way.
+2. `b2_prefix_two_jobs` intro — is the register right? It is the first unit authored to the
+   new ruling and is the model the sweep would copy.
+3. Whether the "second job" slide should name **derivation** as plainly as it does, or
+   whether that is a term too far.
+4. `b2_indirect_q` #9 — the one blank in 30 that had to fall off the teaching point.
+
+### Where the path stands
+
+Live through `b2_prefix_two_jobs` (path index 168, **162 live nodes**). Audit 162 nodes,
+**0 errors**, 2 warns (both the pre-existing empty-teaches review nodes). Next unbuilt
+non-station B2 node: **`b2_pisac_family`** (path 169), then `b2_verb_family2` to close
+Block 6a. `b2_station_1` / `b2_station_2` stay `planned` forever; `a2_past_gym` stays retired.
