@@ -97,6 +97,7 @@ STRUCTURE_CATALOGUE = {
     "adverb_comp",
     "vocative_chunk",
     "conjunctions",
+    "copular_future",
 }
 
 GLUE_LEMMAS = {

@@ -2906,17 +2906,18 @@
       "id": "b2_copular_future",
       "domain": "grammar",
       "label": "Będę w domu",
-      "label_en": "I will be… · future of być",
+      "label_en": "I will be… · the future of być",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 1, unit 2. Pays a2_bedzie's explicitly accepted gap: 'the COPULAR future is NOT taught... consequence, accepted: I will be at home is not yet expressible.' ZERO new forms - bede..beda are owned, every place phrase and predicate adjective is owned. The whole unit is the syntactic fact that byc's future takes no infinitive after it. Cheapest high-value unit in B2.",
+      "note": "Pays the fork a2_bedzie took openly and logged in its own note: the copular future was not taught there, so 'I will be at home' was not expressible. It is now. Zero new forms and zero new lemmas — będę…będą have been owned since a2_bedzie and every complement type since A1. The whole payload is one syntactic fact: być is the only verb that never appears as an infinitive after będę, so będę stands alone and the complement follows it directly, in the slot it already occupies after jestem. Four complement types, all already owned: place, predicate adjective, Instrumental identity, and the impersonal adverb predicate (będzie dobrze — the future twin of a2_smalltalk's taught Było dobrze). a2_bedzie's 'the future has no gender' relief is explicitly preserved: the verb is one form, only the adjective after it agrees. Negation and the existential future are fenced (they govern the Genitive — deferred to b2_neg_gen), as are plural predicate adjectives, so every plural sentence here takes a place phrase.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b2_copular_future.json"
     },
     {
       "id": "b2_fem_soft",
