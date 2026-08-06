@@ -1,0 +1,601 @@
+{
+ "id": "b2_adj_inst",
+ "title": "Dobrym nauczycielem · narzędnik",
+ "title_en": "Adjectives in the Instrumental · no new endings",
+ "level": "B2",
+ "tree_node": "b2_adj_inst",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 2, unit 5 of 6 (spine O2). ZERO new endings and ZERO new lemmas — the whole unit is already-owned material doing a job it has not done before.\n\nAll six adjective forms report TAUGHT: dobrym, nowym, małym <- b2_adj_loc [path 137], one unit ago; dobrą, nową <- a1_miec [path 9]; małą <- b2_adj_acc [path 134]. Masculine and neuter reuse the -ym of the Locative; feminine reuses the -ą the learner has had as an object form since his ninth unit. teaches_lemmas is therefore empty, which is legitimate and precedented — b2_copular_future is the same shape (teaches_structures set, teaches_lemmas []), and the auditor only warns when BOTH are empty.\n\nTHIS IS THE FOURTH TURN OF THE COURSE'S SIGNATURE IDIOM. inst_identity taught the Instrumental for saying what someone is, inst_z extended it to accompaniment, inst_transport to means of travel; each time the endings stayed and the job changed. This unit does it once more, adding the adjective to all three jobs at once rather than inventing a fourth.\n\nWHY IT EARNS A SLOT RATHER THAN FOLDING INTO b2_adj_loc — the discrimination it adds is real and is not visible from either unit alone: for masculine and neuter the Locative and the Instrumental adjective are the SAME form (w dobrym hotelu / z dobrym kolegą), but for feminine they DIFFER (w dobrej firmie / z dobrą siostrą). So the gender decides whether the two cases can be told apart at all. Slide 4 is that table and quiz item 8 is the item that tests it.\n\nSECOND POINT, one line and one table row: kolega is a masculine noun whose Instrumental ends in -ą, so z dobrym kolegą pairs a masculine adjective with an -ą noun. The learner has owned kolegą since a2_inst_z and has known kolega is masculine since A1; putting an adjective in front of it is the first moment that masculinity becomes visible on the page. That makes it a gift, not a new load — but it is stated explicitly, because a Match board showing z dobrym kolegą next to z małą siostrą would otherwise look self-contradictory.\n\nFENCED:\n- -emu appears nowhere, not even as a distractor. b2_adj_dat is the very next unit.\n- No plural oblique adjectives (dobrymi) — spine O3 sends those to C1.\n- zimny is left out of the unit entirely. The Instrumental's three jobs are people's identity, accompaniment and transport, and none of them has a natural home for 'cold'; wodą is NEW in any case. Its absence costs nothing since the unit teaches no forms.\n- starym and dużym are NEW and appear nowhere — which is why starym samochodem, the most idiomatic transport phrase in the language, could not be used. małym and nowym carry the transport job instead.\n- nowe and duże are still unused anywhere, holding b2_adj_acc's standing line about a2_plural_nom's plurals.\n\nB2-SPINE'S OWN EXAMPLE FOR THIS UNIT WAS REJECTED: 'Jadę z miłą siostrą' — miłą reports NEW (the course owns miła and miły and has never inflected either). This is the second spine example in this batch that did not survive check_new.py; b2_adj_loc's 'Myślę o dobrym filmie' was the first.\n\nDISTRACTORS are real taught Polish in the wrong slot: the Genitives of two units ago (dobrego, nowego, małego), the Locative/Genitive feminines (dobrej, nowej, małej), and Nominatives. Nothing fabricated. Quiz answers are all distinct.",
+ "focus_structures": [
+  "adj_inst"
+ ],
+ "teaches_structures": [
+  "adj_inst"
+ ],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "adj_inst",
+  "adj_loc",
+  "adj_gen",
+  "adj_acc",
+  "inst_identity",
+  "inst_z",
+  "inst_transport",
+  "byc_present",
+  "prep_w_loc",
+  "prep_place",
+  "o_loc",
+  "prep_do_gen",
+  "motion_chunk",
+  "jechac",
+  "present",
+  "present_e_isz",
+  "poss_nom",
+  "conjunctions",
+  "zgoda"
+ ],
+ "intro": [
+  {
+   "title": "Nothing new to learn — you already have both forms",
+   "title_pl": "-ym · -ą",
+   "body": "This is the case you use for saying what someone is, for going somewhere with someone, and for how you travel. You have used all three for a long time. The adjective that goes with it needs no new ending at all: masculine and neuter take the same -ym you learned last lesson, and feminine takes the -ą you have been using as an object form since your very first lessons.",
+   "body_pl": "narzędnik · -ym (m. i n.) · -ą (ż.) — końcówki bez zmian",
+   "table": {
+    "headers": [
+     "Gender",
+     "Plain form",
+     "This form",
+     "Where you have already seen it"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "dobry",
+      "dobrym",
+      "w dobrym hotelu"
+     ],
+     [
+      "neuter",
+      "małe",
+      "małym",
+      "w małym mieście"
+     ],
+     [
+      "feminine",
+      "dobra",
+      "dobrą",
+      "Mam dobrą kawę."
+     ],
+     [
+      "feminine",
+      "nowa",
+      "nową",
+      "Mam nową książkę."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Three jobs, and you already do all three",
+   "title_pl": "Jestem… · z… · …samochodem",
+   "body": "Nothing about when to use this form has changed. These are the same three jobs you have had since A1 and A2. The only difference is that the adjective now comes along.",
+   "body_pl": "Jestem dobrym nauczycielem. · z małym bratem · nowym samochodem",
+   "table": {
+    "headers": [
+     "Job",
+     "What you already said",
+     "With an adjective"
+    ],
+    "rows": [
+     [
+      "saying what someone is",
+      "Jestem nauczycielem.",
+      "Jestem dobrym nauczycielem."
+     ],
+     [
+      "with a person",
+      "z bratem",
+      "z małym bratem"
+     ],
+     [
+      "how you travel",
+      "samochodem",
+      "nowym samochodem"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "One word worth looking at twice: kolega",
+   "title_pl": "kolega (m) → z dobrym kolegą",
+   "body": "kolega is a masculine word, even though it ends in -a — you have known that since you learned it. So in this case its ending is -ą, but the adjective in front of it is the masculine one. This is the first time that has been visible on the page, and it is the only place in this lesson where the noun and the adjective look like they disagree.",
+   "body_pl": "kolega (m) · tata (m) — rodzaj męski, końcówka -a",
+   "table": {
+    "headers": [
+     "Phrase",
+     "Noun ending",
+     "Adjective is"
+    ],
+    "rows": [
+     [
+      "z małym bratem",
+      "-em",
+      "masculine"
+     ],
+     [
+      "z dobrym kolegą",
+      "-ą",
+      "masculine — kolega is a masculine word"
+     ],
+     [
+      "z małą siostrą",
+      "-ą",
+      "feminine"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "When can you tell this case from the last one?",
+   "title_pl": "w dobrej firmie · z dobrą siostrą",
+   "body": "For masculine and neuter words you cannot — the adjective is dobrym in both, and it is the little word in front that tells you which case you are in. For feminine words you can: the last lesson's form is dobrej and this one is dobrą. So gender decides whether the two cases look different at all.",
+   "body_pl": "-ym = -ym · -ej ≠ -ą",
+   "table": {
+    "headers": [
+     "Gender",
+     "Last lesson (w, na, o)",
+     "This lesson (z, jestem, travel)",
+     "Same?"
+    ],
+    "rows": [
+     [
+      "masculine / neuter",
+      "w dobrym hotelu",
+      "z dobrym kolegą",
+      "yes — the same form"
+     ],
+     [
+      "feminine",
+      "w dobrej firmie",
+      "z dobrą siostrą",
+      "no — dobrej and dobrą"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I'm a good teacher.",
+   "pl": "Jestem dobrym nauczycielem."
+  },
+  {
+   "en": "Mum is a good doctor.",
+   "pl": "Mama jest dobrą lekarką."
+  },
+  {
+   "en": "My brother is a good student.",
+   "pl": "Mój brat jest dobrym studentem."
+  },
+  {
+   "en": "My sister is a new teacher.",
+   "pl": "Moja siostra jest nową nauczycielką."
+  },
+  {
+   "en": "with my little brother",
+   "pl": "z małym bratem"
+  },
+  {
+   "en": "with my little sister",
+   "pl": "z małą siostrą"
+  },
+  {
+   "en": "with a good colleague",
+   "pl": "z dobrym kolegą"
+  },
+  {
+   "en": "with a small child",
+   "pl": "z małym dzieckiem"
+  },
+  {
+   "en": "by the new car",
+   "pl": "nowym samochodem"
+  },
+  {
+   "en": "by the small car",
+   "pl": "małym samochodem"
+  },
+  {
+   "en": "by the new bus",
+   "pl": "nowym autobusem"
+  },
+  {
+   "en": "by the new bike",
+   "pl": "nowym rowerem"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Jestem ___ nauczycielem. (good)",
+   "choices": [
+    "dobrym",
+    "dobrego",
+    "dobry",
+    "dobrej"
+   ],
+   "answer": "dobrym",
+   "explain": "nauczyciel is masculine, so -ym — the very same form you used last lesson in w dobrym hotelu. dobry is the plain form, which is what you would say if you were describing him, not saying what he is."
+  },
+  {
+   "prompt": "Mama jest ___ lekarką. (good)",
+   "choices": [
+    "dobrą",
+    "dobra",
+    "dobrej",
+    "dobrego"
+   ],
+   "answer": "dobrą",
+   "explain": "Feminine, so -ą — the object form you have used since Mam dobrą kawę. This is where the feminine differs from last lesson, which would have been dobrej."
+  },
+  {
+   "prompt": "Moja siostra jest ___ nauczycielką. (new)",
+   "choices": [
+    "nową",
+    "nowa",
+    "nowej",
+    "nowego"
+   ],
+   "answer": "nową",
+   "explain": "Same ending as dobrą lekarką. nowa is the plain form — Moja siostra jest nowa would mean she herself is new."
+  },
+  {
+   "prompt": "Jadę ___ samochodem. (new)",
+   "choices": [
+    "nowym",
+    "nowego",
+    "nowy",
+    "nowej"
+   ],
+   "answer": "nowym",
+   "explain": "How you travel takes this case with no little word in front of it at all — samochodem already means by car, and the adjective simply matches it."
+  },
+  {
+   "prompt": "Idę z ___ bratem. (small)",
+   "choices": [
+    "małym",
+    "małego",
+    "mały",
+    "małej"
+   ],
+   "answer": "małym",
+   "explain": "z takes this case, brat is masculine, so -ym. małego is the form after do or nie mam."
+  },
+  {
+   "prompt": "Idę z ___ siostrą. (small)",
+   "choices": [
+    "małą",
+    "mała",
+    "małej",
+    "małego"
+   ],
+   "answer": "małą",
+   "explain": "Same sentence, feminine noun — so -ą instead. Compare z małym bratem: only the gender changed."
+  },
+  {
+   "prompt": "I'm going with a good colleague. →",
+   "choices": [
+    "Idę z dobrym kolegą.",
+    "Idę z dobrą kolegą.",
+    "Idę z dobry kolegą.",
+    "Idę z dobrym kolega."
+   ],
+   "answer": "Idę z dobrym kolegą.",
+   "explain": "kolega ends in -a but it is a masculine word, so the adjective is the masculine dobrym. dobrą kolegą follows the noun's ending instead of its gender, which is the trap."
+  },
+  {
+   "prompt": "Myślę o ___ pracy. (new)",
+   "choices": [
+    "nowej",
+    "nową",
+    "nowym",
+    "nowa"
+   ],
+   "answer": "nowej",
+   "explain": "o is not this lesson's case — it takes last lesson's form, and for a feminine word that is -ej. This is the one place where the two look different, so o and z do not behave alike here."
+  },
+  {
+   "prompt": "My brother is a good student. →",
+   "choices": [
+    "Mój brat jest dobrym studentem.",
+    "Mój brat jest dobry studentem.",
+    "Mój brat jest dobrym student.",
+    "Mój brat jest dobrego studentem."
+   ],
+   "answer": "Mój brat jest dobrym studentem.",
+   "explain": "Both words move together. dobry studentem leaves the adjective as a subject, dobrym student leaves the noun behind, and dobrego is the form after do."
+  },
+  {
+   "prompt": "I'm going by the new bus. →",
+   "choices": [
+    "Jadę nowym autobusem.",
+    "Jadę nowy autobusem.",
+    "Jadę nowym autobus.",
+    "Jadę nową autobusem."
+   ],
+   "answer": "Jadę nowym autobusem.",
+   "explain": "autobus is masculine, so nową is the wrong gender; the other two move only one of the two words."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "a good teacher (saying what someone is)",
+   "mode": "full_word",
+   "answer": "dobrym nauczycielem",
+   "accepts": [
+    "dobrym nauczycielem"
+   ]
+  },
+  {
+   "prompt_en": "a good doctor, about a woman (saying what someone is)",
+   "mode": "full_word",
+   "answer": "dobrą lekarką",
+   "accepts": [
+    "dobrą lekarką"
+   ]
+  },
+  {
+   "prompt_en": "a good student (saying what someone is)",
+   "mode": "full_word",
+   "answer": "dobrym studentem",
+   "accepts": [
+    "dobrym studentem"
+   ]
+  },
+  {
+   "prompt_en": "a new teacher, about a woman (saying what someone is)",
+   "mode": "full_word",
+   "answer": "nową nauczycielką",
+   "accepts": [
+    "nową nauczycielką"
+   ]
+  },
+  {
+   "prompt_en": "with my little brother",
+   "mode": "full_word",
+   "answer": "z małym bratem",
+   "accepts": [
+    "z małym bratem"
+   ]
+  },
+  {
+   "prompt_en": "with my little sister",
+   "mode": "full_word",
+   "answer": "z małą siostrą",
+   "accepts": [
+    "z małą siostrą"
+   ]
+  },
+  {
+   "prompt_en": "with a good colleague",
+   "mode": "full_word",
+   "answer": "z dobrym kolegą",
+   "accepts": [
+    "z dobrym kolegą"
+   ]
+  },
+  {
+   "prompt_en": "with a small child",
+   "mode": "full_word",
+   "answer": "z małym dzieckiem",
+   "accepts": [
+    "z małym dzieckiem"
+   ]
+  },
+  {
+   "prompt_en": "by the new car",
+   "mode": "full_word",
+   "answer": "nowym samochodem",
+   "accepts": [
+    "nowym samochodem"
+   ]
+  },
+  {
+   "prompt_en": "by the new bus",
+   "mode": "full_word",
+   "answer": "nowym autobusem",
+   "accepts": [
+    "nowym autobusem"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum is a good doctor, and Dad is a good teacher.",
+   "answer": "Mama jest dobrą lekarką, a tata jest dobrym nauczycielem.",
+   "accepts": [
+    "Mama jest dobrą lekarką, a tata jest dobrym nauczycielem.",
+    "Mama jest dobrą lekarką, a tata jest dobrym nauczycielem"
+   ],
+   "explain": "One sentence, both genders: lekarka is feminine and takes -ą, nauczyciel is masculine and takes -ym."
+  },
+  {
+   "prompt_en": "Type: My sister is a new teacher at a small school.",
+   "answer": "Moja siostra jest nową nauczycielką w małej szkole.",
+   "accepts": [
+    "Moja siostra jest nową nauczycielką w małej szkole.",
+    "Moja siostra jest nową nauczycielką w małej szkole"
+   ],
+   "explain": "Two cases in one sentence, and the feminine tells them apart: nową after jest, małej after w."
+  },
+  {
+   "prompt_en": "Type: I'm going to the park with my little brother and my little sister.",
+   "answer": "Idę do parku z małym bratem i z małą siostrą.",
+   "accepts": [
+    "Idę do parku z małym bratem i z małą siostrą.",
+    "Idę do parku z małym bratem i z małą siostrą"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad goes to work by the new car.",
+   "answer": "Tata jedzie do pracy nowym samochodem.",
+   "accepts": [
+    "Tata jedzie do pracy nowym samochodem.",
+    "Tata jedzie do pracy nowym samochodem"
+   ]
+  },
+  {
+   "prompt_en": "Type: My mum is going to the city by the new bus.",
+   "answer": "Moja mama jedzie do miasta nowym autobusem.",
+   "accepts": [
+    "Moja mama jedzie do miasta nowym autobusem.",
+    "Moja mama jedzie do miasta nowym autobusem"
+   ]
+  },
+  {
+   "prompt_en": "Type: My son is a good student.",
+   "answer": "Mój syn jest dobrym studentem.",
+   "accepts": [
+    "Mój syn jest dobrym studentem.",
+    "Mój syn jest dobrym studentem"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm going with a good colleague to the new shop.",
+   "answer": "Idę z dobrym kolegą do nowego sklepu.",
+   "accepts": [
+    "Idę z dobrym kolegą do nowego sklepu.",
+    "Idę z dobrym kolegą do nowego sklepu"
+   ],
+   "explain": "kolegą takes the masculine dobrym despite its -ą ending; sklepu after do takes nowego, which is a different case again."
+  },
+  {
+   "prompt_en": "Type: My sister lives in a new house with a small child.",
+   "answer": "Moja siostra mieszka w nowym domu z małym dzieckiem.",
+   "accepts": [
+    "Moja siostra mieszka w nowym domu z małym dzieckiem.",
+    "Moja siostra mieszka w nowym domu z małym dzieckiem"
+   ],
+   "explain": "nowym and małym are the same form here, but they are two different cases — w put the first one there and z put the second."
+  },
+  {
+   "prompt_en": "Type: I'm going to school by the small car, and my brother goes by bike.",
+   "answer": "Jadę do szkoły małym samochodem, a mój brat jedzie rowerem.",
+   "accepts": [
+    "Jadę do szkoły małym samochodem, a mój brat jedzie rowerem.",
+    "Jadę do szkoły małym samochodem, a mój brat jedzie rowerem"
+   ]
+  },
+  {
+   "prompt_en": "Type: My grandad is a good waiter.",
+   "answer": "Mój dziadek jest dobrym kelnerem.",
+   "accepts": [
+    "Mój dziadek jest dobrym kelnerem.",
+    "Mój dziadek jest dobrym kelnerem"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "dobra",
+  "dobre",
+  "dobry",
+  "dobrą",
+  "dobrym",
+  "dobrego",
+  "dobrej",
+  "nowa",
+  "nowy",
+  "nową",
+  "nowym",
+  "nowego",
+  "nowej",
+  "mała",
+  "małe",
+  "mały",
+  "małą",
+  "małym",
+  "małego",
+  "małej",
+  "nauczyciel",
+  "nauczycielem",
+  "nauczycielka",
+  "nauczycielką",
+  "lekarka",
+  "lekarką",
+  "student",
+  "studentem",
+  "kelnerem",
+  "brat",
+  "bratem",
+  "siostra",
+  "siostrą",
+  "kolega",
+  "kolegą",
+  "dziecko",
+  "dzieckiem",
+  "syn",
+  "dziadek",
+  "mama",
+  "tata",
+  "samochód",
+  "samochodem",
+  "autobus",
+  "autobusem",
+  "rower",
+  "rowerem",
+  "kawa",
+  "kawę",
+  "książkę",
+  "domu",
+  "hotelu",
+  "firmie",
+  "mieście",
+  "szkole",
+  "szkoły",
+  "pracy",
+  "sklepu",
+  "miasta",
+  "parku",
+  "jestem",
+  "jest",
+  "mam",
+  "idę",
+  "jadę",
+  "jedzie",
+  "mieszka",
+  "myślę",
+  "mój",
+  "moja",
+  "i",
+  "a",
+  "z bratem",
+  "z siostrą",
+  "z kolegą",
+  "w domu",
+  "w hotelu",
+  "w firmie",
+  "w mieście",
+  "w szkole",
+  "o pracy",
+  "do parku",
+  "do pracy",
+  "do miasta",
+  "do sklepu",
+  "do szkoły"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_adj_inst",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

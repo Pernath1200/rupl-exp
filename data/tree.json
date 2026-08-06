@@ -3012,17 +3012,18 @@
       "id": "b2_adj_inst",
       "domain": "grammar",
       "label": "Dobrym nauczycielem · narzędnik",
-      "label_en": "Adjectives in the Instrumental",
+      "label_en": "Adjectives in the Instrumental · no new endings",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 2, unit 4 of 6. NO NEW ENDINGS - -ym recycles from Locative, -a from Accusative. The course's signature 'same endings, another job' unit; this is the fourth turn of the pattern that runs inst_identity -> inst_z -> inst_transport. Jestem dobrym nauczycielem. Jade z mila siostra. Jade nowym autobusem.",
+      "note": "B2 Block 2, unit 5 of 6 (spine O2). ZERO new endings and ZERO new lemmas — the whole unit is already-owned material doing a job it has not done before. All six adjective forms report TAUGHT: dobrym, nowym, małym <- b2_adj_loc one unit ago; dobrą, nową <- a1_miec [path 9]; małą <- b2_adj_acc. Masculine and neuter reuse the -ym of the Locative, feminine reuses the -ą the learner has had as an object form since his ninth unit. teaches_lemmas is empty, which is legitimate and precedented — b2_copular_future is the same shape, and the auditor only warns when BOTH teaches_* are empty. THE FOURTH TURN OF THE COURSE'S SIGNATURE IDIOM: inst_identity → inst_z → inst_transport → here, each time the endings staying and the job changing; this unit adds the adjective to all three jobs at once rather than inventing a fourth. WHY IT EARNS A SLOT rather than folding into b2_adj_loc — the discrimination it adds is invisible from either unit alone: for masculine and neuter the Locative and Instrumental adjective are the SAME form (w dobrym hotelu / z dobrym kolegą), but for feminine they DIFFER (w dobrej firmie / z dobrą siostrą), so gender decides whether the two cases can be told apart at all. Slide 4 is that table and quiz item 8 tests it. SECOND POINT, one line and one table row: kolega is a masculine noun whose Instrumental ends in -ą, so z dobrym kolegą pairs a masculine adjective with an -ą noun. The learner has owned kolegą since a2_inst_z and kolega's masculinity since A1; putting an adjective in front of it is the first moment that masculinity is visible on the page — a gift, not a load, but stated explicitly because a Match board showing z dobrym kolegą beside z małą siostrą would otherwise look self-contradictory. FENCED: -emu appears nowhere including as a distractor (b2_adj_dat is the very next unit); no plural oblique adjectives (C1, spine O3); zimny is left out entirely because none of the Instrumental's three jobs has a natural home for 'cold' and wodą is NEW anyway — costless, since the unit teaches no forms; starym and dużym are NEW and appear nowhere, which is why starym samochodem, the most idiomatic transport phrase in the language, could not be used; nowe and duże remain unused, holding b2_adj_acc's standing line about a2_plural_nom's plurals. B2-SPINE'S OWN EXAMPLE FOR THIS UNIT WAS REJECTED: 'Jadę z miłą siostrą' — miłą reports NEW. That is the second spine example in this batch to fail check_new.py; b2_adj_loc's 'Myślę o dobrym filmie' was the first.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_adj_inst.json"
     },
     {
       "id": "b2_adj_dat",
