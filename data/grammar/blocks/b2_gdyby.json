@@ -370,100 +370,110 @@
  "type_items": [
   {
    "prompt_en": "If I had money, I would buy a car.",
-   "mode": "full_word",
-   "answer": "Gdybym miał pieniądze, kupiłbym samochód.",
+   "mode": "cloze",
+   "answer": "kupiłbym",
    "accepts": [
-    "Gdybym miał pieniądze, kupiłbym samochód.",
-    "Gdybym miał pieniądze, kupiłbym samochód"
+    "kupiłbym"
    ],
-   "explain": "The marker turns up twice on purpose: once on gdybym and once on kupiłbym. Between them the verb is a plain miał."
+   "explain": "The marker turns up twice on purpose: once on gdybym and once on kupiłbym. Between them the verb is a plain miał.",
+   "frame": "Gdybym miał pieniądze, ___ samochód.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the RESULT-clause conditional, which is exactly what this item's explain names: the double marker. gdybym stays on screen so the pair is still read whole."
   },
   {
    "prompt_en": "If Mum had time, she would make dinner.",
-   "mode": "full_word",
-   "answer": "Gdyby mama miała czas, zrobiłaby obiad.",
+   "mode": "cloze",
+   "answer": "zrobiłaby",
    "accepts": [
-    "Gdyby mama miała czas, zrobiłaby obiad.",
-    "Gdyby mama miała czas, zrobiłaby obiad"
+    "zrobiłaby"
    ],
-   "explain": "For he or she the opener takes no marker at all — just gdyby. Only the result verb shows who, and for a woman that is zrobiłaby."
+   "explain": "For he or she the opener takes no marker at all — just gdyby. Only the result verb shows who, and for a woman that is zrobiłaby.",
+   "frame": "Gdyby mama miała czas, ___ obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the result conditional (feminine 3sg) — the teaching point of the item's own explain: the opener takes no marker, only the result verb shows who."
   },
   {
    "prompt_en": "If you had time, you would make dinner.",
-   "mode": "full_word",
-   "answer": "Gdybyś miał czas, zrobiłbyś obiad.",
+   "mode": "cloze",
+   "answer": "Gdybyś",
    "accepts": [
-    "Gdybyś miał czas, zrobiłbyś obiad.",
-    "Gdybyś miał czas, zrobiłbyś obiad"
+    "Gdybyś"
    ],
-   "explain": "ś on the opener and ś on the result verb, with a bare miał in between — the same shape as Chcę, żebyś zrobił obiad."
+   "explain": "ś on the opener and ś on the result verb, with a bare miał in between — the same shape as Chcę, żebyś zrobił obiad.",
+   "frame": "___ miał czas, zrobiłbyś obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the opener — a teaches_lemma. Produced exactly once in the stage; the -s on the visible zrobiłbys anchors the person."
   },
   {
    "prompt_en": "If Dad had time, he would make coffee.",
-   "mode": "full_word",
-   "answer": "Gdyby tata miał czas, zrobiłby kawę.",
+   "mode": "cloze",
+   "answer": "Gdyby",
    "accepts": [
-    "Gdyby tata miał czas, zrobiłby kawę.",
-    "Gdyby tata miał czas, zrobiłby kawę"
-   ]
+    "Gdyby"
+   ],
+   "frame": "___ tata miał czas, zrobiłby kawę.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the bare opener — a teaches_lemma, the no-marker third-person turn of the pattern. Produced exactly once in the stage."
   },
   {
    "prompt_en": "If I had time, I would like to be in the park.",
-   "mode": "full_word",
-   "answer": "Gdybym miał czas, chciałbym być w parku.",
+   "mode": "cloze",
+   "answer": "Gdybym",
    "accepts": [
-    "Gdybym miał czas, chciałbym być w parku.",
-    "Gdybym miał czas, chciałbym być w parku"
+    "Gdybym"
    ],
-   "explain": "chciałbym takes the plain dictionary verb być after it, and być then needs nothing but the place."
+   "explain": "chciałbym takes the plain dictionary verb być after it, and być then needs nothing but the place.",
+   "frame": "___ miał czas, chciałbym być w parku.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the 1sg opener — a teaches_lemma. Produced exactly once in the stage; the visible chciałbym anchors the person."
   },
   {
    "prompt_en": "If Mum were in the shop, she would buy bread.",
-   "mode": "full_word",
-   "answer": "Gdyby mama była w sklepie, kupiłaby chleb.",
+   "mode": "cloze",
+   "answer": "kupiłaby",
    "accepts": [
-    "Gdyby mama była w sklepie, kupiłaby chleb.",
-    "Gdyby mama była w sklepie, kupiłaby chleb"
-   ]
+    "kupiłaby"
+   ],
+   "frame": "Gdyby mama była w sklepie, ___ chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the result conditional. Distinct from item 1 (zrobiłaby) and item 0 (kupiłbym)."
   },
   {
    "prompt_en": "If Dad were at home, he could help.",
-   "mode": "full_word",
-   "answer": "Gdyby tata był w domu, mógłby pomóc.",
+   "mode": "cloze",
+   "answer": "mógłby",
    "accepts": [
-    "Gdyby tata był w domu, mógłby pomóc.",
-    "Gdyby tata był w domu, mógłby pomóc"
+    "mógłby"
    ],
-   "explain": "mógłby is could rather than would, and like every conditional it takes the plain dictionary verb after it: pomóc."
+   "explain": "mógłby is could rather than would, and like every conditional it takes the plain dictionary verb after it: pomóc.",
+   "frame": "Gdyby tata był w domu, ___ pomóc.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the result conditional, which the item's explain already singles out (could, not would, and it takes a plain infinitive after it)."
   },
   {
    "prompt_en": "If I were in Poland, I would like to speak Polish.",
-   "mode": "full_word",
-   "answer": "Gdybym był w Polsce, chciałbym mówić po polsku.",
+   "mode": "cloze",
+   "answer": "był",
    "accepts": [
-    "Gdybym był w Polsce, chciałbym mówić po polsku.",
-    "Gdybym był w Polsce, chciałbym mówić po polsku"
+    "był"
    ],
-   "explain": "English switches to were here — if I were. Polish does not change anything: it is the same plain był it uses for he."
+   "explain": "English switches to were here — if I were. Polish does not change anything: it is the same plain był it uses for he.",
+   "frame": "Gdybym ___ w Polsce, chciałbym mówić po polsku.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Blank on the PLAIN L-FORM after gdyby — the unit's second teaching point (the verb after the opener stays plain), and precisely what this item's explain is about: English switches to 'were', Polish does not change anything. Result conditional chciałbym was spent as a visible anchor here and is produced nowhere; the openers carry the 1sg production instead."
   },
   {
    "prompt_en": "If Mum had money, she would buy a house.",
-   "mode": "full_word",
-   "answer": "Gdyby mama miała pieniądze, kupiłaby dom.",
+   "mode": "cloze",
+   "answer": "miała",
    "accepts": [
-    "Gdyby mama miała pieniądze, kupiłaby dom.",
-    "Gdyby mama miała pieniądze, kupiłaby dom"
-   ]
+    "miała"
+   ],
+   "frame": "Gdyby mama ___ pieniądze, kupiłaby dom.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the plain L-form after gdyby, same teaching point as item 7. kupiłaby was spent at item 5, so the result slot was unavailable without duplicating an answer."
   },
   {
    "prompt_en": "If you had money, you would want a new car.",
-   "mode": "full_word",
-   "answer": "Gdybyś miał pieniądze, chciałbyś nowy samochód.",
+   "mode": "cloze",
+   "answer": "chciałbyś",
    "accepts": [
-    "Gdybyś miał pieniądze, chciałbyś nowy samochód.",
-    "Gdybyś miał pieniądze, chciałbyś nowy samochód"
+    "chciałbyś"
    ],
-   "explain": "samochód is a masculine thing, so neither it nor nowy changes after chciałbyś."
+   "explain": "samochód is a masculine thing, so neither it nor nowy changes after chciałbyś.",
+   "frame": "Gdybyś miał pieniądze, ___ nowy samochód.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the result conditional (2sg). The item's explain is about the unchanged nowy samochód, which stays visible."
   }
  ],
  "use_items": [
