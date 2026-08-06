@@ -2847,3 +2847,154 @@ contrast and it is not re-opened.
 - **New C1 inbox items from this batch**, neither in B2-SPINE's leaves-to-C1
   list: `przejść` + the `przez` + Accusative governor (and `wjechać` with it),
   and the `sprzątać`/`posprzątać` pair.
+
+## Batch 13 — Block 6a opens (`b2_motion_imperf`, `b2_prefix_lens`) + 3 repair packs
+
+Repair-heavy run: the queue's step-0 rule took the first three packs, so two new
+units rather than three. Both are Block 6a, the JAMES-LOCKED prefix strand.
+Audit after every commit: **0 errors**, 161 nodes, the same 2 pre-existing
+`a2_prep_review` / `b1_two_futures` empty-teaches warns B1 and B2 have carried
+throughout. Commits and pushes one per unit, never batched. Two new structures
+registered in `SEQUENCING.md` **and** `audit.py` before auditing: `motion_imperf`,
+`prefix_lens`.
+
+### Pisanie repair — packs 10–12
+
+`b1_stories_func` (1), `b1_vocative_chunks` (5+1), `b1_wrapup` (3+2). **11 items
+converted**, 9 from the queue list and **2 the word-count sweep could not see**,
+caught by applying the refinement's composition test: `b1_vocative_chunks` #9
+„Dziadku, jestem głodny." and `b1_wrapup` #6 „Nagle zgubiłem się." — both 3 words,
+both a chunk with a clause bolted on. Full reasoning is logged in
+`REPAIR-QUEUE.md`'s conversion log; the queue now stands at **6 packs, 60 items,
+all `b2_*`**.
+
+Three things there worth James's eye. (1) `b1_vocative_chunks` is the first pack
+where the teaching point was unavailable on **every** converted item — the six
+calling-forms are each produced whole at items 0–5, so any vocative blank would
+have duplicated an answer inside the stage. All six blanks therefore sit on the
+bolted-on clause, logged per item, with the calling-form left visible in the
+frame. No new explain states a vocative endings rule; spine decision #4 holds.
+(2) A line was drawn on the composition sweep and applied consistently, and it
+would be worth ruling on once: **a bolted-on part makes a sentence composed**
+(vocative/connective + clause → cloze), while **a single minimal clause with no
+bolted-on part is a pattern unit** and stays typed whole — so „Planuję spotkanie."
+and „Muszę to załatwić." were held, following the previous run's precedent of
+holding borderline ≤3-word items rather than over-converting. (3) `b1_wrapup` #1
+blanks the time chunk **whole** (`w przyszłym tygodniu`) because `check_new.py`
+reports `tygodniu` is not independently taught — `b1_plans` owns the phrase as one
+multi-word lemma, so blanking inside it would have demanded an untaught form.
+
+### `b2_motion_imperf` — the secondary-imperfective bridge
+
+The everyday partners of the once-and-done arrive/leave verbs: `wychodzić`,
+`przychodzić`, `wyjeżdżać`, `przyjeżdżać` against the owned `wyjść`, `przyjść`,
+`wyjechać`, `przyjechać`. Memorized whole twins, the `miałem`/`mógłby` treatment —
+the -ywa-/-a- formation rule is **not stated**, and slide 2 says the opposite out
+loud ("there is no sum you can do to get from one to the other"), restating
+`a2_aspect`'s standing framing. Locked decision #4 reserves the rule for C1.
+
+**THE SPINE'S PREMISE WAS PARTLY WRONG AND THIS UNIT CORRECTS IT — check this
+first.** B2-SPINE and the tree node both list `wychodzić` as new material to be
+taught here. `check_new.py` says `wychodzić`/`wychodzę`/`wychodzisz` have been
+**taught since `a2_routine` [path 74]**, handed over as an ordinary daily-routine
+verb ("Wychodzę do pracy"), 1sg + 2sg only, with no partner and no aspect framing
+at all — and `a2_routine`'s own fence list explicitly reserves "the habitual
+partner of any prefixed motion verb". That is a gift rather than a problem and the
+unit is built on it: the anchor is that Dad has been using one half of this system
+every day since A2 without knowing it had a partner, so the whole idea is
+introduced on a verb he already says. Only the 3sg `wychodzi` is new on it.
+
+**Author's call, logged, on the spine's explicit option** ("+ wyjeżdżać/przyjeżdżać
+if load allows — author's call"): the vehicle pair **is included**. It costs 2
+verbs and **zero new endings** (both run on the -am/-asz class owned since
+`mieszkam`, as the on-foot pair runs on `chodzę`'s -ę/-isz), completes the
+on-foot/by-vehicle grid `b2_jezdzic` built three units earlier, and adds no second
+system. 13 new forms.
+
+**Fenced, all deliberate:** the **entire imperfective past** — `check_new` shows
+`chodziłem` itself is NEW, so `wychodziłem` would open the whole -ić past as a
+second new system in one unit; the aspect contrast is carried by the owned
+perfective pasts instead. Also all plural (on `b1_arrive_leave`'s own singular-only
+precedent), the imperfective future (`b1_two_futures` owns that), and any
+`jeździć`-vs-`wyjeżdżać` contrast — both are imperfective vehicle verbs but they are
+different verbs, and that axis is not this unit's content. No prefix meaning is
+claimed anywhere; that is the next unit's material.
+
+**Homograph catch worth recording:** *do Polski* was drafted and **rejected**.
+`check_new` reports `Polski` as TAUGHT (`a2_countries`), but that pack teaches it
+as the **adjective** `polski` (*język polski*) and its own note says it deliberately
+avoided the genitive *Polski* because it "collides visually with the adjective".
+The genitive is therefore not owned. Every destination in the pack is a chunk
+`a1_prep_do_z` or `a1_prep_review_2` teaches whole: *do pracy, do domu, do biura,
+do szkoły, z domu*. Also rejected as untaught: `Warszawy`, `dworca`, `w piątek`,
+`zwykle`, `zaraz`, `pieszo`.
+
+### `b2_prefix_lens` — the receptive reading lens
+
+Core 4 only: **wy-** out, **przy-** to/arriving, **do-** all-the-way, **od-**
+away/back. **Zero new lemmas** — every example is already-taught material re-seen,
+so `teaches_lemmas` is deliberately empty and the structure ID carries the unit.
+
+**Receptive-only is implemented structurally, not promised.** `type_items` and
+`use_items` are **empty arrays**, on the live precedent of `b1_virile_reco`
+(B1-SPINE decision #1, "RECOGNITION ONLY"), which ships the same way and audits
+clean. So the spine's requirement that "the learner NEVER types a prefixed verb the
+course didn't teach" is met absolutely — there is no typing stage in which the
+question could arise. Assessment is a 12-row meaning board (3 rows per prefix) plus
+a quiz mixing frame-selection with straight comprehension items.
+
+**TITLE CORRECTED — the second thing for James to check.** The planned tree label
+was *Przedrostki · soczewka* / "Prefixes · the reading lens". `check_new.py` reports
+`przedrostki`, `przedrostek` **and** `soczewka` all NEW — two untaught Polish words
+in learner-visible chrome, which the AGENTS title rule forbids outright ("Never put
+an untaught Polish form in a title", a rule whose own text records it being broken
+three times in one night). Retitled to the house pattern on the *Idę czy jadę?*
+model, using two forms owned since `b1_arrive_leave`: **"Wyjść czy przyjść?"**, with
+`title_en` "Reading the front of the verb · out, to, up-to, back". The tree node's
+`label`/`label_en` were updated to match. `przedrostek` survives only in `body_pl`,
+the one lane AGENTS allows untaught metalanguage in — the same lane
+`b2_aspect_prefixes` already uses it in.
+
+**The honesty fences are the point of this unit.** `wypić` is excluded and never
+appears as a lens example: its wy- is completive rather than spatial, and drilling
+it here would teach a false meaning — that verb is `b2_prefix_two_jobs`' material
+one unit later. Same exclusion for `wydawać` and `wygrywać`. The opaque core-4 words
+Dad already owns (`przyjaciel`, `przystanek`, `przychodnia`, `przyczyna`, `przykład`,
+`odpowiedź`, `odpoczywać`, `odwiedzać`) are excluded from the drilled stages
+**entirely** — and that distinction earned its keep: a late self-check caught
+`przystanek` and `wycieczka` sitting as **distractors** in the przyjazd/odjazd item
+and swapped them for `pociąg`/`autobus`, because a przy-/wy- word standing inside a
+lens item silently invites exactly the false reading the unit exists to prevent.
+They are named on slide 1 instead, as the caveat that makes the locked line "you can
+READ these; don't build new ones" concrete rather than merely asserted. za-/po-/prze-
+get exactly one line as prefixes that make no promise, with no examples drilled. No
+formation rule of any kind.
+
+**`od-` is the thin corner, logged.** Only `oddawać`/`oddaję` (`b1_giving`) and the
+noun `odjazd` (`a2_transport2`) carry a transparent od-. That is an honest 3-row
+share of the board only because `odjazd` pairs against `przyjazd`, which makes the
+station board the unit's everyday payoff and gives od- a real use rather than one
+stranded verb. **If James wants od- fuller, the material has to come from a later
+unit — it cannot be invented here.**
+
+**Homograph check:** `książki` was drafted and rejected — `a1_gen_ki` teaches it as a
+**genitive singular**, and *oddaję książki* would need the accusative plural; the item
+uses `książkę` instead, taught as an accusative by `a1_miec`.
+
+### Smoke-check shortlist for James
+
+1. `b1_vocative_chunks` — six blanks now sit off the teaching point by necessity.
+   Does the pack still feel like it is drilling the calling-forms?
+2. The composed-vs-pattern-unit line drawn on the repair sweep (item 2 above). One
+   ruling settles the remaining 6 packs.
+3. `b2_motion_imperf` — the vehicle pair is the author's call and doubles the unit's
+   new-word count. If it feels heavy in the hand, `wyjeżdżać`/`przyjeżdżać` can be
+   lifted out without touching the on-foot half.
+4. `b2_prefix_lens` — the retitle, and whether od-'s three rows carry their weight.
+
+### Where the path stands
+
+Live through `b2_prefix_lens` (path index 167, **161 live nodes**). Next unbuilt
+non-station B2 node: **`b2_prefix_two_jobs`** (path 168), then `b2_pisac_family`,
+`b2_verb_family2` to close Block 6a. `b2_station_1` / `b2_station_2` stay `planned`
+forever; `a2_past_gym` stays retired.
