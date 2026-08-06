@@ -352,93 +352,103 @@
  "type_items": [
   {
    "prompt_en": "I don't know where the chemist's is.",
-   "mode": "full_word",
-   "answer": "Nie wiem, gdzie jest apteka.",
+   "mode": "cloze",
+   "answer": "gdzie",
    "accepts": [
-    "Nie wiem, gdzie jest apteka.",
-    "Nie wiem, gdzie jest apteka"
-   ]
+    "gdzie"
+   ],
+   "frame": "Nie wiem, ___ jest apteka.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word — the unit's teaching point and the slide-1 headline example."
   },
   {
    "prompt_en": "I don't know whether the shop is open.",
-   "mode": "full_word",
-   "answer": "Nie wiem, czy sklep jest otwarty.",
+   "mode": "cloze",
+   "answer": "czy",
    "accepts": [
-    "Nie wiem, czy sklep jest otwarty.",
-    "Nie wiem, czy sklep jest otwarty"
-   ]
+    "czy"
+   ],
+   "frame": "Nie wiem, ___ sklep jest otwarty.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on czy, the unit's ONE new job (whether/if). This is the slide-2 headline example, so czy is produced here and item 9 takes the fallback."
   },
   {
    "prompt_en": "I know when Mum will be at home.",
-   "mode": "full_word",
-   "answer": "Wiem, kiedy mama będzie w domu.",
+   "mode": "cloze",
+   "answer": "kiedy",
    "accepts": [
-    "Wiem, kiedy mama będzie w domu.",
-    "Wiem, kiedy mama będzie w domu"
-   ]
+    "kiedy"
+   ],
+   "frame": "Wiem, ___ mama będzie w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the embedded question word. Positive matrix (Wiem) stays visible."
   },
   {
    "prompt_en": "I don't know how much this costs.",
-   "mode": "full_word",
-   "answer": "Nie wiem, ile to kosztuje.",
+   "mode": "cloze",
+   "answer": "ile",
    "accepts": [
-    "Nie wiem, ile to kosztuje.",
-    "Nie wiem, ile to kosztuje"
-   ]
+    "ile"
+   ],
+   "frame": "Nie wiem, ___ to kosztuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
   },
   {
    "prompt_en": "I know why Dad is tired.",
-   "mode": "full_word",
-   "answer": "Wiem, dlaczego tata jest zmęczony.",
+   "mode": "cloze",
+   "answer": "dlaczego",
    "accepts": [
-    "Wiem, dlaczego tata jest zmęczony.",
-    "Wiem, dlaczego tata jest zmęczony"
-   ]
+    "dlaczego"
+   ],
+   "frame": "Wiem, ___ tata jest zmęczony.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
   },
   {
    "prompt_en": "I don't know which film is good.",
-   "mode": "full_word",
-   "answer": "Nie wiem, który film jest dobry.",
+   "mode": "cloze",
+   "answer": "który",
    "accepts": [
-    "Nie wiem, który film jest dobry.",
-    "Nie wiem, który film jest dobry"
-   ]
+    "który"
+   ],
+   "frame": "Nie wiem, ___ film jest dobry.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the embedded question word. który is INTERROGATIVE here, not the relative pronoun b2_ktory_full teaches on the next node — the pack note fences that explicitly and the frame keeps it in front of a bare noun, with no antecedent."
   },
   {
    "prompt_en": "I don't know who this is.",
-   "mode": "full_word",
-   "answer": "Nie wiem, kto to jest.",
+   "mode": "cloze",
+   "answer": "kto",
    "accepts": [
-    "Nie wiem, kto to jest.",
-    "Nie wiem, kto to jest"
-   ]
+    "kto"
+   ],
+   "frame": "Nie wiem, ___ to jest.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
   },
   {
    "prompt_en": "I don't know what Dad is doing.",
-   "mode": "full_word",
-   "answer": "Nie wiem, co tata robi.",
+   "mode": "cloze",
+   "answer": "co",
    "accepts": [
-    "Nie wiem, co tata robi.",
-    "Nie wiem, co tata robi"
-   ]
+    "co"
+   ],
+   "frame": "Nie wiem, ___ tata robi.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
   },
   {
    "prompt_en": "I don't know who Dad works with.",
-   "mode": "full_word",
-   "answer": "Nie wiem, z kim tata pracuje.",
+   "mode": "cloze",
+   "answer": "kim",
    "accepts": [
-    "Nie wiem, z kim tata pracuje.",
-    "Nie wiem, z kim tata pracuje"
-   ]
+    "kim"
+   ],
+   "frame": "Nie wiem, z ___ tata pracuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the oblique question word alone, leaving the governing z on screen: kim is what b2_kim_czym taught, and blanking 'z kim' whole would demand a preposition the unit does not teach."
   },
   {
    "prompt_en": "I don't know whether Mum has a referral.",
-   "mode": "full_word",
-   "answer": "Nie wiem, czy mama ma skierowanie.",
+   "mode": "cloze",
+   "answer": "skierowanie",
    "accepts": [
-    "Nie wiem, czy mama ma skierowanie.",
-    "Nie wiem, czy mama ma skierowanie"
-   ]
+    "skierowanie"
+   ],
+   "frame": "Nie wiem, czy mama ma ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. NOT on the teaching point — queue fallback clause. czy is this item's teaching-point word but it was spent at item 1 (the slide-2 headline), and a second czy would duplicate an answer within the stage; same forced choice as a2_phone_func #2-#4 and b1_polite #3. Blank falls on the most load-bearing remaining form, the content noun. Homograph check: skierowanie is neuter, so the accusative here is identical to the citation form and no unseen case is demanded."
   }
  ],
  "use_items": [
