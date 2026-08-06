@@ -3062,18 +3062,19 @@
     {
       "id": "b2_pron_acc",
       "domain": "grammar",
-      "label": "Mnie, cię, go",
-      "label_en": "Accusative pronouns",
+      "label": "Kocham cię · biernik",
+      "label_en": "Object pronouns · the other half of mi, ci, mu",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 3, unit 1. Accusative personal pronouns: mnie, cie, go, ja, nas, was, ich (all verified NEW except mnie). THE PAYOFF IS AN IOU THREE LEVELS OLD: a2_dat_chunks taught 'boli mnie' and its own note says 'mnie in boli mnie is accusative, not dative - deliberately NOT explained.' This unit explains it. Second half is a CONTRAST with the Dative set b1_dative_pron already owns (mi/ci/mu/jej) - a contrast, not new material. AUDITOR BLIND SPOT: person pronouns sit in audit.py's GLUE_LEMMAS, so no pronoun fence in B2 is machine-enforced; it is author discipline only.",
+      "note": "B2 Block 3, unit 1 (spine). SIX NEW FORMS: cię, go, ją, nas, was, ich — all verified NEW at build time; mnie reports TAUGHT and is the seventh, re-taught explicitly here. THE UNIT PAYS AN IOU THREE LEVELS OLD, and that is why it exists: a2_dat_chunks taught boli mnie as a frozen block and its own note says 'mnie in boli mnie is accusative, not dative — deliberately NOT explained'; b1_dative_pron then refused to generalise boleć onto the new dative pronouns and said why ('it takes the accusative in every person, a different pronoun set the course has not taught… this unit does not touch that fence'). The course now has that set, so the fence comes down here and nowhere earlier, and boli is finally run across persons (boli mnie / boli cię / boli go). THE GIFT, and slide 2: half the table is already owned — the Dative column (mi, ci, mu, jej, nam, wam, im) has been complete since path 118, so this is one new column beside one the learner already has, not fourteen new words. The verb decides the column and slide 3 is that list, using only verbs already owned on both sides. WORD ORDER, one line and a real fence: every item puts the object pronoun immediately after its verb, and where the pronoun is a short clitic (cię, go, ją, mi, ci, mu, jej) the verb is also clause-initial — Kocham cię, Lubię go, Pomagam mu, Boli mnie głowa — which is always natural. Noun-subject sentences use only the full forms (Mama zna nas, Tata lubi was), because Mama kocha cię is marked where Mama cię kocha is neutral, and choosing between them is a word-order fact, not a pronoun fact; stated to the learner as the same rule się already has since a2_sie, and the fuller story left where B2-SPINE's C1 list already puts it. FENCED: ALL n- forms after prepositions (niego, niej, nim, nich, nimi) appear nowhere, not in a slide and not as a distractor — b2_pron_prep is the very next unit and owns them, and this fence is NOT machine-enforced, because person pronouns sit in audit.py's GLUE_LEMMAS; it was checked by hand over every learner-facing string. Also fenced: je (neuter and non-virile-plural accusative), both because the virile split arriving in a new place is a second fact and because it collides with je 'he/she eats' — consequence stated openly, 'them' is expressible only for people until C1; the long emphatic forms jego and ciebie; siebie/sobie (C1, spine O15); and negated objects anywhere, since nie znam jej would put the object in the Genitive, which is b2_neg_gen's job later in this level. ADVANCE WARNING, in the b1_virile_reco tradition: ich is also the possessive 'their'. Only mój and twój are taught, so there is no collision today, but whichever unit extends the possessives will be re-teaching this exact string as an unrelated word and should expect the ci/ci treatment. SECOND WARNING, cross-language and not covered by the homograph table: was is an English word, and a learner reading an English prompt can read the Polish was as the English verb — named in the explain on its own quiz item rather than left to sting. ci appears only in its Dative sense; its virile-demonstrative sense appears nowhere, deliberately, since cię and ci are already a one-letter minimal pair carrying the unit's central contrast. All 12 quiz answers distinct.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/b2_pron_acc.json"
     },
     {
       "id": "b2_pron_prep",
