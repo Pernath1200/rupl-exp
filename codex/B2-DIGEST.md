@@ -892,3 +892,251 @@ pack before it was wired:
   biernik*; `b2_pron_prep` → *Znam go · do niego*, which shows the unit's actual
   contrast rather than the spine's drafted *O nim, z nią*. Every Polish word in
   all three titles is taught at or before its own node.
+
+---
+
+## Batch 5 — Block 3 closes, Block 4 opens (units 1–3)
+
+Built: `b2_kim_czym` (path 143), `b2_health_system` (144), `b2_ze_clauses` (146).
+`b2_station_1` (145) skipped and left `planned`, as all stations are forever.
+Audit after each unit: **140 nodes, errors 0, warns 2** — both warns
+(`a2_prep_review`, `b1_two_futures`) pre-date this batch and are the
+teaches-nothing gym idiom.
+
+Two new structure IDs registered in `SEQUENCING.md` and `audit.py` **before**
+either audit ran: `question_cases`, `ze_clauses`.
+
+### `b2_kim_czym` (Block 3, unit 3 — two named fences paid at once)
+
+Five new forms: `kogo`, `czego`, `komu`, `kim`, `czym`. `kto` and `co` report
+TAUGHT (`a1_questions`) and are anchors, recycled and never re-taught.
+
+**The two fences, both named years of path-index ago and neither ever built.**
+`a2_inst_z`: *"kim is a new pronoun form and is not in POOL… if James wants
+Z kim? as a live question it needs its own small unit"* — the same fence behind
+one of AGENTS.md's three named title-rule violations. `a2_o_loc`: *o czym* kept
+out of every slide **and** out of `body_pl` there. Both paid, in the same five
+forms.
+
+**No new governors anywhere.** Every case in the unit is assigned by a verb or
+preposition already owned: object verbs, `do` + Gen, `nie ma` + Gen,
+`pomagać`/`dziękować` + Dat, `o` + Loc, `z` + Inst, bare Inst of transport, and
+`być` + Inst identity. That is what let a unit introducing five forms stay small.
+
+**The gift, and slide 2 is built on it: five forms carry eight jobs, and all
+three mergers are re-sightings rather than new facts.** `kogo` merges object
+with Genitive — exactly what `b2_adj_gen` taught for masculine animates
+(*Mam małego psa* / *do małego psa*), and `kto` is a person. `kim` and `czym`
+each merge Locative with Instrumental — exactly as `nim` does (`b2_pron_prep`,
+one unit earlier) and `dobrym` does (`b2_adj_loc` → `b2_adj_inst`). Slide 2's
+table has a column that literally names where the learner saw each merger
+before, the same device `b2_pron_prep` used one unit back.
+
+**The honest counter-case, one line and one quiz pair:** for a THING the object
+form is just `co` (*Co masz?*). Only people and animals merge object with
+Genitive. Without this, the predictable over-generalisation is *czego masz*.
+
+**`czemu` is fenced absolutely** — not in a table, not as a distractor — on two
+independent grounds, either sufficient: the Dative of a thing earns this learner
+nothing, and `czemu` is also colloquial Polish for *why*, so shipping it would
+plant a homograph inside the very unit introducing the form. The Dative row
+carries an em dash in the thing column instead, and the slide says plainly that
+things almost never take that one.
+
+**Two real bugs were caught by the scanner in my own draft**, both of the class
+this project keeps re-finding:
+
+1. Slide 3's answer column had *Mówię o **bracie***. `bracie` is a Locative of
+   `brat` that the course has never taught — the pool has `brata`, `bratem`,
+   `bratu` and nothing else. Replaced with *Mówię o siostrze*, `siostrze` being
+   taught as a Dative **and** Locative by `b2_fem_soft`, which makes it a small
+   bonus callback to that unit's gift.
+2. Quiz item 5 carried **`Czemu`** as a distractor — in a pack whose own note
+   says `czemu` appears nowhere. A fence broken by the author who wrote it, three
+   paragraphs after writing it. Replaced with `Czego`.
+
+**Quiz answer repeats are deliberate and this is now a standing pattern.** The
+unit has exactly seven legal answer strings, so twelve distinct answers is
+arithmetically impossible without padding or fabrication. The quiz is instead
+built on five minimal pairs (items 1/2, 4/5, 6/7, 8/9, 1/10), each pair being the
+same answer under two structurally different sentences — which is the cleanest
+available demonstration that the sentence decides the form. Same call
+`b2_adj_gym` made, for the same reason.
+
+### `b2_health_system` (Block 3 vocab — the system, not the body)
+
+Twelve new words, all verified NEW. Anchors recycled and never re-taught:
+`lekarz`, `pacjent`, `wizyta`, `karetka`, `pielęgniarka` (`leaf_health_a1`),
+`ubezpieczenie`, `recepta`, `badanie`, `przychodnia`, `szczepienie`
+(`a2_health2`), `kolejka` (`leaf_shopping_a1`), `szpital` (`leaf_places`),
+`termin` (`b1_plans`). 28 sentences across 24 already-owned structures,
+including `question_cases` from the unit immediately before it on the path.
+
+**`izba przyjęć` replaces the spine's bare `izba`, and this is the pack's main
+judgment call.** `izba` alone is a near-archaic word for a room and would be a
+misleading thing to hand this learner; `izba przyjęć` is the sign actually on
+the hospital door. Taught as **one frozen chunk** — the genitive plural inside
+it is never decomposed, explained or drilled, and the gloss says to learn it
+whole. Multiword-citation precedent is well established and live: *piłka nożna*,
+*w porządku* (`a1_freetime`), *dom handlowy*, *rozmowa kwalifikacyjna*, *praca
+domowa*, *zwrot pieniędzy*, *nauki ścisłe*. `zastrzyk` and `dyżur` were both
+checked as alternatives and are NEW and available if James would rather have a
+simple single word here.
+
+**`specjalista` is the `-a` masculine trap AGENTS.md names.** Gender badge says
+`m`; its `explain` points at `tata` and `kolega`, two `-a` masculines owned since
+A1, rather than asserting the gender flatly. Its accusative `specjalistę` is not
+taught — irregular enough to need its own moment, and it earns nothing here.
+
+**`skierowania` is the one form in the batch that extends a rule, and it is the
+thing I would most want James to look at.** `gen_endings` states the neuter
+genitive as *-o → -a* (*okno → okna*); `skierowanie` is a neuter in *-e*, and
+*-e* neuters land on *-a* as well. Same destination by the same logic, but the
+course has never shown an *-e* neuter in the genitive. Handed over as a
+memorised whole form with an `explain` that names what it is doing — the
+`kelnerzy` / `mógłby` / family-datives treatment — because *Nie mam skierowania*
+is the single most useful sentence in the pack. **If James would rather the
+course stayed silent on *-e* neuter genitives until a rule unit, sentence 3 is
+the only place to remove and nothing else depends on it.**
+
+**`na` + Accusative is fenced, and it cost two obvious sentences** — *dzwonię na
+pogotowie* and *czekam na wyniki*, both of which a real patient says. `na` has
+only ever been a Locative preposition in this course (`prep_w_loc`), so `na` +
+Acc would be a new governor smuggled in through a vocab leaf. Left for whichever
+B2/C1 unit takes the preposition properly.
+
+### `b2_ze_clauses` (Block 4, unit 1 — zero new lemmas, one joint)
+
+**Chunk-to-paradigm reveal, and B2-SPINE O16 called it a block in advance.**
+`że` reports TAUGHT (`b1_polite`) but only frozen inside *Przepraszam, że
+przeszkadzam*, whose own note records *"że and przeszkadzam both verified
+untaught… never built"*. Re-taught explicitly here, and the slide says so out
+loud. Fifth turn of the `dziękuję` / `której` / `nowego` / `mnie` idiom. Per the
+`b2_adj_gen` convention the already-owned string stays in `uses_lemmas`, so
+`teaches_lemmas` is legitimately empty (`copular_future` / `adj_inst` precedent).
+
+**`wiem` is a second chunk-to-slot reveal in the same unit, and it carries a hard
+fence.** `a2_directions_func` quarantined it explicitly: *"this unit NEVER
+mentions znam, never conjugates wiem, and never shows the infinitive."* That
+quarantine is held — `wiem` appears in the first person only, and `wiesz`, `wie`
+and `wiedzieć` appear nowhere, all three being NEW and the *wiedzieć*-vs-*znać*
+split still live untaught ground.
+
+**THE DELIBERATE DEVIATION FROM THE SPINE, conservative branch, flagged for
+James.** B2-SPINE says this unit rides *mówił*/*mówiła*. It does not — **every
+matrix verb here is present tense.** The moment a past-tense verb of saying takes
+a `że`-clause, the learner meets the fact that Polish does not back-shift the
+tense (*Powiedział, że jest zmęczony*), and that is `b2_reported`'s **one** new
+idea, on the very next node of the path. Handing it over early and unnamed inside
+a unit about a conjunction would spend the next unit's whole payoff to buy
+nothing. It also removes the `mówił` glossing problem, since AGENTS.md's
+dynamic-verb rule would force *"was saying"*, which reads oddly in a reporting
+frame. **Nothing in `b2_reported` depends on this being reversed** — it simply
+inherits a clean slate.
+
+**The comma is the unit's second fact, and it is one line.** English drops both
+the comma and the word itself (*"I know she is at home"*); Polish drops neither.
+Naming that asymmetry is the point, because it is precisely what an English
+speaker under-produces.
+
+**Two discriminations, both zero new material.** `że` vs `żeby` (`b1_zeby` owns
+the latter) — now in the same syntactic slot, so confusing them is the
+predictable error; the line landed is *że reports what is so, żeby gives a
+purpose or a wish*. And `że` vs `który` (`b1_ktory_cases`), which is arguably the
+more valuable of the two **because the difficulty is caused by English rather
+than by Polish**: English "that" is both the conjunction and the relative
+pronoun, so *I know that…* and *the book that I read* look identical to this
+learner while Polish keeps them wholly apart. Quiz items 3 and 9 reuse
+`b1_ktory_cases`' own example sentences rather than inventing new ones.
+
+### Verification performed on all three packs
+
+The scanner was rebuilt for this batch and run on every pack before it was wired.
+
+- Every authored string on every learner-facing surface — intro tables (**every
+  cell**), `title`, `title_pl`, `body_pl`, examples, match, quiz prompts,
+  **quiz distractors**, `accepts` arrays, type and use items, and every vocab
+  `sentences[]` entry — extracted and scanned token by token against the
+  position-aware pool plus the pack's own `teaches_lemmas`. Surfaces were split
+  into STRICT (pure Polish: `pl`, `answer`, `title_pl`, `body_pl`, `accepts`,
+  `choices`), which must come back completely clean, and MIXED (titles, table
+  cells, quiz prompts carrying English glosses), whose residue was read by eye.
+  All three packs: STRICT clean.
+- **Two strings were changed as a result**, both in `b2_kim_czym` and both
+  documented above (`bracie`, `Czemu`). This is the third consecutive batch in
+  which the scanner caught a leak the author had not seen.
+- **Pool regenerated three times**, once before each unit
+  (`--before b2_kim_czym`, `--before b2_health_system`, `--before b2_ze_clauses`),
+  so each pack was written against what is taught strictly before *it* rather
+  than against the batch's starting state. This mattered: `b2_ze_clauses` legally
+  recycles `skierowanie`, `wyniki`, `diagnozę`, `leczenie` and `specjalista` from
+  `b2_health_system` two nodes earlier, and `b2_health_system` legally recycles
+  `czym` from `b2_kim_czym`.
+- **Homograph "taught AS" check re-run on every recycled form**, per AGENTS.md.
+  The two that mattered: `siostrze` and `mamie` are used in the Locative and the
+  Dative respectively, both licensed because `b2_fem_soft` teaches them as the
+  same form doing both jobs; `zamknięty` is used as the plain adjective
+  `leaf_shopping_a1` taught it as, **not** as the participle `b2_participle_pass`
+  will later reveal it to be.
+- **Fence greps with `note` stripped first**, since a note legitimately names what
+  it fences and leaving it in produces false positives. `b2_kim_czym`: `czemu`,
+  `czyj`, `dla`, `bracie`, and every fenced pronoun form — clean. `b2_ze_clauses`:
+  `wiesz`, `wie`, `wiedzieć`, `nadzieję`, `cieszę`, `uważam`, `wydaje`, `słyszę`,
+  `mówił`, `mówiła`, `powiedział`, `nie wiem` — clean. `b2_health_system`:
+  `oddziale`, `rejestracji`, `leczeniu`, `wyników`, `zabiegu`, `specjalistę`,
+  `na wyniki`, `na pogotowie` — clean.
+- **A dedicated indirect-question sniff** was written for this batch and run over
+  both grammar packs — a regex for any matrix verb followed by a comma and a
+  question word. Zero hits. This fence matters more than usual right now because
+  `b2_kim_czym` hands the learner five question words and `b2_ze_clauses` hands
+  him the subordinating comma, which is exactly the pair that makes *Nie wiem,
+  gdzie…* constructible two units before `b2_indirect_q` is meant to teach it.
+- Mechanical stage checks per grammar pack: Match exactly 12 rows with no
+  duplicate `pl` or `en`, every quiz answer present among its own choices, no
+  duplicated choices inside an item, no duplicate quiz prompts, no duplicate type
+  or use answers, no Użycie item repeating a Pisanie item, every `teaches_lemma`
+  demanded in a drill stage, and a meta-question sniff over every Kontrola prompt.
+  For the vocab pack: roll-up check that every item-level `structures` and
+  `lemmas` tag is a subset of the pack's declared `uses_*` — **this caught two
+  real gaps** (`o_loc` and `present_e_isz` used in sentences but missing from
+  `uses_structures`), both fixed before wiring. Also: 12 block items, every one
+  carrying a gender badge, no duplicates.
+- **`kind: "syntax"` on `b2_ze_clauses` was checked against the engine before
+  shipping**, since the value was otherwise unused in the course. `js/practice-
+  grammar.js:97` consults `kind` only as a *fallback* for the type mode, after
+  `item.mode` and `pack.type.mode`; the pack sets both explicitly, so the value
+  is inert. `a1_motion` already ships live with a non-morphology `kind`.
+- All eight station placeholders re-checked as `planned` after every wiring.
+
+### For James's next smoke pass
+
+- **`skierowania` is the call I would most want a second opinion on** — the one
+  place this batch extends a stated rule rather than staying inside it. Removing
+  it costs exactly one sentence (see above).
+- **`b2_ze_clauses`' present-tense-only matrix is the other deliberate fork.**
+  After this unit Dad can say *I know that…* and *Dad says that…* but not *Dad
+  said that…*. That is one node's wait, not a permanent hole — `b2_reported` is
+  next and it is where the fact belongs.
+- **`izba przyjęć` is the item most likely to feel hard in practice**, being the
+  only two-word entry on the board. If it plays badly it is a one-line swap to
+  `zastrzyk`, which is verified NEW and needs no other change.
+- **`b2_kim_czym` slide 2 is the framing I would watch live.** It has to land as
+  *"you have met all three of these mergers already"*, not as *"here are three
+  more things"*. Fourth turn of an idiom the last three batches have each flagged
+  — and the cheapest one so far, since every merger it names was taught inside
+  the last six units.
+- **`czym` and `czy` are one letter apart**, and `czy` is among the most frequent
+  words Dad owns. The quiz guards it with `czego`/`co` distractors rather than
+  with `czy`, which would have made the item about spelling rather than about
+  case. If the pair turns out to be a real stumbling block, the honest fix is a
+  distractor swap, not a rewrite.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
+- Titles re-checked word by word at the moment of wiring, per the standing B1
+  batch 10 reminder. `b2_kim_czym` → *Kto? Kogo? Z kim?* (the drafted tree label
+  was *Z kim? O czym?*; both are legal, the shipped one shows the Nominative
+  anchor beside two of the new forms). `b2_health_system` → *Przychodnia i
+  szpital* (both nouns taught, `przychodnia` from `a2_health2`, `szpital` from
+  `leaf_places`). `b2_ze_clauses` → *Wiem, że…*, whose two Polish words are the
+  two chunk-to-slot reveals the unit is built on. Every Polish word in all three
+  titles is taught at or before its own node.
