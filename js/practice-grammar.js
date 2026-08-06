@@ -304,9 +304,14 @@ export function startPractice(pack, root, opts) {
     return r;
   }
 
-  /** Block Use until Check + Type are fully clear (RUE2-style). */
+  /** Block Use until Check + Type are fully clear (RUE2-style).
+   * Reviews (launched straight at Pisanie) are exempt — production is the
+   * proof; never re-route a review through Kontrola (James 2026-08-06). */
+  function useAllowed() {
+    return state.reviewStart === "type" || canEnterGrammarUse(pack.id);
+  }
   function guardEnterUse() {
-    if (canEnterGrammarUse(pack.id)) return true;
+    if (useAllowed()) return true;
     const st = root.querySelector("#p-status, .stage-banner-sub, .practice-hint");
     const msg =
       "Najpierw wyczyść Kontrolę i Pisanie (powtórz błędy) — potem Użycie";
@@ -940,7 +945,7 @@ export function startPractice(pack, root, opts) {
 
   function beginUse(onlyWrong) {
     // Permanent: no Use until Check + Type clear (retries of Use OK)
-    if (!onlyWrong && !canEnterGrammarUse(pack.id)) {
+    if (!onlyWrong && !useAllowed()) {
       guardEnterUse();
       return;
     }
@@ -958,7 +963,7 @@ export function startPractice(pack, root, opts) {
     state.useScore = 0;
     state.useWrong = [];
     if (!state.useItems.length) {
-      if (!canEnterGrammarUse(pack.id)) {
+      if (!useAllowed()) {
         guardEnterUse();
         return;
       }
@@ -982,7 +987,7 @@ export function startPractice(pack, root, opts) {
     const title = kind === "type" ? "Pisanie" : "Użycie";
     const hasUse = (pack.use_items || []).length > 0;
     const useUnlocked =
-      kind !== "type" || canEnterGrammarUse(pack.id) || wrongN === 0;
+      kind !== "type" || useAllowed() || wrongN === 0;
     // After committing type scores below, re-check unlock for Type→Use
     let nextLabel =
       kind === "type" && hasUse
@@ -1004,9 +1009,9 @@ export function startPractice(pack, root, opts) {
     }
 
     const canGoUse =
-      kind === "type" && hasUse && canEnterGrammarUse(pack.id) && wrongN === 0;
+      kind === "type" && hasUse && useAllowed() && wrongN === 0;
     const blockUseMsg =
-      kind === "type" && hasUse && wrongN === 0 && !canEnterGrammarUse(pack.id);
+      kind === "type" && hasUse && wrongN === 0 && !useAllowed();
     if (blockUseMsg) {
       nextLabel = "Najpierw wyczyść Kontrolę";
     }
@@ -1057,7 +1062,7 @@ export function startPractice(pack, root, opts) {
 
     const goNext = () => {
       if (kind === "type") {
-        if (!canEnterGrammarUse(pack.id)) {
+        if (!useAllowed()) {
           guardEnterUse();
           return;
         }

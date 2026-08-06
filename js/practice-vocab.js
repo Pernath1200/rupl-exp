@@ -1135,9 +1135,13 @@ export function startPractice(root, block, opts) {
       if (!t.retryPass) reportMode("type", { score: t.score, total: passLen });
       else if (wrongN === 0) reportMode("type", { score: 1, total: 1 });
       const bid = block.id || packId;
-      // Scores already reported above — check unlock after this type commit
+      // Scores already reported above — check unlock after this type commit.
+      // Review sessions (launched straight at Słowo) prove production here;
+      // the quiz gate is first-learn scaffolding and must not re-route a
+      // review back to Quiz (James 2026-08-06).
+      const isReview = opts.startMode === "type";
       const sentenceOk =
-        wrongN === 0 && canEnterVocabSentence(bid);
+        wrongN === 0 && (isReview || canEnterVocabSentence(bid));
       const sub =
         wrongN > 0
           ? `${wrongN} do powtórki · powtórz aż będzie czysto — potem Zdanie`
