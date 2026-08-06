@@ -1,832 +1,831 @@
 {
-  "id": "a2_directions_func",
-  "title": "Przepraszam, gdzie jest…?",
-  "title_en": "Asking the way in the street",
-  "level": "A2",
-  "tree_node": "a2_directions_func",
-  "default_direction": "en_to_pl",
-  "kind": "chunks",
-  "type": {
-    "mode": "full_word"
-  },
-  "check": {
-    "sequence": [
-      "match",
-      "quiz"
+ "id": "a2_directions_func",
+ "title": "Przepraszam, gdzie jest…?",
+ "title_en": "Asking the way in the street",
+ "level": "A2",
+ "tree_node": "a2_directions_func",
+ "default_direction": "en_to_pl",
+ "kind": "chunks",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "Situations/chunk unit — asking for and understanding directions in the street. Fixed phrases, learned whole, no rule slides. Only FOUR genuinely new words: ktoredy, isc, wiem, bardzo. Everything else (prosto, lewo, prawo, w lewo, w prawo, daleko, blisko, przepraszam, prosze, dziekuje, gdzie, jest, czy, to, nie, tak) is already in POOL and is RECYCLED into a new function here. TRAP 1 — 'Jak dojsc do…?' was DROPPED. dojsc is perfective and the standing decision for this batch is imperfective-only, even inside fixed chunks. Replacement: 'Ktoredy do…?' — it has NO VERB IN IT AT ALL, so aspect never arises, and it hangs entirely off do + genitive, which a1_prep_do_z already taught with the exact place-genitives used here (do apteki, do banku, do centrum, do parku, do szpitala). One new word, zero new grammar. TRAP 2a — INFINITIVE QUARANTINE. 'isc' is NOT in POOL (only ide, idziesz are). a2_chodzic owns the full grid and was not read. 'Prosze isc…' is therefore carried as an OPAQUE BLOCK: the form is never named, never called an infinitive, never conjugated, never contrasted with ide or idziesz, and no motion/verb structure id is tagged — situation_chunk only. Every quiz choice touching it is a WHOLE PHRASE; there is no isc/ide/idziesz/idzie four-way anywhere, which would open the grid by the back door. isc is listed in teaches_lemmas so this pack stands on its own feet and depends on nothing being written in parallel. TRAP 2b — ORDINALS DROPPED ENTIRELY. 'pierwsza' is not in POOL and ordinals belong to a2_ordinals_time. No 'pierwsza ulica', no ordinal anywhere, and 'ulicy' (locative) is avoided too — it is untaught. The 'take the first street on the left' function is simply not offered; 'Prosze isc w lewo' does the same job with taught material. SECOND QUARANTINE — 'Nie wiem.' is taught as one street phrase. znac/znam IS already taught, so the wiedziec-vs-znac split is live ground; this unit NEVER mentions znam, never conjugates wiem, and never shows the infinitive. Only wiem and nie wiem are tagged. Real contrast the unit DOES teach, because both cases are already taught: Gdzie jest apteka? (nominative, plain dictionary form) vs Ktoredy do apteki? (genitive, the same do apteki he already has). 'potem', 'tedy', 'skrzyzowanie', 'rog', 'toaleta', 'muzeum' were all checked against POOL, found absent, and left out for restraint.",
+ "focus_structures": [
+  "situation_chunk"
+ ],
+ "teaches_structures": [
+  "situation_chunk"
+ ],
+ "uses_structures": [
+  "situation_chunk",
+  "existential_jest",
+  "byc_present",
+  "question",
+  "prep_do_gen",
+  "prep_place",
+  "negation",
+  "zgoda",
+  "ten_ta_to",
+  "social_chunk"
+ ],
+ "intro": [
+  {
+   "title": "Przepraszam, gdzie jest…? — start every question with these three words",
+   "title_pl": "Przepraszam, gdzie jest…?",
+   "body": "You already own every word in this question. Przepraszam gets a stranger's attention, gdzie means where, jest means is. Put the name of the place on the end and you have asked your first question in a Polish street.\n\nThe place keeps its plain dictionary form here — exactly as it looks in a word list. Nothing is added to it: apteka, hotel, bank, przystanek, dworzec.\n\nSay Przepraszam first and pause. It is the difference between a question and a demand.",
+   "body_pl": "Przepraszam, gdzie jest apteka? Gdzie jest hotel? Gdzie jest przystanek?",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Form of the place"
+    ],
+    "rows": [
+     [
+      "Przepraszam, gdzie jest apteka?",
+      "Excuse me, where is the chemist's?",
+      "apteka — plain form"
+     ],
+     [
+      "Gdzie jest hotel?",
+      "Where is the hotel?",
+      "hotel — plain form"
+     ],
+     [
+      "Gdzie jest bank?",
+      "Where is the bank?",
+      "bank — plain form"
+     ],
+     [
+      "Gdzie jest przystanek?",
+      "Where is the bus stop?",
+      "przystanek — plain form"
+     ],
+     [
+      "Gdzie jest dworzec?",
+      "Where is the station?",
+      "dworzec — plain form"
+     ]
     ]
+   },
+   "examples": [
+    {
+     "en": "Excuse me, where is the post office?",
+     "pl": "Przepraszam, gdzie jest poczta?"
+    },
+    {
+     "en": "Where is the shop?",
+     "pl": "Gdzie jest sklep?"
+    },
+    {
+     "en": "Where is the metro?",
+     "pl": "Gdzie jest metro?"
+    }
+   ]
   },
-  "note": "Situations/chunk unit — asking for and understanding directions in the street. Fixed phrases, learned whole, no rule slides. Only FOUR genuinely new words: ktoredy, isc, wiem, bardzo. Everything else (prosto, lewo, prawo, w lewo, w prawo, daleko, blisko, przepraszam, prosze, dziekuje, gdzie, jest, czy, to, nie, tak) is already in POOL and is RECYCLED into a new function here. TRAP 1 — 'Jak dojsc do…?' was DROPPED. dojsc is perfective and the standing decision for this batch is imperfective-only, even inside fixed chunks. Replacement: 'Ktoredy do…?' — it has NO VERB IN IT AT ALL, so aspect never arises, and it hangs entirely off do + genitive, which a1_prep_do_z already taught with the exact place-genitives used here (do apteki, do banku, do centrum, do parku, do szpitala). One new word, zero new grammar. TRAP 2a — INFINITIVE QUARANTINE. 'isc' is NOT in POOL (only ide, idziesz are). a2_chodzic owns the full grid and was not read. 'Prosze isc…' is therefore carried as an OPAQUE BLOCK: the form is never named, never called an infinitive, never conjugated, never contrasted with ide or idziesz, and no motion/verb structure id is tagged — situation_chunk only. Every quiz choice touching it is a WHOLE PHRASE; there is no isc/ide/idziesz/idzie four-way anywhere, which would open the grid by the back door. isc is listed in teaches_lemmas so this pack stands on its own feet and depends on nothing being written in parallel. TRAP 2b — ORDINALS DROPPED ENTIRELY. 'pierwsza' is not in POOL and ordinals belong to a2_ordinals_time. No 'pierwsza ulica', no ordinal anywhere, and 'ulicy' (locative) is avoided too — it is untaught. The 'take the first street on the left' function is simply not offered; 'Prosze isc w lewo' does the same job with taught material. SECOND QUARANTINE — 'Nie wiem.' is taught as one street phrase. znac/znam IS already taught, so the wiedziec-vs-znac split is live ground; this unit NEVER mentions znam, never conjugates wiem, and never shows the infinitive. Only wiem and nie wiem are tagged. Real contrast the unit DOES teach, because both cases are already taught: Gdzie jest apteka? (nominative, plain dictionary form) vs Ktoredy do apteki? (genitive, the same do apteki he already has). 'potem', 'tedy', 'skrzyzowanie', 'rog', 'toaleta', 'muzeum' were all checked against POOL, found absent, and left out for restraint.",
-  "focus_structures": [
-    "situation_chunk"
-  ],
-  "teaches_structures": [
-    "situation_chunk"
-  ],
-  "uses_structures": [
-    "situation_chunk",
-    "existential_jest",
-    "byc_present",
-    "question",
-    "prep_do_gen",
-    "prep_place",
-    "negation",
-    "zgoda",
-    "ten_ta_to",
-    "social_chunk"
-  ],
-  "intro": [
+  {
+   "title": "Którędy do…? — asking for the way, not the place",
+   "title_pl": "Którędy do…?",
+   "body": "Którędy means which way. It is the one new word on this slide and it does a job Gdzie jest…? cannot: it asks for the route, not the location.\n\nWhat follows it is the do you have had since A1 — do apteki, do banku, do parku, do centrum. After do the place takes the genitive, and these are the very phrases you already practised.\n\nSo the two questions pull the noun in opposite directions, and it is worth ten seconds:\nGdzie jest apteka? — plain form.\nKtórędy do apteki? — genitive, because of do.\n\nNotice there is no verb anywhere in Którędy do…?. That is why it is the easiest way to ask how to get somewhere.",
+   "body_pl": "Którędy do apteki? Którędy do centrum? Którędy do parku?",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Form of the place"
+    ],
+    "rows": [
+     [
+      "Gdzie jest apteka?",
+      "Where is the chemist's?",
+      "apteka — plain form"
+     ],
+     [
+      "Którędy do apteki?",
+      "Which way to the chemist's?",
+      "apteki — genitive after do"
+     ],
+     [
+      "Którędy do banku?",
+      "Which way to the bank?",
+      "banku — genitive after do"
+     ],
+     [
+      "Którędy do parku?",
+      "Which way to the park?",
+      "parku — genitive after do"
+     ],
+     [
+      "Którędy do centrum?",
+      "Which way to the centre?",
+      "centrum never changes"
+     ]
+    ]
+   },
+   "examples": [
     {
-      "title": "Przepraszam, gdzie jest…? — start every question with these three words",
-      "title_pl": "Przepraszam, gdzie jest…?",
-      "body": "You already own every word in this question. Przepraszam gets a stranger's attention, gdzie means where, jest means is. Put the name of the place on the end and you have asked your first question in a Polish street.\n\nThe place keeps its plain dictionary form here — exactly as it looks in a word list. Nothing is added to it: apteka, hotel, bank, przystanek, dworzec.\n\nSay Przepraszam first and pause. It is the difference between a question and a demand.",
-      "body_pl": "Przepraszam, gdzie jest apteka? Gdzie jest hotel? Gdzie jest przystanek?",
-      "table": {
-        "headers": [
-          "Polish",
-          "English",
-          "Form of the place"
-        ],
-        "rows": [
-          [
-            "Przepraszam, gdzie jest apteka?",
-            "Excuse me, where is the chemist's?",
-            "apteka — plain form"
-          ],
-          [
-            "Gdzie jest hotel?",
-            "Where is the hotel?",
-            "hotel — plain form"
-          ],
-          [
-            "Gdzie jest bank?",
-            "Where is the bank?",
-            "bank — plain form"
-          ],
-          [
-            "Gdzie jest przystanek?",
-            "Where is the bus stop?",
-            "przystanek — plain form"
-          ],
-          [
-            "Gdzie jest dworzec?",
-            "Where is the station?",
-            "dworzec — plain form"
-          ]
-        ]
-      },
-      "examples": [
-        {
-          "en": "Excuse me, where is the post office?",
-          "pl": "Przepraszam, gdzie jest poczta?"
-        },
-        {
-          "en": "Where is the shop?",
-          "pl": "Gdzie jest sklep?"
-        },
-        {
-          "en": "Where is the metro?",
-          "pl": "Gdzie jest metro?"
-        }
-      ]
+     "en": "Excuse me, which way to the chemist's?",
+     "pl": "Przepraszam, którędy do apteki?"
     },
     {
-      "title": "Którędy do…? — asking for the way, not the place",
-      "title_pl": "Którędy do…?",
-      "body": "Którędy means which way. It is the one new word on this slide and it does a job Gdzie jest…? cannot: it asks for the route, not the location.\n\nWhat follows it is the do you have had since A1 — do apteki, do banku, do parku, do centrum. After do the place takes the genitive, and these are the very phrases you already practised.\n\nSo the two questions pull the noun in opposite directions, and it is worth ten seconds:\nGdzie jest apteka? — plain form.\nKtórędy do apteki? — genitive, because of do.\n\nNotice there is no verb anywhere in Którędy do…?. That is why it is the easiest way to ask how to get somewhere.",
-      "body_pl": "Którędy do apteki? Którędy do centrum? Którędy do parku?",
-      "table": {
-        "headers": [
-          "Polish",
-          "English",
-          "Form of the place"
-        ],
-        "rows": [
-          [
-            "Gdzie jest apteka?",
-            "Where is the chemist's?",
-            "apteka — plain form"
-          ],
-          [
-            "Którędy do apteki?",
-            "Which way to the chemist's?",
-            "apteki — genitive after do"
-          ],
-          [
-            "Którędy do banku?",
-            "Which way to the bank?",
-            "banku — genitive after do"
-          ],
-          [
-            "Którędy do parku?",
-            "Which way to the park?",
-            "parku — genitive after do"
-          ],
-          [
-            "Którędy do centrum?",
-            "Which way to the centre?",
-            "centrum never changes"
-          ]
-        ]
-      },
-      "examples": [
-        {
-          "en": "Excuse me, which way to the chemist's?",
-          "pl": "Przepraszam, którędy do apteki?"
-        },
-        {
-          "en": "Which way to the hospital?",
-          "pl": "Którędy do szpitala?"
-        },
-        {
-          "en": "Which way to the shop?",
-          "pl": "Którędy do sklepu?"
-        }
-      ]
+     "en": "Which way to the hospital?",
+     "pl": "Którędy do szpitala?"
     },
     {
-      "title": "The answer you will hear — prosto, w lewo, w prawo",
-      "title_pl": "Proszę iść prosto. Proszę iść w lewo. Proszę iść w prawo.",
-      "body": "Proszę iść… is the polite \"Please go…\" that Poles use to give directions to a stranger.\n\nTake these three whole. Proszę you already know, and prosto, w lewo and w prawo are already yours as well. The middle word is the only new thing, and this unit asks you to leave it exactly as it stands — its family is a later unit and you lose nothing by not opening it now. Say the phrase whole and it is always right.\n\nIn practice you will often hear just the last part on its own: Prosto. W lewo. W prawo. That is a complete answer in the street.",
-      "body_pl": "Proszę iść prosto. Proszę iść w lewo. Proszę iść w prawo. Prosto. W lewo. W prawo.",
-      "table": {
-        "headers": [
-          "Polish",
-          "English",
-          "How to hold it"
-        ],
-        "rows": [
-          [
-            "Proszę iść prosto.",
-            "Please go straight on.",
-            "fixed phrase — learn whole"
-          ],
-          [
-            "Proszę iść w lewo.",
-            "Please go left.",
-            "same frame, new ending word"
-          ],
-          [
-            "Proszę iść w prawo.",
-            "Please go right.",
-            "same frame, new ending word"
-          ],
-          [
-            "Prosto.",
-            "Straight on.",
-            "what you will actually hear"
-          ],
-          [
-            "W lewo. / W prawo.",
-            "Left. / Right.",
-            "a whole answer on its own"
-          ]
-        ]
-      },
-      "examples": [
-        {
-          "en": "— Which way to the park? — Please go straight on.",
-          "pl": "— Którędy do parku? — Proszę iść prosto."
-        },
-        {
-          "en": "— Which way to the bank? — Please go left.",
-          "pl": "— Którędy do banku? — Proszę iść w lewo."
-        },
-        {
-          "en": "— Where is the post office? — Please go right.",
-          "pl": "— Gdzie jest poczta? — Proszę iść w prawo."
-        }
-      ]
-    },
-    {
-      "title": "Czy to daleko? · To blisko. — the second question you will always want",
-      "title_pl": "Czy to daleko? To blisko.",
-      "body": "Nothing new here at all. Czy turns anything into a yes/no question, to means it, and daleko and blisko are words you already have.\n\nCzy to daleko? = Is it far?\nTo blisko. = It's near.\nTo daleko. = It's far.\n\nAsk it straight after you have been given the way. If the answer is To daleko, you now know to look for a bus stop rather than start walking.",
-      "body_pl": "Czy to daleko? To blisko. To daleko.",
-      "table": {
-        "headers": [
-          "Polish",
-          "English",
-          "New word in it"
-        ],
-        "rows": [
-          [
-            "Czy to daleko?",
-            "Is it far?",
-            "nothing new — all known"
-          ],
-          [
-            "To blisko.",
-            "It's near.",
-            "nothing new — all known"
-          ],
-          [
-            "To daleko.",
-            "It's far.",
-            "nothing new — all known"
-          ],
-          [
-            "Nie, to blisko.",
-            "No, it's near.",
-            "the answer you are hoping for"
-          ],
-          [
-            "Tak, to daleko.",
-            "Yes, it's far.",
-            "the answer you are not"
-          ]
-        ]
-      },
-      "examples": [
-        {
-          "en": "Excuse me, where is the hotel? Is it far?",
-          "pl": "Przepraszam, gdzie jest hotel? Czy to daleko?"
-        },
-        {
-          "en": "— Is it far? — No, it's near.",
-          "pl": "— Czy to daleko? — Nie, to blisko."
-        },
-        {
-          "en": "— Which way to the centre? — It's far.",
-          "pl": "— Którędy do centrum? — To daleko."
-        }
-      ]
-    },
-    {
-      "title": "Nie wiem. · Dziękuję bardzo. — closing the exchange either way",
-      "title_pl": "Nie wiem. Dziękuję bardzo.",
-      "body": "Two last phrases and the street is survivable.\n\nNie wiem = I don't know. This is the everyday answer when a stranger asks you something and you have no idea — and it is also, often, what you will hear back. Learn it whole; wiem is not a word to take apart at this stage.\n\nBardzo means very, or a lot. Dziękuję bardzo = thank you very much, and it is what you say the moment someone has pointed you the right way.\n\nBardzo also strengthens the words you already have, and it goes in front of them: To bardzo blisko. To bardzo daleko.",
-      "body_pl": "Nie wiem. Dziękuję bardzo. To bardzo blisko. To bardzo daleko.",
-      "table": {
-        "headers": [
-          "Polish",
-          "English",
-          "New word in it"
-        ],
-        "rows": [
-          [
-            "Nie wiem.",
-            "I don't know.",
-            "wiem — take the phrase whole"
-          ],
-          [
-            "Nie wiem, przepraszam.",
-            "I don't know, sorry.",
-            "the polite full answer"
-          ],
-          [
-            "Dziękuję bardzo.",
-            "Thank you very much.",
-            "bardzo = very, a lot"
-          ],
-          [
-            "To bardzo blisko.",
-            "It's very close.",
-            "bardzo goes in FRONT"
-          ],
-          [
-            "To bardzo daleko.",
-            "It's very far.",
-            "bardzo goes in FRONT"
-          ]
-        ]
-      },
-      "examples": [
-        {
-          "en": "— Excuse me, where is the station? — I don't know, sorry.",
-          "pl": "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam."
-        },
-        {
-          "en": "— Please go left. — Thank you very much.",
-          "pl": "— Proszę iść w lewo. — Dziękuję bardzo."
-        },
-        {
-          "en": "— Is it far? — No, it's very close.",
-          "pl": "— Czy to daleko? — Nie, to bardzo blisko."
-        }
-      ]
+     "en": "Which way to the shop?",
+     "pl": "Którędy do sklepu?"
     }
-  ],
-  "match": [
+   ]
+  },
+  {
+   "title": "The answer you will hear — prosto, w lewo, w prawo",
+   "title_pl": "Proszę iść prosto. Proszę iść w lewo. Proszę iść w prawo.",
+   "body": "Proszę iść… is the polite \"Please go…\" that Poles use to give directions to a stranger.\n\nTake these three whole. Proszę you already know, and prosto, w lewo and w prawo are already yours as well. The middle word is the only new thing, and this unit asks you to leave it exactly as it stands — its family is a later unit and you lose nothing by not opening it now. Say the phrase whole and it is always right.\n\nIn practice you will often hear just the last part on its own: Prosto. W lewo. W prawo. That is a complete answer in the street.",
+   "body_pl": "Proszę iść prosto. Proszę iść w lewo. Proszę iść w prawo. Prosto. W lewo. W prawo.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "How to hold it"
+    ],
+    "rows": [
+     [
+      "Proszę iść prosto.",
+      "Please go straight on.",
+      "fixed phrase — learn whole"
+     ],
+     [
+      "Proszę iść w lewo.",
+      "Please go left.",
+      "same frame, new ending word"
+     ],
+     [
+      "Proszę iść w prawo.",
+      "Please go right.",
+      "same frame, new ending word"
+     ],
+     [
+      "Prosto.",
+      "Straight on.",
+      "what you will actually hear"
+     ],
+     [
+      "W lewo. / W prawo.",
+      "Left. / Right.",
+      "a whole answer on its own"
+     ]
+    ]
+   },
+   "examples": [
     {
-      "en": "Excuse me, where is the chemist's?",
-      "pl": "Przepraszam, gdzie jest apteka?"
+     "en": "— Which way to the park? — Please go straight on.",
+     "pl": "— Którędy do parku? — Proszę iść prosto."
     },
     {
-      "en": "Where is the hotel?",
-      "pl": "Gdzie jest hotel?"
+     "en": "— Which way to the bank? — Please go left.",
+     "pl": "— Którędy do banku? — Proszę iść w lewo."
     },
     {
-      "en": "Where is the bus stop?",
-      "pl": "Gdzie jest przystanek?"
-    },
-    {
-      "en": "Which way to the chemist's?",
-      "pl": "Którędy do apteki?"
-    },
-    {
-      "en": "Which way to the centre?",
-      "pl": "Którędy do centrum?"
-    },
-    {
-      "en": "Please go straight on.",
-      "pl": "Proszę iść prosto."
-    },
-    {
-      "en": "Please go left.",
-      "pl": "Proszę iść w lewo."
-    },
-    {
-      "en": "Please go right.",
-      "pl": "Proszę iść w prawo."
-    },
-    {
-      "en": "Is it far?",
-      "pl": "Czy to daleko?"
-    },
-    {
-      "en": "It's near.",
-      "pl": "To blisko."
-    },
-    {
-      "en": "I don't know.",
-      "pl": "Nie wiem."
-    },
-    {
-      "en": "Thank you very much.",
-      "pl": "Dziękuję bardzo."
+     "en": "— Where is the post office? — Please go right.",
+     "pl": "— Gdzie jest poczta? — Proszę iść w prawo."
     }
-  ],
-  "quiz": [
+   ]
+  },
+  {
+   "title": "Czy to daleko? · To blisko. — the second question you will always want",
+   "title_pl": "Czy to daleko? To blisko.",
+   "body": "Nothing new here at all. Czy turns anything into a yes/no question, to means it, and daleko and blisko are words you already have.\n\nCzy to daleko? = Is it far?\nTo blisko. = It's near.\nTo daleko. = It's far.\n\nAsk it straight after you have been given the way. If the answer is To daleko, you now know to look for a bus stop rather than start walking.",
+   "body_pl": "Czy to daleko? To blisko. To daleko.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "New word in it"
+    ],
+    "rows": [
+     [
+      "Czy to daleko?",
+      "Is it far?",
+      "nothing new — all known"
+     ],
+     [
+      "To blisko.",
+      "It's near.",
+      "nothing new — all known"
+     ],
+     [
+      "To daleko.",
+      "It's far.",
+      "nothing new — all known"
+     ],
+     [
+      "Nie, to blisko.",
+      "No, it's near.",
+      "the answer you are hoping for"
+     ],
+     [
+      "Tak, to daleko.",
+      "Yes, it's far.",
+      "the answer you are not"
+     ]
+    ]
+   },
+   "examples": [
     {
-      "prompt": "Excuse me, where is the chemist's? →",
-      "choices": [
-        "Przepraszam, gdzie jest apteka?",
-        "Przepraszam, gdzie jest apteki?",
-        "Przepraszam, którędy apteka?",
-        "Gdzie jest do apteki?"
-      ],
-      "answer": "Przepraszam, gdzie jest apteka?",
-      "explain": "After Gdzie jest the place keeps its plain dictionary form. It is do that pulls the genitive, and there is no do in this question."
+     "en": "Excuse me, where is the hotel? Is it far?",
+     "pl": "Przepraszam, gdzie jest hotel? Czy to daleko?"
     },
     {
-      "prompt": "Where is the bank?  →  Gdzie jest ___?",
-      "choices": [
-        "bank",
-        "banku",
-        "do banku",
-        "w banku"
-      ],
-      "answer": "bank",
-      "explain": "W banku says you are inside it and do banku says you are heading there. Gdzie jest only asks where it stands, so the word stays as the dictionary has it."
+     "en": "— Is it far? — No, it's near.",
+     "pl": "— Czy to daleko? — Nie, to blisko."
     },
     {
-      "prompt": "You want to know the way to the park. →",
-      "choices": [
-        "Którędy do parku?",
-        "Którędy do park?",
-        "Którędy parku?",
-        "Gdzie jest parku?"
-      ],
-      "answer": "Którędy do parku?",
-      "explain": "Do always pulls the genitive — the same do parku you already know. Drop the do and the question falls apart."
-    },
-    {
-      "prompt": "Which way to the centre? →",
-      "choices": [
-        "Którędy do centrum?",
-        "Gdzie jest centrum?",
-        "Czy to daleko?",
-        "Proszę iść prosto."
-      ],
-      "answer": "Którędy do centrum?",
-      "explain": "Gdzie jest centrum? asks where it is. Którędy asks for the route to it — which way you should walk."
-    },
-    {
-      "prompt": "Please go straight on. →",
-      "choices": [
-        "Proszę iść prosto.",
-        "Proszę iść w lewo.",
-        "Proszę iść w prawo.",
-        "Czy to daleko?"
-      ],
-      "answer": "Proszę iść prosto.",
-      "explain": "Prosto is straight on. The frame in front of it never changes — only the last word does."
-    },
-    {
-      "prompt": "Please go left. →",
-      "choices": [
-        "Proszę iść w lewo.",
-        "Proszę iść w prawo.",
-        "Proszę iść prosto.",
-        "To blisko."
-      ],
-      "answer": "Proszę iść w lewo."
-    },
-    {
-      "prompt": "— Którędy do parku? — ___",
-      "choices": [
-        "Proszę iść prosto.",
-        "Czy to daleko?",
-        "Przepraszam.",
-        "Dziękuję bardzo."
-      ],
-      "answer": "Proszę iść prosto.",
-      "explain": "Którędy asks for the way, so the answer has to be a direction. Czy to daleko? would be answering a question with a question."
-    },
-    {
-      "prompt": "Is it far? →",
-      "choices": [
-        "Czy to daleko?",
-        "Czy to blisko?",
-        "To daleko.",
-        "Gdzie jest daleko?"
-      ],
-      "answer": "Czy to daleko?",
-      "explain": "Czy at the front is what makes it a yes/no question. Without it, To daleko is a statement — it's far."
-    },
-    {
-      "prompt": "— Czy to daleko? — ___",
-      "choices": [
-        "Nie, to blisko.",
-        "Nie, to daleko.",
-        "Tak, to blisko.",
-        "Tak, to prosto."
-      ],
-      "answer": "Nie, to blisko.",
-      "explain": "The other three contradict themselves: nie then daleko, or tak then blisko. Match the yes or no to what follows it."
-    },
-    {
-      "prompt": "Someone asks you the way and you have no idea. You say:",
-      "choices": [
-        "Nie wiem.",
-        "Nie, to blisko.",
-        "Przepraszam, gdzie jest apteka?",
-        "Dziękuję bardzo."
-      ],
-      "answer": "Nie wiem.",
-      "explain": "Nie wiem is one fixed phrase for I don't know. Nie, to blisko would be answering a different question altogether."
-    },
-    {
-      "prompt": "Someone has just shown you the way. You say:",
-      "choices": [
-        "Dziękuję bardzo.",
-        "Nie wiem.",
-        "Przepraszam.",
-        "Czy to daleko?"
-      ],
-      "answer": "Dziękuję bardzo.",
-      "explain": "Przepraszam opens the exchange and Dziękuję bardzo closes it. Say them in that order and the whole thing works."
-    },
-    {
-      "prompt": "It's very close. →",
-      "choices": [
-        "To bardzo blisko.",
-        "To blisko bardzo.",
-        "Bardzo to blisko.",
-        "To bardzo daleko."
-      ],
-      "answer": "To bardzo blisko.",
-      "explain": "Bardzo stands directly in front of the word it strengthens, exactly as very does in English."
+     "en": "— Which way to the centre? — It's far.",
+     "pl": "— Którędy do centrum? — To daleko."
     }
-  ],
-  "type_items": [
+   ]
+  },
+  {
+   "title": "Nie wiem. · Dziękuję bardzo. — closing the exchange either way",
+   "title_pl": "Nie wiem. Dziękuję bardzo.",
+   "body": "Two last phrases and the street is survivable.\n\nNie wiem = I don't know. This is the everyday answer when a stranger asks you something and you have no idea — and it is also, often, what you will hear back. Learn it whole; wiem is not a word to take apart at this stage.\n\nBardzo means very, or a lot. Dziękuję bardzo = thank you very much, and it is what you say the moment someone has pointed you the right way.\n\nBardzo also strengthens the words you already have, and it goes in front of them: To bardzo blisko. To bardzo daleko.",
+   "body_pl": "Nie wiem. Dziękuję bardzo. To bardzo blisko. To bardzo daleko.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "New word in it"
+    ],
+    "rows": [
+     [
+      "Nie wiem.",
+      "I don't know.",
+      "wiem — take the phrase whole"
+     ],
+     [
+      "Nie wiem, przepraszam.",
+      "I don't know, sorry.",
+      "the polite full answer"
+     ],
+     [
+      "Dziękuję bardzo.",
+      "Thank you very much.",
+      "bardzo = very, a lot"
+     ],
+     [
+      "To bardzo blisko.",
+      "It's very close.",
+      "bardzo goes in FRONT"
+     ],
+     [
+      "To bardzo daleko.",
+      "It's very far.",
+      "bardzo goes in FRONT"
+     ]
+    ]
+   },
+   "examples": [
     {
-      "prompt_en": "Excuse me, where is the chemist's?",
-      "mode": "full_word",
-      "answer": "Przepraszam, gdzie jest apteka?",
-      "accepts": [
-        "Przepraszam, gdzie jest apteka?",
-        "Przepraszam, gdzie jest apteka",
-        "Przepraszam gdzie jest apteka"
-      ],
-      "explain": "Apteka keeps its dictionary form after Gdzie jest — nothing is added to it."
+     "en": "— Excuse me, where is the station? — I don't know, sorry.",
+     "pl": "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam."
     },
     {
-      "prompt_en": "Where is the hotel?",
-      "mode": "full_word",
-      "answer": "Gdzie jest hotel?",
-      "accepts": [
-        "Gdzie jest hotel?",
-        "Gdzie jest hotel"
-      ]
+     "en": "— Please go left. — Thank you very much.",
+     "pl": "— Proszę iść w lewo. — Dziękuję bardzo."
     },
     {
-      "prompt_en": "Where is the bus stop?",
-      "mode": "full_word",
-      "answer": "Gdzie jest przystanek?",
-      "accepts": [
-        "Gdzie jest przystanek?",
-        "Gdzie jest przystanek"
-      ]
-    },
-    {
-      "prompt_en": "Which way to the chemist's?",
-      "mode": "full_word",
-      "answer": "Którędy do apteki?",
-      "accepts": [
-        "Którędy do apteki?",
-        "Którędy do apteki",
-        "Ktoredy do apteki?",
-        "Ktoredy do apteki"
-      ],
-      "explain": "Do pulls the genitive, so apteka becomes apteki — the same do apteki you have used since A1. Compare Gdzie jest apteka?"
-    },
-    {
-      "prompt_en": "Which way to the centre?",
-      "mode": "full_word",
-      "answer": "Którędy do centrum?",
-      "accepts": [
-        "Którędy do centrum?",
-        "Którędy do centrum",
-        "Ktoredy do centrum?",
-        "Ktoredy do centrum"
-      ],
-      "explain": "Centrum is one of the handful of words that never changes its ending, whatever stands in front of it."
-    },
-    {
-      "prompt_en": "Please go straight on.",
-      "mode": "full_word",
-      "answer": "Proszę iść prosto.",
-      "accepts": [
-        "Proszę iść prosto.",
-        "Proszę iść prosto",
-        "Prosze isc prosto"
-      ],
-      "explain": "A fixed phrase. Learn the first two words as one block and leave them alone — only the last word changes when the direction changes."
-    },
-    {
-      "prompt_en": "Please go left.",
-      "mode": "full_word",
-      "answer": "Proszę iść w lewo.",
-      "accepts": [
-        "Proszę iść w lewo.",
-        "Proszę iść w lewo",
-        "Prosze isc w lewo"
-      ]
-    },
-    {
-      "prompt_en": "Please go right.",
-      "mode": "full_word",
-      "answer": "Proszę iść w prawo.",
-      "accepts": [
-        "Proszę iść w prawo.",
-        "Proszę iść w prawo",
-        "Prosze isc w prawo"
-      ]
-    },
-    {
-      "prompt_en": "Is it far?",
-      "mode": "full_word",
-      "answer": "Czy to daleko?",
-      "accepts": [
-        "Czy to daleko?",
-        "Czy to daleko"
-      ],
-      "explain": "Czy is doing all the question work here — there is no verb in the sentence at all."
-    },
-    {
-      "prompt_en": "It's near.",
-      "mode": "full_word",
-      "answer": "To blisko.",
-      "accepts": [
-        "To blisko.",
-        "To blisko"
-      ]
-    },
-    {
-      "prompt_en": "I don't know.",
-      "mode": "full_word",
-      "answer": "Nie wiem.",
-      "accepts": [
-        "Nie wiem.",
-        "Nie wiem"
-      ],
-      "explain": "One fixed phrase, said exactly as it stands. Do not try to build it out of anything else."
-    },
-    {
-      "prompt_en": "Thank you very much.",
-      "mode": "full_word",
-      "answer": "Dziękuję bardzo.",
-      "accepts": [
-        "Dziękuję bardzo.",
-        "Dziękuję bardzo",
-        "Dziekuje bardzo.",
-        "Dziekuje bardzo"
-      ],
-      "explain": "Bardzo comes after dziękuję here, but in front of an ordinary word: to bardzo blisko."
+     "en": "— Is it far? — No, it's very close.",
+     "pl": "— Czy to daleko? — Nie, to bardzo blisko."
     }
-  ],
-  "use_items": [
-    {
-      "prompt_en": "Type the exchange: — Excuse me, where is the chemist's? — It's near.",
-      "answer": "— Przepraszam, gdzie jest apteka? — To blisko.",
-      "accepts": [
-        "— Przepraszam, gdzie jest apteka? — To blisko.",
-        "Przepraszam, gdzie jest apteka? To blisko.",
-        "Przepraszam, gdzie jest apteka? To blisko",
-        "- Przepraszam, gdzie jest apteka? - To blisko."
-      ]
-    },
-    {
-      "prompt_en": "Type the exchange: — Which way to the centre? — Please go straight on.",
-      "answer": "— Którędy do centrum? — Proszę iść prosto.",
-      "accepts": [
-        "— Którędy do centrum? — Proszę iść prosto.",
-        "Którędy do centrum? Proszę iść prosto.",
-        "Którędy do centrum? Proszę iść prosto",
-        "- Którędy do centrum? - Proszę iść prosto."
-      ],
-      "explain": "The question needs the genitive centrum after do; the answer is a fixed block with prosto on the end."
-    },
-    {
-      "prompt_en": "Type the exchange: — Excuse me, where is the station? — I don't know, sorry.",
-      "answer": "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam.",
-      "accepts": [
-        "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam.",
-        "Przepraszam, gdzie jest dworzec? Nie wiem, przepraszam.",
-        "Przepraszam, gdzie jest dworzec? Nie wiem, przepraszam",
-        "- Przepraszam, gdzie jest dworzec? - Nie wiem, przepraszam."
-      ],
-      "explain": "Przepraszam does two jobs in one exchange — excuse me at the start, sorry at the end."
-    },
-    {
-      "prompt_en": "Type: Excuse me, where is the hotel? Is it far?",
-      "answer": "Przepraszam, gdzie jest hotel? Czy to daleko?",
-      "accepts": [
-        "Przepraszam, gdzie jest hotel? Czy to daleko?",
-        "Przepraszam, gdzie jest hotel? Czy to daleko",
-        "Przepraszam gdzie jest hotel? Czy to daleko?"
-      ]
-    },
-    {
-      "prompt_en": "Type the exchange: — Is it far? — No, it's very close.",
-      "answer": "— Czy to daleko? — Nie, to bardzo blisko.",
-      "accepts": [
-        "— Czy to daleko? — Nie, to bardzo blisko.",
-        "Czy to daleko? Nie, to bardzo blisko.",
-        "Czy to daleko? Nie, to bardzo blisko",
-        "- Czy to daleko? - Nie, to bardzo blisko."
-      ],
-      "explain": "Bardzo goes in front of blisko, never after it."
-    },
-    {
-      "prompt_en": "Type the exchange: — Which way to the bank? — Please go left.",
-      "answer": "— Którędy do banku? — Proszę iść w lewo.",
-      "accepts": [
-        "— Którędy do banku? — Proszę iść w lewo.",
-        "Którędy do banku? Proszę iść w lewo.",
-        "Którędy do banku? Proszę iść w lewo",
-        "- Którędy do banku? - Proszę iść w lewo."
-      ]
-    },
-    {
-      "prompt_en": "Type the exchange: — Where is the post office? — Please go right. It's near.",
-      "answer": "— Gdzie jest poczta? — Proszę iść w prawo. To blisko.",
-      "accepts": [
-        "— Gdzie jest poczta? — Proszę iść w prawo. To blisko.",
-        "Gdzie jest poczta? Proszę iść w prawo. To blisko.",
-        "Gdzie jest poczta? Proszę iść w prawo. To blisko",
-        "- Gdzie jest poczta? - Proszę iść w prawo. To blisko."
-      ]
-    },
-    {
-      "prompt_en": "Type: Excuse me. Which way to the park? Thank you very much.",
-      "answer": "Przepraszam. Którędy do parku? Dziękuję bardzo.",
-      "accepts": [
-        "Przepraszam. Którędy do parku? Dziękuję bardzo.",
-        "Przepraszam. Którędy do parku? Dziękuję bardzo",
-        "Przepraszam, którędy do parku? Dziękuję bardzo."
-      ],
-      "explain": "A whole street exchange from your side in three short phrases: get attention, ask, thank."
-    },
-    {
-      "prompt_en": "Type the exchange: — Excuse me, where is the shop? — It's very far.",
-      "answer": "— Przepraszam, gdzie jest sklep? — To bardzo daleko.",
-      "accepts": [
-        "— Przepraszam, gdzie jest sklep? — To bardzo daleko.",
-        "Przepraszam, gdzie jest sklep? To bardzo daleko.",
-        "Przepraszam, gdzie jest sklep? To bardzo daleko",
-        "- Przepraszam, gdzie jest sklep? - To bardzo daleko."
-      ]
-    },
-    {
-      "prompt_en": "Type the exchange: — Which way to the hospital? — I don't know, sorry.",
-      "answer": "— Którędy do szpitala? — Nie wiem, przepraszam.",
-      "accepts": [
-        "— Którędy do szpitala? — Nie wiem, przepraszam.",
-        "Którędy do szpitala? Nie wiem, przepraszam.",
-        "Którędy do szpitala? Nie wiem, przepraszam",
-        "- Którędy do szpitala? - Nie wiem, przepraszam."
-      ],
-      "explain": "Szpital becomes szpitala after do — the same do szpitala you already know."
-    },
-    {
-      "prompt_en": "Type: Good day. Excuse me, where is the market square?",
-      "answer": "Dzień dobry. Przepraszam, gdzie jest rynek?",
-      "accepts": [
-        "Dzień dobry. Przepraszam, gdzie jest rynek?",
-        "Dzień dobry. Przepraszam, gdzie jest rynek",
-        "Dzień dobry, przepraszam, gdzie jest rynek?"
-      ]
-    },
-    {
-      "prompt_en": "Type the exchange: — Excuse me, where is the metro? — Please go straight on. It's near.",
-      "answer": "— Przepraszam, gdzie jest metro? — Proszę iść prosto. To blisko.",
-      "accepts": [
-        "— Przepraszam, gdzie jest metro? — Proszę iść prosto. To blisko.",
-        "Przepraszam, gdzie jest metro? Proszę iść prosto. To blisko.",
-        "Przepraszam, gdzie jest metro? Proszę iść prosto. To blisko",
-        "- Przepraszam, gdzie jest metro? - Proszę iść prosto. To blisko."
-      ],
-      "explain": "Metro is another word that never changes its ending, so it is safe in any of these frames."
-    }
-  ],
-  "teaches_lemmas": [
-    "którędy",
-    "iść",
-    "wiem",
-    "bardzo",
-    "gdzie jest",
-    "przepraszam, gdzie jest",
-    "gdzie jest apteka",
-    "gdzie jest hotel",
-    "gdzie jest bank",
-    "gdzie jest przystanek",
-    "gdzie jest dworzec",
-    "gdzie jest poczta",
-    "gdzie jest sklep",
-    "gdzie jest metro",
-    "gdzie jest rynek",
-    "gdzie jest centrum",
-    "którędy do",
-    "którędy do apteki",
-    "którędy do banku",
-    "którędy do parku",
-    "którędy do centrum",
-    "którędy do sklepu",
-    "którędy do szpitala",
-    "proszę iść",
-    "proszę iść prosto",
-    "proszę iść w lewo",
-    "proszę iść w prawo",
-    "czy to daleko",
-    "to blisko",
-    "to daleko",
-    "to bardzo blisko",
-    "to bardzo daleko",
-    "nie, to blisko",
-    "tak, to daleko",
-    "nie wiem",
-    "nie wiem, przepraszam",
-    "dziękuję bardzo"
-  ],
-  "uses_lemmas": [
-    "przepraszam",
-    "proszę",
-    "dziękuję",
-    "dzień dobry",
-    "gdzie",
-    "jest",
-    "czy",
-    "to",
-    "nie",
-    "tak",
-    "prosto",
-    "lewo",
-    "prawo",
-    "w lewo",
-    "w prawo",
-    "daleko",
-    "blisko",
-    "apteka",
-    "apteki",
-    "do apteki",
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "Excuse me, where is the chemist's?",
+   "pl": "Przepraszam, gdzie jest apteka?"
+  },
+  {
+   "en": "Where is the hotel?",
+   "pl": "Gdzie jest hotel?"
+  },
+  {
+   "en": "Where is the bus stop?",
+   "pl": "Gdzie jest przystanek?"
+  },
+  {
+   "en": "Which way to the chemist's?",
+   "pl": "Którędy do apteki?"
+  },
+  {
+   "en": "Which way to the centre?",
+   "pl": "Którędy do centrum?"
+  },
+  {
+   "en": "Please go straight on.",
+   "pl": "Proszę iść prosto."
+  },
+  {
+   "en": "Please go left.",
+   "pl": "Proszę iść w lewo."
+  },
+  {
+   "en": "Please go right.",
+   "pl": "Proszę iść w prawo."
+  },
+  {
+   "en": "Is it far?",
+   "pl": "Czy to daleko?"
+  },
+  {
+   "en": "It's near.",
+   "pl": "To blisko."
+  },
+  {
+   "en": "I don't know.",
+   "pl": "Nie wiem."
+  },
+  {
+   "en": "Thank you very much.",
+   "pl": "Dziękuję bardzo."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Excuse me, where is the chemist's? →",
+   "choices": [
+    "Przepraszam, gdzie jest apteka?",
+    "Przepraszam, gdzie jest apteki?",
+    "Przepraszam, którędy apteka?",
+    "Gdzie jest do apteki?"
+   ],
+   "answer": "Przepraszam, gdzie jest apteka?",
+   "explain": "After Gdzie jest the place keeps its plain dictionary form. It is do that pulls the genitive, and there is no do in this question."
+  },
+  {
+   "prompt": "Where is the bank?  →  Gdzie jest ___?",
+   "choices": [
     "bank",
     "banku",
     "do banku",
-    "w banku",
-    "park",
-    "parku",
-    "do parku",
-    "sklep",
-    "sklepu",
-    "do sklepu",
-    "szpital",
-    "szpitala",
-    "do szpitala",
-    "centrum",
-    "do centrum",
-    "hotel",
-    "przystanek",
-    "dworzec",
-    "poczta",
-    "metro",
-    "rynek"
-  ],
-  "sequencing": {
-    "spec": "rupl-codex/SEQUENCING.md",
-    "phase": 1,
-    "node_id": "a2_directions_func",
-    "pool_model": "cumulative_focus_recycle"
+    "w banku"
+   ],
+   "answer": "bank",
+   "explain": "W banku says you are inside it and do banku says you are heading there. Gdzie jest only asks where it stands, so the word stays as the dictionary has it."
+  },
+  {
+   "prompt": "You want to know the way to the park. →",
+   "choices": [
+    "Którędy do parku?",
+    "Którędy do park?",
+    "Którędy parku?",
+    "Gdzie jest parku?"
+   ],
+   "answer": "Którędy do parku?",
+   "explain": "Do always pulls the genitive — the same do parku you already know. Drop the do and the question falls apart."
+  },
+  {
+   "prompt": "Which way to the centre? →",
+   "choices": [
+    "Którędy do centrum?",
+    "Gdzie jest centrum?",
+    "Czy to daleko?",
+    "Proszę iść prosto."
+   ],
+   "answer": "Którędy do centrum?",
+   "explain": "Gdzie jest centrum? asks where it is. Którędy asks for the route to it — which way you should walk."
+  },
+  {
+   "prompt": "Please go straight on. →",
+   "choices": [
+    "Proszę iść prosto.",
+    "Proszę iść w lewo.",
+    "Proszę iść w prawo.",
+    "Czy to daleko?"
+   ],
+   "answer": "Proszę iść prosto.",
+   "explain": "Prosto is straight on. The frame in front of it never changes — only the last word does."
+  },
+  {
+   "prompt": "Please go left. →",
+   "choices": [
+    "Proszę iść w lewo.",
+    "Proszę iść w prawo.",
+    "Proszę iść prosto.",
+    "To blisko."
+   ],
+   "answer": "Proszę iść w lewo."
+  },
+  {
+   "prompt": "— Którędy do parku? — ___",
+   "choices": [
+    "Proszę iść prosto.",
+    "Czy to daleko?",
+    "Przepraszam.",
+    "Dziękuję bardzo."
+   ],
+   "answer": "Proszę iść prosto.",
+   "explain": "Którędy asks for the way, so the answer has to be a direction. Czy to daleko? would be answering a question with a question."
+  },
+  {
+   "prompt": "Is it far? →",
+   "choices": [
+    "Czy to daleko?",
+    "Czy to blisko?",
+    "To daleko.",
+    "Gdzie jest daleko?"
+   ],
+   "answer": "Czy to daleko?",
+   "explain": "Czy at the front is what makes it a yes/no question. Without it, To daleko is a statement — it's far."
+  },
+  {
+   "prompt": "— Czy to daleko? — ___",
+   "choices": [
+    "Nie, to blisko.",
+    "Nie, to daleko.",
+    "Tak, to blisko.",
+    "Tak, to prosto."
+   ],
+   "answer": "Nie, to blisko.",
+   "explain": "The other three contradict themselves: nie then daleko, or tak then blisko. Match the yes or no to what follows it."
+  },
+  {
+   "prompt": "Someone asks you the way and you have no idea. You say:",
+   "choices": [
+    "Nie wiem.",
+    "Nie, to blisko.",
+    "Przepraszam, gdzie jest apteka?",
+    "Dziękuję bardzo."
+   ],
+   "answer": "Nie wiem.",
+   "explain": "Nie wiem is one fixed phrase for I don't know. Nie, to blisko would be answering a different question altogether."
+  },
+  {
+   "prompt": "Someone has just shown you the way. You say:",
+   "choices": [
+    "Dziękuję bardzo.",
+    "Nie wiem.",
+    "Przepraszam.",
+    "Czy to daleko?"
+   ],
+   "answer": "Dziękuję bardzo.",
+   "explain": "Przepraszam opens the exchange and Dziękuję bardzo closes it. Say them in that order and the whole thing works."
+  },
+  {
+   "prompt": "It's very close. →",
+   "choices": [
+    "To bardzo blisko.",
+    "To blisko bardzo.",
+    "Bardzo to blisko.",
+    "To bardzo daleko."
+   ],
+   "answer": "To bardzo blisko.",
+   "explain": "Bardzo stands directly in front of the word it strengthens, exactly as very does in English."
   }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "Excuse me, where is the chemist's?",
+   "mode": "cloze",
+   "frame": "Przepraszam, gdzie jest ___?",
+   "answer": "apteka",
+   "accepts": [
+    "apteka"
+   ],
+   "explain": "Apteka keeps its dictionary form after Gdzie jest — nothing is added to it.",
+   "note": "Pisanie hard cap (James 2026-08-06). Blank on apteka, which is exactly what this item's explain is about: the place name does not change after gdzie jest."
+  },
+  {
+   "prompt_en": "Where is the hotel?",
+   "mode": "full_word",
+   "answer": "Gdzie jest hotel?",
+   "accepts": [
+    "Gdzie jest hotel?",
+    "Gdzie jest hotel"
+   ]
+  },
+  {
+   "prompt_en": "Where is the bus stop?",
+   "mode": "full_word",
+   "answer": "Gdzie jest przystanek?",
+   "accepts": [
+    "Gdzie jest przystanek?",
+    "Gdzie jest przystanek"
+   ]
+  },
+  {
+   "prompt_en": "Which way to the chemist's?",
+   "mode": "full_word",
+   "answer": "Którędy do apteki?",
+   "accepts": [
+    "Którędy do apteki?",
+    "Którędy do apteki",
+    "Ktoredy do apteki?",
+    "Ktoredy do apteki"
+   ],
+   "explain": "Do pulls the genitive, so apteka becomes apteki — the same do apteki you have used since A1. Compare Gdzie jest apteka?"
+  },
+  {
+   "prompt_en": "Which way to the centre?",
+   "mode": "full_word",
+   "answer": "Którędy do centrum?",
+   "accepts": [
+    "Którędy do centrum?",
+    "Którędy do centrum",
+    "Ktoredy do centrum?",
+    "Ktoredy do centrum"
+   ],
+   "explain": "Centrum is one of the handful of words that never changes its ending, whatever stands in front of it."
+  },
+  {
+   "prompt_en": "Please go straight on.",
+   "mode": "full_word",
+   "answer": "Proszę iść prosto.",
+   "accepts": [
+    "Proszę iść prosto.",
+    "Proszę iść prosto",
+    "Prosze isc prosto"
+   ],
+   "explain": "A fixed phrase. Learn the first two words as one block and leave them alone — only the last word changes when the direction changes."
+  },
+  {
+   "prompt_en": "Please go left.",
+   "mode": "cloze",
+   "frame": "Proszę iść w ___.",
+   "answer": "lewo",
+   "accepts": [
+    "lewo"
+   ],
+   "note": "Pisanie hard cap (James 2026-08-06). Item 5's explain already says only the last word changes when the direction changes; the blank puts that on the learner."
+  },
+  {
+   "prompt_en": "Please go right.",
+   "mode": "cloze",
+   "frame": "Proszę iść w ___.",
+   "answer": "prawo",
+   "accepts": [
+    "prawo"
+   ]
+  },
+  {
+   "prompt_en": "Is it far?",
+   "mode": "full_word",
+   "answer": "Czy to daleko?",
+   "accepts": [
+    "Czy to daleko?",
+    "Czy to daleko"
+   ],
+   "explain": "Czy is doing all the question work here — there is no verb in the sentence at all."
+  },
+  {
+   "prompt_en": "It's near.",
+   "mode": "full_word",
+   "answer": "To blisko.",
+   "accepts": [
+    "To blisko.",
+    "To blisko"
+   ]
+  },
+  {
+   "prompt_en": "I don't know.",
+   "mode": "full_word",
+   "answer": "Nie wiem.",
+   "accepts": [
+    "Nie wiem.",
+    "Nie wiem"
+   ],
+   "explain": "One fixed phrase, said exactly as it stands. Do not try to build it out of anything else."
+  },
+  {
+   "prompt_en": "Thank you very much.",
+   "mode": "full_word",
+   "answer": "Dziękuję bardzo.",
+   "accepts": [
+    "Dziękuję bardzo.",
+    "Dziękuję bardzo",
+    "Dziekuje bardzo.",
+    "Dziekuje bardzo"
+   ],
+   "explain": "Bardzo comes after dziękuję here, but in front of an ordinary word: to bardzo blisko."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type the exchange: — Excuse me, where is the chemist's? — It's near.",
+   "answer": "— Przepraszam, gdzie jest apteka? — To blisko.",
+   "accepts": [
+    "— Przepraszam, gdzie jest apteka? — To blisko.",
+    "Przepraszam, gdzie jest apteka? To blisko.",
+    "Przepraszam, gdzie jest apteka? To blisko",
+    "- Przepraszam, gdzie jest apteka? - To blisko."
+   ]
+  },
+  {
+   "prompt_en": "Type the exchange: — Which way to the centre? — Please go straight on.",
+   "answer": "— Którędy do centrum? — Proszę iść prosto.",
+   "accepts": [
+    "— Którędy do centrum? — Proszę iść prosto.",
+    "Którędy do centrum? Proszę iść prosto.",
+    "Którędy do centrum? Proszę iść prosto",
+    "- Którędy do centrum? - Proszę iść prosto."
+   ],
+   "explain": "The question needs the genitive centrum after do; the answer is a fixed block with prosto on the end."
+  },
+  {
+   "prompt_en": "Type the exchange: — Excuse me, where is the station? — I don't know, sorry.",
+   "answer": "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam.",
+   "accepts": [
+    "— Przepraszam, gdzie jest dworzec? — Nie wiem, przepraszam.",
+    "Przepraszam, gdzie jest dworzec? Nie wiem, przepraszam.",
+    "Przepraszam, gdzie jest dworzec? Nie wiem, przepraszam",
+    "- Przepraszam, gdzie jest dworzec? - Nie wiem, przepraszam."
+   ],
+   "explain": "Przepraszam does two jobs in one exchange — excuse me at the start, sorry at the end."
+  },
+  {
+   "prompt_en": "Type: Excuse me, where is the hotel? Is it far?",
+   "answer": "Przepraszam, gdzie jest hotel? Czy to daleko?",
+   "accepts": [
+    "Przepraszam, gdzie jest hotel? Czy to daleko?",
+    "Przepraszam, gdzie jest hotel? Czy to daleko",
+    "Przepraszam gdzie jest hotel? Czy to daleko?"
+   ]
+  },
+  {
+   "prompt_en": "Type the exchange: — Is it far? — No, it's very close.",
+   "answer": "— Czy to daleko? — Nie, to bardzo blisko.",
+   "accepts": [
+    "— Czy to daleko? — Nie, to bardzo blisko.",
+    "Czy to daleko? Nie, to bardzo blisko.",
+    "Czy to daleko? Nie, to bardzo blisko",
+    "- Czy to daleko? - Nie, to bardzo blisko."
+   ],
+   "explain": "Bardzo goes in front of blisko, never after it."
+  },
+  {
+   "prompt_en": "Type the exchange: — Which way to the bank? — Please go left.",
+   "answer": "— Którędy do banku? — Proszę iść w lewo.",
+   "accepts": [
+    "— Którędy do banku? — Proszę iść w lewo.",
+    "Którędy do banku? Proszę iść w lewo.",
+    "Którędy do banku? Proszę iść w lewo",
+    "- Którędy do banku? - Proszę iść w lewo."
+   ]
+  },
+  {
+   "prompt_en": "Type the exchange: — Where is the post office? — Please go right. It's near.",
+   "answer": "— Gdzie jest poczta? — Proszę iść w prawo. To blisko.",
+   "accepts": [
+    "— Gdzie jest poczta? — Proszę iść w prawo. To blisko.",
+    "Gdzie jest poczta? Proszę iść w prawo. To blisko.",
+    "Gdzie jest poczta? Proszę iść w prawo. To blisko",
+    "- Gdzie jest poczta? - Proszę iść w prawo. To blisko."
+   ]
+  },
+  {
+   "prompt_en": "Type: Excuse me. Which way to the park? Thank you very much.",
+   "answer": "Przepraszam. Którędy do parku? Dziękuję bardzo.",
+   "accepts": [
+    "Przepraszam. Którędy do parku? Dziękuję bardzo.",
+    "Przepraszam. Którędy do parku? Dziękuję bardzo",
+    "Przepraszam, którędy do parku? Dziękuję bardzo."
+   ],
+   "explain": "A whole street exchange from your side in three short phrases: get attention, ask, thank."
+  },
+  {
+   "prompt_en": "Type the exchange: — Excuse me, where is the shop? — It's very far.",
+   "answer": "— Przepraszam, gdzie jest sklep? — To bardzo daleko.",
+   "accepts": [
+    "— Przepraszam, gdzie jest sklep? — To bardzo daleko.",
+    "Przepraszam, gdzie jest sklep? To bardzo daleko.",
+    "Przepraszam, gdzie jest sklep? To bardzo daleko",
+    "- Przepraszam, gdzie jest sklep? - To bardzo daleko."
+   ]
+  },
+  {
+   "prompt_en": "Type the exchange: — Which way to the hospital? — I don't know, sorry.",
+   "answer": "— Którędy do szpitala? — Nie wiem, przepraszam.",
+   "accepts": [
+    "— Którędy do szpitala? — Nie wiem, przepraszam.",
+    "Którędy do szpitala? Nie wiem, przepraszam.",
+    "Którędy do szpitala? Nie wiem, przepraszam",
+    "- Którędy do szpitala? - Nie wiem, przepraszam."
+   ],
+   "explain": "Szpital becomes szpitala after do — the same do szpitala you already know."
+  },
+  {
+   "prompt_en": "Type: Good day. Excuse me, where is the market square?",
+   "answer": "Dzień dobry. Przepraszam, gdzie jest rynek?",
+   "accepts": [
+    "Dzień dobry. Przepraszam, gdzie jest rynek?",
+    "Dzień dobry. Przepraszam, gdzie jest rynek",
+    "Dzień dobry, przepraszam, gdzie jest rynek?"
+   ]
+  },
+  {
+   "prompt_en": "Type the exchange: — Excuse me, where is the metro? — Please go straight on. It's near.",
+   "answer": "— Przepraszam, gdzie jest metro? — Proszę iść prosto. To blisko.",
+   "accepts": [
+    "— Przepraszam, gdzie jest metro? — Proszę iść prosto. To blisko.",
+    "Przepraszam, gdzie jest metro? Proszę iść prosto. To blisko.",
+    "Przepraszam, gdzie jest metro? Proszę iść prosto. To blisko",
+    "- Przepraszam, gdzie jest metro? - Proszę iść prosto. To blisko."
+   ],
+   "explain": "Metro is another word that never changes its ending, so it is safe in any of these frames."
+  }
+ ],
+ "teaches_lemmas": [
+  "którędy",
+  "iść",
+  "wiem",
+  "bardzo",
+  "gdzie jest",
+  "przepraszam, gdzie jest",
+  "gdzie jest apteka",
+  "gdzie jest hotel",
+  "gdzie jest bank",
+  "gdzie jest przystanek",
+  "gdzie jest dworzec",
+  "gdzie jest poczta",
+  "gdzie jest sklep",
+  "gdzie jest metro",
+  "gdzie jest rynek",
+  "gdzie jest centrum",
+  "którędy do",
+  "którędy do apteki",
+  "którędy do banku",
+  "którędy do parku",
+  "którędy do centrum",
+  "którędy do sklepu",
+  "którędy do szpitala",
+  "proszę iść",
+  "proszę iść prosto",
+  "proszę iść w lewo",
+  "proszę iść w prawo",
+  "czy to daleko",
+  "to blisko",
+  "to daleko",
+  "to bardzo blisko",
+  "to bardzo daleko",
+  "nie, to blisko",
+  "tak, to daleko",
+  "nie wiem",
+  "nie wiem, przepraszam",
+  "dziękuję bardzo"
+ ],
+ "uses_lemmas": [
+  "przepraszam",
+  "proszę",
+  "dziękuję",
+  "dzień dobry",
+  "gdzie",
+  "jest",
+  "czy",
+  "to",
+  "nie",
+  "tak",
+  "prosto",
+  "lewo",
+  "prawo",
+  "w lewo",
+  "w prawo",
+  "daleko",
+  "blisko",
+  "apteka",
+  "apteki",
+  "do apteki",
+  "bank",
+  "banku",
+  "do banku",
+  "w banku",
+  "park",
+  "parku",
+  "do parku",
+  "sklep",
+  "sklepu",
+  "do sklepu",
+  "szpital",
+  "szpitala",
+  "do szpitala",
+  "centrum",
+  "do centrum",
+  "hotel",
+  "przystanek",
+  "dworzec",
+  "poczta",
+  "metro",
+  "rynek"
+ ],
+ "sequencing": {
+  "spec": "rupl-codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "a2_directions_func",
+  "pool_model": "cumulative_focus_recycle"
+ }
 }

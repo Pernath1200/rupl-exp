@@ -1,604 +1,606 @@
 {
-  "id": "a2_dat_chunks",
-  "title": "Podoba mi się · smakuje mi · boli mnie",
-  "title_en": "I like it · it tastes good · it hurts",
-  "level": "A2",
-  "tree_node": "a2_dat_chunks",
-  "default_direction": "en_to_pl",
-  "kind": "morphology",
-  "type": {
-    "mode": "full_word"
-  },
-  "check": {
-    "sequence": [
-      "match",
-      "quiz"
+ "id": "a2_dat_chunks",
+ "title": "Podoba mi się · smakuje mi · boli mnie",
+ "title_en": "I like it · it tastes good · it hurts",
+ "level": "A2",
+ "tree_node": "a2_dat_chunks",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "THREE fixed blocks only: podoba mi się, smakuje mi, boli mnie. daj mi DROPPED — the imperative is a whole new system and it does not show the subject-flip, which is the entire reason this unit exists. NOT the dative case: no ci/mu/jej/nam, no noun datives (mamie, bratu), no paradigm table, and the case is never named anywhere in learner text. mi and mnie are taught as words that live inside their block, nothing more. mnie in boli mnie is accusative, not dative — deliberately NOT explained; Dad is told only that boli keeps mnie and podoba/smakuje keep mi. THE POINT: the English subject flips. The film pleases, the coffee tastes, the head hurts; Dad is the person it happens to. Intro slide 2 is built entirely around that, and quiz item 6 (ta kawa, not kawę) makes him act on it. FENCED: no past of any block (podobał mi się) — later; no plural subjects (podobają mi się, bolą mnie nogi) so only the 3sg form of each verb is ever needed; no questions, because czy podoba ci się would need ci. Negation IS included (nie in front of the whole block) — it is already taught, adds no new form, and 'I don't like this' is too high-frequency to withhold. się is treated exactly as a2_sie framed it: a word belonging to the verb, never 'self'. Hook: chce mi się pić is already in the pool, so Dad has been saying mi since A1.",
+ "focus_structures": [
+  "dat_chunks"
+ ],
+ "teaches_structures": [
+  "dat_chunks"
+ ],
+ "uses_structures": [
+  "dat_chunks",
+  "ten_ta_to",
+  "sie_reflexive",
+  "present",
+  "present_am",
+  "present_uje",
+  "present_e_isz",
+  "negation",
+  "poss_nom",
+  "prep_w_loc"
+ ],
+ "intro": [
+  {
+   "title": "One little word you already say",
+   "title_pl": "Słowo, które już mówisz",
+   "body": "You already have a sentence with mi inside it: chce mi się pić — \"I'm thirsty\". Nobody has ever told you what that mi is doing there.\n\nmi means \"to me\" or \"for me\". mnie is its partner and means \"me\". Neither of them is ever the one doing the verb. They are the person something happens TO.\n\nThree everyday Polish sentences are built on that idea. Learn each one as a block of words that never comes apart.",
+   "body_pl": "mi i mnie to nie wykonawca czynności — to osoba, której coś się przydarza.",
+   "table": {
+    "headers": [
+     "Block",
+     "English"
+    ],
+    "rows": [
+     [
+      "podoba mi się ...",
+      "I like ..."
+     ],
+     [
+      "smakuje mi ...",
+      "... tastes good to me"
+     ],
+     [
+      "boli mnie ...",
+      "my ... hurts"
+     ]
     ]
+   }
   },
-  "note": "THREE fixed blocks only: podoba mi się, smakuje mi, boli mnie. daj mi DROPPED — the imperative is a whole new system and it does not show the subject-flip, which is the entire reason this unit exists. NOT the dative case: no ci/mu/jej/nam, no noun datives (mamie, bratu), no paradigm table, and the case is never named anywhere in learner text. mi and mnie are taught as words that live inside their block, nothing more. mnie in boli mnie is accusative, not dative — deliberately NOT explained; Dad is told only that boli keeps mnie and podoba/smakuje keep mi. THE POINT: the English subject flips. The film pleases, the coffee tastes, the head hurts; Dad is the person it happens to. Intro slide 2 is built entirely around that, and quiz item 6 (ta kawa, not kawę) makes him act on it. FENCED: no past of any block (podobał mi się) — later; no plural subjects (podobają mi się, bolą mnie nogi) so only the 3sg form of each verb is ever needed; no questions, because czy podoba ci się would need ci. Negation IS included (nie in front of the whole block) — it is already taught, adds no new form, and 'I don't like this' is too high-frequency to withhold. się is treated exactly as a2_sie framed it: a word belonging to the verb, never 'self'. Hook: chce mi się pić is already in the pool, so Dad has been saying mi since A1.",
-  "focus_structures": [
-    "dat_chunks"
-  ],
-  "teaches_structures": [
-    "dat_chunks"
-  ],
-  "uses_structures": [
-    "dat_chunks",
-    "ten_ta_to",
-    "sie_reflexive",
-    "present",
-    "present_am",
-    "present_uje",
-    "present_e_isz",
-    "negation",
-    "poss_nom",
-    "prep_w_loc"
-  ],
-  "intro": [
+  {
+   "title": "Polish turns the sentence round",
+   "title_pl": "Kto wykonuje czynność",
+   "body": "This is the one thing to understand in this unit, and it is worth two minutes.\n\nIn English you are the one who likes. In Polish you are not. The film does the pleasing. The coffee does the tasting. The head does the hurting. You are simply the person it happens to.\n\nSo the thing goes where the doer goes, and it keeps its plain dictionary form — ten film, ta kawa, głowa. It never changes shape. Compare chcę kawę, where the coffee is what you want and takes -ę. Here the coffee is not what you want; it is the one doing the work, so it stays kawa.\n\nSay it to yourself the long way round for the first few days — the film pleases me, the coffee tastes to me, the head hurts me — and the Polish will stop looking strange.",
+   "body_pl": "To rzecz jest wykonawcą: ten film, ta kawa, głowa. Ja jestem tylko mi albo mnie.",
+   "table": {
+    "headers": [
+     "English",
+     "Polish",
+     "Who does the verb in Polish"
+    ],
+    "rows": [
+     [
+      "I like this film.",
+      "Podoba mi się ten film.",
+      "ten film — the film does the pleasing"
+     ],
+     [
+      "I like this coffee.",
+      "Smakuje mi ta kawa.",
+      "ta kawa — the coffee does the tasting"
+     ],
+     [
+      "My head hurts.",
+      "Boli mnie głowa.",
+      "głowa — the head does the hurting"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The three blocks, and what follows them",
+   "title_pl": "Trzy bloki",
+   "body": "The words inside a block never move. podoba mi się is always those three words in that order, and the się in it is the same się you met in czuję się — it belongs to the verb and is not translated.\n\nNo new endings here either. Each verb runs on a present pattern you already own: podoba like mieszka, smakuje like pracuje, boli like mówi. You only ever need this one form, because the doer is always a thing.\n\nAfter the block comes the thing itself, with ten for masculine, ta for feminine, to for neuter.",
+   "body_pl": "Blok się nie zmienia. Po bloku: ten, ta albo to + rzecz.",
+   "table": {
+    "headers": [
+     "Block",
+     "masculine — ten",
+     "feminine — ta",
+     "neuter — to"
+    ],
+    "rows": [
+     [
+      "podoba mi się",
+      "ten film",
+      "ta książka",
+      "to miasto"
+     ],
+     [
+      "smakuje mi",
+      "ten chleb",
+      "ta zupa",
+      "to piwo"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "boli mnie, and how to say no",
+   "title_pl": "Boli mnie · przeczenie",
+   "body": "boli mnie is a little different in two ways, both of them easy.\n\nFirst, body parts follow it straight away with no ten, ta or to: Boli mnie głowa. Boli mnie ząb.\n\nSecond, you never need a word for \"my\". Boli mnie already says the head is yours, so Moja głowa boli mnie is wrong — Poles do not say it.\n\nTo say you do not like something, put nie in front of the whole block and change nothing inside it. Words like często, czasami, dzisiaj and bardzo go in front of the block too.",
+   "body_pl": "Boli mnie głowa — bez moja. Przeczenie: nie przed całym blokiem.",
+   "examples": [
     {
-      "title": "One little word you already say",
-      "title_pl": "Słowo, które już mówisz",
-      "body": "You already have a sentence with mi inside it: chce mi się pić — \"I'm thirsty\". Nobody has ever told you what that mi is doing there.\n\nmi means \"to me\" or \"for me\". mnie is its partner and means \"me\". Neither of them is ever the one doing the verb. They are the person something happens TO.\n\nThree everyday Polish sentences are built on that idea. Learn each one as a block of words that never comes apart.",
-      "body_pl": "mi i mnie to nie wykonawca czynności — to osoba, której coś się przydarza.",
-      "table": {
-        "headers": [
-          "Block",
-          "English"
-        ],
-        "rows": [
-          [
-            "podoba mi się ...",
-            "I like ..."
-          ],
-          [
-            "smakuje mi ...",
-            "... tastes good to me"
-          ],
-          [
-            "boli mnie ...",
-            "my ... hurts"
-          ]
-        ]
-      }
+     "en": "I like your house.",
+     "pl": "Podoba mi się twój dom."
     },
     {
-      "title": "Polish turns the sentence round",
-      "title_pl": "Kto wykonuje czynność",
-      "body": "This is the one thing to understand in this unit, and it is worth two minutes.\n\nIn English you are the one who likes. In Polish you are not. The film does the pleasing. The coffee does the tasting. The head does the hurting. You are simply the person it happens to.\n\nSo the thing goes where the doer goes, and it keeps its plain dictionary form — ten film, ta kawa, głowa. It never changes shape. Compare chcę kawę, where the coffee is what you want and takes -ę. Here the coffee is not what you want; it is the one doing the work, so it stays kawa.\n\nSay it to yourself the long way round for the first few days — the film pleases me, the coffee tastes to me, the head hurts me — and the Polish will stop looking strange.",
-      "body_pl": "To rzecz jest wykonawcą: ten film, ta kawa, głowa. Ja jestem tylko mi albo mnie.",
-      "table": {
-        "headers": [
-          "English",
-          "Polish",
-          "Who does the verb in Polish"
-        ],
-        "rows": [
-          [
-            "I like this film.",
-            "Podoba mi się ten film.",
-            "ten film — the film does the pleasing"
-          ],
-          [
-            "I like this coffee.",
-            "Smakuje mi ta kawa.",
-            "ta kawa — the coffee does the tasting"
-          ],
-          [
-            "My head hurts.",
-            "Boli mnie głowa.",
-            "głowa — the head does the hurting"
-          ]
-        ]
-      }
+     "en": "I don't like this shop.",
+     "pl": "Nie podoba mi się ten sklep."
     },
     {
-      "title": "The three blocks, and what follows them",
-      "title_pl": "Trzy bloki",
-      "body": "The words inside a block never move. podoba mi się is always those three words in that order, and the się in it is the same się you met in czuję się — it belongs to the verb and is not translated.\n\nNo new endings here either. Each verb runs on a present pattern you already own: podoba like mieszka, smakuje like pracuje, boli like mówi. You only ever need this one form, because the doer is always a thing.\n\nAfter the block comes the thing itself, with ten for masculine, ta for feminine, to for neuter.",
-      "body_pl": "Blok się nie zmienia. Po bloku: ten, ta albo to + rzecz.",
-      "table": {
-        "headers": [
-          "Block",
-          "masculine — ten",
-          "feminine — ta",
-          "neuter — to"
-        ],
-        "rows": [
-          [
-            "podoba mi się",
-            "ten film",
-            "ta książka",
-            "to miasto"
-          ],
-          [
-            "smakuje mi",
-            "ten chleb",
-            "ta zupa",
-            "to piwo"
-          ]
-        ]
-      }
+     "en": "Your tea tastes good to me.",
+     "pl": "Smakuje mi twoja herbata."
     },
     {
-      "title": "boli mnie, and how to say no",
-      "title_pl": "Boli mnie · przeczenie",
-      "body": "boli mnie is a little different in two ways, both of them easy.\n\nFirst, body parts follow it straight away with no ten, ta or to: Boli mnie głowa. Boli mnie ząb.\n\nSecond, you never need a word for \"my\". Boli mnie already says the head is yours, so Moja głowa boli mnie is wrong — Poles do not say it.\n\nTo say you do not like something, put nie in front of the whole block and change nothing inside it. Words like często, czasami, dzisiaj and bardzo go in front of the block too.",
-      "body_pl": "Boli mnie głowa — bez moja. Przeczenie: nie przed całym blokiem.",
-      "examples": [
-        {
-          "en": "I like your house.",
-          "pl": "Podoba mi się twój dom."
-        },
-        {
-          "en": "I don't like this shop.",
-          "pl": "Nie podoba mi się ten sklep."
-        },
-        {
-          "en": "Your tea tastes good to me.",
-          "pl": "Smakuje mi twoja herbata."
-        },
-        {
-          "en": "I don't like this soup.",
-          "pl": "Nie smakuje mi ta zupa."
-        },
-        {
-          "en": "My head often hurts.",
-          "pl": "Często boli mnie głowa."
-        },
-        {
-          "en": "Today my stomach hurts.",
-          "pl": "Dzisiaj boli mnie brzuch."
-        }
-      ]
+     "en": "I don't like this soup.",
+     "pl": "Nie smakuje mi ta zupa."
+    },
+    {
+     "en": "My head often hurts.",
+     "pl": "Często boli mnie głowa."
+    },
+    {
+     "en": "Today my stomach hurts.",
+     "pl": "Dzisiaj boli mnie brzuch."
     }
-  ],
-  "match": [
-    {
-      "en": "I like ... (it pleases me)",
-      "pl": "podoba mi się"
-    },
-    {
-      "en": "I like this film.",
-      "pl": "Podoba mi się ten film."
-    },
-    {
-      "en": "I like this book.",
-      "pl": "Podoba mi się ta książka."
-    },
-    {
-      "en": "I like this city.",
-      "pl": "Podoba mi się to miasto."
-    },
-    {
-      "en": "... tastes good to me",
-      "pl": "smakuje mi"
-    },
-    {
-      "en": "This coffee tastes good to me.",
-      "pl": "Smakuje mi ta kawa."
-    },
-    {
-      "en": "This soup tastes good to me.",
-      "pl": "Smakuje mi ta zupa."
-    },
-    {
-      "en": "This bread tastes good to me.",
-      "pl": "Smakuje mi ten chleb."
-    },
-    {
-      "en": "my ... hurts",
-      "pl": "boli mnie"
-    },
-    {
-      "en": "My head hurts.",
-      "pl": "Boli mnie głowa."
-    },
-    {
-      "en": "My stomach hurts.",
-      "pl": "Boli mnie brzuch."
-    },
-    {
-      "en": "My leg hurts.",
-      "pl": "Boli mnie noga."
-    }
-  ],
-  "quiz": [
-    {
-      "prompt": "Podoba ___ się ten film.",
-      "choices": [
-        "mi",
-        "mnie",
-        "się",
-        "to"
-      ],
-      "answer": "mi",
-      "explain": "podoba mi się is a fixed block of three words. mnie lives in the other block, boli mnie — each block keeps its own word, and there is nothing to work out."
-    },
-    {
-      "prompt": "Boli ___ głowa.",
-      "choices": [
-        "mnie",
-        "mi",
-        "się",
-        "to"
-      ],
-      "answer": "mnie",
-      "explain": "boli takes mnie, podoba and smakuje take mi. Learn each block with the word that sits inside it and you will never have to choose."
-    },
-    {
-      "prompt": "I like this book →",
-      "choices": [
-        "Podoba mi się ta książka.",
-        "Podoba mi się ten książka.",
-        "Podoba mnie się ta książka.",
-        "Podoba mi ta książka."
-      ],
-      "answer": "Podoba mi się ta książka.",
-      "explain": "książka is feminine, so ta. The block keeps its mi and keeps its się — drop either one and the sentence breaks."
-    },
-    {
-      "prompt": "Smakuje mi ___ zupa.",
-      "choices": [
-        "ta",
-        "ten",
-        "to",
-        "te"
-      ],
-      "answer": "ta"
-    },
-    {
-      "prompt": "Podoba mi się ___ miasto.",
-      "choices": [
-        "to",
-        "ten",
-        "ta",
-        "te"
-      ],
-      "answer": "to"
-    },
-    {
-      "prompt": "Smakuje mi ta ___.",
-      "choices": [
-        "kawa",
-        "kawę",
-        "kawy",
-        "kaw"
-      ],
-      "answer": "kawa",
-      "explain": "You say chcę kawę with -ę because there the coffee is what you want. Here the coffee is the one doing the work — it is the thing that tastes — so it stays in its plain form, kawa."
-    },
-    {
-      "prompt": "Fix: Podoba mi ten film. →",
-      "choices": [
-        "Podoba mi się ten film.",
-        "Podoba się mi ten film.",
-        "Mi się podoba ten film.",
-        "Podoba mi ten film się."
-      ],
-      "answer": "Podoba mi się ten film.",
-      "explain": "The się was dropped. It belongs to this verb, exactly as it does in czuję się, and its place in the block is after mi."
-    },
-    {
-      "prompt": "My leg hurts →",
-      "choices": [
-        "Boli mnie noga.",
-        "Boli mi noga.",
-        "Boli mnie nogi.",
-        "Moja noga boli mnie."
-      ],
-      "answer": "Boli mnie noga.",
-      "explain": "No word for \"my\" is needed — boli mnie already says the leg is yours. And noga is the one doing the hurting, so it is singular and in its plain form."
-    },
-    {
-      "prompt": "I don't like this shop →",
-      "choices": [
-        "Nie podoba mi się ten sklep.",
-        "Podoba nie mi się ten sklep.",
-        "Nie mi się podoba ten sklep.",
-        "Podoba mi nie się ten sklep."
-      ],
-      "answer": "Nie podoba mi się ten sklep.",
-      "explain": "nie goes in front of the whole block. Nothing inside the block moves — it never does."
-    },
-    {
-      "prompt": "This bread tastes good to me →",
-      "choices": [
-        "Smakuje mi ten chleb.",
-        "Smakuje mnie ten chleb.",
-        "Smakuje mi się ten chleb.",
-        "Smakuje mi ta chleb."
-      ],
-      "answer": "Smakuje mi ten chleb.",
-      "explain": "smakuje travels with mi and has no się at all. Only podoba mi się carries one."
-    }
-  ],
-  "type_items": [
-    {
-      "prompt_en": "I like ... (it pleases me)",
-      "mode": "full_word",
-      "answer": "podoba mi się",
-      "accepts": [
-        "podoba mi się"
-      ],
-      "explain": "Three words, always in this order. Type them as one thing."
-    },
-    {
-      "prompt_en": "... tastes good to me",
-      "mode": "full_word",
-      "answer": "smakuje mi",
-      "accepts": [
-        "smakuje mi"
-      ]
-    },
-    {
-      "prompt_en": "my ... hurts",
-      "mode": "full_word",
-      "answer": "boli mnie",
-      "accepts": [
-        "boli mnie"
-      ],
-      "explain": "This one takes mnie, not mi."
-    },
-    {
-      "prompt_en": "I like this film.",
-      "mode": "full_word",
-      "answer": "Podoba mi się ten film.",
-      "accepts": [
-        "Podoba mi się ten film.",
-        "Podoba mi się ten film"
-      ],
-      "explain": "ten film is the doer here — it is the film that pleases — so it stays in its plain form and goes after the block."
-    },
-    {
-      "prompt_en": "I like this book.",
-      "mode": "full_word",
-      "answer": "Podoba mi się ta książka.",
-      "accepts": [
-        "Podoba mi się ta książka.",
-        "Podoba mi się ta książka"
-      ]
-    },
-    {
-      "prompt_en": "I like this city.",
-      "mode": "full_word",
-      "answer": "Podoba mi się to miasto.",
-      "accepts": [
-        "Podoba mi się to miasto.",
-        "Podoba mi się to miasto"
-      ]
-    },
-    {
-      "prompt_en": "I don't like this film.",
-      "mode": "full_word",
-      "answer": "Nie podoba mi się ten film.",
-      "accepts": [
-        "Nie podoba mi się ten film.",
-        "Nie podoba mi się ten film"
-      ],
-      "explain": "nie sits in front of the block and changes nothing inside it."
-    },
-    {
-      "prompt_en": "This coffee tastes good to me.",
-      "mode": "full_word",
-      "answer": "Smakuje mi ta kawa.",
-      "accepts": [
-        "Smakuje mi ta kawa.",
-        "Smakuje mi ta kawa"
-      ],
-      "explain": "kawa, not kawę. The coffee is not what you want here — it is the one doing the tasting."
-    },
-    {
-      "prompt_en": "This soup tastes good to me.",
-      "mode": "full_word",
-      "answer": "Smakuje mi ta zupa.",
-      "accepts": [
-        "Smakuje mi ta zupa.",
-        "Smakuje mi ta zupa"
-      ]
-    },
-    {
-      "prompt_en": "This bread tastes good to me.",
-      "mode": "full_word",
-      "answer": "Smakuje mi ten chleb.",
-      "accepts": [
-        "Smakuje mi ten chleb.",
-        "Smakuje mi ten chleb"
-      ]
-    },
-    {
-      "prompt_en": "My head hurts.",
-      "mode": "full_word",
-      "answer": "Boli mnie głowa.",
-      "accepts": [
-        "Boli mnie głowa.",
-        "Boli mnie głowa"
-      ],
-      "explain": "No moja. The block already tells the listener whose head it is."
-    },
-    {
-      "prompt_en": "My stomach hurts.",
-      "mode": "full_word",
-      "answer": "Boli mnie brzuch.",
-      "accepts": [
-        "Boli mnie brzuch.",
-        "Boli mnie brzuch"
-      ]
-    },
-    {
-      "prompt_en": "My leg hurts.",
-      "mode": "full_word",
-      "answer": "Boli mnie noga.",
-      "accepts": [
-        "Boli mnie noga.",
-        "Boli mnie noga"
-      ]
-    },
-    {
-      "prompt_en": "My tooth hurts.",
-      "mode": "full_word",
-      "answer": "Boli mnie ząb.",
-      "accepts": [
-        "Boli mnie ząb.",
-        "Boli mnie ząb"
-      ]
-    }
-  ],
-  "use_items": [
-    {
-      "prompt_en": "Type: I like your house.",
-      "answer": "Podoba mi się twój dom.",
-      "accepts": [
-        "Podoba mi się twój dom.",
-        "Podoba mi się twój dom"
-      ]
-    },
-    {
-      "prompt_en": "Type: I like this hotel in the centre.",
-      "answer": "Podoba mi się ten hotel w centrum.",
-      "accepts": [
-        "Podoba mi się ten hotel w centrum.",
-        "Podoba mi się ten hotel w centrum"
-      ]
-    },
-    {
-      "prompt_en": "Type: I like this city very much.",
-      "answer": "Bardzo podoba mi się to miasto.",
-      "accepts": [
-        "Bardzo podoba mi się to miasto.",
-        "Bardzo podoba mi się to miasto"
-      ],
-      "explain": "bardzo goes in front of the block, not inside it."
-    },
-    {
-      "prompt_en": "Type: I don't like this shop.",
-      "answer": "Nie podoba mi się ten sklep.",
-      "accepts": [
-        "Nie podoba mi się ten sklep.",
-        "Nie podoba mi się ten sklep"
-      ]
-    },
-    {
-      "prompt_en": "Type: I like your photo.",
-      "answer": "Podoba mi się twoje zdjęcie.",
-      "accepts": [
-        "Podoba mi się twoje zdjęcie.",
-        "Podoba mi się twoje zdjęcie"
-      ],
-      "explain": "zdjęcie is neuter, so the possessive is twoje — the same choice you make in to jest moje dziecko."
-    },
-    {
-      "prompt_en": "Type: Your tea tastes good to me.",
-      "answer": "Smakuje mi twoja herbata.",
-      "accepts": [
-        "Smakuje mi twoja herbata.",
-        "Smakuje mi twoja herbata"
-      ]
-    },
-    {
-      "prompt_en": "Type: I don't like this soup. (the taste)",
-      "answer": "Nie smakuje mi ta zupa.",
-      "accepts": [
-        "Nie smakuje mi ta zupa.",
-        "Nie smakuje mi ta zupa"
-      ]
-    },
-    {
-      "prompt_en": "Type: This bread in the shop tastes good to me.",
-      "answer": "Smakuje mi ten chleb w sklepie.",
-      "accepts": [
-        "Smakuje mi ten chleb w sklepie.",
-        "Smakuje mi ten chleb w sklepie"
-      ]
-    },
-    {
-      "prompt_en": "Type: My head often hurts.",
-      "answer": "Często boli mnie głowa.",
-      "accepts": [
-        "Często boli mnie głowa.",
-        "Często boli mnie głowa"
-      ]
-    },
-    {
-      "prompt_en": "Type: Today my stomach hurts.",
-      "answer": "Dzisiaj boli mnie brzuch.",
-      "accepts": [
-        "Dzisiaj boli mnie brzuch.",
-        "Dzisiaj boli mnie brzuch"
-      ]
-    },
-    {
-      "prompt_en": "Type: Sometimes my tooth hurts.",
-      "answer": "Czasami boli mnie ząb.",
-      "accepts": [
-        "Czasami boli mnie ząb.",
-        "Czasami boli mnie ząb"
-      ]
-    }
-  ],
-  "teaches_lemmas": [
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "I like ... (it pleases me)",
+   "pl": "podoba mi się"
+  },
+  {
+   "en": "I like this film.",
+   "pl": "Podoba mi się ten film."
+  },
+  {
+   "en": "I like this book.",
+   "pl": "Podoba mi się ta książka."
+  },
+  {
+   "en": "I like this city.",
+   "pl": "Podoba mi się to miasto."
+  },
+  {
+   "en": "... tastes good to me",
+   "pl": "smakuje mi"
+  },
+  {
+   "en": "This coffee tastes good to me.",
+   "pl": "Smakuje mi ta kawa."
+  },
+  {
+   "en": "This soup tastes good to me.",
+   "pl": "Smakuje mi ta zupa."
+  },
+  {
+   "en": "This bread tastes good to me.",
+   "pl": "Smakuje mi ten chleb."
+  },
+  {
+   "en": "my ... hurts",
+   "pl": "boli mnie"
+  },
+  {
+   "en": "My head hurts.",
+   "pl": "Boli mnie głowa."
+  },
+  {
+   "en": "My stomach hurts.",
+   "pl": "Boli mnie brzuch."
+  },
+  {
+   "en": "My leg hurts.",
+   "pl": "Boli mnie noga."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Podoba ___ się ten film.",
+   "choices": [
     "mi",
     "mnie",
-    "podobać się",
-    "podoba",
-    "podoba mi się",
-    "nie podoba mi się",
-    "smakować",
-    "smakuje",
-    "smakuje mi",
-    "nie smakuje mi",
-    "boli",
-    "boli mnie"
-  ],
-  "uses_lemmas": [
     "się",
-    "boleć",
-    "chce mi się pić",
-    "czuję się",
-    "mieszka",
-    "pracuje",
-    "mówi",
-    "chcę kawę",
+    "to"
+   ],
+   "answer": "mi",
+   "explain": "podoba mi się is a fixed block of three words. mnie lives in the other block, boli mnie — each block keeps its own word, and there is nothing to work out."
+  },
+  {
+   "prompt": "Boli ___ głowa.",
+   "choices": [
+    "mnie",
+    "mi",
+    "się",
+    "to"
+   ],
+   "answer": "mnie",
+   "explain": "boli takes mnie, podoba and smakuje take mi. Learn each block with the word that sits inside it and you will never have to choose."
+  },
+  {
+   "prompt": "I like this book →",
+   "choices": [
+    "Podoba mi się ta książka.",
+    "Podoba mi się ten książka.",
+    "Podoba mnie się ta książka.",
+    "Podoba mi ta książka."
+   ],
+   "answer": "Podoba mi się ta książka.",
+   "explain": "książka is feminine, so ta. The block keeps its mi and keeps its się — drop either one and the sentence breaks."
+  },
+  {
+   "prompt": "Smakuje mi ___ zupa.",
+   "choices": [
+    "ta",
+    "ten",
+    "to",
+    "te"
+   ],
+   "answer": "ta"
+  },
+  {
+   "prompt": "Podoba mi się ___ miasto.",
+   "choices": [
+    "to",
     "ten",
     "ta",
-    "to",
-    "te",
-    "nie",
-    "bardzo",
-    "często",
-    "czasami",
-    "dzisiaj",
-    "twój",
-    "twoja",
-    "twoje",
-    "moja",
-    "film",
-    "książka",
-    "miasto",
+    "te"
+   ],
+   "answer": "to"
+  },
+  {
+   "prompt": "Smakuje mi ta ___.",
+   "choices": [
     "kawa",
     "kawę",
     "kawy",
-    "kaw",
-    "zupa",
-    "chleb",
-    "piwo",
-    "herbata",
-    "głowa",
-    "brzuch",
-    "noga",
-    "nogi",
-    "ząb",
-    "dom",
-    "hotel",
-    "sklep",
-    "zdjęcie",
-    "centrum",
-    "w centrum",
-    "w sklepie"
-  ],
-  "sequencing": {
-    "spec": "rupl-codex/SEQUENCING.md",
-    "phase": 1,
-    "node_id": "a2_dat_chunks",
-    "pool_model": "cumulative_focus_recycle"
+    "kaw"
+   ],
+   "answer": "kawa",
+   "explain": "You say chcę kawę with -ę because there the coffee is what you want. Here the coffee is the one doing the work — it is the thing that tastes — so it stays in its plain form, kawa."
+  },
+  {
+   "prompt": "Fix: Podoba mi ten film. →",
+   "choices": [
+    "Podoba mi się ten film.",
+    "Podoba się mi ten film.",
+    "Mi się podoba ten film.",
+    "Podoba mi ten film się."
+   ],
+   "answer": "Podoba mi się ten film.",
+   "explain": "The się was dropped. It belongs to this verb, exactly as it does in czuję się, and its place in the block is after mi."
+  },
+  {
+   "prompt": "My leg hurts →",
+   "choices": [
+    "Boli mnie noga.",
+    "Boli mi noga.",
+    "Boli mnie nogi.",
+    "Moja noga boli mnie."
+   ],
+   "answer": "Boli mnie noga.",
+   "explain": "No word for \"my\" is needed — boli mnie already says the leg is yours. And noga is the one doing the hurting, so it is singular and in its plain form."
+  },
+  {
+   "prompt": "I don't like this shop →",
+   "choices": [
+    "Nie podoba mi się ten sklep.",
+    "Podoba nie mi się ten sklep.",
+    "Nie mi się podoba ten sklep.",
+    "Podoba mi nie się ten sklep."
+   ],
+   "answer": "Nie podoba mi się ten sklep.",
+   "explain": "nie goes in front of the whole block. Nothing inside the block moves — it never does."
+  },
+  {
+   "prompt": "This bread tastes good to me →",
+   "choices": [
+    "Smakuje mi ten chleb.",
+    "Smakuje mnie ten chleb.",
+    "Smakuje mi się ten chleb.",
+    "Smakuje mi ta chleb."
+   ],
+   "answer": "Smakuje mi ten chleb.",
+   "explain": "smakuje travels with mi and has no się at all. Only podoba mi się carries one."
   }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "I like ... (it pleases me)",
+   "mode": "full_word",
+   "answer": "podoba mi się",
+   "accepts": [
+    "podoba mi się"
+   ],
+   "explain": "Three words, always in this order. Type them as one thing."
+  },
+  {
+   "prompt_en": "... tastes good to me",
+   "mode": "full_word",
+   "answer": "smakuje mi",
+   "accepts": [
+    "smakuje mi"
+   ]
+  },
+  {
+   "prompt_en": "my ... hurts",
+   "mode": "full_word",
+   "answer": "boli mnie",
+   "accepts": [
+    "boli mnie"
+   ],
+   "explain": "This one takes mnie, not mi."
+  },
+  {
+   "prompt_en": "I like this film.",
+   "mode": "cloze",
+   "frame": "Podoba mi się ten ___.",
+   "answer": "film",
+   "accepts": [
+    "film"
+   ],
+   "explain": "ten film is the doer here — it is the film that pleases — so it stays in its plain form and goes after the block.",
+   "note": "Pisanie hard cap (James 2026-08-06). Blank on the noun, which IS this unit's teaching point: the thing you like stays in its plain dictionary form because it is the doer. Blanking mi instead would have produced seven identical answers in one stage."
+  },
+  {
+   "prompt_en": "I like this book.",
+   "mode": "cloze",
+   "frame": "Podoba mi się ta ___.",
+   "answer": "książka",
+   "accepts": [
+    "książka"
+   ]
+  },
+  {
+   "prompt_en": "I like this city.",
+   "mode": "cloze",
+   "frame": "Podoba mi się to ___.",
+   "answer": "miasto",
+   "accepts": [
+    "miasto"
+   ]
+  },
+  {
+   "prompt_en": "I don't like this film.",
+   "mode": "cloze",
+   "frame": "___ podoba mi się ten film.",
+   "answer": "Nie",
+   "accepts": [
+    "Nie",
+    "nie"
+   ],
+   "explain": "nie sits in front of the block and changes nothing inside it."
+  },
+  {
+   "prompt_en": "This coffee tastes good to me.",
+   "mode": "cloze",
+   "frame": "Smakuje mi ta ___.",
+   "answer": "kawa",
+   "accepts": [
+    "kawa"
+   ],
+   "explain": "kawa, not kawę. The coffee is not what you want here — it is the one doing the tasting."
+  },
+  {
+   "prompt_en": "This soup tastes good to me.",
+   "mode": "cloze",
+   "frame": "Smakuje mi ta ___.",
+   "answer": "zupa",
+   "accepts": [
+    "zupa"
+   ]
+  },
+  {
+   "prompt_en": "This bread tastes good to me.",
+   "mode": "cloze",
+   "frame": "Smakuje mi ten ___.",
+   "answer": "chleb",
+   "accepts": [
+    "chleb"
+   ]
+  },
+  {
+   "prompt_en": "My head hurts.",
+   "mode": "full_word",
+   "answer": "Boli mnie głowa.",
+   "accepts": [
+    "Boli mnie głowa.",
+    "Boli mnie głowa"
+   ],
+   "explain": "No moja. The block already tells the listener whose head it is."
+  },
+  {
+   "prompt_en": "My stomach hurts.",
+   "mode": "full_word",
+   "answer": "Boli mnie brzuch.",
+   "accepts": [
+    "Boli mnie brzuch.",
+    "Boli mnie brzuch"
+   ]
+  },
+  {
+   "prompt_en": "My leg hurts.",
+   "mode": "full_word",
+   "answer": "Boli mnie noga.",
+   "accepts": [
+    "Boli mnie noga.",
+    "Boli mnie noga"
+   ]
+  },
+  {
+   "prompt_en": "My tooth hurts.",
+   "mode": "full_word",
+   "answer": "Boli mnie ząb.",
+   "accepts": [
+    "Boli mnie ząb.",
+    "Boli mnie ząb"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I like your house.",
+   "answer": "Podoba mi się twój dom.",
+   "accepts": [
+    "Podoba mi się twój dom.",
+    "Podoba mi się twój dom"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like this hotel in the centre.",
+   "answer": "Podoba mi się ten hotel w centrum.",
+   "accepts": [
+    "Podoba mi się ten hotel w centrum.",
+    "Podoba mi się ten hotel w centrum"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like this city very much.",
+   "answer": "Bardzo podoba mi się to miasto.",
+   "accepts": [
+    "Bardzo podoba mi się to miasto.",
+    "Bardzo podoba mi się to miasto"
+   ],
+   "explain": "bardzo goes in front of the block, not inside it."
+  },
+  {
+   "prompt_en": "Type: I don't like this shop.",
+   "answer": "Nie podoba mi się ten sklep.",
+   "accepts": [
+    "Nie podoba mi się ten sklep.",
+    "Nie podoba mi się ten sklep"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like your photo.",
+   "answer": "Podoba mi się twoje zdjęcie.",
+   "accepts": [
+    "Podoba mi się twoje zdjęcie.",
+    "Podoba mi się twoje zdjęcie"
+   ],
+   "explain": "zdjęcie is neuter, so the possessive is twoje — the same choice you make in to jest moje dziecko."
+  },
+  {
+   "prompt_en": "Type: Your tea tastes good to me.",
+   "answer": "Smakuje mi twoja herbata.",
+   "accepts": [
+    "Smakuje mi twoja herbata.",
+    "Smakuje mi twoja herbata"
+   ]
+  },
+  {
+   "prompt_en": "Type: I don't like this soup. (the taste)",
+   "answer": "Nie smakuje mi ta zupa.",
+   "accepts": [
+    "Nie smakuje mi ta zupa.",
+    "Nie smakuje mi ta zupa"
+   ]
+  },
+  {
+   "prompt_en": "Type: This bread in the shop tastes good to me.",
+   "answer": "Smakuje mi ten chleb w sklepie.",
+   "accepts": [
+    "Smakuje mi ten chleb w sklepie.",
+    "Smakuje mi ten chleb w sklepie"
+   ]
+  },
+  {
+   "prompt_en": "Type: My head often hurts.",
+   "answer": "Często boli mnie głowa.",
+   "accepts": [
+    "Często boli mnie głowa.",
+    "Często boli mnie głowa"
+   ]
+  },
+  {
+   "prompt_en": "Type: Today my stomach hurts.",
+   "answer": "Dzisiaj boli mnie brzuch.",
+   "accepts": [
+    "Dzisiaj boli mnie brzuch.",
+    "Dzisiaj boli mnie brzuch"
+   ]
+  },
+  {
+   "prompt_en": "Type: Sometimes my tooth hurts.",
+   "answer": "Czasami boli mnie ząb.",
+   "accepts": [
+    "Czasami boli mnie ząb.",
+    "Czasami boli mnie ząb"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "mi",
+  "mnie",
+  "podobać się",
+  "podoba",
+  "podoba mi się",
+  "nie podoba mi się",
+  "smakować",
+  "smakuje",
+  "smakuje mi",
+  "nie smakuje mi",
+  "boli",
+  "boli mnie"
+ ],
+ "uses_lemmas": [
+  "się",
+  "boleć",
+  "chce mi się pić",
+  "czuję się",
+  "mieszka",
+  "pracuje",
+  "mówi",
+  "chcę kawę",
+  "ten",
+  "ta",
+  "to",
+  "te",
+  "nie",
+  "bardzo",
+  "często",
+  "czasami",
+  "dzisiaj",
+  "twój",
+  "twoja",
+  "twoje",
+  "moja",
+  "film",
+  "książka",
+  "miasto",
+  "kawa",
+  "kawę",
+  "kawy",
+  "kaw",
+  "zupa",
+  "chleb",
+  "piwo",
+  "herbata",
+  "głowa",
+  "brzuch",
+  "noga",
+  "nogi",
+  "ząb",
+  "dom",
+  "hotel",
+  "sklep",
+  "zdjęcie",
+  "centrum",
+  "w centrum",
+  "w sklepie"
+ ],
+ "sequencing": {
+  "spec": "rupl-codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "a2_dat_chunks",
+  "pool_model": "cumulative_focus_recycle"
+ }
 }

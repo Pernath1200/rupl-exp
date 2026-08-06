@@ -11,9 +11,9 @@
 
 ## Queue (routine: process up to 3 packs per run, BEFORE building new units)
 
-- [ ] `a1_hello` (data/grammar/blocks/a1_hello.json) — 2 item(s): #9 „To jest mój dom.”; #10 „To jest twoja książka.”
-- [ ] `a2_dat_chunks` (data/grammar/blocks/a2_dat_chunks.json) — 7 item(s): #3 „Podoba mi się ten film.”; #4 „Podoba mi się ta książka.”; #5 „Podoba mi się to miasto.”; #6 „Nie podoba mi się ten film.”; #7 „Smakuje mi ta kawa.”; #8 „Smakuje mi ta zupa.”; #9 „Smakuje mi ten chleb.”
-- [ ] `a2_directions_func` (data/grammar/blocks/a2_directions_func.json) — 3 item(s): #0 „Przepraszam, gdzie jest apteka?”; #6 „Proszę iść w lewo.”; #7 „Proszę iść w prawo.”
+- [x] `a1_hello` (data/grammar/blocks/a1_hello.json) — 2 item(s): #9 „To jest mój dom.”; #10 „To jest twoja książka.”
+- [x] `a2_dat_chunks` (data/grammar/blocks/a2_dat_chunks.json) — 7 item(s): #3 „Podoba mi się ten film.”; #4 „Podoba mi się ta książka.”; #5 „Podoba mi się to miasto.”; #6 „Nie podoba mi się ten film.”; #7 „Smakuje mi ta kawa.”; #8 „Smakuje mi ta zupa.”; #9 „Smakuje mi ten chleb.”
+- [x] `a2_directions_func` (data/grammar/blocks/a2_directions_func.json) — 3 item(s): #0 „Przepraszam, gdzie jest apteka?”; #6 „Proszę iść w lewo.”; #7 „Proszę iść w prawo.”
 - [ ] `a2_imperative` (data/grammar/blocks/a2_imperative.json) — 1 item(s): #8 „Proszę mówić po polsku.”
 - [ ] `a2_ordering_func` (data/grammar/blocks/a2_ordering_func.json) — 3 item(s): #0 „Czy jest wolny stolik?”; #1 „Czy ten stolik jest wolny?”; #11 „Czy mogę płacić kartą?”
 - [ ] `a2_phone_func` (data/grammar/blocks/a2_phone_func.json) — 4 item(s): #2 „Czy mogę rozmawiać z mamą?”; #3 „Czy mogę rozmawiać z tatą?”; #4 „Czy mogę rozmawiać z siostrą?”; #5 „Nie mogę teraz rozmawiać.”
@@ -32,3 +32,7 @@
 - [ ] `b2_ze_clauses` (data/grammar/blocks/b2_ze_clauses.json) — 10 item(s): #0 „Wiem, że mama jest w domu.”; #1 „Myślę, że kawa jest dobra.”; #2 „Wiem, że tata pracuje.”; #3 „Myślę, że sklep jest zamknięty.”; #4 „Mama mówi, że pogoda jest ładna.”; #5 „Wiem, że brat jest zmęczony.”; #6 „Myślę, że to jest dobre.”; #7 „Wiem, że mam skierowanie.”; #8 „Myślę, że wyniki są dobre.”; #9 „Idę do sklepu, żeby kupić chleb.”
 
 _19 packs · 104 items · generated 2026-08-06 by sweep (answers with ≥4 words, no existing gap fields)._
+
+## Conversion log
+
+- **2026-08-06, cloud routine (B2 batch 10):** `a1_hello` (2), `a2_dat_chunks` (7), `a2_directions_func` (3) — 12 items converted, audit 0 errors, no duplicate answers within any Pisanie stage. Two blanks did NOT land on the unit's teaching point and are logged per-item in an item `note`, per the queue's own fallback clause: `a1_hello` #9/#10 blank the possessive rather than `jest`, because items 2 and 6 already type `jest` whole and a third identical answer would break the no-duplicates rule. Everywhere else the blank is the teaching point: `a2_dat_chunks` blanks the plain-form noun (the subject-flip the unit exists for) and the front `Nie`; `a2_directions_func` blanks the unchanged place name and the direction word its own explain says is the only part that moves. Remaining: 16 packs, 92 items.
