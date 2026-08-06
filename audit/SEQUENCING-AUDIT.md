@@ -1,8 +1,8 @@
-# Sequencing audit · 2026-08-05
+# Sequencing audit · 2026-08-06
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 113 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 114 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -130,4 +130,5 @@ _None._
 | 114 | `b1_virile_gym` | — | 0 | `byc_adj`, `byc_present`, `past_plural`, `plural_nom`, `prep_w_loc`, `ten_ta_to`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
 | 115 | `b1_conditional_pl` | `conditional_pl` | 20 | `conditional_pl`, `conditional_sg`, `miec_acc`, `past_plural`, `plural_nom`, `question`, `virile_nom`, `virile_past`, `virile_reco` |
 | 117 | `b1_dative_sg` | `dative_sg` | 17 | `dat_chunks`, `dative_sg`, `inst_identity`, `inst_z`, `miec_acc`, `present_am`, `present_uje`, `question`, `virile_nom` |
+| 118 | `b1_dative_pron` | `dative_pron` | 6 | `dat_chunks`, `dative_pron`, `dative_sg`, `negation`, `question`, `sie_reflexive`, `ten_ta_to`, `virile_reco` |
 

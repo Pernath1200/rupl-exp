@@ -2632,12 +2632,13 @@
       "levels": [
         "B1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B1 SPINE] The set A2 fenced: ci/mu/jej (+nam/wam/im only if path-legal). podoba ci sie payoff.",
+      "note": "[B1 SPINE] Completes the pronoun set A2 fenced: ci/mu/jej/nam/wam/im (virile block is live, so nam/wam/im are path-legal). podoba ci się payoff, full podobać się paradigm + partial smakować. boleć deliberately excluded (accusative-governing, different pronoun set). Homograph: ci re-teaches the string already taught as the virile demonstrative in b1_virile_reco — disambiguated explicitly in the pack, see its note.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b1_dative_pron.json"
     },
     {
       "id": "b1_giving",
