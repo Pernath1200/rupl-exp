@@ -3415,18 +3415,19 @@
   {
    "id": "b2_sie_impersonal",
    "domain": "grammar",
-   "label": "Jak się mówi?",
-   "label_en": "Impersonal się",
+   "label": "Jak się mówi? · Tu się nie pali",
+   "label_en": "Impersonal się — sentences with nobody in them",
    "kind": "topic",
    "levels": [
     "B2"
    ],
-   "status": "planned",
+   "status": "live",
    "practice": "grammar",
-   "note": "[B2 SPINE] Block 6, unit 3. Impersonal sie: Jak sie mowi po polsku? Tu sie nie pali. Mowi sie, ze... Extends a2_sie's framing (sie is a word that BELONGS to the verb, never 'self') to a construction with no subject at all. Verb always 3sg. Big functional payoff for someone reading signs.",
+   "note": "B2 Block 6, unit 3. Impersonal sie: a construction with NO SUBJECT AT ALL, verb parked in the 3sg - Jak sie mowi po polsku?, Gdzie sie kupuje bilet?, Tu sie nie pali, Mowi sie, ze sklep jest zamkniety. Extends a2_sie's framing (sie BELONGS to the verb, never 'self') to the case where nobody is doing anything in particular. ONE NEW VERB IN THE UNIT - palic/pali; every other verb on screen is an owned 3sg (mowi, robi, kupuje, pracuje, pije, czeka), which is why a construction this useful is cheap. SIE IS RE-TAUGHT IN A NEW JOB explicitly on slide 1 (the dziekuje / ktorej / ze / nic treatment). WORD ORDER IS A TABLE FACT, NEVER A RULE (a2_jechac ja-/je- precedent): a2_sie fenced clitic placement by name and B2-SPINE hands sie-placement beyond 'after the verb' to C1 (inbox 19), so the pack shows exactly TWO shapes - front word + sie + verb (literally the taught Jak sie masz? order), or verb + sie (Mowi sie, ze...) - and says out loud there is nothing to work out. It never claims sie goes 'second in the clause'. HOMOGRAPH TRAP IN THE UNIT'S OWN NEW WORD: bare 'Pali sie.' means THERE IS A FIRE, so the pack never prints pali sie unfronted - every occurrence is Tu sie nie pali / W szpitalu sie nie pali - and slide 4 warns the learner to keep the phrase whole. FENCED, all verified NEW: pisze, placi, sprzedaje, otwiera (the four verbs that would have written the most natural sign sentences, all NEW 3sg of paradigms nobody owns); je (NEW + collides with the pronoun je), so 'Co sie tu je?' is not offered; wie, CAUGHT IN THIS PACK'S OWN DRAFT and rewritten - the third consecutive pack to trip on that string; the past impersonal (mowilo sie) and the -no/-to forms; duzo hung on a verb; plural objects; objects under negation; siebie/sobie (O15 -> C1); all oblique pronouns (a fence audit.py cannot see - GLUE_LEMMAS). Pisanie: all ten items cloze, since every sentence this construction makes is composed by definition; blanks on the 3sg verb, on sie itself in item 7, and one logged non-teaching-point blank in item 8 to avoid a duplicate answer.",
    "pedagogy": "teach",
    "root": "verbs",
-   "tree_part": "verbs"
+   "tree_part": "verbs",
+   "content": "grammar/blocks/b2_sie_impersonal.json"
   },
   {
    "id": "b2_prosic_o",

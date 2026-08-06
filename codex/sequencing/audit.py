@@ -121,6 +121,7 @@ STRUCTURE_CATALOGUE = {
     "num_virile",
     "neg_gen",
     "double_neg",
+    "sie_impersonal",
 }
 
 GLUE_LEMMAS = {
