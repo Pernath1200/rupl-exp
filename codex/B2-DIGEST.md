@@ -2638,3 +2638,212 @@ left them.
   by eleven.
 - All three units are **audit-clean, not tested** — nobody has clicked through
   them.
+
+## Batch 12 — Block 6 closes on the prefix run-up (`b2_motion_prefixes2`, `b2_aspect_prefixes`)
+
+Two units this run rather than three: both carry real scope corrections against
+the spine, and the repair block ahead of them took thirteen items. Each unit was
+authored, self-scanned, wired and audited before the next was started; each
+audit-clean (**0 errors**; the same two pre-existing, unrelated warns from
+`a2_prep_review` / `b1_two_futures`), pushed to `origin/b1-build` per unit, not
+batched. Two new structures registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before each audit ran: `motion_prefixed2`,
+`aspect_prefixes`.
+
+Path is live through `b2_aspect_prefixes` (path index 165, **159 live nodes**, 35
+of B2's 48 non-station nodes done). Next unbuilt B2 node: **`b2_motion_imperf`**
+— the first unit of the JAMES-LOCKED Block 6a prefix strand.
+
+Repair queue first, per the standing routine: three more packs converted before
+any new unit was written (below). Remaining after this run: **9 packs, 69 items**
+— and every remaining pack is a `b1_*` or `b2_*` one, i.e. all of A2 is now clean.
+
+### Repair queue: `a2_shopping_func`, `a2_wrapup_func`, `b1_polite` (13 items)
+
+Taken in queue order. One general rule emerged that is worth keeping, because it
+will recur: **`a2_wrapup_func` is a capstone whose items are verbatim copies of
+phrases from five source units, all of which are already repaired.** Each
+converted item therefore took its *source unit's own frame and blank* rather
+than a fresh choice — `stolik` from `a2_ordering_func` #0, `siostrą` from
+`a2_phone_func` #4, `w weekend` from `a2_smalltalk` #8, `lewo` from
+`a2_directions_func` #6. A capstone should drill a phrase the way it was taught;
+a different blank on the same sentence would be a second, competing lesson.
+`b1_wrapup` is the same shape and should get the same treatment.
+
+Twelve of the thirteen blanks land on the teaching point. The one that does not
+is `b1_polite` #3 (*polsku*): that item's two teaching-point candidates were both
+already spent — `mogłaby` at #1, `mówić` at #2 — and a third identical answer
+would break the no-duplicates rule. Logged in the item `note` per the queue's own
+fallback clause.
+
+**One judgment call James should smoke.** `b1_polite` #0/#1 now ask Dad to type
+`mógłby` / `mogłaby` into the frame. That pack carries a **MÓGŁBY QUARANTINE**
+whose closing line reads "the learner produces nothing but the frozen frames" —
+so this was checked rather than assumed. The fence bans *paradigming* móc (no
+`mógłbym`, no `mogłabyś`, no plural, no derivation from `mogę`, no four-way
+ending drill); it does not ban producing one of the two tagged surface forms
+inside its own frame, the whole opening stays on screen, and the repair rule
+James locked **names `mógłby` itself** as an example blank target. The two were
+treated as compatible. If it feels wrong in the hand, the conservative fix is to
+move both blanks onto `pomóc` / `pani` and leave the quarantined forms
+permanently unproduced.
+
+Every frame was verified character-for-character to reconstruct its original
+sentence before commit, and no Pisanie stage has duplicate answers.
+
+### `b2_motion_prefixes2` (Block 6, unit 6 — spine O7.1)
+
+Pays the catch `b1_wrapup`'s digest recorded, where `poszedłem` was rejected
+mid-draft as "a THIRD prefix on *iść*'s suppletive past stem" that was never
+taught. Same idiom as `b1_arrive_leave` throughout: the prefix welds onto a stem
+table the learner already owns, the on-foot forms are handed over **whole** via a
+mirror table (the `b1_past_isc` treatment, never derived), and the vehicle forms
+ride the regular `-ać` past rule owned since `a2_past_ac` at near-zero cost.
+**All 55 new forms verified NEW, zero collisions** — the largest clean sweep in
+the course so far.
+
+**SCOPE CUT, and it is the unit's one real fork.** The spine names four prefixes
+(po-, we-, do-, prze-) on both stems, i.e. eight verbs. This unit builds **five**
+— `pójść`/`wejść`/`dojść` on foot, `pojechać`/`dojechać` by vehicle — and fences
+two, for reasons about load, not taste:
+
+- **prze- dropped entirely.** `przejść`'s everyday use is *przejść **przez**
+  ulicę*, and `przez` is untaught: a preposition governing the Accusative, i.e.
+  a whole new governor. Teaching it here would put a second new system in one
+  unit, which is exactly the do/z cliff load-splitting forbids. Without `przez`,
+  `przejść` has no honest frame — *przejść do X* is not what the word is for.
+  **Deferred: it needs either its own small slot after a `przez` unit, or C1.
+  Whoever writes `C1-SPINE.md` must pick this up — it is not in the spine's
+  leaves-to-C1 list.**
+- **`wjechać` dropped.** The vehicle partner of `wejść` is *wjechać*, not
+  \*wejechać — the front piece changes shape between the two stems (we-/w-),
+  which would be a third irregularity in a unit that already carries two, and
+  "to drive into" is not everyday language for this learner. `wejść` keeps its
+  place because "come in / go in" genuinely is.
+
+The result is tighter than the spine drew and, I think, better: **all five verbs
+take one governor, `do` + Genitive, owned since A1**, so nothing about the place
+is new — only the verb. That lets the three on-foot verbs be contrasted on a
+single frame, which is the unit's pedagogical spine and its Kontrola board:
+*Poszedłem do sklepu* (made the trip) / *Wszedłem do sklepu* (through the door) /
+*Doszedłem do sklepu* (reached it on foot).
+
+**Prefix framing obeys the JAMES-LOCKED O7 overrule (decision #2).** po- and we-
+are not lens prefixes and no meaning is claimed for them anywhere in the file;
+do- *is* one of the locked core 4, but the lens is `b2_prefix_lens`'s job two
+units later and is deliberately not opened here. Slide 2 says the honest thing
+instead — "learn each verb as a word; the piece on the front is not a rule you
+can apply yourself" — which restates `a2_aspect`'s standing framing. No content
+is borrowed from `b2_prefix_two_jobs` either: `pójść`'s relation to `szedłem` is
+described the way `b1_arrive_leave` described `przyszedłem`'s ("once and done,
+like *kupiłem*"), as a fact about that verb, never generalised into a theory of
+what prefixes do.
+
+**The one awkward corner is named on the slide rather than hidden:** `wejść`
+keeps its *e* in the feminine (*weszłam*, *weszła*) and loses it in the masculine
+(*wszedłem*, *wszedł*). Handed over whole in the mirror table and drilled in four
+separate Pisanie items, never built. **Worth a smoke** — it is the single hardest
+thing in the unit, and if it grates, dropping `wejść` leaves a clean two-prefix
+unit with no irregularity at all.
+
+Two things were caught by self-review and fixed before commit, both logged in the
+pack note: a first draft carried **Polish parenthetical cues** in Kontrola prompts
+(*pieszo*, *przez drzwi*, *do mężczyzny*) — Dad reads no Polish, and those words
+are untaught anyway; and the auditor caught **`do lekarza`**, where *lekarza* (the
+masculine-animate genitive) is not taught — the pool has *lekarz/lekarze/
+lekarzem/lekarzy* only. That is exactly the trap `b2_jezdzic`'s own note warned
+about one unit earlier.
+
+**Note for whoever writes `b2_motion_imperf` next run:** `wychodzę`, `wychodzisz`
+and `wychodzić` are **ALREADY TAUGHT**, by `a2_routine` (path 74), as an ordinary
+daily-routine present — "I leave for work", 1sg+2sg only, on the owned -ę/-isz
+class. The spine treats `wychodzić` as new material for that unit. It is not.
+The unit's real new fact is therefore the **twin relationship** with the owned
+`wyjść`, not the word — which makes it cheaper than the spine assumed, and makes
+`przychodzić` (verified NEW) the only genuinely new lemma in that half.
+
+### `b2_aspect_prefixes` (Block 6, unit 7 — spine O7.2)
+
+A closed set of new aspect pairs learned whole, **no rule**, and the pack
+restates `a2_aspect`'s framing out loud on slide 1 as the spine required: the
+piece on the front is unpredictable, learn the pair whole, never build the second
+verb from the first. One Kontrola item tests exactly that honesty.
+
+**THE SPINE'S PREMISE WAS WRONG, AND THIS IS THE MOST IMPORTANT THING IN THIS
+DIGEST ENTRY.** B2-SPINE says of its five pairs: *"Every imperfective member is
+already owned, so each pair is one new word, not two."* `check_new.py` says
+otherwise:
+
+| pair | what is actually owned |
+|---|---|
+| `pisać` / `napisać` | `pisać` as an **infinitive only** (`leaf_freetime_a1`) — no present, no past |
+| `gotować` / `ugotować` | `gotuję`, `gotuje` (`a1_present_uje`) — no past |
+| `jeść` / `zjeść` | `jem`, `jesz` (`a2_routine`) — no 3sg, no past |
+| `płacić` / `zapłacić` | `płacę` (`a2_shopping_func`) — no 2sg/3sg, no past |
+| `sprzątać` / `posprzątać` | **nothing. Both members NEW.** |
+
+Two consequences, both taken on the conservative path and logged:
+
+- **`sprzątać`/`posprzątać` DROPPED entirely.** It is the one pair that costs two
+  new verbs rather than one — precisely the arithmetic the spine used to justify
+  the set. Clean deferral: nothing else in B2 depends on it, and it can be a
+  vocab item whenever a cleaning register is wanted. **C1 inbox.**
+- **The imperfective past of the four survivors is TAUGHT here, not assumed**
+  (`pisałem`/`pisałam`, `gotowałem`/`gotowałam`, `jadłem`/`jadłam`,
+  `płaciłem`/`płaciłam`). Without it the unit cannot show an aspect contrast in
+  the shape `a2_aspect` established (*kupowałem* vs *kupiłem*) and would have to
+  fall back on a present-vs-past comparison that blurs tense with aspect. Three
+  of the four are **free** — straight applications of the owned past rule. Only
+  `jeść` costs a whole form, `jadłem`/`jadłam`, handed over as `szedłem` was and
+  named on the slide as the one verb that refuses the rule.
+
+**One extra form beyond that, logged: `piszę`.** `napiszę` sits on a stem
+(`pisz-`) the learner has never seen, because `pisać` was only ever an
+infinitive. Teaching `piszę` alongside it means the perfective future is anchored
+rather than floating — and it makes the root usable for `b2_pisac_family`, which
+the JAMES-LOCKED Block 6a assumes is "owned by now". Handed over as a whole form;
+the s→sz alternation is **not** stated as a rule.
+
+**Pays a named IOU:** `a2_shopping_func`'s note records that *"Czy mogę zapłacić
+kartą?"* was changed to *"Czy mogę płacić kartą?"* because "zapłacić is
+PERFECTIVE and the standing decision for this batch is imperfective-only".
+`zapłacić` is taught here, and the Pisanie item that produces `zapłaciłem` says
+so in its `explain`.
+
+Dopasuj is a **balanced 4×3 board**: each of the four pairs contributes its
+imperfective past, its perfective past and its perfective future, all in the *ja*
+form, so the whole board *is* the contrast. Feminine and 3sg forms are drilled in
+Pisanie and Kontrola instead.
+
+**Four leaks were caught in self-review and fixed before the audit** — worth
+recording because **the auditor cannot see any of them**, since quiz distractors
+carry no tags:
+
+1. `zagotować` / `nagotować` / `przegotować` used as wrong-prefix distractors.
+   Real Polish, but **untaught** — the AGENTS rule is *pool-legal*, not merely
+   real. Replaced with an item whose four choices are all verbs this unit teaches.
+2. `Gotowała` — a 3sg imperfective past, outside this unit's logged persons call.
+3. `Zjadłeś` — a 2sg perfective past, same reason.
+4. `wysłała` in a Kontrola frame — the pool owns `wysyłać`'s present, not that
+   perfective past.
+
+All 41 taught forms verified NEW, zero collisions. `będę` appears nowhere in the
+file outside the builder-facing note: `b1_two_futures` owns the imperfective-future
+contrast and it is not re-opened.
+
+### Standing items for James
+
+- **Smoke `wejść`.** `wszedłem` vs `weszłam` is the hardest thing in batch 12.
+  It is taught whole, never derived, but it is a shape change inside a paradigm
+  and Dad has not met one of those since `szedłem`/`szłam`.
+- **Smoke the `b1_polite` mógłby blanks** (above).
+- **Two spine claims are now known to be wrong**, and both were found by running
+  `check_new.py` rather than trusting the brief: O7.2's "every imperfective
+  member is already owned", and the assumption that `wychodzić` is new material
+  for `b2_motion_imperf`. The standing warning in B2-SPINE's vocab section — *"a
+  domain that feels obviously B2 may already be almost entirely taught"* — turns
+  out to apply just as hard to grammar. Whoever writes `C1-SPINE.md` should
+  assume its own inventory is wrong until checked.
+- **New C1 inbox items from this batch**, neither in B2-SPINE's leaves-to-C1
+  list: `przejść` + the `przez` + Accusative governor (and `wjechać` with it),
+  and the `sprzątać`/`posprzątać` pair.
