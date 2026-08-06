@@ -1907,3 +1907,258 @@ Before being trusted it was **calibrated against already-shipped packs** —
   `b1_dative_sg`), and the case names are the sanctioned metalanguage AGENTS.md
   names as the house pattern (*Z + narzędnik*). No `title_en` carries builder
   jargon.
+
+---
+
+## Batch 9 — Block 5 closes the count (`b2_gen_pl_full`, `b2_num_subject`, `b2_num_virile`)
+
+Built the next three unbuilt nodes in path order, one at a time, each authored,
+scanned, wired and audited before the next was started. Each audit-clean
+(**0 errors**; the same two pre-existing, unrelated warns from `a2_prep_review` /
+`b1_two_futures` that every batch since B1 has carried), pushed to
+`origin/b1-build` per unit, not batched. Three new structures registered in
+`SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before each audit ran:
+`gen_pl_full`, `num_subject`, `num_virile`.
+
+Path is live through `b2_num_virile` (path index 158, **152 live nodes**, 27 of
+B2's 48 non-station nodes done). Next unbuilt B2 node: **`b2_plural_gym`** — the
+zero-new gym that closes Block 5, and it now has all seven plural jobs to drill.
+
+**The batch has one shape and it runs the other way from batch 8's.** Batch 8
+held the cast fixed and changed the ending. This batch holds nothing fixed and
+instead builds a three-node chain where each unit exists to make the next one
+cheap: `gen_pl_full` teaches *lekarzy* and *nauczycieli* among its soft-stem
+masculines, which is why `num_virile` two nodes later has six nouns on its board
+for the price of four; `num_subject` teaches the neuter-singular verb for
+five-and-up, which is what lets `num_virile` say the thing that makes it
+teachable at all — that **for men there is no 2–4 exception**, so two of its
+three apparent new facts are last lesson's fact re-sighted. Taught in any other
+order, `num_virile` is a three-fact cliff.
+
+**`a2_numbers_gen`'s two fences are both paid and the ledger on that pack is now
+closed.** Its note deferred exactly two things, both labelled "B1" there and
+neither ever built: 5+ phrases as the subject of a verb, and people-counting.
+Spine **O8**'s correction stands and is worth repeating because the routine
+brief still carries the wrong version — *pięć piw* + Gen-pl was **never**
+deferred; that pack teaches it and *pięć piw* is one of its own frames.
+
+**A tool that the digest has asked for three times now exists and is committed:
+`codex/scripts/verify_pack.py`.** Batch 7's scanner was not committed and batch 8
+had to rebuild it from scratch; this one is in the repo. It reads a pack plus the
+position-aware pool and reports token leaks in every learner-facing string,
+builder unit codes outside `note`, dead tags, `uses_lemmas` not in the pool, and
+the mechanical stage checks. **It was calibrated first** against seven shipped
+packs (`b2_dat_pl`, `b2_inst_pl`, `b2_loc_pl`, `a2_gen_pl`, `b2_ze_clauses`,
+`b2_jesli`, `b1_dative_sg`) and had to reproduce clean on all seven before it was
+allowed to judge new work — which caught **three false positives in the tool
+itself**: it was scanning `id` / `tree_node` / `sequencing.node_id` for unit codes
+(they legitimately contain them), it was refusing a node the right to *use* the
+structure it *teaches* (the auditor's own unlock rule allows it), and it was
+failing duplicate quiz answers, which **18 shipped packs have** and which a
+discrimination unit over a six-form paradigm cannot avoid.
+
+### `b2_gen_pl_full` (Block 5, unit 4 — the stems `a2_gen_pl` fenced)
+
+Twelve new forms in three families of four: *szkół, gór, dróg, słów* (o → ó);
+*książek, kurtek, córek, okien* (an *e* appears); *hoteli, nauczycieli, kluczy,
+lekarzy* (soft masculines refusing `-ów`). Closed sets of whole forms, never a
+rule — spine **O10**. `a2_gen_pl`'s own note names its three exclusions and they
+are exactly these three families, so this unit is that pack's other half.
+
+**The left-hand column is the dictionary singular, not the nominative plural,
+and that is a deliberate departure from the spine brief.** The brief says "every
+noun used must already be owned in the Nominative plural". Held to literally, it
+kills the spine's own first two named targets: `check_new.py` reports *szkoły*
+TAUGHT by `a1_gen_endings` as a **genitive singular** (*do szkoły*), *książki*
+TAUGHT by `a1_gen_ki` as a **genitive singular** (*nie mam książki*), *kurtki*
+likewise — none of the three is owned as a plural anywhere. The choice was
+between dropping *szkół* and *książek*, or printing a genitive singular as if it
+were a plural, which is the homograph trap itself. `a2_gen_pl` built from the
+dictionary form too (*kawa* → *kaw*), so the singular column is this unit type's
+established anchor and the brief's line is stricter than the precedent it was
+written from. The nouns that **are** honestly owned as nominative plurals
+(*hotele, klucze, lekarze, nauczyciele, okna, córki, góry*) are used as plurals
+freely; the ones that are not appear only in their owned singular job, and every
+quiz explain that names one names it correctly.
+
+***drogi* is fenced from the pack entirely and is the sharpest homograph catch of
+the batch.** It reports TAUGHT by `leaf_shopping_a1` — where it is the
+**adjective "expensive"**, not a form of *droga* at all. It was the obvious lead
+distractor for *dróg*. *droga* and *drodze* are used instead.
+
+**No fabricated string is printed anywhere, and this unit is where that rule
+costs the most.** The natural distractor for every single item is the regular
+ending the word refuses — *szkołów, książkow, kluczów, okn* — and all four are
+non-words. `a2_gen_pl`, the direct predecessor, **does print such strings**:
+*doma*, *kawów*, *piwów* are in its own choice lists. This pack does not follow
+it there, on the standing `b2_gdyby` rule that a button teaches a string as
+surely as a table does. Where four owned forms of a noun exist the choice list is
+that noun's own paradigm (*córek/córki/córkami/córkom*); otherwise the fourth
+button is another real word's real form and the explain names which word.
+
+Quiz item 10's answer is *gazet* — deliberately not this lesson's family, the
+standing `loc_pl`/`dat_pl` guard against a unit that teaches button-picking.
+Fenced: *wiele*, *słowa*, *oknie*, *koszulek*, *matek*, all virile numerals, and
+all plural adjectives (**O3** → C1), so this is a bare-noun unit like the three
+before it.
+
+### `b2_num_subject` (Block 5, unit 5 — one fact, and only two new words)
+
+A counted phrase as the **subject** of a verb takes a neuter-singular verb from
+five upwards (*Pięć osób było*) and an ordinary plural at 2–4 (*Dwie osoby
+były*). `a2_numbers_gen`'s own deferral in its own words, never built.
+
+**Only two new lemmas, *osoby* and *osób*, and that is the point.** The content
+is a structure: every verb form it drills (*było, były, jest, są, będzie, będą*)
+has been owned since A2 and every counted noun is recycled. *osób* is a
+vowel-shift genitive plural — the family taught one node earlier — and slide 2
+points at that on purpose, so the new form arrives as a fifth member of a family
+just met rather than as an isolated oddity.
+
+**Adjectives are fenced absolutely and it is load-bearing, not tidiness.** *Pięć
+okien było nowych* needs a **genitive plural adjective**, which spine **O3**
+hands to C1. One adjective anywhere in this pack would have either taught an
+untaught form or printed a wrong one. Every subject is a bare counted noun.
+
+**The board is six minimal pairs in the past** — twelve rows, six plural verbs
+and six neuter singulars — because *było*/*były* is where the contrast is
+loudest. Present and future carry the same rule on slide 2 and in four quiz
+items, so it never reads as a past-tense quirk. Putting all three tenses on the
+board would have meant thirty-six rows or a thinner contrast; logged as the
+judgment call it is.
+
+**Word order is subject-first throughout.** *W domu było pięć okien* is more
+natural Polish and would have shown the rule surviving inversion, but inversion
+is a second fact and this unit has one. Held, C1 inbox.
+
+### `b2_num_virile` (Block 5, unit 6 — the one that had to be framed as a gift)
+
+Ten new forms: six numerals (*dwóch, trzech, czterech, pięciu, sześciu,
+dziesięciu*) and four genitive plurals (*studentów, kolegów, synów, klientów*).
+
+**Counting men is three new facts and taught as three facts it is a cliff** — the
+numerals change, the noun takes the many-form even at two, and the verb goes
+singular even at two. The second and third are not new at all: they are exactly
+what `num_subject` taught one node earlier for five-and-up. So the unit's whole
+claim, and slide 2's headline, is that **with these numbers there is no 2–4
+exception** — everything behaves the way five already does, at every number. Only
+the six numeral forms are genuinely new, and the awkward split the learner met
+last lesson simply does not exist here. This is the single design decision the
+unit rests on.
+
+***dwaj* is fenced.** *Dwaj studenci są* is real and common, but it is a second
+system — nominative numeral, nominative noun, plural verb — and would undo slide
+2's entire claim in one line. Verified NEW, C1 inbox.
+
+**The feminine guard is the most important thing in the pack.** *osoba* means
+"person" and is grammatically **feminine**, so it takes *pięć osób* and never
+*pięciu* — and a learner who has just met "the numbers for people" will reach for
+the wrong one. Quiz 9 and use item 8 are that guard, and slide 3 states the test
+in the form that is actually true: not "does the word mean a human", but "is the
+word masculine-personal", which is the category `b1_virile_nom` / `b1_virile_past`
+/ `b1_virile_reco` already spent three units on. Quiz 10 is the second guard,
+answering the plain plural *były* on *trzy koty*.
+
+***byli* is the sharpest distractor in the block** and appears in two items. It
+is owned (`a2_past_plural`) and it is exactly what an English speaker reaches for
+on "four teachers **were**". The explain names the honest split: *byli* is right
+when the men are the plain subject (*Nauczyciele byli w szkole*), and the moment
+a number stands in front of them the number takes over the agreement.
+
+***studentami* is fenced and is not an oversight.** It is the obvious fourth
+button for item 1 and it is verified NEW — `b2_inst_pl` dropped it deliberately
+because *z* becomes *ze* before an s-cluster and `a1_prep_do_z` taught only the
+frozen chunks *ze szkoły* / *ze sklepu*, never the bare preposition. *studentem*
+is used instead. *koledzy* is fenced on the same grounds.
+
+### Verification performed on all three packs
+
+- **Pool regenerated three times**, once before each unit (`--before
+  b2_gen_pl_full`, `--before b2_num_subject`, `--before b2_num_virile`), so each
+  pack was written against what is taught strictly before *it*. This mattered
+  every time: unit 2 recycles *okien* and *córek* from unit 1 one node earlier,
+  and unit 3 recycles *lekarzy* and *nauczycieli* from unit 1 two nodes earlier.
+- **Every authored learner-facing string** — intro bodies and every table cell,
+  titles, `body_pl`, match rows, quiz prompts, **quiz distractors**, `explain`
+  text, `accepts`, type and use items — extracted and scanned token by token
+  against the position-aware pool plus the pack's own `teaches_lemmas`, and every
+  unknown token read by eye rather than filtered. `note` excluded, as always.
+- **Four real problems caught before wiring**, all four by the scanner rather
+  than by eye:
+  1. **An untaught Polish form in a title — twice in one string.**
+     `b2_num_virile`'s first draft was titled *Pięciu studentów · liczenie
+     mężczyzn*, and both *liczenie* and *mężczyzn* are verified NEW. This is
+     AGENTS.md's most-repeated title violation, caught three times in one night
+     during B1 and once more here. Retitled *Pięciu studentów · dwóch lekarzy*.
+  2. **A factual error on a slide.** `b2_gen_pl_full`'s quiz-2 explain read "an e
+     appears between the k and the k". *książka*'s stem is *książk-*, so the *e*
+     lands between the **ż** and the *k*. Fixed.
+  3. **Ordinary untaught vocabulary in `body_pl`.** *normalnie* (`num_subject`)
+     and *przy* / *każdej* (`num_virile`). `body_pl`'s licence is for
+     metalanguage — case names, *liczba mnoga* — not for plain Polish words the
+     learner has never met. Both rewritten to pure metalanguage.
+  4. **A chunk tag that is not a declared lemma anywhere.** *w gazetach* was
+     added to `b2_gen_pl_full`'s `uses_lemmas` and reports NEW as a chunk, though
+     *w* and *gazetach* are both owned separately. Exactly batch 8's `w
+     mieszkaniu` bug — the fix is the same, keep the text and drop the
+     over-specific tag.
+- **Dead tags removed**: *ze szkoły* (`gen_pl_full`, never printed as a chunk),
+  and *synami* / *synom* / *synem* (`num_virile`, whose *syn* has no quiz item).
+  The pack note that had claimed a *syn* distractor paradigm was corrected rather
+  than left to lie.
+- **Homograph "taught AS" check re-run on every recycled form**, not only the
+  suspicious ones. The ones that mattered are in the unit notes above; beyond
+  *drogi*, the significant finds were *szkoły* / *książki* / *kurtki* as genitive
+  singulars, which reshaped `gen_pl_full`'s entire intro, and *piwa* as the
+  genitive singular of *dużo piwa*, which kept beer off `num_subject`'s board.
+  *klucze* is a softer case worth recording: `a1_home_family` declares it in
+  `teaches_lemmas` but glosses the entry "key" and carries *klucze* only in
+  `accepts`, so its owned **number** is genuinely ambiguous — it is used as a
+  distractor with no case claimed about it, and no slide calls it a plural.
+- **Mechanical stage checks per pack**: match exactly 12 rows with no duplicate
+  `pl` or `en`; every quiz answer present among its own choices; no duplicated
+  choices; no duplicate prompts; no duplicate type or use answers; no Użycie item
+  repeating a Pisanie item. All three clean. One real bug fixed here:
+  `gen_pl_full`'s quiz 10 shipped its first draft with *gazet* listed **twice**
+  in its own choice list.
+- **All eight station placeholders re-asserted as `planned` after every wiring**,
+  by assertion rather than by eye.
+- Known blind spot, unchanged and stated again: person pronouns sit in `audit.py`'s
+  `GLUE_LEMMAS`, so the machine cannot see a pronoun leak. All three units are
+  bare-noun throughout and use no oblique pronoun anywhere, checked by hand.
+
+### For James's next smoke pass
+
+- **The one I would most want you to look at is `b2_gen_pl_full`'s intro
+  column.** The spine said to anchor on nominative plurals and I anchored on
+  dictionary singulars instead, because the three headline nouns are not owned as
+  plurals at all. I think it is the only honest option and it matches
+  `a2_gen_pl`, but it is a departure from a written instruction and you should
+  see it before it hardens.
+- **Three families in one unit is the load question of the batch.** `gen_pl_full`
+  teaches twelve forms across three patterns, where `loc_pl` / `inst_pl` /
+  `dat_pl` each taught twelve forms of **one** pattern. The spine assigns all
+  three families to one node and they are genuinely closed lists rather than
+  rules, but if it plays as a cliff the clean split is by family — four forms
+  each, three small nodes — and nothing else in the block depends on them
+  arriving together.
+- **`num_subject` is two new words long.** It will feel very short next to the
+  units around it. That is the unit being honest about its content — the fact is
+  a structure, not vocabulary — but if it feels thin, the cost-free top-up is
+  more counted nouns on the board, not more facts.
+- **Watch the *osoba* trap live.** It is the one thing in `num_virile` I expect
+  Dad to get wrong, and it is worth watching whether slide 3's framing
+  ("masculine-personal", not "means a person") actually lands or whether he needs
+  the rule stated as a flat list of the six man-words.
+- **`b2_plural_gym` is next and it now has everything.** Seven plural jobs are
+  live — Nom, Acc, Gen (regular and stem-changing), Loc, Inst, Dat, plus virile
+  Nom and the two numeral patterns. The spine's gym brief predates
+  `gen_pl_full`, `num_subject` and `num_virile`; whoever builds it should
+  re-read that brief against what is actually taught rather than trusting it.
+- **Still open from this batch, all logged in the packs**: *dwaj*; inverted word
+  order with a counted subject (*W domu było pięć okien*); *wiele*/*wielu*, now
+  held for the third unit running; collective numerals (*pięcioro*); and plural
+  oblique adjectives, which have now been fenced by five consecutive units and
+  are the largest single thing C1 inherits from Block 5.
+- All three units are **audit-clean, not tested** — nobody has clicked through
+  them.
