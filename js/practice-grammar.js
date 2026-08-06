@@ -1121,6 +1121,11 @@ export function startPractice(pack, root, opts) {
     const item = items[idx];
     const mode = kind === "use" ? "full_word" : typeModeOf(pack, item);
     const isGap = mode === "ending_gap" && item.stem != null;
+    const isCloze =
+      mode === "cloze" &&
+      typeof item.frame === "string" &&
+      item.frame.includes("___");
+    const clozeParts = isCloze ? item.frame.split("___") : null;
     const prompt =
       item.prompt_en || item.prompt || item.en || "Napisz po polsku:";
     setSmokeContext({
@@ -1129,7 +1134,7 @@ export function startPractice(pack, root, opts) {
       itemIndex: idx,
       en: prompt,
       pl: item.answer || fullFormOf(item) || "",
-      gap: isGap ? item.stem || "" : "",
+      gap: isGap ? item.stem || "" : isCloze ? item.frame : "",
       gap_answer: isGap ? item.ending || "" : item.answer || "",
       typed: "",
     });
@@ -1143,7 +1148,14 @@ export function startPractice(pack, root, opts) {
           <input type="text" id="ans" class="gap-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="__" lang="pl" />
           <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
         </div>`
-      : `<div class="input-row">
+      : isCloze
+        ? `<div class="gap-row cloze-row" aria-label="Uzupełnij brakujące słowo">
+          <span class="gap-stem">${esc(clozeParts[0])}</span>
+          <input type="text" id="ans" class="gap-input cloze-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="…" lang="pl" />
+          <span class="gap-stem">${esc(clozeParts[1] || "")}</span>
+          <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
+        </div>`
+        : `<div class="input-row">
           <input type="text" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="po polsku…" lang="pl" />
           <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
         </div>`;
@@ -1162,7 +1174,9 @@ export function startPractice(pack, root, opts) {
       ${
         isGap
           ? `<p class="practice-hint gap-hint">Tylko <strong>końcówka</strong> · diakrytyki ważne</p>`
-          : ""
+          : isCloze
+            ? `<p class="practice-hint gap-hint">Wpisz <strong>brakujące słowo</strong> · diakrytyki ważne</p>`
+            : ""
       }
       ${inputBlock}
       <div class="feedback" id="feedback"></div>

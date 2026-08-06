@@ -1821,6 +1821,15 @@ button.m.wrong {
   .fruit-payoff-meter .meter-fill { transition: none; }
 }
 
+.cloze-row {
+  flex-wrap: wrap;
+  row-gap: 0.4rem;
+}
+.cloze-input {
+  width: 7.5rem;
+  min-width: 5rem;
+}
+
 .fruit-payoff-diag {
   font-size: 0.68rem;
   color: var(--muted);
