@@ -1,0 +1,595 @@
+{
+  "id": "b2_num_virile",
+  "title": "Pięciu studentów · dwóch lekarzy",
+  "title_en": "Counting men · the numbers change shape",
+  "level": "B2",
+  "tree_node": "b2_num_virile",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 5, unit 6 of 7 (spine O8), and with it a2_numbers_gen's second and last deferral is paid. That pack's note reads 'NO PEOPLE-COUNTING anywhere - virile numerals (pieciu) are B1', and it was never built. It sits this deep in B2 because it needs the whole B1 virile block AND gen_pl_full AND num_subject, and all three are now behind it.\n\nTEN NEW FORMS: six numerals (dwoch, trzech, czterech, pieciu, szesciu, dziesieciu) and four genitive plurals (studentow, kolegow, synow, klientow). The other two nouns on the board, lekarzy and nauczycieli, were taught two nodes back by gen_pl_full and are free here - which is part of why that unit put two masculine-personal nouns in its soft-stem family rather than four things.\n\nTHE UNIT IS FRAMED AS A GIFT AND THAT FRAMING IS THE WHOLE DESIGN. Counting men looks like three new facts - the numerals change, the noun goes into the many-form even at two, and the verb goes singular even at two. Taught as three facts it is a cliff. But the second and third are not new at all: they are exactly what num_subject taught one node earlier for five-and-up, and the honest statement is that WITH THESE NUMBERS THERE IS NO 2-4 EXCEPTION - everything behaves the way five already does, at every number. So only the six numeral forms are genuinely new, and slide 2 says out loud that the rest just got simpler. This is why the two units sit adjacent and in this order.\n\nDWAJ IS FENCED. dwaj studenci sa is a real and common alternative, but it is a second system (a nominative virile numeral with a nominative noun and a plural verb) and would undo slide 2's entire claim in one line. The spine says 'closed set of numerals only; no derivation rule', and dwoch covers the meaning. Verified NEW, logged, C1 inbox.\n\nTHE FEMININE GUARD IS THE MOST IMPORTANT THING IN THE PACK. osoba means 'person' and is grammatically FEMININE, so it takes the ordinary numerals - piec osob, never pieciu osob - and a learner who has just met 'the numbers for people' will reach for the wrong one. Quiz 9 and use item 8 are that guard, and slide 3 states the test in the form that is actually true: it is not about whether the word means a person, it is about whether the word is masculine-personal, which is the same category b1_virile_nom, b1_virile_past and b1_virile_reco already spent three units on. QUIZ 10 IS THE SECOND GUARD, answering with the plain plural byly on trzy koty - two of the ten answers are deliberately not this lesson's pattern, the standing loc_pl / dat_pl guard.\n\nBYLI IS THE SHARPEST DISTRACTOR IN THE BLOCK and appears in two items. It is owned (a2_past_plural) and it is exactly what an English speaker reaches for: 'four teachers WERE' with men in it. The explain names the honest split - byli is right when the men are the plain subject (Studenci byli w szkole), and the moment a number stands in front of them the number takes over the agreement.\n\nDISTRACTOR LISTS ARE FOUR REAL FORMS OF THE SAME NOUN wherever the block allows, which by now is nearly everywhere: klientow/klienci/klientami/klientom, kolegow/kolegami/kolegom/kolega with an ogonek, studentow/studenci/studentom/studentem. syn has no quiz item of its own - it appears on the board and in two use items only - so its owned forms are not tagged. That is the direct payoff of loc_pl, inst_pl and dat_pl having run on one shared cast.\n\nSTUDENTAMI IS FENCED AND IS NOT AN OVERSIGHT. It is the obvious fourth button for item 1 and it is verified NEW: b2_inst_pl dropped it deliberately because 'z' becomes 'ze' before an s-cluster and a1_prep_do_z taught only the frozen chunks ze szkoly / ze sklepu, never the bare preposition. studentem is used instead. koledzy is fenced on the same 'verified NEW' grounds.\n\nALSO FENCED, all verified NEW: ludzi, mezczyzn, panow, chlopcow, policjantow, kucharzy, kelnerow, turystow - the board is six nouns because ten new forms is already this block's ceiling; wiele and wielu, held for the third unit running; every collective numeral (piecioro); all plural adjectives (spine O3 -> C1), so this is the fifth consecutive bare-noun unit.",
+  "focus_structures": [
+    "num_virile"
+  ],
+  "teaches_structures": [
+    "num_virile"
+  ],
+  "teaches_lemmas": [
+    "dwóch",
+    "trzech",
+    "czterech",
+    "pięciu",
+    "sześciu",
+    "dziesięciu",
+    "studentów",
+    "kolegów",
+    "synów",
+    "klientów"
+  ],
+  "uses_structures": [
+    "num_subject",
+    "numbers_gen",
+    "gen_pl",
+    "gen_pl_full",
+    "gen_endings",
+    "plural_nom",
+    "virile_nom",
+    "virile_reco",
+    "virile_past",
+    "past_byc",
+    "past_plural",
+    "bedzie",
+    "byc_present",
+    "present_uje",
+    "prep_w_loc",
+    "prep_place",
+    "inst_identity",
+    "inst_z",
+    "inst_pl",
+    "dat_pl",
+    "dative_sg",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "When you count men, the numbers themselves change",
+      "title_pl": "pięć → pięciu",
+      "body": "Polish has a separate set of number words used for men, and for any group that has a man in it. You have met the idea behind this before: the language already sorts nouns into the ones that name men and everything else, which is why you say ci studenci but te koty. Now the numbers join in. There are only six you need, they are a closed list, and they are all built off numbers you have known since A1.",
+      "body_pl": "liczebnik męskoosobowy",
+      "table": {
+        "headers": [
+          "For things",
+          "For men"
+        ],
+        "rows": [
+          [
+            "dwa · dwie",
+            "dwóch"
+          ],
+          [
+            "trzy",
+            "trzech"
+          ],
+          [
+            "cztery",
+            "czterech"
+          ],
+          [
+            "pięć",
+            "pięciu"
+          ],
+          [
+            "sześć",
+            "sześciu"
+          ],
+          [
+            "dziesięć",
+            "dziesięciu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The good news — everything else gets simpler",
+      "title_pl": "dwóch studentów było",
+      "body": "Last lesson you learned that five and up put the noun in the many-form and the verb in the -o form, while two, three and four kept everything ordinary. With these new numbers there is no such split. The noun is always in the many-form and the verb is always -o, at every single number. So the awkward exception you just learned simply does not exist here — two behaves exactly like five.",
+      "body_pl": "zawsze -o",
+      "table": {
+        "headers": [
+          "",
+          "things",
+          "men"
+        ],
+        "rows": [
+          [
+            "two",
+            "dwa koty były",
+            "dwóch studentów było"
+          ],
+          [
+            "three",
+            "trzy koty były",
+            "trzech studentów było"
+          ],
+          [
+            "five",
+            "pięć kotów było",
+            "pięciu studentów było"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which words this is about — and one you will get wrong",
+      "title_pl": "pięć osób · pięciu studentów",
+      "body": "The test is not whether the word means a human being. It is whether the word is one of the man-words — the same group you learned when ci and te split apart. osoba means person, but it is a feminine word, so it takes the ordinary numbers: pięć osób, never anything else. Get that one straight and the rest follows.",
+      "body_pl": "osoba · rodzaj żeński",
+      "table": {
+        "headers": [
+          "Word",
+          "Counted as"
+        ],
+        "rows": [
+          [
+            "student · lekarz · nauczyciel",
+            "pięciu — man-words"
+          ],
+          [
+            "kolega · syn · klient",
+            "pięciu — man-words"
+          ],
+          [
+            "osoba",
+            "pięć — a feminine word"
+          ],
+          [
+            "kot · sklep · okno",
+            "pięć — not people at all"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The many-form of the man-words",
+      "title_pl": "studentów · lekarzy",
+      "body": "These are the noun forms the new numbers pull, and you have half of them already. Two of the six came in the lesson on the genitive plural, where lekarz and nauczyciel were the masculine words that refuse -ów and take -y or -i instead. The other four are ordinary -ów words, which is the pattern you have had since dużo sklepów.",
+      "body_pl": "-ów · -y / -i",
+      "table": {
+        "headers": [
+          "Word",
+          "Many-form"
+        ],
+        "rows": [
+          [
+            "student · kolega · syn · klient",
+            "studentów · kolegów · synów · klientów"
+          ],
+          [
+            "lekarz",
+            "lekarzy"
+          ],
+          [
+            "nauczyciel",
+            "nauczycieli"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "two students",
+      "pl": "dwóch studentów"
+    },
+    {
+      "en": "three students",
+      "pl": "trzech studentów"
+    },
+    {
+      "en": "four doctors",
+      "pl": "czterech lekarzy"
+    },
+    {
+      "en": "five doctors",
+      "pl": "pięciu lekarzy"
+    },
+    {
+      "en": "six teachers",
+      "pl": "sześciu nauczycieli"
+    },
+    {
+      "en": "ten teachers",
+      "pl": "dziesięciu nauczycieli"
+    },
+    {
+      "en": "two colleagues",
+      "pl": "dwóch kolegów"
+    },
+    {
+      "en": "five colleagues",
+      "pl": "pięciu kolegów"
+    },
+    {
+      "en": "three sons",
+      "pl": "trzech synów"
+    },
+    {
+      "en": "four sons",
+      "pl": "czterech synów"
+    },
+    {
+      "en": "six clients",
+      "pl": "sześciu klientów"
+    },
+    {
+      "en": "ten clients",
+      "pl": "dziesięciu klientów"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Pięciu ___ było w szkole. (students)",
+      "choices": [
+        "studentów",
+        "studenci",
+        "studentom",
+        "studentem"
+      ],
+      "answer": "studentów",
+      "explain": "The new numbers always pull the many-form. studenci is the subject form — Studenci są w szkole. studentom goes after pomagam, studentem after jestem."
+    },
+    {
+      "prompt": "Dwóch ___ było w sklepie. (clients)",
+      "choices": [
+        "klientów",
+        "klienci",
+        "klientami",
+        "klientom"
+      ],
+      "answer": "klientów",
+      "explain": "Two, and still the many-form — that is the whole point of these numbers. All four are real forms of the same word and you have met three of them."
+    },
+    {
+      "prompt": "___ lekarzy było w szpitalu. (three)",
+      "choices": [
+        "trzech",
+        "trzy",
+        "sześciu",
+        "pięć"
+      ],
+      "answer": "trzech",
+      "explain": "trzy is the number for things. Doctors are man-words, so the number takes its own shape."
+    },
+    {
+      "prompt": "Czterech nauczycieli ___ w szkole. (were)",
+      "choices": [
+        "było",
+        "byli",
+        "były",
+        "są"
+      ],
+      "answer": "było",
+      "explain": "byli is the trap and it is a real form — it is right when the men are the plain subject, as in Nauczyciele byli w szkole. Put a number in front of them and the number takes over."
+    },
+    {
+      "prompt": "Dwóch synów ___ w domu. (were)",
+      "choices": [
+        "było",
+        "byli",
+        "były",
+        "będą"
+      ],
+      "answer": "było",
+      "explain": "Two sons, and the verb is still the -o form. English gives you no warning here at all — it says were either way."
+    },
+    {
+      "prompt": "Sześciu ___ pracuje w biurze. (colleagues)",
+      "choices": [
+        "kolegów",
+        "kolegami",
+        "kolegom",
+        "kolegą"
+      ],
+      "answer": "kolegów",
+      "explain": "kolegami goes after z, kolegom after pomagam, kolegą after jestem. This is the fourth form of a word you have now seen in four different jobs."
+    },
+    {
+      "prompt": "___ studentów było w parku. (two)",
+      "choices": [
+        "dwóch",
+        "dwa",
+        "dwie",
+        "trzech"
+      ],
+      "answer": "dwóch",
+      "explain": "Polish has three words here and you now have all of them: dwa for things like koty, dwie for feminine words like osoby, dwóch for men."
+    },
+    {
+      "prompt": "Dziesięciu ___ było w hotelu. (doctors)",
+      "choices": [
+        "lekarzy",
+        "lekarze",
+        "lekarzem",
+        "nauczycieli"
+      ],
+      "answer": "lekarzy",
+      "explain": "lekarzy is one of the two man-words whose many-form ends in -y rather than -ów. lekarze is the subject form; nauczycieli is the right shape on the wrong word."
+    },
+    {
+      "prompt": "Pięć ___ było w sklepie. (people)",
+      "choices": [
+        "osób",
+        "osoby",
+        "osoba",
+        "studentów"
+      ],
+      "answer": "osób",
+      "explain": "This is the one to watch. osoba means person but it is a feminine word, so it takes pięć and not pięciu — and the number in the sentence is already pięć, which tells you which form the noun needs."
+    },
+    {
+      "prompt": "Trzy koty ___ w domu. (were)",
+      "choices": [
+        "były",
+        "było",
+        "byli",
+        "są"
+      ],
+      "answer": "były",
+      "explain": "Nothing in this lesson applies. Cats are not man-words and three is not five, so it is the plain plural you have used since A2."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "two students",
+      "mode": "phrase",
+      "answer": "dwóch studentów",
+      "accepts": [
+        "dwóch studentów"
+      ]
+    },
+    {
+      "prompt_en": "three students",
+      "mode": "phrase",
+      "answer": "trzech studentów",
+      "accepts": [
+        "trzech studentów"
+      ]
+    },
+    {
+      "prompt_en": "four doctors",
+      "mode": "phrase",
+      "answer": "czterech lekarzy",
+      "accepts": [
+        "czterech lekarzy"
+      ]
+    },
+    {
+      "prompt_en": "five doctors",
+      "mode": "phrase",
+      "answer": "pięciu lekarzy",
+      "accepts": [
+        "pięciu lekarzy"
+      ]
+    },
+    {
+      "prompt_en": "six teachers",
+      "mode": "phrase",
+      "answer": "sześciu nauczycieli",
+      "accepts": [
+        "sześciu nauczycieli"
+      ]
+    },
+    {
+      "prompt_en": "ten teachers",
+      "mode": "phrase",
+      "answer": "dziesięciu nauczycieli",
+      "accepts": [
+        "dziesięciu nauczycieli"
+      ]
+    },
+    {
+      "prompt_en": "two colleagues",
+      "mode": "phrase",
+      "answer": "dwóch kolegów",
+      "accepts": [
+        "dwóch kolegów"
+      ]
+    },
+    {
+      "prompt_en": "five colleagues",
+      "mode": "phrase",
+      "answer": "pięciu kolegów",
+      "accepts": [
+        "pięciu kolegów"
+      ]
+    },
+    {
+      "prompt_en": "three sons",
+      "mode": "phrase",
+      "answer": "trzech synów",
+      "accepts": [
+        "trzech synów"
+      ]
+    },
+    {
+      "prompt_en": "four sons",
+      "mode": "phrase",
+      "answer": "czterech synów",
+      "accepts": [
+        "czterech synów"
+      ]
+    },
+    {
+      "prompt_en": "six clients",
+      "mode": "phrase",
+      "answer": "sześciu klientów",
+      "accepts": [
+        "sześciu klientów"
+      ]
+    },
+    {
+      "prompt_en": "ten clients",
+      "mode": "phrase",
+      "answer": "dziesięciu klientów",
+      "accepts": [
+        "dziesięciu klientów"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Five students were at school.",
+      "answer": "Pięciu studentów było w szkole.",
+      "accepts": [
+        "Pięciu studentów było w szkole.",
+        "Pięciu studentów było w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two clients were in the shop.",
+      "answer": "Dwóch klientów było w sklepie.",
+      "accepts": [
+        "Dwóch klientów było w sklepie.",
+        "Dwóch klientów było w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three doctors were in the hospital.",
+      "answer": "Trzech lekarzy było w szpitalu.",
+      "accepts": [
+        "Trzech lekarzy było w szpitalu.",
+        "Trzech lekarzy było w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Four teachers were at school, and two students were at home.",
+      "answer": "Czterech nauczycieli było w szkole, a dwóch studentów było w domu.",
+      "accepts": [
+        "Czterech nauczycieli było w szkole, a dwóch studentów było w domu.",
+        "Czterech nauczycieli było w szkole, a dwóch studentów było w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three cats were at home, but two sons were in the park.",
+      "answer": "Trzy koty były w domu, ale dwóch synów było w parku.",
+      "accepts": [
+        "Trzy koty były w domu, ale dwóch synów było w parku.",
+        "Trzy koty były w domu, ale dwóch synów było w parku"
+      ],
+      "explain": "The whole lesson in one sentence. Three cats keep the ordinary number and the ordinary plural verb; two sons take the man-number, the many-form and the -o verb — and English marks none of it."
+    },
+    {
+      "prompt_en": "Type: Six colleagues work in the office.",
+      "answer": "Sześciu kolegów pracuje w biurze.",
+      "accepts": [
+        "Sześciu kolegów pracuje w biurze.",
+        "Sześciu kolegów pracuje w biurze"
+      ],
+      "explain": "It is not only the past. pracuje is the singular verb, exactly as było was — the rule holds in every tense."
+    },
+    {
+      "prompt_en": "Type: Ten doctors will be in the hospital.",
+      "answer": "Dziesięciu lekarzy będzie w szpitalu.",
+      "accepts": [
+        "Dziesięciu lekarzy będzie w szpitalu.",
+        "Dziesięciu lekarzy będzie w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two people were in the shop.",
+      "answer": "Dwie osoby były w sklepie.",
+      "accepts": [
+        "Dwie osoby były w sklepie.",
+        "Dwie osoby były w sklepie"
+      ],
+      "explain": "Not this lesson. osoba is a feminine word however human it is, so it keeps dwie and the plain plural verb."
+    },
+    {
+      "prompt_en": "Type: Five sons were at home.",
+      "answer": "Pięciu synów było w domu.",
+      "accepts": [
+        "Pięciu synów było w domu.",
+        "Pięciu synów było w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three teachers are in the office.",
+      "answer": "Trzech nauczycieli jest w biurze.",
+      "accepts": [
+        "Trzech nauczycieli jest w biurze.",
+        "Trzech nauczycieli jest w biurze"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "student",
+    "studenci",
+    "studentom",
+    "studentem",
+    "kolega",
+    "kolegami",
+    "kolegom",
+    "kolegą",
+    "syn",
+    "klient",
+    "klienci",
+    "klientami",
+    "klientom",
+    "lekarz",
+    "lekarze",
+    "lekarzy",
+    "lekarzem",
+    "nauczyciel",
+    "nauczyciele",
+    "nauczycieli",
+    "osoba",
+    "osoby",
+    "osób",
+    "koty",
+    "kotów",
+    "kot",
+    "sklep",
+    "sklepów",
+    "okno",
+    "ci",
+    "te",
+    "dwa",
+    "dwie",
+    "trzy",
+    "cztery",
+    "pięć",
+    "sześć",
+    "dziesięć",
+    "dużo",
+    "było",
+    "były",
+    "byli",
+    "są",
+    "jest",
+    "będą",
+    "będzie",
+    "pracuje",
+    "pomagam",
+    "jestem",
+    "w szkole",
+    "w sklepie",
+    "w szpitalu",
+    "w domu",
+    "w parku",
+    "w biurze",
+    "w hotelu",
+    "a",
+    "ale"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_num_virile",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

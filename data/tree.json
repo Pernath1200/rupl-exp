@@ -3349,17 +3349,18 @@
       "id": "b2_num_virile",
       "domain": "grammar",
       "label": "Pięciu studentów",
-      "label_en": "Counting men",
+      "label_en": "Counting men · the numbers change shape",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 5, unit 6. Virile numerals: pieciu studentow, dwoch lekarzy (pieciu, wielu, osob all verified NEW). a2_numbers_gen's other deferral: 'NO PEOPLE-COUNTING anywhere - virile numerals (pieciu) are B1.' Sits deep in B2 because it needs the whole virile block (B1) AND Gen-pl completion. Closed set of numerals only; no derivation rule.",
+      "note": "B2 Block 5, unit 6 of 7 (spine O8). Pays a2_numbers_gen's second and last deferral - 'NO PEOPLE-COUNTING anywhere, virile numerals (pieciu) are B1' - never built until now. Ten new forms: six numerals (dwoch, trzech, czterech, pieciu, szesciu, dziesieciu) and four genitive plurals (studentow, kolegow, synow, klientow); lekarzy and nauczycieli come free from gen_pl_full two nodes back. FRAMED AS A GIFT, which is the whole design: counting men looks like three new facts and taught that way it is a cliff, but two of the three are just what num_subject taught one node earlier for 5+, so the honest line is that with these numbers there is NO 2-4 exception at all. Only the six numerals are new. dwaj is fenced - a second system that would undo that claim. THE FEMININE GUARD IS THE MOST IMPORTANT THING HERE: osoba means person but is FEMININE, so piec osob and never pieciu; quiz 9 and use item 8 are that guard. byli is the sharpest distractor in the block and appears twice. studentami is fenced (verified NEW - b2_inst_pl dropped it over the ze s-cluster problem). A first-draft title carried two untaught words and was caught by the token scanner, not by eye.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/b2_num_virile.json"
     },
     {
       "id": "b2_plural_gym",
