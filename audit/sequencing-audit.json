@@ -1,11 +1,7 @@
 {
   "version": 1,
   "spec": "codex/SEQUENCING.md",
-<<<<<<< HEAD
-  "generated_at": "2026-08-06T08:51:03+00:00",
-=======
-  "generated_at": "2026-08-06T10:55:04+02:00",
->>>>>>> 069a133 (B2 Block 6a: prefix strand — 5 units, JAMES-LOCKED (dropdown session 2026-08-06))
+  "generated_at": "2026-08-06T10:55:39+02:00",
   "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
