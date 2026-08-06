@@ -131,6 +131,7 @@ STRUCTURE_CATALOGUE = {
     "prefix_two_jobs",
     "pisac_family",
     "dawac_family",
+    "powinien",
 }
 
 GLUE_LEMMAS = {

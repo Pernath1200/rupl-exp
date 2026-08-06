@@ -3500,18 +3500,19 @@
     {
       "id": "b2_powinien",
       "domain": "grammar",
-      "label": "Powinienem",
-      "label_en": "Should · and past modals",
+      "label": "Powinienem · musiałem",
+      "label_en": "Should — and the past of must",
       "kind": "topic",
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[B2 SPINE] Block 6, unit 8. Modal completion, paying two a2_musiec fences ('past of musiec (musialem/musiala, trzeba bylo) - it would hand back the gender this unit just removed'; 'conditional powinienem' dropped). Teaches powinienem/powinnam/powinien/powinna (verified NEW - obligation carrying gender, unusual and worth naming) plus the past of the modals already owned: musialem/musiala, trzeba bylo, mozna bylo - straight applications of the past_ac rule owned since A2.",
+      "note": "[B2 Block 6 unit 8] Modal completion. Pays two a2_musiec fences: the past of musiec and the gender it removed. ONE THEME, TWO PLACES - powinienem/powinnam is a PRESENT form that carries gender (the only helper that does), musialem/musiala is the ordinary past; trzeba bylo / mozna bylo pick up nothing at all, which is the contrast. 14 new forms, ZERO new endings: powinien takes the past-tense person markers -em/-s/zero owned since a2_past_byc, and musiec's past is past_ac's shape. The e->a shift (musia-, like chcia-) is NOT explained - forms handed over whole on the chcialem precedent, rule booked for C1. SINGULAR ONLY. FENCED, all verified NEW: plural (powinnismy, musieli), neuter (powinno), conditional powinienem byl (O6), and the PAST OF MOC (moglem) under b1_polite's unresolved MOGLBY QUARANTINE - moc is NEW even as an infinitive, so the third modal has no past in this course and the pack says so. Negation fenced, inheriting a2_musiec's open fork. Perfective complements now allowed (aspect_prefixes taught the twins). TITLE: both Polish words are taught by this pack. See B2-SPINE Block 6.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/b2_powinien.json"
     },
     {
       "id": "b2_verbal_nouns",
