@@ -126,6 +126,7 @@ STRUCTURE_CATALOGUE = {
     "jezdzic",
     "motion_prefixed2",
     "aspect_prefixes",
+    "motion_imperf",
 }
 
 GLUE_LEMMAS = {

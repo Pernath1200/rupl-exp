@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 159 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 160 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -176,4 +176,5 @@ _None._
 | 163 | `b2_jezdzic` | `jezdzic` | 7 | `byc_present`, `chodzic`, `conjunctions`, `double_neg`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `plural_nom`, `prep_do_gen`, `present`, `present_e_esz`, `present_e_isz`, `present_uje`, `question`, `questions2` |
 | 164 | `b2_motion_prefixes2` | `motion_prefixed2` | 55 | `chodzic`, `conjunctions`, `jechac`, `jezdzic`, `motion_chunk`, `motion_prefixed`, `motion_prefixed2`, `past_ac`, `past_isc`, `perf_future`, `poss_nom`, `prep_do_gen`, `question`, `questions2`, `ten_ta_to`, `zgoda` |
 | 165 | `b2_aspect_prefixes` | `aspect_prefixes` | 41 | `aspect_past`, `aspect_prefixes`, `conjunctions`, `miec_acc`, `negation`, `past_ac`, `past_rest`, `perf_future`, `poss_nom`, `present_am`, `present_e_isz`, `present_uje`, `question`, `questions2`, `zgoda` |
+| 166 | `b2_motion_imperf` | `motion_imperf` | 13 | `aspect_past`, `chodzic`, `conjunctions`, `inst_transport`, `motion_imperf`, `motion_prefixed`, `musiec`, `ordinals_time`, `past_ac`, `past_isc`, `perf_future`, `prep_do_gen`, `prep_z_gen`, `present_am`, `present_e_isz`, `question`, `questions2` |
 

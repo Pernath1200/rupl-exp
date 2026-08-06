@@ -3650,12 +3650,13 @@
       "levels": [
         "B2"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "verbs",
       "tree_part": "verbs",
-      "note": "[B2 Block 6a, JAMES-LOCKED 2026-08-06] Secondary-imperfective bridge: wychodzic/przychodzic (+ wyjezdzac/przyjezdzac if load allows, log the call) as everyday partners of owned wyjsc/przyjsc/wyjechac/przyjechac. MEMORIZED WHOLE TWINS (mialem/moglby treatment) - the -ywa-/-a- formation rule is NOT stated, C1 names it. Conjugate as owned classes (wychodze like chodze). See B2-SPINE Block 6a.",
-      "pedagogy": "teach"
+      "note": "B2 Block 6a unit 1 (JAMES-LOCKED, spine O7 overrule). Secondary-imperfective bridge: wychodzic/przychodzic/wyjezdzac/przyjezdzac as the everyday partners of the owned wyjsc/przyjsc/wyjechac/przyjechac. MEMORIZED WHOLE TWINS - the -ywa-/-a- rule is NOT stated, C1 names it (locked decision #4). SPINE PREMISE CORRECTED: wychodzic/wychodze/wychodzisz have been taught since a2_routine as a plain daily-routine verb, so the unit is anchored on a verb Dad already says every day and only the 3sg wychodzi is new on it. AUTHOR'S CALL, logged: the vehicle pair IS included - 2 verbs, zero new endings (-am/-asz, owned since mieszkam), completes the grid b2_jezdzic built. 13 new forms. FENCED: the entire imperfective past (chodzilem is itself new, so it would be a second system), all plural, the imperfective future, and any jezdzic-vs-wyjezdzac contrast. No prefix meaning claimed - that is b2_prefix_lens's material. Homograph catch: 'do Polski' drafted and rejected (a2_countries teaches polski as the ADJECTIVE and deliberately avoided the genitive).",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/b2_motion_imperf.json"
     },
     {
       "id": "b2_prefix_lens",
