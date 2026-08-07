@@ -4103,18 +4103,19 @@
     {
       "id": "c1_suppl_pl",
       "domain": "grammar",
-      "label": "Oczy, uszy, ręce",
-      "label_en": "Eyes, ears, hands",
+      "label": "Oko · oczy",
+      "label_en": "The plural that is a different word",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 4, unit 4. a2_plural_nom's fenced suppletives: oczy, uszy, rece (all verified NEW). CORRECTION TO THE INBOX, verified this run: dzieci is TAUGHT <- a2_family2 [57], so it is the ANCHOR, not a teaching item. Small, closed, body-and-family lexis the learner has wanted since A1.",
+      "note": "[C1 SPINE] Block 4, unit 4. a2_plural_nom's fenced suppletives: oczy, uszy, rece (all verified NEW). CORRECTION TO THE INBOX, verified this run: dzieci is TAUGHT <- a2_family2 [57], so it is the ANCHOR, not a teaching item. Small, closed, body-and-family lexis the learner has wanted since A1. [WIRED LIVE] THREE new strings: oczy, uszy, rece. Structure ID suppl_pl registered in codex/SEQUENCING.md and audit.py before the audit. SCOPE FORK, CONSERVATIVE, LOGGED: the plural OBLIQUES (oczu, uszu, rak, rekach, rekami/rekoma, oczami/oczyma) are OUT - a second system (an -u genitive plural found nowhere else in the course, and a nasal shift in rak that nothing has explained), and nothing in the unit needs them because every frame is Nominative or Accusative, which the non-virile Acc=Nom fact makes the same form. NO FALSE FORM IS PRINTED: the slides name the ENDING the learner's own rule points at rather than writing *oka / *ucha, which are real Genitive singulars. THE SHARPEST FACT: reki - the shape the k/g rule predicts for the plural of reka - is TAUGHT <- a1_gen_ki [39] as the Genitive singular, so the prediction is already spoken for; it is named on the slide and used as a distractor. THE DUAL IS TAUGHT AS HISTORY, NOT AS A RULE. nogi is used NOWHERE: it is TAUGHT <- a1_gen_ki [39] as a Genitive singular and using it as the regular counterexample would be the homograph trap inside the unit that warns about it - the counterexample stays in English. Titles re-checked at wiring: label/label_en changed from the drafts (Oczy, uszy, rece / Eyes, ears, hands) to the block's contrast pattern.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_suppl_pl.json"
     },
     {
       "id": "c1_society",
