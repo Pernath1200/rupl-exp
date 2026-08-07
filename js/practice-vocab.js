@@ -1261,6 +1261,11 @@ export function startPractice(root, block, opts) {
 
     function grade(opts = {}) {
       if (t.answered) return;
+      // Empty Enter is a stray keypress, not an answer — never score it.
+      if (!inp.value.trim()) {
+        inp.focus();
+        return;
+      }
       const { allowNear = true } = opts;
       if (isCorrectAnswer(inp.value, it, answer, { forGap: frame })) {
         t.answered = true;
@@ -1467,6 +1472,11 @@ export function startPractice(root, block, opts) {
 
     function grade() {
       if (t.answered) return;
+      // Empty Enter is a stray keypress, not an answer — never score it.
+      if (!inp.value.trim()) {
+        inp.focus();
+        return;
+      }
       t.answered = true;
       t.missedThis = false;
       if (isCorrectAnswer(inp.value, it, it.pl)) {

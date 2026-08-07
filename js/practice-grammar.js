@@ -387,7 +387,7 @@ export function startPractice(pack, root, opts) {
       },
       type: {
         title: "Etap 3 · Pisanie",
-        sub: "Napisz formę · Enter = sprawdź · Enter = dalej",
+        sub: "Napisz formę · Enter = sprawdź, potem Enter = dalej",
       },
       use: {
         title: "Etap 4 · Użycie",
@@ -1303,16 +1303,24 @@ export function startPractice(pack, root, opts) {
       // routes by `answered`; a second handler double-advanced (item skip).
       focusPrimary("#btn-submit");
       state.enterAdvance = goNext;
-      // Correct: gentle auto-advance. Wrong: wait for Enter — the learner
-      // must get time to study the correction (James, comparatives smoke).
-      if (good) {
-        advanceTimer = setTimeout(goNext, isGap ? 750 : 900);
-      }
+      // Nothing auto-advances (James 2026-08-07): right answers wait for
+      // Enter exactly like wrong ones, so an explanation or a second look
+      // is never cut off mid-read.
     };
 
     const onEnter = () => {
-      if (answered) goNext();
-      else grade();
+      if (answered) {
+        goNext();
+        return;
+      }
+      // Empty Enter is a stray keypress, not an answer (James 2026-08-07:
+      // "I often press enter when I haven't entered anything"). Grading it
+      // scored the item wrong and burned the attempt.
+      if (!input.value.trim()) {
+        input.focus();
+        return;
+      }
+      grade();
     };
 
     btn.addEventListener("click", onEnter);
