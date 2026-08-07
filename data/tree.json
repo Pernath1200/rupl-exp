@@ -3877,18 +3877,19 @@
     {
       "id": "c1_adj_pl_dat",
       "domain": "grammar",
-      "label": "Nowym studentom · celownik",
+      "label": "Nowym studentom",
       "label_en": "Plural adjectives in the Dative · -ym",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 4. -ym. ONE ending. Rides B1's dative verbs and b2_dat_pl's -om nouns. Deliberately small. TRAP TO NAME: -ym is ALSO the singular m/n Locative (b2_adj_loc) and Instrumental (b2_adj_inst) ending - same string, third job. ALSO CARRIES, as a use item and not a unit: the plural dative NOUN in the podoba sie frame (podoba sie dzieciom), which b2_dat_pl held to C1 - the ending is owned, only the frame shape is new.",
+      "note": "C1 Block 2, unit 4 (C1-SPINE O2) — the Dative plural, -ym, and the block's sharpest homograph. Zero new forms: dobrym, nowym and małym have been taught since b2_adj_loc and were re-used by b2_adj_inst, so teaches_lemmas is legitimately empty for the second time in this block. THE TRAP IS THE UNIT, and the spine named it in advance: -ym is also the singular m/n Locative and Instrumental ending, so this is the same string in a THIRD job — and unlike the block's earlier re-sightings, which changed case while holding number, this one changes NUMBER. w dobrym hotelu and z dobrym kolegą are singular; dobrym studentom is plural. The resolution given is the honest one: the noun settles it, because -om is the Dative plural and nothing else in the course ends that way. The person-noun fork carries forward from c1_adj_pl_inst for the identical lexical reason — b2_dat_pl taught twelve Dative plurals and eleven are people — and is safe on the same ground: the Dative plural has no virile split. duży is absent again, and this time not by choice: b2_adj_dat taught only dobremu/nowemu/małemu and duży has no singular oblique anywhere, so the gap logged at c1_adj_pl_inst is now block-wide and c1_adj_pl_gym inherits it. The singular-to-plural table has two rows because only studentowi/studentom and siostrze/siostrom have both numbers taught; the neuter row carries an em dash rather than a fabricated form. Slide 4 is the block's summary board — four oblique cases, three strings — and says plainly that the Nominative and Accusative plural adjective is taught nowhere yet. Use item 7 pays the spine's logged inbox item (a Dative plural noun in the podoba się frame) as one use item, not a strand.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_dat.json"
     },
     {
       "id": "c1_adj_pl_virile",

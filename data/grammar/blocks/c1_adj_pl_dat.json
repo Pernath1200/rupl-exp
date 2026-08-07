@@ -1,0 +1,590 @@
+{
+ "id": "c1_adj_pl_dat",
+ "title": "Nowym studentom",
+ "title_en": "Plural adjectives in the Dative · -ym",
+ "level": "C1",
+ "tree_node": "c1_adj_pl_dat",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "C1 Block 2, unit 4 (C1-SPINE O2) — the Dative plural, and the block's sharpest homograph.\n\nZERO NEW FORMS, so teaches_lemmas is legitimately empty for the second time in this block (c1_adj_pl_loc was the first), on the copular_future / adj_inst / ze_clauses / passive / existential_tense convention. dobrym, nowym and malym have been TAUGHT since b2_adj_loc [136] and were re-used by b2_adj_inst [137]. The unit adds no string at all.\n\nTHE TRAP IS THE UNIT, and C1-SPINE named it in advance: \"-ym is also the singular m/n Locative and Instrumental ending - same string, THIRD job. Name it.\" c1_adj_pl_loc's own note predicted the collision one node further back and told this unit to name it rather than assume it. What makes it worse than the block's earlier re-sightings is that the earlier ones changed CASE while holding NUMBER; this one changes NUMBER. w dobrym hotelu and z dobrym kolega are SINGULAR; dobrym studentom is PLURAL. Nothing in -ym says which. Slides 1 and 2 are that one fact, and the resolution given is the honest one: THE NOUN SETTLES IT. -om is the Dative plural and nothing else in the course ends that way, so the learner is told to read the noun, not the adjective.\n\nTHE PERSON-NOUN FORK CARRIES FORWARD FROM THE PREVIOUS NODE, and for the identical lexical reason. b2_dat_pl [154] taught exactly twelve Dative plurals and ELEVEN ARE PEOPLE (rodzicom, dzieciom, ludziom, studentom, kolegom, siostrom, corkom, synom, klientom, pacjentom, ciociom); the only non-person is kotom, and nauczycielom is verified NEW. This is the same twelve-noun shape as the Instrumental, so the same call was taken: person nouns carry the unit. It is safe on the same ground - THE DATIVE PLURAL HAS NO VIRILE SPLIT, -ym is uniform, and no virile form appears anywhere. No person noun takes an adjective in the NOMINATIVE; lekarka and dzieci appear as bare subjects only. C1-SPINE's standing fence (\"virile forms appear nowhere before c1_adj_pl_virile\") is intact.\n\nduzy IS ABSENT AGAIN, and this time it is not even a choice this unit makes: b2_adj_dat [138] taught only dobremu, nowemu and malemu, exactly as b2_adj_gen dropped duzy and b2_adj_loc used dobry/nowy/maly/zimny. duzy has NO singular oblique anywhere in the course - duzym, duzego, duzej all verified NEW - so there is no singular Dative to contrast a plural against. The gap logged at c1_adj_pl_inst therefore stands unchanged and is now a block-wide fact rather than one unit's decision: duzy has duzych (Genitive and Locative plural) and nothing else oblique. c1_adj_pl_gym inherits it. The fix, if James wants the full four, is the gym or a later unit, not a forced sentence here.\n\nTHE SINGULAR-TO-PLURAL TABLE HAS ONLY TWO ROWS, and that is a lexical limit rather than an editorial one, stated so a reader does not think it was trimmed for space. A row needs a Dative singular AND its Dative plural, and only two nouns have both: studentowi/studentom and siostrze/siostrom. bratu, mamie, tacie, kobiecie and nauczycielowi have no taught Dative plural (nauczycielom is NEW); dziecku and koledze are NEW, so dzieciom and kolegom have no taught singular. The neuter row on slide 3 therefore carries an EM DASH in the singular column with one line of explanation - the b2_kim_czym / b2_case_gym treatment - rather than a fabricated form.\n\nSLIDE 4 IS THE BLOCK'S SUMMARY BOARD: four oblique cases, three strings (-ych Genitive, -ych Locative, -ymi Instrumental, -ym Dative), with the trigger word that selects each. It is honest about its own scope - these are the four OBLIQUE plural endings, and the Nominative and Accusative plural adjective is not taught anywhere yet, virile or otherwise, so nothing here is claimed to be complete.\n\nPAYS ONE LOGGED INBOX ITEM, exactly as C1-SPINE directed. The reconciliation table's entry \"Dative plural noun in the podoba sie frame\" reads: \"c1_adj_pl_dat's pack, AS A USE ITEM - the ending is owned, only the frame shape is new; logged, not a unit.\" Use item 7 is that item and only that item: Ten film podoba sie malym dzieciom. a2_dat_chunks taught podoba mi sie with a PRONOUN in the Dative slot; the substitution of a full noun phrase is the frame shape the inbox names, and b1_dative_sg already gave the learner noun Datives after pomagac and dziekowac. One item, not a strand.\n\nFENCED: -ymi appears only in contrast items where z is the trigger, never in a Dative slot; -ych likewise only under duzo / nie ma / w / na / o. -emu and -ej appear only as the SINGULAR Dative forms b2_adj_dat owns, as the singular half of a contrast. -ich is out; every adjective is a hard stem. ciocia is a person noun and takes an adjective only in the Dative plural, never in the Nominative.\n\nPISANIE: eight TWO-word Dative phrases, the c1_adj_pl_gen shape rather than the three-word prepositional shape the Locative and Instrumental units needed. The Dative here is governed by a VERB, not a preposition, so adjective + noun is the whole minimal pattern unit and no governor belongs inside it. Two words, under the cap, pattern phrases and not composed sentences; nothing added to the repair queue. All eight answers distinct under the engine's own norm().",
+ "focus_structures": [
+  "adj_pl_dat"
+ ],
+ "teaches_structures": [
+  "adj_pl_dat"
+ ],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "adj_pl_dat",
+  "adj_pl_inst",
+  "adj_pl_loc",
+  "adj_pl_gen",
+  "adj_dat",
+  "adj_loc",
+  "adj_inst",
+  "adj_gen",
+  "zgoda",
+  "dative_sg",
+  "dat_pl",
+  "dat_chunks",
+  "inst_z",
+  "loc_pl",
+  "prep_w_loc",
+  "o_loc",
+  "gen_endings",
+  "gen_pl",
+  "plural_nom",
+  "present",
+  "byc_present",
+  "sie_reflexive",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "-ym, and this time it is a plural",
+   "title_pl": "dobrym studentom",
+   "body": "The Dative plural asks for -ym on the adjective. You have produced that string twice already and both times it was a singular — once in the Locative, once in the Instrumental. This is the first time it is plural, and there is nothing in the ending itself to say so.",
+   "body_pl": "celownik liczby mnogiej — -ym",
+   "table": {
+    "headers": [
+     "Phrase",
+     "Number",
+     "Case"
+    ],
+    "rows": [
+     [
+      "w dobrym hotelu",
+      "singular",
+      "Locative"
+     ],
+     [
+      "z dobrym kolegą",
+      "singular",
+      "Instrumental"
+     ],
+     [
+      "dobrym studentom",
+      "plural",
+      "Dative"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The noun settles it, not the adjective",
+   "title_pl": "-ym + -om",
+   "body": "The adjective is no help here — it is the same four letters in all three jobs. The noun behind it decides: hotelu and kolegą are singular, and -om is the Dative plural, which nothing else in this course ends in. Read the noun first.",
+   "table": {
+    "headers": [
+     "Singular",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Pomagam dobremu studentowi.",
+      "Pomagam dobrym studentom."
+     ],
+     [
+      "Dziękuję dobrej siostrze.",
+      "Dziękuję dobrym siostrom."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I help the new students.",
+     "pl": "Pomagam nowym studentom."
+    }
+   ]
+  },
+  {
+   "title": "Gender stops mattering, for the fourth time",
+   "title_pl": "-emu · -ej → -ym",
+   "body": "The singular Dative made you choose between -emu and -ej. The plural does not. One string covers all three genders, which is now true of every plural case in this block. The neuter singular Dative has not come up in this course, so that row has a plural only.",
+   "table": {
+    "headers": [
+     "Gender",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "dobremu studentowi",
+      "dobrym studentom"
+     ],
+     [
+      "feminine",
+      "dobrej siostrze",
+      "dobrym siostrom"
+     ],
+     [
+      "neuter",
+      "—",
+      "małym dzieciom"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The plural adjective, four cases",
+   "title_pl": "-ych · -ymi · -ym",
+   "body": "This is every oblique plural adjective ending the course teaches: three strings across four cases. The adjective never tells you the case on its own — the word in front does, and in the Dative that word is a verb rather than a preposition.",
+   "table": {
+    "headers": [
+     "Case",
+     "What triggers it",
+     "Ending",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Genitive",
+      "dużo, nie ma",
+      "-ych",
+      "dużo dobrych sklepów"
+     ],
+     [
+      "Locative",
+      "w, na, o",
+      "-ych",
+      "w dobrych sklepach"
+     ],
+     [
+      "Instrumental",
+      "z",
+      "-ymi",
+      "z dobrymi kolegami"
+     ],
+     [
+      "Dative",
+      "pomagać, dziękować",
+      "-ym",
+      "dobrym studentom"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "We thank the good people.",
+     "pl": "Dziękujemy dobrym ludziom."
+    },
+    {
+     "en": "I help the new students, but I'm going with good friends.",
+     "pl": "Pomagam nowym studentom, ale idę z dobrymi kolegami."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "I thank the good people.",
+   "pl": "Dziękuję dobrym ludziom."
+  },
+  {
+   "en": "We thank the good parents.",
+   "pl": "Dziękujemy dobrym rodzicom."
+  },
+  {
+   "en": "I help my good friends.",
+   "pl": "Pomagam dobrym kolegom."
+  },
+  {
+   "en": "Mum thanks the good aunts.",
+   "pl": "Mama dziękuje dobrym ciociom."
+  },
+  {
+   "en": "I help the new students.",
+   "pl": "Pomagam nowym studentom."
+  },
+  {
+   "en": "Dad helps the new clients.",
+   "pl": "Tata pomaga nowym klientom."
+  },
+  {
+   "en": "The doctor helps the new patients.",
+   "pl": "Lekarka pomaga nowym pacjentom."
+  },
+  {
+   "en": "We help the new people.",
+   "pl": "Pomagamy nowym ludziom."
+  },
+  {
+   "en": "Mum helps the small children.",
+   "pl": "Mama pomaga małym dzieciom."
+  },
+  {
+   "en": "Dad helps the little daughters.",
+   "pl": "Tata pomaga małym córkom."
+  },
+  {
+   "en": "The children help the small cats.",
+   "pl": "Dzieci pomagają małym kotom."
+  },
+  {
+   "en": "Grandma helps the little sisters.",
+   "pl": "Babcia pomaga małym siostrom."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "I help the new students. →",
+   "choices": [
+    "Pomagam nowym studentom.",
+    "Pomagam nowemu studentom.",
+    "Pomagam nowymi studentom.",
+    "Pomagam nowych studentom."
+   ],
+   "answer": "Pomagam nowym studentom.",
+   "explain": "studentom is a Dative plural, so the adjective takes -ym. nowemu is the singular and would clash with the noun."
+  },
+  {
+   "prompt": "Pomagam ___ dzieciom. (small)",
+   "choices": [
+    "małym",
+    "małymi",
+    "małych",
+    "małemu"
+   ],
+   "answer": "małym",
+   "explain": "Three plural endings now exist and they do not overlap: -ych after dużo, nie ma, w, na and o; -ymi after z; -ym after a verb like pomagać."
+  },
+  {
+   "prompt": "I help the new student (just one). →",
+   "choices": [
+    "Pomagam nowemu studentowi.",
+    "Pomagam nowym studentowi.",
+    "Pomagam nowemu studentom.",
+    "Pomagam nowym studentom."
+   ],
+   "answer": "Pomagam nowemu studentowi.",
+   "explain": "The singular Dative adjective is -emu. The last option is perfectly good Polish, but it says several students."
+  },
+  {
+   "prompt": "in a good hotel (just one) →",
+   "choices": [
+    "w dobrym hotelu",
+    "w dobrych hotelu",
+    "w dobrym hotelach",
+    "w dobrymi hotelu"
+   ],
+   "answer": "w dobrym hotelu",
+   "explain": "This is the very same dobrym as the Dative plural, doing a completely different job — the noun hotelu is singular and w makes it Locative. The ending never tells you the number; the noun does."
+  },
+  {
+   "prompt": "I thank the good people. →",
+   "choices": [
+    "Dziękuję dobrym ludziom.",
+    "Dziękuję dobrymi ludziom.",
+    "Dziękuję dobrych ludziom.",
+    "Dziękuję dobremu ludziom."
+   ],
+   "answer": "Dziękuję dobrym ludziom.",
+   "explain": "ludziom is one of the irregular plurals from B2. The adjective in front of it is completely regular."
+  },
+  {
+   "prompt": "Tata pomaga ___ klientom. (new)",
+   "choices": [
+    "nowym",
+    "nowymi",
+    "nowych",
+    "nowemu"
+   ],
+   "answer": "nowym",
+   "explain": "pomagać takes the Dative, and -om on the noun makes it plural. nowymi would be right after z, not after this verb."
+  },
+  {
+   "prompt": "with good friends →",
+   "choices": [
+    "z dobrymi kolegami",
+    "z dobrym kolegami",
+    "z dobrych kolegami",
+    "z dobrym kolegom"
+   ],
+   "answer": "z dobrymi kolegami",
+   "explain": "z is the Instrumental word, so -ymi. Putting -ym after z is the predictable slip now that both endings exist."
+  },
+  {
+   "prompt": "in good hotels →",
+   "choices": [
+    "w dobrych hotelach",
+    "w dobrym hotelach",
+    "w dobrymi hotelach",
+    "z dobrymi hotelach"
+   ],
+   "answer": "w dobrych hotelach",
+   "explain": "w has taken -ych since the Locative unit and still does. Each of the three plural endings belongs to its own set of trigger words."
+  },
+  {
+   "prompt": "Mum thanks the good aunts. →",
+   "choices": [
+    "Mama dziękuje dobrym ciociom.",
+    "Mama dziękuje dobrymi ciociom.",
+    "Mama dziękuje dobrej ciociom.",
+    "Mama dziękuje dobrym ciocią."
+   ],
+   "answer": "Mama dziękuje dobrym ciociom.",
+   "explain": "dziękować takes the Dative just as pomagać does. The last option leaves the noun in the singular Instrumental."
+  },
+  {
+   "prompt": "The children help the small cats. →",
+   "choices": [
+    "Dzieci pomagają małym kotom.",
+    "Dzieci pomagają małymi kotom.",
+    "Dzieci pomagają małych kotom.",
+    "Dzieci pomagają małym kotami."
+   ],
+   "answer": "Dzieci pomagają małym kotom.",
+   "explain": "kotom is the Dative and kotami is the Instrumental — one letter apart and a different case. The verb chooses the Dative, and the adjective follows the noun."
+  },
+  {
+   "prompt": "I thank the good sister (just one). →",
+   "choices": [
+    "Dziękuję dobrej siostrze.",
+    "Dziękuję dobrym siostrze.",
+    "Dziękuję dobrej siostrom.",
+    "Dziękuję dobrym siostrom."
+   ],
+   "answer": "Dziękuję dobrej siostrze.",
+   "explain": "The feminine singular Dative is -ej. The last option is correct for several sisters — in the plural there is no feminine form to reach for."
+  },
+  {
+   "prompt": "a lot of good shops →",
+   "choices": [
+    "dużo dobrych sklepów",
+    "dużo dobrym sklepów",
+    "dużo dobrymi sklepów",
+    "dużo dobre sklepy"
+   ],
+   "answer": "dużo dobrych sklepów",
+   "explain": "dużo has taken the Genitive since A1 and the plural adjective there is -ych. The last option is the plain plural left exactly as it stands."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to/for the new students (dative plural)",
+   "mode": "full_word",
+   "answer": "nowym studentom",
+   "accepts": [
+    "nowym studentom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the good people (dative plural)",
+   "mode": "full_word",
+   "answer": "dobrym ludziom",
+   "accepts": [
+    "dobrym ludziom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the small children (dative plural)",
+   "mode": "full_word",
+   "answer": "małym dzieciom",
+   "accepts": [
+    "małym dzieciom"
+   ],
+   "explain": "dzieciom is neuter and it makes no difference — the plural Dative adjective is the same for every gender."
+  },
+  {
+   "prompt_en": "to/for the good parents (dative plural)",
+   "mode": "full_word",
+   "answer": "dobrym rodzicom",
+   "accepts": [
+    "dobrym rodzicom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the new clients (dative plural)",
+   "mode": "full_word",
+   "answer": "nowym klientom",
+   "accepts": [
+    "nowym klientom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the small cats (dative plural)",
+   "mode": "full_word",
+   "answer": "małym kotom",
+   "accepts": [
+    "małym kotom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the good friends (dative plural)",
+   "mode": "full_word",
+   "answer": "dobrym kolegom",
+   "accepts": [
+    "dobrym kolegom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the new patients (dative plural)",
+   "mode": "full_word",
+   "answer": "nowym pacjentom",
+   "accepts": [
+    "nowym pacjentom"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I help the new students.",
+   "answer": "Pomagam nowym studentom.",
+   "accepts": [
+    "Pomagam nowym studentom.",
+    "Pomagam nowym studentom"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum helps the small children.",
+   "answer": "Mama pomaga małym dzieciom.",
+   "accepts": [
+    "Mama pomaga małym dzieciom.",
+    "Mama pomaga małym dzieciom"
+   ]
+  },
+  {
+   "prompt_en": "Type: We thank the good parents.",
+   "answer": "Dziękujemy dobrym rodzicom.",
+   "accepts": [
+    "Dziękujemy dobrym rodzicom.",
+    "Dziękujemy dobrym rodzicom"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad helps the new clients.",
+   "answer": "Tata pomaga nowym klientom.",
+   "accepts": [
+    "Tata pomaga nowym klientom.",
+    "Tata pomaga nowym klientom"
+   ]
+  },
+  {
+   "prompt_en": "Type: The doctor helps the new patients.",
+   "answer": "Lekarka pomaga nowym pacjentom.",
+   "accepts": [
+    "Lekarka pomaga nowym pacjentom.",
+    "Lekarka pomaga nowym pacjentom"
+   ]
+  },
+  {
+   "prompt_en": "Type: The children help the small cats.",
+   "answer": "Dzieci pomagają małym kotom.",
+   "accepts": [
+    "Dzieci pomagają małym kotom.",
+    "Dzieci pomagają małym kotom"
+   ]
+  },
+  {
+   "prompt_en": "Type: Small children like this film.",
+   "answer": "Ten film podoba się małym dzieciom.",
+   "accepts": [
+    "Ten film podoba się małym dzieciom.",
+    "Ten film podoba się małym dzieciom"
+   ],
+   "explain": "The frame you know as podoba mi się with a whole phrase in the Dative slot instead of the pronoun. Polish says the film is pleasing TO the children, which is why they are in the Dative."
+  },
+  {
+   "prompt_en": "Type: Grandma helps the little sisters.",
+   "answer": "Babcia pomaga małym siostrom.",
+   "accepts": [
+    "Babcia pomaga małym siostrom.",
+    "Babcia pomaga małym siostrom"
+   ]
+  },
+  {
+   "prompt_en": "Type: I help the new students, but I'm going with good friends.",
+   "answer": "Pomagam nowym studentom, ale idę z dobrymi kolegami.",
+   "accepts": [
+    "Pomagam nowym studentom, ale idę z dobrymi kolegami.",
+    "Pomagam nowym studentom, ale idę z dobrymi kolegami"
+   ],
+   "explain": "The two endings that are easiest to confuse, side by side: -ym after the verb, -ymi after z. Both phrases are plural and only the trigger word differs."
+  }
+ ],
+ "uses_lemmas": [
+  "dobrym",
+  "nowym",
+  "małym",
+  "dobrymi",
+  "nowymi",
+  "małymi",
+  "dobrych",
+  "nowych",
+  "małych",
+  "dużych",
+  "dobremu",
+  "nowemu",
+  "małemu",
+  "dobrej",
+  "nowej",
+  "małej",
+  "dobre",
+  "nowe",
+  "małe",
+  "duże",
+  "dużo",
+  "studentom",
+  "kolegom",
+  "siostrom",
+  "córkom",
+  "rodzicom",
+  "dzieciom",
+  "ludziom",
+  "klientom",
+  "pacjentom",
+  "kotom",
+  "ciociom",
+  "studentowi",
+  "siostrze",
+  "kolegami",
+  "kotami",
+  "ciocią",
+  "hotelu",
+  "hotelach",
+  "sklepach",
+  "sklepów",
+  "sklepy",
+  "dzieci",
+  "lekarka",
+  "mama",
+  "tata",
+  "babcia",
+  "ten",
+  "film",
+  "pomagam",
+  "pomaga",
+  "pomagamy",
+  "pomagają",
+  "pomagać",
+  "dziękuję",
+  "dziękuje",
+  "dziękujemy",
+  "dziękować",
+  "podoba",
+  "podoba mi się",
+  "idę",
+  "ale",
+  "i",
+  "nie",
+  "w hotelu",
+  "z kolegą",
+  "kolegą"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "c1_adj_pl_dat",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}
