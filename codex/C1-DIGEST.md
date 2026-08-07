@@ -2833,3 +2833,262 @@ read the prefix-pairing section above before writing it. Then `c1_dawac_perf`
 must add its row to `data/case-map.json` in the same commit** — Block 8's
 `c1_time_minutes`, `c1_dates_full`, `c1_collective_num` and `c1_quantifiers` are
 the ones that will, and `c1_which_case` derives its table from that file.
+
+---
+
+## Batch 13 — `c1_imperative_more`, `c1_cond_past`, `c1_by_plural`
+
+Block 7 continued. `codex/REPAIR-QUEUE.md` was checked first and is still empty
+(every box ticked, and the closing line reads *"Remaining in this queue:
+none"*), so the whole run went to the C1 build track. Three units, one commit
+each, pushed individually.
+
+| unit | path | new strings | structure ID(s) | commit |
+|---|---|---|---|---|
+| `c1_imperative_more` | 220 | 11 | `imperative_plural`, `imperative_niech` | `757973b` |
+| `c1_cond_past` | 221 | 6 | `cond_past` | `550e8f3` |
+| `c1_by_plural` | 222 | 4 | `by_plural` | `042560f` |
+
+Audit after each: **0 errors**. Warns stayed at **6** throughout and the warn set
+is byte-identical to batch 12's — all six `teaches_empty_grammar`, on the four
+live which-case units and the two review nodes. None of these three contributed
+one. `data/tree.json` was diffed against the previous commit programmatically
+after each push and proved to change **exactly one node** each time, with
+`path_order` identical.
+
+### `c1_which_case` was again NOT built, and the reason is unchanged
+
+It sits at path 235 and its intro table is DERIVED from `data/case-map.json`
+filtered to `taught_by` at or before that position. Paths 223–234 are still
+`planned`, so the derivation would be missing its own level. Batches 1 and 2 of
+the which-case family said so; this run confirms it a third time. **None of
+these three units ships a governor, so no `case-map.json` row was added** — the
+file still has no rows after `b2_prosic_o` [165], and Block 8's
+`c1_time_minutes`, `c1_dates_full`, `c1_collective_num` and `c1_quantifiers`
+remain the ones that must add theirs in the same commit.
+
+### How the three units were verified
+
+`audit.py` only ever checks **declared tags**, so it cannot see a stray Polish
+word in a slide, a distractor or a cloze frame. Two checkers were written for
+this batch and run on every unit:
+
+1. **A token-level pool checker** over every unambiguously-Polish learner-facing
+   surface — `title_pl`, `body_pl`, slide `examples`, match rows, quiz choices,
+   quiz prompt frames, cloze frames, and every Pisanie/Użycie answer and
+   `accepts` — splitting each into words and checking them against
+   `make_pool.py --before <node>`. Intro **table cells are mixed English and
+   Polish by design**, so they are excluded from the automated pass and were
+   reviewed by hand instead, cell by cell.
+2. **A structural checker** mirroring the engine's own `norm()` from
+   `js/practice-grammar.js` (lowercase, strip punctuation) — twelve match rows,
+   no duplicate answers or prompts within any stage, every quiz answer present in
+   its own choices, one `___` per cloze frame, the ≤3-word cap on typed-whole
+   answers, every `teaches_lemma` present on the match board, and no Pisanie
+   cloze reconstructing a Użycie sentence.
+
+**The second checker caught a real bug in `c1_cond_past` that eye-checking had
+passed:** the Pisanie cloze `Gdybym ___ czas, byłbym zrobił obiad.` reconstructed
+Użycie item 5 character-for-character. The frame was rebuilt on `tata`. This is
+the same class of defect the which-case batch-1 checker was written for, and it
+is the second time it has been caught by assertion rather than by reading.
+
+Three flag classes were examined and **deliberately ruled not-leaks**, each
+against live shipped precedent rather than by assumption:
+
+- **`bym` / `byś` / `śmy` / `ście` on `body_pl`.** These are the person markers
+  the units teach. `b2_gdyby` ships live with `body_pl` reading
+  `gdyby + m → gdybym · gdyby + ś → gdybyś` and a slide body that says *"You know
+  bym, byś, by from the conditional"*. Identical shorthand, identical function.
+- **`ty` in learner-facing English** (`c1_imperative_more` slide 4's register
+  table). Verified NEW as a lemma, but it is established course metalanguage:
+  `a1_present_gym` prompts read `ty · mieszkać → ending`, `a2_bedzie` says
+  *"będziesz belongs to ty"*, `a2_jechac` says *"ty is inside the je- block"*.
+- **`na autobus`** (`c1_imperative_more` Użycie). NEW as a multi-word lemma, but
+  composed from the owned `na_acc` governor plus the owned `autobus`, exactly as
+  `c1_imperative_stems` [219] shipped *Czekaj na autobus!*. Only `autobus` is
+  declared.
+
+### `c1_imperative_more` — the strand closes, and the hard part was already bought
+
+Every singular command the unit builds on is an **owned string**:
+`imperative_rule` [125] gave the formation and `c1_imperative_stems` [219], one
+node back, paid the last sound change. So the plural is that owned base plus
+`-cie` or `-my` with **nothing else happening** — no stem change, no vowel
+change, no exception in the set taught. That is a true statement about these
+forms and the slide says it plainly; it is **not** generalised into a promise
+about every verb in Polish.
+
+**Both endings are already produced in the present**, which is the anchor the
+unit opens on rather than a coincidence noted late: `robicie/robimy`,
+`idziecie/idziemy`, `mówicie/mówimy`, `kupujecie/kupujemy`, `macie/mamy`,
+`jesteście/jesteśmy` — all verified owned. The unit's real content is *which
+base* they attach to.
+
+**Not one imperative plural collides with its present-tense twin**, checked
+string by string across the whole taught set: `róbcie/robicie`,
+`zróbcie/zrobicie`, `idźcie/idziecie`, `jedźcie/jedziecie`,
+`chodźcie/chodzicie`, `kupcie/kupicie`, `dajcie/dacie`, `róbmy/robimy`,
+`zróbmy/zrobimy`, `chodźmy/chodzimy`. Twelve pairs, twelve distinct strings —
+which is what makes the command-versus-statement discrimination real rather than
+a coin toss, and is why two Kontrola items are **statements** whose right answer
+is the present form. Shown as a table of the pairs he owns, never as a law.
+
+**Two mechanisms in one unit is a load call, and it is the spine's** — Block 7
+schedules the plural and `niech` together as *"the rest of the imperative"*. It
+is defensible because only one of the two involves any morphology, and that one
+is an ending already produced in the present; `niech pan` costs one invariable
+word and no morphology at all, since what follows it is the owned 3sg the
+command was built from. Registered as **two** structure IDs rather than smuggled
+under one, so the count is visible. **If it reads heavy in the hand, the clean
+split is `niech` into its own small unit beside `c1_register`.**
+
+**Negative plural commands are a logged scope refusal, not an omission.**
+`nie róbcie`, `nie idźcie` are each derivable from two rules he owns
+(`imperative_rule`'s *nie* + imperfective, plus this unit's `-cie`), and adding
+them would put a third thing in a unit already carrying two.
+`c1_imperative_stems`' precedent of teaching `nie rób`/`nie jedź` alongside was
+considered and **not** followed: there the negative demonstrated the aspect flip
+biting on a form taught in that very unit, here it would demonstrate nothing new.
+
+### `c1_cond_past` — and the fact `b2_gdyby` withheld on purpose
+
+B2-SPINE **O6**'s explicit deferral, paid. The six new strings arrive as a
+**regular application of an owned rule** rather than a new paradigm:
+`b1_conditional_sg` taught L-form + `bym`/`byś`/`by` on *chcieć*, *kupić*,
+*zrobić*, and nobody had ever run it on *być*. The set taught **mirrors that
+pack's own six singular persons exactly** rather than inventing a different cut.
+It also closes a gap the B2 digest logged verbatim — *"`byłbym` is NEW too, so
+'I would be…' is unavailable and every result clause that wanted it was rebuilt
+around `chciałbym być`"* — so *Tata byłby w domu* is now sayable directly.
+
+**Slide 2 is the headline and it was reserved for this unit by name.**
+`b2_gdyby`'s digest states: *"the L-form after gdyby is glossed ONLY as a present
+unreal ('if I had time', never 'if I had had time'), and the fact that Polish
+uses one shape for both readings is NOT MENTIONED AT ALL rather than
+half-taught."* That is told here. It is the high-value half of the unit because
+it makes his **owned** sentence do more work — it reduces what he has to produce
+rather than adding to it.
+
+**The register line is the course's own ruling, not a new opinion.** B2-SPINE O6
+rejected a `b2_cond_past` on the stated ground that the construction *"is
+comparatively rare in speech"*. Saying so on the slide is therefore consistent
+with the decision that deferred it, and it follows the treatment C1 already gives
+rare forms (R5's vocative footnote, O5's `zrobiwszy` shown but never demanded).
+The slide says plainly that this belongs more to writing than to talking and that
+the plain conditional is what he will hear — then teaches the form anyway,
+because he will **read** it and because the course is closing.
+
+**The if-half is explicitly left alone**, and this is the unit's main load-split.
+Strict Polish can also mark the past inside the *gdyby* clause
+(*gdybym był miał czas*). That is **not taught, not shown, not a distractor**: it
+doubles the person marker in a clause `b2_gdyby` only just settled, and it is
+rarer still. **Logged as a permanent scope refusal — and there is no later spine
+to reopen it.**
+
+`zrobiłbym` is **verified NEW** (`b1_conditional_sg` taught only the 2sg and 3sg
+of *zrobić*) and is used **nowhere**; every 1sg plain conditional in the pack is
+the owned `kupiłbym`. This was checked rather than assumed and it changed two
+drafted items. `byłoby` is **deliberately held** and logged: the neuter would
+give *Byłoby dobrze*, which is genuinely useful, but `b1_conditional_sg` taught
+no neuter conditional and adding one would extend the paradigm past the set the
+unit is mirroring. Cheapest home if wanted: one row in `c1_nuance` or
+`c1_register`.
+
+### `c1_by_plural` — two findings the pool caught that reading would not have
+
+Four new strings, **zero new mechanism**, paying two logged holds at once
+(`b2_gdyby`'s plural-*gdyby* C1-inbox hold and `b1_zeby`'s plural-*żeby* scope
+cut). The marker family is exceptionally well anchored: `-śmy`/`-ście` are
+already produced in the present (`jesteśmy`), the past (`byliśmy`, `robiliśmy`)
+and the plural conditional (`chcielibyśmy`). `b1_zeby`'s own slide already told
+the learner the family was shared — *"the SAME family you already own from the
+conditional: -m (bym), -ś (byś), nothing extra for the 3rd person (by)"* — and
+this unit finishes that sentence.
+
+**1. The brief's obvious headline sentence is illegal.** *Gdybyśmy mieli
+czas…* is the natural first draft and it cannot be written: **`mieli` and
+`miały` are BOTH verified NEW.** The course has never taught the plural past of
+*mieć*. Every plural L-form in the pack is therefore drawn from the closed owned
+set `byli / były / chcieli / chciały / kupili / kupiły / zrobili / zrobiły`, and
+the if-halves run on *być* and on the shop rather than on having time.
+
+**2. `b1_conditional_pl`'s grid is deliberately partial, and it shaped every
+result clause.** Verified form by form: *chcieć* has all six plural
+conditionals; *kupić* has 1pl and 3pl but **not** 2pl (`kupilibyście` is NEW);
+*zrobić* has 2pl and 3pl but **not** 1pl (`zrobilibyśmy` is NEW). So **"we would
+make" is unsayable in this course** and no item asks for it — the 1pl result
+clauses all use `chcielibyśmy` or `kupilibyśmy`, the 2pl ones `zrobilibyście` or
+`chcielibyście`. Three drafted sentences were rewritten when this was checked.
+`bylibyśmy`/`byliby` — the plural of the *był*-conditional taught one node back —
+are also NEW and appear **nowhere**; extending that paradigm is not this unit's
+job and is logged as untaught.
+
+**`b1_zeby`'s wanter-must-differ-from-doer rule is respected rather than quietly
+broken.** That pack states: *"The wanter and the doer must be different
+people… If you want to do something yourself, you still just say chcę zrobić, no
+żeby at all."* A first-person wanter with `żebyśmy` puts the speaker inside the
+doer group and sits awkwardly against that rule, so **every** `żebyśmy` and
+`żebyście` item uses a **third-person** wanter (*Mama chce, żebyśmy…*), where
+wanter and doer are unambiguously different. One Kontrola item keeps the owned
+singular `żebyś` against a first-person wanter, which is `b1_zeby`'s own shape.
+
+**Caught in my own draft before wiring:** slide 0's `body_pl` read
+`-śmy = my · -ście = wy`, using the two pronouns the batch fences by hand.
+Rewritten to owned forms. `my`/`wy` sit in `audit.py`'s `GLUE_LEMMAS`, so the
+auditor would have passed it silently — which is exactly the failure mode the
+spine warns about, and it happened in this run's own output.
+
+### For James to smoke — batch 13
+
+1. **`niech pan` sharing a unit with the imperative plural.** Two mechanisms,
+   registered as two structure IDs so the call is visible. It is the spine's
+   design, not a drift, and only one of the two involves morphology — but this
+   is the unit to say the word on if it feels like two lessons. The clean split
+   is `niech` into its own small unit beside `c1_register`.
+2. **`c1_cond_past`'s honesty line.** Slide 4 tells you outright that the
+   construction belongs more to writing than to speech and that you will not be
+   caught out for not saying it — then teaches it anyway. That is the R5 /
+   `zrobiwszy` treatment applied to a whole unit rather than a footnote. If
+   being told "you probably won't need this" makes the unit feel like a waste of
+   a slot, that is worth knowing before `c1_register` takes the same posture.
+3. **Slide 2 of `c1_cond_past` retracts nothing but adds a lot.** It tells you
+   that *Gdybym miał czas, kupiłbym samochód* has covered the past reading all
+   along. Worth checking it lands as a widening rather than as "you were told
+   half the truth at B2" — the wording was chosen to avoid the second reading,
+   and B2 held the fact back deliberately so this unit could have it.
+4. **The command-versus-statement pairs** (`Róbcie!` against `Robicie.`). Six
+   pairs on one slide, and two Kontrola items where the right answer is the
+   **statement**. This is the unit's sharpest discrimination and also the
+   easiest place to feel tricked; if the statement items read as gotchas rather
+   than as the point, they are the two to convert.
+
+### Still open after batch 13
+
+- **`c1_which_case` [235]** — buildable once path 234 is live. Third run in a
+  row it has had to wait.
+- **`byłoby`**, **`bylibyśmy`/`byliby`**, and **`mieli`/`miały`** — all verified
+  NEW, all deliberately untaught, all logged above. `mieli`/`miały` is the one
+  worth a second look: the course ends with **no plural past of *mieć***, which
+  is a commoner verb than several this level does teach. Cheapest home is a use
+  item or two in a later Block 8 or 9 pack, not a unit.
+- **`sprzątać`/`posprzątać`** — carried unresolved from batch 11; the course
+  still ends with no verb for cleaning unless overruled.
+- **The 161 fold variants** whose `accepts` contains the deaccented form of
+  their own answer, suppressing the „z ogonkami" correction. Carried unresolved
+  since the fifth repair run; still a one-line script in either direction, still
+  James's call.
+- **The vocabulary volume finding** (`codex/LEVEL-AUDIT-2026-08-07.md`).
+  Untouched — these three are grammar units by design.
+
+### Next run
+
+`c1_modal_pl` [223] is next in `path_order`, then `c1_stac_sie` [224] and
+`c1_nuance` [225]. Two notes for whoever takes them. **`c1_modal_pl` sits after
+`c1_cond_past` on purpose** — it carries `powinienem był`, the conditional-past
+modal, and the construction it leans on now exists. **`c1_nuance` carries R7**
+(*wydaje mi się* as a chunk, with the explicit homograph line naming
+`wydawać` = *spend* from `b2_verb_family2`) and is the pack that could cheaply
+absorb `byłoby` and the `sprzątać` pair if either is wanted. **Every C1 unit that
+ships a new governor must add its row to `data/case-map.json` in the same
+commit.**
