@@ -166,6 +166,7 @@ STRUCTURE_CATALOGUE = {
     "pisac_family2",
     "prefix_semantics",
     "dawac_perf",
+    "imperative_stems",
 }
 
 GLUE_LEMMAS = {

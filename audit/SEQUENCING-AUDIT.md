@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 210 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 211 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -231,4 +231,5 @@ _None._
 | 216 | `c1_verb_family4` | `pisac_family2` | 14 | `adj_acc`, `aspect_prefixes`, `miec_acc`, `musiec`, `o_loc`, `past_ac`, `perf_future`, `pisac_family`, `pisac_family2`, `sec_imperf` |
 | 217 | `c1_prefix_semantics` | `prefix_semantics` | 0 | `aspect_past`, `aspect_prefixes`, `byc_adj`, `can_inf`, `dat_chunks`, `dawac_family`, `inst_z`, `miec_acc`, `motion_prefixed2`, `past_ac`, `past_byc`, `past_isc`, `perf_future`, `pisac_family`, `pisac_family2`, `placic_family`, `prefix_lens`, `prefix_semantics`, `prefix_two_jobs`, `present_e_isz`, `przez_acc`, `ten_ta_to`, `to_jest` |
 | 218 | `c1_dawac_perf` | `dawac_perf` | 19 | `aspect_past`, `aspect_prefixes`, `can_inf`, `dative_pron`, `dative_sg`, `dawac_family`, `dawac_perf`, `miec_acc`, `miec_present`, `musiec`, `perf_future`, `prefix_lens`, `prefix_semantics`, `present_e_esz`, `question`, `wiedziec` |
+| 219 | `c1_imperative_stems` | `imperative_stems` | 5 | `aspect_past`, `chodzic`, `dawac_perf`, `imperative`, `imperative_rule`, `imperative_stems`, `inst_transport`, `jechac`, `miec_acc`, `motion_chunk`, `musiec`, `na_acc`, `neg_gen`, `negation`, `perf_future`, `prep_do_gen`, `present_e_isz` |
 

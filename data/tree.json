@@ -4380,12 +4380,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 7. Inbox item 15. robic->rob and the STEM-ALTERNATING imperatives - fenced BY NAME in b1_imperative_rule, which had to cut a quiz item AND a line of intro prose to hold the fence. rob verified NEW. Also DAJ EXPLAINED rather than opaque: TAUGHT <- a2_imperative [94] as a frozen chunk since A2, and it turns out to be regular once the stem is right. NO META-QUESTIONS IN KONTROLA - b1_imperative_rule's rejected quiz item ('Which verb is deliberately NOT covered by this rule?') is the precedent for what not to write.",
+      "note": "[C1 SPINE] Block 7, unit 7. Inbox item 15. robic->rob and the STEM-ALTERNATING imperatives - fenced BY NAME in b1_imperative_rule, which had to cut a quiz item AND a line of intro prose to hold the fence. rob verified NEW. Also DAJ EXPLAINED rather than opaque: TAUGHT <- a2_imperative [94] as a frozen chunk since A2, and it turns out to be regular once the stem is right. NO META-QUESTIONS IN KONTROLA - b1_imperative_rule's rejected quiz item ('Which verb is deliberately NOT covered by this rule?') is the precedent for what not to write. [WIRED LIVE] FIVE NEW STRINGS (rob, zrob, jedz, nie rob, nie jedz), ONE new mechanism, TWO NAMED DEBTS PAID - both named by b1_imperative_rule in its own LEARNER-FACING text, which was read rather than summarised: '(Daj stays exactly as opaque as it always was - its own dictionary form was never shown to you)' and 'A few common verbs need one extra sound change on top of it - those are for a later unit'. THE daj PAYOFF IS WHY THIS UNIT SITS AT 219: the rule needs a 3sg, and c1_dawac_perf [218] taught dac/da one node back, so da -> vowel-final -> add -j -> Daj! falls out at ZERO new strings. TWO CORRECTIONS TO SEQUENCING.md's imperative_rule summary: idz and chodz were already SHOWN with their dzie->dz change (so that alternation is not new here, which is why jedz is cheap), and patrz is verified NEW so A2's chunk five are Czekaj/Sluchaj/Idz/Chodz/Daj. The o->o shift is taught only where the derivation is fully anchored (robi, zrobi both owned); mow is the contrast case. TWO VERBS DRAFTED AND DROPPED because their 3sg is not owned: pomoz (pomoze NEW - and it would open pomoge/pomozesz's g/z alternation and graze the MOGLBY QUARANTINE) and otworz (otworzy NEW). moc is avoided entirely. Regular imperatives (napisz, podpisz, zapisz) are deliberately NOT taught - the owned rule already generates them, and pisac_family's description of them as stem-alternating is inaccurate. A duplicate Kontrola answer (Jedz / jedz, which the engine's norm() collapses) was caught by the pack's own mirror and item 10 rebuilt on jedzie. Structure ID imperative_stems registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_imperative_stems.json"
     },
     {
       "id": "c1_imperative_more",
