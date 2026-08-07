@@ -4391,18 +4391,19 @@
     {
       "id": "c1_imperative_more",
       "domain": "grammar",
-      "label": "Róbcie! Niech pan…",
-      "label_en": "The rest of the imperative",
+      "label": "Róbcie! Chodźmy!",
+      "label_en": "Commands to a group, and the formal command",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 7, unit 8. Inbox item 15's tail: the PLURAL imperative (robcie, chodzmy - both verified NEW) and the FORMAL niech pan / niech pani (niech verified NEW), which is what Dad will actually hear addressed to him. pan/pani owned since A2.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_imperative_more.json"
     },
     {
       "id": "c1_cond_past",

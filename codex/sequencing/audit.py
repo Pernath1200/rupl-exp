@@ -167,6 +167,8 @@ STRUCTURE_CATALOGUE = {
     "prefix_semantics",
     "dawac_perf",
     "imperative_stems",
+    "imperative_plural",
+    "imperative_niech",
 }
 
 GLUE_LEMMAS = {
