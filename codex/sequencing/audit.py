@@ -161,6 +161,7 @@ STRUCTURE_CATALOGUE = {
     "passive_dynamic",
     "past_gaps",
     "ea_shift",
+    "sec_imperf",
 }
 
 GLUE_LEMMAS = {

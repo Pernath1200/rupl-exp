@@ -4307,17 +4307,18 @@
       "id": "c1_sec_imperf",
       "domain": "grammar",
       "label": "Podpisać · podpisywać",
-      "label_en": "Building the everyday partner · the rule",
+      "label_en": "How Polish builds the everyday partner",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 3. MANDATORY - JAMES-LOCKED Block 6a decision #4: 'the -ywa-/-iwa-/-a- formation rule is NAMED only at C1... C1 spine MUST include that rule-naming unit.' Owned pairs it names the rule over: wyjsc/wychodzic, przyjsc/przychodzic, wyjechac/wyjezdzac, przyjechac/przyjezdzac (b2_motion_imperf), podpisac/podpisywac (b2_pisac_family). UNLOCKS zapisywac, which b2_pisac_family fenced with 'a later run or C1 may pay it'. THE RULE IS A PATTERN WITH NAMED EXCEPTIONS, NEVER FREE DERIVATION - locked decision #1 still stands and every pack in the strand must keep restating a2_aspect's 'learn the pair whole' line.",
+      "note": "[C1 SPINE] Block 7, unit 3. MANDATORY - JAMES-LOCKED B2 Block 6a decision #4: 'the -ywa-/-iwa-/-a- formation rule is NAMED only at C1... C1 spine MUST include that rule-naming unit.' [WIRED LIVE] ONE NEW VERB, FOUR NEW STRINGS: zapisywac + zapisuje/zapisujesz/zapisuje(3sg) - a debt, not a coinage, since b2_pisac_family [172] fenced zapisywac by name with 'a later run or C1 may pay it'. ZERO NEW ENDINGS (present_uje, owned since pracowac). THE RULE IS TAUGHT AS THREE SHAPES, NOT ONE - this pack's correction to its own brief: -ywa- is mechanical; -a- comes WITH a stem change (jech->jezdz), named rather than smuggled; and wyjsc->wychodzic / przyjsc->przychodzic use NO SUFFIX AT ALL, swapping to the chodzic stem. Collapsing the third into 'the rule' would teach something false about the two commonest verbs in the course. Decision #1 still stands and slide 5 says so: a pattern for READING, never a licence to build - a2_aspect's 'learn the pair whole' restated, not retired. -iwa- is named as existing and NO example is shown, because the course owns no pair of that shape. No fabricated non-words: *zapisywam appears nowhere, distractors included. body_pl leak caught by the pack's own token sweep (nieprzewidywalny/regularny/slowa/czytaj/buduj/wzor all NEW) and rewritten - the b2_which_case czasem/bez finding exactly. Structure ID sec_imperf registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_sec_imperf.json"
     },
     {
       "id": "c1_verb_family3",
