@@ -148,6 +148,7 @@ STRUCTURE_CATALOGUE = {
     "siebie_sobie",
     "word_order",
     "virile_alt",
+    "virile_owie",
 }
 
 GLUE_LEMMAS = {

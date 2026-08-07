@@ -4075,12 +4075,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 4, unit 2. Inbox item 8. The -owie masculine plural family: dziadkowie, synowie, szefowie, wujkowie (all verified NEW). b1_virile_nom fenced the family by name. A CLOSED LIST of relationship and rank nouns, which is what makes it learnable as a family rather than as an exception.",
+      "note": "[C1 SPINE] Block 4, unit 2. Inbox item 8. The -owie masculine plural family: dziadkowie, synowie, szefowie, wujkowie (all verified NEW). b1_virile_nom fenced the family by name. A CLOSED LIST of relationship and rank nouns, which is what makes it learnable as a family rather than as an exception. [WIRED LIVE] SIX new strings: dziadkowie, wujkowie, synowie, szefowie, panowie, inzynierowie. Structure ID virile_owie registered in codex/SEQUENCING.md and audit.py before the audit. THE UNIT IS A LIST AND SAYS SO - -owie clusters on kinship and on rank/title, but it is not predictable from the shape of the noun, and szef vs kelner is the discrimination the Kontrola stage is built on. The two stem changes (dziadek, wujek) are ANCHORED not ruled: dziadkiem and wujkiem are TAUGHT <- a2_inst_z [64], so no fleeting-e rule is stated. Pays c1_virile_alt's inzynier hand-off on slide 3. ojcowie and mezowie considered and DROPPED - real members, but ojc-/mez- are stem changes with no owned anchor (ojcem, mezem both NEW); cheap to add later if the kinship set should be complete. dziadku was cut from a distractor slot: R5 reserves the Vocative for c1_vocative_note.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_owie.json"
     },
     {
       "id": "c1_irreg_virile",
