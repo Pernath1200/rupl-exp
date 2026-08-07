@@ -1323,3 +1323,264 @@ reaches shorthand lines too.
   of the run that **must add a row to `data/case-map.json` in its own commit**,
   as must `c1_przez` [205], `c1_od_source` [206] and `c1_gen_verbs` [207].
   `c1_which_case` [235] cannot be built until all four have shipped.
+
+---
+
+## Batch 7 — Block 4 closes, Block 5 opens (3 units)
+
+`c1_suppl_pl` [202], `c1_society` [203] and `c1_na_acc` [204], in
+`path_order` order, one commit each, pushed individually.
+`codex/REPAIR-QUEUE.md` was checked first and is still empty.
+`c1_which_case` [235] is still the only which-case unit outstanding and is
+still blocked — but this run moved it: `c1_na_acc` is the **first of the four
+governor units its table needs**, and its rows are now in `data/case-map.json`.
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_suppl_pl` | 202 | 3 — `oczy`, `uszy`, `ręce` | `suppl_pl` | `1f8d2cf` |
+| `c1_society` | 203 | 12 words + 3 riding forms | — (vocab) | `ecdb904` |
+| `c1_na_acc` | 204 | 3 — `czekam`, `pieszo`, `na piechotę` | `na_acc` | `c75ad54` |
+
+Audit after each: **0 errors**, warns unchanged at 6 throughout (the five
+long-standing `teaches_empty_grammar` review nodes plus `b2_which_case`).
+Both new structure IDs were registered in `codex/SEQUENCING.md` **and**
+`audit.py`'s `STRUCTURE_CATALOGUE` before their audit ran.
+
+### The case-map debt is now being paid on schedule
+
+Batch 2 of the which-case family left a standing instruction that batch 6
+repeated as urgent: **every C1 unit that ships a new governor must add its row
+to `data/case-map.json` in the same commit.** `c1_na_acc` is the first such
+unit and it did — two rows, not one, because the governor has two distinct
+triggers: `na` before an activity or event (*Idę na spacer*) and the
+verb-selected `czekać na` (*Czekam na autobus*). That file had had no row after
+`b2_prosic_o` [165]; it now has one after it.
+
+**One candidate row was refused and is logged rather than decided silently:**
+`mieć wpływ na`. It is a fixed collocation, not a general trigger, and the
+precedent is which-case batch 2's treatment of `za` (`dziękuję za`) and
+`według` — single frozen phrases do not earn a row. `c1_przez` [205],
+`c1_od_source` [206] and `c1_gen_verbs` [207] each still owe theirs.
+
+**The edit was made textually, not by re-serialising the file.** A first
+attempt round-tripped `case-map.json` through `json.dump` and produced a
+190-line diff for a two-row addition, because the file stores one trigger per
+line. It was reverted and the rows inserted by hand. Worth knowing for the
+next three units: that file's formatting is deliberate and a re-dump destroys
+the reviewability of the diff.
+
+### `c1_suppl_pl` — the fork was the obliques, and it was taken conservatively
+
+The spine's brief is four words long (*`oczy`, `uszy`, `ręce`, small*), so the
+real decision was what NOT to include. **The plural obliques are out**: `oczu`,
+`uszu`, `rąk`, `rękach`, `rękami`/`rękoma`, `oczami`/`oczyma`. They are a second
+system — the Genitive plural of *oko* and *ucho* takes an `-u` found nowhere
+else in the course, and `rąk` carries a nasal shift nothing has explained — and
+batch 6's own digest named this unit as the place Block 4 should slow down after
+three dense nodes. Nothing in the unit needs them: **every frame is Nominative
+or Accusative, and the non-virile Acc ≡ Nom fact makes those the same form.**
+
+**No false form is printed, and that is a step more careful than
+`c1_irreg_virile` had to be.** That pack could show `bratom ✗` because *bratom*
+is not a Polish word. Here the forms the learner's own rules predict — `oka`,
+`ucha` — **are real Polish Genitive singulars**, so marking them wrong would
+plant a mis-learning. The slide therefore names the *ending* the rule points at
+("the neuter plural ending", "the k/g ending `-i`") and never writes the string.
+
+**The sharpest fact in the unit was found by `check_new.py`, not by reasoning.**
+The shape the k/g rule predicts for the plural of *ręka* is `ręki` — and `ręki`
+is **TAUGHT ← `a1_gen_ki` [39]** as the Genitive singular. So the prediction is
+not merely wrong; that shape is already spoken for by another job. It is named
+on the slide and used as a quiz distractor for exactly that reason.
+
+**The dual is taught as history, and the slide says so.** These three are the
+surviving dual forms of the three things that come in pairs. For a learner
+AGENTS describes as linguistically inclined that is the best possible hook for
+three otherwise arbitrary words — but the slide states plainly that nothing can
+be derived from it, which keeps it on the right side of R2's discipline.
+
+**`nogi` appears nowhere.** It is the obvious regular counterexample (*noga →
+nogi* follows the k/g rule) and it is **TAUGHT ← `a1_gen_ki` [39] as a Genitive
+singular**. Using it as a plural would have been the homograph trap inside the
+unit that warns about the homograph trap. The counterexample stays in English.
+`myję ręce` was refused for a plainer reason: `myć` is owned only as the
+reflexive `myję się`, so a direct object would have been a new fact.
+
+**One Pisanie blank falls off the teaching point**, logged under the repair
+queue's fallback clause: item 8 blanks `zmęczone`, because the unit has exactly
+three new strings and three singulars, and a fourth noun blank would have
+duplicated an answer within the stage. It still drills the agreement the new
+plural takes.
+
+### `c1_society` — the first C1 vocab pack that had to ADD words
+
+Every other trim instruction in the course has been "the spine listed sixteen,
+keep twelve". This one listed **nine** and said trim to 12, so the pack had to
+find three. The spine's own instruction was *"top up from `b2_abstract`'s note
+before inventing candidates"*; that note was read, and **it had nothing left to
+give** — all four of its logged drops (`korzyść`, `wartość`, `społeczeństwo`,
+`środowisko`) were already among the nine.
+
+So the three additions are the author's and are logged as such: **`rząd`** (the
+government — the one word without which none of the other eleven can be
+discussed), **`prawo`** (the law) and **`klimat`** (the climate; the environment
+half of the register was carrying only `środowisko`). Examined and rejected, all
+verified NEW and now **permanently untaught, since C1 is last**: `państwo`,
+`polityka`, `władza`, `wojna`, `równość`, `bezpieczeństwo`, `natura`, `rozwój`.
+
+**`prawo` is the homograph C1-SPINE O13 predicted, and it was opened rather than
+dodged.** It is TAUGHT ← `leaf_places` [31] but *only* inside `na prawo` /
+`w prawo`, "to the right". The legal sense is a different word wearing the same
+spelling, and it is named out loud on its own item with both senses side by
+side — the `że` / `której` / `dziękuję` treatment. It is listed in
+`teaches_lemmas` even though the string is already in the pool: the one place
+this pack knowingly re-teaches a taught string, because what is taught is a new
+word rather than a new form.
+
+**Four `-ość` feminines give the class away for free.** `wartość`, `korzyść`,
+`wolność` and `sprawiedliwość` join `możliwość`, `wiadomość`, `umiejętność`,
+`przyszłość` and `część`, all owned. Two facts are stated on the items and
+neither is a rule the learner has to apply: **every Polish noun in `-ość` is
+feminine** — the `mysz`/`noc` soft-feminine trap AGENTS names, but with a visible
+ending that gives it away every time — **and none of them changes in the
+Accusative**, so *Ma dużą wartość* moves the adjective and leaves the noun alone.
+
+**The sharpest fence in the pack is one node wide.** `mieć wpływ na
+środowisko`, `wpływ na społeczeństwo` and `Technologia ma wpływ na ludzi` are
+the natural collocations for half these words, and `na` + Accusative was
+**still one unit away** while this pack was being written. It appears nowhere
+here. `c1_na_acc` then shipped in the same run and its Użycie stage says
+*Nauka ma wpływ na społeczeństwo* — so the fence lasted exactly one node and
+the payoff is visible immediately, which is the pool doing its job.
+
+Also fenced: no Genitive, Locative or Dative of any new noun (`b2_abstract`'s
+own fence, held for its own reason — it costs the natural *Nie ma
+sprawiedliwości*, and the `-ości` Genitive belongs to `c1_gen_verbs`); no plural
+of any new noun except `obowiązki`; `rządu` and `rozwoju` are never used, so
+neither the fleeting vowel in `rząd` nor the `ó`/`o` alternation is met.
+`możliwa` was wanted for *Czy sprawiedliwość jest możliwa?* and refused, because
+`c1_evaluation` fenced that form by name one block earlier and one sentence is
+not worth breaking a neighbouring pack's stated scope.
+
+**`obowiązki` is taught whole and no rule is stated.** `obowiązek` is TAUGHT ←
+`b2_work` [138]; its plural drops the fleeting e. `b2_gen_pl_full` refused to
+state a fleeting-e rule and that refusal stands — the item says the e disappears
+when an ending arrives and to learn the plural whole, which is a fact about one
+word rather than a rule to apply.
+
+**`ważne` is the pack's one borrowed form.** `ważny`/`ważna` are TAUGHT ←
+`b2_travel_func`; the neuter and non-virile plural `ważne` was not, and three
+sentences needed it. Teaching another pack's word in a new *form* is not
+re-teaching, and AGENTS' every-form-taught rule wants it tagged — so it is.
+
+### `c1_na_acc` — the anchors all hide the case, which the scoping note missed
+
+C1-SPINE calls this unit *exceptionally well anchored*, and it is right: `na
+spacer` ← `a2_sport` [94], `na czas` ← `b1_journeys` [110] and `na szczęście` ←
+`b1_stories` [123] are three frozen chunks that were already `na` + Accusative.
+But **all three hide the case completely** — `spacer` and `czas` are masculine
+inanimate and `szczęście` is neuter, so not one of them shows an ending. An
+opener built only on those would have asserted a case the learner cannot see.
+
+Slide 2 exists because of that. The visible demonstration runs on a feminine —
+**Idę na kawę, not na kawa** — which is the same `-ę` he has been putting on
+*kawa* since path 9, and it is the only proof available that the case is really
+there.
+
+**The unit's lesson is a decision, not a form**, and that is why the governor
+earns a whole unit rather than a slide: `do` + Genitive points at a **place**,
+`na` + Accusative at an **activity or event**, and English says *to* for both,
+so the English gives nothing. *Idę do sklepu na zakupy* says both in one breath
+and is the pack's best sentence. This is precisely the shape the
+"Który przypadek?" family exists to teach, one unit before that family's own
+C1 member becomes buildable.
+
+**The `na`-places are named rather than hidden.** A handful of plain places take
+`na` anyway, and the conservative move would have been silence. Instead slide 4
+gives two the learner already owns — `na dworzec`, `na rynek` — and says plainly
+that they are learned one at a time and cannot be worked out. That is R2's
+tendency-with-a-named-counterexample discipline applied to a preposition rather
+than to a prefix, and it is the second time in two batches the course has chosen
+to hand the learner an unresolved exception rather than a clean falsehood.
+
+**`na` itself is not taught.** `check_new.py` reports the bare preposition as
+NEW; C1-SPINE documents this as an artifact (it is never a bare lemma, only ever
+inside `na stole` / `na spacer`) and says explicitly not to teach it. It is not
+in `teaches_lemmas`.
+
+**`czekasz` was not added.** `czekam` was, because the first person is what Dad
+needs at a counter and `czekać` had been an infinitive since A2. The second
+person would have been a fourth new string for one frame, so every second-person
+frame in the pack uses a noun subject with the already-taught `czeka`.
+
+### How the packs were verified
+
+The token-level checker from batches 4–6 was rebuilt for this run and calibrated
+against `c1_suppl_pl` before being trusted on the other two, plus a deliberate
+negative test (an `oka` distractor and an untaught word in a Użycie sentence
+were both injected and both caught). Every Polish string on every learner-facing
+surface — slide `title_pl`, `body_pl`, every table cell, `examples`, match rows,
+quiz `choices`/`answer`/`explain`, cloze frames, answers, `accepts`, Użycie
+answers — is tokenised and checked against the position-aware pool for that
+node. It also asserts twelve match rows, one `___` per cloze frame, the ≤3-word
+Pisanie cap, no duplicate answers, prompts or frames within a stage under a
+mirror of the engine's `norm()`, that no Pisanie frame reconstructs a Użycie
+sentence, and that every `uses_lemma` is in the pool and is not also a
+`teaches_lemma`. A parallel checker was written for the vocab pack (gender badge
+present on every item, every sentence `pl` in its own `accepts`, every
+item-level `structure` rolled into `uses_structures`).
+
+Two things it does not see, and which were done by hand: **English prose in
+`body` and `explain` fields** was scanned separately for diacritic-bearing
+tokens, and **the English whitelist for table cells was reviewed word by word**
+rather than accepted — 40 tokens were added this run and every one was checked
+to be English rather than an undiacriticked Polish word.
+
+### For James to smoke — batch 7
+
+1. **The dual on `c1_suppl_pl` slide 3.** It tells Dad *why* `oczy`, `uszy` and
+   `ręce` are odd — they are leftovers of a form Polish used for things that
+   come in twos — and then says the fact cannot be used to build anything. It is
+   the most etymological thing in the course. If it reads as trivia rather than
+   as a hook, the slide deletes cleanly and the unit still works.
+2. **`prawo` taught as "the law" while `na prawo` still means "to the right".**
+   Both senses are on one item card. This is the biggest deliberate homograph
+   the course has opened, and it is opened in a vocab pack rather than a grammar
+   unit, so it gets less airtime than `ze` or `której` did. Worth a look in the
+   hand — if it lands badly, dropping the word costs one of twelve.
+3. **The `na`-places (`na dworzec`, `na rynek`).** The unit gives Dad a clean
+   rule on slide 3 and then tells him on slide 4 that some words break it and
+   there is no way to know which. Batch 6 flagged the same shape in
+   `c1_virile_alt` and it is now a house habit; this is the second instance and
+   the first on a preposition. If two in three nodes is one too many, this is
+   the one to soften.
+4. **`Idę do sklepu na zakupy.`** The whole unit in one sentence. If it lands,
+   that pattern is the model for `c1_which_case`'s C1 table.
+5. **The `-ość` claim in `c1_society`.** *Every Polish noun in `-ość` is
+   feminine, and none of them changes in the Accusative.* Both are true and both
+   are given rather than derived. It is the closest a vocab pack has come to
+   teaching grammar, and it is worth confirming it reads as a convenience rather
+   than as a rule to revise.
+
+### Still open after batch 7
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run. **None of the three packs in this batch adds to it** — every `accepts`
+  holds the exact answer, plus the no-final-stop variant on whole-sentence
+  Użycie items, which is the standing convention and is not a fold.
+- **`wydaje mi się`** — settled by R7, not yet built (`c1_nuance`).
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2, still unfixed.
+- **`mali` / `duzi`**, dropped in batch 3.
+- The **benefactive Dative** and the **reciprocal `sobie`**, both from batch 5.
+- From batch 6: `menedżer`'s contested plural; `ojcowie`/`mężowie`;
+  `przyjaciółmi`/`gośćmi`; `mężczyzna`'s plural obliques.
+- **New this batch:** the plural obliques of `oczy`/`uszy`/`ręce`, refused above
+  and now permanently untaught unless James says otherwise; the eight society
+  words rejected for want of slots (`państwo`, `polityka`, `władza`, `wojna`,
+  `równość`, `bezpieczeństwo`, `natura`, `rozwój`); `czekasz`; whether
+  `mieć wpływ na` deserves a `case-map.json` row after all.
+- Next up: **Block 5 continues** — `c1_przez` [205], `c1_od_source` [206] and
+  `c1_gen_verbs` [207]. **Each of the three still owes a `data/case-map.json`
+  row in its own commit**, and once all three have shipped `c1_which_case` [235]
+  becomes buildable for the first time — though it sits at path 235, so the
+  build track still has to walk Blocks 6 to 9 to reach it in order.
