@@ -4092,12 +4092,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 4, unit 3. Inbox item 8's core: brat->bracia, kolega->koledzy, mezczyzna->mezczyzni, czlowiek->ludzie AS A CLASS rather than four memorised words. ludzie verified TAUGHT [112]; koledzy/bracia/mezczyzni NEW. Also carries their obliques - braciom vs the wrong bratom, which b2_dat_pl set up as a distractor and explicitly fenced. AUTHOR'S CALL, MUST BE LOGGED: whether przyjaciolmi/goscmi (further -mi irregulars) come in here; b2_inst_pl refused them to avoid turning a marked box into a paradigm and that reasoning still applies.",
+      "note": "[C1 SPINE] Block 4, unit 3. Inbox item 8's core: brat->bracia, kolega->koledzy, mezczyzna->mezczyzni, czlowiek->ludzie AS A CLASS rather than four memorised words. ludzie verified TAUGHT [112]; koledzy/bracia/mezczyzni NEW. Also carries their obliques - braciom vs the wrong bratom, which b2_dat_pl set up as a distractor and explicitly fenced. AUTHOR'S CALL, MUST BE LOGGED: whether przyjaciolmi/goscmi (further -mi irregulars) come in here; b2_inst_pl refused them to avoid turning a marked box into a paradigm and that reasoning still applies. [WIRED LIVE] SEVEN new strings: czlowiek, ludzi, bracia, braci, braciom, koledzy, mezczyzni. Structure ID virile_irreg registered in codex/SEQUENCING.md and audit.py before the audit. THE CLASS CLAIM IS PRECISE: their plural runs on a stem of its own rather than on a softened singular stem. THE ANCHOR WAS VERIFIED - the learner has been producing these irregular plural stems for a whole level (bracmi/ludzmi <- b2_inst_pl [156], ludziom/kolegom <- b2_dat_pl [157], kolegow <- b2_num_virile [160]); only the Nominative was missing. SECOND FACT: for kolega and mezczyzna the oddity is ONLY the Nominative plural, for brat and czlowiek the new stem carries through the whole plural. bratom is shown ONCE, marked with a cross on a slide, and appears in NO choice list. AUTHOR'S CALL, LOGGED: przyjaciolmi/goscmi are OUT - b2_inst_pl's reasoning still applies and they are -mi Instrumentals, a different topic from the virile Nominative plural. mezczyzn and the rest of mezczyzna's plural obliques are OUT too - regular, and needed by nothing here. czlowiek is taught because without it ludzie has no singular.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_irreg_virile.json"
     },
     {
       "id": "c1_suppl_pl",

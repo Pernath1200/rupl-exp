@@ -149,6 +149,7 @@ STRUCTURE_CATALOGUE = {
     "word_order",
     "virile_alt",
     "virile_owie",
+    "virile_irreg",
 }
 
 GLUE_LEMMAS = {
