@@ -2077,3 +2077,262 @@ quarantine against R6** — the past is fine, the conditional stays whole),
 
 `data/case-map.json` is owed nothing until `c1_quantifiers` [229]; `c1_which_case`
 [235] and `c1_case_gym` [236] remain the tail of the level.
+
+
+---
+
+## Batch 10 — `c1_zostac`, `c1_past_gaps`, `c1_ea_shift`
+
+Block 6 closes and Block 7 opens. `codex/REPAIR-QUEUE.md` was checked first and
+is still empty, so the whole run went to the C1 build track. Three units, one
+commit each, pushed individually.
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_zostac` | 211 | 7 | `passive_dynamic` | `21e71a4` |
+| `c1_past_gaps` | 212 | 20 | `past_gaps` | `ef66cda` |
+| `c1_ea_shift` | 213 | **0** | `ea_shift` | `ae57a84` |
+
+Audit after each: **0 errors**. Warns stayed at **6** across all three and the
+warn set is unchanged — `c1_ea_shift` has empty `teaches_lemmas` but a non-empty
+`teaches_structures`, and the `teaches_empty_grammar` warn fires only when both
+are empty, which is why it did not add a seventh (checked, not assumed).
+
+### How the units were verified
+
+Same token-level checker as the which-case batches, re-run per unit against a
+freshly generated position-aware pool (`make_pool.py --before <node>`): every
+Polish string the learner is shown or asked to produce — match rows, quiz
+prompts and choices, cloze frames and answers, Użycie answers, slide `title_pl`
+/ `body_pl` / `examples` / table cells — split into words and checked against
+that node's pool. Plus assertions: twelve match rows, one `___` per cloze frame,
+answer present in `accepts`, no duplicate answer or prompt inside any stage, no
+Pisanie frame reconstructing a Użycie sentence, every `uses_structure` and
+`uses_lemma` genuinely in the pool, and every demanded word declared somewhere.
+
+**It earned its keep three times, on things `audit.py` structurally cannot see:**
+
+1. **`biura` (`c1_zostac`).** Wanted as a second plural subject; it is TAUGHT ←
+   `a1_prep_review_2` [48] as the **Genitive singular** inside *do biura* / *z
+   biura*, and has never been a nominative plural anywhere in the course.
+   `banki` ← `plural_nom` [56] used instead.
+2. **`siostry` (`c1_ea_shift`).** Drafted as the non-virile plural subject for
+   *chciały*; TAUGHT ← `c1_od_source` [206] as the **Genitive singular**, inside
+   *od siostry* / *starszy od siostry*. This is the AGENTS homograph table's
+   *córki / wina / gazety* row exactly, and it is the second time in three
+   batches that a `-y` feminine has been reached for as a plural and turned out
+   to be a genitive. `dzieci` ← `a2_family2` [58] used instead.
+3. **Nine untaught ordinary words on Polish shorthand lines**, across
+   `c1_zostac` and `c1_past_gaps`: *słowa, bez, rodzajem, Rzeczy, tym,
+   rozdziale, poziomu, całość, proces*. The AGENTS convention admits
+   **metalanguage** on `body_pl`, not new lexis — the same finding
+   `b2_which_case`'s build made with *czasem* and *bez*, and *bez* turned up
+   again here, so it is worth naming as a recurring authoring reflex rather than
+   a one-off. All nine rewritten. Two level codes (*A2*, *B1*) were also removed
+   from `body_pl` lines, though level references in the English body prose were
+   left alone after checking: 92 live packs say *since A2* and it is house style.
+
+The checker was relaxed once, deliberately: ending fragments written as house
+style (`-ć`, `-ł-`, `-eć`) and single letters naming a sound (`ó`) are not words
+and are no longer flagged. `c1_part_adv` already ships *Forma „oni” → -ąc.*
+
+### `c1_zostac` — the pair b2_passive wrote the brief for
+
+`b2_passive`'s closing slide says, in terms: *"Polish has a second passive for
+the action itself, the moment of the closing, and it is built with a different
+verb. That verb is not taught in this course yet."* This is that verb, and slide
+1 quotes the promise back rather than re-teaching the state passive.
+
+**Not one new ending.** The four past forms are `past_rest`'s own `-ł/-ła/-ło/-ły`
+on a new stem, and *zostanie*/*zostaną* are `perf_future` doing exactly what it
+does for *kupię* — `zostać` is perfective, so its present-shaped forms are
+future, which is the rule rather than an exception.
+
+**The agent phrase is an upgrade, not a new fact**, and that is the whole reason
+the unit sits six nodes after `c1_przez` [205]: that pack's slide 6 already
+shipped *List jest napisany przez tatę* on the state passive. Putting the same
+phrase on *został* is what finally makes it say what English *by* says.
+
+**The plural is in, and it cost two strings rather than a paradigm.**
+`b2_passive` was singular-only and logged why (*zrobione* is the neuter singular
+there and also the non-virile plural); `c1_part_attrib` [208] named that second
+job one block later, so the fence is spent and only *zostały*/*zostaną* were
+new.
+
+**Three fences, all named rather than silent.** No virile plural anywhere
+(`zostali`, `zrobieni`, `zamknięci`, `otwarci`) — a dynamic passive of a group
+of men is not a sentence this learner needs, and `c1_part_attrib` deliberately
+left `zrobieni` unusable. No 1st or 2nd person, with the limit slide saying in
+English that the construction is about things. And **`zostać` also means *to
+stay***, which is named in English only, with no Polish form and nothing to
+produce — not the AGENTS homograph trap, since the string is new here, but the
+same class of ambush.
+
+**One deliberate near-duplicate, logged so it does not read as padding.**
+Kontrola items 1 and 2 share the frame *Sklep ___ zamknięty*, answered *został*
+for the event and *jest* for the state. It is the minimal pair the unit exists
+for and the prompts differ completely.
+
+**A distractor was changed for a tooling reason worth recording.** The obvious
+governor item was *ugotowany ___ mamę* choosing between `przez` / `do` / `od` /
+`z`. Bare `do` and bare `z` are **not pool lemmas** — they live only inside
+multi-word lemmas — so three of four choices would have been author-whitelisted
+function words. The item asks for the **case** after `przez` instead
+(*mamę/mama/mamie/mamą*, all four verified taught), which is the thing that can
+actually go wrong.
+
+### `c1_past_gaps` — the R6 gate, checked rather than assumed
+
+C1-SPINE **O13** says to check `mógł` against James's live ruling before
+building. **R6** (2026-08-07, LOCKED) reads: *"Past is fine; the conditional
+stays whole… `mógłby` remains a memorised chunk — do not derive the conditional
+paradigm."* So the past ships, and **no `-by-` form is built, derived or
+demanded anywhere in the pack** — verified by assertion over every learner-facing
+surface, not by eye. `mógłby` is named once, in English, on the limit slide, as
+the frozen `b1_polite` phrase this unit does not take apart.
+
+**Twenty new strings — five verbs by four cells** (1sg m/f, 3sg m/f), with the
+`c1_przez` discipline held exactly: no 2sg, no plural, no neuter anywhere,
+distractors included.
+
+**Twelve of the twenty are pure rule application and the pack says so.**
+`jechać`, `pomagać` and `chodzić` are completely regular, so `past_ac` [52] and
+`past_rest` [53] do all the work; the table anchors on *czytać→czytałem* and
+*robić→robiłem*, forms the learner has produced for a hundred and fifty nodes.
+The headline is therefore not *here is something hard* but *here is something
+you could have built yourself and were never given the chance to*.
+
+**The exception is one cell, not two verbs.** `móc` and `pomóc` take the `ó` in
+exactly the he-form (*mógł*, *pomógł*) and a plain `o` everywhere else, which is
+why they share a slide instead of getting one each. The anchor is owned:
+`b1_past_isc` [108] already taught *szedł* against *szła*.
+
+**`chodziłem` is the real payoff.** `a2_chodzic` [72] taught the habitual walking
+verb against *iść* for one journey, and `b1_past_isc` then gave the past of the
+one-journey verb **only** — so *I walked to the shop yesterday* was sayable and
+*I used to walk to school* was not. That contrast is slide 3 and it costs
+nothing, both halves having been owned since A2.
+
+**Two drops, both permanent because C1 is last, both logged:**
+
+- **Bare `móc` is verified NEW and was not taught.** The course owns *mogę,
+  możesz, może, można, mógłby* and has never had the dictionary form. It would
+  have cost one string; R6 is a narrow permission for the *past*, every sentence
+  in the pack uses a past form, and adding the infinitive of the verb under
+  `b1_polite`'s MÓGŁBY QUARANTINE buys nothing. The verb is named on slides by
+  its owned 1sg — *mogę → mógł* — which is `c1_part_adv`'s table idiom
+  (*robią → robiąc*).
+- **`wychodziłem` was dropped.** C1-SPINE names it beside `chodziłem`. It is the
+  identical operation with an owned prefix, but it would have put a sixth verb
+  and four more strings into a pack already carrying twenty, and it rides
+  `b2_motion_prefixes2`'s mirror-table idiom rather than this unit's rule. **If
+  James wants it, it is four strings on the `chodziłem` row and nothing else
+  changes.**
+
+**Coverage, stated honestly.** Dopasuj carries 12 of the 20 — the most a
+twelve-row board holds — chosen to put every verb and both `ó` cells on screen.
+The other eight are produced in Pisanie, and *pomogła* lives only in Użycie. All
+twenty appear in at least one stage, checked by assertion.
+
+**Pisanie is twelve single forms typed whole**, not cloze, and that is the
+correct shape rather than a dodge: AGENTS names *a single form for conjugation*
+as the minimal pattern unit, so a one-word answer is a pattern unit at any level
+and nothing here is composed. This is `c1_przez`'s shape one block later, and it
+makes Pisanie and Użycie disjoint by construction rather than by inspection.
+
+### `c1_ea_shift` — a debt this catalogue has been carrying since A2
+
+`SEQUENCING.md`'s own `past_rest` [53] entry reads: *"plus whole-form
+miałem/chciałem (e→a shift **deliberately unexplained until B1**)"*. B1 never
+explained it. This unit pays it four levels late.
+
+**`teaches_lemmas` is empty and not one new form is taught or demanded** — the
+`b2_passive` / `c1_adj_pl_loc` / `b1_two_futures` convention. Every string in
+every stage is verified TAUGHT.
+
+**The reversal is the point, and it costs nothing.** `-eć` verbs put `a` where
+the `e` was once the past `-ł` arrives — but before `-li`, the group-with-a-man
+form, the `e` comes back: *chciał* against *chcieli*. That is the only place the
+learner can go wrong by applying the rule too eagerly, and **both plurals of
+`chcieć` have been owned since `b1_conditional_pl` [116]**, so the rule can be
+stated completely without a single new string.
+
+**Two pairs were available and neither was taken, for different reasons.**
+*mieli*/*miały* are verified NEW and unclaimed by any C1 unit — two strings, and
+they would have shown the reversal on a second verb; left out because the unit's
+whole selling point is that it teaches nothing new, and *chcieli*/*chciały*
+already demonstrate the fact completely. *musieli*/*musiały* are **`c1_modal_pl`
+[223]'s own material by name in C1-SPINE Block 7**, so taking them here would
+have stolen a later unit's teaching point and taught the same forms twice.
+Neither pair appears anywhere, distractors included.
+
+**Kontrola is twelve form choices and no meta-question**, which matters more in
+this genre than in most: a unit about a pattern invites *"which group does this
+verb belong to?"*, and AGENTS bans exactly that. It also means **no `*miel-` or
+`*miali` shape appears anywhere** — that being precisely the word a mis-applied
+rule produces, and precisely what **O12** forbids putting on screen. The only
+genuine discrimination the pattern permits is singular-and-non-virile against
+virile, carried by items 7 and 8 on the one verb that owns both.
+
+**One correction to the previous unit, made in this unit's commit.**
+`c1_past_gaps`' note claimed *miałem/chciałem/musiałem are used freely here*.
+They are not used in that pack at all, and holding them out is exactly what lets
+`c1_ea_shift` open on them cold. The note now says so.
+
+### Judgment calls and open forks, this batch
+
+1. **`wychodziłem` (`c1_past_gaps`)** — dropped, argued above, four strings from
+   James to put it in. Permanent otherwise.
+2. **Bare `móc` (`c1_past_gaps`)** — dropped, argued above. One string, and it
+   would mean the course ends with a modal whose dictionary form the learner has
+   never seen.
+3. **`mieli`/`miały` (`c1_ea_shift`)** — dropped to protect the unit's
+   zero-new-forms claim. Two strings, no knock-on effects.
+4. **`c1_zostac`'s Kontrola items 1 and 2 share a frame** on purpose. Logged
+   rather than quietly shipped or quietly avoided.
+5. **`stan` and `zdarzenie` on `c1_zostac`'s `body_pl` lines** were kept as
+   metalanguage rather than rewritten. They are the standard Polish terms for
+   exactly this contrast and `body_pl` is the one place the convention admits
+   metalanguage — but they are closer to ordinary lexis than *mianownik* is, and
+   it is the one place in the batch where that line was drawn by judgment rather
+   than by rule.
+
+### For James to smoke
+
+1. **The *got closed* glosses in `c1_zostac`.** The whole unit turns on English
+   being ambiguous where Polish is not, so the agentless past forms are glossed
+   *the shop got closed* rather than *was closed*, and slide 1 says why. If
+   *got* reads as too colloquial in the hand, the alternative is a parenthetical
+   on every gloss, which is uglier.
+2. **`c1_past_gaps` is the largest single-unit form load in C1** — twenty
+   strings. Twelve of them are a rule you have had since A2 applied to verbs you
+   use daily, which is the argument for it, but it is worth confirming the intro
+   lands as *this is easy and overdue* rather than as a wall.
+3. **The `mógłby` paragraph on `c1_past_gaps`' limit slide.** It names a phrase
+   you have been saying since B1 and tells you **not** to take it apart, one
+   slide after teaching *mógł*. That is R6 executed literally. If it reads as
+   confusing rather than as a guard rail, cutting the paragraph entirely is the
+   conservative fix — the fence holds either way, since nothing in the pack
+   produces a conditional.
+4. **`c1_ea_shift` teaches nothing new at all.** It is the first C1 unit of which
+   that is true. It should feel like a light unit that explains something you
+   have quietly wondered about; if it feels like a unit that does nothing, it is
+   the first item on C1-SPINE **O1**'s trim list and folds into `c1_past_gaps`.
+5. **Two `-y` feminines caught as genitives in three batches** (`siostry` here,
+   the same class as `b2_which_case`'s finds). Nothing to smoke — but it is the
+   most reliable authoring trap left in the course, and worth knowing it is still
+   biting.
+
+### Next run
+
+`c1_sec_imperf` [214] opens the next batch and is **MANDATORY** — James-locked
+Block 6a decision #4, the `-ywa-`/`-iwa-`/`-a-` rule-naming unit, stated as a
+pattern with named exceptions and never as free derivation. Then
+`c1_verb_family3` [215] (the `płacić` family) and `c1_verb_family4` [216], whose
+root is the author's pick and must be logged with its alternative.
+`c1_prefix_semantics` [217] is R1/R2's own unit and sits after both families.
+
+`data/case-map.json` is owed nothing until `c1_quantifiers` [229] — no unit in
+this batch shipped a case governor. `c1_which_case` [235] and `c1_case_gym` [236]
+remain the tail of the level, and `c1_vocative_note` [237] sits after the gym per
+**R5**.
