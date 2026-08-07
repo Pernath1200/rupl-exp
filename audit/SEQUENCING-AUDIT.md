@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 199 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 200 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -220,4 +220,5 @@ _None._
 | 205 | `c1_przez` | `przez_acc` | 18 | `adj_acc`, `byc_present`, `existential_jest`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `motion_prefixed2`, `na_acc`, `negation`, `numbers_gen`, `participle_pass`, `passive`, `past_ac`, `past_byc`, `past_isc`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `przez_acc`, `ten_ta_to` |
 | 206 | `c1_od_source` | `od_source` | 6 | `byc_adj`, `byc_present`, `comparative`, `dative_sg`, `dawac_family`, `existential_jest`, `gen_endings`, `miec_acc`, `miec_present`, `negation`, `od_source`, `ordinals_time`, `prep_do_gen`, `prep_place`, `prep_z_gen`, `present`, `present_am`, `superlative`, `virile_owie` |
 | 207 | `c1_gen_verbs` | `gen_verbs` | 5 | `adj_gen`, `byc_adj`, `byc_present`, `existential_jest`, `gen_endings`, `gen_verbs`, `miec_acc`, `miec_present`, `na_acc`, `neg_gen`, `negation`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `question`, `sie_reflexive`, `verbal_nouns` |
+| 208 | `c1_part_attrib` | `part_attrib` | 10 | `adj_acc`, `adj_gen`, `adj_loc`, `adj_pl_gen`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `chodzic`, `conjunctions`, `existential_jest`, `gen_endings`, `gen_pl`, `loc_pl`, `miec_acc`, `miec_present`, `neg_gen`, `part_attrib`, `participle_pass`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_e_isz`, `present_uje`, `to_jest`, `zgoda` |
 

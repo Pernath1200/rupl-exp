@@ -4210,12 +4210,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 6, unit 1 (B2-SPINE O4). The passive participle ATTRIBUTIVE and DECLINED (w zamknietym sklepie) PLUS THE PLURAL (zamknieci, otwarci, zrobieni - all verified NEW), which b2_participle_pass fenced as 'a homograph inside the paradigm rather than a scope choice'. ONE IDEA, TWO CONSEQUENCES: the participle is a full adjective, and Block 2 has just taught every plural adjective ending it needs. Sits after Block 2 for exactly that reason.",
+      "note": "[C1 SPINE] Block 6, unit 1 (B2-SPINE O4). The passive participle ATTRIBUTIVE and DECLINED (w zamknietym sklepie) PLUS THE PLURAL (zamknieci, otwarci, zrobieni - all verified NEW), which b2_participle_pass fenced as 'a homograph inside the paradigm rather than a scope choice'. ONE IDEA, TWO CONSEQUENCES: the participle is a full adjective, and Block 2 has just taught every plural adjective ending it needs. Sits after Block 2 for exactly that reason. [WIRED LIVE] TEN new strings, NOT ONE NEW ENDING: zamknietym, zamknietego, zamknietej, zamknietych, otwartym, otwartego, otwartej, otwartych, ugotowana, zrobieni. The plural costs ZERO new strings - zamkniete/otwarte/zrobione/napisane/ugotowane/zaplacone were taught by b2_participle_pass as NEUTER SINGULARS and are also the non-virile plural, so slide 3 names a second job on owned strings (adj_pl_loc / ktory_plural convention). The VIRILE plural is named on one slide and demanded NOWHERE: only zrobieni is shown, and the slide says why - these participles describe things, and things are never a group of men. The spine's zamknieci and otwarci are NOT built (no sentence this learner would say), the c1_adj_pl_virile mali/duzi precedent. zapisani drafted and cut - it would cost a new lexeme in a unit whose claim is that it costs no new endings; James's call. No Instrumental or Dative attributive participle because no taught noun supports one (kawa has no taught Instrumental). Structure ID part_attrib registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_part_attrib.json"
     },
     {
       "id": "c1_part_active",
