@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 181 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 182 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -198,4 +198,5 @@ _None._
 | 186 | `c1_adj_pl_virile` | `adj_pl_virile` | 4 | `adj_acc`, `adj_gen`, `adj_pl_gen`, `adj_pl_virile`, `byc_adj`, `byc_present`, `comparative`, `conjunctions`, `gen_pl_full`, `miec_acc`, `miec_present`, `num_virile`, `plural_nom`, `present`, `ten_ta_to`, `virile_nom`, `virile_reco`, `zgoda` |
 | 187 | `c1_adj_pl_gym` | — | 0 | `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `conjunctions`, `dat_pl`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `gen_pl_full`, `inst_pl`, `inst_z`, `loc_pl`, `miec_acc`, `motion_chunk`, `neg_gen`, `negation`, `o_loc`, `plural_nom`, `prep_w_loc`, `present`, `ten_ta_to`, `virile_reco`, `zgoda` |
 | 188 | `c1_evaluation` | — | 20 | `adj_pl_gen`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `conjunctions`, `indirect_q`, `jesli`, `neg_gen`, `negation`, `past_byc`, `perf_future`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `question_cases`, `questions2`, `reported`, `ten_ta_to`, `to_jest`, `wiedziec`, `ze_clauses`, `zgoda` |
+| 189 | `c1_ktory_plural` | `ktory_plural` | 4 | `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `dat_pl`, `dative_sg`, `inst_z`, `ktory_cases`, `ktory_full`, `ktory_plural`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `o_loc`, `past_ac`, `past_rest`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `questions2`, `to_jest`, `virile_nom`, `virile_reco` |
 

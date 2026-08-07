@@ -3952,12 +3952,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 3, unit 1. Plural relatives ktorzy/ktorych/ktorymi/plural ktorym (all NEW) + KTOREMU, the Dative singular relative. b2_ktory_full fenced every one and logged why: 'the relative declines like an adjective, so shipping plural relatives here would breach O3 by the back door.' Block 2 has just removed that objection, which is why this sits immediately after it and not inside B2.",
+      "note": "C1 Block 3, unit 1 (C1-SPINE) - the plural relative, plus the Dative singular któremu. b2_ktory_full fenced every plural form of który and logged why: 'the relative declines like an adjective, so shipping plural relatives here would breach O3 by the back door'. Block 2 closed the plural adjective four nodes ago, so the debt is paid immediately. Four new strings - którzy, których, którymi, któremu - and two new JOBS on owned strings, deliberately not re-taught on the adj_pl_loc/adj_pl_dat convention: którym (singular Locative and Instrumental since b2_ktory_full) doing the Dative plural, and które (the neuter singular relative since b1_ktory_cases) doing the non-virile Nominative and Accusative plural. Both named out loud on their slides. The unit is ONE idea, not six forms: który takes the adjective's endings, and the learner produced every one of them during Block 2. których gets its own slide because it does three jobs, exactly as dobrych does - Genitive under negation, Locative after o/w, and the virile Accusative, the plural echo of Znam brata. The sharpest discrimination is NUMBER, not case, which is why któremu lands here: student, któremu pomagam against dzieci, którym pomagam. The resulting collision is named - którym now covers singular Locative, singular Instrumental and plural Dative - and the resolution is the antecedent, since the relative sits right beside the noun it points back at. Lexical limit logged: pomagać is the only Dative-governing verb whose form is owned, so it carries both Dative items in every stage. Homograph discipline on antecedents: książki and miasta are both taught ONLY as Genitive singulars and appear nowhere as plurals.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_ktory_plural.json"
     },
     {
       "id": "c1_pron_12_prep",
