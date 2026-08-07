@@ -174,6 +174,7 @@ STRUCTURE_CATALOGUE = {
     "modal_pl",
     "powinien_byl",
     "stac_sie",
+    "time_minutes",
 }
 
 GLUE_LEMMAS = {

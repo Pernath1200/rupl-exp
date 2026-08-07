@@ -1,0 +1,864 @@
+{
+  "id": "c1_time_minutes",
+  "title": "Wpół do trzeciej",
+  "title_en": "Minutes past and to the hour",
+  "level": "C1",
+  "tree_node": "c1_time_minutes",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 8 unit 1. Pays a2_ordinals_time's TWO fences in one unit: (1) its largest, quoted in its own note - 'wpol do, za pietnascie, kwadrans po, any minutes-past-the-hour, any half-past or quarter form'; (2) its second, the feminine Nominative hour (Jest trzecia / Jest godzina trzecia), which it called 'a THIRD inflected set' and deferred under load-splitting. ONE IDEA HOLDS THE UNIT TOGETHER: after half past, Polish stops counting up from the hour gone and starts counting down to the hour coming. That is why wpol do czwartej is 3:30 and not 4:30, and it is the single fact the learner most needs. LOAD: the only genuinely new inflected set is the feminine Nominative ordinal (trzeci -> trzecia), which is the A1 zgoda rule (dobry -> dobra) applied to twelve words the learner already owns - fully regular, no exceptions, derivable rather than memorised. Everything after o / po / do / od is the -ej form a2_ordinals_time already taught WHOLE and c1_od_source already used in a Genitive job (od piatej do siodmej) - so no clock word changes shape anywhere in this unit. HOMOGRAPH / CORRECTION TO THE SPINE: C1-SPINE O13 and the batch-14 digest both say 'za is TAUGHT in the thanking job only (b1_polite)'. THAT IS WRONG and it was checked, not assumed: b1_plans [104] teaches 'za tydzien' and states the rule in its own explain - 'za + a stretch of time means that far into the future'. So za piętnaście czwarta is NOT a new job at all, it is b1_plans' own rule applied to minutes, and the unit anchors it there. The two jobs that DO need naming side by side are dziekuje za (thanks FOR, b1_polite) and za + time (that far ahead, b1_plans) - slide 4 names both. NO po + LOCATIVE GOVERNOR IS OPENED: po appears only in front of the closed set of twelve clock words, taught whole, and the unit states no case rule about it - so no case-map.json row was added, following the b2_which_case precedent that refused rows for za (b1_polite) and wedlug (b2_discussion_func) on exactly that ground. Same for za. Both remain James's call; logged in WHICH-CASE-DIGEST and C1-DIGEST. RECOGNITION-ONLY LINE, no items: slide 5 names the digital reading (trzecia dwadziescia) in one sentence, because the learner will hear it constantly and it costs nothing new after slide 1 - it is never drilled and never demanded. NOT TAUGHT, deliberately: minutes above twenty as single words (dwadziescia piec is compositional and untaught as a unit), the 24-hour clock, w nocy (nocy is NEW), po poludniu (still not in pool), and 'o' in front of a za-phrase - slide 5 says plainly that za takes no o, which is the standard rule.",
+  "focus_structures": [
+    "time_minutes"
+  ],
+  "teaches_structures": [
+    "time_minutes"
+  ],
+  "teaches_lemmas": [
+    "pierwsza",
+    "druga",
+    "trzecia",
+    "czwarta",
+    "piąta",
+    "szósta",
+    "siódma",
+    "ósma",
+    "dziewiąta",
+    "dziesiąta",
+    "jedenasta",
+    "dwunasta",
+    "wpół",
+    "po",
+    "wpół do",
+    "pięć po trzeciej",
+    "kwadrans po trzeciej",
+    "wpół do czwartej",
+    "za piętnaście czwarta"
+  ],
+  "uses_structures": [
+    "time_minutes",
+    "ordinals_time",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_e_esz",
+    "prep_do_gen",
+    "chodzic",
+    "motion_prefixed",
+    "na_acc",
+    "od_source",
+    "question",
+    "social_chunk",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "Saying the hour back",
+      "title_pl": "Która godzina? — Jest trzecia.",
+      "body": "Since A2 you have been able to ask Która godzina? and to say when something happens — o trzeciej. The one thing you could not do was answer.\n\nThe answer uses a third form of the ordinal, and you can already build it. Ordinals are adjectives, and godzina is feminine — so the hour is the feminine form of the ordinal, made exactly the way dobry becomes dobra. Trzeci → trzecia. There is not a single exception in the twelve.\n\nPolish then leaves godzina out and says the ordinal on its own: Jest trzecia. The full Jest godzina trzecia is also correct and sounds a shade more formal.",
+      "body_pl": "Jest pierwsza. Jest trzecia. Jest godzina siódma.",
+      "table": {
+        "headers": [
+          "Hour",
+          "Ordinal — already yours",
+          "The hour — Jest…",
+          "English"
+        ],
+        "rows": [
+          [
+            "1",
+            "pierwszy",
+            "pierwsza",
+            "It's one."
+          ],
+          [
+            "2",
+            "drugi",
+            "druga",
+            "It's two."
+          ],
+          [
+            "3",
+            "trzeci",
+            "trzecia",
+            "It's three."
+          ],
+          [
+            "4",
+            "czwarty",
+            "czwarta",
+            "It's four."
+          ],
+          [
+            "5",
+            "piąty",
+            "piąta",
+            "It's five."
+          ],
+          [
+            "6",
+            "szósty",
+            "szósta",
+            "It's six."
+          ],
+          [
+            "7",
+            "siódmy",
+            "siódma",
+            "It's seven."
+          ],
+          [
+            "8",
+            "ósmy",
+            "ósma",
+            "It's eight."
+          ],
+          [
+            "9",
+            "dziewiąty",
+            "dziewiąta",
+            "It's nine."
+          ],
+          [
+            "10",
+            "dziesiąty",
+            "dziesiąta",
+            "It's ten."
+          ],
+          [
+            "11",
+            "jedenasty",
+            "jedenasta",
+            "It's eleven."
+          ],
+          [
+            "12",
+            "dwunasty",
+            "dwunasta",
+            "It's twelve."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "— What time is it? — It's five.",
+          "pl": "— Która godzina? — Jest piąta."
+        },
+        {
+          "en": "It's twelve. (midday or midnight)",
+          "pl": "Jest dwunasta."
+        }
+      ]
+    },
+    {
+      "title": "The first half of the hour: counting up with po",
+      "title_pl": "Pięć po trzeciej · kwadrans po trzeciej",
+      "body": "For the first half of the hour Polish counts up from the hour that has just gone. The number comes first, then po, then the hour.\n\nAnd the hour after po is the -ej form you have had since A2 — trzeciej, the same word as in o trzeciej. It does not change. You have already used it after two other prepositions: Sklep jest otwarty od piątej do siódmej. Po behaves the same way.\n\nKwadrans — quarter — has been sitting in your vocabulary since A1 with nothing to do. This is what it is for. Piętnaście po trzeciej is equally correct; kwadrans is the more idiomatic of the two.",
+      "body_pl": "Pięć po trzeciej. Dziesięć po trzeciej. Kwadrans po trzeciej. Dwadzieścia po trzeciej.",
+      "table": {
+        "headers": [
+          "Clock",
+          "Polish",
+          "Literally",
+          "English"
+        ],
+        "rows": [
+          [
+            "3:05",
+            "pięć po trzeciej",
+            "five after the third",
+            "five past three"
+          ],
+          [
+            "3:10",
+            "dziesięć po trzeciej",
+            "ten after the third",
+            "ten past three"
+          ],
+          [
+            "3:15",
+            "kwadrans po trzeciej",
+            "a quarter after the third",
+            "quarter past three"
+          ],
+          [
+            "3:20",
+            "dwadzieścia po trzeciej",
+            "twenty after the third",
+            "twenty past three"
+          ],
+          [
+            "8:10",
+            "dziesięć po ósmej",
+            "ten after the eighth",
+            "ten past eight"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "It's a quarter past seven.",
+          "pl": "Jest kwadrans po siódmej."
+        },
+        {
+          "en": "The match is at ten past eight.",
+          "pl": "Mecz jest o dziesięć po ósmej."
+        }
+      ]
+    },
+    {
+      "title": "Half past is half TO the next hour",
+      "title_pl": "Wpół do czwartej = 3:30",
+      "body": "This is the one that catches every English speaker, and it is worth slowing down for.\n\nAt half past, Polish stops counting up and turns to face the hour that is coming. Wpół do czwartej is half of the way to four — which is half past THREE. It is not half past four.\n\nEvery piece of it is already yours. Pół is the half you learned in A1; wpół is that word doing this one job. Do is the same do as in idę do sklepu. And the hour after it is the -ej form again, unchanged: czwartej.\n\nSo the rule is: take the hour you are heading for, and put wpół do in front of it.",
+      "body_pl": "Wpół do trzeciej = 2:30. Wpół do czwartej = 3:30. Wpół do ósmej = 7:30.",
+      "table": {
+        "headers": [
+          "Clock",
+          "Polish",
+          "Literally",
+          "English"
+        ],
+        "rows": [
+          [
+            "2:30",
+            "wpół do trzeciej",
+            "half to the third",
+            "half past two"
+          ],
+          [
+            "3:30",
+            "wpół do czwartej",
+            "half to the fourth",
+            "half past three"
+          ],
+          [
+            "7:30",
+            "wpół do ósmej",
+            "half to the eighth",
+            "half past seven"
+          ],
+          [
+            "11:30",
+            "wpół do dwunastej",
+            "half to the twelfth",
+            "half past eleven"
+          ],
+          [
+            "12:30",
+            "wpół do pierwszej",
+            "half to the first",
+            "half past twelve"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "It's half past three.",
+          "pl": "Jest wpół do czwartej."
+        },
+        {
+          "en": "The train is at half past seven.",
+          "pl": "Pociąg jest o wpół do ósmej."
+        }
+      ]
+    },
+    {
+      "title": "The second half of the hour: counting down with za",
+      "title_pl": "Za piętnaście czwarta · za pięć czwarta",
+      "body": "Past the half hour Polish keeps facing forward and says how far it still is to go: za piętnaście czwarta — fifteen from now it will be four.\n\nThat za is not a new word and not a new job. It is the one from b1_plans: za tydzień, a week from now. Za + a stretch of time = that far into the future. Minutes are simply a shorter stretch than a week.\n\nOne thing does change here, and it is why the first slide came first. After za the hour is the NAMING form — czwarta, not czwartej. Nothing stands in front of the hour to bend it, so it stays as it is in Jest czwarta.\n\nZa has one other job you already own, and the two do not overlap: dziękuję za kawę is thanks FOR something. Time or thanks — the phrase around it tells you which.",
+      "body_pl": "Za dwadzieścia czwarta. Za piętnaście czwarta. Za pięć czwarta.",
+      "table": {
+        "headers": [
+          "Clock",
+          "Polish",
+          "Literally",
+          "English"
+        ],
+        "rows": [
+          [
+            "3:40",
+            "za dwadzieścia czwarta",
+            "in twenty it's four",
+            "twenty to four"
+          ],
+          [
+            "3:45",
+            "za piętnaście czwarta",
+            "in fifteen it's four",
+            "quarter to four"
+          ],
+          [
+            "3:50",
+            "za dziesięć czwarta",
+            "in ten it's four",
+            "ten to four"
+          ],
+          [
+            "3:55",
+            "za pięć czwarta",
+            "in five it's four",
+            "five to four"
+          ],
+          [
+            "8:55",
+            "za pięć dziewiąta",
+            "in five it's nine",
+            "five to nine"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "It's a quarter to four.",
+          "pl": "Jest za piętnaście czwarta."
+        },
+        {
+          "en": "Dad has a meeting at a quarter to four.",
+          "pl": "Tata ma spotkanie za piętnaście czwarta."
+        }
+      ]
+    },
+    {
+      "title": "Which form goes after which word",
+      "title_pl": "Po / do / od → trzeciej · za → trzecia",
+      "body": "Two forms of the hour, and one question decides between them: is there a preposition in front of it?\n\nAfter o, po, do and od the hour is the -ej form, exactly as you have always used it. After za, and standing alone, it is the naming form.\n\nOne small habit to copy. With a po or wpół do time you add o to say at: o wpół do ósmej. With a za time you do not — Pociąg jest za pięć ósma, never o za pięć ósma.\n\nAnd one thing to be ready to hear rather than to say: Poles also read the clock straight off the face — trzecia dwadzieścia, the hour then the minutes, like a digital display. Both halves of it are already yours. This unit drills the phrase forms, but do not be thrown when you meet the other one.",
+      "body_pl": "Jest trzecia. Kwadrans po trzeciej. Wpół do czwartej. Za pięć czwarta.",
+      "table": {
+        "headers": [
+          "What stands in front",
+          "Form of the hour",
+          "Example",
+          "English"
+        ],
+        "rows": [
+          [
+            "nothing",
+            "naming form",
+            "Jest trzecia.",
+            "It's three."
+          ],
+          [
+            "za",
+            "naming form",
+            "za pięć trzecia",
+            "five to three"
+          ],
+          [
+            "o",
+            "-ej form",
+            "o trzeciej",
+            "at three"
+          ],
+          [
+            "po",
+            "-ej form",
+            "kwadrans po trzeciej",
+            "quarter past three"
+          ],
+          [
+            "wpół do",
+            "-ej form",
+            "wpół do trzeciej",
+            "half past two"
+          ],
+          [
+            "od",
+            "-ej form",
+            "od trzeciej",
+            "from three"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The shop is open from half past eight.",
+          "pl": "Sklep jest otwarty od wpół do dziewiątej."
+        },
+        {
+          "en": "The bus is at ten to three.",
+          "pl": "Autobus jest za dziesięć trzecia."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "It's three o'clock.",
+      "pl": "Jest trzecia."
+    },
+    {
+      "en": "It's five o'clock.",
+      "pl": "Jest piąta."
+    },
+    {
+      "en": "It's twelve o'clock.",
+      "pl": "Jest dwunasta."
+    },
+    {
+      "en": "five past three",
+      "pl": "pięć po trzeciej"
+    },
+    {
+      "en": "ten past three",
+      "pl": "dziesięć po trzeciej"
+    },
+    {
+      "en": "quarter past three",
+      "pl": "kwadrans po trzeciej"
+    },
+    {
+      "en": "twenty past three",
+      "pl": "dwadzieścia po trzeciej"
+    },
+    {
+      "en": "half past three",
+      "pl": "wpół do czwartej"
+    },
+    {
+      "en": "half past seven",
+      "pl": "wpół do ósmej"
+    },
+    {
+      "en": "twenty to four",
+      "pl": "za dwadzieścia czwarta"
+    },
+    {
+      "en": "quarter to four",
+      "pl": "za piętnaście czwarta"
+    },
+    {
+      "en": "five to four",
+      "pl": "za pięć czwarta"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "It's three o'clock. →",
+      "choices": [
+        "Jest trzecia.",
+        "Jest trzeciej.",
+        "Jest trzeci.",
+        "Jest o trzeciej."
+      ],
+      "answer": "Jest trzecia.",
+      "explain": "Godzina is feminine, so the hour is the feminine ordinal: trzecia. Trzeciej is the form that follows a preposition, and Jest o trzeciej would mean it happens at three."
+    },
+    {
+      "prompt": "half past three →",
+      "choices": [
+        "wpół do czwartej",
+        "wpół do trzeciej",
+        "kwadrans po trzeciej",
+        "za piętnaście czwarta"
+      ],
+      "answer": "wpół do czwartej",
+      "explain": "Polish faces the hour that is coming. Half past three is half of the way to four. Wpół do trzeciej is a real time — it is half past two."
+    },
+    {
+      "prompt": "It's half past nine. →",
+      "choices": [
+        "wpół do dziesiątej",
+        "wpół do dziewiątej",
+        "kwadrans po dziewiątej",
+        "za piętnaście dziesiąta"
+      ],
+      "answer": "wpół do dziesiątej",
+      "explain": "Take the hour you are heading for — ten — and put wpół do in front of it. Every other choice here is a real time, just not this one."
+    },
+    {
+      "prompt": "quarter past eight →",
+      "choices": [
+        "kwadrans po ósmej",
+        "kwadrans po ósma",
+        "za piętnaście ósma",
+        "wpół do ósmej"
+      ],
+      "answer": "kwadrans po ósmej",
+      "explain": "Po is a preposition, so the hour takes the -ej form — the same ósmej as in o ósmej."
+    },
+    {
+      "prompt": "five to twelve →",
+      "choices": [
+        "za pięć dwunasta",
+        "za pięć dwunastej",
+        "pięć po dwunastej",
+        "wpół do dwunastej"
+      ],
+      "answer": "za pięć dwunasta",
+      "explain": "Nothing stands directly in front of the hour after za, so it keeps its naming form: dwunasta. Pięć po dwunastej is five past, the other side of the hour."
+    },
+    {
+      "prompt": "Jest ___ po piątej. (It's ten past five.)",
+      "choices": [
+        "dziesięć",
+        "dziesiąta",
+        "dziesiątej",
+        "kwadrans"
+      ],
+      "answer": "dziesięć",
+      "explain": "The minutes are counted, so they are the plain number — dziesięć. Dziesiąta and dziesiątej are the hour, not the minutes."
+    },
+    {
+      "prompt": "Pociąg jest o ___ do siódmej. (The train is at half past six.)",
+      "choices": [
+        "wpół",
+        "pół",
+        "za",
+        "po"
+      ],
+      "answer": "wpół",
+      "explain": "Pół on its own is the noun half. The clock form has w on the front: wpół do."
+    },
+    {
+      "prompt": "Jest za dziesięć ___. (It's ten to nine.)",
+      "choices": [
+        "dziewiąta",
+        "dziewiątej",
+        "dziewiąty",
+        "dziewięć"
+      ],
+      "answer": "dziewiąta",
+      "explain": "After za the hour stands in its naming form, the one you would use in Jest dziewiąta. Dziewięć is the cardinal — it counts, it does not name the hour."
+    },
+    {
+      "prompt": "Which one is 4:30? →",
+      "choices": [
+        "wpół do piątej",
+        "wpół do czwartej",
+        "kwadrans po czwartej",
+        "za piętnaście piąta"
+      ],
+      "answer": "wpół do piątej",
+      "explain": "Half past four is half of the way to five. Wpół do czwartej is an hour earlier than it looks — 3:30."
+    },
+    {
+      "prompt": "at half past ten →",
+      "choices": [
+        "o wpół do jedenastej",
+        "wpół do jedenastej",
+        "o wpół do dziesiątej",
+        "za piętnaście jedenasta"
+      ],
+      "answer": "o wpół do jedenastej",
+      "explain": "Wpół do jedenastej alone says what the time is; o in front of it says when something happens."
+    },
+    {
+      "prompt": "at a quarter to six →",
+      "choices": [
+        "za piętnaście szósta",
+        "o za piętnaście szósta",
+        "za piętnaście szóstej",
+        "wpół do szóstej"
+      ],
+      "answer": "za piętnaście szósta",
+      "explain": "A za time already says when, so it takes no o in front of it — this is the one place the little word is left out."
+    },
+    {
+      "prompt": "It's twenty past eleven. →",
+      "choices": [
+        "dwadzieścia po jedenastej",
+        "dwadzieścia po jedenasta",
+        "za dwadzieścia jedenasta",
+        "wpół do dwunastej"
+      ],
+      "answer": "dwadzieścia po jedenastej",
+      "explain": "Twenty past is still counting up from the hour gone, so it is po plus the -ej form. Za dwadzieścia jedenasta is 10:40."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "three o'clock — the hour said back",
+      "mode": "full_word",
+      "answer": "trzecia",
+      "accepts": [
+        "trzecia"
+      ],
+      "explain": "Trzeci is the ordinal you own; godzina is feminine, so the hour is trzecia — the same swap as dobry → dobra."
+    },
+    {
+      "prompt_en": "eight o'clock — the hour said back",
+      "mode": "full_word",
+      "answer": "ósma",
+      "accepts": [
+        "ósma"
+      ]
+    },
+    {
+      "prompt_en": "twelve o'clock — the hour said back",
+      "mode": "full_word",
+      "answer": "dwunasta",
+      "accepts": [
+        "dwunasta"
+      ]
+    },
+    {
+      "prompt_en": "five past three",
+      "mode": "full_word",
+      "answer": "pięć po trzeciej",
+      "accepts": [
+        "pięć po trzeciej"
+      ],
+      "explain": "Number first, then po, then the -ej form of the hour that has gone."
+    },
+    {
+      "prompt_en": "quarter past three",
+      "mode": "full_word",
+      "answer": "kwadrans po trzeciej",
+      "accepts": [
+        "kwadrans po trzeciej",
+        "piętnaście po trzeciej"
+      ],
+      "explain": "Kwadrans is the idiomatic quarter, but piętnaście po trzeciej says the same thing and is accepted."
+    },
+    {
+      "prompt_en": "half past three",
+      "mode": "full_word",
+      "answer": "wpół do czwartej",
+      "accepts": [
+        "wpół do czwartej"
+      ],
+      "explain": "Half of the way to four. The hour you name is the one still ahead of you."
+    },
+    {
+      "prompt_en": "half past seven",
+      "mode": "full_word",
+      "answer": "wpół do ósmej",
+      "accepts": [
+        "wpół do ósmej"
+      ]
+    },
+    {
+      "prompt_en": "quarter to four",
+      "mode": "full_word",
+      "answer": "za piętnaście czwarta",
+      "accepts": [
+        "za piętnaście czwarta"
+      ],
+      "explain": "Fifteen from now it will be four — the same za as za tydzień. And the hour keeps its naming form."
+    },
+    {
+      "prompt_en": "five to four",
+      "mode": "full_word",
+      "answer": "za pięć czwarta",
+      "accepts": [
+        "za pięć czwarta"
+      ]
+    },
+    {
+      "prompt_en": "It's twenty past three.",
+      "mode": "cloze",
+      "frame": "Jest dwadzieścia ___ trzeciej.",
+      "answer": "po",
+      "accepts": [
+        "po"
+      ],
+      "explain": "Po is what puts the minutes after the hour. It leaves the clock word exactly as it was in o trzeciej."
+    },
+    {
+      "prompt_en": "The film is at half past eight.",
+      "mode": "cloze",
+      "frame": "Film jest o ___ do dziewiątej.",
+      "answer": "wpół",
+      "accepts": [
+        "wpół"
+      ],
+      "explain": "Half past eight faces the ninth hour, so the word after do is dziewiątej — and wpół is what makes it half."
+    },
+    {
+      "prompt_en": "It's five to ten.",
+      "mode": "cloze",
+      "frame": "Jest za pięć ___.",
+      "answer": "dziesiąta",
+      "accepts": [
+        "dziesiąta"
+      ],
+      "explain": "After za nothing bends the hour, so it stands in the naming form — dziesiąta, not dziesiątej."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The train is at half past seven.",
+      "answer": "Pociąg jest o wpół do ósmej.",
+      "accepts": [
+        "Pociąg jest o wpół do ósmej.",
+        "Pociąg jest o wpół do ósmej"
+      ],
+      "explain": "Half past seven is half of the way to eight, so the hour you say is ósmej."
+    },
+    {
+      "prompt_en": "Type: It's a quarter past seven.",
+      "answer": "Jest kwadrans po siódmej.",
+      "accepts": [
+        "Jest kwadrans po siódmej.",
+        "Jest kwadrans po siódmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The shop is open from half past eight.",
+      "answer": "Sklep jest otwarty od wpół do dziewiątej.",
+      "accepts": [
+        "Sklep jest otwarty od wpół do dziewiątej.",
+        "Sklep jest otwarty od wpół do dziewiątej"
+      ],
+      "explain": "Od takes the same -ej form that do takes, so the whole phrase wpół do dziewiątej simply follows it unchanged."
+    },
+    {
+      "prompt_en": "Type: Mum drinks coffee at half past seven.",
+      "answer": "Mama pije kawę o wpół do ósmej.",
+      "accepts": [
+        "Mama pije kawę o wpół do ósmej.",
+        "Mama pije kawę o wpół do ósmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad has a meeting at a quarter to four.",
+      "answer": "Tata ma spotkanie za piętnaście czwarta.",
+      "accepts": [
+        "Tata ma spotkanie za piętnaście czwarta.",
+        "Tata ma spotkanie za piętnaście czwarta"
+      ],
+      "explain": "No o in front of a za time — the phrase already says when."
+    },
+    {
+      "prompt_en": "Type: The bus is at ten to three.",
+      "answer": "Autobus jest za dziesięć trzecia.",
+      "accepts": [
+        "Autobus jest za dziesięć trzecia.",
+        "Autobus jest za dziesięć trzecia"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna is going to the shop at half past four.",
+      "answer": "Anna idzie do sklepu o wpół do piątej.",
+      "accepts": [
+        "Anna idzie do sklepu o wpół do piątej.",
+        "Anna idzie do sklepu o wpół do piątej"
+      ],
+      "explain": "Two dos in one sentence, doing different jobs: do sklepu is where she is going, wpół do piątej is the time."
+    },
+    {
+      "prompt_en": "Type: The doctor will come at ten to five.",
+      "answer": "Lekarz przyjdzie za dziesięć piąta.",
+      "accepts": [
+        "Lekarz przyjdzie za dziesięć piąta.",
+        "Lekarz przyjdzie za dziesięć piąta"
+      ]
+    },
+    {
+      "prompt_en": "Type: Every day I eat lunch at half past one.",
+      "answer": "Codziennie jem obiad o wpół do drugiej.",
+      "accepts": [
+        "Codziennie jem obiad o wpół do drugiej.",
+        "Codziennie jem obiad o wpół do drugiej"
+      ],
+      "explain": "Half past one heads for two, so the hour is drugiej."
+    },
+    {
+      "prompt_en": "Type: The match is at ten past eight.",
+      "answer": "Mecz jest o dziesięć po ósmej.",
+      "accepts": [
+        "Mecz jest o dziesięć po ósmej.",
+        "Mecz jest o dziesięć po ósmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm waiting for the bus from half past two.",
+      "answer": "Czekam na autobus od wpół do trzeciej.",
+      "accepts": [
+        "Czekam na autobus od wpół do trzeciej.",
+        "Czekam na autobus od wpół do trzeciej"
+      ]
+    },
+    {
+      "prompt_en": "Type: The concert is at five to nine.",
+      "answer": "Koncert jest za pięć dziewiąta.",
+      "accepts": [
+        "Koncert jest za pięć dziewiąta.",
+        "Koncert jest za pięć dziewiąta"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "o",
+    "od",
+    "za",
+    "pół",
+    "kwadrans",
+    "godzina",
+    "która godzina",
+    "pięć",
+    "dziesięć",
+    "piętnaście",
+    "dwadzieścia",
+    "dziewięć",
+    "pierwszy",
+    "drugi",
+    "trzeci",
+    "czwarty",
+    "piąty",
+    "szósty",
+    "siódmy",
+    "ósmy",
+    "dziewiąty",
+    "dziesiąty",
+    "jedenasty",
+    "dwunasty",
+    "pierwszej",
+    "drugiej",
+    "trzeciej",
+    "czwartej",
+    "piątej",
+    "szóstej",
+    "siódmej",
+    "ósmej",
+    "dziewiątej",
+    "dziesiątej",
+    "jedenastej",
+    "dwunastej",
+    "o trzeciej",
+    "o ósmej",
+    "za tydzień",
+    "dziękuję za",
+    "jest",
+    "ma",
+    "pije",
+    "jem",
+    "idzie",
+    "przyjdzie",
+    "czekam",
+    "otwarty",
+    "dobry",
+    "dobra",
+    "pociąg",
+    "autobus",
+    "film",
+    "mecz",
+    "koncert",
+    "sklep",
+    "do sklepu",
+    "spotkanie",
+    "obiad",
+    "kawę",
+    "lekarz",
+    "tata",
+    "mama",
+    "codziennie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_time_minutes",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 217 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 218 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -238,4 +238,5 @@ _None._
 | 223 | `c1_modal_pl` | `modal_pl`, `powinien_byl` | 12 | `can_inf`, `dat_pl`, `dative_sg`, `modal_pl`, `musiec`, `na_acc`, `past_ac`, `past_plural`, `past_rest`, `plural_nom`, `powinien`, `powinien_byl`, `prep_w_loc`, `virile_past` |
 | 224 | `c1_stac_sie` | `stac_sie` | 14 | `byc_present`, `can_inf`, `inst_identity`, `negation`, `past_ac`, `past_rest`, `perf_future`, `prep_w_loc`, `question`, `sie_reflexive`, `situation_chunk`, `stac_sie` |
 | 225 | `c1_nuance` | — | 14 | `bedzie`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `indirect_q`, `miec_acc`, `neg_gen`, `negation`, `numbers_gen`, `part_adv`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `question`, `situation_chunk`, `ten_ta_to`, `ze_clauses`, `zgoda` |
+| 226 | `c1_time_minutes` | `time_minutes` | 19 | `byc_adj`, `byc_present`, `chodzic`, `existential_jest`, `miec_acc`, `miec_present`, `motion_prefixed`, `na_acc`, `od_source`, `ordinals_time`, `prep_do_gen`, `present`, `present_e_esz`, `question`, `social_chunk`, `time_minutes`, `zgoda` |
 

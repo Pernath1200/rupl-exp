@@ -4498,12 +4498,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 8, unit 1. Inbox item 20. a2_ordinals_time's LARGEST fence, in its own words: 'wpol do, za pietnascie, kwadrans po, any minutes-past-the-hour, any half-past or quarter form'. PLUS that pack's SECOND fence, the feminine Nominative hour (Jest trzecia / Jest godzina trzecia), which it called 'a THIRD inflected set' and deferred under the load-splitting rule. pietnascie, minut, kwadrans all verified TAUGHT; only the phrase shapes are new. HOMOGRAPH (spine O13): za is TAUGHT in its THANKING job only (b1_polite, dziekuje za) - name the second job, the b2_prosic_o treatment of o.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_time_minutes.json"
     },
     {
       "id": "c1_dates_full",
