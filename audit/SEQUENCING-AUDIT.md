@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 222 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 223 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -243,4 +243,5 @@ _None._
 | 228 | `c1_collective_num` | `collective_num` | 7 | `byc_present`, `collective_num`, `existential_jest`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `na_acc`, `num_subject`, `num_virile`, `numbers_gen`, `past_byc`, `past_plural`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `virile_irreg`, `virile_nom`, `virile_owie` |
 | 229 | `c1_quantifiers` | `quantifiers` | 7 | `byc_present`, `existential_jest`, `gen_endings`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `num_subject`, `num_virile`, `numbers_gen`, `past_byc`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `quantifiers`, `virile_nom` |
 | 230 | `c1_concessive` | `concessive` | 2 | `aspect_prefixes`, `byc_adj`, `byc_present`, `chodzic`, `concessive`, `conjunctions`, `dative_sg`, `miec_acc`, `miec_present`, `motion_chunk`, `na_acc`, `negation`, `participle_pass`, `past_ac`, `past_byc`, `past_rest`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `pron_acc`, `weather_chunk`, `ze_clauses`, `zgoda` |
+| 231 | `c1_cause_time` | `cause_time` | 5 | `aspect_past`, `bedzie`, `byc_adj`, `byc_present`, `cause_time`, `chodzic`, `conjunctions`, `copular_future`, `imperative`, `imperative_rule`, `jesli`, `miec_acc`, `miec_present`, `motion_chunk`, `motion_prefixed`, `neg_gen`, `negation`, `past_ac`, `past_byc`, `past_rest`, `perf_future`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `questions2`, `weather_chunk`, `zgoda` |
 

@@ -4577,18 +4577,19 @@
     {
       "id": "c1_cause_time",
       "domain": "grammar",
-      "label": "Dlatego że, podczas gdy",
-      "label_en": "Because, while",
+      "label": "Dlatego że · podczas gdy",
+      "label_en": "Because, that's why, while — and the formal twins",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 9, unit 2. Inbox item 23, second half: dlatego ze, BARE dlatego, podczas gdy (all verified NEW), plus jezeli and gdy - the formal twins b2_jesli fenced. PAYS b2_conjunctions' LOGGED SCOPE CUT IN FULL: that pack dropped dlatego BECAUSE its everyday partner dlatego ze was on the C1 list, and refused to ship 'a half-taught pair pointing at a fenced construction'. Both halves land here together. ALSO carries the reversed jesli order (Bede w parku, jesli...) and the resumptive to, both held to C1 by b2_jesli.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/c1_cause_time.json"
     },
     {
       "id": "c1_neg_polarity",

@@ -1,0 +1,653 @@
+{
+  "id": "c1_cause_time",
+  "title": "Dlatego że · podczas gdy",
+  "title_en": "Because, that's why, while — and the formal twins",
+  "level": "C1",
+  "tree_node": "c1_cause_time",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 9 unit 2; B2-SPINE inbox item 23, second half. FIVE NEW STRINGS AND ZERO NEW MORPHOLOGY, all of one class - invariable joiners on clauses the learner can already build, c1_concessive's shape one node earlier. It is a bigger word-count than that unit but a SMALLER load, because two of the five cost nothing at all: jezeli and gdy are the formal twins of jesli and kiedy, which b2_jesli fenced by name, and they are one line each rather than a fact. THE HEADLINE IS THE ze FLIP, and it is the reason dlatego and dlatego ze belong in one unit rather than two: the same word points BACKWARD to a reason with ze on it (Ide do domu, dlatego ze jestem zmeczony) and FORWARD to a result without it (Jestem zmeczony, dlatego ide do domu). Slide 1 is a 2x2 against the owned pair bo / wiec, which point the same two ways. PAYS b2_conjunctions' LOGGED SCOPE CUT IN FULL: that pack dropped dlatego BECAUSE its everyday partner dlatego ze was on the C1 list, and refused to ship 'a half-taught pair pointing at a fenced construction'. Both halves land here together, which is the whole reason the cut was made. BARE podczas IS FENCED, exactly as bare mimo was one node earlier: on its own it is a PREPOSITION governing the Genitive (podczas obiadu), a new case governor needing its own case-map.json row. podczas gdy is taught as one indivisible joiner and the slide says the two words are never separated. NO case-map row is owed by this unit - a conjunction governs nothing. THE RESUMPTIVE to IS PAID, CHEAPLY AND WITHOUT BEING DRILLED. b2_jesli held it to C1 and it costs zero new lemmas (to is glue, taught since A1). Slide 3 shows Jesli masz czas, to zrobie obiad, states that to adds nothing and may always be left out, and every Uzycie item whose conditional clause comes first carries the to variant in accepts. It is never demanded. The reversed clause order b2_jesli also held is carried on the same slide, where it is reinforcement rather than new load - c1_concessive established it one node back for chociaz. SYNONYMS ARE NEVER PITTED AGAINST EACH OTHER, the rule c1_concessive settled: no Kontrola item offers jesli beside jezeli or kiedy beside gdy, and no item offers dlatego where wiec would also be right or bo where dlatego ze would. Every Uzycie item whose prompt admits an owned synonym (bo for dlatego ze, wiec for dlatego, Kiedy for Gdy, Jesli for Jezeli) carries that variant in accepts - marking correct Polish wrong is the false-wrong James smoke-flagged on 2026-08-07. Pisanie items 1-5 are the five bare joiners with disambiguating English glosses, which is b2_conjunctions' own genre and the only shape in which the new form can be demanded without a synonym competing for the slot; items 6-12 blank the load-bearing form with the joiner visible, logged per the repair-queue fallback clause. CAUGHT IN SELF-REVIEW: the podczas gdy slide carried the body_pl line \"w tym samym czasie\", whose tym/samym/czasie are all UNTAUGHT - the AGENTS convention admits metalanguage on that line, not new lexis, which is the exact defect b2_which_case had to fix in czasem/bez. Replaced with a taught example sentence. gotowala (3sg feminine past of gotowac) is NOT in the pool - only gotowalam/gotowalem and the perfective ugotowala are - so every podczas gdy sentence was rebuilt on pracowala / czytal / czytala, which are all taught. gazete was refused again (NEW; only the plural gazety is taught) and pojdziemy likewise (the -my person of pojsc is absent from the pool).",
+  "focus_structures": [
+    "cause_time"
+  ],
+  "teaches_structures": [
+    "cause_time"
+  ],
+  "teaches_lemmas": [
+    "dlatego",
+    "dlatego że",
+    "podczas gdy",
+    "jeżeli",
+    "gdy"
+  ],
+  "uses_structures": [
+    "cause_time",
+    "conjunctions",
+    "jesli",
+    "questions2",
+    "byc_present",
+    "byc_adj",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "neg_gen",
+    "bedzie",
+    "copular_future",
+    "perf_future",
+    "aspect_past",
+    "imperative",
+    "imperative_rule",
+    "motion_chunk",
+    "motion_prefixed",
+    "chodzic",
+    "weather_chunk",
+    "plural_nom",
+    "zgoda",
+    "prep_w_loc",
+    "prep_do_gen"
+  ],
+  "intro": [
+    {
+      "title": "Dlatego, and what the że does to it",
+      "title_pl": "Dlatego · dlatego że",
+      "body": "You already have two words for tying a cause to its effect, and they point in opposite directions. bo points backwards, at the reason. więc points forwards, at the result.\n\nToday's word does both jobs — and what decides which one is a single syllable on the end of it.\n\ndlatego że points backwards, at the reason. It is the fuller, heavier way of saying bo, and it is the one you will more often meet in writing.\n\ndlatego on its own points forwards, at the result: that is why.\n\nSo the że is not decoration. Take it off and the sentence reverses.",
+      "body_pl": "Dlatego że — powód. Dlatego — skutek.",
+      "table": {
+        "headers": [
+          "Polish",
+          "Points",
+          "English"
+        ],
+        "rows": [
+          [
+            "Idę do domu, bo jestem zmęczony.",
+            "back, to the reason",
+            "I'm going home because I'm tired."
+          ],
+          [
+            "Idę do domu, dlatego że jestem zmęczony.",
+            "back, to the reason — fuller",
+            "I'm going home because I'm tired."
+          ],
+          [
+            "Jestem zmęczony, więc idę do domu.",
+            "forward, to the result",
+            "I'm tired, so I'm going home."
+          ],
+          [
+            "Jestem zmęczony, dlatego idę do domu.",
+            "forward, to the result",
+            "I'm tired, that's why I'm going home."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I didn't buy bread because the shop was closed.",
+          "pl": "Nie kupiłem chleba, dlatego że sklep był zamknięty."
+        },
+        {
+          "en": "The shop is closed, that's why I'm going to the centre.",
+          "pl": "Sklep jest zamknięty, dlatego idę do centrum."
+        }
+      ]
+    },
+    {
+      "title": "Podczas gdy — two things at once",
+      "title_pl": "Mama pracowała, podczas gdy tata czytał książkę.",
+      "body": "podczas gdy joins two clauses and says the two things overlapped: while one was going on, so was the other. Often it also sets them against each other, the way English while does in he sat while I worked.\n\nIt is two words and they are never separated. The comma goes in front of the whole thing.\n\nCompare it with a, which you have had since B2. a puts two different things side by side and makes no claim at all about when they happened. podczas gdy claims they were happening together.",
+      "body_pl": "Mama pracowała, podczas gdy tata czytał.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Mama pracowała, podczas gdy tata czytał książkę.",
+            "Mum was working while Dad was reading a book."
+          ],
+          [
+            "Dzieci były w parku, podczas gdy pracowałem.",
+            "The children were in the park while I was working."
+          ],
+          [
+            "Mama pracuje, a tata gotuje obiad.",
+            "Mum is working and Dad is cooking dinner."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Mum was reading a book while Dad was working.",
+          "pl": "Mama czytała książkę, podczas gdy tata pracował."
+        }
+      ]
+    },
+    {
+      "title": "Jeżeli and gdy — the same words, dressed for writing",
+      "title_pl": "Jeżeli masz czas… · Gdy pada deszcz…",
+      "body": "Two of today's words are not new ideas at all. They are longer, more formal versions of words you already own, and they change nothing else in the sentence.\n\njeśli → jeżeli. kiedy → gdy.\n\nUse either. You will meet the formal one in writing and in careful speech, and now you will recognise it.\n\nTwo things worth knowing about where these clauses sit. First, the clause can come first or second — the same freedom chociaż had, and the comma still goes at the join. Second, when the condition comes first, Polish very often plants to at the head of the second half: Jeśli masz czas, to zrobię obiad. It adds nothing to the meaning and it can always be left out.",
+      "body_pl": "Jeśli — jeżeli. Kiedy — gdy.",
+      "table": {
+        "headers": [
+          "Everyday",
+          "Formal, written",
+          "Example"
+        ],
+        "rows": [
+          [
+            "jeśli",
+            "jeżeli",
+            "Jeżeli masz czas, zrobię obiad."
+          ],
+          [
+            "kiedy",
+            "gdy",
+            "Gdy pada deszcz, jestem w domu."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "If you have time, I'll make dinner.",
+          "pl": "Jeśli masz czas, to zrobię obiad."
+        },
+        {
+          "en": "I'll be in the park if the weather is nice.",
+          "pl": "Będę w parku, jeżeli pogoda będzie ładna."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "that's why, therefore",
+      "pl": "dlatego"
+    },
+    {
+      "en": "because (the fuller form of bo)",
+      "pl": "dlatego że"
+    },
+    {
+      "en": "while (at the same time)",
+      "pl": "podczas gdy"
+    },
+    {
+      "en": "if (the formal one)",
+      "pl": "jeżeli"
+    },
+    {
+      "en": "when (the formal one)",
+      "pl": "gdy"
+    },
+    {
+      "en": "I'm going home because I'm tired.",
+      "pl": "Idę do domu, dlatego że jestem zmęczony."
+    },
+    {
+      "en": "I'm tired, that's why I'm going home.",
+      "pl": "Jestem zmęczony, dlatego idę do domu."
+    },
+    {
+      "en": "Mum was working while Dad was reading a book.",
+      "pl": "Mama pracowała, podczas gdy tata czytał książkę."
+    },
+    {
+      "en": "If you have time, I'll make dinner.",
+      "pl": "Jeżeli masz czas, zrobię obiad."
+    },
+    {
+      "en": "When it rains, I'm at home.",
+      "pl": "Gdy pada deszcz, jestem w domu."
+    },
+    {
+      "en": "I didn't buy bread because the shop was closed.",
+      "pl": "Nie kupiłem chleba, dlatego że sklep był zamknięty."
+    },
+    {
+      "en": "The shop is closed, that's why I'm going to the centre.",
+      "pl": "Sklep jest zamknięty, dlatego idę do centrum."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Idę do domu, ___ jestem zmęczony. (because — the fuller two-word form)",
+      "choices": [
+        "dlatego że",
+        "dlatego",
+        "więc",
+        "albo"
+      ],
+      "answer": "dlatego że",
+      "explain": "Without the że the same word points the other way: dlatego would make the tiredness the result of going home rather than the reason for it."
+    },
+    {
+      "prompt": "Jestem zmęczony, ___ idę do domu. (that's why)",
+      "choices": [
+        "dlatego",
+        "dlatego że",
+        "bo",
+        "albo"
+      ],
+      "answer": "dlatego",
+      "explain": "Here the second half is the result, so the word stands bare. Adding że would claim that going home is what made me tired."
+    },
+    {
+      "prompt": "Mama pracowała, ___ tata czytał książkę. (while — at the same time)",
+      "choices": [
+        "podczas gdy",
+        "bo",
+        "więc",
+        "albo"
+      ],
+      "answer": "podczas gdy",
+      "explain": "Neither half caused the other. They simply ran at the same time, which is the one thing podczas gdy claims."
+    },
+    {
+      "prompt": "___ masz czas, zrobię obiad. (if — the formal one)",
+      "choices": [
+        "Jeżeli",
+        "Więc",
+        "Albo",
+        "Bo"
+      ],
+      "answer": "Jeżeli",
+      "explain": "The formal twin of jeśli. Nothing else in the sentence changes — the condition still takes an ordinary present, and the result still takes a perfective future."
+    },
+    {
+      "prompt": "___ pada deszcz, jestem w domu. (when — the formal one)",
+      "choices": [
+        "Gdy",
+        "Bo",
+        "Więc",
+        "Też"
+      ],
+      "answer": "Gdy",
+      "explain": "The formal twin of kiedy. None of the other three can stand at the front of a sentence in this job."
+    },
+    {
+      "prompt": "Nie kupiłem chleba, ___ sklep był zamknięty. (because)",
+      "choices": [
+        "dlatego że",
+        "dlatego",
+        "więc",
+        "i"
+      ],
+      "answer": "dlatego że",
+      "explain": "The shut shop is the reason, so the word points backwards and takes its że."
+    },
+    {
+      "prompt": "Sklep jest zamknięty, ___ idę do centrum. (that's why)",
+      "choices": [
+        "dlatego",
+        "dlatego że",
+        "bo",
+        "albo"
+      ],
+      "answer": "dlatego",
+      "explain": "Going to the centre is the result of the shop being shut. bo and dlatego że would both reverse it."
+    },
+    {
+      "prompt": "Tata czyta książkę, ___ mama pracuje. (while — at the same time)",
+      "choices": [
+        "podczas gdy",
+        "bo",
+        "więc",
+        "i"
+      ],
+      "answer": "podczas gdy",
+      "explain": "i would simply add the second fact on. podczas gdy says the two are running together."
+    },
+    {
+      "prompt": "Nie idę do parku, ___ pada deszcz. (because — the everyday one)",
+      "choices": [
+        "bo",
+        "dlatego",
+        "więc",
+        "albo"
+      ],
+      "answer": "bo",
+      "explain": "bo is still the word you reach for in speech. dlatego że would be right here too — dlatego on its own would not."
+    },
+    {
+      "prompt": "Jestem głodny, ___ gotuję obiad. (so)",
+      "choices": [
+        "więc",
+        "dlatego że",
+        "bo",
+        "albo"
+      ],
+      "answer": "więc",
+      "explain": "Cooking is the result of the hunger. dlatego że and bo both point the wrong way."
+    },
+    {
+      "prompt": "___ tata był w pracy, mama czytała książkę. (while — at the same time)",
+      "choices": [
+        "Podczas gdy",
+        "Bo",
+        "Więc",
+        "Albo"
+      ],
+      "answer": "Podczas gdy",
+      "explain": "The two-word joiner can open the sentence, and the comma sits after the whole first clause."
+    },
+    {
+      "prompt": "___ pogoda będzie ładna, będę w parku. (if — the formal one)",
+      "choices": [
+        "Jeżeli",
+        "Więc",
+        "Bo",
+        "Albo"
+      ],
+      "answer": "Jeżeli",
+      "explain": "A real condition about the future. The verb pattern is b2's unchanged: będzie in the condition, będę in the result."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "that's why, therefore",
+      "mode": "full_word",
+      "answer": "dlatego",
+      "accepts": [
+        "dlatego"
+      ],
+      "explain": "Bare, with no że on it — this is the one that points forward at the result."
+    },
+    {
+      "prompt_en": "because (the fuller two-word form)",
+      "mode": "full_word",
+      "answer": "dlatego że",
+      "accepts": [
+        "dlatego że"
+      ]
+    },
+    {
+      "prompt_en": "while (at the same time — two words)",
+      "mode": "full_word",
+      "answer": "podczas gdy",
+      "accepts": [
+        "podczas gdy"
+      ],
+      "explain": "Two words, never separated, and the comma goes in front of both of them."
+    },
+    {
+      "prompt_en": "if (the formal, written form of jeśli)",
+      "mode": "full_word",
+      "answer": "jeżeli",
+      "accepts": [
+        "jeżeli"
+      ]
+    },
+    {
+      "prompt_en": "when (the formal, written form of kiedy)",
+      "mode": "full_word",
+      "answer": "gdy",
+      "accepts": [
+        "gdy"
+      ]
+    },
+    {
+      "prompt_en": "I'm tired, that's why I'm going home.",
+      "mode": "cloze",
+      "frame": "Jestem zmęczony, dlatego ___ do domu.",
+      "answer": "idę",
+      "accepts": [
+        "idę"
+      ],
+      "explain": "The joiner is printed for you here. Nothing in either clause changes shape because of it, which is the whole point of an invariable word."
+    },
+    {
+      "prompt_en": "I didn't buy bread because the shop was closed.",
+      "mode": "cloze",
+      "frame": "Nie kupiłem chleba, dlatego że sklep był ___.",
+      "answer": "zamknięty",
+      "accepts": [
+        "zamknięty"
+      ]
+    },
+    {
+      "prompt_en": "Mum was working while Dad was reading a book.",
+      "mode": "cloze",
+      "frame": "Mama pracowała, podczas gdy tata ___ książkę.",
+      "answer": "czytał",
+      "accepts": [
+        "czytał"
+      ],
+      "explain": "Both halves are in the past and both are imperfective — the point of podczas gdy is that the two ran side by side, not that either finished."
+    },
+    {
+      "prompt_en": "If you have time, I'll make dinner.",
+      "mode": "cloze",
+      "frame": "Jeżeli masz czas, ___ obiad.",
+      "answer": "zrobię",
+      "accepts": [
+        "zrobię"
+      ]
+    },
+    {
+      "prompt_en": "When it's raining, I'm at home.",
+      "mode": "cloze",
+      "frame": "Gdy pada deszcz, jestem ___.",
+      "answer": "w domu",
+      "accepts": [
+        "w domu"
+      ]
+    },
+    {
+      "prompt_en": "The shop is closed, that's why I'm going to the centre.",
+      "mode": "cloze",
+      "frame": "Sklep jest zamknięty, dlatego idę do ___.",
+      "answer": "centrum",
+      "accepts": [
+        "centrum"
+      ],
+      "explain": "centrum never changes shape, whichever preposition stands in front of it."
+    },
+    {
+      "prompt_en": "I'll be in the park if the weather is nice.",
+      "mode": "cloze",
+      "frame": "Będę w parku, jeżeli pogoda będzie ___.",
+      "answer": "ładna",
+      "accepts": [
+        "ładna"
+      ],
+      "explain": "The condition sits second here. The comma still goes at the join, in front of jeżeli."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going home because I'm tired.",
+      "answer": "Idę do domu, dlatego że jestem zmęczony.",
+      "accepts": [
+        "Idę do domu, dlatego że jestem zmęczony.",
+        "Idę do domu, dlatego że jestem zmęczony",
+        "Idę do domu, bo jestem zmęczony.",
+        "Idę do domu, bo jestem zmęczony"
+      ],
+      "explain": "bo says exactly the same thing and is accepted. dlatego że is the fuller, more written of the two."
+    },
+    {
+      "prompt_en": "Type: I'm ill, that's why I'm not going to work.",
+      "answer": "Jestem chory, dlatego nie idę do pracy.",
+      "accepts": [
+        "Jestem chory, dlatego nie idę do pracy.",
+        "Jestem chory, dlatego nie idę do pracy",
+        "Jestem chory, więc nie idę do pracy.",
+        "Jestem chory, więc nie idę do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was reading a book while Dad was working.",
+      "answer": "Mama czytała książkę, podczas gdy tata pracował.",
+      "accepts": [
+        "Mama czytała książkę, podczas gdy tata pracował.",
+        "Mama czytała książkę, podczas gdy tata pracował"
+      ]
+    },
+    {
+      "prompt_en": "Type: When it's cold, the children are at home.",
+      "answer": "Gdy jest zimno, dzieci są w domu.",
+      "accepts": [
+        "Gdy jest zimno, dzieci są w domu.",
+        "Gdy jest zimno, dzieci są w domu",
+        "Kiedy jest zimno, dzieci są w domu.",
+        "Kiedy jest zimno, dzieci są w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: If you have money, buy bread.",
+      "answer": "Jeżeli masz pieniądze, kup chleb.",
+      "accepts": [
+        "Jeżeli masz pieniądze, kup chleb.",
+        "Jeżeli masz pieniądze, kup chleb",
+        "Jeżeli masz pieniądze, to kup chleb.",
+        "Jeżeli masz pieniądze, to kup chleb",
+        "Jeśli masz pieniądze, kup chleb.",
+        "Jeśli masz pieniądze, kup chleb",
+        "Jeśli masz pieniądze, to kup chleb.",
+        "Jeśli masz pieniądze, to kup chleb"
+      ],
+      "explain": "The condition comes first, so Polish will often put to at the head of the second half. It adds nothing and either version is right."
+    },
+    {
+      "prompt_en": "Type: I'm not going to the park because it's raining.",
+      "answer": "Nie idę do parku, dlatego że pada deszcz.",
+      "accepts": [
+        "Nie idę do parku, dlatego że pada deszcz.",
+        "Nie idę do parku, dlatego że pada deszcz",
+        "Nie idę do parku, bo pada deszcz.",
+        "Nie idę do parku, bo pada deszcz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is at work, that's why Dad is cooking dinner.",
+      "answer": "Mama jest w pracy, dlatego tata gotuje obiad.",
+      "accepts": [
+        "Mama jest w pracy, dlatego tata gotuje obiad.",
+        "Mama jest w pracy, dlatego tata gotuje obiad",
+        "Mama jest w pracy, więc tata gotuje obiad.",
+        "Mama jest w pracy, więc tata gotuje obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children were in the park while I was working.",
+      "answer": "Dzieci były w parku, podczas gdy pracowałem.",
+      "accepts": [
+        "Dzieci były w parku, podczas gdy pracowałem.",
+        "Dzieci były w parku, podczas gdy pracowałem"
+      ]
+    },
+    {
+      "prompt_en": "Type: If you're tired, go home.",
+      "answer": "Jeżeli jesteś zmęczony, idź do domu.",
+      "accepts": [
+        "Jeżeli jesteś zmęczony, idź do domu.",
+        "Jeżeli jesteś zmęczony, idź do domu",
+        "Jeżeli jesteś zmęczony, to idź do domu.",
+        "Jeżeli jesteś zmęczony, to idź do domu",
+        "Jeśli jesteś zmęczony, idź do domu.",
+        "Jeśli jesteś zmęczony, idź do domu",
+        "Jeśli jesteś zmęczony, to idź do domu.",
+        "Jeśli jesteś zmęczony, to idź do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: When Dad came home, the children were in the park.",
+      "answer": "Gdy tata przyszedł do domu, dzieci były w parku.",
+      "accepts": [
+        "Gdy tata przyszedł do domu, dzieci były w parku.",
+        "Gdy tata przyszedł do domu, dzieci były w parku",
+        "Kiedy tata przyszedł do domu, dzieci były w parku.",
+        "Kiedy tata przyszedł do domu, dzieci były w parku"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "bo",
+    "więc",
+    "albo",
+    "i",
+    "a",
+    "też",
+    "że",
+    "jeśli",
+    "kiedy",
+    "powód",
+    "skutek",
+    "mama",
+    "tata",
+    "dzieci",
+    "sklep",
+    "chleb",
+    "chleba",
+    "obiad",
+    "książkę",
+    "pieniądze",
+    "czas",
+    "deszcz",
+    "pada deszcz",
+    "pogoda",
+    "centrum",
+    "jest",
+    "są",
+    "jestem",
+    "jesteś",
+    "był",
+    "były",
+    "będę",
+    "będzie",
+    "masz",
+    "mam",
+    "idę",
+    "idź",
+    "kup",
+    "kupiłem",
+    "zrobię",
+    "gotuję",
+    "gotuje",
+    "pracuje",
+    "pracował",
+    "pracowała",
+    "pracowałem",
+    "czyta",
+    "czytał",
+    "czytała",
+    "przyszedł",
+    "zmęczony",
+    "chory",
+    "głodny",
+    "zimno",
+    "ładna",
+    "zamknięty",
+    "w domu",
+    "w parku",
+    "w pracy",
+    "do domu",
+    "do parku",
+    "do pracy",
+    "do centrum"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_cause_time",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

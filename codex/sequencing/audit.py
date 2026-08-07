@@ -179,6 +179,7 @@ STRUCTURE_CATALOGUE = {
     "collective_num",
     "quantifiers",
     "concessive",
+    "cause_time",
 }
 
 GLUE_LEMMAS = {
