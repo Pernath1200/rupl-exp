@@ -136,6 +136,7 @@ STRUCTURE_CATALOGUE = {
     "participle_pass",
     "passive",
     "existential_tense",
+    "wiedziec",
 }
 
 GLUE_LEMMAS = {

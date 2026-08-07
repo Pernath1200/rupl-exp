@@ -3815,12 +3815,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 1, unit 2. LIFTS THE WIEM QUARANTINE (spine O10), standing since a2_directions_func and re-held by b2_ze_clauses, b2_indirect_q and b2_double_neg. Conjugates wiedziec (wiesz/wie/wiemy/wiecie/wiedza all NEW; wiem owned) + the wiedziec/znac split. VERIFIED: znac/znam TAUGHT since a1_present [15], so the split costs ONE paradigm, not two. Unblocks 'Czy wiesz, gdzie...?' - the sentence b2_indirect_q's digest named as the one Dad most needs and cannot say. Placed at unit 2 deliberately: it unblocks question-asking for the whole level.",
+      "note": "C1 Block 1, unit 2 — lifts the WIEM QUARANTINE (C1-SPINE O10), standing since a2_directions_func and re-held by b2_ze_clauses, b2_indirect_q and b2_double_neg. Six new forms, zero new endings: wiesz, wie, wiemy, wiecie, wiedzą and the infinitive wiedzieć; wiem owned since a2_directions_func. The endings are the -m/-sz set owned since A1 on mieć, run as a parallel down the page, with wiedzą named as the one place the parallel breaks. The wiedzieć/znać split costs one paradigm and not two — znać/znam are taught since a1_present [15] — and the test given is syntactic rather than semantic: a clause takes wiedzieć, a person or thing takes znać. Unblocks Czy wiesz, gdzie jest apteka? — the sentence b2_indirect_q's digest named as the one Dad most needs and cannot say. Accusative objects are pool-limited and shaped the unit (tę, kobietę, kolegę, lekarza all verified NEW), so every znać object is a masculine inanimate, a neuter, or the honest Acc≡Gen animate. Fenced: wiedza the noun, the past wiedziałem, umieć, and je (3sg of jeść, held for c1_pron_je).",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_wiedziec.json"
     },
     {
       "id": "c1_adj_pl_gen",
