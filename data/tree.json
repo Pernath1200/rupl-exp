@@ -4008,12 +4008,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 3, unit 4. siebie/sobie, the TRUE reflexive pronoun (B2-SPINE O15) - fenced by name in eight B2 packs. The whole unit is the contrast with a2_sie's framing: sie BELONGS TO THE VERB and cannot be moved or stressed; siebie is a real pronoun with a real case. a2_sie's framing must survive intact - this unit adds a second thing, it does not correct the first.",
+      "note": "[C1 SPINE] Block 3, unit 4. siebie/sobie, the TRUE reflexive pronoun (B2-SPINE O15) - fenced by name in eight B2 packs. The whole unit is the contrast with a2_sie's framing: sie BELONGS TO THE VERB and cannot be moved or stressed; siebie is a real pronoun with a real case. a2_sie's framing must survive intact - this unit adds a second thing, it does not correct the first. [WIRED LIVE] Three new strings: siebie, sobie, soba. Structure ID siebie_sobie registered in codex/SEQUENCING.md and audit.py before the audit. The pronoun is shown ONLY in case slots the course already owns a governor for (do+Gen, o+Loc, z/ze+Inst, pomagac+Dat), which is the c1_pron_12_prep shape and holds the unit to one new thing. Person-neutrality is the real content, so half of Kontrola and Pisanie are minimal pairs against the ordinary pronoun (o sobie vs o nim/o tobie/o mnie, do siebie vs do niej, pomaga sobie vs pomaga mu). NO NOMINATIVE, stated as a fact with a reason rather than left as a gap. TWO PERMANENT OMISSIONS, logged in C1-DIGEST: the benefactive dative (kupilem sobie kawe - a second system under the load-splitting rule) and the reciprocal reading (named once on the closing slide, produced nowhere).",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_siebie.json"
     },
     {
       "id": "c1_word_order",

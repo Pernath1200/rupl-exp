@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 188 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 189 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -209,4 +209,5 @@ _None._
 | 193 | `c1_ktory_plural` | `ktory_plural` | 4 | `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `dat_pl`, `dative_sg`, `inst_z`, `ktory_cases`, `ktory_full`, `ktory_plural`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `o_loc`, `past_ac`, `past_rest`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `questions2`, `to_jest`, `virile_nom`, `virile_reco` |
 | 194 | `c1_pron_12_prep` | `pron_prep_12` | 7 | `byc_adj`, `byc_present`, `comparative`, `dat_chunks`, `dative_pron`, `inst_z`, `jechac`, `motion_chunk`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_z_gen`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `pron_prep_12`, `virile_reco` |
 | 195 | `c1_pron_je` | `pron_je` | 2 | `aspect_prefixes`, `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_je`, `pron_prep_12`, `question`, `question_cases`, `questions2`, `ten_ta_to`, `to_jest`, `virile_reco` |
+| 196 | `c1_siebie` | `siebie_sobie` | 3 | `byc_present`, `chodzic`, `dative_pron`, `dative_sg`, `inst_z`, `miec_acc`, `miec_present`, `motion_chunk`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `pron_prep_12`, `sie_reflexive`, `virile_nom` |
 

@@ -145,6 +145,7 @@ STRUCTURE_CATALOGUE = {
     "ktory_plural",
     "pron_prep_12",
     "pron_je",
+    "siebie_sobie",
 }
 
 GLUE_LEMMAS = {
