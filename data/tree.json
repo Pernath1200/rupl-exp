@@ -4272,18 +4272,19 @@
     {
       "id": "c1_past_gaps",
       "domain": "grammar",
-      "label": "Jechał, pomagał, mógł",
+      "label": "Jechałem, pomagałem, mogłem",
       "label_en": "Pasts the course never gave you",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 1. Inbox item 25, named specifically in b1_wrapup's digest as forms REJECTED DURING DRAFTING: jechal, pomagal, pomogl - plus mogl/moglem. All verified NEW. Also the -ic past of the motion imperfectives (chodzilem, wychodzilem), which b2_motion_imperf fenced as 'a second new system in one unit'. Every form is a straight application of past_ac / past_rest owned since A2, EXCEPT pomogl/mogl whose o-with-accent -> o shift is handed over whole (the b1_past_isc treatment). GATE (spine O13): mogl touches b1_polite's standing MOGLBY QUARANTINE - check it against James's current ruling BEFORE building, do not assume the past is covered by a fence written about the conditional.",
+      "note": "[C1 SPINE] Block 7, unit 1 (inbox item 25, named in b1_wrapup's digest as forms REJECTED DURING DRAFTING). [WIRED LIVE] TWENTY new strings - five verbs (jechac, pomagac, chodzic, moc, pomoc) by four cells: 1sg m/f, 3sg m/f. The c1_przez discipline held: NO 2sg, NO plural, NO neuter anywhere, distractors included. THE R6 GATE WAS CHECKED, NOT ASSUMED - R6 permits the past and holds the conditional whole, so no -by- form is built, derived or demanded, and the limit slide names mogłby ONCE in English as the frozen b1_polite phrase. TWELVE OF THE TWENTY ARE PURE RULE APPLICATION (past_ac / past_rest, owned since A2) and the table anchors on czytac->czytalem and robic->robilem, so the headline is 'you could have built these yourself'. THE EXCEPTION IS ONE CELL, NOT TWO VERBS: moc and pomoc take the o-with-accent in exactly the he-form (mogl, pomogl) and plain o everywhere else - anchored on past_isc's owned szedl/szla. chodzilem is the payoff, paying b2_motion_imperf's fence: the learner could say 'I walked to the shop yesterday' and not 'I used to walk to school'. pomagac/pomoc arrive as an aspect pair for free. TITLE UPDATED at wiring time per the standing instruction - the draft label carried mogl/jechal/pomagal, all three now taught here, and the shipped title uses the 1sg forms the unit actually drills. DROPPED AND LOGGED: bare moc (verified NEW, the course owns only moge/moze/mozna/moglby - a narrow R6 reading, so the verb is named on slides as 'moge -> mogl'); wychodzilem, a real permanent deferral since C1 is last. Dopasuj carries 12 of the 20, the other 8 are produced in Pisanie, and every form appears in at least one stage by assertion. Pisanie is twelve SINGLE FORMS typed whole (AGENTS' 'a single form for conjugation'), so Pisanie and Uzycie are disjoint by construction. Structure ID past_gaps registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_past_gaps.json"
     },
     {
       "id": "c1_ea_shift",

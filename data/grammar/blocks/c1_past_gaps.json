@@ -1,0 +1,618 @@
+{
+  "id": "c1_past_gaps",
+  "title": "Jechałem, pomagałem, mogłem",
+  "title_en": "Pasts the course never gave you",
+  "level": "C1",
+  "tree_node": "c1_past_gaps",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 1 (inbox item 25, named in b1_wrapup's digest as forms REJECTED DURING DRAFTING). Five verbs the learner has used in the present for months and has never once been able to put in the past.\n\nTHE R6 GATE WAS CHECKED, NOT ASSUMED. C1-SPINE O13 says to check mogl against James's live ruling before building. R6 (2026-08-07, LOCKED) reads: 'Past is fine; the conditional stays whole. c1_past_gaps may teach mogl/mogla/mogli as an ordinary past riding the owned l-forms. mogłby remains a memorised chunk - do not derive the conditional paradigm.' So the past ships. NO CONDITIONAL FORM IS BUILT, DERIVED OR DEMANDED anywhere: no moglbym, no moglabys, no plural conditional, no -by- ending on any form in this pack. The limit slide names mogłby ONCE, in English, as the frozen politeness phrase it has been since b1_polite, and says in terms that this unit does not take it apart.\n\nTWENTY NEW STRINGS, five verbs by four cells - 1sg masculine, 1sg feminine, 3sg masculine, 3sg feminine. The c1_przez discipline held exactly: NO 2sg, NO plural, NO neuter anywhere in the pack, including distractors. c1_przez shipped 18 strings on the same shape and for the same reason - the forms are the payoff, not the system.\n\nTWELVE OF THE TWENTY ARE PURE RULE APPLICATION AND THE PACK SAYS SO. jechac, pomagac and chodzic are completely regular: past_ac [52] and past_rest [53] have owned the operation since A2 (drop the -c, add -l- plus the person ending), and the table anchors it on czytac->czytalem and robic->robilem, two forms the learner has produced for a hundred and fifty nodes. The headline is therefore not 'here is something hard' but 'here is something you could have built yourself, and were never given the chance to'.\n\nTHE EXCEPTION IS ONE CELL, NOT TWO VERBS. moc and pomoc put the o-with-accent in EXACTLY ONE place - the he-form, mogl and pomogl - and every other cell has a plain o (moglem, moglam, mogla). That is one fact covering both verbs, which is why they share a slide rather than getting one each. THE ANCHOR IS OWNED: past_isc [108] already taught szedl against szla, a he-form that looks unlike its she-form, so the shape is familiar even though this verb is new.\n\nmoc's INFINITIVE IS **NOT** TAUGHT AND WAS DELIBERATELY DROPPED. check_new.py reports bare moc NEW (the course owns moge, mozesz, moze, mozna, moglby and never the dictionary form). It could have been added for one string, and was not: R6 is a narrow permission for the PAST, every sentence in this pack uses a past form, and adding the infinitive of the verb under b1_polite's MOGLBY QUARANTINE buys nothing. The verb is named on slides by its owned 1sg - 'moge -> mogl' - which is the c1_part_adv table idiom (robia -> robiac). LOGGED as a permanent drop, since C1 is the last level.\n\nchodzilem IS THE UNIT'S REAL PAYOFF and pays b2_motion_imperf's named fence ('a second new system in one unit'). a2_chodzic taught chodzic as the HABITUAL walking verb against isc for one particular journey; b1_past_isc then gave the past of ONLY the one-journey verb. So the learner can say 'I walked to the shop yesterday' and cannot say 'I used to walk to school' - which is the more useful sentence about a life. Slide 3 is that contrast, szedlem against chodzilem, and it costs nothing because both halves of the distinction were taught at A2 and the past of one half at B1.\n\npomagac / pomoc ARRIVE AS AN ASPECT PAIR AND THAT IS FREE. Aspect is owned since a2_aspect and b2_aspect_prefixes, pomagac is TAUGHT <- b1_dative_sg [118] and pomoc is TAUGHT <- trunk_can_a1 [24], so pomagalem (was helping) against pomoglem (helped, and it worked) is a contrast the learner can already read. Glossing follows AGENTS' split by verb type: the three imperfectives are glossed progressive or habitual (was travelling, was helping, used to go), moc is glossed with the plain simple past ('could') on the stative line alongside znac and chciec, and pomoc is perfective so 'helped' is unambiguous.\n\nTHE DATIVE COMES ALONG UNCHANGED. pomagac and pomoc both govern it and b1_dative_sg [118] owns mamie, tacie, siostrze, bratu, studentowi. dziecku is verified NEW and appears nowhere.\n\nDOPASUJ CARRIES 12 OF THE 20 FORMS, which is the most a twelve-row board can hold, and the twelve were chosen to put every verb and both the mogl and pomogl cells of the exception on screen. The other eight are produced in Pisanie, so every one of the twenty appears in at least one stage - checked by assertion, not by eye. pomogla is the single form that appears only in Uzycie.\n\nPISANIE IS TWELVE SINGLE FORMS TYPED WHOLE, not cloze, and that is the correct shape rather than a dodge: AGENTS names 'a single form for conjugation' as the minimal pattern unit, so a one-word answer is a pattern unit at any level and nothing here is composed. This is the c1_przez shape one block later. Uzycie then carries the sentences, so the two stages are disjoint by construction.\n\nDISTRACTORS are real taught forms only - other cells of the same verb, the infinitive, the owned present (moge, moze), and szedl/szedlem where the discrimination is habitual against one-occasion. NOTHING FABRICATED (C1-SPINE O12), and no neuter or plural form appears as a distractor either, since the pack does not teach them.\n\nFENCED, verified NEW and appearing NOWHERE: bare moc; dziecku; kiedys; wychodzilem and every prefixed chodzic past (see below); jechali/jechaly and every plural past of these five verbs; the e->a alternation as a NAMED pattern (c1_ea_shift, the very next node - mialem/chcialem/musialem are used freely here as the whole forms they have always been, and no rule is stated over them).\n\nwychodzilem WAS DROPPED AND IT IS A REAL DEFERRAL, logged loudly because C1 is last. C1-SPINE names it beside chodzilem. It is the identical operation with a prefix the learner owns, but adding it would have put a sixth verb and four more strings into a pack already carrying twenty, and the prefixed-motion mirror tables it would ride belong to b2_motion_prefixes2's idiom rather than to this unit's rule. If James wants it, it is four strings on the chodzilem row and nothing else changes.",
+  "focus_structures": [
+    "past_gaps"
+  ],
+  "teaches_structures": [
+    "past_gaps"
+  ],
+  "teaches_lemmas": [
+    "jechałem",
+    "jechałam",
+    "jechał",
+    "jechała",
+    "pomagałem",
+    "pomagałam",
+    "pomagał",
+    "pomagała",
+    "chodziłem",
+    "chodziłam",
+    "chodził",
+    "chodziła",
+    "mogłem",
+    "mogłam",
+    "mógł",
+    "mogła",
+    "pomogłem",
+    "pomogłam",
+    "pomógł",
+    "pomogła"
+  ],
+  "uses_structures": [
+    "past_gaps",
+    "past_ac",
+    "past_rest",
+    "past_isc",
+    "jechac",
+    "chodzic",
+    "inst_transport",
+    "prep_do_gen",
+    "dative_sg",
+    "can_inf",
+    "negation",
+    "aspect_past",
+    "present",
+    "present_e_isz"
+  ],
+  "intro": [
+    {
+      "title": "Four verbs you have only ever had in the present",
+      "title_pl": "jechałem · pomagałem · chodziłem · mogłem",
+      "body": "You have been saying jadę, pomagam, chodzę and mogę since A1 and A2. Not once has the course let you put any of them into the past. That was a scheduling decision, not a difficulty: three of the four are completely regular, and you have owned the rule that builds them since A2.\n\nHere they are, with pomóc added because it is the finished twin of pomagam and because it shares the one small oddity in the unit.\n\njechałem — I was travelling\npomagałem — I was helping\nchodziłem — I used to go\nmogłem — I could",
+      "body_pl": "Czas przeszły — pięć czasowników.",
+      "examples": [
+        {
+          "en": "Yesterday I was travelling to work by bus.",
+          "pl": "Wczoraj jechałem do pracy autobusem."
+        },
+        {
+          "en": "Dad was helping Mum.",
+          "pl": "Tata pomagał mamie."
+        },
+        {
+          "en": "Dad could not help.",
+          "pl": "Tata nie mógł pomóc."
+        }
+      ]
+    },
+    {
+      "title": "The rule is the one you have had since A2",
+      "title_pl": "-ć → -ł-",
+      "body": "Drop the -ć from the dictionary form, put -ł- in its place, and add the person ending. That is all three of the regular verbs, and the first two rows below are forms you have been producing for a hundred and fifty units.\n\nNothing about these three is new except that nobody had shown you them yet.",
+      "body_pl": "Reguła, którą już znasz.",
+      "table": {
+        "headers": [
+          "Dictionary form",
+          "I … (m)",
+          "he …",
+          "she …"
+        ],
+        "rows": [
+          [
+            "czytać",
+            "czytałem",
+            "czytał",
+            "czytała"
+          ],
+          [
+            "robić",
+            "robiłem",
+            "robił",
+            "robiła"
+          ],
+          [
+            "jechać",
+            "jechałem",
+            "jechał",
+            "jechała"
+          ],
+          [
+            "pomagać",
+            "pomagałem",
+            "pomagał",
+            "pomagała"
+          ],
+          [
+            "chodzić",
+            "chodziłem",
+            "chodził",
+            "chodziła"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "chodziłem is the one you have been missing",
+      "title_pl": "szedłem czy chodziłem?",
+      "body": "At A2 Polish made you choose between two walking verbs: iść for one particular journey, chodzić for the habit. B1 then gave you the past of the first one only.\n\nSo until now you could say Wczoraj szedłem do sklepu — I walked to the shop yesterday, that one time. You could not say what you did every day for years.\n\nszedłem — I walked, on that occasion\nchodziłem — I used to go, again and again\n\nChodziłem do szkoły codziennie. — I used to go to school every day.\n\nThe same split runs through jechać too, and jechałem is the one-journey half of it: Wczoraj jechałem do pracy autobusem is one particular ride to work.",
+      "body_pl": "Jeden raz — szedłem. Zawsze — chodziłem.",
+      "examples": [
+        {
+          "en": "I used to go to school every day. (m)",
+          "pl": "Chodziłem do szkoły codziennie."
+        },
+        {
+          "en": "Dad used to go to the park.",
+          "pl": "Tata chodził do parku."
+        },
+        {
+          "en": "Mum was travelling to the shop by car.",
+          "pl": "Mama jechała do sklepu samochodem."
+        }
+      ]
+    },
+    {
+      "title": "mogę has a past, and exactly one cell of it is odd",
+      "title_pl": "mogłem · mógł · mogła",
+      "body": "The past of mogę is regular everywhere except in one place. The he-form takes ó; every other form has a plain o.\n\nmogłem — I could (m)\nmogłam — I could (f)\nmógł — he could\nmogła — she could\n\nYou have met this shape before. At B1 the walking verb did the same thing: szedł against szła, where the he-form looks unlike everything around it. Read mógł off the table and do not try to build it.\n\nNie mogłem pomóc. — I could not help. This is probably the most useful sentence in the unit.",
+      "body_pl": "ó tylko tam: mógł, pomógł.",
+      "examples": [
+        {
+          "en": "Dad could not help Mum.",
+          "pl": "Tata nie mógł pomóc mamie."
+        },
+        {
+          "en": "Mum could not help my sister.",
+          "pl": "Mama nie mogła pomóc siostrze."
+        },
+        {
+          "en": "I could not help. (m)",
+          "pl": "Nie mogłem pomóc."
+        }
+      ]
+    },
+    {
+      "title": "pomóc does the same thing, and hands you the pair",
+      "title_pl": "pomagałem · pomogłem",
+      "body": "pomóc puts its ó in the same single cell: pomógł for a man, pomogła for a woman, plain o everywhere else.\n\nAnd because pomagać and pomóc are an unfinished-and-finished pair, their pasts say two different things — a distinction you have been able to read since A2 and can now make yourself.\n\npomagałem — I was helping, I used to help\npomogłem — I helped, and it worked\n\nTata pomagał mamie. — Dad used to help Mum. That was how things were.\nTata pomógł mamie wczoraj. — Dad helped Mum yesterday. One occasion, and the job got done.\n\nBoth of them take the same case as before: pomagam mamie, pomogłem mamie.",
+      "body_pl": "pomagałem — zawsze. pomogłem — raz.",
+      "examples": [
+        {
+          "en": "Dad helped Mum yesterday.",
+          "pl": "Tata pomógł mamie wczoraj."
+        },
+        {
+          "en": "My sister helped Mum.",
+          "pl": "Siostra pomogła mamie."
+        },
+        {
+          "en": "I was helping my brother. (m)",
+          "pl": "Pomagałem bratu."
+        }
+      ]
+    },
+    {
+      "title": "Where the edges are",
+      "title_pl": "mogłem · mógłby",
+      "body": "Two limits worth naming.\n\nThis unit gives you I and he and she, and stops there. Groups and the you-form are left out on purpose; the rule you have just applied would build them, but the pack keeps to the forms you will actually reach for about yourself and about one other person.\n\nAnd one word deserves a warning. You have been saying Czy mógłby pan mi pomóc? since B1, and mógłby looks very much like mógł with a piece stuck on. It is related. But that phrase is a fixed piece of politeness — you learned it whole, it works whole, and nothing here is an instruction to take it apart or to build others like it. Keep saying it exactly as you learned it.",
+      "body_pl": "Czy mógłby pan…? — pytanie, nie reguła.",
+      "examples": [
+        {
+          "en": "I used to go to the shop. (f)",
+          "pl": "Chodziłam do sklepu."
+        },
+        {
+          "en": "I helped my sister. (m)",
+          "pl": "Pomogłem siostrze."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was travelling (m)",
+      "pl": "jechałem"
+    },
+    {
+      "en": "he was travelling",
+      "pl": "jechał"
+    },
+    {
+      "en": "she was travelling",
+      "pl": "jechała"
+    },
+    {
+      "en": "I was helping (m)",
+      "pl": "pomagałem"
+    },
+    {
+      "en": "he was helping",
+      "pl": "pomagał"
+    },
+    {
+      "en": "I used to go, on foot (m)",
+      "pl": "chodziłem"
+    },
+    {
+      "en": "he used to go, on foot",
+      "pl": "chodził"
+    },
+    {
+      "en": "she used to go, on foot",
+      "pl": "chodziła"
+    },
+    {
+      "en": "I could (m)",
+      "pl": "mogłem"
+    },
+    {
+      "en": "he could",
+      "pl": "mógł"
+    },
+    {
+      "en": "she could",
+      "pl": "mogła"
+    },
+    {
+      "en": "he helped (once, and it worked)",
+      "pl": "pomógł"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Wczoraj ___ do pracy autobusem. (I was travelling — m)",
+      "choices": [
+        "jechałem",
+        "jechał",
+        "jechała",
+        "jechać"
+      ],
+      "answer": "jechałem",
+      "explain": "An ordinary -ać past: drop the ć, add -łem. The rule you have had since A2."
+    },
+    {
+      "prompt": "Mama ___ do sklepu samochodem. (was travelling)",
+      "choices": [
+        "jechała",
+        "jechał",
+        "jechałem",
+        "jechać"
+      ],
+      "answer": "jechała",
+      "explain": "mama is feminine, so the ending is -ła."
+    },
+    {
+      "prompt": "Tata ___ mamie. (was helping, used to help)",
+      "choices": [
+        "pomagał",
+        "pomagała",
+        "pomagałem",
+        "pomagać"
+      ],
+      "answer": "pomagał",
+      "explain": "The unfinished verb, so this is how things were rather than one occasion."
+    },
+    {
+      "prompt": "___ siostrze w weekend. (I was helping — m)",
+      "choices": [
+        "Pomagałem",
+        "Pomagałam",
+        "Pomagał",
+        "Pomagać"
+      ],
+      "answer": "Pomagałem",
+      "explain": "Pomagałam is the same form said by a woman."
+    },
+    {
+      "prompt": "___ do szkoły codziennie. (I used to go, every day — m)",
+      "choices": [
+        "Chodziłem",
+        "Szedłem",
+        "Chodził",
+        "Chodzić"
+      ],
+      "answer": "Chodziłem",
+      "explain": "Szedłem is real Polish and says something else: one particular walk. Codziennie makes it a habit, and the habit verb is chodzić."
+    },
+    {
+      "prompt": "Wczoraj ___ do sklepu. (I walked there — that one time, m)",
+      "choices": [
+        "szedłem",
+        "chodziłem",
+        "chodził",
+        "chodzić"
+      ],
+      "answer": "szedłem",
+      "explain": "The mirror of the last item, and the B1 form you already own."
+    },
+    {
+      "prompt": "Tata ___ do parku. (used to go, on foot)",
+      "choices": [
+        "chodził",
+        "chodziła",
+        "chodziłem",
+        "szedł"
+      ],
+      "answer": "chodził",
+      "explain": "szedł would be one particular walk to the park."
+    },
+    {
+      "prompt": "Nie ___ pomóc. (I could not — m)",
+      "choices": [
+        "mogłem",
+        "mógł",
+        "mogła",
+        "mogę"
+      ],
+      "answer": "mogłem",
+      "explain": "Plain o. The ó turns up in one cell only, and this is not it."
+    },
+    {
+      "prompt": "Tata nie ___ pomóc. (could not)",
+      "choices": [
+        "mógł",
+        "mogła",
+        "mogłem",
+        "może"
+      ],
+      "answer": "mógł",
+      "explain": "This is the cell. The he-form is the only one with ó."
+    },
+    {
+      "prompt": "Mama nie ___ pomóc. (could not)",
+      "choices": [
+        "mogła",
+        "mógł",
+        "mogłem",
+        "może"
+      ],
+      "answer": "mogła",
+      "explain": "And the she-form goes straight back to o."
+    },
+    {
+      "prompt": "Tata ___ mamie wczoraj. (helped — once, and the job got done)",
+      "choices": [
+        "pomógł",
+        "pomogła",
+        "pomagał",
+        "pomóc"
+      ],
+      "answer": "pomógł",
+      "explain": "pomagał would say he used to help, which is not what one day means."
+    },
+    {
+      "prompt": "___ siostrze. (I helped — once, m)",
+      "choices": [
+        "Pomogłem",
+        "Pomagałem",
+        "Pomógł",
+        "Pomóc"
+      ],
+      "answer": "Pomogłem",
+      "explain": "The finished twin. Both take the same case after them."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was travelling (m)",
+      "mode": "full_word",
+      "answer": "jechałem",
+      "accepts": [
+        "jechałem"
+      ],
+      "explain": "jechać − ć + łem."
+    },
+    {
+      "prompt_en": "I was travelling (f)",
+      "mode": "full_word",
+      "answer": "jechałam",
+      "accepts": [
+        "jechałam"
+      ]
+    },
+    {
+      "prompt_en": "he was travelling",
+      "mode": "full_word",
+      "answer": "jechał",
+      "accepts": [
+        "jechał"
+      ]
+    },
+    {
+      "prompt_en": "I was helping (f)",
+      "mode": "full_word",
+      "answer": "pomagałam",
+      "accepts": [
+        "pomagałam"
+      ]
+    },
+    {
+      "prompt_en": "she was helping",
+      "mode": "full_word",
+      "answer": "pomagała",
+      "accepts": [
+        "pomagała"
+      ]
+    },
+    {
+      "prompt_en": "I used to go, on foot (f)",
+      "mode": "full_word",
+      "answer": "chodziłam",
+      "accepts": [
+        "chodziłam"
+      ]
+    },
+    {
+      "prompt_en": "he used to go, on foot",
+      "mode": "full_word",
+      "answer": "chodził",
+      "accepts": [
+        "chodził"
+      ]
+    },
+    {
+      "prompt_en": "I could (m)",
+      "mode": "full_word",
+      "answer": "mogłem",
+      "accepts": [
+        "mogłem"
+      ],
+      "explain": "Plain o — the ó is only ever in the he-form."
+    },
+    {
+      "prompt_en": "I could (f)",
+      "mode": "full_word",
+      "answer": "mogłam",
+      "accepts": [
+        "mogłam"
+      ]
+    },
+    {
+      "prompt_en": "he could",
+      "mode": "full_word",
+      "answer": "mógł",
+      "accepts": [
+        "mógł"
+      ],
+      "explain": "The one cell with ó. Read it off the table."
+    },
+    {
+      "prompt_en": "I helped, once (m)",
+      "mode": "full_word",
+      "answer": "pomogłem",
+      "accepts": [
+        "pomogłem"
+      ]
+    },
+    {
+      "prompt_en": "I helped, once (f)",
+      "mode": "full_word",
+      "answer": "pomogłam",
+      "accepts": [
+        "pomogłam"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Yesterday I was travelling to work by bus. (m)",
+      "answer": "Wczoraj jechałem do pracy autobusem.",
+      "accepts": [
+        "Wczoraj jechałem do pracy autobusem.",
+        "Wczoraj jechałem do pracy autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was travelling to the shop by car.",
+      "answer": "Mama jechała do sklepu samochodem.",
+      "accepts": [
+        "Mama jechała do sklepu samochodem.",
+        "Mama jechała do sklepu samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad used to help Mum.",
+      "answer": "Tata pomagał mamie.",
+      "accepts": [
+        "Tata pomagał mamie.",
+        "Tata pomagał mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I used to go to school every day. (m, on foot)",
+      "answer": "Chodziłem do szkoły codziennie.",
+      "accepts": [
+        "Chodziłem do szkoły codziennie.",
+        "Chodziłem do szkoły codziennie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad used to go to the park. (on foot)",
+      "answer": "Tata chodził do parku.",
+      "accepts": [
+        "Tata chodził do parku.",
+        "Tata chodził do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad could not help Mum.",
+      "answer": "Tata nie mógł pomóc mamie.",
+      "accepts": [
+        "Tata nie mógł pomóc mamie.",
+        "Tata nie mógł pomóc mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum could not help my sister.",
+      "answer": "Mama nie mogła pomóc siostrze.",
+      "accepts": [
+        "Mama nie mogła pomóc siostrze.",
+        "Mama nie mogła pomóc siostrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad helped Mum yesterday.",
+      "answer": "Tata pomógł mamie wczoraj.",
+      "accepts": [
+        "Tata pomógł mamie wczoraj.",
+        "Tata pomógł mamie wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister helped Mum.",
+      "answer": "Siostra pomogła mamie.",
+      "accepts": [
+        "Siostra pomogła mamie.",
+        "Siostra pomogła mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I was helping my brother. (m)",
+      "answer": "Pomagałem bratu.",
+      "accepts": [
+        "Pomagałem bratu.",
+        "Pomagałem bratu"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "jechać",
+    "chodzić",
+    "pomagać",
+    "pomóc",
+    "czytać",
+    "czytałem",
+    "czytał",
+    "czytała",
+    "robić",
+    "robiłem",
+    "robił",
+    "robiła",
+    "szedłem",
+    "szedł",
+    "mogę",
+    "może",
+    "mama",
+    "tata",
+    "siostra",
+    "mamie",
+    "siostrze",
+    "bratu",
+    "do pracy",
+    "do sklepu",
+    "do szkoły",
+    "do parku",
+    "autobusem",
+    "samochodem",
+    "wczoraj",
+    "codziennie",
+    "w weekend",
+    "nie",
+    "parku",
+    "pracy",
+    "sklepu",
+    "szkoły"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_past_gaps",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
