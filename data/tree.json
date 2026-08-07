@@ -4482,11 +4482,12 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
       "note": "[C1 SPINE] Block 7 vocab (spine O8). Hedging and precision - the register that makes an opinion sound like an opinion. VERIFIED NEW: pewnie, naprawde, dokladnie - all three are b2_discussion_func's OWN logged drops, held back there because they would have 'flattened four contrasting jobs into a pile of interchangeable adverbs'; with uwazam/zalezy/raczej/wlasciwie now owned and spaced, the contrast survives. Trim to 12; top up from b2_discussion_func's note (other persons of uwazac, the rest of wedlug's Genitive complements). OPEN JAMES CALL, carried unresolved from B2 batch 17 (spine O13): 'wydaje mi sie' is absent from the course because wydaje is TAUGHT as SPENDS <- b2_verb_family2.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/c1_nuance.json"
     },
     {
       "id": "c1_time_minutes",
