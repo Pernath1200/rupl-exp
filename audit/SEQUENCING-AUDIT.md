@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 184 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 185 · **errors:** 0 · **warns:** 3 · **missing_tags:** 0
 
 ## Errors
 
@@ -10,6 +10,7 @@ _None._
 
 ## Warnings
 
+- **a1_which_case** [teaches_empty_grammar] `a1_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
 - **a2_prep_review** [teaches_empty_grammar] `a2_prep_review` — Grammar teach node has empty teaches_*; confirm intentional.
 - **b1_two_futures** [teaches_empty_grammar] `b1_two_futures` — Grammar teach node has empty teaches_*; confirm intentional.
 
@@ -61,6 +62,7 @@ _None._
 | 41 | `trunk_there_time_a1` | `existential_jest` | 1 | `byc_present`, `existential_jest`, `negation`, `social_chunk` |
 | 42 | `leaf_health_a1` | — | 24 | `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `to_jest`, `zgoda` |
 | 43 | `a1_inst_job` | `inst_identity` | 18 | `byc_present`, `inst_identity` |
+| 44 | `a1_which_case` | — | 0 | `byc_present`, `existential_jest`, `gen_endings`, `inst_identity`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `present_uje`, `to_jest`, `zgoda` |
 | 45 | `a1_case_gym` | — | 15 | `byc_present`, `gen_endings`, `miec_acc`, `negation`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `to_jest` |
 | 46 | `leaf_work_a1` | — | 35 | `byc_adj`, `byc_present`, `inst_identity`, `miec_acc`, `miec_present`, `poss_nom`, `prep_w_loc`, `present_uje`, `to_jest`, `zgoda` |
 | 47 | `leaf_ideas_a1` | — | 48 | `byc_adj`, `byc_present`, `comparative`, `miec_acc`, `miec_present`, `poss_nom`, `to_jest`, `zgoda` |

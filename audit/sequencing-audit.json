@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "codex/SEQUENCING.md",
-  "generated_at": "2026-08-07T07:16:30+02:00",
+  "generated_at": "2026-08-07T05:56:14+00:00",
   "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -246,15 +246,31 @@
     "c1_station_2"
   ],
   "summary": {
-    "nodes_audited": 184,
+    "nodes_audited": 185,
     "errors": 0,
-    "warns": 2,
+    "warns": 3,
     "infos": 0,
     "missing_tags": 0
   },
   "findings": [
     {
       "id": "SEQ-001",
+      "severity": "warn",
+      "code": "teaches_empty_grammar",
+      "node_id": "a1_which_case",
+      "pack_id": "a1_which_case",
+      "domain": "grammar",
+      "path_index": 44,
+      "missing": {
+        "kind": "teaches",
+        "id": "a1_which_case"
+      },
+      "available_sample": [],
+      "suggest": "Grammar teach node has empty teaches_*; confirm intentional.",
+      "item_ref": null
+    },
+    {
+      "id": "SEQ-002",
       "severity": "warn",
       "code": "teaches_empty_grammar",
       "node_id": "a2_prep_review",
@@ -270,7 +286,7 @@
       "item_ref": null
     },
     {
-      "id": "SEQ-002",
+      "id": "SEQ-003",
       "severity": "warn",
       "code": "teaches_empty_grammar",
       "node_id": "b1_two_futures",
@@ -1678,6 +1694,62 @@
       "uses_structures": [
         "byc_present",
         "inst_identity"
+      ],
+      "unlocked_structures_after": [
+        "byc_adj",
+        "byc_present",
+        "can_inf",
+        "comparative",
+        "existential_jest",
+        "gen_endings",
+        "inst_identity",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present",
+        "present_am",
+        "present_e_esz",
+        "present_e_isz",
+        "present_uje",
+        "question",
+        "social_chunk",
+        "ten_ta_to",
+        "to_jest",
+        "zgoda"
+      ]
+    },
+    {
+      "path_index": 44,
+      "node_id": "a1_which_case",
+      "pack_id": "a1_which_case",
+      "domain": "grammar",
+      "teaches_structures": [],
+      "teaches_lemmas_n": 0,
+      "uses_structures": [
+        "byc_present",
+        "existential_jest",
+        "gen_endings",
+        "inst_identity",
+        "miec_acc",
+        "miec_present",
+        "motion_chunk",
+        "negation",
+        "poss_nom",
+        "prep_do_gen",
+        "prep_place",
+        "prep_w_loc",
+        "prep_z_gen",
+        "present_am",
+        "present_e_esz",
+        "present_uje",
+        "to_jest",
+        "zgoda"
       ],
       "unlocked_structures_after": [
         "byc_adj",

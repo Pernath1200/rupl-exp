@@ -4694,12 +4694,13 @@
       "levels": [
         "A1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "forms",
       "tree_part": "forms",
       "pedagogy": "teach",
-      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it.",
+      "content": "grammar/blocks/a1_which_case.json"
     },
     {
       "id": "a2_which_case",

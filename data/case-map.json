@@ -9,15 +9,16 @@
     { "id": "dat", "pl": "celownik", "en": "Dative", "job": "the person something is given, said or done FOR" }
   ],
   "triggers": [
-    { "case": "nom", "trigger": "to jest… / to są…", "gloss": "naming something", "example": "To jest kawa.", "taught_by": "a1_gender" },
+    { "case": "nom", "trigger": "to jest…", "gloss": "naming something", "example": "To jest kawa.", "taught_by": "a1_gender" },
     { "case": "nom", "trigger": "the subject — who is doing it", "gloss": "the actor of the verb", "example": "Kawa jest dobra.", "taught_by": "a1_gender" },
     { "case": "acc", "trigger": "mam · piję · chcę · lubię · kupuję", "gloss": "a verb acting on a thing", "example": "Mam kawę.", "taught_by": "a1_miec" },
     { "case": "gen", "trigger": "nie ma… / nie mam…", "gloss": "saying something is absent", "example": "Nie ma mleka.", "taught_by": "a1_negation" },
     { "case": "gen", "trigger": "do… (going TO a place)", "gloss": "destination", "example": "Idę do sklepu.", "taught_by": "a1_prep_do_z" },
     { "case": "gen", "trigger": "z / ze… (coming FROM)", "gloss": "origin", "example": "Wracam ze sklepu.", "taught_by": "a1_prep_do_z" },
-    { "case": "gen", "trigger": "dużo · mało · blisko", "gloss": "quantity and nearness", "example": "Dużo kawy.", "taught_by": "a1_gen_endings" },
+    { "case": "gen", "trigger": "dużo · blisko", "gloss": "quantity and nearness", "example": "Dużo kawy.", "taught_by": "a1_gen_endings" },
     { "case": "loc", "trigger": "w / na — meaning WHERE something is", "gloss": "static position, never movement", "example": "Jestem w sklepie.", "taught_by": "a1_prep_place" },
     { "case": "inst", "trigger": "jestem… (a job or an identity)", "gloss": "what someone IS", "example": "Jestem nauczycielem.", "taught_by": "a1_inst_job" },
+    { "case": "nom", "trigger": "to są…", "gloss": "naming more than one", "example": "To są gazety.", "taught_by": "a2_plural_nom" },
     { "case": "gen", "trigger": "pięć · sześć… (5 and above)", "gloss": "counted things from five up", "example": "pięć piw", "taught_by": "a2_numbers_gen" },
     { "case": "inst", "trigger": "z… (WITH a person)", "gloss": "company — the same word z, a different job from z + Genitive", "example": "Idę z bratem.", "taught_by": "a2_inst_z" },
     { "case": "inst", "trigger": "travelling BY something", "gloss": "means of transport, no preposition at all", "example": "Jadę autobusem.", "taught_by": "a2_inst_transport" },
