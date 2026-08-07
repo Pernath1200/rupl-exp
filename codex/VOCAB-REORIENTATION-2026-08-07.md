@@ -1,8 +1,10 @@
 # Vocabulary reorientation — 2026-08-07
 
 Follows `LEVEL-AUDIT-2026-08-07.md`. That audit counted **deck items**. This one
-counts **lemmas**, measured against a frequency-ranked list of the target
-language. Decisions taken with James in session; build not started.
+counts **lemmas**, then re-measures both apps against a CEFR-banded inventory.
+Twelve decisions taken with James across three question rounds. Build not started.
+
+**Covers both RUPL and RUE.** RUCZ is parked.
 
 ---
 
@@ -21,161 +23,140 @@ vocabulary units at all — they are paradigm drills delivering the dative,
 past-tense gender and plural-personal payoffs. **That is why the shortfall went
 unseen: the vocab slots at B1 were full, just not of lexis.**
 
-B2 and C1 packs, by contrast, are clean lemmas.
-
 ## 2. Measured position
 
-Method: OpenSubtitles-2018 frequency list → collapsed to lemmas via a
-morphological dictionary (ambiguous forms split their count fractionally across
-candidate lemmas, proper nouns dropped). Taught strings are lemmatised by the
-same function, so both sides are counted identically. Tool: `codex/scripts/lex_coverage.py`.
+### By lemma, against corpus frequency
 
-### RUPL (Polish)
+Tool: `codex/scripts/lex_coverage.py` (language-neutral; runs against rue-exp
+unchanged with `python lex_coverage.py en`).
 
-| level | deck items | lemmas | cumulative |
+| | vocab lemmas | +grammar | top-500 | top-5,000 |
+|---|---|---|---|---|
+| RUPL | 1,113 | 1,388 | **62%** | 22% |
+| RUE | 1,982 | 1,982 | **83%** | 36% |
+
+**RUPL's gap starts at the base, not the top.** 192 of the 500 commonest Polish
+words are untaught, including `dla`, `swój`, `taki`, `sam`, `każdy`, `żaden`,
+`inny`, `ktoś`, `wiele`, and the verbs `zostać`, `znaleźć`, `wrócić`, `wziąć`,
+`rozumieć`, `pamiętać`, `zacząć`, `przestać`, `potrzebować`. These are A1/A2
+words. **The earlier audit's "A1 and A2 are genuinely at level" does not survive
+lemma measurement.** `swój` is not optional Polish.
+
+### By CEFR band, against the Oxford 5000
+
+The better measure, and the one the build now runs on. Coverage counts a word as
+present if it appears in any English-bearing field of any pack — so these are
+**floors**: the true gaps are larger.
+
+| Oxford band | size | RUPL covered | RUE covered |
 |---|---|---|---|
-| A1 | 666 | 740 | 740 |
-| A2 | 341 | 329 | 992 |
-| B1 | 84 | 71 | 1,041 |
-| B2 | 36 | 51 | 1,090 |
-| C1 | 24 | 27 | 1,113 |
+| A1 | 898 | 810 (90%) | 878 (98%) |
+| A2 | 792 | 442 (56%) | 780 (98%) |
+| B1 | 690 | 245 (36%) | 386 (56%) |
+| **A1–B1 gap** | **2,380** | **883** | **336** |
 
-Grammar packs add 275 lemmas the vocab packs never teach → **1,388 total**.
+**The two apps fail differently.** RUE's A1 and A2 are genuinely finished; its
+whole deficit is one band wide, at B1. RUPL leaks across all three bands, worst
+at A2 — which is exactly where Dad is heading next.
 
-| band | taught | % | missing |
-|---|---|---|---|
-| top 500 | 311 | **62%** | 189 |
-| top 1,000 | 497 | 50% | 503 |
-| top 2,000 | 763 | 38% | 1,237 |
-| top 3,000 | 915 | 30% | 2,085 |
-| top 5,000 | 1,116 | **22%** | 3,884 |
+**Cross-check that matters:** two independent routes agree on RUPL's size —
+Polish corpus frequency to a 2,250-lemma total gives **+862**; completing Oxford
+A1–B1 gives **+883**. Different data, different method, same answer.
 
-**The gap is not only at the top — it starts at the bottom.** 189 of the 500
-commonest words in Polish are untaught, including `dla`, `przy`, `swój`, `taki`,
-`sam`, `każdy`, `żaden`, `inny`, `jakiś`, `ktoś`, `wiele`, `prawda`, `sprawa`,
-`chwila`, and the verbs `zostać`, `znaleźć`, `wrócić`, `wziąć`, `dostać`,
-`rozumieć`, `pamiętać`, `zacząć`, `przestać`, `pozwolić`, `potrzebować`.
+## 3. Decisions
 
-These are A1/A2 words. The audit's finding that "A1 and A2 are genuinely at
-level" **does not survive this measurement** — they are at level for their own
-chosen topics, but leave holes in the highest-frequency core. `swój` in
-particular is not optional Polish.
-
-### RUE (English) — a different shape
-
-| level | deck items | lemmas | cumulative |
-|---|---|---|---|
-| A1 | 894 | 842 | 842 |
-| A2 | 1,198 | 1,198 | 1,762 |
-| B1 | 288 | 354 | 1,982 |
-| B2 | — | 0 | — |
-| C1 | — | 0 | — |
-
-| band | taught | % |
-|---|---|---|
-| top 500 | 414 | **83%** |
-| top 1,000 | 763 | 76% |
-| top 2,000 | 1,243 | 62% |
-| top 3,000 | 1,511 | 50% |
-| top 5,000 | 1,787 | **36%** |
-
-**RUE's problem is the opposite of RUPL's.** Its core is healthy — 83% of the
-commonest 500, and an A2 that carries 1,198 lemmas against RUPL's 329. What RUE
-has is a **cliff**: vocabulary stops dead after B1, with no B2 or C1 packs at
-all. RUPL leaks at the base; RUE runs out at the top.
-
-Consequence for sequencing: RUE needs *extension*, RUPL needs *extension plus
-back-fill*. The back-fill is the more urgent of the two, because a missing `dla`
-breaks sentences a learner meets on day one.
-
-## 3. Decisions taken
+Round 1 — framing:
 
 | # | question | decision |
 |---|---|---|
-| 1 | target | **Read real Polish unaided** — ~4,000–5,000 receptive lemmas |
-| 2 | timing | **Parallel night-shift branch**, while A2/B1 smoke by day |
-| 3 | authoring shape | **Frequency-list driven bulk decks** |
-| 4 | labels | **Split the claim in-app** — grammar to C1, vocabulary stated honestly |
-| 5 | drill mode | **Two-speed** — core productive, outer receptive-only |
-| 6 | word source | **Corpus-derived frequency list** |
-| 7 | architecture | **Separate reading lane, level-gated** |
-| 8 | scope | **Build for PL, design portable** |
+| 1 | target | Read real Polish unaided — **later superseded by #9** |
+| 2 | timing | Parallel night-shift branch, while A2/B1 smoke by day |
+| 3 | authoring shape | Frequency-driven bulk decks — **superseded by #12** |
+| 4 | labels | Split the claim in-app |
+| 5 | drill mode | Two-speed — **superseded by #11** |
+| 6 | word source | Corpus-derived list — **superseded by #12** |
+| 7 | architecture | Reading lane — **superseded by #11** |
+| 8 | scope | Build for PL, design portable |
 
-## 4. Architecture — the reading lane
+Rounds 2 and 3 — the build as it now stands:
 
-A parallel lane outside the node graph.
+| # | question | decision |
+|---|---|---|
+| 9 | **RUPL scope** | **Cap at B1** — +862/+883 to ~2,250 lemmas. The read-unaided target is retired. |
+| 10 | **RUE scope** | **Clean to B1 now** (336 words); B2/C1 is a separate decision, deliberately not taken |
+| 11 | **Architecture** | **No reading lane.** Ordinary thematic vocab packs, full five modes, existing quality bar |
+| 12 | **Word source** | **Published CEFR wordlists** (Oxford 5000) rather than raw frequency |
+| 13 | **RUE audit debt** | **Backfill `teaches_lemmas`** across RUE's 93 grammar packs |
+| 14 | **RUE shape** | ~28 new thematic B1 packs of 12, matching current convention |
+| 15 | **Build owner** | **One session drives both**, on a separate branch per repo |
 
-- **Teaches lemmas only. Introduces zero structures.** This is what protects the
-  sequencing guarantee: the lane cannot violate "nothing used before it is
-  taught" by construction, so the 0-errors-across-199-nodes result stands
-  untouched. No lane deck may carry a `teaches_structures` entry.
-- **Level-gated.** A level's lane band unlocks when that level's grammar is done.
-- **Recognition-only modes** — `Dopasuj` + `Quiz`, direction PL→EN. No `Słowo`
-  type-in, no `Zdanie` bank. This is the change that makes the volume possible:
-  authoring drops to roughly one line per word.
-- **Two-speed boundary.** The existing ~1,113 vocab-pack lemmas plus the back-fill
-  of high-frequency core words stay on the full five modes (productive — he must
-  be able to *say* these). Everything above sits in the lane (receptive).
+### Why the lane was dropped
 
-Portability: the lane format is language-neutral — a frequency source, a lemma
-table, banded decks, a gating rule. RUE and RUCZ adopt it by swapping the two
-data sources and the item field, exactly as `lex_coverage.py` already does.
+Everything inside a B1 cap is high-frequency core vocabulary, and core words
+should be **produced**, not merely recognised. The receptive lane existed to make
+4,000 words affordable; at 883 it is unnecessary machinery. This removes the
+gating engine, the recognition-only modes, and the two-speed split in one stroke
+— and it means **no app-code changes at all**, only content.
 
-## 5. Open problem — the corpus is the wrong register
+### Why Oxford rather than frequency
 
-Flagging this rather than quietly proceeding, because it affects what gets built.
+The OpenSubtitles list is film dialogue. Its artefacts were visible and
+disqualifying: the English missing-list was roughly a quarter contraction
+fragments (`don`, `isn`, `wasn`, `wouldn`), subtitle-speak (`wanna`, `gonna`,
+`um`) and profanity. Oxford's banding is pedagogically curated, already
+CEFR-aligned, and junk-free.
 
-The frequency list is **OpenSubtitles — film dialogue**. Against a target of
-*reading real Polish*, it is the wrong register. Its artefacts are visible in the
-raw output: for Polish it surfaces `hej`, `zabić`, `oh`, `och`; for English the
-untaught list is topped by contraction fragments (`'t`, `don`, `isn`, `wouldn`)
-and subtitle noise (`uh`, `huh`, `gonna`, and a run of profanity).
+**Known weakness, carried deliberately:** there is no machine-readable Polish
+CEFR wordlist — the state certification standards describe skills, not
+inventories. So RUPL authors the **Polish realisation of the Oxford concepts**,
+which imports English concept-frequency. `codex/vocab/pl-frequency-crosscheck.tsv`
+holds the 502 untaught Polish lemmas inside the corpus top-1,000 as the guard
+against that: anything there which the translated inventory does not produce is a
+Polish-specific gap and must be added by hand.
 
-**The raw missing-word lists are not a curriculum and must not be authored from
-directly.** Two fixes, and this is a decision still to take:
+## 4. Target lists — generated, ready to author
 
-1. **Blend with a written-register corpus** — Wikipedia dump frequency skews
-   formal/encyclopaedic; subtitles skew spoken. A blend of the two is defensible
-   for "reads newspapers *and* follows conversation".
-2. **Filter and hand-check each band** before it becomes a deck — cheap for the
-   first 2,000, expensive after.
+| file | rows | what it is |
+|---|---|---|
+| `rupl-exp/codex/vocab/oxford-b1-gap.tsv` | 883 | Oxford A1–B1 concepts with no Polish gloss (88 A1 · 350 A2 · 445 B1) |
+| `rupl-exp/codex/vocab/pl-frequency-crosscheck.tsv` | 502 | high-frequency Polish lemmas the Oxford route may miss |
+| `rue-exp/codex/vocab/oxford-b1-gap.tsv` | 336 | Oxford A1–B1 words absent from RUE (20 A1 · 12 A2 · 304 B1) |
 
-Recommendation: do both — blend for ordering, hand-check each band before it
-ships. The tokeniser also needs a contractions fix before the EN list is usable.
+Both gap files carry `band · word · part-of-speech` and a header stating the
+floor caveat.
 
-## 6. Build order
+## 5. Build order
 
-1. **Back-fill the core first.** The ~190 untaught words inside Polish's top 500,
-   then the top 1,000. These go into the *productive* tier, not the lane — they
-   are too common to be recognition-only. Highest value per unit of work in the
-   whole plan, and it repairs A1/A2 rather than extending C1.
-2. Blend the corpus, fix tokenisation, re-run coverage.
-3. Build the lane machinery (recognition-only modes, gating).
-4. Band and author the lane upward toward top-5,000.
-5. Write the honest claim into the app.
+**RUPL** — bands in order, because A2 is where Dad arrives next:
+1. The 88 A1 gaps, plus the top-500 Polish holes from the cross-check
+   (`dla`, `swój`, `każdy`, `zostać`, `wrócić`…). Cheapest work in the plan and
+   it repairs the level Dad is actually on.
+2. The 350 A2 gaps — the widest band, and the one that most changes what he can read.
+3. The 445 B1 gaps.
 
-Step 1 is worth doing even if everything after it is abandoned.
+**RUE** — the reverse shape, because A1/A2 are done:
+1. Backfill `teaches_lemmas` across 93 grammar packs. **Prerequisite** — without
+   it RUE cannot be audited and every count stays a range rather than a number.
+2. The 304 B1 words as ~26 thematic packs.
+3. The 32 A1/A2 stragglers, mostly multi-word items (`have to`, `ice cream`,
+   `next to`, `t-shirt`) and a compass/measurement cluster.
 
-## 7. For the RUE tab
+Sequencing discipline is unchanged: no pack may introduce a structure, every new
+form must be declared, `check_new.py` before any string ships.
 
-RUE work should be driven from the RUE session, not this one — `rue-exp` is on
-branch `build` with the hourly cloud routine live, and a second writer risks
-collision. The **measurement is read-only and already done** (numbers in §2).
+## 6. Open items
 
-Paste-able brief:
-
-> Read `Documents/projects/rupl-exp/codex/VOCAB-REORIENTATION-2026-08-07.md`
-> §2 and §4. The lexical-coverage tool is at `codex/scripts/lex_coverage.py` in
-> rupl-exp and runs against rue-exp unchanged: `python lex_coverage.py en`.
-> RUE's measured position: 1,982 taught lemmas, 83% of the commonest 500, 36% of
-> the top 5,000, and **no B2 or C1 vocabulary packs at all**. RUE's fix is
-> extension at B2/C1, not back-fill — its core is sound, unlike RUPL's. Apply the
-> same reading-lane architecture: lemmas only, zero structures, level-gated,
-> recognition-only modes. Note the corpus caveat in §5 — the English frequency
-> list needs a contractions fix before use.
+- **RUE's hourly cloud routine is live on branch `build`.** One writer per branch
+  is the rule that has held all through the RUPL build — the routine must be
+  paused or fenced before RUE vocab work starts.
+- **B2/C1 for RUE is not decided.** Jan is C1–C2, Václav C1, Martina B1–B2, and
+  RUE covers 27% of Oxford B2 and 9% of C1. A B1-capped RUE does not serve them.
+  Deliberately left as its own decision rather than folded in here.
+- **The in-app claim** still needs writing: grammar to C1, vocabulary to B1.
 
 ---
 
-*Sources: [FrequencyWords, OpenSubtitles 2018](https://github.com/hermitdave/FrequencyWords) ·
+*Sources: [Oxford 5000 CEFR-banded](https://github.com/nalgeon/words) ·
+[FrequencyWords, OpenSubtitles 2018](https://github.com/hermitdave/FrequencyWords) ·
 [polimorfologik 2.1](https://github.com/morfologik/polimorfologik) ·
 [lemmatization-lists](https://github.com/michmech/lemmatization-lists)*
