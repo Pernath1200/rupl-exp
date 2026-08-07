@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 206 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 207 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -227,4 +227,5 @@ _None._
 | 212 | `c1_past_gaps` | `past_gaps` | 20 | `aspect_past`, `can_inf`, `chodzic`, `dative_sg`, `inst_transport`, `jechac`, `negation`, `past_ac`, `past_gaps`, `past_isc`, `past_rest`, `prep_do_gen`, `present`, `present_e_isz` |
 | 213 | `c1_ea_shift` | `ea_shift` | 0 | `adj_acc`, `ea_shift`, `miec_acc`, `musiec`, `past_ac`, `past_plural`, `past_rest`, `virile_past`, `virile_reco` |
 | 214 | `c1_sec_imperf` | `sec_imperf` | 4 | `aspect_past`, `aspect_prefixes`, `chodzic`, `miec_acc`, `motion_imperf`, `motion_prefixed`, `motion_prefixed2`, `perf_future`, `pisac_family`, `prep_do_gen`, `prep_z_gen`, `present_uje`, `sec_imperf` |
+| 215 | `c1_verb_family3` | `placic_family` | 13 | `adj_acc`, `aspect_past`, `aspect_prefixes`, `inst_transport`, `miec_acc`, `musiec`, `past_ac`, `perf_future`, `placic_family`, `present_e_isz`, `sec_imperf` |
 

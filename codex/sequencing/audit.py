@@ -162,6 +162,7 @@ STRUCTURE_CATALOGUE = {
     "past_gaps",
     "ea_shift",
     "sec_imperf",
+    "placic_family",
 }
 
 GLUE_LEMMAS = {

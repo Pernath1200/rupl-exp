@@ -4323,18 +4323,19 @@
     {
       "id": "c1_verb_family3",
       "domain": "grammar",
-      "label": "Zapłacić, dopłacić",
-      "label_en": "The płacić family",
+      "label": "Zapłacić, dopłacić, przepłacić",
+      "label_en": "One root, three ways to pay",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 4 (spine O9, JAMES-LOCKED decision #6: 'further families are C1 material'). ROOT FAMILY 3: the placic family. zaplacic TAUGHT <- b2_aspect_prefixes [165]; doplacic, przeplacic both verified NEW. Register: money and admin, which is where this learner actually meets them. Secondary imperfectives come free now that the previous unit named the rule. NOTE the spine's O3: productive semantic prefixation (B2-SPINE item 5) is REFUSED and paid by these families instead - it conflicts with locked decision #1 and only James can lift that.",
+      "note": "[C1 SPINE] Block 7, unit 4. ROOT FAMILY 3 (O9, JAMES-LOCKED decision #6) on the placic root; register is money and admin. [WIRED LIVE] 13 new strings, 2 new verbs, ZERO new endings - the perfective future is the -e/-isz/-i shape b2_aspect_prefixes [168] already gave on this very stem. THE ANCHOR REPAIR WAS FOUND BY check_new, NOT THE BRIEF: placi and placisz are verified NEW, so the learner has said 'I pay' for 140 nodes with no way to say 'he pays' - the dawac_family wydawac situation, repaired the same way. THE za + ACCUSATIVE TRAP dawac_family named in advance is avoided completely, AND THE PACK CAUGHT ITSELF WALKING INTO IT: a drafted quiz item read 'Brat ___ za bilet', which audit.py WOULD HAVE PASSED (za is taught <- b1_polite [107], but only in the thanking job) - rebuilt as 'Brat ___ w hotelu'. czasem, verified NEW, caught in another prompt and replaced with czesto. No case-map row is added because the unit ships no new governor, deliberately. THE TWO PREFIXES ARE TREATED DIFFERENTLY ON PURPOSE: do- gets a memory hook for that ONE word (pisac_family precedent), never the lens's do-; prze- gets NO hook and the slide says so, because this prze- means TOO MUCH and is not the tendency R2 schedules for c1_prefix_semantics - flagged in C1-DIGEST as that unit's honest counterexample. Secondary imperfectives doplacac/przeplacac are c1_sec_imperf's payoff and are held to INFINITIVES ONLY. zloty/zlotych left untouched as c1_quantifiers' material; all amounts are the indeclinable euro. Structure ID placic_family registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_verb_family3.json"
     },
     {
       "id": "c1_verb_family4",
