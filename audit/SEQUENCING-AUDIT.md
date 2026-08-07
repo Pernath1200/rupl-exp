@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 204 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 205 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -225,4 +225,5 @@ _None._
 | 210 | `c1_part_adv` | `part_adv` | 7 | `byc_present`, `chodzic`, `gen_endings`, `gen_verbs`, `jechac`, `miec_acc`, `motion_chunk`, `o_loc`, `part_active`, `part_adv`, `part_attrib`, `past_ac`, `past_rest`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `sie_reflexive`, `zgoda` |
 | 211 | `c1_zostac` | `passive_dynamic` | 7 | `bedzie`, `byc_present`, `fem_dat_loc`, `inst_z`, `miec_acc`, `participle_pass`, `passive`, `passive_dynamic`, `past_byc`, `perf_future`, `plural_nom`, `przez_acc`, `zgoda` |
 | 212 | `c1_past_gaps` | `past_gaps` | 20 | `aspect_past`, `can_inf`, `chodzic`, `dative_sg`, `inst_transport`, `jechac`, `negation`, `past_ac`, `past_gaps`, `past_isc`, `past_rest`, `prep_do_gen`, `present`, `present_e_isz` |
+| 213 | `c1_ea_shift` | `ea_shift` | 0 | `adj_acc`, `ea_shift`, `miec_acc`, `musiec`, `past_ac`, `past_plural`, `past_rest`, `virile_past`, `virile_reco` |
 

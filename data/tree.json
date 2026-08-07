@@ -4290,17 +4290,18 @@
       "id": "c1_ea_shift",
       "domain": "grammar",
       "label": "Mieć · miałem",
-      "label_en": "The e→a switch, named at last",
+      "label_en": "Where the a in miałem comes from",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 2. Inbox item 17. THE e->a ALTERNATION, NAMED AT LAST. SEQUENCING.md's own past_rest entry records it as 'deliberately unexplained until B1' and it was never explained; the inbox books chciec's chcie-/chcia- for C1. miec->mialem, chciec->chcialem, musiec->musialem are ALL TAUGHT as whole forms - so this unit teaches NO NEW FORM AT ALL, only the pattern behind three sets the learner has produced correctly for four levels. SECOND item on the spine O1 trim list (folds into c1_past_gaps).",
+      "note": "[C1 SPINE] Block 7, unit 2. Inbox item 17. THE e->a ALTERNATION, NAMED AT LAST - the debt SEQUENCING.md's own past_rest [53] entry records as 'e->a shift deliberately unexplained until B1', and which B1 never paid. [WIRED LIVE] teaches_lemmas IS LEGITIMATELY EMPTY on the passive / adj_pl_loc / two_futures convention: NOT ONE NEW FORM is taught or demanded, every string in every stage verified TAUGHT. THE RULE IS STATED COMPLETELY AND THE REVERSAL IS THE POINT: -ec verbs put a where the e was once the past -l arrives, BUT before -li the e comes back (chcial against chcieli) - and that is demonstrable with NO new form, because both plurals of chciec have been owned since B1. THE VIRILE PLURALS OF miec AND musiec WERE AVAILABLE AND NOT TAKEN, for two different reasons, both logged: mieli/mialy are NEW and unclaimed (two strings if James wants them), musieli/musialy are c1_modal_pl's own material by name in the spine and taking them would have taught the same forms twice. HOMOGRAPH CAUGHT: siostry was drafted as the non-virile plural subject and is TAUGHT <- c1_od_source [206] as the GENITIVE SINGULAR (od siostry) - the AGENTS corki/wina/gazety row exactly; dzieci used instead. The boundary is taught as a CLOSED CLASS and the limit slide says the pattern is for reading, not a licence to build - the R2 line one unit early. Kontrola is twelve form choices and no meta-question, with no *miel-/*miali shape anywhere. Pisanie is ten single forms typed whole. Title_en changed at wiring time from the draft 'The e-a switch' to learner English. Structure ID ea_shift registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_ea_shift.json"
     },
     {
       "id": "c1_sec_imperf",

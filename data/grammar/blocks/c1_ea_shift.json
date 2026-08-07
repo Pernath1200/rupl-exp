@@ -1,0 +1,549 @@
+{
+  "id": "c1_ea_shift",
+  "title": "Mieć · miałem",
+  "title_en": "Where the a in miałem comes from",
+  "level": "C1",
+  "tree_node": "c1_ea_shift",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 2 (inbox item 17). THE e->a ALTERNATION, NAMED AT LAST - and the debt is recorded in SEQUENCING.md's own past_rest [53] entry, which reads 'plus whole-form mialem/chcialem (e->a shift deliberately unexplained until B1)'. It was never explained at B1 either. This is the unit that pays it, four levels late.\n\nteaches_lemmas IS LEGITIMATELY EMPTY and teaches_structures carries the whole unit, on the passive / adj_pl_loc / copular_future / two_futures convention. NOT ONE NEW FORM IS TAUGHT OR DEMANDED. Every string in every stage is verified TAUGHT: mialem/mialam/mial/miala/mialo and chcialem/chcialam/chcial/chciala <- past_rest [53]; chcieli/chcialy <- b1_conditional_pl [116]; musialem/musialam/musial/musiala <- b2_powinien [174]; czytal/czytala <- past_ac [52]; robil <- past_rest [53]. The unit's whole content is the PATTERN behind forms the learner has produced correctly for a hundred and sixty nodes.\n\nTHE RULE IS STATED COMPLETELY AND THE REVERSAL IS THE POINT. Verbs whose dictionary form ends -ec put an a where that e was, once the past -l arrives: miec->mial, chciec->chcial, musiec->musial. BUT before -li - the form for a group including at least one man - the e comes back: chcial against chcieli. That reversal is the only place the learner can go wrong by applying the rule too eagerly, so it gets its own slide, and it is demonstrable WITHOUT A SINGLE NEW FORM because chcieli and chcialy have been owned since B1.\n\nTHE VIRILE PLURALS OF miec AND musiec WERE AVAILABLE AND ARE NOT TAKEN, and the two reasons differ, so both are logged. mieli/mialy are verified NEW and unclaimed by any C1 unit - they would have cost two strings and would have shown the reversal on a second verb. They were left out because this unit's selling point is that it teaches nothing new, and because chcieli/chcialy already demonstrate the fact completely; if James wants them it is two strings on the miec row and nothing else moves. musieli/musialy are verified NEW and are c1_modal_pl [223]'s OWN MATERIAL by name in C1-SPINE Block 7 - taking them here would have stolen a later unit's teaching point and taught the same forms twice. Neither pair appears anywhere, including as distractors.\n\nTHE BOUNDARY IS TAUGHT AS A CLOSED CLASS, not as a productive test. -ac and -ic verbs have no e in the stem to shift, so czytac->czytal and robic->robil are unaffected, and slide 4 says so with owned forms. The limit slide then states plainly that this is a pattern for reading rather than a licence to build: a -ec verb the learner has not met should still be checked rather than coined. That is the same line R2 requires of c1_prefix_semantics and the same one b2_gen_pl_full took on the fleeting e - this learner gets no value from a rule he cannot trust.\n\nHOMOGRAPH CAUGHT AND AVOIDED: siostry was drafted as the non-virile plural subject for chcialy and is TAUGHT <- c1_od_source [206] as the GENITIVE SINGULAR, inside od siostry / starszy od siostry. That is the AGENTS homograph table's corki/wina/gazety row exactly. dzieci <- a2_family2 [58] was used instead - a genuine nominative plural that takes the non-virile form, with no second reading.\n\nKONTROLA IS TWELVE FORM CHOICES AND NO META-QUESTION, which matters more in this genre than in most: a unit about a pattern invites 'which group does this verb belong to?', and AGENTS bans exactly that. Every item is a real sentence with a blank. The distractors are other real cells of the same verb and its infinitive - NOTHING FABRICATED, and in particular no *miel- or *miali form appears, which is the shape a learner would produce by mis-applying the rule and which C1-SPINE O12 forbids putting on screen. The only genuine discrimination the pattern permits is singular-and-non-virile against virile, and it is carried by items 7 and 8 on the one verb that owns both.\n\nPISANIE IS TEN SINGLE FORMS TYPED WHOLE (AGENTS' 'a single form for conjugation' is the minimal pattern unit), the c1_past_gaps and c1_przez shape. Uzycie carries the sentences, so the two stages are disjoint by construction. Producing forms the learner already owns is the point rather than padding - this unit exists so the forms stop being memorised strings and start being a pattern.\n\nGLOSSING follows AGENTS' split by verb type: miec and chciec are STATIVES and take the plain simple past ('had', 'wanted'), and musiec is glossed 'had to' on the same line - never 'was having' or 'was wanting', which are not English.\n\nFENCED, verified NEW and appearing NOWHERE: mieli, mialy, musieli, musialy (above); mialen and every 2sg (mial-es is verified NEW, so the pack keeps to 1sg, 3sg and the two plurals of chciec); myslalem, wiedzialem, wolalem, siedzialem and every other -ec past the course does not own; widziec.",
+  "focus_structures": [
+    "ea_shift"
+  ],
+  "teaches_structures": [
+    "ea_shift"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "ea_shift",
+    "past_rest",
+    "past_ac",
+    "past_plural",
+    "virile_past",
+    "virile_reco",
+    "miec_acc",
+    "musiec",
+    "adj_acc"
+  ],
+  "intro": [
+    {
+      "title": "You have been doing this correctly for four levels",
+      "title_pl": "mieć → miałem",
+      "body": "The dictionary form is mieć, with an e. Every past form of it you have ever written has an a instead: miałem, miał, miała.\n\nNobody explained where the a came from, and you have got it right anyway, because you learned those forms as words rather than as the output of a rule. That was deliberate. There is a pattern behind them, it is small, and this is the unit that names it.\n\nNothing you already say becomes wrong. What changes is that you can see why it is what it is — and that the next verb of this shape will not surprise you.",
+      "body_pl": "mieć — e. miałem — a.",
+      "examples": [
+        {
+          "en": "Dad had time.",
+          "pl": "Tata miał czas."
+        },
+        {
+          "en": "Mum had time.",
+          "pl": "Mama miała czas."
+        },
+        {
+          "en": "I had a new car. (m)",
+          "pl": "Miałem nowy samochód."
+        }
+      ]
+    },
+    {
+      "title": "The pattern, on the three verbs you already own",
+      "title_pl": "-eć → -a-",
+      "body": "A verb whose dictionary form ends in -eć puts an a where that e was, as soon as the past -ł arrives.\n\nmieć → mia-ł\nchcieć → chcia-ł\nmusieć → musia-ł\n\nThe rest of the past is the ordinary rule you have had since A2: -łem, -łam, -ł, -ła, -ło. Only the vowel in front of it moves.",
+      "body_pl": "Czasowniki na -eć.",
+      "table": {
+        "headers": [
+          "Dictionary form",
+          "I … (m)",
+          "he …",
+          "she …"
+        ],
+        "rows": [
+          [
+            "mieć",
+            "miałem",
+            "miał",
+            "miała"
+          ],
+          [
+            "chcieć",
+            "chciałem",
+            "chciał",
+            "chciała"
+          ],
+          [
+            "musieć",
+            "musiałem",
+            "musiał",
+            "musiała"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "And in exactly one place the e comes back",
+      "title_pl": "chciał · chcieli",
+      "body": "There is one form where the a does not appear: the plural for a group that includes at least one man. You have owned both halves of this contrast since B1 without being told they were a contrast.\n\nchciał — he wanted\nchciała — she wanted\nchciały — they wanted, women or things\nchcieli — they wanted, a group with a man in it\n\nThree of those four have the a. The fourth keeps the e.\n\nThis is the one place where applying the rule too eagerly would go wrong, and it is the reason the pattern is worth naming at all rather than leaving the forms as words.",
+      "body_pl": "chciał — a. chcieli — e.",
+      "examples": [
+        {
+          "en": "Dad wanted coffee.",
+          "pl": "Tata chciał kawę."
+        },
+        {
+          "en": "The students wanted coffee.",
+          "pl": "Studenci chcieli kawę."
+        },
+        {
+          "en": "The children wanted tea.",
+          "pl": "Dzieci chciały herbatę."
+        }
+      ]
+    },
+    {
+      "title": "Only the -eć verbs are in this club",
+      "title_pl": "czytać → czytał · robić → robił",
+      "body": "Verbs ending -ać and -ić have no e in that position, so nothing shifts and nothing ever did.\n\nczytać → czytał\nrobić → robił\npracować → pracował\n\nThat is worth saying out loud, because the pattern is easy to over-read. It belongs to the -eć group and to nothing else, and the -eć group is small.",
+      "body_pl": "Tylko czasowniki na -eć.",
+      "examples": [
+        {
+          "en": "Dad was reading a book.",
+          "pl": "Tata czytał książkę."
+        },
+        {
+          "en": "Mum was making dinner.",
+          "pl": "Mama robiła obiad."
+        },
+        {
+          "en": "Dad had to work.",
+          "pl": "Tata musiał pracować."
+        }
+      ]
+    },
+    {
+      "title": "A pattern for reading, not a licence for building",
+      "title_pl": "miałem · chciałem · musiałem",
+      "body": "Polish has other -eć verbs, and this course has not taught you their pasts. The pattern above will usually be right about them, and usually is not always.\n\nSo the honest instruction is the one the course has kept about the pieces on the front of verbs: use the pattern to read and to remember, and check a form you have not met rather than building it and hoping. What you own here is three verbs, fully, and an explanation for a thing you have been getting right by memory since A2.",
+      "body_pl": "To już znasz — teraz wiesz dlaczego.",
+      "examples": [
+        {
+          "en": "I wanted a new book. (f)",
+          "pl": "Chciałam nową książkę."
+        },
+        {
+          "en": "Mum had to work yesterday.",
+          "pl": "Mama musiała pracować wczoraj."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I had (m)",
+      "pl": "miałem"
+    },
+    {
+      "en": "I had (f)",
+      "pl": "miałam"
+    },
+    {
+      "en": "he had",
+      "pl": "miał"
+    },
+    {
+      "en": "she had",
+      "pl": "miała"
+    },
+    {
+      "en": "it had",
+      "pl": "miało"
+    },
+    {
+      "en": "I wanted (m)",
+      "pl": "chciałem"
+    },
+    {
+      "en": "he wanted",
+      "pl": "chciał"
+    },
+    {
+      "en": "she wanted",
+      "pl": "chciała"
+    },
+    {
+      "en": "they wanted (a group with a man in it)",
+      "pl": "chcieli"
+    },
+    {
+      "en": "they wanted (women, or things)",
+      "pl": "chciały"
+    },
+    {
+      "en": "I had to (m)",
+      "pl": "musiałem"
+    },
+    {
+      "en": "he had to",
+      "pl": "musiał"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ czas. (had)",
+      "choices": [
+        "miał",
+        "miała",
+        "miałem",
+        "mieć"
+      ],
+      "answer": "miał",
+      "explain": "The e of mieć becomes a as soon as the past -ł arrives."
+    },
+    {
+      "prompt": "Mama ___ czas. (had)",
+      "choices": [
+        "miała",
+        "miał",
+        "miałam",
+        "mieć"
+      ],
+      "answer": "miała",
+      "explain": "Same a, ordinary feminine ending on top of it."
+    },
+    {
+      "prompt": "Dziecko ___ czas. (had)",
+      "choices": [
+        "miało",
+        "miał",
+        "miała",
+        "mieć"
+      ],
+      "answer": "miało",
+      "explain": "dziecko is neuter, so -ło."
+    },
+    {
+      "prompt": "Wczoraj ___ czas. (I had — m)",
+      "choices": [
+        "miałem",
+        "miałam",
+        "miał",
+        "mieć"
+      ],
+      "answer": "miałem",
+      "explain": "miałam is the same form said by a woman."
+    },
+    {
+      "prompt": "___ kawę. (I wanted — f)",
+      "choices": [
+        "Chciałam",
+        "Chciałem",
+        "Chciała",
+        "Chcieć"
+      ],
+      "answer": "Chciałam",
+      "explain": "chcieć behaves exactly as mieć does."
+    },
+    {
+      "prompt": "Tata ___ kawę. (wanted)",
+      "choices": [
+        "chciał",
+        "chciała",
+        "chciałem",
+        "chcieć"
+      ],
+      "answer": "chciał",
+      "explain": "The a again."
+    },
+    {
+      "prompt": "Studenci ___ kawę. (wanted — a group with men in it)",
+      "choices": [
+        "chcieli",
+        "chciały",
+        "chciał",
+        "chciała"
+      ],
+      "answer": "chcieli",
+      "explain": "This is the one form that keeps the e. chciały is real Polish and says the group had no man in it."
+    },
+    {
+      "prompt": "Dzieci ___ herbatę. (wanted — children)",
+      "choices": [
+        "chciały",
+        "chcieli",
+        "chciała",
+        "chciał"
+      ],
+      "answer": "chciały",
+      "explain": "Children are not a group of men, so the a is back."
+    },
+    {
+      "prompt": "Tata ___ pracować. (had to)",
+      "choices": [
+        "musiał",
+        "musiała",
+        "musiałem",
+        "musieć"
+      ],
+      "answer": "musiał",
+      "explain": "Third verb, same pattern."
+    },
+    {
+      "prompt": "Mama ___ pracować. (had to)",
+      "choices": [
+        "musiała",
+        "musiał",
+        "musiałam",
+        "musieć"
+      ],
+      "answer": "musiała",
+      "explain": "Feminine ending, unchanged a."
+    },
+    {
+      "prompt": "Wczoraj ___ pracować. (I had to — f)",
+      "choices": [
+        "musiałam",
+        "musiałem",
+        "musiała",
+        "musieć"
+      ],
+      "answer": "musiałam",
+      "explain": "The verb after musieć never changes — it stays as the dictionary form."
+    },
+    {
+      "prompt": "Tata ___ książkę. (was reading)",
+      "choices": [
+        "czytał",
+        "czytała",
+        "czytałem",
+        "czytać"
+      ],
+      "answer": "czytał",
+      "explain": "czytać ends -ać, so there is no e to shift and nothing here changes. The pattern belongs to the -eć verbs only."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I had (m)",
+      "mode": "full_word",
+      "answer": "miałem",
+      "accepts": [
+        "miałem"
+      ],
+      "explain": "mieć, with the e turned into a before the -ł."
+    },
+    {
+      "prompt_en": "I had (f)",
+      "mode": "full_word",
+      "answer": "miałam",
+      "accepts": [
+        "miałam"
+      ]
+    },
+    {
+      "prompt_en": "he had",
+      "mode": "full_word",
+      "answer": "miał",
+      "accepts": [
+        "miał"
+      ]
+    },
+    {
+      "prompt_en": "she had",
+      "mode": "full_word",
+      "answer": "miała",
+      "accepts": [
+        "miała"
+      ]
+    },
+    {
+      "prompt_en": "I wanted (m)",
+      "mode": "full_word",
+      "answer": "chciałem",
+      "accepts": [
+        "chciałem"
+      ]
+    },
+    {
+      "prompt_en": "she wanted",
+      "mode": "full_word",
+      "answer": "chciała",
+      "accepts": [
+        "chciała"
+      ]
+    },
+    {
+      "prompt_en": "they wanted (a group with a man in it)",
+      "mode": "full_word",
+      "answer": "chcieli",
+      "accepts": [
+        "chcieli"
+      ],
+      "explain": "The one cell where the e survives."
+    },
+    {
+      "prompt_en": "they wanted (women, or things)",
+      "mode": "full_word",
+      "answer": "chciały",
+      "accepts": [
+        "chciały"
+      ],
+      "explain": "And the one right beside it, where the a is back."
+    },
+    {
+      "prompt_en": "I had to (m)",
+      "mode": "full_word",
+      "answer": "musiałem",
+      "accepts": [
+        "musiałem"
+      ]
+    },
+    {
+      "prompt_en": "he had to",
+      "mode": "full_word",
+      "answer": "musiał",
+      "accepts": [
+        "musiał"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad had time yesterday.",
+      "answer": "Tata miał czas wczoraj.",
+      "accepts": [
+        "Tata miał czas wczoraj.",
+        "Tata miał czas wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum had time.",
+      "answer": "Mama miała czas.",
+      "accepts": [
+        "Mama miała czas.",
+        "Mama miała czas"
+      ]
+    },
+    {
+      "prompt_en": "Type: I had a new car. (m)",
+      "answer": "Miałem nowy samochód.",
+      "accepts": [
+        "Miałem nowy samochód.",
+        "Miałem nowy samochód"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child had time.",
+      "answer": "Dziecko miało czas.",
+      "accepts": [
+        "Dziecko miało czas.",
+        "Dziecko miało czas"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad wanted coffee.",
+      "answer": "Tata chciał kawę.",
+      "accepts": [
+        "Tata chciał kawę.",
+        "Tata chciał kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students wanted coffee.",
+      "answer": "Studenci chcieli kawę.",
+      "accepts": [
+        "Studenci chcieli kawę.",
+        "Studenci chcieli kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children wanted tea.",
+      "answer": "Dzieci chciały herbatę.",
+      "accepts": [
+        "Dzieci chciały herbatę.",
+        "Dzieci chciały herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I wanted a new book. (f)",
+      "answer": "Chciałam nową książkę.",
+      "accepts": [
+        "Chciałam nową książkę.",
+        "Chciałam nową książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad had to work.",
+      "answer": "Tata musiał pracować.",
+      "accepts": [
+        "Tata musiał pracować.",
+        "Tata musiał pracować"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum had to work yesterday.",
+      "answer": "Mama musiała pracować wczoraj.",
+      "accepts": [
+        "Mama musiała pracować wczoraj.",
+        "Mama musiała pracować wczoraj"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "mieć",
+    "chcieć",
+    "musieć",
+    "miałem",
+    "miałam",
+    "miał",
+    "miała",
+    "miało",
+    "chciałem",
+    "chciałam",
+    "chciał",
+    "chciała",
+    "chcieli",
+    "chciały",
+    "musiałem",
+    "musiałam",
+    "musiał",
+    "musiała",
+    "czytać",
+    "czytał",
+    "czytała",
+    "czytałem",
+    "robić",
+    "robił",
+    "robiła",
+    "pracować",
+    "pracował",
+    "tata",
+    "mama",
+    "dziecko",
+    "dzieci",
+    "studenci",
+    "czas",
+    "kawę",
+    "herbatę",
+    "książkę",
+    "obiad",
+    "nowy",
+    "nową",
+    "samochód",
+    "wczoraj"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_ea_shift",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
