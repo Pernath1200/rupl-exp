@@ -230,6 +230,7 @@
     "c1_sec_imperf",
     "c1_verb_family3",
     "c1_verb_family4",
+    "c1_prefix_semantics",
     "c1_dawac_perf",
     "c1_imperative_stems",
     "c1_imperative_more",
@@ -248,6 +249,7 @@
     "c1_comp_analytic",
     "c1_register",
     "c1_case_gym",
+    "c1_vocative_note",
     "c1_wrapup",
     "c1_station_2"
   ],
@@ -4642,6 +4644,38 @@
       "pedagogy": "teach",
       "root": "forms",
       "tree_part": "forms"
+    },
+    {
+      "id": "c1_prefix_semantics",
+      "domain": "grammar",
+      "label": "Przedrostki · znaczenia",
+      "label_en": "Prefixes · what they tend to mean",
+      "kind": "topic",
+      "levels": [
+        "C1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "verbs",
+      "tree_part": "verbs",
+      "note": "[C1, JAMES-LOCKED 2026-08-07 — LIFTS B1 Block 6a decision #1 for C1 only] Productive prefix semantics, extended lens: adds prze- (through/across/re-), pod- (under/approach), roz- (apart/spread) to the taught wy-/przy-/do-/od-. TAUGHT AS TENDENCIES, NEVER AS A RULE: every slide must say plainly that the tendency is strong but not guaranteed and that a new verb must be verified, not coined (the *wyrobic trap is the reason the ban existed). za-/po- KEEP their one-line \"no promise\" treatment - they are genuine grab-bags. Production is guarded: only verbs the course already owns. Sits AFTER both root families so every example is anchored in a known root. Homograph/reliability notes mandatory in the digest.",
+      "pedagogy": "teach"
+    },
+    {
+      "id": "c1_vocative_note",
+      "domain": "grammar",
+      "label": "Wołacz · przypis",
+      "label_en": "The Vocative · a footnote",
+      "kind": "topic",
+      "levels": [
+        "C1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only.",
+      "pedagogy": "teach"
     }
   ],
   "synced_from": {

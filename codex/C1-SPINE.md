@@ -56,6 +56,28 @@ not a finding. `na` has been on screen since A1. Do not "teach" it.
 
 ---
 
+## JAMES'S RULINGS — 2026-08-07 (dropdown session, LOCKED)
+
+He read the overrule section and decided all of it. These are binding; agents
+execute them and do not re-open them. Where a ruling contradicts an older
+locked decision, **this section wins and says so explicitly**.
+
+| # | Item | Ruling |
+|---|------|--------|
+| R1 | **O3 · productive prefixation** | **LIFTED for C1.** B1 Block 6a decision #1 ("free derivation is never asked for") and #2 ("lens stays at four") are **overridden at C1 only** — A1–B2 are untouched and keep the recognition-only lens. New unit `c1_prefix_semantics` (after both root families). |
+| R2 | **How far** | **Reliable set, tendency NOT rule.** Adds `prze-` (through/across/re-), `pod-` (under/approach), `roz-` (apart/spread). Every slide states plainly that the tendency is strong but not guaranteed and that an unfamiliar verb must be **verified, never coined** — the `*wyrobić` trap is exactly why the ban existed. `za-`/`po-` keep their one-line "no promise" treatment. Production stays guarded: only verbs the course already owns. |
+| R3 | **O1 · level size** | **Full 53** (now 55 with R1 and R5). C1 is last; anything cut stays untaught forever. The named trim is NOT taken. |
+| R4 | **O12 · refusals** | **All stand.** Register-as-a-system, the accusative-experiencer class, the exhaustive declension tail, and `zrobiwszy`-as-production remain permanently refused. |
+| R5 | **O4 · Vocative** | **Footnote, not a case.** James: *"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered."* → `c1_vocative_note`, placed **after `c1_case_gym`**. Names the Wołacz as the seventh case, says honestly it is rare outside address forms, points back at B1's six chunks. **No endings table, no proper-name rule, nothing to produce.** B1 decision #4 is softened to a named footnote, not reopened. |
+| R6 | **`mógł` quarantine** | **Past is fine; the conditional stays whole.** `c1_past_gaps` may teach `mógł`/`mogła`/`mogli` as an ordinary past riding the owned ł-forms. `mógłby` remains a memorised chunk — do **not** derive the conditional paradigm. |
+| R7 | **`wydaje mi się`** | **Teach it as a chunk** in `c1_nuance`, with an explicit homograph line naming both senses (`wydawać` = spend, taught in `b2_verb_family2`) — the `ci`/`ci`, `której`, `może` treatment. Not opened as a dative-experiencer construction. |
+| R8 | **After C1** | **Stop.** Write `codex/COURSE-COMPLETE.md`, push, and go dormant. Do **not** start the rep-station engine or any other app code — that is a design session with James first. |
+
+Defaults not listed above (O5 `zrobiwszy` recognition-only, O6 one recognition-leaning
+word-order unit, O7 register as a chunk unit, O8 three vocab packs, O9 two root
+families, O10 the lifted `wiem` quarantine, O11 one new gym + the closer) were
+read and **left as the scoper wrote them**.
+
 ## Open for James to overrule
 
 Each item is a genuine fork. The **Default** is what the build agents will do
@@ -281,14 +303,21 @@ Not forks — advance warnings, in the tradition of B2's O16 and
   permanent placeholders, same as A2's four, B1's two and B2's two. Never
   authored, never flipped live. `a2_past_gym` stays retired and is never
   re-wired.
-- **The Vocative is never named as a case** (O4) — B1 decision #4, unchanged
-  through three levels.
-- **No productive prefix-semantics rule** anywhere (O3). Every prefixed verb C1
-  teaches is a taught family member or a lens-legal core-4 example; the packs
-  must keep restating `a2_aspect`'s "the piece on the front is unpredictable,
-  learn the pair whole" line, as B2's whole prefix strand does.
-- **The lens set stays at four** — `wy-`, `przy-`, `do-`, `od-`. `za-`/`po-`/
-  `prze-`/`na-` keep their one-line "no promise" treatment.
+- **The Vocative is never named as a case until `c1_vocative_note`** (R5), which
+  names it once, as a footnote, after every other case is closed — and even
+  there teaches no endings and demands no production. B1 decision #4 otherwise
+  stands through all five levels.
+- **Prefix semantics: AMENDED BY R1/R2 (2026-08-07).** Productive prefix
+  *tendencies* are taught in `c1_prefix_semantics` and nowhere else. Everywhere
+  before that unit the old fence still holds exactly as written: prefixed verbs
+  are taught family members or lens-legal examples, and packs keep restating
+  `a2_aspect`'s "the piece on the front is unpredictable, learn the pair whole"
+  line. **Aspect prefixes are still never derived** — R2 opens *semantic*
+  tendencies (prze-/pod-/roz- meaning through/under/apart), not the perfectivising
+  prefixes, which stay unpredictable by A2's original ruling.
+- **The lens set is four until `c1_prefix_semantics`, six after it** — `wy-`,
+  `przy-`, `do-`, `od-`, then `prze-`, `pod-`, `roz-`. `za-`/`po-`/`na-` keep
+  their one-line "no promise" treatment permanently (R2).
 - **Plural adjective endings are fenced until their own unit**, ladder-wise, and
   this is the single easiest fence in C1 to break by accident because the three
   strings are `-ych`, `-ym`, `-ymi`: `c1_adj_pl_gen` must not show `-ymi`;

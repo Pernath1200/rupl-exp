@@ -139,6 +139,12 @@ locked decisions, binding on every unit in that block:
    rejected alternative (productive rules): the lens is receptive-only,
    which does not contradict a2_aspect's "prefixes are unpredictable" line —
    that line is about *building* words, not *reading* them.
+> **AMENDED AT C1 ONLY (James, 2026-08-07 — see `C1-SPINE.md` rulings R1/R2):**
+> decisions #1 and #2 below are **lifted for `c1_prefix_semantics`**, which
+> teaches `prze-`/`pod-`/`roz-` as *tendencies, never rules*, with guarded
+> production. **Everything at B2 and below is unchanged** — the B2 strand stays
+> recognition-only on the core 4, exactly as written here. Do not retro-fit.
+
 2. **Lens prefix set = core 4 only: wy-, przy-, do-, od-** (the ~90%-reliable
    spatial set). za-/po-/prze-/na- verbs still get taught where needed, but
    only as vocabulary — never as lens examples, never with a claimed meaning.
