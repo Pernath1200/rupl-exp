@@ -1,0 +1,673 @@
+{
+  "id": "c1_pron_12_prep",
+  "title": "O mnie, o tobie, ze mną",
+  "title_en": "Me and you, after a preposition",
+  "level": "C1",
+  "tree_node": "c1_pron_12_prep",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 3, unit 2 (C1-SPINE). THE FIRST AND SECOND PERSON AFTER A PREPOSITION - the half of the row b2_pron_prep [141] deliberately did not build, and it named this unit as its own alternative in its own note: 'THE UNIT'S ONE REAL JUDGMENT CALL, and the conservative branch was taken: THIRD PERSON ONLY. o mnie, o tobie, ze mna, z toba, do ciebie, z nami, z wami appear nowhere... THE ALTERNATIVE, if James wants it: a small b2_pron_prep2 with those six forms and the ze-rule.' This is that unit, one level on, and it also pays the older fence a2_o_loc wrote ('the unit says about work / about home, never about you. They need their own small unit') - the half b2_pron_prep left standing.\n\nSIX NEW STRINGS, exactly as many as b2_pron_prep had: mna, tobie, ciebie, toba, nami, wami. Plus ZE, which is a fact about the preposition rather than the pronoun and is the reason b2_pron_prep called this 'the do/z cliff in miniature'.\n\nTHE UNIT'S ONE IDEA IS AN ASYMMETRY, and it is what keeps six new forms down to one new thing: TWO OF THE THREE CASES COST ALMOST NOTHING. After o and after do, ja, my and wy reuse the very strings the learner already has as objects - mnie, nas, was (b2_pron_acc [140]) - so the entire Locative and Genitive of three persons out of four is already in his mouth. ONLY ty is genuinely different, and it is different twice (tobie after o, ciebie after do). The Instrumental is where the new words actually are: mna, toba, nami, wami, four for four. Slide 2 is that table and slide 3 is the Instrumental.\n\nTHE ANCHOR IS REAL AND WAS VERIFIED, NOT ASSUMED: wedlug mnie is TAUGHT <- b2_discussion_func as a whole phrase, so the learner has been putting a first-person pronoun after a preposition for a level already - it simply happened to be the only cell he had. Same 'you already say this' opener b2_adj_acc, b2_verbal_nouns and c1_na_acc use.\n\nNEW JOBS ON OWNED STRINGS, named rather than smuggled: mnie is TAUGHT <- a2_dat_chunks [83] inside boli mnie (the accusative-experiencer chunk) and generalised by b2_pron_acc [140] as the ordinary Accusative object; here it is the LOCATIVE after o and the GENITIVE after do. nas and was are TAUGHT <- b2_pron_acc as Accusatives and do the same two jobs here. That the string does not change is the unit's gift and slide 2 says so outright, rather than leaving the learner to wonder whether he has missed a form.\n\nTHE ze RULE IS STATED AS A CLOSED FACT, NOT A PRODUCTIVE RULE, on the gen_pl_full fleeting-e precedent C1-SPINE cites for exactly this genre. What is claimed: Polish says ze mna and never z mna, and the learner already does this in ze szkoly, ze sklepu, ze szpitala (a1_prep_do_z, TAUGHT as frozen chunks). What is also claimed, because it is true and it is what makes the fact safe: mna is THE ONLY PRONOUN this happens to - z toba, z nami, z wami all keep the plain z, and so does every third-person form he learned last level. No attempt is made to state the phonological condition; a learner who cannot trust a rule gets no value from it.\n\nTHE SHORT FORMS ARE FENCED POSITIONALLY, NOT BY EMPHASIS, and this was the unit's sharpest scope decision. cie and ci (b2_pron_acc, b1_dative_pron) sit next to the verb; ciebie and tobie follow a preposition. That is ALL slide 4 claims. The stressed/emphatic use of the long forms - Ciebie znam - is C1-SPINE's explicit property of c1_word_order ('sentence-initial emphatic jego/ciebie'), three nodes on, and appears nowhere here. Quiz item 10 runs the discrimination in the OTHER direction (Znam ___ -> cie, not ciebie) so the positional rule is drilled both ways rather than only as 'the long one is the new one'.\n\nTHE DATIVE IS NOT OPENED, holding b2_pron_prep's own reason verbatim: no preposition in this course governs the Dative, so a prepositional Dative pronoun has nowhere to sit. tobie appears ONLY as the Locative after o. The long-vs-short Dative contrast (mi/mnie, ci/tobie) is not raised anywhere.\n\nONE EXTRA GOVERNOR, taken deliberately and logged as this unit's judgment call: od in its COMPARISON job (a2_superlatives [91], starszy od brata). It costs zero new pronoun forms - od takes the Genitive, so it takes do's forms - and it buys Brat jest starszy od ciebie, a sentence this learner will actually say. Exposure is held to ONE slide row, ONE match item and ONE use item; od appears in no Pisanie item and no Kontrola distractor. The SOURCE job of od (list od siostry) is c1_od_source's property and is not hinted at.\n\nHELD FENCES from b2_pron_prep, all still verified NEW: dla (a governor the course has never taught - that pack dropped it from B2-SPINE's own illustrative example, and the same catch applies here); w and na + pronoun; niemu. siebie/sobie are c1_siebie's, one node on, and appear nowhere - which matters here more than anywhere, because ze mna and z soba are one letter apart in the learner's future.\n\nAUDITOR NOTE, and it CORRECTS C1-SPINE: the spine's standing fence says 'Person pronouns sit in audit.py's GLUE_LEMMAS, so the auditor cannot see a single pronoun fence in Block 3.' That is only half true and was checked rather than trusted - GLUE_LEMMAS holds the bare SUBJECT pronouns (ja, ty, on, ona, ono, my, wy, oni, one) and nothing else, so every oblique form in this unit (mnie, cie, ci, nas, was, tobie, ciebie, mna, toba, nami, wami) IS visible to the auditor and IS policed. The fence that genuinely remains author-only is the subject pronouns, which appear nowhere in this pack.\n\nPISANIE: eight cloze items, one per new string plus the ze item, so ALL EIGHT blank the teaching point and there is no fallback anywhere - the first unit in the level where the count of distinct new forms matches the stage exactly. No typed-whole answers; nothing added to the repair queue.\n\nTITLE CHECKED AT THE WIRE: O mnie, o tobie, ze mna - o TAUGHT <- a2_o_loc, mnie TAUGHT <- a2_dat_chunks, and tobie / ze / mna are all taught by this pack itself (the c1_adj_pl_gen precedent). No untaught Polish in learner-visible chrome.\n\nSECOND TOOLING ARTIFACT, same genre as the one C1-SPINE documents for na: the bare preposition DO is not a lemma anywhere in the course - it lives only inside multi-word lemmas (do sklepu, do domu, do pracy, do matki) and its Genitive job is carried by the prep_do_gen STRUCTURE. Declaring it in uses_lemmas produced a real audit error on the first run and the fix is to drop it, not to 'teach' it: do has been on screen since A1. o and od are NOT affected - both exist as bare lemmas in the pool and are declared normally.",
+  "focus_structures": [
+    "pron_prep_12"
+  ],
+  "teaches_structures": [
+    "pron_prep_12"
+  ],
+  "teaches_lemmas": [
+    "mną",
+    "tobie",
+    "ciebie",
+    "tobą",
+    "nami",
+    "wami",
+    "ze"
+  ],
+  "uses_structures": [
+    "pron_prep_12",
+    "pron_prep",
+    "pron_acc",
+    "dative_pron",
+    "dat_chunks",
+    "o_loc",
+    "inst_z",
+    "prep_do_gen",
+    "prep_z_gen",
+    "comparative",
+    "byc_present",
+    "byc_adj",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "jechac",
+    "motion_chunk",
+    "plural_nom",
+    "virile_reco"
+  ],
+  "intro": [
+    {
+      "title": "The row about you and me",
+      "title_pl": "o mnie · ze mną · do ciebie",
+      "body": "Last level you learned what him, her and them look like after a preposition: o nim, z nią, do nich. The same sentence about yourself, or about the person you are speaking to, had no forms at all.\n\nYou do already say one of them. Since B2 you have had według mnie — \"in my opinion\" — which is a first-person pronoun sitting after a preposition. It was simply the only cell you owned.\n\nHere is the rest of it. Three prepositions, each keeping the case it has always had: o takes the Locative, z takes the Instrumental, do takes the Genitive.",
+      "body_pl": "według mnie — już to mówisz",
+      "table": {
+        "headers": [
+          "Person",
+          "after o",
+          "after z",
+          "after do"
+        ],
+        "rows": [
+          [
+            "ja",
+            "o mnie",
+            "ze mną",
+            "do mnie"
+          ],
+          [
+            "ty",
+            "o tobie",
+            "z tobą",
+            "do ciebie"
+          ],
+          [
+            "my",
+            "o nas",
+            "z nami",
+            "do nas"
+          ],
+          [
+            "wy",
+            "o was",
+            "z wami",
+            "do was"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Mum is talking about me.",
+          "pl": "Mama mówi o mnie."
+        }
+      ]
+    },
+    {
+      "title": "Two of the three cases cost you almost nothing",
+      "title_pl": "mnie · nas · was",
+      "body": "Look at what actually changes. After o and after do, three of the four persons use the very word you already use as an object: mnie, nas, was. You have said Boli mnie głowa since A2 and Znam was since B2, and those are the same strings.\n\nSo the Locative and the Genitive of ja, my and wy are already yours. Nothing to learn.\n\nOnly ty is different, and it is different in two ways: after o it is tobie, after do it is ciebie. That one person is where the work is.",
+      "body_pl": "ale: o tobie · do ciebie",
+      "table": {
+        "headers": [
+          "Person",
+          "as an object",
+          "after o",
+          "after do"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mnie",
+            "o mnie",
+            "do mnie"
+          ],
+          [
+            "ty",
+            "cię",
+            "o tobie",
+            "do ciebie"
+          ],
+          [
+            "my",
+            "nas",
+            "o nas",
+            "do nas"
+          ],
+          [
+            "wy",
+            "was",
+            "o was",
+            "do was"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The doctor is talking about us.",
+          "pl": "Lekarz mówi o nas."
+        }
+      ]
+    },
+    {
+      "title": "The Instrumental is where the new words are",
+      "title_pl": "ze mną · z tobą · z nami · z wami",
+      "body": "After z all four are new: mną, tobą, nami, wami.\n\nAnd one of them changes the preposition. Polish says ze mną, never z mną. You have been doing this since A1 without being told: ze szkoły, ze sklepu, ze szpitala — z grows an -e when the word after it would be hard to say against it.\n\nThe useful part is how narrow it is. mną is the only pronoun this happens to. z tobą, z nami, z wami all keep the plain z, and so does every him/her/them form you learned last level.",
+      "body_pl": "z + narzędnik",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English",
+          "The preposition"
+        ],
+        "rows": [
+          [
+            "ze mną",
+            "with me",
+            "ze — the only pronoun that does this"
+          ],
+          [
+            "z tobą",
+            "with you",
+            "plain z"
+          ],
+          [
+            "z nami",
+            "with us",
+            "plain z"
+          ],
+          [
+            "z wami",
+            "with you (more than one)",
+            "plain z"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "My brother works with me.",
+          "pl": "Brat pracuje ze mną."
+        }
+      ]
+    },
+    {
+      "title": "The short ones never follow a preposition",
+      "title_pl": "Znam cię · do ciebie",
+      "body": "cię and ci are short because they live right beside the verb: Znam cię.\n\nA preposition will not take them. After o, do or z, Polish reaches for the longer word instead — o tobie, do ciebie, z tobą. There is no o cię and no do cię.\n\nThis is about position and nothing else. Which of the two you use is decided by whether a preposition is standing in front of the slot.",
+      "body_pl": "po przyimku: dłuższa forma",
+      "table": {
+        "headers": [
+          "Beside the verb",
+          "After a preposition"
+        ],
+        "rows": [
+          [
+            "Znam cię.",
+            "Kolega idzie do ciebie."
+          ],
+          [
+            "Boli mnie głowa.",
+            "Mama mówi o mnie."
+          ],
+          [
+            "Znam was.",
+            "Studenci mówią o was."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "A friend is going to your place.",
+          "pl": "Kolega idzie do ciebie."
+        }
+      ]
+    },
+    {
+      "title": "In a real sentence — and one more preposition",
+      "title_pl": "starszy od ciebie",
+      "body": "od has been making comparisons since A2: starszy od brata. It takes the Genitive, so it takes exactly the forms do takes — od ciebie, od mnie, od nas.\n\nThat gives you a sentence worth having: Brat jest starszy od ciebie.\n\nEverything below is built out of prepositions and verbs you already own. The only part that is new is the pronoun on the end.",
+      "body_pl": "od + dopełniacz = te same formy co do",
+      "table": {
+        "headers": [
+          "Sentence",
+          "English",
+          "What decides the form"
+        ],
+        "rows": [
+          [
+            "Tata myśli o tobie.",
+            "Dad is thinking about you.",
+            "o → Locative"
+          ],
+          [
+            "Siostra mieszka z nami.",
+            "My sister lives with us.",
+            "z → Instrumental"
+          ],
+          [
+            "Anna jedzie do ciebie.",
+            "Anna is driving to your place.",
+            "do → Genitive"
+          ],
+          [
+            "Brat jest starszy od ciebie.",
+            "My brother is older than you.",
+            "od → Genitive, same as do"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The children are going with you.",
+          "pl": "Dzieci idą z wami."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Mum is talking about me.",
+      "pl": "Mama mówi o mnie."
+    },
+    {
+      "en": "Dad is thinking about you.",
+      "pl": "Tata myśli o tobie."
+    },
+    {
+      "en": "The doctor is talking about us.",
+      "pl": "Lekarz mówi o nas."
+    },
+    {
+      "en": "The students are talking about you.",
+      "pl": "Studenci mówią o was."
+    },
+    {
+      "en": "My brother works with me.",
+      "pl": "Brat pracuje ze mną."
+    },
+    {
+      "en": "My colleague works with you.",
+      "pl": "Koleżanka pracuje z tobą."
+    },
+    {
+      "en": "My sister lives with us.",
+      "pl": "Siostra mieszka z nami."
+    },
+    {
+      "en": "The children live with you.",
+      "pl": "Dzieci mieszkają z wami."
+    },
+    {
+      "en": "A friend is going to your place.",
+      "pl": "Kolega idzie do ciebie."
+    },
+    {
+      "en": "Mum is coming to my place.",
+      "pl": "Mama idzie do mnie."
+    },
+    {
+      "en": "Anna is driving to your place.",
+      "pl": "Anna jedzie do was."
+    },
+    {
+      "en": "My brother is older than you.",
+      "pl": "Brat jest starszy od ciebie."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mama mówi o ___. (Mum is talking about me.)",
+      "choices": [
+        "mnie",
+        "mną",
+        "mi",
+        "ciebie"
+      ],
+      "answer": "mnie",
+      "explain": "o takes the Locative, and for ja that is mnie — the same string you already use as an object in Boli mnie głowa. mną would need z in front of it."
+    },
+    {
+      "prompt": "Tata myśli o ___. (Dad is thinking about you.)",
+      "choices": [
+        "tobie",
+        "cię",
+        "ciebie",
+        "tobą"
+      ],
+      "answer": "tobie",
+      "explain": "ty is the one person that does not reuse its object form here. After o it is tobie; ciebie belongs after do, and cię never follows a preposition at all."
+    },
+    {
+      "prompt": "Brat pracuje ___ mną. (My brother works with me.)",
+      "choices": [
+        "ze",
+        "z",
+        "do",
+        "o"
+      ],
+      "answer": "ze",
+      "explain": "Polish says ze mną, never z mną — the same -e you already say in ze szkoły and ze sklepu. mną is the only pronoun this happens to."
+    },
+    {
+      "prompt": "Koleżanka pracuje z ___. (My colleague works with you.)",
+      "choices": [
+        "tobą",
+        "tobie",
+        "ciebie",
+        "cię"
+      ],
+      "answer": "tobą",
+      "explain": "z has taken the Instrumental since A2 and nothing changes for a pronoun. tobie is the Locative, which would need o."
+    },
+    {
+      "prompt": "Siostra mieszka z ___. (My sister lives with us.)",
+      "choices": [
+        "nami",
+        "nas",
+        "nam",
+        "mną"
+      ],
+      "answer": "nami",
+      "explain": "The Instrumental is the one case where every person gets a new word. nas is the object form and works after o and do, but not after z."
+    },
+    {
+      "prompt": "Dzieci mieszkają z ___. (The children live with you.)",
+      "choices": [
+        "wami",
+        "was",
+        "wam",
+        "nami"
+      ],
+      "answer": "wami",
+      "explain": "Same shape as nami, one person along. was is the form for o and do."
+    },
+    {
+      "prompt": "Kolega idzie do ___. (A friend is going to your place.)",
+      "choices": [
+        "ciebie",
+        "cię",
+        "tobie",
+        "tobą"
+      ],
+      "answer": "ciebie",
+      "explain": "do takes the Genitive, and for ty that is ciebie. This is the second of the two forms ty has — tobie is the other one, and it goes after o."
+    },
+    {
+      "prompt": "Lekarz mówi o ___. (The doctor is talking about us.)",
+      "choices": [
+        "nas",
+        "nami",
+        "nam",
+        "was"
+      ],
+      "answer": "nas",
+      "explain": "Nothing new here at all: after o, my keeps the object form nas. Only ty changes."
+    },
+    {
+      "prompt": "Studenci mówią o ___. (The students are talking about you.)",
+      "choices": [
+        "was",
+        "wami",
+        "wam",
+        "nas"
+      ],
+      "answer": "was",
+      "explain": "Same as the item before, for wy. wami is the Instrumental and would need z."
+    },
+    {
+      "prompt": "Znam ___. (I know you.)",
+      "choices": [
+        "cię",
+        "ciebie",
+        "tobie",
+        "tobą"
+      ],
+      "answer": "cię",
+      "explain": "The other direction, and it is the one to watch: there is no preposition here, so the short form is right. ciebie would only be correct with do, od or another preposition in front of it."
+    },
+    {
+      "prompt": "Brat jest starszy od ___. (My brother is older than you.)",
+      "choices": [
+        "ciebie",
+        "cię",
+        "tobie",
+        "tobą"
+      ],
+      "answer": "ciebie",
+      "explain": "od takes the Genitive, exactly as do does, so it takes the same form: ciebie. This is the comparison od you have used since starszy od brata."
+    },
+    {
+      "prompt": "Mama idzie do ___. (Mum is coming to our place.)",
+      "choices": [
+        "nas",
+        "nami",
+        "nam",
+        "mnie"
+      ],
+      "answer": "nas",
+      "explain": "do takes the Genitive and my reuses its object form there, so nas covers both o and do."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Mum is talking about me.",
+      "mode": "cloze",
+      "answer": "mnie",
+      "accepts": [
+        "mnie"
+      ],
+      "frame": "Mama mówi o ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: the Locative of ja after o — an owned string in a new job, which is why it is produced rather than only read."
+    },
+    {
+      "prompt_en": "Dad is thinking about you.",
+      "mode": "cloze",
+      "answer": "tobie",
+      "accepts": [
+        "tobie"
+      ],
+      "frame": "Tata myśli o ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: tobie, the one genuinely new Locative in the paradigm."
+    },
+    {
+      "prompt_en": "My brother works with me.",
+      "mode": "cloze",
+      "answer": "mną",
+      "accepts": [
+        "mną"
+      ],
+      "frame": "Brat pracuje ze ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: mną, with ze left standing in the frame so the shape is read in place."
+    },
+    {
+      "prompt_en": "My colleague works with you.",
+      "mode": "cloze",
+      "answer": "tobą",
+      "accepts": [
+        "tobą"
+      ],
+      "frame": "Koleżanka pracuje z ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: tobą, the Instrumental of ty."
+    },
+    {
+      "prompt_en": "My sister lives with us.",
+      "mode": "cloze",
+      "answer": "nami",
+      "accepts": [
+        "nami"
+      ],
+      "frame": "Siostra mieszka z ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: nami, the Instrumental of my."
+    },
+    {
+      "prompt_en": "The children live with you.",
+      "mode": "cloze",
+      "answer": "wami",
+      "accepts": [
+        "wami"
+      ],
+      "frame": "Dzieci mieszkają z ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: wami, the Instrumental of wy."
+    },
+    {
+      "prompt_en": "A friend is going to your place.",
+      "mode": "cloze",
+      "answer": "ciebie",
+      "accepts": [
+        "ciebie"
+      ],
+      "frame": "Kolega idzie do ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: ciebie, the Genitive of ty and the second of that person's two new forms."
+    },
+    {
+      "prompt_en": "Mum is going with me.",
+      "mode": "cloze",
+      "answer": "ze",
+      "accepts": [
+        "ze"
+      ],
+      "frame": "Mama idzie ___ mną.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point, and it is the PREPOSITION rather than the pronoun: this is the one item that produces the ze-shape, with mną left standing so the learner sees what triggers it. Deliberately a different sentence from item 2 rather than the same frame blanked twice."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum is talking about us.",
+      "answer": "Mama mówi o nas.",
+      "accepts": [
+        "Mama mówi o nas.",
+        "Mama mówi o nas"
+      ],
+      "explain": "After o, my keeps the object form. nas covers both the Locative and the Genitive, so nothing changes from Znam nas."
+    },
+    {
+      "prompt_en": "Type: The students are talking about you.",
+      "answer": "Studenci mówią o was.",
+      "accepts": [
+        "Studenci mówią o was.",
+        "Studenci mówią o was"
+      ],
+      "explain": "Same for wy: was after o, unchanged from the object form. Only ty gets a separate Locative."
+    },
+    {
+      "prompt_en": "Type: The doctor is talking about you.",
+      "answer": "Lekarz mówi o tobie.",
+      "accepts": [
+        "Lekarz mówi o tobie.",
+        "Lekarz mówi o tobie"
+      ],
+      "explain": "This is the cell that does change. cię is impossible after a preposition, and ciebie belongs to do — after o it is tobie."
+    },
+    {
+      "prompt_en": "Type: My brother lives with me.",
+      "answer": "Brat mieszka ze mną.",
+      "accepts": [
+        "Brat mieszka ze mną.",
+        "Brat mieszka ze mną"
+      ],
+      "explain": "z grows an -e in front of mną, the same way it does in ze szkoły. No other pronoun does this."
+    },
+    {
+      "prompt_en": "Type: A colleague works with us.",
+      "answer": "Kolega pracuje z nami.",
+      "accepts": [
+        "Kolega pracuje z nami.",
+        "Kolega pracuje z nami"
+      ],
+      "explain": "Plain z here — the -e appears only before mną. The Instrumental of my is nami."
+    },
+    {
+      "prompt_en": "Type: The children are going with you.",
+      "answer": "Dzieci idą z wami.",
+      "accepts": [
+        "Dzieci idą z wami.",
+        "Dzieci idą z wami"
+      ],
+      "explain": "wami, not was: z has taken the Instrumental since A2 and a pronoun is no exception."
+    },
+    {
+      "prompt_en": "Type: Anna is driving to your place.",
+      "answer": "Anna jedzie do ciebie.",
+      "accepts": [
+        "Anna jedzie do ciebie.",
+        "Anna jedzie do ciebie"
+      ],
+      "explain": "do has taken the Genitive since A1 — do sklepu, do domu, and now do ciebie."
+    },
+    {
+      "prompt_en": "Type: Mum is coming to our place.",
+      "answer": "Mama idzie do nas.",
+      "accepts": [
+        "Mama idzie do nas.",
+        "Mama idzie do nas"
+      ],
+      "explain": "The Genitive of my is nas — the object form again. Three of the four persons cost nothing after do."
+    },
+    {
+      "prompt_en": "Type: My brother is older than you.",
+      "answer": "Brat jest starszy od ciebie.",
+      "accepts": [
+        "Brat jest starszy od ciebie.",
+        "Brat jest starszy od ciebie"
+      ],
+      "explain": "od takes the Genitive just as do does, so the form is the same one: ciebie. This is the comparison od from starszy od brata."
+    },
+    {
+      "prompt_en": "Type: Dad works with you.",
+      "answer": "Tata pracuje z tobą.",
+      "accepts": [
+        "Tata pracuje z tobą.",
+        "Tata pracuje z tobą"
+      ],
+      "explain": "tobą after z, tobie after o, ciebie after do — three prepositions, three different shapes, and ty is the only person that makes you keep track."
+    }
+  ],
+  "uses_lemmas": [
+    "mnie",
+    "cię",
+    "ci",
+    "mi",
+    "nas",
+    "was",
+    "nam",
+    "wam",
+    "nim",
+    "niej",
+    "nich",
+    "według mnie",
+    "według",
+    "o",
+    "od",
+    "ze szkoły",
+    "ze sklepu",
+    "ze szpitala",
+    "mama",
+    "tata",
+    "brat",
+    "siostra",
+    "kolega",
+    "koleżanka",
+    "lekarz",
+    "studenci",
+    "dzieci",
+    "głowa",
+    "boli mnie",
+    "mówi",
+    "mówią",
+    "myśli",
+    "pracuje",
+    "mieszka",
+    "mieszkają",
+    "idzie",
+    "idą",
+    "jedzie",
+    "znam",
+    "jest",
+    "starszy",
+    "do sklepu",
+    "do domu"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_pron_12_prep",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

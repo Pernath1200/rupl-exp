@@ -3969,12 +3969,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 3, unit 2. First and second person after a preposition: o mnie, o tobie, ze mna, z toba, do ciebie, z nami, z wami (tobie/ciebie/mna/toba/nami/wami all NEW). b2_pron_prep took the third-person-only branch and NAMED THIS UNIT as its own alternative; b2_case_gym has since shipped a table with TWO VISIBLY EMPTY CELLS. Includes the ze-shape rule (ze mna, not z mna) - a1_prep_do_z only ever taught ze inside frozen ze szkoly / ze sklepu. FENCE THE AUDITOR CANNOT SEE: person pronouns sit in audit.py's GLUE_LEMMAS - scan by hand, string by string.",
+      "note": "C1 Block 3, unit 2 (C1-SPINE) - the first and second person after a preposition, the half of the row b2_pron_prep deliberately did not build and named this unit as its own alternative. Also closes a2_o_loc's older fence ('the unit says about work / about home, never about you'). Six new strings - mną, tobie, ciebie, tobą, nami, wami - plus ze, which is a fact about the preposition rather than the pronoun. The one idea is an asymmetry: after o and do, ja, my and wy reuse the object forms mnie, nas, was, so three persons out of four cost nothing in two of the three cases; only ty is genuinely different, and it is different twice (tobie after o, ciebie after do). The Instrumental is where the new words are, four for four. Anchored on według mnie, which has been in the learner's mouth since B2 and was the only prepositional pronoun cell he owned. The ze rule is stated as a closed fact, not a productive one: Polish says ze mną and never z mną, he already says ze szkoły and ze sklepu, and mną is the ONLY pronoun it happens to. The short forms are fenced POSITIONALLY, not by emphasis - cię and ci sit beside the verb, ciebie and tobie follow a preposition - because the stressed use of the long forms belongs to c1_word_order. The Dative is not opened, on b2_pron_prep's own reason: no preposition in this course governs it. One extra governor taken and logged: od in its comparison job only (Brat jest starszy od ciebie), held to one slide row, one match item and one use item.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_pron_12_prep.json"
     },
     {
       "id": "c1_pron_je",
