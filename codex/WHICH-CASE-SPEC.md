@@ -48,6 +48,12 @@ were never a lesson in choosing.
 | `b2_which_case` | `b2_case_gym` | the adjective agreeing in all five cases · negation taking Genitive on **any** verb, not just `nie mam` · `prosić o` + Accusative as `o`'s second job · the three plural obliques (`-ach`/`-ami`/`-om`). |
 | `c1_which_case` | `c1_case_gym` | plural adjectives across the same five jobs · `na`/`przez`/`od` as governors · Genitive-taking verbs · everything C1 closed. This one is the **whole system on one page** and is the last teaching unit of the course before the capstone. |
 
+## Build log
+
+`codex/WHICH-CASE-DIGEST.md` — what shipped, the judgment calls, the
+`case-map.json` corrections found while deriving the tables, and what James
+should smoke-check. Read it before building the remaining units.
+
 ## Placement note for the builder
 
 Insert each unit at `path_order.index(<its gym>)`. The A1–B2 units are being
