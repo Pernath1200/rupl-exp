@@ -238,3 +238,220 @@ the words shown, on the `b2_gen_pl_full` fleeting-e precedent.
   James's current ruling before building rather than assume (spine O13).
 - **`wydaje mi się`**, still James's call, still colliding with *wydaje* =
   "spends" (`b2_verb_family2`).
+
+## Batch 2 — Block 2's oblique cases close (3 units)
+
+Built `c1_adj_pl_loc`, `c1_adj_pl_inst`, `c1_adj_pl_dat` — the Locative,
+Instrumental and Dative of the plural adjective. Each audit-clean (0 errors; the
+same 2 pre-existing, unrelated warns from `a2_prep_review` / `b1_two_futures`),
+pushed to `origin/b1-build` one at a time, not batched. Three new structures
+registered in `SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before
+each audit ran: `adj_pl_loc`, `adj_pl_inst`, `adj_pl_dat`.
+
+Path is now live through `c1_adj_pl_dat` (path index 185, **178 live nodes**).
+Next unbuilt C1 node: `c1_adj_pl_virile` — Block 2, unit 5, the men-group forms
+and the plural predicate adjectives `b2_copular_future` fenced absolutely.
+
+**With this batch the four OBLIQUE plural adjective endings are complete.**
+B2-SPINE **O3** sent the plural adjective to C1 and nine consecutive B2 units
+shipped bare-noun because of it; four of the five teaching units have now paid
+that back. Three strings across four cases — `-ych` (Genitive, Locative), `-ymi`
+(Instrumental), `-ym` (Dative) — and `c1_adj_pl_dat`'s slide 4 is the summary
+board, explicit that the Nominative and Accusative plural adjective is taught
+nowhere yet, virile or otherwise.
+
+`codex/REPAIR-QUEUE.md` was read first and is **fully ticked** — all 19 packs,
+all 104 items. No step-0 repair work existed this run. None of these three packs
+adds to it: every Pisanie item is a two- or three-word pattern phrase.
+
+### `c1_adj_pl_loc` (Block 2, unit 2 — `-ych` does its second job)
+
+Zero new forms in the whole unit, so `teaches_lemmas` is legitimately empty on
+the `copular_future` / `adj_inst` / `existential_tense` convention. Everything is
+one node old (`dobrych, nowych, małych, dużych` ← `c1_adj_pl_gen` [182]) or much
+older (the nouns ← `b2_loc_pl` [152], the governors since A1/A2). The unit's
+entire content is that a string produced last unit is now correct in a second
+place — the course's "same ending, another job" idiom on its fifth turn.
+
+Unblocks *w dużych miastach*, the sentence `b2_loc_pl`'s digest flagged as
+unsayable.
+
+**The spine's own illustration is unbuildable, and was replaced rather than
+smuggled in.** C1-SPINE's Block 2 table offers *"W dużych sklepach. Myślę o
+starych filmach."* The second half is dead on **both** words: `starych` is NEW
+(`c1_adj_pl_gen` deliberately dropped *stary* from its four-adjective set) and
+`filmach` is NEW (not among `b2_loc_pl`'s eleven nouns). The `o`-governor row is
+carried by *o dużych miastach* instead. This is the same class of catch B2 hit
+repeatedly with its own spine illustrations (*Myślę o dobrym filmie*, *Jadę z
+miłą siostrą*), and it is worth restating that a spine example is a sketch, not a
+licence.
+
+**The noun list is hard-limited to eleven** and that shaped every sentence:
+`domach, sklepach, hotelach, bankach, szkołach, firmach, gazetach, miastach,
+biurach, mieszkaniach, biurkach`. `filmach`, `parkach`, `kotach`, `książkach`,
+`oknach` and `telefonach` are all verified NEW and appear nowhere. **`na` appears
+exactly once**, and for a lexical reason rather than a scope choice: `biurkach`
+is the only one of the eleven that takes it. Named here so a later reader does
+not read it as under-coverage.
+
+**`-ym` appears here, legally, and that is worth understanding rather than
+flagging.** It is the SINGULAR masculine/neuter Locative `b2_adj_loc` [136]
+taught, used in exactly that job, and the unit needs it for the singular→plural
+collapse. The homograph with the plural Dative was two nodes away, and this
+pack's note said so in advance — which `c1_adj_pl_dat` then paid, below.
+
+### `c1_adj_pl_inst` (Block 2, unit 3 — the plural undoes a merger)
+
+Three new forms, one ending: `dobrymi, nowymi, małymi`. **The one discrimination
+it adds, and the reason it does not fold into the node before it:**
+`b2_adj_inst`'s headline was that masculine and neuter share ONE form across the
+Locative and the Instrumental (*w dobrym hotelu* / *z dobrym kolegą*) — that was
+its gift. The plural takes it back: `-ych` after *w*/*na*/*o*, `-ymi` after *z*.
+So this is not "another case, another ending", it is the case that breaks the
+pattern the previous two established. Recycling `c1_adj_pl_loc` one node back is
+what makes the contrast legible.
+
+**A genuine design fork, taken deliberately — this unit uses person nouns with
+adjectives and its two siblings did not.** `c1_adj_pl_gen` fenced person nouns
+out entirely ("no person noun takes an adjective in this unit") and
+`c1_adj_pl_loc` held the same line. That fence **cannot** be held here, for a
+lexical reason rather than a pedagogical one: `b2_inst_pl` [153] taught exactly
+twelve Instrumental plurals and **eleven of them are people** (*rodzicami,
+dziećmi, kolegami, siostrami, córkami, synami, braćmi, ludźmi, klientami,
+pacjentami, ciociami*). The only non-person is *kotami*, and every alternative
+was checked and is NEW: *studentami, nauczycielami, lekarzami, autobusami,
+samochodami, kluczami, telefonami, książkami, gazetami, plecakami, przyjaciółmi,
+gośćmi*. Holding the sibling fence would have produced a twelve-row match board
+about cats.
+
+**Why that is safe, checked rather than assumed: the Instrumental plural has no
+virile split.** `-ymi` is the form for virile and non-virile alike, and `-ami` /
+`-mi` is likewise uniform on the noun, so **no virile form appears anywhere in
+the unit** — *dobrymi* is simply not a virile shape and there is nothing for
+`c1_adj_pl_virile` to have to correct. C1-SPINE's standing fence ("virile forms
+appear nowhere before `c1_adj_pl_virile`") is intact. What is deliberately NOT
+done: no virile NOMINATIVE plural is shown, so no person noun takes an adjective
+in the Nominative — *lekarze* and *dzieci* appear as bare subjects only, which is
+`b2_inst_pl`'s own sentence shape.
+
+**`dużymi` is dropped, and the consequence is logged rather than left to be
+discovered.** `c1_adj_pl_gen` chose its adjectives "by what could be anchored,
+not by what sounded useful", dropping *stary* and *zimny*; the same test drops
+*duży* here, because with eleven person nouns and one animal it has no natural
+collocation and *kotami* alone cannot carry a quarter of the board. So the unit
+teaches THREE adjectives. **`duży` now has `dużych` (Genitive and Locative
+plural) and no Instrumental plural** — an incomplete corner of the block's
+paradigm that `c1_adj_pl_dat` and `c1_adj_pl_gym` both inherit.
+
+**Two jobs, not three**, and the unit says so rather than leaving a hole:
+accompaniment after *z*, and identity after *być* (*Jesteśmy dobrymi kolegami*).
+The third Instrumental job — the bare form for transport — has no plural in this
+course at all (*autobusami*, *samochodami* both NEW), so nothing asks for one.
+
+Scope checks run this batch: `dużą` is TAUGHT but only as an ACCUSATIVE
+(`b2_adj_acc` [133]), and `b2_adj_inst`'s `uses_lemmas` carry *dobrą/nową/małą*
+but **not** *dużą* — so it never appears in an Instrumental slot here.
+`kolegach`, `klientach`, `pacjentach` are NEW, which is why every Locative
+contrast uses `hotelach` / `sklepach`. `kotem`, `klientem`, `pacjentem` and
+`koledzy` are NEW and appear nowhere including as distractors, which is why the
+singular distractors are built on *kolegą* and *dzieckiem*.
+
+### `c1_adj_pl_dat` (Block 2, unit 4 — the same string, a third job)
+
+Zero new forms again, `teaches_lemmas` empty for the second time in the block.
+`dobrym`, `nowym`, `małym` have been owned since `b2_adj_loc` [136].
+
+**The trap is the unit, and C1-SPINE named it in advance** — *"-ym is also the
+singular m/n Locative and Instrumental ending — same string, third job. Name
+it."* `c1_adj_pl_loc`'s own note predicted the collision two nodes back and told
+this unit to name it rather than assume it. What makes it sharper than the
+block's earlier re-sightings is that those changed CASE while holding NUMBER;
+this one changes **NUMBER**. *w dobrym hotelu* and *z dobrym kolegą* are
+singular; *dobrym studentom* is plural; nothing in `-ym` says which. **The
+resolution given is the honest one: the noun settles it** — `-om` is the Dative
+plural and nothing else in the course ends that way, so the learner is told to
+read the noun, not the adjective. Quiz item 4 puts *w dobrym hotelu* directly
+beside the Dative plural for that reason.
+
+The person-noun fork carries forward unchanged from the previous node and for
+the identical lexical reason: `b2_dat_pl` [154] taught twelve Dative plurals and
+**eleven are people**, the only non-person being *kotom*, and *nauczycielom* is
+NEW. Safe on the same ground — the Dative plural has no virile split either.
+
+**`duży` is absent again, and this time not by this unit's choice.**
+`b2_adj_dat` [138] taught only *dobremu, nowemu, małemu*, exactly as
+`b2_adj_gen` dropped *duży* and `b2_adj_loc` used *dobry/nowy/mały/zimny*. *duży*
+has **no singular oblique anywhere in the course** — *dużym*, *dużego*, *dużej*
+all verified NEW — so there is no singular Dative to contrast a plural against.
+The gap logged at `c1_adj_pl_inst` is therefore now a **block-wide fact** rather
+than one unit's decision.
+
+**The singular→plural table has only two rows, and that is a lexical limit, not
+an editorial one.** A row needs a Dative singular AND its Dative plural, and only
+two nouns have both: *studentowi/studentom* and *siostrze/siostrom*. *bratu,
+mamie, tacie, kobiecie, nauczycielowi* have no taught Dative plural; *dziecku*
+and *koledze* are NEW, so *dzieciom* and *kolegom* have no taught singular. The
+neuter row on slide 3 therefore carries an **em dash** in the singular column
+with one line of explanation — the `b2_kim_czym` / `b2_case_gym` treatment —
+rather than a fabricated form.
+
+**One logged inbox item paid, exactly as directed.** C1-SPINE's reconciliation
+table sends *"Dative plural noun in the podoba się frame"* here **"as a use
+item — the ending is owned, only the frame shape is new; logged, not a unit."**
+Use item 7 (*Ten film podoba się małym dzieciom.*) is that item and only that
+item: `a2_dat_chunks` taught the frame with a PRONOUN in the Dative slot, and
+`b1_dative_sg` already gave the learner noun Datives after *pomagać* and
+*dziękować*, so the substitution is the frame shape the inbox names.
+
+### Pisanie shapes across the batch, and why they differ
+
+Worth recording because the three units came out differently and each is
+deliberate. `c1_adj_pl_loc` and `c1_adj_pl_inst` type **three-word prepositional
+phrases** (*w dobrych hotelach*, *z dobrymi kolegami*) because neither case
+exists without its governor — a bare *dobrych hotelach* is not something anyone
+says — which is exactly the shape AGENTS names when it lists *w domu* as a
+Pisanie pattern phrase. `c1_adj_pl_dat` types **two-word phrases** (*nowym
+studentom*), the `c1_adj_pl_gen` shape, because the Dative here is governed by a
+VERB rather than a preposition, so adjective + noun is the whole minimal pattern
+unit and no governor belongs inside it. All 24 items are pattern phrases, none is
+composed, and all sit under the ≤3-word cap.
+
+### For James to smoke — batch 2
+
+1. **`c1_adj_pl_inst` and `c1_adj_pl_dat` put adjectives on person nouns; their
+   two siblings did not.** This is the batch's one real fork. It is forced —
+   `b2_inst_pl` and `b2_dat_pl` each taught twelve plurals of which eleven are
+   people, so the stricter sibling fence would have made both units unbuildable
+   from taught material. It is safe because neither case has a virile split and
+   no virile form appears anywhere. If you want the stricter fence held
+   course-wide, these are the two units that have to change, and the honest
+   answer is that they cannot then be built at all.
+2. **`duży` now has a hole in its paradigm.** It has `dużych` (Genitive and
+   Locative plural) and nothing else oblique, singular or plural, anywhere in the
+   course. `c1_adj_pl_gym` inherits it. The fix, if you want the full four
+   adjectives, is the gym or a later unit beside a non-person Instrumental
+   plural — not a forced cat sentence in unit 3.
+3. **The `-ym` collision in `c1_adj_pl_dat` is the sharpest thing in the block**
+   and everything rests on the learner reading the noun rather than the
+   adjective. Slides 1 and 2 and quiz item 4 all carry it. Worth a look in the
+   hand that it lands, because if it does not, the block's other three units are
+   all quietly harder than they read.
+4. **Three labels changed at the wire**, dropping the case name the drafts
+   carried (*· miejscownik*, *· narzędnik*, *· celownik*) to match
+   `c1_adj_pl_gen`'s own correction in batch 1 — AGENTS allows case names in
+   `body_pl` only. Note this makes C1 inconsistent with B2, whose `b2_loc_pl` and
+   `b2_adj_loc` titles still carry *· miejscownik*. Consistency within Block 2
+   was preferred; if you would rather the case names stayed in titles, it is four
+   labels to put back and the B2 ones are already the precedent.
+
+### Still open after batch 2
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run and untouched here. **None of this batch's three packs adds to it** —
+  every `accepts` holds the exact answer, plus the no-final-stop variant on
+  whole-sentence use items, which is the standing convention and is not a fold.
+- Every C1-SPINE O-item, **O3 above all**.
+- The **MÓGŁBY QUARANTINE**, for `c1_past_gaps` in Block 7 to check against
+  James's current ruling rather than assume (spine O13).
+- **`wydaje mi się`**, still James's call (`b2_verb_family2`).
+- **`duży`'s incomplete oblique paradigm**, new this batch — see smoke item 2.
