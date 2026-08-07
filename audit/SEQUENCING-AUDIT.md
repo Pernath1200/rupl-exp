@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 178 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 179 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -195,4 +195,5 @@ _None._
 | 183 | `c1_adj_pl_loc` | `adj_pl_loc` | 0 | `adj_gen`, `adj_loc`, `adj_pl_gen`, `adj_pl_loc`, `byc_present`, `conjunctions`, `existential_jest`, `existential_tense`, `gen_endings`, `gen_pl`, `gen_pl_full`, `loc_pl`, `neg_gen`, `negation`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `prep_place`, `prep_w_loc`, `present`, `zgoda` |
 | 184 | `c1_adj_pl_inst` | `adj_pl_inst` | 3 | `adj_inst`, `adj_loc`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `byc_present`, `conjunctions`, `inst_identity`, `inst_pl`, `inst_z`, `loc_pl`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `zgoda` |
 | 185 | `c1_adj_pl_dat` | `adj_pl_dat` | 0 | `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `byc_present`, `conjunctions`, `dat_chunks`, `dat_pl`, `dative_sg`, `gen_endings`, `gen_pl`, `inst_z`, `loc_pl`, `o_loc`, `plural_nom`, `prep_w_loc`, `present`, `sie_reflexive`, `zgoda` |
+| 186 | `c1_adj_pl_virile` | `adj_pl_virile` | 4 | `adj_acc`, `adj_gen`, `adj_pl_gen`, `adj_pl_virile`, `byc_adj`, `byc_present`, `comparative`, `conjunctions`, `gen_pl_full`, `miec_acc`, `miec_present`, `num_virile`, `plural_nom`, `present`, `ten_ta_to`, `virile_nom`, `virile_reco`, `zgoda` |
 

@@ -141,6 +141,7 @@ STRUCTURE_CATALOGUE = {
     "adj_pl_loc",
     "adj_pl_inst",
     "adj_pl_dat",
+    "adj_pl_virile",
 }
 
 GLUE_LEMMAS = {

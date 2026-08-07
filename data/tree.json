@@ -3894,18 +3894,19 @@
     {
       "id": "c1_adj_pl_virile",
       "domain": "grammar",
-      "label": "Mali, duzi, zmęczeni",
+      "label": "Dobrzy czy dobre?",
       "label_en": "Plural adjectives for a group with a man in it",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 5. The virile plural adjective forms: mali, duzi, zmeczeni (all verified NEW), generalising the whole-form dobrzy that b1_virile_reco handed over. Virile Accusative -ych folds in as the plural echo of the Acc=Gen fact b2_adj_gen taught for masculine animates. ALSO PAYS b2_copular_future's ABSOLUTE FENCE on plural predicate adjectives (Jestesmy zmeczeni / zmeczone) - b1_virile_gym and b1_conditional_pl each record nearly shipping those by mistake, one batch apart. Flagged twice for a James decision in b1_virile_nom's and b1_virile_gym's own notes.",
+      "note": "C1 Block 2, unit 5 (C1-SPINE O2) — the virile plural adjective, the men-group form, and the last teaching unit of the block. Four new forms, one idea: nowi, młodzi, zmęczeni (the virile Nominative plural) and zmęczone (the non-virile plural of the same adjective, so the split has both sides on one word). dobrzy is recycled, not taught — b1_virile_reco handed it over as a whole ready-made form with no rule at all, so this unit is the anchor shape: a form the learner has read since B1 turns out to be built by a pattern. The pattern is stated as a pattern over four owned words and never as a productive test: r→rz, w→wi, d→dz, n→ni. What makes it ONE new thing rather than four is that the learner already makes this move on the nouns — b1_virile_nom's 'look at the last consonant of the stem' — so the adjective in front is one familiar operation reaching a second word class. THE SPINE'S OWN mali AND duzi ARE DROPPED and that is the unit's one real fork: no virile noun this course owns collocates with a size adjective, every taught virile noun being an adult occupational or relational noun, and the natural home for mali is chłopcy or synowie, both verified NEW. nowi is substituted — ordinary Polish with every person noun, and the only adjective besides dobry whose masculine, feminine and non-virile plural are all taught. Pays b2_copular_future's absolute fence on plural predicate adjectives (Jesteśmy zmęczeni / Jesteśmy zmęczone), which b1_virile_gym and b1_conditional_pl each record nearly shipping by mistake. The Accusative is the second consequence and runs on owned strings only — virile Accusative plural = Genitive plural on noun and adjective alike, with the borrowing named on the slide and anchored on Znam brata. The women-only row is the sharpest discrimination: Córki są zmęczone says the category is masculine-personal, not human. Title corrected at the wire from the planned 'Mali, duzi, zmęczeni', two of whose three forms this unit no longer teaches.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_virile.json"
     },
     {
       "id": "c1_adj_pl_gym",
