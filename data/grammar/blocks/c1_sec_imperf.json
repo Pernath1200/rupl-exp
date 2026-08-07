@@ -1,0 +1,610 @@
+{
+  "id": "c1_sec_imperf",
+  "title": "Podpisać · podpisywać",
+  "title_en": "How Polish builds the everyday partner",
+  "level": "C1",
+  "tree_node": "c1_sec_imperf",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 3. MANDATORY - JAMES-LOCKED Block 6a decision #4: 'the -ywa-/-iwa-/-a- formation rule is NAMED only at C1, when enough examples are owned. C1 spine MUST include that rule-naming unit.' This is that unit.\n\nONE NEW VERB, FOUR NEW STRINGS: zapisywac + zapisuje/zapisujesz/zapisuje(3sg). Everything else in every stage is verified TAUGHT. zapisywac is not a free coinage - b2_pisac_family FENCED it by name with the words 'a later run or C1 may pay it', so it arrives as a debt being paid, and it is a real verb that was verified rather than built. ZERO NEW ENDINGS: zapisywac conjugates on present_uje's -uje/-ujesz/-uje, owned since pracowac and kupowac and used on this very verb's twin podpisywac <- b2_pisac_family [172].\n\nTHE RULE IS TAUGHT AS THREE SHAPES, NOT ONE, and that is the honest correction this pack makes to its own brief. C1-SPINE names five owned pairs the rule is to be named over, but they do not all work the same way and saying they do would be false:\n  (1) -ywa- , mechanical: podpisac -> podpisywac, zapisac -> zapisywac. Slide 2.\n  (2) -a- , WITH a stem change: wyjechac -> wyjezdzac, przyjechac -> przyjezdzac (jech -> jezdz). Slide 3, and the stem change is named rather than smuggled.\n  (3) NO SUFFIX AT ALL: wyjsc -> wychodzic, przyjsc -> przychodzic. These swap to the chodzic stem the learner has owned since a2_chodzic [72]; there is no -ywa- and no -a- anywhere in them. Slide 4.\nCollapsing (3) into 'the rule' would have taught something untrue about the two commonest verbs in the course. Logged in C1-DIGEST.\n\nDECISION #1 STILL STANDS AND SLIDE 5 SAYS SO. The rule is a pattern for READING, never a licence to build - the same line c1_ea_shift took one node back and the same line R2 requires of c1_prefix_semantics. a2_aspect's 'learn the pair whole' framing is restated explicitly, not quietly dropped: what changes is that the second member stops being a surprise, not that the learner may now invent it. The *wyrobic trap is exactly why.\n\nMATCH BOARD CANNOT HOLD EVERY FORM (the b2_pisac_family / a2_jezdzic precedent, applied and logged): twelve rows carry all three shapes, both new-verb infinitives and all three new present forms, while the intro tables show przyjsc/przychodzic too, so the every-form-taught rule is met by the tables. przyjsc/przychodzic are the pair left off the board.\n\nNO FABRICATED NON-WORDS ANYWHERE, and this unit is the one where that ban bites hardest: a learner mis-applying the rule produces *zapisywam, and *zapisywam is precisely the shape that must never appear on screen, including as a distractor (AGENTS, and C1-SPINE O12). Every quiz choice is a real, pool-legal form of a real verb. The genuine discrimination the unit permits is one-go against again-and-again, and every item carries it.\n\nHOMOGRAPH DISCIPLINE: miasta is TAUGHT <- a1_gen_endings [32] as the GENITIVE SINGULAR and is used ONLY inside z miasta / do miasta, never as a nominative plural - the AGENTS corki/wina/gazety row. kartka is TAUGHT as a greetings card (a2_celebrations) so 'zapisac kartke' appears nowhere, the same catch b2_pisac_family made. dokument and nazwisko are both verified NEW and are fenced, so the objects are list, adres, haslo, numer, wiadomosc and recepte, all verified TAUGHT.\n\nKONTROLA IS TWELVE FORM CHOICES AND NO META-QUESTION. A unit whose content is a formation rule invites 'which suffix does this verb take?', which is a question ABOUT the language and is banned; every item is a real sentence with a blank and a time-word that decides the aspect.\n\nPISANIE IS TEN SINGLE FORMS TYPED WHOLE - AGENTS' 'a single form for conjugation' is the minimal pattern unit, the c1_ea_shift and c1_przez shape. Uzycie carries the sentences, so the two stages are disjoint by construction.\n\nFENCED, all verified NEW and appearing NOWHERE: the past of zapisywac and podpisywac; the plural of every verb here, on b2_motion_prefixed2's and b2_motion_imperf's singular-only precedent; the imperatives zapisz/podpisz (c1_imperative_stems' material); dokument, nazwisko; and every -iwa- verb, since the course owns no pair of that shape - slide 2 names -iwa- as existing and shows none, rather than inventing one.",
+  "focus_structures": [
+    "sec_imperf"
+  ],
+  "teaches_structures": [
+    "sec_imperf"
+  ],
+  "teaches_lemmas": [
+    "zapisywać",
+    "zapisuję",
+    "zapisujesz",
+    "zapisuje"
+  ],
+  "uses_structures": [
+    "sec_imperf",
+    "pisac_family",
+    "motion_imperf",
+    "motion_prefixed",
+    "motion_prefixed2",
+    "aspect_prefixes",
+    "aspect_past",
+    "perf_future",
+    "present_uje",
+    "chodzic",
+    "miec_acc",
+    "prep_do_gen",
+    "prep_z_gen"
+  ],
+  "intro": [
+    {
+      "title": "You already own five of these pairs",
+      "title_pl": "podpisać → podpisywać",
+      "body": "Since B2 you have had verbs that come in twos: one for a job done in a single go, one for the same job done again and again.\n\npodpisać — sign it, once, and it is done\npodpisywać — sign them, over and over, as a routine\n\nUntil now you were told to learn each pair whole, because the piece on the FRONT of the verb is unpredictable. That is still true, and it is not what this unit changes.\n\nWhat this unit names is the other end of the word. Once a prefix has made a one-go verb, the everyday partner is built back out of it by making the verb LONGER — and that end of the word is far more regular than the front.",
+      "body_pl": "podpisać — raz. podpisywać — zawsze.",
+      "examples": [
+        {
+          "en": "Dad signed the letter.",
+          "pl": "Tata podpisał list."
+        },
+        {
+          "en": "The boss signs contracts.",
+          "pl": "Szef podpisuje umowę."
+        }
+      ]
+    },
+    {
+      "title": "Shape one: -ywa-, and it is mechanical",
+      "title_pl": "-ywa-",
+      "body": "The commonest shape. The one-go verb ends -ać or -ić; the everyday partner puts -ywa- in front of that ending.\n\nAnd it costs no new endings at all: every verb of this shape conjugates on the -uję / -ujesz / -uje pattern you have had since pracować and kupować.\n\nThere is a second suffix, -iwa-, doing the same job on other verbs. This course owns no pair that uses it, so you will meet it in reading rather than here.",
+      "body_pl": "podpisać → podpisywać · zapisać → zapisywać",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "Again and again",
+          "I …",
+          "you …",
+          "he / she …"
+        ],
+        "rows": [
+          [
+            "podpisać",
+            "podpisywać",
+            "podpisuję",
+            "podpisujesz",
+            "podpisuje"
+          ],
+          [
+            "zapisać",
+            "zapisywać",
+            "zapisuję",
+            "zapisujesz",
+            "zapisuje"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Shape two: -a-, and the stem moves with it",
+      "title_pl": "-a-",
+      "body": "The second shape is shorter — just -a- — and you have owned both of its examples since B2.\n\nwyjechać → wyjeżdżać\nprzyjechać → przyjeżdżać\n\nNotice what happened in the middle: jech became jeżdż. That is not the suffix doing it; it is the stem changing underneath. So this shape tells you a verb has been made everyday, but it does not tell you what the middle of the word will look like when it happens.\n\nThat is the first honest limit on the pattern, and it is why the next slide matters.",
+      "body_pl": "wyjechać → wyjeżdżać · jech → jeżdż",
+      "examples": [
+        {
+          "en": "Dad is leaving for England tomorrow.",
+          "pl": "Tata jutro wyjedzie do Anglii."
+        },
+        {
+          "en": "My brother leaves the city often.",
+          "pl": "Brat często wyjeżdża z miasta."
+        }
+      ]
+    },
+    {
+      "title": "And two pairs use no suffix at all",
+      "title_pl": "wyjść → wychodzić",
+      "body": "The two verbs you use most do not follow either shape.\n\nwyjść → wychodzić\nprzyjść → przychodzić\n\nThere is no -ywa- and no -a- in them. They simply switch to the chodzić stem — the one you have had since A2 for going somewhere as a habit rather than on one occasion.\n\nThis is worth saying plainly rather than letting you find it out: the pattern is real and useful, and the two commonest verbs in the language are outside it.",
+      "body_pl": "wyjść → wychodzić · przyjść → przychodzić",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "Again and again",
+          "How it was built"
+        ],
+        "rows": [
+          [
+            "podpisać",
+            "podpisywać",
+            "-ywa-"
+          ],
+          [
+            "zapisać",
+            "zapisywać",
+            "-ywa-"
+          ],
+          [
+            "wyjechać",
+            "wyjeżdżać",
+            "-a-, and the stem moves"
+          ],
+          [
+            "przyjechać",
+            "przyjeżdżać",
+            "-a-, and the stem moves"
+          ],
+          [
+            "wyjść",
+            "wychodzić",
+            "a different stem entirely"
+          ],
+          [
+            "przyjść",
+            "przychodzić",
+            "a different stem entirely"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A pattern for reading, not a licence for building",
+      "title_pl": "zapisać → zapisywać",
+      "body": "You now have three shapes, and the last slide showed you that two very ordinary verbs use none of them.\n\nSo the instruction the course has kept since A2 does not change: when you meet a new pair, learn it whole. Check a form before you use it rather than building it and hoping. A verb you assemble yourself may not be a Polish word at all, and there is no way to tell from the inside.\n\nWhat changes is your reading. When a long verb turns up that looks like a short one you know with -ywa- in the middle, you are almost certainly right about what it means — and that is worth having.",
+      "body_pl": "To już znasz — teraz wiesz jak.",
+      "examples": [
+        {
+          "en": "I always write the address down.",
+          "pl": "Zawsze zapisuję adres."
+        },
+        {
+          "en": "I wrote the password down yesterday. (m)",
+          "pl": "Wczoraj zapisałem hasło."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "to sign — one go, and it is done",
+      "pl": "podpisać"
+    },
+    {
+      "en": "to sign — again and again",
+      "pl": "podpisywać"
+    },
+    {
+      "en": "to write down — one go, and it is done",
+      "pl": "zapisać"
+    },
+    {
+      "en": "to write down — again and again",
+      "pl": "zapisywać"
+    },
+    {
+      "en": "I write down (as a habit)",
+      "pl": "zapisuję"
+    },
+    {
+      "en": "you write down (as a habit)",
+      "pl": "zapisujesz"
+    },
+    {
+      "en": "he writes down (as a habit)",
+      "pl": "zapisuje"
+    },
+    {
+      "en": "to leave by vehicle — one go, and it is done",
+      "pl": "wyjechać"
+    },
+    {
+      "en": "to leave by vehicle — again and again",
+      "pl": "wyjeżdżać"
+    },
+    {
+      "en": "to arrive by vehicle — again and again",
+      "pl": "przyjeżdżać"
+    },
+    {
+      "en": "to go out on foot — one go, and it is done",
+      "pl": "wyjść"
+    },
+    {
+      "en": "to go out on foot — again and again",
+      "pl": "wychodzić"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ list. (signed it — one go, and it was done)",
+      "choices": [
+        "podpisał",
+        "podpisuje",
+        "podpisać",
+        "podpisze"
+      ],
+      "answer": "podpisał",
+      "explain": "One signature on one letter, finished — so the short verb, in the past."
+    },
+    {
+      "prompt": "Szef codziennie ___ umowę. (signs — every day, it is his job)",
+      "choices": [
+        "podpisuje",
+        "podpisał",
+        "podpisze",
+        "podpisać"
+      ],
+      "answer": "podpisuje",
+      "explain": "codziennie forces the everyday partner: -ywa- in the middle, -uje on the end."
+    },
+    {
+      "prompt": "___ adres. (I will write it down — one go, and it is done)",
+      "choices": [
+        "Zapiszę",
+        "Zapisuję",
+        "Zapisywać",
+        "Zapisać"
+      ],
+      "answer": "Zapiszę",
+      "explain": "A one-go verb has no present, so its present-shaped form means the future — the rule you have had since B2."
+    },
+    {
+      "prompt": "Zawsze ___ hasło. (I write it down — every single time)",
+      "choices": [
+        "zapisuję",
+        "zapiszę",
+        "zapisałem",
+        "zapisać"
+      ],
+      "answer": "zapisuję",
+      "explain": "zawsze is the everyday partner's word. zapiszę would mean one occasion in the future."
+    },
+    {
+      "prompt": "Wczoraj ___ numer. (I wrote it down — m, one go)",
+      "choices": [
+        "zapisałem",
+        "zapisuję",
+        "zapiszę",
+        "zapisywać"
+      ],
+      "answer": "zapisałem",
+      "explain": "One number, one occasion, already done."
+    },
+    {
+      "prompt": "Czy ___ adres? (do you write it down — every time)",
+      "choices": [
+        "zapisujesz",
+        "zapiszesz",
+        "zapisuję",
+        "zapisać"
+      ],
+      "answer": "zapisujesz",
+      "explain": "zapiszesz asks about one future occasion; the question here is about a habit."
+    },
+    {
+      "prompt": "Mama ___ wiadomość. (writes it down — every time one arrives)",
+      "choices": [
+        "zapisuje",
+        "zapisuję",
+        "zapisze",
+        "zapisać"
+      ],
+      "answer": "zapisuje",
+      "explain": "Third person of the -uję class: zapisuję for I, zapisuje for she."
+    },
+    {
+      "prompt": "Jutro ___ z miasta. (I will leave — by car, one go)",
+      "choices": [
+        "wyjadę",
+        "wyjeżdżam",
+        "wyjeżdżać",
+        "wyjechać"
+      ],
+      "answer": "wyjadę",
+      "explain": "One departure tomorrow. wyjeżdżam would say you leave the city regularly."
+    },
+    {
+      "prompt": "Brat ___ do Anglii w poniedziałek. (will leave — by car, one go)",
+      "choices": [
+        "wyjedzie",
+        "wyjeżdża",
+        "wyjeżdżać",
+        "wyjechać"
+      ],
+      "answer": "wyjedzie",
+      "explain": "A named day is one occasion, so the short verb."
+    },
+    {
+      "prompt": "Siostra często ___ do miasta. (comes — by car, again and again)",
+      "choices": [
+        "przyjeżdża",
+        "przyjedzie",
+        "przyjeżdżać",
+        "przyjechać"
+      ],
+      "answer": "przyjeżdża",
+      "explain": "często is the everyday partner's word. Note the stem: jech became jeżdż."
+    },
+    {
+      "prompt": "Codziennie ___ z domu o siódmej. (I leave — on foot, every day)",
+      "choices": [
+        "wychodzę",
+        "wyjdę",
+        "wyszedłem",
+        "wychodzić"
+      ],
+      "answer": "wychodzę",
+      "explain": "This pair uses no suffix at all — the everyday partner is built on the chodzić stem."
+    },
+    {
+      "prompt": "Tata ___ do pracy o ósmej. (leaves on foot — every morning)",
+      "choices": [
+        "wychodzi",
+        "wyjdzie",
+        "wyszedł",
+        "wychodzić"
+      ],
+      "answer": "wychodzi",
+      "explain": "Same pair, third person. wyjdzie would name one morning in particular."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to write down — one go, and it is done",
+      "mode": "full_word",
+      "answer": "zapisać",
+      "accepts": [
+        "zapisać"
+      ]
+    },
+    {
+      "prompt_en": "to write down — again and again",
+      "mode": "full_word",
+      "answer": "zapisywać",
+      "accepts": [
+        "zapisywać"
+      ],
+      "explain": "-ywa- goes in front of the ending, and nothing else moves."
+    },
+    {
+      "prompt_en": "I write down (as a habit)",
+      "mode": "full_word",
+      "answer": "zapisuję",
+      "accepts": [
+        "zapisuję"
+      ],
+      "explain": "Every -ywa- verb conjugates on the -uję class, owned since pracować."
+    },
+    {
+      "prompt_en": "you write down (as a habit)",
+      "mode": "full_word",
+      "answer": "zapisujesz",
+      "accepts": [
+        "zapisujesz"
+      ]
+    },
+    {
+      "prompt_en": "he writes down (as a habit)",
+      "mode": "full_word",
+      "answer": "zapisuje",
+      "accepts": [
+        "zapisuje"
+      ]
+    },
+    {
+      "prompt_en": "to sign — one go, and it is done",
+      "mode": "full_word",
+      "answer": "podpisać",
+      "accepts": [
+        "podpisać"
+      ]
+    },
+    {
+      "prompt_en": "to sign — again and again",
+      "mode": "full_word",
+      "answer": "podpisywać",
+      "accepts": [
+        "podpisywać"
+      ]
+    },
+    {
+      "prompt_en": "to leave by vehicle — one go, and it is done",
+      "mode": "full_word",
+      "answer": "wyjechać",
+      "accepts": [
+        "wyjechać"
+      ]
+    },
+    {
+      "prompt_en": "to leave by vehicle — again and again",
+      "mode": "full_word",
+      "answer": "wyjeżdżać",
+      "accepts": [
+        "wyjeżdżać"
+      ],
+      "explain": "The -a- shape, and the stem moved with it: jech became jeżdż."
+    },
+    {
+      "prompt_en": "to go out on foot — again and again",
+      "mode": "full_word",
+      "answer": "wychodzić",
+      "accepts": [
+        "wychodzić"
+      ],
+      "explain": "No suffix at all — this pair swaps to the chodzić stem instead."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad signed the letter.",
+      "answer": "Tata podpisał list.",
+      "accepts": [
+        "Tata podpisał list.",
+        "Tata podpisał list"
+      ]
+    },
+    {
+      "prompt_en": "Type: The boss signs the contract every day.",
+      "answer": "Szef codziennie podpisuje umowę.",
+      "accepts": [
+        "Szef codziennie podpisuje umowę.",
+        "Szef codziennie podpisuje umowę",
+        "Szef podpisuje umowę codziennie.",
+        "Szef podpisuje umowę codziennie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I always write the address down.",
+      "answer": "Zawsze zapisuję adres.",
+      "accepts": [
+        "Zawsze zapisuję adres.",
+        "Zawsze zapisuję adres",
+        "Zapisuję zawsze adres.",
+        "Zapisuję zawsze adres"
+      ]
+    },
+    {
+      "prompt_en": "Type: I wrote the password down yesterday. (m)",
+      "answer": "Wczoraj zapisałem hasło.",
+      "accepts": [
+        "Wczoraj zapisałem hasło.",
+        "Wczoraj zapisałem hasło",
+        "Zapisałem wczoraj hasło.",
+        "Zapisałem wczoraj hasło"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum writes the message down.",
+      "answer": "Mama zapisuje wiadomość.",
+      "accepts": [
+        "Mama zapisuje wiadomość.",
+        "Mama zapisuje wiadomość"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor signs the prescription.",
+      "answer": "Lekarz podpisuje receptę.",
+      "accepts": [
+        "Lekarz podpisuje receptę.",
+        "Lekarz podpisuje receptę"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother leaves the city often.",
+      "answer": "Brat często wyjeżdża z miasta.",
+      "accepts": [
+        "Brat często wyjeżdża z miasta.",
+        "Brat często wyjeżdża z miasta",
+        "Brat wyjeżdża często z miasta.",
+        "Brat wyjeżdża często z miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister often comes to the city.",
+      "answer": "Siostra często przyjeżdża do miasta.",
+      "accepts": [
+        "Siostra często przyjeżdża do miasta.",
+        "Siostra często przyjeżdża do miasta",
+        "Siostra przyjeżdża często do miasta.",
+        "Siostra przyjeżdża często do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad leaves the house at seven.",
+      "answer": "Tata wychodzi z domu o siódmej.",
+      "accepts": [
+        "Tata wychodzi z domu o siódmej.",
+        "Tata wychodzi z domu o siódmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will write the number down.",
+      "answer": "Zapiszę numer.",
+      "accepts": [
+        "Zapiszę numer.",
+        "Zapiszę numer"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "podpisać",
+    "podpisywać",
+    "podpisuje",
+    "podpisuję",
+    "podpisujesz",
+    "podpisał",
+    "podpisze",
+    "zapisać",
+    "zapisał",
+    "zapisałem",
+    "zapisze",
+    "zapiszesz",
+    "zapiszę",
+    "wyjść",
+    "wychodzić",
+    "wychodzę",
+    "wychodzi",
+    "wyjdę",
+    "wyjdzie",
+    "wyszedł",
+    "wyszedłem",
+    "przyjść",
+    "przychodzić",
+    "wyjechać",
+    "wyjeżdżać",
+    "wyjeżdża",
+    "wyjeżdżam",
+    "wyjadę",
+    "wyjedzie",
+    "przyjechać",
+    "przyjeżdżać",
+    "przyjeżdża",
+    "przyjedzie",
+    "pracować",
+    "kupować",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "szef",
+    "lekarz",
+    "list",
+    "adres",
+    "hasło",
+    "numer",
+    "wiadomość",
+    "receptę",
+    "umowę",
+    "codziennie",
+    "często",
+    "zawsze",
+    "jutro",
+    "wczoraj",
+    "z domu",
+    "z miasta",
+    "do miasta",
+    "do pracy",
+    "anglii",
+    "o siódmej",
+    "o ósmej",
+    "w poniedziałek",
+    "czy",
+    "raz",
+    "już",
+    "znasz",
+    "teraz",
+    "wiesz",
+    "jak"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_sec_imperf",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

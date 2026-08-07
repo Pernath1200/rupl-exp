@@ -1,0 +1,650 @@
+{
+  "id": "a2_station_2",
+  "level": "A2",
+  "kind": "rep_station",
+  "position": "50%",
+  "note": "Rep station 2 — mixed recall bank. Recombines material taught up to and including a2_chodzic: everything from station 1 (past of byc, -ac/-ic past verbs, present classes, Nom/Acc/Gen/Loc/Inst singular, weather, feelings) plus station 2's own additions — past tense across all verb classes, plural Nom/Acc and Genitive plural, Instrumental (identity, company, transport), numbers 5+, motion (jechac/isc/chodzic), and the new vocab bands (family2, people2, travel, countries, transport2, shopping2, directions_func, shopping_func). Singular only unless plural is the explicit point of the item; imperfective only; no virile forms. Fenced: aspect twins, dative chunks, o+Locative, perfective future, reflexive sie and future bede (both postdate this node's position in path_order, verified against tree.json). Each sentence is pre-marked with typed cloze slots so the engine needs no runtime language processing.",
+  "bank": [
+    {
+      "pl": "Sklepy są nowe.",
+      "en": "The shops are new.",
+      "cloze": [
+        {"type": "ending", "word": "sklepy", "stem": "sklep", "answer": "y", "hint": "plural"},
+        {"type": "content", "word": "są", "answer": "są"},
+        {"type": "ending", "word": "nowe", "stem": "now", "answer": "e", "hint": "adjective, plural"}
+      ]
+    },
+    {
+      "pl": "Parki są duże.",
+      "en": "The parks are big.",
+      "cloze": [
+        {"type": "ending", "word": "parki", "stem": "park", "answer": "i", "hint": "plural, after k"},
+        {"type": "content", "word": "są", "answer": "są"},
+        {"type": "ending", "word": "duże", "stem": "duż", "answer": "e", "hint": "adjective, plural"}
+      ]
+    },
+    {
+      "pl": "Mam nowe książki.",
+      "en": "I have new books.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "ending", "word": "nowe", "stem": "now", "answer": "e", "hint": "adjective, plural"},
+        {"type": "ending", "word": "książki", "stem": "książk", "answer": "i", "hint": "plural, after k"}
+      ]
+    },
+    {
+      "pl": "Tata czytał gazety.",
+      "en": "Dad was reading newspapers.",
+      "cloze": [
+        {"type": "ending", "word": "czytał", "stem": "czyta", "answer": "ł", "hint": "he — past marker"},
+        {"type": "ending", "word": "gazety", "stem": "gazet", "answer": "y", "hint": "plural"}
+      ]
+    },
+    {
+      "pl": "Okna są małe.",
+      "en": "The windows are small.",
+      "cloze": [
+        {"type": "ending", "word": "okna", "stem": "okn", "answer": "a", "hint": "neuter, plural"},
+        {"type": "content", "word": "są", "answer": "są"},
+        {"type": "ending", "word": "małe", "stem": "mał", "answer": "e", "hint": "adjective, plural"}
+      ]
+    },
+    {
+      "pl": "To są moje gazety.",
+      "en": "These are my newspapers.",
+      "cloze": [
+        {"type": "content", "word": "są", "answer": "są"},
+        {"type": "ending", "word": "gazety", "stem": "gazet", "answer": "y", "hint": "plural"}
+      ]
+    },
+    {
+      "pl": "Anna kochała koty.",
+      "en": "Anna loved cats.",
+      "cloze": [
+        {"type": "ending", "word": "kochała", "stem": "kochał", "answer": "a", "hint": "she"},
+        {"type": "ending", "word": "koty", "stem": "kot", "answer": "y", "hint": "plural"}
+      ]
+    },
+    {
+      "pl": "Tata ma dużo filmów.",
+      "en": "Dad has a lot of films.",
+      "cloze": [
+        {"type": "content", "word": "dużo", "answer": "dużo"},
+        {"type": "ending", "word": "filmów", "stem": "film", "answer": "ów", "hint": "genitive plural after dużo"}
+      ]
+    },
+    {
+      "pl": "Mama ma dużo gazet.",
+      "en": "Mum has a lot of newspapers.",
+      "cloze": [
+        {"type": "content", "word": "dużo", "answer": "dużo"},
+        {"type": "content", "word": "gazet", "answer": "gazet"}
+      ]
+    },
+    {
+      "pl": "W biurze nie ma telefonów.",
+      "en": "There are no phones in the office.",
+      "cloze": [
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "biurze", "stem": "biur", "answer": "ze", "hint": "after w"},
+        {"type": "grammar", "word": "nie", "answer": "nie", "hint": "negation"},
+        {"type": "ending", "word": "telefonów", "stem": "telefon", "answer": "ów", "hint": "genitive plural after nie ma"}
+      ]
+    },
+    {
+      "pl": "Mieszkam blisko sklepów.",
+      "en": "I live near the shops.",
+      "cloze": [
+        {"type": "ending", "word": "mieszkam", "stem": "mieszka", "answer": "m", "hint": "I"},
+        {"type": "grammar", "word": "blisko", "answer": "blisko", "hint": "preposition"},
+        {"type": "ending", "word": "sklepów", "stem": "sklep", "answer": "ów", "hint": "genitive plural after blisko"}
+      ]
+    },
+    {
+      "pl": "Nie mam kotów.",
+      "en": "I don't have (any) cats.",
+      "cloze": [
+        {"type": "grammar", "word": "nie", "answer": "nie", "hint": "negation"},
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "ending", "word": "kotów", "stem": "kot", "answer": "ów", "hint": "genitive plural after nie mam"}
+      ]
+    },
+    {
+      "pl": "Mam dużo win.",
+      "en": "I have a lot of wines.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "content", "word": "win", "answer": "win"}
+      ]
+    },
+    {
+      "pl": "Chcę dwa piwa.",
+      "en": "I want two beers.",
+      "cloze": [
+        {"type": "ending", "word": "chcę", "stem": "chc", "answer": "ę", "hint": "I"},
+        {"type": "content", "word": "dwa", "answer": "dwa"},
+        {"type": "ending", "word": "piwa", "stem": "piw", "answer": "a", "hint": "plural after 2-4"}
+      ]
+    },
+    {
+      "pl": "Chcę pięć piw.",
+      "en": "I want five beers.",
+      "cloze": [
+        {"type": "ending", "word": "chcę", "stem": "chc", "answer": "ę", "hint": "I"},
+        {"type": "content", "word": "piw", "answer": "piw"}
+      ]
+    },
+    {
+      "pl": "Mam trzy koty.",
+      "en": "I have three cats.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "content", "word": "trzy", "answer": "trzy"},
+        {"type": "ending", "word": "koty", "stem": "kot", "answer": "y", "hint": "plural after 2-4"}
+      ]
+    },
+    {
+      "pl": "Tata ma dziesięć filmów.",
+      "en": "Dad has ten films.",
+      "cloze": [
+        {"type": "content", "word": "dziesięć", "answer": "dziesięć"},
+        {"type": "ending", "word": "filmów", "stem": "film", "answer": "ów", "hint": "genitive plural after 5+"}
+      ]
+    },
+    {
+      "pl": "Chcę dwie kawy.",
+      "en": "I want two coffees.",
+      "cloze": [
+        {"type": "ending", "word": "chcę", "stem": "chc", "answer": "ę", "hint": "I"},
+        {"type": "content", "word": "dwie", "answer": "dwie"},
+        {"type": "ending", "word": "kawy", "stem": "kaw", "answer": "y", "hint": "plural after 2-4"}
+      ]
+    },
+    {
+      "pl": "Mam dwadzieścia lat.",
+      "en": "I am twenty years old.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "content", "word": "lat", "answer": "lat"}
+      ]
+    },
+    {
+      "pl": "Jestem nauczycielem.",
+      "en": "I am a teacher.",
+      "cloze": [
+        {"type": "ending", "word": "jestem", "stem": "jest", "answer": "em", "hint": "I"},
+        {"type": "ending", "word": "nauczycielem", "stem": "nauczyciel", "answer": "em", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Moja córka jest studentką.",
+      "en": "My daughter is a student.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "studentką", "stem": "studentk", "answer": "ą", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Mój brat jest lekarzem.",
+      "en": "My brother is a doctor.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "lekarzem", "stem": "lekarz", "answer": "em", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Jestem studentem.",
+      "en": "I am a student.",
+      "cloze": [
+        {"type": "ending", "word": "jestem", "stem": "jest", "answer": "em", "hint": "I"},
+        {"type": "ending", "word": "studentem", "stem": "student", "answer": "em", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Idę do sklepu.",
+      "en": "I am going to the shop.",
+      "cloze": [
+        {"type": "ending", "word": "idę", "stem": "id", "answer": "ę", "hint": "I, on foot"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"},
+        {"type": "ending", "word": "sklepu", "stem": "sklep", "answer": "u", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Jadę do pracy.",
+      "en": "I am going to work.",
+      "cloze": [
+        {"type": "ending", "word": "jadę", "stem": "jad", "answer": "ę", "hint": "I, by vehicle"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"},
+        {"type": "ending", "word": "pracy", "stem": "prac", "answer": "y", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Tata jedzie do pracy.",
+      "en": "Dad is going to work. (he drives)",
+      "cloze": [
+        {"type": "ending", "word": "jedzie", "stem": "jedzi", "answer": "e", "hint": "he, by vehicle"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"},
+        {"type": "ending", "word": "pracy", "stem": "prac", "answer": "y", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Autobus jedzie do centrum.",
+      "en": "The bus is going to the centre.",
+      "cloze": [
+        {"type": "ending", "word": "jedzie", "stem": "jedzi", "answer": "e", "hint": "it, by vehicle"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"}
+      ]
+    },
+    {
+      "pl": "Codziennie chodzę do parku.",
+      "en": "Every day I go to the park.",
+      "cloze": [
+        {"type": "ending", "word": "chodzę", "stem": "chodz", "answer": "ę", "hint": "I, habitual"},
+        {"type": "ending", "word": "parku", "stem": "park", "answer": "u", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Codziennie dzieci chodzą do szkoły.",
+      "en": "The children go to school every day.",
+      "cloze": [
+        {"type": "content", "word": "dzieci", "answer": "dzieci"},
+        {"type": "ending", "word": "chodzą", "stem": "chodz", "answer": "ą", "hint": "they, habitual"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"},
+        {"type": "ending", "word": "szkoły", "stem": "szko", "answer": "ły", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Teraz idę do sklepu.",
+      "en": "Right now I'm going to the shop.",
+      "cloze": [
+        {"type": "ending", "word": "idę", "stem": "id", "answer": "ę", "hint": "I, on foot"},
+        {"type": "ending", "word": "sklepu", "stem": "sklep", "answer": "u", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Idziesz teraz do sklepu?",
+      "en": "Are you going to the shop right now?",
+      "cloze": [
+        {"type": "ending", "word": "idziesz", "stem": "idzi", "answer": "esz", "hint": "you, on foot"},
+        {"type": "ending", "word": "sklepu", "stem": "sklep", "answer": "u", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Dziadek pił kawę.",
+      "en": "Grandad was drinking coffee.",
+      "cloze": [
+        {"type": "content", "word": "dziadek", "answer": "dziadek"},
+        {"type": "ending", "word": "pił", "stem": "pi", "answer": "ł", "hint": "he — past marker"},
+        {"type": "ending", "word": "kawę", "stem": "kaw", "answer": "ę", "hint": "object"}
+      ]
+    },
+    {
+      "pl": "Mój wujek pracował w banku.",
+      "en": "My uncle used to work in a bank.",
+      "cloze": [
+        {"type": "content", "word": "wujek", "answer": "wujek"},
+        {"type": "ending", "word": "pracował", "stem": "pracowa", "answer": "ł", "hint": "he — past marker"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "banku", "stem": "bank", "answer": "u", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Moja kuzynka czytała książkę.",
+      "en": "My cousin was reading a book. (female cousin)",
+      "cloze": [
+        {"type": "content", "word": "kuzynka", "answer": "kuzynka"},
+        {"type": "ending", "word": "czytała", "stem": "czytał", "answer": "a", "hint": "she"},
+        {"type": "ending", "word": "książkę", "stem": "książk", "answer": "ę", "hint": "object"}
+      ]
+    },
+    {
+      "pl": "Moja żona kupowała chleb.",
+      "en": "My wife used to buy the bread.",
+      "cloze": [
+        {"type": "content", "word": "żona", "answer": "żona"},
+        {"type": "ending", "word": "kupowała", "stem": "kupował", "answer": "a", "hint": "she"}
+      ]
+    },
+    {
+      "pl": "Mój wnuk miał rower.",
+      "en": "My grandson had a bike.",
+      "cloze": [
+        {"type": "content", "word": "wnuk", "answer": "wnuk"},
+        {"type": "ending", "word": "miał", "stem": "mia", "answer": "ł", "hint": "he — past marker"}
+      ]
+    },
+    {
+      "pl": "Syn lubił tenis.",
+      "en": "My son liked tennis.",
+      "cloze": [
+        {"type": "ending", "word": "lubił", "stem": "lubi", "answer": "ł", "hint": "he — past marker"},
+        {"type": "content", "word": "tenis", "answer": "tenis"}
+      ]
+    },
+    {
+      "pl": "Wczoraj zwiedzałem miasto.",
+      "en": "Yesterday I was looking round the city. (m)",
+      "cloze": [
+        {"type": "ending", "word": "zwiedzałem", "stem": "zwiedzał", "answer": "em", "hint": "I (m)"},
+        {"type": "content", "word": "miasto", "answer": "miasto"}
+      ]
+    },
+    {
+      "pl": "Mama zwiedzała miasto.",
+      "en": "Mum was looking round the city.",
+      "cloze": [
+        {"type": "ending", "word": "zwiedzała", "stem": "zwiedzał", "answer": "a", "hint": "she"},
+        {"type": "content", "word": "miasto", "answer": "miasto"}
+      ]
+    },
+    {
+      "pl": "Ten sweter jest brzydki.",
+      "en": "This sweater is ugly.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "brzydki", "stem": "brzydk", "answer": "i", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Moja siostra była miła.",
+      "en": "My sister was nice.",
+      "cloze": [
+        {"type": "ending", "word": "była", "stem": "był", "answer": "a", "hint": "she"},
+        {"type": "ending", "word": "miła", "stem": "mił", "answer": "a", "hint": "adjective (f)"}
+      ]
+    },
+    {
+      "pl": "Mój pies jest mądry.",
+      "en": "My dog is clever.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "mądry", "stem": "mądr", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Ta gra była głupia.",
+      "en": "That game was silly.",
+      "cloze": [
+        {"type": "ending", "word": "była", "stem": "był", "answer": "a", "hint": "it"},
+        {"type": "ending", "word": "głupia", "stem": "głupi", "answer": "a", "hint": "adjective (f)"}
+      ]
+    },
+    {
+      "pl": "Cena była niska.",
+      "en": "The price was low.",
+      "cloze": [
+        {"type": "ending", "word": "była", "stem": "był", "answer": "a", "hint": "it"},
+        {"type": "ending", "word": "niska", "stem": "nisk", "answer": "a", "hint": "adjective (f)"}
+      ]
+    },
+    {
+      "pl": "Mój kot jest gruby.",
+      "en": "My cat is fat.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "gruby", "stem": "grub", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Wczoraj padał śnieg.",
+      "en": "Yesterday it was snowing.",
+      "cloze": [
+        {"type": "ending", "word": "padał", "stem": "pada", "answer": "ł", "hint": "past marker"},
+        {"type": "content", "word": "śnieg", "answer": "śnieg"}
+      ]
+    },
+    {
+      "pl": "W zeszłym tygodniu było zimno.",
+      "en": "Last week it was cold.",
+      "cloze": [
+        {"type": "ending", "word": "było", "stem": "był", "answer": "o", "hint": "it"},
+        {"type": "content", "word": "zimno", "answer": "zimno"}
+      ]
+    },
+    {
+      "pl": "Mój dziadek był zmęczony.",
+      "en": "My grandad was tired.",
+      "cloze": [
+        {"type": "content", "word": "dziadek", "answer": "dziadek"},
+        {"type": "ending", "word": "był", "stem": "by", "answer": "ł", "hint": "he — past marker"},
+        {"type": "ending", "word": "zmęczony", "stem": "zmęczon", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Jestem głodny.",
+      "en": "I am hungry.",
+      "cloze": [
+        {"type": "ending", "word": "jestem", "stem": "jest", "answer": "em", "hint": "I"},
+        {"type": "ending", "word": "głodny", "stem": "głodn", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Jestem Anglikiem.",
+      "en": "I am English. (m)",
+      "cloze": [
+        {"type": "ending", "word": "jestem", "stem": "jest", "answer": "em", "hint": "I"},
+        {"type": "ending", "word": "Anglikiem", "stem": "Anglik", "answer": "iem", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Anna jest Polką.",
+      "en": "Anna is Polish.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "Polką", "stem": "Polk", "answer": "ą", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Mój przyjaciel jest Polakiem.",
+      "en": "My friend is Polish.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "Polakiem", "stem": "Polak", "answer": "iem", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Nie mówię po polsku.",
+      "en": "I don't speak Polish.",
+      "cloze": [
+        {"type": "grammar", "word": "nie", "answer": "nie", "hint": "negation"},
+        {"type": "ending", "word": "mówię", "stem": "mów", "answer": "ię", "hint": "I"},
+        {"type": "content", "word": "polsku", "answer": "polsku"}
+      ]
+    },
+    {
+      "pl": "Mieszkam w Anglii.",
+      "en": "I live in England.",
+      "cloze": [
+        {"type": "ending", "word": "mieszkam", "stem": "mieszka", "answer": "m", "hint": "I"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "Anglii", "stem": "Angli", "answer": "i", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Którędy do apteki?",
+      "en": "Which way to the chemist's?",
+      "cloze": [
+        {"type": "content", "word": "Którędy", "answer": "Którędy"},
+        {"type": "grammar", "word": "do", "answer": "do", "hint": "preposition"},
+        {"type": "ending", "word": "apteki", "stem": "aptek", "answer": "i", "hint": "genitive after do"}
+      ]
+    },
+    {
+      "pl": "Proszę iść prosto.",
+      "en": "Please go straight on.",
+      "cloze": [
+        {"type": "grammar", "word": "Proszę", "answer": "Proszę", "hint": "politeness word"},
+        {"type": "content", "word": "prosto", "answer": "prosto"}
+      ]
+    },
+    {
+      "pl": "Czy to daleko?",
+      "en": "Is it far?",
+      "cloze": [
+        {"type": "grammar", "word": "Czy", "answer": "Czy", "hint": "question word"},
+        {"type": "content", "word": "daleko", "answer": "daleko"}
+      ]
+    },
+    {
+      "pl": "Ile to kosztuje?",
+      "en": "How much does it cost?",
+      "cloze": [
+        {"type": "content", "word": "Ile", "answer": "Ile"},
+        {"type": "ending", "word": "kosztuje", "stem": "kosztuj", "answer": "e", "hint": "it, -uje class"}
+      ]
+    },
+    {
+      "pl": "Poproszę kawę.",
+      "en": "A coffee, please.",
+      "cloze": [
+        {"type": "grammar", "word": "Poproszę", "answer": "Poproszę", "hint": "politeness word"},
+        {"type": "ending", "word": "kawę", "stem": "kaw", "answer": "ę", "hint": "object after Poproszę"}
+      ]
+    },
+    {
+      "pl": "Płacę kartą.",
+      "en": "I'm paying by card.",
+      "cloze": [
+        {"type": "content", "word": "Płacę", "answer": "Płacę"},
+        {"type": "ending", "word": "kartą", "stem": "kart", "answer": "ą", "hint": "instrumental"}
+      ]
+    },
+    {
+      "pl": "Mam nową walizkę.",
+      "en": "I have a new suitcase.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "ending", "word": "nową", "stem": "now", "answer": "ą", "hint": "adjective, object"},
+        {"type": "ending", "word": "walizkę", "stem": "walizk", "answer": "ę", "hint": "object"}
+      ]
+    },
+    {
+      "pl": "Mój paszport jest w domu.",
+      "en": "My passport is at home.",
+      "cloze": [
+        {"type": "content", "word": "paszport", "answer": "paszport"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "domu", "stem": "dom", "answer": "u", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Pociąg jest spóźniony.",
+      "en": "The train is late.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "spóźniony", "stem": "spóźnion", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "To była dobra podróż.",
+      "en": "It was a good journey.",
+      "cloze": [
+        {"type": "ending", "word": "była", "stem": "był", "answer": "a", "hint": "it, feminine noun"},
+        {"type": "ending", "word": "dobra", "stem": "dobr", "answer": "a", "hint": "adjective (f)"},
+        {"type": "content", "word": "podróż", "answer": "podróż"}
+      ]
+    },
+    {
+      "pl": "Byłem na plaży.",
+      "en": "I was on the beach. (m)",
+      "cloze": [
+        {"type": "ending", "word": "Byłem", "stem": "Był", "answer": "em", "hint": "I (m)"},
+        {"type": "grammar", "word": "na", "answer": "na", "hint": "preposition"},
+        {"type": "ending", "word": "plaży", "stem": "plaż", "answer": "y", "hint": "after na"}
+      ]
+    },
+    {
+      "pl": "Mam banknot.",
+      "en": "I have a banknote.",
+      "cloze": [
+        {"type": "ending", "word": "mam", "stem": "ma", "answer": "m", "hint": "I"},
+        {"type": "content", "word": "banknot", "answer": "banknot"}
+      ]
+    },
+    {
+      "pl": "Zarabiam pieniądze.",
+      "en": "I earn money.",
+      "cloze": [
+        {"type": "ending", "word": "Zarabiam", "stem": "Zarabia", "answer": "m", "hint": "I"},
+        {"type": "content", "word": "pieniądze", "answer": "pieniądze"}
+      ]
+    },
+    {
+      "pl": "Mój brat jest bogaty.",
+      "en": "My brother is rich.",
+      "cloze": [
+        {"type": "content", "word": "jest", "answer": "jest"},
+        {"type": "ending", "word": "bogaty", "stem": "bogat", "answer": "y", "hint": "adjective (m)"}
+      ]
+    },
+    {
+      "pl": "Mama i tata byli w domu.",
+      "en": "Mum and Dad were at home.",
+      "cloze": [
+        {"type": "grammar", "word": "i", "answer": "i", "hint": "and"},
+        {"type": "ending", "word": "byli", "stem": "by", "answer": "li", "hint": "they — a man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "domu", "stem": "dom", "answer": "u", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Mama i Anna były w sklepie.",
+      "en": "Mum and Anna were at the shop.",
+      "cloze": [
+        {"type": "grammar", "word": "i", "answer": "i", "hint": "and"},
+        {"type": "ending", "word": "były", "stem": "by", "answer": "ły", "hint": "they — no man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "sklepie", "stem": "sklep", "answer": "ie", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Tata i brat mieszkali w mieście.",
+      "en": "Dad and my brother lived in the city.",
+      "cloze": [
+        {"type": "grammar", "word": "i", "answer": "i", "hint": "and"},
+        {"type": "ending", "word": "mieszkali", "stem": "mieszka", "answer": "li", "hint": "they — a man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "content", "word": "mieście", "answer": "mieście"}
+      ]
+    },
+    {
+      "pl": "Mama i siostra mieszkały w mieście.",
+      "en": "Mum and my sister lived in the city.",
+      "cloze": [
+        {"type": "grammar", "word": "i", "answer": "i", "hint": "and"},
+        {"type": "ending", "word": "mieszkały", "stem": "mieszka", "answer": "ły", "hint": "they — no man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "content", "word": "mieście", "answer": "mieście"}
+      ]
+    },
+    {
+      "pl": "Mama i tata robili śniadanie.",
+      "en": "Mum and Dad were making breakfast.",
+      "cloze": [
+        {"type": "grammar", "word": "i", "answer": "i", "hint": "and"},
+        {"type": "ending", "word": "robili", "stem": "robi", "answer": "li", "hint": "they — a man in the group"},
+        {"type": "content", "word": "śniadanie", "answer": "śniadanie"}
+      ]
+    },
+    {
+      "pl": "Wczoraj rodzice byli w domu.",
+      "en": "Yesterday my parents were at home.",
+      "cloze": [
+        {"type": "content", "word": "rodzice", "answer": "rodzice"},
+        {"type": "ending", "word": "byli", "stem": "by", "answer": "li", "hint": "they — a man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "domu", "stem": "dom", "answer": "u", "hint": "after w"}
+      ]
+    },
+    {
+      "pl": "Dzieci były w szkole.",
+      "en": "The children were at school.",
+      "cloze": [
+        {"type": "content", "word": "dzieci", "answer": "dzieci"},
+        {"type": "ending", "word": "były", "stem": "by", "answer": "ły", "hint": "they — no man in the group"},
+        {"type": "grammar", "word": "w", "answer": "w", "hint": "preposition"},
+        {"type": "ending", "word": "szkole", "stem": "szko", "answer": "le", "hint": "after w"}
+      ]
+    }
+  ]
+}

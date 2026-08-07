@@ -1,0 +1,599 @@
+{
+  "id": "c1_imperative_stems",
+  "title": "Rób! Daj!",
+  "title_en": "The imperatives that change their stem",
+  "level": "C1",
+  "tree_node": "c1_imperative_stems",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 10 (path 219). Inbox item 15's first half: the imperatives that need a sound change on top of the owned rule. FIVE NEW STRINGS, ONE NEW MECHANISM, and TWO NAMED DEBTS PAID.\n\nBOTH DEBTS WERE NAMED BY b1_imperative_rule [125] IN ITS OWN LEARNER-FACING TEXT, and the pack was read rather than summarised - which matters, because SEQUENCING.md's summary of it is wrong in two places. DEBT 1, slide 0, in parentheses: '(Daj stays exactly as opaque as it always was - its own dictionary form was never shown to you, and this unit doesn't change that.)' DEBT 2, slide 2, last line: 'A few common verbs need one extra sound change on top of it - those are for a later unit, not this one.' This is that unit, and it pays both.\n\nTHE daj PAYOFF IS THE REASON THIS UNIT SITS AT 219 AND NOT EARLIER, and the sequencing was already right. b1_imperative_rule could not explain daj because dac's forms did not exist in the course - the rule needs a 3sg to work on. c1_dawac_perf [218], ONE NODE BACK, taught dac and da. So da -> ends in a vowel -> add -j -> daj falls straight out of the rule the learner has owned since [125], at ZERO new strings. A2's last unexplained imperative chunk becomes derivable, and the blocker was stated out loud four levels ago rather than discovered here.\n\nTWO CORRECTIONS TO SEQUENCING.md's SUMMARY OF imperative_rule, both found by reading the pack. (1) That summary says 'robic->rob (the o->o shift) and ALL OTHER STEM-ALTERNATING IRREGULARS are fenced out - not taught, not shown, not a distractor.' Not so: slide 0 SHOWS idz and chodz WITH their sound change, labelled 'same rule, plus the dzie->dz sound you already know by heart'. So the dz alternation is already explained and is NOT new material here - which is exactly why jedz is cheap. (2) That summary lists A2's chunk set as 'daj, idz, czekaj, patrz, sluchaj'. check_new.py reports patrz NEW; imperative_rule's own slide 0 title gives the real five as Czekaj / Sluchaj / Idz / Chodz / Daj. The inventory claim was wrong and nothing in this pack rests on it.\n\nTHE ONE NEW MECHANISM IS THE o -> o SHIFT, and it is taught on the only two verbs where the derivation is FULLY ANCHORED: robi -> rob -> rob and zrobi -> zrob -> zrob, both 3sg forms owned (robi <- a1_present_e_isz [16], zrobi <- b1_perf_future [102]). mow is used as the CONTRAST case rather than a third instance - it is owned since [125] and its o was there all along, so putting it beside rob shows the difference between a vowel that appears and one that was always written.\n\nTWO o->o VERBS WERE DRAFTED AND DROPPED, both for the same verifiable reason: the rule needs a 3sg and the 3sg is not owned. pomoc -> pomoze -> pomoz: pomoze is verified NEW, so teaching pomoz would mean teaching a cell of pomoc's perfective future, whose siblings pomoge/pomozesz carry a g/z alternation that is a whole separate system - and it would graze the MOGLBY QUARANTINE's neighbourhood for no gain. otworzyc -> otworzy -> otworz: otworzyc is owned as an infinitive since trunk_can_a1 [24] but otworzy is verified NEW, same problem. Both are logged as permanently untaught unless a later spine schedules them. moc is avoided ENTIRELY - no form of it appears anywhere in this pack.\n\njedz IS ONE NEW STRING AND ZERO NEW MECHANISM, which is why it is here: jedzie is owned <- a2_jechac [66], and the dzie->dz change is the one imperative_rule already explained on idz. It also gives the unit its best discrimination, because the isc/jechac split (on foot against by vehicle) has been drilled since A2 and now reaches the imperative: Idz do sklepu! against Jedz autobusem!\n\nTHE NEGATIVES COST NOTHING AND DEMONSTRATE AN OWNED RULE ON NEW FORMS. imperative_rule taught 'nie + the IMPERFECTIVE, always'. robic and jechac are ALREADY imperfective, so nie rob and nie jedz need no flip at all - and nie rob is ALSO zrob's negative, which is the flip rule biting on a form taught in this very unit (Zrob kawe! -> Nie rob obiadu!). That is the cleanest available demonstration and it is why zrob is in the unit at all rather than being left to the learner's own application of the rule.\n\nREGULAR IMPERATIVES ARE DELIBERATELY NOT TAUGHT, and this is a scope decision rather than an omission: napisz, podpisz, zapisz, opisz, przepisz are all verified NEW but all REGULAR (podpisze -> drop -e -> podpisz, a bare consonant stem), so the productive rule the learner has owned since [125] already generates them. pisac_family [172] fenced podpisz/zapisz as 'imperative_rule's stem-alternating material'; that description is inaccurate - they alternate nothing - and they are left underived rather than spent as filler, which keeps this unit on its one new mechanism.\n\nMATCH IS THE WHOLE IMPERATIVE BOARD, twelve rows, and that is the design: with only five new strings the board would be thin, so it carries the three new forms beside nine owned ones (daj, idz, chodz, czekaj, sluchaj, mow, kupuj, pij, kup). That is AGENTS' stated default recycling mechanism - use owned material actively in later units - and it makes the board a recognition sweep across every imperative the course owns, which is what a learner needs at the point the last irregular arrives.\n\nKONTROLA IS TWELVE REAL-FORM CHOICES AND NO META-QUESTION - the standing precedent is this very strand: b1_imperative_rule had to CUT a quiz item reading 'Which verb is deliberately NOT covered by this rule?', and the node note names it as what not to write. Every item here gives an English cue and asks which real form carries it. A DUPLICATE ANSWER WAS CAUGHT BY THE PACK'S OWN norm() MIRROR: items 4 and 10 answered Jedz and jedz, which a naive eye-scan passes and which the engine's own lowercasing collapses into one answer; item 10 was rebuilt on jedzie, the 3sg, which also makes it a sharper imperative-versus-present discrimination. Wrong-but-real distractors are used (nie zrob is offered against nie rob) on b2_which_case's live precedent - those are real forms in an illegal combination, which is what a discrimination item is for, and NOT the fabricated non-words AGENTS bans.\n\nPISANIE IS TEN FORMS TYPED WHOLE, nine of them one word and one of them two (nie rob) - a pattern phrase well inside the 3-word cap, and imperative_rule's own tagging of nie graj / nie mow as lemmas is the precedent. Uzycie carries the sentences. HOMOGRAPH AND POOL DISCIPLINE: obiadu is TAUGHT <- c1_gen_verbs [207] as a Genitive and is used here as a Genitive (after a negated verb, neg_gen), so the function is unchanged; ksiazki never appears; every imperative object is owned (kawe, chleb, klucz, obiadu, autobus). NO case-map.json ROW IS ADDED: this unit ships no governor. FENCED, all verified NEW: the imperative PLURAL (robcie, chodzmy) and the formal niech pan/niech pani, which are c1_imperative_more [220]'s own material by name; badz and wez, both fully irregular with no rule to hang them on and neither scheduled; pomoz, otworz, pomagaj, patrz.",
+  "focus_structures": [
+    "imperative_stems"
+  ],
+  "teaches_structures": [
+    "imperative_stems"
+  ],
+  "teaches_lemmas": [
+    "rób",
+    "zrób",
+    "jedź",
+    "nie rób",
+    "nie jedź"
+  ],
+  "uses_structures": [
+    "imperative_stems",
+    "imperative_rule",
+    "imperative",
+    "dawac_perf",
+    "perf_future",
+    "present_e_isz",
+    "jechac",
+    "chodzic",
+    "motion_chunk",
+    "neg_gen",
+    "negation",
+    "miec_acc",
+    "musiec",
+    "inst_transport",
+    "na_acc",
+    "prep_do_gen",
+    "aspect_past"
+  ],
+  "intro": [
+    {
+      "title": "The one A2 command that stayed a mystery",
+      "title_pl": "da → daj",
+      "body": "When you were given the imperative rule you were told plainly that Daj! was the exception it could not touch, and why: dać's own forms had never been shown to you, and the rule needs a he/she form to work on.\n\nYou were given them last unit. So the mystery closes, and it closes by itself — the rule does all the work.\n\nda ends in a vowel, so it takes -j. That is Daj!, and it has been regular the whole time.",
+      "body_pl": "da → daj",
+      "table": {
+        "headers": [
+          "Verb",
+          "he / she form",
+          "Command",
+          "How"
+        ],
+        "rows": [
+          [
+            "dać",
+            "da",
+            "Daj!",
+            "ends in the vowel a → add -j"
+          ],
+          [
+            "czekać",
+            "czeka",
+            "Czekaj!",
+            "the same move, which you have had since A2"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Give me the key!",
+          "pl": "Daj mi klucz!"
+        }
+      ]
+    },
+    {
+      "title": "The extra sound change: o becomes ó",
+      "title_pl": "robi → rób",
+      "body": "This is the one thing left in the rule, and it is a change of sound rather than a change of method. Drop the ending as usual; if that leaves an o at the end of the word, it is written and said ó.\n\nrobi, drop the -i, and rob would be what the rule predicts. Polish says rób.",
+      "body_pl": "robi → rób · zrobi → zrób",
+      "table": {
+        "headers": [
+          "Verb",
+          "he / she form",
+          "Command",
+          "How"
+        ],
+        "rows": [
+          [
+            "robić",
+            "robi",
+            "Rób!",
+            "drop -i, then the o lengthens to ó"
+          ],
+          [
+            "zrobić",
+            "zrobi",
+            "Zrób!",
+            "the same, on the one-go verb"
+          ],
+          [
+            "mówić",
+            "mówi",
+            "Mów!",
+            "no change — this ó was there all along"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Make a coffee!",
+          "pl": "Zrób kawę!"
+        },
+        {
+          "en": "Speak Polish!",
+          "pl": "Mów po polsku!"
+        }
+      ]
+    },
+    {
+      "title": "One you already know, on a new verb",
+      "title_pl": "jedzie → jedź",
+      "body": "You met this change on Idź! — the rule, plus a softening you were told to take on trust.\n\njechać does exactly the same thing. And it gives you the pair you have been building since A2: one command for going on foot, one for going in something.",
+      "body_pl": "Idź! · Jedź!",
+      "table": {
+        "headers": [
+          "Verb",
+          "he / she form",
+          "Command",
+          "Which one"
+        ],
+        "rows": [
+          [
+            "iść",
+            "idzie",
+            "Idź!",
+            "on foot"
+          ],
+          [
+            "jechać",
+            "jedzie",
+            "Jedź!",
+            "in a vehicle"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Go to the shop!",
+          "pl": "Idź do sklepu!"
+        },
+        {
+          "en": "Go by bus!",
+          "pl": "Jedź autobusem!"
+        }
+      ]
+    },
+    {
+      "title": "Saying don't — nothing new to do",
+      "title_pl": "nie rób · nie jedź",
+      "body": "The rule for negative commands is one you have: nie takes the in-progress verb, always.\n\nHere that costs nothing, because robić and jechać are in-progress verbs already. nie rób and nie jedź are simply the forms you have just made.\n\nIt does mean one thing worth noticing: Zrób! has no negative of its own. Tell somebody not to do it and you are back to Nie rób!",
+      "body_pl": "Zrób! → Nie rób!",
+      "table": {
+        "headers": [
+          "Do it",
+          "Don't do it"
+        ],
+        "rows": [
+          [
+            "Zrób kawę!",
+            "Nie rób kawy!"
+          ],
+          [
+            "Rób obiad!",
+            "Nie rób obiadu!"
+          ],
+          [
+            "Jedź autobusem!",
+            "Nie jedź autobusem!"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "do it, make it — again and again",
+      "pl": "rób"
+    },
+    {
+      "en": "do it, make it — one go",
+      "pl": "zrób"
+    },
+    {
+      "en": "go — in a vehicle",
+      "pl": "jedź"
+    },
+    {
+      "en": "go — on foot",
+      "pl": "idź"
+    },
+    {
+      "en": "come here",
+      "pl": "chodź"
+    },
+    {
+      "en": "give it",
+      "pl": "daj"
+    },
+    {
+      "en": "wait",
+      "pl": "czekaj"
+    },
+    {
+      "en": "listen",
+      "pl": "słuchaj"
+    },
+    {
+      "en": "speak",
+      "pl": "mów"
+    },
+    {
+      "en": "buy it — again and again",
+      "pl": "kupuj"
+    },
+    {
+      "en": "drink — again and again",
+      "pl": "pij"
+    },
+    {
+      "en": "buy it — one go",
+      "pl": "kup"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ kawę! (make it — one go, and it is done)",
+      "choices": [
+        "Zrób",
+        "Rób",
+        "Zrobi",
+        "Zrobić"
+      ],
+      "answer": "Zrób",
+      "explain": "From zrobi: drop the -i and the o lengthens. Zrobi would be saying he will make it."
+    },
+    {
+      "prompt": "Nie ___ obiadu! (don't make dinner)",
+      "choices": [
+        "rób",
+        "zrób",
+        "robi",
+        "robić"
+      ],
+      "answer": "rób",
+      "explain": "nie always takes the in-progress verb, so the one-go zrób has no negative of its own."
+    },
+    {
+      "prompt": "___ do sklepu! (go — on foot)",
+      "choices": [
+        "Idź",
+        "Jedź",
+        "Chodź",
+        "Rób"
+      ],
+      "answer": "Idź",
+      "explain": "To a shop on your feet, so iść. Jedź would put you in a vehicle."
+    },
+    {
+      "prompt": "___ autobusem! (go — by bus)",
+      "choices": [
+        "Jedź",
+        "Idź",
+        "Chodź",
+        "Rób"
+      ],
+      "answer": "Jedź",
+      "explain": "In something, so jechać — from jedzie, with the same softening you have on Idź."
+    },
+    {
+      "prompt": "___ mi klucz! (give it to me)",
+      "choices": [
+        "Daj",
+        "Dam",
+        "Dać",
+        "Dasz"
+      ],
+      "answer": "Daj",
+      "explain": "The command, straight off da. Dam would mean I will give it."
+    },
+    {
+      "prompt": "Jutro ___ mi klucz. (you will give it)",
+      "choices": [
+        "dasz",
+        "daj",
+        "dam",
+        "dać"
+      ],
+      "answer": "dasz",
+      "explain": "Not a command but a statement about tomorrow, so the you form of the one-go verb."
+    },
+    {
+      "prompt": "___ po polsku! (speak)",
+      "choices": [
+        "Mów",
+        "Mówi",
+        "Mówić",
+        "Rób"
+      ],
+      "answer": "Mów",
+      "explain": "Nothing is added and nothing lengthens — this ó was in the verb from the start."
+    },
+    {
+      "prompt": "Tata ___ obiad. (he makes it)",
+      "choices": [
+        "robi",
+        "rób",
+        "robić",
+        "zrób"
+      ],
+      "answer": "robi",
+      "explain": "A statement about Dad, not an instruction to him — so the plain he form, with its o."
+    },
+    {
+      "prompt": "Muszę ___ kawę. (make it)",
+      "choices": [
+        "zrobić",
+        "zrób",
+        "zrobi",
+        "rób"
+      ],
+      "answer": "zrobić",
+      "explain": "muszę is followed by the dictionary form, so no command and no ending choice."
+    },
+    {
+      "prompt": "Brat ___ autobusem. (he goes by bus)",
+      "choices": [
+        "jedzie",
+        "jedź",
+        "jechać",
+        "idź"
+      ],
+      "answer": "jedzie",
+      "explain": "This is the form the command was built from — here it is doing its own job."
+    },
+    {
+      "prompt": "___! (wait)",
+      "choices": [
+        "Czekaj",
+        "Rób",
+        "Jedź",
+        "Daj"
+      ],
+      "answer": "Czekaj",
+      "explain": "One of A2's five, and regular: czeka ends in a vowel, so it takes -j."
+    },
+    {
+      "prompt": "___ chleb! (buy it — one go)",
+      "choices": [
+        "Kup",
+        "Kupuj",
+        "Kupi",
+        "Kupić"
+      ],
+      "answer": "Kup",
+      "explain": "Kupuj would be telling somebody to buy bread as a habit."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "do it, make it — again and again",
+      "mode": "full_word",
+      "answer": "rób",
+      "accepts": [
+        "rób"
+      ],
+      "explain": "The o at the end of the word lengthens to ó."
+    },
+    {
+      "prompt_en": "do it, make it — one go",
+      "mode": "full_word",
+      "answer": "zrób",
+      "accepts": [
+        "zrób"
+      ]
+    },
+    {
+      "prompt_en": "go — in a vehicle",
+      "mode": "full_word",
+      "answer": "jedź",
+      "accepts": [
+        "jedź"
+      ]
+    },
+    {
+      "prompt_en": "don't do it, don't make it",
+      "mode": "full_word",
+      "answer": "nie rób",
+      "accepts": [
+        "nie rób"
+      ],
+      "explain": "Also the negative of zrób — a one-go command has no negative of its own."
+    },
+    {
+      "prompt_en": "give it",
+      "mode": "full_word",
+      "answer": "daj",
+      "accepts": [
+        "daj"
+      ],
+      "explain": "da ends in a vowel, so it takes -j. Regular all along."
+    },
+    {
+      "prompt_en": "go — on foot",
+      "mode": "full_word",
+      "answer": "idź",
+      "accepts": [
+        "idź"
+      ]
+    },
+    {
+      "prompt_en": "come here",
+      "mode": "full_word",
+      "answer": "chodź",
+      "accepts": [
+        "chodź"
+      ]
+    },
+    {
+      "prompt_en": "wait",
+      "mode": "full_word",
+      "answer": "czekaj",
+      "accepts": [
+        "czekaj"
+      ]
+    },
+    {
+      "prompt_en": "speak",
+      "mode": "full_word",
+      "answer": "mów",
+      "accepts": [
+        "mów"
+      ]
+    },
+    {
+      "prompt_en": "buy it — one go",
+      "mode": "full_word",
+      "answer": "kup",
+      "accepts": [
+        "kup"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Make a coffee!",
+      "answer": "Zrób kawę!",
+      "accepts": [
+        "Zrób kawę!",
+        "Zrób kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Don't make dinner!",
+      "answer": "Nie rób obiadu!",
+      "accepts": [
+        "Nie rób obiadu!",
+        "Nie rób obiadu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Go by bus!",
+      "answer": "Jedź autobusem!",
+      "accepts": [
+        "Jedź autobusem!",
+        "Jedź autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Don't go by bus!",
+      "answer": "Nie jedź autobusem!",
+      "accepts": [
+        "Nie jedź autobusem!",
+        "Nie jedź autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Give me the key!",
+      "answer": "Daj mi klucz!",
+      "accepts": [
+        "Daj mi klucz!",
+        "Daj mi klucz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Go to the shop!",
+      "answer": "Idź do sklepu!",
+      "accepts": [
+        "Idź do sklepu!",
+        "Idź do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Speak Polish!",
+      "answer": "Mów po polsku!",
+      "accepts": [
+        "Mów po polsku!",
+        "Mów po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Buy bread!",
+      "answer": "Kup chleb!",
+      "accepts": [
+        "Kup chleb!",
+        "Kup chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Wait for the bus!",
+      "answer": "Czekaj na autobus!",
+      "accepts": [
+        "Czekaj na autobus!",
+        "Czekaj na autobus"
+      ]
+    },
+    {
+      "prompt_en": "Type: Make dinner, please.",
+      "answer": "Rób obiad, proszę.",
+      "accepts": [
+        "Rób obiad, proszę.",
+        "Rób obiad, proszę"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "robić",
+    "robi",
+    "zrobić",
+    "zrobi",
+    "jechać",
+    "jedzie",
+    "iść",
+    "idzie",
+    "dać",
+    "da",
+    "dam",
+    "dasz",
+    "czekać",
+    "czeka",
+    "mówić",
+    "mówi",
+    "mów",
+    "daj",
+    "idź",
+    "chodź",
+    "czekaj",
+    "słuchaj",
+    "kupuj",
+    "pij",
+    "kup",
+    "kupi",
+    "kupić",
+    "nie mów",
+    "nie graj",
+    "kawę",
+    "kawy",
+    "obiad",
+    "obiadu",
+    "chleb",
+    "klucz",
+    "autobus",
+    "autobusem",
+    "do sklepu",
+    "po polsku",
+    "proszę",
+    "mi",
+    "tata",
+    "brat",
+    "muszę",
+    "jutro"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_imperative_stems",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

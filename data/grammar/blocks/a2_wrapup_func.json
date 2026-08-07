@@ -1,0 +1,629 @@
+{
+  "id": "a2_wrapup_func",
+  "title": "Jeden dzień · wszystko",
+  "title_en": "One day, everything",
+  "level": "A2",
+  "tree_node": "a2_wrapup_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Capstone situation_chunk unit — the final A2 unit. ZERO new material: every phrase is copied verbatim (same string, same diacritics) from one of the five live Situations units — a2_shopping_func, a2_directions_func, a2_ordering_func, a2_phone_func, a2_smalltalk — all of which sit before this node on path_order (indices 63, 69, 83, 89, 54; this node is 99). teaches_lemmas is empty: nothing is taught here, only recombined. The point of the unit is SITUATION DISCRIMINATION, not recall — each of the five source units already tests recall of its own phrases in isolation; this one mixes them so Dad has to pick the phrase that fits the scene he's actually in, not just the phrase he remembers. HOMOGRAPH CHECK: because every item is a whole previously-taught chunk-string and no item clips, re-inflects, or partially reuses a taught form, the homograph trap (a form taught as one thing being reused as another) cannot arise here — there is no new surface form anywhere in the file to mis-tag. Verified each of the ~45 recycled phrases against the owning unit's own teaches_lemmas/match list before use; none altered. DELIBERATE DISCRIMINATION TRAPS built into quiz: Nie wiem. (street) / Nie słyszę. (phone) / Nic nowego. (small talk) look alike at a glance and are tested against each other directly (Q9). Wszystko w porządku. (small talk answer to Co słychać?) vs To wszystko, dziękuję. (shop/restaurant till close) share the word wszystko but do opposite jobs (Q11). To zły numer. (phone) vs To daleko. / To blisko. (street) share the To ___ shape (Q10). Four Czy...? openers from four different situations are set against each other in Q12. STRUCTURE: focus/teaches_structures carry situation_chunk, following the convention already set by all five source units (each re-declares teaches_structures: [situation_chunk] even though the id was first taught earlier — this file follows the same house pattern). uses_structures is the union of everything the five source units used. Title check: 'Jeden dzień · wszystko' uses only jeden / dzień / wszystko, all exact-taught pool lemmas — no untaught Polish form in the title, per the AGENTS title rule. Intro slide titles were held to the same bar and built only from taught chunks/words (przyimki-style builder jargon like powtórka was deliberately avoided, even though it appears in older A1 review-unit titles, because it is not in POOL).",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "smalltalk_chunk",
+    "existential_jest",
+    "question",
+    "can_inf",
+    "miec_acc",
+    "miec_present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "social_chunk",
+    "ten_ta_to",
+    "byc_present",
+    "byc_adj",
+    "past_byc",
+    "past_rest",
+    "prep_do_gen",
+    "prep_place",
+    "prep_w_loc",
+    "negation",
+    "zgoda",
+    "inst_z",
+    "to_jest",
+    "time_past_chunk"
+  ],
+  "intro": [
+    {
+      "title": "One day, nothing new",
+      "title_pl": "Jeden dzień, nic nowego",
+      "body": "This is the last unit of A2, and it teaches you no new Polish at all. Every phrase in it you already own — from the shop, the street, the restaurant, the phone, and small talk.\n\nWhat's new is the mix. Up to now each situation was practised on its own. Here they're shuffled together, the way a real day actually goes: you buy something, you ask the way, you eat somewhere, your phone rings. The skill being tested is not \"can you remember the phrase\" — it's \"can you tell which phrase belongs to which moment.\"",
+      "body_pl": "Sklep. Ulica. Restauracja. Telefon. Co słychać?",
+      "examples": [
+        {
+          "en": "A coffee, please. (shop)",
+          "pl": "Poproszę kawę."
+        },
+        {
+          "en": "Which way to the bank? (street)",
+          "pl": "Którędy do banku?"
+        },
+        {
+          "en": "Is there a free table? (restaurant)",
+          "pl": "Czy jest wolny stolik?"
+        },
+        {
+          "en": "Yes? (phone)",
+          "pl": "Słucham?"
+        }
+      ]
+    },
+    {
+      "title": "Czy…? Nie…? To…? — three shapes, five situations",
+      "title_pl": "Czy…? Nie…? To…?",
+      "body": "A handful of openings repeat across every situation, and that is exactly where mix-ups happen. Czy…? starts a question in a shop, on the phone, and in the street — the shape is identical, the job is not. Nie…? and Nic…? sit right next to each other and mean three completely different things depending on where you are. To…? does the same.\n\nNone of this is new grammar — you are not learning a rule here. You are learning to look past the opening word to what actually follows it, because that is what tells you the situation.",
+      "body_pl": "Czy jest chleb? Czy mogę rozmawiać z mamą? Czy to daleko?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Situation"
+        ],
+        "rows": [
+          [
+            "Czy jest chleb?",
+            "Is there any bread?",
+            "shop"
+          ],
+          [
+            "Czy mogę rozmawiać z mamą?",
+            "Can I speak to Mum?",
+            "phone"
+          ],
+          [
+            "Czy to daleko?",
+            "Is it far?",
+            "street"
+          ],
+          [
+            "Nie wiem.",
+            "I don't know.",
+            "street"
+          ],
+          [
+            "Nie słyszę.",
+            "I can't hear you.",
+            "phone"
+          ],
+          [
+            "Nic nowego.",
+            "Nothing new.",
+            "small talk"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "How to end each scene",
+      "title_pl": "Dziękuję. Do usłyszenia.",
+      "body": "Every situation has its own way of closing, and they are not interchangeable. A shop or restaurant visit ends with To wszystko, dziękuję. A phone call ends with Do usłyszenia — never with a goodbye built for standing in front of someone. Directions in the street end with Dziękuję bardzo.\n\nOne trap: Smacznego! looks like it belongs at the end of a meal because it is said around food, but it is said TO you, before anyone eats. It opens the meal, it does not close it — Było bardzo smaczne. is what closes it, afterwards.",
+      "body_pl": "To wszystko, dziękuję. Do usłyszenia. Dziękuję bardzo.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When"
+        ],
+        "rows": [
+          [
+            "To wszystko, dziękuję.",
+            "That's everything, thank you.",
+            "shop / restaurant till"
+          ],
+          [
+            "Do usłyszenia.",
+            "Speak to you soon.",
+            "end of a phone call"
+          ],
+          [
+            "Dziękuję bardzo.",
+            "Thank you very much.",
+            "after directions in the street"
+          ],
+          [
+            "Smacznego!",
+            "Enjoy your meal!",
+            "said TO you, before eating — not a close"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A whole day, four stops",
+      "title_pl": "Jeden dzień, wszystko",
+      "body": "Here is the whole thing chained together — shop, street, restaurant, phone — in the order a real day might actually run. Nothing in it is new; every sentence is a chunk from one of the five units you already finished. Read it once as a story before you start the exercises.",
+      "body_pl": "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
+      "examples": [
+        {
+          "en": "At the shop: A coffee, please.",
+          "pl": "Poproszę kawę."
+        },
+        {
+          "en": "On the street: Which way to the bank?",
+          "pl": "Którędy do banku?"
+        },
+        {
+          "en": "At the restaurant: Is there a free table?",
+          "pl": "Czy jest wolny stolik?"
+        },
+        {
+          "en": "On the phone: Yes?",
+          "pl": "Słucham?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "A coffee, please.",
+      "pl": "Poproszę kawę."
+    },
+    {
+      "en": "Is there any bread?",
+      "pl": "Czy jest chleb?"
+    },
+    {
+      "en": "I'm paying by card.",
+      "pl": "Płacę kartą."
+    },
+    {
+      "en": "Which way to the chemist's?",
+      "pl": "Którędy do apteki?"
+    },
+    {
+      "en": "Please go left.",
+      "pl": "Proszę iść w lewo."
+    },
+    {
+      "en": "Is there a free table?",
+      "pl": "Czy jest wolny stolik?"
+    },
+    {
+      "en": "The bill, please.",
+      "pl": "Poproszę rachunek."
+    },
+    {
+      "en": "Enjoy your meal!",
+      "pl": "Smacznego!"
+    },
+    {
+      "en": "Yes? (answering the phone)",
+      "pl": "Słucham?"
+    },
+    {
+      "en": "Can I speak to Mum?",
+      "pl": "Czy mogę rozmawiać z mamą?"
+    },
+    {
+      "en": "How was it?",
+      "pl": "Jak było?"
+    },
+    {
+      "en": "How's it going?",
+      "pl": "Co słychać?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You walk into a shop and want a coffee. You say:",
+      "choices": [
+        "Poproszę kawę.",
+        "Poproszę rachunek.",
+        "Czy mogę rozmawiać z mamą?",
+        "Jak było?"
+      ],
+      "answer": "Poproszę kawę.",
+      "explain": "Poproszę + the thing you want is the shop-and-café frame. Rachunek is what you ask for at the end of a meal, not at a shop counter."
+    },
+    {
+      "prompt": "You're lost and need to ask a stranger which way to the chemist's. You say:",
+      "choices": [
+        "Którędy do apteki?",
+        "Czy jest wolny stolik?",
+        "Halo?",
+        "Co słychać?"
+      ],
+      "answer": "Którędy do apteki?",
+      "explain": "Którędy do…? is the street question — no verb, just do plus the genitive place you already know."
+    },
+    {
+      "prompt": "You've just sat down at a restaurant and want to see what they have. You say:",
+      "choices": [
+        "Poproszę menu.",
+        "Poproszę paragon.",
+        "Proszę iść prosto.",
+        "Nie słyszę."
+      ],
+      "answer": "Poproszę menu.",
+      "explain": "Paragon is the shop till receipt — a different piece of paper entirely from the restaurant menu."
+    },
+    {
+      "prompt": "Your phone rings. You pick it up and say:",
+      "choices": [
+        "Słucham?",
+        "Czy jest wolny stolik?",
+        "Przepraszam, gdzie jest apteka?",
+        "Ile to kosztuje?"
+      ],
+      "answer": "Słucham?",
+      "explain": "Słucham? is the phone pickup. The other three all belong to a restaurant, the street, or a shop."
+    },
+    {
+      "prompt": "A friend asks how your weekend was, and it was great. You say:",
+      "choices": [
+        "Było super.",
+        "To wszystko, dziękuję.",
+        "Do usłyszenia.",
+        "To blisko."
+      ],
+      "answer": "Było super.",
+      "explain": "The other three all close something — a shop visit, a phone call, a set of directions. Było super answers Jak było?"
+    },
+    {
+      "prompt": "You've finished shopping and you're at the till. You say:",
+      "choices": [
+        "To wszystko, dziękuję.",
+        "Smacznego!",
+        "Do usłyszenia.",
+        "Dziękuję bardzo."
+      ],
+      "answer": "To wszystko, dziękuję.",
+      "explain": "Smacznego is said to you before a meal, not by you at a till. Do usłyszenia closes a phone call, not a shop visit."
+    },
+    {
+      "prompt": "You want to know if you can talk to your brother on the phone. You say:",
+      "choices": [
+        "Czy mogę rozmawiać z bratem?",
+        "Czy mogę płacić kartą?",
+        "Czy to daleko?",
+        "Czy jest wolny stolik?"
+      ],
+      "answer": "Czy mogę rozmawiać z bratem?",
+      "explain": "All four start with Czy, but only rozmawiać z bratem asks for a person on the phone."
+    },
+    {
+      "prompt": "Your food has just arrived. Before anyone starts eating, the waiter says one word to you. He says:",
+      "choices": [
+        "Smacznego!",
+        "Halo?",
+        "Nic nowego.",
+        "Poproszę paragon."
+      ],
+      "answer": "Smacznego!",
+      "explain": "Smacznego is said the moment food arrives — nothing to do with a phone line or small talk."
+    },
+    {
+      "prompt": "Someone stops you in the street and asks the way. You have no idea. You say:",
+      "choices": [
+        "Nie wiem.",
+        "Nie słyszę.",
+        "Nic nowego.",
+        "To zły numer."
+      ],
+      "answer": "Nie wiem.",
+      "explain": "All three look alike at a glance. Nie słyszę is for a bad phone line, Nic nowego answers Co słychać?, and only Nie wiem answers a stranger's question in the street."
+    },
+    {
+      "prompt": "A stranger has dialled your number by mistake. You tell them:",
+      "choices": [
+        "To zły numer.",
+        "To daleko.",
+        "Poproszę rachunek.",
+        "Było super."
+      ],
+      "answer": "To zły numer.",
+      "explain": "To daleko is a street phrase about distance, not a phone phrase about a wrong number — the To ___ shape is shared, the situation is not."
+    },
+    {
+      "prompt": "A friend greets you in the street and asks how things are. You say:",
+      "choices": [
+        "Wszystko w porządku.",
+        "To wszystko, dziękuję.",
+        "Czy jest wolny stolik?",
+        "Nie mogę teraz rozmawiać."
+      ],
+      "answer": "Wszystko w porządku.",
+      "explain": "Both contain wszystko, but To wszystko, dziękuję closes a shop or restaurant visit — it does not answer Co słychać?"
+    },
+    {
+      "prompt": "You're standing beside an empty table in a restaurant, checking if it's free. You say:",
+      "choices": [
+        "Czy ten stolik jest wolny?",
+        "Czy jest chleb?",
+        "Czy to daleko?",
+        "Czy mogę rozmawiać z siostrą?"
+      ],
+      "answer": "Czy ten stolik jest wolny?",
+      "explain": "All four start with Czy, but each belongs to a different place — shop, street, phone, or here, a restaurant table."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "A coffee, please.",
+      "mode": "full_word",
+      "answer": "Poproszę kawę.",
+      "accepts": [
+        "Poproszę kawę.",
+        "Poproszę kawę"
+      ]
+    },
+    {
+      "prompt_en": "Which way to the park?",
+      "mode": "full_word",
+      "answer": "Którędy do parku?",
+      "accepts": [
+        "Którędy do parku?",
+        "Którędy do parku",
+        "Ktoredy do parku?",
+        "Ktoredy do parku"
+      ]
+    },
+    {
+      "prompt_en": "Is there a free table?",
+      "mode": "cloze",
+      "answer": "stolik",
+      "frame": "Czy jest wolny ___?",
+      "accepts": [
+        "stolik"
+      ],
+      "explain": "Restaurant, not street: stolik is the small table you ask for when you walk in.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed question, 4 words. Same frame and same blank a2_ordering_func #0 got for this identical sentence, so the capstone drills it exactly as the source unit taught it."
+    },
+    {
+      "prompt_en": "Can I speak to my sister?",
+      "mode": "cloze",
+      "answer": "siostrą",
+      "frame": "Czy mogę rozmawiać z ___?",
+      "accepts": [
+        "siostrą",
+        "siostra"
+      ],
+      "explain": "Phone, not shop. After z the person takes the instrumental: siostra becomes siostrą.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with a z-phrase bolted on. Same frame and blank as a2_phone_func #4 for the identical sentence."
+    },
+    {
+      "prompt_en": "How was the weekend?",
+      "mode": "cloze",
+      "answer": "w weekend",
+      "frame": "Jak było ___?",
+      "accepts": [
+        "w weekend"
+      ],
+      "explain": "Small talk, not a shop phrase. Jak było? plus w weekend, both already yours.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Jak było? chunk with a time phrase bolted on — the queue's own worked example. Same frame and blank a2_smalltalk #8 got by hand."
+    },
+    {
+      "prompt_en": "Please go left.",
+      "mode": "cloze",
+      "answer": "lewo",
+      "frame": "Proszę iść w ___.",
+      "accepts": [
+        "lewo"
+      ],
+      "explain": "Directions, not the restaurant. Only the last word moves: w lewo, w prawo.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Proszę + dictionary-verb pattern with a direction bolted on. Same frame and blank as a2_directions_func #6."
+    },
+    {
+      "prompt_en": "The bill, please.",
+      "mode": "full_word",
+      "answer": "Poproszę rachunek.",
+      "accepts": [
+        "Poproszę rachunek.",
+        "Poproszę rachunek",
+        "Poprosze rachunek."
+      ]
+    },
+    {
+      "prompt_en": "I can't hear you.",
+      "mode": "full_word",
+      "answer": "Nie słyszę.",
+      "accepts": [
+        "Nie słyszę.",
+        "Nie słyszę",
+        "Nie slysze"
+      ]
+    },
+    {
+      "prompt_en": "Everything's fine.",
+      "mode": "full_word",
+      "answer": "Wszystko w porządku.",
+      "accepts": [
+        "Wszystko w porządku.",
+        "Wszystko w porządku"
+      ]
+    },
+    {
+      "prompt_en": "I'm paying cash.",
+      "mode": "full_word",
+      "answer": "Płacę gotówką.",
+      "accepts": [
+        "Płacę gotówką.",
+        "Płacę gotówką"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: That's everything, thank you. Excuse me, which way to the bank?",
+      "answer": "To wszystko, dziękuję. Przepraszam, którędy do banku?",
+      "accepts": [
+        "To wszystko, dziękuję. Przepraszam, którędy do banku?",
+        "To wszystko, dziękuję. Przepraszam, którędy do banku",
+        "To wszystko dziękuję. Przepraszam, którędy do banku?"
+      ],
+      "explain": "Two different situations, two different frames — nothing about the shop close changes how the street question is built."
+    },
+    {
+      "prompt_en": "Type: Please go straight on. Excuse me, is there a free table?",
+      "answer": "Proszę iść prosto. Przepraszam, czy jest wolny stolik?",
+      "accepts": [
+        "Proszę iść prosto. Przepraszam, czy jest wolny stolik?",
+        "Proszę iść prosto. Przepraszam, czy jest wolny stolik",
+        "Proszę iść prosto. Przepraszam czy jest wolny stolik?"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bill, please. I'm paying by card. Your phone rings — you answer: Yes?",
+      "answer": "Poproszę rachunek. Płacę kartą. Słucham?",
+      "accepts": [
+        "Poproszę rachunek. Płacę kartą. Słucham?",
+        "Poproszę rachunek. Płacę kartą. Słucham",
+        "Poprosze rachunek. Place karta. Slucham?"
+      ],
+      "explain": "Three situations, three fixed blocks, back to back — the restaurant close does not blend into the phone pickup, they just sit next to each other."
+    },
+    {
+      "prompt_en": "Type the exchange: — Can I speak to my brother? — I can't talk now. Hi! How's it going?",
+      "answer": "— Czy mogę rozmawiać z bratem? — Nie mogę teraz rozmawiać. Cześć! Co słychać?",
+      "accepts": [
+        "— Czy mogę rozmawiać z bratem? — Nie mogę teraz rozmawiać. Cześć! Co słychać?",
+        "Czy mogę rozmawiać z bratem? Nie mogę teraz rozmawiać. Cześć! Co słychać?",
+        "Czy mogę rozmawiać z bratem? Nie mogę teraz rozmawiać. Cześć! Co słychać",
+        "- Czy mogę rozmawiać z bratem? - Nie mogę teraz rozmawiać. Cześć! Co słychać?"
+      ],
+      "explain": "The call ends, then the day carries on and someone greets you face to face — a completely different situation, a completely different opener."
+    },
+    {
+      "prompt_en": "Type the exchange: A coffee, please. That's everything, thank you. — How's it going? — Everything's fine, thank you.",
+      "answer": "Poproszę kawę. To wszystko, dziękuję. — Co słychać? — Wszystko w porządku, dziękuję.",
+      "accepts": [
+        "Poproszę kawę. To wszystko, dziękuję. — Co słychać? — Wszystko w porządku, dziękuję.",
+        "Poproszę kawę. To wszystko, dziękuję. Co słychać? Wszystko w porządku, dziękuję.",
+        "Poproszę kawę. To wszystko, dziękuję. Co słychać? Wszystko w porządku, dziękuję",
+        "- Poproszę kawę. To wszystko, dziękuję. - Co słychać? - Wszystko w porządku, dziękuję."
+      ],
+      "explain": "To wszystko, dziękuję closes the shop; it is not an answer to Co słychać? — that answer is Wszystko w porządku, a different phrase that happens to share one word."
+    },
+    {
+      "prompt_en": "Type the exchange: — Excuse me, which way to the chemist's? — I don't know, sorry. I'm calling home.",
+      "answer": "— Przepraszam, którędy do apteki? — Nie wiem, przepraszam. Dzwonię do domu.",
+      "accepts": [
+        "— Przepraszam, którędy do apteki? — Nie wiem, przepraszam. Dzwonię do domu.",
+        "Przepraszam, którędy do apteki? Nie wiem, przepraszam. Dzwonię do domu.",
+        "Przepraszam, którędy do apteki? Nie wiem, przepraszam. Dzwonię do domu",
+        "- Przepraszam, którędy do apteki? - Nie wiem, przepraszam. Dzwonię do domu."
+      ],
+      "explain": "The stranger can't help, so the next move is a phone call — a different situation entirely, using a different unit's phrase."
+    },
+    {
+      "prompt_en": "Type: Everything was very tasty. Thank you. — How's it going? — Everything's good.",
+      "answer": "Wszystko było bardzo smaczne. Dziękuję. — Co słychać? — Wszystko dobrze.",
+      "accepts": [
+        "Wszystko było bardzo smaczne. Dziękuję. — Co słychać? — Wszystko dobrze.",
+        "Wszystko było bardzo smaczne. Dziękuję. Co słychać? Wszystko dobrze.",
+        "Wszystko było bardzo smaczne. Dziękuję. Co słychać? Wszystko dobrze",
+        "- Wszystko było bardzo smaczne. Dziękuję. - Co słychać? - Wszystko dobrze."
+      ],
+      "explain": "Wszystko dobrze answers Co słychać?; it is not the same job as Wszystko było bardzo smaczne, which reviews a meal that is already over."
+    },
+    {
+      "prompt_en": "Type: I can't talk now. Is there any bread?",
+      "answer": "Nie mogę teraz rozmawiać. Czy jest chleb?",
+      "accepts": [
+        "Nie mogę teraz rozmawiać. Czy jest chleb?",
+        "Nie mogę teraz rozmawiać. Czy jest chleb",
+        "Nie mogę teraz rozmawiać. Jest chleb?",
+        "Nie mogę teraz rozmawiać. Jest chleb"
+      ],
+      "explain": "The call gets cut short and the day moves straight into the shop — the phone phrase and the shop phrase sit side by side with nothing joining them."
+    },
+    {
+      "prompt_en": "Type the whole day: Bread, please. That's everything, thank you. Excuse me, which way to the centre? Is there a free table? A soup, please. Your phone rings — you answer: Yes? I can't talk now.",
+      "answer": "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
+      "accepts": [
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać",
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać"
+      ],
+      "explain": "Four stops, four units, seven chunks — this is the whole capstone in one sentence. Every piece of it you already had before today."
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "poproszę kawę",
+    "czy jest chleb",
+    "płacę kartą",
+    "którędy do apteki",
+    "proszę iść w lewo",
+    "czy jest wolny stolik",
+    "czy ten stolik jest wolny",
+    "poproszę rachunek",
+    "smacznego",
+    "słucham",
+    "czy mogę rozmawiać z mamą",
+    "czy mogę rozmawiać z bratem",
+    "czy mogę rozmawiać z siostrą",
+    "jak było",
+    "jak było w weekend",
+    "co słychać",
+    "poproszę menu",
+    "poproszę paragon",
+    "proszę iść prosto",
+    "nie słyszę",
+    "halo",
+    "ile to kosztuje",
+    "było super",
+    "to wszystko, dziękuję",
+    "do usłyszenia",
+    "to blisko",
+    "to daleko",
+    "dziękuję bardzo",
+    "czy mogę płacić kartą",
+    "czy to daleko",
+    "nic nowego",
+    "nie wiem",
+    "nie wiem, przepraszam",
+    "to zły numer",
+    "wszystko w porządku",
+    "nie mogę teraz rozmawiać",
+    "którędy do parku",
+    "płacę gotówką",
+    "którędy do banku",
+    "którędy do centrum",
+    "dzwonię do domu",
+    "wszystko było bardzo smaczne",
+    "wszystko dobrze",
+    "poproszę chleb",
+    "poproszę zupę",
+    "cześć",
+    "przepraszam",
+    "dziękuję",
+    "czy",
+    "to",
+    "nie",
+    "wszystko",
+    "gdzie jest apteka"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_wrapup_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

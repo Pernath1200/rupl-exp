@@ -1,0 +1,598 @@
+{
+  "id": "b2_verb_family2",
+  "title": "Daję, oddaję, wydaję, podaję",
+  "title_en": "Four everyday verbs from one root",
+  "level": "B2",
+  "tree_node": "b2_verb_family2",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 6a, unit 5 (spine, JAMES-LOCKED decision #6 — the second and last root family). ROOT CHOSEN: -dawać. The spine left the pick to the author and named the alternative, so both were costed. dawać wins on every axis. (a) REGISTER: giving, giving back, spending and passing things at table are daily-life verbs; the płacić alternative offers dopłacić (pay the difference) and przepłacić (overpay), which are counter-desk vocabulary Dad may never need. (b) LANDMINES: the dawać family governs a dative person and an accusative thing, and BOTH are owned — b1_dative_sg, b1_dative_pron and b1_giving between them built exactly this frame; the płacić family would want za + Accusative, and za is owned only in b1_polite's thanking job (dziękuję za kawę), so it would be a governor homograph on a function word, the trap AGENTS names and the reason b2_prosic_o needed a unit of its own. (c) COST: dawać costs ONE new verb, płacić would cost two. Logged as the spine requires.\n\nTHE SPINE'S PREMISE WAS PARTLY WRONG AND THIS PACK CORRECTS IT, the third time in Block 6a (aspect_prefixes and motion_imperf both did the same). B2-SPINE lists 'wydawać spend' as new material for this unit. check_new.py says otherwise: wydawać is TAUGHT, by a2_shopping2 at path 61, in its money sense — that pack's own money_verbs board carries 'spend (money) · wydawać' and one of its sentences is Mogę wydawać pieniądze. What is actually new is its PRESENT TENSE: wydaję, wydajesz, wydaje are all NEW, because a2_shopping2 taught the bare infinitive and nothing else. So the unit is built on that rather than around it, exactly as motion_imperf was rebuilt on wychodzić: the learner has owned this verb as a dictionary word for a hundred nodes and has never been able to say I spend. SEVEN NEW FORMS, ONE NEW VERB: podawać, podaję, podajesz, podaje + wydaję, wydajesz, wydaje.\n\nZERO NEW ENDINGS, and that is the whole reason a four-verb board is not a cliff. b1_giving gave dawać its full six-form present and named the class: the -ę/-esz/-e of present_e_esz, the shape owned since piję/pijesz and already generalised onto wstaję. oddawać was given three forms there on the same pattern. podawać and wydawać add nothing to that — one paradigm, four verbs, and slide 2 shows the four columns side by side so the point is visible rather than asserted.\n\nTHE LENS REACHES TWO OF THE FOUR AND NOT THE OTHER TWO, which is this unit's real teaching moment and PAYS A NAMED FENCE. b2_prefix_lens excluded wydawać from its lens by name — its note records dropping it because its wy- is not spatial — and this is the unit that explains why to the learner. od- in oddawać IS the lens's od- (away, back) and was one of its own examples; wy- in wydawać is NOT the lens's wy-, because spending money is not giving it out of anywhere; pod- in podawać is not the lens's either, and is pointedly the SAME pod- the learner met one node ago in podpisać, doing something quite different. Two of four readable, four of four learned as words. That is prefix_two_jobs' landing line arriving a second time on new material, which is why the unit sits here rather than anywhere else.\n\nIMPERFECTIVE ONLY, SINGULAR ONLY, PRESENT ONLY — three fences, all inherited rather than invented. The perfectives dać, oddać, wydać and podać are ALL verified NEW and all fenced: dać is irregular (dam/dasz/da, an -m/-sz paradigm the course has never taught), so the family's perfective half is a genuine second system and belongs to C1 or a later run. b1_giving established the imperfective-only treatment for this family and it is not reopened here. The past is fenced with it — dawałem is not owned, so podawałem would open a new past on top of a new verb. Plural is fenced on b2_motion_prefixes2's and b2_motion_imperf's singular-only precedent. NOTE the consequence, stated so nobody later mistakes it for an oversight: this unit deliberately teaches NO aspect twin, unlike b2_pisac_family one node back. There was nothing to twin — all four verbs here are already the imperfective member.\n\nSENSE CUTS, logged. podawać is given ONLY in the pass-it-to-me / serve-it sense (Tata podaje mi sól, Muszę podawać obiad). Its other everyday senses — giving out information, quoting a figure, podawać się za — are absent and unhinted. wydawać is held to the money sense a2_shopping2 owns; wydawać książkę (to publish) and wydaje mi się (it seems to me) appear NOWHERE, and the second of those is b2_discussion_func's material, verified NEW there and booked in the spine — using it here would spend that unit's word early and in a completely different sense of the same verb, which is the homograph trap in its purest form.\n\nDATIVE PRONOUN WORD ORDER is used but not extended: mi sits directly after the verb (Tata podaje mi sól), which is b1_giving's own live shape — its Dajesz mi klucze? is the same order on the same root. No accusative pronoun appears anywhere, so b2_pron_acc's clitic-order question, which that pack left to C1, is not touched.\n\nDISTRACTORS are the family's own members in the wrong slot throughout — every wrong choice is one of daję/dajesz/daje/oddaję/oddajesz/oddaje/wydaję/wydajesz/wydaje/podaję/podajesz/podaje or one of the four infinitives. That is the strongest possible discrimination set and nothing in it is fabricated.\n\nTITLE: the b2_jezdzic label pattern (Idę, chodzę, jadę, jeżdżę) rather than the two-way czy pattern, because the payoff here is a four-way grid and not a binary choice. All four forms in the title are legal in learner-visible chrome — daję and oddaję are owned from b1_giving, wydaję and podaję are taught by this pack. The planned tree label 'Rodzina czasownika 2' was CORRECTED: rodzina and czasownika are both verified NEW, which the AGENTS title rule forbids, and 'Verb family 2' is builder jargon rather than learner English. label/label_en in tree.json updated to match.",
+  "focus_structures": [
+    "dawac_family"
+  ],
+  "teaches_structures": [
+    "dawac_family"
+  ],
+  "teaches_lemmas": [
+    "podawać",
+    "podaję",
+    "podajesz",
+    "podaje",
+    "wydaję",
+    "wydajesz",
+    "wydaje"
+  ],
+  "uses_structures": [
+    "dawac_family",
+    "pisac_family",
+    "prefix_lens",
+    "prefix_two_jobs",
+    "present_e_esz",
+    "present",
+    "dative_sg",
+    "dative_pron",
+    "miec_acc",
+    "musiec",
+    "can_inf",
+    "prep_w_loc",
+    "question",
+    "questions2"
+  ],
+  "intro": [
+    {
+      "title": "One root, four verbs you need every day",
+      "title_pl": "dawać · oddawać · wydawać · podawać",
+      "body": "Last unit took the root of pisać and hung two new verbs on it. This one does the same with -dawać, and you are already holding most of the result.\n\ndawać and oddawać you have had since B1. wydawać you have had since A2 as a dictionary word — it is the verb on the money page, to spend — but you have never been given its everyday forms, so you have not been able to say I spend. This unit gives you those, and adds the one verb of the four that is genuinely new: podawać, to pass something to somebody, or to serve food.",
+      "body_pl": "Podaję mamie chleb.   ·   Wydaję pieniądze.",
+      "table": {
+        "headers": [
+          "verb",
+          "what it means",
+          "example"
+        ],
+        "rows": [
+          [
+            "dawać",
+            "to give",
+            "Daję siostrze klucz."
+          ],
+          [
+            "oddawać",
+            "to give back",
+            "Oddaję klucz mamie."
+          ],
+          [
+            "wydawać",
+            "to spend money",
+            "Wydaję pieniądze."
+          ],
+          [
+            "podawać",
+            "to pass, to hand over, to serve",
+            "Podaję mamie chleb."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Four verbs, one set of endings",
+      "title_pl": "daję · oddaję · wydaję · podaję",
+      "body": "There is nothing new to learn in the forms. All four run on the endings you were given for dawać back in B1 — the -ę / -esz / -e you have had since piję and pijesz.\n\nRead the table across rather than down. Each row is one person, and the four verbs do exactly the same thing at each of them.",
+      "body_pl": "Końcówki: -ę, -esz, -e.",
+      "table": {
+        "headers": [
+          "",
+          "dawać",
+          "oddawać",
+          "wydawać",
+          "podawać"
+        ],
+        "rows": [
+          [
+            "I …",
+            "daję",
+            "oddaję",
+            "wydaję",
+            "podaję"
+          ],
+          [
+            "you …",
+            "dajesz",
+            "oddajesz",
+            "wydajesz",
+            "podajesz"
+          ],
+          [
+            "he / she …",
+            "daje",
+            "oddaje",
+            "wydaje",
+            "podaje"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The reading lens gets you two of these, and no more",
+      "title_pl": "oddawać: od- · wydawać: nie",
+      "body": "This is worth being exact about, because the four verbs look like an invitation to guess.\n\noddawać is the lens working. od- means away or back, and oddawać is to give back. That verb was one of the lens's own examples.\n\nwydawać is the lens failing. wy- means out — but spending money is not giving it out of anywhere, and if you read wydawać that way you will get it wrong. Its wy- is simply part of the word.\n\npodawać is not in the lens at all. Note that its pod- is the very same pod- you met in podpisać one unit ago, where it was under. It is doing something else here.\n\nSo: two of the four can be read, and all four have to be learned.",
+      "body_pl": "oddawać · wydawać · podawać",
+      "examples": [
+        {
+          "pl": "Oddaję klucz mamie.",
+          "en": "I give the key back to Mum."
+        },
+        {
+          "pl": "Wydaję pieniądze w sklepie.",
+          "en": "I spend money in the shop."
+        }
+      ]
+    },
+    {
+      "title": "What each verb takes after it",
+      "title_pl": "Podaję mamie chleb.   ·   Wydaję pieniądze.",
+      "body": "Three of the four move a thing from one person to another, so they take both a person in the Dative and a thing in the Accusative — the frame you built across the whole of B1's dative block.\n\nwydawać is the odd one out. Money does not go to a named person, so there is no Dative in the sentence at all: you spend the thing, and that is the end of it.",
+      "body_pl": "Komu? Co?   ·   Wydaję pieniądze.",
+      "table": {
+        "headers": [
+          "verb",
+          "person (Dative)",
+          "thing (Accusative)"
+        ],
+        "rows": [
+          [
+            "Daję",
+            "siostrze",
+            "klucz."
+          ],
+          [
+            "Oddaję",
+            "mamie",
+            "książkę."
+          ],
+          [
+            "Podaję",
+            "tacie",
+            "sól."
+          ],
+          [
+            "Wydaję",
+            "—",
+            "pieniądze."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "to give",
+      "pl": "dawać"
+    },
+    {
+      "en": "to give back",
+      "pl": "oddawać"
+    },
+    {
+      "en": "to spend (money)",
+      "pl": "wydawać"
+    },
+    {
+      "en": "to pass, to hand over, to serve",
+      "pl": "podawać"
+    },
+    {
+      "en": "I give",
+      "pl": "daję"
+    },
+    {
+      "en": "I give back",
+      "pl": "oddaję"
+    },
+    {
+      "en": "I spend",
+      "pl": "wydaję"
+    },
+    {
+      "en": "you spend",
+      "pl": "wydajesz"
+    },
+    {
+      "en": "he spends",
+      "pl": "wydaje"
+    },
+    {
+      "en": "I pass, I hand over",
+      "pl": "podaję"
+    },
+    {
+      "en": "you pass, you hand over",
+      "pl": "podajesz"
+    },
+    {
+      "en": "she passes, she serves",
+      "pl": "podaje"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "W sklepie ___ pieniądze. (In the shop I spend money)",
+      "choices": [
+        "wydaję",
+        "daję",
+        "oddaję",
+        "podaję"
+      ],
+      "answer": "wydaję",
+      "explain": "Money spent in a shop is wydawać. daję would mean you were handing the money to somebody as a gift."
+    },
+    {
+      "prompt": "Tata ___ mi sól. (Dad passes me the salt)",
+      "choices": [
+        "podaje",
+        "wydaje",
+        "oddaje",
+        "daje"
+      ],
+      "answer": "podaje",
+      "explain": "Passing something across a table is podawać. oddaje would mean the salt was yours and he is returning it."
+    },
+    {
+      "prompt": "Zawsze ___ klucz mamie. (I always give the key back)",
+      "choices": [
+        "oddaję",
+        "daję",
+        "podaję",
+        "wydaję"
+      ],
+      "answer": "oddaję",
+      "explain": "Back is the whole point, and back is od-. This is the one verb of the four the reading lens really does get you."
+    },
+    {
+      "prompt": "Mama ___ siostrze prezent. (Mum gives my sister a present)",
+      "choices": [
+        "daje",
+        "oddaje",
+        "wydaje",
+        "podaje"
+      ],
+      "answer": "daje",
+      "explain": "A present is given, not given back and not passed across. siostrze is the Dative — the person who ends up with it."
+    },
+    {
+      "prompt": "Czy ___ pieniądze w sklepie? (Do you spend money in the shop?)",
+      "choices": [
+        "wydajesz",
+        "dajesz",
+        "oddajesz",
+        "podajesz"
+      ],
+      "answer": "wydajesz",
+      "explain": "Same verb as wydaję, in the you form. The -esz is the ending all four of these verbs share."
+    },
+    {
+      "prompt": "___ mamie chleb. (I pass Mum the bread)",
+      "choices": [
+        "Podaję",
+        "Daję",
+        "Wydaję",
+        "Oddaję"
+      ],
+      "answer": "Podaję",
+      "explain": "Handing the bread down the table is podawać. Daję would suggest the bread is now hers to keep."
+    },
+    {
+      "prompt": "Brat ___ mi książkę. (My brother gives me the book back)",
+      "choices": [
+        "oddaje",
+        "podaje",
+        "daje",
+        "wydaje"
+      ],
+      "answer": "oddaje",
+      "explain": "The book was yours, so it goes back: oddawać. podaje would only mean he is handing it across to you."
+    },
+    {
+      "prompt": "Muszę ___ obiad. (I have to serve the dinner)",
+      "choices": [
+        "podawać",
+        "wydawać",
+        "oddawać",
+        "dawać"
+      ],
+      "answer": "podawać",
+      "explain": "Putting the food on the table is podawać. After muszę the verb stays in its dictionary form."
+    },
+    {
+      "prompt": "Mogę ___ pieniądze. (I can spend money)",
+      "choices": [
+        "wydawać",
+        "podawać",
+        "oddawać",
+        "dawać"
+      ],
+      "answer": "wydawać",
+      "explain": "This is the money verb you have had since A2 — you simply never had its present-tense forms until now."
+    },
+    {
+      "prompt": "Czy ___ mi sól? (Will you pass me the salt?)",
+      "choices": [
+        "podajesz",
+        "oddajesz",
+        "wydajesz",
+        "dajesz"
+      ],
+      "answer": "podajesz",
+      "explain": "This is how the salt actually gets asked for at a Polish table. mi sits straight after the verb, as it does in Dajesz mi klucze?"
+    },
+    {
+      "prompt": "Trzeba ___ klucz. (One has to give the key back)",
+      "choices": [
+        "oddawać",
+        "podawać",
+        "wydawać",
+        "dawać"
+      ],
+      "answer": "oddawać",
+      "explain": "Giving back is od-. trzeba behaves like muszę here and leaves the verb in its dictionary form."
+    },
+    {
+      "prompt": "Siostra ___ dużo. (My sister spends a lot)",
+      "choices": [
+        "wydaje",
+        "oddaje",
+        "podaje",
+        "daje"
+      ],
+      "answer": "wydaje",
+      "explain": "With no object named, spending is still wydawać — the money is understood. daje would leave you asking what she gives, and to whom."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to pass, to hand over, to serve",
+      "mode": "full_word",
+      "answer": "podawać",
+      "accepts": [
+        "podawać"
+      ],
+      "explain": "The one genuinely new verb of the four. Its pod- is not the pod- of podpisać, and not a rule."
+    },
+    {
+      "prompt_en": "I pass, I hand over",
+      "mode": "full_word",
+      "answer": "podaję",
+      "accepts": [
+        "podaję"
+      ]
+    },
+    {
+      "prompt_en": "you pass, you hand over",
+      "mode": "full_word",
+      "answer": "podajesz",
+      "accepts": [
+        "podajesz"
+      ]
+    },
+    {
+      "prompt_en": "she passes, she serves",
+      "mode": "full_word",
+      "answer": "podaje",
+      "accepts": [
+        "podaje"
+      ]
+    },
+    {
+      "prompt_en": "I spend (money)",
+      "mode": "full_word",
+      "answer": "wydaję",
+      "accepts": [
+        "wydaję"
+      ],
+      "explain": "The verb was on your money page at A2; this is the form that lets you actually say it."
+    },
+    {
+      "prompt_en": "you spend (money)",
+      "mode": "full_word",
+      "answer": "wydajesz",
+      "accepts": [
+        "wydajesz"
+      ]
+    },
+    {
+      "prompt_en": "he spends (money)",
+      "mode": "full_word",
+      "answer": "wydaje",
+      "accepts": [
+        "wydaje"
+      ]
+    },
+    {
+      "prompt_en": "to spend (money)",
+      "mode": "full_word",
+      "answer": "wydawać",
+      "accepts": [
+        "wydawać"
+      ]
+    },
+    {
+      "prompt_en": "I give back",
+      "mode": "full_word",
+      "answer": "oddaję",
+      "accepts": [
+        "oddaję"
+      ]
+    },
+    {
+      "prompt_en": "I give",
+      "mode": "full_word",
+      "answer": "daję",
+      "accepts": [
+        "daję"
+      ]
+    },
+    {
+      "prompt_en": "to give back",
+      "mode": "full_word",
+      "answer": "oddawać",
+      "accepts": [
+        "oddawać"
+      ]
+    },
+    {
+      "prompt_en": "to give",
+      "mode": "full_word",
+      "answer": "dawać",
+      "accepts": [
+        "dawać"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad passes me the salt.",
+      "answer": "Tata podaje mi sól.",
+      "accepts": [
+        "Tata podaje mi sól.",
+        "Tata podaje mi sól"
+      ],
+      "explain": "mi goes straight after the verb, exactly as in Dajesz mi klucze? sól does not change shape after podaje."
+    },
+    {
+      "prompt_en": "Type: I spend money in the shop.",
+      "answer": "W sklepie wydaję pieniądze.",
+      "accepts": [
+        "W sklepie wydaję pieniądze.",
+        "W sklepie wydaję pieniądze",
+        "Wydaję pieniądze w sklepie.",
+        "Wydaję pieniądze w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum gives my sister a present.",
+      "answer": "Mama daje siostrze prezent.",
+      "accepts": [
+        "Mama daje siostrze prezent.",
+        "Mama daje siostrze prezent"
+      ],
+      "explain": "Two people and one object: siostrze is the Dative, the one who gets it, and prezent is what moves."
+    },
+    {
+      "prompt_en": "Type: My brother gives me the book back.",
+      "answer": "Brat oddaje mi książkę.",
+      "accepts": [
+        "Brat oddaje mi książkę.",
+        "Brat oddaje mi książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister spends a lot.",
+      "answer": "Siostra wydaje dużo.",
+      "accepts": [
+        "Siostra wydaje dużo.",
+        "Siostra wydaje dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have to serve the dinner.",
+      "answer": "Muszę podawać obiad.",
+      "accepts": [
+        "Muszę podawać obiad.",
+        "Muszę podawać obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Will you pass me the bread?",
+      "answer": "Czy podajesz mi chleb?",
+      "accepts": [
+        "Czy podajesz mi chleb?",
+        "Czy podajesz mi chleb",
+        "Podajesz mi chleb?",
+        "Podajesz mi chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad gives the money back to Mum.",
+      "answer": "Tata oddaje pieniądze mamie.",
+      "accepts": [
+        "Tata oddaje pieniądze mamie.",
+        "Tata oddaje pieniądze mamie"
+      ],
+      "explain": "pieniądze is a plural-only word and does not change after oddaje; mamie is the Dative, the person it goes back to."
+    },
+    {
+      "prompt_en": "Type: When do you give the key back?",
+      "answer": "Kiedy oddajesz klucz?",
+      "accepts": [
+        "Kiedy oddajesz klucz?",
+        "Kiedy oddajesz klucz"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor hands me the prescription.",
+      "answer": "Lekarz podaje mi receptę.",
+      "accepts": [
+        "Lekarz podaje mi receptę.",
+        "Lekarz podaje mi receptę"
+      ],
+      "explain": "receptę is the Accusative of recepta — the thing being handed over — and mi is the person it reaches."
+    }
+  ],
+  "uses_lemmas": [
+    "dawać",
+    "daję",
+    "dajesz",
+    "daje",
+    "oddawać",
+    "oddaję",
+    "oddajesz",
+    "oddaje",
+    "wydawać",
+    "piję",
+    "pijesz",
+    "podpisać",
+    "muszę",
+    "mogę",
+    "trzeba",
+    "mama",
+    "mamie",
+    "tata",
+    "tacie",
+    "siostra",
+    "siostrze",
+    "brat",
+    "lekarz",
+    "mi",
+    "klucz",
+    "klucze",
+    "książkę",
+    "prezent",
+    "sól",
+    "chleb",
+    "obiad",
+    "receptę",
+    "pieniądze",
+    "dużo",
+    "w sklepie",
+    "zawsze",
+    "czy",
+    "kiedy",
+    "komu",
+    "co"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_verb_family2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

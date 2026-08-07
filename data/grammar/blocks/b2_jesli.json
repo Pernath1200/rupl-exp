@@ -1,0 +1,636 @@
+{
+ "id": "b2_jesli",
+ "title": "Jeśli…",
+ "title_en": "Real conditions · if",
+ "level": "B2",
+ "tree_node": "b2_jesli",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 6 (spine). ONE NEW WORD IN THE ENTIRE UNIT: jeśli, verified NEW. Zero new morphology — both halves of every sentence are tenses the learner already owns, and b2_copular_future back in Block 1 is what makes the natural result clause (będę w parku) expressible at all.\n\nTHE ONE REAL TEACHING POINT BEYOND THE WORD is the tense inside the jeśli-clause, and it is framed as ENGLISH being the odd one out rather than Polish demanding something extra — the a2_bedzie / b2_indirect_q gift idiom, fourth outing. English uses a present after 'if' even when it plainly means the future ('If the weather IS nice, I WILL be in the park'); Polish just puts in the tense it means (Jeśli pogoda BĘDZIE ładna, będę w parku). So there is no Polish rule to learn, only an English habit to drop. Present-tense conditions stay present (Jeśli masz czas, zrobię obiad), so both tenses are drilled and the choice is always 'what do you actually mean'. Quiz 5 and 6 drill it in recognition; type items 3, 4, 7, 8 and 9 demand it in production and each carries an explain naming the fact, since the English prompt deliberately does not show it.\n\nPAYS b2_indirect_q's EXPLICIT IOU. That pack created it and flagged it as one that would not be obvious later: the classic error is confusing czy with jeśli, the error was impossible at the time because jeśli was still untaught, and the discrimination was handed forward to this unit by name. It lands here as a minimal pair on ONE clause — quiz 11 Nie wiem, CZY to jest dobra decyzja against quiz 12 JEŚLI to jest dobra decyzja, będzie dobrze — and slide 3 gives the learner a test he can apply in English without knowing any Polish: if 'if' can be swapped for 'whether', it is czy; if it can be swapped for 'in the case that', it is jeśli. Both czy sentences are also produced, not merely recognised, in Użycie 6 and 10.\n\nSECOND CONTRAST, one quiz item, zero new material: jeśli (condition) against bo (reason, a2_questions2). An English speaker mixes these far less often than czy, but the item sharpens what a condition actually is. że and żeby each get one item as well, holding the three-way b2_ze_clauses board open now that a fourth joiner has arrived.\n\nWORD ORDER IS FENCED TO jeśli-FIRST, conservative branch, logged. The reversed order (Będę w parku, jeśli pogoda będzie ładna) is perfectly grammatical and common, but it is a second fact, and every subordinate clause the learner owns so far — że, żeby, który, embedded questions — comes second. So jeśli-first is already the new shape and it is the only shape shown. All twelve match rows share one skeleton on purpose: for a distractible learner a board that drills a single frame is worth more than a board that shows variety. The reversed order goes to the C1 inbox.\n\nFENCED, all verified NEW: jeżeli, the formal twin, a second word for one job; gdy; the resumptive to and wtedy in the result clause (Jeśli…, to…), which is a new job for a string this learner reads as 'this' and which would be a poor thing to plant one node before b2_gdyby; and EVERY UNREAL CONDITIONAL, which is b2_gdyby's entire content on the very next node — no by-form appears anywhere in this pack, not in a table, not in an example, not as a quiz distractor. Checked by grep, not by eye.\n\nThe existential będzie kawa stays fenced per b2_copular_future's own note, so every weather condition is built subject-first (Jeśli pogoda będzie ładna), never Jeśli będzie ładna pogoda — which is the spine's drafted example and was changed for exactly this reason. otwarty and zamknięty are used as the PLAIN ADJECTIVES leaf_shopping_a1 taught, not as the participles b2_participle_pass later reveals, the same care b2_ze_clauses and b2_indirect_q took.\n\nRecycles b2_abstract from the node immediately before this one: sposób, decyzja and rozwiązanie all do real work in the result clauses, which is what a vocab leaf placed directly in front of a syntax unit is for.",
+ "focus_structures": [
+  "jesli"
+ ],
+ "teaches_structures": [
+  "jesli"
+ ],
+ "teaches_lemmas": [
+  "jeśli"
+ ],
+ "uses_structures": [
+  "jesli",
+  "indirect_q",
+  "ze_clauses",
+  "zeby",
+  "questions2",
+  "conjunctions",
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "miec_present",
+  "miec_acc",
+  "negation",
+  "existential_jest",
+  "prep_w_loc",
+  "prep_do_gen",
+  "copular_future",
+  "perf_future",
+  "imperative",
+  "imperative_rule",
+  "motion_chunk",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "gen_endings"
+ ],
+ "intro": [
+  {
+   "title": "jeśli puts a condition in front of a sentence",
+   "title_pl": "Jeśli masz czas, zrobię obiad.",
+   "body": "Take two sentences you can already say — Masz czas and Zrobię obiad. Put jeśli in front of the first one and a comma between them, and the first has become a condition on the second: I will make dinner, but only in the case that you have time.\n\nNothing inside either half moves. No ending changes, no word order changes. jeśli is the only new word in this unit, and the comma is compulsory, exactly as it is after że.",
+   "body_pl": "Masz czas. + Zrobię obiad. → Jeśli masz czas, zrobię obiad.",
+   "table": {
+    "headers": [
+     "The condition",
+     "",
+     "What happens"
+    ],
+    "rows": [
+     [
+      "Jeśli masz czas,",
+      "→",
+      "zrobię obiad."
+     ],
+     [
+      "Jeśli sklep jest otwarty,",
+      "→",
+      "kupię chleb."
+     ],
+     [
+      "Jeśli masz pieniądze,",
+      "→",
+      "kup bilet."
+     ],
+     [
+      "Jeśli jesteś zmęczony,",
+      "→",
+      "idź do domu."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "If you have a problem, I know a good way.",
+     "pl": "Jeśli masz problem, znam dobry sposób."
+    },
+    {
+     "en": "If this is a good decision, it will be fine.",
+     "pl": "Jeśli to jest dobra decyzja, będzie dobrze."
+    }
+   ]
+  },
+  {
+   "title": "Polish puts in the tense it means — English does not",
+   "title_pl": "Jeśli pogoda będzie ładna, będę w parku.",
+   "body": "This is the one place English behaves oddly and Polish behaves plainly. In English, after \"if\", you say the present even when you are obviously talking about tomorrow: \"If the weather is nice, I will be in the park.\" Nothing about that weather is present — it is next Sunday — but English says is anyway.\n\nPolish does not pretend. If you mean later, you say będzie. If you mean now, you say jest or masz. So there is no rule here to learn, only an English habit to drop: put in the tense you actually mean.",
+   "body_pl": "Jeśli masz czas… · Jeśli pogoda będzie ładna…",
+   "table": {
+    "headers": [
+     "English",
+     "Polish",
+     "When you mean"
+    ],
+    "rows": [
+     [
+      "If the weather is nice, I will be in the park.",
+      "Jeśli pogoda będzie ładna, będę w parku.",
+      "later"
+     ],
+     [
+      "If Mum is at work, Dad will make dinner.",
+      "Jeśli mama będzie w pracy, tata zrobi obiad.",
+      "later"
+     ],
+     [
+      "If you have time, I will make dinner.",
+      "Jeśli masz czas, zrobię obiad.",
+      "now"
+     ],
+     [
+      "If the shop is open, I will buy bread.",
+      "Jeśli sklep jest otwarty, kupię chleb.",
+      "now"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "If it is cold, I will be at home.",
+     "pl": "Jeśli będzie zimno, będę w domu."
+    }
+   ]
+  },
+  {
+   "title": "English says \"if\" for two different things — Polish does not",
+   "title_pl": "Jeśli sklep jest otwarty… · Nie wiem, czy sklep jest otwarty.",
+   "body": "English uses one word, \"if\", for two jobs that have nothing to do with each other, and this is the mistake to watch for.\n\nOne job is a condition — something happens in the case that something else is true. That is jeśli.\nThe other job is an open question tucked inside a sentence — you do not know which way it went. That is czy, which you have had since B1 and used again two units ago.\n\nYou can sort them in English before you translate anything. If \"if\" can be swapped for \"whether\", it is czy. If it can be swapped for \"in the case that\", it is jeśli.",
+   "body_pl": "Jeśli sklep jest otwarty, kupię chleb. · Nie wiem, czy sklep jest otwarty.",
+   "table": {
+    "headers": [
+     "English",
+     "Swap it for",
+     "Polish"
+    ],
+    "rows": [
+     [
+      "I don't know if the shop is open.",
+      "whether",
+      "Nie wiem, czy sklep jest otwarty."
+     ],
+     [
+      "If the shop is open, I will buy bread.",
+      "in the case that",
+      "Jeśli sklep jest otwarty, kupię chleb."
+     ],
+     [
+      "I don't know if this is a good decision.",
+      "whether",
+      "Nie wiem, czy to jest dobra decyzja."
+     ],
+     [
+      "If this is a good decision, it will be fine.",
+      "in the case that",
+      "Jeśli to jest dobra decyzja, będzie dobrze."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I don't know if Mum is at home.",
+     "pl": "Nie wiem, czy mama jest w domu."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "If you have time, I will make dinner.",
+   "pl": "Jeśli masz czas, zrobię obiad."
+  },
+  {
+   "en": "If the weather is nice, I will be in the park.",
+   "pl": "Jeśli pogoda będzie ładna, będę w parku."
+  },
+  {
+   "en": "If the shop is open, I will buy bread.",
+   "pl": "Jeśli sklep jest otwarty, kupię chleb."
+  },
+  {
+   "en": "If it is cold, I will be at home.",
+   "pl": "Jeśli będzie zimno, będę w domu."
+  },
+  {
+   "en": "If Mum is at work, Dad will make dinner.",
+   "pl": "Jeśli mama będzie w pracy, tata zrobi obiad."
+  },
+  {
+   "en": "If you have money, buy a ticket.",
+   "pl": "Jeśli masz pieniądze, kup bilet."
+  },
+  {
+   "en": "If you are tired, go home.",
+   "pl": "Jeśli jesteś zmęczony, idź do domu."
+  },
+  {
+   "en": "If you are hungry, I will make soup.",
+   "pl": "Jeśli będziesz głodny, zrobię zupę."
+  },
+  {
+   "en": "If Dad is at home, I will come.",
+   "pl": "Jeśli tata będzie w domu, przyjdę."
+  },
+  {
+   "en": "If you have a problem, I know a good way.",
+   "pl": "Jeśli masz problem, znam dobry sposób."
+  },
+  {
+   "en": "If you are in the shop, buy milk.",
+   "pl": "Jeśli będziesz w sklepie, kup mleko."
+  },
+  {
+   "en": "If this is a good decision, it will be fine.",
+   "pl": "Jeśli to jest dobra decyzja, będzie dobrze."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "___ masz czas, zrobię obiad. (If you have time, I will make dinner.)",
+   "choices": [
+    "Jeśli",
+    "Czy",
+    "Że",
+    "Żeby"
+   ],
+   "answer": "Jeśli",
+   "explain": "This is a condition — dinner happens in the case that you have time. A condition is jeśli. że would be reporting a fact, and there is no verb of knowing or saying here to report it to."
+  },
+  {
+   "prompt": "Nie wiem, ___ sklep jest otwarty. (I don't know if the shop is open.)",
+   "choices": [
+    "czy",
+    "jeśli",
+    "że",
+    "bo"
+   ],
+   "answer": "czy",
+   "explain": "Swap the English \"if\" for \"whether\" and the sentence still works — so this is an open question inside a sentence, and that is czy. Nothing here depends on anything, so it is not a condition."
+  },
+  {
+   "prompt": "___ sklep jest otwarty, kupię chleb. (If the shop is open, I will buy bread.)",
+   "choices": [
+    "Jeśli",
+    "Czy",
+    "Że",
+    "Ale"
+   ],
+   "answer": "Jeśli",
+   "explain": "Same clause as the item before, opposite job. Here the bread depends on the shop being open, so \"if\" means \"in the case that\" — jeśli, not czy."
+  },
+  {
+   "prompt": "Wiem, ___ sklep jest otwarty. (I know that the shop is open.)",
+   "choices": [
+    "że",
+    "jeśli",
+    "czy",
+    "żeby"
+   ],
+   "answer": "że",
+   "explain": "wiem settles it — you are reporting something as a fact, and a reported fact arrives on że. jeśli would make the shop a condition on something, and nothing follows for it to be a condition on."
+  },
+  {
+   "prompt": "Jeśli pogoda ___ ładna, będę w parku. (If the weather is nice, I will be in the park.)",
+   "choices": [
+    "będzie",
+    "jest",
+    "była",
+    "być"
+   ],
+   "answer": "będzie",
+   "explain": "The park is later, so the weather is later too, and Polish says so: będzie. English writes is here, but it does not mean it — that is the English habit to drop."
+  },
+  {
+   "prompt": "Jeśli ___ zimno, będę w domu. (If it is cold, I will be at home.)",
+   "choices": [
+    "będzie",
+    "jest",
+    "było",
+    "są"
+   ],
+   "answer": "będzie",
+   "explain": "Again the whole sentence is about later, so the cold is later: będzie zimno. One form of będzie covers this — there is nothing to agree with."
+  },
+  {
+   "prompt": "Nie wiem, ___ mama jest w domu. (I don't know if Mum is at home.)",
+   "choices": [
+    "czy",
+    "jeśli",
+    "że",
+    "i"
+   ],
+   "answer": "czy",
+   "explain": "\"I don't know whether Mum is at home\" is the same sentence in English, so it is czy. jeśli would need something to depend on it, and nothing does."
+  },
+  {
+   "prompt": "Idę do sklepu, ___ kupić chleb. (I am going to the shop to buy bread.)",
+   "choices": [
+    "żeby",
+    "jeśli",
+    "że",
+    "czy"
+   ],
+   "answer": "żeby",
+   "explain": "This says WHY you are going, and a purpose is żeby followed by the plain dictionary verb kupić. Nothing is conditional — you are going either way."
+  },
+  {
+   "prompt": "___ jesteś zmęczony, idź do domu. (If you are tired, go home.)",
+   "choices": [
+    "Jeśli",
+    "Czy",
+    "Bo",
+    "Że"
+   ],
+   "answer": "Jeśli",
+   "explain": "Going home depends on being tired, so it is a condition: jeśli. Note the condition is in the present here, because being tired is now — Polish uses whichever tense you actually mean."
+  },
+  {
+   "prompt": "Nie idę, ___ jestem zmęczony. (I am not going, because I am tired.)",
+   "choices": [
+    "bo",
+    "jeśli",
+    "że",
+    "czy"
+   ],
+   "answer": "bo",
+   "explain": "This gives the reason something is already true, which has been bo since A2. jeśli would leave it open whether you are tired; bo says you are, and that is why you are not going."
+  },
+  {
+   "prompt": "Nie wiem, ___ to jest dobra decyzja. (I don't know if this is a good decision.)",
+   "choices": [
+    "czy",
+    "jeśli",
+    "że",
+    "żeby"
+   ],
+   "answer": "czy",
+   "explain": "You are saying the question is open — whether it is a good decision or not. Open question inside a sentence, so czy."
+  },
+  {
+   "prompt": "___ to jest dobra decyzja, będzie dobrze. (If this is a good decision, it will be fine.)",
+   "choices": [
+    "Jeśli",
+    "Czy",
+    "Że",
+    "Bo"
+   ],
+   "answer": "Jeśli",
+   "explain": "The same clause as the item before, and this is the pair worth remembering. There it was an open question (czy); here everything after it depends on it, so it is a condition (jeśli)."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "If you have time, I will make dinner.",
+   "mode": "cloze",
+   "answer": "Jeśli",
+   "accepts": [
+    "Jeśli"
+   ],
+   "frame": "___ masz czas, zrobię obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on jeśli — the unit's single new word and its only teaches_lemma. Produced exactly once in the stage."
+  },
+  {
+   "prompt_en": "If the shop is open, I will buy bread.",
+   "mode": "cloze",
+   "answer": "kupię",
+   "accepts": [
+    "kupię"
+   ],
+   "frame": "Jeśli sklep jest otwarty, ___ chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Present condition, future result. Blank on the result verb; jest was spent at item 9, where it carries the tense-choice explain."
+  },
+  {
+   "prompt_en": "If the weather is nice, I will be in the park.",
+   "mode": "cloze",
+   "answer": "będzie",
+   "accepts": [
+    "będzie"
+   ],
+   "explain": "The weather here is next weekend, not this second, so Polish says będzie. English writes is after \"if\" and means the future anyway — Polish just puts the real tense in.",
+   "frame": "Jeśli pogoda ___ ładna, będę w parku.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Blank INSIDE the jeśli-clause on the future form — the unit's one real teaching point, and exactly what this item's explain names (English says 'is', Polish says będzie). Keeps the fact in production, as the pack note requires."
+  },
+  {
+   "prompt_en": "If it is cold, I will be at home.",
+   "mode": "cloze",
+   "answer": "będę",
+   "accepts": [
+    "będę"
+   ],
+   "explain": "Both halves are about later, so both halves are future: będzie zimno, będę w domu. będzie has one shape here — there is no subject for it to agree with.",
+   "frame": "Jeśli będzie zimno, ___ w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Both halves are future; będzie was spent at item 2, so the blank takes the other future form in the same sentence. The item's explain covers both halves, so it still fits the blank."
+  },
+  {
+   "prompt_en": "If you are tired, go home.",
+   "mode": "cloze",
+   "answer": "idź",
+   "accepts": [
+    "idź"
+   ],
+   "frame": "Jeśli jesteś zmęczony, ___ do domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the imperative result — the harder form; the present-tense condition stays visible."
+  },
+  {
+   "prompt_en": "If you have money, buy a ticket.",
+   "mode": "cloze",
+   "answer": "kup",
+   "accepts": [
+    "kup"
+   ],
+   "frame": "Jeśli masz pieniądze, ___ bilet.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the imperative result, distinct from item 4."
+  },
+  {
+   "prompt_en": "If Dad is at home, I will come.",
+   "mode": "cloze",
+   "answer": "przyjdę",
+   "accepts": [
+    "przyjdę"
+   ],
+   "explain": "You are coming later, so Dad is at home later too: będzie w domu. będzie needs nothing after it but the place.",
+   "frame": "Jeśli tata będzie w domu, ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. będzie was spent at item 2, so the blank takes the perfective-future result verb — still a future form, so the item keeps demanding the unit's tense fact in production."
+  },
+  {
+   "prompt_en": "If you are hungry, I will make soup.",
+   "mode": "cloze",
+   "answer": "będziesz",
+   "accepts": [
+    "będziesz"
+   ],
+   "explain": "The soup is not made yet, so the hunger is later as well: będziesz głodny. The adjective still agrees with you — głodny for a man, głodna for a woman.",
+   "frame": "Jeśli ___ głodny, zrobię zupę.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank inside the jeśli-clause on the 2sg future — the unit's teaching point and the second item that produces it, this time in a person that is unique in the stage."
+  },
+  {
+   "prompt_en": "If Mum is at work, Dad will make dinner.",
+   "mode": "cloze",
+   "answer": "zrobi",
+   "accepts": [
+    "zrobi"
+   ],
+   "explain": "Dinner is later, so Mum's shift is later: będzie w pracy. English says is here and means will be.",
+   "frame": "Jeśli mama będzie w pracy, tata ___ obiad.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 8 words. będzie was spent at item 2; the blank takes the perfective-future result verb, so the item still demands a future form."
+  },
+  {
+   "prompt_en": "If this is a good decision, it will be fine.",
+   "mode": "cloze",
+   "answer": "jest",
+   "accepts": [
+    "jest"
+   ],
+   "explain": "The decision is a good one now, so that half stays present: to jest. Only the second half looks forward, and there będzie dobrze does the work.",
+   "frame": "Jeśli to ___ dobra decyzja, będzie dobrze.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 7 words. Blank on the PRESENT form in the jeśli-clause — the other side of the unit's tense point, and precisely what this item's explain says: the decision is good now, so that half stays present."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: If Mum is at home, I will make dinner.",
+   "answer": "Jeśli mama będzie w domu, zrobię obiad.",
+   "accepts": [
+    "Jeśli mama będzie w domu, zrobię obiad.",
+    "Jeśli mama będzie w domu, zrobię obiad"
+   ],
+   "explain": "Two sentences you can already say, joined by jeśli and a comma. Dinner is later, so Mum being at home is later too."
+  },
+  {
+   "prompt_en": "Type: If the weather is nice, Dad will be in the park.",
+   "answer": "Jeśli pogoda będzie ładna, tata będzie w parku.",
+   "accepts": [
+    "Jeśli pogoda będzie ładna, tata będzie w parku.",
+    "Jeśli pogoda będzie ładna, tata będzie w parku"
+   ],
+   "explain": "będzie twice, doing two different jobs: the weather will be nice, and Dad will be somewhere. One form covers both — the future of być has no gender."
+  },
+  {
+   "prompt_en": "Type: If you have a problem, I know a good way.",
+   "answer": "Jeśli masz problem, znam dobry sposób.",
+   "accepts": [
+    "Jeśli masz problem, znam dobry sposób.",
+    "Jeśli masz problem, znam dobry sposób"
+   ],
+   "explain": "Both halves are about now, so both stay present. sposób is a masculine thing, so neither it nor dobry changes in the object slot."
+  },
+  {
+   "prompt_en": "Type: If you are in the shop, buy milk.",
+   "answer": "Jeśli będziesz w sklepie, kup mleko.",
+   "accepts": [
+    "Jeśli będziesz w sklepie, kup mleko.",
+    "Jeśli będziesz w sklepie, kup mleko"
+   ],
+   "explain": "You are not in the shop yet — this is an instruction for later, so the condition is będziesz. The order itself stays a plain command: kup."
+  },
+  {
+   "prompt_en": "Type: If the shop is closed, I will be at home.",
+   "answer": "Jeśli sklep jest zamknięty, będę w domu.",
+   "accepts": [
+    "Jeśli sklep jest zamknięty, będę w domu.",
+    "Jeśli sklep jest zamknięty, będę w domu"
+   ],
+   "explain": "The shop is shut now, so that half is present: jest zamknięty. Only what you will do about it looks forward."
+  },
+  {
+   "prompt_en": "Type: I don't know if the shop is open.",
+   "answer": "Nie wiem, czy sklep jest otwarty.",
+   "accepts": [
+    "Nie wiem, czy sklep jest otwarty.",
+    "Nie wiem, czy sklep jest otwarty"
+   ],
+   "explain": "This \"if\" is the other one. Swap it for \"whether\" and the English still works, so it is czy — an open question, not a condition. Nothing depends on the shop here."
+  },
+  {
+   "prompt_en": "Type: If this is a good solution, it will be fine.",
+   "answer": "Jeśli to jest dobre rozwiązanie, będzie dobrze.",
+   "accepts": [
+    "Jeśli to jest dobre rozwiązanie, będzie dobrze.",
+    "Jeśli to jest dobre rozwiązanie, będzie dobrze"
+   ],
+   "explain": "rozwiązanie is neuter, so the adjective is dobre. That is decided inside the condition and jeśli does not interfere with it."
+  },
+  {
+   "prompt_en": "Type: If Mum has time, she will make coffee.",
+   "answer": "Jeśli mama ma czas, zrobi kawę.",
+   "accepts": [
+    "Jeśli mama ma czas, zrobi kawę.",
+    "Jeśli mama ma czas, zrobi kawę"
+   ],
+   "explain": "Mum has time now, so the condition is present: ma czas. Polish does not repeat her in the second half — zrobi already says who."
+  },
+  {
+   "prompt_en": "Type: If you are hungry, Mum will make dinner.",
+   "answer": "Jeśli będziesz głodny, mama zrobi obiad.",
+   "accepts": [
+    "Jeśli będziesz głodny, mama zrobi obiad.",
+    "Jeśli będziesz głodny, mama zrobi obiad"
+   ],
+   "explain": "The hunger is later, so it is będziesz głodny — and the person who gets hungry and the person who cooks are different, which is why mama is said out loud in the second half."
+  },
+  {
+   "prompt_en": "Type: I don't know if this is a good decision.",
+   "answer": "Nie wiem, czy to jest dobra decyzja.",
+   "accepts": [
+    "Nie wiem, czy to jest dobra decyzja.",
+    "Nie wiem, czy to jest dobra decyzja"
+   ],
+   "explain": "The same clause you have just used after jeśli, but here the question is open rather than depended on — so czy. This pair is the one to keep hold of."
+  }
+ ],
+ "uses_lemmas": [
+  "czy",
+  "że",
+  "żeby",
+  "bo",
+  "ale",
+  "i",
+  "nie wiem",
+  "wiem",
+  "znam",
+  "masz",
+  "ma",
+  "jest",
+  "jesteś",
+  "są",
+  "była",
+  "było",
+  "być",
+  "będę",
+  "będziesz",
+  "będzie",
+  "zrobię",
+  "zrobi",
+  "kupię",
+  "kupić",
+  "kup",
+  "przyjdę",
+  "idę",
+  "idź do domu",
+  "do sklepu",
+  "czas",
+  "obiad",
+  "chleb",
+  "mleko",
+  "zupę",
+  "kawę",
+  "bilet",
+  "pieniądze",
+  "problem",
+  "pogoda",
+  "ładna",
+  "sklep",
+  "otwarty",
+  "zamknięty",
+  "zimno",
+  "dobrze",
+  "zmęczony",
+  "głodny",
+  "głodna",
+  "dobry",
+  "dobra",
+  "dobre",
+  "sposób",
+  "decyzja",
+  "rozwiązanie",
+  "mama",
+  "tata",
+  "w domu",
+  "w parku",
+  "w pracy",
+  "w sklepie"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_jesli",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

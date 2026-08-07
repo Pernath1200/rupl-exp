@@ -1,0 +1,402 @@
+{
+ "id": "b1_zeby",
+ "title": "Żeby",
+ "title_en": "So that · want that",
+ "level": "B1",
+ "tree_node": "b1_zeby",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B1 Block 6, unit 2. Two uses of one new conjunction, żeby, taught together because both ride material already fully owned — the spine's own single-unit framing holds up under a load check, not just by fiat.\n\nUSE 1 — purpose, żeby + bare infinitive (Idę do sklepu, żeby kupić chleb. 'I'm going to the store [in order] to buy bread.'). Zero new morphology: żeby is simply a new word that attaches to an infinitive already known (kupić/zrobić/przeczytać, the a2_aspect twins), the same shape as any other X + infinitive pattern this course already has (can_inf, musiec).\n\nUSE 2 — want-that, żeby + person marker + the PLAIN PAST (L-form) verb (Chcę, żebyś zrobił zakupy. 'I want you to do the shopping.' — literally 'I want that-you would-do the shopping'). The genuinely new fact, stated as a pattern and NOT explained historically (spine's own instruction): the person marker attaches to żeby itself (żebym/żebyś/żeby), not to the verb — and the verb that follows is the bare L-form (zrobił, not zrobiłbyś). This reuses TWO systems the learner already fully owns and combines them in a new way: the person-marker set is literally the same -m/-ś/-(zero) family from conditional_sg/conditional_pl (bym/byś/by), and the verb form is the same L-form from a2_aspect's perfective past twins — no new endings anywhere, only a new place to put an already-known ending and a new place to leave a verb un-marked.\n\nSCOPE CUT, logged (conservative, matching the conditional_sg -> conditional_pl split): SINGULAR person markers only (żebym/żebyś/żeby-3sg). Plural (żebyśmy/żebyście) is not in this unit even though byśmy/byście are already owned from conditional_pl — stacking six person slots in a brand-new construction's first unit was judged the wrong trade; plural żeby is deferred, not on the current B1-SPINE as its own slot, flagged for James.\n\nEvery want-that example is built so the WANTER and the DOER are genuinely different people (Chcę, żebyś... / Chcę, żeby on... / Mama chce, żebym...) — the only situations where this construction is natural; 'chcę, żebym...' (wanting yourself to do something) is not idiomatic Polish and does not appear anywhere in the pack. Both-gender production held throughout: every want-that example is given in both m and f L-forms (zrobił/zrobiła, przeczytał/przeczytała), matching the standing A2 both-gender rule.\n\n3 teaches_lemmas: żeby, żebyś, żebym. Every other word (kupić/zrobić/przeczytać/wypić, zrobił/zrobiła/kupił/kupiła/przeczytał/przeczytała, chleb/kawę/książkę/zakupy/bilety, do sklepu/do domu/do parku, mama) confirmed already taught via check_new.py, listed in uses_lemmas.",
+ "focus_structures": [
+  "zeby"
+ ],
+ "teaches_structures": [
+  "zeby"
+ ],
+ "uses_structures": [
+  "zeby",
+  "prep_do_gen",
+  "aspect_past",
+  "miec_acc"
+ ],
+ "intro": [
+  {
+   "title": "Żeby: a new word for \"in order to\" and \"that\"",
+   "title_pl": "Żeby",
+   "body": "żeby joins two clauses. Its first job is purpose: verb + żeby + infinitive, meaning \"in order to\". Nothing new on the infinitive side — you already know kupić, zrobić, przeczytać.",
+   "body_pl": "żeby + bezokolicznik = \"żeby\" + already-known infinitive. Idę do sklepu, żeby kupić chleb.",
+   "examples": [
+    {
+     "en": "I'm going to the store to buy bread.",
+     "pl": "Idę do sklepu, żeby kupić chleb."
+    },
+    {
+     "en": "I'm going home to make coffee.",
+     "pl": "Idę do domu, żeby zrobić kawę."
+    },
+    {
+     "en": "I'm going to the park to read a book.",
+     "pl": "Idę do parku, żeby przeczytać książkę."
+    }
+   ]
+  },
+  {
+   "title": "Żeby's second job: wanting someone else to do something",
+   "title_pl": "Chcę, żeby...",
+   "body": "The second job is \"want that\": chcę, żeby... — I want [someone] to... Here żeby carries a person marker, and the verb after it stays in its plain past form (the same form you already use for było, kupiłem, zrobiła). The person marker is the SAME family you already own from the conditional: -m (bym), -ś (byś), nothing extra for the 3rd person (by).",
+   "body_pl": "żebym (ja), żebyś (ty), żeby (on/ona) — te same końcówki co bym/byś/by. Po żeby: zwykła forma przeszła (zrobił, nie zrobiłby).",
+   "table": {
+    "headers": [
+     "You already have (conditional)",
+     "New (żeby)",
+     "Person"
+    ],
+    "rows": [
+     [
+      "kupiłbym",
+      "żebym kupił",
+      "ja"
+     ],
+     [
+      "kupiłbyś",
+      "żebyś kupił",
+      "ty"
+     ],
+     [
+      "kupiłby",
+      "żeby kupił",
+      "on"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The wanter and the doer must be different people",
+   "title_pl": "Kto chce, kto robi",
+   "body": "Chcę, żebyś zrobił zakupy. — I want YOU to do the shopping. The person wanting (ja) and the person doing (ty) are different — that is exactly when żeby's second job is used. If you want to do something yourself, you still just say chcę zrobić, no żeby at all.",
+   "body_pl": "Chcę, żebyś zrobił zakupy. (chcę = ja; zrobił = ty). Chcę zrobić zakupy. (ja = ja, bez żeby).",
+   "examples": [
+    {
+     "en": "I want you (m) to do the shopping.",
+     "pl": "Chcę, żebyś zrobił zakupy."
+    },
+    {
+     "en": "I want him to buy the tickets.",
+     "pl": "Chcę, żeby on kupił bilety."
+    },
+    {
+     "en": "Mom wants me (m) to read the book.",
+     "pl": "Mama chce, żebym przeczytał książkę."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "in order to / so that",
+   "pl": "żeby"
+  },
+  {
+   "en": "that you (informal) would...",
+   "pl": "żebyś"
+  },
+  {
+   "en": "that I would... (someone else wants it)",
+   "pl": "żebym"
+  },
+  {
+   "en": "I'm going to the store to buy bread.",
+   "pl": "Idę do sklepu, żeby kupić chleb."
+  },
+  {
+   "en": "I'm going home to make coffee.",
+   "pl": "Idę do domu, żeby zrobić kawę."
+  },
+  {
+   "en": "I'm going to the park to read a book.",
+   "pl": "Idę do parku, żeby przeczytać książkę."
+  },
+  {
+   "en": "I want you (m) to do the shopping.",
+   "pl": "Chcę, żebyś zrobił zakupy."
+  },
+  {
+   "en": "I want you (f) to do the shopping.",
+   "pl": "Chcę, żebyś zrobiła zakupy."
+  },
+  {
+   "en": "I want him to buy the tickets.",
+   "pl": "Chcę, żeby on kupił bilety."
+  },
+  {
+   "en": "I want her to buy the tickets.",
+   "pl": "Chcę, żeby ona kupiła bilety."
+  },
+  {
+   "en": "Mom wants me (m) to read the book.",
+   "pl": "Mama chce, żebym przeczytał książkę."
+  },
+  {
+   "en": "Mom wants me (f) to read the book.",
+   "pl": "Mama chce, żebym przeczytała książkę."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "I'm going to the store to buy bread. →",
+   "choices": [
+    "Idę do sklepu, żeby kupić chleb.",
+    "Idę do sklepu, żebym kupić chleb.",
+    "Idę do sklepu, żebyś kupić chleb.",
+    "Idę do sklepu, kupić chleb."
+   ],
+   "answer": "Idę do sklepu, żeby kupić chleb.",
+   "explain": "Purpose + infinitive uses bare żeby — the infinitive carries no person, so żeby needs no person marker either."
+  },
+  {
+   "prompt": "I want you (m) to do the shopping. →",
+   "choices": [
+    "Chcę, żebyś zrobił zakupy.",
+    "Chcę, żeby zrobił zakupy.",
+    "Chcę, żebym zrobił zakupy.",
+    "Chcę, żebyś zrobiła zakupy."
+   ],
+   "answer": "Chcę, żebyś zrobił zakupy.",
+   "explain": "ty → żebyś, the same marker family as conditional byś; zrobił (not zrobiłbyś) — the verb stays in its plain past form."
+  },
+  {
+   "prompt": "I want you (f) to do the shopping. →",
+   "choices": [
+    "Chcę, żebyś zrobiła zakupy.",
+    "Chcę, żebyś zrobił zakupy.",
+    "Chcę, żebym zrobiła zakupy.",
+    "Chcę, żeby zrobiła zakupy."
+   ],
+   "answer": "Chcę, żebyś zrobiła zakupy.",
+   "explain": "Same żebyś, but the gender is on the L-form: zrobiła, feminine."
+  },
+  {
+   "prompt": "I want him to buy the tickets. →",
+   "choices": [
+    "Chcę, żeby on kupił bilety.",
+    "Chcę, żebyś on kupił bilety.",
+    "Chcę, żebym on kupił bilety.",
+    "Chcę, żeby on kupiła bilety."
+   ],
+   "answer": "Chcę, żeby on kupił bilety.",
+   "explain": "3rd person takes no extra ending on żeby — the same zero-marker pattern as conditional by."
+  },
+  {
+   "prompt": "I want her to buy the tickets. →",
+   "choices": [
+    "Chcę, żeby ona kupiła bilety.",
+    "Chcę, żeby ona kupił bilety.",
+    "Chcę, żebym ona kupiła bilety.",
+    "Chcę, żebyś ona kupiła bilety."
+   ],
+   "answer": "Chcę, żeby ona kupiła bilety.",
+   "explain": "Still bare żeby for 3rd person; kupiła carries the feminine agreement with ona."
+  },
+  {
+   "prompt": "Mom wants me (m) to read the book. →",
+   "choices": [
+    "Mama chce, żebym przeczytał książkę.",
+    "Mama chce, żebyś przeczytał książkę.",
+    "Mama chce, żeby przeczytał książkę.",
+    "Mama chce, żebym przeczytała książkę."
+   ],
+   "answer": "Mama chce, żebym przeczytał książkę.",
+   "explain": "ja → żebym, the same marker as conditional bym. The wanting comes from mama, not from the speaker — that's what makes żebym natural here."
+  },
+  {
+   "prompt": "Mom wants me (f) to read the book. →",
+   "choices": [
+    "Mama chce, żebym przeczytała książkę.",
+    "Mama chce, żebym przeczytał książkę.",
+    "Mama chce, żebyś przeczytała książkę.",
+    "Mama chce, żeby przeczytała książkę."
+   ],
+   "answer": "Mama chce, żebym przeczytała książkę.",
+   "explain": "Same żebym; przeczytała carries the feminine agreement with the speaker."
+  },
+  {
+   "prompt": "Idę do domu, ___ zrobić kawę. (in order to)",
+   "choices": [
+    "żeby",
+    "żebyś",
+    "żebym",
+    "by"
+   ],
+   "answer": "żeby",
+   "explain": "Purpose + infinitive: bare żeby, no person marker."
+  },
+  {
+   "prompt": "Chcę, ___ zrobił zakupy. (that you would)",
+   "choices": [
+    "żebyś",
+    "żeby",
+    "żebym",
+    "byś"
+   ],
+   "answer": "żebyś",
+   "explain": "ty → żebyś. byś alone (without żeby) is the conditional marker for a different construction, kupiłbyś."
+  },
+  {
+   "prompt": "Mama chce, ___ przeczytał książkę. (that I would)",
+   "choices": [
+    "żebym",
+    "żebyś",
+    "żeby",
+    "bym"
+   ],
+   "answer": "żebym",
+   "explain": "ja → żebym. bym alone (without żeby) is the conditional marker for a different construction, kupiłbym."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "in order to / so that",
+   "mode": "full_word",
+   "answer": "żeby",
+   "accepts": [
+    "żeby"
+   ]
+  },
+  {
+   "prompt_en": "that you (informal) would...",
+   "mode": "full_word",
+   "answer": "żebyś",
+   "accepts": [
+    "żebyś"
+   ]
+  },
+  {
+   "prompt_en": "that I would... (someone else wants it)",
+   "mode": "full_word",
+   "answer": "żebym",
+   "accepts": [
+    "żebym"
+   ],
+   "explain": "Used when someone else does the wanting — mama chce, żebym... — not when you want to do something yourself."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I'm going to the store to buy bread.",
+   "answer": "Idę do sklepu, żeby kupić chleb.",
+   "accepts": [
+    "Idę do sklepu, żeby kupić chleb.",
+    "Idę do sklepu, żeby kupić chleb"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm going home to make coffee.",
+   "answer": "Idę do domu, żeby zrobić kawę.",
+   "accepts": [
+    "Idę do domu, żeby zrobić kawę.",
+    "Idę do domu, żeby zrobić kawę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm going to the park to read a book.",
+   "answer": "Idę do parku, żeby przeczytać książkę.",
+   "accepts": [
+    "Idę do parku, żeby przeczytać książkę.",
+    "Idę do parku, żeby przeczytać książkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I want you (m) to do the shopping.",
+   "answer": "Chcę, żebyś zrobił zakupy.",
+   "accepts": [
+    "Chcę, żebyś zrobił zakupy.",
+    "Chcę, żebyś zrobił zakupy"
+   ]
+  },
+  {
+   "prompt_en": "Type: I want you (f) to do the shopping.",
+   "answer": "Chcę, żebyś zrobiła zakupy.",
+   "accepts": [
+    "Chcę, żebyś zrobiła zakupy.",
+    "Chcę, żebyś zrobiła zakupy"
+   ]
+  },
+  {
+   "prompt_en": "Type: I want him to buy the tickets.",
+   "answer": "Chcę, żeby on kupił bilety.",
+   "accepts": [
+    "Chcę, żeby on kupił bilety.",
+    "Chcę, żeby on kupił bilety"
+   ]
+  },
+  {
+   "prompt_en": "Type: I want her to buy the tickets.",
+   "answer": "Chcę, żeby ona kupiła bilety.",
+   "accepts": [
+    "Chcę, żeby ona kupiła bilety.",
+    "Chcę, żeby ona kupiła bilety"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mom wants me (m) to read the book.",
+   "answer": "Mama chce, żebym przeczytał książkę.",
+   "accepts": [
+    "Mama chce, żebym przeczytał książkę.",
+    "Mama chce, żebym przeczytał książkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mom wants me (f) to read the book.",
+   "answer": "Mama chce, żebym przeczytała książkę.",
+   "accepts": [
+    "Mama chce, żebym przeczytała książkę.",
+    "Mama chce, żebym przeczytała książkę"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "żeby",
+  "żebyś",
+  "żebym"
+ ],
+ "uses_lemmas": [
+  "kupić",
+  "zrobić",
+  "przeczytać",
+  "zrobił",
+  "zrobiła",
+  "kupił",
+  "kupiła",
+  "przeczytał",
+  "przeczytała",
+  "chleb",
+  "kawę",
+  "książkę",
+  "zakupy",
+  "bilety",
+  "do sklepu",
+  "do domu",
+  "do parku",
+  "mama",
+  "chce",
+  "chcę",
+  "idę",
+  "on",
+  "ona"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b1_zeby",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

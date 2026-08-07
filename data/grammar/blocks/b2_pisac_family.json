@@ -1,0 +1,641 @@
+{
+ "id": "b2_pisac_family",
+ "title": "Podpisać czy zapisać?",
+ "title_en": "Signing and noting down — more verbs from pisać",
+ "level": "B2",
+ "tree_node": "b2_pisac_family",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 6a, unit 4 (spine, JAMES-LOCKED decision #6 — the first of the two root families). THREE NEW VERBS, TWENTY NEW FORMS, ZERO NEW ENDINGS: podpisać (sign), zapisać (write down), podpisywać (sign as a matter of routine). Every form is a rule application on a stem the learner already owns — the past is past_ac's -łem/-łam/-ł/-ła, the perfective future is the -ę/-esz/-e that b2_aspect_prefixes already gave on this very stem (napiszę/napiszesz/napisze), and podpisywać runs on present_uje's -uję/-ujesz/-uje, owned since pracować and kupować. That is why a unit with twenty new strings is not a cliff: the only genuinely new things in it are three words and what they mean.\n\nTHE ROOT IS USABLE ONLY BECAUSE b2_aspect_prefixes MADE IT SO, and it said so in advance: its own catalogue entry records teaching the extra form piszę 'so that napiszę sits on an anchored stem rather than a floating one and so pisac_family finds the root usable, as the JAMES-LOCKED Block 6a assumes'. Verified rather than assumed: check_new.py reports pisać, piszę, pisałem, pisałam, napisać, napisałem/-am, napisał/-a, napiszę, napiszesz, napisze all TAUGHT, so the family board can show four verbs of which two are pure recall.\n\nNO PREFIX MEANING IS CLAIMED, which is the spine's explicit instruction for this unit. pod- and za- are OUTSIDE the James-locked core-4 lens (wy-, przy-, do-, od-), and slide 2 says that out loud rather than letting the learner assume the lens stretches: these two verbs are learned as words. pod- gets the one-line story the spine allows — a signature goes under the text — explicitly labelled as a hook for this single word and not a rule to apply elsewhere. za- gets no story at all, per the spine's 'za- is NOT lens-claimed'.\n\nSECONDARY IMPERFECTIVE, WHOLE-TWIN TREATMENT (locked decision #4). podpisywać is handed over as podpisać's memorised partner, exactly as b2_motion_imperf handed over przychodzić: slide 4 states there is no sum that gets you from one to the other, and the -ywa-/-iwa-/-a- formation rule is NOT named anywhere — that is C1's unit, and B2-SPINE's leaves-to-C1 item 7 already books it. Note the distinction the slide is careful about: saying podpisywać CONJUGATES on the owned -uję class is a fact about its endings, not about how it was derived, so it does not leak the rule.\n\nSCOPE CUTS, both logged as the spine invites. (1) przepisać and opisać are DROPPED — the spine says 'only if load allows, author's call', and three new verbs with twenty forms is already the top of what one unit should carry; neither has a payoff comparable to signing and noting down, and opisać in particular would want an object noun class the learner does not have. (2) zapisywać is FENCED and appears nowhere. The unit teaches exactly ONE twin pair, so the twin idea is introduced once rather than twice, and zapisać's everyday sense really is a single finished act (you note a thing down once). The asymmetry is deliberate; a later run or C1 may pay it. Nothing on any slide implies zapisać has a partner, and nothing implies it does not — the word simply is not raised.\n\nMATCH BOARD CANNOT HOLD THE PARADIGM, the b2_jezdzic precedent: twenty new forms against twelve rows, so the board carries all three new infinitives plus the seven highest-value finite forms and two anchor infinitives (pisać, napisać) that make it a FAMILY board rather than a list. The every-form-taught rule is met by slides 4 and 5, whose two tables between them show all twenty forms; every form any prompt demands appears there.\n\nDISTRACTORS ARE POOL-CHECKED REAL POLISH, and the b2_prefix_two_jobs pool catch was applied from the start rather than found late: pisał and pisała are NOT owned (b2_aspect_prefixes teaches pisać's past in the first person only), so every imperfective-past distractor is pisałem. Nothing fabricated anywhere; the wrong choices are napisał/-a, zapłacił/-a, przeczytać, pisać, pisałem, napiszę/-esz/-e — all taught, all merely in the wrong slot.\n\nFENCED: the past of podpisywać (podpisywałem — it would open the -ywać past on a verb whose present is the point); the imperfective future będę podpisywać, which belongs to two_futures and is not reopened; the imperative (podpisz/zapisz), b1_imperative_rule's stem-alternating material; the plural throughout, on b2_motion_prefixes2's and b2_motion_imperf's singular-only precedent; nazwisko and dokument, both verified NEW, which killed two otherwise natural sentences; kartkę, which IS taught but as a greetings card (a2_celebrations) — the taught-AS check, since 'zapisać kartkę' would read as writing a Christmas card rather than noting something on a slip; and all oblique pronouns, so 'Dad wrote the letter and signed it' was rebuilt with a second noun clause (Tata napisał list, a mama zapisała adres) — go IS owned since b2_pron_acc, but its clitic word order is what that pack left to C1, and this unit does not need it.\n\nMETALANGUAGE: przedrostek is already live in body_pl at b2_aspect_prefixes, b2_prefix_lens and b2_prefix_two_jobs; rdzeń is used in body_pl here for the first time in the course, in the one lane AGENTS allows untaught metalanguage. pod- and pisz- appear as a prefix label and a stem fragment respectively, not as words, exactly as b2_prefix_two_jobs writes 'the z- in zrobić' without declaring z as a lemma.\n\nTITLE: house pattern, on the Idę czy jadę? / Wyjść czy przyjść? model, using the unit's own two new verbs — legitimate in learner-visible chrome because this pack teaches them (the b2_aspect_prefixes precedent, whose title Pisać czy napisać? carries the napisać it teaches). The planned tree label 'Rodzina pisać' was CORRECTED: rodzina is verified NEW, and the phrase is not grammatical Polish for a verb family in any case. label/label_en in tree.json updated to match.",
+ "focus_structures": [
+  "pisac_family"
+ ],
+ "teaches_structures": [
+  "pisac_family"
+ ],
+ "teaches_lemmas": [
+  "podpisać",
+  "podpiszę",
+  "podpiszesz",
+  "podpisze",
+  "podpisałem",
+  "podpisałam",
+  "podpisał",
+  "podpisała",
+  "podpisywać",
+  "podpisuję",
+  "podpisujesz",
+  "podpisuje",
+  "zapisać",
+  "zapiszę",
+  "zapiszesz",
+  "zapisze",
+  "zapisałem",
+  "zapisałam",
+  "zapisał",
+  "zapisała"
+ ],
+ "uses_structures": [
+  "pisac_family",
+  "aspect_prefixes",
+  "aspect_past",
+  "perf_future",
+  "past_ac",
+  "present_uje",
+  "present",
+  "prefix_lens",
+  "prefix_two_jobs",
+  "musiec",
+  "miec_acc",
+  "prep_w_loc",
+  "gen_endings",
+  "ten_ta_to",
+  "conjunctions",
+  "question",
+  "questions2"
+ ],
+ "intro": [
+  {
+   "title": "Two more verbs built on the root of pisać",
+   "title_pl": "pisać → podpisać · zapisać",
+   "body": "You have had pisać since A1 and its perfective napisać since two units ago. Polish goes on building from that same root by putting a piece on the front, and two of the results are worth having straight away, because they are what paperwork actually consists of.\n\npodpisać is to sign — to put your name to something that has already been written.\nzapisać is to write down, to note down — to get something onto paper before you lose it.\n\nEach is a separate dictionary word with a meaning of its own. Neither is pisać done a bit differently.",
+   "body_pl": "Podpisałem umowę.   ·   Zapisałem adres.",
+   "table": {
+    "headers": [
+     "verb",
+     "what it means",
+     "example"
+    ],
+    "rows": [
+     [
+      "pisać",
+      "to write",
+      "Piszę list."
+     ],
+     [
+      "napisać",
+      "to write it, finished",
+      "Napisałem list."
+     ],
+     [
+      "podpisać",
+      "to sign, to put your name to it",
+      "Podpisałem umowę."
+     ],
+     [
+      "zapisać",
+      "to write down, to note it",
+      "Zapisałem adres."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "pod- and za- are not among the four you can read",
+   "title_pl": "podpisać · zapisać",
+   "body": "Two units ago you were given a reading lens for four prefixes: wy- out, przy- towards, do- all the way, od- away or back. pod- and za- are not among them, and this unit does not pretend they are. You learn these two verbs as words, exactly as you have learned every aspect pair since A2.\n\nOne memory hook, about podpisać and about no other word: elsewhere in Polish pod- means under, and a signature goes under the text. Use it to hold on to this one verb. Do not use it to guess at another.\n\nza- gets no such hook. It does too many unrelated jobs for any of them to be worth telling you about.",
+   "body_pl": "Przedrostek pod-: tylko podpisać."
+  },
+  {
+   "title": "Three different things to do with a document",
+   "title_pl": "napisać · podpisać · zapisać",
+   "body": "The three verbs are not interchangeable, and English keeps them apart too. It is only the shared root that makes them look like variants of one another in Polish.\n\nRead the right-hand column rather than the middle one: it is the actual difference, and it is what decides which verb you want.",
+   "body_pl": "Napisałem podanie. Podpisałem podanie.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "what has actually happened"
+    ],
+    "rows": [
+     [
+      "Napisałem podanie.",
+      "I wrote the application.",
+      "The text did not exist. Now it does."
+     ],
+     [
+      "Podpisałem podanie.",
+      "I signed the application.",
+      "The text existed. My name is now on it."
+     ],
+     [
+      "Zapisałem termin.",
+      "I wrote the appointment down.",
+      "It was in my head. Now it is on paper."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "podpisać once · podpisywać as a matter of routine",
+   "title_pl": "podpisałem → podpisuję",
+   "body": "podpisać is one signature on one occasion, finished — a perfective. So it has no present, and its present-shaped forms mean the future: podpiszę is I will sign.\n\nFor something done again and again there is a second verb, podpisywać. That one is imperfective, so podpisuję really is a present: Szef podpisuje wszystko.\n\nLearn the two together as a pair, the way you learned pisać / napisać and gotować / ugotować. There is no sum that gets you from one to the other.\n\nOne thing does come free. podpisywać takes the -uję / -ujesz / -uje endings you have had since pracować and kupować, so its forms cost you nothing new.",
+   "body_pl": "podpisać · podpisywać",
+   "table": {
+    "headers": [
+     "podpisać — one signature",
+     "podpisywać — again and again"
+    ],
+    "rows": [
+     [
+      "Podpisałem umowę.",
+      "Podpisuję wszystko."
+     ],
+     [
+      "Jutro podpiszę podanie.",
+      "Szef podpisuje wszystko."
+     ],
+     [
+      "Tata podpisał formularz.",
+      "Kiedy podpisujesz umowę?"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Every ending here is one you already own",
+   "title_pl": "podpisałem · podpiszę · zapisałem · zapiszę",
+   "body": "There is no new ending anywhere in this unit, and the table proves it.\n\nThe past is the -łem / -łam / -ł / -ła you have used since A2. The future is the same -ę / -esz / -e that gives napiszę, napiszesz, napisze — on the same pisz- stem, because it is the same root underneath.\n\nSo what you are actually learning is three words and what they mean. The forms follow.",
+   "body_pl": "Rdzeń: pisz-.",
+   "table": {
+    "headers": [
+     "",
+     "podpisać",
+     "zapisać"
+    ],
+    "rows": [
+     [
+      "I …ed (m)",
+      "podpisałem",
+      "zapisałem"
+     ],
+     [
+      "I …ed (f)",
+      "podpisałam",
+      "zapisałam"
+     ],
+     [
+      "he …ed",
+      "podpisał",
+      "zapisał"
+     ],
+     [
+      "she …ed",
+      "podpisała",
+      "zapisała"
+     ],
+     [
+      "I will …",
+      "podpiszę",
+      "zapiszę"
+     ],
+     [
+      "you will …",
+      "podpiszesz",
+      "zapiszesz"
+     ],
+     [
+      "he / she will …",
+      "podpisze",
+      "zapisze"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "to write",
+   "pl": "pisać"
+  },
+  {
+   "en": "to write it, to get it written",
+   "pl": "napisać"
+  },
+  {
+   "en": "to sign, to put your name to it",
+   "pl": "podpisać"
+  },
+  {
+   "en": "to sign, again and again",
+   "pl": "podpisywać"
+  },
+  {
+   "en": "to write down, to note down",
+   "pl": "zapisać"
+  },
+  {
+   "en": "I signed (m)",
+   "pl": "podpisałem"
+  },
+  {
+   "en": "she signed",
+   "pl": "podpisała"
+  },
+  {
+   "en": "I will sign",
+   "pl": "podpiszę"
+  },
+  {
+   "en": "I sign (every time)",
+   "pl": "podpisuję"
+  },
+  {
+   "en": "I wrote it down (m)",
+   "pl": "zapisałem"
+  },
+  {
+   "en": "she wrote it down",
+   "pl": "zapisała"
+  },
+  {
+   "en": "I will write it down",
+   "pl": "zapiszę"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Tata ___ umowę. (Dad signed the contract — his name is on it now)",
+   "choices": [
+    "podpisał",
+    "napisał",
+    "zapisał",
+    "zapłacił"
+   ],
+   "answer": "podpisał",
+   "explain": "The contract already existed; what Dad added was his name. napisał would mean he wrote the contract itself."
+  },
+  {
+   "prompt": "Muszę ___ adres. (I have to write the address down)",
+   "choices": [
+    "zapisać",
+    "podpisać",
+    "napisać",
+    "przeczytać"
+   ],
+   "answer": "zapisać",
+   "explain": "The address exists already — you are getting it onto paper so you do not lose it, and that is zapisać. After muszę the verb stays in its dictionary form."
+  },
+  {
+   "prompt": "Wczoraj ___ list. (Yesterday I wrote a letter — m)",
+   "choices": [
+    "napisałem",
+    "podpisałem",
+    "zapisałem",
+    "pisałem"
+   ],
+   "answer": "napisałem",
+   "explain": "The letter is written and finished, so it is the perfective napisałem. pisałem would leave you in the middle of writing it."
+  },
+  {
+   "prompt": "Szef ___ wszystko. (The boss signs everything — every single thing that reaches him)",
+   "choices": [
+    "podpisuje",
+    "podpisał",
+    "podpisze",
+    "podpisać"
+   ],
+   "answer": "podpisuje",
+   "explain": "This is a routine rather than one occasion, so it needs the imperfective podpisywać — and being imperfective, its present really is a present."
+  },
+  {
+   "prompt": "Jutro ___ umowę. (Tomorrow I will sign the contract)",
+   "choices": [
+    "podpiszę",
+    "podpisuję",
+    "podpisałem",
+    "napiszę"
+   ],
+   "answer": "podpiszę",
+   "explain": "One signature, once, and it has not happened yet. podpisać is perfective, so this present-shaped form is the future."
+  },
+  {
+   "prompt": "Mama ___ numer telefonu. (Mum wrote the phone number down)",
+   "choices": [
+    "zapisała",
+    "podpisała",
+    "napisała",
+    "zapłaciła"
+   ],
+   "answer": "zapisała",
+   "explain": "Noting a number down is zapisać. podpisała would have her signing the number, which is not a thing anybody does."
+  },
+  {
+   "prompt": "Muszę ___ podanie. (I have to sign the application — it is already written)",
+   "choices": [
+    "podpisać",
+    "zapisać",
+    "napisać",
+    "pisać"
+   ],
+   "answer": "podpisać",
+   "explain": "The bracket tells you the text exists, so what is missing is a signature. napisać would be writing the application from nothing."
+  },
+  {
+   "prompt": "Zawsze ___ wszystko w biurze. (I sign everything at the office — every time)",
+   "choices": [
+    "podpisuję",
+    "podpiszę",
+    "podpisałem",
+    "podpisać"
+   ],
+   "answer": "podpisuję",
+   "explain": "zawsze makes it a habit, and habits take the imperfective. podpiszę would be one particular signature, still to come."
+  },
+  {
+   "prompt": "___ ten adres? (Will you write this address down?)",
+   "choices": [
+    "Zapiszesz",
+    "Podpiszesz",
+    "Napiszesz",
+    "Zapłacisz"
+   ],
+   "answer": "Zapiszesz",
+   "explain": "Getting an address onto paper is zapisać, and the -esz ending is the same one you know from napiszesz. An address is not something you sign."
+  },
+  {
+   "prompt": "Pani ___ formularz. (The lady signed the form)",
+   "choices": [
+    "podpisała",
+    "podpisał",
+    "zapisała",
+    "napisała"
+   ],
+   "answer": "podpisała",
+   "explain": "A form is signed rather than noted down. The -ła is the ordinary feminine past you have had since A2."
+  },
+  {
+   "prompt": "Siostra ___ termin. (My sister will write the appointment down)",
+   "choices": [
+    "zapisze",
+    "zapisała",
+    "podpisze",
+    "napisze"
+   ],
+   "answer": "zapisze",
+   "explain": "It has not happened yet, and zapisać is perfective — so its present-shaped zapisze is a future. zapisała would put it in the past."
+  },
+  {
+   "prompt": "podpisać → ___ (the partner you use for something done again and again)",
+   "choices": [
+    "podpisywać",
+    "pisać",
+    "zapisać",
+    "napisać"
+   ],
+   "answer": "podpisywać",
+   "explain": "podpisywać is podpisać's imperfective twin — a pair to be learned whole, like pisać / napisać. You cannot work one out from the other."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to sign, to put your name to it",
+   "mode": "full_word",
+   "answer": "podpisać",
+   "accepts": [
+    "podpisać"
+   ],
+   "explain": "Built on the root of pisać, but a verb in its own right — signing is not writing."
+  },
+  {
+   "prompt_en": "to write down, to note down",
+   "mode": "full_word",
+   "answer": "zapisać",
+   "accepts": [
+    "zapisać"
+   ]
+  },
+  {
+   "prompt_en": "to sign, again and again (the routine partner)",
+   "mode": "full_word",
+   "answer": "podpisywać",
+   "accepts": [
+    "podpisywać"
+   ],
+   "explain": "The imperfective twin of podpisać, learned whole. There is no way to derive it."
+  },
+  {
+   "prompt_en": "I signed (m)",
+   "mode": "full_word",
+   "answer": "podpisałem",
+   "accepts": [
+    "podpisałem"
+   ]
+  },
+  {
+   "prompt_en": "I signed (f)",
+   "mode": "full_word",
+   "answer": "podpisałam",
+   "accepts": [
+    "podpisałam"
+   ]
+  },
+  {
+   "prompt_en": "he signed",
+   "mode": "full_word",
+   "answer": "podpisał",
+   "accepts": [
+    "podpisał"
+   ]
+  },
+  {
+   "prompt_en": "she signed",
+   "mode": "full_word",
+   "answer": "podpisała",
+   "accepts": [
+    "podpisała"
+   ]
+  },
+  {
+   "prompt_en": "I will sign",
+   "mode": "full_word",
+   "answer": "podpiszę",
+   "accepts": [
+    "podpiszę"
+   ],
+   "explain": "podpisać is perfective, so it has no present at all — this present-shaped form means the future."
+  },
+  {
+   "prompt_en": "I sign (every time)",
+   "mode": "full_word",
+   "answer": "podpisuję",
+   "accepts": [
+    "podpisuję"
+   ],
+   "explain": "From podpisywać, which is imperfective — so its present is a real present. The -uję is pracować's ending."
+  },
+  {
+   "prompt_en": "I wrote it down (m)",
+   "mode": "full_word",
+   "answer": "zapisałem",
+   "accepts": [
+    "zapisałem"
+   ]
+  },
+  {
+   "prompt_en": "she wrote it down",
+   "mode": "full_word",
+   "answer": "zapisała",
+   "accepts": [
+    "zapisała"
+   ]
+  },
+  {
+   "prompt_en": "I will write it down",
+   "mode": "full_word",
+   "answer": "zapiszę",
+   "accepts": [
+    "zapiszę"
+   ],
+   "explain": "Same stem as napiszę, same endings — only the piece on the front is different."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Dad signed the contract.",
+   "answer": "Tata podpisał umowę.",
+   "accepts": [
+    "Tata podpisał umowę.",
+    "Tata podpisał umowę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum wrote the address down.",
+   "answer": "Mama zapisała adres.",
+   "accepts": [
+    "Mama zapisała adres.",
+    "Mama zapisała adres"
+   ]
+  },
+  {
+   "prompt_en": "Type: Yesterday I signed the application. (m)",
+   "answer": "Wczoraj podpisałem podanie.",
+   "accepts": [
+    "Wczoraj podpisałem podanie.",
+    "Wczoraj podpisałem podanie"
+   ]
+  },
+  {
+   "prompt_en": "Type: The boss signs everything.",
+   "answer": "Szef podpisuje wszystko.",
+   "accepts": [
+    "Szef podpisuje wszystko.",
+    "Szef podpisuje wszystko"
+   ],
+   "explain": "A standing habit, so it takes the imperfective podpisywać — and podpisuje is an ordinary present, because imperfective verbs have one."
+  },
+  {
+   "prompt_en": "Type: I will write the phone number down.",
+   "answer": "Zapiszę numer telefonu.",
+   "accepts": [
+    "Zapiszę numer telefonu.",
+    "Zapiszę numer telefonu"
+   ],
+   "explain": "telefonu is the genitive you have had since A1 — a number OF the telephone. zapiszę is present-shaped and future in meaning."
+  },
+  {
+   "prompt_en": "Type: I have to sign this form.",
+   "answer": "Muszę podpisać ten formularz.",
+   "accepts": [
+    "Muszę podpisać ten formularz.",
+    "Muszę podpisać ten formularz"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister wrote the appointment down.",
+   "answer": "Siostra zapisała termin.",
+   "accepts": [
+    "Siostra zapisała termin.",
+    "Siostra zapisała termin"
+   ]
+  },
+  {
+   "prompt_en": "Type: When do you sign the contract?",
+   "answer": "Kiedy podpisujesz umowę?",
+   "accepts": [
+    "Kiedy podpisujesz umowę?",
+    "Kiedy podpisujesz umowę"
+   ],
+   "explain": "Asking about the arrangement rather than about one finished act, so Polish uses the imperfective podpisujesz."
+  },
+  {
+   "prompt_en": "Type: Dad wrote the letter, and Mum wrote the address down.",
+   "answer": "Tata napisał list, a mama zapisała adres.",
+   "accepts": [
+    "Tata napisał list, a mama zapisała adres.",
+    "Tata napisał list, a mama zapisała adres"
+   ],
+   "explain": "Two different jobs on the same root: napisał produced the text, zapisała only put something on paper for later."
+  },
+  {
+   "prompt_en": "Type: The doctor will sign the prescription.",
+   "answer": "Lekarz podpisze receptę.",
+   "accepts": [
+    "Lekarz podpisze receptę.",
+    "Lekarz podpisze receptę"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "pisać",
+  "piszę",
+  "pisałem",
+  "napisać",
+  "napisałem",
+  "napisał",
+  "napisała",
+  "napiszę",
+  "napiszesz",
+  "napisze",
+  "przeczytać",
+  "zapłacił",
+  "zapłaciła",
+  "zapłacisz",
+  "gotować",
+  "ugotować",
+  "pracować",
+  "kupować",
+  "muszę",
+  "tata",
+  "mama",
+  "siostra",
+  "szef",
+  "lekarz",
+  "pani",
+  "umowa",
+  "umowę",
+  "podanie",
+  "formularz",
+  "adres",
+  "termin",
+  "list",
+  "receptę",
+  "numer",
+  "telefonu",
+  "wszystko",
+  "ten",
+  "w biurze",
+  "wczoraj",
+  "jutro",
+  "zawsze",
+  "kiedy",
+  "a",
+  "tylko",
+  "i"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_pisac_family",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

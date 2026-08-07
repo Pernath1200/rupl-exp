@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "description": "Universal tree topology for RUE/RUPL/RUCZ. Language-agnostic seats only.",
+  "source_model": "Tree Model of Language Proficiency + Grammar Tree by Root (EN rue-codex)",
+  "grammar_seats": [
+    {
+      "tree_part": "tap_root",
+      "role": "foundation",
+      "label_en_teacher": "Tap / foundation",
+      "note": "Word-class feel + basic sentence machine"
+    },
+    {
+      "tree_part": "forms",
+      "role": "lateral",
+      "maps_en_seat": "noun_phrase",
+      "label_en_teacher": "Word forms / NP+",
+      "note": "Gender, case, agreement — heavy in PL/CZ"
+    },
+    {
+      "tree_part": "verbs",
+      "role": "lateral",
+      "maps_en_seat": "verb_phrase",
+      "label_en_teacher": "Verb phrase",
+      "note": "Person endings, aspect, tense"
+    },
+    {
+      "tree_part": "sentence",
+      "role": "lateral",
+      "maps_en_seat": "sentence_syntax",
+      "label_en_teacher": "Sentence syntax",
+      "note": "Questions, word order, pronouns in context"
+    },
+    {
+      "tree_part": "chunks",
+      "role": "lateral",
+      "maps_en_seat": null,
+      "label_en_teacher": "Frame chunks (grammar-forced)",
+      "note": "Only when a frame forces a morphology slot; else prefer vocab trunk"
+    },
+    {
+      "tree_part": "links",
+      "role": "lateral",
+      "maps_en_seat": "prepositions_particles",
+      "label_en_teacher": "Links / prepositions",
+      "note": "Conjunctions + case-governing preps"
+    },
+    {
+      "tree_part": "clause_linking",
+      "role": "lateral",
+      "maps_en_seat": "clause_linking",
+      "label_en_teacher": "Clause linking",
+      "note": "Dim at PL A1; opens later"
+    },
+    {
+      "tree_part": "verb_complementation",
+      "role": "lateral",
+      "maps_en_seat": "verb_complementation",
+      "label_en_teacher": "Verb complementation",
+      "note": "Dim at PL A1 seedling"
+    }
+  ],
+  "vocab_seats": {
+    "trunk": {
+      "tree_part": "trunk",
+      "note": "Core frames, high-freq glue, chunks"
+    },
+    "houses": [
+      { "tree_part": "home_family", "label_pl": "Dom i rodzina" },
+      { "tree_part": "work_routine", "label_pl": "Praca i rutyna" },
+      { "tree_part": "food_shopping", "label_pl": "Jedzenie i zakupy" },
+      { "tree_part": "health_body", "label_pl": "Zdrowie i ciało" },
+      { "tree_part": "free_time", "label_pl": "Czas wolny" },
+      { "tree_part": "travel_city", "label_pl": "Podróż i miasto" },
+      { "tree_part": "communication", "label_pl": "Komunikacja" },
+      { "tree_part": "self_body", "label_pl": "Ja i ciało" },
+      { "tree_part": "money", "label_pl": "Pieniądze" },
+      { "tree_part": "knowledge", "label_pl": "Wiedza i nauka" },
+      { "tree_part": "public_life", "label_pl": "Życie publiczne" },
+      { "tree_part": "inner_life", "label_pl": "Życie wewnętrzne" }
+    ],
+    "strands": [
+      { "tree_part": "core_frames", "code": "COR" },
+      { "tree_part": "phrases", "code": "PHR" },
+      { "tree_part": "word_formation", "code": "WFM" }
+    ]
+  },
+  "student_labels_pl": {
+    "tap_root": "Kół",
+    "forms": "Formy",
+    "verbs": "Czasowniki",
+    "sentence": "Zdanie",
+    "chunks": "Chunki",
+    "links": "Spójniki",
+    "clause_linking": "Zdania złożone",
+    "verb_complementation": "Łączenie z czasownikiem",
+    "trunk": "Pień"
+  }
+}

@@ -1,0 +1,612 @@
+{
+  "id": "c1_verb_family3",
+  "title": "Zapłacić, dopłacić, przepłacić",
+  "title_en": "One root, three ways to pay",
+  "level": "C1",
+  "tree_node": "c1_verb_family3",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 4. ROOT FAMILY 3 (C1-SPINE O9, JAMES-LOCKED B2 decision #6: 'further families are C1 material'), on the root placic. Register is money and admin, which is where this learner actually meets these verbs.\n\nTHIRTEEN NEW STRINGS, TWO NEW VERBS, ZERO NEW ENDINGS. doplacic and przeplacic are verified NEW; every ending they take is owned - the perfective future is the -e/-isz/-i shape aspect_prefixes [168] already handed over on THIS VERY STEM (zaplace/zaplacisz/zaplaci), and the past is past_ac's -lem/-l.\n\nTHE ANCHOR REPAIR IS THE UNIT'S BEST MOVE AND IT WAS FOUND BY check_new, NOT ASSUMED: placi and placisz are verified NEW. The course has owned placic since leaf_shopping_a1 [20] and place since a2_shopping_func [63] - so for a hundred and forty nodes the learner has been able to say I PAY and has had no way to say HE PAYS or DO YOU PAY. That is the dawac_family [173] situation exactly (wydawac owned as a dictionary word for a hundred nodes with no present), and it is repaired the same way: the unit is built ON the gap rather than around it. Slide 1 fills the singular present and nothing else.\n\nTHE za + ACCUSATIVE TRAP WAS NAMED IN ADVANCE AND IS AVOIDED COMPLETELY. dawac_family's own note rejected placic as its root and said why: 'placic would want za + Accusative and za is owned only in polite's thanking job - a governor homograph on a function word, the trap that earned prosic_o its own unit'. That reasoning is still correct and this pack does NOT overturn it. za appears NOWHERE in any stage - AND THE PACK'S OWN TOKEN SWEEP CAUGHT IT TRYING TO: a drafted quiz item read 'Brat ___ za bilet', which audit.py would have PASSED because za is a taught string (<- b1_polite [107]) while being precisely the governor homograph this paragraph exists to refuse. Rebuilt as 'Brat ___ w hotelu'. Every complement is owned: a direct Accusative object (rachunek, obiad - both Acc = Nom), the Instrumental chunks karta/gotowka <- a2_shopping_func [63], an indeclinable amount (dwadziescia euro), a Locative phrase (w hotelu), or nothing at all (Musialem doplacic.). The same sweep caught czasem, verified NEW, in another quiz prompt - replaced with czesto. NO CASE-MAP ROW IS ADDED BY THIS UNIT because it ships no new governor - deliberately, and it is the reason it ships none.\n\nTHE TWO PREFIXES GET DELIBERATELY DIFFERENT TREATMENT, and this is the pack's one real judgment call. do- IN doplacic GETS A MEMORY HOOK FOR THAT ONE WORD ONLY - paying UP TO the amount that was needed - which is the single hook b2_pisac_family's precedent allows ('labelled as a hook for that one word and not a rule'). It is NOT presented as the lens's do-, because extending the James-locked core-4 spatial lens to a non-motion verb is precisely the productive prefixation decision #1 refused and R1 lifted for c1_prefix_semantics [217] ALONE. prze- IN przeplacic GETS NO HOOK AT ALL and slide 4 says so out loud: this prze- means TOO MUCH, which is NOT the through/across/re- tendency R2 schedules for c1_prefix_semantics two nodes later, so the verb is learned as a word and the learner is told not to generalise from it. FLAGGED FOR THE c1_prefix_semantics BUILDER IN C1-DIGEST: przeplacic is a real, owned, named counterexample and is worth using there as the honest exception R2 requires that unit to carry.\n\nTHE SECONDARY IMPERFECTIVES ARE THE PAYOFF OF THE UNIT ONE NODE BACK and are held to INFINITIVES ONLY. doplacac and przeplacac are verified real verbs, checked rather than coined, and they are the -a- shape c1_sec_imperf [214] taught - with the stem NOT moving, which makes them a cleaner example of that shape than wyjezdzac was. No present, no past, nothing to produce beyond the infinitive: opening a third paradigm here would be the second new system load-splitting forbids. Slide 5 restates the standing line - verified, never coined.\n\nHOMOGRAPH AND POOL DISCIPLINE: reszta is TAUGHT as shop change and is deliberately unused, since 'the rest' would read wrongly in a paying sentence. zloty/zlotych are verified NEW and are c1_quantifiers [229]'s OWN material by name in C1-SPINE Block 8 ('it declines adjectivally and teaching it would invite *piec zloty'), so every amount here is euro, which is TAUGHT <- leaf_shopping_a1 [20] and indeclinable - no new ending rides in on the money. placimy/placicie/placa are verified NEW and FENCED on the standing singular-only precedent.\n\nNO FABRICATED NON-WORDS: every quiz distractor is a real form of a real verb from this family or its owned twin. KONTROLA IS TWELVE FORM CHOICES AND NO META-QUESTION. PISANIE IS TEN SINGLE FORMS TYPED WHOLE; Uzycie carries the sentences, disjoint by construction.\n\nFENCED, all verified NEW: the plural of every verb here; the imperatives; doplacal/przeplacal and every past of the secondary imperfectives; oplacic, wplacic, splacic, zaplata and every further member of this root, which would each be another word and none of which C1-SPINE schedules.",
+  "focus_structures": [
+    "placic_family"
+  ],
+  "teaches_structures": [
+    "placic_family"
+  ],
+  "teaches_lemmas": [
+    "płacisz",
+    "płaci",
+    "dopłacić",
+    "dopłacę",
+    "dopłacisz",
+    "dopłaci",
+    "dopłacił",
+    "dopłaciłem",
+    "przepłacić",
+    "przepłacił",
+    "przepłaciłem",
+    "dopłacać",
+    "przepłacać"
+  ],
+  "uses_structures": [
+    "placic_family",
+    "sec_imperf",
+    "aspect_prefixes",
+    "aspect_past",
+    "perf_future",
+    "present_e_isz",
+    "past_ac",
+    "miec_acc",
+    "inst_transport",
+    "musiec",
+    "adj_acc"
+  ],
+  "intro": [
+    {
+      "title": "You have been paying in the first person only",
+      "title_pl": "płacę · płacisz · płaci",
+      "body": "płacić has been in the course since A1, and płacę — I pay — since A2. In all that time there has been no way to say that somebody ELSE pays.\n\nThat gap closes here, and it costs nothing: the endings are the -ę / -isz / -i set you already use on robić and mówić.\n\nThis is the ordinary, everyday verb — paying as a habit, or paying in general.",
+      "body_pl": "płacić — zawsze.",
+      "table": {
+        "headers": [
+          "",
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "I",
+            "płacę",
+            "I pay"
+          ],
+          [
+            "you",
+            "płacisz",
+            "you pay"
+          ],
+          [
+            "he / she",
+            "płaci",
+            "he pays, she pays"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Do you pay by card?",
+          "pl": "Czy płacisz kartą?"
+        },
+        {
+          "en": "Dad always pays in cash.",
+          "pl": "Tata zawsze płaci gotówką."
+        }
+      ]
+    },
+    {
+      "title": "And you already own the finished twin",
+      "title_pl": "zapłacić",
+      "body": "zapłacić — pay it, once, and the matter is closed — has been yours since B2, together with its future.\n\nNothing about it changes here. It is on this slide because the rest of the unit grows out of the same root, and this is the member you can already use.\n\nThe piece on the front, za-, was learned as part of the word. It was never a meaning you could read, and it still is not.",
+      "body_pl": "płacić → zapłacić",
+      "table": {
+        "headers": [
+          "Every day",
+          "One go, and it is done",
+          "I will …",
+          "you will …",
+          "he will …"
+        ],
+        "rows": [
+          [
+            "płacić",
+            "zapłacić",
+            "zapłacę",
+            "zapłacisz",
+            "zapłaci"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I will pay the bill.",
+          "pl": "Zapłacę rachunek."
+        },
+        {
+          "en": "Dad paid for a ticket yesterday.",
+          "pl": "Tata wczoraj zapłacił."
+        }
+      ]
+    },
+    {
+      "title": "dopłacić — to pay the difference",
+      "title_pl": "dopłacić",
+      "body": "The first new verb, and the one you are most likely to hear said to you at a counter: to pay extra, on top of what has already been paid, to reach the amount that was actually needed.\n\nA memory hook for this word, and for this word only: the do- is the same small piece you know from going all the way TO somewhere. Here you are paying up TO the sum required. That is a hook, not a rule — do not read other verbs with it.\n\nIts endings are the ones you have just seen on zapłacić.",
+      "body_pl": "dopłacić — trzeba dopłacić",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "I will …",
+          "you will …",
+          "he will …",
+          "he did"
+        ],
+        "rows": [
+          [
+            "dopłacić",
+            "dopłacę",
+            "dopłacisz",
+            "dopłaci",
+            "dopłacił"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I had to pay extra. (m)",
+          "pl": "Musiałem dopłacić."
+        },
+        {
+          "en": "I paid twenty euros extra. (m)",
+          "pl": "Dopłaciłem dwadzieścia euro."
+        },
+        {
+          "en": "The luggage costs more — you will have to pay extra.",
+          "pl": "Bagaż kosztuje więcej — dopłacisz."
+        }
+      ]
+    },
+    {
+      "title": "przepłacić — to pay too much",
+      "title_pl": "przepłacić",
+      "body": "The second new verb: to pay more than the thing was worth. Not a mistake at the till — a bad price, discovered afterwards.\n\nHere there is no hook and you are told so plainly. The prze- on this verb means TOO MUCH, and that is not what prze- usually does elsewhere in Polish. You will meet its commoner job in a later unit; if you carry this one over to other verbs it will mislead you.\n\nSo: learn przepłacić as a word. That instruction is not a failure of the pattern — it is the pattern being honest about its edges.",
+      "body_pl": "przepłacić — zła cena",
+      "examples": [
+        {
+          "en": "I paid too much. (m)",
+          "pl": "Przepłaciłem."
+        },
+        {
+          "en": "It was a bad price — Dad paid too much.",
+          "pl": "To była zła cena — tata przepłacił."
+        }
+      ]
+    },
+    {
+      "title": "And their everyday partners, built by last unit's rule",
+      "title_pl": "dopłacić → dopłacać",
+      "body": "Both new verbs are one-go verbs. Both have an everyday partner, and it is built by the -a- shape you met one unit ago.\n\ndopłacić → dopłacać\nprzepłacić → przepłacać\n\nThis time the middle of the word does not move at all — compare wyjechać → wyjeżdżać, where it did. That is the shape at its simplest.\n\nThe standing instruction has not changed. These two were checked before being put in front of you. Read the pattern; do not build new words with it.",
+      "body_pl": "przepłacić → przepłacać",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "Again and again",
+          "How it was built"
+        ],
+        "rows": [
+          [
+            "dopłacić",
+            "dopłacać",
+            "-a-, and nothing else moves"
+          ],
+          [
+            "przepłacić",
+            "przepłacać",
+            "-a-, and nothing else moves"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "to pay — as a habit, or in general",
+      "pl": "płacić"
+    },
+    {
+      "en": "I pay",
+      "pl": "płacę"
+    },
+    {
+      "en": "you pay",
+      "pl": "płacisz"
+    },
+    {
+      "en": "he pays",
+      "pl": "płaci"
+    },
+    {
+      "en": "to pay — one go, and the matter is closed",
+      "pl": "zapłacić"
+    },
+    {
+      "en": "to pay extra — one go",
+      "pl": "dopłacić"
+    },
+    {
+      "en": "to pay extra — again and again",
+      "pl": "dopłacać"
+    },
+    {
+      "en": "I will pay extra",
+      "pl": "dopłacę"
+    },
+    {
+      "en": "you will pay extra",
+      "pl": "dopłacisz"
+    },
+    {
+      "en": "he will pay extra",
+      "pl": "dopłaci"
+    },
+    {
+      "en": "to pay too much — one go",
+      "pl": "przepłacić"
+    },
+    {
+      "en": "I paid too much (m)",
+      "pl": "przepłaciłem"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Czy ___ kartą? (do you pay — as a rule)",
+      "choices": [
+        "płacisz",
+        "płacę",
+        "płaci",
+        "płacić"
+      ],
+      "answer": "płacisz",
+      "explain": "The -isz ending you already use on robisz and mówisz."
+    },
+    {
+      "prompt": "Tata zawsze ___ gotówką. (pays — as a habit)",
+      "choices": [
+        "płaci",
+        "płacisz",
+        "płacę",
+        "płacić"
+      ],
+      "answer": "płaci",
+      "explain": "zawsze wants the everyday verb, and Dad is the third person."
+    },
+    {
+      "prompt": "___ rachunek. (I will pay it — one go, and it is done)",
+      "choices": [
+        "Zapłacę",
+        "Płacę",
+        "Zapłacić",
+        "Płacić"
+      ],
+      "answer": "Zapłacę",
+      "explain": "Płacę is the everyday verb and means I pay, now or as a rule — not a promise about one bill."
+    },
+    {
+      "prompt": "Musiałem ___. (pay extra — m, at the counter)",
+      "choices": [
+        "dopłacić",
+        "dopłacę",
+        "zapłacić",
+        "przepłacić"
+      ],
+      "answer": "dopłacić",
+      "explain": "After musieć the verb stays in the dictionary form. dopłacić is topping the amount up; przepłacić would say you were overcharged."
+    },
+    {
+      "prompt": "___ dwadzieścia euro. (I paid extra — m)",
+      "choices": [
+        "Dopłaciłem",
+        "Dopłacę",
+        "Dopłaci",
+        "Dopłacać"
+      ],
+      "answer": "Dopłaciłem",
+      "explain": "The ordinary -łem past, on a new stem."
+    },
+    {
+      "prompt": "Bagaż kosztuje więcej — ___. (you will pay extra)",
+      "choices": [
+        "dopłacisz",
+        "dopłacę",
+        "dopłaci",
+        "dopłacić"
+      ],
+      "answer": "dopłacisz",
+      "explain": "A one-go verb's present-shaped form is a future."
+    },
+    {
+      "prompt": "Brat ___ w hotelu. (he will pay extra)",
+      "choices": [
+        "dopłaci",
+        "dopłacisz",
+        "dopłacę",
+        "dopłacać"
+      ],
+      "answer": "dopłaci",
+      "explain": "Third person of the same set: -ę, -isz, -i."
+    },
+    {
+      "prompt": "To była zła cena — ___. (I paid too much — m)",
+      "choices": [
+        "przepłaciłem",
+        "dopłaciłem",
+        "zapłaciłem",
+        "przepłacić"
+      ],
+      "answer": "przepłaciłem",
+      "explain": "dopłaciłem would say you topped the sum up; zapłaciłem says only that you paid."
+    },
+    {
+      "prompt": "Tata ___ — cena była zła. (paid too much)",
+      "choices": [
+        "przepłacił",
+        "dopłacił",
+        "zapłacił",
+        "przepłacać"
+      ],
+      "answer": "przepłacił",
+      "explain": "Same verb, third person, ordinary -ł past."
+    },
+    {
+      "prompt": "Wczoraj ___ rachunek. (I paid it — m, one go)",
+      "choices": [
+        "zapłaciłem",
+        "płaciłem",
+        "dopłaciłem",
+        "przepłaciłem"
+      ],
+      "answer": "zapłaciłem",
+      "explain": "płaciłem would describe paying as something that was going on, not a bill settled."
+    },
+    {
+      "prompt": "Często trzeba ___ w hotelu. (to pay extra — again and again, as a rule)",
+      "choices": [
+        "dopłacać",
+        "dopłacić",
+        "dopłacę",
+        "dopłacił"
+      ],
+      "answer": "dopłacać",
+      "explain": "A repeated situation takes the everyday partner — the -a- shape."
+    },
+    {
+      "prompt": "___ obiad. (I pay for it — every time we go)",
+      "choices": [
+        "Płacę",
+        "Zapłacę",
+        "Płacisz",
+        "Płacić"
+      ],
+      "answer": "Płacę",
+      "explain": "Zapłacę would name one meal in the future; this is the standing arrangement."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "you pay",
+      "mode": "full_word",
+      "answer": "płacisz",
+      "accepts": [
+        "płacisz"
+      ],
+      "explain": "The -isz ending, on a verb you have only ever used as płacę."
+    },
+    {
+      "prompt_en": "he pays",
+      "mode": "full_word",
+      "answer": "płaci",
+      "accepts": [
+        "płaci"
+      ]
+    },
+    {
+      "prompt_en": "to pay extra — one go, and it is done",
+      "mode": "full_word",
+      "answer": "dopłacić",
+      "accepts": [
+        "dopłacić"
+      ]
+    },
+    {
+      "prompt_en": "to pay extra — again and again",
+      "mode": "full_word",
+      "answer": "dopłacać",
+      "accepts": [
+        "dopłacać"
+      ],
+      "explain": "The -a- shape from the last unit, and here nothing in the middle moves."
+    },
+    {
+      "prompt_en": "I will pay extra",
+      "mode": "full_word",
+      "answer": "dopłacę",
+      "accepts": [
+        "dopłacę"
+      ]
+    },
+    {
+      "prompt_en": "you will pay extra",
+      "mode": "full_word",
+      "answer": "dopłacisz",
+      "accepts": [
+        "dopłacisz"
+      ]
+    },
+    {
+      "prompt_en": "he will pay extra",
+      "mode": "full_word",
+      "answer": "dopłaci",
+      "accepts": [
+        "dopłaci"
+      ]
+    },
+    {
+      "prompt_en": "I paid extra (m)",
+      "mode": "full_word",
+      "answer": "dopłaciłem",
+      "accepts": [
+        "dopłaciłem"
+      ]
+    },
+    {
+      "prompt_en": "to pay too much — one go, and it is done",
+      "mode": "full_word",
+      "answer": "przepłacić",
+      "accepts": [
+        "przepłacić"
+      ]
+    },
+    {
+      "prompt_en": "to pay too much — again and again",
+      "mode": "full_word",
+      "answer": "przepłacać",
+      "accepts": [
+        "przepłacać"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Do you pay by card?",
+      "answer": "Czy płacisz kartą?",
+      "accepts": [
+        "Czy płacisz kartą?",
+        "Czy płacisz kartą",
+        "Płacisz kartą?",
+        "Płacisz kartą"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad always pays in cash.",
+      "answer": "Tata zawsze płaci gotówką.",
+      "accepts": [
+        "Tata zawsze płaci gotówką.",
+        "Tata zawsze płaci gotówką",
+        "Tata płaci zawsze gotówką.",
+        "Tata płaci zawsze gotówką"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will pay the bill.",
+      "answer": "Zapłacę rachunek.",
+      "accepts": [
+        "Zapłacę rachunek.",
+        "Zapłacę rachunek"
+      ]
+    },
+    {
+      "prompt_en": "Type: I had to pay extra. (m)",
+      "answer": "Musiałem dopłacić.",
+      "accepts": [
+        "Musiałem dopłacić.",
+        "Musiałem dopłacić"
+      ]
+    },
+    {
+      "prompt_en": "Type: I paid twenty euros extra. (m)",
+      "answer": "Dopłaciłem dwadzieścia euro.",
+      "accepts": [
+        "Dopłaciłem dwadzieścia euro.",
+        "Dopłaciłem dwadzieścia euro"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother will pay extra.",
+      "answer": "Brat dopłaci.",
+      "accepts": [
+        "Brat dopłaci.",
+        "Brat dopłaci"
+      ]
+    },
+    {
+      "prompt_en": "Type: It was a bad price — I paid too much. (m)",
+      "answer": "To była zła cena — przepłaciłem.",
+      "accepts": [
+        "To była zła cena — przepłaciłem.",
+        "To była zła cena — przepłaciłem",
+        "To była zła cena - przepłaciłem.",
+        "To była zła cena - przepłaciłem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad paid too much.",
+      "answer": "Tata przepłacił.",
+      "accepts": [
+        "Tata przepłacił.",
+        "Tata przepłacił"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I paid the bill. (m)",
+      "answer": "Wczoraj zapłaciłem rachunek.",
+      "accepts": [
+        "Wczoraj zapłaciłem rachunek.",
+        "Wczoraj zapłaciłem rachunek",
+        "Zapłaciłem wczoraj rachunek.",
+        "Zapłaciłem wczoraj rachunek"
+      ]
+    },
+    {
+      "prompt_en": "Type: The luggage costs more.",
+      "answer": "Bagaż kosztuje więcej.",
+      "accepts": [
+        "Bagaż kosztuje więcej.",
+        "Bagaż kosztuje więcej"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "płacić",
+    "płacę",
+    "płaciłem",
+    "zapłacić",
+    "zapłacę",
+    "zapłacisz",
+    "zapłaci",
+    "zapłacił",
+    "zapłaciłem",
+    "robić",
+    "mówić",
+    "robisz",
+    "mówisz",
+    "wyjechać",
+    "wyjeżdżać",
+    "musieć",
+    "musiałem",
+    "trzeba",
+    "kosztuje",
+    "więcej",
+    "często",
+    "tata",
+    "brat",
+    "rachunek",
+    "bagaż",
+    "obiad",
+    "cena",
+    "zła",
+    "była",
+    "kartą",
+    "gotówką",
+    "dwadzieścia",
+    "euro",
+    "w hotelu",
+    "zawsze",
+    "wczoraj",
+    "czy",
+    "to"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_verb_family3",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

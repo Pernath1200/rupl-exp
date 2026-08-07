@@ -1,0 +1,582 @@
+{
+  "id": "b1_dative_sg",
+  "title": "Celownik · komu? czemu?",
+  "title_en": "The Dative at last: to/for whom",
+  "level": "B1",
+  "tree_node": "b1_dative_sg",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 5 opener. The case behind the A2 pronoun chunks (mi/mnie: podoba mi się, boli mnie) — this unit gives the noun version. Two verbs that govern dative, both riding present classes already owned: pomagać (present_am, full 6-form paradigm — a genuinely regular verb, so nothing new on the verb side, only the case on its object) and dziękować (present_uje, partial spread — dziękuję was already a fixed social_chunk since trunk_social_a1; this unit is the first time it is analysed as a real 1sg verb form, and 3 more persons are added: dziękujesz/dziękuje/dziękujemy; dziękujecie/dziękują deliberately left untaught, load control, same partial-spread precedent as b1_conditional_sg's kupić/zrobić).\n\nDESIGN FORK, logged (spine names three verbs — pomagać/dawać/dziękować — this pack ships two): dawać's present (daję/dajesz/daje...) is an irregular -awać class not covered by any present_* structure already taught, and adding a third new verb conjugation class on top of a brand-new case would stack two systems in one unit against the load-splitting rule. Conservative call: dawać is deferred, most likely to b1_giving (the vocab leaf right after this block) where 'giving' register already belongs and dawać/oddawać/pożyczać can be handled together. Flagging loudly for whoever authors b1_giving next — do not assume dawać is already covered.\n\nSECOND DESIGN FORK, logged: the dative-noun side does NOT teach one general rule. Masculine nouns take the genuinely regular and near-universal -owi ending, demonstrated on two virile nouns already owned from the virile block (studentowi, nauczycielowi) — a real, generalisable rule. The spine's own headline examples (mamie, tacie, bratu, siostrze) are NOT this rule: mama/tata/siostra are feminine -a nouns whose dative/locative involves THREE different consonant softenings depending on the stem (m→mi, t→ci, r→rz — the same spelling machinery behind kobiecie, Annie, but never taught as a system in this course), and brat takes a small closed irregular -u set unrelated to -owi entirely. Deriving all of that honestly in one unit would be the same shape as the old do/z cliff (three-plus new alternations disguised as one lesson). Conservative call, matching how b1_virile_nom fenced its irregulars and how chciał/chciała were always handed over unexplained: mamie/tacie/bratu/siostrze are taught as FOUR MEMORIZED WHOLE FORMS, explicitly named as not following the -owi rule, not as a productive feminine pattern. The general feminine dative/locative -a→-e rule remains untaught after this unit — it is not on the current B1-SPINE as its own slot; James should decide whether it deserves one. Alternative considered: cut the family nouns and teach only the clean -owi rule. Rejected — family datives are the spine's named, highest-value payoff and are exactly the kind of irregular-but-essential vocabulary this course hands over whole elsewhere (kelnerzy, mógłby); a rule-only unit would be safer but poorer.\n\n17 teaches_lemmas: the two bare infinitives (pomagać, dziękować — both genuinely new to the course, not reused, so tagged rather than left to uses_lemmas), 6 pomagać forms, 3 new dziękować forms, 2 regular -owi nouns, 4 memorized family datives. Subjects in Użycie use real nouns/names (nauczyciel, tata, Anna) with dative objects to keep the case contrast honest — the case lives on the OBJECT only, never the subject.",
+  "focus_structures": [
+    "dative_sg"
+  ],
+  "teaches_structures": [
+    "dative_sg"
+  ],
+  "uses_structures": [
+    "dative_sg",
+    "dat_chunks",
+    "present_am",
+    "present_uje",
+    "miec_acc",
+    "inst_z",
+    "inst_identity",
+    "virile_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Dative: the case behind mi/mnie",
+      "title_pl": "Celownik",
+      "body": "Since your early A2 days you have said Podoba mi się (it pleases me), Boli mnie głowa (my head hurts me), Smakuje mi (it tastes good to me). mi and mnie are the Dative case — the to me / for me case. It marks who receives something: who is helped, thanked, given to.\n\nThis unit gives you the noun version of that same case. Not just mi, but mamie — to mom.",
+      "body_pl": "Celownik = komu? czemu? (to/for whom? to/for what?). mi/mnie = ja. mamie = mama.",
+      "table": {
+        "headers": [
+          "You already have",
+          "New noun version",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "mi (podoba mi się)",
+            "mamie",
+            "to/for mom"
+          ],
+          [
+            "mi",
+            "tacie",
+            "to/for dad"
+          ],
+          [
+            "mi",
+            "bratu",
+            "to/for my brother"
+          ],
+          [
+            "mi",
+            "siostrze",
+            "to/for my sister"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "pomagać — to help (+ dative)",
+      "title_pl": "Pomagać",
+      "body": "pomagać conjugates exactly like mieszkać — the pattern you have owned since the start (-am/-asz/-a/-amy/-acie/-ają). Nothing new on the verb. What is new is its object: you help someone TO whom the help goes, so the person after pomagać is always dative.",
+      "body_pl": "pomagać: pomagam, pomagasz, pomaga, pomagamy, pomagacie, pomagają. Pomagam mamie = I help mom.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "pomagam",
+            "I help"
+          ],
+          [
+            "pomagasz",
+            "you help"
+          ],
+          [
+            "pomaga",
+            "he/she helps"
+          ],
+          [
+            "pomagamy",
+            "we help"
+          ],
+          [
+            "pomagacie",
+            "you all help"
+          ],
+          [
+            "pomagają",
+            "they help"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "dziękować — you already own most of this",
+      "title_pl": "Dziękować",
+      "body": "You have said dziękuję since your very first lesson — it was a fixed chunk for thank you. It was never a verb to you. It is one: dziękować, the -ować → -uję pattern you already know from kupować/gotować. Here are three more of its forms, and its object works exactly like pomagać's.",
+      "body_pl": "dziękuję (już twoje) + dziękujesz, dziękuje, dziękujemy. Dziękuję tacie = I thank dad.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Status"
+        ],
+        "rows": [
+          [
+            "dziękuję",
+            "I thank / thank you",
+            "already yours"
+          ],
+          [
+            "dziękujesz",
+            "you thank",
+            "new"
+          ],
+          [
+            "dziękuje",
+            "he/she thanks",
+            "new"
+          ],
+          [
+            "dziękujemy",
+            "we thank",
+            "new"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The rule, and the four words that skip it",
+      "title_pl": "-owi, i cztery wyjątki",
+      "body": "For most masculine nouns, dative is simple: add -owi. student → studentowi. nauczyciel → nauczycielowi. That rule is real and reusable on any regular masculine noun you meet later.\n\nmamie, tacie, bratu, siostrze do NOT come from that rule — they are feminine words (and brat, an irregular case) with their own separate pattern this course has not taught yet. For now, take these four exactly as given, the same way you already took mógłby or kelnerzy whole.",
+      "body_pl": "student → studentowi. nauczyciel → nauczycielowi. mamie/tacie/bratu/siostrze: zapamiętaj całe.",
+      "examples": [
+        {
+          "en": "I help a student.",
+          "pl": "Pomagam studentowi."
+        },
+        {
+          "en": "I thank the teacher.",
+          "pl": "Dziękuję nauczycielowi."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I help",
+      "pl": "pomagam"
+    },
+    {
+      "en": "you help",
+      "pl": "pomagasz"
+    },
+    {
+      "en": "he/she helps",
+      "pl": "pomaga"
+    },
+    {
+      "en": "we help",
+      "pl": "pomagamy"
+    },
+    {
+      "en": "you all help",
+      "pl": "pomagacie"
+    },
+    {
+      "en": "they help",
+      "pl": "pomagają"
+    },
+    {
+      "en": "you thank",
+      "pl": "dziękujesz"
+    },
+    {
+      "en": "he/she thanks",
+      "pl": "dziękuje"
+    },
+    {
+      "en": "we thank",
+      "pl": "dziękujemy"
+    },
+    {
+      "en": "to/for mom",
+      "pl": "mamie"
+    },
+    {
+      "en": "to/for dad",
+      "pl": "tacie"
+    },
+    {
+      "en": "to/for a student",
+      "pl": "studentowi"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I help mom. →",
+      "choices": [
+        "Pomagam mamie.",
+        "Pomagam mamę.",
+        "Pomagam mamą.",
+        "Pomagam mama."
+      ],
+      "answer": "Pomagam mamie.",
+      "explain": "pomagać takes the to/for case — dative, mamie — not the accusative object you know from mam mamę."
+    },
+    {
+      "prompt": "I thank dad. →",
+      "choices": [
+        "Dziękuję tacie.",
+        "Dziękuję tatę.",
+        "Dziękuję tatą.",
+        "Dziękuję tata."
+      ],
+      "answer": "Dziękuję tacie.",
+      "explain": "tata is masculine but declines like a feminine -a noun here: tacie, not tatę (accusative) or tatą (instrumental)."
+    },
+    {
+      "prompt": "I help my brother. →",
+      "choices": [
+        "Pomagam bratu.",
+        "Pomagam brata.",
+        "Pomagam bratem.",
+        "Pomagam brat."
+      ],
+      "answer": "Pomagam bratu.",
+      "explain": "brat's dative is the small irregular -u form, not brata (the genitive/accusative you already own) or bratem (instrumental, z bratem)."
+    },
+    {
+      "prompt": "I thank my sister. →",
+      "choices": [
+        "Dziękuję siostrze.",
+        "Dziękuję siostrę.",
+        "Dziękuję siostrą.",
+        "Dziękuję siostra."
+      ],
+      "answer": "Dziękuję siostrze.",
+      "explain": "siostrze is dative (r→rz); siostrę is the accusative you already know, siostrą the instrumental from z siostrą."
+    },
+    {
+      "prompt": "I help a student. →",
+      "choices": [
+        "Pomagam studentowi.",
+        "Pomagam studentem.",
+        "Pomagam student.",
+        "Pomaga studentowi."
+      ],
+      "answer": "Pomagam studentowi.",
+      "explain": "Regular masculine dative: student + owi. studentem is instrumental (jestem studentem); student with no ending is just the bare noun."
+    },
+    {
+      "prompt": "I thank the teacher. →",
+      "choices": [
+        "Dziękuję nauczycielowi.",
+        "Dziękuję nauczycielem.",
+        "Dziękuję nauczyciel.",
+        "Dziękujesz nauczycielowi."
+      ],
+      "answer": "Dziękuję nauczycielowi.",
+      "explain": "nauczyciel + owi, the same regular rule as studentowi. nauczycielem is instrumental; the last choice has the wrong person on the verb."
+    },
+    {
+      "prompt": "___ mamie. (you help)",
+      "choices": [
+        "Pomagasz",
+        "Pomagam",
+        "Pomaga",
+        "Pomagacie"
+      ],
+      "answer": "Pomagasz",
+      "explain": "you-form: pomagasz, same -am class ending you know from mieszkasz."
+    },
+    {
+      "prompt": "___ tacie. (we thank)",
+      "choices": [
+        "Dziękujemy",
+        "Dziękuję",
+        "Dziękujesz",
+        "Dziękuje"
+      ],
+      "answer": "Dziękujemy",
+      "explain": "we-form: dziękujemy, the -uje class ending from kupujemy/gotujemy."
+    },
+    {
+      "prompt": "Fix: Pomagam mama. →",
+      "choices": [
+        "Pomagam mamie.",
+        "Pomagam mamę.",
+        "Pomagam mamą.",
+        "Pomagam mama."
+      ],
+      "answer": "Pomagam mamie.",
+      "explain": "mama is the bare nominative — no case marking at all. pomagać needs the dative, mamie."
+    },
+    {
+      "prompt": "___ studentowi. (they help)",
+      "choices": [
+        "Pomagają",
+        "Pomaga",
+        "Pomagacie",
+        "Pomagamy"
+      ],
+      "answer": "Pomagają",
+      "explain": "they-form: pomagają, from the same -ają ending as mieszkają."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I help",
+      "mode": "full_word",
+      "answer": "pomagam",
+      "accepts": [
+        "pomagam"
+      ]
+    },
+    {
+      "prompt_en": "you help",
+      "mode": "full_word",
+      "answer": "pomagasz",
+      "accepts": [
+        "pomagasz"
+      ]
+    },
+    {
+      "prompt_en": "he/she helps",
+      "mode": "full_word",
+      "answer": "pomaga",
+      "accepts": [
+        "pomaga"
+      ]
+    },
+    {
+      "prompt_en": "we help",
+      "mode": "full_word",
+      "answer": "pomagamy",
+      "accepts": [
+        "pomagamy"
+      ]
+    },
+    {
+      "prompt_en": "you all help",
+      "mode": "full_word",
+      "answer": "pomagacie",
+      "accepts": [
+        "pomagacie"
+      ]
+    },
+    {
+      "prompt_en": "they help",
+      "mode": "full_word",
+      "answer": "pomagają",
+      "accepts": [
+        "pomagają"
+      ]
+    },
+    {
+      "prompt_en": "you thank",
+      "mode": "full_word",
+      "answer": "dziękujesz",
+      "accepts": [
+        "dziękujesz"
+      ]
+    },
+    {
+      "prompt_en": "he/she thanks",
+      "mode": "full_word",
+      "answer": "dziękuje",
+      "accepts": [
+        "dziękuje"
+      ]
+    },
+    {
+      "prompt_en": "we thank",
+      "mode": "full_word",
+      "answer": "dziękujemy",
+      "accepts": [
+        "dziękujemy"
+      ]
+    },
+    {
+      "prompt_en": "to/for mom",
+      "mode": "full_word",
+      "answer": "mamie",
+      "accepts": [
+        "mamie"
+      ],
+      "explain": "Memorized whole form — not derived from the -owi rule, which is masculine-only."
+    },
+    {
+      "prompt_en": "to/for dad",
+      "mode": "full_word",
+      "answer": "tacie",
+      "accepts": [
+        "tacie"
+      ],
+      "explain": "tata declines like a feminine noun in this case, despite being grammatically masculine."
+    },
+    {
+      "prompt_en": "to/for my brother",
+      "mode": "full_word",
+      "answer": "bratu",
+      "accepts": [
+        "bratu"
+      ],
+      "explain": "brat is one of a small closed set of masculine nouns that take -u instead of -owi."
+    },
+    {
+      "prompt_en": "to/for my sister",
+      "mode": "full_word",
+      "answer": "siostrze",
+      "accepts": [
+        "siostrze"
+      ]
+    },
+    {
+      "prompt_en": "to/for a student",
+      "mode": "full_word",
+      "answer": "studentowi",
+      "accepts": [
+        "studentowi"
+      ],
+      "explain": "The regular rule: student + owi."
+    },
+    {
+      "prompt_en": "to/for the teacher",
+      "mode": "full_word",
+      "answer": "nauczycielowi",
+      "accepts": [
+        "nauczycielowi"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I help mom.",
+      "answer": "Pomagam mamie.",
+      "accepts": [
+        "Pomagam mamie.",
+        "Pomagam mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I thank dad.",
+      "answer": "Dziękuję tacie.",
+      "accepts": [
+        "Dziękuję tacie.",
+        "Dziękuję tacie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I help my brother.",
+      "answer": "Pomagam bratu.",
+      "accepts": [
+        "Pomagam bratu.",
+        "Pomagam bratu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I thank my sister.",
+      "answer": "Dziękuję siostrze.",
+      "accepts": [
+        "Dziękuję siostrze.",
+        "Dziękuję siostrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher helps the student.",
+      "answer": "Nauczyciel pomaga studentowi.",
+      "accepts": [
+        "Nauczyciel pomaga studentowi.",
+        "Nauczyciel pomaga studentowi"
+      ],
+      "explain": "The case sits on the object only — nauczyciel (subject) stays plain nominative, studentowi (object) takes dative."
+    },
+    {
+      "prompt_en": "Type: We thank the teacher.",
+      "answer": "Dziękujemy nauczycielowi.",
+      "accepts": [
+        "Dziękujemy nauczycielowi.",
+        "Dziękujemy nauczycielowi"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you help mom?",
+      "answer": "Pomagasz mamie?",
+      "accepts": [
+        "Pomagasz mamie?",
+        "Pomagasz mamie",
+        "Czy pomagasz mamie?",
+        "Czy pomagasz mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: They help the student.",
+      "answer": "Pomagają studentowi.",
+      "accepts": [
+        "Pomagają studentowi.",
+        "Pomagają studentowi"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna helps her sister.",
+      "answer": "Anna pomaga siostrze.",
+      "accepts": [
+        "Anna pomaga siostrze.",
+        "Anna pomaga siostrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad thanks the teacher.",
+      "answer": "Tata dziękuje nauczycielowi.",
+      "accepts": [
+        "Tata dziękuje nauczycielowi.",
+        "Tata dziękuje nauczycielowi"
+      ],
+      "explain": "tata (subject) stays nominative even though it looks like an -a noun; only nauczycielowi (object) is dative."
+    }
+  ],
+  "teaches_lemmas": [
+    "pomagać",
+    "dziękować",
+    "pomagam",
+    "pomagasz",
+    "pomaga",
+    "pomagamy",
+    "pomagacie",
+    "pomagają",
+    "dziękujesz",
+    "dziękuje",
+    "dziękujemy",
+    "mamie",
+    "tacie",
+    "bratu",
+    "siostrze",
+    "studentowi",
+    "nauczycielowi"
+  ],
+  "uses_lemmas": [
+    "dziękuję",
+    "student",
+    "nauczyciel",
+    "mama",
+    "tata",
+    "brat",
+    "siostra",
+    "anna",
+    "mamę",
+    "mamą",
+    "tatę",
+    "tatą",
+    "brata",
+    "bratem",
+    "siostrę",
+    "siostrą",
+    "studentem",
+    "nauczycielem",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_dative_sg",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

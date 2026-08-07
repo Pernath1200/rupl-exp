@@ -1,0 +1,705 @@
+{
+  "id": "c1_ktory_plural",
+  "title": "Ludzie, których znam",
+  "title_en": "Pointing back at more than one",
+  "level": "C1",
+  "tree_node": "c1_ktory_plural",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 3, unit 1 (C1-SPINE). THE PLURAL RELATIVE, and it exists at this exact path position for one reason: b2_ktory_full fenced every plural form of ktory and logged the reason in its own note - 'the relative declines like an adjective, so shipping plural relatives here would breach O3 by the back door'. Block 2 closed the plural adjective four nodes ago, so the objection is gone and the debt is paid immediately rather than at the end of the level.\n\nFOUR NEW STRINGS: ktorzy, ktorych, ktorymi, ktoremu. Two more forms are NEW JOBS ON OWNED STRINGS and are deliberately NOT re-taught, on the adj_pl_loc / adj_pl_dat convention: ktorym (TAUGHT <- b2_ktory_full [148] as the singular m/n Locative and Instrumental, used here as the DATIVE PLURAL) and ktore (TAUGHT <- a2_questions2 [95] as the neuter interrogative 'which', re-taught by b1_ktory_cases [119] as the neuter singular relative, used here as the NON-VIRILE NOMINATIVE AND ACCUSATIVE PLURAL). Both are named out loud on their slides.\n\nTHE UNIT IS ONE IDEA, NOT SIX FORMS, and slide 1 is that idea as a table: KTORY TAKES THE ADJECTIVE'S ENDINGS, and the learner produced every one of those endings during Block 2. dobrzy->ktorzy, dobre->ktore, dobrych->ktorych, dobrym->ktorym, dobrymi->ktorymi, dobremu->ktoremu. Nothing here is a new ending; the whole content is that a pattern owned for one word class reaches another. This is the b2_ktory_full slide-4 shape ('You have met every one of these before') promoted from a closing slide to the unit's opening claim, because at this point in the course it is true of the entire paradigm rather than of four cells.\n\nKTORYCH DOES THREE JOBS and gets its own slide, exactly as dobrych does: Genitive after negation (gazety, ktorych nie mam - neg_gen), Locative after o/w (hotele, o ktorych mowilem), and the VIRILE ACCUSATIVE (klienci, ktorych znam), which is the plural echo of the Acc-equals-Gen fact adj_pl_virile taught four nodes back and b2_adj_gen taught for masculine animates one level back. The learner is not asked to absorb a new merger - he is shown the one he already has, one word further.\n\nTHE SHARPEST DISCRIMINATION IS NUMBER, NOT CASE, and it is why ktoremu is in this unit rather than deferred again. b2_ktory_full cut the Dative relative as 'a fifth case and a fifth new string in a unit that already has four jobs to land' and put it on the C1 inbox beside the plural forms. Here the Dative singular and the Dative plural teach each other: student, KTOREMU pomagam against dzieci, KTORYM pomagam. Slide 4 is that pair, and slide 5 states the resulting collision plainly - ktorym now covers singular Locative, singular Instrumental AND plural Dative, three jobs on one string, which is the adj_pl_dat trap one word class over. THE RESOLUTION GIVEN IS THE HONEST ONE AND IT IS DIFFERENT FROM adj_pl_dat'S: there the noun settled it (-om is a Dative plural and nothing else); here THE ANTECEDENT settles it, because the relative sits next to the very noun it points back at.\n\nTHE DATIVE RELATIVE CLAUSE HAS EXACTLY ONE VERB IN THIS COURSE and that shaped three stages. pomagac (b1_dative_sg) is the only Dative-governing verb whose form is owned in the person needed; podobac sie has no taught 3pl (podobaja is verified NEW) and dziekowac only ever appears with za + Accusative. So pomagam carries both Dative items in Match, both in Kontrola and both in Pisanie, distinguished by the ANTECEDENT'S NUMBER rather than by the verb - which is, as it happens, precisely the discrimination the slide asks for. Logged as a lexical limit, not an editorial choice.\n\nHOMOGRAPH DISCIPLINE ON THE ANTECEDENTS, checked pack by pack rather than by string: ksiazki is TAUGHT ONLY AS A GENITIVE SINGULAR (a1_gen_ki [39], a1_negation) and appears nowhere as a plural - the second row of the AGENTS homograph table, and the same catch existential_tense made at the top of this level; miasta is TAUGHT ONLY AS A GENITIVE SINGULAR (a1_gen_endings, a1_prep_do_z, inside do miasta / od miasta) and is fenced completely, which cost the natural sentence 'the cities I was talking about'. Every plural antecedent used here comes from a2_plural_nom (filmy, sklepy, koty, gazety, hotele, telefony), b1_virile_reco (studenci, lekarze), b1_virile_nom (klienci, goscie), b1_people (ludzie) or a2_family2 (dzieci), in the exact job that pack taught.\n\nDISTRACTORS are the other forms of ktory and nothing else - ktory, ktora, ktore, ktora, ktorej, ktorego, ktorym, ktorzy, ktorych, ktorymi, ktoremu are all either taught earlier or taught by this pack. Nothing fabricated anywhere (C1-SPINE O12 restates the ban). Quiz items 9 and 12 put a SINGULAR relative directly beside the plural board - o ktorym for one film, ktora for one book - because after five slides of plurals the singular is the form most likely to be over-written.\n\nANSWER REPEATS IN KONTROLA ARE DELIBERATE, the b2_ktory_full and b2_kim_czym reasoning: a unit about the forms of ONE pronoun has six legal answer strings in total. Seven distinct answers across twelve items, every prompt distinct, and the repeats sit under different antecedents, different genders and different cases.\n\nPISANIE: eight cloze items, no typed-whole answers anywhere, so nothing is added to the repair queue (C1-SPINE standing fence). Six blank the unit's teaching point - one item per relative form, which is exactly the number of distinct answers available. TWO ITEMS FALL BACK to the relative clause's finite verb (znam, mam) and are logged per item under the queue's fallback clause, because a seventh or eighth teaching-point blank would have duplicated an answer within the stage. Both fallbacks blank a sentence-final verb, the shape b2_jesli #6 first raised and the sixth repair run found to be the common case in this construction.\n\nFENCED, all verified NEW and appearing nowhere including as distractors: koledzy, mlodzi and starzy as antecedent-adjectives (no plural adjective modifies a noun in this pack at all - the unit is about the relative, and adding an adjective would put two Block 2 systems in one sentence); miastach, filmach, ksiazkach as Locative plurals (loc_pl's eleven do not include them); the plural of siebie/sobie (c1_siebie, three nodes on); je and czemu (c1_pron_je, two nodes on), so no personal pronoun for a thing appears in any clause; dla and the Genitive relative after a preposition, since dla is verified NEW and was dropped by b2_pron_prep and b2_ktory_full for the same reason.\n\nTITLE CHECKED AT THE WIRE per the standing instruction: Ludzie, ktorych znam - ludzie TAUGHT <- b1_people [112], znam TAUGHT <- a1_present [15], and ktorych is taught by this pack itself, which is the c1_adj_pl_gen precedent (its own title uses a form it teaches). No untaught Polish in learner-visible chrome.",
+  "focus_structures": [
+    "ktory_plural"
+  ],
+  "teaches_structures": [
+    "ktory_plural"
+  ],
+  "teaches_lemmas": [
+    "którzy",
+    "których",
+    "którymi",
+    "któremu"
+  ],
+  "uses_structures": [
+    "ktory_plural",
+    "ktory_full",
+    "ktory_cases",
+    "questions2",
+    "to_jest",
+    "byc_present",
+    "plural_nom",
+    "virile_nom",
+    "virile_reco",
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "adj_pl_virile",
+    "byc_adj",
+    "adj_gen",
+    "adj_loc",
+    "adj_dat",
+    "adj_inst",
+    "dative_sg",
+    "dat_pl",
+    "inst_z",
+    "o_loc",
+    "prep_w_loc",
+    "negation",
+    "neg_gen",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_am",
+    "present_uje",
+    "present_e_isz",
+    "past_ac",
+    "past_rest"
+  ],
+  "intro": [
+    {
+      "title": "który declines like an adjective — and you already own its plural endings",
+      "title_pl": "dobrzy → którzy · dobrych → których",
+      "body": "You have been using który for two levels, but only ever about one thing at a time: film, który oglądałem; książka, o której mówiłem.\n\nAbout more than one thing it changes, and it changes in a way you have just spent five units producing. który is built like an adjective, so its plural is the plural adjective — the same endings, on a different word.\n\nThere is nothing new to learn about the endings themselves. The whole unit is the table below.",
+      "body_pl": "przymiotnik → który",
+      "table": {
+        "headers": [
+          "Case",
+          "Adjective",
+          "który"
+        ],
+        "rows": [
+          [
+            "Nominative plural, men-group",
+            "dobrzy",
+            "którzy"
+          ],
+          [
+            "Nominative plural, everything else",
+            "dobre",
+            "które"
+          ],
+          [
+            "Genitive and Locative plural",
+            "dobrych",
+            "których"
+          ],
+          [
+            "Dative plural",
+            "dobrym",
+            "którym"
+          ],
+          [
+            "Instrumental plural",
+            "dobrymi",
+            "którymi"
+          ],
+          [
+            "Dative singular (m/n)",
+            "dobremu",
+            "któremu"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These are the students who work.",
+          "pl": "To są studenci, którzy pracują."
+        }
+      ]
+    },
+    {
+      "title": "The Nominative plural splits, exactly as the adjective did",
+      "title_pl": "którzy · które",
+      "body": "A group with a man in it takes którzy. Everything else — things, animals, children, a group of women — takes które.\n\nThat is the same split you met four units ago in dobrzy against dobre, and it is decided in the same place: by what the relative points back at.\n\nOne extra fact, and it saves you a form rather than costing you one. For everything that is not a men-group, the subject shape and the object shape are identical — które does both jobs. That is not a special rule for this word; it is the Accusative-equals-Nominative fact you already have for plural nouns.",
+      "body_pl": "mianownik = biernik (nie-męskoosobowe)",
+      "table": {
+        "headers": [
+          "Points back at",
+          "Shape",
+          "Example"
+        ],
+        "rows": [
+          [
+            "a men-group, subject",
+            "którzy",
+            "To są lekarze, którzy mieszkają w Polsce."
+          ],
+          [
+            "things, subject",
+            "które",
+            "To są telefony, które są nowe."
+          ],
+          [
+            "things, object",
+            "które",
+            "To są filmy, które oglądałem."
+          ],
+          [
+            "animals, object",
+            "które",
+            "To są koty, które mam."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These are the newspapers I buy.",
+          "pl": "To są gazety, które kupuję."
+        }
+      ]
+    },
+    {
+      "title": "których does three jobs",
+      "title_pl": "których: dopełniacz · miejscownik · biernik męskoosobowy",
+      "body": "One shape covers three different jobs in the plural, and you have seen all three before on dobrych.\n\nAfter a negated verb it is the Genitive: nie mam gazet, so gazety, których nie mam. After o and w it is the Locative: o hotelach, so hotele, o których mówiłem. And for a men-group as the object it is the Accusative, which borrows the Genitive shape — znam klientów, so klienci, których znam.\n\nThat last one is the plural of something you have done since B2: a living masculine thing takes the Genitive shape when it is the object. Znam brata. Znam klientów. Klienci, których znam.",
+      "body_pl": "których nie mam · o których · których znam",
+      "table": {
+        "headers": [
+          "Job",
+          "What triggers it",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Genitive",
+            "a negated verb",
+            "To są gazety, których nie mam."
+          ],
+          [
+            "Locative",
+            "o",
+            "To są hotele, o których mówiłem."
+          ],
+          [
+            "Locative",
+            "w",
+            "To są sklepy, w których kupuję chleb."
+          ],
+          [
+            "Accusative, men-group",
+            "the verb inside the clause",
+            "To są klienci, których znam."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These are the people I know.",
+          "pl": "To są ludzie, których znam."
+        }
+      ]
+    },
+    {
+      "title": "The Dative closes a gap in the singular too",
+      "title_pl": "któremu · którym",
+      "body": "pomagać has always taken the Dative: pomagam studentowi, pomagam studentom. When the relative is what you are helping, it takes the Dative as well — and this is the one place in the unit where a singular form is new too.\n\nFor one masculine or neuter thing it is któremu, built like dobremu. For more than one it is którym, built like dobrym.\n\nSo here the difference between one and many is carried entirely by the pronoun, and the noun in front of it tells you which to expect.",
+      "body_pl": "jeden → któremu · więcej → którym",
+      "table": {
+        "headers": [
+          "How many",
+          "Shape",
+          "Example"
+        ],
+        "rows": [
+          [
+            "one (masculine)",
+            "któremu",
+            "To jest student, któremu pomagam."
+          ],
+          [
+            "one (neuter)",
+            "któremu",
+            "To jest dziecko, któremu pomagam."
+          ],
+          [
+            "more than one",
+            "którym",
+            "To są dzieci, którym pomagam."
+          ],
+          [
+            "more than one",
+            "którym",
+            "To są goście, którym pomagam."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "This is the student I help.",
+          "pl": "To jest student, któremu pomagam."
+        }
+      ]
+    },
+    {
+      "title": "z którymi — and one string worth a second look",
+      "title_pl": "z którymi · uwaga: którym",
+      "body": "After z the plural is którymi, built like dobrymi: ludzie, z którymi pracuję.\n\nNow the warning, and it is worth thirty seconds. którym is doing three separate jobs in this course. Two of them are singular and one is plural:\n\nAfter o, w or z about one masculine or neuter thing — film, o którym mówiłem. And as the Dative plural — dzieci, którym pomagam.\n\nNothing in the word itself tells you which. The word in front of it does: the relative sits right beside the noun it points back at, so you read the noun, not the pronoun.",
+      "body_pl": "którym: liczbę zdradza rzeczownik",
+      "table": {
+        "headers": [
+          "Sentence",
+          "Job of którym",
+          "How you know"
+        ],
+        "rows": [
+          [
+            "To jest film, o którym mówiłem.",
+            "singular, Locative",
+            "film is one thing"
+          ],
+          [
+            "To jest kolega, z którym pracuję.",
+            "singular, Instrumental",
+            "kolega is one person"
+          ],
+          [
+            "To są dzieci, którym pomagam.",
+            "plural, Dative",
+            "dzieci is more than one"
+          ],
+          [
+            "To są ludzie, z którymi pracuję.",
+            "plural, Instrumental",
+            "after z the plural is którymi"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These are the students I live with.",
+          "pl": "To są studenci, z którymi mieszkam."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "These are the students who work.",
+      "pl": "To są studenci, którzy pracują."
+    },
+    {
+      "en": "These are the doctors who live in Poland.",
+      "pl": "To są lekarze, którzy mieszkają w Polsce."
+    },
+    {
+      "en": "These are the films I was watching.",
+      "pl": "To są filmy, które oglądałem."
+    },
+    {
+      "en": "These are the cats I have.",
+      "pl": "To są koty, które mam."
+    },
+    {
+      "en": "These are the hotels I was talking about.",
+      "pl": "To są hotele, o których mówiłem."
+    },
+    {
+      "en": "These are the shops where I buy bread.",
+      "pl": "To są sklepy, w których kupuję chleb."
+    },
+    {
+      "en": "These are the newspapers I don't have.",
+      "pl": "To są gazety, których nie mam."
+    },
+    {
+      "en": "These are the clients I know.",
+      "pl": "To są klienci, których znam."
+    },
+    {
+      "en": "These are the children I help.",
+      "pl": "To są dzieci, którym pomagam."
+    },
+    {
+      "en": "This is the student I help.",
+      "pl": "To jest student, któremu pomagam."
+    },
+    {
+      "en": "These are the people I work with.",
+      "pl": "To są ludzie, z którymi pracuję."
+    },
+    {
+      "en": "These are the students I live with.",
+      "pl": "To są studenci, z którymi mieszkam."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "To są studenci, ___ pracują. (These are the students who work.)",
+      "choices": [
+        "którzy",
+        "które",
+        "których",
+        "którym"
+      ],
+      "answer": "którzy",
+      "explain": "studenci is a men-group and it is the subject of pracują, so the Nominative plural — and for a men-group that is którzy, built like dobrzy."
+    },
+    {
+      "prompt": "To są lekarze, ___ mieszkają w Polsce. (These are the doctors who live in Poland.)",
+      "choices": [
+        "którzy",
+        "których",
+        "którym",
+        "które"
+      ],
+      "answer": "którzy",
+      "explain": "Same shape as the item before, and for the same two reasons: a men-group, doing the living. Nothing about the main clause changes it."
+    },
+    {
+      "prompt": "To są filmy, ___ oglądałem. (These are the films I was watching.)",
+      "choices": [
+        "które",
+        "którzy",
+        "których",
+        "którymi"
+      ],
+      "answer": "które",
+      "explain": "Films are not people, so the men-group form is out. które is the object shape here, and it is identical to the subject shape — the Accusative-equals-Nominative fact you already have for plural nouns."
+    },
+    {
+      "prompt": "To są koty, ___ mam. (These are the cats I have.)",
+      "choices": [
+        "które",
+        "których",
+        "którzy",
+        "którym"
+      ],
+      "answer": "które",
+      "explain": "Animals are not a men-group, however alive they are. The men-group is the only category that borrows the Genitive for its object."
+    },
+    {
+      "prompt": "To są sklepy, o ___ mówiłem. (These are the shops I was talking about.)",
+      "choices": [
+        "których",
+        "którym",
+        "którzy",
+        "którymi"
+      ],
+      "answer": "których",
+      "explain": "o takes the Locative, and the Locative plural is których — the same string you use for dobrych after w and o."
+    },
+    {
+      "prompt": "To są gazety, ___ nie mam. (These are the newspapers I don't have.)",
+      "choices": [
+        "których",
+        "które",
+        "którymi",
+        "którym"
+      ],
+      "answer": "których",
+      "explain": "A negated verb pulls its object into the Genitive — nie mam gazet — and the relative goes with it. które would be the shape after a positive mam."
+    },
+    {
+      "prompt": "To są klienci, ___ znam. (These are the clients I know.)",
+      "choices": [
+        "których",
+        "którzy",
+        "którym",
+        "które"
+      ],
+      "answer": "których",
+      "explain": "The trap is that klienci is a men-group, which makes którzy look right — but here they are what is known, not who is doing the knowing. A men-group object borrows the Genitive shape, exactly as brata does in Znam brata."
+    },
+    {
+      "prompt": "To są dzieci, ___ pomagam. (These are the children I help.)",
+      "choices": [
+        "którym",
+        "których",
+        "którymi",
+        "które"
+      ],
+      "answer": "którym",
+      "explain": "pomagać takes the Dative, and the Dative plural is którym — built like dobrym, and matching the -om ending you already put on dzieciom."
+    },
+    {
+      "prompt": "To jest film, o ___ mówiłem. (This is the film I was talking about.)",
+      "choices": [
+        "którym",
+        "których",
+        "któremu",
+        "którymi"
+      ],
+      "answer": "którym",
+      "explain": "One film, so nothing plural is possible. This is the singular Locative you have had since B2 — the same string as the Dative plural, and the noun in front is what tells you which."
+    },
+    {
+      "prompt": "To jest student, ___ pomagam. (This is the student I help.)",
+      "choices": [
+        "któremu",
+        "którym",
+        "którego",
+        "których"
+      ],
+      "answer": "któremu",
+      "explain": "One student, and pomagać takes the Dative, so the Dative singular: któremu, built like dobremu. którym would say there is more than one."
+    },
+    {
+      "prompt": "To są ludzie, z ___ pracuję. (These are the people I work with.)",
+      "choices": [
+        "którymi",
+        "których",
+        "którym",
+        "którzy"
+      ],
+      "answer": "którymi",
+      "explain": "z takes the Instrumental, and the Instrumental plural is którymi — the one plural shape that is not shared with any other job."
+    },
+    {
+      "prompt": "To jest książka, ___ czytałem. (This is the book I was reading.)",
+      "choices": [
+        "którą",
+        "które",
+        "których",
+        "którymi"
+      ],
+      "answer": "którą",
+      "explain": "One book, feminine, and the object of czytałem — so the singular Accusative którą, unchanged since B1. Five slides of plurals do not touch it."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "These are the students who work.",
+      "mode": "cloze",
+      "answer": "którzy",
+      "accepts": [
+        "którzy"
+      ],
+      "frame": "To są studenci, ___ pracują.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the teaching point: którzy, the virile Nominative plural."
+    },
+    {
+      "prompt_en": "These are the films I was watching.",
+      "mode": "cloze",
+      "answer": "które",
+      "accepts": [
+        "które"
+      ],
+      "frame": "To są filmy, ___ oglądałem.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the teaching point: które, the non-virile plural — an owned string in a new job, which is why it is produced rather than only read."
+    },
+    {
+      "prompt_en": "These are the shops I was talking about.",
+      "mode": "cloze",
+      "answer": "których",
+      "accepts": [
+        "których"
+      ],
+      "frame": "To są sklepy, o ___ mówiłem.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the teaching point: których, here in its Locative job after o."
+    },
+    {
+      "prompt_en": "These are the children I help.",
+      "mode": "cloze",
+      "answer": "którym",
+      "accepts": [
+        "którym"
+      ],
+      "frame": "To są dzieci, ___ pomagam.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the teaching point: którym as the Dative plural, the new job on an owned string."
+    },
+    {
+      "prompt_en": "These are the people I work with.",
+      "mode": "cloze",
+      "answer": "którymi",
+      "accepts": [
+        "którymi"
+      ],
+      "frame": "To są ludzie, z ___ pracuję.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the teaching point: którymi, the Instrumental plural."
+    },
+    {
+      "prompt_en": "This is the student I help.",
+      "mode": "cloze",
+      "answer": "któremu",
+      "accepts": [
+        "któremu"
+      ],
+      "frame": "To jest student, ___ pomagam.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the teaching point: któremu, the Dative singular — the gap b2_ktory_full logged and left to C1."
+    },
+    {
+      "prompt_en": "These are the clients I know.",
+      "mode": "cloze",
+      "answer": "znam",
+      "accepts": [
+        "znam"
+      ],
+      "frame": "To są klienci, których ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. FALLBACK BLANK, logged per the queue's fallback clause: których is spent at item 2 and a second których answer would duplicate within the stage. Blanks the relative clause's finite verb, which is the form that puts klienci in the Accusative in the first place. Sentence-final blank, the b2_jesli #6 shape that the sixth repair run found to be the common case in this construction."
+    },
+    {
+      "prompt_en": "These are the cats I have.",
+      "mode": "cloze",
+      "answer": "mam",
+      "accepts": [
+        "mam"
+      ],
+      "frame": "To są koty, które ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. FALLBACK BLANK, logged: które is spent at item 1. Blanks the clause verb, leaving które visible so the object job of the non-virile plural is still read in place. Sentence-final blank, as item 6."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These are the doctors who live in Poland.",
+      "answer": "To są lekarze, którzy mieszkają w Polsce.",
+      "accepts": [
+        "To są lekarze, którzy mieszkają w Polsce.",
+        "To są lekarze, którzy mieszkają w Polsce"
+      ],
+      "explain": "lekarze is a men-group and it is the subject inside its own clause, so the Nominative plural którzy."
+    },
+    {
+      "prompt_en": "Type: These are the hotels I was talking about.",
+      "answer": "To są hotele, o których mówiłem.",
+      "accepts": [
+        "To są hotele, o których mówiłem.",
+        "To są hotele, o których mówiłem"
+      ],
+      "explain": "o has taken the Locative since A2 and nothing about that changes in the plural. The Locative plural of który is których."
+    },
+    {
+      "prompt_en": "Type: These are the students I live with.",
+      "answer": "To są studenci, z którymi mieszkam.",
+      "accepts": [
+        "To są studenci, z którymi mieszkam.",
+        "To są studenci, z którymi mieszkam"
+      ],
+      "explain": "z takes the Instrumental. A men-group makes no difference here — the Instrumental plural is którymi for everyone and everything."
+    },
+    {
+      "prompt_en": "Type: These are the newspapers I don't have.",
+      "answer": "To są gazety, których nie mam.",
+      "accepts": [
+        "To są gazety, których nie mam.",
+        "To są gazety, których nie mam"
+      ],
+      "explain": "nie mam pulls its object into the Genitive, and the relative follows the object it stands for. Without the nie it would be które."
+    },
+    {
+      "prompt_en": "Type: These are the shops where I buy bread.",
+      "answer": "To są sklepy, w których kupuję chleb.",
+      "accepts": [
+        "To są sklepy, w których kupuję chleb.",
+        "To są sklepy, w których kupuję chleb"
+      ],
+      "explain": "English says \"where\", but Polish builds it out of w plus the Locative — the same way it built w którym for one shop."
+    },
+    {
+      "prompt_en": "Type: This is the child I help.",
+      "answer": "To jest dziecko, któremu pomagam.",
+      "accepts": [
+        "To jest dziecko, któremu pomagam.",
+        "To jest dziecko, któremu pomagam"
+      ],
+      "explain": "dziecko is neuter and singular, and pomagać takes the Dative, so któremu — the same shape a masculine noun would take."
+    },
+    {
+      "prompt_en": "Type: These are the people I know.",
+      "answer": "To są ludzie, których znam.",
+      "accepts": [
+        "To są ludzie, których znam.",
+        "To są ludzie, których znam"
+      ],
+      "explain": "ludzie is a men-group, and a men-group object borrows the Genitive shape: których, not którzy."
+    },
+    {
+      "prompt_en": "Type: These are the phones I have.",
+      "answer": "To są telefony, które mam.",
+      "accepts": [
+        "To są telefony, które mam.",
+        "To są telefony, które mam"
+      ],
+      "explain": "Phones are things, so subject and object look the same and które covers both. Compare ludzie, których znam, where the men-group does not."
+    },
+    {
+      "prompt_en": "Type: These are the guests I help.",
+      "answer": "To są goście, którym pomagam.",
+      "accepts": [
+        "To są goście, którym pomagam.",
+        "To są goście, którym pomagam"
+      ],
+      "explain": "The Dative plural is którym whoever it points at — the plural Dative has no men-group split, unlike the Nominative and the Accusative."
+    },
+    {
+      "prompt_en": "Type: This is the film I was talking about.",
+      "answer": "To jest film, o którym mówiłem.",
+      "accepts": [
+        "To jest film, o którym mówiłem.",
+        "To jest film, o którym mówiłem"
+      ],
+      "explain": "One film, so the singular Locative którym — the same string as the Dative plural in the item three back, and film is what tells you which it is."
+    }
+  ],
+  "uses_lemmas": [
+    "który",
+    "która",
+    "które",
+    "którą",
+    "której",
+    "którego",
+    "którym",
+    "dobrzy",
+    "dobre",
+    "dobrych",
+    "dobrym",
+    "dobrymi",
+    "dobremu",
+    "studenci",
+    "student",
+    "studentowi",
+    "studentom",
+    "lekarze",
+    "klienci",
+    "goście",
+    "ludzie",
+    "dzieci",
+    "dzieciom",
+    "dziecko",
+    "kolega",
+    "brata",
+    "filmy",
+    "film",
+    "sklepy",
+    "sklep",
+    "koty",
+    "gazety",
+    "gazet",
+    "hotele",
+    "hotelach",
+    "telefony",
+    "książka",
+    "chleb",
+    "pracują",
+    "pracuję",
+    "mieszkają",
+    "mieszkam",
+    "kupuję",
+    "mam",
+    "nie mam",
+    "znam",
+    "pomagam",
+    "oglądałem",
+    "mówiłem",
+    "czytałem",
+    "jest",
+    "są",
+    "to są",
+    "nowe",
+    "w polsce"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_ktory_plural",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

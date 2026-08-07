@@ -7,6 +7,7 @@ const KEY = "rupl-exp-v0.1-smoke-flags";
 
 export const FLAG_TAGS = [
   { id: "false_wrong", label: "False wrong (my answer OK)" },
+  { id: "untaught", label: "Word maybe untaught here" },
   { id: "ambiguous", label: "Ambiguous cue" },
   { id: "bad_en", label: "Bad / awkward English" },
   { id: "bad_pl", label: "Bad Polish" },
@@ -94,6 +95,7 @@ export function addFlag(partial) {
     typed: partial.typed || "",
     tag: partial.tag || "other",
     note: (partial.note || "").trim(),
+    origins: partial.origins || "",
     severity: "P0",
   };
   list.push(flag);
@@ -131,6 +133,7 @@ export function formatFlagsForAgent() {
     if (f.gap_answer) lines.push(`   expected: ${f.gap_answer}`);
     if (f.typed) lines.push(`   typed: ${f.typed}`);
     if (f.note) lines.push(`   note: ${f.note}`);
+    if (f.origins) lines.push(`   origins: ${f.origins}`);
     lines.push("");
   });
   return lines.join("\n");
@@ -227,11 +230,21 @@ export function mountSmokeFlagsUI(host) {
     else body.querySelector("#smoke-note")?.focus();
 
     body.querySelector("#smoke-save").onclick = () => {
+      let origins = "";
+      try {
+        // Lazy import avoids a cycle at module load; index is built at boot.
+        origins = window.__ruplOriginsSummary
+          ? window.__ruplOriginsSummary([ctx.pl, ctx.gap, ctx.gap_answer].filter(Boolean).join(" "))
+          : "";
+      } catch {
+        origins = "";
+      }
       addFlag({
         ...ctx,
         typed: body.querySelector("#smoke-typed").value,
         tag: body.querySelector("#smoke-tag").value,
         note: body.querySelector("#smoke-note").value,
+        origins,
       });
       const st = body.querySelector("#smoke-status");
       st.hidden = false;

@@ -1,0 +1,650 @@
+{
+  "id": "b2_participle_pass",
+  "title": "Otwarty, zamknięty, zrobiony",
+  "title_en": "The passive participle",
+  "level": "B2",
+  "tree_node": "b2_participle_pass",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2-SPINE Block 7 unit 2, and the level's ONLY participle (spine O4 — the B2/C1 participle fork). The passive adjectival participle, in PREDICATE POSITION and the PRESENT TENSE only.\n\nTHE ANCHOR IS AS GOOD AS THE SPINE PROMISED: check_new.py confirms otwarty and zamkniety are ALREADY TAUGHT — by leaf_shopping_a1 at path 20, as plain adjectives, with no hint that they came from anywhere. So the unit's whole opening claim is that two words he has read on shop doors since A1 are built from verbs, and the pattern behind them is regular. otworzyc is owned too (trunk_can_a1), which makes half that pair fully visible.\n\nTHE UNIT IS DELIBERATELY THE SAME SHAPE AS THE ONE BEFORE IT, and that is the reason it is cheap. b2_verbal_nouns taught, one node ago, a rule for -ac verbs (drop the c, add -nie) and whole words for the -ic group (because the stem in front of -enie changes unpredictably). The participle splits along EXACTLY the same line: -ac / -owac verbs take -ny on the same stem (napisa-ny, ugotowa-ny — a rule the learner may apply), while -ic verbs take -ony with the same unpredictable stem change (zrobic->zrobiony, zaplacic->zaplacony, prosic->proszony) and are handed over as words. Slide 2 says this out loud and points back at czytanie/czytany side by side. One split, learned twice, two nodes apart.\n\nSIXTEEN NEW FORMS BUT FOUR NEW WORDS, and the arithmetic is the design: zrobiony, napisany, ugotowany and zaplacony each come with the ordinary -y / -a / -e adjective endings owned since a1 zgoda, plus the four agreement forms of the two anchors (otwarta, otwarte, zamknieta, zamkniete). Agreement therefore costs NOTHING — Block 2 spent five units on adjective cases, and this is the Nominative, the one shape that was never in doubt.\n\nPREDICATE POSITION AND PRESENT TENSE ONLY — a load split against the very next unit, stated so the two are not read as overlapping by accident. THIS unit is the FORM and its agreement, and every sentence is X jest <participle>. b2_passive, one node later, is the CONSTRUCTION: byl / bedzie, and the passive reading named as such. Nothing here says the word passive to the learner about a sentence; the participles are presented as adjectives describing a state, which at this stage is exactly what they are.\n\nFENCED TO C1, all per O4/O5 and none of them appearing anywhere in the pack — not on a slide, not as a distractor: ATTRIBUTIVE and DECLINED participles (w zamknietym sklepie), the adverbial participles (robiac, zrobiwszy), the ACTIVE adjectival participle (pracujacy), and the zostac dynamic passive. ALSO FENCED, and this one is a homograph inside the paradigm rather than a scope choice: THE PLURAL. zrobione is the NEUTER SINGULAR here and nothing else; it is also the non-virile plural, and zrobieni is the virile plural — both are absent, untaught and unhinted, because a form that means two things is exactly what the AGENTS homograph rule says to keep out until it can be named. The pack teaches -e as neuter, full stop.\n\nASPECT IS NAMED IN ONE LINE, not re-taught: the verb underneath every participle here is the FINISHED twin — zrobiony from zrobic and not robic, ugotowany from ugotowac. That is why the words describe a state that is over, and it is a fact the learner already owns from aspect_past and aspect_prefixes.\n\nTHE -TY CLASS GETS NO RULE, on the gen_pl_full precedent. otwarty and zamkniety belong to a third, small formation class (otworzyc, zamknac), and zamknac is verified NEW — so no rule is stated, no derivation is shown for zamkniety, and the two words stay what they have always been: words the learner owns, now re-read. Slide 1 says only that they came from verbs, which is true and useful, without claiming he could have built them.\n\nkupiony WAS DRAFTED AND CUT, logged: it is a good everyday participle (Bilet jest kupiony), but four participles across two classes is a complete demonstration and a fifth buys nothing. Left for a later pack or for b2_travel_func, which will want opozniony and odwolany anyway and is placed after this unit for exactly that reason.",
+  "focus_structures": [
+    "participle_pass"
+  ],
+  "teaches_structures": [
+    "participle_pass"
+  ],
+  "teaches_lemmas": [
+    "zrobiony",
+    "zrobiona",
+    "zrobione",
+    "napisany",
+    "napisana",
+    "napisane",
+    "ugotowany",
+    "ugotowana",
+    "ugotowane",
+    "zapłacony",
+    "zapłacona",
+    "zapłacone",
+    "otwarta",
+    "otwarte",
+    "zamknięta",
+    "zamknięte"
+  ],
+  "uses_structures": [
+    "participle_pass",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "aspect_past",
+    "aspect_prefixes",
+    "verbal_nouns",
+    "present",
+    "question",
+    "conjunctions",
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "Two words from the shop door, and where they came from",
+      "title_pl": "otwarty · zamknięty",
+      "body": "You have read these two since A1, and you learned them as plain adjectives:\n\notwarty — open\nzamknięty — closed\n\nThey are not plain adjectives. Each one is built from a verb: otwarty from otworzyć, which you also own, and zamknięty from its opposite number.\n\nThis is the passive participle — a form made from a verb that then behaves exactly like an adjective. It says that something has had the verb done to it and is now in the resulting state. The shop was closed by somebody at some point; what you are looking at now is the result.\n\nThere are a great many of these in Polish, and the two you already own are the way in.",
+      "body_pl": "Imiesłów bierny — czasownik w roli przymiotnika.",
+      "examples": [
+        {
+          "en": "The shop is open.",
+          "pl": "Sklep jest otwarty."
+        },
+        {
+          "en": "The bank is closed.",
+          "pl": "Bank jest zamknięty."
+        },
+        {
+          "en": "The dinner is cooked.",
+          "pl": "Obiad jest ugotowany."
+        },
+        {
+          "en": "The bill is paid.",
+          "pl": "Rachunek jest zapłacony."
+        }
+      ]
+    },
+    {
+      "title": "The same split you learned one unit ago",
+      "title_pl": "-ać → -any · -ić → -ony",
+      "body": "Last unit you built nouns from verbs, and the verbs fell into two groups. The participle falls into the same two groups, along the same line, with the same warning attached — so this is one pattern learned twice rather than two patterns.\n\n-ać and -ować verbs: take the stem and add -ny. One unit ago that same stem took -nie and gave you a noun (czytać → czytanie); here it takes -ny and gives you an adjective. This is a rule and you may use it.\n\nnapisać − ć = napisa, + ny = napisany\nugotować − ć = ugotowa, + ny = ugotowany\n\n-ić verbs: the ending is -ony, and the consonant in front of it changes shape.\n\nzrobić → zrobiony — the b has become bi\nzapłacić → zapłacony — the ć has become c\n\nTwo verbs, two different changes, and nothing in the infinitive tells you which you are going to get. So this group is learned word by word, exactly as the -enie nouns were.",
+      "body_pl": "-ać / -ować: temat + -ny. -ić: -ony, temat nieregularny.",
+      "table": {
+        "headers": [
+          "Verb",
+          "Participle",
+          "It means"
+        ],
+        "rows": [
+          [
+            "napisać",
+            "napisany",
+            "written"
+          ],
+          [
+            "ugotować",
+            "ugotowany",
+            "cooked"
+          ],
+          [
+            "zrobić",
+            "zrobiony",
+            "done, made"
+          ],
+          [
+            "zapłacić",
+            "zapłacony",
+            "paid"
+          ],
+          [
+            "otworzyć",
+            "otwarty",
+            "open (learned whole)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The verb underneath is always the finished one",
+      "title_pl": "zrobić → zrobiony",
+      "body": "Look at which twin each participle is built on. It is the finished one every time.\n\nzrobiony comes from zrobić, not from robić.\nugotowany comes from ugotować, not from gotować.\nnapisany comes from napisać, not from pisać.\n\nThat is not an accident and it is not a new rule. It follows from what these words mean: a participle describes the state something is left in once the job is over, and the finished twin is the one that talks about jobs being over.\n\nObiad jest ugotowany. — The dinner is cooked. Somebody finished cooking it; it is now sitting there ready.",
+      "body_pl": "Imiesłów od czasownika dokonanego.",
+      "table": {
+        "headers": [
+          "Finished twin",
+          "Participle",
+          "Not built from"
+        ],
+        "rows": [
+          [
+            "zrobić",
+            "zrobiony",
+            "robić"
+          ],
+          [
+            "napisać",
+            "napisany",
+            "pisać"
+          ],
+          [
+            "ugotować",
+            "ugotowany",
+            "gotować"
+          ],
+          [
+            "zapłacić",
+            "zapłacony",
+            "płacić"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "It agrees like any adjective, and you finished learning that in Block 2",
+      "title_pl": "-y · -a · -e",
+      "body": "Once the participle exists it is simply an adjective, and it takes the endings you have had since the very beginning: -y for masculine, -a for feminine, -e for neuter.\n\nSklep jest zamknięty. — masculine\nApteka jest zamknięta. — feminine\nBiuro jest zamknięte. — neuter\n\nOne word, three endings, and not one of them is new. The noun in front decides, exactly as it decides for dobry, dobra, dobre.\n\nEvery participle in this unit works this way, so there is nothing to memorise on this slide — only to notice that a form built from a verb has stopped behaving like one.",
+      "body_pl": "Imiesłów odmienia się jak przymiotnik: -y / -a / -e.",
+      "table": {
+        "headers": [
+          "Masculine",
+          "Feminine",
+          "Neuter"
+        ],
+        "rows": [
+          [
+            "zamknięty",
+            "zamknięta",
+            "zamknięte"
+          ],
+          [
+            "otwarty",
+            "otwarta",
+            "otwarte"
+          ],
+          [
+            "zrobiony",
+            "zrobiona",
+            "zrobione"
+          ],
+          [
+            "napisany",
+            "napisana",
+            "napisane"
+          ],
+          [
+            "ugotowany",
+            "ugotowana",
+            "ugotowane"
+          ],
+          [
+            "zapłacony",
+            "zapłacona",
+            "zapłacone"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What this unit does not cover",
+      "title_pl": "Tylko po jest",
+      "body": "Two limits, both deliberate, so that you know where the edge is rather than guessing at it.\n\nFirst: every sentence here puts the participle after jest. Polish also puts these words straight in front of a noun — in the closed shop — and when it does, the participle picks up case endings like any other adjective. That is real and it is not here.\n\nSecond: everything here is in the present. The next unit adds był and będzie, and gives the construction its proper name.\n\nSo for now: a noun, jest, and a participle agreeing with it. Nothing else.",
+      "body_pl": "Tylko orzecznik po jest. Bez przypadków, bez czasu przeszłego.",
+      "examples": [
+        {
+          "en": "The work is done.",
+          "pl": "Praca jest zrobiona."
+        },
+        {
+          "en": "The task is done.",
+          "pl": "Zadanie jest zrobione."
+        },
+        {
+          "en": "The letter is written.",
+          "pl": "List jest napisany."
+        },
+        {
+          "en": "The soup is cooked.",
+          "pl": "Zupa jest ugotowana."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "done, finished (masculine)",
+      "pl": "zrobiony"
+    },
+    {
+      "en": "done, finished (feminine)",
+      "pl": "zrobiona"
+    },
+    {
+      "en": "done, finished (neuter)",
+      "pl": "zrobione"
+    },
+    {
+      "en": "written (masculine)",
+      "pl": "napisany"
+    },
+    {
+      "en": "written (feminine)",
+      "pl": "napisana"
+    },
+    {
+      "en": "cooked (masculine)",
+      "pl": "ugotowany"
+    },
+    {
+      "en": "cooked (feminine)",
+      "pl": "ugotowana"
+    },
+    {
+      "en": "paid (masculine)",
+      "pl": "zapłacony"
+    },
+    {
+      "en": "paid (feminine)",
+      "pl": "zapłacona"
+    },
+    {
+      "en": "closed (feminine)",
+      "pl": "zamknięta"
+    },
+    {
+      "en": "closed (neuter)",
+      "pl": "zamknięte"
+    },
+    {
+      "en": "open (feminine)",
+      "pl": "otwarta"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Sklep jest ___. (open)",
+      "choices": [
+        "otwarty",
+        "otwarta",
+        "otwarte",
+        "zamknięty"
+      ],
+      "answer": "otwarty",
+      "explain": "sklep is masculine, so the participle takes -y — the same ending it would take if it were dobry."
+    },
+    {
+      "prompt": "Bank jest ___. (closed)",
+      "choices": [
+        "zamknięty",
+        "zamknięta",
+        "zamknięte",
+        "otwarty"
+      ],
+      "answer": "zamknięty",
+      "explain": "Masculine again. The word has been on shop doors since A1; what is new is seeing it agree."
+    },
+    {
+      "prompt": "Apteka jest ___. (closed)",
+      "choices": [
+        "zamknięta",
+        "zamknięty",
+        "zamknięte",
+        "otwarte"
+      ],
+      "answer": "zamknięta",
+      "explain": "apteka is feminine, so -a. The noun in front decides, not the verb underneath."
+    },
+    {
+      "prompt": "Biuro jest ___. (closed)",
+      "choices": [
+        "zamknięte",
+        "zamknięty",
+        "zamknięta",
+        "otwarta"
+      ],
+      "answer": "zamknięte",
+      "explain": "biuro is neuter, so -e."
+    },
+    {
+      "prompt": "Kawiarnia jest ___. (open)",
+      "choices": [
+        "otwarta",
+        "otwarty",
+        "otwarte",
+        "zamknięta"
+      ],
+      "answer": "otwarta",
+      "explain": "kawiarnia is feminine. zamknięta has the right ending and the wrong meaning."
+    },
+    {
+      "prompt": "Okno jest ___. (open)",
+      "choices": [
+        "otwarte",
+        "otwarty",
+        "otwarta",
+        "zamknięte"
+      ],
+      "answer": "otwarte",
+      "explain": "okno is neuter, so -e."
+    },
+    {
+      "prompt": "napisać → ___",
+      "choices": [
+        "napisany",
+        "zrobiony",
+        "ugotowany",
+        "zapłacony"
+      ],
+      "answer": "napisany",
+      "explain": "An -ać verb, so the stem takes -ny with nothing else moving: napisa + ny."
+    },
+    {
+      "prompt": "zrobić → ___",
+      "choices": [
+        "zrobiony",
+        "napisany",
+        "ugotowany",
+        "otwarty"
+      ],
+      "answer": "zrobiony",
+      "explain": "An -ić verb, so -ony — and the b has softened to bi on the way. This group is learned word by word."
+    },
+    {
+      "prompt": "ugotować → ___",
+      "choices": [
+        "ugotowany",
+        "zapłacony",
+        "zrobiony",
+        "napisany"
+      ],
+      "answer": "ugotowany",
+      "explain": "ugotowa + ny. The -owa- stays exactly as it is in the infinitive, as it did in ugotowanie."
+    },
+    {
+      "prompt": "zapłacić → ___",
+      "choices": [
+        "zapłacony",
+        "ugotowany",
+        "zrobiony",
+        "napisany"
+      ],
+      "answer": "zapłacony",
+      "explain": "Another -ić verb: -ony, and the ć has hardened to c. Not something to work out — something to know."
+    },
+    {
+      "prompt": "Praca jest ___. (done)",
+      "choices": [
+        "zrobiona",
+        "zrobiony",
+        "zrobione",
+        "napisana"
+      ],
+      "answer": "zrobiona",
+      "explain": "praca is feminine, so the participle ends in -a."
+    },
+    {
+      "prompt": "Zupa jest ___. (cooked)",
+      "choices": [
+        "ugotowana",
+        "ugotowany",
+        "ugotowane",
+        "zrobiona"
+      ],
+      "answer": "ugotowana",
+      "explain": "zupa is feminine. zrobiona agrees correctly but says the soup was made rather than cooked."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "done, finished (masculine)",
+      "mode": "full_word",
+      "answer": "zrobiony",
+      "accepts": [
+        "zrobiony"
+      ],
+      "explain": "From the finished twin zrobić, with -ony and a softened stem."
+    },
+    {
+      "prompt_en": "done, finished (feminine)",
+      "mode": "full_word",
+      "answer": "zrobiona",
+      "accepts": [
+        "zrobiona"
+      ]
+    },
+    {
+      "prompt_en": "done, finished (neuter)",
+      "mode": "full_word",
+      "answer": "zrobione",
+      "accepts": [
+        "zrobione"
+      ]
+    },
+    {
+      "prompt_en": "written (masculine)",
+      "mode": "full_word",
+      "answer": "napisany",
+      "accepts": [
+        "napisany"
+      ],
+      "explain": "napisa + ny — the -ać rule, applied."
+    },
+    {
+      "prompt_en": "written (feminine)",
+      "mode": "full_word",
+      "answer": "napisana",
+      "accepts": [
+        "napisana"
+      ]
+    },
+    {
+      "prompt_en": "written (neuter)",
+      "mode": "full_word",
+      "answer": "napisane",
+      "accepts": [
+        "napisane"
+      ]
+    },
+    {
+      "prompt_en": "cooked (masculine)",
+      "mode": "full_word",
+      "answer": "ugotowany",
+      "accepts": [
+        "ugotowany"
+      ]
+    },
+    {
+      "prompt_en": "cooked (feminine)",
+      "mode": "full_word",
+      "answer": "ugotowana",
+      "accepts": [
+        "ugotowana"
+      ]
+    },
+    {
+      "prompt_en": "cooked (neuter)",
+      "mode": "full_word",
+      "answer": "ugotowane",
+      "accepts": [
+        "ugotowane"
+      ]
+    },
+    {
+      "prompt_en": "paid (masculine)",
+      "mode": "full_word",
+      "answer": "zapłacony",
+      "accepts": [
+        "zapłacony"
+      ]
+    },
+    {
+      "prompt_en": "paid (feminine)",
+      "mode": "full_word",
+      "answer": "zapłacona",
+      "accepts": [
+        "zapłacona"
+      ]
+    },
+    {
+      "prompt_en": "paid (neuter)",
+      "mode": "full_word",
+      "answer": "zapłacone",
+      "accepts": [
+        "zapłacone"
+      ]
+    },
+    {
+      "prompt_en": "open (neuter)",
+      "mode": "full_word",
+      "answer": "otwarte",
+      "accepts": [
+        "otwarte"
+      ]
+    },
+    {
+      "prompt_en": "closed (neuter)",
+      "mode": "full_word",
+      "answer": "zamknięte",
+      "accepts": [
+        "zamknięte"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The bank is closed.",
+      "answer": "Bank jest zamknięty.",
+      "accepts": [
+        "Bank jest zamknięty.",
+        "Bank jest zamknięty"
+      ],
+      "explain": "bank is masculine, so the participle keeps its -y."
+    },
+    {
+      "prompt_en": "Type: The chemist's is closed.",
+      "answer": "Apteka jest zamknięta.",
+      "accepts": [
+        "Apteka jest zamknięta.",
+        "Apteka jest zamknięta"
+      ],
+      "explain": "Same word, feminine noun, so -a. The verb underneath has nothing to say about the ending."
+    },
+    {
+      "prompt_en": "Type: The office is closed.",
+      "answer": "Biuro jest zamknięte.",
+      "accepts": [
+        "Biuro jest zamknięte.",
+        "Biuro jest zamknięte"
+      ]
+    },
+    {
+      "prompt_en": "Type: The café is open.",
+      "answer": "Kawiarnia jest otwarta.",
+      "accepts": [
+        "Kawiarnia jest otwarta.",
+        "Kawiarnia jest otwarta"
+      ]
+    },
+    {
+      "prompt_en": "Type: The window is open.",
+      "answer": "Okno jest otwarte.",
+      "accepts": [
+        "Okno jest otwarte.",
+        "Okno jest otwarte"
+      ]
+    },
+    {
+      "prompt_en": "Type: The dinner is cooked.",
+      "answer": "Obiad jest ugotowany.",
+      "accepts": [
+        "Obiad jest ugotowany.",
+        "Obiad jest ugotowany"
+      ],
+      "explain": "From ugotować, the finished twin — somebody got to the end of the cooking and this is the result."
+    },
+    {
+      "prompt_en": "Type: The soup is cooked.",
+      "answer": "Zupa jest ugotowana.",
+      "accepts": [
+        "Zupa jest ugotowana.",
+        "Zupa jest ugotowana"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bill is paid.",
+      "answer": "Rachunek jest zapłacony.",
+      "accepts": [
+        "Rachunek jest zapłacony.",
+        "Rachunek jest zapłacony"
+      ]
+    },
+    {
+      "prompt_en": "Type: The letter is written.",
+      "answer": "List jest napisany.",
+      "accepts": [
+        "List jest napisany.",
+        "List jest napisany"
+      ]
+    },
+    {
+      "prompt_en": "Type: The work is done.",
+      "answer": "Praca jest zrobiona.",
+      "accepts": [
+        "Praca jest zrobiona.",
+        "Praca jest zrobiona"
+      ],
+      "explain": "praca is feminine, so zrobiona. The masculine zrobiony would be looking for a different noun."
+    }
+  ],
+  "uses_lemmas": [
+    "otwarty",
+    "zamknięty",
+    "otworzyć",
+    "zrobić",
+    "napisać",
+    "ugotować",
+    "zapłacić",
+    "robić",
+    "pisać",
+    "gotować",
+    "płacić",
+    "czytać",
+    "czytanie",
+    "gotowanie",
+    "jest",
+    "dobry",
+    "dobra",
+    "dobre",
+    "sklep",
+    "bank",
+    "apteka",
+    "biuro",
+    "kawiarnia",
+    "okno",
+    "obiad",
+    "zupa",
+    "rachunek",
+    "list",
+    "praca",
+    "zadanie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_participle_pass",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

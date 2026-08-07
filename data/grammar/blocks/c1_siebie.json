@@ -1,0 +1,674 @@
+{
+  "id": "c1_siebie",
+  "title": "Siebie · sobie",
+  "title_en": "The reflexive pronoun (not się)",
+  "level": "C1",
+  "tree_node": "c1_siebie",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 3, unit 4 (C1-SPINE) - siebie/sobie, the TRUE reflexive pronoun, fenced by name in eight B2 packs and sent here by B2-SPINE O15. THREE NEW STRINGS ONLY: siebie, sobie, soba. THE SPINE'S CONSTRAINT IS THE UNIT'S SHAPE - a2_sie's framing must SURVIVE INTACT, so nothing here says sie means 'self' or corrects anything that pack taught. sie still belongs to the verb; siebie is a SECOND, separate word that happens to translate the same way. The contrast is built as a minimal pair on slide 1 (Ucze sie / Znam siebie) and never as a repair. THE PRONOUN IS SHOWN ONLY IN CASE SLOTS THE COURSE ALREADY OWNS A GOVERNOR FOR - do + Genitive (do siebie), o + Locative (o sobie), z/ze + Instrumental (ze soba), pomagac + Dative (pomagam sobie). That is deliberately the c1_pron_12_prep shape and it keeps the unit to ONE new thing. THE FACT WORTH THE SLIDE is that the form is PERSON-NEUTRAL: one set covers myself, yourself, himself, ourselves, and the subject alone decides which. Half of Kontrola, half of Pisanie and four of the ten Uzycie items are therefore minimal pairs against the ORDINARY pronoun (o sobie vs o nim / o tobie / o mnie, do siebie vs do niej, pomaga sobie vs pomaga mu) - that substitution is the error this unit exists to prevent, and every one of those distractors is a real taught form, never a coined one. NO NOMINATIVE, and it is stated as a fact rather than an omission: the reflexive can never be the subject, because it always points back at one. TWO DELIBERATE OMISSIONS, both logged in the digest because C1 is the last level and an omission here is permanent. (1) THE BENEFACTIVE DATIVE (kupilem sobie kawe, robie sobie kawe) is NOT taught, although it is the commonest everyday use of sobie: it needs the Dative extended to verbs that do not govern it, which is a second new system inside a unit whose brief is a contrast, and AGENTS' load-splitting rule is explicit. Every sobie here sits after pomagac, an owned Dative governor. (2) THE RECIPROCAL READING (Pomagamy sobie = we help EACH OTHER) is named in one line on the closing slide and produced nowhere - the recognition-only treatment, so the learner can read the sentence without a third reading competing for attention. ONE FORM IS SHOWN BUT NOT DRILLED AND THE REASON IS RECORDED: siebie as a direct ACCUSATIVE object has no clean discrimination item at this position, because the obvious distractor Znam sie is itself real Polish with a different sense. Znam siebie appears once on slide 1, once in Dopasuj and once in Uzycie, and never as a quiz choice pitted against Znam sie. ze soba takes the ze-shape c1_pron_12_prep taught with ze mna - same rule, recycled, not re-taught.",
+  "focus_structures": [
+    "siebie_sobie"
+  ],
+  "teaches_structures": [
+    "siebie_sobie"
+  ],
+  "teaches_lemmas": [
+    "siebie",
+    "sobie",
+    "sobą"
+  ],
+  "uses_structures": [
+    "byc_present",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "sie_reflexive",
+    "prep_do_gen",
+    "prep_w_loc",
+    "o_loc",
+    "inst_z",
+    "dative_sg",
+    "dative_pron",
+    "pron_acc",
+    "pron_prep",
+    "pron_prep_12",
+    "motion_chunk",
+    "chodzic",
+    "plural_nom",
+    "virile_nom"
+  ],
+  "intro": [
+    {
+      "title": "Two words that both come out as \"self\" in English — and only one is a pronoun",
+      "title_pl": "Uczę się. · Znam siebie.",
+      "body": "Nothing you were told about się changes here. się belongs to the verb. uczyć się, nazywać się, czuć się are single words that happen to be written with a gap in them, and się has no case, no stress and no job of its own.\n\nsiebie is a different word. It is a real pronoun: it stands where a noun would stand, it takes a case from whatever governs it, and it can follow a preposition — three things się can never do.\n\nEnglish hides the difference because it uses \"myself\" for both. Polish does not, and the two are not interchangeable in either direction.",
+      "body_pl": "się → część czasownika · siebie → zaimek",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What the word is doing"
+        ],
+        "rows": [
+          [
+            "Uczę się.",
+            "I'm studying.",
+            "się belongs to uczyć — there is no \"myself\" in it at all"
+          ],
+          [
+            "Nazywam się Anna.",
+            "My name is Anna.",
+            "się belongs to nazywać"
+          ],
+          [
+            "Czuję się dobrze.",
+            "I feel well.",
+            "się belongs to czuć"
+          ],
+          [
+            "Znam siebie.",
+            "I know myself.",
+            "siebie is znać's object — a pronoun in the Accusative"
+          ],
+          [
+            "Mówię o sobie.",
+            "I'm talking about myself.",
+            "after o, so the Locative — a case, which się cannot take"
+          ],
+          [
+            "Idę do siebie.",
+            "I'm going to my own place.",
+            "after do, so the Genitive"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One set of forms for every person",
+      "title_pl": "o sobie — o mnie, o tobie, o nim",
+      "body": "This is the fact that makes the word cheap to learn and easy to forget to use.\n\nThe ordinary pronouns have a form per person: o mnie, o tobie, o nim, o nas. The reflexive has none. sobie is sobie whoever the subject is, and the subject alone tells you who is meant.\n\nSo Mówię o sobie is about me, Mówisz o sobie is about you, and Tata mówi o sobie is about Dad — one Polish word, four English ones.\n\nThe trap runs the other way too, and it is the more common mistake: Tata mówi o nim does not mean Dad is talking about himself. It means he is talking about somebody else.",
+      "body_pl": "podmiot → sobie",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Who it points at"
+        ],
+        "rows": [
+          [
+            "Mówię o sobie.",
+            "I'm talking about myself.",
+            "the subject — ja"
+          ],
+          [
+            "Mówisz o sobie.",
+            "You're talking about yourself.",
+            "the subject — ty"
+          ],
+          [
+            "Tata mówi o sobie.",
+            "Dad is talking about himself.",
+            "the subject — tata"
+          ],
+          [
+            "Studenci mówią o sobie.",
+            "The students are talking about themselves.",
+            "the subject — studenci"
+          ],
+          [
+            "Tata mówi o nim.",
+            "Dad is talking about him.",
+            "somebody else — not Dad"
+          ],
+          [
+            "Tata mówi o tobie.",
+            "Dad is talking about you.",
+            "somebody else — you"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The forms, by case",
+      "title_pl": "siebie · sobie · sobą",
+      "body": "Three strings cover the whole word, and you already own every trigger in the left-hand column.\n\nAsk the same question you have been asking since the case map: what is standing in front of it? The answer picks the form, exactly as it picks the ending on a noun.\n\nThe empty row is not an oversight. The reflexive has no Nominative because it can never be the subject of its own sentence — it exists only to point back at a subject that is already there.",
+      "body_pl": "mianownik — nie ma",
+      "table": {
+        "headers": [
+          "Case",
+          "Form",
+          "Trigger",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Accusative · biernik",
+            "siebie",
+            "a verb acting on it",
+            "Znam siebie."
+          ],
+          [
+            "Genitive · dopełniacz",
+            "siebie",
+            "do",
+            "Idę do siebie."
+          ],
+          [
+            "Dative · celownik",
+            "sobie",
+            "pomagam",
+            "Pomagam sobie."
+          ],
+          [
+            "Locative · miejscownik",
+            "sobie",
+            "o",
+            "Mówię o sobie."
+          ],
+          [
+            "Instrumental · narzędnik",
+            "sobą",
+            "z / ze",
+            "Mam klucze ze sobą."
+          ],
+          [
+            "Nominative · mianownik",
+            "—",
+            "nothing — it is never the subject",
+            "—"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "After a preposition — and the ze you already know",
+      "title_pl": "do siebie · o sobie · ze sobą",
+      "body": "A preposition is where the difference bites hardest, because się is simply not allowed there. There is no such thing as o się or do się in Polish. If a preposition is standing in front of it, the word has to be siebie, sobie or sobą.\n\nze sobą takes the same ze you met in ze mną, for the same reason and by the same rule — nothing new to learn, just the shape z takes in front of that cluster.\n\ndo siebie is worth knowing as a phrase in its own right. It means to my own place, or his, or theirs — the subject decides, as always.",
+      "body_pl": "przyimek + siebie / sobie / sobą",
+      "table": {
+        "headers": [
+          "Phrase",
+          "Case",
+          "English"
+        ],
+        "rows": [
+          [
+            "do siebie",
+            "Genitive · dopełniacz",
+            "to my own place"
+          ],
+          [
+            "o sobie",
+            "Locative · miejscownik",
+            "about myself"
+          ],
+          [
+            "ze sobą",
+            "Instrumental · narzędnik",
+            "with me"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm going to my own place.",
+          "pl": "Idę do siebie."
+        },
+        {
+          "en": "I'm coming back to my own place.",
+          "pl": "Wracam do siebie."
+        },
+        {
+          "en": "I have the keys with me.",
+          "pl": "Mam klucze ze sobą."
+        },
+        {
+          "en": "I'm thinking about myself.",
+          "pl": "Myślę o sobie."
+        }
+      ]
+    },
+    {
+      "title": "Which one, and when",
+      "title_pl": "się czy siebie?",
+      "body": "Two questions, in this order, and they settle every case.\n\nIs the word part of the verb — is the dictionary entry uczyć się, nazywać się, czuć się? Then it is się, and it never changes.\n\nOtherwise it is a pronoun standing in a real slot: after a preposition, or as something the verb acts on or gives to. Then it is siebie, sobie or sobą, and the thing in front of it picks which.\n\nOne thing to read but not to build: when the subject is plural, the same forms can also mean each other. Pomagamy sobie is usually we help each other rather than we each help ourselves. Context sorts it out; there is no separate word to learn.",
+      "body_pl": "część czasownika → się · przyimek → siebie",
+      "table": {
+        "headers": [
+          "The slot",
+          "Which word",
+          "Example"
+        ],
+        "rows": [
+          [
+            "part of the verb itself",
+            "się",
+            "Uczę się."
+          ],
+          [
+            "after a preposition",
+            "siebie · sobie · sobą",
+            "Mówię o sobie."
+          ],
+          [
+            "the thing the verb acts on",
+            "siebie",
+            "Znam siebie."
+          ],
+          [
+            "the person the verb does it for",
+            "sobie",
+            "Pomagam sobie."
+          ],
+          [
+            "pointing at somebody else, not the subject",
+            "the ordinary pronoun",
+            "Tata mówi o nim."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I'm studying · się belongs to uczyć",
+      "pl": "Uczę się"
+    },
+    {
+      "en": "my name is Anna · się belongs to nazywać",
+      "pl": "Nazywam się Anna"
+    },
+    {
+      "en": "I feel well · się belongs to czuć",
+      "pl": "Czuję się dobrze"
+    },
+    {
+      "en": "I know myself · the verb's own object",
+      "pl": "Znam siebie"
+    },
+    {
+      "en": "I'm talking about myself",
+      "pl": "Mówię o sobie"
+    },
+    {
+      "en": "Dad is talking about himself",
+      "pl": "Tata mówi o sobie"
+    },
+    {
+      "en": "I help myself",
+      "pl": "Pomagam sobie"
+    },
+    {
+      "en": "Dad helps himself",
+      "pl": "Tata pomaga sobie"
+    },
+    {
+      "en": "I'm going to my own place",
+      "pl": "Idę do siebie"
+    },
+    {
+      "en": "Mum is going to her own place",
+      "pl": "Mama idzie do siebie"
+    },
+    {
+      "en": "I have the keys with me",
+      "pl": "Mam klucze ze sobą"
+    },
+    {
+      "en": "Dad has the keys with him",
+      "pl": "Tata ma klucze ze sobą"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I'm studying. →",
+      "choices": [
+        "Uczę się.",
+        "Uczę siebie.",
+        "Uczę sobie.",
+        "Uczę sobą."
+      ],
+      "answer": "Uczę się.",
+      "explain": "się belongs to uczyć — the verb is uczyć się and the two halves are one word. There is no pronoun in this sentence to put a case on."
+    },
+    {
+      "prompt": "I'm talking about myself. →",
+      "choices": [
+        "Mówię o sobie.",
+        "Mówię o się.",
+        "Mówię o siebie.",
+        "Mówię o sobą."
+      ],
+      "answer": "Mówię o sobie.",
+      "explain": "A preposition is standing in front, so się is not allowed at all — o się is not Polish. o takes the Locative, and the Locative form is sobie."
+    },
+    {
+      "prompt": "I'm going to my own place. →",
+      "choices": [
+        "Idę do siebie.",
+        "Idę do sobie.",
+        "Idę do się.",
+        "Idę do sobą."
+      ],
+      "answer": "Idę do siebie.",
+      "explain": "do has demanded the Genitive since A1 and still does. The Genitive of the reflexive is siebie."
+    },
+    {
+      "prompt": "I help myself. →",
+      "choices": [
+        "Pomagam sobie.",
+        "Pomagam siebie.",
+        "Pomagam się.",
+        "Pomagam sobą."
+      ],
+      "answer": "Pomagam sobie.",
+      "explain": "pomagać chooses the Dative — mamie, studentowi, and here sobie. Same slot, same case, reflexive form."
+    },
+    {
+      "prompt": "I have the keys with me. →",
+      "choices": [
+        "Mam klucze ze sobą.",
+        "Mam klucze ze sobie.",
+        "Mam klucze ze siebie.",
+        "Mam klucze ze się."
+      ],
+      "answer": "Mam klucze ze sobą.",
+      "explain": "z meaning together takes the Instrumental, and the Instrumental form is sobą. The ze is the same shape you met in ze mną."
+    },
+    {
+      "prompt": "Dad is talking about himself. →",
+      "choices": [
+        "Tata mówi o sobie.",
+        "Tata mówi o nim.",
+        "Tata mówi o siebie.",
+        "Tata mówi o sobą."
+      ],
+      "answer": "Tata mówi o sobie.",
+      "explain": "o nim is the trap: it is correct Polish, but it means Dad is talking about somebody else. Pointing back at the subject needs sobie."
+    },
+    {
+      "prompt": "Mum is going to her own place. →",
+      "choices": [
+        "Mama idzie do siebie.",
+        "Mama idzie do niej.",
+        "Mama idzie do sobie.",
+        "Mama idzie do sobą."
+      ],
+      "answer": "Mama idzie do siebie.",
+      "explain": "do niej would send Mum to some other woman's place. do siebie sends her to her own."
+    },
+    {
+      "prompt": "You're talking about yourself. →",
+      "choices": [
+        "Mówisz o sobie.",
+        "Mówisz o tobie.",
+        "Mówisz o siebie.",
+        "Mówisz o się."
+      ],
+      "answer": "Mówisz o sobie.",
+      "explain": "The form does not change for the person — it is sobie here exactly as it was for ja. o tobie would mean somebody else is talking about you."
+    },
+    {
+      "prompt": "We're talking about ourselves. →",
+      "choices": [
+        "Mówimy o sobie.",
+        "Mówimy o nas.",
+        "Mówimy o siebie.",
+        "Mówimy o się."
+      ],
+      "answer": "Mówimy o sobie.",
+      "explain": "Still sobie. One form covers every person, and the subject — my — is what tells you who is meant."
+    },
+    {
+      "prompt": "Dad helps himself. →",
+      "choices": [
+        "Tata pomaga sobie.",
+        "Tata pomaga mu.",
+        "Tata pomaga siebie.",
+        "Tata pomaga się."
+      ],
+      "answer": "Tata pomaga sobie.",
+      "explain": "pomaga mu means he helps some other man. The Dative reflexive is sobie."
+    },
+    {
+      "prompt": "I'm coming back to my own place. →",
+      "choices": [
+        "Wracam do siebie.",
+        "Wracam do mnie.",
+        "Wracam do sobie.",
+        "Wracam do się."
+      ],
+      "answer": "Wracam do siebie.",
+      "explain": "do mnie is a real phrase — somebody else coming to my place — but the subject here is already me, so it has to point back: do siebie."
+    },
+    {
+      "prompt": "Dad has the keys with him. →",
+      "choices": [
+        "Tata ma klucze ze sobą.",
+        "Tata ma klucze z nim.",
+        "Tata ma klucze ze siebie.",
+        "Tata ma klucze ze sobie."
+      ],
+      "answer": "Tata ma klucze ze sobą.",
+      "explain": "z nim would mean the keys are with somebody else. Pointing back at Dad needs sobą."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm talking about myself. — o takes the Locative",
+      "mode": "cloze",
+      "frame": "Mówię o ___.",
+      "answer": "sobie",
+      "accepts": [
+        "sobie"
+      ]
+    },
+    {
+      "prompt_en": "I'm going to my own place. — do takes the Genitive",
+      "mode": "cloze",
+      "frame": "Idę do ___.",
+      "answer": "siebie",
+      "accepts": [
+        "siebie"
+      ]
+    },
+    {
+      "prompt_en": "I have the keys with me. — z takes the Instrumental",
+      "mode": "cloze",
+      "frame": "Mam klucze ze ___.",
+      "answer": "sobą",
+      "accepts": [
+        "sobą"
+      ]
+    },
+    {
+      "prompt_en": "I'm studying. — the word that belongs to the verb",
+      "mode": "cloze",
+      "frame": "Uczę ___.",
+      "answer": "się",
+      "accepts": [
+        "się"
+      ]
+    },
+    {
+      "prompt_en": "My brother is talking about him — somebody else, not my brother.",
+      "mode": "cloze",
+      "frame": "Brat mówi o ___.",
+      "answer": "nim",
+      "accepts": [
+        "nim"
+      ]
+    },
+    {
+      "prompt_en": "My sister is going to her place — somebody else's, not her own.",
+      "mode": "cloze",
+      "frame": "Siostra idzie do ___.",
+      "answer": "niej",
+      "accepts": [
+        "niej"
+      ]
+    },
+    {
+      "prompt_en": "Mum helps him.",
+      "mode": "cloze",
+      "frame": "Mama pomaga ___.",
+      "answer": "mu",
+      "accepts": [
+        "mu"
+      ]
+    },
+    {
+      "prompt_en": "Mum is talking about me.",
+      "mode": "cloze",
+      "frame": "Mama mówi o ___.",
+      "answer": "mnie",
+      "accepts": [
+        "mnie"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad is talking about himself.",
+      "answer": "Tata mówi o sobie.",
+      "accepts": [
+        "Tata mówi o sobie.",
+        "Tata mówi o sobie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to her own place.",
+      "answer": "Mama idzie do siebie.",
+      "accepts": [
+        "Mama idzie do siebie.",
+        "Mama idzie do siebie"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother has the keys with him.",
+      "answer": "Brat ma klucze ze sobą.",
+      "accepts": [
+        "Brat ma klucze ze sobą.",
+        "Brat ma klucze ze sobą"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know myself well.",
+      "answer": "Znam siebie dobrze.",
+      "accepts": [
+        "Znam siebie dobrze.",
+        "Znam siebie dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students are talking about themselves.",
+      "answer": "Studenci mówią o sobie.",
+      "accepts": [
+        "Studenci mówią o sobie.",
+        "Studenci mówią o sobie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back to my own place.",
+      "answer": "Wracam do siebie.",
+      "accepts": [
+        "Wracam do siebie.",
+        "Wracam do siebie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is talking about him. — somebody else",
+      "answer": "Tata mówi o nim.",
+      "accepts": [
+        "Tata mówi o nim.",
+        "Tata mówi o nim"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to her place. — somebody else's",
+      "answer": "Mama idzie do niej.",
+      "accepts": [
+        "Mama idzie do niej.",
+        "Mama idzie do niej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad helps himself.",
+      "answer": "Tata pomaga sobie.",
+      "accepts": [
+        "Tata pomaga sobie.",
+        "Tata pomaga sobie"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher helps him.",
+      "answer": "Nauczyciel pomaga mu.",
+      "accepts": [
+        "Nauczyciel pomaga mu.",
+        "Nauczyciel pomaga mu"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "się",
+    "uczę się",
+    "nazywam się",
+    "czuję się",
+    "czuję się dobrze",
+    "znam",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "mówimy",
+    "mówią",
+    "myślę",
+    "idę",
+    "idzie",
+    "wracam",
+    "pomagam",
+    "pomaga",
+    "pomagamy",
+    "mam",
+    "ma",
+    "klucze",
+    "dobrze",
+    "ze",
+    "mnie",
+    "tobie",
+    "nas",
+    "nim",
+    "niej",
+    "mu",
+    "mamie",
+    "studentowi",
+    "mama",
+    "tata",
+    "brat",
+    "siostra",
+    "nauczyciel",
+    "student",
+    "studenci",
+    "o",
+    "nie",
+    "część"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_siebie",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

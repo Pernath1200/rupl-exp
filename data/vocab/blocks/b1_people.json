@@ -1,0 +1,548 @@
+{
+  "id": "b1_people",
+  "title": "Ludzie",
+  "title_en": "People, in the plural",
+  "level": "B1",
+  "tree_node": "b1_people",
+  "default_direction": "en_to_pl",
+  "note": "B1 liść -- 'the vocab that makes the virile units worth having' (B1-SPINE.md). Five new profession pairs (m/f), all checked against check_new.py as brand new: policjant/policjantka, informatyk/informatyczka, kucharz/kucharka, dziennikarz/dziennikarka, turysta/turystka -- picked specifically so every masculine noun falls inside the REGULAR virile-nom rule already taught (policjant/turysta = -t stem, like pacjent/artysta; informatyk = -k stem, like Polak/rolnik; kucharz/dziennikarz = already-soft rz stem, like lekarz), so producing the plural here is applying an owned rule to new lemmas, not teaching a new one. Feminine plurals (policjantki, informatyczki, kucharki, dziennikarki, turystki) apply the ALREADY-taught a2_plural_nom hard-stem -i-after-k/g rule -- also not new grammar, just new lemmas on an owned pattern. Plus ludzie ('people'), the suppletive plural of czlowiek, handed over WHOLE as a closed vocabulary item -- deliberately NOT derived (czlowiek->ludzie is a true irregular, explicitly fenced from the b1_virile_nom production rule in that pack's own note) but valuable enough as the single highest-frequency virile-agreement noun in the language that leaving it out of the one B1 unit literally named 'Ludzie' would be the more conservative-in-name-only choice. Logged: dzieci (children) was considered as a second whole-form irregular for contrast -- Polish famously treats dzieci as grammatically NON-virile despite meaning people -- and dropped. It is already fenced in the plural_nom catalogue entry as a suppletive, b1_virile_reco's own note explicitly declined to use it for exactly this reason, and stacking a second irregular exception in the same pack as ludzie adds a real chance of the two suppletives blurring together for an absolute beginner with no payoff the spine actually asked for. Every sentence gives exactly one new form per frame: base nouns are anchored in the word list (matching the grammar-pack convention where match/blocks introduce raw pairs before combination), and every Zdanie combines a plural form with only already-taught structures -- byc_present (sa), the new-this-block past_plural verb pracowali/pracowaly (from b1_virile_past, reused here rather than re-taught), mieszkali/mieszkaly and byli (a2_past_plural / b1_virile_past), and the locatives w banku / w firmie / w miescie / w parku, all confirmed taught via check_new.py (w restauracji and w kuchni were checked and are NOT taught anywhere yet, so neither appears in this file). No adjective virile form beyond the already-taught 'dobrzy' (recalled once, in predicate position only, exactly as the two grammar units before this one always used it) is asked for or shown.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_plural",
+    "virile_reco",
+    "virile_nom",
+    "virile_past",
+    "plural_nom",
+    "ten_ta_to",
+    "prep_w_loc",
+    "present_uje"
+  ],
+  "blocks": [
+    {
+      "id": "people_words",
+      "title": "New people",
+      "items": [
+        {
+          "en": "people",
+          "pl": "ludzie",
+          "gender": "pl",
+          "icon": "👥"
+        },
+        {
+          "en": "policeman",
+          "pl": "policjant",
+          "gender": "m",
+          "icon": "👮"
+        },
+        {
+          "en": "policewoman",
+          "pl": "policjantka",
+          "gender": "f",
+          "icon": "👮"
+        },
+        {
+          "en": "IT specialist (m)",
+          "pl": "informatyk",
+          "gender": "m",
+          "icon": "💻"
+        },
+        {
+          "en": "IT specialist (f)",
+          "pl": "informatyczka",
+          "gender": "f",
+          "icon": "💻"
+        },
+        {
+          "en": "cook (m)",
+          "pl": "kucharz",
+          "gender": "m",
+          "icon": "👨‍🍳"
+        },
+        {
+          "en": "cook (f)",
+          "pl": "kucharka",
+          "gender": "f",
+          "icon": "👩‍🍳"
+        },
+        {
+          "en": "journalist (m)",
+          "pl": "dziennikarz",
+          "gender": "m",
+          "icon": "📰"
+        },
+        {
+          "en": "journalist (f)",
+          "pl": "dziennikarka",
+          "gender": "f",
+          "icon": "📰"
+        },
+        {
+          "en": "tourist (m)",
+          "pl": "turysta",
+          "gender": "m",
+          "icon": "🧳"
+        },
+        {
+          "en": "tourist (f)",
+          "pl": "turystka",
+          "gender": "f",
+          "icon": "🧳"
+        }
+      ]
+    },
+    {
+      "id": "people_plurals",
+      "title": "The plurals",
+      "items": [
+        {
+          "en": "policemen (virile)",
+          "pl": "policjanci"
+        },
+        {
+          "en": "policewomen (not virile)",
+          "pl": "policjantki"
+        },
+        {
+          "en": "IT specialists (virile)",
+          "pl": "informatycy"
+        },
+        {
+          "en": "IT specialists (not virile)",
+          "pl": "informatyczki"
+        },
+        {
+          "en": "cooks (virile)",
+          "pl": "kucharze"
+        },
+        {
+          "en": "cooks (not virile)",
+          "pl": "kucharki"
+        },
+        {
+          "en": "journalists (virile)",
+          "pl": "dziennikarze"
+        },
+        {
+          "en": "journalists (not virile)",
+          "pl": "dziennikarki"
+        },
+        {
+          "en": "tourists (virile)",
+          "pl": "turyści"
+        },
+        {
+          "en": "tourists (not virile)",
+          "pl": "turystki"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is a policeman.",
+      "pl": "To jest policjant.",
+      "accepts": [
+        "To jest policjant.",
+        "To jest policjant"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "policjant"
+      ]
+    },
+    {
+      "en": "This is a policewoman.",
+      "pl": "To jest policjantka.",
+      "accepts": [
+        "To jest policjantka.",
+        "To jest policjantka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "policjantka"
+      ]
+    },
+    {
+      "en": "These policemen are at the bank.",
+      "pl": "Ci policjanci są w banku.",
+      "accepts": [
+        "Ci policjanci są w banku.",
+        "Ci policjanci są w banku"
+      ],
+      "structures": [
+        "virile_nom",
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "policjanci"
+      ],
+      "explain": "policjant ends in -t, so the plural follows the rule you already own: -t → -ci."
+    },
+    {
+      "en": "These policewomen are at the bank.",
+      "pl": "Te policjantki są w banku.",
+      "accepts": [
+        "Te policjantki są w banku.",
+        "Te policjantki są w banku"
+      ],
+      "structures": [
+        "plural_nom",
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "policjantki"
+      ],
+      "explain": "A group of women only is never virile — te, not ci, and the ordinary non-virile plural you already own: policjantka → policjantki."
+    },
+    {
+      "en": "This is an IT specialist. (m)",
+      "pl": "To jest informatyk.",
+      "accepts": [
+        "To jest informatyk.",
+        "To jest informatyk"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "informatyk"
+      ]
+    },
+    {
+      "en": "This is an IT specialist. (f)",
+      "pl": "To jest informatyczka.",
+      "accepts": [
+        "To jest informatyczka.",
+        "To jest informatyczka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "informatyczka"
+      ]
+    },
+    {
+      "en": "These IT specialists work at the company.",
+      "pl": "Ci informatycy pracują w firmie.",
+      "accepts": [
+        "Ci informatycy pracują w firmie.",
+        "Ci informatycy pracują w firmie"
+      ],
+      "structures": [
+        "virile_nom",
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "informatycy"
+      ],
+      "explain": "informatyk ends in -k, so -k → -cy, same move as Polak → Polacy."
+    },
+    {
+      "en": "These IT specialists (f) work at the company.",
+      "pl": "Te informatyczki pracują w firmie.",
+      "accepts": [
+        "Te informatyczki pracują w firmie.",
+        "Te informatyczki pracują w firmie"
+      ],
+      "structures": [
+        "plural_nom",
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "informatyczki"
+      ]
+    },
+    {
+      "en": "This is a cook. (m)",
+      "pl": "To jest kucharz.",
+      "accepts": [
+        "To jest kucharz.",
+        "To jest kucharz"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "kucharz"
+      ]
+    },
+    {
+      "en": "This is a cook. (f)",
+      "pl": "To jest kucharka.",
+      "accepts": [
+        "To jest kucharka.",
+        "To jest kucharka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "kucharka"
+      ]
+    },
+    {
+      "en": "These cooks worked in the city.",
+      "pl": "Ci kucharze pracowali w mieście.",
+      "accepts": [
+        "Ci kucharze pracowali w mieście.",
+        "Ci kucharze pracowali w mieście"
+      ],
+      "structures": [
+        "virile_nom",
+        "virile_past",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kucharze",
+        "pracowali"
+      ],
+      "explain": "kucharz is already soft (rz), so just +e — kucharze. pracowali is the plural past you met with the virile-noun rule last unit."
+    },
+    {
+      "en": "These cooks (f) worked in the city.",
+      "pl": "Te kucharki pracowały w mieście.",
+      "accepts": [
+        "Te kucharki pracowały w mieście.",
+        "Te kucharki pracowały w mieście"
+      ],
+      "structures": [
+        "plural_nom",
+        "virile_past",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kucharki",
+        "pracowały"
+      ]
+    },
+    {
+      "en": "This is a journalist. (m)",
+      "pl": "To jest dziennikarz.",
+      "accepts": [
+        "To jest dziennikarz.",
+        "To jest dziennikarz"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "dziennikarz"
+      ]
+    },
+    {
+      "en": "This is a journalist. (f)",
+      "pl": "To jest dziennikarka.",
+      "accepts": [
+        "To jest dziennikarka.",
+        "To jest dziennikarka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "dziennikarka"
+      ]
+    },
+    {
+      "en": "These journalists lived in the city.",
+      "pl": "Ci dziennikarze mieszkali w mieście.",
+      "accepts": [
+        "Ci dziennikarze mieszkali w mieście.",
+        "Ci dziennikarze mieszkali w mieście"
+      ],
+      "structures": [
+        "virile_nom",
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dziennikarze"
+      ],
+      "explain": "dziennikarz is already soft (rz), so +e, same family as kucharze and lekarze."
+    },
+    {
+      "en": "These journalists (f) lived in the city.",
+      "pl": "Te dziennikarki mieszkały w mieście.",
+      "accepts": [
+        "Te dziennikarki mieszkały w mieście.",
+        "Te dziennikarki mieszkały w mieście"
+      ],
+      "structures": [
+        "plural_nom",
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dziennikarki"
+      ]
+    },
+    {
+      "en": "This is a tourist. (m)",
+      "pl": "To jest turysta.",
+      "accepts": [
+        "To jest turysta.",
+        "To jest turysta"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "turysta"
+      ]
+    },
+    {
+      "en": "This is a tourist. (f)",
+      "pl": "To jest turystka.",
+      "accepts": [
+        "To jest turystka.",
+        "To jest turystka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "turystka"
+      ]
+    },
+    {
+      "en": "These tourists are in the park.",
+      "pl": "Ci turyści są w parku.",
+      "accepts": [
+        "Ci turyści są w parku.",
+        "Ci turyści są w parku"
+      ],
+      "structures": [
+        "virile_nom",
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "turyści"
+      ],
+      "explain": "turysta ends in -a, but the stem underneath is turyst- — the same -t → -ci move as artysta → artyści."
+    },
+    {
+      "en": "These tourists (f) are in the park.",
+      "pl": "Te turystki są w parku.",
+      "accepts": [
+        "Te turystki są w parku.",
+        "Te turystki są w parku"
+      ],
+      "structures": [
+        "plural_nom",
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "turystki"
+      ]
+    },
+    {
+      "en": "These are people.",
+      "pl": "To są ludzie.",
+      "accepts": [
+        "To są ludzie.",
+        "To są ludzie"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "ludzie"
+      ],
+      "explain": "ludzie is the one whole, irregular plural of człowiek (a person) — handed over as a single word, the way you already took dzieci off the table. Always virile: ci ludzie, never te ludzie."
+    },
+    {
+      "en": "These people worked a lot.",
+      "pl": "Ci ludzie pracowali dużo.",
+      "accepts": [
+        "Ci ludzie pracowali dużo.",
+        "Ci ludzie pracowali dużo"
+      ],
+      "structures": [
+        "virile_past"
+      ],
+      "lemmas": [
+        "ludzie"
+      ]
+    },
+    {
+      "en": "These people were good.",
+      "pl": "Ci ludzie byli dobrzy.",
+      "accepts": [
+        "Ci ludzie byli dobrzy.",
+        "Ci ludzie byli dobrzy"
+      ],
+      "structures": [
+        "virile_past",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ludzie"
+      ],
+      "explain": "dobrzy is the virile plural of dobry, recalled from two units back — ludzie always takes it, being always virile."
+    }
+  ],
+  "teaches_lemmas": [
+    "ludzie",
+    "policjant",
+    "policjantka",
+    "policjanci",
+    "policjantki",
+    "informatyk",
+    "informatyczka",
+    "informatycy",
+    "informatyczki",
+    "kucharz",
+    "kucharka",
+    "kucharze",
+    "kucharki",
+    "dziennikarz",
+    "dziennikarka",
+    "dziennikarze",
+    "dziennikarki",
+    "turysta",
+    "turystka",
+    "turyści",
+    "turystki"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "są",
+    "ci",
+    "te",
+    "pracują",
+    "pracowali",
+    "pracowały",
+    "mieszkali",
+    "mieszkały",
+    "byli",
+    "dobrzy",
+    "dużo",
+    "w banku",
+    "w firmie",
+    "w mieście",
+    "w parku"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_people",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,665 @@
+{
+ "id": "b2_ktory_full",
+ "title": "Film, o którym…",
+ "title_en": "Pointing back with który, after a preposition",
+ "level": "B2",
+ "tree_node": "b2_ktory_full",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 5 (spine). PAYS B1-DIGEST DEFERRED ITEM #2, both halves at once, which is why the spine put it here rather than at B1.\n\nHALF (a): Locative and Instrumental relatives. b1_ktory_cases fenced these completely and its own note logged them as 'deferred to a later pass or a dedicated unit'. This is that unit. Governors are the three already owned and each keeps the case it has always had — o + Locative (a2_o_loc), z + Instrumental (a2_inst_z), w + Locative (a1_prep_w_loc) — plus the bare Instrumental of transport (a2_inst_transport, autobus, którym jadę). Nothing about the prepositions changes.\n\nHALF (b): masculine-ANIMATE antecedents. b1_ktory_cases fenced them and said exactly why: którego would then sit in the Accusative table for a DIFFERENT reason than in the Genitive table. That objection has since dissolved — b2_adj_gen taught Accusative-equals-Genitive for masculine animates as a general fact, and AGENTS.md names it as the honest exception. So pies, którego mam is now a re-sighting, not a new rule, and the pack says so.\n\nONE NEW STRING IN THE WHOLE UNIT: którym. której, którą and którego are all already owned and are extended to new jobs — the course's signature 'same endings, another job' idiom, and this is its fifth turn (inst_identity → inst_z → inst_transport, then adj_loc → adj_inst, then pron_prep, then question_cases, now this).\n\nTHE GIFT, and it is the reason slide 4 exists: every merger this unit needs has already been met, three or four times over. którym covers Locative and Instrumental exactly as dobrym does (adj_loc → adj_inst), as nim does (pron_prep) and as kim does (question_cases). której covers Genitive and Locative exactly as dobrej and niej do. którą covers Accusative and Instrumental exactly as dobrą and nią do. którego covers Genitive and Accusative-animate exactly as dobrego and kogo do. The learner is not being asked to absorb a fourth pattern; he is being shown that the pattern he already has reaches one more word.\n\nTHE HOMOGRAPH TRAP IS LIVE AND IS NAMED OUT LOUD ON SLIDE 2, and it is the sharpest one this level has hit. o której is a FROZEN CHUNK the learner has owned since a2_ordinals_time, where it means 'at what time' (O której jest spotkanie?). The relative o której — książka, o której mówiłem — is the same two strings doing an entirely unrelated job. check_new.py reports której as TAUGHT and names a2_ordinals_time as the owner, exactly the reporting AGENTS.md's homograph section warns must be read rather than skimmed. It gets a named line and quiz item 12 puts the frozen chunk directly beside the relative, the ci/ci and może/może treatment. Note b1_ktory_cases already did half this work, re-teaching której as a Genitive; this unit is the second time the same string has been re-opened, and the pack says that too.\n\nTHE ANIMACY CONTRAST IS THE OTHER DISCRIMINATION and it is drilled as a pair: film, który oglądałem versus pies, którego mam. Same job in the sentence, different shape, and the only thing deciding it is whether the thing pointed at is alive. Quiz items 6, 7 and 8 carry it.\n\nFENCED, deliberately and all verified NEW: ALL PLURAL RELATIVES — którzy, których, którymi and the plural którym — because plural oblique adjectives are B2-SPINE O3's explicit hand-over to C1 and the relative pronoun declines like an adjective, so shipping plural relatives here would breach that fence by the back door; któremu, the DATIVE relative, which is a fifth case and a fifth new string in a unit that already has four jobs to land, and which mirrors b2_pron_prep's decision to fence niemu — logged as a scope cut, not an oversight, and it belongs on the C1 inbox beside the plural forms; kolegę and filmie, both verified NEW, which killed two otherwise-natural sentences during drafting (Znam kolegę, z którym pracujesz and Mama mówi o filmie) and were replaced rather than smuggled in; dla (verified NEW, dropped from b2_pron_prep for the same reason); negated objects anywhere, since Nie znam filmu needs the Genitive of negation, which is b2_neg_gen's job later in B2; siebie / sobie (C1, spine O15).\n\nEVERY ANTECEDENT IS A NOUN THE LEARNER OWNS and every verb inside every relative clause is owned too, so the only thing to work out in any item is the shape of the one pronoun. mówiłem is glossed 'was talking about' throughout, per AGENTS.md's dynamic-verb rule — which reads naturally here, unlike in a reporting frame.\n\nQUIZ ANSWER REPEATS ARE DELIBERATE, the b2_kim_czym and b2_ze_clauses reasoning: a unit about the forms of ONE pronoun has five legal answer strings in total. Five distinct answers across twelve items, every prompt distinct, and the repeats sit under different genders, different governors and different cases.\n\nDistractors are the other forms of który taught or owned at this point, placed where the gender or the case does not license them. Nothing fabricated anywhere.",
+ "focus_structures": [
+  "ktory_full"
+ ],
+ "teaches_structures": [
+  "ktory_full"
+ ],
+ "teaches_lemmas": [
+  "którym"
+ ],
+ "uses_structures": [
+  "ktory_full",
+  "ktory_cases",
+  "questions2",
+  "question_cases",
+  "o_loc",
+  "inst_z",
+  "inst_transport",
+  "prep_w_loc",
+  "prep_place",
+  "to_jest",
+  "byc_present",
+  "zgoda",
+  "miec_present",
+  "miec_acc",
+  "adj_gen",
+  "adj_loc",
+  "adj_inst",
+  "pron_prep",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "past_rest",
+  "past_ac",
+  "jechac",
+  "ordinals_time"
+ ],
+ "intro": [
+  {
+   "title": "After a preposition, który takes a new shape: którym",
+   "title_pl": "To jest film, o którym mówiłem.",
+   "body": "You can already point back at a thing: film, który oglądałem. But as soon as a preposition gets involved, który has to change, exactly as any other word does after a preposition.\n\nFor a masculine or a neuter thing that shape is którym, and it covers two jobs at once — after o and w, where the locative lives, and after z, where the instrumental lives.\n\nOne shape, two jobs. You have seen that arrangement before, and slide four shows where.",
+   "body_pl": "o którym · w którym · z którym",
+   "table": {
+    "headers": [
+     "Preposition",
+     "Example",
+     "English"
+    ],
+    "rows": [
+     [
+      "o",
+      "To jest film, o którym mówiłem.",
+      "This is the film I was talking about."
+     ],
+     [
+      "w",
+      "To jest dom, w którym mieszkam.",
+      "This is the house I live in."
+     ],
+     [
+      "z",
+      "To jest kolega, z którym pracuję.",
+      "This is the colleague I work with."
+     ],
+     [
+      "— (transport)",
+      "To jest autobus, którym jadę.",
+      "This is the bus I am travelling on."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "This is the office where I work.",
+     "pl": "To jest biuro, w którym pracuję."
+    }
+   ]
+  },
+  {
+   "title": "The feminine shapes are two you already own",
+   "title_pl": "To jest książka, o której mówiłem.",
+   "body": "For a feminine thing there is nothing new to learn at all. After o and w you use której — the very shape you already use for the genitive. After z you use którą — the very shape you already use for the object.\n\nOne warning, and it is worth a moment. You have said o której since A2, in O której jest spotkanie? — \"at what time\". Those are the same two words doing a completely different job. There is no trick to it: which one you are looking at is decided by what comes before, a noun or nothing.",
+   "body_pl": "o której · w której · z którą",
+   "table": {
+    "headers": [
+     "Preposition",
+     "Example",
+     "English"
+    ],
+    "rows": [
+     [
+      "o",
+      "To jest książka, o której mówiłem.",
+      "This is the book I was talking about."
+     ],
+     [
+      "w",
+      "To jest szkoła, w której pracuję.",
+      "This is the school where I work."
+     ],
+     [
+      "z",
+      "To jest koleżanka, z którą pracuję.",
+      "This is the colleague I work with."
+     ],
+     [
+      "the old one",
+      "O której jest spotkanie?",
+      "At what time is the meeting?"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "This is the job I was talking about.",
+     "pl": "To jest praca, o której mówiłem."
+    }
+   ]
+  },
+  {
+   "title": "Living things take którego",
+   "title_pl": "To jest pies, którego mam.",
+   "body": "When you point back at a thing, the shape is który: film, który oglądałem.\n\nWhen you point back at a person or an animal, it is którego instead. That is not a new rule — it is the same one you met with adjectives, where a living thing takes the genitive shape for the object: mam małego psa, mam dobrego brata.\n\nSo the question to ask is only ever: is it alive?",
+   "body_pl": "film, który… · pies, którego…",
+   "table": {
+    "headers": [
+     "What you point at",
+     "Shape",
+     "Example"
+    ],
+    "rows": [
+     [
+      "a thing",
+      "który",
+      "To jest film, który oglądałem."
+     ],
+     [
+      "a thing (feminine)",
+      "którą",
+      "To jest książka, którą czytałem."
+     ],
+     [
+      "an animal",
+      "którego",
+      "To jest pies, którego mam."
+     ],
+     [
+      "a person",
+      "którego",
+      "To jest brat, którego znasz."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I have a dog that I love.",
+     "pl": "Mam psa, którego kocham."
+    }
+   ]
+  },
+  {
+   "title": "You have met every one of these before",
+   "title_pl": "dobrym · nim · kim · którym",
+   "body": "None of the shapes in this unit is really new. Each of them merges the same two jobs that the adjective, the pronoun and the question word already merge, in exactly the same places.\n\nIf you can already say w nowej pracy and o nim, you have nothing left to learn here except one word.",
+   "body_pl": "którym = dobrym = nim = kim",
+   "table": {
+    "headers": [
+     "Shape",
+     "Jobs it covers",
+     "Already the same in"
+    ],
+    "rows": [
+     [
+      "którym",
+      "locative and instrumental",
+      "dobrym · nim · kim"
+     ],
+     [
+      "której",
+      "genitive and locative",
+      "dobrej · niej"
+     ],
+     [
+      "którą",
+      "object and instrumental",
+      "dobrą · nią"
+     ],
+     [
+      "którego",
+      "genitive and the living object",
+      "dobrego · kogo"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "This is the doctor I was talking about.",
+     "pl": "To jest lekarz, o którym mówiłem."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "This is the film I was talking about.",
+   "pl": "To jest film, o którym mówiłem."
+  },
+  {
+   "en": "This is the book I was talking about.",
+   "pl": "To jest książka, o której mówiłem."
+  },
+  {
+   "en": "This is the colleague I work with.",
+   "pl": "To jest kolega, z którym pracuję."
+  },
+  {
+   "en": "This is the colleague (a woman) I work with.",
+   "pl": "To jest koleżanka, z którą pracuję."
+  },
+  {
+   "en": "This is the house I live in.",
+   "pl": "To jest dom, w którym mieszkam."
+  },
+  {
+   "en": "This is the shop where I buy bread.",
+   "pl": "To jest sklep, w którym kupuję chleb."
+  },
+  {
+   "en": "This is the job I was talking about.",
+   "pl": "To jest praca, o której mówiłem."
+  },
+  {
+   "en": "This is the dog that I have.",
+   "pl": "To jest pies, którego mam."
+  },
+  {
+   "en": "This is the brother that you know.",
+   "pl": "To jest brat, którego znasz."
+  },
+  {
+   "en": "This is the bus I am travelling on.",
+   "pl": "To jest autobus, którym jadę."
+  },
+  {
+   "en": "This is the film that I watched.",
+   "pl": "To jest film, który oglądałem."
+  },
+  {
+   "en": "This is the book that I read.",
+   "pl": "To jest książka, którą czytałem."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "To jest film, o ___ mówiłem. (This is the film I was talking about.)",
+   "choices": [
+    "którym",
+    "której",
+    "którą",
+    "którego"
+   ],
+   "answer": "którym",
+   "explain": "film is masculine and o always takes the locative, so którym — the same shape you already use in o nim."
+  },
+  {
+   "prompt": "To jest książka, o ___ mówiłem. (This is the book I was talking about.)",
+   "choices": [
+    "której",
+    "którym",
+    "którą",
+    "którego"
+   ],
+   "answer": "której",
+   "explain": "książka is feminine, and the feminine after o is której — the same shape as the genitive you already know."
+  },
+  {
+   "prompt": "To jest kolega, z ___ pracuję. (This is the colleague I work with.)",
+   "choices": [
+    "którym",
+    "którą",
+    "której",
+    "którego"
+   ],
+   "answer": "którym",
+   "explain": "z takes the instrumental, and for a masculine word that is którym — the very same shape as after o. One form, two jobs."
+  },
+  {
+   "prompt": "To jest koleżanka, z ___ pracuję. (This is the colleague — a woman — I work with.)",
+   "choices": [
+    "którą",
+    "którym",
+    "której",
+    "którego"
+   ],
+   "answer": "którą",
+   "explain": "koleżanka is feminine, and the feminine instrumental is którą — the shape you already use for the object, doing a second job."
+  },
+  {
+   "prompt": "To jest dom, w ___ mieszkam. (This is the house I live in.)",
+   "choices": [
+    "którym",
+    "której",
+    "którą",
+    "który"
+   ],
+   "answer": "którym",
+   "explain": "w takes the locative just as o does, so a masculine word gives którym. Nothing about w changes here."
+  },
+  {
+   "prompt": "To jest pies, ___ mam. (This is the dog that I have.)",
+   "choices": [
+    "którego",
+    "który",
+    "którym",
+    "którą"
+   ],
+   "answer": "którego",
+   "explain": "A dog is alive, and living things take the genitive shape as the object — exactly as in mam małego psa. So którego, not który."
+  },
+  {
+   "prompt": "To jest brat, ___ znasz. (This is the brother that you know.)",
+   "choices": [
+    "którego",
+    "który",
+    "którym",
+    "której"
+   ],
+   "answer": "którego",
+   "explain": "A brother is a person, so the same rule as the dog: którego. It is the object of znasz, and living objects take the genitive shape."
+  },
+  {
+   "prompt": "To jest film, ___ oglądałem. (This is the film that I watched.)",
+   "choices": [
+    "który",
+    "którego",
+    "którym",
+    "którą"
+   ],
+   "answer": "który",
+   "explain": "A film is not alive, so the object shape is simply który — unchanged. This is the pair to the dog above: the only thing that differs is whether the thing is living."
+  },
+  {
+   "prompt": "To jest książka, ___ czytałem. (This is the book that I read.)",
+   "choices": [
+    "którą",
+    "która",
+    "której",
+    "którym"
+   ],
+   "answer": "którą",
+   "explain": "The book is the thing being read, so it is the object, and the feminine object is którą — the job you have had since B1."
+  },
+  {
+   "prompt": "To jest autobus, ___ jadę. (This is the bus I am travelling on.)",
+   "choices": [
+    "którym",
+    "który",
+    "którego",
+    "którą"
+   ],
+   "answer": "którym",
+   "explain": "Travelling by something is the bare instrumental with no preposition at all — autobusem, samochodem — so the pronoun is którym."
+  },
+  {
+   "prompt": "To jest szkoła, w ___ pracuję. (This is the school where I work.)",
+   "choices": [
+    "której",
+    "którym",
+    "którą",
+    "którego"
+   ],
+   "answer": "której",
+   "explain": "szkoła is feminine and w takes the locative, so której — the same shape as after o."
+  },
+  {
+   "prompt": "O ___ jest spotkanie? (At what time is the meeting?)",
+   "choices": [
+    "której",
+    "którym",
+    "którą",
+    "którego"
+   ],
+   "answer": "której",
+   "explain": "This is the old question about the time, which you have said since A2. It happens to be the very same shape as the feminine one in this unit — the words are identical, the job is not."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "This is the film I was talking about.",
+   "mode": "cloze",
+   "answer": "którym",
+   "accepts": [
+    "którym"
+   ],
+   "frame": "To jest film, o ___ mówiłem.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on którym — the unit's single teaches_lemma, in the locative after o."
+  },
+  {
+   "prompt_en": "This is the book I was talking about.",
+   "mode": "cloze",
+   "answer": "której",
+   "accepts": [
+    "której"
+   ],
+   "frame": "To jest książka, o ___ mówiłem.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on której, the feminine shape after o."
+  },
+  {
+   "prompt_en": "This is the colleague I work with.",
+   "mode": "cloze",
+   "answer": "pracuję",
+   "accepts": [
+    "pracuję"
+   ],
+   "frame": "To jest kolega, z którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: którym is spent at item 0 and a second którym answer would duplicate within the stage. Blanks the relative clause's finite verb — the load-bearing form, and the word that selects z + instrumental here. The clause verb is sentence-final in this pattern, so the input sits before the full stop (b2_jesli #6 precedent)."
+  },
+  {
+   "prompt_en": "This is the colleague (a woman) I work with.",
+   "mode": "cloze",
+   "answer": "którą",
+   "accepts": [
+    "którą"
+   ],
+   "frame": "To jest koleżanka, z ___ pracuję.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on którą, the feminine instrumental shape after z."
+  },
+  {
+   "prompt_en": "This is the house I live in.",
+   "mode": "cloze",
+   "answer": "mieszkam",
+   "accepts": [
+    "mieszkam"
+   ],
+   "frame": "To jest dom, w którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: którym spent at item 0. Blanks the clause verb that governs w + locative."
+  },
+  {
+   "prompt_en": "This is the dog that I have.",
+   "mode": "cloze",
+   "answer": "którego",
+   "accepts": [
+    "którego"
+   ],
+   "frame": "To jest pies, ___ mam.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on którego — the animate shape, slide 2's fact."
+  },
+  {
+   "prompt_en": "This is the brother that you know.",
+   "mode": "cloze",
+   "answer": "znasz",
+   "accepts": [
+    "znasz"
+   ],
+   "frame": "To jest brat, którego ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: którego spent at item 5. Blanks the clause verb."
+  },
+  {
+   "prompt_en": "This is the bus I am travelling on.",
+   "mode": "cloze",
+   "answer": "jadę",
+   "accepts": [
+    "jadę"
+   ],
+   "frame": "To jest autobus, którym ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: którym spent at item 0. Blanks the clause verb — the bare instrumental of means, which is what licenses którym with no preposition at all."
+  },
+  {
+   "prompt_en": "This is the job I was talking about.",
+   "mode": "cloze",
+   "answer": "mówiłem",
+   "accepts": [
+    "mówiłem"
+   ],
+   "frame": "To jest praca, o której ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: której spent at item 1. Blanks the clause verb that governs o + locative."
+  },
+  {
+   "prompt_en": "This is the shop where I buy bread.",
+   "mode": "cloze",
+   "answer": "kupuję",
+   "accepts": [
+    "kupuję"
+   ],
+   "frame": "To jest sklep, w którym ___ chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: którym spent at item 0. Blanks the clause verb."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I have a dog that I love.",
+   "answer": "Mam psa, którego kocham.",
+   "accepts": [
+    "Mam psa, którego kocham.",
+    "Mam psa, którego kocham"
+   ],
+   "explain": "psa is already the genitive shape because a dog is alive, and którego matches it for exactly the same reason."
+  },
+  {
+   "prompt_en": "Type: This is the school where I work.",
+   "answer": "To jest szkoła, w której pracuję.",
+   "accepts": [
+    "To jest szkoła, w której pracuję.",
+    "To jest szkoła, w której pracuję"
+   ],
+   "explain": "szkoła is feminine and w takes the locative, so której. English says \"where\", but Polish builds it out of a preposition and this pronoun."
+  },
+  {
+   "prompt_en": "Type: This is the doctor I was talking about.",
+   "answer": "To jest lekarz, o którym mówiłem.",
+   "accepts": [
+    "To jest lekarz, o którym mówiłem.",
+    "To jest lekarz, o którym mówiłem"
+   ],
+   "explain": "A doctor is a person, but that only matters for the object. After o it is the locative that decides, and for a masculine word that is którym."
+  },
+  {
+   "prompt_en": "Type: I like the car that Dad has.",
+   "answer": "Lubię samochód, który tata ma.",
+   "accepts": [
+    "Lubię samochód, który tata ma.",
+    "Lubię samochód, który tata ma"
+   ],
+   "explain": "A car is not alive, so the object shape stays który. Compare psa, którego mam, where it is."
+  },
+  {
+   "prompt_en": "Type: This is the office where I work.",
+   "answer": "To jest biuro, w którym pracuję.",
+   "accepts": [
+    "To jest biuro, w którym pracuję.",
+    "To jest biuro, w którym pracuję"
+   ],
+   "explain": "biuro is neuter, and neuter takes the same którym as masculine — the two genders never split in this case."
+  },
+  {
+   "prompt_en": "Type: This is the sister I live with.",
+   "answer": "To jest siostra, z którą mieszkam.",
+   "accepts": [
+    "To jest siostra, z którą mieszkam.",
+    "To jest siostra, z którą mieszkam"
+   ],
+   "explain": "z takes the instrumental and siostra is feminine, so którą — the same shape as the object, doing its second job."
+  },
+  {
+   "prompt_en": "Type: I have a brother that you know.",
+   "answer": "Mam brata, którego znasz.",
+   "accepts": [
+    "Mam brata, którego znasz.",
+    "Mam brata, którego znasz"
+   ],
+   "explain": "brata and którego both carry the genitive shape, and for the same reason: a brother is a person."
+  },
+  {
+   "prompt_en": "Type: This is the shop I was talking about.",
+   "answer": "To jest sklep, o którym mówiłem.",
+   "accepts": [
+    "To jest sklep, o którym mówiłem.",
+    "To jest sklep, o którym mówiłem"
+   ],
+   "explain": "Same shape as the film and the doctor — after o, any masculine or neuter word gives którym."
+  },
+  {
+   "prompt_en": "Type: This is the coffee that I like.",
+   "answer": "To jest kawa, którą lubię.",
+   "accepts": [
+    "To jest kawa, którą lubię.",
+    "To jest kawa, którą lubię"
+   ],
+   "explain": "The coffee is the thing being liked, so it is the object, and the feminine object is którą."
+  },
+  {
+   "prompt_en": "Type: This is the flat where Mum lives.",
+   "answer": "To jest mieszkanie, w którym mama mieszka.",
+   "accepts": [
+    "To jest mieszkanie, w którym mama mieszka.",
+    "To jest mieszkanie, w którym mama mieszka"
+   ],
+   "explain": "mieszkanie is neuter, so w którym — and notice the person doing the living sits inside the second half, exactly where you would say it on its own."
+  }
+ ],
+ "uses_lemmas": [
+  "który",
+  "która",
+  "które",
+  "którą",
+  "której",
+  "którego",
+  "kogo",
+  "mówiłem",
+  "oglądałem",
+  "czytałem",
+  "mieszkam",
+  "mieszka",
+  "pracuję",
+  "kupuję",
+  "kocham",
+  "lubię",
+  "znasz",
+  "jadę",
+  "mam",
+  "ma",
+  "jest",
+  "film",
+  "książka",
+  "kolega",
+  "koleżanka",
+  "dom",
+  "sklep",
+  "praca",
+  "pies",
+  "psa",
+  "brat",
+  "brata",
+  "autobus",
+  "autobusem",
+  "samochód",
+  "samochodem",
+  "szkoła",
+  "biuro",
+  "mieszkanie",
+  "lekarz",
+  "siostra",
+  "kawa",
+  "chleb",
+  "spotkanie",
+  "mama",
+  "tata",
+  "o której",
+  "dobrym",
+  "dobrej",
+  "dobrą",
+  "dobrego",
+  "małego",
+  "nowej",
+  "nim",
+  "niej",
+  "nią",
+  "kim"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_ktory_full",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

@@ -1,0 +1,752 @@
+{
+  "id": "a2_plural_nom",
+  "title": "Liczba mnoga",
+  "title_en": "Plural",
+  "level": "A2",
+  "tree_node": "a2_plural_nom",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "NON-VIRILE ONLY. Four noun endings (-y / -i after k,g / -e soft / -a neuter) plus one adjective rule (-e always). The k/g -> -i branch is the payoff of a1_gen_ki ('Polish never writes y after k or g') and is called out as the same fact doing a second job — intro slide 2 says so in words, and the explains on banki/apteki/parki repeat it. Accusative plural = Nominative plural for every non-virile noun: taught explicitly on intro slide 6 and drilled in use_items (Mam nowe książki, Tata czytał gazety). FENCED, appear nowhere in this file: the suppletive/irregular plurals of dziecko, oko, ucho, ręka, człowiek and the plural-only money word; every virile (male-person) plural; and pokój, whose stem vowel shifts. See NIGHT-BATCH-3 for the explicit list. Past tense stays SINGULAR here — plural past (-li/-ły) is a2_past_plural, which lands next; plural nouns therefore appear as objects of a singular-subject past verb, or as subjects of present-tense są. Numerals excluded (a2_numbers_gen). No negation over a plural object — that would demand the genitive plural, which is a2_gen_pl.",
+  "focus_structures": [
+    "plural_nom"
+  ],
+  "teaches_structures": [
+    "plural_nom"
+  ],
+  "uses_structures": [
+    "plural_nom",
+    "byc_present",
+    "byc_adj",
+    "to_jest",
+    "poss_nom",
+    "miec_acc",
+    "past_ac",
+    "gen_endings",
+    "question",
+    "present_am"
+  ],
+  "intro": [
+    {
+      "title": "Mianownik liczby mnogiej — the plural: -y",
+      "title_pl": "Liczba mnoga: -y",
+      "body": "The plural is a form of the noun, and this unit builds it in the nominative — the case a noun takes as the subject of a sentence, and its dictionary form.\n\nMost nouns take -y. A noun ending in a consonant adds it: sklep → sklepy. A noun ending in -a swaps that -a for -y: gazeta → gazety.\n\nThis is the main rule; the three slides that follow are its exceptions.\n\nOne more form: to jest (this is) becomes to są in the plural.",
+      "body_pl": "Większość rzeczowników: -y. sklep → sklepy, gazeta → gazety. To jest → to są.",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "sklep",
+            "sklepy",
+            "shops"
+          ],
+          [
+            "dom",
+            "domy",
+            "houses"
+          ],
+          [
+            "kot",
+            "koty",
+            "cats"
+          ],
+          [
+            "film",
+            "filmy",
+            "films"
+          ],
+          [
+            "telefon",
+            "telefony",
+            "telephones"
+          ],
+          [
+            "gazeta",
+            "gazety",
+            "newspapers"
+          ],
+          [
+            "kawa",
+            "kawy",
+            "coffees"
+          ],
+          [
+            "szkoła",
+            "szkoły",
+            "schools"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These are my newspapers.",
+          "pl": "To są moje gazety."
+        }
+      ],
+      "title_en": "Nominative plural: -y"
+    },
+    {
+      "title": "After k and g: -i, never -y",
+      "title_pl": "Po k i g: -i, nigdy -y",
+      "body": "You already know this one. When you learned the genitive, a single spelling fact finished the rule: Polish never writes y after k or g. That is why it was apteki and książki, never apteky.\n\nIt is the same fact here, doing a second job. A word whose stem ends in k or g takes -i in the plural, for exactly the same reason:\n\nbank → banki · park → parki · książka → książki\n\nNothing new to learn. One fact, two rules.",
+      "body_pl": "Po k i g nigdy nie piszemy y — więc w liczbie mnogiej -i: bank → banki, książka → książki.",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "bank",
+            "banki",
+            "banks"
+          ],
+          [
+            "park",
+            "parki",
+            "parks"
+          ],
+          [
+            "książka",
+            "książki",
+            "books"
+          ],
+          [
+            "apteka",
+            "apteki",
+            "pharmacies"
+          ],
+          [
+            "córka",
+            "córki",
+            "daughters"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A small group takes -e",
+      "title_pl": "Miękkie zakończenia: -e",
+      "body": "A few words end in a soft sound — written -l, -cz, -c or -j. These take -e.\n\nThere are not many of them at this level, so learn these three whole and you have the group:\n\nhotel → hotele · klucz → klucze · lekcja → lekcje\n\nWatch lekcja. It ends in -a, so you would expect -y. But the sound in front of the -a is the soft -j-, and after a soft sound the ending is -e.",
+      "body_pl": "Miękkie zakończenia biorą -e: hotel → hotele, klucz → klucze, lekcja → lekcje.",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "hotel",
+            "hotele",
+            "hotels"
+          ],
+          [
+            "klucz",
+            "klucze",
+            "keys"
+          ],
+          [
+            "lekcja",
+            "lekcje",
+            "lessons"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Neuter words take -a",
+      "title_pl": "Rodzaj nijaki: -a",
+      "body": "Neuter nouns — the ones ending in -o — swap the -o for -a.\n\nThis one looks odd at first, because -a is also how a feminine singular word ends: kawa, gazeta. But on a word that ended in -o, the -a can only mean more than one.",
+      "body_pl": "Rodzaj nijaki: -o → -a. piwo → piwa, miasto → miasta.",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "piwo",
+            "piwa",
+            "beers"
+          ],
+          [
+            "miasto",
+            "miasta",
+            "cities"
+          ],
+          [
+            "okno",
+            "okna",
+            "windows"
+          ],
+          [
+            "biuro",
+            "biura",
+            "offices"
+          ],
+          [
+            "wino",
+            "wina",
+            "wines"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Adjectives: always -e",
+      "title_pl": "Przymiotniki: zawsze -e",
+      "body": "The nouns have four endings. The adjectives have one.\n\nWhatever the noun is — masculine, feminine or neuter — the adjective in front of it takes -e. There is nothing to choose:\n\ndobre domy · małe koty · nowe książki · duże miasta\n\nA neuter noun already had -e in the singular (duże miasto), so on those nothing changes at all.",
+      "body_pl": "Przymiotnik w liczbie mnogiej zawsze -e: dobre domy, małe koty, nowe książki, duże miasta.",
+      "table": {
+        "headers": [
+          "One",
+          "More than one"
+        ],
+        "rows": [
+          [
+            "dobry dom",
+            "dobre domy"
+          ],
+          [
+            "mały kot",
+            "małe koty"
+          ],
+          [
+            "nowa książka",
+            "nowe książki"
+          ],
+          [
+            "duże miasto",
+            "duże miasta"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Biernik = mianownik (w liczbie mnogiej)",
+      "title_pl": "Biernik = mianownik",
+      "body": "In the singular, a noun changes when it becomes the object of a verb — the accusative: kawa → Mam kawę, książka → Mam książkę.\n\nIn the plural it does not. The form you have just learned does both jobs unchanged:\n\nKsiążki są nowe. — The books are new. (subject · nominative)\nMam nowe książki. — I have new books. (object · accusative)\n\nFor these nouns the accusative plural and the nominative plural are the same form. That is one fewer ending to learn, and it holds for every noun in this unit.",
+      "body_pl": "W liczbie mnogiej biernik = mianownik: Książki są nowe. Mam nowe książki.",
+      "examples": [
+        {
+          "en": "The shops are new.",
+          "pl": "Sklepy są nowe."
+        },
+        {
+          "en": "I have new books.",
+          "pl": "Mam nowe książki."
+        },
+        {
+          "en": "Dad was reading newspapers.",
+          "pl": "Tata czytał gazety."
+        },
+        {
+          "en": "I have the keys.",
+          "pl": "Mam klucze."
+        }
+      ],
+      "title_en": "Accusative plural = Nominative plural"
+    }
+  ],
+  "match": [
+    {
+      "en": "shops · sklep",
+      "pl": "sklepy"
+    },
+    {
+      "en": "houses · dom",
+      "pl": "domy"
+    },
+    {
+      "en": "newspapers · gazeta",
+      "pl": "gazety"
+    },
+    {
+      "en": "banks · bank",
+      "pl": "banki"
+    },
+    {
+      "en": "books · książka",
+      "pl": "książki"
+    },
+    {
+      "en": "pharmacies · apteka",
+      "pl": "apteki"
+    },
+    {
+      "en": "hotels · hotel",
+      "pl": "hotele"
+    },
+    {
+      "en": "keys · klucz",
+      "pl": "klucze"
+    },
+    {
+      "en": "beers · piwo",
+      "pl": "piwa"
+    },
+    {
+      "en": "cities · miasto",
+      "pl": "miasta"
+    },
+    {
+      "en": "good, plural · dobry",
+      "pl": "dobre"
+    },
+    {
+      "en": "new, plural · nowy",
+      "pl": "nowe"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "sklep →",
+      "choices": [
+        "sklepy",
+        "sklepi",
+        "sklepe",
+        "sklepie"
+      ],
+      "answer": "sklepy"
+    },
+    {
+      "prompt": "dom →",
+      "choices": [
+        "domy",
+        "domi",
+        "doma",
+        "domu"
+      ],
+      "answer": "domy"
+    },
+    {
+      "prompt": "bank →",
+      "choices": [
+        "banki",
+        "banky",
+        "banke",
+        "banku"
+      ],
+      "answer": "banki",
+      "explain": "The stem ends in k, and Polish never writes y after k or g — the same fact that gave you apteki instead of apteky. So the plural ending has to be -i."
+    },
+    {
+      "prompt": "apteka →",
+      "choices": [
+        "apteki",
+        "apteky",
+        "aptekę",
+        "apteka"
+      ],
+      "answer": "apteki",
+      "explain": "k refuses y, so the ending is -i. You met this word doing exactly the same thing in the genitive — one fact, two jobs."
+    },
+    {
+      "prompt": "Fix: parky →",
+      "choices": [
+        "parki",
+        "parky",
+        "parke",
+        "parku"
+      ],
+      "answer": "parki",
+      "explain": "parky is not a possible Polish spelling. After k the vowel is written i, never y."
+    },
+    {
+      "prompt": "piwo →",
+      "choices": [
+        "piwa",
+        "piwy",
+        "piwe",
+        "piwi"
+      ],
+      "answer": "piwa",
+      "explain": "Words ending in -o are neuter, and neuter swaps the -o for -a. The -y ending belongs to the masculine and feminine words."
+    },
+    {
+      "prompt": "miasto →",
+      "choices": [
+        "miasta",
+        "miasty",
+        "mieście",
+        "miasto"
+      ],
+      "answer": "miasta"
+    },
+    {
+      "prompt": "hotel →",
+      "choices": [
+        "hotele",
+        "hotely",
+        "hotelu",
+        "hotel"
+      ],
+      "answer": "hotele",
+      "explain": "hotel ends in a soft -l, and soft endings take -e. It is a small group — hotel, klucz, lekcja — worth learning whole."
+    },
+    {
+      "prompt": "Domy są ___ .",
+      "choices": [
+        "duże",
+        "duży",
+        "duża",
+        "dużo"
+      ],
+      "answer": "duże",
+      "explain": "Adjectives have only one plural ending. Whatever the noun is, the adjective takes -e — so there is no gender choice left to make here."
+    },
+    {
+      "prompt": "Mam nowe ___ .",
+      "choices": [
+        "filmy",
+        "film",
+        "filmie",
+        "filma"
+      ],
+      "answer": "filmy",
+      "explain": "The word is the object, but in the plural the object form is the same as the subject form. Nothing extra happens to it — unlike the singular, where kawa became kawę."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "shops · sklep",
+      "mode": "full_word",
+      "answer": "sklepy",
+      "accepts": [
+        "sklepy"
+      ]
+    },
+    {
+      "prompt_en": "houses · dom",
+      "mode": "full_word",
+      "answer": "domy",
+      "accepts": [
+        "domy"
+      ]
+    },
+    {
+      "prompt_en": "cats · kot",
+      "mode": "full_word",
+      "answer": "koty",
+      "accepts": [
+        "koty"
+      ]
+    },
+    {
+      "prompt_en": "newspapers · gazeta",
+      "mode": "full_word",
+      "answer": "gazety",
+      "accepts": [
+        "gazety"
+      ],
+      "explain": "A word ending in -a does not keep it. The -a is swapped for the plural -y, not added to."
+    },
+    {
+      "prompt_en": "schools · szkoła",
+      "mode": "full_word",
+      "answer": "szkoły",
+      "accepts": [
+        "szkoły"
+      ]
+    },
+    {
+      "prompt_en": "banks · bank",
+      "mode": "full_word",
+      "answer": "banki",
+      "accepts": [
+        "banki"
+      ],
+      "explain": "Polish never writes y after k or g — the rule you already used for apteki. So this one can only end -i."
+    },
+    {
+      "prompt_en": "parks · park",
+      "mode": "full_word",
+      "answer": "parki",
+      "accepts": [
+        "parki"
+      ]
+    },
+    {
+      "prompt_en": "books · książka",
+      "mode": "full_word",
+      "answer": "książki",
+      "accepts": [
+        "książki"
+      ],
+      "explain": "Same k, same rule, same ending you wrote in the genitive. The spelling fact does not care which case you are in."
+    },
+    {
+      "prompt_en": "pharmacies · apteka",
+      "mode": "full_word",
+      "answer": "apteki",
+      "accepts": [
+        "apteki"
+      ]
+    },
+    {
+      "prompt_en": "daughters · córka",
+      "mode": "full_word",
+      "answer": "córki",
+      "accepts": [
+        "córki"
+      ]
+    },
+    {
+      "prompt_en": "hotels · hotel",
+      "mode": "full_word",
+      "answer": "hotele",
+      "accepts": [
+        "hotele"
+      ],
+      "explain": "Soft ending, so -e. If you wrote hotely you were reaching for the main rule; this is one of the small group that sits outside it."
+    },
+    {
+      "prompt_en": "keys · klucz",
+      "mode": "full_word",
+      "answer": "klucze",
+      "accepts": [
+        "klucze"
+      ]
+    },
+    {
+      "prompt_en": "lessons · lekcja",
+      "mode": "full_word",
+      "answer": "lekcje",
+      "accepts": [
+        "lekcje"
+      ],
+      "explain": "It ends in -a, so -y looks right — but the sound in front of the -a is soft, and a soft sound always pulls -e."
+    },
+    {
+      "prompt_en": "beers · piwo",
+      "mode": "full_word",
+      "answer": "piwa",
+      "accepts": [
+        "piwa"
+      ]
+    },
+    {
+      "prompt_en": "cities · miasto",
+      "mode": "full_word",
+      "answer": "miasta",
+      "accepts": [
+        "miasta"
+      ]
+    },
+    {
+      "prompt_en": "windows · okno",
+      "mode": "full_word",
+      "answer": "okna",
+      "accepts": [
+        "okna"
+      ]
+    },
+    {
+      "prompt_en": "good, plural · dobry",
+      "mode": "full_word",
+      "answer": "dobre",
+      "accepts": [
+        "dobre"
+      ]
+    },
+    {
+      "prompt_en": "new, plural · nowy",
+      "mode": "full_word",
+      "answer": "nowe",
+      "accepts": [
+        "nowe"
+      ],
+      "explain": "There is no gender to work out. Every adjective in front of a plural noun ends -e."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The shops are new.",
+      "answer": "Sklepy są nowe.",
+      "accepts": [
+        "Sklepy są nowe.",
+        "Sklepy są nowe"
+      ]
+    },
+    {
+      "prompt_en": "Type: The houses are big.",
+      "answer": "Domy są duże.",
+      "accepts": [
+        "Domy są duże.",
+        "Domy są duże"
+      ]
+    },
+    {
+      "prompt_en": "Type: The cats are small.",
+      "answer": "Koty są małe.",
+      "accepts": [
+        "Koty są małe.",
+        "Koty są małe"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have new books.",
+      "answer": "Mam nowe książki.",
+      "accepts": [
+        "Mam nowe książki.",
+        "Mam nowe książki"
+      ],
+      "explain": "In the singular this would have been Mam nową książkę — both words changed. In the plural neither does: the object form and the subject form are the same word."
+    },
+    {
+      "prompt_en": "Type: Dad was reading newspapers.",
+      "answer": "Tata czytał gazety.",
+      "accepts": [
+        "Tata czytał gazety.",
+        "Tata czytał gazety"
+      ],
+      "explain": "gazety is the object here, and it is still the plain plural — nothing is added to it. In the singular an object always changed shape: Mam kawę, never Mam kawa."
+    },
+    {
+      "prompt_en": "Type: Anna loved cats.",
+      "answer": "Anna kochała koty.",
+      "accepts": [
+        "Anna kochała koty.",
+        "Anna kochała koty"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have the keys.",
+      "answer": "Mam klucze.",
+      "accepts": [
+        "Mam klucze.",
+        "Mam klucze"
+      ]
+    },
+    {
+      "prompt_en": "Type: The cities are big.",
+      "answer": "Miasta są duże.",
+      "accepts": [
+        "Miasta są duże.",
+        "Miasta są duże"
+      ]
+    },
+    {
+      "prompt_en": "Type: Are the hotels good?",
+      "answer": "Czy hotele są dobre?",
+      "accepts": [
+        "Czy hotele są dobre?",
+        "Czy hotele są dobre",
+        "Hotele są dobre?",
+        "Hotele są dobre"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was buying films.",
+      "answer": "Tata kupował filmy.",
+      "accepts": [
+        "Tata kupował filmy.",
+        "Tata kupował filmy"
+      ]
+    },
+    {
+      "prompt_en": "Type: The lessons are good.",
+      "answer": "Lekcje są dobre.",
+      "accepts": [
+        "Lekcje są dobre.",
+        "Lekcje są dobre"
+      ]
+    },
+    {
+      "prompt_en": "Type: The windows are small.",
+      "answer": "Okna są małe.",
+      "accepts": [
+        "Okna są małe.",
+        "Okna są małe"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "sklepy",
+    "domy",
+    "koty",
+    "filmy",
+    "telefony",
+    "gazety",
+    "banki",
+    "parki",
+    "córki",
+    "hotele",
+    "lekcje",
+    "okna",
+    "wina",
+    "nowe",
+    "duże",
+    "to są"
+  ],
+  "uses_lemmas": [
+    "sklep",
+    "dom",
+    "kot",
+    "film",
+    "telefon",
+    "gazeta",
+    "kawa",
+    "szkoła",
+    "bank",
+    "park",
+    "książka",
+    "apteka",
+    "córka",
+    "hotel",
+    "klucz",
+    "lekcja",
+    "piwo",
+    "miasto",
+    "okno",
+    "biuro",
+    "wino",
+    "dobry",
+    "nowy",
+    "duży",
+    "mały",
+    "kawy",
+    "szkoły",
+    "książki",
+    "apteki",
+    "klucze",
+    "piwa",
+    "miasta",
+    "biura",
+    "dobre",
+    "małe",
+    "są",
+    "to",
+    "moje",
+    "mam",
+    "czy",
+    "tata",
+    "anna",
+    "czytał",
+    "kupował",
+    "kochała",
+    "kawę",
+    "książkę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_plural_nom",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

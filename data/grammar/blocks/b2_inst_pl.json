@@ -1,0 +1,625 @@
+{
+ "id": "b2_inst_pl",
+ "title": "Z rodzicami, z dziećmi · narzędnik",
+ "title_en": "The Instrumental plural · -ami, and three words that refuse",
+ "level": "B2",
+ "tree_node": "b2_inst_pl",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 5, unit 2 of 7 (spine O9). PAYS a2_inst_z's NAMED FENCE, which reads 'plural instrumental (z rodzicami, z dziecmi) - B1, different ending set'. It named both phrases, so both are paid here rather than half of it.\n\nONE JOB ONLY, DELIBERATELY. The Instrumental has three owned duties - identity (jestem studentem, a1_inst_job), companionship (z bratem, a2_inst_z) and transport (jade autobusem, a2_inst_transport). This unit drills the plural in ONE of them, companionship after z, mirroring a2_inst_z's own 'deliberately ONE new thing' framing. The identity plural (jestesmy studentami) and any plural transport are held; they cost no new ending, only a second job on the same day, and jestesmy studentami is a natural top-up if the unit plays thin. LOGGED FORK.\n\nTWELVE NEW FORMS, all verified NEW: rodzicami, dziecmi, kolegami, siostrami, corkami, synami, bracmi, ludzmi, klientami, pacjentami, kotami, ciociami.\n\nTHE ANCHOR IS a2_inst_z's OWN BOARD. Five of its twelve singulars come back as the intro's left-hand column - z synem, z kolega, z siostra, z corka, z ciocia, all reported TAUGHT <- a2_inst_z [path 64] - so slide 1 shows that -em and -a alike collapse into one plural ending. Slide 3 pairs this against b2_loc_pl one node earlier: -ach after w/na/o, -ami after z. That unit's gorach and domach are recycled here, which is the whole reason the two sit next to each other.\n\nTHREE WORDS REFUSE, AND THAT IS A DELIBERATE EXTENSION BEYOND THE SPINE'S LIST - flagged, not silent. B2-SPINE O9 left dziecmi/ludzmi to the author as 'taught whole or fenced'. Both are taught whole. bracmi is the third and the spine did not name it; it is included because a2_inst_z made z bratem the FIRST item on its board, so brat is the noun this learner has said most often in exactly this construction, and a unit that teaches -ami while leaving brat alone hands him a wrong form he has every reason to build. Three memorised strings in one clearly-marked box is this course's standing closed-set idiom (a2_gen_pl's lists, b2_reported's five forms of powiedziec), not a second system - and the framing is already owned: a2_family2 taught dziecko -> dzieci with the words 'It is one of a handful of words you learn whole rather than build', which slide 4 quotes back at him.\n\nNO NON-WORD IS EVER PRINTED. The obvious way to teach an exception is to show the form it is not, and the two candidates here are both fabrications. Slide 4 therefore says brat 'does not simply add -ami' rather than spelling out what a learner might otherwise produce, and no Kontrola choice list contains an invented string - every wrong button is a real form some earlier pack teaches.\n\nDISTRACTORS. Where a2_inst_z or A1 left four owned forms of a noun, the choice list is that noun's own paradigm and nothing else: brat gives braCmi/bratem/brat/brata, dziecko gives dziecmi/dzieckiem/dziecko/dzieci, kot gives kotami/koty/kota/kotow, corka gives corkami/corka/corka/corki. Where only three owned forms exist (kolega, ciocia, klient, pacjent, rodzice), the fourth button is another noun's REAL -ami form in the wrong meaning, and the explain says so - a semantic near-miss rather than a fabricated one. corki is used as the NOMINATIVE PLURAL a2_plural_nom taught, which is also AGENTS.md's own homograph example for that string.\n\nze IS VERIFIED NEW AND SHAPED THE WORD LIST. z becomes ze before an s-cluster, so ze studentami would have been the natural 'with students' row - but check_new.py reports ze NEW (a1_prep_do_z taught only the whole chunks ze szkoly and ze sklepu, never the bare preposition). studentami was dropped for that reason alone and klientami/pacjentami took its place; every one of the twelve rows takes plain z.\n\nFENCED, all verified NEW: przyjaciolmi and gosCmi, two further -mi irregulars - a2_inst_z already fenced z przyjacielem for its declension, and adding a fourth and fifth exception would turn a marked box into a paradigm; lekarzami and nauczycielami (lekarze and nauczyciele appear as SUBJECTS only); bracia, synowie, siostry, ciocie, kolegi, syna, cioci, klienta, pacjenta, kotem, czlowiek - so ludzie is handed over with no singular anchor at all, which slide 4 states rather than works around; rozmawiam/rozmawia (a2_phone_func owns only the infinitive rozmawiac), which cost the most natural sentence in the unit; razem, spotykam, w pilke, na wakacje. NO DATIVE PLURAL of any kind - rodzicom, dzieciom, ludziom are b2_dat_pl's entire content on the very next node and appear nowhere here, not as a distractor. No plural adjectives (spine O3 -> C1), so this unit is bare-noun throughout, exactly like b2_loc_pl.\n\nCHUNK-TAG LESSON FROM b2_loc_pl, applied here from the start: a1_prep_place drills w mieszkaniu on its board but declares only mieszkaniu in teaches_lemmas, so tagging the chunk failed the audit. Only forms that are genuinely declared somewhere are tagged as chunks in this pack (w domu, w parku, w gorach, do sklepu, z bratem, z synem, z kolega, z siostra, z corka, z ciocia); everything else is tagged word by word.",
+ "focus_structures": [
+  "inst_pl"
+ ],
+ "teaches_structures": [
+  "inst_pl"
+ ],
+ "teaches_lemmas": [
+  "rodzicami",
+  "dziećmi",
+  "kolegami",
+  "siostrami",
+  "córkami",
+  "synami",
+  "braćmi",
+  "ludźmi",
+  "klientami",
+  "pacjentami",
+  "kotami",
+  "ciociami"
+ ],
+ "uses_structures": [
+  "inst_pl",
+  "inst_z",
+  "loc_pl",
+  "prep_w_loc",
+  "prep_place",
+  "prep_do_gen",
+  "byc_present",
+  "present",
+  "present_uje",
+  "present_e_isz",
+  "past_byc",
+  "past_plural",
+  "virile_past",
+  "plural_nom",
+  "virile_nom",
+  "gen_pl",
+  "gen_endings",
+  "miec_acc",
+  "conjunctions",
+  "poss_nom"
+ ],
+ "intro": [
+  {
+   "title": "One more ending — and it behaves exactly like last lesson's",
+   "title_pl": "z synem → z synami",
+   "body": "You have been saying z bratem, z siostrą, z kolegą since A2 — with, plus one person. For more than one the ending is -ami. And it is the same gift as last lesson: it does not care about gender. It does not even care which singular ending the word had. Whether it was -em or -ą, the plural is -ami.",
+   "body_pl": "-ami · narzędnik, liczba mnoga",
+   "table": {
+    "headers": [
+     "Singular ending",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "-em",
+      "z synem",
+      "z synami"
+     ],
+     [
+      "-ą",
+      "z kolegą",
+      "z kolegami"
+     ],
+     [
+      "-ą",
+      "z siostrą",
+      "z siostrami"
+     ],
+     [
+      "-ą",
+      "z córką",
+      "z córkami"
+     ],
+     [
+      "-ą",
+      "z ciocią",
+      "z ciociami"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Where the ending goes — the same move as last lesson",
+   "title_pl": "kot → kotami · siostra → siostrami",
+   "body": "Nothing new to work out. Start from the plain dictionary word, drop a final vowel if there is one, and add -ami instead of -ach. If you can build w domach, you can build z kotami.",
+   "body_pl": "słowo + -ami",
+   "table": {
+    "headers": [
+     "Plain word",
+     "Drop",
+     "Add -ami"
+    ],
+    "rows": [
+     [
+      "syn",
+      "nothing",
+      "synami"
+     ],
+     [
+      "klient",
+      "nothing",
+      "klientami"
+     ],
+     [
+      "kot",
+      "nothing",
+      "kotami"
+     ],
+     [
+      "siostra",
+      "-a",
+      "siostrami"
+     ],
+     [
+      "córka",
+      "-a",
+      "córkami"
+     ],
+     [
+      "ciocia",
+      "-a",
+      "ciociami"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Two lessons, two endings — the little word decides",
+   "title_pl": "w domach · z rodzicami",
+   "body": "Last lesson you learned -ach, and it turns up after w, na and o. This lesson gives you -ami, and it turns up after z. That is exactly how the two behaved in the singular — w domu next to z bratem — so there is no new decision to make. Look at the little word in front and it tells you which ending you need.",
+   "body_pl": "w · na · o → -ach   ·   z → -ami",
+   "table": {
+    "headers": [
+     "Little word",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "w",
+      "w domu",
+      "w domach"
+     ],
+     [
+      "o",
+      "o szkole",
+      "o szkołach"
+     ],
+     [
+      "z",
+      "z synem",
+      "z synami"
+     ],
+     [
+      "z",
+      "z córką",
+      "z córkami"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Three words refuse — learn them whole",
+   "title_pl": "z dziećmi · z braćmi · z ludźmi",
+   "body": "You have met this before. When you learned dziecko → dzieci, you were told it is one of a handful of words you learn whole rather than build. Three of the words you own do the same thing here: they take -mi instead of -ami. There is nothing to work out and nothing to guess — these three, and you have them all. Watch brat especially: you have been saying z bratem since A2, and its plural does not simply add -ami. And ludzie has no singular you have learned at all, so take it exactly as it stands.",
+   "body_pl": "-mi: dziećmi · braćmi · ludźmi",
+   "table": {
+    "headers": [
+     "Word you know",
+     "With more than one",
+     "Ending"
+    ],
+    "rows": [
+     [
+      "dziecko",
+      "z dziećmi",
+      "-mi"
+     ],
+     [
+      "brat",
+      "z braćmi",
+      "-mi"
+     ],
+     [
+      "ludzie",
+      "z ludźmi",
+      "-mi"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "with my parents",
+   "pl": "z rodzicami"
+  },
+  {
+   "en": "with the children",
+   "pl": "z dziećmi"
+  },
+  {
+   "en": "with friends",
+   "pl": "z kolegami"
+  },
+  {
+   "en": "with my sisters",
+   "pl": "z siostrami"
+  },
+  {
+   "en": "with my daughters",
+   "pl": "z córkami"
+  },
+  {
+   "en": "with my sons",
+   "pl": "z synami"
+  },
+  {
+   "en": "with my brothers",
+   "pl": "z braćmi"
+  },
+  {
+   "en": "with people",
+   "pl": "z ludźmi"
+  },
+  {
+   "en": "with clients",
+   "pl": "z klientami"
+  },
+  {
+   "en": "with patients",
+   "pl": "z pacjentami"
+  },
+  {
+   "en": "with the cats",
+   "pl": "z kotami"
+  },
+  {
+   "en": "with my aunts",
+   "pl": "z ciociami"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Byłem w parku z ___ . (with my brothers)",
+   "choices": [
+    "braćmi",
+    "bratem",
+    "brat",
+    "brata"
+   ],
+   "answer": "braćmi",
+   "explain": "brat is one of the three that refuse -ami. bratem is one brother, the form you have used since A2, and brata is the form after mam."
+  },
+  {
+   "prompt": "Tata jest w domu z ___ . (with the children)",
+   "choices": [
+    "dziećmi",
+    "dzieckiem",
+    "dzieci",
+    "dziecko"
+   ],
+   "answer": "dziećmi",
+   "explain": "dzieci is the subject form — Dzieci są w szkole. After z it becomes dziećmi, the second of the three you learn whole."
+  },
+  {
+   "prompt": "Dzieci grają z ___ . (with the cats)",
+   "choices": [
+    "kotami",
+    "koty",
+    "kota",
+    "kotów"
+   ],
+   "answer": "kotami",
+   "explain": "kot is regular, so z takes -ami. koty is the subject form and kotów is the genitive plural — the one that goes after dużo, never after z."
+  },
+  {
+   "prompt": "Mama idzie do sklepu z ___ . (with her daughters)",
+   "choices": [
+    "córkami",
+    "córką",
+    "córki",
+    "córka"
+   ],
+   "answer": "córkami",
+   "explain": "z córką is one daughter. córki is the subject form — Córki są w domu — not a plural you can put after z."
+  },
+  {
+   "prompt": "Tata pracuje z ___ . (with clients)",
+   "choices": [
+    "klientami",
+    "klienci",
+    "klient",
+    "kolegami"
+   ],
+   "answer": "klientami",
+   "explain": "klienci is the subject form — Klienci są w sklepie. kolegami is a real form of this lesson, but it means friends, not clients."
+  },
+  {
+   "prompt": "Lekarze pracują z ___ . (with patients)",
+   "choices": [
+    "pacjentami",
+    "pacjenci",
+    "pacjent",
+    "dziećmi"
+   ],
+   "answer": "pacjentami",
+   "explain": "pacjent is regular, so it takes -ami like klient and kot. pacjenci is the subject form."
+  },
+  {
+   "prompt": "Byliśmy w górach z ___ . (with our parents)",
+   "choices": [
+    "rodzicami",
+    "rodzice",
+    "ciociami",
+    "córkami"
+   ],
+   "answer": "rodzicami",
+   "explain": "rodzice is the subject form — Rodzice są w domu. When you first learned z bratem and z mamą, this was the one phrase that had to wait; it is here now."
+  },
+  {
+   "prompt": "Babcia mieszka z ___ . (with my aunts)",
+   "choices": [
+    "ciociami",
+    "ciocią",
+    "ciocia",
+    "siostrami"
+   ],
+   "answer": "ciociami",
+   "explain": "z ciocią is one aunt. siostrami is a real form from this lesson, but it means sisters."
+  },
+  {
+   "prompt": "Moja siostra mieszka z ___ . (with friends)",
+   "choices": [
+    "kolegami",
+    "kolegą",
+    "kolega",
+    "klientami"
+   ],
+   "answer": "kolegami",
+   "explain": "kolega ends in -a but is not feminine, and it never mattered: -ami lands on it exactly as it lands on kot and siostra."
+  },
+  {
+   "prompt": "Mum is at home with the children. →",
+   "choices": [
+    "Mama jest w domu z dziećmi.",
+    "Mama jest w domach z dziećmi.",
+    "Mama jest w domu z dzieckiem.",
+    "Mama jest w domach z dzieckiem."
+   ],
+   "answer": "Mama jest w domu z dziećmi.",
+   "explain": "Two little words, two decisions, and they are independent. One house keeps w domu; more than one child needs dziećmi. Each of the other three gets exactly one of the two wrong."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "with my parents",
+   "mode": "full_word",
+   "answer": "z rodzicami",
+   "accepts": [
+    "z rodzicami"
+   ]
+  },
+  {
+   "prompt_en": "with the children",
+   "mode": "full_word",
+   "answer": "z dziećmi",
+   "accepts": [
+    "z dziećmi"
+   ]
+  },
+  {
+   "prompt_en": "with my brothers",
+   "mode": "full_word",
+   "answer": "z braćmi",
+   "accepts": [
+    "z braćmi"
+   ]
+  },
+  {
+   "prompt_en": "with people",
+   "mode": "full_word",
+   "answer": "z ludźmi",
+   "accepts": [
+    "z ludźmi"
+   ]
+  },
+  {
+   "prompt_en": "with friends",
+   "mode": "full_word",
+   "answer": "z kolegami",
+   "accepts": [
+    "z kolegami"
+   ]
+  },
+  {
+   "prompt_en": "with my sisters",
+   "mode": "full_word",
+   "answer": "z siostrami",
+   "accepts": [
+    "z siostrami"
+   ]
+  },
+  {
+   "prompt_en": "with my daughters",
+   "mode": "full_word",
+   "answer": "z córkami",
+   "accepts": [
+    "z córkami"
+   ]
+  },
+  {
+   "prompt_en": "with my sons",
+   "mode": "full_word",
+   "answer": "z synami",
+   "accepts": [
+    "z synami"
+   ]
+  },
+  {
+   "prompt_en": "with clients",
+   "mode": "full_word",
+   "answer": "z klientami",
+   "accepts": [
+    "z klientami"
+   ]
+  },
+  {
+   "prompt_en": "with patients",
+   "mode": "full_word",
+   "answer": "z pacjentami",
+   "accepts": [
+    "z pacjentami"
+   ]
+  },
+  {
+   "prompt_en": "with the cats",
+   "mode": "full_word",
+   "answer": "z kotami",
+   "accepts": [
+    "z kotami"
+   ]
+  },
+  {
+   "prompt_en": "with my aunts",
+   "mode": "full_word",
+   "answer": "z ciociami",
+   "accepts": [
+    "z ciociami"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Dad works with clients.",
+   "answer": "Tata pracuje z klientami.",
+   "accepts": [
+    "Tata pracuje z klientami.",
+    "Tata pracuje z klientami"
+   ]
+  },
+  {
+   "prompt_en": "Type: The doctors work with patients.",
+   "answer": "Lekarze pracują z pacjentami.",
+   "accepts": [
+    "Lekarze pracują z pacjentami.",
+    "Lekarze pracują z pacjentami"
+   ]
+  },
+  {
+   "prompt_en": "Type: We were in the mountains with our parents.",
+   "answer": "Byliśmy w górach z rodzicami.",
+   "accepts": [
+    "Byliśmy w górach z rodzicami.",
+    "Byliśmy w górach z rodzicami"
+   ],
+   "explain": "Both endings in one sentence: górach is last lesson's -ach after w, rodzicami is this lesson's -ami after z."
+  },
+  {
+   "prompt_en": "Type: The children are playing with the cats.",
+   "answer": "Dzieci grają z kotami.",
+   "accepts": [
+    "Dzieci grają z kotami.",
+    "Dzieci grają z kotami"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister lives with friends.",
+   "answer": "Moja siostra mieszka z kolegami.",
+   "accepts": [
+    "Moja siostra mieszka z kolegami.",
+    "Moja siostra mieszka z kolegami"
+   ]
+  },
+  {
+   "prompt_en": "Type: My grandmother lives with my aunts.",
+   "answer": "Babcia mieszka z ciociami.",
+   "accepts": [
+    "Babcia mieszka z ciociami.",
+    "Babcia mieszka z ciociami"
+   ]
+  },
+  {
+   "prompt_en": "Type: I was in the park with my brothers.",
+   "answer": "Byłem w parku z braćmi.",
+   "accepts": [
+    "Byłem w parku z braćmi.",
+    "Byłem w parku z braćmi"
+   ],
+   "explain": "brat is one of the three that refuse. Everything else in the sentence is ordinary — only the last word has to be remembered rather than built."
+  },
+  {
+   "prompt_en": "Type: My brother works with people.",
+   "answer": "Mój brat pracuje z ludźmi.",
+   "accepts": [
+    "Mój brat pracuje z ludźmi.",
+    "Mój brat pracuje z ludźmi"
+   ],
+   "explain": "One brother, so brat is untouched — the plural only matters for the word after z, and ludzie is the third of the three you learn whole."
+  },
+  {
+   "prompt_en": "Type: Mum is going to the shop with her daughters.",
+   "answer": "Mama idzie do sklepu z córkami.",
+   "accepts": [
+    "Mama idzie do sklepu z córkami.",
+    "Mama idzie do sklepu z córkami"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is at home with the children, and Dad is in the park with the sons.",
+   "answer": "Mama jest w domu z dziećmi, a tata jest w parku z synami.",
+   "accepts": [
+    "Mama jest w domu z dziećmi, a tata jest w parku z synami.",
+    "Mama jest w domu z dziećmi, a tata jest w parku z synami"
+   ],
+   "explain": "One of the three that refuse and one ordinary word, side by side: dziećmi has to be remembered, synami is built the usual way."
+  }
+ ],
+ "uses_lemmas": [
+  "brat",
+  "bratem",
+  "brata",
+  "syn",
+  "synem",
+  "kolega",
+  "kolegą",
+  "siostra",
+  "siostrą",
+  "córka",
+  "córką",
+  "córki",
+  "ciocia",
+  "ciocią",
+  "dziecko",
+  "dzieckiem",
+  "dzieci",
+  "ludzie",
+  "klient",
+  "klienci",
+  "pacjent",
+  "pacjenci",
+  "kot",
+  "koty",
+  "kota",
+  "kotów",
+  "rodzice",
+  "lekarze",
+  "mama",
+  "tata",
+  "babcia",
+  "domach",
+  "szkołach",
+  "górach",
+  "jest",
+  "są",
+  "byłem",
+  "byliśmy",
+  "mieszka",
+  "pracuje",
+  "pracują",
+  "grają",
+  "idzie",
+  "dużo",
+  "mój",
+  "moja",
+  "a",
+  "w domu",
+  "w parku",
+  "w górach",
+  "o szkole",
+  "do sklepu",
+  "z bratem",
+  "z synem",
+  "z kolegą",
+  "z siostrą",
+  "z córką",
+  "z ciocią"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_inst_pl",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

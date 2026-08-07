@@ -1,0 +1,646 @@
+{
+  "id": "c1_irreg_virile",
+  "title": "Brat · bracia",
+  "title_en": "The irregular plurals, as a family",
+  "level": "C1",
+  "tree_node": "c1_irreg_virile",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 4, unit 3 (B2-SPINE inbox item 8's core). SEVEN NEW STRINGS: czlowiek, ludzi, bracia, braci, braciom, koledzy, mezczyzni. THE CLASS IS THE UNIT, which is inbox item 8's exact wording - brat/kolega/mezczyzna/czlowiek as a CLASS rather than four memorised words - and the claim that makes them a class is precise rather than loose: their plural is not built by softening the singular stem, it runs on a stem of its own. THE ANCHOR IS UNUSUALLY STRONG AND IT WAS VERIFIED, NOT ASSUMED: the learner has been PRODUCING these irregular plural stems for a whole level without being told they were irregular - bracmi and ludzmi TAUGHT <- b2_inst_pl [156], ludziom and kolegom TAUGHT <- b2_dat_pl [157], kolegow TAUGHT <- b2_num_virile [160]. So slide 2 is the b2_verbal_nouns opener at its cleanest: the forms in his mouth already prove the stem, and this unit only names it. HOW FAR THE CHANGE GOES IS THE UNIT'S SECOND FACT and it is the honest one: for kolega and mezczyzna the irregularity is ONLY in the Nominative plural (kolegow, kolegom, kolegami are ordinary and already owned), while for brat and czlowiek it runs through the WHOLE plural (braci, braciom, bracmi; ludzi, ludziom, ludzmi). Stating that is what stops the class becoming a vague warning. bratom IS SHOWN ONCE, MARKED WRONG, AND NEVER AS A DISTRACTOR: b2_dat_pl fenced brat entirely and logged the gap in its own note (its dative plural 'cannot be reached from brat by any rule this course has stated - it needs the braci- plural stem'), and C1-SPINE asks this unit to carry braciom vs the wrong bratom. AGENTS bans fabricated non-words in CHOICE LISTS; an explicitly ✗-marked slide row is the c1_word_order precedent (Go znam. ✗) and is a statement, not a trap. Every quiz distractor here is a real taught form. MEZCZYZN AND THE REST OF MEZCZYZNA'S PLURAL OBLIQUES ARE OUT, logged: they are perfectly regular, nothing in this unit needs them, and teaching them would add strings without adding the fact. PRZYJACIOLMI / GOSCMI - the author's call C1-SPINE asks to be logged - are ALSO OUT. b2_inst_pl refused them 'to avoid turning a marked box into a paradigm' and that reasoning still applies: they are further -mi Instrumentals, a different topic from the virile Nominative plural this unit is about, and folding them in would make the class look like a list of every irregular in Polish rather than the four that carry it. dzieci is the standing precedent and is recycled, never re-taught. CZLOWIEK is taught because without it ludzie has no singular and the suppletion cannot be stated at all - it was verified NEW this run despite ludzie being TAUGHT <- b1_people [114].",
+  "focus_structures": [
+    "virile_irreg"
+  ],
+  "teaches_structures": [
+    "virile_irreg"
+  ],
+  "teaches_lemmas": [
+    "człowiek",
+    "ludzi",
+    "bracia",
+    "braci",
+    "braciom",
+    "koledzy",
+    "mężczyźni"
+  ],
+  "uses_structures": [
+    "virile_irreg",
+    "virile_owie",
+    "virile_alt",
+    "virile_nom",
+    "virile_reco",
+    "adj_pl_virile",
+    "plural_nom",
+    "ten_ta_to",
+    "zgoda",
+    "poss_nom",
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "inst_z",
+    "inst_pl",
+    "dative_sg",
+    "dat_pl",
+    "gen_pl",
+    "gen_pl_full",
+    "numbers_gen",
+    "present",
+    "present_am",
+    "present_uje",
+    "motion_chunk",
+    "prep_do_gen",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "Four nouns whose plural does not come from their singular",
+      "title_pl": "brat → bracia",
+      "body": "The last two lessons were about how the singular turns into the plural: the stem softens, or it takes -owie. Both start from the word you already have.\n\nFour very common nouns do neither. Their plural is built on a stem of its own, and looking at the singular will not get you there. That is what makes them one class rather than four separate surprises — the same thing has happened to all four.\n\nThey are worth the trouble because they are the four you need most: brother, colleague, man, person.",
+      "body_pl": "brat → bracia · kolega → koledzy · człowiek → ludzie",
+      "table": {
+        "headers": [
+          "One",
+          "A group with a man in it",
+          "English"
+        ],
+        "rows": [
+          [
+            "brat",
+            "bracia",
+            "brother → brothers"
+          ],
+          [
+            "kolega",
+            "koledzy",
+            "colleague → colleagues"
+          ],
+          [
+            "mężczyzna",
+            "mężczyźni",
+            "man → men"
+          ],
+          [
+            "człowiek",
+            "ludzie",
+            "person → people"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "You have been using three of these stems for a whole level",
+      "title_pl": "z braćmi · z ludźmi · z kolegami",
+      "body": "This is less new than it looks. When you learned the plural oblique cases at B2 you produced these irregular stems over and over without being told they were irregular.\n\nz braćmi, z ludźmi, z kolegami, pomagam ludziom, pomagam kolegom — every one of those is built on the plural stem this lesson is naming. The forms are already in your mouth; what was missing was the Nominative, the form you use when the group is the subject.",
+      "body_pl": "z braćmi · z ludźmi · pomagam kolegom",
+      "table": {
+        "headers": [
+          "You already say",
+          "Which stem it shows",
+          "The form you were missing"
+        ],
+        "rows": [
+          [
+            "z braćmi",
+            "braci-",
+            "bracia"
+          ],
+          [
+            "z ludźmi",
+            "ludz-",
+            "ludzie"
+          ],
+          [
+            "z kolegami",
+            "koleg-",
+            "koledzy"
+          ],
+          [
+            "z dziećmi",
+            "dzieci-",
+            "dzieci"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "How far the change goes — and it is not the same for all four",
+      "title_pl": "koledzy, ale kolegów · bracia i braci",
+      "body": "For kolega and mężczyzna the oddity is only in the Nominative plural. Everywhere else the plural is perfectly ordinary and you already have it: kolegów, kolegom, kolegami.\n\nFor brat and człowiek it goes all the way through. The whole plural runs on the new stem, so the Genitive is braci and ludzi, and the Dative is braciom and ludziom.\n\nThat is why bratom is not a Polish word. The endings are the ordinary ones; it is the stem underneath them that has changed.",
+      "body_pl": "braci · braciom · braćmi · ludzi · ludziom · ludźmi",
+      "table": {
+        "headers": [
+          "Noun",
+          "Nominative plural",
+          "The rest of the plural"
+        ],
+        "rows": [
+          [
+            "kolega",
+            "koledzy",
+            "ordinary — kolegów, kolegom, kolegami"
+          ],
+          [
+            "mężczyzna",
+            "mężczyźni",
+            "ordinary"
+          ],
+          [
+            "brat",
+            "bracia",
+            "the new stem all the way — braci, braciom, braćmi"
+          ],
+          [
+            "brat",
+            "—",
+            "bratom ✗ — no such word"
+          ],
+          [
+            "człowiek",
+            "ludzie",
+            "the new stem all the way — ludzi, ludziom, ludźmi"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Nothing else in the sentence notices",
+      "title_pl": "Młodzi ludzie · dobrzy koledzy",
+      "body": "However odd the noun is, it is still a group with a man in it, so everything in front of it behaves exactly as it always has: ci, dobrzy, młodzi, zmęczeni.\n\nAnd the quantity words work as they always have too. dużo takes the Genitive, so dużo braci, dużo ludzi — the ordinary ending on the new stem.",
+      "body_pl": "dużo braci · dużo ludzi · ci koledzy",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English",
+          "What is doing the work"
+        ],
+        "rows": [
+          [
+            "młodzi ludzie",
+            "young people",
+            "the ordinary virile adjective"
+          ],
+          [
+            "dobrzy koledzy",
+            "good colleagues",
+            "the ordinary virile adjective"
+          ],
+          [
+            "dużo braci",
+            "a lot of brothers",
+            "dużo takes the Genitive"
+          ],
+          [
+            "dużo ludzi",
+            "a lot of people",
+            "dużo takes the Genitive"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What to carry away",
+      "title_pl": "bracia · koledzy · mężczyźni · ludzie",
+      "body": "Four nouns, one thing that happened to all four: the plural is built on its own stem.\n\nFor kolega and mężczyzna that is a single form to learn. For brat and człowiek the stem carries through the whole plural — and you have been using it since B2 without knowing.\n\nThis is the last of the irregular plural families. From here the plural holds no more surprises for the people-words you own.",
+      "body_pl": "brat → bracia · człowiek → ludzie",
+      "table": {
+        "headers": [
+          "One",
+          "A group with a man in it",
+          "In a sentence"
+        ],
+        "rows": [
+          [
+            "brat",
+            "bracia",
+            "Ci bracia mieszkają w Polsce."
+          ],
+          [
+            "kolega",
+            "koledzy",
+            "Ci koledzy pracują w biurze."
+          ],
+          [
+            "mężczyzna",
+            "mężczyźni",
+            "Mężczyźni są w parku."
+          ],
+          [
+            "człowiek",
+            "ludzie",
+            "Młodzi ludzie czytają dużo."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "brothers · a group with a man",
+      "pl": "bracia"
+    },
+    {
+      "en": "colleagues · a group with a man",
+      "pl": "koledzy"
+    },
+    {
+      "en": "men · a group with a man",
+      "pl": "mężczyźni"
+    },
+    {
+      "en": "people",
+      "pl": "ludzie"
+    },
+    {
+      "en": "one person",
+      "pl": "człowiek"
+    },
+    {
+      "en": "a lot of brothers",
+      "pl": "dużo braci"
+    },
+    {
+      "en": "a lot of people",
+      "pl": "dużo ludzi"
+    },
+    {
+      "en": "I help my brothers",
+      "pl": "pomagam braciom"
+    },
+    {
+      "en": "with my brothers",
+      "pl": "z braćmi"
+    },
+    {
+      "en": "these colleagues",
+      "pl": "ci koledzy"
+    },
+    {
+      "en": "good men",
+      "pl": "dobrzy mężczyźni"
+    },
+    {
+      "en": "young people",
+      "pl": "młodzi ludzie"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ci ___ mieszkają w Polsce. (these brothers live in Poland)",
+      "choices": [
+        "bracia",
+        "brat",
+        "brata",
+        "koledzy"
+      ],
+      "answer": "bracia",
+      "explain": "The plural of brat is built on its own stem, so it cannot be reached from brat. brata is the singular after mam."
+    },
+    {
+      "prompt": "Ci ___ pracują w biurze. (these colleagues work in the office)",
+      "choices": [
+        "koledzy",
+        "kolega",
+        "kolegami",
+        "studenci"
+      ],
+      "answer": "koledzy",
+      "explain": "For kolega the oddity is only here, in the Nominative plural. kolegami is the ordinary Instrumental plural you have had since B2."
+    },
+    {
+      "prompt": "Ci ___ są tutaj. (these men are here)",
+      "choices": [
+        "mężczyźni",
+        "mężczyzna",
+        "bracia",
+        "panowie"
+      ],
+      "answer": "mężczyźni",
+      "explain": "Same shape of oddity as koledzy: one form to learn, and the rest of the plural is ordinary."
+    },
+    {
+      "prompt": "Ci ___ czytają dużo. (these people read a lot)",
+      "choices": [
+        "ludzie",
+        "człowiek",
+        "ludzi",
+        "ludźmi"
+      ],
+      "answer": "ludzie",
+      "explain": "The subject of the sentence, so the Nominative: ludzie. ludzi is the Genitive and ludźmi the Instrumental."
+    },
+    {
+      "prompt": "Dużo ___ jest w parku. (a lot of people are in the park)",
+      "choices": [
+        "ludzi",
+        "ludzie",
+        "ludziom",
+        "ludźmi"
+      ],
+      "answer": "ludzi",
+      "explain": "dużo takes the Genitive, and the Genitive plural runs on the same new stem: ludzi."
+    },
+    {
+      "prompt": "Mam dużo ___. (I have a lot of brothers)",
+      "choices": [
+        "braci",
+        "bracia",
+        "braciom",
+        "braćmi"
+      ],
+      "answer": "braci",
+      "explain": "dużo takes the Genitive — the ordinary ending, sitting on the braci- stem."
+    },
+    {
+      "prompt": "Pomagam ___. (I help my brothers)",
+      "choices": [
+        "braciom",
+        "bracia",
+        "braci",
+        "braćmi"
+      ],
+      "answer": "braciom",
+      "explain": "pomagać chooses the Dative, and the Dative plural ending is the ordinary -om. It just sits on the new stem."
+    },
+    {
+      "prompt": "Idę z ___. (I'm going with my brothers)",
+      "choices": [
+        "braćmi",
+        "bracia",
+        "braci",
+        "braciom"
+      ],
+      "answer": "braćmi",
+      "explain": "The form you have had since B2 — and the one that showed the stem before you were told it existed."
+    },
+    {
+      "prompt": "To jest mój ___. (this is my brother — one person)",
+      "choices": [
+        "brat",
+        "bracia",
+        "brata",
+        "braci"
+      ],
+      "answer": "brat",
+      "explain": "One person, named: the plain dictionary form."
+    },
+    {
+      "prompt": "Pomagam ___. (I help my colleagues)",
+      "choices": [
+        "kolegom",
+        "koledzy",
+        "kolegów",
+        "kolegami"
+      ],
+      "answer": "kolegom",
+      "explain": "The Dative plural, ordinary and owned since B2 — kolega's plural is only odd in the Nominative."
+    },
+    {
+      "prompt": "___ koledzy są dobrzy. (these colleagues are good)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "koledzy is a group with a man in it, so ci — however the plural was built."
+    },
+    {
+      "prompt": "Ci ___ są zmęczeni. (these grandfathers are tired)",
+      "choices": [
+        "dziadkowie",
+        "dziadek",
+        "bracia",
+        "koledzy"
+      ],
+      "answer": "dziadkowie",
+      "explain": "dziadek belongs to the -owie family from last lesson, not to this one. Three families, and each noun is in exactly one."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "brat · m. (brother) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "bracia",
+      "accepts": [
+        "bracia"
+      ],
+      "explain": "Its own stem — not reachable from brat."
+    },
+    {
+      "prompt_en": "kolega · m. (colleague) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "koledzy",
+      "accepts": [
+        "koledzy"
+      ],
+      "explain": "Odd only here; the rest of the plural is ordinary."
+    },
+    {
+      "prompt_en": "mężczyzna · m. (man) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "mężczyźni",
+      "accepts": [
+        "mężczyźni"
+      ],
+      "explain": "Odd only here; the rest of the plural is ordinary."
+    },
+    {
+      "prompt_en": "człowiek · m. (person) → many (people)",
+      "mode": "full_word",
+      "answer": "ludzie",
+      "accepts": [
+        "ludzie"
+      ],
+      "explain": "A different word altogether — and the one you have had since B1."
+    },
+    {
+      "prompt_en": "person, one · m. — the singular of ludzie",
+      "mode": "full_word",
+      "answer": "człowiek",
+      "accepts": [
+        "człowiek"
+      ],
+      "explain": "The half of the pair the course had never given you."
+    },
+    {
+      "prompt_en": "I have a lot of brothers.",
+      "mode": "cloze",
+      "frame": "Mam dużo ___.",
+      "answer": "braci",
+      "accepts": [
+        "braci"
+      ],
+      "explain": "dużo takes the Genitive; the ending is ordinary, the stem is not."
+    },
+    {
+      "prompt_en": "I help my brothers and sisters.",
+      "mode": "cloze",
+      "frame": "Pomagam ___ i siostrom.",
+      "answer": "braciom",
+      "accepts": [
+        "braciom"
+      ],
+      "explain": "The Dative plural -om, on the braci- stem. Not bratom."
+    },
+    {
+      "prompt_en": "A lot of people are in the park.",
+      "mode": "cloze",
+      "frame": "Dużo ___ jest w parku.",
+      "answer": "ludzi",
+      "accepts": [
+        "ludzi"
+      ],
+      "explain": "The Genitive plural of ludzie."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These brothers live in Poland.",
+      "answer": "Ci bracia mieszkają w Polsce.",
+      "accepts": [
+        "Ci bracia mieszkają w Polsce.",
+        "Ci bracia mieszkają w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: These colleagues work in the office.",
+      "answer": "Ci koledzy pracują w biurze.",
+      "accepts": [
+        "Ci koledzy pracują w biurze.",
+        "Ci koledzy pracują w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: The men are in the park.",
+      "answer": "Mężczyźni są w parku.",
+      "accepts": [
+        "Mężczyźni są w parku.",
+        "Mężczyźni są w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Young people read a lot.",
+      "answer": "Młodzi ludzie czytają dużo.",
+      "accepts": [
+        "Młodzi ludzie czytają dużo.",
+        "Młodzi ludzie czytają dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum helps the brothers.",
+      "answer": "Mama pomaga braciom.",
+      "accepts": [
+        "Mama pomaga braciom.",
+        "Mama pomaga braciom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the park with my brothers.",
+      "answer": "Idę z braćmi do parku.",
+      "accepts": [
+        "Idę z braćmi do parku.",
+        "Idę z braćmi do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are a lot of people in the city.",
+      "answer": "Dużo ludzi jest w mieście.",
+      "accepts": [
+        "Dużo ludzi jest w mieście.",
+        "Dużo ludzi jest w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These men are tired.",
+      "answer": "Ci mężczyźni są zmęczeni.",
+      "accepts": [
+        "Ci mężczyźni są zmęczeni.",
+        "Ci mężczyźni są zmęczeni"
+      ]
+    },
+    {
+      "prompt_en": "Type: Good colleagues help the students.",
+      "answer": "Dobrzy koledzy pomagają studentom.",
+      "accepts": [
+        "Dobrzy koledzy pomagają studentom.",
+        "Dobrzy koledzy pomagają studentom"
+      ]
+    },
+    {
+      "prompt_en": "Type: This person is in the shop.",
+      "answer": "Ten człowiek jest w sklepie.",
+      "accepts": [
+        "Ten człowiek jest w sklepie.",
+        "Ten człowiek jest w sklepie"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "brat",
+    "brata",
+    "bratem",
+    "braćmi",
+    "kolega",
+    "kolegów",
+    "kolegom",
+    "kolegami",
+    "mężczyzna",
+    "ludzie",
+    "ludziom",
+    "ludźmi",
+    "dzieci",
+    "dziećmi",
+    "siostrom",
+    "studentom",
+    "student",
+    "studenci",
+    "dziadek",
+    "dziadkowie",
+    "panowie",
+    "mama",
+    "ci",
+    "te",
+    "ten",
+    "to",
+    "mój",
+    "dobrzy",
+    "młodzi",
+    "zmęczeni",
+    "są",
+    "jest",
+    "mam",
+    "idę",
+    "pomagam",
+    "pomaga",
+    "pomagają",
+    "pracują",
+    "mieszkają",
+    "czytają",
+    "dużo",
+    "tutaj",
+    "do parku",
+    "w parku",
+    "w biurze",
+    "w mieście",
+    "w sklepie",
+    "w polsce"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_irreg_virile",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

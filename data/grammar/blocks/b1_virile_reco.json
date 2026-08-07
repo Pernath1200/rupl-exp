@@ -1,0 +1,362 @@
+{
+  "id": "b1_virile_reco",
+  "title": "Ci czy te?",
+  "title_en": "Ci or te? (reading the virile plural)",
+  "level": "B1",
+  "tree_node": "b1_virile_reco",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Block 4 opener (B1-SPINE.md decision #1: virile plural split into three units, one new thing each — this is unit one, RECOGNITION ONLY). Teaches the existence of the virile (masculine-personal) category: a plural referring to a group that includes at least one man takes special marking — the demonstrative ci instead of te, and special noun/adjective plural endings — while every other plural (things, animals, women-only or children-only groups) keeps the a2_plural_nom system the learner already owns. NO FORMATION RULE IS TAUGHT HERE. The consonant alternations that build studenci from student, Polacy from Polak, lekarze from lekarz are not explained at all in this unit — six virile plural nouns and one virile adjective (dobrzy) are handed over as whole, ready-made forms to read and recognize, exactly the way a1_gender_gym handed over ten/ta/to/te as a closed set before any rule existed for them. Production of these same forms via the actual rule is b1_virile_nom, the very next unit — this unit's job is only to make the forms visually familiar first, per James's load-splitting precedent (one new thing per unit; recognition before production is the ladder, same as A1 singular past before A2 plural past). STAGE DESIGN FORK, logged: the spine text is explicit — 'Learner never produces a virile form; every task is comprehension/discrimination.' The engine's Pisanie and Użycie stages are both typed-answer stages (renderTypedGate), so the only way to honor a true zero-production unit is to leave type_items and use_items EMPTY. Traced this against js/practice-grammar.js before committing to it: beginType() with an empty array calls completeMode(pack.id,'type',...) and chains straight into beginUse() without ever rendering a Pisanie screen; beginUse() with an empty array does the same and lands on the done screen. hasFruit() only requires modes.intro/check/type/use to be true, and both empty-array paths still call completeMode for their mode, so the fruit still fires on a clean Wstęp→Kontrola→Done ladder. No other live pack in the course currently ships empty type_items/use_items, so this is a first — verified by direct code trace rather than by precedent, since spec and engine both point the same way here. The alternative considered and rejected: keep a Pisanie stage that only ever asks the learner to type the bare word 'ci' (a closed-class, non-derived word, arguably not 'a virile form' in the rule-formation sense the spine is fencing). Rejected as the less conservative reading of James's own sentence — 'never produces a virile form' does not carve out an exception for ci, and the empty-stage path is fully supported by the engine, so there is no reason to take the riskier reading. HOMOGRAPH FLAG FOR THE NEXT AUTHOR, logged loudly: this unit teaches bare 'ci' as the virile nominative demonstrative ('these people'). B1-SPINE.md's block 5 (b1_dative_pron) plans to teach 'ci' AGAIN as the second-person singular dative clitic ('[to/for] you' — podoba ci się). These are two completely different words that happen to share a spelling. check_new.py will report 'ci' as TAUGHT once this unit ships, citing b1_virile_reco — the author of b1_dative_pron MUST NOT read that as 'ci is already available, recycle it' and skip re-teaching it. It is a fresh homograph and needs its own explicit call-out exactly like the mamy/mamy or kawy/kawy pairs in AGENTS.md's homograph table. Same caution applies to 'oni'/'one', which stay GLUE-less and completely untaught until b1_virile_past per the spine's own fence — neither appears anywhere in this pack. SCOPE / ANCHORS: the six virile nouns are all recycled from already-taught singulars (student, polak, lekarz, nauczyciel, pracownik, kelner — all TAUGHT, verified via check_new.py) so the only genuinely new reading load is the plural shape itself. 'ci' is contrasted against the already-known 'te' (a1_gender_gym) using an already-taught non-virile plural noun pair (te domy, from a2_plural_nom, both words taught there as plurals) and one deliberately-added example, kobiety (women) — new lemma, chosen because it is the cleanest possible demonstration that virile is a GRAMMATICAL category keyed to 'at least one man', not a loose 'is it a group of people' rule: a group of only women is people, but still takes te, not ci. dzieci (children) was considered for the same point and rejected — it is the suppletive plural of the NEUTER noun dziecko and is explicitly fenced in the plural_nom catalogue entry ('Suppletives... fenced'); reusing it here would both break that fence and add a second irregular alongside kobiety for no real gain. dobrzy (adjective, from already-taught dobry/dobra/dobre) is the one adjective example, shown only in predicate position (Ci lekarze są dobrzy / Ci nauczyciele są dobrzy) recycling są (byc_present, a1_hello) and the byc_adj/zgoda agreement pattern extended to a virile plural subject — an extension, not new material, exactly the way o_loc extended prep_w_loc's case endings to a third governor. Every non-virile recall example (te domy, te kobiety) and every locative phrase (w mieście, w szpitalu) checked individually against check_new.py / the pool and is already taught, in the same function used here. FENCED, absent from this file: any consonant-alternation explanation, any adjective attributive-position virile form, any noun other than the six chosen, oni/one, the perfective future, the conditional, anything from b1_virile_nom or b1_virile_past.",
+  "focus_structures": [
+    "virile_reco"
+  ],
+  "teaches_structures": [
+    "virile_reco"
+  ],
+  "uses_structures": [
+    "virile_reco",
+    "ten_ta_to",
+    "plural_nom",
+    "zgoda",
+    "byc_adj",
+    "byc_present",
+    "present_uje",
+    "present",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "A group with a man in it",
+      "title_pl": "Rodzaj męskoosobowy",
+      "body": "You already know the plural rule for everything: things, animals, and groups of women — te nowe domy (these new houses), te kobiety (these women). Polish carves out one exception: a plural group that includes at least one man gets its own marking. It is called VIRILE (or masculine-personal). The demonstrative changes from te to ci, and the noun and adjective get new endings too.",
+      "body_pl": "te = wszystko inne (rzeczy, zwierzęta, same kobiety). ci = grupa z mężczyzną.",
+      "table": {
+        "headers": [
+          "Group",
+          "Marker",
+          "Example"
+        ],
+        "rows": [
+          [
+            "things — already known",
+            "te",
+            "te nowe domy — these new houses"
+          ],
+          [
+            "women only — already known",
+            "te",
+            "te kobiety — these women"
+          ],
+          [
+            "a group with a man — NEW",
+            "ci",
+            "ci studenci — these students"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Reading the new plurals",
+      "title_pl": "Nowa liczba mnoga",
+      "body": "Here are six virile plurals, given whole. You already know every singular on the left. The next unit explains exactly how the right column is built — for now, just get used to seeing these shapes and knowing what they mean.",
+      "body_pl": "Na razie: rozpoznaj. Zasada budowy = następna lekcja.",
+      "table": {
+        "headers": [
+          "Singular (known)",
+          "Virile plural (new)",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "student",
+            "studenci",
+            "students"
+          ],
+          [
+            "Polak",
+            "Polacy",
+            "Poles"
+          ],
+          [
+            "lekarz",
+            "lekarze",
+            "doctors"
+          ],
+          [
+            "nauczyciel",
+            "nauczyciele",
+            "teachers"
+          ],
+          [
+            "pracownik",
+            "pracownicy",
+            "workers"
+          ],
+          [
+            "kelner",
+            "kelnerzy",
+            "waiters"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The adjective agrees too",
+      "title_pl": "Przymiotnik też się zgadza",
+      "body": "dobry / dobra / dobre already agrees with masculine, feminine, and neuter singular. For a virile plural subject it takes a fifth shape: dobrzy. You will only meet it here as a predicate, after są (are) — reading, not building.",
+      "body_pl": "dobry/dobra/dobre (znane) → dobrzy (nowe, tylko grupa z mężczyzną).",
+      "examples": [
+        {
+          "en": "These doctors are good.",
+          "pl": "Ci lekarze są dobrzy."
+        },
+        {
+          "en": "These teachers are good.",
+          "pl": "Ci nauczyciele są dobrzy."
+        }
+      ]
+    },
+    {
+      "title": "In full sentences",
+      "title_pl": "W zdaniach",
+      "body": "Read these the way you'd read any sentence with words you already half-know — the new pieces are just ci and the plural noun shape. Everything else (są, pracują, mieszkają, w mieście, w szpitalu) you already own.",
+      "body_pl": "Nowe: ci + nowy kształt rzeczownika. Reszta: znana.",
+      "examples": [
+        {
+          "en": "These students work in the city.",
+          "pl": "Ci studenci pracują w mieście."
+        },
+        {
+          "en": "These Poles live in the city.",
+          "pl": "Ci Polacy mieszkają w mieście."
+        },
+        {
+          "en": "These doctors work at the hospital.",
+          "pl": "Ci lekarze pracują w szpitalu."
+        },
+        {
+          "en": "These women work in the city.",
+          "pl": "Te kobiety pracują w mieście."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "students",
+      "pl": "studenci"
+    },
+    {
+      "en": "Poles",
+      "pl": "Polacy"
+    },
+    {
+      "en": "doctors",
+      "pl": "lekarze"
+    },
+    {
+      "en": "teachers",
+      "pl": "nauczyciele"
+    },
+    {
+      "en": "workers",
+      "pl": "pracownicy"
+    },
+    {
+      "en": "waiters",
+      "pl": "kelnerzy"
+    },
+    {
+      "en": "these students",
+      "pl": "ci studenci"
+    },
+    {
+      "en": "these Poles",
+      "pl": "ci Polacy"
+    },
+    {
+      "en": "good doctors",
+      "pl": "dobrzy lekarze"
+    },
+    {
+      "en": "good teachers",
+      "pl": "dobrzy nauczyciele"
+    },
+    {
+      "en": "these workers",
+      "pl": "ci pracownicy"
+    },
+    {
+      "en": "these waiters",
+      "pl": "ci kelnerzy"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ studenci pracują w mieście.",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ta",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "studenci can be a group with a man in it, so it is virile: ci, not te."
+    },
+    {
+      "prompt": "___ nowe domy są duże.",
+      "choices": [
+        "Te",
+        "Ci",
+        "Ten",
+        "Ta"
+      ],
+      "answer": "Te",
+      "explain": "Houses are never virile, however many there are — te stays."
+    },
+    {
+      "prompt": "___ kobiety pracują w szpitalu.",
+      "choices": [
+        "Te",
+        "Ci",
+        "Ten",
+        "To"
+      ],
+      "answer": "Te",
+      "explain": "A group of only women is people, but not virile — no man, so te, not ci."
+    },
+    {
+      "prompt": "Ci ___ są dobrzy. (these doctors are good)",
+      "choices": [
+        "lekarze",
+        "lekarz",
+        "lekarzem",
+        "studenci"
+      ],
+      "answer": "lekarze",
+      "explain": "lekarze is the virile plural of lekarz — recognize the whole shape. lekarz is the singular you already knew; lekarzem is a different case (instrumental) of the same singular; studenci is a real virile plural, just the wrong noun."
+    },
+    {
+      "prompt": "Ci ___ mieszkają w mieście. (these Poles live in the city)",
+      "choices": [
+        "Polacy",
+        "polak",
+        "Polska",
+        "domy"
+      ],
+      "answer": "Polacy",
+      "explain": "Polacy is the virile plural of Polak — a capitalized nationality, same word family you met when learning country names."
+    },
+    {
+      "prompt": "Ci ___ pracują dużo. (these workers work a lot)",
+      "choices": [
+        "pracownicy",
+        "pracownik",
+        "lekarze",
+        "kelnerzy"
+      ],
+      "answer": "pracownicy",
+      "explain": "pracownicy is the virile plural of pracownik. pracownik is the singular; lekarze and kelnerzy are real virile plurals, just the wrong noun."
+    },
+    {
+      "prompt": "Ci nauczyciele są ___. (these teachers are good)",
+      "choices": [
+        "dobrzy",
+        "dobry",
+        "dobre",
+        "dobra"
+      ],
+      "answer": "dobrzy",
+      "explain": "dobrzy is the virile plural of dobry — used only for a group with a man in it."
+    },
+    {
+      "prompt": "___ kelnerzy pracują w mieście.",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "kelnerzy is the virile plural of kelner — a group with a man in it, so ci, not te."
+    },
+    {
+      "prompt": "___ lekarze pracują w szpitalu.",
+      "choices": [
+        "Ci",
+        "Te",
+        "To",
+        "Ten"
+      ],
+      "answer": "Ci",
+      "explain": "lekarze is a group of doctors, virile — ci, not te."
+    },
+    {
+      "prompt": "Te domy są nowe. ___ studenci pracują tutaj.",
+      "choices": [
+        "ci",
+        "te",
+        "ta",
+        "to"
+      ],
+      "answer": "ci",
+      "explain": "Two different groups in one sentence, two different markers: te for domy (things), ci for studenci (virile)."
+    }
+  ],
+  "type_items": [],
+  "use_items": [],
+  "teaches_lemmas": [
+    "ci",
+    "studenci",
+    "polacy",
+    "lekarze",
+    "nauczyciele",
+    "pracownicy",
+    "kelnerzy",
+    "dobrzy",
+    "kobiety"
+  ],
+  "uses_lemmas": [
+    "ci",
+    "studenci",
+    "polacy",
+    "lekarze",
+    "nauczyciele",
+    "pracownicy",
+    "kelnerzy",
+    "dobrzy",
+    "kobiety",
+    "te",
+    "domy",
+    "nowe",
+    "duże",
+    "student",
+    "polak",
+    "lekarz",
+    "nauczyciel",
+    "pracownik",
+    "kelner",
+    "dobry",
+    "są",
+    "pracują",
+    "mieszkają",
+    "w mieście",
+    "w szpitalu",
+    "tutaj"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_virile_reco",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

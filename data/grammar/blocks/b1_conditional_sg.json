@@ -1,0 +1,605 @@
+{
+  "id": "b1_conditional_sg",
+  "title": "Tryb przypuszczający · -bym, -byś, -by",
+  "title_en": "Conditional · I would, you would",
+  "level": "B1",
+  "tree_node": "b1_conditional_sg",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 2, James's locked decision #3: SINGULAR ONLY. Plural conditional (-libyśmy/-łybyśmy etc.) is absolutely fenced to b1_conditional_pl after the virile block — not used and not mentioned (no 'plural comes later' line anywhere learner-facing). mógłbym is fenced whole to b1_polite; no gdybym/jeśli...by clauses — simple wishes and soft requests only. oni/one still untaught. Verbs: chcieć (full 6-form singular paradigm, the politeness payoff), kupić + zrobić (perfective twins from a2_aspect, partial spread) — three verbs only, load control. Stem verification: conditional attaches to the 3sg past form, and chciał/chciała (a2_past_rest), kupił/kupiła + zrobił/zrobiła (a2_aspect) are all taught. The 2sg conditionals (chciałbyś, zrobiłabyś) are built on those taught 3sg stems + byś, NOT on chciałeś/zrobiłaś (never taught — verified absent from all blocks); the -ś is anchored on byłeś/byłaś. Distractors all pool-legal. Glosses: chcieć stative → 'would like'; zrobić glossed 'make' consistently in this unit. psa in Użycie = masculine-animate accusative, identical to its taught genitive — the honest acc=gen exception, named here. Both-gender production, (m)/(f) cues as everywhere.",
+  "focus_structures": [
+    "conditional_sg"
+  ],
+  "teaches_structures": [
+    "conditional_sg"
+  ],
+  "uses_structures": [
+    "conditional_sg",
+    "past_byc",
+    "past_rest",
+    "aspect_past",
+    "miec_acc",
+    "poss_nom",
+    "question",
+    "present"
+  ],
+  "intro": [
+    {
+      "title": "Would: built from the past you own",
+      "title_pl": "Tryb przypuszczający",
+      "body": "English says would like with a helper word. Polish glues it onto the past form you already know:\n\n1. Take the he/she past form — chciał, chciała.\n2. Add -by — chciałby, chciałaby. That is already he/she would like.\n3. For I and you, add the byłem endings after the by: -m, -ś — chciałbym, chciałbyś.\n\nGender costs you nothing new: a man builds on chciał, a woman builds on chciała. The whole conditional is the past tense plus one small syllable.",
+      "body_pl": "Forma przeszła + by + końcówka z był: chciał + by + m = chciałbym.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "chciałbym",
+            "I would like",
+            "man speaking (m)"
+          ],
+          [
+            "chciałabym",
+            "I would like",
+            "woman speaking (f)"
+          ],
+          [
+            "chciałbyś",
+            "you would like",
+            "to a man (m)"
+          ],
+          [
+            "chciałabyś",
+            "you would like",
+            "to a woman (f)"
+          ],
+          [
+            "chciałby",
+            "he would like",
+            "on · tata, brat"
+          ],
+          [
+            "chciałaby",
+            "she would like",
+            "ona · mama, Anna"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The polite upgrade",
+      "title_pl": "Chcę → chciałbym",
+      "body": "You have said Chcę kawę since your first lessons. It is correct — and direct, like I want coffee.\n\nChciałbym kawę is the same sentence, one register up: I would like a coffee. Nothing else changes — same word order, same kawę. This is how adults ask for things in shops, cafés and offices.\n\nPoproszę still works for ordering. Chciałbym also covers wishes no waiter can bring: Chciałbym nowy samochód.",
+      "body_pl": "Chcę kawę = bezpośrednio. Chciałbym kawę = grzecznie.",
+      "examples": [
+        {
+          "en": "I want coffee. → I would like a coffee. (m)",
+          "pl": "Chcę kawę. → Chciałbym kawę."
+        },
+        {
+          "en": "I want tea. → I would like tea. (f)",
+          "pl": "Chcę herbatę. → Chciałabym herbatę."
+        }
+      ]
+    },
+    {
+      "title": "The same glue on kupić and zrobić",
+      "title_pl": "Kupić, zrobić",
+      "body": "The rule is not special to chcieć. Take any past form you know and add the same piece. Here it is on the pair kupić (buy) and zrobić (make):",
+      "body_pl": "Ta sama zasada: kupił + by = kupiłby, zrobiła + by = zrobiłaby.",
+      "table": {
+        "headers": [
+          "Past form",
+          "+ by...",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "kupił",
+            "kupiłbym",
+            "I would buy (m)"
+          ],
+          [
+            "kupiła",
+            "kupiłabym",
+            "I would buy (f)"
+          ],
+          [
+            "kupił",
+            "kupiłby",
+            "he would buy"
+          ],
+          [
+            "kupiła",
+            "kupiłaby",
+            "she would buy"
+          ],
+          [
+            "zrobił",
+            "zrobiłbyś",
+            "you would make (m)"
+          ],
+          [
+            "zrobiła",
+            "zrobiłabyś",
+            "you would make (f)"
+          ],
+          [
+            "zrobił",
+            "zrobiłby",
+            "he would make"
+          ],
+          [
+            "zrobiła",
+            "zrobiłaby",
+            "she would make"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Wishes and soft requests",
+      "title_pl": "Zdania",
+      "body": "The noun picks the form, exactly as it did in the past tense: tata chciałby, mama chciałaby.\n\nAnd the you-forms give you a soft request: Zrobiłbyś kawę? — Would you make coffee? Softer than an instruction, warmer than silence.",
+      "body_pl": "Rzeczownik wybiera formę: tata chciałby, mama chciałaby. Zrobiłbyś kawę? = miła prośba.",
+      "examples": [
+        {
+          "en": "Dad would like a new car.",
+          "pl": "Tata chciałby nowy samochód."
+        },
+        {
+          "en": "Mum would buy a house.",
+          "pl": "Mama kupiłaby dom."
+        },
+        {
+          "en": "Would you make coffee? (to a man)",
+          "pl": "Zrobiłbyś kawę?"
+        },
+        {
+          "en": "Would you make tea? (to a woman)",
+          "pl": "Zrobiłabyś herbatę?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I would like (m)",
+      "pl": "chciałbym"
+    },
+    {
+      "en": "I would like (f)",
+      "pl": "chciałabym"
+    },
+    {
+      "en": "you would like (m)",
+      "pl": "chciałbyś"
+    },
+    {
+      "en": "you would like (f)",
+      "pl": "chciałabyś"
+    },
+    {
+      "en": "he would like",
+      "pl": "chciałby"
+    },
+    {
+      "en": "she would like",
+      "pl": "chciałaby"
+    },
+    {
+      "en": "I would buy (m)",
+      "pl": "kupiłbym"
+    },
+    {
+      "en": "I would buy (f)",
+      "pl": "kupiłabym"
+    },
+    {
+      "en": "he would buy",
+      "pl": "kupiłby"
+    },
+    {
+      "en": "she would buy",
+      "pl": "kupiłaby"
+    },
+    {
+      "en": "you would make (m)",
+      "pl": "zrobiłbyś"
+    },
+    {
+      "en": "she would make",
+      "pl": "zrobiłaby"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "I would like (m) →",
+      "choices": [
+        "chciałbym",
+        "chciałabym",
+        "chciałem",
+        "chcę"
+      ],
+      "answer": "chciałbym",
+      "explain": "chciał + by + m. The -m after by is the same I-marker as in byłem; without the by it would be plain past chciałem — I wanted."
+    },
+    {
+      "prompt": "I would like (f) →",
+      "choices": [
+        "chciałabym",
+        "chciałbym",
+        "chciałam",
+        "chciałaby"
+      ],
+      "answer": "chciałabym",
+      "explain": "A woman builds on chciała: chciała + by + m. The feminine -a- sits before the by, not after it."
+    },
+    {
+      "prompt": "Mama ___ kawę. (would like)",
+      "choices": [
+        "chciałaby",
+        "chciałby",
+        "chciałabym",
+        "chciała"
+      ],
+      "answer": "chciałaby",
+      "explain": "mama is feminine, so the conditional rides chciała: chciała + by. chciała alone is plain past — she wanted."
+    },
+    {
+      "prompt": "Tata ___ nowy samochód. (would buy)",
+      "choices": [
+        "kupiłby",
+        "kupiłaby",
+        "kupiłbym",
+        "kupował"
+      ],
+      "answer": "kupiłby",
+      "explain": "tata is a he, so it is kupił + by, with no personal ending after the by — endings after by exist only for I and you."
+    },
+    {
+      "prompt": "Make it polite: Chcę herbatę. → (f)",
+      "choices": [
+        "Chciałabym herbatę.",
+        "Chciałbym herbatę.",
+        "Chciałam herbatę.",
+        "Chcę herbatę."
+      ],
+      "answer": "Chciałabym herbatę.",
+      "explain": "Same sentence, one register up: chcę → chciałabym for a woman speaking. chciałam would be plain past — I wanted tea."
+    },
+    {
+      "prompt": "would you make (to a woman) →",
+      "choices": [
+        "zrobiłabyś",
+        "zrobiłbyś",
+        "zrobiłaby",
+        "zrobiła"
+      ],
+      "answer": "zrobiłabyś",
+      "explain": "To a woman: the feminine stem zrobiła + by + ś. The -ś after by is the you-marker from byłaś."
+    },
+    {
+      "prompt": "he would buy →",
+      "choices": [
+        "kupiłby",
+        "kupiłaby",
+        "kupił",
+        "kupuje"
+      ],
+      "answer": "kupiłby",
+      "explain": "kupił + by. Without the by it is kupił — he bought, already done. The by turns a past fact into a would."
+    },
+    {
+      "prompt": "I wanted (m) →",
+      "choices": [
+        "chciałem",
+        "chciałbym",
+        "chciałby",
+        "chciałabym"
+      ],
+      "answer": "chciałem",
+      "explain": "No by = plain past. chciałem is I wanted; chciałbym is I would like. The by is the whole difference."
+    },
+    {
+      "prompt": "Anna ___ rower. (would buy)",
+      "choices": [
+        "kupiłaby",
+        "kupiłby",
+        "kupiła",
+        "kupiłabym"
+      ],
+      "answer": "kupiłaby",
+      "explain": "Anna is a she: kupiła + by. kupiłabym would mean a woman saying I would buy — the -m ties it to I."
+    },
+    {
+      "prompt": "Fix: Ona chciałby kawę. →",
+      "choices": [
+        "chciałaby",
+        "chciałby",
+        "chciałabym",
+        "chciała"
+      ],
+      "answer": "chciałaby",
+      "explain": "ona needs the feminine stem: chciała + by. The gender lives in the past part of the word, before the by."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I would like (m)",
+      "mode": "full_word",
+      "answer": "chciałbym",
+      "accepts": [
+        "chciałbym"
+      ],
+      "explain": "chciał + by + m, written as one word. The -m is the I-ending you know from byłem."
+    },
+    {
+      "prompt_en": "I would like (f)",
+      "mode": "full_word",
+      "answer": "chciałabym",
+      "accepts": [
+        "chciałabym"
+      ],
+      "explain": "Build on the feminine past chciała, then add -bym: chciała-by-m. The -a- comes before the by."
+    },
+    {
+      "prompt_en": "you would like (m)",
+      "mode": "full_word",
+      "answer": "chciałbyś",
+      "accepts": [
+        "chciałbyś"
+      ]
+    },
+    {
+      "prompt_en": "you would like (f)",
+      "mode": "full_word",
+      "answer": "chciałabyś",
+      "accepts": [
+        "chciałabyś"
+      ]
+    },
+    {
+      "prompt_en": "he would like",
+      "mode": "full_word",
+      "answer": "chciałby",
+      "accepts": [
+        "chciałby"
+      ],
+      "explain": "He takes nothing after the by — just chciał + by — exactly as he takes no ending in the past."
+    },
+    {
+      "prompt_en": "she would like",
+      "mode": "full_word",
+      "answer": "chciałaby",
+      "accepts": [
+        "chciałaby"
+      ]
+    },
+    {
+      "prompt_en": "I would buy (m)",
+      "mode": "full_word",
+      "answer": "kupiłbym",
+      "accepts": [
+        "kupiłbym"
+      ]
+    },
+    {
+      "prompt_en": "I would buy (f)",
+      "mode": "full_word",
+      "answer": "kupiłabym",
+      "accepts": [
+        "kupiłabym"
+      ]
+    },
+    {
+      "prompt_en": "he would buy",
+      "mode": "full_word",
+      "answer": "kupiłby",
+      "accepts": [
+        "kupiłby"
+      ]
+    },
+    {
+      "prompt_en": "she would buy",
+      "mode": "full_word",
+      "answer": "kupiłaby",
+      "accepts": [
+        "kupiłaby"
+      ]
+    },
+    {
+      "prompt_en": "you would make (m)",
+      "mode": "full_word",
+      "answer": "zrobiłbyś",
+      "accepts": [
+        "zrobiłbyś"
+      ]
+    },
+    {
+      "prompt_en": "you would make (f)",
+      "mode": "full_word",
+      "answer": "zrobiłabyś",
+      "accepts": [
+        "zrobiłabyś"
+      ],
+      "explain": "Feminine stem zrobiła + byś. The by never changes; only the past part in front of it carries the gender."
+    },
+    {
+      "prompt_en": "he would make",
+      "mode": "full_word",
+      "answer": "zrobiłby",
+      "accepts": [
+        "zrobiłby"
+      ]
+    },
+    {
+      "prompt_en": "she would make",
+      "mode": "full_word",
+      "answer": "zrobiłaby",
+      "accepts": [
+        "zrobiłaby"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I would like a coffee. (m)",
+      "answer": "Chciałbym kawę.",
+      "accepts": [
+        "Chciałbym kawę.",
+        "Chciałbym kawę"
+      ],
+      "explain": "The polite version of Chcę kawę — same kawę, same order, one register up."
+    },
+    {
+      "prompt_en": "Type: I would like tea. (f)",
+      "answer": "Chciałabym herbatę.",
+      "accepts": [
+        "Chciałabym herbatę.",
+        "Chciałabym herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad would like a new car.",
+      "answer": "Tata chciałby nowy samochód.",
+      "accepts": [
+        "Tata chciałby nowy samochód.",
+        "Tata chciałby nowy samochód"
+      ],
+      "explain": "tata is a he despite the -a, so chciałby — the same natural-gender rule as tata był."
+    },
+    {
+      "prompt_en": "Type: Mum would like wine.",
+      "answer": "Mama chciałaby wino.",
+      "accepts": [
+        "Mama chciałaby wino.",
+        "Mama chciałaby wino"
+      ]
+    },
+    {
+      "prompt_en": "Type: I would buy a house. (m)",
+      "answer": "Kupiłbym dom.",
+      "accepts": [
+        "Kupiłbym dom.",
+        "Kupiłbym dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I would buy a new bike. (f)",
+      "answer": "Kupiłabym nowy rower.",
+      "accepts": [
+        "Kupiłabym nowy rower.",
+        "Kupiłabym nowy rower"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad would make lunch.",
+      "answer": "Tata zrobiłby obiad.",
+      "accepts": [
+        "Tata zrobiłby obiad.",
+        "Tata zrobiłby obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Would you make coffee? (to a man)",
+      "answer": "Zrobiłbyś kawę?",
+      "accepts": [
+        "Zrobiłbyś kawę?",
+        "Zrobiłbyś kawę",
+        "Czy zrobiłbyś kawę?",
+        "Czy zrobiłbyś kawę"
+      ],
+      "explain": "A soft request — the conditional makes the question an invitation, not an order."
+    },
+    {
+      "prompt_en": "Type: Would you make tea? (to a woman)",
+      "answer": "Zrobiłabyś herbatę?",
+      "accepts": [
+        "Zrobiłabyś herbatę?",
+        "Zrobiłabyś herbatę",
+        "Czy zrobiłabyś herbatę?",
+        "Czy zrobiłabyś herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother would buy a dog.",
+      "answer": "Mój brat kupiłby psa.",
+      "accepts": [
+        "Mój brat kupiłby psa.",
+        "Mój brat kupiłby psa"
+      ],
+      "explain": "pies is a living masculine noun, so its object form is psa — the same shape you met in od psa and Anna kochała psa."
+    }
+  ],
+  "teaches_lemmas": [
+    "chciałbym",
+    "chciałabym",
+    "chciałbyś",
+    "chciałabyś",
+    "chciałby",
+    "chciałaby",
+    "kupiłbym",
+    "kupiłabym",
+    "kupiłby",
+    "kupiłaby",
+    "zrobiłbyś",
+    "zrobiłabyś",
+    "zrobiłby",
+    "zrobiłaby"
+  ],
+  "uses_lemmas": [
+    "chcieć",
+    "kupić",
+    "zrobić",
+    "chciał",
+    "chciała",
+    "chciałem",
+    "chciałam",
+    "kupił",
+    "kupiła",
+    "kupiłam",
+    "kupował",
+    "kupuje",
+    "zrobił",
+    "zrobiła",
+    "byłem",
+    "byłeś",
+    "byłaś",
+    "chcę",
+    "chcę kawę",
+    "kawę",
+    "herbatę",
+    "wino",
+    "nowy",
+    "samochód",
+    "dom",
+    "rower",
+    "obiad",
+    "psa",
+    "mój",
+    "brat",
+    "tata",
+    "mama",
+    "anna",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_conditional_sg",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

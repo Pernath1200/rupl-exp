@@ -1,0 +1,689 @@
+{
+  "id": "a2_people2",
+  "title": "Ludzie · wygląd i charakter",
+  "title_en": "People · looks & character",
+  "level": "A2",
+  "tree_node": "a2_people2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · sibling of a2_feelings, same shape. Teaches 11 new describing adjectives plus their feminine forms; masculine is the citation form, feminine is on the board too. Singular only, no plural forms, imperfective only. ANCHORS, never re-taught: ładny (opposite of brzydki), wysoki (opposite of niski), młody, stary, dobry, zły, nowy, duży, mały. TONE RULE for this pack: brzydki, głupi, gruby and chudy are never aimed at a named family member. brzydki goes on weather and clothes, głupi on a film / a game, gruby and chudy on a cat, a dog, a cow and a book, niski on a table and a price. słaby is used of the speaker himself and of weak tea. The kind words (miły, mądry, silny) are the ones that get the family: siostra, córka, mama, kelner. Adjectives take no gender badge (that field is for nouns).",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "ten_ta_to",
+    "poss_nom",
+    "prep_w_loc",
+    "question",
+    "time_past_chunk"
+  ],
+  "blocks": [
+    {
+      "id": "people2_words",
+      "title": "Looks & character · new words",
+      "items": [
+        {
+          "en": "ugly",
+          "pl": "brzydki"
+        },
+        {
+          "en": "nice, kind",
+          "pl": "miły",
+          "icon": "🙂"
+        },
+        {
+          "en": "clever, wise",
+          "pl": "mądry",
+          "icon": "🧠"
+        },
+        {
+          "en": "stupid, silly",
+          "pl": "głupi",
+          "icon": "🤪"
+        },
+        {
+          "en": "funny (makes you laugh)",
+          "pl": "śmieszny",
+          "icon": "😂"
+        },
+        {
+          "en": "serious",
+          "pl": "poważny",
+          "icon": "😐"
+        },
+        {
+          "en": "short (not tall), low",
+          "pl": "niski"
+        },
+        {
+          "en": "fat, thick",
+          "pl": "gruby"
+        },
+        {
+          "en": "thin, skinny",
+          "pl": "chudy"
+        },
+        {
+          "en": "strong",
+          "pl": "silny",
+          "icon": "💪"
+        },
+        {
+          "en": "weak",
+          "pl": "słaby",
+          "icon": "🔋"
+        }
+      ]
+    },
+    {
+      "id": "people2_look_mf",
+      "title": "Looks · masculine / feminine",
+      "items": [
+        {
+          "en": "the sweater was ugly",
+          "pl": "sweter był brzydki"
+        },
+        {
+          "en": "the weather was ugly (nasty)",
+          "pl": "pogoda była brzydka"
+        },
+        {
+          "en": "the table is low",
+          "pl": "stół jest niski"
+        },
+        {
+          "en": "the price was low",
+          "pl": "cena była niska"
+        },
+        {
+          "en": "the cat is fat",
+          "pl": "kot jest gruby"
+        },
+        {
+          "en": "the book was thick",
+          "pl": "książka była gruba"
+        },
+        {
+          "en": "the dog was thin",
+          "pl": "pies był chudy"
+        },
+        {
+          "en": "the cow was thin",
+          "pl": "krowa była chuda"
+        },
+        {
+          "en": "the wind was strong",
+          "pl": "wiatr był silny"
+        },
+        {
+          "en": "Mum was strong",
+          "pl": "mama była silna"
+        },
+        {
+          "en": "I was weak (m)",
+          "pl": "byłem słaby"
+        },
+        {
+          "en": "the tea was weak",
+          "pl": "herbata była słaba"
+        }
+      ]
+    },
+    {
+      "id": "people2_char_mf",
+      "title": "Character · masculine / feminine",
+      "items": [
+        {
+          "en": "the waiter was nice",
+          "pl": "kelner był miły"
+        },
+        {
+          "en": "my sister was nice",
+          "pl": "siostra była miła"
+        },
+        {
+          "en": "the dog is clever",
+          "pl": "pies jest mądry"
+        },
+        {
+          "en": "my daughter is clever",
+          "pl": "córka jest mądra"
+        },
+        {
+          "en": "the film was stupid",
+          "pl": "film był głupi"
+        },
+        {
+          "en": "the game was silly",
+          "pl": "gra była głupia"
+        },
+        {
+          "en": "the cat was funny",
+          "pl": "kot był śmieszny"
+        },
+        {
+          "en": "the song was funny",
+          "pl": "piosenka była śmieszna"
+        },
+        {
+          "en": "the problem was serious",
+          "pl": "problem był poważny"
+        },
+        {
+          "en": "the situation was serious",
+          "pl": "sytuacja była poważna"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This sweater is ugly.",
+      "pl": "Ten sweter jest brzydki.",
+      "accepts": [
+        "Ten sweter jest brzydki.",
+        "Ten sweter jest brzydki",
+        "Sweter jest brzydki.",
+        "Sweter jest brzydki"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "brzydki"
+      ],
+      "explain": "brzydki is the exact opposite of ładny, which you already know. Polish uses it on things and places far more comfortably than on people."
+    },
+    {
+      "en": "Yesterday the weather was nasty.",
+      "pl": "Wczoraj pogoda była brzydka.",
+      "accepts": [
+        "Wczoraj pogoda była brzydka.",
+        "Wczoraj pogoda była brzydka",
+        "Pogoda była brzydka wczoraj.",
+        "Pogoda była brzydka wczoraj",
+        "Pogoda była brzydka.",
+        "Pogoda była brzydka"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "brzydka"
+      ],
+      "explain": "pogoda is feminine, so both words take -a: była brzydka. brzydka pogoda is the normal Polish way to say the weather is horrible — no separate word needed."
+    },
+    {
+      "en": "The waiter at the hotel was nice.",
+      "pl": "W hotelu kelner był miły.",
+      "accepts": [
+        "W hotelu kelner był miły.",
+        "W hotelu kelner był miły",
+        "Kelner w hotelu był miły.",
+        "Kelner w hotelu był miły",
+        "Kelner był miły.",
+        "Kelner był miły",
+        "Kelner był miły w hotelu.",
+        "Kelner był miły w hotelu"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "prep_w_loc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "miły"
+      ],
+      "explain": "miły is the everyday word for a kind, pleasant person — the one you reach for about waiters, neighbours and family."
+    },
+    {
+      "en": "My sister was nice.",
+      "pl": "Moja siostra była miła.",
+      "accepts": [
+        "Moja siostra była miła.",
+        "Moja siostra była miła",
+        "Siostra była miła.",
+        "Siostra była miła"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "miła"
+      ],
+      "explain": "Three feminine endings in a row: moja, była, miła. Once the subject is feminine everything that describes it follows."
+    },
+    {
+      "en": "My dog is clever.",
+      "pl": "Mój pies jest mądry.",
+      "accepts": [
+        "Mój pies jest mądry.",
+        "Mój pies jest mądry",
+        "Pies jest mądry.",
+        "Pies jest mądry"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "mądry"
+      ]
+    },
+    {
+      "en": "My daughter is clever.",
+      "pl": "Moja córka jest mądra.",
+      "accepts": [
+        "Moja córka jest mądra.",
+        "Moja córka jest mądra",
+        "Córka jest mądra.",
+        "Córka jest mądra"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "mądra"
+      ],
+      "explain": "mądry drops its -y and takes -a for a woman or girl: mądry → mądra."
+    },
+    {
+      "en": "That film was stupid.",
+      "pl": "Ten film był głupi.",
+      "accepts": [
+        "Ten film był głupi.",
+        "Ten film był głupi",
+        "Film był głupi.",
+        "Film był głupi"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "głupi"
+      ],
+      "explain": "This is the safe home for głupi: films, ideas, television. Aimed at a person it is a real insult in Polish, much stronger than English silly."
+    },
+    {
+      "en": "That game was silly.",
+      "pl": "Ta gra była głupia.",
+      "accepts": [
+        "Ta gra była głupia.",
+        "Ta gra była głupia",
+        "Gra była głupia.",
+        "Gra była głupia"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "głupia"
+      ],
+      "explain": "głupi already ends in -i, not -y, but the feminine works the same way: głupi → głupia."
+    },
+    {
+      "en": "Was that film funny?",
+      "pl": "Czy ten film był śmieszny?",
+      "accepts": [
+        "Czy ten film był śmieszny?",
+        "Czy ten film był śmieszny",
+        "Czy film był śmieszny?",
+        "Czy film był śmieszny",
+        "Ten film był śmieszny?",
+        "Ten film był śmieszny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "ten_ta_to",
+        "question",
+        "zgoda"
+      ],
+      "lemmas": [
+        "śmieszny"
+      ],
+      "explain": "czy only opens a yes/no question — the words behind it stay exactly as they were in the statement."
+    },
+    {
+      "en": "That song was funny.",
+      "pl": "Ta piosenka była śmieszna.",
+      "accepts": [
+        "Ta piosenka była śmieszna.",
+        "Ta piosenka była śmieszna",
+        "Piosenka była śmieszna.",
+        "Piosenka była śmieszna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "śmieszna"
+      ]
+    },
+    {
+      "en": "The problem was serious.",
+      "pl": "Problem był poważny.",
+      "accepts": [
+        "Problem był poważny.",
+        "Problem był poważny",
+        "Ten problem był poważny.",
+        "Ten problem był poważny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "poważny"
+      ]
+    },
+    {
+      "en": "The situation was serious.",
+      "pl": "Sytuacja była poważna.",
+      "accepts": [
+        "Sytuacja była poważna.",
+        "Sytuacja była poważna",
+        "Ta sytuacja była poważna.",
+        "Ta sytuacja była poważna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "poważna"
+      ],
+      "explain": "poważny also means serious in the sense of grave — a serious problem, a serious situation, not only a serious face."
+    },
+    {
+      "en": "This table is low.",
+      "pl": "Ten stół jest niski.",
+      "accepts": [
+        "Ten stół jest niski.",
+        "Ten stół jest niski",
+        "Stół jest niski.",
+        "Stół jest niski"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "niski"
+      ],
+      "explain": "niski is the opposite of wysoki. Like wysoki it does two jobs: tall/short about a person, high/low about a table, a wall or a price."
+    },
+    {
+      "en": "The price was low.",
+      "pl": "Cena była niska.",
+      "accepts": [
+        "Cena była niska.",
+        "Cena była niska",
+        "Ta cena była niska.",
+        "Ta cena była niska"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "niska"
+      ],
+      "explain": "The k stays hard here, so the feminine is simply niski → niska, the same swap as wysoki → wysoka."
+    },
+    {
+      "en": "My cat is fat.",
+      "pl": "Mój kot jest gruby.",
+      "accepts": [
+        "Mój kot jest gruby.",
+        "Mój kot jest gruby",
+        "Kot jest gruby.",
+        "Kot jest gruby"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gruby"
+      ]
+    },
+    {
+      "en": "That book was thick.",
+      "pl": "Ta książka była gruba.",
+      "accepts": [
+        "Ta książka była gruba.",
+        "Ta książka była gruba",
+        "Książka była gruba.",
+        "Książka była gruba"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "ten_ta_to",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gruba"
+      ],
+      "explain": "One word covers both: gruby is fat about an animal or a person, and thick about a book, a wall or a sweater."
+    },
+    {
+      "en": "The dog was thin.",
+      "pl": "Pies był chudy.",
+      "accepts": [
+        "Pies był chudy.",
+        "Pies był chudy",
+        "Ten pies był chudy.",
+        "Ten pies był chudy"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "chudy"
+      ]
+    },
+    {
+      "en": "The cow was thin.",
+      "pl": "Krowa była chuda.",
+      "accepts": [
+        "Krowa była chuda.",
+        "Krowa była chuda",
+        "Ta krowa była chuda.",
+        "Ta krowa była chuda"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "chuda"
+      ],
+      "explain": "chudy is the opposite of gruby. It is a flat description rather than a compliment, which is why it sits best on animals and things."
+    },
+    {
+      "en": "At the weekend the wind was strong.",
+      "pl": "W weekend wiatr był silny.",
+      "accepts": [
+        "W weekend wiatr był silny.",
+        "W weekend wiatr był silny",
+        "Wiatr był silny w weekend.",
+        "Wiatr był silny w weekend",
+        "Wiatr był silny.",
+        "Wiatr był silny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "time_past_chunk",
+        "zgoda"
+      ],
+      "lemmas": [
+        "silny"
+      ],
+      "explain": "silny is not only about muscles — strong wind, strong coffee, a strong team all take it."
+    },
+    {
+      "en": "Mum was strong.",
+      "pl": "Mama była silna.",
+      "accepts": [
+        "Mama była silna.",
+        "Mama była silna",
+        "Moja mama była silna.",
+        "Moja mama była silna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "silna"
+      ]
+    },
+    {
+      "en": "Yesterday I was weak. (m)",
+      "pl": "Wczoraj byłem słaby.",
+      "accepts": [
+        "Wczoraj byłem słaby.",
+        "Wczoraj byłem słaby",
+        "Byłem wczoraj słaby.",
+        "Byłem wczoraj słaby",
+        "Byłem słaby wczoraj.",
+        "Byłem słaby wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "słaby"
+      ],
+      "explain": "This is what you say after an illness — słaby means with no strength, and it sits naturally next to chory, which you already know. A woman would say byłam słaba."
+    },
+    {
+      "en": "The tea was weak.",
+      "pl": "Herbata była słaba.",
+      "accepts": [
+        "Herbata była słaba.",
+        "Herbata była słaba",
+        "Ta herbata była słaba.",
+        "Ta herbata była słaba"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "słaba"
+      ],
+      "explain": "The same word does drinks: słaba herbata is weak tea, weak coffee, weak beer. herbata is feminine, so the ending is -a."
+    }
+  ],
+  "teaches_lemmas": [
+    "brzydki",
+    "brzydka",
+    "miły",
+    "miła",
+    "mądry",
+    "mądra",
+    "głupi",
+    "głupia",
+    "śmieszny",
+    "śmieszna",
+    "poważny",
+    "poważna",
+    "niski",
+    "niska",
+    "gruby",
+    "gruba",
+    "chudy",
+    "chuda",
+    "silny",
+    "silna",
+    "słaby",
+    "słaba"
+  ],
+  "uses_lemmas": [
+    "być",
+    "był",
+    "była",
+    "byłem",
+    "jest",
+    "ten",
+    "ta",
+    "czy",
+    "mój",
+    "moja",
+    "sweter",
+    "pogoda",
+    "kelner",
+    "hotelu",
+    "w hotelu",
+    "siostra",
+    "pies",
+    "córka",
+    "film",
+    "gra",
+    "piosenka",
+    "problem",
+    "sytuacja",
+    "stół",
+    "cena",
+    "kot",
+    "książka",
+    "krowa",
+    "wiatr",
+    "mama",
+    "herbata",
+    "wczoraj",
+    "w weekend",
+    "ładny",
+    "wysoki",
+    "młody",
+    "chory"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_people2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

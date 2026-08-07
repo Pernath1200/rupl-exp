@@ -1,0 +1,678 @@
+{
+  "id": "a2_case_gym2",
+  "title": "Przypadki · trening 2",
+  "title_en": "Case gym 2 · all cases + plural",
+  "level": "A2",
+  "tree_node": "a2_case_gym2",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "The A2 automaticity checkpoint. ZERO new material: every noun, verb and preposition here was already taught, most of them since A1. Sibling of a1_case_gym (same idiom, same restraint) but widened from 4 cases to 7 jobs: Nom / Acc / Gen sg / Loc sg / Inst sg (all recycled from a1/a2) plus Nom pl and Gen pl (a2_plural_nom, a2_gen_pl). Cues stay English-only, Polish lives in frames/answers, matching the a1_case_gym convention that was corrected to this shape after a real smoke-test finding. Every form checked against POOL and against sequencing/check_new.py before use, not assumed from the string alone. Homograph traps caught and deliberately avoided: gazety/wina/okna/córki are owned by a2_plural_nom as nominative PLURAL only (never taught as genitive singular anywhere, even though the string would be morphologically valid as one for gazeta/wino/okno/córka) — none of the four appear in this pack; kawy/szkoły/wody/herbaty/telefonu/domu/mieszkania-family stay exclusively on the genitive-singular side because that is the only sense they were ever taught in (a1_gen_endings), matching a1_case_gym's own precedent of never crossing kawy over to a plural reading. Two forms are deliberately reused across two DIFFERENT taught senses because both senses are independently and explicitly taught elsewhere for that exact string, not assumed: domu (genitive after blisko/z, from a1_gen_endings, AND locative after w, from a1_prep_place — both taught, both drilled here, cue disambiguates, direct precedent already set inside a1_case_gym itself) and banku/parku (same double duty, taught genitive by a1_case_gym/a1_prep_review_1 and taught locative by a1_prep_review_1/a2_o_loc). psa is the one masculine-animate accusative used, and it is used ONLY as accusative here (never re-tested as genitive) to keep the drill unambiguous, though the two forms are honestly identical (named, not hidden). z is drilled doing both of its jobs side by side (z bratem = instrumental/company vs z domu = genitive/from) as a genitive-vs-instrumental discrimination item, mirroring how a2_inst_z itself handled that same contrast — through a quiz distractor, never its own drilled pair. IMPERFECTIVE ONLY, no plural past (a2_past_plural is live by this point but left out on purpose to keep the drill's one variable to the noun, not the verb), no virile plurals (none of the plural nouns recycled here are virile). teaches_structures is empty and teaches_lemmas is empty: this unit teaches no new structure and no new lemma, only automaticity across what A2 has already built.",
+  "focus_structures": [
+    "miec_acc",
+    "gen_endings",
+    "prep_w_loc",
+    "o_loc",
+    "inst_identity",
+    "inst_z",
+    "inst_transport",
+    "plural_nom",
+    "gen_pl"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "o_loc",
+    "inst_identity",
+    "inst_z",
+    "inst_transport",
+    "plural_nom",
+    "gen_pl",
+    "existential_jest",
+    "byc_present",
+    "present_am",
+    "present_e_isz",
+    "jechac"
+  ],
+  "intro": [
+    {
+      "title": "Seven jobs, one noun",
+      "title_pl": "Siedem ról, jeden rzeczownik",
+      "body": "Everything below is a noun you already own, doing a job you already know. Nothing new — just choosing the right form, fast, when all seven jobs are mixed together.",
+      "body_pl": "Nic nowego — tylko szybki wybór właściwej formy, gdy wszystkie role są wymieszane.",
+      "table": {
+        "headers": [
+          "Job",
+          "Case name",
+          "Cue",
+          "Example"
+        ],
+        "rows": [
+          [
+            "naming (one)",
+            "Nominative · mianownik",
+            "to jest...",
+            "To jest bank."
+          ],
+          [
+            "object",
+            "Accusative · biernik",
+            "mam · piję · chcę",
+            "Mam psa. · Piję kawę."
+          ],
+          [
+            "'of'-form",
+            "Genitive · dopełniacz",
+            "nie mam · dużo · blisko · do/z",
+            "Nie mam kawy. · Idę do parku."
+          ],
+          [
+            "place / topic",
+            "Locative · miejscownik",
+            "w/na = where · o = about",
+            "Jestem w banku. · Mówię o szkole."
+          ],
+          [
+            "who / how",
+            "Instrumental · narzędnik",
+            "jestem... · z... · (nothing)",
+            "Jestem nauczycielem. · z bratem · autobusem"
+          ],
+          [
+            "naming (many)",
+            "Nominative plural",
+            "to są...",
+            "To są domy."
+          ],
+          [
+            "'of'-form (many)",
+            "Genitive plural",
+            "nie ma · dużo · blisko",
+            "Nie ma domów."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Hear the cue, pick the form",
+      "title_pl": "Sygnał → forma",
+      "body": "Ask yourself two questions: is it one thing or many, and what is it doing? Those two answers pick the ending.",
+      "body_pl": "Jedno czy wiele? Co robi rzeczownik? Te dwie odpowiedzi wybierają końcówkę.",
+      "table": {
+        "headers": [
+          "Situation",
+          "Form"
+        ],
+        "rows": [
+          [
+            "You are naming one (to jest...)",
+            "bank — basic form"
+          ],
+          [
+            "You have / drink / want it",
+            "kawę · psa"
+          ],
+          [
+            "After nie mam · dużo · blisko · do · z (one)",
+            "kawy · banku · parku"
+          ],
+          [
+            "After w / na — where you are",
+            "w banku · w parku"
+          ],
+          [
+            "After o — what you're talking about",
+            "o szkole · o domu"
+          ],
+          [
+            "Who you are / who with / how you travel",
+            "nauczycielem · z bratem · autobusem"
+          ],
+          [
+            "You are naming many (to są...)",
+            "domy — plain plural"
+          ],
+          [
+            "After nie ma · dużo · blisko (many)",
+            "domów · filmów · gazet"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One ending, two jobs — on purpose",
+      "title_pl": "Jedna końcówka, dwie role — celowo",
+      "body": "A few of these words look identical in two different jobs, and that is not a mistake — it is how Polish actually works.\n\ndomu does two jobs: blisko domu (near home — genitive) and w domu (at home — locative). Same four letters, same word, different little word in front telling you which job it's doing.\n\nbanku and parku work the same way: blisko banku / w banku, do parku / w parku. The cue in front is what tells you which one you're reading.",
+      "body_pl": "domu: blisko domu (dopełniacz) i w domu (miejscownik) — ta sama forma, dwie role. To samo z banku i parku.",
+      "examples": [
+        {
+          "en": "near home",
+          "pl": "blisko domu"
+        },
+        {
+          "en": "at home",
+          "pl": "w domu"
+        },
+        {
+          "en": "near the bank",
+          "pl": "blisko banku"
+        },
+        {
+          "en": "at the bank",
+          "pl": "w banku"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "naming it · bank",
+      "pl": "bank"
+    },
+    {
+      "en": "you drink it · coffee",
+      "pl": "kawę"
+    },
+    {
+      "en": "you have it · dog",
+      "pl": "psa"
+    },
+    {
+      "en": "you don't have it · coffee",
+      "pl": "kawy"
+    },
+    {
+      "en": "a lot of it · water",
+      "pl": "dużo wody"
+    },
+    {
+      "en": "you're there · bank",
+      "pl": "w banku"
+    },
+    {
+      "en": "talking about it · school",
+      "pl": "o szkole"
+    },
+    {
+      "en": "who you're with · brother",
+      "pl": "z bratem"
+    },
+    {
+      "en": "how you travel · bus",
+      "pl": "autobusem"
+    },
+    {
+      "en": "naming them · houses",
+      "pl": "domy"
+    },
+    {
+      "en": "you don't have them · films",
+      "pl": "filmów"
+    },
+    {
+      "en": "a lot of them · newspapers",
+      "pl": "dużo gazet"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You DON'T have it — coffee →",
+      "choices": [
+        "kawy",
+        "kawę",
+        "kawa",
+        "kawą"
+      ],
+      "answer": "kawy"
+    },
+    {
+      "prompt": "You drink it — tea →",
+      "choices": [
+        "herbatę",
+        "herbaty",
+        "herbata",
+        "herbatą"
+      ],
+      "answer": "herbatę"
+    },
+    {
+      "prompt": "You're there — bank (not going) →",
+      "choices": [
+        "w banku",
+        "do banku",
+        "z banku",
+        "na banku"
+      ],
+      "answer": "w banku",
+      "explain": "do banku would be going there and z banku coming from there. w + this same form banku just says where you are."
+    },
+    {
+      "prompt": "Near it — bank →",
+      "choices": [
+        "blisko banku",
+        "blisko bank",
+        "w banku",
+        "do banku"
+      ],
+      "answer": "blisko banku",
+      "explain": "banku does two jobs with the same spelling: w banku (at the bank) and blisko banku (near the bank). The little word in front tells you which one you're reading."
+    },
+    {
+      "prompt": "Who you are — teacher (m) →",
+      "choices": [
+        "nauczycielem",
+        "nauczyciel",
+        "nauczyciela",
+        "nauczycielowi"
+      ],
+      "answer": "nauczycielem"
+    },
+    {
+      "prompt": "Who you're with — brother →",
+      "choices": [
+        "z bratem",
+        "z brata",
+        "brata",
+        "bratem"
+      ],
+      "answer": "z bratem",
+      "explain": "z brata would be the other z — the one meaning from, which takes the genitive. Companionship needs the instrumental: z bratem."
+    },
+    {
+      "prompt": "Coming FROM it — home →",
+      "choices": [
+        "z domu",
+        "z domem",
+        "do domu",
+        "w domu"
+      ],
+      "answer": "z domu",
+      "explain": "This z means from and takes the genitive — a different job from z bratem (with), which takes the instrumental. Same little word, two cases, and the ending tells you which."
+    },
+    {
+      "prompt": "How you travel — bus →",
+      "choices": [
+        "autobusem",
+        "z autobusem",
+        "autobus",
+        "autobusie"
+      ],
+      "answer": "autobusem",
+      "explain": "No preposition in front of a vehicle. z belongs to people you travel with, never to the bus itself — the ending -em does the whole job of by."
+    },
+    {
+      "prompt": "Naming them — houses →",
+      "choices": [
+        "domy",
+        "domów",
+        "domu",
+        "domem"
+      ],
+      "answer": "domy"
+    },
+    {
+      "prompt": "You don't have them — films →",
+      "choices": [
+        "filmów",
+        "filmy",
+        "film",
+        "filma"
+      ],
+      "answer": "filmów"
+    },
+    {
+      "prompt": "Fix: Mam dużo banki. →",
+      "choices": [
+        "banków",
+        "banki",
+        "banku",
+        "bankach"
+      ],
+      "answer": "banków",
+      "explain": "dużo always demands the genitive. banki is the plain plural form — the subject form — and cannot stand after dużo."
+    },
+    {
+      "prompt": "A lot of them — newspapers →",
+      "choices": [
+        "dużo gazet",
+        "dużo gazety",
+        "dużo gazeta",
+        "dużo gazetów"
+      ],
+      "answer": "dużo gazet"
+    },
+    {
+      "prompt": "Talking about it — school →",
+      "choices": [
+        "o szkole",
+        "o szkoła",
+        "o szkoły",
+        "do szkoły"
+      ],
+      "answer": "o szkole",
+      "explain": "do szkoły would be going to school (genitive). o takes the same ending as w — o szkole is the same form as w szkole, only the topic word changed."
+    },
+    {
+      "prompt": "You have it — dog →",
+      "choices": [
+        "psa",
+        "pies",
+        "psy",
+        "psie"
+      ],
+      "answer": "psa",
+      "explain": "Masculine-animate nouns like pies are the one honest exception: the accusative and the genitive share the identical form, psa."
+    },
+    {
+      "prompt": "Fix: Jestem nauczyciel. →",
+      "choices": [
+        "Jestem nauczycielem.",
+        "Jestem nauczyciel. (OK)",
+        "Jestem nauczyciela.",
+        "To jest nauczyciel."
+      ],
+      "answer": "Jestem nauczycielem."
+    },
+    {
+      "prompt": "You're GOING there — park →",
+      "choices": [
+        "do parku",
+        "w parku",
+        "z parku",
+        "parku"
+      ],
+      "answer": "do parku",
+      "explain": "w parku says you are already there. do parku is the direction — going there — and it uses the same ending, parku, as a different little word entirely."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "naming it · bank",
+      "mode": "full_word",
+      "answer": "bank",
+      "accepts": [
+        "bank"
+      ]
+    },
+    {
+      "prompt_en": "you have it · dog",
+      "mode": "full_word",
+      "answer": "psa",
+      "accepts": [
+        "psa"
+      ]
+    },
+    {
+      "prompt_en": "you drink it · tea",
+      "mode": "full_word",
+      "answer": "herbatę",
+      "accepts": [
+        "herbatę"
+      ]
+    },
+    {
+      "prompt_en": "you don't have it · water",
+      "mode": "full_word",
+      "answer": "wody",
+      "accepts": [
+        "wody"
+      ]
+    },
+    {
+      "prompt_en": "near it · school",
+      "mode": "full_word",
+      "answer": "blisko szkoły",
+      "accepts": [
+        "blisko szkoły"
+      ]
+    },
+    {
+      "prompt_en": "you're there · park",
+      "mode": "full_word",
+      "answer": "w parku",
+      "accepts": [
+        "w parku"
+      ]
+    },
+    {
+      "prompt_en": "talking about it · home",
+      "mode": "full_word",
+      "answer": "o domu",
+      "accepts": [
+        "o domu"
+      ]
+    },
+    {
+      "prompt_en": "who you are · doctor (f)",
+      "mode": "full_word",
+      "answer": "lekarką",
+      "accepts": [
+        "lekarką"
+      ]
+    },
+    {
+      "prompt_en": "how you travel · car",
+      "mode": "full_word",
+      "answer": "samochodem",
+      "accepts": [
+        "samochodem"
+      ]
+    },
+    {
+      "prompt_en": "naming them · shops",
+      "mode": "full_word",
+      "answer": "sklepy",
+      "accepts": [
+        "sklepy"
+      ]
+    },
+    {
+      "prompt_en": "you don't have them · cats",
+      "mode": "full_word",
+      "answer": "kotów",
+      "accepts": [
+        "kotów"
+      ]
+    },
+    {
+      "prompt_en": "near them · parks",
+      "mode": "full_word",
+      "answer": "blisko parków",
+      "accepts": [
+        "blisko parków"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: This is a bank.",
+      "answer": "To jest bank.",
+      "accepts": [
+        "To jest bank.",
+        "To jest bank"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a dog.",
+      "answer": "Mam psa.",
+      "accepts": [
+        "Mam psa.",
+        "Mam psa"
+      ]
+    },
+    {
+      "prompt_en": "Type: I drink coffee.",
+      "answer": "Piję kawę.",
+      "accepts": [
+        "Piję kawę.",
+        "Piję kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have coffee.",
+      "answer": "Nie mam kawy.",
+      "accepts": [
+        "Nie mam kawy.",
+        "Nie mam kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I live near the bank.",
+      "answer": "Mieszkam blisko banku.",
+      "accepts": [
+        "Mieszkam blisko banku.",
+        "Mieszkam blisko banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm at the bank.",
+      "answer": "Jestem w banku.",
+      "accepts": [
+        "Jestem w banku.",
+        "Jestem w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad talks about school.",
+      "answer": "Tata mówi o szkole.",
+      "accepts": [
+        "Tata mówi o szkole.",
+        "Tata mówi o szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am a teacher. (m)",
+      "answer": "Jestem nauczycielem.",
+      "accepts": [
+        "Jestem nauczycielem.",
+        "Jestem nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the park with my brother.",
+      "answer": "Idę do parku z bratem.",
+      "accepts": [
+        "Idę do parku z bratem.",
+        "Idę do parku z bratem"
+      ],
+      "explain": "Two cases, side by side: do parku is the genitive (where to), z bratem the instrumental (who with)."
+    },
+    {
+      "prompt_en": "Type: Mum is going to the shop by car.",
+      "answer": "Mama jedzie do sklepu samochodem.",
+      "accepts": [
+        "Mama jedzie do sklepu samochodem.",
+        "Mama jedzie do sklepu samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: The houses are big.",
+      "answer": "Domy są duże.",
+      "accepts": [
+        "Domy są duże.",
+        "Domy są duże"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no films in the shop.",
+      "answer": "W sklepie nie ma filmów.",
+      "accepts": [
+        "W sklepie nie ma filmów.",
+        "W sklepie nie ma filmów",
+        "Nie ma filmów w sklepie.",
+        "Nie ma filmów w sklepie"
+      ]
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "bank",
+    "banku",
+    "w banku",
+    "kawa",
+    "kawę",
+    "kawy",
+    "herbata",
+    "herbatę",
+    "woda",
+    "wody",
+    "szkoła",
+    "szkoły",
+    "o szkole",
+    "pies",
+    "psa",
+    "park",
+    "parku",
+    "w parku",
+    "do parku",
+    "parków",
+    "dom",
+    "domy",
+    "domu",
+    "z domu",
+    "w domu",
+    "o domu",
+    "sklep",
+    "sklepy",
+    "sklepie",
+    "w sklepie",
+    "do sklepu",
+    "kot",
+    "koty",
+    "kotów",
+    "film",
+    "filmy",
+    "filmów",
+    "gazeta",
+    "gazety",
+    "gazet",
+    "dużo",
+    "blisko",
+    "nie mam",
+    "nie ma",
+    "nauczyciel",
+    "nauczycielem",
+    "lekarka",
+    "lekarką",
+    "brat",
+    "bratem",
+    "z bratem",
+    "autobus",
+    "autobusem",
+    "samochód",
+    "samochodem",
+    "mam",
+    "piję",
+    "mieszkam",
+    "jestem",
+    "jest",
+    "są",
+    "mówi",
+    "idę",
+    "jedzie",
+    "to są",
+    "tata",
+    "mama"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_case_gym2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

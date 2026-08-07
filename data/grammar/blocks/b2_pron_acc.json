@@ -1,0 +1,607 @@
+{
+ "id": "b2_pron_acc",
+ "title": "Kocham cię · biernik",
+ "title_en": "Object pronouns · the other half of mi, ci, mu",
+ "level": "B2",
+ "tree_node": "b2_pron_acc",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 3, unit 1 (spine). SIX NEW FORMS: cię, go, ją, nas, was, ich — all verified NEW at build time. mnie reports TAUGHT and is the seventh, re-taught explicitly here.\n\nTHE UNIT PAYS AN IOU THREE LEVELS OLD, and this is why it exists. a2_dat_chunks taught boli mnie as a frozen block and its own note says: 'mnie in boli mnie is accusative, not dative — deliberately NOT explained; Dad is told only that boli keeps mnie and podoba/smakuje keep mi.' b1_dative_pron then refused to generalise boleć onto the new dative pronouns, and said why: 'boleć takes the accusative in every person, a different pronoun set the course has not taught, and generalising the new dative pronouns onto it would be a genuine grammar error, not a simplification. This unit does not touch that fence.' The course now has that pronoun set, so the fence comes down here and nowhere earlier. Slide 1 is the reveal (chunk → paradigm, the dziękuję / której / nowego precedent) and boli is finally run across persons: boli mnie, boli cię, boli go.\n\nTHE GIFT, and slide 2: half the table is already owned. The Dative column (mi, ci, mu, jej, nam, wam, im) is b1_dative_pron's, complete since path 118, so the learner is filling in a second column beside one he already has rather than learning fourteen words. The verb decides the column; slide 3 is that list and uses only verbs already owned on both sides.\n\nWORD ORDER, one line and a real fence. Every item in this pack puts the object pronoun IMMEDIATELY AFTER ITS VERB, and where the pronoun is one of the short clitics (cię, go, ją, mi, ci, mu, jej) the verb is also clause-initial — Kocham cię, Lubię go, Znam ją, Pomagam mu, Boli mnie głowa. That placement is always natural Polish. Noun-subject sentences use only the full forms (Mama zna nas, Tata lubi was, Znam ich), because Mama kocha cię would be marked where Mama cię kocha is neutral, and choosing between them is a word-order fact, not a pronoun fact. Stated to the learner as the same rule się already has since a2_sie — after the verb — and the fuller story is left where B2-SPINE's C1 list already puts it (item 19, clitic and general word order).\n\nFENCED, and each one deliberately:\n- ALL n- FORMS AFTER PREPOSITIONS — niego, niej, nim, nich, nimi — appear nowhere, not in a slide, not as a distractor. b2_pron_prep is the very next unit on the path and owns them. This is the fence that matters most here and the auditor CANNOT SEE IT: person pronouns sit in audit.py's GLUE_LEMMAS, so no pronoun fence in this block is machine-enforced. It was checked by hand, string by string, over every stage.\n- je, the neuter and non-virile-plural accusative ('it', and 'them' for anything that is not a group including a man). Two reasons, both real: it is a second fact (the virile/non-virile split arriving in a new place), and je collides head-on with je 'he/she eats'. The spine's own list of this unit's forms stops at ich, so this follows the spine rather than extending it. Consequence, stated honestly: after this unit 'them' is expressible only for people. Handed to C1.\n- jego and ciebie, the long emphatic forms of go and cię. Sentence-initial emphasis is a second fact and neither form is needed to say anything this unit asks for.\n- siebie / sobie — spine O15 sends the true reflexive to C1, and a2_sie's framing of się as 'a word belonging to the verb' must not be disturbed here.\n- NEGATED objects anywhere. Nie znam jej would put the object in the Genitive, which is b2_neg_gen's job later in this level. No item in this pack negates a verb with an object.\n\nADVANCE WARNING, in the b1_virile_reco tradition of predicting a collision a batch before it bites: ich is also the possessive 'their'. The course teaches only mój and twój (poss_nom), so there is no collision today — but whichever unit extends the possessives will be re-teaching this exact string as an unrelated word, and should expect the ci/ci treatment.\n\nSECOND WARNING, a cross-language one the homograph table does not cover: was is an English word. A learner reading an English prompt can read the Polish was as the English verb. Named in the explain on its own quiz item rather than left to sting.\n\nci APPEARS ONLY IN ITS DATIVE SENSE (podoba ci się), which is what b1_dative_pron taught it as. Its other taught sense — the virile demonstrative, ci studenci — appears nowhere in this pack, deliberately: cię and ci are already a one-letter minimal pair carrying the unit's central contrast, and forcing a third reading of ci into the same board is exactly the collision b1_case_gym declined to re-run.\n\nAll 12 quiz answers are distinct. Distractors are real taught Polish in the wrong slot throughout — every wrong choice is another pronoun from one of the two columns, so each explain can name which column the learner reached into. Nothing fabricated.",
+ "focus_structures": [
+  "pron_acc"
+ ],
+ "teaches_structures": [
+  "pron_acc"
+ ],
+ "teaches_lemmas": [
+  "cię",
+  "go",
+  "ją",
+  "nas",
+  "was",
+  "ich",
+  "mnie"
+ ],
+ "uses_structures": [
+  "pron_acc",
+  "dative_pron",
+  "dat_chunks",
+  "dative_sg",
+  "sie_reflexive",
+  "miec_acc",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "zgoda",
+  "ten_ta_to",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "boli mnie — the word you have been saying since A2",
+   "title_pl": "boli mnie · boli cię · boli go",
+   "body": "You have said Boli mnie głowa since A2, and you were told then only that boli keeps mnie while podoba and smakuje keep mi. Here is the reason, and it is worth having.\n\nmnie is not a version of mi. It is a different form doing a different job: mnie is the OBJECT of the verb — the person the verb lands on. Polish has a full set of these object pronouns, and boli takes them in every person, not just the first.",
+   "body_pl": "biernik · mnie · cię · go · ją · nas · was · ich",
+   "table": {
+    "headers": [
+     "Person",
+     "Object form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "me",
+      "mnie",
+      "Boli mnie głowa."
+     ],
+     [
+      "you (one person)",
+      "cię",
+      "Kocham cię."
+     ],
+     [
+      "him",
+      "go",
+      "Lubię go."
+     ],
+     [
+      "her",
+      "ją",
+      "Znam ją."
+     ],
+     [
+      "us",
+      "nas",
+      "Mama zna nas."
+     ],
+     [
+      "you (more than one)",
+      "was",
+      "Tata lubi was."
+     ],
+     [
+      "them (people)",
+      "ich",
+      "Znam ich."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Half of this table is already yours",
+   "title_pl": "biernik · celownik",
+   "body": "Polish has two pronoun columns, and you have owned the right-hand one since B1 — mi, ci, mu, jej, nam, wam, im, the forms in podoba mi się and pomagam mu. So this unit is not fourteen new words. It is one new column beside a column you already have.\n\nThe left column is the person the verb lands on. The right column is the person something happens to, or is given to. Nothing about the pronoun tells you which one to use — the verb does, and the next slide lists them.",
+   "body_pl": "mnie · mi   ·   cię · ci   ·   go · mu   ·   ją · jej",
+   "table": {
+    "headers": [
+     "Person",
+     "Object (new)",
+     "Who it happens to (yours since B1)"
+    ],
+    "rows": [
+     [
+      "me",
+      "mnie",
+      "mi"
+     ],
+     [
+      "you (one person)",
+      "cię",
+      "ci"
+     ],
+     [
+      "him",
+      "go",
+      "mu"
+     ],
+     [
+      "her",
+      "ją",
+      "jej"
+     ],
+     [
+      "us",
+      "nas",
+      "nam"
+     ],
+     [
+      "you (more than one)",
+      "was",
+      "wam"
+     ],
+     [
+      "them (people)",
+      "ich",
+      "im"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "My head hurts.",
+     "pl": "Boli mnie głowa."
+    },
+    {
+     "en": "I like it.",
+     "pl": "Podoba mi się."
+    }
+   ]
+  },
+  {
+   "title": "The verb picks the column",
+   "title_pl": "kocham · lubię · znam · boli   ·   podoba się · smakuje · pomagam · dziękuję",
+   "body": "Every verb below is one you already use. All that is new is knowing which column each one reaches into — and that never changes for a given verb, so it is worth learning them as a short list rather than working it out each time.\n\nOne placement note, and it is a rule you already follow with się: the pronoun goes straight after its verb. Kocham cię. Lubię go. Pomagam mu.",
+   "body_pl": "biernik: kocham · lubię · znam · boli   ·   celownik: podoba się · smakuje · pomagam · dziękuję",
+   "table": {
+    "headers": [
+     "Verb",
+     "Column it takes",
+     "Example"
+    ],
+    "rows": [
+     [
+      "kocham",
+      "object",
+      "Kocham cię."
+     ],
+     [
+      "lubię",
+      "object",
+      "Lubię go."
+     ],
+     [
+      "znam",
+      "object",
+      "Znam ją."
+     ],
+     [
+      "boli",
+      "object",
+      "Boli go brzuch."
+     ],
+     [
+      "podoba się",
+      "who it happens to",
+      "Podoba mi się."
+     ],
+     [
+      "smakuje",
+      "who it happens to",
+      "Smakuje mi kawa."
+     ],
+     [
+      "pomagam",
+      "who it happens to",
+      "Pomagam mu."
+     ],
+     [
+      "dziękuję",
+      "who it happens to",
+      "Dziękuję jej."
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I love you",
+   "pl": "Kocham cię."
+  },
+  {
+   "en": "I like him",
+   "pl": "Lubię go."
+  },
+  {
+   "en": "I know her",
+   "pl": "Znam ją."
+  },
+  {
+   "en": "my head hurts (it hurts me)",
+   "pl": "Boli mnie głowa."
+  },
+  {
+   "en": "your throat hurts (it hurts you)",
+   "pl": "Boli cię gardło."
+  },
+  {
+   "en": "his stomach hurts (it hurts him)",
+   "pl": "Boli go brzuch."
+  },
+  {
+   "en": "mum knows us",
+   "pl": "Mama zna nas."
+  },
+  {
+   "en": "dad likes you (more than one)",
+   "pl": "Tata lubi was."
+  },
+  {
+   "en": "I know them (people)",
+   "pl": "Znam ich."
+  },
+  {
+   "en": "I like it (it pleases me)",
+   "pl": "Podoba mi się."
+  },
+  {
+   "en": "I'm helping him",
+   "pl": "Pomagam mu."
+  },
+  {
+   "en": "it tastes good to me",
+   "pl": "Smakuje mi."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Kocham ___. (you — one person)",
+   "choices": [
+    "cię",
+    "ci",
+    "mi",
+    "mnie"
+   ],
+   "answer": "cię",
+   "explain": "kochać takes an object, so it reaches into the left column — cię. ci is the same person out of the right column, the one in podoba ci się."
+  },
+  {
+   "prompt": "Lubię ___. (him)",
+   "choices": [
+    "go",
+    "mu",
+    "jej",
+    "ich"
+   ],
+   "answer": "go",
+   "explain": "lubić takes an object — go. mu is 'him' too, but only after a verb like pomagam, where he is the person something is done for."
+  },
+  {
+   "prompt": "Znam ___. (her)",
+   "choices": [
+    "ją",
+    "jej",
+    "ich",
+    "go"
+   ],
+   "answer": "ją",
+   "explain": "znać takes an object — ją. jej is the same person in the other column, as in dziękuję jej."
+  },
+  {
+   "prompt": "Boli ___ głowa. (me — my head hurts)",
+   "choices": [
+    "mnie",
+    "mi",
+    "cię",
+    "ci"
+   ],
+   "answer": "mnie",
+   "explain": "This is the whole point of the unit: boleć takes an object, so it is mnie and never mi. In Polish the head is what hurts, and you are what it hurts."
+  },
+  {
+   "prompt": "Podoba ___ się ten film. (me — I like it)",
+   "choices": [
+    "mi",
+    "mnie",
+    "cię",
+    "go"
+   ],
+   "answer": "mi",
+   "explain": "podobać się goes the other way from boleć — the film pleases, and mi is the person it pleases. Same sentence shape, different column."
+  },
+  {
+   "prompt": "Mama zna ___. (us)",
+   "choices": [
+    "nas",
+    "nam",
+    "was",
+    "wam"
+   ],
+   "answer": "nas",
+   "explain": "znać takes an object — nas. nam is 'us' in the right column, the one in podoba nam się."
+  },
+  {
+   "prompt": "Tata lubi ___. (you — more than one)",
+   "choices": [
+    "was",
+    "wam",
+    "nas",
+    "nam"
+   ],
+   "answer": "was",
+   "explain": "was is Polish for 'you' when you mean more than one person — it has nothing to do with the English word that looks the same. wam is the same people in the other column."
+  },
+  {
+   "prompt": "Znam ___. (them — the students)",
+   "choices": [
+    "ich",
+    "im",
+    "jej",
+    "go"
+   ],
+   "answer": "ich",
+   "explain": "znać takes an object — ich. im is the same people after a verb like pomagam or smakuje."
+  },
+  {
+   "prompt": "Pomagam ___. (him)",
+   "choices": [
+    "mu",
+    "go",
+    "jej",
+    "ją"
+   ],
+   "answer": "mu",
+   "explain": "pomagać reaches into the right column — mu. go would be right after lubię or znam, where he is the object."
+  },
+  {
+   "prompt": "Dziękuję ___. (her)",
+   "choices": [
+    "jej",
+    "ją",
+    "im",
+    "ich"
+   ],
+   "answer": "jej",
+   "explain": "dziękować takes the same column as pomagam — jej. ją is 'her' as an object, as in znam ją."
+  },
+  {
+   "prompt": "Podoba ___ się nowy sklep. (you — one person)",
+   "choices": [
+    "ci",
+    "cię",
+    "mi",
+    "mnie"
+   ],
+   "answer": "ci",
+   "explain": "podobać się always takes the right column, so 'you' here is ci, not cię. These two are one letter apart and the verb is the only thing that tells them apart."
+  },
+  {
+   "prompt": "Smakuje ___ kawa. (them)",
+   "choices": [
+    "im",
+    "ich",
+    "nam",
+    "nas"
+   ],
+   "answer": "im",
+   "explain": "smakować works like podobać się — the coffee tastes good, and im is the people it tastes good to."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "me (the object — boli…)",
+   "mode": "full_word",
+   "answer": "mnie",
+   "accepts": [
+    "mnie"
+   ]
+  },
+  {
+   "prompt_en": "you, one person (the object — kocham…)",
+   "mode": "full_word",
+   "answer": "cię",
+   "accepts": [
+    "cię"
+   ]
+  },
+  {
+   "prompt_en": "him (the object — lubię…)",
+   "mode": "full_word",
+   "answer": "go",
+   "accepts": [
+    "go"
+   ]
+  },
+  {
+   "prompt_en": "her (the object — znam…)",
+   "mode": "full_word",
+   "answer": "ją",
+   "accepts": [
+    "ją"
+   ]
+  },
+  {
+   "prompt_en": "us (the object — mama zna…)",
+   "mode": "full_word",
+   "answer": "nas",
+   "accepts": [
+    "nas"
+   ]
+  },
+  {
+   "prompt_en": "you, more than one (the object — tata lubi…)",
+   "mode": "full_word",
+   "answer": "was",
+   "accepts": [
+    "was"
+   ]
+  },
+  {
+   "prompt_en": "them, people (the object — znam…)",
+   "mode": "full_word",
+   "answer": "ich",
+   "accepts": [
+    "ich"
+   ]
+  },
+  {
+   "prompt_en": "me (who it happens to — podoba… się)",
+   "mode": "full_word",
+   "answer": "mi",
+   "accepts": [
+    "mi"
+   ]
+  },
+  {
+   "prompt_en": "him (who it happens to — pomagam…)",
+   "mode": "full_word",
+   "answer": "mu",
+   "accepts": [
+    "mu"
+   ]
+  },
+  {
+   "prompt_en": "her (who it happens to — dziękuję…)",
+   "mode": "full_word",
+   "answer": "jej",
+   "accepts": [
+    "jej"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I love you.",
+   "answer": "Kocham cię.",
+   "accepts": [
+    "Kocham cię.",
+    "Kocham cię"
+   ]
+  },
+  {
+   "prompt_en": "Type: My head hurts.",
+   "answer": "Boli mnie głowa.",
+   "accepts": [
+    "Boli mnie głowa.",
+    "Boli mnie głowa"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like him and I know her.",
+   "answer": "Lubię go i znam ją.",
+   "accepts": [
+    "Lubię go i znam ją.",
+    "Lubię go i znam ją"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum knows us.",
+   "answer": "Mama zna nas.",
+   "accepts": [
+    "Mama zna nas.",
+    "Mama zna nas"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad likes you (more than one person).",
+   "answer": "Tata lubi was.",
+   "accepts": [
+    "Tata lubi was.",
+    "Tata lubi was"
+   ]
+  },
+  {
+   "prompt_en": "Type: I know them and I help them.",
+   "answer": "Znam ich i pomagam im.",
+   "accepts": [
+    "Znam ich i pomagam im.",
+    "Znam ich i pomagam im"
+   ]
+  },
+  {
+   "prompt_en": "Type: His stomach hurts.",
+   "answer": "Boli go brzuch.",
+   "accepts": [
+    "Boli go brzuch.",
+    "Boli go brzuch"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like the new film.",
+   "answer": "Podoba mi się nowy film.",
+   "accepts": [
+    "Podoba mi się nowy film.",
+    "Podoba mi się nowy film"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm helping him and thanking her.",
+   "answer": "Pomagam mu i dziękuję jej.",
+   "accepts": [
+    "Pomagam mu i dziękuję jej.",
+    "Pomagam mu i dziękuję jej"
+   ]
+  },
+  {
+   "prompt_en": "Type: Your throat hurts.",
+   "answer": "Boli cię gardło.",
+   "accepts": [
+    "Boli cię gardło.",
+    "Boli cię gardło"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "boli",
+  "boli mnie",
+  "mnie",
+  "mi",
+  "ci",
+  "mu",
+  "jej",
+  "nam",
+  "wam",
+  "im",
+  "głowa",
+  "gardło",
+  "brzuch",
+  "kocham",
+  "kocha",
+  "lubię",
+  "lubi",
+  "znam",
+  "zna",
+  "pomagam",
+  "dziękuję",
+  "podoba",
+  "podoba mi się",
+  "podobać się",
+  "smakuje",
+  "smakuje mi",
+  "smakować",
+  "się",
+  "mama",
+  "tata",
+  "kawa",
+  "film",
+  "sklep",
+  "nowy",
+  "ten",
+  "i"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_pron_acc",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

@@ -1,0 +1,42 @@
+{
+  "_note": "Trigger → case map. Single source of truth for the five 'Który przypadek?' units AND the in-app Przypadki reference panel (James, 2026-08-07). Organised by TRIGGER because the governor is what the learner meets first. 'taught_by' must name a live node; the panel shows a row only once that node is at/behind the learner's furthest fruited position, so it can never spoil. When a new governor ships, add its row here in the same run.",
+  "cases": [
+    { "id": "nom", "pl": "mianownik", "en": "Nominative", "job": "naming — the dictionary form, and the subject of a sentence" },
+    { "id": "acc", "pl": "biernik", "en": "Accusative", "job": "the thing an action lands on — the direct object" },
+    { "id": "gen", "pl": "dopełniacz", "en": "Genitive", "job": "absence, quantity, origin, possession" },
+    { "id": "loc", "pl": "miejscownik", "en": "Locative", "job": "where something is, and what a topic is about — never without a preposition" },
+    { "id": "inst", "pl": "narzędnik", "en": "Instrumental", "job": "what you are, what you travel by, who you are with" },
+    { "id": "dat", "pl": "celownik", "en": "Dative", "job": "the person something is given, said or done FOR" }
+  ],
+  "triggers": [
+    { "case": "nom", "trigger": "to jest…", "gloss": "naming something", "example": "To jest kawa.", "taught_by": "a1_gender" },
+    { "case": "nom", "trigger": "the subject — who is doing it", "gloss": "the actor of the verb", "example": "Kawa jest dobra.", "taught_by": "a1_gender" },
+    { "case": "acc", "trigger": "mam · piję · chcę · lubię · kupuję", "gloss": "a verb acting on a thing", "example": "Mam kawę.", "taught_by": "a1_miec" },
+    { "case": "gen", "trigger": "nie ma… / nie mam…", "gloss": "saying something is absent", "example": "Nie ma mleka.", "taught_by": "a1_negation" },
+    { "case": "gen", "trigger": "do… (going TO a place)", "gloss": "destination", "example": "Idę do sklepu.", "taught_by": "a1_prep_do_z" },
+    { "case": "gen", "trigger": "z / ze… (coming FROM)", "gloss": "origin", "example": "Wracam ze sklepu.", "taught_by": "a1_prep_do_z" },
+    { "case": "gen", "trigger": "dużo · blisko", "gloss": "quantity and nearness", "example": "Dużo kawy.", "taught_by": "a1_gen_endings" },
+    { "case": "loc", "trigger": "w / na — meaning WHERE something is", "gloss": "static position, never movement", "example": "Jestem w sklepie.", "taught_by": "a1_prep_place" },
+    { "case": "inst", "trigger": "jestem… (a job or an identity)", "gloss": "what someone IS", "example": "Jestem nauczycielem.", "taught_by": "a1_inst_job" },
+    { "case": "nom", "trigger": "to są…", "gloss": "naming more than one", "example": "To są gazety.", "taught_by": "a2_plural_nom" },
+    { "case": "gen", "trigger": "pięć · sześć… (5 and above)", "gloss": "counted things from five up", "example": "pięć piw", "taught_by": "a2_numbers_gen" },
+    { "case": "inst", "trigger": "z… (WITH a person)", "gloss": "company — the same word z, a different job from z + Genitive", "example": "Idę z bratem.", "taught_by": "a2_inst_z" },
+    { "case": "inst", "trigger": "travelling BY something", "gloss": "means of transport, no preposition at all", "example": "Jadę autobusem.", "taught_by": "a2_inst_transport" },
+    { "case": "dat", "trigger": "podoba mi się · smakuje mi", "gloss": "liking and tasting — learned whole at A2", "example": "Podoba mi się.", "taught_by": "a2_dat_chunks" },
+    { "case": "loc", "trigger": "o… (ABOUT a topic)", "gloss": "what you are talking about", "example": "Mówię o pracy.", "taught_by": "a2_o_loc" },
+    { "case": "gen", "trigger": "od… (older THAN, cheaper THAN)", "gloss": "what you are comparing against", "example": "starszy od brata", "taught_by": "a2_superlatives" },
+    { "case": "dat", "trigger": "pomagam · dziękuję", "gloss": "the person you help or thank", "example": "Pomagam mamie.", "taught_by": "b1_dative_sg" },
+    { "case": "dat", "trigger": "daję · oddaję", "gloss": "the person who receives it", "example": "Rodzice dają tacie prezent.", "taught_by": "b1_giving" },
+    { "case": "gen", "trigger": "ANY negated verb, not just nie mam", "gloss": "negation takes the object's case away", "example": "Nie kupiłem chleba.", "taught_by": "b2_neg_gen" },
+    { "case": "acc", "trigger": "proszę o…", "gloss": "asking FOR something — o's second job", "example": "Proszę o kawę.", "taught_by": "b2_prosic_o" },
+    { "case": "acc", "trigger": "na… (going TO an activity or event)", "gloss": "an activity or event, not a place — a place takes do", "example": "Idę na spacer.", "taught_by": "c1_na_acc" },
+    { "case": "acc", "trigger": "czekam na… (waiting FOR something)", "gloss": "the thing you are waiting for — czekać chooses na", "example": "Czekam na autobus.", "taught_by": "c1_na_acc" },
+    { "case": "acc", "trigger": "przez… (through, across)", "gloss": "the way through — not the destination, which takes do", "example": "Idę przez park.", "taught_by": "c1_przez" },
+    { "case": "acc", "trigger": "przez… (for how long)", "gloss": "a stretch of time the action filled", "example": "przez cały dzień", "taught_by": "c1_przez" },
+    { "case": "acc", "trigger": "przez… (BY whom — who did it)", "gloss": "the doer in a passive sentence — never the means, which is the Instrumental", "example": "List jest napisany przez tatę.", "taught_by": "c1_przez" },
+    { "case": "gen", "trigger": "od… (FROM a person)", "gloss": "who something came from — a PLACE takes z/ze instead", "example": "Mam list od brata.", "taught_by": "c1_od_source" },
+    { "case": "gen", "trigger": "od… (FROM a time onwards)", "gloss": "when something starts — do closes the other end", "example": "od piątej do siódmej", "taught_by": "c1_od_source" },
+    { "case": "gen", "trigger": "szukam · słucham · uczę się", "gloss": "a few verbs demand the Genitive where English just puts an object", "example": "Szukam pracy.", "taught_by": "c1_gen_verbs" },
+    { "case": "gen", "trigger": "gotowanie · kupowanie · robienie (a -nie noun)", "gloss": "what a verbal noun acts on — it is a noun, so it cannot take an object", "example": "gotowanie obiadu", "taught_by": "c1_gen_verbs" }
+  ]
+}

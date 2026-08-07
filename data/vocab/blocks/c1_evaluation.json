@@ -1,0 +1,697 @@
+{
+  "id": "c1_evaluation",
+  "title": "Łatwy czy trudny?",
+  "title_en": "Saying what something is like",
+  "level": "C1",
+  "tree_node": "c1_evaluation",
+  "default_direction": "en_to_pl",
+  "note": "C1 Block 2 vocab (C1-SPINE O8). TWELVE NEW WORDS, every one re-verified NEW with check_new.py against the 180-node pool at this node's own path position rather than inherited from the spine: latwy, trudny, gotowy, pusty, pelny, dziwny, zwykly, oczywisty, konieczny, mozliwy, niemozliwy, skuteczny. The spine listed exactly twelve and said 'trim to 12', so nothing needed dropping - the first C1 vocab brief that came out of scoping already the right size.\n\nTWENTY TAUGHT FORMS FOR TWELVE WORDS, which is the b2_abstract shape (fifteen forms for twelve nouns) and is not twenty things to learn: eight of the twenty are the feminine, neuter and plural of a word whose masculine is taught in the same pack, and every one of them is built by agreement rules the learner has owned since A1 and has just spent five units drilling in the plural. They are tagged so the auditor can police them, per AGENTS' every-form-taught rule - tagging only the citation form while a sentence uses an inflected one is exactly the evasion that rule exists to stop.\n\nPLACED HERE ON PURPOSE, and the placement is used rather than merely honoured. C1-SPINE puts this pack at the end of Block 2 'so the block's new endings get a wider adjective set to run on than dobry/duzy'. Sentence 25 is that payoff and is the only sentence in the pack carrying a plural oblique: W pustych sklepach nie ma chleba - the -ych the block spent five units on, on an adjective that did not exist until this pack, over b2_loc_pl's own noun. pustych is the one plural oblique taught here; the other eleven adjectives get singular and plain-plural forms only, because teaching -ych on all twelve would be a morphology unit wearing a vocab pack's clothes.\n\nTHE ANCHOR RULE DECIDED THE WHOLE SENTENCE BANK, and AGENTS names this pack's exact trap in its own text: 'Never write lookalike frames where both halves are new (To jest latwe / trudne).' That is literally latwy and trudny, the two headline words. So NEITHER is ever introduced in a bare To jest frame. latwy arrives on Angielski jest latwy and trudny on Polski jest trudny - each with a taught language name doing the anchoring and exactly one unknown in the sentence - and the pair is then contrasted only once both halves are separately owned. Every other item follows the same test.\n\nFOUR WORDS HAVE A LEXICAL ANCHOR ALREADY IN THE COURSE and they are given it rather than an icon, because a derivation the learner can see beats a picture: oczywisty <- oczywiscie (b1_polite [105], 'of course'); mozliwy <- mozliwosc (b2_abstract [149]) and mozna (a2_musiec [77]); niemozliwy <- mozliwy plus the nie- the learner has used since A1; skuteczny <- skutek (b2_abstract [149], 'an effect'). The remaining eight carry an icon, which is the visual anchor AGENTS specifies where no lexical one exists.\n\nTHE HOMOGRAPH IS gotowy AND IT IS THE SHARPEST THING IN THE PACK. gotowac ('to cook') has been taught since a1_present_uje [18], gotowanie since the verbal-noun strand, and ugotowany ('cooked') by b2_participle_pass [173]. gotowy looks like it belongs to that family and DOES NOT - it means READY, of a person or a thing, and Obiad jest gotowy is about the dinner being finished rather than about anyone having cooked it. Named out loud on the item's explain, on the a2_aspect / b2_prosic_o precedent, rather than left for the learner to mis-file. konieczny is the second, milder case: koniec ('an end') is TAUGHT (leaf_ideas_a1 [46]) and the two do share a root historically, but konieczny means NECESSARY and nothing about ends - flagged in one line, not built into a rule.\n\nSTRUCTURE RECYCLING IS DELIBERATELY WIDE, per the vocab-pack rule that a Zdanie bank recycles a range of unlocked structures rather than only the last grammar unit. The 28 sentences reach across byc_adj and zgoda (the spine of any adjective pack), ten_ta_to, plural_nom, ze_clauses, reported, indirect_q, jesli with a perfective future, question_cases, neg_gen, and - from one and two nodes back - adj_pl_loc and adj_pl_virile, so zmeczeni gets used actively in a later unit's sentences, which is the AGENTS gyms rule's named default recycling mechanism doing its job one node after the gym.\n\nFENCED, all verified NEW and appearing nowhere: pytania (so the plural -e is carried by lekcje, which a2_plural_nom owns); latwa, zwykla, oczywista, konieczna, mozliwa, skuteczna, pelne, gotowe, oczywiste, konieczne, mozliwe, niemozliwe, zwykle, skuteczne, latwych, trudnych; and the comparatives (trudniejszy, latwiejszy), which would be a second system in a vocab pack and are not on any spine. latwe and trudne each do TWO jobs here - neuter singular (To pytanie jest latwe) and non-virile plural (Lekcje sa latwe) - which is the same -e a2_plural_nom taught and c1_adj_pl_gym has just re-drilled, so it is named on the sentence explain rather than treated as two forms.\n\nPAYS THE OLDEST OPEN IOU IN THE COURSE. C1-SPINE's pack-note sweep found latwy/trudny deferred by a1_trunk_adjectives at A1 with the reason 'no anchorable noun this early' - four levels ago. There are now hundreds. gotowy pays b2_passive's logged absence; the four b2_abstract drops that come home here are none of them (korzysc, wartosc, spoleczenstwo, srodowisko all belong to c1_society in Block 4).\n\nTITLE: the planned tree label 'Latwy czy trudny?' was re-run through check_new.py at the wire per C1-SPINE's build protocol and stands unchanged - latwy and trudny are taught BY THIS PACK, which is the c1_adj_pl_gen precedent (its title 'Duzo dobrych filmow' uses a form it teaches), and czy has been owned since A1. The first C1 label in four nodes that needed no correction.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "ten_ta_to",
+    "plural_nom",
+    "adj_pl_loc",
+    "adj_pl_virile",
+    "adj_pl_gen",
+    "negation",
+    "neg_gen",
+    "ze_clauses",
+    "reported",
+    "indirect_q",
+    "wiedziec",
+    "jesli",
+    "perf_future",
+    "question_cases",
+    "questions2",
+    "present",
+    "present_am",
+    "conjunctions",
+    "prep_w_loc",
+    "past_byc"
+  ],
+  "blocks": [
+    {
+      "id": "evaluation_c1_words",
+      "title": "What something is like · new words",
+      "items": [
+        {
+          "en": "easy",
+          "pl": "łatwy",
+          "icon": "👌"
+        },
+        {
+          "en": "difficult, hard",
+          "pl": "trudny",
+          "icon": "🧗"
+        },
+        {
+          "en": "ready (a person or a thing)",
+          "pl": "gotowy",
+          "icon": "✅",
+          "explain": "Careful — this is NOT part of the gotować family. gotować is to cook and ugotowany is cooked; gotowy means ready. Obiad jest gotowy says the dinner is finished, not that someone cooked it."
+        },
+        {
+          "en": "empty",
+          "pl": "pusty",
+          "icon": "📭"
+        },
+        {
+          "en": "full",
+          "pl": "pełny",
+          "icon": "📬"
+        },
+        {
+          "en": "strange, odd",
+          "pl": "dziwny",
+          "icon": "🤨"
+        },
+        {
+          "en": "ordinary, usual",
+          "pl": "zwykły",
+          "icon": "🔁"
+        },
+        {
+          "en": "obvious",
+          "pl": "oczywisty",
+          "icon": "💡",
+          "explain": "You already say oczywiście for of course. This is the adjective from the same word."
+        },
+        {
+          "en": "necessary",
+          "pl": "konieczny",
+          "icon": "❗",
+          "explain": "It looks like koniec, an end, and the two do share an old root — but konieczny says nothing about ends. It means necessary."
+        },
+        {
+          "en": "possible",
+          "pl": "możliwy",
+          "icon": "🔓",
+          "explain": "The adjective belonging to możliwość, a possibility, and to można, one can."
+        },
+        {
+          "en": "impossible",
+          "pl": "niemożliwy",
+          "icon": "🔒",
+          "explain": "możliwy with the same nie- you have put in front of verbs since A1, written as one word here."
+        },
+        {
+          "en": "effective (it works)",
+          "pl": "skuteczny",
+          "icon": "🎯",
+          "explain": "From skutek, an effect. Something skuteczny is something that has the effect you wanted."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Polish is difficult.",
+      "pl": "Polski jest trudny.",
+      "accepts": [
+        "Polski jest trudny.",
+        "Polski jest trudny"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trudny"
+      ]
+    },
+    {
+      "en": "English is easy.",
+      "pl": "Angielski jest łatwy.",
+      "accepts": [
+        "Angielski jest łatwy.",
+        "Angielski jest łatwy"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "łatwy"
+      ]
+    },
+    {
+      "en": "This exam is difficult.",
+      "pl": "Ten egzamin jest trudny.",
+      "accepts": [
+        "Ten egzamin jest trudny.",
+        "Ten egzamin jest trudny"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trudny",
+        "egzamin"
+      ]
+    },
+    {
+      "en": "This question is easy.",
+      "pl": "To pytanie jest łatwe.",
+      "accepts": [
+        "To pytanie jest łatwe.",
+        "To pytanie jest łatwe"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "łatwe",
+        "pytanie"
+      ],
+      "explain": "pytanie is neuter, so the adjective ends in -e."
+    },
+    {
+      "en": "The lessons are easy.",
+      "pl": "Lekcje są łatwe.",
+      "accepts": [
+        "Lekcje są łatwe.",
+        "Lekcje są łatwe"
+      ],
+      "structures": [
+        "plural_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "łatwe",
+        "lekcje"
+      ],
+      "explain": "The very same łatwe as the last sentence, now doing the plural job — one string, both jobs, exactly as dobre does."
+    },
+    {
+      "en": "The lessons are difficult.",
+      "pl": "Lekcje są trudne.",
+      "accepts": [
+        "Lekcje są trudne.",
+        "Lekcje są trudne"
+      ],
+      "structures": [
+        "plural_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trudne",
+        "lekcje"
+      ]
+    },
+    {
+      "en": "Dinner is ready.",
+      "pl": "Obiad jest gotowy.",
+      "accepts": [
+        "Obiad jest gotowy.",
+        "Obiad jest gotowy"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gotowy",
+        "obiad"
+      ],
+      "explain": "Nothing here says anyone cooked it. gotowy is ready; ugotowany is cooked."
+    },
+    {
+      "en": "The coffee is ready.",
+      "pl": "Kawa jest gotowa.",
+      "accepts": [
+        "Kawa jest gotowa.",
+        "Kawa jest gotowa"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gotowa",
+        "kawa"
+      ]
+    },
+    {
+      "en": "The shop is empty.",
+      "pl": "Sklep jest pusty.",
+      "accepts": [
+        "Sklep jest pusty.",
+        "Sklep jest pusty"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pusty",
+        "sklep"
+      ]
+    },
+    {
+      "en": "The fridge is empty.",
+      "pl": "Lodówka jest pusta.",
+      "accepts": [
+        "Lodówka jest pusta.",
+        "Lodówka jest pusta"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pusta",
+        "lodówka"
+      ]
+    },
+    {
+      "en": "The fridge is full.",
+      "pl": "Lodówka jest pełna.",
+      "accepts": [
+        "Lodówka jest pełna.",
+        "Lodówka jest pełna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pełna",
+        "lodówka"
+      ]
+    },
+    {
+      "en": "The hotel is full.",
+      "pl": "Hotel jest pełny.",
+      "accepts": [
+        "Hotel jest pełny.",
+        "Hotel jest pełny"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pełny",
+        "hotel"
+      ]
+    },
+    {
+      "en": "This film is strange.",
+      "pl": "Ten film jest dziwny.",
+      "accepts": [
+        "Ten film jest dziwny.",
+        "Ten film jest dziwny"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dziwny",
+        "film"
+      ]
+    },
+    {
+      "en": "This situation is strange.",
+      "pl": "Ta sytuacja jest dziwna.",
+      "accepts": [
+        "Ta sytuacja jest dziwna.",
+        "Ta sytuacja jest dziwna"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dziwna",
+        "sytuacja"
+      ]
+    },
+    {
+      "en": "It's an ordinary day.",
+      "pl": "To jest zwykły dzień.",
+      "accepts": [
+        "To jest zwykły dzień.",
+        "To jest zwykły dzień"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zwykły",
+        "dzień"
+      ]
+    },
+    {
+      "en": "That's an obvious mistake.",
+      "pl": "To jest oczywisty błąd.",
+      "accepts": [
+        "To jest oczywisty błąd.",
+        "To jest oczywisty błąd"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "oczywisty",
+        "błąd"
+      ],
+      "explain": "oczywiście, of course — and oczywisty, obvious. The same word doing an adjective's work."
+    },
+    {
+      "en": "A passport is necessary.",
+      "pl": "Paszport jest konieczny.",
+      "accepts": [
+        "Paszport jest konieczny.",
+        "Paszport jest konieczny"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "konieczny",
+        "paszport"
+      ]
+    },
+    {
+      "en": "This plan is possible.",
+      "pl": "Ten plan jest możliwy.",
+      "accepts": [
+        "Ten plan jest możliwy.",
+        "Ten plan jest możliwy"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "możliwy",
+        "plan"
+      ]
+    },
+    {
+      "en": "This deadline is impossible.",
+      "pl": "Ten termin jest niemożliwy.",
+      "accepts": [
+        "Ten termin jest niemożliwy.",
+        "Ten termin jest niemożliwy"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "niemożliwy",
+        "termin"
+      ]
+    },
+    {
+      "en": "This method is effective.",
+      "pl": "Ten sposób jest skuteczny.",
+      "accepts": [
+        "Ten sposób jest skuteczny.",
+        "Ten sposób jest skuteczny"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "skuteczny",
+        "sposób"
+      ],
+      "explain": "skutek is an effect, so skuteczny is having-the-effect. The word tells you what it means once you see the root."
+    },
+    {
+      "en": "This decision is difficult.",
+      "pl": "Ta decyzja jest trudna.",
+      "accepts": [
+        "Ta decyzja jest trudna.",
+        "Ta decyzja jest trudna"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trudna",
+        "decyzja"
+      ]
+    },
+    {
+      "en": "I know that Polish is difficult.",
+      "pl": "Wiem, że polski jest trudny.",
+      "accepts": [
+        "Wiem, że polski jest trudny.",
+        "Wiem, że polski jest trudny"
+      ],
+      "structures": [
+        "wiedziec",
+        "ze_clauses",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "trudny",
+        "polski"
+      ]
+    },
+    {
+      "en": "Mum said that the coffee was ready.",
+      "pl": "Mama powiedziała, że kawa jest gotowa.",
+      "accepts": [
+        "Mama powiedziała, że kawa jest gotowa.",
+        "Mama powiedziała, że kawa jest gotowa"
+      ],
+      "structures": [
+        "reported",
+        "ze_clauses",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "gotowa",
+        "kawa",
+        "mama"
+      ],
+      "explain": "Polish keeps the words Mum actually said, so jest stays in the present even though the English moves it back."
+    },
+    {
+      "en": "I don't know whether this plan is possible.",
+      "pl": "Nie wiem, czy ten plan jest możliwy.",
+      "accepts": [
+        "Nie wiem, czy ten plan jest możliwy.",
+        "Nie wiem, czy ten plan jest możliwy"
+      ],
+      "structures": [
+        "indirect_q",
+        "negation",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "możliwy",
+        "plan"
+      ]
+    },
+    {
+      "en": "If the shop is empty, I'll buy bread in the city.",
+      "pl": "Jeśli sklep jest pusty, kupię chleb w mieście.",
+      "accepts": [
+        "Jeśli sklep jest pusty, kupię chleb w mieście.",
+        "Jeśli sklep jest pusty, kupię chleb w mieście"
+      ],
+      "structures": [
+        "jesli",
+        "perf_future",
+        "byc_adj",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "pusty",
+        "sklep",
+        "chleb"
+      ]
+    },
+    {
+      "en": "In the empty shops there is no bread.",
+      "pl": "W pustych sklepach nie ma chleba.",
+      "accepts": [
+        "W pustych sklepach nie ma chleba.",
+        "W pustych sklepach nie ma chleba",
+        "Sklepach nie ma chleba w pustych.",
+        "Sklepach nie ma chleba w pustych"
+      ],
+      "structures": [
+        "adj_pl_loc",
+        "prep_w_loc",
+        "neg_gen",
+        "negation"
+      ],
+      "lemmas": [
+        "pustych",
+        "sklepach",
+        "chleba"
+      ],
+      "explain": "The -ych ending from the last five units, on a word you met in this one. Nothing about it changes because the adjective is new."
+    },
+    {
+      "en": "Which film is strange?",
+      "pl": "Który film jest dziwny?",
+      "accepts": [
+        "Który film jest dziwny?",
+        "Który film jest dziwny"
+      ],
+      "structures": [
+        "question_cases",
+        "questions2",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "dziwny",
+        "film",
+        "który"
+      ]
+    },
+    {
+      "en": "The teachers are tired, but the exam is easy.",
+      "pl": "Nauczyciele są zmęczeni, ale egzamin jest łatwy.",
+      "accepts": [
+        "Nauczyciele są zmęczeni, ale egzamin jest łatwy.",
+        "Nauczyciele są zmęczeni, ale egzamin jest łatwy"
+      ],
+      "structures": [
+        "adj_pl_virile",
+        "plural_nom",
+        "byc_adj",
+        "conjunctions"
+      ],
+      "lemmas": [
+        "zmęczeni",
+        "łatwy",
+        "nauczyciele",
+        "egzamin"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "łatwy",
+    "łatwe",
+    "trudny",
+    "trudne",
+    "trudna",
+    "gotowy",
+    "gotowa",
+    "pusty",
+    "pusta",
+    "pustych",
+    "pełny",
+    "pełna",
+    "dziwny",
+    "dziwna",
+    "zwykły",
+    "oczywisty",
+    "konieczny",
+    "możliwy",
+    "niemożliwy",
+    "skuteczny"
+  ],
+  "uses_lemmas": [
+    "polski",
+    "angielski",
+    "egzamin",
+    "pytanie",
+    "lekcje",
+    "obiad",
+    "kawa",
+    "sklep",
+    "sklepach",
+    "lodówka",
+    "hotel",
+    "film",
+    "dzień",
+    "błąd",
+    "paszport",
+    "plan",
+    "termin",
+    "sposób",
+    "decyzja",
+    "sytuacja",
+    "chleb",
+    "chleba",
+    "w mieście",
+    "nauczyciele",
+    "zmęczeni",
+    "mama",
+    "jest",
+    "są",
+    "ten",
+    "ta",
+    "to",
+    "wiem",
+    "nie wiem",
+    "że",
+    "czy",
+    "powiedziała",
+    "jeśli",
+    "kupię",
+    "nie ma",
+    "nie",
+    "ale",
+    "który",
+    "oczywiście",
+    "możliwość",
+    "można",
+    "skutek",
+    "koniec",
+    "gotować",
+    "ugotowany",
+    "ma",
+    "mieście"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_evaluation",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,603 @@
+{
+ "id": "b2_indirect_q",
+ "title": "Nie wiem, gdzie…",
+ "title_en": "Putting a question inside a sentence",
+ "level": "B2",
+ "tree_node": "b2_indirect_q",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 3 (spine). ZERO NEW LEMMAS — every question word is owned, and so is czy. The unit is a joint plus one re-sighting, exactly like b2_ze_clauses two nodes back, and it pays a2_questions2's fence by name: that pack's own note says 'no indirect questions (Nie wiem, kiedy... is B1)'. Never built at B1; built here.\n\nTHE HEADLINE IS A GIFT, not a rule — the third unit in a row that takes something away rather than adding it (b2_copular_future, b2_reported, this). English REORDERS a question when it goes inside a bigger sentence: 'Where IS the chemist's?' becomes 'I don't know where the chemist's IS'. Polish never inverted in the first place, so there is nothing to undo. The question goes in exactly as it stands, after a comma. This is stated as the slide-1 headline because it is the whole reason the construction is easy, and because an English speaker will otherwise expect to have to do something and go looking for it.\n\nTHE ONE NEW JOB is czy meaning 'whether' / 'if'. czy is owned since a1_questions as the marker on a yes-or-no question (Czy jest chleb?), and the honest framing — used on slide 2 — is that it is doing the SAME job in the SAME way, just inside a bigger sentence rather than alone. The asymmetry worth naming is on the English side: English switches to a different word ('whether', 'if') where Polish simply keeps czy. Chunk-to-slot extension, the dziękuję / której / nowego / mnie / że precedent, so per the b2_adj_gen convention czy stays in uses_lemmas and teaches_lemmas is legitimately empty (copular_future / adj_inst / ze_clauses precedent).\n\nTHE że / czy MINIMAL PAIR IS THE SHARPEST THING IN THE UNIT and costs no new material: Wiem, że mama jest w domu versus Nie wiem, czy mama jest w domu — the same clause, and the opener alone decides whether you are reporting something settled or leaving it open. Quiz items 3 and 4 are that pair back to back, deliberately. It also guards against the predictable error of reaching for że everywhere now that że has just been taught as THE way to attach a clause.\n\nMATRIX VERBS ARE CONSTRAINED BY A STANDING QUARANTINE, and this is the unit's real scope limit, logged rather than worked around. a2_directions_func taught wiem as a street phrase and quarantined it ('never conjugates wiem, never shows the infinitive'); b2_ze_clauses held that quarantine and so does this pack. So the openers available are Wiem, Nie wiem (both first person, both owned, nie wiem itself being a taught chunk) and powiedział / powiedziała from b2_reported one node earlier — which is why that unit's new verb is recycled here in three items. wiesz, wie and wiedzieć appear nowhere. The consequence, stated plainly: Dad can say 'I don't know where...' but not 'Do you know where...?', which is the more useful sentence in a street. LIFTING THE QUARANTINE — teaching wiedzieć properly, with the wiedzieć/znać split — is a real unit and belongs on the C1 inbox; it was not smuggled in here because that split is a second system and this unit already has a construction to land.\n\nAN IOU CREATED FOR b2_jesli, FLAGGED HERE BECAUSE IT WILL NOT BE OBVIOUS LATER: the classic English-speaker error with czy is confusing it with 'if'-the-condition. That error is IMPOSSIBLE today, because jeśli is verified NEW and is not taught until b2_jesli (two nodes on). So this pack cannot usefully drill the contrast — but b2_jesli arrives holding the other half of it and SHOULD carry the czy/jeśli discrimination, since by then the learner will own both and English will be collapsing them onto one word.\n\nTHE TWELVE QUESTION WORDS ARE THE MATCH BOARD, one per row: gdzie, kiedy, ile, czy, dlaczego, który, kto, co, kogo, kim, czym, komu. Five of those (kogo, kim, czym, komu, plus czego held back) came from b2_kim_czym five nodes ago, which is why this unit can afford a full board without teaching anything: it is the first place the oblique question words get used for real rather than in isolation, and b2_kim_czym fenced embedded questions absolutely for exactly this reason.\n\nFENCED: wiesz / wie / wiedzieć / pamiętam (all verified NEW, pamiętam being the obvious second matrix verb and simply not owned); jeśli (NEW, b2_jesli's); czego, held back although b2_kim_czym taught it, because its natural home is szukać + Genitive and this pack does not want to import a governor to fill one board row; question words followed by an infinitive (nie wiem, co robić), which is a separate construction and a second fact; masculine-ANIMATE relative pronouns, b2_ktory_full's material on the very next node, so który appears here only as an interrogative inside the embedded question (Nie wiem, który film jest dobry), never as a relative pointing back at an antecedent; plural past of powiedzieć, held from b2_reported.\n\notwarty and zamknięty are used as the PLAIN ADJECTIVES leaf_shopping_a1 taught them as, NOT as the passive participles b2_participle_pass will later reveal them to be — same care b2_ze_clauses took with zamknięty.\n\nDistractors are real taught Polish in the wrong slot throughout: every wrong choice is że, żeby, czy or one of the owned question words, placed where the meaning does not license it. Nothing fabricated.",
+ "focus_structures": [
+  "indirect_q"
+ ],
+ "teaches_structures": [
+  "indirect_q"
+ ],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "indirect_q",
+  "ze_clauses",
+  "reported",
+  "zeby",
+  "question",
+  "questions2",
+  "question_cases",
+  "ktory_cases",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "existential_jest",
+  "miec_present",
+  "miec_acc",
+  "to_jest",
+  "bedzie",
+  "copular_future",
+  "past_ac",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "plural_nom",
+  "prep_w_loc",
+  "prep_place",
+  "inst_z",
+  "inst_transport",
+  "jechac",
+  "dative_sg",
+  "situation_chunk",
+  "smalltalk_chunk"
+ ],
+ "intro": [
+  {
+   "title": "A question can go inside a bigger sentence",
+   "title_pl": "Gdzie jest apteka? → Nie wiem, gdzie jest apteka.",
+   "body": "English does something fiddly here. On its own the question is \"Where IS the chemist's?\" — but put it inside a bigger sentence and the words swap round: \"I don't know where the chemist's IS.\"\n\nPolish never swapped them in the first place, so there is nothing to undo. Take the question exactly as it stands, put a comma in front of it, and that is the whole job.\n\nThe comma is the same one you learned with że, and it is written every time.",
+   "body_pl": "Gdzie jest apteka? → Nie wiem, gdzie jest apteka.",
+   "table": {
+    "headers": [
+     "The question on its own",
+     "Inside a bigger sentence",
+     "English"
+    ],
+    "rows": [
+     [
+      "Gdzie jest apteka?",
+      "Nie wiem, gdzie jest apteka.",
+      "I don't know where the chemist's is."
+     ],
+     [
+      "Kiedy mama będzie w domu?",
+      "Wiem, kiedy mama będzie w domu.",
+      "I know when Mum will be at home."
+     ],
+     [
+      "Ile to kosztuje?",
+      "Mama powiedziała, ile to kosztuje.",
+      "Mum said how much it costs."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I don't know why Dad is tired.",
+     "pl": "Nie wiem, dlaczego tata jest zmęczony."
+    },
+    {
+     "en": "I don't know what Dad is doing.",
+     "pl": "Nie wiem, co tata robi."
+    }
+   ]
+  },
+  {
+   "title": "czy — the yes-or-no word, doing its job inside",
+   "title_pl": "Czy sklep jest otwarty? → Nie wiem, czy sklep jest otwarty.",
+   "body": "Some questions have no question word at all. They are simply yes or no, and czy is what marks them: Czy sklep jest otwarty?\n\nWhen a question like that goes inside a bigger sentence, czy goes in with it, completely unchanged.\n\nEnglish is the awkward one again — it drops its question shape and reaches for a different word altogether, \"whether\" or \"if\". Polish just keeps czy.",
+   "body_pl": "Czy sklep jest otwarty? → Nie wiem, czy sklep jest otwarty.",
+   "table": {
+    "headers": [
+     "Yes-or-no question",
+     "Inside a bigger sentence",
+     "English"
+    ],
+    "rows": [
+     [
+      "Czy sklep jest otwarty?",
+      "Nie wiem, czy sklep jest otwarty.",
+      "I don't know WHETHER the shop is open."
+     ],
+     [
+      "Czy mama ma skierowanie?",
+      "Nie wiem, czy mama ma skierowanie.",
+      "I don't know IF Mum has a referral."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I don't know whether Dad will be at work.",
+     "pl": "Nie wiem, czy tata będzie w pracy."
+    }
+   ]
+  },
+  {
+   "title": "że settles it · czy leaves it open",
+   "title_pl": "Wiem, że mama jest w domu. · Nie wiem, czy mama jest w domu.",
+   "body": "These two sentences are built from the same words and mean quite different things, and the only thing that decides which is the little word after the comma.\n\nże reports something you are sure of. czy leaves it hanging — yes or no, you do not know. And a question word carries its own question in with it.\n\nSince że has only just arrived, the easy mistake is to use it everywhere. It reports; it never asks.",
+   "body_pl": "Wiem, że… · Nie wiem, czy… · Nie wiem, gdzie…",
+   "table": {
+    "headers": [
+     "Word",
+     "What it does",
+     "Example"
+    ],
+    "rows": [
+     [
+      "że",
+      "reports what is so",
+      "Wiem, że mama jest w domu."
+     ],
+     [
+      "czy",
+      "leaves it open — yes or no",
+      "Nie wiem, czy mama jest w domu."
+     ],
+     [
+      "gdzie, kiedy, ile…",
+      "carries its own question",
+      "Nie wiem, gdzie jest apteka."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I know that Dad is working.",
+     "pl": "Wiem, że tata pracuje."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "I don't know where the chemist's is.",
+   "pl": "Nie wiem, gdzie jest apteka."
+  },
+  {
+   "en": "I know when Mum will be at home.",
+   "pl": "Wiem, kiedy mama będzie w domu."
+  },
+  {
+   "en": "Mum said how much it costs.",
+   "pl": "Mama powiedziała, ile to kosztuje."
+  },
+  {
+   "en": "I don't know whether the shop is open.",
+   "pl": "Nie wiem, czy sklep jest otwarty."
+  },
+  {
+   "en": "I know why Dad is tired.",
+   "pl": "Wiem, dlaczego tata jest zmęczony."
+  },
+  {
+   "en": "I don't know which film is good.",
+   "pl": "Nie wiem, który film jest dobry."
+  },
+  {
+   "en": "I don't know who this is.",
+   "pl": "Nie wiem, kto to jest."
+  },
+  {
+   "en": "I don't know what Dad is doing.",
+   "pl": "Nie wiem, co tata robi."
+  },
+  {
+   "en": "I know who you know.",
+   "pl": "Wiem, kogo znasz."
+  },
+  {
+   "en": "I don't know who Dad works with.",
+   "pl": "Nie wiem, z kim tata pracuje."
+  },
+  {
+   "en": "I don't know what Mum is travelling by.",
+   "pl": "Nie wiem, czym mama jedzie."
+  },
+  {
+   "en": "I don't know who Mum is helping.",
+   "pl": "Nie wiem, komu mama pomaga."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Nie wiem, ___ jest apteka. (I don't know where the chemist's is.)",
+   "choices": [
+    "gdzie",
+    "czy",
+    "kiedy",
+    "ile"
+   ],
+   "answer": "gdzie",
+   "explain": "The question inside is Gdzie jest apteka?, and it goes in exactly as it stands. Nothing is reordered."
+  },
+  {
+   "prompt": "Nie wiem, ___ mama ma skierowanie. (I don't know whether Mum has a referral.)",
+   "choices": [
+    "czy",
+    "że",
+    "gdzie",
+    "co"
+   ],
+   "answer": "czy",
+   "explain": "There is no question word here — it is simply yes or no — and the word that marks a yes-or-no question is czy, the same czy as in Czy mama ma skierowanie?"
+  },
+  {
+   "prompt": "Wiem, ___ mama jest w domu. (I know that Mum is at home.)",
+   "choices": [
+    "że",
+    "czy",
+    "gdzie",
+    "kiedy"
+   ],
+   "answer": "że",
+   "explain": "You are sure of it, so this is a report, and reports run on że."
+  },
+  {
+   "prompt": "Nie wiem, ___ mama jest w domu. (I don't know whether Mum is at home.)",
+   "choices": [
+    "czy",
+    "że",
+    "żeby",
+    "kto"
+   ],
+   "answer": "czy",
+   "explain": "Same words as the item before, opposite job. Here it is open — she may be, she may not — and open is czy, never że."
+  },
+  {
+   "prompt": "Nie wiem, ___ to kosztuje. (I don't know how much this costs.)",
+   "choices": [
+    "ile",
+    "czy",
+    "co",
+    "kto"
+   ],
+   "answer": "ile",
+   "explain": "Ile to kosztuje? is the question you already ask in a shop; it slots straight in behind the comma."
+  },
+  {
+   "prompt": "Nie wiem, ___ tata jest zmęczony. (I don't know why Dad is tired.)",
+   "choices": [
+    "dlaczego",
+    "czy",
+    "gdzie",
+    "kiedy"
+   ],
+   "answer": "dlaczego",
+   "explain": "The question is about the reason, so dlaczego. czy would only fit if you did not know whether he was tired at all."
+  },
+  {
+   "prompt": "Nie wiem, ___ mama będzie w domu. (I don't know when Mum will be at home.)",
+   "choices": [
+    "kiedy",
+    "gdzie",
+    "czy",
+    "ile"
+   ],
+   "answer": "kiedy",
+   "explain": "You know she will be there; what you do not know is the time, so kiedy. The future stays będzie — putting the question inside changes nothing."
+  },
+  {
+   "prompt": "Nie wiem, ___ film jest dobry. (I don't know which film is good.)",
+   "choices": [
+    "który",
+    "czy",
+    "kto",
+    "co"
+   ],
+   "answer": "który",
+   "explain": "Picking one out of several is który, and it agrees with film, which is masculine."
+  },
+  {
+   "prompt": "Nie wiem, ___ tata robi. (I don't know what Dad is doing.)",
+   "choices": [
+    "co",
+    "kto",
+    "czy",
+    "kogo"
+   ],
+   "answer": "co",
+   "explain": "It is a thing rather than a person, so co. kogo would be asking about a person Dad is doing something to."
+  },
+  {
+   "prompt": "Nie wiem, z ___ tata pracuje. (I don't know who Dad works with.)",
+   "choices": [
+    "kim",
+    "kto",
+    "kogo",
+    "komu"
+   ],
+   "answer": "kim",
+   "explain": "z always takes the instrumental, and the instrumental of kto is kim — exactly as in Z kim?"
+  },
+  {
+   "prompt": "Nie wiem, ___ mama pomaga. (I don't know who Mum is helping.)",
+   "choices": [
+    "komu",
+    "kogo",
+    "kto",
+    "kim"
+   ],
+   "answer": "komu",
+   "explain": "pomagać reaches for the dative, so the question word is the dative one, komu."
+  },
+  {
+   "prompt": "Nie wiem, ___ znasz. (I don't know who you know.)",
+   "choices": [
+    "kogo",
+    "kto",
+    "komu",
+    "kim"
+   ],
+   "answer": "kogo",
+   "explain": "znać takes an object, and the object form of kto is kogo. kto would be the one doing the knowing, not the one being known."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "I don't know where the chemist's is.",
+   "mode": "cloze",
+   "answer": "gdzie",
+   "accepts": [
+    "gdzie"
+   ],
+   "frame": "Nie wiem, ___ jest apteka.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word — the unit's teaching point and the slide-1 headline example."
+  },
+  {
+   "prompt_en": "I don't know whether the shop is open.",
+   "mode": "cloze",
+   "answer": "czy",
+   "accepts": [
+    "czy"
+   ],
+   "frame": "Nie wiem, ___ sklep jest otwarty.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on czy, the unit's ONE new job (whether/if). This is the slide-2 headline example, so czy is produced here and item 9 takes the fallback."
+  },
+  {
+   "prompt_en": "I know when Mum will be at home.",
+   "mode": "cloze",
+   "answer": "kiedy",
+   "accepts": [
+    "kiedy"
+   ],
+   "frame": "Wiem, ___ mama będzie w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the embedded question word. Positive matrix (Wiem) stays visible."
+  },
+  {
+   "prompt_en": "I don't know how much this costs.",
+   "mode": "cloze",
+   "answer": "ile",
+   "accepts": [
+    "ile"
+   ],
+   "frame": "Nie wiem, ___ to kosztuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
+  },
+  {
+   "prompt_en": "I know why Dad is tired.",
+   "mode": "cloze",
+   "answer": "dlaczego",
+   "accepts": [
+    "dlaczego"
+   ],
+   "frame": "Wiem, ___ tata jest zmęczony.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
+  },
+  {
+   "prompt_en": "I don't know which film is good.",
+   "mode": "cloze",
+   "answer": "który",
+   "accepts": [
+    "który"
+   ],
+   "frame": "Nie wiem, ___ film jest dobry.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the embedded question word. który is INTERROGATIVE here, not the relative pronoun b2_ktory_full teaches on the next node — the pack note fences that explicitly and the frame keeps it in front of a bare noun, with no antecedent."
+  },
+  {
+   "prompt_en": "I don't know who this is.",
+   "mode": "cloze",
+   "answer": "kto",
+   "accepts": [
+    "kto"
+   ],
+   "frame": "Nie wiem, ___ to jest.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
+  },
+  {
+   "prompt_en": "I don't know what Dad is doing.",
+   "mode": "cloze",
+   "answer": "co",
+   "accepts": [
+    "co"
+   ],
+   "frame": "Nie wiem, ___ tata robi.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the embedded question word."
+  },
+  {
+   "prompt_en": "I don't know who Dad works with.",
+   "mode": "cloze",
+   "answer": "kim",
+   "accepts": [
+    "kim"
+   ],
+   "frame": "Nie wiem, z ___ tata pracuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on the oblique question word alone, leaving the governing z on screen: kim is what b2_kim_czym taught, and blanking 'z kim' whole would demand a preposition the unit does not teach."
+  },
+  {
+   "prompt_en": "I don't know whether Mum has a referral.",
+   "mode": "cloze",
+   "answer": "skierowanie",
+   "accepts": [
+    "skierowanie"
+   ],
+   "frame": "Nie wiem, czy mama ma ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. NOT on the teaching point — queue fallback clause. czy is this item's teaching-point word but it was spent at item 1 (the slide-2 headline), and a second czy would duplicate an answer within the stage; same forced choice as a2_phone_func #2-#4 and b1_polite #3. Blank falls on the most load-bearing remaining form, the content noun. Homograph check: skierowanie is neuter, so the accusative here is identical to the citation form and no unseen case is demanded."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum said how much it costs.",
+   "answer": "Mama powiedziała, ile to kosztuje.",
+   "accepts": [
+    "Mama powiedziała, ile to kosztuje.",
+    "Mama powiedziała, ile to kosztuje"
+   ],
+   "explain": "A question can sit behind a verb of saying just as easily as behind Nie wiem — and Ile to kosztuje? goes in unchanged."
+  },
+  {
+   "prompt_en": "Type: I don't know who Mum is helping.",
+   "answer": "Nie wiem, komu mama pomaga.",
+   "accepts": [
+    "Nie wiem, komu mama pomaga.",
+    "Nie wiem, komu mama pomaga"
+   ],
+   "explain": "pomagać reaches for the dative, so komu — the question word takes whatever case the verb inside the question demands."
+  },
+  {
+   "prompt_en": "Type: I know who you know.",
+   "answer": "Wiem, kogo znasz.",
+   "accepts": [
+    "Wiem, kogo znasz.",
+    "Wiem, kogo znasz"
+   ],
+   "explain": "znać takes an object, so the object form kogo. Two different people are doing two different things here, which is why English repeats \"know\" twice."
+  },
+  {
+   "prompt_en": "Type: I don't know what Mum is travelling by.",
+   "answer": "Nie wiem, czym mama jedzie.",
+   "accepts": [
+    "Nie wiem, czym mama jedzie.",
+    "Nie wiem, czym mama jedzie"
+   ],
+   "explain": "Travelling by something is the bare instrumental — autobusem, samochodem — so the question word is the instrumental of co, which is czym."
+  },
+  {
+   "prompt_en": "Type: I don't know whether the doctor has the results.",
+   "answer": "Nie wiem, czy lekarz ma wyniki.",
+   "accepts": [
+    "Nie wiem, czy lekarz ma wyniki.",
+    "Nie wiem, czy lekarz ma wyniki"
+   ],
+   "explain": "Yes or no, so czy. wyniki is already plural, and having them does not change its shape."
+  },
+  {
+   "prompt_en": "Type: I don't know where my brother works.",
+   "answer": "Nie wiem, gdzie brat pracuje.",
+   "accepts": [
+    "Nie wiem, gdzie brat pracuje.",
+    "Nie wiem, gdzie brat pracuje"
+   ],
+   "explain": "Gdzie brat pracuje? is the question on its own, and it needs no rearranging to go inside."
+  },
+  {
+   "prompt_en": "Type: Mum said when the meeting will be.",
+   "answer": "Mama powiedziała, kiedy będzie spotkanie.",
+   "accepts": [
+    "Mama powiedziała, kiedy będzie spotkanie.",
+    "Mama powiedziała, kiedy będzie spotkanie"
+   ],
+   "explain": "She said it once, so powiedziała — and the meeting is still ahead, so będzie stays in the future."
+  },
+  {
+   "prompt_en": "Type: I don't know why the shop is closed.",
+   "answer": "Nie wiem, dlaczego sklep jest zamknięty.",
+   "accepts": [
+    "Nie wiem, dlaczego sklep jest zamknięty.",
+    "Nie wiem, dlaczego sklep jest zamknięty"
+   ],
+   "explain": "You can see that it is shut; what you do not know is the reason, so dlaczego rather than czy."
+  },
+  {
+   "prompt_en": "Type: I don't know whether Dad will be at work.",
+   "answer": "Nie wiem, czy tata będzie w pracy.",
+   "accepts": [
+    "Nie wiem, czy tata będzie w pracy.",
+    "Nie wiem, czy tata będzie w pracy"
+   ],
+   "explain": "Open question, so czy — and w takes the locative, hence w pracy."
+  },
+  {
+   "prompt_en": "Type: I know which car is new.",
+   "answer": "Wiem, który samochód jest nowy.",
+   "accepts": [
+    "Wiem, który samochód jest nowy.",
+    "Wiem, który samochód jest nowy"
+   ],
+   "explain": "Choosing one out of several is który, and it matches samochód, which is masculine."
+  }
+ ],
+ "uses_lemmas": [
+  "czy",
+  "że",
+  "żeby",
+  "gdzie",
+  "kiedy",
+  "ile",
+  "dlaczego",
+  "kto",
+  "co",
+  "który",
+  "kogo",
+  "komu",
+  "kim",
+  "czym",
+  "wiem",
+  "nie wiem",
+  "powiedziała",
+  "jest",
+  "będzie",
+  "ma",
+  "robi",
+  "pracuje",
+  "pomaga",
+  "znasz",
+  "jedzie",
+  "kosztuje",
+  "kto to jest",
+  "ile to kosztuje",
+  "który film",
+  "mama",
+  "tata",
+  "brat",
+  "lekarz",
+  "apteka",
+  "sklep",
+  "film",
+  "samochód",
+  "spotkanie",
+  "skierowanie",
+  "wyniki",
+  "domu",
+  "pracy",
+  "autobusem",
+  "samochodem",
+  "otwarty",
+  "zamknięty",
+  "zmęczony",
+  "dobry",
+  "nowy"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_indirect_q",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

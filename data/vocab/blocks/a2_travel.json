@@ -1,0 +1,546 @@
+{
+  "id": "a2_travel",
+  "title": "Wakacje",
+  "title_en": "Holidays",
+  "level": "A2",
+  "tree_node": "a2_travel",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · the holiday side of travel. a2_transport2 owns the logistics (kierunek, przesiadka, spóźniony, odjazd, przyjazd, bagaż, walizka, paszport, rozkład, podróż, lot) — none of it is re-taught here. a1_freetime already taught wakacje (gender pl), and a1/A2 already own hotel, morze, słońce, mapa, aparat, jezioro, las, rzeka, wyspa, zdjęcie, lato, zima, prezent, odwiedzać — all ANCHORS, never re-taught. This pack teaches 8 new words: plaża, góry, urlop, zwiedzać, pamiątka plus przewodnik, wycieczka, pocztówka. Two plural-only nouns carry the pl badge: góry (the mountain region — a1 taught the singular góra, one mountain) and, recycled, wakacje. The payoff rides a2_plural_nom + a2_past_plural: Wakacje w górach były dobre. Two locative chunks are taught as forms and tagged: na plaży and w górach — you never say w góry for being there. zwiedzać needs a sense indicator because A1 already has odwiedzać: you odwiedzać people, you zwiedzać places. Singular past for the new verb, imperfective only.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "negation",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "plural_nom",
+    "time_past_chunk",
+    "prep_place",
+    "prep_w_loc",
+    "miec_present",
+    "miec_acc",
+    "poss_nom",
+    "question",
+    "present_am"
+  ],
+  "blocks": [
+    {
+      "id": "holiday_words",
+      "title": "Wakacje · new words",
+      "items": [
+        {
+          "en": "beach",
+          "pl": "plaża",
+          "gender": "f",
+          "icon": "🏖️"
+        },
+        {
+          "en": "mountains (the mountains, as a place you go to)",
+          "pl": "góry",
+          "gender": "pl",
+          "icon": "⛰️"
+        },
+        {
+          "en": "leave (time off work)",
+          "pl": "urlop",
+          "gender": "m"
+        },
+        {
+          "en": "look round (a place — sightseeing)",
+          "pl": "zwiedzać",
+          "icon": "🏛️"
+        },
+        {
+          "en": "souvenir (a keepsake from a trip)",
+          "pl": "pamiątka",
+          "gender": "f",
+          "icon": "🧲"
+        },
+        {
+          "en": "guidebook (also: a guide who shows you round)",
+          "pl": "przewodnik",
+          "gender": "m",
+          "icon": "📖"
+        },
+        {
+          "en": "trip (a day out, an excursion)",
+          "pl": "wycieczka",
+          "gender": "f",
+          "icon": "🎒"
+        },
+        {
+          "en": "postcard",
+          "pl": "pocztówka",
+          "gender": "f",
+          "icon": "📮"
+        }
+      ]
+    },
+    {
+      "id": "holiday_phrases",
+      "title": "Wakacje · in use",
+      "items": [
+        {
+          "en": "on the beach",
+          "pl": "na plaży"
+        },
+        {
+          "en": "I was on the beach (m)",
+          "pl": "byłem na plaży"
+        },
+        {
+          "en": "in the mountains",
+          "pl": "w górach"
+        },
+        {
+          "en": "we were in the mountains",
+          "pl": "byliśmy w górach"
+        },
+        {
+          "en": "the holidays were good",
+          "pl": "wakacje były dobre"
+        },
+        {
+          "en": "holidays in the mountains",
+          "pl": "wakacje w górach"
+        },
+        {
+          "en": "I have leave",
+          "pl": "mam urlop"
+        },
+        {
+          "en": "I'm looking round the city",
+          "pl": "zwiedzam miasto"
+        },
+        {
+          "en": "I was looking round the city (m)",
+          "pl": "zwiedzałem miasto"
+        },
+        {
+          "en": "I have a souvenir",
+          "pl": "mam pamiątkę"
+        },
+        {
+          "en": "I have a guidebook",
+          "pl": "mam przewodnik"
+        },
+        {
+          "en": "the trip was good",
+          "pl": "wycieczka była dobra"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Where is the beach?",
+      "pl": "Gdzie jest plaża?",
+      "accepts": [
+        "Gdzie jest plaża?",
+        "Gdzie jest plaża"
+      ],
+      "structures": [
+        "byc_present",
+        "question"
+      ],
+      "lemmas": [
+        "plaża"
+      ],
+      "explain": "plaża ends in -a, so it is feminine — that matters the moment you put an adjective or a past verb next to it."
+    },
+    {
+      "en": "The beach was nice.",
+      "pl": "Plaża była ładna.",
+      "accepts": [
+        "Plaża była ładna.",
+        "Plaża była ładna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "plaża"
+      ],
+      "explain": "Feminine noun, so both words behind it take -a: była ładna. Exactly the pattern of kawa była dobra."
+    },
+    {
+      "en": "I was on the beach. (m)",
+      "pl": "Byłem na plaży.",
+      "accepts": [
+        "Byłem na plaży.",
+        "Byłem na plaży",
+        "Na plaży byłem.",
+        "Na plaży byłem"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_place"
+      ],
+      "lemmas": [
+        "na plaży",
+        "plaży"
+      ],
+      "explain": "Being somewhere changes the noun: plaża becomes plaży after na. It is the same swap you already make in praca → w pracy."
+    },
+    {
+      "en": "The children were on the beach.",
+      "pl": "Dzieci były na plaży.",
+      "accepts": [
+        "Dzieci były na plaży.",
+        "Dzieci były na plaży",
+        "Na plaży były dzieci.",
+        "Na plaży były dzieci"
+      ],
+      "structures": [
+        "past_plural",
+        "prep_place"
+      ],
+      "lemmas": [
+        "na plaży",
+        "plaży"
+      ],
+      "explain": "dzieci is not a group of men, so the plural past takes -ły: były. The na plaży part does not move."
+    },
+    {
+      "en": "The mountains are big.",
+      "pl": "Góry są duże.",
+      "accepts": [
+        "Góry są duże.",
+        "Góry są duże"
+      ],
+      "structures": [
+        "byc_present",
+        "plural_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "góry"
+      ],
+      "explain": "You know góra — one mountain. For the mountains as a place you go on holiday, Polish only uses the plural: góry, są, and the adjective in -e."
+    },
+    {
+      "en": "We were in the mountains.",
+      "pl": "Byliśmy w górach.",
+      "accepts": [
+        "Byliśmy w górach.",
+        "Byliśmy w górach",
+        "W górach byliśmy.",
+        "W górach byliśmy"
+      ],
+      "structures": [
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w górach",
+        "górach"
+      ],
+      "explain": "Being there is w górach — learn it as one piece. The -ach ending is what plural nouns take after w when you are inside a place."
+    },
+    {
+      "en": "The holidays in the mountains were good.",
+      "pl": "Wakacje w górach były dobre.",
+      "accepts": [
+        "Wakacje w górach były dobre.",
+        "Wakacje w górach były dobre"
+      ],
+      "structures": [
+        "past_plural",
+        "plural_nom",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w górach",
+        "górach"
+      ],
+      "explain": "wakacje has no singular, so everything around it is plural too: były, not była, and dobre, not dobra. Same reason góry works this way."
+    },
+    {
+      "en": "Do you have leave?",
+      "pl": "Czy masz urlop?",
+      "accepts": [
+        "Czy masz urlop?",
+        "Czy masz urlop",
+        "Masz urlop?",
+        "Masz urlop"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "question"
+      ],
+      "lemmas": [
+        "urlop"
+      ],
+      "explain": "urlop is the time off your job — one person's leave. wakacje is the holiday itself, the trip or the summer break. A Pole asks Masz urlop? about work, never Masz wakacje?"
+    },
+    {
+      "en": "Last week I had leave.",
+      "pl": "W zeszłym tygodniu miałem urlop.",
+      "accepts": [
+        "W zeszłym tygodniu miałem urlop.",
+        "W zeszłym tygodniu miałem urlop",
+        "Miałem urlop w zeszłym tygodniu.",
+        "Miałem urlop w zeszłym tygodniu",
+        "Tygodniu miałem urlop w zeszłym.",
+        "Tygodniu miałem urlop w zeszłym"
+      ],
+      "structures": [
+        "past_rest",
+        "miec_acc",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "urlop"
+      ]
+    },
+    {
+      "en": "I'm looking round the city.",
+      "pl": "Zwiedzam miasto.",
+      "accepts": [
+        "Zwiedzam miasto.",
+        "Zwiedzam miasto"
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "zwiedzam",
+        "zwiedzać"
+      ],
+      "explain": "Two near-twins, kept apart by what follows: you odwiedzać a person (odwiedzam mamę) and you zwiedzać a place (zwiedzam miasto). zwiedzać takes the -am / -asz endings you already use on mam."
+    },
+    {
+      "en": "Yesterday I was looking round the city. (m)",
+      "pl": "Wczoraj zwiedzałem miasto.",
+      "accepts": [
+        "Wczoraj zwiedzałem miasto.",
+        "Wczoraj zwiedzałem miasto",
+        "Zwiedzałem wczoraj miasto.",
+        "Zwiedzałem wczoraj miasto",
+        "Zwiedzałem miasto wczoraj.",
+        "Zwiedzałem miasto wczoraj"
+      ],
+      "structures": [
+        "past_ac",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "zwiedzałem"
+      ],
+      "explain": "zwiedzać ends in -ać, so it takes the past you already know from czytać: zwiedzałem for a man, zwiedzałam for a woman."
+    },
+    {
+      "en": "Mum was looking round the city.",
+      "pl": "Mama zwiedzała miasto.",
+      "accepts": [
+        "Mama zwiedzała miasto.",
+        "Mama zwiedzała miasto"
+      ],
+      "structures": [
+        "past_ac",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zwiedzała"
+      ]
+    },
+    {
+      "en": "This is not a present, this is a souvenir.",
+      "pl": "To nie jest prezent, to jest pamiątka.",
+      "accepts": [
+        "To nie jest prezent, to jest pamiątka.",
+        "To nie jest prezent, to jest pamiątka",
+        "To nie jest prezent to jest pamiątka"
+      ],
+      "structures": [
+        "to_jest",
+        "negation"
+      ],
+      "lemmas": [
+        "pamiątka"
+      ],
+      "explain": "A prezent is bought for somebody else. A pamiątka is what you bring home to remember the place by — the fridge magnet, the little wooden box."
+    },
+    {
+      "en": "I have a new souvenir.",
+      "pl": "Mam nową pamiątkę.",
+      "accepts": [
+        "Mam nową pamiątkę.",
+        "Mam nową pamiątkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pamiątkę"
+      ],
+      "explain": "After mam the pair moves together: nowa pamiątka becomes nową pamiątkę. The same step as nową walizkę."
+    },
+    {
+      "en": "I have a guidebook.",
+      "pl": "Mam przewodnik.",
+      "accepts": [
+        "Mam przewodnik.",
+        "Mam przewodnik"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "przewodnik"
+      ],
+      "explain": "przewodnik is masculine and a book is not alive, so after mam nothing changes. The same word also means the person who walks you round the castle."
+    },
+    {
+      "en": "Where is my guidebook?",
+      "pl": "Gdzie jest mój przewodnik?",
+      "accepts": [
+        "Gdzie jest mój przewodnik?",
+        "Gdzie jest mój przewodnik"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom",
+        "question"
+      ],
+      "lemmas": [
+        "przewodnik"
+      ]
+    },
+    {
+      "en": "The trip is tomorrow.",
+      "pl": "Wycieczka jest jutro.",
+      "accepts": [
+        "Wycieczka jest jutro.",
+        "Wycieczka jest jutro"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "wycieczka"
+      ],
+      "explain": "A wycieczka is one outing — a day out, a coach trip. The long journey there and back is podróż."
+    },
+    {
+      "en": "The trip was good.",
+      "pl": "Wycieczka była dobra.",
+      "accepts": [
+        "Wycieczka była dobra.",
+        "Wycieczka była dobra"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wycieczka"
+      ]
+    },
+    {
+      "en": "This is a nice postcard.",
+      "pl": "To jest ładna pocztówka.",
+      "accepts": [
+        "To jest ładna pocztówka.",
+        "To jest ładna pocztówka",
+        "To ładna pocztówka.",
+        "To ładna pocztówka"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pocztówka"
+      ],
+      "explain": "You already know poczta, the post office. pocztówka is built straight off it — the little card you send from there."
+    },
+    {
+      "en": "I was buying a postcard. (m)",
+      "pl": "Kupowałem pocztówkę.",
+      "accepts": [
+        "Kupowałem pocztówkę.",
+        "Kupowałem pocztówkę"
+      ],
+      "structures": [
+        "past_ac",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pocztówkę"
+      ],
+      "explain": "pocztówka is feminine, so as the object it swaps -a for -ę: pocztówkę. The verb kupowałem is the man's past of kupować."
+    }
+  ],
+  "teaches_lemmas": [
+    "plaża",
+    "plaży",
+    "na plaży",
+    "góry",
+    "górach",
+    "w górach",
+    "urlop",
+    "zwiedzać",
+    "zwiedzam",
+    "zwiedzałem",
+    "zwiedzała",
+    "pamiątka",
+    "pamiątkę",
+    "przewodnik",
+    "wycieczka",
+    "pocztówka",
+    "pocztówkę"
+  ],
+  "uses_lemmas": [
+    "wakacje",
+    "gdzie",
+    "jest",
+    "są",
+    "była",
+    "były",
+    "byłem",
+    "byliśmy",
+    "ładna",
+    "dobra",
+    "dobre",
+    "duże",
+    "nową",
+    "mój",
+    "czy",
+    "masz",
+    "mam",
+    "miałem",
+    "miasto",
+    "mama",
+    "dzieci",
+    "prezent",
+    "kupowałem",
+    "nie",
+    "to",
+    "jutro",
+    "wczoraj",
+    "w zeszłym tygodniu",
+    "góra",
+    "poczta",
+    "odwiedzać"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_travel",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "id": "b1_wrapup",
+  "title": "Jeden dzień · koniec",
+  "title_en": "B1 capstone",
+  "level": "B1",
+  "tree_node": "b1_wrapup",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 CAPSTONE — same genre as a2_wrapup_func (ZERO new material, situation_chunk recombination, teaches_lemmas empty). tree.json's own node note names four registers to recombine: narrative, plans, politeness, opinions. Built the whole unit strictly from those four source units' own teaches_lemmas -- b1_plans (planuję, spotkanie, termin, w przyszłym tygodniu, muszę, załatwić), b1_polite (przepraszam, że przeszkadzam, czy mógłby pan mi pomóc, nie ma problemu -- all copied verbatim as whole chunks), b1_stories (najpierw, nagle) plus b1_journeys for the narrative payload itself (szedłem from b1_past_isc, zgubiłem się and the exact taught frame spóźniłem się do pracy from b1_journeys -- do+Gen, not na+Acc, checked against that pack's own sentences before use so as not to invent an ungoverned frame), and b1_opinions (moim zdaniem, zgadzam się, na pewno). DELIBERATE SCOPE: b1_vocative_chunks was considered for a fifth register (an address form somewhere in the narrative) and dropped -- the node note names exactly four registers and stacking a fifth risked diluting the discrimination drill the way a2_wrapup_func's own five-situations mix never tried to add a sixth. TITLE: tree.json's placeholder used the raw level code 'B1' in the Polish title field; changed to 'Jeden dzień, koniec' (both words taught: dzień trunk_social_a1, koniec leaf_ideas_a1) -- a level code is not Polish vocabulary and putting one in a learner-visible Polish title read as the same class of problem the AGENTS title rule already bans, even though it isn't literally an untaught inflected form. title_en kept as 'B1 capstone', matching a2_wrapup_func's own English title being allowed to name the level informally. Every recombined sentence checked individually against check_new.py before writing: rejected as NEW and never used -- wycieczkę (accusative of wycieczka, only the nominative is taught), zadzwonić, jechałem/jechał (no taught past of jechać, only its present), pomógł/pomagał/pomagali (no taught past of pomóc or pomagać -- b1_dative_sg only ever taught pomagać's present tense), długi, powtórzy, poszedłem (a THIRD prefix on iść's past stem beyond the two b1_arrive_leave taught -- przyszedłem/wyszedłem only, po- was never taught and would be a silent new-prefix leak). 'Planuję spotkanie' relies on neuter Acc=Nom needing no new form (spotkanie is unchanged in both jobs) -- same standing pattern as 'Kupiłem chleb' (masc inanimate, also unchanged) already used repeatedly since a2_aspect; not a new fact, just a recognised pattern applied to a different noun. Quiz built entirely as discrimination across the same twelve already-taught chunks (never introduces a thirteenth string) -- matches a2_wrapup_func's own convention of testing which SITUATION a look-alike-shaped phrase belongs to, not testing new recall.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "conditional_sg",
+    "question",
+    "dat_chunks",
+    "musiec",
+    "miec_present",
+    "past_isc",
+    "sie_reflexive",
+    "prep_do_gen",
+    "past_byc",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "One day, nothing new",
+      "title_pl": "Jeden dzień, nic nowego",
+      "body": "This unit closes B1, and it teaches you no new Polish at all. Every phrase in it you already own — from planning something, being polite when you need help, telling a short story about your day, and saying what you think about it.\n\nUp to now each register was practised on its own. Here they're chained together into one ordinary day: you plan something, something goes wrong on the way, you politely ask for help, and at the end you say what you thought of it.",
+      "body_pl": "Planuję… Przepraszam, że przeszkadzam… Najpierw… Moim zdaniem…",
+      "examples": [
+        {
+          "en": "I'm planning a meeting. (plans)",
+          "pl": "Planuję spotkanie."
+        },
+        {
+          "en": "Sorry to bother you. (politeness)",
+          "pl": "Przepraszam, że przeszkadzam."
+        },
+        {
+          "en": "Suddenly I got lost. (narrative)",
+          "pl": "Nagle zgubiłem się."
+        },
+        {
+          "en": "In my opinion. (opinion)",
+          "pl": "Moim zdaniem."
+        }
+      ]
+    },
+    {
+      "title": "Four registers, one shape each",
+      "title_pl": "Cztery rejestry, jeden kształt każdy",
+      "body": "A plan states an intention (Planuję…, Muszę…). A polite request softens a demand (Czy mógłby…?, Przepraszam, że…). A narrative connective moves a story forward in time (Najpierw…, Nagle…). An opinion frames a judgement (Moim zdaniem…, Na pewno…). None of these four shapes overlap — but until you've mixed them into one scene, it's easy to reach for the wrong one out of habit.",
+      "body_pl": "Planuję… · Czy mógłby…? · Najpierw… · Moim zdaniem…",
+      "table": {
+        "headers": [
+          "Register",
+          "Shape",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Plans",
+            "Planuję… / Muszę…",
+            "Planuję spotkanie."
+          ],
+          [
+            "Politeness",
+            "Czy mógłby…? / Przepraszam, że…",
+            "Czy mógłby pan mi pomóc?"
+          ],
+          [
+            "Narrative",
+            "Najpierw… / Nagle…",
+            "Najpierw szedłem do banku."
+          ],
+          [
+            "Opinion",
+            "Moim zdaniem… / Na pewno…",
+            "Moim zdaniem to był zły dzień."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A whole day, four registers",
+      "title_pl": "Jeden dzień, cztery rejestry",
+      "body": "Here is the whole thing chained together — a plan, a story that goes wrong, a polite request, and an opinion at the end. Nothing in it is new; every sentence is a chunk from one of the four units you already finished. Read it once as a story before you start the exercises.",
+      "body_pl": "Planuję spotkanie w przyszłym tygodniu. Najpierw szedłem do banku. Nagle zgubiłem się. Spóźniłem się do pracy. Przepraszam, że przeszkadzam — czy mógłby pan mi pomóc? Nie ma problemu. Moim zdaniem to był zły dzień. Zgadzam się.",
+      "examples": [
+        {
+          "en": "Plan: I'm planning a meeting next week.",
+          "pl": "Planuję spotkanie w przyszłym tygodniu."
+        },
+        {
+          "en": "Story: I was late for work.",
+          "pl": "Spóźniłem się do pracy."
+        },
+        {
+          "en": "Politeness: It's no problem.",
+          "pl": "Nie ma problemu."
+        },
+        {
+          "en": "Opinion: I agree.",
+          "pl": "Zgadzam się."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I'm planning a meeting.",
+      "pl": "Planuję spotkanie."
+    },
+    {
+      "en": "We have an appointment next week.",
+      "pl": "Mamy termin w przyszłym tygodniu."
+    },
+    {
+      "en": "I have to sort it out.",
+      "pl": "Muszę to załatwić."
+    },
+    {
+      "en": "Sorry to bother you.",
+      "pl": "Przepraszam, że przeszkadzam."
+    },
+    {
+      "en": "Could you help me, sir?",
+      "pl": "Czy mógłby pan mi pomóc?"
+    },
+    {
+      "en": "It's no problem.",
+      "pl": "Nie ma problemu."
+    },
+    {
+      "en": "First I was going to the bank.",
+      "pl": "Najpierw szedłem do banku."
+    },
+    {
+      "en": "Suddenly I got lost.",
+      "pl": "Nagle zgubiłem się."
+    },
+    {
+      "en": "I was late for work.",
+      "pl": "Spóźniłem się do pracy."
+    },
+    {
+      "en": "In my opinion.",
+      "pl": "Moim zdaniem."
+    },
+    {
+      "en": "I agree.",
+      "pl": "Zgadzam się."
+    },
+    {
+      "en": "For sure.",
+      "pl": "Na pewno."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "A colleague asks if you're free next week. You say:",
+      "choices": [
+        "Mamy termin w przyszłym tygodniu.",
+        "Planuję spotkanie.",
+        "Nie ma problemu.",
+        "Na pewno."
+      ],
+      "answer": "Mamy termin w przyszłym tygodniu.",
+      "explain": "The next-week detail is the specific answer to the question — the other three are all true statements that don't actually answer it."
+    },
+    {
+      "prompt": "You're mid-conversation and need to interrupt politely. You say:",
+      "choices": [
+        "Przepraszam, że przeszkadzam.",
+        "Muszę to załatwić.",
+        "Nagle zgubiłem się.",
+        "Zgadzam się."
+      ],
+      "answer": "Przepraszam, że przeszkadzam.",
+      "explain": "This chunk is built for exactly one job — softening an interruption. Muszę to załatwić states an intention, it doesn't open a conversation."
+    },
+    {
+      "prompt": "You need a stranger's help with something. You say:",
+      "choices": [
+        "Czy mógłby pan mi pomóc?",
+        "Mamy termin w przyszłym tygodniu.",
+        "Moim zdaniem to był zły dzień.",
+        "Spóźniłem się do pracy."
+      ],
+      "answer": "Czy mógłby pan mi pomóc?",
+      "explain": "mógłby softens the request into a real question, not a demand."
+    },
+    {
+      "prompt": "Someone apologises for a small mistake. You reassure them:",
+      "choices": [
+        "Nie ma problemu.",
+        "Muszę to załatwić.",
+        "Na pewno.",
+        "Nagle zgubiłem się."
+      ],
+      "answer": "Nie ma problemu.",
+      "explain": "Nie ma problemu closes the matter. Muszę to załatwić would mean the opposite — that something still needs doing."
+    },
+    {
+      "prompt": "You're telling a friend what happened on your way to work, in order. You start with:",
+      "choices": [
+        "Najpierw szedłem do banku.",
+        "Zgadzam się.",
+        "Czy mógłby pan mi pomóc?",
+        "Mamy termin w przyszłym tygodniu."
+      ],
+      "answer": "Najpierw szedłem do banku.",
+      "explain": "Najpierw opens a sequence — it has to come first in a story, not in a plan or an opinion."
+    },
+    {
+      "prompt": "Something unexpected interrupts your story. You say:",
+      "choices": [
+        "Nagle zgubiłem się.",
+        "Na pewno.",
+        "Planuję spotkanie.",
+        "Nie ma problemu."
+      ],
+      "answer": "Nagle zgubiłem się.",
+      "explain": "Nagle marks the turn in a narrative. Na pewno is an opinion word, not a story connective."
+    },
+    {
+      "prompt": "You explain why you weren't on time. You say:",
+      "choices": [
+        "Spóźniłem się do pracy.",
+        "Muszę to załatwić.",
+        "Moim zdaniem to był zły dzień.",
+        "Czy mógłby pan mi pomóc?"
+      ],
+      "answer": "Spóźniłem się do pracy.",
+      "explain": "This is the one sentence that actually names being late — the others are a plan, an opinion, and a request."
+    },
+    {
+      "prompt": "A friend asks what you thought of the day. You say:",
+      "choices": [
+        "Moim zdaniem to był zły dzień.",
+        "Mamy termin w przyszłym tygodniu.",
+        "Przepraszam, że przeszkadzam.",
+        "Najpierw szedłem do banku."
+      ],
+      "answer": "Moim zdaniem to był zły dzień.",
+      "explain": "Moim zdaniem frames a judgement — none of the other three do."
+    },
+    {
+      "prompt": "A friend shares an opinion and you feel the same. You say:",
+      "choices": [
+        "Zgadzam się.",
+        "Nie ma problemu.",
+        "Muszę to załatwić.",
+        "Spóźniłem się do pracy."
+      ],
+      "answer": "Zgadzam się.",
+      "explain": "Zgadzam się responds to someone else's opinion. Nie ma problemu responds to an apology, not an opinion — a different job even though both sound reassuring."
+    },
+    {
+      "prompt": "You're confident something will happen. You say:",
+      "choices": [
+        "Na pewno.",
+        "Nagle zgubiłem się.",
+        "Czy mógłby pan mi pomóc?",
+        "Planuję spotkanie."
+      ],
+      "answer": "Na pewno.",
+      "explain": "Na pewno states certainty about the future. Planuję spotkanie only states an intention — it doesn't promise anything will actually happen."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm planning a meeting.",
+      "mode": "full_word",
+      "answer": "Planuję spotkanie.",
+      "accepts": [
+        "Planuję spotkanie.",
+        "Planuję spotkanie"
+      ]
+    },
+    {
+      "prompt_en": "We have an appointment next week.",
+      "mode": "cloze",
+      "answer": "w przyszłym tygodniu",
+      "frame": "Mamy termin ___.",
+      "accepts": [
+        "w przyszłym tygodniu",
+        "w przyszlym tygodniu"
+      ],
+      "explain": "W przyszłym tygodniu is one ready-made time phrase — learn it as a block, the way you already use w weekend.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Capstone consistency rule: b1_plans is a vocab pack with no Pisanie stage, so there is no source frame to mirror; the blank follows the a2_smalltalk / a2_wrapup_func precedent of blanking the whole time chunk ('Jak było ___?' -> w weekend). The chunk is blanked WHOLE and not split: check_new reports tygodniu is not independently taught — b1_plans owns 'w przyszłym tygodniu' as a single multi-word lemma — so blanking inside it would demand an untaught form. Homograph checked: Mamy stays on screen and is the a1_miec verb 'we have', not the genitive of mama."
+    },
+    {
+      "prompt_en": "I have to sort it out.",
+      "mode": "full_word",
+      "answer": "Muszę to załatwić.",
+      "accepts": [
+        "Muszę to załatwić.",
+        "Muszę to załatwić"
+      ]
+    },
+    {
+      "prompt_en": "Sorry to bother you.",
+      "mode": "full_word",
+      "answer": "Przepraszam, że przeszkadzam.",
+      "accepts": [
+        "Przepraszam, że przeszkadzam.",
+        "Przepraszam, że przeszkadzam"
+      ]
+    },
+    {
+      "prompt_en": "It's no problem.",
+      "mode": "full_word",
+      "answer": "Nie ma problemu.",
+      "accepts": [
+        "Nie ma problemu.",
+        "Nie ma problemu"
+      ]
+    },
+    {
+      "prompt_en": "First I was going to the bank.",
+      "mode": "cloze",
+      "answer": "szedłem",
+      "frame": "Najpierw ___ do banku.",
+      "accepts": [
+        "szedłem",
+        "szedlem"
+      ],
+      "explain": "Szedłem is the past of iść for a man on foot — the journey itself, not its arrival.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the past motion verb (b1_past_isc), the most load-bearing form in the sentence and a genuine B1 sticking point; the narrative connective najpierw stays on screen. Answer distinct from items 6 and 7."
+    },
+    {
+      "prompt_en": "Suddenly I got lost.",
+      "mode": "cloze",
+      "answer": "zgubiłem",
+      "frame": "Nagle ___ się.",
+      "accepts": [
+        "zgubiłem",
+        "zgubilem"
+      ],
+      "explain": "Zgubiłem się is 'I got lost' — literally 'I lost myself', so się never leaves the verb.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 3 words — NOT in the swept queue list, caught by the refinement's composition test: connective bolted onto a clause, the same shape as the listed item 5. Blank on the reflexive past verb (b1_journeys); nagle stays on screen."
+    },
+    {
+      "prompt_en": "I was late for work.",
+      "mode": "cloze",
+      "answer": "Spóźniłem",
+      "frame": "___ się do pracy.",
+      "accepts": [
+        "Spóźniłem",
+        "spóźniłem",
+        "Spoznilem",
+        "spoznilem"
+      ],
+      "explain": "Spóźnić się always keeps się, and after do the place takes the do banku shape: do pracy.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the past reflexive verb (b1_journeys), the teaching point of the phrase. Sentence-initial, so accepts covers both capitalisations, following b1_polite #6 (Chciałabym)."
+    },
+    {
+      "prompt_en": "I agree.",
+      "mode": "full_word",
+      "answer": "Zgadzam się.",
+      "accepts": [
+        "Zgadzam się.",
+        "Zgadzam się"
+      ]
+    },
+    {
+      "prompt_en": "For sure.",
+      "mode": "full_word",
+      "answer": "Na pewno.",
+      "accepts": [
+        "Na pewno.",
+        "Na pewno"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm planning a meeting next week.",
+      "answer": "Planuję spotkanie w przyszłym tygodniu.",
+      "accepts": [
+        "Planuję spotkanie w przyszłym tygodniu.",
+        "Planuję spotkanie w przyszłym tygodniu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have to sort it out — sorry to bother you.",
+      "answer": "Muszę to załatwić — przepraszam, że przeszkadzam.",
+      "accepts": [
+        "Muszę to załatwić — przepraszam, że przeszkadzam.",
+        "Muszę to załatwić, przepraszam, że przeszkadzam.",
+        "Muszę to załatwić przepraszam, że przeszkadzam."
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Could you help me, sir? — It's no problem.",
+      "answer": "— Czy mógłby pan mi pomóc? — Nie ma problemu.",
+      "accepts": [
+        "— Czy mógłby pan mi pomóc? — Nie ma problemu.",
+        "Czy mógłby pan mi pomóc? Nie ma problemu.",
+        "- Czy mógłby pan mi pomóc? - Nie ma problemu."
+      ],
+      "explain": "A polite request, then the chunk that closes it — the two belong together but are never the same phrase."
+    },
+    {
+      "prompt_en": "Type: First I was going to the bank. Suddenly I got lost.",
+      "answer": "Najpierw szedłem do banku. Nagle zgubiłem się.",
+      "accepts": [
+        "Najpierw szedłem do banku. Nagle zgubiłem się."
+      ]
+    },
+    {
+      "prompt_en": "Type: I was late for work. In my opinion, it was a bad day.",
+      "answer": "Spóźniłem się do pracy. Moim zdaniem to był zły dzień.",
+      "accepts": [
+        "Spóźniłem się do pracy. Moim zdaniem to był zły dzień."
+      ],
+      "explain": "The story chunk reports what happened; the opinion chunk judges it — two different jobs, chained back to back the way a real telling would run."
+    },
+    {
+      "prompt_en": "Type: I agree, for sure.",
+      "answer": "Zgadzam się, na pewno.",
+      "accepts": [
+        "Zgadzam się, na pewno.",
+        "Zgadzam się na pewno."
+      ]
+    },
+    {
+      "prompt_en": "Type: For sure, it's no problem.",
+      "answer": "Na pewno, nie ma problemu.",
+      "accepts": [
+        "Na pewno, nie ma problemu.",
+        "Na pewno nie ma problemu."
+      ]
+    },
+    {
+      "prompt_en": "Type the whole day: I'm planning a meeting next week. First I was going to the bank. Suddenly I got lost. I was late for work. Sorry to bother you — could you help me, sir? It's no problem. In my opinion, it was a bad day. I agree.",
+      "answer": "Planuję spotkanie w przyszłym tygodniu. Najpierw szedłem do banku. Nagle zgubiłem się. Spóźniłem się do pracy. Przepraszam, że przeszkadzam — czy mógłby pan mi pomóc? Nie ma problemu. Moim zdaniem to był zły dzień. Zgadzam się.",
+      "accepts": [
+        "Planuję spotkanie w przyszłym tygodniu. Najpierw szedłem do banku. Nagle zgubiłem się. Spóźniłem się do pracy. Przepraszam, że przeszkadzam — czy mógłby pan mi pomóc? Nie ma problemu. Moim zdaniem to był zły dzień. Zgadzam się.",
+        "Planuję spotkanie w przyszłym tygodniu. Najpierw szedłem do banku. Nagle zgubiłem się. Spóźniłem się do pracy. Przepraszam, że przeszkadzam, czy mógłby pan mi pomóc? Nie ma problemu. Moim zdaniem to był zły dzień. Zgadzam się."
+      ],
+      "explain": "Eight chunks, four registers — this is the whole capstone in one telling. Every piece of it you already had before today."
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "planuję",
+    "spotkanie",
+    "mamy",
+    "termin",
+    "w przyszłym tygodniu",
+    "muszę",
+    "to",
+    "załatwić",
+    "przepraszam, że przeszkadzam",
+    "czy mógłby pan mi pomóc",
+    "nie ma problemu",
+    "najpierw",
+    "szedłem",
+    "do banku",
+    "nagle",
+    "zgubiłem się",
+    "spóźniłem się",
+    "pracy",
+    "moim zdaniem",
+    "zgadzam się",
+    "na pewno",
+    "był",
+    "zły",
+    "dzień"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_wrapup",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

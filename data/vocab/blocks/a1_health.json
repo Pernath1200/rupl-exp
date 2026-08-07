@@ -61,6 +61,10 @@
           "en": "flu",
           "pl": "grypa",
           "gender": "f"
+        },
+        {
+          "en": "ill / sick (f)",
+          "pl": "chora"
         }
       ]
     },
@@ -153,7 +157,8 @@
         "byc_present"
       ],
       "lemmas": [
-        "chory"
+        "chory",
+        "chora"
       ]
     },
     {
@@ -320,7 +325,8 @@
     "karetka",
     "temperatura",
     "odpoczywać",
-    "dentysta"
+    "dentysta",
+    "chora"
   ],
   "title_en": "Health"
 }

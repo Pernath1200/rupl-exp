@@ -1,0 +1,642 @@
+{
+  "id": "c1_pron_je",
+  "title": "Znam je · czemu?",
+  "title_en": "The forms for things, not people",
+  "level": "C1",
+  "tree_node": "c1_pron_je",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 3, unit 3 (C1-SPINE). THE FORMS FOR THINGS, NOT PEOPLE - and the unit C1-SPINE O13 flagged in advance as carrying TWO HOMOGRAPH TRAPS IN ONE SMALL UNIT. Both are named on the slides; neither is left to sting.\n\nTWO NEW STRINGS ONLY: je and czemu. The unit is small on purpose. Its ONE IDEA is not a paradigm at all - it is that a string can look like something you already know and be a completely different word, which is why the two traps share a unit rather than being scattered.\n\nje PAYS b2_pron_acc's STATED CONSEQUENCE, in that pack's own words: 'after this unit them is expressible only for people.' b2_pron_acc [140] taught ich for a men-group and left everything else with no object pronoun at all. je is that hole: 'them' for things and animals (the non-virile plural Accusative) and 'it' for a neuter noun. Slide 1 is the completed row - go, ja, je, ich, je - and the split it turns on is the same men-group / not-men-group split Block 2 spent five units on, now reaching the pronoun.\n\nTHE FIRST TRAP IS THE REASON THE VERB IS IN THIS UNIT AT ALL. je is ALSO the third person singular of jesc, and C1-SPINE named the risk exactly: 'teach the pronoun and the verb form together, or the first Ona je the learner meets reads as she them.' c1_wiedziec [181] had already fenced it forward by name, dropping je from its own mieć-parallel table for this reason. So this pack teaches the verb cell too - ONE CELL, NOT A PARADIGM. jem and jesz are TAUGHT <- a2_routine and zje is TAUGHT <- b2_aspect_prefixes as the perfective twin, so je is the single missing box in a set the learner already has three quarters of. jemy, jecie and jedza are all verified NEW and are DELIBERATELY NOT TAUGHT - teaching them would make this a verb unit, and the homograph only needs the third person to be defused.\n\nTHE TEST GIVEN IS POSITIONAL, BECAUSE A POSITIONAL TEST IS ONE THE LEARNER CAN ACTUALLY APPLY, and it is exhaustively true for this course: if je is the only verb-shaped word in the clause it IS the verb (Mama je zupe); if a verb is already there, je is its object (Ogladam je). Slide 3 is that test as four side-by-side sentences rather than as a rule to memorise - the a2_jechac / b2_sie_impersonal 'two shapes, shown as a picture' treatment.\n\nTHE SECOND TRAP IS czemu, AND IT IS THIS UNIT'S ONE REAL DESIGN FORK - taken conservatively and flagged loudly for James. C1-SPINE sends czemu here as 'the Dative of co', to pay b2_kim_czym's double fence and the em dash b2_case_gym's slide-2 table still carries, and it explicitly permits either treatment: 'one line naming both, or leave the second sense out and say so.'\n\nWHAT THIS PACK DOES: it teaches czemu as the everyday colloquial WHY (a plain synonym of dlaczego, TAUGHT <- a2_questions2), states in one line that the word IS the Dative of co - which is why it is shaped like komu - and says honestly that in that grammatical job it is rare. WHY THAT WAY ROUND, and it is not a dodge: THE DATIVE OF A THING HAS NO LEGAL SENTENCE IN THIS COURSE. The only Dative-governing verb the learner owns is pomagac (b1_dative_sg), and 'What are you helping?' is not a sentence anyone says; the natural hosts (dziwic sie, przygladac sie) are all NEW and would each be a new verb plus a new construction. That is b2_pron_prep's own reasoning applied one unit on - it refused niemu because 'teaching a form with no legal sentence to sit in would be padding' - and it lands the same way here. The learner leaves with a word he will hear constantly and a true account of where it comes from, and b2_case_gym's em dash gets a label rather than a fabricated example. IF JAMES WANTS THE DATIVE JOB TAUGHT PROPERLY, the cost is one new reflexive verb and it belongs beside c1_siebie or in c1_case_gym, not here.\n\nprosic o + A PRONOUN IS HELD, and this is the unit's second logged judgment call. The tree note assigned it here (b2_prosic_o's judgment call 8). It is NOT built, for a reason that is worth recording permanently: the non-virile plural Accusative AFTER A PREPOSITION is NIE - o nie, na nie - and nie is TAUGHT <- trunk_social_a1 [0] as the negator, the first Polish word this learner ever met. That is the sharpest homograph available anywhere in RUPL and it is not worth a unit's fourth fact. The singular half is in any case already half-owned (b2_pron_prep taught niego/nia/nim), so what is genuinely missing is precisely the dangerous cell. Fenced permanently unless James rules otherwise; Prosze o to is not shipped either, since it would open the o + Accusative pronoun slot the fence exists to keep shut.\n\nKONTROLA HAS FIVE DISTINCT ANSWER STRINGS ACROSS TWELVE ITEMS and that is the honest maximum, the b2_ktory_full and b2_kim_czym reasoning: a unit whose content is TWO words has almost no legal answer set. je carries six items because it is the unit; the other six are the owned pronouns it must be told apart from (ich, ja, go) and czemu. Every prompt is distinct and the je items sit under four different jobs - non-virile plural object, neuter object, and the verb twice.\n\nDISTRACTORS are owned pronouns and owned forms of jesc, placed where the gender, the number or the person does not license them. Nothing fabricated (C1-SPINE O12). jedzenie is NOT used as a distractor against the verb je even though it is TAUGHT <- leaf_food_a1: it is a noun, and a noun in a verb slot is not a discrimination, it is a category error.\n\nPISANIE: eight cloze, and the stage is SHAPED BY A HARD CONSTRAINT WORTH LOGGING - je as a pronoun and je as a verb are THE SAME STRING under the engine's norm(), so they cannot both be produced without duplicating an answer within the stage. TWO items therefore blank the teaching point (je once, Czemu once) and that is the ceiling, not a shortfall. Items 3 and 4 are the pair this constraint produced and they turned out to be the best items in the unit: Mama je ___ (-> zupe) leaves je standing in the VERB job, and Mam ___. Pije je (-> mleko) leaves the identical string standing in the PRONOUN job, so the learner READS each sense in place while producing something else. Three further items blank the contrasting owned pronoun the unit's whole discrimination turns on (ich, ja, go), and one blanks a predicate adjective. All fallbacks logged per item under the queue's fallback clause. No typed-whole answers; nothing added to the repair queue.\n\nHOMOGRAPH DISCIPLINE ON THE MATERIAL, checked rather than assumed: ksiazki is TAUGHT ONLY AS A GENITIVE SINGULAR and appears nowhere as a plural (the AGENTS homograph table's second row - the same catch c1_ktory_plural made two nodes back), so the natural 'I have books. I read them.' was replaced by gazety; ksiazke is used, correctly, as a singular Accusative (a1_gen_ki / miec_acc). temu is TAUGHT <- leaf_time_cal_a1 only inside dawno temu and is not used as a Dative of to anywhere, which would have been a third trap in a unit that already has two.\n\nFENCED: jemy/jecie/jedza; the past of jesc; tego (verified NEW); siebie/sobie (c1_siebie, one node on); every plural oblique adjective, so no adjective modifies a plural noun anywhere; o nie and na nie, permanently, per the prosic o note above.\n\nTITLE CHECKED AT THE WIRE: Znam je - znam TAUGHT <- a1_present [15], je taught by this pack; czemu taught by this pack. The c1_adj_pl_gen precedent. No untaught Polish in learner-visible chrome.\n\nONE LEAK CAUGHT BY THIS PACK'S OWN VERIFICATION PASS, recorded because the class of error is the point: a draft use-item explain read 'If it were lekarki the pronoun would be je.' lekarki is VERIFIED NEW (the course owns lekarka, lekarka-Instrumental, lekarz, lekarze, lekarzem, lekarzy - never the feminine plural). It carries no Polish diacritic, so a diacritic-based sweep of the English prose fields would not have found it; it was caught by reading every Polish word in every learner-facing explain against the pool by hand. Replaced with kobiety (TAUGHT <- b1_virile_reco), which makes the same point. Explain strings are learner-facing and are subject to the pool exactly as items are.",
+  "focus_structures": [
+    "pron_je"
+  ],
+  "teaches_structures": [
+    "pron_je"
+  ],
+  "teaches_lemmas": [
+    "je",
+    "czemu"
+  ],
+  "uses_structures": [
+    "pron_je",
+    "pron_acc",
+    "pron_prep_12",
+    "question_cases",
+    "questions2",
+    "question",
+    "to_jest",
+    "ten_ta_to",
+    "byc_present",
+    "byc_adj",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "plural_nom",
+    "virile_reco",
+    "negation",
+    "neg_gen",
+    "prep_w_loc",
+    "aspect_prefixes"
+  ],
+  "intro": [
+    {
+      "title": "them, when they are not people",
+      "title_pl": "Mam filmy. Oglądam je.",
+      "body": "Last level you learned the object pronouns, and one of them came with a limit: ich means them only for a group with a man in it. For films, newspapers, cats — for anything that is not people — there was no word at all.\n\nIt is je. The same men-group split you spent five units on with the plural adjective reaches the pronoun here, and it is the last place it goes.\n\nje also covers a single neuter noun: Mam mleko. Piję je.",
+      "body_pl": "ich — ludzie · je — reszta",
+      "table": {
+        "headers": [
+          "What you point back at",
+          "Pronoun",
+          "Example"
+        ],
+        "rows": [
+          [
+            "him",
+            "go",
+            "Mam brata. Znam go."
+          ],
+          [
+            "her",
+            "ją",
+            "Mama ma kawę. Pije ją."
+          ],
+          [
+            "it (neuter)",
+            "je",
+            "Mam mleko. Piję je."
+          ],
+          [
+            "them (a men-group)",
+            "ich",
+            "To są studenci. Znam ich."
+          ],
+          [
+            "them (everything else)",
+            "je",
+            "Mam filmy. Oglądam je."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I have newspapers. I read them.",
+          "pl": "Mam gazety. Czytam je."
+        }
+      ]
+    },
+    {
+      "title": "je is also a verb, and that is worth thirty seconds",
+      "title_pl": "Mama je zupę.",
+      "body": "There is a second je in Polish and it has nothing to do with pronouns. It is the he/she/it form of jeść.\n\nYou own almost all of that verb already — jem, jesz, and the finished-action zje. je is simply the box between them.\n\nSo Mama je zupę is \"Mum is eating soup\". It is not a pronoun, and there is nothing missing from the sentence.",
+      "body_pl": "jem · jesz · je",
+      "table": {
+        "headers": [
+          "Person",
+          "Form",
+          "Example"
+        ],
+        "rows": [
+          [
+            "I",
+            "jem",
+            "Jem chleb."
+          ],
+          [
+            "you",
+            "jesz",
+            "Jesz zupę."
+          ],
+          [
+            "he / she / it",
+            "je",
+            "Tata je chleb."
+          ],
+          [
+            "finished, he / she / it",
+            "zje",
+            "Tata zje chleb."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The child is eating an egg.",
+          "pl": "Dziecko je jajko."
+        }
+      ]
+    },
+    {
+      "title": "Which je is it? Look at what else is in the sentence",
+      "title_pl": "Mama je zupę. · Oglądam je.",
+      "body": "You never have to guess. Count the verbs.\n\nIf je is the only verb-shaped word there, it is the verb — nothing else is doing the work. If a verb is already standing in the sentence, je is that verb's object.\n\nThat test holds for every sentence in this course, and it is easier to apply than it looks.",
+      "body_pl": "jest czasownik? → je = dopełnienie",
+      "table": {
+        "headers": [
+          "Sentence",
+          "je is",
+          "How you know"
+        ],
+        "rows": [
+          [
+            "Mama je zupę.",
+            "eats",
+            "no other verb — je is the verb"
+          ],
+          [
+            "Mam filmy. Oglądam je.",
+            "them",
+            "oglądam is already the verb"
+          ],
+          [
+            "Tata je chleb.",
+            "eats",
+            "no other verb"
+          ],
+          [
+            "To są koty. Znam je.",
+            "them",
+            "znam is already the verb"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Why isn't Dad eating?",
+          "pl": "Czemu tata nie je?"
+        }
+      ]
+    },
+    {
+      "title": "czemu — a second way to ask why",
+      "title_pl": "Czemu tata nie je?",
+      "body": "You have asked why with dlaczego since A2. In everyday speech Poles reach at least as often for czemu, and it means exactly the same thing.\n\nWhere it comes from is worth one line, because it explains the shape. czemu is the Dative of co — the what-form that matches komu, the who-form you learned last level. That is the cell b2's question table left empty.\n\nAs a real Dative it is rare, and this course does not use it that way. Treat czemu as a word meaning why, and let the shape make sense rather than making you work.",
+      "body_pl": "czemu = dlaczego · celownik od co",
+      "table": {
+        "headers": [
+          "Question word",
+          "Means",
+          "Example"
+        ],
+        "rows": [
+          [
+            "dlaczego",
+            "why",
+            "Dlaczego tata jest zmęczony?"
+          ],
+          [
+            "czemu",
+            "why (everyday)",
+            "Czemu tata jest zmęczony?"
+          ],
+          [
+            "komu",
+            "to whom",
+            "Komu pomagasz?"
+          ],
+          [
+            "czemu",
+            "the Dative of co",
+            "the shape komu has, for a thing"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Why are you tired?",
+          "pl": "Czemu jesteś zmęczony?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I have films. I watch them.",
+      "pl": "Mam filmy. Oglądam je."
+    },
+    {
+      "en": "I have newspapers. I read them.",
+      "pl": "Mam gazety. Czytam je."
+    },
+    {
+      "en": "These are cats. I know them.",
+      "pl": "To są koty. Znam je."
+    },
+    {
+      "en": "I have milk. I drink it.",
+      "pl": "Mam mleko. Piję je."
+    },
+    {
+      "en": "This is wine. I like it.",
+      "pl": "To jest wino. Lubię je."
+    },
+    {
+      "en": "Mum is eating soup.",
+      "pl": "Mama je zupę."
+    },
+    {
+      "en": "Dad is eating bread.",
+      "pl": "Tata je chleb."
+    },
+    {
+      "en": "The child is eating an egg.",
+      "pl": "Dziecko je jajko."
+    },
+    {
+      "en": "Mum has coffee. She is drinking it.",
+      "pl": "Mama ma kawę. Pije ją."
+    },
+    {
+      "en": "These are students. I know them.",
+      "pl": "To są studenci. Znam ich."
+    },
+    {
+      "en": "Why isn't Dad eating?",
+      "pl": "Czemu tata nie je?"
+    },
+    {
+      "en": "Why are you tired?",
+      "pl": "Czemu jesteś zmęczony?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mam filmy. Oglądam ___. (I have films. I watch them.)",
+      "choices": [
+        "je",
+        "ich",
+        "go",
+        "ją"
+      ],
+      "answer": "je",
+      "explain": "Films are not people, so ich is out — it is reserved for a group with a man in it. Everything else takes je."
+    },
+    {
+      "prompt": "To są studenci. Znam ___. (These are students. I know them.)",
+      "choices": [
+        "ich",
+        "je",
+        "go",
+        "ją"
+      ],
+      "answer": "ich",
+      "explain": "The other side of the same split. studenci is a men-group, and that is the one category that takes ich."
+    },
+    {
+      "prompt": "Mam mleko. Piję ___. (I have milk. I drink it.)",
+      "choices": [
+        "je",
+        "go",
+        "ją",
+        "ich"
+      ],
+      "answer": "je",
+      "explain": "mleko is neuter, and a neuter noun takes je as its object — the same word that does duty for plural things."
+    },
+    {
+      "prompt": "Mama ma kawę. Pije ___. (Mum has coffee. She is drinking it.)",
+      "choices": [
+        "ją",
+        "je",
+        "go",
+        "ich"
+      ],
+      "answer": "ją",
+      "explain": "kawa is feminine, so it keeps ją — unchanged since B2. je would say the thing is neuter or plural."
+    },
+    {
+      "prompt": "Mama ___ zupę. (Mum is eating soup.)",
+      "choices": [
+        "je",
+        "jem",
+        "jesz",
+        "zje"
+      ],
+      "answer": "je",
+      "explain": "The other je. Mama is he/she/it, so the form is je — the box between jem and jesz that you had not been given."
+    },
+    {
+      "prompt": "Dziecko ___ jajko. (The child is eating an egg.)",
+      "choices": [
+        "je",
+        "jesz",
+        "jem",
+        "zje"
+      ],
+      "answer": "je",
+      "explain": "dziecko is he/she/it too. zje would say the egg gets finished; here the eating is simply going on."
+    },
+    {
+      "prompt": "To są koty. Znam ___. (These are cats. I know them.)",
+      "choices": [
+        "je",
+        "ich",
+        "go",
+        "ją"
+      ],
+      "answer": "je",
+      "explain": "Animals are not a men-group, however alive they are — the same line Block 2 drew for the adjective. je, not ich."
+    },
+    {
+      "prompt": "Mam brata. Znam ___. (I have a brother. I know him.)",
+      "choices": [
+        "go",
+        "je",
+        "ją",
+        "ich"
+      ],
+      "answer": "go",
+      "explain": "One man, not a group, so go. ich is only ever plural."
+    },
+    {
+      "prompt": "Mama ma książkę. Czyta ___. (Mum has a book. She is reading it.)",
+      "choices": [
+        "ją",
+        "je",
+        "go",
+        "ich"
+      ],
+      "answer": "ją",
+      "explain": "One feminine thing takes ją. je would be right only if there were several books, or if the noun were neuter."
+    },
+    {
+      "prompt": "___ tata nie je? (Why isn't Dad eating?)",
+      "choices": [
+        "Czemu",
+        "Kto",
+        "Co",
+        "Komu"
+      ],
+      "answer": "Czemu",
+      "explain": "czemu is the everyday why. Note the second je in this sentence is the verb — nie je is \"is not eating\"."
+    },
+    {
+      "prompt": "___ jesteś zmęczony? (Why are you tired?)",
+      "choices": [
+        "Czemu",
+        "Kogo",
+        "Czym",
+        "Komu"
+      ],
+      "answer": "Czemu",
+      "explain": "Same word as dlaczego. The shape comes from co, which is why it looks so much like komu."
+    },
+    {
+      "prompt": "To są lekarze. Znam ___. (These are doctors. I know them.)",
+      "choices": [
+        "ich",
+        "je",
+        "go",
+        "ją"
+      ],
+      "answer": "ich",
+      "explain": "lekarze is a men-group, so ich. This is the split worth over-learning: people on one side, everything else on the other."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I have films. I watch them.",
+      "mode": "cloze",
+      "answer": "je",
+      "accepts": [
+        "je"
+      ],
+      "frame": "Mam filmy. Oglądam ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Blank on the teaching point: je, the non-virile plural object pronoun, which is the debt b2_pron_acc logged."
+    },
+    {
+      "prompt_en": "Why isn't Dad eating?",
+      "mode": "cloze",
+      "answer": "Czemu",
+      "accepts": [
+        "Czemu",
+        "czemu"
+      ],
+      "frame": "___ tata nie je?",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the teaching point: Czemu, sentence-initial so both capitalisations are accepted. The other je in the frame is the VERB and is left visible on purpose."
+    },
+    {
+      "prompt_en": "Mum is eating soup.",
+      "mode": "cloze",
+      "answer": "zupę",
+      "accepts": [
+        "zupę"
+      ],
+      "frame": "Mama je ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 3 words but a real conjugated sentence, so cloze regardless of length. FALLBACK BLANK, logged: je as a verb and je as a pronoun are THE SAME STRING under the engine's norm(), so producing both would duplicate an answer within the stage and item 0 already spends it. This item leaves je standing in the VERB job and blanks its object — the learner reads the sense in place, which is exactly what the homograph needs."
+    },
+    {
+      "prompt_en": "I have milk. I drink it.",
+      "mode": "cloze",
+      "answer": "mleko",
+      "accepts": [
+        "mleko"
+      ],
+      "frame": "Mam ___. Piję je.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. FALLBACK BLANK, logged, and the deliberate mirror of item 2: the same string je is left standing here in the PRONOUN job. Between the two items the learner reads both senses in place without ever being asked to type the same answer twice."
+    },
+    {
+      "prompt_en": "These are students. I know them.",
+      "mode": "cloze",
+      "answer": "ich",
+      "accepts": [
+        "ich"
+      ],
+      "frame": "To są studenci. Znam ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. FALLBACK BLANK, logged: the blank is the OWNED pronoun the unit's whole discrimination turns on. Producing ich against a men-group is what proves je has not simply been over-generalised."
+    },
+    {
+      "prompt_en": "Mum has coffee. She is drinking it.",
+      "mode": "cloze",
+      "answer": "ją",
+      "accepts": [
+        "ją"
+      ],
+      "frame": "Mama ma kawę. Pije ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. FALLBACK BLANK, logged: the feminine object pronoun, owned since b2_pron_acc, held against je."
+    },
+    {
+      "prompt_en": "I have a brother. I know him.",
+      "mode": "cloze",
+      "answer": "go",
+      "accepts": [
+        "go"
+      ],
+      "frame": "Mam brata. Znam ___.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. FALLBACK BLANK, logged: the masculine singular object pronoun, the third leg of the contrast set."
+    },
+    {
+      "prompt_en": "Why are you tired?",
+      "mode": "cloze",
+      "answer": "zmęczony",
+      "accepts": [
+        "zmęczony"
+      ],
+      "frame": "Czemu jesteś ___?",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 3 words but a real conjugated question, so cloze regardless of length. FALLBACK BLANK, logged: Czemu is spent at item 1 and a second Czemu answer would duplicate within the stage. Blanks the predicate adjective, with czemu left visible in a second sentence shape."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I have newspapers. I read them.",
+      "answer": "Mam gazety. Czytam je.",
+      "accepts": [
+        "Mam gazety. Czytam je.",
+        "Mam gazety. Czytam je"
+      ],
+      "explain": "Newspapers are things, so je rather than ich. The pronoun does not change shape for the gender of a plural — only for whether it is people."
+    },
+    {
+      "prompt_en": "Type: These are cats. I know them.",
+      "answer": "To są koty. Znam je.",
+      "accepts": [
+        "To są koty. Znam je.",
+        "To są koty. Znam je"
+      ],
+      "explain": "Being alive is not the test. The test is the men-group, and cats are not one."
+    },
+    {
+      "prompt_en": "Type: This is wine. I like it.",
+      "answer": "To jest wino. Lubię je.",
+      "accepts": [
+        "To jest wino. Lubię je.",
+        "To jest wino. Lubię je"
+      ],
+      "explain": "wino is neuter and singular, and je covers that as well as plural things."
+    },
+    {
+      "prompt_en": "Type: Dad is eating bread.",
+      "answer": "Tata je chleb.",
+      "accepts": [
+        "Tata je chleb.",
+        "Tata je chleb"
+      ],
+      "explain": "No other verb is standing here, so je is doing the work itself — this is jeść, not a pronoun."
+    },
+    {
+      "prompt_en": "Type: The child is eating an egg.",
+      "answer": "Dziecko je jajko.",
+      "accepts": [
+        "Dziecko je jajko.",
+        "Dziecko je jajko"
+      ],
+      "explain": "Same shape as Tata je chleb. dziecko is neuter but that changes nothing — the verb only cares that it is he/she/it."
+    },
+    {
+      "prompt_en": "Type: These are doctors. I know them.",
+      "answer": "To są lekarze. Znam ich.",
+      "accepts": [
+        "To są lekarze. Znam ich.",
+        "To są lekarze. Znam ich"
+      ],
+      "explain": "A men-group, so ich. If the same sentence pointed at kobiety, the pronoun would be je."
+    },
+    {
+      "prompt_en": "Type: Mum has a book. She is reading it.",
+      "answer": "Mama ma książkę. Czyta ją.",
+      "accepts": [
+        "Mama ma książkę. Czyta ją.",
+        "Mama ma książkę. Czyta ją"
+      ],
+      "explain": "One feminine thing keeps ją. je would be wrong here for two reasons at once — wrong gender and wrong number."
+    },
+    {
+      "prompt_en": "Type: Why is Mum at home?",
+      "answer": "Czemu mama jest w domu?",
+      "accepts": [
+        "Czemu mama jest w domu?",
+        "Czemu mama jest w domu"
+      ],
+      "explain": "czemu sits exactly where dlaczego sits and asks exactly the same thing."
+    },
+    {
+      "prompt_en": "Type: Why aren't you drinking coffee?",
+      "answer": "Czemu nie pijesz kawy?",
+      "accepts": [
+        "Czemu nie pijesz kawy?",
+        "Czemu nie pijesz kawy"
+      ],
+      "explain": "kawy, not kawę: the nie in front of the verb pulls the object into the genitive, which has nothing to do with czemu."
+    },
+    {
+      "prompt_en": "Type: My sister is eating cheese.",
+      "answer": "Siostra je ser.",
+      "accepts": [
+        "Siostra je ser.",
+        "Siostra je ser"
+      ],
+      "explain": "Count the verbs: there is only je, so je is the verb. Nothing is missing from the sentence."
+    }
+  ],
+  "uses_lemmas": [
+    "go",
+    "ją",
+    "ich",
+    "jem",
+    "jesz",
+    "jeść",
+    "zje",
+    "dlaczego",
+    "komu",
+    "kogo",
+    "czym",
+    "co",
+    "kto",
+    "mam",
+    "ma",
+    "znam",
+    "oglądam",
+    "czytam",
+    "czyta",
+    "piję",
+    "pije",
+    "pijesz",
+    "lubię",
+    "pomagasz",
+    "jest",
+    "są",
+    "jesteś",
+    "to są",
+    "nie",
+    "filmy",
+    "gazety",
+    "koty",
+    "mleko",
+    "wino",
+    "kawę",
+    "kawy",
+    "książkę",
+    "zupę",
+    "chleb",
+    "jajko",
+    "ser",
+    "brata",
+    "studenci",
+    "lekarze",
+    "dziecko",
+    "mama",
+    "tata",
+    "siostra",
+    "zmęczony",
+    "w domu",
+    "kobiety"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_pron_je",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

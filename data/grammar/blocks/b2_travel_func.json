@@ -1,0 +1,634 @@
+{
+  "id": "b2_travel_func",
+  "title": "Pociąg jest opóźniony",
+  "title_en": "Travel: delays, tickets and bookings",
+  "level": "B2",
+  "tree_node": "b2_travel_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2-SPINE Block 8 unit 1, spine O12 — a SITUATIONS unit in the chunk lane, genre of a2_directions_func / b1_polite, and it reuses the existing situation_chunk structure ID rather than inventing one (every *_func pack in the course does the same; no new ID was registered for this unit).\n\nO12'S EVIDENCE RE-VERIFIED RATHER THAN TRUSTED, and it held exactly: of the travel-logistics nouns, peron, dworzec, bagaz, rozklad, rezerwacja, przesiadka, opoznienie, walizka, lotnisko, odjazd, przyjazd, pociag and lot are ALL already taught — so the learner's gap here is not words but what to SAY. Every one of them is recycled and none is re-taught. Only nocleg, odlot, przylot, wsiadac, wysiadac, potwierdzic, wazny and doba came back NEW, plus opozniony/odwolany.\n\nTHE PARTICIPLE PAYOFF IS WHY THIS UNIT SITS HERE. opozniony and odwolany are passive participles, and b2_participle_pass's own note records placing this unit after it for exactly that reason. They arrive one node after b2_passive named the construction, so Pociag jest opozniony is a sentence the learner can already parse completely — the only new thing in it is the word.\n\nTHE SHARPEST THING IN THE UNIT IS A NEAR-PAIR THE SPINE DID NOT PREDICT, caught by reading a2_transport2's teaches_lemmas rather than by the auditor, which cannot see it: SPOZNIONY IS ALREADY TAUGHT there, and spoznic sie is owned from b1_wrapup. English calls both 'late', Polish does not: a PERSON is spozniony, a SERVICE is opozniony. Slide 2 is that split, and it makes the new word properly anchored instead of merely new. The noun opoznienie is owned too (leaf_city_a1), so the derivation opoznienie -> opozniony is visible on the page.\n\nODLOT AND PRZYLOT ARE THE BEST-ANCHORED WORDS HERE and are transparent in a way almost nothing in the course has been: lot is taught (a2_transport2), and odjazd / przyjazd are taught as the LAND pair — so od + lot and przy + lot are readable from parts the learner already owns, with the land pair sitting beside them as the model. The b2_prefix_lens connection is drawn in ONE LINE and stays receptive, per the JAMES-LOCKED O7 overrule: od- and przy- are two of the lens's core four, they are doing there exactly what they do here, and nothing invites the learner to build a third word of his own.\n\nCASE LEAKS THAT check_new.py KILLED, all verified rather than assumed: pociagu, autobusu, peronie, lotnisku, bagazu, biletu and noclegu are ALL NEW, so 'do pociagu', 'na peronie' and 'na lotnisku' — the three most natural sentences in this domain — cannot be built and appear nowhere. That is why wsiadac/wysiadac are taught in the prosze + infinitive frame (prosze isc / prosze mowic precedent) instead of with a complement, and why nocleg is used only where it stands in the Nominative or the Accusative, which for a masculine inanimate are the same string. dworcu and hotelu ARE taught, so na dworcu and w hotelu are legal and are used.\n\nWAZNY CARRIES A SENSE INDICATOR AND A NAMED SECOND MEANING. It is glossed 'valid (of a ticket or booking)' everywhere. Its everyday sense 'important' is stated in one line on slide 5 and drilled nowhere — leaving it out entirely would have set up a misreading the first time he meets it, which is the cost the AGENTS sense-indicator rule exists to prevent.\n\nWYSIADAM WAS DRAFTED AND CUT, logged: 'I'm getting off here' is useful, but wysiadam is verified NEW and a conjugated form does not belong in a chunk unit whose whole idiom is infinitives and frozen phrases. wsiadac and wysiadac stay infinitives, exactly as a2_directions_func left isc unconjugated inside prosze isc. Consequence: the learner can obey the announcement and cannot yet narrate his own alighting.\n\nAGREEMENT IS DELIBERATELY THIN AND THAT IS THE POOL'S DOING, not a shortcut: pociag, autobus, lot are all masculine, so opozniony and odwolany need no other form and none is taught. Only wazny takes a second form (wazna, for rezerwacja), because that is the one place a feminine noun is the natural subject. opozniona / opoznione / odwolana / odwolane are verified NEW and appear nowhere, not even as distractors.\n\nPISANIE IS ELEVEN ITEMS, NOT TWELVE, and the count is deliberate: twelve is the fixed size of the MATCH board, not of this stage (b1_stories_func ships three). Seven items are single new forms — legitimate full_word Pisanie under the stage contract — and four are cloze, because Pociag jest opozniony is a COMPOSED sentence and may not be typed whole at any length. A twelfth item would have had to repeat an answer already produced, and padding a stage by duplication is what the no-duplicates rule forbids. All eleven answers are distinct.\n\nQUIZ DISTRACTOR DISCIPLINE: no fabricated non-words. The odlot/przylot item offers all four of odlot, przylot, odjazd, przyjazd — the sharpest real discrimination in the unit, air against land and departure against arrival, every choice a taught word. The nocleg and doba items were built so their choice lists do NOT contain each other: 'Ile kosztuje nocleg?' is also perfectly good Polish, so offering nocleg against doba would have made two choices correct.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "teaches_lemmas": [
+    "nocleg",
+    "odlot",
+    "przylot",
+    "wsiadać",
+    "wysiadać",
+    "potwierdzić",
+    "ważny",
+    "ważna",
+    "doba",
+    "opóźniony",
+    "odwołany",
+    "pociąg jest opóźniony",
+    "autobus jest opóźniony",
+    "lot jest odwołany",
+    "autobus jest odwołany",
+    "bilet jest ważny",
+    "rezerwacja jest ważna",
+    "proszę wsiadać",
+    "proszę wysiadać",
+    "chciałbym potwierdzić",
+    "chciałabym potwierdzić",
+    "chciałbym potwierdzić rezerwację",
+    "chciałabym potwierdzić rezerwację",
+    "mam nocleg w hotelu",
+    "ile kosztuje doba",
+    "odlot jest o piątej",
+    "przylot jest o siódmej"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "byc_present",
+    "byc_adj",
+    "passive",
+    "participle_pass",
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "can_inf",
+    "existential_jest",
+    "question",
+    "ordinals_time",
+    "conditional_sg",
+    "prep_place",
+    "prep_w_loc",
+    "bedzie"
+  ],
+  "intro": [
+    {
+      "title": "Two words the departure board is telling you",
+      "title_pl": "opóźniony · odwołany",
+      "body": "You already own the noun opóźnienie — a delay. Here is the word that goes with it, and the worse one next to it.\n\nopóźniony — delayed. It is coming, later than it said.\nodwołany — cancelled. It is not coming at all.\n\nBoth are passive participles, which is why they look the way they do and why they sit here: you spent the last two units on exactly this shape, so Pociąg jest opóźniony is a sentence you can already take apart completely. The only new thing in it is the word itself.\n\nPociąg jest opóźniony. — The train is delayed.\nLot jest odwołany. — The flight is cancelled.\n\nTrains, buses and flights are all masculine — pociąg, autobus, lot — so in practice these two words keep the shape you see here.",
+      "body_pl": "Imiesłowy bierne: opóźniony, odwołany.",
+      "table": {
+        "headers": [
+          "You own",
+          "New",
+          "It means"
+        ],
+        "rows": [
+          [
+            "opóźnienie (a delay)",
+            "opóźniony",
+            "delayed — coming late"
+          ],
+          [
+            "—",
+            "odwołany",
+            "cancelled — not coming"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "opóźniony is not spóźniony, and Polish is stricter than English here",
+      "title_pl": "spóźniony (człowiek) · opóźniony (pociąg)",
+      "body": "You have owned spóźniony since A2, and it is close enough to the new word to cause real trouble. English uses late for both jobs; Polish splits them.\n\nspóźniony — a PERSON who is late. Jestem spóźniony. Tata jest spóźniony.\nopóźniony — a SERVICE running behind: a train, a bus, a flight. Pociąg jest opóźniony.\n\nThe split is worth holding on to because it does not follow from anything. A person is spóźniony because he himself is running late; a train is opóźniony because something was done to it — it was held up. That difference is visible in the words, and it is the same o- that starts opóźnienie, the noun you already had.\n\nSaying Pociąg jest spóźniony will be understood, and it will also sound like the train personally overslept.",
+      "body_pl": "Człowiek: spóźniony. Pociąg, autobus, lot: opóźniony.",
+      "table": {
+        "headers": [
+          "Who or what",
+          "Word",
+          "Example"
+        ],
+        "rows": [
+          [
+            "a person",
+            "spóźniony",
+            "Tata jest spóźniony."
+          ],
+          [
+            "a train",
+            "opóźniony",
+            "Pociąg jest opóźniony."
+          ],
+          [
+            "a bus",
+            "opóźniony",
+            "Autobus jest opóźniony."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Leaving and arriving — by land, and now by air",
+      "title_pl": "odjazd · przyjazd → odlot · przylot",
+      "body": "You already have the land pair from A2:\n\nodjazd — departure\nprzyjazd — arrival\n\nThe air pair is built the same way, on lot, which you also already own — a flight.\n\nodlot — departure (by air)\nprzylot — arrival (by air)\n\nSo od- goes with leaving and przy- goes with coming, in both pairs, and lot is sitting in plain sight inside both of the new words. These are the same two prefixes the prefix unit gave you to read with, doing precisely what they did there.\n\nThat is a reason these four are easy to recognise. It is not permission to make a fifth — Polish does not always cooperate, and you build only the words the course hands you.\n\nOdlot jest o piątej. — The departure is at five.\nPrzylot jest o siódmej. — The arrival is at seven.",
+      "body_pl": "Ziemia: odjazd, przyjazd. Powietrze: odlot, przylot.",
+      "table": {
+        "headers": [
+          "By land (owned)",
+          "By air (new)",
+          "It means"
+        ],
+        "rows": [
+          [
+            "odjazd",
+            "odlot",
+            "departure"
+          ],
+          [
+            "przyjazd",
+            "przylot",
+            "arrival"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Getting on and getting off",
+      "title_pl": "proszę wsiadać · proszę wysiadać",
+      "body": "Two verbs you will hear called out rather than say yourself:\n\nwsiadać — to get on, to board\nwysiadać — to get off\n\nThey arrive in the frame you have used since A2 for every instruction in this course — proszę and then the verb, unchanged:\n\nProszę wsiadać. — Please board.\nProszę wysiadać. — Please get off.\n\nThat is the whole of it. These two are handed over in this frame and in no other, which means you can follow the announcement without yet being able to say I am getting off here — that sentence needs a form of the verb this unit does not give you.",
+      "body_pl": "Proszę + bezokolicznik.",
+      "examples": [
+        {
+          "en": "Please board.",
+          "pl": "Proszę wsiadać."
+        },
+        {
+          "en": "Please get off.",
+          "pl": "Proszę wysiadać."
+        },
+        {
+          "en": "Please wait.",
+          "pl": "Proszę czekać."
+        }
+      ]
+    },
+    {
+      "title": "At the desk: the room, the night, the booking",
+      "title_pl": "nocleg · doba · ważny",
+      "body": "Three words for the other half of travelling.\n\nnocleg — somewhere to sleep for the night; what you have booked.\ndoba — a twenty-four hour period. It is what a hotel actually charges by, so it is the word in the price, where English would say a night.\nważny — valid. A ticket that still works, a booking that still stands.\n\nMam nocleg w hotelu. — I have a room at the hotel.\nIle kosztuje doba? — How much is one night?\nBilet jest ważny. — The ticket is valid.\nRezerwacja jest ważna. — The booking is valid.\n\nważny is an ordinary adjective, so it agrees: bilet is masculine and takes ważny, rezerwacja is feminine and takes ważna.\n\nOne warning about it. ważny has a second, very common everyday meaning — important — which is not the job it is doing anywhere in this unit. Both senses are real; here it is only ever valid.\n\nAnd the sentence to have ready before you arrive:\n\nChciałbym potwierdzić rezerwację. — I'd like to confirm the booking.",
+      "body_pl": "potwierdzić rezerwację · bilet ważny · jedna doba.",
+      "table": {
+        "headers": [
+          "New word",
+          "It means",
+          "In use"
+        ],
+        "rows": [
+          [
+            "nocleg",
+            "a place to stay the night",
+            "Mam nocleg w hotelu."
+          ],
+          [
+            "doba",
+            "24 hours, what a hotel charges by",
+            "Ile kosztuje doba?"
+          ],
+          [
+            "ważny · ważna",
+            "valid (of a ticket or booking)",
+            "Bilet jest ważny."
+          ],
+          [
+            "potwierdzić",
+            "to confirm",
+            "Chciałbym potwierdzić rezerwację."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "The train is delayed.",
+      "pl": "Pociąg jest opóźniony."
+    },
+    {
+      "en": "The flight is cancelled.",
+      "pl": "Lot jest odwołany."
+    },
+    {
+      "en": "The ticket is valid.",
+      "pl": "Bilet jest ważny."
+    },
+    {
+      "en": "The booking is valid.",
+      "pl": "Rezerwacja jest ważna."
+    },
+    {
+      "en": "departure (by air)",
+      "pl": "odlot"
+    },
+    {
+      "en": "arrival (by air)",
+      "pl": "przylot"
+    },
+    {
+      "en": "to get on, to board",
+      "pl": "wsiadać"
+    },
+    {
+      "en": "to get off",
+      "pl": "wysiadać"
+    },
+    {
+      "en": "to confirm",
+      "pl": "potwierdzić"
+    },
+    {
+      "en": "I'd like to confirm the booking. (a man speaking)",
+      "pl": "Chciałbym potwierdzić rezerwację."
+    },
+    {
+      "en": "How much is one night?",
+      "pl": "Ile kosztuje doba?"
+    },
+    {
+      "en": "I have a room at the hotel.",
+      "pl": "Mam nocleg w hotelu."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Pociąg jest ___. (delayed — it is coming late)",
+      "choices": [
+        "opóźniony",
+        "odwołany",
+        "ważny",
+        "otwarty"
+      ],
+      "answer": "opóźniony",
+      "explain": "The one that still arrives, only later. odwołany would mean it is not coming at all."
+    },
+    {
+      "prompt": "Lot jest ___. (cancelled — it is not coming at all)",
+      "choices": [
+        "odwołany",
+        "opóźniony",
+        "ważny",
+        "zapłacony"
+      ],
+      "answer": "odwołany",
+      "explain": "odwołany is the end of the matter; opóźniony would still leave you something to wait for."
+    },
+    {
+      "prompt": "Tata jest ___. (late — he was supposed to be here by now)",
+      "choices": [
+        "spóźniony",
+        "opóźniony",
+        "odwołany",
+        "zmęczony"
+      ],
+      "answer": "spóźniony",
+      "explain": "A person who is late is spóźniony — the word you have had since A2. opóźniony is for a train or a flight, never for a man."
+    },
+    {
+      "prompt": "Autobus jest ___. (delayed)",
+      "choices": [
+        "opóźniony",
+        "spóźniony",
+        "odwołany",
+        "zamknięty"
+      ],
+      "answer": "opóźniony",
+      "explain": "A bus is a service, not a person, so it takes opóźniony. spóźniony here would suggest the bus itself overslept."
+    },
+    {
+      "prompt": "___ jest o piątej. (the departure — by air)",
+      "choices": [
+        "Odlot",
+        "Przylot",
+        "Odjazd",
+        "Przyjazd"
+      ],
+      "answer": "Odlot",
+      "explain": "od- for leaving, and lot because it flies. Odjazd is the same idea on the ground."
+    },
+    {
+      "prompt": "___ jest o siódmej. (the arrival — by air)",
+      "choices": [
+        "Przylot",
+        "Odlot",
+        "Przyjazd",
+        "Odjazd"
+      ],
+      "answer": "Przylot",
+      "explain": "przy- for coming towards you, lot for the flight. Przyjazd is its partner on the railway."
+    },
+    {
+      "prompt": "Proszę ___. (please board)",
+      "choices": [
+        "wsiadać",
+        "wysiadać",
+        "iść",
+        "czekać"
+      ],
+      "answer": "wsiadać",
+      "explain": "Getting on is wsiadać. The wy- one takes you back out again."
+    },
+    {
+      "prompt": "Proszę ___. (please get off)",
+      "choices": [
+        "wysiadać",
+        "wsiadać",
+        "mówić",
+        "słuchać"
+      ],
+      "answer": "wysiadać",
+      "explain": "wy- is the prefix that goes outwards, and that is what it is doing here."
+    },
+    {
+      "prompt": "Chciałbym ___ rezerwację. (to confirm)",
+      "choices": [
+        "potwierdzić",
+        "zapytać",
+        "kupić",
+        "zrobić"
+      ],
+      "answer": "potwierdzić",
+      "explain": "After chciałbym the verb stays in its dictionary form, exactly as it does after chcę."
+    },
+    {
+      "prompt": "Bilet jest ___. (valid)",
+      "choices": [
+        "ważny",
+        "ważna",
+        "opóźniony",
+        "odwołany"
+      ],
+      "answer": "ważny",
+      "explain": "bilet is masculine, so ważny. It is an ordinary adjective and agrees like one."
+    },
+    {
+      "prompt": "Rezerwacja jest ___. (valid)",
+      "choices": [
+        "ważna",
+        "ważny",
+        "dobra",
+        "nowa"
+      ],
+      "answer": "ważna",
+      "explain": "rezerwacja is feminine, so the -a form. dobra and nowa agree correctly but say something else entirely."
+    },
+    {
+      "prompt": "Mam ___ w hotelu. (somewhere to sleep tonight)",
+      "choices": [
+        "nocleg",
+        "odlot",
+        "przylot",
+        "bagaż"
+      ],
+      "answer": "nocleg",
+      "explain": "nocleg is the room you have booked. bagaż is what you brought with you."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "departure (by air)",
+      "mode": "full_word",
+      "answer": "odlot",
+      "accepts": [
+        "odlot"
+      ],
+      "explain": "od- for away, and lot — the flight word you have owned since A2."
+    },
+    {
+      "prompt_en": "arrival (by air)",
+      "mode": "full_word",
+      "answer": "przylot",
+      "accepts": [
+        "przylot"
+      ],
+      "explain": "przy- for towards, on the same lot. Its land partner is przyjazd."
+    },
+    {
+      "prompt_en": "to get on, to board",
+      "mode": "full_word",
+      "answer": "wsiadać",
+      "accepts": [
+        "wsiadać"
+      ]
+    },
+    {
+      "prompt_en": "to get off",
+      "mode": "full_word",
+      "answer": "wysiadać",
+      "accepts": [
+        "wysiadać"
+      ]
+    },
+    {
+      "prompt_en": "to confirm",
+      "mode": "full_word",
+      "answer": "potwierdzić",
+      "accepts": [
+        "potwierdzić"
+      ]
+    },
+    {
+      "prompt_en": "a place to stay the night",
+      "mode": "full_word",
+      "answer": "nocleg",
+      "accepts": [
+        "nocleg"
+      ]
+    },
+    {
+      "prompt_en": "a night — the 24 hours a hotel charges by",
+      "mode": "full_word",
+      "answer": "doba",
+      "accepts": [
+        "doba"
+      ],
+      "explain": "Not the same idea as English a night: doba is a full twenty-four hours, and it is what the price is quoted against."
+    },
+    {
+      "prompt_en": "The train is delayed.",
+      "mode": "cloze",
+      "frame": "Pociąg jest ___.",
+      "answer": "opóźniony",
+      "accepts": [
+        "opóźniony"
+      ],
+      "explain": "A service running behind is opóźniony. spóźniony would be a person."
+    },
+    {
+      "prompt_en": "The flight is cancelled.",
+      "mode": "cloze",
+      "frame": "Lot jest ___.",
+      "answer": "odwołany",
+      "accepts": [
+        "odwołany"
+      ]
+    },
+    {
+      "prompt_en": "The ticket is valid.",
+      "mode": "cloze",
+      "frame": "Bilet jest ___.",
+      "answer": "ważny",
+      "accepts": [
+        "ważny"
+      ]
+    },
+    {
+      "prompt_en": "The booking is valid.",
+      "mode": "cloze",
+      "frame": "Rezerwacja jest ___.",
+      "answer": "ważna",
+      "accepts": [
+        "ważna"
+      ],
+      "explain": "rezerwacja is feminine, so the adjective ends in -a — the same agreement you have had since the very first adjectives."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The train is delayed. The bus is cancelled.",
+      "answer": "Pociąg jest opóźniony. Autobus jest odwołany.",
+      "accepts": [
+        "Pociąg jest opóźniony. Autobus jest odwołany.",
+        "Pociąg jest opóźniony. Autobus jest odwołany"
+      ],
+      "explain": "The two words the board uses, side by side: one is late, the other is not coming."
+    },
+    {
+      "prompt_en": "Type: — Is the ticket valid? — Yes, the ticket is valid.",
+      "answer": "— Czy bilet jest ważny? — Tak, bilet jest ważny.",
+      "accepts": [
+        "— Czy bilet jest ważny? — Tak, bilet jest ważny.",
+        "Czy bilet jest ważny? Tak, bilet jest ważny."
+      ]
+    },
+    {
+      "prompt_en": "Type: Good morning. I'd like to confirm the booking. (a man speaking)",
+      "answer": "Dzień dobry. Chciałbym potwierdzić rezerwację.",
+      "accepts": [
+        "Dzień dobry. Chciałbym potwierdzić rezerwację.",
+        "Dzień dobry. Chciałbym potwierdzić rezerwację"
+      ]
+    },
+    {
+      "prompt_en": "Type: Good morning. I'd like to confirm the booking. (a woman speaking)",
+      "answer": "Dzień dobry. Chciałabym potwierdzić rezerwację.",
+      "accepts": [
+        "Dzień dobry. Chciałabym potwierdzić rezerwację.",
+        "Dzień dobry. Chciałabym potwierdzić rezerwację"
+      ],
+      "explain": "Only the speaker's own form moves — chciałabym for a woman. The rest of the sentence does not care who is talking."
+    },
+    {
+      "prompt_en": "Type: Excuse me, how much is one night?",
+      "answer": "Przepraszam, ile kosztuje doba?",
+      "accepts": [
+        "Przepraszam, ile kosztuje doba?",
+        "Przepraszam, ile kosztuje doba"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a room at the hotel. The booking is valid.",
+      "answer": "Mam nocleg w hotelu. Rezerwacja jest ważna.",
+      "accepts": [
+        "Mam nocleg w hotelu. Rezerwacja jest ważna.",
+        "Mam nocleg w hotelu. Rezerwacja jest ważna"
+      ]
+    },
+    {
+      "prompt_en": "Type: The departure is at five and the arrival is at seven.",
+      "answer": "Odlot jest o piątej, a przylot jest o siódmej.",
+      "accepts": [
+        "Odlot jest o piątej, a przylot jest o siódmej.",
+        "Odlot jest o piątej, a przylot jest o siódmej"
+      ],
+      "explain": "a is the joining word for two facts simply set beside each other — not a contrast, just one and then the other."
+    },
+    {
+      "prompt_en": "Type: — Which platform? — Please board.",
+      "answer": "— Który peron? — Proszę wsiadać.",
+      "accepts": [
+        "— Który peron? — Proszę wsiadać.",
+        "Który peron? Proszę wsiadać."
+      ]
+    },
+    {
+      "prompt_en": "Type: We are at the station. Please get off.",
+      "answer": "Jesteśmy na dworcu. Proszę wysiadać.",
+      "accepts": [
+        "Jesteśmy na dworcu. Proszę wysiadać.",
+        "Jesteśmy na dworcu. Proszę wysiadać"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is late, but the train is delayed.",
+      "answer": "Tata jest spóźniony, ale pociąg jest opóźniony.",
+      "accepts": [
+        "Tata jest spóźniony, ale pociąg jest opóźniony.",
+        "Tata jest spóźniony, ale pociąg jest opóźniony"
+      ],
+      "explain": "Both are late in English and neither word can stand in for the other in Polish: the man is spóźniony, the train is opóźniony."
+    }
+  ],
+  "uses_lemmas": [
+    "pociąg",
+    "autobus",
+    "lot",
+    "bilet",
+    "rezerwacja",
+    "rezerwację",
+    "peron",
+    "który",
+    "hotelu",
+    "dworcu",
+    "na dworcu",
+    "opóźnienie",
+    "spóźniony",
+    "odjazd",
+    "przyjazd",
+    "bagaż",
+    "jest",
+    "jesteśmy",
+    "mam",
+    "proszę",
+    "proszę czekać",
+    "czekać",
+    "iść",
+    "mówić",
+    "słuchać",
+    "zapytać",
+    "kupić",
+    "zrobić",
+    "chciałbym",
+    "chciałabym",
+    "ile",
+    "kosztuje",
+    "o piątej",
+    "o siódmej",
+    "dzień dobry",
+    "przepraszam",
+    "czy",
+    "tak",
+    "ale",
+    "a",
+    "w hotelu",
+    "dobra",
+    "nowa",
+    "otwarty",
+    "zamknięty",
+    "zapłacony",
+    "zmęczony",
+    "tata"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_travel_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

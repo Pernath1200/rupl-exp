@@ -1,0 +1,507 @@
+{
+  "id": "a2_tech2",
+  "title": "Internet i telefon",
+  "title_en": "Internet & phone",
+  "level": "A2",
+  "tree_node": "a2_tech2",
+  "default_direction": "en_to_pl",
+  "note": "A2 lisc · second technology pack, sitting on a1_tech. NOTHING a1_tech already owns is re-taught here: komputer, laptop, telefon, komorka, ekran, aplikacja, internet, e-mail, blog, wiadomosc, wiadomosci, strona internetowa, zdjecie, obrazek, aparat, telewizor, telewizja, radio, wideo, gazeta, czasopismo, online are all ANCHORS and appear only in uses_lemmas. 13 new items: 10 nouns + 3 verbs. STRONA — checked against POOL and the bare noun 'strona' IS already taught (alongside 'strona internetowa'), so it is recycled, not taught. HASLO — checked and genuinely absent from POOL, so it is taught here. MYSZKA — 'mysz' is already taught as the animal; 'myszka' is a separate item and carries the sense-indicator 'mouse (computer, not the animal)' so the two never collide. All three verbs land in conjugation classes that are already taught: dzwonic -> dzwonie/dzwonisz (present_e_isz), wysylac -> wysylam/wysylasz (present_am), ladowac -> laduje/ladujesz (present_uje). No new verb pattern. Imperfective only, present tense only — no past forms of the new verbs, so a2_aspect ground is untouched. Every sentence carries exactly one unknown. Feminine adjective check: 'mala' is NOT in POOL (only maly/male), so myszka takes a place phrase instead of an adjective. This pack feeds a2_phone_func immediately after it in path_order — dzwonie, wysylam, laduje and numer are all used there.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "poss_nom",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "prep_do_gen",
+    "prep_w_loc",
+    "prep_place",
+    "existential_jest",
+    "question",
+    "can_inf",
+    "musiec"
+  ],
+  "blocks": [
+    {
+      "id": "tech2_things",
+      "title": "Internet & phone · things",
+      "items": [
+        {
+          "en": "wifi",
+          "pl": "wifi",
+          "icon": "📶",
+          "gender": "n",
+          "accepts": [
+            "wi-fi"
+          ]
+        },
+        {
+          "en": "password",
+          "pl": "hasło",
+          "icon": "🔒",
+          "gender": "n"
+        },
+        {
+          "en": "number (a telephone number)",
+          "pl": "numer",
+          "icon": "🔢",
+          "gender": "m"
+        },
+        {
+          "en": "keyboard",
+          "pl": "klawiatura",
+          "icon": "⌨️",
+          "gender": "f"
+        },
+        {
+          "en": "mouse (computer, not the animal)",
+          "pl": "myszka",
+          "icon": "🖱️",
+          "gender": "f"
+        },
+        {
+          "en": "printer",
+          "pl": "drukarka",
+          "icon": "🖨️",
+          "gender": "f"
+        },
+        {
+          "en": "speaker (the loudspeaker)",
+          "pl": "głośnik",
+          "icon": "🔊",
+          "gender": "m"
+        },
+        {
+          "en": "file (on a computer)",
+          "pl": "plik",
+          "icon": "📄",
+          "gender": "m"
+        },
+        {
+          "en": "link (on a website)",
+          "pl": "link",
+          "icon": "🔗",
+          "gender": "m"
+        },
+        {
+          "en": "battery",
+          "pl": "bateria",
+          "icon": "🔋",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "id": "tech2_verbs",
+      "title": "Internet & phone · three verbs",
+      "items": [
+        {
+          "en": "to call (on the phone)",
+          "pl": "dzwonić",
+          "icon": "📞"
+        },
+        {
+          "en": "I call / I'm calling",
+          "pl": "dzwonię"
+        },
+        {
+          "en": "you call / you're calling",
+          "pl": "dzwonisz"
+        },
+        {
+          "en": "to send",
+          "pl": "wysyłać",
+          "icon": "📤"
+        },
+        {
+          "en": "I send / I'm sending",
+          "pl": "wysyłam"
+        },
+        {
+          "en": "you send / you're sending",
+          "pl": "wysyłasz"
+        },
+        {
+          "en": "to charge (a battery)",
+          "pl": "ładować",
+          "icon": "🔌"
+        },
+        {
+          "en": "I charge / I'm charging",
+          "pl": "ładuję"
+        },
+        {
+          "en": "you charge / you're charging",
+          "pl": "ładujesz"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is my printer.",
+      "pl": "To jest moja drukarka.",
+      "accepts": [
+        "To jest moja drukarka.",
+        "To jest moja drukarka",
+        "To moja drukarka."
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom",
+        "zgoda"
+      ],
+      "lemmas": [
+        "drukarka"
+      ],
+      "explain": "Drukarka ends in -a, so it is feminine and takes moja — the same moja you already use with kawa and książka."
+    },
+    {
+      "en": "The keyboard is new.",
+      "pl": "Klawiatura jest nowa.",
+      "accepts": [
+        "Klawiatura jest nowa.",
+        "Klawiatura jest nowa"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "klawiatura"
+      ]
+    },
+    {
+      "en": "The mouse is on the desk.",
+      "pl": "Myszka jest na biurku.",
+      "accepts": [
+        "Myszka jest na biurku.",
+        "Myszka jest na biurku"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "myszka"
+      ],
+      "explain": "Myszka is the computer mouse. The animal is mysz — the computer word simply adds -ka, the way Poles make a small version of anything."
+    },
+    {
+      "en": "I have a new number.",
+      "pl": "Mam nowy numer.",
+      "accepts": [
+        "Mam nowy numer.",
+        "Mam nowy numer"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "numer"
+      ],
+      "explain": "Numer is masculine and not alive, so after mam it looks exactly as the dictionary has it. Nothing is added."
+    },
+    {
+      "en": "The speaker is on the table.",
+      "pl": "Głośnik jest na stole.",
+      "accepts": [
+        "Głośnik jest na stole.",
+        "Głośnik jest na stole"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "głośnik"
+      ]
+    },
+    {
+      "en": "I'm charging the phone.",
+      "pl": "Ładuję telefon.",
+      "accepts": [
+        "Ładuję telefon.",
+        "Ładuję telefon"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ładuję"
+      ],
+      "explain": "Ładować belongs to the -uję family you already know from kupuję and pracuję. Same ending, new verb."
+    },
+    {
+      "en": "Are you charging the phone?",
+      "pl": "Czy ładujesz telefon?",
+      "accepts": [
+        "Czy ładujesz telefon?",
+        "Czy ładujesz telefon",
+        "Ładujesz telefon?",
+        "Ładujesz telefon"
+      ],
+      "structures": [
+        "present_uje",
+        "question",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ładujesz"
+      ]
+    },
+    {
+      "en": "I'm sending an email.",
+      "pl": "Wysyłam e-mail.",
+      "accepts": [
+        "Wysyłam e-mail.",
+        "Wysyłam e-mail",
+        "Wysyłam email."
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wysyłam"
+      ],
+      "explain": "Wysyłać is an -am verb, built exactly like mam and czytam, so the ending is one you already produce."
+    },
+    {
+      "en": "I'm sending a message.",
+      "pl": "Wysyłam wiadomość.",
+      "accepts": [
+        "Wysyłam wiadomość.",
+        "Wysyłam wiadomość"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wysyłam"
+      ],
+      "explain": "Wiadomość is a feminine word that ends in a consonant, and words of that shape add nothing after wysyłam or mam. It stays as it is."
+    },
+    {
+      "en": "I'm calling my mother.",
+      "pl": "Dzwonię do matki.",
+      "accepts": [
+        "Dzwonię do matki.",
+        "Dzwonię do matki"
+      ],
+      "structures": [
+        "present_e_isz",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "dzwonię"
+      ],
+      "explain": "You phone TO someone in Polish — dzwonię do, with the same do matki you already use for going there."
+    },
+    {
+      "en": "Are you calling the office?",
+      "pl": "Czy dzwonisz do biura?",
+      "accepts": [
+        "Czy dzwonisz do biura?",
+        "Czy dzwonisz do biura",
+        "Dzwonisz do biura?",
+        "Dzwonisz do biura"
+      ],
+      "structures": [
+        "present_e_isz",
+        "prep_do_gen",
+        "question"
+      ],
+      "lemmas": [
+        "dzwonisz"
+      ]
+    },
+    {
+      "en": "The battery is weak.",
+      "pl": "Bateria jest słaba.",
+      "accepts": [
+        "Bateria jest słaba.",
+        "Bateria jest słaba"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "bateria"
+      ]
+    },
+    {
+      "en": "The password is new.",
+      "pl": "Hasło jest nowe.",
+      "accepts": [
+        "Hasło jest nowe.",
+        "Hasło jest nowe"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "hasło"
+      ],
+      "explain": "Hasło ends in -o, so it is neuter and the adjective takes -e: nowe, not nowy or nowa."
+    },
+    {
+      "en": "Where is the file?",
+      "pl": "Gdzie jest plik?",
+      "accepts": [
+        "Gdzie jest plik?",
+        "Gdzie jest plik"
+      ],
+      "structures": [
+        "existential_jest",
+        "question"
+      ],
+      "lemmas": [
+        "plik"
+      ]
+    },
+    {
+      "en": "This is a good link.",
+      "pl": "To jest dobry link.",
+      "accepts": [
+        "To jest dobry link.",
+        "To jest dobry link",
+        "To dobry link."
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "link"
+      ]
+    },
+    {
+      "en": "Is there wifi in the hotel?",
+      "pl": "Czy jest wifi w hotelu?",
+      "accepts": [
+        "Czy jest wifi w hotelu?",
+        "Czy jest wifi w hotelu",
+        "Czy jest wi-fi w hotelu?",
+        "Jest wifi w hotelu?",
+        "Jest wifi w hotelu"
+      ],
+      "structures": [
+        "existential_jest",
+        "question",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "wifi"
+      ],
+      "explain": "Wifi never changes its ending, whatever stands in front of it — one of the handful of borrowed words Polish leaves alone."
+    },
+    {
+      "en": "I have to charge the phone.",
+      "pl": "Muszę ładować telefon.",
+      "accepts": [
+        "Muszę ładować telefon.",
+        "Muszę ładować telefon"
+      ],
+      "structures": [
+        "musiec",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ładować"
+      ],
+      "explain": "Muszę is always followed by the plain infinitive — ładować, never ładuję. Same shape as muszę pracować."
+    },
+    {
+      "en": "I can call the office.",
+      "pl": "Mogę dzwonić do biura.",
+      "accepts": [
+        "Mogę dzwonić do biura.",
+        "Mogę dzwonić do biura"
+      ],
+      "structures": [
+        "can_inf",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "dzwonić"
+      ],
+      "explain": "Mogę takes the infinitive in exactly the same way muszę does — dzwonić, not dzwonię."
+    }
+  ],
+  "teaches_lemmas": [
+    "wifi",
+    "hasło",
+    "numer",
+    "klawiatura",
+    "myszka",
+    "drukarka",
+    "głośnik",
+    "plik",
+    "link",
+    "bateria",
+    "dzwonić",
+    "dzwonię",
+    "dzwonisz",
+    "wysyłać",
+    "wysyłam",
+    "wysyłasz",
+    "ładować",
+    "ładuję",
+    "ładujesz"
+  ],
+  "uses_lemmas": [
+    "telefon",
+    "komputer",
+    "laptop",
+    "komórka",
+    "ekran",
+    "aplikacja",
+    "internet",
+    "strona",
+    "strona internetowa",
+    "e-mail",
+    "blog",
+    "wiadomość",
+    "wiadomości",
+    "mysz",
+    "to",
+    "moja",
+    "jest",
+    "nowy",
+    "nowa",
+    "nowe",
+    "dobry",
+    "słaba",
+    "mam",
+    "czy",
+    "gdzie",
+    "muszę",
+    "mogę",
+    "na biurku",
+    "na stole",
+    "w hotelu",
+    "do matki",
+    "do biura"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_tech2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

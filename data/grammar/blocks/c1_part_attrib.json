@@ -1,0 +1,668 @@
+{
+  "id": "c1_part_attrib",
+  "title": "W zamkniętym sklepie",
+  "title_en": "The participle in front of the noun",
+  "level": "C1",
+  "tree_node": "c1_part_attrib",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 6, unit 1 (B2-SPINE O4, C1-SPINE Block 6). The passive participle ATTRIBUTIVE and DECLINED, plus THE PLURAL - the two things b2_participle_pass [176] fenced by name in its own note.\n\nONE IDEA, AND IT IS THE CHEAPEST HEADLINE IN THE BLOCK: the participle is a full adjective, so it takes endings the learner has already produced. Every ending in this pack is owned - dobrego/dobrym/dobrej/dobra from Block 2 of B2, dobrych from c1_adj_pl_gen [186] and c1_adj_pl_loc [187]. NOTHING here is a new ending. What is new is ten strings that are those owned endings sitting on four participles.\n\nTEN NEW STRINGS: zamknietym, zamknietego, zamknietej, zamknietych, otwartym, otwartego, otwartej, otwartych, ugotowana (fem Accusative), zrobieni (virile, recognition only - see below).\n\nTHE PLURAL COSTS ZERO NEW STRINGS AND THAT IS THE POINT. b2_participle_pass fenced the plural as 'a homograph inside the paradigm rather than a scope choice' - zamkniete/otwarte/zrobione/napisane/ugotowane/zaplacone were all taught there as NEUTER SINGULARS and are ALSO the non-virile plural. So slide 3 does not teach a form, it names a second job on six strings the learner already produces, on the adj_pl_loc / adj_pl_dat / ktory_plural convention (new job on an owned string is named, never re-taught, and teaches_lemmas stays clean). This is exactly the homograph AGENTS says to keep out until it can be named; this is where it is named.\n\nTHE VIRILE PLURAL IS NAMED BUT NOT DEMANDED, AND THE SPINE'S THREE EXAMPLES ARE NOT THE ONES BUILT. C1-SPINE names zamknieci, otwarci and zrobieni. Only zrobieni is here, it is recognition-only, it appears on ONE slide and in NO stage, and the slide says out loud why: these participles describe THINGS, so the men-group form of them is genuinely rare. zamknieci ('locked up, of men') and otwarci ('open, of men' - in Polish an emotional sense) are not built at all, because neither has a sentence this learner would ever say and neither has a taught virile noun that collocates. This is the c1_adj_pl_virile precedent applied one block later, where mali and duzi were dropped for the same reason and logged: a spine example is a sketch, not a licence. The -ni move itself is NOT new - zmeczeni <- c1_adj_pl_virile [190] is the owned example and slide 5 leans on it.\n\nzapisani WAS DRAFTED AND CUT, logged because it is the strongest alternative if James wants a live virile participle. zapisac is TAUGHT (b2_pisac_family), zapisany would follow the -ac -> -any rule the learner may apply, and 'Studenci sa zapisani na kurs' is ordinary Polish with a taught virile noun and a taught governor (na + Accusative, c1_na_acc [204]). It was cut because it costs a NEW LEXEME in a unit whose whole claim is that it costs no new endings, and because C1-SPINE never named it. One word if he wants it.\n\nCASE COVERAGE IS NOMINATIVE, ACCUSATIVE, GENITIVE AND LOCATIVE, and the gaps are lexical rather than chosen. The masculine -ym string covers Locative, Instrumental and Dative at once and is taught in its Locative job; no attributive participle appears in the Instrumental or the Dative because NO TAUGHT NOUN SUPPORTS ONE - kawa, walizka and zupa have no taught Instrumental (kawa was flagged as untaught in b2_which_case's own build), and 'dziekuje zamknietemu sklepowi' is not a sentence. Slide 2's table therefore shows four cells per gender and says so.\n\nzamknieta and otwarta (fem Accusative) ARE NOT TAUGHT, for the same lexical reason: apteke, kuchnie and szkole-as-Accusative are all untaught, so there is no feminine noun a shop-door adjective can take in the Accusative. ugotowana carries the feminine Accusative instead, on zupe <- trunk_want_like_a1 [23], and it is the pack's only -owac participle in an oblique case.\n\nTHE -ony CLASS HAS NO OBLIQUE FORM HERE, logged: zrobionym and zaplaconym are both real and both wanted a noun the course does not own in the right case (rachunku, listu, zdjecia and zadania are all verified NEW). zrobione appears only in its owned neuter-singular job and as the named non-virile plural.\n\nNOUN DISCIPLINE, checked pack by pack rather than by eye: apteki is used ONLY as the Genitive a1_gen_ki [39] taught (never as a plural); kurtki was rejected as a plural noun for the same reason, being a Genitive there; kuchni is the Locative b2_fem_soft [135] taught; okna, sklepy, banki, hotele, biura are a2_plural_nom [56] Nominative plurals in exactly that job; chleba is b2_neg_gen [162]'s; ludzi is c1_irreg_virile [201]'s. aptece, listy, zdjecia, zadania, rachunku and nikogo were all wanted at some point in drafting and all rejected as NEW.\n\nFENCED, verified NEW and appearing NOWHERE - not on a slide, not as a distractor: pracujacy and the whole active participle (c1_part_active, the very next node); robiac and zrobiwszy (c1_part_adv); zostac / zostal / zostanie and the dynamic passive (c1_zostac, three nodes on). Slide 6 names the first and the third in ENGLISH ONLY, with no Polish form, so the learner knows where the edge is without meeting the material.\n\nPISANIE IS TEN PATTERN PHRASES, every one two or three words and every one a phrase rather than a composed sentence, so the queue's cloze rule is satisfied by shape and not by exception - the minimal pattern unit for this unit IS preposition + participle + noun, which is the b2_which_case / adj_pl_gen precedent ('dobrych filmow', 'w domu'). No duplicate answers in any stage. Uzycie is ten real sentences, seven with a noun subject; the three that open with preposition + noun carry the fronted-adverbial accepts AGENTS requires.\n\nzrobieni is in teaches_lemmas although no prompt demands it, because the unit does put the string on screen and a later pack must be able to see that it is owned.",
+  "focus_structures": [
+    "part_attrib"
+  ],
+  "teaches_structures": [
+    "part_attrib"
+  ],
+  "teaches_lemmas": [
+    "zamkniętym",
+    "zamkniętego",
+    "zamkniętej",
+    "zamkniętych",
+    "otwartym",
+    "otwartego",
+    "otwartej",
+    "otwartych",
+    "ugotowaną",
+    "zrobieni"
+  ],
+  "uses_structures": [
+    "part_attrib",
+    "participle_pass",
+    "adj_acc",
+    "adj_gen",
+    "adj_loc",
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_virile",
+    "zgoda",
+    "byc_present",
+    "byc_adj",
+    "to_jest",
+    "plural_nom",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_place",
+    "gen_endings",
+    "gen_pl",
+    "loc_pl",
+    "neg_gen",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_uje",
+    "present_e_isz",
+    "chodzic",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "The same word, moved in front of the noun",
+      "title_pl": "zamknięty sklep",
+      "body": "Since B2 you have been putting these words after jest:\n\nSklep jest zamknięty. — The shop is closed.\n\nPolish also puts them straight in front of the noun, in the slot where an adjective goes:\n\nzamknięty sklep — a closed shop\n\nNothing about the word changes when it moves. What changes is what happens next: standing in front of a noun, it now belongs to a phrase, and a phrase carries a case. So when that phrase goes after w, both words move together.\n\nW zamkniętym sklepie nie ma chleba.\n\nThis is the whole unit. The participle is not a special kind of word with rules of its own — it is an adjective, and you finished learning the adjective's endings some time ago.",
+      "body_pl": "Imiesłów przed rzeczownikiem — odmienia się jak przymiotnik.",
+      "examples": [
+        {
+          "en": "The shop is closed.",
+          "pl": "Sklep jest zamknięty."
+        },
+        {
+          "en": "This is a closed shop.",
+          "pl": "To jest zamknięty sklep."
+        },
+        {
+          "en": "There is no bread in the closed shop.",
+          "pl": "W zamkniętym sklepie nie ma chleba."
+        },
+        {
+          "en": "I am going to the open shop.",
+          "pl": "Idę do otwartego sklepu."
+        }
+      ]
+    },
+    {
+      "title": "The endings are the ones you already produce",
+      "title_pl": "dobry sklep → zamknięty sklep",
+      "body": "Put dobry and zamknięty side by side and there is nothing to learn. Whatever dobry does in a given case, the participle does.\n\nFour cases are shown here because four are what the nouns in this course can carry. The masculine -ym you see in the Locative is the same string the Instrumental and the Dative use, so learning it once is learning it three times — but this unit demonstrates it only after w and o, where you have nouns to put it on.\n\nRead the table as two columns of the same word.",
+      "body_pl": "Końcówki przymiotnika: -ego, -ym, -ej, -ą.",
+      "table": {
+        "headers": [
+          "Case",
+          "You already say",
+          "So you can say"
+        ],
+        "rows": [
+          [
+            "Nominative m",
+            "dobry sklep",
+            "zamknięty sklep"
+          ],
+          [
+            "Genitive m",
+            "do dobrego sklepu",
+            "do zamkniętego sklepu"
+          ],
+          [
+            "Locative m",
+            "w dobrym sklepie",
+            "w zamkniętym sklepie"
+          ],
+          [
+            "Genitive f",
+            "do dobrej apteki",
+            "do otwartej apteki"
+          ],
+          [
+            "Locative f",
+            "w dobrej kuchni",
+            "w zamkniętej kuchni"
+          ],
+          [
+            "Accusative f",
+            "dobrą zupę",
+            "ugotowaną zupę"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The plural was there all along — it is a word you already type",
+      "title_pl": "Biuro jest zamknięte. · Sklepy są zamknięte.",
+      "body": "When you learned these words you learned zamknięte as the neuter singular, and that is what it was: Biuro jest zamknięte.\n\nThe same string is also the plural — for everything that is not a group of men. So Sklepy są zamknięte and Okna są otwarte need no new form from you at all; they need you to accept that one word is doing two jobs.\n\nThis was held back deliberately when the participles were first taught, because a form that means two things is worth meeting once, with both meanings named, rather than twice by accident.\n\nIn front of a noun it behaves the same way: zamknięte sklepy, otwarte banki.",
+      "body_pl": "-e: rodzaj nijaki w liczbie pojedynczej i liczba mnoga.",
+      "table": {
+        "headers": [
+          "Neuter singular",
+          "Plural"
+        ],
+        "rows": [
+          [
+            "Biuro jest zamknięte.",
+            "Sklepy są zamknięte."
+          ],
+          [
+            "Okno jest otwarte.",
+            "Okna są otwarte."
+          ],
+          [
+            "Zadanie jest zrobione.",
+            "Gazety są napisane."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "In the plural the oblique ending is -ych, which Block 2 gave you",
+      "title_pl": "dużo zamkniętych sklepów",
+      "body": "The plural has one ending for the Genitive and the Locative alike, and you produced it for four units at the start of this level: dobrych, nowych, małych, dużych.\n\nThe participle takes the same one.\n\ndużo zamkniętych sklepów — a lot of closed shops\nw zamkniętych sklepach — in the closed shops\n\nBoth words in the phrase move, exactly as they did with dobrych. The quantity word or the preposition decides the case; the ending on the participle is then not a choice.",
+      "body_pl": "Liczba mnoga: -ych po dużo i po w.",
+      "examples": [
+        {
+          "en": "There are a lot of closed shops in the centre.",
+          "pl": "W centrum jest dużo zamkniętych sklepów."
+        },
+        {
+          "en": "There are no people in the closed shops.",
+          "pl": "W zamkniętych sklepach nie ma ludzi."
+        },
+        {
+          "en": "I do not like closed shops.",
+          "pl": "Nie lubię zamkniętych sklepów."
+        },
+        {
+          "en": "In the open shops there is bread.",
+          "pl": "W otwartych sklepach jest chleb."
+        }
+      ]
+    },
+    {
+      "title": "The men-group form exists, and you will almost never need it",
+      "title_pl": "zrobione · zrobieni",
+      "body": "The plural splits the way you learned in Block 2: one form for a group that includes a man, another for everything else. The participle splits too, and the men-group ending is the -i you already met on zmęczeni.\n\nzrobione — everything else\nzrobieni — a group with a man in it\n\nHere is the honest part. The participles in this course describe things: shops, offices, letters, soup, bills. Things are never a group of men. So you can read zrobieni and know what it is, and you are not asked to produce it anywhere in this unit — there is no sentence in your Polish that wants it yet.\n\nWhat is worth keeping is the shape, because it is the same one you already make: zmęczony → zmęczeni, zrobiony → zrobieni.",
+      "body_pl": "Forma męskoosobowa: -eni. Rzadka przy tych imiesłowach.",
+      "table": {
+        "headers": [
+          "Everything else",
+          "Group with a man in it"
+        ],
+        "rows": [
+          [
+            "zmęczone",
+            "zmęczeni"
+          ],
+          [
+            "zrobione",
+            "zrobieni"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where the edge is",
+      "title_pl": "Tylko imiesłów bierny",
+      "body": "Two limits, both deliberate.\n\nFirst: every participle in this unit is the done-to kind. The shop was closed by somebody; the soup was cooked by somebody. Polish also has a participle for the one who is doing the acting — the working doctor, the reading student — and that is the next unit, not this one.\n\nSecond: everything here still describes how things stand. Sklep jest zamknięty tells you the state of the shop, not the moment somebody closed it. Polish has a second way of saying it that puts the closing itself on stage, and it needs a verb you have not met. It arrives later in this block.\n\nSo for now: a done-to participle, in front of a noun or after jest, agreeing in gender, number and case — and no new ending anywhere in it.",
+      "body_pl": "Imiesłów bierny — stan, nie moment.",
+      "examples": [
+        {
+          "en": "The chemist's is near the closed bank.",
+          "pl": "Apteka jest blisko zamkniętego banku."
+        },
+        {
+          "en": "Mum has soup cooked.",
+          "pl": "Mama ma ugotowaną zupę."
+        },
+        {
+          "en": "The cat is in the closed kitchen.",
+          "pl": "Kot jest w zamkniętej kuchni."
+        },
+        {
+          "en": "The banks are closed, but the shops are open.",
+          "pl": "Banki są zamknięte, ale sklepy są otwarte."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "in the closed shop",
+      "pl": "w zamkniętym sklepie"
+    },
+    {
+      "en": "in the open shop",
+      "pl": "w otwartym sklepie"
+    },
+    {
+      "en": "to the open shop",
+      "pl": "do otwartego sklepu"
+    },
+    {
+      "en": "to the closed bank",
+      "pl": "do zamkniętego banku"
+    },
+    {
+      "en": "in the closed kitchen",
+      "pl": "w zamkniętej kuchni"
+    },
+    {
+      "en": "to the open chemist's",
+      "pl": "do otwartej apteki"
+    },
+    {
+      "en": "the closed shops",
+      "pl": "zamknięte sklepy"
+    },
+    {
+      "en": "the open banks",
+      "pl": "otwarte banki"
+    },
+    {
+      "en": "a lot of closed shops",
+      "pl": "dużo zamkniętych sklepów"
+    },
+    {
+      "en": "in the open shops",
+      "pl": "w otwartych sklepach"
+    },
+    {
+      "en": "cooked soup (as an object)",
+      "pl": "ugotowaną zupę"
+    },
+    {
+      "en": "a closed office",
+      "pl": "zamknięte biuro"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "W ___ sklepie nie ma chleba. (closed)",
+      "choices": [
+        "zamkniętym",
+        "zamknięty",
+        "zamkniętego",
+        "zamknięte"
+      ],
+      "answer": "zamkniętym",
+      "explain": "w puts the phrase in the Locative, so the participle takes -ym — the same ending dobry takes in w dobrym sklepie."
+    },
+    {
+      "prompt": "Idę do ___ sklepu. (open)",
+      "choices": [
+        "otwartego",
+        "otwarty",
+        "otwartym",
+        "otwarte"
+      ],
+      "answer": "otwartego",
+      "explain": "do demands the Genitive, and sklepu is already in it. The word in front has to follow."
+    },
+    {
+      "prompt": "Mama idzie do ___ apteki. (open)",
+      "choices": [
+        "otwartej",
+        "otwarta",
+        "otwartego",
+        "otwartym"
+      ],
+      "answer": "otwartej",
+      "explain": "apteka is feminine, so the Genitive ending is -ej. otwartego is the masculine form of the same case."
+    },
+    {
+      "prompt": "Kot jest w ___ kuchni. (closed)",
+      "choices": [
+        "zamkniętej",
+        "zamknięta",
+        "zamkniętym",
+        "zamknięte"
+      ],
+      "answer": "zamkniętej",
+      "explain": "Feminine again, and the feminine uses one string -ej for the Genitive and the Locative alike."
+    },
+    {
+      "prompt": "Sklepy są ___. (closed)",
+      "choices": [
+        "zamknięte",
+        "zamknięty",
+        "zamknięta",
+        "zamkniętych"
+      ],
+      "answer": "zamknięte",
+      "explain": "The plural, and it is the string you already type for the neuter singular. One word, two jobs."
+    },
+    {
+      "prompt": "W centrum jest dużo ___ sklepów. (closed)",
+      "choices": [
+        "zamkniętych",
+        "zamknięte",
+        "zamkniętego",
+        "zamknięty"
+      ],
+      "answer": "zamkniętych",
+      "explain": "dużo takes the Genitive plural, so both words move — exactly as in dużo dobrych filmów."
+    },
+    {
+      "prompt": "W ___ sklepach nie ma ludzi. (closed)",
+      "choices": [
+        "zamkniętych",
+        "zamknięte",
+        "zamkniętym",
+        "zamkniętej"
+      ],
+      "answer": "zamkniętych",
+      "explain": "Same string as the last item, different case: the plural Locative is -ych too, which is why sklepach can sit beside it without anything else changing."
+    },
+    {
+      "prompt": "Mama ma ___ zupę. (cooked)",
+      "choices": [
+        "ugotowaną",
+        "ugotowana",
+        "ugotowane",
+        "ugotowany"
+      ],
+      "answer": "ugotowaną",
+      "explain": "zupę is an object, so the Accusative — and the feminine Accusative ending is -ą, the one dobrą has."
+    },
+    {
+      "prompt": "To jest ___ biuro. (closed)",
+      "choices": [
+        "zamknięte",
+        "zamknięty",
+        "zamknięta",
+        "zamkniętych"
+      ],
+      "answer": "zamknięte",
+      "explain": "biuro is neuter, so -e. Here it is the singular; the plural of the same word looks identical."
+    },
+    {
+      "prompt": "Apteka jest blisko ___ banku. (closed)",
+      "choices": [
+        "zamkniętego",
+        "zamknięty",
+        "zamkniętym",
+        "zamknięte"
+      ],
+      "answer": "zamkniętego",
+      "explain": "blisko is a Genitive trigger, the same one you have had since A1 in blisko apteki."
+    },
+    {
+      "prompt": "Banki są ___. (open)",
+      "choices": [
+        "otwarte",
+        "otwarty",
+        "otwarta",
+        "otwartych"
+      ],
+      "answer": "otwarte",
+      "explain": "Plural, and banki is not a group of men, so it is the -e form."
+    },
+    {
+      "prompt": "Tata kupuje chleb w ___ sklepie. (open)",
+      "choices": [
+        "otwartym",
+        "otwarty",
+        "otwartego",
+        "otwarte"
+      ],
+      "answer": "otwartym",
+      "explain": "The Locative once more. Only the shop is being described — chleb is the object and has nothing to do with this ending."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "in the closed shop",
+      "mode": "full_word",
+      "answer": "w zamkniętym sklepie",
+      "accepts": [
+        "w zamkniętym sklepie"
+      ],
+      "explain": "The Locative on both words."
+    },
+    {
+      "prompt_en": "in the open shop",
+      "mode": "full_word",
+      "answer": "w otwartym sklepie",
+      "accepts": [
+        "w otwartym sklepie"
+      ]
+    },
+    {
+      "prompt_en": "to the open shop",
+      "mode": "full_word",
+      "answer": "do otwartego sklepu",
+      "accepts": [
+        "do otwartego sklepu"
+      ],
+      "explain": "do is a Genitive trigger, so -ego."
+    },
+    {
+      "prompt_en": "to the closed bank",
+      "mode": "full_word",
+      "answer": "do zamkniętego banku",
+      "accepts": [
+        "do zamkniętego banku"
+      ]
+    },
+    {
+      "prompt_en": "in the closed kitchen",
+      "mode": "full_word",
+      "answer": "w zamkniętej kuchni",
+      "accepts": [
+        "w zamkniętej kuchni"
+      ],
+      "explain": "kuchnia is feminine, so -ej."
+    },
+    {
+      "prompt_en": "to the open chemist's",
+      "mode": "full_word",
+      "answer": "do otwartej apteki",
+      "accepts": [
+        "do otwartej apteki"
+      ]
+    },
+    {
+      "prompt_en": "a lot of closed shops",
+      "mode": "full_word",
+      "answer": "dużo zamkniętych sklepów",
+      "accepts": [
+        "dużo zamkniętych sklepów"
+      ],
+      "explain": "The Genitive plural, both words."
+    },
+    {
+      "prompt_en": "in the open shops",
+      "mode": "full_word",
+      "answer": "w otwartych sklepach",
+      "accepts": [
+        "w otwartych sklepach"
+      ],
+      "explain": "The plural Locative uses the same -ych as the Genitive."
+    },
+    {
+      "prompt_en": "cooked soup (as an object)",
+      "mode": "full_word",
+      "answer": "ugotowaną zupę",
+      "accepts": [
+        "ugotowaną zupę"
+      ]
+    },
+    {
+      "prompt_en": "the closed shops",
+      "mode": "full_word",
+      "answer": "zamknięte sklepy",
+      "accepts": [
+        "zamknięte sklepy"
+      ],
+      "explain": "No new form to make — this is the word you already type for a neuter singular."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: There is no bread in the closed shop.",
+      "answer": "W zamkniętym sklepie nie ma chleba.",
+      "accepts": [
+        "W zamkniętym sklepie nie ma chleba.",
+        "W zamkniętym sklepie nie ma chleba",
+        "Nie ma chleba w zamkniętym sklepie.",
+        "Nie ma chleba w zamkniętym sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to the open chemist's.",
+      "answer": "Mama idzie do otwartej apteki.",
+      "accepts": [
+        "Mama idzie do otwartej apteki.",
+        "Mama idzie do otwartej apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad buys bread in the open shop.",
+      "answer": "Tata kupuje chleb w otwartym sklepie.",
+      "accepts": [
+        "Tata kupuje chleb w otwartym sklepie.",
+        "Tata kupuje chleb w otwartym sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I do not like closed shops.",
+      "answer": "Nie lubię zamkniętych sklepów.",
+      "accepts": [
+        "Nie lubię zamkniętych sklepów.",
+        "Nie lubię zamkniętych sklepów"
+      ],
+      "explain": "lubić takes an object, and the plural object here is the Genitive plural under the negation."
+    },
+    {
+      "prompt_en": "Type: There are a lot of closed shops in the centre.",
+      "answer": "W centrum jest dużo zamkniętych sklepów.",
+      "accepts": [
+        "W centrum jest dużo zamkniętych sklepów.",
+        "W centrum jest dużo zamkniętych sklepów",
+        "Jest dużo zamkniętych sklepów w centrum.",
+        "Jest dużo zamkniętych sklepów w centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has soup cooked.",
+      "answer": "Mama ma ugotowaną zupę.",
+      "accepts": [
+        "Mama ma ugotowaną zupę.",
+        "Mama ma ugotowaną zupę"
+      ],
+      "explain": "The participle is describing the soup, so it agrees with it — feminine, and in the Accusative because the soup is the object."
+    },
+    {
+      "prompt_en": "Type: The banks are closed, but the shops are open.",
+      "answer": "Banki są zamknięte, ale sklepy są otwarte.",
+      "accepts": [
+        "Banki są zamknięte, ale sklepy są otwarte.",
+        "Banki są zamknięte, ale sklepy są otwarte"
+      ],
+      "explain": "Two plurals, neither of them a group of men, so both take -e."
+    },
+    {
+      "prompt_en": "Type: The cat is in the closed kitchen.",
+      "answer": "Kot jest w zamkniętej kuchni.",
+      "accepts": [
+        "Kot jest w zamkniętej kuchni.",
+        "Kot jest w zamkniętej kuchni"
+      ]
+    },
+    {
+      "prompt_en": "Type: The chemist's is near the closed bank.",
+      "answer": "Apteka jest blisko zamkniętego banku.",
+      "accepts": [
+        "Apteka jest blisko zamkniętego banku.",
+        "Apteka jest blisko zamkniętego banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are no people in the closed shops.",
+      "answer": "W zamkniętych sklepach nie ma ludzi.",
+      "accepts": [
+        "W zamkniętych sklepach nie ma ludzi.",
+        "W zamkniętych sklepach nie ma ludzi",
+        "Nie ma ludzi w zamkniętych sklepach.",
+        "Nie ma ludzi w zamkniętych sklepach"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "zamknięty",
+    "zamknięta",
+    "zamknięte",
+    "otwarty",
+    "otwarta",
+    "otwarte",
+    "zrobione",
+    "napisane",
+    "ugotowana",
+    "zmęczeni",
+    "zmęczone",
+    "dobry",
+    "dobrego",
+    "dobrym",
+    "dobrej",
+    "dobrą",
+    "dobrych",
+    "nowych",
+    "małych",
+    "dużych",
+    "sklep",
+    "sklepie",
+    "sklepu",
+    "sklepy",
+    "sklepach",
+    "sklepów",
+    "bank",
+    "banku",
+    "banki",
+    "biuro",
+    "apteka",
+    "apteki",
+    "kuchni",
+    "okno",
+    "okna",
+    "gazety",
+    "zadanie",
+    "zupa",
+    "zupę",
+    "chleb",
+    "chleba",
+    "centrum",
+    "ludzi",
+    "kot",
+    "mama",
+    "tata",
+    "jest",
+    "są",
+    "mam",
+    "ma",
+    "idę",
+    "idzie",
+    "kupuje",
+    "lubię",
+    "dużo",
+    "blisko",
+    "nie ma",
+    "ale",
+    "w domu",
+    "w pracy",
+    "do apteki",
+    "do sklepu",
+    "do banku"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_part_attrib",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

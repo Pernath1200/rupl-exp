@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "lang": "pl",
+    "description": "Thin PL unit registry for RUPL family. Topology universal; units language-specific.",
+    "topology": "topology.json",
+    "parent_model": "rue-codex (EN)",
+    "counts": {
+      "grammar": 11,
+      "vocab": 9
+    }
+  },
+  "units": [
+    {
+      "unit_id": "G_PL_FORM-A1-01",
+      "type": "grammar",
+      "title": "Gender + to jest (Nom)",
+      "tree_part": "forms",
+      "label_pl": "Formy",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_gender"
+      ]
+    },
+    {
+      "unit_id": "G_PL_FORM-A1-01b",
+      "type": "grammar",
+      "title": "My / your possessives (Nom)",
+      "tree_part": "forms",
+      "label_pl": "Formy",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_poss_simple"
+      ]
+    },
+    {
+      "unit_id": "G_PL_FORM-A1-02",
+      "type": "grammar",
+      "title": "Noun–adjective agreement (dobry/a/e)",
+      "tree_part": "forms",
+      "label_pl": "Formy",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_gender_check"
+      ]
+    },
+    {
+      "unit_id": "G_PL_FORM-A1-03",
+      "type": "grammar",
+      "title": "Accusative light (f -ę)",
+      "tree_part": "forms",
+      "label_pl": "Formy",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_miec",
+        "a1_acc_gym"
+      ]
+    },
+    {
+      "unit_id": "G_PL_VP-A1-01",
+      "type": "grammar",
+      "title": "Być present grid",
+      "tree_part": "verbs",
+      "label_pl": "Czasowniki",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_hello"
+      ]
+    },
+    {
+      "unit_id": "G_PL_VP-A1-02",
+      "type": "grammar",
+      "title": "Present person endings",
+      "tree_part": "verbs",
+      "label_pl": "Czasowniki",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_present",
+        "a1_present_gym"
+      ]
+    },
+    {
+      "unit_id": "G_PL_VP-A1-03",
+      "type": "grammar",
+      "title": "Mieć present",
+      "tree_part": "verbs",
+      "label_pl": "Czasowniki",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "a1_miec"
+      ]
+    },
+    {
+      "unit_id": "G_PL_TAP-A1-01",
+      "type": "grammar",
+      "title": "Foundation / sentence seed",
+      "tree_part": "tap_root",
+      "label_pl": "Kół",
+      "band": "A1B1",
+      "status": "drafted",
+      "app_ref": []
+    },
+    {
+      "unit_id": "G_PL_SS-A1-01",
+      "type": "grammar",
+      "title": "Questions & word order light",
+      "tree_part": "sentence",
+      "label_pl": "Zdanie",
+      "band": "A1B1",
+      "status": "planned",
+      "app_ref": [
+        "a1_questions",
+        "a1_word_order"
+      ]
+    },
+    {
+      "unit_id": "G_PL_PP-A1-01",
+      "type": "grammar",
+      "title": "Place prepositions + form",
+      "tree_part": "links",
+      "label_pl": "Spójniki",
+      "band": "A1B1",
+      "status": "planned",
+      "app_ref": [
+        "a1_prep_place"
+      ]
+    },
+    {
+      "unit_id": "G_PL_VP-A2-01",
+      "type": "grammar",
+      "title": "Past person × gender",
+      "tree_part": "verbs",
+      "label_pl": "Czasowniki",
+      "band": "A1B1",
+      "status": "planned",
+      "app_ref": [
+        "a2_past_endings"
+      ]
+    },
+    {
+      "unit_id": "V_PL_COR-A1-01",
+      "type": "vocab",
+      "title": "Core frames · social",
+      "tree_part": "trunk",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "trunk_social_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_COR-A1-02",
+      "type": "vocab",
+      "title": "Core frames · be/have",
+      "tree_part": "trunk",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "trunk_be_have_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_COR-A1-03",
+      "type": "vocab",
+      "title": "Core frames · want/like",
+      "tree_part": "trunk",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "trunk_want_like_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_HOM-A1-01",
+      "type": "vocab",
+      "title": "Dom i rodzina",
+      "tree_part": "home_family",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_home_family"
+      ]
+    },
+    {
+      "unit_id": "V_PL_FOOD-A1-01",
+      "type": "vocab",
+      "title": "Jedzenie i picie",
+      "tree_part": "food_shopping",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_food_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_FREE-A1-01",
+      "type": "vocab",
+      "title": "Czas wolny",
+      "tree_part": "free_time",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_freetime_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_CITY-A1-01",
+      "type": "vocab",
+      "title": "Miasto i transport",
+      "tree_part": "travel_city",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_city_a1"
+      ]
+    },
+    {
+      "unit_id": "V_PL_PLACE-A1-01",
+      "type": "vocab",
+      "title": "Miejsca",
+      "tree_part": "travel_city",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_places"
+      ]
+    },
+    {
+      "unit_id": "V_PL_WRK-A1-01",
+      "type": "vocab",
+      "title": "Praca",
+      "tree_part": "work_routine",
+      "band": "A1B1",
+      "status": "app-integrated",
+      "app_ref": [
+        "leaf_work_a1"
+      ]
+    }
+  ]
+}

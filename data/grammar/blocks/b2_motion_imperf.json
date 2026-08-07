@@ -1,0 +1,658 @@
+{
+  "id": "b2_motion_imperf",
+  "title": "Wychodzę · przychodzę",
+  "title_en": "Leaving & arriving · every day",
+  "level": "B2",
+  "tree_node": "b2_motion_imperf",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 6a unit 1 (JAMES-LOCKED 2026-08-06, O7 overrule). The secondary-imperfective bridge: the everyday partners of the once-and-done arrive/leave verbs b1_arrive_leave taught. Locked decision #4 is honoured literally - the pairs are handed over as MEMORIZED WHOLE TWINS and the -ywa-/-iwa-/-a- formation rule is NOT stated anywhere in this pack; slide 2 says the opposite out loud ('you cannot work one out from the other'), restating a2_aspect's standing framing. C1 names the rule.\n\nTHE SPINE'S PREMISE WAS PARTLY WRONG AND THIS UNIT CORRECTS IT - the first thing for James to know. B2-SPINE and the tree node both list wychodzic as new material to be taught here. check_new.py says wychodzic / wychodze / wychodzisz have been TAUGHT SINCE a2_routine [path 74], where they were handed over as an ordinary daily-routine verb ('Wychodze do pracy'), 1sg + 2sg only, with no partner and no aspect framing at all - and a2_routine's own fence list explicitly reserves 'the habitual partner of any prefixed motion verb'. This is a gift rather than a problem and the unit is built on it: the anchor is that Dad has been using one half of this system every day since A2 without knowing it had a partner, so slide 1 introduces the whole idea with a verb he already owns. Only the 3sg wychodzi is new on that verb.\n\nAUTHOR'S CALL, logged, on the spine's explicit option ('+ wyjezdzac/przyjezdzac if load allows - author's call'): the vehicle pair IS INCLUDED. Reasons: it costs 2 new verbs and ZERO new endings (both run on the -am/-asz class owned since mieszkam), it completes the on-foot/by-vehicle grid b2_jezdzic built three units earlier, and it adds no second system - it is the same one system applied to two more pairs, which load-splitting permits. Total new forms: 13.\n\nFENCED, all deliberate: (a) THE ENTIRE PAST of these imperfectives - check_new shows chodzilem itself is NEW, so wychodzilem/przychodzilem would open the whole -ic past as a second new system in one unit; the unit is present-tense only and the aspect contrast is carried by the owned perfective pasts instead. (b) ALL PLURAL, matching b1_arrive_leave's own singular-only design; oni/one never appear. (c) The imperfective future (bede wychodzic) - b1_two_futures owns that contrast. (d) Any jezdzic vs wyjezdzac contrast: both are imperfective vehicle verbs but they are different verbs, and setting them against each other would open an axis this unit does not teach; wyjezdzac is kept strictly paired with wyjechac, and jezdzic is not mentioned. (e) No prefix MEANING is claimed anywhere - wy- and przy- belong to b2_prefix_lens two units later, and this pack deliberately leaves that material alone.\n\nHOMOGRAPH CATCH worth recording: 'do Polski' was drafted and REJECTED. check_new reports Polski as TAUGHT (a2_countries), but that pack teaches it as the ADJECTIVE polski (jezyk polski) and its own note says it deliberately avoided the genitive Polski because it 'collides visually with the adjective'. The genitive is therefore not owned, and every destination in this pack is a chunk a1_prep_do_z or a1_prep_review_2 teaches whole: do pracy, do domu, do biura, do szkoly, z domu. Also rejected as untaught: Warszawy, dworca, w piatek, zwykle, zaraz, pieszo.\n\nDopasuj is a balanced 4x3 board - each of the four everyday verbs contributes ja / ty / on-ona, so the board IS the paradigm. The four infinitives are not on the board (12-row cap) and are produced in Pisanie instead. Pisanie is 16 single forms typed whole, every one a single word and so inside the James hard cap.",
+  "focus_structures": [
+    "motion_imperf"
+  ],
+  "teaches_structures": [
+    "motion_imperf"
+  ],
+  "uses_structures": [
+    "motion_imperf",
+    "motion_prefixed",
+    "chodzic",
+    "aspect_past",
+    "perf_future",
+    "past_isc",
+    "past_ac",
+    "present_e_isz",
+    "present_am",
+    "prep_do_gen",
+    "prep_z_gen",
+    "ordinals_time",
+    "inst_transport",
+    "musiec",
+    "conjunctions",
+    "question",
+    "questions2"
+  ],
+  "intro": [
+    {
+      "title": "One of these you already had",
+      "title_pl": "Para czasowników",
+      "body": "You have been using one half of today's system every single day since A2, without being told it had a partner.\n\nWychodzę do pracy. — that is the everyday one. It is what you do every morning.\nWyszedłem o ósmej. — that is the once-and-done one you learned at B1.\n\nEvery arrive-and-leave verb comes in a pair like that, exactly the way robić and zrobić do. One member is for what happens over and over. The other is for one single finished event.\n\nYou already own the whole right-hand column. This unit gives you the left one.",
+      "body_pl": "Czasownik codzienny i czasownik jednorazowy — zawsze para.",
+      "table": {
+        "headers": [
+          "every day",
+          "once, and done",
+          "what it is about"
+        ],
+        "rows": [
+          [
+            "wychodzę",
+            "wyszedłem · wyjdę",
+            "leaving, on foot"
+          ],
+          [
+            "przychodzę",
+            "przyszedłem · przyjdę",
+            "arriving, on foot"
+          ],
+          [
+            "wyjeżdżam",
+            "wyjechałem · wyjadę",
+            "leaving, by car or train"
+          ],
+          [
+            "przyjeżdżam",
+            "przyjechałem · przyjadę",
+            "arriving, by car or train"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Learn the pair whole",
+      "title_pl": "Para w całości",
+      "body": "The piece on the front — wy-, przy- — stays put across the pair. What changes is the rest of the word, and it changes in a way you cannot work out:\n\nwyjść becomes wychodzić. wyjechać becomes wyjeżdżać.\n\nThere is no sum you can do to get from one to the other. So do exactly what you have done since A2 with kupować and kupić: learn the two words together, as one pair, and never build one of them out of the other.",
+      "body_pl": "Uczymy się pary razem — drugiego czasownika nie da się zbudować z pierwszego."
+    },
+    {
+      "title": "The endings are all ones you own",
+      "title_pl": "Końcówki — nic nowego",
+      "body": "Nothing new has to be learned about the endings. Each everyday verb runs on a class you have had for a long time.",
+      "body_pl": "Dwie znane klasy: -ę/-isz oraz -am/-asz.",
+      "table": {
+        "headers": [
+          "verb",
+          "runs like",
+          "ja · ty · on/ona"
+        ],
+        "rows": [
+          [
+            "wychodzić",
+            "chodzę (-ę / -isz)",
+            "wychodzę · wychodzisz · wychodzi"
+          ],
+          [
+            "przychodzić",
+            "chodzę (-ę / -isz)",
+            "przychodzę · przychodzisz · przychodzi"
+          ],
+          [
+            "wyjeżdżać",
+            "mieszkam (-am / -asz)",
+            "wyjeżdżam · wyjeżdżasz · wyjeżdża"
+          ],
+          [
+            "przyjeżdżać",
+            "mieszkam (-am / -asz)",
+            "przyjeżdżam · przyjeżdżasz · przyjeżdża"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which one, when?",
+      "title_pl": "Który czasownik?",
+      "body": "The words around the verb usually tell you which half you need.\n\ncodziennie, zawsze, często — over and over, so the everyday verb.\njutro, wczoraj, dzisiaj, or a clock time on one particular day — one single event, so the once-and-done verb.",
+      "body_pl": "codziennie, zawsze, często → codzienny · wczoraj, jutro → jednorazowy",
+      "examples": [
+        {
+          "pl": "Codziennie wychodzę o siódmej.",
+          "en": "I leave at seven every day."
+        },
+        {
+          "pl": "Wczoraj wyszedłem o ósmej.",
+          "en": "Yesterday I left at eight."
+        },
+        {
+          "pl": "Tata przyjeżdża pociągiem.",
+          "en": "Dad comes by train. (that is how he always comes)"
+        },
+        {
+          "pl": "Tata przyjedzie jutro.",
+          "en": "Dad will arrive tomorrow. (one arrival, still to come)"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I leave, go out (on foot, every day)",
+      "pl": "wychodzę"
+    },
+    {
+      "en": "you leave, go out (on foot, every day)",
+      "pl": "wychodzisz"
+    },
+    {
+      "en": "he or she leaves, goes out (on foot, every day)",
+      "pl": "wychodzi"
+    },
+    {
+      "en": "I come, arrive (on foot, every day)",
+      "pl": "przychodzę"
+    },
+    {
+      "en": "you come, arrive (on foot, every day)",
+      "pl": "przychodzisz"
+    },
+    {
+      "en": "he or she comes, arrives (on foot, every day)",
+      "pl": "przychodzi"
+    },
+    {
+      "en": "I set off, leave (by vehicle, every day)",
+      "pl": "wyjeżdżam"
+    },
+    {
+      "en": "you set off, leave (by vehicle, every day)",
+      "pl": "wyjeżdżasz"
+    },
+    {
+      "en": "he or she sets off, leaves (by vehicle, every day)",
+      "pl": "wyjeżdża"
+    },
+    {
+      "en": "I arrive (by vehicle, every day)",
+      "pl": "przyjeżdżam"
+    },
+    {
+      "en": "you arrive (by vehicle, every day)",
+      "pl": "przyjeżdżasz"
+    },
+    {
+      "en": "he or she arrives (by vehicle, every day)",
+      "pl": "przyjeżdża"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Codziennie ___ do pracy o ósmej.",
+      "choices": [
+        "wychodzę",
+        "wyszedłem",
+        "wyjdę",
+        "wyjść"
+      ],
+      "answer": "wychodzę",
+      "explain": "codziennie is the same thing over and over, so it needs the everyday half. wyszedłem and wyjdę are each about one single morning."
+    },
+    {
+      "prompt": "Wczoraj ___ o ósmej.",
+      "choices": [
+        "wyszedłem",
+        "wychodzę",
+        "wychodzi",
+        "wychodzić"
+      ],
+      "answer": "wyszedłem",
+      "explain": "Yesterday is over and it happened once, so the once-and-done half is the only one that fits — and it is the only past form here."
+    },
+    {
+      "prompt": "Mama zawsze ___ do domu wieczorem.",
+      "choices": [
+        "przychodzi",
+        "przyszła",
+        "przyjdzie",
+        "przychodzę"
+      ],
+      "answer": "przychodzi",
+      "explain": "zawsze makes it a habit, so it is the everyday half; and Mama is she, so the ending is -i, not the -ę that belongs to ja."
+    },
+    {
+      "prompt": "Tata codziennie ___ do pracy pociągiem.",
+      "choices": [
+        "przyjeżdża",
+        "przychodzi",
+        "przyjeżdżam",
+        "przyjechał"
+      ],
+      "answer": "przyjeżdża",
+      "explain": "pociągiem means he is not on foot, so it has to be the -jeżdżać verb; codziennie makes it the everyday half, and Tata is he."
+    },
+    {
+      "prompt": "Brat codziennie ___ z domu o siódmej.",
+      "choices": [
+        "wychodzi",
+        "wyszedł",
+        "wyjdzie",
+        "wychodzę"
+      ],
+      "answer": "wychodzi",
+      "explain": "Every day, and Brat is he — so it is the everyday verb in its on/ona form."
+    },
+    {
+      "prompt": "Muszę ___ o ósmej.",
+      "choices": [
+        "wyjść",
+        "wychodzę",
+        "wychodzi",
+        "wyszedłem"
+      ],
+      "answer": "wyjść",
+      "explain": "After muszę comes the plain infinitive, exactly as it always has — and one particular eight o'clock is a single event, so it is the once-and-done verb."
+    },
+    {
+      "prompt": "Wczoraj brat ___ pociągiem.",
+      "choices": [
+        "przyjechał",
+        "przyjeżdża",
+        "przyjedzie",
+        "przyjeżdżam"
+      ],
+      "answer": "przyjechał",
+      "explain": "One arrival, and it is already over. przyjeżdża would make it a habit and przyjedzie would put it in the future."
+    },
+    {
+      "prompt": "O której zawsze ___ do pracy?",
+      "choices": [
+        "wychodzisz",
+        "wyszedłeś",
+        "wyjdziesz",
+        "wychodzić"
+      ],
+      "answer": "wychodzisz",
+      "explain": "zawsze asks about the habit, not about one morning, so the everyday half is the one that answers the question."
+    },
+    {
+      "prompt": "Codziennie ___ do pracy autobusem.",
+      "choices": [
+        "przyjeżdżam",
+        "przyjechałem",
+        "przyjadę",
+        "przyjeżdża"
+      ],
+      "answer": "przyjeżdżam",
+      "explain": "autobusem rules out the on-foot verb, codziennie rules out the once-and-done one, and ja takes -am in this class."
+    },
+    {
+      "prompt": "wyjechać — ___ (the everyday half)",
+      "choices": [
+        "wyjeżdżać",
+        "wychodzić",
+        "przyjeżdżać",
+        "przychodzić"
+      ],
+      "answer": "wyjeżdżać",
+      "explain": "Same front piece, same direction: wy- is leaving and the -jeżdżać body is the by-vehicle one. The other three are real verbs too, but each belongs to a different pair."
+    },
+    {
+      "prompt": "Lekarz często ___ do biura samochodem.",
+      "choices": [
+        "przyjeżdża",
+        "przychodzi",
+        "przyjechał",
+        "przyjeżdżasz"
+      ],
+      "answer": "przyjeżdża",
+      "explain": "samochodem means a car is involved, so the on-foot verb is out; często makes it the everyday half, and Lekarz is he."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I leave, go out (on foot, every day)",
+      "mode": "full_word",
+      "answer": "wychodzę",
+      "accepts": [
+        "wychodzę",
+        "wychodze"
+      ],
+      "explain": "The one you have had since A2 — Wychodzę do pracy. It runs like chodzę."
+    },
+    {
+      "prompt_en": "you leave, go out (on foot, every day)",
+      "mode": "full_word",
+      "answer": "wychodzisz",
+      "accepts": [
+        "wychodzisz"
+      ]
+    },
+    {
+      "prompt_en": "he or she leaves, goes out (on foot, every day)",
+      "mode": "full_word",
+      "answer": "wychodzi",
+      "accepts": [
+        "wychodzi"
+      ],
+      "explain": "The -isz class drops the tail for on and ona: wychodzisz becomes wychodzi, exactly as chodzisz becomes chodzi."
+    },
+    {
+      "prompt_en": "I come, arrive (on foot, every day)",
+      "mode": "full_word",
+      "answer": "przychodzę",
+      "accepts": [
+        "przychodzę",
+        "przychodze"
+      ],
+      "explain": "Same body as wychodzę, with przy- on the front instead of wy- — arriving rather than leaving."
+    },
+    {
+      "prompt_en": "you come, arrive (on foot, every day)",
+      "mode": "full_word",
+      "answer": "przychodzisz",
+      "accepts": [
+        "przychodzisz"
+      ]
+    },
+    {
+      "prompt_en": "he or she comes, arrives (on foot, every day)",
+      "mode": "full_word",
+      "answer": "przychodzi",
+      "accepts": [
+        "przychodzi"
+      ]
+    },
+    {
+      "prompt_en": "I set off, leave (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "wyjeżdżam",
+      "accepts": [
+        "wyjeżdżam",
+        "wyjezdzam"
+      ],
+      "explain": "This one runs like mieszkam, so ja ends in -am and there is nothing new to learn about the ending."
+    },
+    {
+      "prompt_en": "you set off, leave (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "wyjeżdżasz",
+      "accepts": [
+        "wyjeżdżasz",
+        "wyjezdzasz"
+      ]
+    },
+    {
+      "prompt_en": "he or she sets off, leaves (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "wyjeżdża",
+      "accepts": [
+        "wyjeżdża",
+        "wyjezdza"
+      ],
+      "explain": "The -am/-asz class ends on/ona in a bare -a: mieszkam, mieszkasz, mieszka."
+    },
+    {
+      "prompt_en": "I arrive (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "przyjeżdżam",
+      "accepts": [
+        "przyjeżdżam",
+        "przyjezdzam"
+      ]
+    },
+    {
+      "prompt_en": "you arrive (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "przyjeżdżasz",
+      "accepts": [
+        "przyjeżdżasz",
+        "przyjezdzasz"
+      ]
+    },
+    {
+      "prompt_en": "he or she arrives (by vehicle, every day)",
+      "mode": "full_word",
+      "answer": "przyjeżdża",
+      "accepts": [
+        "przyjeżdża",
+        "przyjezdza"
+      ]
+    },
+    {
+      "prompt_en": "to leave, to go out — the everyday verb (dictionary form)",
+      "mode": "full_word",
+      "answer": "wychodzić",
+      "accepts": [
+        "wychodzić",
+        "wychodzic"
+      ],
+      "explain": "The everyday partner of wyjść. Learn the two as one pair — neither can be built from the other."
+    },
+    {
+      "prompt_en": "to come, to arrive on foot — the everyday verb (dictionary form)",
+      "mode": "full_word",
+      "answer": "przychodzić",
+      "accepts": [
+        "przychodzić",
+        "przychodzic"
+      ],
+      "explain": "The everyday partner of przyjść."
+    },
+    {
+      "prompt_en": "to set off, to leave by vehicle — the everyday verb (dictionary form)",
+      "mode": "full_word",
+      "answer": "wyjeżdżać",
+      "accepts": [
+        "wyjeżdżać",
+        "wyjezdzac"
+      ],
+      "explain": "The everyday partner of wyjechać. The front piece stayed; the body changed, and there is no way to predict how."
+    },
+    {
+      "prompt_en": "to arrive by vehicle — the everyday verb (dictionary form)",
+      "mode": "full_word",
+      "answer": "przyjeżdżać",
+      "accepts": [
+        "przyjeżdżać",
+        "przyjezdzac"
+      ],
+      "explain": "The everyday partner of przyjechać."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad leaves for work at eight every day.",
+      "answer": "Tata codziennie wychodzi do pracy o ósmej.",
+      "accepts": [
+        "Tata codziennie wychodzi do pracy o ósmej.",
+        "Tata codziennie wychodzi do pracy o ósmej",
+        "Tata codziennie wychodzi do pracy o osmej."
+      ],
+      "explain": "codziennie is what makes it wychodzi and not wyszedł — this is every morning, not one particular one."
+    },
+    {
+      "prompt_en": "Type: Mum always comes home in the evening.",
+      "answer": "Mama zawsze przychodzi do domu wieczorem.",
+      "accepts": [
+        "Mama zawsze przychodzi do domu wieczorem.",
+        "Mama zawsze przychodzi do domu wieczorem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother comes home by train.",
+      "answer": "Brat przyjeżdża do domu pociągiem.",
+      "accepts": [
+        "Brat przyjeżdża do domu pociągiem.",
+        "Brat przyjeżdża do domu pociągiem",
+        "Brat przyjezdza do domu pociagiem."
+      ],
+      "explain": "A train is involved, so it is the -jeżdżać verb; przychodzi would put him on foot."
+    },
+    {
+      "prompt_en": "Type: My sister often sets off in the morning.",
+      "answer": "Siostra często wyjeżdża rano.",
+      "accepts": [
+        "Siostra często wyjeżdża rano.",
+        "Siostra często wyjeżdża rano",
+        "Siostra czesto wyjezdza rano."
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor comes to work by car every day.",
+      "answer": "Lekarz codziennie przyjeżdża do pracy samochodem.",
+      "accepts": [
+        "Lekarz codziennie przyjeżdża do pracy samochodem.",
+        "Lekarz codziennie przyjeżdża do pracy samochodem"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child leaves for school at seven.",
+      "answer": "Dziecko wychodzi do szkoły o siódmej.",
+      "accepts": [
+        "Dziecko wychodzi do szkoły o siódmej.",
+        "Dziecko wychodzi do szkoły o siódmej",
+        "Dziecko wychodzi do szkoly o siodmej."
+      ]
+    },
+    {
+      "prompt_en": "Type: I leave at seven every day, but yesterday I left at eight. (m)",
+      "answer": "Codziennie wychodzę o siódmej, ale wczoraj wyszedłem o ósmej.",
+      "accepts": [
+        "Codziennie wychodzę o siódmej, ale wczoraj wyszedłem o ósmej.",
+        "Codziennie wychodzę o siódmej, ale wczoraj wyszedłem o ósmej"
+      ],
+      "explain": "Both halves are I, and both are about leaving. The verbs differ because one is every morning and the other is one morning that is over."
+    },
+    {
+      "prompt_en": "Type: Grandma often arrives by bus.",
+      "answer": "Babcia często przyjeżdża autobusem.",
+      "accepts": [
+        "Babcia często przyjeżdża autobusem.",
+        "Babcia często przyjeżdża autobusem",
+        "Babcia czesto przyjezdza autobusem."
+      ]
+    },
+    {
+      "prompt_en": "Type: My colleague always comes to the office at nine.",
+      "answer": "Kolega zawsze przychodzi do biura o dziewiątej.",
+      "accepts": [
+        "Kolega zawsze przychodzi do biura o dziewiątej.",
+        "Kolega zawsze przychodzi do biura o dziewiątej",
+        "Kolega zawsze przychodzi do biura o dziewiatej."
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum comes by train, but today she came by car.",
+      "answer": "Mama przyjeżdża pociągiem, ale dzisiaj przyjechała samochodem.",
+      "accepts": [
+        "Mama przyjeżdża pociągiem, ale dzisiaj przyjechała samochodem.",
+        "Mama przyjeżdża pociągiem, ale dzisiaj przyjechała samochodem"
+      ],
+      "explain": "The habit and the one exception side by side: przyjeżdża for what she normally does, przyjechała for the single trip that has already happened."
+    },
+    {
+      "prompt_en": "Type: At what time do you always leave for work?",
+      "answer": "O której zawsze wychodzisz do pracy?",
+      "accepts": [
+        "O której zawsze wychodzisz do pracy?",
+        "O której zawsze wychodzisz do pracy",
+        "O ktorej zawsze wychodzisz do pracy?"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "wychodzi",
+    "przychodzić",
+    "przychodzę",
+    "przychodzisz",
+    "przychodzi",
+    "wyjeżdżać",
+    "wyjeżdżam",
+    "wyjeżdżasz",
+    "wyjeżdża",
+    "przyjeżdżać",
+    "przyjeżdżam",
+    "przyjeżdżasz",
+    "przyjeżdża"
+  ],
+  "uses_lemmas": [
+    "wychodzić",
+    "wychodzę",
+    "wychodzisz",
+    "chodzę",
+    "chodzisz",
+    "chodzi",
+    "mieszkam",
+    "mieszkasz",
+    "mieszka",
+    "wyjść",
+    "przyjść",
+    "wyjechać",
+    "przyjechać",
+    "wyszedłem",
+    "wyszedł",
+    "wyszedłeś",
+    "przyszedłem",
+    "wyjechałem",
+    "przyjechałem",
+    "przyszła",
+    "przyjdę",
+    "przyjdzie",
+    "wyjdę",
+    "wyjdzie",
+    "wyjdziesz",
+    "przyjadę",
+    "przyjedzie",
+    "wyjadę",
+    "przyjechał",
+    "przyjechała",
+    "robić",
+    "zrobić",
+    "kupować",
+    "kupić",
+    "muszę",
+    "codziennie",
+    "zawsze",
+    "często",
+    "rano",
+    "wieczorem",
+    "jutro",
+    "wczoraj",
+    "dzisiaj",
+    "o ósmej",
+    "o siódmej",
+    "o dziewiątej",
+    "o której",
+    "do pracy",
+    "do domu",
+    "do biura",
+    "do szkoły",
+    "z domu",
+    "pociągiem",
+    "autobusem",
+    "samochodem",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "babcia",
+    "kolega",
+    "lekarz",
+    "dziecko",
+    "ale"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_motion_imperf",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

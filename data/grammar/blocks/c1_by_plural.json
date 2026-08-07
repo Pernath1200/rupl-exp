@@ -1,0 +1,595 @@
+{
+  "id": "c1_by_plural",
+  "title": "Gdybyśmy, żebyśmy",
+  "title_en": "The we and you-plural forms of gdyby and żeby",
+  "level": "C1",
+  "tree_node": "c1_by_plural",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 13 (path 222). FOUR NEW STRINGS - gdybysmy, gdybyscie, zebysmy, zebyscie - and ZERO new mechanism. Pays TWO logged holds at once: b2_gdyby held the plural gdyby forms as a named C1-inbox item, and b1_zeby's scope cut (inbox item 16) held the plural zeby forms. Both land here together, which is the whole argument for one unit rather than two: it is ONE person-marker family, met for the FOURTH time.\n\nTHE MARKER FAMILY IS THE UNIT, AND IT IS EXCEPTIONALLY WELL ANCHORED - every anchor verified against the position-aware pool rather than assumed. The learner has produced -smy (we) and -scie (you, more than one) in THREE separate places already: the present (jestesmy, jestescie), the past (bylismy, byliscie, robilismy, robiliscie) and the plural conditional (chcielibysmy, chcielibyscie, zrobilibyscie). So this unit adds no ending - it attaches an owned marker to two owned conjunctions. b1_zeby's own slide already told the learner the family was shared, in these words: 'The person marker is the SAME family you already own from the conditional: -m (bym), -s (bys), nothing extra for the 3rd person (by).' This unit completes that sentence.\n\nTHE ERROR THE UNIT EXISTS TO PREVENT is *Gdybysmy bylismy - the marker written twice. b2_gdyby taught the rule for the singular ('the verb straight after it is left plain: mial, byla, chcial - never a by form') and the plural is where it is easiest to break, because the plain plural L-form (byli) and the past 1pl (bylismy) differ by exactly the marker in question. Kontrola item 5 and Pisanie cloze 5 both blank that slot, with bylismy offered as a real, owned, pool-legal form in an illegal position.\n\nTHE BRIEF'S OBVIOUS HEADLINE SENTENCE IS ILLEGAL AND THIS WAS CAUGHT BY THE POOL, NOT BY EYE. 'Gdybysmy mieli czas...' is the natural first draft and it cannot be written: mieli and mialy are BOTH verified NEW. The course has never taught the plural past of miec. Every plural L-form in this pack is therefore drawn from the closed owned set byli / byly / chcieli / chcialy / kupili / kupily / zrobili / zrobily, and the if-halves run on byc and on the shop rather than on having time.\n\nb1_conditional_pl's GRID IS DELIBERATELY PARTIAL AND THAT SHAPED EVERY RESULT CLAUSE. Verified form by form: chciec has all six plural conditionals; kupic has 1pl and 3pl but NOT 2pl (kupilibyscie is NEW); zrobic has 2pl and 3pl but NOT 1pl (zrobilibysmy is NEW). So 'we would make' is unsayable in this course and no item asks for it - the 1pl result clauses all use chcielibysmy or kupilibysmy, and the 2pl ones all use zrobilibyscie or chcielibyscie. Three drafted sentences were rewritten when this was checked. bylibysmy / byliby (the plural of the byl-conditional c1_cond_past [221] taught one node back) are also NEW and appear NOWHERE - extending that paradigm is not this unit's job, and is logged as untaught.\n\nb1_zeby's WANTER-MUST-DIFFER-FROM-DOER RULE IS RESPECTED RATHER THAN QUIETLY BROKEN. That pack states: 'The wanter and the doer must be different people... If you want to do something yourself, you still just say chce zrobic, no zeby at all.' A first-person wanter with zebysmy (Chce, zebysmy...) puts the speaker inside the doer group and sits awkwardly against that rule. EVERY zebysmy and zebyscie item in this pack therefore uses a THIRD-PERSON wanter - Mama chce, zebysmy...; Tata chce, zebyscie... - where wanter and doer are unambiguously different and b1_zeby's rule holds exactly as written. One Kontrola item (8) keeps the owned singular zebys against a first-person wanter, which is b1_zeby's own shape.\n\nMATCH IS THE COMPLETE MARKER PARADIGM, twelve rows: all five persons of gdyby and all five of zeby (four of them new, six owned), plus two owned plural conditionals - chcielibysmy, zrobilibyscie - so the SAME -smy/-scie markers are on the board doing their other job. That is the unit's argument made visible, and it is AGENTS' stated default recycling mechanism rather than padding.\n\nHOMOGRAPH AND POOL DISCIPLINE. byli/byly against bylismy/byliscie is the live collision and is drilled, not dodged. dzieci takes the NON-VIRILE plural (byly, zrobilyby) and koledzy/studenci take the virile (byli, kupiliby, zrobiliby) - checked per sentence, since getting this wrong would teach a false agreement in the level that just closed the virile system. zakupy is owned and the composition zrobili zakupy follows b1_zeby's own example sentence (Chce, zebys zrobil zakupy). glodni and razem were wanted and are verified NEW, so neither appears. NO case-map.json ROW IS ADDED: this unit ships no governor.\n\nSTAGE SHAPES. Kontrola is twelve real-form choices, no meta-question, every distractor owned or taught here. Pisanie is FOUR one-word forms typed whole - the unit's entire new inventory - plus SIX cloze items, because with only four new strings the stage would otherwise have to pad or repeat; the cloze blanks fall on the load-bearing plural forms (the plain L-form after the conjunction, and the result-clause conditional), which is the queue's documented fallback and is also where the learner's error actually lives. Uzycie carries ten real sentences, all with noun subjects or objects, and every cloze frame was checked NOT to reconstruct any Uzycie sentence.",
+  "focus_structures": [
+    "by_plural"
+  ],
+  "teaches_structures": [
+    "by_plural"
+  ],
+  "teaches_lemmas": [
+    "gdybyśmy",
+    "gdybyście",
+    "żebyśmy",
+    "żebyście"
+  ],
+  "uses_structures": [
+    "by_plural",
+    "gdyby",
+    "zeby",
+    "conditional_pl",
+    "conditional_sg",
+    "past_plural",
+    "aspect_past",
+    "byc_present",
+    "byc_adj",
+    "miec_acc",
+    "prep_w_loc",
+    "can_inf",
+    "virile_past"
+  ],
+  "intro": [
+    {
+      "title": "The same two markers, for the fourth time",
+      "title_pl": "-śmy · -ście",
+      "body": "Polish marks we with -śmy and you-more-than-one with -ście, and it does it in the same way wherever the marker is needed.\n\nYou have already produced both, in three different places, without being told they were one family. Here they are.\n\nThat is the whole of this unit's new material: the two markers you see below, put onto gdyby and żeby.",
+      "body_pl": "jesteśmy · byliśmy · chcielibyśmy",
+      "table": {
+        "headers": [
+          "Where you have used it",
+          "we",
+          "you — more than one"
+        ],
+        "rows": [
+          [
+            "the present of być",
+            "jesteśmy",
+            "jesteście"
+          ],
+          [
+            "the past",
+            "byliśmy",
+            "byliście"
+          ],
+          [
+            "the conditional",
+            "chcielibyśmy",
+            "chcielibyście"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "gdyby in the plural — and the verb still stays plain",
+      "title_pl": "gdybyśmy · gdybyście",
+      "body": "The marker goes onto gdyby, exactly as it did in the singular.\n\nAnd the rule that came with it holds: because gdyby is carrying the marker, the verb straight after it is left plain. byli, not byliśmy.\n\nThis is the one place to be careful. byli and byliśmy differ by precisely the marker gdyby has already taken, so writing it twice is the natural slip.",
+      "body_pl": "gdyby + śmy → gdybyśmy · gdyby + ście → gdybyście",
+      "table": {
+        "headers": [
+          "Who",
+          "Opener",
+          "Then the plain verb"
+        ],
+        "rows": [
+          [
+            "if we",
+            "gdybyśmy",
+            "byli, kupili, zrobili"
+          ],
+          [
+            "if you — more than one",
+            "gdybyście",
+            "byli, kupili, zrobili"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "If we were in the shop, we would buy bread.",
+          "pl": "Gdybyśmy byli w sklepie, kupilibyśmy chleb."
+        }
+      ]
+    },
+    {
+      "title": "żeby in the plural — the same move again",
+      "title_pl": "żebyśmy · żebyście",
+      "body": "żeby takes the two markers in the same place, and the verb after it stays plain in the same way.\n\nRemember what this construction is for: somebody wants somebody else to do something. The one wanting and the one doing are different people, which is why the examples below have Mum or Dad doing the wanting.",
+      "body_pl": "żeby + śmy → żebyśmy · żeby + ście → żebyście",
+      "table": {
+        "headers": [
+          "Who is to do it",
+          "Opener",
+          "Then the plain verb"
+        ],
+        "rows": [
+          [
+            "us",
+            "żebyśmy",
+            "zrobili, kupili, byli"
+          ],
+          [
+            "you — more than one",
+            "żebyście",
+            "zrobili, kupili, byli"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Mum wants us to make dinner.",
+          "pl": "Mama chce, żebyśmy zrobili obiad."
+        },
+        {
+          "en": "Dad wants you to buy bread.",
+          "pl": "Tata chce, żebyście kupili chleb."
+        }
+      ]
+    },
+    {
+      "title": "Both words, all five persons — the system closed",
+      "title_pl": "gdybym · gdybyś · gdyby · gdybyśmy · gdybyście",
+      "body": "Nothing on this slide is a new rule. It is the two words you own, with the marker family completed.\n\nNote that the he/she form and the they form are the same bare word — gdyby, żeby — because the marker only ever says I, you, we or you-more-than-one. It never says he or they.",
+      "body_pl": "żebym · żebyś · żeby · żebyśmy · żebyście",
+      "table": {
+        "headers": [
+          "Who",
+          "gdyby",
+          "żeby"
+        ],
+        "rows": [
+          [
+            "I",
+            "gdybym",
+            "żebym"
+          ],
+          [
+            "you — one",
+            "gdybyś",
+            "żebyś"
+          ],
+          [
+            "he / she / they",
+            "gdyby",
+            "żeby"
+          ],
+          [
+            "we",
+            "gdybyśmy",
+            "żebyśmy"
+          ],
+          [
+            "you — more than one",
+            "gdybyście",
+            "żebyście"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "if I",
+      "pl": "gdybym"
+    },
+    {
+      "en": "if you — one person",
+      "pl": "gdybyś"
+    },
+    {
+      "en": "if he, she or they",
+      "pl": "gdyby"
+    },
+    {
+      "en": "if we",
+      "pl": "gdybyśmy"
+    },
+    {
+      "en": "if you — more than one",
+      "pl": "gdybyście"
+    },
+    {
+      "en": "that I should",
+      "pl": "żebym"
+    },
+    {
+      "en": "that you should — one person",
+      "pl": "żebyś"
+    },
+    {
+      "en": "that he, she or they should",
+      "pl": "żeby"
+    },
+    {
+      "en": "that we should",
+      "pl": "żebyśmy"
+    },
+    {
+      "en": "that you should — more than one",
+      "pl": "żebyście"
+    },
+    {
+      "en": "we would want",
+      "pl": "chcielibyśmy"
+    },
+    {
+      "en": "you would make it — more than one",
+      "pl": "zrobilibyście"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ byli w sklepie, kupilibyśmy chleb. (if we were in the shop)",
+      "choices": [
+        "Gdybyśmy",
+        "Gdybyś",
+        "Gdyby",
+        "Gdybyście"
+      ],
+      "answer": "Gdybyśmy",
+      "explain": "The result clause says kupilibyśmy — we — so the opener carries the same marker."
+    },
+    {
+      "prompt": "___ byli w domu, zrobilibyście obiad. (if you — more than one — were at home)",
+      "choices": [
+        "Gdybyście",
+        "Gdybyśmy",
+        "Gdybyś",
+        "Gdyby"
+      ],
+      "answer": "Gdybyście",
+      "explain": "Gdybyś would be talking to one person only."
+    },
+    {
+      "prompt": "Mama chce, ___ zrobili obiad. (Mum wants us to make dinner)",
+      "choices": [
+        "żebyśmy",
+        "żebyście",
+        "żebym",
+        "żeby"
+      ],
+      "answer": "żebyśmy",
+      "explain": "The doers are we, so the marker on żeby is śmy."
+    },
+    {
+      "prompt": "Tata chce, ___ kupili chleb. (Dad wants you — more than one — to buy bread)",
+      "choices": [
+        "żebyście",
+        "żebyśmy",
+        "żebyś",
+        "żeby"
+      ],
+      "answer": "żebyście",
+      "explain": "More than one doer and none of them is the speaker, so ście."
+    },
+    {
+      "prompt": "Gdybyśmy ___ w sklepie, kupilibyśmy chleb. (if we were in the shop)",
+      "choices": [
+        "byli",
+        "byliśmy",
+        "były",
+        "jesteśmy"
+      ],
+      "answer": "byli",
+      "explain": "Gdybyśmy is already carrying the marker, so the verb stays plain. Byliśmy would mark it twice."
+    },
+    {
+      "prompt": "Chcę, żebyście ___ obiad. (I want you — more than one — to make dinner)",
+      "choices": [
+        "zrobili",
+        "zrobilibyście",
+        "zrobiły",
+        "robiliście"
+      ],
+      "answer": "zrobili",
+      "explain": "Plain past after żeby — the marker is on żebyście and is not repeated."
+    },
+    {
+      "prompt": "Wczoraj ___ w domu. (we were at home yesterday)",
+      "choices": [
+        "byliśmy",
+        "gdybyśmy",
+        "byliście",
+        "byli"
+      ],
+      "answer": "byliśmy",
+      "explain": "A plain statement about yesterday, so the marker lives on the verb — there is no gdyby to carry it."
+    },
+    {
+      "prompt": "Chcę, ___ zrobił obiad. (I want you — one man — to make dinner)",
+      "choices": [
+        "żebyś",
+        "żebyśmy",
+        "żebyście",
+        "żebym"
+      ],
+      "answer": "żebyś",
+      "explain": "One person being asked, so the singular marker ś — and zrobił is singular to match."
+    },
+    {
+      "prompt": "Gdybyśmy byli w Polsce, ___ mówić po polsku. (we would want to speak Polish)",
+      "choices": [
+        "chcielibyśmy",
+        "chcielibyście",
+        "chcieliby",
+        "chcieli"
+      ],
+      "answer": "chcielibyśmy",
+      "explain": "The second half keeps its own ending — this is the conditional you have owned since B1."
+    },
+    {
+      "prompt": "Gdyby studenci byli w domu, ___ obiad. (they would make dinner)",
+      "choices": [
+        "zrobiliby",
+        "zrobilibyście",
+        "zrobili",
+        "zrobiłyby"
+      ],
+      "answer": "zrobiliby",
+      "explain": "Studenci are a group of men, so the virile form — and they, so by with nothing after it."
+    },
+    {
+      "prompt": "Gdybyście byli w domu, ___ obiad. (you — more than one — would make dinner)",
+      "choices": [
+        "zrobilibyście",
+        "zrobiliby",
+        "zrobili",
+        "chcielibyście"
+      ],
+      "answer": "zrobilibyście",
+      "explain": "The opener said you-more-than-one, so the result clause matches it."
+    },
+    {
+      "prompt": "Mama chce, żebyśmy ___ chleb. (Mum wants us to buy bread)",
+      "choices": [
+        "kupili",
+        "kupilibyśmy",
+        "kupiły",
+        "kupiliby"
+      ],
+      "answer": "kupili",
+      "explain": "Plain past after żebyśmy. Kupilibyśmy belongs in a gdyby sentence, not after żeby."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "if we",
+      "mode": "full_word",
+      "answer": "gdybyśmy",
+      "accepts": [
+        "gdybyśmy"
+      ],
+      "explain": "gdyby plus the śmy marker you already use in jesteśmy and byliśmy."
+    },
+    {
+      "prompt_en": "if you — more than one",
+      "mode": "full_word",
+      "answer": "gdybyście",
+      "accepts": [
+        "gdybyście"
+      ]
+    },
+    {
+      "prompt_en": "that we should",
+      "mode": "full_word",
+      "answer": "żebyśmy",
+      "accepts": [
+        "żebyśmy"
+      ]
+    },
+    {
+      "prompt_en": "that you should — more than one",
+      "mode": "full_word",
+      "answer": "żebyście",
+      "accepts": [
+        "żebyście"
+      ]
+    },
+    {
+      "prompt_en": "If we were in the shop, we would buy bread.",
+      "mode": "cloze",
+      "frame": "Gdybyśmy ___ w sklepie, kupilibyśmy chleb.",
+      "answer": "byli",
+      "accepts": [
+        "byli"
+      ],
+      "explain": "Plain after gdybyśmy — byliśmy would write the marker twice."
+    },
+    {
+      "prompt_en": "Mum wants us to make dinner.",
+      "mode": "cloze",
+      "frame": "Mama chce, żebyśmy ___ obiad.",
+      "answer": "zrobili",
+      "accepts": [
+        "zrobili"
+      ]
+    },
+    {
+      "prompt_en": "Dad wants you to buy bread. (more than one person)",
+      "mode": "cloze",
+      "frame": "Tata chce, żebyście ___ chleb.",
+      "answer": "kupili",
+      "accepts": [
+        "kupili"
+      ]
+    },
+    {
+      "prompt_en": "If you had been at home, you would have made dinner. (more than one person)",
+      "mode": "cloze",
+      "frame": "Gdybyście byli w domu, ___ obiad.",
+      "answer": "zrobilibyście",
+      "accepts": [
+        "zrobilibyście"
+      ],
+      "explain": "The result half keeps its own ending, matching the opener."
+    },
+    {
+      "prompt_en": "If we were in Poland, we would want to speak Polish.",
+      "mode": "cloze",
+      "frame": "Gdybyśmy byli w Polsce, ___ mówić po polsku.",
+      "answer": "chcielibyśmy",
+      "accepts": [
+        "chcielibyśmy"
+      ]
+    },
+    {
+      "prompt_en": "If the students were at home, they would make dinner.",
+      "mode": "cloze",
+      "frame": "Gdyby studenci byli w domu, ___ obiad.",
+      "answer": "zrobiliby",
+      "accepts": [
+        "zrobiliby"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: If we were in Poland, we would buy a house.",
+      "answer": "Gdybyśmy byli w Polsce, kupilibyśmy dom.",
+      "accepts": [
+        "Gdybyśmy byli w Polsce, kupilibyśmy dom.",
+        "Gdybyśmy byli w Polsce, kupilibyśmy dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: If you were in the shop, you would do the shopping. (more than one person)",
+      "answer": "Gdybyście byli w sklepie, zrobilibyście zakupy.",
+      "accepts": [
+        "Gdybyście byli w sklepie, zrobilibyście zakupy.",
+        "Gdybyście byli w sklepie, zrobilibyście zakupy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum wants us to buy bread.",
+      "answer": "Mama chce, żebyśmy kupili chleb.",
+      "accepts": [
+        "Mama chce, żebyśmy kupili chleb.",
+        "Mama chce, żebyśmy kupili chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad wants you to make dinner. (more than one person)",
+      "answer": "Tata chce, żebyście zrobili obiad.",
+      "accepts": [
+        "Tata chce, żebyście zrobili obiad.",
+        "Tata chce, żebyście zrobili obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: If the children were at home, they would make dinner.",
+      "answer": "Gdyby dzieci były w domu, zrobiłyby obiad.",
+      "accepts": [
+        "Gdyby dzieci były w domu, zrobiłyby obiad.",
+        "Gdyby dzieci były w domu, zrobiłyby obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: If we were tired, we would want to be at home.",
+      "answer": "Gdybyśmy byli zmęczeni, chcielibyśmy być w domu.",
+      "accepts": [
+        "Gdybyśmy byli zmęczeni, chcielibyśmy być w domu.",
+        "Gdybyśmy byli zmęczeni, chcielibyśmy być w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: If you were in Poland, you would want to speak Polish. (more than one person)",
+      "answer": "Gdybyście byli w Polsce, chcielibyście mówić po polsku.",
+      "accepts": [
+        "Gdybyście byli w Polsce, chcielibyście mówić po polsku.",
+        "Gdybyście byli w Polsce, chcielibyście mówić po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum wants us to be at home.",
+      "answer": "Mama chce, żebyśmy byli w domu.",
+      "accepts": [
+        "Mama chce, żebyśmy byli w domu.",
+        "Mama chce, żebyśmy byli w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: If my colleagues were in the shop, they would buy bread.",
+      "answer": "Gdyby koledzy byli w sklepie, kupiliby chleb.",
+      "accepts": [
+        "Gdyby koledzy byli w sklepie, kupiliby chleb.",
+        "Gdyby koledzy byli w sklepie, kupiliby chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad wants us to make coffee.",
+      "answer": "Tata chce, żebyśmy zrobili kawę.",
+      "accepts": [
+        "Tata chce, żebyśmy zrobili kawę.",
+        "Tata chce, żebyśmy zrobili kawę"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "gdybym",
+    "gdybyś",
+    "gdyby",
+    "żebym",
+    "żebyś",
+    "żeby",
+    "chcielibyśmy",
+    "chciałybyśmy",
+    "chcielibyście",
+    "chcieliby",
+    "kupilibyśmy",
+    "kupiliby",
+    "zrobilibyście",
+    "zrobiliby",
+    "zrobiłyby",
+    "kupiły",
+    "zrobiły",
+    "chcieli",
+    "kupili",
+    "zrobili",
+    "byli",
+    "były",
+    "byliśmy",
+    "byliście",
+    "robiliście",
+    "jesteśmy",
+    "jesteście",
+    "chce",
+    "mówić",
+    "być",
+    "obiad",
+    "kawę",
+    "chleb",
+    "dom",
+    "zakupy",
+    "zmęczeni",
+    "w domu",
+    "w sklepie",
+    "w Polsce",
+    "po polsku",
+    "mama",
+    "tata",
+    "dzieci",
+    "koledzy",
+    "studenci",
+    "wczoraj"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_by_plural",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "id": "c1_gen_verbs",
+  "title": "Szukam pracy, słucham muzyki",
+  "title_en": "Verbs that take the Genitive",
+  "level": "C1",
+  "tree_node": "c1_gen_verbs",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 5, unit 4 - the block's closer, and the unit that makes c1_which_case [235] buildable: with this commit every C1 governor named in the spine's Block 5 has shipped its data/case-map.json row. TWO ROWS ship here (verbs governing the Genitive; the Genitive object after a verbal noun). EVERY VERB IN THE UNIT IS ALREADY OWNED - szukam/szuka <- a2_work2 [79], slucham <- a2_phone_func [89], slucha <- b1_imperative_rule [125], ucze/uczy <- a2_sie [74]. That is the whole shape of the unit: the verbs are not new, the CASE THEY TAKE is, so nothing here is a paradigm and everything is a government fact. FIVE NEW STRINGS ONLY: muzyki, polskiego, obiadu, racji, prace. THE ANCHOR IS EXCEPTIONAL AND WAS VERIFIED, NOT ASSUMED: 'szukam pracy' is TAUGHT <- a2_work2 [79] AS A WHOLE CHUNK and is ALREADY this construction - the learner has been producing a Genitive-governing verb for 120 nodes without being told. That is the b2_verbal_nouns / c1_na_acc opener at its cleanest. THE DEMONSTRATION RUNS ON muzyka BECAUSE IT IS THE ONLY NOUN THAT CAN CARRY IT: muzyke is TAUGHT <- trunk_want_like_a1 [23] in 'Lubie muzyke', so Lubie muzyke against Slucham muzyki is ONE noun, TWO verbs, TWO cases, with the Accusative side already in the learner's mouth. praca cannot do this job - A SURPRISE THE POOL TURNED UP: prace, the Accusative of a noun live since leaf_places [31], is UNTAUGHT after 200 nodes. It is taught here (one string, the ordinary -a to -e Accusative owned since A1) so that 'Mam prace' against 'Szukam pracy' is sayable at all; flagged in C1-DIGEST batch 8 as a gap the pool found rather than a scope decision. TWO IOUs CLOSED, BOTH NAMED BY THE PACKS THAT WROTE THEM. (a) a2_sie [74] fenced 'ucze sie polskiego' BY NAME; polskiego is derivable now that b2_adj_gen [137] owns -ego, and slide 4 makes the point that a Polish language name IS an adjective, contrasting the frozen 'po polsku' (TAUGHT <- a2_countries [71]) with the declined polskiego. (b) b2_verbal_nouns [175] called GENITIVE OBJECTS AFTER A VERBAL NOUN 'the significant scope cut' and named gotowanie obiadu and sluchanie muzyki. All six of its verbal nouns are owned, so slide 5 pays that fence with gotowanie obiadu, kupowanie chleba and robienie kawy - and chleba <- b2_neg_gen [162] and kawy <- a1_gen_endings [32] mean only obiadu is new. sluchanie itself is NOT taught: it is a seventh verbal noun and the fence is paid by the six that exist. INBOX ITEM 12 CLOSED: racji, fenced by name in b2_discussion_func and b1_opinions. 'mam racje' and 'masz racje' are TAUGHT <- b1_opinions [128] as whole chunks, so slide 6 is the negation rule b2_neg_gen [162] already owns meeting a chunk the learner already says - mam racje becomes nie mam racji, and the only new thing is the form. HOMOGRAPH DISCIPLINE: gazety is TAUGHT but AGENTS names it as one of the four nominative plurals that would be read as Genitive singulars, so it appears NOWHERE in this pack despite being an obvious 'listening to / looking for' object. ksiazki is used only in its Genitive-singular job (a1_gen_ki [39]), never as the a1_negation plural. mamy and gory are absent, as in both earlier units of this batch. DISTRACTOR LEGALITY CHECKED FORM BY FORM: muzyce, obiedzie, obiady, polskie, praca-Instrumental and racja were ALL rejected as NEW and replaced; every surviving choice is taught - praca <- leaf_places [31], muzyka/muzyke <- trunk_want_like_a1 [23], polski/polska/polsku <- a2_countries [71], obiad/chleb/mleko <- leaf_food_a1 [11], czas <- leaf_time_cal_a1 [37], kawa/kawe/kawy owned since A1. REFUSED AND LOGGED: potrzebowac, uzywac and bac sie - the three other everyday Genitive-governing verbs - are each a whole new paradigm, are named nowhere in C1-SPINE, and are therefore out of the level's scope; C1 is the last level, so C1-DIGEST batch 8 flags them as permanently untaught unless James rules otherwise. NO META-QUESTIONS IN KONTROLA: every item is a real form in a real frame, and the twelve answers are twelve distinct strings.",
+  "focus_structures": [
+    "gen_verbs"
+  ],
+  "teaches_structures": [
+    "gen_verbs"
+  ],
+  "teaches_lemmas": [
+    "muzyki",
+    "polskiego",
+    "obiadu",
+    "racji",
+    "pracę"
+  ],
+  "uses_structures": [
+    "gen_verbs",
+    "gen_endings",
+    "neg_gen",
+    "negation",
+    "verbal_nouns",
+    "sie_reflexive",
+    "adj_gen",
+    "miec_acc",
+    "miec_present",
+    "present",
+    "present_am",
+    "byc_present",
+    "byc_adj",
+    "prep_w_loc",
+    "prep_place",
+    "na_acc",
+    "existential_jest",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "You have been doing this since A2 without being told",
+      "title_pl": "Szukam pracy.",
+      "body": "Szukam pracy was handed to you whole in the work unit, and nothing was said about why it is pracy rather than praca.\n\nIt is the Genitive. A small group of Polish verbs take the Genitive where English simply puts an object after the verb, and szukać is one of them. You have been producing the construction for over a hundred lessons.\n\nThis unit names it and gives you the other two you need.",
+      "body_pl": "szukam pracy — dopełniacz",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "The case after the verb"
+        ],
+        "rows": [
+          [
+            "Mam pracę.",
+            "I have a job",
+            "Accusative — the ordinary object"
+          ],
+          [
+            "Szukam pracy.",
+            "I'm looking for work",
+            "Genitive — szukać demands it"
+          ],
+          [
+            "Tata szuka pracy.",
+            "dad is looking for work",
+            "Genitive"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One noun, two verbs, two cases",
+      "title_pl": "Lubię muzykę. · Słucham muzyki.",
+      "body": "This is the cleanest way to see it, because both halves are already yours.\n\nLubię muzykę — the Accusative, the ending you have put on feminine nouns since A1.\n\nSłucham muzyki — the Genitive, because słuchać is the second verb on the list.\n\nThe noun has not changed its meaning and the sentence has not changed its shape. The verb alone decided the ending, and that is the whole point of the unit: with these verbs you cannot reason from the English, because English gives both of them a plain object.",
+      "body_pl": "lubię muzykę · słucham muzyki",
+      "table": {
+        "headers": [
+          "Polish",
+          "Which case",
+          "English"
+        ],
+        "rows": [
+          [
+            "Lubię muzykę.",
+            "Accusative",
+            "I like music"
+          ],
+          [
+            "Słucham muzyki.",
+            "Genitive",
+            "I'm listening to music"
+          ],
+          [
+            "Mam pracę.",
+            "Accusative",
+            "I have a job"
+          ],
+          [
+            "Szukam pracy.",
+            "Genitive",
+            "I'm looking for work"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The three verbs",
+      "title_pl": "szukam · słucham · uczę się",
+      "body": "These are the ones worth having. All three verbs are already yours — only the case after them is new.\n\nszukać — to look for. Szukam pracy.\n\nsłuchać — to listen to. Słucham muzyki.\n\nuczyć się — to learn. Uczę się polskiego.\n\nThere are a few more verbs in this group, and they are learned one at a time as you meet them, the way the na-places were.",
+      "body_pl": "szukam · słucham · uczę się + dopełniacz",
+      "table": {
+        "headers": [
+          "Verb",
+          "With a Genitive object",
+          "English"
+        ],
+        "rows": [
+          [
+            "szukać",
+            "Szukam pracy.",
+            "I'm looking for work"
+          ],
+          [
+            "szukać",
+            "Tata szuka pracy.",
+            "dad is looking for work"
+          ],
+          [
+            "słuchać",
+            "Słucham muzyki.",
+            "I'm listening to music"
+          ],
+          [
+            "słuchać",
+            "Mama słucha muzyki.",
+            "mum is listening to music"
+          ],
+          [
+            "uczyć się",
+            "Uczę się polskiego.",
+            "I'm learning Polish"
+          ],
+          [
+            "uczyć się",
+            "Siostra uczy się polskiego.",
+            "my sister is learning Polish"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "polskiego — the language is an adjective",
+      "title_pl": "po polsku · polskiego",
+      "body": "You already say Mówię po polsku. That is a frozen phrase and nothing in it moves.\n\nBut polski is an adjective — the same word as in polska kawa — and when a language is the object of a verb, the adjective declines like any other. Uczę się polskiego uses the -ego you met on dobrego and nowego.\n\nSo two shapes sit side by side and neither is wrong: po polsku for how you speak, polskiego for what you are learning.",
+      "body_pl": "mówię po polsku · uczę się polskiego",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What the form is"
+        ],
+        "rows": [
+          [
+            "Mówię po polsku.",
+            "I speak Polish",
+            "a frozen phrase — nothing declines"
+          ],
+          [
+            "Uczę się polskiego.",
+            "I'm learning Polish",
+            "an adjective in the Genitive"
+          ],
+          [
+            "Polska kawa jest dobra.",
+            "Polish coffee is good",
+            "the same adjective, naming"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The -nie nouns take it too",
+      "title_pl": "gotowanie obiadu · kupowanie chleba",
+      "body": "When you turned verbs into nouns — gotowanie, kupowanie, robienie — you were given them on their own, with nothing after them. This is what goes after them.\n\nA verbal noun is a noun, so what it acts on cannot be an object any more. It goes into the Genitive: gotowanie obiadu, kupowanie chleba, robienie kawy.\n\nCompare the two halves. Gotuję obiad is a verb with an ordinary object. Gotowanie obiadu is a noun with a Genitive after it — the cooking of the dinner.",
+      "body_pl": "gotowanie obiadu · kupowanie chleba · robienie kawy",
+      "table": {
+        "headers": [
+          "Verbal noun",
+          "With its Genitive",
+          "English"
+        ],
+        "rows": [
+          [
+            "gotowanie",
+            "gotowanie obiadu",
+            "cooking dinner"
+          ],
+          [
+            "kupowanie",
+            "kupowanie chleba",
+            "buying bread"
+          ],
+          [
+            "robienie",
+            "robienie kawy",
+            "making coffee"
+          ],
+          [
+            "kupowanie",
+            "kupowanie mleka",
+            "buying milk"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "And negation does it to everything",
+      "title_pl": "Mam rację. · Nie mam racji.",
+      "body": "You already know that negating a verb turns its object into a Genitive: Mam chleb becomes Nie mam chleba.\n\nThat rule reaches the phrases you learned whole, too. Mam rację — I'm right — has an Accusative in it, and the moment it is negated the Accusative goes: Nie mam racji.\n\nNothing new is happening. It is the negation rule you have had since B2, meeting a phrase you have said since B1.",
+      "body_pl": "mam rację · nie mam racji",
+      "examples": [
+        "Mam rację.",
+        "Nie mam racji.",
+        "Brat nie ma racji."
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I'm looking for work",
+      "pl": "szukam pracy"
+    },
+    {
+      "en": "I have a job",
+      "pl": "mam pracę"
+    },
+    {
+      "en": "I'm listening to music",
+      "pl": "słucham muzyki"
+    },
+    {
+      "en": "I like music",
+      "pl": "lubię muzykę"
+    },
+    {
+      "en": "I'm learning Polish",
+      "pl": "uczę się polskiego"
+    },
+    {
+      "en": "I speak Polish",
+      "pl": "mówię po polsku"
+    },
+    {
+      "en": "cooking dinner",
+      "pl": "gotowanie obiadu"
+    },
+    {
+      "en": "buying bread",
+      "pl": "kupowanie chleba"
+    },
+    {
+      "en": "making coffee",
+      "pl": "robienie kawy"
+    },
+    {
+      "en": "I'm right",
+      "pl": "mam rację"
+    },
+    {
+      "en": "I'm not right",
+      "pl": "nie mam racji"
+    },
+    {
+      "en": "mum is listening to music",
+      "pl": "mama słucha muzyki"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Szukam ___. (I'm looking for work)",
+      "choices": [
+        "pracy",
+        "praca",
+        "pracę",
+        "muzyki"
+      ],
+      "answer": "pracy",
+      "explain": "szukać demands the Genitive. This is the phrase you have been saying whole since A2."
+    },
+    {
+      "prompt": "Mam ___. (I have a job)",
+      "choices": [
+        "pracę",
+        "pracy",
+        "praca",
+        "muzykę"
+      ],
+      "answer": "pracę",
+      "explain": "mieć takes the ordinary object, so the Accusative — the same -ę as in Mam kawę."
+    },
+    {
+      "prompt": "Słucham ___. (I'm listening to music)",
+      "choices": [
+        "muzyki",
+        "muzyka",
+        "muzykę",
+        "pracy"
+      ],
+      "answer": "muzyki",
+      "explain": "słuchać is the second verb on the list, so the Genitive."
+    },
+    {
+      "prompt": "Lubię ___. (I like music)",
+      "choices": [
+        "muzykę",
+        "muzyki",
+        "muzyka",
+        "pracę"
+      ],
+      "answer": "muzykę",
+      "explain": "Same noun as the item before, different verb. lubić takes the Accusative, and that decides it."
+    },
+    {
+      "prompt": "Uczę się ___. (I'm learning Polish)",
+      "choices": [
+        "polskiego",
+        "polski",
+        "polska",
+        "polsku"
+      ],
+      "answer": "polskiego",
+      "explain": "The language name is an adjective, and here it is in the Genitive — the -ego you know from dobrego."
+    },
+    {
+      "prompt": "Mówię po ___. (I speak Polish)",
+      "choices": [
+        "polsku",
+        "polski",
+        "polska",
+        "polskiego"
+      ],
+      "answer": "polsku",
+      "explain": "A frozen phrase. Nothing in po polsku declines, which is why it looks unlike polskiego."
+    },
+    {
+      "prompt": "Gotowanie ___. (cooking dinner)",
+      "choices": [
+        "obiadu",
+        "obiad",
+        "chleba",
+        "kawy"
+      ],
+      "answer": "obiadu",
+      "explain": "gotowanie is a noun, so what it acts on goes into the Genitive. Gotuję obiad would be the verb with an ordinary object."
+    },
+    {
+      "prompt": "Kupowanie ___. (buying bread)",
+      "choices": [
+        "chleba",
+        "chleb",
+        "mleka",
+        "kawy"
+      ],
+      "answer": "chleba",
+      "explain": "The same Genitive you use in Nie mam chleba."
+    },
+    {
+      "prompt": "Nie mam ___. (I'm not right)",
+      "choices": [
+        "racji",
+        "rację",
+        "pracy",
+        "muzyki"
+      ],
+      "answer": "racji",
+      "explain": "Negation takes the object's Accusative away, even inside a phrase you learned whole."
+    },
+    {
+      "prompt": "Masz ___. (You're right)",
+      "choices": [
+        "rację",
+        "racji",
+        "praca",
+        "chleba"
+      ],
+      "answer": "rację",
+      "explain": "Not negated, so the Accusative stays — the form inside the phrase as you first learned it."
+    },
+    {
+      "prompt": "Nie mam ___. (I don't have time)",
+      "choices": [
+        "czasu",
+        "czas",
+        "chleba",
+        "kawy"
+      ],
+      "answer": "czasu",
+      "explain": "The B2 negation rule on an ordinary noun. czas is the form you would use without nie."
+    },
+    {
+      "prompt": "Robienie ___. (making coffee)",
+      "choices": [
+        "kawy",
+        "kawa",
+        "kawę",
+        "chleba"
+      ],
+      "answer": "kawy",
+      "explain": "A verbal noun again, so the Genitive. kawę would be right after robię."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm looking for work",
+      "mode": "full_word",
+      "answer": "szukam pracy",
+      "accepts": [
+        "szukam pracy"
+      ],
+      "explain": "The chunk you already had, now with its case named."
+    },
+    {
+      "prompt_en": "I have a job",
+      "mode": "full_word",
+      "answer": "mam pracę",
+      "accepts": [
+        "mam pracę"
+      ],
+      "explain": "An ordinary object, so the Accusative."
+    },
+    {
+      "prompt_en": "I'm listening to music",
+      "mode": "full_word",
+      "answer": "słucham muzyki",
+      "accepts": [
+        "słucham muzyki"
+      ],
+      "explain": "słuchać demands the Genitive."
+    },
+    {
+      "prompt_en": "I'm learning Polish",
+      "mode": "full_word",
+      "answer": "uczę się polskiego",
+      "accepts": [
+        "uczę się polskiego"
+      ],
+      "explain": "The adjective declines; po polsku does not."
+    },
+    {
+      "prompt_en": "cooking dinner",
+      "mode": "full_word",
+      "answer": "gotowanie obiadu",
+      "accepts": [
+        "gotowanie obiadu"
+      ],
+      "explain": "A noun with a Genitive after it, not a verb with an object."
+    },
+    {
+      "prompt_en": "buying bread",
+      "mode": "full_word",
+      "answer": "kupowanie chleba",
+      "accepts": [
+        "kupowanie chleba"
+      ],
+      "explain": "The same shape as gotowanie obiadu."
+    },
+    {
+      "prompt_en": "making coffee",
+      "mode": "full_word",
+      "answer": "robienie kawy",
+      "accepts": [
+        "robienie kawy"
+      ],
+      "explain": "kawy, the Genitive you have had since A1."
+    },
+    {
+      "prompt_en": "I'm not right.",
+      "mode": "cloze",
+      "frame": "Nie mam ___.",
+      "answer": "racji",
+      "accepts": [
+        "racji"
+      ],
+      "explain": "Negation strips the Accusative out of the phrase."
+    },
+    {
+      "prompt_en": "My sister is listening to music.",
+      "mode": "cloze",
+      "frame": "Siostra słucha ___.",
+      "answer": "muzyki",
+      "accepts": [
+        "muzyki"
+      ],
+      "explain": "The verb decides the case, whoever is doing it."
+    },
+    {
+      "prompt_en": "Dad is looking for work.",
+      "mode": "cloze",
+      "frame": "Tata szuka ___.",
+      "answer": "pracy",
+      "accepts": [
+        "pracy"
+      ],
+      "explain": "Third person, same government."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm looking for work in the city.",
+      "answer": "Szukam pracy w mieście.",
+      "accepts": [
+        "Szukam pracy w mieście.",
+        "Szukam pracy w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is listening to music.",
+      "answer": "Mama słucha muzyki.",
+      "accepts": [
+        "Mama słucha muzyki.",
+        "Mama słucha muzyki"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is learning Polish at school.",
+      "answer": "Siostra uczy się polskiego w szkole.",
+      "accepts": [
+        "Siostra uczy się polskiego w szkole.",
+        "Siostra uczy się polskiego w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a job and I don't have time.",
+      "answer": "Mam pracę i nie mam czasu.",
+      "accepts": [
+        "Mam pracę i nie mam czasu.",
+        "Mam pracę i nie mam czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother isn't right.",
+      "answer": "Brat nie ma racji.",
+      "accepts": [
+        "Brat nie ma racji.",
+        "Brat nie ma racji"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is looking for a good job.",
+      "answer": "Tata szuka dobrej pracy.",
+      "accepts": [
+        "Tata szuka dobrej pracy.",
+        "Tata szuka dobrej pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm learning Polish and looking for work.",
+      "answer": "Uczę się polskiego i szukam pracy.",
+      "accepts": [
+        "Uczę się polskiego i szukam pracy.",
+        "Uczę się polskiego i szukam pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Cooking dinner is easy.",
+      "answer": "Gotowanie obiadu jest łatwe.",
+      "accepts": [
+        "Gotowanie obiadu jest łatwe.",
+        "Gotowanie obiadu jest łatwe"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have time for buying bread.",
+      "answer": "Nie mam czasu na kupowanie chleba.",
+      "accepts": [
+        "Nie mam czasu na kupowanie chleba.",
+        "Nie mam czasu na kupowanie chleba"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child is learning Polish at school.",
+      "answer": "Dziecko uczy się polskiego w szkole.",
+      "accepts": [
+        "Dziecko uczy się polskiego w szkole.",
+        "Dziecko uczy się polskiego w szkole"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "szukam",
+    "szuka",
+    "szukać",
+    "słucham",
+    "słucha",
+    "słuchać",
+    "uczę",
+    "uczy",
+    "uczyć się",
+    "lubię",
+    "mówię",
+    "po polsku",
+    "polski",
+    "polska",
+    "polsku",
+    "praca",
+    "pracy",
+    "muzyka",
+    "muzykę",
+    "obiad",
+    "chleb",
+    "chleba",
+    "mleka",
+    "kawa",
+    "kawę",
+    "kawy",
+    "czas",
+    "czasu",
+    "gotowanie",
+    "kupowanie",
+    "robienie",
+    "mówienie",
+    "mam rację",
+    "masz rację",
+    "ma rację",
+    "łatwe",
+    "dobrej",
+    "dobrego",
+    "nowego",
+    "dobra",
+    "szkole",
+    "mieście",
+    "tata",
+    "mama",
+    "siostra",
+    "brat",
+    "dzieci",
+    "mam",
+    "ma",
+    "jest",
+    "nie",
+    "ale",
+    "dziecko"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_gen_verbs",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

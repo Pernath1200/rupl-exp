@@ -1,0 +1,290 @@
+{
+  "id": "b1_stories",
+  "title": "Opowiadanie · spójniki",
+  "title_en": "Storytelling connectives",
+  "level": "B1",
+  "tree_node": "b1_stories",
+  "default_direction": "en_to_pl",
+  "note": "B1 Block 6 opener (vocab leaf) — the narrative connectives named on B1-SPINE.md's own line for this node: najpierw, potem, w końcu, nagle, niestety. All five confirmed genuinely new via check_new.py before writing a single string (spine flagged 'potem was confirmed untaught during A2' — reconfirmed here, still true). Added a sixth, na szczęście, as the natural opposite of niestety (fortunately/unfortunately) — a contrast pair is easier to anchor than niestety alone, and it keeps the set at a clean 6 rather than stretching the spine's list artificially; also confirmed NEW via check_new.py before adding. This is the unit the spine's own note calls out as the real B1 milestone: it unlocks TELLING A STORY by giving the sequencing words that string together everything already owned (past tense, aspect, motion, virile agreement) into a narrative.\n\nZERO NEW STRUCTURES — every sentence recycles a structure already live: past_byc, past_plural, aspect_past, motion_prefixed (b1_arrive_leave's przyjechał/przyszedł, not the generic aspect_past twins — checked the pack's own teaches_structures before tagging), sie_reflexive, prep_do_gen, prep_w_loc, negation, can_inf, and one virile_past example (oni byli) since that unit is already live on the path. Each sentence gives exactly one new item — the connective — anchored by fully recycled material, per the anchor rule.\n\nDROPPED FROM THE DRAFT, logged: an early draft used 'było zimno' as a nagle example, assuming it was covered by the weather_chunk catalogue description ('fixed past 3sg chunks... było zimno' — SEQUENCING.md's own structure-catalogue row). check_new.py returned NEW — the catalogue row describes what weather_chunk is *for*, not what any live pack has actually tagged in teaches_lemmas yet; no live pack teaches było zimno as a string. Replaced with 'Nagle zgubiłem klucz.' (zgubiłem is a confirmed b1_journeys teach). Logged here so whoever next reaches for a weather-past chunk from that catalogue row checks it first rather than assuming the catalogue description is itself a teach record.\n\nHOMOGRAPH CHECK: none of the six connectives collide with any earlier-taught string under a different sense — all six came back clean NEW, not reused spellings.\n\nAll recycled content (byłem/byłam, robiliśmy, kupiłem/chleb, byliśmy, przyjechał/pociąg, przyszedł/tata, zgubiłem/klucz, spóźniłam się/do pracy, nie mogę teraz rozmawiać, nie spóźniłem się, oni/byli) verified TAUGHT via check_new.py, each against its owning pack, before being used — no homograph risk found on any of them (e.g. klucz/tata/pociąg are the same senses their owning packs taught, not a different meaning of the same string).",
+  "teaches_structures": [],
+  "uses_structures": [
+    "past_byc",
+    "prep_w_loc",
+    "past_plural",
+    "aspect_past",
+    "motion_prefixed",
+    "sie_reflexive",
+    "prep_do_gen",
+    "negation",
+    "can_inf",
+    "virile_past"
+  ],
+  "blocks": [
+    {
+      "id": "stories_words",
+      "title": "Telling what happened",
+      "items": [
+        {
+          "en": "first, first of all",
+          "pl": "najpierw",
+          "icon": "1️⃣"
+        },
+        {
+          "en": "then, next, afterwards",
+          "pl": "potem",
+          "icon": "➡️"
+        },
+        {
+          "en": "finally, in the end",
+          "pl": "w końcu",
+          "icon": "🏁",
+          "explain": "w końcu is built on koniec, the 'end' you already know, but it's a fixed idiom — it doesn't mean a literal place, it means eventually / finally, after some delay or difficulty."
+        },
+        {
+          "en": "suddenly",
+          "pl": "nagle",
+          "icon": "❗"
+        },
+        {
+          "en": "unfortunately",
+          "pl": "niestety",
+          "icon": "😞"
+        },
+        {
+          "en": "fortunately",
+          "pl": "na szczęście",
+          "icon": "😌",
+          "explain": "na szczęście and niestety are opposites — the two words a story uses to say whether the surprise was good or bad. Worth learning as a pair."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "First I was at work. (m)",
+      "pl": "Najpierw byłem w pracy.",
+      "accepts": [
+        "Najpierw byłem w pracy.",
+        "Najpierw byłem w pracy"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "najpierw"
+      ]
+    },
+    {
+      "en": "First we did the shopping.",
+      "pl": "Najpierw robiliśmy zakupy.",
+      "accepts": [
+        "Najpierw robiliśmy zakupy.",
+        "Najpierw robiliśmy zakupy"
+      ],
+      "structures": [
+        "past_plural"
+      ],
+      "lemmas": [
+        "najpierw"
+      ]
+    },
+    {
+      "en": "Then I bought bread. (m)",
+      "pl": "Potem kupiłem chleb.",
+      "accepts": [
+        "Potem kupiłem chleb.",
+        "Potem kupiłem chleb"
+      ],
+      "structures": [
+        "aspect_past"
+      ],
+      "lemmas": [
+        "potem"
+      ]
+    },
+    {
+      "en": "Then we were at home.",
+      "pl": "Potem byliśmy w domu.",
+      "accepts": [
+        "Potem byliśmy w domu.",
+        "Potem byliśmy w domu"
+      ],
+      "structures": [
+        "past_byc",
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "potem"
+      ]
+    },
+    {
+      "en": "Finally the train arrived.",
+      "pl": "W końcu przyjechał pociąg.",
+      "accepts": [
+        "W końcu przyjechał pociąg.",
+        "W końcu przyjechał pociąg",
+        "Przyjechał pociąg w końcu.",
+        "Przyjechał pociąg w końcu"
+      ],
+      "structures": [
+        "motion_prefixed"
+      ],
+      "lemmas": [
+        "w końcu"
+      ],
+      "explain": "przyjechał is the arrive-by-vehicle verb from the last block — one finished arrival."
+    },
+    {
+      "en": "Finally I was at home. (f)",
+      "pl": "W końcu byłam w domu.",
+      "accepts": [
+        "W końcu byłam w domu.",
+        "W końcu byłam w domu",
+        "Byłam w domu w końcu.",
+        "Byłam w domu w końcu"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w końcu"
+      ]
+    },
+    {
+      "en": "Suddenly dad arrived.",
+      "pl": "Nagle przyszedł tata.",
+      "accepts": [
+        "Nagle przyszedł tata.",
+        "Nagle przyszedł tata"
+      ],
+      "structures": [
+        "motion_prefixed"
+      ],
+      "lemmas": [
+        "nagle"
+      ]
+    },
+    {
+      "en": "Suddenly I lost the key. (m)",
+      "pl": "Nagle zgubiłem klucz.",
+      "accepts": [
+        "Nagle zgubiłem klucz.",
+        "Nagle zgubiłem klucz"
+      ],
+      "structures": [
+        "aspect_past"
+      ],
+      "lemmas": [
+        "nagle"
+      ]
+    },
+    {
+      "en": "Unfortunately I was late for work. (f)",
+      "pl": "Niestety spóźniłam się do pracy.",
+      "accepts": [
+        "Niestety spóźniłam się do pracy.",
+        "Niestety spóźniłam się do pracy"
+      ],
+      "structures": [
+        "aspect_past",
+        "sie_reflexive",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "niestety"
+      ]
+    },
+    {
+      "en": "Unfortunately I can't talk right now.",
+      "pl": "Niestety nie mogę teraz rozmawiać.",
+      "accepts": [
+        "Niestety nie mogę teraz rozmawiać.",
+        "Niestety nie mogę teraz rozmawiać"
+      ],
+      "structures": [
+        "negation",
+        "can_inf"
+      ],
+      "lemmas": [
+        "niestety"
+      ]
+    },
+    {
+      "en": "Fortunately I wasn't late. (m)",
+      "pl": "Na szczęście nie spóźniłem się.",
+      "accepts": [
+        "Na szczęście nie spóźniłem się.",
+        "Na szczęście nie spóźniłem się",
+        "Nie spóźniłem się na szczęście.",
+        "Nie spóźniłem się na szczęście"
+      ],
+      "structures": [
+        "negation",
+        "aspect_past",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "na szczęście"
+      ]
+    },
+    {
+      "en": "Fortunately they were at home.",
+      "pl": "Na szczęście oni byli w domu.",
+      "accepts": [
+        "Na szczęście oni byli w domu.",
+        "Na szczęście oni byli w domu",
+        "Oni byli w domu na szczęście.",
+        "Oni byli w domu na szczęście"
+      ],
+      "structures": [
+        "past_plural",
+        "virile_past",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "na szczęście"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "najpierw",
+    "potem",
+    "w końcu",
+    "nagle",
+    "niestety",
+    "na szczęście"
+  ],
+  "uses_lemmas": [
+    "byłem",
+    "byłam",
+    "w pracy",
+    "robiliśmy",
+    "zakupy",
+    "kupiłem",
+    "chleb",
+    "byliśmy",
+    "w domu",
+    "przyjechał",
+    "pociąg",
+    "przyszedł",
+    "tata",
+    "zgubiłem",
+    "klucz",
+    "spóźniłam się",
+    "do pracy",
+    "nie mogę teraz rozmawiać",
+    "nie",
+    "spóźniłem się",
+    "oni",
+    "byli"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_stories",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

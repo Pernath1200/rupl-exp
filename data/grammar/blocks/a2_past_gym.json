@@ -1,0 +1,738 @@
+{
+  "id": "a2_past_gym",
+  "title": "Siłownia · czas przeszły",
+  "title_en": "Past tense gym",
+  "level": "A2",
+  "tree_node": "a2_past_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Gym idiom (like a1_case_gym / a1_present_gym): ZERO new material. Only forms taught in a2_past_byc, a2_past_ac and a2_past_rest — 14 verbs, singular only, both genders, imperfective only. Drills the two live confusions: gender (byłem/byłam, robił/robiła) and person (byłem/byłeś). Situational wczoraj cues rather than announced tense. Cues English-only, Polish lives in frames and answers (the a1_case_gym smoke-test correction). Match board shows the whole seven-slot form system rather than all 14 verbs — 12 rows will not hold both. Every demanded form was checked against the teaches_lemmas of the three support packs; the pack demands nothing they do not tag. Structure IDs past_ac / past_rest are taken from those packs — the orchestrator still has to register them in the catalogue.",
+  "focus_structures": [
+    "past_byc",
+    "past_ac",
+    "past_rest"
+  ],
+  "teaches_structures": [],
+  "uses_structures": [
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "prep_w_loc",
+    "miec_acc",
+    "gen_endings",
+    "negation",
+    "byc_adj",
+    "zgoda",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "Nothing new — just faster",
+      "title_pl": "Nic nowego — tylko szybciej",
+      "body": "Every past form you have met is the same machine: the verb, then -ł-, then a person ending. The ending does two jobs at once — it says who, and it says male or female. This unit only trains the choosing.",
+      "body_pl": "Czasownik + -ł- + końcówka. Kto? Mężczyzna czy kobieta?",
+      "table": {
+        "headers": [
+          "Who",
+          "Ending",
+          "być",
+          "robić"
+        ],
+        "rows": [
+          [
+            "ja — I (man)",
+            "-em",
+            "byłem",
+            "robiłem"
+          ],
+          [
+            "ja — I (woman)",
+            "-am",
+            "byłam",
+            "robiłam"
+          ],
+          [
+            "ty — you (to a man)",
+            "-eś",
+            "byłeś",
+            "robiłeś"
+          ],
+          [
+            "ty — you (to a woman)",
+            "-aś",
+            "byłaś",
+            "robiłaś"
+          ],
+          [
+            "on — he",
+            "no ending",
+            "był",
+            "robił"
+          ],
+          [
+            "ona — she",
+            "-a",
+            "była",
+            "robiła"
+          ],
+          [
+            "ono — it",
+            "-o",
+            "było",
+            "robiło"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The two mistakes this gym kills",
+      "title_pl": "Dwa błędy",
+      "body": "Almost every past-tense error is one of these four. Read the row, then the reason.",
+      "body_pl": "Kto mówi? Jaki rodzaj?",
+      "table": {
+        "headers": [
+          "Situation",
+          "Wrong",
+          "Right",
+          "Reason"
+        ],
+        "rows": [
+          [
+            "a man says: I was",
+            "byłam",
+            "byłem",
+            "-em is the man's I-ending"
+          ],
+          [
+            "you ask a woman: were you?",
+            "byłeś",
+            "byłaś",
+            "-aś is the woman's you-ending"
+          ],
+          [
+            "same person, wrong slot",
+            "byłem? (asking)",
+            "byłeś?",
+            "-em = I, -eś = you"
+          ],
+          [
+            "a feminine noun as subject",
+            "mama robił",
+            "mama robiła",
+            "the noun's gender picks the verb"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Wczoraj",
+      "title_pl": "Wczoraj",
+      "body": "From here on nothing announces the past — wczoraj (yesterday) sets the scene and the verb carries the rest. The bracket tells you the gender you need: (m) a man speaking or spoken to, (f) a woman.",
+      "body_pl": "Wczoraj — reszta jest w czasowniku.",
+      "examples": [
+        {
+          "en": "Yesterday I was at work. (m)",
+          "pl": "Wczoraj byłem w pracy."
+        },
+        {
+          "en": "Yesterday I was at work. (f)",
+          "pl": "Wczoraj byłam w pracy."
+        },
+        {
+          "en": "Yesterday Mum was drinking coffee.",
+          "pl": "Wczoraj mama piła kawę."
+        },
+        {
+          "en": "Yesterday Dad was working at home.",
+          "pl": "Wczoraj tata pracował w domu."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was (m)",
+      "pl": "byłem"
+    },
+    {
+      "en": "I was (f)",
+      "pl": "byłam"
+    },
+    {
+      "en": "you were (m)",
+      "pl": "byłeś"
+    },
+    {
+      "en": "you were (f)",
+      "pl": "byłaś"
+    },
+    {
+      "en": "it was",
+      "pl": "było"
+    },
+    {
+      "en": "he was reading",
+      "pl": "czytał"
+    },
+    {
+      "en": "she was reading",
+      "pl": "czytała"
+    },
+    {
+      "en": "I was doing (m)",
+      "pl": "robiłem"
+    },
+    {
+      "en": "I was doing (f)",
+      "pl": "robiłam"
+    },
+    {
+      "en": "you were living (m)",
+      "pl": "mieszkałeś"
+    },
+    {
+      "en": "you were living (f)",
+      "pl": "mieszkałaś"
+    },
+    {
+      "en": "she was playing",
+      "pl": "grała"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Wczoraj ___ w domu. · I was — a man speaking",
+      "choices": [
+        "byłem",
+        "byłam",
+        "byłeś",
+        "był"
+      ],
+      "answer": "byłem"
+    },
+    {
+      "prompt": "Wczoraj ___ w pracy. · I was — a woman speaking",
+      "choices": [
+        "byłam",
+        "byłem",
+        "byłaś",
+        "była"
+      ],
+      "answer": "byłam"
+    },
+    {
+      "prompt": "Wczoraj ___ w parku? · were you — asking a woman",
+      "choices": [
+        "byłaś",
+        "byłeś",
+        "byłam",
+        "była"
+      ],
+      "answer": "byłaś",
+      "explain": "Two things have to be right at once: -a- because she is a woman, -ś because you are asking her. byłam would put you in the sentence instead of her."
+    },
+    {
+      "prompt": "Wczoraj mama ___ obiad. · was making",
+      "choices": [
+        "robiła",
+        "robił",
+        "robiło",
+        "robiłam"
+      ],
+      "answer": "robiła",
+      "explain": "mama is feminine, so the past verb takes -a. robiłam would mean I was making it — the -m puts the speaker in the sentence."
+    },
+    {
+      "prompt": "Wczoraj tata ___ książkę. · was reading",
+      "choices": [
+        "czytał",
+        "czytała",
+        "czytało",
+        "czytałem"
+      ],
+      "answer": "czytał",
+      "explain": "tata ends in -a but is a man, and for people the real-life gender wins — so the verb takes the bare masculine form with no ending at all."
+    },
+    {
+      "prompt": "Wczoraj ___ kawę. · I was drinking — a woman speaking",
+      "choices": [
+        "piłam",
+        "piłem",
+        "piłaś",
+        "piła"
+      ],
+      "answer": "piłam"
+    },
+    {
+      "prompt": "Wczoraj ___ śniadanie. · you were making — asking a man",
+      "choices": [
+        "robiłeś",
+        "robiłem",
+        "robiłaś",
+        "robił"
+      ],
+      "answer": "robiłeś",
+      "explain": "Both robiłem and robiłeś are male forms — the gender is not the problem here, the person is. -em = I, -eś = you."
+    },
+    {
+      "prompt": "Wczoraj Anna ___ chleb. · was buying",
+      "choices": [
+        "kupowała",
+        "kupował",
+        "kupowałam",
+        "kupowało"
+      ],
+      "answer": "kupowała"
+    },
+    {
+      "prompt": "Fix: Wczoraj tata piła kawę. →",
+      "choices": [
+        "pił",
+        "piła",
+        "piło",
+        "piłem"
+      ],
+      "answer": "pił"
+    },
+    {
+      "prompt": "Fix: Wczoraj ona chciał zupę. →",
+      "choices": [
+        "chciała",
+        "chciał",
+        "chciało",
+        "chciałam"
+      ],
+      "answer": "chciała"
+    },
+    {
+      "prompt": "Wczoraj nie ___ czasu. · I had — a man speaking",
+      "choices": [
+        "miałem",
+        "miałam",
+        "miał",
+        "miałeś"
+      ],
+      "answer": "miałem",
+      "explain": "miał on its own would mean he had. The -em is what puts you in the sentence, and it is the man's ending."
+    },
+    {
+      "prompt": "Wczoraj jedzenie ___ dobre. · was",
+      "choices": [
+        "było",
+        "był",
+        "była",
+        "byłem"
+      ],
+      "answer": "było",
+      "explain": "jedzenie is neuter, and neuter takes -o — the same -o you can hear on the adjective dobre."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "ja (m) · być",
+      "mode": "full_word",
+      "answer": "byłem",
+      "accepts": [
+        "byłem"
+      ]
+    },
+    {
+      "prompt_en": "ja (f) · być",
+      "mode": "full_word",
+      "answer": "byłam",
+      "accepts": [
+        "byłam"
+      ]
+    },
+    {
+      "prompt_en": "ty (f) · być",
+      "mode": "full_word",
+      "answer": "byłaś",
+      "accepts": [
+        "byłaś"
+      ]
+    },
+    {
+      "prompt_en": "ono · być",
+      "mode": "full_word",
+      "answer": "było",
+      "accepts": [
+        "było"
+      ]
+    },
+    {
+      "prompt_en": "ja (m) · mieszkać",
+      "mode": "full_word",
+      "answer": "mieszkałem",
+      "accepts": [
+        "mieszkałem"
+      ]
+    },
+    {
+      "prompt_en": "ona · mieszkać",
+      "mode": "full_word",
+      "answer": "mieszkała",
+      "accepts": [
+        "mieszkała"
+      ]
+    },
+    {
+      "prompt_en": "ja (f) · czytać",
+      "mode": "full_word",
+      "answer": "czytałam",
+      "accepts": [
+        "czytałam"
+      ]
+    },
+    {
+      "prompt_en": "ty (m) · czytać",
+      "mode": "full_word",
+      "answer": "czytałeś",
+      "accepts": [
+        "czytałeś"
+      ]
+    },
+    {
+      "prompt_en": "ja (f) · grać",
+      "mode": "full_word",
+      "answer": "grałam",
+      "accepts": [
+        "grałam"
+      ]
+    },
+    {
+      "prompt_en": "ty (m) · grać",
+      "mode": "full_word",
+      "answer": "grałeś",
+      "accepts": [
+        "grałeś"
+      ]
+    },
+    {
+      "prompt_en": "ja (f) · znać",
+      "mode": "full_word",
+      "answer": "znałam",
+      "accepts": [
+        "znałam"
+      ]
+    },
+    {
+      "prompt_en": "ona · znać",
+      "mode": "full_word",
+      "answer": "znała",
+      "accepts": [
+        "znała"
+      ]
+    },
+    {
+      "prompt_en": "on · kochać",
+      "mode": "full_word",
+      "answer": "kochał",
+      "accepts": [
+        "kochał"
+      ],
+      "explain": "The he-form is the shortest in the whole tense: stem plus -ł and stop. Nothing is missing — an empty ending is the ending."
+    },
+    {
+      "prompt_en": "ja (f) · pracować",
+      "mode": "full_word",
+      "answer": "pracowałam",
+      "accepts": [
+        "pracowałam"
+      ],
+      "explain": "Built from the infinitive pracować, not from the present pracuję — that is why there is no -uj- anywhere in it."
+    },
+    {
+      "prompt_en": "on · kupować",
+      "mode": "full_word",
+      "answer": "kupował",
+      "accepts": [
+        "kupował"
+      ]
+    },
+    {
+      "prompt_en": "ja (m) · robić",
+      "mode": "full_word",
+      "answer": "robiłem",
+      "accepts": [
+        "robiłem"
+      ]
+    },
+    {
+      "prompt_en": "ona · mówić",
+      "mode": "full_word",
+      "answer": "mówiła",
+      "accepts": [
+        "mówiła"
+      ]
+    },
+    {
+      "prompt_en": "ja (m) · lubić",
+      "mode": "full_word",
+      "answer": "lubiłem",
+      "accepts": [
+        "lubiłem"
+      ]
+    },
+    {
+      "prompt_en": "ja (m) · pić",
+      "mode": "full_word",
+      "answer": "piłem",
+      "accepts": [
+        "piłem"
+      ]
+    },
+    {
+      "prompt_en": "ona · mieć",
+      "mode": "full_word",
+      "answer": "miała",
+      "accepts": [
+        "miała"
+      ]
+    },
+    {
+      "prompt_en": "ja (f) · chcieć",
+      "mode": "full_word",
+      "answer": "chciałam",
+      "accepts": [
+        "chciałam"
+      ],
+      "explain": "mieć and chcieć are the two worth keeping as whole words — miałam, chciałam. Learn the finished form, do not build it."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Yesterday Dad was working at the office.",
+      "answer": "Wczoraj tata pracował w biurze.",
+      "accepts": [
+        "Wczoraj tata pracował w biurze.",
+        "Wczoraj tata pracował w biurze",
+        "Tata wczoraj pracował w biurze.",
+        "Tata wczoraj pracował w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday Mum was buying bread.",
+      "answer": "Wczoraj mama kupowała chleb.",
+      "accepts": [
+        "Wczoraj mama kupowała chleb.",
+        "Wczoraj mama kupowała chleb",
+        "Mama wczoraj kupowała chleb.",
+        "Mama wczoraj kupowała chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I was reading a book. (m)",
+      "answer": "Wczoraj czytałem książkę.",
+      "accepts": [
+        "Wczoraj czytałem książkę.",
+        "Wczoraj czytałem książkę",
+        "Czytałem wczoraj książkę.",
+        "Czytałem wczoraj książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I was drinking tea. (f)",
+      "answer": "Wczoraj piłam herbatę.",
+      "accepts": [
+        "Wczoraj piłam herbatę.",
+        "Wczoraj piłam herbatę",
+        "Piłam wczoraj herbatę.",
+        "Piłam wczoraj herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday the soup was good.",
+      "answer": "Wczoraj zupa była dobra.",
+      "accepts": [
+        "Wczoraj zupa była dobra.",
+        "Wczoraj zupa była dobra",
+        "Zupa wczoraj była dobra.",
+        "Zupa wczoraj była dobra"
+      ],
+      "explain": "Double agreement again: zupa is feminine, so the verb and the adjective both take -a — była dobra."
+    },
+    {
+      "prompt_en": "Type: Yesterday my brother was playing in the park.",
+      "answer": "Wczoraj brat grał w parku.",
+      "accepts": [
+        "Wczoraj brat grał w parku.",
+        "Wczoraj brat grał w parku",
+        "Brat wczoraj grał w parku.",
+        "Brat wczoraj grał w parku",
+        "Wczoraj mój brat grał w parku.",
+        "Wczoraj mój brat grał w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday Mum was at the shop.",
+      "answer": "Wczoraj mama była w sklepie.",
+      "accepts": [
+        "Wczoraj mama była w sklepie.",
+        "Wczoraj mama była w sklepie",
+        "Mama wczoraj była w sklepie.",
+        "Mama wczoraj była w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I wanted soup. (m)",
+      "answer": "Wczoraj chciałem zupę.",
+      "accepts": [
+        "Wczoraj chciałem zupę.",
+        "Wczoraj chciałem zupę",
+        "Chciałem wczoraj zupę.",
+        "Chciałem wczoraj zupę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I had a meeting. (f)",
+      "answer": "Wczoraj miałam spotkanie.",
+      "accepts": [
+        "Wczoraj miałam spotkanie.",
+        "Wczoraj miałam spotkanie",
+        "Miałam wczoraj spotkanie.",
+        "Miałam wczoraj spotkanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: What were you doing yesterday? (to a woman)",
+      "answer": "Co wczoraj robiłaś?",
+      "accepts": [
+        "Co wczoraj robiłaś?",
+        "Co wczoraj robiłaś",
+        "Co robiłaś wczoraj?",
+        "Co robiłaś wczoraj"
+      ],
+      "explain": "Two endings stacked: -a- because you are asking a woman, -ś because you are asking her, not talking about yourself."
+    },
+    {
+      "prompt_en": "Type: Did Dad like the film?",
+      "answer": "Czy tata lubił film?",
+      "accepts": [
+        "Czy tata lubił film?",
+        "Czy tata lubił film",
+        "Tata lubił film?",
+        "Tata lubił film"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday Dad knew the answer.",
+      "answer": "Wczoraj tata znał odpowiedź.",
+      "accepts": [
+        "Wczoraj tata znał odpowiedź.",
+        "Wczoraj tata znał odpowiedź",
+        "Tata wczoraj znał odpowiedź.",
+        "Tata wczoraj znał odpowiedź"
+      ]
+    }
+  ],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "byłem",
+    "byłam",
+    "byłeś",
+    "byłaś",
+    "był",
+    "była",
+    "było",
+    "mieszkałem",
+    "mieszkała",
+    "czytałem",
+    "czytałam",
+    "czytałeś",
+    "czytał",
+    "czytała",
+    "grałam",
+    "grał",
+    "grała",
+    "znał",
+    "znała",
+    "kochał",
+    "pracowałem",
+    "pracowałam",
+    "pracował",
+    "kupował",
+    "kupowała",
+    "robiłem",
+    "robiłam",
+    "robił",
+    "robiła",
+    "mówiła",
+    "piłem",
+    "piłam",
+    "pił",
+    "piła",
+    "miałem",
+    "miałam",
+    "miała",
+    "chciałem",
+    "chciałam",
+    "chciała",
+    "być",
+    "mieszkać",
+    "czytać",
+    "grać",
+    "znać",
+    "kochać",
+    "pracować",
+    "kupować",
+    "robić",
+    "mówić",
+    "lubić",
+    "pić",
+    "mieć",
+    "chcieć",
+    "wczoraj",
+    "czy",
+    "nie",
+    "mama",
+    "tata",
+    "brat",
+    "mój",
+    "anna",
+    "obiad",
+    "chleb",
+    "kawę",
+    "herbatę",
+    "książkę",
+    "zupa",
+    "zupę",
+    "film",
+    "odpowiedź",
+    "spotkanie",
+    "jedzenie",
+    "czasu",
+    "dobra",
+    "dobre",
+    "w domu",
+    "w pracy",
+    "w parku",
+    "w biurze",
+    "w sklepie",
+    "grałeś",
+    "lubił",
+    "lubiłem",
+    "mieszkałaś",
+    "mieszkałeś",
+    "robiłaś",
+    "robiłeś",
+    "znałam",
+    "śniadanie",
+    "co"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_past_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

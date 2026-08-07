@@ -1,0 +1,586 @@
+{
+  "id": "c1_suppl_pl",
+  "title": "Oko · oczy",
+  "title_en": "The plural that is a different word",
+  "level": "C1",
+  "tree_node": "c1_suppl_pl",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 4, unit 4 - the block's closer, and deliberately the small one. THREE NEW STRINGS ONLY: oczy, uszy, rece. a2_plural_nom fenced these three suppletives by name; this pays that fence. THE ANCHOR IS dzieci, TAUGHT <- a2_family2 [58], verified with check_new.py rather than inherited from the inbox, which had wrongly listed dzieci as still owing a unit. SCOPE FORK, TAKEN CONSERVATIVELY AND LOGGED: the plural OBLIQUES of these three (oczu, uszu, rak, rekach, rekami/rekoma, oczami/oczyma) are OUT. They are a second system - the genitive plural of ock and ucho takes an -u found nowhere else in the course, and rak carries an e->a nasal shift that nothing has explained - so folding them in would make a small closing unit into the densest node of Block 4, against the load-splitting rule and against batch 6's own digest note that this unit is where the block should slow down. Nothing in the unit needs them: every frame here is Nominative or Accusative, and the non-virile Acc=Nom fact makes those the same form. WHAT THE RULES PREDICT IS STATED WITHOUT PRINTING A FALSE FORM: the slide names the ENDING the learner's rule points at (the neuter -a; the k/g -i) rather than writing *oka / *ucha, because those two strings are real Polish genitive singulars and marking them wrong would plant a mis-learning. That is the same discipline c1_irreg_virile used with bratom, one step more careful because these candidates are real words. THE reki OBSERVATION IS THE UNIT'S SHARPEST: the shape the k/g rule predicts for the plural of reka is reki, which the learner has OWNED since a1_gen_ki [39] as the Genitive singular - so the prediction is not merely wrong, it is already spoken for by another job. reki is used as a quiz distractor for exactly that reason and is named on the slide, per the homograph rule. THE DUAL IS TAUGHT AS HISTORY, NOT AS A RULE: AGENTS pitches the register for a linguistically-inclined adult, and the fact that these are the surviving dual forms of the three things that come in pairs is the best possible hook for three arbitrary words - but the slide says plainly that it cannot be used to build anything new. nogi is NOT used anywhere: it is TAUGHT <- a1_gen_ki [39] as a Genitive singular, and using it as the regular plural counterexample would be the homograph trap in the very unit that warns about it; the counterexample stays in English. myje rece was refused too - myc is owned only as the reflexive myje sie (a2_sie), so a transitive object would be a new fact.",
+  "focus_structures": [
+    "suppl_pl"
+  ],
+  "teaches_structures": [
+    "suppl_pl"
+  ],
+  "teaches_lemmas": [
+    "oczy",
+    "uszy",
+    "ręce"
+  ],
+  "uses_structures": [
+    "suppl_pl",
+    "plural_nom",
+    "virile_irreg",
+    "ten_ta_to",
+    "zgoda",
+    "poss_nom",
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "miec_present",
+    "miec_acc",
+    "dat_chunks",
+    "adj_pl_virile"
+  ],
+  "intro": [
+    {
+      "title": "One plural you already have that is not built from its singular",
+      "title_pl": "dziecko → dzieci",
+      "body": "You have been saying dzieci since A2 without looking at it closely. It is worth a look. dziecko is neuter, and the neuter plural rule you own turns -o into -a. dzieci is not that. It is not reached from dziecko by any ending in the course.\n\nThree more nouns do the same thing, and they are three of the most useful words in the body vocabulary you learned at A1: oko, ucho, ręka.\n\nFor these four, the plural is a word of its own. You learn it once, and after that everything about it is ordinary.",
+      "body_pl": "dziecko → dzieci · oko → oczy · ucho → uszy · ręka → ręce",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "English"
+        ],
+        "rows": [
+          [
+            "dziecko",
+            "dzieci",
+            "child → children"
+          ],
+          [
+            "oko",
+            "oczy",
+            "eye → eyes"
+          ],
+          [
+            "ucho",
+            "uszy",
+            "ear → ears"
+          ],
+          [
+            "ręka",
+            "ręce",
+            "hand → hands"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What your own rules point at — and why they miss",
+      "title_pl": "ręka → ręce, nie ręki",
+      "body": "oko and ucho are neuter, so the rule you have points at the neuter ending. ręka is feminine and its stem ends in -k, so the k/g rule points at the ending -i. Neither prediction is the plural.\n\nręka is the sharper of the two, because the shape the rule predicts is a form you already own: ręki is the Genitive singular, learned back at A1. So the prediction is not just wrong here — that shape is already doing another job in the language.\n\nThis is the reason the three have to be learned rather than worked out.",
+      "body_pl": "oko · ucho · ręka — rodzaj nijaki i żeński",
+      "table": {
+        "headers": [
+          "Noun",
+          "The ending your rule points at",
+          "The plural that is actually there"
+        ],
+        "rows": [
+          [
+            "oko · n.",
+            "the neuter plural ending",
+            "oczy"
+          ],
+          [
+            "ucho · n.",
+            "the neuter plural ending",
+            "uszy"
+          ],
+          [
+            "ręka · f.",
+            "the k/g ending -i",
+            "ręce"
+          ],
+          [
+            "ręka · f.",
+            "— and -i is taken: ręki is the Genitive singular",
+            "ręce"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Why exactly these three, and not the leg or the finger",
+      "title_pl": "oczy · uszy · ręce",
+      "body": "There is a reason, and it is a good place to hang three arbitrary words.\n\nOld Polish had a third number, between the singular and the plural: a dual, used for things that come in twos. It disappeared from the language centuries ago — except in a few words, where the old dual form simply stayed on and became the modern plural. Eyes, ears and hands come in pairs. That is why these three, and not the leg, the finger or the tooth.\n\nIt is history, not a rule. You cannot use it to build a new word: nothing else in modern Polish counts in twos any more. It only explains the ones that are already there.",
+      "body_pl": "para: oczy · uszy · ręce",
+      "examples": [
+        "Bolą mnie oczy.",
+        "Bolą mnie uszy.",
+        "Bolą mnie ręce."
+      ]
+    },
+    {
+      "title": "Nothing else in the sentence notices",
+      "title_pl": "te oczy · moje ręce · duże uszy",
+      "body": "Once you have the plural itself, no new agreement comes with it. All three are non-virile plurals — things, not groups of men — so everything in front of them takes the plural forms you have had since A2: te, moje, duże, małe.\n\nAnd because they are non-virile, the Accusative is the same as the Nominative. Mam małe ręce uses exactly the form that stands as the subject in Moje ręce są małe. One form, both jobs.",
+      "body_pl": "biernik = mianownik · liczba mnoga niemęskoosobowa",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English",
+          "What is doing the work"
+        ],
+        "rows": [
+          [
+            "te oczy",
+            "these eyes",
+            "the non-virile te"
+          ],
+          [
+            "moje ręce",
+            "my hands",
+            "the plural moje"
+          ],
+          [
+            "duże uszy",
+            "big ears",
+            "the plural adjective -e"
+          ],
+          [
+            "Mam małe ręce.",
+            "I have small hands",
+            "Accusative = Nominative in the non-virile plural"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What to carry away",
+      "title_pl": "oczy · uszy · ręce · dzieci",
+      "body": "Three plurals to learn as words, plus the one you have had since A2 keeping them company.\n\nThat closes the plural. Between the softening families, the -owie family, the four person-nouns with their own stem and these three, every plural this course owes you is now on the table.",
+      "body_pl": "oko → oczy · ucho → uszy · ręka → ręce",
+      "table": {
+        "headers": [
+          "One",
+          "More than one",
+          "In a sentence"
+        ],
+        "rows": [
+          [
+            "oko",
+            "oczy",
+            "Te oczy są duże."
+          ],
+          [
+            "ucho",
+            "uszy",
+            "Bolą mnie uszy."
+          ],
+          [
+            "ręka",
+            "ręce",
+            "Mam małe ręce."
+          ],
+          [
+            "dziecko",
+            "dzieci",
+            "Dzieci mają małe ręce."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "eyes",
+      "pl": "oczy"
+    },
+    {
+      "en": "one eye",
+      "pl": "oko"
+    },
+    {
+      "en": "ears",
+      "pl": "uszy"
+    },
+    {
+      "en": "one ear",
+      "pl": "ucho"
+    },
+    {
+      "en": "hands",
+      "pl": "ręce"
+    },
+    {
+      "en": "one hand",
+      "pl": "ręka"
+    },
+    {
+      "en": "children",
+      "pl": "dzieci"
+    },
+    {
+      "en": "big eyes",
+      "pl": "duże oczy"
+    },
+    {
+      "en": "small hands",
+      "pl": "małe ręce"
+    },
+    {
+      "en": "my hands",
+      "pl": "moje ręce"
+    },
+    {
+      "en": "these eyes",
+      "pl": "te oczy"
+    },
+    {
+      "en": "my eyes hurt",
+      "pl": "bolą mnie oczy"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Te ___ są duże. (these eyes are big)",
+      "choices": [
+        "oczy",
+        "oko",
+        "uszy",
+        "ręce"
+      ],
+      "answer": "oczy",
+      "explain": "The plural of oko is a word of its own — it is not built from oko by an ending."
+    },
+    {
+      "prompt": "Bolą mnie ___. (my ears hurt)",
+      "choices": [
+        "uszy",
+        "ucho",
+        "oczy",
+        "ręce"
+      ],
+      "answer": "uszy",
+      "explain": "bolą is the plural, so more than one ear: uszy. One ear would be boli mnie ucho."
+    },
+    {
+      "prompt": "Mam małe ___. (I have small hands)",
+      "choices": [
+        "ręce",
+        "ręka",
+        "ręki",
+        "uszy"
+      ],
+      "answer": "ręce",
+      "explain": "ręki is the shape the k/g rule points at — but it is the Genitive singular you learned at A1, not the plural."
+    },
+    {
+      "prompt": "To jest moje ___. (this is my eye — one)",
+      "choices": [
+        "oko",
+        "oczy",
+        "ucho",
+        "uszy"
+      ],
+      "answer": "oko",
+      "explain": "One of them, so the plain dictionary form: oko, neuter, hence moje."
+    },
+    {
+      "prompt": "Dziecko ma małe ___. (the child has small ears)",
+      "choices": [
+        "uszy",
+        "ucho",
+        "ręce",
+        "oczy"
+      ],
+      "answer": "uszy",
+      "explain": "Accusative after ma — and in the non-virile plural that is the same form as the Nominative."
+    },
+    {
+      "prompt": "Moja ___ jest mała. (my hand is small — one)",
+      "choices": [
+        "ręka",
+        "ręce",
+        "ręki",
+        "ucho"
+      ],
+      "answer": "ręka",
+      "explain": "One hand: the dictionary form. ręki is the Genitive singular and is not a subject."
+    },
+    {
+      "prompt": "Te ___ mają duże oczy. (these children have big eyes)",
+      "choices": [
+        "dzieci",
+        "dziecko",
+        "dzieciom",
+        "dziećmi"
+      ],
+      "answer": "dzieci",
+      "explain": "The subject of the sentence, so the Nominative plural — the one you have had since A2."
+    },
+    {
+      "prompt": "Mama ma zmęczone ___. (mum has tired eyes)",
+      "choices": [
+        "oczy",
+        "oko",
+        "uszy",
+        "dzieci"
+      ],
+      "answer": "oczy",
+      "explain": "zmęczone is the non-virile plural adjective, so it is pointing at a non-virile plural noun."
+    },
+    {
+      "prompt": "Ten człowiek ma duże ___. (this man has big ears)",
+      "choices": [
+        "uszy",
+        "ucho",
+        "oczy",
+        "ręce"
+      ],
+      "answer": "uszy",
+      "explain": "The noun is a thing, not a group of men, so nothing virile happens here — only the plural itself is unusual."
+    },
+    {
+      "prompt": "Moje ___ są małe. (my hands are small)",
+      "choices": [
+        "ręce",
+        "ręka",
+        "ręki",
+        "uszy"
+      ],
+      "answer": "ręce",
+      "explain": "The subject, and the same form you would use as an object: Mam małe ręce."
+    },
+    {
+      "prompt": "___ oczy są duże. (these eyes are big)",
+      "choices": [
+        "Te",
+        "Ten",
+        "Ta",
+        "To"
+      ],
+      "answer": "Te",
+      "explain": "oczy is a non-virile plural, so te — exactly as with okna or gazety."
+    },
+    {
+      "prompt": "Boli mnie ___. (my ear hurts — one)",
+      "choices": [
+        "ucho",
+        "uszy",
+        "oko",
+        "ręce"
+      ],
+      "answer": "ucho",
+      "explain": "boli is singular, so one ear. The verb tells you the number before the noun does."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "oko · n. (eye) → more than one",
+      "mode": "full_word",
+      "answer": "oczy",
+      "accepts": [
+        "oczy"
+      ],
+      "explain": "A word of its own — the surviving old form for a pair."
+    },
+    {
+      "prompt_en": "ucho · n. (ear) → more than one",
+      "mode": "full_word",
+      "answer": "uszy",
+      "accepts": [
+        "uszy"
+      ],
+      "explain": "Same story as oczy: a pair word that stayed."
+    },
+    {
+      "prompt_en": "I have small hands.",
+      "mode": "cloze",
+      "frame": "Mam małe ___.",
+      "answer": "ręce",
+      "accepts": [
+        "ręce"
+      ],
+      "explain": "Not ręki — that shape is the Genitive singular and was taken long ago."
+    },
+    {
+      "prompt_en": "This is my eye. (one)",
+      "mode": "cloze",
+      "frame": "To jest moje ___.",
+      "answer": "oko",
+      "accepts": [
+        "oko"
+      ],
+      "explain": "One of a pair, so the ordinary singular."
+    },
+    {
+      "prompt_en": "My hand is small. (one hand)",
+      "mode": "cloze",
+      "frame": "Moja ___ jest mała.",
+      "answer": "ręka",
+      "accepts": [
+        "ręka"
+      ],
+      "explain": "The singular is completely regular; only the plural is odd."
+    },
+    {
+      "prompt_en": "My ear hurts. (one ear)",
+      "mode": "cloze",
+      "frame": "Boli mnie ___.",
+      "answer": "ucho",
+      "accepts": [
+        "ucho"
+      ],
+      "explain": "boli, not bolą — one ear."
+    },
+    {
+      "prompt_en": "These children have big eyes.",
+      "mode": "cloze",
+      "frame": "Te ___ mają duże oczy.",
+      "answer": "dzieci",
+      "accepts": [
+        "dzieci"
+      ],
+      "explain": "The oldest member of this small family, owned since A2."
+    },
+    {
+      "prompt_en": "Mum has tired eyes.",
+      "mode": "cloze",
+      "frame": "Mama ma ___ oczy.",
+      "answer": "zmęczone",
+      "accepts": [
+        "zmęczone"
+      ],
+      "explain": "oczy is a non-virile plural, so the adjective takes -e."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: My eyes hurt.",
+      "answer": "Bolą mnie oczy.",
+      "accepts": [
+        "Bolą mnie oczy.",
+        "Bolą mnie oczy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister has big eyes.",
+      "answer": "Moja siostra ma duże oczy.",
+      "accepts": [
+        "Moja siostra ma duże oczy.",
+        "Moja siostra ma duże oczy"
+      ]
+    },
+    {
+      "prompt_en": "Type: This man has small ears.",
+      "answer": "Ten człowiek ma małe uszy.",
+      "accepts": [
+        "Ten człowiek ma małe uszy.",
+        "Ten człowiek ma małe uszy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandad has big ears.",
+      "answer": "Dziadek ma duże uszy.",
+      "accepts": [
+        "Dziadek ma duże uszy.",
+        "Dziadek ma duże uszy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Children have small hands.",
+      "answer": "Dzieci mają małe ręce.",
+      "accepts": [
+        "Dzieci mają małe ręce.",
+        "Dzieci mają małe ręce"
+      ]
+    },
+    {
+      "prompt_en": "Type: My hands hurt.",
+      "answer": "Bolą mnie ręce.",
+      "accepts": [
+        "Bolą mnie ręce.",
+        "Bolą mnie ręce"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher has tired eyes.",
+      "answer": "Nauczycielka ma zmęczone oczy.",
+      "accepts": [
+        "Nauczycielka ma zmęczone oczy.",
+        "Nauczycielka ma zmęczone oczy"
+      ]
+    },
+    {
+      "prompt_en": "Type: This child has small hands.",
+      "answer": "To dziecko ma małe ręce.",
+      "accepts": [
+        "To dziecko ma małe ręce.",
+        "To dziecko ma małe ręce"
+      ]
+    },
+    {
+      "prompt_en": "Type: My hands are small.",
+      "answer": "Moje ręce są małe.",
+      "accepts": [
+        "Moje ręce są małe.",
+        "Moje ręce są małe"
+      ]
+    },
+    {
+      "prompt_en": "Type: These children have big ears.",
+      "answer": "Te dzieci mają duże uszy.",
+      "accepts": [
+        "Te dzieci mają duże uszy.",
+        "Te dzieci mają duże uszy"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "oko",
+    "ucho",
+    "ręka",
+    "ręki",
+    "dziecko",
+    "dzieci",
+    "dzieciom",
+    "dziećmi",
+    "człowiek",
+    "dziadek",
+    "siostra",
+    "nauczycielka",
+    "mama",
+    "okna",
+    "gazety",
+    "te",
+    "ten",
+    "ta",
+    "to",
+    "moja",
+    "moje",
+    "małe",
+    "mała",
+    "duże",
+    "zmęczone",
+    "jest",
+    "są",
+    "mam",
+    "ma",
+    "mają",
+    "boli",
+    "bolą",
+    "boli mnie",
+    "bolą mnie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_suppl_pl",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

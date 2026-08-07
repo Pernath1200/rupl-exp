@@ -1,0 +1,778 @@
+{
+  "id": "a2_imperative",
+  "title": "Czekaj! · Proszę czekać.",
+  "title_en": "Telling someone to do something",
+  "level": "A2",
+  "tree_node": "a2_imperative",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "CLOSED CHUNK SET — NOT A RULE. The Polish imperative is built off the perfective stem with real irregularity, and aspect has only just been named in a2_aspect. So this unit teaches five whole words to recognise and say, on exactly the terms miałem/chciałem were taught: no formation, no stem talk, nothing to take apart. FIVE FORMS: czekaj, słuchaj, idź, chodź, daj. Base-verb check against POOL: słuchać/słucham LIVE, iść/idę LIVE, chodzić/chodzę LIVE — so słuchaj, idź, chodź all sit next to a verb Dad already produces. czekać is NOT in POOL and is taught here as a new lemma, because Proszę czekać is the flagship of the polite lane and needs it. daj is opaque: dać is not in POOL, is not taught, and is never shown — daj is a single word with no relatives on screen. patrz was DROPPED: patrzeć is not in POOL either, and unlike czekać it earns no second job in the unit, so it would have been a bare orphan. weź (in the tree-node draft note) was dropped for the same reason plus a worse stem. SECOND LANE — proszę + infinitive. Framed as the safe version Dad can always fall back on, the same escape-hatch move a2_ordering_func made with Co jest dobre?. The anchor is that he ALREADY says Proszę iść prosto (POOL: proszę iść, proszę iść prosto, from a2_directions_func) — so the pattern is half-owned before it is named. Infinitives used: czekać (new), słuchać, mówić, powtarzać, all imperfective and all in POOL except czekać. FENCE — WHAT THIS UNIT NEVER DOES. (1) It never states how an imperative is formed: no 3sg stem, no drop-the-ending, no -j. (2) It never contrasts daj or idź with an infinitive — dać and iść do not appear on the same slide, in the same table, or in the same quiz item as their imperatives. The one register table pairs only czekaj/czekać and słuchaj/słuchać, and slide 4's Proszę iść prosto row is deliberately a whole phrase Dad already owns, sitting three slides away from idź and never beside it. (3) NO negative imperatives — nie rób takes the imperfective and reverses the aspect rule Dad just met; the whole nie + imperative family is absent, including from distractors. (4) NO plural or formal imperative — no niech pan, no niech pani, no czekajcie. Politeness to a stranger is handled entirely by proszę + infinitive. (5) NO 1pl — no chodźmy, idźmy. REGISTER IS THE REAL CONTENT. Because there is no morphology to teach, the unit's actual teaching load is when to use which: the short word to family and friends, proszę + infinitive to anyone, and Poproszę (already owned) at any counter where money changes hands. Daj kawę at your own kitchen table vs Poproszę kawę in a café is quiz item 5 and is the single most useful discrimination in the pack. DIRECTION IS THE OTHER HALF: idź sends the person away from you, chodź brings them towards you. English blurs this (\"come to the shop with me\" / \"go to the shop\"), Polish does not, and it is a meaning contrast rather than a form contrast, so it is safe. LEMMA CHECKS: problem, pytanie, lekarz, klucz, tutaj, prosto, po polsku, płacę kartą, herbatę, kawy (negated genitive), do sklepu, do parku, w szpitalu all verified in POOL. Jest późno was DROPPED from use item 3 — the impersonal jest + adverb frame is weather_chunk territory and Idź do sklepu. Nie mam kawy. does the same job with negation, which is properly taught.",
+  "focus_structures": [
+    "imperative"
+  ],
+  "teaches_structures": [
+    "imperative"
+  ],
+  "uses_structures": [
+    "imperative",
+    "situation_chunk",
+    "social_chunk",
+    "question",
+    "miec_acc",
+    "negation",
+    "byc_present",
+    "byc_adj",
+    "prep_do_gen",
+    "prep_w_loc",
+    "motion_chunk",
+    "present_am"
+  ],
+  "intro": [
+    {
+      "title": "Five words that get things done",
+      "title_pl": "Czekaj! Słuchaj! Idź! Chodź! Daj!",
+      "body": "So far every Polish sentence you have built describes something: this is a table, I live in the city, mum was buying bread. Sometimes you do not want to describe anything at all. You want the other person to do something — wait, listen, come here.\n\nPolish has one short word for each of those, and this unit gives you five of them.\n\nLearn them exactly as they stand. They go in whole, the same way miałem and chciałem went in: single words to recognise and to say. There is nothing inside them to take apart, and you will not be asked to make any more of them. Five is enough — they are the five you will actually hear, and you will hear all of them in your first week in Poland.",
+      "body_pl": "Pięć gotowych słów: Czekaj! Słuchaj! Idź! Chodź! Daj!",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When you say it"
+        ],
+        "rows": [
+          [
+            "Czekaj!",
+            "Wait!",
+            "someone is about to walk off without you"
+          ],
+          [
+            "Słuchaj!",
+            "Listen!",
+            "before you say something that matters"
+          ],
+          [
+            "Idź!",
+            "Go!",
+            "you want the person to move away from you"
+          ],
+          [
+            "Chodź!",
+            "Come!",
+            "you want the person to move towards you"
+          ],
+          [
+            "Daj!",
+            "Give it here!",
+            "you want something handed over"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Wait here.",
+          "pl": "Czekaj tutaj."
+        },
+        {
+          "en": "Come here.",
+          "pl": "Chodź tutaj."
+        },
+        {
+          "en": "Listen, I have a problem.",
+          "pl": "Słuchaj, mam problem."
+        }
+      ]
+    },
+    {
+      "title": "Idź and chodź point in opposite directions",
+      "title_pl": "Idź do sklepu. Chodź tutaj.",
+      "body": "These two are the pair worth getting right, and the difference is not politeness — it is direction.\n\nIdź sends the other person away from where you are standing.\nIdź do domu. Idź do sklepu. Idź do parku.\n\nChodź brings the other person towards where you are, or takes them along with you.\nChodź tutaj. Chodź do parku. — said by someone who is going there too.\n\nEnglish hides this. \"Go to the shop\" and \"come to the shop with me\" use the same verb shape, and English lets you say \"I'm coming\" when you are in fact going. Polish keeps the two apart, so ask yourself one question before you open your mouth: am I at the far end of this journey, or the near end? The word then picks itself.",
+      "body_pl": "Idź = ode mnie. Chodź = do mnie.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Where you are"
+        ],
+        "rows": [
+          [
+            "Idź do domu.",
+            "Go home.",
+            "you are staying, they are leaving"
+          ],
+          [
+            "Idź do sklepu.",
+            "Go to the shop.",
+            "you are staying here"
+          ],
+          [
+            "Chodź tutaj.",
+            "Come here.",
+            "you are the destination"
+          ],
+          [
+            "Chodź do parku.",
+            "Come to the park.",
+            "you are going too — come along"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Go home. Mum is at home.",
+          "pl": "Idź do domu. Mama jest w domu."
+        },
+        {
+          "en": "Come here. I have tea.",
+          "pl": "Chodź tutaj. Mam herbatę."
+        }
+      ]
+    },
+    {
+      "title": "Daj — and the one room where you must not use it",
+      "title_pl": "Daj klucz. Poproszę kawę.",
+      "body": "Daj takes an object, and the object behaves exactly as it does after mam. Masculine and neuter words change nothing: Daj klucz. Daj menu. Feminine words in -a swap to -ę: Daj kawę. Daj książkę. Nothing new — it is the same accusative you have been making since a1_miec.\n\nNow the part that matters more than the grammar.\n\nDaj is what you say to family and to close friends. It is warm at a kitchen table and rude at a shop counter. Anywhere you are paying — a shop, a café, a restaurant, a ticket window — the word is Poproszę, and you already own it.\n\nAt home, to your brother: Daj kawę.\nIn a café, to a waiter: Poproszę kawę.\n\nSame coffee, different room. If you are ever unsure which room you are in, say Poproszę.",
+      "body_pl": "Daj = w domu. Poproszę = w sklepie, w kawiarni, w restauracji.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Who you say it to"
+        ],
+        "rows": [
+          [
+            "Daj klucz.",
+            "Give me the key.",
+            "your wife, your son, a friend"
+          ],
+          [
+            "Daj kawę.",
+            "Give me a coffee.",
+            "at your own kitchen table"
+          ],
+          [
+            "Poproszę kawę.",
+            "A coffee, please.",
+            "anywhere you are paying"
+          ],
+          [
+            "Poproszę rachunek.",
+            "The bill, please.",
+            "a waiter — never Daj here"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Give me the key. I'm going home.",
+          "pl": "Daj klucz. Idę do domu."
+        },
+        {
+          "en": "Give me a coffee. I'm tired.",
+          "pl": "Daj kawę. Jestem zmęczony."
+        }
+      ]
+    },
+    {
+      "title": "Proszę + the dictionary verb — the version that always works",
+      "title_pl": "Proszę czekać. Proszę słuchać. Proszę mówić.",
+      "body": "You have been saying Proszę iść prosto since the directions unit. That whole phrase is a pattern, and the pattern is worth having on its own, because it is the safest thing in this pack.\n\nPut Proszę in front of the plain dictionary form of a verb — the -ć form, the one you would look up — and you have a polite instruction that works with absolutely anybody: a stranger, a doctor, a receptionist, a room full of people.\n\nProszę czekać. — Please wait.\nProszę słuchać. — Please listen.\nProszę mówić po polsku. — Please speak Polish.\nProszę powtarzać. — Please repeat.\n\nThis is your fallback. It costs you nothing new, it is never rude to anyone, and if the short word will not come to you in the moment, this version will do the job every time. Say it slowly and you will always be understood.",
+      "body_pl": "Proszę + bezokolicznik. Zawsze grzecznie.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Who you say it to"
+        ],
+        "rows": [
+          [
+            "Proszę czekać.",
+            "Please wait.",
+            "anybody at all"
+          ],
+          [
+            "Proszę słuchać.",
+            "Please listen.",
+            "anybody at all"
+          ],
+          [
+            "Proszę mówić po polsku.",
+            "Please speak Polish.",
+            "a stranger who has switched to English"
+          ],
+          [
+            "Proszę powtarzać.",
+            "Please repeat.",
+            "when you did not catch it"
+          ],
+          [
+            "Proszę iść prosto.",
+            "Please go straight on.",
+            "you already say this one"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Please wait. The doctor is at the hospital.",
+          "pl": "Proszę czekać. Lekarz jest w szpitalu."
+        },
+        {
+          "en": "Excuse me. Please speak Polish.",
+          "pl": "Przepraszam. Proszę mówić po polsku."
+        },
+        {
+          "en": "Please listen. I have a question.",
+          "pl": "Proszę słuchać. Mam pytanie."
+        }
+      ]
+    },
+    {
+      "title": "Which one, when",
+      "title_pl": "Czekaj! · Proszę czekać. · Poproszę.",
+      "body": "There is no rule to remember here, only a room to notice. Three levels, and you already have two of them.\n\nThe short word — Czekaj! Słuchaj! Chodź! — is for people you are close to. Your wife, your son, a friend, a grandchild.\n\nProszę + the dictionary verb is for everyone else. It is the one to reach for when you do not know the person, or when there is more than one of them, or when you simply cannot remember which short word you wanted.\n\nPoproszę is for counters. Shops, cafés, restaurants, ticket windows — anywhere money is involved.\n\nWhen in doubt, go up a level. Nobody has ever been offended by Proszę czekać.",
+      "body_pl": "Blisko: Czekaj! Obcy: Proszę czekać. Przy kasie: Poproszę.",
+      "table": {
+        "headers": [
+          "Situation",
+          "What you say",
+          "English"
+        ],
+        "rows": [
+          [
+            "your son is walking off",
+            "Czekaj!",
+            "Wait!"
+          ],
+          [
+            "a nurse is walking off",
+            "Proszę czekać.",
+            "Please wait."
+          ],
+          [
+            "your grandson, across the room",
+            "Chodź tutaj.",
+            "Come here."
+          ],
+          [
+            "your brother has the key",
+            "Daj klucz.",
+            "Give me the key."
+          ],
+          [
+            "you are at a café till",
+            "Poproszę kawę.",
+            "A coffee, please."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Wait here. Dad is at home.",
+          "pl": "Czekaj tutaj. Tata jest w domu."
+        },
+        {
+          "en": "Please wait. I'm paying by card.",
+          "pl": "Proszę czekać. Płacę kartą."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Wait!",
+      "pl": "Czekaj!"
+    },
+    {
+      "en": "Listen!",
+      "pl": "Słuchaj!"
+    },
+    {
+      "en": "Go!",
+      "pl": "Idź!"
+    },
+    {
+      "en": "Come!",
+      "pl": "Chodź!"
+    },
+    {
+      "en": "Give it here!",
+      "pl": "Daj!"
+    },
+    {
+      "en": "Please wait.",
+      "pl": "Proszę czekać."
+    },
+    {
+      "en": "Please listen.",
+      "pl": "Proszę słuchać."
+    },
+    {
+      "en": "Please repeat.",
+      "pl": "Proszę powtarzać."
+    },
+    {
+      "en": "Please speak Polish.",
+      "pl": "Proszę mówić po polsku."
+    },
+    {
+      "en": "Wait here.",
+      "pl": "Czekaj tutaj."
+    },
+    {
+      "en": "Come here.",
+      "pl": "Chodź tutaj."
+    },
+    {
+      "en": "Give me the key.",
+      "pl": "Daj klucz."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Your son is about to walk off and you want him to stay put. You say:",
+      "choices": [
+        "Czekaj!",
+        "Chodź!",
+        "Idź!",
+        "Daj!"
+      ],
+      "answer": "Czekaj!",
+      "explain": "Czekaj holds the person where they are. Chodź would call him over to you, and Idź would send him away — the opposite of what you want."
+    },
+    {
+      "prompt": "You are at a ticket window and the clerk must give you a moment. You say:",
+      "choices": [
+        "Proszę czekać.",
+        "Czekaj!",
+        "Daj!",
+        "Chodź!"
+      ],
+      "answer": "Proszę czekać.",
+      "explain": "Czekaj is for people you are close to. To a stranger behind a counter, Proszę + the dictionary verb is the version that is never rude."
+    },
+    {
+      "prompt": "You want your grandson to come over to where you are sitting. You say:",
+      "choices": [
+        "Chodź tutaj.",
+        "Idź do domu.",
+        "Czekaj tutaj.",
+        "Proszę czekać."
+      ],
+      "answer": "Chodź tutaj.",
+      "explain": "Chodź brings the person towards you. Czekaj tutaj would only mean stay where you are — it does not move him at all."
+    },
+    {
+      "prompt": "You want your son to leave the house and go to the shop. You say:",
+      "choices": [
+        "Idź do sklepu.",
+        "Chodź do sklepu.",
+        "Czekaj tutaj.",
+        "Daj klucz."
+      ],
+      "answer": "Idź do sklepu.",
+      "explain": "Chodź do sklepu is real Polish, but it means come to the shop with me — it only works if you are going too. You are staying at home, so it is Idź."
+    },
+    {
+      "prompt": "You are in a café and you want to buy a coffee. You say:",
+      "choices": [
+        "Poproszę kawę.",
+        "Daj kawę.",
+        "Czy jest kawa?",
+        "Ile kosztuje kawa?"
+      ],
+      "answer": "Poproszę kawę.",
+      "explain": "All four are real Polish, but only Poproszę actually orders. Daj kawę is what you say to your brother at home — at a counter it lands as rude."
+    },
+    {
+      "prompt": "You are at your own kitchen table and your brother has the key. You say:",
+      "choices": [
+        "Daj klucz.",
+        "Poproszę klucz.",
+        "Idź klucz.",
+        "Czekaj klucz."
+      ],
+      "answer": "Daj klucz.",
+      "explain": "Daj is warm with family. Poproszę klucz is not wrong Polish, but at your own table it sounds like you are buying it from him."
+    },
+    {
+      "prompt": "Which one can you say to absolutely anybody, including a stranger?",
+      "choices": [
+        "Proszę słuchać.",
+        "Słuchaj!",
+        "Daj!",
+        "Chodź!"
+      ],
+      "answer": "Proszę słuchać.",
+      "explain": "The short words are all close-range. Anything starting with Proszę is safe at any distance."
+    },
+    {
+      "prompt": "The doctor said something and you did not catch it. You say:",
+      "choices": [
+        "Proszę powtarzać.",
+        "Proszę czekać.",
+        "Słuchaj!",
+        "Chodź tutaj."
+      ],
+      "answer": "Proszę powtarzać.",
+      "explain": "Powtarzać is the verb you already met in powtarzam. Put Proszę in front of the dictionary form and it becomes a polite request."
+    },
+    {
+      "prompt": "You are on the phone with your daughter and want her attention before you say something. You start with:",
+      "choices": [
+        "Słuchaj,",
+        "Proszę słuchać,",
+        "Idź,",
+        "Daj,"
+      ],
+      "answer": "Słuchaj,",
+      "explain": "Polish uses Słuchaj at the front of a sentence exactly as English uses \"Listen,\" — with your own daughter the short form is the natural one."
+    },
+    {
+      "prompt": "In a shop: ___ kawę.",
+      "choices": [
+        "Poproszę",
+        "Daj",
+        "Chodź",
+        "Idź"
+      ],
+      "answer": "Poproszę",
+      "explain": "The room decides. Money changing hands means Poproszę every time."
+    },
+    {
+      "prompt": "Which word sends the other person AWAY from you?",
+      "choices": [
+        "Idź",
+        "Chodź",
+        "Czekaj",
+        "Daj"
+      ],
+      "answer": "Idź",
+      "explain": "Idź points away from where you are standing. Chodź points towards it. This is the pair Polish keeps apart and English does not."
+    },
+    {
+      "prompt": "Which word brings the other person TOWARDS you?",
+      "choices": [
+        "Chodź",
+        "Idź",
+        "Czekaj",
+        "Słuchaj"
+      ],
+      "answer": "Chodź",
+      "explain": "Chodź tutaj is the one you call across a room. Idź tutaj is not something a Pole would say."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Wait!",
+      "mode": "full_word",
+      "answer": "Czekaj!",
+      "accepts": [
+        "Czekaj!",
+        "Czekaj",
+        "czekaj"
+      ],
+      "explain": "One whole word, said as it stands. Use it with family and friends."
+    },
+    {
+      "prompt_en": "Listen!",
+      "mode": "full_word",
+      "answer": "Słuchaj!",
+      "accepts": [
+        "Słuchaj!",
+        "Słuchaj",
+        "słuchaj",
+        "Sluchaj!"
+      ],
+      "explain": "The same word Poles drop in at the front of a sentence, like English \"Listen, …\"."
+    },
+    {
+      "prompt_en": "Go! (away from me)",
+      "mode": "full_word",
+      "answer": "Idź!",
+      "accepts": [
+        "Idź!",
+        "Idź",
+        "idź",
+        "Idz!"
+      ],
+      "explain": "Idź always points away from where you are standing."
+    },
+    {
+      "prompt_en": "Come! (towards me)",
+      "mode": "full_word",
+      "answer": "Chodź!",
+      "accepts": [
+        "Chodź!",
+        "Chodź",
+        "chodź",
+        "Chodz!"
+      ],
+      "explain": "Chodź always points towards you — or along with you."
+    },
+    {
+      "prompt_en": "Give it here!",
+      "mode": "full_word",
+      "answer": "Daj!",
+      "accepts": [
+        "Daj!",
+        "Daj",
+        "daj"
+      ],
+      "explain": "Warm with family, rude at a counter. At a counter the word is Poproszę."
+    },
+    {
+      "prompt_en": "Please wait.",
+      "mode": "full_word",
+      "answer": "Proszę czekać.",
+      "accepts": [
+        "Proszę czekać.",
+        "Proszę czekać",
+        "Prosze czekac."
+      ],
+      "explain": "Your fallback. Nobody has ever taken offence at this one, whoever they are."
+    },
+    {
+      "prompt_en": "Please listen.",
+      "mode": "full_word",
+      "answer": "Proszę słuchać.",
+      "accepts": [
+        "Proszę słuchać.",
+        "Proszę słuchać",
+        "Prosze sluchac."
+      ],
+      "explain": "Słuchać is the dictionary form behind słucham, which you already say."
+    },
+    {
+      "prompt_en": "Please repeat.",
+      "mode": "full_word",
+      "answer": "Proszę powtarzać.",
+      "accepts": [
+        "Proszę powtarzać.",
+        "Proszę powtarzać",
+        "Prosze powtarzac."
+      ],
+      "explain": "Worth having ready before you need it — it is the phrase that keeps a conversation alive when you lose the thread."
+    },
+    {
+      "prompt_en": "Please speak Polish.",
+      "mode": "cloze",
+      "frame": "Proszę ___ po polsku.",
+      "answer": "mówić",
+      "accepts": [
+        "mówić",
+        "mowic"
+      ],
+      "explain": "Proszę is followed by the plain dictionary form — mówić, never mówię or mów. Po polsku never changes.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: the Proszę + dictionary-verb pattern with po polsku bolted on. Blank is the unit's teaching point — the infinitive after Proszę. Items 5-7 already type Proszę czekać / słuchać / powtarzać whole, so the pattern is still produced in full three times."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Wait here. Dad is at home.",
+      "answer": "Czekaj tutaj. Tata jest w domu.",
+      "accepts": [
+        "Czekaj tutaj. Tata jest w domu.",
+        "Czekaj tutaj. Tata jest w domu",
+        "Czekaj tu. Tata jest w domu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Listen, I have a problem.",
+      "answer": "Słuchaj, mam problem.",
+      "accepts": [
+        "Słuchaj, mam problem.",
+        "Słuchaj, mam problem",
+        "Sluchaj, mam problem."
+      ],
+      "explain": "Polish puts Słuchaj at the front and carries straight on, exactly as English does with \"Listen, …\"."
+    },
+    {
+      "prompt_en": "Type: Go to the shop. I don't have coffee.",
+      "answer": "Idź do sklepu. Nie mam kawy.",
+      "accepts": [
+        "Idź do sklepu. Nie mam kawy.",
+        "Idź do sklepu. Nie mam kawy",
+        "Idz do sklepu. Nie mam kawy."
+      ],
+      "explain": "Two things you already own hooked onto the new word: do sklepu keeps its genitive, and nie mam pulls kawa to kawy."
+    },
+    {
+      "prompt_en": "Type: Come here. I have tea.",
+      "answer": "Chodź tutaj. Mam herbatę.",
+      "accepts": [
+        "Chodź tutaj. Mam herbatę.",
+        "Chodź tutaj. Mam herbatę",
+        "Chodz tutaj. Mam herbate."
+      ]
+    },
+    {
+      "prompt_en": "Type: Give me the key. I'm going home.",
+      "answer": "Daj klucz. Idę do domu.",
+      "accepts": [
+        "Daj klucz. Idę do domu.",
+        "Daj klucz. Idę do domu",
+        "Daj klucz. Ide do domu."
+      ],
+      "explain": "Klucz is masculine, so nothing is added to it after Daj — the same as after mam."
+    },
+    {
+      "prompt_en": "Type: Please wait. The doctor is at the hospital.",
+      "answer": "Proszę czekać. Lekarz jest w szpitalu.",
+      "accepts": [
+        "Proszę czekać. Lekarz jest w szpitalu.",
+        "Proszę czekać. Lekarz jest w szpitalu",
+        "Prosze czekac. Lekarz jest w szpitalu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me. Please speak Polish.",
+      "answer": "Przepraszam. Proszę mówić po polsku.",
+      "accepts": [
+        "Przepraszam. Proszę mówić po polsku.",
+        "Przepraszam. Proszę mówić po polsku",
+        "Przepraszam, proszę mówić po polsku."
+      ]
+    },
+    {
+      "prompt_en": "Type: Please listen. I have a question.",
+      "answer": "Proszę słuchać. Mam pytanie.",
+      "accepts": [
+        "Proszę słuchać. Mam pytanie.",
+        "Proszę słuchać. Mam pytanie",
+        "Prosze sluchac. Mam pytanie."
+      ]
+    },
+    {
+      "prompt_en": "Type: Come to the park. Anna is there.",
+      "answer": "Chodź do parku. Anna tam jest.",
+      "accepts": [
+        "Chodź do parku. Anna tam jest.",
+        "Chodź do parku. Anna tam jest",
+        "Chodz do parku. Anna tam jest."
+      ],
+      "explain": "Chodź do parku works because you are going as well. If you were staying at home it would have to be Idź."
+    },
+    {
+      "prompt_en": "Type: Go home. Mum is at home.",
+      "answer": "Idź do domu. Mama jest w domu.",
+      "accepts": [
+        "Idź do domu. Mama jest w domu.",
+        "Idź do domu. Mama jest w domu",
+        "Idz do domu. Mama jest w domu."
+      ],
+      "explain": "Both halves name the same house, but the case does not: do domu for going there, w domu for being there."
+    },
+    {
+      "prompt_en": "Type: Please wait. I'm paying by card.",
+      "answer": "Proszę czekać. Płacę kartą.",
+      "accepts": [
+        "Proszę czekać. Płacę kartą.",
+        "Proszę czekać. Płacę kartą",
+        "Prosze czekac. Place karta."
+      ]
+    },
+    {
+      "prompt_en": "Type: Give me a coffee. I'm tired.",
+      "answer": "Daj kawę. Jestem zmęczony.",
+      "accepts": [
+        "Daj kawę. Jestem zmęczony.",
+        "Daj kawę. Jestem zmęczony",
+        "Daj kawe. Jestem zmeczony."
+      ],
+      "explain": "Kawa is feminine and in -a, so it swaps to -ę after Daj — the same swap as after mam and after Poproszę. Say this one at home, not at a counter."
+    }
+  ],
+  "teaches_lemmas": [
+    "czekaj",
+    "słuchaj",
+    "idź",
+    "chodź",
+    "daj",
+    "Czekaj",
+    "Słuchaj",
+    "Idź",
+    "Chodź",
+    "Daj",
+    "czekać",
+    "proszę czekać",
+    "proszę słuchać",
+    "proszę mówić",
+    "proszę powtarzać",
+    "proszę mówić po polsku",
+    "czekaj tutaj",
+    "chodź tutaj",
+    "chodź do parku",
+    "idź do domu",
+    "idź do sklepu",
+    "daj klucz",
+    "daj kawę"
+  ],
+  "uses_lemmas": [
+    "proszę",
+    "proszę iść",
+    "proszę iść prosto",
+    "prosto",
+    "poproszę",
+    "poproszę kawę",
+    "poproszę rachunek",
+    "rachunek",
+    "słuchać",
+    "słucham",
+    "mówić",
+    "powtarzać",
+    "powtarzam",
+    "iść",
+    "idę",
+    "chodzić",
+    "tutaj",
+    "tu",
+    "tam",
+    "klucz",
+    "kawa",
+    "kawę",
+    "kawy",
+    "herbatę",
+    "książkę",
+    "menu",
+    "problem",
+    "pytanie",
+    "lekarz",
+    "tata",
+    "mama",
+    "anna",
+    "jest",
+    "jestem",
+    "mam",
+    "nie mam",
+    "nie",
+    "czy",
+    "czy jest kawa",
+    "ile kosztuje kawa",
+    "kosztuje",
+    "do domu",
+    "do sklepu",
+    "do parku",
+    "w domu",
+    "w szpitalu",
+    "po polsku",
+    "płacę kartą",
+    "kartą",
+    "przepraszam",
+    "zmęczony"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_imperative",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

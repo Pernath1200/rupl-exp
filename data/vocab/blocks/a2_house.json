@@ -1,0 +1,553 @@
+{
+  "id": "a2_house",
+  "title": "Dom i meble",
+  "title_en": "Home & furniture",
+  "level": "A2",
+  "tree_node": "a2_house",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides prep_w_loc / prep_place / past_byc. A1 already owns dom, mieszkanie, pokój, kuchnia, łazienka, sypialnia, łóżko, stół, krzesło, okno, drzwi, klucz — those are ANCHORS here, never re-taught. This pack teaches 10 new house nouns plus the locative form of six of them, and the payoff is putting a thing in a place: Komputer jest na biurku. Two shapes only: NEW noun as subject with an already-taught locative (Szafa jest w pokoju), or a taught-here locative with an entirely old subject (Mleko jest w lodówce). Locative forms of A1 rooms (kuchni, sypialni, łazience) are NOT taught anywhere yet, so no sentence uses them. meble is plural-only: it takes są, never jest, and no plural past (były) exists in the pool. Nouns carry gender badges; the w/na phrases do not, since a phrase has no citation gender to teach.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "existential_jest",
+    "prep_w_loc",
+    "prep_place",
+    "ten_ta_to",
+    "poss_nom",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "house_words",
+      "title": "House · new words",
+      "items": [
+        {
+          "en": "living room",
+          "pl": "salon",
+          "gender": "m"
+        },
+        {
+          "en": "wardrobe / cupboard",
+          "pl": "szafa",
+          "gender": "f"
+        },
+        {
+          "en": "desk",
+          "pl": "biurko",
+          "gender": "n"
+        },
+        {
+          "en": "lamp",
+          "pl": "lampa",
+          "icon": "💡",
+          "gender": "f"
+        },
+        {
+          "en": "fridge",
+          "pl": "lodówka",
+          "icon": "🧊",
+          "gender": "f"
+        },
+        {
+          "en": "wall (inside a room)",
+          "pl": "ściana",
+          "icon": "🧱",
+          "gender": "f"
+        },
+        {
+          "en": "floor (of a room)",
+          "pl": "podłoga",
+          "gender": "f"
+        },
+        {
+          "en": "furniture (plural only)",
+          "pl": "meble",
+          "gender": "pl"
+        },
+        {
+          "en": "carpet / rug",
+          "pl": "dywan",
+          "gender": "m"
+        },
+        {
+          "en": "sofa",
+          "pl": "kanapa",
+          "icon": "🛋",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "id": "house_where",
+      "title": "Where? · w / na + these words",
+      "items": [
+        {
+          "en": "in the living room",
+          "pl": "w salonie"
+        },
+        {
+          "en": "in the wardrobe",
+          "pl": "w szafie"
+        },
+        {
+          "en": "on the desk",
+          "pl": "na biurku"
+        },
+        {
+          "en": "in the fridge",
+          "pl": "w lodówce"
+        },
+        {
+          "en": "on the wall",
+          "pl": "na ścianie"
+        },
+        {
+          "en": "on the floor",
+          "pl": "na podłodze"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is the living room.",
+      "pl": "To jest salon.",
+      "accepts": [
+        "To jest salon.",
+        "To jest salon",
+        "To salon.",
+        "To salon"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "salon"
+      ]
+    },
+    {
+      "en": "Dad was in the living room.",
+      "pl": "Tata był w salonie.",
+      "accepts": [
+        "Tata był w salonie.",
+        "Tata był w salonie",
+        "W salonie był tata.",
+        "W salonie był tata"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "salonie",
+        "w salonie",
+        "tata"
+      ],
+      "explain": "Same move as dom → w domu: after the preposition w the noun goes into the locative, and a masculine word like salon takes -ie. Only the ending changes."
+    },
+    {
+      "en": "The wardrobe is in the room.",
+      "pl": "Szafa jest w pokoju.",
+      "accepts": [
+        "Szafa jest w pokoju.",
+        "Szafa jest w pokoju",
+        "W pokoju jest szafa.",
+        "W pokoju jest szafa"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "szafa",
+        "pokoju"
+      ]
+    },
+    {
+      "en": "The dress is in the wardrobe.",
+      "pl": "Sukienka jest w szafie.",
+      "accepts": [
+        "Sukienka jest w szafie.",
+        "Sukienka jest w szafie",
+        "W szafie jest sukienka.",
+        "W szafie jest sukienka"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "szafie",
+        "w szafie",
+        "sukienka"
+      ],
+      "explain": "Feminine -a swaps to -ie in the locative: szafa → w szafie. Nothing else in the sentence moves."
+    },
+    {
+      "en": "My desk is new.",
+      "pl": "Moje biurko jest nowe.",
+      "accepts": [
+        "Moje biurko jest nowe.",
+        "Moje biurko jest nowe",
+        "Biurko jest nowe.",
+        "Biurko jest nowe"
+      ],
+      "structures": [
+        "poss_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "biurko",
+        "moje",
+        "nowe"
+      ],
+      "explain": "biurko ends in -o, so it is neuter — that is why both the possessive and the adjective take the neuter -e: moje ... nowe."
+    },
+    {
+      "en": "The computer is on the desk.",
+      "pl": "Komputer jest na biurku.",
+      "accepts": [
+        "Komputer jest na biurku.",
+        "Komputer jest na biurku",
+        "Na biurku jest komputer.",
+        "Na biurku jest komputer"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "biurku",
+        "na biurku",
+        "komputer"
+      ],
+      "explain": "na takes the same locative case as w — the preposition changes, the ending does not. A neuter noun in -o ends in -u there: biurko → na biurku."
+    },
+    {
+      "en": "The lamp was new.",
+      "pl": "Lampa była nowa.",
+      "accepts": [
+        "Lampa była nowa.",
+        "Lampa była nowa"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "lampa",
+        "nowa"
+      ],
+      "explain": "lampa is feminine, so the past być takes -a (była) and the adjective takes -a too (nowa). The same double -a you used in mama była wesoła."
+    },
+    {
+      "en": "The lamp is on the table.",
+      "pl": "Lampa jest na stole.",
+      "accepts": [
+        "Lampa jest na stole.",
+        "Lampa jest na stole",
+        "Na stole jest lampa.",
+        "Na stole jest lampa"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "lampa",
+        "na stole",
+        "stole"
+      ]
+    },
+    {
+      "en": "The fridge is cold.",
+      "pl": "Lodówka jest zimna.",
+      "accepts": [
+        "Lodówka jest zimna.",
+        "Lodówka jest zimna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "lodówka",
+        "zimna"
+      ]
+    },
+    {
+      "en": "The milk is in the fridge.",
+      "pl": "Mleko jest w lodówce.",
+      "accepts": [
+        "Mleko jest w lodówce.",
+        "Mleko jest w lodówce",
+        "W lodówce jest mleko.",
+        "W lodówce jest mleko"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "lodówce",
+        "w lodówce",
+        "mleko"
+      ],
+      "explain": "Words ending in -ka change the k to c in the locative: lodówka → w lodówce. Say it once and the ear takes it."
+    },
+    {
+      "en": "The wall is nice.",
+      "pl": "Ściana jest ładna.",
+      "accepts": [
+        "Ściana jest ładna.",
+        "Ściana jest ładna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ściana",
+        "ładna"
+      ]
+    },
+    {
+      "en": "The photo is on the wall.",
+      "pl": "Zdjęcie jest na ścianie.",
+      "accepts": [
+        "Zdjęcie jest na ścianie.",
+        "Zdjęcie jest na ścianie",
+        "Na ścianie jest zdjęcie.",
+        "Na ścianie jest zdjęcie"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "ścianie",
+        "na ścianie",
+        "zdjęcie"
+      ],
+      "explain": "The same feminine -a → -ie you met in w szafie: ściana → na ścianie."
+    },
+    {
+      "en": "This floor is old.",
+      "pl": "Ta podłoga jest stara.",
+      "accepts": [
+        "Ta podłoga jest stara.",
+        "Ta podłoga jest stara",
+        "Podłoga jest stara.",
+        "Podłoga jest stara"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "podłoga",
+        "ta",
+        "stara"
+      ]
+    },
+    {
+      "en": "The cat is on the floor.",
+      "pl": "Kot jest na podłodze.",
+      "accepts": [
+        "Kot jest na podłodze.",
+        "Kot jest na podłodze",
+        "Na podłodze jest kot.",
+        "Na podłodze jest kot"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "podłodze",
+        "na podłodze",
+        "kot"
+      ],
+      "explain": "Feminine words in -ga turn the g into dz: podłoga → na podłodze. It is the same kind of swap as lodówka → w lodówce."
+    },
+    {
+      "en": "The furniture is in the living room.",
+      "pl": "Meble są w salonie.",
+      "accepts": [
+        "Meble są w salonie.",
+        "Meble są w salonie",
+        "W salonie są meble.",
+        "W salonie są meble"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "meble",
+        "salonie",
+        "w salonie",
+        "są"
+      ],
+      "explain": "meble has no singular — Polish counts furniture as many things, like English trousers. So it always takes są, never jest."
+    },
+    {
+      "en": "Where is the furniture?",
+      "pl": "Gdzie są meble?",
+      "accepts": [
+        "Gdzie są meble?",
+        "Gdzie są meble"
+      ],
+      "structures": [
+        "question",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "gdzie",
+        "są",
+        "meble"
+      ]
+    },
+    {
+      "en": "The carpet is old.",
+      "pl": "Dywan jest stary.",
+      "accepts": [
+        "Dywan jest stary.",
+        "Dywan jest stary"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dywan",
+        "stary"
+      ]
+    },
+    {
+      "en": "The carpet was on the floor.",
+      "pl": "Dywan był na podłodze.",
+      "accepts": [
+        "Dywan był na podłodze.",
+        "Dywan był na podłodze",
+        "Na podłodze był dywan.",
+        "Na podłodze był dywan"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_place"
+      ],
+      "lemmas": [
+        "dywan",
+        "podłodze",
+        "na podłodze"
+      ]
+    },
+    {
+      "en": "The sofa is in the living room.",
+      "pl": "Kanapa jest w salonie.",
+      "accepts": [
+        "Kanapa jest w salonie.",
+        "Kanapa jest w salonie",
+        "W salonie jest kanapa.",
+        "W salonie jest kanapa"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kanapa",
+        "salonie",
+        "w salonie"
+      ]
+    },
+    {
+      "en": "The key was on the desk.",
+      "pl": "Klucz był na biurku.",
+      "accepts": [
+        "Klucz był na biurku.",
+        "Klucz był na biurku",
+        "Na biurku był klucz.",
+        "Na biurku był klucz"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_place"
+      ],
+      "lemmas": [
+        "klucz",
+        "biurku",
+        "na biurku"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "salon",
+    "salonie",
+    "w salonie",
+    "szafa",
+    "szafie",
+    "w szafie",
+    "biurko",
+    "biurku",
+    "na biurku",
+    "lampa",
+    "lodówka",
+    "lodówce",
+    "w lodówce",
+    "ściana",
+    "ścianie",
+    "na ścianie",
+    "podłoga",
+    "podłodze",
+    "na podłodze",
+    "meble",
+    "dywan",
+    "kanapa"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "są",
+    "był",
+    "była",
+    "tata",
+    "klucz",
+    "kot",
+    "komputer",
+    "mleko",
+    "sukienka",
+    "zdjęcie",
+    "pokoju",
+    "na stole",
+    "stole",
+    "gdzie",
+    "ta",
+    "moje",
+    "nowe",
+    "nowa",
+    "stara",
+    "stary",
+    "zimna",
+    "ładna"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_house",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

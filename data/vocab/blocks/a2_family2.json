@@ -1,0 +1,487 @@
+{
+  "id": "a2_family2",
+  "title": "Rodzina",
+  "title_en": "Family",
+  "level": "A2",
+  "tree_node": "a2_family2",
+  "default_direction": "en_to_pl",
+  "note": "A2 lisc, rides a2_plural_nom / a2_past_plural / a2_past_byc / a2_past_ac / a2_past_rest. A1 (a1_home_family) already owns rodzina, mama, matka, tata, ojciec, brat, siostra, syn, corka, dziecko, kobieta, mezczyzna, kolega, kolezanka, przyjaciel, przyjaciolka - all ANCHORS here, never re-taught. This pack teaches 12 new family nouns, every one with a gender badge. rodzice and dzieci are plural-only / irregular and are taught WHOLE - they are fenced out of a2_plural_nom on purpose, so this is where they land. Three sentences depend on byli / byly / mieszkali from a2_past_plural, which sits immediately before this node in path_order.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "inst_identity",
+    "present_uje",
+    "present_e_isz",
+    "miec_acc",
+    "poss_nom",
+    "prep_w_loc",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "family_older",
+      "title": "Family · grandparents, uncles & cousins",
+      "items": [
+        {
+          "en": "grandad / grandfather",
+          "pl": "dziadek",
+          "icon": "👴",
+          "gender": "m"
+        },
+        {
+          "en": "grandma / grandmother",
+          "pl": "babcia",
+          "icon": "👵",
+          "gender": "f",
+          "explain": "babcia and ciocia are the warm everyday words, the ones a family actually uses. The formal babka and ciotka exist but sound cold said to someone's face."
+        },
+        {
+          "en": "uncle",
+          "pl": "wujek",
+          "gender": "m"
+        },
+        {
+          "en": "aunt",
+          "pl": "ciocia",
+          "gender": "f"
+        },
+        {
+          "en": "cousin (male)",
+          "pl": "kuzyn",
+          "gender": "m"
+        },
+        {
+          "en": "cousin (female)",
+          "pl": "kuzynka",
+          "gender": "f",
+          "explain": "Polish builds the female word from the male one with -ka, exactly as it did with nauczyciel to nauczycielka. So kuzyn gives kuzynka."
+        }
+      ]
+    },
+    {
+      "id": "family_own",
+      "title": "Family · husband, wife & grandchildren",
+      "items": [
+        {
+          "en": "wife",
+          "pl": "żona",
+          "gender": "f"
+        },
+        {
+          "en": "husband",
+          "pl": "mąż",
+          "gender": "m",
+          "explain": "mąż ends in a consonant, so it is masculine like dom and brat. The tail letter ż does not make it feminine."
+        },
+        {
+          "en": "grandson",
+          "pl": "wnuk",
+          "gender": "m"
+        },
+        {
+          "en": "granddaughter",
+          "pl": "wnuczka",
+          "gender": "f",
+          "explain": "Same -ka as in kuzynka, but the k of wnuk cannot survive in front of it, so it turns into cz: wnuk, wnuczka."
+        }
+      ]
+    },
+    {
+      "id": "family_plural_only",
+      "title": "Family · two words that are always plural",
+      "items": [
+        {
+          "en": "parents (always plural)",
+          "pl": "rodzice",
+          "gender": "pl",
+          "explain": "rodzice has no everyday singular. For one of them you simply name them: mama or tata."
+        },
+        {
+          "en": "children (plural of dziecko)",
+          "pl": "dzieci",
+          "icon": "🧒",
+          "gender": "pl",
+          "explain": "A neuter noun normally takes -a in the plural (okno gives okna). dziecko refuses and gives dzieci. It is one of a handful of words you learn whole rather than build."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "My grandad was a teacher.",
+      "pl": "Mój dziadek był nauczycielem.",
+      "accepts": [
+        "Mój dziadek był nauczycielem.",
+        "Mój dziadek był nauczycielem",
+        "Dziadek był nauczycielem.",
+        "Dziadek był nauczycielem"
+      ],
+      "structures": [
+        "past_byc",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "dziadek"
+      ],
+      "explain": "Saying what somebody was, not where they were, still takes the instrumental: nauczycielem. That is the same ending you used in Jestem nauczycielem - only był has moved it into the past."
+    },
+    {
+      "en": "Grandad was drinking coffee.",
+      "pl": "Dziadek pił kawę.",
+      "accepts": [
+        "Dziadek pił kawę.",
+        "Dziadek pił kawę"
+      ],
+      "structures": [
+        "past_rest",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "dziadek"
+      ]
+    },
+    {
+      "en": "Yesterday grandma was at home.",
+      "pl": "Wczoraj babcia była w domu.",
+      "accepts": [
+        "Wczoraj babcia była w domu.",
+        "Wczoraj babcia była w domu",
+        "Babcia była wczoraj w domu.",
+        "Babcia była wczoraj w domu",
+        "Babcia była w domu wczoraj.",
+        "Babcia była w domu wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "babcia"
+      ],
+      "explain": "babcia is feminine, so the past of być takes -a: była. A man in the same sentence would be był."
+    },
+    {
+      "en": "My grandma cooks soup.",
+      "pl": "Moja babcia gotuje zupę.",
+      "accepts": [
+        "Moja babcia gotuje zupę.",
+        "Moja babcia gotuje zupę",
+        "Babcia gotuje zupę.",
+        "Babcia gotuje zupę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "babcia"
+      ]
+    },
+    {
+      "en": "My uncle used to work in a bank.",
+      "pl": "Mój wujek pracował w banku.",
+      "accepts": [
+        "Mój wujek pracował w banku.",
+        "Mój wujek pracował w banku",
+        "Wujek pracował w banku.",
+        "Wujek pracował w banku"
+      ],
+      "structures": [
+        "past_ac",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "wujek"
+      ]
+    },
+    {
+      "en": "My aunt was cheerful.",
+      "pl": "Moja ciocia była wesoła.",
+      "accepts": [
+        "Moja ciocia była wesoła.",
+        "Moja ciocia była wesoła",
+        "Ciocia była wesoła.",
+        "Ciocia była wesoła"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "ciocia"
+      ],
+      "explain": "Three feminine -a endings lock together here: moja, była, wesoła. Once you know the noun is feminine, everything around it follows."
+    },
+    {
+      "en": "My cousin works in a company. (male cousin)",
+      "pl": "Mój kuzyn pracuje w firmie.",
+      "accepts": [
+        "Mój kuzyn pracuje w firmie.",
+        "Mój kuzyn pracuje w firmie",
+        "Kuzyn pracuje w firmie.",
+        "Kuzyn pracuje w firmie"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "kuzyn"
+      ]
+    },
+    {
+      "en": "My cousin was reading a book. (female cousin)",
+      "pl": "Moja kuzynka czytała książkę.",
+      "accepts": [
+        "Moja kuzynka czytała książkę.",
+        "Moja kuzynka czytała książkę",
+        "Kuzynka czytała książkę.",
+        "Kuzynka czytała książkę"
+      ],
+      "structures": [
+        "past_ac",
+        "miec_acc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "kuzynka"
+      ]
+    },
+    {
+      "en": "My wife was a doctor.",
+      "pl": "Moja żona była lekarką.",
+      "accepts": [
+        "Moja żona była lekarką.",
+        "Moja żona była lekarką",
+        "Żona była lekarką.",
+        "Żona była lekarką"
+      ],
+      "structures": [
+        "past_byc",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "żona"
+      ]
+    },
+    {
+      "en": "My wife used to buy the bread.",
+      "pl": "Moja żona kupowała chleb.",
+      "accepts": [
+        "Moja żona kupowała chleb.",
+        "Moja żona kupowała chleb",
+        "Żona kupowała chleb.",
+        "Żona kupowała chleb"
+      ],
+      "structures": [
+        "past_ac",
+        "miec_acc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "żona"
+      ]
+    },
+    {
+      "en": "Was your husband at home?",
+      "pl": "Czy twój mąż był w domu?",
+      "accepts": [
+        "Czy twój mąż był w domu?",
+        "Czy twój mąż był w domu",
+        "Twój mąż był w domu?",
+        "Twój mąż był w domu"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc",
+        "question",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "mąż"
+      ],
+      "explain": "czy only opens the question - nothing else in the sentence moves. And because mąż is masculine you get twój and był, never twoja or była."
+    },
+    {
+      "en": "My grandson is at school.",
+      "pl": "Mój wnuk jest w szkole.",
+      "accepts": [
+        "Mój wnuk jest w szkole.",
+        "Mój wnuk jest w szkole",
+        "Wnuk jest w szkole.",
+        "Wnuk jest w szkole"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "wnuk"
+      ]
+    },
+    {
+      "en": "My granddaughter was in the park.",
+      "pl": "Moja wnuczka była w parku.",
+      "accepts": [
+        "Moja wnuczka była w parku.",
+        "Moja wnuczka była w parku",
+        "Wnuczka była w parku.",
+        "Wnuczka była w parku"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "wnuczka"
+      ]
+    },
+    {
+      "en": "Yesterday my parents were at home.",
+      "pl": "Wczoraj rodzice byli w domu.",
+      "accepts": [
+        "Wczoraj rodzice byli w domu.",
+        "Wczoraj rodzice byli w domu",
+        "Rodzice byli wczoraj w domu.",
+        "Rodzice byli wczoraj w domu",
+        "Rodzice byli w domu wczoraj.",
+        "Rodzice byli w domu wczoraj"
+      ],
+      "structures": [
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "rodzice"
+      ],
+      "explain": "rodzice is a group with a man in it, so the past takes -li: byli. Polish says rodzice on its own where English needs my parents."
+    },
+    {
+      "en": "My parents used to live in the city.",
+      "pl": "Rodzice mieszkali w mieście.",
+      "accepts": [
+        "Rodzice mieszkali w mieście.",
+        "Rodzice mieszkali w mieście"
+      ],
+      "structures": [
+        "past_plural",
+        "past_ac",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "rodzice"
+      ]
+    },
+    {
+      "en": "The children were at school.",
+      "pl": "Dzieci były w szkole.",
+      "accepts": [
+        "Dzieci były w szkole.",
+        "Dzieci były w szkole",
+        "W szkole były dzieci.",
+        "W szkole były dzieci"
+      ],
+      "structures": [
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dzieci"
+      ],
+      "explain": "Children do not count as a group of men, so the past takes -ły: były. It is the same byli / były test, applied to a word that looks nothing like its singular."
+    },
+    {
+      "en": "My children like music.",
+      "pl": "Moje dzieci lubią muzykę.",
+      "accepts": [
+        "Moje dzieci lubią muzykę.",
+        "Moje dzieci lubią muzykę",
+        "Dzieci lubią muzykę.",
+        "Dzieci lubią muzykę"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "dzieci"
+      ],
+      "explain": "dzieci takes moje - the same word you already use for moje dziecko. The possessive happens to keep its shape here, which is a small gift."
+    }
+  ],
+  "teaches_lemmas": [
+    "dziadek",
+    "babcia",
+    "wujek",
+    "ciocia",
+    "kuzyn",
+    "kuzynka",
+    "żona",
+    "mąż",
+    "wnuk",
+    "wnuczka",
+    "rodzice",
+    "dzieci"
+  ],
+  "uses_lemmas": [
+    "być",
+    "był",
+    "była",
+    "byli",
+    "były",
+    "jest",
+    "mieszkali",
+    "pił",
+    "pracował",
+    "pracuje",
+    "gotuje",
+    "czytała",
+    "kupowała",
+    "lubią",
+    "kawę",
+    "zupę",
+    "książkę",
+    "muzykę",
+    "chleb",
+    "nauczycielem",
+    "lekarką",
+    "wesoła",
+    "mój",
+    "moja",
+    "moje",
+    "twój",
+    "czy",
+    "wczoraj",
+    "w domu",
+    "w szkole",
+    "w parku",
+    "w banku",
+    "w firmie",
+    "w mieście",
+    "mama",
+    "tata",
+    "dziecko"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_family2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

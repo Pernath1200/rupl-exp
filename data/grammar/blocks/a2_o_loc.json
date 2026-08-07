@@ -1,0 +1,660 @@
+{
+  "id": "a2_o_loc",
+  "title": "O + miejscownik",
+  "title_en": "Talking about something · locative",
+  "level": "A2",
+  "tree_node": "a2_o_loc",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Second job of the locative, straight off a1_prep_place: same case, same two endings (-e with softening / -u), new duty — the topic of speech or thought after o. ONE new thing only: the governor. Every noun form used here was already taught in the locative by a1_prep_place or a later place unit and re-verified against POOL — domu, pracy, szkole, sklepie, mieście, biurze, parku, banku, hotelu. NOTHING is derived: no new locative is minted anywhere in this pack (the a2 bug where a pack shipped w biurze while tagging only biuro). Third preposition family, framed as such in intro slide 3: w/na = where a thing is, do/z = direction, o = topic. FENCED: (a) pronoun objects — o tobie, o mnie, o nim, o niej are new pronoun forms, absent from POOL, and are never shown, glossed or demanded; the unit says about work / about home, never about you. They need their own small unit. (b) o czym — an untaught pronoun form, kept out of the title, out of every slide body and out of the Polish shorthand lines too, even though body_pl is the one place untaught metalanguage is allowed; two earlier units were caught on exactly this. (c) the locative of anything not already carrying a taught locative — temat, pogoda, film, książka and the rest stay out however tempting the topic reading is. (d) past of myśleć (myślał / myślała) — a -eć stem with an e-to-a shift, not worth an exception in a preposition unit; the past is carried by mówił / mówiła only, both taught in a2_past_rest. (e) plural past. IMPERFECTIVE ONLY. NEW LEXIS: myśleć, verified absent from POOL, so it is taught here — infinitive plus all six present forms, presented beside mówić because it belongs to the -ę/-isz class Dad already owns (a1_present_e_isz). Its -eć infinitive is flagged honestly in slide 4, since the class label says -ić. Forks taken: (1) Pisanie is the nine o + Locative phrases and nothing else — the minimal pattern unit of this unit is a phrase, and adding myśleć conjugation drills would put a second system in the production stage; myśleć is produced instead inside Użycie, where it appears in three real sentences. (2) Match is nine phrases plus three bare myśleć forms rather than nine plus three sentences, so the new verb gets a clean recognition pass without object phrases padding the board. (3) The o vs do contrast is carried entirely by quiz distractors (do pracy, do szkoły, do sklepu), never given its own drill — same conservative handling a2_inst_z used for z+Gen vs z+Inst, to avoid rebuilding the old do/z cliff.",
+  "focus_structures": [
+    "o_loc"
+  ],
+  "teaches_structures": [
+    "o_loc"
+  ],
+  "uses_structures": [
+    "o_loc",
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "prep_z_gen",
+    "present",
+    "present_e_isz",
+    "past_rest",
+    "plural_nom",
+    "poss_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "The case is not new — only the little word is",
+      "title_pl": "Ta sama forma, nowy przyimek",
+      "body": "You already say w domu, w pracy, w szkole, w sklepie. Those endings are the locative case (miejscownik).\n\nPolish uses that very same case after o, and o means about.\n\nw pracy = at work\no pracy = about work\n\nThe noun does not move at all. w domu and o domu are the same word with the same ending — only the preposition in front of it changed. Everything you learned for places you already know for topics.\n\nMówię o pracy. = I'm talking about work.\nMyślę o domu. = I'm thinking about home.",
+      "body_pl": "o + miejscownik = temat. Ta sama końcówka co w w domu, w pracy. Zmienia się tylko przyimek."
+    },
+    {
+      "title": "The same two endings you already have",
+      "title_pl": "Te same końcówki: -e albo -u",
+      "body": "Read this table across. The middle column is what you learned for places; the right-hand column is this unit. They are identical.\n\nThe rule behind them has not changed either: most nouns take -e and the consonant in front of it softens (sklep to sklepie, miasto to mieście), while masculine nouns in k and a few common short words take -u with no change at all (bank to banku, dom to domu).\n\nThere is nothing to relearn here. If you can say where you are, you can say what you are talking about.",
+      "body_pl": "Końcówki bez zmian: -e ze zmiękczeniem albo -u.",
+      "table": {
+        "headers": [
+          "Noun",
+          "Place (you know this)",
+          "Topic (new)"
+        ],
+        "rows": [
+          [
+            "dom",
+            "w domu",
+            "o domu"
+          ],
+          [
+            "praca",
+            "w pracy",
+            "o pracy"
+          ],
+          [
+            "szkoła",
+            "w szkole",
+            "o szkole"
+          ],
+          [
+            "sklep",
+            "w sklepie",
+            "o sklepie"
+          ],
+          [
+            "miasto",
+            "w mieście",
+            "o mieście"
+          ],
+          [
+            "biuro",
+            "w biurze",
+            "o biurze"
+          ],
+          [
+            "park",
+            "w parku",
+            "o parku"
+          ],
+          [
+            "bank",
+            "w banku",
+            "o banku"
+          ],
+          [
+            "hotel",
+            "w hotelu",
+            "o hotelu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Three families of prepositions",
+      "title_pl": "Trzy rodziny przyimków",
+      "body": "This is the third one, and after it the picture is complete for now. Each family asks a different question, and each one puts the noun into a particular case.\n\nLook down the last column: the noun changes shape three different ways, and the little word in front is what tells you which shape to reach for.",
+      "body_pl": "w/na — miejsce. do/z — kierunek. o — temat. Każda rodzina to inny przypadek.",
+      "table": {
+        "headers": [
+          "Family",
+          "Meaning",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w / na",
+            "where something is",
+            "locative",
+            "w pracy · w szkole"
+          ],
+          [
+            "do / z",
+            "to a place / from a place",
+            "genitive",
+            "do pracy · z pracy"
+          ],
+          [
+            "o",
+            "the topic — what is being said or thought",
+            "locative",
+            "o pracy · o szkole"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A second verb: myśleć",
+      "title_pl": "Nowy czasownik: myśleć",
+      "body": "mówić (to speak) you already have. myśleć means to think, and it needs no new work: it is one of the -ę / -isz verbs, the second pattern you learned alongside mówić, lubić and robić.\n\nPut the two side by side and the endings line up exactly.\n\nOne honest warning about the spelling: the class is usually called the -ić class, but myśleć ends in -eć. That is only the infinitive. The moment you conjugate it, it behaves like mówić in every person.",
+      "body_pl": "myśleć — nowy czasownik, znany wzór -ę/-isz. Bezokolicznik na -eć, odmiana jak mówić.",
+      "table": {
+        "headers": [
+          "Person",
+          "mówić — speak",
+          "myśleć — think"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mówię",
+            "myślę"
+          ],
+          [
+            "ty",
+            "mówisz",
+            "myślisz"
+          ],
+          [
+            "on / ona",
+            "mówi",
+            "myśli"
+          ],
+          [
+            "my",
+            "mówimy",
+            "myślimy"
+          ],
+          [
+            "wy",
+            "mówicie",
+            "myślicie"
+          ],
+          [
+            "oni / one",
+            "mówią",
+            "myślą"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Examples",
+      "examples": [
+        {
+          "en": "about work",
+          "pl": "o pracy"
+        },
+        {
+          "en": "about home",
+          "pl": "o domu"
+        },
+        {
+          "en": "about school",
+          "pl": "o szkole"
+        },
+        {
+          "en": "Dad talks about work.",
+          "pl": "Tata mówi o pracy."
+        },
+        {
+          "en": "Mum is thinking about home.",
+          "pl": "Mama myśli o domu."
+        },
+        {
+          "en": "My brother was talking about school.",
+          "pl": "Brat mówił o szkole."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "about home",
+      "pl": "o domu"
+    },
+    {
+      "en": "about work",
+      "pl": "o pracy"
+    },
+    {
+      "en": "about school",
+      "pl": "o szkole"
+    },
+    {
+      "en": "about the shop",
+      "pl": "o sklepie"
+    },
+    {
+      "en": "about the city",
+      "pl": "o mieście"
+    },
+    {
+      "en": "about the office",
+      "pl": "o biurze"
+    },
+    {
+      "en": "about the park",
+      "pl": "o parku"
+    },
+    {
+      "en": "about the bank",
+      "pl": "o banku"
+    },
+    {
+      "en": "about the hotel",
+      "pl": "o hotelu"
+    },
+    {
+      "en": "I'm thinking",
+      "pl": "myślę"
+    },
+    {
+      "en": "you're thinking (sg)",
+      "pl": "myślisz"
+    },
+    {
+      "en": "he / she is thinking",
+      "pl": "myśli"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "about work →",
+      "choices": [
+        "o pracy",
+        "o praca",
+        "o pracę",
+        "do pracy"
+      ],
+      "answer": "o pracy",
+      "explain": "pracy is the form you already use in w pracy. o takes the same case as w, so nothing about the noun changes — do pracy would be the genitive, meaning to work."
+    },
+    {
+      "prompt": "about home →",
+      "choices": [
+        "o domu",
+        "o dom",
+        "o domie",
+        "z domu"
+      ],
+      "answer": "o domu",
+      "explain": "dom belongs to the small group that takes -u, not -e. You learned it whole as w domu, and o domu is that same word."
+    },
+    {
+      "prompt": "about school →",
+      "choices": [
+        "o szkole",
+        "o szkoła",
+        "o szkoły",
+        "do szkoły"
+      ],
+      "answer": "o szkole",
+      "explain": "szkoła drops its -a and the ł softens to l before the -e ending: szkole. Exactly as in w szkole."
+    },
+    {
+      "prompt": "about the shop →",
+      "choices": [
+        "o sklepie",
+        "o sklep",
+        "o sklepu",
+        "do sklepu"
+      ],
+      "answer": "o sklepie",
+      "explain": "The p softens to pi before -e, which is why the word gains a letter: sklep becomes sklepie. Same softening as w sklepie."
+    },
+    {
+      "prompt": "about the city →",
+      "choices": [
+        "o mieście",
+        "o miasto",
+        "o miasta",
+        "do miasta"
+      ],
+      "answer": "o mieście",
+      "explain": "miasto is the loudest softening in the set — st becomes ść and the a becomes ie. Do not rebuild it; recall it whole from w mieście."
+    },
+    {
+      "prompt": "about the office →",
+      "choices": [
+        "o biurze",
+        "o biuro",
+        "o biura",
+        "w biurze"
+      ],
+      "answer": "o biurze",
+      "explain": "The form is right in both of the last two — but w biurze means in the office. About the office needs o."
+    },
+    {
+      "prompt": "about the park →",
+      "choices": [
+        "o parku",
+        "o park",
+        "o parkie",
+        "do parku"
+      ],
+      "answer": "o parku",
+      "explain": "Masculine nouns ending in k never take -e. They take -u, which is why it is w parku and o parku."
+    },
+    {
+      "prompt": "about the bank →",
+      "choices": [
+        "o banku",
+        "o bank",
+        "o bankie",
+        "do banku"
+      ],
+      "answer": "o banku",
+      "explain": "bank follows park: the k blocks the -e ending, so the locative is banku."
+    },
+    {
+      "prompt": "about the hotel →",
+      "choices": [
+        "o hotelu",
+        "o hotel",
+        "o hotele",
+        "do hotelu"
+      ],
+      "answer": "o hotelu"
+    },
+    {
+      "prompt": "Tata ___ o pracy.",
+      "choices": [
+        "mówi",
+        "mówię",
+        "mówisz",
+        "mówią"
+      ],
+      "answer": "mówi",
+      "explain": "tata is one person, and he — so the verb takes the on ending -i. The preposition phrase after it does not affect the verb at all."
+    },
+    {
+      "prompt": "Mama ___ o domu.",
+      "choices": [
+        "myśli",
+        "myślę",
+        "myślisz",
+        "myślą"
+      ],
+      "answer": "myśli",
+      "explain": "myśleć takes the same endings as mówić, so the ona form is myśli, matching mówi."
+    },
+    {
+      "prompt": "Fix: Myślę o dom. →",
+      "choices": [
+        "o domu",
+        "o dom",
+        "o domie",
+        "do domu"
+      ],
+      "answer": "o domu",
+      "explain": "o never leaves the noun in its dictionary form. The ending has to appear, and for dom that ending is -u."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "about home · dom",
+      "mode": "full_word",
+      "answer": "o domu",
+      "accepts": [
+        "o domu"
+      ],
+      "explain": "Two words. The noun is unchanged from w domu — you are swapping the preposition, not rebuilding the word."
+    },
+    {
+      "prompt_en": "about work · praca",
+      "mode": "full_word",
+      "answer": "o pracy",
+      "accepts": [
+        "o pracy"
+      ],
+      "explain": "c is a soft consonant, so instead of -e the ending surfaces as -y: pracy."
+    },
+    {
+      "prompt_en": "about school · szkoła",
+      "mode": "full_word",
+      "answer": "o szkole",
+      "accepts": [
+        "o szkole"
+      ]
+    },
+    {
+      "prompt_en": "about the shop · sklep",
+      "mode": "full_word",
+      "answer": "o sklepie",
+      "accepts": [
+        "o sklepie"
+      ]
+    },
+    {
+      "prompt_en": "about the city · miasto",
+      "mode": "full_word",
+      "answer": "o mieście",
+      "accepts": [
+        "o mieście"
+      ],
+      "explain": "The whole middle of the word softens: miasto to mieście. It is the same shape you write in w mieście."
+    },
+    {
+      "prompt_en": "about the office · biuro",
+      "mode": "full_word",
+      "answer": "o biurze",
+      "accepts": [
+        "o biurze"
+      ],
+      "explain": "r softens to rz in front of the -e ending, giving biurze."
+    },
+    {
+      "prompt_en": "about the park · park",
+      "mode": "full_word",
+      "answer": "o parku",
+      "accepts": [
+        "o parku"
+      ]
+    },
+    {
+      "prompt_en": "about the bank · bank",
+      "mode": "full_word",
+      "answer": "o banku",
+      "accepts": [
+        "o banku"
+      ]
+    },
+    {
+      "prompt_en": "about the hotel · hotel",
+      "mode": "full_word",
+      "answer": "o hotelu",
+      "accepts": [
+        "o hotelu"
+      ],
+      "explain": "hotel sits with dom in the -u group. There is no softening and no extra letter — just hotelu."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad talks about work.",
+      "answer": "Tata mówi o pracy.",
+      "accepts": [
+        "Tata mówi o pracy.",
+        "Tata mówi o pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is thinking about home.",
+      "answer": "Mama myśli o domu.",
+      "accepts": [
+        "Mama myśli o domu.",
+        "Mama myśli o domu"
+      ],
+      "explain": "myśli is the on / ona form of myśleć, built with the same endings as mówi."
+    },
+    {
+      "prompt_en": "Type: My brother was talking about school.",
+      "answer": "Mój brat mówił o szkole.",
+      "accepts": [
+        "Mój brat mówił o szkole.",
+        "Mój brat mówił o szkole",
+        "Brat mówił o szkole.",
+        "Brat mówił o szkole"
+      ],
+      "explain": "The past tense changes only the verb. o szkole keeps exactly the ending it has in the present."
+    },
+    {
+      "prompt_en": "Type: Anna was talking about the hotel.",
+      "answer": "Anna mówiła o hotelu.",
+      "accepts": [
+        "Anna mówiła o hotelu.",
+        "Anna mówiła o hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Does grandad talk about the bank?",
+      "answer": "Czy dziadek mówi o banku?",
+      "accepts": [
+        "Czy dziadek mówi o banku?",
+        "Czy dziadek mówi o banku",
+        "Dziadek mówi o banku?",
+        "Dziadek mówi o banku"
+      ],
+      "explain": "czy only opens the question. Every other word keeps its place and its ending, o banku included."
+    },
+    {
+      "prompt_en": "Type: My sister is thinking about the shop.",
+      "answer": "Siostra myśli o sklepie.",
+      "accepts": [
+        "Siostra myśli o sklepie.",
+        "Siostra myśli o sklepie",
+        "Moja siostra myśli o sklepie.",
+        "Moja siostra myśli o sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday mum was talking about the park.",
+      "answer": "Wczoraj mama mówiła o parku.",
+      "accepts": [
+        "Wczoraj mama mówiła o parku.",
+        "Wczoraj mama mówiła o parku",
+        "Mama mówiła wczoraj o parku.",
+        "Mama mówiła wczoraj o parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: My son talks about the office.",
+      "answer": "Syn mówi o biurze.",
+      "accepts": [
+        "Syn mówi o biurze.",
+        "Syn mówi o biurze",
+        "Mój syn mówi o biurze.",
+        "Mój syn mówi o biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm thinking about the city.",
+      "answer": "Myślę o mieście.",
+      "accepts": [
+        "Myślę o mieście.",
+        "Myślę o mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are talking about school.",
+      "answer": "Dzieci mówią o szkole.",
+      "accepts": [
+        "Dzieci mówią o szkole.",
+        "Dzieci mówią o szkole"
+      ],
+      "explain": "dzieci is plural, so the verb takes the oni ending -ą. The topic phrase after it never changes for number."
+    }
+  ],
+  "teaches_lemmas": [
+    "o",
+    "o domu",
+    "o pracy",
+    "o szkole",
+    "o sklepie",
+    "o mieście",
+    "o biurze",
+    "o parku",
+    "o banku",
+    "o hotelu",
+    "myśleć",
+    "myślę",
+    "myślisz",
+    "myśli",
+    "myślimy",
+    "myślicie",
+    "myślą"
+  ],
+  "uses_lemmas": [
+    "mówić",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "mówimy",
+    "mówicie",
+    "mówią",
+    "mówił",
+    "mówiła",
+    "dom",
+    "domu",
+    "praca",
+    "pracy",
+    "szkoła",
+    "szkole",
+    "sklep",
+    "sklepie",
+    "miasto",
+    "mieście",
+    "biuro",
+    "biurze",
+    "park",
+    "parku",
+    "bank",
+    "banku",
+    "hotel",
+    "hotelu",
+    "w domu",
+    "w pracy",
+    "w szkole",
+    "w sklepie",
+    "w mieście",
+    "w biurze",
+    "w parku",
+    "w banku",
+    "w hotelu",
+    "do pracy",
+    "do szkoły",
+    "do sklepu",
+    "do parku",
+    "do banku",
+    "do hotelu",
+    "do domu",
+    "do miasta",
+    "do biura",
+    "z pracy",
+    "z domu",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "syn",
+    "dziadek",
+    "dzieci",
+    "anna",
+    "mój",
+    "moja",
+    "czy",
+    "wczoraj",
+    "lubić",
+    "robić"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_o_loc",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

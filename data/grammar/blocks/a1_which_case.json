@@ -1,0 +1,793 @@
+{
+  "id": "a1_which_case",
+  "title": "Który przypadek?",
+  "title_en": "Which case? · the A1 map",
+  "level": "A1",
+  "tree_node": "a1_which_case",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "CASE-SELECTION UNIT, the first of five (codex/WHICH-CASE-SPEC.md, JAMES-LOCKED 2026-08-07). Exists because James reported he is not always sure which case to use: the gyms drill endings, nothing until now taught CHOOSING. TEACHES NOTHING NEW - teaches_structures [] and teaches_lemmas [] on the b1_two_futures / gym convention; every form on screen was verified against the position-aware pool for this node (make_pool.py --before a1_which_case, 866 lemmas). ORGANISED BY TRIGGER, not by case (locked decision 1): the governor is the thing the learner meets first in a real sentence, so the lesson is 'after nie ma / do / z / duzo / blisko -> Genitive', never 'the Genitive has six jobs'. INTRO TABLE IS DERIVED, NOT AUTHORED: slide 0's table is generated from data/case-map.json filtered to rows whose taught_by sits at or before path 44 - nine rows, five cases. TWO CASE-MAP DEFECTS FOUND AND FIXED IN THIS SAME COMMIT, both of which would have leaked untaught Polish onto an A1 screen (and into the Przypadki panel, which renders the same rows): (1) the quantity row read 'duzo - malo - blisko', but check_new.py puts malo at b1_adverb_comp [126], and there it is a degree adverb in the mniej/najmniej ladder, never a noun-governing quantifier - the row is now 'duzo - blisko', the two governors a1_gen_endings actually teaches, and no malo row was invented because the course never teaches it as a governor at all; (2) the naming row read 'to jest... / to sa...' under taught_by a1_gender, but 'to sa' is a2_plural_nom [56] and A1 owns no plural noun to put after it - the row is now 'to jest...' and a separate 'to sa...' row was added under a2_plural_nom, where it is true and where a2_which_case will pick it up. THE SPEC'S 'z ALREADY DOES TWO JOBS BY A1'S END' LINE WAS NOT WRITTEN, and this is the one place the unit departs from its brief: a1_prep_do_z teaches z + Genitive (origin) only, and z + Instrumental is a2_inst_z [64], so at path 44 z has exactly ONE job. Saying otherwise would be false at this position and would break the spec's own harder rule that cases the level has not taught appear nowhere. The two-jobs-of-z point is real and belongs to a2_which_case, which is where it lands. THE HONEST LINE the spec demands is carried on slide 1 in its A1-true half: w + Locative and do + Genitive are both 'place' in English and the case is still decided by the word in front, not by the meaning. Slide 3 adds the fact a selection unit is the right place for - domu / parku / banku / hotelu are the SAME STRING in the Genitive and the Locative, so on those nouns the trigger is the only thing that tells you which case you are in (precedent: a2_case_gym2's note names the same dual duty). KONTROLA is 8 form-choice items + 4 name-the-case items. The spec authorises both shapes ('name the case, or pick the right form'); the weighting is deliberate and conservative against AGENTS.md's 'real forms, not meta-questions' rule - naming the case IS this unit's teaching point rather than trivia about the language, but real forms still carry two thirds of the stage. Every distractor is a real, pool-legal Polish string; where a noun had only three taught forms the fourth choice is a different TRIGGER with its own correct form (duzo kawy / mam kawe / to jest kawa), which discriminates the governor rather than inventing a word. a1_case_gym's untaught 'kawie' distractor was NOT copied. One distractor was chosen against the obvious one: item 8 uses 'mam ksiazka' (plain wrong case, the a1_case_gym 'Mam kawa' precedent) rather than 'mam ksiazki', because ksiazki is the genitive singular here but becomes a correct nominative plural at a2_plural_nom, and marking it WRONG would plant a mis-learning the learner has to undo twelve units later. PISANIE is 12 mode:cloze items blanking the governed noun, exactly as the spec directs; every frame is a real sentence, so nothing is typed whole and the <=3-word cap is not in play. No duplicate answers: sklepie/sklepu and szkoly/szkole are deliberately paired so the same noun is produced in two cases against two triggers - that pairing IS the unit. UZYCIE is 12 whole sentences, each with a noun subject and/or object, and no sentence is shared with Pisanie. HOMOGRAPHS CHECKED, not assumed: kawy/wody/herbaty/szkoly/miasta/mleka taught as genitive singulars by a1_gen_endings and used as genitive singulars; ksiazki/apteki taught as genitive singulars by a1_gen_ki, and ksiazki appears only in the discussion above; miescie/sklepie/szkole/stole locatives; nauczycielem/lekarka/studentem/nauczycielka instrumentals from a1_inst_job. No plural anywhere - A1 owns none. The only adjective in the whole unit is 'dobra' inside the derived table's subject-row example (Kawa jest dobra.), which comes from case-map rather than from authoring; zgoda is declared in uses_structures for exactly that one cell and no other adjective was added, since the unit needs none and each would only add load.",
+  "focus_structures": [
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "gen_endings",
+    "miec_acc",
+    "inst_identity"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom",
+    "byc_present",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "motion_chunk",
+    "zgoda",
+    "inst_identity",
+    "present_am",
+    "present_e_esz",
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "Five cases, and the word that chooses",
+      "title_pl": "Pięć przypadków",
+      "body": "Nothing in this unit is new. You have met all five cases already, one at a time, each inside the unit that taught its endings. What you have not met is the map.\n\nPolish does not pick a case from what the sentence means in English. It picks from the word standing in front of the noun — the governor. Learn the governors and the case follows on its own.\n\nHere is every trigger you own, and the case each one demands.",
+      "body_pl": "mianownik · biernik · dopełniacz · miejscownik · narzędnik",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "to jest…",
+            "Nominative · mianownik",
+            "naming something",
+            "To jest kawa."
+          ],
+          [
+            "the subject — who is doing it",
+            "Nominative · mianownik",
+            "the actor of the verb",
+            "Kawa jest dobra."
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "a verb acting on a thing",
+            "Mam kawę."
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "quantity and nearness",
+            "Dużo kawy."
+          ],
+          [
+            "do… (going TO a place)",
+            "Genitive · dopełniacz",
+            "destination",
+            "Idę do sklepu."
+          ],
+          [
+            "z / ze… (coming FROM)",
+            "Genitive · dopełniacz",
+            "origin",
+            "Wracam ze sklepu."
+          ],
+          [
+            "nie ma… / nie mam…",
+            "Genitive · dopełniacz",
+            "saying something is absent",
+            "Nie ma mleka."
+          ],
+          [
+            "w / na — meaning WHERE something is",
+            "Locative · miejscownik",
+            "static position, never movement",
+            "Jestem w sklepie."
+          ],
+          [
+            "jestem… (a job or an identity)",
+            "Instrumental · narzędnik",
+            "what someone IS",
+            "Jestem nauczycielem."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The trigger decides — not the English",
+      "title_pl": "w sklepie · do sklepu",
+      "body": "This is the part that catches people out, and it is worth stating flatly.\n\nw sklepie and do sklepu are both about a shop, and both are about place. English treats them as the same kind of phrase. Polish does not: w demands the Locative, do demands the Genitive, and the noun changes to match.\n\nSo the question to ask is never what the sentence means. It is which word is standing in front of the noun.",
+      "body_pl": "w sklepie → miejscownik · do sklepu → dopełniacz",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "The word in front",
+          "Case"
+        ],
+        "rows": [
+          [
+            "I'm in the shop",
+            "Jestem w sklepie.",
+            "w",
+            "Locative · miejscownik"
+          ],
+          [
+            "I'm going to the shop",
+            "Idę do sklepu.",
+            "do",
+            "Genitive · dopełniacz"
+          ],
+          [
+            "I'm coming back from the shop",
+            "Wracam ze sklepu.",
+            "ze",
+            "Genitive · dopełniacz"
+          ],
+          [
+            "This is a shop",
+            "To jest sklep.",
+            "nothing at all",
+            "Nominative · mianownik"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The Genitive has four triggers — more than any other case",
+      "title_pl": "Dopełniacz: nie ma · do · z/ze · dużo/blisko",
+      "body": "At this level the Genitive is the case you reach for most often, because four separate triggers demand it and they have nothing in common in English.\n\nAbsence, destination, origin, quantity — four different jobs, one form. When any of these words appears, the noun behind it goes into the Genitive, with the endings you already drilled: masculine -u, neuter -a, feminine -y.",
+      "body_pl": "nie ma · do · z/ze · dużo/blisko → dopełniacz",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Job",
+          "Example"
+        ],
+        "rows": [
+          [
+            "nie ma · nie mam",
+            "it is absent",
+            "Nie ma mleka."
+          ],
+          [
+            "do",
+            "going to a place",
+            "Idę do apteki."
+          ],
+          [
+            "z · ze",
+            "coming from a place",
+            "Wracam ze szkoły."
+          ],
+          [
+            "dużo · blisko",
+            "how much · how near",
+            "Piję dużo wody. · Sklep jest blisko banku."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One form, two cases: domu, parku, banku, hotelu",
+      "title_pl": "domu · parku · banku · hotelu",
+      "body": "A group of masculine nouns give you the same form for the Genitive and the Locative. That is a genuine simplification rather than a trap — provided you know it is happening.\n\ndo domu and w domu use the identical word domu, and the same holds for parku, banku and hotelu. The two cases are still different cases; the form simply does not show it. The trigger in front is the only thing telling you which one you are in, which is exactly what this unit is about.",
+      "body_pl": "do domu → dopełniacz · w domu → miejscownik",
+      "table": {
+        "headers": [
+          "Genitive · dopełniacz",
+          "Locative · miejscownik",
+          "The shared form"
+        ],
+        "rows": [
+          [
+            "do domu · z domu",
+            "w domu",
+            "domu"
+          ],
+          [
+            "do parku · z parku",
+            "w parku",
+            "parku"
+          ],
+          [
+            "do banku · z banku",
+            "w banku",
+            "banku"
+          ],
+          [
+            "do hotelu · z hotelu",
+            "w hotelu",
+            "hotelu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The question to ask, every time",
+      "title_pl": "Który przypadek?",
+      "body": "Before you put an ending on a noun, look to its left. One question, asked in the same order every time.\n\nIs there a preposition? Then the preposition chooses: w and na for the Locative, do and z for the Genitive.\n\nNo preposition, but a verb? Then the verb chooses: mam, piję, chcę, lubię and kupuję take the Accusative, nie mam takes the Genitive, and jestem followed by a job takes the Instrumental.\n\nNeither? Then the noun is naming something or doing something, and it stays in the Nominative — the form the dictionary gives you.",
+      "body_pl": "w/na → miejscownik · do/z → dopełniacz · mam/piję → biernik · jestem → narzędnik",
+      "table": {
+        "headers": [
+          "What stands in front",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w · na — where you are",
+            "Locative · miejscownik",
+            "w szkole"
+          ],
+          [
+            "do · z · ze",
+            "Genitive · dopełniacz",
+            "do szkoły"
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "dużo wody"
+          ],
+          [
+            "nie ma · nie mam",
+            "Genitive · dopełniacz",
+            "nie mam czasu"
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "mam książkę"
+          ],
+          [
+            "jestem + a job",
+            "Instrumental · narzędnik",
+            "jestem lekarką"
+          ],
+          [
+            "nothing — the noun names or acts",
+            "Nominative · mianownik",
+            "To jest kawa."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Nominative",
+          "pl": "mianownik"
+        },
+        {
+          "en": "Accusative",
+          "pl": "biernik"
+        },
+        {
+          "en": "Genitive",
+          "pl": "dopełniacz"
+        },
+        {
+          "en": "Locative",
+          "pl": "miejscownik"
+        },
+        {
+          "en": "Instrumental",
+          "pl": "narzędnik"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "naming it (to jest…) · coffee",
+      "pl": "kawa"
+    },
+    {
+      "en": "the one doing it · Mum",
+      "pl": "mama"
+    },
+    {
+      "en": "after mam · a book",
+      "pl": "mam książkę"
+    },
+    {
+      "en": "after piję · tea",
+      "pl": "piję herbatę"
+    },
+    {
+      "en": "after nie mam · time",
+      "pl": "nie mam czasu"
+    },
+    {
+      "en": "after do · the shop",
+      "pl": "do sklepu"
+    },
+    {
+      "en": "after ze · school",
+      "pl": "ze szkoły"
+    },
+    {
+      "en": "after dużo · water",
+      "pl": "dużo wody"
+    },
+    {
+      "en": "after w · the shop",
+      "pl": "w sklepie"
+    },
+    {
+      "en": "after na · the table",
+      "pl": "na stole"
+    },
+    {
+      "en": "after jestem · a teacher (a man)",
+      "pl": "jestem nauczycielem"
+    },
+    {
+      "en": "after jestem · a doctor (a woman)",
+      "pl": "jestem lekarką"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You ARE there — the shop →",
+      "choices": [
+        "w sklepie",
+        "do sklepu",
+        "ze sklepu",
+        "blisko sklepu"
+      ],
+      "answer": "w sklepie",
+      "explain": "w means where you are, and w always takes the Locative: sklepie. do and z point somewhere and take the Genitive instead."
+    },
+    {
+      "prompt": "You are GOING there — school →",
+      "choices": [
+        "do szkoły",
+        "w szkole",
+        "ze szkoły",
+        "blisko szkoły"
+      ],
+      "answer": "do szkoły",
+      "explain": "Destination is do, and do takes the Genitive: szkoły. w szkole would say you are already there."
+    },
+    {
+      "prompt": "Coming back FROM there — the city →",
+      "choices": [
+        "z miasta",
+        "do miasta",
+        "w mieście",
+        "blisko miasta"
+      ],
+      "answer": "z miasta",
+      "explain": "z is origin and takes the Genitive. miasto is neuter, so its Genitive is miasta."
+    },
+    {
+      "prompt": "You DRINK it — tea →",
+      "choices": [
+        "piję herbatę",
+        "nie mam herbaty",
+        "to jest herbata",
+        "dużo herbaty"
+      ],
+      "answer": "piję herbatę",
+      "explain": "piję acts on the tea, so the tea is the object: Accusative herbatę. The other three are real Polish — they are just answering different questions."
+    },
+    {
+      "prompt": "You DON'T have it — coffee →",
+      "choices": [
+        "nie mam kawy",
+        "mam kawę",
+        "to jest kawa",
+        "dużo kawy"
+      ],
+      "answer": "nie mam kawy",
+      "explain": "mam takes the Accusative, but nie mam takes the Genitive — the negation changes the case, not just the meaning."
+    },
+    {
+      "prompt": "A LOT of it — water →",
+      "choices": [
+        "dużo wody",
+        "dużo wodę",
+        "dużo woda",
+        "piję wodę"
+      ],
+      "answer": "dużo wody",
+      "explain": "dużo is a quantity word, and quantity words take the Genitive: wody."
+    },
+    {
+      "prompt": "You ARE one — a teacher (a man speaking) →",
+      "choices": [
+        "jestem nauczycielem",
+        "jestem nauczyciel",
+        "to jest nauczyciel",
+        "jestem nauczycielką"
+      ],
+      "answer": "jestem nauczycielem",
+      "explain": "jestem plus a job takes the Instrumental, so nauczyciel becomes nauczycielem. nauczycielką is the same case but the woman's word."
+    },
+    {
+      "prompt": "You HAVE it — a book →",
+      "choices": [
+        "mam książkę",
+        "nie mam książki",
+        "to jest książka",
+        "mam książka"
+      ],
+      "answer": "mam książkę",
+      "explain": "mam takes the Accusative, and a feminine noun swaps -a for -ę: książka → książkę."
+    },
+    {
+      "prompt": "Which case does do take?",
+      "choices": [
+        "Genitive · dopełniacz",
+        "Locative · miejscownik",
+        "Accusative · biernik",
+        "Instrumental · narzędnik"
+      ],
+      "answer": "Genitive · dopełniacz"
+    },
+    {
+      "prompt": "Which case does w take, when it means where you are?",
+      "choices": [
+        "Locative · miejscownik",
+        "Genitive · dopełniacz",
+        "Accusative · biernik",
+        "Nominative · mianownik"
+      ],
+      "answer": "Locative · miejscownik"
+    },
+    {
+      "prompt": "Which case do mam, piję and lubię take?",
+      "choices": [
+        "Accusative · biernik",
+        "Genitive · dopełniacz",
+        "Locative · miejscownik",
+        "Instrumental · narzędnik"
+      ],
+      "answer": "Accusative · biernik"
+    },
+    {
+      "prompt": "Which case does jestem take, when you name your job?",
+      "choices": [
+        "Instrumental · narzędnik",
+        "Nominative · mianownik",
+        "Accusative · biernik",
+        "Genitive · dopełniacz"
+      ],
+      "answer": "Instrumental · narzędnik"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm in the shop. — w takes the Locative",
+      "mode": "cloze",
+      "frame": "Jestem w ___.",
+      "answer": "sklepie",
+      "accepts": [
+        "sklepie"
+      ]
+    },
+    {
+      "prompt_en": "I'm going to the shop. — do takes the Genitive",
+      "mode": "cloze",
+      "frame": "Idę do ___.",
+      "answer": "sklepu",
+      "accepts": [
+        "sklepu"
+      ]
+    },
+    {
+      "prompt_en": "I'm coming back from school.",
+      "mode": "cloze",
+      "frame": "Wracam ze ___.",
+      "answer": "szkoły",
+      "accepts": [
+        "szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Mum is at school.",
+      "mode": "cloze",
+      "frame": "Mama jest w ___.",
+      "answer": "szkole",
+      "accepts": [
+        "szkole"
+      ]
+    },
+    {
+      "prompt_en": "I don't have time.",
+      "mode": "cloze",
+      "frame": "Nie mam ___.",
+      "answer": "czasu",
+      "accepts": [
+        "czasu"
+      ]
+    },
+    {
+      "prompt_en": "I drink a lot of water.",
+      "mode": "cloze",
+      "frame": "Piję dużo ___.",
+      "answer": "wody",
+      "accepts": [
+        "wody"
+      ]
+    },
+    {
+      "prompt_en": "I have a book.",
+      "mode": "cloze",
+      "frame": "Mam ___.",
+      "answer": "książkę",
+      "accepts": [
+        "książkę"
+      ]
+    },
+    {
+      "prompt_en": "I'm drinking tea.",
+      "mode": "cloze",
+      "frame": "Piję ___.",
+      "answer": "herbatę",
+      "accepts": [
+        "herbatę"
+      ]
+    },
+    {
+      "prompt_en": "I am a teacher. (a man speaking)",
+      "mode": "cloze",
+      "frame": "Jestem ___.",
+      "answer": "nauczycielem",
+      "accepts": [
+        "nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Mum is a doctor.",
+      "mode": "cloze",
+      "frame": "Mama jest ___.",
+      "answer": "lekarką",
+      "accepts": [
+        "lekarką"
+      ]
+    },
+    {
+      "prompt_en": "The chemist's is near the bank.",
+      "mode": "cloze",
+      "frame": "Apteka jest blisko ___.",
+      "answer": "banku",
+      "accepts": [
+        "banku"
+      ]
+    },
+    {
+      "prompt_en": "This is coffee.",
+      "mode": "cloze",
+      "frame": "To jest ___.",
+      "answer": "kawa",
+      "accepts": [
+        "kawa"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum is drinking coffee.",
+      "answer": "Mama pije kawę.",
+      "accepts": [
+        "Mama pije kawę.",
+        "Mama pije kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad doesn't have time.",
+      "answer": "Tata nie ma czasu.",
+      "accepts": [
+        "Tata nie ma czasu.",
+        "Tata nie ma czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The book is on the table.",
+      "answer": "Książka jest na stole.",
+      "accepts": [
+        "Książka jest na stole.",
+        "Książka jest na stole"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is a student.",
+      "answer": "Mój brat jest studentem.",
+      "accepts": [
+        "Mój brat jest studentem.",
+        "Mój brat jest studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: The school is near the park.",
+      "answer": "Szkoła jest blisko parku.",
+      "accepts": [
+        "Szkoła jest blisko parku.",
+        "Szkoła jest blisko parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum works in the shop.",
+      "answer": "Mama pracuje w sklepie.",
+      "accepts": [
+        "Mama pracuje w sklepie.",
+        "Mama pracuje w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is reading a book.",
+      "answer": "Tata czyta książkę.",
+      "accepts": [
+        "Tata czyta książkę.",
+        "Tata czyta książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad drinks a lot of coffee.",
+      "answer": "Tata pije dużo kawy.",
+      "accepts": [
+        "Tata pije dużo kawy.",
+        "Tata pije dużo kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is a doctor.",
+      "answer": "Moja siostra jest lekarką.",
+      "accepts": [
+        "Moja siostra jest lekarką.",
+        "Moja siostra jest lekarką"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is my dog.",
+      "answer": "To jest mój pies.",
+      "accepts": [
+        "To jest mój pies.",
+        "To jest mój pies"
+      ]
+    },
+    {
+      "prompt_en": "Type: There is no milk.",
+      "answer": "Nie ma mleka.",
+      "accepts": [
+        "Nie ma mleka.",
+        "Nie ma mleka"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum lives in the city.",
+      "answer": "Mama mieszka w mieście.",
+      "accepts": [
+        "Mama mieszka w mieście.",
+        "Mama mieszka w mieście"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "kawa",
+    "kawę",
+    "kawy",
+    "herbata",
+    "herbatę",
+    "herbaty",
+    "woda",
+    "wodę",
+    "wody",
+    "książka",
+    "książkę",
+    "książki",
+    "sklep",
+    "sklepu",
+    "sklepie",
+    "szkoła",
+    "szkoły",
+    "szkole",
+    "miasto",
+    "miasta",
+    "mieście",
+    "dom",
+    "domu",
+    "park",
+    "parku",
+    "bank",
+    "banku",
+    "hotel",
+    "hotelu",
+    "apteka",
+    "apteki",
+    "czas",
+    "czasu",
+    "mleko",
+    "mleka",
+    "stół",
+    "stole",
+    "pies",
+    "brat",
+    "mama",
+    "tata",
+    "siostra",
+    "nauczyciel",
+    "nauczycielem",
+    "nauczycielka",
+    "nauczycielką",
+    "lekarka",
+    "lekarką",
+    "student",
+    "studentem",
+    "jestem",
+    "jest",
+    "mam",
+    "nie mam",
+    "nie ma",
+    "piję",
+    "pije",
+    "czyta",
+    "pracuje",
+    "mieszka",
+    "idę",
+    "wracam",
+    "chcę",
+    "lubię",
+    "kupuję",
+    "dużo",
+    "blisko",
+    "nie",
+    "dobra",
+    "mój",
+    "moja",
+    "do sklepu",
+    "ze sklepu",
+    "w sklepie",
+    "do szkoły",
+    "ze szkoły",
+    "w szkole",
+    "do miasta",
+    "z miasta",
+    "w mieście",
+    "do domu",
+    "z domu",
+    "w domu",
+    "do parku",
+    "z parku",
+    "w parku",
+    "do banku",
+    "z banku",
+    "w banku",
+    "do hotelu",
+    "z hotelu",
+    "w hotelu",
+    "do apteki",
+    "na stole"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a1_which_case",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

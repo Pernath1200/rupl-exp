@@ -119,6 +119,33 @@
           "accepts": [
             "Książka jest nowa."
           ]
+        },
+        {
+          "pl": "Książka jest duża.",
+          "en": "The book is big.",
+          "gap": "Książka jest ____.",
+          "gap_answer": "duża",
+          "accepts": [
+            "Książka jest duża."
+          ]
+        },
+        {
+          "pl": "Kuchnia jest mała.",
+          "en": "The kitchen is small.",
+          "gap": "Kuchnia jest ____.",
+          "gap_answer": "mała",
+          "accepts": [
+            "Kuchnia jest mała."
+          ]
+        },
+        {
+          "pl": "Mama jest szczęśliwa.",
+          "en": "Mum is happy.",
+          "gap": "Mama jest ____.",
+          "gap_answer": "szczęśliwa",
+          "accepts": [
+            "Mama jest szczęśliwa."
+          ]
         }
       ]
     }
@@ -156,7 +183,10 @@
     "złe",
     "zły",
     "ładna",
-    "ładny"
+    "ładny",
+    "duża",
+    "mała",
+    "szczęśliwa"
   ],
   "title_en": "Adjectives"
 }

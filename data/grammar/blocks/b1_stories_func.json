@@ -1,0 +1,463 @@
+{
+  "id": "b1_stories_func",
+  "title": "Co się stało?",
+  "title_en": "What happened? · telling a story",
+  "level": "B1",
+  "tree_node": "b1_stories_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 6 Situations unit — the spine's own line: 'telling what happened — recombining past, aspect, motion and connectives into short narratives.' Genuinely NEW: exactly one small closed chunk set built on the opaque past 3sg form stało (from stać się, 'to happen') — Co się stało? (What happened?), Coś się stało. (Something happened.), Nic się nie stało. (Nothing happened / never mind, the reassurance idiom). All three confirmed NEW via check_new.py before writing.\n\nDESIGN FORK, logged (conservative default taken): stać się could have been opened as a real reflexive verb with its own conjugation slide, the way dziękuję and o której were reopened as real paradigm slots earlier in B1. Took the OTHER, more conservative precedent instead — the same opaque-block treatment nie słyszę and nie wiem got in a2_phone_func/a2_directions_func: stało is handed over as one closed word inside three fixed frames, never conjugated, no się-stać paradigm slide. Reasoning: this unit's job per the spine is recombination (connectives + already-owned past/aspect/motion), and opening a full new reflexive-verb paradigm on top of that would be two new systems in one unit — exactly the load-splitting rule AGENTS.md protects against. If James wants stać się opened as a real verb later, it is not blocked by anything here; this unit only closes off the three frames actually used.\n\ncoś (something) is a genuinely new word distinct from co (what, already taught) — not a homograph, but flagged so it is not read as the same word. Tagged individually per the every-form-taught rule since it appears inside coś się stało.\n\nZERO NEW STRUCTURES beyond re-declaring situation_chunk (house convention — every Situations unit re-declares it in teaches_structures even though the id itself was first taught back in leaf_shopping_a1, same pattern a2_phone_func and a2_wrapup_func both follow). Every narrative sentence recycles a structure already live on path: past_byc, past_isc, aspect_past, motion_prefixed (b1_arrive_leave's przyszedł, not the generic aspect_past twins — checked the owning pack's own teaches_structures before tagging, same check performed for b1_stories), past_plural, virile_past, byc_adj, negation, sie_reflexive, prep_do_gen, prep_w_loc, question.\n\nSELF-VERIFICATION caught three near-misses before shipping, all via check_new.py: a first draft used musiałem/mogłem (past of musieć/móc) and czekałem (past of czekać) as narrative filler, assuming forms this common would already be taught — all three came back NEW (only the PRESENT of musieć/móc is taught; their past tense is not on the current spine at all). Also dropped ale ('but') from a draft sentence joining coś się stało and nic się nie stało — also NEW, no live pack teaches it. All three replaced with confirmed-taught alternatives (byłem zły instead of a musiałem clause; two short sentences instead of one ale-joined one). A fourth near-miss: an early nagle example used padał deszcz (weather past chunk) on the assumption the weather_chunk catalogue description covered it — check_new.py returned NEW, the exact same trap b1_stories's own note already flagged and fixed one unit ago on the same catalogue entry. Replaced with Nagle zgubiłem klucz. (aspect_past, confirmed taught).\n\nEvery recycled narrative form (byłem/byłam/był/była/byli/były, szedłem/szła, przyszedł, zgubiłem, kupiłem, mieszkali/mieszkały, pracowali/pracowały, spóźniłam się, oni/one, zły, po drodze, do domu/do pracy/w mieście/w domu/w szkole) verified TAUGHT via check_new.py against its owning pack before use, with no homograph risk found (zły is the same 'bad/wrong' sense trunk_adjectives_a1 already taught, not a different word).",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "past_byc",
+    "past_isc",
+    "aspect_past",
+    "motion_prefixed",
+    "past_plural",
+    "virile_past",
+    "byc_adj",
+    "negation",
+    "sie_reflexive",
+    "prep_do_gen",
+    "prep_w_loc",
+    "question",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "Co się stało? — the question that starts a story",
+      "title_pl": "Co się stało?",
+      "body": "Three fixed phrases share one word you have not seen before: stało. It comes from stać się, 'to happen' — but this unit does not open that verb up or conjugate it. Stało is handed over exactly the way nie słyszę and nie wiem were: one closed word, learned whole, inside three set frames.\n\nCo się stało? asks the question — 'What happened?' Coś się stało says something happened, without saying what yet — coś ('something') is a new word, not the co ('what') you already have. Nic się nie stało is the reassurance — 'Nothing happened,' or in everyday use, 'It's fine, don't worry about it.'",
+      "body_pl": "Co się stało? Coś się stało. Nic się nie stało.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When you say it"
+        ],
+        "rows": [
+          [
+            "Co się stało?",
+            "What happened?",
+            "asking about a story"
+          ],
+          [
+            "Coś się stało.",
+            "Something happened.",
+            "opening a story, before the details"
+          ],
+          [
+            "Nic się nie stało.",
+            "Nothing happened. / It's fine.",
+            "reassuring someone — no harm done"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "You're nervous — what happened?",
+          "pl": "Jesteś zdenerwowany — co się stało?"
+        },
+        {
+          "en": "Something happened at work.",
+          "pl": "Coś się stało w pracy."
+        },
+        {
+          "en": "It's fine — nothing happened.",
+          "pl": "Nic się nie stało."
+        }
+      ]
+    },
+    {
+      "title": "Najpierw… Potem… Nagle… W końcu… — the words that build the story",
+      "title_pl": "Najpierw, potem, nagle, w końcu",
+      "body": "Nothing new here — these six connectives are the ones you learned in the last unit. This slide is just the reminder that they are what actually turns separate sentences into one story: najpierw starts it, potem carries it forward, nagle is the twist, niestety and na szczęście mark whether the twist is bad or good, and w końcu closes it.\n\nEvery sentence you build with them uses a past-tense form you already own — byłem, szedłem, zgubiłem, przyszedł, byli — the connectives just decide the order they arrive in.",
+      "body_pl": "Najpierw byłem w pracy. Potem szedłem do domu. Nagle zgubiłem klucz. Niestety byłem zły. Na szczęście przyszedł brat. W końcu byłem w domu.",
+      "examples": [
+        {
+          "en": "First I was at work. Then I was walking home.",
+          "pl": "Najpierw byłem w pracy. Potem szedłem do domu."
+        },
+        {
+          "en": "Suddenly I lost the key.",
+          "pl": "Nagle zgubiłem klucz."
+        },
+        {
+          "en": "In the end I was at home.",
+          "pl": "W końcu byłem w domu."
+        }
+      ]
+    },
+    {
+      "title": "A whole story, six words long",
+      "title_pl": "Cała historia",
+      "body": "Here is the full chain from the last slide, read as one story. Nothing in it is new except the way it is strung together — every sentence is a form you already had before this unit. Read it once before you start.",
+      "body_pl": "Co się stało? Najpierw byłem w pracy. Potem szedłem do domu. Nagle zgubiłem klucz. Niestety byłem zły. Na szczęście przyszedł brat. W końcu byłem w domu.",
+      "examples": [
+        {
+          "en": "What happened? First I was at work.",
+          "pl": "Co się stało? Najpierw byłem w pracy."
+        },
+        {
+          "en": "Unfortunately I was angry. Fortunately my brother arrived.",
+          "pl": "Niestety byłem zły. Na szczęście przyszedł brat."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "What happened?",
+      "pl": "Co się stało?"
+    },
+    {
+      "en": "Something happened.",
+      "pl": "Coś się stało."
+    },
+    {
+      "en": "Nothing happened. / It's fine.",
+      "pl": "Nic się nie stało."
+    },
+    {
+      "en": "first, first of all",
+      "pl": "Najpierw"
+    },
+    {
+      "en": "then, next",
+      "pl": "Potem"
+    },
+    {
+      "en": "finally, in the end",
+      "pl": "W końcu"
+    },
+    {
+      "en": "suddenly",
+      "pl": "Nagle"
+    },
+    {
+      "en": "unfortunately",
+      "pl": "Niestety"
+    },
+    {
+      "en": "fortunately",
+      "pl": "Na szczęście"
+    },
+    {
+      "en": "Suddenly dad arrived.",
+      "pl": "Nagle przyszedł tata."
+    },
+    {
+      "en": "I was late for work. (f)",
+      "pl": "Spóźniłam się do pracy."
+    },
+    {
+      "en": "They (m) were at home.",
+      "pl": "Oni byli w domu."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Your brother walks in looking upset, and you don't know why. You ask:",
+      "choices": [
+        "Co się stało?",
+        "Coś się stało.",
+        "Nic się nie stało.",
+        "Na szczęście."
+      ],
+      "answer": "Co się stało?",
+      "explain": "Co się stało? is the question — you're asking what happened, not stating it."
+    },
+    {
+      "prompt": "Your friend seems different today and you're not sure why. You say:",
+      "choices": [
+        "Coś się stało.",
+        "Co się stało?",
+        "Nic się nie stało.",
+        "Nagle się stało."
+      ],
+      "answer": "Coś się stało.",
+      "explain": "Coś się stało states it, without asking — 'something happened,' before you know what."
+    },
+    {
+      "prompt": "You bump into someone and they apologise nervously. You reassure them:",
+      "choices": [
+        "Nic się nie stało.",
+        "Co się stało?",
+        "Coś się stało.",
+        "Niestety."
+      ],
+      "answer": "Nic się nie stało.",
+      "explain": "This is the everyday 'it's fine, don't worry about it' — literally 'nothing happened.'"
+    },
+    {
+      "prompt": "Byłem w pracy. ___ szedłem do domu.",
+      "choices": [
+        "Potem",
+        "Coś się stało.",
+        "Nic się nie stało.",
+        "Co się stało?"
+      ],
+      "answer": "Potem",
+      "explain": "Potem carries the story to the next event — I was at work, then I was walking home."
+    },
+    {
+      "prompt": "Szedłem do domu i ___ zgubiłem klucz.",
+      "choices": [
+        "nagle",
+        "potem",
+        "najpierw",
+        "w końcu"
+      ],
+      "answer": "nagle",
+      "explain": "Losing the key is the unexpected twist — nagle marks a sudden turn, not just the next step in order."
+    },
+    {
+      "prompt": "Zgubiłem klucz. ___ byłem zły.",
+      "choices": [
+        "niestety",
+        "na szczęście",
+        "najpierw",
+        "w końcu"
+      ],
+      "answer": "niestety",
+      "explain": "Being angry about a lost key is the bad turn — niestety, not its opposite na szczęście."
+    },
+    {
+      "prompt": "Byłem zły. ___ przyszedł brat.",
+      "choices": [
+        "Na szczęście",
+        "Niestety",
+        "Nagle",
+        "W końcu"
+      ],
+      "answer": "Na szczęście",
+      "explain": "The brother arriving turns the story around for the better — na szczęście, the opposite of niestety."
+    },
+    {
+      "prompt": "___ byłem w domu. (this is how the story ends)",
+      "choices": [
+        "W końcu",
+        "Najpierw",
+        "Nagle",
+        "Coś się stało."
+      ],
+      "answer": "W końcu",
+      "explain": "W końcu closes a story — the last thing that happened, after everything else."
+    },
+    {
+      "prompt": "___ byłem w pracy. Potem szedłem do domu. (this is how the story begins)",
+      "choices": [
+        "Najpierw",
+        "W końcu",
+        "Nagle",
+        "Niestety"
+      ],
+      "answer": "Najpierw",
+      "explain": "Najpierw opens a story — the first thing that happened, before potem takes over."
+    },
+    {
+      "prompt": "Oni pracowali. ___ mieszkali w mieście.",
+      "choices": [
+        "Potem",
+        "Coś się stało.",
+        "Nic się nie stało.",
+        "Niestety"
+      ],
+      "answer": "Potem",
+      "explain": "Same job as with byłem/szedłem earlier — potem moves a plural, virile story forward too."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "What happened?",
+      "mode": "full_word",
+      "answer": "Co się stało?",
+      "accepts": [
+        "Co się stało?",
+        "Co się stało",
+        "Co sie stalo?",
+        "Co sie stalo"
+      ],
+      "explain": "stało is left as one closed word here — you don't need to conjugate it, just recognise it as 'happened.'"
+    },
+    {
+      "prompt_en": "Something happened.",
+      "mode": "full_word",
+      "answer": "Coś się stało.",
+      "accepts": [
+        "Coś się stało.",
+        "Coś się stało",
+        "Cos sie stalo",
+        "Cos sie stalo."
+      ]
+    },
+    {
+      "prompt_en": "Nothing happened. / It's fine.",
+      "mode": "cloze",
+      "answer": "stało",
+      "frame": "Nic się nie ___.",
+      "accepts": [
+        "stało",
+        "stalo"
+      ],
+      "explain": "The reassurance idiom keeps the same closed word stało you met in Co się stało? — only Nic … nie is wrapped round it.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on stało, this pack's one genuinely new word and its teaching point. Items 0 and 1 stay typed whole: at 3 words each they are inside the cap and are frozen chunks taught whole (the pack's own note calls stało an opaque closed form), so they are not composed sentences under the refinement test. Their answers are the full strings 'Co się stało?' / 'Coś się stało.', so this blank creates no duplicate answer in the stage."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: What happened? First I was at work. Then I was walking home.",
+      "answer": "Co się stało? Najpierw byłem w pracy. Potem szedłem do domu.",
+      "accepts": [
+        "Co się stało? Najpierw byłem w pracy. Potem szedłem do domu.",
+        "Co się stało? Najpierw byłem w pracy. Potem szedłem do domu"
+      ],
+      "explain": "The question opens the story; najpierw and potem carry it forward one step at a time."
+    },
+    {
+      "prompt_en": "Type: Along the way I bought bread. Suddenly I lost the key.",
+      "answer": "Po drodze kupiłem chleb. Nagle zgubiłem klucz.",
+      "accepts": [
+        "Po drodze kupiłem chleb. Nagle zgubiłem klucz.",
+        "Po drodze kupiłem chleb. Nagle zgubiłem klucz"
+      ],
+      "explain": "po drodze is the journeys chunk from the last block; nagle marks the moment the story turns."
+    },
+    {
+      "prompt_en": "Type: Unfortunately I was angry. Fortunately my brother arrived.",
+      "answer": "Niestety byłem zły. Na szczęście przyszedł brat.",
+      "accepts": [
+        "Niestety byłem zły. Na szczęście przyszedł brat.",
+        "Niestety byłem zły. Na szczęście przyszedł brat"
+      ]
+    },
+    {
+      "prompt_en": "Type: In the end I was at home.",
+      "answer": "W końcu byłem w domu.",
+      "accepts": [
+        "W końcu byłem w domu.",
+        "W końcu byłem w domu",
+        "Byłem w domu w końcu.",
+        "Byłem w domu w końcu"
+      ]
+    },
+    {
+      "prompt_en": "Type: First I was at school. (f) Then I was walking home.",
+      "answer": "Najpierw byłam w szkole. Potem szłam do domu.",
+      "accepts": [
+        "Najpierw byłam w szkole. Potem szłam do domu.",
+        "Najpierw byłam w szkole. Potem szłam do domu"
+      ],
+      "explain": "szłam is the feminine of szedłem — the same stem split b1_past_isc already taught."
+    },
+    {
+      "prompt_en": "Type: Suddenly I was late for work. (f)",
+      "answer": "Nagle spóźniłam się do pracy.",
+      "accepts": [
+        "Nagle spóźniłam się do pracy.",
+        "Nagle spóźniłam się do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Something happened. Fortunately, nothing happened in the end.",
+      "answer": "Coś się stało. Na szczęście nic się nie stało.",
+      "accepts": [
+        "Coś się stało. Na szczęście nic się nie stało.",
+        "Coś się stało. Na szczęście nic się nie stało"
+      ],
+      "explain": "The same stało word opens and closes the story — first as an open question, then as a reassurance."
+    },
+    {
+      "prompt_en": "Type: First they (m) worked. Then they lived in the city. In the end they were at home.",
+      "answer": "Najpierw oni pracowali. Potem mieszkali w mieście. W końcu byli w domu.",
+      "accepts": [
+        "Najpierw oni pracowali. Potem mieszkali w mieście. W końcu byli w domu.",
+        "Najpierw oni pracowali. Potem mieszkali w mieście. W końcu byli w domu"
+      ],
+      "explain": "A plural, virile story — the same najpierw/potem/w końcu chain, now carrying oni pracowali/byli instead of a single byłem."
+    },
+    {
+      "prompt_en": "Type the exchange: — What happened? — Nothing happened.",
+      "answer": "— Co się stało? — Nic się nie stało.",
+      "accepts": [
+        "— Co się stało? — Nic się nie stało.",
+        "Co się stało? Nic się nie stało.",
+        "Co się stało? Nic się nie stało",
+        "- Co się stało? - Nic się nie stało."
+      ]
+    },
+    {
+      "prompt_en": "Type: Unfortunately they (f) weren't at home.",
+      "answer": "Niestety one nie były w domu.",
+      "accepts": [
+        "Niestety one nie były w domu.",
+        "Niestety one nie były w domu"
+      ],
+      "explain": "one is the non-virile 'they' — the group being talked about is all women, so nie były, not nie byli."
+    }
+  ],
+  "teaches_lemmas": [
+    "stało",
+    "co się stało",
+    "coś",
+    "coś się stało",
+    "nic się nie stało"
+  ],
+  "uses_lemmas": [
+    "najpierw",
+    "potem",
+    "w końcu",
+    "nagle",
+    "niestety",
+    "na szczęście",
+    "byłem",
+    "byłam",
+    "był",
+    "była",
+    "byli",
+    "były",
+    "szedłem",
+    "szłam",
+    "przyszedł",
+    "zgubiłem",
+    "kupiłem",
+    "chleb",
+    "po drodze",
+    "mieszkali",
+    "pracowali",
+    "spóźniłam się",
+    "oni",
+    "one",
+    "zły",
+    "brat",
+    "tata",
+    "nie",
+    "w pracy",
+    "w szkole",
+    "w domu",
+    "w mieście",
+    "do pracy",
+    "do domu"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_stories_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

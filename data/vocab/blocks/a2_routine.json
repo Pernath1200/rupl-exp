@@ -1,0 +1,581 @@
+{
+  "id": "a2_routine",
+  "title": "Mój dzień",
+  "title_en": "My day, in order",
+  "level": "A2",
+  "tree_node": "a2_routine",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść at path index 75 · sits directly on a2_sie (74) and a2_chodzic (72). PAYOFF: the first connected paragraph Dad can produce — Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wracam wieczorem. The Zdanie bank is ordered to build to it: single new verb → yes/no question with the same verb → two-sentence pairs → the full five-line day. SIĘ FRAMING is locked to a2_sie: się is a word that BELONGS to the verb, never 'myself'. English helps here for once — 'I wake up', 'I have a wash', 'I get dressed' contain no self either, and the explains say so. Word order in every się sentence is verb + się, the default a2_sie taught; the one exception it allowed (jak + się + verb) does not occur here, and NO clitic-fronting variant (Rano się myję) is offered in accepts, because a2_sie deliberately taught no placement rules. NEW VERBS, 1sg + 2sg only — this is a vocab leaf, not a conjugation unit, so no 3sg/plural anywhere. Each new verb runs on a present class already owned: wstaję/wstajesz and myję się/myjesz się on -ę/-esz (idę, piję); budzę się/budzisz się and wychodzę/wychodzisz on -ę/-isz (chodzę, płacę); ubieram się/ubierasz się on -am/-asz (mieszkam). No new endings in the pack. UNPLANNED ADDITION: jem / jesz. The brief's payoff needs 'Jem śniadanie', but only the infinitive jeść is taught (a1_food) — the present of jeść appears in no teaches_lemmas in the repo and is not in POOL.md. It is taught here as a bare form pair with no class to learn, and śniadanie is neuter so its accusative is identical to the nominative: zero new system. wracać: a1_motion taught only the chunks wracam / wracasz (motion_chunk) and never the infinitive, so wracać alone is new and wracam is recycled untouched. wieczorem is taught as a whole time word next to rano; wieczór is already known and the explain links them without opening the instrumental as a system. FENCED, must not appear: any past form; any 3sg/plural of the new verbs; kłaść się spać and any other new się verb; zwykle, potem, kiedy, o (o siódmej) — all untaught; the habitual partner of any prefixed motion verb; śpię (only the infinitive spać is taught, so bedtime is carried by the known chunk idę spać, and it is fixed to teraz so it never contradicts the codziennie → chodzić rule a2_chodzic just set). NO NEW NOUNS in this pack, therefore no gender badges — every noun in the sentences (śniadanie, obiad, praca, dom, sklep) is recycled and carries its badge in its own pack.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "present",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "sie_reflexive",
+    "motion_chunk",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_w_loc",
+    "question",
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+  ],
+  "blocks": [
+    {
+      "id": "routine_words",
+      "title": "My day · new words",
+      "items": [
+        {
+          "en": "I get up",
+          "pl": "wstaję",
+          "icon": "🛏"
+        },
+        {
+          "en": "I wake up",
+          "pl": "budzę się",
+          "icon": "⏰",
+          "explain": "budzić się is another verb that travels with się, exactly like uczyć się. The się belongs to the verb — it is not a word for \"self\", and there is no self in the English either: you simply wake up."
+        },
+        {
+          "en": "I have a wash",
+          "pl": "myję się",
+          "icon": "🚿",
+          "explain": "Say it as one unit: myję się. Never try to translate the się on its own."
+        },
+        {
+          "en": "I get dressed",
+          "pl": "ubieram się",
+          "icon": "👕"
+        },
+        {
+          "en": "I eat",
+          "pl": "jem",
+          "icon": "🍽",
+          "explain": "You have known the dictionary form jeść since the food unit. Its present tense follows no pattern at all — jem, jesz — so learn the two forms as they stand."
+        },
+        {
+          "en": "I go out / I leave",
+          "pl": "wychodzę",
+          "icon": "🚪"
+        },
+        {
+          "en": "in the evening",
+          "pl": "wieczorem",
+          "icon": "🌙",
+          "explain": "You already know the noun wieczór, the evening. wieczorem is the form Polish uses to say when — take it as a single time word and put it in a sentence the way you put rano."
+        }
+      ]
+    },
+    {
+      "id": "routine_you_dict",
+      "title": "The same verbs · you-form and dictionary form",
+      "items": [
+        {
+          "en": "to get up",
+          "pl": "wstawać"
+        },
+        {
+          "en": "you get up",
+          "pl": "wstajesz",
+          "explain": "The -ę / -esz endings you already have from idę · idziesz and piję · pijesz."
+        },
+        {
+          "en": "to wake up",
+          "pl": "budzić się"
+        },
+        {
+          "en": "you wake up",
+          "pl": "budzisz się",
+          "explain": "-ę / -isz, the class of chodzę · chodzisz and płacę · płacisz. The się rides along behind, in both persons."
+        },
+        {
+          "en": "to have a wash",
+          "pl": "myć się"
+        },
+        {
+          "en": "you have a wash",
+          "pl": "myjesz się"
+        },
+        {
+          "en": "to get dressed",
+          "pl": "ubierać się"
+        },
+        {
+          "en": "you get dressed",
+          "pl": "ubierasz się",
+          "explain": "-am / -asz, the easiest class you own: mieszkam · mieszkasz, nazywam się · nazywasz się. Same endings, plus się."
+        },
+        {
+          "en": "you eat",
+          "pl": "jesz"
+        },
+        {
+          "en": "to go out / to leave",
+          "pl": "wychodzić"
+        },
+        {
+          "en": "you go out / you leave",
+          "pl": "wychodzisz"
+        },
+        {
+          "en": "to come back / to return",
+          "pl": "wracać",
+          "explain": "wracam and wracasz have been in your mouth since the do / z unit. wracać is their dictionary form — the shape you would look up."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Every day I get up in the morning.",
+      "pl": "Codziennie wstaję rano.",
+      "accepts": [
+        "Codziennie wstaję rano.",
+        "Codziennie wstaję rano",
+        "Wstaję codziennie rano.",
+        "Wstaję codziennie rano",
+        "Rano codziennie wstaję.",
+        "Rano codziennie wstaję"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz"
+      ],
+      "lemmas": [
+        "wstaję"
+      ],
+      "explain": "Only the verb is new. wstaję takes the same -ę ending as idę and piję, and codziennie sits exactly where it sat with chodzę."
+    },
+    {
+      "en": "Do you get up early?",
+      "pl": "Czy wstajesz wcześnie?",
+      "accepts": [
+        "Czy wstajesz wcześnie?",
+        "Czy wstajesz wcześnie",
+        "Wstajesz wcześnie?",
+        "Wstajesz wcześnie"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz",
+        "question"
+      ],
+      "lemmas": [
+        "wstajesz"
+      ]
+    },
+    {
+      "en": "I wake up in the morning.",
+      "pl": "Budzę się rano.",
+      "accepts": [
+        "Budzę się rano.",
+        "Budzę się rano",
+        "Rano budzę się.",
+        "Rano budzę się"
+      ],
+      "structures": [
+        "present",
+        "present_e_isz",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "budzę się"
+      ],
+      "explain": "budzić się carries its się everywhere, the way uczyć się and czuć się do. The się is part of the verb and stands straight after it — it is not telling you anything about a self."
+    },
+    {
+      "en": "Do you wake up early?",
+      "pl": "Czy budzisz się wcześnie?",
+      "accepts": [
+        "Czy budzisz się wcześnie?",
+        "Czy budzisz się wcześnie",
+        "Budzisz się wcześnie?",
+        "Budzisz się wcześnie"
+      ],
+      "structures": [
+        "present",
+        "present_e_isz",
+        "sie_reflexive",
+        "question"
+      ],
+      "lemmas": [
+        "budzisz się"
+      ],
+      "explain": "czy opens the question and nothing else moves — the się still sits behind its verb, as it did in Czuję się dobrze."
+    },
+    {
+      "en": "I have a wash in the morning.",
+      "pl": "Myję się rano.",
+      "accepts": [
+        "Myję się rano.",
+        "Myję się rano",
+        "Rano myję się.",
+        "Rano myję się"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "myję się"
+      ],
+      "explain": "English says I have a wash, not I wash myself, and Polish is the same: myję się is one verb with its own się. Do not look for a word meaning myself in it — there is not one."
+    },
+    {
+      "en": "Do you have a wash in the morning?",
+      "pl": "Czy myjesz się rano?",
+      "accepts": [
+        "Czy myjesz się rano?",
+        "Czy myjesz się rano",
+        "Myjesz się rano?",
+        "Myjesz się rano"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz",
+        "sie_reflexive",
+        "question"
+      ],
+      "lemmas": [
+        "myjesz się"
+      ]
+    },
+    {
+      "en": "I get dressed at home.",
+      "pl": "Ubieram się w domu.",
+      "accepts": [
+        "Ubieram się w domu.",
+        "Ubieram się w domu",
+        "W domu ubieram się.",
+        "W domu ubieram się"
+      ],
+      "structures": [
+        "present",
+        "present_am",
+        "sie_reflexive",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "ubieram się"
+      ],
+      "explain": "The endings are the ones from mieszkam and nazywam się — nothing new to learn, only the się to remember."
+    },
+    {
+      "en": "Do you get dressed in the morning?",
+      "pl": "Czy ubierasz się rano?",
+      "accepts": [
+        "Czy ubierasz się rano?",
+        "Czy ubierasz się rano",
+        "Ubierasz się rano?",
+        "Ubierasz się rano"
+      ],
+      "structures": [
+        "present",
+        "present_am",
+        "sie_reflexive",
+        "question"
+      ],
+      "lemmas": [
+        "ubierasz się"
+      ]
+    },
+    {
+      "en": "I eat breakfast.",
+      "pl": "Jem śniadanie.",
+      "accepts": [
+        "Jem śniadanie.",
+        "Jem śniadanie"
+      ],
+      "structures": [
+        "present"
+      ],
+      "lemmas": [
+        "jem"
+      ],
+      "explain": "śniadanie is an old word from the food unit, so the only new thing is jem. jeść is one of the few Polish verbs with no ending pattern behind it — jem, jesz, and that is all you need here."
+    },
+    {
+      "en": "Do you eat breakfast?",
+      "pl": "Czy jesz śniadanie?",
+      "accepts": [
+        "Czy jesz śniadanie?",
+        "Czy jesz śniadanie",
+        "Jesz śniadanie?",
+        "Jesz śniadanie"
+      ],
+      "structures": [
+        "present",
+        "question"
+      ],
+      "lemmas": [
+        "jesz"
+      ]
+    },
+    {
+      "en": "I eat lunch at home.",
+      "pl": "Jem obiad w domu.",
+      "accepts": [
+        "Jem obiad w domu.",
+        "Jem obiad w domu",
+        "W domu jem obiad.",
+        "W domu jem obiad"
+      ],
+      "structures": [
+        "present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "jem",
+        "obiad"
+      ],
+      "explain": "obiad does not change its shape after jem — it looks exactly as it does in the dictionary. Only feminine nouns like kawa show a different ending as an object."
+    },
+    {
+      "en": "I go out to work.",
+      "pl": "Wychodzę do pracy.",
+      "accepts": [
+        "Wychodzę do pracy.",
+        "Wychodzę do pracy"
+      ],
+      "structures": [
+        "present",
+        "present_e_isz",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "wychodzę"
+      ],
+      "explain": "do pracy is the same do + genitive phrase you have used since Idę do pracy. The new verb takes the -ę / -isz endings of chodzę and płacę."
+    },
+    {
+      "en": "Are you going out to the shop?",
+      "pl": "Czy wychodzisz do sklepu?",
+      "accepts": [
+        "Czy wychodzisz do sklepu?",
+        "Czy wychodzisz do sklepu",
+        "Wychodzisz do sklepu?",
+        "Wychodzisz do sklepu"
+      ],
+      "structures": [
+        "present",
+        "present_e_isz",
+        "prep_do_gen",
+        "question"
+      ],
+      "lemmas": [
+        "wychodzisz"
+      ]
+    },
+    {
+      "en": "I come back in the evening.",
+      "pl": "Wracam wieczorem.",
+      "accepts": [
+        "Wracam wieczorem.",
+        "Wracam wieczorem",
+        "Wieczorem wracam.",
+        "Wieczorem wracam"
+      ],
+      "structures": [
+        "motion_chunk"
+      ],
+      "lemmas": [
+        "wieczorem"
+      ],
+      "explain": "wracam is an old word — the new one is wieczorem. It answers when, just like rano, and it goes in the same slots rano goes in."
+    },
+    {
+      "en": "I come back from work in the evening.",
+      "pl": "Wracam z pracy wieczorem.",
+      "accepts": [
+        "Wracam z pracy wieczorem.",
+        "Wracam z pracy wieczorem",
+        "Wieczorem wracam z pracy.",
+        "Wieczorem wracam z pracy"
+      ],
+      "structures": [
+        "motion_chunk",
+        "prep_z_gen"
+      ],
+      "lemmas": [
+        "wieczorem"
+      ],
+      "explain": "Two known halves and one new word: wracam z pracy is the going-home phrase you already own, and wieczorem only says when it happens."
+    },
+    {
+      "en": "In the evening I'm tired. (m)",
+      "pl": "Wieczorem jestem zmęczony.",
+      "accepts": [
+        "Wieczorem jestem zmęczony.",
+        "Wieczorem jestem zmęczony",
+        "Jestem wieczorem zmęczony.",
+        "Jestem wieczorem zmęczony",
+        "Jestem zmęczony wieczorem.",
+        "Jestem zmęczony wieczorem"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wieczorem"
+      ],
+      "explain": "A woman would say Wieczorem jestem zmęczona — the time word never changes, only the adjective does."
+    },
+    {
+      "en": "Now I'm going to bed.",
+      "pl": "Teraz idę spać.",
+      "accepts": [
+        "Teraz idę spać.",
+        "Teraz idę spać",
+        "Idę teraz spać.",
+        "Idę teraz spać"
+      ],
+      "structures": [
+        "motion_chunk"
+      ],
+      "lemmas": [
+        "idę",
+        "spać"
+      ],
+      "explain": "Nothing new at all — idę spać is the everyday way to say you are off to bed. teraz is why it is idę and not chodzę: this is happening now, not as a routine."
+    },
+    {
+      "en": "Every day I get up in the morning. I have a wash.",
+      "pl": "Codziennie wstaję rano. Myję się.",
+      "accepts": [
+        "Codziennie wstaję rano. Myję się.",
+        "Codziennie wstaję rano. Myję się",
+        "Codziennie wstaję rano, myję się.",
+        "Codziennie wstaję rano, myję się"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz",
+        "sie_reflexive"
+      ],
+      "lemmas": [
+        "wstaję",
+        "myję się"
+      ],
+      "explain": "Two sentences in a row, and Polish does not need a word for I in either of them — the endings already say who is speaking."
+    },
+    {
+      "en": "I eat breakfast. I go out to work.",
+      "pl": "Jem śniadanie. Wychodzę do pracy.",
+      "accepts": [
+        "Jem śniadanie. Wychodzę do pracy.",
+        "Jem śniadanie. Wychodzę do pracy",
+        "Jem śniadanie i wychodzę do pracy.",
+        "Jem śniadanie i wychodzę do pracy"
+      ],
+      "structures": [
+        "present",
+        "present_e_isz",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "jem",
+        "wychodzę"
+      ],
+      "explain": "You can join the two with i and it stays correct: Jem śniadanie i wychodzę do pracy."
+    },
+    {
+      "en": "Every day I get up in the morning. I have a wash. I eat breakfast. I go out to work. I come back in the evening.",
+      "pl": "Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wracam wieczorem.",
+      "accepts": [
+        "Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wracam wieczorem.",
+        "Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wracam wieczorem",
+        "Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wieczorem wracam.",
+        "Codziennie wstaję rano. Myję się. Jem śniadanie. Wychodzę do pracy. Wieczorem wracam"
+      ],
+      "structures": [
+        "present",
+        "present_e_esz",
+        "present_e_isz",
+        "sie_reflexive",
+        "prep_do_gen",
+        "motion_chunk"
+      ],
+      "lemmas": [
+        "wstaję",
+        "myję się",
+        "jem",
+        "wychodzę",
+        "wieczorem"
+      ],
+      "explain": "This is your whole day in five sentences, and it is the first thing you can say in Polish that runs on past a single line. Say it out loud in order — morning, wash, breakfast, out, back — and the order itself will hold the words for you."
+    }
+  ],
+  "teaches_lemmas": [
+    "wstawać",
+    "wstaję",
+    "wstajesz",
+    "budzić się",
+    "budzę się",
+    "budzisz się",
+    "budzę",
+    "budzisz",
+    "myć się",
+    "myję się",
+    "myjesz się",
+    "myję",
+    "myjesz",
+    "ubierać się",
+    "ubieram się",
+    "ubierasz się",
+    "ubieram",
+    "ubierasz",
+    "wychodzić",
+    "wychodzę",
+    "wychodzisz",
+    "wracać",
+    "jem",
+    "jesz",
+    "wieczorem"
+  ],
+  "uses_lemmas": [
+    "się",
+    "codziennie",
+    "rano",
+    "wcześnie",
+    "teraz",
+    "wieczór",
+    "jeść",
+    "śniadanie",
+    "obiad",
+    "spać",
+    "wracam",
+    "wracasz",
+    "idę",
+    "jestem",
+    "zmęczony",
+    "zmęczona",
+    "czy",
+    "i",
+    "w domu",
+    "do pracy",
+    "z pracy",
+    "do sklepu",
+    "chodzę",
+    "chodzisz",
+    "płacę",
+    "piję",
+    "mieszkam",
+    "mieszkasz",
+    "nazywam się",
+    "nazywasz się",
+    "uczyć się",
+    "czuć się",
+    "czuję się dobrze"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_routine",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

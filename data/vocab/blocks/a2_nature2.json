@@ -1,0 +1,568 @@
+{
+  "id": "a2_nature2",
+  "title": "Dzień w parku",
+  "title_en": "A day out in nature",
+  "level": "A2",
+  "tree_node": "a2_nature2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · the being-outdoors half of nature. a1_nature owns the big scenery and is never re-taught here: przyroda, pogoda, drzewo, kwiat, roślina, góra, wzgórze, rzeka, morze, jezioro, las, pole, wyspa, niebo, ziemia, powietrze, ogień. a1_animals owns ptak and owad, a1_city owns most, a2_travel owns mapa, plaża, góry, wycieczka and zwiedzać — all ANCHORS. This pack teaches 12 new words for what you actually meet on a walk (ścieżka, widok, liść, trawa, grzyby, staw, kamień, ławka, ognisko, plecak, wieś, świeży) plus five phrases that carry the inflected forms the sentences demand: na ścieżce, w trawie, na wsi, świeże powietrze, z plecakiem. Two badges worth flagging: grzyby takes pl (it is taught as the plural you pick and eat, so its past verb is były), and wieś takes f even though it ends in a consonant — the soft feminine family of noc and mysz. wieś → wsi is irregular enough to get its own explain. The payoff rides the past he now has (past_byc, past_ac, past_rest, past_plural) and one bedzie + infinitive sentence; the copular future (będę na wsi) is NOT used, because a2_bedzie fenced it. Split from a2_sport: this pack is landscape and being outdoors, a2_sport is games, exercise and watching. spacer and biegać went to a2_sport as exercise; plecak and ognisko stayed here as walking kit. Imperfective only, singular past except the one plural grzyby frame.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "ten_ta_to",
+    "existential_jest",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "prep_w_loc",
+    "prep_do_gen",
+    "inst_z",
+    "miec_present",
+    "miec_acc",
+    "poss_nom",
+    "motion_chunk",
+    "present_e_isz",
+    "bedzie"
+  ],
+  "blocks": [
+    {
+      "id": "nature2_words",
+      "title": "Outdoors · new words",
+      "items": [
+        {
+          "en": "path (a track through a park or a wood)",
+          "pl": "ścieżka",
+          "gender": "f",
+          "icon": "🛤️"
+        },
+        {
+          "en": "view (what you can see from a spot)",
+          "pl": "widok",
+          "gender": "m",
+          "icon": "🏞️"
+        },
+        {
+          "en": "leaf",
+          "pl": "liść",
+          "gender": "m",
+          "icon": "🍃"
+        },
+        {
+          "en": "grass",
+          "pl": "trawa",
+          "gender": "f"
+        },
+        {
+          "en": "mushrooms (the ones you pick)",
+          "pl": "grzyby",
+          "gender": "pl",
+          "icon": "🍄"
+        },
+        {
+          "en": "pond",
+          "pl": "staw",
+          "gender": "m"
+        },
+        {
+          "en": "stone",
+          "pl": "kamień",
+          "gender": "m",
+          "icon": "🪨"
+        },
+        {
+          "en": "bench (to sit on outdoors)",
+          "pl": "ławka",
+          "gender": "f",
+          "icon": "🪑"
+        },
+        {
+          "en": "campfire (a fire you sit round)",
+          "pl": "ognisko",
+          "gender": "n",
+          "icon": "🏕️"
+        },
+        {
+          "en": "rucksack",
+          "pl": "plecak",
+          "gender": "m"
+        },
+        {
+          "en": "countryside (also: a village)",
+          "pl": "wieś",
+          "gender": "f",
+          "icon": "🏡"
+        },
+        {
+          "en": "fresh (air, food)",
+          "pl": "świeży"
+        }
+      ]
+    },
+    {
+      "id": "nature2_phrases",
+      "title": "Outdoors · in use",
+      "items": [
+        {
+          "en": "on the path",
+          "pl": "na ścieżce"
+        },
+        {
+          "en": "in the grass",
+          "pl": "w trawie"
+        },
+        {
+          "en": "in the countryside",
+          "pl": "na wsi"
+        },
+        {
+          "en": "fresh air",
+          "pl": "świeże powietrze"
+        },
+        {
+          "en": "with a rucksack",
+          "pl": "z plecakiem"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The path in the park is nice.",
+      "pl": "Ścieżka w parku jest ładna.",
+      "accepts": [
+        "Ścieżka w parku jest ładna.",
+        "Ścieżka w parku jest ładna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "ścieżka"
+      ],
+      "explain": "ścieżka ends in -a, so it is feminine, and the adjective has to follow it: ładna, not ładny."
+    },
+    {
+      "en": "Yesterday I was on the path. (m)",
+      "pl": "Wczoraj byłem na ścieżce.",
+      "accepts": [
+        "Wczoraj byłem na ścieżce.",
+        "Wczoraj byłem na ścieżce",
+        "Byłem wczoraj na ścieżce.",
+        "Byłem wczoraj na ścieżce",
+        "Na ścieżce byłem wczoraj.",
+        "Na ścieżce byłem wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "na ścieżce",
+        "ścieżce"
+      ],
+      "explain": "Saying where you were puts the noun in the locative: ścieżka becomes ścieżce. It is the same swap you already make in praca → w pracy."
+    },
+    {
+      "en": "The view in the mountains was fantastic.",
+      "pl": "Widok w górach był fantastyczny.",
+      "accepts": [
+        "Widok w górach był fantastyczny.",
+        "Widok w górach był fantastyczny",
+        "W górach widok był fantastyczny.",
+        "W górach widok był fantastyczny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "widok"
+      ],
+      "explain": "widok is masculine, so the past być stays był and the adjective keeps its plain -y form."
+    },
+    {
+      "en": "I like this view.",
+      "pl": "Lubię ten widok.",
+      "accepts": [
+        "Lubię ten widok.",
+        "Lubię ten widok"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc",
+        "ten_ta_to"
+      ],
+      "lemmas": [
+        "widok"
+      ],
+      "explain": "Lubię takes an object, but a masculine thing-word does not change at all: ten widok is both the subject form and the object form."
+    },
+    {
+      "en": "This leaf is green.",
+      "pl": "Ten liść jest zielony.",
+      "accepts": [
+        "Ten liść jest zielony.",
+        "Ten liść jest zielony"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "liść"
+      ],
+      "explain": "liść ends in a soft consonant and is masculine — ten liść, and everything after it takes the masculine form."
+    },
+    {
+      "en": "In the morning the grass was cold.",
+      "pl": "Rano trawa była zimna.",
+      "accepts": [
+        "Rano trawa była zimna.",
+        "Rano trawa była zimna",
+        "Trawa rano była zimna.",
+        "Trawa rano była zimna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trawa"
+      ],
+      "explain": "Feminine noun, so two -a endings follow it: była zimna. Exactly the pattern of kawa była dobra."
+    },
+    {
+      "en": "The dog was in the grass.",
+      "pl": "Pies był w trawie.",
+      "accepts": [
+        "Pies był w trawie.",
+        "Pies był w trawie",
+        "W trawie był pies.",
+        "W trawie był pies"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w trawie",
+        "trawie"
+      ],
+      "explain": "w + locative again: trawa becomes trawie. The verb still agrees with pies, not with the grass."
+    },
+    {
+      "en": "There were mushrooms in the park.",
+      "pl": "W parku były grzyby.",
+      "accepts": [
+        "W parku były grzyby.",
+        "W parku były grzyby",
+        "Grzyby były w parku.",
+        "Grzyby były w parku",
+        "Były grzyby w parku.",
+        "Były grzyby w parku"
+      ],
+      "structures": [
+        "past_byc",
+        "past_plural",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "grzyby"
+      ],
+      "explain": "grzyby is a plural word, so the past być is były, not był — the same plural you use in wakacje były dobre."
+    },
+    {
+      "en": "Grandma liked mushrooms.",
+      "pl": "Babcia lubiła grzyby.",
+      "accepts": [
+        "Babcia lubiła grzyby.",
+        "Babcia lubiła grzyby"
+      ],
+      "structures": [
+        "past_rest"
+      ],
+      "lemmas": [
+        "grzyby"
+      ],
+      "explain": "The object of lubiła does not change here: plural thing-words keep the same form as subject and as object."
+    },
+    {
+      "en": "There is a pond in the park.",
+      "pl": "W parku jest staw.",
+      "accepts": [
+        "W parku jest staw.",
+        "W parku jest staw",
+        "Staw jest w parku.",
+        "Staw jest w parku",
+        "Jest staw w parku.",
+        "Jest staw w parku"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "staw"
+      ],
+      "explain": "This jest means \"there is\" — it announces that something exists in a place. It is not the to jest of naming something."
+    },
+    {
+      "en": "This stone is big.",
+      "pl": "Ten kamień jest duży.",
+      "accepts": [
+        "Ten kamień jest duży.",
+        "Ten kamień jest duży"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kamień"
+      ]
+    },
+    {
+      "en": "The bench in the park is old.",
+      "pl": "Ławka w parku jest stara.",
+      "accepts": [
+        "Ławka w parku jest stara.",
+        "Ławka w parku jest stara"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "ławka"
+      ]
+    },
+    {
+      "en": "In the evening there was a campfire.",
+      "pl": "Wieczorem było ognisko.",
+      "accepts": [
+        "Wieczorem było ognisko.",
+        "Wieczorem było ognisko",
+        "Ognisko było wieczorem.",
+        "Ognisko było wieczorem"
+      ],
+      "structures": [
+        "past_byc",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "ognisko"
+      ],
+      "explain": "ognisko is neuter — that is why the past być is było, the same ending you already know from było dobrze."
+    },
+    {
+      "en": "I have a new rucksack.",
+      "pl": "Mam nowy plecak.",
+      "accepts": [
+        "Mam nowy plecak.",
+        "Mam nowy plecak"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "plecak"
+      ],
+      "explain": "After mam a feminine word changes (mam kawę), but a masculine thing-word does not: mam nowy plecak."
+    },
+    {
+      "en": "Tomorrow I'm going to the park with a rucksack.",
+      "pl": "Jutro idę do parku z plecakiem.",
+      "accepts": [
+        "Jutro idę do parku z plecakiem.",
+        "Jutro idę do parku z plecakiem",
+        "Idę jutro do parku z plecakiem.",
+        "Idę jutro do parku z plecakiem"
+      ],
+      "structures": [
+        "motion_chunk",
+        "prep_do_gen",
+        "inst_z"
+      ],
+      "lemmas": [
+        "z plecakiem",
+        "plecakiem"
+      ],
+      "explain": "z takes the instrumental, and masculine words add -em: plecak → plecakiem. Same ending as z bratem."
+    },
+    {
+      "en": "My grandma lived in the countryside.",
+      "pl": "Moja babcia mieszkała na wsi.",
+      "accepts": [
+        "Moja babcia mieszkała na wsi.",
+        "Moja babcia mieszkała na wsi",
+        "Babcia mieszkała na wsi.",
+        "Babcia mieszkała na wsi"
+      ],
+      "structures": [
+        "past_ac",
+        "prep_w_loc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "na wsi",
+        "wsi"
+      ],
+      "explain": "wieś loses its -e- in the locative: na wsi. It is worth learning as one piece — you will hear it far more often than the plain wieś."
+    },
+    {
+      "en": "This is an old village.",
+      "pl": "To jest stara wieś.",
+      "accepts": [
+        "To jest stara wieś.",
+        "To jest stara wieś",
+        "To stara wieś.",
+        "To stara wieś"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wieś"
+      ],
+      "explain": "wieś ends in a consonant but is feminine, like noc and mysz — so the adjective is stara, not stary."
+    },
+    {
+      "en": "Tomorrow I'll be relaxing in the countryside.",
+      "pl": "Jutro będę odpoczywać na wsi.",
+      "accepts": [
+        "Jutro będę odpoczywać na wsi.",
+        "Jutro będę odpoczywać na wsi",
+        "Będę jutro odpoczywać na wsi.",
+        "Będę jutro odpoczywać na wsi"
+      ],
+      "structures": [
+        "bedzie",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "na wsi"
+      ],
+      "explain": "będę plus the plain verb, and na wsi does not change — the future never touches the noun."
+    },
+    {
+      "en": "I like fresh air.",
+      "pl": "Lubię świeże powietrze.",
+      "accepts": [
+        "Lubię świeże powietrze.",
+        "Lubię świeże powietrze"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "świeże powietrze",
+        "świeże"
+      ],
+      "explain": "powietrze is neuter, so the adjective takes -e: świeże. Neuter words also stay the same as an object, so nothing else moves."
+    },
+    {
+      "en": "In the mountains the air is fresh.",
+      "pl": "W górach powietrze jest świeże.",
+      "accepts": [
+        "W górach powietrze jest świeże.",
+        "W górach powietrze jest świeże",
+        "Powietrze w górach jest świeże.",
+        "Powietrze w górach jest świeże",
+        "Powietrze jest świeże w górach.",
+        "Powietrze jest świeże w górach"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "świeże"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "ścieżka",
+    "ścieżce",
+    "na ścieżce",
+    "widok",
+    "liść",
+    "trawa",
+    "trawie",
+    "w trawie",
+    "grzyby",
+    "staw",
+    "kamień",
+    "ławka",
+    "ognisko",
+    "plecak",
+    "plecakiem",
+    "z plecakiem",
+    "wieś",
+    "wsi",
+    "na wsi",
+    "świeży",
+    "świeże",
+    "świeże powietrze"
+  ],
+  "uses_lemmas": [
+    "powietrze",
+    "w parku",
+    "do parku",
+    "w górach",
+    "jest",
+    "był",
+    "była",
+    "było",
+    "były",
+    "byłem",
+    "ten",
+    "moja",
+    "babcia",
+    "pies",
+    "mieszkała",
+    "lubiła",
+    "lubię",
+    "mam",
+    "idę",
+    "będę",
+    "odpoczywać",
+    "rano",
+    "wieczorem",
+    "wczoraj",
+    "jutro",
+    "ładna",
+    "zimna",
+    "stara",
+    "zielony",
+    "duży",
+    "nowy",
+    "fantastyczny"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_nature2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

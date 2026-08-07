@@ -1,0 +1,597 @@
+{
+ "id": "c1_adj_pl_virile",
+ "title": "Dobrzy czy dobre?",
+ "title_en": "Plural adjectives for a group with a man in it",
+ "level": "C1",
+ "tree_node": "c1_adj_pl_virile",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "C1 Block 2, unit 5 (C1-SPINE O2) - the VIRILE plural adjective, the men-group form, and the last teaching unit of the block.\n\nFOUR NEW FORMS, one idea: nowi, mlodzi, zmeczeni (the virile Nominative plural) and zmeczone (the non-virile plural of the same adjective, needed so the split has both sides on one word). dobrzy is RECYCLED, not taught - b1_virile_reco [109] handed it over as a whole ready-made form with no rule at all, and b1_virile_nom [110] re-used it as a predicate recall item on the same footing. So the unit's shape is the b2_verbal_nouns / b2_participle_pass anchor shape: a form the learner has read since B1 turns out to be built by a pattern, and three more adjectives get theirs.\n\nTHE PATTERN IS STATED AS A PATTERN OVER FOUR OWNED WORDS, NEVER AS A PRODUCTIVE TEST, on the b2_gen_pl_full fleeting-e precedent C1-SPINE cites for exactly this genre (O12 restates the ban on fabricated forms because C1's alternation units are where the temptation is strongest). The four alternations shown are r->rz (dobry->dobrzy), w->wi (nowy->nowi), d->dz (mlody->mlodzi) and n->ni (zmeczony->zmeczeni). The framing that makes it ONE new thing rather than four: THE LEARNER ALREADY DOES THIS TO THE NOUNS. b1_virile_nom taught 'look at the last consonant of the stem' with student-> studenci, Polak->Polacy, lekarz->lekarze. Slide 2 says outright that the adjective in front makes the same move, so this is one familiar operation reaching a second word class, not a new system.\n\nTHE SPINE'S OWN TWO NAMED FORMS ARE DROPPED AND THAT IS THE UNIT'S ONE REAL FORK, logged loudly. C1-SPINE names mali, duzi and zmeczeni. zmeczeni is built. mali and duzi are NOT, because NO VIRILE NOUN THIS COURSE OWNS COLLOCATES WITH A SIZE ADJECTIVE. The taught virile nouns are studenci, lekarze, nauczyciele, pracownicy, kelnerzy, Polacy, pacjenci, klienci, artysci, rolnicy, Anglicy, goscie, kibice, przyjaciele, turysci, ludzie, kucharze, dziennikarze, policjanci, informatycy and rodzice - every one an adult occupational or relational noun, and 'mali studenci' / 'duzi lekarze' is not something anyone says. The natural home for mali is chlopcy or synowie, both verified NEW. Rather than ship a table row that never appears in a sentence, the unit substitutes NOWI - which the spine did not name and which is the strongest virile adjective in the pool: nowi studenci, nowi klienci, nowi pracownicy are all completely ordinary Polish, and nowy/nowa/nowe are ALL TAUGHT, so it supplies a perfect four-way distractor set. MLODZI is the second substitution, on the same test. This is the c1_adj_pl_loc precedent applied a second time in the same block: a spine example is a sketch, not a licence. IF JAMES WANTS mali AND duzi, the cost is one new virile noun (chlopcy) and they slot into c1_adj_pl_gym without disturbing anything here.\n\nTHE DISTRACTOR SETS DROVE THE ADJECTIVE CHOICE, exactly as they did in c1_adj_pl_gen. Only four adjectives in the whole course have masculine, feminine AND non-virile plural all taught - dobry, nowy, maly, duzy - and of those only dobry and nowy have a usable virile. zmeczony gets its full four-way set because this unit teaches the two missing members itself (zmeczone, zmeczeni), which is why it carries the sharpest items. mlody has mlody/mloda/mlodszy owned but mlode is verified NEW, so its item distracts with the comparative rather than with a form the course does not own. NOTHING FABRICATED, nothing untaught: every distractor string in the file is either taught or taught by this pack.\n\nPAYS b2_copular_future's ABSOLUTE FENCE, which is the reason zmeczone is taught here alongside zmeczeni. That pack's note reads: 'PLURAL predicate adjectives are fenced absolutely - zmeczeni / zmeczone are NEW (b1_virile_gym and b1_conditional_pl each record nearly shipping them by mistake, one batch apart). Every plural sentence in this pack takes a place phrase, never an adjective.' Slide 3 and the Jestesmy zmeczeni / Jestesmy zmeczone pair are that fence paid. The plural predicate itself is NOT new - a2_plural_nom already shipped Koty sa male and Hotele sa dobre - so what slide 3 adds is only that in the plural the choice stops being man/woman and becomes men-group / everything else.\n\nTHE ACCUSATIVE IS THE UNIT'S SECOND CONSEQUENCE AND IS DELIBERATELY BUILT ON OWNED STRINGS ONLY. Virile Accusative plural = Genitive plural, on both the noun and the adjective. Every form it needs is already taught: dobrych/nowych ← c1_adj_pl_gen [182], and studentow/kolegow/klientow ← b2_num_virile [157], lekarzy/nauczycieli ← b2_gen_pl_full [155]. HOMOGRAPH DISCIPLINE, named on slide 4 rather than left to sting: every one of those noun forms was taught AS A GENITIVE PLURAL and is used here in the ACCUSATIVE. That is the honest masculine-animate exception AGENTS names (brata/psa/kota are genuinely identical in both cases), one number up, and b2_adj_gen already taught the singular fact. It is stated in one line and anchored on Znam brata. mlodzi, zmeczeni and nowi have NO Accusative here - mlodych, zmeczonych are verified NEW - so the Accusative runs on dobry and nowy only. Logged rather than hidden.\n\nTHE NON-VIRILE SIDE IS ENTIRELY RECYCLED and that is what keeps the load at one new thing: te + -e is a2_plural_nom [55], including its own explicit slide-6 fact that the Accusative plural equals the Nominative plural for everything non-virile (Mam nowe ksiazki). dobre/nowe/male/duze are the four non-virile plurals that pack owns; dobre and nowe carry every contrast row here. VERIFIED rather than assumed: check_new.py reports dobre first at a1_gender_check [6] and male at trunk_adjectives_a1 [8], i.e. as NEUTER SINGULARS, so the homograph was checked directly against a2_plural_nom's own items - Czy hotele sa dobre?, Lekcje sa dobre., Koty sa male., Domy sa duze., Mam nowe ksiazki. - which use all four squarely as non-virile plurals. glodne is the counter-example and is FENCED: it is TAUGHT (trunk_adjectives_a1 [8]) but only as a neuter singular, and no later pack ever puts it in a plural, so it appears nowhere in this file.\n\nTHE WOMEN-ONLY ROW IS THE UNIT'S SHARPEST DISCRIMINATION and gets two items and a slide row, because the predictable error is 'people take the men-group form'. Corki sa zmeczone and Jestesmy zmeczone say the opposite: the category is masculine-personal, not human. This is the same guard b2_num_virile built its whole feminine defence around (osoba is feminine, so piec osob and never pieciu), one paradigm on.\n\nci IS USED IN ITS b1_virile_reco JOB ONLY - the virile nominative demonstrative, 'these people'. b1_virile_reco's note flagged in advance that b1_dative_pron [120] would later re-teach the same string as the 2sg dative clitic (podoba ci sie); that second sense appears nowhere in this file, in any stage, and no dative construction is used.\n\nFENCED, all verified NEW and appearing nowhere including as distractors: mali, duzi, starzy, wysocy, wszyscy, mlode, mlodych, zajeci, zajeta, zajete, chorzy, chore, glodni, stare, mile, madrzy, zmeczonych; the virile nouns chlopcy, mezczyzni, panowie, synowie, koledzy; and the Genitive plurals pacjentow, turystow, ludzi, gosci, Polakow, Anglikow - which is why the Accusative items run on studentow, kolegow, klientow, lekarzy and nauczycieli and on no other noun. oni/one are TAUGHT (b1_virile_past [111]) and sit in the auditor's GLUE_LEMMAS where it cannot see them; they are used nowhere, because the Jestesmy pair carries the same contrast without a bare pronoun subject and AGENTS calls pronoun-plus-verb Uzycie items pro-drop-degenerate.\n\nPISANIE: nine items - eight two-word Nominative and Accusative phrases (the c1_adj_pl_gen / c1_adj_pl_dat shape: the Nominative needs no governor, so adjective + noun is the whole minimal pattern unit) and the Jestesmy zmeczeni / Jestesmy zmeczone pair, two words each, verb + predicate adjective with no bolted-on part - the b1_wrapup #0 'Planuje spotkanie.' precedent the repair queue settled, and the same shape c1_existential's whole Pisanie stage used one block earlier. Under the 3-word cap, pattern units not composed sentences; nothing added to the repair queue. All nine answers distinct under the engine's own norm().\n\nTITLE CORRECTED AT THE WIRE, as C1-SPINE's build protocol demands and as batch 1 and batch 2 both had to do. The planned tree label read 'Mali, duzi, zmeczeni' - two of those three forms are no longer taught by this unit (see the fork above), so the label would have carried Polish the course never teaches into learner-visible chrome. Retitled to the house contrast pattern on b1_virile_reco's own 'Ci czy te?' model: DOBRZY CZY DOBRE? - both words owned, and it names the split the unit exists for.",
+ "focus_structures": [
+  "adj_pl_virile"
+ ],
+ "teaches_structures": [
+  "adj_pl_virile"
+ ],
+ "teaches_lemmas": [
+  "nowi",
+  "młodzi",
+  "zmęczeni",
+  "zmęczone"
+ ],
+ "uses_structures": [
+  "adj_pl_virile",
+  "virile_reco",
+  "virile_nom",
+  "plural_nom",
+  "adj_pl_gen",
+  "byc_adj",
+  "byc_present",
+  "zgoda",
+  "ten_ta_to",
+  "miec_acc",
+  "miec_present",
+  "adj_acc",
+  "adj_gen",
+  "gen_pl_full",
+  "num_virile",
+  "present",
+  "conjunctions",
+  "comparative"
+ ],
+ "intro": [
+  {
+   "title": "The form you have been reading since B1",
+   "title_pl": "Ci studenci są dobrzy.",
+   "body": "A plural that includes at least one man takes ci rather than te — and it takes a different adjective too. You met dobrzy in B1 as a ready-made form with no rule behind it. Here is the rule, and three more adjectives that follow it. Every other plural keeps the -e form you have had since A2.",
+   "body_pl": "mianownik liczby mnogiej — forma męskoosobowa",
+   "table": {
+    "headers": [
+     "The group",
+     "Word for these",
+     "Adjective"
+    ],
+    "rows": [
+     [
+      "filmy — things",
+      "te",
+      "dobre"
+     ],
+     [
+      "kobiety — women only",
+      "te",
+      "dobre"
+     ],
+     [
+      "studenci — men, or a mixed group",
+      "ci",
+      "dobrzy"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The last consonant changes — the same move you already make on the nouns",
+   "title_pl": "-y → -i",
+   "body": "B1 taught you to look at the last consonant of the stem: student becomes studenci, Polak becomes Polacy. The adjective in front does exactly the same thing — the consonant softens and the ending becomes -i, spelled -y after rz. These are the four adjectives this course gives you the form for. It is a pattern to recognise, not a test to run on new words.",
+   "table": {
+    "headers": [
+     "One man",
+     "A group with a man in it",
+     "What moved"
+    ],
+    "rows": [
+     [
+      "dobry",
+      "dobrzy",
+      "r → rz"
+     ],
+     [
+      "nowy",
+      "nowi",
+      "w → wi"
+     ],
+     [
+      "młody",
+      "młodzi",
+      "d → dz"
+     ],
+     [
+      "zmęczony",
+      "zmęczeni",
+      "n → ni"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "These students are young.",
+     "pl": "Ci studenci są młodzi."
+    },
+    {
+     "en": "These clients are new.",
+     "pl": "Ci klienci są nowi."
+    }
+   ]
+  },
+  {
+   "title": "Jesteśmy zmęczeni",
+   "title_pl": "zmęczeni · zmęczone",
+   "body": "After być the adjective agrees with the subject, which you have done in the singular since A1 — Jestem zmęczony, Jestem zmęczona — and in the plural since A2, with Koty są małe. What is new is which way the plural splits. It is no longer man against woman. It is a group with a man in it against everything else, and a women-only group counts as everything else.",
+   "table": {
+    "headers": [
+     "Who",
+     "Polish"
+    ],
+    "rows": [
+     [
+      "a group with at least one man",
+      "Jesteśmy zmęczeni."
+     ],
+     [
+      "women only",
+      "Jesteśmy zmęczone."
+     ],
+     [
+      "things",
+      "Filmy są dobre."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "The teachers are tired.",
+     "pl": "Nauczyciele są zmęczeni."
+    },
+    {
+     "en": "The daughters are tired.",
+     "pl": "Córki są zmęczone."
+    }
+   ]
+  },
+  {
+   "title": "As an object, the men-group borrows the Genitive",
+   "title_pl": "Znam dobrych studentów.",
+   "body": "For things and for women-only groups the object form is simply the subject form — that is the A2 rule and it has not changed. For a group with a man in it, both the noun and the adjective borrow the Genitive instead. You have seen this borrowing before in the singular: Znam brata uses the same form as the Genitive too.",
+   "table": {
+    "headers": [
+     "The group",
+     "As subject",
+     "As object"
+    ],
+    "rows": [
+     [
+      "things",
+      "Filmy są dobre.",
+      "Mam dobre filmy."
+     ],
+     [
+      "men, or a mixed group",
+      "Studenci są dobrzy.",
+      "Znam dobrych studentów."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I have good friends.",
+     "pl": "Mam dobrych kolegów."
+    },
+    {
+     "en": "I know the new clients.",
+     "pl": "Znam nowych klientów."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "These students are young.",
+   "pl": "Ci studenci są młodzi."
+  },
+  {
+   "en": "These clients are new.",
+   "pl": "Ci klienci są nowi."
+  },
+  {
+   "en": "The teachers are tired.",
+   "pl": "Nauczyciele są zmęczeni."
+  },
+  {
+   "en": "The parents are tired.",
+   "pl": "Rodzice są zmęczeni."
+  },
+  {
+   "en": "These fans are good.",
+   "pl": "Ci kibice są dobrzy."
+  },
+  {
+   "en": "The daughters are tired.",
+   "pl": "Córki są zmęczone."
+  },
+  {
+   "en": "These films are good.",
+   "pl": "Te filmy są dobre."
+  },
+  {
+   "en": "The shops are new.",
+   "pl": "Sklepy są nowe."
+  },
+  {
+   "en": "We are tired. (a group with a man in it)",
+   "pl": "Jesteśmy zmęczeni."
+  },
+  {
+   "en": "We are tired. (women only)",
+   "pl": "Jesteśmy zmęczone."
+  },
+  {
+   "en": "I know the good students.",
+   "pl": "Znam dobrych studentów."
+  },
+  {
+   "en": "I have good friends.",
+   "pl": "Mam dobrych kolegów."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Ci studenci są ___. (young)",
+   "choices": [
+    "młodzi",
+    "młody",
+    "młoda",
+    "młodszy"
+   ],
+   "answer": "młodzi",
+   "explain": "studenci is a group with men in it, so the adjective takes the men-group form. młody is one man and młodszy is the comparative, younger."
+  },
+  {
+   "prompt": "Te sklepy są ___. (new)",
+   "choices": [
+    "nowe",
+    "nowi",
+    "nowy",
+    "nową"
+   ],
+   "answer": "nowe",
+   "explain": "Shops are things, so nothing changes — the -e plural you have had since A2. nowi is only for a group with a man in it."
+  },
+  {
+   "prompt": "Ci lekarze są ___. (good)",
+   "choices": [
+    "dobrzy",
+    "dobre",
+    "dobry",
+    "dobrą"
+   ],
+   "answer": "dobrzy",
+   "explain": "lekarze is a men-group plural. dobre would be right for films, shops or a women-only group."
+  },
+  {
+   "prompt": "We are tired. — said by three women →",
+   "choices": [
+    "Jesteśmy zmęczone.",
+    "Jesteśmy zmęczeni.",
+    "Jesteśmy zmęczona.",
+    "Jesteśmy zmęczony."
+   ],
+   "answer": "Jesteśmy zmęczone.",
+   "explain": "No man in the group, so it takes the everything-else form. zmęczona is one woman on her own."
+  },
+  {
+   "prompt": "We are tired. — said by two men and a woman →",
+   "choices": [
+    "Jesteśmy zmęczeni.",
+    "Jesteśmy zmęczone.",
+    "Jesteśmy zmęczony.",
+    "Jesteśmy zmęczona."
+   ],
+   "answer": "Jesteśmy zmęczeni.",
+   "explain": "One man in the group is enough. Polish does not wait for a majority."
+  },
+  {
+   "prompt": "Nauczyciele są ___. (tired)",
+   "choices": [
+    "zmęczeni",
+    "zmęczone",
+    "zmęczony",
+    "zmęczona"
+   ],
+   "answer": "zmęczeni",
+   "explain": "The stem's last consonant softens: zmęczony, zmęczeni. Same move as dobry to dobrzy, on a different consonant."
+  },
+  {
+   "prompt": "Córki są ___. (tired)",
+   "choices": [
+    "zmęczone",
+    "zmęczeni",
+    "zmęczona",
+    "zmęczony"
+   ],
+   "answer": "zmęczone",
+   "explain": "This is the one worth slowing down for. Daughters are people, but they are not men, and the special form is about men rather than about people. A women-only group takes the same form as things do."
+  },
+  {
+   "prompt": "I know the good students. →",
+   "choices": [
+    "Znam dobrych studentów.",
+    "Znam dobrzy studenci.",
+    "Znam dobre studentów.",
+    "Znam dobrych studenci."
+   ],
+   "answer": "Znam dobrych studentów.",
+   "explain": "As an object, a men-group plural borrows the Genitive — on the noun and on the adjective alike. dobrzy studenci is the subject form."
+  },
+  {
+   "prompt": "I have good friends. →",
+   "choices": [
+    "Mam dobrych kolegów.",
+    "Mam dobre kolegów.",
+    "Mam dobrym kolegom.",
+    "Mam dobrymi kolegami."
+   ],
+   "answer": "Mam dobrych kolegów.",
+   "explain": "kolegów already does duty for both the Genitive and the Accusative, and the adjective copies it. The last two are the Dative and the Instrumental from earlier in this block."
+  },
+  {
+   "prompt": "I have new films. →",
+   "choices": [
+    "Mam nowe filmy.",
+    "Mam nowi filmy.",
+    "Mam nowych filmów.",
+    "Mam nowe filmów."
+   ],
+   "answer": "Mam nowe filmy.",
+   "explain": "Films are things, so the object form is exactly the subject form — the A2 rule, untouched. The other three all borrow something they should not: only a group with a man in it does that."
+  },
+  {
+   "prompt": "Ci klienci są ___. (new)",
+   "choices": [
+    "nowi",
+    "nowe",
+    "nowy",
+    "nową"
+   ],
+   "answer": "nowi",
+   "explain": "nowy ends in w, and w softens to wi before the ending. The written form looks small; it is the same change dobry makes to dobrzy."
+  },
+  {
+   "prompt": "Te kobiety są ___. (good)",
+   "choices": [
+    "dobre",
+    "dobrzy",
+    "dobra",
+    "dobrych"
+   ],
+   "answer": "dobre",
+   "explain": "te and dobre go together, and kobiety takes te. ci and dobrzy both need at least one man in the group."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "the good students (subject form, a group with men in it)",
+   "mode": "full_word",
+   "answer": "dobrzy studenci",
+   "accepts": [
+    "dobrzy studenci"
+   ]
+  },
+  {
+   "prompt_en": "the new clients (subject form, a group with men in it)",
+   "mode": "full_word",
+   "answer": "nowi klienci",
+   "accepts": [
+    "nowi klienci"
+   ],
+   "explain": "w softens to wi: nowy, nowi."
+  },
+  {
+   "prompt_en": "the young doctors (subject form, a group with men in it)",
+   "mode": "full_word",
+   "answer": "młodzi lekarze",
+   "accepts": [
+    "młodzi lekarze"
+   ],
+   "explain": "d softens to dz: młody, młodzi."
+  },
+  {
+   "prompt_en": "the tired teachers (subject form, a group with men in it)",
+   "mode": "full_word",
+   "answer": "zmęczeni nauczyciele",
+   "accepts": [
+    "zmęczeni nauczyciele"
+   ]
+  },
+  {
+   "prompt_en": "the tired daughters (subject form)",
+   "mode": "full_word",
+   "answer": "zmęczone córki",
+   "accepts": [
+    "zmęczone córki"
+   ],
+   "explain": "A women-only group takes the everything-else form, not the men-group one."
+  },
+  {
+   "prompt_en": "the good films (subject form)",
+   "mode": "full_word",
+   "answer": "dobre filmy",
+   "accepts": [
+    "dobre filmy"
+   ]
+  },
+  {
+   "prompt_en": "the good students (object form, a group with men in it)",
+   "mode": "full_word",
+   "answer": "dobrych studentów",
+   "accepts": [
+    "dobrych studentów"
+   ],
+   "explain": "The object form of a men-group plural is the Genitive, borrowed whole."
+  },
+  {
+   "prompt_en": "We are tired. (a group with a man in it)",
+   "mode": "full_word",
+   "answer": "Jesteśmy zmęczeni.",
+   "accepts": [
+    "Jesteśmy zmęczeni.",
+    "Jesteśmy zmęczeni"
+   ]
+  },
+  {
+   "prompt_en": "We are tired. (women only)",
+   "mode": "full_word",
+   "answer": "Jesteśmy zmęczone.",
+   "accepts": [
+    "Jesteśmy zmęczone.",
+    "Jesteśmy zmęczone"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: These students are young.",
+   "answer": "Ci studenci są młodzi.",
+   "accepts": [
+    "Ci studenci są młodzi.",
+    "Ci studenci są młodzi"
+   ]
+  },
+  {
+   "prompt_en": "Type: The doctors are tired.",
+   "answer": "Lekarze są zmęczeni.",
+   "accepts": [
+    "Lekarze są zmęczeni.",
+    "Lekarze są zmęczeni"
+   ]
+  },
+  {
+   "prompt_en": "Type: The daughters are tired.",
+   "answer": "Córki są zmęczone.",
+   "accepts": [
+    "Córki są zmęczone.",
+    "Córki są zmęczone"
+   ],
+   "explain": "Córki is a women-only plural, so it takes zmęczone — the same form things take. The men-group form is about men, not about people."
+  },
+  {
+   "prompt_en": "Type: I know the good students.",
+   "answer": "Znam dobrych studentów.",
+   "accepts": [
+    "Znam dobrych studentów.",
+    "Znam dobrych studentów"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have good friends.",
+   "answer": "Mam dobrych kolegów.",
+   "accepts": [
+    "Mam dobrych kolegów.",
+    "Mam dobrych kolegów"
+   ]
+  },
+  {
+   "prompt_en": "Type: These clients are new.",
+   "answer": "Ci klienci są nowi.",
+   "accepts": [
+    "Ci klienci są nowi.",
+    "Ci klienci są nowi"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have new films.",
+   "answer": "Mam nowe filmy.",
+   "accepts": [
+    "Mam nowe filmy.",
+    "Mam nowe filmy"
+   ],
+   "explain": "Nothing borrows anything here — films are things, so the object form is the plain plural you have had since A2."
+  },
+  {
+   "prompt_en": "Type: The films are good, but the shops are new.",
+   "answer": "Filmy są dobre, ale sklepy są nowe.",
+   "accepts": [
+    "Filmy są dobre, ale sklepy są nowe.",
+    "Filmy są dobre, ale sklepy są nowe"
+   ]
+  },
+  {
+   "prompt_en": "Type: The teachers are tired, but the students are young.",
+   "answer": "Nauczyciele są zmęczeni, ale studenci są młodzi.",
+   "accepts": [
+    "Nauczyciele są zmęczeni, ale studenci są młodzi.",
+    "Nauczyciele są zmęczeni, ale studenci są młodzi"
+   ],
+   "explain": "Two men-group plurals in one sentence, on two different adjectives — n softening to ni, and d softening to dz."
+  }
+ ],
+ "uses_lemmas": [
+  "dobrzy",
+  "dobre",
+  "dobry",
+  "dobra",
+  "dobrą",
+  "dobrych",
+  "dobrym",
+  "dobrymi",
+  "nowe",
+  "nowy",
+  "nowa",
+  "nową",
+  "nowych",
+  "nowym",
+  "młody",
+  "młoda",
+  "młodszy",
+  "zmęczony",
+  "zmęczona",
+  "ci",
+  "te",
+  "studenci",
+  "student",
+  "lekarze",
+  "lekarz",
+  "nauczyciele",
+  "klienci",
+  "kibice",
+  "rodzice",
+  "córki",
+  "kobiety",
+  "polacy",
+  "polak",
+  "studentów",
+  "kolegów",
+  "klientów",
+  "filmów",
+  "kolegom",
+  "kolegami",
+  "filmy",
+  "sklepy",
+  "koty",
+  "małe",
+  "brata",
+  "jestem",
+  "jesteśmy",
+  "są",
+  "być",
+  "znam",
+  "mam",
+  "ale",
+  "czy"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "c1_adj_pl_virile",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

@@ -1,0 +1,398 @@
+{
+  "id": "a2_sport",
+  "title": "Mecz i drużyna",
+  "title_en": "Match day",
+  "level": "A2",
+  "tree_node": "a2_sport",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · games, exercise and watching — the being-outdoors half (landscape, walking kit) went to a2_nature2 instead; spacer stayed here as the exercise word it actually is. a1_freetime already owns sport, piłka nożna, tenis, pływanie, bieganie, siłownia, hobby, muzyka, grać, gra, zabawa, drużyna, mecz, ćwiczyć and more — those are ANCHORS here, never re-taught (siłownia, drużyna and ćwiczyć were on the candidate list and were dropped once check_new.py confirmed them already live). jeździć is FENCED to a2_chodzic and does not appear anywhere in this pack, not even inside a sentence. This pack teaches 12 new words: piłka (the ball itself — distinct from the already-known compound piłka nożna), bramka, remis, medal, stadion, zawody, kibic, trener, spacer as nouns, plus biegać, wygrywać, przegrywać as verbs. Two watch-outs flagged deliberately: zawody (plural, the sports-competition word) sits right next to the already-taught zawód (singular, profession/career) — different word, easy to blur, called out in an explain note. oglądam/oglądać was already taught in the grammar pack a2_shopping_func as 'I'm looking, I'm browsing' (the shop-counter sense); this pack reuses the same verb in its central meaning, 'I watch', for Jutro oglądam zawody — same word, wider but consistent sense, not a false-friend swap, flagged here per the homograph-trap rule rather than let it pass silently. wynik (result, taught in leaf_ideas_a1) already covers 'score' too, but no sentence forces it in, so it stays an unused-but-available anchor. Imperfective only; no virile (masculine-personal) plural forms are used anywhere (kibice, sportowcy, grali etc. are all avoided) to keep this a vocabulary unit, not a grammar cliff.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "motion_chunk",
+    "present_am",
+    "prep_w_loc",
+    "past_rest",
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "poss_nom",
+    "inst_identity",
+    "miec_present",
+    "miec_acc",
+    "past_byc",
+    "existential_jest"
+  ],
+  "blocks": [
+    {
+      "id": "sport_words",
+      "title": "Sport · new words",
+      "items": [
+        {
+          "en": "ball (the object)",
+          "pl": "piłka",
+          "gender": "f",
+          "icon": "⚽"
+        },
+        {
+          "en": "goal (in football)",
+          "pl": "bramka",
+          "gender": "f",
+          "icon": "🥅"
+        },
+        {
+          "en": "draw / tie (score)",
+          "pl": "remis",
+          "gender": "m",
+          "icon": "🤝"
+        },
+        {
+          "en": "medal",
+          "pl": "medal",
+          "gender": "m",
+          "icon": "🏅"
+        },
+        {
+          "en": "stadium",
+          "pl": "stadion",
+          "gender": "m",
+          "icon": "🏟️"
+        },
+        {
+          "en": "competition (sports event)",
+          "pl": "zawody",
+          "gender": "pl",
+          "icon": "🏁"
+        },
+        {
+          "en": "fan (sports supporter)",
+          "pl": "kibic",
+          "gender": "m",
+          "icon": "📣"
+        },
+        {
+          "en": "coach (sports)",
+          "pl": "trener",
+          "gender": "m",
+          "icon": "📋"
+        },
+        {
+          "en": "walk (a walk, noun)",
+          "pl": "spacer",
+          "gender": "m",
+          "icon": "🚶"
+        }
+      ]
+    },
+    {
+      "id": "sport_verbs",
+      "title": "Sport · verbs",
+      "items": [
+        {
+          "en": "run (verb)",
+          "pl": "biegać",
+          "icon": "🏃"
+        },
+        {
+          "en": "win (verb)",
+          "pl": "wygrywać",
+          "icon": "🥇"
+        },
+        {
+          "en": "lose (verb)",
+          "pl": "przegrywać",
+          "icon": "❌"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I'm going for a walk.",
+      "pl": "Idę na spacer.",
+      "accepts": [
+        "Idę na spacer.",
+        "Idę na spacer"
+      ],
+      "structures": [
+        "motion_chunk"
+      ],
+      "lemmas": [
+        "spacer",
+        "na spacer"
+      ],
+      "explain": "spacer is a masculine thing-word, so na spacer does not change it at all — unlike do parku, na spacer stays exactly as you see it."
+    },
+    {
+      "en": "I run in the park every day.",
+      "pl": "Codziennie biegam w parku.",
+      "accepts": [
+        "Codziennie biegam w parku.",
+        "Codziennie biegam w parku",
+        "Biegam codziennie w parku.",
+        "Biegam codziennie w parku"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "biegać",
+        "biegam"
+      ],
+      "explain": "biegam is built like mam and czytam — the -am family. You already know the noun bieganie (running); this is the verb it comes from."
+    },
+    {
+      "en": "Yesterday I ran in the morning.",
+      "pl": "Wczoraj biegałem rano.",
+      "accepts": [
+        "Wczoraj biegałem rano.",
+        "Wczoraj biegałem rano",
+        "Biegałem wczoraj rano.",
+        "Biegałem wczoraj rano"
+      ],
+      "structures": [
+        "past_rest"
+      ],
+      "lemmas": [
+        "biegać",
+        "biegałem"
+      ],
+      "explain": "Regular imperfective past, same pattern as czytałem, robiłem — swap the -ć for -łem."
+    },
+    {
+      "en": "The team is winning the match.",
+      "pl": "Drużyna wygrywa mecz.",
+      "accepts": [
+        "Drużyna wygrywa mecz.",
+        "Drużyna wygrywa mecz"
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "wygrywać",
+        "wygrywa"
+      ],
+      "explain": "mecz does not change here — a masculine thing-word looks the same as subject and as object."
+    },
+    {
+      "en": "The team is losing the match.",
+      "pl": "Drużyna przegrywa mecz.",
+      "accepts": [
+        "Drużyna przegrywa mecz.",
+        "Drużyna przegrywa mecz"
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "przegrywać",
+        "przegrywa"
+      ]
+    },
+    {
+      "en": "This is a draw.",
+      "pl": "To jest remis.",
+      "accepts": [
+        "To jest remis.",
+        "To jest remis",
+        "To remis.",
+        "To remis"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "remis"
+      ]
+    },
+    {
+      "en": "My dad is a fan.",
+      "pl": "Mój tata jest kibicem.",
+      "accepts": [
+        "Mój tata jest kibicem.",
+        "Mój tata jest kibicem",
+        "Tata jest kibicem.",
+        "Tata jest kibicem"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "kibic",
+        "kibicem"
+      ],
+      "explain": "Saying what someone is puts the noun in the instrumental: kibic becomes kibicem, the same -em you already use in kelnerem and bratem."
+    },
+    {
+      "en": "The coach is good.",
+      "pl": "Trener jest dobry.",
+      "accepts": [
+        "Trener jest dobry.",
+        "Trener jest dobry"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "trener"
+      ]
+    },
+    {
+      "en": "I have a new medal.",
+      "pl": "Mam nowy medal.",
+      "accepts": [
+        "Mam nowy medal.",
+        "Mam nowy medal"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "medal"
+      ]
+    },
+    {
+      "en": "The stadium is big.",
+      "pl": "Stadion jest duży.",
+      "accepts": [
+        "Stadion jest duży.",
+        "Stadion jest duży"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "stadion"
+      ]
+    },
+    {
+      "en": "The competition is tomorrow.",
+      "pl": "Zawody są jutro.",
+      "accepts": [
+        "Zawody są jutro.",
+        "Zawody są jutro"
+      ],
+      "structures": [
+        "byc_present",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zawody"
+      ],
+      "explain": "zawody only exists as a plural, like wakacje — so the verb is są, never jest. Don't confuse it with zawód (a job/profession), a different word you already know."
+    },
+    {
+      "en": "Tomorrow I'm watching the competition.",
+      "pl": "Jutro oglądam zawody.",
+      "accepts": [
+        "Jutro oglądam zawody.",
+        "Jutro oglądam zawody",
+        "Oglądam jutro zawody.",
+        "Oglądam jutro zawody"
+      ],
+      "structures": [
+        "present_am"
+      ],
+      "lemmas": [
+        "zawody"
+      ],
+      "explain": "oglądam is the same word from the shop counter (tylko oglądam, I'm just browsing) — its plain meaning is simply 'I watch/look at', which is exactly what it does here."
+    },
+    {
+      "en": "I have a new ball.",
+      "pl": "Mam nową piłkę.",
+      "accepts": [
+        "Mam nową piłkę.",
+        "Mam nową piłkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "piłka",
+        "piłkę"
+      ],
+      "explain": "Not piłka nożna (football) here — just piłka, the object itself. Feminine -a becomes -ę as the object of mam, same as gitara → gitarę."
+    },
+    {
+      "en": "There was a goal in the park.",
+      "pl": "W parku była bramka.",
+      "accepts": [
+        "W parku była bramka.",
+        "W parku była bramka",
+        "Bramka była w parku.",
+        "Bramka była w parku",
+        "Była bramka w parku.",
+        "Była bramka w parku"
+      ],
+      "structures": [
+        "past_byc",
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "bramka"
+      ],
+      "explain": "This była announces that something existed in a place — the same existential pattern as w parku był staw, just in the past."
+    }
+  ],
+  "teaches_lemmas": [
+    "piłka",
+    "piłkę",
+    "bramka",
+    "remis",
+    "medal",
+    "stadion",
+    "zawody",
+    "kibic",
+    "kibicem",
+    "trener",
+    "spacer",
+    "na spacer",
+    "biegać",
+    "biegam",
+    "biegałem",
+    "wygrywać",
+    "wygrywa",
+    "przegrywać",
+    "przegrywa"
+  ],
+  "uses_lemmas": [
+    "idę",
+    "codziennie",
+    "w parku",
+    "wczoraj",
+    "rano",
+    "drużyna",
+    "mecz",
+    "to",
+    "jest",
+    "mój",
+    "tata",
+    "dobry",
+    "mam",
+    "nowy",
+    "nową",
+    "duży",
+    "są",
+    "jutro",
+    "oglądam",
+    "była"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_sport",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

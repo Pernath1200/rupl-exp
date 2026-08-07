@@ -1,0 +1,713 @@
+{
+  "id": "b1_perf_future",
+  "title": "Kupiłem → kupię",
+  "title_en": "I bought → I will buy",
+  "level": "B1",
+  "tree_node": "b1_perf_future",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "FIRST UNIT OF B1 — the payoff of a2_aspect and the amendment of a2_bedzie. AMENDMENT MOMENT (James decision #2, B1-SPINE): a2_bedzie told the learner Polish has one future ('Polish has one form where English has two — you never have to choose'). Intro slide 1 is entirely the update, done openly and warmly: the będę future was true and stays true for activity verbs, nothing to unlearn; the four perfective twins now bring the OTHER future, for single finished actions, and it had to wait until the twins were owned. będę kupować appears ONLY on that slide, as a named fact in one table row — never in a task, never as a distractor — because when-to-use-which is b1_two_futures' whole job and is FENCED here. FORMS: full six-person paradigms of kupię, zrobię, wypiję, przeczytam — 24 forms, all in teaches_lemmas. PLURAL CALL: INCLUDED, per the spine line 'singular + plural'. Reasoning: (a) the future has no gender anywhere, so 24 forms carry roughly the load 12 carried in the past-tense units; (b) every plural ending is a present ending the learner has produced since A1 (-imy/-icie/-ą, -jemy/-jecie/-ją, -amy/-acie/-ają) on a stem he owns from the past — near-zero new machinery, and no virile issue exists in the future; (c) three of the four verbs copy their own twin's present endings exactly (zrobię~robię, wypiję~piję, przeczytam~czytam), said plainly on slides 3 and 5; the one real trap — kupię does NOT copy kupuję — gets its own warning on slide 4, a quiz item, and a type explain. Production (Pisanie) demands a 13-form core; the rest are demanded in match/quiz/use; kupicie, wypijecie, przeczytasz and przeczytają are intro-table-only but tagged, so later units may draw on them. FENCES HONOURED: no new perfective verbs (no napiszę, no pojadę); no imperfective-future contrast drills; no conditional; no virile; oni/one pronouns untouched per the B1 fence — 3pl table rows are labelled in English ('they — dzieci, rodzice') and every 3pl task uses a noun subject. GLOSSES: perfective future glossed with a2_aspect's result-language ('will buy it', 'will drink it up', 'will read it all'); no 'will be doing' gloss occurs because no imperfective future appears in any task. HOMOGRAPHS: check_new.py run on ALL recycled material — kawę/herbatę/książkę/zupę taught as accusatives (a1_miec, trunk_want_like_a1) and used as accusatives; chleb/obiad/piwo/list/rower/mleko/śniadanie taught as citation nouns and used here as accusative objects — inanimate nom=acc, identical strings, same reading (named per AGENTS); all present/past comparison forms owned by a1 present packs and a2_past_ac/a2_aspect as exactly those functions. All 24 future forms verified NEW, zero collisions. TIME WORDS verified in pool: jutro, rano (combined jutro rano), dziś wieczorem, w weekend, wczoraj, kiedy. Avoided as NOT in pool: też, potem, zaraz, gazetę, godzinę.",
+  "focus_structures": [
+    "perf_future"
+  ],
+  "teaches_structures": [
+    "perf_future"
+  ],
+  "uses_structures": [
+    "perf_future",
+    "aspect_past",
+    "past_ac",
+    "bedzie",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "miec_acc",
+    "poss_nom",
+    "question",
+    "questions2"
+  ],
+  "intro": [
+    {
+      "title": "The future, part two",
+      "title_pl": "Druga przyszłość",
+      "body": "When you learned będę, this course told you: one future — będę + verb — and where English chooses between will work and will be working, Polish does not. For every verb you had then, that was true, and it stays true. Będę kupować, będę czytać — correct Polish, yours for good, nothing to unlearn.\n\nBut since then you have earned something: the four twins. kupić, zrobić, wypić, przeczytać — the perfective verbs, the ones for a single finished action. And a single finished action has its own future in Polish: I will buy it — once, done, bread in the bag.\n\nThat second future was waiting for these verbs. Without them there was nothing to build it on; now you own them, so today it arrives.\n\nOne reassurance before we start: which future to choose when is the next unit's whole job. Today only puts the new forms in your hands.",
+      "body_pl": "Będę kupować — czynność. Kupię — jedna skończona sprawa. Dziś: druga przyszłość.",
+      "table": {
+        "headers": [
+          "Future",
+          "Built from",
+          "Says"
+        ],
+        "rows": [
+          [
+            "będę kupować",
+            "będę + activity verb",
+            "will be buying — ongoing or repeated (you have this)"
+          ],
+          [
+            "kupię",
+            "the perfective twin, new endings",
+            "will buy — once, finished (this unit)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The past you know, pointed forwards",
+      "title_pl": "kupiłem → kupię",
+      "body": "Start from the past forms you already own. kupiłem — I bought it. Cut off the -łem and what is left is the stem: kupi-. Every one of the four twins gives up its stem the same way: kupi-, zrobi-, wypi-, przeczyta-.\n\nThe future is those same stems pointed forwards. Nothing new happens at the front of the word, and there is no helper verb. All the news is in the ending.",
+      "body_pl": "Ten sam temat: kupi-, zrobi-, wypi-, przeczyta-. Nowa jest tylko końcówka.",
+      "table": {
+        "headers": [
+          "Past — you own it",
+          "Future — this unit",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "kupiłem",
+            "kupię",
+            "I bought it → I will buy it"
+          ],
+          [
+            "zrobiłem",
+            "zrobię",
+            "I made it → I will make it"
+          ],
+          [
+            "wypiłem",
+            "wypiję",
+            "I drank it up → I will drink it up"
+          ],
+          [
+            "przeczytałem",
+            "przeczytam",
+            "I read it all → I will read it all"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "It looks like a present — the meaning is future",
+      "title_pl": "Wygląda jak teraźniejszość, znaczy przyszłość",
+      "body": "Look at zrobię next to robię. The endings on the new forms are the present-tense endings you have used since A1 — the same -ę, the same -am.\n\nHere is why that is safe. kupić, zrobić, wypić, przeczytać name a finished action — and a finished action cannot be happening right now. So these four verbs have no present tense at all. The present-shaped slot was standing empty, and Polish uses it for the future.\n\nSo the reading rule is short: on these four verbs, a present-looking ending means the future. zrobię is not I am doing — that is robię. zrobię is I will do it.\n\nkupić gets the same treatment — kupię — with one small wrinkle, on the next slide.",
+      "body_pl": "robię = teraz. zrobię = przyszłość. Czasownik dokonany nie ma czasu teraźniejszego.",
+      "table": {
+        "headers": [
+          "Present — happening now",
+          "Future — will happen"
+        ],
+        "rows": [
+          [
+            "robię — I am doing",
+            "zrobię — I will do it"
+          ],
+          [
+            "piję — I am drinking",
+            "wypiję — I will drink it up"
+          ],
+          [
+            "czytam — I am reading",
+            "przeczytam — I will read it all"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "kupię and zrobię — the full set",
+      "title_pl": "kupię i zrobię",
+      "body": "Here are kupić and zrobić in full. The endings are the ones you know from robię and mówię: -ę, -isz, -i, -imy, -icie, -ą.\n\nOne warning, and it is the only trap in this unit: kupię does not copy kupuję. The activity verb kupować keeps its own present — kupuję, kupujesz: I am buying. The future of kupić is shorter, and it follows zrobię's pattern exactly: kupię, kupisz, kupi. If you catch yourself writing kupuję for the future, stop — that word means now.",
+      "body_pl": "kupię, kupisz, kupi… jak robię. Uwaga: kupuję = teraz, kupię = przyszłość.",
+      "table": {
+        "headers": [
+          "Person",
+          "kupić → will buy",
+          "zrobić → will make"
+        ],
+        "rows": [
+          [
+            "ja",
+            "kupię",
+            "zrobię"
+          ],
+          [
+            "ty",
+            "kupisz",
+            "zrobisz"
+          ],
+          [
+            "on · ona",
+            "kupi",
+            "zrobi"
+          ],
+          [
+            "my",
+            "kupimy",
+            "zrobimy"
+          ],
+          [
+            "wy",
+            "kupicie",
+            "zrobicie"
+          ],
+          [
+            "they — dzieci, rodzice",
+            "kupią",
+            "zrobią"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "wypiję and przeczytam — they copy their twins",
+      "title_pl": "wypiję i przeczytam",
+      "body": "These two are the friendly ones. Each copies the present endings of its own twin exactly.\n\nYou already say piję, pijesz, pije. Put wy- on the front and the whole set turns into the future: wypiję, wypijesz, wypije.\n\nYou already say czytam, czytasz, czyta. Put prze- on the front: przeczytam, przeczytasz, przeczyta.\n\nSame music, one syllable more — and the meaning jumps from now to the future.",
+      "body_pl": "piję → wypiję. czytam → przeczytam. Te same końcówki, nowe znaczenie.",
+      "table": {
+        "headers": [
+          "Person",
+          "wypić → will drink up",
+          "przeczytać → will read it all"
+        ],
+        "rows": [
+          [
+            "ja",
+            "wypiję",
+            "przeczytam"
+          ],
+          [
+            "ty",
+            "wypijesz",
+            "przeczytasz"
+          ],
+          [
+            "on · ona",
+            "wypije",
+            "przeczyta"
+          ],
+          [
+            "my",
+            "wypijemy",
+            "przeczytamy"
+          ],
+          [
+            "wy",
+            "wypijecie",
+            "przeczytacie"
+          ],
+          [
+            "they — dzieci, rodzice",
+            "wypiją",
+            "przeczytają"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "No gender, no helper — and saying when",
+      "title_pl": "Bez rodzaju, bez pomocnika",
+      "body": "Two pieces of relief, and you have met both before.\n\nFirst: like będę, this future keeps no gender. In the past you chose kupiłem or kupiłam every time. In the future a man says kupię and a woman says kupię — one form per person, for all four verbs. The gender choice stays behind in the past tense.\n\nSecond: there is no helper verb here. będę pracować needs two words; kupię is one word, finished business — which suits its meaning.\n\nThe time words you already own point these forms forwards: jutro, jutro rano, dziś wieczorem, w weekend.",
+      "body_pl": "Kupię — mężczyzna i kobieta tak samo. Jedno słowo, bez pomocnika.",
+      "examples": [
+        {
+          "en": "Tomorrow I will buy the bread.",
+          "pl": "Jutro kupię chleb."
+        },
+        {
+          "en": "Mum will make lunch this evening.",
+          "pl": "Mama zrobi obiad dziś wieczorem."
+        },
+        {
+          "en": "At the weekend we will read the whole book.",
+          "pl": "W weekend przeczytamy książkę."
+        },
+        {
+          "en": "The children will drink the milk up.",
+          "pl": "Dzieci wypiją mleko."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I will buy it",
+      "pl": "kupię"
+    },
+    {
+      "en": "you will buy it",
+      "pl": "kupisz"
+    },
+    {
+      "en": "they will buy it",
+      "pl": "kupią"
+    },
+    {
+      "en": "I will make it",
+      "pl": "zrobię"
+    },
+    {
+      "en": "he / she will make it",
+      "pl": "zrobi"
+    },
+    {
+      "en": "we will make it",
+      "pl": "zrobimy"
+    },
+    {
+      "en": "I will drink it up",
+      "pl": "wypiję"
+    },
+    {
+      "en": "you will drink it up",
+      "pl": "wypijesz"
+    },
+    {
+      "en": "they will drink it up",
+      "pl": "wypiją"
+    },
+    {
+      "en": "I will read it all",
+      "pl": "przeczytam"
+    },
+    {
+      "en": "he / she will read it all",
+      "pl": "przeczyta"
+    },
+    {
+      "en": "we will read it all",
+      "pl": "przeczytamy"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Jutro ___ chleb. (ja)",
+      "choices": [
+        "kupię",
+        "kupiłem",
+        "kupuję",
+        "kupisz"
+      ],
+      "answer": "kupię",
+      "explain": "jutro points forwards, so the past kupiłem is out. kupuję is the trap — it means I am buying, now. The future of kupić is kupię."
+    },
+    {
+      "prompt": "Dziś wieczorem mama ___ obiad.",
+      "choices": [
+        "zrobi",
+        "zrobię",
+        "zrobimy",
+        "zrobicie"
+      ],
+      "answer": "zrobi",
+      "explain": "mama is a she, so the verb takes the on · ona form: zrobi. Tata would take zrobi too — the future keeps no gender."
+    },
+    {
+      "prompt": "Wczoraj wypiłem kawę. Jutro ___ herbatę.",
+      "choices": [
+        "wypiję",
+        "wypiłem",
+        "wypije",
+        "piję"
+      ],
+      "answer": "wypiję",
+      "explain": "Same speaker, same verb, new direction: wypiłem is yesterday's form, jutro asks for wypiję. Watch the ending — wypije without the tail is he or she, not I."
+    },
+    {
+      "prompt": "Which one is the future?",
+      "choices": [
+        "zrobię",
+        "robię",
+        "zrobiłem",
+        "robiłem"
+      ],
+      "answer": "zrobię",
+      "explain": "robię is the present — I am doing it now — and zrobiłem and robiłem are both past. zrobię, the perfective stem with a present-shaped ending, means I will do it."
+    },
+    {
+      "prompt": "W weekend ___ książkę. (my)",
+      "choices": [
+        "przeczytamy",
+        "przeczytam",
+        "przeczytacie",
+        "czytamy"
+      ],
+      "answer": "przeczytamy",
+      "explain": "my takes -my: przeczytamy. czytamy is the trap — a real present, we are reading, happening now."
+    },
+    {
+      "prompt": "The children will drink the milk up →",
+      "choices": [
+        "wypiją",
+        "wypije",
+        "wypijemy",
+        "piją"
+      ],
+      "answer": "wypiją",
+      "explain": "dzieci is a they, so the ending is -ą: wypiją. piją would say they are drinking it right now."
+    },
+    {
+      "prompt": "Fix: Jutro kupiłem chleb. →",
+      "choices": [
+        "kupię",
+        "kupiłem",
+        "kupuję",
+        "kupi"
+      ],
+      "answer": "kupię",
+      "explain": "jutro and a past form contradict each other. Keep jutro and the verb has to point forwards: kupię."
+    },
+    {
+      "prompt": "I will read the whole book — a woman speaking →",
+      "choices": [
+        "przeczytam",
+        "przeczytałam",
+        "przeczyta",
+        "przeczytasz"
+      ],
+      "answer": "przeczytam",
+      "explain": "There is no woman's form to hunt for — the future keeps no gender, exactly like będę. przeczytałam is the past, where that choice still lives."
+    },
+    {
+      "prompt": "Kiedy ___ zupę? (wy)",
+      "choices": [
+        "zrobicie",
+        "zrobimy",
+        "zrobisz",
+        "robicie"
+      ],
+      "answer": "zrobicie",
+      "explain": "wy takes -cie: zrobicie. robicie is the present — what are you doing — not what will you do."
+    },
+    {
+      "prompt": "Jutro brat ___ list.",
+      "choices": [
+        "przeczyta",
+        "przeczytam",
+        "przeczytał",
+        "przeczytają"
+      ],
+      "answer": "przeczyta",
+      "explain": "brat is a he: przeczyta. przeczytał already happened — jutro rules it out."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I will buy it",
+      "mode": "full_word",
+      "answer": "kupię",
+      "accepts": [
+        "kupię"
+      ],
+      "explain": "Not kupuję — that is the present of the activity verb, I am buying. kupić builds its future on its own stem: kupi- + ę."
+    },
+    {
+      "prompt_en": "you will buy it (sg)",
+      "mode": "full_word",
+      "answer": "kupisz",
+      "accepts": [
+        "kupisz"
+      ]
+    },
+    {
+      "prompt_en": "he / she will buy it",
+      "mode": "full_word",
+      "answer": "kupi",
+      "accepts": [
+        "kupi"
+      ],
+      "explain": "One form for he and for she — the future keeps no gender."
+    },
+    {
+      "prompt_en": "we will buy it",
+      "mode": "full_word",
+      "answer": "kupimy",
+      "accepts": [
+        "kupimy"
+      ],
+      "explain": "The same -my you put on czytamy and robimy — the plural brings nothing new to learn."
+    },
+    {
+      "prompt_en": "I will make it",
+      "mode": "full_word",
+      "answer": "zrobię",
+      "accepts": [
+        "zrobię"
+      ],
+      "explain": "robię with z- on the front — present-shaped, future-meaning."
+    },
+    {
+      "prompt_en": "he / she will make it",
+      "mode": "full_word",
+      "answer": "zrobi",
+      "accepts": [
+        "zrobi"
+      ]
+    },
+    {
+      "prompt_en": "they will make it",
+      "mode": "full_word",
+      "answer": "zrobią",
+      "accepts": [
+        "zrobią"
+      ]
+    },
+    {
+      "prompt_en": "I will drink it up",
+      "mode": "full_word",
+      "answer": "wypiję",
+      "accepts": [
+        "wypiję"
+      ],
+      "explain": "piję with wy- welded on the front — and the meaning jumps from now to the future. Keep the tail on the -ę: wypije is he or she."
+    },
+    {
+      "prompt_en": "you will drink it up (sg)",
+      "mode": "full_word",
+      "answer": "wypijesz",
+      "accepts": [
+        "wypijesz"
+      ]
+    },
+    {
+      "prompt_en": "we will drink it up",
+      "mode": "full_word",
+      "answer": "wypijemy",
+      "accepts": [
+        "wypijemy"
+      ]
+    },
+    {
+      "prompt_en": "I will read it all",
+      "mode": "full_word",
+      "answer": "przeczytam",
+      "accepts": [
+        "przeczytam"
+      ],
+      "explain": "czytam with prze- on the front. Same ending as czytam — but a perfective verb has no now, so this means will read."
+    },
+    {
+      "prompt_en": "he / she will read it all",
+      "mode": "full_word",
+      "answer": "przeczyta",
+      "accepts": [
+        "przeczyta"
+      ]
+    },
+    {
+      "prompt_en": "you (pl) will read it all",
+      "mode": "full_word",
+      "answer": "przeczytacie",
+      "accepts": [
+        "przeczytacie"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Tomorrow I will buy the bread.",
+      "answer": "Jutro kupię chleb.",
+      "accepts": [
+        "Jutro kupię chleb.",
+        "Jutro kupię chleb",
+        "Kupię chleb jutro.",
+        "Kupię chleb jutro"
+      ],
+      "explain": "jutro goes up front, exactly where wczoraj went in the past — and kupię already carries the person, one word doing the work of will buy."
+    },
+    {
+      "prompt_en": "Type: Mum will make lunch this evening.",
+      "answer": "Mama zrobi obiad dziś wieczorem.",
+      "accepts": [
+        "Mama zrobi obiad dziś wieczorem.",
+        "Mama zrobi obiad dziś wieczorem",
+        "Dziś wieczorem mama zrobi obiad.",
+        "Dziś wieczorem mama zrobi obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad will drink the beer up.",
+      "answer": "Tata wypije piwo.",
+      "accepts": [
+        "Tata wypije piwo.",
+        "Tata wypije piwo"
+      ],
+      "explain": "tata is a he — wypije, no tail on the e. wypiję would make it I."
+    },
+    {
+      "prompt_en": "Type: Tomorrow my brother will read the whole letter.",
+      "answer": "Jutro mój brat przeczyta list.",
+      "accepts": [
+        "Jutro mój brat przeczyta list.",
+        "Jutro mój brat przeczyta list",
+        "Mój brat przeczyta list jutro.",
+        "Mój brat przeczyta list jutro",
+        "Mój brat jutro przeczyta list.",
+        "Mój brat jutro przeczyta list"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna will buy a bike at the weekend.",
+      "answer": "Anna kupi rower w weekend.",
+      "accepts": [
+        "Anna kupi rower w weekend.",
+        "Anna kupi rower w weekend",
+        "W weekend Anna kupi rower.",
+        "W weekend Anna kupi rower"
+      ],
+      "explain": "Anna is a she, so kupi — and it would be kupi for a man's name too. The gender choice ended with the past tense."
+    },
+    {
+      "prompt_en": "Type: The children will drink the milk up.",
+      "answer": "Dzieci wypiją mleko.",
+      "accepts": [
+        "Dzieci wypiją mleko.",
+        "Dzieci wypiją mleko"
+      ]
+    },
+    {
+      "prompt_en": "Type: At the weekend we will read the whole book.",
+      "answer": "W weekend przeczytamy książkę.",
+      "accepts": [
+        "W weekend przeczytamy książkę.",
+        "W weekend przeczytamy książkę",
+        "Przeczytamy książkę w weekend.",
+        "Przeczytamy książkę w weekend"
+      ]
+    },
+    {
+      "prompt_en": "Type: When will you make the soup? (to one person)",
+      "answer": "Kiedy zrobisz zupę?",
+      "accepts": [
+        "Kiedy zrobisz zupę?",
+        "Kiedy zrobisz zupę"
+      ],
+      "explain": "kiedy takes the front and the verb carries the person: zrobisz — one word where English needs three, will you make."
+    },
+    {
+      "prompt_en": "Type: Will you buy the coffee tomorrow? (to one person)",
+      "answer": "Czy kupisz jutro kawę?",
+      "accepts": [
+        "Czy kupisz jutro kawę?",
+        "Czy kupisz jutro kawę",
+        "Czy jutro kupisz kawę?",
+        "Czy jutro kupisz kawę",
+        "Czy kupisz kawę jutro?",
+        "Czy kupisz kawę jutro",
+        "Kupisz jutro kawę?",
+        "Kupisz jutro kawę",
+        "Jutro kupisz kawę?",
+        "Jutro kupisz kawę",
+        "Kupisz kawę jutro?",
+        "Kupisz kawę jutro"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow morning I will drink the coffee up.",
+      "answer": "Jutro rano wypiję kawę.",
+      "accepts": [
+        "Jutro rano wypiję kawę.",
+        "Jutro rano wypiję kawę",
+        "Wypiję kawę jutro rano.",
+        "Wypiję kawę jutro rano"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "kupię",
+    "kupisz",
+    "kupi",
+    "kupimy",
+    "kupicie",
+    "kupią",
+    "zrobię",
+    "zrobisz",
+    "zrobi",
+    "zrobimy",
+    "zrobicie",
+    "zrobią",
+    "wypiję",
+    "wypijesz",
+    "wypije",
+    "wypijemy",
+    "wypijecie",
+    "wypiją",
+    "przeczytam",
+    "przeczytasz",
+    "przeczyta",
+    "przeczytamy",
+    "przeczytacie",
+    "przeczytają"
+  ],
+  "uses_lemmas": [
+    "kupić",
+    "kupować",
+    "kupiłem",
+    "kupiłam",
+    "kupuję",
+    "kupujesz",
+    "zrobić",
+    "zrobiłem",
+    "robię",
+    "robiłem",
+    "robimy",
+    "robicie",
+    "wypić",
+    "wypiłem",
+    "piję",
+    "pijesz",
+    "pije",
+    "piją",
+    "przeczytać",
+    "przeczytałem",
+    "przeczytałam",
+    "przeczytał",
+    "czytać",
+    "czytam",
+    "czytasz",
+    "czyta",
+    "czytamy",
+    "będę",
+    "pracować",
+    "mama",
+    "tata",
+    "brat",
+    "anna",
+    "dzieci",
+    "rodzice",
+    "mój",
+    "chleb",
+    "obiad",
+    "piwo",
+    "list",
+    "rower",
+    "mleko",
+    "książkę",
+    "zupę",
+    "kawę",
+    "herbatę",
+    "śniadanie",
+    "jutro",
+    "wczoraj",
+    "rano",
+    "dziś wieczorem",
+    "w weekend",
+    "kiedy",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_perf_future",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "id": "c1_przez",
+  "title": "Przez park, przez most",
+  "title_en": "przez + Accusative · through, across, by",
+  "level": "C1",
+  "tree_node": "c1_przez",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 5, unit 2 - and the SECOND of the three units in this batch that OWES A ROW IN data/case-map.json. Three rows ship in this same commit (przez = through/across, przez = for-how-long, przez = the by-agent), per the standing instruction in codex/WHICH-CASE-DIGEST.md: c1_which_case [235] derives its table from that file and would otherwise be missing its own level. THE GOVERNOR IS THE UNIT. przez is verified NEW as a bare string (check_new.py, 196 live nodes) - unlike na, it is NOT a tooling artifact: przez appears in no multiword lemma anywhere in the course, so it is genuinely untaught and IS in teaches_lemmas. THE CASE IT TAKES IS ALREADY OWNED - the Accusative since a1_miec [9] - so the new thing is the trigger, not the ending. THE ANCHOR NOUNS WERE CHOSEN TO HIDE NOTHING: park, most and las are masculine inanimate and miasto is neuter, so none of them shows an ending, which is exactly the trap c1_na_acc hit one unit earlier. Slide 2 therefore runs the visible demonstration on two feminines - przez ulice and przez rzeke - where the -e is the same Accusative ending the learner has put on kawa since path 9. ulice and rzeke are the only two new NOUN forms in the pack and both are tagged, per the every-form-taught rule. THE VERBS PAY b2_motion_prefixes2's NAMED FENCE, in that pack's own words: it dropped prze- ENTIRELY because 'przejsc's everyday use is przejsc PRZEZ ulice, and przez is untaught: it is a preposition governing the Accusative, i.e. a whole new governor... Deferred: it needs either its own small slot after a przez unit, or C1.' This is that slot. przejsc and przejechac weld onto the two stem tables that pack already built (poszedlem -> przeszedlem, pojechalem -> przejechalem, pojade -> przejade), so each is ONE NEW WORD read off a mirror table, never derived - the b2_motion_prefixes2 idiom, held exactly. PERSONS ARE DELIBERATELY LIGHTER THAN b2_motion_prefixes2: 1sg and 3sg only, both genders in the past, no 2sg anywhere. That pack taught 11 forms per verb because the verbs WERE its new system; here the governor is, and the verbs are the payoff, so nothing beyond 1sg/3sg is taught and nothing beyond 1sg/3sg is used. FORK LOGGED, NOT SILENTLY TAKEN: C1-SPINE names wjechac for this unit. It is NOT built here. b2_motion_prefixes2 dropped it for a reason this unit does nothing to remove - 'the front piece changes shape between the two stems (we-/w-), which would be a THIRD irregularity' - and, decisively, wjechac is not a przez verb at all: its frame is wjechac DO garazu, do + Genitive, so it would import an unrelated prefix irregularity into a governor unit. przejechac was built in its place because it IS the przez partner of przejsc and completes the prze- row that pack dropped. C1 is the last level, so this is a permanent deferral unless James says otherwise - flagged loudly in C1-DIGEST batch 8. THE THIRD JOB (duration) COSTS ZERO NEW ENDINGS and was included for that reason: przez rok, przez tydzien, przez dwa lata, przez dwie godziny all reuse forms owned since A1/A2 - dwa lata is a2_numbers_gen's own 2-4 counted form and is verified TAUGHT as that. caly is the single new word it needs and it is used only on masculine time nouns (dzien, tydzien, rok), where the Accusative equals the dictionary form; no feminine or neuter form of caly is taught, shown or demanded. THE FOURTH JOB (the by-agent) IS NAMED AND KEPT SMALL: it rides b2_passive's OWN construction (X jest <participle>), with napisany/napisana TAUGHT <- b2_participle_pass [176], so the only new thing in List jest napisany przez tate is przez itself. zostac AND THE DYNAMIC PASSIVE ARE FENCED TO c1_zostac AND APPEAR NOWHERE HERE - no zostal, no zostanie, not in a table, a distractor or an aside. That is the whole reason C1-SPINE puts this unit three nodes ahead of that one. HOMOGRAPH DISCIPLINE, checked rather than assumed: mamy is NOT used anywhere (AGENTS names it - the verb 'we have', not the Genitive of mama); gory is NOT used (AGENTS names it - the plural 'mountains', not the Genitive of gora); lata was re-checked and is a2_numbers_gen's counted plural of rok, which is exactly the job it does here. szly and jechal are untaught and appear nowhere - every past frame uses szedl/szla/szlo or a noun subject. Distractor sets are all pool-legal: ulicy is TAUGHT <- b2_fem_soft [135], rzeka/wode/most/park/las are all taught nouns, and dobry/duzy/nowy are trunk_adjectives_a1. No fabricated form appears in any choice list.",
+  "focus_structures": [
+    "przez_acc"
+  ],
+  "teaches_structures": [
+    "przez_acc"
+  ],
+  "teaches_lemmas": [
+    "przez",
+    "przejść",
+    "przejdę",
+    "przejdzie",
+    "przeszedłem",
+    "przeszłam",
+    "przeszedł",
+    "przeszła",
+    "przejechać",
+    "przejadę",
+    "przejedzie",
+    "przejechałem",
+    "przejechałam",
+    "przejechał",
+    "przejechała",
+    "ulicę",
+    "rzekę",
+    "cały"
+  ],
+  "uses_structures": [
+    "przez_acc",
+    "motion_prefixed2",
+    "past_isc",
+    "motion_chunk",
+    "jechac",
+    "prep_do_gen",
+    "prep_w_loc",
+    "prep_place",
+    "na_acc",
+    "miec_acc",
+    "miec_present",
+    "present",
+    "byc_present",
+    "past_byc",
+    "past_ac",
+    "passive",
+    "participle_pass",
+    "plural_nom",
+    "numbers_gen",
+    "adj_acc",
+    "ten_ta_to",
+    "existential_jest",
+    "negation"
+  ],
+  "intro": [
+    {
+      "title": "A new preposition, and a case you have had since A1",
+      "title_pl": "przez park · przez most · przez las",
+      "body": "przez is new. What follows it is not: przez takes the Accusative, the case you have been putting on things since mam kawę.\n\nIt means through something, or across it — the path taken, not the destination. Idę do parku is where I end up. Idę przez park is what I go through on the way.\n\nSo przez answers a different question from do. do + Genitive names the end of the journey; przez + Accusative names the middle of it, and the two sit in one sentence without arguing: Idę przez park do sklepu.",
+      "body_pl": "przez + biernik — przez park do sklepu",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What the preposition does"
+        ],
+        "rows": [
+          [
+            "Idę do parku.",
+            "I'm going to the park",
+            "do + Genitive — the destination"
+          ],
+          [
+            "Idę przez park.",
+            "I'm walking through the park",
+            "przez + Accusative — the way through"
+          ],
+          [
+            "Idę przez most.",
+            "I'm walking across the bridge",
+            "przez + Accusative"
+          ],
+          [
+            "Idę przez park do sklepu.",
+            "I'm walking through the park to the shop",
+            "both, in one sentence"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "You cannot see the case on park or most — here is where you can",
+      "title_pl": "przez ulicę · przez rzekę",
+      "body": "park, most and las are masculine things and miasto is neuter. None of them changes in the Accusative, so every example on the last slide hid the case completely.\n\nPut a feminine noun after przez and it appears at once: przez ulicę, not przez ulica. It is the same -ę you have put on kawa, herbata and książka since your ninth lesson, and it is the proof that the Accusative is really there.\n\nThese two are the only nouns in this unit that change shape.",
+      "body_pl": "ulica → przez ulicę · rzeka → przez rzekę",
+      "table": {
+        "headers": [
+          "Dictionary form",
+          "After przez",
+          "English"
+        ],
+        "rows": [
+          [
+            "ulica",
+            "przez ulicę",
+            "across the street"
+          ],
+          [
+            "rzeka",
+            "przez rzekę",
+            "across the river"
+          ],
+          [
+            "park",
+            "przez park",
+            "through the park — no visible change"
+          ],
+          [
+            "most",
+            "przez most",
+            "across the bridge — no visible change"
+          ],
+          [
+            "miasto",
+            "przez miasto",
+            "through the town — no visible change"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The verb that has been waiting for this preposition",
+      "title_pl": "przejść · przeszedłem · przejdę",
+      "body": "When you learned pójść, wejść and dojść, one prefix was held back: prze-. It was held back because przejść has one everyday use — przejść przez ulicę, to cross the street — and przez did not exist yet. It does now.\n\nprze- welds onto the same stem table you already read pójść off. Nothing here is built; it is read.\n\nWatch the masculine and feminine past, which behave exactly as poszedłem and poszłam do: the szedł piece appears in the masculine and vanishes in the feminine.",
+      "body_pl": "poszedłem → przeszedłem · poszłam → przeszłam",
+      "table": {
+        "headers": [
+          "You already have",
+          "New — same table",
+          "English"
+        ],
+        "rows": [
+          [
+            "poszedłem / poszłam",
+            "przeszedłem / przeszłam",
+            "I crossed (m / f)"
+          ],
+          [
+            "poszedł / poszła",
+            "przeszedł / przeszła",
+            "he crossed / she crossed"
+          ],
+          [
+            "pójdę",
+            "przejdę",
+            "I will cross"
+          ],
+          [
+            "pójdzie",
+            "przejdzie",
+            "he or she will cross"
+          ],
+          [
+            "pójść",
+            "przejść",
+            "to cross, on foot"
+          ]
+        ]
+      },
+      "examples": [
+        "Przeszedłem przez ulicę.",
+        "Mama przeszła przez most.",
+        "Brat przejdzie przez ulicę."
+      ]
+    },
+    {
+      "title": "The same prefix on the vehicle stem",
+      "title_pl": "przejechać · przejechałem · przejadę",
+      "body": "By car, bus or bike it is przejechać, and it sits on the stem table you read pojechać off. The past is the ordinary -ać past you have had since A2, so there is nothing awkward in it at all.\n\nprzejść is on foot. przejechać is in or on something. That is the only difference, and it is the same split as iść and jechać, which you have kept apart since A1.",
+      "body_pl": "pojechałem → przejechałem · pojadę → przejadę",
+      "table": {
+        "headers": [
+          "You already have",
+          "New — same table",
+          "English"
+        ],
+        "rows": [
+          [
+            "pojechałem / pojechałam",
+            "przejechałem / przejechałam",
+            "I drove through (m / f)"
+          ],
+          [
+            "pojechał / pojechała",
+            "przejechał / przejechała",
+            "he drove through / she drove through"
+          ],
+          [
+            "pojadę",
+            "przejadę",
+            "I will drive through"
+          ],
+          [
+            "pojedzie",
+            "przejedzie",
+            "he or she will drive through"
+          ],
+          [
+            "pojechać",
+            "przejechać",
+            "to drive through"
+          ]
+        ]
+      },
+      "examples": [
+        "Przejechałem przez miasto.",
+        "Mama przejechała przez most.",
+        "Autobus przejedzie przez centrum."
+      ]
+    },
+    {
+      "title": "przez also says for how long",
+      "title_pl": "przez rok · przez cały dzień",
+      "body": "The second job costs you nothing new. Put a stretch of time after przez and it says how long something went on for: przez rok, przez tydzień, przez dwa lata, przez dwie godziny.\n\nStill the Accusative, and rok, tydzień and dzień are masculine things, so not one of them changes. dwa lata is the counted form you already use for age.\n\ncały is the one new word: cały dzień, cały tydzień, cały rok — the whole day, the whole week, the whole year.",
+      "body_pl": "przez rok · przez tydzień · przez dwa lata · przez cały dzień",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Anything new?"
+        ],
+        "rows": [
+          [
+            "przez rok",
+            "for a year",
+            "no — rok does not change"
+          ],
+          [
+            "przez tydzień",
+            "for a week",
+            "no"
+          ],
+          [
+            "przez dwa lata",
+            "for two years",
+            "no — the counted form from Mam czterdzieści cztery lata"
+          ],
+          [
+            "przez dwie godziny",
+            "for two hours",
+            "no"
+          ],
+          [
+            "przez cały dzień",
+            "all day long",
+            "cały — the one new word"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "And przez says who did it",
+      "title_pl": "List jest napisany przez tatę.",
+      "body": "You know how to say a thing is in a finished state: Sklep jest zamknięty. List jest napisany.\n\nName the person who did it with przez, and the person goes into the Accusative like everything else after this preposition: List jest napisany przez tatę. Książka jest napisana przez mamę.\n\nEnglish uses by here, and by is also how English says przez autobusem — it is not. Travelling by bus is jadę autobusem, the Instrumental with no preposition at all, which you have had since A2. przez is only ever the person or thing that did the deed.",
+      "body_pl": "napisany przez tatę · napisana przez mamę",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Which job"
+        ],
+        "rows": [
+          [
+            "List jest napisany przez tatę.",
+            "the letter is written by dad",
+            "przez — who did it"
+          ],
+          [
+            "Książka jest napisana przez mamę.",
+            "the book is written by mum",
+            "przez — who did it"
+          ],
+          [
+            "Jadę autobusem.",
+            "I'm going by bus",
+            "Instrumental — not przez"
+          ],
+          [
+            "Idę przez most.",
+            "I'm walking across the bridge",
+            "przez — the way through"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "through the park",
+      "pl": "przez park"
+    },
+    {
+      "en": "across the street",
+      "pl": "przez ulicę"
+    },
+    {
+      "en": "across the river",
+      "pl": "przez rzekę"
+    },
+    {
+      "en": "across the bridge",
+      "pl": "przez most"
+    },
+    {
+      "en": "through the forest",
+      "pl": "przez las"
+    },
+    {
+      "en": "for a year",
+      "pl": "przez rok"
+    },
+    {
+      "en": "all day long",
+      "pl": "przez cały dzień"
+    },
+    {
+      "en": "for two years",
+      "pl": "przez dwa lata"
+    },
+    {
+      "en": "I crossed · on foot (m)",
+      "pl": "przeszedłem"
+    },
+    {
+      "en": "I crossed · on foot (f)",
+      "pl": "przeszłam"
+    },
+    {
+      "en": "I will cross · on foot",
+      "pl": "przejdę"
+    },
+    {
+      "en": "I drove through (m)",
+      "pl": "przejechałem"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Idę ___ park. (I'm walking through the park)",
+      "choices": [
+        "przez",
+        "do",
+        "w",
+        "na"
+      ],
+      "answer": "przez",
+      "explain": "The park is what I go through, not where I end up. do parku would be the destination."
+    },
+    {
+      "prompt": "Przeszedłem przez ___. (the street)",
+      "choices": [
+        "ulicę",
+        "ulica",
+        "ulicy",
+        "park"
+      ],
+      "answer": "ulicę",
+      "explain": "The Accusative, exactly as after mam. ulica is the dictionary form and ulicy is the form you use after w and o."
+    },
+    {
+      "prompt": "Idę ___ sklepu. (I'm going to the shop)",
+      "choices": [
+        "do",
+        "przez",
+        "na",
+        "w"
+      ],
+      "answer": "do",
+      "explain": "The shop is the destination, so do and the Genitive. przez would mean you walked through the shop and out the other side."
+    },
+    {
+      "prompt": "Idę przez ___. (the river)",
+      "choices": [
+        "rzekę",
+        "rzeka",
+        "wodę",
+        "most"
+      ],
+      "answer": "rzekę",
+      "explain": "Feminine, so the Accusative -ę shows. wodę is the right ending on the wrong word."
+    },
+    {
+      "prompt": "Byłem w pracy przez ___ dzień. (the whole day)",
+      "choices": [
+        "cały",
+        "dobry",
+        "duży",
+        "nowy"
+      ],
+      "answer": "cały",
+      "explain": "cały is whole or entire. dzień is a masculine thing, so the Accusative does not change it."
+    },
+    {
+      "prompt": "Mama ___ przez ulicę. (crossed, on foot)",
+      "choices": [
+        "przeszła",
+        "przeszedł",
+        "przeszedłem",
+        "przeszłam"
+      ],
+      "answer": "przeszła",
+      "explain": "Mama is she, so the feminine third person — and the szedł piece drops, exactly as in poszła."
+    },
+    {
+      "prompt": "Tata ___ przez most. (drove across)",
+      "choices": [
+        "przejechał",
+        "przejechała",
+        "przejechałem",
+        "przeszedł"
+      ],
+      "answer": "przejechał",
+      "explain": "He, and in a vehicle. przeszedł would mean he walked across."
+    },
+    {
+      "prompt": "Potem ___ przez park. (I will cross, on foot)",
+      "choices": [
+        "przejdę",
+        "przejdzie",
+        "pójdę",
+        "przeszedłem"
+      ],
+      "answer": "przejdę",
+      "explain": "Read off the same table as pójdę. pójdę is go, przejdę is go across."
+    },
+    {
+      "prompt": "List jest napisany ___ tatę. (by dad)",
+      "choices": [
+        "przez",
+        "od",
+        "do",
+        "z"
+      ],
+      "answer": "przez",
+      "explain": "The person who did it takes przez and the Accusative. tatę is the same form you use in Mam tatę."
+    },
+    {
+      "prompt": "Idę przez ___. (the forest)",
+      "choices": [
+        "las",
+        "park",
+        "most",
+        "rzekę"
+      ],
+      "answer": "las",
+      "explain": "las is forest, and being a masculine thing it does not change after przez."
+    },
+    {
+      "prompt": "Studenci byli tam przez ___ lata. (two years)",
+      "choices": [
+        "dwa",
+        "dwie",
+        "pięć",
+        "lat"
+      ],
+      "answer": "dwa",
+      "explain": "lata is the 2-4 counted form, so it needs dwa. From five up it would be pięć lat."
+    },
+    {
+      "prompt": "Wczoraj mama ___ przez miasto. (drove through)",
+      "choices": [
+        "przejechała",
+        "przejechał",
+        "przejechałam",
+        "przeszła"
+      ],
+      "answer": "przejechała",
+      "explain": "She, in a vehicle, in the past. przejechałam would be I, a woman speaking about herself."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to cross · on foot (dictionary form)",
+      "mode": "full_word",
+      "answer": "przejść",
+      "accepts": [
+        "przejść"
+      ],
+      "explain": "prze- on the same stem as pójść and wejść."
+    },
+    {
+      "prompt_en": "I crossed · on foot (m)",
+      "mode": "full_word",
+      "answer": "przeszedłem",
+      "accepts": [
+        "przeszedłem"
+      ],
+      "explain": "The masculine keeps the szedł piece, exactly as poszedłem does."
+    },
+    {
+      "prompt_en": "I crossed · on foot (f)",
+      "mode": "full_word",
+      "answer": "przeszłam",
+      "accepts": [
+        "przeszłam"
+      ],
+      "explain": "The feminine loses it, exactly as poszłam does. Read it off the table, do not build it."
+    },
+    {
+      "prompt_en": "I will cross · on foot",
+      "mode": "full_word",
+      "answer": "przejdę",
+      "accepts": [
+        "przejdę"
+      ],
+      "explain": "The pójdę table with a different prefix."
+    },
+    {
+      "prompt_en": "to drive through (dictionary form)",
+      "mode": "full_word",
+      "answer": "przejechać",
+      "accepts": [
+        "przejechać"
+      ],
+      "explain": "The vehicle partner of przejść."
+    },
+    {
+      "prompt_en": "I drove through (m)",
+      "mode": "full_word",
+      "answer": "przejechałem",
+      "accepts": [
+        "przejechałem"
+      ],
+      "explain": "An ordinary -ać past, the rule you have had since A2."
+    },
+    {
+      "prompt_en": "all day long",
+      "mode": "full_word",
+      "answer": "przez cały dzień",
+      "accepts": [
+        "przez cały dzień"
+      ],
+      "explain": "przez saying how long. dzień is masculine, so nothing changes shape."
+    },
+    {
+      "prompt_en": "I'm walking through the park.",
+      "mode": "cloze",
+      "frame": "Idę ___ park.",
+      "answer": "przez",
+      "accepts": [
+        "przez"
+      ],
+      "explain": "The way through, not the destination — that would be do parku."
+    },
+    {
+      "prompt_en": "I crossed the street.",
+      "mode": "cloze",
+      "frame": "Przeszedłem przez ___.",
+      "answer": "ulicę",
+      "accepts": [
+        "ulicę"
+      ],
+      "explain": "Feminine, so this is the one place in the phrase where the Accusative is visible."
+    },
+    {
+      "prompt_en": "Dad drove across the bridge.",
+      "mode": "cloze",
+      "frame": "Tata przejechał przez ___.",
+      "answer": "most",
+      "accepts": [
+        "most"
+      ],
+      "explain": "A masculine thing, so the Accusative is the dictionary form."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm walking through the park to the shop.",
+      "answer": "Idę przez park do sklepu.",
+      "accepts": [
+        "Idę przez park do sklepu.",
+        "Idę przez park do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad crossed the street.",
+      "answer": "Tata przeszedł przez ulicę.",
+      "accepts": [
+        "Tata przeszedł przez ulicę.",
+        "Tata przeszedł przez ulicę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum drove across the bridge.",
+      "answer": "Mama przejechała przez most.",
+      "accepts": [
+        "Mama przejechała przez most.",
+        "Mama przejechała przez most"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bus goes through the centre.",
+      "answer": "Autobus jedzie przez centrum.",
+      "accepts": [
+        "Autobus jedzie przez centrum.",
+        "Autobus jedzie przez centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: I was at work all day long. (m)",
+      "answer": "Byłem w pracy przez cały dzień.",
+      "accepts": [
+        "Byłem w pracy przez cały dzień.",
+        "Byłem w pracy przez cały dzień"
+      ]
+    },
+    {
+      "prompt_en": "Type: The letter is written by dad.",
+      "answer": "List jest napisany przez tatę.",
+      "accepts": [
+        "List jest napisany przez tatę.",
+        "List jest napisany przez tatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister was walking through the forest.",
+      "answer": "Siostra szła przez las.",
+      "accepts": [
+        "Siostra szła przez las.",
+        "Siostra szła przez las"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother will cross the street.",
+      "answer": "Brat przejdzie przez ulicę.",
+      "accepts": [
+        "Brat przejdzie przez ulicę.",
+        "Brat przejdzie przez ulicę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The book is written by mum.",
+      "answer": "Książka jest napisana przez mamę.",
+      "accepts": [
+        "Książka jest napisana przez mamę.",
+        "Książka jest napisana przez mamę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students were there for two years.",
+      "answer": "Studenci byli tam przez dwa lata.",
+      "accepts": [
+        "Studenci byli tam przez dwa lata.",
+        "Studenci byli tam przez dwa lata"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "park",
+    "parku",
+    "most",
+    "las",
+    "miasto",
+    "centrum",
+    "ulica",
+    "ulicy",
+    "rzeka",
+    "wodę",
+    "sklepu",
+    "pracy",
+    "rok",
+    "tydzień",
+    "dzień",
+    "lata",
+    "lat",
+    "godziny",
+    "dwa",
+    "dwie",
+    "pięć",
+    "list",
+    "książka",
+    "książkę",
+    "napisany",
+    "napisana",
+    "zamknięty",
+    "tatę",
+    "mamę",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "studenci",
+    "autobus",
+    "autobusem",
+    "dobry",
+    "duży",
+    "nowy",
+    "ten",
+    "ta",
+    "tam",
+    "potem",
+    "wczoraj",
+    "idę",
+    "jedzie",
+    "szedł",
+    "szła",
+    "poszedłem",
+    "poszłam",
+    "poszedł",
+    "poszła",
+    "pójdę",
+    "pójdzie",
+    "pójść",
+    "wejść",
+    "dojść",
+    "pojechałem",
+    "pojechałam",
+    "pojechał",
+    "pojechała",
+    "pojadę",
+    "pojedzie",
+    "pojechać",
+    "byłem",
+    "byli",
+    "jest",
+    "mam",
+    "kawa",
+    "kawę",
+    "herbata",
+    "nie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_przez",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

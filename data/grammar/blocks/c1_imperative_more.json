@@ -1,0 +1,697 @@
+{
+  "id": "c1_imperative_more",
+  "title": "Róbcie! Chodźmy!",
+  "title_en": "Commands to a group, and the formal command",
+  "level": "C1",
+  "tree_node": "c1_imperative_more",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 11 (path 220). Inbox item 15's TAIL, and the unit that closes the imperative strand for good. TEN NEW STRINGS PLUS ONE NEW WORD, and ZERO new sound changes - which is the whole point of the unit and is verifiable rather than claimed.\n\nTHE UNIT'S GIFT IS THAT THE HARD PART IS ALREADY BOUGHT. imperative_rule [125] taught the formation and c1_imperative_stems [219], ONE NODE BACK, paid the last sound change (the o->o shift, the dz softening, daj). Every singular command in this unit - rob, zrob, idz, jedz, chodz, daj, kup - is therefore an OWNED string, and the plural is that owned string plus -cie or -my with NOTHING else happening. No stem changes, no vowel changes, no exceptions in the set taught. That is a true statement about these forms and the slides say it plainly; it is not generalised into a promise about every verb in Polish.\n\nTHE -cie AND -my ENDINGS ARE NOT NEW EITHER, and this is the anchor the unit opens on rather than a coincidence noted late. The learner has produced -cie as the you-plural present ending and -my as the we ending since A1/A2: robicie/robimy, idziecie/idziemy, mowicie/mowimy, kupujecie/kupujemy, jedziecie/jedziemy, macie/mamy, jestescie/jestesmy - ALL VERIFIED OWNED against the position-aware pool. So the unit adds two familiar endings to an owned base, and its real content is WHICH BASE they attach to.\n\nNOT ONE IMPERATIVE PLURAL COLLIDES WITH ITS PRESENT-TENSE TWIN, checked string by string across the whole taught set: robcie/robicie, zrobcie/zrobicie, idzcie/idziecie, jedzcie/jedziecie, chodzcie/chodzicie, kupcie/kupicie, dajcie/dacie, robmy/robimy, zrobmy/zrobimy, chodzmy/chodzimy. Twelve pairs, twelve distinct strings. That is what makes Kontrola's command-versus-statement items real discrimination rather than a coin toss, and it is why two quiz items (10, 12) are STATEMENTS whose right answer is the present form. THE OBSERVATION IS DELIBERATELY NOT GENERALISED on the slide: it is shown as a table of the pairs the learner owns, never as a law about Polish, on the b2_gen_pl_full fleeting-e precedent that this learner gets no value from a rule he cannot trust.\n\nniech pan / niech pani IS THE SECOND MECHANISM AND IS THE ONE DAD WILL HEAR ADDRESSED TO HIM - the spine's own argument for including it. It costs ONE new word (niech, verified NEW) and NO morphology at all, because what follows it is the he/she form the learner already owns and which imperative_rule built the command from in the first place. So the unit closes a circle: 3sg -> drop the ending -> command; or leave the 3sg alone and put niech in front. pan/pani owned since A2. VERIFIED: czeka, mowi, robi, zrobi are all owned 3sg forms; poczekac/poczeka were WANTED for the more idiomatic Niech pan poczeka and are verified NEW, so the imperfective czeka is used instead.\n\nTWO MECHANISMS IN ONE UNIT IS A LOAD CALL AND IT IS THE SPINE'S, NOT A DRIFT - C1-SPINE Block 7 schedules the plural and niech together as 'the rest of the imperative'. It is defensible on the load-splitting rule because only ONE of the two involves any morphology, and that one is an ending the learner already produces in the present. Registered honestly as TWO structure IDs (imperative_plural, imperative_niech) rather than smuggled under one, so the auditor polices both and the count is visible. If it reads heavy in the hand, the clean split is niech into its own small unit beside c1_register.\n\nNEGATIVE PLURAL COMMANDS ARE DELIBERATELY NOT TAUGHT - a scope decision, logged rather than silent. nie robcie, nie idzcie etc. are each derivable by the learner from two rules he already owns (imperative_rule's 'nie + the in-progress verb, always' plus this unit's -cie), and adding them would put a third thing in a unit that already carries two. They are left to AGENTS' stated default recycling mechanism - later units' sentences - rather than spent here. c1_imperative_stems' precedent of teaching nie rob/nie jedz alongside was considered and not followed, because there the negative demonstrated the aspect flip biting on a form taught in that very unit; here it would demonstrate nothing new.\n\nFENCED, all verified NEW and none of them appearing anywhere in the pack, not even as a distractor: panstwo and panie (the formal plural and plural-feminine address forms - niech panstwo is real and useful and is NOT taught, because the address form itself is new); mowcie, pijcie, czekajcie, sluchajcie, kupujcie, dajmy, idzmy, jedzmy, kupmy, czekajmy (real Polish, correctly formed, but not in the pool and not taught here - so illegal as distractors under the pool-legal-distractor rule); badz, wez, poczekaj; razem, glosno, wolno, ostroznie.\n\nWY AND MY ARE FENCED BY HAND AND THE AUDITOR CANNOT SEE IT. Both sit in audit.py's GLUE_LEMMAS, so a leak would pass the gate silently; both are verified NOT taught as lemmas anywhere in the course. Neither appears in this pack. Nothing is lost - imperatives are subjectless in Polish - and every English gloss says 'a group' or 'you and me' rather than reaching for a pronoun the course has never given.\n\nHOMOGRAPH AND POOL DISCIPLINE. obiadu does not appear (no negation in this pack); obiad, kawe, zupe, herbate, chleb, klucz, bilety, wode are all owned Accusatives used as Accusatives. muzyki is NOT used - the genitive-after-sluchac construction is owned since c1_gen_verbs [207] but sluchajcie is a fenced form, so the pairing has no home here. dzieci is TAUGHT <- a2_family2 [57] as the plural of child and is used as a plain nominative SUBJECT, never as an address form - the Vocative fence holds and no vocative chunk from b1_vocative_chunks is borrowed. na autobus is composed from the owned na_acc governor (c1_na_acc) plus the owned autobus, exactly as c1_imperative_stems [219] shipped Czekaj na autobus!, and only autobus is declared as a lemma. NO case-map.json ROW IS ADDED: this unit ships no governor.\n\nSTAGE SHAPES. Match is the full board of the unit's own forms - seven -cie, three -my, and the two niech frames - so every taught form is on screen, per AGENTS. Kontrola is twelve real-form choices and NO meta-question, the standing precedent being this very strand (b1_imperative_rule had to cut a 'which verb is not covered by this rule' item). Every distractor is a real Polish form that is ALSO pool-legal - owned singular imperatives, owned present forms, or forms taught in this pack - and several are right forms in a wrong slot (zrob after niech pan), which is the b2_which_case precedent, not the fabricated non-words AGENTS bans. Pisanie is ten one-word forms typed whole plus TWO CLOZE items for the niech pattern, which is composed and therefore cloze at any length under the locked rule: one blanks niech itself (the teaching point) and one blanks the 3sg after niech, which is the actual difficulty - the learner's error will be putting a command form there. Uzycie carries eleven real sentences, every one with an object or a place phrase.",
+  "focus_structures": [
+    "imperative_plural"
+  ],
+  "teaches_structures": [
+    "imperative_plural",
+    "imperative_niech"
+  ],
+  "teaches_lemmas": [
+    "róbcie",
+    "zróbcie",
+    "idźcie",
+    "jedźcie",
+    "chodźcie",
+    "dajcie",
+    "kupcie",
+    "róbmy",
+    "zróbmy",
+    "chodźmy",
+    "niech",
+    "niech pan",
+    "niech pani"
+  ],
+  "uses_structures": [
+    "imperative_plural",
+    "imperative_niech",
+    "imperative_stems",
+    "imperative_rule",
+    "imperative",
+    "present_e_isz",
+    "present_uje",
+    "chodzic",
+    "jechac",
+    "motion_chunk",
+    "miec_acc",
+    "prep_do_gen",
+    "inst_transport",
+    "na_acc",
+    "prep_w_loc",
+    "perf_future",
+    "dawac_perf"
+  ],
+  "intro": [
+    {
+      "title": "Telling more than one person: add -cie",
+      "title_pl": "Rób! → Róbcie!",
+      "body": "You have the command for one person. For a group, that exact form takes -cie on the end.\n\nNothing else happens. No sound changes, no new stem — whatever the singular command was, the group form is that word plus -cie.\n\nAnd the ending itself is not new: -cie has been your you-more-than-one ending in the present since A1. You already say robicie, idziecie, mówicie.",
+      "body_pl": "Rób! → Róbcie!",
+      "table": {
+        "headers": [
+          "To one person",
+          "To a group",
+          "What changed"
+        ],
+        "rows": [
+          [
+            "Rób!",
+            "Róbcie!",
+            "+ cie, nothing else"
+          ],
+          [
+            "Zrób!",
+            "Zróbcie!",
+            "+ cie"
+          ],
+          [
+            "Idź!",
+            "Idźcie!",
+            "+ cie — the ź stays as it is"
+          ],
+          [
+            "Daj!",
+            "Dajcie!",
+            "+ cie"
+          ],
+          [
+            "Kup!",
+            "Kupcie!",
+            "+ cie"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Buy bread!",
+          "pl": "Kupcie chleb!"
+        },
+        {
+          "en": "Go to the shop!",
+          "pl": "Idźcie do sklepu!"
+        }
+      ]
+    },
+    {
+      "title": "Saying let's: add -my",
+      "title_pl": "Chodź! → Chodźmy!",
+      "body": "The same base takes -my for a suggestion that includes you — English let's.\n\nAgain the base does not move, and again the ending is one you already produce: -my is your we ending in the present, as in robimy, idziemy, mamy.",
+      "body_pl": "Chodź! → Chodźmy!",
+      "table": {
+        "headers": [
+          "To one person",
+          "You and me",
+          "English"
+        ],
+        "rows": [
+          [
+            "Chodź!",
+            "Chodźmy!",
+            "let's go"
+          ],
+          [
+            "Zrób!",
+            "Zróbmy!",
+            "let's make it — one go"
+          ],
+          [
+            "Rób!",
+            "Róbmy!",
+            "let's make it — as a habit"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Let's go to the park!",
+          "pl": "Chodźmy do parku!"
+        },
+        {
+          "en": "Let's make soup!",
+          "pl": "Zróbmy zupę!"
+        }
+      ]
+    },
+    {
+      "title": "A command and a statement are never the same word here",
+      "title_pl": "Róbcie! · Robicie.",
+      "body": "This is worth a slow look, because the two are close enough to worry about and in fact they never coincide across the verbs you own.\n\nThe left column tells somebody to do it. The right column says that they do it. Different words, every time.",
+      "body_pl": "Róbcie! · Robicie.",
+      "table": {
+        "headers": [
+          "Command",
+          "Statement",
+          "English of the statement"
+        ],
+        "rows": [
+          [
+            "Róbcie!",
+            "Robicie.",
+            "you (more than one) are doing it"
+          ],
+          [
+            "Idźcie!",
+            "Idziecie.",
+            "you are going"
+          ],
+          [
+            "Kupcie!",
+            "Kupicie.",
+            "you will buy it"
+          ],
+          [
+            "Dajcie!",
+            "Dacie.",
+            "you will give it"
+          ],
+          [
+            "Chodźmy!",
+            "Chodzimy.",
+            "we go"
+          ],
+          [
+            "Zróbmy!",
+            "Zrobimy.",
+            "we will make it"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The formal one: niech pan, niech pani",
+      "title_pl": "Niech pan czeka.",
+      "body": "To somebody you address as pan or pani, Polish does not use a command form at all. It puts niech in front of the plain he/she form — the very form the command was built from in the first place.\n\nThis is the one you will hear said to you: at a desk, at a counter, at the doctor's.\n\nYou already have a second way of doing this — Proszę czekać, with the dictionary form. Both are polite; niech pan is the one that names who you mean.",
+      "body_pl": "Niech pan czeka. · Niech pani czeka.",
+      "table": {
+        "headers": [
+          "Who you are talking to",
+          "What you say",
+          "Which form of the verb"
+        ],
+        "rows": [
+          [
+            "one person you call ty",
+            "Rób!",
+            "the command"
+          ],
+          [
+            "a group you call ty",
+            "Róbcie!",
+            "the command + cie"
+          ],
+          [
+            "you and me",
+            "Róbmy!",
+            "the command + my"
+          ],
+          [
+            "a man you call pan",
+            "Niech pan robi.",
+            "niech + the he form"
+          ],
+          [
+            "a woman you call pani",
+            "Niech pani robi.",
+            "niech + the she form"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Please wait. (to a man)",
+          "pl": "Niech pan czeka."
+        },
+        {
+          "en": "Please make a coffee. (to a woman)",
+          "pl": "Niech pani zrobi kawę."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "do it, make it — telling a group",
+      "pl": "róbcie"
+    },
+    {
+      "en": "make it, one go — telling a group",
+      "pl": "zróbcie"
+    },
+    {
+      "en": "go on foot — telling a group",
+      "pl": "idźcie"
+    },
+    {
+      "en": "go in a vehicle — telling a group",
+      "pl": "jedźcie"
+    },
+    {
+      "en": "come here — telling a group",
+      "pl": "chodźcie"
+    },
+    {
+      "en": "give it — telling a group",
+      "pl": "dajcie"
+    },
+    {
+      "en": "buy it — telling a group",
+      "pl": "kupcie"
+    },
+    {
+      "en": "let's make it — as a habit",
+      "pl": "róbmy"
+    },
+    {
+      "en": "let's make it — one go",
+      "pl": "zróbmy"
+    },
+    {
+      "en": "let's go",
+      "pl": "chodźmy"
+    },
+    {
+      "en": "please wait — to a man",
+      "pl": "niech pan czeka"
+    },
+    {
+      "en": "please wait — to a woman",
+      "pl": "niech pani czeka"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ obiad! (make it — you are telling the children)",
+      "choices": [
+        "Róbcie",
+        "Rób",
+        "Róbmy",
+        "Robicie"
+      ],
+      "answer": "Róbcie",
+      "explain": "More than one person, so the command takes -cie. Robicie would be telling them what they are already doing."
+    },
+    {
+      "prompt": "___ kawę! (make it, one go — you are telling two people)",
+      "choices": [
+        "Zróbcie",
+        "Zrób",
+        "Zróbmy",
+        "Zrobicie"
+      ],
+      "answer": "Zróbcie",
+      "explain": "Zrób is for one person; Zróbmy would include you in the job."
+    },
+    {
+      "prompt": "___ do parku! (let's go)",
+      "choices": [
+        "Chodźmy",
+        "Chodźcie",
+        "Chodź",
+        "Chodzimy"
+      ],
+      "answer": "Chodźmy",
+      "explain": "You are coming too, so -my. Chodzimy is a statement that we go there."
+    },
+    {
+      "prompt": "___ autobusem! (go by bus — telling a group)",
+      "choices": [
+        "Jedźcie",
+        "Jedź",
+        "Jedziecie",
+        "Idźcie"
+      ],
+      "answer": "Jedźcie",
+      "explain": "In a vehicle, so jechać — and a group, so -cie. Idźcie would put them on their feet."
+    },
+    {
+      "prompt": "___ chleb! (buy it — telling a group)",
+      "choices": [
+        "Kupcie",
+        "Kup",
+        "Kupicie",
+        "Kupuj"
+      ],
+      "answer": "Kupcie",
+      "explain": "Kupicie is a statement about what they will buy, not an instruction."
+    },
+    {
+      "prompt": "___ zupę! (let's make it, one go)",
+      "choices": [
+        "Zróbmy",
+        "Zróbcie",
+        "Zrobimy",
+        "Zrób"
+      ],
+      "answer": "Zróbmy",
+      "explain": "Zrobimy says we will make it; Zróbmy proposes it."
+    },
+    {
+      "prompt": "Niech pan ___ kawę. (please make a coffee — to a man)",
+      "choices": [
+        "zrobi",
+        "zrób",
+        "zróbcie",
+        "zrobić"
+      ],
+      "answer": "zrobi",
+      "explain": "niech is followed by the plain he form, never by a command form."
+    },
+    {
+      "prompt": "Niech pani ___ po polsku. (please speak Polish — to a woman)",
+      "choices": [
+        "mówi",
+        "mów",
+        "mówimy",
+        "mówić"
+      ],
+      "answer": "mówi",
+      "explain": "The she form after niech. Mów would be the command you use with somebody you call ty."
+    },
+    {
+      "prompt": "___ mi klucz! (give it — telling a group)",
+      "choices": [
+        "Dajcie",
+        "Daj",
+        "Dacie",
+        "Damy"
+      ],
+      "answer": "Dajcie",
+      "explain": "Dacie says you will give it; the command adds -cie to Daj."
+    },
+    {
+      "prompt": "Dzieci ___ do parku. (the children are going to the park)",
+      "choices": [
+        "idą",
+        "idźcie",
+        "idź",
+        "chodźcie"
+      ],
+      "answer": "idą",
+      "explain": "A statement about the children, not an instruction to them — so the they form."
+    },
+    {
+      "prompt": "___ do sklepu! (go on foot — telling a group)",
+      "choices": [
+        "Idźcie",
+        "Idź",
+        "Idziecie",
+        "Jedźcie"
+      ],
+      "answer": "Idźcie",
+      "explain": "On foot, so iść, and a group, so -cie."
+    },
+    {
+      "prompt": "Zawsze ___ obiad w domu. (we always make dinner at home)",
+      "choices": [
+        "robimy",
+        "róbmy",
+        "róbcie",
+        "rób"
+      ],
+      "answer": "robimy",
+      "explain": "Zawsze makes this a habit being described, not a suggestion — Róbmy would be proposing it."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "do it, make it — telling a group",
+      "mode": "full_word",
+      "answer": "róbcie",
+      "accepts": [
+        "róbcie"
+      ],
+      "explain": "The singular command Rób! plus -cie, with nothing else changing."
+    },
+    {
+      "prompt_en": "make it, one go — telling a group",
+      "mode": "full_word",
+      "answer": "zróbcie",
+      "accepts": [
+        "zróbcie"
+      ]
+    },
+    {
+      "prompt_en": "go on foot — telling a group",
+      "mode": "full_word",
+      "answer": "idźcie",
+      "accepts": [
+        "idźcie"
+      ]
+    },
+    {
+      "prompt_en": "go in a vehicle — telling a group",
+      "mode": "full_word",
+      "answer": "jedźcie",
+      "accepts": [
+        "jedźcie"
+      ]
+    },
+    {
+      "prompt_en": "come here — telling a group",
+      "mode": "full_word",
+      "answer": "chodźcie",
+      "accepts": [
+        "chodźcie"
+      ]
+    },
+    {
+      "prompt_en": "give it — telling a group",
+      "mode": "full_word",
+      "answer": "dajcie",
+      "accepts": [
+        "dajcie"
+      ]
+    },
+    {
+      "prompt_en": "buy it — telling a group",
+      "mode": "full_word",
+      "answer": "kupcie",
+      "accepts": [
+        "kupcie"
+      ]
+    },
+    {
+      "prompt_en": "let's make it — as a habit",
+      "mode": "full_word",
+      "answer": "róbmy",
+      "accepts": [
+        "róbmy"
+      ]
+    },
+    {
+      "prompt_en": "let's make it — one go",
+      "mode": "full_word",
+      "answer": "zróbmy",
+      "accepts": [
+        "zróbmy"
+      ]
+    },
+    {
+      "prompt_en": "let's go",
+      "mode": "full_word",
+      "answer": "chodźmy",
+      "accepts": [
+        "chodźmy"
+      ]
+    },
+    {
+      "prompt_en": "Please wait. — said to a man you address as pan",
+      "mode": "cloze",
+      "frame": "___ pan czeka.",
+      "answer": "Niech",
+      "accepts": [
+        "Niech"
+      ],
+      "explain": "The word that turns a plain he form into a polite instruction."
+    },
+    {
+      "prompt_en": "Please speak Polish. — said to a woman you address as pani",
+      "mode": "cloze",
+      "frame": "Niech pani ___ po polsku.",
+      "answer": "mówi",
+      "accepts": [
+        "mówi"
+      ],
+      "explain": "After niech comes the plain she form — not the command Mów!"
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Make dinner! (to a group)",
+      "answer": "Róbcie obiad!",
+      "accepts": [
+        "Róbcie obiad!",
+        "Róbcie obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Make a coffee! (to a group)",
+      "answer": "Zróbcie kawę!",
+      "accepts": [
+        "Zróbcie kawę!",
+        "Zróbcie kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Go to the shop! (to a group)",
+      "answer": "Idźcie do sklepu!",
+      "accepts": [
+        "Idźcie do sklepu!",
+        "Idźcie do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Go by bus! (to a group)",
+      "answer": "Jedźcie autobusem!",
+      "accepts": [
+        "Jedźcie autobusem!",
+        "Jedźcie autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Come home! (to a group)",
+      "answer": "Chodźcie do domu!",
+      "accepts": [
+        "Chodźcie do domu!",
+        "Chodźcie do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Buy bread! (to a group)",
+      "answer": "Kupcie chleb!",
+      "accepts": [
+        "Kupcie chleb!",
+        "Kupcie chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: Let's go to the park!",
+      "answer": "Chodźmy do parku!",
+      "accepts": [
+        "Chodźmy do parku!",
+        "Chodźmy do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Let's make soup!",
+      "answer": "Zróbmy zupę!",
+      "accepts": [
+        "Zróbmy zupę!",
+        "Zróbmy zupę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Give me the key! (to a group)",
+      "answer": "Dajcie mi klucz!",
+      "accepts": [
+        "Dajcie mi klucz!",
+        "Dajcie mi klucz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Please wait for the bus. (to a man)",
+      "answer": "Niech pan czeka na autobus.",
+      "accepts": [
+        "Niech pan czeka na autobus.",
+        "Niech pan czeka na autobus"
+      ]
+    },
+    {
+      "prompt_en": "Type: Please make a coffee. (to a woman)",
+      "answer": "Niech pani zrobi kawę.",
+      "accepts": [
+        "Niech pani zrobi kawę.",
+        "Niech pani zrobi kawę"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "rób",
+    "zrób",
+    "idź",
+    "jedź",
+    "chodź",
+    "daj",
+    "kup",
+    "kupuj",
+    "mów",
+    "robić",
+    "robi",
+    "robicie",
+    "robimy",
+    "robią",
+    "zrobić",
+    "zrobi",
+    "zrobicie",
+    "zrobimy",
+    "iść",
+    "idzie",
+    "idziecie",
+    "idziemy",
+    "idą",
+    "jechać",
+    "jedzie",
+    "jedziecie",
+    "chodzić",
+    "chodzimy",
+    "kupić",
+    "kupi",
+    "kupicie",
+    "kupować",
+    "kupujecie",
+    "dać",
+    "da",
+    "dacie",
+    "damy",
+    "mówić",
+    "mówi",
+    "mówimy",
+    "mówicie",
+    "czekać",
+    "czeka",
+    "proszę czekać",
+    "proszę",
+    "pan",
+    "pani",
+    "obiad",
+    "kawę",
+    "zupę",
+    "chleb",
+    "klucz",
+    "autobus",
+    "autobusem",
+    "do sklepu",
+    "do domu",
+    "do parku",
+    "parku",
+    "w domu",
+    "po polsku",
+    "mi",
+    "dzieci",
+    "zawsze",
+    "macie",
+    "mamy"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_imperative_more",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

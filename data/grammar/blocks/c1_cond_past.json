@@ -1,0 +1,606 @@
+{
+  "id": "c1_cond_past",
+  "title": "Byłbym zrobił",
+  "title_en": "I would have — and the shape that already covered it",
+  "level": "C1",
+  "tree_node": "c1_cond_past",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 12 (path 221). B2-SPINE O6's explicit deferral, paid. SIX NEW STRINGS - bylbym, bylabym, bylbys, bylabys, bylby, bylaby - and ONE new construction, and the unit is deliberately shaped so that the six strings arrive as a REGULAR application of an owned rule rather than as a new paradigm.\n\nTHE SIX FORMS COST NOTHING BECAUSE THE RULE IS OWNED. b1_conditional_sg [conditional_sg] taught the conditional as L-form + bym/bys/by, on chciec, kupic and zrobic: chcialbym, chcialabym, chcialbys, chcialabys, chcialby, chcialaby. Apply that same rule to byc, whose L-forms byl/byla the learner has had since A2, and bylbym falls straight out. So slide 1 is not a paradigm to memorise - it is the learner running a rule he already has on a verb he already has, and the set taught MIRRORS b1_conditional_sg's own six singular persons exactly rather than inventing a different cut.\n\nAND IT CLOSES A GAP B2 LOGGED IN SO MANY WORDS. The B2 digest records: 'bylbym is NEW too, so \"I would be...\" is unavailable and every result clause that wanted it was rebuilt around chcialbym byc.' That workaround can now be retired: the learner can say Tata bylby w domu directly.\n\nTHE FACT b2_gdyby DELIBERATELY WITHHELD IS THIS UNIT'S HEADLINE, AND IT IS RESERVED FOR HERE BY NAME. That pack's digest states: 'the L-form after gdyby is glossed ONLY as a present unreal (\"if I had time\", never \"if I had had time\"), and the fact that Polish uses one shape for both readings is NOT MENTIONED AT ALL rather than half-taught.' Slide 2 is where it gets told: Gdybym mial czas, kupilbym samochod already carries BOTH readings, and context decides. That is the high-value half of this unit because it makes the learner's OWNED sentence do more work, not less - it reduces what he has to produce rather than adding to it.\n\nTHE REGISTER LINE IS HONEST AND IS TAKEN FROM THE COURSE'S OWN EARLIER RULING, NOT INVENTED HERE. B2-SPINE O6 rejected a b2_cond_past unit on the stated ground that the construction 'is comparatively rare in speech'. Saying so on the slide is therefore consistent with the decision that deferred it, and it follows the treatment C1 already gives rare forms (R5's vocative footnote, O5's zrobiwszy shown but never demanded). The slide says plainly that this belongs more to writing than to speech and that the plain conditional is what he will hear - then teaches the form anyway, because he will READ it and because the course is closing, not because he needs it at a bus stop.\n\nTHE if-HALF IS EXPLICITLY LEFT ALONE, and this is the unit's main load-split. Strict Polish can also mark the past inside the gdyby clause (gdybym byl mial czas). That is NOT taught, NOT shown and NOT a distractor: it would double the person marker against a second was-form in a clause b2_gdyby only just settled, it is rarer still than the result-clause form, and slide 4 tells the learner directly that the if-half stays exactly as he learned it. Logged as a permanent scope refusal unless a later spine reopens it - and there is no later spine.\n\nTHE ACTUAL ERROR THIS UNIT MUST PREVENT is *bylbym zrobilbym - conditional marked twice. After the byl-form comes the PLAIN L-form, which is the same discipline b2_gdyby already taught for the verb after gdyby ('never a by form'). Two Kontrola items (9, 10) and one Pisanie cloze (12) blank exactly that slot, with the doubled-conditional wrong answer offered as a real pool-legal form in an illegal position - the b2_which_case precedent, not a fabricated non-word.\n\nzrobilbym IS VERIFIED NEW AND IS USED NOWHERE. b1_conditional_sg taught zrobilbys, zrobilabys, zrobilby, zrobilaby but NOT the 1sg, and B2's digest records the same first-person scarcity ('every 1sg result clause is built from chcialbym and kupilbym'). So every 1sg plain-conditional slot in this pack uses kupilbym, which IS owned. This was checked rather than assumed and it changed two drafted items.\n\nbyloby IS DELIBERATELY HELD, logged rather than dropped in silence. The neuter would give Byloby dobrze, which is genuinely useful - but b1_conditional_sg taught no neuter conditional, so adding one here would extend the paradigm past the set the unit is mirroring, in a unit whose whole argument is 'this is the rule you own, on a verb you own'. Cheapest home if wanted: one row in c1_nuance or c1_register.\n\nFENCED, all verified NEW and absent everywhere including distractors: zrobilbym, mialbym, mialby (the conditional past is built with byc, so the L-form after it is the owned plain past, and no new -by form on miec or robic is needed or shown); gdybysmy/gdybyscie (c1_by_plural's material, one node later); poszedlbym, which b1_wrapup's digest and the B2 digest each record being caught at the door once already, and which is stopped a third time here.\n\nHOMOGRAPH AND POOL DISCIPLINE. The sharpest collision in the unit is INTERNAL and is what Kontrola items 7 and 8 exist for: bylem/bylam (the real past, owned since A2) against bylbym/bylabym (this unit's conditional). One letter block apart, opposite meanings - 'I was' against 'I would be' - so the unit drills the pair rather than hoping. byl/byla likewise against bylby/bylaby. czas, obiad, kawe, chleb, samochod, pieniadze, zmeczony/zmeczona, w domu, w pracy are all owned and used in their owned functions. NO case-map.json ROW IS ADDED: this unit ships no governor.\n\nSTAGE SHAPES. Match is twelve rows: the six new byc-conditional forms, then six conditional-past pairs deliberately built on FOUR DIFFERENT L-forms (zrobil, kupila, mial, chciala, zrobil, kupil) so the English sides read made / bought / had / wanted and the board is matchable rather than six near-identical strings. Kontrola is twelve real-form choices, no meta-question; every distractor is pool-legal. Pisanie is six one-word forms plus four two-word pattern phrases (inside the 3-word cap, and the two-word string IS the construction) plus TWO CLOZE items for the composed sentences, which are cloze at any length under the locked rule. The cloze blanks fall on the plain L-form after the byl-form and on the plain L-form after gdyby, both the documented fallback - the teaching point bylbym is spent at Pisanie item 1 and a second one would duplicate an answer within the stage.",
+  "focus_structures": [
+    "cond_past"
+  ],
+  "teaches_structures": [
+    "cond_past"
+  ],
+  "teaches_lemmas": [
+    "byłbym",
+    "byłabym",
+    "byłbyś",
+    "byłabyś",
+    "byłby",
+    "byłaby",
+    "byłbym zrobił",
+    "byłabym kupiła",
+    "byłby miał",
+    "byłaby chciała",
+    "byłbyś zrobił",
+    "byłby kupił"
+  ],
+  "uses_structures": [
+    "cond_past",
+    "conditional_sg",
+    "gdyby",
+    "past_ac",
+    "past_rest",
+    "aspect_past",
+    "byc_present",
+    "byc_adj",
+    "miec_acc",
+    "prep_w_loc",
+    "negation"
+  ],
+  "intro": [
+    {
+      "title": "I would be — a rule you own, on a verb you own",
+      "title_pl": "był → byłbym",
+      "body": "You have made conditionals since B1: take the past form, add bym, byś or by. chciałbym, kupiłby, zrobiłaby.\n\nNobody ever ran that rule on być. Run it now and there is no surprise in it — był plus bym is byłbym.\n\nThis fills a real hole. Until now you could say I would want but not I would be, and you had to go round it with chciałbym być.",
+      "body_pl": "był + bym → byłbym",
+      "table": {
+        "headers": [
+          "Who",
+          "Man speaking / spoken to",
+          "Woman speaking / spoken to"
+        ],
+        "rows": [
+          [
+            "I would be",
+            "byłbym",
+            "byłabym"
+          ],
+          [
+            "you would be",
+            "byłbyś",
+            "byłabyś"
+          ],
+          [
+            "he / she would be",
+            "byłby",
+            "byłaby"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad would be at home.",
+          "pl": "Tata byłby w domu."
+        },
+        {
+          "en": "Mum would be tired.",
+          "pl": "Mama byłaby zmęczona."
+        }
+      ]
+    },
+    {
+      "title": "The sentence you already have covers more than you were told",
+      "title_pl": "Gdybym miał czas, kupiłbym samochód.",
+      "body": "When you learned gdyby it was given one meaning, on purpose: a thing that is not so now.\n\nHere is the rest of it. That same sentence also does the past — the one English splits into two. Polish uses one shape and lets the situation decide which you mean.\n\nSo you have been able to say both of these all along, with the words you already had.",
+      "body_pl": "Gdybym miał czas, kupiłbym samochód.",
+      "table": {
+        "headers": [
+          "The one Polish sentence",
+          "can mean"
+        ],
+        "rows": [
+          [
+            "Gdybym miał czas, kupiłbym samochód.",
+            "If I had time, I would buy a car."
+          ],
+          [
+            "Gdybym miał czas, kupiłbym samochód.",
+            "If I had had time, I would have bought a car."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Making the past explicit: put a był-form in front",
+      "title_pl": "Byłbym zrobił obiad.",
+      "body": "When you do want to pin it to the past and leave no doubt, Polish puts one of the forms from slide 1 in front of the plain past form.\n\nbyłbym + zrobił. That is the whole construction.\n\nWatch the second word. It is the plain past — zrobił, kupił, miał — never another by form. The conditional is marked once, on the front word, and marking it twice is the mistake to avoid.",
+      "body_pl": "byłbym + zrobił → byłbym zrobił",
+      "table": {
+        "headers": [
+          "Front word",
+          "Plain past",
+          "Together",
+          "English"
+        ],
+        "rows": [
+          [
+            "byłbym",
+            "zrobił",
+            "byłbym zrobił",
+            "I would have made it"
+          ],
+          [
+            "byłabym",
+            "kupiła",
+            "byłabym kupiła",
+            "I would have bought it"
+          ],
+          [
+            "byłby",
+            "miał",
+            "byłby miał",
+            "he would have had"
+          ],
+          [
+            "byłaby",
+            "chciała",
+            "byłaby chciała",
+            "she would have wanted"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "If I had had time, I would have made dinner.",
+          "pl": "Gdybym miał czas, byłbym zrobił obiad."
+        }
+      ]
+    },
+    {
+      "title": "Where it goes, and how much you actually need it",
+      "title_pl": "Gdybym miał czas… byłbym zrobił obiad.",
+      "body": "Two things worth being straight about.\n\nFirst, the if-half does not change. It stays exactly as you learned it — gdybym miał czas — and the new piece goes only in the second half.\n\nSecond, this construction belongs more to writing than to talking. In speech Poles overwhelmingly use the plain conditional from slide 2 for both jobs. Learn to read this one and understand it; you will not be caught out for not saying it.",
+      "body_pl": "Gdybym miał czas, byłbym zrobił obiad.",
+      "table": {
+        "headers": [
+          "Half",
+          "What goes there"
+        ],
+        "rows": [
+          [
+            "the if-half",
+            "gdybym miał — unchanged from B2"
+          ],
+          [
+            "the result half",
+            "byłbym zrobił — the new piece"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I would be — man speaking",
+      "pl": "byłbym"
+    },
+    {
+      "en": "I would be — woman speaking",
+      "pl": "byłabym"
+    },
+    {
+      "en": "you would be — to a man",
+      "pl": "byłbyś"
+    },
+    {
+      "en": "you would be — to a woman",
+      "pl": "byłabyś"
+    },
+    {
+      "en": "he would be",
+      "pl": "byłby"
+    },
+    {
+      "en": "she would be",
+      "pl": "byłaby"
+    },
+    {
+      "en": "I would have made it — man speaking",
+      "pl": "byłbym zrobił"
+    },
+    {
+      "en": "I would have bought it — woman speaking",
+      "pl": "byłabym kupiła"
+    },
+    {
+      "en": "he would have had",
+      "pl": "byłby miał"
+    },
+    {
+      "en": "she would have wanted",
+      "pl": "byłaby chciała"
+    },
+    {
+      "en": "you would have made it — to a man",
+      "pl": "byłbyś zrobił"
+    },
+    {
+      "en": "he would have bought it",
+      "pl": "byłby kupił"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ w domu. (I would be at home — man speaking)",
+      "choices": [
+        "Byłbym",
+        "Byłem",
+        "Był",
+        "Byłabym"
+      ],
+      "answer": "Byłbym",
+      "explain": "był plus the bym you have used since B1. Byłem would say you actually were there."
+    },
+    {
+      "prompt": "___ w pracy. (I would be at work — woman speaking)",
+      "choices": [
+        "Byłabym",
+        "Byłam",
+        "Była",
+        "Byłbym"
+      ],
+      "answer": "Byłabym",
+      "explain": "The woman's form takes była as its base, then bym."
+    },
+    {
+      "prompt": "Tata ___ zmęczony. (Dad would be tired)",
+      "choices": [
+        "byłby",
+        "był",
+        "byłbym",
+        "byłaby"
+      ],
+      "answer": "byłby",
+      "explain": "He, so by with nothing after it — the same empty marker gdyby has for he and she."
+    },
+    {
+      "prompt": "Mama ___ zmęczona. (Mum would be tired)",
+      "choices": [
+        "byłaby",
+        "była",
+        "byłby",
+        "byłabym"
+      ],
+      "answer": "byłaby",
+      "explain": "Built on była, so byłaby. Była alone would say she really was tired."
+    },
+    {
+      "prompt": "Gdybyś miał czas, ___ zrobił kawę. (you would have made coffee — to a man)",
+      "choices": [
+        "byłbyś",
+        "byłby",
+        "byłabyś",
+        "byłem"
+      ],
+      "answer": "byłbyś",
+      "explain": "The ś marker says you, and it sits on the front word."
+    },
+    {
+      "prompt": "Gdybyś miała czas, ___ zrobiła kawę. (you would have made coffee — to a woman)",
+      "choices": [
+        "byłabyś",
+        "byłaby",
+        "byłbyś",
+        "byłam"
+      ],
+      "answer": "byłabyś",
+      "explain": "Speaking to a woman, so była is the base and the ś still says you."
+    },
+    {
+      "prompt": "Wczoraj ___ w pracy. (I was at work yesterday — man speaking)",
+      "choices": [
+        "byłem",
+        "byłbym",
+        "był",
+        "byłam"
+      ],
+      "answer": "byłem",
+      "explain": "This really happened, so the plain past. Byłbym would make it something that did not."
+    },
+    {
+      "prompt": "Mama ___ wczoraj w domu. (Mum was at home yesterday)",
+      "choices": [
+        "była",
+        "byłaby",
+        "byłabym",
+        "był"
+      ],
+      "answer": "była",
+      "explain": "A fact about yesterday, not a would-be — so no by at all."
+    },
+    {
+      "prompt": "Byłbym ___ samochód. (I would have bought a car)",
+      "choices": [
+        "kupił",
+        "kupiłbym",
+        "kupiłby",
+        "kupiła"
+      ],
+      "answer": "kupił",
+      "explain": "The front word already carries the conditional, so the second word is the plain past. Kupiłbym would mark it twice."
+    },
+    {
+      "prompt": "Byłby ___ obiad. (he would have made dinner)",
+      "choices": [
+        "zrobił",
+        "zrobiłby",
+        "zrobiła",
+        "zrobiłbyś"
+      ],
+      "answer": "zrobił",
+      "explain": "Plain past after the front word — the same discipline you follow after gdyby."
+    },
+    {
+      "prompt": "Gdybym ___ czas, byłbym zrobił obiad. (if I had had time)",
+      "choices": [
+        "miał",
+        "był",
+        "miała",
+        "byłbym"
+      ],
+      "answer": "miał",
+      "explain": "The if-half is unchanged from B2: gdyby carries the marker and the verb stays plain."
+    },
+    {
+      "prompt": "Gdyby mama ___ pieniądze, byłaby kupiła samochód. (if Mum had had money)",
+      "choices": [
+        "miała",
+        "miał",
+        "była",
+        "byłaby"
+      ],
+      "answer": "miała",
+      "explain": "Mama, so miała — and still plain, because gdyby is holding the marker."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I would be — man speaking",
+      "mode": "full_word",
+      "answer": "byłbym",
+      "accepts": [
+        "byłbym"
+      ],
+      "explain": "był plus bym — the B1 rule, run on być."
+    },
+    {
+      "prompt_en": "I would be — woman speaking",
+      "mode": "full_word",
+      "answer": "byłabym",
+      "accepts": [
+        "byłabym"
+      ]
+    },
+    {
+      "prompt_en": "you would be — to a man",
+      "mode": "full_word",
+      "answer": "byłbyś",
+      "accepts": [
+        "byłbyś"
+      ]
+    },
+    {
+      "prompt_en": "you would be — to a woman",
+      "mode": "full_word",
+      "answer": "byłabyś",
+      "accepts": [
+        "byłabyś"
+      ]
+    },
+    {
+      "prompt_en": "he would be",
+      "mode": "full_word",
+      "answer": "byłby",
+      "accepts": [
+        "byłby"
+      ]
+    },
+    {
+      "prompt_en": "she would be",
+      "mode": "full_word",
+      "answer": "byłaby",
+      "accepts": [
+        "byłaby"
+      ]
+    },
+    {
+      "prompt_en": "I would have made it — man speaking",
+      "mode": "full_word",
+      "answer": "byłbym zrobił",
+      "accepts": [
+        "byłbym zrobił"
+      ],
+      "explain": "Front word carries the conditional; the second word is the plain past."
+    },
+    {
+      "prompt_en": "I would have bought it — woman speaking",
+      "mode": "full_word",
+      "answer": "byłabym kupiła",
+      "accepts": [
+        "byłabym kupiła"
+      ]
+    },
+    {
+      "prompt_en": "he would have had",
+      "mode": "full_word",
+      "answer": "byłby miał",
+      "accepts": [
+        "byłby miał"
+      ]
+    },
+    {
+      "prompt_en": "she would have wanted",
+      "mode": "full_word",
+      "answer": "byłaby chciała",
+      "accepts": [
+        "byłaby chciała"
+      ]
+    },
+    {
+      "prompt_en": "If Dad had had time, he would have made dinner.",
+      "mode": "cloze",
+      "frame": "Gdyby tata ___ czas, byłby zrobił obiad.",
+      "answer": "miał",
+      "accepts": [
+        "miał"
+      ],
+      "explain": "The if-half never changes: gdyby holds the marker, so the verb stays plain."
+    },
+    {
+      "prompt_en": "I would have bought bread.",
+      "mode": "cloze",
+      "frame": "Byłbym ___ chleb.",
+      "answer": "kupił",
+      "accepts": [
+        "kupił"
+      ],
+      "explain": "Plain past after the front word — never kupiłbym, which would mark the conditional twice."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad would be at home.",
+      "answer": "Tata byłby w domu.",
+      "accepts": [
+        "Tata byłby w domu.",
+        "Tata byłby w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum would be tired.",
+      "answer": "Mama byłaby zmęczona.",
+      "accepts": [
+        "Mama byłaby zmęczona.",
+        "Mama byłaby zmęczona"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister would be at work.",
+      "answer": "Siostra byłaby w pracy.",
+      "accepts": [
+        "Siostra byłaby w pracy.",
+        "Siostra byłaby w pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother would be tired.",
+      "answer": "Brat byłby zmęczony.",
+      "accepts": [
+        "Brat byłby zmęczony.",
+        "Brat byłby zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "Type: If I had had time, I would have made dinner. (man speaking)",
+      "answer": "Gdybym miał czas, byłbym zrobił obiad.",
+      "accepts": [
+        "Gdybym miał czas, byłbym zrobił obiad.",
+        "Gdybym miał czas, byłbym zrobił obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: If Mum had had time, she would have made dinner.",
+      "answer": "Gdyby mama miała czas, byłaby zrobiła obiad.",
+      "accepts": [
+        "Gdyby mama miała czas, byłaby zrobiła obiad.",
+        "Gdyby mama miała czas, byłaby zrobiła obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: If Dad had had money, he would have bought a car.",
+      "answer": "Gdyby tata miał pieniądze, byłby kupił samochód.",
+      "accepts": [
+        "Gdyby tata miał pieniądze, byłby kupił samochód.",
+        "Gdyby tata miał pieniądze, byłby kupił samochód"
+      ]
+    },
+    {
+      "prompt_en": "Type: If you had had time, you would have made coffee. (to a man)",
+      "answer": "Gdybyś miał czas, byłbyś zrobił kawę.",
+      "accepts": [
+        "Gdybyś miał czas, byłbyś zrobił kawę.",
+        "Gdybyś miał czas, byłbyś zrobił kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: If my sister had been at home, she would have made dinner.",
+      "answer": "Gdyby siostra była w domu, byłaby zrobiła obiad.",
+      "accepts": [
+        "Gdyby siostra była w domu, byłaby zrobiła obiad.",
+        "Gdyby siostra była w domu, byłaby zrobiła obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: I would have bought a car. (man speaking)",
+      "answer": "Byłbym kupił samochód.",
+      "accepts": [
+        "Byłbym kupił samochód.",
+        "Byłbym kupił samochód"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "być",
+    "był",
+    "była",
+    "było",
+    "byłem",
+    "byłam",
+    "chciałbym",
+    "chciałabym",
+    "chciałby",
+    "chciałaby",
+    "kupiłbym",
+    "kupiłby",
+    "kupiłaby",
+    "zrobiłby",
+    "zrobiłaby",
+    "zrobiłbyś",
+    "gdybym",
+    "gdybyś",
+    "gdyby",
+    "miał",
+    "miała",
+    "zrobił",
+    "zrobiła",
+    "kupił",
+    "kupiła",
+    "chciał",
+    "chciała",
+    "czas",
+    "obiad",
+    "kawę",
+    "chleb",
+    "samochód",
+    "pieniądze",
+    "zmęczony",
+    "zmęczona",
+    "w domu",
+    "w pracy",
+    "mama",
+    "tata",
+    "siostra",
+    "brat",
+    "wczoraj",
+    "dobrze",
+    "ale"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_cond_past",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

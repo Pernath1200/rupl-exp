@@ -1,0 +1,610 @@
+{
+ "id": "b2_ze_clauses",
+ "title": "Wiem, że…",
+ "title_en": "Joining two sentences with że",
+ "level": "B2",
+ "tree_node": "b2_ze_clauses",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 4, unit 1 (spine). ZERO NEW LEMMAS. The unit's entire content is a joint: że as a productive conjunction attaching a whole sentence to a verb of knowing or saying.\n\nCHUNK-TO-PARADIGM REVEAL, and B2-SPINE O16 predicted it a block in advance. że reports TAUGHT (b1_polite) but only frozen inside Przepraszam, że przeszkadzam — b1_polite's own note says 'że and przeszkadzam both verified untaught... never built'. It is re-taught here explicitly as a real word with a real job, and the slide says so out loud: you already say this word, you have just never used it like this. Same treatment b1_dative_sg gave dziękuję, b1_ktory_cases gave której, b2_adj_gen gave nowego and b2_pron_acc gave mnie. Per the b2_adj_gen precedent an already-owned string stays in uses_lemmas rather than teaches_lemmas, so teaches_lemmas is legitimately empty (the copular_future / adj_inst precedent).\n\nwiem IS A SECOND CHUNK-TO-SLOT REVEAL, and it carries a hard fence with it. a2_directions_func taught wiem as a street phrase and quarantined it in its own note: 'this unit NEVER mentions znam, never conjugates wiem, and never shows the infinitive.' That quarantine is HELD here — wiem appears only in the first person, and wiesz, wie and wiedzieć appear nowhere, all three being NEW and the wiedzieć-versus-znać split being live untaught ground. Nie wiem, że is also absent, and not only for that reason: negated wiedzieć takes czy or a question word in real Polish, and that is an indirect question, which is fenced below.\n\nTHE DELIBERATE DEVIATION FROM THE SPINE BRIEF, taken on the conservative branch and logged. B2-SPINE says this unit rides 'mówił/mówiła (a2_past_rest)'. It does not: EVERY matrix verb here is present tense (wiem, myślę, myślisz, mówię, mówisz, mówi). Reason: the moment a past-tense verb of saying takes a że-clause, the learner meets the fact that Polish does not back-shift the tense (Powiedział, że jest zmęczony), and that fact is b2_reported's ONE new idea, on the very next node of the path. Handing it over early, unnamed, inside a unit about a conjunction would spend b2_reported's whole payoff to save nothing. Keeping the matrix present-tense also removes the mówił glossing problem entirely (AGENTS.md's dynamic-verb rule would force 'was saying', which reads oddly in a reporting frame). Nothing in b2_reported depends on this choice being reversed.\n\nTHE COMMA IS THE SECOND FACT, and it is one line: Polish always writes a comma before że, and never drops że itself. English does the opposite on both counts — 'I know she is at home' has no comma and no 'that'. That asymmetry is exactly why an English speaker under-produces both, so it is named rather than left to be absorbed.\n\nTHE że / żeby DISCRIMINATION IS INCLUDED, and it adds no new material — both words are owned (b1_zeby taught żeby for purpose and for want-that). They are a one-letter-plus pair now sitting in the same syntactic slot, so confusing them is the predictable error, and the b1_two_futures idiom is the house answer to exactly this shape of problem. The line the unit lands: że reports what is so; żeby says why you are doing something or what you want someone else to do. Match row 12 and quiz items 2, 7 and 12 carry it.\n\nTHE że / który DISCRIMINATION IS THE OTHER HALF, and it is arguably the more valuable one, because the confusion is caused by ENGLISH rather than by Polish: English 'that' is both the conjunction and the relative pronoun, so 'I know that...' and 'the book that I read' look identical to this learner while Polish keeps them completely separate (że versus który/którą, b1_ktory_cases). Quiz items 3 and 9 are that pair, and both reuse b1_ktory_cases' own example sentences rather than inventing new ones.\n\nQUIZ ANSWER REPEATS ARE DELIBERATE, same reasoning as b2_kim_czym one batch ago: a unit about one conjunction has few legal answer strings. Five distinct answers (że, żeby, który, którą, bo) across twelve items, every prompt distinct, and the repeats of że are all under structurally different sentences.\n\nFENCED: all past-tense matrix verbs (above); INDIRECT QUESTIONS ABSOLUTELY — no czy, gdzie, kiedy, ile, dlaczego or any question word after a matrix verb anywhere in this pack, because that is b2_indirect_q's single new fact two nodes later and a2_questions2 fenced it by name ('no indirect questions: Nie wiem, kiedy... is B1'); wiesz / wie / wiedzieć; mam nadzieję (nadzieję verified NEW), cieszę się, uważam and wydaje mi się (uważam and wydaje mi się are b2_discussion_func's material, at the end of the level); słyszę, że — słyszę is a frozen phone chunk (a2_phone_func teaches only Nie słyszę) and putting it in front of a clause would be a third chunk-to-slot reveal in one unit; object pronouns anywhere, because an object clitic inside a subordinate clause raises word-order questions b2_pron_acc explicitly left to C1.\n\nDistractors are real taught Polish in the wrong slot throughout — every wrong choice is że, żeby, bo, i, ale, który or którą, each a conjunction or pronoun the learner owns, placed where it does not belong. Nothing fabricated.",
+ "focus_structures": [
+  "ze_clauses"
+ ],
+ "teaches_structures": [
+  "ze_clauses"
+ ],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "ze_clauses",
+  "zeby",
+  "ktory_cases",
+  "questions2",
+  "conjunctions",
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "miec_present",
+  "miec_acc",
+  "existential_jest",
+  "prep_w_loc",
+  "prep_do_gen",
+  "plural_nom",
+  "copular_future",
+  "can_inf",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "aspect_past",
+  "past_rest",
+  "question"
+ ],
+ "intro": [
+  {
+   "title": "że joins a whole sentence onto a verb",
+   "title_pl": "Wiem, że mama jest w domu.",
+   "body": "You have said Przepraszam, że przeszkadzam since B1. That że is not decoration inside a phrase — it is an ordinary word with an ordinary job, and this is that job.\n\nTake any sentence you can already say: Mama jest w domu. Put wiem or myślę in front of it and join the two with że. Nothing inside the second sentence moves — not the verb, not a single ending. That is the whole rule, and it is why this unit has no new words in it at all.",
+   "body_pl": "Mama jest w domu. → Wiem, że mama jest w domu.",
+   "table": {
+    "headers": [
+     "Opener",
+     "+ że +",
+     "A sentence you already say"
+    ],
+    "rows": [
+     [
+      "Wiem,",
+      "że",
+      "mama jest w domu."
+     ],
+     [
+      "Myślę,",
+      "że",
+      "kawa jest dobra."
+     ],
+     [
+      "Tata mówi,",
+      "że",
+      "sklep jest zamknięty."
+     ],
+     [
+      "Myślisz,",
+      "że",
+      "pogoda jest ładna?"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I know that Dad is working.",
+     "pl": "Wiem, że tata pracuje."
+    },
+    {
+     "en": "I think that the results are good.",
+     "pl": "Myślę, że wyniki są dobre."
+    }
+   ]
+  },
+  {
+   "title": "The comma is required, and so is że",
+   "title_pl": "Wiem, że tata pracuje.",
+   "body": "English lets you drop the word: \"I know she is at home\" is perfectly good English, and there is no comma in it either. Polish does neither of those things. The comma before że is always written, and że is never left out.\n\nSo the one thing to watch is that both of the pieces English throws away are compulsory in Polish.",
+   "body_pl": "Wiem, że mama jest w domu.   ·   Myślę, że kawa jest dobra.",
+   "table": {
+    "headers": [
+     "English",
+     "Polish"
+    ],
+    "rows": [
+     [
+      "I know Mum is at home.",
+      "Wiem, że mama jest w domu."
+     ],
+     [
+      "I think the coffee is good.",
+      "Myślę, że kawa jest dobra."
+     ],
+     [
+      "Dad says the shop is closed.",
+      "Tata mówi, że sklep jest zamknięty."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I know that my brother is tired.",
+     "pl": "Wiem, że brat jest zmęczony."
+    }
+   ]
+  },
+  {
+   "title": "że, żeby, który — English says \"that\" for all three",
+   "title_pl": "Wiem, że… · Idę, żeby… · książka, którą…",
+   "body": "This is the part worth slowing down for, and the difficulty comes from English rather than from Polish. English uses the one word \"that\" for three different jobs. Polish uses three different words, and keeps them apart completely.\n\nże reports what is so — Wiem, że mama jest w domu.\nżeby says why you are doing something, or what you want somebody else to do — Idę do sklepu, żeby kupić chleb.\nktóry points back at a thing you have just named — To jest książka, którą czytałem.\n\nYou already own all three. The only new thing is that they now stand close enough together to be mixed up.",
+   "body_pl": "Wiem, że mama jest w domu. · Idę do sklepu, żeby kupić chleb. · To jest książka, którą czytałem.",
+   "table": {
+    "headers": [
+     "Word",
+     "Its job",
+     "Example"
+    ],
+    "rows": [
+     [
+      "że",
+      "reports what is so",
+      "Wiem, że tata pracuje."
+     ],
+     [
+      "żeby",
+      "why, or what you want",
+      "Idę do sklepu, żeby kupić chleb."
+     ],
+     [
+      "który",
+      "points back at a thing",
+      "To jest film, który oglądałem."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I want Mum to make dinner.",
+     "pl": "Chcę, żeby mama zrobiła obiad."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "I know that Mum is at home.",
+   "pl": "Wiem, że mama jest w domu."
+  },
+  {
+   "en": "I think that the coffee is good.",
+   "pl": "Myślę, że kawa jest dobra."
+  },
+  {
+   "en": "Dad says that the shop is closed.",
+   "pl": "Tata mówi, że sklep jest zamknięty."
+  },
+  {
+   "en": "I know that I have a referral.",
+   "pl": "Wiem, że mam skierowanie."
+  },
+  {
+   "en": "I think that the results are good.",
+   "pl": "Myślę, że wyniki są dobre."
+  },
+  {
+   "en": "Mum says that Dad works in an office.",
+   "pl": "Mama mówi, że tata pracuje w biurze."
+  },
+  {
+   "en": "I know that my brother is tired.",
+   "pl": "Wiem, że brat jest zmęczony."
+  },
+  {
+   "en": "Do you think that the weather is nice?",
+   "pl": "Myślisz, że pogoda jest ładna?"
+  },
+  {
+   "en": "I say that this is good.",
+   "pl": "Mówię, że to jest dobre."
+  },
+  {
+   "en": "I know that Mum will be at home.",
+   "pl": "Wiem, że mama będzie w domu."
+  },
+  {
+   "en": "I think that my sister has a new car.",
+   "pl": "Myślę, że siostra ma nowy samochód."
+  },
+  {
+   "en": "I am going to the shop to buy bread.",
+   "pl": "Idę do sklepu, żeby kupić chleb."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Wiem, ___ mama jest w domu. (I know that Mum is at home.)",
+   "choices": [
+    "że",
+    "żeby",
+    "który",
+    "bo"
+   ],
+   "answer": "że",
+   "explain": "wiem reports something as a fact, and the word that carries a reported fact is że. żeby would turn it into something you want rather than something you know."
+  },
+  {
+   "prompt": "Idę do sklepu, ___ kupić chleb. (I am going to the shop to buy bread.)",
+   "choices": [
+    "żeby",
+    "że",
+    "bo",
+    "którą"
+   ],
+   "answer": "żeby",
+   "explain": "This says WHY you are going, and the reason-you-are-doing-it word is żeby, followed by the plain dictionary verb kupić. że would be reporting a fact instead."
+  },
+  {
+   "prompt": "To jest film, ___ oglądałem. (This is the film that I watched.)",
+   "choices": [
+    "który",
+    "że",
+    "żeby",
+    "bo"
+   ],
+   "answer": "który",
+   "explain": "Here the word points back at film, so it is który, not że. English uses \"that\" for both jobs; Polish never does."
+  },
+  {
+   "prompt": "Myślę, ___ kawa jest dobra. (I think that the coffee is good.)",
+   "choices": [
+    "że",
+    "żeby",
+    "którą",
+    "ale"
+   ],
+   "answer": "że",
+   "explain": "myślę reports what you hold to be so, so it takes że — the same joint as wiem, że."
+  },
+  {
+   "prompt": "Nie idę, ___ jestem zmęczony. (I am not going, because I am tired.)",
+   "choices": [
+    "bo",
+    "że",
+    "żeby",
+    "który"
+   ],
+   "answer": "bo",
+   "explain": "This gives the reason something is true, which has been bo since A2. że would only make sense after a verb of knowing or saying, and there is none here."
+  },
+  {
+   "prompt": "Tata mówi, ___ sklep jest zamknięty. (Dad says that the shop is closed.)",
+   "choices": [
+    "że",
+    "bo",
+    "żeby",
+    "i"
+   ],
+   "answer": "że",
+   "explain": "mówić is a verb of saying, so what he says arrives on że. Note the comma before it — Polish always writes one."
+  },
+  {
+   "prompt": "Chcę, ___ mama zrobiła obiad. (I want Mum to make dinner.)",
+   "choices": [
+    "żeby",
+    "że",
+    "bo",
+    "który"
+   ],
+   "answer": "żeby",
+   "explain": "You are not reporting a fact, you are saying what you want somebody else to do — that is żeby, exactly as you learned it in B1. Wanting is never że."
+  },
+  {
+   "prompt": "Wiem, ___ mam skierowanie. (I know that I have a referral.)",
+   "choices": [
+    "że",
+    "żeby",
+    "bo",
+    "którą"
+   ],
+   "answer": "że",
+   "explain": "A fact you know, so że — and the second half stays exactly as you would say it on its own: mam skierowanie."
+  },
+  {
+   "prompt": "To jest książka, ___ czytałem. (This is the book that I read.)",
+   "choices": [
+    "którą",
+    "że",
+    "który",
+    "żeby"
+   ],
+   "answer": "którą",
+   "explain": "The word points back at książka, which is feminine and is the thing being read, so it is którą. że never points back at anything."
+  },
+  {
+   "prompt": "Myślisz, ___ pogoda jest ładna? (Do you think that the weather is nice?)",
+   "choices": [
+    "że",
+    "żeby",
+    "bo",
+    "który"
+   ],
+   "answer": "że",
+   "explain": "A question changes nothing about the joint — myślisz still takes że, and the comma is still written."
+  },
+  {
+   "prompt": "Myślę, ___ wyniki są dobre. (I think that the results are good.)",
+   "choices": [
+    "że",
+    "bo",
+    "żeby",
+    "które"
+   ],
+   "answer": "że",
+   "explain": "że again, and notice the second half is untouched: wyniki są dobre is exactly the sentence you would say on its own."
+  },
+  {
+   "prompt": "Idę do apteki, ___ kupić lekarstwo. (I am going to the chemist's to buy medicine.)",
+   "choices": [
+    "żeby",
+    "że",
+    "ale",
+    "bo"
+   ],
+   "answer": "żeby",
+   "explain": "Why you are going, so żeby plus the plain verb kupić. If it were że, the sentence would be claiming something rather than explaining a purpose."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "I know that Mum is at home.",
+   "mode": "cloze",
+   "answer": "że",
+   "accepts": [
+    "że"
+   ],
+   "frame": "Wiem, ___ mama jest w domu.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on że — the unit's whole teaching point, the joint itself. Produced exactly once in the stage; the no-duplicates rule forbids a second że answer, so the other eight że-items blank the load-bearing form of one half instead (queue fallback clause)."
+  },
+  {
+   "prompt_en": "I think that the coffee is good.",
+   "mode": "cloze",
+   "answer": "Myślę",
+   "accepts": [
+    "Myślę"
+   ],
+   "frame": "___, że kawa jest dobra.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że is spent at item 0. Blanks the opener — the verb of thinking that licenses the że-clause, which is the half of the joint still under the learner's control here."
+  },
+  {
+   "prompt_en": "I know that Dad is working.",
+   "mode": "cloze",
+   "answer": "Wiem",
+   "accepts": [
+    "Wiem"
+   ],
+   "frame": "___, że tata pracuje.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: że spent at item 0. Blanks the other opener, wiem — held to the first person, per the pack note's a2_directions_func quarantine (no wiesz / wie / wiedzieć anywhere)."
+  },
+  {
+   "prompt_en": "I think that the shop is closed.",
+   "mode": "cloze",
+   "answer": "zamknięty",
+   "accepts": [
+    "zamknięty"
+   ],
+   "frame": "Myślę, że sklep jest ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the masculine adjective inside the clause — the point being that the clause's own agreement is untouched by że."
+  },
+  {
+   "prompt_en": "Mum says that the weather is nice.",
+   "mode": "cloze",
+   "answer": "mówi",
+   "accepts": [
+    "mówi"
+   ],
+   "frame": "Mama ___, że pogoda jest ładna.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Fallback blank: że spent at item 0. Blanks the third opener, the verb of saying that takes że."
+  },
+  {
+   "prompt_en": "I know that my brother is tired.",
+   "mode": "cloze",
+   "answer": "jest",
+   "accepts": [
+    "jest"
+   ],
+   "frame": "Wiem, że brat ___ zmęczony.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Wiem at item 2. Blanks the inner clause's own verb, which is exactly what the intro claims never moves."
+  },
+  {
+   "prompt_en": "I think that this is good.",
+   "mode": "cloze",
+   "answer": "dobre",
+   "accepts": [
+    "dobre"
+   ],
+   "frame": "Myślę, że to jest ___.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the neuter adjective — agreement decided inside the clause, not by że."
+  },
+  {
+   "prompt_en": "I know that I have a referral.",
+   "mode": "cloze",
+   "answer": "mam",
+   "accepts": [
+    "mam"
+   ],
+   "frame": "Wiem, że ___ skierowanie.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Fallback blank: że spent at item 0, Wiem at item 2. Blanks the inner 1sg verb, which keeps its person unchanged under że."
+  },
+  {
+   "prompt_en": "I think that the results are good.",
+   "mode": "cloze",
+   "answer": "są",
+   "accepts": [
+    "są"
+   ],
+   "frame": "Myślę, że wyniki ___ dobre.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 5 words. Fallback blank: że spent at item 0, Myślę at item 1. Blanks the plural verb inside the clause."
+  },
+  {
+   "prompt_en": "I am going to the shop to buy bread.",
+   "mode": "cloze",
+   "answer": "żeby",
+   "accepts": [
+    "żeby"
+   ],
+   "frame": "Idę do sklepu, ___ kupić chleb.",
+   "note": "Pisanie hard cap (James 2026-08-06). Composed, 6 words. Blank on żeby — the że / żeby discrimination this unit exists to draw, and the one item in the stage that is not a że-clause."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum says that Dad works in an office.",
+   "answer": "Mama mówi, że tata pracuje w biurze.",
+   "accepts": [
+    "Mama mówi, że tata pracuje w biurze.",
+    "Mama mówi, że tata pracuje w biurze"
+   ],
+   "explain": "Two sentences you can already say, joined at że. Neither half changes shape — mówi keeps its ending and tata pracuje w biurze is untouched."
+  },
+  {
+   "prompt_en": "Type: I know that my sister has a new car.",
+   "answer": "Wiem, że siostra ma nowy samochód.",
+   "accepts": [
+    "Wiem, że siostra ma nowy samochód.",
+    "Wiem, że siostra ma nowy samochód"
+   ],
+   "explain": "samochód is a masculine thing, so it does not move after ma, and nothing about że changes that."
+  },
+  {
+   "prompt_en": "Type: Do you think that the weather will be nice?",
+   "answer": "Myślisz, że pogoda będzie ładna?",
+   "accepts": [
+    "Myślisz, że pogoda będzie ładna?",
+    "Myślisz, że pogoda będzie ładna"
+   ],
+   "explain": "The second half is a future sentence and it stays exactly that. będzie needs nothing after it but the description, and że does not interfere."
+  },
+  {
+   "prompt_en": "Type: Dad says that the specialist is good.",
+   "answer": "Tata mówi, że specjalista jest dobry.",
+   "accepts": [
+    "Tata mówi, że specjalista jest dobry.",
+    "Tata mówi, że specjalista jest dobry"
+   ],
+   "explain": "specjalista ends in -a but is masculine, so the adjective is dobry — that is decided inside the second sentence, not by że."
+  },
+  {
+   "prompt_en": "Type: I know that Mum will be at home.",
+   "answer": "Wiem, że mama będzie w domu.",
+   "accepts": [
+    "Wiem, że mama będzie w domu.",
+    "Wiem, że mama będzie w domu"
+   ],
+   "explain": "wiem is in the present and mama będzie is in the future. Polish is happy to have the two halves in different tenses — each half keeps its own."
+  },
+  {
+   "prompt_en": "Type: I think that my brother lives in Poland.",
+   "answer": "Myślę, że brat mieszka w Polsce.",
+   "accepts": [
+    "Myślę, że brat mieszka w Polsce.",
+    "Myślę, że brat mieszka w Polsce"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum says that the children are in the park.",
+   "answer": "Mama mówi, że dzieci są w parku.",
+   "accepts": [
+    "Mama mówi, że dzieci są w parku.",
+    "Mama mówi, że dzieci są w parku"
+   ]
+  },
+  {
+   "prompt_en": "Type: I know that the doctor has a diagnosis.",
+   "answer": "Wiem, że lekarz ma diagnozę.",
+   "accepts": [
+    "Wiem, że lekarz ma diagnozę.",
+    "Wiem, że lekarz ma diagnozę"
+   ],
+   "explain": "diagnoza is feminine, so it is diagnozę after ma — the object form is decided by ma inside the second sentence, exactly as it would be on its own."
+  },
+  {
+   "prompt_en": "Type: I am going to the chemist's to buy medicine.",
+   "answer": "Idę do apteki, żeby kupić lekarstwo.",
+   "accepts": [
+    "Idę do apteki, żeby kupić lekarstwo.",
+    "Idę do apteki, żeby kupić lekarstwo"
+   ],
+   "explain": "This one is żeby, not że: it gives the reason you are going. After żeby comes the plain dictionary verb kupić."
+  },
+  {
+   "prompt_en": "Type: Do you think that the treatment is good?",
+   "answer": "Myślisz, że leczenie jest dobre?",
+   "accepts": [
+    "Myślisz, że leczenie jest dobre?",
+    "Myślisz, że leczenie jest dobre"
+   ],
+   "explain": "leczenie is neuter, so the adjective is dobre. The question mark belongs to the whole sentence, and the comma before że is still written."
+  }
+ ],
+ "uses_lemmas": [
+  "że",
+  "żeby",
+  "który",
+  "którą",
+  "które",
+  "bo",
+  "i",
+  "ale",
+  "wiem",
+  "myślę",
+  "myślisz",
+  "mówię",
+  "mówi",
+  "chcę",
+  "idę",
+  "pracuje",
+  "mieszka",
+  "jest",
+  "są",
+  "będzie",
+  "mam",
+  "ma",
+  "kupić",
+  "zrobiła",
+  "czytałem",
+  "oglądałem",
+  "mama",
+  "tata",
+  "brat",
+  "siostra",
+  "kawa",
+  "sklep",
+  "sklepu",
+  "apteki",
+  "chleb",
+  "obiad",
+  "lekarstwo",
+  "książka",
+  "film",
+  "pogoda",
+  "samochód",
+  "dzieci",
+  "lekarz",
+  "domu",
+  "biurze",
+  "parku",
+  "polsce",
+  "wyniki",
+  "skierowanie",
+  "diagnozę",
+  "leczenie",
+  "specjalista",
+  "dobra",
+  "dobre",
+  "dobry",
+  "ładna",
+  "nowy",
+  "zamknięty",
+  "zmęczony"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_ze_clauses",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

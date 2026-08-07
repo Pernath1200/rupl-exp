@@ -1,0 +1,615 @@
+{
+  "id": "b1_imperative_rule",
+  "title": "Kupuj czy kup?",
+  "title_en": "Kupuj or kup? — the imperative rule",
+  "level": "B1",
+  "tree_node": "b1_imperative_rule",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 7 opener — the formation rule a2_imperative deliberately withheld ('CLOSED CHUNK SET — NOT A RULE', its own note says). This unit opens it: take the 3sg present (on/ona) form — or, for a perfective verb, the 3sg FUTURE, since perfective verbs have no present tense and their future is shaped exactly like a present — drop the ending, then add -j if what's left ends in a vowel, or leave it bare if it already ends in a consonant (including a stem that already ends in j). New structure imperative_rule, registered in SEQUENCING.md + audit.py before the audit ran.\n\nHONEST REGULAR CORE, per the spine's own instruction: four model verbs across three present classes plus one future-shaped perfective, all producing the rule's plain output with no extra alternation — grać/gra→Graj! (present_am, add -j), kupować/kupuje→Kupuj! (present_uje, stem already ends in j), pić/pije→Pij! (present_e_esz, stem already ends in j), mówić/mówi→Mów! (present_e_isz, bare consonant stem), kupić/kupi (b1_perf_future)→Kup! (bare consonant stem, from the FUTURE not the present). FENCED, explicitly, per the spine naming this exact case: robić→rób. robić is present_e_isz just like mówić, but its imperative needs an extra o→ó vowel shift the plain rule doesn't predict — never shown, never a distractor, not even mentioned by name beyond this note. No other stem-alternating irregular appears anywhere in the pack.\n\nRETROACTIVE PAYOFF, the actual point of the unit: four of a2_imperative's five chunk forms (czekaj, słuchaj, idź, chodź) are shown again on the first slide and named as regular instances of the SAME rule Dad is now learning — czekać→czeka→czekaj and słuchać→słucha→słuchaj are exact matches (present_am, add -j, identical mechanism to grać→graj; czeka/słucha are themselves new teaches_lemmas here, since a2_imperative's own note confirms it never showed the present-tense forms behind its five chunks, only the imperatives); iść→idzie→idź and chodzić→chodzi→chodź both carry the dzie→dź / dzi→dź softening already memorized as whole forms in A2 and are named here as 'the rule, plus one sound change you already know by heart' rather than re-derived from scratch — no new softening rule is taught, they are presented as confirmation, not exercise material. daj is DELIBERATELY LEFT OUT of this derivation: a2_imperative's own note states outright that dać is 'not in POOL, is not taught, and is never shown' — check_new.py confirmed dać and da both still NEW before this pack shipped, so daj stays exactly as opaque as A2 left it; the first slide names this explicitly rather than silently dropping the fifth word.\n\nNEGATIVE IMPERATIVE — the aspect flip, per the spine's instruction, stated as one line and demonstrated with TWO already-owned aspect-twin pairs rather than asserted abstractly: kupić/kupować (Kup wodę! — one bottle, done, perfective — vs Nie kupuj wody! — general prohibition, must be imperfective, never Nie kup) and wypić/pić (Wypij herbatę! vs Nie pij herbaty!). Both pairs ride structures already fully owned (b1_perf_future for kupię/kupisz/kupi and wypiję/wypijesz/wypije; present_uje/present_e_esz for kupuje/pije) — nothing new is taught by the flip itself, only the naming of a fact the learner has, without realising it, already been living inside (every imperative in a2_imperative and every one of this unit's own positive models is imperfective). Genitive-under-negation on wody/herbaty rides a1_gen_endings/negation, not new.\n\nSELF-VERIFICATION caught five real leaks before shipping, all via check_new.py, none of which the auditor would have caught on its own: (1) a draft use item paired Kup with chleba (genitive) on the assumption chleb takes the -u masculine default the course's own gen_endings rule states — chleba is NOT taught (chleb happens to be one of the many real-world exceptions to that simplified rule). Replaced with wodę/wody throughout, both regular -a→-y feminine forms already taught. (2) A draft used pisać/pisze as a fourth present-class model — pisze was never taught (only the infinitive pisać and the noun pisanie are in POOL, never a conjugated present form) — dropped; pić alone carries the present_e_esz slot, and mówić plus the perfective kup carry the bare-consonant case twice over from two different classes, so nothing is lost. (3) A first draft of the recap table derived Daj from dać→da, exactly the fifth chunk a2_imperative's own note says was deliberately left opaque — caught, removed from the table and from a quiz item, replaced with a second słuchaj recap question. (4) A draft slide-4 line used ale ('but') to join the two aspect-flip pairs — NEW, not taught anywhere — replaced with two plain sentences back to back. (5) Four quiz distractors (Grajesz!, Mówij!, Kupujej!, Pijej!) were fabricated non-words showing a plausible rule-misapplication rather than real Polish — replaced with real, already-taught, grammatically genuine forms in the wrong slot instead (Gram!, Mówisz!, Kupujesz!, Pijesz!), matching the 'distractors should be real/pool-legal, not invented' convention already set by b1_conditional_sg/b1_conditional_pl. (6) A quiz item originally asked 'Which verb is deliberately NOT covered by this unit's rule?', naming robić/rób in the choices and answer — caught against the Kontrola stage contract ('real forms, not meta-questions about the language') and against this pack's own robić fence, which the note already promised would keep it unmentioned outside the note itself; replaced with a real-usage discrimination item, and the one remaining mention of robić/rób in the intro body prose was cut too, so the fence now holds exactly as claimed — the two words appear nowhere in learner-facing content, only in this note.",
+  "focus_structures": [
+    "imperative_rule"
+  ],
+  "teaches_structures": [
+    "imperative_rule"
+  ],
+  "uses_structures": [
+    "imperative",
+    "imperative_rule",
+    "negation",
+    "gen_endings",
+    "miec_acc",
+    "byc_adj",
+    "present_am",
+    "present_uje",
+    "present_e_isz",
+    "present_e_esz",
+    "perf_future"
+  ],
+  "intro": [
+    {
+      "title": "Czekaj! Słuchaj! Idź! Chodź! Daj! — never actually random",
+      "title_pl": "Czekaj! Słuchaj! Idź! Chodź! Daj!",
+      "body": "Back in A2 you learned five words whole, with no rule behind them — just five things to memorise. Here is the rule most of them were quietly following the whole time.\n\nTake the on/ona (3sg) present form of a verb. Drop its ending. If what is left ends in a vowel, add -j. If it already ends in a consonant — including a stem that already ends in j — you are done, say it as it stands.\n\nWatch czekaj, słuchaj, idź and chodź fall straight out of that one move. (Daj stays exactly as opaque as it always was — its own dictionary form was never shown to you, and this unit doesn't change that.)",
+      "body_pl": "Czekać → czeka → Czekaj! Słuchać → słucha → Słuchaj!",
+      "table": {
+        "headers": [
+          "Verb",
+          "on/ona form",
+          "Imperative",
+          "How"
+        ],
+        "rows": [
+          [
+            "czekać",
+            "czeka",
+            "Czekaj!",
+            "ends in vowel a → add -j"
+          ],
+          [
+            "słuchać",
+            "słucha",
+            "Słuchaj!",
+            "ends in vowel a → add -j"
+          ],
+          [
+            "iść",
+            "idzie",
+            "Idź!",
+            "same rule, plus the dzie→dź sound you already know by heart"
+          ],
+          [
+            "chodzić",
+            "chodzi",
+            "Chodź!",
+            "same rule, plus the dzi→dź sound you already know by heart"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Wait! Listen! Come here!",
+          "pl": "Czekaj! Słuchaj! Chodź tutaj!"
+        }
+      ]
+    },
+    {
+      "title": "New verbs, the same rule",
+      "title_pl": "Graj! Mów! Kupuj! Pij!",
+      "body": "Three more present-tense classes, three more imperatives, no new mechanism.\n\ngrać → gra — ends in a vowel, so it takes -j, exactly like czekaj: Graj!\nmówić → mówi — drop the -i and what is left, mów, already ends in a consonant. Nothing is added: Mów!\nkupować → kupuje — drop the -e and the stem underneath, kupuj, already ends in j. Nothing more to add: Kupuj!\npić → pije — same story: drop -e, pij is already there, already ends in j: Pij!\n\nTwo different endings on the paper (vowel-final vs consonant-final), one instruction: add -j only if you need to.",
+      "body_pl": "Grać → gra → Graj! Mówić → mówi → Mów! Kupować → kupuje → Kupuj! Pić → pije → Pij!",
+      "table": {
+        "headers": [
+          "Verb",
+          "on/ona form",
+          "Imperative",
+          "How"
+        ],
+        "rows": [
+          [
+            "grać",
+            "gra",
+            "Graj!",
+            "ends in vowel → add -j"
+          ],
+          [
+            "mówić",
+            "mówi",
+            "Mów!",
+            "ends in consonant w → bare, nothing added"
+          ],
+          [
+            "kupować",
+            "kupuje",
+            "Kupuj!",
+            "stem already ends in j → bare"
+          ],
+          [
+            "pić",
+            "pije",
+            "Pij!",
+            "stem already ends in j → bare"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Play now!",
+          "pl": "Graj teraz!"
+        },
+        {
+          "en": "Speak Polish!",
+          "pl": "Mów po polsku!"
+        },
+        {
+          "en": "Buy bread!",
+          "pl": "Kupuj chleb!"
+        }
+      ]
+    },
+    {
+      "title": "One more source: the future",
+      "title_pl": "Kup! Wypij!",
+      "body": "Perfective verbs have no present tense at all — the form that looks like a present (kupię, kupisz, kupi) is actually their future, the one you met in b1_perf_future. The imperative rule does not care where the 3sg form comes from. It works exactly the same way on it.\n\nkupić → kupi (its future 3sg) → drop the -i → kup, already a bare consonant stem: Kup!\nwypić → wypije (its future 3sg) → drop the -e → wypij, already ends in j: Wypij!\n\nThis rule works cleanly on every verb in this unit. A few common verbs need one extra sound change on top of it — those are for a later unit, not this one.",
+      "body_pl": "Kupić → kupi → Kup! Wypić → wypije → Wypij!",
+      "table": {
+        "headers": [
+          "Verb",
+          "Future 3sg",
+          "Imperative",
+          "How"
+        ],
+        "rows": [
+          [
+            "kupić",
+            "kupi",
+            "Kup!",
+            "bare consonant stem, from the future"
+          ],
+          [
+            "wypić",
+            "wypije",
+            "Wypij!",
+            "stem already ends in j, from the future"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Buy water!",
+          "pl": "Kup wodę!"
+        },
+        {
+          "en": "Drink up the tea!",
+          "pl": "Wypij herbatę!"
+        }
+      ]
+    },
+    {
+      "title": "Saying don't — always the soft version",
+      "title_pl": "Nie kupuj! Nie pij!",
+      "body": "One rule, stated once: a negative command always takes the IMPERFECTIVE verb — even when the positive command you'd use is perfective.\n\nKup wodę! is fine for one bottle, bought and done. But Nie kup wody! is not something a Pole says. The negative has to be Nie kupuj wody! — kupować, not kupić — because nie turns the action into an ongoing prohibition, not a single finished event, and only the imperfective can carry that meaning.\n\nSame story with drinking: Wypij herbatę! (drink it up, once) but Nie pij herbaty! (don't drink [any/it], generally) — never Nie wypij.\n\nNothing new is being built here: kupować, pić, and the genitive after nie (wody, herbaty) are all things you already had. The only new fact is the flip itself — say it, don't derive it.",
+      "body_pl": "Kup wodę! Nie kupuj wody! Wypij herbatę! Nie pij herbaty!",
+      "table": {
+        "headers": [
+          "Positive (can be perfective)",
+          "Negative (always imperfective)"
+        ],
+        "rows": [
+          [
+            "Kup wodę!",
+            "Nie kupuj wody!"
+          ],
+          [
+            "Wypij herbatę!",
+            "Nie pij herbaty!"
+          ],
+          [
+            "Graj!",
+            "Nie graj!"
+          ],
+          [
+            "Mów!",
+            "Nie mów!"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Don't buy coffee, buy tea.",
+          "pl": "Nie kupuj kawy, kupuj herbatę."
+        },
+        {
+          "en": "Don't drink water, drink tea.",
+          "pl": "Nie pij wody, pij herbatę."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Play!",
+      "pl": "Graj!"
+    },
+    {
+      "en": "Don't play!",
+      "pl": "Nie graj!"
+    },
+    {
+      "en": "Speak! / Talk!",
+      "pl": "Mów!"
+    },
+    {
+      "en": "Don't speak!",
+      "pl": "Nie mów!"
+    },
+    {
+      "en": "Buy (regularly)!",
+      "pl": "Kupuj!"
+    },
+    {
+      "en": "Don't buy!",
+      "pl": "Nie kupuj!"
+    },
+    {
+      "en": "Drink!",
+      "pl": "Pij!"
+    },
+    {
+      "en": "Don't drink!",
+      "pl": "Nie pij!"
+    },
+    {
+      "en": "Buy it! (once, done)",
+      "pl": "Kup!"
+    },
+    {
+      "en": "Drink it up! (once, done)",
+      "pl": "Wypij!"
+    },
+    {
+      "en": "Go! (away from me)",
+      "pl": "Idź!"
+    },
+    {
+      "en": "Come! (towards me)",
+      "pl": "Chodź!"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "on gra →",
+      "choices": [
+        "Graj!",
+        "Gra!",
+        "Grać!",
+        "Gram!"
+      ],
+      "answer": "Graj!",
+      "explain": "gra already ends in the vowel a, so the rule adds -j: Graj!"
+    },
+    {
+      "prompt": "on mówi →",
+      "choices": [
+        "Mów!",
+        "Mówi!",
+        "Mówisz!",
+        "Mówić!"
+      ],
+      "answer": "Mów!",
+      "explain": "Drop the -i and mów already ends in a consonant — nothing more to add."
+    },
+    {
+      "prompt": "on kupuje →",
+      "choices": [
+        "Kupuj!",
+        "Kupuje!",
+        "Kupujesz!",
+        "Kupować!"
+      ],
+      "answer": "Kupuj!",
+      "explain": "Drop the -e; the stem kupuj already ends in j, so nothing is added on top."
+    },
+    {
+      "prompt": "on pije →",
+      "choices": [
+        "Pij!",
+        "Pije!",
+        "Pijesz!",
+        "Pić!"
+      ],
+      "answer": "Pij!",
+      "explain": "Same move as kupuje→kupuj: drop -e, the j is already there."
+    },
+    {
+      "prompt": "Your son is about to buy one bottle of water and be done — a single errand. You say:",
+      "choices": [
+        "Kup wodę!",
+        "Kupuj wodę!",
+        "Nie kupuj wody!",
+        "Pij wodę!"
+      ],
+      "answer": "Kup wodę!",
+      "explain": "One bottle, finished — the perfective imperative from kupić's future stem kupi."
+    },
+    {
+      "prompt": "You want your son to STOP buying bottled water in general, from now on. You say:",
+      "choices": [
+        "Nie kupuj wody!",
+        "Nie kup wody!",
+        "Kup wodę!",
+        "Nie graj!"
+      ],
+      "answer": "Nie kupuj wody!",
+      "explain": "A general prohibition is always imperfective — nie kup wody is not something a Pole says, even though positive Kup wodę! is fine."
+    },
+    {
+      "prompt": "Your granddaughter is about to finish her tea in one go before you leave. You say:",
+      "choices": [
+        "Wypij herbatę!",
+        "Pij herbatę!",
+        "Nie pij herbaty!",
+        "Kup herbatę!"
+      ],
+      "answer": "Wypij herbatę!",
+      "explain": "Drink it up, once, done — the perfective wypić, not the ongoing pić."
+    },
+    {
+      "prompt": "You think your granddaughter shouldn't drink tea in the evening at all. You say:",
+      "choices": [
+        "Nie pij herbaty.",
+        "Nie wypij herbaty.",
+        "Wypij herbatę.",
+        "Nie kupuj herbaty."
+      ],
+      "answer": "Nie pij herbaty.",
+      "explain": "The negative always takes pić, the imperfective — nie wypij does not exist as a Polish command."
+    },
+    {
+      "prompt": "Your grandson is playing loudly right next to the baby, who is asleep. You say:",
+      "choices": [
+        "Nie graj!",
+        "Graj!",
+        "Nie mów!",
+        "Nie pij!"
+      ],
+      "answer": "Nie graj!",
+      "explain": "Nie graj! stops the noisy action itself. Nie mów! and Nie pij! tell him to stop completely different things."
+    },
+    {
+      "prompt": "on słucha →",
+      "choices": [
+        "Słuchaj!",
+        "Słucha!",
+        "Słuchać!",
+        "Słuchasz!"
+      ],
+      "answer": "Słuchaj!",
+      "explain": "The word you already knew from A2, now derived: słucha ends in a vowel, so the rule adds -j, exactly like czeka→czekaj."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Play!",
+      "mode": "full_word",
+      "answer": "Graj!",
+      "accepts": [
+        "Graj!",
+        "Graj"
+      ],
+      "explain": "gra ends in a vowel, so the rule adds -j."
+    },
+    {
+      "prompt_en": "Don't play!",
+      "mode": "full_word",
+      "answer": "Nie graj!",
+      "accepts": [
+        "Nie graj!",
+        "Nie graj"
+      ]
+    },
+    {
+      "prompt_en": "Speak! / Talk!",
+      "mode": "full_word",
+      "answer": "Mów!",
+      "accepts": [
+        "Mów!",
+        "Mów",
+        "Mow!",
+        "Mow"
+      ],
+      "explain": "Drop the -i from mówi and stop — the stem already ends in a consonant."
+    },
+    {
+      "prompt_en": "Don't speak!",
+      "mode": "full_word",
+      "answer": "Nie mów!",
+      "accepts": [
+        "Nie mów!",
+        "Nie mów",
+        "Nie mow!"
+      ]
+    },
+    {
+      "prompt_en": "Buy (regularly)!",
+      "mode": "full_word",
+      "answer": "Kupuj!",
+      "accepts": [
+        "Kupuj!",
+        "Kupuj"
+      ],
+      "explain": "kupuje already ends in j once the -e is dropped — nothing more to add."
+    },
+    {
+      "prompt_en": "Don't buy!",
+      "mode": "full_word",
+      "answer": "Nie kupuj!",
+      "accepts": [
+        "Nie kupuj!",
+        "Nie kupuj"
+      ]
+    },
+    {
+      "prompt_en": "Drink!",
+      "mode": "full_word",
+      "answer": "Pij!",
+      "accepts": [
+        "Pij!",
+        "Pij"
+      ]
+    },
+    {
+      "prompt_en": "Don't drink!",
+      "mode": "full_word",
+      "answer": "Nie pij!",
+      "accepts": [
+        "Nie pij!",
+        "Nie pij"
+      ]
+    },
+    {
+      "prompt_en": "Buy it! (once, done)",
+      "mode": "full_word",
+      "answer": "Kup!",
+      "accepts": [
+        "Kup!",
+        "Kup"
+      ],
+      "explain": "From kupić's future kupi, not from kupować's present — the perfective, one-off version."
+    },
+    {
+      "prompt_en": "Drink it up! (once, done)",
+      "mode": "full_word",
+      "answer": "Wypij!",
+      "accepts": [
+        "Wypij!",
+        "Wypij"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Play now!",
+      "answer": "Graj teraz!",
+      "accepts": [
+        "Graj teraz!",
+        "Graj teraz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Don't play now, I'm tired.",
+      "answer": "Nie graj teraz, jestem zmęczony.",
+      "accepts": [
+        "Nie graj teraz, jestem zmęczony.",
+        "Nie graj teraz, jestem zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "Type: Speak Polish!",
+      "answer": "Mów po polsku!",
+      "accepts": [
+        "Mów po polsku!",
+        "Mów po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Don't speak now, I'm reading.",
+      "answer": "Nie mów teraz, czytam.",
+      "accepts": [
+        "Nie mów teraz, czytam.",
+        "Nie mów teraz, czytam"
+      ]
+    },
+    {
+      "prompt_en": "Type: Buy bread!",
+      "answer": "Kupuj chleb!",
+      "accepts": [
+        "Kupuj chleb!",
+        "Kupuj chleb"
+      ],
+      "explain": "chleb stays exactly as it is — masculine inanimate nouns take the same form in the accusative as in the nominative."
+    },
+    {
+      "prompt_en": "Type: Don't buy coffee, buy tea.",
+      "answer": "Nie kupuj kawy, kupuj herbatę.",
+      "accepts": [
+        "Nie kupuj kawy, kupuj herbatę.",
+        "Nie kupuj kawy, kupuj herbatę"
+      ],
+      "explain": "kawy is genitive after nie, the rule you already had; herbatę is the plain accusative in the positive half."
+    },
+    {
+      "prompt_en": "Type: Drink water, not beer.",
+      "answer": "Pij wodę, nie piwo.",
+      "accepts": [
+        "Pij wodę, nie piwo.",
+        "Pij wodę, nie piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: Don't drink coffee in the evening.",
+      "answer": "Nie pij kawy wieczorem.",
+      "accepts": [
+        "Nie pij kawy wieczorem.",
+        "Nie pij kawy wieczorem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Buy water. That's everything, thank you.",
+      "answer": "Kup wodę. To wszystko, dziękuję.",
+      "accepts": [
+        "Kup wodę. To wszystko, dziękuję.",
+        "Kup wodę. To wszystko, dziękuję"
+      ],
+      "explain": "One bottle, one errand, done — then the shop-till chunk you already own closes it off."
+    },
+    {
+      "prompt_en": "Type: Drink up the tea, then we're going.",
+      "answer": "Wypij herbatę, potem idziemy.",
+      "accepts": [
+        "Wypij herbatę, potem idziemy.",
+        "Wypij herbatę, potem idziemy"
+      ],
+      "explain": "potem is the connective from the last block — telling someone what to do next works the same way telling a story does."
+    }
+  ],
+  "teaches_lemmas": [
+    "graj",
+    "nie graj",
+    "mów",
+    "nie mów",
+    "kupuj",
+    "nie kupuj",
+    "pij",
+    "nie pij",
+    "kup",
+    "wypij",
+    "czeka",
+    "słucha"
+  ],
+  "uses_lemmas": [
+    "czekaj",
+    "słuchaj",
+    "daj",
+    "idź",
+    "chodź",
+    "gra",
+    "mówi",
+    "kupuje",
+    "pije",
+    "kupi",
+    "wypije",
+    "teraz",
+    "zmęczony",
+    "jestem",
+    "czytam",
+    "chleb",
+    "kawy",
+    "herbatę",
+    "wodę",
+    "wody",
+    "herbaty",
+    "piwo",
+    "wieczorem",
+    "nie",
+    "to wszystko, dziękuję",
+    "potem",
+    "idziemy",
+    "po polsku"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_imperative_rule",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,851 @@
+{
+  "id": "a2_ordering_func",
+  "title": "Restauracja · co mówić",
+  "title_en": "In a restaurant · what to say",
+  "level": "A2",
+  "tree_node": "a2_ordering_func",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Situations/chunk unit — the functional payoff of a2_food2. Fixed phrases, learned whole, no rule slides. Only FOUR genuinely new items: stolik, poleca (polecac), smaczne (neuter of the taught smaczny/smaczna), smacznego. Everything else is recycled: poprosze + accusative from a2_shopping_func, menu / rachunek / restauracja / kelner from A1, deser / danie / napoj / widelec / serwetka / smaczny / smaczna from a2_food2, czy mogE placic kartA and place kartA from a2_shopping_func. PATH-ORDER TRAP (found while writing): POOL was generated at the end of a2_dat_chunks, but in tree.json path_order a2_ordering_func sits at index 101 and a2_dat_chunks at 102 — i.e. AFTER this node. So nothing from a2_dat_chunks is legally available here: no smakuje mi, no nie smakuje mi, no podoba mi sie, no mi, no mnie. The obvious restaurant line 'Smakuje mi ta zupa' was therefore DROPPED even though it is in POOL, and 'it was delicious' is carried by Bylo bardzo smaczne / Wszystko bylo bardzo smaczne instead, which needs only past byc (taught) plus one new adjective form. a2_food2 at index 100 IS before this node and is fully available. TRAP 1 — ASPECT. zamowic is perfective and is not used anywhere. zamawiac is imperfective and IS in POOL, but only as an infinitive: zamawiam / zamawiasz are NOT in POOL, so under the every-form-taught rule using them would mean teaching a new present set. The whole zamawiac family was therefore dropped: poprosze already does the ordering job and is the phrase Dad will actually say. No perfective past anywhere; the only past forms used are bylo, byla, byl, all taught by past_byc. poprosze is kept on the same terms a2_shopping_func set — an unanalysable politeness word, never conjugated, no aspect or future content attached. polecac is imperfective and only ever appears as the 3sg poleca, inside a fixed question. TRAP 2 — POLITE ADDRESS, QUARANTINED. Co pan poleca? / Co pani poleca? are taught as two whole opaque questions. The learner is told one thing only, in plain English: Polish addresses a stranger with pan for a man and pani for a woman, so pick the one that matches the person. That is a lexical pick, not a system. NOWHERE does this pack decline pan/pani (no pana, panu, pania, panstwo), conjugate polecac (no polecam, polecasz, polecacie), contrast formal with informal (no Co polecasz?), or name the third person as a politeness device. No quiz item is a pan/pani/pana/panu four-way. As an escape route the unit also teaches Co jest dobre? — zero new words (co + jest + dobre are all taught), real spoken Polish, and it has no pan or pani in it at all, so Dad always has a version he can produce under pressure. TRAP 3 — TABLE FOR TWO, DROPPED ENTIRELY. Stolik dla dwoch osob needs dla (not in POOL at all), the genitive of a numeral, and osoba in the genitive plural — three untaught things in one phrase, and the virile counting behind it is B1. Stolik dla dwojga is worse. The function is not offered. Slide 1 tells the learner in English to hold up fingers, which is what actually happens in a restaurant doorway. 'How many people?' as a heard question was also dropped for the same reason. OTHER DROPS: 'w restauracji' (locative restauracji not in POOL — this is also why the title is Restauracja and not W restauracji); toaleta, karta dan, przystawka, glowne danie, poprosic, chcialbym (conditional), na wynos — all checked against POOL, absent, left out. The conjunction i IS in POOL now but is deliberately not used, so every list in the pack is two short sentences rather than one joined one. Real contrast the unit DOES teach, because both sides are already taught: Poprosze rachunek (restaurant bill, asked for) vs Poprosze paragon (shop till receipt, handed over) — quiz item 6.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "uses_structures": [
+    "situation_chunk",
+    "existential_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "question",
+    "past_byc",
+    "miec_acc",
+    "can_inf",
+    "present_am",
+    "ten_ta_to",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "Getting a table — Czy jest wolny stolik?",
+      "title_pl": "Czy jest wolny stolik?",
+      "body": "A stolik is a table in a restaurant — the small table you sit at, not the big stół at home. It is the one new word on this slide.\n\nEverything around it you already own. Czy jest…? is the same question you use in a shop, and wolny means free, not taken.\n\nCzy jest wolny stolik? = \"Is there a free table?\" Ask this in the doorway, before you sit down anywhere.\n\nCzy ten stolik jest wolny? = \"Is this table free?\" Use this one when you are standing beside a particular table and want to check. Point at it as you say ten.\n\nA note on numbers. To say \"a table for two\" Polish needs a way of counting people that you have not met yet, and this unit is not going to open it. Hold up two fingers — every waiter in Poland understands that, and Czy jest wolny stolik? has already done the hard part.",
+      "body_pl": "Czy jest wolny stolik? Czy ten stolik jest wolny?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When to use it"
+        ],
+        "rows": [
+          [
+            "Czy jest wolny stolik?",
+            "Is there a free table?",
+            "in the doorway, before you sit"
+          ],
+          [
+            "Czy ten stolik jest wolny?",
+            "Is this table free?",
+            "standing beside one table, pointing"
+          ],
+          [
+            "Tak, jest.",
+            "Yes, there is.",
+            "the answer you want"
+          ],
+          [
+            "Nie, przepraszam.",
+            "No, sorry.",
+            "the answer you don't"
+          ],
+          [
+            "Dzień dobry. Czy jest wolny stolik?",
+            "Hello. Is there a free table?",
+            "the whole thing, from your side"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Hello. Is there a free table?",
+          "pl": "Dzień dobry. Czy jest wolny stolik?"
+        },
+        {
+          "en": "Good evening. Is there a free table?",
+          "pl": "Dobry wieczór. Czy jest wolny stolik?"
+        },
+        {
+          "en": "Excuse me. Is this table free?",
+          "pl": "Przepraszam. Czy ten stolik jest wolny?"
+        }
+      ]
+    },
+    {
+      "title": "Ordering — Poproszę does all the work again",
+      "title_pl": "Poproszę menu. Poproszę zupę.",
+      "body": "Nothing new here at all. The word you already use in a shop is the word you use at a table, and it is the whole of ordering.\n\nPoproszę menu. — \"The menu, please.\" Menu never changes its ending, whatever stands in front of it.\n\nAfter that, put the thing you want straight after Poproszę, in the same form it takes after mam. Feminine words in -a swap to -ę: zupa → zupę, woda → wodę. Masculine and neuter words change nothing at all: deser, napój, widelec, talerz.\n\nSo the whole of ordering is one word plus the name of the thing. You do not need a verb for \"order\" and you will not be given one.",
+      "body_pl": "Poproszę menu. Poproszę zupę. Poproszę wodę. Poproszę deser.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What happened to the word"
+        ],
+        "rows": [
+          [
+            "Poproszę menu.",
+            "The menu, please.",
+            "menu never changes"
+          ],
+          [
+            "Poproszę zupę.",
+            "A soup, please.",
+            "zupa → zupę, the same -ę as in mam zupę"
+          ],
+          [
+            "Poproszę wodę.",
+            "A water, please.",
+            "woda → wodę, same again"
+          ],
+          [
+            "Poproszę deser.",
+            "A dessert, please.",
+            "masculine — no change"
+          ],
+          [
+            "Poproszę napój.",
+            "A drink, please.",
+            "masculine — no change"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "A soup, please. A water, please.",
+          "pl": "Poproszę zupę. Poproszę wodę."
+        },
+        {
+          "en": "Excuse me. A fork, please.",
+          "pl": "Przepraszam. Poproszę widelec."
+        },
+        {
+          "en": "Excuse me. A napkin, please.",
+          "pl": "Przepraszam. Poproszę serwetkę."
+        }
+      ]
+    },
+    {
+      "title": "Asking what is good — two versions, pick either",
+      "title_pl": "Co jest dobre? Co pan poleca? Co pani poleca?",
+      "body": "Co jest dobre? = \"What's good?\" Every word in it is already yours. Co counts as neuter, so the adjective is dobre — the same -e as in To danie jest dobre. This version works everywhere and needs nothing new.\n\nThe fuller question uses poleca, which means \"recommends\". It belongs to the -a family you already produce in mieszka and czyta, so the ending is nothing new.\n\nOne thing to know, and then leave alone. Polish does not say \"you\" to a stranger. It uses pan to a man and pani to a woman — the two words you already have. So there are two versions of this question and your only job is to pick the one that matches the person in front of you:\n\nCo pan poleca? — to a waiter.\nCo pani poleca? — to a waitress.\n\nNothing else in the question moves. Learn the two as they stand and do not take them apart.",
+      "body_pl": "Co jest dobre? Co pan poleca? Co pani poleca?",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Who you say it to"
+        ],
+        "rows": [
+          [
+            "Co jest dobre?",
+            "What's good?",
+            "anyone — no pan or pani in it"
+          ],
+          [
+            "Co pan poleca?",
+            "What do you recommend?",
+            "a man"
+          ],
+          [
+            "Co pani poleca?",
+            "What do you recommend?",
+            "a woman"
+          ],
+          [
+            "To danie jest bardzo dobre.",
+            "This dish is very good.",
+            "what you will hear back"
+          ],
+          [
+            "Poproszę menu. Co pan poleca?",
+            "The menu, please. What do you recommend?",
+            "the two together"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me, what do you recommend? (to a man)",
+          "pl": "Przepraszam, co pan poleca?"
+        },
+        {
+          "en": "— What do you recommend? — This dish is very good.",
+          "pl": "— Co pani poleca? — To danie jest bardzo dobre."
+        },
+        {
+          "en": "The menu, please. What's good?",
+          "pl": "Poproszę menu. Co jest dobre?"
+        }
+      ]
+    },
+    {
+      "title": "Smacznego! — and saying it was good",
+      "title_pl": "Smacznego! Było bardzo smaczne.",
+      "body": "Smacznego! is what Poles say to each other the moment food arrives, before anyone starts. English has nothing that fits — \"enjoy your meal\" is the nearest. The waiter will say it to you; anyone at your table will say it to you.\n\nTake it whole. It is one fixed word, it never changes, and there is nothing inside it to work out. Dziękuję is a complete answer. If the other person is eating too, say Smacznego! straight back.\n\nAt the end you want to say it was good, and here you already have almost everything. Smaczny and smaczna are yours from the last unit. The third form is smaczne, and it is the one you use when you are not naming the thing:\n\nByło bardzo smaczne. — \"It was very tasty.\"\nWszystko było bardzo smaczne. — \"Everything was very tasty.\"\n\nName the thing and the ending follows it, exactly as you already do: Zupa była bardzo smaczna. Deser był bardzo dobry.",
+      "body_pl": "Smacznego! Było bardzo smaczne. Wszystko było bardzo smaczne.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "How to hold it"
+        ],
+        "rows": [
+          [
+            "Smacznego!",
+            "Enjoy your meal!",
+            "one fixed word — never changes"
+          ],
+          [
+            "Dziękuję.",
+            "Thank you.",
+            "a complete answer to it"
+          ],
+          [
+            "Było bardzo smaczne.",
+            "It was very tasty.",
+            "nothing named — smaczne"
+          ],
+          [
+            "Wszystko było bardzo smaczne.",
+            "Everything was very tasty.",
+            "wszystko behaves the same way"
+          ],
+          [
+            "Zupa była bardzo smaczna.",
+            "The soup was very tasty.",
+            "zupa named — smaczna, as before"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "— Enjoy your meal! — Thank you.",
+          "pl": "— Smacznego! — Dziękuję."
+        },
+        {
+          "en": "Thank you. Everything was very tasty.",
+          "pl": "Dziękuję. Wszystko było bardzo smaczne."
+        },
+        {
+          "en": "The soup was very tasty. The dessert was very good.",
+          "pl": "Zupa była bardzo smaczna. Deser był bardzo dobry."
+        }
+      ]
+    },
+    {
+      "title": "The bill — Poproszę rachunek",
+      "title_pl": "Poproszę rachunek.",
+      "body": "Rachunek is the bill at the end of a meal. Poproszę rachunek. is how you ask for it, and it is the only way you will need.\n\nWatch the pair, because they are easy to swap. Paragon is the printed till receipt a shop hands you. Rachunek is what you ask a waiter for when you have finished eating. Different words, different places.\n\nPaying is exactly what it was in the shop, so there is nothing new to learn:\n\nCzy mogę płacić kartą? — \"Can I pay by card?\"\nPłacę kartą. — \"I'm paying by card.\"\nPłacę gotówką. — \"I'm paying cash.\"\n\nAnd To wszystko, dziękuję. still ends the exchange, exactly as it does at the till.",
+      "body_pl": "Poproszę rachunek. Czy mogę płacić kartą? To wszystko, dziękuję.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Where you say it"
+        ],
+        "rows": [
+          [
+            "Poproszę rachunek.",
+            "The bill, please.",
+            "at the table, at the end"
+          ],
+          [
+            "Poproszę paragon.",
+            "A receipt, please.",
+            "in a shop, at the till"
+          ],
+          [
+            "Czy mogę płacić kartą?",
+            "Can I pay by card?",
+            "mogę + infinitive, as before"
+          ],
+          [
+            "Płacę kartą.",
+            "I'm paying by card.",
+            "fixed phrase — learn whole"
+          ],
+          [
+            "To wszystko, dziękuję.",
+            "That's everything, thank you.",
+            "closes it either way"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The bill, please. Can I pay by card?",
+          "pl": "Poproszę rachunek. Czy mogę płacić kartą?"
+        },
+        {
+          "en": "The bill, please. I'm paying cash.",
+          "pl": "Poproszę rachunek. Płacę gotówką."
+        },
+        {
+          "en": "Thank you. It was very tasty. Goodbye.",
+          "pl": "Dziękuję. Było bardzo smaczne. Do widzenia."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Is there a free table?",
+      "pl": "Czy jest wolny stolik?"
+    },
+    {
+      "en": "Is this table free?",
+      "pl": "Czy ten stolik jest wolny?"
+    },
+    {
+      "en": "The menu, please.",
+      "pl": "Poproszę menu."
+    },
+    {
+      "en": "What do you recommend? (to a man)",
+      "pl": "Co pan poleca?"
+    },
+    {
+      "en": "What do you recommend? (to a woman)",
+      "pl": "Co pani poleca?"
+    },
+    {
+      "en": "What's good?",
+      "pl": "Co jest dobre?"
+    },
+    {
+      "en": "A soup, please.",
+      "pl": "Poproszę zupę."
+    },
+    {
+      "en": "A dessert, please.",
+      "pl": "Poproszę deser."
+    },
+    {
+      "en": "The bill, please.",
+      "pl": "Poproszę rachunek."
+    },
+    {
+      "en": "It was very tasty.",
+      "pl": "Było bardzo smaczne."
+    },
+    {
+      "en": "Enjoy your meal!",
+      "pl": "Smacznego!"
+    },
+    {
+      "en": "That's everything, thank you.",
+      "pl": "To wszystko, dziękuję."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You have just walked into a restaurant and want a table. You say:",
+      "choices": [
+        "Czy jest wolny stolik?",
+        "Poproszę rachunek.",
+        "Smacznego!",
+        "Co jest dobre?"
+      ],
+      "answer": "Czy jest wolny stolik?",
+      "explain": "This is the same Czy jest…? you already use in a shop, with a new word on the end. Wolny means free, not taken."
+    },
+    {
+      "prompt": "You are standing beside one particular empty table. You say:",
+      "choices": [
+        "Czy ten stolik jest wolny?",
+        "Czy jest wolny stolik?",
+        "Gdzie jest stolik?",
+        "To wszystko, dziękuję."
+      ],
+      "answer": "Czy ten stolik jest wolny?",
+      "explain": "Czy jest wolny stolik? asks whether they have any free table at all. When you are pointing at one, name it with ten and the adjective goes to the end."
+    },
+    {
+      "prompt": "The waiter is a man and you want his advice. You say:",
+      "choices": [
+        "Co pan poleca?",
+        "Co pani poleca?",
+        "Poproszę menu.",
+        "Ile to kosztuje?"
+      ],
+      "answer": "Co pan poleca?",
+      "explain": "Pan is for a man, pani for a woman. Nothing else in the question changes — choose between those two words and you are finished."
+    },
+    {
+      "prompt": "You are speaking to a waitress. →",
+      "choices": [
+        "Co pani poleca?",
+        "Co pan poleca?",
+        "Co jest dobre?",
+        "Poproszę deser."
+      ],
+      "answer": "Co pani poleca?",
+      "explain": "Pani is the one for a woman. If you cannot remember which is which in the moment, Co jest dobre? does the same job and has no pan or pani in it at all."
+    },
+    {
+      "prompt": "You have just sat down and want to see what they have. You say:",
+      "choices": [
+        "Poproszę menu.",
+        "Poproszę rachunek.",
+        "Smacznego!",
+        "Było bardzo smaczne."
+      ],
+      "answer": "Poproszę menu.",
+      "explain": "Menu at the start, rachunek at the end — the two ends of a meal, and both of them ride on Poproszę."
+    },
+    {
+      "prompt": "You have finished eating and want to pay. You say:",
+      "choices": [
+        "Poproszę rachunek.",
+        "Poproszę paragon.",
+        "Poproszę menu.",
+        "Ile to kosztuje?"
+      ],
+      "answer": "Poproszę rachunek.",
+      "explain": "Paragon is the printed till receipt a shop hands you. Rachunek is the bill you ask a waiter for at the end of a meal."
+    },
+    {
+      "prompt": "Your food arrives and the waiter says one word. He says:",
+      "choices": [
+        "Smacznego!",
+        "Dziękuję bardzo.",
+        "Do widzenia.",
+        "Przepraszam."
+      ],
+      "answer": "Smacznego!",
+      "explain": "Smacznego is said before anyone starts eating. It is one fixed word, it never changes, and there is nothing inside it to work out."
+    },
+    {
+      "prompt": "— Smacznego! — ___",
+      "choices": [
+        "Dziękuję.",
+        "Poproszę rachunek.",
+        "Nie wiem.",
+        "Czy to daleko?"
+      ],
+      "answer": "Dziękuję.",
+      "explain": "Dziękuję is a complete answer. If the other person is eating too, you can say Smacznego! straight back instead."
+    },
+    {
+      "prompt": "The meal is over and you want to say it was good. You say:",
+      "choices": [
+        "Było bardzo smaczne.",
+        "Było bardzo blisko.",
+        "Smacznego!",
+        "Co jest dobre?"
+      ],
+      "answer": "Było bardzo smaczne.",
+      "explain": "Smacznego comes before the food, never after it. Afterwards you say what it was like."
+    },
+    {
+      "prompt": "— Czy jest wolny stolik? — ___",
+      "choices": [
+        "Tak, jest.",
+        "Poproszę rachunek.",
+        "Nie wiem.",
+        "Smacznego!"
+      ],
+      "answer": "Tak, jest.",
+      "explain": "A czy question is a yes/no question, so the answer comes back with tak or nie, not with a request of its own."
+    },
+    {
+      "prompt": "The waiter asks whether you want anything else. You have finished. You say:",
+      "choices": [
+        "To wszystko, dziękuję.",
+        "Poproszę menu.",
+        "Co pan poleca?",
+        "Czy ten stolik jest wolny?"
+      ],
+      "answer": "To wszystko, dziękuję.",
+      "explain": "The same phrase that closes a shop visit closes a meal. Every word in it is already yours."
+    },
+    {
+      "prompt": "What's good?  →  Co jest ___?",
+      "choices": [
+        "dobre",
+        "dobry",
+        "dobra",
+        "dobrze"
+      ],
+      "answer": "dobre",
+      "explain": "Co counts as neuter, so the adjective takes the neuter -e: dobre. It is the same ending you already use in To danie było dobre."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Is there a free table?",
+      "mode": "cloze",
+      "frame": "Czy jest wolny ___?",
+      "answer": "stolik",
+      "accepts": [
+        "stolik"
+      ],
+      "explain": "Stolik is the small table you sit at in a restaurant — not stół, the big one at home.",
+      "note": "Pisanie hard cap (James 2026-08-06). Blank on stolik, the one genuinely new word this unit teaches. The frame keeps the word order visible so the contrast with item 1 survives."
+    },
+    {
+      "prompt_en": "Is this table free?",
+      "mode": "cloze",
+      "frame": "Czy ten stolik jest ___?",
+      "answer": "wolny",
+      "accepts": [
+        "wolny"
+      ],
+      "explain": "Stolik is masculine, so it takes ten and the adjective ends in -y: wolny.",
+      "note": "Pisanie hard cap (James 2026-08-06). Blank on wolny — exactly what this item's explain is about, the masculine -y ending. The second word order stays on screen in the frame."
+    },
+    {
+      "prompt_en": "The menu, please.",
+      "mode": "full_word",
+      "answer": "Poproszę menu.",
+      "accepts": [
+        "Poproszę menu.",
+        "Poproszę menu",
+        "Poprosze menu."
+      ],
+      "explain": "Menu is one of the handful of words that never changes its ending, so it is safe in any frame."
+    },
+    {
+      "prompt_en": "What do you recommend? (to a man)",
+      "mode": "full_word",
+      "answer": "Co pan poleca?",
+      "accepts": [
+        "Co pan poleca?",
+        "Co pan poleca"
+      ],
+      "explain": "A fixed question. Pan is the word for a man — the rest of it never moves."
+    },
+    {
+      "prompt_en": "What do you recommend? (to a woman)",
+      "mode": "full_word",
+      "answer": "Co pani poleca?",
+      "accepts": [
+        "Co pani poleca?",
+        "Co pani poleca"
+      ],
+      "explain": "The same fixed question with pani instead of pan. That single word is the whole of the choice."
+    },
+    {
+      "prompt_en": "What's good?",
+      "mode": "full_word",
+      "answer": "Co jest dobre?",
+      "accepts": [
+        "Co jest dobre?",
+        "Co jest dobre"
+      ],
+      "explain": "Nothing new in this one at all, and no pan or pani to choose between. Co is neuter, so the adjective is dobre."
+    },
+    {
+      "prompt_en": "A soup, please.",
+      "mode": "full_word",
+      "answer": "Poproszę zupę.",
+      "accepts": [
+        "Poproszę zupę.",
+        "Poproszę zupę",
+        "Poprosze zupe."
+      ],
+      "explain": "Poproszę takes the same form as mam: zupa → zupę."
+    },
+    {
+      "prompt_en": "A water, please.",
+      "mode": "full_word",
+      "answer": "Poproszę wodę.",
+      "accepts": [
+        "Poproszę wodę.",
+        "Poproszę wodę",
+        "Poprosze wode."
+      ],
+      "explain": "Woda is feminine and in -a, so it swaps to -ę after Poproszę, exactly like kawa → kawę."
+    },
+    {
+      "prompt_en": "The bill, please.",
+      "mode": "full_word",
+      "answer": "Poproszę rachunek.",
+      "accepts": [
+        "Poproszę rachunek.",
+        "Poproszę rachunek",
+        "Poprosze rachunek."
+      ],
+      "explain": "Rachunek is masculine, so nothing is added to it after Poproszę."
+    },
+    {
+      "prompt_en": "It was very tasty.",
+      "mode": "full_word",
+      "answer": "Było bardzo smaczne.",
+      "accepts": [
+        "Było bardzo smaczne.",
+        "Było bardzo smaczne",
+        "Bylo bardzo smaczne."
+      ],
+      "explain": "When you do not name the thing, both the verb and the adjective take the neuter ending: było smaczne. Name it and they follow it — zupa była smaczna."
+    },
+    {
+      "prompt_en": "Enjoy your meal!",
+      "mode": "full_word",
+      "answer": "Smacznego!",
+      "accepts": [
+        "Smacznego!",
+        "Smacznego"
+      ],
+      "explain": "One fixed word, said exactly as it stands. Do not try to build it out of anything else."
+    },
+    {
+      "prompt_en": "Can I pay by card?",
+      "mode": "cloze",
+      "frame": "Czy mogę ___ kartą?",
+      "answer": "płacić",
+      "accepts": [
+        "płacić",
+        "placic"
+      ],
+      "explain": "Exactly the same question as in a shop. Mogę is always followed by the plain infinitive płacić — never płacę.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed: mogę + infinitive with kartą bolted on. Blank on płacić, the form this item's explain exists to fix."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Hello. Is there a free table?",
+      "answer": "Dzień dobry. Czy jest wolny stolik?",
+      "accepts": [
+        "Dzień dobry. Czy jest wolny stolik?",
+        "Dzień dobry. Czy jest wolny stolik",
+        "Dzień dobry, czy jest wolny stolik?",
+        "Dzień dobry. Jest wolny stolik?",
+        "Dzień dobry. Jest wolny stolik"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Is this table free? — Yes, it is.",
+      "answer": "— Czy ten stolik jest wolny? — Tak, jest.",
+      "accepts": [
+        "— Czy ten stolik jest wolny? — Tak, jest.",
+        "Czy ten stolik jest wolny? Tak, jest.",
+        "Czy ten stolik jest wolny? Tak, jest",
+        "- Czy ten stolik jest wolny? - Tak, jest."
+      ],
+      "explain": "A czy question comes back with tak or nie. Tak, jest is the whole answer — Polish does not repeat the table."
+    },
+    {
+      "prompt_en": "Type: Excuse me. The menu, please.",
+      "answer": "Przepraszam. Poproszę menu.",
+      "accepts": [
+        "Przepraszam. Poproszę menu.",
+        "Przepraszam. Poproszę menu",
+        "Przepraszam, poproszę menu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me, what do you recommend? (to a man)",
+      "answer": "Przepraszam, co pan poleca?",
+      "accepts": [
+        "Przepraszam, co pan poleca?",
+        "Przepraszam, co pan poleca",
+        "Przepraszam co pan poleca?"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — What do you recommend? (to a woman) — This dish is very good.",
+      "answer": "— Co pani poleca? — To danie jest bardzo dobre.",
+      "accepts": [
+        "— Co pani poleca? — To danie jest bardzo dobre.",
+        "Co pani poleca? To danie jest bardzo dobre.",
+        "Co pani poleca? To danie jest bardzo dobre",
+        "- Co pani poleca? - To danie jest bardzo dobre."
+      ],
+      "explain": "Danie is neuter, so the adjective is dobre — the same ending as in Co jest dobre?"
+    },
+    {
+      "prompt_en": "Type: The menu, please. What's good?",
+      "answer": "Poproszę menu. Co jest dobre?",
+      "accepts": [
+        "Poproszę menu. Co jest dobre?",
+        "Poproszę menu. Co jest dobre",
+        "Poprosze menu. Co jest dobre?"
+      ]
+    },
+    {
+      "prompt_en": "Type: A soup, please. A water, please.",
+      "answer": "Poproszę zupę. Poproszę wodę.",
+      "accepts": [
+        "Poproszę zupę. Poproszę wodę.",
+        "Poproszę zupę. Poproszę wodę",
+        "Poprosze zupe. Poprosze wode."
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me. A fork, please.",
+      "answer": "Przepraszam. Poproszę widelec.",
+      "accepts": [
+        "Przepraszam. Poproszę widelec.",
+        "Przepraszam. Poproszę widelec",
+        "Przepraszam, poproszę widelec."
+      ],
+      "explain": "Widelec is masculine, so nothing is added to it. Compare Poproszę serwetkę, where the feminine -a swaps to -ę."
+    },
+    {
+      "prompt_en": "Type the exchange: — Enjoy your meal! — Thank you.",
+      "answer": "— Smacznego! — Dziękuję.",
+      "accepts": [
+        "— Smacznego! — Dziękuję.",
+        "Smacznego! Dziękuję.",
+        "Smacznego! Dziękuję",
+        "- Smacznego! - Dziękuję."
+      ]
+    },
+    {
+      "prompt_en": "Type: Thank you. Everything was very tasty.",
+      "answer": "Dziękuję. Wszystko było bardzo smaczne.",
+      "accepts": [
+        "Dziękuję. Wszystko było bardzo smaczne.",
+        "Dziękuję. Wszystko było bardzo smaczne",
+        "Dziekuje. Wszystko bylo bardzo smaczne."
+      ],
+      "explain": "Wszystko behaves as neuter, so it pulls both endings the neuter way: było smaczne."
+    },
+    {
+      "prompt_en": "Type: The soup was very tasty.",
+      "answer": "Zupa była bardzo smaczna.",
+      "accepts": [
+        "Zupa była bardzo smaczna.",
+        "Zupa była bardzo smaczna",
+        "Zupa byla bardzo smaczna."
+      ],
+      "explain": "Name the thing and the endings follow it. Zupa is feminine, so była smaczna — not było smaczne."
+    },
+    {
+      "prompt_en": "Type: The bill, please. Can I pay by card?",
+      "answer": "Poproszę rachunek. Czy mogę płacić kartą?",
+      "accepts": [
+        "Poproszę rachunek. Czy mogę płacić kartą?",
+        "Poproszę rachunek. Czy mogę płacić kartą",
+        "Poproszę rachunek. Mogę płacić kartą?",
+        "Poproszę rachunek. Mogę płacić kartą"
+      ],
+      "explain": "Two phrases you already own, in the order a meal actually ends: ask for the bill, then say how you are paying."
+    }
+  ],
+  "teaches_lemmas": [
+    "stolik",
+    "wolny stolik",
+    "polecać",
+    "poleca",
+    "smaczne",
+    "smacznego",
+    "czy jest wolny stolik",
+    "czy ten stolik jest wolny",
+    "co pan poleca",
+    "co pani poleca",
+    "co jest dobre",
+    "poproszę menu",
+    "poproszę rachunek",
+    "poproszę wodę",
+    "było bardzo smaczne",
+    "wszystko było bardzo smaczne"
+  ],
+  "uses_lemmas": [
+    "poproszę",
+    "poproszę zupę",
+    "poproszę deser",
+    "poproszę napój",
+    "poproszę widelec",
+    "poproszę serwetkę",
+    "poproszę nóż",
+    "poproszę łyżkę",
+    "poproszę paragon",
+    "poproszę kawę",
+    "menu",
+    "rachunek",
+    "paragon",
+    "restauracja",
+    "kelner",
+    "stół",
+    "wolny",
+    "czy",
+    "jest",
+    "czy jest",
+    "gdzie jest",
+    "co",
+    "co to jest",
+    "ten",
+    "to",
+    "tak",
+    "nie",
+    "tak, jest",
+    "był",
+    "była",
+    "było",
+    "bardzo",
+    "wszystko",
+    "to wszystko",
+    "to wszystko, dziękuję",
+    "dziękuję",
+    "dziękuję bardzo",
+    "przepraszam",
+    "dzień dobry",
+    "dobry wieczór",
+    "do widzenia",
+    "nie wiem",
+    "czy to daleko",
+    "blisko",
+    "ile to kosztuje",
+    "mówić",
+    "zupa",
+    "zupę",
+    "woda",
+    "wodę",
+    "kawa",
+    "kawę",
+    "deser",
+    "danie",
+    "napój",
+    "widelec",
+    "serwetka",
+    "serwetkę",
+    "talerz",
+    "smaczny",
+    "smaczna",
+    "dobry",
+    "dobra",
+    "dobre",
+    "dobrze",
+    "mam",
+    "mieszka",
+    "czyta",
+    "pan",
+    "pani",
+    "mogę",
+    "płacić",
+    "czy mogę płacić kartą",
+    "płacę kartą",
+    "płacę gotówką",
+    "kartą",
+    "gotówką"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_ordering_func",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

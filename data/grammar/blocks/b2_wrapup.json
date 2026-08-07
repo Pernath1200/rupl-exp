@@ -1,0 +1,568 @@
+{
+  "id": "b2_wrapup",
+  "title": "Praca, zdrowie, podróż",
+  "title_en": "B2 capstone",
+  "level": "B2",
+  "tree_node": "b2_wrapup",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 CAPSTONE and the last teaching node in B2 — same genre as a2_wrapup_func and b1_wrapup (ZERO new material, situation_chunk recombination, teaches_lemmas empty). Audit-clean, not smoke-tested; James tests by hand.\n\nBUILT STRICTLY FROM THE FOUR REGISTERS' OWN teaches_lemmas, which is b1_wrapup's method and the reason that unit held together. tree.json's node note names the four: work, the health system, travel logistics, discussion. Three chunks each, twelve in total, every one of them copied from its source pack rather than composed fresh — b2_work (Mam nowy etat / Mam nadgodziny / Rozmowa była dobra), b2_health_system (Mam skierowanie / Wyniki są dobre / Gdzie jest rejestracja?), b2_travel_func (Pociąg jest opóźniony / Lot jest odwołany / Mam nocleg w hotelu), b2_discussion_func (Uważam, że… / To zależy / Chyba tak).\n\nNO FIFTH REGISTER, and the node note is explicit about it: 'FOUR registers, matching b1_wrapup's own deliberate four-way limit; do not stack a fifth.' b2_abstract and b2_prefix_lens were both considered and dropped. b1_wrapup made the identical call about b1_vocative_chunks and gave the reason this pack inherits: a capstone's job is discrimination between a small number of clearly-shaped registers, and a fifth dilutes it.\n\nTWO OF THE FOUR REGISTERS ARE VOCAB PACKS, which is new for a capstone and shaped the whole build. b1_wrapup drew on four packs of which several had no Pisanie stage; here b2_work and b2_health_system have no chunk lane at all, only sentences[]. Their three chunks each are therefore lifted VERBATIM from those packs' own sentences[] banks (To jest dobre stanowisko / Mam nowy etat / Rozmowa była dobra / Mam skierowanie / Wyniki są dobre / Gdzie jest rejestracja? are all real rows there), so nothing in this pack is a sentence the learner has not already read in the unit that owns it. Checked row by row against both files rather than reconstructed from memory.\n\nTHE ENGLISH GLOSSES ARE THE SOURCE PACKS' OWN, not re-glossed. rozmowa in particular stays 'conversation', which is how b2_work glosses it, even though in a work scene it reads as the job interview — re-glossing a word inside a capstone would teach a second sense in a unit that is supposed to teach nothing.\n\nPISANIE: THE LINE THIS PACK DREW, stated because it had to be drawn consistently and is a genuine judgment call. AGENTS' hard cap allows a typed-whole answer of at most 3 words AND only if it is a frozen chunk or pattern phrase; a COMPOSED sentence is cloze at any length. b1_wrapup's precedent held 'Planuję spotkanie.' (verb + bare object) as a pattern unit while clozing anything with a bolted-on part. Applied here as a single rule so the pack is not inconsistent with itself: VERB + BARE OBJECT stays typed whole (Mam nadgodziny., Mam skierowanie. — exactly the Planuję spotkanie. shape), and ANY THIRD CONTENT WORD — a modifier, a predicate adjective, a place phrase — makes it composed and it becomes a cloze. That converts Mam nowy etat., Rozmowa była dobra., Wyniki są dobre. and Mam nocleg w hotelu., all of which are 3-4 words and none of which is a chunk anyone learns whole. To zależy. and Chyba tak. are typed whole because they genuinely ARE frozen chunks, and b2_discussion_func types them whole too.\n\nTHE CAPSTONE CONSISTENCY RULE (third repair run, a2_wrapup_func) WAS APPLIED WHEREVER A SOURCE FRAME EXISTED, and where it did not, that is logged. Four items mirror their source unit's own frame and blank exactly: Pociąg jest ___ (opóźniony) and Lot jest ___ (odwołany) are b2_travel_func's items 7 and 8 unchanged; ___, że … (Uważam) is b2_discussion_func's item 7 with its frame recombined onto this pack's health chunk; Mam ___ w hotelu (nocleg) blanks the word b2_travel_func typed bare. The other four cloze items — etat, Rozmowa, Wyniki, rejestracja — have NO source frame to mirror, because b2_work and b2_health_system are vocab packs with no Pisanie stage. That is the same gap b1_wrapup logged for b1_plans, and it is handled the same way: the blank falls on the register's own new word, which is the teaching point in every case.\n\nEVERY BLANK IN THIS PACK LANDS ON A TEACHING POINT. No item needed the queue's fallback clause — unusual, and it is the direct consequence of each register contributing three chunks built around three DIFFERENT new words, so no answer had to be spent twice.\n\nQUIZ IS SITUATION DISCRIMINATION ACROSS THE SAME TWELVE STRINGS AND NEVER INTRODUCES A THIRTEENTH — a2_wrapup_func's convention, kept by b1_wrapup and kept here. Every distractor is another of the twelve chunks doing a job it does not do, so each explain can name the register the learner reached into. All 12 quiz answers are distinct. Items 11 and 12 are the sharpest pair and are deliberate: Wyniki są dobre. states the result as a fact, Uważam, że wyniki są dobre. marks it as a view — the same content in two registers, which is the one discrimination this capstone can make that none of its four sources could.\n\nUŻYCIE IS BUILT FROM THE TWELVE CHUNKS AND CONJUNCTIONS ONLY. b1_wrapup's use stage did the same and it is what keeps a capstone from quietly becoming a new unit. The only additions are ale, a, i (b2_conjunctions) and czy (a1_questions) to turn two statements into yes/no questions. Item 10 is the whole-day chain, b1_wrapup's closing item in the same shape.\n\nCZY WAS USED RATHER THAN BARE INTONATION on both question use items. Czy masz nadgodziny? and Czy wyniki są dobre? — the course teaches the czy frame explicitly and intonation-only yes/no questions are much thinner ground; this is the conservative branch and costs nothing.\n\nHOMOGRAPH / TAUGHT-AS CHECKS PERFORMED ON EVERY RECYCLED FORM:\n- wyniki is b2_health_system's own plural teaches_lemma ('the results'), used only in that sense. wynik (singular) appears nowhere.\n- rozmowa is b2_work's noun 'conversation'. It is NOT a form of a2_phone_func's verb rozmawiać, and no item lets the two blur; rozmowę, its accusative, is owned but is not needed here and is absent.\n- opóźniony and odwołany are passive participles (b2_participle_pass) used ONLY in predicate position after jest, which is the only position spine O4 allows. Neither is declined, neither modifies a noun attributively.\n- spóźniony is NOT used anywhere, and that is deliberate. b2_travel_func's sharpest finding is that a PERSON is spóźniony while a SERVICE is opóźniony; putting both into a capstone that teaches nothing would re-open a contrast rather than recycle it.\n- dobra / dobre / dobry are the plain nominative adjectives from A1, agreeing with a feminine, a plural and a masculine respectively. No oblique adjective appears anywhere.\n- tak is the plain 'yes' inside the frozen Chyba tak., never the 'so/thus' of Dlaczego tak myślisz?\n- uważam stays FIRST PERSON ONLY, holding b2_discussion_func's own quarantine (the b2_indirect_q wiem pattern). uważasz and uważa appear nowhere, distractors included.\n- zależy appears only inside the frozen To zależy., which is how b2_discussion_func taught it; the bare verb is never conjugated.\n\nFENCED, appearing nowhere including as distractors: oblique pronouns of every kind (go, ją, mu, jej, nim, niej — a fence audit.py cannot see, since person pronouns sit in GLUE_LEMMAS); plural oblique adjectives (spine O3, C1); zostać (O5); the conditional past (O6); any participle but the passive one, and that one in predicate position only (O4); wydaje mi się, which b2_discussion_func dropped over the wydawać collision and which a capstone must not quietly restore.\n\nteaches_structures carries situation_chunk, following b1_wrapup exactly: the capstone re-drills the chunk lane rather than introducing anything, and the ID is long unlocked. teaches_lemmas is empty.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "situation_chunk",
+    "miec_present",
+    "miec_acc",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "plural_nom",
+    "participle_pass",
+    "passive",
+    "ze_clauses",
+    "question",
+    "questions2",
+    "existential_jest",
+    "prep_w_loc",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "Four registers, nothing new",
+      "title_pl": "Praca, zdrowie, podróż, rozmowa",
+      "body": "This unit closes B2 and teaches you no new Polish at all. Every phrase in it comes from one of the four registers B2 added: work and the office, the health system, the logistics of travelling, and taking part in a discussion.\n\nUntil now each of the four was practised on its own. Here they are mixed, because a real day mixes them — the interview went well, the train did not, the results came back, and at the end you say what you make of it.",
+      "body_pl": "Mam nowy etat. · Wyniki są dobre. · Pociąg jest opóźniony. · Uważam, że…",
+      "examples": [
+        {
+          "en": "I have a new full-time post. (work)",
+          "pl": "Mam nowy etat."
+        },
+        {
+          "en": "The results are good. (health system)",
+          "pl": "Wyniki są dobre."
+        },
+        {
+          "en": "The train is delayed. (travel)",
+          "pl": "Pociąg jest opóźniony."
+        },
+        {
+          "en": "It depends. (discussion)",
+          "pl": "To zależy."
+        }
+      ]
+    },
+    {
+      "title": "Four registers, one shape each",
+      "title_pl": "Mam… · …są dobre · …jest opóźniony · Uważam, że…",
+      "body": "Each register has a shape, and once you can see the shape you can hear which one someone is in.\n\nWork and the health system mostly report what you have or how something is — Mam…, …jest…, …są…. Travel logistics is almost always a thing plus a participle: the train, the flight, the ticket, and then what has happened to it. Discussion is the only one that does not report anything at all — it frames what someone else has just said.\n\nThat last row is why this capstone can do something none of its four units could on their own: the same fact can go out as a report or as an opinion, and the difference is one chunk at the front.",
+      "body_pl": "Mam nadgodziny. · Wyniki są dobre. · Lot jest odwołany. · Chyba tak.",
+      "table": {
+        "headers": [
+          "Register",
+          "Shape",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Work & office",
+            "Mam… / …była…",
+            "Mam nowy etat."
+          ],
+          [
+            "The health system",
+            "Mam… / …są… / Gdzie jest…?",
+            "Gdzie jest rejestracja?"
+          ],
+          [
+            "Travel logistics",
+            "…jest opóźniony / odwołany",
+            "Lot jest odwołany."
+          ],
+          [
+            "Discussion",
+            "Uważam, że… / To zależy. / Chyba tak.",
+            "Uważam, że wyniki są dobre."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A whole day, four registers",
+      "title_pl": "Jeden dzień, cztery rejestry",
+      "body": "Here is the whole thing chained together — a morning at work, a journey that goes wrong, an afternoon in the health system, and an opinion at the end. Nothing in it is new; every sentence is a chunk from one of the four units you have already finished. Read it once as a day before you start the exercises.",
+      "body_pl": "Rozmowa była dobra. Mam nowy etat, ale mam nadgodziny. Pociąg jest opóźniony, a lot jest odwołany. Mam nocleg w hotelu. Mam skierowanie. Gdzie jest rejestracja? Wyniki są dobre. Uważam, że rozmowa była dobra.",
+      "examples": [
+        {
+          "en": "Work: I have a new full-time post, but I have overtime.",
+          "pl": "Mam nowy etat, ale mam nadgodziny."
+        },
+        {
+          "en": "Travel: The train is delayed, and the flight is cancelled.",
+          "pl": "Pociąg jest opóźniony, a lot jest odwołany."
+        },
+        {
+          "en": "Health system: I have a referral. Where is the reception desk?",
+          "pl": "Mam skierowanie. Gdzie jest rejestracja?"
+        },
+        {
+          "en": "Discussion: I think the conversation was good.",
+          "pl": "Uważam, że rozmowa była dobra."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I have a new full-time post.",
+      "pl": "Mam nowy etat."
+    },
+    {
+      "en": "I have overtime.",
+      "pl": "Mam nadgodziny."
+    },
+    {
+      "en": "The conversation was good.",
+      "pl": "Rozmowa była dobra."
+    },
+    {
+      "en": "I have a referral.",
+      "pl": "Mam skierowanie."
+    },
+    {
+      "en": "The results are good.",
+      "pl": "Wyniki są dobre."
+    },
+    {
+      "en": "Where is the reception desk?",
+      "pl": "Gdzie jest rejestracja?"
+    },
+    {
+      "en": "The train is delayed.",
+      "pl": "Pociąg jest opóźniony."
+    },
+    {
+      "en": "The flight is cancelled.",
+      "pl": "Lot jest odwołany."
+    },
+    {
+      "en": "I have accommodation at the hotel.",
+      "pl": "Mam nocleg w hotelu."
+    },
+    {
+      "en": "I think the results are good.",
+      "pl": "Uważam, że wyniki są dobre."
+    },
+    {
+      "en": "It depends.",
+      "pl": "To zależy."
+    },
+    {
+      "en": "I think so.",
+      "pl": "Chyba tak."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You have just been taken on full-time and a friend asks what changed. You say:",
+      "choices": [
+        "Mam nowy etat.",
+        "Mam nadgodziny.",
+        "Mam skierowanie.",
+        "Mam nocleg w hotelu."
+      ],
+      "answer": "Mam nowy etat.",
+      "explain": "All four begin with Mam and only one of them is about employment. The other three name overtime, a hospital referral and a hotel room — three different registers wearing the same opening word."
+    },
+    {
+      "prompt": "You get home late and have to explain why. You say:",
+      "choices": [
+        "Mam nadgodziny.",
+        "Rozmowa była dobra.",
+        "Lot jest odwołany.",
+        "To zależy."
+      ],
+      "answer": "Mam nadgodziny.",
+      "explain": "Nadgodziny is the reason itself. Lot jest odwołany would also explain a late arrival, but only if you had been travelling — it belongs to the journey, not to the office."
+    },
+    {
+      "prompt": "A friend asks how the interview went. You say:",
+      "choices": [
+        "Rozmowa była dobra.",
+        "Wyniki są dobre.",
+        "Mam nowy etat.",
+        "Chyba tak."
+      ],
+      "answer": "Rozmowa była dobra.",
+      "explain": "Rozmowa is the conversation you have just had. Wyniki są dobre is the same judgement in the health register, and Mam nowy etat answers a different question — what happened afterwards, not how it went."
+    },
+    {
+      "prompt": "The specialist's desk asks whether you were sent by a doctor. You say:",
+      "choices": [
+        "Mam skierowanie.",
+        "Mam nowy etat.",
+        "Gdzie jest rejestracja?",
+        "Mam nocleg w hotelu."
+      ],
+      "answer": "Mam skierowanie.",
+      "explain": "The referral is the thing being asked for. Gdzie jest rejestracja? is what you ask before you get to that desk, not what you answer once you are standing at it."
+    },
+    {
+      "prompt": "The doctor has your test results and there is nothing wrong. You tell the family:",
+      "choices": [
+        "Wyniki są dobre.",
+        "Rozmowa była dobra.",
+        "Mam skierowanie.",
+        "To zależy."
+      ],
+      "answer": "Wyniki są dobre.",
+      "explain": "Wyniki are the results themselves. Rozmowa była dobra says a conversation went well, which is the work register saying something structurally identical about a completely different thing."
+    },
+    {
+      "prompt": "You walk into the clinic and do not know where to check in. You ask:",
+      "choices": [
+        "Gdzie jest rejestracja?",
+        "Mam skierowanie.",
+        "Chyba tak.",
+        "Mam nocleg w hotelu."
+      ],
+      "answer": "Gdzie jest rejestracja?",
+      "explain": "This is the only question of the four, and the only one that asks for a place. The other three tell someone something."
+    },
+    {
+      "prompt": "The board at the station says your train will arrive late. You say:",
+      "choices": [
+        "Pociąg jest opóźniony.",
+        "Lot jest odwołany.",
+        "Wyniki są dobre.",
+        "To zależy."
+      ],
+      "answer": "Pociąg jest opóźniony.",
+      "explain": "Opóźniony means it is still coming, only late. Odwołany would mean it is not coming at all — and the word in front of it names a flight, not a train."
+    },
+    {
+      "prompt": "Your flight is not going at all today. You say:",
+      "choices": [
+        "Lot jest odwołany.",
+        "Pociąg jest opóźniony.",
+        "Mam nocleg w hotelu.",
+        "Mam nadgodziny."
+      ],
+      "answer": "Lot jest odwołany.",
+      "explain": "Odwołany is the cancellation. Mam nocleg w hotelu is what you say next, once the cancellation has already happened — the consequence, not the news."
+    },
+    {
+      "prompt": "A colleague asks where you are staying tonight. You say:",
+      "choices": [
+        "Mam nocleg w hotelu.",
+        "Mam nowy etat.",
+        "Gdzie jest rejestracja?",
+        "Lot jest odwołany."
+      ],
+      "answer": "Mam nocleg w hotelu.",
+      "explain": "Nocleg is a night's accommodation, so this answers where. Lot jest odwołany might be why you need it, but it does not say where you will be."
+    },
+    {
+      "prompt": "Someone asks whether the shop is open and you are fairly sure it is. You say:",
+      "choices": [
+        "Chyba tak.",
+        "To zależy.",
+        "Wyniki są dobre.",
+        "Mam skierowanie."
+      ],
+      "answer": "Chyba tak.",
+      "explain": "Chyba tak commits, but softly. To zależy refuses to commit at all, which is a different answer — it says the question has no single answer, not that you are unsure of it."
+    },
+    {
+      "prompt": "A friend asks whether the overtime is worth doing. Some weeks it is, some weeks it is not. You say:",
+      "choices": [
+        "To zależy.",
+        "Chyba tak.",
+        "Mam nadgodziny.",
+        "Uważam, że wyniki są dobre."
+      ],
+      "answer": "To zależy.",
+      "explain": "To zależy is for a question whose answer genuinely changes with the circumstances. Chyba tak would be a soft yes, which is not what you mean here."
+    },
+    {
+      "prompt": "The family already knows the results. You want to add what YOU make of them. You say:",
+      "choices": [
+        "Uważam, że wyniki są dobre.",
+        "Wyniki są dobre.",
+        "To zależy.",
+        "Chyba tak."
+      ],
+      "answer": "Uważam, że wyniki są dobre.",
+      "explain": "The two are the same fact in two registers. Wyniki są dobre reports it; Uważam, że… marks it as your reading of it, which is the only thing left to add once everyone has already heard the fact."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I have overtime.",
+      "mode": "full_word",
+      "answer": "Mam nadgodziny.",
+      "accepts": [
+        "Mam nadgodziny.",
+        "Mam nadgodziny"
+      ]
+    },
+    {
+      "prompt_en": "I have a referral.",
+      "mode": "full_word",
+      "answer": "Mam skierowanie.",
+      "accepts": [
+        "Mam skierowanie.",
+        "Mam skierowanie"
+      ]
+    },
+    {
+      "prompt_en": "I have a new full-time post.",
+      "mode": "cloze",
+      "answer": "etat",
+      "frame": "Mam nowy ___.",
+      "accepts": [
+        "etat"
+      ],
+      "explain": "Etat is the full-time post itself, as opposed to the job you do in it — which is why nowy sits in front of it unchanged, the way it does before any masculine object.",
+      "note": "Pisanie hard cap. Composed — a third content word (the modifier nowy) makes it more than the verb-plus-bare-object pattern unit. Blank on b2_work's own new word. No source frame to mirror: b2_work is a vocab pack with no Pisanie stage, the same gap b1_wrapup logged for b1_plans."
+    },
+    {
+      "prompt_en": "The conversation was good.",
+      "mode": "cloze",
+      "answer": "Rozmowa",
+      "frame": "___ była dobra.",
+      "accepts": [
+        "Rozmowa",
+        "rozmowa"
+      ],
+      "note": "Pisanie hard cap. Composed, 3 words. Blank on b2_work's own new word; była dobra stays on screen so the feminine agreement is read rather than produced. Sentence-initial, so accepts covers both capitalisations, following b1_polite #6 and b1_wrapup #7. Homograph checked: rozmowa is b2_work's noun 'conversation', not a form of a2_phone_func's verb rozmawiać."
+    },
+    {
+      "prompt_en": "The results are good.",
+      "mode": "cloze",
+      "answer": "Wyniki",
+      "frame": "___ są dobre.",
+      "accepts": [
+        "Wyniki",
+        "wyniki"
+      ],
+      "note": "Pisanie hard cap. Composed, 3 words. Blank on b2_health_system's own new word, which is plural-only in this sense — są dobre stays on screen so the plural agreement is visible rather than demanded. No source frame to mirror (vocab pack). Sentence-initial, both capitalisations accepted."
+    },
+    {
+      "prompt_en": "Where is the reception desk?",
+      "mode": "cloze",
+      "answer": "rejestracja",
+      "frame": "Gdzie jest ___?",
+      "accepts": [
+        "rejestracja"
+      ],
+      "explain": "Gdzie jest… asks for a place and never changes; only the thing you are looking for moves into the slot, and it stays in its plain naming form.",
+      "note": "Pisanie hard cap. A real question built on the A1 Gdzie jest… frame, so cloze rather than typed whole, per the queue's composition test. Blank on b2_health_system's own new word."
+    },
+    {
+      "prompt_en": "The train is delayed.",
+      "mode": "cloze",
+      "answer": "opóźniony",
+      "frame": "Pociąg jest ___.",
+      "accepts": [
+        "opóźniony"
+      ],
+      "explain": "Opóźniony is built from a verb but behaves like an adjective, so it agrees with pociąg — masculine, and unchanged after jest.",
+      "note": "Pisanie hard cap. Capstone consistency rule: this is b2_travel_func's own type item 7, frame and blank unchanged."
+    },
+    {
+      "prompt_en": "The flight is cancelled.",
+      "mode": "cloze",
+      "answer": "odwołany",
+      "frame": "Lot jest ___.",
+      "accepts": [
+        "odwołany"
+      ],
+      "note": "Pisanie hard cap. Capstone consistency rule: b2_travel_func's own type item 8, frame and blank unchanged."
+    },
+    {
+      "prompt_en": "I have accommodation at the hotel.",
+      "mode": "cloze",
+      "answer": "nocleg",
+      "frame": "Mam ___ w hotelu.",
+      "accepts": [
+        "nocleg"
+      ],
+      "note": "Pisanie hard cap. Composed, 4 words. Capstone consistency rule applied as far as it goes: b2_travel_func types nocleg as a bare form, so the blank falls on the same word, inside the frame this pack's match board uses."
+    },
+    {
+      "prompt_en": "I think the results are good.",
+      "mode": "cloze",
+      "answer": "Uważam",
+      "frame": "___, że wyniki są dobre.",
+      "accepts": [
+        "Uważam",
+        "uważam"
+      ],
+      "explain": "Uważam, że… puts what follows forward as your own view rather than as a fact, and Polish always writes the comma before że.",
+      "note": "Pisanie hard cap. Composed, 5 words. Capstone consistency rule: b2_discussion_func's own type item 8 is ___, że kawa jest dobra with the blank on Uważam; the blank is kept and the clause is recombined onto this pack's health chunk, which is what a capstone is for. Quarantine held: uważam stays first person only."
+    },
+    {
+      "prompt_en": "It depends.",
+      "mode": "full_word",
+      "answer": "To zależy.",
+      "accepts": [
+        "To zależy.",
+        "To zależy"
+      ]
+    },
+    {
+      "prompt_en": "I think so.",
+      "mode": "full_word",
+      "answer": "Chyba tak.",
+      "accepts": [
+        "Chyba tak.",
+        "Chyba tak"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I have a new full-time post, but I have overtime.",
+      "answer": "Mam nowy etat, ale mam nadgodziny.",
+      "accepts": [
+        "Mam nowy etat, ale mam nadgodziny.",
+        "Mam nowy etat, ale mam nadgodziny"
+      ]
+    },
+    {
+      "prompt_en": "Type: I think the conversation was good.",
+      "answer": "Uważam, że rozmowa była dobra.",
+      "accepts": [
+        "Uważam, że rozmowa była dobra.",
+        "Uważam, że rozmowa była dobra"
+      ],
+      "explain": "The opinion frame takes the work chunk whole — nothing inside it changes, że just joins it on."
+    },
+    {
+      "prompt_en": "Type: I have a referral. Where is the reception desk?",
+      "answer": "Mam skierowanie. Gdzie jest rejestracja?",
+      "accepts": [
+        "Mam skierowanie. Gdzie jest rejestracja?"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Are the results good? — I think so.",
+      "answer": "— Czy wyniki są dobre? — Chyba tak.",
+      "accepts": [
+        "— Czy wyniki są dobre? — Chyba tak.",
+        "Czy wyniki są dobre? Chyba tak.",
+        "- Czy wyniki są dobre? - Chyba tak."
+      ]
+    },
+    {
+      "prompt_en": "Type: The train is delayed, and the flight is cancelled.",
+      "answer": "Pociąg jest opóźniony, a lot jest odwołany.",
+      "accepts": [
+        "Pociąg jest opóźniony, a lot jest odwołany.",
+        "Pociąg jest opóźniony, a lot jest odwołany"
+      ]
+    },
+    {
+      "prompt_en": "Type: The flight is cancelled, but I have accommodation at the hotel.",
+      "answer": "Lot jest odwołany, ale mam nocleg w hotelu.",
+      "accepts": [
+        "Lot jest odwołany, ale mam nocleg w hotelu.",
+        "Lot jest odwołany, ale mam nocleg w hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type the exchange: — Do you have overtime? — It depends.",
+      "answer": "— Czy masz nadgodziny? — To zależy.",
+      "accepts": [
+        "— Czy masz nadgodziny? — To zależy.",
+        "Czy masz nadgodziny? To zależy.",
+        "- Czy masz nadgodziny? - To zależy."
+      ]
+    },
+    {
+      "prompt_en": "Type: I think the results are good.",
+      "answer": "Uważam, że wyniki są dobre.",
+      "accepts": [
+        "Uważam, że wyniki są dobre.",
+        "Uważam, że wyniki są dobre"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a new full-time post, and the results are good.",
+      "answer": "Mam nowy etat, a wyniki są dobre.",
+      "accepts": [
+        "Mam nowy etat, a wyniki są dobre.",
+        "Mam nowy etat, a wyniki są dobre"
+      ]
+    },
+    {
+      "prompt_en": "Type the whole day: The conversation was good. I have a new full-time post, but I have overtime. The train is delayed, and the flight is cancelled. I have accommodation at the hotel. I have a referral. Where is the reception desk? The results are good. I think the conversation was good.",
+      "answer": "Rozmowa była dobra. Mam nowy etat, ale mam nadgodziny. Pociąg jest opóźniony, a lot jest odwołany. Mam nocleg w hotelu. Mam skierowanie. Gdzie jest rejestracja? Wyniki są dobre. Uważam, że rozmowa była dobra.",
+      "accepts": [
+        "Rozmowa była dobra. Mam nowy etat, ale mam nadgodziny. Pociąg jest opóźniony, a lot jest odwołany. Mam nocleg w hotelu. Mam skierowanie. Gdzie jest rejestracja? Wyniki są dobre. Uważam, że rozmowa była dobra."
+      ],
+      "explain": "Twelve chunks, four registers — the whole capstone in one telling. Every piece of it you already had before today."
+    }
+  ],
+  "uses_lemmas": [
+    "mam",
+    "masz",
+    "nowy",
+    "etat",
+    "nadgodziny",
+    "rozmowa",
+    "była",
+    "dobra",
+    "skierowanie",
+    "wyniki",
+    "są",
+    "dobre",
+    "gdzie",
+    "jest",
+    "rejestracja",
+    "pociąg",
+    "opóźniony",
+    "lot",
+    "odwołany",
+    "nocleg",
+    "hotelu",
+    "w hotelu",
+    "uważam",
+    "uważam, że",
+    "że",
+    "to zależy",
+    "to",
+    "zależy",
+    "chyba tak",
+    "chyba",
+    "tak",
+    "czy",
+    "ale",
+    "a",
+    "praca",
+    "zdrowie",
+    "podróż",
+    "dzień"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_wrapup",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

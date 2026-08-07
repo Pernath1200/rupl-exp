@@ -1,0 +1,766 @@
+{
+  "id": "c1_society",
+  "title": "Społeczeństwo i środowisko",
+  "title_en": "Society, values & environment",
+  "level": "C1",
+  "tree_node": "c1_society",
+  "default_direction": "en_to_pl",
+  "note": "C1 Block 4 vocab (C1-SPINE O8). TWELVE NEW WORDS, every one re-verified NEW with check_new.py against the 194-node pool at this node's own path position rather than inherited from the spine: spoleczenstwo, srodowisko, wartosc, korzysc, wolnosc, sprawiedliwosc, prawo (in its legal sense - see the homograph note), obowiazki, nauka, technologia, rzad, klimat. Three extra taught forms ride along, per AGENTS' every-form-taught rule: nauke and technologie (the -a to -e accusative owned since a1_miec) and wazne.\n\nTHE SPINE LISTED NINE AND SAID TRIM TO 12, so this pack had to ADD three rather than drop any - the opposite problem from b2_abstract and c1_evaluation. Its instruction was 'top up from b2_abstract's note before inventing candidates', and that note was read: its four logged drops are korzysc, wartosc, spoleczenstwo and srodowisko, and ALL FOUR are already in the spine's nine, so the note had nothing left to give. The three additions are therefore the author's, and are logged: rzad (the government - the one word without which none of society's other eleven can be discussed), prawo (the law), and klimat (the climate - the environment half of the register was carrying only one word, srodowisko). Rejected: panstwo, polityka, wladza, wojna, rownosc, bezpieczenstwo, natura, rozwoj - all verified NEW and all available to a later pack that never comes, which is the cost R3 accepted.\n\nprawo IS THE HOMOGRAPH AND C1-SPINE O13 PREDICTED IT. prawo is TAUGHT <- leaf_places [31] and a2_directions_func, but ONLY inside na prawo / w prawo, 'to the right'. The legal sense is a different word wearing the same spelling, and it is opened here the way the course has opened ze, ktorej and dziekuje: named out loud on the item, with both senses side by side, rather than left for the learner to mis-file. It is listed in teaches_lemmas even though the string is already in the pool - that is deliberate and is the one place this pack knowingly re-teaches a taught string, because what is taught is a new word, not a new form.\n\nFOUR OF THE TWELVE ARE -osc FEMININES and that is the pack's one free grammatical fact, given rather than derived: wartosc, korzysc, wolnosc, sprawiedliwosc join mozliwosc (b2_abstract), wiadomosc, umiejetnosc, przyszlosc and czesc, which the learner already owns. EVERY noun in -osc is feminine - the mysz/noc soft-feminine trap AGENTS names, but with a visible ending that gives it away every time - AND it does not change in the Accusative, so Ma duza wartosc uses the dictionary form. Both facts are stated on the items, and neither is a rule the learner has to apply: the ending does the work.\n\nTHREE WORDS HAVE A LEXICAL ANCHOR ALREADY IN THE COURSE and are given it rather than an icon: nauka <- naukowiec and nauki scisle (leaf_school_a1 [29]); wolnosc <- wolny (leaf_freetime_a1 [21], 'free, not busy'); korzysc <- zaleta (b2_abstract [152], 'an advantage'), which is the nearest thing the learner owns and is named as near-but-not-identical rather than as a synonym. klimat is anchored against pogoda, which it is NOT: pogoda is today, klimat is the pattern. The other eight carry an icon.\n\nobowiazki IS TAUGHT WHOLE AND NO RULE IS STATED. obowiazek is TAUGHT <- b2_work [138]; its plural drops the fleeting e (obowiazek -> obowiazk- + i). b2_gen_pl_full refused to state a fleeting-e rule and that refusal stands - the item says the e disappears when the ending arrives and to learn the plural whole, which is a fact about one word, not a rule to apply.\n\nFENCED, all verified and appearing nowhere: no GENITIVE of any new noun (b2_abstract's own fence, held for the same reason - it would have cost the natural Nie ma sprawiedliwosci, and the soft-feminine genitive -osci belongs to c1_gen_verbs, which the spine gives racji); no locative or dative of any new noun; no plural of any new noun except obowiazki, which has no singular in this sense; rzadu and rozwoju are not used, so the o/o alternation and the fleeting vowel in rzad are never met; wazna and wazny are recycled, only the neuter/non-virile wazne is new. NA + ACCUSATIVE APPEARS NOWHERE, which is the sharpest fence in the pack: mieć wplyw na spoleczenstwo, wplyw na srodowisko and Technologia ma wplyw na ludzi are the natural collocations for half these words and every one of them is one node early - c1_na_acc [204] is the very next unit on the path. mozliwa was wanted for 'Czy sprawiedliwosc jest mozliwa?' and refused: c1_evaluation fenced it by name and one sentence is not worth breaking a neighbouring pack's stated scope.\n\nSTRUCTURE RECYCLING IS WIDE, per the vocab-pack rule. The 29 sentences reach across to_jest, ten_ta_to, byc_adj and zgoda, miec_acc and adj_acc, plural_nom, ze_clauses, reported, indirect_q, wiedziec, jesli with the existential future, gdyby with the singular conditional, powinien with a dative plural, comparative, question - and suppl_pl, taught one node earlier, which gets used actively in Dzieci maja obowiazki. That is the AGENTS gyms rule's named default recycling mechanism doing its job one node after the unit.\n\nTITLE: the planned tree label 'Spoleczenstwo i srodowisko' was re-run through check_new.py at the wire per C1-SPINE's build protocol and STANDS UNCHANGED - both nouns are taught BY THIS PACK, which is the c1_evaluation and c1_adj_pl_gen precedent, and i has been owned since A1.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "ten_ta_to",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "adj_acc",
+    "plural_nom",
+    "suppl_pl",
+    "negation",
+    "question",
+    "questions2",
+    "conjunctions",
+    "comparative",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "ze_clauses",
+    "reported",
+    "indirect_q",
+    "wiedziec",
+    "jesli",
+    "gdyby",
+    "conditional_sg",
+    "copular_future",
+    "existential_tense",
+    "powinien",
+    "can_inf",
+    "dat_pl",
+    "prep_w_loc"
+  ],
+  "blocks": [
+    {
+      "id": "society_c1_words",
+      "title": "Society, values and the environment · new words",
+      "items": [
+        {
+          "en": "society",
+          "pl": "społeczeństwo",
+          "gender": "n",
+          "icon": "🏙"
+        },
+        {
+          "en": "the environment",
+          "pl": "środowisko",
+          "gender": "n",
+          "icon": "🌱"
+        },
+        {
+          "en": "a value (what it is worth; also a principle)",
+          "pl": "wartość",
+          "gender": "f",
+          "icon": "💎",
+          "explain": "One of the -ość family, with możliwość, wiadomość, umiejętność and przyszłość. Every Polish noun in -ość is feminine, and none of them changes in the Accusative — Ma dużą wartość uses the dictionary form."
+        },
+        {
+          "en": "a benefit, a gain",
+          "pl": "korzyść",
+          "gender": "f",
+          "icon": "👍",
+          "explain": "Close to zaleta, an advantage, but not the same: a zaleta is a good quality something has, a korzyść is what you get out of it. Also an -ość noun, so feminine and unchanged in the Accusative."
+        },
+        {
+          "en": "freedom",
+          "pl": "wolność",
+          "gender": "f",
+          "icon": "🕊",
+          "explain": "The noun belonging to wolny, which you know from wolny stolik — a free table. Same word, made abstract."
+        },
+        {
+          "en": "justice, fairness",
+          "pl": "sprawiedliwość",
+          "gender": "f",
+          "icon": "⚖"
+        },
+        {
+          "en": "the law",
+          "pl": "prawo",
+          "gender": "n",
+          "icon": "📜",
+          "explain": "Careful — you already know this exact word in a completely different job: na prawo, w prawo, to the right. Two words, one spelling. Nothing links them, and only the sentence tells you which is meant."
+        },
+        {
+          "en": "duties, responsibilities (always plural)",
+          "pl": "obowiązki",
+          "gender": "pl",
+          "icon": "📋",
+          "explain": "The plural of obowiązek, a duty, which you have had since B2. The e in the middle disappears once an ending arrives — learn the plural whole rather than building it."
+        },
+        {
+          "en": "science; also learning, study",
+          "pl": "nauka",
+          "gender": "f",
+          "icon": "🔬",
+          "explain": "The word behind naukowiec, a scientist, and nauki ścisłe, the exact sciences — both of which you have had since A1."
+        },
+        {
+          "en": "technology",
+          "pl": "technologia",
+          "gender": "f",
+          "icon": "💻"
+        },
+        {
+          "en": "the government",
+          "pl": "rząd",
+          "gender": "m",
+          "icon": "🏛"
+        },
+        {
+          "en": "the climate",
+          "pl": "klimat",
+          "gender": "m",
+          "icon": "🌡",
+          "explain": "Not pogoda. pogoda is what it is doing today; klimat is what it does year after year."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Science is difficult.",
+      "pl": "Nauka jest trudna.",
+      "accepts": [
+        "Nauka jest trudna.",
+        "Nauka jest trudna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "nauka",
+        "trudna"
+      ]
+    },
+    {
+      "en": "The scientist loves science.",
+      "pl": "Naukowiec kocha naukę.",
+      "accepts": [
+        "Naukowiec kocha naukę.",
+        "Naukowiec kocha naukę"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "naukę",
+        "naukowiec"
+      ],
+      "explain": "The object, so the Accusative: nauka becomes naukę, the same -a to -ę swap you have made since A1."
+    },
+    {
+      "en": "Technology is new.",
+      "pl": "Technologia jest nowa.",
+      "accepts": [
+        "Technologia jest nowa.",
+        "Technologia jest nowa"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "technologia",
+        "nowa"
+      ]
+    },
+    {
+      "en": "I like new technology.",
+      "pl": "Lubię nową technologię.",
+      "accepts": [
+        "Lubię nową technologię.",
+        "Lubię nową technologię"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc",
+        "adj_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "technologię",
+        "nową"
+      ]
+    },
+    {
+      "en": "I think technology is good.",
+      "pl": "Myślę, że technologia jest dobra.",
+      "accepts": [
+        "Myślę, że technologia jest dobra.",
+        "Myślę, że technologia jest dobra"
+      ],
+      "structures": [
+        "ze_clauses",
+        "present_e_isz",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "technologia",
+        "dobra"
+      ]
+    },
+    {
+      "en": "People, work and culture — that is society.",
+      "pl": "Ludzie, praca i kultura — to jest społeczeństwo.",
+      "accepts": [
+        "Ludzie, praca i kultura — to jest społeczeństwo.",
+        "Ludzie, praca i kultura — to jest społeczeństwo"
+      ],
+      "structures": [
+        "to_jest",
+        "conjunctions",
+        "plural_nom"
+      ],
+      "lemmas": [
+        "społeczeństwo",
+        "ludzie",
+        "praca",
+        "kultura"
+      ]
+    },
+    {
+      "en": "Society has a problem.",
+      "pl": "Społeczeństwo ma problem.",
+      "accepts": [
+        "Społeczeństwo ma problem.",
+        "Społeczeństwo ma problem"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "społeczeństwo",
+        "problem"
+      ]
+    },
+    {
+      "en": "Nature and fresh air — that is the environment.",
+      "pl": "Przyroda i świeże powietrze — to jest środowisko.",
+      "accepts": [
+        "Przyroda i świeże powietrze — to jest środowisko.",
+        "Przyroda i świeże powietrze — to jest środowisko"
+      ],
+      "structures": [
+        "to_jest",
+        "conjunctions"
+      ],
+      "lemmas": [
+        "środowisko",
+        "przyroda",
+        "świeże powietrze"
+      ]
+    },
+    {
+      "en": "The environment is important.",
+      "pl": "Środowisko jest ważne.",
+      "accepts": [
+        "Środowisko jest ważne.",
+        "Środowisko jest ważne"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "środowisko",
+        "ważne"
+      ],
+      "explain": "środowisko is neuter, so ważny arrives as ważne — the same agreement you have made since A1."
+    },
+    {
+      "en": "Is the environment all right?",
+      "pl": "Czy środowisko jest dobre?",
+      "accepts": [
+        "Czy środowisko jest dobre?",
+        "Czy środowisko jest dobre",
+        "Środowisko jest dobre?",
+        "Środowisko jest dobre"
+      ],
+      "structures": [
+        "question",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "środowisko",
+        "dobre"
+      ]
+    },
+    {
+      "en": "Today the weather is bad, but the climate is good.",
+      "pl": "Dzisiaj pogoda jest zła, ale klimat jest dobry.",
+      "accepts": [
+        "Dzisiaj pogoda jest zła, ale klimat jest dobry.",
+        "Dzisiaj pogoda jest zła, ale klimat jest dobry"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "conjunctions"
+      ],
+      "lemmas": [
+        "klimat",
+        "pogoda",
+        "zła",
+        "dobry"
+      ],
+      "explain": "The whole point of the word in one sentence: pogoda is this afternoon, klimat is the pattern behind it."
+    },
+    {
+      "en": "I don't know whether the climate is good.",
+      "pl": "Nie wiem, czy klimat jest dobry.",
+      "accepts": [
+        "Nie wiem, czy klimat jest dobry.",
+        "Nie wiem, czy klimat jest dobry"
+      ],
+      "structures": [
+        "indirect_q",
+        "wiedziec",
+        "negation",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "klimat",
+        "dobry"
+      ]
+    },
+    {
+      "en": "The government has a new plan.",
+      "pl": "Rząd ma nowy plan.",
+      "accepts": [
+        "Rząd ma nowy plan.",
+        "Rząd ma nowy plan"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "adj_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rząd",
+        "plan",
+        "nowy"
+      ]
+    },
+    {
+      "en": "I don't know what the government is doing.",
+      "pl": "Nie wiem, co robi rząd.",
+      "accepts": [
+        "Nie wiem, co robi rząd.",
+        "Nie wiem, co robi rząd"
+      ],
+      "structures": [
+        "indirect_q",
+        "wiedziec",
+        "negation",
+        "present_e_isz"
+      ],
+      "lemmas": [
+        "rząd",
+        "robi"
+      ]
+    },
+    {
+      "en": "Dad said that the government is new.",
+      "pl": "Tata powiedział, że rząd jest nowy.",
+      "accepts": [
+        "Tata powiedział, że rząd jest nowy.",
+        "Tata powiedział, że rząd jest nowy"
+      ],
+      "structures": [
+        "reported",
+        "ze_clauses",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rząd",
+        "tata",
+        "nowy"
+      ]
+    },
+    {
+      "en": "The government should help people.",
+      "pl": "Rząd powinien pomagać ludziom.",
+      "accepts": [
+        "Rząd powinien pomagać ludziom.",
+        "Rząd powinien pomagać ludziom"
+      ],
+      "structures": [
+        "powinien",
+        "can_inf",
+        "dat_pl"
+      ],
+      "lemmas": [
+        "rząd",
+        "ludziom",
+        "pomagać"
+      ],
+      "explain": "pomagać chooses the Dative, and ludzie is one of the four nouns whose plural runs on its own stem: ludziom."
+    },
+    {
+      "en": "This is a new law.",
+      "pl": "To jest nowe prawo.",
+      "accepts": [
+        "To jest nowe prawo.",
+        "To jest nowe prawo"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prawo",
+        "nowe"
+      ]
+    },
+    {
+      "en": "The law is important.",
+      "pl": "Prawo jest ważne.",
+      "accepts": [
+        "Prawo jest ważne.",
+        "Prawo jest ważne"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prawo",
+        "ważne"
+      ],
+      "explain": "Nothing to do with na prawo, to the right. Two different words that happen to be spelled the same."
+    },
+    {
+      "en": "This law is better.",
+      "pl": "To prawo jest lepsze.",
+      "accepts": [
+        "To prawo jest lepsze.",
+        "To prawo jest lepsze"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "comparative",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prawo",
+        "lepsze"
+      ]
+    },
+    {
+      "en": "Freedom is important.",
+      "pl": "Wolność jest ważna.",
+      "accepts": [
+        "Wolność jest ważna.",
+        "Wolność jest ważna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wolność",
+        "ważna"
+      ],
+      "explain": "wolność is feminine — every -ość noun is — so ważna, not ważny."
+    },
+    {
+      "en": "Is that justice?",
+      "pl": "Czy to jest sprawiedliwość?",
+      "accepts": [
+        "Czy to jest sprawiedliwość?",
+        "Czy to jest sprawiedliwość",
+        "To jest sprawiedliwość?",
+        "To jest sprawiedliwość"
+      ],
+      "structures": [
+        "question",
+        "to_jest"
+      ],
+      "lemmas": [
+        "sprawiedliwość"
+      ]
+    },
+    {
+      "en": "Freedom and justice are important.",
+      "pl": "Wolność i sprawiedliwość są ważne.",
+      "accepts": [
+        "Wolność i sprawiedliwość są ważne.",
+        "Wolność i sprawiedliwość są ważne"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "plural_nom",
+        "conjunctions"
+      ],
+      "lemmas": [
+        "wolność",
+        "sprawiedliwość",
+        "ważne"
+      ],
+      "explain": "Two things, neither of them a group of men, so the adjective takes the non-virile plural -e."
+    },
+    {
+      "en": "This book has great value.",
+      "pl": "Ta książka ma dużą wartość.",
+      "accepts": [
+        "Ta książka ma dużą wartość.",
+        "Ta książka ma dużą wartość"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "miec_present",
+        "miec_acc",
+        "adj_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wartość",
+        "książka",
+        "dużą"
+      ],
+      "explain": "The adjective moves into the Accusative — dużą — and the noun does not move at all. No -ość noun does."
+    },
+    {
+      "en": "That is a benefit, not a drawback.",
+      "pl": "To jest korzyść, nie wada.",
+      "accepts": [
+        "To jest korzyść, nie wada.",
+        "To jest korzyść, nie wada"
+      ],
+      "structures": [
+        "to_jest",
+        "negation"
+      ],
+      "lemmas": [
+        "korzyść",
+        "wada"
+      ]
+    },
+    {
+      "en": "I think that is a big benefit.",
+      "pl": "Myślę, że to jest duża korzyść.",
+      "accepts": [
+        "Myślę, że to jest duża korzyść.",
+        "Myślę, że to jest duża korzyść"
+      ],
+      "structures": [
+        "ze_clauses",
+        "present_e_isz",
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "korzyść",
+        "duża"
+      ]
+    },
+    {
+      "en": "I have new responsibilities at work.",
+      "pl": "Mam nowe obowiązki w pracy.",
+      "accepts": [
+        "Mam nowe obowiązki w pracy.",
+        "Mam nowe obowiązki w pracy"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "adj_acc",
+        "zgoda",
+        "plural_nom",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "obowiązki",
+        "nowe",
+        "w pracy"
+      ]
+    },
+    {
+      "en": "Children have responsibilities too.",
+      "pl": "Dzieci też mają obowiązki.",
+      "accepts": [
+        "Dzieci też mają obowiązki.",
+        "Dzieci też mają obowiązki"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "plural_nom",
+        "suppl_pl"
+      ],
+      "lemmas": [
+        "obowiązki",
+        "dzieci",
+        "też"
+      ]
+    },
+    {
+      "en": "If the government is good, there will be justice.",
+      "pl": "Jeśli rząd będzie dobry, będzie sprawiedliwość.",
+      "accepts": [
+        "Jeśli rząd będzie dobry, będzie sprawiedliwość.",
+        "Jeśli rząd będzie dobry, będzie sprawiedliwość"
+      ],
+      "structures": [
+        "jesli",
+        "copular_future",
+        "existential_tense",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rząd",
+        "sprawiedliwość"
+      ],
+      "explain": "Two different jobs for będzie in one sentence: first saying what the government will be like, then simply saying that something will exist."
+    },
+    {
+      "en": "If I had freedom, I'd like to live in Poland.",
+      "pl": "Gdybym miał wolność, chciałbym mieszkać w Polsce.",
+      "accepts": [
+        "Gdybym miał wolność, chciałbym mieszkać w Polsce.",
+        "Gdybym miał wolność, chciałbym mieszkać w Polsce"
+      ],
+      "structures": [
+        "gdyby",
+        "conditional_sg",
+        "can_inf",
+        "prep_w_loc",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wolność",
+        "mieszkać",
+        "w polsce"
+      ],
+      "explain": "wolność in the object slot, and it has not changed — the Accusative of an -ość noun is its dictionary form."
+    }
+  ],
+  "teaches_lemmas": [
+    "społeczeństwo",
+    "środowisko",
+    "wartość",
+    "korzyść",
+    "wolność",
+    "sprawiedliwość",
+    "prawo",
+    "obowiązki",
+    "nauka",
+    "naukę",
+    "technologia",
+    "technologię",
+    "rząd",
+    "klimat",
+    "ważne"
+  ],
+  "uses_lemmas": [
+    "naukowiec",
+    "nauki ścisłe",
+    "przyroda",
+    "świeże powietrze",
+    "pogoda",
+    "ludzie",
+    "ludziom",
+    "dzieci",
+    "praca",
+    "w pracy",
+    "kultura",
+    "książka",
+    "problem",
+    "plan",
+    "wada",
+    "zaleta",
+    "możliwość",
+    "obowiązek",
+    "tata",
+    "wolny",
+    "wolny stolik",
+    "w polsce",
+    "to",
+    "ta",
+    "nowy",
+    "nowa",
+    "nową",
+    "nowe",
+    "dobry",
+    "dobra",
+    "dobre",
+    "duża",
+    "dużą",
+    "trudna",
+    "ważny",
+    "ważna",
+    "zła",
+    "lepsze",
+    "jest",
+    "są",
+    "mam",
+    "ma",
+    "mają",
+    "miał",
+    "będzie",
+    "robi",
+    "kocha",
+    "lubię",
+    "myślę",
+    "powinien",
+    "pomagać",
+    "mieszkać",
+    "powiedział",
+    "chciałbym",
+    "gdybym",
+    "wiem",
+    "nie wiem",
+    "czy",
+    "co",
+    "że",
+    "jeśli",
+    "ale",
+    "i",
+    "nie",
+    "też",
+    "dzisiaj",
+    "przyszłość",
+    "wiadomość",
+    "umiejętność",
+    "część"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_society",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

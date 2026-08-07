@@ -1,0 +1,459 @@
+{
+  "id": "b1_virile_past",
+  "title": "Oni byli · one były",
+  "title_en": "They were: oni vs one",
+  "level": "B1",
+  "tree_node": "b1_virile_past",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Block 4, unit 3/3 (B1-SPINE.md decision #1) -- closes the virile block. The -li/-ly split itself is NOT new: a2_past_plural already taught byli/byly, mieszkali/mieszkaly, robili/robily on 'name i name' compound subjects (mama i tata). What is new, per the spine's own wording ('the full agreement system... teaches oni/one at last'), is twofold and kept as ONE lesson because both halves are the same fact seen from two directions: (1) the pronouns oni ('they', a group with a man) and one ('they', women only / things) -- fenced by name in B1-SPINE.md's standing fences until exactly this unit, untaught anywhere before it (verified: check_new.py oni one -> both NEW); (2) the same -li/-ly choice now reads directly off a REAL virile-plural NOUN subject built by the previous two units (ci studenci, ci lekarze, te kobiety, te cordki) instead of always needing a 'name i name' workaround -- the noun's own ci/te marking already told you which ending the verb needs, so subject and verb simply agree, which is what 'real grammar' means here. ONE new verb spread to the plural past, exactly as the spine's own worked example names it ('oni byli/pracowali'): pracowac was known in present (present_uje) and singular past (a2_past_ac's pattern) but never in the plural -- pracowali/pracowaly are produced here by applying the ALREADY-TAUGHT past_plural rule (drop -l, add -li/-ly, per a2_past_plural) to a verb that rule had not yet been shown on. No second new verb added, to keep the load to the one genuinely new thing (oni/one migrating from 0 uses to real subject position) rather than turning this into a vocabulary-heavy unit. VIRILE NOUNS: none are re-taught here -- studenci, lekarze, pracownicy, kelnerzy (b1_virile_reco) and pacjenci, klienci, artysci, rolnicy, anglicy, goscie, kibice, przyjaciele (b1_virile_nom) are all recycled as whole, already-taught forms, used only as verb subjects, never re-derived. dobrzy (b1_virile_reco) is the only virile adjective in the whole course so far and is reused once, in predicate position (Ci lekarze byli dobrzy) -- no other adjective's virile plural form (zmeczeni, mali, duzi etc.) appears anywhere in this file; that scope decision was already made and logged in b1_virile_nom's note and stands. NON-VIRILE CONTRAST: kobiety (b1_virile_reco) and cordki, domy, nowe (a2_plural_nom) supply the te/one/-ly side so every virile example has a same-shape non-virile twin one row away. Checked cordki specifically against AGENTS.md's homograph table before use: it is taught in a2_plural_nom as a NOMINATIVE PLURAL ('daughters'), and every use here is nominative-plural subject position -- same sense, not the genitive-singular trap the table warns about. STAGE DESIGN: Uzycie items all carry a noun subject (ci studenci, te kobiety...), never a bare pronoun+verb, per the stage contract's pro-drop-degenerate rule -- oni/one themselves are drilled at the word level only in Pisanie (the minimal-pattern stage), never as a stand-alone Uzycie sentence. Every Polish string in every stage checked individually against check_new.py / the running pool before this file was finalized; 'restauracji' was considered for a use-item location and DROPPED because the locative form was not confirmed taught anywhere on the path -- swapped for the safe, repeatedly-taught 'w domu' instead rather than silently introducing an untaught case form. FENCED, absent from this file: any adjective virile form beyond dobrzy, any noun beyond the fourteen already-taught virile plurals and the four already-taught non-virile ones named above, the perfective future, the conditional, b1_conditional_pl's plural conditional (which is explicitly gated to sit AFTER this unit on the spine, since it inherits this unit's -li/-ly system).",
+  "focus_structures": [
+    "virile_past"
+  ],
+  "teaches_structures": [
+    "virile_past"
+  ],
+  "uses_structures": [
+    "virile_past",
+    "past_plural",
+    "past_byc",
+    "past_ac",
+    "virile_nom",
+    "virile_reco",
+    "plural_nom",
+    "ten_ta_to",
+    "zgoda",
+    "byc_adj",
+    "byc_present",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "Two new words: oni and one",
+      "title_pl": "Dwa nowe słowa: oni i one",
+      "body": "You already know the split — a group with a man takes -li, everything else takes -ły. Now you get the two pronouns that name each side of that split: oni for 'they' when there's a man in the group, one for 'they' when there isn't (women only, or things).",
+      "body_pl": "oni = grupa z mężczyzną. one = same kobiety albo rzeczy.",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "Means",
+          "Used for"
+        ],
+        "rows": [
+          [
+            "oni",
+            "they",
+            "a group with at least one man"
+          ],
+          [
+            "one",
+            "they",
+            "women only · or things"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "They were at home. (a group with a man)",
+          "pl": "Oni byli w domu."
+        },
+        {
+          "en": "They were at home. (women only)",
+          "pl": "One były w domu."
+        }
+      ]
+    },
+    {
+      "title": "The noun already told you",
+      "title_pl": "Rzeczownik już to mówi",
+      "body": "You've been reading ci vs te for two units now. Here's the payoff: the same marker that tells you ci or te also tells you -li or -ły on the verb. No new decision — you already made it when you chose the noun.",
+      "body_pl": "ci → -li. te → -ły. Ta sama decyzja, dwa razy.",
+      "table": {
+        "headers": [
+          "Subject",
+          "Marker",
+          "Verb ending"
+        ],
+        "rows": [
+          [
+            "ci lekarze — these doctors",
+            "ci (virile)",
+            "byli"
+          ],
+          [
+            "te kobiety — these women",
+            "te (not virile)",
+            "były"
+          ],
+          [
+            "te domy — these houses",
+            "te (not virile)",
+            "były"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These doctors were good.",
+          "pl": "Ci lekarze byli dobrzy."
+        },
+        {
+          "en": "These women were at the bank.",
+          "pl": "Te kobiety były w banku."
+        }
+      ]
+    },
+    {
+      "title": "The rule reaches a new verb: pracować",
+      "title_pl": "Ta sama zasada, nowy czasownik",
+      "body": "You know pracował (he worked). The plural past never keeps -ł — it swaps in -li or -ły, exactly like it did for być, mieszkać and robić. Nothing new about the move, just a verb that hasn't had it done to it yet.",
+      "body_pl": "pracował → pracowa- → pracowali / pracowały.",
+      "table": {
+        "headers": [
+          "Known",
+          "with a man (NEW)",
+          "women only / things (NEW)"
+        ],
+        "rows": [
+          [
+            "pracował — he worked",
+            "pracowali",
+            "pracowały"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "These students worked a lot.",
+          "pl": "Ci studenci pracowali dużo."
+        },
+        {
+          "en": "These women worked a lot.",
+          "pl": "Te kobiety pracowały dużo."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "they were (a group with a man)",
+      "pl": "oni byli"
+    },
+    {
+      "en": "they were (women only, or things)",
+      "pl": "one były"
+    },
+    {
+      "en": "they worked (a group with a man)",
+      "pl": "oni pracowali"
+    },
+    {
+      "en": "they worked (women only, or things)",
+      "pl": "one pracowały"
+    },
+    {
+      "en": "they lived (a group with a man)",
+      "pl": "oni mieszkali"
+    },
+    {
+      "en": "they lived (women only, or things)",
+      "pl": "one mieszkały"
+    },
+    {
+      "en": "they were doing (a group with a man)",
+      "pl": "oni robili"
+    },
+    {
+      "en": "they were doing (women only, or things)",
+      "pl": "one robiły"
+    },
+    {
+      "en": "these students worked",
+      "pl": "ci studenci pracowali"
+    },
+    {
+      "en": "these doctors were",
+      "pl": "ci lekarze byli"
+    },
+    {
+      "en": "these women worked",
+      "pl": "te kobiety pracowały"
+    },
+    {
+      "en": "these daughters lived",
+      "pl": "te córki mieszkały"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ byli w domu. (they — a group with a man)",
+      "choices": [
+        "Oni",
+        "One",
+        "Ona",
+        "On"
+      ],
+      "answer": "Oni",
+      "explain": "oni pairs with -li — a group with at least one man."
+    },
+    {
+      "prompt": "___ były w domu. (they — women only)",
+      "choices": [
+        "One",
+        "Oni",
+        "Ono",
+        "Ona"
+      ],
+      "answer": "One",
+      "explain": "one pairs with -ły — no man in the group."
+    },
+    {
+      "prompt": "Ci studenci ___ dużo. (worked)",
+      "choices": [
+        "pracowali",
+        "pracowały",
+        "pracował",
+        "pracowała"
+      ],
+      "answer": "pracowali",
+      "explain": "studenci is virile (ci), so the verb takes -li: pracowali."
+    },
+    {
+      "prompt": "Te kobiety ___ dużo. (worked)",
+      "choices": [
+        "pracowały",
+        "pracowali",
+        "pracowała",
+        "pracował"
+      ],
+      "answer": "pracowały",
+      "explain": "kobiety is not virile (te), so the verb takes -ły: pracowały."
+    },
+    {
+      "prompt": "Ci lekarze byli ___. (good)",
+      "choices": [
+        "dobrzy",
+        "dobra",
+        "dobre",
+        "dobry"
+      ],
+      "answer": "dobrzy",
+      "explain": "dobrzy is the virile plural of dobry, recalled from the recognition unit — used here as a predicate after byli."
+    },
+    {
+      "prompt": "Ci goście ___ w domu. (were)",
+      "choices": [
+        "byli",
+        "były",
+        "był",
+        "była"
+      ],
+      "answer": "byli",
+      "explain": "goście is virile — the man in the group of guests makes it -li, same as any other virile plural."
+    },
+    {
+      "prompt": "Te córki ___ w mieście. (lived)",
+      "choices": [
+        "mieszkały",
+        "mieszkali",
+        "mieszkała",
+        "mieszkał"
+      ],
+      "answer": "mieszkały",
+      "explain": "córki (daughters) is a group of women only — not virile, so -ły."
+    },
+    {
+      "prompt": "Ci przyjaciele ___ obiad. (were making)",
+      "choices": [
+        "robili",
+        "robiły",
+        "robił",
+        "robiła"
+      ],
+      "answer": "robili",
+      "explain": "przyjaciele is virile (ci przyjaciele) — -li, same rule as byli and pracowali."
+    },
+    {
+      "prompt": "Te domy ___ nowe. (were)",
+      "choices": [
+        "były",
+        "byli",
+        "było",
+        "była"
+      ],
+      "answer": "były",
+      "explain": "Houses are never virile, however many — -ły, same as things always take."
+    },
+    {
+      "prompt": "Fix: Ci kibice były w domu. →",
+      "choices": [
+        "byli",
+        "były",
+        "był",
+        "była"
+      ],
+      "answer": "byli",
+      "explain": "kibice is virile (ci kibice) — the verb has to be byli, not były. The ci already decided it."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "they · pronoun (a group with a man)",
+      "mode": "full_word",
+      "answer": "oni",
+      "accepts": [
+        "oni"
+      ],
+      "explain": "oni is the pronoun for a virile group — the same 'at least one man' test you already use for ci."
+    },
+    {
+      "prompt_en": "they · pronoun (women only, or things)",
+      "mode": "full_word",
+      "answer": "one",
+      "accepts": [
+        "one"
+      ],
+      "explain": "one covers everything non-virile, same as te and -ły."
+    },
+    {
+      "prompt_en": "pracować · he worked → they worked (a group with a man)",
+      "mode": "full_word",
+      "answer": "pracowali",
+      "accepts": [
+        "pracowali"
+      ],
+      "explain": "pracował → pracowa- + li, the same swap you already know from być and mieszkać."
+    },
+    {
+      "prompt_en": "pracować · he worked → they worked (women only, or things)",
+      "mode": "full_word",
+      "answer": "pracowały",
+      "accepts": [
+        "pracowały"
+      ],
+      "explain": "pracował → pracowa- + ły."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These students worked at the bank.",
+      "answer": "Ci studenci pracowali w banku.",
+      "accepts": [
+        "Ci studenci pracowali w banku.",
+        "Ci studenci pracowali w banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These women worked at the bank.",
+      "answer": "Te kobiety pracowały w banku.",
+      "accepts": [
+        "Te kobiety pracowały w banku.",
+        "Te kobiety pracowały w banku"
+      ],
+      "explain": "Same sentence as the students, one ending apart — kobiety has no man, so -ły."
+    },
+    {
+      "prompt_en": "Type: These doctors were good.",
+      "answer": "Ci lekarze byli dobrzy.",
+      "accepts": [
+        "Ci lekarze byli dobrzy.",
+        "Ci lekarze byli dobrzy"
+      ]
+    },
+    {
+      "prompt_en": "Type: These daughters lived in the city.",
+      "answer": "Te córki mieszkały w mieście.",
+      "accepts": [
+        "Te córki mieszkały w mieście.",
+        "Te córki mieszkały w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These guests were at home.",
+      "answer": "Ci goście byli w domu.",
+      "accepts": [
+        "Ci goście byli w domu.",
+        "Ci goście byli w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: These friends were making dinner.",
+      "answer": "Ci przyjaciele robili obiad.",
+      "accepts": [
+        "Ci przyjaciele robili obiad.",
+        "Ci przyjaciele robili obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: These farmers worked a lot.",
+      "answer": "Ci rolnicy pracowali dużo.",
+      "accepts": [
+        "Ci rolnicy pracowali dużo.",
+        "Ci rolnicy pracowali dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: The houses were new.",
+      "answer": "Te domy były nowe.",
+      "accepts": [
+        "Te domy były nowe.",
+        "Te domy były nowe"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "oni",
+    "one",
+    "pracowali",
+    "pracowały"
+  ],
+  "uses_lemmas": [
+    "oni",
+    "one",
+    "pracowali",
+    "pracowały",
+    "byli",
+    "były",
+    "mieszkali",
+    "mieszkały",
+    "robili",
+    "robiły",
+    "studenci",
+    "lekarze",
+    "pracownicy",
+    "kelnerzy",
+    "pacjenci",
+    "klienci",
+    "artyści",
+    "rolnicy",
+    "anglicy",
+    "goście",
+    "kibice",
+    "przyjaciele",
+    "dobrzy",
+    "kobiety",
+    "córki",
+    "domy",
+    "nowe",
+    "w banku",
+    "w domu",
+    "w mieście",
+    "dużo",
+    "obiad"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_virile_past",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

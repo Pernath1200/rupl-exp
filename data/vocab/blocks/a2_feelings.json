@@ -1,0 +1,476 @@
+{
+  "id": "a2_feelings",
+  "title": "Uczucia i nastroje",
+  "title_en": "Feelings & moods",
+  "level": "A2",
+  "tree_node": "a2_feelings",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a2_past_byc / a2_past_ac / a2_past_rest / a2_time_past. A1 already taught szczęśliwy, smutny, zły (angry), zmęczony, chory, głodny, spragniony — those are ANCHORS here, never re-taught. This pack teaches 7 new feeling adjectives plus their feminine forms, and the payoff is the past+adjective combination: Byłem zmęczony / Byłam smutna. Adjectives take no gender badge (that field is for nouns). Singular only, imperfective only — no plural past.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda",
+    "byc_present",
+    "time_past_chunk",
+    "prep_w_loc",
+    "poss_nom",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "feelings_words",
+      "title": "Feelings · new words",
+      "items": [
+        {
+          "en": "cheerful",
+          "pl": "wesoły",
+          "icon": "😄"
+        },
+        {
+          "en": "calm",
+          "pl": "spokojny",
+          "icon": "😌"
+        },
+        {
+          "en": "nervous (worked up)",
+          "pl": "zdenerwowany",
+          "icon": "😰"
+        },
+        {
+          "en": "sleepy",
+          "pl": "śpiący",
+          "icon": "😴"
+        },
+        {
+          "en": "surprised",
+          "pl": "zaskoczony",
+          "icon": "😲"
+        },
+        {
+          "en": "proud",
+          "pl": "dumny"
+        },
+        {
+          "en": "lonely",
+          "pl": "samotny"
+        }
+      ]
+    },
+    {
+      "id": "feelings_past_mf",
+      "title": "Feelings · in the past (m / f)",
+      "items": [
+        {
+          "en": "I was cheerful (m)",
+          "pl": "byłem wesoły"
+        },
+        {
+          "en": "I was cheerful (f)",
+          "pl": "byłam wesoła"
+        },
+        {
+          "en": "I was calm (m)",
+          "pl": "byłem spokojny"
+        },
+        {
+          "en": "I was calm (f)",
+          "pl": "byłam spokojna"
+        },
+        {
+          "en": "I was nervous (m)",
+          "pl": "byłem zdenerwowany"
+        },
+        {
+          "en": "I was nervous (f)",
+          "pl": "byłam zdenerwowana"
+        },
+        {
+          "en": "I was sleepy (m)",
+          "pl": "byłem śpiący"
+        },
+        {
+          "en": "I was sleepy (f)",
+          "pl": "byłam śpiąca"
+        },
+        {
+          "en": "he was proud",
+          "pl": "był dumny"
+        },
+        {
+          "en": "she was proud",
+          "pl": "była dumna"
+        },
+        {
+          "en": "he was surprised",
+          "pl": "był zaskoczony"
+        },
+        {
+          "en": "she was surprised",
+          "pl": "była zaskoczona"
+        },
+        {
+          "en": "he was lonely",
+          "pl": "był samotny"
+        },
+        {
+          "en": "she was lonely",
+          "pl": "była samotna"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Today I'm cheerful. (m)",
+      "pl": "Dzisiaj jestem wesoły.",
+      "accepts": [
+        "Dzisiaj jestem wesoły.",
+        "Dzisiaj jestem wesoły",
+        "Jestem dzisiaj wesoły.",
+        "Jestem dzisiaj wesoły",
+        "Jestem wesoły dzisiaj.",
+        "Jestem wesoły dzisiaj"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wesoły"
+      ]
+    },
+    {
+      "en": "Yesterday I was cheerful. (m)",
+      "pl": "Wczoraj byłem wesoły.",
+      "accepts": [
+        "Wczoraj byłem wesoły.",
+        "Wczoraj byłem wesoły",
+        "Byłem wczoraj wesoły.",
+        "Byłem wczoraj wesoły",
+        "Byłem wesoły wczoraj.",
+        "Byłem wesoły wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wesoły"
+      ],
+      "explain": "Same sentence as yesterday's weather trick: swap jestem for byłem and the whole thing moves into the past. The adjective does not change for a man speaking."
+    },
+    {
+      "en": "Mum was cheerful.",
+      "pl": "Mama była wesoła.",
+      "accepts": [
+        "Mama była wesoła.",
+        "Mama była wesoła"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wesoła"
+      ],
+      "explain": "Double agreement, the same as kawa była dobra: mama is feminine, so the verb takes -a (była) and so does the adjective (wesoła)."
+    },
+    {
+      "en": "Recently I was calm. (f)",
+      "pl": "Ostatnio byłam spokojna.",
+      "accepts": [
+        "Ostatnio byłam spokojna.",
+        "Ostatnio byłam spokojna",
+        "Byłam ostatnio spokojna.",
+        "Byłam ostatnio spokojna",
+        "Byłam spokojna ostatnio.",
+        "Byłam spokojna ostatnio"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "spokojna"
+      ],
+      "explain": "A woman speaking takes -a twice: byłam spokojna. A man would say byłem spokojny."
+    },
+    {
+      "en": "Dad was calm.",
+      "pl": "Tata był spokojny.",
+      "accepts": [
+        "Tata był spokojny.",
+        "Tata był spokojny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "spokojny"
+      ],
+      "explain": "tata ends in -a but is a man, so the masculine forms win: był spokojny, not była spokojna."
+    },
+    {
+      "en": "On Monday I was nervous. (m)",
+      "pl": "W poniedziałek byłem zdenerwowany.",
+      "accepts": [
+        "W poniedziałek byłem zdenerwowany.",
+        "W poniedziałek byłem zdenerwowany",
+        "Byłem zdenerwowany w poniedziałek.",
+        "Byłem zdenerwowany w poniedziałek"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "zdenerwowany"
+      ]
+    },
+    {
+      "en": "Anna was nervous.",
+      "pl": "Anna była zdenerwowana.",
+      "accepts": [
+        "Anna była zdenerwowana.",
+        "Anna była zdenerwowana"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zdenerwowana"
+      ]
+    },
+    {
+      "en": "Yesterday I was sleepy. (m)",
+      "pl": "Wczoraj byłem śpiący.",
+      "accepts": [
+        "Wczoraj byłem śpiący.",
+        "Wczoraj byłem śpiący",
+        "Byłem wczoraj śpiący.",
+        "Byłem wczoraj śpiący",
+        "Byłem śpiący wczoraj.",
+        "Byłem śpiący wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "śpiący"
+      ]
+    },
+    {
+      "en": "I was sleepy at work. (f)",
+      "pl": "Byłam śpiąca w pracy.",
+      "accepts": [
+        "Byłam śpiąca w pracy.",
+        "Byłam śpiąca w pracy",
+        "W pracy byłam śpiąca.",
+        "W pracy byłam śpiąca"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "śpiąca"
+      ],
+      "explain": "Adjectives ending in -ący make their feminine in -ąca: śpiący → śpiąca. It is the same -a you already use on dobra and zmęczona."
+    },
+    {
+      "en": "Dad was proud.",
+      "pl": "Tata był dumny.",
+      "accepts": [
+        "Tata był dumny.",
+        "Tata był dumny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dumny"
+      ]
+    },
+    {
+      "en": "At that moment I was proud. (f)",
+      "pl": "Wtedy byłam dumna.",
+      "accepts": [
+        "Wtedy byłam dumna.",
+        "Wtedy byłam dumna",
+        "Byłam wtedy dumna.",
+        "Byłam wtedy dumna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "dumna"
+      ]
+    },
+    {
+      "en": "Were you surprised? (to a man)",
+      "pl": "Czy byłeś zaskoczony?",
+      "accepts": [
+        "Czy byłeś zaskoczony?",
+        "Czy byłeś zaskoczony",
+        "Byłeś zaskoczony?",
+        "Byłeś zaskoczony"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "question"
+      ],
+      "lemmas": [
+        "zaskoczony"
+      ],
+      "explain": "czy just opens a yes/no question — nothing else moves. To a woman it would be Czy byłaś zaskoczona?"
+    },
+    {
+      "en": "My sister was surprised.",
+      "pl": "Moja siostra była zaskoczona.",
+      "accepts": [
+        "Moja siostra była zaskoczona.",
+        "Moja siostra była zaskoczona",
+        "Siostra była zaskoczona.",
+        "Siostra była zaskoczona"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "zaskoczona"
+      ]
+    },
+    {
+      "en": "At the weekend I was lonely. (m)",
+      "pl": "W weekend byłem samotny.",
+      "accepts": [
+        "W weekend byłem samotny.",
+        "W weekend byłem samotny",
+        "Byłem samotny w weekend.",
+        "Byłem samotny w weekend"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "samotny"
+      ]
+    },
+    {
+      "en": "I was lonely at home. (f)",
+      "pl": "Byłam samotna w domu.",
+      "accepts": [
+        "Byłam samotna w domu.",
+        "Byłam samotna w domu",
+        "W domu byłam samotna.",
+        "W domu byłam samotna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "samotna"
+      ]
+    },
+    {
+      "en": "Yesterday I was tired. (f)",
+      "pl": "Wczoraj byłam zmęczona.",
+      "accepts": [
+        "Wczoraj byłam zmęczona.",
+        "Wczoraj byłam zmęczona",
+        "Byłam wczoraj zmęczona.",
+        "Byłam wczoraj zmęczona",
+        "Byłam zmęczona wczoraj.",
+        "Byłam zmęczona wczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zmęczona"
+      ],
+      "explain": "zmęczony is an old word from A1 — the new part is only the past być in front of it. Every feeling word you already know now works this way."
+    }
+  ],
+  "teaches_lemmas": [
+    "wesoły",
+    "wesoła",
+    "spokojny",
+    "spokojna",
+    "zdenerwowany",
+    "zdenerwowana",
+    "śpiący",
+    "śpiąca",
+    "zaskoczony",
+    "zaskoczona",
+    "dumny",
+    "dumna",
+    "samotny",
+    "samotna"
+  ],
+  "uses_lemmas": [
+    "być",
+    "byłem",
+    "byłam",
+    "byłeś",
+    "był",
+    "była",
+    "jestem",
+    "mama",
+    "tata",
+    "anna",
+    "siostra",
+    "moja",
+    "czy",
+    "wczoraj",
+    "dzisiaj",
+    "ostatnio",
+    "wtedy",
+    "w poniedziałek",
+    "w weekend",
+    "w pracy",
+    "w domu",
+    "zmęczona"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_feelings",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

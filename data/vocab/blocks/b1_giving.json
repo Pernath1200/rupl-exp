@@ -1,0 +1,335 @@
+{
+ "id": "b1_giving",
+ "title": "Dawanie i pomaganie",
+ "title_en": "Giving & helping",
+ "level": "B1",
+ "tree_node": "b1_giving",
+ "default_direction": "en_to_pl",
+ "note": "B1 Block 5 closer — the vocab payoff of the whole dative block (b1_dative_sg + b1_dative_pron). Delivers on the promise b1_dative_sg's own note made: 'dawać is deferred to b1_giving... do not assume dawać is already covered.' Confirmed with check_new.py before writing a single string — every form below is genuinely new.\n\nTHREE VERBS, ZERO NEW STRUCTURES. dawać (daję/dajesz/daje/dajemy/dajecie/dają) is the -awać-family irregular the spine flagged, but its person-endings are the already-taught present_e_esz pattern (-ę/-esz/-e/-emy/-ecie/-ą — the same shape as piję/pijesz, already generalised onto wstaję/wstajesz in a2_routine). So dawać is new lemmas riding an owned structure, not a new conjugation class — full 6-form paradigm given, since it is this pack's payoff verb. oddawać ('to give back') is dawać plus the prefix od-, so it conjugates identically; only 3 forms given (oddaję/oddajesz/oddaje), partial spread, since the pattern is already established by dawać itself one row above it — giving it a full 6 would be drilling the same ending shape twice for no new information. pożyczać ('to lend') rides present_am (mieszkam's class), also partial (pożyczam/pożyczasz/pożycza). 15 teaches_lemmas total: 3 infinitives + 12 person forms.\n\nSENSE CUT, logged: pożyczać is bidirectional in Polish (pożyczam komuś = I lend to someone; pożyczam od kogoś = I borrow from someone) and this pack teaches ONLY the lend-to sense, with a dative recipient — the same frame as dawać/oddawać. The borrow-from sense would need od + genitive as a NEW governor of 'od' (od is currently only taught governing comparison, under superlative/comparative — a genuinely different job for the same preposition, the same kind of trap AGENTS.md's homograph table warns about for content words). Teaching both senses in one vocab leaf would risk exactly that silent case-government confusion for an absolute beginner. Flagged with an explain string on the pożyczać item so the cut sense is named, not just silently absent.\n\nSCOPE CUT, logged loudly (spine named it as a candidate: 'pożyczać, oddawać, prosić o'): prosić o is NOT in this pack. 'prosić o' + Accusative (proszę o pomoc, proszę o radę) is a different case-government job for 'o' than the one already taught (o_loc: o + Locative, for topics — mówię o pracy). Teaching it here would mean introducing a brand-new preposition+case structure inside what is otherwise a zero-new-structure vocab leaf, and doing it honestly would require contrasting it against o_loc explicitly (another new thing) or risk the learner reading 'o' as always-Locative. Conservative call: deferred entirely, not folded in as an afterthought. James should decide whether 'prosić o' gets its own small chunk-lane slot later (parallel to how dat_chunks/weather_chunk/time_past_chunk handled other closed case-governing phrases) — it is not on the current B1-SPINE as its own node, so nothing downstream assumes it exists yet.\n\nNo new nouns: every recipient (bratu/tacie/ci/mu/jej/wam/nam/mi/studentowi/nauczycielowi) and every object (prezent/książkę/pieniądze/klucze/zeszyt/parasol/długopis) is recycled whole from b1_dative_sg, b1_dative_pron, a2_dat_chunks or earlier A1/A2 vocab — confirmed taught (and taught AS the sense used here, no homograph risk) via check_new.py before writing. Every sentence gives exactly one new form (the verb) anchored by already-taught recipient + already-taught object, per the anchor rule. Subjects (on, ona, nauczyciel, rodzice) are all recycled bare nominatives; no gender badges needed since no new noun is introduced.",
+ "teaches_structures": [],
+ "uses_structures": [
+  "dative_sg",
+  "dative_pron",
+  "dat_chunks",
+  "miec_acc",
+  "question"
+ ],
+ "blocks": [
+  {
+   "id": "giving_words",
+   "title": "To give, to give back, to lend",
+   "items": [
+    {
+     "en": "to give",
+     "pl": "dawać",
+     "icon": "🎁"
+    },
+    {
+     "en": "I give",
+     "pl": "daję",
+     "icon": "🎁"
+    },
+    {
+     "en": "you give",
+     "pl": "dajesz",
+     "icon": "🎁"
+    },
+    {
+     "en": "he/she gives",
+     "pl": "daje",
+     "icon": "🎁"
+    },
+    {
+     "en": "we give",
+     "pl": "dajemy",
+     "icon": "🎁"
+    },
+    {
+     "en": "you all give",
+     "pl": "dajecie",
+     "icon": "🎁"
+    },
+    {
+     "en": "they give",
+     "pl": "dają",
+     "icon": "🎁"
+    },
+    {
+     "en": "to give back / to return",
+     "pl": "oddawać",
+     "icon": "↩️",
+     "explain": "oddawać = od- + dawać ('back' + 'give'). It conjugates exactly like dawać itself — same endings, same pattern."
+    },
+    {
+     "en": "I give back",
+     "pl": "oddaję",
+     "icon": "↩️"
+    },
+    {
+     "en": "you give back",
+     "pl": "oddajesz",
+     "icon": "↩️"
+    },
+    {
+     "en": "he/she gives back",
+     "pl": "oddaje",
+     "icon": "↩️"
+    },
+    {
+     "en": "to lend",
+     "pl": "pożyczać",
+     "icon": "🤝",
+     "explain": "pożyczać can mean either 'lend' or 'borrow' in Polish, depending on the frame. This unit teaches only the lend-to-someone sense (pożyczam bratu = I lend my brother); borrowing-from is a different pattern, for a later unit."
+    },
+    {
+     "en": "I lend",
+     "pl": "pożyczam",
+     "icon": "🤝"
+    },
+    {
+     "en": "you lend",
+     "pl": "pożyczasz",
+     "icon": "🤝"
+    },
+    {
+     "en": "he/she lends",
+     "pl": "pożycza",
+     "icon": "🤝"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "en": "I give my brother a present.",
+   "pl": "Daję bratu prezent.",
+   "accepts": [
+    "Daję bratu prezent.",
+    "Daję bratu prezent"
+   ],
+   "structures": [
+    "dative_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "daję"
+   ]
+  },
+  {
+   "en": "Are you giving me the keys?",
+   "pl": "Dajesz mi klucze?",
+   "accepts": [
+    "Dajesz mi klucze?",
+    "Dajesz mi klucze"
+   ],
+   "structures": [
+    "dat_chunks",
+    "miec_acc",
+    "question"
+   ],
+   "lemmas": [
+    "dajesz"
+   ]
+  },
+  {
+   "en": "He gives her a book.",
+   "pl": "On daje jej książkę.",
+   "accepts": [
+    "On daje jej książkę.",
+    "On daje jej książkę"
+   ],
+   "structures": [
+    "dative_pron",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "daje"
+   ]
+  },
+  {
+   "en": "We give you all money.",
+   "pl": "Dajemy wam pieniądze.",
+   "accepts": [
+    "Dajemy wam pieniądze.",
+    "Dajemy wam pieniądze"
+   ],
+   "structures": [
+    "dative_pron",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "dajemy"
+   ]
+  },
+  {
+   "en": "Are you all giving us money?",
+   "pl": "Dajecie nam pieniądze?",
+   "accepts": [
+    "Dajecie nam pieniądze?",
+    "Dajecie nam pieniądze"
+   ],
+   "structures": [
+    "dative_pron",
+    "miec_acc",
+    "question"
+   ],
+   "lemmas": [
+    "dajecie"
+   ]
+  },
+  {
+   "en": "My parents give dad a present.",
+   "pl": "Rodzice dają tacie prezent.",
+   "accepts": [
+    "Rodzice dają tacie prezent.",
+    "Rodzice dają tacie prezent"
+   ],
+   "structures": [
+    "dative_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "dają"
+   ]
+  },
+  {
+   "en": "I give you back the keys.",
+   "pl": "Oddaję ci klucze.",
+   "accepts": [
+    "Oddaję ci klucze.",
+    "Oddaję ci klucze"
+   ],
+   "structures": [
+    "dative_pron",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "oddaję"
+   ],
+   "explain": "ci here is the dative pronoun 'to/for you' (podoba ci się), not the virile demonstrative 'these' from b1_virile_reco — same spelling, unrelated word, already disambiguated in b1_dative_pron."
+  },
+  {
+   "en": "Are you giving him back the book?",
+   "pl": "Oddajesz mu książkę?",
+   "accepts": [
+    "Oddajesz mu książkę?",
+    "Oddajesz mu książkę"
+   ],
+   "structures": [
+    "dative_pron",
+    "miec_acc",
+    "question"
+   ],
+   "lemmas": [
+    "oddajesz"
+   ]
+  },
+  {
+   "en": "The teacher gives the student back the notebook.",
+   "pl": "Nauczyciel oddaje studentowi zeszyt.",
+   "accepts": [
+    "Nauczyciel oddaje studentowi zeszyt.",
+    "Nauczyciel oddaje studentowi zeszyt"
+   ],
+   "structures": [
+    "dative_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "oddaje"
+   ]
+  },
+  {
+   "en": "I lend my brother money.",
+   "pl": "Pożyczam bratu pieniądze.",
+   "accepts": [
+    "Pożyczam bratu pieniądze.",
+    "Pożyczam bratu pieniądze"
+   ],
+   "structures": [
+    "dative_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "pożyczam"
+   ]
+  },
+  {
+   "en": "Are you lending me an umbrella?",
+   "pl": "Pożyczasz mi parasol?",
+   "accepts": [
+    "Pożyczasz mi parasol?",
+    "Pożyczasz mi parasol"
+   ],
+   "structures": [
+    "dat_chunks",
+    "miec_acc",
+    "question"
+   ],
+   "lemmas": [
+    "pożyczasz"
+   ]
+  },
+  {
+   "en": "She lends the teacher a pen.",
+   "pl": "Ona pożycza nauczycielowi długopis.",
+   "accepts": [
+    "Ona pożycza nauczycielowi długopis.",
+    "Ona pożycza nauczycielowi długopis"
+   ],
+   "structures": [
+    "dative_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "pożycza"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "dawać",
+  "daję",
+  "dajesz",
+  "daje",
+  "dajemy",
+  "dajecie",
+  "dają",
+  "oddawać",
+  "oddaję",
+  "oddajesz",
+  "oddaje",
+  "pożyczać",
+  "pożyczam",
+  "pożyczasz",
+  "pożycza"
+ ],
+ "uses_lemmas": [
+  "bratu",
+  "mi",
+  "jej",
+  "wam",
+  "nam",
+  "tacie",
+  "ci",
+  "mu",
+  "studentowi",
+  "nauczycielowi",
+  "prezent",
+  "książkę",
+  "pieniądze",
+  "klucze",
+  "zeszyt",
+  "parasol",
+  "długopis",
+  "on",
+  "ona",
+  "nauczyciel",
+  "rodzice"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b1_giving",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

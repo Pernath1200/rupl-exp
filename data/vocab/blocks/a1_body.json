@@ -141,6 +141,10 @@
           "en": "blonde",
           "pl": "blond",
           "icon": "👱"
+        },
+        {
+          "en": "tall (f)",
+          "pl": "wysoka"
         }
       ]
     }
@@ -335,7 +339,8 @@
     "skóra",
     "wysoki",
     "krótki",
-    "blond"
+    "blond",
+    "wysoka"
   ],
   "title_en": "The body"
 }

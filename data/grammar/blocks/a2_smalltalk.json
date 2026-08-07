@@ -1,0 +1,619 @@
+{
+  "id": "a2_smalltalk",
+  "title": "Rozmowa · Jak było?",
+  "title_en": "Small talk · How was it?",
+  "level": "A2",
+  "tree_node": "a2_smalltalk",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Chunk unit riding the a2 past block. Fixed conversational phrases, learned whole — no rule slides. NEW words taught here: super, fajnie, dobrze, wszystko, nic, nowego, slychac. 'Jak minal weekend?' was dropped 2026-08-05: minal is PERFECTIVE and the A2 past block is imperfective-only (James). Replaced by 'Jak bylo w weekend?', built entirely from taught material (jak bylo + w weekend from a2_time_past). 'dobrze' closes a real gap — the course taught the adjective dobry/dobra/dobre but never the adverb.",
+  "focus_structures": [
+    "smalltalk_chunk"
+  ],
+  "teaches_structures": [
+    "smalltalk_chunk"
+  ],
+  "uses_structures": [
+    "smalltalk_chunk",
+    "past_byc",
+    "past_rest",
+    "social_chunk",
+    "prep_w_loc",
+    "question",
+    "byc_adj",
+    "time_past_chunk"
+  ],
+  "intro": [
+    {
+      "title": "Jak było? — reacting to anything that finished",
+      "title_pl": "Jak było?",
+      "body": "Polish small talk runs on a small set of fixed phrases. Learn each one whole — do not build them word by word, and do not translate them piece by piece.\n\nYou already have było (\"it was\"). Put a describing word after it and you can react to anything that is over: a weekend, a film, a day at work.\n\nOne thing to notice: the word after było is an adverb — dobrze, fajnie — not the adjective dobra / dobre / dobry. An adjective describes a noun (kawa była dobra); an adverb describes how something went (było dobrze). Super never changes at all.",
+      "body_pl": "Jak było? Było super. Było fajnie. Było dobrze.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "When you use it"
+        ],
+        "rows": [
+          [
+            "Jak było?",
+            "How was it?",
+            "asking about anything that has finished"
+          ],
+          [
+            "Było super.",
+            "It was great.",
+            "enthusiastic"
+          ],
+          [
+            "Było fajnie.",
+            "It was nice.",
+            "warm, everyday"
+          ],
+          [
+            "Było dobrze.",
+            "It was good.",
+            "neutral, safe"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "How was it at work?",
+          "pl": "Jak było w pracy?"
+        },
+        {
+          "en": "How was it at school?",
+          "pl": "Jak było w szkole?"
+        }
+      ]
+    },
+    {
+      "title": "Co słychać? — the standing greeting",
+      "title_pl": "Co słychać?",
+      "body": "Where English says \"How's it going?\", Polish says Co słychać? There is nothing useful to take apart here, so take it whole.\n\nThree safe answers. Wszystko means \"everything\". W porządku you already know as \"fine\". Nic means \"nothing\" — and after nic, Polish uses the genitive, which is why new comes out as nowego rather than nowy. Learn the pair Nic nowego as one answer.",
+      "body_pl": "Co słychać? — Wszystko dobrze. / Wszystko w porządku. / Nic nowego.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "New word in it"
+        ],
+        "rows": [
+          [
+            "Co słychać?",
+            "How's it going?",
+            "słychać"
+          ],
+          [
+            "Wszystko dobrze.",
+            "Everything's good.",
+            "wszystko = everything"
+          ],
+          [
+            "Wszystko w porządku.",
+            "Everything's fine.",
+            "w porządku — already known"
+          ],
+          [
+            "Nic nowego.",
+            "Nothing new.",
+            "nic = nothing"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Hi! How's it going?",
+          "pl": "Cześć! Co słychać?"
+        },
+        {
+          "en": "Everything's fine, thank you.",
+          "pl": "Wszystko w porządku, dziękuję."
+        },
+        {
+          "en": "Nothing new, thanks.",
+          "pl": "Nic nowego, dzięki."
+        }
+      ]
+    },
+    {
+      "title": "Asking about the weekend and about yesterday",
+      "title_pl": "Weekend i wczoraj",
+      "body": "Two ready-made openers that sit on the past tense you have just learned.\n\nJak było w weekend? — \"How was the weekend?\" You already know every piece: Jak było? plus w weekend. The same trick works for any place you know: Jak było w pracy?\n\nCo robiłeś wczoraj? / Co robiłaś wczoraj? — here too you know every word. Choose robiłeś when you are speaking to a man, robiłaś when you are speaking to a woman, exactly as with byłeś / byłaś.",
+      "body_pl": "Jak było w weekend? Co robiłeś / robiłaś wczoraj?",
+      "examples": [
+        {
+          "en": "Hello. How was the weekend?",
+          "pl": "Dzień dobry. Jak było w weekend?"
+        },
+        {
+          "en": "What were you doing yesterday? (to a man)",
+          "pl": "Co robiłeś wczoraj?"
+        },
+        {
+          "en": "What were you doing yesterday? (to a woman)",
+          "pl": "Co robiłaś wczoraj?"
+        },
+        {
+          "en": "The weekend was great.",
+          "pl": "Weekend był super."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "How was it?",
+      "pl": "Jak było?"
+    },
+    {
+      "en": "It was great.",
+      "pl": "Było super."
+    },
+    {
+      "en": "It was nice.",
+      "pl": "Było fajnie."
+    },
+    {
+      "en": "It was good.",
+      "pl": "Było dobrze."
+    },
+    {
+      "en": "How's it going?",
+      "pl": "Co słychać?"
+    },
+    {
+      "en": "Everything's good.",
+      "pl": "Wszystko dobrze."
+    },
+    {
+      "en": "Everything's fine.",
+      "pl": "Wszystko w porządku."
+    },
+    {
+      "en": "Nothing new.",
+      "pl": "Nic nowego."
+    },
+    {
+      "en": "How was the weekend?",
+      "pl": "Jak było w weekend?"
+    },
+    {
+      "en": "What were you doing yesterday? (m)",
+      "pl": "Co robiłeś wczoraj?"
+    },
+    {
+      "en": "What were you doing yesterday? (f)",
+      "pl": "Co robiłaś wczoraj?"
+    },
+    {
+      "en": "How was it at work?",
+      "pl": "Jak było w pracy?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "How's it going? →",
+      "choices": [
+        "Co słychać?",
+        "Jak było?",
+        "Nic nowego.",
+        "Wszystko dobrze."
+      ],
+      "answer": "Co słychać?"
+    },
+    {
+      "prompt": "How was it? →",
+      "choices": [
+        "Jak było?",
+        "Jak było w weekend?",
+        "Co słychać?",
+        "Było dobrze."
+      ],
+      "answer": "Jak było?"
+    },
+    {
+      "prompt": "It was good. →  Było ___.",
+      "choices": [
+        "dobrze",
+        "dobra",
+        "dobre",
+        "dobry"
+      ],
+      "answer": "dobrze",
+      "explain": "Nothing is being described here — there is no noun. When you say how something went, Polish uses the adverb dobrze. Dobra / dobre / dobry only ever attach to a noun."
+    },
+    {
+      "prompt": "Kawa była ___.",
+      "choices": [
+        "dobra",
+        "dobrze",
+        "dobre",
+        "dobry"
+      ],
+      "answer": "dobra",
+      "explain": "Here there IS a noun — kawa, feminine — so it takes the adjective dobra. Swap the noun out and you are back to było dobrze."
+    },
+    {
+      "prompt": "___ w porządku.",
+      "choices": [
+        "Wszystko",
+        "Nic",
+        "Jak",
+        "Co"
+      ],
+      "answer": "Wszystko"
+    },
+    {
+      "prompt": "Someone asks Co słychać? and you have no news. You say:",
+      "choices": [
+        "Nic nowego.",
+        "Jak było?",
+        "Było super.",
+        "Co słychać?"
+      ],
+      "answer": "Nic nowego.",
+      "explain": "Nic means nothing, and after nic Polish switches to the genitive — hence nowego, not nowy. Keep the two words together."
+    },
+    {
+      "prompt": "— Co słychać? — Nic ___.",
+      "choices": [
+        "nowego",
+        "nowy",
+        "nowa",
+        "nowe"
+      ],
+      "answer": "nowego",
+      "explain": "Nic nowego is a set answer — 'nothing new'. Nowego is nowy in the genitive, the case Polish reaches for after nic. Take the phrase as one unit."
+    },
+    {
+      "prompt": "It was great. →",
+      "choices": [
+        "Było super.",
+        "Było fajnie.",
+        "Wszystko dobrze.",
+        "Jak było?"
+      ],
+      "answer": "Było super.",
+      "explain": "Super is borrowed and never changes its ending — no -a, no -e, no -o, whatever you are talking about."
+    },
+    {
+      "prompt": "It was nice. →",
+      "choices": [
+        "Było fajnie.",
+        "Było dobrze.",
+        "Nic nowego.",
+        "Co słychać?"
+      ],
+      "answer": "Było fajnie."
+    },
+    {
+      "prompt": "What were you doing yesterday? (to a woman) →",
+      "choices": [
+        "Co robiłaś wczoraj?",
+        "Co robiłeś wczoraj?",
+        "Co robiła wczoraj?",
+        "Jak było wczoraj?"
+      ],
+      "answer": "Co robiłaś wczoraj?",
+      "explain": "Speaking TO a woman gives -aś, the same ending as byłaś. Robiła with no -ś would mean she was doing, not you."
+    },
+    {
+      "prompt": "— Cześć! Co słychać? — ___",
+      "choices": [
+        "Wszystko w porządku.",
+        "Jak było?",
+        "Co robiłeś wczoraj?",
+        "Jak było w weekend?"
+      ],
+      "answer": "Wszystko w porządku.",
+      "explain": "Co słychać? is a question, so it needs an answer back — not another question."
+    },
+    {
+      "prompt": "Fix: Było dobra. →",
+      "choices": [
+        "Było dobrze.",
+        "Było dobry.",
+        "Było dobrą.",
+        "Była dobrze."
+      ],
+      "answer": "Było dobrze."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "How was it?",
+      "mode": "full_word",
+      "answer": "Jak było?",
+      "accepts": [
+        "Jak było?",
+        "Jak było"
+      ]
+    },
+    {
+      "prompt_en": "It was great.",
+      "mode": "full_word",
+      "answer": "Było super.",
+      "accepts": [
+        "Było super.",
+        "Było super"
+      ],
+      "explain": "Super is a borrowed word and never takes an ending — it looks the same after był, była and było."
+    },
+    {
+      "prompt_en": "It was nice.",
+      "mode": "full_word",
+      "answer": "Było fajnie.",
+      "accepts": [
+        "Było fajnie.",
+        "Było fajnie"
+      ]
+    },
+    {
+      "prompt_en": "It was good.",
+      "mode": "full_word",
+      "answer": "Było dobrze.",
+      "accepts": [
+        "Było dobrze.",
+        "Było dobrze"
+      ],
+      "explain": "Dobrze is the adverb. There is no noun in this sentence to carry an adjective, so dobra / dobre would have nothing to attach to."
+    },
+    {
+      "prompt_en": "How's it going?",
+      "mode": "full_word",
+      "answer": "Co słychać?",
+      "accepts": [
+        "Co słychać?",
+        "Co słychać"
+      ],
+      "explain": "Słychać has no everyday life outside this phrase — that is why it is worth memorising the two words as one greeting."
+    },
+    {
+      "prompt_en": "Everything's good.",
+      "mode": "full_word",
+      "answer": "Wszystko dobrze.",
+      "accepts": [
+        "Wszystko dobrze.",
+        "Wszystko dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Everything's fine.",
+      "mode": "full_word",
+      "answer": "Wszystko w porządku.",
+      "accepts": [
+        "Wszystko w porządku.",
+        "Wszystko w porządku"
+      ]
+    },
+    {
+      "prompt_en": "Nothing new.",
+      "mode": "full_word",
+      "answer": "Nic nowego.",
+      "accepts": [
+        "Nic nowego.",
+        "Nic nowego"
+      ],
+      "explain": "Nowego is nowy in the genitive — the case Polish reaches for after nic. Take the phrase as one unit."
+    },
+    {
+      "prompt_en": "How was the weekend?",
+      "mode": "cloze",
+      "answer": "w weekend",
+      "accepts": [
+        "w weekend"
+      ],
+      "explain": "Nothing new here: Jak było? plus w weekend, both already yours. Swap in any place you know — Jak było w pracy?",
+      "frame": "Jak było ___?"
+    },
+    {
+      "prompt_en": "What were you doing yesterday? (to a man)",
+      "mode": "cloze",
+      "answer": "robiłeś",
+      "accepts": [
+        "robiłeś"
+      ],
+      "frame": "Co ___ wczoraj?"
+    },
+    {
+      "prompt_en": "What were you doing yesterday? (to a woman)",
+      "mode": "cloze",
+      "answer": "robiłaś",
+      "accepts": [
+        "robiłaś"
+      ],
+      "explain": "The -aś ending is you, spoken to a woman — the same -aś you met in byłaś.",
+      "frame": "Co ___ wczoraj?"
+    },
+    {
+      "prompt_en": "How was it at work?",
+      "mode": "cloze",
+      "answer": "w pracy",
+      "accepts": [
+        "w pracy"
+      ],
+      "frame": "Jak było ___?"
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Hi! How's it going?",
+      "answer": "Cześć! Co słychać?",
+      "accepts": [
+        "Cześć! Co słychać?",
+        "Cześć Co słychać",
+        "Cześć, co słychać?",
+        "Cześć! Co słychać"
+      ]
+    },
+    {
+      "prompt_en": "Type: Everything's fine, thank you.",
+      "answer": "Wszystko w porządku, dziękuję.",
+      "accepts": [
+        "Wszystko w porządku, dziękuję.",
+        "Wszystko w porządku dziękuję",
+        "Wszystko w porządku, dziękuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: The weekend was great.",
+      "answer": "Weekend był super.",
+      "accepts": [
+        "Weekend był super.",
+        "Weekend był super"
+      ],
+      "explain": "Weekend is masculine, so the verb is był. Super itself stays put — only the verb shows the gender."
+    },
+    {
+      "prompt_en": "Type: The film was great.",
+      "answer": "Film był super.",
+      "accepts": [
+        "Film był super.",
+        "Film był super"
+      ]
+    },
+    {
+      "prompt_en": "Type: It was nice at the park.",
+      "answer": "W parku było fajnie.",
+      "accepts": [
+        "W parku było fajnie.",
+        "W parku było fajnie",
+        "Było fajnie w parku.",
+        "Było fajnie w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Hello. How was the weekend?",
+      "answer": "Dzień dobry. Jak było w weekend?",
+      "accepts": [
+        "Dzień dobry. Jak było w weekend?",
+        "Dzień dobry. Jak było w weekend",
+        "Dzień dobry, Jak było w weekend?"
+      ]
+    },
+    {
+      "prompt_en": "Type: What were you doing yesterday at home? (to a man)",
+      "answer": "Co robiłeś wczoraj w domu?",
+      "accepts": [
+        "Co robiłeś wczoraj w domu?",
+        "Co robiłeś wczoraj w domu",
+        "Co wczoraj robiłeś w domu?",
+        "Co robiłeś w domu wczoraj?"
+      ]
+    },
+    {
+      "prompt_en": "Type: What were you doing yesterday at work? (to a woman)",
+      "answer": "Co robiłaś wczoraj w pracy?",
+      "accepts": [
+        "Co robiłaś wczoraj w pracy?",
+        "Co robiłaś wczoraj w pracy",
+        "Co wczoraj robiłaś w pracy?",
+        "Co robiłaś w pracy wczoraj?"
+      ]
+    },
+    {
+      "prompt_en": "Type: How was it at school yesterday?",
+      "answer": "Jak było wczoraj w szkole?",
+      "accepts": [
+        "Jak było wczoraj w szkole?",
+        "Jak było wczoraj w szkole",
+        "Jak było w szkole wczoraj?",
+        "Jak było w szkole wczoraj"
+      ]
+    },
+    {
+      "prompt_en": "Type: Nothing new, thanks.",
+      "answer": "Nic nowego, dzięki.",
+      "accepts": [
+        "Nic nowego, dzięki.",
+        "Nic nowego dzięki",
+        "Nic nowego, dzieki."
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday it was great at work.",
+      "answer": "Wczoraj w pracy było super.",
+      "accepts": [
+        "Wczoraj w pracy było super.",
+        "Wczoraj w pracy było super",
+        "Wczoraj było super w pracy.",
+        "W pracy było wczoraj super."
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was at work. How was it?",
+      "answer": "Mama była w pracy. Jak było?",
+      "accepts": [
+        "Mama była w pracy. Jak było?",
+        "Mama była w pracy Jak było",
+        "Mama była w pracy, jak było?"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "super",
+    "fajnie",
+    "dobrze",
+    "wszystko",
+    "nic",
+    "nowego",
+    "słychać",
+    "jak było",
+    "było super",
+    "było fajnie",
+    "było dobrze",
+    "co słychać",
+    "wszystko dobrze",
+    "wszystko w porządku",
+    "nic nowego",
+    "jak było w weekend"
+  ],
+  "uses_lemmas": [
+    "jak",
+    "co",
+    "był",
+    "była",
+    "było",
+    "robiłeś",
+    "robiłaś",
+    "robić",
+    "wczoraj",
+    "weekend",
+    "film",
+    "mama",
+    "nowy",
+    "dobra",
+    "dobre",
+    "dobry",
+    "kawa",
+    "w porządku",
+    "w pracy",
+    "w szkole",
+    "w domu",
+    "w parku",
+    "cześć",
+    "dzień dobry",
+    "dziękuję",
+    "dzięki",
+    "dzieki",
+    "w weekend"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_smalltalk",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

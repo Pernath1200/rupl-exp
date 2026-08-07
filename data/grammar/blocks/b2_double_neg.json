@@ -1,0 +1,609 @@
+{
+ "id": "b2_double_neg",
+ "title": "Nikt nie pracuje · nigdzie nie idę",
+ "title_en": "Two negative words, not one",
+ "level": "B2",
+ "tree_node": "b2_double_neg",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 6, unit 2 (spine O13 — an addition beyond the routine brief's list, logged in the spine rather than guessed silently, on the na szczęście / nie zgadzać się / mało precedent). Obligatory double negation: a negative word AND a second nie on the verb, both, always.\n\nTWO NEW LEMMAS ONLY — nikt and nigdzie — because nic (a2_smalltalk, inside nic nowego) and nigdy (leaf_time_cal_a1) are already owned. The learner arrives holding half the set and none of the syntax, which is exactly why the unit is cheap and why it is worth building: English speakers get this permanently wrong unless it is named.\n\nŻADEN IS DROPPED, a deliberate departure from the spine's own list and the one scope call here. The spine names nikt, nigdzie, żaden. żaden is an adjective-shaped word with a full declension, and its natural home — Nie mam żadnej książki — stacks a new declining word directly on top of b2_neg_gen, taught one node earlier. The four invariable words do the unit's one job without it. żaden / żadna / żadne are fenced entirely, verified NEW, and go to C1's inbox.\n\nTHE UNIT IS NOT TITLED 'Nikt nie wie' despite that being the spine's headline phrase. check_new.py reports wie NEW: wiem is owned only as the frozen chunk nie wiem (a2_directions_func), so wie would be a new form of an irregular verb whose paradigm nobody owns. It appears nowhere in the pack, title included — AGENTS.md's most-repeated title violation, avoided by checking rather than by luck.\n\nSLIDE 3 IS A CONSOLIDATION, NOT A SECOND FACT. Because the verb still carries nie, the object is still in the of-form: Nigdy nie piję kawy, not kawę; Nikt nie kupuje chleba. So the unit re-drills b2_neg_gen at zero cost, and the two nodes are adjacent for that reason. Three quiz items and three type items are that re-drill.\n\nWORD ORDER IS NEGATIVE-WORD-FIRST THROUGHOUT, matching the English the learner is translating from. Nie ma nikogo and every other order is held.\n\nHOMOGRAPH / TAUGHT-AS CHECKS:\n- nic reports TAUGHT from a2_smalltalk, where it is frozen inside nic nowego. Slide 2 re-teaches it explicitly in its own slot, the dziękuję / której / że treatment, and says so: 'you already say this word, just never on its own.'\n- nigdy is TAUGHT from leaf_time_cal_a1 as an ordinary time adverb, which is exactly the job it does here, so it needs no re-teaching — only the second nie is new about it.\n- gazety appears in no object slot: a2_plural_nom owns that string as a NOMINATIVE PLURAL, so Mama nigdy nie czyta gazety would print a genitive singular that was never taught. książki is used instead.\n- czasami is deliberately NOT a distractor for czasu. It is owned (leaf_time_cal_a1) but it means 'sometimes', and putting it under a time question would teach a false pair.\n\nFENCED, all verified NEW:\n- nikogo, nikomu, niczego. nikt stays a subject and nic stays an object, in the two shapes already owned.\n- wie, wiesz, wiedzieć, rozumiem, ktoś, gdzieś, wszędzie, wszyscy.\n- The PAST with nikt as its subject (Nikt nie był), which takes masculine-singular agreement and is a second fact. The pack is present-tense throughout except use item 7, where byłem and był are owned and nikt is not the subject.\n- No oblique pronouns (go, ją, cię, nim, niej) — every argument is a noun or one of the four negative words. The auditor cannot see this fence: person pronouns sit in audit.py's GLUE_LEMMAS, so it is author discipline only.\n- No plural oblique adjectives (spine O3 → C1). Bare nouns throughout, the eighth consecutive unit.\n\nDISTRACTORS are real taught Polish in the wrong slot. Items 1–4 deliberately share one four-word choice list in four different orders, because the four negative words are precisely what has to be told apart and nothing else about those items differs.\n\nBare governed prepositions (w) are not listed in uses_lemmas per SEQUENCING.md 6.3 — the job rides prep_w_loc and prep_place in uses_structures.",
+ "focus_structures": [
+  "double_neg"
+ ],
+ "teaches_structures": [
+  "double_neg"
+ ],
+ "teaches_lemmas": [
+  "nikt",
+  "nigdzie"
+ ],
+ "uses_structures": [
+  "neg_gen",
+  "negation",
+  "gen_endings",
+  "gen_pl",
+  "miec_present",
+  "miec_acc",
+  "byc_present",
+  "byc_adj",
+  "present",
+  "present_am",
+  "present_e_esz",
+  "present_e_isz",
+  "present_uje",
+  "past_byc",
+  "prep_w_loc",
+  "prep_place",
+  "motion_chunk",
+  "jechac",
+  "existential_jest",
+  "questions2",
+  "conjunctions",
+  "poss_nom",
+  "smalltalk_chunk"
+ ],
+ "intro": [
+  {
+   "title": "Polish says no twice",
+   "title_pl": "nikt nie pracuje · nigdzie nie idę · nigdy nie piję · nic nie mam",
+   "body": "In English, a sentence like Nobody works has one negative word in it, and the verb itself stays positive — works, not doesn't work.\n\nPolish will not do that. If the sentence has a negative word in it, the verb still keeps its nie as well. Both, every time. It is not emphasis and it is not a mistake; leaving out the second nie is simply wrong.",
+   "body_pl": "Nikt nie pracuje · Nigdzie nie idę · Nigdy nie piję piwa · Nic nie mam",
+   "table": {
+    "headers": [
+     "English",
+     "Polish",
+     "Where the second no sits"
+    ],
+    "rows": [
+     [
+      "Nobody works.",
+      "Nikt nie pracuje.",
+      "nikt + nie on the verb"
+     ],
+     [
+      "I am going nowhere.",
+      "Nigdzie nie idę.",
+      "nigdzie + nie on the verb"
+     ],
+     [
+      "I never drink beer.",
+      "Nigdy nie piję piwa.",
+      "nigdy + nie on the verb"
+     ],
+     [
+      "I have nothing.",
+      "Nic nie mam.",
+      "nic + nie on the verb"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Four words, and you already have two",
+   "title_pl": "nikt · nigdzie · nigdy · nic",
+   "body": "Only two of these are new. nigdy has been in your time words since A1, and you already say nic nowego — you have simply never used nic on its own before.\n\nNone of the four ever changes its shape. Put one at the front, keep the nie on the verb, and you are done.",
+   "body_pl": "nikt · nigdzie · nigdy · nic nowego → nic",
+   "table": {
+    "headers": [
+     "Word",
+     "Means",
+     "Example",
+     "Is it new?"
+    ],
+    "rows": [
+     [
+      "nikt",
+      "nobody",
+      "Nikt nie ma czasu.",
+      "new"
+     ],
+     [
+      "nigdzie",
+      "nowhere, not anywhere",
+      "Nigdzie nie jadę.",
+      "new"
+     ],
+     [
+      "nigdy",
+      "never",
+      "Nigdy nie piję piwa.",
+      "you have had it since A1"
+     ],
+     [
+      "nic",
+      "nothing",
+      "Nic nie robię.",
+      "you already say nic nowego"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Nobody lives in the house.",
+     "pl": "Nikt nie mieszka w domu."
+    },
+    {
+     "en": "Dad is going nowhere.",
+     "pl": "Tata nigdzie nie idzie."
+    }
+   ]
+  },
+  {
+   "title": "The object still moves",
+   "title_pl": "nigdy nie piję kawy · nikt nie kupuje chleba",
+   "body": "Nothing here is new — this slide is last lesson's rule, still running. The verb still has a nie in front of it, so the object still switches to the of-form exactly as it did in Nie piję kawy.\n\nThat is worth seeing once, because the negative word at the front can make the sentence look like a different kind of sentence. It is not. It is the same sentence with one more word at the start.",
+   "body_pl": "Nie piję kawy → Nigdy nie piję kawy",
+   "table": {
+    "headers": [
+     "Without the negative word",
+     "With it",
+     "The object"
+    ],
+    "rows": [
+     [
+      "Nie piję kawy.",
+      "Nigdy nie piję kawy.",
+      "kawy, not kawę — unchanged"
+     ],
+     [
+      "Nie kupuję chleba.",
+      "Nikt nie kupuje chleba.",
+      "chleba, the odd one, still odd"
+     ],
+     [
+      "Nie mam czasu.",
+      "Nikt nie ma czasu.",
+      "czasu — unchanged"
+     ],
+     [
+      "Nie czytam książki.",
+      "Nikt nie czyta książki.",
+      "książki — unchanged"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "nobody works",
+   "pl": "nikt nie pracuje"
+  },
+  {
+   "en": "nobody lives in the house",
+   "pl": "nikt nie mieszka w domu"
+  },
+  {
+   "en": "nobody has time",
+   "pl": "nikt nie ma czasu"
+  },
+  {
+   "en": "nobody buys bread",
+   "pl": "nikt nie kupuje chleba"
+  },
+  {
+   "en": "I'm going nowhere (on foot)",
+   "pl": "nigdzie nie idę"
+  },
+  {
+   "en": "I'm going nowhere (by car)",
+   "pl": "nigdzie nie jadę"
+  },
+  {
+   "en": "dad is going nowhere",
+   "pl": "tata nigdzie nie idzie"
+  },
+  {
+   "en": "I never drink beer",
+   "pl": "nigdy nie piję piwa"
+  },
+  {
+   "en": "I never drink coffee",
+   "pl": "nigdy nie piję kawy"
+  },
+  {
+   "en": "I have nothing",
+   "pl": "nic nie mam"
+  },
+  {
+   "en": "I'm doing nothing",
+   "pl": "nic nie robię"
+  },
+  {
+   "en": "I'm buying nothing",
+   "pl": "nic nie kupuję"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "___ nie pracuje. (nobody works)",
+   "choices": [
+    "nikt",
+    "nic",
+    "nigdy",
+    "nigdzie"
+   ],
+   "answer": "nikt",
+   "explain": "nikt is the person one — nobody. The other three are about a thing, a time and a place, and this sentence is about a person."
+  },
+  {
+   "prompt": "___ nie idę. (I'm going nowhere)",
+   "choices": [
+    "nigdzie",
+    "nigdy",
+    "nikt",
+    "nic"
+   ],
+   "answer": "nigdzie",
+   "explain": "nigdzie is the place one. nigdy is the time one and looks very like it — Nigdy nie idę would mean I never go, which is a different sentence."
+  },
+  {
+   "prompt": "___ nie piję piwa. (I never drink beer)",
+   "choices": [
+    "nigdy",
+    "nigdzie",
+    "nic",
+    "nikt"
+   ],
+   "answer": "nigdy",
+   "explain": "nigdy is the time one, and it is the one word here you have had since A1 — the only new thing about this sentence is that the verb keeps its nie."
+  },
+  {
+   "prompt": "___ nie robię. (I'm doing nothing)",
+   "choices": [
+    "nic",
+    "nikt",
+    "nigdzie",
+    "nigdy"
+   ],
+   "answer": "nic",
+   "explain": "nic is the thing one. You already say it inside nic nowego; this is the same word standing on its own."
+  },
+  {
+   "prompt": "Nikt ___ pracuje. (nobody works)",
+   "choices": [
+    "nie",
+    "już",
+    "tak",
+    "bardzo"
+   ],
+   "answer": "nie",
+   "explain": "This is the whole lesson in one gap. nikt has already said no, and Polish still wants nie on the verb as well. Leaving it out is not an option."
+  },
+  {
+   "prompt": "Nigdy nie piję ___. (coffee)",
+   "choices": [
+    "kawy",
+    "kawę",
+    "kawa",
+    "kaw"
+   ],
+   "answer": "kawy",
+   "explain": "Last lesson, still running: the verb has nie in front of it, so the object is in the of-form. The nigdy at the front changes nothing about that."
+  },
+  {
+   "prompt": "Nikt nie kupuje ___. (bread)",
+   "choices": [
+    "chleba",
+    "chleb",
+    "mleka",
+    "zupy"
+   ],
+   "answer": "chleba",
+   "explain": "chleba, the word that takes -a where every other masculine takes -u. It behaves the same here as it did in Nie kupuję chleba."
+  },
+  {
+   "prompt": "Nikt nie ma ___. (time)",
+   "choices": [
+    "czasu",
+    "czas",
+    "minut",
+    "godzin"
+   ],
+   "answer": "czasu",
+   "explain": "nie ma czasu is the phrase you have had since A1, and nikt in front leaves it exactly as it was. minut and godzin are the of-forms of minuty and godziny."
+  },
+  {
+   "prompt": "Mama nigdy nie pije ___. (beer)",
+   "choices": [
+    "piwa",
+    "piwo",
+    "piw",
+    "wody"
+   ],
+   "answer": "piwa",
+   "explain": "piwo is what you drink with no nie about; after nie it is piwa. piw would be more than one beer, and wody belongs to woda."
+  },
+  {
+   "prompt": "Nikt nie czyta ___. (a book)",
+   "choices": [
+    "książki",
+    "książkę",
+    "książka",
+    "książek"
+   ],
+   "answer": "książki",
+   "explain": "The -ka words take -i after nie. książkę is what you would read with no nie in the sentence at all."
+  },
+  {
+   "prompt": "Nigdzie nie ___. (I'm going — on foot)",
+   "choices": [
+    "idę",
+    "jadę",
+    "idzie",
+    "idą"
+   ],
+   "answer": "idę",
+   "explain": "On foot is idę; jadę would mean by car or bus. idzie is he or she goes and idą is they go — the sentence is about you."
+  },
+  {
+   "prompt": "Nikt nie ___ w domu. (nobody lives)",
+   "choices": [
+    "mieszka",
+    "mieszkam",
+    "mieszkają",
+    "mieszkasz"
+   ],
+   "answer": "mieszka",
+   "explain": "nikt counts as one person however many people it is talking about, so the verb is the he-or-she form. mieszkają would need an actual plural subject."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "nobody works",
+   "mode": "full_word",
+   "answer": "nikt nie pracuje",
+   "accepts": [
+    "nikt nie pracuje"
+   ]
+  },
+  {
+   "prompt_en": "I'm going nowhere (on foot)",
+   "mode": "full_word",
+   "answer": "nigdzie nie idę",
+   "accepts": [
+    "nigdzie nie idę"
+   ]
+  },
+  {
+   "prompt_en": "I have nothing",
+   "mode": "full_word",
+   "answer": "nic nie mam",
+   "accepts": [
+    "nic nie mam"
+   ]
+  },
+  {
+   "prompt_en": "I'm doing nothing",
+   "mode": "full_word",
+   "answer": "nic nie robię",
+   "accepts": [
+    "nic nie robię"
+   ]
+  },
+  {
+   "prompt_en": "Nobody has time.",
+   "mode": "cloze",
+   "frame": "Nikt nie ma ___.",
+   "answer": "czasu",
+   "accepts": [
+    "czasu"
+   ]
+  },
+  {
+   "prompt_en": "I never drink beer.",
+   "mode": "cloze",
+   "frame": "Nigdy nie piję ___.",
+   "answer": "piwa",
+   "accepts": [
+    "piwa"
+   ]
+  },
+  {
+   "prompt_en": "Nobody buys bread.",
+   "mode": "cloze",
+   "frame": "Nikt nie kupuje ___.",
+   "answer": "chleba",
+   "accepts": [
+    "chleba"
+   ]
+  },
+  {
+   "prompt_en": "Nobody drinks coffee.",
+   "mode": "cloze",
+   "frame": "Nikt nie pije ___.",
+   "answer": "kawy",
+   "accepts": [
+    "kawy"
+   ]
+  },
+  {
+   "prompt_en": "Dad is going nowhere.",
+   "mode": "cloze",
+   "frame": "Tata ___ nie idzie.",
+   "answer": "nigdzie",
+   "accepts": [
+    "nigdzie"
+   ]
+  },
+  {
+   "prompt_en": "Nobody lives in the house.",
+   "mode": "cloze",
+   "frame": "___ nie mieszka w domu.",
+   "answer": "Nikt",
+   "accepts": [
+    "Nikt",
+    "nikt"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Nobody is working, because today is Sunday.",
+   "answer": "Nikt nie pracuje, bo dzisiaj jest niedziela.",
+   "accepts": [
+    "Nikt nie pracuje, bo dzisiaj jest niedziela.",
+    "Nikt nie pracuje, bo dzisiaj jest niedziela"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum never drinks beer, but dad drinks.",
+   "answer": "Mama nigdy nie pije piwa, ale tata pije.",
+   "accepts": [
+    "Mama nigdy nie pije piwa, ale tata pije.",
+    "Mama nigdy nie pije piwa, ale tata pije"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm going nowhere today, because I am tired.",
+   "answer": "Dzisiaj nigdzie nie idę, bo jestem zmęczony.",
+   "accepts": [
+    "Dzisiaj nigdzie nie idę, bo jestem zmęczony.",
+    "Dzisiaj nigdzie nie idę, bo jestem zmęczony"
+   ]
+  },
+  {
+   "prompt_en": "Type: Nobody has time, because there is a lot of work today.",
+   "answer": "Nikt nie ma czasu, bo dzisiaj jest dużo pracy.",
+   "accepts": [
+    "Nikt nie ma czasu, bo dzisiaj jest dużo pracy.",
+    "Nikt nie ma czasu, bo dzisiaj jest dużo pracy"
+   ]
+  },
+  {
+   "prompt_en": "Type: Nobody is buying bread, because the shop is closed.",
+   "answer": "Nikt nie kupuje chleba, bo sklep jest zamknięty.",
+   "accepts": [
+    "Nikt nie kupuje chleba, bo sklep jest zamknięty.",
+    "Nikt nie kupuje chleba, bo sklep jest zamknięty"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is doing nothing, because he is tired.",
+   "answer": "Tata nic nie robi, bo jest zmęczony.",
+   "accepts": [
+    "Tata nic nie robi, bo jest zmęczony.",
+    "Tata nic nie robi, bo jest zmęczony"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have never been in Poland, but my brother was.",
+   "answer": "Nigdy nie byłem w Polsce, ale mój brat był.",
+   "accepts": [
+    "Nigdy nie byłem w Polsce, ale mój brat był.",
+    "Nigdy nie byłem w Polsce, ale mój brat był"
+   ]
+  },
+  {
+   "prompt_en": "Type: Nobody lives in the house, because the house is old.",
+   "answer": "Nikt nie mieszka w domu, bo dom jest stary.",
+   "accepts": [
+    "Nikt nie mieszka w domu, bo dom jest stary.",
+    "Nikt nie mieszka w domu, bo dom jest stary"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum never reads a book in the evening.",
+   "answer": "Mama nigdy nie czyta książki wieczorem.",
+   "accepts": [
+    "Mama nigdy nie czyta książki wieczorem.",
+    "Mama nigdy nie czyta książki wieczorem"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have nothing, but I have time.",
+   "answer": "Nic nie mam, ale mam czas.",
+   "accepts": [
+    "Nic nie mam, ale mam czas.",
+    "Nic nie mam, ale mam czas"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "nie",
+  "nie mam",
+  "nie ma",
+  "nic",
+  "nic nowego",
+  "nigdy",
+  "pracuje",
+  "mieszka",
+  "mieszkam",
+  "mieszkają",
+  "mieszkasz",
+  "mam",
+  "ma",
+  "czasu",
+  "czas",
+  "minut",
+  "godzin",
+  "kupuje",
+  "kupuję",
+  "chleba",
+  "chleb",
+  "mleka",
+  "zupy",
+  "idę",
+  "idzie",
+  "idą",
+  "jadę",
+  "piję",
+  "pije",
+  "piwa",
+  "piwo",
+  "piw",
+  "wody",
+  "kawy",
+  "kawę",
+  "kawa",
+  "kaw",
+  "robię",
+  "robi",
+  "czytam",
+  "czyta",
+  "książki",
+  "książkę",
+  "książka",
+  "książek",
+  "już",
+  "tak",
+  "bardzo",
+  "tata",
+  "mama",
+  "dom",
+  "domu",
+  "bo",
+  "dzisiaj",
+  "jest",
+  "jestem",
+  "niedziela",
+  "dużo",
+  "pracy",
+  "sklep",
+  "zamknięty",
+  "zmęczony",
+  "stary",
+  "byłem",
+  "był",
+  "w polsce",
+  "mój",
+  "brat",
+  "ale",
+  "wieczorem"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_double_neg",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

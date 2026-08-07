@@ -1,0 +1,566 @@
+{
+ "id": "b2_adj_acc",
+ "title": "Dobrą kawę · biernik",
+ "title_en": "Adjectives in the Accusative · only the feminine changes",
+ "level": "B2",
+ "tree_node": "b2_adj_acc",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 2, unit 1 of 6 — the opening unit of the adjective-case block (B2-SPINE O2). Deliberately the easiest of the six, and placed first for exactly that reason: it adds NO NEW ENDING.\n\nWHY THERE IS NO NEW ENDING: a1_miec already taught the whole feminine swap, in its own words — 'dobra kawa → Mam dobrą kawę. nowa książka → Mam nową książkę' — and its body_pl already states the masculine-thing/neuter relief outright ('Męskie rzeczy i nijakie bez zmian'). So the -ą ending, and the fact that masculine-inanimate and neuter do not move, have both been in the learner's hands since path index 9. Verified with check_new.py: dobrą and nową are TAUGHT (a1_miec); małą, dużą, zimną, gorącą, starą, ładną are NEW.\n\nWHAT IS ACTUALLY NEW, and it is two things, both small: (1) six more feminine object forms, each one the same mechanical -a → -ą on an adjective the learner already owns in the Nominative (all six base forms are taught — zimna, gorąca, mała, duża, stara, ładna, every one of them from a Jest-predicate sentence in an A1/A2 vocab leaf); (2) the generalisation off mieć. a1_miec taught the pattern with exactly one verb. This unit runs it after mam, piję, czytam, kupuję, kupię, robi and poproszę, which is what makes it a rule rather than a fact about having things.\n\nFENCED, and this is the fence most likely to be broken by accident in this block: NO OBLIQUE ADJECTIVE ENDINGS. -ego, -ej, -ym, -emu appear nowhere in this pack — not in a slide, not in a table, not as a quiz distractor. b2_adj_gen is where -ego is taught and it is the very next unit, so the temptation to preview it here is real and was refused.\n\nFENCED, second: MASCULINE-ANIMATE accusative (dobrego psa, mojego brata). The whole point of putting b2_adj_acc before b2_adj_gen is that masculine animates need -ego, which does not exist yet. Slide 2 names the gap in one English line ('masculine words for people and animals behave differently, and that is the next lesson') and shows no form for it. Masculine-animate nouns appear in this pack ONLY as grammatical subjects (Mój brat ma stary samochód), never as objects.\n\nDISTRACTOR DISCIPLINE: every wrong choice is a real taught Polish form in the wrong slot (the b1_imperative_rule convention) — Nominative feminines (zimna, mała, duża, stara, ładna, gorąca, dobra, nowa), masculine Nominatives (zimny, mały, duży, stary, ładny, gorący, dobry, nowy), neuter forms (małe, duże, dobre, nowe), and one adverb (zimno, taught by a2_weather in Jest zimno). Nothing fabricated.\n\nHOMOGRAPH CHECK PERFORMED on every recycled noun: walizkę (a2_transport2, taught as an accusative — that pack literally contains 'mam nową walizkę'), pocztówkę (a2_travel, accusative), umowę (a2_work2, accusative), serwetkę (a2_food2/a2_ordering_func, accusative), zupę (trunk_want_like_a1, accusative), kawę/herbatę/wodę/książkę (a1_miec, accusative). Every one was taught in the same slot it occupies here, so no form is being shown to the learner as a different word than he learned. The neuter/plural -e collision was checked too: dobre and małe were taught as neuter singulars (a1_gender_check 'dobre piwo'; trunk_adjectives_a1 'Mieszkanie jest małe'), which is the job they do here — this pack does not use nowe or duże at all, because those two were taught by a2_plural_nom as PLURAL adjectives and using them as neuter singulars would be the plural/neuter homograph arriving unannounced.\n\nNO PLURALS anywhere. No plural noun is an object in this pack; the plural accusative is not touched.\n\nGLOSSING: kupiła is perfective, glossed as a plain simple past ('Mum bought a pretty postcard'); kupuję is imperfective present, glossed progressive ('I'm buying'). Per AGENTS.md's split-by-verb-type rule.",
+ "focus_structures": [
+  "adj_acc"
+ ],
+ "teaches_structures": [
+  "adj_acc"
+ ],
+ "teaches_lemmas": [
+  "małą",
+  "dużą",
+  "zimną",
+  "gorącą",
+  "starą",
+  "ładną"
+ ],
+ "uses_structures": [
+  "adj_acc",
+  "zgoda",
+  "miec_acc",
+  "miec_present",
+  "present",
+  "present_am",
+  "present_e_esz",
+  "present_e_isz",
+  "present_uje",
+  "perf_future",
+  "aspect_past",
+  "situation_chunk",
+  "conjunctions",
+  "prep_w_loc",
+  "poss_nom"
+ ],
+ "intro": [
+  {
+   "title": "You have been doing this since the beginning",
+   "title_pl": "Mam dobrą kawę.",
+   "body": "When a feminine noun becomes the object of a verb, its -a swaps to -ę. You learned that in your very first lesson about mieć. What you learned at the same time, without it being called a rule, is that the adjective in front of it swaps -a to -ą. The two words move together, always. That is the whole of this lesson — the same swap, now on every adjective you know, and after every verb that takes an object.",
+   "body_pl": "dobra kawa → Mam dobrą kawę.",
+   "table": {
+    "headers": [
+     "Subject form",
+     "Object form",
+     "In a sentence"
+    ],
+    "rows": [
+     [
+      "dobra kawa",
+      "dobrą kawę",
+      "Mam dobrą kawę."
+     ],
+     [
+      "nowa książka",
+      "nową książkę",
+      "Czytam nową książkę."
+     ],
+     [
+      "zimna woda",
+      "zimną wodę",
+      "Piję zimną wodę."
+     ],
+     [
+      "stara walizka",
+      "starą walizkę",
+      "Mam starą walizkę."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Masculine things and neuter words: nothing changes",
+   "title_pl": "Mam nowy telefon. · Piję dobre piwo.",
+   "body": "A masculine word for a thing, and any neuter word, looks exactly the same as an object as it does as a subject. The adjective does not move either. There is nothing to learn here — this is the half of the job you get for free.\n\nMasculine words for people and animals behave differently. That is the next lesson, and until then leave them alone.",
+   "body_pl": "Rzeczy męskie i nijakie: bez zmian.",
+   "table": {
+    "headers": [
+     "Subject form",
+     "Object form",
+     "In a sentence"
+    ],
+    "rows": [
+     [
+      "nowy telefon",
+      "nowy telefon",
+      "Mam nowy telefon."
+     ],
+     [
+      "stary samochód",
+      "stary samochód",
+      "Mój brat ma stary samochód."
+     ],
+     [
+      "dobre piwo",
+      "dobre piwo",
+      "Piję dobre piwo."
+     ],
+     [
+      "małe mieszkanie",
+      "małe mieszkanie",
+      "Mam małe mieszkanie."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "One swap, and it works on every adjective you know",
+   "title_pl": "-a → -ą",
+   "body": "There is one ending and no exceptions among the words you have: the feminine -a becomes -ą. Which verb comes first makes no difference — mam, piję, czytam, kupuję and poproszę all take the same object form.",
+   "body_pl": "zimna → zimną · gorąca → gorącą · mała → małą",
+   "table": {
+    "headers": [
+     "Adjective",
+     "Object form",
+     "With a noun"
+    ],
+    "rows": [
+     [
+      "mała",
+      "małą",
+      "małą walizkę"
+     ],
+     [
+      "duża",
+      "dużą",
+      "dużą kawę"
+     ],
+     [
+      "zimna",
+      "zimną",
+      "zimną wodę"
+     ],
+     [
+      "gorąca",
+      "gorącą",
+      "gorącą herbatę"
+     ],
+     [
+      "stara",
+      "starą",
+      "starą książkę"
+     ],
+     [
+      "ładna",
+      "ładną",
+      "ładną pocztówkę"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I'm drinking cold water.",
+   "pl": "Piję zimną wodę."
+  },
+  {
+   "en": "I'm drinking hot tea.",
+   "pl": "Piję gorącą herbatę."
+  },
+  {
+   "en": "I have a small suitcase.",
+   "pl": "Mam małą walizkę."
+  },
+  {
+   "en": "A large coffee, please.",
+   "pl": "Poproszę dużą kawę."
+  },
+  {
+   "en": "I'm reading an old book.",
+   "pl": "Czytam starą książkę."
+  },
+  {
+   "en": "I have a pretty postcard.",
+   "pl": "Mam ładną pocztówkę."
+  },
+  {
+   "en": "Mum makes good soup.",
+   "pl": "Mama robi dobrą zupę."
+  },
+  {
+   "en": "I have a new contract.",
+   "pl": "Mam nową umowę."
+  },
+  {
+   "en": "I have a new phone.",
+   "pl": "Mam nowy telefon."
+  },
+  {
+   "en": "My brother has an old car.",
+   "pl": "Mój brat ma stary samochód."
+  },
+  {
+   "en": "I'm drinking good beer.",
+   "pl": "Piję dobre piwo."
+  },
+  {
+   "en": "I have a small flat.",
+   "pl": "Mam małe mieszkanie."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Piję ___ wodę. (cold)",
+   "choices": [
+    "zimną",
+    "zimna",
+    "zimny",
+    "zimno"
+   ],
+   "answer": "zimną",
+   "explain": "wodę is the object form, so the adjective takes the object ending as well: -a → -ą. zimna is the form in Woda jest zimna, where the water is the subject."
+  },
+  {
+   "prompt": "Mam ___ walizkę. (small)",
+   "choices": [
+    "małą",
+    "mała",
+    "małe",
+    "mały"
+   ],
+   "answer": "małą",
+   "explain": "walizka is feminine, so both words swap: mała walizka → małą walizkę."
+  },
+  {
+   "prompt": "Poproszę ___ kawę. (large)",
+   "choices": [
+    "dużą",
+    "duża",
+    "duże",
+    "duży"
+   ],
+   "answer": "dużą",
+   "explain": "poproszę takes an object exactly like mam does, so the same pair of endings turns up."
+  },
+  {
+   "prompt": "Czytam ___ książkę. (old)",
+   "choices": [
+    "starą",
+    "stara",
+    "stary",
+    "nową"
+   ],
+   "answer": "starą",
+   "explain": "nową is the right shape but the wrong word — it would say a new book."
+  },
+  {
+   "prompt": "Mam ___ telefon. (new)",
+   "choices": [
+    "nowy",
+    "nową",
+    "nowa",
+    "nowe"
+   ],
+   "answer": "nowy",
+   "explain": "telefon is masculine and it is a thing, so nothing changes at all — the object looks the same as the subject."
+  },
+  {
+   "prompt": "Piję ___ piwo. (good)",
+   "choices": [
+    "dobre",
+    "dobrą",
+    "dobry",
+    "dobra"
+   ],
+   "answer": "dobre",
+   "explain": "piwo is neuter, and neuter words never change for the object. dobrą would only be right in front of a feminine noun."
+  },
+  {
+   "prompt": "Mama robi ___ zupę. (good)",
+   "choices": [
+    "dobrą",
+    "dobra",
+    "dobre",
+    "dobry"
+   ],
+   "answer": "dobrą",
+   "explain": "The same dobrą you already say in Mam dobrą kawę — the verb in front of it makes no difference."
+  },
+  {
+   "prompt": "Mam ___ pocztówkę. (pretty)",
+   "choices": [
+    "ładną",
+    "ładna",
+    "ładny",
+    "dużą"
+   ],
+   "answer": "ładną",
+   "explain": "dużą has the right ending but says large, not pretty."
+  },
+  {
+   "prompt": "Mam ___ mieszkanie. (small)",
+   "choices": [
+    "małe",
+    "małą",
+    "mała",
+    "mały"
+   ],
+   "answer": "małe",
+   "explain": "mieszkanie is neuter — the same małe you use in Mieszkanie jest małe, unchanged."
+  },
+  {
+   "prompt": "Piję ___ herbatę. (hot)",
+   "choices": [
+    "gorącą",
+    "gorąca",
+    "gorący",
+    "zimną"
+   ],
+   "answer": "gorącą",
+   "explain": "zimną is built correctly, but it says cold. gorąca is the subject form, as in Kawa była gorąca."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "cold water (accusative)",
+   "mode": "full_word",
+   "answer": "zimną wodę",
+   "accepts": [
+    "zimną wodę"
+   ]
+  },
+  {
+   "prompt_en": "hot tea (accusative)",
+   "mode": "full_word",
+   "answer": "gorącą herbatę",
+   "accepts": [
+    "gorącą herbatę"
+   ]
+  },
+  {
+   "prompt_en": "a small suitcase (accusative)",
+   "mode": "full_word",
+   "answer": "małą walizkę",
+   "accepts": [
+    "małą walizkę"
+   ]
+  },
+  {
+   "prompt_en": "a large coffee (accusative)",
+   "mode": "full_word",
+   "answer": "dużą kawę",
+   "accepts": [
+    "dużą kawę"
+   ]
+  },
+  {
+   "prompt_en": "an old book (accusative)",
+   "mode": "full_word",
+   "answer": "starą książkę",
+   "accepts": [
+    "starą książkę"
+   ]
+  },
+  {
+   "prompt_en": "a pretty postcard (accusative)",
+   "mode": "full_word",
+   "answer": "ładną pocztówkę",
+   "accepts": [
+    "ładną pocztówkę"
+   ]
+  },
+  {
+   "prompt_en": "good soup (accusative)",
+   "mode": "full_word",
+   "answer": "dobrą zupę",
+   "accepts": [
+    "dobrą zupę"
+   ]
+  },
+  {
+   "prompt_en": "a new contract (accusative)",
+   "mode": "full_word",
+   "answer": "nową umowę",
+   "accepts": [
+    "nową umowę"
+   ]
+  },
+  {
+   "prompt_en": "a new phone (accusative — masculine thing, nothing changes)",
+   "mode": "full_word",
+   "answer": "nowy telefon",
+   "accepts": [
+    "nowy telefon"
+   ]
+  },
+  {
+   "prompt_en": "good beer (accusative — neuter, nothing changes)",
+   "mode": "full_word",
+   "answer": "dobre piwo",
+   "accepts": [
+    "dobre piwo"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum is drinking hot tea.",
+   "answer": "Mama pije gorącą herbatę.",
+   "accepts": [
+    "Mama pije gorącą herbatę.",
+    "Mama pije gorącą herbatę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is reading an old book.",
+   "answer": "Tata czyta starą książkę.",
+   "accepts": [
+    "Tata czyta starą książkę.",
+    "Tata czyta starą książkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister has a small suitcase.",
+   "answer": "Moja siostra ma małą walizkę.",
+   "accepts": [
+    "Moja siostra ma małą walizkę.",
+    "Moja siostra ma małą walizkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm buying cold water and good beer.",
+   "answer": "Kupuję zimną wodę i dobre piwo.",
+   "accepts": [
+    "Kupuję zimną wodę i dobre piwo.",
+    "Kupuję zimną wodę i dobre piwo"
+   ],
+   "explain": "Two objects, two genders: wodę is feminine so the adjective swaps to -ą, piwo is neuter so nothing moves."
+  },
+  {
+   "prompt_en": "Type: Mum makes good soup, and Dad drinks beer.",
+   "answer": "Mama robi dobrą zupę, a tata pije piwo.",
+   "accepts": [
+    "Mama robi dobrą zupę, a tata pije piwo.",
+    "Mama robi dobrą zupę, a tata pije piwo"
+   ]
+  },
+  {
+   "prompt_en": "Type: Tomorrow I'll buy a new phone.",
+   "answer": "Jutro kupię nowy telefon.",
+   "accepts": [
+    "Jutro kupię nowy telefon.",
+    "Jutro kupię nowy telefon"
+   ],
+   "explain": "The tense makes no difference to the object — telefon is a masculine thing, so it looks the same after kupię as it does after mam."
+  },
+  {
+   "prompt_en": "Type: My brother has an old car.",
+   "answer": "Mój brat ma stary samochód.",
+   "accepts": [
+    "Mój brat ma stary samochód.",
+    "Mój brat ma stary samochód"
+   ],
+   "explain": "brat is the one doing the having here, so it is the subject and keeps its plain form. The car is the object, and it is a masculine thing — unchanged."
+  },
+  {
+   "prompt_en": "Type: Mum bought a pretty postcard.",
+   "answer": "Mama kupiła ładną pocztówkę.",
+   "accepts": [
+    "Mama kupiła ładną pocztówkę.",
+    "Mama kupiła ładną pocztówkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: A large coffee and a napkin, please.",
+   "answer": "Poproszę dużą kawę i serwetkę.",
+   "accepts": [
+    "Poproszę dużą kawę i serwetkę.",
+    "Poproszę dużą kawę i serwetkę"
+   ]
+  },
+  {
+   "prompt_en": "Type: I have a small flat in the city.",
+   "answer": "Mam małe mieszkanie w mieście.",
+   "accepts": [
+    "Mam małe mieszkanie w mieście.",
+    "Mam małe mieszkanie w mieście"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "dobra",
+  "dobrą",
+  "dobre",
+  "dobry",
+  "nowa",
+  "nową",
+  "nowe",
+  "nowy",
+  "mała",
+  "małe",
+  "mały",
+  "duża",
+  "duże",
+  "duży",
+  "zimna",
+  "zimny",
+  "zimno",
+  "gorąca",
+  "gorący",
+  "stara",
+  "stary",
+  "ładna",
+  "ładny",
+  "kawa",
+  "kawę",
+  "książka",
+  "książkę",
+  "woda",
+  "wodę",
+  "herbatę",
+  "zupę",
+  "walizka",
+  "walizkę",
+  "pocztówkę",
+  "umowę",
+  "serwetkę",
+  "telefon",
+  "samochód",
+  "piwo",
+  "mieszkanie",
+  "brat",
+  "mama",
+  "tata",
+  "siostra",
+  "mam",
+  "ma",
+  "piję",
+  "pije",
+  "czytam",
+  "czyta",
+  "robi",
+  "kupuję",
+  "kupię",
+  "kupiła",
+  "poproszę",
+  "mój",
+  "moja",
+  "jutro",
+  "i",
+  "a",
+  "w mieście",
+  "mieście"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_adj_acc",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

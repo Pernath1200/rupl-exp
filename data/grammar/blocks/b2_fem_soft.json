@@ -1,0 +1,505 @@
+{
+ "id": "b2_fem_soft",
+ "title": "Mamie, szkole, pracy",
+ "title_en": "Feminine nouns · one form for Dative and Locative",
+ "level": "B2",
+ "tree_node": "b2_fem_soft",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 1, unit 3. PAYS B1-DIGEST DEFERRED ITEM 1. b1_dative_sg handed mamie / tacie / siostrze over as memorised whole forms and logged: 'three different feminine consonant-softening classes (m->mi, t->ci, r->rz) plus brat's own irregular -u would be the do/z cliff again if derived honestly in one unit... The general feminine dative/locative rule stays untaught. James should decide whether it needs a slot.' B2-SPINE gave it this slot; this is that unit.\n\nWHY IT IS LIGHT DESPITE LOOKING BIG: four of the nine forms drilled here are ALREADY IN THE POOL — mamie and siostrze as Datives (b1_dative_sg), szkole and pracy as Locatives (a1_prep_place / a1_prep_review_2). Only five forms are genuinely new: kobiecie, łazience, ulicy, kuchni, sypialni. So the unit is mostly revelation, not acquisition — the b2_verbal_nouns idiom of 'words you already say turn out to be one pattern'.\n\nTHE GIFT, and the reason this unit is worth its slot: for feminine nouns the Dative and the Locative are THE SAME FORM. It is exceptionless across every noun used here, and it means one rule pays for two cases. Slide 1 is entirely this, with three nouns shown doing both jobs side by side (Mówię o mamie / Pomagam mamie). The Genitive is also identical for the soft group (pracy, ulicy, kuchni) — named honestly in one explain string where the learner has already met do pracy, rather than left to look like a contradiction.\n\nTWO CLASSES, and the one real judgment call in this unit:\n- Class A, hard stem: -a -> -e, and the consonant before it softens. Five pairs shown as a visible family table (-ma->-mie, -ra->-rze, -ła->-le, -ta->-cie, -ka->-ce) with the slide saying outright that the learner is NOT expected to work these out for an unseen word — the closed-family treatment O10 prescribes and that kelnerzy / mógłby / the family datives already established.\n- Class B, stem already soft: -y or -i instead, nothing else changing.\nJUDGMENT CALL, logged: the conservative option was Class A only, deferring Class B. Rejected, because pracy is one of the most frequent forms in the whole course (w pracy, owned since A1) and would then sit in plain sight as a counterexample to the rule just taught. Teaching only half the split would actively mislead; the split itself costs one slide and no new alternation to memorise.\n\ntata: named in ONE line on slide 2 and nowhere else. It is masculine but ends in -a and follows Class A, which is why the learner already says tacie (b1_dative_sg). tacie is already taught, so this adds no form and no rule — it exists only to stop the 'feminine' framing from un-teaching a word he owns. Deliberately not drilled: it appears in no match row, no quiz item, no type item, no use item.\n\nFENCED: brat -> bratu and every masculine dative (b1_dative_sg owns -owi separately; this unit is about the -a class only). Feminine ACCUSATIVE forms (mamę, siostrę) appear only as wrong-slot quiz distractors, never taught or implied as part of this pattern. No plural anywhere — the plural obliques are their own three units later in B2. No new governors: every Locative frame uses w / na / o and every Dative frame uses pomagać / dziękować, all already owned.\n\nDISTRACTORS are real taught forms in the wrong slot (the b1_imperative_rule convention), never fabricated: citation forms (kuchnia, łazienka, siostra, kobieta), already-taught accusatives (mamę, siostrę), the already-taught plural kobiety, and correct forms of the wrong noun. mamy was deliberately kept out of the distractor pool — AGENTS.md's own homograph table records it as the verb 'we have' (a1_miec), not a form of mama.\n\nONE PRESENTATION CHANGE made during self-verification, worth recording because it is the ci/ci trap arriving from an unexpected direction: slide 2's third column originally listed the alternations as bare consonant maps (m -> mi, t -> ci). Both mi and ci are already taught as DATIVE PRONOUNS (a2_dat_chunks, b1_dative_pron), and ci is the course's most documented two-meaning collision — printing it as a bare token inside a dative unit was asking for it to be read as the pronoun. Rewritten as whole ending-shapes (-ma -> -mie, -ta -> -cie), which is clearer for the learner anyway since it shows the actual shape of the word's end rather than an abstract letter map.",
+ "focus_structures": [
+  "fem_dat_loc"
+ ],
+ "teaches_structures": [
+  "fem_dat_loc"
+ ],
+ "teaches_lemmas": [
+  "kobiecie",
+  "łazience",
+  "ulicy",
+  "kuchni",
+  "sypialni"
+ ],
+ "uses_structures": [
+  "fem_dat_loc",
+  "dative_sg",
+  "prep_w_loc",
+  "o_loc",
+  "byc_present",
+  "present_am",
+  "present_e_isz",
+  "poss_nom",
+  "copular_future",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "One form, two jobs",
+   "title_pl": "Mamie · siostrze · kobiecie",
+   "body": "For feminine nouns, the form used after w, na and o is the same as the form used after pomagam and dziękuję. You have been using both for months without noticing: w szkole is one job, pomagam mamie is the other, and they are built the same way. Learn one form and you have both.",
+   "body_pl": "Mówię o mamie. · Pomagam mamie.",
+   "table": {
+    "headers": [
+     "Noun",
+     "The form",
+     "After w, na, o",
+     "After pomagam, dziękuję"
+    ],
+    "rows": [
+     [
+      "mama",
+      "mamie",
+      "Mówię o mamie.",
+      "Pomagam mamie."
+     ],
+     [
+      "siostra",
+      "siostrze",
+      "Myślę o siostrze.",
+      "Dziękuję siostrze."
+     ],
+     [
+      "kobieta",
+      "kobiecie",
+      "Mówię o kobiecie.",
+      "Pomagam kobiecie."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "How the form is made: -a comes off, -e goes on",
+   "title_pl": "-a → -e",
+   "body": "Take the -a off and put -e on. The consonant just before the ending changes as it goes. These are pairs to learn, not a sum to do — you are not expected to work out the right consonant for a word you have not seen before. One word here is not feminine at all: tata ends in -a and changes the same way, which is why you already say tacie.",
+   "body_pl": "szkoła → szkole · siostra → siostrze",
+   "table": {
+    "headers": [
+     "Noun",
+     "Form",
+     "What changed"
+    ],
+    "rows": [
+     [
+      "mama",
+      "mamie",
+      "-ma → -mie"
+     ],
+     [
+      "siostra",
+      "siostrze",
+      "-ra → -rze"
+     ],
+     [
+      "szkoła",
+      "szkole",
+      "-ła → -le"
+     ],
+     [
+      "kobieta",
+      "kobiecie",
+      "-ta → -cie"
+     ],
+     [
+      "łazienka",
+      "łazience",
+      "-ka → -ce"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The second group: -y or -i, and nothing else changes",
+   "title_pl": "praca → pracy · kuchnia → kuchni",
+   "body": "Some feminine nouns already end in a soft consonant before the -a. There is nothing left to soften, so they simply take -y or -i and the stem stays as it is. This is why you have always said w pracy and never anything else.",
+   "body_pl": "w pracy · na ulicy · w kuchni · w sypialni",
+   "table": {
+    "headers": [
+     "Noun",
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "praca",
+      "pracy",
+      "Jestem w pracy."
+     ],
+     [
+      "ulica",
+      "ulicy",
+      "Mama jest na ulicy."
+     ],
+     [
+      "kuchnia",
+      "kuchni",
+      "Mama jest w kuchni."
+     ],
+     [
+      "sypialnia",
+      "sypialni",
+      "Tata jest w sypialni."
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "at school",
+   "pl": "w szkole"
+  },
+  {
+   "en": "at work",
+   "pl": "w pracy"
+  },
+  {
+   "en": "in the kitchen",
+   "pl": "w kuchni"
+  },
+  {
+   "en": "in the bathroom",
+   "pl": "w łazience"
+  },
+  {
+   "en": "in the bedroom",
+   "pl": "w sypialni"
+  },
+  {
+   "en": "on the street",
+   "pl": "na ulicy"
+  },
+  {
+   "en": "I'm helping Mum.",
+   "pl": "Pomagam mamie."
+  },
+  {
+   "en": "I'm talking about Mum.",
+   "pl": "Mówię o mamie."
+  },
+  {
+   "en": "I'm thanking my sister.",
+   "pl": "Dziękuję siostrze."
+  },
+  {
+   "en": "I'm thinking about my sister.",
+   "pl": "Myślę o siostrze."
+  },
+  {
+   "en": "I'm helping the woman.",
+   "pl": "Pomagam kobiecie."
+  },
+  {
+   "en": "I'm talking about the woman.",
+   "pl": "Mówię o kobiecie."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Mama jest w ___. (in the kitchen)",
+   "choices": [
+    "kuchni",
+    "kuchnia",
+    "łazience",
+    "pracy"
+   ],
+   "answer": "kuchni",
+   "explain": "kuchnia already ends in a soft consonant, so it takes -i and the stem stays as it is."
+  },
+  {
+   "prompt": "Tata jest w ___. (in the bedroom)",
+   "choices": [
+    "sypialni",
+    "sypialnia",
+    "kuchni",
+    "szkole"
+   ],
+   "answer": "sypialni",
+   "explain": "Same group as kuchnia — soft stem, so -i, nothing else changing."
+  },
+  {
+   "prompt": "Mama jest w ___. (in the bathroom)",
+   "choices": [
+    "łazience",
+    "łazienka",
+    "sypialni",
+    "pracy"
+   ],
+   "answer": "łazience",
+   "explain": "łazienka is a hard stem, so it takes -e and the k softens to c: łazienka → łazience."
+  },
+  {
+   "prompt": "Pomagam ___. (Mum)",
+   "choices": [
+    "mamie",
+    "mama",
+    "mamę",
+    "siostrze"
+   ],
+   "answer": "mamie",
+   "explain": "The same mamie you use in Mówię o mamie — one form doing both jobs. mamę is the form after mam, a different job again."
+  },
+  {
+   "prompt": "Dziękuję ___. (my sister)",
+   "choices": [
+    "siostrze",
+    "siostra",
+    "siostrę",
+    "mamie"
+   ],
+   "answer": "siostrze",
+   "explain": "r → rz, exactly as in Myślę o siostrze. Learning it once covers both."
+  },
+  {
+   "prompt": "Mówię o ___. (the woman)",
+   "choices": [
+    "kobiecie",
+    "kobieta",
+    "kobiety",
+    "mamie"
+   ],
+   "answer": "kobiecie",
+   "explain": "t → ci. And the same kobiecie works after pomagam: Pomagam kobiecie."
+  },
+  {
+   "prompt": "Myślę o ___. (school)",
+   "choices": [
+    "szkole",
+    "szkoła",
+    "pracy",
+    "kuchni"
+   ],
+   "answer": "szkole",
+   "explain": "ł → l. You have said w szkole since the very first place lesson — this is the same form, now with o in front of it."
+  },
+  {
+   "prompt": "Mama jest na ___. (the street)",
+   "choices": [
+    "ulicy",
+    "ulica",
+    "szkole",
+    "kuchni"
+   ],
+   "answer": "ulicy",
+   "explain": "ulica is in the soft group with praca, so -y."
+  },
+  {
+   "prompt": "I'm helping the woman. →",
+   "choices": [
+    "Pomagam kobiecie.",
+    "Pomagam kobieta.",
+    "Pomagam kobiety.",
+    "Pomagam mamie."
+   ],
+   "answer": "Pomagam kobiecie.",
+   "explain": "pomagam always takes this form of the noun. kobiety is the plural — more than one woman, and the wrong shape here anyway."
+  },
+  {
+   "prompt": "I'm talking about my sister. →",
+   "choices": [
+    "Mówię o siostrze.",
+    "Mówię o siostra.",
+    "Mówię o siostrę.",
+    "Myślę o siostrze."
+   ],
+   "answer": "Mówię o siostrze.",
+   "explain": "Myślę o siostrze is good Polish too, but it says \"I'm thinking about my sister\" — a different verb."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "at school",
+   "mode": "full_word",
+   "answer": "w szkole",
+   "accepts": [
+    "w szkole"
+   ]
+  },
+  {
+   "prompt_en": "at work",
+   "mode": "full_word",
+   "answer": "w pracy",
+   "accepts": [
+    "w pracy"
+   ]
+  },
+  {
+   "prompt_en": "in the kitchen",
+   "mode": "full_word",
+   "answer": "w kuchni",
+   "accepts": [
+    "w kuchni"
+   ]
+  },
+  {
+   "prompt_en": "in the bathroom",
+   "mode": "full_word",
+   "answer": "w łazience",
+   "accepts": [
+    "w łazience"
+   ]
+  },
+  {
+   "prompt_en": "in the bedroom",
+   "mode": "full_word",
+   "answer": "w sypialni",
+   "accepts": [
+    "w sypialni"
+   ]
+  },
+  {
+   "prompt_en": "on the street",
+   "mode": "full_word",
+   "answer": "na ulicy",
+   "accepts": [
+    "na ulicy"
+   ]
+  },
+  {
+   "prompt_en": "to Mum / about Mum — one form for both",
+   "mode": "full_word",
+   "answer": "mamie",
+   "accepts": [
+    "mamie"
+   ]
+  },
+  {
+   "prompt_en": "to my sister / about my sister — one form for both",
+   "mode": "full_word",
+   "answer": "siostrze",
+   "accepts": [
+    "siostrze"
+   ]
+  },
+  {
+   "prompt_en": "to the woman / about the woman — one form for both",
+   "mode": "full_word",
+   "answer": "kobiecie",
+   "accepts": [
+    "kobiecie"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum is in the kitchen.",
+   "answer": "Mama jest w kuchni.",
+   "accepts": [
+    "Mama jest w kuchni.",
+    "Mama jest w kuchni"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is in the bedroom.",
+   "answer": "Tata jest w sypialni.",
+   "accepts": [
+    "Tata jest w sypialni.",
+    "Tata jest w sypialni"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister is in the bathroom.",
+   "answer": "Moja siostra jest w łazience.",
+   "accepts": [
+    "Moja siostra jest w łazience.",
+    "Moja siostra jest w łazience"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm helping Mum.",
+   "answer": "Pomagam mamie.",
+   "accepts": [
+    "Pomagam mamie.",
+    "Pomagam mamie"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is helping my sister.",
+   "answer": "Mama pomaga siostrze.",
+   "accepts": [
+    "Mama pomaga siostrze.",
+    "Mama pomaga siostrze"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm talking about the woman.",
+   "answer": "Mówię o kobiecie.",
+   "accepts": [
+    "Mówię o kobiecie.",
+    "Mówię o kobiecie"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm thinking about school.",
+   "answer": "Myślę o szkole.",
+   "accepts": [
+    "Myślę o szkole.",
+    "Myślę o szkole"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is at work, but Dad is at home.",
+   "answer": "Mama jest w pracy, ale tata jest w domu.",
+   "accepts": [
+    "Mama jest w pracy, ale tata jest w domu.",
+    "Mama jest w pracy, ale tata jest w domu"
+   ]
+  },
+  {
+   "prompt_en": "Type: Tomorrow Mum will be in the kitchen.",
+   "answer": "Jutro mama będzie w kuchni.",
+   "accepts": [
+    "Jutro mama będzie w kuchni.",
+    "Jutro mama będzie w kuchni"
+   ],
+   "explain": "będzie takes the place phrase straight after it, and the place phrase is built exactly as it is in the present: w kuchni either way."
+  }
+ ],
+ "uses_lemmas": [
+  "mama",
+  "mamie",
+  "mamę",
+  "siostra",
+  "siostrze",
+  "siostrę",
+  "kobieta",
+  "kobiety",
+  "szkoła",
+  "szkole",
+  "praca",
+  "pracy",
+  "ulica",
+  "kuchnia",
+  "sypialnia",
+  "łazienka",
+  "tata",
+  "tacie",
+  "moja",
+  "jest",
+  "jestem",
+  "będzie",
+  "jutro",
+  "pomagam",
+  "pomaga",
+  "dziękuję",
+  "mówię",
+  "myślę",
+  "w szkole",
+  "w domu",
+  "ale"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_fem_soft",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

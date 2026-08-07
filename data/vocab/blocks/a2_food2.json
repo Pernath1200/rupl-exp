@@ -1,0 +1,504 @@
+{
+  "id": "a2_food2",
+  "title": "Na stole",
+  "title_en": "At the table",
+  "level": "A2",
+  "tree_node": "a2_food2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · second food pack, on top of A1 jedzenie i picie. A1 already taught kelner, menu, rachunek, restauracja, kawiarnia, zupa, sałatka, obiad, kolacja, jeść, pić, zamawiać, szklanka, filiżanka, kubek, butelka — all ANCHORS here, never re-taught. This pack teaches the things on the table (talerz, widelec, nóż, łyżka, serwetka), three ordering words (napój, danie, deser) and four taste adjectives with both genders. Adjectives take no gender badge (that field is for nouns). Deliberately does NOT teach smakuje — that belongs to a2_dat_chunks.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "past_byc",
+    "to_jest",
+    "poss_nom",
+    "miec_acc",
+    "miec_present",
+    "prep_place",
+    "existential_jest",
+    "ten_ta_to"
+  ],
+  "blocks": [
+    {
+      "id": "food2_table",
+      "title": "On the table · new words",
+      "items": [
+        {
+          "en": "plate",
+          "pl": "talerz",
+          "icon": "🍽️",
+          "gender": "m"
+        },
+        {
+          "en": "fork",
+          "pl": "widelec",
+          "icon": "🍴",
+          "gender": "m"
+        },
+        {
+          "en": "knife",
+          "pl": "nóż",
+          "icon": "🔪",
+          "gender": "m"
+        },
+        {
+          "en": "spoon",
+          "pl": "łyżka",
+          "icon": "🥄",
+          "gender": "f"
+        },
+        {
+          "en": "napkin",
+          "pl": "serwetka",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "id": "food2_order",
+      "title": "Ordering · new words",
+      "items": [
+        {
+          "en": "drink (noun)",
+          "pl": "napój",
+          "icon": "🥤",
+          "gender": "m"
+        },
+        {
+          "en": "dish (one course of a meal)",
+          "pl": "danie",
+          "icon": "🍛",
+          "gender": "n"
+        },
+        {
+          "en": "dessert",
+          "pl": "deser",
+          "icon": "🍰",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "food2_taste",
+      "title": "Taste · new words (m / f)",
+      "items": [
+        {
+          "en": "sweet (m)",
+          "pl": "słodki",
+          "icon": "🍬"
+        },
+        {
+          "en": "sweet (f)",
+          "pl": "słodka",
+          "icon": "🍬"
+        },
+        {
+          "en": "salty (m)",
+          "pl": "słony",
+          "icon": "🧂"
+        },
+        {
+          "en": "salty (f)",
+          "pl": "słona",
+          "icon": "🧂"
+        },
+        {
+          "en": "tasty (m)",
+          "pl": "smaczny",
+          "icon": "😋"
+        },
+        {
+          "en": "tasty (f)",
+          "pl": "smaczna",
+          "icon": "😋"
+        },
+        {
+          "en": "hot — of food or drink (m)",
+          "pl": "gorący",
+          "icon": "🔥"
+        },
+        {
+          "en": "hot — of food or drink (f)",
+          "pl": "gorąca",
+          "icon": "🔥"
+        }
+      ]
+    },
+    {
+      "id": "food2_please",
+      "title": "Asking for things at the table",
+      "items": [
+        {
+          "en": "a fork, please",
+          "pl": "poproszę widelec"
+        },
+        {
+          "en": "a knife, please",
+          "pl": "poproszę nóż"
+        },
+        {
+          "en": "a spoon, please",
+          "pl": "poproszę łyżkę"
+        },
+        {
+          "en": "a napkin, please",
+          "pl": "poproszę serwetkę"
+        },
+        {
+          "en": "a drink, please",
+          "pl": "poproszę napój"
+        },
+        {
+          "en": "a dessert, please",
+          "pl": "poproszę deser"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I have a plate.",
+      "pl": "Mam talerz.",
+      "accepts": [
+        "Mam talerz.",
+        "Mam talerz"
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "talerz"
+      ],
+      "explain": "talerz is masculine and not alive, so nothing is added after mam — exactly like mam chleb and mam ser."
+    },
+    {
+      "en": "The fork is on the table.",
+      "pl": "Widelec jest na stole.",
+      "accepts": [
+        "Widelec jest na stole.",
+        "Widelec jest na stole",
+        "Na stole jest widelec.",
+        "Na stole jest widelec"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "widelec"
+      ]
+    },
+    {
+      "en": "There is a knife on the table.",
+      "pl": "Na stole jest nóż.",
+      "accepts": [
+        "Na stole jest nóż.",
+        "Na stole jest nóż",
+        "Nóż jest na stole.",
+        "Nóż jest na stole",
+        "Jest nóż na stole.",
+        "Jest nóż na stole"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "nóż"
+      ],
+      "explain": "nóż looks soft at the end but it is masculine, like sok and chleb. The ó is only there in this short form."
+    },
+    {
+      "en": "The spoon is on the table.",
+      "pl": "Łyżka jest na stole.",
+      "accepts": [
+        "Łyżka jest na stole.",
+        "Łyżka jest na stole",
+        "Na stole jest łyżka.",
+        "Na stole jest łyżka"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "łyżka"
+      ],
+      "explain": "łyżka ends in -a, so it is feminine — the same family as szklanka and butelka."
+    },
+    {
+      "en": "I have a napkin.",
+      "pl": "Mam serwetkę.",
+      "accepts": [
+        "Mam serwetkę.",
+        "Mam serwetkę",
+        "Mam serwetke.",
+        "Mam serwetke"
+      ],
+      "structures": [
+        "miec_acc",
+        "miec_present"
+      ],
+      "lemmas": [
+        "serwetka",
+        "serwetkę"
+      ],
+      "explain": "Feminine words in -a swap to -ę after mam: serwetka → serwetkę, just like kawa → kawę."
+    },
+    {
+      "en": "This is my drink.",
+      "pl": "To jest mój napój.",
+      "accepts": [
+        "To jest mój napój.",
+        "To jest mój napój",
+        "To mój napój.",
+        "To mój napój"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "napój"
+      ],
+      "explain": "napój is the general word for a drink — the thing in the glass. The verb pić is the action of drinking it."
+    },
+    {
+      "en": "That dish was good.",
+      "pl": "To danie było dobre.",
+      "accepts": [
+        "To danie było dobre.",
+        "To danie było dobre"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda",
+        "ten_ta_to"
+      ],
+      "lemmas": [
+        "danie"
+      ],
+      "explain": "danie is neuter, like piwo and mleko, so both the verb and the adjective take the neuter -o / -e endings: było dobre."
+    },
+    {
+      "en": "The dessert was very good.",
+      "pl": "Deser był bardzo dobry.",
+      "accepts": [
+        "Deser był bardzo dobry.",
+        "Deser był bardzo dobry"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "deser"
+      ]
+    },
+    {
+      "en": "The tea is sweet.",
+      "pl": "Herbata jest słodka.",
+      "accepts": [
+        "Herbata jest słodka.",
+        "Herbata jest słodka"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "słodka"
+      ],
+      "explain": "herbata is feminine, so the adjective ends in -a: słodka. The same -a you already use in kawa jest dobra."
+    },
+    {
+      "en": "This juice is sweet.",
+      "pl": "Ten sok jest słodki.",
+      "accepts": [
+        "Ten sok jest słodki.",
+        "Ten sok jest słodki",
+        "Sok jest słodki.",
+        "Sok jest słodki"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "ten_ta_to"
+      ],
+      "lemmas": [
+        "słodki"
+      ]
+    },
+    {
+      "en": "The soup was salty.",
+      "pl": "Zupa była słona.",
+      "accepts": [
+        "Zupa była słona.",
+        "Zupa była słona"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "słona"
+      ],
+      "explain": "słony comes straight from sól — salt. Feminine zupa pulls both endings to -a: była słona."
+    },
+    {
+      "en": "The cheese is salty.",
+      "pl": "Ser jest słony.",
+      "accepts": [
+        "Ser jest słony.",
+        "Ser jest słony"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "słony"
+      ]
+    },
+    {
+      "en": "Dinner was tasty.",
+      "pl": "Kolacja była smaczna.",
+      "accepts": [
+        "Kolacja była smaczna.",
+        "Kolacja była smaczna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "smaczna"
+      ],
+      "explain": "kolacja is the evening meal and it is feminine, so it takes była smaczna. Lunch — obiad — is masculine and takes był smaczny."
+    },
+    {
+      "en": "Lunch was tasty.",
+      "pl": "Obiad był smaczny.",
+      "accepts": [
+        "Obiad był smaczny.",
+        "Obiad był smaczny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "smaczny"
+      ]
+    },
+    {
+      "en": "The coffee was hot.",
+      "pl": "Kawa była gorąca.",
+      "accepts": [
+        "Kawa była gorąca.",
+        "Kawa była gorąca"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gorąca"
+      ],
+      "explain": "You already know gorąco for the weather — that form never changes. To describe a thing you need the adjective, and it agrees: kawa była gorąca, deser był gorący."
+    },
+    {
+      "en": "This drink is hot.",
+      "pl": "Ten napój jest gorący.",
+      "accepts": [
+        "Ten napój jest gorący.",
+        "Ten napój jest gorący",
+        "Napój jest gorący.",
+        "Napój jest gorący"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "ten_ta_to"
+      ],
+      "lemmas": [
+        "gorący"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "talerz",
+    "widelec",
+    "nóż",
+    "łyżka",
+    "łyżkę",
+    "serwetka",
+    "serwetkę",
+    "napój",
+    "danie",
+    "deser",
+    "słodki",
+    "słodka",
+    "słony",
+    "słona",
+    "smaczny",
+    "smaczna",
+    "gorący",
+    "gorąca",
+    "poproszę widelec",
+    "poproszę nóż",
+    "poproszę łyżkę",
+    "poproszę serwetkę",
+    "poproszę napój",
+    "poproszę deser"
+  ],
+  "uses_lemmas": [
+    "jest",
+    "był",
+    "była",
+    "było",
+    "mam",
+    "to",
+    "ten",
+    "mój",
+    "na stole",
+    "stole",
+    "stół",
+    "poproszę",
+    "bardzo",
+    "dobry",
+    "dobre",
+    "gorąco",
+    "kawa",
+    "herbata",
+    "sok",
+    "ser",
+    "zupa",
+    "kolacja",
+    "obiad",
+    "chleb",
+    "szklanka",
+    "butelka",
+    "pić",
+    "sól"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_food2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

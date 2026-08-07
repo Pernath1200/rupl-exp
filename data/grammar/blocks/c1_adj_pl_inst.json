@@ -1,0 +1,580 @@
+{
+ "id": "c1_adj_pl_inst",
+ "title": "Z dobrymi kolegami",
+ "title_en": "Plural adjectives in the Instrumental · -ymi",
+ "level": "C1",
+ "tree_node": "c1_adj_pl_inst",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "C1 Block 2, unit 3 (C1-SPINE O2) — the Instrumental plural, and the block's only genuinely new ending after the Genitive.\n\nTHREE NEW FORMS, ONE ENDING: dobrymi, nowymi, malymi, all verified NEW. -ymi covers every gender, exactly as -ych does, so the block's headline holds for a third case running.\n\nTHE UNIT'S ONE DISCRIMINATION, and it is the reason it earns a slot rather than folding into the node before it: THE PLURAL UNDOES A MERGER THE SINGULAR HAD. b2_adj_inst's own headline was that for masculine and neuter the Locative and Instrumental adjective is the SAME form (w dobrym hotelu / z dobrym kolega) — that was its gift. In the plural they come apart: -ych after w, na, o; -ymi after z. So this unit is not \"another case, another ending\", it is the case that breaks the pattern the previous two established, and slide 2 is that fact alone. Recycling c1_adj_pl_loc one node back is what makes the contrast legible.\n\nA GENUINE DESIGN FORK, TAKEN DELIBERATELY AND LOGGED — THIS UNIT USES PERSON NOUNS WITH ADJECTIVES AND ITS TWO SIBLINGS DID NOT. c1_adj_pl_gen fenced person nouns out entirely (\"no person noun takes an adjective in this unit\") and c1_adj_pl_loc held the same line. That fence CANNOT be held here, and the reason is lexical rather than pedagogical: b2_inst_pl [153] taught exactly twelve Instrumental plurals and ELEVEN OF THEM ARE PEOPLE (rodzicami, dziecmi, kolegami, siostrami, corkami, synami, bracmi, ludzmi, klientami, pacjentami, ciociami). The only non-person is kotami. Every alternative checked is NEW: studentami, nauczycielami, lekarzami, autobusami, samochodami, kluczami, telefonami, ksiazkami, gazetami, plecakami, przyjaciolmi, goscmi. Holding the sibling fence would have produced a twelve-row match board about cats.\n\nWHY THAT IS SAFE, checked rather than assumed: THE INSTRUMENTAL PLURAL HAS NO VIRILE SPLIT. -ymi is the form for virile and non-virile alike, and -ami/-mi is likewise uniform on the noun. So no virile form appears anywhere in this unit — dobrymi is simply not a virile shape, and there is nothing here for c1_adj_pl_virile to have to correct later. The standing C1-SPINE fence is \"virile forms appear nowhere before c1_adj_pl_virile\", and that fence is fully intact. What is deliberately NOT done: no VIRILE NOMINATIVE plural is shown, so no person noun in the Nominative ever takes an adjective (lekarze and dzieci appear as bare subjects, b2_inst_pl's own sentence shape). If James wants the stricter sibling fence held course-wide, this unit is the one that has to change and the honest alternative is that it cannot be built at all from taught material.\n\nduzymi IS DROPPED, and this is the second fork. c1_adj_pl_gen chose its four adjectives \"by what could be anchored, not by what sounded useful\", dropping stary and zimny. The same test drops duzy here: with eleven person nouns and one animal, duzy has no natural collocation — \"with big people\", \"with big brothers\" are not sentences anyone wants, and kotami alone cannot carry a quarter of a twelve-row board. So this unit teaches THREE adjectives. CONSEQUENCE, LOGGED SO IT IS NOT DISCOVERED LATE: duzy now has dużych (Gen pl, Loc pl) but no Instrumental plural, an incomplete corner of the block's paradigm that c1_adj_pl_dat and c1_adj_pl_gym both inherit. The fix, if James wants the full four, is to teach duzymi in the gym or beside a later non-person Instrumental plural; it is NOT to force a cat sentence here.\n\nTWO JOBS, NOT THREE, and the unit says so rather than leaving a hole: accompaniment after z (inst_z) and identity after byc (inst_identity, Jestesmy dobrymi kolegami). The third Instrumental job, the bare form for transport (inst_transport), has NO plural in this course — autobusami and samochodami are both NEW — so nothing here asks for one.\n\nHOMOGRAPH AND SCOPE CHECKS RUN THIS BATCH. duza is TAUGHT but only as an ACCUSATIVE (b2_adj_acc [133]); b2_adj_inst's uses_lemmas carry dobra, nowa and mala as Instrumentals but NOT duza, so duza never appears in an Instrumental slot here. kolegach, klientach and pacjentach are all NEW, which is why every Locative contrast in the unit uses hotelach and sklepach — b2_loc_pl's nouns — rather than the person nouns the Instrumental rows use. kotem, klientem and pacjentem are NEW and appear nowhere, including as distractors, which is why the singular distractors are built on kolega and dzieckiem. koledzy is NEW (c1_irreg_virile owns it) and appears nowhere at all, which also removes the temptation to offer a plain-plural virile distractor.\n\nFENCED: no plural-Dative -ym (c1_adj_pl_dat, next node). -ym and -a DO appear, legally, as the SINGULAR Instrumental forms b2_adj_inst owns, used in exactly that job and only as the singular half of a contrast. -ich is out; every adjective is a hard stem.\n\nPISANIE: eight three-word prepositional phrases, the same shape as c1_adj_pl_loc. The Instrumental of accompaniment does not exist without z, so the governor is part of the minimal pattern unit — the w domu shape AGENTS names. Under the ≤3-word cap, pattern phrases and not composed sentences; nothing added to the repair queue. All eight answers distinct under the engine's own norm().",
+ "focus_structures": [
+  "adj_pl_inst"
+ ],
+ "teaches_structures": [
+  "adj_pl_inst"
+ ],
+ "teaches_lemmas": [
+  "dobrymi",
+  "nowymi",
+  "małymi"
+ ],
+ "uses_structures": [
+  "adj_pl_inst",
+  "adj_pl_loc",
+  "adj_pl_gen",
+  "adj_inst",
+  "adj_loc",
+  "zgoda",
+  "inst_z",
+  "inst_identity",
+  "inst_pl",
+  "loc_pl",
+  "prep_w_loc",
+  "prep_place",
+  "o_loc",
+  "prep_do_gen",
+  "plural_nom",
+  "poss_nom",
+  "present",
+  "byc_present",
+  "past_byc",
+  "past_plural",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "The one plural ending that is not -ych",
+   "title_pl": "z dobrymi kolegami",
+   "body": "Two cases in a row have taken -ych. The Instrumental does not. It has its own plural ending, -ymi, and it is the only new adjective ending left in this block. Like the others it covers every gender at once.",
+   "body_pl": "narzędnik liczby mnogiej — -ymi",
+   "table": {
+    "headers": [
+     "Case",
+     "Plural adjective",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Genitive",
+      "-ych",
+      "dużo dobrych sklepów"
+     ],
+     [
+      "Locative",
+      "-ych",
+      "w dobrych sklepach"
+     ],
+     [
+      "Instrumental",
+      "-ymi",
+      "z dobrymi kolegami"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The plural pulls two cases apart",
+   "title_pl": "dobrym → dobrych · dobrymi",
+   "body": "In the singular the Locative and the Instrumental looked identical for masculine and neuter — dobrym did both jobs, and that was the whole gift of the B2 Instrumental unit. The plural takes that back. Here the two cases have different endings, and the word in front tells you which one you need: w, na and o give you -ych, z gives you -ymi.",
+   "table": {
+    "headers": [
+     "",
+     "Singular",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "Locative",
+      "w dobrym hotelu",
+      "w dobrych hotelach"
+     ],
+     [
+      "Instrumental",
+      "z dobrym kolegą",
+      "z dobrymi kolegami"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "We were in good hotels with good friends.",
+     "pl": "Byliśmy w dobrych hotelach z dobrymi kolegami."
+    }
+   ]
+  },
+  {
+   "title": "Gender stops mattering, for the third time",
+   "title_pl": "-ym · -ą → -ymi",
+   "body": "The singular Instrumental made you choose: -ym for masculine and neuter, -ą for feminine. In the plural there is one string for all three, exactly as there was in the Genitive and the Locative.",
+   "table": {
+    "headers": [
+     "Gender",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "masculine",
+      "z dobrym kolegą",
+      "z dobrymi kolegami"
+     ],
+     [
+      "feminine",
+      "z małą siostrą",
+      "z małymi siostrami"
+     ],
+     [
+      "neuter",
+      "z małym dzieckiem",
+      "z małymi dziećmi"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Where the plural Instrumental is used",
+   "title_pl": "z kim? · kim jesteśmy?",
+   "body": "Two of the three Instrumental jobs have plurals in this course. Going somewhere with people takes z, and saying what a group is takes no preposition at all — the same shape as Jestem nauczycielem from A1, one person wider. The third job, the bare form for transport, has no plural here, so nothing asks you for one.",
+   "table": {
+    "headers": [
+     "Job",
+     "Example"
+    ],
+    "rows": [
+     [
+      "with (people)",
+      "Mama jest w domu z małymi dziećmi."
+     ],
+     [
+      "being something",
+      "Jesteśmy dobrymi kolegami."
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Dad works with good clients.",
+     "pl": "Tata pracuje z dobrymi klientami."
+    },
+    {
+     "en": "The children play with the small cats.",
+     "pl": "Dzieci grają z małymi kotami."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "We are good friends.",
+   "pl": "Jesteśmy dobrymi kolegami."
+  },
+  {
+   "en": "Dad works with good clients.",
+   "pl": "Tata pracuje z dobrymi klientami."
+  },
+  {
+   "en": "Grandma lives with good people.",
+   "pl": "Babcia mieszka z dobrymi ludźmi."
+  },
+  {
+   "en": "Doctors work with good patients.",
+   "pl": "Lekarze pracują z dobrymi pacjentami."
+  },
+  {
+   "en": "My sister lives with new friends.",
+   "pl": "Moja siostra mieszka z nowymi kolegami."
+  },
+  {
+   "en": "We are new clients.",
+   "pl": "Jesteśmy nowymi klientami."
+  },
+  {
+   "en": "Dad works with new people.",
+   "pl": "Tata pracuje z nowymi ludźmi."
+  },
+  {
+   "en": "The doctor works with new patients.",
+   "pl": "Lekarka pracuje z nowymi pacjentami."
+  },
+  {
+   "en": "Mum is at home with the small children.",
+   "pl": "Mama jest w domu z małymi dziećmi."
+  },
+  {
+   "en": "We were in the park with the little sisters.",
+   "pl": "Byliśmy w parku z małymi siostrami."
+  },
+  {
+   "en": "Mum is going to the shop with the little daughters.",
+   "pl": "Mama idzie do sklepu z małymi córkami."
+  },
+  {
+   "en": "The children play with the small cats.",
+   "pl": "Dzieci grają z małymi kotami."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "with good friends →",
+   "choices": [
+    "z dobrymi kolegami",
+    "z dobrym kolegami",
+    "z dobrymi kolegą",
+    "z dobrym kolegą"
+   ],
+   "answer": "z dobrymi kolegami",
+   "explain": "The last option is correct Polish for one friend. Both words go plural together or neither does."
+  },
+  {
+   "prompt": "Mama jest w domu z ___ dziećmi. (small)",
+   "choices": [
+    "małymi",
+    "małych",
+    "małym",
+    "małą"
+   ],
+   "answer": "małymi",
+   "explain": "-ych is what w, na and o take. z takes -ymi, and this is the only ending in the block that is genuinely new."
+  },
+  {
+   "prompt": "in good hotels →",
+   "choices": [
+    "w dobrych hotelach",
+    "w dobrymi hotelach",
+    "w dobrym hotelach",
+    "z dobrymi hotelach"
+   ],
+   "answer": "w dobrych hotelach",
+   "explain": "The Locative has not changed. -ymi belongs to z alone, and putting it after w is the predictable error now that both endings exist."
+  },
+  {
+   "prompt": "Tata pracuje z ___ klientami. (new)",
+   "choices": [
+    "nowymi",
+    "nowych",
+    "nowym",
+    "nowe"
+   ],
+   "answer": "nowymi",
+   "explain": "klientami is an Instrumental plural, so the adjective in front of it takes the Instrumental plural ending."
+  },
+  {
+   "prompt": "with the small cats →",
+   "choices": [
+    "z małymi kotami",
+    "z małych kotami",
+    "z małym kotami",
+    "z małe koty"
+   ],
+   "answer": "z małymi kotami",
+   "explain": "małe koty is the plain plural left exactly as it stands — the shape English invites, because English changes nothing after \"with\"."
+  },
+  {
+   "prompt": "with a small child (just one) →",
+   "choices": [
+    "z małym dzieckiem",
+    "z małymi dzieckiem",
+    "z małym dziećmi",
+    "z małymi dziećmi"
+   ],
+   "answer": "z małym dzieckiem",
+   "explain": "One child is still the singular Instrumental from B2. The last option is correct, but for more than one."
+  },
+  {
+   "prompt": "We are good friends. →",
+   "choices": [
+    "Jesteśmy dobrymi kolegami.",
+    "Jesteśmy dobrych kolegami.",
+    "Jesteśmy dobrym kolegami.",
+    "Jesteśmy dobrymi kolegą."
+   ],
+   "answer": "Jesteśmy dobrymi kolegami.",
+   "explain": "Saying what a group is takes the Instrumental with no preposition at all — the same shape as Jestem nauczycielem, only plural."
+  },
+  {
+   "prompt": "with the little sisters →",
+   "choices": [
+    "z małymi siostrami",
+    "z małych siostrami",
+    "z małą siostrami",
+    "z małą siostrą"
+   ],
+   "answer": "z małymi siostrami",
+   "explain": "The last option is correct for one sister — -ą is the singular feminine. The plural has no feminine form of its own."
+  },
+  {
+   "prompt": "Myślę o ___ sklepach. (new)",
+   "choices": [
+    "nowych",
+    "nowymi",
+    "nowym",
+    "nowe"
+   ],
+   "answer": "nowych",
+   "explain": "o is a Locative word, so it takes -ych. -ymi never follows o, however plural the noun is."
+  },
+  {
+   "prompt": "with good people →",
+   "choices": [
+    "z dobrymi ludźmi",
+    "z dobrych ludźmi",
+    "z dobrym ludźmi",
+    "z dobrymi ludzie"
+   ],
+   "answer": "z dobrymi ludźmi",
+   "explain": "ludźmi is one of the three nouns that refused -ami in B2. The adjective in front of it behaves completely normally — the irregularity is in the noun and stops there."
+  },
+  {
+   "prompt": "Mum is going to the shop with the little daughters. →",
+   "choices": [
+    "Mama idzie do sklepu z małymi córkami.",
+    "Mama idzie do sklepu z małych córkami.",
+    "Mama idzie do sklepu z małym córkami.",
+    "Mama idzie do sklepu z małe córki."
+   ],
+   "answer": "Mama idzie do sklepu z małymi córkami.",
+   "explain": "Two different cases in one sentence: do takes the Genitive and z takes the Instrumental. Only the phrase after z carries the new ending."
+  },
+  {
+   "prompt": "in the new shops →",
+   "choices": [
+    "w nowych sklepach",
+    "w nowymi sklepach",
+    "z nowymi sklepach",
+    "w nowym sklepach"
+   ],
+   "answer": "w nowych sklepach",
+   "explain": "The two endings sit one unit apart and never overlap: -ych after w, na and o, -ymi after z."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "with good friends (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z dobrymi kolegami",
+   "accepts": [
+    "z dobrymi kolegami"
+   ]
+  },
+  {
+   "prompt_en": "with small children (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z małymi dziećmi",
+   "accepts": [
+    "z małymi dziećmi"
+   ],
+   "explain": "dziećmi is one of the three nouns that refuse -ami. The adjective is unaffected and takes the ordinary plural ending."
+  },
+  {
+   "prompt_en": "with new patients (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z nowymi pacjentami",
+   "accepts": [
+    "z nowymi pacjentami"
+   ]
+  },
+  {
+   "prompt_en": "with good people (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z dobrymi ludźmi",
+   "accepts": [
+    "z dobrymi ludźmi"
+   ]
+  },
+  {
+   "prompt_en": "with the little sisters (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z małymi siostrami",
+   "accepts": [
+    "z małymi siostrami"
+   ]
+  },
+  {
+   "prompt_en": "with new friends (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z nowymi kolegami",
+   "accepts": [
+    "z nowymi kolegami"
+   ]
+  },
+  {
+   "prompt_en": "with good clients (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z dobrymi klientami",
+   "accepts": [
+    "z dobrymi klientami"
+   ]
+  },
+  {
+   "prompt_en": "with the small cats (instrumental plural)",
+   "mode": "full_word",
+   "answer": "z małymi kotami",
+   "accepts": [
+    "z małymi kotami"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Dad works with good clients.",
+   "answer": "Tata pracuje z dobrymi klientami.",
+   "accepts": [
+    "Tata pracuje z dobrymi klientami.",
+    "Tata pracuje z dobrymi klientami"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is at home with the small children.",
+   "answer": "Mama jest w domu z małymi dziećmi.",
+   "accepts": [
+    "Mama jest w domu z małymi dziećmi.",
+    "Mama jest w domu z małymi dziećmi"
+   ]
+  },
+  {
+   "prompt_en": "Type: We are good friends.",
+   "answer": "Jesteśmy dobrymi kolegami.",
+   "accepts": [
+    "Jesteśmy dobrymi kolegami.",
+    "Jesteśmy dobrymi kolegami"
+   ],
+   "explain": "No preposition here at all. Polish uses the Instrumental to say what somebody is, and a group works exactly like the one person you learned it with in A1."
+  },
+  {
+   "prompt_en": "Type: Doctors work with new patients.",
+   "answer": "Lekarze pracują z nowymi pacjentami.",
+   "accepts": [
+    "Lekarze pracują z nowymi pacjentami.",
+    "Lekarze pracują z nowymi pacjentami"
+   ]
+  },
+  {
+   "prompt_en": "Type: Grandma lives with good people.",
+   "answer": "Babcia mieszka z dobrymi ludźmi.",
+   "accepts": [
+    "Babcia mieszka z dobrymi ludźmi.",
+    "Babcia mieszka z dobrymi ludźmi"
+   ]
+  },
+  {
+   "prompt_en": "Type: The children play with the small cats.",
+   "answer": "Dzieci grają z małymi kotami.",
+   "accepts": [
+    "Dzieci grają z małymi kotami.",
+    "Dzieci grają z małymi kotami"
+   ]
+  },
+  {
+   "prompt_en": "Type: We were in the park with the little sisters.",
+   "answer": "Byliśmy w parku z małymi siostrami.",
+   "accepts": [
+    "Byliśmy w parku z małymi siostrami.",
+    "Byliśmy w parku z małymi siostrami"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister lives with new friends.",
+   "answer": "Moja siostra mieszka z nowymi kolegami.",
+   "accepts": [
+    "Moja siostra mieszka z nowymi kolegami.",
+    "Moja siostra mieszka z nowymi kolegami"
+   ]
+  },
+  {
+   "prompt_en": "Type: We were in good hotels with good friends.",
+   "answer": "Byliśmy w dobrych hotelach z dobrymi kolegami.",
+   "accepts": [
+    "Byliśmy w dobrych hotelach z dobrymi kolegami.",
+    "Byliśmy w dobrych hotelach z dobrymi kolegami"
+   ],
+   "explain": "Both plural endings in one sentence, and the two trigger words decide which is which: w gives -ych, z gives -ymi."
+  }
+ ],
+ "uses_lemmas": [
+  "dobrych",
+  "nowych",
+  "małych",
+  "dużych",
+  "dobrym",
+  "nowym",
+  "małym",
+  "dobrą",
+  "nową",
+  "małą",
+  "dobre",
+  "nowe",
+  "małe",
+  "duże",
+  "dużo",
+  "kolegami",
+  "klientami",
+  "pacjentami",
+  "ludźmi",
+  "dziećmi",
+  "siostrami",
+  "córkami",
+  "kotami",
+  "kolegą",
+  "siostrą",
+  "dzieckiem",
+  "hotelach",
+  "sklepach",
+  "domach",
+  "szkołach",
+  "miastach",
+  "hotelu",
+  "sklepie",
+  "domu",
+  "parku",
+  "sklepu",
+  "koty",
+  "córki",
+  "ludzie",
+  "klient",
+  "pacjent",
+  "lekarze",
+  "lekarka",
+  "dzieci",
+  "mama",
+  "tata",
+  "babcia",
+  "siostra",
+  "moja",
+  "jest",
+  "jestem",
+  "jesteśmy",
+  "są",
+  "byliśmy",
+  "pracuje",
+  "pracują",
+  "mieszka",
+  "grają",
+  "idzie",
+  "myślę",
+  "nauczycielem",
+  "ale",
+  "nie",
+  "z kolegą",
+  "z siostrą",
+  "w domu",
+  "w parku",
+  "w hotelu",
+  "w sklepie",
+  "do sklepu"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "c1_adj_pl_inst",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

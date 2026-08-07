@@ -1,0 +1,600 @@
+{
+  "id": "a2_celebrations",
+  "title": "Urodziny i życzenia",
+  "title_en": "Birthdays & celebrations",
+  "level": "A2",
+  "tree_node": "a2_celebrations",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a2_past_byc / a2_past_ac / a2_past_rest / a2_past_plural / a2_plural_nom / a2_aspect / a2_o_loc. Companion pack to a2_family2 — dziadek, babcia, wnuk, wnuczka, żona, rodzice and dzieci are ANCHORS here, never re-taught, and the pack is written for a grandfather who will actually send birthday wishes. impreza, prezent, gość, rodzina and every month and day are already taught and are recycled only. 13 new items. CAPITALISATION is handled as ONE clean observation, on the Wielkanoc card, framed exactly as a2_countries framed it (a capital marks a name): Wielkanoc and Boże Narodzenie are names of particular festivals so they take capitals; urodziny, ślub and rocznica are ordinary nouns and stay small. It is not repeated in the sentence explains. THREE PLURAL-ONLY NOUNS — urodziny, życzenia, gratulacje — get their own block, the same shape a2_family2 used for rodzice / dzieci, and gender pl. Their plural verb były comes from a2_past_plural (byli / były are both in the pool). DATES ARE AVOIDED ON PURPOSE. The locative of a month (w maju, w grudniu) is NOT taught — only the bare nominative months are — and ordinals are being written in parallel, so no full date and no month appears anywhere in this pack. Time is carried by taught chunks instead: wczoraj, dzisiaj, w zeszłym tygodniu. kartka is glossed with a sense indicator and an explain because karta (the bank card) is already taught and the two are one letter apart. Wielkanoc is a soft feminine — it is literally noc, which the learner already has — and it does not change after lubię; that point sits on the sentence, not on the card, so each item carries at most one explanation. Every noun carries a gender badge; świętować is a verb and takes none.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "aspect_past",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "miec_acc",
+    "present_uje",
+    "present_e_isz",
+    "prep_w_loc",
+    "prep_place",
+    "inst_z",
+    "time_past_chunk",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "celebrations_occasions",
+      "title": "Celebrations · the occasions",
+      "items": [
+        {
+          "en": "wedding",
+          "pl": "ślub",
+          "icon": "💒",
+          "gender": "m"
+        },
+        {
+          "en": "anniversary",
+          "pl": "rocznica",
+          "icon": "❤️",
+          "gender": "f",
+          "explain": "rocznica is built on rok, the year you already know. It ends in -a, so it is feminine: Rocznica była, never Rocznica był."
+        },
+        {
+          "en": "Easter",
+          "pl": "Wielkanoc",
+          "icon": "🐣",
+          "gender": "f",
+          "explain": "Wielkanoc and Boże Narodzenie take a capital letter because each one is the name of a particular festival — the same reason Polska and Anglia do. urodziny, ślub and rocznica are ordinary nouns, so they stay small."
+        },
+        {
+          "en": "Christmas",
+          "pl": "Boże Narodzenie",
+          "icon": "🎄",
+          "gender": "n",
+          "explain": "Two words, and both of them capitalised. The pair behaves as one neuter noun, so it takes jest and było — never był or była."
+        },
+        {
+          "en": "celebrate (verb)",
+          "pl": "świętować",
+          "icon": "🎉",
+          "explain": "świętować works exactly like pracować and kupować: drop -ować and add -uję, -ujesz, -ujemy. So świętuję, świętujemy."
+        }
+      ]
+    },
+    {
+      "id": "celebrations_things",
+      "title": "At the party · what you can see",
+      "items": [
+        {
+          "en": "cake (a whole birthday cake)",
+          "pl": "tort",
+          "icon": "🎂",
+          "gender": "m",
+          "explain": "tort is the tall, decorated cake that arrives with candles on it. It ends in a consonant, so it is masculine, like dom and chleb."
+        },
+        {
+          "en": "candle",
+          "pl": "świeczka",
+          "icon": "🕯️",
+          "gender": "f"
+        },
+        {
+          "en": "Christmas tree",
+          "pl": "choinka",
+          "icon": "🌲",
+          "gender": "f"
+        },
+        {
+          "en": "invitation",
+          "pl": "zaproszenie",
+          "icon": "✉️",
+          "gender": "n",
+          "explain": "Nouns ending in -enie are neuter, like mieszkanie and zdjęcie. That is why this one takes było and not był."
+        },
+        {
+          "en": "card (paper — a birthday card)",
+          "pl": "kartka",
+          "icon": "💌",
+          "gender": "f",
+          "explain": "kartka is the paper card you write on and send. karta, which you already know, is the plastic one you pay with. One letter apart, two different objects."
+        }
+      ]
+    },
+    {
+      "id": "celebrations_plural_only",
+      "title": "Three words that are always plural",
+      "items": [
+        {
+          "en": "birthday (always plural in Polish)",
+          "pl": "urodziny",
+          "icon": "🎈",
+          "gender": "pl",
+          "explain": "Polish has no singular here — one birthday is still urodziny. Because the word is plural, everything around it goes plural too: Urodziny były."
+        },
+        {
+          "en": "good wishes (always plural)",
+          "pl": "życzenia",
+          "icon": "💐",
+          "gender": "pl",
+          "explain": "Wishes come as a set in Polish, so this word is always plural, like urodziny. It is the word on the card you send a grandchild."
+        },
+        {
+          "en": "congratulations (always plural)",
+          "pl": "gratulacje",
+          "icon": "🎊",
+          "gender": "pl",
+          "explain": "Plural again, and used the same way English uses Congratulations! — on its own, said straight to the person."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I have an invitation.",
+      "pl": "Mam zaproszenie.",
+      "accepts": [
+        "Mam zaproszenie.",
+        "Mam zaproszenie"
+      ],
+      "structures": [
+        "miec_acc"
+      ],
+      "lemmas": [
+        "zaproszenie"
+      ],
+      "explain": "A neuter noun does not change after mam. You saw the same thing with moje dziecko — kawa would have shifted to kawę, but zaproszenie stays as it is."
+    },
+    {
+      "en": "The invitation was on the table.",
+      "pl": "Zaproszenie było na stole.",
+      "accepts": [
+        "Zaproszenie było na stole.",
+        "Zaproszenie było na stole",
+        "Na stole było zaproszenie.",
+        "Na stole było zaproszenie"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_place"
+      ],
+      "lemmas": [
+        "zaproszenie"
+      ],
+      "explain": "Neuter takes -o in the past: było. A man would be był and a woman była."
+    },
+    {
+      "en": "I bought a card.",
+      "pl": "Kupiłem kartkę.",
+      "accepts": [
+        "Kupiłem kartkę.",
+        "Kupiłem kartkę"
+      ],
+      "structures": [
+        "aspect_past",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "kartkę"
+      ],
+      "explain": "kartka is feminine, so as the object of the sentence it ends in -ę: kartka → kartkę. It is the same swap you already make in kawa → kawę."
+    },
+    {
+      "en": "The card was pretty.",
+      "pl": "Kartka była ładna.",
+      "accepts": [
+        "Kartka była ładna.",
+        "Kartka była ładna"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kartka"
+      ]
+    },
+    {
+      "en": "Grandma was making a cake.",
+      "pl": "Babcia robiła tort.",
+      "accepts": [
+        "Babcia robiła tort.",
+        "Babcia robiła tort"
+      ],
+      "structures": [
+        "past_rest",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "tort"
+      ],
+      "explain": "tort is masculine and not a person, so it does not change as the object — exactly like chleb in Żona kupowała chleb."
+    },
+    {
+      "en": "The cake was tasty.",
+      "pl": "Tort był smaczny.",
+      "accepts": [
+        "Tort był smaczny.",
+        "Tort był smaczny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "tort"
+      ]
+    },
+    {
+      "en": "The candle is on the table.",
+      "pl": "Świeczka jest na stole.",
+      "accepts": [
+        "Świeczka jest na stole.",
+        "Świeczka jest na stole",
+        "Na stole jest świeczka.",
+        "Na stole jest świeczka"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "świeczka"
+      ]
+    },
+    {
+      "en": "The Christmas tree is pretty.",
+      "pl": "Choinka jest ładna.",
+      "accepts": [
+        "Choinka jest ładna.",
+        "Choinka jest ładna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "choinka"
+      ],
+      "explain": "choinka ends in -a, so it is feminine and the adjective follows it: ładna, not ładny."
+    },
+    {
+      "en": "The Christmas tree was in the living room.",
+      "pl": "Choinka była w salonie.",
+      "accepts": [
+        "Choinka była w salonie.",
+        "Choinka była w salonie",
+        "W salonie była choinka.",
+        "W salonie była choinka"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "choinka"
+      ]
+    },
+    {
+      "en": "The wedding was in Poland.",
+      "pl": "Ślub był w Polsce.",
+      "accepts": [
+        "Ślub był w Polsce.",
+        "Ślub był w Polsce"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "ślub"
+      ]
+    },
+    {
+      "en": "The wedding was last week.",
+      "pl": "Ślub był w zeszłym tygodniu.",
+      "accepts": [
+        "Ślub był w zeszłym tygodniu.",
+        "Ślub był w zeszłym tygodniu",
+        "W zeszłym tygodniu był ślub.",
+        "W zeszłym tygodniu był ślub"
+      ],
+      "structures": [
+        "past_byc",
+        "time_past_chunk"
+      ],
+      "lemmas": [
+        "ślub"
+      ]
+    },
+    {
+      "en": "Today is our anniversary.",
+      "pl": "Dzisiaj mamy rocznicę.",
+      "accepts": [
+        "Dzisiaj mamy rocznicę.",
+        "Dzisiaj mamy rocznicę",
+        "Mamy dzisiaj rocznicę.",
+        "Mamy dzisiaj rocznicę"
+      ],
+      "structures": [
+        "miec_acc"
+      ],
+      "lemmas": [
+        "rocznicę"
+      ],
+      "explain": "Polish says we have an anniversary where English says it is our anniversary. rocznica is feminine, so as the object it takes -ę: rocznicę."
+    },
+    {
+      "en": "The anniversary was yesterday.",
+      "pl": "Rocznica była wczoraj.",
+      "accepts": [
+        "Rocznica była wczoraj.",
+        "Rocznica była wczoraj",
+        "Wczoraj była rocznica.",
+        "Wczoraj była rocznica"
+      ],
+      "structures": [
+        "past_byc"
+      ],
+      "lemmas": [
+        "rocznica"
+      ]
+    },
+    {
+      "en": "I like Easter.",
+      "pl": "Lubię Wielkanoc.",
+      "accepts": [
+        "Lubię Wielkanoc.",
+        "Lubię Wielkanoc"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wielkanoc"
+      ],
+      "explain": "Wielkanoc is really wielka + noc, and noc is one of the feminine words that ends in a consonant. Those words do not take -ę as the object, so it stays Wielkanoc after lubię."
+    },
+    {
+      "en": "Easter was at home.",
+      "pl": "Wielkanoc była w domu.",
+      "accepts": [
+        "Wielkanoc była w domu.",
+        "Wielkanoc była w domu"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "wielkanoc"
+      ],
+      "explain": "Feminine, so była — even though the word ends in a consonant and looks masculine at a glance."
+    },
+    {
+      "en": "Christmas was in England.",
+      "pl": "Boże Narodzenie było w Anglii.",
+      "accepts": [
+        "Boże Narodzenie było w Anglii.",
+        "Boże Narodzenie było w Anglii"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "boże narodzenie"
+      ]
+    },
+    {
+      "en": "Do you like Christmas?",
+      "pl": "Czy lubisz Boże Narodzenie?",
+      "accepts": [
+        "Czy lubisz Boże Narodzenie?",
+        "Czy lubisz Boże Narodzenie",
+        "Lubisz Boże Narodzenie?",
+        "Lubisz Boże Narodzenie"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc",
+        "question"
+      ],
+      "lemmas": [
+        "boże narodzenie"
+      ],
+      "explain": "czy only opens the question — nothing else moves. And a neuter noun keeps its shape as the object, so nothing changes on Boże Narodzenie either."
+    },
+    {
+      "en": "Yesterday was my birthday.",
+      "pl": "Wczoraj miałem urodziny.",
+      "accepts": [
+        "Wczoraj miałem urodziny.",
+        "Wczoraj miałem urodziny",
+        "Miałem wczoraj urodziny.",
+        "Miałem wczoraj urodziny"
+      ],
+      "structures": [
+        "past_rest",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "urodziny"
+      ],
+      "explain": "Polish says I had a birthday where English says it was my birthday. urodziny keeps its shape after miałem. A woman would say Wczoraj miałam urodziny."
+    },
+    {
+      "en": "The birthday was good.",
+      "pl": "Urodziny były dobre.",
+      "accepts": [
+        "Urodziny były dobre.",
+        "Urodziny były dobre"
+      ],
+      "structures": [
+        "past_plural",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "urodziny"
+      ],
+      "explain": "The word is plural, so everything around it must be plural too: były, not był, and dobre, not dobry. It is the same były you use in Dzieci były w szkole."
+    },
+    {
+      "en": "Grandma was reading the wishes.",
+      "pl": "Babcia czytała życzenia.",
+      "accepts": [
+        "Babcia czytała życzenia.",
+        "Babcia czytała życzenia"
+      ],
+      "structures": [
+        "past_ac",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "życzenia"
+      ]
+    },
+    {
+      "en": "The wishes were lovely.",
+      "pl": "Życzenia były super.",
+      "accepts": [
+        "Życzenia były super.",
+        "Życzenia były super"
+      ],
+      "structures": [
+        "past_plural"
+      ],
+      "lemmas": [
+        "życzenia"
+      ],
+      "explain": "życzenia is plural-only like urodziny, so the verb is były. super never changes its shape, whatever it sits next to."
+    },
+    {
+      "en": "Congratulations! It's a good day.",
+      "pl": "Gratulacje! To jest dobry dzień.",
+      "accepts": [
+        "Gratulacje! To jest dobry dzień.",
+        "Gratulacje! To jest dobry dzień",
+        "Gratulacje! To dobry dzień.",
+        "Gratulacje! To dobry dzień"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "gratulacje"
+      ],
+      "explain": "Gratulacje stands on its own, exactly like Congratulations! in English — no verb needed after it."
+    },
+    {
+      "en": "We celebrate at home.",
+      "pl": "Świętujemy w domu.",
+      "accepts": [
+        "Świętujemy w domu.",
+        "Świętujemy w domu"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "świętujemy"
+      ],
+      "explain": "świętować belongs to the pracować and kupować family: -ować becomes -ujemy for we. Compare pracujemy and kupujemy."
+    },
+    {
+      "en": "I celebrate with my wife.",
+      "pl": "Świętuję z żoną.",
+      "accepts": [
+        "Świętuję z żoną.",
+        "Świętuję z żoną"
+      ],
+      "structures": [
+        "present_uje",
+        "inst_z"
+      ],
+      "lemmas": [
+        "świętuję"
+      ],
+      "explain": "z takes the instrumental, so żona becomes z żoną — the same ending you already use in z mamą and z siostrą."
+    }
+  ],
+  "teaches_lemmas": [
+    "ślub",
+    "rocznica",
+    "rocznicę",
+    "wielkanoc",
+    "boże narodzenie",
+    "świętować",
+    "świętuję",
+    "świętujemy",
+    "tort",
+    "świeczka",
+    "choinka",
+    "zaproszenie",
+    "kartka",
+    "kartkę",
+    "urodziny",
+    "życzenia",
+    "gratulacje"
+  ],
+  "uses_lemmas": [
+    "być",
+    "był",
+    "była",
+    "było",
+    "były",
+    "jest",
+    "mam",
+    "mamy",
+    "miałem",
+    "kupiłem",
+    "robiła",
+    "czytała",
+    "lubię",
+    "lubisz",
+    "czy",
+    "dobry",
+    "dobre",
+    "ładna",
+    "smaczny",
+    "super",
+    "dzień",
+    "babcia",
+    "żona",
+    "z żoną",
+    "wczoraj",
+    "dzisiaj",
+    "w zeszłym tygodniu",
+    "na stole",
+    "w domu",
+    "w salonie",
+    "w polsce",
+    "w anglii",
+    "to",
+    "kawę",
+    "chleb",
+    "dziecko",
+    "noc",
+    "rok",
+    "karta",
+    "mieszkanie",
+    "zdjęcie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_celebrations",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

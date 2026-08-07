@@ -1,0 +1,352 @@
+{
+  "id": "b2_prefix_lens",
+  "title": "Wyjść czy przyjść?",
+  "title_en": "Reading the front of the verb · out, to, up-to, back",
+  "level": "B2",
+  "tree_node": "b2_prefix_lens",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 6a unit 2 (JAMES-LOCKED 2026-08-06, O7 overrule, locked decisions #1 and #2). A RECEPTIVE-ONLY reading lens on the core 4 spatial prefixes - wy- out, przy- to/arrive, do- reach/all-the-way, od- away/back. ZERO NEW LEMMAS: every single example is a verb or noun the course already taught, re-seen through the lens. teaches_lemmas is deliberately empty.\n\nRECEPTIVE-ONLY IS IMPLEMENTED STRUCTURALLY, NOT BY PROMISE: type_items and use_items are EMPTY ARRAYS, on the live precedent of b1_virile_reco (B1-SPINE decision #1, 'RECOGNITION ONLY'), which ships the same way and audits clean. So the spine's requirement that 'the learner NEVER types a prefixed verb the course didn't teach' is met absolutely - there is no typing stage at all in this unit, and the question cannot arise. Tasks are recognition and discrimination only, exactly as the spine specifies: a 12-row meaning board and a quiz mixing frame-selection with straight comprehension items ('Doszedlem do apteki. - what happened?').\n\nTITLE CORRECTED, and this is the one thing to check first. The planned tree label was 'Przedrostki · soczewka' / 'Prefixes · the reading lens'. check_new.py reports przedrostki, przedrostek AND soczewka all NEW - two untaught Polish words in learner-visible chrome, which the AGENTS title rule forbids outright ('Never put an untaught Polish form in a title', a rule its own text records being broken three times in one night). Retitled to the house pattern on the Ide czy jade? model, using two forms owned since b1_arrive_leave: 'Wyjsc czy przyjsc?'. The tree node's label/label_en were updated to match. The word przedrostek is still used, but only in body_pl, which AGENTS names as the one lane where untaught metalanguage is allowed by convention - the same lane b2_aspect_prefixes already uses it in.\n\nHONESTY FENCES, all deliberate. (a) wypic is NOT a lens example and never appears: its wy- is completive, not spatial, and mixing it in would teach a false meaning - that verb is precisely b2_prefix_two_jobs's material, one unit later. Same exclusion for wydawac and wygrywac. (b) The opaque core-4 words the learner already owns - przyjaciel, przystanek, przychodnia, przyczyna, przyklad, odpowiedz, odpoczywac, odwiedzac - are excluded from the drilled stages ENTIRELY - not as examples and not as quiz distractors either, a distinction that mattered: przystanek and wycieczka were caught sitting as distractors in the przyjazd/odjazd item on a late self-check and swapped for pociag/autobus, because a przy-/wy- word standing in a lens item silently invites exactly the false reading this unit exists to prevent. The slide 1 caveat is written to cover them: the lens is a reading aid for verbs of coming and going, and Polish does not always cooperate. This is the locked line 'you can READ these; don't build new ones' made concrete rather than just asserted. (c) za-/po-/prze- get exactly one line naming them as making no promise, with no examples drilled, per locked decision #2. (d) No formation rule of any kind; no derivation is invited anywhere.\n\nod- IS THE THIN ONE, logged: only two taught items carry a transparent od- (oddawac/oddaje from b1_giving, and the noun odjazd from a2_transport2). That is enough for an honest 3-row share of the board only because odjazd pairs against przyjazd, which makes the station-board contrast the natural payoff and gives od- a real everyday use rather than a single stranded verb. If James wants od- fuller, the material has to come from a later unit, not from inventing examples here.\n\nHOMOGRAPH CHECK: ksiazki was drafted and REJECTED - a1_gen_ki teaches it as a GENITIVE singular, and 'oddaje ksiazki' would need the accusative plural; the item uses ksiazke instead, taught as an accusative by a1_miec. apteki is used only inside the taught chunk do apteki. Rejected as untaught: dlugo, wyjazd, wyjscie, pociagu, dworca, Warszawy.",
+  "focus_structures": [
+    "prefix_lens"
+  ],
+  "teaches_structures": [
+    "prefix_lens"
+  ],
+  "uses_structures": [
+    "prefix_lens",
+    "motion_prefixed",
+    "motion_prefixed2",
+    "motion_imperf",
+    "past_isc",
+    "past_ac",
+    "perf_future",
+    "prep_do_gen",
+    "prep_z_gen",
+    "inst_transport",
+    "ordinals_time",
+    "miec_acc",
+    "question",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "A tool for reading, not for building",
+      "title_pl": "Przedrostek — do czytania",
+      "body": "You have met a lot of verbs now that are one verb with a small piece welded on the front: wyjść, przyjść, dojść, oddawać.\n\nThat front piece is often doing a job you can read. Once you know the four commonest ones, a verb you have never seen before will sometimes give you its meaning for free.\n\nOne warning, and it matters more than the lens itself: this is for READING. Do not build new verbs with it. Polish does not always cooperate — you already know przyjaciel (a friend) and przystanek (a bus stop), and neither of those is arriving anywhere. The lens is a reading aid for verbs of coming and going. Everything you SAY should stay a verb this course actually taught you.",
+      "body_pl": "Przedrostek — czytamy, nie budujemy."
+    },
+    {
+      "title": "The four worth knowing",
+      "title_pl": "Cztery przedrostki",
+      "body": "Each one is shown here only on verbs you already own.",
+      "body_pl": "wy- · przy- · do- · od-",
+      "table": {
+        "headers": [
+          "front piece",
+          "what it says",
+          "verbs you already have"
+        ],
+        "rows": [
+          [
+            "wy-",
+            "out",
+            "wyjść · wyjechać · wychodzę"
+          ],
+          [
+            "przy-",
+            "to, arriving",
+            "przyjść · przyjechać · przyjeżdżam"
+          ],
+          [
+            "do-",
+            "all the way, reaching it",
+            "dojść · dojechać"
+          ],
+          [
+            "od-",
+            "away, back",
+            "oddawać · oddaję"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where you will actually see this",
+      "title_pl": "Na dworcu",
+      "body": "The clearest everyday payoff is a station board. You have known both of these words since A2 — now you can see why they are the pair they are.\n\nprzyjazd — przy- is the toward one, so this is the arrival.\nodjazd — od- is the away one, so this is the departure.\n\nSame word underneath; the front piece is the whole difference.",
+      "body_pl": "przyjazd ↔ odjazd",
+      "examples": [
+        {
+          "pl": "Przyjazd o ósmej.",
+          "en": "Arrival at eight."
+        },
+        {
+          "pl": "Odjazd o dziewiątej.",
+          "en": "Departure at nine."
+        },
+        {
+          "pl": "Wyszedłem z biura.",
+          "en": "I went out of the office."
+        },
+        {
+          "pl": "W końcu doszedłem do apteki.",
+          "en": "I finally got all the way to the pharmacy."
+        }
+      ]
+    },
+    {
+      "title": "The ones that promise nothing",
+      "title_pl": "Bez obietnicy",
+      "body": "There are other front pieces — za-, po-, prze- and more. They make no promise at all: there is no reliable meaning to read off them, so do not try.\n\nWhen you meet a verb with one of those on the front, treat it as a brand-new word and learn it whole, exactly the way you learned zrobić and wypić.",
+      "body_pl": "za-, po-, prze- — bez reguły."
+    }
+  ],
+  "match": [
+    {
+      "en": "to go out, to leave (on foot)",
+      "pl": "wyjść"
+    },
+    {
+      "en": "to leave, to go away (by vehicle)",
+      "pl": "wyjechać"
+    },
+    {
+      "en": "I go out (every day)",
+      "pl": "wychodzę"
+    },
+    {
+      "en": "to come, to arrive (on foot)",
+      "pl": "przyjść"
+    },
+    {
+      "en": "to arrive (by vehicle)",
+      "pl": "przyjechać"
+    },
+    {
+      "en": "arrival (on a station board)",
+      "pl": "przyjazd"
+    },
+    {
+      "en": "to get all the way there (on foot)",
+      "pl": "dojść"
+    },
+    {
+      "en": "to get all the way there (by vehicle)",
+      "pl": "dojechać"
+    },
+    {
+      "en": "I got all the way there (m)",
+      "pl": "doszedłem"
+    },
+    {
+      "en": "to give back",
+      "pl": "oddawać"
+    },
+    {
+      "en": "I give back",
+      "pl": "oddaję"
+    },
+    {
+      "en": "departure (on a station board)",
+      "pl": "odjazd"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ z domu o ósmej. (went out of the house)",
+      "choices": [
+        "wyszedł",
+        "przyszedł",
+        "doszedł",
+        "przyjechał"
+      ],
+      "answer": "wyszedł",
+      "explain": "z domu is out of the house, and wy- is the front piece that says out."
+    },
+    {
+      "prompt": "Mama ___ do domu o szóstej. (came home, on foot)",
+      "choices": [
+        "przyszła",
+        "wyszła",
+        "przyjechała",
+        "wyjechała"
+      ],
+      "answer": "przyszła",
+      "explain": "Coming towards home is przy-, not wy-; and on foot is the szedł verb, not the jechać one."
+    },
+    {
+      "prompt": "W końcu ___ do sklepu. (I finally got all the way there, m)",
+      "choices": [
+        "doszedłem",
+        "wyszedłem",
+        "przyszedłem",
+        "poszedłem"
+      ],
+      "answer": "doszedłem",
+      "explain": "do- is the reaching one — it is about getting all the way to the place, which is exactly what w końcu is telling you."
+    },
+    {
+      "prompt": "Zawsze ___ książkę. (I give the book back)",
+      "choices": [
+        "oddaję",
+        "przychodzę",
+        "wychodzę",
+        "wyjeżdżam"
+      ],
+      "answer": "oddaję",
+      "explain": "Giving something back is od- — away from me, back to the person it came from."
+    },
+    {
+      "prompt": "departure — ___ (the word on the station board)",
+      "choices": [
+        "odjazd",
+        "przyjazd",
+        "pociąg",
+        "autobus"
+      ],
+      "answer": "odjazd",
+      "explain": "od- is the away one, so odjazd is the leaving. przyjazd, with przy- on the front, is its opposite: the arrival."
+    },
+    {
+      "prompt": "Siostra ___ jutro. (is leaving, by car)",
+      "choices": [
+        "wyjedzie",
+        "przyjedzie",
+        "dojedzie",
+        "wyjdzie"
+      ],
+      "answer": "wyjedzie",
+      "explain": "Leaving is wy-, and a car makes it the jechać verb rather than the on-foot one."
+    },
+    {
+      "prompt": "Doszedłem do apteki. — what happened?",
+      "choices": [
+        "I got all the way to the pharmacy",
+        "I went out of the pharmacy",
+        "I go to the pharmacy every day",
+        "I gave it back to the pharmacy"
+      ],
+      "answer": "I got all the way to the pharmacy",
+      "explain": "do- says the journey finished at the place. The pharmacy is where I ended up, not where I started."
+    },
+    {
+      "prompt": "Wyszedłem z biura. — what happened?",
+      "choices": [
+        "I went out of the office",
+        "I arrived at the office",
+        "I reached the office at last",
+        "I gave the office back"
+      ],
+      "answer": "I went out of the office",
+      "explain": "wy- plus z is out of — the office is what I left, not what I arrived at."
+    },
+    {
+      "prompt": "Brat przyjechał autobusem. — what happened?",
+      "choices": [
+        "My brother arrived by bus",
+        "My brother left by bus",
+        "My brother goes by bus every day",
+        "My brother gave the bus back"
+      ],
+      "answer": "My brother arrived by bus",
+      "explain": "przy- is the arriving one. If he had been leaving it would have been wyjechał."
+    },
+    {
+      "prompt": "Przyjazd o ósmej. — what does the board say?",
+      "choices": [
+        "It arrives at eight",
+        "It leaves at eight",
+        "It is late",
+        "It goes every day"
+      ],
+      "answer": "It arrives at eight",
+      "explain": "przy- toward, od- away: przyjazd is the arrival and odjazd is the departure."
+    },
+    {
+      "prompt": "Oddaję książkę. — what happens?",
+      "choices": [
+        "I give the book back",
+        "I take the book out",
+        "I arrive with the book",
+        "I reach the book at last"
+      ],
+      "answer": "I give the book back",
+      "explain": "od- is the away-and-back one. The book goes back to whoever it came from."
+    }
+  ],
+  "type_items": [],
+  "use_items": [],
+  "teaches_lemmas": [],
+  "uses_lemmas": [
+    "wyjść",
+    "wyjechać",
+    "wychodzę",
+    "wychodzić",
+    "przyjść",
+    "przyjechać",
+    "przyjeżdżam",
+    "przyjeżdżać",
+    "przychodzę",
+    "dojść",
+    "dojechać",
+    "doszedłem",
+    "oddawać",
+    "oddaję",
+    "przyjazd",
+    "odjazd",
+    "wyszedł",
+    "wyszedłem",
+    "wyszła",
+    "przyszedł",
+    "przyszedłem",
+    "przyszła",
+    "przyjechał",
+    "przyjechała",
+    "wyjechała",
+    "doszedł",
+    "poszedłem",
+    "wyjedzie",
+    "przyjedzie",
+    "dojedzie",
+    "wyjdzie",
+    "wyjeżdżam",
+    "przyjaciel",
+    "książkę",
+    "zrobić",
+    "wypić",
+    "zawsze",
+    "jutro",
+    "w końcu",
+    "o ósmej",
+    "o szóstej",
+    "o dziewiątej",
+    "do domu",
+    "do sklepu",
+    "do apteki",
+    "z domu",
+    "z biura",
+    "autobusem",
+    "tata",
+    "mama",
+    "siostra",
+    "brat",
+    "pociąg",
+    "autobus"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_prefix_lens",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

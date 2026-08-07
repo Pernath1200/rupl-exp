@@ -1,0 +1,610 @@
+{
+  "id": "c1_virile_alt",
+  "title": "Kelner · kelnerzy",
+  "title_en": "How the consonant changes in the plural",
+  "level": "C1",
+  "tree_node": "c1_virile_alt",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 4, unit 1 (B2-SPINE inbox item 9). THREE NEW STRINGS: aktorzy, trenerzy, partnerzy. THE ANCHOR WAS VERIFIED, NOT ASSUMED: kelnerzy is TAUGHT <- b1_virile_reco [111] as a whole form the learner has read since B1, so the unit's shape is the b2_verbal_nouns / b2_participle_pass 'a form you already read is built by a rule' opener, exactly as C1-SPINE specifies. WHAT b1_virile_nom ACTUALLY FENCED, read rather than remembered: its own note names the fenced set as the -r STEMS ('kelner -> kelnerzy, aktor -> aktorzy are NOT taught here even though b1_virile_reco already showed kelnerzy; r->rz is a fourth alternation and adding it would make this a two-new-things unit'). That is this unit's brief and the whole of it. The TRUE irregulars that pack fenced separately - brat, kolega, mezczyzna, and the -owie family - are the next TWO units and appear nowhere here, not in a table, not in a sentence, not as a distractor. THE UNIT'S ONE IDEA IS THE UNIFYING ONE and it costs no new material: b1_virile_nom taught -t->-ci, -k->-cy and already-soft+e as THREE MOVES; they are one event, the last consonant of the stem softening under the virile ending, and -r->-rz is the fourth member of the same family rather than a fourth thing to memorise. Slide 1 states it and the whole Dopasuj board mixes all four families for that reason. THE -r POOL IS EXACTLY SIX NOUNS AND TWO OF THEM DO NOT DO THIS: aktor, kelner, partner, trener take -rzy; inzynier and menedzer take -owie. So the rule is stated as a TENDENCY WITH A NAMED COUNTEREXAMPLE (R2's discipline, applied here a block early), inzynier is named on slide 4 as going the other way, and the learner is pointed at c1_owie one node on rather than left to coin *inzynierzy. menedzer is deliberately not mentioned at all - its plural is contested between menedzerowie and menedzerzy and the course should not adjudicate. NO CLAIM THAT THE -r SURVIVES EVERYWHERE ELSE, which a first draft made and which is FALSE (the Locative singular kelnerze softens too). Slide 3 says only what is true of the forms he owns: the singular keeps its -r in kelner and kelnerem, and the change rides the plural ending. NO FABRICATED NON-WORDS ANYWHERE (AGENTS, restated by C1-SPINE O12 because the alternation units are the genre where the temptation is strongest): every quiz distractor is a real taught form - the singular of the same noun, or the virile plural of a different one. *aktory, *kelnery, *inzynierzy appear nowhere. PISANIE, logged per the repair-queue fallback clause: items 0-3 produce all three new strings plus the kelnerzy anchor as whole words (the minimal pattern unit for a morphology unit); items 4-7 are cloze and their blanks fall on RECYCLED virile plurals (lekarze, rolnicy, Polacy, studenci) rather than on a teaching point, because the four teaching-point strings are spent by item 3 and a fifth would duplicate an answer within the stage. The blanked form is still the unit's subject in every case. VIRILE ADJECTIVES (dobrzy, mlodzi, zmeczeni) are recycled from c1_adj_pl_virile [190] in Dopasuj and Uzycie - the AGENTS default recycling mechanism, not a new fact.",
+  "focus_structures": [
+    "virile_alt"
+  ],
+  "teaches_structures": [
+    "virile_alt"
+  ],
+  "teaches_lemmas": [
+    "aktorzy",
+    "trenerzy",
+    "partnerzy"
+  ],
+  "uses_structures": [
+    "virile_alt",
+    "virile_nom",
+    "virile_reco",
+    "adj_pl_virile",
+    "plural_nom",
+    "ten_ta_to",
+    "zgoda",
+    "byc_present",
+    "byc_adj",
+    "miec_present",
+    "inst_identity",
+    "present",
+    "present_am",
+    "present_uje",
+    "prep_w_loc",
+    "prep_place"
+  ],
+  "intro": [
+    {
+      "title": "Three rules you already have, and they were always one rule",
+      "title_pl": "Kelner → kelnerzy",
+      "body": "When you built the virile plural at B1 — the Nominative plural for a group with a man in it — you learned three separate moves: -t becomes -ci, -k becomes -cy, and a stem that is already soft just takes -e.\n\nThey are not three facts. They are one event seen three times. The virile ending pulls the last consonant of the stem into the soft, hissing family Polish keeps for exactly this form. -ci, -cy and -e after rz or l are all the same softening landing on different starting consonants.\n\nThat matters because there is a fourth family you have never been given the rule for, and once you see the pattern as one event it costs nothing to add.",
+      "body_pl": "spółgłoska + końcówka → mianownik liczby mnogiej",
+      "table": {
+        "headers": [
+          "Stem ends in…",
+          "Virile plural",
+          "Example you own"
+        ],
+        "rows": [
+          [
+            "-t",
+            "-ci",
+            "student → studenci"
+          ],
+          [
+            "-k",
+            "-cy",
+            "rolnik → rolnicy"
+          ],
+          [
+            "already soft (rz, l, ć…)",
+            "+e, nothing else moves",
+            "lekarz → lekarze"
+          ],
+          [
+            "-r",
+            "-rzy",
+            "kelner → kelnerzy"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "-r → -rzy",
+      "title_pl": "aktor → aktorzy",
+      "body": "The -r softens to rz, and the ending is -y. You have been reading the output of this rule since B1 without being told how it was built: kelnerzy was handed to you as a whole word, one of six virile plurals you were asked to recognize and not to make.\n\nNow you can make it, and three more with it. Every one of these is a noun you have owned since A1 or A2.",
+      "body_pl": "kelner → kelnerzy · aktor → aktorzy",
+      "examples": [
+        {
+          "en": "actor → actors (a group with a man)",
+          "pl": "aktor → aktorzy"
+        },
+        {
+          "en": "coach → coaches (a group with a man)",
+          "pl": "trener → trenerzy"
+        },
+        {
+          "en": "partner → partners (a group with a man)",
+          "pl": "partner → partnerzy"
+        },
+        {
+          "en": "waiter → waiters (a group with a man)",
+          "pl": "kelner → kelnerzy"
+        }
+      ]
+    },
+    {
+      "title": "The change rides the plural ending",
+      "title_pl": "kelner · kelnerem · kelnerzy",
+      "body": "The stem has not turned into something else. The -r is still there in the singular, and it is still there when the singular takes an ending of its own.\n\nSo you say Jestem kelnerem with an -r, and Ci kelnerzy pracują with an rz — the same word, and the softening arrives with the virile plural ending rather than replacing the stem for good.",
+      "body_pl": "Jestem kelnerem. · Ci kelnerzy pracują.",
+      "table": {
+        "headers": [
+          "Form",
+          "Polish",
+          "In a sentence"
+        ],
+        "rows": [
+          [
+            "one waiter",
+            "kelner",
+            "To jest kelner."
+          ],
+          [
+            "I am a waiter",
+            "kelnerem",
+            "Jestem kelnerem."
+          ],
+          [
+            "the waiters (a group with a man)",
+            "kelnerzy",
+            "Ci kelnerzy pracują."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A strong tendency, not a guarantee",
+      "title_pl": "inżynier → nie tutaj",
+      "body": "Four of the -r nouns you own behave exactly as above. One does not: inżynier belongs to a different plural family altogether, and guessing from this rule would give you a word that does not exist.\n\nThat family is the very next lesson, so nothing is being left dangling. But treat this as the standing rule for the whole level: a pattern tells you what to expect, and an unfamiliar noun is worth checking rather than inventing.",
+      "body_pl": "aktor, trener, partner, kelner → -rzy · inżynier → nie",
+      "table": {
+        "headers": [
+          "Noun",
+          "Virile plural",
+          "Which family"
+        ],
+        "rows": [
+          [
+            "aktor",
+            "aktorzy",
+            "-r → -rzy"
+          ],
+          [
+            "trener",
+            "trenerzy",
+            "-r → -rzy"
+          ],
+          [
+            "partner",
+            "partnerzy",
+            "-r → -rzy"
+          ],
+          [
+            "kelner",
+            "kelnerzy",
+            "-r → -rzy"
+          ],
+          [
+            "inżynier",
+            "not this one",
+            "a different family — next lesson"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What to carry away",
+      "title_pl": "-t → -ci · -k → -cy · -r → -rzy",
+      "body": "One event, four starting points. The virile Nominative plural softens whatever consonant it lands on, and -r is the family you were missing.\n\nThe adjective in front of the group behaves as it already did: dobrzy, młodzi, zmęczeni. Nothing there changes because the noun does.",
+      "body_pl": "Ci aktorzy są dobrzy.",
+      "table": {
+        "headers": [
+          "Stem",
+          "Virile plural",
+          "Whole phrase"
+        ],
+        "rows": [
+          [
+            "aktor",
+            "aktorzy",
+            "Ci aktorzy są dobrzy."
+          ],
+          [
+            "trener",
+            "trenerzy",
+            "Młodzi trenerzy pracują."
+          ],
+          [
+            "kelner",
+            "kelnerzy",
+            "Zmęczeni kelnerzy są tutaj."
+          ],
+          [
+            "student",
+            "studenci",
+            "Ci studenci czytają dużo."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "actors · a group with a man",
+      "pl": "aktorzy"
+    },
+    {
+      "en": "coaches · a group with a man",
+      "pl": "trenerzy"
+    },
+    {
+      "en": "partners · a group with a man",
+      "pl": "partnerzy"
+    },
+    {
+      "en": "waiters · a group with a man",
+      "pl": "kelnerzy"
+    },
+    {
+      "en": "one waiter",
+      "pl": "kelner"
+    },
+    {
+      "en": "these actors",
+      "pl": "ci aktorzy"
+    },
+    {
+      "en": "good coaches",
+      "pl": "dobrzy trenerzy"
+    },
+    {
+      "en": "young partners",
+      "pl": "młodzi partnerzy"
+    },
+    {
+      "en": "tired waiters",
+      "pl": "zmęczeni kelnerzy"
+    },
+    {
+      "en": "students · a group with a man",
+      "pl": "studenci"
+    },
+    {
+      "en": "farmers · a group with a man",
+      "pl": "rolnicy"
+    },
+    {
+      "en": "doctors · a group with a man",
+      "pl": "lekarze"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ci ___ są dobrzy. (these actors are good)",
+      "choices": [
+        "aktorzy",
+        "aktor",
+        "lekarze",
+        "studenci"
+      ],
+      "answer": "aktorzy",
+      "explain": "aktor ends in -r, so the virile plural softens it to rz and adds -y. aktor alone is one actor; lekarze and studenci are real virile plurals, just of different nouns."
+    },
+    {
+      "prompt": "Ci ___ pracują dużo. (these coaches work a lot)",
+      "choices": [
+        "trenerzy",
+        "trener",
+        "kelnerzy",
+        "rolnicy"
+      ],
+      "answer": "trenerzy",
+      "explain": "Same -r → -rzy move as kelner → kelnerzy."
+    },
+    {
+      "prompt": "Ci ___ są w biurze. (these partners are in the office)",
+      "choices": [
+        "partnerzy",
+        "partner",
+        "pracownicy",
+        "nauczyciele"
+      ],
+      "answer": "partnerzy",
+      "explain": "partner → partnerzy. pracownicy is the -k family and nauczyciele is the already-soft family — both real, both the wrong noun."
+    },
+    {
+      "prompt": "Ci ___ pracują w mieście. (these waiters work in the city)",
+      "choices": [
+        "kelnerzy",
+        "kelner",
+        "aktorzy",
+        "Polacy"
+      ],
+      "answer": "kelnerzy",
+      "explain": "The word you have been reading since B1, now built rather than remembered."
+    },
+    {
+      "prompt": "Jestem ___. (I am a waiter — one person, my job)",
+      "choices": [
+        "kelnerem",
+        "kelnerzy",
+        "kelner",
+        "kelnerka"
+      ],
+      "answer": "kelnerem",
+      "explain": "Naming your job takes the Instrumental singular, and the -r stays: kelnerem. kelnerzy is the plural of a group, and it is only there that the r softens."
+    },
+    {
+      "prompt": "Ci ___ czytają dużo. (these students read a lot)",
+      "choices": [
+        "studenci",
+        "student",
+        "partnerzy",
+        "trenerzy"
+      ],
+      "answer": "studenci",
+      "explain": "student ends in -t, so -ci. The same softening as -rzy, landing on a different consonant."
+    },
+    {
+      "prompt": "Ci ___ mieszkają na wsi. (these farmers live in the countryside)",
+      "choices": [
+        "rolnicy",
+        "rolnik",
+        "aktorzy",
+        "lekarze"
+      ],
+      "answer": "rolnicy",
+      "explain": "rolnik ends in -k, so -cy."
+    },
+    {
+      "prompt": "Ci ___ są w szpitalu. (these doctors are at the hospital)",
+      "choices": [
+        "lekarze",
+        "lekarz",
+        "kelnerzy",
+        "trenerzy"
+      ],
+      "answer": "lekarze",
+      "explain": "lekarz already ends in a soft consonant, so nothing moves and it just takes -e."
+    },
+    {
+      "prompt": "Ci ___ mieszkają w Anglii. (these Poles live in England)",
+      "choices": [
+        "Polacy",
+        "Polak",
+        "partnerzy",
+        "goście"
+      ],
+      "answer": "Polacy",
+      "explain": "Polak ends in -k, so -cy — the move you have had since B1."
+    },
+    {
+      "prompt": "___ aktorzy są młodzi. (these actors are young)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "aktorzy is a group with a man in it, so ci, not te."
+    },
+    {
+      "prompt": "Ci ___ są zmęczeni. (these workers are tired)",
+      "choices": [
+        "pracownicy",
+        "pracownik",
+        "aktorzy",
+        "kelnerzy"
+      ],
+      "answer": "pracownicy",
+      "explain": "pracownik ends in -k, so -cy."
+    },
+    {
+      "prompt": "Ci ___ są tutaj. (these guests are here)",
+      "choices": [
+        "goście",
+        "gość",
+        "trenerzy",
+        "partnerzy"
+      ],
+      "answer": "goście",
+      "explain": "gość is already soft, so it just takes -e."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "aktor · m. (actor) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "aktorzy",
+      "accepts": [
+        "aktorzy"
+      ],
+      "explain": "-r → -rzy."
+    },
+    {
+      "prompt_en": "trener · m. (coach) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "trenerzy",
+      "accepts": [
+        "trenerzy"
+      ],
+      "explain": "-r → -rzy."
+    },
+    {
+      "prompt_en": "partner · m. (partner) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "partnerzy",
+      "accepts": [
+        "partnerzy"
+      ],
+      "explain": "-r → -rzy."
+    },
+    {
+      "prompt_en": "kelner · m. (waiter) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "kelnerzy",
+      "accepts": [
+        "kelnerzy"
+      ],
+      "explain": "The whole form you were handed at B1, now derived: -r → -rzy."
+    },
+    {
+      "prompt_en": "These doctors work at the hospital.",
+      "mode": "cloze",
+      "frame": "Ci ___ pracują w szpitalu.",
+      "answer": "lekarze",
+      "accepts": [
+        "lekarze"
+      ],
+      "explain": "Already soft, so just -e."
+    },
+    {
+      "prompt_en": "These farmers have a lot of work.",
+      "mode": "cloze",
+      "frame": "Ci ___ mają dużo pracy.",
+      "answer": "rolnicy",
+      "accepts": [
+        "rolnicy"
+      ],
+      "explain": "-k → -cy."
+    },
+    {
+      "prompt_en": "These Poles live in England.",
+      "mode": "cloze",
+      "frame": "Ci ___ mieszkają w Anglii.",
+      "answer": "Polacy",
+      "accepts": [
+        "Polacy"
+      ],
+      "explain": "-k → -cy."
+    },
+    {
+      "prompt_en": "These students are here.",
+      "mode": "cloze",
+      "frame": "Ci ___ są tutaj.",
+      "answer": "studenci",
+      "accepts": [
+        "studenci"
+      ],
+      "explain": "-t → -ci."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: These actors are good.",
+      "answer": "Ci aktorzy są dobrzy.",
+      "accepts": [
+        "Ci aktorzy są dobrzy.",
+        "Ci aktorzy są dobrzy"
+      ]
+    },
+    {
+      "prompt_en": "Type: These coaches work a lot.",
+      "answer": "Ci trenerzy pracują dużo.",
+      "accepts": [
+        "Ci trenerzy pracują dużo.",
+        "Ci trenerzy pracują dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: The partners are in the office.",
+      "answer": "Partnerzy są w biurze.",
+      "accepts": [
+        "Partnerzy są w biurze.",
+        "Partnerzy są w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: These waiters are young.",
+      "answer": "Ci kelnerzy są młodzi.",
+      "accepts": [
+        "Ci kelnerzy są młodzi.",
+        "Ci kelnerzy są młodzi"
+      ]
+    },
+    {
+      "prompt_en": "Type: The actors live in Poland.",
+      "answer": "Aktorzy mieszkają w Polsce.",
+      "accepts": [
+        "Aktorzy mieszkają w Polsce.",
+        "Aktorzy mieszkają w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coaches are tired.",
+      "answer": "Trenerzy są zmęczeni.",
+      "accepts": [
+        "Trenerzy są zmęczeni.",
+        "Trenerzy są zmęczeni"
+      ]
+    },
+    {
+      "prompt_en": "Type: The waiters work in the city.",
+      "answer": "Kelnerzy pracują w mieście.",
+      "accepts": [
+        "Kelnerzy pracują w mieście.",
+        "Kelnerzy pracują w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: These doctors are at the hospital.",
+      "answer": "Ci lekarze są w szpitalu.",
+      "accepts": [
+        "Ci lekarze są w szpitalu.",
+        "Ci lekarze są w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The farmers live in the countryside.",
+      "answer": "Rolnicy mieszkają na wsi.",
+      "accepts": [
+        "Rolnicy mieszkają na wsi.",
+        "Rolnicy mieszkają na wsi"
+      ]
+    },
+    {
+      "prompt_en": "Type: The young partners work at the company.",
+      "answer": "Młodzi partnerzy pracują w firmie.",
+      "accepts": [
+        "Młodzi partnerzy pracują w firmie.",
+        "Młodzi partnerzy pracują w firmie"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "aktor",
+    "trener",
+    "partner",
+    "kelner",
+    "kelnerem",
+    "kelnerzy",
+    "kelnerka",
+    "student",
+    "studenci",
+    "rolnik",
+    "rolnicy",
+    "lekarz",
+    "lekarze",
+    "polak",
+    "polacy",
+    "pracownik",
+    "pracownicy",
+    "nauczyciele",
+    "gość",
+    "goście",
+    "inżynier",
+    "ci",
+    "te",
+    "ten",
+    "to",
+    "dobrzy",
+    "młodzi",
+    "zmęczeni",
+    "są",
+    "jestem",
+    "pracują",
+    "mieszkają",
+    "czytają",
+    "mają",
+    "dużo",
+    "pracy",
+    "tutaj",
+    "w biurze",
+    "w mieście",
+    "w szpitalu",
+    "w firmie",
+    "w polsce",
+    "w anglii",
+    "na wsi"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_virile_alt",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

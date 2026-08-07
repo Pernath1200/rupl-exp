@@ -1,0 +1,629 @@
+{
+  "id": "c1_nuance",
+  "title": "Pewnie, naprawdę, dokładnie",
+  "title_en": "Hedging and being precise",
+  "level": "C1",
+  "tree_node": "c1_nuance",
+  "default_direction": "en_to_pl",
+  "note": "C1 Block 7 vocab (spine O8), path 225. THE LAST VOCAB PACK IN THE COURSE - which changes what it has to carry, and that is stated here rather than discovered later.\n\nJAMES'S RULING R7 IS EXECUTED HERE. 'wydaje mi sie' is taught AS A CHUNK with an explicit homograph line naming both senses, and it is NOT opened as a dative-experiencer construction. b2_discussion_func dropped it and called the drop 'the loudest judgment call in the batch': wydaje is TAUGHT <- b2_verb_family2 [170] as the third person of wydawac, TO SPEND MONEY, and mi and sie are owned too - so the whole phrase is assembled from three owned strings, every one of them meaning something else. That pack said the phrase 'needs its own moment naming the collision out loud (the dziekuje / ktorej chunk-to-slot treatment), not a line in a chunk board.' It has that moment: the item's explain names wydawac = spend, names the pack that taught it, and says the seeming-sense lives ONLY in the whole three-word phrase. No sentence in this pack decomposes it, and no sentence uses wydaje in its spending job, which would put both senses on screen in one lesson.\n\nTWELVE WORDS IN FOUR JOBS, which is b2_discussion_func's own successful shape and its own stated warning: six near-synonymous adverbs dumped together 'is precisely the cliff load-splitting forbids'. HEDGING (pewnie, wydaje mi sie, byloby dobrze) - INSISTING AND PRECISION (naprawde, dokladnie, wlasciwie, przynajmniej) - DEGREE (calkiem, zupelnie) - FRAMING (szczerze mowiac) - and OPENING A VERB (uwazasz, uwaza). No two items in the pack are interchangeable in a sentence, which was the test each candidate had to pass.\n\nTHE THREE WORDS THE SPINE PROMISED ARE ALL HERE. pewnie, naprawde and dokladnie are b2_discussion_func's own logged drops, held back there because they would have 'flattened four contrasting jobs into a pile of interchangeable adverbs'. With uwazam / zalezy / raczej / wlasciwie now owned and spaced, the contrast survives.\n\npewnie IS A TRAP AND IT IS NAMED. na pewno is TAUGHT <- b1_opinions and means DEFINITELY; pewnie on its own is the opposite end of the scale - probably, I expect. Same root, near-opposite confidence. The item's explain sets the two against each other rather than leaving the learner to assume they are the same word doing the same job.\n\nuwazac IS OPENED, PAYING b2_discussion_func's LOGGED COST. That pack held uwazam to the first person on the wiem-quarantine pattern and stated the consequence plainly: 'Dad can say what HE considers' and has to ask the other person with other material. uwazasz and uwaza are both verified NEW and land here. The third person plural (uwazaja) is NOT taught - one more form for no new job - and is logged.\n\nbyloby ABSORBED FROM c1_cond_past, which logged it as 'deliberately HELD (no neuter in the mirrored set); logged, cheapest home c1_nuance or c1_register.' It arrives as the hedging chunk byloby dobrze, which is genuinely on-register for this pack rather than a form parked in a convenient bin: 'it would be a good idea' is a hedged suggestion, which is what this pack is about.\n\nsprzatac / posprzatac IS NOT TAKEN, AND THIS IS NOW PERMANENT UNLESS JAMES OVERRULES. Carried unresolved since C1 batch 11 as an author's call; the C1 digest named this pack as the place that 'could cheaply absorb' it. It was NOT taken, because the vocab register principle carried unchanged from B1 and B2 forbids revisiting an earlier topic domain and a cleaning verb in a hedging pack reads as a dumping ground. THIS WAS THE LAST VOCAB PACK ON THE PATH - every remaining C1 node is grammar, a gym, a footnote or the capstone - so the course now ends with no verb for cleaning. FLAGGED LOUDLY: the fix is one line in this pack's block plus two sentences, and it is James's call, not a later run's.\n\nWORDS WANTED AND REFUSED, all verified against the position-aware pool: prawdopodobnie (a true rival of pewnie - it would have made exactly the interchangeable pile b2_discussion_func warned about); okolo (real and useful, but it is a GENITIVE GOVERNOR, and this course's vocab packs do not ship governors - it would also need a case-map row and would step on c1_time_minutes' okolo piatej); wcale (belongs with c1_neg_polarity, which is three nodes ahead and owns juz nie / jeszcze nie / zaden); racja and racje (NEW as bare forms - b1_opinions owns mam racje / masz racje WHOLE, and b2_discussion_func's rule that taught chunks are never decomposed is respected, so masz racje appears entire and nothing blanks inside it); ciekawa, rozumiem, inny, zle, prawda, absolutnie, dokladny.\n\nNO GENDER BADGES: every item is an adverb, a verb form or a chunk - there is not one noun in the pack, so the gender field is correctly absent throughout rather than omitted by oversight. NO case-map.json ROW IS ADDED: no item governs a case. droga is avoided entirely (spine O13 - drogi is TAUGHT as the adjective EXPENSIVE, never the noun road). za is used nowhere in a degree job; it is TAUGHT in the thanking job only and c1_time_minutes owns its second.\n\nPRONOUN DISCIPLINE: on / ona / my / wy are GLUE_LEMMAS and invisible to the auditor. None appears; every sentence subject is a noun or the owned to. mi and sie appear ONLY inside the frozen wydaje mi sie.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "situation_chunk",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ze_clauses",
+    "present",
+    "present_am",
+    "miec_acc",
+    "can_inf",
+    "question",
+    "negation",
+    "neg_gen",
+    "indirect_q",
+    "bedzie",
+    "conditional_sg",
+    "part_adv",
+    "ten_ta_to",
+    "prep_w_loc",
+    "prep_do_gen",
+    "numbers_gen"
+  ],
+  "blocks": [
+    {
+      "id": "nuance_c1_words",
+      "title": "Hedging, precision and degree · new words",
+      "items": [
+        {
+          "en": "probably, I expect (not definitely)",
+          "pl": "pewnie",
+          "icon": "🤔",
+          "explain": "Set this against na pewno, which you have had since B1 and which means definitely. Same root, opposite ends of the scale: na pewno commits, pewnie hedges. Tata na pewno jest w domu says you know; Tata pewnie jest w domu says you are guessing."
+        },
+        {
+          "en": "it seems to me",
+          "pl": "wydaje mi się",
+          "icon": "💭",
+          "explain": "Read the whole phrase, never the parts. You met wydaje at B2 in b2_verb_family2, where it is the third person of wydawać and means SPENDS MONEY — and mi and się you have owned for even longer. Three familiar words, all doing something else. It only means it seems inside these three words together, which is why it is learned whole and never taken apart."
+        },
+        {
+          "en": "it would be a good idea",
+          "pl": "byłoby dobrze",
+          "icon": "👌",
+          "explain": "The softest way to suggest something. byłoby is the it-form of the conditional you built at C1 for people — byłbym, byłaby — and dobrze you have had since A1. A suggestion nobody has to refuse."
+        },
+        {
+          "en": "really, genuinely",
+          "pl": "naprawdę",
+          "icon": "❗",
+          "explain": "This one does not hedge — it insists. It is what you put in when you expect to be doubted."
+        },
+        {
+          "en": "exactly, precisely",
+          "pl": "dokładnie",
+          "icon": "🎯",
+          "explain": "Most useful in the negative, where it narrows what you are admitting: Nie wiem dokładnie says you know roughly, which is more helpful than Nie wiem."
+        },
+        {
+          "en": "actually, strictly speaking",
+          "pl": "właściwie",
+          "icon": "🔍",
+          "explain": "It signals a small correction to what has just been said — including your own. Not the same as właśnie, which you already own and which agrees sharply."
+        },
+        {
+          "en": "at least",
+          "pl": "przynajmniej",
+          "icon": "➕",
+          "explain": "Two jobs, both everyday: a minimum in counting (przynajmniej dwa) and a consolation (Przynajmniej pogoda jest ładna)."
+        },
+        {
+          "en": "quite, fairly",
+          "pl": "całkiem",
+          "icon": "🙂",
+          "explain": "A real compliment, but a measured one. Ten film jest całkiem dobry means you liked it without claiming it was excellent."
+        },
+        {
+          "en": "completely, utterly",
+          "pl": "zupełnie",
+          "icon": "💯",
+          "explain": "The far end of the scale całkiem sits in the middle of. The two are worth learning as a pair for that reason."
+        },
+        {
+          "en": "frankly speaking, to be honest",
+          "pl": "szczerze mówiąc",
+          "icon": "🫱",
+          "explain": "mówiąc is the -ąc form you met at C1, and it borrows the main clause's subject exactly as it did there. The phrase warns the listener that what follows is blunt."
+        },
+        {
+          "en": "you consider, you reckon",
+          "pl": "uważasz",
+          "icon": "❓",
+          "explain": "B2 gave you uważam and stopped there, so you could say what you thought but not ask. This is the form that asks."
+        },
+        {
+          "en": "he or she considers",
+          "pl": "uważa",
+          "icon": "🗣",
+          "explain": "The third person, so you can report somebody else's view: Tata uważa, że… — and że joins the clause exactly as it does after myślę and wiem."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Dad is probably at home.",
+      "pl": "Tata pewnie jest w domu.",
+      "accepts": [
+        "Tata pewnie jest w domu.",
+        "Tata pewnie jest w domu"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "pewnie",
+        "tata",
+        "domu"
+      ],
+      "explain": "With na pewno this would be a statement of fact; with pewnie it is a guess."
+    },
+    {
+      "en": "The weather will probably be nice.",
+      "pl": "Pogoda pewnie będzie ładna.",
+      "accepts": [
+        "Pogoda pewnie będzie ładna.",
+        "Pogoda pewnie będzie ładna"
+      ],
+      "structures": [
+        "bedzie",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pewnie",
+        "pogoda",
+        "ładna"
+      ]
+    },
+    {
+      "en": "It seems to me that the film is good.",
+      "pl": "Wydaje mi się, że film jest dobry.",
+      "accepts": [
+        "Wydaje mi się, że film jest dobry.",
+        "Wydaje mi się, że film jest dobry"
+      ],
+      "structures": [
+        "ze_clauses",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "wydaje mi się",
+        "film",
+        "dobry"
+      ],
+      "explain": "The three words in front of że are one block. Nothing goes between them and nothing comes out."
+    },
+    {
+      "en": "It seems to me that Mum is tired.",
+      "pl": "Wydaje mi się, że mama jest zmęczona.",
+      "accepts": [
+        "Wydaje mi się, że mama jest zmęczona.",
+        "Wydaje mi się, że mama jest zmęczona"
+      ],
+      "structures": [
+        "ze_clauses",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wydaje mi się",
+        "mama",
+        "zmęczona"
+      ]
+    },
+    {
+      "en": "It would be a good idea to buy bread.",
+      "pl": "Byłoby dobrze kupić chleb.",
+      "accepts": [
+        "Byłoby dobrze kupić chleb.",
+        "Byłoby dobrze kupić chleb"
+      ],
+      "structures": [
+        "conditional_sg",
+        "can_inf"
+      ],
+      "lemmas": [
+        "byłoby dobrze",
+        "byłoby",
+        "kupić",
+        "chleb"
+      ]
+    },
+    {
+      "en": "It would be a good idea to go to the doctor.",
+      "pl": "Byłoby dobrze pójść do lekarza.",
+      "accepts": [
+        "Byłoby dobrze pójść do lekarza.",
+        "Byłoby dobrze pójść do lekarza"
+      ],
+      "structures": [
+        "conditional_sg",
+        "can_inf",
+        "prep_do_gen"
+      ],
+      "lemmas": [
+        "byłoby dobrze",
+        "pójść",
+        "lekarza"
+      ]
+    },
+    {
+      "en": "This coffee is really good.",
+      "pl": "Ta kawa jest naprawdę dobra.",
+      "accepts": [
+        "Ta kawa jest naprawdę dobra.",
+        "Ta kawa jest naprawdę dobra"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "naprawdę",
+        "kawa",
+        "dobra"
+      ]
+    },
+    {
+      "en": "I really don't know.",
+      "pl": "Naprawdę nie wiem.",
+      "accepts": [
+        "Naprawdę nie wiem.",
+        "Naprawdę nie wiem"
+      ],
+      "structures": [
+        "negation"
+      ],
+      "lemmas": [
+        "naprawdę",
+        "nie wiem"
+      ]
+    },
+    {
+      "en": "I don't know exactly where the bank is.",
+      "pl": "Nie wiem dokładnie, gdzie jest bank.",
+      "accepts": [
+        "Nie wiem dokładnie, gdzie jest bank.",
+        "Nie wiem dokładnie, gdzie jest bank"
+      ],
+      "structures": [
+        "indirect_q",
+        "negation",
+        "byc_present"
+      ],
+      "lemmas": [
+        "dokładnie",
+        "nie wiem",
+        "bank"
+      ],
+      "explain": "Nie wiem shuts the door; Nie wiem dokładnie says you know roughly and admits only the detail is missing."
+    },
+    {
+      "en": "I don't know exactly how much it costs.",
+      "pl": "Nie wiem dokładnie, ile to kosztuje.",
+      "accepts": [
+        "Nie wiem dokładnie, ile to kosztuje.",
+        "Nie wiem dokładnie, ile to kosztuje"
+      ],
+      "structures": [
+        "indirect_q",
+        "negation"
+      ],
+      "lemmas": [
+        "dokładnie",
+        "nie wiem",
+        "kosztuje"
+      ]
+    },
+    {
+      "en": "Actually, you're right.",
+      "pl": "Właściwie masz rację.",
+      "accepts": [
+        "Właściwie masz rację.",
+        "Właściwie masz rację"
+      ],
+      "structures": [
+        "situation_chunk"
+      ],
+      "lemmas": [
+        "właściwie",
+        "masz rację"
+      ],
+      "explain": "masz rację stays whole — it was learned as one block at B1 and nothing is taken out of it."
+    },
+    {
+      "en": "That actually isn't a problem.",
+      "pl": "To właściwie nie jest problem.",
+      "accepts": [
+        "To właściwie nie jest problem.",
+        "To właściwie nie jest problem"
+      ],
+      "structures": [
+        "byc_present",
+        "negation"
+      ],
+      "lemmas": [
+        "właściwie",
+        "problem"
+      ]
+    },
+    {
+      "en": "At least the weather is nice.",
+      "pl": "Przynajmniej pogoda jest ładna.",
+      "accepts": [
+        "Przynajmniej pogoda jest ładna.",
+        "Przynajmniej pogoda jest ładna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przynajmniej",
+        "pogoda",
+        "ładna"
+      ]
+    },
+    {
+      "en": "I have at least two tickets.",
+      "pl": "Mam przynajmniej dwa bilety.",
+      "accepts": [
+        "Mam przynajmniej dwa bilety.",
+        "Mam przynajmniej dwa bilety"
+      ],
+      "structures": [
+        "miec_acc",
+        "numbers_gen"
+      ],
+      "lemmas": [
+        "przynajmniej",
+        "dwa",
+        "bilety"
+      ]
+    },
+    {
+      "en": "This film is quite good.",
+      "pl": "Ten film jest całkiem dobry.",
+      "accepts": [
+        "Ten film jest całkiem dobry.",
+        "Ten film jest całkiem dobry"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "całkiem",
+        "film",
+        "dobry"
+      ]
+    },
+    {
+      "en": "The work is quite difficult.",
+      "pl": "Praca jest całkiem trudna.",
+      "accepts": [
+        "Praca jest całkiem trudna.",
+        "Praca jest całkiem trudna"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "całkiem",
+        "praca",
+        "trudna"
+      ]
+    },
+    {
+      "en": "This is a completely new car.",
+      "pl": "To jest zupełnie nowy samochód.",
+      "accepts": [
+        "To jest zupełnie nowy samochód.",
+        "To jest zupełnie nowy samochód"
+      ],
+      "structures": [
+        "byc_present",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zupełnie",
+        "nowy",
+        "samochód"
+      ],
+      "explain": "całkiem nowy would be fairly new; zupełnie nowy leaves no room — the pair is the point."
+    },
+    {
+      "en": "I have absolutely no time.",
+      "pl": "Zupełnie nie mam czasu.",
+      "accepts": [
+        "Zupełnie nie mam czasu.",
+        "Zupełnie nie mam czasu"
+      ],
+      "structures": [
+        "neg_gen",
+        "negation"
+      ],
+      "lemmas": [
+        "zupełnie",
+        "czasu"
+      ]
+    },
+    {
+      "en": "Frankly speaking, I'm tired.",
+      "pl": "Szczerze mówiąc, jestem zmęczony.",
+      "accepts": [
+        "Szczerze mówiąc, jestem zmęczony.",
+        "Szczerze mówiąc, jestem zmęczony"
+      ],
+      "structures": [
+        "part_adv",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "szczerze mówiąc",
+        "szczerze",
+        "zmęczony"
+      ]
+    },
+    {
+      "en": "Frankly speaking, this work is difficult.",
+      "pl": "Szczerze mówiąc, ta praca jest trudna.",
+      "accepts": [
+        "Szczerze mówiąc, ta praca jest trudna.",
+        "Szczerze mówiąc, ta praca jest trudna"
+      ],
+      "structures": [
+        "part_adv",
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "szczerze mówiąc",
+        "praca",
+        "trudna"
+      ]
+    },
+    {
+      "en": "Do you reckon this is good?",
+      "pl": "Uważasz, że to jest dobre?",
+      "accepts": [
+        "Uważasz, że to jest dobre?",
+        "Uważasz, że to jest dobre"
+      ],
+      "structures": [
+        "ze_clauses",
+        "question",
+        "byc_present"
+      ],
+      "lemmas": [
+        "uważasz",
+        "dobre"
+      ]
+    },
+    {
+      "en": "Do you reckon the weather will be nice?",
+      "pl": "Czy uważasz, że pogoda będzie ładna?",
+      "accepts": [
+        "Czy uważasz, że pogoda będzie ładna?",
+        "Czy uważasz, że pogoda będzie ładna",
+        "Uważasz, że pogoda będzie ładna?",
+        "Uważasz, że pogoda będzie ładna"
+      ],
+      "structures": [
+        "ze_clauses",
+        "question",
+        "bedzie",
+        "zgoda"
+      ],
+      "lemmas": [
+        "uważasz",
+        "pogoda",
+        "ładna"
+      ],
+      "explain": "czy is optional in a yes/no question — the rising tone carries it on its own."
+    },
+    {
+      "en": "Dad reckons the film is boring.",
+      "pl": "Tata uważa, że film jest nudny.",
+      "accepts": [
+        "Tata uważa, że film jest nudny.",
+        "Tata uważa, że film jest nudny"
+      ],
+      "structures": [
+        "ze_clauses",
+        "byc_present",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "uważa",
+        "tata",
+        "nudny"
+      ]
+    },
+    {
+      "en": "Mum reckons the work is important.",
+      "pl": "Mama uważa, że praca jest ważna.",
+      "accepts": [
+        "Mama uważa, że praca jest ważna.",
+        "Mama uważa, że praca jest ważna"
+      ],
+      "structures": [
+        "ze_clauses",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "uważa",
+        "mama",
+        "ważna"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "pewnie",
+    "wydaje mi się",
+    "byłoby",
+    "byłoby dobrze",
+    "naprawdę",
+    "dokładnie",
+    "właściwie",
+    "przynajmniej",
+    "całkiem",
+    "zupełnie",
+    "szczerze",
+    "szczerze mówiąc",
+    "uważasz",
+    "uważa"
+  ],
+  "uses_lemmas": [
+    "na pewno",
+    "uważam",
+    "chyba",
+    "raczej",
+    "właśnie",
+    "zależy",
+    "moim zdaniem",
+    "masz rację",
+    "myślę",
+    "wiem",
+    "nie wiem",
+    "wiesz",
+    "mi",
+    "się",
+    "wydaje",
+    "mówiąc",
+    "byłbym",
+    "byłaby",
+    "dobrze",
+    "jest",
+    "jestem",
+    "będzie",
+    "że",
+    "czy",
+    "nie",
+    "to",
+    "ten",
+    "ta",
+    "tata",
+    "mama",
+    "domu",
+    "pogoda",
+    "ładna",
+    "film",
+    "dobry",
+    "dobra",
+    "dobre",
+    "zmęczona",
+    "zmęczony",
+    "kupić",
+    "chleb",
+    "pójść",
+    "lekarza",
+    "kawa",
+    "bank",
+    "kosztuje",
+    "ile",
+    "gdzie",
+    "problem",
+    "dwa",
+    "bilety",
+    "mam",
+    "praca",
+    "trudna",
+    "nowy",
+    "samochód",
+    "czasu",
+    "nudny",
+    "ważna"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_nuance",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

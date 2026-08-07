@@ -1,0 +1,675 @@
+{
+ "id": "b2_sie_impersonal",
+ "title": "Jak się mówi? · Tu się nie pali",
+ "title_en": "Impersonal się — sentences with nobody in them",
+ "level": "B2",
+ "tree_node": "b2_sie_impersonal",
+ "default_direction": "en_to_pl",
+ "kind": "syntax",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 6, unit 3. Impersonal się: a construction with NO SUBJECT AT ALL and the verb parked in the 3sg, extending a2_sie's framing (się is a word that BELONGS to the verb, never 'self') to sentences where nobody is doing anything in particular.\n\nONE NEW VERB IN THE WHOLE UNIT — palić / pali. Every other verb is a 3sg form already owned: mówi, robi (a1_present_e_isz), kupuje, pracuje (a1_present_uje), pije (a1_present_e_esz), czeka (b1_imperative_rule). That is the whole reason a construction this useful is cheap: the learner already owns six of the seven verbs on screen and has been saying się since A2.\n\nSIĘ IS RE-TAUGHT IN A NEW JOB, explicitly and out loud on slide 1 — the dziękuję / której / że / nic treatment. check_new.py reports się TAUGHT from a2_sie, where it is always attached to a person (nazywam się, uczę się, czuję się). Here there is no person at all, so the slide says so: 'the same word, a job you have never seen it do.'\n\nWORD ORDER IS PRESENTED AS A TABLE FACT, NEVER AS A RULE — the a2_jechac ja-/je- precedent, taken deliberately. a2_sie fenced clitic placement by name ('NO clitic-placement rules') and B2-SPINE hands się-placement beyond 'after the verb' to C1 (inbox item 19). So slide 3 shows exactly two shapes and says in plain English that there is nothing here to work out: (a) question word or place word at the front, then się, then the verb — which is literally the Jak + się + verb order a2_sie already taught and Dad already produces in Jak się masz?; (b) verb first, się straight after it (Mówi się, że…). No third shape appears anywhere in the pack. The unit does NOT claim się goes 'second in the clause', because that is the clitic rule and it is C1's.\n\nHOMOGRAPH TRAP INSIDE THE UNIT'S OWN NEW WORD, named because it is real: 'Pali się.' on its own means THERE IS A FIRE, not 'someone is smoking'. The pack therefore NEVER prints pali się bare — every occurrence is fronted and negated (Tu się nie pali, W szpitalu się nie pali), which forces the smoking reading. 'Pali się.' appears nowhere, distractors included.\n\nOTHER TAUGHT-AS CHECKS: tu is owned from leaf_places as a place adverb and does the same job here; że is properly owned since b2_ze_clauses, so Mówi się, że… costs nothing; dobra, zamknięty, bilet, chleb, herbatę are all recycled in the exact function they were taught in.\n\nFENCED, and every one verified NEW:\n- pisze, płaci, sprzedaje, otwiera — the four verbs that would have made the most natural sign sentences (Jak się pisze…?, Gdzie się płaci?, Tu się sprzedaje bilety). All NEW 3sg forms of verbs whose paradigms nobody owns. Dropped rather than smuggled in; the unit uses only owned verbs plus palić.\n- je — NEW, and it collides head-on with the pronoun je. Absent entirely, so 'Co się tu je?' is not offered.\n- wie — CAUGHT IN THIS PACK'S OWN DRAFT. A use item read 'Jak się mówi po angielsku? Mama wie.' before check_new.py was run over it; wie is NEW for exactly the reason b2_double_neg logged one node earlier (wiem is owned only inside the frozen nie wiem), and the item was rewritten rather than the word smuggled in. This is the third pack in a row to trip on wie.\n- The PAST impersonal (mówiło się) and the -no/-to forms (zrobiono, powiedziano): a second construction, not this one's business.\n- dużo with a verb (Tu się dużo pracuje): dużo is owned from a1_gen_endings as dużo + Genitive noun, and hanging it on a verb is a different job. Held rather than assumed.\n- PLURAL objects (Gdzie się kupuje bilety?): legal-looking, but plural objects are still held across B2 — b2_neg_gen and b2_double_neg both logged the same hold. Singular bilet does the job.\n- Objects under negation: every negative sentence here is objectless (Tu się nie pali / nie pije), so b2_neg_gen's genitive never has to appear inside a construction the learner is meeting for the first time.\n- siebie / sobie (spine O15 → C1); no oblique pronouns anywhere — every argument is a noun. The auditor cannot see that fence: person pronouns sit in audit.py's GLUE_LEMMAS, so it is author discipline only.\n- No plural oblique adjectives (spine O3 → C1) — bare nouns throughout, the ninth consecutive unit.\n\nPISANIE honours the James-locked cap: all ten items are cloze, because every sentence this construction produces is composed by definition (front word + się + verb + phrase). The blank sits on the teaching point — the 3sg verb, or on się itself in item 7, where it lands in the second of the two taught positions.\n\nBare governed prepositions (w) are not listed in uses_lemmas per SEQUENCING.md 6.3 — the job rides prep_w_loc and prep_place in uses_structures.",
+ "focus_structures": [
+  "sie_impersonal"
+ ],
+ "teaches_structures": [
+  "sie_impersonal"
+ ],
+ "teaches_lemmas": [
+  "palić",
+  "pali",
+  "tu się nie pali",
+  "mówi się",
+  "jak się mówi"
+ ],
+ "uses_structures": [
+  "sie_reflexive",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_e_esz",
+  "present_uje",
+  "question",
+  "questions2",
+  "negation",
+  "miec_acc",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "prep_w_loc",
+  "prep_place",
+  "ze_clauses",
+  "conjunctions",
+  "situation_chunk",
+  "social_chunk"
+ ],
+ "intro": [
+  {
+   "title": "The same się, with nobody in the sentence",
+   "title_pl": "nazywam się · uczę się · jak się mówi?",
+   "body": "You have been using się since A2 — nazywam się, uczę się, czuję się. In every one of those there is a person doing something: I, you, he.\n\nPolish uses the same little word for something quite different: a sentence with nobody in it at all. Jak się mówi po polsku? does not say who is speaking. It means how does one say it — how do people say it, how do you say it in general.\n\nEnglish does this too, and it uses three different words for it: you don't smoke in here, they say the shop is shut, one never knows. Polish does the whole job with się and no subject word whatsoever.\n\nSo this is the same word you already say, doing a job you have never seen it do.",
+   "body_pl": "Nazywam się Piotr. → osoba. Jak się mówi po polsku? → nikt.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Who is doing it"
+    ],
+    "rows": [
+     [
+      "Nazywam się Piotr.",
+      "My name is Piotr.",
+      "a person — I"
+     ],
+     [
+      "Jak się nazywasz?",
+      "What's your name?",
+      "a person — you"
+     ],
+     [
+      "Jak się mówi po polsku?",
+      "How do you say it in Polish?",
+      "nobody — people in general"
+     ],
+     [
+      "Tu się nie pali.",
+      "No smoking here.",
+      "nobody — people in general"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The verb is always the he-or-she form",
+   "title_pl": "mówi · kupuje · czeka · pije",
+   "body": "There is no subject in the sentence, so there is nothing for the verb to agree with. Polish parks it in the he-or-she form and leaves it there, every time, whoever you have in mind.\n\nSo it is mówi — never mówię, never mówią — even when what you mean is people.\n\nThat makes this construction unusually easy to say. You never have to choose an ending: pick the he-or-she form you already know and put się next to it.",
+   "body_pl": "Zawsze forma on/ona: mówi się, kupuje się, czeka się.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "The form used"
+    ],
+    "rows": [
+     [
+      "Jak się mówi po polsku?",
+      "How do you say it in Polish?",
+      "mówi — the he-or-she form"
+     ],
+     [
+      "Gdzie się kupuje bilet?",
+      "Where do you buy a ticket?",
+      "kupuje, not kupuję"
+     ],
+     [
+      "Gdzie się czeka?",
+      "Where do you wait?",
+      "czeka"
+     ],
+     [
+      "W Polsce się pije herbatę.",
+      "In Poland people drink tea.",
+      "pije, not piję"
+     ],
+     [
+      "Tu się nie pali.",
+      "No smoking here.",
+      "pali"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "What do people do here?",
+     "pl": "Co się tu robi?"
+    },
+    {
+     "en": "Where do you buy bread?",
+     "pl": "Gdzie się kupuje chleb?"
+    }
+   ]
+  },
+  {
+   "title": "Where the word się stands",
+   "title_pl": "Jak się mówi? · Mówi się, że…",
+   "body": "Two shapes, and you take them exactly as they come. There is nothing here to work out — Polish likes this little word in certain places, and these are the two you will meet.\n\nWhen a question word or a place word starts the sentence, się comes straight after it, and then the verb: Jak się mówi…? Gdzie się kupuje…? Tu się nie pali.\n\nWhen the verb itself starts the sentence, się comes straight after the verb: Mówi się, że…\n\nYou already do the first of these every time you say Jak się masz? — so half of this is a shape your mouth knows already.",
+   "body_pl": "Jak / Gdzie / Co / Tu + się + czasownik. Albo: czasownik + się.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "The shape"
+    ],
+    "rows": [
+     [
+      "Jak się mówi po polsku?",
+      "How do you say it in Polish?",
+      "Jak + się + verb"
+     ],
+     [
+      "Gdzie się kupuje bilet?",
+      "Where do you buy a ticket?",
+      "Gdzie + się + verb"
+     ],
+     [
+      "Co się tu robi?",
+      "What do people do here?",
+      "Co + się + tu + verb"
+     ],
+     [
+      "Tu się nie pali.",
+      "No smoking here.",
+      "Tu + się + nie + verb"
+     ],
+     [
+      "Mówi się, że sklep jest zamknięty.",
+      "They say the shop is closed.",
+      "verb + się"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Signs on walls, and what people say",
+   "title_pl": "Tu się nie pali. · Mówi się, że…",
+   "body": "This is where the construction earns its keep, and it is the reason it is worth a unit of its own.\n\npalić means to smoke, and Tu się nie pali is how the rule is put to everybody at once — word for word, here one does not smoke. Polish notices on walls, doors and café windows are very often built exactly this way, and from now on you can read them.\n\nMówi się, że… is the other everyday one: they say that…, people say that… It lets you pass on something you were told without claiming it as your own.\n\nOne warning about palić, and it matters. Keep the whole phrase together: Tu się nie pali. On its own, with nothing in front of it, those two words mean something else entirely — and it is not something you want to shout in a café by mistake.",
+   "body_pl": "Tu się nie pali. W szpitalu się nie pali. Mówi się, że…",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Where you meet it"
+    ],
+    "rows": [
+     [
+      "Tu się nie pali.",
+      "No smoking here.",
+      "a sign in a café or a shop"
+     ],
+     [
+      "W szpitalu się nie pali.",
+      "No smoking in the hospital.",
+      "the same rule, another place"
+     ],
+     [
+      "Tu się nie pije.",
+      "No drinking here.",
+      "the same shape again"
+     ],
+     [
+      "Mówi się, że kawa jest dobra.",
+      "They say the coffee is good.",
+      "passing on what you heard"
+     ],
+     [
+      "W Polsce się pije herbatę.",
+      "In Poland people drink tea.",
+      "how things are done somewhere"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "No smoking here, because this is a hospital.",
+     "pl": "Tu się nie pali, bo to jest szpital."
+    },
+    {
+     "en": "They say the shop is closed today.",
+     "pl": "Mówi się, że sklep jest dzisiaj zamknięty."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "how do you say it in Polish?",
+   "pl": "jak się mówi po polsku?"
+  },
+  {
+   "en": "how do you say it in English?",
+   "pl": "jak się mówi po angielsku?"
+  },
+  {
+   "en": "where do you buy a ticket?",
+   "pl": "gdzie się kupuje bilet?"
+  },
+  {
+   "en": "where do you buy bread?",
+   "pl": "gdzie się kupuje chleb?"
+  },
+  {
+   "en": "where do you wait?",
+   "pl": "gdzie się czeka?"
+  },
+  {
+   "en": "what do people do here?",
+   "pl": "co się tu robi?"
+  },
+  {
+   "en": "no smoking here",
+   "pl": "tu się nie pali"
+  },
+  {
+   "en": "no smoking in the hospital",
+   "pl": "w szpitalu się nie pali"
+  },
+  {
+   "en": "no drinking here",
+   "pl": "tu się nie pije"
+  },
+  {
+   "en": "in Poland people drink tea",
+   "pl": "w Polsce się pije herbatę"
+  },
+  {
+   "en": "they say the coffee is good",
+   "pl": "mówi się, że kawa jest dobra"
+  },
+  {
+   "en": "they say the shop is closed",
+   "pl": "mówi się, że sklep jest zamknięty"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "___ się mówi po polsku? (how do you say it in Polish?)",
+   "choices": [
+    "Jak",
+    "Gdzie",
+    "Co",
+    "Kto"
+   ],
+   "answer": "Jak",
+   "explain": "Jak asks in what way, which is what you want when you are after the words themselves. Gdzie would be asking where people say it."
+  },
+  {
+   "prompt": "Jak się ___ po polsku? (how do you say it?)",
+   "choices": [
+    "mówi",
+    "mówię",
+    "mówisz",
+    "mówią"
+   ],
+   "answer": "mówi",
+   "explain": "There is nobody in this sentence, so there is nothing for the verb to agree with. It stays in the he-or-she form whatever the English says."
+  },
+  {
+   "prompt": "You want to know how to say a word in Polish. You ask:",
+   "choices": [
+    "Jak się mówi po polsku?",
+    "Jak się nazywasz?",
+    "Jak się masz?",
+    "Co słychać?"
+   ],
+   "answer": "Jak się mówi po polsku?",
+   "explain": "All four are real, and three of them are about the person in front of you — their name, their health, their news. Only the first one asks about the language."
+  },
+  {
+   "prompt": "There is a notice on the café wall. It says:",
+   "choices": [
+    "Tu się nie pali.",
+    "Tu się nie pije.",
+    "Nie mam.",
+    "Nie wiem."
+   ],
+   "answer": "Tu się nie pali.",
+   "explain": "pali is the smoking one — this is the no-smoking notice. Tu się nie pije would be about drinking, and the other two are things a person says about themselves."
+  },
+  {
+   "prompt": "Gdzie się ___ bilet? (where do you buy a ticket?)",
+   "choices": [
+    "kupuje",
+    "kupuję",
+    "kupujesz",
+    "kupują"
+   ],
+   "answer": "kupuje",
+   "explain": "kupuję would be I buy and kupujesz would be you buy — but the question is not about anybody in particular, so the verb takes the he-or-she form."
+  },
+  {
+   "prompt": "Mówi się, ___ sklep jest zamknięty. (they say the shop is closed)",
+   "choices": [
+    "że",
+    "bo",
+    "ale",
+    "czy"
+   ],
+   "answer": "że",
+   "explain": "że joins what is said to the saying of it, exactly as it does after Wiem and Myślę. bo would give a reason and ale would set up a contrast."
+  },
+  {
+   "prompt": "Which one is right?",
+   "choices": [
+    "W szpitalu się nie pali.",
+    "W szpitalu nie się pali.",
+    "Się w szpitalu nie pali.",
+    "W szpitalu się pali nie."
+   ],
+   "answer": "W szpitalu się nie pali.",
+   "explain": "With a place phrase at the front, się comes straight after it and the nie stays on the verb. Note that się never opens a sentence in Polish — that is the one place it will not go."
+  },
+  {
+   "prompt": "W Polsce się ___ herbatę. (in Poland people drink tea)",
+   "choices": [
+    "pije",
+    "piję",
+    "pijesz",
+    "piją"
+   ],
+   "answer": "pije",
+   "explain": "The sentence is about how things are done in Poland, not about any one drinker, so the verb is the he-or-she form. The tea stays herbatę, exactly as it is after piję."
+  },
+  {
+   "prompt": "___ się czeka? (where do you wait?)",
+   "choices": [
+    "Gdzie",
+    "Jak",
+    "Kto",
+    "Że"
+   ],
+   "answer": "Gdzie",
+   "explain": "Gdzie asks for a place, which is what you need at a station or a clinic. Jak się czeka? would be asking in what manner one waits."
+  },
+  {
+   "prompt": "They say the coffee is good. →",
+   "choices": [
+    "Mówi się, że kawa jest dobra.",
+    "Mówię, że kawa jest dobra.",
+    "Mówisz, że kawa jest dobra.",
+    "Mówią, że kawa jest dobra."
+   ],
+   "answer": "Mówi się, że kawa jest dobra.",
+   "explain": "Mówię, że… claims it yourself and Mówią, że… points at some particular people. With się you pass it on without saying who — which is what the English they say means here."
+  },
+  {
+   "prompt": "Co się tu ___? (what do people do here?)",
+   "choices": [
+    "robi",
+    "robię",
+    "robisz",
+    "robią"
+   ],
+   "answer": "robi",
+   "explain": "Same fact one more time, on a verb you have had since A1: no subject, so the he-or-she form."
+  },
+  {
+   "prompt": "Which sentence is about one particular person?",
+   "choices": [
+    "Jak się nazywasz?",
+    "Jak się mówi po polsku?",
+    "Gdzie się czeka?",
+    "Tu się nie pali."
+   ],
+   "answer": "Jak się nazywasz?",
+   "explain": "The -sz ending points straight at the person you are talking to. The other three have nobody in them at all — that is the whole difference this unit teaches."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "No smoking here.",
+   "mode": "cloze",
+   "frame": "Tu się nie ___.",
+   "answer": "pali",
+   "accepts": [
+    "pali"
+   ],
+   "explain": "pali is the he-or-she form of palić, to smoke. Keep the whole phrase together — those last two words on their own mean something quite different."
+  },
+  {
+   "prompt_en": "How do you say it in Polish?",
+   "mode": "cloze",
+   "frame": "Jak się ___ po polsku?",
+   "answer": "mówi",
+   "accepts": [
+    "mówi",
+    "mowi"
+   ],
+   "explain": "Not mówię and not mówisz: with nobody in the sentence the verb sits in the he-or-she form and stays there."
+  },
+  {
+   "prompt_en": "Where do you buy a ticket?",
+   "mode": "cloze",
+   "frame": "Gdzie się ___ bilet?",
+   "answer": "kupuje",
+   "accepts": [
+    "kupuje"
+   ],
+   "explain": "kupuje, one letter away from the kupuję you say about yourself — and that letter is the whole point."
+  },
+  {
+   "prompt_en": "Where do you wait?",
+   "mode": "cloze",
+   "frame": "Gdzie się ___?",
+   "answer": "czeka",
+   "accepts": [
+    "czeka"
+   ],
+   "explain": "Worth having ready at a station or a clinic, where it is usually the only thing you need to ask."
+  },
+  {
+   "prompt_en": "What do people do here?",
+   "mode": "cloze",
+   "frame": "Co się tu ___?",
+   "answer": "robi",
+   "accepts": [
+    "robi"
+   ],
+   "explain": "The he-or-she form again, on the verb you have had since A1."
+  },
+  {
+   "prompt_en": "In Poland people drink tea.",
+   "mode": "cloze",
+   "frame": "W Polsce się ___ herbatę.",
+   "answer": "pije",
+   "accepts": [
+    "pije"
+   ],
+   "explain": "pije for the general habit; piję would be about your own cup. The tea is herbatę either way."
+  },
+  {
+   "prompt_en": "They say the shop is closed.",
+   "mode": "cloze",
+   "frame": "Mówi ___, że sklep jest zamknięty.",
+   "answer": "się",
+   "accepts": [
+    "się",
+    "sie"
+   ],
+   "explain": "This is the second of the two positions: when the verb starts the sentence, się comes straight after it."
+  },
+  {
+   "prompt_en": "No smoking in the hospital.",
+   "mode": "cloze",
+   "frame": "W ___ się nie pali.",
+   "answer": "szpitalu",
+   "accepts": [
+    "szpitalu"
+   ],
+   "explain": "w szpitalu, the in-form you have had since A2 — the new construction changes nothing about the place phrase in front of it.",
+   "note": "The blank is NOT the teaching point here: the teaching-point words in this sentence are pali (item 0) and się (item 6), and repeating either would put a duplicate answer in the stage. Blanking the place phrase keeps the sign shape on screen and drills the one form the sentence actually varies."
+  },
+  {
+   "prompt_en": "Where do you buy bread?",
+   "mode": "cloze",
+   "frame": "Gdzie się kupuje ___?",
+   "answer": "chleb",
+   "accepts": [
+    "chleb"
+   ],
+   "explain": "Nothing is added to chleb here. It is only after a nie that it turns into chleba."
+  },
+  {
+   "prompt_en": "They say the coffee is good.",
+   "mode": "cloze",
+   "frame": "Mówi się, że kawa jest ___.",
+   "answer": "dobra",
+   "accepts": [
+    "dobra"
+   ],
+   "explain": "kawa is feminine, so the adjective after jest is dobra. The się at the front changes nothing inside the second half of the sentence."
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Excuse me, where do you buy a ticket?",
+   "answer": "Przepraszam, gdzie się kupuje bilet?",
+   "accepts": [
+    "Przepraszam, gdzie się kupuje bilet?",
+    "Przepraszam, gdzie się kupuje bilet"
+   ]
+  },
+  {
+   "prompt_en": "Type: No smoking here, because this is a hospital.",
+   "answer": "Tu się nie pali, bo to jest szpital.",
+   "accepts": [
+    "Tu się nie pali, bo to jest szpital.",
+    "Tu się nie pali, bo to jest szpital"
+   ],
+   "explain": "The sign states the rule, and bo gives the reason — the same bo you have been using since A2."
+  },
+  {
+   "prompt_en": "Type: They say the shop is closed today.",
+   "answer": "Mówi się, że sklep jest dzisiaj zamknięty.",
+   "accepts": [
+    "Mówi się, że sklep jest dzisiaj zamknięty.",
+    "Mówi się, że sklep jest dzisiaj zamknięty"
+   ]
+  },
+  {
+   "prompt_en": "Type: In Poland people drink tea, but dad drinks coffee.",
+   "answer": "W Polsce się pije herbatę, ale tata pije kawę.",
+   "accepts": [
+    "W Polsce się pije herbatę, ale tata pije kawę.",
+    "W Polsce się pije herbatę, ale tata pije kawę"
+   ],
+   "explain": "Both halves use the same verb shape, but only the second half has somebody in it — and that somebody is tata, not the ending."
+  },
+  {
+   "prompt_en": "Type: Where do you wait? I don't know.",
+   "answer": "Gdzie się czeka? Nie wiem.",
+   "accepts": [
+    "Gdzie się czeka? Nie wiem.",
+    "Gdzie się czeka? Nie wiem"
+   ]
+  },
+  {
+   "prompt_en": "Type: Excuse me, how do you say it in English?",
+   "answer": "Przepraszam, jak się mówi po angielsku?",
+   "accepts": [
+    "Przepraszam, jak się mówi po angielsku?",
+    "Przepraszam, jak się mówi po angielsku"
+   ],
+   "explain": "The same question as the Polish one, with only the last word changed — po polsku and po angielsku both stay exactly as they are."
+  },
+  {
+   "prompt_en": "Type: They say the coffee is good here.",
+   "answer": "Mówi się, że kawa jest tu dobra.",
+   "accepts": [
+    "Mówi się, że kawa jest tu dobra.",
+    "Mówi się, że kawa jest tu dobra"
+   ]
+  },
+  {
+   "prompt_en": "Type: What do people do here? They work.",
+   "answer": "Co się tu robi? Pracują.",
+   "accepts": [
+    "Co się tu robi? Pracują.",
+    "Co się tu robi? Pracują"
+   ],
+   "explain": "The question has nobody in it and the answer does — pracują points at actual people, which is why its ending is different."
+  },
+  {
+   "prompt_en": "Type: Where do you buy bread? In the shop.",
+   "answer": "Gdzie się kupuje chleb? W sklepie.",
+   "accepts": [
+    "Gdzie się kupuje chleb? W sklepie.",
+    "Gdzie się kupuje chleb? W sklepie"
+   ]
+  },
+  {
+   "prompt_en": "Type: No smoking in the hospital, but you can smoke in the park.",
+   "answer": "W szpitalu się nie pali, ale w parku można palić.",
+   "accepts": [
+    "W szpitalu się nie pali, ale w parku można palić.",
+    "W szpitalu się nie pali, ale w parku można palić"
+   ],
+   "explain": "można is followed by the plain dictionary form palić, exactly as it is by every other verb — and it needs no się at all, because można already means one may."
+  }
+ ],
+ "uses_lemmas": [
+  "się",
+  "nazywam się",
+  "nazywasz się",
+  "jak się nazywasz",
+  "jak się masz",
+  "uczę się",
+  "czuję się",
+  "jak",
+  "gdzie",
+  "co",
+  "kto",
+  "tu",
+  "nie",
+  "że",
+  "bo",
+  "ale",
+  "czy",
+  "mówi",
+  "mówię",
+  "mówisz",
+  "mówią",
+  "robi",
+  "robię",
+  "robisz",
+  "robią",
+  "kupuje",
+  "kupuję",
+  "kupujesz",
+  "kupują",
+  "pije",
+  "piję",
+  "pijesz",
+  "piją",
+  "czeka",
+  "pracują",
+  "jest",
+  "można",
+  "nie mam",
+  "nie wiem",
+  "przepraszam",
+  "co słychać",
+  "po polsku",
+  "po angielsku",
+  "bilet",
+  "chleb",
+  "chleba",
+  "herbatę",
+  "kawa",
+  "kawę",
+  "dobra",
+  "sklep",
+  "zamknięty",
+  "szpital",
+  "szpitalu",
+  "w szpitalu",
+  "w sklepie",
+  "w polsce",
+  "w parku",
+  "dzisiaj",
+  "tata",
+  "to"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_sie_impersonal",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

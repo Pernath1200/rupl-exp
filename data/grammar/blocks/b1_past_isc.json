@@ -1,0 +1,502 @@
+{
+  "id": "b1_past_isc",
+  "title": "Czas przeszły · iść",
+  "title_en": "Past tense · to go on foot",
+  "level": "B1",
+  "tree_node": "b1_past_isc",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "The course's first truly suppletive past, given its own undiluted unit per B1-SPINE Block 3. Taught WHOLE, exactly the miał-/chciał- treatment from a2_past_rest, one step further: no derivation, no historical morphology. The m/f stem split (szed- masculine, sz- feminine/neuter) is presented as what the table shows -- a fact to see, like the id-/idzi- split in a2_chodzic -- never as a rule to apply. Honest framing used: iść is the most-used verb of motion and the only verb so far whose past looks nothing like its infinitive, so it earns learning by heart; a payoff is promised ('two more everyday verbs are built on these exact shapes') WITHOUT naming the prefixed arrive/leave pasts -- those are b1_arrive_leave's job, and following the a2_chodzic precedent they are not spelled out even in this note. SINGULAR ONLY. FENCED, must not appear anywhere in this file: plural past of iść (the -li/-ły forms ride the virile system much later); ALL prefixed motion pasts; jechać's past (never taught, stays untaught); the third-person plural pronouns (untaught until b1_virile_past). GLOSS: iść is dynamic, so per the AGENTS aspect-gloss rule all glosses are progressive -- 'was going (on foot)', i.e. en route -- which maps exactly onto the imperfective and leaves nothing to un-teach when the perfective twin eventually arrives. FORKS TAKEN: (a) the unit has 7 forms and Dopasuj needs exactly 12 rows -- solved by the a2_past_byc precedent: 7 bare forms + 5 full anchor sentences, no padding, no duplicates; (b) no invented wrong forms (e.g. no *szedła) used as quiz distractors -- the stem discrimination is carried by real taught forms only, so the auditor never sees an untaught string; (c) Pisanie is exactly the 7 bare forms, the minimal pattern unit, nothing more. Destinations all verified in POOL_b1_batch1 as do+genitive chunks taught AS destinations (do pracy, do sklepu, do szkoły, do parku, do apteki, do banku, do biura, do miasta, do centrum, do domu) -- same function here, no homograph risk; subjects (mama, tata, dziecko, brat, siostra, anna, mój) and time words (wczoraj, teraz) all pooled.",
+  "focus_structures": [
+    "past_isc"
+  ],
+  "teaches_structures": [
+    "past_isc"
+  ],
+  "uses_structures": [
+    "past_isc",
+    "past_byc",
+    "past_rest",
+    "chodzic",
+    "prep_do_gen",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "The one past you learn by heart",
+      "title_pl": "Czas przeszły · iść",
+      "body": "Every past tense so far came from one rule: cut -ć, add -ł. Two verbs — mieć and chcieć — you learned whole instead, as miał- and chciał-.\n\niść goes one step further. Its past looks nothing like iść at all — no rule will get you there. It is the only verb in the course like this, and it is the most-used verb of motion in Polish, so it has earned a table of its own. Learn these seven words whole, the way you learned miałem and chciałem.\n\nThe endings, at least, are old friends — the same -em / -am / -eś / -aś you have carried since byłem.",
+      "body_pl": "Czas przeszły iść uczymy się w całości, jak miałem i chciałem.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "szedłem",
+            "I was going (on foot)",
+            "man speaking (m)"
+          ],
+          [
+            "szłam",
+            "I was going (on foot)",
+            "woman speaking (f)"
+          ],
+          [
+            "szedłeś",
+            "you were going",
+            "to a man (m)"
+          ],
+          [
+            "szłaś",
+            "you were going",
+            "to a woman (f)"
+          ],
+          [
+            "szedł",
+            "he was going",
+            "on · tata, brat"
+          ],
+          [
+            "szła",
+            "she was going",
+            "ona · mama, siostra"
+          ],
+          [
+            "szło",
+            "it was going",
+            "ono · dziecko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two shapes — read them off the table",
+      "title_pl": "Dwa kształty",
+      "body": "Look down the table and you can see it has two shapes in it. The three masculine forms start szed-. The feminine and neuter forms start sz-, with nothing in between.\n\nThat is simply how the word is built — the same kind of table fact as idę next to idziesz. iść already surprised you once in the present tense; this is the same verb being itself in the past.\n\nOne more reason to learn the table well: two more everyday verbs, coming very soon, are built on exactly these shapes — so this table pays for itself twice.",
+      "body_pl": "Formy męskie: szed- (szedłem, szedłeś, szedł). Żeńskie i nijaka: sz- (szłam, szłaś, szła, szło).",
+      "table": {
+        "headers": [
+          "masculine — szed-",
+          "feminine / neuter — sz-"
+        ],
+        "rows": [
+          [
+            "szedłem",
+            "szłam"
+          ],
+          [
+            "szedłeś",
+            "szłaś"
+          ],
+          [
+            "szedł",
+            "szła · szło"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Yesterday, on the way",
+      "title_pl": "Wczoraj po drodze",
+      "body": "The sentences work exactly as they did in the present: a subject, the verb, and a do + genitive destination you have used a hundred times. Add wczoraj and you are telling somebody about yesterday's walk.\n\nThe subject picks the form, just as it did with był / była / było: tata szedł, mama szła, dziecko szło.",
+      "body_pl": "Podmiot wybiera formę: tata szedł, mama szła, dziecko szło. Po czasowniku: do + dopełniacz.",
+      "examples": [
+        {
+          "en": "Yesterday I was going to work. (m)",
+          "pl": "Wczoraj szedłem do pracy."
+        },
+        {
+          "en": "Mum was going to the shop.",
+          "pl": "Mama szła do sklepu."
+        },
+        {
+          "en": "The child was going to school.",
+          "pl": "Dziecko szło do szkoły."
+        },
+        {
+          "en": "Where were you going? (to a woman)",
+          "pl": "Gdzie szłaś?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was going (m)",
+      "pl": "szedłem"
+    },
+    {
+      "en": "I was going (f)",
+      "pl": "szłam"
+    },
+    {
+      "en": "you were going (m)",
+      "pl": "szedłeś"
+    },
+    {
+      "en": "you were going (f)",
+      "pl": "szłaś"
+    },
+    {
+      "en": "he was going",
+      "pl": "szedł"
+    },
+    {
+      "en": "she was going",
+      "pl": "szła"
+    },
+    {
+      "en": "it was going",
+      "pl": "szło"
+    },
+    {
+      "en": "Mum was going to the shop.",
+      "pl": "Mama szła do sklepu."
+    },
+    {
+      "en": "Dad was going to work.",
+      "pl": "Tata szedł do pracy."
+    },
+    {
+      "en": "The child was going to school.",
+      "pl": "Dziecko szło do szkoły."
+    },
+    {
+      "en": "Where were you going? (m)",
+      "pl": "Gdzie szedłeś?"
+    },
+    {
+      "en": "I was going to the park. (f)",
+      "pl": "Szłam do parku."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mama ___ do sklepu.",
+      "choices": [
+        "szła",
+        "szedł",
+        "szło",
+        "szłam"
+      ],
+      "answer": "szła",
+      "explain": "mama is feminine, so the past verb takes -a — and the feminine forms are the short sz- ones: szła. szłam would mean I was going; that -m is the speaker."
+    },
+    {
+      "prompt": "Tata ___ do pracy.",
+      "choices": [
+        "szedł",
+        "szła",
+        "szedłem",
+        "szło"
+      ],
+      "answer": "szedł",
+      "explain": "tata is a he, and the three masculine forms are the ones that start szed-. No ending after the -ł, exactly as in był and miał."
+    },
+    {
+      "prompt": "Dziecko ___ do szkoły.",
+      "choices": [
+        "szło",
+        "szedł",
+        "szła",
+        "szłam"
+      ],
+      "answer": "szło",
+      "explain": "dziecko is neuter, and the neuter past ends in -o — the same -o as było and miało, sitting on the short sz- shape."
+    },
+    {
+      "prompt": "Wczoraj ___ do parku. (m)",
+      "choices": [
+        "szedłem",
+        "szłam",
+        "szedł",
+        "szedłeś"
+      ],
+      "answer": "szedłem",
+      "explain": "A man speaking about himself takes -em: szedłem. Without the -em it would be he was going."
+    },
+    {
+      "prompt": "Wczoraj ___ do banku. (f)",
+      "choices": [
+        "szłam",
+        "szedłem",
+        "szła",
+        "szłaś"
+      ],
+      "answer": "szłam",
+      "explain": "A woman speaking about herself takes -am on the short sz- shape: szłam. szedłem is the man's word for the same thing."
+    },
+    {
+      "prompt": "you were going (f) →",
+      "choices": [
+        "szłaś",
+        "szedłeś",
+        "szłam",
+        "szła"
+      ],
+      "answer": "szłaś"
+    },
+    {
+      "prompt": "Fix: Anna szedł do apteki. →",
+      "choices": [
+        "szła",
+        "szedł",
+        "szło",
+        "szłam"
+      ],
+      "answer": "szła",
+      "explain": "Anna is a woman, and the szed- shape belongs to the masculine forms only. Her form is the short one: szła."
+    },
+    {
+      "prompt": "Teraz ___ do sklepu. (right now)",
+      "choices": [
+        "idę",
+        "szedłem",
+        "chodzę",
+        "szłam"
+      ],
+      "answer": "idę",
+      "explain": "teraz means it is happening as you speak, so the verb is the present idę. szedłem is yesterday's verb — same journey, different day."
+    },
+    {
+      "prompt": "Siostra ___ do domu.",
+      "choices": [
+        "szła",
+        "szedł",
+        "szło",
+        "szłaś"
+      ],
+      "answer": "szła"
+    },
+    {
+      "prompt": "Mój brat ___ do centrum.",
+      "choices": [
+        "szedł",
+        "szła",
+        "szedłem",
+        "szło"
+      ],
+      "answer": "szedł"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was going (on foot) (m)",
+      "mode": "full_word",
+      "answer": "szedłem",
+      "accepts": [
+        "szedłem"
+      ],
+      "explain": "One of the seven words to know whole. The szed- shape plus the -em you have used since byłem."
+    },
+    {
+      "prompt_en": "I was going (on foot) (f)",
+      "mode": "full_word",
+      "answer": "szłam",
+      "accepts": [
+        "szłam"
+      ],
+      "explain": "The feminine forms drop straight to sz-: sz + ł + am. Short, but a whole word."
+    },
+    {
+      "prompt_en": "you were going (on foot) (m)",
+      "mode": "full_word",
+      "answer": "szedłeś",
+      "accepts": [
+        "szedłeś"
+      ]
+    },
+    {
+      "prompt_en": "you were going (on foot) (f)",
+      "mode": "full_word",
+      "answer": "szłaś",
+      "accepts": [
+        "szłaś"
+      ]
+    },
+    {
+      "prompt_en": "he was going (on foot)",
+      "mode": "full_word",
+      "answer": "szedł",
+      "accepts": [
+        "szedł"
+      ],
+      "explain": "The he-form stops at the -ł, as always — and it keeps the szed- shape, because szed- is what the masculine forms are built on."
+    },
+    {
+      "prompt_en": "she was going (on foot)",
+      "mode": "full_word",
+      "answer": "szła",
+      "accepts": [
+        "szła"
+      ],
+      "explain": "No szed- here — she takes the short shape: szła. Read it off the table; there is nothing to work out."
+    },
+    {
+      "prompt_en": "it was going (on foot)",
+      "mode": "full_word",
+      "answer": "szło",
+      "accepts": [
+        "szło"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Yesterday I was going to work. (m)",
+      "answer": "Wczoraj szedłem do pracy.",
+      "accepts": [
+        "Wczoraj szedłem do pracy.",
+        "Wczoraj szedłem do pracy",
+        "Szedłem wczoraj do pracy.",
+        "Szedłem wczoraj do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was going to the shop.",
+      "answer": "Mama szła do sklepu.",
+      "accepts": [
+        "Mama szła do sklepu.",
+        "Mama szła do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child was going to school.",
+      "answer": "Dziecko szło do szkoły.",
+      "accepts": [
+        "Dziecko szło do szkoły.",
+        "Dziecko szło do szkoły"
+      ],
+      "explain": "dziecko is neuter, so the verb ends in -o: szło — the same -o as było and miało."
+    },
+    {
+      "prompt_en": "Type: Dad was going to the park.",
+      "answer": "Tata szedł do parku.",
+      "accepts": [
+        "Tata szedł do parku.",
+        "Tata szedł do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I was going to the pharmacy. (f)",
+      "answer": "Wczoraj szłam do apteki.",
+      "accepts": [
+        "Wczoraj szłam do apteki.",
+        "Wczoraj szłam do apteki",
+        "Szłam wczoraj do apteki.",
+        "Szłam wczoraj do apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother was going to the bank.",
+      "answer": "Mój brat szedł do banku.",
+      "accepts": [
+        "Mój brat szedł do banku.",
+        "Mój brat szedł do banku"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister was going to town.",
+      "answer": "Moja siostra szła do miasta.",
+      "accepts": [
+        "Moja siostra szła do miasta.",
+        "Moja siostra szła do miasta",
+        "Siostra szła do miasta.",
+        "Siostra szła do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where were you going yesterday? (to a man)",
+      "answer": "Gdzie szedłeś wczoraj?",
+      "accepts": [
+        "Gdzie szedłeś wczoraj?",
+        "Gdzie szedłeś wczoraj",
+        "Gdzie wczoraj szedłeś?",
+        "Gdzie wczoraj szedłeś"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where were you going yesterday? (to a woman)",
+      "answer": "Gdzie szłaś wczoraj?",
+      "accepts": [
+        "Gdzie szłaś wczoraj?",
+        "Gdzie szłaś wczoraj",
+        "Gdzie wczoraj szłaś?",
+        "Gdzie wczoraj szłaś"
+      ],
+      "explain": "Same question as the one above, but to a woman — so the verb swaps to the short sz- shape with -aś: szłaś."
+    },
+    {
+      "prompt_en": "Type: Anna was going to the office.",
+      "answer": "Anna szła do biura.",
+      "accepts": [
+        "Anna szła do biura.",
+        "Anna szła do biura"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "szedłem",
+    "szłam",
+    "szedłeś",
+    "szłaś",
+    "szedł",
+    "szła",
+    "szło"
+  ],
+  "uses_lemmas": [
+    "iść",
+    "idę",
+    "idziesz",
+    "chodzę",
+    "mieć",
+    "chcieć",
+    "miałem",
+    "miał",
+    "miało",
+    "chciałem",
+    "byłem",
+    "był",
+    "była",
+    "było",
+    "wczoraj",
+    "teraz",
+    "gdzie",
+    "mama",
+    "tata",
+    "dziecko",
+    "brat",
+    "siostra",
+    "anna",
+    "mój",
+    "moja",
+    "do pracy",
+    "do sklepu",
+    "do szkoły",
+    "do parku",
+    "do apteki",
+    "do banku",
+    "do biura",
+    "do miasta",
+    "do centrum",
+    "do domu"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_past_isc",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

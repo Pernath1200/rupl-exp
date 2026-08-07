@@ -1,0 +1,501 @@
+{
+  "id": "b1_dative_pron",
+  "title": "Mi · ci · mu · jej · nam · wam · im",
+  "title_en": "The dative pronouns, completed",
+  "level": "B1",
+  "tree_node": "b1_dative_pron",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B1 Block 5, unit 2. A2's dat_chunks fenced the pronoun set to mi/mnie only, in three fixed blocks (podoba mi się, smakuje mi, boli mnie). This unit completes the pronoun grid — ci, mu, jej, nam, wam, im — and generalises it onto the two verbs that are genuinely dative-governing in every person: podobać się (full paradigm, the real payoff) and smakować (partial spread: mu, im only, load control). boleć is DELIBERATELY EXCLUDED — it takes the accusative in every person (boli mnie/cię/go/ją...), a different pronoun set the course has not taught, and generalising the new dative pronouns onto it would be a genuine grammar error, not a simplification; a2_dat_chunks's own note already flagged that boli mnie is accusative, not dative, and left it unexplained on purpose. This unit does not touch that fence.\n\nHOMOGRAPH, flagged loudly and predicted in advance by b1_virile_reco's own digest note: ci already exists in the taught pool as the virile demonstrative (ci studenci = 'these students', b1_virile_reco). This unit re-teaches the identical string as a completely unrelated word: the 2sg dative clitic (podoba ci się = 'you like it'). The auditor cannot see this — it only matches strings, and ci is already 'taught' by an earlier pack. Disambiguated explicitly: intro slide 2 puts both meanings side by side by name, and quiz item 9 places a real sentence using virile ci (Ci nauczyciele pomagają studentowi) next to items using dative ci, so both senses are seen in genuine context rather than through a meta 'which meaning' question (Kontrola stage forbids meta-questions about the language).\n\nOnly 6 teaches_lemmas (ci, mu, jej, nam, wam, im) — deliberately light, same precedent as b1_virile_past: the payload here is completing a paradigm and disambiguating a homograph, not new vocabulary. Both-gender-neutral (the dative pronouns do not mark gender except jej/mu, which are already gender-specific by definition).",
+  "focus_structures": [
+    "dative_pron"
+  ],
+  "teaches_structures": [
+    "dative_pron"
+  ],
+  "uses_structures": [
+    "dative_pron",
+    "dat_chunks",
+    "dative_sg",
+    "virile_reco",
+    "ten_ta_to",
+    "sie_reflexive",
+    "negation",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "The pronoun set, completed",
+      "title_pl": "Cały zestaw",
+      "body": "You have owned mi since A1 (chce mi się) and used it constantly since a2_dat_chunks (podoba mi się). It was never the whole set — just the I-form. Here is the rest of it, for the same to/for job.",
+      "body_pl": "mi (ja, już twoje) + ci, mu, jej, nam, wam, im — nowe.",
+      "table": {
+        "headers": [
+          "Pronoun",
+          "Form",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mi",
+            "already yours"
+          ],
+          [
+            "ty",
+            "ci",
+            "new"
+          ],
+          [
+            "on",
+            "mu",
+            "new"
+          ],
+          [
+            "ona",
+            "jej",
+            "new"
+          ],
+          [
+            "my",
+            "nam",
+            "new"
+          ],
+          [
+            "wy",
+            "wam",
+            "new"
+          ],
+          [
+            "oni / one",
+            "im",
+            "new (same word for both)"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Warning: you already know a word spelled ci",
+      "title_pl": "Uwaga: ci już istnieje",
+      "body": "You met ci recently meaning these — ci studenci, ci nauczyciele, a group with at least one man. That ci is completely unrelated to this one. They are two different words that happen to be spelled the same, like English course (school subject) and course (a meal).\n\nThe test: demonstrative ci always stands right before a plural person-noun (ci studenci). Dative ci always stands next to a verb, with no noun following it directly (podoba ci się).",
+      "body_pl": "Ci studenci pracują. (ci = studenci) ≠ Podoba ci się. (ci = ty, celownik)",
+      "table": {
+        "headers": [
+          "Sentence",
+          "This ci means",
+          "How you know"
+        ],
+        "rows": [
+          [
+            "Ci nauczyciele pracują.",
+            "these (teachers)",
+            "stands before a plural noun"
+          ],
+          [
+            "Podoba ci się?",
+            "to/for you",
+            "stands next to a verb, no noun after"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "podobać się, complete",
+      "title_pl": "Podobać się — cały paradygmat",
+      "body": "Every person of like it, in one table. The pattern from a2_dat_chunks never changes — verb, pronoun, się — only the pronoun moves.",
+      "body_pl": "Podoba mi się. Podoba ci się? Podoba mu się. Podoba jej się. Podoba nam się. Podoba wam się? Podoba im się.",
+      "table": {
+        "headers": [
+          "Sentence",
+          "Meaning"
+        ],
+        "rows": [
+          [
+            "Podoba mi się.",
+            "I like it."
+          ],
+          [
+            "Podoba ci się?",
+            "Do you like it?"
+          ],
+          [
+            "Podoba mu się.",
+            "He likes it."
+          ],
+          [
+            "Podoba jej się.",
+            "She likes it."
+          ],
+          [
+            "Podoba nam się.",
+            "We like it."
+          ],
+          [
+            "Podoba wam się?",
+            "Do you all like it?"
+          ],
+          [
+            "Podoba im się.",
+            "They like it."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Same pronouns, smakować — but not boleć",
+      "title_pl": "Smakować tak, boleć nie",
+      "body": "smakować works the same way — good taste happens to someone. Smakuje mu. Smakuje im.\n\nboleć does NOT take these pronouns, even though it looked like part of the same family in a2_dat_chunks. Boli mnie uses a completely different pronoun set (mnie there is accusative, not dative) that this course has not taught yet. Keep boleć exactly as you learned it — boli mnie/cię is not built from today's table.",
+      "body_pl": "Smakuje mu ta zupa. Smakuje im to wino. (boleć: bez zmian, poza zakresem)",
+      "examples": [
+        {
+          "en": "He likes the taste of this soup.",
+          "pl": "Smakuje mu ta zupa."
+        },
+        {
+          "en": "They like the taste of this wine.",
+          "pl": "Smakuje im to wino."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "to/for you (informal)",
+      "pl": "ci"
+    },
+    {
+      "en": "to/for him",
+      "pl": "mu"
+    },
+    {
+      "en": "to/for her",
+      "pl": "jej"
+    },
+    {
+      "en": "to/for us",
+      "pl": "nam"
+    },
+    {
+      "en": "to/for you all",
+      "pl": "wam"
+    },
+    {
+      "en": "to/for them",
+      "pl": "im"
+    },
+    {
+      "en": "do you like it?",
+      "pl": "Podoba ci się?"
+    },
+    {
+      "en": "he likes it",
+      "pl": "Podoba mu się."
+    },
+    {
+      "en": "she likes it",
+      "pl": "Podoba jej się."
+    },
+    {
+      "en": "we like it",
+      "pl": "Podoba nam się."
+    },
+    {
+      "en": "do you all like it?",
+      "pl": "Podoba wam się?"
+    },
+    {
+      "en": "they like it",
+      "pl": "Podoba im się."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Do you like it? (informal) →",
+      "choices": [
+        "Podoba ci się?",
+        "Podoba mu się?",
+        "Podoba wam się?",
+        "Podoba mi się?"
+      ],
+      "answer": "Podoba ci się?",
+      "explain": "ty → ci, the new you-form, not mu (him) or wam (you all)."
+    },
+    {
+      "prompt": "He likes it. →",
+      "choices": [
+        "Podoba mu się.",
+        "Podoba jej się.",
+        "Podoba ci się.",
+        "Podoba im się."
+      ],
+      "answer": "Podoba mu się.",
+      "explain": "on → mu."
+    },
+    {
+      "prompt": "She likes it. →",
+      "choices": [
+        "Podoba jej się.",
+        "Podoba mu się.",
+        "Podoba nam się.",
+        "Podoba wam się."
+      ],
+      "answer": "Podoba jej się.",
+      "explain": "ona → jej."
+    },
+    {
+      "prompt": "We like it. →",
+      "choices": [
+        "Podoba nam się.",
+        "Podoba wam się.",
+        "Podoba im się.",
+        "Podoba mi się."
+      ],
+      "answer": "Podoba nam się.",
+      "explain": "my → nam."
+    },
+    {
+      "prompt": "Do you all like it? →",
+      "choices": [
+        "Podoba wam się?",
+        "Podoba nam się?",
+        "Podoba im się?",
+        "Podoba ci się?"
+      ],
+      "answer": "Podoba wam się?",
+      "explain": "wy → wam."
+    },
+    {
+      "prompt": "They like it. →",
+      "choices": [
+        "Podoba im się.",
+        "Podoba nam się.",
+        "Podoba wam się.",
+        "Podoba jej się."
+      ],
+      "answer": "Podoba im się.",
+      "explain": "oni or one → im, the same word either way."
+    },
+    {
+      "prompt": "The coffee tastes good to him. →",
+      "choices": [
+        "Smakuje mu.",
+        "Smakuje jej.",
+        "Smakuje ci.",
+        "Smakuje mi."
+      ],
+      "answer": "Smakuje mu.",
+      "explain": "Same to/for pronoun set works on smakować too — on → mu."
+    },
+    {
+      "prompt": "It tastes good to them. →",
+      "choices": [
+        "Smakuje im.",
+        "Smakuje nam.",
+        "Smakuje wam.",
+        "Smakuje mu."
+      ],
+      "answer": "Smakuje im.",
+      "explain": "oni/one → im."
+    },
+    {
+      "prompt": "These teachers help the student. →",
+      "choices": [
+        "Ci nauczyciele pomagają studentowi.",
+        "Ci nauczyciele pomagają studentowi się.",
+        "Mu nauczyciele pomagają studentowi.",
+        "Ci nauczyciele pomaga studentowi."
+      ],
+      "answer": "Ci nauczyciele pomagają studentowi.",
+      "explain": "This is the OTHER ci — the demonstrative one, right before the plural noun nauczyciele. Not the pronoun from today's table."
+    },
+    {
+      "prompt": "You (informal) don't like it. →",
+      "choices": [
+        "Nie podoba ci się.",
+        "Nie podoba mi się.",
+        "Nie podoba mu się.",
+        "Nie podoba ci się?"
+      ],
+      "answer": "Nie podoba ci się.",
+      "explain": "nie in front of the whole block, exactly like nie podoba mi się — only the pronoun changed."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to/for you (informal)",
+      "mode": "full_word",
+      "answer": "ci",
+      "accepts": [
+        "ci"
+      ],
+      "explain": "This is the dative ci — a different word from the ci in ci studenci, just spelled the same."
+    },
+    {
+      "prompt_en": "to/for him",
+      "mode": "full_word",
+      "answer": "mu",
+      "accepts": [
+        "mu"
+      ]
+    },
+    {
+      "prompt_en": "to/for her",
+      "mode": "full_word",
+      "answer": "jej",
+      "accepts": [
+        "jej"
+      ]
+    },
+    {
+      "prompt_en": "to/for us",
+      "mode": "full_word",
+      "answer": "nam",
+      "accepts": [
+        "nam"
+      ]
+    },
+    {
+      "prompt_en": "to/for you all",
+      "mode": "full_word",
+      "answer": "wam",
+      "accepts": [
+        "wam"
+      ]
+    },
+    {
+      "prompt_en": "to/for them",
+      "mode": "full_word",
+      "answer": "im",
+      "accepts": [
+        "im"
+      ],
+      "explain": "Same word for oni and one — the dative pronoun does not carry the virile split."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Do you like it?",
+      "answer": "Podoba ci się?",
+      "accepts": [
+        "Podoba ci się?",
+        "Podoba ci się"
+      ]
+    },
+    {
+      "prompt_en": "Type: He likes this film.",
+      "answer": "Podoba mu się ten film.",
+      "accepts": [
+        "Podoba mu się ten film.",
+        "Podoba mu się ten film"
+      ]
+    },
+    {
+      "prompt_en": "Type: She likes this coffee.",
+      "answer": "Podoba jej się ta kawa.",
+      "accepts": [
+        "Podoba jej się ta kawa.",
+        "Podoba jej się ta kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: We like it.",
+      "answer": "Podoba nam się.",
+      "accepts": [
+        "Podoba nam się.",
+        "Podoba nam się"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you all like this book?",
+      "answer": "Podoba wam się ta książka?",
+      "accepts": [
+        "Podoba wam się ta książka?",
+        "Podoba wam się ta książka"
+      ]
+    },
+    {
+      "prompt_en": "Type: They like it.",
+      "answer": "Podoba im się.",
+      "accepts": [
+        "Podoba im się.",
+        "Podoba im się"
+      ]
+    },
+    {
+      "prompt_en": "Type: He likes the taste of this soup.",
+      "answer": "Smakuje mu ta zupa.",
+      "accepts": [
+        "Smakuje mu ta zupa.",
+        "Smakuje mu ta zupa"
+      ]
+    },
+    {
+      "prompt_en": "Type: They like the taste of this wine.",
+      "answer": "Smakuje im to wino.",
+      "accepts": [
+        "Smakuje im to wino.",
+        "Smakuje im to wino"
+      ]
+    },
+    {
+      "prompt_en": "Type: He doesn't like this car.",
+      "answer": "Nie podoba mu się ten samochód.",
+      "accepts": [
+        "Nie podoba mu się ten samochód.",
+        "Nie podoba mu się ten samochód"
+      ]
+    },
+    {
+      "prompt_en": "Type: These teachers help the student.",
+      "answer": "Ci nauczyciele pomagają studentowi.",
+      "accepts": [
+        "Ci nauczyciele pomagają studentowi.",
+        "Ci nauczyciele pomagają studentowi"
+      ],
+      "explain": "The demonstrative ci from the virile block, sitting one sentence away from the pronoun ci — same spelling, unrelated word."
+    }
+  ],
+  "teaches_lemmas": [
+    "ci",
+    "mu",
+    "jej",
+    "nam",
+    "wam",
+    "im"
+  ],
+  "uses_lemmas": [
+    "podoba",
+    "podobać się",
+    "smakuje",
+    "smakować",
+    "się",
+    "nie",
+    "ten",
+    "ta",
+    "to",
+    "film",
+    "kawa",
+    "książka",
+    "zupa",
+    "wino",
+    "samochód",
+    "nauczyciele",
+    "pomagają",
+    "studentowi"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_dative_pron",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

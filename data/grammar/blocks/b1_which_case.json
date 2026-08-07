@@ -1,0 +1,998 @@
+{
+  "id": "b1_which_case",
+  "title": "Który przypadek?",
+  "title_en": "Which case? · the B1 map",
+  "level": "B1",
+  "tree_node": "b1_which_case",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "CASE-SELECTION UNIT, the third of five (codex/WHICH-CASE-SPEC.md, JAMES-LOCKED 2026-08-07), sitting immediately before b1_case_gym [130]. TEACHES NOTHING NEW - teaches_structures [] and teaches_lemmas []; every form was checked against the position-aware pool for this node (make_pool.py --before b1_which_case, 2111 lemmas). INTRO TABLE IS DERIVED from data/case-map.json filtered to taught_by <= path 129 - eighteen rows, six cases. ONE CASE-MAP FIX IN THIS COMMIT, the same class as the two the A1 unit made: the Dative row read 'pomagam - dziekuje - daje' under taught_by b1_dative_sg [118], but that pack teaches only pomagac and dziekowac; dawac/oddawac land at b1_giving [120], whose own note records that b1_dative_sg explicitly deferred them. The row is now split - 'pomagam - dziekuje' at b1_dative_sg and 'daje - oddaje' at b1_giving, whose example is that pack's own verified sentence. Both are before this unit, so the derived table is unchanged; the fix is for the Przypadki panel, which would otherwise have shown daje to a learner two units before he meets it. THE LEVEL'S REAL SELECTION NEWS is that a trigger can now sit somewhere other than immediately in front of the noun, and the unit is built around the two ways that happens. (1) THE DATIVE IS CHOSEN BY A VERB WITH NO PREPOSITION - pomagam, dziekuje, daje, oddaje - which makes it the second verb-chosen case beside the Accusative, and the split is what the verb is pointing at: the Accusative is the THING acted on, the Dative is the PERSON it is done for. daje mamie ksiazke puts both in one clause with one verb, which is the sharpest fact at this level and gets its own slide. (2) KTORY TAKES ITS CASE FROM INSIDE ITS OWN CLAUSE - ksiazka, ktora czytalem - so for the first time in the course the deciding word is not adjacent to the noun at all, and the antecedent's own case is irrelevant. b1_ktory_cases states this in its own note as its single new idea; here it is restated as a SELECTION rule rather than as a paradigm. SCOPE HELD TO b1_ktory_cases' TWO LOGGED CUTS, verified in its note rather than assumed: only the Accusative and Genitive relatives appear (Locative and Instrumental relatives are fenced to b2_ktory_full and appear nowhere, not even as distractors), and every antecedent is inanimate or abstract (ksiazka, film) because a masculine-animate antecedent would make ktorego mean two different cases in one table. THE A2 DATIVE CHUNK IS PAID OFF on slide 3: podoba mi sie carried mi as an unexplained piece for a whole level, and mi is now shown as one cell of the pronoun row b1_dative_pron completed. mnie is still absent from the unit, for the reason a2_which_case's note gives - it is an Accusative experiencer, not a Dative. KONTROLA is 8 form/phrase-choice + 4 name-the-case items, the same two-thirds weighting as the two units before it. Items 1-3 are a deliberate triple on ONE noun family: pomagam mamie / dziekuje tacie / z tata, so the learner meets tata twice in two cases against two different kinds of trigger. Items 6 and 7 are the ktory pair, and each carries the other's correct answer as a distractor. Distractors are real, pool-legal Polish; mamy was avoided throughout because it is the VERB 'we have' from a1_miec, never the Genitive of mama (AGENTS.md's own homograph example). PISANIE is 12 mode:cloze items, twelve distinct answers, and two of them blank ktora/ktorego inside a relative clause - the only place in the unit where the blank is not a noun, because in those items the pronoun IS the form the trigger chooses. UZYCIE is 12 whole sentences with noun subjects and/or objects, none shared with Pisanie. HOMOGRAPHS CHECKED: pracy is used in BOTH its cases and the table says so; mamie/tacie/siostrze/bratu/studentowi/nauczycielowi are b1_dative_sg datives used as datives; mama/mame/mama-instrumental and tata/tate/tata-instrumental are used only in the cases their own packs taught; ktorej appears only as a Genitive relative (b1_ktory_cases' slide 4 makes the same point about it); filmu was wanted for a Genitive example and REFUSED - check_new/pool report it untaught, so the Genitive relative example is the pack's own 'film, ktorego nie ma'.",
+  "focus_structures": [
+    "dative_sg",
+    "dative_pron",
+    "ktory_cases"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom",
+    "byc_present",
+    "existential_jest",
+    "ten_ta_to",
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "gen_pl",
+    "plural_nom",
+    "numbers_gen",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "o_loc",
+    "motion_chunk",
+    "chodzic",
+    "jechac",
+    "inst_identity",
+    "inst_z",
+    "inst_transport",
+    "dat_chunks",
+    "dative_sg",
+    "dative_pron",
+    "ktory_cases",
+    "past_ac",
+    "past_rest",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "Six cases — and the trigger no longer has to stand in front",
+      "title_pl": "Sześć przypadków",
+      "body": "The map has grown by one case and, more importantly, by two situations where the old instruction — look at the word in front of the noun — stops being enough.\n\nA verb can choose a case for a noun several words away. And a relative pronoun can take its case from a clause the noun it refers to is not even in. Both are on the slides that follow.\n\nHere is everything you own.",
+      "body_pl": "mianownik · biernik · dopełniacz · miejscownik · narzędnik · celownik",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "to jest…",
+            "Nominative · mianownik",
+            "naming something",
+            "To jest kawa."
+          ],
+          [
+            "the subject — who is doing it",
+            "Nominative · mianownik",
+            "the actor of the verb",
+            "Kawa jest dobra."
+          ],
+          [
+            "to są…",
+            "Nominative · mianownik",
+            "naming more than one",
+            "To są gazety."
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "a verb acting on a thing",
+            "Mam kawę."
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "quantity and nearness",
+            "Dużo kawy."
+          ],
+          [
+            "do… (going TO a place)",
+            "Genitive · dopełniacz",
+            "destination",
+            "Idę do sklepu."
+          ],
+          [
+            "z / ze… (coming FROM)",
+            "Genitive · dopełniacz",
+            "origin",
+            "Wracam ze sklepu."
+          ],
+          [
+            "nie ma… / nie mam…",
+            "Genitive · dopełniacz",
+            "saying something is absent",
+            "Nie ma mleka."
+          ],
+          [
+            "pięć · sześć… (5 and above)",
+            "Genitive · dopełniacz",
+            "counted things from five up",
+            "pięć piw"
+          ],
+          [
+            "w / na — meaning WHERE something is",
+            "Locative · miejscownik",
+            "static position, never movement",
+            "Jestem w sklepie."
+          ],
+          [
+            "o… (ABOUT a topic)",
+            "Locative · miejscownik",
+            "what you are talking about",
+            "Mówię o pracy."
+          ],
+          [
+            "od… (older THAN, cheaper THAN)",
+            "Genitive · dopełniacz",
+            "what you are comparing against",
+            "starszy od brata"
+          ],
+          [
+            "jestem… (a job or an identity)",
+            "Instrumental · narzędnik",
+            "what someone IS",
+            "Jestem nauczycielem."
+          ],
+          [
+            "z… (WITH a person)",
+            "Instrumental · narzędnik",
+            "company — the same word z, a different job from z + Genitive",
+            "Idę z bratem."
+          ],
+          [
+            "travelling BY something",
+            "Instrumental · narzędnik",
+            "means of transport, no preposition at all",
+            "Jadę autobusem."
+          ],
+          [
+            "podoba mi się · smakuje mi",
+            "Dative · celownik",
+            "liking and tasting — learned whole at A2",
+            "Podoba mi się."
+          ],
+          [
+            "pomagam · dziękuję",
+            "Dative · celownik",
+            "the person you help or thank",
+            "Pomagam mamie."
+          ],
+          [
+            "daję · oddaję",
+            "Dative · celownik",
+            "the person who receives it",
+            "Rodzice dają tacie prezent."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The Dative: chosen by a verb, with no preposition at all",
+      "title_pl": "pomagam mamie · dziękuję tacie",
+      "body": "Until this level the Dative existed only inside podoba mi się. It is now a case like any other, and it is chosen the way the Accusative is chosen — by the verb, with nothing standing between them.\n\npomagam, dziękuję, daję and oddaję all demand it. What they have in common is that they point at a PERSON rather than at a thing: someone you help, someone you thank, someone you give something to.\n\nThe endings are worth reading as a set: feminine nouns take the same -e or -ie shape you already know from the Locative, masculine nouns take -u or -owi.",
+      "body_pl": "pomagam · dziękuję · daję · oddaję → celownik",
+      "table": {
+        "headers": [
+          "Noun",
+          "Dative · celownik",
+          "In a sentence"
+        ],
+        "rows": [
+          [
+            "mama",
+            "mamie",
+            "Pomagam mamie."
+          ],
+          [
+            "tata",
+            "tacie",
+            "Dziękuję tacie."
+          ],
+          [
+            "siostra",
+            "siostrze",
+            "Pomagam siostrze."
+          ],
+          [
+            "brat",
+            "bratu",
+            "Daję bratu książkę."
+          ],
+          [
+            "student",
+            "studentowi",
+            "Nauczyciel daje studentowi zeszyt."
+          ],
+          [
+            "nauczyciel",
+            "nauczycielowi",
+            "Dziękuję nauczycielowi."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One verb, two objects, two cases",
+      "title_pl": "Daję mamie książkę.",
+      "body": "daję is the first verb in this course that takes two objects at once, and they are in different cases. That makes it the clearest demonstration of what the two verb-chosen cases are actually for.\n\nDaję mamie książkę. The book is the thing being handed over — Accusative, książkę. Mum is the person receiving it — Dative, mamie. Neither has a preposition; the verb alone sorts them out, and the case endings are what tell you which is which.\n\nSwap the endings and the sentence stops meaning what you wanted, which is why word order cannot be doing this job in Polish the way it does in English.",
+      "body_pl": "mamie → celownik · książkę → biernik",
+      "table": {
+        "headers": [
+          "Part of the sentence",
+          "Case",
+          "What it is"
+        ],
+        "rows": [
+          [
+            "Daję",
+            "—",
+            "the verb"
+          ],
+          [
+            "mamie",
+            "Dative · celownik",
+            "the person who receives it"
+          ],
+          [
+            "książkę",
+            "Accusative · biernik",
+            "the thing being given"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm giving Mum a book.",
+          "pl": "Daję mamie książkę."
+        },
+        {
+          "en": "Dad is giving my sister a book.",
+          "pl": "Tata daje siostrze książkę."
+        },
+        {
+          "en": "The teacher gives the student a notebook.",
+          "pl": "Nauczyciel daje studentowi zeszyt."
+        },
+        {
+          "en": "My parents are giving Dad a present.",
+          "pl": "Rodzice dają tacie prezent."
+        }
+      ]
+    },
+    {
+      "title": "The Dative pronouns — and what podoba mi się was hiding",
+      "title_pl": "mi · ci · mu · jej · nam · wam · im",
+      "body": "The Dative has a pronoun row, and you have been using one cell of it since A2 without being told what it was.\n\npodoba mi się and smakuje mi contain mi — the Dative of ja. The whole row is now yours: mi, ci, mu, jej, nam, wam, im. They stand in for exactly the nouns on the previous slides, and the same four verbs choose them.\n\nSo Daję mamie książkę and Daję jej książkę are the same sentence with the same case in the same slot.",
+      "body_pl": "Daję mamie książkę. · Daję jej książkę.",
+      "table": {
+        "headers": [
+          "Person",
+          "Dative · celownik",
+          "Example"
+        ],
+        "rows": [
+          [
+            "me",
+            "mi",
+            "Podoba mi się."
+          ],
+          [
+            "you",
+            "ci",
+            "Oddaję ci klucze."
+          ],
+          [
+            "him",
+            "mu",
+            "Daję mu książkę."
+          ],
+          [
+            "her",
+            "jej",
+            "Daję jej książkę."
+          ],
+          [
+            "us",
+            "nam",
+            "Tata daje nam klucze."
+          ],
+          [
+            "you (plural)",
+            "wam",
+            "Dziękuję wam."
+          ],
+          [
+            "them",
+            "im",
+            "Pomagam im."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "który takes its case from inside its own clause",
+      "title_pl": "książka, którą czytałem",
+      "body": "This is the one place where looking at the word in front of the noun gives you nothing, and it is worth being precise about why.\n\nIn książka, którą czytałem, the word którą is not agreeing with książka in case. It is doing a job in its OWN clause — it is the thing czytałem acts on — so it takes the Accusative from that verb. What it borrows from książka is only the gender.\n\nIn film, którego nie ma, the clause is nie ma, which has demanded the Genitive since A1. So the pronoun is Genitive, and again the antecedent had no say in it.\n\nThe rule, stated once: gender comes from the noun it points back at, case comes from the clause it stands in.",
+      "body_pl": "rodzaj ← książka · przypadek ← czytałem",
+      "table": {
+        "headers": [
+          "The phrase",
+          "What the inner clause does",
+          "Case of który"
+        ],
+        "rows": [
+          [
+            "książka, którą czytałem",
+            "czytać acts on an object",
+            "Accusative · biernik"
+          ],
+          [
+            "film, który oglądałem",
+            "oglądać acts on an object",
+            "Accusative · biernik"
+          ],
+          [
+            "film, którego nie ma",
+            "nie ma demands the Genitive",
+            "Genitive · dopełniacz"
+          ],
+          [
+            "kawa, której nie ma",
+            "nie ma demands the Genitive",
+            "Genitive · dopełniacz"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The question to ask, every time",
+      "title_pl": "Który przypadek?",
+      "body": "The order of the questions has not changed; there is simply one more place to look.\n\nIs there a preposition in front? Then the preposition chooses.\n\nNo preposition, but a verb? Then the verb chooses — and which case depends on what it is pointing at: a thing takes the Accusative, a person on the receiving end takes the Dative.\n\nIs the noun actually a który inside a relative clause? Then look inside that clause, not at the sentence around it.\n\nNone of those? Then it is naming or acting, and it stays in the Nominative.",
+      "body_pl": "przyimek → czasownik → mianownik",
+      "table": {
+        "headers": [
+          "What decides it",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w · na — where you are",
+            "Locative · miejscownik",
+            "w pracy"
+          ],
+          [
+            "o — what it is about",
+            "Locative · miejscownik",
+            "o domu"
+          ],
+          [
+            "do · z + a place",
+            "Genitive · dopełniacz",
+            "do pracy"
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "dużo kawy"
+          ],
+          [
+            "nie ma · nie mam",
+            "Genitive · dopełniacz",
+            "nie mam czasu"
+          ],
+          [
+            "pięć and above",
+            "Genitive · dopełniacz",
+            "pięć godzin"
+          ],
+          [
+            "od — comparing two things",
+            "Genitive · dopełniacz",
+            "starszy od brata"
+          ],
+          [
+            "mam · piję · czytam — a thing",
+            "Accusative · biernik",
+            "mam książkę"
+          ],
+          [
+            "pomagam · dziękuję · daję — a person",
+            "Dative · celownik",
+            "pomagam mamie"
+          ],
+          [
+            "jestem + a job",
+            "Instrumental · narzędnik",
+            "jestem nauczycielem"
+          ],
+          [
+            "z + a person",
+            "Instrumental · narzędnik",
+            "z bratem"
+          ],
+          [
+            "nothing at all — a vehicle",
+            "Instrumental · narzędnik",
+            "pociągiem"
+          ],
+          [
+            "the verb inside the relative clause",
+            "whatever that verb needs",
+            "książka, którą czytałem"
+          ],
+          [
+            "nothing — the noun names or acts",
+            "Nominative · mianownik",
+            "To jest książka."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Nominative",
+          "pl": "mianownik"
+        },
+        {
+          "en": "Accusative",
+          "pl": "biernik"
+        },
+        {
+          "en": "Genitive",
+          "pl": "dopełniacz"
+        },
+        {
+          "en": "Locative",
+          "pl": "miejscownik"
+        },
+        {
+          "en": "Instrumental",
+          "pl": "narzędnik"
+        },
+        {
+          "en": "Dative",
+          "pl": "celownik"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "the one doing it · Mum",
+      "pl": "mama"
+    },
+    {
+      "en": "after pomagam · Mum",
+      "pl": "pomagam mamie"
+    },
+    {
+      "en": "after daję · my brother",
+      "pl": "daję bratu"
+    },
+    {
+      "en": "after mam · a book",
+      "pl": "mam książkę"
+    },
+    {
+      "en": "after nie mam · time",
+      "pl": "nie mam czasu"
+    },
+    {
+      "en": "after do · work",
+      "pl": "do pracy"
+    },
+    {
+      "en": "after w · work",
+      "pl": "w pracy"
+    },
+    {
+      "en": "after o · the house",
+      "pl": "o domu"
+    },
+    {
+      "en": "after z · my brother (together)",
+      "pl": "z bratem"
+    },
+    {
+      "en": "no word at all · by train",
+      "pl": "pociągiem"
+    },
+    {
+      "en": "the book — I was reading it",
+      "pl": "książka, którą czytałem"
+    },
+    {
+      "en": "the film — it isn't there",
+      "pl": "film, którego nie ma"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You help her — Mum →",
+      "choices": [
+        "pomagam mamie",
+        "pomagam mamę",
+        "pomagam mamą",
+        "pomagam mama"
+      ],
+      "answer": "pomagam mamie",
+      "explain": "pomagać points at a person on the receiving end, so it takes the Dative: mamie. mamę would make her the thing being acted on."
+    },
+    {
+      "prompt": "You thank him — Dad →",
+      "choices": [
+        "dziękuję tacie",
+        "dziękuję tatę",
+        "dziękuję tatą",
+        "dziękuję tata"
+      ],
+      "answer": "dziękuję tacie",
+      "explain": "dziękować takes the Dative for the same reason pomagać does — thanks go TO someone."
+    },
+    {
+      "prompt": "You're going WITH him — Dad →",
+      "choices": [
+        "z tatą",
+        "z tacie",
+        "z tatę",
+        "z tata"
+      ],
+      "answer": "z tatą",
+      "explain": "Same noun as the item before, different trigger: z + a person is the Instrumental, tatą. The Dative tacie belongs to the verbs, not to z."
+    },
+    {
+      "prompt": "I'm giving Mum a book →",
+      "choices": [
+        "Daję mamie książkę.",
+        "Daję mamę książkę.",
+        "Daję mamie książka.",
+        "Daję mamą książkę."
+      ],
+      "answer": "Daję mamie książkę.",
+      "explain": "Two objects, two cases: Mum receives it (Dative, mamie) and the book is handed over (Accusative, książkę)."
+    },
+    {
+      "prompt": "You're thinking ABOUT it — the house →",
+      "choices": [
+        "o domu",
+        "w domu",
+        "z domu",
+        "do domu"
+      ],
+      "answer": "o domu",
+      "explain": "o takes the Locative. domu is one of the nouns whose Genitive and Locative look identical, so only the preposition tells you which case you are in."
+    },
+    {
+      "prompt": "the book — I was reading it →",
+      "choices": [
+        "książka, którą czytałem",
+        "książka, która czytałem",
+        "książka, której czytałem",
+        "książka, którego czytałem"
+      ],
+      "answer": "książka, którą czytałem",
+      "explain": "czytałem acts on an object, so the pronoun is Accusative — and książka is feminine, so it is którą. The case of książka itself has nothing to do with it."
+    },
+    {
+      "prompt": "the film — it isn't there →",
+      "choices": [
+        "film, którego nie ma",
+        "film, który nie ma",
+        "film, którą nie ma",
+        "film, której nie ma"
+      ],
+      "answer": "film, którego nie ma",
+      "explain": "nie ma has demanded the Genitive since A1, and it still does inside a relative clause: którego."
+    },
+    {
+      "prompt": "I'm going by train →",
+      "choices": [
+        "Jadę pociągiem.",
+        "Jadę pociąg.",
+        "Jadę z pociągiem.",
+        "Idę pociągiem."
+      ],
+      "answer": "Jadę pociągiem.",
+      "explain": "No preposition — the Instrumental ending alone means 'by'. Idę would put you on foot."
+    },
+    {
+      "prompt": "After pomagam and dziękuję — which case?",
+      "choices": [
+        "Dative · celownik",
+        "Accusative · biernik",
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik"
+      ],
+      "answer": "Dative · celownik"
+    },
+    {
+      "prompt": "In książka, którą czytałem — which case is którą?",
+      "choices": [
+        "Accusative · biernik",
+        "Genitive · dopełniacz",
+        "Nominative · mianownik",
+        "Dative · celownik"
+      ],
+      "answer": "Accusative · biernik"
+    },
+    {
+      "prompt": "After o, when you say what you are talking about — which case?",
+      "choices": [
+        "Locative · miejscownik",
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik",
+        "Accusative · biernik"
+      ],
+      "answer": "Locative · miejscownik"
+    },
+    {
+      "prompt": "z + a person, as in z bratem — which case?",
+      "choices": [
+        "Instrumental · narzędnik",
+        "Dative · celownik",
+        "Genitive · dopełniacz",
+        "Locative · miejscownik"
+      ],
+      "answer": "Instrumental · narzędnik"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I help Mum. — pomagać takes the Dative",
+      "mode": "cloze",
+      "frame": "Pomagam ___.",
+      "answer": "mamie",
+      "accepts": [
+        "mamie"
+      ]
+    },
+    {
+      "prompt_en": "I thank Dad.",
+      "mode": "cloze",
+      "frame": "Dziękuję ___.",
+      "answer": "tacie",
+      "accepts": [
+        "tacie"
+      ]
+    },
+    {
+      "prompt_en": "I'm giving my brother a book.",
+      "mode": "cloze",
+      "frame": "Daję ___ książkę.",
+      "answer": "bratu",
+      "accepts": [
+        "bratu"
+      ]
+    },
+    {
+      "prompt_en": "I'm going with Dad. — z + a person",
+      "mode": "cloze",
+      "frame": "Idę z ___.",
+      "answer": "tatą",
+      "accepts": [
+        "tatą"
+      ]
+    },
+    {
+      "prompt_en": "I'm talking about the house.",
+      "mode": "cloze",
+      "frame": "Mówię o ___.",
+      "answer": "domu",
+      "accepts": [
+        "domu"
+      ]
+    },
+    {
+      "prompt_en": "I'm going to work.",
+      "mode": "cloze",
+      "frame": "Idę do ___.",
+      "answer": "pracy",
+      "accepts": [
+        "pracy"
+      ]
+    },
+    {
+      "prompt_en": "Mum is at school.",
+      "mode": "cloze",
+      "frame": "Mama jest w ___.",
+      "answer": "szkole",
+      "accepts": [
+        "szkole"
+      ]
+    },
+    {
+      "prompt_en": "I don't have time.",
+      "mode": "cloze",
+      "frame": "Nie mam ___.",
+      "answer": "czasu",
+      "accepts": [
+        "czasu"
+      ]
+    },
+    {
+      "prompt_en": "the book that I was reading — the inner verb decides",
+      "mode": "cloze",
+      "frame": "książka, ___ czytałem",
+      "answer": "którą",
+      "accepts": [
+        "którą"
+      ]
+    },
+    {
+      "prompt_en": "the film that isn't there",
+      "mode": "cloze",
+      "frame": "film, ___ nie ma",
+      "answer": "którego",
+      "accepts": [
+        "którego"
+      ]
+    },
+    {
+      "prompt_en": "I'm giving you the keys back.",
+      "mode": "cloze",
+      "frame": "Oddaję ___ klucze.",
+      "answer": "ci",
+      "accepts": [
+        "ci"
+      ]
+    },
+    {
+      "prompt_en": "I have a book.",
+      "mode": "cloze",
+      "frame": "Mam ___.",
+      "answer": "książkę",
+      "accepts": [
+        "książkę"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum helps Dad.",
+      "answer": "Mama pomaga tacie.",
+      "accepts": [
+        "Mama pomaga tacie.",
+        "Mama pomaga tacie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I thank the teacher.",
+      "answer": "Dziękuję nauczycielowi.",
+      "accepts": [
+        "Dziękuję nauczycielowi.",
+        "Dziękuję nauczycielowi"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad gives my sister a book.",
+      "answer": "Tata daje siostrze książkę.",
+      "accepts": [
+        "Tata daje siostrze książkę.",
+        "Tata daje siostrze książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher gives the student a notebook.",
+      "answer": "Nauczyciel daje studentowi zeszyt.",
+      "accepts": [
+        "Nauczyciel daje studentowi zeszyt.",
+        "Nauczyciel daje studentowi zeszyt"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is the book that I was reading.",
+      "answer": "To jest książka, którą czytałem.",
+      "accepts": [
+        "To jest książka, którą czytałem.",
+        "To jest książka, którą czytałem"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is the film that I was watching.",
+      "answer": "To jest film, który oglądałem.",
+      "accepts": [
+        "To jest film, który oglądałem.",
+        "To jest film, który oglądałem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to work by train.",
+      "answer": "Jadę do pracy pociągiem.",
+      "accepts": [
+        "Jadę do pracy pociągiem.",
+        "Jadę do pracy pociągiem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is thinking about work.",
+      "answer": "Mama myśli o pracy.",
+      "accepts": [
+        "Mama myśli o pracy.",
+        "Mama myśli o pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is a student.",
+      "answer": "Mój brat jest studentem.",
+      "accepts": [
+        "Mój brat jest studentem.",
+        "Mój brat jest studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is going with my sister.",
+      "answer": "Tata idzie z siostrą.",
+      "accepts": [
+        "Tata idzie z siostrą.",
+        "Tata idzie z siostrą"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm helping my sister.",
+      "answer": "Pomagam siostrze.",
+      "accepts": [
+        "Pomagam siostrze.",
+        "Pomagam siostrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad doesn't have time.",
+      "answer": "Tata nie ma czasu.",
+      "accepts": [
+        "Tata nie ma czasu.",
+        "Tata nie ma czasu"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "kawa",
+    "kawy",
+    "kawę",
+    "ta",
+    "książka",
+    "książkę",
+    "praca",
+    "pracy",
+    "do pracy",
+    "z pracy",
+    "w pracy",
+    "o pracy",
+    "szkoła",
+    "szkoły",
+    "szkole",
+    "sklep",
+    "sklepu",
+    "sklepie",
+    "ze sklepu",
+    "w sklepie",
+    "dom",
+    "domu",
+    "z domu",
+    "o domu",
+    "do domu",
+    "w domu",
+    "gazety",
+    "mleka",
+    "piwo",
+    "piw",
+    "czas",
+    "czasu",
+    "godzina",
+    "godziny",
+    "godzin",
+    "brat",
+    "bratem",
+    "z bratem",
+    "bratu",
+    "mama",
+    "mamie",
+    "mamą",
+    "mamę",
+    "tata",
+    "tacie",
+    "tatą",
+    "tatę",
+    "siostra",
+    "siostrze",
+    "siostrą",
+    "z siostrą",
+    "film",
+    "zeszyt",
+    "klucze",
+    "prezent",
+    "rodzice",
+    "nauczyciel",
+    "nauczycielem",
+    "nauczycielowi",
+    "student",
+    "studentem",
+    "studentowi",
+    "autobusem",
+    "pociągiem",
+    "mi",
+    "ci",
+    "mu",
+    "jej",
+    "nam",
+    "wam",
+    "im",
+    "podoba mi się",
+    "smakuje mi",
+    "pomagać",
+    "pomagam",
+    "pomaga",
+    "dziękować",
+    "dziękuję",
+    "dawać",
+    "daję",
+    "daje",
+    "dają",
+    "oddawać",
+    "oddaję",
+    "który",
+    "która",
+    "które",
+    "którą",
+    "którego",
+    "której",
+    "czytałem",
+    "oglądałem",
+    "jestem",
+    "jest",
+    "są",
+    "to są",
+    "mam",
+    "nie mam",
+    "nie ma",
+    "idę",
+    "idzie",
+    "jadę",
+    "jedzie",
+    "mówię",
+    "myśli",
+    "myślę",
+    "czytam",
+    "piję",
+    "chcę",
+    "lubię",
+    "kupuję",
+    "pracuje",
+    "dużo",
+    "blisko",
+    "nie",
+    "o",
+    "dwa",
+    "dwie",
+    "pięć",
+    "mój",
+    "moja",
+    "dobra",
+    "od",
+    "od brata",
+    "starszy"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_which_case",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

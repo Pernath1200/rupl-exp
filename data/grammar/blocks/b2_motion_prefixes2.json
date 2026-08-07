@@ -1,0 +1,868 @@
+{
+  "id": "b2_motion_prefixes2",
+  "title": "Poszedłem, wszedłem, doszedłem",
+  "title_en": "Went, went in, got as far as",
+  "level": "B2",
+  "tree_node": "b2_motion_prefixes2",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "focus_structures": [
+    "motion_prefixed2"
+  ],
+  "teaches_structures": [
+    "motion_prefixed2"
+  ],
+  "uses_structures": [
+    "motion_prefixed2",
+    "motion_prefixed",
+    "past_isc",
+    "past_ac",
+    "perf_future",
+    "jechac",
+    "chodzic",
+    "jezdzic",
+    "motion_chunk",
+    "prep_do_gen",
+    "question",
+    "questions2",
+    "conjunctions",
+    "poss_nom",
+    "zgoda",
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "Three more pieces on the front",
+      "title_pl": "pójść · wejść · dojść",
+      "body": "You already do this. przyjść and wyjść were iść with a piece welded onto the front, and the szedł table underneath never moved. Three more pieces go on the same table.\n\npójść — to go, to set off\nwejść — to go in, to come in\ndojść — to get as far as, to reach (on foot)\n\nRead the table across. The first column is the one you have had since b1: nothing in it changes.\n\nOne warning, and it is the only awkward corner in this unit: wejść keeps its e in the woman's forms (weszłam) but loses it in the man's (wszedłem). Do not build it — read it off the table and say it whole, exactly as you learned szedłem and szłam.",
+      "body_pl": "po- / we- / do- + szedł · szła. Formy całe z tabeli, nie z reguły.",
+      "table": {
+        "headers": [
+          "iść — you own it",
+          "pójść — went",
+          "wejść — went in",
+          "dojść — got as far as"
+        ],
+        "rows": [
+          [
+            "szedłem",
+            "poszedłem",
+            "wszedłem",
+            "doszedłem"
+          ],
+          [
+            "szłam",
+            "poszłam",
+            "weszłam",
+            "doszłam"
+          ],
+          [
+            "szedłeś",
+            "poszedłeś",
+            "wszedłeś",
+            "doszedłeś"
+          ],
+          [
+            "szłaś",
+            "poszłaś",
+            "weszłaś",
+            "doszłaś"
+          ],
+          [
+            "szedł",
+            "poszedł",
+            "wszedł",
+            "doszedł"
+          ],
+          [
+            "szła",
+            "poszła",
+            "weszła",
+            "doszła"
+          ],
+          [
+            "szło",
+            "poszło",
+            "weszło",
+            "doszło"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Each one is its own word",
+      "title_pl": "Trzy słowa, jedno miejsce",
+      "body": "The three verbs are not three flavours of one idea. They are three separate everyday words, and the easiest way to feel the difference is to send all three to the same place.\n\nPoszedłem do sklepu. — I went to the shop. I set off, and that was the trip.\nWszedłem do sklepu. — I went into the shop. Through the door.\nDoszedłem do sklepu. — I got as far as the shop. I reached it on my own two feet.\n\nAll three take the destination you have used since A1: do + genitive. Nothing new to learn about the place — only about the verb.\n\nLearn each verb as a word. The piece on the front is not a rule you can apply yourself; Polish does not always cooperate, and this course never asks you to build one of these.",
+      "body_pl": "Poszedłem / wszedłem / doszedłem do sklepu. Zawsze: do + dopełniacz.",
+      "examples": [
+        {
+          "en": "I went to the shop. (m — set off)",
+          "pl": "Poszedłem do sklepu."
+        },
+        {
+          "en": "I went into the shop. (m — through the door)",
+          "pl": "Wszedłem do sklepu."
+        },
+        {
+          "en": "I got as far as the shop. (m — reached it on foot)",
+          "pl": "Doszedłem do sklepu."
+        },
+        {
+          "en": "Mum went to work. (set off)",
+          "pl": "Mama poszła do pracy."
+        }
+      ]
+    },
+    {
+      "title": "Was on the way, or went?",
+      "title_pl": "szedłem czy poszedłem?",
+      "body": "szedłem says you were on the way — the walking itself, still going on. poszedłem says the whole trip happened, once, and it is over. It is the same once-and-done shape as kupiłem, and that is why the English is plain: I went, not 'I was going'.\n\nWczoraj szedłem do pracy. — Yesterday I was on my way to work.\nWczoraj poszedłem do pracy. — Yesterday I went to work.\n\nThe same for the other two: wszedłem and doszedłem each name one moment that happened and finished.",
+      "body_pl": "szedłem = jeszcze w ruchu. poszedłem = raz i gotowe, jak kupiłem.",
+      "examples": [
+        {
+          "en": "Yesterday I was on my way to work. (m)",
+          "pl": "Wczoraj szedłem do pracy."
+        },
+        {
+          "en": "Yesterday I went to work. (m)",
+          "pl": "Wczoraj poszedłem do pracy."
+        },
+        {
+          "en": "Dad went into the bank.",
+          "pl": "Tata wszedł do banku."
+        },
+        {
+          "en": "Anna got as far as the park.",
+          "pl": "Anna doszła do parku."
+        }
+      ]
+    },
+    {
+      "title": "By vehicle: pojechać and dojechać",
+      "title_pl": "pojechać i dojechać",
+      "body": "Two of the same pieces fit onto jechać, and here there is no table to memorise at all. These take the regular past rule you have used since mieszkał: drop the -ć, add -ł, add the ending you know.\n\npojechać — to go (by vehicle)\ndojechać — to get there, to reach (by vehicle)\n\npojechać → pojechał. dojechać → dojechał. That is the whole story.\n\nFeet or wheels decides which family you reach for, exactly as it did with idę and jadę: Poszedłem do centrum on foot, Pojechałem do centrum on the bus.",
+      "body_pl": "Zasada z -ać: pojechać → pojechał, dojechać → dojechał.",
+      "table": {
+        "headers": [
+          "pojechać — went (by vehicle)",
+          "dojechać — got there (by vehicle)",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "pojechałem",
+            "dojechałem",
+            "man speaking (m)"
+          ],
+          [
+            "pojechałam",
+            "dojechałam",
+            "woman speaking (f)"
+          ],
+          [
+            "pojechałeś",
+            "dojechałeś",
+            "to a man (m)"
+          ],
+          [
+            "pojechałaś",
+            "dojechałaś",
+            "to a woman (f)"
+          ],
+          [
+            "pojechał",
+            "dojechał",
+            "on · tata, pociąg"
+          ],
+          [
+            "pojechała",
+            "dojechała",
+            "ona · mama, Anna"
+          ],
+          [
+            "pojechało",
+            "dojechało",
+            "ono · dziecko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The future: pójdę, wejdę, dojdę",
+      "title_pl": "pójdę · wejdę · dojdę",
+      "body": "Each of these verbs names one finished event, so — exactly like kupić — none of them has a present tense, and the present-shaped forms mean the future. You have made this move twice already: piję → wypiję, and przy + idę → przyjdę.\n\nNow the same thing happens three more times. Read the table off idę: the i turns into j, and pójdę takes an ó on top. Table facts, not rules.\n\nAnd the relief you already know from przyjdę: the future has no gender. A man and a woman both say pójdę.",
+      "body_pl": "idę → pójdę / wejdę / dojdę. Forma jak teraźniejsza, znaczenie: przyszłość — jak kupię.",
+      "table": {
+        "headers": [
+          "you own",
+          "will go",
+          "will go in",
+          "will get as far as"
+        ],
+        "rows": [
+          [
+            "idę",
+            "pójdę",
+            "wejdę",
+            "dojdę"
+          ],
+          [
+            "idziesz",
+            "pójdziesz",
+            "wejdziesz",
+            "dojdziesz"
+          ],
+          [
+            "idzie",
+            "pójdzie",
+            "wejdzie",
+            "dojdzie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "pojadę, dojadę",
+      "title_pl": "pojadę i dojadę",
+      "body": "By vehicle the future is easier still: pojadę is literally po + jadę and dojadę is do + jadę. The whole jechać pattern comes along, including the ja- / je- swap you already read off jadę, jedziesz, jedzie.\n\nNo gender here either.",
+      "body_pl": "jadę → pojadę / dojadę. Przyszłość bez rodzaju.",
+      "table": {
+        "headers": [
+          "you own",
+          "will go (by vehicle)",
+          "will get there (by vehicle)"
+        ],
+        "rows": [
+          [
+            "jadę",
+            "pojadę",
+            "dojadę"
+          ],
+          [
+            "jedziesz",
+            "pojedziesz",
+            "dojedziesz"
+          ],
+          [
+            "jedzie",
+            "pojedzie",
+            "dojedzie"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Tomorrow I will go to the city. (by car)",
+          "pl": "Jutro pojadę do miasta."
+        },
+        {
+          "en": "The train will get to the city at two.",
+          "pl": "Pociąg dojedzie do miasta o drugiej."
+        },
+        {
+          "en": "When will you go in? (on foot)",
+          "pl": "Kiedy wejdziesz?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I went (m, on foot)",
+      "pl": "poszedłem"
+    },
+    {
+      "en": "I went (f, on foot)",
+      "pl": "poszłam"
+    },
+    {
+      "en": "he went (on foot)",
+      "pl": "poszedł"
+    },
+    {
+      "en": "I went in (m)",
+      "pl": "wszedłem"
+    },
+    {
+      "en": "I went in (f)",
+      "pl": "weszłam"
+    },
+    {
+      "en": "he went in",
+      "pl": "wszedł"
+    },
+    {
+      "en": "I got as far (m, on foot)",
+      "pl": "doszedłem"
+    },
+    {
+      "en": "she got as far (on foot)",
+      "pl": "doszła"
+    },
+    {
+      "en": "I went (m, by vehicle)",
+      "pl": "pojechałem"
+    },
+    {
+      "en": "he got there (by vehicle)",
+      "pl": "dojechał"
+    },
+    {
+      "en": "I will go (on foot)",
+      "pl": "pójdę"
+    },
+    {
+      "en": "I will go (by vehicle)",
+      "pl": "pojadę"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ do sklepu i kupił chleb.",
+      "choices": [
+        "poszedł",
+        "poszła",
+        "poszedłem",
+        "poszło"
+      ],
+      "answer": "poszedł",
+      "explain": "tata is a he, so the masculine form keeps the szed- shape: poszedł. poszedłem would put you in the sentence instead of dad."
+    },
+    {
+      "prompt": "Mama ___ do banku wczoraj.",
+      "choices": [
+        "poszła",
+        "poszedł",
+        "poszłam",
+        "poszedłem"
+      ],
+      "answer": "poszła",
+      "explain": "mama is a she, and the feminine forms drop the -ed-: poszła, not poszedł."
+    },
+    {
+      "prompt": "Which one means he went INTO the shop?",
+      "choices": [
+        "Wszedł do sklepu.",
+        "Poszedł do sklepu.",
+        "Doszedł do sklepu.",
+        "Szedł do sklepu."
+      ],
+      "answer": "Wszedł do sklepu.",
+      "explain": "we- is the one that takes you through the door. poszedł is the trip there, doszedł is reaching it, szedł is still being on the way."
+    },
+    {
+      "prompt": "Which one means she got as far as the park, on foot?",
+      "choices": [
+        "Doszła do parku.",
+        "Weszła do parku.",
+        "Poszła do parku.",
+        "Dojechała do parku."
+      ],
+      "answer": "Doszła do parku.",
+      "explain": "dojść is reaching the place on your own two feet. Dojechała would mean she got there by vehicle."
+    },
+    {
+      "prompt": "Anna ___ do biura o ósmej. (she came in through the door)",
+      "choices": [
+        "weszła",
+        "wszedł",
+        "wszedłem",
+        "weszło"
+      ],
+      "answer": "weszła",
+      "explain": "Anna is a she, so it is weszła — the woman's form keeps its e. The man's form loses it: wszedł."
+    },
+    {
+      "prompt": "Jutro ___ do pracy. (I will — m, on foot)",
+      "choices": [
+        "pójdę",
+        "poszedłem",
+        "pojadę",
+        "pójdzie"
+      ],
+      "answer": "pójdę",
+      "explain": "jutro needs the future, and on foot it is pójdę. pojadę would put you in a vehicle."
+    },
+    {
+      "prompt": "Pociąg ___ do miasta o drugiej.",
+      "choices": [
+        "dojedzie",
+        "dojdzie",
+        "dojechałem",
+        "dojadę"
+      ],
+      "answer": "dojedzie",
+      "explain": "A train has wheels, so it is the jechać family: dojedzie. dojdzie would have the train walking."
+    },
+    {
+      "prompt": "Wczoraj ___ do centrum autobusem. (f — I went)",
+      "choices": [
+        "pojechałam",
+        "pojechałem",
+        "poszłam",
+        "pojadę"
+      ],
+      "answer": "pojechałam",
+      "explain": "autobusem settles feet or wheels, and a woman speaking says pojechałam."
+    },
+    {
+      "prompt": "Which one says you were still on the way?",
+      "choices": [
+        "Szedłem do pracy.",
+        "Poszedłem do pracy.",
+        "Doszedłem do pracy.",
+        "Wszedłem do pracy."
+      ],
+      "answer": "Szedłem do pracy.",
+      "explain": "szedłem is the walking itself, still going on. The other three each name one moment that happened and finished."
+    },
+    {
+      "prompt": "Dziecko ___ do szkoły późno.",
+      "choices": [
+        "poszło",
+        "poszła",
+        "poszedł",
+        "poszedłem"
+      ],
+      "answer": "poszło",
+      "explain": "dziecko is neuter — ono — so the past ends in -ło: poszło."
+    },
+    {
+      "prompt": "Kiedy ___ do domu? (to a man, on foot)",
+      "choices": [
+        "pójdziesz",
+        "pójdę",
+        "pojedziesz",
+        "poszedłeś"
+      ],
+      "answer": "pójdziesz",
+      "explain": "kiedy plus the future, spoken to somebody: pójdziesz. poszedłeś would be asking about yesterday."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I went (m, on foot)",
+      "mode": "full_word",
+      "answer": "poszedłem",
+      "accepts": [
+        "poszedłem",
+        "poszedlem"
+      ],
+      "explain": "po- welded onto szedłem — the same table you have had since przyszedłem, doing one more job."
+    },
+    {
+      "prompt_en": "I went (f, on foot)",
+      "mode": "full_word",
+      "answer": "poszłam",
+      "accepts": [
+        "poszłam",
+        "poszlam"
+      ],
+      "explain": "The woman's forms drop the -ed- exactly as szłam does: poszłam, never poszedłam."
+    },
+    {
+      "prompt_en": "he went (on foot)",
+      "mode": "full_word",
+      "answer": "poszedł",
+      "accepts": [
+        "poszedł",
+        "poszedl"
+      ]
+    },
+    {
+      "prompt_en": "she went (on foot)",
+      "mode": "full_word",
+      "answer": "poszła",
+      "accepts": [
+        "poszła",
+        "poszla"
+      ]
+    },
+    {
+      "prompt_en": "I went in (m)",
+      "mode": "full_word",
+      "answer": "wszedłem",
+      "accepts": [
+        "wszedłem",
+        "wszedlem"
+      ],
+      "explain": "The man's form has no e after the w: wszedłem. This one is learned whole, not built."
+    },
+    {
+      "prompt_en": "I went in (f)",
+      "mode": "full_word",
+      "answer": "weszłam",
+      "accepts": [
+        "weszłam",
+        "weszlam"
+      ],
+      "explain": "The woman's form keeps the e: weszłam. It is the one place in this unit where the front piece changes shape."
+    },
+    {
+      "prompt_en": "he went in",
+      "mode": "full_word",
+      "answer": "wszedł",
+      "accepts": [
+        "wszedł",
+        "wszedl"
+      ]
+    },
+    {
+      "prompt_en": "she went in",
+      "mode": "full_word",
+      "answer": "weszła",
+      "accepts": [
+        "weszła",
+        "weszla"
+      ]
+    },
+    {
+      "prompt_en": "I got as far as it (m, on foot)",
+      "mode": "full_word",
+      "answer": "doszedłem",
+      "accepts": [
+        "doszedłem",
+        "doszedlem"
+      ],
+      "explain": "do- sits on the same szedł table, and it is the only one of the three that is about reaching the place."
+    },
+    {
+      "prompt_en": "she got as far as it (on foot)",
+      "mode": "full_word",
+      "answer": "doszła",
+      "accepts": [
+        "doszła",
+        "doszla"
+      ]
+    },
+    {
+      "prompt_en": "I went (m, by vehicle)",
+      "mode": "full_word",
+      "answer": "pojechałem",
+      "accepts": [
+        "pojechałem",
+        "pojechalem"
+      ],
+      "explain": "Nothing to memorise: pojechać loses the -ć and takes -łem, the rule you have used since mieszkałem."
+    },
+    {
+      "prompt_en": "I went (f, by vehicle)",
+      "mode": "full_word",
+      "answer": "pojechałam",
+      "accepts": [
+        "pojechałam",
+        "pojechalam"
+      ]
+    },
+    {
+      "prompt_en": "he got there (by vehicle)",
+      "mode": "full_word",
+      "answer": "dojechał",
+      "accepts": [
+        "dojechał",
+        "dojechal"
+      ]
+    },
+    {
+      "prompt_en": "she got there (by vehicle)",
+      "mode": "full_word",
+      "answer": "dojechała",
+      "accepts": [
+        "dojechała",
+        "dojechala"
+      ]
+    },
+    {
+      "prompt_en": "I will go (on foot)",
+      "mode": "full_word",
+      "answer": "pójdę",
+      "accepts": [
+        "pójdę",
+        "pojde",
+        "pójde",
+        "pojdę"
+      ],
+      "explain": "po + idę, with the i turned into j and an ó on top. A man and a woman both say pójdę."
+    },
+    {
+      "prompt_en": "I will go in",
+      "mode": "full_word",
+      "answer": "wejdę",
+      "accepts": [
+        "wejdę",
+        "wejde"
+      ]
+    },
+    {
+      "prompt_en": "I will get as far as it (on foot)",
+      "mode": "full_word",
+      "answer": "dojdę",
+      "accepts": [
+        "dojdę",
+        "dojde"
+      ]
+    },
+    {
+      "prompt_en": "I will go (by vehicle)",
+      "mode": "full_word",
+      "answer": "pojadę",
+      "accepts": [
+        "pojadę",
+        "pojade"
+      ],
+      "explain": "po + jadę, and nothing else moves."
+    },
+    {
+      "prompt_en": "he will get there (by vehicle)",
+      "mode": "full_word",
+      "answer": "dojedzie",
+      "accepts": [
+        "dojedzie"
+      ],
+      "explain": "The ja- / je- swap comes along from jadę, jedziesz, jedzie — read it off the table."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad went to the shop.",
+      "answer": "Tata poszedł do sklepu.",
+      "accepts": [
+        "Tata poszedł do sklepu.",
+        "Tata poszedł do sklepu",
+        "Tata poszedl do sklepu."
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum went to work early.",
+      "answer": "Mama poszła do pracy wcześnie.",
+      "accepts": [
+        "Mama poszła do pracy wcześnie.",
+        "Mama poszła do pracy wcześnie",
+        "Mama poszła wcześnie do pracy.",
+        "Mama poszla do pracy wczesnie."
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad went into the bank.",
+      "answer": "Tata wszedł do banku.",
+      "accepts": [
+        "Tata wszedł do banku.",
+        "Tata wszedł do banku",
+        "Tata wszedl do banku."
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna went into the office at eight.",
+      "answer": "Anna weszła do biura o ósmej.",
+      "accepts": [
+        "Anna weszła do biura o ósmej.",
+        "Anna weszła do biura o ósmej",
+        "Anna weszla do biura o osmej."
+      ]
+    },
+    {
+      "prompt_en": "Type: The child got as far as the school.",
+      "answer": "Dziecko doszło do szkoły.",
+      "accepts": [
+        "Dziecko doszło do szkoły.",
+        "Dziecko doszło do szkoły",
+        "Dziecko doszlo do szkoly."
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother got as far as the park.",
+      "answer": "Mój brat doszedł do parku.",
+      "accepts": [
+        "Mój brat doszedł do parku.",
+        "Mój brat doszedł do parku",
+        "Moj brat doszedl do parku."
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma went to the city by train.",
+      "answer": "Babcia pojechała do miasta pociągiem.",
+      "accepts": [
+        "Babcia pojechała do miasta pociągiem.",
+        "Babcia pojechała do miasta pociągiem",
+        "Babcia pojechała pociągiem do miasta.",
+        "Babcia pojechala do miasta pociagiem."
+      ]
+    },
+    {
+      "prompt_en": "Type: The train got to the city at two.",
+      "answer": "Pociąg dojechał do miasta o drugiej.",
+      "accepts": [
+        "Pociąg dojechał do miasta o drugiej.",
+        "Pociąg dojechał do miasta o drugiej",
+        "Pociag dojechal do miasta o drugiej."
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will go to the chemist's. (m, on foot)",
+      "answer": "Jutro pójdę do apteki.",
+      "accepts": [
+        "Jutro pójdę do apteki.",
+        "Jutro pójdę do apteki",
+        "Jutro pojde do apteki."
+      ]
+    },
+    {
+      "prompt_en": "Type: When will you go to the office? (to a man, on foot)",
+      "answer": "Kiedy pójdziesz do biura?",
+      "accepts": [
+        "Kiedy pójdziesz do biura?",
+        "Kiedy pójdziesz do biura",
+        "Kiedy pojdziesz do biura?"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna will go to the city by bus.",
+      "answer": "Anna pojedzie do miasta autobusem.",
+      "accepts": [
+        "Anna pojedzie do miasta autobusem.",
+        "Anna pojedzie do miasta autobusem",
+        "Anna pojedzie autobusem do miasta."
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "pójść",
+    "wejść",
+    "dojść",
+    "pojechać",
+    "dojechać",
+    "poszedłem",
+    "poszłam",
+    "poszedłeś",
+    "poszłaś",
+    "poszedł",
+    "poszła",
+    "poszło",
+    "wszedłem",
+    "weszłam",
+    "wszedłeś",
+    "weszłaś",
+    "wszedł",
+    "weszła",
+    "weszło",
+    "doszedłem",
+    "doszłam",
+    "doszedłeś",
+    "doszłaś",
+    "doszedł",
+    "doszła",
+    "doszło",
+    "pojechałem",
+    "pojechałam",
+    "pojechałeś",
+    "pojechałaś",
+    "pojechał",
+    "pojechała",
+    "pojechało",
+    "dojechałem",
+    "dojechałam",
+    "dojechałeś",
+    "dojechałaś",
+    "dojechał",
+    "dojechała",
+    "dojechało",
+    "pójdę",
+    "pójdziesz",
+    "pójdzie",
+    "wejdę",
+    "wejdziesz",
+    "wejdzie",
+    "dojdę",
+    "dojdziesz",
+    "dojdzie",
+    "pojadę",
+    "pojedziesz",
+    "pojedzie",
+    "dojadę",
+    "dojedziesz",
+    "dojedzie"
+  ],
+  "uses_lemmas": [
+    "iść",
+    "szedłem",
+    "szłam",
+    "szedłeś",
+    "szłaś",
+    "szedł",
+    "szła",
+    "szło",
+    "idę",
+    "idziesz",
+    "idzie",
+    "jechać",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "przyjść",
+    "przyszedłem",
+    "przyjdę",
+    "kupił",
+    "kupiłem",
+    "kupię",
+    "wypiję",
+    "piję",
+    "mieszkał",
+    "mieszkałem",
+    "tata",
+    "mama",
+    "anna",
+    "babcia",
+    "brat",
+    "dziecko",
+    "pociąg",
+    "mój",
+    "do sklepu",
+    "do pracy",
+    "do banku",
+    "do parku",
+    "do biura",
+    "do szkoły",
+    "do miasta",
+    "do domu",
+    "do centrum",
+    "sklepu",
+    "pracy",
+    "banku",
+    "parku",
+    "biura",
+    "szkoły",
+    "miasta",
+    "domu",
+    "centrum",
+    "pociągiem",
+    "autobusem",
+    "chleb",
+    "wczoraj",
+    "jutro",
+    "późno",
+    "wcześnie",
+    "o drugiej",
+    "o ósmej",
+    "kiedy",
+    "i",
+    "czy",
+    "apteki",
+    "do apteki"
+  ],
+  "note": "B2-SPINE Block 6 unit 6 (O7.1), paying the catch b1_wrapup's digest recorded: poszedłem was rejected during that unit's drafting as 'a THIRD prefix on iść's suppletive past stem' that was never taught. It is taught here. Same idiom as b1_arrive_leave throughout: the prefix welds onto a stem table the learner already owns, the on-foot forms are handed over WHOLE via a mirror table (b1_past_isc treatment, never derived), and the vehicle forms ride the regular -ać past rule owned since a2_past_ac at near-zero cost.\n\nSCOPE CUT, THE UNIT'S ONE REAL FORK, logged loudly: the spine names FOUR prefixes (po-, we-, do-, prze-) on both stems, i.e. eight verbs. This unit builds FIVE — pójść/wejść/dojść on foot, pojechać/dojechać by vehicle — and fences two, for reasons that are about load, not taste:\n  (a) prze- DROPPED ENTIRELY. przejść's everyday use is przejść PRZEZ ulicę, and przez is untaught: it is a preposition governing the Accusative, i.e. a whole new governor. Teaching it here would put a second new system in one unit, which is exactly the do/z cliff load-splitting forbids. Without przez, przejść has no honest frame — 'przejść do X' is not what the word is for. Deferred: it needs either its own small slot after a przez unit, or C1.\n  (b) wjechać DROPPED. The vehicle partner of wejść is wjechać, not *wejechać — the front piece changes shape between the two stems (we-/w-), which would be a THIRD irregularity in a unit that already carries two, and 'to drive into' is not everyday language for this learner. wejść keeps its place because 'come in / go in' genuinely is.\nThe result is a tighter unit than the spine drew, and a better one: all five verbs take ONE governor, do + genitive, already owned since A1, so nothing about the place is new — only the verb.\n\nPREFIX FRAMING obeys the JAMES-LOCKED O7 overrule (decision #2). po- and we- are NOT lens prefixes and no meaning is claimed for them anywhere in this file; do- IS one of the locked core 4, but the lens is b2_prefix_lens's job two units later and is deliberately not opened here. Slide 2 says the honest thing out loud instead — 'learn each verb as a word; the piece on the front is not a rule you can apply yourself' — which restates a2_aspect's standing framing. No unit content is borrowed from b2_prefix_two_jobs either: pójść's relation to szedłem is described the way b1_arrive_leave described przyszedłem's ('once and done, like kupiłem'), as a fact about this verb, never generalised into a theory of what prefixes do.\n\nTHE ONE AWKWARD CORNER, named on the slide rather than hidden: wejść's past keeps the e in the feminine (weszłam, weszła) and loses it in the masculine (wszedłem, wszedł). Handed over whole in the mirror table and drilled in four separate type items, never built. This is the reason the unit says twice that these forms are read off a table.\n\nSINGULAR ONLY, both genders in production with (m)/(f) cues, matching b1_arrive_leave exactly; plural past is virile territory and stays fenced. FUTURES in the three singular persons only (ja/ty/on·ona), same persons call and same reasons as b1_arrive_leave. The i→j change (idę → pójdę) and the ja-/je- swap (jadę → pojadę / pojedziesz) are both shown as table facts inherited from forms already owned, never as rules.\n\nHOMOGRAPHS / check_new.py run on every candidate: all 55 taught forms verified NEW, zero collisions — the largest clean sweep in the course so far. Every recycled form re-checked for what it was taught AS: the do + genitive destinations (do sklepu/pracy/banku/parku/biura/szkoły/miasta/domu/centrum) are all pooled as whole destination chunks from the A1 do-units, so 'do szkoły' is safe despite szkoły also existing as a nominative plural elsewhere (AGENTS' named homograph); pociągiem/autobusem are recycled as the a2_inst_transport instrumentals they were taught as; o drugiej/o ósmej as a2_ordinals_time chunks; lekarza as the masculine-animate genitive after do; wcześnie/późno/wczoraj/jutro/kiedy all pooled in exactly the functions used.\n\nDELIBERATELY ABSENT: wychodzić/przychodzić and every other imperfective partner (b2_motion_imperf's material, one unit away — and note for that unit's author that wychodzę/wychodzisz/wychodzić are ALREADY TAUGHT by a2_routine as a daily-routine present, so its real new fact is the twin relationship, not the word); prze-, za-, od- and any other prefix; przez; wjechać; plural past; oni/one; conditional; będę and the two-futures contrast (b1_two_futures owns it and it is not re-opened); any productive prefix rule.\n\nFORKS, logged: (a) Dopasuj = 12 bare forms covering all five verbs, both genders and both tenses — the form supply is ample so no sentence rows are needed for balance; (b) table-only forms (the 2sg pasts, the neuters, wejdziesz/dojdziesz/pojedziesz among the futures) are tagged in teaches_lemmas per the b1_perf_future precedent so later units may draw on them, while the production core is 1sg/3sg in both genders plus the ja-futures; (c) quiz distractors are real taught strings only — every one is either pooled or taught by this file, and no non-word appears; (d) the five new infinitives are taught via the intro tables and tagged, not drilled in type, matching b1_past_isc's treatment of iść; (e) Pisanie is bare single forms throughout, which is the minimal pattern unit for a conjugation unit and sits far inside the 3-word cap; (f) every disambiguating quiz cue is in ENGLISH in parentheses, the b1_arrive_leave / b2_jezdzic convention — a first draft of this file carried Polish cues (pieszo, przez drzwi, do mężczyzny) and they were caught and removed: Dad reads no Polish, and przez/drzwi/mężczyzny are untaught anyway.\n\nCAUGHT BY THE AUDITOR, kept as a note because it is the exact trap b2_jezdzic's own note warned about: the first draft used 'Jutro pojde do lekarza' and lekarza (the masculine-animate genitive) is NOT taught — the pool has lekarz/lekarze/lekarzem/lekarzy only. Replaced with do apteki, a pooled destination chunk. Nothing else in the file depended on it.",
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_motion_prefixes2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

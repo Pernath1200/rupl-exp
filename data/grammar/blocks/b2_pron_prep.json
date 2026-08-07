@@ -1,0 +1,577 @@
+{
+ "id": "b2_pron_prep",
+ "title": "Znam go · do niego",
+ "title_en": "Pronouns after a preposition · they all start with n-",
+ "level": "B2",
+ "tree_node": "b2_pron_prep",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 3, unit 2 (spine). SIX NEW FORMS: niego, niej, nim, nią, nich, nimi — all verified NEW.\n\nPAYS a2_o_loc's NAMED FENCE, which said in its own note: 'pronoun objects — o tobie, o mnie, o nim, o niej are new pronoun forms, absent from POOL, and are never shown, glossed or demanded; the unit says about work / about home, never about you. They need their own small unit.' This is that unit — for the third person. See the judgment call below for the half of that fence this unit does NOT pay.\n\nTHE WHOLE RULE, and it is one line: after a preposition, the him / her / them pronouns all start with n-. The three governors are the three the learner already owns, each keeping the case it has always had, so nothing about the prepositions changes: o + Locative (a2_o_loc), z + Instrumental (a2_inst_z), do + Genitive (a1_prep_do_z). A clean 3x3 grid — o nim / o niej / o nich, z nim / z nią / z nimi, do niego / do niej / do nich — with only six distinct shapes in it.\n\nTHE GIFT, and slide 2: the pronoun collapses its cases in EXACTLY the pattern the adjective does, which the learner finished two units ago. nim covers Locative and Instrumental for masculine — precisely as dobrym does (w dobrym hotelu / z dobrym kolegą). niej covers Genitive and Locative for feminine — precisely as dobrej does (do dobrej szkoły / w dobrej firmie). Naming that parallel costs nothing and turns six forms into three plus a pattern already owned.\n\nTHE UNIT'S ONE REAL JUDGMENT CALL, and the conservative branch was taken: THIRD PERSON ONLY. o mnie, o tobie, ze mną, z tobą, do ciebie, z nami, z wami appear nowhere. Reason: tobie, tobą, mną, ciebie, nami and wami are all verified NEW — six more new forms — and ze mną additionally requires the ze-shape of z before m + consonant, which is a fact about the PREPOSITION, not the pronoun. That is the do/z cliff in miniature. The tempting middle option was rejected on purpose: o mnie, o nas and o was would cost zero new strings (mnie, nas and was were all taught one unit ago), but shipping them without o tobie would leave the most frequent cell of the row missing, and a half-row whose hole is the useful cell is worse than a clean fence. So nothing of the first and second person is shown at all, and the slide says only that this rule is about him, her and them. THE ALTERNATIVE, if James wants it: a small b2_pron_prep2 with those six forms and the ze-rule, or folding them in here at the cost of doubling the unit.\n\ndla WAS DROPPED, and this is the batch-3 finding repeating: B2-SPINE's own illustrative example for this unit is 'do niego, dla niej', but dla reports NEW. It is a preposition the course has never taught, so using it would smuggle a new governor into a pronoun unit. The spine is a design document, not a pool.\n\nniemu IS NOT TAUGHT EITHER, for a cleaner reason: no preposition anywhere in this course governs the Dative, so the prepositional Dative pronoun has nowhere to go. Teaching a form with no legal sentence to sit in would be padding.\n\nw and na + pronoun (w nim, na niej) are fenced too. They are rarer for this learner than the three taught here, and w nim would put nim into a third job in the unit that introduces it.\n\nTHE REAL RISK THIS UNIT CARRIES, and what the Kontrola stage is built on: the learner has owned go, ją and ich for exactly one unit, and the wrong sentence is do go rather than do niego. So every bare-form / n-form pair is drilled against itself — quiz items 1 and 7 (nim vs go), 2 and 8 (niej vs ją), 5 and 9 (nich vs ich), plus mu, jej and im from the Dative column as third options. Match rows 10-12 are the three bare object forms sitting on the same board as their n- partners, which is the whole point of showing the board.\n\nFENCED, held from b2_pron_acc one unit back: je and nie (the neuter and non-virile-plural forms), jego, ciebie, siebie/sobie (C1, spine O15), and negated objects anywhere. Note again that the auditor CANNOT see any of this — person pronouns sit in audit.py's GLUE_LEMMAS, so every pronoun fence in this block is author discipline only, and this pack was scanned by hand, string by string, over every learner-facing surface.\n\nAll 12 quiz answers are distinct. Distractors are real taught Polish in the wrong slot throughout — every wrong choice is the same person out of a different column or a different shape, so each explain can name the mistake. Nothing fabricated.\n\nBare governed prepositions (o, z, do) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride o_loc, inst_z and prep_do_gen, all in uses_structures.",
+ "focus_structures": [
+  "pron_prep"
+ ],
+ "teaches_structures": [
+  "pron_prep"
+ ],
+ "teaches_lemmas": [
+  "niego",
+  "niej",
+  "nim",
+  "nią",
+  "nich",
+  "nimi"
+ ],
+ "uses_structures": [
+  "pron_prep",
+  "pron_acc",
+  "dative_pron",
+  "dative_sg",
+  "dat_chunks",
+  "o_loc",
+  "inst_z",
+  "prep_do_gen",
+  "motion_chunk",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "present_uje",
+  "byc_present",
+  "byc_adj",
+  "virile_reco",
+  "poss_nom",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "After a preposition, they all start with n-",
+   "title_pl": "o nim · z nią · do nich",
+   "body": "You learned go, ją and ich last time — him, her, them as the object of a verb. Put a preposition in front of the same people and the pronoun changes shape: it starts with n-.\n\nThat is the entire rule. The prepositions themselves do not change at all: o still takes the Locative, z still takes the Instrumental, do still takes the Genitive, exactly as they have since A1 and A2. Only the pronoun looks different.",
+   "body_pl": "o nim · o niej · o nich   ·   z nim · z nią · z nimi   ·   do niego · do niej · do nich",
+   "table": {
+    "headers": [
+     "Refers to",
+     "o … (about)",
+     "z … (with)",
+     "do … (to)"
+    ],
+    "rows": [
+     [
+      "him",
+      "o nim",
+      "z nim",
+      "do niego"
+     ],
+     [
+      "her",
+      "o niej",
+      "z nią",
+      "do niej"
+     ],
+     [
+      "them (people)",
+      "o nich",
+      "z nimi",
+      "do nich"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Mum is talking about him.",
+     "pl": "Mama mówi o nim."
+    },
+    {
+     "en": "Dad works with him.",
+     "pl": "Tata pracuje z nim."
+    }
+   ]
+  },
+  {
+   "title": "Nine boxes, six shapes — and you have seen this pattern",
+   "title_pl": "nim · niej · nich",
+   "body": "There are nine boxes in that table but only six different words, because three of the shapes do two jobs each. That is not a coincidence, and you already know the pattern: the adjective does exactly the same thing.\n\ndobrym covers both w dobrym hotelu and z dobrym kolegą. nim covers both o nim and z nim — the same two jobs, on the same kind of word. And dobrej covers both do dobrej szkoły and w dobrej firmie, just as niej covers do niej and o niej. So this is one more turn of a pattern you finished two units ago, not a new one.",
+   "body_pl": "nim = o nim + z nim   ·   niej = o niej + do niej   ·   nich = o nich + do nich",
+   "table": {
+    "headers": [
+     "Form",
+     "Refers to",
+     "Jobs it does",
+     "The adjective does the same"
+    ],
+    "rows": [
+     [
+      "nim",
+      "him",
+      "o nim · z nim",
+      "dobrym"
+     ],
+     [
+      "niej",
+      "her",
+      "o niej · do niej",
+      "dobrej"
+     ],
+     [
+      "nich",
+      "them",
+      "o nich · do nich",
+      "dobrej"
+     ],
+     [
+      "niego",
+      "him",
+      "do niego",
+      "dobrego"
+     ],
+     [
+      "nią",
+      "her",
+      "z nią",
+      "dobrą"
+     ],
+     [
+      "nimi",
+      "them",
+      "z nimi",
+      "—"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The trap: go or niego?",
+   "title_pl": "Znam go. · Idę do niego.",
+   "body": "This is the one mistake worth guarding against, and it is the only thing this unit really asks you to get right.\n\nWhen the pronoun follows a verb on its own, it is the plain form you learned last time — Znam go. Lubię ją. Znam ich. When there is a preposition in front, it is the n- form — Idę do niego. Idę z nią. Mówię o nich.\n\nSo look for the little word first. If a preposition is there, the pronoun starts with n-. If not, it does not.",
+   "body_pl": "Znam go · Idę do niego   ·   Lubię ją · Idę z nią   ·   Znam ich · Mówię o nich",
+   "table": {
+    "headers": [
+     "Refers to",
+     "After a verb alone",
+     "After a preposition"
+    ],
+    "rows": [
+     [
+      "him",
+      "Znam go.",
+      "Idę do niego."
+     ],
+     [
+      "her",
+      "Lubię ją.",
+      "Idę z nią."
+     ],
+     [
+      "them (people)",
+      "Znam ich.",
+      "Mówię o nich."
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "about him",
+   "pl": "o nim"
+  },
+  {
+   "en": "about her",
+   "pl": "o niej"
+  },
+  {
+   "en": "about them (people)",
+   "pl": "o nich"
+  },
+  {
+   "en": "with him",
+   "pl": "z nim"
+  },
+  {
+   "en": "with her",
+   "pl": "z nią"
+  },
+  {
+   "en": "with them (people)",
+   "pl": "z nimi"
+  },
+  {
+   "en": "to him (heading to him)",
+   "pl": "do niego"
+  },
+  {
+   "en": "to her (heading to her)",
+   "pl": "do niej"
+  },
+  {
+   "en": "to them (heading to them)",
+   "pl": "do nich"
+  },
+  {
+   "en": "him — the object, no preposition",
+   "pl": "go"
+  },
+  {
+   "en": "her — the object, no preposition",
+   "pl": "ją"
+  },
+  {
+   "en": "them — the object, no preposition",
+   "pl": "ich"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Mama mówi o ___. (about him)",
+   "choices": [
+    "nim",
+    "niego",
+    "go",
+    "mu"
+   ],
+   "answer": "nim",
+   "explain": "o has always taken the Locative, and the Locative shape here is nim. go is the form with no preposition in front of it — Znam go."
+  },
+  {
+   "prompt": "Tata myśli o ___. (about her)",
+   "choices": [
+    "niej",
+    "nią",
+    "jej",
+    "ją"
+   ],
+   "answer": "niej",
+   "explain": "o + Locative gives niej. nią is the shape after z, and ją is the plain object form with no preposition at all."
+  },
+  {
+   "prompt": "Idę do ___. (to him)",
+   "choices": [
+    "niego",
+    "nim",
+    "go",
+    "mu"
+   ],
+   "answer": "niego",
+   "explain": "do takes the Genitive, and that shape is niego, not nim. nim would be right after o or z."
+  },
+  {
+   "prompt": "Idę z ___. (with her)",
+   "choices": [
+    "nią",
+    "niej",
+    "ją",
+    "jej"
+   ],
+   "answer": "nią",
+   "explain": "z takes the Instrumental — nią. niej is the same person after o or do."
+  },
+  {
+   "prompt": "Mówimy o ___. (about them — the students)",
+   "choices": [
+    "nich",
+    "nimi",
+    "ich",
+    "im"
+   ],
+   "answer": "nich",
+   "explain": "o + Locative gives nich. nimi is the shape after z, and ich is the plain object form."
+  },
+  {
+   "prompt": "Jadę z ___. (with them — the students)",
+   "choices": [
+    "nimi",
+    "nich",
+    "ich",
+    "im"
+   ],
+   "answer": "nimi",
+   "explain": "z takes the Instrumental, and for a group that shape is nimi — the one form in this unit that does only a single job."
+  },
+  {
+   "prompt": "Znam ___. (him — no preposition here)",
+   "choices": [
+    "go",
+    "niego",
+    "mu",
+    "nim"
+   ],
+   "answer": "go",
+   "explain": "There is no preposition in this sentence, so the pronoun keeps its plain shape — go. niego would need a do or another preposition in front of it."
+  },
+  {
+   "prompt": "Lubię ___. (her — no preposition here)",
+   "choices": [
+    "ją",
+    "nią",
+    "jej",
+    "niej"
+   ],
+   "answer": "ją",
+   "explain": "lubić takes a plain object and there is no preposition, so it is ją. nią is what you would say after z."
+  },
+  {
+   "prompt": "Znam ___. (them — no preposition here)",
+   "choices": [
+    "ich",
+    "nich",
+    "im",
+    "nimi"
+   ],
+   "answer": "ich",
+   "explain": "No preposition, so the plain object form ich. nich only ever turns up after o or do."
+  },
+  {
+   "prompt": "Pomagam ___. (him — who I'm helping)",
+   "choices": [
+    "mu",
+    "go",
+    "niego",
+    "nim"
+   ],
+   "answer": "mu",
+   "explain": "pomagać reaches into the who-it-happens-to column, so mu — the same form you have had since B1. No preposition, so no n-."
+  },
+  {
+   "prompt": "Dziękuję ___. (her — who I'm thanking)",
+   "choices": [
+    "jej",
+    "niej",
+    "ją",
+    "nią"
+   ],
+   "answer": "jej",
+   "explain": "dziękować works like pomagam — jej, with no preposition and so no n-. niej is the same person once a preposition is in front."
+  },
+  {
+   "prompt": "Smakuje ___ kawa. (them)",
+   "choices": [
+    "im",
+    "ich",
+    "nich",
+    "nimi"
+   ],
+   "answer": "im",
+   "explain": "smakować takes the who-it-happens-to column — im. There is no preposition, so nothing gains an n-."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "about him",
+   "mode": "full_word",
+   "answer": "o nim",
+   "accepts": [
+    "o nim"
+   ]
+  },
+  {
+   "prompt_en": "about her",
+   "mode": "full_word",
+   "answer": "o niej",
+   "accepts": [
+    "o niej"
+   ]
+  },
+  {
+   "prompt_en": "about them (people)",
+   "mode": "full_word",
+   "answer": "o nich",
+   "accepts": [
+    "o nich"
+   ]
+  },
+  {
+   "prompt_en": "with him",
+   "mode": "full_word",
+   "answer": "z nim",
+   "accepts": [
+    "z nim"
+   ]
+  },
+  {
+   "prompt_en": "with her",
+   "mode": "full_word",
+   "answer": "z nią",
+   "accepts": [
+    "z nią"
+   ]
+  },
+  {
+   "prompt_en": "with them (people)",
+   "mode": "full_word",
+   "answer": "z nimi",
+   "accepts": [
+    "z nimi"
+   ]
+  },
+  {
+   "prompt_en": "to him (idę…)",
+   "mode": "full_word",
+   "answer": "do niego",
+   "accepts": [
+    "do niego"
+   ]
+  },
+  {
+   "prompt_en": "to her (idę…)",
+   "mode": "full_word",
+   "answer": "do niej",
+   "accepts": [
+    "do niej"
+   ]
+  },
+  {
+   "prompt_en": "to them (idę…)",
+   "mode": "full_word",
+   "answer": "do nich",
+   "accepts": [
+    "do nich"
+   ]
+  },
+  {
+   "prompt_en": "him — the object, no preposition (znam…)",
+   "mode": "full_word",
+   "answer": "go",
+   "accepts": [
+    "go"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Mum is talking about him.",
+   "answer": "Mama mówi o nim.",
+   "accepts": [
+    "Mama mówi o nim.",
+    "Mama mówi o nim"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is thinking about her.",
+   "answer": "Tata myśli o niej.",
+   "accepts": [
+    "Tata myśli o niej.",
+    "Tata myśli o niej"
+   ]
+  },
+  {
+   "prompt_en": "Type: My brother works with her.",
+   "answer": "Mój brat pracuje z nią.",
+   "accepts": [
+    "Mój brat pracuje z nią.",
+    "Mój brat pracuje z nią"
+   ]
+  },
+  {
+   "prompt_en": "Type: These students are good and I'm going with them.",
+   "answer": "Ci studenci są dobrzy i idę z nimi.",
+   "accepts": [
+    "Ci studenci są dobrzy i idę z nimi.",
+    "Ci studenci są dobrzy i idę z nimi"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is going to him.",
+   "answer": "Mama idzie do niego.",
+   "accepts": [
+    "Mama idzie do niego.",
+    "Mama idzie do niego"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum and dad are talking about them.",
+   "answer": "Mama i tata mówią o nich.",
+   "accepts": [
+    "Mama i tata mówią o nich.",
+    "Mama i tata mówią o nich"
+   ]
+  },
+  {
+   "prompt_en": "Type: I know him, but I'm going to her.",
+   "answer": "Znam go, ale idę do niej.",
+   "accepts": [
+    "Znam go, ale idę do niej.",
+    "Znam go, ale idę do niej"
+   ]
+  },
+  {
+   "prompt_en": "Type: I like her and I'm going with her.",
+   "answer": "Lubię ją i idę z nią.",
+   "accepts": [
+    "Lubię ją i idę z nią.",
+    "Lubię ją i idę z nią"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad works with him.",
+   "answer": "Tata pracuje z nim.",
+   "accepts": [
+    "Tata pracuje z nim.",
+    "Tata pracuje z nim"
+   ]
+  },
+  {
+   "prompt_en": "Type: I know them, and mum is talking about them.",
+   "answer": "Znam ich, a mama mówi o nich.",
+   "accepts": [
+    "Znam ich, a mama mówi o nich.",
+    "Znam ich, a mama mówi o nich"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "go",
+  "ją",
+  "ich",
+  "mu",
+  "jej",
+  "im",
+  "mówię",
+  "mówi",
+  "mówimy",
+  "mówią",
+  "myśli",
+  "idę",
+  "idzie",
+  "jadę",
+  "znam",
+  "lubię",
+  "pracuje",
+  "pomagam",
+  "dziękuję",
+  "smakuje",
+  "kawa",
+  "mama",
+  "tata",
+  "mój",
+  "brat",
+  "ci",
+  "studenci",
+  "są",
+  "dobrzy",
+  "dobrym",
+  "dobrej",
+  "dobrego",
+  "dobrą",
+  "hotelu",
+  "kolegą",
+  "szkoły",
+  "firmie",
+  "i",
+  "ale",
+  "a"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_pron_prep",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

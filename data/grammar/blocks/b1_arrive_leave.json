@@ -1,0 +1,801 @@
+{
+  "id": "b1_arrive_leave",
+  "title": "Szedłem → przyszedłem",
+  "title_en": "I was going → I arrived",
+  "level": "B1",
+  "tree_node": "b1_arrive_leave",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Block 3 payoff unit (B1-SPINE). b1_past_isc closed on a promise -- 'two more everyday verbs, coming very soon, are built on exactly these shapes' -- and slide 1 delivers it by name: przyjść and wyjść are the szedł table with przy-/wy- welded on the front, nothing else changed. Four verbs as two arrive/leave pairs: przyjść/wyjść on the suppletive stems (14 past forms, taught whole via the mirror table), przyjechać/wyjechać on the regular -ać rule owned since a2_past_ac (14 forms, rule-derived, near-zero cost). SINGULAR ONLY throughout, both genders in production with (m)/(f) cues; plural past is virile territory and stays fenced. FUTURES taught (b1_perf_future precedes): framed exactly as that unit framed kupię -- a verb for a single finished event has no present, so its present-shaped forms mean the future -- and its wypiję = wy + piję move is reused literally: przyjadę = przy + jadę, przyjdę = przy + idę (i→j). PERSONS CALL, logged: futures in the three SINGULAR persons only (ja/ty/on·ona) = 12 forms. Reasons: (a) the unit is singular-only in the past by design -- one consistent frame; (b) plural futures pull toward 3pl subjects while oni/one stay fenced until b1_virile_past; (c) the unit already carries 28 past forms and load-splitting says stop. The plural endings will cost nothing later once the virile block lands. The je-/jad- split in przyjadę/przyjedziesz is shown as a table fact inherited from jadę/jedziesz (a2_jechac precedent), never a rule. ASPECT: no imperfective counterparts appear or are alluded to anywhere; arrive/leave are framed as events that happen once ('an arrival is like kupiłem -- once, and it is done'), glossed plain simple past (came/arrived/left) and plain future (will come), per the AGENTS gloss rules -- nothing to un-teach when the imperfective family eventually arrives. DIRECTION MAPPING kept deliberately clean: przy- always with do + genitive destinations, wy- always with z + genitive sources -- all verified pooled chunks taught AS destination/source (do domu/pracy/miasta/szkoły/biura from a1 do-units; z domu/z pracy/z miasta/z biura/ze sklepu from a1_prep_do_z + a1_prep_review_2). The real-Polish pattern 'wyjechać do + place' (left FOR somewhere) is deliberately not shown -- true, but it would blur the przy-=to / wy-=from picture on first contact. FENCED, absent from this file: po-/do-/prze-/za- prefixes; przychodzić-family imperfectives (wychodzę/wychodzisz sit in the pool from an earlier routine pack and are deliberately never used or mentioned here); plural past; oni/one; conditional; będę (does not occur at all -- the two-futures contrast belongs to b1_two_futures and is not re-opened). HOMOGRAPHS / check_new.py run on all candidates: przyjść ALREADY TAUGHT (trunk_can_a1, as the infinitive 'to come' in Mogę przyjść jutro -- same word, same function; recycled not re-taught, and used as the slide-1 callback); all 40 inflected forms plus wyjść/przyjechać/wyjechać verified NEW, zero collisions. 'w przyszłym tygodniu' (pooled, b1_plans) deliberately AVOIDED so the only przysz- string in this unit's tasks means 'came' -- 'next week' meanings are carried by jutro / w weekend instead; do Polski and do Anglii avoided (polski/anglii pooled as adjective/locative -- different function would evade the string check); pociągiem/autobusem recycled as the instrumentals a2_inst_transport taught them as; późno/wcześnie/rano/o drugiej/w zeszłym tygodniu/w weekend all pooled in exactly the functions used. FORKS: (a) Dopasuj = 12 bare forms covering all four verbs, both tenses, both genders -- the form supply is ample, so no sentence rows are needed for balance; (b) intro-table-only forms (2sg pasts of the vehicle pair, the neuter pasts, przyjedziesz/wyjadę among the futures) are tagged in teaches_lemmas per the b1_perf_future precedent so later units may draw on them -- the production core is 1sg/3sg in both genders plus the ja-futures; (c) quiz distractors are real taught strings only, no invented wrong forms; (d) the three new infinitives are taught via the intro (the -ać rule slide needs them) and tagged, not drilled in type -- matching the b1_past_isc treatment of iść.",
+  "focus_structures": [
+    "motion_prefixed"
+  ],
+  "teaches_structures": [
+    "motion_prefixed"
+  ],
+  "uses_structures": [
+    "motion_prefixed",
+    "past_isc",
+    "past_ac",
+    "perf_future",
+    "jechac",
+    "chodzic",
+    "motion_chunk",
+    "can_inf",
+    "prep_do_gen",
+    "prep_z_gen",
+    "inst_transport",
+    "ordinals_time",
+    "poss_nom",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "The promise, kept",
+      "title_pl": "przyjść i wyjść",
+      "body": "Last unit ended with a promise: two more everyday verbs are built on exactly the szedł shapes. Here they are.\n\nprzyjść — to come, to arrive. You have known this word since A1: Mogę przyjść jutro.\nwyjść — to go out, to leave.\n\nBoth are iść with a piece welded onto the front. przy- points toward — you arrive. wy- points out — you leave. Their past is the table you just learned, with the prefix in front and not one letter changed behind it.",
+      "body_pl": "przy- + szedł / szła = przyszedł / przyszła. wy- + szedł / szła = wyszedł / wyszła.",
+      "table": {
+        "headers": [
+          "iść — you own it",
+          "przyjść — came",
+          "wyjść — went out"
+        ],
+        "rows": [
+          [
+            "szedłem",
+            "przyszedłem",
+            "wyszedłem"
+          ],
+          [
+            "szłam",
+            "przyszłam",
+            "wyszłam"
+          ],
+          [
+            "szedłeś",
+            "przyszedłeś",
+            "wyszedłeś"
+          ],
+          [
+            "szłaś",
+            "przyszłaś",
+            "wyszłaś"
+          ],
+          [
+            "szedł",
+            "przyszedł",
+            "wyszedł"
+          ],
+          [
+            "szła",
+            "przyszła",
+            "wyszła"
+          ],
+          [
+            "szło",
+            "przyszło",
+            "wyszło"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "An arrival happens once",
+      "title_pl": "Raz i gotowe",
+      "body": "szedłem says you were on the way — the walking itself, still in motion. przyszedłem says you got there — the arrival. An arrival is like kupiłem: it happens once and it is done. That is why the glosses are plain: I came, I left — not 'I was coming'.\n\nAfter przy-, the destination you know: do + genitive. After wy-, the starting point: z + genitive — the from-phrases you have used since A1: z domu, z pracy, ze sklepu.",
+      "body_pl": "szedłem = jeszcze w ruchu. przyszedłem = raz i gotowe. Po przy-: do + dopełniacz. Po wy-: z + dopełniacz.",
+      "examples": [
+        {
+          "en": "Yesterday I was going to work. (m — on the way)",
+          "pl": "Wczoraj szedłem do pracy."
+        },
+        {
+          "en": "I came to work early. (m — arrived, done)",
+          "pl": "Przyszedłem do pracy wcześnie."
+        },
+        {
+          "en": "I left the house in the morning. (m)",
+          "pl": "Wyszedłem z domu rano."
+        },
+        {
+          "en": "Mum came out of the shop.",
+          "pl": "Mama wyszła ze sklepu."
+        }
+      ]
+    },
+    {
+      "title": "By vehicle: przyjechać and wyjechać",
+      "title_pl": "przyjechać i wyjechać",
+      "body": "The same two prefixes fit onto jechać. przyjechać — to arrive by vehicle. wyjechać — to leave by vehicle, to go away.\n\nNo new table to memorise here. These two take the regular past rule you have used since mieszkał: drop the -ć, add -ł, add the endings you know — przyjechać → przyjechał, wyjechać → wyjechał.",
+      "body_pl": "Zasada z -ać: przyjechać → przyjechał, wyjechać → wyjechał.",
+      "table": {
+        "headers": [
+          "przyjechać — arrived (by vehicle)",
+          "wyjechać — left (by vehicle)",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "przyjechałem",
+            "wyjechałem",
+            "man speaking (m)"
+          ],
+          [
+            "przyjechałam",
+            "wyjechałam",
+            "woman speaking (f)"
+          ],
+          [
+            "przyjechałeś",
+            "wyjechałeś",
+            "to a man (m)"
+          ],
+          [
+            "przyjechałaś",
+            "wyjechałaś",
+            "to a woman (f)"
+          ],
+          [
+            "przyjechał",
+            "wyjechał",
+            "on · tata, pociąg"
+          ],
+          [
+            "przyjechała",
+            "wyjechała",
+            "ona · mama, Anna"
+          ],
+          [
+            "przyjechało",
+            "wyjechało",
+            "ono · dziecko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Feet or wheels — the old choice, in the past",
+      "title_pl": "Pieszo czy pojazdem?",
+      "body": "Idę czy jadę? made you choose feet or wheels every time. The past asks the same question:\n\nOn foot → przyszedłem, wyszedłem.\nBy vehicle → przyjechałem, wyjechałem.\n\nAcross town on the bus — przyjechałem. Out of the office on your own two feet — wyszedłem. Only the vehicle decides, exactly as it did with idę and jadę.",
+      "body_pl": "Pieszo: przyszedłem, wyszedłem. Pojazdem: przyjechałem, wyjechałem.",
+      "examples": [
+        {
+          "en": "Anna arrived in the city yesterday. (by train)",
+          "pl": "Anna przyjechała do miasta wczoraj."
+        },
+        {
+          "en": "Dad left the city. (by car)",
+          "pl": "Tata wyjechał z miasta."
+        },
+        {
+          "en": "The child came to school late. (on foot)",
+          "pl": "Dziecko przyszło do szkoły późno."
+        }
+      ]
+    },
+    {
+      "title": "The future: przyjdę, wyjdę",
+      "title_pl": "przyjdę i wyjdę",
+      "body": "przyjść and wyjść name a single finished event — so, exactly like kupić, they have no present tense, and their present-shaped forms mean the future. You have made this move before: piję → wypiję. Now the same thing happens to idę:\n\nprzy + idę → przyjdę — I will come. The i turns into j, and that is the whole change.\nwy + idę → wyjdę — I will go out, I will leave.\n\nRead the three persons off the table — the endings are the ones idę and idziesz have carried since A1.",
+      "body_pl": "idę → przyjdę / wyjdę. Forma jak teraźniejsza, znaczenie: przyszłość — jak kupię.",
+      "table": {
+        "headers": [
+          "you own",
+          "will come",
+          "will go out"
+        ],
+        "rows": [
+          [
+            "idę",
+            "przyjdę",
+            "wyjdę"
+          ],
+          [
+            "idziesz",
+            "przyjdziesz",
+            "wyjdziesz"
+          ],
+          [
+            "idzie",
+            "przyjdzie",
+            "wyjdzie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "przyjadę, wyjadę — and no gender",
+      "title_pl": "przyjadę i wyjadę",
+      "body": "By vehicle the future is even more familiar: przyjadę is literally przy + jadę, and wyjadę is wy + jadę. The whole jechać pattern comes along with it, including the ja- / je- swap you know from jadę, jedziesz, jedzie — read it off the table, nothing to work out.\n\nAnd one relief carried over from kupię: the future keeps no gender. In the past you choose przyszedłem or przyszłam. In the future a man says przyjdę and a woman says przyjdę.",
+      "body_pl": "jadę → przyjadę / wyjadę. Przyszłość bez rodzaju: przyjdę — mężczyzna i kobieta tak samo.",
+      "table": {
+        "headers": [
+          "you own",
+          "will arrive (by vehicle)",
+          "will leave (by vehicle)"
+        ],
+        "rows": [
+          [
+            "jadę",
+            "przyjadę",
+            "wyjadę"
+          ],
+          [
+            "jedziesz",
+            "przyjedziesz",
+            "wyjedziesz"
+          ],
+          [
+            "jedzie",
+            "przyjedzie",
+            "wyjedzie"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Grandma will arrive at the weekend. (by car)",
+          "pl": "Babcia przyjedzie w weekend."
+        },
+        {
+          "en": "The train will arrive at two.",
+          "pl": "Pociąg przyjedzie o drugiej."
+        },
+        {
+          "en": "When will you come to the office? (on foot)",
+          "pl": "Kiedy przyjdziesz do biura?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I came (m, on foot)",
+      "pl": "przyszedłem"
+    },
+    {
+      "en": "she came (on foot)",
+      "pl": "przyszła"
+    },
+    {
+      "en": "I went out (f)",
+      "pl": "wyszłam"
+    },
+    {
+      "en": "he went out",
+      "pl": "wyszedł"
+    },
+    {
+      "en": "I arrived (m, by vehicle)",
+      "pl": "przyjechałem"
+    },
+    {
+      "en": "she arrived (by vehicle)",
+      "pl": "przyjechała"
+    },
+    {
+      "en": "he left (by vehicle)",
+      "pl": "wyjechał"
+    },
+    {
+      "en": "I left (f, by vehicle)",
+      "pl": "wyjechałam"
+    },
+    {
+      "en": "I will come (on foot)",
+      "pl": "przyjdę"
+    },
+    {
+      "en": "he / she will go out",
+      "pl": "wyjdzie"
+    },
+    {
+      "en": "I will arrive (by vehicle)",
+      "pl": "przyjadę"
+    },
+    {
+      "en": "you will leave (by vehicle)",
+      "pl": "wyjedziesz"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Wczoraj tata ___ do domu późno.",
+      "choices": [
+        "przyszedł",
+        "przyszła",
+        "przyszło",
+        "przyszedłem"
+      ],
+      "answer": "przyszedł",
+      "explain": "tata is a he, and the masculine forms keep the szed- shape with przy- in front: przyszedł. przyszedłem would put you in the sentence instead of dad."
+    },
+    {
+      "prompt": "Mama ___ ze sklepu.",
+      "choices": [
+        "wyszła",
+        "wyszedł",
+        "wyszło",
+        "wyszłam"
+      ],
+      "answer": "wyszła",
+      "explain": "mama is feminine, so the short sz- shape with -a: wyszła. The szed- shapes belong to the masculine forms only — exactly as in the szedł table."
+    },
+    {
+      "prompt": "Anna ___ do miasta pociągiem. (she arrived)",
+      "choices": [
+        "przyjechała",
+        "przyszła",
+        "wyjechała",
+        "przyjedzie"
+      ],
+      "answer": "przyjechała",
+      "explain": "pociągiem — by train, so wheels: przyjechała. przyszła would mean she walked in. wyjechała points the wrong way — out, not toward."
+    },
+    {
+      "prompt": "still on the way, not there yet (m) →",
+      "choices": [
+        "szedłem",
+        "przyszedłem",
+        "wyszedłem",
+        "przyjechałem"
+      ],
+      "answer": "szedłem",
+      "explain": "szedłem is the journey itself, still in motion. przyszedłem is the moment it ends — you are there. That contrast is the whole difference between last unit and this one."
+    },
+    {
+      "prompt": "Jutro ___ do biura rano. (ja, on foot)",
+      "choices": [
+        "przyjdę",
+        "przyszedłem",
+        "przyjadę",
+        "przyjdzie"
+      ],
+      "answer": "przyjdę",
+      "explain": "jutro points forwards, so the past przyszedłem is out. On foot, so not przyjadę. And przyjdzie is he or she — the ja-form keeps the -ę."
+    },
+    {
+      "prompt": "When will you leave work? (to a man)",
+      "choices": [
+        "Kiedy wyjdziesz z pracy?",
+        "Kiedy wyszedłeś z pracy?",
+        "Kiedy wyjdzie z pracy?",
+        "Kiedy wyjadę z pracy?"
+      ],
+      "answer": "Kiedy wyjdziesz z pracy?",
+      "explain": "will leave points forwards: wyjdziesz — wy + idziesz. wyszedłeś already happened, wyjdzie asks about him, and wyjadę asks about me."
+    },
+    {
+      "prompt": "Babcia ___ w weekend. (she will — by car)",
+      "choices": [
+        "przyjedzie",
+        "przyjadę",
+        "przyjdzie",
+        "przyjechałam"
+      ],
+      "answer": "przyjedzie",
+      "explain": "By car, so the jechać family — and babcia is a she, so przyjedzie, the je- middle of the table. przyjdzie would have her walking the whole way."
+    },
+    {
+      "prompt": "Fix: Tata wyszła z domu. →",
+      "choices": [
+        "wyszedł",
+        "wyszła",
+        "wyszło",
+        "wyszedłem"
+      ],
+      "answer": "wyszedł",
+      "explain": "tata is a he, and the he-form keeps the szed- shape and stops at the -ł: wyszedł. wyszła is his wife's word."
+    },
+    {
+      "prompt": "Pociąg ___ o drugiej. (will arrive)",
+      "choices": [
+        "przyjedzie",
+        "przyjadę",
+        "przyjechało",
+        "wyjedzie"
+      ],
+      "answer": "przyjedzie",
+      "explain": "pociąg is a he in Polish, and it has wheels — przyjedzie. wyjedzie is the wrong direction: that train is leaving."
+    },
+    {
+      "prompt": "Mój brat ___ z miasta w zeszłym tygodniu. (went away)",
+      "choices": [
+        "wyjechał",
+        "przyjechał",
+        "wyszedł",
+        "wyjechała"
+      ],
+      "answer": "wyjechał",
+      "explain": "z miasta — out of the city, so wy-. Leaving a whole city is a wheels-scale journey: wyjechał, the regular -ał past of wyjechać."
+    },
+    {
+      "prompt": "I will come tomorrow (on foot) — a woman speaking →",
+      "choices": [
+        "przyjdę",
+        "przyszłam",
+        "przyjedzie",
+        "wyjdę"
+      ],
+      "answer": "przyjdę",
+      "explain": "The future keeps no gender — przyjdę for a man and for a woman alike. przyszłam is the past, where the gender choice still lives."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I came (m, on foot)",
+      "mode": "full_word",
+      "answer": "przyszedłem",
+      "accepts": [
+        "przyszedłem"
+      ],
+      "explain": "przy- welded onto szedłem — the very table you learned last unit, doing its promised second job."
+    },
+    {
+      "prompt_en": "I came (f, on foot)",
+      "mode": "full_word",
+      "answer": "przyszłam",
+      "accepts": [
+        "przyszłam"
+      ],
+      "explain": "The feminine forms keep their short sz- shape: przy + szłam."
+    },
+    {
+      "prompt_en": "he came (on foot)",
+      "mode": "full_word",
+      "answer": "przyszedł",
+      "accepts": [
+        "przyszedł"
+      ]
+    },
+    {
+      "prompt_en": "she came (on foot)",
+      "mode": "full_word",
+      "answer": "przyszła",
+      "accepts": [
+        "przyszła"
+      ]
+    },
+    {
+      "prompt_en": "I went out (m)",
+      "mode": "full_word",
+      "answer": "wyszedłem",
+      "accepts": [
+        "wyszedłem"
+      ],
+      "explain": "wy- points out — same szedłem behind it, only the prefix changes the direction."
+    },
+    {
+      "prompt_en": "I went out (f)",
+      "mode": "full_word",
+      "answer": "wyszłam",
+      "accepts": [
+        "wyszłam"
+      ]
+    },
+    {
+      "prompt_en": "he went out",
+      "mode": "full_word",
+      "answer": "wyszedł",
+      "accepts": [
+        "wyszedł"
+      ]
+    },
+    {
+      "prompt_en": "she went out",
+      "mode": "full_word",
+      "answer": "wyszła",
+      "accepts": [
+        "wyszła"
+      ]
+    },
+    {
+      "prompt_en": "I arrived (m, by vehicle)",
+      "mode": "full_word",
+      "answer": "przyjechałem",
+      "accepts": [
+        "przyjechałem"
+      ],
+      "explain": "Regular -ać past, the mieszkał rule: przyjecha- + ł + em. No table to memorise on the vehicle side."
+    },
+    {
+      "prompt_en": "she arrived (by vehicle)",
+      "mode": "full_word",
+      "answer": "przyjechała",
+      "accepts": [
+        "przyjechała"
+      ]
+    },
+    {
+      "prompt_en": "I left (f, by vehicle)",
+      "mode": "full_word",
+      "answer": "wyjechałam",
+      "accepts": [
+        "wyjechałam"
+      ]
+    },
+    {
+      "prompt_en": "he left (by vehicle)",
+      "mode": "full_word",
+      "answer": "wyjechał",
+      "accepts": [
+        "wyjechał"
+      ]
+    },
+    {
+      "prompt_en": "I will come (on foot)",
+      "mode": "full_word",
+      "answer": "przyjdę",
+      "accepts": [
+        "przyjdę"
+      ],
+      "explain": "przy + idę, with the i turned into j. A present-shaped form on one of these verbs means the future — the kupię rule."
+    },
+    {
+      "prompt_en": "I will go out",
+      "mode": "full_word",
+      "answer": "wyjdę",
+      "accepts": [
+        "wyjdę"
+      ]
+    },
+    {
+      "prompt_en": "I will arrive (by vehicle)",
+      "mode": "full_word",
+      "answer": "przyjadę",
+      "accepts": [
+        "przyjadę"
+      ],
+      "explain": "Literally przy + jadę. The word you have said since Idę czy jadę?, pointed at tomorrow."
+    },
+    {
+      "prompt_en": "he / she will arrive (by vehicle)",
+      "mode": "full_word",
+      "answer": "przyjedzie",
+      "accepts": [
+        "przyjedzie"
+      ],
+      "explain": "The je- middle of the jechać table carries over: jedzie → przyjedzie. One form for he and for she — no gender in the future."
+    },
+    {
+      "prompt_en": "you will leave (by vehicle, sg)",
+      "mode": "full_word",
+      "answer": "wyjedziesz",
+      "accepts": [
+        "wyjedziesz"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad came home late. (on foot)",
+      "answer": "Tata przyszedł do domu późno.",
+      "accepts": [
+        "Tata przyszedł do domu późno.",
+        "Tata przyszedł do domu późno",
+        "Tata przyszedł późno do domu.",
+        "Tata przyszedł późno do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum left the house in the morning. (on foot)",
+      "answer": "Mama wyszła z domu rano.",
+      "accepts": [
+        "Mama wyszła z domu rano.",
+        "Mama wyszła z domu rano",
+        "Rano mama wyszła z domu.",
+        "Rano mama wyszła z domu"
+      ],
+      "explain": "wy- takes the starting point, and the starting point stands in the genitive after z: z domu — the from-phrase you have owned since A1."
+    },
+    {
+      "prompt_en": "Type: Yesterday I came to work early. (m, on foot)",
+      "answer": "Wczoraj przyszedłem do pracy wcześnie.",
+      "accepts": [
+        "Wczoraj przyszedłem do pracy wcześnie.",
+        "Wczoraj przyszedłem do pracy wcześnie",
+        "Przyszedłem wczoraj do pracy wcześnie.",
+        "Przyszedłem wczoraj do pracy wcześnie",
+        "Wczoraj wcześnie przyszedłem do pracy.",
+        "Wczoraj wcześnie przyszedłem do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna arrived in the city yesterday. (by vehicle)",
+      "answer": "Anna przyjechała do miasta wczoraj.",
+      "accepts": [
+        "Anna przyjechała do miasta wczoraj.",
+        "Anna przyjechała do miasta wczoraj",
+        "Wczoraj Anna przyjechała do miasta.",
+        "Wczoraj Anna przyjechała do miasta",
+        "Anna wczoraj przyjechała do miasta.",
+        "Anna wczoraj przyjechała do miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: I came to work by bus. (f)",
+      "answer": "Przyjechałam do pracy autobusem.",
+      "accepts": [
+        "Przyjechałam do pracy autobusem.",
+        "Przyjechałam do pracy autobusem",
+        "Autobusem przyjechałam do pracy.",
+        "Autobusem przyjechałam do pracy"
+      ],
+      "explain": "autobusem answers how, so the verb must be from the jechać family — przyjechałam, not przyszłam. Feet and a bus cannot share a sentence."
+    },
+    {
+      "prompt_en": "Type: My brother left the city last week. (by vehicle)",
+      "answer": "Mój brat wyjechał z miasta w zeszłym tygodniu.",
+      "accepts": [
+        "Mój brat wyjechał z miasta w zeszłym tygodniu.",
+        "Mój brat wyjechał z miasta w zeszłym tygodniu",
+        "W zeszłym tygodniu mój brat wyjechał z miasta.",
+        "W zeszłym tygodniu mój brat wyjechał z miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child came to school late. (on foot)",
+      "answer": "Dziecko przyszło do szkoły późno.",
+      "accepts": [
+        "Dziecko przyszło do szkoły późno.",
+        "Dziecko przyszło do szkoły późno"
+      ],
+      "explain": "dziecko is neuter, so the -o ending on the short sz- shape: przyszło — the same -o as szło and było."
+    },
+    {
+      "prompt_en": "Type: The train will arrive at two.",
+      "answer": "Pociąg przyjedzie o drugiej.",
+      "accepts": [
+        "Pociąg przyjedzie o drugiej.",
+        "Pociąg przyjedzie o drugiej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Grandma will arrive at the weekend. (by car)",
+      "answer": "Babcia przyjedzie w weekend.",
+      "accepts": [
+        "Babcia przyjedzie w weekend.",
+        "Babcia przyjedzie w weekend",
+        "W weekend babcia przyjedzie.",
+        "W weekend babcia przyjedzie"
+      ],
+      "explain": "przyjedzie for babcia and przyjedzie for dziadek — the future keeps no gender, so the subject costs you nothing here."
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will leave the office early. (on foot)",
+      "answer": "Jutro wyjdę z biura wcześnie.",
+      "accepts": [
+        "Jutro wyjdę z biura wcześnie.",
+        "Jutro wyjdę z biura wcześnie",
+        "Jutro wcześnie wyjdę z biura.",
+        "Jutro wcześnie wyjdę z biura",
+        "Wyjdę z biura wcześnie jutro.",
+        "Wyjdę z biura wcześnie jutro"
+      ]
+    },
+    {
+      "prompt_en": "Type: When will you come to the office? (on foot)",
+      "answer": "Kiedy przyjdziesz do biura?",
+      "accepts": [
+        "Kiedy przyjdziesz do biura?",
+        "Kiedy przyjdziesz do biura"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "wyjść",
+    "przyjechać",
+    "wyjechać",
+    "przyszedłem",
+    "przyszłam",
+    "przyszedłeś",
+    "przyszłaś",
+    "przyszedł",
+    "przyszła",
+    "przyszło",
+    "wyszedłem",
+    "wyszłam",
+    "wyszedłeś",
+    "wyszłaś",
+    "wyszedł",
+    "wyszła",
+    "wyszło",
+    "przyjechałem",
+    "przyjechałam",
+    "przyjechałeś",
+    "przyjechałaś",
+    "przyjechał",
+    "przyjechała",
+    "przyjechało",
+    "wyjechałem",
+    "wyjechałam",
+    "wyjechałeś",
+    "wyjechałaś",
+    "wyjechał",
+    "wyjechała",
+    "wyjechało",
+    "przyjdę",
+    "przyjdziesz",
+    "przyjdzie",
+    "wyjdę",
+    "wyjdziesz",
+    "wyjdzie",
+    "przyjadę",
+    "przyjedziesz",
+    "przyjedzie",
+    "wyjadę",
+    "wyjedziesz",
+    "wyjedzie"
+  ],
+  "uses_lemmas": [
+    "przyjść",
+    "iść",
+    "idę",
+    "idziesz",
+    "idzie",
+    "jechać",
+    "jadę",
+    "jedziesz",
+    "jedzie",
+    "szedłem",
+    "szłam",
+    "szedłeś",
+    "szłaś",
+    "szedł",
+    "szła",
+    "szło",
+    "mieszkał",
+    "kupić",
+    "kupię",
+    "kupiłem",
+    "piję",
+    "wypiję",
+    "mogę",
+    "jutro",
+    "wczoraj",
+    "rano",
+    "późno",
+    "wcześnie",
+    "kiedy",
+    "w weekend",
+    "w zeszłym tygodniu",
+    "o drugiej",
+    "tata",
+    "mama",
+    "anna",
+    "babcia",
+    "dziadek",
+    "brat",
+    "dziecko",
+    "mój",
+    "pociąg",
+    "pociągiem",
+    "autobusem",
+    "do domu",
+    "do pracy",
+    "do miasta",
+    "do szkoły",
+    "do biura",
+    "z domu",
+    "z pracy",
+    "z miasta",
+    "z biura",
+    "ze sklepu"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_arrive_leave",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,492 @@
+{
+ "id": "b2_conjunctions",
+ "title": "Ale, a, więc",
+ "title_en": "Joining sentences · but, and, so",
+ "level": "B2",
+ "tree_node": "b2_conjunctions",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 1, unit 1 — first unit of the level, placed first on the spine's O14 reasoning: it costs zero grammar and every B2 example sentence written after it is better for it. Three separate B1 packs (b1_imperative_rule, b1_opinions, b1_virile_nom) each record catching ale / a / też leaking into a draft and having to rewrite around a word the course had simply never taught.\n\nSEVEN new words, all invariable — they never change shape, so there is no morphology anywhere in this unit. Four joiners (ale, a, więc, albo) and three in-sentence particles (też, już, jeszcze). All seven confirmed NEW via check_new.py before a line was written.\n\nTHE ONE TEACHING POINT is i / a / ale, given its own intro slide and its own table. English collapses all three into 'and' or 'but'; Polish splits them by how the two halves relate — i adds more of the same, a sets two different things side by side with no argument between them, ale says the second half goes against the first. Taught as a table with three worked examples, not derived.\n\nANCHORS, recycled and never re-taught: i (a2_past_plural) and bo (a2_questions2) both already owned. bo is used deliberately as a quiz distractor against więc, since the two point in opposite directions from the same pair of clauses (Idę do domu, bo jestem zmęczony / Jestem zmęczony, więc idę do domu) — that contrast is stated in an explain string rather than drilled as a separate item.\n\nSCOPE CUTS, both logged, both conservative:\n1. dlatego is NOT taught here, even though the spine's O14 discussion lists it among the verified-NEW candidates (the spine's own Block 1 table omits it, and this pack follows the table). Reason: dlatego's everyday partner is dlatego że, and dlatego że is explicitly on B2-SPINE's C1 hand-over list (item 23, complex subordination). Teaching the bare adverb here would leave a half-taught pair pointing at a fenced construction.\n2. The NEGATIVE-POLARITY uses of już and jeszcze are fenced completely — już nie ('not any more') and jeszcze nie ('not yet') appear nowhere in this pack, not in a slide, not as a distractor. już is taught as 'already' only and jeszcze as 'still' only. Both negative readings flip the word's meaning rather than extending it, which is a second fact per word; deferred.\n\nEvery Polish string in every stage was re-checked against the taught pool via check_new.py, including quiz distractors — the whole distractor set for this unit is the closed nine-word set i / bo / ale / a / więc / albo / też / już / jeszcze, so every wrong choice the learner sees is real Polish in the wrong slot, never a fabricated non-word.",
+ "focus_structures": [
+  "conjunctions"
+ ],
+ "teaches_structures": [
+  "conjunctions"
+ ],
+ "uses_structures": [
+  "conjunctions",
+  "byc_present",
+  "byc_adj",
+  "miec_present",
+  "miec_acc",
+  "negation",
+  "gen_endings",
+  "present_e_esz",
+  "present_uje",
+  "prep_w_loc",
+  "prep_do_gen",
+  "motion_chunk"
+ ],
+ "intro": [
+  {
+   "title": "Two joining words you already have — and four more",
+   "title_pl": "Ale, a, więc, albo",
+   "body": "You have been joining sentences with i (and) and bo (because) since A2. Polish has four more everyday joiners. None of them ever changes shape: they are the same word in every sentence, for every person and every gender.",
+   "body_pl": "i · bo · ale · a · więc · albo",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "What it does"
+    ],
+    "rows": [
+     [
+      "i",
+      "and",
+      "adds a second thing (you already have this)"
+     ],
+     [
+      "bo",
+      "because",
+      "gives the reason (you already have this)"
+     ],
+     [
+      "ale",
+      "but",
+      "the second half goes against the first"
+     ],
+     [
+      "a",
+      "and, whereas",
+      "two different things side by side — no contradiction"
+     ],
+     [
+      "więc",
+      "so, therefore",
+      "the second half is the result of the first"
+     ],
+     [
+      "albo",
+      "or",
+      "a choice between two"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "I have coffee, but I don't have tea.",
+     "pl": "Mam kawę, ale nie mam herbaty."
+    },
+    {
+     "en": "I'm tired, so I'm going home.",
+     "pl": "Jestem zmęczony, więc idę do domu."
+    },
+    {
+     "en": "I drink coffee or tea.",
+     "pl": "Piję kawę albo herbatę."
+    }
+   ]
+  },
+  {
+   "title": "The one thing to get right: i, a, ale",
+   "title_pl": "i · a · ale",
+   "body": "English uses \"and\" or \"but\" for all three of these, so the split has to be learned. It depends on how the two halves relate to each other, not on the words themselves.",
+   "body_pl": "Mam kawę i herbatę. · Mama pracuje, a tata gotuje. · Mama pracuje, ale jest zmęczona.",
+   "table": {
+    "headers": [
+     "Polish",
+     "When you use it",
+     "Example"
+    ],
+    "rows": [
+     [
+      "i",
+      "more of the same — the two halves point the same way",
+      "Mam kawę i herbatę."
+     ],
+     [
+      "a",
+      "two different things, side by side — nothing is being contradicted",
+      "Mama pracuje, a tata gotuje."
+     ],
+     [
+      "ale",
+      "the second half goes against the first",
+      "Mama pracuje, ale jest zmęczona."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Three small words that sit inside the sentence",
+   "title_pl": "też · już · jeszcze",
+   "body": "These three are not joiners. They sit inside one sentence, usually just before the verb, and they never change shape either. też adds \"as well\"; już says the thing has happened by now; jeszcze says it is carrying on.",
+   "body_pl": "Tata też pracuje. · Mama już jest w domu. · Tata jeszcze pracuje.",
+   "table": {
+    "headers": [
+     "Polish",
+     "English",
+     "Example"
+    ],
+    "rows": [
+     [
+      "też",
+      "too, as well",
+      "Mama pracuje. Tata też pracuje."
+     ],
+     [
+      "już",
+      "already",
+      "Mama już jest w domu."
+     ],
+     [
+      "jeszcze",
+      "still",
+      "Tata jeszcze pracuje."
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "but",
+   "pl": "ale"
+  },
+  {
+   "en": "and, whereas (two different things side by side)",
+   "pl": "a"
+  },
+  {
+   "en": "so, therefore",
+   "pl": "więc"
+  },
+  {
+   "en": "or",
+   "pl": "albo"
+  },
+  {
+   "en": "too, as well",
+   "pl": "też"
+  },
+  {
+   "en": "already",
+   "pl": "już"
+  },
+  {
+   "en": "still",
+   "pl": "jeszcze"
+  },
+  {
+   "en": "I have coffee, but I don't have tea.",
+   "pl": "Mam kawę, ale nie mam herbaty."
+  },
+  {
+   "en": "Mum is working and Dad is cooking.",
+   "pl": "Mama pracuje, a tata gotuje."
+  },
+  {
+   "en": "I'm tired (m), so I'm going home.",
+   "pl": "Jestem zmęczony, więc idę do domu."
+  },
+  {
+   "en": "I drink coffee or tea.",
+   "pl": "Piję kawę albo herbatę."
+  },
+  {
+   "en": "Dad is still working.",
+   "pl": "Tata jeszcze pracuje."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Mam kawę, ___ nie mam herbaty. (but)",
+   "choices": [
+    "ale",
+    "a",
+    "więc",
+    "albo"
+   ],
+   "answer": "ale",
+   "explain": "Having coffee sets you up to expect tea as well — the second half cancels that. A real contradiction takes ale."
+  },
+  {
+   "prompt": "Mama pracuje, ___ tata gotuje. (and — two different things)",
+   "choices": [
+    "a",
+    "ale",
+    "bo",
+    "już"
+   ],
+   "answer": "a",
+   "explain": "Nothing here contradicts anything: two people, two different jobs, side by side. That is a's job. ale would claim the cooking argues against the working."
+  },
+  {
+   "prompt": "Jestem zmęczony, ___ idę do domu. (so)",
+   "choices": [
+    "więc",
+    "bo",
+    "ale",
+    "albo"
+   ],
+   "answer": "więc",
+   "explain": "więc points forwards to the result. bo points backwards to the reason, so the same two halves swap round with bo: Idę do domu, bo jestem zmęczony."
+  },
+  {
+   "prompt": "Piję kawę ___ herbatę. (or)",
+   "choices": [
+    "albo",
+    "i",
+    "też",
+    "a"
+   ],
+   "answer": "albo",
+   "explain": "albo offers a choice between the two. i would mean you drink both."
+  },
+  {
+   "prompt": "Mama pracuje. Tata ___ pracuje. (too)",
+   "choices": [
+    "też",
+    "już",
+    "jeszcze",
+    "albo"
+   ],
+   "answer": "też",
+   "explain": "też adds Dad to what was just said about Mum. It sits inside the second sentence, not between the two."
+  },
+  {
+   "prompt": "Mama ___ jest w domu. (already)",
+   "choices": [
+    "już",
+    "jeszcze",
+    "też",
+    "więc"
+   ],
+   "answer": "już",
+   "explain": "już means it has happened by now — she is home earlier than you expected."
+  },
+  {
+   "prompt": "Tata ___ pracuje. (still — he has not finished)",
+   "choices": [
+    "jeszcze",
+    "już",
+    "też",
+    "ale"
+   ],
+   "answer": "jeszcze",
+   "explain": "jeszcze means it is carrying on. już would say the opposite kind of thing — that it is done by now."
+  },
+  {
+   "prompt": "I have coffee, but I don't have tea. →",
+   "choices": [
+    "Mam kawę, ale nie mam herbaty.",
+    "Mam kawę, a nie mam herbaty.",
+    "Mam kawę, więc nie mam herbaty.",
+    "Mam kawę, bo nie mam herbaty."
+   ],
+   "answer": "Mam kawę, ale nie mam herbaty.",
+   "explain": "Only ale carries the contradiction. więc would make the missing tea a result of the coffee, and bo would make it the reason for it."
+  },
+  {
+   "prompt": "Mum is working and Dad is cooking. →",
+   "choices": [
+    "Mama pracuje, a tata gotuje.",
+    "Mama pracuje, ale tata gotuje.",
+    "Mama pracuje, więc tata gotuje.",
+    "Mama pracuje, albo tata gotuje."
+   ],
+   "answer": "Mama pracuje, a tata gotuje.",
+   "explain": "Two people doing two different things, with no argument between them — that is exactly what a is for."
+  },
+  {
+   "prompt": "I'm tired (m), so I'm going home. →",
+   "choices": [
+    "Jestem zmęczony, więc idę do domu.",
+    "Jestem zmęczony, bo idę do domu.",
+    "Jestem zmęczony, ale idę do domu.",
+    "Jestem zmęczony, albo idę do domu."
+   ],
+   "answer": "Jestem zmęczony, więc idę do domu.",
+   "explain": "Going home is the result of being tired, so the joiner is więc. With bo the sentence would claim you are tired because you are going home."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "but (the second half goes against the first)",
+   "mode": "full_word",
+   "answer": "ale",
+   "accepts": [
+    "ale"
+   ]
+  },
+  {
+   "prompt_en": "and, whereas (two different things side by side)",
+   "mode": "full_word",
+   "answer": "a",
+   "accepts": [
+    "a"
+   ],
+   "explain": "One letter, and it is not the same word as i. i adds more of the same; a sets two different things next to each other."
+  },
+  {
+   "prompt_en": "so, therefore",
+   "mode": "full_word",
+   "answer": "więc",
+   "accepts": [
+    "więc"
+   ]
+  },
+  {
+   "prompt_en": "or",
+   "mode": "full_word",
+   "answer": "albo",
+   "accepts": [
+    "albo"
+   ]
+  },
+  {
+   "prompt_en": "too, as well",
+   "mode": "full_word",
+   "answer": "też",
+   "accepts": [
+    "też"
+   ]
+  },
+  {
+   "prompt_en": "already",
+   "mode": "full_word",
+   "answer": "już",
+   "accepts": [
+    "już"
+   ]
+  },
+  {
+   "prompt_en": "still",
+   "mode": "full_word",
+   "answer": "jeszcze",
+   "accepts": [
+    "jeszcze"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: I have coffee, but I don't have tea.",
+   "answer": "Mam kawę, ale nie mam herbaty.",
+   "accepts": [
+    "Mam kawę, ale nie mam herbaty.",
+    "Mam kawę, ale nie mam herbaty"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is working and Dad is cooking.",
+   "answer": "Mama pracuje, a tata gotuje.",
+   "accepts": [
+    "Mama pracuje, a tata gotuje.",
+    "Mama pracuje, a tata gotuje"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is working, but she is tired.",
+   "answer": "Mama pracuje, ale jest zmęczona.",
+   "accepts": [
+    "Mama pracuje, ale jest zmęczona.",
+    "Mama pracuje, ale jest zmęczona"
+   ],
+   "explain": "Same two halves, opposite joiner from the sentence above: being tired argues against working, so ale — not a."
+  },
+  {
+   "prompt_en": "Type: I'm tired (m), so I'm going home.",
+   "answer": "Jestem zmęczony, więc idę do domu.",
+   "accepts": [
+    "Jestem zmęczony, więc idę do domu.",
+    "Jestem zmęczony, więc idę do domu"
+   ]
+  },
+  {
+   "prompt_en": "Type: I'm tired (f), so I'm going home.",
+   "answer": "Jestem zmęczona, więc idę do domu.",
+   "accepts": [
+    "Jestem zmęczona, więc idę do domu.",
+    "Jestem zmęczona, więc idę do domu"
+   ],
+   "explain": "The joiner never changes for gender — only the adjective does. więc is the same word in every sentence."
+  },
+  {
+   "prompt_en": "Type: I drink coffee or tea.",
+   "answer": "Piję kawę albo herbatę.",
+   "accepts": [
+    "Piję kawę albo herbatę.",
+    "Piję kawę albo herbatę"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is working. Dad is working too.",
+   "answer": "Mama pracuje. Tata też pracuje.",
+   "accepts": [
+    "Mama pracuje. Tata też pracuje.",
+    "Mama pracuje. Tata też pracuje"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum is already at home.",
+   "answer": "Mama już jest w domu.",
+   "accepts": [
+    "Mama już jest w domu.",
+    "Mama już jest w domu"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad is still working.",
+   "answer": "Tata jeszcze pracuje.",
+   "accepts": [
+    "Tata jeszcze pracuje.",
+    "Tata jeszcze pracuje"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "ale",
+  "a",
+  "więc",
+  "albo",
+  "też",
+  "już",
+  "jeszcze"
+ ],
+ "uses_lemmas": [
+  "i",
+  "bo",
+  "mam",
+  "kawę",
+  "herbaty",
+  "herbatę",
+  "mama",
+  "tata",
+  "pracuje",
+  "gotuje",
+  "jestem",
+  "jest",
+  "zmęczony",
+  "zmęczona",
+  "idę",
+  "piję",
+  "do domu",
+  "w domu"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_conjunctions",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

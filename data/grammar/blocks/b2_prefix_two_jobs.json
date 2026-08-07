@@ -1,0 +1,611 @@
+{
+  "id": "b2_prefix_two_jobs",
+  "title": "Wypić czy wyjść?",
+  "title_en": "The same prefix, two different jobs",
+  "level": "B2",
+  "tree_node": "b2_prefix_two_jobs",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 6a, unit 3 (spine, JAMES-LOCKED decision #3). REGISTER: authored to James's 2026-08-06 learner-model ruling — the intro names the real categories (prefix, aspect, perfective, imperfective, derivation) rather than the 'front piece / two jobs' framing the earlier prefix units use, and the Polish metalanguage in the slide pl lines (przedrostek, aspekt dokonany, czasownik) is the set already live in a2_aspect and b2_aspect_prefixes. NOTE FOR THE INTRO-REGISTER SWEEP: b2_prefix_lens and b2_motion_imperf one and two nodes back still speak of a 'front piece' and of 'twins', so this unit is currently the odd one out in its own strand until that sweep reaches them — the terminology here is the target, not a local choice. ZERO NEW MATERIAL — teaches_lemmas is empty and every Polish form in the pack is recycled; the unit teaches a DISCRIMINATION, which is why it still declares a structure (prefix_two_jobs) rather than nothing at all: an empty teaches_structures AND teaches_lemmas is what raises the teaches_empty_grammar warn on a2_prep_review and b1_two_futures, and b2_prefix_lens's live precedent is to name the structure and leave the lemma list empty.\n\nTHE LANDING LINE THE SPINE DEMANDS is slide 4's, stated in those words: same machinery, two jobs, and you learn which job it is FROM THE PAIR, not from the front piece. It is carried by the wypić/wyjść minimal pair — the same wy- doing the completive job on one verb and the spatial job on the other — which is also the unit's title. That pair is the handoff b2_prefix_lens set up deliberately: that pack excluded wypić from its lens entirely and its note says so, because its wy- is completive rather than spatial and drilling it there would have taught a false meaning.\n\nTITLE CORRECTED from the planned 'Przedrostki · dwie prace', on exactly the b2_prefix_lens precedent: przedrostki is untaught Polish and prace is not owned either (praca/pracy are), and the AGENTS title rule forbids untaught Polish in learner-visible chrome. Retitled to the house pattern on the 'Idę czy jadę?' / 'Wyjść czy przyjść?' model, using two verbs the learner owns. The tree node's label/label_en were updated to match. przedrostek survives only in a body_pl line, the one lane AGENTS allows untaught metalanguage in, as b2_aspect_prefixes and b2_prefix_lens already use it.\n\nb1_two_futures IDIOM, as the spine names it: full ladder (match, quiz, Pisanie, Użycie) rather than b2_prefix_lens's receptive-only shape. Production here is always CHOOSING between two forms the course already taught — never building a prefixed verb — which is the same thing b1_two_futures does with kupię / będę kupować. Pisanie is twelve single-word forms, so the ≤3-word cap is met by construction and no cloze is needed.\n\nNO META-QUESTIONS IN KONTROLA. The spine phrases the task as 'which job is the prefix doing?', which asked literally would be a question ABOUT the language and is banned. Every quiz item is a real form in a real sentence instead, with the job-1 and job-2 candidates sitting side by side as choices; items 7 and 8 are form-choice items on the b2_aspect_prefixes quiz-10 precedent (which taught form is pić's finished half), not metalanguage.\n\nFENCED, and the sharpest call in the unit: pójść and pojechać are NOT used anywhere. po- on iść is aspectual — pójść is iść's perfective, not a directional verb — so it is a case of the same prefix doing job one on a MOTION verb, which is a genuine third fact and would blur the two-way split this unit exists to draw. Logged for C1. Also fenced: any formation rule (b2_aspect_prefixes' 'the piece on the front is unpredictable, learn the pair whole' is restated on slide 3 instead), and za-/po-/prze- as readable prefixes, held to b2_prefix_lens's one-line no-promise treatment.\n\nPOOL CATCH worth recording: pisała was drafted as a quiz distractor and REJECTED — b2_aspect_prefixes teaches pisać's past in the first person only (pisałem/pisałam), so the third person is not owned. The item was rebuilt in the first person (napisałem / pisałem). Every Polish token in the pack was checked against the position-aware pool by script, not by eye.\n\nSlide 5 is the one piece of joined-up thinking rather than drill: job two makes a new verb, and job one then gives that new verb its own twin (przyjść → przychodzić), which is why the secondary imperfectives from b2_motion_imperf two nodes back exist at all. It adds no material.",
+  "focus_structures": [
+    "prefix_two_jobs"
+  ],
+  "teaches_structures": [
+    "prefix_two_jobs"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "prefix_two_jobs",
+    "aspect_prefixes",
+    "prefix_lens",
+    "motion_prefixed",
+    "motion_prefixed2",
+    "motion_imperf",
+    "perf_future",
+    "aspect_past",
+    "past_isc",
+    "past_ac",
+    "present",
+    "bedzie",
+    "prep_z_gen",
+    "prep_do_gen",
+    "ordinals_time",
+    "conjunctions",
+    "dative_sg",
+    "plural_nom"
+  ],
+  "intro": [
+    {
+      "title": "A prefix, and the two different jobs it can do",
+      "title_pl": "pić → wypić · iść → przyjść",
+      "body": "A prefix is the piece on the front of a verb — the wy- in wyjść, the z- in zrobić. You own a great many verbs that carry one, and last unit you learned to read four of them.\n\nThis unit exists for the complication that follows. A prefix does not always do the same kind of work.\n\nSometimes it changes the verb's aspect and nothing else: pić is imperfective, wypić is its perfective. Same activity, now viewed as complete.\n\nSometimes it derives a different verb altogether: iść is to go, przyjść is to arrive. That is not \"iść, completed\" — it is a new verb with a meaning of its own.",
+      "body_pl": "Przedrostek: aspekt albo nowy czasownik."
+    },
+    {
+      "title": "First job — the prefix marks the perfective",
+      "title_pl": "Aspekt dokonany",
+      "body": "These are the aspect pairs you have been collecting since A2, extended two units ago. In each pair the prefix contributes no meaning of its own: it marks the perfective — the same activity, now viewed as complete.\n\nWhich prefix a verb takes is not predictable. pisać takes na-, gotować takes u-, jeść takes z-, and there is nothing to work out. The A2 rule stands: learn the pair whole, and never build the perfective out of the imperfective.\n\nOne consequence you already know: a perfective verb has no present tense, so its present-shaped forms are future. Zrobię obiad is I will make dinner.",
+      "body_pl": "Przedrostek: tylko aspekt dokonany.",
+      "table": {
+        "headers": [
+          "imperfective",
+          "perfective",
+          "what the prefix contributes"
+        ],
+        "rows": [
+          [
+            "pić",
+            "wypić",
+            "aspect only — the drinking is complete"
+          ],
+          [
+            "robić",
+            "zrobić",
+            "aspect only — the making is complete"
+          ],
+          [
+            "czytać",
+            "przeczytać",
+            "aspect only — read to the end"
+          ],
+          [
+            "pisać",
+            "napisać",
+            "aspect only — written to the end"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Second job — the prefix derives a new verb",
+      "title_pl": "Nowy czasownik",
+      "body": "Here the prefix does carry meaning, and what comes out is a different verb with its own dictionary entry. przyjść is not \"iść, completed\" — it is to arrive, which is a separate thing to say.\n\nThese are the verbs last unit's reading lens was built for.",
+      "body_pl": "iść → przyjść · wyjść · dojść · dawać → oddawać",
+      "table": {
+        "headers": [
+          "the verb underneath",
+          "with a prefix",
+          "the new verb means"
+        ],
+        "rows": [
+          [
+            "iść — to go, on foot",
+            "przyjść",
+            "to come, to arrive"
+          ],
+          [
+            "iść",
+            "wyjść",
+            "to go out, to leave"
+          ],
+          [
+            "iść",
+            "dojść",
+            "to get all the way there"
+          ],
+          [
+            "dawać — to give",
+            "oddawać",
+            "to give back"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same prefix doing both — wypić and wyjść",
+      "title_pl": "wy- → wypić · wy- → wyjść",
+      "body": "This is why the job cannot be read off the prefix itself. wy- sits on both of these verbs and is doing something different in each.\n\nwypić — wy- marks aspect. The verb still means to drink; it is now perfective.\nwyjść — wy- carries meaning. The verb does not mean \"to go, completed\"; it means to go out.\n\nSame prefix, same machinery, two jobs. So you take the job from the pair itself, not from the prefix: when you meet a new pair, learn what the second verb means rather than deducing it.",
+      "body_pl": "wypić · wyjść",
+      "examples": [
+        {
+          "pl": "Tata wypił piwo.",
+          "en": "Dad drank the beer up."
+        },
+        {
+          "pl": "Tata wyszedł z biura.",
+          "en": "Dad went out of the office."
+        }
+      ]
+    },
+    {
+      "title": "A derived verb needs an aspect partner of its own",
+      "title_pl": "przyjść → przychodzę",
+      "body": "One last point, and it joins the two jobs rather than adding to them.\n\nOnce przyjść exists as a verb in its own right, it needs an aspect partner like any other verb — and that is what przychodzić is, which you met two units ago. przyjść is the perfective; przychodzić is the imperfective.\n\nSo the second job derives the verb, and the first job then supplies its pair. There is nothing new to learn here: this is why those words exist.",
+      "body_pl": "wyjść → wychodzę · przyjść → przychodzę",
+      "table": {
+        "headers": [
+          "perfective",
+          "imperfective",
+          "the imperfective says"
+        ],
+        "rows": [
+          [
+            "wyjść",
+            "wychodzę",
+            "I go out (every day)"
+          ],
+          [
+            "przyjść",
+            "przychodzę",
+            "I come, I arrive (every day)"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "to drink",
+      "pl": "pić"
+    },
+    {
+      "en": "to drink it up, to finish it",
+      "pl": "wypić"
+    },
+    {
+      "en": "to do, to make",
+      "pl": "robić"
+    },
+    {
+      "en": "to get it done",
+      "pl": "zrobić"
+    },
+    {
+      "en": "to read",
+      "pl": "czytać"
+    },
+    {
+      "en": "to read it right through",
+      "pl": "przeczytać"
+    },
+    {
+      "en": "to go (on foot)",
+      "pl": "iść"
+    },
+    {
+      "en": "to come, to arrive (on foot)",
+      "pl": "przyjść"
+    },
+    {
+      "en": "to go out, to leave (on foot)",
+      "pl": "wyjść"
+    },
+    {
+      "en": "to get all the way there (on foot)",
+      "pl": "dojść"
+    },
+    {
+      "en": "to give",
+      "pl": "dawać"
+    },
+    {
+      "en": "to give back",
+      "pl": "oddawać"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ piwo. (Dad drank the beer up — finished it)",
+      "choices": [
+        "wypił",
+        "pił",
+        "wyszedł",
+        "przyszedł"
+      ],
+      "answer": "wypił",
+      "explain": "On pić, wy- marks aspect rather than direction — the beer is not going anywhere. wypił says the drinking is complete."
+    },
+    {
+      "prompt": "Tata ___ z biura o piątej. (went out of the office)",
+      "choices": [
+        "wyszedł",
+        "wypił",
+        "zrobił",
+        "przeczytał"
+      ],
+      "answer": "wyszedł",
+      "explain": "The same wy- as in wypił, doing the other job: here it carries meaning, and the verb is to go out — away from the office."
+    },
+    {
+      "prompt": "Mama ___ obiad. (made the dinner — it is ready)",
+      "choices": [
+        "zrobiła",
+        "robiła",
+        "wyszła",
+        "przyszła"
+      ],
+      "answer": "zrobiła",
+      "explain": "z- contributes no meaning to robić, only perfective aspect: the dinner is made. The imperfective robiła leaves it in progress."
+    },
+    {
+      "prompt": "Mama ___ do domu o szóstej. (came home, on foot)",
+      "choices": [
+        "przyszła",
+        "zrobiła",
+        "wypiła",
+        "przeczytała"
+      ],
+      "answer": "przyszła",
+      "explain": "przy- derives a different verb from iść — to arrive. It is not iść viewed as complete."
+    },
+    {
+      "prompt": "Wczoraj ___ list. (I wrote the letter — finished it, m)",
+      "choices": [
+        "napisałem",
+        "pisałem",
+        "przyszedłem",
+        "wyszedłem"
+      ],
+      "answer": "napisałem",
+      "explain": "na- adds no meaning to pisać, only perfective aspect: the letter is written. The imperfective pisałem leaves it unfinished."
+    },
+    {
+      "prompt": "Zawsze ___ klucz mamie. (I give the key back)",
+      "choices": [
+        "oddaję",
+        "daję",
+        "przychodzę",
+        "wychodzę"
+      ],
+      "answer": "oddaję",
+      "explain": "od- derives a new verb. Giving something back is not the same act as giving it — daję would just be handing it over."
+    },
+    {
+      "prompt": "pić → ___ (the twin that means the drinking is finished)",
+      "choices": [
+        "wypić",
+        "wyjść",
+        "wyjechać",
+        "wychodzić"
+      ],
+      "answer": "wypić",
+      "explain": "All four begin with wy-. Only in wypić is that wy- marking aspect; in the other three it carries meaning — out."
+    },
+    {
+      "prompt": "iść → ___ (a different verb: to go out, to leave)",
+      "choices": [
+        "wyjść",
+        "wypić",
+        "zrobić",
+        "przeczytać"
+      ],
+      "answer": "wyjść",
+      "explain": "Here wy- derives a new verb from iść. Compare wypić, where the very same wy- only marks the perfective."
+    },
+    {
+      "prompt": "W końcu ___ do banku. (I finally got all the way there, m)",
+      "choices": [
+        "doszedłem",
+        "wyszedłem",
+        "wypiłem",
+        "zrobiłem"
+      ],
+      "answer": "doszedłem",
+      "explain": "do- derives a new verb — reaching the place. w końcu is telling you it took some getting to."
+    },
+    {
+      "prompt": "Jutro ___ zupę. (I will make the soup — one finished job)",
+      "choices": [
+        "zrobię",
+        "robię",
+        "będę robić",
+        "wyjdę"
+      ],
+      "answer": "zrobię",
+      "explain": "A perfective verb has no present tense, so this present-shaped form is future: zrobię is I will make it. The imperfective robię is I am making it, right now."
+    },
+    {
+      "prompt": "Jutro ___ z domu o ósmej. (I will leave the house)",
+      "choices": [
+        "wyjdę",
+        "wypiję",
+        "zrobię",
+        "przyjdę"
+      ],
+      "answer": "wyjdę",
+      "explain": "wyjść is perfective, so wyjdę is its future. The same wy- as in wypiję, still doing the other job — out of the house."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to drink it up, to finish it",
+      "mode": "full_word",
+      "answer": "wypić",
+      "accepts": [
+        "wypić"
+      ],
+      "explain": "The perfective of pić — the same drinking, now viewed as complete."
+    },
+    {
+      "prompt_en": "to go out, to leave (on foot)",
+      "mode": "full_word",
+      "answer": "wyjść",
+      "accepts": [
+        "wyjść"
+      ],
+      "explain": "The same wy-, doing the other job: it derives a new verb meaning to go out."
+    },
+    {
+      "prompt_en": "to get it done",
+      "mode": "full_word",
+      "answer": "zrobić",
+      "accepts": [
+        "zrobić"
+      ]
+    },
+    {
+      "prompt_en": "to come, to arrive (on foot)",
+      "mode": "full_word",
+      "answer": "przyjść",
+      "accepts": [
+        "przyjść"
+      ],
+      "explain": "A verb derived from iść, not iść viewed as complete."
+    },
+    {
+      "prompt_en": "to give back",
+      "mode": "full_word",
+      "answer": "oddawać",
+      "accepts": [
+        "oddawać"
+      ]
+    },
+    {
+      "prompt_en": "to read it right through",
+      "mode": "full_word",
+      "answer": "przeczytać",
+      "accepts": [
+        "przeczytać"
+      ]
+    },
+    {
+      "prompt_en": "to get all the way there (on foot)",
+      "mode": "full_word",
+      "answer": "dojść",
+      "accepts": [
+        "dojść"
+      ]
+    },
+    {
+      "prompt_en": "I will get it done",
+      "mode": "full_word",
+      "answer": "zrobię",
+      "accepts": [
+        "zrobię"
+      ],
+      "explain": "A perfective verb has no present, so this present-shaped form is a future."
+    },
+    {
+      "prompt_en": "I will leave, I will go out (on foot)",
+      "mode": "full_word",
+      "answer": "wyjdę",
+      "accepts": [
+        "wyjdę"
+      ]
+    },
+    {
+      "prompt_en": "I will drink it up",
+      "mode": "full_word",
+      "answer": "wypiję",
+      "accepts": [
+        "wypiję"
+      ]
+    },
+    {
+      "prompt_en": "I will come, I will arrive (on foot)",
+      "mode": "full_word",
+      "answer": "przyjdę",
+      "accepts": [
+        "przyjdę"
+      ]
+    },
+    {
+      "prompt_en": "I give back (every time)",
+      "mode": "full_word",
+      "answer": "oddaję",
+      "accepts": [
+        "oddaję"
+      ],
+      "explain": "oddawać is the imperfective, so its present really is a present."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad drank the beer up.",
+      "answer": "Tata wypił piwo.",
+      "accepts": [
+        "Tata wypił piwo.",
+        "Tata wypił piwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum made the dinner.",
+      "answer": "Mama zrobiła obiad.",
+      "accepts": [
+        "Mama zrobiła obiad.",
+        "Mama zrobiła obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad left the office at five.",
+      "answer": "Tata wyszedł z biura o piątej.",
+      "accepts": [
+        "Tata wyszedł z biura o piątej.",
+        "Tata wyszedł z biura o piątej"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum came home at six.",
+      "answer": "Mama przyszła do domu o szóstej.",
+      "accepts": [
+        "Mama przyszła do domu o szóstej.",
+        "Mama przyszła do domu o szóstej"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother gives the key back to Mum.",
+      "answer": "Brat oddaje klucz mamie.",
+      "accepts": [
+        "Brat oddaje klucz mamie.",
+        "Brat oddaje klucz mamie"
+      ],
+      "explain": "oddawać is the imperfective, so a habit takes its present: oddaje."
+    },
+    {
+      "prompt_en": "Type: My sister read the book right through.",
+      "answer": "Siostra przeczytała książkę.",
+      "accepts": [
+        "Siostra przeczytała książkę.",
+        "Siostra przeczytała książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will make the soup.",
+      "answer": "Jutro zrobię zupę.",
+      "accepts": [
+        "Jutro zrobię zupę.",
+        "Jutro zrobię zupę"
+      ],
+      "explain": "zrobię is present-shaped and future in meaning — a perfective verb has no present."
+    },
+    {
+      "prompt_en": "Type: The children will drink the milk up.",
+      "answer": "Dzieci wypiją mleko.",
+      "accepts": [
+        "Dzieci wypiją mleko.",
+        "Dzieci wypiją mleko"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad drank his coffee up and went out.",
+      "answer": "Tata wypił kawę i wyszedł.",
+      "accepts": [
+        "Tata wypił kawę i wyszedł.",
+        "Tata wypił kawę i wyszedł"
+      ],
+      "explain": "Both jobs in one sentence: in wypił, wy- marks the perfective; in wyszedł it derives the verb meaning to go out."
+    },
+    {
+      "prompt_en": "Type: I finally got all the way to the bank. (m)",
+      "answer": "W końcu doszedłem do banku.",
+      "accepts": [
+        "W końcu doszedłem do banku.",
+        "W końcu doszedłem do banku",
+        "Doszedłem do banku w końcu.",
+        "Doszedłem do banku w końcu"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "pić",
+    "wypić",
+    "robić",
+    "zrobić",
+    "czytać",
+    "przeczytać",
+    "pisać",
+    "napisać",
+    "iść",
+    "przyjść",
+    "wyjść",
+    "dojść",
+    "dawać",
+    "oddawać",
+    "wyjechać",
+    "wychodzić",
+    "przychodzić",
+    "robię",
+    "oddaję",
+    "oddaje",
+    "daję",
+    "przychodzę",
+    "wychodzę",
+    "wypił",
+    "pił",
+    "wypiła",
+    "wyszedł",
+    "wyszła",
+    "przyszedł",
+    "przyszła",
+    "zrobił",
+    "zrobiła",
+    "robiła",
+    "przeczytał",
+    "przeczytała",
+    "napisałem",
+    "pisałem",
+    "przyszedłem",
+    "wyszedłem",
+    "doszedłem",
+    "wypiłem",
+    "zrobiłem",
+    "zrobię",
+    "wyjdę",
+    "wypiję",
+    "przyjdę",
+    "wypiją",
+    "wyjdzie",
+    "będę",
+    "tata",
+    "mama",
+    "siostra",
+    "brat",
+    "dzieci",
+    "piwo",
+    "obiad",
+    "list",
+    "klucz",
+    "zupę",
+    "kawę",
+    "książkę",
+    "mleko",
+    "mamie",
+    "z biura",
+    "z domu",
+    "do domu",
+    "do banku",
+    "w końcu",
+    "o piątej",
+    "o szóstej",
+    "o ósmej",
+    "wczoraj",
+    "zawsze",
+    "jutro",
+    "i"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_prefix_two_jobs",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

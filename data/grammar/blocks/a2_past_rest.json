@@ -1,0 +1,635 @@
+{
+  "id": "a2_past_rest",
+  "title": "Czas przeszły · reszta",
+  "title_en": "Past tense · other verbs",
+  "level": "A2",
+  "tree_node": "a2_past_rest",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Proves the one past rule on the non--ać verbs: robić, mówić, lubić, pić. mieć and chcieć are taught as WHOLE FORMS (miał-, chciał-) — no e→a rule slide, no contrast drill, no explanation of the shift (James 2026-08-04, deliberate load-split). SINGULAR ONLY — plural past is a2_past_plural. IMPERFECTIVE ONLY — no perfective twins, no aspect talk (that is a2_aspect). Full both-gender production; (m)/(f) cue convention as in a2_past_byc. Conservative choice: no forms borrowed from a2_past_ac, so this pack stands alone if the -ać unit is re-cut. ty-forms (mówiłeś/-aś, lubiłeś/-aś, piłeś/-aś) are shown in a table and tagged but not drilled here — they are drilled in a2_past_gym, which demands them.",
+  "focus_structures": [
+    "past_rest"
+  ],
+  "teaches_structures": [
+    "past_rest"
+  ],
+  "uses_structures": [
+    "past_rest",
+    "past_byc",
+    "miec_acc",
+    "poss_nom",
+    "question",
+    "present_e_esz"
+  ],
+  "intro": [
+    {
+      "title": "One rule, every verb",
+      "title_pl": "Jedna zasada",
+      "body": "The past rule does not change from verb to verb. It is the same three steps every time:\n\n1. take the infinitive · 2. cut off -ć · 3. add -ł and the person ending.\n\nrobić → robi- → robi + ł → robiłem.\n\nThe endings are the ones you already have from był / byłem. Nothing new to learn there — only the stem in front of them changes.",
+      "body_pl": "Bezokolicznik minus -ć, plus -ł, plus końcówka osoby. robić → robiłem.",
+      "table": {
+        "headers": [
+          "Form",
+          "Meaning",
+          "Used by / for"
+        ],
+        "rows": [
+          [
+            "robiłem",
+            "I was doing",
+            "man speaking (m)"
+          ],
+          [
+            "robiłam",
+            "I was doing",
+            "woman speaking (f)"
+          ],
+          [
+            "robiłeś",
+            "you were doing",
+            "to a man (m)"
+          ],
+          [
+            "robiłaś",
+            "you were doing",
+            "to a woman (f)"
+          ],
+          [
+            "robił",
+            "he was doing",
+            "on · tata, brat"
+          ],
+          [
+            "robiła",
+            "she was doing",
+            "ona · mama, siostra"
+          ],
+          [
+            "robiło",
+            "it was doing",
+            "ono · dziecko"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Three more verbs, same cut",
+      "title_pl": "Trzy kolejne czasowniki",
+      "body": "Cut -ć off each infinitive and look at what is left: mówić → mówi-, lubić → lubi-, pić → pi-. Then -ł and the ending, exactly as before.\n\npić is the short one. Cut -ć and only pi- remains, so the past is piłem, piłam, pił, piła — short, but built by the same rule.",
+      "body_pl": "mówi- / lubi- / pi- + ł + końcówka.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "I … (m)",
+          "I … (f)",
+          "he …",
+          "she …"
+        ],
+        "rows": [
+          [
+            "mówić — to say, to speak",
+            "mówiłem",
+            "mówiłam",
+            "mówił",
+            "mówiła"
+          ],
+          [
+            "lubić — to like",
+            "lubiłem",
+            "lubiłam",
+            "lubił",
+            "lubiła"
+          ],
+          [
+            "pić — to drink",
+            "piłem",
+            "piłam",
+            "pił",
+            "piła"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Talking to someone",
+      "title_pl": "Forma ty",
+      "body": "The you endings are the pair you already type on robiłeś / robiłaś and byłeś / byłaś: -eś to a man, -aś to a woman. They sit on these stems unchanged.",
+      "body_pl": "Końcówki -eś (do mężczyzny) i -aś (do kobiety).",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "you … (m)",
+          "you … (f)"
+        ],
+        "rows": [
+          [
+            "mówić — to say, to speak",
+            "mówiłeś",
+            "mówiłaś"
+          ],
+          [
+            "lubić — to like",
+            "lubiłeś",
+            "lubiłaś"
+          ],
+          [
+            "pić — to drink",
+            "piłeś",
+            "piłaś"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Were you drinking coffee? (to a man)",
+          "pl": "Piłeś kawę?"
+        },
+        {
+          "en": "Did you like the music? (to a woman)",
+          "pl": "Lubiłaś muzykę?"
+        }
+      ]
+    },
+    {
+      "title": "Two to learn whole",
+      "title_pl": "Dwa czasowniki do zapamiętania",
+      "body": "mieć (to have) and chcieć (to want) are the two you learn as whole words rather than build. Their past stems are miał- and chciał-. Learn those two stems and you are done — the endings on them are the ordinary ones.",
+      "body_pl": "mieć → miał-, chcieć → chciał-. Uczymy się w całości.",
+      "table": {
+        "headers": [
+          "Infinitive",
+          "I … (m)",
+          "I … (f)",
+          "he …",
+          "she …"
+        ],
+        "rows": [
+          [
+            "mieć — to have",
+            "miałem",
+            "miałam",
+            "miał",
+            "miała"
+          ],
+          [
+            "chcieć — to want",
+            "chciałem",
+            "chciałam",
+            "chciał",
+            "chciała"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Children and things: -o",
+      "title_pl": "Rodzaj nijaki: -o",
+      "body": "Neuter nouns (dziecko, piwo, mleko) take -o on the past verb — the same -o you already use in było. No ending = he, -a = she, -o = it.",
+      "body_pl": "Rodzaj nijaki: końcówka -o, tak jak w było.",
+      "examples": [
+        {
+          "en": "The child had milk.",
+          "pl": "Dziecko miało mleko."
+        },
+        {
+          "en": "The child was making breakfast.",
+          "pl": "Dziecko robiło śniadanie."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was doing (m)",
+      "pl": "robiłem"
+    },
+    {
+      "en": "she was doing",
+      "pl": "robiła"
+    },
+    {
+      "en": "I said (f)",
+      "pl": "mówiłam"
+    },
+    {
+      "en": "he said",
+      "pl": "mówił"
+    },
+    {
+      "en": "I liked (m)",
+      "pl": "lubiłem"
+    },
+    {
+      "en": "she liked",
+      "pl": "lubiła"
+    },
+    {
+      "en": "I drank (f)",
+      "pl": "piłam"
+    },
+    {
+      "en": "he drank",
+      "pl": "pił"
+    },
+    {
+      "en": "I had (m)",
+      "pl": "miałem"
+    },
+    {
+      "en": "she had",
+      "pl": "miała"
+    },
+    {
+      "en": "I wanted (f)",
+      "pl": "chciałam"
+    },
+    {
+      "en": "he wanted",
+      "pl": "chciał"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mama ___ śniadanie.",
+      "choices": [
+        "robiła",
+        "robił",
+        "robiło",
+        "robiłam"
+      ],
+      "answer": "robiła",
+      "explain": "mama is feminine, so the past verb takes -a. robiłam would mean I was making it — that -m is the speaker."
+    },
+    {
+      "prompt": "Tata ___ piwo.",
+      "choices": [
+        "pił",
+        "piła",
+        "piłem",
+        "piłam"
+      ],
+      "answer": "pił",
+      "explain": "No ending at all is the he form. Cut -ć off pić and add -ł: pi + ł = pił, the whole word."
+    },
+    {
+      "prompt": "Anna ___ psa.",
+      "choices": [
+        "miała",
+        "miał",
+        "miało",
+        "miałem"
+      ],
+      "answer": "miała",
+      "explain": "Anna is a woman, so the verb takes -a: miała — the same -a as była."
+    },
+    {
+      "prompt": "Dziecko ___ zupę.",
+      "choices": [
+        "miało",
+        "miał",
+        "miała",
+        "miałam"
+      ],
+      "answer": "miało",
+      "explain": "dziecko is neuter, and neuter past takes -o, exactly as in było."
+    },
+    {
+      "prompt": "Siostra ___ sok.",
+      "choices": [
+        "piła",
+        "piłam",
+        "pił",
+        "była"
+      ],
+      "answer": "piła",
+      "explain": "siostra is feminine and it is she, not I — so -a with nothing after it: piła."
+    },
+    {
+      "prompt": "Wczoraj ___ herbatę. (ja, f)",
+      "choices": [
+        "chciałam",
+        "chciałem",
+        "chciała",
+        "chciał"
+      ],
+      "answer": "chciałam",
+      "explain": "You are the speaker and you are a woman, so the ending is -am. Without the -m it would be she wanted."
+    },
+    {
+      "prompt": "Fix: Mama mówił cześć. →",
+      "choices": [
+        "mówiła",
+        "mówił",
+        "mówiłam",
+        "była"
+      ],
+      "answer": "mówiła",
+      "explain": "The subject is mama, so the verb has to carry her gender: mówiła."
+    },
+    {
+      "prompt": "Syn ___ muzykę.",
+      "choices": [
+        "lubił",
+        "lubiła",
+        "lubiłem",
+        "lubiłam"
+      ],
+      "answer": "lubił",
+      "explain": "syn is a man and it is he, not I: the bare stem with -ł and no ending."
+    },
+    {
+      "prompt": "Wczoraj ___ obiad. (ja, m)",
+      "choices": [
+        "robiłem",
+        "robiłam",
+        "robił",
+        "robiła"
+      ],
+      "answer": "robiłem"
+    },
+    {
+      "prompt": "Brat ___ rower.",
+      "choices": [
+        "miał",
+        "miała",
+        "miałem",
+        "miało"
+      ],
+      "answer": "miał"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was doing (f)",
+      "mode": "full_word",
+      "answer": "robiłam",
+      "accepts": [
+        "robiłam"
+      ],
+      "explain": "Women's forms take -a- before the ending: robiłam, robiłaś — the same -a as in byłam."
+    },
+    {
+      "prompt_en": "you were doing (m)",
+      "mode": "full_word",
+      "answer": "robiłeś",
+      "accepts": [
+        "robiłeś"
+      ]
+    },
+    {
+      "prompt_en": "you were doing (f)",
+      "mode": "full_word",
+      "answer": "robiłaś",
+      "accepts": [
+        "robiłaś"
+      ]
+    },
+    {
+      "prompt_en": "he was doing",
+      "mode": "full_word",
+      "answer": "robił",
+      "accepts": [
+        "robił"
+      ],
+      "explain": "The he form has no ending after -ł. robić minus -ć is robi-, plus -ł, and that is the finished word."
+    },
+    {
+      "prompt_en": "I was speaking (m)",
+      "mode": "full_word",
+      "answer": "mówiłem",
+      "accepts": [
+        "mówiłem"
+      ]
+    },
+    {
+      "prompt_en": "she was speaking",
+      "mode": "full_word",
+      "answer": "mówiła",
+      "accepts": [
+        "mówiła"
+      ]
+    },
+    {
+      "prompt_en": "he liked",
+      "mode": "full_word",
+      "answer": "lubił",
+      "accepts": [
+        "lubił"
+      ]
+    },
+    {
+      "prompt_en": "I was drinking (m)",
+      "mode": "full_word",
+      "answer": "piłem",
+      "accepts": [
+        "piłem"
+      ],
+      "explain": "The present has a j — piję — but the past is cut from the infinitive pić, not from the present. pi + ł + em."
+    },
+    {
+      "prompt_en": "he had",
+      "mode": "full_word",
+      "answer": "miał",
+      "accepts": [
+        "miał"
+      ],
+      "explain": "miał- is the past stem of mieć. It is one of the two stems worth learning whole instead of working out."
+    },
+    {
+      "prompt_en": "I wanted (m)",
+      "mode": "full_word",
+      "answer": "chciałem",
+      "accepts": [
+        "chciałem"
+      ],
+      "explain": "chciał- is the past stem of chcieć — learn it whole. The -em on the end is the ordinary man-speaking ending."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum was making lunch.",
+      "answer": "Mama robiła obiad.",
+      "accepts": [
+        "Mama robiła obiad.",
+        "Mama robiła obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was drinking coffee.",
+      "answer": "Tata pił kawę.",
+      "accepts": [
+        "Tata pił kawę.",
+        "Tata pił kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I wanted bread. (m)",
+      "answer": "Wczoraj chciałem chleb.",
+      "accepts": [
+        "Wczoraj chciałem chleb.",
+        "Wczoraj chciałem chleb",
+        "Chciałem wczoraj chleb.",
+        "Chciałem wczoraj chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother had a bike.",
+      "answer": "Mój brat miał rower.",
+      "accepts": [
+        "Mój brat miał rower.",
+        "Mój brat miał rower"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum wanted tea.",
+      "answer": "Mama chciała herbatę.",
+      "accepts": [
+        "Mama chciała herbatę.",
+        "Mama chciała herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The child had a book.",
+      "answer": "Dziecko miało książkę.",
+      "accepts": [
+        "Dziecko miało książkę.",
+        "Dziecko miało książkę"
+      ],
+      "explain": "dziecko is neuter, so the verb ends in -o: miało — the same -o as było."
+    },
+    {
+      "prompt_en": "Type: Yesterday I was drinking water. (f)",
+      "answer": "Wczoraj piłam wodę.",
+      "accepts": [
+        "Wczoraj piłam wodę.",
+        "Wczoraj piłam wodę",
+        "Piłam wczoraj wodę.",
+        "Piłam wczoraj wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad liked music.",
+      "answer": "Tata lubił muzykę.",
+      "accepts": [
+        "Tata lubił muzykę.",
+        "Tata lubił muzykę"
+      ]
+    },
+    {
+      "prompt_en": "Type: What were you doing yesterday? (to a man)",
+      "answer": "Co robiłeś wczoraj?",
+      "accepts": [
+        "Co robiłeś wczoraj?",
+        "Co robiłeś wczoraj",
+        "Co wczoraj robiłeś?",
+        "Co wczoraj robiłeś"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum was saying hello.",
+      "answer": "Mama mówiła cześć.",
+      "accepts": [
+        "Mama mówiła cześć.",
+        "Mama mówiła cześć"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "mieć",
+    "robiłem",
+    "robiłam",
+    "robiłeś",
+    "robiłaś",
+    "robił",
+    "robiła",
+    "robiło",
+    "mówiłem",
+    "mówiłam",
+    "mówiłeś",
+    "mówiłaś",
+    "mówił",
+    "mówiła",
+    "lubiłem",
+    "lubiłam",
+    "lubiłeś",
+    "lubiłaś",
+    "lubił",
+    "lubiła",
+    "piłem",
+    "piłam",
+    "piłeś",
+    "piłaś",
+    "pił",
+    "piła",
+    "miałem",
+    "miałam",
+    "miał",
+    "miała",
+    "miało",
+    "chciałem",
+    "chciałam",
+    "chciał",
+    "chciała"
+  ],
+  "uses_lemmas": [
+    "robić",
+    "mówić",
+    "lubić",
+    "pić",
+    "chcieć",
+    "piję",
+    "był",
+    "była",
+    "było",
+    "byłem",
+    "byłeś",
+    "byłaś",
+    "mama",
+    "tata",
+    "brat",
+    "syn",
+    "siostra",
+    "dziecko",
+    "anna",
+    "pies",
+    "psa",
+    "mój",
+    "obiad",
+    "śniadanie",
+    "zupa",
+    "zupę",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "woda",
+    "wodę",
+    "mleko",
+    "sok",
+    "piwo",
+    "chleb",
+    "rower",
+    "książka",
+    "książkę",
+    "muzyka",
+    "muzykę",
+    "cześć",
+    "wczoraj",
+    "co"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_past_rest",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

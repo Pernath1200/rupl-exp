@@ -1,0 +1,652 @@
+{
+ "id": "b2_abstract",
+ "title": "Powód i cel",
+ "title_en": "Abstract ideas · discussion nouns",
+ "level": "B2",
+ "tree_node": "b2_abstract",
+ "default_direction": "en_to_pl",
+ "note": "B2 Block 4 vocab (spine). TWELVE NEW WORDS, all verified NEW with check_new.py against the 143-node pool: przyczyna, skutek, wpływ, zmiana, rozwiązanie, wada, zaleta, cel, sposób, możliwość, wybór, decyzja.\n\nTHE SPINE LISTED SIXTEEN CANDIDATES AND SAID TRIM TO TWELVE. Dropped, with reasons: korzyść (benefit) overlaps zaleta almost exactly in English gloss and would have put a THIRD soft feminine in one pack; wartość (value) is the most abstract of the set and earns least for this learner; społeczeństwo (society) and środowisko (environment) are topic words for essays about society and ecology, not words needed to say what you think about an ordinary thing. All four remain available and are handed to the C1 inbox. The twelve kept are the ones that do work in an everyday opinion: cause and effect, drawbacks and advantages, a change, a solution, a goal, a way, a choice, a decision.\n\nFOUR OF THE TWELVE ARE PAIRS AND ARE GLOSSED AS PAIRS, because that is how they are used and how they are easiest to hold: przyczyna/skutek (what made it happen / what it led to) and wada/zaleta (drawback / advantage). The English glosses are deliberately kept apart — wpływ is glossed 'an influence' and never 'an effect', so it does not collide with skutek.\n\nTHREE INFLECTED FORMS ARE TAUGHT ALONGSIDE THEIR CITATION FORMS, per AGENTS.md's every-form-taught rule and the b2_health_system precedent: przyczynę (feminine accusative, the -a to -ę swap owned since a1_miec) and wady / zalety (nominative-and-accusative plural, the ordinary feminine -y of plural_nom, which covers both jobs for non-virile nouns).\n\nwady AND zalety ARE THE PACK'S ONE HOMOGRAPH RISK AND IT IS OURS TO CREATE, so it is named rather than left to chance. A form in -y from a feminine -a noun can be read either as the nominative plural (plural_nom) or as the genitive singular (gen_endings), and this learner owns both rules; AGENTS.md lists exactly this collision for córki, wina, gazety, okna and for kawy, szkoły. Since both words are new here, nothing earlier can be misread — but the pack still teaches them explicitly as PLURALS, says so in sentence 14's explain, and uses them in no other job anywhere. Wady i zalety is the single most useful phrase in the set and is worth this care.\n\nmożliwość IS A SOFT FEMININE, the trap AGENTS.md names alongside mysz and noc. Its gender badge says f; sentence 22's explain points at mysz and noc, both already taught, rather than asserting the gender flatly; and sentence 23 shows the pay-off — the noun itself does not move in the object slot while the adjective does (Mam nową możliwość), which is the sharpest single demonstration of adjective agreement the pack can make with a new word.\n\nsposób AND wybór CARRY THE ó/o ALTERNATION IN THEIR OBLIQUE FORMS (sposobu, wyboru) and skutek carries a fleeting e (skutku). None of those forms appears anywhere. All three words are used in the Nominative and the Accusative only, where a masculine thing does not change at all, so the alternations are never met and never have to be explained. That was the deciding factor in keeping them over the four words dropped.\n\nFENCED. No genitive of any new noun — which cost the natural Nie ma rozwiązania, deliberately: rozwiązanie is an -e neuter, and b2_health_system already spent one flagged exception on that pattern (skierowania) and asked James to rule on it. Doubling down before he has answered would be the wrong move, so this pack stays silent and the -e neuter genitive remains a single flagged instance rather than a half-taught rule. No locative or dative of any new noun, so no oblique of możliwość or zmiana, even though b2_fem_soft has since made zmianie derivable. No plural of any new noun except wady and zalety. na + Accusative appears nowhere, holding b2_health_system's fence, which cost mieć wpływ na — the real collocation for wpływ — and is why that word appears in plainer frames than it deserves; it is the strongest single argument for a na + Accusative unit at C1. ważny is verified NEW and is fenced here on purpose: B2-SPINE hands it to b2_travel_func, so it appears in no sentence, no gloss and no explain. zmienić (NEW) appears nowhere, so the pack can name a change but not make one. Indirect questions appear nowhere; jaki and trudny are both untaught and were each rejected once during drafting.\n\nSentence bank spreads across 18 already-owned structures, including ze_clauses and reported from the two blocks immediately before this one on the path — the first vocab pack able to say what somebody thinks or said about the thing it is teaching, which is exactly what a pack of discussion nouns needs.",
+ "teaches_structures": [],
+ "uses_structures": [
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "ten_ta_to",
+  "miec_present",
+  "miec_acc",
+  "adj_acc",
+  "plural_nom",
+  "past_byc",
+  "copular_future",
+  "superlative",
+  "conjunctions",
+  "present",
+  "present_am",
+  "present_e_isz",
+  "ze_clauses",
+  "reported"
+ ],
+ "blocks": [
+  {
+   "id": "abstract_b2_words",
+   "title": "Talking about ideas · new words",
+   "items": [
+    {
+     "en": "a cause (what made something happen)",
+     "pl": "przyczyna",
+     "gender": "f"
+    },
+    {
+     "en": "an effect, a consequence (what it led to)",
+     "pl": "skutek",
+     "gender": "m"
+    },
+    {
+     "en": "an influence",
+     "pl": "wpływ",
+     "gender": "m"
+    },
+    {
+     "en": "a change",
+     "pl": "zmiana",
+     "gender": "f"
+    },
+    {
+     "en": "a solution (to a problem)",
+     "pl": "rozwiązanie",
+     "gender": "n"
+    },
+    {
+     "en": "a drawback, a bad point",
+     "pl": "wada",
+     "gender": "f"
+    },
+    {
+     "en": "an advantage, a good point",
+     "pl": "zaleta",
+     "gender": "f"
+    },
+    {
+     "en": "a goal, an aim",
+     "pl": "cel",
+     "gender": "m"
+    },
+    {
+     "en": "a way, a method (of doing something)",
+     "pl": "sposób",
+     "gender": "m"
+    },
+    {
+     "en": "a possibility, an option",
+     "pl": "możliwość",
+     "gender": "f"
+    },
+    {
+     "en": "a choice",
+     "pl": "wybór",
+     "gender": "m"
+    },
+    {
+     "en": "a decision",
+     "pl": "decyzja",
+     "gender": "f"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "en": "This is the cause.",
+   "pl": "To jest przyczyna.",
+   "accepts": [
+    "To jest przyczyna.",
+    "To jest przyczyna",
+    "To przyczyna.",
+    "To przyczyna"
+   ],
+   "structures": [
+    "to_jest"
+   ],
+   "lemmas": [
+    "przyczyna"
+   ]
+  },
+  {
+   "en": "I know the cause.",
+   "pl": "Znam przyczynę.",
+   "accepts": [
+    "Znam przyczynę.",
+    "Znam przyczynę"
+   ],
+   "structures": [
+    "present_am",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "przyczynę"
+   ],
+   "explain": "przyczyna is feminine, so in the object slot it swaps its -a for -ę — the same swap you have been making since Mam kawę."
+  },
+  {
+   "en": "The cause is serious.",
+   "pl": "Przyczyna jest poważna.",
+   "accepts": [
+    "Przyczyna jest poważna.",
+    "Przyczyna jest poważna"
+   ],
+   "structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "przyczyna",
+    "poważna"
+   ]
+  },
+  {
+   "en": "I know the cause and the effect.",
+   "pl": "Znam przyczynę i skutek.",
+   "accepts": [
+    "Znam przyczynę i skutek.",
+    "Znam przyczynę i skutek"
+   ],
+   "structures": [
+    "present_am",
+    "miec_acc",
+    "conjunctions"
+   ],
+   "lemmas": [
+    "przyczynę",
+    "skutek"
+   ],
+   "explain": "Two objects of the same verb, and only one of them moves. skutek is a masculine thing, so it keeps its dictionary shape; przyczyna is feminine, so it becomes przyczynę."
+  },
+  {
+   "en": "The effect was good.",
+   "pl": "Skutek był dobry.",
+   "accepts": [
+    "Skutek był dobry.",
+    "Skutek był dobry"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "skutek",
+    "dobry"
+   ]
+  },
+  {
+   "en": "Mum has a big influence.",
+   "pl": "Mama ma duży wpływ.",
+   "accepts": [
+    "Mama ma duży wpływ.",
+    "Mama ma duży wpływ"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "adj_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wpływ",
+    "duży"
+   ],
+   "explain": "wpływ is a masculine thing, so neither the noun nor the adjective changes after ma. Only people and animals move in the object slot."
+  },
+  {
+   "en": "The influence is big.",
+   "pl": "Wpływ jest duży.",
+   "accepts": [
+    "Wpływ jest duży.",
+    "Wpływ jest duży"
+   ],
+   "structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wpływ",
+    "duży"
+   ]
+  },
+  {
+   "en": "This is a big change.",
+   "pl": "To jest duża zmiana.",
+   "accepts": [
+    "To jest duża zmiana.",
+    "To jest duża zmiana",
+    "To duża zmiana.",
+    "To duża zmiana"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zmiana",
+    "duża"
+   ]
+  },
+  {
+   "en": "Mum says that this is a good change.",
+   "pl": "Mama mówi, że to jest dobra zmiana.",
+   "accepts": [
+    "Mama mówi, że to jest dobra zmiana.",
+    "Mama mówi, że to jest dobra zmiana"
+   ],
+   "structures": [
+    "ze_clauses",
+    "present_e_isz",
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zmiana",
+    "dobra"
+   ]
+  },
+  {
+   "en": "The change will be good.",
+   "pl": "Zmiana będzie dobra.",
+   "accepts": [
+    "Zmiana będzie dobra.",
+    "Zmiana będzie dobra"
+   ],
+   "structures": [
+    "copular_future",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zmiana",
+    "dobra"
+   ],
+   "explain": "będzie needs nothing after it but the description itself — no second verb. zmiana is feminine, so the adjective is dobra."
+  },
+  {
+   "en": "This is a good solution.",
+   "pl": "To jest dobre rozwiązanie.",
+   "accepts": [
+    "To jest dobre rozwiązanie.",
+    "To jest dobre rozwiązanie",
+    "To dobre rozwiązanie.",
+    "To dobre rozwiązanie"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "rozwiązanie",
+    "dobre"
+   ]
+  },
+  {
+   "en": "I have a solution.",
+   "pl": "Mam rozwiązanie.",
+   "accepts": [
+    "Mam rozwiązanie.",
+    "Mam rozwiązanie"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "rozwiązanie"
+   ],
+   "explain": "rozwiązanie is neuter, and neuter things never change in the object slot — the form you say is the form you look up."
+  },
+  {
+   "en": "I think that this is the best solution.",
+   "pl": "Myślę, że to jest najlepsze rozwiązanie.",
+   "accepts": [
+    "Myślę, że to jest najlepsze rozwiązanie.",
+    "Myślę, że to jest najlepsze rozwiązanie"
+   ],
+   "structures": [
+    "ze_clauses",
+    "present_e_isz",
+    "to_jest",
+    "superlative",
+    "zgoda"
+   ],
+   "lemmas": [
+    "rozwiązanie",
+    "najlepsze"
+   ]
+  },
+  {
+   "en": "It has drawbacks and advantages.",
+   "pl": "To ma wady i zalety.",
+   "accepts": [
+    "To ma wady i zalety.",
+    "To ma wady i zalety"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "plural_nom",
+    "conjunctions"
+   ],
+   "lemmas": [
+    "wady",
+    "zalety"
+   ],
+   "explain": "wada and zaleta are both feminine, and a feminine word takes -y in the plural: wady, zalety. These are plurals, not the -y that turns up in nie ma kawy — a plural object keeps exactly this shape after ma."
+  },
+  {
+   "en": "This job has advantages.",
+   "pl": "Ta praca ma zalety.",
+   "accepts": [
+    "Ta praca ma zalety.",
+    "Ta praca ma zalety"
+   ],
+   "structures": [
+    "ten_ta_to",
+    "miec_present",
+    "miec_acc",
+    "plural_nom"
+   ],
+   "lemmas": [
+    "zalety"
+   ]
+  },
+  {
+   "en": "That is a small drawback.",
+   "pl": "To jest mała wada.",
+   "accepts": [
+    "To jest mała wada.",
+    "To jest mała wada",
+    "To mała wada.",
+    "To mała wada"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wada",
+    "mała"
+   ]
+  },
+  {
+   "en": "That is a big advantage.",
+   "pl": "To jest duża zaleta.",
+   "accepts": [
+    "To jest duża zaleta.",
+    "To jest duża zaleta",
+    "To duża zaleta.",
+    "To duża zaleta"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zaleta",
+    "duża"
+   ]
+  },
+  {
+   "en": "I have a goal.",
+   "pl": "Mam cel.",
+   "accepts": [
+    "Mam cel.",
+    "Mam cel"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "cel"
+   ]
+  },
+  {
+   "en": "Dad said that this is a good goal.",
+   "pl": "Tata powiedział, że to jest dobry cel.",
+   "accepts": [
+    "Tata powiedział, że to jest dobry cel.",
+    "Tata powiedział, że to jest dobry cel"
+   ],
+   "structures": [
+    "reported",
+    "ze_clauses",
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "cel",
+    "dobry"
+   ],
+   "explain": "powiedział reports what Dad said, and Polish keeps the tense he actually used. He said jest, so jest is what you report — English would reach for was here, and Polish does not."
+  },
+  {
+   "en": "This is a new way.",
+   "pl": "To jest nowy sposób.",
+   "accepts": [
+    "To jest nowy sposób.",
+    "To jest nowy sposób",
+    "To nowy sposób.",
+    "To nowy sposób"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "sposób",
+    "nowy"
+   ]
+  },
+  {
+   "en": "I know a good way.",
+   "pl": "Znam dobry sposób.",
+   "accepts": [
+    "Znam dobry sposób.",
+    "Znam dobry sposób"
+   ],
+   "structures": [
+    "present_am",
+    "miec_acc",
+    "adj_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "sposób",
+    "dobry"
+   ]
+  },
+  {
+   "en": "That is a good possibility.",
+   "pl": "To jest dobra możliwość.",
+   "accepts": [
+    "To jest dobra możliwość.",
+    "To jest dobra możliwość",
+    "To dobra możliwość.",
+    "To dobra możliwość"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "możliwość",
+    "dobra"
+   ],
+   "explain": "możliwość ends in a consonant but it is feminine, exactly like noc and mysz. So the adjective is dobra, never dobry."
+  },
+  {
+   "en": "I have a new possibility.",
+   "pl": "Mam nową możliwość.",
+   "accepts": [
+    "Mam nową możliwość.",
+    "Mam nową możliwość"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc",
+    "adj_acc",
+    "zgoda"
+   ],
+   "lemmas": [
+    "możliwość",
+    "nową"
+   ],
+   "explain": "A feminine word that ends in a consonant keeps its shape in the object slot, so możliwość does not move. The adjective still does: nowa becomes nową."
+  },
+  {
+   "en": "You have a choice.",
+   "pl": "Masz wybór.",
+   "accepts": [
+    "Masz wybór.",
+    "Masz wybór"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "wybór"
+   ]
+  },
+  {
+   "en": "That is a bad choice.",
+   "pl": "To jest zły wybór.",
+   "accepts": [
+    "To jest zły wybór.",
+    "To jest zły wybór",
+    "To zły wybór.",
+    "To zły wybór"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wybór",
+    "zły"
+   ]
+  },
+  {
+   "en": "This is a good decision.",
+   "pl": "To jest dobra decyzja.",
+   "accepts": [
+    "To jest dobra decyzja.",
+    "To jest dobra decyzja",
+    "To dobra decyzja.",
+    "To dobra decyzja"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "decyzja",
+    "dobra"
+   ]
+  },
+  {
+   "en": "I think that this is a bad decision.",
+   "pl": "Myślę, że to jest zła decyzja.",
+   "accepts": [
+    "Myślę, że to jest zła decyzja.",
+    "Myślę, że to jest zła decyzja"
+   ],
+   "structures": [
+    "ze_clauses",
+    "present_e_isz",
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "decyzja",
+    "zła"
+   ]
+  },
+  {
+   "en": "The decision was good.",
+   "pl": "Decyzja była dobra.",
+   "accepts": [
+    "Decyzja była dobra.",
+    "Decyzja była dobra"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "decyzja",
+    "dobra"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "przyczyna",
+  "przyczynę",
+  "skutek",
+  "wpływ",
+  "zmiana",
+  "rozwiązanie",
+  "wada",
+  "wady",
+  "zaleta",
+  "zalety",
+  "cel",
+  "sposób",
+  "możliwość",
+  "wybór",
+  "decyzja"
+ ],
+ "uses_lemmas": [
+  "to",
+  "jest",
+  "ta",
+  "mam",
+  "ma",
+  "masz",
+  "znam",
+  "mówi",
+  "myślę",
+  "powiedział",
+  "że",
+  "i",
+  "był",
+  "była",
+  "będzie",
+  "mama",
+  "tata",
+  "praca",
+  "dobry",
+  "dobra",
+  "dobre",
+  "zły",
+  "zła",
+  "duży",
+  "duża",
+  "mała",
+  "nowy",
+  "nową",
+  "poważna",
+  "najlepsze",
+  "kawę",
+  "kawy",
+  "noc",
+  "mysz"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_abstract",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

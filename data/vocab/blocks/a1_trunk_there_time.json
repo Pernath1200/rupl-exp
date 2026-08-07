@@ -1,10 +1,10 @@
 {
   "id": "a1_trunk_there_time",
-  "title": "Jest · czas",
+  "title": "Jest · tu i teraz",
   "level": "A1",
   "tree_node": "trunk_there_time_a1",
   "practice": "frames",
-  "note": "A1 · jest/są + zegar i rutyna · EN → PL",
+  "note": "A1 · jest/są + nie ma, existential frames only. Trimmed 2026-08-06 (James): 5 items removed that required unowned A2 machinery — plural nouns (parki), clock time and od...do... genitive ordinals, all of which a2_ordinals_time now properly teaches. wolna/mam wolne dropped from accepts, neither was ever taught. Newly tagged: was previously live with ZERO teaches_lemmas, invisible to the sequencing auditor.",
   "default_direction": "en_to_pl",
   "blocks": [
     {
@@ -19,15 +19,6 @@
           "accepts": [
             "Jest tu sklep.",
             "Tu jest sklep."
-          ]
-        },
-        {
-          "en": "There are two parks.",
-          "pl": "Są dwa parki.",
-          "gap": "Są dwa ____.",
-          "gap_answer": "parki",
-          "accepts": [
-            "Są dwa parki."
           ]
         },
         {
@@ -50,44 +41,6 @@
           ]
         },
         {
-          "en": "What time is it?",
-          "pl": "Która jest godzina?",
-          "gap": "Która jest ____?",
-          "gap_answer": "godzina",
-          "accepts": [
-            "Która jest godzina?",
-            "Która godzina?"
-          ]
-        },
-        {
-          "en": "It is three o'clock.",
-          "pl": "Jest trzecia.",
-          "gap": "Jest ____.",
-          "gap_answer": "trzecia",
-          "accepts": [
-            "Jest trzecia.",
-            "Jest godzina trzecia."
-          ]
-        },
-        {
-          "en": "I get up at seven.",
-          "pl": "Wstaję o siódmej.",
-          "gap": "Wstaję o ____.",
-          "gap_answer": "siódmej",
-          "accepts": [
-            "Wstaję o siódmej."
-          ]
-        },
-        {
-          "en": "I work from nine to five.",
-          "pl": "Pracuję od dziewiątej do piątej.",
-          "gap": "Pracuję od dziewiątej do ____.",
-          "gap_answer": "piątej",
-          "accepts": [
-            "Pracuję od dziewiątej do piątej."
-          ]
-        },
-        {
           "en": "See you on Monday.",
           "pl": "Do zobaczenia w poniedziałek.",
           "gap": "Do zobaczenia w ____.",
@@ -103,9 +56,7 @@
           "gap": "Jutro jestem ____.",
           "gap_answer": "wolny",
           "accepts": [
-            "Jutro jestem wolny.",
-            "Jutro jestem wolna.",
-            "Jutro mam wolne."
+            "Jutro jestem wolny."
           ]
         },
         {
@@ -139,5 +90,24 @@
     "negation",
     "social_chunk"
   ],
-  "title_en": "There is · time phrases"
+  "title_en": "There is · here and now",
+  "teaches_lemmas": [
+    "w poniedziałek"
+  ],
+  "uses_lemmas": [
+    "jest",
+    "tu",
+    "sklep",
+    "czy",
+    "bank",
+    "nie ma",
+    "mleka",
+    "do zobaczenia",
+    "poniedziałek",
+    "jutro",
+    "jestem",
+    "wolny",
+    "późno",
+    "problem"
+  ]
 }

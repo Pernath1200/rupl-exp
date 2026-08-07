@@ -1,0 +1,644 @@
+{
+  "id": "c1_owie",
+  "title": "Dziadkowie, synowie",
+  "title_en": "The -owie plural family",
+  "level": "C1",
+  "tree_node": "c1_owie",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 4, unit 2 (B2-SPINE inbox item 8; b1_virile_nom fenced this family by name). SIX NEW STRINGS: dziadkowie, wujkowie, synowie, szefowie, panowie, inzynierowie. THE UNIT IS A LIST AND SAYS SO. -owie clusters on kinship and on rank or title, which is what makes it learnable as a family rather than as six exceptions, but it is NOT predictable from the shape of the noun and the pack never claims it is - szef and kelner look alike and go different ways, and that pair is the discrimination the whole Kontrola stage is built on. The AGENTS line behind this is the one that killed the fleeting-e rule in b2_gen_pl_full: this learner gets no value from a rule he cannot trust. TWO STEM CHANGES, ANCHORED RATHER THAN RULED: dziadek -> dziadkowie and wujek -> wujkowie drop the -e-, and the learner ALREADY DOES THAT - dziadkiem and wujkiem are TAUGHT <- a2_inst_z [64], verified this run, so slide 2 shows the plural riding a stem he has produced since A2 and states NO fleeting-e rule. syn, szef, pan and inzynier have no stem change at all. THE HAND-OFF FROM c1_virile_alt IS HONOURED: that unit named inzynier on its slide 4 as an -r noun that does NOT take -rzy and pointed here; this pack pays it on slide 3 rather than leaving it dangling. menedzer stays unmentioned in both packs (contested plural, not the course's to adjudicate). OJCOWIE AND MEZOWIE WERE CONSIDERED AND DROPPED, logged because C1 is last: both are real -owie members and both are relationship nouns, but ojciec -> ojc- and maz -> mez- are stem changes with NO owned anchor (ojcem and mezem are both NEW), so each would have cost a second unanchored fact. They are cheap to add later if James wants the kinship set complete. NO FABRICATED NON-WORDS (AGENTS; C1-SPINE O12 names this block): every distractor is a real taught form - the singular, the owned Instrumental singular, or the virile plural of a different noun. *szefy, *panie (as a plural of pan), *inzynierzy appear nowhere. THE VOCATIVE IS NOT TOUCHED: a first draft used dziadku (TAUGHT <- b1_vocative_chunks) as a distractor and it was cut, because C1-SPINE R5 reserves any naming of that form for c1_vocative_note after the whole case system closes. PISANIE produces all six new strings as whole words (items 0-5, the minimal pattern unit for a morphology unit); item 6 is the kelnerzy contrast cloze, which is the unit's real teaching point stated negatively, and item 7 blanks dziadkiem, the stem anchor.",
+  "focus_structures": [
+    "virile_owie"
+  ],
+  "teaches_structures": [
+    "virile_owie"
+  ],
+  "teaches_lemmas": [
+    "dziadkowie",
+    "wujkowie",
+    "synowie",
+    "szefowie",
+    "panowie",
+    "inżynierowie"
+  ],
+  "uses_structures": [
+    "virile_owie",
+    "virile_alt",
+    "virile_nom",
+    "virile_reco",
+    "adj_pl_virile",
+    "plural_nom",
+    "ten_ta_to",
+    "zgoda",
+    "poss_nom",
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "inst_z",
+    "present",
+    "present_am",
+    "present_uje",
+    "motion_chunk",
+    "prep_do_gen",
+    "prep_w_loc",
+    "prep_place"
+  ],
+  "intro": [
+    {
+      "title": "A different plural, and it belongs to the family words",
+      "title_pl": "syn → synowie",
+      "body": "Last lesson closed the softening plural: whatever consonant the stem ends in, the virile Nominative plural pulls it into the soft family and you get -ci, -cy, -e or -rzy.\n\nA small group of masculine nouns opts out of that entirely and takes -owie instead. Nothing softens; the ending is simply added.\n\nWhat holds the group together is meaning rather than shape. It is where the family words live — son, grandfather, uncle — and it takes in words for rank and title as well: boss, engineer, and pan itself.",
+      "body_pl": "syn → synowie · szef → szefowie · pan → panowie",
+      "table": {
+        "headers": [
+          "One",
+          "A group with a man in it",
+          "What kind of word"
+        ],
+        "rows": [
+          [
+            "syn",
+            "synowie",
+            "family"
+          ],
+          [
+            "dziadek",
+            "dziadkowie",
+            "family"
+          ],
+          [
+            "wujek",
+            "wujkowie",
+            "family"
+          ],
+          [
+            "szef",
+            "szefowie",
+            "rank"
+          ],
+          [
+            "inżynier",
+            "inżynierowie",
+            "rank"
+          ],
+          [
+            "pan",
+            "panowie",
+            "rank / address"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two of them drop a vowel — and you have been doing it since A2",
+      "title_pl": "z dziadkiem → dziadkowie",
+      "body": "dziadek and wujek lose the -e- before an ending. That is not a new thing to learn here, because it is exactly what you already say: z dziadkiem, z wujkiem — not dziadekiem.\n\nSo the plural runs on the stem you have had in your mouth for four levels. Take the form you use after z, swap the ending, and you have it.\n\nThe other four never change at all: syn, szef, pan and inżynier just take -owie.",
+      "body_pl": "z dziadkiem → dziadkowie · z wujkiem → wujkowie",
+      "table": {
+        "headers": [
+          "One",
+          "The form you already use",
+          "A group with a man in it"
+        ],
+        "rows": [
+          [
+            "dziadek",
+            "z dziadkiem",
+            "dziadkowie"
+          ],
+          [
+            "wujek",
+            "z wujkiem",
+            "wujkowie"
+          ],
+          [
+            "syn",
+            "z synem",
+            "synowie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "This is where inżynier went",
+      "title_pl": "kelner → kelnerzy · inżynier → inżynierowie",
+      "body": "Last lesson said that one of your -r nouns does not take -rzy, and left it named rather than explained. This is the family it belongs to.\n\nkelner and inżynier end in the same consonant and go two different ways, and there is nothing in the words themselves that tells you which. inżynier is a rank, and rank is where -owie lives — that is the best you get, and it is a tendency rather than a test.\n\nThis is worth taking as the standing rule for the rest of the course. A pattern tells you what to expect from a word you know. For a word you do not know, checking costs a moment and inventing costs a form that does not exist.",
+      "body_pl": "kelner → kelnerzy · inżynier → inżynierowie",
+      "table": {
+        "headers": [
+          "One",
+          "A group with a man in it",
+          "Which family"
+        ],
+        "rows": [
+          [
+            "kelner",
+            "kelnerzy",
+            "the softening plural"
+          ],
+          [
+            "aktor",
+            "aktorzy",
+            "the softening plural"
+          ],
+          [
+            "inżynier",
+            "inżynierowie",
+            "-owie"
+          ],
+          [
+            "szef",
+            "szefowie",
+            "-owie"
+          ],
+          [
+            "pracownik",
+            "pracownicy",
+            "the softening plural"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The adjective does not notice",
+      "title_pl": "Dobrzy szefowie · młodzi inżynierowie",
+      "body": "Whichever family the noun belongs to, it is still a group with a man in it, so everything in front of it behaves exactly as it did: ci, dobrzy, młodzi, zmęczeni.\n\nThe two families differ in one ending on one word. Nothing else in the sentence moves.",
+      "body_pl": "Ci dobrzy szefowie · ci młodzi inżynierowie",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English",
+          "Noun family"
+        ],
+        "rows": [
+          [
+            "dobrzy szefowie",
+            "good bosses",
+            "-owie"
+          ],
+          [
+            "młodzi inżynierowie",
+            "young engineers",
+            "-owie"
+          ],
+          [
+            "zmęczeni wujkowie",
+            "tired uncles",
+            "-owie"
+          ],
+          [
+            "dobrzy kelnerzy",
+            "good waiters",
+            "the softening plural"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What to carry away",
+      "title_pl": "dziadkowie · wujkowie · synowie · szefowie · panowie · inżynierowie",
+      "body": "Six words, and they are a list rather than a rule.\n\nFamily and rank take -owie with nothing softened. dziadek and wujek use the stem you already say after z. Everything else about the sentence is unchanged.\n\nIf you meet a new masculine noun for a person, expect the softening plural — and check before you say the other one.",
+      "body_pl": "syn, dziadek, wujek, szef, pan, inżynier → -owie",
+      "table": {
+        "headers": [
+          "One",
+          "A group with a man in it",
+          "In a sentence"
+        ],
+        "rows": [
+          [
+            "dziadek",
+            "dziadkowie",
+            "Dziadkowie są w parku."
+          ],
+          [
+            "syn",
+            "synowie",
+            "Ci synowie pracują w firmie."
+          ],
+          [
+            "szef",
+            "szefowie",
+            "Szefowie są w biurze."
+          ],
+          [
+            "pan",
+            "panowie",
+            "Panowie są w hotelu."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "grandfathers · a group with a man",
+      "pl": "dziadkowie"
+    },
+    {
+      "en": "uncles · a group with a man",
+      "pl": "wujkowie"
+    },
+    {
+      "en": "sons · a group with a man",
+      "pl": "synowie"
+    },
+    {
+      "en": "bosses · a group with a man",
+      "pl": "szefowie"
+    },
+    {
+      "en": "gentlemen · a group with a man",
+      "pl": "panowie"
+    },
+    {
+      "en": "engineers · a group with a man",
+      "pl": "inżynierowie"
+    },
+    {
+      "en": "one grandfather",
+      "pl": "dziadek"
+    },
+    {
+      "en": "with grandad",
+      "pl": "z dziadkiem"
+    },
+    {
+      "en": "these sons",
+      "pl": "ci synowie"
+    },
+    {
+      "en": "good bosses",
+      "pl": "dobrzy szefowie"
+    },
+    {
+      "en": "young engineers",
+      "pl": "młodzi inżynierowie"
+    },
+    {
+      "en": "tired uncles",
+      "pl": "zmęczeni wujkowie"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Ci ___ mieszkają w Polsce. (these grandfathers live in Poland)",
+      "choices": [
+        "dziadkowie",
+        "dziadek",
+        "dziadkiem",
+        "kelnerzy"
+      ],
+      "answer": "dziadkowie",
+      "explain": "dziadek is a family word, so the plural is -owie on the stem you already use in z dziadkiem. dziadkiem itself is the Instrumental singular — one person."
+    },
+    {
+      "prompt": "Ci ___ pracują w firmie. (these sons work at the company)",
+      "choices": [
+        "synowie",
+        "syn",
+        "synem",
+        "studenci"
+      ],
+      "answer": "synowie",
+      "explain": "syn takes -owie with no change to the stem."
+    },
+    {
+      "prompt": "Ci ___ są zmęczeni. (these bosses are tired)",
+      "choices": [
+        "szefowie",
+        "szef",
+        "aktorzy",
+        "lekarze"
+      ],
+      "answer": "szefowie",
+      "explain": "szef is a rank word, and rank is where -owie lives. aktorzy and lekarze are real virile plurals of other nouns."
+    },
+    {
+      "prompt": "Ci ___ są tutaj. (these uncles are here)",
+      "choices": [
+        "wujkowie",
+        "wujek",
+        "wujkiem",
+        "trenerzy"
+      ],
+      "answer": "wujkowie",
+      "explain": "Same shape as dziadkowie: the -e- goes, exactly as it already does in z wujkiem."
+    },
+    {
+      "prompt": "Ci ___ pracują w biurze. (these engineers work in the office)",
+      "choices": [
+        "inżynierowie",
+        "inżynier",
+        "partnerzy",
+        "pracownicy"
+      ],
+      "answer": "inżynierowie",
+      "explain": "The -r noun that does not take -rzy. It is a rank word, so it joins the -owie family."
+    },
+    {
+      "prompt": "Ci ___ są w hotelu. (these gentlemen are at the hotel)",
+      "choices": [
+        "panowie",
+        "pan",
+        "pani",
+        "kelnerzy"
+      ],
+      "answer": "panowie",
+      "explain": "pan takes -owie. pani is the feminine word and does not change here."
+    },
+    {
+      "prompt": "Idę z ___. (I'm going with grandad — one person)",
+      "choices": [
+        "dziadkiem",
+        "dziadkowie",
+        "dziadek",
+        "synem"
+      ],
+      "answer": "dziadkiem",
+      "explain": "z takes the Instrumental, and for one person that is dziadkiem — the form the plural dziadkowie is built on."
+    },
+    {
+      "prompt": "Ci ___ czytają dużo. (these actors read a lot)",
+      "choices": [
+        "aktorzy",
+        "aktor",
+        "szefowie",
+        "synowie"
+      ],
+      "answer": "aktorzy",
+      "explain": "aktor is not a family or rank word, so it takes the softening plural you learned last lesson: -r → -rzy."
+    },
+    {
+      "prompt": "Ci ___ pracują w mieście. (these waiters work in the city)",
+      "choices": [
+        "kelnerzy",
+        "kelner",
+        "panowie",
+        "wujkowie"
+      ],
+      "answer": "kelnerzy",
+      "explain": "kelner and inżynier end in the same consonant and take different plurals. kelner is not a rank word, so it softens: kelnerzy."
+    },
+    {
+      "prompt": "___ szefowie są w biurze. (these bosses are in the office)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "To"
+      ],
+      "answer": "Ci",
+      "explain": "szefowie is a group with a man in it, so ci — the -owie ending changes nothing about that."
+    },
+    {
+      "prompt": "Ci ___ mieszkają na wsi. (these farmers live in the countryside)",
+      "choices": [
+        "rolnicy",
+        "rolnik",
+        "dziadkowie",
+        "inżynierowie"
+      ],
+      "answer": "rolnicy",
+      "explain": "rolnik ends in -k, so -cy. Not every job word is a rank word."
+    },
+    {
+      "prompt": "To jest mój ___. (this is my son — one person)",
+      "choices": [
+        "syn",
+        "synowie",
+        "synem",
+        "studenci"
+      ],
+      "answer": "syn",
+      "explain": "One person, naming him — the plain dictionary form. synowie is the group."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "dziadek · m. (grandfather) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "dziadkowie",
+      "accepts": [
+        "dziadkowie"
+      ],
+      "explain": "The stem from z dziadkiem, plus -owie."
+    },
+    {
+      "prompt_en": "wujek · m. (uncle) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "wujkowie",
+      "accepts": [
+        "wujkowie"
+      ],
+      "explain": "The stem from z wujkiem, plus -owie."
+    },
+    {
+      "prompt_en": "syn · m. (son) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "synowie",
+      "accepts": [
+        "synowie"
+      ],
+      "explain": "No change to the stem — just -owie."
+    },
+    {
+      "prompt_en": "szef · m. (boss) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "szefowie",
+      "accepts": [
+        "szefowie"
+      ],
+      "explain": "A rank word, so -owie."
+    },
+    {
+      "prompt_en": "pan · m. (gentleman) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "panowie",
+      "accepts": [
+        "panowie"
+      ],
+      "explain": "A rank word, so -owie."
+    },
+    {
+      "prompt_en": "inżynier · m. (engineer) → many (a group with a man)",
+      "mode": "full_word",
+      "answer": "inżynierowie",
+      "accepts": [
+        "inżynierowie"
+      ],
+      "explain": "The -r noun that joins this family instead of taking -rzy."
+    },
+    {
+      "prompt_en": "These waiters work in the city. — kelner is not a rank word",
+      "mode": "cloze",
+      "frame": "Ci ___ pracują w mieście.",
+      "answer": "kelnerzy",
+      "accepts": [
+        "kelnerzy"
+      ],
+      "explain": "Same last consonant as inżynier, different family: kelner softens."
+    },
+    {
+      "prompt_en": "I'm going with grandad. — one person",
+      "mode": "cloze",
+      "frame": "Idę z ___.",
+      "answer": "dziadkiem",
+      "accepts": [
+        "dziadkiem"
+      ],
+      "explain": "The Instrumental singular — and the stem the plural is built on."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The grandfathers are in the park.",
+      "answer": "Dziadkowie są w parku.",
+      "accepts": [
+        "Dziadkowie są w parku.",
+        "Dziadkowie są w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: These sons work at the company.",
+      "answer": "Ci synowie pracują w firmie.",
+      "accepts": [
+        "Ci synowie pracują w firmie.",
+        "Ci synowie pracują w firmie"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bosses are in the office.",
+      "answer": "Szefowie są w biurze.",
+      "accepts": [
+        "Szefowie są w biurze.",
+        "Szefowie są w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: These uncles live in the countryside.",
+      "answer": "Ci wujkowie mieszkają na wsi.",
+      "accepts": [
+        "Ci wujkowie mieszkają na wsi.",
+        "Ci wujkowie mieszkają na wsi"
+      ]
+    },
+    {
+      "prompt_en": "Type: The gentlemen are at the hotel.",
+      "answer": "Panowie są w hotelu.",
+      "accepts": [
+        "Panowie są w hotelu.",
+        "Panowie są w hotelu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The young engineers work a lot.",
+      "answer": "Młodzi inżynierowie pracują dużo.",
+      "accepts": [
+        "Młodzi inżynierowie pracują dużo.",
+        "Młodzi inżynierowie pracują dużo"
+      ]
+    },
+    {
+      "prompt_en": "Type: The tired grandfathers are at home.",
+      "answer": "Zmęczeni dziadkowie są w domu.",
+      "accepts": [
+        "Zmęczeni dziadkowie są w domu.",
+        "Zmęczeni dziadkowie są w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the park with grandad.",
+      "answer": "Idę z dziadkiem do parku.",
+      "accepts": [
+        "Idę z dziadkiem do parku.",
+        "Idę z dziadkiem do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: The sons live in England.",
+      "answer": "Synowie mieszkają w Anglii.",
+      "accepts": [
+        "Synowie mieszkają w Anglii.",
+        "Synowie mieszkają w Anglii"
+      ]
+    },
+    {
+      "prompt_en": "Type: These engineers are good.",
+      "answer": "Ci inżynierowie są dobrzy.",
+      "accepts": [
+        "Ci inżynierowie są dobrzy.",
+        "Ci inżynierowie są dobrzy"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "dziadek",
+    "wujek",
+    "syn",
+    "szef",
+    "pan",
+    "pani",
+    "inżynier",
+    "dziadkiem",
+    "wujkiem",
+    "synem",
+    "z dziadkiem",
+    "z wujkiem",
+    "z synem",
+    "kelner",
+    "kelnerzy",
+    "aktor",
+    "aktorzy",
+    "trenerzy",
+    "partnerzy",
+    "student",
+    "studenci",
+    "rolnik",
+    "rolnicy",
+    "pracownik",
+    "pracownicy",
+    "lekarze",
+    "ci",
+    "te",
+    "ten",
+    "to",
+    "mój",
+    "dobrzy",
+    "młodzi",
+    "zmęczeni",
+    "są",
+    "jest",
+    "idę",
+    "pracują",
+    "mieszkają",
+    "czytają",
+    "dużo",
+    "tutaj",
+    "do parku",
+    "w parku",
+    "w biurze",
+    "w firmie",
+    "w hotelu",
+    "w domu",
+    "w mieście",
+    "w polsce",
+    "w anglii",
+    "na wsi"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_owie",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

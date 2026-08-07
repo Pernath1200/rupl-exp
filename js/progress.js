@@ -1,7 +1,13 @@
 /**
  * RUPL-exp dual progress — never writes rupl2/rupl3 keys.
- * Grammar fruit: 4 modes + best check/type ≥ 0.8 (rupl2)
- * Vocab fruit: 4 modes + best quiz/type ≥ 0.75 (rupl3 soft)
+ *
+ * First-learn fruit (2026-08-06, aligned with RUE2):
+ * - Grammar: Check clear + Type clear + USE CLEAR (James 2026-08-06: a2_smalltalk
+ *   fruited at Use 67% — 'finished' was not enough; intro optional for jumpers).
+ * - Vocab: Match done + Quiz clear + Type clear + Sentence CLEAR (same ruling).
+ * Clear = best ratio ≥ 1 (score ≥ total) or sticky cleanPass after Retry wrong.
+ * Soft PASS_RATIO / FRUIT_SOFT = reviews only — not first-learn celebration.
+ * Use/Sentence entry blocked until prior stages clear (RUE2-style).
  */
 
 const KEY = "rupl-exp-v0.1-progress";
@@ -9,6 +15,13 @@ export const PASS_RATIO = 0.8;
 export const FRUIT_SOFT = 0.75;
 /** Successful spaced reviews needed for “Mastered” (RUE2 sibling). */
 export const MASTERY_REPS = 4;
+
+/** Stage fully clear for first-learn (sticky best-ever OK). */
+export function stageIsClear(ratio, cleanPass) {
+  if (cleanPass) return true;
+  if (typeof ratio !== "number") return false;
+  return ratio >= 1;
+}
 
 function empty() {
   return {
@@ -36,9 +49,64 @@ export function loadProgress() {
     if (!d.units) d.units = {};
     if (!d.nodes) d.nodes = {};
     if (!Array.isArray(d.unlocked)) d.unlocked = ["A1"];
+    migrateFruitGates(d);
+    migrateUseClear(d);
     return d;
   } catch {
     return empty();
+  }
+}
+
+/**
+ * One-time grandfather pass (2026-08-06). The RUE2-aligned gates demand
+ * quiz/type fully clear, but records from before the port carry soft
+ * bests and no cleanPass flags — fruit those units earned under the
+ * rule in force at the time ("first completion fruits", James
+ * 2026-08-04) must not be revoked retroactively. Any block with its
+ * full mode ladder walked before this migration is stamped clear.
+ */
+function migrateFruitGates(d) {
+  if (d.fruitGatesMigrated) return;
+  for (const b of Object.values(d.grammar.blocks || {})) {
+    const m = (b && b.modes) || {};
+    if (m.check && m.type && m.use) {
+      b.checkCleanPass = true;
+      b.typeCleanPass = true;
+    }
+  }
+  for (const b of Object.values(d.vocab.blocks || {})) {
+    const m = (b && b.modes) || {};
+    if (m.match && m.quiz && m.type && m.sentence) {
+      b.quizCleanPass = true;
+      b.typeCleanPass = true;
+    }
+  }
+  d.fruitGatesMigrated = true;
+}
+
+/**
+ * Second grandfather pass (2026-08-06, Use-clear ruling): blocks whose Use/
+ * Sentence stage was walked before the rule existed keep their fruit — the
+ * stricter bar applies to new play only. Same never-revoke-retroactively
+ * principle as pass one.
+ */
+function migrateUseClear(d) {
+  if (d.useClearMigrated) return;
+  for (const b of Object.values(d.grammar.blocks || {})) {
+    if (b && b.modes && b.modes.use && b.useCleanPass === undefined) {
+      b.useCleanPass = true;
+    }
+  }
+  for (const b of Object.values(d.vocab.blocks || {})) {
+    if (b && b.modes && b.modes.sentence && b.sentenceCleanPass === undefined) {
+      b.sentenceCleanPass = true;
+    }
+  }
+  d.useClearMigrated = true;
+  try {
+    localStorage.setItem(KEY, JSON.stringify(d));
+  } catch {
+    /* quota — harmless, migration reruns next load */
   }
 }
 
@@ -67,6 +135,33 @@ export function isLevelUnlocked(level) {
   return (p.unlocked || []).includes(level);
 }
 
+/**
+ * Auto-unlock (James 2026-08-06): a level unlocks the moment the previous
+ * level is 100% learned. Call at boot and after fruit changes. Persists
+ * into p.unlocked so meters/rail stay consistent everywhere.
+ */
+export function autoUnlockLevels(nodes) {
+  const p = loadProgress();
+  const seen = [];
+  for (const n of nodes || []) {
+    const lv = Array.isArray(n.levels) ? n.levels[0] : null;
+    if (lv && !seen.includes(lv)) seen.push(lv);
+  }
+  let changed = false;
+  for (let i = 1; i < seen.length; i++) {
+    const prev = seen[i - 1];
+    const lv = seen[i];
+    if (p.unlocked.includes(lv)) continue;
+    const s = levelUnitStats(prev, nodes);
+    if (s && s.total > 0 && s.learned >= s.total) {
+      p.unlocked.push(lv);
+      changed = true;
+    }
+  }
+  if (changed) save(p);
+  return changed;
+}
+
 // ---- Grammar API (compatible with practice-grammar.js) ----
 
 export function touchBlock(blockId) {
@@ -79,12 +174,27 @@ export function touchBlock(blockId) {
   save(p);
 }
 
+/**
+ * @returns {{ wasFruit: boolean, nowFruit: boolean, justFruited: boolean }}
+ */
 export function completeMode(blockId, mode, result = null) {
+  const wasFruit = hasFruit(blockId);
   const p = loadProgress();
   if (!p.grammar.blocks[blockId]) {
-    p.grammar.blocks[blockId] = { modes: {}, best: {}, touchedAt: Date.now() };
+    p.grammar.blocks[blockId] = {
+      modes: {},
+      best: {},
+      checkCleanPass: false,
+      typeCleanPass: false,
+      touchedAt: Date.now(),
+    };
   }
   const b = p.grammar.blocks[blockId];
+  if (b.checkCleanPass === undefined) b.checkCleanPass = false;
+  if (b.typeCleanPass === undefined) b.typeCleanPass = false;
+  if (b.useCleanPass === undefined) b.useCleanPass = false;
+  b.modes = b.modes || {};
+  b.best = b.best || {};
   b.modes[mode] = true;
   b.touchedAt = Date.now();
   let ratio = null;
@@ -92,10 +202,23 @@ export function completeMode(blockId, mode, result = null) {
     ratio = result.score / result.total;
     const prev = b.best[mode];
     if (prev == null || ratio > prev) b.best[mode] = ratio;
+    // Clear round (full marks or retry-until-clear as 1/1)
+    if (ratio >= 1) {
+      if (mode === "check") b.checkCleanPass = true;
+      if (mode === "type") b.typeCleanPass = true;
+      if (mode === "use") b.useCleanPass = true;
+    }
   }
   save(p);
+  const nowFruit = hasFruit(blockId);
   // Grammar pack id == tree node id
-  reviewTick(blockId, ratio, hasFruit(blockId));
+  const review = reviewTick(blockId, ratio, nowFruit);
+  return {
+    wasFruit,
+    nowFruit,
+    justFruited: !wasFruit && nowFruit,
+    review,
+  };
 }
 
 function gBlock(id) {
@@ -106,19 +229,38 @@ function modeDone(b, mode) {
   return !!(b && b.modes && b.modes[mode]);
 }
 
+export function grammarCheckClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.best && b.best.check, b.checkCleanPass);
+}
+
+export function grammarTypeClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.best && b.best.type, b.typeCleanPass);
+}
+
+export function grammarUseClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.best && b.best.use, b.useCleanPass);
+}
+
+/** Check + Type fully clear — required before Use (RUE2-style). */
+export function canEnterGrammarUse(blockId) {
+  const b = gBlock(blockId);
+  return grammarCheckClear(b) && grammarTypeClear(b);
+}
+
+/**
+ * First-learn fruit: Check clear + Type clear + Use finished.
+ * Soft % does not grant fruit. Modes-only no longer enough.
+ */
 export function hasFruit(blockId) {
   const b = gBlock(blockId);
   if (!b) return false;
-  // First completion fruits (James, 2026-08-04 smoke: "it shouldn't be
-  // strict first time around") — walking the whole ladder is the bar.
-  // Quality is policed where it matters: SRS reviews still need
-  // FRUIT_SOFT to advance the schedule, and meters fill from real reps.
-  return (
-    modeDone(b, "intro") &&
-    modeDone(b, "check") &&
-    modeDone(b, "type") &&
-    modeDone(b, "use")
-  );
+  if (!modeDone(b, "check") || !modeDone(b, "type") || !modeDone(b, "use")) {
+    return false;
+  }
+  return grammarCheckClear(b) && grammarTypeClear(b) && grammarUseClear(b);
 }
 
 export function grammarBest(blockId) {
@@ -167,6 +309,9 @@ export function touchVocabBlock(blockId, nodeId) {
   save(p);
 }
 
+/**
+ * @returns {{ wasFruit: boolean, nowFruit: boolean, justFruited: boolean }}
+ */
 export function completeVocabMode(blockId, mode, meta = {}) {
   const p = loadProgress();
   if (!p.vocab.blocks[blockId]) {
@@ -174,11 +319,16 @@ export function completeVocabMode(blockId, mode, meta = {}) {
       modes: {},
       bestQuiz: null,
       bestType: null,
+      quizCleanPass: false,
+      typeCleanPass: false,
       sentenceDone: false,
       touchedAt: Date.now(),
     };
   }
   const b = p.vocab.blocks[blockId];
+  if (b.quizCleanPass === undefined) b.quizCleanPass = false;
+  if (b.typeCleanPass === undefined) b.typeCleanPass = false;
+  const wasFruit = blockHasFruit(b);
   b.modes = b.modes || {};
   b.modes[mode] = true;
   b.touchedAt = Date.now();
@@ -188,21 +338,64 @@ export function completeVocabMode(blockId, mode, meta = {}) {
   }
   if (mode === "quiz" && ratio != null) {
     if (b.bestQuiz == null || ratio > b.bestQuiz) b.bestQuiz = ratio;
+    if (ratio >= 1) b.quizCleanPass = true;
   }
   if (mode === "type" && ratio != null) {
     if (b.bestType == null || ratio > b.bestType) b.bestType = ratio;
+    if (ratio >= 1) b.typeCleanPass = true;
   }
-  if (mode === "sentence") b.sentenceDone = true;
+  if (mode === "sentence") {
+    b.sentenceDone = true;
+    if (ratio != null) {
+      if (b.bestSentence == null || ratio > b.bestSentence) b.bestSentence = ratio;
+      if (ratio >= 1) b.sentenceCleanPass = true;
+    }
+  }
   save(p);
-  reviewTick(b.nodeId || blockId, ratio, blockHasFruit(b));
+  const nowFruit = blockHasFruit(b);
+  const review = reviewTick(b.nodeId || blockId, ratio, nowFruit);
+  return {
+    wasFruit,
+    nowFruit,
+    justFruited: !wasFruit && nowFruit,
+    review,
+  };
+}
+
+export function vocabQuizClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.bestQuiz, b.quizCleanPass);
+}
+
+export function vocabTypeClear(b) {
+  if (!b) return false;
+  return stageIsClear(b.bestType, b.typeCleanPass);
+}
+
+/** Quiz + Type clear — required before Sentence/Use (RUE2-style). */
+export function canEnterVocabSentence(blockId) {
+  const b = loadProgress().vocab.blocks[blockId] || null;
+  // Match should be done first when present; still require clear quiz+type
+  if (!b) return false;
+  if (!b.modes || !b.modes.match || !b.modes.quiz || !b.modes.type) {
+    // Allow if quiz+type clear even if match flag missing (edge packs)
+    return vocabQuizClear(b) && vocabTypeClear(b);
+  }
+  return vocabQuizClear(b) && vocabTypeClear(b);
+}
+
+export function vocabSentenceClear(b) {
+  if (!b) return false;
+  // Old records carry only the boolean; the migration stamps them clear.
+  return stageIsClear(b.bestSentence, b.sentenceCleanPass);
 }
 
 export function blockHasFruit(b) {
   if (!b || !b.modes) return false;
   const m = b.modes;
-  // First completion fruits (James 2026-08-04) — see hasFruit(). Scores
-  // are still recorded; SRS reviews keep the FRUIT_SOFT bar.
-  return !!(m.match && m.quiz && m.type && m.sentence);
+  // Modes walked + Quiz/Type/Sentence fully clear (not soft 75%)
+  if (!(m.match && m.quiz && m.type && m.sentence)) return false;
+  return vocabQuizClear(b) && vocabTypeClear(b) && vocabSentenceClear(b);
 }
 
 export function vocabBlockFruit(blockId) {
@@ -326,7 +519,7 @@ const REVIEW_INTERVALS_DAYS = [1, 3, 7, 14, 30];
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 function reviewTick(nodeId, ratio, fruited) {
-  if (!nodeId) return;
+  if (!nodeId) return null;
   const p = loadProgress();
   const n = (p.nodes[nodeId] = p.nodes[nodeId] || {});
   const now = Date.now();
@@ -334,19 +527,30 @@ function reviewTick(nodeId, ratio, fruited) {
     n.learnedAt = new Date(now).toISOString();
     n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[0] * DAY_MS).toISOString();
     save(p);
-    return;
+    return null;
   }
-  if (!n.learnedAt || !n.nextDueAt || ratio == null) return;
-  if (now < Date.parse(n.nextDueAt)) return;
+  if (!n.learnedAt || !n.nextDueAt || ratio == null) return null;
+  if (now < Date.parse(n.nextDueAt)) return null;
   n.lastReviewAt = new Date(now).toISOString();
+  const before = n.successfulReps || 0;
+  let outcome = null;
   if (ratio >= FRUIT_SOFT) {
-    n.successfulReps = (n.successfulReps || 0) + 1;
+    n.successfulReps = before + 1;
     const idx = Math.min(n.successfulReps, REVIEW_INTERVALS_DAYS.length - 1);
     n.nextDueAt = new Date(now + REVIEW_INTERVALS_DAYS[idx] * DAY_MS).toISOString();
+    // First successful rep = this unit just became "remembered".
+    outcome = {
+      reviewPassed: true,
+      justRemembered: before === 0,
+      justMastered: before + 1 === MASTERY_REPS,
+      reps: n.successfulReps,
+    };
   } else {
     n.nextDueAt = new Date(now + DAY_MS).toISOString();
+    outcome = { reviewPassed: false, justRemembered: false, reps: before };
   }
   save(p);
+  return outcome;
 }
 
 /** Live nodes whose review is due now (pass the tree's live practice nodes). */
@@ -354,6 +558,10 @@ export function reviewDueList(nodes) {
   const p = loadProgress();
   const now = Date.now();
   return (nodes || []).filter((node) => {
+    // Retired units (taken off the path — a2_past_gym) must not keep
+    // demanding reviews: James 2026-08-06, "no point drilling material
+    // judged not worth teaching".
+    if (node.status !== "live" || !node.content) return false;
     const n = p.nodes?.[node.id];
     return n && n.learnedAt && n.nextDueAt && now >= Date.parse(n.nextDueAt);
   });

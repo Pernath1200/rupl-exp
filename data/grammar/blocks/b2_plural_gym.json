@@ -1,0 +1,681 @@
+{
+  "id": "b2_plural_gym",
+  "title": "Siłownia · domy i ludzie",
+  "title_en": "Plural gym · every job the plural does",
+  "level": "B2",
+  "tree_node": "b2_plural_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 5, unit 7 of 7 (spine O9) — the gym that closes the plural block. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym / b2_adj_gym line): ZERO new material, teaches_structures and teaches_lemmas both EMPTY. Every form used was taught by a2_plural_nom, a2_gen_pl, b1_virile_nom, b1_virile_reco, b2_loc_pl, b2_inst_pl, b2_dat_pl, b2_gen_pl_full, b2_num_subject or b2_num_virile, or earlier.\n\nWHY THIS GYM EARNS ITS PATH SLOT, against AGENTS.md's post-a2_past_gym rule. James retired a2_past_gym because it drilled material that was not hard. This one drills seven plural jobs that arrived one per node across six consecutive units (loc_pl, inst_pl, dat_pl, gen_pl_full, num_subject, num_virile) and were NEVER once mixed. The endings themselves are easy; choosing between them under time pressure is the cliff, and nothing on the path has ever asked the learner to do that. If Dad finds it comfortable, that verdict is James's to make and the bank becomes stations feed.\n\nTHE BRIEF WAS RE-READ AGAINST WHAT IS ACTUALLY TAUGHT, as B2-DIGEST batch 9 instructed. The spine's brief predates gen_pl_full, num_subject and num_virile and names seven jobs; the honest count is now seven jobs plus two numeral agreement patterns, and slide 3 covers those rather than leaving the block's two newest units undrilled.\n\nSLIDE 2 IS THE POINT AND IT RUNS OPPOSITE TO b2_adj_gym'S. The adjective gym's message was that one form does several jobs. Here the message is the reverse and it is good news: -ach, -ami and -om each do exactly ONE job and never ask about gender, so six of the seven jobs are unambiguous. All the difficulty in the plural is concentrated in the Genitive, which has three shapes (-ów, bare, -i/-y) plus the stem changers. Naming where the work actually is, is the whole value the gym adds over the six units.\n\nKONTROLA ITEMS 6 AND 7 ARE DELIBERATELY THE SAME FOUR CHOICES in the same order (rodzicami / rodzicom / rodzice / rodzina) under two different sentences — Idę do parku z ___ versus Dziękuję ___. Direct echo of b2_adj_gym's paired nowego/nowym items and b1_case_gym's paired ci/te items: nothing about the two items differs except the word in front, which is exactly the claim being taught. All 12 quiz answers are distinct.\n\nNO ADJECTIVES ANYWHERE, and that is a deliberate scope call, not an oversight. nowe and duże are legitimately owned as Nominative/Accusative plural adjectives (a2_plural_nom) and could have appeared in the Nom/Acc rows — but plural OBLIQUE adjectives (dobrych, dobrymi) are fenced to C1 by spine O3, and a board that shows an adjective in two of seven jobs and forbids it in five teaches the wrong lesson by silence. Bare nouns throughout, which also matches loc_pl / inst_pl / dat_pl / gen_pl_full / num_subject / num_virile — six consecutive bare-noun units.\n\nHOMOGRAPH / TAUGHT-AS CHECKS PERFORMED ON EVERY RECYCLED FORM:\n- szkoły, kawy, piwa, miasta, biura, książki, herbaty, zupy, kurtki are owned as GENITIVE SINGULARS (a1_gen_endings, a1_gen_ki, a1_prep_do_z, a1_prep_review_2, a1_negation), not as plurals. None of them appears anywhere in this pack in a plural job. This is b2_loc_pl's and b2_gen_pl_full's finding, re-run rather than assumed.\n- szkołach and szkół ARE used, because those forms are unambiguous; the bare szkoły is not.\n- gazety, koty, domy, sklepy, okna, wina, córki are the forms a2_plural_nom really did teach as nominative plurals, and are the only nouns used in the Nom/Acc rows.\n- klucze is left out: a1_home_family declares it but glosses the entry 'key' and carries the form only in accepts, so its owned number is genuinely ambiguous (b2_gen_pl_full's own logged finding).\n- drogi appears nowhere — leaf_shopping_a1 owns that string as the ADJECTIVE 'expensive'.\n- osoba is a noun from leaf_ideas_a1; osoby and osób are b2_num_subject's. It is FEMININE, so quiz 9 is the feminine guard b2_num_virile built, re-run here.\n\nFENCED, appearing nowhere including as distractors:\n- siostry, koledzy, bracia, mężczyźni, ryby — all verified NEW. b2_inst_pl and b2_dat_pl taught siostrami/siostrom and kolegami/kolegom without ever teaching the nominative plurals, so those two nouns can only appear in their oblique forms here, and they do not appear at all.\n- wiele, kilka, dwaj, pięcioro — all verified NEW, all C1 inbox items logged by earlier packs.\n- widzę and pracowało — both verified NEW; pracowało is the neuter-singular past that a virile 5+ subject would want, which is why use item 8 says Pięciu studentów BYŁO w biurze rather than pracowało.\n- Inverted word order with a counted subject (W domu było pięć okien) — b2_num_subject held it to C1 and this pack holds it too; every counted subject here is sentence-initial.\n- No oblique pronouns (go, ją, cię, nim, niej, nich, nimi). Note the auditor cannot see this fence at all: person pronouns sit in audit.py's GLUE_LEMMAS, so it is author discipline only.\n- No plural oblique adjectives, per spine O3.\n\nDISTRACTORS are real taught Polish in the wrong slot throughout — every wrong choice is another owned form of the same noun wherever four exist, so each explain can name which job the learner picked by mistake. Nothing fabricated: the natural wrong answers here (domom, sklepami, osobom, gazetom) are real Polish but untaught, so they are not pool-legal and are not used. Where a noun has fewer than four owned forms the fourth button is another real word's real form and the explain names it (rodzina in items 6 and 7, lekarka in item 2, ludzie in item 9).\n\nBare governed prepositions (w, na, do, z) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride the structure tags prep_w_loc, prep_place, prep_do_gen and inst_z, all of which are in uses_structures.",
+  "focus_structures": [
+    "plural_nom",
+    "gen_pl",
+    "gen_pl_full",
+    "loc_pl",
+    "inst_pl",
+    "dat_pl",
+    "virile_nom",
+    "num_subject",
+    "num_virile"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "plural_nom",
+    "gen_pl",
+    "gen_pl_full",
+    "loc_pl",
+    "inst_pl",
+    "dat_pl",
+    "virile_nom",
+    "virile_past",
+    "num_subject",
+    "num_virile",
+    "numbers_gen",
+    "negation",
+    "existential_jest",
+    "gen_endings",
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "inst_z",
+    "dative_sg",
+    "miec_acc",
+    "miec_present",
+    "byc_present",
+    "present",
+    "present_am",
+    "present_uje",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "past_plural",
+    "motion_chunk",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "Seven jobs, one plural",
+      "title_pl": "liczba mnoga · mianownik · biernik · dopełniacz · miejscownik · narzędnik · celownik",
+      "body": "Nothing new below. Every form is one you have already been taught over the last six units — this is only about choosing the right one quickly, now that all the jobs are mixed together instead of arriving one at a time.\n\nRead the Cue column first. The word in front of the noun is what names the job, and it is always a word you already know.",
+      "body_pl": "Nic nowego · sklepy · sklepów · w sklepach · z rodzicami · rodzicom · lekarze",
+      "table": {
+        "headers": [
+          "Job",
+          "Case",
+          "Cue",
+          "Example"
+        ],
+        "rows": [
+          [
+            "naming them",
+            "Nominative · mianownik",
+            "to są",
+            "To są sklepy."
+          ],
+          [
+            "the object",
+            "Accusative · biernik",
+            "mam · kupuję",
+            "Kupuję gazety."
+          ],
+          [
+            "the 'of'-form",
+            "Genitive · dopełniacz",
+            "nie ma · dużo · pięć",
+            "Nie ma sklepów."
+          ],
+          [
+            "where, or what about",
+            "Locative · miejscownik",
+            "w · na · o",
+            "Byłem w górach."
+          ],
+          [
+            "who you are with",
+            "Instrumental · narzędnik",
+            "z",
+            "Idę z rodzicami."
+          ],
+          [
+            "who gets it",
+            "Dative · celownik",
+            "pomagam · dziękuję · daję",
+            "Pomagam dzieciom."
+          ],
+          [
+            "men, as the subject",
+            "Nominative · mianownik",
+            "men only",
+            "Lekarze pracują."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Three endings that never ask about gender",
+      "title_pl": "miejscownik · narzędnik · celownik · liczba mnoga",
+      "body": "This is the good news the six separate units could not show you. In the singular, the ending depends on the gender of the word and the same shape often does two jobs. In the plural, three of the endings do exactly one job each and do not care about gender at all — masculine, feminine and neuter all take the same one.\n\nSo there is really only one place where you have to think, and it is the last row: the 'of'-form. That is where all the work in the plural is, and it is why it had two whole units to itself.",
+      "body_pl": "-ach · -ami · -om · dopełniacz: -ów · gazet · hoteli · szkół",
+      "table": {
+        "headers": [
+          "Ending",
+          "Job",
+          "Does gender matter?",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "-ach",
+            "Locative — where, or what about",
+            "no — all three genders",
+            "w domach · w szkołach · w biurach"
+          ],
+          [
+            "-ami",
+            "Instrumental — who you are with",
+            "no — all three genders",
+            "z rodzicami · z kolegami · z córkami"
+          ],
+          [
+            "-om",
+            "Dative — who gets it",
+            "no — all three genders",
+            "rodzicom · córkom · dzieciom"
+          ],
+          [
+            "-ów, or nothing, or -i",
+            "Genitive — the 'of'-form",
+            "yes — this is the one that varies",
+            "domów · gazet · hoteli · szkół"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I was in the hotels with my parents.",
+          "pl": "Byłem w hotelach z rodzicami."
+        },
+        {
+          "en": "I thank the daughters and the sons.",
+          "pl": "Dziękuję córkom i synom."
+        }
+      ]
+    },
+    {
+      "title": "When a number stands in front",
+      "title_pl": "liczebnik · dwa · trzy · cztery · pięć · pięciu",
+      "body": "The last two units added one more thing the plural has to answer for: a number in front of the noun takes over, and it decides both the shape of the noun and the shape of the verb.\n\nTwo, three and four leave everything plain. Five and up switch the noun to the 'of'-form and the verb to the short było. And for men there is no split at all — every number behaves the way five does.",
+      "body_pl": "trzy gazety były · pięć gazet było · pięciu studentów było",
+      "table": {
+        "headers": [
+          "What you are counting",
+          "The number",
+          "The noun",
+          "The verb"
+        ],
+        "rows": [
+          [
+            "things, 2 to 4",
+            "dwa · trzy · cztery",
+            "plain plural — koty",
+            "plural — były"
+          ],
+          [
+            "things, 5 and up",
+            "pięć · sześć · dziesięć",
+            "the 'of'-form — kotów",
+            "było"
+          ],
+          [
+            "men, any number",
+            "dwóch · trzech · pięciu",
+            "the 'of'-form — studentów",
+            "było"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Four cats were in the house.",
+          "pl": "Cztery koty były w domu."
+        },
+        {
+          "en": "Ten clients were in the bank.",
+          "pl": "Dziesięciu klientów było w banku."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "naming them · shops",
+      "pl": "to są sklepy"
+    },
+    {
+      "en": "you buy them · newspapers",
+      "pl": "kupuję gazety"
+    },
+    {
+      "en": "there are none · shops",
+      "pl": "nie ma sklepów"
+    },
+    {
+      "en": "a lot of them · cats",
+      "pl": "dużo kotów"
+    },
+    {
+      "en": "where you live · houses",
+      "pl": "w domach"
+    },
+    {
+      "en": "where you were on holiday · mountains",
+      "pl": "w górach"
+    },
+    {
+      "en": "who you travel with · parents",
+      "pl": "z rodzicami"
+    },
+    {
+      "en": "who you go with · children",
+      "pl": "z dziećmi"
+    },
+    {
+      "en": "who you help · parents",
+      "pl": "pomagam rodzicom"
+    },
+    {
+      "en": "who you thank · people",
+      "pl": "dziękuję ludziom"
+    },
+    {
+      "en": "men, doing something · doctors",
+      "pl": "lekarze pracują"
+    },
+    {
+      "en": "five of them, men · students",
+      "pl": "pięciu studentów"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata kupuje ___. (newspapers)",
+      "choices": [
+        "gazety",
+        "gazet",
+        "gazetach",
+        "gazeta"
+      ],
+      "answer": "gazety",
+      "explain": "kupuje takes an object. For a plural that is not a group of men, the object form is identical to the naming form — so gazety does both jobs. gazet is the 'of'-form you would need after nie ma or dużo."
+    },
+    {
+      "prompt": "W szpitalu pracują ___. (doctors)",
+      "choices": [
+        "lekarze",
+        "lekarzy",
+        "lekarz",
+        "lekarka"
+      ],
+      "answer": "lekarze",
+      "explain": "The doctors are the ones doing it, so this is the naming form — and for a group of men that form is its own shape, lekarze. lekarzy is the 'of'-form, the one you use after pięciu or nie ma."
+    },
+    {
+      "prompt": "W mieście nie ma ___. (shops)",
+      "choices": [
+        "sklepów",
+        "sklepy",
+        "sklepach",
+        "sklepie"
+      ],
+      "answer": "sklepów",
+      "explain": "nie ma always takes the 'of'-form, and in the plural a masculine word like sklep takes -ów. sklepach would be right after w, and sklepie is the singular."
+    },
+    {
+      "prompt": "W domu jest dużo ___. (cats)",
+      "choices": [
+        "kotów",
+        "koty",
+        "kotami",
+        "kotom"
+      ],
+      "answer": "kotów",
+      "explain": "dużo has taken the 'of'-form since A1, and the plural of that form is kotów. kotami is who you are with, kotom is who gets something."
+    },
+    {
+      "prompt": "Rodzice mieszkają w ___. (houses)",
+      "choices": [
+        "domach",
+        "domy",
+        "domów",
+        "domu"
+      ],
+      "answer": "domach",
+      "explain": "w for where you are is the Locative, and every plural Locative ends in -ach whatever the gender. domu is the singular you have been using since A1 — this is the same job, just more than one house."
+    },
+    {
+      "prompt": "Idę do parku z ___. (parents)",
+      "choices": [
+        "rodzicami",
+        "rodzicom",
+        "rodzice",
+        "rodzina"
+      ],
+      "answer": "rodzicami",
+      "explain": "z for who you are with is the Instrumental, and the plural ending is -ami. The next question has these very same four choices and a different answer, because the word in front decides, not the noun."
+    },
+    {
+      "prompt": "Dziękuję ___. (parents)",
+      "choices": [
+        "rodzicami",
+        "rodzicom",
+        "rodzice",
+        "rodzina"
+      ],
+      "answer": "rodzicom",
+      "explain": "dziękować takes the Dative — who gets the thanks — and the plural ending is -om. Nothing about the noun changed between this question and the last one; only the word in front of it did."
+    },
+    {
+      "prompt": "Mama pomaga ___. (children)",
+      "choices": [
+        "dzieciom",
+        "dziećmi",
+        "dzieci",
+        "dziecko"
+      ],
+      "answer": "dzieciom",
+      "explain": "pomagać takes the Dative, so -om. Build it from the plain plural dzieci, not from dziećmi — dziećmi is one of the three words that refuse -ami, and it is a dead end for every other case."
+    },
+    {
+      "prompt": "Pięć ___ było w banku. (people)",
+      "choices": [
+        "osób",
+        "osoby",
+        "osoba",
+        "ludzie"
+      ],
+      "answer": "osób",
+      "explain": "From five upwards the counted noun goes into the 'of'-form: osób. osoby is right at two, three and four — dwie osoby były — and note that osoba is feminine, so it never takes pięciu however many people are men."
+    },
+    {
+      "prompt": "___ studentów pracuje w biurze. (five)",
+      "choices": [
+        "pięciu",
+        "pięć",
+        "cztery",
+        "dwie"
+      ],
+      "answer": "pięciu",
+      "explain": "Students here are men, and men get their own set of numbers — pięciu, not pięć. The verb then stays singular, pracuje, exactly as it does after pięć with anything else."
+    },
+    {
+      "prompt": "Trzy gazety ___ na stole. (were)",
+      "choices": [
+        "były",
+        "byli",
+        "było",
+        "był"
+      ],
+      "answer": "były",
+      "explain": "Two, three and four change nothing: the noun stays plain and the verb stays plural. było would be right from five upwards, and byli only for a group of men."
+    },
+    {
+      "prompt": "Pięć okien ___ w szkole. (was)",
+      "choices": [
+        "było",
+        "były",
+        "byli",
+        "jest"
+      ],
+      "answer": "było",
+      "explain": "From five up the number takes over the agreement and the verb goes into the short było, even though five windows are obviously more than one. This is the one place in Polish where a plural subject takes a singular verb."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "in the houses",
+      "mode": "full_word",
+      "answer": "w domach",
+      "accepts": [
+        "w domach"
+      ]
+    },
+    {
+      "prompt_en": "in the mountains",
+      "mode": "full_word",
+      "answer": "w górach",
+      "accepts": [
+        "w górach"
+      ]
+    },
+    {
+      "prompt_en": "with the parents",
+      "mode": "full_word",
+      "answer": "z rodzicami",
+      "accepts": [
+        "z rodzicami"
+      ]
+    },
+    {
+      "prompt_en": "with the children",
+      "mode": "full_word",
+      "answer": "z dziećmi",
+      "accepts": [
+        "z dziećmi"
+      ]
+    },
+    {
+      "prompt_en": "the parents (pomagam…)",
+      "mode": "full_word",
+      "answer": "rodzicom",
+      "accepts": [
+        "rodzicom"
+      ]
+    },
+    {
+      "prompt_en": "the people (dziękuję…)",
+      "mode": "full_word",
+      "answer": "ludziom",
+      "accepts": [
+        "ludziom"
+      ]
+    },
+    {
+      "prompt_en": "a lot of cats",
+      "mode": "full_word",
+      "answer": "dużo kotów",
+      "accepts": [
+        "dużo kotów"
+      ]
+    },
+    {
+      "prompt_en": "of shops (nie ma…)",
+      "mode": "full_word",
+      "answer": "sklepów",
+      "accepts": [
+        "sklepów"
+      ]
+    },
+    {
+      "prompt_en": "five people",
+      "mode": "full_word",
+      "answer": "pięć osób",
+      "accepts": [
+        "pięć osób"
+      ]
+    },
+    {
+      "prompt_en": "five students — men",
+      "mode": "full_word",
+      "answer": "pięciu studentów",
+      "accepts": [
+        "pięciu studentów"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: There are no shops in the mountains.",
+      "answer": "W górach nie ma sklepów.",
+      "accepts": [
+        "W górach nie ma sklepów.",
+        "W górach nie ma sklepów",
+        "Nie ma sklepów w górach.",
+        "Nie ma sklepów w górach"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is helping the children, and dad is helping the parents.",
+      "answer": "Mama pomaga dzieciom, a tata pomaga rodzicom.",
+      "accepts": [
+        "Mama pomaga dzieciom, a tata pomaga rodzicom.",
+        "Mama pomaga dzieciom, a tata pomaga rodzicom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I am going to the park with my parents and with the children.",
+      "answer": "Idę do parku z rodzicami i z dziećmi.",
+      "accepts": [
+        "Idę do parku z rodzicami i z dziećmi.",
+        "Idę do parku z rodzicami i z dziećmi"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students work in the shops, and the doctors work in the hospital.",
+      "answer": "Studenci pracują w sklepach, a lekarze pracują w szpitalu.",
+      "accepts": [
+        "Studenci pracują w sklepach, a lekarze pracują w szpitalu.",
+        "Studenci pracują w sklepach, a lekarze pracują w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad was reading newspapers, and mum was drinking coffee.",
+      "answer": "Tata czytał gazety, a mama piła kawę.",
+      "accepts": [
+        "Tata czytał gazety, a mama piła kawę.",
+        "Tata czytał gazety, a mama piła kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are a lot of cats in the houses.",
+      "answer": "W domach jest dużo kotów.",
+      "accepts": [
+        "W domach jest dużo kotów.",
+        "W domach jest dużo kotów",
+        "Jest dużo kotów w domach.",
+        "Jest dużo kotów w domach"
+      ]
+    },
+    {
+      "prompt_en": "Type: Five people were in the shop.",
+      "answer": "Pięć osób było w sklepie.",
+      "accepts": [
+        "Pięć osób było w sklepie.",
+        "Pięć osób było w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Five students were in the office.",
+      "answer": "Pięciu studentów było w biurze.",
+      "accepts": [
+        "Pięciu studentów było w biurze.",
+        "Pięciu studentów było w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: I thank the people and I help the clients.",
+      "answer": "Dziękuję ludziom i pomagam klientom.",
+      "accepts": [
+        "Dziękuję ludziom i pomagam klientom.",
+        "Dziękuję ludziom i pomagam klientom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teachers were in the schools, but today they are in the hotels.",
+      "answer": "Nauczyciele byli w szkołach, ale dzisiaj są w hotelach.",
+      "accepts": [
+        "Nauczyciele byli w szkołach, ale dzisiaj są w hotelach.",
+        "Nauczyciele byli w szkołach, ale dzisiaj są w hotelach"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "nic nowego",
+    "to są",
+    "sklepy",
+    "sklepów",
+    "sklepach",
+    "sklepie",
+    "rodzicami",
+    "rodzicom",
+    "rodzice",
+    "rodzina",
+    "lekarze",
+    "lekarzy",
+    "lekarz",
+    "lekarka",
+    "mam",
+    "kupuję",
+    "kupuje",
+    "gazety",
+    "gazet",
+    "gazetach",
+    "gazeta",
+    "nie ma",
+    "nie",
+    "dużo",
+    "pięć",
+    "byłem",
+    "w górach",
+    "górach",
+    "idę",
+    "pomagam",
+    "pomaga",
+    "dziękuję",
+    "daję",
+    "dzieciom",
+    "dziećmi",
+    "dzieci",
+    "dziecko",
+    "pracują",
+    "pracuje",
+    "domach",
+    "szkołach",
+    "biurach",
+    "kolegami",
+    "córkami",
+    "córkom",
+    "domów",
+    "hoteli",
+    "szkół",
+    "hotelach",
+    "synom",
+    "i",
+    "a",
+    "ale",
+    "trzy",
+    "było",
+    "były",
+    "byli",
+    "był",
+    "studentów",
+    "pięciu",
+    "dwa",
+    "cztery",
+    "koty",
+    "kotów",
+    "kotami",
+    "kotom",
+    "sześć",
+    "dziesięć",
+    "dwóch",
+    "trzech",
+    "dziesięciu",
+    "klientów",
+    "banku",
+    "w domu",
+    "domu",
+    "domy",
+    "ludziom",
+    "ludzie",
+    "tata",
+    "szpitalu",
+    "mieście",
+    "mieszkają",
+    "jest",
+    "są",
+    "osób",
+    "osoby",
+    "osoba",
+    "dwie",
+    "na stole",
+    "stole",
+    "okien",
+    "szkole",
+    "biurze",
+    "studenci",
+    "mama",
+    "czytał",
+    "piła",
+    "kawę",
+    "parku",
+    "klientom",
+    "nauczyciele",
+    "dzisiaj"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_plural_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

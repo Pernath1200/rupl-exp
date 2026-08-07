@@ -1,0 +1,651 @@
+{
+  "id": "b2_neg_gen",
+  "title": "Nie piję kawy · dopełniacz",
+  "title_en": "The genitive after nie — not just after nie mam",
+  "level": "B2",
+  "tree_node": "b2_neg_gen",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2 Block 6, unit 1. The genitive of negation, generalised off mieć. a1_negation taught nie mam kawy at A1 as a fact about ONE verb; it is a fact about every negated transitive verb, and this unit says so.\n\nONE NEW LEMMA IN THE WHOLE UNIT — chleba — and it is here for the reason the tree node itself flagged. The unit states 'masculine takes -u' (telefon -> telefonu, pokój -> pokoju, dom -> domu), and chleb is the one high-frequency masculine in this course that refuses it. chleb has been owned since leaf_food_a1, it is inside poproszę chleb, and b2_jesli's own type stage has kupię chleb — so teaching the rule while leaving chleba out would set Dad up to build chlebu on a word he uses constantly. Handed over as ONE boxed exception (the dziećmi / ludźmi / kelnerzy closed-set idiom), never as a sub-rule, and the non-word chlebu is never printed anywhere, distractors included.\n\nEVERYTHING ELSE IS RECYCLED, which is why a rule this broad is cheap. Both halves of every pair are owned: accusatives kawę, wodę, herbatę, zupę, książkę, mleko, piwo, telefon, psa (a1_miec, trunk_want_like_a1, a1_gender) and genitives kawy, wody, herbaty, zupy, książki, mleka, piwa, telefonu, pokoju, domu, czasu, psa (a1_gen_endings, a1_gen_ki, a1_negation). Verbs are all owned too: mam, piję, czytam, kupuję, robię, pije, kupowała, czytał, kupiłem.\n\nTHE MATCH BOARD IS SIX MINIMAL PAIRS, positive row then negative row, because the contrast IS the content. A board of negatives alone would show the new forms and hide the fact that makes them new.\n\nTHE MASCULINE-ANIMATE ROW IS THE RELIEF SLIDE IN MINIATURE: Mam psa -> Nie mam psa, nothing changes at all, because AGENTS.md's named Acc=Gen exception means the object form of a man or an animal already IS the genitive. It is the last pair on the board on purpose.\n\nSLIDE 3 IS A GUARD AGAINST OVER-APPLICATION and is deliberate rather than a second fact. Only a direct OBJECT moves. Nie mieszkam w domu (Locative), Nie jestem lekarzem (Instrumental), Nie idę do sklepu (already Genitive) and Nie pomagam mamie (Dative) are all completely unchanged. Quiz items 11 and 12 are that guard, in the idiom of b2_num_virile's osoba guard — a learner who has just been told 'nie moves the word after it' will move the wrong ones.\n\nHOMOGRAPH / TAUGHT-AS CHECKS:\n- gazety stays out of every object slot. a2_plural_nom owns that string as a NOMINATIVE PLURAL, and using it as a genitive singular of gazeta is the homograph trap itself.\n- drogi appears nowhere, as in every pack since b2_gen_pl_full: leaf_shopping_a1 owns that string as the ADJECTIVE 'expensive'.\n- wina is not used as a genitive of wino — a2_plural_nom owns it as a nominative plural.\n- piwa is used ONLY as a genitive singular, which is what a1_gen_endings taught it as in dużo piwa; no slide calls it a plural.\n- książki is a genitive singular here (a1_gen_ki, nie mam książki), never a plural, and książek is used as the distractor that names the plural.\n- psa and kota are the masculine-animate honest exception AGENTS.md names: the accusative really is identical to the genitive, and slide 2 gives it its own row rather than letting it slip past.\n\nFENCED, and logged:\n- PLURAL OBJECTS. Nie mam gazet is fully legal by this point (b2_gen_pl_full is three nodes back) and is still held. The unit has one fact and number is orthogonal to it; b2_case_gym and b2_wrapup are where the recombination belongs. This is the one scope call in the pack James might want to overturn.\n- samochodu, adresu, cukru, soku, biletu, klucza, kurtkę — all verified NEW, all absent.\n- chlebu — never printed, because it is precisely the non-word this unit's exception exists to prevent.\n- No oblique pronouns (go, ją, cię, nim, niej). Every object here is a noun. Note the auditor cannot see this fence: person pronouns sit in audit.py's GLUE_LEMMAS, so it is author discipline only.\n- No plural oblique adjectives (spine O3 -> C1). This unit is bare-noun throughout, the seventh in a row.\n\nBare governed prepositions (w, do) are not listed in uses_lemmas per SEQUENCING.md 6.3 — their jobs ride prep_w_loc, prep_place and prep_do_gen in uses_structures.",
+  "focus_structures": [
+    "neg_gen"
+  ],
+  "teaches_structures": [
+    "neg_gen"
+  ],
+  "teaches_lemmas": [
+    "chleba"
+  ],
+  "uses_structures": [
+    "negation",
+    "gen_endings",
+    "gen_pl",
+    "gen_pl_full",
+    "plural_nom",
+    "miec_acc",
+    "miec_present",
+    "byc_present",
+    "byc_adj",
+    "inst_identity",
+    "present",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "past_ac",
+    "past_rest",
+    "past_byc",
+    "aspect_past",
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "loc_pl",
+    "dative_sg",
+    "questions2",
+    "conjunctions",
+    "poss_nom",
+    "existential_jest"
+  ],
+  "intro": [
+    {
+      "title": "It was never really about mieć",
+      "title_pl": "nie mam kawy · nie piję kawy · nie czytam książki",
+      "body": "Since A1 you have said Nie mam kawy, and you learned it as something mieć does. It is not. Every verb that takes an object does the same thing: put nie in front, and the object switches to the of-form.\n\nSo you already know the forms. You have been using them after nie mam, after dużo and after do since A1. All that changes today is how many verbs they turn up after — which is all of them.",
+      "body_pl": "Mam kawę · Nie mam kawy · Piję kawę · Nie piję kawy",
+      "table": {
+        "headers": [
+          "With no nie",
+          "With nie",
+          "What moved"
+        ],
+        "rows": [
+          [
+            "Mam kawę.",
+            "Nie mam kawy.",
+            "kawę → kawy"
+          ],
+          [
+            "Piję kawę.",
+            "Nie piję kawy.",
+            "the same switch, a different verb"
+          ],
+          [
+            "Czytam książkę.",
+            "Nie czytam książki.",
+            "książkę → książki"
+          ],
+          [
+            "Kupuję mleko.",
+            "Nie kupuję mleka.",
+            "mleko → mleka"
+          ],
+          [
+            "Mam telefon.",
+            "Nie mam telefonu.",
+            "telefon → telefonu"
+          ],
+          [
+            "Mam psa.",
+            "Nie mam psa.",
+            "nothing — see the last row of the next slide"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The endings are the ones you already have",
+      "title_pl": "dopełniacz · -y · -i · -a · -u",
+      "body": "This is the same table you learned in A1 for dużo and do. Nothing on it is new except the last two rows, and only one of those is genuinely a new word.\n\nThe bottom row is the good news: for a man or an animal, the object form and the of-form are already the same word, so nie changes nothing at all.",
+      "body_pl": "kawę → kawy · książkę → książki · mleko → mleka · telefon → telefonu · psa → psa",
+      "table": {
+        "headers": [
+          "Kind of word",
+          "Object form",
+          "After nie",
+          "Ending"
+        ],
+        "rows": [
+          [
+            "feminine",
+            "kawę · wodę · herbatę · zupę",
+            "kawy · wody · herbaty · zupy",
+            "-y"
+          ],
+          [
+            "feminine, ending -ka or -ga",
+            "książkę",
+            "książki",
+            "-i"
+          ],
+          [
+            "neuter",
+            "mleko · piwo",
+            "mleka · piwa",
+            "-a"
+          ],
+          [
+            "masculine",
+            "telefon · dom · pokój",
+            "telefonu · domu · pokoju",
+            "-u"
+          ],
+          [
+            "masculine — and chleb refuses",
+            "chleb",
+            "chleba",
+            "-a, learn this one whole"
+          ],
+          [
+            "a man or an animal",
+            "psa · kota",
+            "psa · kota",
+            "no change at all"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I am not buying bread.",
+          "pl": "Nie kupuję chleba."
+        },
+        {
+          "en": "I don't have a room.",
+          "pl": "Nie mam pokoju."
+        }
+      ]
+    },
+    {
+      "title": "Only the object moves",
+      "title_pl": "nie mieszkam w domu · nie jestem lekarzem · nie idę do sklepu",
+      "body": "Now the guard, because this is where the rule is easy to over-use. nie does not touch everything behind it. It moves the object and nothing else.\n\nIf the word after the verb was already doing some other job — a place after w, who you are after jestem, where you are going after do — it stays exactly as it was. Read the table as: nie changed nothing in any of these.",
+      "body_pl": "tylko biernik → dopełniacz · miejscownik · narzędnik · celownik",
+      "table": {
+        "headers": [
+          "Sentence",
+          "What follows the verb",
+          "Does nie move it?"
+        ],
+        "rows": [
+          [
+            "Nie mam kawy.",
+            "the object",
+            "yes — that is the whole lesson"
+          ],
+          [
+            "Nie mieszkam w domu.",
+            "a place after w",
+            "no"
+          ],
+          [
+            "Nie jestem lekarzem.",
+            "who you are after jestem",
+            "no"
+          ],
+          [
+            "Nie idę do sklepu.",
+            "where you are going after do",
+            "no — it was already the of-form"
+          ],
+          [
+            "Nie pomagam mamie.",
+            "the person you help",
+            "no"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I have coffee",
+      "pl": "mam kawę"
+    },
+    {
+      "en": "I don't have coffee",
+      "pl": "nie mam kawy"
+    },
+    {
+      "en": "I drink water",
+      "pl": "piję wodę"
+    },
+    {
+      "en": "I don't drink water",
+      "pl": "nie piję wody"
+    },
+    {
+      "en": "I read a book",
+      "pl": "czytam książkę"
+    },
+    {
+      "en": "I don't read a book",
+      "pl": "nie czytam książki"
+    },
+    {
+      "en": "I buy milk",
+      "pl": "kupuję mleko"
+    },
+    {
+      "en": "I don't buy milk",
+      "pl": "nie kupuję mleka"
+    },
+    {
+      "en": "I have a phone",
+      "pl": "mam telefon"
+    },
+    {
+      "en": "I don't have a phone",
+      "pl": "nie mam telefonu"
+    },
+    {
+      "en": "I have a dog",
+      "pl": "mam psa"
+    },
+    {
+      "en": "I don't have a dog",
+      "pl": "nie mam psa"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Nie mam ___. (coffee)",
+      "choices": [
+        "kawy",
+        "kawę",
+        "kawa",
+        "kaw"
+      ],
+      "answer": "kawy",
+      "explain": "nie pulls the of-form. kawę is what you say after a positive mam, kawa is the plain naming form, and kaw is the of-form of more than one coffee."
+    },
+    {
+      "prompt": "Nie piję ___. (beer)",
+      "choices": [
+        "piwa",
+        "piwo",
+        "piw",
+        "kawy"
+      ],
+      "answer": "piwa",
+      "explain": "Neuter words never change to be an object, so Piję piwo has piwo — but nie still moves it, to piwa. piw is the plural of-form and kawy belongs to kawa."
+    },
+    {
+      "prompt": "Nie czytam ___. (a book)",
+      "choices": [
+        "książki",
+        "książkę",
+        "książka",
+        "książek"
+      ],
+      "answer": "książki",
+      "explain": "The -ka words take -i rather than -y, because Polish never writes y after k — the same spelling fact you met in do apteki. książkę is the object form after a positive czytam."
+    },
+    {
+      "prompt": "Nie robię ___. (soup)",
+      "choices": [
+        "zupy",
+        "zupę",
+        "zupa",
+        "zup"
+      ],
+      "answer": "zupy",
+      "explain": "robić takes an object like any other verb, so nie moves it: zupę becomes zupy. Nothing about robić is special here, and that is the point of the lesson."
+    },
+    {
+      "prompt": "Nie piję ___. (tea)",
+      "choices": [
+        "herbaty",
+        "herbatę",
+        "herbata",
+        "herbat"
+      ],
+      "answer": "herbaty",
+      "explain": "Same switch as kawę → kawy. herbat is the of-form of more than one tea, which you would need after dużo or after a number from five up."
+    },
+    {
+      "prompt": "Nie mam ___. (a phone)",
+      "choices": [
+        "telefonu",
+        "telefon",
+        "telefony",
+        "telefonów"
+      ],
+      "answer": "telefonu",
+      "explain": "Masculine words take -u — the same telefonu you have used since A1 after dużo. telefon is the object form after a positive mam; telefony and telefonów are plurals."
+    },
+    {
+      "prompt": "Nie mam ___. (a room)",
+      "choices": [
+        "pokoju",
+        "pokój",
+        "domu",
+        "sklepu"
+      ],
+      "answer": "pokoju",
+      "explain": "pokój takes -u like every other masculine word, and its ó becomes o on the way: pokoju. domu and sklepu are the same ending on two other words."
+    },
+    {
+      "prompt": "Nie mam ___. (a dog)",
+      "choices": [
+        "psa",
+        "pies",
+        "kota",
+        "koty"
+      ],
+      "answer": "psa",
+      "explain": "This is the easy one. For a man or an animal the object form is already the of-form, so psa is right with nie and without it. kota is the same story for a cat; pies is the plain naming form."
+    },
+    {
+      "prompt": "Nie kupiłem ___. (bread)",
+      "choices": [
+        "chleba",
+        "chleb",
+        "mleka",
+        "zupy"
+      ],
+      "answer": "chleba",
+      "explain": "chleb is the one masculine word in this course that does not take -u. It takes -a, and there is no reason for it — learn chleba as its own word."
+    },
+    {
+      "prompt": "Nie kupuję ___. (milk)",
+      "choices": [
+        "mleka",
+        "mleko",
+        "piwa",
+        "wody"
+      ],
+      "answer": "mleka",
+      "explain": "Neuter words take -a: mleko becomes mleka. piwa and wody are the same job on two other drinks, and mleko is the form you would use with no nie in front."
+    },
+    {
+      "prompt": "Nie mieszkam w ___. (a house)",
+      "choices": [
+        "domu",
+        "dom",
+        "domach",
+        "domów"
+      ],
+      "answer": "domu",
+      "explain": "A trap, and worth getting wrong once. Nothing moves here: dom is not the object, it is a place after w, and w has taken domu since A1. The nie changes nothing."
+    },
+    {
+      "prompt": "Nie jestem ___. (a doctor)",
+      "choices": [
+        "lekarzem",
+        "lekarz",
+        "lekarzy",
+        "lekarze"
+      ],
+      "answer": "lekarzem",
+      "explain": "jestem keeps its -em form whether or not there is a nie in front of it. Only an object moves, and who you are is not an object."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "coffee (after nie mam)",
+      "mode": "full_word",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "beer (after nie piję)",
+      "mode": "full_word",
+      "answer": "piwa",
+      "accepts": [
+        "piwa"
+      ]
+    },
+    {
+      "prompt_en": "a book (after nie czytam)",
+      "mode": "full_word",
+      "answer": "książki",
+      "accepts": [
+        "książki"
+      ]
+    },
+    {
+      "prompt_en": "milk (after nie kupuję)",
+      "mode": "full_word",
+      "answer": "mleka",
+      "accepts": [
+        "mleka"
+      ]
+    },
+    {
+      "prompt_en": "a phone (after nie mam)",
+      "mode": "full_word",
+      "answer": "telefonu",
+      "accepts": [
+        "telefonu"
+      ]
+    },
+    {
+      "prompt_en": "a dog (after nie mam)",
+      "mode": "full_word",
+      "answer": "psa",
+      "accepts": [
+        "psa"
+      ]
+    },
+    {
+      "prompt_en": "bread (after nie kupiłem) — the odd one",
+      "mode": "full_word",
+      "answer": "chleba",
+      "accepts": [
+        "chleba"
+      ]
+    },
+    {
+      "prompt_en": "soup (after nie robię)",
+      "mode": "full_word",
+      "answer": "zupy",
+      "accepts": [
+        "zupy"
+      ]
+    },
+    {
+      "prompt_en": "I don't have time",
+      "mode": "full_word",
+      "answer": "nie mam czasu",
+      "accepts": [
+        "nie mam czasu"
+      ]
+    },
+    {
+      "prompt_en": "I don't drink water",
+      "mode": "full_word",
+      "answer": "nie piję wody",
+      "accepts": [
+        "nie piję wody"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad doesn't drink coffee, but mum drinks tea.",
+      "answer": "Tata nie pije kawy, ale mama pije herbatę.",
+      "accepts": [
+        "Tata nie pije kawy, ale mama pije herbatę.",
+        "Tata nie pije kawy, ale mama pije herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum wasn't buying bread, because the shop was closed.",
+      "answer": "Mama nie kupowała chleba, bo sklep był zamknięty.",
+      "accepts": [
+        "Mama nie kupowała chleba, bo sklep był zamknięty.",
+        "Mama nie kupowała chleba, bo sklep był zamknięty"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have a dog, but I have a cat.",
+      "answer": "Nie mam psa, ale mam kota.",
+      "accepts": [
+        "Nie mam psa, ale mam kota.",
+        "Nie mam psa, ale mam kota"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother doesn't have a phone.",
+      "answer": "Mój brat nie ma telefonu.",
+      "accepts": [
+        "Mój brat nie ma telefonu.",
+        "Mój brat nie ma telefonu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't have time today, because I am working.",
+      "answer": "Nie mam dzisiaj czasu, bo pracuję.",
+      "accepts": [
+        "Nie mam dzisiaj czasu, bo pracuję.",
+        "Nie mam dzisiaj czasu, bo pracuję"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad wasn't reading a book, because he was tired.",
+      "answer": "Tata nie czytał książki, bo był zmęczony.",
+      "accepts": [
+        "Tata nie czytał książki, bo był zmęczony.",
+        "Tata nie czytał książki, bo był zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher doesn't live in the city, he lives in the mountains.",
+      "answer": "Nauczyciel nie mieszka w mieście, mieszka w górach.",
+      "accepts": [
+        "Nauczyciel nie mieszka w mieście, mieszka w górach.",
+        "Nauczyciel nie mieszka w mieście, mieszka w górach"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is not a doctor, he is a teacher.",
+      "answer": "Mój brat nie jest lekarzem, jest nauczycielem.",
+      "accepts": [
+        "Mój brat nie jest lekarzem, jest nauczycielem.",
+        "Mój brat nie jest lekarzem, jest nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum doesn't drink beer, she drinks water.",
+      "answer": "Mama nie pije piwa, pije wodę.",
+      "accepts": [
+        "Mama nie pije piwa, pije wodę.",
+        "Mama nie pije piwa, pije wodę"
+      ]
+    },
+    {
+      "prompt_en": "Type: There is no milk in the shop, and there is no bread.",
+      "answer": "W sklepie nie ma mleka i nie ma chleba.",
+      "accepts": [
+        "W sklepie nie ma mleka i nie ma chleba.",
+        "W sklepie nie ma mleka i nie ma chleba",
+        "Nie ma mleka i nie ma chleba w sklepie.",
+        "Nie ma mleka i nie ma chleba w sklepie"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "nie",
+    "nie mam",
+    "nie ma",
+    "mam",
+    "kawę",
+    "kawy",
+    "kawa",
+    "kaw",
+    "piję",
+    "pije",
+    "wodę",
+    "wody",
+    "czytam",
+    "czytał",
+    "książkę",
+    "książki",
+    "książka",
+    "książek",
+    "kupuję",
+    "kupiłem",
+    "kupowała",
+    "mleko",
+    "mleka",
+    "telefon",
+    "telefonu",
+    "telefony",
+    "telefonów",
+    "psa",
+    "pies",
+    "kota",
+    "koty",
+    "dużo",
+    "piwo",
+    "piwa",
+    "piw",
+    "herbatę",
+    "herbaty",
+    "herbata",
+    "herbat",
+    "zupę",
+    "zupy",
+    "zupa",
+    "zup",
+    "robię",
+    "dom",
+    "domu",
+    "domach",
+    "domów",
+    "pokój",
+    "pokoju",
+    "sklepu",
+    "sklepie",
+    "chleb",
+    "czasu",
+    "mieszkam",
+    "mieszka",
+    "jestem",
+    "jest",
+    "lekarzem",
+    "lekarz",
+    "lekarzy",
+    "lekarze",
+    "idę",
+    "pomagam",
+    "mamie",
+    "apteki",
+    "do apteki",
+    "tata",
+    "mama",
+    "ale",
+    "a",
+    "i",
+    "bo",
+    "sklep",
+    "był",
+    "zamknięty",
+    "zmęczony",
+    "mój",
+    "brat",
+    "dzisiaj",
+    "pracuję",
+    "nauczyciel",
+    "nauczycielem",
+    "mieście",
+    "w górach",
+    "górach"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_neg_gen",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

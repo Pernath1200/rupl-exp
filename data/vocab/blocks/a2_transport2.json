@@ -1,0 +1,549 @@
+{
+  "id": "a2_transport2",
+  "title": "Podróż",
+  "title_en": "Travel & journeys",
+  "level": "A2",
+  "tree_node": "a2_transport2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · the payoff pack for jechać (jadę / jedziesz / jedzie / jedziemy / jedziecie / jadą) and the transport instrumental (jadę pociągiem, autobusem, samochodem, rowerem, tramwajem), which land two units earlier. a1_city already owns bilet, dworzec, peron, opóźnienie, lotnisko, przystanek, pociąg, autobus, tramwaj, metro, taksi, samochód, rower, most, ulica, mapa, adres — those are ANCHORS here and are never re-taught. This pack teaches 11 new travel words: the 9 assigned (kierunek, przesiadka, spóźniony, odjazd, przyjazd, bagaż, walizka, paszport, rozkład) plus podróż and lot. Every noun carries a gender badge; spóźniony is an adjective and takes none, but its feminine spóźniona is taught alongside it. Watch podróż — a soft feminine that looks masculine. Singular only, imperfective only, no plural forms.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "to_jest",
+    "negation",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "poss_nom",
+    "prep_w_loc",
+    "prep_place",
+    "past_byc",
+    "present",
+    "question",
+    "inst_transport",
+    "jechac"
+  ],
+  "blocks": [
+    {
+      "id": "travel_words",
+      "title": "Podróż · new words",
+      "items": [
+        {
+          "en": "direction (the way a bus or train is heading)",
+          "pl": "kierunek",
+          "gender": "m",
+          "icon": "🧭"
+        },
+        {
+          "en": "change (getting off one train and onto another)",
+          "pl": "przesiadka",
+          "gender": "f",
+          "icon": "🔄"
+        },
+        {
+          "en": "late (delayed)",
+          "pl": "spóźniony",
+          "icon": "⏰"
+        },
+        {
+          "en": "departure (the leaving)",
+          "pl": "odjazd",
+          "gender": "m"
+        },
+        {
+          "en": "arrival (the coming in)",
+          "pl": "przyjazd",
+          "gender": "m"
+        },
+        {
+          "en": "luggage (all your bags)",
+          "pl": "bagaż",
+          "gender": "m"
+        },
+        {
+          "en": "suitcase",
+          "pl": "walizka",
+          "gender": "f",
+          "icon": "🧳"
+        },
+        {
+          "en": "passport",
+          "pl": "paszport",
+          "gender": "m",
+          "icon": "🛂"
+        },
+        {
+          "en": "timetable (the board of times)",
+          "pl": "rozkład",
+          "gender": "m",
+          "icon": "📋"
+        },
+        {
+          "en": "journey",
+          "pl": "podróż",
+          "gender": "f",
+          "icon": "🗺️"
+        },
+        {
+          "en": "flight",
+          "pl": "lot",
+          "gender": "m",
+          "icon": "✈️"
+        }
+      ]
+    },
+    {
+      "id": "travel_phrases",
+      "title": "Podróż · in use",
+      "items": [
+        {
+          "en": "the train is late",
+          "pl": "pociąg jest spóźniony"
+        },
+        {
+          "en": "the bus is late",
+          "pl": "autobus jest spóźniony"
+        },
+        {
+          "en": "Mum is late",
+          "pl": "mama jest spóźniona"
+        },
+        {
+          "en": "my sister is late",
+          "pl": "moja siostra jest spóźniona"
+        },
+        {
+          "en": "I have a change (of trains)",
+          "pl": "mam przesiadkę"
+        },
+        {
+          "en": "I have a suitcase",
+          "pl": "mam walizkę"
+        },
+        {
+          "en": "I have a new suitcase",
+          "pl": "mam nową walizkę"
+        },
+        {
+          "en": "I have a passport",
+          "pl": "mam paszport"
+        },
+        {
+          "en": "I have luggage",
+          "pl": "mam bagaż"
+        },
+        {
+          "en": "I'm going by train",
+          "pl": "jadę pociągiem"
+        },
+        {
+          "en": "we're going by car",
+          "pl": "jedziemy samochodem"
+        },
+        {
+          "en": "the journey was good",
+          "pl": "podróż była dobra"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "Is this the right direction?",
+      "pl": "Czy to jest dobry kierunek?",
+      "accepts": [
+        "Czy to jest dobry kierunek?",
+        "Czy to jest dobry kierunek",
+        "Czy to dobry kierunek?",
+        "Czy to dobry kierunek",
+        "To jest dobry kierunek?",
+        "To jest dobry kierunek"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda",
+        "question"
+      ],
+      "lemmas": [
+        "kierunek"
+      ],
+      "explain": "Polish signs on buses and platforms use kierunek for the way a service is heading. kierunek is masculine, so the adjective in front of it is dobry, not dobra."
+    },
+    {
+      "en": "This is not the right direction.",
+      "pl": "To nie jest dobry kierunek.",
+      "accepts": [
+        "To nie jest dobry kierunek.",
+        "To nie jest dobry kierunek"
+      ],
+      "structures": [
+        "to_jest",
+        "negation",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kierunek"
+      ]
+    },
+    {
+      "en": "Is there a change (of trains)?",
+      "pl": "Czy jest przesiadka?",
+      "accepts": [
+        "Czy jest przesiadka?",
+        "Czy jest przesiadka",
+        "Jest przesiadka?",
+        "Jest przesiadka"
+      ],
+      "structures": [
+        "existential_jest",
+        "question"
+      ],
+      "lemmas": [
+        "przesiadka"
+      ],
+      "explain": "One word covers the whole idea: getting off one train or bus and onto another. This is the first question to ask when you buy a ticket."
+    },
+    {
+      "en": "I have a change at the station.",
+      "pl": "Mam przesiadkę na dworcu.",
+      "accepts": [
+        "Mam przesiadkę na dworcu.",
+        "Mam przesiadkę na dworcu",
+        "Na dworcu mam przesiadkę.",
+        "Na dworcu mam przesiadkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "prep_place"
+      ],
+      "lemmas": [
+        "przesiadkę"
+      ],
+      "explain": "przesiadka is feminine, so after mam it swaps -a for -ę: przesiadkę. It is the same move you already make in mam kawę."
+    },
+    {
+      "en": "The train is late.",
+      "pl": "Pociąg jest spóźniony.",
+      "accepts": [
+        "Pociąg jest spóźniony.",
+        "Pociąg jest spóźniony"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "spóźniony"
+      ],
+      "explain": "You already know the noun opóźnienie (a delay). spóźniony is the adjective you put on the thing that is running late, and it agrees like every other adjective."
+    },
+    {
+      "en": "Mum is late.",
+      "pl": "Mama jest spóźniona.",
+      "accepts": [
+        "Mama jest spóźniona.",
+        "Mama jest spóźniona"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "spóźniona"
+      ],
+      "explain": "mama is feminine, so the adjective takes -a: spóźniona. A man says jestem spóźniony, a woman jestem spóźniona."
+    },
+    {
+      "en": "I'm late, I'm going by car. (m)",
+      "pl": "Jestem spóźniony, jadę samochodem.",
+      "accepts": [
+        "Jestem spóźniony, jadę samochodem.",
+        "Jestem spóźniony, jadę samochodem",
+        "Jestem spóźniony jadę samochodem"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "present",
+        "inst_transport"
+      ],
+      "lemmas": [
+        "spóźniony"
+      ],
+      "explain": "Two things you already have, joined: jestem + an adjective, and jadę + the transport form samochodem. Polish is happy to put them side by side with only a comma."
+    },
+    {
+      "en": "The departure is early in the morning.",
+      "pl": "Odjazd jest wcześnie rano.",
+      "accepts": [
+        "Odjazd jest wcześnie rano.",
+        "Odjazd jest wcześnie rano"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "odjazd"
+      ],
+      "explain": "odjazd is built on the verb you have just learned, jechać. The prefix od- means away from, so odjazd is the going-away — the departure."
+    },
+    {
+      "en": "The arrival is tomorrow morning.",
+      "pl": "Przyjazd jest jutro rano.",
+      "accepts": [
+        "Przyjazd jest jutro rano.",
+        "Przyjazd jest jutro rano"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "przyjazd"
+      ],
+      "explain": "Same build as odjazd, different prefix: przy- means up to, towards. przyjazd is the coming-in — the arrival."
+    },
+    {
+      "en": "Where is my luggage?",
+      "pl": "Gdzie jest mój bagaż?",
+      "accepts": [
+        "Gdzie jest mój bagaż?",
+        "Gdzie jest mój bagaż"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom",
+        "question"
+      ],
+      "lemmas": [
+        "bagaż"
+      ],
+      "explain": "bagaż ends in a soft -ż but it is masculine: mój bagaż, never moja. The ending alone does not settle the gender."
+    },
+    {
+      "en": "My luggage is in the hotel.",
+      "pl": "Mój bagaż jest w hotelu.",
+      "accepts": [
+        "Mój bagaż jest w hotelu.",
+        "Mój bagaż jest w hotelu"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "bagaż"
+      ]
+    },
+    {
+      "en": "I have a new suitcase.",
+      "pl": "Mam nową walizkę.",
+      "accepts": [
+        "Mam nową walizkę.",
+        "Mam nową walizkę"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "walizkę"
+      ],
+      "explain": "After mam both words move together: nowa walizka becomes nową walizkę. The adjective takes -ą and the noun takes -ę — they always travel as a pair."
+    },
+    {
+      "en": "My suitcase is old.",
+      "pl": "Moja walizka jest stara.",
+      "accepts": [
+        "Moja walizka jest stara.",
+        "Moja walizka jest stara"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "walizka"
+      ]
+    },
+    {
+      "en": "Do you have a passport?",
+      "pl": "Czy masz paszport?",
+      "accepts": [
+        "Czy masz paszport?",
+        "Czy masz paszport",
+        "Masz paszport?",
+        "Masz paszport"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc",
+        "question"
+      ],
+      "lemmas": [
+        "paszport"
+      ],
+      "explain": "paszport is masculine and not a living thing, so the accusative after masz looks exactly like the dictionary form — nothing changes."
+    },
+    {
+      "en": "My passport is at home.",
+      "pl": "Mój paszport jest w domu.",
+      "accepts": [
+        "Mój paszport jest w domu.",
+        "Mój paszport jest w domu"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "paszport"
+      ]
+    },
+    {
+      "en": "The timetable is at the station.",
+      "pl": "Rozkład jest na dworcu.",
+      "accepts": [
+        "Rozkład jest na dworcu.",
+        "Rozkład jest na dworcu"
+      ],
+      "structures": [
+        "byc_present",
+        "prep_place"
+      ],
+      "lemmas": [
+        "rozkład"
+      ],
+      "explain": "rozkład is the big board with all the times on it — the one word to look for when you walk into a station."
+    },
+    {
+      "en": "Where is the timetable?",
+      "pl": "Gdzie jest rozkład?",
+      "accepts": [
+        "Gdzie jest rozkład?",
+        "Gdzie jest rozkład"
+      ],
+      "structures": [
+        "byc_present",
+        "question"
+      ],
+      "lemmas": [
+        "rozkład"
+      ]
+    },
+    {
+      "en": "It was a good journey.",
+      "pl": "To była dobra podróż.",
+      "accepts": [
+        "To była dobra podróż.",
+        "To była dobra podróż"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "podróż"
+      ],
+      "explain": "podróż ends in a consonant but it is feminine — that is why it is była dobra podróż and not był dobry. Soft endings often hide a feminine noun, as they do in noc and mysz."
+    },
+    {
+      "en": "My flight is tomorrow.",
+      "pl": "Mój lot jest jutro.",
+      "accepts": [
+        "Mój lot jest jutro.",
+        "Mój lot jest jutro"
+      ],
+      "structures": [
+        "byc_present",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "lot"
+      ],
+      "explain": "You already know lotnisko (airport). lot is the flight itself — lotnisko is simply the place where flights are."
+    },
+    {
+      "en": "My flight is late.",
+      "pl": "Mój lot jest spóźniony.",
+      "accepts": [
+        "Mój lot jest spóźniony.",
+        "Mój lot jest spóźniony"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "lot",
+        "spóźniony"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "kierunek",
+    "przesiadka",
+    "przesiadkę",
+    "spóźniony",
+    "spóźniona",
+    "odjazd",
+    "przyjazd",
+    "bagaż",
+    "walizka",
+    "walizkę",
+    "paszport",
+    "rozkład",
+    "podróż",
+    "lot"
+  ],
+  "uses_lemmas": [
+    "autobus",
+    "była",
+    "czy",
+    "dobra",
+    "dobry",
+    "gdzie",
+    "jadę",
+    "jedziemy",
+    "jest",
+    "jestem",
+    "jutro",
+    "mam",
+    "mama",
+    "masz",
+    "moja",
+    "mój",
+    "na dworcu",
+    "nie",
+    "nową",
+    "pociąg",
+    "pociągiem",
+    "rano",
+    "samochodem",
+    "siostra",
+    "stara",
+    "to",
+    "w domu",
+    "w hotelu",
+    "wcześnie"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_transport2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

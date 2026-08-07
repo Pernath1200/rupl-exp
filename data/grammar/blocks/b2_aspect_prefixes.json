@@ -1,0 +1,758 @@
+{
+  "id": "b2_aspect_prefixes",
+  "title": "Pisać czy napisać?",
+  "title_en": "Four more pairs · doing it, and getting it done",
+  "level": "B2",
+  "tree_node": "b2_aspect_prefixes",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "focus_structures": [
+    "aspect_prefixes"
+  ],
+  "teaches_structures": [
+    "aspect_prefixes"
+  ],
+  "uses_structures": [
+    "aspect_prefixes",
+    "aspect_past",
+    "perf_future",
+    "past_ac",
+    "past_rest",
+    "present_uje",
+    "present_am",
+    "present_e_isz",
+    "miec_acc",
+    "question",
+    "questions2",
+    "conjunctions",
+    "negation",
+    "poss_nom",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "Twins, and how you get them",
+      "title_pl": "Pary czasowników",
+      "body": "You have had four pairs of twins since A2 — kupować / kupić, robić / zrobić, pić / wypić, czytać / przeczytać. One of each pair is the doing; the other is the getting-it-done.\n\nHere are four more pairs. Each one gives you exactly one new verb, because you already own the first half.\n\nAnd the rule from A2 has not changed, so it is worth saying again plainly: the piece on the front is unpredictable. pisać takes na-, gotować takes u-, jeść takes z-, płacić takes za-, and there is no way to work out which. Learn the pair whole. Never build the second verb from the first.",
+      "body_pl": "Para w całości. Przedrostka nie da się przewidzieć — uczymy się pary razem.",
+      "table": {
+        "headers": [
+          "doing it",
+          "getting it done",
+          "you already own"
+        ],
+        "rows": [
+          [
+            "pisać",
+            "napisać",
+            "pisać"
+          ],
+          [
+            "gotować",
+            "ugotować",
+            "gotuję, gotuje"
+          ],
+          [
+            "jeść",
+            "zjeść",
+            "jem, jesz"
+          ],
+          [
+            "płacić",
+            "zapłacić",
+            "płacę"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "In the past: was doing it, or did it",
+      "title_pl": "pisałem czy napisałem?",
+      "body": "The pair splits most clearly in the past, exactly as kupowałem and kupiłem did.\n\npisałem — I was writing. The writing was going on.\nnapisałem — I wrote it. It got finished.\n\nThree of the four take the plain past rule you have used since mieszkałem: drop the -ć, add -ł, add your ending. pisać → pisał, gotować → gotował, płacić → płacił, and the same for all four na-/u-/za- partners.\n\nOne verb refuses: jeść. Its past is jadłem, jadłam — a different shape, learned whole, exactly as szedłem was.",
+      "body_pl": "pisałem = w trakcie. napisałem = gotowe. jeść → jadłem (forma cała).",
+      "table": {
+        "headers": [
+          "was doing it (m / f)",
+          "did it, finished (m / f)"
+        ],
+        "rows": [
+          [
+            "pisałem · pisałam",
+            "napisałem · napisałam"
+          ],
+          [
+            "gotowałem · gotowałam",
+            "ugotowałem · ugotowałam"
+          ],
+          [
+            "jadłem · jadłam",
+            "zjadłem · zjadłam"
+          ],
+          [
+            "płaciłem · płaciłam",
+            "zapłaciłem · zapłaciłam"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I was writing an e-mail. (m)",
+          "pl": "Pisałem e-mail."
+        },
+        {
+          "en": "I wrote the e-mail. (m — it is finished)",
+          "pl": "Napisałem e-mail."
+        },
+        {
+          "en": "Mum cooked dinner. (it was ready)",
+          "pl": "Mama ugotowała obiad."
+        },
+        {
+          "en": "Dad paid the bill.",
+          "pl": "Tata zapłacił rachunek."
+        }
+      ]
+    },
+    {
+      "title": "He, she — the endings you know",
+      "title_pl": "on i ona",
+      "body": "Nothing new here at all. The finished half takes the same he / she endings every past verb in this course takes.\n\nnapisał · napisała\nugotował · ugotowała\nzapłacił · zapłaciła\n\nAnd jeść keeps its own shape all the way through: zjadł · zjadła.",
+      "body_pl": "napisał / napisała. zjadł / zjadła.",
+      "examples": [
+        {
+          "en": "Anna wrote a letter.",
+          "pl": "Anna napisała list."
+        },
+        {
+          "en": "My brother ate the bread. (all of it)",
+          "pl": "Mój brat zjadł chleb."
+        },
+        {
+          "en": "Mum paid the bill already.",
+          "pl": "Mama już zapłaciła rachunek."
+        }
+      ]
+    },
+    {
+      "title": "The future: one go, and it is done",
+      "title_pl": "napiszę · ugotuję · zjem · zapłacę",
+      "body": "The finished half of a pair has no present tense — you have known this since kupię and przyjdę. Its present-shaped forms mean the future, and they mean the whole job done in one go.\n\nzjem is the easiest of the four: it is z on the front of jem, which you already say every morning. The other three are read off the table and said whole.\n\nWatch the English, because it is the difference b1 taught: napiszę e-mail is 'I will write the e-mail' — one e-mail, finished. It is not 'I will be writing'.\n\nAnd the relief that comes with every perfective future: no gender. A man and a woman both say napiszę.",
+      "body_pl": "Forma jak teraźniejsza, znaczenie: przyszłość, raz i gotowe. Bez rodzaju.",
+      "table": {
+        "headers": [
+          "ja",
+          "ty",
+          "on · ona"
+        ],
+        "rows": [
+          [
+            "napiszę",
+            "napiszesz",
+            "napisze"
+          ],
+          [
+            "ugotuję",
+            "ugotujesz",
+            "ugotuje"
+          ],
+          [
+            "zjem",
+            "zjesz",
+            "zje"
+          ],
+          [
+            "zapłacę",
+            "zapłacisz",
+            "zapłaci"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Tomorrow I will write the e-mail. (and finish it)",
+          "pl": "Jutro napiszę e-mail."
+        },
+        {
+          "en": "I will cook soup. (and it will be ready)",
+          "pl": "Ugotuję zupę."
+        },
+        {
+          "en": "Mum will pay the bill.",
+          "pl": "Mama zapłaci rachunek."
+        }
+      ]
+    },
+    {
+      "title": "Which half do you need?",
+      "title_pl": "Co wybrać?",
+      "body": "Two questions settle it every time, and you have answered them before:\n\nIs it still going on, or does it happen over and over? → the doing half. Codziennie gotuję obiad. Pisałem e-mail.\n\nDid it happen once and finish — or will it? → the getting-it-done half. Wczoraj ugotowałem obiad. Jutro napiszę e-mail.\n\nThe words around the verb usually tell you: codziennie points one way, wczoraj and jutro the other.",
+      "body_pl": "Codziennie → gotuję. Wczoraj / jutro, raz → ugotowałem / napiszę.",
+      "examples": [
+        {
+          "en": "I cook dinner every day.",
+          "pl": "Codziennie gotuję obiad."
+        },
+        {
+          "en": "Yesterday I cooked dinner. (m — it was ready)",
+          "pl": "Wczoraj ugotowałem obiad."
+        },
+        {
+          "en": "I eat breakfast every day.",
+          "pl": "Codziennie jem śniadanie."
+        },
+        {
+          "en": "I ate the breakfast. (m — all of it)",
+          "pl": "Zjadłem śniadanie."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I was writing (m)",
+      "pl": "pisałem"
+    },
+    {
+      "en": "I wrote it, finished (m)",
+      "pl": "napisałem"
+    },
+    {
+      "en": "I will write it, finish it",
+      "pl": "napiszę"
+    },
+    {
+      "en": "I was cooking (m)",
+      "pl": "gotowałem"
+    },
+    {
+      "en": "I cooked it, it was ready (m)",
+      "pl": "ugotowałem"
+    },
+    {
+      "en": "I will cook it, finish it",
+      "pl": "ugotuję"
+    },
+    {
+      "en": "I was eating (m)",
+      "pl": "jadłem"
+    },
+    {
+      "en": "I ate it all up (m)",
+      "pl": "zjadłem"
+    },
+    {
+      "en": "I will eat it all up",
+      "pl": "zjem"
+    },
+    {
+      "en": "I was paying (m)",
+      "pl": "płaciłem"
+    },
+    {
+      "en": "I paid it, settled (m)",
+      "pl": "zapłaciłem"
+    },
+    {
+      "en": "I will pay it, settle it",
+      "pl": "zapłacę"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Codziennie ___ obiad.",
+      "choices": [
+        "gotuję",
+        "ugotowałem",
+        "ugotuję",
+        "ugotowałam"
+      ],
+      "answer": "gotuję",
+      "explain": "codziennie is something you do over and over, so it needs the doing half — and the doing half is the only one with a real present tense."
+    },
+    {
+      "prompt": "Wczoraj ___ obiad. (m — it was ready)",
+      "choices": [
+        "ugotowałem",
+        "gotuję",
+        "ugotuję",
+        "ugotowałam"
+      ],
+      "answer": "ugotowałem",
+      "explain": "One dinner, cooked and finished yesterday. ugotowałam is the same thing said by a woman."
+    },
+    {
+      "prompt": "Mama ___ e-mail wczoraj.",
+      "choices": [
+        "napisała",
+        "napisał",
+        "napisałam",
+        "napiszę"
+      ],
+      "answer": "napisała",
+      "explain": "mama is a she, so the past ends in -ła: napisała. napisał would be dad."
+    },
+    {
+      "prompt": "Which one says the writing was still going on?",
+      "choices": [
+        "Pisałem e-mail.",
+        "Napisałem e-mail.",
+        "Napiszę e-mail.",
+        "Napisała e-mail."
+      ],
+      "answer": "Pisałem e-mail.",
+      "explain": "pisałem is the writing itself, under way. The other three all point at a finished e-mail."
+    },
+    {
+      "prompt": "Jutro ___ rachunek.",
+      "choices": [
+        "zapłacę",
+        "zapłaciłem",
+        "płacę",
+        "zapłaciła"
+      ],
+      "answer": "zapłacę",
+      "explain": "jutro points forwards, and paying a bill is a job you finish, so it is the perfective future zapłacę."
+    },
+    {
+      "prompt": "Tata ___ chleb. (all of it)",
+      "choices": [
+        "zjadł",
+        "zjadła",
+        "zjadłem",
+        "zje"
+      ],
+      "answer": "zjadł",
+      "explain": "tata is a he, and jeść keeps its own shape in the past: zjadł, not zjadził or zjedł."
+    },
+    {
+      "prompt": "Which one means she cooked it and it was ready?",
+      "choices": [
+        "Ugotowała zupę.",
+        "Ugotuje zupę.",
+        "Ugotowałam zupę.",
+        "Ugotował zupę."
+      ],
+      "answer": "Ugotowała zupę.",
+      "explain": "Ugotuje has not happened yet, ugotowałam would be the speaker herself, and ugotował would be a man. Only ugotowała is she, in the past, with the soup finished."
+    },
+    {
+      "prompt": "___ śniadanie? (to a man — will you eat it all?)",
+      "choices": [
+        "Zjesz",
+        "Jesz",
+        "Zjem",
+        "Zje"
+      ],
+      "answer": "Zjesz",
+      "explain": "zjesz is z on the front of jesz, and that front piece is what turns 'do you eat' into 'will you eat it up'. zjem is I, zje is he or she."
+    },
+    {
+      "prompt": "Anna ___ rachunek wczoraj.",
+      "choices": [
+        "zapłaciła",
+        "zapłacił",
+        "zapłaci",
+        "zapłaciłam"
+      ],
+      "answer": "zapłaciła",
+      "explain": "Anna is a she and it was yesterday, so it is the past feminine: zapłaciła."
+    },
+    {
+      "prompt": "pisać — ___ (the getting-it-done half)",
+      "choices": [
+        "napisać",
+        "ugotować",
+        "zjeść",
+        "zapłacić"
+      ],
+      "answer": "napisać",
+      "explain": "pisać takes na-, gotować takes u-, jeść takes z-, płacić takes za-. Nothing tells you which; that is exactly why each pair is learned whole."
+    },
+    {
+      "prompt": "___ e-mail jutro. (I — one e-mail, finished)",
+      "choices": [
+        "Napiszę",
+        "Napisałem",
+        "Napisze",
+        "Napiszesz"
+      ],
+      "answer": "Napiszę",
+      "explain": "The ja form is napiszę. napisze without the tail is he or she, and napiszesz is you."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I was writing (m)",
+      "mode": "full_word",
+      "answer": "pisałem",
+      "accepts": [
+        "pisałem",
+        "pisalem"
+      ],
+      "explain": "pisać loses the -ć and takes -łem, the plain past rule you have used since mieszkałem."
+    },
+    {
+      "prompt_en": "I wrote it, finished (m)",
+      "mode": "full_word",
+      "answer": "napisałem",
+      "accepts": [
+        "napisałem",
+        "napisalem"
+      ],
+      "explain": "Same ending, na- on the front. That front piece is the whole difference between writing and having written."
+    },
+    {
+      "prompt_en": "I wrote it, finished (f)",
+      "mode": "full_word",
+      "answer": "napisałam",
+      "accepts": [
+        "napisałam",
+        "napisalam"
+      ]
+    },
+    {
+      "prompt_en": "she wrote it, finished",
+      "mode": "full_word",
+      "answer": "napisała",
+      "accepts": [
+        "napisała",
+        "napisala"
+      ]
+    },
+    {
+      "prompt_en": "I will write it, finish it",
+      "mode": "full_word",
+      "answer": "napiszę",
+      "accepts": [
+        "napiszę",
+        "napisze"
+      ],
+      "explain": "A finished-job verb has no present, so this present-shaped form means the future — one e-mail, done. A man and a woman both say it."
+    },
+    {
+      "prompt_en": "I was cooking (m)",
+      "mode": "full_word",
+      "answer": "gotowałem",
+      "accepts": [
+        "gotowałem",
+        "gotowalem"
+      ]
+    },
+    {
+      "prompt_en": "I cooked it, it was ready (m)",
+      "mode": "full_word",
+      "answer": "ugotowałem",
+      "accepts": [
+        "ugotowałem",
+        "ugotowalem"
+      ],
+      "explain": "gotować takes u-, not na-. There is no rule behind it — the pair is learned whole."
+    },
+    {
+      "prompt_en": "she cooked it, it was ready",
+      "mode": "full_word",
+      "answer": "ugotowała",
+      "accepts": [
+        "ugotowała",
+        "ugotowala"
+      ]
+    },
+    {
+      "prompt_en": "I will cook it, finish it",
+      "mode": "full_word",
+      "answer": "ugotuję",
+      "accepts": [
+        "ugotuję",
+        "ugotuje"
+      ]
+    },
+    {
+      "prompt_en": "I was eating (m)",
+      "mode": "full_word",
+      "answer": "jadłem",
+      "accepts": [
+        "jadłem",
+        "jadlem"
+      ],
+      "explain": "jeść will not follow the rule: its past is jadłem, jadłam. Learn it whole, exactly as you learned szedłem."
+    },
+    {
+      "prompt_en": "I ate it all up (m)",
+      "mode": "full_word",
+      "answer": "zjadłem",
+      "accepts": [
+        "zjadłem",
+        "zjadlem"
+      ]
+    },
+    {
+      "prompt_en": "he ate it all up",
+      "mode": "full_word",
+      "answer": "zjadł",
+      "accepts": [
+        "zjadł",
+        "zjadl"
+      ]
+    },
+    {
+      "prompt_en": "I will eat it all up",
+      "mode": "full_word",
+      "answer": "zjem",
+      "accepts": [
+        "zjem"
+      ],
+      "explain": "The friendliest one in the unit: z on the front of jem, which you have said since the routine pack."
+    },
+    {
+      "prompt_en": "I was paying (m)",
+      "mode": "full_word",
+      "answer": "płaciłem",
+      "accepts": [
+        "płaciłem",
+        "placilem"
+      ]
+    },
+    {
+      "prompt_en": "I paid it, settled (m)",
+      "mode": "full_word",
+      "answer": "zapłaciłem",
+      "accepts": [
+        "zapłaciłem",
+        "zaplacilem"
+      ],
+      "explain": "This is the verb a2 kept out of Czy mogę płacić kartą? — płacić is the paying, zapłacić is the bill settled."
+    },
+    {
+      "prompt_en": "she paid it, settled",
+      "mode": "full_word",
+      "answer": "zapłaciła",
+      "accepts": [
+        "zapłaciła",
+        "zaplacila"
+      ]
+    },
+    {
+      "prompt_en": "I will pay it, settle it",
+      "mode": "full_word",
+      "answer": "zapłacę",
+      "accepts": [
+        "zapłacę",
+        "zaplace"
+      ]
+    },
+    {
+      "prompt_en": "he will pay it, settle it",
+      "mode": "full_word",
+      "answer": "zapłaci",
+      "accepts": [
+        "zapłaci",
+        "zaplaci"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum wrote an e-mail. (finished it)",
+      "answer": "Mama napisała e-mail.",
+      "accepts": [
+        "Mama napisała e-mail.",
+        "Mama napisała e-mail",
+        "Mama napisala e-mail."
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna wrote a letter. (finished it)",
+      "answer": "Anna napisała list.",
+      "accepts": [
+        "Anna napisała list.",
+        "Anna napisała list",
+        "Anna napisala list."
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad cooked dinner. (it was ready)",
+      "answer": "Tata ugotował obiad.",
+      "accepts": [
+        "Tata ugotował obiad.",
+        "Tata ugotował obiad",
+        "Tata ugotowal obiad."
+      ]
+    },
+    {
+      "prompt_en": "Type: I cook dinner every day.",
+      "answer": "Codziennie gotuję obiad.",
+      "accepts": [
+        "Codziennie gotuję obiad.",
+        "Codziennie gotuję obiad",
+        "Gotuję obiad codziennie.",
+        "Codziennie gotuje obiad."
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I was writing an e-mail. (m)",
+      "answer": "Wczoraj pisałem e-mail.",
+      "accepts": [
+        "Wczoraj pisałem e-mail.",
+        "Wczoraj pisałem e-mail",
+        "Wczoraj pisalem e-mail."
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother ate the bread. (all of it)",
+      "answer": "Mój brat zjadł chleb.",
+      "accepts": [
+        "Mój brat zjadł chleb.",
+        "Mój brat zjadł chleb",
+        "Moj brat zjadl chleb."
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad paid the bill.",
+      "answer": "Tata zapłacił rachunek.",
+      "accepts": [
+        "Tata zapłacił rachunek.",
+        "Tata zapłacił rachunek",
+        "Tata zaplacil rachunek."
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has already paid the bill.",
+      "answer": "Mama już zapłaciła rachunek.",
+      "accepts": [
+        "Mama już zapłaciła rachunek.",
+        "Mama już zapłaciła rachunek",
+        "Mama juz zaplacila rachunek."
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will write the e-mail. (finish it)",
+      "answer": "Jutro napiszę e-mail.",
+      "accepts": [
+        "Jutro napiszę e-mail.",
+        "Jutro napiszę e-mail",
+        "Jutro napisze e-mail."
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum will cook soup.",
+      "answer": "Mama ugotuje zupę.",
+      "accepts": [
+        "Mama ugotuje zupę.",
+        "Mama ugotuje zupę",
+        "Mama ugotuje zupe."
+      ]
+    },
+    {
+      "prompt_en": "Type: Who ate the breakfast?",
+      "answer": "Kto zjadł śniadanie?",
+      "accepts": [
+        "Kto zjadł śniadanie?",
+        "Kto zjadł śniadanie",
+        "Kto zjadl sniadanie?"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "napisać",
+    "ugotować",
+    "zjeść",
+    "zapłacić",
+    "piszę",
+    "pisałem",
+    "pisałam",
+    "napisałem",
+    "napisałam",
+    "napisał",
+    "napisała",
+    "napiszę",
+    "napiszesz",
+    "napisze",
+    "gotowałem",
+    "gotowałam",
+    "ugotowałem",
+    "ugotowałam",
+    "ugotował",
+    "ugotowała",
+    "ugotuję",
+    "ugotujesz",
+    "ugotuje",
+    "jadłem",
+    "jadłam",
+    "zjadłem",
+    "zjadłam",
+    "zjadł",
+    "zjadła",
+    "zjem",
+    "zjesz",
+    "zje",
+    "płaciłem",
+    "płaciłam",
+    "zapłaciłem",
+    "zapłaciłam",
+    "zapłacił",
+    "zapłaciła",
+    "zapłacę",
+    "zapłacisz",
+    "zapłaci"
+  ],
+  "uses_lemmas": [
+    "pisać",
+    "gotować",
+    "gotuję",
+    "gotuje",
+    "jeść",
+    "jem",
+    "jesz",
+    "płacić",
+    "płacę",
+    "kupować",
+    "kupić",
+    "kupowałem",
+    "kupiłem",
+    "kupię",
+    "robić",
+    "zrobić",
+    "pić",
+    "wypić",
+    "czytać",
+    "przeczytać",
+    "mieszkałem",
+    "szedłem",
+    "przyjdę",
+    "e-mail",
+    "list",
+    "obiad",
+    "zupa",
+    "zupę",
+    "śniadanie",
+    "rachunek",
+    "chleb",
+    "mama",
+    "tata",
+    "anna",
+    "brat",
+    "mój",
+    "kto",
+    "wczoraj",
+    "jutro",
+    "codziennie",
+    "już",
+    "i"
+  ],
+  "note": "B2-SPINE Block 6 unit 7 (O7.2): a closed set of new aspect pairs learned WHOLE, with NO rule — and the pack restates a2_aspect's framing out loud on slide 1, as the spine required: 'the piece on the front is unpredictable… learn the pair whole, never build the second verb from the first.' Quiz item 10 tests exactly that honesty by asking which taught verb is pisać's finished half, with the other three pairs' perfectives as the distractors — every choice is a form this unit teaches.\n\nTHE SPINE'S PREMISE WAS WRONG AND THIS UNIT CORRECTS IT — the single most important thing for James to know here. B2-SPINE says of its five pairs: 'Every imperfective member is already owned, so each pair is one new word, not two.' check_new.py says otherwise:\n  - sprzątać AND posprzątać are BOTH NEW. Nothing of that pair is owned.\n  - pisać is owned as an INFINITIVE ONLY (leaf_freetime_a1) — no present, no past.\n  - gotować has gotuję/gotuje owned (a1_present_uje) but no past.\n  - jeść has jem/jesz owned (a2_routine) but no 3sg and no past.\n  - płacić has płacę owned (a2_shopping_func) but no 2sg/3sg and no past.\nSCOPE CUT, logged: sprzątać/posprzątać is DROPPED entirely. It is the one pair that would cost two new verbs rather than one, which is precisely the arithmetic the spine used to justify the set. It is a clean deferral — nothing else in B2 depends on it, and it can be a vocab item whenever a cleaning register is wanted.\n\nSCOPE ADDITION, logged: the imperfective PAST of the four surviving pairs (pisałem/pisałam, gotowałem/gotowałam, jadłem/jadłam, płaciłem/płaciłam) is taught here rather than assumed. Reason: without it the unit cannot show an aspect contrast in the shape a2_aspect established (kupowałem vs kupiłem), and it would have to fall back on a present-vs-past comparison that blurs tense with aspect. Three of the four are FREE — pisać/gotować/płacić are straight applications of the past rule owned since a2_past_ac / a2_past_rest. Only jeść costs anything, and it costs a whole form: jadłem/jadłam, handed over exactly as szedłem was, and named on the slide as the one verb that refuses the rule.\n\nSECOND ADDITION, one form: piszę. napiszę sits on a stem (pisz-) the learner has never seen, because pisać was only ever an infinitive. Teaching piszę alongside it means the perfective future is anchored rather than floating, and it makes the root usable for b2_pisac_family, which the JAMES-LOCKED Block 6a assumes is 'owned by now'. Handed over as a whole form; the s→sz alternation is NOT stated as a rule.\n\nPAYS A NAMED IOU: a2_shopping_func's note records that 'Czy mogę zapłacić kartą?' from its brief was changed to 'Czy mogę płacić kartą?' because 'zapłacić is PERFECTIVE and the standing decision for this batch is imperfective-only'. zapłacić is taught here, and the type item that produces zapłaciłem says so in its explain.\n\nGLOSSES follow AGENTS split-by-verb-type and b1_two_futures: the imperfective past is progressive ('I was writing'), the perfective past is plain ('I wrote it, finished'), and every future gloss distinguishes the one-go finished reading from 'will be doing'. No English gloss is used that would have to be un-taught.\n\nFORMS, and the persons call: perfective past in 1sg both genders + 3sg both genders; perfective future in all three singular persons; imperfective past in 1sg both genders only. Plural is virile territory and stays fenced, matching b1_arrive_leave and b2_motion_prefixes2. 3sg imperfective pasts (pisał, gotował, płacił, jadł) are deliberately NOT taught — no task demands one, and adding them would double the imperfective side for no contrast the unit does not already make.\n\nHOMOGRAPHS / check_new.py run on every candidate: all 41 taught forms verified NEW, zero collisions. Every recycled form re-checked for what it was taught AS: e-mail/list/obiad/zupę/śniadanie/rachunek/chleb are all pooled accusatives or masculine-inanimate objects identical to their dictionary form; gotuję/gotuje are recycled in exactly the a1_present_uje present they were taught as; jem/jesz in the a2_routine daily-routine present; płacę in the a2_shopping_func first-person; codziennie in the a2_chodzic habit job; już from b2_conjunctions; wysłała is pooled (a1 tech leaf's wysyłać family) and appears once, in a quiz frame, never as an answer.\n\nFENCED, absent from this file: sprzątać/posprzątać; the imperfective future (będę pisać) — b1_two_futures owns that contrast and it is not re-opened, so no będę form appears anywhere; 3sg/2sg imperfective pasts; all plural forms; oni/one; the conditional; imperatives of any of the eight verbs; any productive prefix rule or prefix-meaning claim — po-/na-/u-/z-/za- are named as unpredictable, never as meanings, which keeps faith with the JAMES-LOCKED O7 overrule (decision #2 puts na-/za- outside the lens set entirely) and leaves b2_prefix_lens and b2_prefix_two_jobs their material.\n\nFORKS, logged: (a) Dopasuj is a perfectly balanced 4x3 board — each of the four pairs contributes its imperfective past, its perfective past and its perfective future, all in the ja form, so the whole board IS the contrast (b2_jezdzic's anchor-rows precedent); the feminine and 3sg forms are drilled in Pisanie and Kontrola instead; (b) quiz distractors are pool-legal or this file's own taught forms only, with no invented non-words AND no untaught real Polish. FOUR LEAKS WERE CAUGHT IN SELF-REVIEW AND FIXED before the audit, all of them invisible to the auditor because distractors are not tagged: a first draft used zagotować/nagotować/przegotować as wrong-prefix distractors (real Polish, but untaught — the AGENTS rule is pool-legal, not merely real), the 3sg imperfective past Gotowała and the 2sg perfective past Zjadłeś (both outside this unit's logged persons call), and wysłała in a quiz frame (the pool owns wysyłać's present, not that perfective past); (c) Pisanie is 18 single forms typed whole, the minimal pattern unit for a conjugation, nothing composed anywhere near the 3-word cap; (d) the four new infinitives are taught via the intro tables and tagged, not drilled in Pisanie, matching b1_past_isc's treatment of iść.",
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_aspect_prefixes",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

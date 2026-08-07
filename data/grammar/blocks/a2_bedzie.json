@@ -1,0 +1,555 @@
+{
+  "id": "a2_bedzie",
+  "title": "Czas przyszły · będę",
+  "title_en": "Future tense · will + verb",
+  "level": "A2",
+  "tree_node": "a2_bedzie",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "Compound future: bedzie-helper + bare infinitive. Mirror image of a2_past_byc (that unit did the past of byc, this one does the future). TWO GIFTS made explicit in the intro: (1) the shape is already his -- a1_trunk_can taught modal + infinitive (Moge pracowac, Umiem plywac), so the only new thing is the helper, called out on slide 1 and again in a quiz explain; (2) the future has NO gender, so after a whole past block of bylem/bylam he types ONE form -- slide 2 is entirely this relief, with a bylem/bylam -> bede table, and quiz item 2 tests it directly. FENCED, must not appear anywhere: (a) the perfective future (napisze, zrobie, kupie) -- a completely different formation, B1; not mentioned, not hinted, and no item implies a second future exists; (b) the alternative past-participle future (bede pisal / bede pisala) -- one pattern only, and it would also hand back the gender the unit just took away. FORKS TAKEN: (i) the COPULAR future (bede w domu, bedzie dobrze) is NOT taught. 'bede byc' is not Polish, so the future of byc-as-copula has no place in a bede+infinitive unit; consequence, accepted: 'I will be at home' is not yet expressible, and no item implies it is. (ii) bedzie jechac appears exactly once (Uzycie 10). The idiomatic Polish future of jechac is the perfective pojade, which is fenced; the imperfective compound is correct and is what the course can currently express. (iii) GLOSS POLICY, extending the AGENTS past-gloss rule forward: dynamic-telic verbs (gotowac, czytac, kupowac, pic, robic) are glossed progressive -- 'will be cooking' -- because 'will cook' really maps to perfective ugotuje; atelic pracowac / mieszkac take plain 'will work / will live'. Slide 3 tells him outright that Polish has one form where English has two, so the progressive glosses do not read as a separate tense. Infinitives used are all in the taught pool; jechac comes from a2_jechac, which precedes this node.",
+  "focus_structures": [
+    "bedzie"
+  ],
+  "teaches_structures": [
+    "bedzie"
+  ],
+  "uses_structures": [
+    "bedzie",
+    "can_inf",
+    "past_byc",
+    "present",
+    "question",
+    "prep_w_loc",
+    "inst_transport",
+    "poss_nom",
+    "miec_acc"
+  ],
+  "intro": [
+    {
+      "title": "You already know this shape",
+      "title_pl": "Znany kształt",
+      "body": "Look at two sentences you can already build:\n\nMogę pracować. — I can work.\nUmiem pływać. — I can swim.\n\nA helper verb that carries the person, then a second verb left in its plain dictionary form. That is the whole shape, and you have had it since A1.\n\nThe future is that same shape with a new helper. Swap mogę for będę and you are talking about tomorrow:\n\nMogę pracować. — I can work.\nBędę pracować. — I will work.\n\nSo there is only one new thing in this unit: six forms of the helper.",
+      "body_pl": "Jak mogę / umiem + bezokolicznik. Nowy jest tylko pomocnik: będę.",
+      "table": {
+        "headers": [
+          "Person",
+          "Helper",
+          "Example"
+        ],
+        "rows": [
+          [
+            "ja",
+            "będę",
+            "Będę pracować."
+          ],
+          [
+            "ty",
+            "będziesz",
+            "Będziesz czytać."
+          ],
+          [
+            "on / ona / ono",
+            "będzie",
+            "Mama będzie gotować."
+          ],
+          [
+            "my",
+            "będziemy",
+            "Będziemy mieszkać w mieście."
+          ],
+          [
+            "wy",
+            "będziecie",
+            "Będziecie kupować chleb."
+          ],
+          [
+            "oni / one",
+            "będą",
+            "Dzieci będą pić mleko."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The future has no gender — none at all",
+      "title_pl": "Przyszłość bez rodzaju",
+      "body": "In the past you had to choose every time: byłem if a man is speaking, byłam if a woman is. Two forms for one English word.\n\nThe future does not do that. Będę is będę. A man says it, a woman says it, and it is spelled the same both times. There is no male form and no female form to pick between — for any of the six persons.\n\nAfter a whole block of byłem / byłam / byłeś / byłaś, this is a real rest. Six forms, and that is the end of the list.",
+      "body_pl": "Czas przeszły: byłem / byłam. Czas przyszły: będę — jeden kształt dla wszystkich.",
+      "table": {
+        "headers": [
+          "English",
+          "Past — pick one",
+          "Future — no choice"
+        ],
+        "rows": [
+          [
+            "I",
+            "byłem (m) · byłam (f)",
+            "będę"
+          ],
+          [
+            "you (sg)",
+            "byłeś (m) · byłaś (f)",
+            "będziesz"
+          ],
+          [
+            "he / she / it",
+            "był · była · było",
+            "będzie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The second verb never changes",
+      "title_pl": "Drugi czasownik bez zmian",
+      "body": "Only the helper takes a person ending. The verb after it stays exactly as you find it in a dictionary — pracować, czytać, gotować, pić, kupować, mieszkać, robić.\n\nBędę pracować. ✓\nBędę pracuję. ✗ — two person endings, one too many. Same mistake as saying Mogę pracuję.\n\nOne more thing worth knowing: English splits this in two — I will work and I will be working. Polish does not. Będę pracować covers both, and you never have to choose.",
+      "body_pl": "Osobę niesie tylko pomocnik. Drugi czasownik = bezokolicznik, zawsze.",
+      "examples": [
+        {
+          "en": "I will work.",
+          "pl": "Będę pracować."
+        },
+        {
+          "en": "You will be reading.",
+          "pl": "Będziesz czytać."
+        },
+        {
+          "en": "We will live in the city.",
+          "pl": "Będziemy mieszkać w mieście."
+        },
+        {
+          "en": "The children will be drinking milk.",
+          "pl": "Dzieci będą pić mleko."
+        }
+      ]
+    },
+    {
+      "title": "Saying when",
+      "title_pl": "Kiedy?",
+      "body": "Two time words you already have put the sentence firmly in the future: jutro (tomorrow) and w weekend (at the weekend).\n\nPut one at the front, exactly where you put wczoraj in the past, and the rest of the sentence is built the way you have just learned.",
+      "body_pl": "jutro · w weekend — na początku zdania, jak wczoraj.",
+      "examples": [
+        {
+          "en": "Yesterday Mum was at work.",
+          "pl": "Wczoraj mama była w pracy."
+        },
+        {
+          "en": "Tomorrow Mum will be cooking lunch.",
+          "pl": "Jutro mama będzie gotować obiad."
+        },
+        {
+          "en": "At the weekend we will be reading a book.",
+          "pl": "W weekend będziemy czytać książkę."
+        },
+        {
+          "en": "What will you be doing tomorrow?",
+          "pl": "Co będziesz robić jutro?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I will …",
+      "pl": "będę"
+    },
+    {
+      "en": "you will … (sg)",
+      "pl": "będziesz"
+    },
+    {
+      "en": "he / she will …",
+      "pl": "będzie"
+    },
+    {
+      "en": "we will …",
+      "pl": "będziemy"
+    },
+    {
+      "en": "you will … (pl)",
+      "pl": "będziecie"
+    },
+    {
+      "en": "they will …",
+      "pl": "będą"
+    },
+    {
+      "en": "I will work",
+      "pl": "będę pracować"
+    },
+    {
+      "en": "you will be reading",
+      "pl": "będziesz czytać"
+    },
+    {
+      "en": "she will be cooking",
+      "pl": "będzie gotować"
+    },
+    {
+      "en": "we will live",
+      "pl": "będziemy mieszkać"
+    },
+    {
+      "en": "you (plural) will be buying",
+      "pl": "będziecie kupować"
+    },
+    {
+      "en": "they will be drinking",
+      "pl": "będą pić"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Jutro ___ pracować. (ja)",
+      "choices": [
+        "będę",
+        "będziesz",
+        "będzie",
+        "będą"
+      ],
+      "answer": "będę",
+      "explain": "jutro puts the sentence in the future, and the helper carries the person — ja takes będę."
+    },
+    {
+      "prompt": "I will be cooking — a woman speaking →",
+      "choices": [
+        "będę gotować",
+        "będziesz gotować",
+        "będzie gotować",
+        "będą gotować"
+      ],
+      "answer": "będę gotować",
+      "explain": "There is no woman's form to look for. In the past you had to choose byłam over byłem; in the future będę is the only form there is."
+    },
+    {
+      "prompt": "Mama ___ gotować obiad.",
+      "choices": [
+        "będzie",
+        "będę",
+        "będziesz",
+        "będą"
+      ],
+      "answer": "będzie",
+      "explain": "mama is a she, so the helper is będzie — and tata would take będzie too. One form covers he, she and it."
+    },
+    {
+      "prompt": "Rodzice ___ mieszkać w mieście.",
+      "choices": [
+        "będą",
+        "będzie",
+        "będziemy",
+        "będziecie"
+      ],
+      "answer": "będą",
+      "explain": "rodzice is plural, so the subject is a they — będą."
+    },
+    {
+      "prompt": "Jutro ___ czytać książkę. (my)",
+      "choices": [
+        "będziemy",
+        "będziecie",
+        "będą",
+        "będzie"
+      ],
+      "answer": "będziemy"
+    },
+    {
+      "prompt": "W weekend ___ kupować chleb. (wy)",
+      "choices": [
+        "będziecie",
+        "będziemy",
+        "będą",
+        "będziesz"
+      ],
+      "answer": "będziecie"
+    },
+    {
+      "prompt": "Which is Polish?",
+      "choices": [
+        "Będę pracować.",
+        "Będę pracuję.",
+        "Będę pracujesz.",
+        "Będziesz pracuję."
+      ],
+      "answer": "Będę pracować.",
+      "explain": "Only the helper takes a person ending. The second verb stays in its dictionary form — exactly as it does after mogę."
+    },
+    {
+      "prompt": "Fix: Ja będziesz pić kawę. →",
+      "choices": [
+        "będę",
+        "będzie",
+        "będziemy",
+        "będą"
+      ],
+      "answer": "będę",
+      "explain": "The subject is ja, so the helper must be the ja-form. będziesz belongs to ty."
+    },
+    {
+      "prompt": "___ czytać jutro? (ty)",
+      "choices": [
+        "Będziesz",
+        "Będę",
+        "Będziecie",
+        "Będą"
+      ],
+      "answer": "Będziesz"
+    },
+    {
+      "prompt": "Wczoraj byłam w domu. Jutro ___ pracować.",
+      "choices": [
+        "będę",
+        "będziesz",
+        "będzie",
+        "będą"
+      ],
+      "answer": "będę",
+      "explain": "Same speaker, both sentences. The past made her write -am in byłam; the future asks for nothing of the kind — będę."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I will …",
+      "mode": "full_word",
+      "answer": "będę",
+      "accepts": [
+        "będę"
+      ],
+      "explain": "One form only. A man and a woman both write będę — the future keeps no gender."
+    },
+    {
+      "prompt_en": "you will … (sg)",
+      "mode": "full_word",
+      "answer": "będziesz",
+      "accepts": [
+        "będziesz"
+      ]
+    },
+    {
+      "prompt_en": "he / she will …",
+      "mode": "full_word",
+      "answer": "będzie",
+      "accepts": [
+        "będzie"
+      ],
+      "explain": "The past needed three here — był, była, było. The future needs one: będzie."
+    },
+    {
+      "prompt_en": "we will …",
+      "mode": "full_word",
+      "answer": "będziemy",
+      "accepts": [
+        "będziemy"
+      ]
+    },
+    {
+      "prompt_en": "you will … (pl)",
+      "mode": "full_word",
+      "answer": "będziecie",
+      "accepts": [
+        "będziecie"
+      ]
+    },
+    {
+      "prompt_en": "they will …",
+      "mode": "full_word",
+      "answer": "będą",
+      "accepts": [
+        "będą"
+      ]
+    },
+    {
+      "prompt_en": "I will work",
+      "mode": "full_word",
+      "answer": "będę pracować",
+      "accepts": [
+        "będę pracować"
+      ],
+      "explain": "Helper first, dictionary form second — the same two-part build as mogę pracować."
+    },
+    {
+      "prompt_en": "you will be reading (sg)",
+      "mode": "full_word",
+      "answer": "będziesz czytać",
+      "accepts": [
+        "będziesz czytać"
+      ]
+    },
+    {
+      "prompt_en": "they will be cooking",
+      "mode": "full_word",
+      "answer": "będą gotować",
+      "accepts": [
+        "będą gotować"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Tomorrow Mum will be cooking lunch.",
+      "answer": "Jutro mama będzie gotować obiad.",
+      "accepts": [
+        "Jutro mama będzie gotować obiad.",
+        "Jutro mama będzie gotować obiad",
+        "Mama będzie jutro gotować obiad.",
+        "Mama będzie jutro gotować obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad will work in the office.",
+      "answer": "Tata będzie pracować w biurze.",
+      "accepts": [
+        "Tata będzie pracować w biurze.",
+        "Tata będzie pracować w biurze"
+      ],
+      "explain": "będzie for Dad and będzie for Mum — the helper does not react to gender the way był / była did."
+    },
+    {
+      "prompt_en": "Type: At the weekend we will be reading a book.",
+      "answer": "W weekend będziemy czytać książkę.",
+      "accepts": [
+        "W weekend będziemy czytać książkę.",
+        "W weekend będziemy czytać książkę",
+        "Będziemy czytać książkę w weekend.",
+        "Będziemy czytać książkę w weekend"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children will be drinking milk.",
+      "answer": "Dzieci będą pić mleko.",
+      "accepts": [
+        "Dzieci będą pić mleko.",
+        "Dzieci będą pić mleko"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I will be buying bread.",
+      "answer": "Jutro będę kupować chleb.",
+      "accepts": [
+        "Jutro będę kupować chleb.",
+        "Jutro będę kupować chleb",
+        "Będę jutro kupować chleb.",
+        "Będę jutro kupować chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: What will you be doing tomorrow?",
+      "answer": "Co będziesz robić jutro?",
+      "accepts": [
+        "Co będziesz robić jutro?",
+        "Co będziesz robić jutro",
+        "Co jutro będziesz robić?",
+        "Co jutro będziesz robić"
+      ],
+      "explain": "co takes the front, then the helper, then the dictionary form. The question word does not disturb the two-part build."
+    },
+    {
+      "prompt_en": "Type: My parents will live in the city.",
+      "answer": "Rodzice będą mieszkać w mieście.",
+      "accepts": [
+        "Rodzice będą mieszkać w mieście.",
+        "Rodzice będą mieszkać w mieście",
+        "Moi rodzice będą mieszkać w mieście.",
+        "Moi rodzice będą mieszkać w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna will be drinking coffee.",
+      "answer": "Anna będzie pić kawę.",
+      "accepts": [
+        "Anna będzie pić kawę.",
+        "Anna będzie pić kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Will you (plural) be cooking lunch at the weekend?",
+      "answer": "Czy w weekend będziecie gotować obiad?",
+      "accepts": [
+        "Czy w weekend będziecie gotować obiad?",
+        "Czy w weekend będziecie gotować obiad",
+        "W weekend będziecie gotować obiad?",
+        "W weekend będziecie gotować obiad",
+        "Czy będziecie gotować obiad w weekend?",
+        "Czy będziecie gotować obiad w weekend"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother will be going by bus.",
+      "answer": "Mój brat będzie jechać autobusem.",
+      "accepts": [
+        "Mój brat będzie jechać autobusem.",
+        "Mój brat będzie jechać autobusem",
+        "Brat będzie jechać autobusem.",
+        "Brat będzie jechać autobusem"
+      ],
+      "explain": "jechać goes in after the helper untouched, like every other verb — and autobusem still tells you the means of travel."
+    }
+  ],
+  "teaches_lemmas": [
+    "będę",
+    "będziesz",
+    "będzie",
+    "będziemy",
+    "będziecie",
+    "będą"
+  ],
+  "uses_lemmas": [
+    "być",
+    "byłem",
+    "byłam",
+    "byłeś",
+    "byłaś",
+    "był",
+    "była",
+    "było",
+    "mogę",
+    "umiem",
+    "pracować",
+    "mieszkać",
+    "czytać",
+    "robić",
+    "pić",
+    "kupować",
+    "gotować",
+    "jechać",
+    "pływać",
+    "jutro",
+    "wczoraj",
+    "w weekend",
+    "mama",
+    "tata",
+    "brat",
+    "mój",
+    "dzieci",
+    "rodzice",
+    "anna",
+    "obiad",
+    "chleb",
+    "mleko",
+    "kawę",
+    "książkę",
+    "w domu",
+    "w pracy",
+    "w biurze",
+    "w mieście",
+    "autobusem",
+    "co",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_bedzie",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,592 @@
+{
+ "id": "b2_dat_pl",
+ "title": "Pomagam rodzicom · celownik",
+ "title_en": "The Dative plural · -om",
+ "level": "B2",
+ "tree_node": "b2_dat_pl",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 5, unit 3 of 7 (spine O9), and the block's plural-oblique strand closes with it. Dative plural -om: one ending, no gender split, no exception among the words used. Spine calls it 'deliberately small' and it is.\n\nTHE UNIT RUNS ON THE SAME TWELVE NOUNS AS b2_inst_pl, in the same order, and that is the design rather than laziness. Dad has now seen one fixed cast of people take three different endings on three consecutive nodes - z rodzicami, w domach, pomagam rodzicom - so the plural oblique cases read as one table with three columns instead of three unrelated word lists. Eleven of the twelve nouns carry straight over; brat is the one that does not, and why is below.\n\nTWELVE NEW FORMS, all verified NEW: rodzicom, dzieciom, ludziom, studentom, kolegom, siostrom, corkom, synom, klientom, pacjentom, kotom, ciociom.\n\nTHE HEADLINE IS THAT THE HARD PART IS BEHIND HIM. b1_dative_sg had to teach FOUR singular endings one word at a time - mamie, tacie, bratu, siostrze, studentowi, nauczycielowi - because the dative singular genuinely is unpredictable. The plural is a single -om for all of it. Slide 1 says this plainly and pairs studentowi -> studentom and siostrze -> siostrom, the two anchors from that pack whose plurals are in this unit's cast.\n\nHOW THE FORM IS BUILT is stated from LAST LESSON'S form, not from the dictionary word, because that is what is actually reliable here: nine of the twelve are last lesson's -ami with -om in its place (rodzicami -> rodzicom, kolegami -> kolegom, and so on). The 'drop a final vowel' rule that served b2_loc_pl and b2_inst_pl BREAKS on dzieci, whose final -i belongs to the stem: dzieci + om = dzieciom, and dropping the vowel would produce a fabrication. So dzieci and ludzie get their own slide instead of being forced into the general rule.\n\nSLIDE 3 IS THE PAYOFF FOR LAST LESSON'S EXCEPTION BOX. dziecko and ludzie took -mi rather than -ami and had to be learned whole; in the dative they are perfectly ordinary, dzieciom and ludziom. The slide says the useful part out loud: build these two from the plain word (dzieci, ludzie), NOT from last lesson's dziecmi/ludzmi, which is the mistake the previous unit sets up.\n\nbrat IS ABSENT BY DESIGN AND THIS IS THE UNIT'S ONE REAL GAP. Its dative plural is braciom, verified NEW, and it cannot be reached from brat by any rule this course has stated - it needs the braci- plural stem. b2_inst_pl one node back deliberately taught bracmi because a2_inst_z had made z bratem its very first board item; the same argument would justify braciom here, but this unit's entire claim is 'one ending, nothing to learn whole', and re-opening an exception box to hold a single word would cost more than the word is worth. So brat appears NOWHERE in the pack in any form - not in a table, not in a sentence, not as a distractor. A first draft quoted the owned dative SINGULAR bratu on slide 1 among the four singular endings; it was cut, because naming the word is exactly what invites a learner to reach for its plural, and the slide makes its point without it. The gap is logged rather than papered over. It is one string, and adding braciom to slide 3 beside dzieciom and ludziom is the cheap fix if Dad reaches for it.\n\nGOVERNORS ARE THE TWO HE ALREADY OWNS and no more: pomagac and dziekowac, both from b1_dative_sg. dziekuje (1sg) is owned all the way back at trunk_social_a1 as the bare social chunk 'Dziekuje.', and b1_dative_sg's own shorthand line says 'dziekuje (juz twoje)' before conjugating the rest, so using it as a verb that governs the dative is that pack's move, not a new one. THE a2_dat_chunks FRAME IS FENCED: podoba mi sie / smakuje mi take dative PRONOUNS, and putting a plural dative NOUN into that frame (podoba sie dzieciom) is a different construction shape, not a new ending. Held, logged, C1 or a later gym.\n\nDISTRACTORS ARE UNUSUALLY GOOD HERE AND THE TWO PREVIOUS UNITS ARE WHY. For most of the cast the choice list is now four real forms of the SAME noun in four different cases: siostra gives siostrom/siostrami/siostrze/siostra, corka gives corkami/corkom/corki/corka (that item's answer being LAST lesson's form), dziecko gives dzieciom/dziecmi/dzieckiem/dzieci, kolega gives kolegom/kolegami/kolega/kolega, student gives studentom/studentowi/studenci/student. Nothing is fabricated and nothing is imported. Where only three owned forms exist (rodzice, ludzie) the fourth button is another noun's real -om form, and the explain names the miss as semantic.\n\nQUIZ ITEM 9'S ANSWER IS LAST LESSON'S ENDING, not this one - corkami after z - for the same reason b2_loc_pl's first item answered domu. Item 10 puts both endings on ONE noun in ONE sentence (Mieszkam z rodzicami i pomagam rodzicom), which is the sharpest discrimination the block can make and is only possible because the three units share a cast.\n\nFENCED, all verified NEW: braciom and bratom (above); nauczycielom and lekarzom - nauczyciel and lekarze appear as SUBJECTS only, which keeps the new-form count at twelve; czemu, the dative of co (komu is owned from b2_kim_czym and is used, czemu is not); mamom and tatom, deliberately, since mamy is AGENTS.md's own headline homograph - taught as the VERB 'we have' at a1_miec - and this pack will not go near that string; all dative plural PRONOUNS beyond the owned mi/ci/mu/jej/nam/wam/im. No plural adjectives anywhere (spine O3 -> C1), so this unit is bare-noun throughout, like the two before it.",
+ "focus_structures": [
+  "dat_pl"
+ ],
+ "teaches_structures": [
+  "dat_pl"
+ ],
+ "teaches_lemmas": [
+  "rodzicom",
+  "dzieciom",
+  "ludziom",
+  "studentom",
+  "kolegom",
+  "siostrom",
+  "córkom",
+  "synom",
+  "klientom",
+  "pacjentom",
+  "kotom",
+  "ciociom"
+ ],
+ "uses_structures": [
+  "dat_pl",
+  "dative_sg",
+  "inst_pl",
+  "inst_z",
+  "loc_pl",
+  "prep_w_loc",
+  "prep_place",
+  "byc_present",
+  "present",
+  "present_am",
+  "present_uje",
+  "plural_nom",
+  "virile_nom",
+  "gen_pl",
+  "question_cases",
+  "conjunctions",
+  "poss_nom"
+ ],
+ "intro": [
+  {
+   "title": "The hard part was the singular — this is the easy half",
+   "title_pl": "komu? · -om",
+   "body": "When you learned this case for one person, you had to take several different endings one word at a time: mamie, tacie, siostrze, studentowi, nauczycielowi. There was no rule and you simply learned each one. For more than one person there is a single ending, -om, and it covers everything — masculine, feminine, neuter, all of it. That is the third and last of the three plural endings this block gives you.",
+   "body_pl": "celownik, liczba mnoga: -om",
+   "table": {
+    "headers": [
+     "After...",
+     "Ending",
+     "Example"
+    ],
+    "rows": [
+     [
+      "w, na, o",
+      "-ach",
+      "w domach"
+     ],
+     [
+      "z",
+      "-ami",
+      "z rodzicami"
+     ],
+     [
+      "pomagam, dziękuję",
+      "-om",
+      "pomagam rodzicom"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "Building it — start from last lesson's form",
+   "title_pl": "z rodzicami → rodzicom",
+   "body": "The quickest way to this form is to take last lesson's word and put -om where -ami was. That works for nearly every word you have. Notice there is no little word in front this time: with needed z, but helping and thanking need nothing at all — the ending does the whole job on its own.",
+   "body_pl": "-ami → -om",
+   "table": {
+    "headers": [
+     "Last lesson",
+     "This lesson"
+    ],
+    "rows": [
+     [
+      "z rodzicami",
+      "rodzicom"
+     ],
+     [
+      "z kolegami",
+      "kolegom"
+     ],
+     [
+      "z siostrami",
+      "siostrom"
+     ],
+     [
+      "z córkami",
+      "córkom"
+     ],
+     [
+      "z kotami",
+      "kotom"
+     ],
+     [
+      "z ciociami",
+      "ciociom"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The two that refused last lesson are ordinary here",
+   "title_pl": "dzieciom · ludziom",
+   "body": "Last lesson dziecko and ludzie would not take -ami and you had to learn z dziećmi and z ludźmi whole. Here they behave like everything else. One warning, and it is the only thing in this lesson to watch: build these two from the plain words dzieci and ludzie, not from last lesson's forms. The -mi ones are a dead end — go back to the word itself and add the ending.",
+   "body_pl": "dzieci → dzieciom · ludzie → ludziom",
+   "table": {
+    "headers": [
+     "Plain word",
+     "Last lesson",
+     "This lesson"
+    ],
+    "rows": [
+     [
+      "dzieci",
+      "z dziećmi",
+      "dzieciom"
+     ],
+     [
+      "ludzie",
+      "z ludźmi",
+      "ludziom"
+     ]
+    ]
+   }
+  },
+  {
+   "title": "What pulls it — the two verbs you already have",
+   "title_pl": "pomagam… · dziękuję…",
+   "body": "Nothing new about when this form turns up. The same two verbs that pulled it in the singular pull it in the plural: pomagam (I help) and dziękuję (I thank). Both of them always take this form and never the object form. Only the number has changed.",
+   "body_pl": "pomagać · dziękować + celownik",
+   "table": {
+    "headers": [
+     "Verb",
+     "One",
+     "More than one"
+    ],
+    "rows": [
+     [
+      "pomagam",
+      "Pomagam siostrze.",
+      "Pomagam siostrom."
+     ],
+     [
+      "pomaga",
+      "Nauczyciel pomaga studentowi.",
+      "Nauczyciel pomaga studentom."
+     ],
+     [
+      "dziękuję",
+      "Dziękuję tacie.",
+      "Dziękuję rodzicom."
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "to/for my parents",
+   "pl": "rodzicom"
+  },
+  {
+   "en": "to/for the children",
+   "pl": "dzieciom"
+  },
+  {
+   "en": "to/for people",
+   "pl": "ludziom"
+  },
+  {
+   "en": "to/for students",
+   "pl": "studentom"
+  },
+  {
+   "en": "to/for friends",
+   "pl": "kolegom"
+  },
+  {
+   "en": "to/for my sisters",
+   "pl": "siostrom"
+  },
+  {
+   "en": "to/for my daughters",
+   "pl": "córkom"
+  },
+  {
+   "en": "to/for my sons",
+   "pl": "synom"
+  },
+  {
+   "en": "to/for clients",
+   "pl": "klientom"
+  },
+  {
+   "en": "to/for patients",
+   "pl": "pacjentom"
+  },
+  {
+   "en": "to/for the cats",
+   "pl": "kotom"
+  },
+  {
+   "en": "to/for my aunts",
+   "pl": "ciociom"
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "Pomagam ___ . (my parents)",
+   "choices": [
+    "rodzicom",
+    "rodzicami",
+    "rodzice",
+    "dzieciom"
+   ],
+   "answer": "rodzicom",
+   "explain": "pomagam always takes this ending. rodzicami is the form after z — right word, wrong job. dzieciom has the right ending but means the children."
+  },
+  {
+   "prompt": "Mama pomaga ___ . (the children)",
+   "choices": [
+    "dzieciom",
+    "dziećmi",
+    "dzieci",
+    "dzieckiem"
+   ],
+   "answer": "dzieciom",
+   "explain": "This is the word that refused last lesson. Here it is ordinary — but build it from dzieci, not from dziećmi. dzieckiem is one child."
+  },
+  {
+   "prompt": "Nauczyciel pomaga ___ . (the students)",
+   "choices": [
+    "studentom",
+    "studentowi",
+    "studenci",
+    "student"
+   ],
+   "answer": "studentom",
+   "explain": "studentowi is one student — one of the four singular endings you had to learn whole. The plural needs none of that: -om, every time."
+  },
+  {
+   "prompt": "Tata pomaga ___ . (clients)",
+   "choices": [
+    "klientom",
+    "klientami",
+    "klienci",
+    "klient"
+   ],
+   "answer": "klientom",
+   "explain": "klientami is last lesson's form and would need z in front of it. klienci is the subject form — Klienci są w sklepie."
+  },
+  {
+   "prompt": "Dziękujemy ___ . (friends)",
+   "choices": [
+    "kolegom",
+    "kolegami",
+    "kolegą",
+    "kolega"
+   ],
+   "answer": "kolegom",
+   "explain": "dziękować takes this form exactly as pomagać does. All four of these are real forms of the same word — only the job tells them apart."
+  },
+  {
+   "prompt": "Babcia pomaga ___ . (my aunts)",
+   "choices": [
+    "ciociom",
+    "ciociami",
+    "ciocią",
+    "ciocia"
+   ],
+   "answer": "ciociom",
+   "explain": "z ciocią was one aunt, z ciociami more than one, ciociom is what pomaga needs. Same word, three jobs, three endings."
+  },
+  {
+   "prompt": "Pomagamy ___ . (my sisters)",
+   "choices": [
+    "siostrom",
+    "siostrami",
+    "siostrze",
+    "siostrą"
+   ],
+   "answer": "siostrom",
+   "explain": "siostrze was the singular of this very case, and it was one of the four you had to learn one at a time. In the plural there is nothing to learn."
+  },
+  {
+   "prompt": "Lekarze pomagają ___ . (patients)",
+   "choices": [
+    "pacjentom",
+    "pacjentami",
+    "pacjenci",
+    "pacjent"
+   ],
+   "answer": "pacjentom",
+   "explain": "pomagają is still the same verb and still takes the same form — the person doing the helping never changes what the ending is."
+  },
+  {
+   "prompt": "Mieszkam z ___ . (with my daughters)",
+   "choices": [
+    "córkami",
+    "córkom",
+    "córki",
+    "córką"
+   ],
+   "answer": "córkami",
+   "explain": "This one is not this lesson's form. z still takes -ami, exactly as it did last lesson. -om belongs to pomagam and dziękuję, which have no little word in front."
+  },
+  {
+   "prompt": "I live with my parents and I help my parents. →",
+   "choices": [
+    "Mieszkam z rodzicami i pomagam rodzicom.",
+    "Mieszkam z rodzicami i pomagam rodzicami.",
+    "Mieszkam z rodzicom i pomagam rodzicom.",
+    "Mieszkam z rodzice i pomagam rodzicom."
+   ],
+   "answer": "Mieszkam z rodzicami i pomagam rodzicom.",
+   "explain": "One word, one sentence, two different endings — and English gives you no hint at all, because it says my parents both times. z decides the first, pomagam decides the second."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "to/for my parents",
+   "mode": "full_word",
+   "answer": "rodzicom",
+   "accepts": [
+    "rodzicom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the children",
+   "mode": "full_word",
+   "answer": "dzieciom",
+   "accepts": [
+    "dzieciom"
+   ]
+  },
+  {
+   "prompt_en": "to/for people",
+   "mode": "full_word",
+   "answer": "ludziom",
+   "accepts": [
+    "ludziom"
+   ]
+  },
+  {
+   "prompt_en": "to/for students",
+   "mode": "full_word",
+   "answer": "studentom",
+   "accepts": [
+    "studentom"
+   ]
+  },
+  {
+   "prompt_en": "to/for friends",
+   "mode": "full_word",
+   "answer": "kolegom",
+   "accepts": [
+    "kolegom"
+   ]
+  },
+  {
+   "prompt_en": "to/for my sisters",
+   "mode": "full_word",
+   "answer": "siostrom",
+   "accepts": [
+    "siostrom"
+   ]
+  },
+  {
+   "prompt_en": "to/for my daughters",
+   "mode": "full_word",
+   "answer": "córkom",
+   "accepts": [
+    "córkom"
+   ]
+  },
+  {
+   "prompt_en": "to/for my sons",
+   "mode": "full_word",
+   "answer": "synom",
+   "accepts": [
+    "synom"
+   ]
+  },
+  {
+   "prompt_en": "to/for clients",
+   "mode": "full_word",
+   "answer": "klientom",
+   "accepts": [
+    "klientom"
+   ]
+  },
+  {
+   "prompt_en": "to/for patients",
+   "mode": "full_word",
+   "answer": "pacjentom",
+   "accepts": [
+    "pacjentom"
+   ]
+  },
+  {
+   "prompt_en": "to/for the cats",
+   "mode": "full_word",
+   "answer": "kotom",
+   "accepts": [
+    "kotom"
+   ]
+  },
+  {
+   "prompt_en": "to/for my aunts",
+   "mode": "full_word",
+   "answer": "ciociom",
+   "accepts": [
+    "ciociom"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: The teacher helps the students.",
+   "answer": "Nauczyciel pomaga studentom.",
+   "accepts": [
+    "Nauczyciel pomaga studentom.",
+    "Nauczyciel pomaga studentom"
+   ]
+  },
+  {
+   "prompt_en": "Type: The children help their parents.",
+   "answer": "Dzieci pomagają rodzicom.",
+   "accepts": [
+    "Dzieci pomagają rodzicom.",
+    "Dzieci pomagają rodzicom"
+   ]
+  },
+  {
+   "prompt_en": "Type: The doctors help patients.",
+   "answer": "Lekarze pomagają pacjentom.",
+   "accepts": [
+    "Lekarze pomagają pacjentom.",
+    "Lekarze pomagają pacjentom"
+   ]
+  },
+  {
+   "prompt_en": "Type: My sister helps the children.",
+   "answer": "Moja siostra pomaga dzieciom.",
+   "accepts": [
+    "Moja siostra pomaga dzieciom.",
+    "Moja siostra pomaga dzieciom"
+   ]
+  },
+  {
+   "prompt_en": "Type: I thank my friends.",
+   "answer": "Dziękuję kolegom.",
+   "accepts": [
+    "Dziękuję kolegom.",
+    "Dziękuję kolegom"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad helps his sons, and Mum helps her daughters.",
+   "answer": "Tata pomaga synom, a mama pomaga córkom.",
+   "accepts": [
+    "Tata pomaga synom, a mama pomaga córkom.",
+    "Tata pomaga synom, a mama pomaga córkom"
+   ]
+  },
+  {
+   "prompt_en": "Type: I live with my parents and I help my parents.",
+   "answer": "Mieszkam z rodzicami i pomagam rodzicom.",
+   "accepts": [
+    "Mieszkam z rodzicami i pomagam rodzicom.",
+    "Mieszkam z rodzicami i pomagam rodzicom"
+   ],
+   "explain": "The same word twice, and English marks nothing. z pulls -ami; pomagam pulls -om and has no little word in front of it at all."
+  },
+  {
+   "prompt_en": "Type: My grandmother helps my aunts.",
+   "answer": "Babcia pomaga ciociom.",
+   "accepts": [
+    "Babcia pomaga ciociom.",
+    "Babcia pomaga ciociom"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad works with clients and helps clients.",
+   "answer": "Tata pracuje z klientami i pomaga klientom.",
+   "accepts": [
+    "Tata pracuje z klientami i pomaga klientom.",
+    "Tata pracuje z klientami i pomaga klientom"
+   ],
+   "explain": "The same pair of endings on a second word, so you can see it is the little word and the verb doing the deciding, not anything about klient itself."
+  },
+  {
+   "prompt_en": "Type: We thank the people in the shops.",
+   "answer": "Dziękujemy ludziom w sklepach.",
+   "accepts": [
+    "Dziękujemy ludziom w sklepach.",
+    "Dziękujemy ludziom w sklepach"
+   ],
+   "explain": "All three of this block's endings are now in play: ludziom because dziękujemy pulls it, sklepach because w does."
+  }
+ ],
+ "uses_lemmas": [
+  "rodzice",
+  "rodzicami",
+  "dzieci",
+  "dziećmi",
+  "dzieckiem",
+  "ludzie",
+  "ludźmi",
+  "student",
+  "studenci",
+  "studentowi",
+  "kolega",
+  "kolegą",
+  "kolegami",
+  "siostra",
+  "siostrą",
+  "siostrze",
+  "siostrami",
+  "córki",
+  "córką",
+  "córkami",
+  "klient",
+  "klienci",
+  "klientami",
+  "pacjent",
+  "pacjenci",
+  "pacjentami",
+  "kotami",
+  "ciocia",
+  "ciocią",
+  "ciociami",
+  "lekarze",
+  "mama",
+  "tata",
+  "tacie",
+  "mamie",
+  "babcia",
+  "sklepach",
+  "domach",
+  "są",
+  "pomagać",
+  "pomagam",
+  "pomaga",
+  "pomagamy",
+  "pomagają",
+  "dziękować",
+  "dziękuję",
+  "dziękujemy",
+  "mieszkam",
+  "pracuje",
+  "komu",
+  "moja",
+  "i",
+  "a",
+  "w sklepie",
+  "nauczyciel",
+  "nauczycielowi"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_dat_pl",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

@@ -1,0 +1,691 @@
+{
+  "id": "c1_word_order",
+  "title": "Mówi się · znam go",
+  "title_en": "Where the small words stand",
+  "level": "C1",
+  "tree_node": "c1_word_order",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 3, unit 5 (C1-SPINE spine O6, B2-SPINE inbox item 19). ONE NEW STRING IN THE WHOLE UNIT: jego. RECOGNITION-LEANING AND SHAPE-BASED THROUGHOUT - the a2_jechac / b2_sie_impersonal treatment the spine names, two shapes shown as a picture and no rule claimed. The rejected alternative was a full clitic-position and topic-comment treatment, killed by the AGENTS line that killed the fleeting-e rule in b2_gen_pl_full: this learner gets no value from a rule he cannot trust. THE UNIFYING INSIGHT THE UNIT IS BUILT ON is that the short object pronouns and sie behave the SAME WAY - both lean on the word in front of them, both sit after the verb when nothing else opens the clause, both move in front of the verb when something does, and NEITHER CAN OPEN A CLAUSE. b2_sie_impersonal had already shown sie's two shapes as a table fact; this unit shows that go/ja/mu do it too, which turns two memorised habits into one picture. THE HARDEST DISCIPLINE IN THIS PACK IS NEGATIVE AND IT SHAPED KONTROLA: a word-order unit can very easily mark natural Polish WRONG. b2_pron_acc's own note records that it avoided short pronouns with noun subjects entirely because 'Mama kocha cie would be marked where Mama cie kocha is neutral, and choosing between them is a word-order fact, not a pronoun fact'. MARKED IS NOT UNGRAMMATICAL, so NO MERELY-MARKED STRING IS EVER OFFERED AS A WRONG ANSWER anywhere in the pack. Mama zna go. appears in no distractor. Every wrong choice is either genuinely illegal (a short form opening a clause - Go znam., Mu mama zna.), a real form in the wrong case (Znam ci., Mama go pomaga., Tata jej lubi.), or a different sentence with a different meaning (Tu nie pali. = he is not smoking here). The neutral order Mama go zna. is therefore TAUGHT ON A SLIDE AS A PICTURE and produced in Pisanie and Uzycie, but the learner is never asked to condemn its alternative. PAYS FOUR NAMED FENCES AT ONCE: b2_pron_acc's ('the fuller story is left where B2-SPINE's C1 list puts it, item 19'), a2_sie's NO CLITIC-PLACEMENT RULES, b2_sie_impersonal's refusal to claim sie goes second in the clause - which this pack also refuses, showing only the two attested shapes and no third - and the INVERTED COUNTED SUBJECT (W domu bylo piec okien) held by BOTH b2_num_subject and b2_plural_gym. The counted-subject slide adds no agreement fact: the neuter singular for 5-and-up and the ordinary plural for 2-4 are b2_num_subject's, recycled, and the only new thing is that the place phrase can stand in front. ADJECTIVES ARE ABSENT from every counted phrase for the same reason b2_num_subject gave - a genitive plural adjective is C1 Block 2 material and this unit sits before it on the path. jego is taught for ONE job only: it is the form that CAN open a clause, which is what makes the emphasis possible; the rest of the long-form paradigm is not opened, and jemu is verified NEW and stays out.",
+  "focus_structures": [
+    "word_order"
+  ],
+  "teaches_structures": [
+    "word_order"
+  ],
+  "teaches_lemmas": [
+    "jego"
+  ],
+  "uses_structures": [
+    "byc_present",
+    "past_byc",
+    "miec_present",
+    "miec_acc",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "sie_reflexive",
+    "sie_impersonal",
+    "pron_acc",
+    "pron_prep_12",
+    "dative_pron",
+    "dative_sg",
+    "numbers_gen",
+    "num_subject",
+    "gen_pl",
+    "gen_pl_full",
+    "plural_nom",
+    "virile_nom",
+    "prep_w_loc",
+    "question",
+    "questions2",
+    "negation",
+    "ze_clauses",
+    "participle_pass"
+  ],
+  "intro": [
+    {
+      "title": "The endings already say who did what — so the order says something else",
+      "title_pl": "Znam go. · Jego znam.",
+      "body": "In English the order of the words IS the grammar: \"Dad helps Mum\" and \"Mum helps Dad\" are different sentences because the words moved. Polish does not need word order for that job, because the endings have already done it.\n\nSo Polish spends its word order on something English handles with the voice: what is being emphasised, and what is old news. Moving a word to the front puts weight on it.\n\nThat freedom has one important limit, and it is what this unit is actually about. The SHORT words — go, ją, mu, się — cannot be moved anywhere you like. They lean on the word in front of them, and there are exactly two places they turn up.",
+      "body_pl": "Znam go. · Jego znam.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What has changed"
+        ],
+        "rows": [
+          [
+            "Znam go.",
+            "I know him.",
+            "the plain sentence"
+          ],
+          [
+            "Jego znam.",
+            "HIM I know.",
+            "he is moved to the front, so the weight falls on him"
+          ],
+          [
+            "Mama pomaga tacie.",
+            "Mum helps Dad.",
+            "the plain sentence"
+          ],
+          [
+            "Tacie pomaga mama.",
+            "Dad is the one Mum helps.",
+            "same endings, same meaning — different emphasis"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The short words lean backwards — so they never come first",
+      "title_pl": "Znam go. · Mama go zna.",
+      "body": "go, ją, je, mu, mi, ci, cię are short and unstressed. They have to lean on something already said, which means there must be a word in front of them.\n\nThat gives exactly two shapes. If the verb opens the sentence, the pronoun follows it: Znam go. If a subject or another word opens the sentence, the pronoun leans on that instead and stands before the verb: Mama go zna.\n\nWhat you cannot do is start with one. Go znam is not a Polish sentence — there is nothing for it to lean on.",
+      "body_pl": "Znam go. · Mama go zna.",
+      "table": {
+        "headers": [
+          "What opens the sentence",
+          "Where the pronoun stands",
+          "Example"
+        ],
+        "rows": [
+          [
+            "the verb (no subject word)",
+            "straight after the verb",
+            "Znam go."
+          ],
+          [
+            "a noun subject",
+            "between the subject and the verb",
+            "Mama go zna."
+          ],
+          [
+            "a noun subject",
+            "between the subject and the verb",
+            "Tata ją lubi."
+          ],
+          [
+            "a noun subject",
+            "between the subject and the verb",
+            "Mama mu pomaga."
+          ],
+          [
+            "nothing — the pronoun itself",
+            "not possible",
+            "Go znam. ✗"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "się does exactly the same thing",
+      "title_pl": "Nazywam się Anna. · Jak się nazywasz?",
+      "body": "This is worth seeing side by side with the slide before, because it turns two separate habits into one picture.\n\nsię is short and unstressed too, and it behaves identically. Verb first, and się follows it: Nazywam się Anna. Something else first — a question word, a place word — and się leans on that instead, in front of the verb: Jak się nazywasz? Gdzie się kupuje bilet? Tu się nie pali.\n\nYou have been producing both shapes since A1 without being told they were a pattern. There is no third shape here to learn, and nothing to work out sentence by sentence.",
+      "body_pl": "Jak się masz? · Gdzie się kupuje bilet?",
+      "table": {
+        "headers": [
+          "What opens the clause",
+          "Where się stands",
+          "Example"
+        ],
+        "rows": [
+          [
+            "the verb",
+            "straight after the verb",
+            "Nazywam się Anna."
+          ],
+          [
+            "the verb",
+            "straight after the verb",
+            "Mówi się, że sklep jest zamknięty."
+          ],
+          [
+            "a question word",
+            "in front of the verb",
+            "Jak się nazywasz?"
+          ],
+          [
+            "a question word",
+            "in front of the verb",
+            "Gdzie się kupuje bilet?"
+          ],
+          [
+            "a place word",
+            "in front of the verb",
+            "Tu się nie pali."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "To put the weight on him, you need the long form",
+      "title_pl": "go → jego · cię → ciebie",
+      "body": "Emphasis needs a word that can be stressed, and go cannot be. So Polish keeps a second, longer form for exactly this job, and it is the one that can stand at the front.\n\njego is the long form of go; ciebie is the long form of cię, which you already have. Both can open a sentence, and when they do, that is the emphasis.\n\nThe short form is the ordinary one and remains what you use nearly all the time. Reach for the long form only when you want the weight, the way English would say HIM rather than him.",
+      "body_pl": "Jego znam. · Ciebie znam.",
+      "table": {
+        "headers": [
+          "Short — ordinary",
+          "Long — stressed",
+          "English"
+        ],
+        "rows": [
+          [
+            "Znam go.",
+            "Jego znam.",
+            "I know him. → HIM I know."
+          ],
+          [
+            "Znam cię.",
+            "Ciebie znam.",
+            "I know you. → YOU I know."
+          ],
+          [
+            "go",
+            "jego",
+            "him"
+          ],
+          [
+            "cię",
+            "ciebie",
+            "you"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A counted subject likes to come last",
+      "title_pl": "W domu było pięć okien.",
+      "body": "One more shape, and it is the one an English speaker is least likely to guess.\n\nWhen you say how many of something there were somewhere, Polish usually puts the place first and the counted phrase last: W domu było pięć okien. English does the same trick with \"there\" — \"there were five windows in the house\" — so the shape is familiar even though the words are not.\n\nThe verb agreement is the one you already know and nothing here changes it: five and above takes the neuter singular było, two to four takes the ordinary plural były.",
+      "body_pl": "miejsce → czasownik → ile",
+      "table": {
+        "headers": [
+          "Place",
+          "Verb",
+          "How many",
+          "Whole sentence"
+        ],
+        "rows": [
+          [
+            "W domu",
+            "było",
+            "pięć okien",
+            "W domu było pięć okien."
+          ],
+          [
+            "W domu",
+            "były",
+            "dwa okna",
+            "W domu były dwa okna."
+          ],
+          [
+            "W parku",
+            "było",
+            "pięć osób",
+            "W parku było pięć osób."
+          ],
+          [
+            "W parku",
+            "były",
+            "dwie osoby",
+            "W parku były dwie osoby."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What to carry away",
+      "title_pl": "Mama go zna. · Jak się nazywasz?",
+      "body": "Three things, and none of them is a rule you have to apply word by word.\n\nThe endings carry who did what, so moving a word changes the emphasis and not the meaning. The short words — go, ją, je, mu, mi, ci, cię and się — lean backwards, so they sit after the verb when the verb comes first and in front of it when anything else does. And if you want to put the weight on a person, use the long form, because only the long form can stand at the front.\n\nWhere Polish leaves you a genuine choice, both orders are correct. This unit is about the places where there is no choice.",
+      "body_pl": "Znam go. · Mama go zna. · Jego znam.",
+      "table": {
+        "headers": [
+          "The shape",
+          "Example",
+          "Why"
+        ],
+        "rows": [
+          [
+            "verb first → short word after it",
+            "Znam go.",
+            "it leans on the verb"
+          ],
+          [
+            "something else first → short word before the verb",
+            "Mama go zna.",
+            "it leans on that instead"
+          ],
+          [
+            "question word first → się before the verb",
+            "Jak się nazywasz?",
+            "the same behaviour as go"
+          ],
+          [
+            "weight on the person → the long form, at the front",
+            "Jego znam.",
+            "only the long form can be stressed"
+          ],
+          [
+            "how many, somewhere → place first, count last",
+            "W domu było pięć okien.",
+            "the English \"there were…\" shape"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I know him · the plain sentence",
+      "pl": "Znam go"
+    },
+    {
+      "en": "HIM I know · the weight on him",
+      "pl": "Jego znam"
+    },
+    {
+      "en": "YOU I know · the weight on you",
+      "pl": "Ciebie znam"
+    },
+    {
+      "en": "Mum knows him",
+      "pl": "Mama go zna"
+    },
+    {
+      "en": "Dad likes her",
+      "pl": "Tata ją lubi"
+    },
+    {
+      "en": "Mum helps him",
+      "pl": "Mama mu pomaga"
+    },
+    {
+      "en": "the students know him",
+      "pl": "Studenci go znają"
+    },
+    {
+      "en": "my name is Anna · verb first",
+      "pl": "Nazywam się Anna"
+    },
+    {
+      "en": "what's your name? · question word first",
+      "pl": "Jak się nazywasz?"
+    },
+    {
+      "en": "where do you buy a ticket?",
+      "pl": "Gdzie się kupuje bilet?"
+    },
+    {
+      "en": "there's no smoking here",
+      "pl": "Tu się nie pali"
+    },
+    {
+      "en": "there were five windows in the house",
+      "pl": "W domu było pięć okien"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "HIM I know — the weight on him →",
+      "choices": [
+        "Jego znam.",
+        "Go znam.",
+        "Mu znam.",
+        "Cię znam."
+      ],
+      "answer": "Jego znam.",
+      "explain": "Only a long form can stand at the front, because only a long form can be stressed. go, mu and cię are short — they need a word in front of them to lean on."
+    },
+    {
+      "prompt": "YOU I know — the weight on you →",
+      "choices": [
+        "Ciebie znam.",
+        "Cię znam.",
+        "Ci znam.",
+        "Go znam."
+      ],
+      "answer": "Ciebie znam.",
+      "explain": "ciebie is the long form of cię, and it is the one that can open the sentence. ci is the Dative and belongs to a different slot altogether."
+    },
+    {
+      "prompt": "I know him — the plain sentence, no emphasis →",
+      "choices": [
+        "Znam go.",
+        "Go znam.",
+        "Znam mu.",
+        "Znam ci."
+      ],
+      "answer": "Znam go.",
+      "explain": "The verb opens the sentence, so the short pronoun leans on it and follows. znać acts on an object, so it takes the Accusative go — mu and ci are Dative forms."
+    },
+    {
+      "prompt": "Mum knows him. →",
+      "choices": [
+        "Mama go zna.",
+        "Go mama zna.",
+        "Mama mu zna.",
+        "Mama się zna go."
+      ],
+      "answer": "Mama go zna.",
+      "explain": "Mama opens the sentence, so go leans on Mama and stands in front of the verb. Starting with go is the one thing that is not possible."
+    },
+    {
+      "prompt": "Dad likes her. →",
+      "choices": [
+        "Tata ją lubi.",
+        "Ją tata lubi.",
+        "Tata jej lubi.",
+        "Tata się ją lubi."
+      ],
+      "answer": "Tata ją lubi.",
+      "explain": "Same shape as Mama go zna. jej is the Dative and Genitive form; lubić acts on an object, so it needs the Accusative ją."
+    },
+    {
+      "prompt": "Mum helps him. →",
+      "choices": [
+        "Mama mu pomaga.",
+        "Mu mama pomaga.",
+        "Mama go pomaga.",
+        "Mama jego pomaga."
+      ],
+      "answer": "Mama mu pomaga.",
+      "explain": "pomagać chooses the Dative, so the pronoun is mu, not go or jego. Its position is the ordinary one — after the subject, before the verb."
+    },
+    {
+      "prompt": "The students know him. →",
+      "choices": [
+        "Studenci go znają.",
+        "Go studenci znają.",
+        "Studenci mu znają.",
+        "Studenci się go znają."
+      ],
+      "answer": "Studenci go znają.",
+      "explain": "A plural subject changes nothing about where the short word stands."
+    },
+    {
+      "prompt": "What's your name? →",
+      "choices": [
+        "Jak się nazywasz?",
+        "Jak nazywasz się?",
+        "Się jak nazywasz?",
+        "Jak nazywasz?"
+      ],
+      "answer": "Jak się nazywasz?",
+      "explain": "The question word opens the clause, so się leans on it and stands in front of the verb. This is the order you have been producing since A1 in Jak się masz?"
+    },
+    {
+      "prompt": "My name is Anna. →",
+      "choices": [
+        "Nazywam się Anna.",
+        "Się nazywam Anna.",
+        "Nazywam Anna się.",
+        "Nazywam sobie Anna."
+      ],
+      "answer": "Nazywam się Anna.",
+      "explain": "Nothing stands in front of the verb here, so się follows it. And się can no more open a sentence than go can."
+    },
+    {
+      "prompt": "There's no smoking here. →",
+      "choices": [
+        "Tu się nie pali.",
+        "Się tu nie pali.",
+        "Tu nie się pali.",
+        "Tu nie pali."
+      ],
+      "answer": "Tu się nie pali.",
+      "explain": "Tu opens the clause, so się leans on it. Tu nie pali. is a different sentence — it means he is not smoking here."
+    },
+    {
+      "prompt": "There were five windows in the house. →",
+      "choices": [
+        "W domu było pięć okien.",
+        "W domu były pięć okien.",
+        "W domu było pięć okna.",
+        "W domu było pięć okno."
+      ],
+      "answer": "W domu było pięć okien.",
+      "explain": "Five and above takes the neuter singular było and the Genitive plural okien. Nothing about putting the place first changes that."
+    },
+    {
+      "prompt": "There were two windows in the house. →",
+      "choices": [
+        "W domu były dwa okna.",
+        "W domu było dwa okna.",
+        "W domu były dwa okien.",
+        "W domu było dwa okno."
+      ],
+      "answer": "W domu były dwa okna.",
+      "explain": "Two to four keeps the ordinary plural — były dwa okna — exactly as it did when the counted phrase stood at the front."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "HIM I know. — the weight on him, so the long form",
+      "mode": "cloze",
+      "frame": "___ znam.",
+      "answer": "Jego",
+      "accepts": [
+        "Jego"
+      ]
+    },
+    {
+      "prompt_en": "I know him. — the plain sentence",
+      "mode": "cloze",
+      "frame": "Znam ___.",
+      "answer": "go",
+      "accepts": [
+        "go"
+      ]
+    },
+    {
+      "prompt_en": "My brother likes her.",
+      "mode": "cloze",
+      "frame": "Brat ___ lubi.",
+      "answer": "ją",
+      "accepts": [
+        "ją"
+      ]
+    },
+    {
+      "prompt_en": "Dad helps him. — pomagać takes the Dative",
+      "mode": "cloze",
+      "frame": "Tata ___ pomaga.",
+      "answer": "mu",
+      "accepts": [
+        "mu"
+      ]
+    },
+    {
+      "prompt_en": "What's your name? — the question word comes first",
+      "mode": "cloze",
+      "frame": "Jak ___ nazywasz?",
+      "answer": "się",
+      "accepts": [
+        "się"
+      ]
+    },
+    {
+      "prompt_en": "There were five people in the park.",
+      "mode": "cloze",
+      "frame": "W parku ___ pięć osób.",
+      "answer": "było",
+      "accepts": [
+        "było"
+      ]
+    },
+    {
+      "prompt_en": "There were two people in the park.",
+      "mode": "cloze",
+      "frame": "W parku ___ dwie osoby.",
+      "answer": "były",
+      "accepts": [
+        "były"
+      ]
+    },
+    {
+      "prompt_en": "There's no smoking here.",
+      "mode": "cloze",
+      "frame": "Tu się nie ___.",
+      "answer": "pali",
+      "accepts": [
+        "pali"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum knows him.",
+      "answer": "Mama go zna.",
+      "accepts": [
+        "Mama go zna.",
+        "Mama go zna"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad likes her.",
+      "answer": "Tata ją lubi.",
+      "accepts": [
+        "Tata ją lubi.",
+        "Tata ją lubi"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students know him.",
+      "answer": "Studenci go znają.",
+      "accepts": [
+        "Studenci go znają.",
+        "Studenci go znają"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum helps him.",
+      "answer": "Mama mu pomaga.",
+      "accepts": [
+        "Mama mu pomaga.",
+        "Mama mu pomaga"
+      ]
+    },
+    {
+      "prompt_en": "Type: My name is Anna.",
+      "answer": "Nazywam się Anna.",
+      "accepts": [
+        "Nazywam się Anna.",
+        "Nazywam się Anna"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you buy a ticket?",
+      "answer": "Gdzie się kupuje bilet?",
+      "accepts": [
+        "Gdzie się kupuje bilet?",
+        "Gdzie się kupuje bilet"
+      ]
+    },
+    {
+      "prompt_en": "Type: People say the shop is shut.",
+      "answer": "Mówi się, że sklep jest zamknięty.",
+      "accepts": [
+        "Mówi się, że sklep jest zamknięty.",
+        "Mówi się, że sklep jest zamknięty"
+      ]
+    },
+    {
+      "prompt_en": "Type: There were five windows in the house.",
+      "answer": "W domu było pięć okien.",
+      "accepts": [
+        "W domu było pięć okien.",
+        "W domu było pięć okien"
+      ]
+    },
+    {
+      "prompt_en": "Type: There were two windows in the house.",
+      "answer": "W domu były dwa okna.",
+      "accepts": [
+        "W domu były dwa okna.",
+        "W domu były dwa okna"
+      ]
+    },
+    {
+      "prompt_en": "Type: HIM I know well.",
+      "answer": "Jego znam dobrze.",
+      "accepts": [
+        "Jego znam dobrze.",
+        "Jego znam dobrze"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "się",
+    "nazywam się",
+    "jak się nazywasz",
+    "jak się masz",
+    "mówi się",
+    "znam",
+    "zna",
+    "znają",
+    "lubi",
+    "pomaga",
+    "pomagam",
+    "kupuje",
+    "pali",
+    "nazywam",
+    "nazywasz",
+    "go",
+    "ją",
+    "cię",
+    "ci",
+    "mu",
+    "jej",
+    "ciebie",
+    "sobie",
+    "mama",
+    "tata",
+    "tacie",
+    "brat",
+    "student",
+    "studenci",
+    "anna",
+    "bilet",
+    "sklep",
+    "zamknięty",
+    "dom",
+    "w domu",
+    "park",
+    "w parku",
+    "okno",
+    "okna",
+    "okien",
+    "osoba",
+    "osoby",
+    "osób",
+    "było",
+    "były",
+    "jest",
+    "dobrze",
+    "tu",
+    "jak",
+    "gdzie",
+    "nie",
+    "że",
+    "dwa",
+    "dwie",
+    "pięć"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_word_order",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -1,0 +1,533 @@
+{
+ "id": "b2_copular_future",
+ "title": "Będę w domu",
+ "title_en": "I will be… · the future of być",
+ "level": "B2",
+ "tree_node": "b2_copular_future",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "B2 Block 1, unit 2. Pays a fork a2_bedzie took openly and logged in its own note: 'the COPULAR future (bede w domu, bedzie dobrze) is NOT taught. bede byc is not Polish, so the future of byc-as-copula has no place in a bede+infinitive unit; consequence, accepted: I will be at home is not yet expressible, and no item implies it is.' It is expressible from this unit on.\n\nZERO new forms and ZERO new lemmas — teaches_lemmas is deliberately empty (b1_wrapup precedent). będę…będą have been owned since a2_bedzie; every complement type used here has been owned since A1. The entire payload is one syntactic fact: być is the one verb that never appears as an infinitive after będę, so będę stands alone and the complement follows it directly, in exactly the slot it already occupies after jestem.\n\nFOUR COMPLEMENT TYPES, all already owned in the present, none of them new: place (będę w domu, prep_w_loc), predicate adjective (będę zmęczony, byc_adj), Instrumental identity (będę nauczycielem, inst_identity), impersonal adverb predicate (będzie dobrze / będzie zimno). The last one has an unusually exact anchor: a2_smalltalk already teaches Było dobrze, and already ran the dobrze-vs-dobra adverb/adjective contrast this unit's final quiz item re-uses, so Będzie dobrze is the straight future twin of a frame the learner has said before.\n\nGENDER, stated carefully so it does not contradict a2_bedzie: that unit's slide 2 was entirely the relief that 'the future has NO gender'. That still holds here and slide 3 says so — będę is one form for everyone. What changes for gender is the ADJECTIVE after it, exactly as it already does after jestem (Jestem zmęczona -> Będę zmęczona). The verb is not handing gender back; the adjective never gave it up.\n\nFENCES, all deliberate, all logged:\n1. NEGATION is absent from this unit entirely. Nie będzie kawy (the future of nie ma) governs the Genitive, which would open the existential-negation pattern in a new tense — a second fact. Deferred; b2_neg_gen later in B2 is the natural home.\n2. The plain EXISTENTIAL future (Będzie kawa, 'there will be coffee') is fenced for the same reason: it is the twin of the negative above and they are not worth separating.\n3. PLURAL predicate adjectives are fenced absolutely — zmęczeni / zmęczone are NEW (b1_virile_gym and b1_conditional_pl each record nearly shipping them by mistake, one batch apart). Every plural sentence in this pack takes a place phrase, never an adjective.\n4. w weekend was rejected as a time anchor despite being taught: a2_time_past owns it under time_past_chunk, i.e. as a PAST adverbial. jutro (leaf_time_cal_a1) is used instead — unambiguously future and owned outside any tense-specific pack.\n\nDISTRACTORS are real taught words in the wrong slot, never fabricated non-words — the b1_imperative_rule convention. Będę być w domu (ungrammatical by design, and slide 1 says outright that będę być is not Polish), Będę mieszkać w domu (perfectly good Polish, but a different sentence — 'I will be living at home'), Będzie dobry and Jutro będzie zimny (the adjective where the impersonal adverb belongs). Every one of these strings uses only pool-legal material; each is explained rather than left to sting.",
+ "focus_structures": [
+  "copular_future"
+ ],
+ "teaches_structures": [
+  "copular_future"
+ ],
+ "teaches_lemmas": [],
+ "uses_structures": [
+  "copular_future",
+  "bedzie",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "inst_identity",
+  "prep_w_loc",
+  "weather_chunk",
+  "virile_reco",
+  "poss_nom",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "The one verb that never follows będę",
+   "title_pl": "Będę w domu",
+   "body": "You already build the future with będę + an infinitive: Będę pracować. There is exactly one verb you can never do that with — być itself. \"Będę być\" is not Polish. Instead będę stands on its own, and whatever came after jestem simply comes after będę instead.",
+   "body_pl": "Jestem w domu. → Będę w domu.",
+   "table": {
+    "headers": [
+     "You already say",
+     "Future",
+     "What follows"
+    ],
+    "rows": [
+     [
+      "Jestem w domu.",
+      "Będę w domu.",
+      "a place"
+     ],
+     [
+      "Jestem zmęczony.",
+      "Będę zmęczony.",
+      "an adjective"
+     ],
+     [
+      "Jestem nauczycielem.",
+      "Będę nauczycielem.",
+      "a job"
+     ],
+     [
+      "Było dobrze.",
+      "Będzie dobrze.",
+      "dobrze, zimno"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "Tomorrow Mum will be at home.",
+     "pl": "Jutro mama będzie w domu."
+    },
+    {
+     "en": "Dad will be at work.",
+     "pl": "Tata będzie w pracy."
+    },
+    {
+     "en": "It will be cold tomorrow.",
+     "pl": "Jutro będzie zimno."
+    }
+   ]
+  },
+  {
+   "title": "All six people, one unchanging place",
+   "title_pl": "Będę · będziesz · będzie · będziemy · będziecie · będą",
+   "body": "The six forms are the ones you already learned for the future. Nothing after them changes: the place phrase stays exactly as it is, whoever is going to be there.",
+   "body_pl": "w domu · w pracy · w szkole",
+   "table": {
+    "headers": [
+     "Person",
+     "Polish",
+     "English"
+    ],
+    "rows": [
+     [
+      "ja",
+      "Będę w domu.",
+      "I will be at home."
+     ],
+     [
+      "ty",
+      "Będziesz w domu.",
+      "You will be at home."
+     ],
+     [
+      "on / ona",
+      "Będzie w domu.",
+      "He / she will be at home."
+     ],
+     [
+      "my",
+      "Będziemy w domu.",
+      "We will be at home."
+     ],
+     [
+      "wy",
+      "Będziecie w domu.",
+      "You (plural) will be at home."
+     ],
+     [
+      "oni / one",
+      "Będą w domu.",
+      "They will be at home."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "The verb still has no gender — the adjective still does",
+   "title_pl": "Będę zmęczony · Będę zmęczona",
+   "body": "będę is one form for men and women alike, and that does not change here. What does change for gender is the adjective standing after it — exactly as it already does after jestem. The verb is not handing gender back; the adjective never gave it up.",
+   "body_pl": "Jestem zmęczona. → Będę zmęczona.",
+   "table": {
+    "headers": [
+     "You already say",
+     "Future",
+     "Who"
+    ],
+    "rows": [
+     [
+      "Jestem zmęczony.",
+      "Będę zmęczony.",
+      "m"
+     ],
+     [
+      "Jestem zmęczona.",
+      "Będę zmęczona.",
+      "f"
+     ],
+     [
+      "Jestem głodny.",
+      "Będę głodny.",
+      "m"
+     ],
+     [
+      "Jestem głodna.",
+      "Będę głodna.",
+      "f"
+     ]
+    ]
+   }
+  }
+ ],
+ "match": [
+  {
+   "en": "I will be at home.",
+   "pl": "Będę w domu."
+  },
+  {
+   "en": "You will be at home.",
+   "pl": "Będziesz w domu."
+  },
+  {
+   "en": "He will be at work.",
+   "pl": "Będzie w pracy."
+  },
+  {
+   "en": "We will be at home.",
+   "pl": "Będziemy w domu."
+  },
+  {
+   "en": "You (plural) will be at work.",
+   "pl": "Będziecie w pracy."
+  },
+  {
+   "en": "They will be at work.",
+   "pl": "Będą w pracy."
+  },
+  {
+   "en": "I will be tired (m).",
+   "pl": "Będę zmęczony."
+  },
+  {
+   "en": "I will be tired (f).",
+   "pl": "Będę zmęczona."
+  },
+  {
+   "en": "I will be a teacher.",
+   "pl": "Będę nauczycielem."
+  },
+  {
+   "en": "It will be fine.",
+   "pl": "Będzie dobrze."
+  },
+  {
+   "en": "It will be cold tomorrow.",
+   "pl": "Jutro będzie zimno."
+  },
+  {
+   "en": "Tomorrow Mum will be at home.",
+   "pl": "Jutro mama będzie w domu."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "I will be at home. →",
+   "choices": [
+    "Będę w domu.",
+    "Będę być w domu.",
+    "Będę mieszkać w domu.",
+    "Będziesz w domu."
+   ],
+   "answer": "Będę w domu.",
+   "explain": "być is the one verb that never follows będę — \"będę być\" is not Polish. Będę mieszkać w domu is good Polish, but it is a different sentence: \"I will be living at home.\""
+  },
+  {
+   "prompt": "You will be at work. →",
+   "choices": [
+    "Będziesz w pracy.",
+    "Będzie w pracy.",
+    "Będziecie w pracy.",
+    "Będą w pracy."
+   ],
+   "answer": "Będziesz w pracy.",
+   "explain": "One person, and you are talking to them: będziesz. będziecie would be the plural you."
+  },
+  {
+   "prompt": "I will be tired (f). →",
+   "choices": [
+    "Będę zmęczona.",
+    "Będę zmęczony.",
+    "Będziesz zmęczona.",
+    "Będzie zmęczona."
+   ],
+   "answer": "Będę zmęczona.",
+   "explain": "będę is the same word for a man and a woman. The gender is carried by zmęczona, exactly as it is in Jestem zmęczona."
+  },
+  {
+   "prompt": "I will be a teacher. →",
+   "choices": [
+    "Będę nauczycielem.",
+    "Będę nauczyciel.",
+    "Będę być nauczycielem.",
+    "Będziesz nauczycielem."
+   ],
+   "answer": "Będę nauczycielem.",
+   "explain": "The job takes the same ending after będę as it takes after jestem — Jestem nauczycielem, Będę nauczycielem. The tense changed; the case did not."
+  },
+  {
+   "prompt": "It will be cold tomorrow. →",
+   "choices": [
+    "Jutro będzie zimno.",
+    "Jutro będzie zimny.",
+    "Jutro będą zimno.",
+    "Jutro jest zimno."
+   ],
+   "answer": "Jutro będzie zimno.",
+   "explain": "zimno is the word for weather with nobody in the sentence — the same one in Jest zimno. zimny is the adjective and needs somebody or something to describe."
+  },
+  {
+   "prompt": "___ w domu. (I will be)",
+   "choices": [
+    "Będę",
+    "Będzie",
+    "Będziesz",
+    "Będą"
+   ],
+   "answer": "Będę",
+   "explain": "ja → będę. Nothing else in the sentence has to change."
+  },
+  {
+   "prompt": "Mama ___ w pracy. (will be)",
+   "choices": [
+    "będzie",
+    "będę",
+    "będziesz",
+    "będą"
+   ],
+   "answer": "będzie",
+   "explain": "mama is one person being talked about — the same slot as on or ona, so będzie."
+  },
+  {
+   "prompt": "Studenci ___ w szkole. (will be)",
+   "choices": [
+    "będą",
+    "będzie",
+    "będziemy",
+    "będziesz"
+   ],
+   "answer": "będą",
+   "explain": "studenci is more than one person being talked about — the oni slot, so będą."
+  },
+  {
+   "prompt": "We will be at home. →",
+   "choices": [
+    "Będziemy w domu.",
+    "Będziecie w domu.",
+    "Będą w domu.",
+    "Będziemy mieszkać w domu."
+   ],
+   "answer": "Będziemy w domu.",
+   "explain": "my → będziemy, and nothing follows it but the place. Będziemy mieszkać w domu says something else: \"we will be living at home.\""
+  },
+  {
+   "prompt": "It will be fine. →",
+   "choices": [
+    "Będzie dobrze.",
+    "Będzie dobry.",
+    "Będą dobrze.",
+    "Było dobrze."
+   ],
+   "answer": "Będzie dobrze.",
+   "explain": "Same pair you already met in the past: Było dobrze, not Była dobrze. dobrze is the form used when there is no noun in the sentence to agree with; dobry would need one."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "I will be at home.",
+   "mode": "full_word",
+   "answer": "Będę w domu.",
+   "accepts": [
+    "Będę w domu.",
+    "Będę w domu"
+   ]
+  },
+  {
+   "prompt_en": "You will be at home.",
+   "mode": "full_word",
+   "answer": "Będziesz w domu.",
+   "accepts": [
+    "Będziesz w domu.",
+    "Będziesz w domu"
+   ]
+  },
+  {
+   "prompt_en": "You (plural) will be at home.",
+   "mode": "full_word",
+   "answer": "Będziecie w domu.",
+   "accepts": [
+    "Będziecie w domu.",
+    "Będziecie w domu"
+   ]
+  },
+  {
+   "prompt_en": "We will be at work.",
+   "mode": "full_word",
+   "answer": "Będziemy w pracy.",
+   "accepts": [
+    "Będziemy w pracy.",
+    "Będziemy w pracy"
+   ]
+  },
+  {
+   "prompt_en": "They will be at work.",
+   "mode": "full_word",
+   "answer": "Będą w pracy.",
+   "accepts": [
+    "Będą w pracy.",
+    "Będą w pracy"
+   ]
+  },
+  {
+   "prompt_en": "I will be tired (m).",
+   "mode": "full_word",
+   "answer": "Będę zmęczony.",
+   "accepts": [
+    "Będę zmęczony.",
+    "Będę zmęczony"
+   ]
+  },
+  {
+   "prompt_en": "I will be tired (f).",
+   "mode": "full_word",
+   "answer": "Będę zmęczona.",
+   "accepts": [
+    "Będę zmęczona.",
+    "Będę zmęczona"
+   ]
+  },
+  {
+   "prompt_en": "I will be a teacher.",
+   "mode": "full_word",
+   "answer": "Będę nauczycielem.",
+   "accepts": [
+    "Będę nauczycielem.",
+    "Będę nauczycielem"
+   ],
+   "explain": "Same ending as Jestem nauczycielem — być takes this case in every tense."
+  },
+  {
+   "prompt_en": "It will be fine.",
+   "mode": "full_word",
+   "answer": "Będzie dobrze.",
+   "accepts": [
+    "Będzie dobrze.",
+    "Będzie dobrze"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: Tomorrow Mum will be at home.",
+   "answer": "Jutro mama będzie w domu.",
+   "accepts": [
+    "Jutro mama będzie w domu.",
+    "Jutro mama będzie w domu"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad will be at work.",
+   "answer": "Tata będzie w pracy.",
+   "accepts": [
+    "Tata będzie w pracy.",
+    "Tata będzie w pracy"
+   ]
+  },
+  {
+   "prompt_en": "Type: Tomorrow it will be cold.",
+   "answer": "Jutro będzie zimno.",
+   "accepts": [
+    "Jutro będzie zimno.",
+    "Jutro będzie zimno"
+   ]
+  },
+  {
+   "prompt_en": "Type: The students will be at school.",
+   "answer": "Studenci będą w szkole.",
+   "accepts": [
+    "Studenci będą w szkole.",
+    "Studenci będą w szkole"
+   ]
+  },
+  {
+   "prompt_en": "Type: Mum will be tired.",
+   "answer": "Mama będzie zmęczona.",
+   "accepts": [
+    "Mama będzie zmęczona.",
+    "Mama będzie zmęczona"
+   ]
+  },
+  {
+   "prompt_en": "Type: Dad will be hungry.",
+   "answer": "Tata będzie głodny.",
+   "accepts": [
+    "Tata będzie głodny.",
+    "Tata będzie głodny"
+   ]
+  },
+  {
+   "prompt_en": "Type: My brother will be a doctor.",
+   "answer": "Mój brat będzie lekarzem.",
+   "accepts": [
+    "Mój brat będzie lekarzem.",
+    "Mój brat będzie lekarzem"
+   ],
+   "explain": "The job still takes the same ending it takes after jest — Mój brat jest lekarzem, Mój brat będzie lekarzem."
+  },
+  {
+   "prompt_en": "Type: Tomorrow Dad will be at home and Mum will be at work.",
+   "answer": "Jutro tata będzie w domu, a mama będzie w pracy.",
+   "accepts": [
+    "Jutro tata będzie w domu, a mama będzie w pracy.",
+    "Jutro tata będzie w domu, a mama będzie w pracy"
+   ],
+   "explain": "Two different people, two different places, nothing contradicted — a, the joiner from the unit before this one."
+  },
+  {
+   "prompt_en": "Type: I will be at home, but Dad will be at work.",
+   "answer": "Będę w domu, ale tata będzie w pracy.",
+   "accepts": [
+    "Będę w domu, ale tata będzie w pracy.",
+    "Będę w domu, ale tata będzie w pracy"
+   ]
+  }
+ ],
+ "uses_lemmas": [
+  "będę",
+  "będziesz",
+  "będzie",
+  "będziemy",
+  "będziecie",
+  "będą",
+  "jestem",
+  "być",
+  "było",
+  "jest",
+  "mieszkać",
+  "zmęczony",
+  "zmęczona",
+  "głodny",
+  "głodna",
+  "dobrze",
+  "dobry",
+  "zimno",
+  "zimny",
+  "nauczycielem",
+  "nauczyciel",
+  "lekarzem",
+  "studenci",
+  "jutro",
+  "mama",
+  "tata",
+  "brat",
+  "mój",
+  "w domu",
+  "w pracy",
+  "w szkole",
+  "ale",
+  "a"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_copular_future",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

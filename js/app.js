@@ -26,6 +26,7 @@ import {
   levelUnitStats,
   reviewDueList,
   backfillReview,
+  autoUnlockLevels,
   PASS_RATIO,
   MASTERY_REPS,
   FRUIT_SOFT,
@@ -39,6 +40,7 @@ import {
   updateFlagsBadge,
 } from "./smoke-flags.js";
 import { renderTreePortrait } from "./tree-portrait.js";
+import { initLemmaOrigin, wireWordTap, originsSummary } from "./lemma-origin.js";
 
 const STATE = {
   level: "A1",
@@ -47,6 +49,8 @@ const STATE = {
   selectedId: null,
   view: "map",
   showFull: false,
+  /** First-fruit meter beat: { before, after, kind?, nodeId } or null */
+  pendingFruitPayoff: null,
 };
 
 async function loadJson(path) {
@@ -94,11 +98,16 @@ function showMap() {
     pr._ruplVocabUnbind();
     pr._ruplVocabUnbind = null;
   }
-  pr.innerHTML = "";
+  clearFruitPayoffKeys();
+  if (pr) pr.innerHTML = "";
   STATE.view = "map";
   document.getElementById("view-map").hidden = false;
   document.getElementById("view-practice").hidden = true;
   document.body.classList.remove("domain-grammar", "domain-vocab");
+  // Rail mirrors the action (James 2026-08-06): returning from practice
+  // lands on the played unit's level; manual picks are temporary browsing.
+  autoUnlockLevels(STATE.tree?.nodes || []);
+  if (STATE.lastPlayedLevel) STATE.level = STATE.lastPlayedLevel;
   renderAll();
   // Land on "what's next" — after a review launch, that means the review
   // card (finish the day's queue), falling through to up-next once empty.
@@ -117,12 +126,353 @@ function showMap() {
 
 function showPractice(domain) {
   STATE.view = "practice";
+  clearFruitPayoffKeys();
   document.getElementById("view-map").hidden = true;
   document.getElementById("view-practice").hidden = false;
   document.body.classList.remove("domain-grammar", "domain-vocab");
   document.body.classList.add(
     domain === "grammar" ? "domain-grammar" : "domain-vocab",
   );
+}
+
+function clearFruitPayoffKeys() {
+  const root = document.getElementById("practice-root");
+  if (root && root.__ruePayoffKey) {
+    document.removeEventListener("keydown", root.__ruePayoffKey, true);
+    root.__ruePayoffKey = null;
+  }
+}
+
+function escapeXml(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+/**
+ * First fruit only: tick + level chip + Learned bar (from RUE2).
+ * Fires only when progress helpers say justFruited — not after a partial Use.
+ */
+function showFruitPayoff({ before, after, kind = "learned", level: lvlIn, nodeId }) {
+  const root = document.getElementById("practice-root");
+  if (!root) return;
+  if (typeof root._rupl2UnbindKeys === "function") {
+    try {
+      root._rupl2UnbindKeys();
+    } catch {
+      /* ignore */
+    }
+    root._rupl2UnbindKeys = null;
+  }
+  if (typeof root._ruplVocabUnbind === "function") {
+    try {
+      root._ruplVocabUnbind();
+    } catch {
+      /* ignore */
+    }
+    root._ruplVocabUnbind = null;
+  }
+  clearFruitPayoffKeys();
+  STATE.view = "payoff";
+  STATE.pendingFruitPayoff = null;
+  document.getElementById("view-map").hidden = true;
+  document.getElementById("view-practice").hidden = false;
+  document.body.classList.remove("domain-grammar", "domain-vocab");
+
+  const isRemember = kind === "remembered";
+  const meterKey = isRemember ? "remembered" : "learned";
+  const meterLabel = isRemember ? "Zapamiętane" : "Nauczone";
+  const meterClass = isRemember ? "meter-remembered" : "meter-learned";
+  const level = lvlIn || levelOfNode(nodeById(nodeId)) || STATE.level || "A1";
+  const total = after?.total > 0 ? after.total : 1;
+  const pctOf = (n) => Math.round((100 * (n || 0)) / total);
+  const fromN = before?.[meterKey] ?? 0;
+  const toN = after?.[meterKey] ?? 0;
+  const fromP = pctOf(fromN);
+  const toP = pctOf(toN);
+  const reduce =
+    typeof matchMedia === "function" &&
+    matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const DURATION_MS = 1250;
+  const primaryId = isRemember ? "payoff-review" : "payoff-next";
+  const primaryLabel = isRemember ? "Powtórka" : "Dalej";
+
+  const paintStats = (n, p) => {
+    const fracEl = root.querySelector("#payoff-frac");
+    const pctEl = root.querySelector("#payoff-pct");
+    const track = root.querySelector(".meter-track");
+    if (fracEl) fracEl.textContent = `${n}/${total}`;
+    if (pctEl) pctEl.textContent = `${p}%`;
+    if (track) track.setAttribute("aria-valuenow", String(p));
+  };
+
+  // Author mode: WHY did fruit fire — gate snapshot for the played block.
+  // (James 2026-08-06: a fresh unit fruited before everything was right;
+  // this line makes the next occurrence self-diagnosing.)
+  let gateDiag = "";
+  if (isAuthorUnlock() && nodeId) {
+    try {
+      const prog = loadProgress();
+      const gb = prog.grammar.blocks[nodeId] || null;
+      const vb =
+        prog.vocab.blocks[nodeId] ||
+        Object.values(prog.vocab.blocks).find((b) => b && b.nodeId === nodeId) ||
+        null;
+      const b = gb || vb;
+      if (b) {
+        const bits = [];
+        bits.push(`modes: ${Object.keys(b.modes || {}).join(",") || "-"}`);
+        if (gb) {
+          bits.push(`best check=${b.best?.check ?? "-"} type=${b.best?.type ?? "-"}`);
+          bits.push(`cleanPass check=${!!b.checkCleanPass} type=${!!b.typeCleanPass}`);
+        } else {
+          bits.push(`best quiz=${b.bestQuiz ?? "-"} type=${b.bestType ?? "-"}`);
+          bits.push(`cleanPass quiz=${!!b.quizCleanPass} type=${!!b.typeCleanPass}`);
+          bits.push(`sentenceDone=${!!b.sentenceDone}`);
+        }
+        gateDiag = `<div class="fruit-payoff-diag">${escapeXml(nodeId)} · ${escapeXml(bits.join(" · "))}</div>`;
+      }
+    } catch {
+      gateDiag = "";
+    }
+  }
+
+  root.innerHTML = `
+    <div class="fruit-payoff" role="status" aria-live="polite"
+      aria-label="${escapeXml(level)} ${escapeXml(meterLabel)} ${toN} z ${total}, ${toP} procent">
+      <div class="fruit-payoff-tick${reduce ? " is-drawn" : ""}" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="56" height="56" focusable="false">
+          <circle cx="24" cy="24" r="20" />
+          <path d="M14 24.5 L21 31.5 L34 16.5" />
+        </svg>
+      </div>
+      <div class="fruit-payoff-kind" aria-hidden="true">${escapeXml(meterLabel)} · ${isRemember ? "Remembered" : "Learned"}</div>
+      <div class="fruit-payoff-head">
+        <span class="fruit-payoff-level" aria-hidden="true">${escapeXml(level)}</span>
+        <span class="fruit-payoff-stats">
+          <span id="payoff-frac">${reduce ? toN : fromN}/${total}</span>
+          <span class="fruit-payoff-dot" aria-hidden="true">·</span>
+          <span id="payoff-pct">${reduce ? toP : fromP}%</span>
+        </span>
+      </div>
+      <div class="meter-row ${meterClass} fruit-payoff-meter">
+        <div class="meter-track" role="progressbar" aria-valuemin="0" aria-valuemax="100"
+          aria-valuenow="${reduce ? toP : fromP}"
+          aria-label="${escapeXml(level)} ${escapeXml(meterLabel)} ${toN} z ${total}">
+          <div class="meter-fill" id="payoff-fill" style="width:${reduce ? toP : fromP}%"></div>
+        </div>
+      </div>
+      ${gateDiag}
+      <div class="home-actions fruit-payoff-nav" role="group" aria-label="Główne akcje">
+        <button type="button" class="home-btn home-btn-primary" id="${primaryId}">${primaryLabel}</button>
+        <button type="button" class="home-btn" id="payoff-home">Start</button>
+        ${
+          isRemember
+            ? `<button type="button" class="home-btn" id="payoff-next">Dalej</button>`
+            : `<button type="button" class="home-btn" id="payoff-review">Powtórka</button>`
+        }
+        <button type="button" class="home-btn" id="payoff-topics">Tematy</button>
+        <button type="button" class="home-btn" id="payoff-howto">Jak używać</button>
+      </div>
+    </div>`;
+
+  const fill = root.querySelector("#payoff-fill");
+  const tick = root.querySelector(".fruit-payoff-tick");
+
+  if (reduce) {
+    paintStats(toN, toP);
+  } else {
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        if (tick) tick.classList.add("is-drawn");
+        if (fill) fill.style.width = `${toP}%`;
+        const t0 = performance.now();
+        const step = (now) => {
+          const t = Math.min(1, (now - t0) / DURATION_MS);
+          const e = 1 - (1 - t) ** 3;
+          const n = Math.round(fromN + (toN - fromN) * e);
+          const p = Math.round(fromP + (toP - fromP) * e);
+          paintStats(n, p);
+          if (t < 1) requestAnimationFrame(step);
+          else paintStats(toN, toP);
+        };
+        requestAnimationFrame(step);
+      });
+    });
+  }
+
+  const leaveToMap = () => {
+    clearFruitPayoffKeys();
+    showMap();
+  };
+
+  root.querySelector("#payoff-next")?.addEventListener("click", () => {
+    leaveToMap();
+    void startDoNext();
+  });
+  root.querySelector("#payoff-home")?.addEventListener("click", () => {
+    leaveToMap();
+    STATE.homePanel = null;
+    renderHomeChrome();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  root.querySelector("#payoff-review")?.addEventListener("click", () => {
+    leaveToMap();
+    STATE.homePanel = "review";
+    renderHomeChrome();
+    document.getElementById("review-card")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+  root.querySelector("#payoff-topics")?.addEventListener("click", () => {
+    leaveToMap();
+    STATE.homePanel = "more";
+    STATE.homePanelSource = "topics";
+    renderHomeChrome();
+    document.getElementById("panel-more")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  });
+  root.querySelector("#payoff-howto")?.addEventListener("click", () => {
+    leaveToMap();
+    showHowto();
+  });
+
+  const onKey = (e) => {
+    if (e.key !== "Enter") return;
+    e.preventDefault();
+    e.stopPropagation();
+    clearFruitPayoffKeys();
+    leaveToMap();
+    if (isRemember) {
+      STATE.homePanel = "review";
+      renderHomeChrome();
+    } else {
+      void startDoNext();
+    }
+  };
+  root.__ruePayoffKey = onKey;
+  document.addEventListener("keydown", onKey, true);
+  root.querySelector(`#${primaryId}`)?.focus();
+}
+
+/**
+ * Przypadki panel (James 2026-08-07): a live trigger→case reference, built
+ * from data/case-map.json. Shows a row only once the node that teaches it is
+ * at or behind the learner's furthest fruited position — so it can never
+ * spoil a case he has not met. The five "Który przypadek?" units teach this
+ * same map; this panel is the lookup he can reach mid-sentence, forever.
+ */
+async function renderCaseMap() {
+  const body = document.getElementById("case-map-body");
+  if (!body) return;
+  if (!STATE.caseMap) {
+    try {
+      STATE.caseMap = await loadJson("./data/case-map.json");
+    } catch {
+      body.innerHTML = `<p class="home-hint">Could not load the case map.</p>`;
+      return;
+    }
+  }
+  const map = STATE.caseMap;
+  const order = STATE.tree?.path_order || [];
+  const posOf = new Map(order.map((id, i) => [id, i]));
+  // Furthest position the learner has actually fruited (0 = nothing yet).
+  let reach = -1;
+  for (const node of STATE.tree?.nodes || []) {
+    if (node.status !== "live" || !node.content) continue;
+    if (!isFruit(node)) continue;
+    const i = posOf.get(node.id);
+    if (i != null && i > reach) reach = i;
+  }
+  const known = map.triggers.filter((t) => {
+    const i = posOf.get(t.taught_by);
+    return i != null && i <= reach;
+  });
+  if (!known.length) {
+    body.innerHTML = `<p class="home-hint">Nothing yet — finish a unit or two and the cases will appear here as you meet them.</p>`;
+    return;
+  }
+  const byCase = new Map();
+  for (const t of known) {
+    if (!byCase.has(t.case)) byCase.set(t.case, []);
+    byCase.get(t.case).push(t);
+  }
+  const parts = [];
+  for (const c of map.cases) {
+    const rows = byCase.get(c.id);
+    if (!rows || !rows.length) continue;
+    parts.push(`
+      <div class="case-block">
+        <h3 class="case-head">
+          <span class="case-pl">${escapeHtml(c.pl)}</span>
+          <span class="case-en">${escapeHtml(c.en)}</span>
+        </h3>
+        <p class="case-job">${escapeHtml(c.job)}</p>
+        <ul class="case-triggers">
+          ${rows
+            .map(
+              (t) => `<li>
+                <span class="case-trigger">${escapeHtml(t.trigger)}</span>
+                <span class="case-gloss">${escapeHtml(t.gloss)}</span>
+                <span class="case-example">${escapeHtml(t.example)}</span>
+              </li>`,
+            )
+            .join("")}
+        </ul>
+      </div>`);
+  }
+  body.innerHTML = parts.join("");
+}
+
+/** Level the payoff meter should show — the PLAYED node's level, not the
+ * level-rail selection (an A2 unit finished while the rail sat on A1 used
+ * to animate the A1 meter). */
+function levelOfNode(node) {
+  return (Array.isArray(node?.levels) && node.levels[0]) || STATE.level || "A1";
+}
+
+/** Returns true if payoff was shown. */
+function maybeShowFruitPayoff() {
+  if (!STATE.pendingFruitPayoff) return false;
+  const payload = STATE.pendingFruitPayoff;
+  STATE.pendingFruitPayoff = null;
+  showFruitPayoff(payload);
+  return true;
+}
+
+/** Review payoff — the Remembered meter beat (James 2026-08-06: a passed
+ * review completed silently; the tick belongs here too). */
+function queueReviewPayoff(nodeId, statsBefore) {
+  const nodes = STATE.tree?.nodes || [];
+  const lvl = levelOfNode(nodeById(nodeId));
+  STATE.pendingFruitPayoff = {
+    before: statsBefore,
+    after: levelUnitStats(lvl, nodes),
+    nodeId,
+    level: lvl,
+    kind: "remembered",
+  };
+}
+
+function queueFruitPayoff(nodeId, statsBefore) {
+  const nodes = STATE.tree?.nodes || [];
+  const lvl = levelOfNode(nodeById(nodeId));
+  const statsAfter = levelUnitStats(lvl, nodes);
+  STATE.pendingFruitPayoff = {
+    before: statsBefore,
+    after: statsAfter,
+    nodeId,
+    level: lvl,
+    kind: "learned",
+  };
+  queueMicrotask(() => {
+    maybeShowFruitPayoff();
+  });
 }
 
 /**
@@ -250,8 +600,10 @@ function renderHomeChrome() {
   }
   const review = document.getElementById("review-card");
   const more = document.getElementById("panel-more");
+  const cases = document.getElementById("panel-cases");
   if (review) review.hidden = STATE.homePanel !== "review";
   if (more) more.hidden = STATE.homePanel !== "more";
+  if (cases) cases.hidden = STATE.homePanel !== "cases";
   const moreBtn = document.getElementById("btn-home-more");
   if (moreBtn) {
     moreBtn.setAttribute(
@@ -259,6 +611,22 @@ function renderHomeChrome() {
       STATE.homePanel === "more" ? "true" : "false",
     );
   }
+  const activeBtn =
+    STATE.homePanel === "cases"
+      ? "btn-home-cases"
+    : STATE.homePanel === "review"
+      ? "btn-home-review"
+      : STATE.homePanel === "more"
+        ? STATE.homePanelSource === "topics"
+          ? "btn-home-topics"
+          : "btn-home-more"
+        : null;
+  for (const id of ["btn-home-review", "btn-home-topics", "btn-home-more", "btn-home-cases"]) {
+    document.getElementById(id)?.classList.toggle("is-active", id === activeBtn);
+  }
+  document
+    .getElementById("btn-do-next")
+    ?.classList.toggle("home-btn-primary", activeBtn == null);
   syncUnitDetailVisibility();
 }
 
@@ -339,7 +707,9 @@ function wireHomeActions() {
     showHowto();
   });
   document.getElementById("btn-home-more")?.addEventListener("click", () => {
-    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    const reopen = STATE.homePanel === "more" && STATE.homePanelSource !== "more";
+    STATE.homePanel = STATE.homePanel === "more" && !reopen ? null : "more";
+    STATE.homePanelSource = "more";
     renderHomeChrome();
     if (STATE.homePanel === "more") {
       const det = document.getElementById("map-details");
@@ -354,6 +724,19 @@ function wireHomeActions() {
       });
     }
   });
+  document.getElementById("btn-home-cases")?.addEventListener("click", () => {
+    STATE.homePanel = STATE.homePanel === "cases" ? null : "cases";
+    STATE.homePanelSource = "cases";
+    renderHomeChrome();
+    if (STATE.homePanel === "cases") {
+      void renderCaseMap();
+      document.getElementById("panel-cases")?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  });
+
   document.getElementById("btn-home-review")?.addEventListener("click", () => {
     STATE.homePanel = STATE.homePanel === "review" ? null : "review";
     renderHomeChrome();
@@ -366,7 +749,9 @@ function wireHomeActions() {
     }
   });
   document.getElementById("btn-home-topics")?.addEventListener("click", () => {
-    STATE.homePanel = STATE.homePanel === "more" ? null : "more";
+    const reopen = STATE.homePanel === "more" && STATE.homePanelSource !== "topics";
+    STATE.homePanel = STATE.homePanel === "more" && !reopen ? null : "more";
+    STATE.homePanelSource = "topics";
     renderHomeChrome();
     if (STATE.homePanel === "more") {
       const det = document.getElementById("map-details");
@@ -548,6 +933,7 @@ function renderDetail() {
 async function openNode(node, launch = {}) {
   if (node.status !== "live" || !node.content) return;
   STATE.cameFromReview = !!launch.review;
+  STATE.lastPlayedLevel = levelOfNode(node);
   try {
     const pack = await loadJson(`./data/${node.content}`);
     showPractice(node.domain);
@@ -555,12 +941,31 @@ async function openNode(node, launch = {}) {
     root.innerHTML = "";
 
     if (node.domain === "grammar") {
+      let statsBefore = null;
       startGrammarPractice(pack, root, {
         startStage: launch.review ? "type" : undefined,
+        onBeforeProgress: () => {
+          statsBefore = levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []);
+        },
+        onFruit: () => {
+          queueFruitPayoff(
+            node.id,
+            statsBefore || levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []),
+          );
+        },
+        onReview: (outcome) => {
+          if (!outcome || !outcome.reviewPassed) return;
+          if (STATE.pendingFruitPayoff) return; // a fruit beat wins
+          queueReviewPayoff(
+            node.id,
+            statsBefore || levelUnitStats(levelOfNode(node), STATE.tree?.nodes || []),
+          );
+        },
         onExit: () => {
           if (node.unit_id) {
             refreshUnit(node.unit_id, node.id, node.partner_id);
           }
+          if (maybeShowFruitPayoff()) return;
           showMap();
         },
       });
@@ -620,25 +1025,34 @@ async function openNode(node, launch = {}) {
         practiceBlock.focus_structures = focusStructures;
       }
 
-      touchVocabBlock(practiceBlock.id || pack.id || node.id, node.id);
+      const blockId = practiceBlock.id || pack.id || node.id;
+      touchVocabBlock(blockId, node.id);
       startVocabPractice(root, practiceBlock, {
         startMode: launch.review ? "type" : undefined,
         practice,
         packId: pack.id || node.id,
         packTitle: pack.title || node.label,
-        onTouch: () =>
-          touchVocabBlock(practiceBlock.id || pack.id || node.id, node.id),
+        onTouch: () => touchVocabBlock(blockId, node.id),
         onModeComplete: (mode, meta) => {
-          completeVocabMode(
-            practiceBlock.id || pack.id || node.id,
-            mode,
-            meta || {},
-          );
+          const nodes = STATE.tree?.nodes || [];
+          const statsBefore = levelUnitStats(levelOfNode(node), nodes);
+          const wasFruit = hasVocabFruit(node);
+          const r = completeVocabMode(blockId, mode, meta || {});
+          const nowFruit = hasVocabFruit(node);
+          if (
+            (r && r.justFruited) ||
+            (!wasFruit && nowFruit)
+          ) {
+            queueFruitPayoff(node.id, statsBefore);
+          } else if (r && r.review && r.review.reviewPassed) {
+            queueReviewPayoff(node.id, statsBefore);
+          }
         },
         onExit: () => {
           if (node.unit_id) {
             refreshUnit(node.unit_id, node.partner_id, node.id);
           }
+          if (maybeShowFruitPayoff()) return;
           showMap();
         },
       });
@@ -818,6 +1232,20 @@ async function boot() {
     // Adopt units fruited before the SRS existed (learnedAt <- touchedAt),
     // so earlier days' units come due immediately, not never.
     backfillReview(STATE.tree.nodes || []);
+    // Boot rail = the level Dalej will actually go to (James 2026-08-06).
+    autoUnlockLevels(STATE.tree.nodes || []);
+    {
+      const hit = spineNext();
+      if (hit?.node) STATE.level = levelOfNode(hit.node);
+    }
+
+    // Word-origin index + tap-to-check ("skąd to słowo?") — body-wide,
+    // interactive elements excluded inside the handler.
+    initLemmaOrigin();
+    wireWordTap(document.body, { isAuthor: () => isAuthorUnlock() });
+    // Bridge for smoke-flags (avoids an import cycle): flags call this to
+    // stamp each word's owning unit onto the record at save time.
+    window.__ruplOriginsSummary = originsSummary;
 
     watchAutoTranslate();
 

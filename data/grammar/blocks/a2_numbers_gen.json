@@ -1,0 +1,701 @@
+{
+  "id": "a2_numbers_gen",
+  "title": "Liczby 5+ · dopełniacz",
+  "title_en": "Numbers 5+ and the genitive",
+  "level": "A2",
+  "tree_node": "a2_numbers_gen",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "The numeral-government rule deferred from a1_numbers, now payable because both plural forms exist: 2/3/4 + Nominative plural (a2_plural_nom), 5 and up + Genitive plural (a2_gen_pl). Three frames only — money, shopping quantities, time amounts. Every genitive plural in this file comes from a2_gen_pl's verified list (domow, piw, kaw, zup, godzin, minut, filmow, sklepow); no new stem-changing forms were derived. NO PEOPLE-COUNTING anywhere — virile numerals (pieciu) are B1. Four small teaching additions, all reported as forks: (1) dwie, the feminine of two, because the unit cannot state its own rule without inviting the error *dwa kawy; (2) godziny and minuty, the plain plurals the time frame needs on the 2-4 side; (3) dolary/dolarow, one ordinary masculine money noun so that euro reads as the exception it is rather than as the rule; (4) lat and lata as whole words, the Ile masz lat? payoff. rok -> lata/lat is suppletive and is explicitly taught whole, never derived — a2_gen_pl fenced it and that fence holds. The teens caution (11-19 behave as 5-and-up) is stated once in the intro and drilled in exactly one quiz item. 5+ phrases never stand as the subject of a verb in this pack, because that would need the neuter-singular agreement rule (B1); they appear only as objects of mam / ma / chce.",
+  "focus_structures": [
+    "numbers_gen"
+  ],
+  "teaches_structures": [
+    "numbers_gen"
+  ],
+  "uses_structures": [
+    "numbers_gen",
+    "plural_nom",
+    "gen_pl",
+    "miec_present",
+    "miec_acc",
+    "present_e_esz",
+    "byc_present",
+    "existential_jest",
+    "social_chunk"
+  ],
+  "intro": [
+    {
+      "title": "The number decides the noun",
+      "title_pl": "Liczebnik rządzi rzeczownikiem",
+      "body": "You now have two plural forms of every noun, and the number in front of it chooses between them.\n\n2, 3, 4 take the plain plural — the subject form you learned first.\n5 and up take the genitive plural — the short one.\n\nThat is the whole rule. It works on every noun you know, and it never changes.",
+      "body_pl": "2, 3, 4 + mianownik liczby mnogiej. 5 i więcej + dopełniacz liczby mnogiej.",
+      "table": {
+        "headers": [
+          "Noun",
+          "2, 3, 4",
+          "5 and up"
+        ],
+        "rows": [
+          [
+            "piwo",
+            "dwa piwa",
+            "pięć piw"
+          ],
+          [
+            "kawa",
+            "trzy kawy",
+            "sześć kaw"
+          ],
+          [
+            "dom",
+            "cztery domy",
+            "dziesięć domów"
+          ],
+          [
+            "zupa",
+            "trzy zupy",
+            "dziesięć zup"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two has a second form: dwie",
+      "title_pl": "Dwa czy dwie",
+      "body": "Only the number two does this, and only in front of a feminine noun — the -a words.\n\nmasculine and neuter: dwa domy · dwa piwa · dwa koty\nfeminine: dwie kawy · dwie zupy · dwie godziny\n\nTrzy and cztery never change. Nothing from five upwards changes either. This is the one extra form you have to remember, and the noun after it still takes the plain plural, because two is in the 2–4 group.",
+      "body_pl": "Rodzaj męski i nijaki: dwa. Rodzaj żeński: dwie. Trzy i cztery bez zmian.",
+      "table": {
+        "headers": [
+          "Gender",
+          "two",
+          "Example"
+        ],
+        "rows": [
+          [
+            "m. / n.",
+            "dwa",
+            "dwa piwa · dwa domy"
+          ],
+          [
+            "ż. (feminine, -a)",
+            "dwie",
+            "dwie kawy · dwie godziny"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Money: euro never changes",
+      "title_pl": "Pieniądze: euro",
+      "body": "Euro is a free gift. It is the same word after every number — nothing is added and nothing comes off:\n\ndwa euro · pięć euro · sto euro\n\nDo not take it as the pattern. Most money words are ordinary nouns and the rule applies to them in full — dolar behaves exactly like dom and telefon:\n\ntrzy dolary · pięć dolarów",
+      "body_pl": "Euro nigdy się nie zmienia: dwa euro, pięć euro, sto euro. Dolar odmienia się normalnie: trzy dolary, pięć dolarów.",
+      "examples": [
+        {
+          "en": "two euros",
+          "pl": "dwa euro"
+        },
+        {
+          "en": "five euros",
+          "pl": "pięć euro"
+        },
+        {
+          "en": "a hundred euros",
+          "pl": "sto euro"
+        },
+        {
+          "en": "three dollars",
+          "pl": "trzy dolary"
+        },
+        {
+          "en": "five dollars",
+          "pl": "pięć dolarów"
+        },
+        {
+          "en": "I have five euros.",
+          "pl": "Mam pięć euro."
+        }
+      ]
+    },
+    {
+      "title": "Ordering: how many do you want?",
+      "title_pl": "W sklepie i w kawiarni",
+      "body": "This is where you will use the rule most. Chcę takes the object form, and in the plural the object form is the same as the plain plural — so after 2, 3, 4 nothing extra happens at all:\n\nChcę dwa piwa. · Chcę trzy kawy.\n\nFrom five upwards the genitive plural takes over, and it takes the object slot with it:\n\nChcę pięć piw. · Chcę sześć kaw.",
+      "body_pl": "Chcę dwa piwa. Chcę trzy kawy. Chcę pięć piw. Chcę sześć kaw.",
+      "examples": [
+        {
+          "en": "I want two beers.",
+          "pl": "Chcę dwa piwa."
+        },
+        {
+          "en": "I want three coffees.",
+          "pl": "Chcę trzy kawy."
+        },
+        {
+          "en": "I want five beers.",
+          "pl": "Chcę pięć piw."
+        },
+        {
+          "en": "I want six coffees.",
+          "pl": "Chcę sześć kaw."
+        },
+        {
+          "en": "I want two soups.",
+          "pl": "Chcę dwie zupy."
+        }
+      ]
+    },
+    {
+      "title": "Time — and the rule you already use",
+      "title_pl": "Czas — i zasada, którą już znasz",
+      "body": "Time amounts behave like everything else: trzy godziny, cztery minuty, sześć godzin, pięć minut.\n\nNow the payoff. You have been using this rule since your very first lessons, in the one place it matters most — your age.\n\nIle masz lat? · Mam dwadzieścia lat. · Mam czterdzieści cztery lata.\n\nThat is this rule and nothing else. Twenty is in the 5-and-up group, so the year word goes genitive plural: lat. Forty-four ends in four, so it takes the plain plural: lata. You learned both whole, and now you know why they are different.\n\nRok is the one word here you cannot build. Its plural is lata and its genitive plural is lat — irregular, learn the two whole.\n\nOne caution: the teens, 11 to 19, all count as five-and-up, however they end. Dwanaście lat, not dwanaście lata.",
+      "body_pl": "Ile masz lat? Mam dwadzieścia lat. Mam czterdzieści cztery lata. rok → lata (2–4) / lat (5+).",
+      "table": {
+        "headers": [
+          "Phrase",
+          "Which group",
+          "Year word"
+        ],
+        "rows": [
+          [
+            "Mam dwadzieścia lat.",
+            "20 → 5 and up",
+            "lat"
+          ],
+          [
+            "Mam czterdzieści cztery lata.",
+            "ends in 4 → 2–4 group",
+            "lata"
+          ],
+          [
+            "pięć lat",
+            "5 and up",
+            "lat"
+          ],
+          [
+            "dwanaście lat",
+            "teens → 5 and up",
+            "lat"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "three hours",
+          "pl": "trzy godziny"
+        },
+        {
+          "en": "six hours",
+          "pl": "sześć godzin"
+        },
+        {
+          "en": "four minutes",
+          "pl": "cztery minuty"
+        },
+        {
+          "en": "five minutes",
+          "pl": "pięć minut"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "two beers",
+      "pl": "dwa piwa"
+    },
+    {
+      "en": "two coffees",
+      "pl": "dwie kawy"
+    },
+    {
+      "en": "three soups",
+      "pl": "trzy zupy"
+    },
+    {
+      "en": "four houses",
+      "pl": "cztery domy"
+    },
+    {
+      "en": "three dollars",
+      "pl": "trzy dolary"
+    },
+    {
+      "en": "five beers",
+      "pl": "pięć piw"
+    },
+    {
+      "en": "six coffees",
+      "pl": "sześć kaw"
+    },
+    {
+      "en": "ten houses",
+      "pl": "dziesięć domów"
+    },
+    {
+      "en": "five dollars",
+      "pl": "pięć dolarów"
+    },
+    {
+      "en": "five euros",
+      "pl": "pięć euro"
+    },
+    {
+      "en": "six hours",
+      "pl": "sześć godzin"
+    },
+    {
+      "en": "ten years",
+      "pl": "dziesięć lat"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "dwa ___ (beers)",
+      "choices": [
+        "piwa",
+        "piw",
+        "piwo",
+        "piwy"
+      ],
+      "answer": "piwa",
+      "explain": "Two, three and four keep the plain plural — the same form you use as a subject. Piw is the genitive plural and only appears from five upwards."
+    },
+    {
+      "prompt": "pięć ___ (beers)",
+      "choices": [
+        "piw",
+        "piwa",
+        "piwo",
+        "piwów"
+      ],
+      "answer": "piw",
+      "explain": "Five and everything above it hands the noun to the genitive plural. Piwa would have been right after dwa, trzy or cztery, and neuter nouns never take -ów."
+    },
+    {
+      "prompt": "two coffees →",
+      "choices": [
+        "dwie kawy",
+        "dwa kawy",
+        "dwie kaw",
+        "dwa kaw"
+      ],
+      "answer": "dwie kawy",
+      "explain": "Kawa is feminine, and two is the only number with a feminine form. The noun stays in the plain plural, because two sits in the 2–4 group."
+    },
+    {
+      "prompt": "sześć ___ (coffees)",
+      "choices": [
+        "kaw",
+        "kawy",
+        "kawa",
+        "kawów"
+      ],
+      "answer": "kaw",
+      "explain": "Six is in the 5-and-up group, so the genitive plural — and a feminine noun takes no ending there at all. The word simply stops."
+    },
+    {
+      "prompt": "Fix: Chcę trzy kaw. →",
+      "choices": [
+        "trzy kawy",
+        "trzy kaw",
+        "trzy kawa",
+        "trzy kawę"
+      ],
+      "answer": "trzy kawy",
+      "explain": "The genitive plural has been reached for one number too early. Three is still in the 2–4 group, so the plain plural stands."
+    },
+    {
+      "prompt": "pięć ___ (euros)",
+      "choices": [
+        "euro",
+        "eur",
+        "eurów",
+        "eura"
+      ],
+      "answer": "euro",
+      "explain": "Euro is the same word after every number. It is the one money word that costs you nothing — but it is the exception, not the pattern."
+    },
+    {
+      "prompt": "pięć ___ (dollars)",
+      "choices": [
+        "dolarów",
+        "dolary",
+        "dolara",
+        "dolar"
+      ],
+      "answer": "dolarów",
+      "explain": "Dolar is an ordinary masculine noun, so it does exactly what dom and telefon do: -ów after five and up. Only euro escapes."
+    },
+    {
+      "prompt": "dziesięć ___ (years)",
+      "choices": [
+        "lat",
+        "lata",
+        "roków",
+        "rok"
+      ],
+      "answer": "lat",
+      "explain": "You already say this in Mam dwadzieścia lat. Ten is in the 5-and-up group, so the year word takes its genitive plural — and that form is lat, not anything built from rok."
+    },
+    {
+      "prompt": "cztery ___ (years)",
+      "choices": [
+        "lata",
+        "lat",
+        "roki",
+        "rok"
+      ],
+      "answer": "lata",
+      "explain": "Four is in the 2–4 group, so the plain plural. This is why you say Mam czterdzieści cztery lata and not lat — the number ends in four."
+    },
+    {
+      "prompt": "dwanaście ___ (beers)",
+      "choices": [
+        "piw",
+        "piwa",
+        "piwo",
+        "piwów"
+      ],
+      "answer": "piw",
+      "explain": "The teens, 11 to 19, all count as five-and-up however they end. Twelve ends in two but it does not behave like two."
+    },
+    {
+      "prompt": "sześć ___ (hours)",
+      "choices": [
+        "godzin",
+        "godziny",
+        "godzina",
+        "godzinów"
+      ],
+      "answer": "godzin",
+      "explain": "Feminine noun, 5-and-up group, so the genitive plural with no ending on it. Godziny is what you would say after trzy or cztery."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "two beers · piwo",
+      "mode": "full_word",
+      "answer": "dwa piwa",
+      "accepts": [
+        "dwa piwa"
+      ]
+    },
+    {
+      "prompt_en": "five beers · piwo",
+      "mode": "full_word",
+      "answer": "pięć piw",
+      "accepts": [
+        "pięć piw"
+      ]
+    },
+    {
+      "prompt_en": "three coffees · kawa",
+      "mode": "full_word",
+      "answer": "trzy kawy",
+      "accepts": [
+        "trzy kawy"
+      ]
+    },
+    {
+      "prompt_en": "six coffees · kawa",
+      "mode": "full_word",
+      "answer": "sześć kaw",
+      "accepts": [
+        "sześć kaw"
+      ]
+    },
+    {
+      "prompt_en": "two coffees · kawa",
+      "mode": "full_word",
+      "answer": "dwie kawy",
+      "accepts": [
+        "dwie kawy"
+      ],
+      "explain": "Feminine noun, so two is dwie. The noun itself does not react to that — it is the plain plural, exactly as it would be after trzy."
+    },
+    {
+      "prompt_en": "two soups · zupa",
+      "mode": "full_word",
+      "answer": "dwie zupy",
+      "accepts": [
+        "dwie zupy"
+      ]
+    },
+    {
+      "prompt_en": "four houses · dom",
+      "mode": "full_word",
+      "answer": "cztery domy",
+      "accepts": [
+        "cztery domy"
+      ]
+    },
+    {
+      "prompt_en": "ten houses · dom",
+      "mode": "full_word",
+      "answer": "dziesięć domów",
+      "accepts": [
+        "dziesięć domów"
+      ]
+    },
+    {
+      "prompt_en": "three dollars · dolar",
+      "mode": "full_word",
+      "answer": "trzy dolary",
+      "accepts": [
+        "trzy dolary"
+      ]
+    },
+    {
+      "prompt_en": "five dollars · dolar",
+      "mode": "full_word",
+      "answer": "pięć dolarów",
+      "accepts": [
+        "pięć dolarów"
+      ],
+      "explain": "Nothing about money makes a noun special. Dolar ends in a hard consonant, so the genitive plural is -ów, the same ending as domów and telefonów."
+    },
+    {
+      "prompt_en": "five euros · euro",
+      "mode": "full_word",
+      "answer": "pięć euro",
+      "accepts": [
+        "pięć euro"
+      ],
+      "explain": "Euro is one of a handful of words Polish borrowed and then left alone. There is no ending to choose, after any number."
+    },
+    {
+      "prompt_en": "five minutes · minuta",
+      "mode": "full_word",
+      "answer": "pięć minut",
+      "accepts": [
+        "pięć minut"
+      ]
+    },
+    {
+      "prompt_en": "four minutes · minuta",
+      "mode": "full_word",
+      "answer": "cztery minuty",
+      "accepts": [
+        "cztery minuty"
+      ]
+    },
+    {
+      "prompt_en": "six hours · godzina",
+      "mode": "full_word",
+      "answer": "sześć godzin",
+      "accepts": [
+        "sześć godzin"
+      ]
+    },
+    {
+      "prompt_en": "three hours · godzina",
+      "mode": "full_word",
+      "answer": "trzy godziny",
+      "accepts": [
+        "trzy godziny"
+      ]
+    },
+    {
+      "prompt_en": "ten years · rok",
+      "mode": "full_word",
+      "answer": "dziesięć lat",
+      "accepts": [
+        "dziesięć lat"
+      ],
+      "explain": "Rok is irregular and you learn its plural whole: lata after 2, 3, 4, and lat from five upwards. There is no rule that builds either one out of rok."
+    },
+    {
+      "prompt_en": "four years · rok",
+      "mode": "full_word",
+      "answer": "cztery lata",
+      "accepts": [
+        "cztery lata"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I want two beers.",
+      "answer": "Chcę dwa piwa.",
+      "accepts": [
+        "Chcę dwa piwa.",
+        "Chcę dwa piwa"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want three coffees.",
+      "answer": "Chcę trzy kawy.",
+      "accepts": [
+        "Chcę trzy kawy.",
+        "Chcę trzy kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad wants five beers.",
+      "answer": "Tata chce pięć piw.",
+      "accepts": [
+        "Tata chce pięć piw.",
+        "Tata chce pięć piw"
+      ],
+      "explain": "Chcieć normally takes the object form, but from five upwards the number outranks it and the noun goes genitive plural instead."
+    },
+    {
+      "prompt_en": "Type: Anna wants two coffees.",
+      "answer": "Anna chce dwie kawy.",
+      "accepts": [
+        "Anna chce dwie kawy.",
+        "Anna chce dwie kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want six soups.",
+      "answer": "Chcę sześć zup.",
+      "accepts": [
+        "Chcę sześć zup.",
+        "Chcę sześć zup"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have five euros.",
+      "answer": "Mam pięć euro.",
+      "accepts": [
+        "Mam pięć euro.",
+        "Mam pięć euro"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum has ten dollars.",
+      "answer": "Mama ma dziesięć dolarów.",
+      "accepts": [
+        "Mama ma dziesięć dolarów.",
+        "Mama ma dziesięć dolarów"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna has four cats.",
+      "answer": "Anna ma cztery koty.",
+      "accepts": [
+        "Anna ma cztery koty.",
+        "Anna ma cztery koty"
+      ],
+      "explain": "Four is in the 2–4 group, so the plain plural stands — and the plain plural is already the object form, so nothing else happens to the word."
+    },
+    {
+      "prompt_en": "Type: Dad has ten films.",
+      "answer": "Tata ma dziesięć filmów.",
+      "accepts": [
+        "Tata ma dziesięć filmów.",
+        "Tata ma dziesięć filmów"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have five minutes.",
+      "answer": "Mam pięć minut.",
+      "accepts": [
+        "Mam pięć minut.",
+        "Mam pięć minut"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are four shops here.",
+      "answer": "Tu są cztery sklepy.",
+      "accepts": [
+        "Tu są cztery sklepy.",
+        "Tu są cztery sklepy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Anna is twenty years old.",
+      "answer": "Anna ma dwadzieścia lat.",
+      "accepts": [
+        "Anna ma dwadzieścia lat.",
+        "Anna ma dwadzieścia lat"
+      ],
+      "explain": "The same sentence you already say about yourself, with a name in front of it. Twenty is in the 5-and-up group, so the year word is lat."
+    },
+    {
+      "prompt_en": "Type: Dad is forty-four years old.",
+      "answer": "Tata ma czterdzieści cztery lata.",
+      "accepts": [
+        "Tata ma czterdzieści cztery lata.",
+        "Tata ma czterdzieści cztery lata"
+      ],
+      "explain": "The number ends in four, so it is in the 2–4 group and the year word is lata. Change it to forty-five and it would be lat again."
+    }
+  ],
+  "teaches_lemmas": [
+    "dwie",
+    "dolary",
+    "dolarów",
+    "godziny",
+    "minuty",
+    "lata",
+    "lat"
+  ],
+  "uses_lemmas": [
+    "dwa",
+    "trzy",
+    "cztery",
+    "pięć",
+    "sześć",
+    "dziesięć",
+    "dwanaście",
+    "dwadzieścia",
+    "czterdzieści",
+    "sto",
+    "piwo",
+    "piwa",
+    "piw",
+    "kawa",
+    "kawy",
+    "kaw",
+    "zupa",
+    "zupy",
+    "zup",
+    "dom",
+    "domy",
+    "domów",
+    "kot",
+    "koty",
+    "film",
+    "filmów",
+    "sklep",
+    "sklepy",
+    "telefon",
+    "godzina",
+    "godzin",
+    "minuta",
+    "minut",
+    "euro",
+    "dolar",
+    "rok",
+    "mam",
+    "ma",
+    "chcę",
+    "chce",
+    "są",
+    "tu",
+    "tata",
+    "mama",
+    "anna",
+    "ile masz lat?",
+    "mam dwadzieścia lat.",
+    "mam czterdzieści cztery lata."
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_numbers_gen",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

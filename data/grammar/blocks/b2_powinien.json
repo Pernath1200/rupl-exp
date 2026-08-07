@@ -1,0 +1,712 @@
+{
+  "id": "b2_powinien",
+  "title": "Powinienem · musiałem",
+  "title_en": "Should — and the past of must",
+  "level": "B2",
+  "tree_node": "b2_powinien",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "B2-SPINE Block 6, unit 8 — MODAL COMPLETION, paying two fences a2_musiec named in its own note and never built: 'past of musiec (musialem/musiala, trzeba bylo) -- it would hand back the gender this unit just removed' and 'conditional powinienem' (the second stays fenced, see below).\n\nONE THEME, TWO PLACES: a2_musiec's gift was that the modal set carries NO gender (slide 3 there sets mieszkalem/mieszkalam against a single musze). This unit is where the gender comes back, and it comes back twice — once in a PRESENT-tense form, which is the genuinely unusual fact, and once in a past tense, which is ordinary. That is why the two halves belong in one unit rather than two: powinienem/powinnam is only surprising against musze, and musialem/musialam is only interesting as the other half of the same reversal.\n\nFOURTEEN NEW FORMS, ZERO NEW ENDINGS. The person markers on powinien are the past-tense set the learner has carried since a2_past_byc: -em for ja, -s for ty, nothing for on/ona — bylem/byles/byl against powinienem/powinienes/powinien, said out loud on slide 2. The six musiec pasts are the -lem/-lam/-l/-la shape owned since past_ac. So the only genuinely new content is one word (powinien, in six shapes) and the fact that trzeba/mozna take their past by adding an owned word.\n\nTHE e->a SHIFT IS NOT EXPLAINED, and that is deliberate rather than an oversight. musiec builds its past on musia-, exactly as chciec builds chcialem — and SEQUENCING's past_rest entry records that shift as 'deliberately unexplained', while B2-SPINE's leaves-to-C1 list item 17 still books chciec's chcie-/chcia- alternation for C1 as memorised whole forms. Slide 4 therefore points at chcialem as a precedent for LEARNING THE FORMS WHOLE and says in terms that there is more to say and it is not said here. No rule is stated anywhere in the pack.\n\nSINGULAR ONLY, both genders, all three persons — the standing B2 shape (motion_prefixed2, motion_imperf, pisac_family, dawac_family all singular-only). FENCED and absent everywhere, every one verified with check_new.py: the plural (powinnismy/powinniscie/powinni/powinny and musieli/musialy — the virile plural would also drag virile_past's gender split back into a unit that already has two); the neuter powinno/musialo, which has no everyday first-person payoff here; the conditional powinienem byl, which a2_musiec dropped by name and O6 fences for all of B2; and the PAST OF MOC (moglem/mogla), held out under b1_polite's unresolved MOGLBY QUARANTINE — moc itself is verified NEW as an infinitive, so the third modal simply has no past in this course yet. That last one is the pack's sharpest scope cut: the unit is called 'the past of the modals' in the spine but delivers the past of TWO of the three, and says nothing at all about the third.\n\nNEGATION FENCED, inheriting a2_musiec's logged fork rather than reopening it. That pack refused nie musze ('I do not have to') beside nie mozna ('it is forbidden') because the two flip in ways English speakers get wrong, and no item there is negated. nie powinienem does NOT carry that trap — it means straightforwardly 'I should not' — but putting a negated modal on screen at all invites the generalisation to nie musze, so no item in this pack is negated either and nothing implies a negative exists. The fork stays exactly where a2_musiec left it, for James.\n\nPERFECTIVE COMPLEMENTS ARE NOW ALLOWED, and this is the one place the unit goes BEYOND a2_musiec on purpose. That pack fenced kupic/ugotowac/zaplacic after a modal because aspect had not been taught; aspect_past and aspect_prefixes have since taught all four twins used here (kupic, zaplacic, ugotowac, przeczytac), so 'Mama powinna kupic chleb' is legal and is the natural sentence. Imperfective complements carry the habitual items (czytac ksiazki, odpoczywac, pracowac).\n\nSPELLING TRAP GETS ITS OWN SLIDE, on a2_musiec's own s/sz precedent: the male forms carry -ie- and a single n (powinien), the female forms a double n and no -ie- (powinna). It is the only thing in the paradigm that can be got wrong by a learner who has understood everything.\n\nMATCH BOARD CANNOT HOLD THE PARADIGM (jezdzic/pisac_family precedent): fourteen taught forms, twelve rows. The board takes all six powinien forms, the four highest-value musiec pasts and both impersonals; musiales/musialas ride the slide-4 table and Pisanie, so the every-form-taught rule is met by intro + type.\n\nTAUGHT-AS CHECKS THAT KILLED SENTENCES: 'do mamy' is NOT owned — a1_gen_endings gives do matki, and mamy is owned as the VERB 'we have' (a1_miec), the first row of the AGENTS homograph table — so every calling sentence uses do matki or do biura. 'do lekarza' is verified NEW (masculine-animate genitive of an owned noun) and was replaced by do szpitala. 'w sobote' is NEW (sobota is owned in the nominative only) and became w poniedzialek. 'te ksiazke' died on te, verified NEW, so the accusative demonstrative appears nowhere.\n\nDISTRACTORS are always another form of the same paradigm in the wrong slot — a male form against a female one, a past against a present, an impersonal against a personal. Nothing is fabricated and nothing is out of pool. Quiz 12 is the semantic discrimination the unit needs (musi = no choice, szef said so; powinien = a good idea), phrased as a real sentence rather than a question about the language.",
+  "focus_structures": [
+    "powinien"
+  ],
+  "teaches_structures": [
+    "powinien"
+  ],
+  "teaches_lemmas": [
+    "powinienem",
+    "powinieneś",
+    "powinien",
+    "powinnam",
+    "powinnaś",
+    "powinna",
+    "musiałem",
+    "musiałeś",
+    "musiał",
+    "musiałam",
+    "musiałaś",
+    "musiała",
+    "trzeba było",
+    "można było"
+  ],
+  "uses_structures": [
+    "powinien",
+    "musiec",
+    "can_inf",
+    "present",
+    "bedzie",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "aspect_past",
+    "aspect_prefixes",
+    "ze_clauses",
+    "reported",
+    "prep_w_loc",
+    "prep_place",
+    "prep_do_gen",
+    "miec_acc",
+    "inst_transport",
+    "ordinals_time",
+    "plural_nom",
+    "byc_adj",
+    "conjunctions",
+    "question"
+  ],
+  "intro": [
+    {
+      "title": "A fifth helper — and the first one with a gender",
+      "title_pl": "powinienem · powinnam",
+      "body": "You have built this shape four times already:\n\nMogę pracować. — I can work.\nUmiem gotować. — I can cook.\nMuszę pracować. — I have to work.\nBędę pracować. — I will work.\n\nOne helper carries the person, and the second verb stays exactly as a dictionary prints it.\n\nHere is the fifth helper: powinienem — I should, I ought to.\n\nPowinienem pracować. — I should work.\n\nThe shape is entirely familiar. One thing about the word is not. This helper carries GENDER. Muszę is the same word whoever says it; powinienem is not. A woman says powinnam.\n\nThat is worth naming, because it runs against the system. Polish keeps gender in the past tense — byłem, byłam — and out of the present. This is a present-tense form that behaves like a past one, and it is the only helper that does.",
+      "body_pl": "powinienem + bezokolicznik — jak muszę, ale z rodzajem.",
+      "examples": [
+        {
+          "en": "I should work. (a man speaking)",
+          "pl": "Powinienem pracować."
+        },
+        {
+          "en": "I should work. (a woman speaking)",
+          "pl": "Powinnam pracować."
+        },
+        {
+          "en": "Dad should be at home.",
+          "pl": "Tata powinien być w domu."
+        },
+        {
+          "en": "Mum should buy bread.",
+          "pl": "Mama powinna kupić chleb."
+        }
+      ]
+    },
+    {
+      "title": "Six forms, and you already own the endings",
+      "title_pl": "powinien + em / ś",
+      "body": "The male forms are built on powinien, the female forms on powinna. What goes on the end is not new: it is the person marker you have carried since the past tense.\n\n-em for ja, -ś for ty, and nothing at all for on and ona.\n\nbyłem · byłeś · był\npowinienem · powinieneś · powinien\n\nbyłam · byłaś · była\npowinnam · powinnaś · powinna\n\nTwo columns, three rows, and every ending in the table is one you have been writing since A2.",
+      "body_pl": "Końcówki osobowe jak w czasie przeszłym: -em, -ś, zero.",
+      "table": {
+        "headers": [
+          "Person",
+          "man",
+          "woman"
+        ],
+        "rows": [
+          [
+            "ja",
+            "powinienem",
+            "powinnam"
+          ],
+          [
+            "ty",
+            "powinieneś",
+            "powinnaś"
+          ],
+          [
+            "on / ona",
+            "powinien",
+            "powinna"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One n or two",
+      "title_pl": "powinien czy powinna?",
+      "body": "Six forms, one spelling trap, and it is the only part of this word that can be got wrong by someone who has understood everything.\n\nThe male forms carry -ie- and a single n: powinien, powinienem, powinieneś.\nThe female forms carry no -ie- and a double n: powinna, powinnam, powinnaś.\n\nSo the two ja-forms are not a letter apart. powinienem and powinnam differ in the middle of the word, not at the end — the ending -m is the same in both.",
+      "body_pl": "Rodzaj męski: -ie- i jedno n. Rodzaj żeński: dwa n.",
+      "table": {
+        "headers": [
+          "Form",
+          "middle",
+          "n"
+        ],
+        "rows": [
+          [
+            "powinienem",
+            "-ie-",
+            "one n"
+          ],
+          [
+            "powinieneś",
+            "-ie-",
+            "one n"
+          ],
+          [
+            "powinien",
+            "-ie-",
+            "one n"
+          ],
+          [
+            "powinnam",
+            "no -ie-",
+            "two n"
+          ],
+          [
+            "powinnaś",
+            "no -ie-",
+            "two n"
+          ],
+          [
+            "powinna",
+            "no -ie-",
+            "two n"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The past of muszę — where the gender comes back",
+      "title_pl": "musiałem · musiała",
+      "body": "When you learned muszę, its past was left out on purpose. The point of that unit was that muszę has no gender at all, and the past would have handed the gender straight back on the same page.\n\nHere it is. The shape is the ordinary past you have had since A2 — the stem, then ł, then the person ending.\n\nMusiałem pracować. — I had to work. (a man)\nMusiałam pracować. — I had to work. (a woman)\n\nOne thing to notice rather than to work out: musieć builds its past on musia-, not on musie-. chcieć did the same — its past is chciałem, built on chcia- — and you learned those forms as they stood. Do the same with these six. There is more to say about that change, and it is not said here.",
+      "body_pl": "Czas przeszły od musieć: musia- + ł + końcówka osobowa.",
+      "table": {
+        "headers": [
+          "Person",
+          "man",
+          "woman"
+        ],
+        "rows": [
+          [
+            "ja",
+            "musiałem",
+            "musiałam"
+          ],
+          [
+            "ty",
+            "musiałeś",
+            "musiałaś"
+          ],
+          [
+            "on / ona",
+            "musiał",
+            "musiała"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The two words that never change still never change",
+      "title_pl": "trzeba było · można było",
+      "body": "można and trzeba name nobody. No person, no gender, no number — one można, one trzeba, and that is the whole verb.\n\nTheir past keeps that promise. You add było after the word, and nothing else happens.\n\nTrzeba było kupić bilet. — You had to buy a ticket. (anyone, not you in particular)\nMożna było płacić kartą. — It was possible to pay by card.\n\nbyło is the neuter past of być, which you have had since A2. Here it carries a whole tense on its own.\n\nSet the two halves of this unit side by side and the reversal is visible: musiałem picks up a gender in the past, trzeba było picks up nothing.",
+      "body_pl": "trzeba / można + było — bez osoby, bez rodzaju, bez liczby.",
+      "table": {
+        "headers": [
+          "Now",
+          "Past",
+          "What changes"
+        ],
+        "rows": [
+          [
+            "muszę",
+            "musiałem / musiałam",
+            "person and gender"
+          ],
+          [
+            "musisz",
+            "musiałeś / musiałaś",
+            "person and gender"
+          ],
+          [
+            "trzeba",
+            "trzeba było",
+            "nothing"
+          ],
+          [
+            "można",
+            "można było",
+            "nothing"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "muszę or powinienem?",
+      "title_pl": "muszę czy powinienem?",
+      "body": "The two are not interchangeable, and Polish draws the line in the same place English does.\n\nmuszę — there is no choice. Someone or something is making it happen.\npowinienem — it is the right thing to do. Nobody is forcing anything.\n\nSzef powiedział, że muszę pracować w poniedziałek. — The boss said I have to work on Monday.\nPowinienem odpoczywać. — I should rest.\n\nThe same line runs through the past: musiałem pracować says it happened and there was no way round it. There is no past of powinienem in this course yet, so 'I should have worked' is not expressible — and that is a real gap, not something to guess at.",
+      "body_pl": "muszę — bez wyboru. powinienem — dobra decyzja.",
+      "examples": [
+        {
+          "en": "The boss said I have to work on Monday.",
+          "pl": "Szef powiedział, że muszę pracować w poniedziałek."
+        },
+        {
+          "en": "I should rest. (a man speaking)",
+          "pl": "Powinienem odpoczywać."
+        },
+        {
+          "en": "I had to work in the office. (a man speaking)",
+          "pl": "Musiałem pracować w biurze."
+        },
+        {
+          "en": "You should read books. (to a woman)",
+          "pl": "Powinnaś czytać książki."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I should … (a man speaking)",
+      "pl": "powinienem"
+    },
+    {
+      "en": "I should … (a woman speaking)",
+      "pl": "powinnam"
+    },
+    {
+      "en": "you should … (to a man)",
+      "pl": "powinieneś"
+    },
+    {
+      "en": "you should … (to a woman)",
+      "pl": "powinnaś"
+    },
+    {
+      "en": "he should …",
+      "pl": "powinien"
+    },
+    {
+      "en": "she should …",
+      "pl": "powinna"
+    },
+    {
+      "en": "I had to … (a man speaking)",
+      "pl": "musiałem"
+    },
+    {
+      "en": "I had to … (a woman speaking)",
+      "pl": "musiałam"
+    },
+    {
+      "en": "he had to …",
+      "pl": "musiał"
+    },
+    {
+      "en": "she had to …",
+      "pl": "musiała"
+    },
+    {
+      "en": "one had to …, it was necessary",
+      "pl": "trzeba było"
+    },
+    {
+      "en": "one could …, it was allowed",
+      "pl": "można było"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ zapłacić rachunek. (I should pay the bill — a woman speaking)",
+      "choices": [
+        "powinnam",
+        "powinienem",
+        "powinna",
+        "powinnaś"
+      ],
+      "answer": "powinnam",
+      "explain": "A woman speaking builds on powinna, and the ja-marker is -m: powinnam. powinna on its own is the on/ona form."
+    },
+    {
+      "prompt": "___ dzwonić do matki. (I should call Mum — a man speaking)",
+      "choices": [
+        "powinienem",
+        "powinnam",
+        "powinien",
+        "powinieneś"
+      ],
+      "answer": "powinienem",
+      "explain": "The male stem powinien plus the ja-marker -em, exactly as byłem is built. powinien alone would be he should."
+    },
+    {
+      "prompt": "___ przeczytać książkę. (you should read the book — said to a man)",
+      "choices": [
+        "powinieneś",
+        "powinnaś",
+        "powinienem",
+        "powinien"
+      ],
+      "answer": "powinieneś",
+      "explain": "ty takes -ś, the same marker as byłeś. The gender follows the person addressed, not the speaker."
+    },
+    {
+      "prompt": "___ odpoczywać. (you should rest — said to a woman)",
+      "choices": [
+        "powinnaś",
+        "powinieneś",
+        "powinna",
+        "powinnam"
+      ],
+      "answer": "powinnaś",
+      "explain": "Female stem powinna plus the ty-marker -ś. Note the double n: powinnaś, not powinieneś."
+    },
+    {
+      "prompt": "Tata ___ być w domu o piątej. (Dad should be at home at five)",
+      "choices": [
+        "powinien",
+        "powinna",
+        "powinienem",
+        "musiał"
+      ],
+      "answer": "powinien",
+      "explain": "on takes no ending at all — the bare form powinien. musiał would say he had to, which is a different claim."
+    },
+    {
+      "prompt": "Mama ___ kupić chleb. (Mum should buy bread)",
+      "choices": [
+        "powinna",
+        "powinien",
+        "powinnam",
+        "powinnaś"
+      ],
+      "answer": "powinna",
+      "explain": "ona takes no ending either, so the bare female form powinna. powinnam would put the speaker in the sentence."
+    },
+    {
+      "prompt": "Wczoraj ___ pracować w biurze. (I had to work in the office yesterday — a man speaking)",
+      "choices": [
+        "musiałem",
+        "musiałam",
+        "powinienem",
+        "musiał"
+      ],
+      "answer": "musiałem",
+      "explain": "The ordinary past: musia- plus ł plus -em. powinienem would say I ought to, which wczoraj cannot mean here."
+    },
+    {
+      "prompt": "Siostra ___ wczoraj gotować obiad. (my sister had to cook dinner yesterday)",
+      "choices": [
+        "musiała",
+        "musiał",
+        "musiałam",
+        "powinna"
+      ],
+      "answer": "musiała",
+      "explain": "The subject is siostra, so the past takes the female form with no person ending: musiała."
+    },
+    {
+      "prompt": "Brat ___ zapłacić rachunek. (my brother had to pay the bill)",
+      "choices": [
+        "musiał",
+        "musiała",
+        "musi",
+        "powinien"
+      ],
+      "answer": "musiał",
+      "explain": "Bare male past. musi would move it into the present — he has to pay it, still unpaid."
+    },
+    {
+      "prompt": "Na dworcu ___ kupić bilet. (at the station you had to buy a ticket — anyone, not you in particular)",
+      "choices": [
+        "trzeba było",
+        "można było",
+        "musiałem",
+        "trzeba"
+      ],
+      "answer": "trzeba było",
+      "explain": "Nobody is named, so the impersonal. było supplies the past and trzeba itself does not change. można było would say it was merely allowed."
+    },
+    {
+      "prompt": "W sklepie ___ płacić kartą. (in the shop it was possible to pay by card)",
+      "choices": [
+        "można było",
+        "trzeba było",
+        "można",
+        "musiała"
+      ],
+      "answer": "można było",
+      "explain": "można is permission, trzeba is obligation — the shop allowed the card, it did not demand it. Without było the sentence is about today."
+    },
+    {
+      "prompt": "Szef powiedział, że tata ___ pracować w poniedziałek. (he has to — there is no choice)",
+      "choices": [
+        "musi",
+        "powinien",
+        "musiał",
+        "powinna"
+      ],
+      "answer": "musi",
+      "explain": "The boss removes the choice, which is muszę's job. powinien would make it Dad's own good idea, and musiał would put it in the past — but the work is still ahead."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I should … (a man speaking)",
+      "mode": "full_word",
+      "answer": "powinienem",
+      "accepts": [
+        "powinienem"
+      ],
+      "explain": "The male stem powinien with the ja-marker -em, the same ending as byłem."
+    },
+    {
+      "prompt_en": "I should … (a woman speaking)",
+      "mode": "full_word",
+      "answer": "powinnam",
+      "accepts": [
+        "powinnam"
+      ],
+      "explain": "Female stem powinna, double n, plus -m."
+    },
+    {
+      "prompt_en": "you should … (said to a man)",
+      "mode": "full_word",
+      "answer": "powinieneś",
+      "accepts": [
+        "powinieneś"
+      ]
+    },
+    {
+      "prompt_en": "you should … (said to a woman)",
+      "mode": "full_word",
+      "answer": "powinnaś",
+      "accepts": [
+        "powinnaś"
+      ]
+    },
+    {
+      "prompt_en": "he should …",
+      "mode": "full_word",
+      "answer": "powinien",
+      "accepts": [
+        "powinien"
+      ],
+      "explain": "on takes no person ending, so the stem stands alone."
+    },
+    {
+      "prompt_en": "she should …",
+      "mode": "full_word",
+      "answer": "powinna",
+      "accepts": [
+        "powinna"
+      ]
+    },
+    {
+      "prompt_en": "I had to … (a man speaking)",
+      "mode": "full_word",
+      "answer": "musiałem",
+      "accepts": [
+        "musiałem"
+      ],
+      "explain": "Built on musia-, like chciałem on chcia-. Learn the stem as it stands."
+    },
+    {
+      "prompt_en": "I had to … (a woman speaking)",
+      "mode": "full_word",
+      "answer": "musiałam",
+      "accepts": [
+        "musiałam"
+      ]
+    },
+    {
+      "prompt_en": "you had to … (said to a man)",
+      "mode": "full_word",
+      "answer": "musiałeś",
+      "accepts": [
+        "musiałeś"
+      ]
+    },
+    {
+      "prompt_en": "you had to … (said to a woman)",
+      "mode": "full_word",
+      "answer": "musiałaś",
+      "accepts": [
+        "musiałaś"
+      ]
+    },
+    {
+      "prompt_en": "he had to …",
+      "mode": "full_word",
+      "answer": "musiał",
+      "accepts": [
+        "musiał"
+      ]
+    },
+    {
+      "prompt_en": "she had to …",
+      "mode": "full_word",
+      "answer": "musiała",
+      "accepts": [
+        "musiała"
+      ]
+    },
+    {
+      "prompt_en": "one had to …, it was necessary",
+      "mode": "full_word",
+      "answer": "trzeba było",
+      "accepts": [
+        "trzeba było"
+      ],
+      "explain": "The impersonal never changes; było alone carries the past."
+    },
+    {
+      "prompt_en": "one could …, it was allowed",
+      "mode": "full_word",
+      "answer": "można było",
+      "accepts": [
+        "można było"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad should be at home at five.",
+      "answer": "Tata powinien być w domu o piątej.",
+      "accepts": [
+        "Tata powinien być w domu o piątej.",
+        "Tata powinien być w domu o piątej"
+      ],
+      "explain": "on takes the bare form powinien, and być follows it unchanged — the helper carries everything."
+    },
+    {
+      "prompt_en": "Type: Mum should buy bread.",
+      "answer": "Mama powinna kupić chleb.",
+      "accepts": [
+        "Mama powinna kupić chleb.",
+        "Mama powinna kupić chleb"
+      ],
+      "explain": "kupić is the finished twin of kupować: one loaf, one trip. chleb does not change shape after it."
+    },
+    {
+      "prompt_en": "Type: My brother had to pay the bill.",
+      "answer": "Brat musiał zapłacić rachunek.",
+      "accepts": [
+        "Brat musiał zapłacić rachunek.",
+        "Brat musiał zapłacić rachunek"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister had to work yesterday.",
+      "answer": "Siostra musiała wczoraj pracować.",
+      "accepts": [
+        "Siostra musiała wczoraj pracować.",
+        "Siostra musiała wczoraj pracować"
+      ],
+      "explain": "The gender sits on musiała, not on pracować — the second verb never moves."
+    },
+    {
+      "prompt_en": "Type: At the station you had to buy a ticket.",
+      "answer": "Na dworcu trzeba było kupić bilet.",
+      "accepts": [
+        "Na dworcu trzeba było kupić bilet.",
+        "Na dworcu trzeba było kupić bilet",
+        "Trzeba było kupić bilet na dworcu.",
+        "Trzeba było kupić bilet na dworcu"
+      ],
+      "explain": "Nobody is named, so trzeba było rather than musiałem. Neither word changes for anyone."
+    },
+    {
+      "prompt_en": "Type: In the shop it was possible to pay by card.",
+      "answer": "W sklepie można było płacić kartą.",
+      "accepts": [
+        "W sklepie można było płacić kartą.",
+        "W sklepie można było płacić kartą",
+        "Można było płacić kartą w sklepie.",
+        "Można było płacić kartą w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: You should read the book. (said to a man)",
+      "answer": "Powinieneś przeczytać książkę.",
+      "accepts": [
+        "Powinieneś przeczytać książkę.",
+        "Powinieneś przeczytać książkę"
+      ],
+      "explain": "przeczytać is the finished twin — the whole book, to the end."
+    },
+    {
+      "prompt_en": "Type: I should cook dinner. (a woman speaking)",
+      "answer": "Powinnam ugotować obiad.",
+      "accepts": [
+        "Powinnam ugotować obiad.",
+        "Powinnam ugotować obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor should be at the hospital.",
+      "answer": "Lekarz powinien być w szpitalu.",
+      "accepts": [
+        "Lekarz powinien być w szpitalu.",
+        "Lekarz powinien być w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: You should read books. (said to a woman)",
+      "answer": "Powinnaś czytać książki.",
+      "accepts": [
+        "Powinnaś czytać książki.",
+        "Powinnaś czytać książki"
+      ],
+      "explain": "Reading books is a habit rather than one finished job, so the plain czytać is right here."
+    }
+  ],
+  "uses_lemmas": [
+    "musieć",
+    "muszę",
+    "musisz",
+    "musi",
+    "można",
+    "trzeba",
+    "mogę",
+    "umiem",
+    "będę",
+    "być",
+    "byłem",
+    "byłam",
+    "byłeś",
+    "byłaś",
+    "był",
+    "była",
+    "było",
+    "chciałem",
+    "pracować",
+    "gotować",
+    "ugotować",
+    "kupić",
+    "kupować",
+    "czytać",
+    "przeczytać",
+    "płacić",
+    "zapłacić",
+    "dzwonić",
+    "odpoczywać",
+    "tata",
+    "mama",
+    "siostra",
+    "brat",
+    "lekarz",
+    "szef",
+    "do matki",
+    "chleb",
+    "obiad",
+    "rachunek",
+    "bilet",
+    "książkę",
+    "książki",
+    "kartą",
+    "w domu",
+    "w biurze",
+    "w sklepie",
+    "w szpitalu",
+    "na dworcu",
+    "o piątej",
+    "w poniedziałek",
+    "wczoraj",
+    "powiedział",
+    "że",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_powinien",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

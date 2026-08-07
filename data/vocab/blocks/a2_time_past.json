@@ -1,0 +1,371 @@
+{
+  "id": "a2_time_past",
+  "title": "Czas przeszły · słówka",
+  "title_en": "Past time words",
+  "level": "A2",
+  "tree_node": "a2_time_past",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · rides a2_past_byc. The time words that make past narration possible. wczoraj and temu are already taught (a1_time_cal) — recycled, never re-taught. The w zeszłym … phrases are fixed chunks (time_past_chunk): no locative-of-adjective machinery is taught or explained here. Singular past of być only — plural past (byliśmy/byli/były) belongs to a2_past_plural.",
+  "teaches_structures": [
+    "time_past_chunk"
+  ],
+  "uses_structures": [
+    "time_past_chunk",
+    "past_byc",
+    "prep_w_loc",
+    "byc_adj",
+    "zgoda",
+    "weather_chunk",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "past_time_words",
+      "title": "Past time · single words",
+      "items": [
+        {
+          "en": "the day before yesterday",
+          "pl": "przedwczoraj"
+        },
+        {
+          "en": "a long time ago",
+          "pl": "dawno temu"
+        },
+        {
+          "en": "recently, lately",
+          "pl": "ostatnio"
+        },
+        {
+          "en": "not long ago",
+          "pl": "niedawno"
+        },
+        {
+          "en": "then (at that time)",
+          "pl": "wtedy"
+        }
+      ]
+    },
+    {
+      "id": "past_time_chunks",
+      "title": "Past time · fixed phrases",
+      "items": [
+        {
+          "en": "last week",
+          "pl": "w zeszłym tygodniu"
+        },
+        {
+          "en": "last month",
+          "pl": "w zeszłym miesiącu"
+        },
+        {
+          "en": "last year",
+          "pl": "w zeszłym roku"
+        },
+        {
+          "en": "on Monday",
+          "pl": "w poniedziałek"
+        },
+        {
+          "en": "at the weekend",
+          "pl": "w weekend"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The day before yesterday I was at work. (m)",
+      "pl": "Przedwczoraj byłem w pracy.",
+      "accepts": [
+        "Przedwczoraj byłem w pracy.",
+        "Przedwczoraj byłem w pracy",
+        "Byłem przedwczoraj w pracy.",
+        "Byłem przedwczoraj w pracy",
+        "Byłem w pracy przedwczoraj.",
+        "Byłem w pracy przedwczoraj"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "przedwczoraj"
+      ],
+      "explain": "przed means 'before' and wczoraj is 'yesterday', so przedwczoraj is literally 'before-yesterday'. Polish does in one word what English needs five for."
+    },
+    {
+      "en": "Where were you the day before yesterday? (to a man)",
+      "pl": "Gdzie byłeś przedwczoraj?",
+      "accepts": [
+        "Gdzie byłeś przedwczoraj?",
+        "Gdzie byłeś przedwczoraj",
+        "Gdzie przedwczoraj byłeś?",
+        "Gdzie przedwczoraj byłeś"
+      ],
+      "structures": [
+        "past_byc",
+        "question"
+      ],
+      "lemmas": [
+        "przedwczoraj"
+      ]
+    },
+    {
+      "en": "Last week I was at school. (f)",
+      "pl": "W zeszłym tygodniu byłam w szkole.",
+      "accepts": [
+        "W zeszłym tygodniu byłam w szkole.",
+        "W zeszłym tygodniu byłam w szkole",
+        "Byłam w zeszłym tygodniu w szkole.",
+        "Byłam w zeszłym tygodniu w szkole",
+        "Byłam w szkole w zeszłym tygodniu.",
+        "Byłam w szkole w zeszłym tygodniu",
+        "Tygodniu byłam w szkole w zeszłym.",
+        "Tygodniu byłam w szkole w zeszłym"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w zeszłym tygodniu"
+      ],
+      "explain": "zeszły means 'last, gone by'. Learn w zeszłym tygodniu as one whole phrase — the endings on zeszłym and tygodniu belong to a case system you meet much later. For now: three words, one meaning."
+    },
+    {
+      "en": "Last week it was raining.",
+      "pl": "W zeszłym tygodniu padał deszcz.",
+      "accepts": [
+        "W zeszłym tygodniu padał deszcz.",
+        "W zeszłym tygodniu padał deszcz",
+        "Padał deszcz w zeszłym tygodniu.",
+        "Padał deszcz w zeszłym tygodniu",
+        "Tygodniu padał deszcz w zeszłym.",
+        "Tygodniu padał deszcz w zeszłym"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "w zeszłym tygodniu"
+      ]
+    },
+    {
+      "en": "Last month Dad was in hospital.",
+      "pl": "W zeszłym miesiącu tata był w szpitalu.",
+      "accepts": [
+        "W zeszłym miesiącu tata był w szpitalu.",
+        "W zeszłym miesiącu tata był w szpitalu",
+        "Tata był w zeszłym miesiącu w szpitalu.",
+        "Tata był w zeszłym miesiącu w szpitalu",
+        "Tata był w szpitalu w zeszłym miesiącu.",
+        "Tata był w szpitalu w zeszłym miesiącu",
+        "Miesiącu tata był w szpitalu w zeszłym.",
+        "Miesiącu tata był w szpitalu w zeszłym"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w zeszłym miesiącu"
+      ],
+      "explain": "Same shape as w zeszłym tygodniu, with miesiąc in place of tydzień. Swap the noun, keep the frame."
+    },
+    {
+      "en": "Last year the weather was good.",
+      "pl": "W zeszłym roku pogoda była dobra.",
+      "accepts": [
+        "W zeszłym roku pogoda była dobra.",
+        "W zeszłym roku pogoda była dobra",
+        "Pogoda była dobra w zeszłym roku.",
+        "Pogoda była dobra w zeszłym roku",
+        "Pogoda w zeszłym roku była dobra.",
+        "Pogoda w zeszłym roku była dobra",
+        "Roku pogoda była dobra w zeszłym.",
+        "Roku pogoda była dobra w zeszłym"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "w zeszłym roku"
+      ],
+      "explain": "The third member of the family: tydzień, miesiąc, rok all take the same w zeszłym … frame. pogoda is feminine, so była dobra keeps its -a agreement."
+    },
+    {
+      "en": "A long time ago I was at school. (m)",
+      "pl": "Dawno temu byłem w szkole.",
+      "accepts": [
+        "Dawno temu byłem w szkole.",
+        "Dawno temu byłem w szkole",
+        "Byłem dawno temu w szkole.",
+        "Byłem dawno temu w szkole",
+        "Byłem w szkole dawno temu.",
+        "Byłem w szkole dawno temu"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dawno temu"
+      ],
+      "explain": "You already know temu ('ago') from counted time: rok temu = a year ago. dawno means 'long since', so dawno temu is the version with no number in it at all."
+    },
+    {
+      "en": "Recently I was tired. (m)",
+      "pl": "Ostatnio byłem zmęczony.",
+      "accepts": [
+        "Ostatnio byłem zmęczony.",
+        "Ostatnio byłem zmęczony",
+        "Byłem ostatnio zmęczony.",
+        "Byłem ostatnio zmęczony"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ostatnio"
+      ],
+      "explain": "ostatnio covers a stretch of recent time — 'lately, these days'. It suits states that lasted, which is why it sits so well with byłem zmęczony."
+    },
+    {
+      "en": "Not long ago I was at the bank. (f)",
+      "pl": "Niedawno byłam w banku.",
+      "accepts": [
+        "Niedawno byłam w banku.",
+        "Niedawno byłam w banku",
+        "Byłam niedawno w banku.",
+        "Byłam niedawno w banku",
+        "Byłam w banku niedawno.",
+        "Byłam w banku niedawno"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "niedawno"
+      ],
+      "explain": "nie + dawno = 'not long'. Where ostatnio spreads over a period, niedawno points at one moment a short way back."
+    },
+    {
+      "en": "Then it was cold.",
+      "pl": "Wtedy było zimno.",
+      "accepts": [
+        "Wtedy było zimno.",
+        "Wtedy było zimno",
+        "Było wtedy zimno.",
+        "Było wtedy zimno",
+        "Było zimno wtedy.",
+        "Było zimno wtedy"
+      ],
+      "structures": [
+        "past_byc",
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "wtedy"
+      ],
+      "explain": "wtedy points back to a time already named — 'at that time'. It never opens a story; it hooks onto one that has started."
+    },
+    {
+      "en": "On Monday I was at the office. (m)",
+      "pl": "W poniedziałek byłem w biurze.",
+      "accepts": [
+        "W poniedziałek byłem w biurze.",
+        "W poniedziałek byłem w biurze",
+        "Byłem w poniedziałek w biurze.",
+        "Byłem w poniedziałek w biurze",
+        "Byłem w biurze w poniedziałek.",
+        "Byłem w biurze w poniedziałek"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w poniedziałek"
+      ],
+      "explain": "Days of the week keep their dictionary shape after w: w poniedziałek, w piątek. Compare w biurze in the same sentence, where the place word does change — days simply don't."
+    },
+    {
+      "en": "At the weekend I was in the park. (f)",
+      "pl": "W weekend byłam w parku.",
+      "accepts": [
+        "W weekend byłam w parku.",
+        "W weekend byłam w parku",
+        "Byłam w weekend w parku.",
+        "Byłam w weekend w parku",
+        "Byłam w parku w weekend.",
+        "Byłam w parku w weekend"
+      ],
+      "structures": [
+        "time_past_chunk",
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "w weekend"
+      ],
+      "explain": "weekend behaves like a day of the week here: unchanged after w. English says 'at the weekend', Polish says w — the prepositions do not translate one for one."
+    }
+  ],
+  "teaches_lemmas": [
+    "przedwczoraj",
+    "dawno temu",
+    "ostatnio",
+    "niedawno",
+    "wtedy",
+    "w zeszłym tygodniu",
+    "w zeszłym miesiącu",
+    "w zeszłym roku",
+    "w weekend"
+  ],
+  "uses_lemmas": [
+    "byłem",
+    "byłam",
+    "byłeś",
+    "był",
+    "była",
+    "było",
+    "w pracy",
+    "w szkole",
+    "w szpitalu",
+    "w banku",
+    "w biurze",
+    "w parku",
+    "tata",
+    "pogoda",
+    "dobra",
+    "zmęczony",
+    "zimno",
+    "padał deszcz",
+    "gdzie",
+    "temu",
+    "wczoraj",
+    "poniedziałek",
+    "weekend",
+    "tydzień",
+    "miesiąc",
+    "rok",
+    "w poniedziałek"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_time_past",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

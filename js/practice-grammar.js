@@ -16,6 +16,7 @@ import {
   touchBlock,
   hasFruit,
   grammarBest,
+  canEnterGrammarUse,
 } from "./progress.js";
 import { setSmokeContext } from "./smoke-flags.js";
 import { attachExplain } from "./explain.js";
@@ -115,6 +116,33 @@ function acceptsList(item, mode) {
   if (item.answer != null) raw.push(item.answer);
   if (Array.isArray(item.accepts)) raw.push(...item.accepts);
   return [...new Set(raw.map(norm).filter(Boolean))];
+}
+
+/** Strip Polish diacritics for near-miss comparison (ż/ź, ą/a …). */
+function deacc(s) {
+  return String(s)
+    .replace(/ą/g, "a")
+    .replace(/ć/g, "c")
+    .replace(/ę/g, "e")
+    .replace(/ł/g, "l")
+    .replace(/ń/g, "n")
+    .replace(/ó/g, "o")
+    .replace(/ś/g, "s")
+    .replace(/ź/g, "z")
+    .replace(/ż/g, "z");
+}
+
+/**
+ * Diacritics-only miss (James 2026-08-06): the answer is right apart from
+ * ogonki/kreski. Scores as correct, feedback shows the fully-accented form
+ * so the correct spelling is still seen. Vocab has done this since day one;
+ * the grammar engine was the strict outlier.
+ */
+function isAccentNearMiss(user, item, mode) {
+  const u = mode === "ending_gap" ? normEnding(user) : norm(user);
+  if (!u) return false;
+  const flat = deacc(u);
+  return acceptsList(item, mode).some((f) => deacc(f) === flat);
 }
 
 function isCorrect(user, item, mode) {
@@ -294,13 +322,43 @@ export function startPractice(pack, root, opts) {
     render();
   }
 
+  function notifyProgress(mode, result) {
+    if (typeof opts.onBeforeProgress === "function") opts.onBeforeProgress();
+    const r = completeMode(pack.id, mode, result);
+    if (r && r.justFruited && typeof opts.onFruit === "function") {
+      opts.onFruit({ domain: "grammar", packId: pack.id, mode });
+    }
+    if (r && r.review && typeof opts.onReview === "function") {
+      opts.onReview(r.review, mode);
+    }
+    return r;
+  }
+
+  /** Block Use until Check + Type are fully clear (RUE2-style).
+   * Reviews (launched straight at Pisanie) are exempt — production is the
+   * proof; never re-route a review through Kontrola (James 2026-08-06). */
+  function useAllowed() {
+    return state.reviewStart === "type" || canEnterGrammarUse(pack.id);
+  }
+  function guardEnterUse() {
+    if (useAllowed()) return true;
+    const st = root.querySelector("#p-status, .stage-banner-sub, .practice-hint");
+    const msg =
+      "Najpierw wyczyść Kontrolę i Pisanie (powtórz błędy) — potem Użycie";
+    if (st) st.textContent = msg;
+    return false;
+  }
+
   // Jump to any ladder stage via its proper entry (each initialises its items)
   function jumpToStage(id) {
     if (!id || id === state.stage) return;
     if (id === "intro") setStage("intro");
     else if (id === "check") beginCheck();
     else if (id === "type") beginType();
-    else if (id === "use") beginUse();
+    else if (id === "use") {
+      if (!guardEnterUse()) return;
+      beginUse();
+    }
   }
 
   function ladderHtml() {
@@ -329,7 +387,7 @@ export function startPractice(pack, root, opts) {
       },
       type: {
         title: "Etap 3 · Pisanie",
-        sub: "Napisz formę · Enter = sprawdź · Enter = dalej",
+        sub: "Napisz formę · Enter = sprawdź, potem Enter = dalej",
       },
       use: {
         title: "Etap 4 · Użycie",
@@ -387,7 +445,7 @@ export function startPractice(pack, root, opts) {
     clearAdvance();
     const cards = pack.intro || [];
     if (!cards.length) {
-      completeMode(pack.id, "intro");
+      notifyProgress( "intro");
       beginCheck();
       return;
     }
@@ -457,7 +515,7 @@ export function startPractice(pack, root, opts) {
     };
     const goNext = () => {
       if (last) {
-        completeMode(pack.id, "intro");
+        notifyProgress( "intro");
         beginCheck();
       } else {
         state.introIndex += 1;
@@ -520,7 +578,7 @@ export function startPractice(pack, root, opts) {
     state.checkTotal = 0;
     const hasMatch = (pack.match || []).length > 0;
     if (!hasMatch && !state.quizItems.length) {
-      completeMode(pack.id, "check", { score: 1, total: 1 });
+      notifyProgress( "check", { score: 1, total: 1 });
       beginType();
       return;
     }
@@ -598,7 +656,7 @@ export function startPractice(pack, root, opts) {
         } else {
           const s = state.checkTotal ? state.checkScore : 1;
           const t = state.checkTotal || 1;
-          completeMode(pack.id, "check", { score: s, total: t });
+          notifyProgress( "check", { score: s, total: t });
           beginType();
         }
       };
@@ -724,16 +782,25 @@ export function startPractice(pack, root, opts) {
     const total = state.quizItems.length || 1;
     const score = state.quizScore;
     const wrongN = state.quizWrong.length;
-    // Commit quiz score once (not on every re-render)
+    // Commit quiz score once (not on every re-render). Kontrola is recorded
+    // HERE, on reaching the gate — not on clicking through to Pisanie. Both
+    // the ladder (jumpToStage -> beginType) and leaving the unit bypass that
+    // click, which silently lost a finished Kontrola and left units stuck at
+    // 3/4 (James, 2026-08-05). Pisanie and Użycie already commit on gate
+    // render; this makes Kontrola behave the same.
     if (!state.quizScoreCommitted && !state.quizRetryPass) {
       state.checkScore += score;
       state.checkTotal += total;
       state.quizScoreCommitted = true;
+      notifyProgress( "check", {
+        score: state.checkScore,
+        total: state.checkTotal,
+      });
     }
     // Clearing every mistake in the poprawka rounds counts as a full pass —
     // mastery through correction, not first-try perfection.
     if (state.quizRetryPass && wrongN === 0) {
-      completeMode(pack.id, "check", { score: 1, total: 1 });
+      notifyProgress( "check", { score: 1, total: 1 });
     }
     root.innerHTML = `
       ${ladderHtml()}
@@ -762,7 +829,7 @@ export function startPractice(pack, root, opts) {
     const goType = () => {
       const s = state.checkTotal ? state.checkScore : 1;
       const t = state.checkTotal || 1;
-      completeMode(pack.id, "check", { score: s, total: t });
+      notifyProgress( "check", { score: s, total: t });
       beginType();
     };
     root.querySelector("#q-next")?.addEventListener("click", goType);
@@ -854,8 +921,10 @@ export function startPractice(pack, root, opts) {
         }
       });
       state.enterAdvance = goNextQ;
-      // Wrong answers wait for Enter so the correction can be read.
-      if (good) advanceTimer = setTimeout(goNextQ, 900);
+      // Every answer waits for Enter — right ones too. James 2026-08-07:
+      // "sometimes there is a good explanation or you want to have another
+      // look." Nothing advances until the learner says so.
+      fb.textContent += " · Enter = dalej";
     };
 
     function onDigit(e) {
@@ -899,7 +968,7 @@ export function startPractice(pack, root, opts) {
     state.typeScore = 0;
     state.typeWrong = [];
     if (!state.typeItems.length) {
-      completeMode(pack.id, "type", { score: 1, total: 1 });
+      notifyProgress( "type", { score: 1, total: 1 });
       beginUse();
       return;
     }
@@ -907,6 +976,11 @@ export function startPractice(pack, root, opts) {
   }
 
   function beginUse(onlyWrong) {
+    // Permanent: no Use until Check + Type clear (retries of Use OK)
+    if (!onlyWrong && !useAllowed()) {
+      guardEnterUse();
+      return;
+    }
     state.stage = "use";
     state.useGate = false;
     state.useScoreCommitted = false;
@@ -921,7 +995,11 @@ export function startPractice(pack, root, opts) {
     state.useScore = 0;
     state.useWrong = [];
     if (!state.useItems.length) {
-      completeMode(pack.id, "use");
+      if (!useAllowed()) {
+        guardEnterUse();
+        return;
+      }
+      notifyProgress("use");
       state.stage = "done";
       render();
       return;
@@ -939,23 +1017,38 @@ export function startPractice(pack, root, opts) {
     const total = items.length || 1;
     const wrongN = wrong.length;
     const title = kind === "type" ? "Pisanie" : "Użycie";
-    const nextLabel =
-      kind === "type" && (pack.use_items || []).length
+    const hasUse = (pack.use_items || []).length > 0;
+    const useUnlocked =
+      kind !== "type" || useAllowed() || wrongN === 0;
+    // After committing type scores below, re-check unlock for Type→Use
+    let nextLabel =
+      kind === "type" && hasUse
         ? "Dalej do Użycia →"
         : "Zakończ · podsumowanie →";
 
     if (kind === "type" && !state.typeScoreCommitted && !retryPass) {
-      completeMode(pack.id, "type", { score, total });
+      notifyProgress("type", { score, total });
       state.typeScoreCommitted = true;
     }
     if (kind === "use" && !state.useScoreCommitted && !retryPass) {
-      completeMode(pack.id, "use", { score, total });
+      notifyProgress("use", { score, total });
       state.useScoreCommitted = true;
     }
     // Clearing every mistake in the poprawka rounds counts as a full pass —
     // mastery through correction, not first-try perfection.
     if (retryPass && wrongN === 0) {
-      completeMode(pack.id, kind, { score: 1, total: 1 });
+      notifyProgress(kind, { score: 1, total: 1 });
+    }
+
+    const canGoUse =
+      kind === "type" && hasUse && useAllowed() && wrongN === 0;
+    const blockUseMsg =
+      kind === "type" && hasUse && wrongN === 0 && !useAllowed();
+    if (blockUseMsg) {
+      nextLabel = "Najpierw wyczyść Kontrolę";
+    }
+    if (kind === "type" && wrongN > 0) {
+      nextLabel = "Użycie zablokowane";
     }
 
     root.innerHTML = `
@@ -964,34 +1057,56 @@ export function startPractice(pack, root, opts) {
       <p class="practice-prompt">Wynik: <strong>${score} / ${total}</strong></p>
       <p class="practice-hint">${
         wrongN > 0
-          ? `${wrongN} błędów · powtórz albo idź dalej`
+          ? kind === "type"
+            ? `${wrongN} błędów · powtórz aż będzie czysto — wtedy Użycie`
+            : `${wrongN} błędów · powtórz albo idź dalej`
           : kind === "type"
-            ? "Wszystko poprawnie · dalej: Użycie"
+            ? canGoUse
+              ? "Wszystko poprawnie · dalej: Użycie"
+              : "Pisanie czyste · wyczyść Kontrolę, potem Użycie"
             : "Wszystko poprawnie · podsumowanie"
       }${retryPass ? " · runda poprawkowa" : ""}</p>
       <div class="nav">
         ${
           wrongN > 0
             ? `<button type="button" class="btn primary" id="t-retry">Powtórz błędy (${wrongN})</button>
-               <button type="button" class="btn" id="t-next">${nextLabel}</button>`
-            : `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
-               <button type="button" class="btn primary" id="t-next">${nextLabel}</button>`
+               ${
+                 kind === "use"
+                   ? `<button type="button" class="btn" id="t-next">${nextLabel}</button>`
+                   : ""
+               }`
+            : canGoUse || kind === "use" || !hasUse
+              ? `<button type="button" class="btn" id="t-again">Cała talia od nowa</button>
+                 <button type="button" class="btn primary" id="t-next">${nextLabel}</button>`
+              : `<button type="button" class="btn primary" id="t-fix-check">Wróć do Kontroli</button>
+                 <button type="button" class="btn" id="t-again">Cała talia od nowa</button>`
         }
       </div>
       ${
         wrongN > 0
-          ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>`
-          : ""
+          ? `<button type="button" class="link" id="t-again">Cała talia od nowa</button>
+             <p class="practice-hint" style="margin-top:0.5rem">Użycie jest zablokowane, dopóki Kontrola i Pisanie nie są czyste.</p>`
+          : blockUseMsg
+            ? `<p class="practice-hint" style="margin-top:0.5rem">Użycie zablokowane — powtórz błędy w Kontroli.</p>`
+            : ""
       }
     `;
 
     const goNext = () => {
-      if (kind === "type") beginUse();
-      else {
+      if (kind === "type") {
+        if (!useAllowed()) {
+          guardEnterUse();
+          return;
+        }
+        beginUse();
+      } else {
         state.stage = "done";
         render();
       }
     };
+    root.querySelector("#t-fix-check")?.addEventListener("click", () => {
+      beginCheck();
+    });
     const retry = () => {
       if (kind === "type") beginType(wrong.slice());
       else beginUse(wrong.slice());
@@ -1009,8 +1124,19 @@ export function startPractice(pack, root, opts) {
     root.querySelector("#t-next")?.addEventListener("click", goNext);
     root.querySelector("#t-retry")?.addEventListener("click", retry);
     root.querySelector("#t-again")?.addEventListener("click", again);
-    state.enterAdvance = wrongN > 0 ? retry : goNext;
-    focusPrimary(wrongN > 0 ? "#t-retry" : "#t-next");
+    state.enterAdvance =
+      wrongN > 0
+        ? retry
+        : root.querySelector("#t-next")
+          ? goNext
+          : () => root.querySelector("#t-fix-check")?.click();
+    focusPrimary(
+      wrongN > 0
+        ? "#t-retry"
+        : root.querySelector("#t-next")
+          ? "#t-next"
+          : "#t-fix-check",
+    );
   }
 
   function renderTypedStage(kind) {
@@ -1032,6 +1158,11 @@ export function startPractice(pack, root, opts) {
     const item = items[idx];
     const mode = kind === "use" ? "full_word" : typeModeOf(pack, item);
     const isGap = mode === "ending_gap" && item.stem != null;
+    const isCloze =
+      mode === "cloze" &&
+      typeof item.frame === "string" &&
+      item.frame.includes("___");
+    const clozeParts = isCloze ? item.frame.split("___") : null;
     const prompt =
       item.prompt_en || item.prompt || item.en || "Napisz po polsku:";
     setSmokeContext({
@@ -1040,7 +1171,7 @@ export function startPractice(pack, root, opts) {
       itemIndex: idx,
       en: prompt,
       pl: item.answer || fullFormOf(item) || "",
-      gap: isGap ? item.stem || "" : "",
+      gap: isGap ? item.stem || "" : isCloze ? item.frame : "",
       gap_answer: isGap ? item.ending || "" : item.answer || "",
       typed: "",
     });
@@ -1054,7 +1185,14 @@ export function startPractice(pack, root, opts) {
           <input type="text" id="ans" class="gap-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="__" lang="pl" />
           <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
         </div>`
-      : `<div class="input-row">
+      : isCloze
+        ? `<div class="gap-row cloze-row" aria-label="Uzupełnij brakujące słowo">
+          <span class="gap-stem">${esc(clozeParts[0])}</span>
+          <input type="text" id="ans" class="gap-input cloze-input" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="…" lang="pl" />
+          <span class="gap-stem">${esc(clozeParts[1] || "")}</span>
+          <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
+        </div>`
+        : `<div class="input-row">
           <input type="text" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="po polsku…" lang="pl" />
           <button type="button" class="btn primary" id="btn-submit">Sprawdź</button>
         </div>`;
@@ -1073,7 +1211,9 @@ export function startPractice(pack, root, opts) {
       ${
         isGap
           ? `<p class="practice-hint gap-hint">Tylko <strong>końcówka</strong> · diakrytyki ważne</p>`
-          : ""
+          : isCloze
+            ? `<p class="practice-hint gap-hint">Wpisz <strong>brakujące słowo</strong> · diakrytyki ważne</p>`
+            : ""
       }
       ${inputBlock}
       <div class="feedback" id="feedback"></div>
@@ -1106,17 +1246,22 @@ export function startPractice(pack, root, opts) {
     const grade = () => {
       if (answered) return;
       answered = true;
-      const good = isCorrect(input.value, item, mode);
+      const exact = isCorrect(input.value, item, mode);
+      const accentOnly = !exact && isAccentNearMiss(input.value, item, mode);
+      const good = exact || accentOnly;
       if (good) {
         if (!retype) {
           if (kind === "type") state.typeScore += 1;
           else state.useScore += 1;
         }
         fb.className = "feedback ok";
-        fb.textContent =
-          (isGap
-            ? `✓ Poprawnie · ${fullFormOf(item) || item.stem + item.ending}`
-            : "✓ Poprawnie") + (retype ? " (przepisane)" : "");
+        const full = isGap
+          ? fullFormOf(item) || item.stem + item.ending
+          : item.answer || fullFormOf(item) || "";
+        fb.textContent = accentOnly
+          ? `✓ Poprawnie — z ogonkami: ${full}`
+          : (isGap ? `✓ Poprawnie · ${full}` : "✓ Poprawnie") +
+            (retype ? " (przepisane)" : "");
       } else {
         if (!retype) {
           if (kind === "type") {
@@ -1158,16 +1303,24 @@ export function startPractice(pack, root, opts) {
       // routes by `answered`; a second handler double-advanced (item skip).
       focusPrimary("#btn-submit");
       state.enterAdvance = goNext;
-      // Correct: gentle auto-advance. Wrong: wait for Enter — the learner
-      // must get time to study the correction (James, comparatives smoke).
-      if (good) {
-        advanceTimer = setTimeout(goNext, isGap ? 750 : 900);
-      }
+      // Nothing auto-advances (James 2026-08-07): right answers wait for
+      // Enter exactly like wrong ones, so an explanation or a second look
+      // is never cut off mid-read.
     };
 
     const onEnter = () => {
-      if (answered) goNext();
-      else grade();
+      if (answered) {
+        goNext();
+        return;
+      }
+      // Empty Enter is a stray keypress, not an answer (James 2026-08-07:
+      // "I often press enter when I haven't entered anything"). Grading it
+      // scored the item wrong and burned the attempt.
+      if (!input.value.trim()) {
+        input.focus();
+        return;
+      }
+      grade();
     };
 
     btn.addEventListener("click", onEnter);

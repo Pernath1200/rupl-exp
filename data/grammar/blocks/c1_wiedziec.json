@@ -1,0 +1,669 @@
+{
+  "id": "c1_wiedziec",
+  "title": "Znam czy wiem?",
+  "title_en": "Two Polish verbs for one English \"know\"",
+  "level": "C1",
+  "tree_node": "c1_wiedziec",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 1, unit 2 — THE UNIT THAT LIFTS THE WIEM QUARANTINE (C1-SPINE O10). The fence dates to a2_directions_func, whose own note reads 'this unit NEVER mentions znam, never conjugates wiem, and never shows the infinitive', and it was re-held by b2_ze_clauses, b2_indirect_q and b2_double_neg — the last of which could not use its own headline phrase Nikt nie wie. b2_indirect_q's digest states the cost in one line: 'Dad can say I don't know where… but not Do you know where…? — which is the more useful sentence in a street.' That sentence is buildable from this node on, which is why the spine put the unit at position 2 of the level rather than in a Block 7 tidy-up.\n\nSIX NEW FORMS, ZERO NEW ENDINGS. wiesz, wie, wiemy, wiecie, wiedzą and the infinitive wiedzieć are the whole teaching payload; wiem has been owned since a2_directions_func [68]. The endings are the -m/-sz set the learner has had since A1 on mieć, and slide 1 is that parallel run down the page (mam/masz/ma/mamy/macie against wiem/wiesz/wie/wiemy/wiecie) with wiedzą named as the ONE place the parallel breaks — mają would predict a form that does not exist. Note mamy is used here in the job AGENTS' own homograph table assigns it, the verb 'we have', never as a Genitive of mama.\n\nTHE SPLIT COSTS ONE PARADIGM, NOT TWO, and that was verified rather than assumed: check_new.py reports znać / znam / znasz / zna / znamy / znacie / znają ALL TAUGHT since a1_present [15], so the wiedzieć-vs-znać contrast is a selection fact laid over a paradigm the learner has had for 150 nodes. This is the one place the unit carries two things at once, and it is defensible on exactly that ground — the second thing is not new material. The test given is syntactic, not semantic, because a syntactic test is one the learner can actually apply: if what follows could stand alone as a sentence, it is wiedzieć; if it is a person, a place or a thing you could point at, it is znać.\n\nSTAGE DIVISION OF LABOUR, deliberate. Pisanie drills the PARADIGM (six single forms — the AGENTS 'a single form for conjugation' contract, the b2_powinien idiom) plus three short selection items on the znać side, so no answer repeats under the engine's own norm(). Kontrola drills the SELECTION, since choosing between two verbs is a discrimination and that is what a quiz is for. Użycie is where the two meet in real sentences.\n\nACCUSATIVE OBJECTS ARE POOL-LIMITED AND THAT SHAPED THE UNIT: tę is verified NEW, so no feminine demonstrative object exists at this position, and kobietę, kolegę and lekarza are all NEW too. Every znać object here is therefore a masculine inanimate (adres, ten sklep, ten hotel, ten numer — Accusative identical to Nominative), a neuter (to miasto), or the honest masculine-animate Acc≡Gen case AGENTS names. No new noun form rides in.\n\nDISTRACTORS are taught words in the wrong slot, never fabricated non-words: Wiem adres, Znam, gdzie jest bank, Dzieci wie, Oni zna. Slide 4 shows the two commonest wrong sentences EXPLICITLY under a 'Polish does not say' column rather than leaving them to be discovered, on the b2_copular_future precedent that printed będę być and said outright it is not Polish.\n\nFENCED: wiedza the noun (so wiedzą is only ever the verb here); the past of wiedzieć (wiedziałem — verified NEW, and a second system in a unit that already carries a paradigm and a split); umieć, which is the third English 'know how to' and is owned only as umiem/umiesz from a vocab leaf, left alone rather than dragged into a two-way contrast; and je, the 3sg of jeść, which would have made the mieć/wiedzieć parallel prettier and is verified NEW and fenced to c1_pron_je.",
+  "focus_structures": [
+    "wiedziec"
+  ],
+  "teaches_structures": [
+    "wiedziec"
+  ],
+  "teaches_lemmas": [
+    "wiedzieć",
+    "wiesz",
+    "wie",
+    "wiemy",
+    "wiecie",
+    "wiedzą"
+  ],
+  "uses_structures": [
+    "wiedziec",
+    "present",
+    "miec_present",
+    "miec_acc",
+    "ten_ta_to",
+    "byc_present",
+    "existential_jest",
+    "negation",
+    "question",
+    "questions2",
+    "question_cases",
+    "ze_clauses",
+    "indirect_q",
+    "ordinals_time",
+    "participle_pass",
+    "conjunctions",
+    "virile_past"
+  ],
+  "intro": [
+    {
+      "title": "The verb behind wiem",
+      "title_pl": "wiem · wiesz · wie · wiemy · wiecie · wiedzą",
+      "body": "Nie wiem has been a street phrase since A2, and Wiem, że… has been available since B2 — but only ever in the first person. The verb is wiedzieć, and it does not conjugate like anything else you have learned by rule. It takes the -m / -sz endings you have had since A1 on mieć.",
+      "body_pl": "wiedzieć — wiem, wiesz, wie",
+      "table": {
+        "headers": [
+          "Person",
+          "mieć — already owned",
+          "wiedzieć"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mam",
+            "wiem"
+          ],
+          [
+            "ty",
+            "masz",
+            "wiesz"
+          ],
+          [
+            "on / ona",
+            "ma",
+            "wie"
+          ],
+          [
+            "my",
+            "mamy",
+            "wiemy"
+          ],
+          [
+            "wy",
+            "macie",
+            "wiecie"
+          ],
+          [
+            "oni / one",
+            "mają",
+            "wiedzą"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Mum knows where the shop is.",
+          "pl": "Mama wie, gdzie jest sklep."
+        },
+        {
+          "en": "We know that Dad is at work.",
+          "pl": "Wiemy, że tata pracuje."
+        }
+      ]
+    },
+    {
+      "title": "wiedzą is the one place the parallel breaks",
+      "title_pl": "mają → wiedzą",
+      "body": "Five rows of that table run in step. The sixth does not: mieć has mają, and wiedzieć has wiedzą. There is no rule to derive it from — it is the one form of this verb to learn as a word. Everything else follows mam.",
+      "body_pl": "oni mają · oni wiedzą",
+      "table": {
+        "headers": [
+          "Person",
+          "mieć",
+          "wiedzieć",
+          "In step?"
+        ],
+        "rows": [
+          [
+            "ja",
+            "mam",
+            "wiem",
+            "yes"
+          ],
+          [
+            "my",
+            "mamy",
+            "wiemy",
+            "yes"
+          ],
+          [
+            "wy",
+            "macie",
+            "wiecie",
+            "yes"
+          ],
+          [
+            "oni / one",
+            "mają",
+            "wiedzą",
+            "no"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The children know where Mum is.",
+          "pl": "Dzieci wiedzą, gdzie jest mama."
+        }
+      ]
+    },
+    {
+      "title": "One English word, two Polish verbs",
+      "title_pl": "Wiem, gdzie… · Znam adres.",
+      "body": "English says know for both. Polish splits them, and the split is about what comes after the verb rather than about meaning, which makes it a test you can apply. wiedzieć takes a whole clause — a że, a gdzie, a czy. znać takes a noun: a person, a place, a thing you could point at. znać is not new; you have had znam since A1.",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "What follows"
+        ],
+        "rows": [
+          [
+            "I know the address.",
+            "Znam adres.",
+            "a thing"
+          ],
+          [
+            "I know where the pharmacy is.",
+            "Wiem, gdzie jest apteka.",
+            "a clause"
+          ],
+          [
+            "I know this city.",
+            "Znam to miasto.",
+            "a place"
+          ],
+          [
+            "I know that Dad is at work.",
+            "Wiem, że tata pracuje.",
+            "a clause"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The question you have not been able to ask",
+      "title_pl": "Czy wiesz, gdzie jest apteka?",
+      "body": "Nie wiem, gdzie jest apteka has been in your mouth since A2. The far more useful sentence is the same one asked of somebody else, and until now there was no form to ask it with. wiesz is that form, and it works with every question word you already put after nie wiem.",
+      "table": {
+        "headers": [
+          "You could already say",
+          "Now also"
+        ],
+        "rows": [
+          [
+            "Nie wiem, gdzie jest apteka.",
+            "Czy wiesz, gdzie jest apteka?"
+          ],
+          [
+            "Nie wiem, ile to kosztuje.",
+            "Czy wiesz, ile to kosztuje?"
+          ],
+          [
+            "Nie wiem, kiedy sklep jest otwarty.",
+            "Czy wiesz, kiedy sklep jest otwarty?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Do you know where the bank is?",
+          "pl": "Czy wiesz, gdzie jest bank?"
+        },
+        {
+          "en": "Do you know what time it is?",
+          "pl": "Czy wiesz, która godzina?"
+        }
+      ]
+    },
+    {
+      "title": "What each verb refuses",
+      "title_pl": "Znam adres. · Wiem, gdzie jest bank.",
+      "body": "Neither verb covers the other's job, and putting the wrong one in is the predictable mistake for an English speaker, because English hides the difference. Both wrong sentences below are built from words you own; they are simply not what Polish says.",
+      "table": {
+        "headers": [
+          "Polish says",
+          "Polish does not say",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Znam adres.",
+            "Wiem adres.",
+            "adres is a thing"
+          ],
+          [
+            "Wiem, gdzie jest bank.",
+            "Znam, gdzie jest bank.",
+            "a clause needs wiedzieć"
+          ],
+          [
+            "Czy znasz ten hotel?",
+            "Czy wiesz ten hotel?",
+            "a hotel is a thing"
+          ],
+          [
+            "Czy wiesz, kiedy jest obiad?",
+            "Czy znasz, kiedy jest obiad?",
+            "a clause needs wiedzieć"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I know the address, but I don't know where the hotel is.",
+          "pl": "Znam adres, ale nie wiem, gdzie jest hotel."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I know where the pharmacy is.",
+      "pl": "Wiem, gdzie jest apteka."
+    },
+    {
+      "en": "Do you know where the bank is?",
+      "pl": "Czy wiesz, gdzie jest bank?"
+    },
+    {
+      "en": "Mum knows where the shop is.",
+      "pl": "Mama wie, gdzie jest sklep."
+    },
+    {
+      "en": "We know that Dad is at work.",
+      "pl": "Wiemy, że tata pracuje."
+    },
+    {
+      "en": "Do you (plural) know when the shop is open?",
+      "pl": "Czy wiecie, kiedy sklep jest otwarty?"
+    },
+    {
+      "en": "The children know where Mum is.",
+      "pl": "Dzieci wiedzą, gdzie jest mama."
+    },
+    {
+      "en": "I don't know how much it costs.",
+      "pl": "Nie wiem, ile to kosztuje."
+    },
+    {
+      "en": "I know the address.",
+      "pl": "Znam adres."
+    },
+    {
+      "en": "Do you know this hotel?",
+      "pl": "Czy znasz ten hotel?"
+    },
+    {
+      "en": "Dad knows this city.",
+      "pl": "Tata zna to miasto."
+    },
+    {
+      "en": "We know this shop.",
+      "pl": "Znamy ten sklep."
+    },
+    {
+      "en": "They know the address.",
+      "pl": "Oni znają adres."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Do you know where the bank is? (one person) →",
+      "choices": [
+        "Czy wiesz, gdzie jest bank?",
+        "Czy znasz, gdzie jest bank?",
+        "Czy wiecie, gdzie jest bank?",
+        "Czy wie, gdzie jest bank?"
+      ],
+      "answer": "Czy wiesz, gdzie jest bank?",
+      "explain": "A whole clause follows, so the verb has to be wiedzieć — znać cannot take one. One person you are talking to, so wiesz."
+    },
+    {
+      "prompt": "I know the address. →",
+      "choices": [
+        "Znam adres.",
+        "Wiem adres.",
+        "Znasz adres.",
+        "Znamy adres."
+      ],
+      "answer": "Znam adres.",
+      "explain": "adres is a thing, not a clause, so it takes znać. Wiem adres is the mistake English invites, because English uses one verb for both."
+    },
+    {
+      "prompt": "Mum knows where the shop is. →",
+      "choices": [
+        "Mama wie, gdzie jest sklep.",
+        "Mama zna, gdzie jest sklep.",
+        "Mama wiedzą, gdzie jest sklep.",
+        "Mama wiesz, gdzie jest sklep."
+      ],
+      "answer": "Mama wie, gdzie jest sklep.",
+      "explain": "One person being talked about — the on / ona slot, so wie. And a clause follows, so it cannot be zna."
+    },
+    {
+      "prompt": "The children know where Mum is. →",
+      "choices": [
+        "Dzieci wiedzą, gdzie jest mama.",
+        "Dzieci wie, gdzie jest mama.",
+        "Dzieci wiem, gdzie jest mama.",
+        "Dzieci znają, gdzie jest mama."
+      ],
+      "answer": "Dzieci wiedzą, gdzie jest mama.",
+      "explain": "More than one, being talked about: wiedzą. This is the form with no parallel in mieć — mają would predict something else."
+    },
+    {
+      "prompt": "Do you know this hotel? (one person) →",
+      "choices": [
+        "Czy znasz ten hotel?",
+        "Czy wiesz ten hotel?",
+        "Czy znacie ten hotel?",
+        "Czy zna ten hotel?"
+      ],
+      "answer": "Czy znasz ten hotel?",
+      "explain": "A hotel is a place you could point at, so znać. znacie would be right if you were asking more than one person."
+    },
+    {
+      "prompt": "___, gdzie jest apteka? (do you know — one person)",
+      "choices": [
+        "Wiesz",
+        "Wiem",
+        "Wie",
+        "Znasz"
+      ],
+      "answer": "Wiesz",
+      "explain": "The sentence you have wanted since A2. Wiem would say it about yourself; Znasz cannot take the clause at all."
+    },
+    {
+      "prompt": "Wy ___, że sklep jest zamknięty. (know)",
+      "choices": [
+        "wiecie",
+        "wiemy",
+        "wiedzą",
+        "wiesz"
+      ],
+      "answer": "wiecie",
+      "explain": "wy → wiecie, exactly as wy → macie."
+    },
+    {
+      "prompt": "My ___, gdzie jest hotel. (know)",
+      "choices": [
+        "wiemy",
+        "wiecie",
+        "wiem",
+        "wiedzą"
+      ],
+      "answer": "wiemy",
+      "explain": "my → wiemy, exactly as my → mamy."
+    },
+    {
+      "prompt": "Dad knows this city. →",
+      "choices": [
+        "Tata zna to miasto.",
+        "Tata wie to miasto.",
+        "Tata znają to miasto.",
+        "Tata wiedzą to miasto."
+      ],
+      "answer": "Tata zna to miasto.",
+      "explain": "A city is a place — znać. And tata is one person being talked about, so zna, not znają."
+    },
+    {
+      "prompt": "I don't know how much it costs. →",
+      "choices": [
+        "Nie wiem, ile to kosztuje.",
+        "Nie znam, ile to kosztuje.",
+        "Nie wiesz, ile to kosztuje.",
+        "Nie wie, ile to kosztuje."
+      ],
+      "answer": "Nie wiem, ile to kosztuje.",
+      "explain": "The A2 street phrase, unchanged. What is new is that the other three forms now exist and mean somebody else."
+    },
+    {
+      "prompt": "Do you know when the shop is open? (more than one person) →",
+      "choices": [
+        "Czy wiecie, kiedy sklep jest otwarty?",
+        "Czy wiemy, kiedy sklep jest otwarty?",
+        "Czy wiedzą, kiedy sklep jest otwarty?",
+        "Czy znacie, kiedy sklep jest otwarty?"
+      ],
+      "answer": "Czy wiecie, kiedy sklep jest otwarty?",
+      "explain": "Asking more than one person: wiecie. wiedzą would be asking about them rather than asking them."
+    },
+    {
+      "prompt": "They know the address. →",
+      "choices": [
+        "Oni znają adres.",
+        "Oni wiedzą adres.",
+        "Oni zna adres.",
+        "Oni znam adres."
+      ],
+      "answer": "Oni znają adres.",
+      "explain": "The verb has to be znać because adres is a thing — and then the ending follows oni: znają."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I know (a fact) →",
+      "mode": "full_word",
+      "answer": "wiem",
+      "accepts": [
+        "wiem"
+      ]
+    },
+    {
+      "prompt_en": "you know (a fact — one person) →",
+      "mode": "full_word",
+      "answer": "wiesz",
+      "accepts": [
+        "wiesz"
+      ],
+      "explain": "The -sz ending you already put on masz."
+    },
+    {
+      "prompt_en": "he / she knows (a fact) →",
+      "mode": "full_word",
+      "answer": "wie",
+      "accepts": [
+        "wie"
+      ],
+      "explain": "Bare stem, no ending at all — the same shape as ma."
+    },
+    {
+      "prompt_en": "we know (a fact) →",
+      "mode": "full_word",
+      "answer": "wiemy",
+      "accepts": [
+        "wiemy"
+      ]
+    },
+    {
+      "prompt_en": "you know (a fact — more than one person) →",
+      "mode": "full_word",
+      "answer": "wiecie",
+      "accepts": [
+        "wiecie"
+      ]
+    },
+    {
+      "prompt_en": "they know (a fact) →",
+      "mode": "full_word",
+      "answer": "wiedzą",
+      "accepts": [
+        "wiedzą"
+      ],
+      "explain": "The one form with no parallel in mieć. mają would predict something else; this is a word to learn rather than a form to build."
+    },
+    {
+      "prompt_en": "to know (a fact) — the infinitive →",
+      "mode": "full_word",
+      "answer": "wiedzieć",
+      "accepts": [
+        "wiedzieć"
+      ]
+    },
+    {
+      "prompt_en": "I know the address.",
+      "mode": "full_word",
+      "answer": "Znam adres.",
+      "accepts": [
+        "Znam adres.",
+        "Znam adres"
+      ]
+    },
+    {
+      "prompt_en": "I know this city.",
+      "mode": "full_word",
+      "answer": "Znam to miasto.",
+      "accepts": [
+        "Znam to miasto.",
+        "Znam to miasto"
+      ]
+    },
+    {
+      "prompt_en": "Do you know this hotel? (one person)",
+      "mode": "cloze",
+      "answer": "znasz",
+      "accepts": [
+        "znasz"
+      ],
+      "frame": "Czy ___ ten hotel?",
+      "explain": "A hotel is a thing, so the verb is znać — and the person you are asking is one, so znasz.",
+      "note": "Pisanie hard cap (James 2026-08-06). Composed, 4 words. Blank on the SELECTION, which is this unit's second teaching point: the choice of znać over wiedzieć, in the person the question needs."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Do you know where the pharmacy is? (one person)",
+      "answer": "Czy wiesz, gdzie jest apteka?",
+      "accepts": [
+        "Czy wiesz, gdzie jest apteka?",
+        "Czy wiesz, gdzie jest apteka",
+        "Wiesz, gdzie jest apteka?",
+        "Wiesz, gdzie jest apteka"
+      ],
+      "explain": "The sentence the course has been unable to build for a hundred nodes. Nie wiem, gdzie jest apteka was the only half available before this unit."
+    },
+    {
+      "prompt_en": "Type: Mum knows where the shop is.",
+      "answer": "Mama wie, gdzie jest sklep.",
+      "accepts": [
+        "Mama wie, gdzie jest sklep.",
+        "Mama wie, gdzie jest sklep"
+      ]
+    },
+    {
+      "prompt_en": "Type: We know that Dad is at work.",
+      "answer": "Wiemy, że tata pracuje.",
+      "accepts": [
+        "Wiemy, że tata pracuje.",
+        "Wiemy, że tata pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children know where Mum is.",
+      "answer": "Dzieci wiedzą, gdzie jest mama.",
+      "accepts": [
+        "Dzieci wiedzą, gdzie jest mama.",
+        "Dzieci wiedzą, gdzie jest mama"
+      ]
+    },
+    {
+      "prompt_en": "Type: Do you know when the shop is open? (more than one person)",
+      "answer": "Czy wiecie, kiedy sklep jest otwarty?",
+      "accepts": [
+        "Czy wiecie, kiedy sklep jest otwarty?",
+        "Czy wiecie, kiedy sklep jest otwarty",
+        "Wiecie, kiedy sklep jest otwarty?",
+        "Wiecie, kiedy sklep jest otwarty"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad knows this city.",
+      "answer": "Tata zna to miasto.",
+      "accepts": [
+        "Tata zna to miasto.",
+        "Tata zna to miasto"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know the address, but I don't know where the hotel is.",
+      "answer": "Znam adres, ale nie wiem, gdzie jest hotel.",
+      "accepts": [
+        "Znam adres, ale nie wiem, gdzie jest hotel.",
+        "Znam adres, ale nie wiem, gdzie jest hotel"
+      ],
+      "explain": "Both verbs in one sentence, doing the two jobs English packs into one: a thing after znam, a clause after wiem."
+    },
+    {
+      "prompt_en": "Type: Do you know this shop? (one person)",
+      "answer": "Czy znasz ten sklep?",
+      "accepts": [
+        "Czy znasz ten sklep?",
+        "Czy znasz ten sklep",
+        "Znasz ten sklep?",
+        "Znasz ten sklep"
+      ]
+    },
+    {
+      "prompt_en": "Type: They know the address.",
+      "answer": "Oni znają adres.",
+      "accepts": [
+        "Oni znają adres.",
+        "Oni znają adres"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "wiem",
+    "nie wiem",
+    "znać",
+    "znam",
+    "znasz",
+    "zna",
+    "znamy",
+    "znacie",
+    "znają",
+    "mam",
+    "masz",
+    "ma",
+    "mamy",
+    "macie",
+    "mają",
+    "mieć",
+    "że",
+    "czy",
+    "gdzie",
+    "kiedy",
+    "ile",
+    "ile to kosztuje",
+    "która godzina",
+    "jest",
+    "adres",
+    "apteka",
+    "bank",
+    "sklep",
+    "hotel",
+    "miasto",
+    "obiad",
+    "mama",
+    "tata",
+    "dzieci",
+    "pracuje",
+    "otwarty",
+    "zamknięty",
+    "ten",
+    "oni",
+    "ale",
+    "nie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_wiedziec",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

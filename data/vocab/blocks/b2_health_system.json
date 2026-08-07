@@ -1,0 +1,645 @@
+{
+ "id": "b2_health_system",
+ "title": "Przychodnia i szpital",
+ "title_en": "The health system",
+ "level": "B2",
+ "tree_node": "b2_health_system",
+ "default_direction": "en_to_pl",
+ "note": "B2 Block 3 vocab (spine). TWELVE NEW WORDS, all verified NEW: skierowanie, leczenie, objaw, diagnoza, oddział, pogotowie, zabieg, operacja, specjalista, rejestracja, wyniki, izba przyjęć.\n\nTHE REGISTER IS THE SYSTEM, NOT THE BODY. a1_body, leaf_health_a1 and a2_health2 already own symptoms-as-body-parts, medicines and how you feel; this pack is about NAVIGATING CARE — the referral, the desk you check in at, the ward, the results, the emergency entrance. ANCHORS, recycled and never re-taught: lekarz, pacjent, wizyta, karetka, pielęgniarka (leaf_health_a1), ubezpieczenie, recepta, badanie, przychodnia, szczepienie (a2_health2), kolejka (leaf_shopping_a1), szpital (leaf_places), termin (b1_plans).\n\nizba przyjęć IS TAUGHT AS ONE FROZEN CHUNK, and this is the pack's main judgment call, made deliberately and logged. B2-SPINE lists the candidate as bare izba, but izba on its own is a near-archaic word for a room and would be a misleading thing to hand this learner; izba przyjęć is the sign actually on the hospital door and is what he would need to read. The genitive plural inside it (przyjęć) is NOT taught, NOT explained and NOT decomposed — the gloss says to learn it whole. This follows the established multiword-citation precedent already live in the course: piłka nożna, w porządku (a1_freetime), dom handlowy, rozmowa kwalifikacyjna, praca domowa, zwrot pieniędzy, nauki ścisłe. The alternative was to drop it for a simpler single word (zastrzyk and dyżur were both checked and are NEW and available); rejected because it would leave the spine's own slot unpaid and lose the highest real-life-value item in the set.\n\nspecjalista IS A MASCULINE NOUN ENDING IN -a, the exact trap AGENTS.md names ('watch soft feminines and -a masculines'). Its gender badge says m, and sentence 15's explain points at the two -a masculines the learner has owned since A1, tata and kolega, rather than asserting the gender flatly. It is never given an adjective in the feminine, and its accusative specjalistę is NOT taught — that form is irregular enough to need its own moment and earns nothing here.\n\nFOUR INFLECTED FORMS ARE TAUGHT ALONGSIDE THEIR CITATION FORMS, per AGENTS.md's every-form-taught rule and the b2_work precedent (rozmowa / rozmowę): objawy (plural, the ordinary -y of plural_nom), diagnozę and operację (feminine accusative, the -a to -ę swap owned since a1_miec), and skierowania (genitive).\n\nskierowania IS THE ONE FORM THAT EXTENDS A RULE, and it is handed over whole rather than derived. gen_endings states the neuter genitive as -o to -a (okno to okna); skierowanie is a neuter in -e, and -e neuters take -a as well. That is the same landing point by the same logic, but the course has never shown an -e neuter in the genitive, so the form is taught as a memorised whole with an explain that names what it is doing, exactly the treatment kelnerzy, mógłby and the family datives received. It earns this because Nie mam skierowania is the single most useful sentence in the pack. FLAGGED FOR JAMES: if he would rather the course stayed silent on -e neuter genitives until a rule unit, sentence 3 is the only place to remove and nothing else depends on it.\n\nFENCED: na + Accusative appears nowhere, which cost two obvious sentences (dzwonię na pogotowie, czekam na wyniki) — na has only ever been a Locative preposition in this course (prep_w_loc) and na + Acc would be a new governor smuggled in through a vocab leaf. Oblique forms of the new nouns beyond the four listed above appear nowhere: no oddziale, rejestracji, leczeniu, wyników, zabiegu. No plural obliques. Indirect questions appear nowhere (b2_indirect_q owns them).\n\nSentence bank spreads across 24 already-owned structures, including question_cases from the unit immediately before this one on the path.",
+ "teaches_structures": [],
+ "uses_structures": [
+  "to_jest",
+  "byc_present",
+  "byc_adj",
+  "zgoda",
+  "ten_ta_to",
+  "miec_present",
+  "miec_acc",
+  "negation",
+  "existential_jest",
+  "question",
+  "question_cases",
+  "o_loc",
+  "plural_nom",
+  "past_byc",
+  "past_rest",
+  "copular_future",
+  "musiec",
+  "can_inf",
+  "conditional_sg",
+  "dative_pron",
+  "present",
+  "present_e_esz",
+  "present_e_isz",
+  "inst_identity",
+  "superlative",
+  "conjunctions",
+  "sie_reflexive",
+  "prep_w_loc"
+ ],
+ "blocks": [
+  {
+   "id": "health_system_b2_words",
+   "title": "The health system · new words",
+   "items": [
+    {
+     "en": "a referral (the paper that sends you to a specialist)",
+     "pl": "skierowanie",
+     "gender": "n"
+    },
+    {
+     "en": "treatment",
+     "pl": "leczenie",
+     "gender": "n"
+    },
+    {
+     "en": "a symptom",
+     "pl": "objaw",
+     "gender": "m"
+    },
+    {
+     "en": "a diagnosis",
+     "pl": "diagnoza",
+     "gender": "f"
+    },
+    {
+     "en": "a ward (a department inside a hospital)",
+     "pl": "oddział",
+     "gender": "m"
+    },
+    {
+     "en": "the emergency service (the one you call)",
+     "pl": "pogotowie",
+     "gender": "n"
+    },
+    {
+     "en": "a procedure (a small operation)",
+     "pl": "zabieg",
+     "gender": "m"
+    },
+    {
+     "en": "an operation, surgery",
+     "pl": "operacja",
+     "gender": "f"
+    },
+    {
+     "en": "a specialist (a consultant)",
+     "pl": "specjalista",
+     "gender": "m"
+    },
+    {
+     "en": "the reception desk (where you check in at a clinic)",
+     "pl": "rejestracja",
+     "gender": "f"
+    },
+    {
+     "en": "the results (of tests) — plural only",
+     "pl": "wyniki",
+     "gender": "pl"
+    },
+    {
+     "en": "A&E, casualty (the hospital's emergency entrance) — learn this one whole",
+     "pl": "izba przyjęć",
+     "gender": "f"
+    }
+   ]
+  }
+ ],
+ "sentences": [
+  {
+   "en": "This is a referral.",
+   "pl": "To jest skierowanie.",
+   "accepts": [
+    "To jest skierowanie.",
+    "To jest skierowanie",
+    "To skierowanie.",
+    "To skierowanie"
+   ],
+   "structures": [
+    "to_jest"
+   ],
+   "lemmas": [
+    "skierowanie"
+   ]
+  },
+  {
+   "en": "I have a referral.",
+   "pl": "Mam skierowanie.",
+   "accepts": [
+    "Mam skierowanie.",
+    "Mam skierowanie"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "skierowanie"
+   ],
+   "explain": "skierowanie is neuter, and neuter things never change after mam — the object form is the same word you look up in a dictionary."
+  },
+  {
+   "en": "I do not have a referral.",
+   "pl": "Nie mam skierowania.",
+   "accepts": [
+    "Nie mam skierowania.",
+    "Nie mam skierowania"
+   ],
+   "structures": [
+    "negation"
+   ],
+   "lemmas": [
+    "skierowania"
+   ],
+   "explain": "nie mam always sends its object into the genitive — nie mam kawy, nie ma mleka. A neuter word lands on -a there, so skierowanie becomes skierowania. Learn this one as a whole form."
+  },
+  {
+   "en": "I must have a referral.",
+   "pl": "Muszę mieć skierowanie.",
+   "accepts": [
+    "Muszę mieć skierowanie.",
+    "Muszę mieć skierowanie"
+   ],
+   "structures": [
+    "musiec",
+    "can_inf",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "skierowanie"
+   ]
+  },
+  {
+   "en": "The doctor is giving me a referral.",
+   "pl": "Lekarz daje mi skierowanie.",
+   "accepts": [
+    "Lekarz daje mi skierowanie.",
+    "Lekarz daje mi skierowanie"
+   ],
+   "structures": [
+    "present_e_esz",
+    "dative_pron",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "skierowanie",
+    "lekarz",
+    "daje",
+    "mi"
+   ],
+   "explain": "dawać hands something to somebody, so the person gets the dative mi and the thing stays in its object form — the same two slots as podoba mi się, but with a real thing in the second one."
+  },
+  {
+   "en": "I would like a referral.",
+   "pl": "Chciałbym skierowanie.",
+   "accepts": [
+    "Chciałbym skierowanie.",
+    "Chciałbym skierowanie"
+   ],
+   "structures": [
+    "conditional_sg",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "skierowanie"
+   ]
+  },
+  {
+   "en": "I have insurance and a referral.",
+   "pl": "Mam ubezpieczenie i skierowanie.",
+   "accepts": [
+    "Mam ubezpieczenie i skierowanie.",
+    "Mam ubezpieczenie i skierowanie"
+   ],
+   "structures": [
+    "miec_acc",
+    "conjunctions"
+   ],
+   "lemmas": [
+    "skierowanie",
+    "ubezpieczenie"
+   ]
+  },
+  {
+   "en": "The treatment is good.",
+   "pl": "Leczenie jest dobre.",
+   "accepts": [
+    "Leczenie jest dobre.",
+    "Leczenie jest dobre"
+   ],
+   "structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "leczenie",
+    "dobre"
+   ]
+  },
+  {
+   "en": "The treatment will be good.",
+   "pl": "Leczenie będzie dobre.",
+   "accepts": [
+    "Leczenie będzie dobre.",
+    "Leczenie będzie dobre"
+   ],
+   "structures": [
+    "copular_future",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "leczenie",
+    "dobre"
+   ],
+   "explain": "będzie needs nothing after it but the description itself — no second verb. The adjective still agrees, and leczenie is neuter, so it is dobre."
+  },
+  {
+   "en": "This is a new symptom.",
+   "pl": "To jest nowy objaw.",
+   "accepts": [
+    "To jest nowy objaw.",
+    "To jest nowy objaw",
+    "To nowy objaw.",
+    "To nowy objaw"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "objaw",
+    "nowy"
+   ]
+  },
+  {
+   "en": "I have symptoms, but I feel well.",
+   "pl": "Mam objawy, ale czuję się dobrze.",
+   "accepts": [
+    "Mam objawy, ale czuję się dobrze.",
+    "Mam objawy, ale czuję się dobrze"
+   ],
+   "structures": [
+    "miec_acc",
+    "plural_nom",
+    "conjunctions",
+    "sie_reflexive"
+   ],
+   "lemmas": [
+    "objawy"
+   ],
+   "explain": "objaw is a masculine thing, so its plural takes the ordinary -y: objawy. Things never change after mam, in the plural either."
+  },
+  {
+   "en": "The diagnosis is good.",
+   "pl": "Diagnoza jest dobra.",
+   "accepts": [
+    "Diagnoza jest dobra.",
+    "Diagnoza jest dobra"
+   ],
+   "structures": [
+    "byc_present",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "diagnoza",
+    "dobra"
+   ]
+  },
+  {
+   "en": "The doctor has a diagnosis.",
+   "pl": "Lekarz ma diagnozę.",
+   "accepts": [
+    "Lekarz ma diagnozę.",
+    "Lekarz ma diagnozę"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "diagnozę",
+    "lekarz"
+   ],
+   "explain": "diagnoza is feminine, so after ma it swaps its -a for -ę — exactly the swap you have made since Mam kawę."
+  },
+  {
+   "en": "Where is the ward?",
+   "pl": "Gdzie jest oddział?",
+   "accepts": [
+    "Gdzie jest oddział?",
+    "Gdzie jest oddział"
+   ],
+   "structures": [
+    "question",
+    "existential_jest"
+   ],
+   "lemmas": [
+    "oddział"
+   ]
+  },
+  {
+   "en": "This is a new ward.",
+   "pl": "To jest nowy oddział.",
+   "accepts": [
+    "To jest nowy oddział.",
+    "To jest nowy oddział",
+    "To nowy oddział.",
+    "To nowy oddział"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "oddział",
+    "nowy"
+   ]
+  },
+  {
+   "en": "Where is the emergency service?",
+   "pl": "Gdzie jest pogotowie?",
+   "accepts": [
+    "Gdzie jest pogotowie?",
+    "Gdzie jest pogotowie"
+   ],
+   "structures": [
+    "question",
+    "existential_jest"
+   ],
+   "lemmas": [
+    "pogotowie"
+   ]
+  },
+  {
+   "en": "The procedure was short.",
+   "pl": "Zabieg był krótki.",
+   "accepts": [
+    "Zabieg był krótki.",
+    "Zabieg był krótki"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "zabieg",
+    "krótki"
+   ]
+  },
+  {
+   "en": "I have a procedure.",
+   "pl": "Mam zabieg.",
+   "accepts": [
+    "Mam zabieg.",
+    "Mam zabieg"
+   ],
+   "structures": [
+    "miec_present",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "zabieg"
+   ]
+  },
+  {
+   "en": "The operation was good.",
+   "pl": "Operacja była dobra.",
+   "accepts": [
+    "Operacja była dobra.",
+    "Operacja była dobra"
+   ],
+   "structures": [
+    "past_byc",
+    "byc_adj",
+    "zgoda"
+   ],
+   "lemmas": [
+    "operacja",
+    "dobra"
+   ]
+  },
+  {
+   "en": "I had an operation.",
+   "pl": "Miałem operację.",
+   "accepts": [
+    "Miałem operację.",
+    "Miałem operację",
+    "Miałam operację.",
+    "Miałam operację"
+   ],
+   "structures": [
+    "past_rest",
+    "miec_acc"
+   ],
+   "lemmas": [
+    "operację"
+   ],
+   "explain": "operacja is feminine, so it becomes operację after miałem, the same swap as diagnozę and kawę. Miałam is the form if you are a woman."
+  },
+  {
+   "en": "This is a good specialist.",
+   "pl": "To jest dobry specjalista.",
+   "accepts": [
+    "To jest dobry specjalista.",
+    "To jest dobry specjalista",
+    "To dobry specjalista.",
+    "To dobry specjalista"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda"
+   ],
+   "lemmas": [
+    "specjalista",
+    "dobry"
+   ],
+   "explain": "specjalista ends in -a but it is masculine, so the adjective is dobry, not dobra. You already know two words that behave this way: tata and kolega."
+  },
+  {
+   "en": "This is the best specialist.",
+   "pl": "To jest najlepszy specjalista.",
+   "accepts": [
+    "To jest najlepszy specjalista.",
+    "To jest najlepszy specjalista",
+    "To najlepszy specjalista.",
+    "To najlepszy specjalista"
+   ],
+   "structures": [
+    "to_jest",
+    "superlative",
+    "zgoda"
+   ],
+   "lemmas": [
+    "specjalista",
+    "najlepszy"
+   ]
+  },
+  {
+   "en": "What is the specialist talking about?",
+   "pl": "O czym mówi specjalista?",
+   "accepts": [
+    "O czym mówi specjalista?",
+    "O czym mówi specjalista"
+   ],
+   "structures": [
+    "question_cases",
+    "o_loc",
+    "present_e_isz"
+   ],
+   "lemmas": [
+    "specjalista",
+    "czym",
+    "mówi"
+   ]
+  },
+  {
+   "en": "Where is the reception desk?",
+   "pl": "Gdzie jest rejestracja?",
+   "accepts": [
+    "Gdzie jest rejestracja?",
+    "Gdzie jest rejestracja"
+   ],
+   "structures": [
+    "question",
+    "existential_jest"
+   ],
+   "lemmas": [
+    "rejestracja"
+   ]
+  },
+  {
+   "en": "The results are good.",
+   "pl": "Wyniki są dobre.",
+   "accepts": [
+    "Wyniki są dobre.",
+    "Wyniki są dobre"
+   ],
+   "structures": [
+    "byc_present",
+    "plural_nom",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wyniki",
+    "dobre"
+   ],
+   "explain": "wyniki is a plural-only word, so the verb is są and the adjective takes the plural -e."
+  },
+  {
+   "en": "I have good results.",
+   "pl": "Mam dobre wyniki.",
+   "accepts": [
+    "Mam dobre wyniki.",
+    "Mam dobre wyniki"
+   ],
+   "structures": [
+    "miec_acc",
+    "plural_nom",
+    "zgoda"
+   ],
+   "lemmas": [
+    "wyniki",
+    "dobre"
+   ]
+  },
+  {
+   "en": "Where is A&E?",
+   "pl": "Gdzie jest izba przyjęć?",
+   "accepts": [
+    "Gdzie jest izba przyjęć?",
+    "Gdzie jest izba przyjęć"
+   ],
+   "structures": [
+    "question",
+    "existential_jest"
+   ],
+   "lemmas": [
+    "izba przyjęć"
+   ],
+   "explain": "izba przyjęć is two words that only ever travel together — the sign on the hospital door. Learn it as one item and do not take it apart."
+  },
+  {
+   "en": "This is a new specialist and a new ward.",
+   "pl": "To jest nowy specjalista i nowy oddział.",
+   "accepts": [
+    "To jest nowy specjalista i nowy oddział.",
+    "To jest nowy specjalista i nowy oddział"
+   ],
+   "structures": [
+    "to_jest",
+    "zgoda",
+    "conjunctions"
+   ],
+   "lemmas": [
+    "specjalista",
+    "oddział",
+    "nowy"
+   ]
+  }
+ ],
+ "teaches_lemmas": [
+  "skierowanie",
+  "skierowania",
+  "leczenie",
+  "objaw",
+  "objawy",
+  "diagnoza",
+  "diagnozę",
+  "oddział",
+  "pogotowie",
+  "zabieg",
+  "operacja",
+  "operację",
+  "specjalista",
+  "rejestracja",
+  "wyniki",
+  "izba przyjęć"
+ ],
+ "uses_lemmas": [
+  "to",
+  "jest",
+  "są",
+  "mam",
+  "ma",
+  "nie mam",
+  "muszę",
+  "mieć",
+  "chciałbym",
+  "będzie",
+  "był",
+  "była",
+  "miałem",
+  "daje",
+  "mi",
+  "mówi",
+  "czuję się",
+  "czym",
+  "gdzie jest",
+  "lekarz",
+  "ubezpieczenie",
+  "dobre",
+  "dobra",
+  "dobry",
+  "nowy",
+  "krótki",
+  "najlepszy",
+  "dobrze",
+  "i",
+  "ale",
+  "tata",
+  "kolega",
+  "kawę",
+  "kawy",
+  "mleka"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "b2_health_system",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

@@ -1,0 +1,514 @@
+{
+  "id": "b1_plans",
+  "title": "Plany i terminy",
+  "title_en": "Plans & arrangements",
+  "level": "B1",
+  "tree_node": "b1_plans",
+  "default_direction": "en_to_pl",
+  "note": "B1 liść · first vocab pack of B1 — a new REGISTER (plans & arrangements), not a topic revisit. Rides b1_perf_future: the payoff is future plans said with the perfective forms he now owns (kupię, zrobię) plus będę + imperfective. ANCHORS, never re-taught: plan, spotkanie, bilet, podróż, wakacje, zakupy, koncert, telefon, jutro, w weekend, z bratem, na biurku. PERFECTIVE TRIO — obiecać, załatwić, umówić się are perfective infinitives; exact a2_school2 zdać/oblać treatment: they appear ONLY as bare infinitives after mogę / muszę / chcę (can_inf), never conjugated, never in the past, never after będę (ungrammatical with a perfective). planować (-uję like pracuję) and zamierzać (-am like czytam) are imperfective: conjugated 1/2/3sg only, and planować may follow będę. rezerwację is taught explicitly because Zrobię rezerwację demands it (every-form-taught); same kawa→kawę move. Time chunks taught WHOLE: w przyszłym tygodniu mirrors the taught chunk w zeszłym tygodniu, pojutrze mirrors przedwczoraj, za tydzień = za + known tydzień. HOMOGRAPH NOTES: podróż and wakacje were taught as nominatives and are reused here as accusatives — soft-feminine and non-virile-plural accusatives are string-identical to the nominative, same legitimate overlap as brata acc/gen; 'to' in Muszę to załatwić is the taught demonstrative doing object-pronoun duty ('it'), carried by an explain. Nouns badged m/f; verbs and chunks take no badge.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "perf_future",
+    "bedzie",
+    "can_inf",
+    "present_uje",
+    "present_am",
+    "miec_present",
+    "miec_acc",
+    "byc_present",
+    "existential_jest",
+    "prep_place",
+    "inst_z",
+    "negation",
+    "question",
+    "questions2",
+    "zgoda"
+  ],
+  "blocks": [
+    {
+      "id": "plans_words",
+      "title": "Plans · new words",
+      "items": [
+        {
+          "en": "to plan",
+          "pl": "planować",
+          "icon": "📝"
+        },
+        {
+          "en": "to intend (to do)",
+          "pl": "zamierzać",
+          "icon": "🎯"
+        },
+        {
+          "en": "deadline (a set date)",
+          "pl": "termin",
+          "gender": "m",
+          "icon": "⏳"
+        },
+        {
+          "en": "calendar",
+          "pl": "kalendarz",
+          "gender": "m",
+          "icon": "📅"
+        },
+        {
+          "en": "reservation (a booking)",
+          "pl": "rezerwacja",
+          "gender": "f",
+          "icon": "🏨"
+        }
+      ]
+    },
+    {
+      "id": "plans_do",
+      "title": "Arranging · after mogę / muszę / chcę",
+      "items": [
+        {
+          "en": "to promise",
+          "pl": "obiecać",
+          "icon": "🤞"
+        },
+        {
+          "en": "to sort out (get a thing done)",
+          "pl": "załatwić",
+          "icon": "✅"
+        },
+        {
+          "en": "to arrange to meet",
+          "pl": "umówić się",
+          "icon": "🤝"
+        }
+      ]
+    },
+    {
+      "id": "plans_forms",
+      "title": "Plans · the forms you say",
+      "items": [
+        {
+          "en": "I plan / I'm planning",
+          "pl": "planuję"
+        },
+        {
+          "en": "you plan",
+          "pl": "planujesz"
+        },
+        {
+          "en": "he / she plans",
+          "pl": "planuje"
+        },
+        {
+          "en": "I intend",
+          "pl": "zamierzam"
+        },
+        {
+          "en": "you intend",
+          "pl": "zamierzasz"
+        },
+        {
+          "en": "he / she intends",
+          "pl": "zamierza"
+        },
+        {
+          "en": "I'll make a reservation",
+          "pl": "zrobię rezerwację"
+        }
+      ]
+    },
+    {
+      "id": "plans_time",
+      "title": "When? · future time words",
+      "items": [
+        {
+          "en": "next week",
+          "pl": "w przyszłym tygodniu",
+          "icon": "🗓️"
+        },
+        {
+          "en": "the day after tomorrow",
+          "pl": "pojutrze"
+        },
+        {
+          "en": "in a week (from now)",
+          "pl": "za tydzień"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "I'm planning a trip.",
+      "pl": "Planuję podróż.",
+      "accepts": [
+        "Planuję podróż.",
+        "Planuję podróż"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "planować",
+        "planuję",
+        "podróż"
+      ],
+      "explain": "planować runs on the -uję pattern you already use for pracuję and kupuję: planuję, planujesz, planuje. podróż is a soft feminine, so as the object it keeps its dictionary shape."
+    },
+    {
+      "en": "Are you planning a holiday?",
+      "pl": "Planujesz wakacje?",
+      "accepts": [
+        "Planujesz wakacje?",
+        "Planujesz wakacje",
+        "Czy planujesz wakacje?",
+        "Czy planujesz wakacje"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc",
+        "question"
+      ],
+      "lemmas": [
+        "planujesz",
+        "wakacje"
+      ]
+    },
+    {
+      "en": "At the weekend I will be planning the trip.",
+      "pl": "W weekend będę planować podróż.",
+      "accepts": [
+        "W weekend będę planować podróż.",
+        "W weekend będę planować podróż",
+        "Będę planować podróż w weekend.",
+        "Będę planować podróż w weekend"
+      ],
+      "structures": [
+        "bedzie",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "będę",
+        "planować",
+        "podróż"
+      ],
+      "explain": "planować is an ongoing-type verb, so it takes the będę future you know from będę pracować: będę planować."
+    },
+    {
+      "en": "I intend to buy a new phone.",
+      "pl": "Zamierzam kupić nowy telefon.",
+      "accepts": [
+        "Zamierzam kupić nowy telefon.",
+        "Zamierzam kupić nowy telefon"
+      ],
+      "structures": [
+        "present_am",
+        "can_inf",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "zamierzać",
+        "zamierzam",
+        "kupić",
+        "telefon"
+      ],
+      "explain": "zamierzać runs on the -am / -asz pattern of czytam, and like mogę or muszę it takes the second verb in its dictionary form: zamierzam kupić."
+    },
+    {
+      "en": "What do you intend to do at the weekend?",
+      "pl": "Co zamierzasz robić w weekend?",
+      "accepts": [
+        "Co zamierzasz robić w weekend?",
+        "Co zamierzasz robić w weekend"
+      ],
+      "structures": [
+        "present_am",
+        "can_inf",
+        "questions2"
+      ],
+      "lemmas": [
+        "zamierzasz",
+        "robić",
+        "co",
+        "w weekend"
+      ]
+    },
+    {
+      "en": "The deadline is tomorrow.",
+      "pl": "Termin jest jutro.",
+      "accepts": [
+        "Termin jest jutro.",
+        "Termin jest jutro"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "termin",
+        "jutro"
+      ],
+      "explain": "termin is any fixed date something must happen by or on — a deadline at work, the date of an appointment. Polish uses one word for both."
+    },
+    {
+      "en": "When is the deadline?",
+      "pl": "Kiedy jest termin?",
+      "accepts": [
+        "Kiedy jest termin?",
+        "Kiedy jest termin"
+      ],
+      "structures": [
+        "questions2",
+        "byc_present"
+      ],
+      "lemmas": [
+        "termin",
+        "kiedy"
+      ]
+    },
+    {
+      "en": "I will buy a new calendar.",
+      "pl": "Kupię nowy kalendarz.",
+      "accepts": [
+        "Kupię nowy kalendarz.",
+        "Kupię nowy kalendarz"
+      ],
+      "structures": [
+        "perf_future",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kupię",
+        "kalendarz",
+        "nowy"
+      ],
+      "explain": "kupię is the once-and-done future from the last unit. kalendarz is masculine and a thing, so after kupię it keeps its dictionary shape."
+    },
+    {
+      "en": "The calendar is on the desk.",
+      "pl": "Kalendarz jest na biurku.",
+      "accepts": [
+        "Kalendarz jest na biurku.",
+        "Kalendarz jest na biurku",
+        "Na biurku jest kalendarz.",
+        "Na biurku jest kalendarz"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "kalendarz",
+        "na biurku"
+      ]
+    },
+    {
+      "en": "Tomorrow I will make a reservation.",
+      "pl": "Jutro zrobię rezerwację.",
+      "accepts": [
+        "Jutro zrobię rezerwację.",
+        "Jutro zrobię rezerwację",
+        "Zrobię jutro rezerwację.",
+        "Zrobię jutro rezerwację",
+        "Zrobię rezerwację jutro.",
+        "Zrobię rezerwację jutro"
+      ],
+      "structures": [
+        "perf_future",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "zrobię",
+        "rezerwacja",
+        "rezerwację"
+      ],
+      "explain": "rezerwacja is feminine, so as the object of zrobię the -a swaps to -ę: rezerwację — exactly the kawa → kawę move you know."
+    },
+    {
+      "en": "I have a reservation.",
+      "pl": "Mam rezerwację.",
+      "accepts": [
+        "Mam rezerwację.",
+        "Mam rezerwację"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "rezerwację"
+      ]
+    },
+    {
+      "en": "I can't promise.",
+      "pl": "Nie mogę obiecać.",
+      "accepts": [
+        "Nie mogę obiecać.",
+        "Nie mogę obiecać"
+      ],
+      "structures": [
+        "can_inf",
+        "negation"
+      ],
+      "lemmas": [
+        "obiecać",
+        "mogę",
+        "nie"
+      ],
+      "explain": "After mogę the second verb stays in its dictionary form, exactly as in mogę zdać egzamin."
+    },
+    {
+      "en": "I have to sort out the ticket.",
+      "pl": "Muszę załatwić bilet.",
+      "accepts": [
+        "Muszę załatwić bilet.",
+        "Muszę załatwić bilet"
+      ],
+      "structures": [
+        "can_inf"
+      ],
+      "lemmas": [
+        "muszę",
+        "to",
+        "załatwić"
+      ],
+      "explain": "załatwić is the everyday Polish verb for getting a thing arranged or done. to here is the little word you know from to jest, doing the job of English 'it'."
+    },
+    {
+      "en": "I want to arrange to meet my brother.",
+      "pl": "Chcę umówić się z bratem.",
+      "accepts": [
+        "Chcę umówić się z bratem.",
+        "Chcę umówić się z bratem",
+        "Chcę się umówić z bratem.",
+        "Chcę się umówić z bratem"
+      ],
+      "structures": [
+        "can_inf",
+        "inst_z"
+      ],
+      "lemmas": [
+        "umówić się",
+        "chcę",
+        "z bratem"
+      ],
+      "explain": "umówić się is to fix a time to meet someone. The person comes with z, the same z bratem you already use."
+    },
+    {
+      "en": "Next week I will buy a ticket.",
+      "pl": "W przyszłym tygodniu kupię bilet.",
+      "accepts": [
+        "W przyszłym tygodniu kupię bilet.",
+        "W przyszłym tygodniu kupię bilet",
+        "Kupię bilet w przyszłym tygodniu.",
+        "Kupię bilet w przyszłym tygodniu",
+        "Tygodniu kupię bilet w przyszłym.",
+        "Tygodniu kupię bilet w przyszłym"
+      ],
+      "structures": [
+        "perf_future",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "w przyszłym tygodniu",
+        "kupię",
+        "bilet"
+      ],
+      "explain": "The mirror of w zeszłym tygodniu (last week): zeszły looks back, przyszły looks ahead. Learn the whole chunk."
+    },
+    {
+      "en": "The day after tomorrow I will do the shopping.",
+      "pl": "Pojutrze zrobię zakupy.",
+      "accepts": [
+        "Pojutrze zrobię zakupy.",
+        "Pojutrze zrobię zakupy",
+        "Zrobię zakupy pojutrze.",
+        "Zrobię zakupy pojutrze"
+      ],
+      "structures": [
+        "perf_future",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "pojutrze",
+        "zrobię",
+        "zakupy"
+      ],
+      "explain": "pojutrze is the forward twin of przedwczoraj: przedwczoraj = the day before yesterday, pojutrze = the day after tomorrow."
+    },
+    {
+      "en": "In a week there will be a concert.",
+      "pl": "Za tydzień będzie koncert.",
+      "accepts": [
+        "Za tydzień będzie koncert.",
+        "Za tydzień będzie koncert",
+        "Będzie koncert za tydzień.",
+        "Będzie koncert za tydzień"
+      ],
+      "structures": [
+        "bedzie",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "za tydzień",
+        "będzie",
+        "koncert"
+      ],
+      "explain": "za + a stretch of time means that far into the future: za tydzień = a week from now."
+    }
+  ],
+  "teaches_lemmas": [
+    "planować",
+    "planuję",
+    "planujesz",
+    "planuje",
+    "zamierzać",
+    "zamierzam",
+    "zamierzasz",
+    "zamierza",
+    "termin",
+    "kalendarz",
+    "rezerwacja",
+    "rezerwację",
+    "obiecać",
+    "załatwić",
+    "umówić się",
+    "w przyszłym tygodniu",
+    "pojutrze",
+    "za tydzień"
+  ],
+  "uses_lemmas": [
+    "podróż",
+    "wakacje",
+    "kupić",
+    "kupię",
+    "zrobię",
+    "będę",
+    "będzie",
+    "telefon",
+    "nowy",
+    "bilet",
+    "koncert",
+    "zakupy",
+    "tydzień",
+    "jutro",
+    "w weekend",
+    "co",
+    "kiedy",
+    "robić",
+    "mogę",
+    "muszę",
+    "chcę",
+    "nie",
+    "to",
+    "jest",
+    "mam",
+    "z bratem",
+    "na biurku"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_plans",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
