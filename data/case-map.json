@@ -24,7 +24,8 @@
     { "case": "inst", "trigger": "travelling BY something", "gloss": "means of transport, no preposition at all", "example": "Jadę autobusem.", "taught_by": "a2_inst_transport" },
     { "case": "dat", "trigger": "podoba mi się · smakuje mi", "gloss": "liking and tasting — learned whole at A2", "example": "Podoba mi się.", "taught_by": "a2_dat_chunks" },
     { "case": "loc", "trigger": "o… (ABOUT a topic)", "gloss": "what you are talking about", "example": "Mówię o pracy.", "taught_by": "a2_o_loc" },
-    { "case": "dat", "trigger": "pomagam · dziękuję · daję", "gloss": "the person on the receiving end", "example": "Pomagam mamie.", "taught_by": "b1_dative_sg" },
+    { "case": "dat", "trigger": "pomagam · dziękuję", "gloss": "the person you help or thank", "example": "Pomagam mamie.", "taught_by": "b1_dative_sg" },
+    { "case": "dat", "trigger": "daję · oddaję", "gloss": "the person who receives it", "example": "Rodzice dają tacie prezent.", "taught_by": "b1_giving" },
     { "case": "gen", "trigger": "ANY negated verb, not just nie mam", "gloss": "negation takes the object's case away", "example": "Nie kupiłem chleba.", "taught_by": "b2_neg_gen" },
     { "case": "acc", "trigger": "proszę o…", "gloss": "asking FOR something — o's second job", "example": "Proszę o kawę.", "taught_by": "b2_prosic_o" }
   ]

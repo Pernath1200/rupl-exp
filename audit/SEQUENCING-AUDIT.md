@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 186 · **errors:** 0 · **warns:** 4 · **missing_tags:** 0
+**Nodes audited:** 187 · **errors:** 0 · **warns:** 5 · **missing_tags:** 0
 
 ## Errors
 
@@ -14,6 +14,7 @@ _None._
 - **a2_which_case** [teaches_empty_grammar] `a2_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
 - **a2_prep_review** [teaches_empty_grammar] `a2_prep_review` — Grammar teach node has empty teaches_*; confirm intentional.
 - **b1_two_futures** [teaches_empty_grammar] `b1_two_futures` — Grammar teach node has empty teaches_*; confirm intentional.
+- **b1_which_case** [teaches_empty_grammar] `b1_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
 
 ## Path unlock trail
 
@@ -143,6 +144,7 @@ _None._
 | 126 | `b1_adverb_comp` | `adverb_comp` | 12 | `adverb_comp`, `comparative`, `gen_endings`, `present`, `present_am`, `present_e_isz`, `present_uje`, `superlative` |
 | 127 | `b1_vocative_chunks` | `vocative_chunk` | 12 | `byc_adj`, `conditional_sg`, `question`, `situation_chunk`, `social_chunk`, `vocative_chunk` |
 | 128 | `b1_opinions` | — | 10 | `adverb_comp`, `byc_adj`, `conditional_sg`, `inst_z`, `miec_acc`, `miec_present`, `motion_prefixed`, `perf_future`, `question`, `superlative`, `virile_nom`, `virile_reco`, `vocative_chunk` |
+| 129 | `b1_which_case` | — | 0 | `byc_present`, `chodzic`, `dat_chunks`, `dative_pron`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `numbers_gen`, `o_loc`, `past_ac`, `past_rest`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `ten_ta_to`, `to_jest`, `zgoda` |
 | 130 | `b1_case_gym` | — | 0 | `byc_adj`, `byc_present`, `dative_pron`, `dative_sg`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_z`, `miec_acc`, `negation`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `ten_ta_to`, `to_jest`, `virile_nom`, `virile_past`, `virile_reco`, `zgoda` |
 | 131 | `b1_wrapup` | `situation_chunk` | 0 | `conditional_sg`, `dat_chunks`, `miec_present`, `musiec`, `past_byc`, `past_isc`, `prep_do_gen`, `question`, `sie_reflexive`, `situation_chunk`, `zgoda` |
 | 133 | `b2_conjunctions` | `conjunctions` | 7 | `byc_adj`, `byc_present`, `conjunctions`, `gen_endings`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `prep_do_gen`, `prep_w_loc`, `present_e_esz`, `present_uje` |
