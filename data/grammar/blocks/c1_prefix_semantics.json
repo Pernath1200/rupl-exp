@@ -1,0 +1,709 @@
+{
+  "id": "c1_prefix_semantics",
+  "title": "Przejść, podpisać, rozmawiać",
+  "title_en": "What the front of the verb tells you",
+  "level": "C1",
+  "tree_node": "c1_prefix_semantics",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 8 (path 217). JAMES-LOCKED R1/R2, 2026-08-07 - the ONE unit in RUPL that teaches productive prefix semantics. R1 lifts B1 Block 6a decision #1 ('free derivation is never asked for') and #2 ('lens stays at four') FOR C1 ONLY; A1-B2 are untouched and b2_prefix_lens [169] keeps its recognition-only shape.\n\nZERO NEW LEMMAS AND ZERO NEW FORMS. teaches_lemmas is deliberately EMPTY and the structure ID carries the unit alone - the prefix_lens [169] precedent exactly. This is R2's own guard executed literally: 'Production stays guarded: only verbs the course already owns.' Every one of the sixteen words on screen was run through check_new.py this run and every one came back TAUGHT.\n\nTHE UNIT RETRACTS A LINE THE COURSE ALREADY SAID OUT LOUD, AND THIS IS THE MOST IMPORTANT AUTHORING CALL IN THE PACK. b2_prefix_lens slide 3 ('The ones that promise nothing') tells the learner in plain English: 'There are other front pieces - za-, po-, prze- and more. They make no promise at all: there is no reliable meaning to read off them, so do not try.' R2 promotes prze- to the reliable set. Those two statements cannot both stand, so slide 5 NAMES the correction rather than letting the course quietly contradict itself: prze- is upgraded by name, za-/po- are confirmed unchanged, and the price of the upgrade (przeplacic) is stated in the same breath. Silently reversing a plain-English warning the learner was given at B2 would cost trust that no amount of correct grammar buys back.\n\nTHE COUNTEREXAMPLES WERE BUILT FOR THIS UNIT TWO NODES BACK, ON PURPOSE. c1_verb_family3 [215] taught przeplacic and said out loud its prze- means TOO MUCH and cannot be read; c1_verb_family4 [216] taught przepisac where the SAME prze- IS readable. That pairing was authored as groundwork for R2 and flagged in C1-DIGEST for this builder; slide 4 collects it. So 'strong but not guaranteed' is demonstrated on owned material rather than asserted - the learner has already met the identical prefix opaque once and transparent once before any tendency is claimed.\n\nroz- IS THE THIN CORNER AND IT IS LOGGED, NOT HIDDEN. The course owns exactly ONE roz- verb (rozmawiac <- a2_phone_func [89]) and only its INFINITIVE: rozmawiam/rozmawiasz/rozmawia are all verified NEW, so every roz- item here is infinitival or nominal. The verb slide is carried by the mowic -> rozmawiac derivation, which is genuinely readable and true (roz- distributes the speaking between people) and whose base mowic is owned since [16]; the rest of roz- is shown in owned NOUNS (rozmowa, rozklad, rozwiazanie). Slide 3 says 'easiest to see in nouns' - a statement about the words on screen, NOT about the course's inventory, which would be a builder surface. TEACHING rozmawiam to thicken the corner was CONSIDERED AND REFUSED: it is a new form, and a semantics unit that quietly opens a paradigm is the load-split AGENTS forbids.\n\nrozwiazanie AND rozklad ARE GLOSSED WITH ENGLISH-ONLY ROOTS, deliberately. Their roz- is transparent only against wiazac (to tie) and klasc (to lay), neither of which is taught. Both are glossed as 'an untying' and 'laid out apart' in English with NO Polish infinitive shown, so the morphology is readable without a single untaught Polish string entering learner-facing text.\n\nNO FABRICATED NON-WORD APPEARS, INCLUDING ON THE SLIDES. C1-SPINE names the *wyrobic trap as the reason the productive ban existed, and slide 6 makes that warning fully - a verb you assemble yourself may simply not exist and nothing about the pieces tells you - WITHOUT printing a starred non-word. Conservative call, logged: a linguistically-minded adult arguably learns more from seeing exactly what an invented verb looks like, but AGENTS bans fabricated non-words and the risk of the invention being the thing that sticks is not worth the illustration.\n\nTITLE CORRECTED against the planned tree label 'Przedrostki - znaczenia': check_new.py reports przedrostki AND znaczenia both NEW, i.e. two untaught Polish words in learner-visible chrome, which the AGENTS title rule forbids. This is the same correction prefix_lens [169] had to make against its own planned label ('Przedrostki - soczewka'). Retitled to three owned verbs, one per prefix. przedrostek is kept in body_pl only, the one lane AGENTS allows untaught metalanguage in, on that same unit's precedent.\n\nPRODUCTION STAGES EXIST HERE AND WERE EMPTY IN prefix_lens - the difference is R1 and it is deliberate. prefix_lens shipped type_items: [] and use_items: [] because locked decision #1 forbade the learner ever typing a prefixed verb. R1 lifts that at C1 and R2 replaces it with a narrower guard, so this unit DOES produce - and every produced form is owned, which is the guard met exactly.\n\nKONTROLA IS TWELVE REAL-FORM CHOICES AND NO META-QUESTION. A semantics unit invites 'what does prze- mean here?', a question ABOUT the language and banned; b1_imperative_rule's rejected item is the standing precedent. Every item instead gives an English meaning and asks which real owned Polish form carries it, so the discrimination is on forms. Every distractor is a real pool-legal form: przepisuje, przepisala and przeplacila were each drafted as distractors, each came back NEW from check_new.py, and each was replaced (podpisuje, and item 3 moved to a masculine subject).\n\nHOMOGRAPH DISCIPLINE: ksiazke (Accusative) is used and ksiazki NEVER, since ksiazki is taught only as a Genitive singular - the catch ktory_plural, pron_je and pisac_family2 each made. gazety is absent entirely per the AGENTS homograph table. obiadu (Genitive <- c1_gen_verbs) is unused; obiad is the Accusative. podac/poda/podam appear NOWHERE - they are c1_dawac_perf [218]'s material, one node later, so pod- is demonstrated on podawac/podaje only.\n\nPISANIE IS TEN SINGLE FORMS TYPED WHOLE (one word each, so the 3-word cap and the composed-sentence cloze rule are both trivially met); Uzycie carries the sentences and is disjoint from it by construction. No stage repeats an answer.\n\nTHE PACK'S OWN TOKEN SWEEP CAUGHT FIVE body_pl LEAKS BEFORE COMMIT, and every one is invisible to audit.py because the auditor reads tags, not learner-facing text. Drafted and rejected: 'Nie kazdy przedrostek mozna przeczytac' (kazdy NEW), 'podpisac - pisac nizej' (nizej NEW), 'za-, po- - bez reguly' (bez AND reguly both NEW - and this one was inherited straight from prefix_lens [169]'s own body_pl, so the leak is being STOPPED here rather than propagated: b2_which_case already flagged bez as NEW), 'Czytamy - nie budujemy' (budujemy NEW - and sec_imperf [214] had already caught 'buduj' as the same leak, so this is the second time that word has tried to get in), and 'Przedrostek - tendencja, nie regula' (tendencja NEW). All six body_pl lines were rewritten to owned forms. przedrostek is the ONLY untaught string left in learner-facing text and it is deliberate: AGENTS licenses untaught METALANGUAGE on body_pl, and prefix_lens/prefix_two_jobs/sec_imperf each kept this exact word on that basis. tendencja was refused even though it is a transparent cognate and arguably metalanguage of the same class - the conservative call, since unlike przedrostek it names nothing the unit is about and was there for flavour. 'to jest' was also dropped from uses_lemmas: it is not a pool lemma (to is GLUE, jest is owned since [4], and the to_jest structure carries the frame).",
+  "focus_structures": [
+    "prefix_semantics"
+  ],
+  "teaches_structures": [
+    "prefix_semantics"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "prefix_semantics",
+    "prefix_lens",
+    "prefix_two_jobs",
+    "motion_prefixed2",
+    "przez_acc",
+    "pisac_family",
+    "pisac_family2",
+    "placic_family",
+    "dawac_family",
+    "aspect_prefixes",
+    "aspect_past",
+    "past_ac",
+    "past_isc",
+    "past_byc",
+    "perf_future",
+    "miec_acc",
+    "can_inf",
+    "dat_chunks",
+    "inst_z",
+    "to_jest",
+    "byc_adj",
+    "present_e_isz",
+    "ten_ta_to"
+  ],
+  "intro": [
+    {
+      "title": "Three more pieces you can read",
+      "title_pl": "prze- · pod- · roz-",
+      "body": "Four front pieces already work as a reading aid: wy- out, przy- towards, do- all the way, od- away.\n\nThree more are reliable enough to add.\n\nWhat follows is a tendency, not a rule. It is strong enough to be worth having, and it fails on some verbs. Two of those verbs are ones you already own, and they get a slide of their own.",
+      "body_pl": "wy- · przy- · do- · od- · prze- · pod- · roz-",
+      "table": {
+        "headers": [
+          "Front piece",
+          "Tends to mean",
+          "A verb you have"
+        ],
+        "rows": [
+          [
+            "wy-",
+            "out, off",
+            "wyjść"
+          ],
+          [
+            "przy-",
+            "towards, arriving",
+            "przyjść"
+          ],
+          [
+            "do-",
+            "all the way, up to",
+            "dojść"
+          ],
+          [
+            "od-",
+            "away, back",
+            "oddawać"
+          ],
+          [
+            "prze-",
+            "through, across",
+            "przejść"
+          ],
+          [
+            "pod-",
+            "underneath, up close",
+            "podpisać"
+          ],
+          [
+            "roz-",
+            "apart, spread out",
+            "rozmawiać"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "prze- · through, across, all the way",
+      "title_pl": "przez → prze-",
+      "body": "You already have the preposition przez — through, across. The same idea sits on the front of these verbs, and in two of them it is the whole meaning.",
+      "body_pl": "przejść przez park",
+      "table": {
+        "headers": [
+          "Word",
+          "What the prze- is doing"
+        ],
+        "rows": [
+          [
+            "przejść",
+            "go across — on foot"
+          ],
+          [
+            "przejechać",
+            "drive across"
+          ],
+          [
+            "przeczytać",
+            "read it all the way through"
+          ],
+          [
+            "przepisać",
+            "write it across — from one place to another, so: copy it out"
+          ],
+          [
+            "przerwa",
+            "a break — a gap through the middle of something"
+          ],
+          [
+            "przesiadka",
+            "a change of train — crossing from one to the other"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I went across the street.",
+          "pl": "Przeszedłem przez ulicę."
+        },
+        {
+          "en": "Dad copied out the address.",
+          "pl": "Tata przepisał adres."
+        }
+      ]
+    },
+    {
+      "title": "pod- · underneath, and up close",
+      "title_pl": "podpisać — pod-",
+      "body": "pod- has two readings and they are close together. The literal one is underneath. The figurative one is bringing something up close to someone.\n\nThe clearest case is podpisać: to sign is to write underneath.",
+      "body_pl": "podpisać · podłoga · podawać",
+      "table": {
+        "headers": [
+          "Word",
+          "What the pod- is doing"
+        ],
+        "rows": [
+          [
+            "podpisać",
+            "sign it — write underneath"
+          ],
+          [
+            "podłoga",
+            "the floor — what is underneath you"
+          ],
+          [
+            "podawać",
+            "hand it over — bring it up close to someone"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad signed the contract.",
+          "pl": "Tata podpisał umowę."
+        },
+        {
+          "en": "Mum is serving dinner.",
+          "pl": "Mama podaje obiad."
+        }
+      ]
+    },
+    {
+      "title": "roz- · apart, spread out",
+      "title_pl": "mówić → rozmawiać",
+      "body": "The clearest case is a verb you have had since A2. mówić is one person speaking. rozmawiać is speech going back and forth between people — roz- spreads it out among them.\n\nAfter that, roz- is easiest to see in nouns.",
+      "body_pl": "rozmowa · rozkład · rozwiązanie",
+      "table": {
+        "headers": [
+          "Word",
+          "What the roz- is doing"
+        ],
+        "rows": [
+          [
+            "rozmawiać",
+            "talk with someone — speech spread between you"
+          ],
+          [
+            "rozmowa",
+            "a conversation — the same word, as a noun"
+          ],
+          [
+            "rozkład",
+            "a timetable — the day laid out apart, piece by piece"
+          ],
+          [
+            "rozwiązanie",
+            "a solution — an untying: roz- undoes what was tied"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I can talk with my brother.",
+          "pl": "Mogę rozmawiać z bratem."
+        },
+        {
+          "en": "I have a solution.",
+          "pl": "Mam rozwiązanie."
+        }
+      ]
+    },
+    {
+      "title": "Two verbs you own where it fails",
+      "title_pl": "przepłacić · podobać się",
+      "body": "This is what tendency, not rule, means in practice — and both examples are words you have been using for a while.",
+      "body_pl": "przepłacić · podobać się · podróż",
+      "table": {
+        "headers": [
+          "Word",
+          "What it means",
+          "The front piece"
+        ],
+        "rows": [
+          [
+            "przepłacić",
+            "pay too much",
+            "prze- here is too much, not across"
+          ],
+          [
+            "podobać się",
+            "appeal to someone",
+            "pod- reads as nothing at all"
+          ],
+          [
+            "podróż",
+            "a journey",
+            "pod- reads as nothing at all"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad paid too much.",
+          "pl": "Tata przepłacił."
+        },
+        {
+          "en": "I like this film.",
+          "pl": "Podoba mi się ten film."
+        }
+      ]
+    },
+    {
+      "title": "za- and po- still promise nothing — and a correction",
+      "title_pl": "prze- · za- · po-",
+      "body": "za- and po- are unchanged. There is no meaning to read off them: zapisać, zapłacić, pojechać are each learned whole.\n\nOne correction, and it is worth stating plainly. Earlier in this course you were told that prze- promises nothing and that you should not try to read it. That was too strict. prze- does carry through and across often enough to be useful — przejść, przeczytać, przepisać — and przepłacić is the price of that usefulness.\n\nza- and po- keep the original warning. prze- does not.",
+      "body_pl": "prze- — tak. za-, po- — nie."
+    },
+    {
+      "title": "Read forwards. Never build.",
+      "title_pl": "Czytamy.",
+      "body": "A front piece is a good first guess at a word you meet. It is not a licence to make words.\n\nA verb you assemble yourself may simply not exist in Polish, and nothing about the pieces will tell you so. There is no way to check it from the inside.\n\nSo: use the tendency to read. Before you say a prefixed verb, make sure it is one you were actually given.\n\nAnd none of this touches aspect — the piece that turns robić into zrobić. Those pairs are still learned whole, exactly as before.",
+      "body_pl": "Przedrostek — tylko czytamy."
+    }
+  ],
+  "match": [
+    {
+      "en": "to go across, on foot",
+      "pl": "przejść"
+    },
+    {
+      "en": "to read it all the way through",
+      "pl": "przeczytać"
+    },
+    {
+      "en": "to copy it out",
+      "pl": "przepisać"
+    },
+    {
+      "en": "to pay too much",
+      "pl": "przepłacić"
+    },
+    {
+      "en": "to sign",
+      "pl": "podpisać"
+    },
+    {
+      "en": "to hand it over",
+      "pl": "podawać"
+    },
+    {
+      "en": "the floor",
+      "pl": "podłoga"
+    },
+    {
+      "en": "to appeal to someone",
+      "pl": "podobać się"
+    },
+    {
+      "en": "to talk with someone",
+      "pl": "rozmawiać"
+    },
+    {
+      "en": "a conversation",
+      "pl": "rozmowa"
+    },
+    {
+      "en": "a timetable",
+      "pl": "rozkład"
+    },
+    {
+      "en": "a solution",
+      "pl": "rozwiązanie"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ umowę. (signed it)",
+      "choices": [
+        "podpisał",
+        "przepisał",
+        "przeczytał",
+        "przepłacił"
+      ],
+      "answer": "podpisał",
+      "explain": "Signing is writing underneath — pod-. przepisał would be copying the contract out, which is a different thing to do to it."
+    },
+    {
+      "prompt": "Tata ___ adres. (copied it out)",
+      "choices": [
+        "przepisał",
+        "podpisał",
+        "przeczytał",
+        "przepłacił"
+      ],
+      "answer": "przepisał",
+      "explain": "Writing it across, from one place to another — prze-."
+    },
+    {
+      "prompt": "Brat ___ książkę. (read it right through)",
+      "choices": [
+        "przeczytał",
+        "przepisał",
+        "podpisał",
+        "przepłacił"
+      ],
+      "answer": "przeczytał",
+      "explain": "Here prze- is all the way through — the reading reached the end."
+    },
+    {
+      "prompt": "Tata ___. (paid too much)",
+      "choices": [
+        "przepłacił",
+        "zapłacił",
+        "przepisał",
+        "podpisał"
+      ],
+      "answer": "przepłacił",
+      "explain": "zapłacił is simply paid. This prze- is the exception: too much, not across."
+    },
+    {
+      "prompt": "___ przez park. (I went across it, on foot)",
+      "choices": [
+        "Przeszedłem",
+        "Przejechałem",
+        "Przeczytałem",
+        "Podpisałem"
+      ],
+      "answer": "Przeszedłem",
+      "explain": "On foot, so the iść root. Przejechałem would mean you drove."
+    },
+    {
+      "prompt": "Brat ___ przez most. (drove across it)",
+      "choices": [
+        "przejechał",
+        "przeszedł",
+        "przepisał",
+        "przepłacił"
+      ],
+      "answer": "przejechał",
+      "explain": "Same prze-, the jechać root: crossing it in a vehicle."
+    },
+    {
+      "prompt": "Mama ___ obiad. (is serving it)",
+      "choices": [
+        "podaje",
+        "podpisuje",
+        "przeczyta",
+        "przepisze"
+      ],
+      "answer": "podaje",
+      "explain": "pod- bringing it up close — the dinner is handed to the table."
+    },
+    {
+      "prompt": "Mogę ___ z bratem. (talk with him)",
+      "choices": [
+        "rozmawiać",
+        "przeczytać",
+        "podpisać",
+        "przejść"
+      ],
+      "answer": "rozmawiać",
+      "explain": "Talking WITH someone spreads the speech between you — roz-. mówić on its own is just speaking."
+    },
+    {
+      "prompt": "To jest ___. (a timetable)",
+      "choices": [
+        "rozkład",
+        "rozmowa",
+        "rozmiar",
+        "rozwiązanie"
+      ],
+      "answer": "rozkład",
+      "explain": "The day laid out apart, piece by piece."
+    },
+    {
+      "prompt": "Mam ___. (a solution)",
+      "choices": [
+        "rozwiązanie",
+        "rozmowa",
+        "rozkład",
+        "rozmiar"
+      ],
+      "answer": "rozwiązanie",
+      "explain": "An untying — roz- undoes what was tied up."
+    },
+    {
+      "prompt": "___ mi się ten film. (I like it)",
+      "choices": [
+        "Podoba",
+        "Podaje",
+        "Podpisał",
+        "Przeczytał"
+      ],
+      "answer": "Podoba",
+      "explain": "One of the two verbs where the front piece cannot be read. It is learned whole."
+    },
+    {
+      "prompt": "Tata ___ list. (will sign it)",
+      "choices": [
+        "podpisze",
+        "podpisał",
+        "przepisze",
+        "przeczyta"
+      ],
+      "answer": "podpisze",
+      "explain": "Same pod-, the future: podpisał is done already, podpisze has not happened yet."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to go across — on foot",
+      "mode": "full_word",
+      "answer": "przejść",
+      "accepts": [
+        "przejść"
+      ],
+      "explain": "przez is across; the same piece sits on the front of the verb."
+    },
+    {
+      "prompt_en": "to read it all the way through",
+      "mode": "full_word",
+      "answer": "przeczytać",
+      "accepts": [
+        "przeczytać"
+      ]
+    },
+    {
+      "prompt_en": "to copy it out — to write it across",
+      "mode": "full_word",
+      "answer": "przepisać",
+      "accepts": [
+        "przepisać"
+      ]
+    },
+    {
+      "prompt_en": "to pay too much",
+      "mode": "full_word",
+      "answer": "przepłacić",
+      "accepts": [
+        "przepłacić"
+      ],
+      "explain": "The one prze- that is not across. It is a word, not a pattern."
+    },
+    {
+      "prompt_en": "to sign — to write underneath",
+      "mode": "full_word",
+      "answer": "podpisać",
+      "accepts": [
+        "podpisać"
+      ]
+    },
+    {
+      "prompt_en": "to hand it over",
+      "mode": "full_word",
+      "answer": "podawać",
+      "accepts": [
+        "podawać"
+      ]
+    },
+    {
+      "prompt_en": "to talk with someone",
+      "mode": "full_word",
+      "answer": "rozmawiać",
+      "accepts": [
+        "rozmawiać"
+      ],
+      "explain": "mówić is speaking; roz- spreads it between people, so this is talking with."
+    },
+    {
+      "prompt_en": "a timetable",
+      "mode": "full_word",
+      "answer": "rozkład",
+      "accepts": [
+        "rozkład"
+      ]
+    },
+    {
+      "prompt_en": "a solution",
+      "mode": "full_word",
+      "answer": "rozwiązanie",
+      "accepts": [
+        "rozwiązanie"
+      ]
+    },
+    {
+      "prompt_en": "a conversation",
+      "mode": "full_word",
+      "answer": "rozmowa",
+      "accepts": [
+        "rozmowa"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad signed the contract.",
+      "answer": "Tata podpisał umowę.",
+      "accepts": [
+        "Tata podpisał umowę.",
+        "Tata podpisał umowę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad copied out the address.",
+      "answer": "Tata przepisał adres.",
+      "accepts": [
+        "Tata przepisał adres.",
+        "Tata przepisał adres"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum read the book right through.",
+      "answer": "Mama przeczytała książkę.",
+      "accepts": [
+        "Mama przeczytała książkę.",
+        "Mama przeczytała książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother drove across the bridge.",
+      "answer": "Brat przejechał przez most.",
+      "accepts": [
+        "Brat przejechał przez most.",
+        "Brat przejechał przez most"
+      ]
+    },
+    {
+      "prompt_en": "Type: I went across the street. (on foot)",
+      "answer": "Przeszedłem przez ulicę.",
+      "accepts": [
+        "Przeszedłem przez ulicę.",
+        "Przeszedłem przez ulicę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad paid too much.",
+      "answer": "Tata przepłacił.",
+      "accepts": [
+        "Tata przepłacił.",
+        "Tata przepłacił"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is serving dinner.",
+      "answer": "Mama podaje obiad.",
+      "accepts": [
+        "Mama podaje obiad.",
+        "Mama podaje obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: I can talk with my brother.",
+      "answer": "Mogę rozmawiać z bratem.",
+      "accepts": [
+        "Mogę rozmawiać z bratem.",
+        "Mogę rozmawiać z bratem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a solution.",
+      "answer": "Mam rozwiązanie.",
+      "accepts": [
+        "Mam rozwiązanie.",
+        "Mam rozwiązanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: The conversation was good.",
+      "answer": "Rozmowa była dobra.",
+      "accepts": [
+        "Rozmowa była dobra.",
+        "Rozmowa była dobra"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "przejść",
+    "przejechać",
+    "przeczytać",
+    "przepisać",
+    "przepłacić",
+    "podpisać",
+    "podawać",
+    "podobać się",
+    "rozmawiać",
+    "mówić",
+    "przeszedłem",
+    "przeszedł",
+    "przejechał",
+    "przejechałem",
+    "przejdzie",
+    "przeczytał",
+    "przeczytała",
+    "przeczyta",
+    "przeczytałem",
+    "przepisał",
+    "przepisze",
+    "przepłacił",
+    "podpisał",
+    "podpisałem",
+    "podpisała",
+    "podpisze",
+    "podpisuje",
+    "podaje",
+    "podoba",
+    "podoba mi się",
+    "wyjść",
+    "przyjść",
+    "dojść",
+    "oddawać",
+    "zapisać",
+    "zapłacić",
+    "zapłacił",
+    "pojechać",
+    "robić",
+    "zrobić",
+    "przerwa",
+    "przesiadka",
+    "podłoga",
+    "podróż",
+    "rozmowa",
+    "rozkład",
+    "rozwiązanie",
+    "rozmiar",
+    "umowę",
+    "adres",
+    "książkę",
+    "park",
+    "most",
+    "ulicę",
+    "obiad",
+    "list",
+    "film",
+    "tata",
+    "mama",
+    "brat",
+    "bratem",
+    "przez",
+    "mogę",
+    "mam",
+    "jest",
+    "ten",
+    "była",
+    "dobra",
+    "z bratem",
+    "czytamy",
+    "tylko"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_prefix_semantics",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

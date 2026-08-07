@@ -164,6 +164,7 @@ STRUCTURE_CATALOGUE = {
     "sec_imperf",
     "placic_family",
     "pisac_family2",
+    "prefix_semantics",
 }
 
 GLUE_LEMMAS = {
