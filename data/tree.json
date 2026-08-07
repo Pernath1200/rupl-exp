@@ -4409,17 +4409,18 @@
       "id": "c1_cond_past",
       "domain": "grammar",
       "label": "Byłbym zrobił",
-      "label_en": "If I had… · the past conditional",
+      "label_en": "I would have — and the shape that already covered it",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 7, unit 9. B2-SPINE O6's explicit deferral. bylbym mial, bylbym zrobil (bylbym NEW; zrobil TAUGHT). b2_gdyby glossed its L-form ONLY as a present unreal ('if I had time', never 'if I had had time') PRECISELY so this unit could arrive without contradicting it, and its digest says so. The unit's one fact: Polish uses one shape for both readings and adds a piece for the past one. Must precede c1_modal_pl, which needs it for powinienem byl.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_cond_past.json"
     },
     {
       "id": "c1_by_plural",
