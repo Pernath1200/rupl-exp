@@ -3911,18 +3911,19 @@
     {
       "id": "c1_adj_pl_gym",
       "domain": "grammar",
-      "label": "Siłownia · dobre i dobrych",
+      "label": "Siłownia · dobrych, dobrymi, dobrym",
       "label_en": "Plural adjective gym",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 6. ZERO NEW - gym idiom, teaches_* empty (a1_case_gym line). EARNS ITS SLOT under AGENTS' gyms rule (spine O11): three new strings (-ych/-ymi/-ym) spread across five jobs plus a virile split is a case-ending cliff by the rule's own definition, and the -ych-does-three-jobs collision is exactly what massed discrimination is for. THE ONLY NEW GYM IN C1 besides the c1_case_gym closer.",
+      "note": "C1 Block 2, unit 6 — the plural adjective gym, and the close of the block (C1-SPINE O11). Gym idiom: ZERO new material, teaches_structures and teaches_lemmas both empty. It earns its path slot under AGENTS' gyms rule because three strings (-ych, -ymi, -ym) are spread across six jobs and -ych alone does three of them — Genitive, Locative, and the virile Accusative that landed one node ago — with nothing inside the adjective to say which. A same-string-many-jobs collision is what massed discrimination is for. This is the only new gym in C1 besides the c1_case_gym closer. Slide 3 is the one genuinely new thought and it reduces load rather than adding it: of the six jobs the men/not-men split shows in exactly two, the subject form and the object form, and in all four oblique jobs the plural adjective is one form for everyone. Each oblique unit could only say that about itself; this is the first node able to say it about the whole block. duży's paradigm hole is inherited rather than fixed — it has dużych and nothing else oblique anywhere in the course — so duży appears only in Genitive and Locative slots and quiz 9's distractors are built from duże/dużo/duża. No virile Locative anywhere, which is lexical: lekarzach and studentach are both verified NEW. All twelve quiz answers are distinct, which took work in a gym whose point is one string answering to three triggers; the collision is preserved by keeping the choice set identical across items 1, 3 and 10 while the answers differ. Item 12 carries forward the women-only guard from c1_adj_pl_virile.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_gym.json"
     },
     {
       "id": "c1_evaluation",
