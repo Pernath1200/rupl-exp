@@ -3986,12 +3986,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 3, unit 3. The forms for THINGS, not people - the half of the pronoun system B2 left open. je (neuter + non-virile-plural Accusative) pays b2_pron_acc's stated consequence, 'after this unit them is expressible only for people'. czemu (Dative of co) pays b2_kim_czym's double fence and the em dash b2_case_gym's slide-2 table still carries. Also carries prosic o + a pronoun (b2_prosic_o's judgment call 8); the governor itself is owned. TWO HOMOGRAPH TRAPS IN ONE SMALL UNIT (spine O13): je = 'she eats' (jem/jesz TAUGHT <- a2_routine), czemu = colloquial 'why'. Both named on the slide, neither left to sting.",
+      "note": "C1 Block 3, unit 3 (C1-SPINE) - the object pronoun for things, and two homographs in one small unit, both flagged in advance by spine O13. Two new strings only: je and czemu. je pays b2_pron_acc's stated consequence ('after this unit them is expressible only for people') - that pack taught ich for a men-group and left everything else with no object pronoun at all. The first trap is why the VERB is in this unit: je is also the 3sg of jeść, and the spine named the risk - teach them together or the first Ona je reads as 'she them'. One cell, not a paradigm: jem and jesz are owned and zje is owned, so je is the single missing box; jemy, jecie and jedzą are deliberately not taught. The test given is positional because a positional test is one this learner can apply: if je is the only verb-shaped word in the clause it IS the verb; if a verb is already standing, je is its object. THE UNIT'S ONE REAL FORK is czemu, taken conservatively: it is taught as the everyday colloquial 'why' (a synonym of dlaczego), with one line naming it as the Dative of co - which the spine explicitly permits - because the Dative of a THING has no legal sentence in this course, the only Dative-governing verb owned being pomagać. prosić o + a pronoun is held permanently: the non-virile plural Accusative after a preposition is nie, which collides with the negator, the first Polish word this learner ever met.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_pron_je.json"
     },
     {
       "id": "c1_siebie",

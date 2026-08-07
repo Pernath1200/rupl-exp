@@ -144,6 +144,7 @@ STRUCTURE_CATALOGUE = {
     "adj_pl_virile",
     "ktory_plural",
     "pron_prep_12",
+    "pron_je",
 }
 
 GLUE_LEMMAS = {
