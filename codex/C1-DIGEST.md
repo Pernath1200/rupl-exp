@@ -455,3 +455,247 @@ composed, and all sit under the ≤3-word cap.
   James's current ruling rather than assume (spine O13).
 - **`wydaje mi się`**, still James's call (`b2_verb_family2`).
 - **`duży`'s incomplete oblique paradigm**, new this batch — see smoke item 2.
+
+
+## Batch 3 — Block 2 closes completely (3 units)
+
+Built `c1_adj_pl_virile`, `c1_adj_pl_gym`, `c1_evaluation` — the virile plural
+adjective, the block's gym, and the Block 2 vocab pack. Each audit-clean (0
+errors; the same 2 pre-existing, unrelated warns from `a2_prep_review` /
+`b1_two_futures`), pushed to `origin/b1-build` one at a time, not batched. **One**
+new structure registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before its audit ran: `adj_pl_virile`. The gym and the vocab
+pack have empty `teaches_structures` by their genres' conventions, so neither
+needed an ID.
+
+Path is now live through `c1_evaluation` (path index 188, **181 live nodes**).
+Next unbuilt C1 node: `c1_ktory_plural` — Block 3, unit 1, the plural relatives
+`b2_ktory_full` fenced.
+
+**With this batch Block 2 is complete and B2-SPINE O3 is fully paid.** The plural
+adjective was the largest untaught system left in the course; nine consecutive B2
+units shipped bare-noun waiting for it. Five teaching units and a gym have now
+closed it: `-ych` (Genitive, Locative, virile Accusative), `-ymi` (Instrumental),
+`-ym` (Dative), `-e` (non-virile Nominative, from A2), and the virile Nominative.
+
+`codex/REPAIR-QUEUE.md` was read first and is **fully ticked** — all 19 packs, all
+104 items. No step-0 repair work existed this run. **None of these three packs adds
+to it:** every Pisanie item in both grammar units is a two- or three-word pattern
+phrase, and the vocab pack has no Pisanie stage.
+
+### `c1_adj_pl_virile` (Block 2, unit 5 — the men-group form)
+
+Four new forms: `nowi`, `młodzi`, `zmęczeni` (virile Nominative plural) and
+`zmęczone` (the non-virile plural of the same adjective, so the split has both
+sides on one word). `dobrzy` is **recycled, not taught** — `b1_virile_reco` [109]
+handed it over as a whole ready-made form with no rule at all, so the unit's shape
+is the `b2_verbal_nouns` / `b2_participle_pass` anchor shape: a form the learner
+has read since B1 turns out to be built by a pattern.
+
+**It stays one new thing because the learner already makes this move on the
+nouns.** `b1_virile_nom` taught "look at the last consonant of the stem"
+(*student→studenci*, *Polak→Polacy*); slide 2 says outright that the adjective in
+front does the same, so this is one familiar operation reaching a second word
+class rather than a new system. The four alternations shown are r→rz, w→wi, d→dz,
+n→ni, stated as a pattern over four owned words and never as a productive test —
+the `b2_gen_pl_full` fleeting-e precedent C1-SPINE **O12** restates for exactly
+this genre.
+
+**The batch's one real fork: the spine's own `mali` and `duzi` are dropped.**
+C1-SPINE names *mali*, *duzi*, *zmęczeni*. `zmęczeni` is built; the other two are
+not, because **no virile noun this course owns collocates with a size adjective**.
+Every taught virile plural is an adult occupational or relational noun —
+*studenci, lekarze, nauczyciele, pracownicy, kelnerzy, Polacy, pacjenci, klienci,
+artyści, rolnicy, Anglicy, goście, kibice, przyjaciele, turyści, ludzie, kucharze,
+dziennikarze, policjanci, informatycy, rodzice* — and *mali studenci* is not
+something anyone says. The natural home for *mali* is *chłopcy* or *synowie*, both
+verified NEW. Rather than ship a table row that never appears in a sentence, the
+unit substitutes **`nowi`**, which the spine did not name and which turns out to be
+the strongest virile adjective in the pool: *nowi studenci / klienci / pracownicy*
+are all ordinary Polish, and it is the only adjective besides *dobry* whose
+masculine, feminine **and** non-virile plural are all taught, which is what
+supplies a clean four-way distractor set. `młodzi` is the second substitution on
+the same test. This is the `c1_adj_pl_loc` precedent applied a second time in one
+block — a spine example is a sketch, not a licence.
+
+**Distractor availability drove the adjective set, exactly as in `c1_adj_pl_gen`.**
+Only four adjectives in the whole course have masculine, feminine and non-virile
+plural all taught (*dobry, nowy, mały, duży*), and of those only *dobry* and *nowy*
+have a usable virile. `zmęczony` gets a full four-way set because this unit teaches
+the two missing members itself, which is why it carries the sharpest items.
+`młody` has *młody/młoda/młodszy* owned but *młode* is verified NEW, so its item
+distracts with the comparative rather than with a form the course does not own.
+
+**Pays `b2_copular_future`'s absolute fence**, which is why `zmęczone` is taught
+alongside `zmęczeni`. That pack's note reads: *"PLURAL predicate adjectives are
+fenced absolutely — zmęczeni / zmęczone are NEW (b1_virile_gym and
+b1_conditional_pl each record nearly shipping them by mistake, one batch apart)."*
+The plural predicate itself is **not** new — `a2_plural_nom` already shipped *Koty
+są małe* — so slide 3 adds only that in the plural the choice stops being
+man/woman and becomes men-group / everything else.
+
+**The Accusative is built on owned strings only.** Virile Accusative plural =
+Genitive plural on noun and adjective alike, using *dobrych/nowych* ←
+`c1_adj_pl_gen` [182] and *studentów/kolegów/klientów* ← `b2_num_virile` [157].
+Every one of those noun forms was taught **as a Genitive plural** and is used here
+in the **Accusative** — the honest masculine-animate exception AGENTS names
+(*brata*), one number up, stated in one line on slide 4 and anchored on *Znam
+brata*. *młodych* and *zmęczonych* are verified NEW, so those two adjectives have
+no Accusative here; logged rather than hidden.
+
+**Second homograph, checked rather than assumed.** `check_new.py` reports *dobre*
+first at `a1_gender_check` [6] and *małe* at `trunk_adjectives_a1` [8] — i.e. as
+**neuter singulars**. The plural job was therefore verified directly against
+`a2_plural_nom`'s own items (*Czy hotele są dobre?*, *Koty są małe.*, *Mam nowe
+książki.*), which use all four squarely as non-virile plurals. **`głodne` is the
+counter-example and is fenced:** it is TAUGHT [8] but only ever as a neuter
+singular and no later pack puts it in a plural, so it appears nowhere.
+
+### `c1_adj_pl_gym` (Block 2, unit 6 — the gym earns its slot)
+
+Zero new material, `teaches_structures` and `teaches_lemmas` both empty, on the
+`a1_case_gym` → `b2_case_gym` line.
+
+**Why the slot is earned, tested against AGENTS' rule rather than taken from the
+spine.** The rule retired `a2_past_gym` for being "a repetition of things that were
+not difficult". This board is not that: three strings (`-ych`, `-ymi`, `-ym`) are
+spread across **six jobs**, and `-ych` alone does **three** of them — Genitive,
+Locative, and the virile Accusative that landed one node earlier — with nothing
+inside the adjective to say which. A same-string-many-jobs collision is what massed
+discrimination is for. This is the only new gym in C1 besides the `c1_case_gym`
+closer.
+
+**Slide 3 is the gym's one genuinely new thought, and it reduces load rather than
+adding it:** of the six jobs, the men/not-men split shows in exactly **two** — the
+subject form and the object form. In all four oblique jobs the plural adjective is
+one form for everyone. Each oblique unit could only say this about itself
+(`c1_adj_pl_inst`: "the Instrumental plural has no virile split";
+`c1_adj_pl_dat`: "the Dative plural has no virile split either"); no node could say
+it about the whole block until `c1_adj_pl_virile` landed. Saying it once, here, is
+worth more than the four separate reassurances were.
+
+**All twelve quiz answers are distinct**, which took real work in a gym whose whole
+point is one string answering to three triggers — the naive board would have had
+*dobrych* as the answer three times. The collision is preserved where it matters by
+keeping the **choice set identical** across items 1, 3 and 10 (*dobrych / dobrymi /
+dobrym / dobre*, reordered) while the answers differ, so the learner meets the same
+four buttons under three different trigger words.
+
+**`duży`'s paradigm hole is inherited, not fixed**, exactly as `c1_adj_pl_inst` and
+`c1_adj_pl_dat` predicted. *duży* has *dużych* and nothing else oblique anywhere in
+the course, so it appears here only in Genitive and Locative slots and quiz item 9's
+distractors are built from *duże / dużo / duża*. Closing it would mean teaching new
+forms in a zero-new gym, so it is deliberately left open — see smoke item 3.
+
+**No virile Locative anywhere**, and that is lexical rather than editorial:
+*lekarzach* and *studentach* are both verified NEW (`b2_loc_pl`'s eleven nouns are
+all things), so every Locative slot takes a non-person noun and the virile split is
+demonstrated where it actually shows.
+
+### `c1_evaluation` (Block 2 vocab — the oldest IOU in the course)
+
+Twelve new words, every one re-verified NEW at this node's own path position rather
+than inherited from the spine: **łatwy, trudny, gotowy, pusty, pełny, dziwny,
+zwykły, oczywisty, konieczny, możliwy, niemożliwy, skuteczny.** The spine listed
+exactly twelve and said "trim to 12", so nothing needed dropping — the first C1
+vocab brief that came out of scoping already the right size.
+
+**The anchor rule decided the entire sentence bank, and AGENTS names this pack's
+trap in its own text:** *"Never write lookalike frames where both halves are new
+(To jest łatwe / trudne)."* That is literally the two headline words. So neither is
+ever introduced in a bare *To jest* frame — `łatwy` arrives on *Angielski jest
+łatwy* and `trudny` on *Polski jest trudny*, each with a taught language name doing
+the anchoring and exactly one unknown in the sentence. Verified mechanically at the
+wire: no sentence in the bank contains more than one word this pack teaches.
+
+**Four words take a lexical anchor already in the course instead of an icon**,
+because a derivation the learner can see beats a picture: *oczywisty* ←
+*oczywiście* (`b1_polite` [105]); *możliwy* ← *możliwość* (`b2_abstract` [149]) and
+*można* (`a2_musiec` [77]); *niemożliwy* ← *możliwy* plus the *nie-* owned since
+A1; *skuteczny* ← *skutek* (`b2_abstract` [149]). The other eight carry an icon.
+
+**The homograph is `gotowy` and it is the sharpest thing in the pack.** *gotować*
+has been taught since `a1_present_uje` [18] and *ugotowany* by
+`b2_participle_pass` [173]. *gotowy* looks like it belongs to that family and does
+not — it means **ready**, and *Obiad jest gotowy* is about the dinner being
+finished rather than about anyone having cooked it. Named out loud on the item.
+*konieczny* / *koniec* is the milder second case, flagged in one line and not built
+into a rule.
+
+**Twenty taught forms for twelve words** is the `b2_abstract` shape (fifteen for
+twelve) and is not twenty things to learn: eight are the feminine, neuter or plural
+of a word whose masculine is taught in the same pack, built by agreement rules the
+learner has just spent five units drilling. They are tagged so the auditor can
+police them, per the every-form-taught rule.
+
+**The Block 2 placement is used, not merely honoured.** C1-SPINE puts this pack
+here "so the block's new endings get a wider adjective set to run on than
+dobry/duży". Sentence 25 — *W pustych sklepach nie ma chleba* — is that payoff, and
+`pustych` is the one plural oblique taught here; teaching `-ych` on all twelve
+would be a morphology unit wearing a vocab pack's clothes. Structure recycling is
+deliberately wide across the 28 sentences (`ze_clauses`, `reported`, `indirect_q`,
+`jesli` + perfective future, `question_cases`, `neg_gen`), including
+`adj_pl_virile` one node back — *Nauczyciele są zmęczeni, ale egzamin jest łatwy* —
+which is the AGENTS gyms rule's named default recycling mechanism working one node
+after the gym.
+
+### Labels at the wire
+
+Two of the three planned labels needed correcting, which keeps the batch-1 and
+batch-2 pattern intact.
+
+- `c1_adj_pl_virile` read **"Mali, duzi, zmęczeni"** — two of those three forms are
+  no longer taught by the unit, so the label would have carried Polish the course
+  never teaches into learner-visible chrome. Retitled to the house contrast pattern
+  on `b1_virile_reco`'s own *Ci czy te?* model: **"Dobrzy czy dobre?"**, both words
+  owned.
+- `c1_adj_pl_gym` read **"Siłownia · dobre i dobrych"** — every word taught, so it
+  needed no rescue. Sharpened to **"Siłownia · dobrych, dobrymi, dobrym"**, which
+  names the three-string collision the gym exists for.
+- `c1_evaluation`'s **"Łatwy czy trudny?"** stands unchanged. Both adjectives are
+  taught by the pack itself, which is the `c1_adj_pl_gen` precedent (*Dużo dobrych
+  filmów* uses a form it teaches).
+
+### For James to smoke — batch 3
+
+1. **`mali` and `duzi` are not in the course and this was the batch's one real
+   fork.** The spine named them; no owned virile noun collocates with a size
+   adjective, so they were replaced with `nowi` and `młodzi`. If you want them, the
+   cost is one new virile noun (*chłopcy*) and they slot into `c1_adj_pl_gym`
+   without disturbing anything already built. The honest alternative was a table row
+   that never appears in a sentence.
+2. **The virile Accusative asks Dad to read *dobrych studentów* as an object** when
+   both words were taught to him as Genitives. Slide 4 names the borrowing and
+   anchors it on *Znam brata*, which AGENTS calls the honest masculine-animate
+   exception. Worth a look that it lands, because the whole object half of the
+   plural adjective rests on it.
+3. **`duży` still has a hole and the gym did not close it.** It has *dużych*
+   (Genitive and Locative plural) and nothing else oblique, singular or plural,
+   anywhere in the course. Closing it in a zero-new gym would have broken the gym
+   idiom, so it is left for you: either a later unit beside a non-person
+   Instrumental plural, or an explicit decision that four adjectives was always one
+   too many.
+4. **`gotowy` sits one letter from a family it does not belong to.** *gotować*,
+   *gotowanie* and *ugotowany* are all owned. The item explain says so directly. If
+   it still reads as "cooked" in the hand, the fix is a second sentence putting
+   *gotowy* and *ugotowany* side by side, which was held out here to keep one new
+   word per sentence.
+5. **Slide 3 of the gym makes a claim about the whole block** — that the men/not-men
+   split shows only in the subject and object forms. It is true and it is the
+   biggest simplification available at this point in the course, but it is the first
+   time any node has summarised across five units, so it is worth checking it reads
+   as relief rather than as a sixth fact.
+
+### Still open after batch 3
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair run
+  and untouched here. **None of this batch's packs adds to it** — every `accepts`
+  holds the exact answer, plus the no-final-stop variant on whole-sentence items,
+  which is the standing convention and is not a fold.
+- Every C1-SPINE O-item, **O3 above all** (productive semantic prefixation, where a
+  hand-over list and a James-locked decision contradict each other).
+- The **MÓGŁBY QUARANTINE**, for `c1_past_gaps` in Block 7 to check against James's
+  current ruling rather than assume (spine O13).
+- **`wydaje mi się`**, still James's call (`b2_verb_family2`).
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2 and now formally
+  inherited by the gym without being fixed — see smoke item 3.
