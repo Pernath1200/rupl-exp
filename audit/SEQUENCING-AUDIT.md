@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 195 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 196 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -216,4 +216,5 @@ _None._
 | 201 | `c1_irreg_virile` | `virile_irreg` | 7 | `adj_pl_virile`, `byc_adj`, `byc_present`, `dat_pl`, `dative_sg`, `existential_jest`, `gen_pl`, `gen_pl_full`, `inst_pl`, `inst_z`, `miec_acc`, `miec_present`, `motion_chunk`, `numbers_gen`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `ten_ta_to`, `to_jest`, `virile_alt`, `virile_irreg`, `virile_nom`, `virile_owie`, `virile_reco`, `zgoda` |
 | 202 | `c1_suppl_pl` | `suppl_pl` | 3 | `adj_pl_virile`, `byc_adj`, `byc_present`, `dat_chunks`, `miec_acc`, `miec_present`, `plural_nom`, `poss_nom`, `suppl_pl`, `ten_ta_to`, `to_jest`, `virile_irreg`, `zgoda` |
 | 203 | `c1_society` | — | 15 | `adj_acc`, `byc_adj`, `byc_present`, `can_inf`, `comparative`, `conditional_sg`, `conjunctions`, `copular_future`, `dat_pl`, `existential_tense`, `gdyby`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `negation`, `plural_nom`, `powinien`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `question`, `questions2`, `reported`, `suppl_pl`, `ten_ta_to`, `to_jest`, `wiedziec`, `ze_clauses`, `zgoda` |
+| 204 | `c1_na_acc` | `na_acc` | 3 | `byc_present`, `chodzic`, `existential_jest`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `na_acc`, `negation`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `present`, `present_am`, `present_e_isz`, `suppl_pl`, `virile_nom`, `zgoda` |
 

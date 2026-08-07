@@ -1,0 +1,637 @@
+{
+  "id": "c1_na_acc",
+  "title": "Na spacer, na czas",
+  "title_en": "na + Accusative · the second job of na",
+  "level": "C1",
+  "tree_node": "c1_na_acc",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 5, unit 1 - the block that closes the prepositional and verbal governors, and the first unit of the run that OWES A ROW IN data/case-map.json. That row ships in this same commit, per the standing instruction in codex/WHICH-CASE-DIGEST.md: c1_which_case [235] derives its table from that file and would otherwise be missing its own level. THREE NEW STRINGS ONLY: czekam, pieszo, na piechote. THE GOVERNOR IS THE UNIT; the nouns after it are all Accusatives the learner already owns. TOOLING NOTE HONOURED: check_new.py reports bare na as NEW - an artifact, since na is never a bare lemma and has been on screen since A1 inside na stole / na spacer. na is NOT taught here and is not in teaches_lemmas; its second GOVERNOR is. THE ANCHOR IS EXCEPTIONALLY STRONG AND WAS VERIFIED: na spacer TAUGHT <- a2_sport [94], na czas TAUGHT <- b1_journeys [110], na szczescie TAUGHT <- b1_stories [123] - three frozen chunks that are ALREADY na + Accusative, so the opener is the b2_verbal_nouns shape at its cleanest. BUT ALL THREE HIDE THE CASE, and that drove the second slide: spacer and czas are masculine inanimate and szczescie is neuter, so none of them shows a visible ending. The case only becomes visible on a feminine - Ide na kawe, not na kawa - which is why kawe carries the demonstration. THE UNIT'S REAL LESSON IS A DECISION, NOT A FORM: do + Genitive for a PLACE, na + Accusative for an ACTIVITY OR EVENT, where English says 'to' for both. That is the shape the Ktory przypadek? family exists to teach and it is why this governor earns a full unit rather than a slide. THE na-PLACES ARE NAMED AS A HONEST EXCEPTION, NOT HIDDEN: a handful of places take na anyway, and rather than pretend the rule is clean the slide gives two the learner already owns - na dworzec and na rynek (dworzec TAUGHT <- a2_travel, rynek TAUGHT <- leaf_city_a1) - and says plainly that they are learned one at a time and cannot be worked out. That is R2's tendency-with-a-named-counterexample discipline applied to a preposition. FENCES PAID: b2_health_system's (czekam na wyniki, dzwonie na pogotowie - dzwonie and pogotowie are both TAUGHT, so that one costs nothing), b2_abstract's mieć wplyw na, which its own note calls the strongest single argument for this unit, and a2_inst_transport's pieszo / na piechote, which the spine says come free and which check_new says do not quite - pieszo is a new adverb and na piechote a new frozen chunk whose noun is untaught, so both are taught whole and named as such. czekam is the third new string: czekac is TAUGHT <- a2_imperative [95] as an infinitive and czeka <- b1_imperative_rule [125], but the first person - the one Dad actually needs at a counter - was never given. czekasz was NOT added, so every second-person frame in the pack uses a noun subject with czeka instead. HOMOGRAPH DISCIPLINE: kawie is still untaught at this position and appears nowhere, as at A1, A2 and B2; the quiz distractor set for na kawe is kawa/kawy/kaw, all taught, and kawy is used only in its Genitive-singular job.",
+  "focus_structures": [
+    "na_acc"
+  ],
+  "teaches_structures": [
+    "na_acc"
+  ],
+  "teaches_lemmas": [
+    "czekam",
+    "pieszo",
+    "na piechotę"
+  ],
+  "uses_structures": [
+    "na_acc",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "miec_acc",
+    "miec_present",
+    "motion_chunk",
+    "jechac",
+    "chodzic",
+    "inst_transport",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "plural_nom",
+    "suppl_pl",
+    "virile_nom",
+    "zgoda",
+    "byc_present",
+    "existential_jest",
+    "negation"
+  ],
+  "intro": [
+    {
+      "title": "Three phrases you already say, and what they have in common",
+      "title_pl": "na spacer · na czas · na szczęście",
+      "body": "You have been saying na spacer since A2, na czas since B1 and na szczęście since the stories unit. They were given to you whole, as phrases, and nothing was said about how they were built.\n\nThey are all the same thing: na followed by the Accusative — the case you have used after mam, piję and lubię since A1.\n\nSo na has two jobs, and you already do both. w domu, na stole, na biurku are the Locative job: where something is. na spacer is the other one.",
+      "body_pl": "na spacer · na czas · na szczęście",
+      "table": {
+        "headers": [
+          "Phrase",
+          "English",
+          "Which job of na"
+        ],
+        "rows": [
+          [
+            "Kawa jest na stole.",
+            "the coffee is on the table",
+            "Locative — where it IS"
+          ],
+          [
+            "Książka jest na biurku.",
+            "the book is on the desk",
+            "Locative — where it IS"
+          ],
+          [
+            "Idę na spacer.",
+            "I'm going for a walk",
+            "Accusative — what I am going TO"
+          ],
+          [
+            "Autobus jest na czas.",
+            "the bus is on time",
+            "Accusative"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "You cannot see the case in those three — here is where you can",
+      "title_pl": "Idę na kawę.",
+      "body": "spacer and czas are masculine things, and szczęście is neuter. None of those changes in the Accusative, so all three phrases hid the case completely.\n\nPut a feminine noun after na and it appears at once. Idę na kawę — not na kawa. It is the same -ę you have been putting on kawa since your ninth lesson, and it is the proof that na is taking the Accusative here.",
+      "body_pl": "kawa → na kawę · herbata → na herbatę",
+      "table": {
+        "headers": [
+          "Dictionary form",
+          "After na",
+          "English"
+        ],
+        "rows": [
+          [
+            "kawa",
+            "na kawę",
+            "out for a coffee"
+          ],
+          [
+            "herbata",
+            "na herbatę",
+            "out for a tea"
+          ],
+          [
+            "spacer",
+            "na spacer",
+            "for a walk — no visible change"
+          ],
+          [
+            "obiad",
+            "na obiad",
+            "for dinner — no visible change"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "do or na? A place, or an activity",
+      "title_pl": "do sklepu · na zakupy",
+      "body": "This is the decision, and it is the reason the unit exists. English uses to for both, so the English gives you nothing.\n\ndo + Genitive points at a place: do sklepu, do domu, do pracy, do szkoły.\n\nna + Accusative points at an activity or an event: na spacer, na obiad, na koncert, na zakupy, na wakacje, na egzamin.\n\nThe same trip can take either, depending on what you name. Idę do sklepu names the building. Idę na zakupy names what you are going to do. Both are correct, and you can say them in one breath: Idę do sklepu na zakupy.",
+      "body_pl": "do + dopełniacz — miejsce · na + biernik — wydarzenie",
+      "table": {
+        "headers": [
+          "A place → do",
+          "An activity or event → na",
+          ""
+        ],
+        "rows": [
+          [
+            "do sklepu",
+            "na zakupy",
+            "the shop / the shopping"
+          ],
+          [
+            "do pracy",
+            "na spotkanie",
+            "work / the meeting"
+          ],
+          [
+            "do szkoły",
+            "na lekcje",
+            "school / the lessons"
+          ],
+          [
+            "do domu",
+            "na obiad",
+            "home / dinner"
+          ],
+          [
+            "do parku",
+            "na spacer",
+            "the park / a walk"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A handful of places take na anyway",
+      "title_pl": "na dworzec · na rynek",
+      "body": "The rule above is a strong tendency, not a law, and it is better to hear that now than to be caught by it.\n\nA small group of places take na even though they are plainly places, not activities: na dworzec, na rynek, and a few more you will meet one at a time.\n\nThere is nothing in those words that tells you. They are learned individually, the way you learned that dziecko makes dzieci. Everything else on the previous slide holds.",
+      "body_pl": "Idę na dworzec. · Idę na rynek.",
+      "examples": [
+        "Idę na dworzec.",
+        "Idę na rynek.",
+        "Idę do sklepu."
+      ]
+    },
+    {
+      "title": "Two verbs that want it, and the phrase A2 owed you",
+      "title_pl": "czekam na… · pieszo",
+      "body": "Some verbs choose na + Accusative the way pomagać chooses the Dative. The two you need most:\n\nczekać — czekam na kawę, mama czeka na wyniki, czekam na autobus. In English you wait FOR something; in Polish you wait ON it.\n\ndzwonić — dzwonię do mamy is a person, but dzwonię na pogotowie is a service. And mieć wpływ na: Technologia ma wpływ na środowisko.\n\nLast, the phrase the transport unit could not give you. It taught autobusem, samochodem, rowerem — the Instrumental for what you travel by. On foot is not that, because there is nothing you travel by: it is pieszo, one word and no case at all, or na piechotę, which is this lesson's na + Accusative.",
+      "body_pl": "czekam na… · dzwonię na… · pieszo · na piechotę",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Note"
+        ],
+        "rows": [
+          [
+            "czekam na autobus",
+            "I'm waiting for the bus",
+            "wait ON, not wait FOR"
+          ],
+          [
+            "mama czeka na wyniki",
+            "mum is waiting for the results",
+            "the results were the fence this pays"
+          ],
+          [
+            "dzwonię na pogotowie",
+            "I'm calling the ambulance service",
+            "a service, not a person"
+          ],
+          [
+            "idę pieszo",
+            "I'm going on foot",
+            "no preposition, no case"
+          ],
+          [
+            "idę na piechotę",
+            "I'm going on foot",
+            "the same thing, built with na"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "for a walk",
+      "pl": "na spacer"
+    },
+    {
+      "en": "out for a coffee",
+      "pl": "na kawę"
+    },
+    {
+      "en": "for dinner",
+      "pl": "na obiad"
+    },
+    {
+      "en": "to the concert",
+      "pl": "na koncert"
+    },
+    {
+      "en": "on holiday",
+      "pl": "na wakacje"
+    },
+    {
+      "en": "shopping",
+      "pl": "na zakupy"
+    },
+    {
+      "en": "on time",
+      "pl": "na czas"
+    },
+    {
+      "en": "I'm waiting for the coffee",
+      "pl": "czekam na kawę"
+    },
+    {
+      "en": "mum is waiting for the results",
+      "pl": "mama czeka na wyniki"
+    },
+    {
+      "en": "I'm calling the ambulance service",
+      "pl": "dzwonię na pogotowie"
+    },
+    {
+      "en": "on foot",
+      "pl": "pieszo"
+    },
+    {
+      "en": "on foot · the phrase built with na",
+      "pl": "na piechotę"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Idę ___ spacer. (I'm going for a walk)",
+      "choices": [
+        "na",
+        "do",
+        "w",
+        "z"
+      ],
+      "answer": "na",
+      "explain": "A walk is an activity, not a place — so na, and the Accusative after it."
+    },
+    {
+      "prompt": "Idę na ___. (out for a coffee)",
+      "choices": [
+        "kawę",
+        "kawa",
+        "kawy",
+        "kaw"
+      ],
+      "answer": "kawę",
+      "explain": "The Accusative, exactly as after mam. kawy is the Genitive singular and kaw the Genitive plural."
+    },
+    {
+      "prompt": "Idę ___ sklepu. (I'm going to the shop)",
+      "choices": [
+        "do",
+        "na",
+        "w",
+        "o"
+      ],
+      "answer": "do",
+      "explain": "A shop is a place, so do and the Genitive. Name the shopping instead and it becomes na zakupy."
+    },
+    {
+      "prompt": "Idę ___ koncert. (I'm going to the concert)",
+      "choices": [
+        "na",
+        "do",
+        "o",
+        "z"
+      ],
+      "answer": "na",
+      "explain": "A concert is an event. The noun does not change, because koncert is a masculine thing."
+    },
+    {
+      "prompt": "Czekam ___ wyniki. (I'm waiting for the results)",
+      "choices": [
+        "na",
+        "do",
+        "o",
+        "z"
+      ],
+      "answer": "na",
+      "explain": "czekać chooses na + Accusative the way pomagać chooses the Dative. In Polish you wait ON something."
+    },
+    {
+      "prompt": "Czekam na ___. (I'm waiting for the tea)",
+      "choices": [
+        "herbatę",
+        "herbata",
+        "herbaty",
+        "herbat"
+      ],
+      "answer": "herbatę",
+      "explain": "Same case after czekam na as after idę na — the Accusative."
+    },
+    {
+      "prompt": "Kawa jest na ___. (the coffee is on the table)",
+      "choices": [
+        "stole",
+        "stół",
+        "biurku",
+        "ścianie"
+      ],
+      "answer": "stole",
+      "explain": "Here na is doing its old job — saying where something IS — so the Locative, stole. stół would be the Accusative, and nothing is moving."
+    },
+    {
+      "prompt": "Idę ___ pracy. (I'm going to work)",
+      "choices": [
+        "do",
+        "na",
+        "w",
+        "o"
+      ],
+      "answer": "do",
+      "explain": "The workplace is a place. Name the meeting instead and it is na spotkanie."
+    },
+    {
+      "prompt": "Czekam na ___. (I'm waiting for the prescription)",
+      "choices": [
+        "receptę",
+        "recepta",
+        "wyniki",
+        "kawę"
+      ],
+      "answer": "receptę",
+      "explain": "recepta is the dictionary form; after na it takes the Accusative -ę."
+    },
+    {
+      "prompt": "Technologia ma wpływ ___ środowisko. (an influence on the environment)",
+      "choices": [
+        "na",
+        "do",
+        "w",
+        "o"
+      ],
+      "answer": "na",
+      "explain": "mieć wpływ na is fixed. środowisko is neuter, so it does not change."
+    },
+    {
+      "prompt": "Idę ___ dworzec. (I'm going to the station)",
+      "choices": [
+        "na",
+        "do",
+        "w",
+        "z"
+      ],
+      "answer": "na",
+      "explain": "One of the handful of places that take na anyway. There is no way to work it out — it is learned."
+    },
+    {
+      "prompt": "Nie jadę autobusem, idę ___. (on foot)",
+      "choices": [
+        "pieszo",
+        "autobusem",
+        "samochodem",
+        "rowerem"
+      ],
+      "answer": "pieszo",
+      "explain": "The other three are Instrumentals — what you travel by. On foot there is nothing to travel by, so pieszo takes no case at all."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "on foot · one word, no preposition",
+      "mode": "full_word",
+      "answer": "pieszo",
+      "accepts": [
+        "pieszo"
+      ],
+      "explain": "No case. Nothing is being travelled by."
+    },
+    {
+      "prompt_en": "on foot · the phrase built with na",
+      "mode": "full_word",
+      "answer": "na piechotę",
+      "accepts": [
+        "na piechotę"
+      ],
+      "explain": "na + Accusative, learned whole — the noun inside it appears nowhere else."
+    },
+    {
+      "prompt_en": "czekać (to wait) → I am waiting",
+      "mode": "full_word",
+      "answer": "czekam",
+      "accepts": [
+        "czekam"
+      ],
+      "explain": "An ordinary -am verb. You have had the infinitive since A2 and never the first person."
+    },
+    {
+      "prompt_en": "I'm going out for a coffee.",
+      "mode": "cloze",
+      "frame": "Idę na ___.",
+      "answer": "kawę",
+      "accepts": [
+        "kawę"
+      ],
+      "explain": "The Accusative — the only place the case is visible."
+    },
+    {
+      "prompt_en": "I'm waiting for the results.",
+      "mode": "cloze",
+      "frame": "Czekam na ___.",
+      "answer": "wyniki",
+      "accepts": [
+        "wyniki"
+      ],
+      "explain": "A non-virile plural, so the Accusative is the same as the Nominative."
+    },
+    {
+      "prompt_en": "I'm going on holiday.",
+      "mode": "cloze",
+      "frame": "Jadę na ___.",
+      "answer": "wakacje",
+      "accepts": [
+        "wakacje"
+      ],
+      "explain": "A holiday is an event, so na — and wakacje does not change."
+    },
+    {
+      "prompt_en": "I'm going to the shop.",
+      "mode": "cloze",
+      "frame": "Idę ___ sklepu.",
+      "answer": "do",
+      "accepts": [
+        "do"
+      ],
+      "explain": "A place, so do and the Genitive. The blank is the decision this unit is about."
+    },
+    {
+      "prompt_en": "Technology has an influence on the environment.",
+      "mode": "cloze",
+      "frame": "Technologia ma wpływ na ___.",
+      "answer": "środowisko",
+      "accepts": [
+        "środowisko"
+      ],
+      "explain": "Neuter, so the Accusative is the dictionary form."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I'm going to the park for a walk.",
+      "answer": "Idę na spacer do parku.",
+      "accepts": [
+        "Idę na spacer do parku.",
+        "Idę na spacer do parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is waiting for the results.",
+      "answer": "Mama czeka na wyniki.",
+      "accepts": [
+        "Mama czeka na wyniki.",
+        "Mama czeka na wyniki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is going to the concert.",
+      "answer": "Tata idzie na koncert.",
+      "accepts": [
+        "Tata idzie na koncert.",
+        "Tata idzie na koncert"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are going in to dinner.",
+      "answer": "Dzieci idą na obiad.",
+      "accepts": [
+        "Dzieci idą na obiad.",
+        "Dzieci idą na obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm waiting for the bus at the station.",
+      "answer": "Czekam na autobus na dworcu.",
+      "accepts": [
+        "Czekam na autobus na dworcu.",
+        "Czekam na autobus na dworcu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Science has an influence on society.",
+      "answer": "Nauka ma wpływ na społeczeństwo.",
+      "accepts": [
+        "Nauka ma wpływ na społeczeństwo.",
+        "Nauka ma wpływ na społeczeństwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to the shop to do the shopping.",
+      "answer": "Idę do sklepu na zakupy.",
+      "accepts": [
+        "Idę do sklepu na zakupy.",
+        "Idę do sklepu na zakupy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is going on holiday.",
+      "answer": "Siostra jedzie na urlop.",
+      "accepts": [
+        "Siostra jedzie na urlop.",
+        "Siostra jedzie na urlop"
+      ]
+    },
+    {
+      "prompt_en": "Type: I walk to work.",
+      "answer": "Idę pieszo do pracy.",
+      "accepts": [
+        "Idę pieszo do pracy.",
+        "Idę pieszo do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students are going to the exam.",
+      "answer": "Studenci idą na egzamin.",
+      "accepts": [
+        "Studenci idą na egzamin.",
+        "Studenci idą na egzamin"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "na spacer",
+    "na czas",
+    "na szczęście",
+    "na stole",
+    "na biurku",
+    "na dworcu",
+    "spacer",
+    "czas",
+    "obiad",
+    "koncert",
+    "wakacje",
+    "urlop",
+    "zakupy",
+    "lekcje",
+    "spotkanie",
+    "egzamin",
+    "dworzec",
+    "rynek",
+    "autobus",
+    "autobusem",
+    "samochodem",
+    "rowerem",
+    "wyniki",
+    "pogotowie",
+    "recepta",
+    "receptę",
+    "kawa",
+    "kawę",
+    "kawy",
+    "kaw",
+    "herbata",
+    "herbatę",
+    "herbaty",
+    "herbat",
+    "stół",
+    "stole",
+    "biurku",
+    "ścianie",
+    "wpływ",
+    "technologia",
+    "środowisko",
+    "nauka",
+    "społeczeństwo",
+    "mama",
+    "tata",
+    "siostra",
+    "dzieci",
+    "studenci",
+    "książka",
+    "do sklepu",
+    "do domu",
+    "do pracy",
+    "do szkoły",
+    "do parku",
+    "idę",
+    "idzie",
+    "idą",
+    "jadę",
+    "jedzie",
+    "czeka",
+    "czekać",
+    "dzwonię",
+    "pomagać",
+    "mam",
+    "ma",
+    "jest",
+    "piję",
+    "lubię",
+    "nie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_na_acc",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
