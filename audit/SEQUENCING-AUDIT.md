@@ -1,4 +1,4 @@
-# Sequencing audit · 2026-08-06
+# Sequencing audit · 2026-08-07
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
