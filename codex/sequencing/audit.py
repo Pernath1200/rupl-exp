@@ -175,6 +175,7 @@ STRUCTURE_CATALOGUE = {
     "powinien_byl",
     "stac_sie",
     "time_minutes",
+    "dates_full",
 }
 
 GLUE_LEMMAS = {

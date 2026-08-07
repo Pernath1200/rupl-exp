@@ -4509,18 +4509,19 @@
     {
       "id": "c1_dates_full",
       "domain": "grammar",
-      "label": "Piętnastego stycznia",
+      "label": "Pierwszego stycznia",
       "label_en": "Full dates",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 8, unit 2. Inbox item 20's second half: full dates with month forms (pietnastego stycznia) - a2_ordinals_time's and a2_celebrations' shared fence. Month Genitives (stycznia, lutego, marca, maja...) all verified NEW. Rides the ordinals a2_ordinals_time already owns. FOURTH item on the spine O1 trim list (folds into c1_time_minutes).",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_dates_full.json"
     },
     {
       "id": "c1_collective_num",

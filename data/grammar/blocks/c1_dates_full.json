@@ -1,0 +1,775 @@
+{
+  "id": "c1_dates_full",
+  "title": "Pierwszego stycznia",
+  "title_en": "Full dates",
+  "level": "C1",
+  "tree_node": "c1_dates_full",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 8 unit 2. Inbox item 20's second half - a2_ordinals_time's and a2_celebrations' shared fence. ONE NEW THING: the date shape is TWO GENITIVES and NO preposition (pierwszego stycznia), against English 'on the first OF January'. The day half is not new machinery at all - ordinals are adjectives and b2_adj_gen [137] owns -ego, so pierwszy -> pierwszego is a rule the learner has had for a level; only the twelve surface forms are new strings. The month half IS the unit's real content and it is a CLOSED SET OF WHOLE FORMS, the gen_pl_full idiom: several months drop or change a vowel (marzec->marca, kwiecien->kwietnia, wrzesien->wrzesnia) and luty is an ADJECTIVE, so it makes lutego. Nothing here is derived. THE UNIT STOPS AT THE TWELFTH OF THE MONTH, and this is the run's loudest finding: C1-SPINE's own example for this node is 'pietnastego stycznia', and it is NOT BUILDABLE at this path position - a2_ordinals_time [90] taught ordinals 1st-12th ONLY, so pietnasty, dwudziesty and trzydziesty are all NEW and none of them is owned. Teaching the 13th-31st needs seven teens ordinals plus dwudziesty/trzydziesty plus their Genitives plus the compound rule (dwudziestego piatego - BOTH words decline), which is roughly eighteen further strings and a second formation rule on top of twelve irregular month forms. AGENTS' load-splitting rule forbids that in one unit, so production is fenced to days 1-12 and slide 4 hands the higher days over as RECOGNITION ONLY - the rule named, four rows shown, tagged in teaches_lemmas so nothing leaks past the auditor, and never demanded in match, quiz, Pisanie or Uzycie. THE COST IS REAL AND IT IS JAMES'S CALL: the course cannot say Boze Narodzenie's own date (dwudziestego piatego grudnia), and slide 4 says so out loud rather than hiding it. Cheapest fix if he wants it closed: c1_quantifiers [229], the last numeral unit on the path, could absorb the teens ordinals - see C1-DIGEST batch 15. ALSO FENCED, logged not forgotten: years (roku is NEW), 'w styczniu' (the Locative month, styczniu NEW), and 'Ktorego?' as the date question - ktorego is TAUGHT (b1_ktory_cases [121]) but ONLY as a relative pronoun, so asking a date with it would be a homograph sting for no gain; the unit asks with Kiedy?, which is owned. ANCHORS, never re-taught: urodziny, rocznica, slub, kartke (a2_celebrations [91]), and every month nominative (leaf_time_cal_a1 [37]).",
+  "focus_structures": [
+    "dates_full"
+  ],
+  "teaches_structures": [
+    "dates_full"
+  ],
+  "teaches_lemmas": [
+    "stycznia",
+    "lutego",
+    "marca",
+    "kwietnia",
+    "maja",
+    "czerwca",
+    "lipca",
+    "sierpnia",
+    "września",
+    "października",
+    "listopada",
+    "grudnia",
+    "pierwszego",
+    "drugiego",
+    "trzeciego",
+    "czwartego",
+    "piątego",
+    "szóstego",
+    "siódmego",
+    "ósmego",
+    "dziewiątego",
+    "dziesiątego",
+    "jedenastego",
+    "dwunastego",
+    "trzynasty",
+    "trzynastego",
+    "piętnasty",
+    "piętnastego",
+    "dwudziesty",
+    "dwudziestego",
+    "trzydziesty",
+    "trzydziestego"
+  ],
+  "uses_structures": [
+    "dates_full",
+    "ordinals_time",
+    "adj_gen",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "questions2",
+    "prep_do_gen",
+    "motion_chunk",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "A date is two Genitives, and nothing in front",
+      "title_pl": "Pierwszego stycznia · trzeciego maja",
+      "body": "English says on the first of January — a little word at each end. Polish says pierwszego stycznia and nothing else: the day and the month, both in the Genitive, standing on their own.\n\nThe day half is not new machinery. Ordinals are adjectives, and you have owned the masculine Genitive -ego since dobrego and nowego. Pierwszy → pierwszego, exactly the same swap. Behind it there is an unspoken dnia, of the day, which is why the ordinal is masculine and Genitive — but nobody says that word, so neither will you.\n\nThe month half has to be learned whole, and that is the next slide.",
+      "body_pl": "Pierwszego stycznia. Trzeciego maja. Ósmego marca.",
+      "table": {
+        "headers": [
+          "Day",
+          "Ordinal — already yours",
+          "In a date",
+          "English"
+        ],
+        "rows": [
+          [
+            "1",
+            "pierwszy",
+            "pierwszego",
+            "the 1st"
+          ],
+          [
+            "2",
+            "drugi",
+            "drugiego",
+            "the 2nd"
+          ],
+          [
+            "3",
+            "trzeci",
+            "trzeciego",
+            "the 3rd"
+          ],
+          [
+            "4",
+            "czwarty",
+            "czwartego",
+            "the 4th"
+          ],
+          [
+            "5",
+            "piąty",
+            "piątego",
+            "the 5th"
+          ],
+          [
+            "6",
+            "szósty",
+            "szóstego",
+            "the 6th"
+          ],
+          [
+            "7",
+            "siódmy",
+            "siódmego",
+            "the 7th"
+          ],
+          [
+            "8",
+            "ósmy",
+            "ósmego",
+            "the 8th"
+          ],
+          [
+            "9",
+            "dziewiąty",
+            "dziewiątego",
+            "the 9th"
+          ],
+          [
+            "10",
+            "dziesiąty",
+            "dziesiątego",
+            "the 10th"
+          ],
+          [
+            "11",
+            "jedenasty",
+            "jedenastego",
+            "the 11th"
+          ],
+          [
+            "12",
+            "dwunasty",
+            "dwunastego",
+            "the 12th"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The twelve months, in the shape a date needs",
+      "title_pl": "Styczeń → stycznia · luty → lutego",
+      "body": "This is the part you cannot work out, so take it whole.\n\nMost months simply add -a, but several lose or change a vowel on the way — marzec loses its e, kwiecień and wrzesień change theirs, grudzień and sierpień do the same. That is the ordinary Polish habit you already met in books and windows: książek, okien.\n\nLuty is the odd one and it is odd for an interesting reason: it is not a noun at all but an old adjective, meaning bitter or fierce, and adjectives make their Genitive in -ego. So February is lutego.",
+      "body_pl": "Styczeń → stycznia. Marzec → marca. Wrzesień → września. Luty → lutego.",
+      "table": {
+        "headers": [
+          "Month",
+          "In a date",
+          "English"
+        ],
+        "rows": [
+          [
+            "styczeń",
+            "stycznia",
+            "January"
+          ],
+          [
+            "luty",
+            "lutego",
+            "February — an adjective, so -ego"
+          ],
+          [
+            "marzec",
+            "marca",
+            "March — the e drops out"
+          ],
+          [
+            "kwiecień",
+            "kwietnia",
+            "April"
+          ],
+          [
+            "maj",
+            "maja",
+            "May"
+          ],
+          [
+            "czerwiec",
+            "czerwca",
+            "June — the e drops out"
+          ],
+          [
+            "lipiec",
+            "lipca",
+            "July — the e drops out"
+          ],
+          [
+            "sierpień",
+            "sierpnia",
+            "August"
+          ],
+          [
+            "wrzesień",
+            "września",
+            "September"
+          ],
+          [
+            "październik",
+            "października",
+            "October"
+          ],
+          [
+            "listopad",
+            "listopada",
+            "November"
+          ],
+          [
+            "grudzień",
+            "grudnia",
+            "December"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Putting a date into a sentence",
+      "title_pl": "Mam urodziny piątego lipca.",
+      "body": "The date sits in the sentence exactly where a clock phrase sits — at the end, with nothing in front of it and nothing else moving.\n\nAsk with Kiedy?, which you have had since A2: Kiedy masz urodziny? — Piątego lipca.\n\nTrzeciego maja and pierwszego września are worth knowing as dates rather than as exercises. The third of May is Poland's constitution day, and the first of September is the day every Polish school year begins.",
+      "body_pl": "Kiedy masz urodziny? — Piątego lipca.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Mam urodziny piątego lipca.",
+            "My birthday is on the fifth of July."
+          ],
+          [
+            "Ślub jest dziesiątego czerwca.",
+            "The wedding is on the tenth of June."
+          ],
+          [
+            "Rocznica jest ósmego marca.",
+            "The anniversary is on the eighth of March."
+          ],
+          [
+            "Kiedy masz urodziny?",
+            "When is your birthday?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The meeting is on the second of February.",
+          "pl": "Spotkanie jest drugiego lutego."
+        },
+        {
+          "en": "The shop is closed on the first of January.",
+          "pl": "Sklep jest zamknięty pierwszego stycznia."
+        }
+      ]
+    },
+    {
+      "title": "Past the twelfth — read these, do not reach for them",
+      "title_pl": "Trzynastego · dwudziestego · trzydziestego",
+      "body": "An honest limit, said plainly rather than hidden.\n\nThe shape never changes — day in the Genitive, month in the Genitive. But the ordinals above twelve were never taught in this course, so you own the pattern without owning the words. The pattern itself is small: a cardinal ending in -naście makes an ordinal ending in -nasty, which is the swap you already saw in jedenaście → jedenasty; and dwadzieścia → dwudziesty makes the same dwu- change as dwanaście → dwunasty.\n\nFrom the twenty-first on, both words take the ending: dwudziestego piątego grudnia, the twenty-fifth of December. That is Christmas Day, and it is the clearest measure of where this unit stops.\n\nRead the four rows below. Nothing on this slide is asked of you anywhere in the unit.",
+      "body_pl": "Trzynaście → trzynasty → trzynastego.",
+      "table": {
+        "headers": [
+          "Number",
+          "Cardinal — yours",
+          "Ordinal",
+          "In a date"
+        ],
+        "rows": [
+          [
+            "13",
+            "trzynaście",
+            "trzynasty",
+            "trzynastego"
+          ],
+          [
+            "15",
+            "piętnaście",
+            "piętnasty",
+            "piętnastego"
+          ],
+          [
+            "20",
+            "dwadzieścia",
+            "dwudziesty",
+            "dwudziestego"
+          ],
+          [
+            "30",
+            "trzydzieści",
+            "trzydziesty",
+            "trzydziestego"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "January — in a date",
+      "pl": "stycznia"
+    },
+    {
+      "en": "February — in a date",
+      "pl": "lutego"
+    },
+    {
+      "en": "March — in a date",
+      "pl": "marca"
+    },
+    {
+      "en": "May — in a date",
+      "pl": "maja"
+    },
+    {
+      "en": "September — in a date",
+      "pl": "września"
+    },
+    {
+      "en": "October — in a date",
+      "pl": "października"
+    },
+    {
+      "en": "December — in a date",
+      "pl": "grudnia"
+    },
+    {
+      "en": "the 1st — in a date",
+      "pl": "pierwszego"
+    },
+    {
+      "en": "the 3rd — in a date",
+      "pl": "trzeciego"
+    },
+    {
+      "en": "the 8th — in a date",
+      "pl": "ósmego"
+    },
+    {
+      "en": "the 12th — in a date",
+      "pl": "dwunastego"
+    },
+    {
+      "en": "the third of May",
+      "pl": "trzeciego maja"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "the first of January →",
+      "choices": [
+        "pierwszego stycznia",
+        "pierwszy styczeń",
+        "pierwszego styczeń",
+        "pierwsza stycznia"
+      ],
+      "answer": "pierwszego stycznia",
+      "explain": "Both halves of a date are Genitive. Pierwszy styczeń is the naming form of each word — correct Polish for labelling the day on a calendar, but not for saying when something happens."
+    },
+    {
+      "prompt": "the second of February →",
+      "choices": [
+        "drugiego lutego",
+        "drugiego marca",
+        "drugiego stycznia",
+        "drugiego lipca"
+      ],
+      "answer": "drugiego lutego",
+      "explain": "Every choice is a real date. Luty is the adjective month, so its date form ends in -ego like an adjective."
+    },
+    {
+      "prompt": "Mam urodziny ___ maja. (on the 5th)",
+      "choices": [
+        "piątego",
+        "piąty",
+        "piąta",
+        "piątej"
+      ],
+      "answer": "piątego",
+      "explain": "The day is Genitive. Piąta is the hour and piątej is the form after o — neither one belongs in a date."
+    },
+    {
+      "prompt": "Ślub jest dziesiątego ___. (of June)",
+      "choices": [
+        "czerwca",
+        "czerwiec",
+        "lipca",
+        "marca"
+      ],
+      "answer": "czerwca",
+      "explain": "Czerwiec loses its e in the Genitive: czerwca. Lipca is July, the month after it."
+    },
+    {
+      "prompt": "the third of May →",
+      "choices": [
+        "trzeciego maja",
+        "trzeci maj",
+        "trzeciego maj",
+        "trzeciej maja"
+      ],
+      "answer": "trzeciego maja",
+      "explain": "Trzeciej is the clock form, from o trzeciej. A date wants -ego."
+    },
+    {
+      "prompt": "the first of September →",
+      "choices": [
+        "pierwszego września",
+        "pierwszego wrzesień",
+        "pierwszego października",
+        "drugiego września"
+      ],
+      "answer": "pierwszego września",
+      "explain": "Wrzesień changes its middle vowel as well as its ending: września. The first of September is the day the Polish school year starts."
+    },
+    {
+      "prompt": "the twelfth of November →",
+      "choices": [
+        "dwunastego listopada",
+        "dwunastej listopada",
+        "dwunastego listopad",
+        "jedenastego listopada"
+      ],
+      "answer": "dwunastego listopada",
+      "explain": "Listopad is one of the easy ones — it simply adds -a. The day is the -ego form, not the -ej clock form."
+    },
+    {
+      "prompt": "the ninth of April →",
+      "choices": [
+        "dziewiątego kwietnia",
+        "dziewiątego kwiecień",
+        "dziewiątej kwietnia",
+        "dziesiątego kwietnia"
+      ],
+      "answer": "dziewiątego kwietnia",
+      "explain": "Kwiecień turns its ie into ie plus -nia: kwietnia. Watch the last choice — it is the tenth, not the ninth."
+    },
+    {
+      "prompt": "Rocznica jest ___ marca. (on the 8th)",
+      "choices": [
+        "ósmego",
+        "ósmy",
+        "ósma",
+        "ósmej"
+      ],
+      "answer": "ósmego",
+      "explain": "Same swap every time: the ordinal you know, plus -ego."
+    },
+    {
+      "prompt": "The wedding is on the tenth of June. →",
+      "choices": [
+        "Ślub jest dziesiątego czerwca.",
+        "Ślub jest w dziesiątego czerwca.",
+        "Ślub jest o dziesiątego czerwca.",
+        "Ślub jest dziesiąty czerwiec."
+      ],
+      "answer": "Ślub jest dziesiątego czerwca.",
+      "explain": "No little word in front. English needs on and of; Polish puts both words in the Genitive and that does the whole job."
+    },
+    {
+      "prompt": "the sixth of December →",
+      "choices": [
+        "szóstego grudnia",
+        "szóstego grudzień",
+        "szóstego września",
+        "siódmego grudnia"
+      ],
+      "answer": "szóstego grudnia",
+      "explain": "Grudzień drops the ie: grudnia. The last choice is the seventh — one day out."
+    },
+    {
+      "prompt": "the eleventh of October →",
+      "choices": [
+        "jedenastego października",
+        "jedenastego październik",
+        "jedenastego sierpnia",
+        "dziesiątego października"
+      ],
+      "answer": "jedenastego października",
+      "explain": "Październik is long but regular — it just adds -a."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "the first of January",
+      "mode": "full_word",
+      "answer": "pierwszego stycznia",
+      "accepts": [
+        "pierwszego stycznia"
+      ],
+      "explain": "Day and month both Genitive, and nothing in front of either."
+    },
+    {
+      "prompt_en": "the third of May",
+      "mode": "full_word",
+      "answer": "trzeciego maja",
+      "accepts": [
+        "trzeciego maja"
+      ],
+      "explain": "Maj simply adds -a. This date is Poland's constitution day."
+    },
+    {
+      "prompt_en": "the eighth of March",
+      "mode": "full_word",
+      "answer": "ósmego marca",
+      "accepts": [
+        "ósmego marca"
+      ],
+      "explain": "Marzec loses its e and softens: marca."
+    },
+    {
+      "prompt_en": "the tenth of June",
+      "mode": "full_word",
+      "answer": "dziesiątego czerwca",
+      "accepts": [
+        "dziesiątego czerwca"
+      ]
+    },
+    {
+      "prompt_en": "the first of September",
+      "mode": "full_word",
+      "answer": "pierwszego września",
+      "accepts": [
+        "pierwszego września"
+      ]
+    },
+    {
+      "prompt_en": "the twelfth of November",
+      "mode": "full_word",
+      "answer": "dwunastego listopada",
+      "accepts": [
+        "dwunastego listopada"
+      ]
+    },
+    {
+      "prompt_en": "the second of February",
+      "mode": "full_word",
+      "answer": "drugiego lutego",
+      "accepts": [
+        "drugiego lutego"
+      ],
+      "explain": "The one month that is an adjective, so it takes the adjective ending twice over — drugiego lutego."
+    },
+    {
+      "prompt_en": "the ninth of April",
+      "mode": "full_word",
+      "answer": "dziewiątego kwietnia",
+      "accepts": [
+        "dziewiątego kwietnia"
+      ]
+    },
+    {
+      "prompt_en": "the seventh of July",
+      "mode": "full_word",
+      "answer": "siódmego lipca",
+      "accepts": [
+        "siódmego lipca"
+      ],
+      "explain": "Lipiec loses its e, the same way czerwiec and marzec do."
+    },
+    {
+      "prompt_en": "My birthday is on the fourth of August.",
+      "mode": "cloze",
+      "frame": "Mam urodziny ___ sierpnia.",
+      "answer": "czwartego",
+      "accepts": [
+        "czwartego"
+      ],
+      "explain": "Czwarty is yours already; the date wants it in the Genitive, so -ego."
+    },
+    {
+      "prompt_en": "The wedding is on the eleventh of October.",
+      "mode": "cloze",
+      "frame": "Ślub jest jedenastego ___.",
+      "answer": "października",
+      "accepts": [
+        "października"
+      ]
+    },
+    {
+      "prompt_en": "The meeting is on the sixth of December.",
+      "mode": "cloze",
+      "frame": "Spotkanie jest szóstego ___.",
+      "answer": "grudnia",
+      "accepts": [
+        "grudnia"
+      ],
+      "explain": "Grudzień drops the ie in the middle before the ending goes on."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: My birthday is on the fifth of July.",
+      "answer": "Mam urodziny piątego lipca.",
+      "accepts": [
+        "Mam urodziny piątego lipca.",
+        "Mam urodziny piątego lipca"
+      ],
+      "explain": "Urodziny is a plural-only noun, so it never changes shape here — the date does all the work."
+    },
+    {
+      "prompt_en": "Type: Grandma's birthday is on the fourth of September.",
+      "answer": "Babcia ma urodziny czwartego września.",
+      "accepts": [
+        "Babcia ma urodziny czwartego września.",
+        "Babcia ma urodziny czwartego września"
+      ]
+    },
+    {
+      "prompt_en": "Type: The wedding is on the tenth of June.",
+      "answer": "Ślub jest dziesiątego czerwca.",
+      "accepts": [
+        "Ślub jest dziesiątego czerwca.",
+        "Ślub jest dziesiątego czerwca"
+      ]
+    },
+    {
+      "prompt_en": "Type: The anniversary is on the eighth of March.",
+      "answer": "Rocznica jest ósmego marca.",
+      "accepts": [
+        "Rocznica jest ósmego marca.",
+        "Rocznica jest ósmego marca"
+      ]
+    },
+    {
+      "prompt_en": "Type: The meeting is on the second of February.",
+      "answer": "Spotkanie jest drugiego lutego.",
+      "accepts": [
+        "Spotkanie jest drugiego lutego.",
+        "Spotkanie jest drugiego lutego"
+      ]
+    },
+    {
+      "prompt_en": "Type: The match is on the sixth of April.",
+      "answer": "Mecz jest szóstego kwietnia.",
+      "accepts": [
+        "Mecz jest szóstego kwietnia.",
+        "Mecz jest szóstego kwietnia"
+      ]
+    },
+    {
+      "prompt_en": "Type: The concert is on the eleventh of August.",
+      "answer": "Koncert jest jedenastego sierpnia.",
+      "accepts": [
+        "Koncert jest jedenastego sierpnia.",
+        "Koncert jest jedenastego sierpnia"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad's birthday is on the first of December.",
+      "answer": "Tata ma urodziny pierwszego grudnia.",
+      "accepts": [
+        "Tata ma urodziny pierwszego grudnia.",
+        "Tata ma urodziny pierwszego grudnia"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming home on the seventh of January.",
+      "answer": "Wracam do domu siódmego stycznia.",
+      "accepts": [
+        "Wracam do domu siódmego stycznia.",
+        "Wracam do domu siódmego stycznia"
+      ],
+      "explain": "Two Genitives of different kinds in one sentence: do domu is where, siódmego stycznia is when."
+    },
+    {
+      "prompt_en": "Type: The film is on the ninth of October.",
+      "answer": "Film jest dziewiątego października.",
+      "accepts": [
+        "Film jest dziewiątego października.",
+        "Film jest dziewiątego października"
+      ]
+    },
+    {
+      "prompt_en": "Type: The exam is on the twelfth of November.",
+      "answer": "Egzamin jest dwunastego listopada.",
+      "accepts": [
+        "Egzamin jest dwunastego listopada.",
+        "Egzamin jest dwunastego listopada"
+      ]
+    },
+    {
+      "prompt_en": "Type: The shop is closed on the first of January.",
+      "answer": "Sklep jest zamknięty pierwszego stycznia.",
+      "accepts": [
+        "Sklep jest zamknięty pierwszego stycznia.",
+        "Sklep jest zamknięty pierwszego stycznia"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "styczeń",
+    "luty",
+    "marzec",
+    "kwiecień",
+    "maj",
+    "czerwiec",
+    "lipiec",
+    "sierpień",
+    "wrzesień",
+    "październik",
+    "listopad",
+    "grudzień",
+    "pierwszy",
+    "drugi",
+    "trzeci",
+    "czwarty",
+    "piąty",
+    "szósty",
+    "siódmy",
+    "ósmy",
+    "dziewiąty",
+    "dziesiąty",
+    "jedenasty",
+    "dwunasty",
+    "trzeciej",
+    "dwunastej",
+    "piąta",
+    "pierwsza",
+    "trzynaście",
+    "piętnaście",
+    "dwadzieścia",
+    "trzydzieści",
+    "jedenaście",
+    "dwanaście",
+    "dobrego",
+    "nowego",
+    "książek",
+    "okien",
+    "urodziny",
+    "rocznica",
+    "ślub",
+    "kiedy",
+    "mam",
+    "masz",
+    "ma",
+    "jest",
+    "wracam",
+    "do domu",
+    "zamknięty",
+    "sklep",
+    "spotkanie",
+    "mecz",
+    "koncert",
+    "film",
+    "egzamin",
+    "babcia",
+    "tata"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_dates_full",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
