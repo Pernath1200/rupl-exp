@@ -631,7 +631,9 @@
         "— Słucham? — Dzień dobry. Czy mogę rozmawiać z mamą?",
         "Słucham? Dzień dobry. Czy mogę rozmawiać z mamą?",
         "Słucham? Dzień dobry. Czy mogę rozmawiać z mamą",
-        "- Słucham? - Dzień dobry. Czy mogę rozmawiać z mamą?"
+        "- Słucham? - Dzień dobry. Czy mogę rozmawiać z mamą?",
+        "— Słucham? — Dzień dobry. Mogę rozmawiać z mamą?",
+        "— Słucham? — Dzień dobry. Mogę rozmawiać z mamą"
       ],
       "explain": "Słucham? answers the phone, then the real greeting follows. Poles do it in that order and it sounds odd the other way round."
     },
@@ -661,7 +663,9 @@
       "accepts": [
         "Dzień dobry. Czy mogę rozmawiać z bratem?",
         "Dzień dobry. Czy mogę rozmawiać z bratem",
-        "Dzień dobry, czy mogę rozmawiać z bratem?"
+        "Dzień dobry, czy mogę rozmawiać z bratem?",
+        "Dzień dobry. Mogę rozmawiać z bratem?",
+        "Dzień dobry. Mogę rozmawiać z bratem"
       ],
       "explain": "Brat is masculine, so after z it takes -em: z bratem. The feminine words in this unit all take -ą."
     },

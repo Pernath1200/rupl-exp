@@ -1,625 +1,635 @@
 {
- "id": "c1_existential",
- "title": "Jest kawa · nie ma kawy",
- "title_en": "There is, there was, there will be",
- "level": "C1",
- "tree_node": "c1_existential",
- "default_direction": "en_to_pl",
- "kind": "morphology",
- "type": {
-  "mode": "full_word"
- },
- "check": {
-  "sequence": [
-   "match",
-   "quiz"
-  ]
- },
- "note": "C1 Block 1, unit 1 — the level opens on the cheapest high-value unit it has, exactly as B2 opened on b2_copular_future. ZERO NEW LEMMAS and teaches_lemmas is deliberately empty (the b2_copular_future / b2_passive / adj_gen convention): jest/są since a1_hello, był/była/było/były since a2_past_byc, będzie/będą since a2_bedzie, nie ma since a1_negation, and every Genitive used here since a1_gen_endings, a2_gen_pl and b2_gen_pl_full.\n\nPAYS TWO EXPLICIT FENCES, both logged by their own packs. b2_copular_future: 'the plain EXISTENTIAL future (Będzie kawa) is fenced… it is the twin of the negative above and they are not worth separating.' And its sibling, the negated future nie będzie kawy, which the same note deferred to b2_neg_gen — which then taught the Genitive of negation off a transitive verb and never moved nie ma out of the present at all. Both twins land here together, which is why they are worth one unit and not two.\n\nTHE ONE FACT, and it is an asymmetry rather than a paradigm: the POSITIVE existential has an ordinary Nominative subject, so być agrees with it in all four shapes (Był chleb / Była kawa / Było mleko / Były gazety) exactly as it does in Tata był w domu; the NEGATIVE existential has NO SUBJECT AT ALL, so there is nothing to agree with — it is one frozen form in each tense (nie ma / nie było / nie będzie) whatever the gender and however many there are, with the thing behind it in the Genitive. Slide 4 puts the two columns side by side because the contrast IS the content.\n\nANCHORS VERIFIED, NOT ASSUMED. The fronted place phrase is amply precedented and was checked rather than trusted: W szkole były dzieci (a2_family2), W parku były grzyby (a2_nature2), W lodówce jest mleko (a2_house), W sklepie nie ma gazet (a2_gen_pl), W sklepie nie ma mleka i nie ma chleba (b2_neg_gen). So neither the inversion nor the Genitive plural after nie ma is new here — a2_gen_pl already shipped the plural negative, which is why the plural rows in this unit read as recognition of something owned rather than as a second system.\n\nHOMOGRAPH CATCH THAT CHANGED THE UNIT: książki is TAUGHT ONLY AS A GENITIVE SINGULAR (a1_gen_ki [39], a1_negation [40]) and is NOT owned as a nominative plural, so the natural English 'there were books' cannot be built and appears nowhere. gazety (a2_plural_nom [55]) is the plural used throughout instead, in precisely the job that pack taught it in, with gazet (a2_gen_pl [58]) as its Genitive. This is the AGENTS homograph rule doing real work: the auditor would have passed Były książki without a murmur.\n\nDISTRACTORS are taught words in the wrong slot, never fabricated non-words (the b1_imperative_rule convention): Był kawa / Było kawa / Nie była kawy / Nie są gazety are ungrammatical strings built only of pool-legal forms, and each is explained rather than left to sting. Two quiz items discriminate by TENSE alone (all four choices grammatical, one right) so the board is not only about agreement.\n\nFENCED, deliberately: no plural adjectives anywhere (Block 2 has not happened — the standing C1 fence on -ych/-ym/-ymi); no counted subjects (W domu było pięć okien is held by b2_num_subject and b2_plural_gym for c1_word_order); no na + Accusative (na obiad drafted and cut — c1_przez/c1_na_acc own that governor); książki in any slot; and no cukru/soku/samochodu, all verified NEW by b2_neg_gen and still absent.\n\nPISANIE: eleven items, every one a minimal pattern unit of two or three words with no bolted-on part, so all are typed whole under the James 2026-08-06 cap and its refinement — the b1_wrapup 'Planuję spotkanie.' precedent. No composed sentence is typed anywhere; nothing here belongs in the repair queue.",
- "focus_structures": [
-  "existential_tense"
- ],
- "teaches_structures": [
-  "existential_tense"
- ],
- "teaches_lemmas": [],
- "uses_structures": [
-  "existential_tense",
-  "existential_jest",
-  "negation",
-  "neg_gen",
-  "past_byc",
-  "bedzie",
-  "copular_future",
-  "byc_present",
-  "plural_nom",
-  "gen_endings",
-  "gen_pl",
-  "gen_pl_full",
-  "prep_w_loc",
-  "time_past_chunk",
-  "conjunctions"
- ],
- "intro": [
-  {
-   "title": "A frame you have had since A1 — never yet moved out of the present",
-   "title_pl": "Jest kawa. · Była kawa. · Będzie kawa.",
-   "body": "You have been saying Jest kawa since the first weeks, and Nie ma kawy almost as long. Neither sentence has ever been put into the past or the future. Both go there with verbs you already conjugate — but the two halves behave differently, and that difference is this unit.",
-   "body_pl": "Jest kawa. → Była kawa. → Będzie kawa.",
-   "table": {
-    "headers": [
-     "When",
-     "There is coffee",
-     "There is no coffee"
-    ],
-    "rows": [
-     [
-      "teraz",
-      "Jest kawa.",
-      "Nie ma kawy."
-     ],
-     [
-      "wczoraj",
-      "Była kawa.",
-      "Nie było kawy."
-     ],
-     [
-      "jutro",
-      "Będzie kawa.",
-      "Nie będzie kawy."
-     ]
+  "id": "c1_existential",
+  "title": "Jest kawa · nie ma kawy",
+  "title_en": "There is, there was, there will be",
+  "level": "C1",
+  "tree_node": "c1_existential",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
     ]
-   },
-   "examples": [
+  },
+  "note": "C1 Block 1, unit 1 — the level opens on the cheapest high-value unit it has, exactly as B2 opened on b2_copular_future. ZERO NEW LEMMAS and teaches_lemmas is deliberately empty (the b2_copular_future / b2_passive / adj_gen convention): jest/są since a1_hello, był/była/było/były since a2_past_byc, będzie/będą since a2_bedzie, nie ma since a1_negation, and every Genitive used here since a1_gen_endings, a2_gen_pl and b2_gen_pl_full.\n\nPAYS TWO EXPLICIT FENCES, both logged by their own packs. b2_copular_future: 'the plain EXISTENTIAL future (Będzie kawa) is fenced… it is the twin of the negative above and they are not worth separating.' And its sibling, the negated future nie będzie kawy, which the same note deferred to b2_neg_gen — which then taught the Genitive of negation off a transitive verb and never moved nie ma out of the present at all. Both twins land here together, which is why they are worth one unit and not two.\n\nTHE ONE FACT, and it is an asymmetry rather than a paradigm: the POSITIVE existential has an ordinary Nominative subject, so być agrees with it in all four shapes (Był chleb / Była kawa / Było mleko / Były gazety) exactly as it does in Tata był w domu; the NEGATIVE existential has NO SUBJECT AT ALL, so there is nothing to agree with — it is one frozen form in each tense (nie ma / nie było / nie będzie) whatever the gender and however many there are, with the thing behind it in the Genitive. Slide 4 puts the two columns side by side because the contrast IS the content.\n\nANCHORS VERIFIED, NOT ASSUMED. The fronted place phrase is amply precedented and was checked rather than trusted: W szkole były dzieci (a2_family2), W parku były grzyby (a2_nature2), W lodówce jest mleko (a2_house), W sklepie nie ma gazet (a2_gen_pl), W sklepie nie ma mleka i nie ma chleba (b2_neg_gen). So neither the inversion nor the Genitive plural after nie ma is new here — a2_gen_pl already shipped the plural negative, which is why the plural rows in this unit read as recognition of something owned rather than as a second system.\n\nHOMOGRAPH CATCH THAT CHANGED THE UNIT: książki is TAUGHT ONLY AS A GENITIVE SINGULAR (a1_gen_ki [39], a1_negation [40]) and is NOT owned as a nominative plural, so the natural English 'there were books' cannot be built and appears nowhere. gazety (a2_plural_nom [55]) is the plural used throughout instead, in precisely the job that pack taught it in, with gazet (a2_gen_pl [58]) as its Genitive. This is the AGENTS homograph rule doing real work: the auditor would have passed Były książki without a murmur.\n\nDISTRACTORS are taught words in the wrong slot, never fabricated non-words (the b1_imperative_rule convention): Był kawa / Było kawa / Nie była kawy / Nie są gazety are ungrammatical strings built only of pool-legal forms, and each is explained rather than left to sting. Two quiz items discriminate by TENSE alone (all four choices grammatical, one right) so the board is not only about agreement.\n\nFENCED, deliberately: no plural adjectives anywhere (Block 2 has not happened — the standing C1 fence on -ych/-ym/-ymi); no counted subjects (W domu było pięć okien is held by b2_num_subject and b2_plural_gym for c1_word_order); no na + Accusative (na obiad drafted and cut — c1_przez/c1_na_acc own that governor); książki in any slot; and no cukru/soku/samochodu, all verified NEW by b2_neg_gen and still absent.\n\nPISANIE: eleven items, every one a minimal pattern unit of two or three words with no bolted-on part, so all are typed whole under the James 2026-08-06 cap and its refinement — the b1_wrapup 'Planuję spotkanie.' precedent. No composed sentence is typed anywhere; nothing here belongs in the repair queue.",
+  "focus_structures": [
+    "existential_tense"
+  ],
+  "teaches_structures": [
+    "existential_tense"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "existential_tense",
+    "existential_jest",
+    "negation",
+    "neg_gen",
+    "past_byc",
+    "bedzie",
+    "copular_future",
+    "byc_present",
+    "plural_nom",
+    "gen_endings",
+    "gen_pl",
+    "gen_pl_full",
+    "prep_w_loc",
+    "time_past_chunk",
+    "conjunctions"
+  ],
+  "intro": [
     {
-     "en": "There was coffee.",
-     "pl": "Była kawa."
+      "title": "A frame you have had since A1 — never yet moved out of the present",
+      "title_pl": "Jest kawa. · Była kawa. · Będzie kawa.",
+      "body": "You have been saying Jest kawa since the first weeks, and Nie ma kawy almost as long. Neither sentence has ever been put into the past or the future. Both go there with verbs you already conjugate — but the two halves behave differently, and that difference is this unit.",
+      "body_pl": "Jest kawa. → Była kawa. → Będzie kawa.",
+      "table": {
+        "headers": [
+          "When",
+          "There is coffee",
+          "There is no coffee"
+        ],
+        "rows": [
+          [
+            "teraz",
+            "Jest kawa.",
+            "Nie ma kawy."
+          ],
+          [
+            "wczoraj",
+            "Była kawa.",
+            "Nie było kawy."
+          ],
+          [
+            "jutro",
+            "Będzie kawa.",
+            "Nie będzie kawy."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "There was coffee.",
+          "pl": "Była kawa."
+        },
+        {
+          "en": "There will be no coffee.",
+          "pl": "Nie będzie kawy."
+        }
+      ]
     },
     {
-     "en": "There will be no coffee.",
-     "pl": "Nie będzie kawy."
+      "title": "The positive half agrees — the thing is an ordinary subject",
+      "title_pl": "Był chleb. · Była kawa. · Było mleko. · Były gazety.",
+      "body": "In the positive sentence the thing is a subject in the Nominative, and być agrees with it exactly as it does in Tata był w domu. Four shapes in the past, because that is how many the past of być has. In the future there are only two, because będzie and będą are all the future has.",
+      "body_pl": "mianownik — chleb, kawa, mleko, gazety",
+      "table": {
+        "headers": [
+          "The thing",
+          "Past",
+          "Future"
+        ],
+        "rows": [
+          [
+            "chleb (m)",
+            "Był chleb.",
+            "Będzie chleb."
+          ],
+          [
+            "kawa (f)",
+            "Była kawa.",
+            "Będzie kawa."
+          ],
+          [
+            "mleko (n)",
+            "Było mleko.",
+            "Będzie mleko."
+          ],
+          [
+            "gazety (pl)",
+            "Były gazety.",
+            "Będą gazety."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "There were newspapers in the shop.",
+          "pl": "W sklepie były gazety."
+        },
+        {
+          "en": "There will be soup at home.",
+          "pl": "W domu będzie zupa."
+        }
+      ]
+    },
+    {
+      "title": "The negative half has no subject at all",
+      "title_pl": "Nie ma · nie było · nie będzie",
+      "body": "Nie ma never changed for you in the present, and this is why: there is nothing in the sentence for it to agree with. The thing is not the subject — it is in the Genitive, behind the verb. The past and the future work the same way, one frozen form each, whatever the gender and however many there are.",
+      "body_pl": "dopełniacz — kawy, chleba, mleka, gazet",
+      "table": {
+        "headers": [
+          "The thing",
+          "Present",
+          "Past",
+          "Future"
+        ],
+        "rows": [
+          [
+            "kawa",
+            "Nie ma kawy.",
+            "Nie było kawy.",
+            "Nie będzie kawy."
+          ],
+          [
+            "chleb",
+            "Nie ma chleba.",
+            "Nie było chleba.",
+            "Nie będzie chleba."
+          ],
+          [
+            "mleko",
+            "Nie ma mleka.",
+            "Nie było mleka.",
+            "Nie będzie mleka."
+          ],
+          [
+            "gazety",
+            "Nie ma gazet.",
+            "Nie było gazet.",
+            "Nie będzie gazet."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One frame, two behaviours",
+      "title_pl": "Były gazety. · Nie było gazet.",
+      "body": "Side by side the asymmetry is the whole unit. The positive sentence has a subject, so the verb has four shapes to choose between. The negative sentence has none, so it has one. Turning a positive existential negative therefore does two things at once: it freezes the verb and it moves the thing into the Genitive.",
+      "table": {
+        "headers": [
+          "Positive — agrees",
+          "Negative — frozen"
+        ],
+        "rows": [
+          [
+            "Był chleb.",
+            "Nie było chleba."
+          ],
+          [
+            "Była kawa.",
+            "Nie było kawy."
+          ],
+          [
+            "Było mleko.",
+            "Nie było mleka."
+          ],
+          [
+            "Były gazety.",
+            "Nie było gazet."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "There was no time.",
+          "pl": "Nie było czasu."
+        },
+        {
+          "en": "There will be no problem.",
+          "pl": "Nie będzie problemu."
+        },
+        {
+          "en": "There is no milk in the fridge.",
+          "pl": "W lodówce nie ma mleka."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "title": "The positive half agrees — the thing is an ordinary subject",
-   "title_pl": "Był chleb. · Była kawa. · Było mleko. · Były gazety.",
-   "body": "In the positive sentence the thing is a subject in the Nominative, and być agrees with it exactly as it does in Tata był w domu. Four shapes in the past, because that is how many the past of być has. In the future there are only two, because będzie and będą are all the future has.",
-   "body_pl": "mianownik — chleb, kawa, mleko, gazety",
-   "table": {
-    "headers": [
-     "The thing",
-     "Past",
-     "Future"
-    ],
-    "rows": [
-     [
-      "chleb (m)",
-      "Był chleb.",
-      "Będzie chleb."
-     ],
-     [
-      "kawa (f)",
-      "Była kawa.",
-      "Będzie kawa."
-     ],
-     [
-      "mleko (n)",
-      "Było mleko.",
-      "Będzie mleko."
-     ],
-     [
-      "gazety (pl)",
-      "Były gazety.",
-      "Będą gazety."
-     ]
-    ]
-   },
-   "examples": [
+  ],
+  "match": [
     {
-     "en": "There were newspapers in the shop.",
-     "pl": "W sklepie były gazety."
+      "en": "There is coffee.",
+      "pl": "Jest kawa."
     },
     {
-     "en": "There will be soup at home.",
-     "pl": "W domu będzie zupa."
+      "en": "There are newspapers.",
+      "pl": "Są gazety."
+    },
+    {
+      "en": "There was bread.",
+      "pl": "Był chleb."
+    },
+    {
+      "en": "There was coffee.",
+      "pl": "Była kawa."
+    },
+    {
+      "en": "There was milk.",
+      "pl": "Było mleko."
+    },
+    {
+      "en": "There were newspapers.",
+      "pl": "Były gazety."
+    },
+    {
+      "en": "There will be coffee.",
+      "pl": "Będzie kawa."
+    },
+    {
+      "en": "There will be newspapers.",
+      "pl": "Będą gazety."
+    },
+    {
+      "en": "There is no coffee.",
+      "pl": "Nie ma kawy."
+    },
+    {
+      "en": "There are no newspapers.",
+      "pl": "Nie ma gazet."
+    },
+    {
+      "en": "There was no milk.",
+      "pl": "Nie było mleka."
+    },
+    {
+      "en": "There will be no bread.",
+      "pl": "Nie będzie chleba."
     }
-   ]
-  },
-  {
-   "title": "The negative half has no subject at all",
-   "title_pl": "Nie ma · nie było · nie będzie",
-   "body": "Nie ma never changed for you in the present, and this is why: there is nothing in the sentence for it to agree with. The thing is not the subject — it is in the Genitive, behind the verb. The past and the future work the same way, one frozen form each, whatever the gender and however many there are.",
-   "body_pl": "dopełniacz — kawy, chleba, mleka, gazet",
-   "table": {
-    "headers": [
-     "The thing",
-     "Present",
-     "Past",
-     "Future"
-    ],
-    "rows": [
-     [
-      "kawa",
-      "Nie ma kawy.",
-      "Nie było kawy.",
-      "Nie będzie kawy."
-     ],
-     [
-      "chleb",
-      "Nie ma chleba.",
-      "Nie było chleba.",
-      "Nie będzie chleba."
-     ],
-     [
-      "mleko",
-      "Nie ma mleka.",
-      "Nie było mleka.",
-      "Nie będzie mleka."
-     ],
-     [
-      "gazety",
-      "Nie ma gazet.",
-      "Nie było gazet.",
-      "Nie będzie gazet."
-     ]
-    ]
-   }
-  },
-  {
-   "title": "One frame, two behaviours",
-   "title_pl": "Były gazety. · Nie było gazet.",
-   "body": "Side by side the asymmetry is the whole unit. The positive sentence has a subject, so the verb has four shapes to choose between. The negative sentence has none, so it has one. Turning a positive existential negative therefore does two things at once: it freezes the verb and it moves the thing into the Genitive.",
-   "table": {
-    "headers": [
-     "Positive — agrees",
-     "Negative — frozen"
-    ],
-    "rows": [
-     [
-      "Był chleb.",
-      "Nie było chleba."
-     ],
-     [
-      "Była kawa.",
-      "Nie było kawy."
-     ],
-     [
-      "Było mleko.",
-      "Nie było mleka."
-     ],
-     [
-      "Były gazety.",
-      "Nie było gazet."
-     ]
-    ]
-   },
-   "examples": [
+  ],
+  "quiz": [
     {
-     "en": "There was no time.",
-     "pl": "Nie było czasu."
+      "prompt": "There was coffee. →",
+      "choices": [
+        "Była kawa.",
+        "Był kawa.",
+        "Było kawa.",
+        "Były kawa."
+      ],
+      "answer": "Była kawa.",
+      "explain": "kawa is the subject of this sentence and it is feminine, so być agrees with it — the same była as in Mama była w domu."
     },
     {
-     "en": "There will be no problem.",
-     "pl": "Nie będzie problemu."
+      "prompt": "There was no coffee. →",
+      "choices": [
+        "Nie było kawy.",
+        "Nie była kawy.",
+        "Nie było kawa.",
+        "Nie ma kawy."
+      ],
+      "answer": "Nie było kawy.",
+      "explain": "Two things at once. There is no subject here, so the verb cannot agree with anything and stays było; and the thing itself is in the Genitive — kawy, not kawa. Nie ma kawy is the same sentence in the present."
     },
     {
-     "en": "There is no milk in the fridge.",
-     "pl": "W lodówce nie ma mleka."
+      "prompt": "There was milk. →",
+      "choices": [
+        "Było mleko.",
+        "Był mleko.",
+        "Była mleko.",
+        "Nie było mleka."
+      ],
+      "answer": "Było mleko.",
+      "explain": "mleko is neuter and it is the subject, so the verb takes the neuter form. The last option is the negative of this sentence, and note what it does to the noun: mleko becomes mleka."
+    },
+    {
+      "prompt": "There were newspapers. →",
+      "choices": [
+        "Były gazety.",
+        "Było gazety.",
+        "Był gazety.",
+        "Będą gazety."
+      ],
+      "answer": "Były gazety.",
+      "explain": "gazety is a plural subject and nothing in it is a person, so the verb takes były — the same form as in W parku były grzyby."
+    },
+    {
+      "prompt": "There will be newspapers. →",
+      "choices": [
+        "Będą gazety.",
+        "Będzie gazety.",
+        "Były gazety.",
+        "Nie będzie gazet."
+      ],
+      "answer": "Będą gazety.",
+      "explain": "The future has only two shapes, będzie for one thing and będą for more than one. gazety is more than one, so będą."
+    },
+    {
+      "prompt": "There are no newspapers. →",
+      "choices": [
+        "Nie ma gazet.",
+        "Nie są gazety.",
+        "Nie było gazet.",
+        "Nie będzie gazet."
+      ],
+      "answer": "Nie ma gazet.",
+      "explain": "The negative existential is nie ma in the present whether the thing is one or many — the plural changes only the Genitive behind it, gazet. The other two are the same sentence in the past and in the future."
+    },
+    {
+      "prompt": "There is a problem. →",
+      "choices": [
+        "Jest problem.",
+        "Jest problemu.",
+        "Nie ma problemu.",
+        "Był problem."
+      ],
+      "answer": "Jest problem.",
+      "explain": "The positive existential leaves the thing in its plain Nominative form. Only the negative moves it into the Genitive, which is where problemu belongs."
+    },
+    {
+      "prompt": "There are newspapers. →",
+      "choices": [
+        "Są gazety.",
+        "Jest gazety.",
+        "Są gazet.",
+        "Były gazety."
+      ],
+      "answer": "Są gazety.",
+      "explain": "More than one thing, and the sentence is positive, so the subject stays in the Nominative and the verb agrees with it: są."
+    },
+    {
+      "prompt": "There will be no bread. →",
+      "choices": [
+        "Nie będzie chleba.",
+        "Nie będzie chleb.",
+        "Nie będą chleba.",
+        "Nie ma chleba."
+      ],
+      "answer": "Nie będzie chleba.",
+      "explain": "będzie never becomes będą in a negative existential, because there is no subject to make it plural. And chleb goes into the Genitive: chleba, the one masculine in this course that does not take -u."
+    },
+    {
+      "prompt": "Nie ___ czasu. (there was no)",
+      "choices": [
+        "było",
+        "była",
+        "był",
+        "były"
+      ],
+      "answer": "było",
+      "explain": "czas is masculine, and it makes no difference: the negative existential has nothing to agree with, so it is było here exactly as it is with a feminine kawa."
+    },
+    {
+      "prompt": "___ gazety. (there were)",
+      "choices": [
+        "Były",
+        "Było",
+        "Był",
+        "Będą"
+      ],
+      "answer": "Były",
+      "explain": "This one is positive, so the verb does agree — and gazety is plural. Będą would move it to the future."
+    },
+    {
+      "prompt": "There was no water in the shop. →",
+      "choices": [
+        "W sklepie nie było wody.",
+        "W sklepie nie była woda.",
+        "W sklepie nie ma wody.",
+        "W sklepie była woda."
+      ],
+      "answer": "W sklepie nie było wody.",
+      "explain": "Past, negative, so both halves move: było stays frozen whatever the thing is, and woda becomes wody."
     }
-   ]
-  }
- ],
- "match": [
-  {
-   "en": "There is coffee.",
-   "pl": "Jest kawa."
-  },
-  {
-   "en": "There are newspapers.",
-   "pl": "Są gazety."
-  },
-  {
-   "en": "There was bread.",
-   "pl": "Był chleb."
-  },
-  {
-   "en": "There was coffee.",
-   "pl": "Była kawa."
-  },
-  {
-   "en": "There was milk.",
-   "pl": "Było mleko."
-  },
-  {
-   "en": "There were newspapers.",
-   "pl": "Były gazety."
-  },
-  {
-   "en": "There will be coffee.",
-   "pl": "Będzie kawa."
-  },
-  {
-   "en": "There will be newspapers.",
-   "pl": "Będą gazety."
-  },
-  {
-   "en": "There is no coffee.",
-   "pl": "Nie ma kawy."
-  },
-  {
-   "en": "There are no newspapers.",
-   "pl": "Nie ma gazet."
-  },
-  {
-   "en": "There was no milk.",
-   "pl": "Nie było mleka."
-  },
-  {
-   "en": "There will be no bread.",
-   "pl": "Nie będzie chleba."
-  }
- ],
- "quiz": [
-  {
-   "prompt": "There was coffee. →",
-   "choices": [
-    "Była kawa.",
-    "Był kawa.",
-    "Było kawa.",
-    "Były kawa."
-   ],
-   "answer": "Była kawa.",
-   "explain": "kawa is the subject of this sentence and it is feminine, so być agrees with it — the same była as in Mama była w domu."
-  },
-  {
-   "prompt": "There was no coffee. →",
-   "choices": [
-    "Nie było kawy.",
-    "Nie była kawy.",
-    "Nie było kawa.",
-    "Nie ma kawy."
-   ],
-   "answer": "Nie było kawy.",
-   "explain": "Two things at once. There is no subject here, so the verb cannot agree with anything and stays było; and the thing itself is in the Genitive — kawy, not kawa. Nie ma kawy is the same sentence in the present."
-  },
-  {
-   "prompt": "There was milk. →",
-   "choices": [
-    "Było mleko.",
-    "Był mleko.",
-    "Była mleko.",
-    "Nie było mleka."
-   ],
-   "answer": "Było mleko.",
-   "explain": "mleko is neuter and it is the subject, so the verb takes the neuter form. The last option is the negative of this sentence, and note what it does to the noun: mleko becomes mleka."
-  },
-  {
-   "prompt": "There were newspapers. →",
-   "choices": [
-    "Były gazety.",
-    "Było gazety.",
-    "Był gazety.",
-    "Będą gazety."
-   ],
-   "answer": "Były gazety.",
-   "explain": "gazety is a plural subject and nothing in it is a person, so the verb takes były — the same form as in W parku były grzyby."
-  },
-  {
-   "prompt": "There will be newspapers. →",
-   "choices": [
-    "Będą gazety.",
-    "Będzie gazety.",
-    "Były gazety.",
-    "Nie będzie gazet."
-   ],
-   "answer": "Będą gazety.",
-   "explain": "The future has only two shapes, będzie for one thing and będą for more than one. gazety is more than one, so będą."
-  },
-  {
-   "prompt": "There are no newspapers. →",
-   "choices": [
-    "Nie ma gazet.",
-    "Nie są gazety.",
-    "Nie było gazet.",
-    "Nie będzie gazet."
-   ],
-   "answer": "Nie ma gazet.",
-   "explain": "The negative existential is nie ma in the present whether the thing is one or many — the plural changes only the Genitive behind it, gazet. The other two are the same sentence in the past and in the future."
-  },
-  {
-   "prompt": "There is a problem. →",
-   "choices": [
-    "Jest problem.",
-    "Jest problemu.",
-    "Nie ma problemu.",
-    "Był problem."
-   ],
-   "answer": "Jest problem.",
-   "explain": "The positive existential leaves the thing in its plain Nominative form. Only the negative moves it into the Genitive, which is where problemu belongs."
-  },
-  {
-   "prompt": "There are newspapers. →",
-   "choices": [
-    "Są gazety.",
-    "Jest gazety.",
-    "Są gazet.",
-    "Były gazety."
-   ],
-   "answer": "Są gazety.",
-   "explain": "More than one thing, and the sentence is positive, so the subject stays in the Nominative and the verb agrees with it: są."
-  },
-  {
-   "prompt": "There will be no bread. →",
-   "choices": [
-    "Nie będzie chleba.",
-    "Nie będzie chleb.",
-    "Nie będą chleba.",
-    "Nie ma chleba."
-   ],
-   "answer": "Nie będzie chleba.",
-   "explain": "będzie never becomes będą in a negative existential, because there is no subject to make it plural. And chleb goes into the Genitive: chleba, the one masculine in this course that does not take -u."
-  },
-  {
-   "prompt": "Nie ___ czasu. (there was no)",
-   "choices": [
-    "było",
-    "była",
+  ],
+  "type_items": [
+    {
+      "prompt_en": "There is coffee.",
+      "mode": "full_word",
+      "answer": "Jest kawa.",
+      "accepts": [
+        "Jest kawa.",
+        "Jest kawa"
+      ]
+    },
+    {
+      "prompt_en": "There are newspapers.",
+      "mode": "full_word",
+      "answer": "Są gazety.",
+      "accepts": [
+        "Są gazety.",
+        "Są gazety"
+      ]
+    },
+    {
+      "prompt_en": "There was bread.",
+      "mode": "full_word",
+      "answer": "Był chleb.",
+      "accepts": [
+        "Był chleb.",
+        "Był chleb"
+      ]
+    },
+    {
+      "prompt_en": "There was coffee.",
+      "mode": "full_word",
+      "answer": "Była kawa.",
+      "accepts": [
+        "Była kawa.",
+        "Była kawa"
+      ]
+    },
+    {
+      "prompt_en": "There was milk.",
+      "mode": "full_word",
+      "answer": "Było mleko.",
+      "accepts": [
+        "Było mleko.",
+        "Było mleko"
+      ],
+      "explain": "mleko is neuter, so the past of być takes its neuter form — the same było you already say in Było dobrze."
+    },
+    {
+      "prompt_en": "There were newspapers.",
+      "mode": "full_word",
+      "answer": "Były gazety.",
+      "accepts": [
+        "Były gazety.",
+        "Były gazety"
+      ]
+    },
+    {
+      "prompt_en": "There will be coffee.",
+      "mode": "full_word",
+      "answer": "Będzie kawa.",
+      "accepts": [
+        "Będzie kawa.",
+        "Będzie kawa"
+      ]
+    },
+    {
+      "prompt_en": "There will be newspapers.",
+      "mode": "full_word",
+      "answer": "Będą gazety.",
+      "accepts": [
+        "Będą gazety.",
+        "Będą gazety"
+      ]
+    },
+    {
+      "prompt_en": "There is no coffee.",
+      "mode": "full_word",
+      "answer": "Nie ma kawy.",
+      "accepts": [
+        "Nie ma kawy.",
+        "Nie ma kawy"
+      ]
+    },
+    {
+      "prompt_en": "There was no milk.",
+      "mode": "full_word",
+      "answer": "Nie było mleka.",
+      "accepts": [
+        "Nie było mleka.",
+        "Nie było mleka"
+      ],
+      "explain": "The verb froze and the noun moved: mleko became mleka. Both happen together every time an existential goes negative."
+    },
+    {
+      "prompt_en": "There will be no bread.",
+      "mode": "full_word",
+      "answer": "Nie będzie chleba.",
+      "accepts": [
+        "Nie będzie chleba.",
+        "Nie będzie chleba"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: There was no bread in the shop.",
+      "answer": "W sklepie nie było chleba.",
+      "accepts": [
+        "W sklepie nie było chleba.",
+        "W sklepie nie było chleba",
+        "Nie było chleba w sklepie.",
+        "Nie było chleba w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday there was no time.",
+      "answer": "Wczoraj nie było czasu.",
+      "accepts": [
+        "Wczoraj nie było czasu.",
+        "Wczoraj nie było czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: There were newspapers in the office.",
+      "answer": "W biurze były gazety.",
+      "accepts": [
+        "W biurze były gazety.",
+        "W biurze były gazety",
+        "Były gazety w biurze.",
+        "Były gazety w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: There is no milk in the fridge.",
+      "answer": "W lodówce nie ma mleka.",
+      "accepts": [
+        "W lodówce nie ma mleka.",
+        "W lodówce nie ma mleka",
+        "Nie ma mleka w lodówce.",
+        "Nie ma mleka w lodówce"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow there will be no problem.",
+      "answer": "Jutro nie będzie problemu.",
+      "accepts": [
+        "Jutro nie będzie problemu.",
+        "Jutro nie będzie problemu"
+      ]
+    },
+    {
+      "prompt_en": "Type: There was a problem at work.",
+      "answer": "W pracy był problem.",
+      "accepts": [
+        "W pracy był problem.",
+        "W pracy był problem",
+        "Był problem w pracy.",
+        "Był problem w pracy"
+      ],
+      "explain": "Positive, so problem is the subject and stays in its plain form — and being masculine it takes był."
+    },
+    {
+      "prompt_en": "Type: There will be soup at home.",
+      "answer": "W domu będzie zupa.",
+      "accepts": [
+        "W domu będzie zupa.",
+        "W domu będzie zupa",
+        "Będzie zupa w domu.",
+        "Będzie zupa w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday there was coffee, but today there is no coffee.",
+      "answer": "Wczoraj była kawa, ale dzisiaj nie ma kawy.",
+      "accepts": [
+        "Wczoraj była kawa, ale dzisiaj nie ma kawy.",
+        "Wczoraj była kawa, ale dzisiaj nie ma kawy"
+      ],
+      "explain": "The same coffee twice, in two shapes: kawa as a subject in the positive half, kawy in the Genitive after the negative."
+    },
+    {
+      "prompt_en": "Type: There was no water in the shop, but there was tea.",
+      "answer": "W sklepie nie było wody, ale była herbata.",
+      "accepts": [
+        "W sklepie nie było wody, ale była herbata.",
+        "W sklepie nie było wody, ale była herbata"
+      ],
+      "explain": "Both halves are in the past and both are about a feminine noun, yet only the second one agrees: była herbata, but nie było wody."
+    }
+  ],
+  "uses_lemmas": [
+    "jest",
+    "są",
     "był",
-    "były"
-   ],
-   "answer": "było",
-   "explain": "czas is masculine, and it makes no difference: the negative existential has nothing to agree with, so it is było here exactly as it is with a feminine kawa."
-  },
-  {
-   "prompt": "___ gazety. (there were)",
-   "choices": [
-    "Były",
-    "Było",
-    "Był",
-    "Będą"
-   ],
-   "answer": "Były",
-   "explain": "This one is positive, so the verb does agree — and gazety is plural. Będą would move it to the future."
-  },
-  {
-   "prompt": "There was no water in the shop. →",
-   "choices": [
-    "W sklepie nie było wody.",
-    "W sklepie nie była woda.",
-    "W sklepie nie ma wody.",
-    "W sklepie była woda."
-   ],
-   "answer": "W sklepie nie było wody.",
-   "explain": "Past, negative, so both halves move: było stays frozen whatever the thing is, and woda becomes wody."
+    "była",
+    "było",
+    "były",
+    "będzie",
+    "będą",
+    "nie ma",
+    "kawa",
+    "kawy",
+    "chleb",
+    "chleba",
+    "mleko",
+    "mleka",
+    "gazety",
+    "gazet",
+    "woda",
+    "wody",
+    "zupa",
+    "herbata",
+    "czas",
+    "czasu",
+    "problem",
+    "problemu",
+    "grzyby",
+    "w sklepie",
+    "w biurze",
+    "w domu",
+    "w pracy",
+    "w lodówce",
+    "w parku",
+    "teraz",
+    "wczoraj",
+    "jutro",
+    "dzisiaj",
+    "ale",
+    "mama",
+    "tata",
+    "dobrze"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_existential",
+    "pool_model": "cumulative_focus_recycle"
   }
- ],
- "type_items": [
-  {
-   "prompt_en": "There is coffee.",
-   "mode": "full_word",
-   "answer": "Jest kawa.",
-   "accepts": [
-    "Jest kawa.",
-    "Jest kawa"
-   ]
-  },
-  {
-   "prompt_en": "There are newspapers.",
-   "mode": "full_word",
-   "answer": "Są gazety.",
-   "accepts": [
-    "Są gazety.",
-    "Są gazety"
-   ]
-  },
-  {
-   "prompt_en": "There was bread.",
-   "mode": "full_word",
-   "answer": "Był chleb.",
-   "accepts": [
-    "Był chleb.",
-    "Był chleb"
-   ]
-  },
-  {
-   "prompt_en": "There was coffee.",
-   "mode": "full_word",
-   "answer": "Była kawa.",
-   "accepts": [
-    "Była kawa.",
-    "Była kawa"
-   ]
-  },
-  {
-   "prompt_en": "There was milk.",
-   "mode": "full_word",
-   "answer": "Było mleko.",
-   "accepts": [
-    "Było mleko.",
-    "Było mleko"
-   ],
-   "explain": "mleko is neuter, so the past of być takes its neuter form — the same było you already say in Było dobrze."
-  },
-  {
-   "prompt_en": "There were newspapers.",
-   "mode": "full_word",
-   "answer": "Były gazety.",
-   "accepts": [
-    "Były gazety.",
-    "Były gazety"
-   ]
-  },
-  {
-   "prompt_en": "There will be coffee.",
-   "mode": "full_word",
-   "answer": "Będzie kawa.",
-   "accepts": [
-    "Będzie kawa.",
-    "Będzie kawa"
-   ]
-  },
-  {
-   "prompt_en": "There will be newspapers.",
-   "mode": "full_word",
-   "answer": "Będą gazety.",
-   "accepts": [
-    "Będą gazety.",
-    "Będą gazety"
-   ]
-  },
-  {
-   "prompt_en": "There is no coffee.",
-   "mode": "full_word",
-   "answer": "Nie ma kawy.",
-   "accepts": [
-    "Nie ma kawy.",
-    "Nie ma kawy"
-   ]
-  },
-  {
-   "prompt_en": "There was no milk.",
-   "mode": "full_word",
-   "answer": "Nie było mleka.",
-   "accepts": [
-    "Nie było mleka.",
-    "Nie było mleka"
-   ],
-   "explain": "The verb froze and the noun moved: mleko became mleka. Both happen together every time an existential goes negative."
-  },
-  {
-   "prompt_en": "There will be no bread.",
-   "mode": "full_word",
-   "answer": "Nie będzie chleba.",
-   "accepts": [
-    "Nie będzie chleba.",
-    "Nie będzie chleba"
-   ]
-  }
- ],
- "use_items": [
-  {
-   "prompt_en": "Type: There was no bread in the shop.",
-   "answer": "W sklepie nie było chleba.",
-   "accepts": [
-    "W sklepie nie było chleba.",
-    "W sklepie nie było chleba"
-   ]
-  },
-  {
-   "prompt_en": "Type: Yesterday there was no time.",
-   "answer": "Wczoraj nie było czasu.",
-   "accepts": [
-    "Wczoraj nie było czasu.",
-    "Wczoraj nie było czasu"
-   ]
-  },
-  {
-   "prompt_en": "Type: There were newspapers in the office.",
-   "answer": "W biurze były gazety.",
-   "accepts": [
-    "W biurze były gazety.",
-    "W biurze były gazety"
-   ]
-  },
-  {
-   "prompt_en": "Type: There is no milk in the fridge.",
-   "answer": "W lodówce nie ma mleka.",
-   "accepts": [
-    "W lodówce nie ma mleka.",
-    "W lodówce nie ma mleka"
-   ]
-  },
-  {
-   "prompt_en": "Type: Tomorrow there will be no problem.",
-   "answer": "Jutro nie będzie problemu.",
-   "accepts": [
-    "Jutro nie będzie problemu.",
-    "Jutro nie będzie problemu"
-   ]
-  },
-  {
-   "prompt_en": "Type: There was a problem at work.",
-   "answer": "W pracy był problem.",
-   "accepts": [
-    "W pracy był problem.",
-    "W pracy był problem"
-   ],
-   "explain": "Positive, so problem is the subject and stays in its plain form — and being masculine it takes był."
-  },
-  {
-   "prompt_en": "Type: There will be soup at home.",
-   "answer": "W domu będzie zupa.",
-   "accepts": [
-    "W domu będzie zupa.",
-    "W domu będzie zupa"
-   ]
-  },
-  {
-   "prompt_en": "Type: Yesterday there was coffee, but today there is no coffee.",
-   "answer": "Wczoraj była kawa, ale dzisiaj nie ma kawy.",
-   "accepts": [
-    "Wczoraj była kawa, ale dzisiaj nie ma kawy.",
-    "Wczoraj była kawa, ale dzisiaj nie ma kawy"
-   ],
-   "explain": "The same coffee twice, in two shapes: kawa as a subject in the positive half, kawy in the Genitive after the negative."
-  },
-  {
-   "prompt_en": "Type: There was no water in the shop, but there was tea.",
-   "answer": "W sklepie nie było wody, ale była herbata.",
-   "accepts": [
-    "W sklepie nie było wody, ale była herbata.",
-    "W sklepie nie było wody, ale była herbata"
-   ],
-   "explain": "Both halves are in the past and both are about a feminine noun, yet only the second one agrees: była herbata, but nie było wody."
-  }
- ],
- "uses_lemmas": [
-  "jest",
-  "są",
-  "był",
-  "była",
-  "było",
-  "były",
-  "będzie",
-  "będą",
-  "nie ma",
-  "kawa",
-  "kawy",
-  "chleb",
-  "chleba",
-  "mleko",
-  "mleka",
-  "gazety",
-  "gazet",
-  "woda",
-  "wody",
-  "zupa",
-  "herbata",
-  "czas",
-  "czasu",
-  "problem",
-  "problemu",
-  "grzyby",
-  "w sklepie",
-  "w biurze",
-  "w domu",
-  "w pracy",
-  "w lodówce",
-  "w parku",
-  "teraz",
-  "wczoraj",
-  "jutro",
-  "dzisiaj",
-  "ale",
-  "mama",
-  "tata",
-  "dobrze"
- ],
- "sequencing": {
-  "spec": "codex/SEQUENCING.md",
-  "phase": 1,
-  "node_id": "c1_existential",
-  "pool_model": "cumulative_focus_recycle"
- }
 }

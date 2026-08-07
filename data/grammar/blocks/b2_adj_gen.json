@@ -1,578 +1,580 @@
 {
- "id": "b2_adj_gen",
- "title": "Dobrej kawy · dopełniacz",
- "title_en": "Adjectives in the Genitive · -ego and -ej",
- "level": "B2",
- "tree_node": "b2_adj_gen",
- "default_direction": "en_to_pl",
- "kind": "morphology",
- "type": {
-  "mode": "full_word"
- },
- "check": {
-  "sequence": [
-   "match",
-   "quiz"
-  ]
- },
- "note": "B2 Block 2, unit 2 of 6 (spine O2). The first unit of the block that adds real endings: -ego for masculine and neuter, -ej for feminine. One paradigm row, four adjectives, eight forms.\n\nFORM COUNT DELIBERATELY HELD DOWN. The obvious temptation was to run every adjective the learner owns through both endings. Instead the unit teaches exactly four adjectives — dobry, nowy, mały, zimny — each in BOTH forms, so the table is symmetrical and the learner sees a paradigm rather than a word list. duży and stary were dropped for this reason alone, not because they are hard; they cost nothing to add later inside a gym. Verified NEW with check_new.py: dobrego, dobrej, nowej, małego, małej, zimnego, zimnej (7 forms).\n\nTHE TRAP, predicted by B2-SPINE O16 one batch in advance and confirmed here: nowego reports TAUGHT (a2_smalltalk, path 54). It is frozen inside the chunk Nic nowego — 'nothing new' — and the learner has never been shown it as an adjective with an ending, let alone a genitive one. Slide 3 is entirely this reveal, and it is played as a gift rather than a correction: a lump you already say turns out to contain the ending you have just learned. Same treatment b1_dative_sg gave dziękuję and b1_ktory_cases gave której (chunk → real paradigm slot).\n\nNO NEW GOVERNORS. All three triggers used are already owned and are the ones B2-SPINE named: nie mam / nie ma + Genitive (a1_negation), do + Genitive (a1_prep_do_z), and dużo + Genitive (a1_gen_endings, which literally teaches dużo kawy / dużo wody / dużo mleka). The only change from what the learner already does is that the adjective now comes along.\n\nMASCULINE-ANIMATE ACCUSATIVE folds in here, as AGENTS.md's named honest exception and as b2_adj_acc's slide 2 promised. b2_adj_acc left this gap open by design because -ego did not exist yet; slide 4 closes it with the easiest possible answer — for masculine words for people and animals the object form IS this form. The nouns need nothing new: psa, brata, kota have been accusative-and-genitive-identical since a1_miec, which says so in its own note. This is the second half of the b2_adj_acc/b2_adj_gen pairing and the whole reason the two units sit in this order.\n\nFENCED, and one of these is a fence nobody has had to state before:\n- z / ze + Genitive is kept OUT of this unit entirely, even though it is an owned Genitive governor. Reason: the learner owns ze sklepu and ze szkoły as whole forms, and inserting an adjective flips the preposition back to z (z nowego sklepu), because ze/z looks at the word immediately after it, not at the noun. That is a genuine second fact about the preposition, not about the adjective, and it would be the do/z cliff in miniature. Deferred and logged. do and nie ma carry the unit instead.\n- No -ym, no -emu, anywhere — not in a slide, not as a distractor. b2_adj_loc and b2_adj_dat own those.\n- No plural genitive adjectives (dobrych) — spine O3 sends those to C1.\n- pracy is not used, despite being a perfectly good feminine Genitive: b2_fem_soft one unit ago taught it as the Dative/Locative form, and re-showing it here as a Genitive in the same breath as a new ending would be the homograph trap self-inflicted.\n\nDISTRACTORS are real taught Polish in the wrong slot, never fabricated: Nominatives (dobra, dobry, dobre, nowa, nowy, nowe, mała, mały, małe, zimna, zimny), and the Accusatives b2_adj_acc taught last unit (dobrą, nową, małą, zimną). zimne and stare are avoided — both came back NEW from check_new.py and neither is taught anywhere.\n\nGLOSSING: the English for a bare Genitive phrase is given as 'of good coffee' etc. in Pisanie, which is the honest reading under all three governors used here.",
- "focus_structures": [
-  "adj_gen"
- ],
- "teaches_structures": [
-  "adj_gen"
- ],
- "teaches_lemmas": [
-  "dobrego",
-  "dobrej",
-  "nowej",
-  "małego",
-  "małej",
-  "zimnego",
-  "zimnej"
- ],
- "uses_structures": [
-  "adj_gen",
-  "adj_acc",
-  "zgoda",
-  "gen_endings",
-  "negation",
-  "prep_do_gen",
-  "miec_acc",
-  "miec_present",
-  "existential_jest",
-  "byc_present",
-  "motion_chunk",
-  "chodzic",
-  "jechac",
-  "prep_w_loc",
-  "poss_nom",
-  "conjunctions"
- ],
- "intro": [
-  {
-   "title": "One row of endings: -ego and -ej",
-   "title_pl": "dobrego · dobrej",
-   "body": "You have known for a long time what a noun does in this case: kawa becomes kawy, sklep becomes sklepu, mleko becomes mleka. What you have never had is the adjective that goes in front of it. Here it is, and it is one row: masculine and neuter both take -ego, feminine takes -ej. Two endings, no exceptions among the words you own.",
-   "body_pl": "-ego (m. i n.) · -ej (ż.)",
-   "table": {
-    "headers": [
-     "Gender",
-     "Plain form",
-     "This form",
-     "In a phrase"
-    ],
-    "rows": [
-     [
-      "masculine",
-      "nowy",
-      "nowego",
-      "do nowego sklepu"
-     ],
-     [
-      "masculine",
-      "mały",
-      "małego",
-      "Nie mam małego domu."
-     ],
-     [
-      "neuter",
-      "dobre",
-      "dobrego",
-      "dużo dobrego piwa"
-     ],
-     [
-      "feminine",
-      "dobra",
-      "dobrej",
-      "Nie mam dobrej kawy."
-     ],
-     [
-      "feminine",
-      "nowa",
-      "nowej",
-      "Nie mam nowej książki."
-     ],
-     [
-      "feminine",
-      "zimna",
-      "zimnej",
-      "Nie mam zimnej wody."
-     ]
+  "id": "b2_adj_gen",
+  "title": "Dobrej kawy · dopełniacz",
+  "title_en": "Adjectives in the Genitive · -ego and -ej",
+  "level": "B2",
+  "tree_node": "b2_adj_gen",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
     ]
-   }
   },
-  {
-   "title": "Where this form turns up — all three are things you already do",
-   "title_pl": "nie mam… · do… · dużo…",
-   "body": "There is nothing new to learn about when to use it. Three triggers you have had for months already demand this form of the noun; the only change is that from now on the adjective comes along too.",
-   "body_pl": "Nie mam dobrej kawy. · Idę do małej szkoły. · dużo dobrego piwa",
-   "table": {
-    "headers": [
-     "Trigger",
-     "What you already said",
-     "With an adjective"
-    ],
-    "rows": [
-     [
-      "nie mam / nie ma",
-      "Nie ma mleka.",
-      "Nie ma zimnego mleka."
-     ],
-     [
-      "do",
-      "do szkoły",
-      "do małej szkoły"
-     ],
-     [
-      "dużo",
-      "dużo piwa",
-      "dużo dobrego piwa"
-     ]
-    ]
-   }
-  },
-  {
-   "title": "A phrase you have been saying for months",
-   "title_pl": "Nic nowego.",
-   "body": "You already say Nic nowego — \"nothing new\" — and until now it was one lump with nothing inside it. It is not a lump. nic takes exactly the form this lesson is about, and nowego is nowy wearing the ending you have just learned. Nothing to memorise here: a piece of Polish you already own has simply become readable.",
-   "body_pl": "nic + nowego",
-   "table": {
-    "headers": [
-     "What you already say",
-     "The adjective in it",
-     "The same ending as"
-    ],
-    "rows": [
-     [
-      "Nic nowego.",
-      "nowego",
-      "do nowego sklepu"
-     ]
-    ]
-   }
-  },
-  {
-   "title": "Masculine people and animals: the gap from last lesson closes here",
-   "title_pl": "Mam małego psa.",
-   "body": "Last lesson left one thing open: what the adjective does when the object is a masculine word for a person or an animal. This is the answer, and it is the easiest one available — for those words the object form is the form you have just learned. The noun has been doing this since your first lesson on mieć: pies becomes psa, brat becomes brata. Now the adjective matches it.",
-   "body_pl": "Mam małego psa. · Mam dobrego brata.",
-   "table": {
-    "headers": [
-     "Subject form",
-     "Object form",
-     "Why"
-    ],
-    "rows": [
-     [
-      "mały pies",
-      "małego psa",
-      "same form as after nie mam"
-     ],
-     [
-      "dobry brat",
-      "dobrego brata",
-      "same form as after nie mam"
-     ]
-    ]
-   }
-  }
- ],
- "match": [
-  {
-   "en": "I don't have good coffee.",
-   "pl": "Nie mam dobrej kawy."
-  },
-  {
-   "en": "I don't have cold water.",
-   "pl": "Nie mam zimnej wody."
-  },
-  {
-   "en": "I don't have a new book.",
-   "pl": "Nie mam nowej książki."
-  },
-  {
-   "en": "I don't have a small house.",
-   "pl": "Nie mam małego domu."
-  },
-  {
-   "en": "There's no cold milk.",
-   "pl": "Nie ma zimnego mleka."
-  },
-  {
-   "en": "to the new shop",
-   "pl": "do nowego sklepu"
-  },
-  {
-   "en": "to the small school",
-   "pl": "do małej szkoły"
-  },
-  {
-   "en": "to the new city",
-   "pl": "do nowego miasta"
-  },
-  {
-   "en": "a lot of good beer",
-   "pl": "dużo dobrego piwa"
-  },
-  {
-   "en": "I have a small dog.",
-   "pl": "Mam małego psa."
-  },
-  {
-   "en": "I have a good brother.",
-   "pl": "Mam dobrego brata."
-  },
-  {
-   "en": "I don't have a new phone.",
-   "pl": "Nie mam nowego telefonu."
-  }
- ],
- "quiz": [
-  {
-   "prompt": "Nie mam ___ kawy. (good)",
-   "choices": [
-    "dobrej",
-    "dobra",
-    "dobrą",
-    "dobre"
-   ],
-   "answer": "dobrej",
-   "explain": "nie mam pulls kawa to kawy, and it pulls the adjective to -ej at the same time. dobrą is the object form from last lesson — right in Mam dobrą kawę, wrong after nie mam."
-  },
-  {
-   "prompt": "Nie mam ___ wody. (cold)",
-   "choices": [
-    "zimnej",
-    "zimna",
-    "zimną",
-    "zimny"
-   ],
-   "answer": "zimnej",
-   "explain": "Feminine, so -ej. The noun already told you: woda has become wody."
-  },
-  {
-   "prompt": "Nie mam ___ książki. (new)",
-   "choices": [
-    "nowej",
-    "nowa",
-    "nową",
-    "nowe"
-   ],
-   "answer": "nowej",
-   "explain": "Same ending as dobrej and zimnej — feminine words all behave alike here."
-  },
-  {
-   "prompt": "Idę do ___ szkoły. (small)",
-   "choices": [
-    "małej",
-    "mała",
-    "małe",
-    "małego"
-   ],
-   "answer": "małej",
-   "explain": "do takes the same form as nie mam does, and szkoła is feminine, so -ej. małego would be right in front of a masculine or neuter word."
-  },
-  {
-   "prompt": "Idę do ___ sklepu. (new)",
-   "choices": [
-    "nowego",
-    "nowy",
-    "nowa",
-    "nowej"
-   ],
-   "answer": "nowego",
-   "explain": "sklep is masculine, so -ego. This is the very same nowego that sits inside Nic nowego."
-  },
-  {
-   "prompt": "Nie ma ___ mleka. (cold)",
-   "choices": [
-    "zimnego",
-    "zimny",
-    "zimna",
-    "zimnej"
-   ],
-   "answer": "zimnego",
-   "explain": "Neuter words take -ego, exactly like masculine ones. Only the feminine has its own ending here."
-  },
-  {
-   "prompt": "Mam ___ psa. (small)",
-   "choices": [
-    "małego",
-    "mały",
-    "mała",
-    "małej"
-   ],
-   "answer": "małego",
-   "explain": "pies is masculine and it is an animal, so its object form is the same as the form after nie mam — and the adjective follows it there."
-  },
-  {
-   "prompt": "Mam ___ brata. (good)",
-   "choices": [
+  "note": "B2 Block 2, unit 2 of 6 (spine O2). The first unit of the block that adds real endings: -ego for masculine and neuter, -ej for feminine. One paradigm row, four adjectives, eight forms.\n\nFORM COUNT DELIBERATELY HELD DOWN. The obvious temptation was to run every adjective the learner owns through both endings. Instead the unit teaches exactly four adjectives — dobry, nowy, mały, zimny — each in BOTH forms, so the table is symmetrical and the learner sees a paradigm rather than a word list. duży and stary were dropped for this reason alone, not because they are hard; they cost nothing to add later inside a gym. Verified NEW with check_new.py: dobrego, dobrej, nowej, małego, małej, zimnego, zimnej (7 forms).\n\nTHE TRAP, predicted by B2-SPINE O16 one batch in advance and confirmed here: nowego reports TAUGHT (a2_smalltalk, path 54). It is frozen inside the chunk Nic nowego — 'nothing new' — and the learner has never been shown it as an adjective with an ending, let alone a genitive one. Slide 3 is entirely this reveal, and it is played as a gift rather than a correction: a lump you already say turns out to contain the ending you have just learned. Same treatment b1_dative_sg gave dziękuję and b1_ktory_cases gave której (chunk → real paradigm slot).\n\nNO NEW GOVERNORS. All three triggers used are already owned and are the ones B2-SPINE named: nie mam / nie ma + Genitive (a1_negation), do + Genitive (a1_prep_do_z), and dużo + Genitive (a1_gen_endings, which literally teaches dużo kawy / dużo wody / dużo mleka). The only change from what the learner already does is that the adjective now comes along.\n\nMASCULINE-ANIMATE ACCUSATIVE folds in here, as AGENTS.md's named honest exception and as b2_adj_acc's slide 2 promised. b2_adj_acc left this gap open by design because -ego did not exist yet; slide 4 closes it with the easiest possible answer — for masculine words for people and animals the object form IS this form. The nouns need nothing new: psa, brata, kota have been accusative-and-genitive-identical since a1_miec, which says so in its own note. This is the second half of the b2_adj_acc/b2_adj_gen pairing and the whole reason the two units sit in this order.\n\nFENCED, and one of these is a fence nobody has had to state before:\n- z / ze + Genitive is kept OUT of this unit entirely, even though it is an owned Genitive governor. Reason: the learner owns ze sklepu and ze szkoły as whole forms, and inserting an adjective flips the preposition back to z (z nowego sklepu), because ze/z looks at the word immediately after it, not at the noun. That is a genuine second fact about the preposition, not about the adjective, and it would be the do/z cliff in miniature. Deferred and logged. do and nie ma carry the unit instead.\n- No -ym, no -emu, anywhere — not in a slide, not as a distractor. b2_adj_loc and b2_adj_dat own those.\n- No plural genitive adjectives (dobrych) — spine O3 sends those to C1.\n- pracy is not used, despite being a perfectly good feminine Genitive: b2_fem_soft one unit ago taught it as the Dative/Locative form, and re-showing it here as a Genitive in the same breath as a new ending would be the homograph trap self-inflicted.\n\nDISTRACTORS are real taught Polish in the wrong slot, never fabricated: Nominatives (dobra, dobry, dobre, nowa, nowy, nowe, mała, mały, małe, zimna, zimny), and the Accusatives b2_adj_acc taught last unit (dobrą, nową, małą, zimną). zimne and stare are avoided — both came back NEW from check_new.py and neither is taught anywhere.\n\nGLOSSING: the English for a bare Genitive phrase is given as 'of good coffee' etc. in Pisanie, which is the honest reading under all three governors used here.",
+  "focus_structures": [
+    "adj_gen"
+  ],
+  "teaches_structures": [
+    "adj_gen"
+  ],
+  "teaches_lemmas": [
     "dobrego",
+    "dobrej",
+    "nowej",
+    "małego",
+    "małej",
+    "zimnego",
+    "zimnej"
+  ],
+  "uses_structures": [
+    "adj_gen",
+    "adj_acc",
+    "zgoda",
+    "gen_endings",
+    "negation",
+    "prep_do_gen",
+    "miec_acc",
+    "miec_present",
+    "existential_jest",
+    "byc_present",
+    "motion_chunk",
+    "chodzic",
+    "jechac",
+    "prep_w_loc",
+    "poss_nom",
+    "conjunctions"
+  ],
+  "intro": [
+    {
+      "title": "One row of endings: -ego and -ej",
+      "title_pl": "dobrego · dobrej",
+      "body": "You have known for a long time what a noun does in this case: kawa becomes kawy, sklep becomes sklepu, mleko becomes mleka. What you have never had is the adjective that goes in front of it. Here it is, and it is one row: masculine and neuter both take -ego, feminine takes -ej. Two endings, no exceptions among the words you own.",
+      "body_pl": "-ego (m. i n.) · -ej (ż.)",
+      "table": {
+        "headers": [
+          "Gender",
+          "Plain form",
+          "This form",
+          "In a phrase"
+        ],
+        "rows": [
+          [
+            "masculine",
+            "nowy",
+            "nowego",
+            "do nowego sklepu"
+          ],
+          [
+            "masculine",
+            "mały",
+            "małego",
+            "Nie mam małego domu."
+          ],
+          [
+            "neuter",
+            "dobre",
+            "dobrego",
+            "dużo dobrego piwa"
+          ],
+          [
+            "feminine",
+            "dobra",
+            "dobrej",
+            "Nie mam dobrej kawy."
+          ],
+          [
+            "feminine",
+            "nowa",
+            "nowej",
+            "Nie mam nowej książki."
+          ],
+          [
+            "feminine",
+            "zimna",
+            "zimnej",
+            "Nie mam zimnej wody."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where this form turns up — all three are things you already do",
+      "title_pl": "nie mam… · do… · dużo…",
+      "body": "There is nothing new to learn about when to use it. Three triggers you have had for months already demand this form of the noun; the only change is that from now on the adjective comes along too.",
+      "body_pl": "Nie mam dobrej kawy. · Idę do małej szkoły. · dużo dobrego piwa",
+      "table": {
+        "headers": [
+          "Trigger",
+          "What you already said",
+          "With an adjective"
+        ],
+        "rows": [
+          [
+            "nie mam / nie ma",
+            "Nie ma mleka.",
+            "Nie ma zimnego mleka."
+          ],
+          [
+            "do",
+            "do szkoły",
+            "do małej szkoły"
+          ],
+          [
+            "dużo",
+            "dużo piwa",
+            "dużo dobrego piwa"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A phrase you have been saying for months",
+      "title_pl": "Nic nowego.",
+      "body": "You already say Nic nowego — \"nothing new\" — and until now it was one lump with nothing inside it. It is not a lump. nic takes exactly the form this lesson is about, and nowego is nowy wearing the ending you have just learned. Nothing to memorise here: a piece of Polish you already own has simply become readable.",
+      "body_pl": "nic + nowego",
+      "table": {
+        "headers": [
+          "What you already say",
+          "The adjective in it",
+          "The same ending as"
+        ],
+        "rows": [
+          [
+            "Nic nowego.",
+            "nowego",
+            "do nowego sklepu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Masculine people and animals: the gap from last lesson closes here",
+      "title_pl": "Mam małego psa.",
+      "body": "Last lesson left one thing open: what the adjective does when the object is a masculine word for a person or an animal. This is the answer, and it is the easiest one available — for those words the object form is the form you have just learned. The noun has been doing this since your first lesson on mieć: pies becomes psa, brat becomes brata. Now the adjective matches it.",
+      "body_pl": "Mam małego psa. · Mam dobrego brata.",
+      "table": {
+        "headers": [
+          "Subject form",
+          "Object form",
+          "Why"
+        ],
+        "rows": [
+          [
+            "mały pies",
+            "małego psa",
+            "same form as after nie mam"
+          ],
+          [
+            "dobry brat",
+            "dobrego brata",
+            "same form as after nie mam"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "I don't have good coffee.",
+      "pl": "Nie mam dobrej kawy."
+    },
+    {
+      "en": "I don't have cold water.",
+      "pl": "Nie mam zimnej wody."
+    },
+    {
+      "en": "I don't have a new book.",
+      "pl": "Nie mam nowej książki."
+    },
+    {
+      "en": "I don't have a small house.",
+      "pl": "Nie mam małego domu."
+    },
+    {
+      "en": "There's no cold milk.",
+      "pl": "Nie ma zimnego mleka."
+    },
+    {
+      "en": "to the new shop",
+      "pl": "do nowego sklepu"
+    },
+    {
+      "en": "to the small school",
+      "pl": "do małej szkoły"
+    },
+    {
+      "en": "to the new city",
+      "pl": "do nowego miasta"
+    },
+    {
+      "en": "a lot of good beer",
+      "pl": "dużo dobrego piwa"
+    },
+    {
+      "en": "I have a small dog.",
+      "pl": "Mam małego psa."
+    },
+    {
+      "en": "I have a good brother.",
+      "pl": "Mam dobrego brata."
+    },
+    {
+      "en": "I don't have a new phone.",
+      "pl": "Nie mam nowego telefonu."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Nie mam ___ kawy. (good)",
+      "choices": [
+        "dobrej",
+        "dobra",
+        "dobrą",
+        "dobre"
+      ],
+      "answer": "dobrej",
+      "explain": "nie mam pulls kawa to kawy, and it pulls the adjective to -ej at the same time. dobrą is the object form from last lesson — right in Mam dobrą kawę, wrong after nie mam."
+    },
+    {
+      "prompt": "Nie mam ___ wody. (cold)",
+      "choices": [
+        "zimnej",
+        "zimna",
+        "zimną",
+        "zimny"
+      ],
+      "answer": "zimnej",
+      "explain": "Feminine, so -ej. The noun already told you: woda has become wody."
+    },
+    {
+      "prompt": "Nie mam ___ książki. (new)",
+      "choices": [
+        "nowej",
+        "nowa",
+        "nową",
+        "nowe"
+      ],
+      "answer": "nowej",
+      "explain": "Same ending as dobrej and zimnej — feminine words all behave alike here."
+    },
+    {
+      "prompt": "Idę do ___ szkoły. (small)",
+      "choices": [
+        "małej",
+        "mała",
+        "małe",
+        "małego"
+      ],
+      "answer": "małej",
+      "explain": "do takes the same form as nie mam does, and szkoła is feminine, so -ej. małego would be right in front of a masculine or neuter word."
+    },
+    {
+      "prompt": "Idę do ___ sklepu. (new)",
+      "choices": [
+        "nowego",
+        "nowy",
+        "nowa",
+        "nowej"
+      ],
+      "answer": "nowego",
+      "explain": "sklep is masculine, so -ego. This is the very same nowego that sits inside Nic nowego."
+    },
+    {
+      "prompt": "Nie ma ___ mleka. (cold)",
+      "choices": [
+        "zimnego",
+        "zimny",
+        "zimna",
+        "zimnej"
+      ],
+      "answer": "zimnego",
+      "explain": "Neuter words take -ego, exactly like masculine ones. Only the feminine has its own ending here."
+    },
+    {
+      "prompt": "Mam ___ psa. (small)",
+      "choices": [
+        "małego",
+        "mały",
+        "mała",
+        "małej"
+      ],
+      "answer": "małego",
+      "explain": "pies is masculine and it is an animal, so its object form is the same as the form after nie mam — and the adjective follows it there."
+    },
+    {
+      "prompt": "Mam ___ brata. (good)",
+      "choices": [
+        "dobrego",
+        "dobry",
+        "dobrą",
+        "dobrej"
+      ],
+      "answer": "dobrego",
+      "explain": "Same reason as małego psa: a masculine word for a person takes this form as an object."
+    },
+    {
+      "prompt": "I don't have cold water. →",
+      "choices": [
+        "Nie mam zimnej wody.",
+        "Nie mam zimna wody.",
+        "Nie mam zimną wody.",
+        "Nie mam zimnej woda."
+      ],
+      "answer": "Nie mam zimnej wody.",
+      "explain": "Both words have to move together. zimną wody and zimnej woda each move only one of them."
+    },
+    {
+      "prompt": "I have a small dog. →",
+      "choices": [
+        "Mam małego psa.",
+        "Mam mały psa.",
+        "Mam małą psa.",
+        "Mam małego pies."
+      ],
+      "answer": "Mam małego psa.",
+      "explain": "Mam małego pies. keeps the noun as a subject; Mam mały psa. keeps the adjective as one. The pair moves or neither does."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "of good coffee (genitive)",
+      "mode": "full_word",
+      "answer": "dobrej kawy",
+      "accepts": [
+        "dobrej kawy"
+      ]
+    },
+    {
+      "prompt_en": "of cold water (genitive)",
+      "mode": "full_word",
+      "answer": "zimnej wody",
+      "accepts": [
+        "zimnej wody"
+      ]
+    },
+    {
+      "prompt_en": "of a new book (genitive)",
+      "mode": "full_word",
+      "answer": "nowej książki",
+      "accepts": [
+        "nowej książki"
+      ]
+    },
+    {
+      "prompt_en": "of a small school (genitive)",
+      "mode": "full_word",
+      "answer": "małej szkoły",
+      "accepts": [
+        "małej szkoły"
+      ]
+    },
+    {
+      "prompt_en": "of a new shop (genitive)",
+      "mode": "full_word",
+      "answer": "nowego sklepu",
+      "accepts": [
+        "nowego sklepu"
+      ]
+    },
+    {
+      "prompt_en": "of a small house (genitive)",
+      "mode": "full_word",
+      "answer": "małego domu",
+      "accepts": [
+        "małego domu"
+      ]
+    },
+    {
+      "prompt_en": "of cold milk (genitive)",
+      "mode": "full_word",
+      "answer": "zimnego mleka",
+      "accepts": [
+        "zimnego mleka"
+      ]
+    },
+    {
+      "prompt_en": "of good beer (genitive)",
+      "mode": "full_word",
+      "answer": "dobrego piwa",
+      "accepts": [
+        "dobrego piwa"
+      ]
+    },
+    {
+      "prompt_en": "a small dog (accusative — masculine animal, same form as the genitive)",
+      "mode": "full_word",
+      "answer": "małego psa",
+      "accepts": [
+        "małego psa"
+      ]
+    },
+    {
+      "prompt_en": "a good brother (accusative — masculine person, same form as the genitive)",
+      "mode": "full_word",
+      "answer": "dobrego brata",
+      "accepts": [
+        "dobrego brata"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum doesn't have good coffee.",
+      "answer": "Mama nie ma dobrej kawy.",
+      "accepts": [
+        "Mama nie ma dobrej kawy.",
+        "Mama nie ma dobrej kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: There's no cold water in the fridge.",
+      "answer": "Nie ma zimnej wody w lodówce.",
+      "accepts": [
+        "Nie ma zimnej wody w lodówce.",
+        "Nie ma zimnej wody w lodówce"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is going to the new shop.",
+      "answer": "Tata idzie do nowego sklepu.",
+      "accepts": [
+        "Tata idzie do nowego sklepu.",
+        "Tata idzie do nowego sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is going to the small school.",
+      "answer": "Moja siostra idzie do małej szkoły.",
+      "accepts": [
+        "Moja siostra idzie do małej szkoły.",
+        "Moja siostra idzie do małej szkoły"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother has a small dog.",
+      "answer": "Mój brat ma małego psa.",
+      "accepts": [
+        "Mój brat ma małego psa.",
+        "Mój brat ma małego psa"
+      ],
+      "explain": "brat is doing the having, so it stays in its plain form; the dog is the object, and a masculine animal takes the form from this lesson."
+    },
+    {
+      "prompt_en": "Type: I don't have a new book, but I have a new phone.",
+      "answer": "Nie mam nowej książki, ale mam nowy telefon.",
+      "accepts": [
+        "Nie mam nowej książki, ale mam nowy telefon.",
+        "Nie mam nowej książki, ale mam nowy telefon"
+      ],
+      "explain": "Two halves, two different jobs: after nie mam everything moves, after mam a masculine thing does not move at all."
+    },
+    {
+      "prompt_en": "Type: There's a lot of good beer in the shop.",
+      "answer": "W sklepie jest dużo dobrego piwa.",
+      "accepts": [
+        "W sklepie jest dużo dobrego piwa.",
+        "W sklepie jest dużo dobrego piwa",
+        "Jest dużo dobrego piwa w sklepie.",
+        "Jest dużo dobrego piwa w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum doesn't have cold milk.",
+      "answer": "Mama nie ma zimnego mleka.",
+      "accepts": [
+        "Mama nie ma zimnego mleka.",
+        "Mama nie ma zimnego mleka"
+      ]
+    },
+    {
+      "prompt_en": "Type: Tomorrow I'm going to the new city.",
+      "answer": "Jutro jadę do nowego miasta.",
+      "accepts": [
+        "Jutro jadę do nowego miasta.",
+        "Jutro jadę do nowego miasta"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a good brother, and he has a small house.",
+      "answer": "Mam dobrego brata, a on ma mały dom.",
+      "accepts": [
+        "Mam dobrego brata, a on ma mały dom.",
+        "Mam dobrego brata, a on ma mały dom"
+      ],
+      "explain": "brata is an object and a masculine person, so it takes the new form. dom is an object too, but it is a thing — nothing happens to it."
+    }
+  ],
+  "uses_lemmas": [
+    "dobra",
+    "dobre",
     "dobry",
     "dobrą",
-    "dobrej"
-   ],
-   "answer": "dobrego",
-   "explain": "Same reason as małego psa: a masculine word for a person takes this form as an object."
-  },
-  {
-   "prompt": "I don't have cold water. →",
-   "choices": [
-    "Nie mam zimnej wody.",
-    "Nie mam zimna wody.",
-    "Nie mam zimną wody.",
-    "Nie mam zimnej woda."
-   ],
-   "answer": "Nie mam zimnej wody.",
-   "explain": "Both words have to move together. zimną wody and zimnej woda each move only one of them."
-  },
-  {
-   "prompt": "I have a small dog. →",
-   "choices": [
-    "Mam małego psa.",
-    "Mam mały psa.",
-    "Mam małą psa.",
-    "Mam małego pies."
-   ],
-   "answer": "Mam małego psa.",
-   "explain": "Mam małego pies. keeps the noun as a subject; Mam mały psa. keeps the adjective as one. The pair moves or neither does."
+    "nowa",
+    "nowe",
+    "nowy",
+    "nową",
+    "nowego",
+    "mała",
+    "małe",
+    "mały",
+    "małą",
+    "zimna",
+    "zimny",
+    "zimną",
+    "kawa",
+    "kawy",
+    "woda",
+    "wody",
+    "książki",
+    "domu",
+    "dom",
+    "mleka",
+    "sklepu",
+    "szkoły",
+    "miasta",
+    "piwa",
+    "telefon",
+    "telefonu",
+    "pies",
+    "psa",
+    "brat",
+    "brata",
+    "mama",
+    "tata",
+    "siostra",
+    "nic",
+    "nic nowego",
+    "nie mam",
+    "nie ma",
+    "mam",
+    "ma",
+    "idę",
+    "idzie",
+    "jadę",
+    "jest",
+    "dużo",
+    "do sklepu",
+    "do domu",
+    "do miasta",
+    "do szkoły",
+    "w sklepie",
+    "w lodówce",
+    "lodówce",
+    "mój",
+    "moja",
+    "jutro",
+    "ale",
+    "a"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b2_adj_gen",
+    "pool_model": "cumulative_focus_recycle"
   }
- ],
- "type_items": [
-  {
-   "prompt_en": "of good coffee (genitive)",
-   "mode": "full_word",
-   "answer": "dobrej kawy",
-   "accepts": [
-    "dobrej kawy"
-   ]
-  },
-  {
-   "prompt_en": "of cold water (genitive)",
-   "mode": "full_word",
-   "answer": "zimnej wody",
-   "accepts": [
-    "zimnej wody"
-   ]
-  },
-  {
-   "prompt_en": "of a new book (genitive)",
-   "mode": "full_word",
-   "answer": "nowej książki",
-   "accepts": [
-    "nowej książki"
-   ]
-  },
-  {
-   "prompt_en": "of a small school (genitive)",
-   "mode": "full_word",
-   "answer": "małej szkoły",
-   "accepts": [
-    "małej szkoły"
-   ]
-  },
-  {
-   "prompt_en": "of a new shop (genitive)",
-   "mode": "full_word",
-   "answer": "nowego sklepu",
-   "accepts": [
-    "nowego sklepu"
-   ]
-  },
-  {
-   "prompt_en": "of a small house (genitive)",
-   "mode": "full_word",
-   "answer": "małego domu",
-   "accepts": [
-    "małego domu"
-   ]
-  },
-  {
-   "prompt_en": "of cold milk (genitive)",
-   "mode": "full_word",
-   "answer": "zimnego mleka",
-   "accepts": [
-    "zimnego mleka"
-   ]
-  },
-  {
-   "prompt_en": "of good beer (genitive)",
-   "mode": "full_word",
-   "answer": "dobrego piwa",
-   "accepts": [
-    "dobrego piwa"
-   ]
-  },
-  {
-   "prompt_en": "a small dog (accusative — masculine animal, same form as the genitive)",
-   "mode": "full_word",
-   "answer": "małego psa",
-   "accepts": [
-    "małego psa"
-   ]
-  },
-  {
-   "prompt_en": "a good brother (accusative — masculine person, same form as the genitive)",
-   "mode": "full_word",
-   "answer": "dobrego brata",
-   "accepts": [
-    "dobrego brata"
-   ]
-  }
- ],
- "use_items": [
-  {
-   "prompt_en": "Type: Mum doesn't have good coffee.",
-   "answer": "Mama nie ma dobrej kawy.",
-   "accepts": [
-    "Mama nie ma dobrej kawy.",
-    "Mama nie ma dobrej kawy"
-   ]
-  },
-  {
-   "prompt_en": "Type: There's no cold water in the fridge.",
-   "answer": "Nie ma zimnej wody w lodówce.",
-   "accepts": [
-    "Nie ma zimnej wody w lodówce.",
-    "Nie ma zimnej wody w lodówce"
-   ]
-  },
-  {
-   "prompt_en": "Type: Dad is going to the new shop.",
-   "answer": "Tata idzie do nowego sklepu.",
-   "accepts": [
-    "Tata idzie do nowego sklepu.",
-    "Tata idzie do nowego sklepu"
-   ]
-  },
-  {
-   "prompt_en": "Type: My sister is going to the small school.",
-   "answer": "Moja siostra idzie do małej szkoły.",
-   "accepts": [
-    "Moja siostra idzie do małej szkoły.",
-    "Moja siostra idzie do małej szkoły"
-   ]
-  },
-  {
-   "prompt_en": "Type: My brother has a small dog.",
-   "answer": "Mój brat ma małego psa.",
-   "accepts": [
-    "Mój brat ma małego psa.",
-    "Mój brat ma małego psa"
-   ],
-   "explain": "brat is doing the having, so it stays in its plain form; the dog is the object, and a masculine animal takes the form from this lesson."
-  },
-  {
-   "prompt_en": "Type: I don't have a new book, but I have a new phone.",
-   "answer": "Nie mam nowej książki, ale mam nowy telefon.",
-   "accepts": [
-    "Nie mam nowej książki, ale mam nowy telefon.",
-    "Nie mam nowej książki, ale mam nowy telefon"
-   ],
-   "explain": "Two halves, two different jobs: after nie mam everything moves, after mam a masculine thing does not move at all."
-  },
-  {
-   "prompt_en": "Type: There's a lot of good beer in the shop.",
-   "answer": "W sklepie jest dużo dobrego piwa.",
-   "accepts": [
-    "W sklepie jest dużo dobrego piwa.",
-    "W sklepie jest dużo dobrego piwa"
-   ]
-  },
-  {
-   "prompt_en": "Type: Mum doesn't have cold milk.",
-   "answer": "Mama nie ma zimnego mleka.",
-   "accepts": [
-    "Mama nie ma zimnego mleka.",
-    "Mama nie ma zimnego mleka"
-   ]
-  },
-  {
-   "prompt_en": "Type: Tomorrow I'm going to the new city.",
-   "answer": "Jutro jadę do nowego miasta.",
-   "accepts": [
-    "Jutro jadę do nowego miasta.",
-    "Jutro jadę do nowego miasta"
-   ]
-  },
-  {
-   "prompt_en": "Type: I have a good brother, and he has a small house.",
-   "answer": "Mam dobrego brata, a on ma mały dom.",
-   "accepts": [
-    "Mam dobrego brata, a on ma mały dom.",
-    "Mam dobrego brata, a on ma mały dom"
-   ],
-   "explain": "brata is an object and a masculine person, so it takes the new form. dom is an object too, but it is a thing — nothing happens to it."
-  }
- ],
- "uses_lemmas": [
-  "dobra",
-  "dobre",
-  "dobry",
-  "dobrą",
-  "nowa",
-  "nowe",
-  "nowy",
-  "nową",
-  "nowego",
-  "mała",
-  "małe",
-  "mały",
-  "małą",
-  "zimna",
-  "zimny",
-  "zimną",
-  "kawa",
-  "kawy",
-  "woda",
-  "wody",
-  "książki",
-  "domu",
-  "dom",
-  "mleka",
-  "sklepu",
-  "szkoły",
-  "miasta",
-  "piwa",
-  "telefon",
-  "telefonu",
-  "pies",
-  "psa",
-  "brat",
-  "brata",
-  "mama",
-  "tata",
-  "siostra",
-  "nic",
-  "nic nowego",
-  "nie mam",
-  "nie ma",
-  "mam",
-  "ma",
-  "idę",
-  "idzie",
-  "jadę",
-  "jest",
-  "dużo",
-  "do sklepu",
-  "do domu",
-  "do miasta",
-  "do szkoły",
-  "w sklepie",
-  "w lodówce",
-  "lodówce",
-  "mój",
-  "moja",
-  "jutro",
-  "ale",
-  "a"
- ],
- "sequencing": {
-  "spec": "codex/SEQUENCING.md",
-  "phase": 1,
-  "node_id": "b2_adj_gen",
-  "pool_model": "cumulative_focus_recycle"
- }
 }

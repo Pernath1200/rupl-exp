@@ -1,321 +1,325 @@
 {
- "id": "b1_opinions",
- "title": "Opinie",
- "title_en": "Opinions",
- "level": "B1",
- "tree_node": "b1_opinions",
- "default_direction": "en_to_pl",
- "note": "Opinion/discussion register named on B1-SPINE.md's own line: moim zdaniem, zgadzać się, mieć rację, na pewno, może — all confirmed via check_new.py before writing. Added nie zgadzać się as the natural negative pairing (na szczęście/niestety precedent from b1_stories), matching the spine's own habit of logging a small addition rather than stretching a five-item list artificially.\n\nZERO NEW STRUCTURES. zgadzać się is a plain present_am reflexive verb (learner already owns the full present_am rule and sie_reflexive from a2_routine); mieć rację is mieć + Accusative, the same miec_acc job already known from mam kawę. Every sentence recycles a structure already live — deliberately spread wide rather than leaning on the last grammar unit only, per SEQUENCING.md's own recycle guidance: superlative, adverb_comp (b1_adverb_comp, the unit immediately before this one), inst_z, perf_future, motion_prefixed, conditional_sg, virile_reco/virile_nom, vocative_chunk (b1_vocative_chunks, also immediately before this one) all appear at least once.\n\nSCOPE CUT, logged: the spine's own register also invites 'I'm wrong' as the natural opposite of mieć rację. Real Polish is nie mieć racji — GENITIVE after the negated mieć, the already-owned nie mam X + Gen pattern (a1_negation) — but racja's genitive is racji, a soft -cja-noun genitive ending this course has never taught or generalised (a1_gen_ki's k/g-stem -i exception is a different consonant class). Stacking a new genitive sub-pattern onto a vocab-only leaf was judged the wrong load; used nie zgadzać się for the negative-opinion register instead, which needs zero new grammar. If James wants nie mieć racji later, it is not on the current B1-SPINE as its own slot.\n\nHOMOGRAPH, flagged LOUDLY, same treatment as b1_dative_pron's ci/ci and b1_ktory_cases' ktorej/ktorej: może is already taught by trunk_can_a1 as the 3sg present of moc — 'he/she/it CAN' (on moze = he can). This unit re-teaches the identical string as a completely different, unrelated word: the sentence adverb 'maybe / perhaps'. check_new.py moze correctly reports TAUGHT, citing trunk_can_a1 — that is NOT license to skip re-teaching; the two senses are disambiguated explicitly in this pack's own intro-equivalent (the item's explain string) and kept apart by context in every sentence, never by a meta quiz question. moze the adverb is re-listed in teaches_lemmas for exactly the reason ci was in b1_dative_pron: same string, genuinely new function, logged rather than assumed free.\n\nA SECOND, LIGHTER instance of the same treatment: zdanie was already taught by leaf_school_a1 as 'sentence' (a grammar-class noun). moim zdaniem uses the same word in Polish's other everyday sense, 'opinion/view' (literally close to 'by my judgement') — a real polysemy, not an unrelated homograph like moze/moze, but still named explicitly in the item's explain string so the two senses don't blur for a learner who has only ever met zdanie in a classroom context.\n\nBONUS PAYOFF, not a new teach: mysle is already taught (a2_o_loc, 'I think [about]') and bare ze is already taught (b1_polite, tagged as its own standalone teaches_lemma, not only inside the frozen Przepraszam-that-I'm-disturbing chunk). Combining them as Mysle, ze... ('I think that...') is therefore zero new vocabulary and zero new structure — both pieces already sit in the pool as independently reusable lemmas — but it is the single most useful sentence an opinions unit can hand over, so one example was built on it and logged here rather than silently assumed safe.",
- "teaches_structures": [],
- "uses_structures": [
-  "superlative",
-  "adverb_comp",
-  "inst_z",
-  "perf_future",
-  "motion_prefixed",
-  "conditional_sg",
-  "virile_reco",
-  "virile_nom",
-  "miec_present",
-  "miec_acc",
-  "vocative_chunk",
-  "question",
-  "byc_adj"
- ],
- "blocks": [
-  {
-   "id": "opinions_words",
-   "title": "Saying what you think",
-   "items": [
-    {
-     "en": "in my opinion",
-     "pl": "moim zdaniem",
-     "icon": "💭",
-     "explain": "zdanie already means sentence from school (leaf_school_a1). Here the same word is used in its other everyday sense — opinion, view — literally closer to 'by my judgement.' Same word, a genuinely different everyday meaning."
-    },
-    {
-     "en": "to agree",
-     "pl": "zgadzać się",
-     "icon": "👍"
-    },
-    {
-     "en": "to disagree",
-     "pl": "nie zgadzać się",
-     "icon": "👎"
-    },
-    {
-     "en": "to be right",
-     "pl": "mieć rację",
-     "icon": "✅"
-    },
-    {
-     "en": "for sure, definitely",
-     "pl": "na pewno",
-     "icon": "💯"
-    },
-    {
-     "en": "maybe, perhaps",
-     "pl": "może",
-     "icon": "🤷",
-     "explain": "HOMOGRAPH: this is a different może from on może (he can/may) — that może is a verb form of móc; this może is an unrelated adverb meaning maybe. Same spelling, two separate words — watch the sentence around it."
-    }
-   ]
-  }
- ],
- "sentences": [
-  {
-   "en": "In my opinion, this book is the best.",
-   "pl": "Moim zdaniem, ta książka jest najlepsza.",
-   "accepts": [
-    "Moim zdaniem, ta książka jest najlepsza.",
-    "Moim zdaniem, ta książka jest najlepsza"
-   ],
-   "structures": [
+  "id": "b1_opinions",
+  "title": "Opinie",
+  "title_en": "Opinions",
+  "level": "B1",
+  "tree_node": "b1_opinions",
+  "default_direction": "en_to_pl",
+  "note": "Opinion/discussion register named on B1-SPINE.md's own line: moim zdaniem, zgadzać się, mieć rację, na pewno, może — all confirmed via check_new.py before writing. Added nie zgadzać się as the natural negative pairing (na szczęście/niestety precedent from b1_stories), matching the spine's own habit of logging a small addition rather than stretching a five-item list artificially.\n\nZERO NEW STRUCTURES. zgadzać się is a plain present_am reflexive verb (learner already owns the full present_am rule and sie_reflexive from a2_routine); mieć rację is mieć + Accusative, the same miec_acc job already known from mam kawę. Every sentence recycles a structure already live — deliberately spread wide rather than leaning on the last grammar unit only, per SEQUENCING.md's own recycle guidance: superlative, adverb_comp (b1_adverb_comp, the unit immediately before this one), inst_z, perf_future, motion_prefixed, conditional_sg, virile_reco/virile_nom, vocative_chunk (b1_vocative_chunks, also immediately before this one) all appear at least once.\n\nSCOPE CUT, logged: the spine's own register also invites 'I'm wrong' as the natural opposite of mieć rację. Real Polish is nie mieć racji — GENITIVE after the negated mieć, the already-owned nie mam X + Gen pattern (a1_negation) — but racja's genitive is racji, a soft -cja-noun genitive ending this course has never taught or generalised (a1_gen_ki's k/g-stem -i exception is a different consonant class). Stacking a new genitive sub-pattern onto a vocab-only leaf was judged the wrong load; used nie zgadzać się for the negative-opinion register instead, which needs zero new grammar. If James wants nie mieć racji later, it is not on the current B1-SPINE as its own slot.\n\nHOMOGRAPH, flagged LOUDLY, same treatment as b1_dative_pron's ci/ci and b1_ktory_cases' ktorej/ktorej: może is already taught by trunk_can_a1 as the 3sg present of moc — 'he/she/it CAN' (on moze = he can). This unit re-teaches the identical string as a completely different, unrelated word: the sentence adverb 'maybe / perhaps'. check_new.py moze correctly reports TAUGHT, citing trunk_can_a1 — that is NOT license to skip re-teaching; the two senses are disambiguated explicitly in this pack's own intro-equivalent (the item's explain string) and kept apart by context in every sentence, never by a meta quiz question. moze the adverb is re-listed in teaches_lemmas for exactly the reason ci was in b1_dative_pron: same string, genuinely new function, logged rather than assumed free.\n\nA SECOND, LIGHTER instance of the same treatment: zdanie was already taught by leaf_school_a1 as 'sentence' (a grammar-class noun). moim zdaniem uses the same word in Polish's other everyday sense, 'opinion/view' (literally close to 'by my judgement') — a real polysemy, not an unrelated homograph like moze/moze, but still named explicitly in the item's explain string so the two senses don't blur for a learner who has only ever met zdanie in a classroom context.\n\nBONUS PAYOFF, not a new teach: mysle is already taught (a2_o_loc, 'I think [about]') and bare ze is already taught (b1_polite, tagged as its own standalone teaches_lemma, not only inside the frozen Przepraszam-that-I'm-disturbing chunk). Combining them as Mysle, ze... ('I think that...') is therefore zero new vocabulary and zero new structure — both pieces already sit in the pool as independently reusable lemmas — but it is the single most useful sentence an opinions unit can hand over, so one example was built on it and logged here rather than silently assumed safe.",
+  "teaches_structures": [],
+  "uses_structures": [
     "superlative",
-    "byc_adj"
-   ],
-   "lemmas": [
-    "moim zdaniem"
-   ]
-  },
-  {
-   "en": "In my opinion, he speaks the fastest.",
-   "pl": "Moim zdaniem, on mówi najszybciej.",
-   "accepts": [
-    "Moim zdaniem, on mówi najszybciej.",
-    "Moim zdaniem, on mówi najszybciej"
-   ],
-   "structures": [
-    "adverb_comp"
-   ],
-   "lemmas": [
-    "moim zdaniem"
-   ],
-   "explain": "najszybciej never changes shape — the same invariant adverb from b1_adverb_comp, now doing real work in an opinion."
-  },
-  {
-   "en": "I agree with the brother.",
-   "pl": "Zgadzam się z bratem.",
-   "accepts": [
-    "Zgadzam się z bratem.",
-    "Zgadzam się z bratem"
-   ],
-   "structures": [
-    "inst_z"
-   ],
-   "lemmas": [
-    "zgadzam się"
-   ]
-  },
-  {
-   "en": "I disagree with the sister.",
-   "pl": "Nie zgadzam się z siostrą.",
-   "accepts": [
-    "Nie zgadzam się z siostrą.",
-    "Nie zgadzam się z siostrą"
-   ],
-   "structures": [
-    "inst_z"
-   ],
-   "lemmas": [
-    "nie zgadzam się"
-   ]
-  },
-  {
-   "en": "Do you agree with dad?",
-   "pl": "Zgadzasz się z tatą?",
-   "accepts": [
-    "Zgadzasz się z tatą?",
-    "Zgadzasz się z tatą"
-   ],
-   "structures": [
+    "adverb_comp",
     "inst_z",
-    "question"
-   ],
-   "lemmas": [
-    "zgadzasz się"
-   ]
-  },
-  {
-   "en": "She agrees with the teacher.",
-   "pl": "Ona zgadza się z nauczycielem.",
-   "accepts": [
-    "Ona zgadza się z nauczycielem.",
-    "Ona zgadza się z nauczycielem"
-   ],
-   "structures": [
-    "inst_z"
-   ],
-   "lemmas": [
-    "zgadza się"
-   ]
-  },
-  {
-   "en": "I think that you are right.",
-   "pl": "Myślę, że masz rację.",
-   "accepts": [
-    "Myślę, że masz rację.",
-    "Myślę, że masz rację"
-   ],
-   "structures": [],
-   "lemmas": [
-    "masz rację"
-   ],
-   "explain": "Myślę and że are both already yours (a2_o_loc, b1_polite) — this is the first time they combine into I think that…, the real payoff of owning both separately."
-  },
-  {
-   "en": "The father is right.",
-   "pl": "Ojciec ma rację.",
-   "accepts": [
-    "Ojciec ma rację.",
-    "Ojciec ma rację"
-   ],
-   "structures": [
-    "miec_present",
-    "miec_acc"
-   ],
-   "lemmas": [
-    "ma rację"
-   ]
-  },
-  {
-   "en": "I'll definitely buy this present.",
-   "pl": "Na pewno kupię ten prezent.",
-   "accepts": [
-    "Na pewno kupię ten prezent.",
-    "Na pewno kupię ten prezent"
-   ],
-   "structures": [
-    "perf_future"
-   ],
-   "lemmas": [
-    "na pewno"
-   ]
-  },
-  {
-   "en": "I'll definitely arrive tomorrow.",
-   "pl": "Na pewno przyjdę jutro.",
-   "accepts": [
-    "Na pewno przyjdę jutro.",
-    "Na pewno przyjdę jutro"
-   ],
-   "structures": [
     "perf_future",
-    "motion_prefixed"
-   ],
-   "lemmas": [
-    "na pewno"
-   ]
-  },
-  {
-   "en": "Maybe you are right.",
-   "pl": "Może masz rację.",
-   "accepts": [
-    "Może masz rację.",
-    "Może masz rację"
-   ],
-   "structures": [],
-   "lemmas": [
-    "może",
-    "masz rację"
-   ],
-   "explain": "This może opens the sentence and means maybe — a different word from on może (he can), even though the spelling is identical."
-  },
-  {
-   "en": "I would like to ask whether you agree.",
-   "pl": "Chciałbym zapytać, czy zgadzasz się.",
-   "accepts": [
-    "Chciałbym zapytać, czy zgadzasz się.",
-    "Chciałbym zapytać, czy zgadzasz się"
-   ],
-   "structures": [
+    "motion_prefixed",
     "conditional_sg",
-    "question"
-   ],
-   "lemmas": [
-    "zgadzasz się"
-   ]
-  },
-  {
-   "en": "Those students are definitely right.",
-   "pl": "Ci studenci na pewno mają rację.",
-   "accepts": [
-    "Ci studenci na pewno mają rację.",
-    "Ci studenci na pewno mają rację"
-   ],
-   "structures": [
     "virile_reco",
     "virile_nom",
-    "miec_present"
-   ],
-   "lemmas": [
-    "na pewno"
-   ]
-  },
-  {
-   "en": "Mom, in my opinion that's a great present.",
-   "pl": "Mamo, moim zdaniem to świetny prezent.",
-   "accepts": [
-    "Mamo, moim zdaniem to świetny prezent.",
-    "Mamo, moim zdaniem to świetny prezent"
-   ],
-   "structures": [
-    "vocative_chunk"
-   ],
-   "lemmas": [
-    "moim zdaniem"
-   ]
+    "miec_present",
+    "miec_acc",
+    "vocative_chunk",
+    "question",
+    "byc_adj"
+  ],
+  "blocks": [
+    {
+      "id": "opinions_words",
+      "title": "Saying what you think",
+      "items": [
+        {
+          "en": "in my opinion",
+          "pl": "moim zdaniem",
+          "icon": "💭",
+          "explain": "zdanie already means sentence from school (leaf_school_a1). Here the same word is used in its other everyday sense — opinion, view — literally closer to 'by my judgement.' Same word, a genuinely different everyday meaning."
+        },
+        {
+          "en": "to agree",
+          "pl": "zgadzać się",
+          "icon": "👍"
+        },
+        {
+          "en": "to disagree",
+          "pl": "nie zgadzać się",
+          "icon": "👎"
+        },
+        {
+          "en": "to be right",
+          "pl": "mieć rację",
+          "icon": "✅"
+        },
+        {
+          "en": "for sure, definitely",
+          "pl": "na pewno",
+          "icon": "💯"
+        },
+        {
+          "en": "maybe, perhaps",
+          "pl": "może",
+          "icon": "🤷",
+          "explain": "HOMOGRAPH: this is a different może from on może (he can/may) — that może is a verb form of móc; this może is an unrelated adverb meaning maybe. Same spelling, two separate words — watch the sentence around it."
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "In my opinion, this book is the best.",
+      "pl": "Moim zdaniem, ta książka jest najlepsza.",
+      "accepts": [
+        "Moim zdaniem, ta książka jest najlepsza.",
+        "Moim zdaniem, ta książka jest najlepsza"
+      ],
+      "structures": [
+        "superlative",
+        "byc_adj"
+      ],
+      "lemmas": [
+        "moim zdaniem"
+      ]
+    },
+    {
+      "en": "In my opinion, he speaks the fastest.",
+      "pl": "Moim zdaniem, on mówi najszybciej.",
+      "accepts": [
+        "Moim zdaniem, on mówi najszybciej.",
+        "Moim zdaniem, on mówi najszybciej"
+      ],
+      "structures": [
+        "adverb_comp"
+      ],
+      "lemmas": [
+        "moim zdaniem"
+      ],
+      "explain": "najszybciej never changes shape — the same invariant adverb from b1_adverb_comp, now doing real work in an opinion."
+    },
+    {
+      "en": "I agree with the brother.",
+      "pl": "Zgadzam się z bratem.",
+      "accepts": [
+        "Zgadzam się z bratem.",
+        "Zgadzam się z bratem"
+      ],
+      "structures": [
+        "inst_z"
+      ],
+      "lemmas": [
+        "zgadzam się"
+      ]
+    },
+    {
+      "en": "I disagree with the sister.",
+      "pl": "Nie zgadzam się z siostrą.",
+      "accepts": [
+        "Nie zgadzam się z siostrą.",
+        "Nie zgadzam się z siostrą"
+      ],
+      "structures": [
+        "inst_z"
+      ],
+      "lemmas": [
+        "nie zgadzam się"
+      ]
+    },
+    {
+      "en": "Do you agree with dad?",
+      "pl": "Zgadzasz się z tatą?",
+      "accepts": [
+        "Zgadzasz się z tatą?",
+        "Zgadzasz się z tatą"
+      ],
+      "structures": [
+        "inst_z",
+        "question"
+      ],
+      "lemmas": [
+        "zgadzasz się"
+      ]
+    },
+    {
+      "en": "She agrees with the teacher.",
+      "pl": "Ona zgadza się z nauczycielem.",
+      "accepts": [
+        "Ona zgadza się z nauczycielem.",
+        "Ona zgadza się z nauczycielem"
+      ],
+      "structures": [
+        "inst_z"
+      ],
+      "lemmas": [
+        "zgadza się"
+      ]
+    },
+    {
+      "en": "I think that you are right.",
+      "pl": "Myślę, że masz rację.",
+      "accepts": [
+        "Myślę, że masz rację.",
+        "Myślę, że masz rację"
+      ],
+      "structures": [],
+      "lemmas": [
+        "masz rację"
+      ],
+      "explain": "Myślę and że are both already yours (a2_o_loc, b1_polite) — this is the first time they combine into I think that…, the real payoff of owning both separately."
+    },
+    {
+      "en": "The father is right.",
+      "pl": "Ojciec ma rację.",
+      "accepts": [
+        "Ojciec ma rację.",
+        "Ojciec ma rację"
+      ],
+      "structures": [
+        "miec_present",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ma rację"
+      ]
+    },
+    {
+      "en": "I'll definitely buy this present.",
+      "pl": "Na pewno kupię ten prezent.",
+      "accepts": [
+        "Na pewno kupię ten prezent.",
+        "Na pewno kupię ten prezent",
+        "Kupię ten prezent na pewno.",
+        "Kupię ten prezent na pewno"
+      ],
+      "structures": [
+        "perf_future"
+      ],
+      "lemmas": [
+        "na pewno"
+      ]
+    },
+    {
+      "en": "I'll definitely arrive tomorrow.",
+      "pl": "Na pewno przyjdę jutro.",
+      "accepts": [
+        "Na pewno przyjdę jutro.",
+        "Na pewno przyjdę jutro",
+        "Przyjdę jutro na pewno.",
+        "Przyjdę jutro na pewno"
+      ],
+      "structures": [
+        "perf_future",
+        "motion_prefixed"
+      ],
+      "lemmas": [
+        "na pewno"
+      ]
+    },
+    {
+      "en": "Maybe you are right.",
+      "pl": "Może masz rację.",
+      "accepts": [
+        "Może masz rację.",
+        "Może masz rację"
+      ],
+      "structures": [],
+      "lemmas": [
+        "może",
+        "masz rację"
+      ],
+      "explain": "This może opens the sentence and means maybe — a different word from on może (he can), even though the spelling is identical."
+    },
+    {
+      "en": "I would like to ask whether you agree.",
+      "pl": "Chciałbym zapytać, czy zgadzasz się.",
+      "accepts": [
+        "Chciałbym zapytać, czy zgadzasz się.",
+        "Chciałbym zapytać, czy zgadzasz się"
+      ],
+      "structures": [
+        "conditional_sg",
+        "question"
+      ],
+      "lemmas": [
+        "zgadzasz się"
+      ]
+    },
+    {
+      "en": "Those students are definitely right.",
+      "pl": "Ci studenci na pewno mają rację.",
+      "accepts": [
+        "Ci studenci na pewno mają rację.",
+        "Ci studenci na pewno mają rację"
+      ],
+      "structures": [
+        "virile_reco",
+        "virile_nom",
+        "miec_present"
+      ],
+      "lemmas": [
+        "na pewno"
+      ]
+    },
+    {
+      "en": "Mom, in my opinion that's a great present.",
+      "pl": "Mamo, moim zdaniem to świetny prezent.",
+      "accepts": [
+        "Mamo, moim zdaniem to świetny prezent.",
+        "Mamo, moim zdaniem to świetny prezent"
+      ],
+      "structures": [
+        "vocative_chunk"
+      ],
+      "lemmas": [
+        "moim zdaniem"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "moim zdaniem",
+    "zgadzam się",
+    "zgadzasz się",
+    "zgadza się",
+    "nie zgadzam się",
+    "mam rację",
+    "masz rację",
+    "ma rację",
+    "na pewno",
+    "może"
+  ],
+  "uses_lemmas": [
+    "ta",
+    "książka",
+    "jest",
+    "najlepsza",
+    "on",
+    "mówi",
+    "najszybciej",
+    "bratem",
+    "siostrą",
+    "tatą",
+    "się",
+    "ona",
+    "nauczycielem",
+    "myślę",
+    "że",
+    "ojciec",
+    "ma",
+    "kupię",
+    "ten",
+    "prezent",
+    "przyjdę",
+    "jutro",
+    "chciałbym",
+    "zapytać",
+    "czy",
+    "ci",
+    "studenci",
+    "mają",
+    "mamo",
+    "to",
+    "świetny"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "b1_opinions",
+    "pool_model": "cumulative_focus_recycle"
   }
- ],
- "teaches_lemmas": [
-  "moim zdaniem",
-  "zgadzam się",
-  "zgadzasz się",
-  "zgadza się",
-  "nie zgadzam się",
-  "mam rację",
-  "masz rację",
-  "ma rację",
-  "na pewno",
-  "może"
- ],
- "uses_lemmas": [
-  "ta",
-  "książka",
-  "jest",
-  "najlepsza",
-  "on",
-  "mówi",
-  "najszybciej",
-  "bratem",
-  "siostrą",
-  "tatą",
-  "się",
-  "ona",
-  "nauczycielem",
-  "myślę",
-  "że",
-  "ojciec",
-  "ma",
-  "kupię",
-  "ten",
-  "prezent",
-  "przyjdę",
-  "jutro",
-  "chciałbym",
-  "zapytać",
-  "czy",
-  "ci",
-  "studenci",
-  "mają",
-  "mamo",
-  "to",
-  "świetny"
- ],
- "sequencing": {
-  "spec": "codex/SEQUENCING.md",
-  "phase": 1,
-  "node_id": "b1_opinions",
-  "pool_model": "cumulative_focus_recycle"
- }
 }

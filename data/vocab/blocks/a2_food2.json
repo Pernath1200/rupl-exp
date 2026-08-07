@@ -198,7 +198,9 @@
         "Na stole jest nóż.",
         "Na stole jest nóż",
         "Nóż jest na stole.",
-        "Nóż jest na stole"
+        "Nóż jest na stole",
+        "Jest nóż na stole.",
+        "Jest nóż na stole"
       ],
       "structures": [
         "existential_jest",

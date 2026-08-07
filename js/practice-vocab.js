@@ -1050,8 +1050,13 @@ export function startPractice(root, block, opts) {
         if (ci >= 0) buttons[ci].classList.add("correct");
         if (!q.wrong.includes(itemIndex)) q.wrong.push(itemIndex);
       }
-      // Auto-advance; Enter skips the wait
-      state.advanceTimer = setTimeout(goNextQuestion, 750);
+      // No auto-advance (James 2026-08-07): "sometimes there is a good
+      // explanation or you want to have another look." Right answers wait
+      // for Enter exactly like wrong ones do; the keyHandler above already
+      // advances on Enter/digit once q.answered is set.
+      attachExplain(stage.querySelector(".sub"), it);
+      const sub = stage.querySelector(".sub");
+      if (sub) sub.textContent = "Enter = dalej";
     };
 
     stage.querySelectorAll(".opt").forEach((el) => {

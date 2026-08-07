@@ -445,7 +445,9 @@
       "answer": "W biurze nie ma telefonów.",
       "accepts": [
         "W biurze nie ma telefonów.",
-        "W biurze nie ma telefonów"
+        "W biurze nie ma telefonów",
+        "Nie ma telefonów w biurze.",
+        "Nie ma telefonów w biurze"
       ]
     },
     {
@@ -453,7 +455,9 @@
       "answer": "W sklepie nie ma ryb.",
       "accepts": [
         "W sklepie nie ma ryb.",
-        "W sklepie nie ma ryb"
+        "W sklepie nie ma ryb",
+        "Nie ma ryb w sklepie.",
+        "Nie ma ryb w sklepie"
       ]
     },
     {
@@ -461,7 +465,9 @@
       "answer": "W centrum nie ma banków.",
       "accepts": [
         "W centrum nie ma banków.",
-        "W centrum nie ma banków"
+        "W centrum nie ma banków",
+        "Nie ma banków w centrum.",
+        "Nie ma banków w centrum"
       ]
     },
     {
@@ -493,7 +499,9 @@
       "answer": "W domu nie ma gazet.",
       "accepts": [
         "W domu nie ma gazet.",
-        "W domu nie ma gazet"
+        "W domu nie ma gazet",
+        "Nie ma gazet w domu.",
+        "Nie ma gazet w domu"
       ],
       "explain": "Nie ma is the only verb in the sentence and it hands the genitive to whatever follows it, however many there are — so gazeta becomes gazet."
     }

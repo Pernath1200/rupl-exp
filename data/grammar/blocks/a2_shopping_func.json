@@ -475,7 +475,9 @@
       "answer": "Czy jest mleko?",
       "accepts": [
         "Czy jest mleko?",
-        "Czy jest mleko"
+        "Czy jest mleko",
+        "Jest mleko?",
+        "Jest mleko"
       ]
     },
     {
@@ -484,7 +486,9 @@
       "answer": "Czy jest cukier?",
       "accepts": [
         "Czy jest cukier?",
-        "Czy jest cukier"
+        "Czy jest cukier",
+        "Jest cukier?",
+        "Jest cukier"
       ],
       "explain": "After Czy jest the noun keeps its plain dictionary form. Compare Poproszę cukier — here it happens to look the same, because cukier is masculine."
     },
@@ -620,7 +624,9 @@
       "accepts": [
         "Dzień dobry. Czy jest cukier?",
         "Dzień dobry. Czy jest cukier",
-        "Dzień dobry, czy jest cukier?"
+        "Dzień dobry, czy jest cukier?",
+        "Dzień dobry. Jest cukier?",
+        "Dzień dobry. Jest cukier"
       ]
     },
     {
@@ -629,7 +635,9 @@
       "accepts": [
         "Przepraszam. Czy mogę płacić kartą?",
         "Przepraszam. Czy mogę płacić kartą",
-        "Przepraszam, czy mogę płacić kartą?"
+        "Przepraszam, czy mogę płacić kartą?",
+        "Przepraszam. Mogę płacić kartą?",
+        "Przepraszam. Mogę płacić kartą"
       ]
     },
     {

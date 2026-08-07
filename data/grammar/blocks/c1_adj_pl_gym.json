@@ -1,627 +1,631 @@
 {
- "id": "c1_adj_pl_gym",
- "title": "Siłownia · dobrych, dobrymi, dobrym",
- "title_en": "Plural adjective gym",
- "level": "C1",
- "tree_node": "c1_adj_pl_gym",
- "default_direction": "en_to_pl",
- "kind": "morphology",
- "type": {
-  "mode": "full_word"
- },
- "check": {
-  "sequence": [
-   "match",
-   "quiz"
-  ]
- },
- "note": "C1 Block 2, unit 6 - THE PLURAL ADJECTIVE GYM (C1-SPINE O11). Gym idiom, the a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym / b2_adj_gym / b2_plural_gym / b2_case_gym line: ZERO NEW MATERIAL, teaches_structures and teaches_lemmas both EMPTY. Every form here was taught by c1_adj_pl_gen [182], c1_adj_pl_loc [183], c1_adj_pl_inst [184], c1_adj_pl_dat [185], c1_adj_pl_virile [186], or by b2_loc_pl / b2_inst_pl / b2_dat_pl / b2_gen_pl_full / a2_gen_pl / a2_plural_nom for the nouns.\n\nWHY THE SLOT IS EARNED, against AGENTS' gyms rule, which is binding and which retired a2_past_gym for failing exactly this test ('a repetition of things that were not difficult'). C1-SPINE O11 pre-authorised this gym and the argument holds up on inspection: three strings (-ych, -ymi, -ym) are spread across SIX jobs, and -ych alone does THREE of them (Genitive, Locative, and the virile Accusative that landed one node ago). The adjective itself carries NO information about which job it is in - the trigger word in front and the noun behind it are the only evidence. That is a case-ending cliff by the rule's own definition, and a same-string-many-jobs collision is precisely what massed discrimination is for. This is the ONLY new gym in C1 besides the c1_case_gym closer; every other C1 system recycles through later units' sentences, which the rule names as the default mechanism.\n\nSLIDE 3 IS THE GYM'S ONE GENUINELY NEW THOUGHT, and it is a load-REDUCING one rather than a new fact: of the six jobs, THE MEN/NOT-MEN SPLIT SHOWS IN ONLY TWO - the subject form (dobre filmy / dobrzy studenci) and the object form (dobre filmy / dobrych studentow). In all four oblique jobs - after duzo and nie ma, after w/na/o, after z, after pomagac and dziekowac - the plural adjective is ONE FORM FOR EVERYONE. Each of the four oblique units said this about itself in isolation (c1_adj_pl_inst: 'the Instrumental plural has no virile split'; c1_adj_pl_dat: 'the Dative plural has no virile split either'); no unit has yet been able to say it about the whole block, because c1_adj_pl_virile only landed one node ago. Saying it once, here, is worth more than the four separate reassurances were.\n\nduzy's PARADIGM HOLE IS INHERITED, NOT FIXED, exactly as c1_adj_pl_inst and c1_adj_pl_dat predicted it would be. duzy has duzych (Genitive and Locative plural) and NOTHING ELSE OBLIQUE anywhere in the course - duzymi, duzym, duzego, duzej are all verified NEW - because b2_adj_gen, b2_adj_loc and b2_adj_dat each dropped duzy from their sets and c1_adj_pl_inst could not place it against eleven person nouns. So duzy appears here ONLY in Genitive and Locative slots, and quiz item 9's distractor set is built from duze / duzo / duza rather than from the -ymi and -ym forms the other three adjectives supply. THE GYM IS THE PLACE C1-SPINE'S O-list SAID THE HOLE COULD BE CLOSED and it is deliberately NOT closed here, because closing it would mean teaching new forms in a zero-new gym. Still James's call, restated in the digest.\n\nNO VIRILE LOCATIVE ANYWHERE, and that is lexical rather than editorial: lekarzach and studentach are both verified NEW (b2_loc_pl's eleven nouns are all things), so every Locative slot in the file takes a non-person noun. The virile split is therefore demonstrated on the Nominative and Accusative, where it actually shows, and the Locative rows carry the no-split half of slide 3's claim.\n\nTHE QUIZ IS BUILT SO THAT ALL TWELVE ANSWERS ARE DISTINCT, which took real work in a gym whose whole point is that one string answers to three different triggers - the naive board would have had dobrych as the answer three times over. The collision is preserved where it matters by keeping the CHOICE SETS identical across items 1, 3 and 10 (dobrych / dobrymi / dobrym / dobre, reordered) while the answers differ, so the learner meets the same four buttons under three different trigger words. Items 2, 5, 9 and 11 rotate the adjective instead of the ending for the same reason.\n\nITEM 12 IS THE WOMEN-ONLY GUARD, carried forward from c1_adj_pl_virile one node back, because the predictable error after a men-group unit is to read the category as 'people' rather than 'masculine-personal'. Corki sa zmeczone is the sentence that says otherwise, and it is the same guard b2_num_virile built its feminine defence around (osoba is feminine, so piec osob and never pieciu).\n\nFENCED: mali, duzi, dzieciach, lekarzach, studentach, starych, zimnych, stare, mlode, wszyscy - all verified NEW and appearing nowhere, including as distractors. -ich (wysokich, drogich) is out; every adjective in the block is a hard stem. ci is used in its b1_virile_reco job only (the virile nominative demonstrative); the b1_dative_pron clitic sense appears nowhere and no dative pronoun construction is used anywhere in the file. oni/one sit in the auditor's GLUE_LEMMAS where it cannot see them and are used NOWHERE - every sentence names its subject with a noun.\n\nPISANIE: twelve items, every one a two- or three-word pattern phrase and all twelve distinct under the engine's own norm(). The prepositional cases type their governor (w nowych sklepach, z dobrymi kolegami - the w domu shape AGENTS names, since neither case exists without it); the Genitive types its quantity word (duzo dobrych filmow); the Dative and both Nominative/Accusative jobs type adjective + noun alone, because there the governor is a verb and does not belong inside the minimal pattern unit. Under the 3-word cap, pattern phrases and not composed sentences; nothing added to the repair queue.\n\nTITLE: the planned tree label read 'Silownia - dobre i dobrych' and every word of it is taught, so unlike the previous three nodes this one did not have to be rescued. It was sharpened rather than corrected, to 'Silownia - dobrych, dobrymi, dobrym', which names the three-string collision the gym exists for; all three forms are owned, and check_new.py was re-run on every word at the wire per C1-SPINE's build protocol.",
- "focus_structures": [
-  "adj_pl_gen",
-  "adj_pl_loc",
-  "adj_pl_inst",
-  "adj_pl_dat",
-  "adj_pl_virile",
-  "plural_nom"
- ],
- "teaches_structures": [],
- "teaches_lemmas": [],
- "uses_structures": [
-  "adj_pl_gen",
-  "adj_pl_loc",
-  "adj_pl_inst",
-  "adj_pl_dat",
-  "adj_pl_virile",
-  "plural_nom",
-  "virile_reco",
-  "gen_pl",
-  "gen_pl_full",
-  "loc_pl",
-  "inst_pl",
-  "dat_pl",
-  "prep_w_loc",
-  "o_loc",
-  "inst_z",
-  "dative_sg",
-  "byc_present",
-  "byc_adj",
-  "zgoda",
-  "ten_ta_to",
-  "negation",
-  "neg_gen",
-  "existential_jest",
-  "miec_acc",
-  "present",
-  "conjunctions",
-  "gen_endings",
-  "motion_chunk"
- ],
- "intro": [
-  {
-   "title": "One adjective, six jobs",
-   "title_pl": "-ych · -ymi · -ym · -e · -i",
-   "body": "Every plural adjective ending this course teaches, on one board. The adjective never tells you which job it is in. The word in front of it does.",
-   "body_pl": "przymiotnik w liczbie mnogiej — przegląd",
-   "table": {
-    "headers": [
-     "What is in front",
-     "Ending",
-     "Example"
-    ],
-    "rows": [
-     [
-      "dużo, nie ma",
-      "-ych",
-      "dużo dobrych filmów"
-     ],
-     [
-      "w, na, o",
-      "-ych",
-      "w dobrych sklepach"
-     ],
-     [
-      "z",
-      "-ymi",
-      "z dobrymi kolegami"
-     ],
-     [
-      "pomagać, dziękować",
-      "-ym",
-      "dobrym studentom"
-     ],
-     [
-      "znam, mam — object, men",
-      "-ych",
-      "Znam dobrych studentów."
-     ],
-     [
-      "nothing — it is the subject",
-      "-e / -i",
-      "Filmy są dobre. Studenci są dobrzy."
-     ]
-    ]
-   }
+  "id": "c1_adj_pl_gym",
+  "title": "Siłownia · dobrych, dobrymi, dobrym",
+  "title_en": "Plural adjective gym",
+  "level": "C1",
+  "tree_node": "c1_adj_pl_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
   },
-  {
-   "title": "-ych does three jobs. Read the word in front.",
-   "title_pl": "dużo · w · znam",
-   "body": "Three of the six jobs are the same four letters. There is nothing inside -ych that says which one you are looking at, and there never will be. The trigger word settles it every time, and the noun behind confirms it.",
-   "table": {
-    "headers": [
-     "Trigger",
-     "Phrase",
-     "The job"
-    ],
-    "rows": [
-     [
-      "dużo",
-      "dużo nowych sklepów",
-      "quantity"
-     ],
-     [
-      "w",
-      "w nowych sklepach",
-      "place"
-     ],
-     [
-      "znam",
-      "Znam nowych klientów.",
-      "object, a group with men"
-     ]
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
     ]
-   }
   },
-  {
-   "title": "The men/not-men split shows in only two of the six",
-   "title_pl": "dobrzy · dobrych · dobrymi · dobrym",
-   "body": "This is the part worth keeping. A group with a man in it takes a special adjective when it is the subject, and again when it is the object. In the other four jobs — after dużo, after w, na and o, after z, after pomagać and dziękować — the plural adjective is one form for everyone, men or not.",
-   "table": {
-    "headers": [
-     "Job",
-     "Things",
-     "A group with men"
-    ],
-    "rows": [
-     [
-      "subject",
-      "dobre filmy",
-      "dobrzy studenci"
-     ],
-     [
-      "object",
-      "dobre filmy",
-      "dobrych studentów"
-     ],
-     [
-      "after z",
-      "z dobrymi kotami",
-      "z dobrymi kolegami"
-     ],
-     [
-      "after pomagać",
-      "dobrym kotom",
-      "dobrym studentom"
-     ]
-    ]
-   },
-   "examples": [
+  "note": "C1 Block 2, unit 6 - THE PLURAL ADJECTIVE GYM (C1-SPINE O11). Gym idiom, the a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym / b2_adj_gym / b2_plural_gym / b2_case_gym line: ZERO NEW MATERIAL, teaches_structures and teaches_lemmas both EMPTY. Every form here was taught by c1_adj_pl_gen [182], c1_adj_pl_loc [183], c1_adj_pl_inst [184], c1_adj_pl_dat [185], c1_adj_pl_virile [186], or by b2_loc_pl / b2_inst_pl / b2_dat_pl / b2_gen_pl_full / a2_gen_pl / a2_plural_nom for the nouns.\n\nWHY THE SLOT IS EARNED, against AGENTS' gyms rule, which is binding and which retired a2_past_gym for failing exactly this test ('a repetition of things that were not difficult'). C1-SPINE O11 pre-authorised this gym and the argument holds up on inspection: three strings (-ych, -ymi, -ym) are spread across SIX jobs, and -ych alone does THREE of them (Genitive, Locative, and the virile Accusative that landed one node ago). The adjective itself carries NO information about which job it is in - the trigger word in front and the noun behind it are the only evidence. That is a case-ending cliff by the rule's own definition, and a same-string-many-jobs collision is precisely what massed discrimination is for. This is the ONLY new gym in C1 besides the c1_case_gym closer; every other C1 system recycles through later units' sentences, which the rule names as the default mechanism.\n\nSLIDE 3 IS THE GYM'S ONE GENUINELY NEW THOUGHT, and it is a load-REDUCING one rather than a new fact: of the six jobs, THE MEN/NOT-MEN SPLIT SHOWS IN ONLY TWO - the subject form (dobre filmy / dobrzy studenci) and the object form (dobre filmy / dobrych studentow). In all four oblique jobs - after duzo and nie ma, after w/na/o, after z, after pomagac and dziekowac - the plural adjective is ONE FORM FOR EVERYONE. Each of the four oblique units said this about itself in isolation (c1_adj_pl_inst: 'the Instrumental plural has no virile split'; c1_adj_pl_dat: 'the Dative plural has no virile split either'); no unit has yet been able to say it about the whole block, because c1_adj_pl_virile only landed one node ago. Saying it once, here, is worth more than the four separate reassurances were.\n\nduzy's PARADIGM HOLE IS INHERITED, NOT FIXED, exactly as c1_adj_pl_inst and c1_adj_pl_dat predicted it would be. duzy has duzych (Genitive and Locative plural) and NOTHING ELSE OBLIQUE anywhere in the course - duzymi, duzym, duzego, duzej are all verified NEW - because b2_adj_gen, b2_adj_loc and b2_adj_dat each dropped duzy from their sets and c1_adj_pl_inst could not place it against eleven person nouns. So duzy appears here ONLY in Genitive and Locative slots, and quiz item 9's distractor set is built from duze / duzo / duza rather than from the -ymi and -ym forms the other three adjectives supply. THE GYM IS THE PLACE C1-SPINE'S O-list SAID THE HOLE COULD BE CLOSED and it is deliberately NOT closed here, because closing it would mean teaching new forms in a zero-new gym. Still James's call, restated in the digest.\n\nNO VIRILE LOCATIVE ANYWHERE, and that is lexical rather than editorial: lekarzach and studentach are both verified NEW (b2_loc_pl's eleven nouns are all things), so every Locative slot in the file takes a non-person noun. The virile split is therefore demonstrated on the Nominative and Accusative, where it actually shows, and the Locative rows carry the no-split half of slide 3's claim.\n\nTHE QUIZ IS BUILT SO THAT ALL TWELVE ANSWERS ARE DISTINCT, which took real work in a gym whose whole point is that one string answers to three different triggers - the naive board would have had dobrych as the answer three times over. The collision is preserved where it matters by keeping the CHOICE SETS identical across items 1, 3 and 10 (dobrych / dobrymi / dobrym / dobre, reordered) while the answers differ, so the learner meets the same four buttons under three different trigger words. Items 2, 5, 9 and 11 rotate the adjective instead of the ending for the same reason.\n\nITEM 12 IS THE WOMEN-ONLY GUARD, carried forward from c1_adj_pl_virile one node back, because the predictable error after a men-group unit is to read the category as 'people' rather than 'masculine-personal'. Corki sa zmeczone is the sentence that says otherwise, and it is the same guard b2_num_virile built its feminine defence around (osoba is feminine, so piec osob and never pieciu).\n\nFENCED: mali, duzi, dzieciach, lekarzach, studentach, starych, zimnych, stare, mlode, wszyscy - all verified NEW and appearing nowhere, including as distractors. -ich (wysokich, drogich) is out; every adjective in the block is a hard stem. ci is used in its b1_virile_reco job only (the virile nominative demonstrative); the b1_dative_pron clitic sense appears nowhere and no dative pronoun construction is used anywhere in the file. oni/one sit in the auditor's GLUE_LEMMAS where it cannot see them and are used NOWHERE - every sentence names its subject with a noun.\n\nPISANIE: twelve items, every one a two- or three-word pattern phrase and all twelve distinct under the engine's own norm(). The prepositional cases type their governor (w nowych sklepach, z dobrymi kolegami - the w domu shape AGENTS names, since neither case exists without it); the Genitive types its quantity word (duzo dobrych filmow); the Dative and both Nominative/Accusative jobs type adjective + noun alone, because there the governor is a verb and does not belong inside the minimal pattern unit. Under the 3-word cap, pattern phrases and not composed sentences; nothing added to the repair queue.\n\nTITLE: the planned tree label read 'Silownia - dobre i dobrych' and every word of it is taught, so unlike the previous three nodes this one did not have to be rescued. It was sharpened rather than corrected, to 'Silownia - dobrych, dobrymi, dobrym', which names the three-string collision the gym exists for; all three forms are owned, and check_new.py was re-run on every word at the wire per C1-SPINE's build protocol.",
+  "focus_structures": [
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "adj_pl_virile",
+    "plural_nom"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "adj_pl_virile",
+    "plural_nom",
+    "virile_reco",
+    "gen_pl",
+    "gen_pl_full",
+    "loc_pl",
+    "inst_pl",
+    "dat_pl",
+    "prep_w_loc",
+    "o_loc",
+    "inst_z",
+    "dative_sg",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to",
+    "negation",
+    "neg_gen",
+    "existential_jest",
+    "miec_acc",
+    "present",
+    "conjunctions",
+    "gen_endings",
+    "motion_chunk"
+  ],
+  "intro": [
     {
-     "en": "I'm going with good friends.",
-     "pl": "Idę z dobrymi kolegami."
+      "title": "One adjective, six jobs",
+      "title_pl": "-ych · -ymi · -ym · -e · -i",
+      "body": "Every plural adjective ending this course teaches, on one board. The adjective never tells you which job it is in. The word in front of it does.",
+      "body_pl": "przymiotnik w liczbie mnogiej — przegląd",
+      "table": {
+        "headers": [
+          "What is in front",
+          "Ending",
+          "Example"
+        ],
+        "rows": [
+          [
+            "dużo, nie ma",
+            "-ych",
+            "dużo dobrych filmów"
+          ],
+          [
+            "w, na, o",
+            "-ych",
+            "w dobrych sklepach"
+          ],
+          [
+            "z",
+            "-ymi",
+            "z dobrymi kolegami"
+          ],
+          [
+            "pomagać, dziękować",
+            "-ym",
+            "dobrym studentom"
+          ],
+          [
+            "znam, mam — object, men",
+            "-ych",
+            "Znam dobrych studentów."
+          ],
+          [
+            "nothing — it is the subject",
+            "-e / -i",
+            "Filmy są dobre. Studenci są dobrzy."
+          ]
+        ]
+      }
     },
     {
-     "en": "In the big cities there are no good shops.",
-     "pl": "W dużych miastach nie ma dobrych sklepów."
+      "title": "-ych does three jobs. Read the word in front.",
+      "title_pl": "dużo · w · znam",
+      "body": "Three of the six jobs are the same four letters. There is nothing inside -ych that says which one you are looking at, and there never will be. The trigger word settles it every time, and the noun behind confirms it.",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Phrase",
+          "The job"
+        ],
+        "rows": [
+          [
+            "dużo",
+            "dużo nowych sklepów",
+            "quantity"
+          ],
+          [
+            "w",
+            "w nowych sklepach",
+            "place"
+          ],
+          [
+            "znam",
+            "Znam nowych klientów.",
+            "object, a group with men"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The men/not-men split shows in only two of the six",
+      "title_pl": "dobrzy · dobrych · dobrymi · dobrym",
+      "body": "This is the part worth keeping. A group with a man in it takes a special adjective when it is the subject, and again when it is the object. In the other four jobs — after dużo, after w, na and o, after z, after pomagać and dziękować — the plural adjective is one form for everyone, men or not.",
+      "table": {
+        "headers": [
+          "Job",
+          "Things",
+          "A group with men"
+        ],
+        "rows": [
+          [
+            "subject",
+            "dobre filmy",
+            "dobrzy studenci"
+          ],
+          [
+            "object",
+            "dobre filmy",
+            "dobrych studentów"
+          ],
+          [
+            "after z",
+            "z dobrymi kotami",
+            "z dobrymi kolegami"
+          ],
+          [
+            "after pomagać",
+            "dobrym kotom",
+            "dobrym studentom"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm going with good friends.",
+          "pl": "Idę z dobrymi kolegami."
+        },
+        {
+          "en": "In the big cities there are no good shops.",
+          "pl": "W dużych miastach nie ma dobrych sklepów."
+        }
+      ]
     }
-   ]
-  }
- ],
- "match": [
-  {
-   "en": "a lot of good films",
-   "pl": "dużo dobrych filmów"
-  },
-  {
-   "en": "there are no new shops",
-   "pl": "nie ma nowych sklepów"
-  },
-  {
-   "en": "in the big cities",
-   "pl": "w dużych miastach"
-  },
-  {
-   "en": "in the new shops",
-   "pl": "w nowych sklepach"
-  },
-  {
-   "en": "about the new schools",
-   "pl": "o nowych szkołach"
-  },
-  {
-   "en": "with good friends",
-   "pl": "z dobrymi kolegami"
-  },
-  {
-   "en": "with small children",
-   "pl": "z małymi dziećmi"
-  },
-  {
-   "en": "I help the new students.",
-   "pl": "Pomagam nowym studentom."
-  },
-  {
-   "en": "I thank the good people.",
-   "pl": "Dziękuję dobrym ludziom."
-  },
-  {
-   "en": "I know the new clients.",
-   "pl": "Znam nowych klientów."
-  },
-  {
-   "en": "The doctors are tired.",
-   "pl": "Lekarze są zmęczeni."
-  },
-  {
-   "en": "The houses are big.",
-   "pl": "Domy są duże."
-  }
- ],
- "quiz": [
-  {
-   "prompt": "dużo ___ filmów (good)",
-   "choices": [
+  ],
+  "match": [
+    {
+      "en": "a lot of good films",
+      "pl": "dużo dobrych filmów"
+    },
+    {
+      "en": "there are no new shops",
+      "pl": "nie ma nowych sklepów"
+    },
+    {
+      "en": "in the big cities",
+      "pl": "w dużych miastach"
+    },
+    {
+      "en": "in the new shops",
+      "pl": "w nowych sklepach"
+    },
+    {
+      "en": "about the new schools",
+      "pl": "o nowych szkołach"
+    },
+    {
+      "en": "with good friends",
+      "pl": "z dobrymi kolegami"
+    },
+    {
+      "en": "with small children",
+      "pl": "z małymi dziećmi"
+    },
+    {
+      "en": "I help the new students.",
+      "pl": "Pomagam nowym studentom."
+    },
+    {
+      "en": "I thank the good people.",
+      "pl": "Dziękuję dobrym ludziom."
+    },
+    {
+      "en": "I know the new clients.",
+      "pl": "Znam nowych klientów."
+    },
+    {
+      "en": "The doctors are tired.",
+      "pl": "Lekarze są zmęczeni."
+    },
+    {
+      "en": "The houses are big.",
+      "pl": "Domy są duże."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "dużo ___ filmów (good)",
+      "choices": [
+        "dobrych",
+        "dobrymi",
+        "dobrym",
+        "dobre"
+      ],
+      "answer": "dobrych",
+      "explain": "dużo has taken the Genitive since A1, and the plural adjective there is -ych."
+    },
+    {
+      "prompt": "w ___ miastach (small)",
+      "choices": [
+        "małych",
+        "małymi",
+        "małym",
+        "małe"
+      ],
+      "answer": "małych",
+      "explain": "w is a Locative word, and the Locative plural adjective is -ych — the same string dużo takes, doing a different job."
+    },
+    {
+      "prompt": "z ___ kolegami (good)",
+      "choices": [
+        "dobrymi",
+        "dobrych",
+        "dobrym",
+        "dobre"
+      ],
+      "answer": "dobrymi",
+      "explain": "z is the one trigger in the whole board that asks for -ymi. Same four buttons as the last item, different word in front."
+    },
+    {
+      "prompt": "Pomagam ___ studentom. (new)",
+      "choices": [
+        "nowym",
+        "nowych",
+        "nowymi",
+        "nowe"
+      ],
+      "answer": "nowym",
+      "explain": "pomagać takes the Dative, and -om on the noun confirms it. Read the noun, not the adjective."
+    },
+    {
+      "prompt": "Znam ___ klientów. (new)",
+      "choices": [
+        "nowych",
+        "nowi",
+        "nowe",
+        "nowym"
+      ],
+      "answer": "nowych",
+      "explain": "An object that is a group with men in it borrows the Genitive, on the noun and on the adjective alike. nowi is the subject form."
+    },
+    {
+      "prompt": "___ studenci są młodzi. (these)",
+      "choices": [
+        "Ci",
+        "Te",
+        "Ten",
+        "Ta"
+      ],
+      "answer": "Ci",
+      "explain": "studenci is a group with men in it, so ci rather than te — and the adjective after it goes the same way."
+    },
+    {
+      "prompt": "Sklepy są ___. (new)",
+      "choices": [
+        "nowe",
+        "nowi",
+        "nowych",
+        "nowymi"
+      ],
+      "answer": "nowe",
+      "explain": "Shops are things and this is the subject, so the plain -e plural from A2. Nothing in front of it, nothing borrowed."
+    },
+    {
+      "prompt": "Lekarze są ___. (good)",
+      "choices": [
+        "dobrzy",
+        "dobre",
+        "dobrych",
+        "dobrym"
+      ],
+      "answer": "dobrzy",
+      "explain": "The subject is one of the two places where the men/not-men split shows. dobrych would be right the moment this became an object."
+    },
+    {
+      "prompt": "nie ma ___ gazet (big)",
+      "choices": [
+        "dużych",
+        "duże",
+        "dużo",
+        "duża"
+      ],
+      "answer": "dużych",
+      "explain": "nie ma takes the Genitive, exactly as dużo does. dużo is a different word that happens to start the same way, and it can even stand in front: dużo dużych gazet."
+    },
+    {
+      "prompt": "Dziękuję ___ siostrom. (good)",
+      "choices": [
+        "dobrym",
+        "dobrych",
+        "dobrymi",
+        "dobre"
+      ],
+      "answer": "dobrym",
+      "explain": "dziękować takes the Dative just as pomagać does. The third appearance of these same four buttons, and the third different answer."
+    },
+    {
+      "prompt": "z ___ dziećmi (small)",
+      "choices": [
+        "małymi",
+        "małych",
+        "małym",
+        "małe"
+      ],
+      "answer": "małymi",
+      "explain": "z again, so -ymi again — and dziećmi is neuter, which makes no difference at all in the plural."
+    },
+    {
+      "prompt": "Córki są ___. (tired)",
+      "choices": [
+        "zmęczone",
+        "zmęczeni",
+        "zmęczona",
+        "zmęczony"
+      ],
+      "answer": "zmęczone",
+      "explain": "Worth slowing down for after the last unit. Daughters are people but they are not men, and the special form is about men rather than about people."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "a lot of good films",
+      "mode": "full_word",
+      "answer": "dużo dobrych filmów",
+      "accepts": [
+        "dużo dobrych filmów"
+      ]
+    },
+    {
+      "prompt_en": "in the new shops",
+      "mode": "full_word",
+      "answer": "w nowych sklepach",
+      "accepts": [
+        "w nowych sklepach"
+      ]
+    },
+    {
+      "prompt_en": "with good friends",
+      "mode": "full_word",
+      "answer": "z dobrymi kolegami",
+      "accepts": [
+        "z dobrymi kolegami"
+      ]
+    },
+    {
+      "prompt_en": "to/for the new students (after pomagać)",
+      "mode": "full_word",
+      "answer": "nowym studentom",
+      "accepts": [
+        "nowym studentom"
+      ]
+    },
+    {
+      "prompt_en": "in the big cities",
+      "mode": "full_word",
+      "answer": "w dużych miastach",
+      "accepts": [
+        "w dużych miastach"
+      ]
+    },
+    {
+      "prompt_en": "with small children",
+      "mode": "full_word",
+      "answer": "z małymi dziećmi",
+      "accepts": [
+        "z małymi dziećmi"
+      ]
+    },
+    {
+      "prompt_en": "to/for the good sisters (after dziękować)",
+      "mode": "full_word",
+      "answer": "dobrym siostrom",
+      "accepts": [
+        "dobrym siostrom"
+      ]
+    },
+    {
+      "prompt_en": "the good students — as the subject",
+      "mode": "full_word",
+      "answer": "dobrzy studenci",
+      "accepts": [
+        "dobrzy studenci"
+      ]
+    },
+    {
+      "prompt_en": "the good students — as the object",
+      "mode": "full_word",
+      "answer": "dobrych studentów",
+      "accepts": [
+        "dobrych studentów"
+      ],
+      "explain": "Same two words, and only the job changed. The object form of a men-group plural is the Genitive, borrowed whole."
+    },
+    {
+      "prompt_en": "the new shops — as the subject",
+      "mode": "full_word",
+      "answer": "nowe sklepy",
+      "accepts": [
+        "nowe sklepy"
+      ]
+    },
+    {
+      "prompt_en": "about the new schools",
+      "mode": "full_word",
+      "answer": "o nowych szkołach",
+      "accepts": [
+        "o nowych szkołach"
+      ]
+    },
+    {
+      "prompt_en": "to/for the small cats",
+      "mode": "full_word",
+      "answer": "małym kotom",
+      "accepts": [
+        "małym kotom"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I help the new students.",
+      "answer": "Pomagam nowym studentom.",
+      "accepts": [
+        "Pomagam nowym studentom.",
+        "Pomagam nowym studentom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know the good students.",
+      "answer": "Znam dobrych studentów.",
+      "accepts": [
+        "Znam dobrych studentów.",
+        "Znam dobrych studentów"
+      ]
+    },
+    {
+      "prompt_en": "Type: In the big cities there are no good shops.",
+      "answer": "W dużych miastach nie ma dobrych sklepów.",
+      "accepts": [
+        "W dużych miastach nie ma dobrych sklepów.",
+        "W dużych miastach nie ma dobrych sklepów",
+        "Miastach nie ma dobrych sklepów w dużych.",
+        "Miastach nie ma dobrych sklepów w dużych"
+      ],
+      "explain": "Two jobs of -ych in one sentence: the Locative after w, and the Genitive after nie ma."
+    },
+    {
+      "prompt_en": "Type: I'm going with good friends.",
+      "answer": "Idę z dobrymi kolegami.",
+      "accepts": [
+        "Idę z dobrymi kolegami.",
+        "Idę z dobrymi kolegami"
+      ]
+    },
+    {
+      "prompt_en": "Type: These doctors are tired.",
+      "answer": "Ci lekarze są zmęczeni.",
+      "accepts": [
+        "Ci lekarze są zmęczeni.",
+        "Ci lekarze są zmęczeni"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum helps the small children.",
+      "answer": "Mama pomaga małym dzieciom.",
+      "accepts": [
+        "Mama pomaga małym dzieciom.",
+        "Mama pomaga małym dzieciom"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are a lot of new shops in the city.",
+      "answer": "W mieście jest dużo nowych sklepów.",
+      "accepts": [
+        "W mieście jest dużo nowych sklepów.",
+        "W mieście jest dużo nowych sklepów",
+        "Jest dużo nowych sklepów w mieście.",
+        "Jest dużo nowych sklepów w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: I thank the good people.",
+      "answer": "Dziękuję dobrym ludziom.",
+      "accepts": [
+        "Dziękuję dobrym ludziom.",
+        "Dziękuję dobrym ludziom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The shops are new, but the hotels are big.",
+      "answer": "Sklepy są nowe, ale hotele są duże.",
+      "accepts": [
+        "Sklepy są nowe, ale hotele są duże.",
+        "Sklepy są nowe, ale hotele są duże"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know the new clients and I help the new students.",
+      "answer": "Znam nowych klientów i pomagam nowym studentom.",
+      "accepts": [
+        "Znam nowych klientów i pomagam nowym studentom.",
+        "Znam nowych klientów i pomagam nowym studentom"
+      ],
+      "explain": "The object form and the Dative form side by side — -ych after znam because the clients are a group with men in it, -ym after pomagam because that verb takes the Dative."
+    }
+  ],
+  "uses_lemmas": [
     "dobrych",
-    "dobrymi",
-    "dobrym",
-    "dobre"
-   ],
-   "answer": "dobrych",
-   "explain": "dużo has taken the Genitive since A1, and the plural adjective there is -ych."
-  },
-  {
-   "prompt": "w ___ miastach (small)",
-   "choices": [
+    "nowych",
     "małych",
-    "małymi",
-    "małym",
-    "małe"
-   ],
-   "answer": "małych",
-   "explain": "w is a Locative word, and the Locative plural adjective is -ych — the same string dużo takes, doing a different job."
-  },
-  {
-   "prompt": "z ___ kolegami (good)",
-   "choices": [
-    "dobrymi",
-    "dobrych",
-    "dobrym",
-    "dobre"
-   ],
-   "answer": "dobrymi",
-   "explain": "z is the one trigger in the whole board that asks for -ymi. Same four buttons as the last item, different word in front."
-  },
-  {
-   "prompt": "Pomagam ___ studentom. (new)",
-   "choices": [
-    "nowym",
-    "nowych",
-    "nowymi",
-    "nowe"
-   ],
-   "answer": "nowym",
-   "explain": "pomagać takes the Dative, and -om on the noun confirms it. Read the noun, not the adjective."
-  },
-  {
-   "prompt": "Znam ___ klientów. (new)",
-   "choices": [
-    "nowych",
-    "nowi",
-    "nowe",
-    "nowym"
-   ],
-   "answer": "nowych",
-   "explain": "An object that is a group with men in it borrows the Genitive, on the noun and on the adjective alike. nowi is the subject form."
-  },
-  {
-   "prompt": "___ studenci są młodzi. (these)",
-   "choices": [
-    "Ci",
-    "Te",
-    "Ten",
-    "Ta"
-   ],
-   "answer": "Ci",
-   "explain": "studenci is a group with men in it, so ci rather than te — and the adjective after it goes the same way."
-  },
-  {
-   "prompt": "Sklepy są ___. (new)",
-   "choices": [
-    "nowe",
-    "nowi",
-    "nowych",
-    "nowymi"
-   ],
-   "answer": "nowe",
-   "explain": "Shops are things and this is the subject, so the plain -e plural from A2. Nothing in front of it, nothing borrowed."
-  },
-  {
-   "prompt": "Lekarze są ___. (good)",
-   "choices": [
-    "dobrzy",
-    "dobre",
-    "dobrych",
-    "dobrym"
-   ],
-   "answer": "dobrzy",
-   "explain": "The subject is one of the two places where the men/not-men split shows. dobrych would be right the moment this became an object."
-  },
-  {
-   "prompt": "nie ma ___ gazet (big)",
-   "choices": [
     "dużych",
-    "duże",
-    "dużo",
-    "duża"
-   ],
-   "answer": "dużych",
-   "explain": "nie ma takes the Genitive, exactly as dużo does. dużo is a different word that happens to start the same way, and it can even stand in front: dużo dużych gazet."
-  },
-  {
-   "prompt": "Dziękuję ___ siostrom. (good)",
-   "choices": [
-    "dobrym",
-    "dobrych",
     "dobrymi",
-    "dobre"
-   ],
-   "answer": "dobrym",
-   "explain": "dziękować takes the Dative just as pomagać does. The third appearance of these same four buttons, and the third different answer."
-  },
-  {
-   "prompt": "z ___ dziećmi (small)",
-   "choices": [
+    "nowymi",
     "małymi",
-    "małych",
+    "dobrym",
+    "nowym",
     "małym",
-    "małe"
-   ],
-   "answer": "małymi",
-   "explain": "z again, so -ymi again — and dziećmi is neuter, which makes no difference at all in the plural."
-  },
-  {
-   "prompt": "Córki są ___. (tired)",
-   "choices": [
-    "zmęczone",
+    "dobre",
+    "nowe",
+    "małe",
+    "duże",
+    "dobrzy",
+    "nowi",
     "zmęczeni",
+    "zmęczone",
+    "młodzi",
+    "dobra",
+    "duża",
+    "dużo",
+    "zmęczony",
     "zmęczona",
-    "zmęczony"
-   ],
-   "answer": "zmęczone",
-   "explain": "Worth slowing down for after the last unit. Daughters are people but they are not men, and the special form is about men rather than about people."
+    "ci",
+    "te",
+    "ten",
+    "ta",
+    "filmów",
+    "sklepów",
+    "gazet",
+    "sklepach",
+    "miastach",
+    "szkołach",
+    "hotelach",
+    "kolegami",
+    "dziećmi",
+    "kotami",
+    "studentom",
+    "siostrom",
+    "kotom",
+    "dzieciom",
+    "ludziom",
+    "studentów",
+    "klientów",
+    "sklepy",
+    "filmy",
+    "domy",
+    "hotele",
+    "studenci",
+    "lekarze",
+    "córki",
+    "koty",
+    "jest",
+    "są",
+    "nie ma",
+    "nie",
+    "znam",
+    "mam",
+    "pomagam",
+    "pomaga",
+    "pomagać",
+    "dziękuję",
+    "dziękować",
+    "idę",
+    "mama",
+    "w mieście",
+    "ale",
+    "i",
+    "siłownia",
+    "mieście",
+    "ma",
+    "o"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_adj_pl_gym",
+    "pool_model": "cumulative_focus_recycle"
   }
- ],
- "type_items": [
-  {
-   "prompt_en": "a lot of good films",
-   "mode": "full_word",
-   "answer": "dużo dobrych filmów",
-   "accepts": [
-    "dużo dobrych filmów"
-   ]
-  },
-  {
-   "prompt_en": "in the new shops",
-   "mode": "full_word",
-   "answer": "w nowych sklepach",
-   "accepts": [
-    "w nowych sklepach"
-   ]
-  },
-  {
-   "prompt_en": "with good friends",
-   "mode": "full_word",
-   "answer": "z dobrymi kolegami",
-   "accepts": [
-    "z dobrymi kolegami"
-   ]
-  },
-  {
-   "prompt_en": "to/for the new students (after pomagać)",
-   "mode": "full_word",
-   "answer": "nowym studentom",
-   "accepts": [
-    "nowym studentom"
-   ]
-  },
-  {
-   "prompt_en": "in the big cities",
-   "mode": "full_word",
-   "answer": "w dużych miastach",
-   "accepts": [
-    "w dużych miastach"
-   ]
-  },
-  {
-   "prompt_en": "with small children",
-   "mode": "full_word",
-   "answer": "z małymi dziećmi",
-   "accepts": [
-    "z małymi dziećmi"
-   ]
-  },
-  {
-   "prompt_en": "to/for the good sisters (after dziękować)",
-   "mode": "full_word",
-   "answer": "dobrym siostrom",
-   "accepts": [
-    "dobrym siostrom"
-   ]
-  },
-  {
-   "prompt_en": "the good students — as the subject",
-   "mode": "full_word",
-   "answer": "dobrzy studenci",
-   "accepts": [
-    "dobrzy studenci"
-   ]
-  },
-  {
-   "prompt_en": "the good students — as the object",
-   "mode": "full_word",
-   "answer": "dobrych studentów",
-   "accepts": [
-    "dobrych studentów"
-   ],
-   "explain": "Same two words, and only the job changed. The object form of a men-group plural is the Genitive, borrowed whole."
-  },
-  {
-   "prompt_en": "the new shops — as the subject",
-   "mode": "full_word",
-   "answer": "nowe sklepy",
-   "accepts": [
-    "nowe sklepy"
-   ]
-  },
-  {
-   "prompt_en": "about the new schools",
-   "mode": "full_word",
-   "answer": "o nowych szkołach",
-   "accepts": [
-    "o nowych szkołach"
-   ]
-  },
-  {
-   "prompt_en": "to/for the small cats",
-   "mode": "full_word",
-   "answer": "małym kotom",
-   "accepts": [
-    "małym kotom"
-   ]
-  }
- ],
- "use_items": [
-  {
-   "prompt_en": "Type: I help the new students.",
-   "answer": "Pomagam nowym studentom.",
-   "accepts": [
-    "Pomagam nowym studentom.",
-    "Pomagam nowym studentom"
-   ]
-  },
-  {
-   "prompt_en": "Type: I know the good students.",
-   "answer": "Znam dobrych studentów.",
-   "accepts": [
-    "Znam dobrych studentów.",
-    "Znam dobrych studentów"
-   ]
-  },
-  {
-   "prompt_en": "Type: In the big cities there are no good shops.",
-   "answer": "W dużych miastach nie ma dobrych sklepów.",
-   "accepts": [
-    "W dużych miastach nie ma dobrych sklepów.",
-    "W dużych miastach nie ma dobrych sklepów"
-   ],
-   "explain": "Two jobs of -ych in one sentence: the Locative after w, and the Genitive after nie ma."
-  },
-  {
-   "prompt_en": "Type: I'm going with good friends.",
-   "answer": "Idę z dobrymi kolegami.",
-   "accepts": [
-    "Idę z dobrymi kolegami.",
-    "Idę z dobrymi kolegami"
-   ]
-  },
-  {
-   "prompt_en": "Type: These doctors are tired.",
-   "answer": "Ci lekarze są zmęczeni.",
-   "accepts": [
-    "Ci lekarze są zmęczeni.",
-    "Ci lekarze są zmęczeni"
-   ]
-  },
-  {
-   "prompt_en": "Type: Mum helps the small children.",
-   "answer": "Mama pomaga małym dzieciom.",
-   "accepts": [
-    "Mama pomaga małym dzieciom.",
-    "Mama pomaga małym dzieciom"
-   ]
-  },
-  {
-   "prompt_en": "Type: There are a lot of new shops in the city.",
-   "answer": "W mieście jest dużo nowych sklepów.",
-   "accepts": [
-    "W mieście jest dużo nowych sklepów.",
-    "W mieście jest dużo nowych sklepów"
-   ]
-  },
-  {
-   "prompt_en": "Type: I thank the good people.",
-   "answer": "Dziękuję dobrym ludziom.",
-   "accepts": [
-    "Dziękuję dobrym ludziom.",
-    "Dziękuję dobrym ludziom"
-   ]
-  },
-  {
-   "prompt_en": "Type: The shops are new, but the hotels are big.",
-   "answer": "Sklepy są nowe, ale hotele są duże.",
-   "accepts": [
-    "Sklepy są nowe, ale hotele są duże.",
-    "Sklepy są nowe, ale hotele są duże"
-   ]
-  },
-  {
-   "prompt_en": "Type: I know the new clients and I help the new students.",
-   "answer": "Znam nowych klientów i pomagam nowym studentom.",
-   "accepts": [
-    "Znam nowych klientów i pomagam nowym studentom.",
-    "Znam nowych klientów i pomagam nowym studentom"
-   ],
-   "explain": "The object form and the Dative form side by side — -ych after znam because the clients are a group with men in it, -ym after pomagam because that verb takes the Dative."
-  }
- ],
- "uses_lemmas": [
-  "dobrych",
-  "nowych",
-  "małych",
-  "dużych",
-  "dobrymi",
-  "nowymi",
-  "małymi",
-  "dobrym",
-  "nowym",
-  "małym",
-  "dobre",
-  "nowe",
-  "małe",
-  "duże",
-  "dobrzy",
-  "nowi",
-  "zmęczeni",
-  "zmęczone",
-  "młodzi",
-  "dobra",
-  "duża",
-  "dużo",
-  "zmęczony",
-  "zmęczona",
-  "ci",
-  "te",
-  "ten",
-  "ta",
-  "filmów",
-  "sklepów",
-  "gazet",
-  "sklepach",
-  "miastach",
-  "szkołach",
-  "hotelach",
-  "kolegami",
-  "dziećmi",
-  "kotami",
-  "studentom",
-  "siostrom",
-  "kotom",
-  "dzieciom",
-  "ludziom",
-  "studentów",
-  "klientów",
-  "sklepy",
-  "filmy",
-  "domy",
-  "hotele",
-  "studenci",
-  "lekarze",
-  "córki",
-  "koty",
-  "jest",
-  "są",
-  "nie ma",
-  "nie",
-  "znam",
-  "mam",
-  "pomagam",
-  "pomaga",
-  "pomagać",
-  "dziękuję",
-  "dziękować",
-  "idę",
-  "mama",
-  "w mieście",
-  "ale",
-  "i",
-  "siłownia",
-  "mieście",
-  "ma",
-  "o"
- ],
- "sequencing": {
-  "spec": "codex/SEQUENCING.md",
-  "phase": 1,
-  "node_id": "c1_adj_pl_gym",
-  "pool_model": "cumulative_focus_recycle"
- }
 }

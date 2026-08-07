@@ -596,7 +596,9 @@
       "answer": "Na dworcu trzeba było kupić bilet.",
       "accepts": [
         "Na dworcu trzeba było kupić bilet.",
-        "Na dworcu trzeba było kupić bilet"
+        "Na dworcu trzeba było kupić bilet",
+        "Trzeba było kupić bilet na dworcu.",
+        "Trzeba było kupić bilet na dworcu"
       ],
       "explain": "Nobody is named, so trzeba było rather than musiałem. Neither word changes for anyone."
     },
@@ -605,7 +607,9 @@
       "answer": "W sklepie można było płacić kartą.",
       "accepts": [
         "W sklepie można było płacić kartą.",
-        "W sklepie można było płacić kartą"
+        "W sklepie można było płacić kartą",
+        "Można było płacić kartą w sklepie.",
+        "Można było płacić kartą w sklepie"
       ]
     },
     {

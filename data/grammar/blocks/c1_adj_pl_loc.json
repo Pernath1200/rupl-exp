@@ -1,608 +1,618 @@
 {
- "id": "c1_adj_pl_loc",
- "title": "W dużych sklepach",
- "title_en": "Plural adjectives in the Locative · -ych again",
- "level": "C1",
- "tree_node": "c1_adj_pl_loc",
- "default_direction": "en_to_pl",
- "kind": "morphology",
- "type": {
-  "mode": "full_word"
- },
- "check": {
-  "sequence": [
-   "match",
-   "quiz"
-  ]
- },
- "note": "C1 Block 2, unit 2 (C1-SPINE O2) — the plural adjective's second case, and the course's \"same ending, another job\" idiom on its FIFTH turn (inst_identity -> inst_z -> inst_transport -> b2_adj_inst -> here).\n\nZERO NEW FORMS IN THE WHOLE UNIT, so teaches_lemmas is legitimately empty on the copular_future / adj_inst / ze_clauses / passive / existential_tense convention. dobrych, nowych, malych, duzych were all taught one node earlier by c1_adj_pl_gen [182]; every noun is a Locative plural b2_loc_pl [152] already owns; every governor (w, na, o) has been in the course since A1/A2. The unit's entire content is that a string the learner produced last unit is now correct in a second place.\n\nWHAT THIS UNBLOCKS: b2_loc_pl's digest flagged \"in the big cities\" as unsayable, and nine consecutive B2 units shipped bare-noun under B2-SPINE O3. w duzych miastach is now buildable, and this node is the second instalment of paying that back.\n\nTHE SPINE'S OWN ILLUSTRATION IS UNBUILDABLE AND WAS REPLACED, not smuggled in. C1-SPINE's Block 2 table offers \"W duzych sklepach. Mysle o starych filmach.\" The first half is fine. The second half is dead on both words: check_new.py reports starych NEW (c1_adj_pl_gen deliberately dropped stary from its four-adjective set, so no plural oblique of it exists) and filmach NEW (b2_loc_pl's eleven nouns do not include film). The o-governor row is carried by o duzych miastach instead. This is the same class of catch B2 hit repeatedly with its own spine illustrations (Mysle o dobrym filmie, Jade z mila siostra).\n\nTHE NOUN LIST IS HARD-LIMITED TO ELEVEN and that shaped every sentence. b2_loc_pl taught exactly domach, sklepach, hotelach, bankach, szkolach, firmach, gazetach, miastach, biurach, mieszkaniach, biurkach. filmach, parkach, kotach, ksiazkach, oknach and telefonach are ALL verified NEW and appear nowhere, which killed several natural draft sentences.\n\nna APPEARS EXACTLY ONCE, and the reason is lexical rather than a scope choice: biurkach is the only one of the eleven that takes na (na biurku, a2_house). The three-governor slide therefore carries one row per governor and the match board weights w heavily. Named here so a later reader does not read it as under-coverage.\n\nTHE SINGULAR CONTRAST IS THE UNIT'S SPINE AND IT IS FULLY OWNED. b2_adj_loc taught dobrym/nowym/malym/zimnym and b2_adj_gen taught dobrej/nowej/malej, so the -ym vs -ej choice can be shown honestly and then collapsed: the plural has nothing to choose. Slide 2 runs all three genders down the page for that one payoff.\n\nDISTRACTOR CATCH, the same one c1_adj_pl_gen hit one node earlier and worth restating because it recurs: duzy has NO taught singular oblique. duzym, duzego and duzej are all verified NEW. So every singular row of every table and every singular distractor in the quiz uses dobry / nowy / maly, never duzy — duzy appears only in the plural forms this block owns (duze, duza, duza-instrumental, duzych) and in the quantity word duzo. AGENTS bans fabricated non-words as distractors; an untaught real form is the same failure one step further along.\n\nmieszkania, biurka, mieszkan, firm and biurek are ALL verified NEW and appear nowhere - which is why quiz items 5, 7 and 11 take a grammatical SINGULAR as their sharpest distractor (w malym mieszkaniu, na malym biurku, o nowej szkole) rather than a plain-plural one. That turns out to be the better item in any case: the distractor is real Polish saying something else, which is the discrimination the unit actually needs.\n\nFENCED, and this is the single easiest fence in C1 to break by accident because the three strings are so close (C1-SPINE, Standing fences): NO -ymi anywhere, slides or distractors (c1_adj_pl_inst owns it, next node); NO plural-Dative -ym (c1_adj_pl_dat owns it). Note carefully that -ym DOES appear here, and legally: it is the SINGULAR masculine/neuter Locative b2_adj_loc [136] taught, used in exactly that job, and the unit needs it for the collapse. The homograph is real and is one node away - the same string will be a plural Dative in c1_adj_pl_dat - so that unit must name the collision rather than assume it.\n\nVIRILE forms of every kind are out (c1_adj_pl_virile owns them), so no person noun takes an adjective. ludzie appears once as a bare subject with no adjective on it (Ludzie mieszkaja w nowych domach), which is b2_loc_pl's own sentence shape and does not touch the fence. The honest fact, same as last node: the Locative plural has NO virile split either, so w dobrych lekarzach would have been correct - it is held out anyway so the block says nothing at all about people-plurals before the unit that owns them. -ich (wysokich, drogich) is out too; every adjective here is a hard stem.\n\nPISANIE: eight three-word prepositional phrases. The Locative does not exist without its governor - a bare \"dobrych hotelach\" is not something anyone says - so the minimal pattern unit for this case INCLUDES the preposition, which is exactly the shape AGENTS names when it lists \"w domu\" as a Pisanie pattern phrase. Three words, a pattern phrase and not a composed sentence, so typed whole under the James 2026-08-06 cap and its composition refinement. Nothing added to the repair queue. Answers checked for duplicates under the engine's own norm(): all eight distinct, with w duzych miastach and o duzych miastach separated by their governor.",
- "focus_structures": [
-  "adj_pl_loc"
- ],
- "teaches_structures": [
-  "adj_pl_loc"
- ],
- "teaches_lemmas": [],
- "uses_structures": [
-  "adj_pl_loc",
-  "adj_pl_gen",
-  "adj_loc",
-  "adj_gen",
-  "zgoda",
-  "loc_pl",
-  "prep_w_loc",
-  "prep_place",
-  "o_loc",
-  "plural_nom",
-  "gen_endings",
-  "gen_pl",
-  "gen_pl_full",
-  "negation",
-  "neg_gen",
-  "existential_jest",
-  "existential_tense",
-  "byc_present",
-  "past_byc",
-  "past_plural",
-  "present",
-  "conjunctions"
- ],
- "intro": [
-  {
-   "title": "The same ending, a second job",
-   "title_pl": "dużo dobrych sklepów → w dobrych sklepach",
-   "body": "Last unit gave you -ych for the Genitive plural. It is not a Genitive ending — it is the plural adjective ending, and the Locative is its second job. After w, na and o, which have taken the Locative since A1, the adjective in front of a plural noun is the same string you already produce. There is nothing new to learn here, only somewhere new to put it.",
-   "body_pl": "miejscownik liczby mnogiej — -ych",
-   "table": {
-    "headers": [
-     "Genitive plural (last unit)",
-     "Locative plural (this unit)"
-    ],
-    "rows": [
-     [
-      "dużo dobrych sklepów",
-      "w dobrych sklepach"
-     ],
-     [
-      "dużo nowych domów",
-      "w nowych domach"
-     ],
-     [
-      "dużo dobrych hoteli",
-      "w dobrych hotelach"
-     ],
-     [
-      "dużo nowych szkół",
-      "w nowych szkołach"
-     ]
-    ]
-   }
+  "id": "c1_adj_pl_loc",
+  "title": "W dużych sklepach",
+  "title_en": "Plural adjectives in the Locative · -ych again",
+  "level": "C1",
+  "tree_node": "c1_adj_pl_loc",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
   },
-  {
-   "title": "The choice the plural takes away",
-   "title_pl": "dobrym · dobrej → dobrych",
-   "body": "In the singular the Locative asked you a question every time: -ym for masculine and neuter, -ej for feminine. In the plural there is no question. One string covers all three genders, exactly as it did in the Genitive.",
-   "body_pl": "-ym · -ej → -ych",
-   "table": {
-    "headers": [
-     "Gender",
-     "One",
-     "More than one"
-    ],
-    "rows": [
-     [
-      "masculine",
-      "w nowym domu",
-      "w nowych domach"
-     ],
-     [
-      "feminine",
-      "w nowej szkole",
-      "w nowych szkołach"
-     ],
-     [
-      "neuter",
-      "w małym mieszkaniu",
-      "w małych mieszkaniach"
-     ]
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
     ]
-   },
-   "examples": [
+  },
+  "note": "C1 Block 2, unit 2 (C1-SPINE O2) — the plural adjective's second case, and the course's \"same ending, another job\" idiom on its FIFTH turn (inst_identity -> inst_z -> inst_transport -> b2_adj_inst -> here).\n\nZERO NEW FORMS IN THE WHOLE UNIT, so teaches_lemmas is legitimately empty on the copular_future / adj_inst / ze_clauses / passive / existential_tense convention. dobrych, nowych, malych, duzych were all taught one node earlier by c1_adj_pl_gen [182]; every noun is a Locative plural b2_loc_pl [152] already owns; every governor (w, na, o) has been in the course since A1/A2. The unit's entire content is that a string the learner produced last unit is now correct in a second place.\n\nWHAT THIS UNBLOCKS: b2_loc_pl's digest flagged \"in the big cities\" as unsayable, and nine consecutive B2 units shipped bare-noun under B2-SPINE O3. w duzych miastach is now buildable, and this node is the second instalment of paying that back.\n\nTHE SPINE'S OWN ILLUSTRATION IS UNBUILDABLE AND WAS REPLACED, not smuggled in. C1-SPINE's Block 2 table offers \"W duzych sklepach. Mysle o starych filmach.\" The first half is fine. The second half is dead on both words: check_new.py reports starych NEW (c1_adj_pl_gen deliberately dropped stary from its four-adjective set, so no plural oblique of it exists) and filmach NEW (b2_loc_pl's eleven nouns do not include film). The o-governor row is carried by o duzych miastach instead. This is the same class of catch B2 hit repeatedly with its own spine illustrations (Mysle o dobrym filmie, Jade z mila siostra).\n\nTHE NOUN LIST IS HARD-LIMITED TO ELEVEN and that shaped every sentence. b2_loc_pl taught exactly domach, sklepach, hotelach, bankach, szkolach, firmach, gazetach, miastach, biurach, mieszkaniach, biurkach. filmach, parkach, kotach, ksiazkach, oknach and telefonach are ALL verified NEW and appear nowhere, which killed several natural draft sentences.\n\nna APPEARS EXACTLY ONCE, and the reason is lexical rather than a scope choice: biurkach is the only one of the eleven that takes na (na biurku, a2_house). The three-governor slide therefore carries one row per governor and the match board weights w heavily. Named here so a later reader does not read it as under-coverage.\n\nTHE SINGULAR CONTRAST IS THE UNIT'S SPINE AND IT IS FULLY OWNED. b2_adj_loc taught dobrym/nowym/malym/zimnym and b2_adj_gen taught dobrej/nowej/malej, so the -ym vs -ej choice can be shown honestly and then collapsed: the plural has nothing to choose. Slide 2 runs all three genders down the page for that one payoff.\n\nDISTRACTOR CATCH, the same one c1_adj_pl_gen hit one node earlier and worth restating because it recurs: duzy has NO taught singular oblique. duzym, duzego and duzej are all verified NEW. So every singular row of every table and every singular distractor in the quiz uses dobry / nowy / maly, never duzy — duzy appears only in the plural forms this block owns (duze, duza, duza-instrumental, duzych) and in the quantity word duzo. AGENTS bans fabricated non-words as distractors; an untaught real form is the same failure one step further along.\n\nmieszkania, biurka, mieszkan, firm and biurek are ALL verified NEW and appear nowhere - which is why quiz items 5, 7 and 11 take a grammatical SINGULAR as their sharpest distractor (w malym mieszkaniu, na malym biurku, o nowej szkole) rather than a plain-plural one. That turns out to be the better item in any case: the distractor is real Polish saying something else, which is the discrimination the unit actually needs.\n\nFENCED, and this is the single easiest fence in C1 to break by accident because the three strings are so close (C1-SPINE, Standing fences): NO -ymi anywhere, slides or distractors (c1_adj_pl_inst owns it, next node); NO plural-Dative -ym (c1_adj_pl_dat owns it). Note carefully that -ym DOES appear here, and legally: it is the SINGULAR masculine/neuter Locative b2_adj_loc [136] taught, used in exactly that job, and the unit needs it for the collapse. The homograph is real and is one node away - the same string will be a plural Dative in c1_adj_pl_dat - so that unit must name the collision rather than assume it.\n\nVIRILE forms of every kind are out (c1_adj_pl_virile owns them), so no person noun takes an adjective. ludzie appears once as a bare subject with no adjective on it (Ludzie mieszkaja w nowych domach), which is b2_loc_pl's own sentence shape and does not touch the fence. The honest fact, same as last node: the Locative plural has NO virile split either, so w dobrych lekarzach would have been correct - it is held out anyway so the block says nothing at all about people-plurals before the unit that owns them. -ich (wysokich, drogich) is out too; every adjective here is a hard stem.\n\nPISANIE: eight three-word prepositional phrases. The Locative does not exist without its governor - a bare \"dobrych hotelach\" is not something anyone says - so the minimal pattern unit for this case INCLUDES the preposition, which is exactly the shape AGENTS names when it lists \"w domu\" as a Pisanie pattern phrase. Three words, a pattern phrase and not a composed sentence, so typed whole under the James 2026-08-06 cap and its composition refinement. Nothing added to the repair queue. Answers checked for duplicates under the engine's own norm(): all eight distinct, with w duzych miastach and o duzych miastach separated by their governor.",
+  "focus_structures": [
+    "adj_pl_loc"
+  ],
+  "teaches_structures": [
+    "adj_pl_loc"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "adj_pl_loc",
+    "adj_pl_gen",
+    "adj_loc",
+    "adj_gen",
+    "zgoda",
+    "loc_pl",
+    "prep_w_loc",
+    "prep_place",
+    "o_loc",
+    "plural_nom",
+    "gen_endings",
+    "gen_pl",
+    "gen_pl_full",
+    "negation",
+    "neg_gen",
+    "existential_jest",
+    "existential_tense",
+    "byc_present",
+    "past_byc",
+    "past_plural",
+    "present",
+    "conjunctions"
+  ],
+  "intro": [
     {
-     "en": "People live in new houses.",
-     "pl": "Ludzie mieszkają w nowych domach."
+      "title": "The same ending, a second job",
+      "title_pl": "dużo dobrych sklepów → w dobrych sklepach",
+      "body": "Last unit gave you -ych for the Genitive plural. It is not a Genitive ending — it is the plural adjective ending, and the Locative is its second job. After w, na and o, which have taken the Locative since A1, the adjective in front of a plural noun is the same string you already produce. There is nothing new to learn here, only somewhere new to put it.",
+      "body_pl": "miejscownik liczby mnogiej — -ych",
+      "table": {
+        "headers": [
+          "Genitive plural (last unit)",
+          "Locative plural (this unit)"
+        ],
+        "rows": [
+          [
+            "dużo dobrych sklepów",
+            "w dobrych sklepach"
+          ],
+          [
+            "dużo nowych domów",
+            "w nowych domach"
+          ],
+          [
+            "dużo dobrych hoteli",
+            "w dobrych hotelach"
+          ],
+          [
+            "dużo nowych szkół",
+            "w nowych szkołach"
+          ]
+        ]
+      }
     },
     {
-     "en": "We live in small flats.",
-     "pl": "Mieszkamy w małych mieszkaniach."
-    }
-   ]
-  },
-  {
-   "title": "All three trigger words, unchanged",
-   "title_pl": "w · na · o + miejscownik",
-   "body": "No new trigger comes with this ending. The three words that put a noun in the Locative are the three you have always had, and none of them behaves differently in front of a plural.",
-   "table": {
-    "headers": [
-     "Trigger",
-     "Example"
-    ],
-    "rows": [
-     [
-      "w",
-      "w dużych sklepach"
-     ],
-     [
-      "na",
-      "na małych biurkach"
-     ],
-     [
-      "o",
-      "o dużych miastach"
-     ]
-    ]
-   },
-   "examples": [
-    {
-     "en": "There are a lot of newspapers in the big shops.",
-     "pl": "W dużych sklepach jest dużo gazet."
+      "title": "The choice the plural takes away",
+      "title_pl": "dobrym · dobrej → dobrych",
+      "body": "In the singular the Locative asked you a question every time: -ym for masculine and neuter, -ej for feminine. In the plural there is no question. One string covers all three genders, exactly as it did in the Genitive.",
+      "body_pl": "-ym · -ej → -ych",
+      "table": {
+        "headers": [
+          "Gender",
+          "One",
+          "More than one"
+        ],
+        "rows": [
+          [
+            "masculine",
+            "w nowym domu",
+            "w nowych domach"
+          ],
+          [
+            "feminine",
+            "w nowej szkole",
+            "w nowych szkołach"
+          ],
+          [
+            "neuter",
+            "w małym mieszkaniu",
+            "w małych mieszkaniach"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "People live in new houses.",
+          "pl": "Ludzie mieszkają w nowych domach."
+        },
+        {
+          "en": "We live in small flats.",
+          "pl": "Mieszkamy w małych mieszkaniach."
+        }
+      ]
     },
     {
-     "en": "Mum is thinking about the big cities.",
-     "pl": "Mama myśli o dużych miastach."
-    }
-   ]
-  },
-  {
-   "title": "One string, two cases",
-   "title_pl": "dopełniacz czy miejscownik?",
-   "body": "-ych is now doing two jobs, and the adjective looks identical in both. What tells you which case you are in is the word in front: dużo and nie ma give you the Genitive, w, na and o give you the Locative. The noun behind the adjective moves differently in each — sklepów against sklepach — so the pair is never actually ambiguous.",
-   "table": {
-    "headers": [
-     "Trigger",
-     "Case",
-     "Phrase"
-    ],
-    "rows": [
-     [
-      "dużo",
-      "Genitive",
-      "dużo dobrych sklepów"
-     ],
-     [
-      "nie ma",
-      "Genitive",
-      "nie ma dobrych sklepów"
-     ],
-     [
-      "w",
-      "Locative",
-      "w dobrych sklepach"
-     ],
-     [
-      "o",
-      "Locative",
-      "o dobrych sklepach"
-     ]
-    ]
-   },
-   "examples": [
+      "title": "All three trigger words, unchanged",
+      "title_pl": "w · na · o + miejscownik",
+      "body": "No new trigger comes with this ending. The three words that put a noun in the Locative are the three you have always had, and none of them behaves differently in front of a plural.",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w",
+            "w dużych sklepach"
+          ],
+          [
+            "na",
+            "na małych biurkach"
+          ],
+          [
+            "o",
+            "o dużych miastach"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "There are a lot of newspapers in the big shops.",
+          "pl": "W dużych sklepach jest dużo gazet."
+        },
+        {
+          "en": "Mum is thinking about the big cities.",
+          "pl": "Mama myśli o dużych miastach."
+        }
+      ]
+    },
     {
-     "en": "In the small offices there are no big windows.",
-     "pl": "W małych biurach nie ma dużych okien."
+      "title": "One string, two cases",
+      "title_pl": "dopełniacz czy miejscownik?",
+      "body": "-ych is now doing two jobs, and the adjective looks identical in both. What tells you which case you are in is the word in front: dużo and nie ma give you the Genitive, w, na and o give you the Locative. The noun behind the adjective moves differently in each — sklepów against sklepach — so the pair is never actually ambiguous.",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Case",
+          "Phrase"
+        ],
+        "rows": [
+          [
+            "dużo",
+            "Genitive",
+            "dużo dobrych sklepów"
+          ],
+          [
+            "nie ma",
+            "Genitive",
+            "nie ma dobrych sklepów"
+          ],
+          [
+            "w",
+            "Locative",
+            "w dobrych sklepach"
+          ],
+          [
+            "o",
+            "Locative",
+            "o dobrych sklepach"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "In the small offices there are no big windows.",
+          "pl": "W małych biurach nie ma dużych okien."
+        }
+      ]
     }
-   ]
-  }
- ],
- "match": [
-  {
-   "en": "There are a lot of newspapers in the big shops.",
-   "pl": "W dużych sklepach jest dużo gazet."
-  },
-  {
-   "en": "I'm thinking about the big cities.",
-   "pl": "Myślę o dużych miastach."
-  },
-  {
-   "en": "There are a lot of shops in the big cities.",
-   "pl": "W dużych miastach jest dużo sklepów."
-  },
-  {
-   "en": "People live in new houses.",
-   "pl": "Ludzie mieszkają w nowych domach."
-  },
-  {
-   "en": "We're talking about the new schools.",
-   "pl": "Mówimy o nowych szkołach."
-  },
-  {
-   "en": "There are big windows in the new flats.",
-   "pl": "W nowych mieszkaniach są duże okna."
-  },
-  {
-   "en": "We were in good hotels.",
-   "pl": "Byliśmy w dobrych hotelach."
-  },
-  {
-   "en": "There are a lot of books in good schools.",
-   "pl": "W dobrych szkołach jest dużo książek."
-  },
-  {
-   "en": "I'm talking about the good companies.",
-   "pl": "Mówię o dobrych firmach."
-  },
-  {
-   "en": "There are phones on the small desks.",
-   "pl": "Na małych biurkach są telefony."
-  },
-  {
-   "en": "In the small offices there are no big windows.",
-   "pl": "W małych biurach nie ma dużych okien."
-  },
-  {
-   "en": "We live in small flats.",
-   "pl": "Mieszkamy w małych mieszkaniach."
-  }
- ],
- "quiz": [
-  {
-   "prompt": "in the big shops →",
-   "choices": [
-    "w dużych sklepach",
-    "w dużych sklepy",
-    "w duże sklepach",
-    "w dużych sklepów"
-   ],
-   "answer": "w dużych sklepach",
-   "explain": "Both words carry the Locative plural — -ych on the adjective, -ach on the noun. sklepów is the Genitive you learned last unit and belongs after dużo, not after w."
-  },
-  {
-   "prompt": "W ___ domach mieszkają ludzie. (new)",
-   "choices": [
-    "nowych",
-    "nowe",
-    "nowym",
-    "nowej"
-   ],
-   "answer": "nowych",
-   "explain": "domach is a Locative plural, so the adjective takes the one plural ending. nowym would be right for a single house."
-  },
-  {
-   "prompt": "in the new house (just one) →",
-   "choices": [
-    "w nowym domu",
-    "w nowych domu",
-    "w nowym domach",
-    "w nowych domach"
-   ],
-   "answer": "w nowym domu",
-   "explain": "The new ending is for plurals only. One house is still the singular Locative from B2, and nothing about this unit changes it."
-  },
-  {
-   "prompt": "Myślę o ___ miastach. (big)",
-   "choices": [
-    "dużych",
-    "duże",
-    "dużo",
-    "dużą"
-   ],
-   "answer": "dużych",
-   "explain": "o takes the Locative and miastach is plural. dużo is a different word altogether — the quantity, not the size — and it never changes shape."
-  },
-  {
-   "prompt": "in small flats →",
-   "choices": [
-    "w małych mieszkaniach",
-    "w małym mieszkaniach",
-    "w małych mieszkaniu",
-    "w małym mieszkaniu"
-   ],
-   "answer": "w małych mieszkaniach",
-   "explain": "The last option is good Polish but says something else — in one small flat. Both words have to be plural or neither is."
-  },
-  {
-   "prompt": "We were in good hotels. →",
-   "choices": [
-    "Byliśmy w dobrych hotelach.",
-    "Byliśmy w dobrym hotelach.",
-    "Byliśmy w dobrych hotelu.",
-    "Byliśmy w dobre hotele."
-   ],
-   "answer": "Byliśmy w dobrych hotelach.",
-   "explain": "dobre hotele is the plain plural, the shape English invites because English changes nothing after \"in\". w always moves what follows it."
-  },
-  {
-   "prompt": "on the small desks →",
-   "choices": [
-    "na małych biurkach",
-    "na małym biurkach",
-    "na małych biurku",
-    "na małym biurku"
-   ],
-   "answer": "na małych biurkach",
-   "explain": "na takes exactly the same Locative w takes. Changing the trigger word changes nothing about the endings."
-  },
-  {
-   "prompt": "W ___ szkołach jest dużo książek. (good)",
-   "choices": [
+  ],
+  "match": [
+    {
+      "en": "There are a lot of newspapers in the big shops.",
+      "pl": "W dużych sklepach jest dużo gazet."
+    },
+    {
+      "en": "I'm thinking about the big cities.",
+      "pl": "Myślę o dużych miastach."
+    },
+    {
+      "en": "There are a lot of shops in the big cities.",
+      "pl": "W dużych miastach jest dużo sklepów."
+    },
+    {
+      "en": "People live in new houses.",
+      "pl": "Ludzie mieszkają w nowych domach."
+    },
+    {
+      "en": "We're talking about the new schools.",
+      "pl": "Mówimy o nowych szkołach."
+    },
+    {
+      "en": "There are big windows in the new flats.",
+      "pl": "W nowych mieszkaniach są duże okna."
+    },
+    {
+      "en": "We were in good hotels.",
+      "pl": "Byliśmy w dobrych hotelach."
+    },
+    {
+      "en": "There are a lot of books in good schools.",
+      "pl": "W dobrych szkołach jest dużo książek."
+    },
+    {
+      "en": "I'm talking about the good companies.",
+      "pl": "Mówię o dobrych firmach."
+    },
+    {
+      "en": "There are phones on the small desks.",
+      "pl": "Na małych biurkach są telefony."
+    },
+    {
+      "en": "In the small offices there are no big windows.",
+      "pl": "W małych biurach nie ma dużych okien."
+    },
+    {
+      "en": "We live in small flats.",
+      "pl": "Mieszkamy w małych mieszkaniach."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "in the big shops →",
+      "choices": [
+        "w dużych sklepach",
+        "w dużych sklepy",
+        "w duże sklepach",
+        "w dużych sklepów"
+      ],
+      "answer": "w dużych sklepach",
+      "explain": "Both words carry the Locative plural — -ych on the adjective, -ach on the noun. sklepów is the Genitive you learned last unit and belongs after dużo, not after w."
+    },
+    {
+      "prompt": "W ___ domach mieszkają ludzie. (new)",
+      "choices": [
+        "nowych",
+        "nowe",
+        "nowym",
+        "nowej"
+      ],
+      "answer": "nowych",
+      "explain": "domach is a Locative plural, so the adjective takes the one plural ending. nowym would be right for a single house."
+    },
+    {
+      "prompt": "in the new house (just one) →",
+      "choices": [
+        "w nowym domu",
+        "w nowych domu",
+        "w nowym domach",
+        "w nowych domach"
+      ],
+      "answer": "w nowym domu",
+      "explain": "The new ending is for plurals only. One house is still the singular Locative from B2, and nothing about this unit changes it."
+    },
+    {
+      "prompt": "Myślę o ___ miastach. (big)",
+      "choices": [
+        "dużych",
+        "duże",
+        "dużo",
+        "dużą"
+      ],
+      "answer": "dużych",
+      "explain": "o takes the Locative and miastach is plural. dużo is a different word altogether — the quantity, not the size — and it never changes shape."
+    },
+    {
+      "prompt": "in small flats →",
+      "choices": [
+        "w małych mieszkaniach",
+        "w małym mieszkaniach",
+        "w małych mieszkaniu",
+        "w małym mieszkaniu"
+      ],
+      "answer": "w małych mieszkaniach",
+      "explain": "The last option is good Polish but says something else — in one small flat. Both words have to be plural or neither is."
+    },
+    {
+      "prompt": "We were in good hotels. →",
+      "choices": [
+        "Byliśmy w dobrych hotelach.",
+        "Byliśmy w dobrym hotelach.",
+        "Byliśmy w dobrych hotelu.",
+        "Byliśmy w dobre hotele."
+      ],
+      "answer": "Byliśmy w dobrych hotelach.",
+      "explain": "dobre hotele is the plain plural, the shape English invites because English changes nothing after \"in\". w always moves what follows it."
+    },
+    {
+      "prompt": "on the small desks →",
+      "choices": [
+        "na małych biurkach",
+        "na małym biurkach",
+        "na małych biurku",
+        "na małym biurku"
+      ],
+      "answer": "na małych biurkach",
+      "explain": "na takes exactly the same Locative w takes. Changing the trigger word changes nothing about the endings."
+    },
+    {
+      "prompt": "W ___ szkołach jest dużo książek. (good)",
+      "choices": [
+        "dobrych",
+        "dobre",
+        "dobrej",
+        "dobrym"
+      ],
+      "answer": "dobrych",
+      "explain": "szkoła is feminine, so in the singular this would be dobrej. In the plural the gender stops mattering."
+    },
+    {
+      "prompt": "in the good company (just one) →",
+      "choices": [
+        "w dobrej firmie",
+        "w dobrych firmie",
+        "w dobrej firmach",
+        "w dobrych firmach"
+      ],
+      "answer": "w dobrej firmie",
+      "explain": "The plural erases the choice between -ym and -ej, but only in the plural. A single feminine noun still takes -ej."
+    },
+    {
+      "prompt": "In the small offices there are no big windows. →",
+      "choices": [
+        "W małych biurach nie ma dużych okien.",
+        "W małych biurach nie ma duże okna.",
+        "W małym biurach nie ma dużych okien.",
+        "W małych biurach nie ma dużych okna."
+      ],
+      "answer": "W małych biurach nie ma dużych okien.",
+      "explain": "Two different cases in one sentence and the adjective string is the same in both: biurach is Locative after w, okien is Genitive after nie ma. Only the nouns tell them apart."
+    },
+    {
+      "prompt": "There are big windows in the new flats. →",
+      "choices": [
+        "W nowych mieszkaniach są duże okna.",
+        "W nowych mieszkaniach są dużych okien.",
+        "W nowym mieszkaniach są duże okna.",
+        "W nowych mieszkaniu są duże okna."
+      ],
+      "answer": "W nowych mieszkaniach są duże okna.",
+      "explain": "Only the phrase after w moves. duże okna is the subject of the sentence and nothing is asking it to change — the second option puts it in the Genitive for no reason."
+    },
+    {
+      "prompt": "about the new schools →",
+      "choices": [
+        "o nowych szkołach",
+        "o nowej szkołach",
+        "o nowych szkole",
+        "o nowej szkole"
+      ],
+      "answer": "o nowych szkołach",
+      "explain": "The last option is correct Polish for one school. o behaves like w and na: it never changes, and everything after it does."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "in good hotels (locative plural)",
+      "mode": "full_word",
+      "answer": "w dobrych hotelach",
+      "accepts": [
+        "w dobrych hotelach"
+      ]
+    },
+    {
+      "prompt_en": "in new houses (locative plural)",
+      "mode": "full_word",
+      "answer": "w nowych domach",
+      "accepts": [
+        "w nowych domach"
+      ]
+    },
+    {
+      "prompt_en": "in small flats (locative plural)",
+      "mode": "full_word",
+      "answer": "w małych mieszkaniach",
+      "accepts": [
+        "w małych mieszkaniach"
+      ]
+    },
+    {
+      "prompt_en": "in big cities (locative plural)",
+      "mode": "full_word",
+      "answer": "w dużych miastach",
+      "accepts": [
+        "w dużych miastach"
+      ]
+    },
+    {
+      "prompt_en": "in new schools (locative plural)",
+      "mode": "full_word",
+      "answer": "w nowych szkołach",
+      "accepts": [
+        "w nowych szkołach"
+      ],
+      "explain": "szkoła is feminine and it makes no difference — the plural adjective ending is the same one the masculine nouns take."
+    },
+    {
+      "prompt_en": "on small desks (locative plural)",
+      "mode": "full_word",
+      "answer": "na małych biurkach",
+      "accepts": [
+        "na małych biurkach"
+      ]
+    },
+    {
+      "prompt_en": "about big cities (locative plural)",
+      "mode": "full_word",
+      "answer": "o dużych miastach",
+      "accepts": [
+        "o dużych miastach"
+      ],
+      "explain": "The same phrase as the fourth item with a different trigger in front. w and o put the noun in the same case, so nothing after them differs."
+    },
+    {
+      "prompt_en": "in good companies (locative plural)",
+      "mode": "full_word",
+      "answer": "w dobrych firmach",
+      "accepts": [
+        "w dobrych firmach"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: There are a lot of newspapers in the big shops.",
+      "answer": "W dużych sklepach jest dużo gazet.",
+      "accepts": [
+        "W dużych sklepach jest dużo gazet.",
+        "W dużych sklepach jest dużo gazet",
+        "Sklepach jest dużo gazet w dużych.",
+        "Sklepach jest dużo gazet w dużych"
+      ]
+    },
+    {
+      "prompt_en": "Type: People live in new houses.",
+      "answer": "Ludzie mieszkają w nowych domach.",
+      "accepts": [
+        "Ludzie mieszkają w nowych domach.",
+        "Ludzie mieszkają w nowych domach"
+      ]
+    },
+    {
+      "prompt_en": "Type: We were in good hotels.",
+      "answer": "Byliśmy w dobrych hotelach.",
+      "accepts": [
+        "Byliśmy w dobrych hotelach.",
+        "Byliśmy w dobrych hotelach"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are phones on the small desks.",
+      "answer": "Na małych biurkach są telefony.",
+      "accepts": [
+        "Na małych biurkach są telefony.",
+        "Na małych biurkach są telefony",
+        "Biurkach są telefony na małych.",
+        "Biurkach są telefony na małych"
+      ]
+    },
+    {
+      "prompt_en": "Type: In the small offices there are no big windows.",
+      "answer": "W małych biurach nie ma dużych okien.",
+      "accepts": [
+        "W małych biurach nie ma dużych okien.",
+        "W małych biurach nie ma dużych okien",
+        "Biurach nie ma dużych okien w małych.",
+        "Biurach nie ma dużych okien w małych"
+      ],
+      "explain": "Both jobs of -ych in one sentence: Locative after w, Genitive after nie ma. The adjective is spelled the same both times and only the nouns show the difference."
+    },
+    {
+      "prompt_en": "Type: Mum is thinking about the big cities.",
+      "answer": "Mama myśli o dużych miastach.",
+      "accepts": [
+        "Mama myśli o dużych miastach.",
+        "Mama myśli o dużych miastach"
+      ]
+    },
+    {
+      "prompt_en": "Type: There are big windows in the new flats.",
+      "answer": "W nowych mieszkaniach są duże okna.",
+      "accepts": [
+        "W nowych mieszkaniach są duże okna.",
+        "W nowych mieszkaniach są duże okna",
+        "Mieszkaniach są duże okna w nowych.",
+        "Mieszkaniach są duże okna w nowych"
+      ],
+      "explain": "Only the phrase after w is in the Locative. duże okna is the subject and stays in its plain plural form."
+    },
+    {
+      "prompt_en": "Type: There are a lot of books in good schools.",
+      "answer": "W dobrych szkołach jest dużo książek.",
+      "accepts": [
+        "W dobrych szkołach jest dużo książek.",
+        "W dobrych szkołach jest dużo książek",
+        "Szkołach jest dużo książek w dobrych.",
+        "Szkołach jest dużo książek w dobrych"
+      ]
+    },
+    {
+      "prompt_en": "Type: We live in small flats, but there are no big shops in the city.",
+      "answer": "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów.",
+      "accepts": [
+        "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów.",
+        "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów"
+      ],
+      "explain": "A plural Locative and a plural Genitive side by side under two different triggers, with a singular Locative (w mieście) in between them."
+    }
+  ],
+  "uses_lemmas": [
     "dobrych",
-    "dobre",
+    "nowych",
+    "małych",
+    "dużych",
+    "dobrym",
+    "nowym",
+    "małym",
     "dobrej",
-    "dobrym"
-   ],
-   "answer": "dobrych",
-   "explain": "szkoła is feminine, so in the singular this would be dobrej. In the plural the gender stops mattering."
-  },
-  {
-   "prompt": "in the good company (just one) →",
-   "choices": [
-    "w dobrej firmie",
-    "w dobrych firmie",
-    "w dobrej firmach",
-    "w dobrych firmach"
-   ],
-   "answer": "w dobrej firmie",
-   "explain": "The plural erases the choice between -ym and -ej, but only in the plural. A single feminine noun still takes -ej."
-  },
-  {
-   "prompt": "In the small offices there are no big windows. →",
-   "choices": [
-    "W małych biurach nie ma dużych okien.",
-    "W małych biurach nie ma duże okna.",
-    "W małym biurach nie ma dużych okien.",
-    "W małych biurach nie ma dużych okna."
-   ],
-   "answer": "W małych biurach nie ma dużych okien.",
-   "explain": "Two different cases in one sentence and the adjective string is the same in both: biurach is Locative after w, okien is Genitive after nie ma. Only the nouns tell them apart."
-  },
-  {
-   "prompt": "There are big windows in the new flats. →",
-   "choices": [
-    "W nowych mieszkaniach są duże okna.",
-    "W nowych mieszkaniach są dużych okien.",
-    "W nowym mieszkaniach są duże okna.",
-    "W nowych mieszkaniu są duże okna."
-   ],
-   "answer": "W nowych mieszkaniach są duże okna.",
-   "explain": "Only the phrase after w moves. duże okna is the subject of the sentence and nothing is asking it to change — the second option puts it in the Genitive for no reason."
-  },
-  {
-   "prompt": "about the new schools →",
-   "choices": [
-    "o nowych szkołach",
-    "o nowej szkołach",
-    "o nowych szkole",
-    "o nowej szkole"
-   ],
-   "answer": "o nowych szkołach",
-   "explain": "The last option is correct Polish for one school. o behaves like w and na: it never changes, and everything after it does."
+    "nowej",
+    "małej",
+    "dobre",
+    "nowe",
+    "małe",
+    "duże",
+    "duża",
+    "dużą",
+    "dużo",
+    "domach",
+    "sklepach",
+    "hotelach",
+    "szkołach",
+    "firmach",
+    "miastach",
+    "biurach",
+    "mieszkaniach",
+    "biurkach",
+    "domu",
+    "sklepie",
+    "hotelu",
+    "szkole",
+    "firmie",
+    "mieście",
+    "mieszkaniu",
+    "biurku",
+    "biurze",
+    "domy",
+    "domów",
+    "sklepy",
+    "sklepów",
+    "hotele",
+    "hoteli",
+    "szkoły",
+    "szkół",
+    "gazety",
+    "gazet",
+    "okna",
+    "okien",
+    "książek",
+    "telefony",
+    "ludzie",
+    "pracy",
+    "jest",
+    "są",
+    "nie ma",
+    "byliśmy",
+    "mieszkają",
+    "mieszkamy",
+    "myślę",
+    "myśli",
+    "mówię",
+    "mówimy",
+    "mama",
+    "ale",
+    "nie",
+    "w domu",
+    "w sklepie",
+    "w mieście",
+    "w szkole",
+    "w biurze",
+    "w hotelu",
+    "w firmie",
+    "na biurku",
+    "o szkole",
+    "o mieście"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_adj_pl_loc",
+    "pool_model": "cumulative_focus_recycle"
   }
- ],
- "type_items": [
-  {
-   "prompt_en": "in good hotels (locative plural)",
-   "mode": "full_word",
-   "answer": "w dobrych hotelach",
-   "accepts": [
-    "w dobrych hotelach"
-   ]
-  },
-  {
-   "prompt_en": "in new houses (locative plural)",
-   "mode": "full_word",
-   "answer": "w nowych domach",
-   "accepts": [
-    "w nowych domach"
-   ]
-  },
-  {
-   "prompt_en": "in small flats (locative plural)",
-   "mode": "full_word",
-   "answer": "w małych mieszkaniach",
-   "accepts": [
-    "w małych mieszkaniach"
-   ]
-  },
-  {
-   "prompt_en": "in big cities (locative plural)",
-   "mode": "full_word",
-   "answer": "w dużych miastach",
-   "accepts": [
-    "w dużych miastach"
-   ]
-  },
-  {
-   "prompt_en": "in new schools (locative plural)",
-   "mode": "full_word",
-   "answer": "w nowych szkołach",
-   "accepts": [
-    "w nowych szkołach"
-   ],
-   "explain": "szkoła is feminine and it makes no difference — the plural adjective ending is the same one the masculine nouns take."
-  },
-  {
-   "prompt_en": "on small desks (locative plural)",
-   "mode": "full_word",
-   "answer": "na małych biurkach",
-   "accepts": [
-    "na małych biurkach"
-   ]
-  },
-  {
-   "prompt_en": "about big cities (locative plural)",
-   "mode": "full_word",
-   "answer": "o dużych miastach",
-   "accepts": [
-    "o dużych miastach"
-   ],
-   "explain": "The same phrase as the fourth item with a different trigger in front. w and o put the noun in the same case, so nothing after them differs."
-  },
-  {
-   "prompt_en": "in good companies (locative plural)",
-   "mode": "full_word",
-   "answer": "w dobrych firmach",
-   "accepts": [
-    "w dobrych firmach"
-   ]
-  }
- ],
- "use_items": [
-  {
-   "prompt_en": "Type: There are a lot of newspapers in the big shops.",
-   "answer": "W dużych sklepach jest dużo gazet.",
-   "accepts": [
-    "W dużych sklepach jest dużo gazet.",
-    "W dużych sklepach jest dużo gazet"
-   ]
-  },
-  {
-   "prompt_en": "Type: People live in new houses.",
-   "answer": "Ludzie mieszkają w nowych domach.",
-   "accepts": [
-    "Ludzie mieszkają w nowych domach.",
-    "Ludzie mieszkają w nowych domach"
-   ]
-  },
-  {
-   "prompt_en": "Type: We were in good hotels.",
-   "answer": "Byliśmy w dobrych hotelach.",
-   "accepts": [
-    "Byliśmy w dobrych hotelach.",
-    "Byliśmy w dobrych hotelach"
-   ]
-  },
-  {
-   "prompt_en": "Type: There are phones on the small desks.",
-   "answer": "Na małych biurkach są telefony.",
-   "accepts": [
-    "Na małych biurkach są telefony.",
-    "Na małych biurkach są telefony"
-   ]
-  },
-  {
-   "prompt_en": "Type: In the small offices there are no big windows.",
-   "answer": "W małych biurach nie ma dużych okien.",
-   "accepts": [
-    "W małych biurach nie ma dużych okien.",
-    "W małych biurach nie ma dużych okien"
-   ],
-   "explain": "Both jobs of -ych in one sentence: Locative after w, Genitive after nie ma. The adjective is spelled the same both times and only the nouns show the difference."
-  },
-  {
-   "prompt_en": "Type: Mum is thinking about the big cities.",
-   "answer": "Mama myśli o dużych miastach.",
-   "accepts": [
-    "Mama myśli o dużych miastach.",
-    "Mama myśli o dużych miastach"
-   ]
-  },
-  {
-   "prompt_en": "Type: There are big windows in the new flats.",
-   "answer": "W nowych mieszkaniach są duże okna.",
-   "accepts": [
-    "W nowych mieszkaniach są duże okna.",
-    "W nowych mieszkaniach są duże okna"
-   ],
-   "explain": "Only the phrase after w is in the Locative. duże okna is the subject and stays in its plain plural form."
-  },
-  {
-   "prompt_en": "Type: There are a lot of books in good schools.",
-   "answer": "W dobrych szkołach jest dużo książek.",
-   "accepts": [
-    "W dobrych szkołach jest dużo książek.",
-    "W dobrych szkołach jest dużo książek"
-   ]
-  },
-  {
-   "prompt_en": "Type: We live in small flats, but there are no big shops in the city.",
-   "answer": "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów.",
-   "accepts": [
-    "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów.",
-    "Mieszkamy w małych mieszkaniach, ale w mieście nie ma dużych sklepów"
-   ],
-   "explain": "A plural Locative and a plural Genitive side by side under two different triggers, with a singular Locative (w mieście) in between them."
-  }
- ],
- "uses_lemmas": [
-  "dobrych",
-  "nowych",
-  "małych",
-  "dużych",
-  "dobrym",
-  "nowym",
-  "małym",
-  "dobrej",
-  "nowej",
-  "małej",
-  "dobre",
-  "nowe",
-  "małe",
-  "duże",
-  "duża",
-  "dużą",
-  "dużo",
-  "domach",
-  "sklepach",
-  "hotelach",
-  "szkołach",
-  "firmach",
-  "miastach",
-  "biurach",
-  "mieszkaniach",
-  "biurkach",
-  "domu",
-  "sklepie",
-  "hotelu",
-  "szkole",
-  "firmie",
-  "mieście",
-  "mieszkaniu",
-  "biurku",
-  "biurze",
-  "domy",
-  "domów",
-  "sklepy",
-  "sklepów",
-  "hotele",
-  "hoteli",
-  "szkoły",
-  "szkół",
-  "gazety",
-  "gazet",
-  "okna",
-  "okien",
-  "książek",
-  "telefony",
-  "ludzie",
-  "pracy",
-  "jest",
-  "są",
-  "nie ma",
-  "byliśmy",
-  "mieszkają",
-  "mieszkamy",
-  "myślę",
-  "myśli",
-  "mówię",
-  "mówimy",
-  "mama",
-  "ale",
-  "nie",
-  "w domu",
-  "w sklepie",
-  "w mieście",
-  "w szkole",
-  "w biurze",
-  "w hotelu",
-  "w firmie",
-  "na biurku",
-  "o szkole",
-  "o mieście"
- ],
- "sequencing": {
-  "spec": "codex/SEQUENCING.md",
-  "phase": 1,
-  "node_id": "c1_adj_pl_loc",
-  "pool_model": "cumulative_focus_recycle"
- }
 }

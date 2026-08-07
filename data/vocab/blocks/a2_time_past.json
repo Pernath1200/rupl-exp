@@ -119,7 +119,9 @@
         "Byłam w zeszłym tygodniu w szkole.",
         "Byłam w zeszłym tygodniu w szkole",
         "Byłam w szkole w zeszłym tygodniu.",
-        "Byłam w szkole w zeszłym tygodniu"
+        "Byłam w szkole w zeszłym tygodniu",
+        "Tygodniu byłam w szkole w zeszłym.",
+        "Tygodniu byłam w szkole w zeszłym"
       ],
       "structures": [
         "time_past_chunk",
@@ -138,7 +140,9 @@
         "W zeszłym tygodniu padał deszcz.",
         "W zeszłym tygodniu padał deszcz",
         "Padał deszcz w zeszłym tygodniu.",
-        "Padał deszcz w zeszłym tygodniu"
+        "Padał deszcz w zeszłym tygodniu",
+        "Tygodniu padał deszcz w zeszłym.",
+        "Tygodniu padał deszcz w zeszłym"
       ],
       "structures": [
         "time_past_chunk",
@@ -157,7 +161,9 @@
         "Tata był w zeszłym miesiącu w szpitalu.",
         "Tata był w zeszłym miesiącu w szpitalu",
         "Tata był w szpitalu w zeszłym miesiącu.",
-        "Tata był w szpitalu w zeszłym miesiącu"
+        "Tata był w szpitalu w zeszłym miesiącu",
+        "Miesiącu tata był w szpitalu w zeszłym.",
+        "Miesiącu tata był w szpitalu w zeszłym"
       ],
       "structures": [
         "time_past_chunk",
@@ -178,7 +184,9 @@
         "Pogoda była dobra w zeszłym roku.",
         "Pogoda była dobra w zeszłym roku",
         "Pogoda w zeszłym roku była dobra.",
-        "Pogoda w zeszłym roku była dobra"
+        "Pogoda w zeszłym roku była dobra",
+        "Roku pogoda była dobra w zeszłym.",
+        "Roku pogoda była dobra w zeszłym"
       ],
       "structures": [
         "time_past_chunk",

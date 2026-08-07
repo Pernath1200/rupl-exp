@@ -269,7 +269,9 @@
         "W parku były grzyby.",
         "W parku były grzyby",
         "Grzyby były w parku.",
-        "Grzyby były w parku"
+        "Grzyby były w parku",
+        "Były grzyby w parku.",
+        "Były grzyby w parku"
       ],
       "structures": [
         "past_byc",
@@ -303,7 +305,9 @@
         "W parku jest staw.",
         "W parku jest staw",
         "Staw jest w parku.",
-        "Staw jest w parku"
+        "Staw jest w parku",
+        "Jest staw w parku.",
+        "Jest staw w parku"
       ],
       "structures": [
         "existential_jest",
@@ -482,7 +486,9 @@
         "W górach powietrze jest świeże.",
         "W górach powietrze jest świeże",
         "Powietrze w górach jest świeże.",
-        "Powietrze w górach jest świeże"
+        "Powietrze w górach jest świeże",
+        "Powietrze jest świeże w górach.",
+        "Powietrze jest świeże w górach"
       ],
       "structures": [
         "byc_present",

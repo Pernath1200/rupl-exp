@@ -507,7 +507,9 @@
       "answer": "Czy twój brat czuje się dobrze?",
       "accepts": [
         "Czy twój brat czuje się dobrze?",
-        "Czy twój brat czuje się dobrze"
+        "Czy twój brat czuje się dobrze",
+        "Twój brat czuje się dobrze?",
+        "Twój brat czuje się dobrze"
       ]
     },
     {

@@ -170,6 +170,23 @@ learner than breadth. Do **not** force the two stages to be disjoint.
 
 **Użycie ≠ Pisanie**: a use item must never be a bare form repeating the type stage.
 
+### Accepts must cover the Polish the learner may legitimately produce
+
+James smoke-flagged both of these as false wrongs (2026-08-07). They are not
+leniency — they are correct Polish that the model sentence happened not to pick.
+
+- **`czy` is optional in a yes/no question.** *Mogę płacić kartą?* is as correct
+  as *Czy mogę płacić kartą?* — rising intonation carries it. Every `Czy …?`
+  answer must accept the `czy`-less form.
+- **A fronted adverbial phrase may sit at the end instead.** *W centrum nie ma
+  banków.* = *Nie ma banków w centrum.* Where a single-clause sentence opens
+  with preposition + noun, accept the version with that phrase moved to the end.
+  **Do NOT reorder** an interrogative phrase (*Z kim pracujesz?* → ✗ *Pracujesz
+  z kim?*), and do not reorder across a comma or between clauses — the freedom
+  is real but not unlimited.
+
+Both were swept across the course; keep new units compliant at authoring time.
+
 ## Glossing the past (imperfective)
 
 All A2 past is imperfective; aspect is fenced to `a2_aspect`. English glosses must

@@ -921,8 +921,10 @@ export function startPractice(pack, root, opts) {
         }
       });
       state.enterAdvance = goNextQ;
-      // Wrong answers wait for Enter so the correction can be read.
-      if (good) advanceTimer = setTimeout(goNextQ, 900);
+      // Every answer waits for Enter — right ones too. James 2026-08-07:
+      // "sometimes there is a good explanation or you want to have another
+      // look." Nothing advances until the learner says so.
+      fb.textContent += " · Enter = dalej";
     };
 
     function onDigit(e) {

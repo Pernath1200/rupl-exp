@@ -593,7 +593,9 @@
       "answer": "W sklepie nie ma filmów.",
       "accepts": [
         "W sklepie nie ma filmów.",
-        "W sklepie nie ma filmów"
+        "W sklepie nie ma filmów",
+        "Nie ma filmów w sklepie.",
+        "Nie ma filmów w sklepie"
       ]
     }
   ],

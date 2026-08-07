@@ -546,7 +546,9 @@
       "answer": "Nie mogę teraz rozmawiać. Czy jest chleb?",
       "accepts": [
         "Nie mogę teraz rozmawiać. Czy jest chleb?",
-        "Nie mogę teraz rozmawiać. Czy jest chleb"
+        "Nie mogę teraz rozmawiać. Czy jest chleb",
+        "Nie mogę teraz rozmawiać. Jest chleb?",
+        "Nie mogę teraz rozmawiać. Jest chleb"
       ],
       "explain": "The call gets cut short and the day moves straight into the shop — the phone phrase and the shop phrase sit side by side with nothing joining them."
     },
@@ -555,7 +557,9 @@
       "answer": "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
       "accepts": [
         "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
-        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać"
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Czy jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać",
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać.",
+        "Poproszę chleb. To wszystko, dziękuję. Przepraszam, którędy do centrum? Jest wolny stolik? Poproszę zupę. Słucham? Nie mogę teraz rozmawiać"
       ],
       "explain": "Four stops, four units, seven chunks — this is the whole capstone in one sentence. Every piece of it you already had before today."
     }

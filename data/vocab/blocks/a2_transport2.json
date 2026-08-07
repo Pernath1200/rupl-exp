@@ -157,7 +157,9 @@
         "Czy to jest dobry kierunek?",
         "Czy to jest dobry kierunek",
         "Czy to dobry kierunek?",
-        "Czy to dobry kierunek"
+        "Czy to dobry kierunek",
+        "To jest dobry kierunek?",
+        "To jest dobry kierunek"
       ],
       "structures": [
         "to_jest",

@@ -441,7 +441,9 @@
       "answer": "W mieście jest dużo szkół.",
       "accepts": [
         "W mieście jest dużo szkół.",
-        "W mieście jest dużo szkół"
+        "W mieście jest dużo szkół",
+        "Jest dużo szkół w mieście.",
+        "Jest dużo szkół w mieście"
       ]
     },
     {
@@ -457,7 +459,9 @@
       "answer": "W sklepie nie ma kurtek.",
       "accepts": [
         "W sklepie nie ma kurtek.",
-        "W sklepie nie ma kurtek"
+        "W sklepie nie ma kurtek",
+        "Nie ma kurtek w sklepie.",
+        "Nie ma kurtek w sklepie"
       ]
     },
     {
@@ -474,7 +478,9 @@
       "answer": "W Polsce jest dużo gór i dużo dróg.",
       "accepts": [
         "W Polsce jest dużo gór i dużo dróg.",
-        "W Polsce jest dużo gór i dużo dróg"
+        "W Polsce jest dużo gór i dużo dróg",
+        "Jest dużo gór i dużo dróg w Polsce.",
+        "Jest dużo gór i dużo dróg w Polsce"
       ],
       "explain": "Both words lost their -a and turned their o into ó. You have been saying w górach for the same mountains since A2."
     },
@@ -483,7 +489,9 @@
       "answer": "W szpitalu jest dużo lekarzy.",
       "accepts": [
         "W szpitalu jest dużo lekarzy.",
-        "W szpitalu jest dużo lekarzy"
+        "W szpitalu jest dużo lekarzy",
+        "Jest dużo lekarzy w szpitalu.",
+        "Jest dużo lekarzy w szpitalu"
       ]
     },
     {
@@ -508,7 +516,9 @@
       "answer": "W centrum jest dużo hoteli.",
       "accepts": [
         "W centrum jest dużo hoteli.",
-        "W centrum jest dużo hoteli"
+        "W centrum jest dużo hoteli",
+        "Jest dużo hoteli w centrum.",
+        "Jest dużo hoteli w centrum"
       ]
     },
     {

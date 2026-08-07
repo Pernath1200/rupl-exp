@@ -247,7 +247,8 @@
       "accepts": [
         "Czy ładujesz telefon?",
         "Czy ładujesz telefon",
-        "Ładujesz telefon?"
+        "Ładujesz telefon?",
+        "Ładujesz telefon"
       ],
       "structures": [
         "present_uje",
@@ -313,7 +314,8 @@
       "accepts": [
         "Czy dzwonisz do biura?",
         "Czy dzwonisz do biura",
-        "Dzwonisz do biura?"
+        "Dzwonisz do biura?",
+        "Dzwonisz do biura"
       ],
       "structures": [
         "present_e_isz",
@@ -394,7 +396,9 @@
       "accepts": [
         "Czy jest wifi w hotelu?",
         "Czy jest wifi w hotelu",
-        "Czy jest wi-fi w hotelu?"
+        "Czy jest wi-fi w hotelu?",
+        "Jest wifi w hotelu?",
+        "Jest wifi w hotelu"
       ],
       "structures": [
         "existential_jest",

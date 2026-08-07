@@ -400,7 +400,9 @@
         "W przyszłym tygodniu kupię bilet.",
         "W przyszłym tygodniu kupię bilet",
         "Kupię bilet w przyszłym tygodniu.",
-        "Kupię bilet w przyszłym tygodniu"
+        "Kupię bilet w przyszłym tygodniu",
+        "Tygodniu kupię bilet w przyszłym.",
+        "Tygodniu kupię bilet w przyszłym"
       ],
       "structures": [
         "perf_future",

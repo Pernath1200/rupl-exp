@@ -630,7 +630,9 @@
       "accepts": [
         "Dzień dobry. Czy jest wolny stolik?",
         "Dzień dobry. Czy jest wolny stolik",
-        "Dzień dobry, czy jest wolny stolik?"
+        "Dzień dobry, czy jest wolny stolik?",
+        "Dzień dobry. Jest wolny stolik?",
+        "Dzień dobry. Jest wolny stolik"
       ]
     },
     {
@@ -737,7 +739,8 @@
       "accepts": [
         "Poproszę rachunek. Czy mogę płacić kartą?",
         "Poproszę rachunek. Czy mogę płacić kartą",
-        "Poproszę rachunek. Mogę płacić kartą?"
+        "Poproszę rachunek. Mogę płacić kartą?",
+        "Poproszę rachunek. Mogę płacić kartą"
       ],
       "explain": "Two phrases you already own, in the order a meal actually ends: ask for the bill, then say how you are paying."
     }
