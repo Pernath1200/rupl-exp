@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 176 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 177 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -193,4 +193,5 @@ _None._
 | 181 | `c1_wiedziec` | `wiedziec` | 6 | `byc_present`, `conjunctions`, `existential_jest`, `indirect_q`, `miec_acc`, `miec_present`, `negation`, `ordinals_time`, `participle_pass`, `present`, `question`, `question_cases`, `questions2`, `ten_ta_to`, `virile_past`, `wiedziec`, `ze_clauses` |
 | 182 | `c1_adj_pl_gen` | `adj_pl_gen` | 4 | `adj_gen`, `adj_pl_gen`, `bedzie`, `byc_present`, `conjunctions`, `existential_jest`, `existential_tense`, `gen_endings`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `past_byc`, `plural_nom`, `prep_w_loc`, `zgoda` |
 | 183 | `c1_adj_pl_loc` | `adj_pl_loc` | 0 | `adj_gen`, `adj_loc`, `adj_pl_gen`, `adj_pl_loc`, `byc_present`, `conjunctions`, `existential_jest`, `existential_tense`, `gen_endings`, `gen_pl`, `gen_pl_full`, `loc_pl`, `neg_gen`, `negation`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `prep_place`, `prep_w_loc`, `present`, `zgoda` |
+| 184 | `c1_adj_pl_inst` | `adj_pl_inst` | 3 | `adj_inst`, `adj_loc`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `byc_present`, `conjunctions`, `inst_identity`, `inst_pl`, `inst_z`, `loc_pl`, `o_loc`, `past_byc`, `past_plural`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `zgoda` |
 

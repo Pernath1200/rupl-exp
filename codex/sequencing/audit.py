@@ -139,6 +139,7 @@ STRUCTURE_CATALOGUE = {
     "wiedziec",
     "adj_pl_gen",
     "adj_pl_loc",
+    "adj_pl_inst",
 }
 
 GLUE_LEMMAS = {

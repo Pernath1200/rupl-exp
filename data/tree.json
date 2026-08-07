@@ -3860,18 +3860,19 @@
     {
       "id": "c1_adj_pl_inst",
       "domain": "grammar",
-      "label": "Z dobrymi kolegami · narzędnik",
+      "label": "Z dobrymi kolegami",
       "label_en": "Plural adjectives in the Instrumental · -ymi",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 3. -ymi. ONE ending. Rides z + Instrumental (a2_inst_z) and b2_inst_pl's -ami nouns: z dobrymi kolegami, z malymi dziecmi. kolegami verified TAUGHT <- b2_inst_pl [153]. FENCE: -ym (Dative) nowhere until the next unit.",
+      "note": "C1 Block 2, unit 3 (C1-SPINE O2) — the Instrumental plural, -ymi, and the block's only genuinely new ending after the Genitive. Three new forms: dobrymi, nowymi, małymi. The unit's one discrimination is that THE PLURAL UNDOES A MERGER THE SINGULAR HAD: b2_adj_inst's headline was that masculine and neuter share one form across Locative and Instrumental (w dobrym hotelu / z dobrym kolegą), and in the plural they come apart — -ych after w/na/o, -ymi after z. A genuine design fork, taken and logged: this unit uses person nouns with adjectives and its two siblings did not. b2_inst_pl taught twelve Instrumental plurals and eleven are people; the only non-person is kotami and every alternative is NEW, so the sibling fence would have produced a twelve-row board about cats. It is safe because the Instrumental plural has NO virile split — -ymi is uniform, no virile form appears, and no person noun takes an adjective in the Nominative. duży is dropped for lack of any natural collocation with people, so the unit teaches three adjectives and duży keeps dużych but gains no Instrumental plural — a gap c1_adj_pl_dat and c1_adj_pl_gym inherit, logged rather than papered over. Two of the three Instrumental jobs have plurals here (z + people, and identity after być); bare transport has none. Fenced: no plural-Dative -ym (next node); -ym and -ą appear only as the singular forms b2_adj_inst owns.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_inst.json"
     },
     {
       "id": "c1_adj_pl_dat",
