@@ -1,0 +1,639 @@
+{
+  "id": "c1_quantifiers",
+  "title": "Wiele, kilka · pięć złotych",
+  "title_en": "Many, a few — and how money is counted",
+  "level": "C1",
+  "tree_node": "c1_quantifiers",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 8 unit 4. SEVEN NEW STRINGS AND NOT ONE NEW MECHANISM - that is what makes the double load legal, exactly as in c1_collective_num one node earlier. (1) WIELE / KILKA and their man-forms WIELU / KILKU. They behave in every respect like piec / pieciu, which the learner has owned since a2_numbers_gen and b2_num_virile: Genitive plural on the noun, neuter-singular verb (num_subject taught precisely that for five-and-up), and the same virile split. So the whole of what is new is four words. (2) ZLOTY / ZLOTE / ZLOTYCH, the currency a2_shopping2 omitted by name because 'it declines adjectivally (piec zlotych) and teaching it would invite *piec zloty'. Block 2 (adj_pl_gen) has since taught -ych, so the objection named in that fence is gone. The numeral rule underneath is unchanged numbers_gen: 1 / 2-4 / 5+. THE ANCHOR FOR THE MONEY HALF IS dolar, and it was checked rather than assumed: dolar, dolary and dolarow are all TAUGHT (a2_shopping2 register), so the unit can put an ordinary money noun beside the adjectival one and let the contrast carry the slide instead of a rule. DUZO IS NAMED, NOT COMPETED WITH. duzo is TAUGHT (a1_gen_endings [32]) and is genuine correct Polish wherever wiele is used with a countable plural. Marking it wrong would be exactly the false-wrong James smoke-flagged on 2026-08-07, so every 'many' item in Pisanie and Uzycie carries the duzo variant in accepts, and slide 1 states the relationship plainly instead of pretending the words are in competition. 'a few' has no such twin - kilka is the only word for it in this course - which is why the kilka items are the clean ones. THE FEMININE GUARD, carried forward from b2_num_virile and c1_collective_num, which both called it the most important thing in their pack: osoba is FEMININE, so it is wiele osob and kilka osob, never the -u form. Quiz item 2 and its explain are that guard. NOT TAUGHT, deliberately: the OBLIQUE uses of wielu (w wielu domach, od wielu osob) - the same string in a job the learner never produces here, and showing it would undo slide 2's men-only claim in one line, which is b2_num_virile's own stated reason for fencing dwaj; zlotego and every oblique of zloty; wiele/kilka with uncountables, since duzo already owns that ground; and grosz, which is NEW and buys nothing. HOMOGRAPH WATCH, checked and clear: zloty in all four forms reports NEW, so the adjective 'golden' is not in the course and there is no collision to name. zlote must not be read against zlote/zolty - zolty (yellow) is TAUGHT (leaf_colours) and is a different word; they are never placed on the same board. CAUGHT IN SELF-REVIEW: an early Uzycie item read 'Czekalem kilka minut' - czekac has NO past form anywhere in the pool (czeka, czekaj, czekam, czekanie only), so the sentence was replaced. A quiz distractor 'piec zlotow' was removed as a fabricated non-word, which AGENTS bans outright; 'piec dolarow' took its place and discriminates the currency instead.",
+  "focus_structures": [
+    "quantifiers"
+  ],
+  "teaches_structures": [
+    "quantifiers"
+  ],
+  "teaches_lemmas": [
+    "wiele",
+    "wielu",
+    "kilka",
+    "kilku",
+    "złoty",
+    "złote",
+    "złotych"
+  ],
+  "uses_structures": [
+    "quantifiers",
+    "numbers_gen",
+    "num_virile",
+    "num_subject",
+    "gen_pl",
+    "gen_pl_full",
+    "gen_endings",
+    "plural_nom",
+    "virile_nom",
+    "byc_present",
+    "past_byc",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_uje",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "Two more quantity words, and the case they take",
+      "title_pl": "Wiele książek · kilka książek",
+      "body": "You have had dużo since the Genitive first appeared, and it works for anything: dużo kawy, dużo książek.\n\nTwo more words sit beside it, and both are for things you can count.\n\nwiele — many. kilka — a few, several.\n\nNeither of them does anything new. The noun goes into the many-form — the Genitive plural — and the verb sits in the -o form, which is exactly what happens after pięć. Every ending they pull is already yours.\n\nWhere the thing is countable, wiele and dużo are both correct: wiele książek and dużo książek are the same sentence. Where it is not countable, only dużo works — coffee does not come in ones, so it stays dużo kawy.",
+      "body_pl": "Wiele książek. Kilka książek. Dużo kawy.",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "The noun"
+        ],
+        "rows": [
+          [
+            "many books",
+            "wiele książek",
+            "many-form"
+          ],
+          [
+            "a few books",
+            "kilka książek",
+            "many-form"
+          ],
+          [
+            "many hours",
+            "wiele godzin",
+            "many-form"
+          ],
+          [
+            "a few minutes",
+            "kilka minut",
+            "many-form"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Many people were in the park.",
+          "pl": "Wiele osób było w parku."
+        },
+        {
+          "en": "A few shops are in the centre.",
+          "pl": "Kilka sklepów jest w centrum."
+        }
+      ]
+    },
+    {
+      "title": "The split you already know: wiele and wielu",
+      "title_pl": "Wiele osób · wielu studentów",
+      "body": "When the man-numbers arrived you learned that Polish counts a group of men with a different shape: pięć osób, but pięciu studentów. These two words do the same thing, and they do it in the same place.\n\nwiele → wielu. kilka → kilku.\n\nThe noun does not move at all. It is the many-form either way, exactly as it was after pięć and pięciu. Only the quantity word changes.\n\nAnd the test for choosing is the one you already run: a group of men, or a group with a man in it, takes the -u form; everything else takes the plain one. osoba is feminine, so it is wiele osób — the -u form is the men-form.",
+      "body_pl": "Wiele osób · wielu studentów · kilku lekarzy",
+      "table": {
+        "headers": [
+          "The group",
+          "Quantity word",
+          "Example"
+        ],
+        "rows": [
+          [
+            "things, animals, women",
+            "wiele · kilka",
+            "wiele książek · kilka gazet"
+          ],
+          [
+            "men",
+            "wielu · kilku",
+            "wielu studentów · kilku lekarzy"
+          ],
+          [
+            "the numbers you already have",
+            "pięć · pięciu",
+            "pięć osób · pięciu studentów"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Many students work.",
+          "pl": "Wielu studentów pracuje."
+        },
+        {
+          "en": "A few doctors were at the hospital.",
+          "pl": "Kilku lekarzy było w szpitalu."
+        }
+      ]
+    },
+    {
+      "title": "Złoty — a noun that takes an adjective's endings",
+      "title_pl": "Jeden złoty · dwa złote · pięć złotych",
+      "body": "The Polish currency is the złoty, and it is the one everyday noun in this course that does not take noun endings at all. It takes an adjective's endings. That is why dwa złote and pięć złotych look so unlike each other, and why neither of them looks like the dictionary form.\n\nThe numeral rule underneath is untouched and you have had it since A2: one takes the plain form, two to four take the plural, five and above take the many-form.\n\nPut it next to dolar, an ordinary money noun, and the difference is the whole of the lesson. The rule is identical in both columns; only the endings on the word itself belong to a different class.",
+      "body_pl": "Jeden złoty · dwa złote · pięć złotych · sto złotych",
+      "table": {
+        "headers": [
+          "Number",
+          "złoty",
+          "dolar"
+        ],
+        "rows": [
+          [
+            "1",
+            "jeden złoty",
+            "jeden dolar"
+          ],
+          [
+            "2–4",
+            "dwa złote",
+            "dwa dolary"
+          ],
+          [
+            "5 and up",
+            "pięć złotych",
+            "pięć dolarów"
+          ],
+          [
+            "20",
+            "dwadzieścia złotych",
+            "dwadzieścia dolarów"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The coffee costs five zloty.",
+          "pl": "Kawa kosztuje pięć złotych."
+        },
+        {
+          "en": "The ticket costs twenty zloty.",
+          "pl": "Bilet kosztuje dwadzieścia złotych."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "many books",
+      "pl": "wiele książek"
+    },
+    {
+      "en": "a few books",
+      "pl": "kilka książek"
+    },
+    {
+      "en": "many hours",
+      "pl": "wiele godzin"
+    },
+    {
+      "en": "a few minutes",
+      "pl": "kilka minut"
+    },
+    {
+      "en": "many students (all men)",
+      "pl": "wielu studentów"
+    },
+    {
+      "en": "a few doctors (all men)",
+      "pl": "kilku lekarzy"
+    },
+    {
+      "en": "many people",
+      "pl": "wiele osób"
+    },
+    {
+      "en": "a few newspapers",
+      "pl": "kilka gazet"
+    },
+    {
+      "en": "one zloty",
+      "pl": "jeden złoty"
+    },
+    {
+      "en": "two zloty",
+      "pl": "dwa złote"
+    },
+    {
+      "en": "five zloty",
+      "pl": "pięć złotych"
+    },
+    {
+      "en": "a hundred zloty",
+      "pl": "sto złotych"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "many students — all of them men →",
+      "choices": [
+        "wielu studentów",
+        "wiele studentów",
+        "wiele studenci",
+        "wielu student"
+      ],
+      "answer": "wielu studentów",
+      "explain": "A group of men takes the -u form of the quantity word, exactly as it takes pięciu rather than pięć. The noun is the many-form in both."
+    },
+    {
+      "prompt": "many people →",
+      "choices": [
+        "wiele osób",
+        "wielu osób",
+        "wiele osoby",
+        "wiele osoba"
+      ],
+      "answer": "wiele osób",
+      "explain": "osoba is feminine. The -u form is the men-form, so osoba never takes it — this is the same guard that gives you pięć osób and not pięciu osób."
+    },
+    {
+      "prompt": "a few doctors — all of them men →",
+      "choices": [
+        "kilku lekarzy",
+        "kilka lekarzy",
+        "kilka lekarze",
+        "kilku lekarz"
+      ],
+      "answer": "kilku lekarzy",
+      "explain": "Men, so kilku. lekarzy is the many-form and does not change whichever quantity word stands in front of it."
+    },
+    {
+      "prompt": "a few keys →",
+      "choices": [
+        "kilka kluczy",
+        "kilku kluczy",
+        "kilka klucze",
+        "kilka klucz"
+      ],
+      "answer": "kilka kluczy",
+      "explain": "Keys are things, so the plain form. kluczy is the many-form; klucze is the naming plural and belongs after dwa, not after kilka."
+    },
+    {
+      "prompt": "many hours →",
+      "choices": [
+        "wiele godzin",
+        "wiele godziny",
+        "wielu godzin",
+        "wiele godzina"
+      ],
+      "answer": "wiele godzin",
+      "explain": "godzin is the many-form. godziny after wiele would be the shape that follows dwa, trzy, cztery."
+    },
+    {
+      "prompt": "one zloty →",
+      "choices": [
+        "jeden złoty",
+        "jeden złote",
+        "jeden złotych",
+        "jeden dolar"
+      ],
+      "answer": "jeden złoty",
+      "explain": "One takes the plain form. dolar is a different currency, and it is the ordinary kind of money noun — złoty is the one with the adjective's endings."
+    },
+    {
+      "prompt": "two zloty →",
+      "choices": [
+        "dwa złote",
+        "dwa złotych",
+        "dwa złoty",
+        "dwie złote"
+      ],
+      "answer": "dwa złote",
+      "explain": "Two to four take the plural, and złoty makes its plural the way an adjective does: złote. dwie is the feminine two, and złoty is masculine."
+    },
+    {
+      "prompt": "The coffee costs five zloty. →",
+      "choices": [
+        "Kawa kosztuje pięć złotych.",
+        "Kawa kosztuje pięć złote.",
+        "Kawa kosztuje pięć dolarów.",
+        "Kawa kosztuje dwa złote."
+      ],
+      "answer": "Kawa kosztuje pięć złotych.",
+      "explain": "Five and above take the many-form, which for złoty is złotych. The last two options are correct Polish — they simply say something else."
+    },
+    {
+      "prompt": "I have a hundred zloty. →",
+      "choices": [
+        "Mam sto złotych.",
+        "Mam sto złote.",
+        "Mam sto złoty.",
+        "Mam sto dolarów."
+      ],
+      "answer": "Mam sto złotych.",
+      "explain": "A hundred is far above five, so the many-form. Nothing about the numeral rule changes once you are past five."
+    },
+    {
+      "prompt": "A few shops are in the centre. →",
+      "choices": [
+        "Kilka sklepów jest w centrum.",
+        "Kilka sklepy jest w centrum.",
+        "Kilku sklepów jest w centrum.",
+        "Kilka sklepów są w centrum."
+      ],
+      "answer": "Kilka sklepów jest w centrum.",
+      "explain": "Two things at once: the noun is the many-form, and the verb stays in the singular — the same verb shape that follows pięć."
+    },
+    {
+      "prompt": "Many people were in the park. →",
+      "choices": [
+        "Wiele osób było w parku.",
+        "Wiele osób byli w parku.",
+        "Wiele osób były w parku.",
+        "Wielu osób było w parku."
+      ],
+      "answer": "Wiele osób było w parku.",
+      "explain": "było, not byli or były. A quantity word puts the verb in the -o form however many people are involved."
+    },
+    {
+      "prompt": "a few colleagues — all of them men →",
+      "choices": [
+        "kilku kolegów",
+        "kilka kolegów",
+        "kilku koledzy",
+        "kilka koledzy"
+      ],
+      "answer": "kilku kolegów",
+      "explain": "Men, so kilku, and the many-form kolegów. koledzy is the naming plural and cannot follow a quantity word."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "many books",
+      "mode": "full_word",
+      "answer": "wiele książek",
+      "accepts": [
+        "wiele książek",
+        "dużo książek"
+      ],
+      "explain": "dużo książek says the same thing and is accepted. Where the noun is countable the two words are interchangeable."
+    },
+    {
+      "prompt_en": "a few books",
+      "mode": "full_word",
+      "answer": "kilka książek",
+      "accepts": [
+        "kilka książek"
+      ],
+      "explain": "kilka has no twin — dużo means a lot, not a few."
+    },
+    {
+      "prompt_en": "many students (all men)",
+      "mode": "full_word",
+      "answer": "wielu studentów",
+      "accepts": [
+        "wielu studentów",
+        "dużo studentów"
+      ]
+    },
+    {
+      "prompt_en": "a few doctors (all men)",
+      "mode": "full_word",
+      "answer": "kilku lekarzy",
+      "accepts": [
+        "kilku lekarzy"
+      ]
+    },
+    {
+      "prompt_en": "a few minutes",
+      "mode": "full_word",
+      "answer": "kilka minut",
+      "accepts": [
+        "kilka minut"
+      ]
+    },
+    {
+      "prompt_en": "one zloty",
+      "mode": "full_word",
+      "answer": "jeden złoty",
+      "accepts": [
+        "jeden złoty"
+      ]
+    },
+    {
+      "prompt_en": "two zloty",
+      "mode": "full_word",
+      "answer": "dwa złote",
+      "accepts": [
+        "dwa złote"
+      ],
+      "explain": "The plural of złoty is built the way an adjective builds its plural, which is why it is złote and not złoty."
+    },
+    {
+      "prompt_en": "five zloty",
+      "mode": "full_word",
+      "answer": "pięć złotych",
+      "accepts": [
+        "pięć złotych"
+      ]
+    },
+    {
+      "prompt_en": "Many people were in the park.",
+      "mode": "cloze",
+      "frame": "___ osób było w parku.",
+      "answer": "Wiele",
+      "accepts": [
+        "Wiele",
+        "Dużo"
+      ],
+      "explain": "osoba is feminine, so the plain form. Dużo osób było w parku says the same thing and is accepted."
+    },
+    {
+      "prompt_en": "Many students work in the centre.",
+      "mode": "cloze",
+      "frame": "___ studentów pracuje w centrum.",
+      "answer": "Wielu",
+      "accepts": [
+        "Wielu",
+        "Dużo"
+      ],
+      "explain": "A group of men, so the -u form — and the verb stays singular either way."
+    },
+    {
+      "prompt_en": "A few shops are in the centre.",
+      "mode": "cloze",
+      "frame": "Kilka ___ jest w centrum.",
+      "answer": "sklepów",
+      "accepts": [
+        "sklepów"
+      ],
+      "explain": "The blank is the noun rather than the quantity word here, because kilka is what chooses this ending — the many-form, exactly as after pięć."
+    },
+    {
+      "prompt_en": "I have a hundred zloty.",
+      "mode": "cloze",
+      "frame": "Mam sto ___.",
+      "answer": "złotych",
+      "accepts": [
+        "złotych"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Many books are in the shop.",
+      "answer": "Wiele książek jest w sklepie.",
+      "accepts": [
+        "Wiele książek jest w sklepie.",
+        "Wiele książek jest w sklepie",
+        "Dużo książek jest w sklepie.",
+        "Dużo książek jest w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: A few students were at school. (all men)",
+      "answer": "Kilku studentów było w szkole.",
+      "accepts": [
+        "Kilku studentów było w szkole.",
+        "Kilku studentów było w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Many people are waiting.",
+      "answer": "Wiele osób czeka.",
+      "accepts": [
+        "Wiele osób czeka.",
+        "Wiele osób czeka",
+        "Dużo osób czeka.",
+        "Dużo osób czeka"
+      ],
+      "explain": "czeka, not the plural. A quantity word puts the verb in the singular however many people are waiting."
+    },
+    {
+      "prompt_en": "Type: The book costs thirty zloty.",
+      "answer": "Książka kosztuje trzydzieści złotych.",
+      "accepts": [
+        "Książka kosztuje trzydzieści złotych.",
+        "Książka kosztuje trzydzieści złotych"
+      ]
+    },
+    {
+      "prompt_en": "Type: The ticket costs two zloty.",
+      "answer": "Bilet kosztuje dwa złote.",
+      "accepts": [
+        "Bilet kosztuje dwa złote.",
+        "Bilet kosztuje dwa złote"
+      ]
+    },
+    {
+      "prompt_en": "Type: A few doctors work at the hospital. (all men)",
+      "answer": "Kilku lekarzy pracuje w szpitalu.",
+      "accepts": [
+        "Kilku lekarzy pracuje w szpitalu.",
+        "Kilku lekarzy pracuje w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Many colleagues were in the office. (all men)",
+      "answer": "Wielu kolegów było w biurze.",
+      "accepts": [
+        "Wielu kolegów było w biurze.",
+        "Wielu kolegów było w biurze",
+        "Dużo kolegów było w biurze.",
+        "Dużo kolegów było w biurze"
+      ]
+    },
+    {
+      "prompt_en": "Type: A few newspapers are on the table.",
+      "answer": "Kilka gazet jest na stole.",
+      "accepts": [
+        "Kilka gazet jest na stole.",
+        "Kilka gazet jest na stole"
+      ]
+    },
+    {
+      "prompt_en": "Type: A few cats are in the house.",
+      "answer": "Kilka kotów jest w domu.",
+      "accepts": [
+        "Kilka kotów jest w domu.",
+        "Kilka kotów jest w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: The jacket costs a hundred zloty.",
+      "answer": "Kurtka kosztuje sto złotych.",
+      "accepts": [
+        "Kurtka kosztuje sto złotych.",
+        "Kurtka kosztuje sto złotych"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "dużo",
+    "jeden",
+    "dwa",
+    "dwie",
+    "trzy",
+    "cztery",
+    "pięć",
+    "pięciu",
+    "sto",
+    "dwadzieścia",
+    "trzydzieści",
+    "dolar",
+    "dolary",
+    "dolarów",
+    "książka",
+    "książek",
+    "godzin",
+    "godzina",
+    "godziny",
+    "minut",
+    "gazet",
+    "sklepów",
+    "sklepy",
+    "kluczy",
+    "klucz",
+    "klucze",
+    "kotów",
+    "osoba",
+    "osoby",
+    "osób",
+    "student",
+    "studenci",
+    "studentów",
+    "lekarz",
+    "lekarze",
+    "lekarzy",
+    "koledzy",
+    "kolegów",
+    "kawa",
+    "kawy",
+    "bilet",
+    "kurtka",
+    "jest",
+    "są",
+    "było",
+    "byli",
+    "były",
+    "mam",
+    "pracuje",
+    "czeka",
+    "kosztuje",
+    "w domu",
+    "w szkole",
+    "w sklepie",
+    "w parku",
+    "w centrum",
+    "w biurze",
+    "szpitalu",
+    "na stole"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_quantifiers",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

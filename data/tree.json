@@ -4543,18 +4543,19 @@
     {
       "id": "c1_quantifiers",
       "domain": "grammar",
-      "label": "Wiele, wielu · pięć złotych",
-      "label_en": "Quantity words, and the money noun",
+      "label": "Wiele, kilka · pięć złotych",
+      "label_en": "Many, a few — and how money is counted",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 8, unit 4. wiele/wielu/kilka (all verified NEW) - logged as C1 items by b2_num_subject and b2_plural_gym. PLUS zloty/zlotych, the currency a2_shopping2 OMITTED because 'it declines adjectivally (piec zlotych) and a2_numbers_gen is not built, so teaching it would invite *piec zloty' - and Block 2 has since taught -ych, so the objection is gone. MONEY IS THE MOST EVERYDAY COUNTED NOUN THERE IS and it should not end the course untaught.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_quantifiers.json"
     },
     {
       "id": "c1_concessive",

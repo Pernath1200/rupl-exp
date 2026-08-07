@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 220 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 221 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -241,4 +241,5 @@ _None._
 | 226 | `c1_time_minutes` | `time_minutes` | 19 | `byc_adj`, `byc_present`, `chodzic`, `existential_jest`, `miec_acc`, `miec_present`, `motion_prefixed`, `na_acc`, `od_source`, `ordinals_time`, `prep_do_gen`, `present`, `present_e_esz`, `question`, `social_chunk`, `time_minutes`, `zgoda` |
 | 227 | `c1_dates_full` | `dates_full` | 32 | `adj_gen`, `byc_adj`, `byc_present`, `dates_full`, `existential_jest`, `miec_acc`, `miec_present`, `motion_chunk`, `ordinals_time`, `prep_do_gen`, `questions2`, `zgoda` |
 | 228 | `c1_collective_num` | `collective_num` | 7 | `byc_present`, `collective_num`, `existential_jest`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `na_acc`, `num_subject`, `num_virile`, `numbers_gen`, `past_byc`, `past_plural`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `virile_irreg`, `virile_nom`, `virile_owie` |
+| 229 | `c1_quantifiers` | `quantifiers` | 7 | `byc_present`, `existential_jest`, `gen_endings`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `num_subject`, `num_virile`, `numbers_gen`, `past_byc`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `quantifiers`, `virile_nom` |
 

@@ -177,6 +177,7 @@ STRUCTURE_CATALOGUE = {
     "time_minutes",
     "dates_full",
     "collective_num",
+    "quantifiers",
 }
 
 GLUE_LEMMAS = {

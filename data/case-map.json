@@ -37,6 +37,7 @@
     { "case": "gen", "trigger": "od… (FROM a person)", "gloss": "who something came from — a PLACE takes z/ze instead", "example": "Mam list od brata.", "taught_by": "c1_od_source" },
     { "case": "gen", "trigger": "od… (FROM a time onwards)", "gloss": "when something starts — do closes the other end", "example": "od piątej do siódmej", "taught_by": "c1_od_source" },
     { "case": "gen", "trigger": "szukam · słucham · uczę się", "gloss": "a few verbs demand the Genitive where English just puts an object", "example": "Szukam pracy.", "taught_by": "c1_gen_verbs" },
-    { "case": "gen", "trigger": "gotowanie · kupowanie · robienie (a -nie noun)", "gloss": "what a verbal noun acts on — it is a noun, so it cannot take an object", "example": "gotowanie obiadu", "taught_by": "c1_gen_verbs" }
+    { "case": "gen", "trigger": "gotowanie · kupowanie · robienie (a -nie noun)", "gloss": "what a verbal noun acts on — it is a noun, so it cannot take an object", "example": "gotowanie obiadu", "taught_by": "c1_gen_verbs" },
+    { "case": "gen", "trigger": "wiele · wielu · kilka · kilku", "gloss": "many and a few — the same many-form pięć takes, and the same men-form", "example": "wiele książek", "taught_by": "c1_quantifiers" }
   ]
 }
