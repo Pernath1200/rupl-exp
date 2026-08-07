@@ -170,6 +170,7 @@ STRUCTURE_CATALOGUE = {
     "imperative_plural",
     "imperative_niech",
     "cond_past",
+    "by_plural",
 }
 
 GLUE_LEMMAS = {

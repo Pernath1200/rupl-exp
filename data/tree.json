@@ -4426,17 +4426,18 @@
       "id": "c1_by_plural",
       "domain": "grammar",
       "label": "Gdybyśmy, żebyśmy",
-      "label_en": "The -by- system in the plural",
+      "label_en": "The we and you-plural forms of gdyby and żeby",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 7, unit 10. The -by- system in the PLURAL, in ONE unit because it is ONE person-marker family seen a fourth time: gdybysmy/gdybyscie (b2_gdyby's logged C1-inbox hold, mirroring b1_conditional_sg's and b1_zeby's singular-first splits) and zebysmy/zebyscie (b1_zeby's logged scope cut, inbox item 16). All verified NEW. b1_conditional_pl already owns -libysmy/-lybysmy, so the ENDINGS are recycled and only the conjunction forms are new.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_by_plural.json"
     },
     {
       "id": "c1_modal_pl",

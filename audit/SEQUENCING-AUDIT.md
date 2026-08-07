@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 213 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 214 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -234,4 +234,5 @@ _None._
 | 219 | `c1_imperative_stems` | `imperative_stems` | 5 | `aspect_past`, `chodzic`, `dawac_perf`, `imperative`, `imperative_rule`, `imperative_stems`, `inst_transport`, `jechac`, `miec_acc`, `motion_chunk`, `musiec`, `na_acc`, `neg_gen`, `negation`, `perf_future`, `prep_do_gen`, `present_e_isz` |
 | 220 | `c1_imperative_more` | `imperative_niech`, `imperative_plural` | 13 | `chodzic`, `dawac_perf`, `imperative`, `imperative_niech`, `imperative_plural`, `imperative_rule`, `imperative_stems`, `inst_transport`, `jechac`, `miec_acc`, `motion_chunk`, `na_acc`, `perf_future`, `prep_do_gen`, `prep_w_loc`, `present_e_isz`, `present_uje` |
 | 221 | `c1_cond_past` | `cond_past` | 12 | `aspect_past`, `byc_adj`, `byc_present`, `cond_past`, `conditional_sg`, `gdyby`, `miec_acc`, `negation`, `past_ac`, `past_rest`, `prep_w_loc` |
+| 222 | `c1_by_plural` | `by_plural` | 4 | `aspect_past`, `by_plural`, `byc_adj`, `byc_present`, `can_inf`, `conditional_pl`, `conditional_sg`, `gdyby`, `miec_acc`, `past_plural`, `prep_w_loc`, `virile_past`, `zeby` |
 
