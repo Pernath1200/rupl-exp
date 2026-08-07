@@ -928,3 +928,186 @@ batch should assume its own prose fields leak until it has read them.
 - **`mali` / `duzi`**, dropped in batch 3; still costed at one new virile noun.
 - Next up in Block 3: `c1_siebie`, then `c1_word_order`, then `c1_station_1`
   (placeholder, stays `planned` forever).
+
+---
+
+## Batch 5 — Block 3 closes (2 units)
+
+`c1_siebie` [196] and `c1_word_order` [197], in `path_order` order, one
+commit each, pushed individually. `c1_station_1` [198] is the placeholder that
+follows and stays `planned` forever, so **Block 3 is now complete** and the next
+build run opens Block 4 at `c1_virile_alt` [199].
+
+This run's third unit was not a C1 unit: `codex/REPAIR-QUEUE.md` was checked
+first and is still empty, and the run's priority was the which-case family, so
+it opened with `b2_which_case` [180] and a `case-map.json` repair. Both are
+written up in `codex/WHICH-CASE-DIGEST.md` rather than here.
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_siebie` | 196 | 3 — `siebie`, `sobie`, `sobą` | `siebie_sobie` | `1e15d0a` |
+| `c1_word_order` | 197 | 1 — `jego` | `word_order` | `2bade07` |
+
+Audit after each: **0 errors**, warns unchanged at 6 (the five long-standing
+`teaches_empty_grammar` nodes plus `b2_which_case`, which the zero-teach genre
+necessarily produces). Both new structure IDs were registered in
+`codex/SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before either
+audit ran.
+
+### How the two units were verified
+
+The same token-level checker batch 1 of the which-case family used, rewritten
+for this run and extended to teaching packs: every Polish string on every
+learner-facing surface — slide `title_pl` and `body_pl`, every table cell,
+`examples`, match rows, quiz choices AND `explain` prose, cloze frames, answers,
+`accepts`, Użycie answers — is split into tokens and checked against the
+position-aware pool for that node. It also asserts twelve match rows, one `___`
+per cloze frame, no duplicate answers or prompts within a stage under a mirror of
+the engine's own `norm()`, that no Pisanie frame reconstructs a Użycie sentence,
+that every declared `uses_lemma` is in the pool and is not also a `teaches_lemma`,
+and that the answer is present in `accepts`.
+
+**It earned its keep twice, on things `audit.py` structurally cannot see.**
+
+1. `c1_siebie` — three untaught ordinary words were sitting on Polish shorthand
+   lines: `decyduje`, `istnieje`, `własne`. AGENTS' convention admits
+   *metalanguage* on `body_pl` (case names, `przyimek`, `zaimek`, `podmiot`);
+   it does not admit new lexis, and these were ordinary vocabulary. All three
+   replaced — `mianownik — nie ma` now uses a phrase owned since A1.
+2. `c1_word_order` — `początku` was in a slide `title_pl`. The course owns
+   `początek` and not that inflected form, and **an untaught Polish form in a
+   title is the rule `b1_wrapup` had to write down after it was broken three
+   times in one night.** Replaced with taught material. This is the second run
+   in a row where the pack's own verification caught a leak in a *prose* field
+   rather than in an item, which is now a pattern worth naming: item fields get
+   read carefully because they are obviously learner-facing; titles and shorthand
+   lines get typed quickly and are just as visible.
+
+Bare `do` was also dropped from `c1_siebie`'s `uses_lemmas`, per the house rule
+`c1_pron_12_prep` established last batch: `do` is not a lemma anywhere in the
+course, only ever inside multi-word lemmas, and declaring it produces a real
+`lemma_not_unlocked` error.
+
+### `c1_siebie` (Block 3, unit 4 — a second word, not a correction)
+
+The spine's constraint *is* the unit's shape, and it is the most important thing
+about this pack: *"`a2_sie`'s framing must survive intact — this unit adds a
+second thing, it does not correct the first."* So **nothing in the pack says
+`się` means "self"**, and nothing walks anything back. `się` still belongs to the
+verb. The pack says `siebie` is a *different word* that English happens to
+translate the same way, and that it is a real pronoun — it stands in a noun's
+slot, takes a case from whatever governs it, and can follow a preposition, three
+things `się` can never do. The minimal pair `Uczę się.` / `Znam siebie.` opens
+slide 1 and does the whole job.
+
+**The pronoun is shown only in case slots the course already owns a governor
+for** — `do` + Genitive, `o` + Locative, `z`/`ze` + Instrumental, `pomagać` +
+Dative. That is deliberately the `c1_pron_12_prep` shape and it holds the unit
+to one new thing. `ze sobą` rides the ze-shape that pack taught with `ze mną`:
+recycled, not re-taught.
+
+**Person-neutrality is the unit's real content**, and it is what the item design
+is built on. One set of forms covers myself/yourself/himself/ourselves and the
+*subject* alone disambiguates — so half of Kontrola, half of Pisanie and four of
+the ten Użycie items are **minimal pairs against the ordinary pronoun**:
+`o sobie` against `o nim` / `o tobie` / `o mnie`, `do siebie` against `do niej`,
+`pomaga sobie` against `pomaga mu`. Every one of those distractors is a real
+taught form, never a coined one, and the substitution they police is the actual
+error an English speaker makes. **No Nominative row is left as a gap** — it is an
+em dash with its reason, that the reflexive can never be the subject because it
+exists to point back at one.
+
+### `c1_word_order` (Block 3, unit 5 — the small words all lean the same way)
+
+Recognition-leaning and shape-based, exactly as spine **O6** specifies: two
+shapes shown as a picture, no rule claimed. The rejected alternative — a full
+clitic-position and topic-comment treatment — was killed by the same AGENTS line
+that killed the fleeting-e rule in `b2_gen_pl_full`.
+
+**The unifying insight is the unit.** The short object pronouns and `się` behave
+*identically*: both lean backwards on the word in front of them, both follow the
+verb when the verb opens the clause (`Znam go.` / `Nazywam się Anna.`), both
+stand in front of it when anything else does (`Mama go zna.` /
+`Jak się nazywasz?`), and **neither can open a clause**.
+`b2_sie_impersonal` had already shown `się`'s two shapes as a table fact and
+refused to claim it goes second; this unit refuses the same third shape and adds
+that `go`/`ją`/`mu` do the same thing — which turns two memorised habits into one
+picture at no cost in new material.
+
+**The defining discipline of this pack is negative, and it is worth recording as
+a genre rule.** A word-order unit can very easily mark natural Polish *wrong*.
+`b2_pron_acc`'s own note is explicit about it: it avoided short pronouns with
+noun subjects entirely because *"Mama kocha cię would be marked where Mama cię
+kocha is neutral, and choosing between them is a word-order fact, not a pronoun
+fact."* **Marked is not ungrammatical.** So no merely-marked string is offered as
+a wrong answer anywhere in the pack — `Mama zna go.` appears in no distractor at
+all. Every wrong choice is one of exactly three kinds: genuinely illegal (a short
+form opening a clause — `Go znam.`), a real form in the wrong case (`Znam ci.`,
+`Mama go pomaga.`, `Tata jej lubi.`), or a different sentence with a different
+meaning (`Tu nie pali.` = *he is not smoking here*). The neutral order is taught
+on a slide and produced in Pisanie and Użycie; the learner is never asked to
+condemn its alternative.
+
+The inverted counted subject (`W domu było pięć okien`) was held by **both**
+`b2_num_subject` and `b2_plural_gym` and lands here. It adds no agreement fact:
+neuter singular for 5-and-up and ordinary plural for 2–4 are `b2_num_subject`'s
+and are recycled unchanged, and the only new thing is that the place phrase can
+stand in front. **Adjectives are absent from every counted phrase** for that
+pack's own reason — a genitive plural adjective is C1 Block 2 material and this
+node sits *before* it on the path.
+
+### For James to smoke — batch 5
+
+1. **`c1_siebie` refuses the benefactive Dative, and this is the batch's biggest
+   judgment call — it needs your eye, because C1 is the last level and the
+   omission is therefore permanent.** *Kupiłem sobie kawę*, *Robię sobie kawę* is
+   the commonest everyday use of `sobie` by a distance, and it is not taught. The
+   reason is the load-splitting rule: it requires extending the Dative to verbs
+   that do not govern it, which is a second new system inside a unit whose brief
+   is a contrast. Every `sobie` in the pack therefore sits after `pomagać`, an
+   owned Dative governor. **If you want it, it is cheap to add** — one slide and
+   three or four items on `kupować`/`robić`, no new morphology at all, since
+   `sobie` now exists. It is the single most useful thing this run left out.
+2. **The reciprocal reading is named once and produced nowhere.** *Pomagamy
+   sobie* usually means *we help each other*, not *we each help ourselves*. It
+   gets one line on `c1_siebie`'s closing slide, the recognition-only treatment,
+   so a third reading does not compete for attention on a first pass. If it
+   should be drilled, it costs no new forms either.
+3. **`siebie` as a direct Accusative object is shown but never drilled, and the
+   reason is `c1_pron_je`'s reason one node earlier.** There is no clean
+   discrimination item for it at this position, because the obvious distractor
+   `Znam się.` is itself real Polish with a different sense (*I know my way
+   around*). `Znam siebie.` therefore appears on slide 1, in Dopasuj and in
+   Użycie, and never as a quiz choice pitted against `Znam się.` If that reads as
+   a hole in the hand, the fix is a new verb, not a new item.
+4. **`c1_word_order` slide 1 carries one emphatic noun-order pair —
+   `Mama pomaga tacie.` / `Tacie pomaga mama.`** — labelled *same endings, same
+   meaning, different emphasis*. It is true and it is the clearest possible
+   demonstration that the endings, not the order, carry who-did-what. But it is
+   the only place in the pack that shows a *noun* being moved, and it is not
+   drilled anywhere. If it reads as opening a door the unit then declines to walk
+   through, deleting that one row costs nothing.
+5. **`jego` is taught for exactly one job** — it is the form that can open a
+   clause, which is what makes emphasis possible. The rest of the long-form
+   paradigm is not opened and `jemu` is verified NEW and stays out. Worth a
+   glance to confirm that `Jego znam.` reads as emphasis rather than as an
+   alternative neutral order.
+
+### Still open after batch 5
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run. **Neither pack in this batch adds to it** — every `accepts` holds the exact
+  answer, plus the no-final-stop variant on whole-sentence Użycie items, which is
+  the standing convention and is not a fold. `c1_word_order`'s sentence-initial
+  `Jego` carries no capitalisation variant either, since the engine's `norm()`
+  lowercases anyway; batch 4 recorded that `c1_pron_je`'s equivalent was
+  redundant rather than harmful, and this batch simply did not add one.
+- **`wydaje mi się`** — settled by R7 (chunk + homograph line in `c1_nuance`),
+  not yet built.
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2, still unfixed.
+- **`mali` / `duzi`**, dropped in batch 3; still costed at one new virile noun.
+- The **benefactive Dative** and the **reciprocal `sobie`** — new to this list,
+  both above, both James's call and both cheap now that the forms exist.
+- Next up: **Block 4** — `c1_virile_alt` [199], `c1_owie` [200],
+  `c1_irreg_virile` [201], `c1_suppl_pl` [202], `c1_society` [203].
+  `c1_station_1` [198] is a permanent placeholder and is skipped.

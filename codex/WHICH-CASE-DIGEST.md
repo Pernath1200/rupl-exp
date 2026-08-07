@@ -192,3 +192,161 @@ rows for anything after `b2_prosic_o` [165]. Every C1 unit that ships a new
 governor (`c1_na_acc`, `c1_przez`, `c1_od_source`, `c1_gen_verbs`) must add its
 row in the same commit, or `c1_which_case` will derive a table that is missing
 its own level.
+
+---
+
+## Batch 2 — `b2_which_case`, and a governor the map never had
+
+One unit of the family shipped this run, plus a repair to the source of truth
+that had to land first. `codex/REPAIR-QUEUE.md` was checked before anything else
+and is still empty. The run's remaining capacity went to the C1 build track
+(`c1_siebie`, `c1_word_order` — see `codex/C1-DIGEST.md` batch 5).
+
+| unit | path | derived rows | cases | commit |
+|---|---|---|---|---|
+| `b2_which_case` | 180 | 20 | 6 | `7bdf159` |
+
+Audit: **0 errors**. Warns went 5 → 6, the sixth being this unit's own
+`teaches_empty_grammar`, which the genre necessarily produces.
+
+`c1_which_case` [235] was **not** built and could not be: its table is derived,
+and the C1 units that ship its governors (`c1_na_acc`, `c1_przez`,
+`c1_od_source`, `c1_gen_verbs` — all in Block 5) do not exist yet. Batch 1's
+digest already said so; this run confirms it. The C1 build track has to reach
+path 234 first.
+
+### The case-map was wrong a fourth time — `od` + Genitive was missing entirely
+
+Commit `b3989f6`, landed before the unit that found it.
+
+`data/case-map.json` had **no row at all** for `od` + Genitive. `a2_superlatives`
+[91] teaches it by name — its own `teaches_lemmas` declares the bare preposition
+`od` plus eight genitive phrases (`od brata`, `od kawy`, `od psa`, `od matki`,
+`od miasta`, `od domu`, `od herbaty`, `od piwa`) — and `b1_adverb_comp` later
+runs `więcej od brata` / `mniej od psa` on it. This is the same class of defect
+as batch 1's three, and the worst of the four: the other three were rows that
+were *wrong*, this was a governor the learner has owned since A2 that the map
+simply did not know about, so it was hidden from every table that should have
+shown it and from the in-app **Przypadki** panel as well.
+
+**Backfilled into the two shipped units whose tables are derived**, both of which
+sit after path 91 and were therefore built short: `a2_which_case` 15 → 16 rows,
+`b1_which_case` 17 → 18. Their *closing* decision-procedure tables — authored,
+not derived — got the same row, so the two halves of each unit agree; `od`,
+`od brata` and `starszy` were added to both packs' `uses_lemmas` and are
+pool-legal at both positions. Without the backfill the units would have drifted
+from the map, which is the one thing the spec's decision 4 forbids.
+
+Two more candidates were examined and **deliberately not added**, both logged
+here rather than decided silently:
+
+- **`za` + Accusative** (`b1_polite`, in `dziękuję za kawę`). It is a real
+  trigger, but that pack is chunk-lane — it teaches `situation_chunk`, states no
+  case rule, and its complements are a closed set of four. A bald "za →
+  Accusative" row would also be a half-truth about to be complicated:
+  C1-SPINE **O13** records that `c1_time_minutes` will teach `za` in a *time*
+  job (*za piętnaście*), so the word is heading for two-job treatment anyway.
+  Left out; James's call whether the chunk deserves a row now or a two-job row
+  later.
+- **`według` + Genitive** (`b2_discussion_func`, in `według mnie`). A single
+  frozen phrase taught as a chunk, with no second complement anywhere in the
+  course. Same reasoning, weaker case for inclusion.
+
+The fourth defect batch 1 found and left alone — rows whose `taught_by` names
+where the *structure* lands rather than where the last word in the trigger string
+lands — is **still** unresolved and still James's call.
+
+### `b2_which_case` — the level's real news is not a new trigger
+
+This is the finding worth having from building it, and it changed the unit's
+shape. **B2 added only two governors to the map**: any negated verb → Genitive
+(`b2_neg_gen` [162]) and `prosić o` → Accusative (`b2_prosic_o` [165]). By the
+count of triggers, the B2 map is barely harder than the B1 map.
+
+What actually changed is **where the case shows**, and that became the unit:
+
+1. **The adjective agrees**, so a single trigger now changes *two* words. Slide 3
+   is one shop read across four triggers — `dobrą kawę` / `nowego sklepu` /
+   `nowym sklepie` / `dobrym kolegą` — and it is the unit's headline.
+2. **The plural answers the same triggers with its own endings** (`-ach`,
+   `-ami`, `-om`, and the Genitive plural), which splits the learner's question
+   cleanly in two: *which case* is this unit, *which ending* is a lookup.
+3. **`o` joins `z` as a two-job preposition** — the fact the spec asks this unit
+   to carry, landing here because `b2_prosic_o` taught the second job. Batch 1
+   recorded that the spec's "z does two jobs" line could not truthfully be
+   written at A1 and became `a2_which_case`'s headline instead; this is the same
+   move one level up, and it is the sharpest illustration of the spec's own
+   honest line, since English uses no preposition at all in *I'd like a coffee*.
+
+The spec's required line — the case is chosen by the word in front of it, not by
+the English meaning — opens slide 1 and is re-earned on slide 5.
+
+**Twenty rows would be a wall on one slide**, so the derived table is split
+across two (Nominative/Accusative/Genitive, then Locative/Instrumental/Dative).
+Batch 1 flagged the A1 nine-row table as the densest slide in A1 and named the
+split-by-case fix; this is that fix applied pre-emptively rather than after a
+complaint.
+
+### Plural adjectives appear nowhere, and that was the tightest constraint
+
+C1-SPINE calls the plural-adjective fence *"the single easiest fence in C1 to
+break by accident"*, and a B2 case unit that wanted to say *dużo dobrych książek*
+is exactly how it breaks. `dobrych`, `nowych`, `ymi` and every virile form are
+`c1_adj_pl_*` material, six to eleven nodes later on the path. **Every plural
+oblique in this unit therefore runs on a bare noun** — `w sklepach`,
+`z kolegami`, `pomagam studentom`, `dużo książek` — which is also exactly how
+`b2_loc_pl`, `b2_inst_pl` and `b2_dat_pl` shipped them. Not one plural adjective
+is in a table, a match row, a cloze or a distractor.
+
+### Three leaks the auditor could not see
+
+The pack was run through a token-level checker over every learner-facing surface
+against the position-aware pool (`make_pool.py --before b2_which_case`, 173 live
+nodes). It found three things `audit.py` structurally cannot:
+
+1. **`kawą` was being used as a quiz distractor in two items and is UNTAUGHT
+   anywhere in the course.** The Instrumental of *kawa* has never been taught —
+   the course owns `kawa`, `kawy`, `kawę`, `kaw` and nothing else. That is a
+   fabricated-as-far-as-the-learner-is-concerned form in a distractor slot, which
+   AGENTS bans outright. Replaced with `kaw`, the Genitive plural, which is
+   taught (`a2_gen_pl` [59]) and is a *better* discriminator anyway, since it
+   contrasts Genitive singular against Genitive plural.
+2. **`sklepem` likewise**, in `w sklepem`. Replaced with the singular
+   `w sklepie` — correct Polish in the wrong number for a prompt that says
+   *the shops*, which discriminates the thing the item is actually about.
+3. **`czasem` and `bez` were untaught ordinary vocabulary on a `body_pl` line.**
+   The AGENTS convention admits *metalanguage* there, not new lexis. Rewritten as
+   `miejscownik — zawsze przyimek · narzędnik — nie zawsze`.
+
+`kawie` was avoided throughout, as it was at A1 — it is *still* untaught at path
+180. `kawy` and `książki` are used only in their Genitive-singular jobs, never as
+the `a2_plural_nom` nominative plurals, which is the homograph AGENTS names by
+example.
+
+### For James to smoke — batch 2
+
+1. **The two-slide split of the derived table.** Twenty rows is the most any of
+   these units will carry until C1's, which will be longer still. If the split by
+   case reads well here, it is the pattern `c1_which_case` should use from the
+   start (C1-SPINE already tells that unit's builder to plan for three slides).
+2. **Kontrola is 8 form-choice + 4 name-the-case**, the weighting batch 1
+   settled on. The four naming items are still the four to cut or convert if they
+   feel like quiz-show questions in the hand — that judgment has now been made
+   four times without your verdict on it.
+3. **`od` in the A2 and B1 maps.** Those two units are already in your path, and
+   the backfill changed slides you may have seen. The row reads
+   *od… (older THAN, cheaper THAN) → Genitive · starszy od brata*. Worth
+   confirming it lands as a trigger rather than as a comparative lesson.
+4. **The title.** All five units are titled `Który przypadek?` per the spec, and
+   `przypadek` is still untaught metalanguage. Batch 1 logged this and it is
+   unchanged; say the word if you want learner-English on the map.
+
+### Next run
+
+`c1_which_case` [235] is the last of the family and remains blocked until the C1
+build track reaches Block 5. The reminder from batch 1 stands and is now urgent
+enough to repeat: **every C1 unit that ships a new governor — `c1_na_acc`,
+`c1_przez`, `c1_od_source`, `c1_gen_verbs` — must add its row to
+`data/case-map.json` in the same commit**, or `c1_which_case` will derive a table
+missing its own level. `data/case-map.json` still has no rows after
+`b2_prosic_o` [165].
