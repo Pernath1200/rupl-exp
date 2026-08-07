@@ -158,6 +158,7 @@ STRUCTURE_CATALOGUE = {
     "part_attrib",
     "part_active",
     "part_adv",
+    "passive_dynamic",
 }
 
 GLUE_LEMMAS = {

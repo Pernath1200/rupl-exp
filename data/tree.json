@@ -4261,12 +4261,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 6, unit 4 (B2-SPINE O5). THE DYNAMIC PASSIVE: zostac, zostal, zostanie (all verified NEW) + participle. The contrast with b2_passive's STATE passive is the unit - AND THAT PACK'S FINAL SLIDE ALREADY TOLD THE LEARNER THIS EDGE WAS COMING, so the two read as a pair, not an overlap. The agent phrase (przez kogos) works here and nowhere earlier because c1_przez is three units back - which is why the governor unit precedes this one on the path.",
+      "note": "[C1 SPINE] Block 6, unit 4 (B2-SPINE O5). THE DYNAMIC PASSIVE: zostac, zostal, zostala, zostalo, zostaly, zostanie, zostana - all seven verified NEW. [WIRED LIVE] NOT ONE NEW ENDING: the past endings are past_rest's own on a new stem, and zostanie/zostana are perf_future doing what it does for kupie (zostac is perfective, so its present-shaped forms are future). THE PAIR WITH b2_passive IS THE UNIT - that pack's closing slide already wrote the brief ('Polish has a second passive for the action itself... that verb is not taught in this course yet'), so slide 1 quotes the promise back rather than re-teaching the state passive. THE AGENT PHRASE IS AN UPGRADE, NOT A NEW FACT: c1_przez slide 6 already shipped 'List jest napisany przez tate' on the state passive, and here the same phrase finally says what English 'by' says. THE PLURAL IS IN and costs two strings, not a paradigm - b2_passive was singular-only because zrobione is neuter singular AND non-virile plural, and c1_part_attrib named that second job, so the fence is spent. HOMOGRAPH CAUGHT: biura is TAUGHT <- a1_prep_review_2 [48] as the GENITIVE SINGULAR inside do biura / z biura, never a nominative plural - banki used instead. Virile forms absent everywhere; 1st/2nd person fenced and the fence named in English; zostac's 'to stay' sense named in ENGLISH ONLY with no Polish form. Pisanie is eight cloze, six on the teaching point and two on the participle under the queue's fallback clause. Structure ID passive_dynamic registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_zostac.json"
     },
     {
       "id": "c1_past_gaps",

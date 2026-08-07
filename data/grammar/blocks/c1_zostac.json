@@ -1,0 +1,577 @@
+{
+  "id": "c1_zostac",
+  "title": "Sklep został zamknięty",
+  "title_en": "The passive that names the moment",
+  "level": "C1",
+  "tree_node": "c1_zostac",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 6, unit 4 (B2-SPINE O5). THE DYNAMIC PASSIVE - the one b2_passive [177] named on its own closing slide and could not build.\n\nTHE UNIT IS A PAIR WITH b2_passive AND WAS WRITTEN AS ONE. That pack's final slide says, in terms: 'what you have here describes a state - the result, how things stood. Sklep byl zamkniety says the shop stood closed. Polish has a second passive for the action itself, the moment of the closing, and it is built with a different verb. That verb is not taught in this course yet.' This is that verb. Slide 1 quotes the promise back rather than re-teaching the state passive.\n\nSEVEN NEW STRINGS: zostac, zostal, zostala, zostalo, zostaly, zostanie, zostana. The infinitive zostac is on slides ONLY (dictionary form, and the header of the formation line) and appears in NO stage - not in Dopasuj, not as a distractor, not in Pisanie, not in Uzycie. It is in teaches_lemmas because the string is on screen, exactly as part_adv tagged zrobiwszy.\n\nEVERY ENDING IS ALREADY OWNED AND THE PACK SAYS SO. zostal/zostala/zostalo/zostaly are past_rest's own -l/-la/-lo/-ly on a new stem, and zostanie/zostana are the perf_future the learner has produced since a2_perf_future - zostac is perfective, so its present-shaped forms are future, which is the rule and not an exception. NOT ONE NEW ENDING; what is new is one stem and the fact that it may carry a participle.\n\nTHE AGENT PHRASE IS THE WHOLE REASON THIS UNIT SITS SIX NODES AFTER c1_przez [205], and it is an upgrade rather than a new fact: that pack's slide 6 already shipped 'List jest napisany przez tate' on the STATE passive. Here the same phrase rides zostal and finally says what English 'was written by Dad' actually says. przez + Accusative costs zero new material.\n\nTHE FUTURE REPEATS b2_passive's SECOND FACT RATHER THAN ADDING ONE. bedzie has no gender (a2_bedzie's headline) and neither does zostanie - one form for a shop, a chemist's and an office - while the participle after it agrees anyway. So the past-vs-future asymmetry the learner met at B2 holds for this verb too, which is why the future gets a short slide and not a system.\n\nTHE PLURAL IS INCLUDED AND IT COSTS TWO STRINGS, NOT A PARADIGM. b2_passive was singular-only and logged the reason (zrobione is the neuter singular there and ALSO the non-virile plural). part_attrib [208] named that second job explicitly one block later, so the fence is spent: zamkniete/otwarte as non-virile plurals are owned, and zostaly/zostana are the only new pieces. Nouns are sklepy and banki <- plural_nom [56], in exactly that job.\n\nHOMOGRAPH CAUGHT AND AVOIDED: biura was wanted for a second plural subject and is TAUGHT <- a1_prep_review_2 [48] as the GENITIVE SINGULAR inside do biura / z biura, never as a nominative plural. banki was used instead. This is the fourth row of the AGENTS homograph table in a different coat.\n\nTHE VIRILE PLURAL APPEARS NOWHERE. zostali and the virile participles (zrobieni is recognition-only <- part_attrib, zamknieci and otwarci were never built) are absent from every surface including distractors. A dynamic passive of a group of men is not a sentence this learner needs, and building it would need a form part_attrib deliberately refused to make usable.\n\nFIRST AND SECOND PERSON ARE FENCED AND THE FENCE IS NAMED. zostalem/zostales/zostane are absent everywhere. The dynamic passive of I/you is rare in any language and 'I got closed' is not a sentence; the limit slide says the construction is about things, in English, without showing a Polish form.\n\nzostac ALSO MEANS 'TO STAY' AND THAT IS NAMED IN ENGLISH ONLY on the limit slide - no Polish sentence, no form, nothing to produce. It is not the AGENTS homograph trap (the string is new here, not re-used from an earlier pack), but it is the same class of ambush and one English line prevents it. The course teaches only the passive job.\n\nNEGATION IS ABSENT BY CHOICE, inherited from b2_passive's own note: a third moving part in a two-part sentence.\n\nGLOSSING: the past dynamic passive is glossed 'got closed' where there is no agent, and 'was written by Dad' where there is - because the agent phrase already forces the event reading and 'was closed' on its own is precisely the English ambiguity this unit exists to resolve. Slide 1 says that out loud rather than letting the glosses carry it silently.\n\nKONTROLA ITEMS 1 AND 2 SHARE A FRAME ON PURPOSE - 'Sklep ___ zamkniety' answered zostal for the event and jest for the state. It is the minimal pair the unit is about and the prompts differ completely; it is not stage padding, and it is logged rather than left to look like a duplicate. Distractors elsewhere are real taught forms only: other genders of zostac, the state copulas jest/byl/bedzie, other agreement forms of the same participle, and the infinitive of the same verb. NOTHING FABRICATED (C1-SPINE O12).\n\nITEM 10 DRILLS THE GOVERNOR RATHER THAN THE PREPOSITION. The obvious item was 'ugotowany ___ mame' choosing between przez / do / od / z, and it was rejected: bare do and bare z are not pool lemmas (they live only inside multiword lemmas), so three of the four choices would have been author-whitelisted function words. The item asks for the CASE after przez instead - mame / mama / mamie / mama-with-ogonek, all four verified taught - which is the actual thing that can go wrong.\n\nPISANIE IS EIGHT CLOZE AND COULD NOT BE ANYTHING ELSE: every sentence is subject + copula + participle, which is composed at any length. SIX blank the teaching point, one per zostac form, which is exactly the number of distinct answers available - the ktory_plural / part_adv situation. TWO fall back onto the PARTICIPLE (napisany, ugotowana) under the queue's fallback clause, and they are not arbitrary: the participle still agreeing under a moved tense is the unit's second fact, and those two items are the only place production demands it.\n\nPISANIE AND UZYCIE ARE DISJOINT SENTENCE SETS, checked by assertion - no Pisanie frame reconstructs a Uzycie sentence. Where they came close the noun or the tense differs (Zupa ... przez mame in Pisanie against przez siostre in Uzycie; List zostal in Pisanie against List zostanie in Uzycie).\n\nFENCED, verified NEW and appearing NOWHERE: kolege; every form of stac sie (c1_stac_sie, Block 7); jechal, pomagal, mogl (c1_past_gaps, the very next node).",
+  "focus_structures": [
+    "passive_dynamic"
+  ],
+  "teaches_structures": [
+    "passive_dynamic"
+  ],
+  "teaches_lemmas": [
+    "zostać",
+    "został",
+    "została",
+    "zostało",
+    "zostały",
+    "zostanie",
+    "zostaną"
+  ],
+  "uses_structures": [
+    "passive_dynamic",
+    "passive",
+    "participle_pass",
+    "przez_acc",
+    "perf_future",
+    "byc_present",
+    "past_byc",
+    "bedzie",
+    "plural_nom",
+    "miec_acc",
+    "inst_z",
+    "fem_dat_loc",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "The verb B2 promised you, and what it changes",
+      "title_pl": "jest zamknięty · został zamknięty",
+      "body": "At B2 you learned to say Sklep jest zamknięty, and the unit ended by telling you where its edge was: that sentence describes a state. It says how things stand. It says nothing about the closing.\n\nPolish has a second passive for the closing itself — the moment, the event — and it is built with a different verb. That verb is zostać.\n\nSklep jest zamknięty. — The shop is shut. That is the situation.\nSklep został zamknięty. — The shop got closed. Somebody closed it, at some point.\n\nEnglish blurs the two. The shop was closed can mean either, and you have to work out which from the rest of the sentence. Polish makes you choose the verb, so it never blurs them at all.",
+      "body_pl": "Strona bierna — zdarzenie, nie stan.",
+      "examples": [
+        {
+          "en": "The shop is shut.",
+          "pl": "Sklep jest zamknięty."
+        },
+        {
+          "en": "The shop got closed.",
+          "pl": "Sklep został zamknięty."
+        },
+        {
+          "en": "The office got closed.",
+          "pl": "Biuro zostało zamknięte."
+        }
+      ]
+    },
+    {
+      "title": "Both words carry the gender, exactly as they did at B2",
+      "title_pl": "został · została · zostało · zostały",
+      "body": "zostać takes the past endings you have put on every verb since A2 — -ł, -ła, -ło, -ły — and the participle after it goes on agreeing, just as it did after był.\n\nSo both words move together, and they must move the same way. The predictable mistake is to change one and forget the other.",
+      "body_pl": "Rodzaj: został + imiesłów.",
+      "table": {
+        "headers": [
+          "Subject",
+          "Gender",
+          "Sentence",
+          "It means"
+        ],
+        "rows": [
+          [
+            "sklep",
+            "masculine",
+            "Sklep został zamknięty.",
+            "the shop got closed"
+          ],
+          [
+            "apteka",
+            "feminine",
+            "Apteka została zamknięta.",
+            "the chemist's got closed"
+          ],
+          [
+            "biuro",
+            "neuter",
+            "Biuro zostało zamknięte.",
+            "the office got closed"
+          ],
+          [
+            "sklepy",
+            "plural",
+            "Sklepy zostały zamknięte.",
+            "the shops got closed"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The future is one word, and A2's gift applies again",
+      "title_pl": "zostanie · zostaną",
+      "body": "zostać is a finished-action verb, so its present-shaped forms are already the future — the same rule that gives you kupię for I will buy.\n\nzostanie — one form for a shop, a chemist's and an office. It has no gender, exactly as będzie has none.\nzostaną — for more than one.\n\nAnd the participle after it still agrees anyway. So the future is the odd one out here for the same reason it was at B2: in the past both words move, in the future only the second one does.\n\nSklep zostanie zamknięty. Apteka zostanie zamknięta. Biuro zostanie zamknięte.",
+      "body_pl": "zostanie · zostaną — imiesłów: rodzaj.",
+      "examples": [
+        {
+          "en": "The chemist's will be opened.",
+          "pl": "Apteka zostanie otwarta."
+        },
+        {
+          "en": "The shops will be opened.",
+          "pl": "Sklepy zostaną otwarte."
+        },
+        {
+          "en": "The office will be closed.",
+          "pl": "Biuro zostanie zamknięte."
+        }
+      ]
+    },
+    {
+      "title": "And at last you can say who did it",
+      "title_pl": "przez mamę · przez tatę",
+      "body": "You already have the phrase. Six units ago przez gave you List jest napisany przez tatę, hung on the state passive because that was the only passive there was.\n\nPut it on zostać and it says what English by actually says — not that the letter sits written, but that Dad wrote it.\n\nList został napisany przez tatę. — The letter was written by Dad.\n\nprzez takes the Accusative, which is the case you have had since A1: tatę, mamę, siostrę, brata. Nothing new is happening to the noun.",
+      "body_pl": "przez + biernik — kto to zrobił.",
+      "examples": [
+        {
+          "en": "The letter was written by Dad.",
+          "pl": "List został napisany przez tatę."
+        },
+        {
+          "en": "The dinner was cooked by Mum.",
+          "pl": "Obiad został ugotowany przez mamę."
+        },
+        {
+          "en": "The bill was paid by my brother.",
+          "pl": "Rachunek został zapłacony przez brata."
+        }
+      ]
+    },
+    {
+      "title": "Choosing between the two",
+      "title_pl": "Stan czy zdarzenie?",
+      "body": "Put the pairs side by side and the question answers itself: are you describing how things are, or reporting something that happened?\n\nSklep jest zamknięty. — I walked up to it and it was shut.\nSklep został zamknięty. — They closed it down.\n\nRachunek jest zapłacony. — It is settled; nobody owes anything.\nRachunek został zapłacony przez brata. — My brother paid it.\n\nOne test that nearly always works: if you can name who did it, you want zostać. The agent phrase will not sit comfortably on jest, and that is not an accident — jest was never about anybody doing anything.",
+      "body_pl": "jest — stan. został — zdarzenie.",
+      "examples": [
+        {
+          "en": "The soup was cooked by my sister.",
+          "pl": "Zupa została ugotowana przez siostrę."
+        },
+        {
+          "en": "The coffee was made by Mum.",
+          "pl": "Kawa została zrobiona przez mamę."
+        },
+        {
+          "en": "The banks got closed.",
+          "pl": "Banki zostały zamknięte."
+        }
+      ]
+    },
+    {
+      "title": "Where the edges are",
+      "title_pl": "Rzecz, nie człowiek",
+      "body": "Three limits, named so you know where they are.\n\nThis construction is about things. Every sentence here has a shop, a letter, a bill or a dinner as its subject — something that had work done to it. Polish can build I got… and you got… forms, but they are rare and they are not what this unit is for, so they are not taught here.\n\nGroups of men are also left out, for the reason the participle unit gave: the men-group form of these participles describes things that are almost never a group of men.\n\nAnd one honest warning about the word itself. zostać has a second, completely separate job in Polish: on its own, with no participle after it, it means to stay, to remain. You will meet it. It is the same word doing different work, and nothing in this unit uses that sense — here zostać only ever appears with a participle behind it, and that is what makes it a passive.",
+      "body_pl": "zostać + imiesłów — tylko tak.",
+      "examples": [
+        {
+          "en": "The letter will be written by Dad.",
+          "pl": "List zostanie napisany przez tatę."
+        },
+        {
+          "en": "The bill will be paid.",
+          "pl": "Rachunek zostanie zapłacony."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "The shop got closed.",
+      "pl": "Sklep został zamknięty."
+    },
+    {
+      "en": "The chemist's got closed.",
+      "pl": "Apteka została zamknięta."
+    },
+    {
+      "en": "The office got closed.",
+      "pl": "Biuro zostało zamknięte."
+    },
+    {
+      "en": "The shops got closed.",
+      "pl": "Sklepy zostały zamknięte."
+    },
+    {
+      "en": "The shop will be closed.",
+      "pl": "Sklep zostanie zamknięty."
+    },
+    {
+      "en": "The shops will be closed.",
+      "pl": "Sklepy zostaną zamknięte."
+    },
+    {
+      "en": "The letter was written by Dad.",
+      "pl": "List został napisany przez tatę."
+    },
+    {
+      "en": "The dinner was cooked by Mum.",
+      "pl": "Obiad został ugotowany przez mamę."
+    },
+    {
+      "en": "The soup was cooked by my sister.",
+      "pl": "Zupa została ugotowana przez siostrę."
+    },
+    {
+      "en": "The bill got paid.",
+      "pl": "Rachunek został zapłacony."
+    },
+    {
+      "en": "The coffee was made by Mum.",
+      "pl": "Kawa została zrobiona przez mamę."
+    },
+    {
+      "en": "The chemist's will be opened.",
+      "pl": "Apteka zostanie otwarta."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Sklep ___ zamknięty. (somebody closed it — the event)",
+      "choices": [
+        "został",
+        "jest",
+        "był",
+        "będzie"
+      ],
+      "answer": "został",
+      "explain": "All four are real Polish. The other three describe how things stood, stand or will stand; only został reports the closing itself."
+    },
+    {
+      "prompt": "Sklep ___ zamknięty. (it stands shut — how things are now)",
+      "choices": [
+        "jest",
+        "został",
+        "zostanie",
+        "zostaną"
+      ],
+      "answer": "jest",
+      "explain": "The mirror of the last item. Nothing happened here — this is the B2 sentence, and it is still the right one when you are describing a situation."
+    },
+    {
+      "prompt": "Apteka ___ zamknięta. (somebody closed it)",
+      "choices": [
+        "została",
+        "został",
+        "zostało",
+        "zostały"
+      ],
+      "answer": "została",
+      "explain": "apteka is feminine, so both words take the feminine: została zamknięta."
+    },
+    {
+      "prompt": "Biuro ___ zamknięte. (somebody closed it)",
+      "choices": [
+        "zostało",
+        "została",
+        "został",
+        "zostaną"
+      ],
+      "answer": "zostało",
+      "explain": "The neuter -ło, matching zamknięte."
+    },
+    {
+      "prompt": "Sklepy ___ zamknięte. (somebody closed them)",
+      "choices": [
+        "zostały",
+        "zostało",
+        "została",
+        "zostanie"
+      ],
+      "answer": "zostały",
+      "explain": "zostało is the neuter singular and would go with one office, not several shops."
+    },
+    {
+      "prompt": "Apteka ___ otwarta. (will be opened)",
+      "choices": [
+        "zostanie",
+        "została",
+        "zostaną",
+        "zostały"
+      ],
+      "answer": "zostanie",
+      "explain": "zostanie has no gender of its own; the feminine shows on otwarta and nowhere else."
+    },
+    {
+      "prompt": "Sklepy ___ otwarte. (will be opened)",
+      "choices": [
+        "zostaną",
+        "zostanie",
+        "zostały",
+        "zostało"
+      ],
+      "answer": "zostaną",
+      "explain": "More than one shop, and the future — so the plural form of the future."
+    },
+    {
+      "prompt": "List został ___ przez tatę. (written)",
+      "choices": [
+        "napisany",
+        "napisana",
+        "napisane",
+        "napisać"
+      ],
+      "answer": "napisany",
+      "explain": "list is masculine. The participle agrees with what the work was done to, never with the person who did it."
+    },
+    {
+      "prompt": "Zupa została ___ przez mamę. (cooked)",
+      "choices": [
+        "ugotowana",
+        "ugotowany",
+        "ugotowane",
+        "ugotować"
+      ],
+      "answer": "ugotowana",
+      "explain": "Feminine, to match zupa and została. mamę has no say in it."
+    },
+    {
+      "prompt": "Obiad został ugotowany przez ___. (Mum)",
+      "choices": [
+        "mamę",
+        "mama",
+        "mamie",
+        "mamą"
+      ],
+      "answer": "mamę",
+      "explain": "przez takes the Accusative — the same mamę you have used after mam since A1."
+    },
+    {
+      "prompt": "Rachunek ___ zapłacony przez brata. (was paid)",
+      "choices": [
+        "został",
+        "została",
+        "zostało",
+        "zostaną"
+      ],
+      "answer": "został",
+      "explain": "rachunek is masculine, and the sentence names who paid — so it is the event verb, not jest."
+    },
+    {
+      "prompt": "Biuro zostanie ___. (opened)",
+      "choices": [
+        "otwarte",
+        "otwarty",
+        "otwarta",
+        "otworzyć"
+      ],
+      "answer": "otwarte",
+      "explain": "zostanie tells you nothing about gender, so the participle has to carry it: biuro is neuter."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "The shop got closed.",
+      "mode": "cloze",
+      "frame": "Sklep ___ zamknięty.",
+      "answer": "został",
+      "accepts": [
+        "został"
+      ],
+      "explain": "The event, not the state. jest would say the shop stands shut."
+    },
+    {
+      "prompt_en": "The chemist's got closed.",
+      "mode": "cloze",
+      "frame": "Apteka ___ zamknięta.",
+      "answer": "została",
+      "accepts": [
+        "została"
+      ]
+    },
+    {
+      "prompt_en": "The office got closed.",
+      "mode": "cloze",
+      "frame": "Biuro ___ zamknięte.",
+      "answer": "zostało",
+      "accepts": [
+        "zostało"
+      ]
+    },
+    {
+      "prompt_en": "The shops got closed.",
+      "mode": "cloze",
+      "frame": "Sklepy ___ zamknięte.",
+      "answer": "zostały",
+      "accepts": [
+        "zostały"
+      ]
+    },
+    {
+      "prompt_en": "The chemist's will be opened.",
+      "mode": "cloze",
+      "frame": "Apteka ___ otwarta.",
+      "answer": "zostanie",
+      "accepts": [
+        "zostanie"
+      ],
+      "explain": "One form for all three genders — the feminine is already showing on otwarta."
+    },
+    {
+      "prompt_en": "The shops will be opened.",
+      "mode": "cloze",
+      "frame": "Sklepy ___ otwarte.",
+      "answer": "zostaną",
+      "accepts": [
+        "zostaną"
+      ]
+    },
+    {
+      "prompt_en": "The letter was written by Dad.",
+      "mode": "cloze",
+      "frame": "List został ___ przez tatę.",
+      "answer": "napisany",
+      "accepts": [
+        "napisany"
+      ],
+      "explain": "The blank is the participle here, because the participle is the word that has to keep agreeing while the tense moves."
+    },
+    {
+      "prompt_en": "The soup was cooked by Mum.",
+      "mode": "cloze",
+      "frame": "Zupa została ___ przez mamę.",
+      "answer": "ugotowana",
+      "accepts": [
+        "ugotowana"
+      ],
+      "explain": "And it agrees with zupa, never with mamę."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The dinner was cooked by Mum.",
+      "answer": "Obiad został ugotowany przez mamę.",
+      "accepts": [
+        "Obiad został ugotowany przez mamę.",
+        "Obiad został ugotowany przez mamę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coffee was made by my sister.",
+      "answer": "Kawa została zrobiona przez siostrę.",
+      "accepts": [
+        "Kawa została zrobiona przez siostrę.",
+        "Kawa została zrobiona przez siostrę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bill was paid by my brother.",
+      "answer": "Rachunek został zapłacony przez brata.",
+      "accepts": [
+        "Rachunek został zapłacony przez brata.",
+        "Rachunek został zapłacony przez brata"
+      ]
+    },
+    {
+      "prompt_en": "Type: The letter will be written by Dad.",
+      "answer": "List zostanie napisany przez tatę.",
+      "accepts": [
+        "List zostanie napisany przez tatę.",
+        "List zostanie napisany przez tatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The soup was cooked by my sister.",
+      "answer": "Zupa została ugotowana przez siostrę.",
+      "accepts": [
+        "Zupa została ugotowana przez siostrę.",
+        "Zupa została ugotowana przez siostrę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The office will be closed.",
+      "answer": "Biuro zostanie zamknięte.",
+      "accepts": [
+        "Biuro zostanie zamknięte.",
+        "Biuro zostanie zamknięte"
+      ]
+    },
+    {
+      "prompt_en": "Type: The banks got closed.",
+      "answer": "Banki zostały zamknięte.",
+      "accepts": [
+        "Banki zostały zamknięte.",
+        "Banki zostały zamknięte"
+      ]
+    },
+    {
+      "prompt_en": "Type: The coffee will be made by Mum.",
+      "answer": "Kawa zostanie zrobiona przez mamę.",
+      "accepts": [
+        "Kawa zostanie zrobiona przez mamę.",
+        "Kawa zostanie zrobiona przez mamę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The dinner will be cooked by Mum.",
+      "answer": "Obiad zostanie ugotowany przez mamę.",
+      "accepts": [
+        "Obiad zostanie ugotowany przez mamę.",
+        "Obiad zostanie ugotowany przez mamę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The bill will be paid.",
+      "answer": "Rachunek zostanie zapłacony.",
+      "accepts": [
+        "Rachunek zostanie zapłacony.",
+        "Rachunek zostanie zapłacony"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "sklep",
+    "sklepy",
+    "apteka",
+    "biuro",
+    "banki",
+    "list",
+    "obiad",
+    "zupa",
+    "kawa",
+    "rachunek",
+    "zamknięty",
+    "zamknięta",
+    "zamknięte",
+    "otwarty",
+    "otwarta",
+    "otwarte",
+    "napisany",
+    "napisana",
+    "napisane",
+    "napisać",
+    "ugotowany",
+    "ugotowana",
+    "ugotowane",
+    "ugotować",
+    "zrobiona",
+    "zapłacony",
+    "otworzyć",
+    "przez",
+    "mamę",
+    "mama",
+    "mamie",
+    "mamą",
+    "tatę",
+    "siostrę",
+    "brata",
+    "jest",
+    "był",
+    "będzie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_zostac",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
