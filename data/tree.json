@@ -4126,11 +4126,12 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[C1 SPINE] Block 4 vocab (spine O8). VERIFIED NEW: spoleczenstwo, srodowisko, wartosc, korzysc, wolnosc, sprawiedliwosc, obowiazki, nauka, technologia - the first four being b2_abstract's OWN four logged drops, coming home in the level that has room for them. Trim to 12; top up from b2_abstract's note before inventing candidates. ANCHORS, never re-taught: przyczyna, skutek, wplyw, zmiana, cel, sposob (b2_abstract), kultura, historia, sztuka. HOMOGRAPH (spine O13): prawo is TAUGHT only inside 'na prawo' (leaf_places), NOT as law/right - handle or avoid. The soft -cja Genitive class (inbox item 12) rides this pack's soft feminines.",
+      "note": "[C1 SPINE] Block 4 vocab (spine O8). VERIFIED NEW: spoleczenstwo, srodowisko, wartosc, korzysc, wolnosc, sprawiedliwosc, obowiazki, nauka, technologia - the first four being b2_abstract's OWN four logged drops, coming home in the level that has room for them. Trim to 12; top up from b2_abstract's note before inventing candidates. ANCHORS, never re-taught: przyczyna, skutek, wplyw, zmiana, cel, sposob (b2_abstract), kultura, historia, sztuka. HOMOGRAPH (spine O13): prawo is TAUGHT only inside 'na prawo' (leaf_places), NOT as law/right - handle or avoid. The soft -cja Genitive class (inbox item 12) rides this pack's soft feminines. [WIRED LIVE] TWELVE new words, every one re-verified NEW at this node's own path position: spoleczenstwo, srodowisko, wartosc, korzysc, wolnosc, sprawiedliwosc, prawo (legal sense), obowiazki, nauka, technologia, rzad, klimat - plus three riding forms (nauke, technologie, wazne). THE SPINE LISTED NINE AND SAID TRIM TO 12, so this pack had to ADD three, not drop any; b2_abstract's note was read and had nothing left to give (all four of its logged drops were already in the nine). AUTHOR'S ADDITIONS, LOGGED: rzad, prawo, klimat. Rejected and now permanently untaught: panstwo, polityka, wladza, wojna, rownosc, bezpieczenstwo, natura, rozwoj. prawo IS the O13 homograph and is opened explicitly against na prawo / w prawo on its own item - the only string in the pack knowingly re-taught. FOUR -osc FEMININES are used to give the class for free: every -osc noun is feminine and none changes in the Accusative. NO GENITIVE, LOCATIVE OR DATIVE of any new noun; no plural except obowiazki (taught whole, no fleeting-e rule stated, holding b2_gen_pl_full's refusal). NA + ACCUSATIVE APPEARS NOWHERE - the natural collocations (wplyw na srodowisko, wplyw na spoleczenstwo) are all one node early, and c1_na_acc [204] is the very next unit. mozliwa was wanted and refused because c1_evaluation fenced it by name. Title re-checked at the wire and stands unchanged.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/c1_society.json"
     },
     {
       "id": "c1_na_acc",
