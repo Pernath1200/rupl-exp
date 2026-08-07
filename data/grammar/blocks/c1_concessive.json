@@ -1,0 +1,630 @@
+{
+  "id": "c1_concessive",
+  "title": "Chociaż · mimo że",
+  "title_en": "Although — the obstacle that did not stop it",
+  "level": "C1",
+  "tree_node": "c1_concessive",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 9 unit 1; B2-SPINE inbox item 23, first half. TWO NEW WORDS AND ZERO NEW MORPHOLOGY - b2_conjunctions' idiom exactly: invariable joiners bolted onto clauses the learner can already build, with one contrast taught by table rather than derived. Neither word ever changes shape and neither changes anything in either clause. SCOPE HELD TO THE SPINE'S LETTER, AND THE FORK IS LOGGED: only chociaz and mimo ze are taught. choc (the everyday short form of chociaz) reports NEW and was deliberately NOT shown - showing it would put an untagged Polish string on screen, and teaching it would be a third word in a unit whose whole point is that it costs nothing. If James wants it, it is a one-line addition to slide 1 plus a teaches_lemmas entry. jednak, natomiast and pomimo are all NEW and out of scope by the same reasoning. MIMO ON ITS OWN IS FENCED. Bare mimo is a PREPOSITION governing the Genitive (mimo deszczu) - a new case governor, which would need its own row in data/case-map.json and is a second fact about the word. The unit teaches mimo ze as a single indivisible joiner and says on slide 2 that the two words are never separated. NO case-map row was added for this unit, which is correct: a conjunction governs nothing. THE ze INSIDE mimo ze IS NAMED, not left to collide. ze_clauses [147] taught ze as the complementiser after a verb of saying or knowing (Wiem, ze mama jest w domu); inside mimo ze it has no such job and there is no verb of saying anywhere near it. Slide 2 says this in one line - the chunk-versus-slot treatment dziekuje, ktorej and nowego all got. INTERCHANGEABILITY IS STATED, AND IT SHAPES THE QUIZ. chociaz and mimo ze are genuine everyday synonyms, so NO quiz item ever offers both as choices - marking one wrong where the other is right would be exactly the false-wrong James smoke-flagged on 2026-08-07. Every Kontrola item discriminates concession against an ALREADY-OWNED joiner (ale, a, bo, wiec, albo, i), which is also the sharper lesson: bo and chociaz take the same two clauses and claim opposite things about them. PISANIE FALLBACK, LOGGED PER THE REPAIR-QUEUE RULE: the unit has exactly two teaching-point strings, so only items 1 and 2 can carry them without breaking the no-duplicate-answers rule (norm() lowercases, so a sentence-initial Chociaz collides with the bare chociaz). The remaining ten clozes therefore blank the load-bearing form of the concessive clause with the joiner left VISIBLE in the frame, which is b1_vocative_chunks' precedent one level up. Sentence-level production of the joiners lives in Uzycie, where the whole sentence is typed. HOMOGRAPH WATCH: drogi is used in its TAUGHT sense, expensive (leaf_shopping_a1 [20]), never as anything to do with a road - C1-SPINE O13 names this as the trap, and the FEMININE droga was refused outright in a use item because the learner reads that string as the noun. CAUGHT IN SELF-REVIEW: a use item read 'tata czyta gazete' - gazete is NEW (only the plural gazety is taught), the same catch the which-case batch made at A2; replaced with ksiazke. gotowal (3sg masculine past of gotowac) is NOT in the pool either, so the past-tense use item runs on ugotowal (b2_aspect_prefixes [168]).",
+  "focus_structures": [
+    "concessive"
+  ],
+  "teaches_structures": [
+    "concessive"
+  ],
+  "teaches_lemmas": [
+    "chociaż",
+    "mimo że"
+  ],
+  "uses_structures": [
+    "concessive",
+    "conjunctions",
+    "ze_clauses",
+    "byc_present",
+    "byc_adj",
+    "past_byc",
+    "past_ac",
+    "past_rest",
+    "present",
+    "present_am",
+    "present_e_isz",
+    "present_e_esz",
+    "present_uje",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "zgoda",
+    "plural_nom",
+    "prep_w_loc",
+    "prep_do_gen",
+    "chodzic",
+    "motion_chunk",
+    "na_acc",
+    "pron_acc",
+    "dative_sg",
+    "weather_chunk",
+    "aspect_prefixes",
+    "participle_pass"
+  ],
+  "intro": [
+    {
+      "title": "Chociaż — the obstacle that did not stop it",
+      "title_pl": "Chociaż byłem zmęczony, pracowałem.",
+      "body": "You already join two clauses with ale. It sets two facts side by side and says the second goes against the first: Mam kawę, ale nie mam herbaty.\n\nConcession is sharper than that. It marks one fact as the thing that should have stopped the other — and then says it did not.\n\nchociaż — although, even though.\n\nIt is invariable. Nothing about it agrees with anything, and nothing in either clause changes shape because of it. Both halves are sentences you can already build on your own.\n\nThe clause it opens may stand first or second, and Polish writes the comma at the join either way.",
+      "body_pl": "Chociaż byłem zmęczony, pracowałem.",
+      "table": {
+        "headers": [
+          "Order",
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "concession first",
+            "Chociaż byłem zmęczony, pracowałem.",
+            "Although I was tired, I worked."
+          ],
+          [
+            "concession second",
+            "Pracowałem, chociaż byłem zmęczony.",
+            "I worked, although I was tired."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Although the shop is closed, the café is open.",
+          "pl": "Chociaż sklep jest zamknięty, kawiarnia jest otwarta."
+        },
+        {
+          "en": "I help Mum, although I don't have time.",
+          "pl": "Pomagam mamie, chociaż nie mam czasu."
+        }
+      ]
+    },
+    {
+      "title": "Mimo że — the same job, in two words",
+      "title_pl": "Mimo że pada deszcz, idę do parku.",
+      "body": "mimo że does what chociaż does. In everyday Polish the two are interchangeable, and the choice between them is one of weight rather than of meaning: mimo że lands a little heavier, and it is the one you will more often meet in writing.\n\nIt is two words and they are never separated. The comma goes in front of the whole thing — never between mimo and że.\n\nAnd notice what że is not doing here. On its own it attaches a clause to a verb of saying or knowing: Wiem, że mama jest w domu. Inside mimo że it has no such job, and there is no verb of saying anywhere near it. The two words together are the joiner.",
+      "body_pl": "Mimo że pada deszcz, idę do parku.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English"
+        ],
+        "rows": [
+          [
+            "Mimo że pada deszcz, idę do parku.",
+            "Even though it is raining, I am going to the park."
+          ],
+          [
+            "Tata pracuje, mimo że jest chory.",
+            "Dad is working, even though he is ill."
+          ],
+          [
+            "Mimo że jest zimno, dzieci są w parku.",
+            "Even though it is cold, the children are in the park."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Even though it is late, Mum is working.",
+          "pl": "Mimo że jest późno, mama pracuje."
+        },
+        {
+          "en": "I am drinking the coffee, even though it is cold.",
+          "pl": "Piję kawę, mimo że jest zimna."
+        }
+      ]
+    },
+    {
+      "title": "Which joiner, and what each one claims",
+      "title_pl": "Ale · bo · więc · chociaż",
+      "body": "Four joiners, four different claims about how the two halves stand to each other. Only one line of this table is new today.\n\nThe pair worth the most attention is bo against chociaż. They take the same two clauses and say opposite things about them.\n\nIdę do domu, bo jestem zmęczony — being tired is the reason I am going.\n\nPomagam mamie, chociaż nie mam czasu — not having time is the reason I should not be helping.",
+      "body_pl": "Ale · bo · więc · chociaż · mimo że",
+      "table": {
+        "headers": [
+          "Joiner",
+          "What it claims",
+          "Example"
+        ],
+        "rows": [
+          [
+            "ale",
+            "the second half goes against the first",
+            "Mam kawę, ale nie mam herbaty."
+          ],
+          [
+            "bo",
+            "the second half is the reason for the first",
+            "Idę do domu, bo jestem zmęczony."
+          ],
+          [
+            "więc",
+            "the second half is the result of the first",
+            "Jestem zmęczony, więc idę do domu."
+          ],
+          [
+            "chociaż · mimo że",
+            "the first half should have stopped the second, and did not",
+            "Chociaż mam pieniądze, nie mam czasu."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I am going home because I am tired.",
+          "pl": "Idę do domu, bo jestem zmęczony."
+        },
+        {
+          "en": "Although the sweater is expensive, I am buying it.",
+          "pl": "Chociaż sweter jest drogi, kupuję go."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "although, even though",
+      "pl": "chociaż"
+    },
+    {
+      "en": "even though (the two-word one)",
+      "pl": "mimo że"
+    },
+    {
+      "en": "Although I was tired, I worked.",
+      "pl": "Chociaż byłem zmęczony, pracowałem."
+    },
+    {
+      "en": "Even though it's raining, I'm going to the park.",
+      "pl": "Mimo że pada deszcz, idę do parku."
+    },
+    {
+      "en": "Although the shop is closed, the café is open.",
+      "pl": "Chociaż sklep jest zamknięty, kawiarnia jest otwarta."
+    },
+    {
+      "en": "Even though it's cold, the children are in the park.",
+      "pl": "Mimo że jest zimno, dzieci są w parku."
+    },
+    {
+      "en": "I help Mum, although I don't have time.",
+      "pl": "Pomagam mamie, chociaż nie mam czasu."
+    },
+    {
+      "en": "Dad is working, even though he is ill.",
+      "pl": "Tata pracuje, mimo że jest chory."
+    },
+    {
+      "en": "Although the sweater is expensive, I'm buying it.",
+      "pl": "Chociaż sweter jest drogi, kupuję go."
+    },
+    {
+      "en": "Even though it's late, Mum is working.",
+      "pl": "Mimo że jest późno, mama pracuje."
+    },
+    {
+      "en": "Although I have money, I don't have time.",
+      "pl": "Chociaż mam pieniądze, nie mam czasu."
+    },
+    {
+      "en": "I'm drinking the coffee, even though it's cold.",
+      "pl": "Piję kawę, mimo że jest zimna."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ byłem zmęczony, pracowałem. (although)",
+      "choices": [
+        "Chociaż",
+        "Ale",
+        "Więc",
+        "Albo"
+      ],
+      "answer": "Chociaż",
+      "explain": "Being tired is what should have stopped the working. Ale, więc and albo cannot open a sentence this way at all."
+    },
+    {
+      "prompt": "Tata pracuje, ___ jest chory. (even though)",
+      "choices": [
+        "mimo że",
+        "więc",
+        "albo",
+        "i"
+      ],
+      "answer": "mimo że",
+      "explain": "więc would make the illness the reason he is working. i would just add it on. Only the concessive says the illness argues against the working."
+    },
+    {
+      "prompt": "Mama pracuje, ___ tata gotuje. (and — two different things, no contradiction)",
+      "choices": [
+        "a",
+        "chociaż",
+        "bo",
+        "więc"
+      ],
+      "answer": "a",
+      "explain": "Nothing here contradicts anything: two people, two jobs, side by side. chociaż would claim that Dad cooking should have stopped Mum working."
+    },
+    {
+      "prompt": "___ jest zimno, dzieci są w parku. (even though)",
+      "choices": [
+        "Mimo że",
+        "Więc",
+        "Albo",
+        "Bo"
+      ],
+      "answer": "Mimo że",
+      "explain": "The cold is the obstacle. None of the other three can stand at the front of a sentence in this job."
+    },
+    {
+      "prompt": "Jestem zmęczony, ___ idę do domu. (so)",
+      "choices": [
+        "więc",
+        "chociaż",
+        "albo",
+        "mimo że"
+      ],
+      "answer": "więc",
+      "explain": "Going home is the result of being tired, not something the tiredness argued against. Concession would turn the sentence upside down."
+    },
+    {
+      "prompt": "Piję kawę, ___ jest zimna. (even though)",
+      "choices": [
+        "mimo że",
+        "więc",
+        "albo",
+        "też"
+      ],
+      "answer": "mimo że",
+      "explain": "Cold coffee is a reason not to drink it. Saying it anyway is what a concessive is for."
+    },
+    {
+      "prompt": "___ sklep jest zamknięty, kawiarnia jest otwarta. (although)",
+      "choices": [
+        "Chociaż",
+        "Więc",
+        "Albo",
+        "Też"
+      ],
+      "answer": "Chociaż",
+      "explain": "One place shut, another open — the shut shop sets you up to expect the café shut too, and the concessive cancels that expectation."
+    },
+    {
+      "prompt": "Idę do domu, ___ jestem zmęczony. (because)",
+      "choices": [
+        "bo",
+        "chociaż",
+        "więc",
+        "albo"
+      ],
+      "answer": "bo",
+      "explain": "This is the sharpest pair in the unit. bo makes the tiredness the reason for going; chociaż would make it the reason not to go, and the sentence would mean the opposite."
+    },
+    {
+      "prompt": "Pomagam mamie, ___ nie mam czasu. (although)",
+      "choices": [
+        "chociaż",
+        "bo",
+        "więc",
+        "i"
+      ],
+      "answer": "chociaż",
+      "explain": "bo would say I am helping because I have no time, which is nonsense. Having no time is exactly what should have stopped me."
+    },
+    {
+      "prompt": "Piję kawę ___ herbatę. (or)",
+      "choices": [
+        "albo",
+        "ale",
+        "chociaż",
+        "mimo że"
+      ],
+      "answer": "albo",
+      "explain": "Two things joined inside one clause, not two clauses joined. A concessive needs a whole sentence on each side of it."
+    },
+    {
+      "prompt": "___ jest późno, mama pracuje. (even though)",
+      "choices": [
+        "Mimo że",
+        "Bo",
+        "Więc",
+        "Też"
+      ],
+      "answer": "Mimo że",
+      "explain": "The lateness is the obstacle she worked through. Bo cannot open a sentence in this job."
+    },
+    {
+      "prompt": "___ sweter jest drogi, kupuję go. (although)",
+      "choices": [
+        "Chociaż",
+        "Bo",
+        "Więc",
+        "Albo"
+      ],
+      "answer": "Chociaż",
+      "explain": "The price is the reason not to buy it. Bo would make the price the reason to buy it."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "although, even though",
+      "mode": "full_word",
+      "answer": "chociaż",
+      "accepts": [
+        "chociaż"
+      ]
+    },
+    {
+      "prompt_en": "even though (the two-word one)",
+      "mode": "full_word",
+      "answer": "mimo że",
+      "accepts": [
+        "mimo że"
+      ],
+      "explain": "Two words, never separated, and the comma goes in front of both of them."
+    },
+    {
+      "prompt_en": "Although the shop is closed, the café is open.",
+      "mode": "cloze",
+      "frame": "Chociaż sklep jest ___, kawiarnia jest otwarta.",
+      "answer": "zamknięty",
+      "accepts": [
+        "zamknięty"
+      ],
+      "explain": "The joiner is printed for you here — nothing in either clause changes shape because of it, which is the whole point."
+    },
+    {
+      "prompt_en": "Even though it's cold, the children are in the park.",
+      "mode": "cloze",
+      "frame": "Mimo że jest ___, dzieci są w parku.",
+      "answer": "zimno",
+      "accepts": [
+        "zimno"
+      ],
+      "explain": "zimno, not zimna. There is no subject for it to agree with — the weather frame has none."
+    },
+    {
+      "prompt_en": "Although I was tired, I worked.",
+      "mode": "cloze",
+      "frame": "Chociaż byłem ___, pracowałem.",
+      "answer": "zmęczony",
+      "accepts": [
+        "zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "Dad is working, even though he is ill.",
+      "mode": "cloze",
+      "frame": "Tata pracuje, mimo że jest ___.",
+      "answer": "chory",
+      "accepts": [
+        "chory"
+      ]
+    },
+    {
+      "prompt_en": "I help Mum, although I don't have time.",
+      "mode": "cloze",
+      "frame": "Pomagam mamie, chociaż nie mam ___.",
+      "answer": "czasu",
+      "accepts": [
+        "czasu"
+      ],
+      "explain": "nie mam still pulls the Genitive here. The joiner changes nothing inside either clause."
+    },
+    {
+      "prompt_en": "Even though it's late, Mum is working.",
+      "mode": "cloze",
+      "frame": "Mimo że jest ___, mama pracuje.",
+      "answer": "późno",
+      "accepts": [
+        "późno"
+      ]
+    },
+    {
+      "prompt_en": "Although the sweater is expensive, I'm buying it.",
+      "mode": "cloze",
+      "frame": "Chociaż sweter jest ___, kupuję go.",
+      "answer": "drogi",
+      "accepts": [
+        "drogi"
+      ]
+    },
+    {
+      "prompt_en": "I'm drinking the coffee, even though it's cold.",
+      "mode": "cloze",
+      "frame": "Piję kawę, mimo że jest ___.",
+      "answer": "zimna",
+      "accepts": [
+        "zimna"
+      ],
+      "explain": "zimna this time, because there is a subject: the coffee, and kawa is feminine."
+    },
+    {
+      "prompt_en": "Even though it's raining, I'm going to the park.",
+      "mode": "cloze",
+      "frame": "Mimo że pada deszcz, ___ do parku.",
+      "answer": "idę",
+      "accepts": [
+        "idę"
+      ]
+    },
+    {
+      "prompt_en": "Although Mum is at work, Dad is cooking dinner.",
+      "mode": "cloze",
+      "frame": "Chociaż mama jest w pracy, tata ___ obiad.",
+      "answer": "gotuje",
+      "accepts": [
+        "gotuje"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Although Mum is tired, she is working.",
+      "answer": "Chociaż mama jest zmęczona, pracuje.",
+      "accepts": [
+        "Chociaż mama jest zmęczona, pracuje.",
+        "Chociaż mama jest zmęczona, pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: Even though the shop is closed, I'm going to the centre.",
+      "answer": "Mimo że sklep jest zamknięty, idę do centrum.",
+      "accepts": [
+        "Mimo że sklep jest zamknięty, idę do centrum.",
+        "Mimo że sklep jest zamknięty, idę do centrum"
+      ]
+    },
+    {
+      "prompt_en": "Type: Although the coffee is cold, I like it.",
+      "answer": "Chociaż kawa jest zimna, lubię ją.",
+      "accepts": [
+        "Chociaż kawa jest zimna, lubię ją.",
+        "Chociaż kawa jest zimna, lubię ją"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is cooking dinner, even though he is tired.",
+      "answer": "Tata gotuje obiad, mimo że jest zmęczony.",
+      "accepts": [
+        "Tata gotuje obiad, mimo że jest zmęczony.",
+        "Tata gotuje obiad, mimo że jest zmęczony"
+      ],
+      "explain": "The concessive clause sits second here. The comma still goes at the join, in front of mimo."
+    },
+    {
+      "prompt_en": "Type: Although it's raining, we're going for a walk.",
+      "answer": "Chociaż pada deszcz, idziemy na spacer.",
+      "accepts": [
+        "Chociaż pada deszcz, idziemy na spacer.",
+        "Chociaż pada deszcz, idziemy na spacer"
+      ]
+    },
+    {
+      "prompt_en": "Type: Even though I have time, I'm not going to the shop.",
+      "answer": "Mimo że mam czas, nie idę do sklepu.",
+      "accepts": [
+        "Mimo że mam czas, nie idę do sklepu.",
+        "Mimo że mam czas, nie idę do sklepu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Although Dad was tired, he cooked dinner.",
+      "answer": "Chociaż tata był zmęczony, ugotował obiad.",
+      "accepts": [
+        "Chociaż tata był zmęczony, ugotował obiad.",
+        "Chociaż tata był zmęczony, ugotował obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Even though I'm tired, I'm helping Mum.",
+      "answer": "Mimo że jestem zmęczony, pomagam mamie.",
+      "accepts": [
+        "Mimo że jestem zmęczony, pomagam mamie.",
+        "Mimo że jestem zmęczony, pomagam mamie"
+      ]
+    },
+    {
+      "prompt_en": "Type: Although the café is open, I'm going home.",
+      "answer": "Chociaż kawiarnia jest otwarta, idę do domu.",
+      "accepts": [
+        "Chociaż kawiarnia jest otwarta, idę do domu.",
+        "Chociaż kawiarnia jest otwarta, idę do domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Even though it's late, Dad is reading a book.",
+      "answer": "Mimo że jest późno, tata czyta książkę.",
+      "accepts": [
+        "Mimo że jest późno, tata czyta książkę.",
+        "Mimo że jest późno, tata czyta książkę"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "ale",
+    "a",
+    "bo",
+    "więc",
+    "albo",
+    "i",
+    "też",
+    "że",
+    "wiem",
+    "mam",
+    "nie mam",
+    "mama",
+    "tata",
+    "dzieci",
+    "sklep",
+    "sklepu",
+    "kawiarnia",
+    "kawa",
+    "kawę",
+    "herbaty",
+    "herbatę",
+    "sweter",
+    "obiad",
+    "książkę",
+    "deszcz",
+    "pada deszcz",
+    "pieniądze",
+    "czas",
+    "czasu",
+    "jest",
+    "są",
+    "jestem",
+    "byłem",
+    "był",
+    "pracowałem",
+    "pracuje",
+    "gotuje",
+    "ugotował",
+    "idę",
+    "idziemy",
+    "piję",
+    "kupuję",
+    "czyta",
+    "lubię",
+    "pomagam",
+    "mamie",
+    "ją",
+    "go",
+    "zmęczony",
+    "zmęczona",
+    "chory",
+    "zimno",
+    "zimna",
+    "późno",
+    "drogi",
+    "zamknięty",
+    "otwarta",
+    "w domu",
+    "w parku",
+    "w pracy",
+    "do domu",
+    "do parku",
+    "do sklepu",
+    "do centrum",
+    "na spacer"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_concessive",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

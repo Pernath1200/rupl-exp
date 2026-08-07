@@ -178,6 +178,7 @@ STRUCTURE_CATALOGUE = {
     "dates_full",
     "collective_num",
     "quantifiers",
+    "concessive",
 }
 
 GLUE_LEMMAS = {

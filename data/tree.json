@@ -4560,18 +4560,19 @@
     {
       "id": "c1_concessive",
       "domain": "grammar",
-      "label": "Chociaż, mimo że",
-      "label_en": "Although · even though",
+      "label": "Chociaż · mimo że",
+      "label_en": "Although — the obstacle that did not stop it",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 9, unit 1. Inbox item 23, first half: chociaz, mimo ze (both verified NEW). ZERO NEW MORPHOLOGY - b2_conjunctions' idiom, invariable words joining clauses the learner can already build. ONE contrast taught with a table (concession vs the plain contrast ale already does), not derived.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/c1_concessive.json"
     },
     {
       "id": "c1_cause_time",
