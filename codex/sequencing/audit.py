@@ -163,6 +163,7 @@ STRUCTURE_CATALOGUE = {
     "ea_shift",
     "sec_imperf",
     "placic_family",
+    "pisac_family2",
 }
 
 GLUE_LEMMAS = {

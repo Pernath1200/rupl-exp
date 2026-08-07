@@ -1,0 +1,601 @@
+{
+  "id": "c1_verb_family4",
+  "title": "Opisać, przepisać",
+  "title_en": "The pisać family, finished",
+  "level": "C1",
+  "tree_node": "c1_verb_family4",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 5. ROOT FAMILY 4 (C1-SPINE O9). THE AUTHOR PICKS THE ROOT AND MUST LOG THE CHOICE AND THE ALTERNATIVE, exactly as b2_verb_family2 did.\n\nROOT CHOSEN: pisac, extended. C1-SPINE names this as the obvious candidate - the cut b2_pisac_family [172] logged as its own 'only if load allows' drop, in that pack's words - and three arguments settle it. (1) DEPTH: pisac is now the deepest root in the course (pisac, napisac, podpisac, zapisac, podpisywac, zapisywac), so a family unit here is a PAYOFF slide rather than a list of strangers, and slide 1 shows the whole root on one board. (2) ZERO NEW ENDINGS: the perfective future rides the -e/-esz/-e stem pisz-, which aspect_prefixes [168] anchored deliberately ('so that napisze sits on an anchored stem rather than a floating one and so pisac_family finds the root usable'), and the past is past_ac's -lem/-l. (3) THE PREFIX PAIRING WITH THE UNIT TWO NODES BACK, which is the real reason and is set out below.\n\nALTERNATIVE REJECTED AND COSTED, as the node note requires: sprzatac/posprzatac, which b2_aspect_prefixes dropped entirely ('the only pair that would cost two verbs') and sent to the C1 inbox. REFUSED HERE for two reasons. It is not a family - it is one aspect pair on a root that grows nothing else in this course, so it would sit inside a root-family unit as an unrelated lodger and break the one-new-thing shape load-splitting requires. And both members are verified NEW, so it costs two whole verbs against this unit's zero-new-ending arithmetic. CONSEQUENCE STATED PLAINLY RATHER THAN HIDDEN: C1-SPINE's opening says anything not scheduled is not deferred but permanently out of RUPL, so refusing sprzatac here means the course ends with no verb for cleaning. THAT IS A REAL LOSS AND IT IS JAMES'S TO OVERRULE - it is raised in C1-DIGEST as a named open item, not silently dropped. The cheapest home if he wants it is two rows in a later vocab pack, not this unit.\n\nFOURTEEN NEW STRINGS, TWO NEW VERBS, ZERO NEW ENDINGS. opisac and przepisac and every form of both are verified NEW.\n\nTHE PREFIX PAIRING IS THE UNIT'S BEST FACT AND IT WAS BUILT ON PURPOSE ACROSS TWO UNITS. c1_verb_family3 [215] taught przeplacic and said out loud that its prze- means TOO MUCH and cannot be read. This unit teaches przepisac, where the SAME prze- IS readable - writing something across, from one place to another - which is R2's through/across/re- tendency arriving on a real owned verb. So the learner meets the identical prefix twice, two nodes apart, opaque once and transparent once, BEFORE c1_prefix_semantics [217] claims any tendency at all. Slide 4 says exactly that and claims NO rule: a later unit takes it up. This is the strongest possible groundwork for R2's 'tendency, strong but not guaranteed' and it is flagged for that builder in C1-DIGEST.\n\no- IN opisac GETS ONE MEMORY HOOK FOR THAT WORD ONLY, on b2_pisac_family's stated precedent ('labelled as a hook for that one word and not a rule'): the learner has owned o + Locative as ABOUT a topic since a2_o_loc [87] (mowie o pracy), and opisac is writing about something. One hook per unit is the standing ceiling and it is not exceeded.\n\nTHE SECOND SENSE OF przepisac IS NAMED IN ONE LINE, NOT LEFT AS A TRAP. A doctor przepisuje lekarstwo - prescribes it. AGENTS' homograph rule is explicit that a second reading gets named rather than left to sting, and this one is high-value for this learner: recepta and lekarz have been owned since a2_health2 [85] / leaf_health_a1 [42]. It is one line, one example, and it is NOT drilled as a separate teaching point - the pron_je [187] 'one line naming both' treatment.\n\nSECONDARY IMPERFECTIVES HELD TO INFINITIVES ONLY, consistent with c1_verb_family3 one node back and logged as a consistency decision rather than an oversight: opisywac and przepisywac are verified real verbs of the -ywa- shape c1_sec_imperf [214] taught. Their presents would be free (the -uje class is owned and was produced in that unit) and are still not taken, because two root families in a row that stop at the infinitive read as one policy while one of each reads as an accident.\n\nNO FABRICATED NON-WORDS: every quiz distractor is a real form of a real verb of this root. In particular *opisywam and *przepisywam - the shapes a mis-applied rule produces - appear nowhere, which is the ban c1_sec_imperf's own note flagged as biting hardest in this strand.\n\nHOMOGRAPH DISCIPLINE: ksiazki is TAUGHT ONLY AS A GENITIVE SINGULAR (the catch c1_ktory_plural and c1_pron_je each made) so it appears nowhere as a plural - ksiazke, the Accusative, is used instead. kartka is TAUGHT as a greetings card, so przepisac kartke appears nowhere, the same fence b2_pisac_family set. gazety is avoided entirely per the AGENTS homograph table.\n\nKONTROLA IS TWELVE FORM CHOICES AND NO META-QUESTION. PISANIE IS TEN SINGLE FORMS TYPED WHOLE; Uzycie carries the sentences, disjoint by construction.\n\nTHREE THINGS THE PACK'S OWN PRE-COMMIT CHECKS CAUGHT, recorded because none of them is visible to audit.py. (1) A DUPLICATE ANSWER INSIDE KONTROLA: items 5 and 6 both answered przepisal - the copy-out sentence and the prescribing sentence - which AGENTS bans outright and which a naive eye-scan misses because the two prompts read as different questions. Item 5 was rebuilt on przepiszesz, which was the one cell of the paradigm no item had claimed; the prescribing item keeps przepisal because that sense is the one worth drilling in the past. (2) TWO body_pl LEAKS of the c1_sec_imperf class: rdzen and czyms, both verified NEW, on slides 1 and 2 - the AGENTS convention admits metalanguage on that line, not new lexis, and rdzen is a grammar term this learner has never been given. Rewritten to owned forms (pisac · napisac · podpisac · zapisac; pisac o pracy, which also echoes the o-hook). (3) A THREE-COLUMN family table whose third column carried level codes (A1/B2/C1) - builder chrome inside a learner-facing table, and the zapisywac row read 'since C1' for something taught three nodes earlier. Column dropped; the table is now two columns of verb and meaning.\n\nFENCED, all verified NEW: the plural of every verb here; the imperatives opisz/przepisz (c1_imperative_stems' material); the past of opisywac/przepisywac; opis, przepis (both nouns, and przepis = a recipe would be a third sense); wypisac, spisac, dopisac and every further member of the root.",
+  "focus_structures": [
+    "pisac_family2"
+  ],
+  "teaches_structures": [
+    "pisac_family2"
+  ],
+  "teaches_lemmas": [
+    "opisać",
+    "opiszę",
+    "opiszesz",
+    "opisze",
+    "opisał",
+    "opisałem",
+    "przepisać",
+    "przepiszę",
+    "przepiszesz",
+    "przepisze",
+    "przepisał",
+    "przepisałem",
+    "opisywać",
+    "przepisywać"
+  ],
+  "uses_structures": [
+    "pisac_family2",
+    "pisac_family",
+    "sec_imperf",
+    "aspect_prefixes",
+    "perf_future",
+    "past_ac",
+    "miec_acc",
+    "musiec",
+    "o_loc",
+    "adj_acc"
+  ],
+  "intro": [
+    {
+      "title": "One root, six verbs — and now eight",
+      "title_pl": "pisać",
+      "body": "No root in this course has grown as far as pisać. You have met all six of these, and every one of them is the same verb with a different piece on the front.\n\nTwo more finish it. Both are ordinary, both are useful, and — as with every member above — neither ending is new to you.",
+      "body_pl": "pisać · napisać · podpisać · zapisać",
+      "table": {
+        "headers": [
+          "Verb",
+          "What it does"
+        ],
+        "rows": [
+          [
+            "pisać",
+            "to write"
+          ],
+          [
+            "napisać",
+            "to write it, one go"
+          ],
+          [
+            "podpisać",
+            "to sign"
+          ],
+          [
+            "podpisywać",
+            "to sign, again and again"
+          ],
+          [
+            "zapisać",
+            "to write down"
+          ],
+          [
+            "zapisywać",
+            "to write down, again and again"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "opisać — to describe",
+      "title_pl": "opisać",
+      "body": "To describe something is, in Polish, to write ABOUT it.\n\nAnd that is your hook for this one word: you have used o for about since A2 — Mówię o pracy. The o on the front of opisać is doing the same work. A hook for this verb, not a rule for others.\n\nThe endings are the ones the whole root uses: the future runs on the pisz- stem you already have from napiszę.",
+      "body_pl": "opisać — pisać o pracy",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "I will …",
+          "you will …",
+          "he will …",
+          "he did",
+          "I did (m)"
+        ],
+        "rows": [
+          [
+            "opisać",
+            "opiszę",
+            "opiszesz",
+            "opisze",
+            "opisał",
+            "opisałem"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Dad described the house.",
+          "pl": "Tata opisał dom."
+        },
+        {
+          "en": "I will describe the problem.",
+          "pl": "Opiszę problem."
+        }
+      ]
+    },
+    {
+      "title": "przepisać — to copy out",
+      "title_pl": "przepisać",
+      "body": "To write something out again somewhere else: a text off a board, an address into a notebook, a sentence a second time because the first was wrong.\n\nThe same endings again.\n\nOne more thing about this word, said here so it does not surprise you later: a doctor przepisać a medicine — that is the Polish for prescribing it. Same verb, and the connection is real enough, since a prescription is something written out for you.",
+      "body_pl": "przepisać — tekst, adres, lekarstwo",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "I will …",
+          "you will …",
+          "he will …",
+          "he did",
+          "I did (m)"
+        ],
+        "rows": [
+          [
+            "przepisać",
+            "przepiszę",
+            "przepiszesz",
+            "przepisze",
+            "przepisał",
+            "przepisałem"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The student copied the text out.",
+          "pl": "Student przepisał tekst."
+        },
+        {
+          "en": "The doctor prescribed the medicine.",
+          "pl": "Lekarz przepisał lekarstwo."
+        }
+      ]
+    },
+    {
+      "title": "The same prze-, two verbs, two different results",
+      "title_pl": "przepłacić · przepisać",
+      "body": "Two units ago you met przepłacić, and you were told plainly that its prze- means TOO MUCH and could not be read off the front of the word.\n\nHere the same prze- can be read: przepisać is writing something ACROSS, from one place to another.\n\nSo the same piece is opaque on one verb and transparent on the next. That is not a fault in your reading; it is how these pieces actually behave. A later unit takes the question up properly and says how far it can be trusted. For now the useful thing is simply to have seen both.",
+      "body_pl": "przepłacić — nie. przepisać — tak.",
+      "examples": [
+        {
+          "en": "Dad paid too much.",
+          "pl": "Tata przepłacił."
+        },
+        {
+          "en": "Dad copied the address out.",
+          "pl": "Tata przepisał adres."
+        }
+      ]
+    },
+    {
+      "title": "And their everyday partners",
+      "title_pl": "opisać → opisywać",
+      "body": "Both new verbs are one-go verbs, and both build their everyday partner with the -ywa- shape you met three units ago.\n\nopisać → opisywać\nprzepisać → przepisywać\n\nThe standing instruction is unchanged: both of these were checked before being put in front of you. Read the pattern, and check a word before you use it rather than building it yourself.",
+      "body_pl": "przepisać → przepisywać",
+      "table": {
+        "headers": [
+          "One go, and it is done",
+          "Again and again",
+          "How it was built"
+        ],
+        "rows": [
+          [
+            "opisać",
+            "opisywać",
+            "-ywa-"
+          ],
+          [
+            "przepisać",
+            "przepisywać",
+            "-ywa-"
+          ],
+          [
+            "zapisać",
+            "zapisywać",
+            "-ywa-, and you met this one already"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "to write",
+      "pl": "pisać"
+    },
+    {
+      "en": "to write it — one go, and it is done",
+      "pl": "napisać"
+    },
+    {
+      "en": "to describe — one go, and it is done",
+      "pl": "opisać"
+    },
+    {
+      "en": "to describe — again and again",
+      "pl": "opisywać"
+    },
+    {
+      "en": "I will describe",
+      "pl": "opiszę"
+    },
+    {
+      "en": "he will describe",
+      "pl": "opisze"
+    },
+    {
+      "en": "I described (m)",
+      "pl": "opisałem"
+    },
+    {
+      "en": "to copy out — one go, and it is done",
+      "pl": "przepisać"
+    },
+    {
+      "en": "to copy out — again and again",
+      "pl": "przepisywać"
+    },
+    {
+      "en": "I will copy out",
+      "pl": "przepiszę"
+    },
+    {
+      "en": "he will copy out",
+      "pl": "przepisze"
+    },
+    {
+      "en": "he copied out",
+      "pl": "przepisał"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ dom. (described it)",
+      "choices": [
+        "opisał",
+        "opiszę",
+        "opisać",
+        "opisywać"
+      ],
+      "answer": "opisał",
+      "explain": "The ordinary -ł past, on a stem that is new only because the front of the word is."
+    },
+    {
+      "prompt": "___ problem. (I will describe it)",
+      "choices": [
+        "Opiszę",
+        "Opisałem",
+        "Opisze",
+        "Opisać"
+      ],
+      "answer": "Opiszę",
+      "explain": "The future runs on the pisz- stem you already have from napiszę."
+    },
+    {
+      "prompt": "Brat ___ film. (will describe it)",
+      "choices": [
+        "opisze",
+        "opiszę",
+        "opisał",
+        "opisywać"
+      ],
+      "answer": "opisze",
+      "explain": "Third person: opiszę for I, opisze for he."
+    },
+    {
+      "prompt": "Wczoraj ___ książkę. (I described it — m)",
+      "choices": [
+        "opisałem",
+        "opiszę",
+        "opisał",
+        "opisywać"
+      ],
+      "answer": "opisałem",
+      "explain": "opisał is the same form said about somebody else."
+    },
+    {
+      "prompt": "Czy ___ dom? (will you describe it)",
+      "choices": [
+        "opiszesz",
+        "opiszę",
+        "opisze",
+        "opisać"
+      ],
+      "answer": "opiszesz",
+      "explain": "The -esz ending of the pisz- stem."
+    },
+    {
+      "prompt": "Czy ___ tekst? (will you copy it out)",
+      "choices": [
+        "przepiszesz",
+        "przepiszę",
+        "przepisze",
+        "przepisać"
+      ],
+      "answer": "przepiszesz",
+      "explain": "The -esz ending again, on the second of the two new verbs."
+    },
+    {
+      "prompt": "Lekarz ___ lekarstwo. (prescribed it)",
+      "choices": [
+        "przepisał",
+        "przepłacił",
+        "podpisał",
+        "zapisał"
+      ],
+      "answer": "przepisał",
+      "explain": "The same verb as copying out — a prescription is something written out for you. podpisał would mean he signed it."
+    },
+    {
+      "prompt": "___ adres. (I will copy it out)",
+      "choices": [
+        "Przepiszę",
+        "Przepisałem",
+        "Przepisze",
+        "Przepisać"
+      ],
+      "answer": "Przepiszę",
+      "explain": "Same stem as opiszę, different piece on the front."
+    },
+    {
+      "prompt": "Mama ___ zdanie. (will copy it out)",
+      "choices": [
+        "przepisze",
+        "przepiszę",
+        "przepisał",
+        "przepisywać"
+      ],
+      "answer": "przepisze",
+      "explain": "Third person again."
+    },
+    {
+      "prompt": "Wczoraj ___ artykuł. (I copied it out — m)",
+      "choices": [
+        "przepisałem",
+        "przepisał",
+        "przepiszę",
+        "przepisywać"
+      ],
+      "answer": "przepisałem",
+      "explain": "The -łem past, on the fourth verb of this root you now own."
+    },
+    {
+      "prompt": "Trzeba ___ tekst. (to copy out — over and over, as a routine)",
+      "choices": [
+        "przepisywać",
+        "przepisać",
+        "przepiszę",
+        "przepisał"
+      ],
+      "answer": "przepisywać",
+      "explain": "A repeated job takes the everyday partner — the -ywa- shape."
+    },
+    {
+      "prompt": "Chcę ___ problem. (to describe it — once, properly)",
+      "choices": [
+        "opisać",
+        "opisywać",
+        "opiszę",
+        "opisałem"
+      ],
+      "answer": "opisać",
+      "explain": "After chcę the verb stays in the dictionary form, and one description is one job."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to describe — one go, and it is done",
+      "mode": "full_word",
+      "answer": "opisać",
+      "accepts": [
+        "opisać"
+      ],
+      "explain": "To describe is to write about — the o is your hook for this one word."
+    },
+    {
+      "prompt_en": "to describe — again and again",
+      "mode": "full_word",
+      "answer": "opisywać",
+      "accepts": [
+        "opisywać"
+      ]
+    },
+    {
+      "prompt_en": "I will describe",
+      "mode": "full_word",
+      "answer": "opiszę",
+      "accepts": [
+        "opiszę"
+      ]
+    },
+    {
+      "prompt_en": "he will describe",
+      "mode": "full_word",
+      "answer": "opisze",
+      "accepts": [
+        "opisze"
+      ]
+    },
+    {
+      "prompt_en": "I described (m)",
+      "mode": "full_word",
+      "answer": "opisałem",
+      "accepts": [
+        "opisałem"
+      ]
+    },
+    {
+      "prompt_en": "to copy out — one go, and it is done",
+      "mode": "full_word",
+      "answer": "przepisać",
+      "accepts": [
+        "przepisać"
+      ],
+      "explain": "Writing something across, from one place to another."
+    },
+    {
+      "prompt_en": "to copy out — again and again",
+      "mode": "full_word",
+      "answer": "przepisywać",
+      "accepts": [
+        "przepisywać"
+      ]
+    },
+    {
+      "prompt_en": "I will copy out",
+      "mode": "full_word",
+      "answer": "przepiszę",
+      "accepts": [
+        "przepiszę"
+      ]
+    },
+    {
+      "prompt_en": "he will copy out",
+      "mode": "full_word",
+      "answer": "przepisze",
+      "accepts": [
+        "przepisze"
+      ]
+    },
+    {
+      "prompt_en": "he copied out",
+      "mode": "full_word",
+      "answer": "przepisał",
+      "accepts": [
+        "przepisał"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad described the house.",
+      "answer": "Tata opisał dom.",
+      "accepts": [
+        "Tata opisał dom.",
+        "Tata opisał dom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will describe the problem.",
+      "answer": "Opiszę problem.",
+      "accepts": [
+        "Opiszę problem.",
+        "Opiszę problem"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother will describe the film.",
+      "answer": "Brat opisze film.",
+      "accepts": [
+        "Brat opisze film.",
+        "Brat opisze film"
+      ]
+    },
+    {
+      "prompt_en": "Type: Yesterday I described the book. (m)",
+      "answer": "Wczoraj opisałem książkę.",
+      "accepts": [
+        "Wczoraj opisałem książkę.",
+        "Wczoraj opisałem książkę",
+        "Opisałem wczoraj książkę.",
+        "Opisałem wczoraj książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: The student copied the text out.",
+      "answer": "Student przepisał tekst.",
+      "accepts": [
+        "Student przepisał tekst.",
+        "Student przepisał tekst"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor prescribed the medicine.",
+      "answer": "Lekarz przepisał lekarstwo.",
+      "accepts": [
+        "Lekarz przepisał lekarstwo.",
+        "Lekarz przepisał lekarstwo"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will copy the address out.",
+      "answer": "Przepiszę adres.",
+      "accepts": [
+        "Przepiszę adres.",
+        "Przepiszę adres"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum will copy the sentence out.",
+      "answer": "Mama przepisze zdanie.",
+      "accepts": [
+        "Mama przepisze zdanie.",
+        "Mama przepisze zdanie"
+      ]
+    },
+    {
+      "prompt_en": "Type: You have to copy the text out. (as a routine)",
+      "answer": "Musisz przepisywać tekst.",
+      "accepts": [
+        "Musisz przepisywać tekst.",
+        "Musisz przepisywać tekst"
+      ]
+    },
+    {
+      "prompt_en": "Type: I want to describe the house.",
+      "answer": "Chcę opisać dom.",
+      "accepts": [
+        "Chcę opisać dom.",
+        "Chcę opisać dom"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "pisać",
+    "napisać",
+    "napiszę",
+    "podpisać",
+    "podpisywać",
+    "zapisać",
+    "zapisywać",
+    "przepłacić",
+    "przepłacił",
+    "tata",
+    "mama",
+    "brat",
+    "student",
+    "lekarz",
+    "dom",
+    "problem",
+    "film",
+    "książkę",
+    "tekst",
+    "artykuł",
+    "zdanie",
+    "adres",
+    "lekarstwo",
+    "musisz",
+    "trzeba",
+    "chcę",
+    "mówię",
+    "o pracy",
+    "wczoraj",
+    "czy"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_verb_family4",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

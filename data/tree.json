@@ -4341,17 +4341,18 @@
       "id": "c1_verb_family4",
       "domain": "grammar",
       "label": "Opisać, przepisać",
-      "label_en": "A fourth root family",
+      "label_en": "The pisać family, finished",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 5 (spine O9). ROOT FAMILY 4 - AUTHOR PICKS THE ROOT AND LOGS THE CHOICE + THE ALTERNATIVE, exactly as b2_verb_family2 did. Obvious candidate: the pisac extension b2_pisac_family named as its own 'if load allows' cut - opisac, przepisac (both verified NEW). ALSO THE HOME, author's call and must be logged, for sprzatac/posprzatac (both NEW, taught whole as a pair, never derived), which b2_aspect_prefixes dropped entirely and sent to the C1 inbox. FIRST item on the spine O1 trim list.",
+      "note": "[C1 SPINE] Block 7, unit 5. ROOT FAMILY 4 (O9) - author picks the root and logs the choice. [WIRED LIVE] ROOT CHOSEN: pisac, extended - the cut b2_pisac_family logged as its own 'only if load allows' drop. Chosen for depth (six owned members already, so slide 1 is a payoff board), for zero new endings (the future rides the pisz- stem b2_aspect_prefixes anchored on purpose), and for the prefix pairing. ALTERNATIVE REJECTED AND COSTED: sprzatac/posprzatac - not a family but one aspect pair on a root that grows nothing else, so it would be an unrelated lodger inside a root-family unit, and both members are NEW. CONSEQUENCE STATED: C1-SPINE says anything unscheduled is permanently out of RUPL, so the course ends with no verb for cleaning - raised in C1-DIGEST as an open item for James, not silently dropped. THE PREFIX PAIRING IS THE UNIT'S BEST FACT, BUILT ACROSS TWO UNITS ON PURPOSE: c1_verb_family3 taught przeplacic and said its prze- means TOO MUCH and cannot be read; here the SAME prze- IS readable in przepisac (writing across). The learner meets the identical prefix opaque once and transparent once BEFORE c1_prefix_semantics claims any tendency - the strongest groundwork available for R2's 'strong but not guaranteed', and flagged for that builder. o- gets ONE memory hook for opisac only (o + Locative = about, owned since a2_o_loc). The prescribing sense of przepisac is named in one line per the AGENTS homograph rule, not drilled. Secondary imperfectives held to infinitives only, consistent with the previous unit and logged as policy. Pre-commit checks caught a duplicate Kontrola answer, two body_pl leaks (rdzen, czyms) and a table column carrying level codes as learner chrome; all three fixed. Structure ID pisac_family2 registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_verb_family4.json"
     },
     {
       "id": "c1_dawac_perf",
