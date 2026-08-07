@@ -4465,12 +4465,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 7, unit 12. Inbox item 14: stac sie as a REAL REFLEXIVE PARADIGM rather than the three frozen chunks b1_stories_func shipped (that pack's own logged fork). HOMOGRAPH, AND IT IS THE UNIT'S OPENING MOVE (spine O13): stalo is TAUGHT only inside 'Nic sie nie stalo', and stac on its own means TO STAND. Chunk -> real slot, the ze / ktorej / dziekuje treatment, said out loud on the slide.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_stac_sie.json"
     },
     {
       "id": "c1_nuance",

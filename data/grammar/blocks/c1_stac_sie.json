@@ -1,0 +1,588 @@
+{
+  "id": "c1_stac_sie",
+  "title": "Stać się",
+  "title_en": "The verb inside Co się stało?",
+  "level": "C1",
+  "tree_node": "c1_stac_sie",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 15 (path 224). Inbox item 14: stac sie as a REAL verb rather than the three frozen chunks b1_stories_func [113] shipped. That pack handed stalo over as 'one closed word inside three fixed frames, never conjugated, no sie-stac paradigm' and logged the opening as a fork for later. This is later.\n\nTHE HOMOGRAPH IS THE OPENING MOVE, as spine O13 requires. stac WITHOUT sie is a different verb - TO STAND - and it is verified NEW, so the learner has never met it. It is named on slide 0, tagged in teaches_lemmas because the string is on screen, given ONE match row so the contrast is drilled rather than merely mentioned, and DEMANDED NOWHERE in Pisanie or Uzycie in the standing-still sense. Same treatment part_adv gave zrobiwszy and c1_zostac gave the bare infinitive zostac.\n\nA SENSE COLLISION THE SPINE DID NOT LIST, FOUND THIS RUN AND HANDLED EXPLICITLY. zostac is TAUGHT <- c1_zostac [211] - but ONLY as the dynamic-passive auxiliary, always with a participle after it (Sklep zostal zamkniety). It ALSO means 'become', and for a job title zostac lekarzem is the commoner Polish. Saying nothing would have taught stac sie as if it were the only option; teaching zostac's second job here would ship a governor out of turn in the last level. The chosen path is the R7 / O13 treatment: ONE honest English line on slide 2 naming both verbs and saying which one native speakers reach for with a job title, with zostac DEMANDED NOWHERE in that sense - not in a stage, not as a distractor. LOGGED FOR JAMES as the unit's biggest judgment call.\n\nADJECTIVE COMPLEMENTS ARE REFUSED AND THE REASON IS THE COURSE'S OWN. stac sie + NOUN takes the Instrumental, unambiguously, and that is exactly the complement byc already takes (inst_identity, owned since A1/A2) - so 'Jestem lekarzem' -> 'Stalem sie lekarzem' is one new verb on an owned case, not a new system. stac sie + ADJECTIVE is genuinely variable in modern Polish, and AGENTS' fleeting-e precedent governs: this learner gets no value from a rule he cannot trust. No adjective complement appears anywhere in the pack. jasne and slawny were wanted for the natural examples and are verified NEW in any case.\n\nWHY THE PARADIGM IS THE SINGULAR PAST. 'Happen' takes co / cos / nic as its subject - all neuter - so its past is effectively the ONE form stalo sie the learner already owns, which is why a happen-only unit would have almost no new material. The person forms only become useful in the second job, where the subject is a person. The six singular pasts are therefore taught complete (the shape this course teaches - see c1_modal_pl's powinien byl one node back) and the PLURAL IS FENCED: stali sie / staly sie are NOT taught, NOT shown, NOT distractors. Every ending is past_ac's own -em/-es/-am/-as, owned since A2 - not one new ending in the whole past set, only the stem stal-.\n\nTHE FUTURE IS TWO WHOLE FORMS, NOT A PARADIGM, AND THIS IS AN ADDITION BEYOND THE SPINE BRIEF - LOGGED. Co sie stanie? and Nic sie nie stanie. are the future twins of the two chunks the learner has said since B1, and they are worth having whole. The stem shift stac -> stanie is unpredictable, so the slide says so and hands the form over the way a2_aspect hands over a pair: learn it whole. stane / staniesz / stana are NOT taught and appear nowhere; no slide claims a future paradigm. The conservative alternative was a past-only unit; it was rejected because 'What will happen?' is a sentence Dad will want on a day when something has gone wrong, and it costs one stem.\n\nPRONOUN DISCIPLINE. on / ona / my / wy are GLUE_LEMMAS, invisible to the auditor and reported NEW by the pool. NONE appears anywhere - every subject in every item is a noun or the owned co / cos / nic. This fence was scanned by hand, string by string.\n\nWORDS WANTED AND REFUSED, all caught by the position-aware pool: wypadek, inzynierem, szefem, kucharzem, policjantem, pielegniarka, dorosly, jasne, slawny, stali, staly, stane, staniesz, stana. Complements are drawn only from the owned inst_identity set - lekarzem, nauczycielem, studentem, kelnerem, lekarka, nauczycielka, kelnerka. NO case-map.json ROW IS ADDED: the Instrumental complement here is byc's own, already on the map since a1_jobs.\n\nSTAGE SHAPES. Match is twelve rows - the six new pasts, the infinitive, the homograph stac, the two new future chunks, and the two owned B1 chunks the unit is opening, so the board shows the before and the after side by side. Kontrola is twelve real-form or real-situation choices with twelve DISTINCT answers and no meta-questions; the three situational items copy b1_stories_func's own shape, which is where these chunks come from. Pisanie is eight forms or frozen chunks at or under three words plus two cloze items; no answer repeats and no frame reconstructs a Uzycie sentence. Uzycie is ten real sentences, every one with a noun subject or a noun complement.",
+  "focus_structures": [
+    "stac_sie"
+  ],
+  "teaches_structures": [
+    "stac_sie"
+  ],
+  "teaches_lemmas": [
+    "stać się",
+    "stać",
+    "stał",
+    "stała",
+    "stanie",
+    "stałem się",
+    "stałam się",
+    "stałeś się",
+    "stałaś się",
+    "stał się",
+    "stała się",
+    "stanie się",
+    "co się stanie",
+    "nic się nie stanie"
+  ],
+  "uses_structures": [
+    "stac_sie",
+    "situation_chunk",
+    "sie_reflexive",
+    "inst_identity",
+    "past_ac",
+    "past_rest",
+    "perf_future",
+    "negation",
+    "question",
+    "byc_present",
+    "prep_w_loc",
+    "can_inf"
+  ],
+  "intro": [
+    {
+      "title": "Taking the chunk apart",
+      "title_pl": "Co się stało? · stać się",
+      "body": "Since B1 you have said Co się stało? and Nic się nie stało., and you were told to learn stało whole and not to look inside it. Look inside it now.\n\nThe verb is stać się. stało is its past, third person, for a thing — the same ending you have on było and miało.\n\nOne trap to clear first, because it is a real one. Without się, stać is a different verb. It means to stand. The się here is not decoration; it is part of which verb you are using, and it never comes off.",
+      "body_pl": "stać się ≠ stać",
+      "table": {
+        "headers": [
+          "Polish",
+          "What it is"
+        ],
+        "rows": [
+          [
+            "Co się stało?",
+            "stać się, past, for a thing"
+          ],
+          [
+            "Nic się nie stało.",
+            "the same form, negated"
+          ],
+          [
+            "stać",
+            "a different verb — to stand"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The past — and not one new ending",
+      "title_pl": "byłem → stałem się",
+      "body": "The past of stać się is stał- with the endings you have carried since A2. Put them side by side with być and there is nothing to learn but the stem.\n\nThe się stays with the verb wherever the verb goes.",
+      "body_pl": "stał + em → stałem się · stał + am → stałam się",
+      "table": {
+        "headers": [
+          "Who",
+          "być — owned",
+          "stać się"
+        ],
+        "rows": [
+          [
+            "I — a man speaking",
+            "byłem",
+            "stałem się"
+          ],
+          [
+            "I — a woman speaking",
+            "byłam",
+            "stałam się"
+          ],
+          [
+            "you — a man",
+            "byłeś",
+            "stałeś się"
+          ],
+          [
+            "you — a woman",
+            "byłaś",
+            "stałaś się"
+          ],
+          [
+            "he",
+            "był",
+            "stał się"
+          ],
+          [
+            "she",
+            "była",
+            "stała się"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The second job — becoming",
+      "title_pl": "Jestem lekarzem. → Stałem się lekarzem.",
+      "body": "With a thing as the subject, stać się says something happened. With a person as the subject it says somebody became something — and it takes exactly the complement być already takes.\n\nJestem lekarzem — I am a doctor.\nStałem się lekarzem — I became a doctor.\n\nSame case, same ending, one different verb.\n\nWorth knowing, and it is why you may hear something else: for a job title Polish more often reaches for został — the verb you met carrying a participle in the passive — as in został lekarzem. Both are correct. stać się is most at home where the change is in what somebody or something is like.",
+      "body_pl": "jestem lekarzem · stałem się lekarzem",
+      "table": {
+        "headers": [
+          "być",
+          "stać się"
+        ],
+        "rows": [
+          [
+            "Tata jest lekarzem.",
+            "Tata stał się lekarzem."
+          ],
+          [
+            "Mama jest nauczycielką.",
+            "Mama stała się nauczycielką."
+          ],
+          [
+            "Jestem studentem.",
+            "Stałem się studentem."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I became a teacher. (a woman speaking)",
+          "pl": "Stałam się nauczycielką."
+        }
+      ]
+    },
+    {
+      "title": "Co się stanie? — the chunk's future twin",
+      "title_pl": "Co się stało? → Co się stanie?",
+      "body": "Both B1 chunks have a future, and they are worth having whole.\n\nThe stem shifts: stać się, but stanie się. There is no rule to work that out from, so take this form the way you took stało — as one word, learned whole.",
+      "body_pl": "Co się stanie? Nic się nie stanie.",
+      "table": {
+        "headers": [
+          "Already yours",
+          "New here"
+        ],
+        "rows": [
+          [
+            "Co się stało?",
+            "Co się stanie?"
+          ],
+          [
+            "Nic się nie stało.",
+            "Nic się nie stanie."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "What will happen tomorrow?",
+          "pl": "Co się stanie jutro?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "I became — a man speaking",
+      "pl": "stałem się"
+    },
+    {
+      "en": "I became — a woman speaking",
+      "pl": "stałam się"
+    },
+    {
+      "en": "you became — a man",
+      "pl": "stałeś się"
+    },
+    {
+      "en": "you became — a woman",
+      "pl": "stałaś się"
+    },
+    {
+      "en": "he became",
+      "pl": "stał się"
+    },
+    {
+      "en": "she became",
+      "pl": "stała się"
+    },
+    {
+      "en": "to become, to happen",
+      "pl": "stać się"
+    },
+    {
+      "en": "to stand — a different verb",
+      "pl": "stać"
+    },
+    {
+      "en": "What will happen?",
+      "pl": "Co się stanie?"
+    },
+    {
+      "en": "Nothing will happen.",
+      "pl": "Nic się nie stanie."
+    },
+    {
+      "en": "What happened?",
+      "pl": "Co się stało?"
+    },
+    {
+      "en": "Nothing happened.",
+      "pl": "Nic się nie stało."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Tata ___ się lekarzem. (Dad became a doctor)",
+      "choices": [
+        "stał",
+        "stała",
+        "stało",
+        "stanie"
+      ],
+      "answer": "stał",
+      "explain": "One man, so the plain -ł form, exactly as był."
+    },
+    {
+      "prompt": "Mama ___ się lekarką. (Mum became a doctor)",
+      "choices": [
+        "stała",
+        "stał",
+        "stało",
+        "stanie"
+      ],
+      "answer": "stała",
+      "explain": "The -ła ending pairs with była, and lekarką is the feminine complement to match."
+    },
+    {
+      "prompt": "___ się nauczycielem. (I became a teacher — a man speaking)",
+      "choices": [
+        "Stałem",
+        "Stałam",
+        "Stałeś",
+        "Stał"
+      ],
+      "answer": "Stałem",
+      "explain": "-em is the marker on byłem, on the same stem."
+    },
+    {
+      "prompt": "___ się nauczycielką. (I became a teacher — a woman speaking)",
+      "choices": [
+        "Stałam",
+        "Stałem",
+        "Stałaś",
+        "Stała"
+      ],
+      "answer": "Stałam",
+      "explain": "The complement nauczycielką has already told you the speaker is a woman; the verb agrees."
+    },
+    {
+      "prompt": "___ się studentem. (you became a student — to a man)",
+      "choices": [
+        "Stałeś",
+        "Stałem",
+        "Stałaś",
+        "Stał"
+      ],
+      "answer": "Stałeś",
+      "explain": "-eś is the you marker, the same one on byłeś."
+    },
+    {
+      "prompt": "___ się kelnerką. (you became a waitress — to a woman)",
+      "choices": [
+        "Stałaś",
+        "Stałeś",
+        "Stałam",
+        "Stała"
+      ],
+      "answer": "Stałaś",
+      "explain": "Stałam would be talking about yourself, not to somebody else."
+    },
+    {
+      "prompt": "Co się ___? (what will happen?)",
+      "choices": [
+        "stanie",
+        "stało",
+        "stał",
+        "stała"
+      ],
+      "answer": "stanie",
+      "explain": "The future twin of Co się stało? — the stem shifts to stan-, which is why it is learned whole."
+    },
+    {
+      "prompt": "Co się ___ w pracy? (what happened at work?)",
+      "choices": [
+        "stało",
+        "stanie",
+        "stał",
+        "stała"
+      ],
+      "answer": "stało",
+      "explain": "It has already happened, so the past form — the one you have had since B1."
+    },
+    {
+      "prompt": "Brat chce ___ się lekarzem. (my brother wants to become a doctor)",
+      "choices": [
+        "stać",
+        "stał",
+        "stanie",
+        "stała"
+      ],
+      "answer": "stać",
+      "explain": "After chce comes the plain dictionary form — and here the się goes with it."
+    },
+    {
+      "prompt": "You bump into somebody and they apologise. You reassure them:",
+      "choices": [
+        "Nic się nie stało.",
+        "Nic się nie stanie.",
+        "Co się stało?",
+        "Co się stanie?"
+      ],
+      "answer": "Nic się nie stało.",
+      "explain": "It is already over — the past chunk is the one that reassures about what has just happened."
+    },
+    {
+      "prompt": "A friend is worried about tomorrow. You reassure them:",
+      "choices": [
+        "Nic się nie stanie.",
+        "Nic się nie stało.",
+        "Co się stanie?",
+        "Co się stało?"
+      ],
+      "answer": "Nic się nie stanie.",
+      "explain": "Nothing has happened yet — the worry is about what is coming, so the future twin."
+    },
+    {
+      "prompt": "You want to ask what is going to happen next:",
+      "choices": [
+        "Co się stanie?",
+        "Co się stało?",
+        "Nic się nie stanie.",
+        "Nic się nie stało."
+      ],
+      "answer": "Co się stanie?",
+      "explain": "Co się stało? asks about what is finished; this asks about what is ahead."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I became — a man speaking",
+      "mode": "full_word",
+      "answer": "stałem się",
+      "accepts": [
+        "stałem się"
+      ],
+      "explain": "byłem and stałem się carry the same marker on different stems."
+    },
+    {
+      "prompt_en": "I became — a woman speaking",
+      "mode": "full_word",
+      "answer": "stałam się",
+      "accepts": [
+        "stałam się"
+      ]
+    },
+    {
+      "prompt_en": "you became — a man",
+      "mode": "full_word",
+      "answer": "stałeś się",
+      "accepts": [
+        "stałeś się"
+      ]
+    },
+    {
+      "prompt_en": "you became — a woman",
+      "mode": "full_word",
+      "answer": "stałaś się",
+      "accepts": [
+        "stałaś się"
+      ]
+    },
+    {
+      "prompt_en": "he became",
+      "mode": "full_word",
+      "answer": "stał się",
+      "accepts": [
+        "stał się"
+      ]
+    },
+    {
+      "prompt_en": "she became",
+      "mode": "full_word",
+      "answer": "stała się",
+      "accepts": [
+        "stała się"
+      ]
+    },
+    {
+      "prompt_en": "to become, to happen",
+      "mode": "full_word",
+      "answer": "stać się",
+      "accepts": [
+        "stać się"
+      ],
+      "explain": "Without się this is a different verb — to stand."
+    },
+    {
+      "prompt_en": "What will happen?",
+      "mode": "full_word",
+      "answer": "Co się stanie?",
+      "accepts": [
+        "Co się stanie?",
+        "Co się stanie"
+      ],
+      "explain": "A frozen chunk, like Co się stało? — the stem shift stać → stanie is learned, not worked out."
+    },
+    {
+      "prompt_en": "My sister became a doctor.",
+      "mode": "cloze",
+      "frame": "Siostra ___ się lekarką.",
+      "answer": "stała",
+      "accepts": [
+        "stała"
+      ],
+      "explain": "The verb agrees with Siostra, so the -ła form that pairs with była."
+    },
+    {
+      "prompt_en": "Nothing will happen.",
+      "mode": "cloze",
+      "frame": "Nic się nie ___.",
+      "answer": "stanie",
+      "accepts": [
+        "stanie"
+      ],
+      "explain": "The same frame you fill with stało for the past — this is its future twin."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad became a doctor.",
+      "answer": "Tata stał się lekarzem.",
+      "accepts": [
+        "Tata stał się lekarzem.",
+        "Tata stał się lekarzem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum became a teacher.",
+      "answer": "Mama stała się nauczycielką.",
+      "accepts": [
+        "Mama stała się nauczycielką.",
+        "Mama stała się nauczycielką"
+      ]
+    },
+    {
+      "prompt_en": "Type: I became a teacher. (a man speaking)",
+      "answer": "Stałem się nauczycielem.",
+      "accepts": [
+        "Stałem się nauczycielem.",
+        "Stałem się nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I became a doctor. (a woman speaking)",
+      "answer": "Stałam się lekarką.",
+      "accepts": [
+        "Stałam się lekarką.",
+        "Stałam się lekarką"
+      ]
+    },
+    {
+      "prompt_en": "Type: You became a student. (to a man)",
+      "answer": "Stałeś się studentem.",
+      "accepts": [
+        "Stałeś się studentem.",
+        "Stałeś się studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: You became a waitress. (to a woman)",
+      "answer": "Stałaś się kelnerką.",
+      "accepts": [
+        "Stałaś się kelnerką.",
+        "Stałaś się kelnerką"
+      ]
+    },
+    {
+      "prompt_en": "Type: The waiter became a student.",
+      "answer": "Kelner stał się studentem.",
+      "accepts": [
+        "Kelner stał się studentem.",
+        "Kelner stał się studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Something happened at work.",
+      "answer": "Coś się stało w pracy.",
+      "accepts": [
+        "Coś się stało w pracy.",
+        "Coś się stało w pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: What will happen tomorrow?",
+      "answer": "Co się stanie jutro?",
+      "accepts": [
+        "Co się stanie jutro?",
+        "Co się stanie jutro"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctor became a teacher.",
+      "answer": "Lekarz stał się nauczycielem.",
+      "accepts": [
+        "Lekarz stał się nauczycielem.",
+        "Lekarz stał się nauczycielem"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "stało",
+    "co się stało",
+    "coś się stało",
+    "nic się nie stało",
+    "coś",
+    "nic",
+    "się",
+    "był",
+    "była",
+    "byłem",
+    "byłam",
+    "byłeś",
+    "byłaś",
+    "było",
+    "miało",
+    "jestem",
+    "jest",
+    "lekarz",
+    "lekarzem",
+    "lekarką",
+    "nauczyciel",
+    "nauczycielem",
+    "nauczycielką",
+    "student",
+    "studentem",
+    "kelner",
+    "kelnerem",
+    "kelnerką",
+    "tata",
+    "mama",
+    "brat",
+    "chce",
+    "jutro",
+    "pracy",
+    "został",
+    "zostać"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_stac_sie",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

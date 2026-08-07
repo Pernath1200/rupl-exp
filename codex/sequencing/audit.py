@@ -173,6 +173,7 @@ STRUCTURE_CATALOGUE = {
     "by_plural",
     "modal_pl",
     "powinien_byl",
+    "stac_sie",
 }
 
 GLUE_LEMMAS = {
