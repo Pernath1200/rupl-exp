@@ -2336,3 +2336,240 @@ root is the author's pick and must be logged with its alternative.
 this batch shipped a case governor. `c1_which_case` [235] and `c1_case_gym` [236]
 remain the tail of the level, and `c1_vocative_note` [237] sits after the gym per
 **R5**.
+
+---
+
+## Batch 11 — `c1_sec_imperf`, `c1_verb_family3`, `c1_verb_family4`
+
+Block 7's middle. `codex/REPAIR-QUEUE.md` was checked first and is still empty
+(*"Remaining in this queue: none"*, and no unticked box survives a grep), so the
+whole run went to the C1 build track. Three units, one commit each, pushed
+individually.
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_sec_imperf` | 214 | 4 | `sec_imperf` | `30edd17` |
+| `c1_verb_family3` | 215 | 13 | `placic_family` | `c004251` |
+| `c1_verb_family4` | 216 | 14 | `pisac_family2` | `4beb075` |
+
+Audit after each: **0 errors**. Warns stayed at **6** throughout, and the warn
+set is unchanged — all six are `teaches_empty_grammar` on the four which-case
+units and the two review nodes `a2_prep_review` / `b1_two_futures`. None of the
+three new packs contributed one; each has a non-empty `teaches_structures`.
+
+### The first decision of the run: `c1_which_case` was NOT built, and why
+
+The standing routine puts the five *Który przypadek?* units ahead of new C1
+work whenever any is still `planned`. One is: `c1_which_case` [235]. It was
+**deliberately not taken**, and this is the conservative branch of a real fork,
+logged rather than guessed.
+
+`WHICH-CASE-SPEC.md` derives each unit's intro table from `data/case-map.json`,
+filtered to rows whose `taught_by` sits **at or before that unit on
+`path_order`** — *"that set IS the lesson, and it is verifiable, not authored
+from memory."* `c1_which_case` sits at 235, behind **twenty-one unbuilt C1
+nodes** (214–234). At least three of them will ship governors that belong in
+its table: `c1_quantifiers` [229] (*wiele*/*wielu*/*kilka* + Genitive),
+`c1_collective_num` [228] (*pięcioro* + Genitive), and `c1_dates_full` [227]
+(the Genitive date). Building the unit now would derive a table **missing its
+own level's last governors**, which is precisely the drift the spec's rule #4
+exists to prevent.
+
+The spec agrees on its own terms — `c1_which_case` *"folds in … everything C1
+closed"* and is *"the whole system on one page … the last teaching unit of the
+course before the capstone."* Batch 2 of the which-case work recorded it as
+blocked for the same reason.
+
+One inherited claim was checked and is **narrower than it reads**:
+`SEQUENCING.md`'s `gen_verbs` entry says *"with them Block 5's governors are
+complete and `c1_which_case` becomes buildable for the first time."* That is
+true of **Block 5** and was written by Block 5's builder; it is not a statement
+about Blocks 8 and 9, which had not been built. `data/case-map.json` is current
+through `c1_gen_verbs` [207] — verified this run, 29 trigger rows, none after
+207 — and no row was added by any of the three units below, because none of them
+ships a governor.
+
+**So `c1_which_case` is not skipped, it is queued in its own path position**: it
+becomes buildable once 234 is live. If James wants it sooner, the cost is that
+its table has to be revisited when Block 8 lands.
+
+### `c1_sec_imperf` — the rule B2 was forbidden to name, and it is three rules
+
+Mandatory by James-locked Block 6a decision #4. One new verb and four new
+strings: *zapisywać* + *zapisuję/zapisujesz/zapisuje*. It is a debt rather than
+a coinage — `b2_pisac_family` [172] fenced *zapisywać* by name with *"a later
+run or C1 may pay it."* Zero new endings; it runs on `present_uje`, already
+carried on this verb's own twin *podpisywać*.
+
+**The pack corrects its own brief, and this is the batch's most important
+authoring call.** C1-SPINE names five owned pairs to state the rule over. They
+do not work alike, and saying they do would teach something false about the two
+commonest verbs in the course:
+
+| shape | pairs | what actually happens |
+|---|---|---|
+| `-ywa-` | *podpisać→podpisywać*, *zapisać→zapisywać* | mechanical |
+| `-a-` | *wyjechać→wyjeżdżać*, *przyjechać→przyjeżdżać* | **the stem moves too** (*jech*→*jeżdż*) |
+| none | *wyjść→wychodzić*, *przyjść→przychodzić* | **no suffix at all** — swaps to the `chodzić` stem |
+
+Collapsing row three into "the rule" is the error the unit exists to avoid, so
+it gets its own slide and the limit is stated rather than discovered.
+
+Decision #1 still stands and slide 5 says so: a pattern for **reading**, never a
+licence to build; `a2_aspect`'s *learn the pair whole* is restated, not retired.
+`-iwa-` is **named as existing and no example is shown**, because the course owns
+no pair of that shape and inventing one is the ban itself.
+
+### `c1_verb_family3` — a 140-node gap that `check_new.py` found, not the brief
+
+The spine's brief for this unit is *dopłacić*/*przepłacić*. The best thing in it
+turned out to be neither. **`płaci` and `płacisz` are verified NEW**: *płacić*
+has been owned since `leaf_shopping_a1` [20] and *płacę* since
+`a2_shopping_func` [63], so for **140 nodes** the learner has been able to say
+*I pay* and has had no way at all to say *he pays* or *do you pay*. That is the
+`dawac_family` [173] situation exactly — *wydawać* owned as a dictionary word
+for a hundred nodes with no present — and it is repaired the same way, by
+building the unit **on** the gap. Thirteen new strings, two new verbs, zero new
+endings.
+
+**The `za` + Accusative trap was named in advance, and the pack caught itself
+walking into it.** `dawac_family`'s note had rejected *płacić* as its own root
+precisely because *"płacić would want za + Accusative and za is owned only in
+polite's thanking job — a governor homograph on a function word, the trap that
+earned `prosic_o` its own unit."* A drafted Kontrola item read **`Brat ___ za
+bilet`**. `audit.py` **would have passed it** — *za* is a taught string ←
+`b1_polite` [107] — and it is exactly the homograph the paragraph refuses.
+Rebuilt as *Brat ___ w hotelu*. The same sweep caught **`czasem`**, verified NEW,
+in another prompt (the identical catch `b2_which_case` made on that word);
+replaced with *często*. Every complement in the shipped pack is an Accusative
+object, an owned Instrumental chunk, an indeclinable amount, a Locative phrase,
+or nothing at all.
+
+*złoty*/*złotych* were available and refused: they are `c1_quantifiers` [229]'s
+own material by name, so every amount here is *euro*, which is taught and
+indeclinable — no new ending rides in on the money.
+
+### `c1_verb_family4` — the root chosen, the alternative costed
+
+Root chosen: **`pisać`, extended** (*opisać*, *przepisać*) — the cut
+`b2_pisac_family` logged as its own *"only if load allows"* drop. Chosen for
+depth (six owned members already, so slide 1 is a payoff board and not a list of
+strangers), for zero new endings, and for the prefix pairing below.
+
+**Alternative rejected and costed, as the node note requires:**
+*sprzątać*/*posprzątać*, which `b2_aspect_prefixes` dropped as *"the only pair
+that would cost two verbs"* and sent to the C1 inbox. Refused because it is **not
+a family** — one aspect pair on a root that grows nothing else in this course, so
+it would sit inside a root-family unit as an unrelated lodger and break the
+one-new-thing shape — and because both members are verified NEW.
+
+### The prefix pairing, built across two units on purpose
+
+The best fact in the batch, and it needed two units to make:
+
+- `c1_verb_family3` teaches **`przepłacić`** and says out loud that its `prze-`
+  means TOO MUCH and **cannot** be read off the front of the word. No hook.
+- `c1_verb_family4` teaches **`przepisać`**, where the **same** `prze-` **can**
+  be read — writing something across, one place to another. That is **R2**'s
+  through/across/re- tendency, arriving on a real owned verb.
+
+So the learner meets the identical prefix twice, two nodes apart, opaque once and
+transparent once, **before `c1_prefix_semantics` [217] claims any tendency at
+all**. Slide 4 of the second unit says precisely that and claims no rule.
+
+**For the `c1_prefix_semantics` builder:** R2 requires every slide to state that
+the tendency is strong but not guaranteed. `przepłacić` is now a real, owned,
+already-named counterexample sitting one node before you, and `przepisać` is the
+positive case. Use the pair — it is the honest exception R2 asks for, and the
+learner has already been told it exists.
+
+`do-` in *dopłacić* and `o-` in *opisać* each get **one** memory hook for that
+word only, on `b2_pisac_family`'s stated precedent (*"labelled as a hook for that
+one word and not a rule"*). One hook per unit is the standing ceiling and was
+not exceeded. Neither is presented as the James-locked core-4 lens extending to
+non-motion verbs — that is the productive prefixation decision #1 refused and
+**R1** lifted for `c1_prefix_semantics` alone.
+
+### Judgment calls and open forks, this batch
+
+1. **Secondary imperfectives held to infinitives only** in both family units
+   (*dopłacać*, *przepłacać*, *opisywać*, *przepisywać*). Their presents would
+   be free — the `-uję` class is owned and was produced in `c1_sec_imperf` — and
+   were still not taken. Logged as a **policy** rather than an oversight: two
+   families in a row stopping at the infinitive reads as one decision, where one
+   of each reads as an accident. Cheap to lift if James wants production.
+2. **The prescribing sense of `przepisać`** is named in **one line** with one
+   example, not drilled. AGENTS' homograph rule requires naming a second
+   reading rather than letting it sting, and *recepta*/*lekarz* have been owned
+   since A2 — but a second sense is not a second teaching point.
+3. **`c1_sec_imperf` teaches only one new verb.** A rule-naming unit could have
+   carried more; it deliberately does not, because its selling point is that
+   almost everything in it is already owned.
+
+### Three things the pre-commit checks caught that `audit.py` cannot see
+
+Recorded for the class of error, since all three would have shipped clean:
+
+1. **A duplicate answer inside Kontrola** — `c1_verb_family4` items 5 and 6 both
+   answered *przepisał* (the copy-out sentence and the prescribing sentence).
+   The two prompts read as different questions, which is exactly why an eye-scan
+   misses it; only a `norm()`-mirroring compare finds it. Rebuilt item 5 on
+   *przepiszesz*, the one cell of the paradigm no item had claimed.
+2. **Four `body_pl` leaks across two packs** — *nieprzewidywalny*, *regularny*,
+   *słowa*, *czytaj*, *buduj*, *wzór* in `c1_sec_imperf`; *rdzeń* and *czymś* in
+   `c1_verb_family4`. All verified NEW. The AGENTS convention admits
+   **metalanguage** on that line, not new lexis — the `b2_which_case`
+   *czasem*/*bez* finding exactly — and *rdzeń* is a grammar term this learner
+   has never been given. All rewritten to owned forms. **This line is now the
+   single most reliable source of leaks in the project: four of five units
+   across the last two batches leaked on it.** Worth a standing check.
+3. **Builder chrome inside a learner-facing table** — `c1_verb_family4`'s family
+   board carried a third column of level codes (A1/B2/C1), and its *zapisywać*
+   row read *since C1* for something taught three nodes earlier. Column dropped.
+
+### For James to smoke — batch 11
+
+1. **The three-shapes slide in `c1_sec_imperf`.** The unit says plainly that the
+   two commonest verbs in the course (*wyjść*, *przyjść*) sit **outside** the
+   rule it has just taught. That is honest and it is also deflating. If it reads
+   as "so why did you tell me the rule", the fix is to lead with the payoff
+   rather than the limit — say the word.
+2. **`płacisz` / `płaci`.** These close a gap you have had since A2 without
+   knowing it. Worth checking that *Czy płacisz kartą?* feels like a sentence
+   you would actually use at a till.
+3. **The `prze-` pairing across units 2 and 3.** This is the batch's design bet:
+   opaque on *przepłacić*, readable on *przepisać*, two nodes apart, with the
+   verdict deferred to `c1_prefix_semantics`. If meeting the contradiction
+   **before** the explanation is confusing rather than priming, that unit's
+   builder needs to know before it is written.
+4. **One hook per unit** (*do-* = paying up to; *o-* = writing about). These are
+   the first prefix hooks outside the locked core-4 lens. If they feel like the
+   start of free derivation rather than two mnemonics, say so — they are cheap
+   to remove.
+
+### Still open after batch 11
+
+- **`sprzątać`/`posprzątać` — now permanently untaught unless overruled.**
+  C1-SPINE's opening states that anything unscheduled is not deferred but
+  **out of RUPL forever**, so refusing them in `c1_verb_family4` means the
+  course ends with no verb for cleaning. Raised here rather than dropped in
+  silence. Cheapest home if wanted: two rows in a later vocab pack, not a
+  grammar unit.
+- **`c1_which_case` [235]** — queued at its own path position, buildable once
+  234 is live. See the top of this entry.
+- **The 161 fold variants** whose `accepts` contains the deaccented form of
+  their own answer, suppressing the „z ogonkami" correction on exactly the words
+  where the ogonki matter. Carried forward unresolved since the fifth repair run;
+  still a one-line script in either direction, still James's call.
+- **The vocabulary volume finding** (`codex/LEVEL-AUDIT-2026-08-07.md`): C1 adds
+  24 curated words across the whole level. Untouched this run, and none of these
+  three units changes it — they are grammar units by design.
+
+### Next run
+
+`c1_prefix_semantics` [217] is next in `path_order`, and it is the R1/R2 unit —
+read the prefix-pairing section above before writing it. Then `c1_dawac_perf`
+[218] and `c1_imperative_stems` [219]. **Every C1 unit that ships a new governor
+must add its row to `data/case-map.json` in the same commit** — Block 8's
+`c1_time_minutes`, `c1_dates_full`, `c1_collective_num` and `c1_quantifiers` are
+the ones that will, and `c1_which_case` derives its table from that file.
