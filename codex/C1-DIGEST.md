@@ -699,3 +699,232 @@ batch-2 pattern intact.
 - **`wydaje mi się`**, still James's call (`b2_verb_family2`).
 - **`duży`'s incomplete oblique paradigm**, carried from batch 2 and now formally
   inherited by the gym without being fixed — see smoke item 3.
+
+---
+
+## Batch 4 — Block 3 opens: the relative and the pronoun completed (3 units)
+
+Built by the cloud routine, 2026-08-07. `c1_ktory_plural`, `c1_pron_12_prep`,
+`c1_pron_je` — the first three nodes of Block 3, in `path_order`. Audit clean
+at every commit (182, 183, 184 nodes; **0 errors**, warns 2, both the standing
+empty-teaches review nodes `a2_prep_review` and `b1_two_futures`). Three new
+structure IDs registered in `SEQUENCING.md` **and** `audit.py` before any audit
+ran: `ktory_plural`, `pron_prep_12`, `pron_je`.
+
+**Step 0 was checked first and there was nothing to do:** `REPAIR-QUEUE.md` is
+fully ticked — all 19 packs, all 104 items, closed by the sixth repair run. No
+pack in this batch adds to it; every Pisanie item in all three units is a cloze
+and there is not one typed-whole answer anywhere in the batch.
+
+### `c1_ktory_plural` (Block 3, unit 1 — the plural relative)
+
+Pays `b2_ktory_full`'s own logged fence, in that pack's words: *"the relative
+declines like an adjective, so shipping plural relatives here would breach O3 by
+the back door."* Block 2 closed the plural adjective four nodes back, so the
+objection died and the debt falls due immediately rather than at the end of the
+level — which is why the spine placed this node here and not in Block 7.
+
+**Four new strings** (`którzy`, `których`, `którymi`, `któremu`) and **two new
+JOBS on owned strings**, deliberately not re-taught on the `adj_pl_loc` /
+`adj_pl_dat` convention: `którym` (owned as the singular m/n Locative and
+Instrumental) doing the **Dative plural**, and `które` (owned as the neuter
+singular relative) doing the **non-virile Nominative and Accusative plural**.
+Both named out loud on their slides rather than left to be noticed.
+
+**The unit is one idea, not six forms.** `b2_ktory_full`'s closing slide — *"You
+have met every one of these before"* — is promoted here to the *opening* claim,
+because at this path position it is true of the whole paradigm rather than of
+four cells: dobrzy→którzy, dobre→które, dobrych→których, dobrym→którym,
+dobrymi→którymi, dobremu→któremu. Not one new ending in the unit.
+
+**`któremu` lands here rather than being deferred a third time** because the two
+Datives teach each other — *student, któremu pomagam* against *dzieci, którym
+pomagam* — and the collision that produces is named on slide 5: `którym` now
+covers singular Locative, singular Instrumental **and** plural Dative. The
+resolution given is deliberately **different from `adj_pl_dat`'s**: there the
+noun settled it (`-om` is a Dative plural and nothing else); here **the
+antecedent** settles it, because the relative sits right beside the noun it
+points back at.
+
+**Lexical limit that shaped three stages, logged rather than hidden:**
+`pomagać` is the only Dative-governing verb whose needed form is owned —
+`podobają` is verified NEW and `dziękować` only ever takes `za` + Accusative —
+so `pomagam` carries both Dative items in Match, Kontrola *and* Pisanie,
+distinguished by the antecedent's number. Which happens to be exactly the
+discrimination the slide asks for, so the constraint cost nothing.
+
+**Two homograph catches that changed the unit.** `książki` is TAUGHT ONLY as a
+Genitive singular (`a1_gen_ki`) and appears nowhere as a plural — the second row
+of the AGENTS homograph table, and the same catch `c1_existential` made at the
+top of this level. `miasta` is TAUGHT ONLY as a Genitive singular (inside *do
+miasta* / *od miasta*), which cost the natural sentence *"the cities I was
+talking about"*. A third catch came from the other direction: a drafted slide row
+read *To są sklepy, które są zamknięte* — but `zamknięte` as a **non-virile
+plural** participle is `c1_part_attrib`'s property (that pack owns the plural of
+the passive participle, fenced by `b2_participle_pass` as *"a homograph inside
+the paradigm rather than a scope choice"*). Replaced with *To są telefony, które
+są nowe* before the unit was wired.
+
+### `c1_pron_12_prep` (Block 3, unit 2 — the row about you and me)
+
+`b2_pron_prep` did not merely defer this; it **specified** it, and the note is
+worth quoting because the build followed it to the letter: *"THIRD PERSON ONLY.
+o mnie, o tobie, ze mną, z tobą, do ciebie, z nami, z wami appear nowhere… THE
+ALTERNATIVE, if James wants it: a small b2_pron_prep2 with those six forms and
+the ze-rule."* It also closes the older fence `a2_o_loc` wrote — *"the unit says
+about work / about home, never about you"* — the half `b2_pron_prep` left
+standing. **Six new strings, the same count `b2_pron_prep` carried**, plus `ze`.
+
+**The one idea is an asymmetry, and stating it is what holds six forms to one
+new thing.** After *o* and after *do*, `ja`, `my` and `wy` reuse the very strings
+already owned as objects — `mnie`, `nas`, `was` — so the entire Locative and
+Genitive of three persons out of four is already in Dad's mouth. **Only `ty` is
+genuinely different, and it is different twice** (`tobie` after *o*, `ciebie`
+after *do*). The Instrumental is where the new words actually are: four for four.
+Slide 2 says this outright rather than leaving him to wonder whether he has
+missed a form.
+
+**The anchor was verified, not assumed:** `według mnie` is TAUGHT ←
+`b2_discussion_func` as a whole phrase, so a first-person pronoun has been
+sitting after a preposition for a level — it simply happened to be the only cell
+he had. The `b2_adj_acc` / `b2_verbal_nouns` "you already say this" opener.
+
+**The `ze` rule is stated as a closed fact, never as a phonological rule.** What
+is claimed: Polish says *ze mną* and never *z mną*, and he already does this in
+*ze szkoły* / *ze sklepu* / *ze szpitala*. What is also claimed, because it is
+true and it is what makes the fact safe: **`mną` is the only pronoun it happens
+to** — *z tobą*, *z nami*, *z wami* and every third-person form keep the plain
+*z*. No attempt at the condition behind it; `b2_gen_pl_full`'s fleeting-e
+precedent.
+
+**The short forms are fenced positionally, not by emphasis, and that was the
+sharpest scope call in the batch.** `cię`/`ci` sit beside the verb; `ciebie`/
+`tobie` follow a preposition. That is *all* slide 4 claims, because the
+**stressed** use of the long forms (*Ciebie znam*) is C1-SPINE's explicit
+property of `c1_word_order`, three nodes on. Kontrola item 10 runs the
+discrimination in the other direction (*Znam ___* → `cię`) so the positional rule
+is drilled both ways rather than only as "the long one is the new one". The
+Dative is not opened at all, on `b2_pron_prep`'s own reason verbatim: no
+preposition in this course governs it.
+
+**Pisanie is the first stage in C1 where the count of distinct new forms matches
+the stage exactly** — eight cloze, one per new string plus the `ze` item, **all
+eight on the teaching point, no fallback anywhere.**
+
+### `c1_pron_je` (Block 3, unit 3 — two homographs in one small unit)
+
+Two new strings only, `je` and `czemu`, and the unit's idea is not a paradigm: it
+is that a string can look like a word you already own and be a different word,
+which is why the two traps share a slot instead of being scattered.
+
+`je` pays `b2_pron_acc`'s stated consequence in that pack's own words — *"after
+this unit them is expressible only for people"*. **The verb is in the unit
+because the spine required it:** `je` is also the 3sg of `jeść`, and O13 named the
+risk — *"teach the pronoun and the verb form together, or the first Ona je the
+learner meets reads as she them"*. `c1_wiedziec` had already fenced it forward by
+name, dropping `je` from its own `mieć`-parallel table. **One cell, not a
+paradigm:** `jem`/`jesz` are owned and `zje` is owned, so `je` is the single
+missing box; `jemy`/`jecie`/`jedzą` are verified NEW and stay out, because the
+homograph only needs the third person to be defused. The test given is
+**positional** — count the verbs — because a positional test is one this learner
+can actually apply, and it is exhaustively true for every sentence in the course.
+
+### For James to smoke — batch 4
+
+1. **`czemu` was the batch's one real design fork and it was taken against the
+   spine's first reading.** C1-SPINE sends `czemu` here as *the Dative of co*, and
+   also explicitly permits the other treatment (*"one line naming both, or leave
+   the second sense out and say so"*). The pack teaches it as the **everyday
+   colloquial "why"** — a plain synonym of `dlaczego` — and names its Dative
+   origin in one line. The reason is not squeamishness: **the Dative of a thing
+   has no legal sentence in this course.** `pomagać` is the only
+   Dative-governing verb owned, and *"What are you helping?"* is not a sentence
+   anyone says; the natural hosts (`dziwić się`, `przyglądać się`) are each a new
+   verb *plus* a new construction. That is `b2_pron_prep`'s own reason for
+   refusing `niemu` — *"teaching a form with no legal sentence to sit in would be
+   padding"* — applied one unit on. If you want the Dative job taught properly,
+   the cost is one new reflexive verb and it belongs beside `c1_siebie` or in
+   `c1_case_gym`, not here. `b2_case_gym`'s em dash now has a truthful label
+   rather than a fabricated example.
+2. **`prosić o` + a pronoun is HELD, and I recommend holding it permanently.**
+   The tree note assigned it to this unit (`b2_prosic_o`'s judgment call 8). The
+   non-virile plural Accusative *after a preposition* is **`nie`** — *o nie*, *na
+   nie* — and `nie` is TAUGHT ← `trunk_social_a1` **[path 0]** as the negator, the
+   first Polish word Dad ever met. That is the sharpest homograph available
+   anywhere in RUPL. The singular half is in any case half-owned
+   (`b2_pron_prep` gave `niego`/`nią`/`nim`), so what is genuinely missing is
+   precisely the dangerous cell. *Proszę o to* was not shipped either, since it
+   opens the same slot.
+3. **`od` + a pronoun was taken as an extra governor in `c1_pron_12_prep` and is
+   worth a look.** It costs zero new pronoun forms — `od` takes the Genitive, so
+   it takes `do`'s forms — and buys *Brat jest starszy od ciebie*, a sentence Dad
+   will use. Exposure was held to **one slide row, one match item and one use
+   item**; `od` appears in no Pisanie item and no Kontrola distractor, and the
+   **source** job of `od` (`c1_od_source`) is not hinted at. If it reads as
+   scope-creep in the hand, deleting those three items removes it cleanly.
+4. **The `którym` three-jobs slide.** `c1_adj_pl_dat` already asked Dad to hold
+   `-ym` across three jobs and resolved it by reading the *noun ending*. This unit
+   asks the same of `którym` and resolves it by reading the *antecedent*. Two
+   different resolutions for the same shape of problem, four nodes apart — both
+   true, but worth checking that the second does not read as a contradiction of
+   the first.
+5. **Six `je` answers out of twelve in `c1_pron_je`'s Kontrola.** Five distinct
+   answer strings across twelve items is the honest maximum for a unit whose
+   content is two words (the `b2_ktory_full` / `b2_kim_czym` precedent), and the
+   `je` items sit under three different jobs. If the board feels repetitive in the
+   hand the fix is fewer items, not invented answers.
+
+### Two corrections to the record, both verified rather than inherited
+
+- **C1-SPINE's standing fence about `GLUE_LEMMAS` is half wrong, and Block 3 is
+  exactly where it mattered.** The spine says: *"Person pronouns sit in
+  `audit.py`'s `GLUE_LEMMAS`, so the auditor cannot see a single pronoun fence in
+  Block 3. Every B2 pronoun pack said this in its own note; C1's three pronoun
+  units must be scanned by hand."* Checked directly: `GLUE_LEMMAS` holds the bare
+  **subject** pronouns only — *ja, ty, on, ona, ono, my, wy, oni, one* (plus
+  *tak*, *nie*, *to* and six given names). **Every oblique form in this batch —
+  `mnie`, `cię`, `ci`, `nas`, `was`, `tobie`, `ciebie`, `mną`, `tobą`, `nami`,
+  `wami`, `go`, `ją`, `ich`, `je` — IS visible to the auditor and IS policed.**
+  The hand-scan discipline is still right, but the thing it actually protects is
+  the *subject* pronouns, which appear nowhere in any of the three packs.
+- **A second tooling artifact of the kind the spine documents for `na`.** The bare
+  preposition **`do`** is not a lemma anywhere in the course — it lives only inside
+  multi-word lemmas (*do sklepu*, *do domu*, *do pracy*, *do matki*) and its
+  Genitive job rides the `prep_do_gen` **structure**. Declaring it in
+  `uses_lemmas` produced a genuine `lemma_not_unlocked` **error** on
+  `c1_pron_12_prep`'s first audit run; the fix is to drop it, not to "teach" it.
+  This is the house rule `b2_prosic_o` already wrote down (*"Bare governed
+  prepositions are not listed in uses_lemmas per SEQUENCING.md 6.3"*). `o` and
+  `od` are **not** affected — both exist as bare lemmas in the pool.
+
+### One leak caught by verification, recorded for the class of error
+
+A draft explain in `c1_pron_je` read *"If it were lekarki the pronoun would be
+je."* — and `lekarki` is **verified NEW** (the course owns `lekarka`, `lekarką`,
+`lekarz`, `lekarze`, `lekarzem`, `lekarzy`, never the feminine plural). It
+carries **no Polish diacritic**, so the automated sweep of the English prose
+fields — which keys on diacritics to tell Polish from English — did not find it;
+it was caught by reading every Polish word in every learner-facing `explain`
+against the pool by hand. Replaced with `kobiety`. **`explain` strings are
+learner-facing and are subject to the pool exactly as items are**, and any future
+batch should assume its own prose fields leak until it has read them.
+
+### Still open after batch 4
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run and untouched here. **No pack in this batch adds to it** — every `accepts`
+  holds the exact answer, plus the no-final-stop variant on whole-sentence use
+  items, which is the standing convention and is not a fold. The one apparent
+  exception is `c1_pron_je` Pisanie item 1, whose `accepts` carries `Czemu` and
+  `czemu`: that is a **capitalisation** variant on a sentence-initial blank, not a
+  diacritic fold, and the engine's `norm()` lowercases anyway, so it is redundant
+  rather than suppressive.
+- **The `MÓGŁBY QUARANTINE`**, for `c1_past_gaps` in Block 7 — and note R6 has
+  since ruled: the plain past is fine, the conditional paradigm stays whole.
+- **`wydaje mi się`** — settled by R7 (chunk + homograph line in `c1_nuance`), not
+  yet built.
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2 and inherited
+  unfixed by `c1_adj_pl_gym`.
+- **`mali` / `duzi`**, dropped in batch 3; still costed at one new virile noun.
+- Next up in Block 3: `c1_siebie`, then `c1_word_order`, then `c1_station_1`
+  (placeholder, stays `planned` forever).
