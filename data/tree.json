@@ -4187,18 +4187,19 @@
     {
       "id": "c1_gen_verbs",
       "domain": "grammar",
-      "label": "Szukam pracy · słucham",
+      "label": "Szukam pracy, słucham muzyki",
       "label_en": "Verbs that take the Genitive",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 5, unit 4. Closes TWO IOUs at once. (a) a2_sie fenced 'ucze sie polskiego' BY NAME (ucze TAUGHT, polskiego NEW - and derivable now that b2_adj_gen owns -ego). (b) b2_verbal_nouns fenced GENITIVE OBJECTS AFTER A VERBAL NOUN (gotowanie obiadu, sluchanie muzyki) as its one significant scope cut, plus every oblique form of its six nouns. ANCHOR, and a good one: 'szukam pracy' is TAUGHT <- a2_work2 [78] as a whole chunk and IS ALREADY THIS CONSTRUCTION. slucham TAUGHT <- a2_phone_func [88]. Also carries racji / nie miec racji (inbox item 12, fenced by name in b2_discussion_func and b1_opinions).",
+      "note": "[C1 SPINE] Block 5, unit 4. Closes TWO IOUs at once. (a) a2_sie fenced 'ucze sie polskiego' BY NAME (ucze TAUGHT, polskiego NEW - and derivable now that b2_adj_gen owns -ego). (b) b2_verbal_nouns fenced GENITIVE OBJECTS AFTER A VERBAL NOUN (gotowanie obiadu, sluchanie muzyki) as its one significant scope cut, plus every oblique form of its six nouns. ANCHOR, and a good one: 'szukam pracy' is TAUGHT <- a2_work2 [78] as a whole chunk and IS ALREADY THIS CONSTRUCTION. slucham TAUGHT <- a2_phone_func [88]. Also carries racji / nie miec racji (inbox item 12, fenced by name in b2_discussion_func and b1_opinions). [WIRED LIVE] FIVE new strings: muzyki, polskiego, obiadu, racji, prace. EVERY VERB IN THE UNIT IS ALREADY OWNED (szukam/szuka <- a2_work2 [79], slucham <- a2_phone_func [89], ucze/uczy <- a2_sie [74]), so nothing here is a paradigm - the verbs are old and the CASE THEY TAKE is the lesson. Structure ID gen_verbs registered in codex/SEQUENCING.md and audit.py before the audit. TWO ROWS ADDED TO data/case-map.json IN THIS SAME COMMIT, AND WITH THEM BLOCK 5'S GOVERNORS ARE COMPLETE - c1_which_case [235] becomes buildable for the first time, though it still sits at path 235 and the build track must walk Blocks 6-9 to reach it in order. THE ANCHOR IS THE BEST IN C1 AND WAS VERIFIED: szukam pracy is TAUGHT as a whole chunk and IS ALREADY this construction. THE DEMONSTRATION RUNS ON muzyka because it is the only noun that can carry it - muzyke <- trunk_want_like_a1 [23] - so Lubie muzyke against Slucham muzyki is one noun, two verbs, two cases, with the Accusative side already in his mouth. A POOL SURPRISE, LOGGED RATHER THAN ASSUMED: prace, the Accusative of a noun live since leaf_places [31], was UNTAUGHT after 200 nodes; it is taught here so Mam prace / Szukam pracy is sayable at all. TWO IOUs CLOSED BY NAME: a2_sie's ucze sie polskiego (slide 4 contrasts frozen po polsku with declined polskiego on b2_adj_gen's -ego) and b2_verbal_nouns' 'significant scope cut', paid with gotowanie obiadu / kupowanie chleba / robienie kawy, of which only obiadu is new. sluchanie is NOT taught - a seventh verbal noun, and the fence is paid by the six that exist. INBOX ITEM 12 CLOSED: racji, where b2_neg_gen's rule meets b1_opinions' owned chunk. HOMOGRAPH DISCIPLINE: gazety appears NOWHERE despite being an obvious object, because AGENTS names it as a nominative plural that would read as a Genitive singular; ksiazki is used only in its Genitive-singular job; mamy and gory are absent as in both earlier units of this batch. REFUSED AND LOGGED: potrzebowac, uzywac, bac sie - each a new paradigm, named nowhere in C1-SPINE, permanently untaught unless James rules otherwise. All distractors verified pool-legal; muzyce, obiedzie, obiady, polskie, praca and racja were rejected as NEW and replaced. A hand review of the table cells caught 'mowienie prawdy' - prawdy is untaught anywhere in the course - and it was replaced with kupowanie mleka; radia and ucza were caught the same way in Uzycie and replaced. Title re-checked at the wire.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/c1_gen_verbs.json"
     },
     {
       "id": "c1_part_attrib",

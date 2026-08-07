@@ -35,6 +35,8 @@
     { "case": "acc", "trigger": "przez… (for how long)", "gloss": "a stretch of time the action filled", "example": "przez cały dzień", "taught_by": "c1_przez" },
     { "case": "acc", "trigger": "przez… (BY whom — who did it)", "gloss": "the doer in a passive sentence — never the means, which is the Instrumental", "example": "List jest napisany przez tatę.", "taught_by": "c1_przez" },
     { "case": "gen", "trigger": "od… (FROM a person)", "gloss": "who something came from — a PLACE takes z/ze instead", "example": "Mam list od brata.", "taught_by": "c1_od_source" },
-    { "case": "gen", "trigger": "od… (FROM a time onwards)", "gloss": "when something starts — do closes the other end", "example": "od piątej do siódmej", "taught_by": "c1_od_source" }
+    { "case": "gen", "trigger": "od… (FROM a time onwards)", "gloss": "when something starts — do closes the other end", "example": "od piątej do siódmej", "taught_by": "c1_od_source" },
+    { "case": "gen", "trigger": "szukam · słucham · uczę się", "gloss": "a few verbs demand the Genitive where English just puts an object", "example": "Szukam pracy.", "taught_by": "c1_gen_verbs" },
+    { "case": "gen", "trigger": "gotowanie · kupowanie · robienie (a -nie noun)", "gloss": "what a verbal noun acts on — it is a noun, so it cannot take an object", "example": "gotowanie obiadu", "taught_by": "c1_gen_verbs" }
   ]
 }

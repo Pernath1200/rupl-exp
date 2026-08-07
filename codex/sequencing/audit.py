@@ -154,6 +154,7 @@ STRUCTURE_CATALOGUE = {
     "na_acc",
     "przez_acc",
     "od_source",
+    "gen_verbs",
 }
 
 GLUE_LEMMAS = {
