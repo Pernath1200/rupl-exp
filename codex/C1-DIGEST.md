@@ -1852,3 +1852,228 @@ and none of them shipped:
   `c1_zostac` [211] follows and **its agent phrase is now available**, three
   nodes back, exactly as C1-SPINE planned. No unit in Block 6 ships a governor,
   so `data/case-map.json` is owed nothing until Block 8's quantifiers.
+
+---
+
+## Batch 9 — Block 6's three participles (3 units)
+
+`c1_part_attrib` [208], `c1_part_active` [209] and `c1_part_adv` [210], in
+`path_order` order, one commit each, pushed individually.
+`codex/REPAIR-QUEUE.md` was checked first: **19 packs, all ticked, nothing
+outstanding.**
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_part_attrib` | 208 | 10 — and **not one new ending** | `part_attrib` | `42af0d6` |
+| `c1_part_active` | 209 | 10 — one operation off the they-form | `part_active` | `3536328` |
+| `c1_part_adv` | 210 | 7, of which one is recognition-only | `part_adv` | `958a7dd` |
+
+Audit after each: **0 errors**, warns unchanged at **6** throughout — the same
+six `teaches_empty_grammar` review nodes as ever, verified against the written
+artefact rather than assumed. All three structure IDs were registered in
+`codex/SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before their
+audit ran. **No unit in this block ships a case governor, so
+`data/case-map.json` is untouched and owes nothing** — the next debt falls at
+Block 8's quantifiers, as batch 8 predicted.
+
+`c1_which_case` [235] was **not** built and still cannot be built in path order.
+Batch 8 removed its dependency (`case-map.json` now describes every governor C1
+teaches) but not its position: it sits at 235 and the build track has reached
+210. This is now the third consecutive digest to record that, and it is a
+sequencing fact rather than a blocker.
+
+### How the three units were verified
+
+Beyond `audit.py` — which checks only *declared* tags and so structurally
+cannot see a stray Polish word — each pack was run through the token-level
+checker the which-case batches established: every Polish surface the learner is
+shown or asked to produce (match rows, quiz prompts, choices and answers, cloze
+frames and answers, Użycie answers and accepts, slide `title_pl` / `body_pl` /
+`examples`) split into words and checked against that node's own position-aware
+pool. Slide bodies and table cells, which are mixed English and Polish, were
+printed as an unknown-token list and read by eye; in all three packs that list
+came back pure English, which is the check that a table cell has not smuggled in
+an untaught form. It also asserts twelve match rows, no duplicate answers or
+prompts within Pisanie or Użycie, one `___` per cloze frame, the ≤3-word cap on
+typed-whole answers, that no Pisanie frame reconstructs a Użycie sentence, that
+every `teaches_lemma` is genuinely absent from the pool, and that every
+`uses_lemma` and `uses_structure` is in it.
+
+Two `uses_lemmas` entries were caught by that last assertion and removed from
+`c1_part_attrib`: `to jest` and `w kuchni` are structures and phrases the pool
+does not carry as lemmas (`b2_fem_soft` taught the bare `kuchni`).
+
+**Three `body_pl` lines were rewritten after the checker flagged ordinary lexis
+on them.** The AGENTS convention admits *metalanguage* in the Polish shorthand
+line, not new vocabulary — the finding `b2_which_case` made and this batch
+repeated three times. `bez` (twice), `stoi`, `główny`, `decyduje`, `czytania`
+and **`pojazdem`** were all removed; `pojazdem` is the word AGENTS names by
+example as a title-rule breach, and it had walked back in through a shorthand
+line.
+
+### `c1_part_attrib` — the plural costs nothing, and that is the whole point
+
+`b2_participle_pass` [176] fenced two things by name. Both are paid here.
+
+**The declension is free.** Every ending in the pack is one the learner has
+produced — `dobrego`/`dobrym`/`dobrej`/`dobrą` from B2 Block 2, `dobrych` from
+`c1_adj_pl_gen` [186] and `c1_adj_pl_loc` [187]. The ten new strings are those
+owned endings sitting on owned participles. Not one new ending is taught, and
+the unit says so on slide 2 with `dobry` and `zamknięty` in adjacent columns.
+
+**The plural costs zero new strings.** `zamknięte`, `otwarte`, `zrobione`,
+`napisane`, `ugotowane` and `zapłacone` were taught at B2 as NEUTER SINGULARS
+and are also the non-virile plural — the homograph that pack fenced as *"a
+homograph inside the paradigm rather than a scope choice"*. Slide 3 therefore
+names a second job on six strings the learner already types, on the
+`adj_pl_loc` / `adj_pl_dat` / `c1_ktory_plural` convention, and `teaches_lemmas`
+stays clean.
+
+**The virile plural is named and not demanded, and the spine's three examples
+are not the ones built.** C1-SPINE names `zamknięci`, `otwarci` and `zrobieni`.
+Only `zrobieni` ships, on one slide, in no stage, and the slide says out loud
+why: these participles describe THINGS, and things are never a group of men.
+`zamknięci` and `otwarci` are not built at all — neither has a sentence this
+learner would ever say, and no taught virile noun collocates with either. This
+is `c1_adj_pl_virile`'s own precedent one block later, where *mali* and *duzi*
+were dropped for exactly this reason: **a spine example is a sketch, not a
+licence.** The `-ni` move itself is not new (`zmęczeni` ← `c1_adj_pl_virile`).
+
+**`zapisani` was drafted and cut, and it is the live alternative if James wants
+a virile participle that does work.** `zapisać` is TAUGHT, `zapisany` would
+follow the `-ać → -any` rule the learner may apply, and *Studenci są zapisani na
+kurs* is ordinary Polish with a taught virile noun and a taught governor. It was
+cut because it costs a NEW LEXEME in a unit whose entire claim is that it costs
+no new endings. One word from James and it goes in.
+
+**The case gaps are lexical, not chosen**, and this is worth knowing because it
+will recur: the masculine `-ym` covers Locative, Instrumental and Dative in one
+string, but no attributive participle appears in the Instrumental or the Dative
+anywhere in the pack because **no taught noun supports one** — `kawą` is
+untaught (the finding `b2_which_case` made), and *dziękuję zamkniętemu sklepowi*
+is not a sentence. `zamkniętą`/`otwartą` are absent for the same reason:
+*aptekę*, *kuchnię* and Accusative *szkołę* are all untaught, so `ugotowaną` on
+`zupę` carries the feminine Accusative by itself.
+
+### `c1_part_active` — `check_new.py` found an anchor the spine did not know about
+
+C1-SPINE says only that `pracujący` is NEW and formed off the 3pl. Running the
+inventory rather than inheriting it turned up something better: **`śpiący` is
+TAUGHT ← `a2_feelings` [55], as a plain adjective glossed *sleepy*.** It is an
+active participle and it literally says *sleeping*. So the unit opens on the
+house pattern for the third time in two blocks — a word read since A2 turns out
+to be built by a rule — after `b2_participle_pass`'s *otwarty*/*zamknięty* and
+`c1_virile_alt`'s *kelnerzy*.
+
+**It is not derived, and the reason was checked rather than assumed.** *śpią* is
+verified NEW and `spać` has no owned present paradigm at all — `trunk_can_a1`
+[24] taught only the infinitive after *mogę*. So `śpiący` is handed over whole,
+exactly as `b2_participle_pass` refused to derive *zamknięty* from a NEW
+*zamknąć*, and the rule is stated over four verbs whose they-form the learner
+does own.
+
+**The predictable error got its own slide**, and it is the reason the unit needs
+a limit slide at all: an English speaker reads `-ący` as English *-ing* and
+reaches for *jestem pracujący* for *I am working*. Polish says *Pracuję*. The
+slide says so plainly, puts the correct form beside it, adds that the participle
+is far rarer in speech than English *-ing*, and points at `który` as the usual
+way to say who does what. One quiz item drills it.
+
+**`kobietę` was wanted and rejected as verified NEW** — the Accusative singular
+of `kobieta` is untaught after 209 nodes, which cost the natural *I know a woman
+who speaks Polish*. Another instance of the gap class batch 8 flagged.
+
+### `c1_part_adv` — the spine's own example is not buildable
+
+C1-SPINE writes the headline sentence as *Robiąc obiad, słuchałem radia*.
+**Both of the last two words are verified NEW.** There is no past of `słuchać`
+anywhere in the course (only `słucham` ← `a2_phone_func` [89]), and `radia` was
+already caught and replaced once, during `c1_gen_verbs`' own build one batch
+ago. The sentence ships as *Robiąc obiad, słucham muzyki*, on the Genitive
+`c1_gen_verbs` [207] taught three nodes back. **This is the second spine example
+in three units that did not survive `check_new.py`**, after the virile
+participles above.
+
+**The opening move is the previous unit minus one letter**, which is exactly why
+`c1_part_active` was built to fence the `-ąc` form completely rather than
+contrast with it: *pracujący* agrees and names a person, *pracując* never
+changes and names the circumstances. The formation is then free — the same 3pl
+operation stopping one letter earlier.
+
+**The one new fact is given as one fact with two consequences** rather than as
+two rules: the `-ąc` form carries nothing, so it has no person (both halves must
+be the same person, and the main verb says who) and no tense (*Czytając gazety,
+piłem herbatę* is past only because *piłem* is). C1-SPINE names the subject half
+only; the tense half falls out of the same fact and costs nothing to say.
+
+**`zrobiwszy` is on one slide and in no stage** — not in Dopasuj, not as a
+distractor, not in Pisanie, not in Użycie — and **no formation rule is stated
+for it**. It is named as anterior, named as literary, and named as something to
+recognise rather than make. That is O5's default, and both of its alternatives
+stay rejected for the reasons O5 gives.
+
+**Pisanie is eight cloze items and could not have been anything else**: every
+sentence in the unit is two clauses, so the queue's composed-sentence rule makes
+all of them cloze regardless of length. Six blank the teaching point — one per
+productive participle, which is exactly the number of distinct answers available
+and therefore the `c1_ktory_plural` situation — and two fall back onto the MAIN
+verb (`piłem`, `myślę`) under the queue's fallback clause. Those two are not
+arbitrary: the main verb is precisely where this unit says the tense and the
+person live, so the fallback items drill the unit's own second fact.
+
+### Judgment calls and open forks, this batch
+
+1. **`zapisani` (`c1_part_attrib`)** — cut, argued above, one word from James to
+   put it in.
+2. **The `-ony` class has no oblique form anywhere** (`c1_part_attrib`).
+   `zrobionym` and `zapłaconym` are real and both wanted a noun the course does
+   not own in the right case (*rachunku*, *listu*, *zdjęcia*, *zadania* all
+   verified NEW). The class is represented in the obliques only by `ugotowaną`,
+   which is an `-ować` participle. Fixable later by teaching one noun form.
+3. **Word order in `c1_part_adv` is fenced to participle-clause-first.** The
+   trailing order (*Słucham muzyki, robiąc obiad*) is perfectly good Polish and
+   is not taught, because a second order is a second fact and every subordinate
+   shape this learner owns — `że`, `żeby`, `który`, `jeśli`, embedded questions
+   — was taught in one position first. James's call whether the trailing order
+   is worth a slide in `c1_wrapup`.
+4. **`c1_part_attrib`'s Dopasuj board does not contain `zrobieni`**, so the
+   "every form of the unit appears on the board" convention is met for nine of
+   the ten taught strings. The tenth is the recognition-only virile form, and
+   putting it on a board would be asking for recognition of a word the same
+   pack calls rare. Logged rather than silently done either way.
+
+### For James to smoke
+
+1. **The virile-participle slide in `c1_part_attrib`.** It is the one place in
+   the batch where the course says *here is a form, and you will not need it*.
+   That is honest and it is the alternative to leaving `zrobieni` unnamed
+   forever, but it is a slide that teaches nothing to use, and if it reads as
+   filler it should be cut rather than softened.
+2. **`śpiący` as `c1_part_active`'s opener.** It rests on a claim about a word
+   he learned at A2 as *sleepy* — that it is really *sleeping*. True, and the
+   whole slide depends on it landing rather than confusing.
+3. **The *jestem pracujący* slide.** It names an error before he has made it.
+   `b2_indirect_q` and `b2_jesli` both used that shape successfully, but this is
+   the first time in C1 and it is worth confirming it reads as useful rather
+   than as a warning about nothing.
+4. **`c1_part_adv`'s Pisanie starts six of its eight frames with the blank.**
+   `___ obiad, słucham muzyki.` House style already does this (`a2_dat_chunks`,
+   `b1_polite`, `b2_double_neg` all have frames opening on `___`), but six in one
+   stage is the most any pack has carried, and the answer is capitalised.
+5. **Three participles in three consecutive units.** `c1_part_attrib` /
+   `c1_part_active` / `c1_part_adv` are deliberately built as a ladder, each
+   opening on the previous one. If the block reads as three units on one topic
+   rather than three related ideas, the join to smoke is the second-to-third,
+   where a single letter separates the two forms.
+
+### Next run
+
+`c1_zostac` [211] opens the next batch and **its agent phrase is available** —
+`c1_przez` [205] is six nodes back, exactly as C1-SPINE planned, and
+`b2_passive`'s closing slide already told the learner this edge was coming.
+Then Block 7 opens the verb system: `c1_past_gaps` [212] (check the **`mógł`
+quarantine against R6** — the past is fine, the conditional stays whole),
+`c1_ea_shift` [213], `c1_sec_imperf` [214].
+
+`data/case-map.json` is owed nothing until `c1_quantifiers` [229]; `c1_which_case`
+[235] and `c1_case_gym` [236] remain the tail of the level.
