@@ -3605,3 +3605,257 @@ wants dates past the twelfth. And the standing rule still holds: **every unit
 that ships a new case governor must add its row to `data/case-map.json` in the
 same commit**; Block 8 added none, for the reasons logged above, so the map is
 unchanged since Block 5.
+
+---
+
+## Batch 16 — `c1_quantifiers`, `c1_concessive`, `c1_cause_time` (Block 8 closed, Block 9 opened)
+
+Three units, one commit each, pushed individually.
+`codex/REPAIR-QUEUE.md` was checked first and is still empty, so the whole run
+went to the build track. `c1_which_case` [235] remains blocked — its table is
+derived and it sits behind three more Block 9 units; see the note at the end.
+
+| unit | path | new strings | new mechanism | commit |
+|---|---|---|---|---|
+| `c1_quantifiers` | 229 | 7 | none | `fd27b2d` |
+| `c1_concessive` | 230 | 2 | none | `41fc864` |
+| `c1_cause_time` | 231 | 5 | none | `475da3b` |
+
+Audit after each: **0 errors**, warns **6** throughout — the same six
+`teaches_empty_grammar` review nodes (`a2_prep_review`, `b1_two_futures`, and the
+four shipped which-case units). Not one of the three units adds a warn, because
+all three have real `teaches_*`.
+
+**Fourteen new strings across three units and not one new ending, agreement rule
+or paradigm.** That is not a coincidence of the material — it is what Block 8's
+tail and Block 9's head actually are, and it is the reason three units could ship
+in one run where Block 2 managed two.
+
+### How the three were verified
+
+Beyond `audit.py`, which only ever checks *declared* tags and so cannot see a
+stray Polish word, each pack was run through a token-level checker over every
+learner-facing surface — slide `title_pl` / `body_pl`, table cells, examples,
+match rows, quiz prompts and choices, cloze frames, every `answer` and every
+`accepts` string — split into words and checked against that node's own
+position-aware pool (`make_pool.py --before <node>`). It also asserts twelve
+match rows, one `___` per cloze frame, every answer present in its own
+`accepts`, every quiz answer present among its own choices, no typed-whole
+answer over three words, no duplicate prompts or answers within a stage under a
+Python mirror of the engine's `norm()`, and that no Pisanie frame reconstructs a
+Użycie sentence. A second pass scans the *English* surfaces for smuggled Polish.
+
+It earned its keep four times, each caught before the audit ran:
+
+1. **`gazetę` is NEW** — the Accusative of *gazeta* is untaught anywhere; only
+   the plural `gazety` is. Wanted twice, in `c1_concessive` and again in
+   `c1_cause_time`. This is the same catch the which-case batch made at A2, so
+   it is now a standing trap rather than a one-off.
+2. **`gotowała` does not exist in the pool.** Only `gotowałam`/`gotowałem` and
+   the perfective `ugotowała` are taught, so the 3sg feminine past of *gotować*
+   is unavailable — which killed the obvious *Mama gotowała obiad, podczas gdy…*
+   and sent every `podczas gdy` sentence in `c1_cause_time` onto
+   `pracowała`/`czytał`/`czytała`.
+3. **`czekał` likewise** — *czekać* has no past form anywhere in the course
+   (`czeka`, `czekaj`, `czekam`, `czekanie` only), which removed a
+   `c1_quantifiers` use item.
+4. **An untaught `body_pl` line.** `c1_cause_time`'s *podczas gdy* slide read
+   *w tym samym czasie*; `tym`, `samym` and `czasie` are all untaught. The
+   AGENTS convention admits **metalanguage** on that line, not new lexis — the
+   exact defect `b2_which_case` had to fix in `czasem`/`bez`. Replaced with a
+   taught example sentence.
+
+A fifth was caught by inspection rather than by the checker: a
+`c1_quantifiers` quiz distractor read **`pięć złotów`**, which is a fabricated
+non-word and banned outright. `pięć dolarów` replaced it and discriminates the
+currency instead, which is the better item.
+
+### `c1_quantifiers` — and the case-map row Block 8 finally owed
+
+`wiele` / `kilka` and their virile partners `wielu` / `kilku` behave in every
+particular like `pięć` / `pięciu`: Genitive plural on the noun, the
+neuter-singular verb `b2_num_subject` taught for five-and-up, and the identical
+men-versus-everything split. Four words, no rule. `złoty` / `złote` / `złotych`
+is the currency `a2_shopping2` omitted **by name** — *"it declines adjectivally
+(pięć złotych) and teaching it would invite \*pięć złoty"* — and `c1_adj_pl_gen`
+has since taught `-ych`, so the stated objection is gone.
+
+The money half is anchored on **`dolar`**, and that was checked rather than
+assumed: `dolar`, `dolary` and `dolarów` are all TAUGHT, so an ordinary money
+noun stands beside the adjectival one and the contrast carries the slide instead
+of a rule. Same shape `c1_na_acc` used with its two owned `na` chunks.
+
+**This is the first C1 unit since Block 5 to add a `case-map.json` row**, and it
+adds exactly one: `wiele · wielu · kilka · kilku` → Genitive, `taught_by:
+c1_quantifiers`, landed in the same commit as the unit. Blocks 8 and 9 owe
+nothing further — `mimo że` and `podczas gdy` are conjunctions and govern
+nothing, on which see below.
+
+### The `dużo` problem, and the rule this batch settled for the rest of the course
+
+`dużo` is TAUGHT [32] and is **correct Polish wherever `wiele` takes a countable
+plural**. Marking it wrong would be precisely the false-wrong James smoke-flagged
+on 2026-08-07. So slide 1 states the relationship plainly rather than pretending
+the words compete, and every *many* item in Pisanie and Użycie carries the `dużo`
+variant in `accepts`. `kilka` has no such twin, which is why the `kilka` items
+are the clean ones.
+
+The same problem then arrived twice more, and the answer generalised into a rule
+the two later units follow:
+
+> **Where two taught words are genuine synonyms, they are never offered as
+> competing quiz choices, and the owned one always sits in `accepts`.**
+
+Concretely: no Kontrola item in `c1_concessive` offers `chociaż` beside
+`mimo że`; no item in `c1_cause_time` offers `jeśli` beside `jeżeli`, `kiedy`
+beside `gdy`, `dlatego` where `więc` would also be right, or `bo` where
+`dlatego że` would. Every one of those items discriminates the new word against
+an owned joiner that is genuinely *wrong* in the slot — which is also the sharper
+lesson, since the best pair in the batch is `bo` against `chociaż`: the same two
+clauses, opposite claims.
+
+**The cost, stated plainly:** a learner can pass several Użycie items in
+`c1_cause_time` without ever typing the new word, because `bo`, `więc`, `Kiedy`
+and `Jeśli` are all accepted. That is deliberate — production of each new form is
+forced once in Pisanie, where the English gloss names the form and no synonym can
+fill the slot, and Użycie is where the sentence is assembled rather than where
+the word is drilled. If James would rather Użycie forced the new word, the fix is
+to strip the synonym variants from `accepts`, and it is a one-line script.
+
+### `c1_concessive` — two words, and two fences
+
+`chociaż` and `mimo że`, invariable, on clauses the learner can already build.
+`b2_conjunctions`' idiom exactly, with the `ale` / `bo` / `więc` / `chociaż`
+contrast taught by table rather than derived.
+
+Two fences, both deliberate:
+
+- **`choć`** — the everyday short form of `chociaż` — reports NEW and is **not
+  shown**. Putting it on screen untagged would breach the every-form-taught rule,
+  and teaching it would be a third word in a unit whose whole point is that it
+  costs nothing. It is a one-line addition to slide 1 plus a `teaches_lemmas`
+  entry if James wants it. `jednak`, `natomiast` and `pomimo` are out on the same
+  reasoning.
+- **Bare `mimo`** is a **preposition governing the Genitive** (*mimo deszczu*) —
+  a new case governor, which would owe its own `case-map.json` row and is a
+  second fact about the word. The unit teaches `mimo że` as one indivisible
+  joiner and says on the slide that the two words are never separated.
+
+The `że` inside `mimo że` is **named**, not left to collide with `b2_ze_clauses`'
+complementiser: slide 2 says in one line that here it has no verb of saying
+anywhere near it and the two words together are the joiner. The
+chunk-versus-slot treatment `dziękuję`, `której` and `nowego` all received.
+
+### `c1_cause_time` — the `że` that reverses the sentence, and two IOUs paid
+
+Five new strings and the batch's biggest word-count, but a **smaller** load than
+its size suggests: `jeżeli` and `gdy` are the formal twins of `jeśli` and
+`kiedy` that `b2_jesli` fenced by name, and they are a line each rather than a
+fact.
+
+The headline is the reason bare `dlatego` and `dlatego że` share a unit instead
+of splitting: **one word, and the `że` decides which way it points.**
+*Idę do domu, dlatego że jestem zmęczony* points backward at the reason;
+*Jestem zmęczony, dlatego idę do domu* points forward at the result. Slide 1 is
+a 2×2 against the owned pair `bo` / `więc`, which point the same two ways — so
+the new material lands inside a frame the learner already has, and the whole
+lesson is one syllable.
+
+This pays **`b2_conjunctions`' logged scope cut in full**. That pack dropped
+`dlatego` *because* its everyday partner `dlatego że` was on the C1 list and it
+refused to ship "a half-taught pair pointing at a fenced construction". Both
+halves land here together, which is the entire reason the cut was made.
+
+**Bare `podczas` is fenced exactly as bare `mimo` was one node earlier** — alone
+it governs the Genitive (*podczas obiadu*) and would owe a case-map row. Two
+units in a row have now hit the same shape: a two-word conjunction whose first
+word is a preposition in disguise. Worth knowing when Block 9's remaining units
+reach for `zanim`, `dopóki` or anything of that kind.
+
+**`b2_jesli`'s two holds are both paid, and neither costs a lemma.** The reversed
+clause order rides slide 3 as reinforcement (`c1_concessive` established it one
+node back for `chociaż`). The **resumptive `to`** — *Jeśli masz czas, to zrobię
+obiad* — is shown, stated to add nothing and to be droppable at will, and carried
+in `accepts` on every Użycie item whose condition comes first. It is **never
+demanded**, which is the conservative reading of an item `b2_jesli` held rather
+than refused.
+
+### Where the Pisanie blanks landed, and where they could not
+
+Both Block 9 units hit the wall `b1_vocative_chunks` hit first: a unit whose
+teaching points are a **small closed set of invariable words** cannot put them in
+twelve Pisanie slots without breaking the no-duplicate-answers rule, because
+`norm()` lowercases and a sentence-initial *Chociaż* collides with a bare
+*chociaż*.
+
+The two units answered it the same way, and it is worth ruling on once:
+
+- **Items 1–N are the new joiners typed bare**, with an English gloss that names
+  the form (*"because (the fuller two-word form)"*). This is `b2_conjunctions`'
+  own genre and — given the synonym rule above — the **only** shape in which the
+  new word can be demanded with nothing else able to fill the slot.
+- **The remaining items are clozes with the joiner printed in the frame**,
+  blanking the load-bearing form of the clause. Logged per the repair-queue's
+  fallback clause. The learner still reads the pattern whole while producing the
+  clause content, and sentence-level production of the joiners lives in Użycie,
+  where the whole sentence is typed.
+
+`c1_quantifiers` did not have this problem — its seven strings gave nine clean
+teaching-point items — and one of its blanks (`sklepów`, item 11) falls on the
+governed noun rather than the quantity word, which is the ending `kilka`
+actually chooses.
+
+### Homographs, checked not assumed
+
+- **`drogi`** is used only in its TAUGHT sense, *expensive* (`leaf_shopping_a1`
+  [20]). C1-SPINE **O13** names this as the trap and it is why the C1 capstone is
+  not titled *Koniec drogi*. The **feminine `droga`** was refused outright in a
+  `c1_concessive` use item, because the learner reads that string as the noun.
+- **`złoty`** reports NEW in all four forms, so the adjective *golden* is not in
+  the course and there was no collision to name. It is never boarded beside
+  `żółty`.
+- **`osób`, `kluczy`, `kolegów`, `lekarzy`, `studentów`** are used only in their
+  Genitive-plural jobs. `klucze`, `koledzy`, `studenci`, `osoby` appear only as
+  wrong-slot distractors, which is what they are — real taught forms in the wrong
+  case, never fabricated words.
+
+### Open for James — carried forward and added to
+
+- **Days 13–31 of the month.** Carried from batch 15, which named
+  `c1_quantifiers` as the cheapest home. It was **not** taken there. `c1_dates_full`
+  taught `trzynastego`, `piętnastego`, `dwudziestego` and `trzydziestego`;
+  `czternastego`, `szesnastego`, `siedemnastego`, `osiemnastego`,
+  `dziewiętnastego` and `trzydziestego pierwszego` are all still NEW. Bolting a
+  third inflected set onto a unit already carrying two counting systems would
+  have broken the load-splitting rule outright, and the gap is a **word-list**,
+  not a mechanism — the learner who owns *piętnastego stycznia* can read any of
+  them. **Block 9 has no honest home for it either**; if it is to be closed, it
+  is a note on `c1_wrapup` or a one-off addition to `c1_dates_full`, and it is
+  James's call.
+- **`choć`** — new this batch. One line if wanted; see above.
+- **`za` and `po` as `case-map.json` rows** — unchanged, still James's call.
+- **The synonym-in-`accepts` policy** — new this batch, applied three times, and
+  the one thing in this run most worth a smoke test. See the cost stated above.
+- **`kobiet`, `sprzątać`/`posprzątać`, the 161 fold variants, the vocabulary
+  volume finding** — all unchanged. No item in this batch adds a fold variant;
+  every `accepts` entry here is either the exact answer, the no-final-stop
+  variant, or a genuine alternative wording.
+
+### Next run
+
+`c1_neg_polarity` [232], `c1_comp_analytic` [233] and `c1_register` [234] are the
+last three teaching units before `c1_which_case`. Two things for whoever takes
+them:
+
+1. **`c1_which_case` [235] unblocks the moment [234] is live.** Its table is
+   derived from `data/case-map.json` filtered to `taught_by` at or before its
+   path position, and the map is now complete through [229]. If any of the three
+   remaining units ships a governor — `c1_neg_polarity` is the one to watch,
+   since `żaden` rides `neg_gen` rather than adding a trigger — its row must land
+   in the same commit.
+2. **`c1_comp_analytic` will hit the synonym problem head-on.** `bardziej` +
+   adjective and the `-szy` comparative are not freely interchangeable, but the
+   line between them is a tendency and not a test — C1-SPINE says so explicitly.
+   Read this batch's synonym rule before authoring its Kontrola stage; the
+   temptation to mark a defensible answer wrong will be stronger there than it
+   was here.
