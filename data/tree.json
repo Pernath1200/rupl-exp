@@ -4025,12 +4025,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 3, unit 5 (spine O6). Inbox item 19. TWO SHAPES shown as a picture, NO RULE CLAIMED - the a2_jechac / b2_sie_impersonal treatment. Covers: object pronoun relative to the verb (b2_pron_acc's 'one line and a real fence'), sie in a clause opening with something else (b2_sie_impersonal's two shapes, extended by one), inverted counted subjects (W domu bylo piec okien - held by b2_num_subject AND b2_plural_gym), sentence-initial emphatic jego/ciebie. RECOGNITION-LEANING throughout. The rejected alternative was a full clitic-position treatment: killed by the same AGENTS line that killed the fleeting-e rule - this learner gets no value from a rule he cannot trust.",
+      "note": "[C1 SPINE] Block 3, unit 5 (spine O6). Inbox item 19. TWO SHAPES shown as a picture, NO RULE CLAIMED - the a2_jechac / b2_sie_impersonal treatment. Covers: object pronoun relative to the verb (b2_pron_acc's 'one line and a real fence'), sie in a clause opening with something else (b2_sie_impersonal's two shapes, extended by one), inverted counted subjects (W domu bylo piec okien - held by b2_num_subject AND b2_plural_gym), sentence-initial emphatic jego/ciebie. RECOGNITION-LEANING throughout. The rejected alternative was a full clitic-position treatment: killed by the same AGENTS line that killed the fleeting-e rule - this learner gets no value from a rule he cannot trust. [WIRED LIVE] ONE new string: jego, taught for one job only - it is the form that CAN open a clause, which is what makes the emphasis possible. Structure ID word_order registered in codex/SEQUENCING.md and audit.py before the audit. THE UNIFYING INSIGHT: the short object pronouns and sie behave IDENTICALLY - both lean backwards, both follow the verb when the verb opens the clause, both precede it when anything else does, neither can open one. THE DEFINING DISCIPLINE IS NEGATIVE: marked is not ungrammatical, so no merely-marked string is offered as a wrong answer anywhere - Mama zna go. appears in no distractor, and every wrong choice is genuinely illegal, a real form in the wrong case, or a different sentence with a different meaning. Also pays the inverted counted subject held by b2_num_subject and b2_plural_gym; the agreement is recycled unchanged and adjectives are absent from every counted phrase because the genitive plural adjective is C1 Block 2, later on the path. jemu stays out.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_word_order.json"
     },
     {
       "id": "c1_station_1",

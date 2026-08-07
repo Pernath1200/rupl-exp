@@ -146,6 +146,7 @@ STRUCTURE_CATALOGUE = {
     "pron_prep_12",
     "pron_je",
     "siebie_sobie",
+    "word_order",
 }
 
 GLUE_LEMMAS = {
