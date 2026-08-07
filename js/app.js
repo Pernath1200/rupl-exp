@@ -360,6 +360,75 @@ function showFruitPayoff({ before, after, kind = "learned", level: lvlIn, nodeId
   root.querySelector(`#${primaryId}`)?.focus();
 }
 
+/**
+ * Przypadki panel (James 2026-08-07): a live trigger→case reference, built
+ * from data/case-map.json. Shows a row only once the node that teaches it is
+ * at or behind the learner's furthest fruited position — so it can never
+ * spoil a case he has not met. The five "Który przypadek?" units teach this
+ * same map; this panel is the lookup he can reach mid-sentence, forever.
+ */
+async function renderCaseMap() {
+  const body = document.getElementById("case-map-body");
+  if (!body) return;
+  if (!STATE.caseMap) {
+    try {
+      STATE.caseMap = await loadJson("./data/case-map.json");
+    } catch {
+      body.innerHTML = `<p class="home-hint">Could not load the case map.</p>`;
+      return;
+    }
+  }
+  const map = STATE.caseMap;
+  const order = STATE.tree?.path_order || [];
+  const posOf = new Map(order.map((id, i) => [id, i]));
+  // Furthest position the learner has actually fruited (0 = nothing yet).
+  let reach = -1;
+  for (const node of STATE.tree?.nodes || []) {
+    if (node.status !== "live" || !node.content) continue;
+    if (!isFruit(node)) continue;
+    const i = posOf.get(node.id);
+    if (i != null && i > reach) reach = i;
+  }
+  const known = map.triggers.filter((t) => {
+    const i = posOf.get(t.taught_by);
+    return i != null && i <= reach;
+  });
+  if (!known.length) {
+    body.innerHTML = `<p class="home-hint">Nothing yet — finish a unit or two and the cases will appear here as you meet them.</p>`;
+    return;
+  }
+  const byCase = new Map();
+  for (const t of known) {
+    if (!byCase.has(t.case)) byCase.set(t.case, []);
+    byCase.get(t.case).push(t);
+  }
+  const parts = [];
+  for (const c of map.cases) {
+    const rows = byCase.get(c.id);
+    if (!rows || !rows.length) continue;
+    parts.push(`
+      <div class="case-block">
+        <h3 class="case-head">
+          <span class="case-pl">${escapeHtml(c.pl)}</span>
+          <span class="case-en">${escapeHtml(c.en)}</span>
+        </h3>
+        <p class="case-job">${escapeHtml(c.job)}</p>
+        <ul class="case-triggers">
+          ${rows
+            .map(
+              (t) => `<li>
+                <span class="case-trigger">${escapeHtml(t.trigger)}</span>
+                <span class="case-gloss">${escapeHtml(t.gloss)}</span>
+                <span class="case-example">${escapeHtml(t.example)}</span>
+              </li>`,
+            )
+            .join("")}
+        </ul>
+      </div>`);
+  }
+  body.innerHTML = parts.join("");
+}
+
 /** Level the payoff meter should show — the PLAYED node's level, not the
  * level-rail selection (an A2 unit finished while the rail sat on A1 used
  * to animate the A1 meter). */
@@ -531,8 +600,10 @@ function renderHomeChrome() {
   }
   const review = document.getElementById("review-card");
   const more = document.getElementById("panel-more");
+  const cases = document.getElementById("panel-cases");
   if (review) review.hidden = STATE.homePanel !== "review";
   if (more) more.hidden = STATE.homePanel !== "more";
+  if (cases) cases.hidden = STATE.homePanel !== "cases";
   const moreBtn = document.getElementById("btn-home-more");
   if (moreBtn) {
     moreBtn.setAttribute(
@@ -541,14 +612,16 @@ function renderHomeChrome() {
     );
   }
   const activeBtn =
-    STATE.homePanel === "review"
+    STATE.homePanel === "cases"
+      ? "btn-home-cases"
+    : STATE.homePanel === "review"
       ? "btn-home-review"
       : STATE.homePanel === "more"
         ? STATE.homePanelSource === "topics"
           ? "btn-home-topics"
           : "btn-home-more"
         : null;
-  for (const id of ["btn-home-review", "btn-home-topics", "btn-home-more"]) {
+  for (const id of ["btn-home-review", "btn-home-topics", "btn-home-more", "btn-home-cases"]) {
     document.getElementById(id)?.classList.toggle("is-active", id === activeBtn);
   }
   document
@@ -651,6 +724,19 @@ function wireHomeActions() {
       });
     }
   });
+  document.getElementById("btn-home-cases")?.addEventListener("click", () => {
+    STATE.homePanel = STATE.homePanel === "cases" ? null : "cases";
+    STATE.homePanelSource = "cases";
+    renderHomeChrome();
+    if (STATE.homePanel === "cases") {
+      void renderCaseMap();
+      document.getElementById("panel-cases")?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest",
+      });
+    }
+  });
+
   document.getElementById("btn-home-review")?.addEventListener("click", () => {
     STATE.homePanel = STATE.homePanel === "review" ? null : "review";
     renderHomeChrome();

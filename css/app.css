@@ -1830,6 +1830,42 @@ button.m.wrong {
   min-width: 5rem;
 }
 
+/* Przypadki reference panel */
+.case-block {
+  padding: 0.7rem 0;
+  border-top: 1px solid rgba(200, 120, 64, 0.22);
+}
+.case-block:first-child { border-top: none; }
+.case-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0 0 0.15rem;
+  font-size: 0.95rem;
+}
+.case-pl { color: var(--accent); font-weight: 600; }
+.case-en { color: var(--muted); font-size: 0.82rem; }
+.case-job {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.case-triggers { list-style: none; margin: 0; padding: 0; }
+.case-triggers li {
+  display: grid;
+  grid-template-columns: minmax(9rem, 1.1fr) minmax(8rem, 1fr) minmax(7rem, 0.9fr);
+  gap: 0.25rem 0.75rem;
+  padding: 0.32rem 0;
+  font-size: 0.85rem;
+  align-items: baseline;
+}
+.case-trigger { font-weight: 600; }
+.case-gloss { color: var(--muted); font-size: 0.8rem; }
+.case-example { color: var(--accent); }
+@media (max-width: 34rem) {
+  .case-triggers li { grid-template-columns: 1fr; gap: 0.1rem; }
+}
+
 .fruit-payoff-diag {
   font-size: 0.68rem;
   color: var(--muted);

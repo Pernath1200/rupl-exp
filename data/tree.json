@@ -61,6 +61,7 @@
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
+    "a1_which_case",
     "a1_case_gym",
     "leaf_work_a1",
     "leaf_ideas_a1",
@@ -113,6 +114,7 @@
     "a2_sport",
     "a2_imperative",
     "a2_questions2",
+    "a2_which_case",
     "a2_case_gym2",
     "a2_prep_review",
     "a2_wrapup_func",
@@ -144,6 +146,7 @@
     "b1_adverb_comp",
     "b1_vocative_chunks",
     "b1_opinions",
+    "b1_which_case",
     "b1_case_gym",
     "b1_wrapup",
     "b1_station_2",
@@ -194,6 +197,7 @@
     "b2_passive",
     "b2_travel_func",
     "b2_discussion_func",
+    "b2_which_case",
     "b2_case_gym",
     "b2_wrapup",
     "b2_station_2",
@@ -248,6 +252,7 @@
     "c1_neg_polarity",
     "c1_comp_analytic",
     "c1_register",
+    "c1_which_case",
     "c1_case_gym",
     "c1_vocative_note",
     "c1_wrapup",
@@ -4679,6 +4684,86 @@
       "tree_part": "forms",
       "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only.",
       "pedagogy": "teach"
+    },
+    {
+      "id": "a1_which_case",
+      "domain": "grammar",
+      "label": "Który przypadek?",
+      "label_en": "Which case? · the A1 map",
+      "kind": "topic",
+      "levels": [
+        "A1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "pedagogy": "teach",
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
+    },
+    {
+      "id": "a2_which_case",
+      "domain": "grammar",
+      "label": "Który przypadek?",
+      "label_en": "Which case? · the A2 map",
+      "kind": "topic",
+      "levels": [
+        "A2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "pedagogy": "teach",
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
+    },
+    {
+      "id": "b1_which_case",
+      "domain": "grammar",
+      "label": "Który przypadek?",
+      "label_en": "Which case? · the B1 map",
+      "kind": "topic",
+      "levels": [
+        "B1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "pedagogy": "teach",
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
+    },
+    {
+      "id": "b2_which_case",
+      "domain": "grammar",
+      "label": "Który przypadek?",
+      "label_en": "Which case? · the B2 map",
+      "kind": "topic",
+      "levels": [
+        "B2"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "pedagogy": "teach",
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
+    },
+    {
+      "id": "c1_which_case",
+      "domain": "grammar",
+      "label": "Który przypadek?",
+      "label_en": "Which case? · the whole system",
+      "kind": "topic",
+      "levels": [
+        "C1"
+      ],
+      "status": "planned",
+      "practice": "grammar",
+      "root": "forms",
+      "tree_part": "forms",
+      "pedagogy": "teach",
+      "note": "[JAMES-LOCKED 2026-08-07 — see codex/WHICH-CASE-SPEC.md, read it before building] Case SELECTION unit, organised BY TRIGGER not by case: the governor decides, so the lesson is \"after nie ma / do / z / duzo / blisko -> Genitive\", never \"the Genitive has six jobs\". TEACHES NOTHING NEW (teaches_lemmas [] / teaches_structures [] - the b1_two_futures genre). Intro = the cumulative trigger table for this level, taken from data/case-map.json filtered to rows whose taught_by sits at or before this node on path_order - that set IS the lesson, do not author it from memory. Must carry the honest line: the case is chosen by the word in front of the noun, not by the English meaning (w+Loc and do+Gen are both \"place\"; z takes Gen for FROM and Inst for WITH). Kontrola = situation -> which case. Pisanie obeys the <=3-word rule (composed = cloze on the governed noun). Uzycie = sentences where the trigger decides the ending. Cases not yet taught appear NOWHERE, not even as distractors. Sits immediately BEFORE this level's case gym: this unit explains the choice, the gym drills it."
     }
   ],
   "synced_from": {

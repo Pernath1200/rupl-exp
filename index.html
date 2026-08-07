@@ -56,6 +56,7 @@
           <button type="button" class="home-btn" id="btn-home-review">Powtórka</button>
           <button type="button" class="home-btn" id="btn-home-topics">Tematy</button>
           <button type="button" class="home-btn" id="btn-how-to-use">Jak używać</button>
+          <button type="button" class="home-btn" id="btn-home-cases">Przypadki</button>
           <button type="button" class="home-btn" id="btn-home-more" aria-expanded="false">Więcej</button>
         </div>
         <p class="home-hint" id="home-review-hint" hidden></p>
@@ -73,6 +74,15 @@
       <div class="card" id="node-detail-card" hidden>
         <h2>Jednostka · Unit</h2>
         <div id="node-detail"></div>
+      </div>
+
+      <div class="card home-panel" id="panel-cases" hidden>
+        <h2>Przypadki · Which case?</h2>
+        <p class="home-hint">
+          What forces each case, in the order you met them. Only what the course
+          has already taught you appears here.
+        </p>
+        <div id="case-map-body" aria-live="polite"></div>
       </div>
 
       <div class="card home-panel" id="panel-more" hidden>

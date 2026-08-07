@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "codex/SEQUENCING.md",
-  "generated_at": "2026-08-07T05:06:41+00:00",
+  "generated_at": "2026-08-07T07:16:30+02:00",
   "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -48,6 +48,7 @@
     "trunk_there_time_a1",
     "leaf_health_a1",
     "a1_inst_job",
+    "a1_which_case",
     "a1_case_gym",
     "leaf_work_a1",
     "leaf_ideas_a1",
@@ -100,6 +101,7 @@
     "a2_sport",
     "a2_imperative",
     "a2_questions2",
+    "a2_which_case",
     "a2_case_gym2",
     "a2_prep_review",
     "a2_wrapup_func",
@@ -131,6 +133,7 @@
     "b1_adverb_comp",
     "b1_vocative_chunks",
     "b1_opinions",
+    "b1_which_case",
     "b1_case_gym",
     "b1_wrapup",
     "b1_station_2",
@@ -181,6 +184,7 @@
     "b2_passive",
     "b2_travel_func",
     "b2_discussion_func",
+    "b2_which_case",
     "b2_case_gym",
     "b2_wrapup",
     "b2_station_2",
@@ -235,6 +239,7 @@
     "c1_neg_polarity",
     "c1_comp_analytic",
     "c1_register",
+    "c1_which_case",
     "c1_case_gym",
     "c1_vocative_note",
     "c1_wrapup",
@@ -255,7 +260,7 @@
       "node_id": "a2_prep_review",
       "pack_id": "a2_prep_review",
       "domain": "grammar",
-      "path_index": 97,
+      "path_index": 99,
       "missing": {
         "kind": "teaches",
         "id": "a2_prep_review"
@@ -271,7 +276,7 @@
       "node_id": "b1_two_futures",
       "pack_id": "b1_two_futures",
       "domain": "grammar",
-      "path_index": 101,
+      "path_index": 103,
       "missing": {
         "kind": "teaches",
         "id": "b1_two_futures"
@@ -1704,7 +1709,7 @@
       ]
     },
     {
-      "path_index": 44,
+      "path_index": 45,
       "node_id": "a1_case_gym",
       "pack_id": "a1_case_gym",
       "domain": "grammar",
@@ -1753,7 +1758,7 @@
       ]
     },
     {
-      "path_index": 45,
+      "path_index": 46,
       "node_id": "leaf_work_a1",
       "pack_id": "a1_work",
       "domain": "vocab",
@@ -1801,7 +1806,7 @@
       ]
     },
     {
-      "path_index": 46,
+      "path_index": 47,
       "node_id": "leaf_ideas_a1",
       "pack_id": "a1_ideas",
       "domain": "vocab",
@@ -1847,7 +1852,7 @@
       ]
     },
     {
-      "path_index": 47,
+      "path_index": 48,
       "node_id": "a1_prep_review_2",
       "pack_id": "a1_prep_review_2",
       "domain": "grammar",
@@ -1893,7 +1898,7 @@
       ]
     },
     {
-      "path_index": 48,
+      "path_index": 49,
       "node_id": "a2_past_byc",
       "pack_id": "a2_past_byc",
       "domain": "grammar",
@@ -1940,7 +1945,7 @@
       ]
     },
     {
-      "path_index": 49,
+      "path_index": 50,
       "node_id": "a2_weather",
       "pack_id": "a2_weather",
       "domain": "vocab",
@@ -1988,7 +1993,7 @@
       ]
     },
     {
-      "path_index": 50,
+      "path_index": 51,
       "node_id": "a2_time_past",
       "pack_id": "a2_time_past",
       "domain": "vocab",
@@ -2038,7 +2043,7 @@
       ]
     },
     {
-      "path_index": 51,
+      "path_index": 52,
       "node_id": "a2_past_ac",
       "pack_id": "a2_past_ac",
       "domain": "grammar",
@@ -2091,7 +2096,7 @@
       ]
     },
     {
-      "path_index": 52,
+      "path_index": 53,
       "node_id": "a2_past_rest",
       "pack_id": "a2_past_rest",
       "domain": "grammar",
@@ -2142,7 +2147,7 @@
       ]
     },
     {
-      "path_index": 53,
+      "path_index": 54,
       "node_id": "a2_smalltalk",
       "pack_id": "a2_smalltalk",
       "domain": "grammar",
@@ -2196,7 +2201,7 @@
       ]
     },
     {
-      "path_index": 54,
+      "path_index": 55,
       "node_id": "a2_feelings",
       "pack_id": "a2_feelings",
       "domain": "vocab",
@@ -2248,7 +2253,7 @@
       ]
     },
     {
-      "path_index": 55,
+      "path_index": 56,
       "node_id": "a2_plural_nom",
       "pack_id": "a2_plural_nom",
       "domain": "grammar",
@@ -2305,7 +2310,7 @@
       ]
     },
     {
-      "path_index": 56,
+      "path_index": 57,
       "node_id": "a2_past_plural",
       "pack_id": "a2_past_plural",
       "domain": "grammar",
@@ -2361,7 +2366,7 @@
       ]
     },
     {
-      "path_index": 57,
+      "path_index": 58,
       "node_id": "a2_family2",
       "pack_id": "a2_family2",
       "domain": "vocab",
@@ -2421,7 +2426,7 @@
       ]
     },
     {
-      "path_index": 58,
+      "path_index": 59,
       "node_id": "a2_gen_pl",
       "pack_id": "a2_gen_pl",
       "domain": "grammar",
@@ -2478,7 +2483,7 @@
       ]
     },
     {
-      "path_index": 60,
+      "path_index": 61,
       "node_id": "a2_numbers_gen",
       "pack_id": "a2_numbers_gen",
       "domain": "grammar",
@@ -2537,7 +2542,7 @@
       ]
     },
     {
-      "path_index": 61,
+      "path_index": 62,
       "node_id": "a2_shopping2",
       "pack_id": "a2_shopping2",
       "domain": "vocab",
@@ -2600,7 +2605,7 @@
       ]
     },
     {
-      "path_index": 62,
+      "path_index": 63,
       "node_id": "a2_shopping_func",
       "pack_id": "a2_shopping_func",
       "domain": "grammar",
@@ -2661,7 +2666,7 @@
       ]
     },
     {
-      "path_index": 63,
+      "path_index": 64,
       "node_id": "a2_inst_z",
       "pack_id": "a2_inst_z",
       "domain": "grammar",
@@ -2729,7 +2734,7 @@
       ]
     },
     {
-      "path_index": 64,
+      "path_index": 65,
       "node_id": "a2_people2",
       "pack_id": "a2_people2",
       "domain": "vocab",
@@ -2788,7 +2793,7 @@
       ]
     },
     {
-      "path_index": 65,
+      "path_index": 66,
       "node_id": "a2_jechac",
       "pack_id": "a2_jechac",
       "domain": "grammar",
@@ -2849,7 +2854,7 @@
       ]
     },
     {
-      "path_index": 66,
+      "path_index": 67,
       "node_id": "a2_inst_transport",
       "pack_id": "a2_inst_transport",
       "domain": "grammar",
@@ -2913,7 +2918,7 @@
       ]
     },
     {
-      "path_index": 67,
+      "path_index": 68,
       "node_id": "a2_transport2",
       "pack_id": "a2_transport2",
       "domain": "vocab",
@@ -2981,7 +2986,7 @@
       ]
     },
     {
-      "path_index": 68,
+      "path_index": 69,
       "node_id": "a2_directions_func",
       "pack_id": "a2_directions_func",
       "domain": "grammar",
@@ -3045,7 +3050,7 @@
       ]
     },
     {
-      "path_index": 69,
+      "path_index": 70,
       "node_id": "a2_travel",
       "pack_id": "a2_travel",
       "domain": "vocab",
@@ -3115,7 +3120,7 @@
       ]
     },
     {
-      "path_index": 70,
+      "path_index": 71,
       "node_id": "a2_countries",
       "pack_id": "a2_countries",
       "domain": "vocab",
@@ -3179,7 +3184,7 @@
       ]
     },
     {
-      "path_index": 71,
+      "path_index": 72,
       "node_id": "a2_chodzic",
       "pack_id": "a2_chodzic",
       "domain": "grammar",
@@ -3243,7 +3248,7 @@
       ]
     },
     {
-      "path_index": 73,
+      "path_index": 74,
       "node_id": "a2_sie",
       "pack_id": "a2_sie",
       "domain": "grammar",
@@ -3308,7 +3313,7 @@
       ]
     },
     {
-      "path_index": 74,
+      "path_index": 75,
       "node_id": "a2_routine",
       "pack_id": "a2_routine",
       "domain": "vocab",
@@ -3375,7 +3380,7 @@
       ]
     },
     {
-      "path_index": 75,
+      "path_index": 76,
       "node_id": "a2_house",
       "pack_id": "a2_house",
       "domain": "vocab",
@@ -3440,7 +3445,7 @@
       ]
     },
     {
-      "path_index": 76,
+      "path_index": 77,
       "node_id": "a2_bedzie",
       "pack_id": "a2_bedzie",
       "domain": "grammar",
@@ -3506,7 +3511,7 @@
       ]
     },
     {
-      "path_index": 77,
+      "path_index": 78,
       "node_id": "a2_musiec",
       "pack_id": "a2_musiec",
       "domain": "grammar",
@@ -3580,7 +3585,7 @@
       ]
     },
     {
-      "path_index": 78,
+      "path_index": 79,
       "node_id": "a2_work2",
       "pack_id": "a2_work2",
       "domain": "vocab",
@@ -3649,7 +3654,7 @@
       ]
     },
     {
-      "path_index": 79,
+      "path_index": 80,
       "node_id": "a2_school2",
       "pack_id": "a2_school2",
       "domain": "vocab",
@@ -3719,7 +3724,7 @@
       ]
     },
     {
-      "path_index": 80,
+      "path_index": 81,
       "node_id": "a2_aspect",
       "pack_id": "a2_aspect",
       "domain": "grammar",
@@ -3788,7 +3793,7 @@
       ]
     },
     {
-      "path_index": 81,
+      "path_index": 82,
       "node_id": "a2_food2",
       "pack_id": "a2_food2",
       "domain": "vocab",
@@ -3856,7 +3861,7 @@
       ]
     },
     {
-      "path_index": 82,
+      "path_index": 83,
       "node_id": "a2_ordering_func",
       "pack_id": "a2_ordering_func",
       "domain": "grammar",
@@ -3927,7 +3932,7 @@
       ]
     },
     {
-      "path_index": 83,
+      "path_index": 84,
       "node_id": "a2_dat_chunks",
       "pack_id": "a2_dat_chunks",
       "domain": "grammar",
@@ -3997,7 +4002,7 @@
       ]
     },
     {
-      "path_index": 84,
+      "path_index": 85,
       "node_id": "a2_health2",
       "pack_id": "a2_health2",
       "domain": "vocab",
@@ -4067,7 +4072,7 @@
       ]
     },
     {
-      "path_index": 86,
+      "path_index": 87,
       "node_id": "a2_o_loc",
       "pack_id": "a2_o_loc",
       "domain": "grammar",
@@ -4139,7 +4144,7 @@
       ]
     },
     {
-      "path_index": 87,
+      "path_index": 88,
       "node_id": "a2_tech2",
       "pack_id": "a2_tech2",
       "domain": "vocab",
@@ -4215,7 +4220,7 @@
       ]
     },
     {
-      "path_index": 88,
+      "path_index": 89,
       "node_id": "a2_phone_func",
       "pack_id": "a2_phone_func",
       "domain": "grammar",
@@ -4291,7 +4296,7 @@
       ]
     },
     {
-      "path_index": 89,
+      "path_index": 90,
       "node_id": "a2_ordinals_time",
       "pack_id": "a2_ordinals_time",
       "domain": "grammar",
@@ -4366,7 +4371,7 @@
       ]
     },
     {
-      "path_index": 90,
+      "path_index": 91,
       "node_id": "a2_celebrations",
       "pack_id": "a2_celebrations",
       "domain": "vocab",
@@ -4443,7 +4448,7 @@
       ]
     },
     {
-      "path_index": 91,
+      "path_index": 92,
       "node_id": "a2_superlatives",
       "pack_id": "a2_superlatives",
       "domain": "grammar",
@@ -4514,7 +4519,7 @@
       ]
     },
     {
-      "path_index": 92,
+      "path_index": 93,
       "node_id": "a2_nature2",
       "pack_id": "a2_nature2",
       "domain": "vocab",
@@ -4594,7 +4599,7 @@
       ]
     },
     {
-      "path_index": 93,
+      "path_index": 94,
       "node_id": "a2_sport",
       "pack_id": "a2_sport",
       "domain": "vocab",
@@ -4669,7 +4674,7 @@
       ]
     },
     {
-      "path_index": 94,
+      "path_index": 95,
       "node_id": "a2_imperative",
       "pack_id": "a2_imperative",
       "domain": "grammar",
@@ -4745,7 +4750,7 @@
       ]
     },
     {
-      "path_index": 95,
+      "path_index": 96,
       "node_id": "a2_questions2",
       "pack_id": "a2_questions2",
       "domain": "grammar",
@@ -4820,7 +4825,7 @@
       ]
     },
     {
-      "path_index": 96,
+      "path_index": 98,
       "node_id": "a2_case_gym2",
       "pack_id": "a2_case_gym2",
       "domain": "grammar",
@@ -4902,7 +4907,7 @@
       ]
     },
     {
-      "path_index": 97,
+      "path_index": 99,
       "node_id": "a2_prep_review",
       "pack_id": "a2_prep_review",
       "domain": "grammar",
@@ -4981,7 +4986,7 @@
       ]
     },
     {
-      "path_index": 98,
+      "path_index": 100,
       "node_id": "a2_wrapup_func",
       "pack_id": "a2_wrapup_func",
       "domain": "grammar",
@@ -5070,7 +5075,7 @@
       ]
     },
     {
-      "path_index": 100,
+      "path_index": 102,
       "node_id": "b1_perf_future",
       "pack_id": "b1_perf_future",
       "domain": "grammar",
@@ -5148,7 +5153,7 @@
       ]
     },
     {
-      "path_index": 101,
+      "path_index": 103,
       "node_id": "b1_two_futures",
       "pack_id": "b1_two_futures",
       "domain": "grammar",
@@ -5225,7 +5230,7 @@
       ]
     },
     {
-      "path_index": 102,
+      "path_index": 104,
       "node_id": "b1_plans",
       "pack_id": "b1_plans",
       "domain": "vocab",
@@ -5304,7 +5309,7 @@
       ]
     },
     {
-      "path_index": 103,
+      "path_index": 105,
       "node_id": "b1_aspect_gym",
       "pack_id": "b1_aspect_gym",
       "domain": "grammar",
@@ -5378,7 +5383,7 @@
       ]
     },
     {
-      "path_index": 104,
+      "path_index": 106,
       "node_id": "b1_conditional_sg",
       "pack_id": "b1_conditional_sg",
       "domain": "grammar",
@@ -5453,7 +5458,7 @@
       ]
     },
     {
-      "path_index": 105,
+      "path_index": 107,
       "node_id": "b1_polite",
       "pack_id": "b1_polite",
       "domain": "grammar",
@@ -5528,7 +5533,7 @@
       ]
     },
     {
-      "path_index": 106,
+      "path_index": 108,
       "node_id": "b1_past_isc",
       "pack_id": "b1_past_isc",
       "domain": "grammar",
@@ -5602,7 +5607,7 @@
       ]
     },
     {
-      "path_index": 107,
+      "path_index": 109,
       "node_id": "b1_arrive_leave",
       "pack_id": "b1_arrive_leave",
       "domain": "grammar",
@@ -5685,7 +5690,7 @@
       ]
     },
     {
-      "path_index": 108,
+      "path_index": 110,
       "node_id": "b1_journeys",
       "pack_id": "b1_journeys",
       "domain": "vocab",
@@ -5768,7 +5773,7 @@
       ]
     },
     {
-      "path_index": 109,
+      "path_index": 111,
       "node_id": "b1_virile_reco",
       "pack_id": "b1_virile_reco",
       "domain": "grammar",
@@ -5847,7 +5852,7 @@
       ]
     },
     {
-      "path_index": 110,
+      "path_index": 112,
       "node_id": "b1_virile_nom",
       "pack_id": "b1_virile_nom",
       "domain": "grammar",
@@ -5929,7 +5934,7 @@
       ]
     },
     {
-      "path_index": 111,
+      "path_index": 113,
       "node_id": "b1_virile_past",
       "pack_id": "b1_virile_past",
       "domain": "grammar",
@@ -6013,7 +6018,7 @@
       ]
     },
     {
-      "path_index": 112,
+      "path_index": 114,
       "node_id": "b1_people",
       "pack_id": "b1_people",
       "domain": "vocab",
@@ -6095,7 +6100,7 @@
       ]
     },
     {
-      "path_index": 113,
+      "path_index": 115,
       "node_id": "b1_virile_gym",
       "pack_id": "b1_virile_gym",
       "domain": "grammar",
@@ -6175,7 +6180,7 @@
       ]
     },
     {
-      "path_index": 114,
+      "path_index": 116,
       "node_id": "b1_conditional_pl",
       "pack_id": "b1_conditional_pl",
       "domain": "grammar",
@@ -6257,7 +6262,7 @@
       ]
     },
     {
-      "path_index": 116,
+      "path_index": 118,
       "node_id": "b1_dative_sg",
       "pack_id": "b1_dative_sg",
       "domain": "grammar",
@@ -6340,7 +6345,7 @@
       ]
     },
     {
-      "path_index": 117,
+      "path_index": 119,
       "node_id": "b1_dative_pron",
       "pack_id": "b1_dative_pron",
       "domain": "grammar",
@@ -6423,7 +6428,7 @@
       ]
     },
     {
-      "path_index": 118,
+      "path_index": 120,
       "node_id": "b1_giving",
       "pack_id": "b1_giving",
       "domain": "vocab",
@@ -6501,7 +6506,7 @@
       ]
     },
     {
-      "path_index": 119,
+      "path_index": 121,
       "node_id": "b1_ktory_cases",
       "pack_id": "b1_ktory_cases",
       "domain": "grammar",
@@ -6582,7 +6587,7 @@
       ]
     },
     {
-      "path_index": 120,
+      "path_index": 122,
       "node_id": "b1_zeby",
       "pack_id": "b1_zeby",
       "domain": "grammar",
@@ -6663,7 +6668,7 @@
       ]
     },
     {
-      "path_index": 121,
+      "path_index": 123,
       "node_id": "b1_stories",
       "pack_id": "b1_stories",
       "domain": "vocab",
@@ -6748,7 +6753,7 @@
       ]
     },
     {
-      "path_index": 122,
+      "path_index": 124,
       "node_id": "b1_stories_func",
       "pack_id": "b1_stories_func",
       "domain": "grammar",
@@ -6839,7 +6844,7 @@
       ]
     },
     {
-      "path_index": 123,
+      "path_index": 125,
       "node_id": "b1_imperative_rule",
       "pack_id": "b1_imperative_rule",
       "domain": "grammar",
@@ -6928,7 +6933,7 @@
       ]
     },
     {
-      "path_index": 124,
+      "path_index": 126,
       "node_id": "b1_adverb_comp",
       "pack_id": "b1_adverb_comp",
       "domain": "grammar",
@@ -7015,7 +7020,7 @@
       ]
     },
     {
-      "path_index": 125,
+      "path_index": 127,
       "node_id": "b1_vocative_chunks",
       "pack_id": "b1_vocative_chunks",
       "domain": "grammar",
@@ -7101,7 +7106,7 @@
       ]
     },
     {
-      "path_index": 126,
+      "path_index": 128,
       "node_id": "b1_opinions",
       "pack_id": "b1_opinions",
       "domain": "vocab",
@@ -7192,7 +7197,7 @@
       ]
     },
     {
-      "path_index": 127,
+      "path_index": 130,
       "node_id": "b1_case_gym",
       "pack_id": "b1_case_gym",
       "domain": "grammar",
@@ -7291,7 +7296,7 @@
       ]
     },
     {
-      "path_index": 128,
+      "path_index": 131,
       "node_id": "b1_wrapup",
       "pack_id": "b1_wrapup",
       "domain": "grammar",
@@ -7382,7 +7387,7 @@
       ]
     },
     {
-      "path_index": 130,
+      "path_index": 133,
       "node_id": "b2_conjunctions",
       "pack_id": "b2_conjunctions",
       "domain": "grammar",
@@ -7475,7 +7480,7 @@
       ]
     },
     {
-      "path_index": 131,
+      "path_index": 134,
       "node_id": "b2_copular_future",
       "pack_id": "b2_copular_future",
       "domain": "grammar",
@@ -7568,7 +7573,7 @@
       ]
     },
     {
-      "path_index": 132,
+      "path_index": 135,
       "node_id": "b2_fem_soft",
       "pack_id": "b2_fem_soft",
       "domain": "grammar",
@@ -7661,7 +7666,7 @@
       ]
     },
     {
-      "path_index": 133,
+      "path_index": 136,
       "node_id": "b2_adj_acc",
       "pack_id": "b2_adj_acc",
       "domain": "grammar",
@@ -7760,7 +7765,7 @@
       ]
     },
     {
-      "path_index": 134,
+      "path_index": 137,
       "node_id": "b2_adj_gen",
       "pack_id": "b2_adj_gen",
       "domain": "grammar",
@@ -7861,7 +7866,7 @@
       ]
     },
     {
-      "path_index": 135,
+      "path_index": 138,
       "node_id": "b2_work",
       "pack_id": "b2_work",
       "domain": "vocab",
@@ -7965,7 +7970,7 @@
       ]
     },
     {
-      "path_index": 136,
+      "path_index": 139,
       "node_id": "b2_adj_loc",
       "pack_id": "b2_adj_loc",
       "domain": "grammar",
@@ -8072,7 +8077,7 @@
       ]
     },
     {
-      "path_index": 137,
+      "path_index": 140,
       "node_id": "b2_adj_inst",
       "pack_id": "b2_adj_inst",
       "domain": "grammar",
@@ -8178,7 +8183,7 @@
       ]
     },
     {
-      "path_index": 138,
+      "path_index": 141,
       "node_id": "b2_adj_dat",
       "pack_id": "b2_adj_dat",
       "domain": "grammar",
@@ -8284,7 +8289,7 @@
       ]
     },
     {
-      "path_index": 139,
+      "path_index": 142,
       "node_id": "b2_adj_gym",
       "pack_id": "b2_adj_gym",
       "domain": "grammar",
@@ -8399,7 +8404,7 @@
       ]
     },
     {
-      "path_index": 140,
+      "path_index": 143,
       "node_id": "b2_pron_acc",
       "pack_id": "b2_pron_acc",
       "domain": "grammar",
@@ -8500,7 +8505,7 @@
       ]
     },
     {
-      "path_index": 141,
+      "path_index": 144,
       "node_id": "b2_pron_prep",
       "pack_id": "b2_pron_prep",
       "domain": "grammar",
@@ -8608,7 +8613,7 @@
       ]
     },
     {
-      "path_index": 142,
+      "path_index": 145,
       "node_id": "b2_kim_czym",
       "pack_id": "b2_kim_czym",
       "domain": "grammar",
@@ -8721,7 +8726,7 @@
       ]
     },
     {
-      "path_index": 143,
+      "path_index": 146,
       "node_id": "b2_health_system",
       "pack_id": "b2_health_system",
       "domain": "vocab",
@@ -8838,7 +8843,7 @@
       ]
     },
     {
-      "path_index": 145,
+      "path_index": 148,
       "node_id": "b2_ze_clauses",
       "pack_id": "b2_ze_clauses",
       "domain": "grammar",
@@ -8954,7 +8959,7 @@
       ]
     },
     {
-      "path_index": 146,
+      "path_index": 149,
       "node_id": "b2_reported",
       "pack_id": "b2_reported",
       "domain": "grammar",
@@ -9074,7 +9079,7 @@
       ]
     },
     {
-      "path_index": 147,
+      "path_index": 150,
       "node_id": "b2_indirect_q",
       "pack_id": "b2_indirect_q",
       "domain": "grammar",
@@ -9199,7 +9204,7 @@
       ]
     },
     {
-      "path_index": 148,
+      "path_index": 151,
       "node_id": "b2_ktory_full",
       "pack_id": "b2_ktory_full",
       "domain": "grammar",
@@ -9320,7 +9325,7 @@
       ]
     },
     {
-      "path_index": 149,
+      "path_index": 152,
       "node_id": "b2_abstract",
       "pack_id": "b2_abstract",
       "domain": "vocab",
@@ -9431,7 +9436,7 @@
       ]
     },
     {
-      "path_index": 150,
+      "path_index": 153,
       "node_id": "b2_jesli",
       "pack_id": "b2_jesli",
       "domain": "grammar",
@@ -9552,7 +9557,7 @@
       ]
     },
     {
-      "path_index": 151,
+      "path_index": 154,
       "node_id": "b2_gdyby",
       "pack_id": "b2_gdyby",
       "domain": "grammar",
@@ -9675,7 +9680,7 @@
       ]
     },
     {
-      "path_index": 152,
+      "path_index": 155,
       "node_id": "b2_loc_pl",
       "pack_id": "b2_loc_pl",
       "domain": "grammar",
@@ -9790,7 +9795,7 @@
       ]
     },
     {
-      "path_index": 153,
+      "path_index": 156,
       "node_id": "b2_inst_pl",
       "pack_id": "b2_inst_pl",
       "domain": "grammar",
@@ -9909,7 +9914,7 @@
       ]
     },
     {
-      "path_index": 154,
+      "path_index": 157,
       "node_id": "b2_dat_pl",
       "pack_id": "b2_dat_pl",
       "domain": "grammar",
@@ -10026,7 +10031,7 @@
       ]
     },
     {
-      "path_index": 155,
+      "path_index": 158,
       "node_id": "b2_gen_pl_full",
       "pack_id": "b2_gen_pl_full",
       "domain": "grammar",
@@ -10145,7 +10150,7 @@
       ]
     },
     {
-      "path_index": 156,
+      "path_index": 159,
       "node_id": "b2_num_subject",
       "pack_id": "b2_num_subject",
       "domain": "grammar",
@@ -10259,7 +10264,7 @@
       ]
     },
     {
-      "path_index": 157,
+      "path_index": 160,
       "node_id": "b2_num_virile",
       "pack_id": "b2_num_virile",
       "domain": "grammar",
@@ -10384,7 +10389,7 @@
       ]
     },
     {
-      "path_index": 158,
+      "path_index": 161,
       "node_id": "b2_plural_gym",
       "pack_id": "b2_plural_gym",
       "domain": "grammar",
@@ -10516,7 +10521,7 @@
       ]
     },
     {
-      "path_index": 159,
+      "path_index": 162,
       "node_id": "b2_neg_gen",
       "pack_id": "b2_neg_gen",
       "domain": "grammar",
@@ -10648,7 +10653,7 @@
       ]
     },
     {
-      "path_index": 160,
+      "path_index": 163,
       "node_id": "b2_double_neg",
       "pack_id": "b2_double_neg",
       "domain": "grammar",
@@ -10776,7 +10781,7 @@
       ]
     },
     {
-      "path_index": 161,
+      "path_index": 164,
       "node_id": "b2_sie_impersonal",
       "pack_id": "b2_sie_impersonal",
       "domain": "grammar",
@@ -10901,7 +10906,7 @@
       ]
     },
     {
-      "path_index": 162,
+      "path_index": 165,
       "node_id": "b2_prosic_o",
       "pack_id": "b2_prosic_o",
       "domain": "grammar",
@@ -11024,7 +11029,7 @@
       ]
     },
     {
-      "path_index": 163,
+      "path_index": 166,
       "node_id": "b2_jezdzic",
       "pack_id": "b2_jezdzic",
       "domain": "grammar",
@@ -11150,7 +11155,7 @@
       ]
     },
     {
-      "path_index": 164,
+      "path_index": 167,
       "node_id": "b2_motion_prefixes2",
       "pack_id": "b2_motion_prefixes2",
       "domain": "grammar",
@@ -11275,7 +11280,7 @@
       ]
     },
     {
-      "path_index": 165,
+      "path_index": 168,
       "node_id": "b2_aspect_prefixes",
       "pack_id": "b2_aspect_prefixes",
       "domain": "grammar",
@@ -11400,7 +11405,7 @@
       ]
     },
     {
-      "path_index": 166,
+      "path_index": 169,
       "node_id": "b2_motion_imperf",
       "pack_id": "b2_motion_imperf",
       "domain": "grammar",
@@ -11528,7 +11533,7 @@
       ]
     },
     {
-      "path_index": 167,
+      "path_index": 170,
       "node_id": "b2_prefix_lens",
       "pack_id": "b2_prefix_lens",
       "domain": "grammar",
@@ -11654,7 +11659,7 @@
       ]
     },
     {
-      "path_index": 168,
+      "path_index": 171,
       "node_id": "b2_prefix_two_jobs",
       "pack_id": "b2_prefix_two_jobs",
       "domain": "grammar",
@@ -11785,7 +11790,7 @@
       ]
     },
     {
-      "path_index": 169,
+      "path_index": 172,
       "node_id": "b2_pisac_family",
       "pack_id": "b2_pisac_family",
       "domain": "grammar",
@@ -11916,7 +11921,7 @@
       ]
     },
     {
-      "path_index": 170,
+      "path_index": 173,
       "node_id": "b2_verb_family2",
       "pack_id": "b2_verb_family2",
       "domain": "grammar",
@@ -12045,7 +12050,7 @@
       ]
     },
     {
-      "path_index": 171,
+      "path_index": 174,
       "node_id": "b2_powinien",
       "pack_id": "b2_powinien",
       "domain": "grammar",
@@ -12183,7 +12188,7 @@
       ]
     },
     {
-      "path_index": 172,
+      "path_index": 175,
       "node_id": "b2_verbal_nouns",
       "pack_id": "b2_verbal_nouns",
       "domain": "grammar",
@@ -12316,7 +12321,7 @@
       ]
     },
     {
-      "path_index": 173,
+      "path_index": 176,
       "node_id": "b2_participle_pass",
       "pack_id": "b2_participle_pass",
       "domain": "grammar",
@@ -12445,7 +12450,7 @@
       ]
     },
     {
-      "path_index": 174,
+      "path_index": 177,
       "node_id": "b2_passive",
       "pack_id": "b2_passive",
       "domain": "grammar",
@@ -12572,7 +12577,7 @@
       ]
     },
     {
-      "path_index": 175,
+      "path_index": 178,
       "node_id": "b2_travel_func",
       "pack_id": "b2_travel_func",
       "domain": "grammar",
@@ -12707,7 +12712,7 @@
       ]
     },
     {
-      "path_index": 176,
+      "path_index": 179,
       "node_id": "b2_discussion_func",
       "pack_id": "b2_discussion_func",
       "domain": "grammar",
@@ -12839,7 +12844,7 @@
       ]
     },
     {
-      "path_index": 177,
+      "path_index": 181,
       "node_id": "b2_case_gym",
       "pack_id": "b2_case_gym",
       "domain": "grammar",
@@ -12987,7 +12992,7 @@
       ]
     },
     {
-      "path_index": 178,
+      "path_index": 182,
       "node_id": "b2_wrapup",
       "pack_id": "b2_wrapup",
       "domain": "grammar",
@@ -13122,7 +13127,7 @@
       ]
     },
     {
-      "path_index": 180,
+      "path_index": 184,
       "node_id": "c1_existential",
       "pack_id": "c1_existential",
       "domain": "grammar",
@@ -13257,7 +13262,7 @@
       ]
     },
     {
-      "path_index": 181,
+      "path_index": 185,
       "node_id": "c1_wiedziec",
       "pack_id": "c1_wiedziec",
       "domain": "grammar",
@@ -13395,7 +13400,7 @@
       ]
     },
     {
-      "path_index": 182,
+      "path_index": 186,
       "node_id": "c1_adj_pl_gen",
       "pack_id": "c1_adj_pl_gen",
       "domain": "grammar",
@@ -13535,7 +13540,7 @@
       ]
     },
     {
-      "path_index": 183,
+      "path_index": 187,
       "node_id": "c1_adj_pl_loc",
       "pack_id": "c1_adj_pl_loc",
       "domain": "grammar",
@@ -13680,7 +13685,7 @@
       ]
     },
     {
-      "path_index": 184,
+      "path_index": 188,
       "node_id": "c1_adj_pl_inst",
       "pack_id": "c1_adj_pl_inst",
       "domain": "grammar",
@@ -13825,7 +13830,7 @@
       ]
     },
     {
-      "path_index": 185,
+      "path_index": 189,
       "node_id": "c1_adj_pl_dat",
       "pack_id": "c1_adj_pl_dat",
       "domain": "grammar",
@@ -13973,7 +13978,7 @@
       ]
     },
     {
-      "path_index": 186,
+      "path_index": 190,
       "node_id": "c1_adj_pl_virile",
       "pack_id": "c1_adj_pl_virile",
       "domain": "grammar",
@@ -14117,7 +14122,7 @@
       ]
     },
     {
-      "path_index": 187,
+      "path_index": 191,
       "node_id": "c1_adj_pl_gym",
       "pack_id": "c1_adj_pl_gym",
       "domain": "grammar",
@@ -14269,7 +14274,7 @@
       ]
     },
     {
-      "path_index": 188,
+      "path_index": 192,
       "node_id": "c1_evaluation",
       "pack_id": "c1_evaluation",
       "domain": "vocab",
@@ -14417,7 +14422,7 @@
       ]
     },
     {
-      "path_index": 189,
+      "path_index": 193,
       "node_id": "c1_ktory_plural",
       "pack_id": "c1_ktory_plural",
       "domain": "grammar",
@@ -14578,7 +14583,7 @@
       ]
     },
     {
-      "path_index": 190,
+      "path_index": 194,
       "node_id": "c1_pron_12_prep",
       "pack_id": "c1_pron_12_prep",
       "domain": "grammar",
@@ -14726,7 +14731,7 @@
       ]
     },
     {
-      "path_index": 191,
+      "path_index": 195,
       "node_id": "c1_pron_je",
       "pack_id": "c1_pron_je",
       "domain": "grammar",
