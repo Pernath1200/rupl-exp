@@ -1,0 +1,678 @@
+{
+  "id": "c1_od_source",
+  "title": "List od brata",
+  "title_en": "od + Genitive · from a person",
+  "level": "C1",
+  "tree_node": "c1_od_source",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 5, unit 3 - the THIRD of the three units in this batch that owes a data/case-map.json row; two rows ship in this same commit (od = from a person, od = from a time), per codex/WHICH-CASE-DIGEST.md. NO NEW PREPOSITION AND NO NEW CASE. od is TAUGHT <- a2_superlatives [92] and the case it takes is the Genitive, owned since a1_gen_endings [32]. What is new is the SECOND JOB, which makes this the exact b2_prosic_o shape the spine asked for. THE SPINE'S OWN EXAMPLE WALKS INTO A NAMED HOMOGRAPH AND THAT DROVE THE UNIT'S BEST SLIDE. C1-SPINE writes the brief as 'Pozyczam od mamy. List od siostry.' - but AGENTS lists mamy BY NAME as a trap (TAUGHT <- a1_miec [9] as the VERB 'we have', not the Genitive of mama) and lists corki as the mirror trap (a feminine -a noun's Genitive singular and Nominative plural are the same string, so siostry reads as 'sisters'). Both were verified with check_new.py rather than assumed. THE RESPONSE IS THE ONE AGENTS SANCTIONS - 'either pick a different word or teach the form yourself and say so' - and the c1_society / c1_pron_je precedent: both strings ARE taught here, in their new function, with the collision named on a slide of its own. Silently avoiding mamy would have cost Dad 'from mum' permanently, C1 being the last level. Slide 4 puts Mamy list od mamy on screen deliberately: one sentence holding both mamy, where the preposition alone separates them. THE UNIT'S REAL DECISION IS z VERSUS od, and it is the same shape as c1_na_acc's do-versus-na one unit earlier: the case NEVER changes - both take the Genitive - only the preposition does, and English says 'from' for both. FROM A PLACE -> z/ze (Wracam ze sklepu, owned since a1_prep_do_z [33]); FROM A PERSON -> od. That contrast is the lesson; the endings are a lookup. THE PAYOFF SLIDE CLOSES A FENCE b1_giving [120] WROTE IN ITS OWN WORDS. That pack taught pozyczac ONLY in the lend-TO sense with a Dative recipient and put an explain string on the item saying so: 'pozyczac can mean either lend or borrow in Polish, depending on the frame. This unit teaches only... borrowing-from is a different pattern, for a later unit.' This is that later unit, and the contrast is as clean as the course ever gets: SAME VERB, TWO CASES, OPPOSITE DIRECTIONS - Pozyczam bratu (Dative, I lend TO him) against Pozyczam od brata (Genitive, I borrow FROM him). bratu is TAUGHT <- b1_dative_sg [118] and brata <- a1_miec [9], so the whole contrast costs ZERO new forms. That is inbox item 13's actual content, and the spine was right that the item was mis-scoped - but it is a SENSE that was missing, not a verb and not a governor. SIX NEW STRINGS, all of them one noun's Genitive singular on endings owned since A1: mamy, taty, siostry, babci, dziadka, lekarza. No new ending and no new rule - the -y/-i/-a endings are a1_gen_endings' own. THE MASCULINE-ANIMATE POINT IS NAMED RATHER THAN LET SLIP, per AGENTS: for brat, pies, dziadek and lekarz the Genitive really is identical to the Accusative he has used after mam since path 9, so brata and psa are recycled across both jobs and slide 3 says why in one line. THE THIRD JOB (from a time) COSTS ZERO NEW FORMS and is included for that reason alone: piatej and siodmej are TAUGHT <- a2_ordinals_time [90], so Sklep jest otwarty od piatej do siodmej needs nothing new and pairs od with the do he has had since A1. Genitive time NOUNS (od rana, od poniedzialku) are NOT taught - those are new lexical forms and would have been a fourth thing; logged as deferred in C1-DIGEST batch 8. dostac/dostaje ('receive') was considered as the natural source verb and REFUSED: it is a whole new paradigm, and mam plus a noun phrase (Mam list od brata) says the same thing with forms already owned. Also logged. DISTRACTOR LEGALITY CHECKED FORM BY FORM: piata, babcie and babcie were all rejected as NEW and replaced; every surviving choice is a taught form - mamie/tacie/siostrze <- b1_dative_sg [118], mame/tate/siostre <- a1_miec [9], bratem <- a2_inst_z [64], lekarzem <- a1_inst_job [43], dziadkowie <- c1_owie [200], siodmej <- a2_ordinals_time [90]. No fabricated form appears in any choice list. gory is avoided (AGENTS names it) and appears nowhere.",
+  "focus_structures": [
+    "od_source"
+  ],
+  "teaches_structures": [
+    "od_source"
+  ],
+  "teaches_lemmas": [
+    "mamy",
+    "taty",
+    "siostry",
+    "babci",
+    "dziadka",
+    "lekarza"
+  ],
+  "uses_structures": [
+    "od_source",
+    "prep_z_gen",
+    "prep_do_gen",
+    "gen_endings",
+    "superlative",
+    "comparative",
+    "dative_sg",
+    "dawac_family",
+    "miec_acc",
+    "miec_present",
+    "present",
+    "present_am",
+    "byc_present",
+    "byc_adj",
+    "ordinals_time",
+    "prep_place",
+    "existential_jest",
+    "negation",
+    "virile_owie"
+  ],
+  "intro": [
+    {
+      "title": "od already has a job, and this is its second",
+      "title_pl": "starszy od brata · list od brata",
+      "body": "You have used od since the comparisons: starszy od brata, tańszy od kawy. What was never said out loud is which case follows it. It is the Genitive, and it always has been.\n\nod has a second job, and it takes the same case: it says where something came from, when what it came from is a person.\n\nMam list od brata. Mam prezent od babci. Nothing about the case is new here — only the job.",
+      "body_pl": "od + dopełniacz",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Which job of od"
+        ],
+        "rows": [
+          [
+            "Brat jest starszy od siostry.",
+            "my brother is older than my sister",
+            "comparison — what you measure against"
+          ],
+          [
+            "Kawa jest tańsza od herbaty.",
+            "the coffee is cheaper than the tea",
+            "comparison"
+          ],
+          [
+            "Mam list od brata.",
+            "I have a letter from my brother",
+            "source — who it came from"
+          ],
+          [
+            "Mam prezent od babci.",
+            "I have a present from grandma",
+            "source"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A place takes z. A person takes od",
+      "title_pl": "ze sklepu · od brata",
+      "body": "This is the decision, and it is the reason the unit exists. English says from for both, so the English gives you nothing — exactly as it gave you nothing for do and na one lesson ago.\n\nWracam ze sklepu. Wracam z apteki. A place you have come out of takes z, or ze in front of an awkward cluster.\n\nMam list od brata. Mam pieniądze od taty. A person something came from takes od.\n\nAnd the case is the same on both sides. Both are the Genitive. Only the preposition moves.",
+      "body_pl": "z + miejsce · od + osoba — zawsze dopełniacz",
+      "table": {
+        "headers": [
+          "From a place → z / ze",
+          "From a person → od",
+          ""
+        ],
+        "rows": [
+          [
+            "ze sklepu",
+            "od brata",
+            "the shop / my brother"
+          ],
+          [
+            "z apteki",
+            "od babci",
+            "the chemist / grandma"
+          ],
+          [
+            "ze szkoły",
+            "od taty",
+            "school / dad"
+          ],
+          [
+            "z pracy",
+            "od lekarza",
+            "work / the doctor"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The people, in the Genitive",
+      "title_pl": "mama → mamy · tata → taty · babcia → babci",
+      "body": "These are the endings you have had since the very first Genitive lesson — kawa → kawy, szkoła → szkoły. They are simply on people now.\n\nOne thing is worth naming rather than letting it slip past. For men and animals — brat, dziadek, lekarz, pies — the Genitive is identical to the Accusative you already put after mam. Mam brata and list od brata use the very same form, and that is not a coincidence to work around; it is how the language is built.",
+      "body_pl": "mamy · taty · siostry · babci · dziadka · lekarza",
+      "table": {
+        "headers": [
+          "Dictionary form",
+          "After od",
+          "English"
+        ],
+        "rows": [
+          [
+            "mama",
+            "od mamy",
+            "from mum"
+          ],
+          [
+            "tata",
+            "od taty",
+            "from dad"
+          ],
+          [
+            "siostra",
+            "od siostry",
+            "from my sister"
+          ],
+          [
+            "babcia",
+            "od babci",
+            "from grandma"
+          ],
+          [
+            "dziadek",
+            "od dziadka",
+            "from grandpa — same as Mam dziadka"
+          ],
+          [
+            "lekarz",
+            "od lekarza",
+            "from the doctor — same as Mam lekarza"
+          ],
+          [
+            "brat",
+            "od brata",
+            "from my brother — same as Mam brata"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Two of these look like something you already know",
+      "title_pl": "Mamy list od mamy.",
+      "body": "mamy is also a word you have used since A1 — the verb, we have. Mamy kawę. It is now also the Genitive of mama, and the two are told apart by what stands in front: after od it can only be the noun.\n\nMamy list od mamy. Both words are in that sentence, and neither can be mistaken for the other.\n\nsiostry is the other one. A feminine -a noun makes its Genitive singular and its plural with the same letter, so siostry can be from one sister or two sisters, exactly as córki was daughters. After od it is one sister. That ambiguity is real Polish, not a flaw in the lesson, and context settles it every time.",
+      "body_pl": "mamy — czasownik i dopełniacz · siostry — dopełniacz i liczba mnoga",
+      "table": {
+        "headers": [
+          "Form",
+          "What it was",
+          "What it also is now"
+        ],
+        "rows": [
+          [
+            "mamy",
+            "we have — Mamy kawę.",
+            "of mum — list od mamy"
+          ],
+          [
+            "siostry",
+            "looks like a plural, as córki does",
+            "of one sister — od siostry"
+          ],
+          [
+            "brata",
+            "Mam brata — the Accusative",
+            "od brata — the same form, the Genitive"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Same verb, two cases, opposite directions",
+      "title_pl": "Pożyczam bratu. · Pożyczam od brata.",
+      "body": "When you learned pożyczać you were told it means to lend, and that it can also mean to borrow depending on the frame. This is that frame.\n\nPożyczam bratu pieniądze — the Dative. The money goes to him. That is the one you already had.\n\nPożyczam pieniądze od brata — the Genitive after od. The money comes from him.\n\nThe verb does not change at all. The case does, and the case is the whole meaning. Get it the wrong way round and you have said the opposite of what you meant.",
+      "body_pl": "pożyczam + celownik · pożyczam od + dopełniacz",
+      "table": {
+        "headers": [
+          "Polish",
+          "Which case",
+          "English"
+        ],
+        "rows": [
+          [
+            "Pożyczam bratu pieniądze.",
+            "Dative — bratu",
+            "I lend my brother money"
+          ],
+          [
+            "Pożyczam pieniądze od brata.",
+            "Genitive — od brata",
+            "I borrow money from my brother"
+          ],
+          [
+            "Pożyczam siostrze rower.",
+            "Dative — siostrze",
+            "I lend my sister the bike"
+          ],
+          [
+            "Pożyczam rower od siostry.",
+            "Genitive — od siostry",
+            "I borrow the bike from my sister"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "od also says from what time",
+      "title_pl": "od piątej do siódmej",
+      "body": "The third job costs nothing new. Put a time after od and it says when something starts, and do — which you have used for places since A1 — closes the other end.\n\nSklep jest otwarty od piątej do siódmej.\n\npiątej and siódmej are the forms you already use in o piątej. Nothing changes; od simply borrows them.",
+      "body_pl": "od piątej do siódmej",
+      "examples": [
+        "Sklep jest otwarty od piątej do siódmej.",
+        "Apteka jest otwarta od siódmej.",
+        "Pracuję od piątej."
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "from mum",
+      "pl": "od mamy"
+    },
+    {
+      "en": "from dad",
+      "pl": "od taty"
+    },
+    {
+      "en": "from my sister",
+      "pl": "od siostry"
+    },
+    {
+      "en": "from grandma",
+      "pl": "od babci"
+    },
+    {
+      "en": "from grandpa",
+      "pl": "od dziadka"
+    },
+    {
+      "en": "from the doctor",
+      "pl": "od lekarza"
+    },
+    {
+      "en": "a letter from my brother",
+      "pl": "list od brata"
+    },
+    {
+      "en": "I borrow from my brother",
+      "pl": "pożyczam od brata"
+    },
+    {
+      "en": "I lend my brother",
+      "pl": "pożyczam bratu"
+    },
+    {
+      "en": "from five o'clock",
+      "pl": "od piątej"
+    },
+    {
+      "en": "older than my sister",
+      "pl": "starszy od siostry"
+    },
+    {
+      "en": "I'm coming back from the shop",
+      "pl": "wracam ze sklepu"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mam list ___ brata. (from my brother)",
+      "choices": [
+        "od",
+        "ze",
+        "do",
+        "przez"
+      ],
+      "answer": "od",
+      "explain": "A person it came from, so od. ze would make him a place you walked out of."
+    },
+    {
+      "prompt": "Wracam ___ sklepu. (I'm coming back from the shop)",
+      "choices": [
+        "ze",
+        "od",
+        "do",
+        "przez"
+      ],
+      "answer": "ze",
+      "explain": "A place, so z — and ze in front of the awkward cluster, exactly as you learned it at A1."
+    },
+    {
+      "prompt": "Mam prezent od ___. (from mum)",
+      "choices": [
+        "mamy",
+        "mama",
+        "mamie",
+        "mamę"
+      ],
+      "answer": "mamy",
+      "explain": "The Genitive of mama. It is spelled like the verb in Mamy kawę, and after od only the noun is possible."
+    },
+    {
+      "prompt": "Mam pieniądze od ___. (from dad)",
+      "choices": [
+        "taty",
+        "tata",
+        "tacie",
+        "tatę"
+      ],
+      "answer": "taty",
+      "explain": "tata is a masculine word with a feminine shape, so its Genitive is taty. tacie is the Dative you use after pomagam."
+    },
+    {
+      "prompt": "Pożyczam ___ pieniądze. (I lend my brother money)",
+      "choices": [
+        "bratu",
+        "brata",
+        "brat",
+        "bratem"
+      ],
+      "answer": "bratu",
+      "explain": "Lending TO him is the Dative. Swap it for od brata and the money travels the other way."
+    },
+    {
+      "prompt": "Pożyczam rower od ___. (I borrow the bike from my sister)",
+      "choices": [
+        "siostry",
+        "siostra",
+        "siostrze",
+        "siostrę"
+      ],
+      "answer": "siostry",
+      "explain": "Borrowing FROM her is od and the Genitive. siostrze would be lending to her."
+    },
+    {
+      "prompt": "Sklep jest otwarty od ___ do siódmej. (from five)",
+      "choices": [
+        "piątej",
+        "siódmej",
+        "pięć",
+        "godziny"
+      ],
+      "answer": "piątej",
+      "explain": "The same form as in o piątej. od opens the stretch of time and do closes it."
+    },
+    {
+      "prompt": "Mam książkę od ___. (from grandma)",
+      "choices": [
+        "babci",
+        "babcia",
+        "mamy",
+        "taty"
+      ],
+      "answer": "babci",
+      "explain": "babcia ends in -ia, so its Genitive is babci."
+    },
+    {
+      "prompt": "Mam psa od ___. (from grandpa)",
+      "choices": [
+        "dziadka",
+        "dziadek",
+        "dziadkowie",
+        "babci"
+      ],
+      "answer": "dziadka",
+      "explain": "Identical to the Accusative in Mam dziadka — for men and animals the two cases really are the same form."
+    },
+    {
+      "prompt": "Mam receptę od ___. (from the doctor)",
+      "choices": [
+        "lekarza",
+        "lekarz",
+        "lekarzem",
+        "siostry"
+      ],
+      "answer": "lekarza",
+      "explain": "lekarzem is the Instrumental you use in Jestem lekarzem — what someone IS, not who something came from."
+    },
+    {
+      "prompt": "Brat jest starszy ___ siostry. (older than my sister)",
+      "choices": [
+        "od",
+        "ze",
+        "do",
+        "przez"
+      ],
+      "answer": "od",
+      "explain": "The old job of od, and the same Genitive after it. One preposition, two jobs, one case."
+    },
+    {
+      "prompt": "Wracam ___ apteki. (I'm coming back from the chemist)",
+      "choices": [
+        "z",
+        "od",
+        "do",
+        "przez"
+      ],
+      "answer": "z",
+      "explain": "A place again. apteki begins easily, so plain z is enough — ze is only for the awkward clusters."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "from mum",
+      "mode": "full_word",
+      "answer": "od mamy",
+      "accepts": [
+        "od mamy"
+      ],
+      "explain": "The Genitive of mama, which is spelled like the verb we have."
+    },
+    {
+      "prompt_en": "from dad",
+      "mode": "full_word",
+      "answer": "od taty",
+      "accepts": [
+        "od taty"
+      ],
+      "explain": "A masculine word with a feminine ending, so a feminine Genitive."
+    },
+    {
+      "prompt_en": "from my sister",
+      "mode": "full_word",
+      "answer": "od siostry",
+      "accepts": [
+        "od siostry"
+      ],
+      "explain": "The form that also looks like a plural. After od it is one sister."
+    },
+    {
+      "prompt_en": "from grandma",
+      "mode": "full_word",
+      "answer": "od babci",
+      "accepts": [
+        "od babci"
+      ],
+      "explain": "babcia ends in -ia and takes -i."
+    },
+    {
+      "prompt_en": "from grandpa",
+      "mode": "full_word",
+      "answer": "od dziadka",
+      "accepts": [
+        "od dziadka"
+      ],
+      "explain": "The same form as in Mam dziadka."
+    },
+    {
+      "prompt_en": "from the doctor",
+      "mode": "full_word",
+      "answer": "od lekarza",
+      "accepts": [
+        "od lekarza"
+      ],
+      "explain": "A man, so the Genitive matches the Accusative."
+    },
+    {
+      "prompt_en": "I have an umbrella from my brother.",
+      "mode": "cloze",
+      "frame": "Mam parasol od ___.",
+      "answer": "brata",
+      "accepts": [
+        "brata"
+      ],
+      "explain": "The form you already use in Mam brata, doing its other job."
+    },
+    {
+      "prompt_en": "I'm coming back from the shop.",
+      "mode": "cloze",
+      "frame": "Wracam ___ sklepu.",
+      "answer": "ze",
+      "accepts": [
+        "ze"
+      ],
+      "explain": "A place, not a person — so z, and ze before the cluster."
+    },
+    {
+      "prompt_en": "The shop is open from five.",
+      "mode": "cloze",
+      "frame": "Sklep jest otwarty od ___.",
+      "answer": "piątej",
+      "accepts": [
+        "piątej"
+      ],
+      "explain": "The clock form you already use after o."
+    },
+    {
+      "prompt_en": "I lend my brother money.",
+      "mode": "cloze",
+      "frame": "Pożyczam ___ pieniądze.",
+      "answer": "bratu",
+      "accepts": [
+        "bratu"
+      ],
+      "explain": "The Dative sends it to him. od brata would bring it from him."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I have a letter from my brother.",
+      "answer": "Mam list od brata.",
+      "accepts": [
+        "Mam list od brata.",
+        "Mam list od brata"
+      ]
+    },
+    {
+      "prompt_en": "Type: We have a letter from mum.",
+      "answer": "Mamy list od mamy.",
+      "accepts": [
+        "Mamy list od mamy.",
+        "Mamy list od mamy"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm coming back from the chemist.",
+      "answer": "Wracam z apteki.",
+      "accepts": [
+        "Wracam z apteki.",
+        "Wracam z apteki"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm borrowing the bike from my sister.",
+      "answer": "Pożyczam rower od siostry.",
+      "accepts": [
+        "Pożyczam rower od siostry.",
+        "Pożyczam rower od siostry"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm lending my sister the bike.",
+      "answer": "Pożyczam siostrze rower.",
+      "accepts": [
+        "Pożyczam siostrze rower.",
+        "Pożyczam siostrze rower"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a present from grandma.",
+      "answer": "Mam prezent od babci.",
+      "accepts": [
+        "Mam prezent od babci.",
+        "Mam prezent od babci"
+      ]
+    },
+    {
+      "prompt_en": "Type: The shop is open from five to seven.",
+      "answer": "Sklep jest otwarty od piątej do siódmej.",
+      "accepts": [
+        "Sklep jest otwarty od piątej do siódmej.",
+        "Sklep jest otwarty od piątej do siódmej"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is older than my sister.",
+      "answer": "Brat jest starszy od siostry.",
+      "accepts": [
+        "Brat jest starszy od siostry.",
+        "Brat jest starszy od siostry"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a prescription from the doctor.",
+      "answer": "Mam receptę od lekarza.",
+      "accepts": [
+        "Mam receptę od lekarza.",
+        "Mam receptę od lekarza"
+      ]
+    },
+    {
+      "prompt_en": "Type: The letter from grandpa is on the table.",
+      "answer": "List od dziadka jest na stole.",
+      "accepts": [
+        "List od dziadka jest na stole.",
+        "List od dziadka jest na stole"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "od",
+    "ze",
+    "starszy",
+    "tańsza",
+    "mama",
+    "tata",
+    "siostra",
+    "babcia",
+    "dziadek",
+    "dziadkowie",
+    "lekarz",
+    "lekarzem",
+    "brat",
+    "brata",
+    "bratu",
+    "bratem",
+    "psa",
+    "mamie",
+    "mamę",
+    "tacie",
+    "tatę",
+    "siostrze",
+    "siostrę",
+    "córki",
+    "list",
+    "prezent",
+    "pieniądze",
+    "rower",
+    "książkę",
+    "receptę",
+    "sklepu",
+    "apteki",
+    "szkoły",
+    "pracy",
+    "sklep",
+    "apteka",
+    "otwarty",
+    "otwarta",
+    "stole",
+    "kawa",
+    "kawę",
+    "kawy",
+    "herbaty",
+    "piątej",
+    "siódmej",
+    "pięć",
+    "godziny",
+    "pożyczać",
+    "pożyczam",
+    "pożycza",
+    "wracam",
+    "pracuję",
+    "mam",
+    "jest",
+    "pomagam",
+    "nie"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_od_source",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

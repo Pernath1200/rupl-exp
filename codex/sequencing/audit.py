@@ -153,6 +153,7 @@ STRUCTURE_CATALOGUE = {
     "suppl_pl",
     "na_acc",
     "przez_acc",
+    "od_source",
 }
 
 GLUE_LEMMAS = {

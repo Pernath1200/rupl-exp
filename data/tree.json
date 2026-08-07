@@ -4170,18 +4170,19 @@
     {
       "id": "c1_od_source",
       "domain": "grammar",
-      "label": "Pożyczam od mamy",
+      "label": "List od brata",
       "label_en": "od + Genitive · from a person",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 5, unit 3. THE SECOND JOB OF od - source, not comparison. TWO INBOX CLAIMS CORRECTED this run: od is TAUGHT <- a2_superlatives [91] (the comparison governor, starszy od brata) and pozyczac is TAUGHT <- b1_giving [118]. So inbox item 13 is not a missing verb and not a missing governor - it is a governor HOMOGRAPH, the exact b2_prosic_o shape, and the unit shrinks accordingly. Pozyczam od mamy. List od siostry.",
+      "note": "[C1 SPINE] Block 5, unit 3. THE SECOND JOB OF od - source, not comparison. TWO INBOX CLAIMS CORRECTED this run: od is TAUGHT <- a2_superlatives [91] (the comparison governor, starszy od brata) and pozyczac is TAUGHT <- b1_giving [118]. So inbox item 13 is not a missing verb and not a missing governor - it is a governor HOMOGRAPH, the exact b2_prosic_o shape, and the unit shrinks accordingly. Pozyczam od mamy. List od siostry. [WIRED LIVE] SIX new strings, each one noun's Genitive singular on endings owned since a1_gen_endings [32]: mamy, taty, siostry, babci, dziadka, lekarza. No new preposition, no new case. Structure ID od_source registered in codex/SEQUENCING.md and audit.py before the audit. TWO ROWS ADDED TO data/case-map.json IN THIS SAME COMMIT (od = from a person, od = from a time). THE SPINE'S OWN EXAMPLE 'Pozyczam od mamy' WALKS INTO A HOMOGRAPH AGENTS NAMES BY NAME: mamy is TAUGHT <- a1_miec [9] as the VERB 'we have'. Rather than silently avoid it - which would cost Dad 'from mum' permanently, C1 being the last level - the form is TAUGHT HERE in its new function with the collision named on a slide of its own, which is the option AGENTS sanctions and the c1_society/c1_pron_je precedent. Mamy list od mamy is on screen deliberately. siostry carries the mirror trap (feminine -a Genitive singular = Nominative plural, the corki case AGENTS lists) and is named on the same slide. THE UNIT'S REAL DECISION IS z VERSUS od - a PLACE takes z/ze, a PERSON takes od, the CASE NEVER CHANGES, and English says 'from' for both; the same shape as c1_na_acc's do-versus-na one unit earlier. THE PAYOFF CLOSES b1_giving [120]'s OWN FENCE, in that pack's words ('borrowing-from is a different pattern, for a later unit'): same verb, two cases, opposite directions - Pozyczam bratu (Dative, lend TO) against Pozyczam od brata (Genitive, borrow FROM) - at ZERO new forms. That is inbox item 13's actual content: a missing SENSE, not a missing verb or governor. Masculine-animate Acc=Gen (brata, psa, dziadka, lekarza) is named in one line per AGENTS rather than let slip. THIRD JOB AT ZERO COST: od piatej do siodmej, both forms <- a2_ordinals_time [90]. REFUSED AND LOGGED: Genitive time NOUNS (od rana, od poniedzialku) and dostac/dostaje as a source verb - both new lexis, and mam + a noun phrase says the same thing with owned forms. Flagged in C1-DIGEST batch 8. All distractors verified pool-legal; piata, babcie and babcie were rejected as NEW and replaced. Title re-checked at the wire: od, list and brata are all owned before this node.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/c1_od_source.json"
     },
     {
       "id": "c1_gen_verbs",

@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 197 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 198 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -218,4 +218,5 @@ _None._
 | 203 | `c1_society` | — | 15 | `adj_acc`, `byc_adj`, `byc_present`, `can_inf`, `comparative`, `conditional_sg`, `conjunctions`, `copular_future`, `dat_pl`, `existential_tense`, `gdyby`, `indirect_q`, `jesli`, `miec_acc`, `miec_present`, `negation`, `plural_nom`, `powinien`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `question`, `questions2`, `reported`, `suppl_pl`, `ten_ta_to`, `to_jest`, `wiedziec`, `ze_clauses`, `zgoda` |
 | 204 | `c1_na_acc` | `na_acc` | 3 | `byc_present`, `chodzic`, `existential_jest`, `inst_transport`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `na_acc`, `negation`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `present`, `present_am`, `present_e_isz`, `suppl_pl`, `virile_nom`, `zgoda` |
 | 205 | `c1_przez` | `przez_acc` | 18 | `adj_acc`, `byc_present`, `existential_jest`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `motion_prefixed2`, `na_acc`, `negation`, `numbers_gen`, `participle_pass`, `passive`, `past_ac`, `past_byc`, `past_isc`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present`, `przez_acc`, `ten_ta_to` |
+| 206 | `c1_od_source` | `od_source` | 6 | `byc_adj`, `byc_present`, `comparative`, `dative_sg`, `dawac_family`, `existential_jest`, `gen_endings`, `miec_acc`, `miec_present`, `negation`, `od_source`, `ordinals_time`, `prep_do_gen`, `prep_place`, `prep_z_gen`, `present`, `present_am`, `superlative`, `virile_owie` |
 

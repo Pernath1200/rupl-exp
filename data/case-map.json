@@ -33,6 +33,8 @@
     { "case": "acc", "trigger": "czekam na… (waiting FOR something)", "gloss": "the thing you are waiting for — czekać chooses na", "example": "Czekam na autobus.", "taught_by": "c1_na_acc" },
     { "case": "acc", "trigger": "przez… (through, across)", "gloss": "the way through — not the destination, which takes do", "example": "Idę przez park.", "taught_by": "c1_przez" },
     { "case": "acc", "trigger": "przez… (for how long)", "gloss": "a stretch of time the action filled", "example": "przez cały dzień", "taught_by": "c1_przez" },
-    { "case": "acc", "trigger": "przez… (BY whom — who did it)", "gloss": "the doer in a passive sentence — never the means, which is the Instrumental", "example": "List jest napisany przez tatę.", "taught_by": "c1_przez" }
+    { "case": "acc", "trigger": "przez… (BY whom — who did it)", "gloss": "the doer in a passive sentence — never the means, which is the Instrumental", "example": "List jest napisany przez tatę.", "taught_by": "c1_przez" },
+    { "case": "gen", "trigger": "od… (FROM a person)", "gloss": "who something came from — a PLACE takes z/ze instead", "example": "Mam list od brata.", "taught_by": "c1_od_source" },
+    { "case": "gen", "trigger": "od… (FROM a time onwards)", "gloss": "when something starts — do closes the other end", "example": "od piątej do siódmej", "taught_by": "c1_od_source" }
   ]
 }
