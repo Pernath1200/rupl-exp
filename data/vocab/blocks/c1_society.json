@@ -291,7 +291,9 @@
       "pl": "Czy środowisko jest dobre?",
       "accepts": [
         "Czy środowisko jest dobre?",
-        "Czy środowisko jest dobre"
+        "Czy środowisko jest dobre",
+        "Środowisko jest dobre?",
+        "Środowisko jest dobre"
       ],
       "structures": [
         "question",
@@ -496,7 +498,9 @@
       "pl": "Czy to jest sprawiedliwość?",
       "accepts": [
         "Czy to jest sprawiedliwość?",
-        "Czy to jest sprawiedliwość"
+        "Czy to jest sprawiedliwość",
+        "To jest sprawiedliwość?",
+        "To jest sprawiedliwość"
       ],
       "structures": [
         "question",
