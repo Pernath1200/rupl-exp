@@ -3566,3 +3566,220 @@ phrase-level IOUs, must include the secondary-imperfective rule-naming unit
 (B2-SPINE leaves-to-C1 item 7), and now also inherits from this batch: the
 `wydaje mi się` collision (1), *pewnie / naprawdę / dokładnie* (9), the rest of
 *według*'s Genitive complements (5), and the other persons of *uważać* (6).
+
+## Batch 18 — Block 8 CLOSES and **B2 IS COMPLETE** (`b2_case_gym`, `b2_wrapup`)
+
+Cloud routine, 2026-08-06. Step 0 was a no-op again: `codex/REPAIR-QUEUE.md` is
+fully ticked (19 packs, 104 items, closed by the sixth repair run), so this run
+built straight away. Two units, one per commit, audit re-run and clean before
+each. Path: **172 live nodes, 0 errors, 2 warns** (the same pre-existing
+empty-teaches review nodes `a2_prep_review` and `b1_two_futures`).
+
+**Every non-station node in B2 is now live.** The only `planned` nodes left
+anywhere on `path_order` are the eight permanent station placeholders
+(`a2_station_1`–`4`, `b1_station_1`–`2`, `b2_station_1`–`2`), exactly as
+intended. `a2_past_gym` stays retired.
+
+The environment note from batch 17 still holds: this container has **no `py`
+launcher**. Every command in AGENTS.md and the spines is written `py -X utf8`
+(Windows); here it must be `python3 -X utf8`.
+
+### What each unit does
+
+**`b2_case_gym` (path 177)** — Block 8 unit 3, and the gym that closes B2's
+review layer. Zero new material, `teaches_*` both empty, gym idiom.
+
+**`b2_wrapup` (path 178)** — Block 8 unit 4, the B2 capstone, genre of
+`a2_wrapup_func` / `b1_wrapup`. Zero new material, `teaches_lemmas` empty,
+`teaches_structures` carries `situation_chunk` on b1_wrapup's precedent. Four
+registers, three chunks each, twelve in total, every one lifted verbatim from
+its source pack.
+
+### Judgment calls
+
+1. **The loudest call in the batch, and it is a deliberate departure from the
+   spine: `b2_case_gym`'s brief was NARROWED.** `tree.json`'s stub and B2-SPINE
+   Block 8 both say this gym should extend `b1_case_gym` with "adjective
+   agreement in five cases, oblique pronouns, the three plural obliques."
+   **Two of those three already have their own gym**, and both were built
+   *after* the spine was written: `b2_adj_gym` (path 139) drills the adjective
+   in all five cases on exactly those frames, and `b2_plural_gym` (path 158)
+   drills `-ach` / `-ami` / `-om` plus both numeral agreements. Re-running
+   either board here would have been a repetition of material Dad has already
+   been drilled on twice — precisely what James named when he retired
+   `a2_past_gym` ("a repetition of things that were not difficult, and just
+   seemed a waste of time"). AGENTS' gyms rule post-dates the spine and is
+   binding, so the spine was followed where it is still true and narrowed
+   where it is not. Batch 17's own standing warning asked for exactly this
+   justification. **If James disagrees, the fix is additive** — the adjective
+   and plural rows can be grafted back on without touching what is there.
+2. **What the gym drills instead, and why it earns the slot anyway.** The one
+   system B2 added and never gymmed is the **pronoun** system, and it is the
+   level's sharpest cliff for a reason that is not morphological at all:
+   **English collapses three distinct Polish words into one.** "Him" is `go`
+   after `znam`, `mu` after `pomagam`, and `nim` / `niego` after a preposition.
+   The three columns arrived at paths 118, 140 and 141 and have **sat side by
+   side unmixed for 37 nodes**. The question words (`b2_kim_czym`, path 142)
+   are the same system with the same three columns and have not been touched
+   since. That is a genuinely hard choice at this stage, which is the test the
+   gyms rule sets.
+3. **Adjectives and plurals are still present in the gym — as frame material.**
+   AGENTS' gyms rule names this as the correct mechanism for comfortable
+   material ("use new grammar and vocabulary actively in later units'
+   sentences"). No item's *answer* is an adjective or a plural oblique.
+4. **`b2_case_gym` quiz items 1–4 are one person under four sentences with four
+   different answers** (`go` / `mu` / `nim` / `niego`), sharing the same four
+   choices. This extends `b2_adj_gym`'s and `b2_plural_gym`'s paired-item idiom
+   from two items to four, deliberately: with two items a learner can still
+   read it as an exception; the claim here is that one English word maps onto
+   four Polish ones.
+5. **The gym takes three intro slides, not the spine's two.** Same reasoning
+   pushed one step further — slide 1 is the pronoun grid, slide 2 the
+   question-word grid (identical three columns, so it reads as a re-sighting
+   rather than a second system), slide 3 the two traps that are not about
+   endings at all (`o`'s two jobs; `nie` in the plural). Compressing the traps
+   into either grid would have buried them.
+6. **The gym pays the one recombination `b2_neg_gen` handed it by name.** That
+   pack fenced plural objects under negation and said so in its own note:
+   "*Nie mam gazet* is fully legal by this point and is still held… `b2_case_gym`
+   and `b2_wrapup` are where the recombination belongs." Quiz 12 and use item 6
+   are that recombination.
+7. **Word order constrained the gym's Użycie stage more than anything else.**
+   `b2_pron_acc`'s rule was held exactly: a short clitic (`go`, `ją`, `cię`,
+   `mi`, `ci`, `mu`, `jej`) only ever follows a clause-initial verb, never a
+   noun subject, because *Mama kocha go* is marked where *Mama go kocha* is
+   neutral and choosing between them is a word-order fact this course has not
+   taught. Use item 9 therefore gives its noun subject the **full** forms
+   (*Studenci znają ich i pomagają im*).
+8. **`prosić o` + a pronoun was drafted and cut.** *Proszę o niego* is legal
+   Polish and is absent on purpose: `b2_pron_prep` taught `niego` after `do`
+   (Genitive) only, so putting it after `prosić`'s `o` would be a silent new
+   job for the form **inside a gym that teaches nothing**. The o-trap is
+   drilled on nouns only.
+9. **`ci` is on the gym's reference table in one sense only and is never
+   drilled.** It appears once, in the dative sense `b1_dative_pron` taught
+   (`b2_pron_acc` made the same call). The virile demonstrative *ci studenci*
+   appears nowhere. This follows `b1_case_gym`'s explicit decision not to
+   re-run the `ci`/`ci` collision inside a zero-new review unit.
+10. **The gym's slide-1 table carries em dashes rather than guesses.** For *me*
+    and *you* the after-a-preposition cells are empty and the slide says out
+    loud that the course does not have those forms yet — `b2_pron_prep` took
+    the third-person-only branch and *tobie / tobą / mną / ciebie / nami /
+    wami* are all NEW. Same for *z czym* on slide 2.
+11. **New for a capstone, and it shaped the whole of `b2_wrapup`: two of its
+    four registers are VOCAB packs.** `b2_work` and `b2_health_system` have no
+    chunk lane at all, only `sentences[]`. Their three chunks each are therefore
+    lifted **verbatim from those packs' own sentence banks**, checked row by row
+    against both files, so nothing in the capstone is a sentence Dad has not
+    already read in the unit that owns it.
+12. **The capstone consistency rule was applied wherever a source frame existed,
+    and the gap is logged.** Four cloze items mirror their source unit's frame
+    and blank exactly (`Pociąg jest ___` / `Lot jest ___` from `b2_travel_func`;
+    `___, że …` from `b2_discussion_func`; `Mam ___ w hotelu` blanking the word
+    `b2_travel_func` typed bare). The other four — `etat`, `Rozmowa`, `Wyniki`,
+    `rejestracja` — have **no source frame to mirror**, because vocab packs have
+    no Pisanie stage. Same gap `b1_wrapup` logged for `b1_plans`, handled the
+    same way: the blank falls on the register's own new word.
+13. **The Pisanie line the capstone drew, stated because it had to be drawn
+    consistently.** `b1_wrapup` held *Planuję spotkanie.* (verb + bare object)
+    as a pattern unit while clozing anything with a bolted-on part. Applied here
+    as one rule so the pack is not inconsistent with itself: **verb + bare object
+    stays typed whole** (*Mam nadgodziny.*, *Mam skierowanie.*), and **any third
+    content word** — a modifier, a predicate adjective, a place phrase — **makes
+    it composed and it becomes a cloze**. That converts *Mam nowy etat.*,
+    *Rozmowa była dobra.*, *Wyniki są dobre.* and *Mam nocleg w hotelu.*, none of
+    which is a chunk anyone learns whole. *To zależy.* and *Chyba tak.* stay
+    whole because they genuinely are frozen chunks, and `b2_discussion_func`
+    types them whole too. **This is the generalisation of the composition test
+    James asked for and it is worth ruling on once.**
+14. **Every blank in the capstone lands on a teaching point** — no item needed
+    the queue's fallback clause. Unusual, and it is the direct consequence of
+    each register contributing three chunks built around three *different* new
+    words, so no answer had to be spent twice.
+15. **No fifth register in the capstone.** `b2_abstract` and `b2_prefix_lens`
+    were both considered and dropped, on the node note's own instruction and
+    `b1_wrapup`'s identical call about `b1_vocative_chunks`.
+16. **`spóźniony` is absent from the capstone, deliberately.**
+    `b2_travel_func`'s sharpest finding is that a PERSON is *spóźniony* while a
+    SERVICE is *opóźniony*; putting both into a unit that teaches nothing would
+    re-open a contrast rather than recycle it.
+17. **Titles corrected at wire-live time**, per `b1_wrapup`'s standing
+    instruction. `b2_case_gym`'s stub read *Siłownia · wszystko 2* — a raw
+    builder numeral bolted onto a Polish word, not Polish — and its `label_en`
+    carried the raw level code *B2*; both rewritten. `b2_wrapup`'s *droga*
+    became *podróż*, because the register is travel **logistics** (trains,
+    flights, hotel nights), not roads; every title word re-verified TAUGHT.
+18. **One accent fold caught in a draft and removed before commit**, worth
+    recording because it is the live open question below: `b2_case_gym`'s
+    *Z kim pracuje twój brat?* was drafted with `twoj` in `accepts`. That is
+    exactly the pattern that suppresses the „z ogonkami" correction. Removed —
+    `accepts` holds the exact answer only, per the fifth repair run's settled
+    ruling.
+19. **No new structure IDs were invented in this batch**, so nothing needed
+    registering in `SEQUENCING.md` or `audit.py`. The gym's `teaches_*` are
+    empty and the capstone re-teaches the long-unlocked `situation_chunk`.
+
+### Smoke-check shortlist for James
+
+1. **The narrowing of `b2_case_gym` (judgment calls 1–3) is the decision to look
+   at first.** It is the first time a build run has departed from a spine brief
+   on the strength of a later James ruling. If you want the full six-way board
+   the spine described, say so and it is additive work, not a rebuild.
+2. **The capstone's Pisanie line (judgment call 13)** — "verb + bare object is a
+   pattern unit, a third content word makes it composed" — is a general rule
+   inferred from your composition refinement, now applied across a whole pack.
+   Worth one ruling, because every future capstone will follow it.
+3. **`b2_case_gym` quiz items 1–4 are four items with the same four buttons.**
+   That is the sharpest demonstration in the pack and also the most likely to
+   feel repetitive in the hand. If it drags, cutting item 4 (`niego`) keeps the
+   claim intact.
+4. **Still open and still yours: the accent folds.** 161 items across 18 packs
+   carry an `accepts` entry that is the deaccented form of their own answer,
+   silently suppressing the „z ogonkami" correction on exactly the words where
+   the ogonki matter. Untouched again this run. Full list in `REPAIR-QUEUE.md`.
+5. **Carried forward from batch 17, unresolved:** `wydaje mi się` is absent from
+   the course because *wydaje* means "spends" five nodes earlier. Still your
+   call.
+6. **`b2_wrapup`'s work register may read oddly in one place.** *Rozmowa* is
+   glossed "conversation" throughout, because that is `b2_work`'s own gloss, but
+   in the capstone's scene it plainly means the job interview. Re-glossing it
+   inside a unit that teaches nothing would have taught a second sense, so it
+   was left alone — but if it reads as a mistake in the hand, `b2_work` is where
+   the gloss should change, not here.
+
+### Where the path stands
+
+**B2 IS COMPLETE.** Live through `b2_wrapup` (path index 178, **172 live
+nodes**). Audit 172 nodes, **0 errors**, 2 warns (both pre-existing). Every
+non-station node in A1, A2, B1 and B2 is live; the only `planned` nodes on
+`path_order` are the eight permanent station placeholders. `a2_past_gym` stays
+retired. The Pisanie repair queue is empty, so the next run's step 0 is a no-op
+again.
+
+**The next run is a C1 SCOPING run** — `codex/C1-SPINE.md` does not exist. Per
+the routine brief it must: sweep **both digests and every pack note** for
+phrase-level IOUs ("deferred", "fenced until", "James should decide") and either
+resolve each in the spine or log why it stays out; **include the
+secondary-imperfective rule-naming unit** (B2-SPINE leaves-to-C1 item 7, a
+James-locked requirement from the Block 6a overrule); carry an "Open for James to
+overrule" section; write the planned nodes into `tree.json`; commit, push, stop.
+
+C1's inbox is B2-SPINE's "What B2 deliberately leaves to C1" list (25 items,
+note it contains **two items numbered 7** — a numbering slip in the source, both
+are real and both must be carried), **plus** everything logged since it was
+written. From batch 17: the `wydaje mi się` collision, *pewnie / naprawdę /
+dokładnie*, the rest of `według`'s Genitive complements, the other persons of
+*uważać*. From this batch, four more:
+
+- **First and second person after a preposition** — *o mnie, o tobie, ze mną,
+  z tobą, do ciebie, z nami, z wami*, including the `ze`-shape rule.
+  `b2_pron_prep` took the third-person-only branch and named the alternative
+  (a small `b2_pron_prep2`); the gym has now shipped a table with two visibly
+  empty cells, which raises the value of closing it.
+- **`je` and the neuter / non-virile-plural accusative** — held from
+  `b2_pron_acc`, which noted that after it "them" is expressible only for
+  people. The gym confirms that gap is now visible on a board.
+- **`czemu`, and the Dative of a thing** — `b2_kim_czym` fenced it twice over
+  and the gym's slide-2 table carries the resulting em dash.
+- **`prosić o` + a pronoun** (judgment call 8), and more generally the second
+  job of `o` with the forms `b2_pron_prep` only ever taught after `do`.
