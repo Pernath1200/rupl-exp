@@ -1111,3 +1111,215 @@ node sits *before* it on the path.
 - Next up: **Block 4** — `c1_virile_alt` [199], `c1_owie` [200],
   `c1_irreg_virile` [201], `c1_suppl_pl` [202], `c1_society` [203].
   `c1_station_1` [198] is a permanent placeholder and is skipped.
+
+---
+
+## Batch 6 — Block 4 opens: the plural families closed, three of four (3 units)
+
+`c1_virile_alt` [199], `c1_owie` [200] and `c1_irreg_virile` [201], in
+`path_order` order, one commit each, pushed individually. `codex/REPAIR-QUEUE.md`
+was checked first and is still empty; `c1_which_case` [235] is still the only
+which-case unit outstanding and is still blocked until the C1 build track
+reaches Block 5, so this run was a straight C1 build run.
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_virile_alt` | 199 | 3 — `aktorzy`, `trenerzy`, `partnerzy` | `virile_alt` | `2cbe655` |
+| `c1_owie` | 200 | 6 — `dziadkowie`, `wujkowie`, `synowie`, `szefowie`, `panowie`, `inżynierowie` | `virile_owie` | `52094bc` |
+| `c1_irreg_virile` | 201 | 7 — `człowiek`, `ludzi`, `bracia`, `braci`, `braciom`, `koledzy`, `mężczyźni` | `virile_irreg` | `faead10` |
+
+Audit after each: **0 errors**, warns unchanged at 6 throughout (the five
+long-standing `teaches_empty_grammar` review nodes plus `b2_which_case`). All
+three structure IDs were registered in `codex/SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before their audit ran. **No `data/case-map.json` change
+was owed** — checked rather than assumed: that file's rows are *governors*, and
+none of these three units introduces one.
+
+### The block reads as one argument, and that was the design
+
+Taken together the three units answer one question — *how does a masculine
+person-noun make its plural?* — with three answers, and each unit's opening
+slide starts from the previous one's:
+
+1. **`c1_virile_alt`: it softens.** And the three moves `b1_virile_nom` taught
+   separately (`-t→-ci`, `-k→-cy`, already-soft`+e`) are **one event** — the
+   last stem consonant pulled into the soft family by the virile ending. `-r→-rzy`
+   is the fourth member, not a fourth thing to memorise. That reframing costs no
+   new material and is the whole reason the unit is small enough to hold three
+   new strings.
+2. **`c1_owie`: or it takes `-owie`,** on a group held together by *meaning* —
+   kinship and rank — rather than by shape.
+3. **`c1_irreg_virile`: or the plural is not built from the singular at all,**
+   because it runs on a stem of its own.
+
+`c1_irreg_virile`'s last Kontrola item is the only place all three families are
+pitted against each other in one choice list (`dziadkowie` correct, with `bracia`
+and `koledzy` as distractors). If the block is going to be tested as a block,
+that is the item to look at.
+
+### Every unit's anchor was verified with `check_new.py`, and one of them is unusually strong
+
+- `c1_virile_alt`: **`kelnerzy` is TAUGHT ← `b1_virile_reco` [111]** as a whole
+  form the learner was asked to recognise and *explicitly not to make*. So the
+  unit is the `b2_verbal_nouns` / `b2_participle_pass` opener the spine names:
+  a form read since B1 turns out to be built by a rule.
+- `c1_owie`: **`dziadkiem` and `wujkiem` are TAUGHT ← `a2_inst_z` [64]**, so the
+  two stem changes in the family ride a stem he has produced since A2 and
+  **no fleeting-e rule is stated anywhere** (`b2_gen_pl_full`'s precedent).
+- `c1_irreg_virile`: the strongest of the three. **He has been producing the
+  irregular plural stems for a whole level without being told they were
+  irregular** — `braćmi`/`ludźmi` ← `b2_inst_pl` [156], `ludziom`/`kolegom` ←
+  `b2_dat_pl` [157], `kolegów` ← `b2_num_virile` [160]. The Nominative was the
+  only cell missing, and slide 2 says so with his own owned forms in the table.
+
+### `b1_virile_nom`'s fence was read, not remembered
+
+The spine describes `c1_virile_alt`'s brief as *"kelner→kelnerzy (r→rz), and the
+rest of the set that pack fenced."* Rather than guess what "the rest" meant, the
+pack note was opened: `b1_virile_nom` names its fenced set as **the `-r` stems**
+(*"kelner → kelnerzy, aktor → aktorzy are NOT taught here… r→rz is a fourth
+alternation and adding it would make this a two-new-things unit"*), and it fences
+the true irregulars separately. So `-r` is the whole of unit 1's brief, and
+`brat`/`kolega`/`mężczyzna`/the `-owie` family appear **nowhere** in it — not in
+a table, not in a sentence, not as a distractor.
+
+### The `-r` pool is six nouns and two of them go the other way
+
+This is the batch's sharpest honesty problem and it was handled the same way in
+both packs. The learner owns exactly six `-r` person nouns: *aktor, kelner,
+partner, trener* take `-rzy`; **`inżynier` and `menedżer` take `-owie`.** A rule
+stated flatly would therefore be false one time in three.
+
+So `c1_virile_alt` slide 4 states it as a **tendency with a named
+counterexample** — R2's discipline, applied a block before the unit R2 is
+actually about — names `inżynier` as going the other way, and points at
+`c1_owie` one node on. `c1_owie` slide 3 then pays that hand-off rather than
+leaving it dangling, and puts `kelner`/`inżynier` side by side as the
+demonstration that nothing in the words themselves tells you which family they
+are in. **`menedżer` is deliberately unmentioned in both packs**: its plural is
+contested between *menedżerowie* and *menedżerzy* and that is not the course's
+to adjudicate.
+
+### One false claim was caught in drafting, and it is worth recording
+
+`c1_virile_alt` slide 3 originally said the `-r` survives *everywhere except the
+virile plural*. **That is false** — the Locative singular *kelnerze* softens too.
+The slide now claims only what is true of the forms he owns (`kelner`,
+`kelnerem`) and says the softening *arrives with the plural ending* rather than
+replacing the stem. Alternation units invite exactly this kind of over-general
+sentence, and this is the third consecutive run where the pack's own verification
+caught a leak in a **prose** field rather than in an item.
+
+### `bratom` is shown once, marked, and is in no choice list
+
+C1-SPINE asks `c1_irreg_virile` to carry *"braciom vs the wrong bratom"*, and
+AGENTS bans fabricated non-words. Both hold: `bratom` appears in **one slide
+row with a ✗ and one line of prose explaining it**, which is the `c1_word_order`
+precedent (*Go znam.* ✗) — an explicit statement, not a silent trap — and it
+appears in **no `choices` array anywhere**. This was checked mechanically, not by
+eye: the token-level checker treats every `choices` entry as a Polish-only field,
+so an untaught string there is a hard error.
+
+`b2_dat_pl` had logged this gap in its own note (*brat "appears NOWHERE in the
+pack in any form"*, its dative plural *"cannot be reached from brat by any rule
+this course has stated"*). It is now paid.
+
+### How the packs were verified
+
+The token-level checker from batches 4 and 5 was rebuilt for this run and
+extended: every Polish string on every learner-facing surface — slide `title_pl`
+and `body_pl`, every table cell, `examples`, match rows, quiz `choices`, `answer`
+and `explain`, cloze frames, answers, `accepts`, Użycie answers — is tokenised
+and checked against the position-aware pool for that node, with `body_pl`
+metalanguage and bare ending fragments (`-t`, `-cy`, `-owie`) whitelisted
+explicitly rather than by accident. It also asserts twelve match rows, one `___`
+per cloze frame, the ≤3-word Pisanie cap, no duplicate answers or prompts within
+a stage under a mirror of the engine's `norm()`, that no Pisanie frame
+reconstructs a Użycie sentence, that every `uses_lemma` is in the pool and is not
+also a `teaches_lemma`, and that each answer is present in its own `accepts`.
+
+**It was calibrated against three shipped packs before being trusted** —
+`c1_word_order`, `c1_siebie` and `c1_pron_je` all pass it clean, which is what
+turned up two false positives worth recording for the next run: duplicate quiz
+*answers* are normal in this course (`c1_pron_je` has five) and only duplicate
+quiz *prompts* are a defect, and case names in **table cells** are as
+conventional as they are on `body_pl`.
+
+One thing it caught in this batch: `tytuł` on a `c1_owie` `body_pl` line, meaning
+*title/rank*. It is TAUGHT ← `leaf_school_a1` [29] but in the **title of a book**
+sense, so it was replaced with a plain list of the six nouns. The homograph trap
+reaches shorthand lines too.
+
+### Judgment calls, all logged, all cheap to reverse
+
+1. **`c1_virile_alt`'s Pisanie has four blanks off its teaching point.** Items
+   0–3 produce all three new strings plus the `kelnerzy` anchor as whole words;
+   items 4–7 are cloze whose blanks fall on **recycled** virile plurals
+   (`lekarze`, `rolnicy`, `Polacy`, `studenci`), because four `-r` forms exist in
+   the entire course and a fifth item would duplicate an answer within the stage.
+   The blanked form is still the unit's subject every time. Logged under the
+   repair-queue fallback clause.
+2. **`c1_owie` drops `ojcowie` and `mężowie`.** Both are real members and both
+   are kinship — the two most conspicuous absences from a family the pack itself
+   describes as *the family words*. They were dropped because `ojciec → ojc-` and
+   `mąż → męż-` are stem changes with **no owned anchor** (`ojcem` and `mężem`
+   both verified NEW), so each would have cost a second unanchored fact in a unit
+   whose whole discipline is that the two existing stem changes are anchored.
+3. **`c1_irreg_virile` keeps `przyjaciółmi`/`gośćmi` out** — the author's call
+   C1-SPINE explicitly asks to be logged. `b2_inst_pl` refused them *"to avoid
+   turning a marked box into a paradigm"*, and the reasoning still applies: they
+   are further `-mi` Instrumentals, a different topic from the virile Nominative
+   plural, and folding them in would make the class read as a list of every
+   irregular in Polish rather than the four that carry it. `mężczyzna`'s plural
+   obliques are out for a plainer reason: they are regular and buy nothing.
+4. **`człowiek` is taught in the last level of the course.** An A1-frequency word
+   arriving at path 201 is startling, and it was verified rather than assumed —
+   `ludzie` has been owned since `b1_people` [114] and its singular never was.
+   Without it the suppletion cannot be stated at all, so it is taught here.
+
+### For James to smoke — batch 6
+
+1. **The tendency-with-a-counterexample shape, twice in two nodes.**
+   `c1_virile_alt` slide 4 tells Dad that `inżynier` breaks the rule he has just
+   been given and that the answer is next lesson. It is honest and it is R2's own
+   idiom, but it is the first time the course has deliberately left a learner
+   holding an unresolved exception across a node boundary. If it reads as a tease
+   rather than as a hand-off, the fix is to move `inżynierowie` into
+   `c1_virile_alt` and let `c1_owie` open on it.
+2. **`bratom ✗` on `c1_irreg_virile` slide 3.** The one non-word in the batch,
+   shown deliberately. Worth a look in the hand — if seeing a wrong form printed
+   is more sticky than the correction beside it, deleting that row costs the
+   slide nothing, since the prose beneath already makes the point.
+3. **`menedżer` is now a hole you can fall into.** Both packs teach the `-r`
+   families and neither mentions it, so a learner who reaches for *managers* has
+   no answer and no warning. That was the conservative call on a contested form;
+   the alternative is one row in `c1_owie` picking *menedżerowie*. Your call.
+4. **The kinship set in `c1_owie` is deliberately incomplete** (no `ojcowie`, no
+   `mężowie`) while the slide calls it *the family words*. If that reads as a
+   promise the table does not keep, both are cheap to add — one anchor-free stem
+   change each, which is precisely what was avoided.
+5. **Three families in three consecutive nodes is the densest stretch of Block 4.**
+   `c1_suppl_pl` [202] adds a fourth shape (`oczy`/`uszy`/`ręce`) immediately
+   after. If the block feels heavy at this point, that unit is the natural place
+   to slow down, and it is small.
+
+### Still open after batch 6
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run. **None of the three packs in this batch adds to it** — every `accepts`
+  holds the exact answer, plus the no-final-stop variant on whole-sentence Użycie
+  items, which is the standing convention and is not a fold.
+- **`wydaje mi się`** — settled by R7 (chunk + homograph line in `c1_nuance`), not
+  yet built.
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2, still unfixed.
+- **`mali` / `duzi`**, dropped in batch 3; still costed at one new virile noun.
+- The **benefactive Dative** and the **reciprocal `sobie`**, both from batch 5,
+  both James's call and both cheap now that the forms exist.
+- **New this batch:** `menedżer`'s contested plural; `ojcowie`/`mężowie`;
+  `przyjaciółmi`/`gośćmi`; `mężczyzna`'s plural obliques.
+- Next up: **Block 4 closes** — `c1_suppl_pl` [202] and `c1_society` [203]
+  (VOCAB, trim to 12, top up from `b2_abstract`'s note before inventing
+  candidates) — then **Block 5** at `c1_na_acc` [204], which is the first unit
+  of the run that **must add a row to `data/case-map.json` in its own commit**,
+  as must `c1_przez` [205], `c1_od_source` [206] and `c1_gen_verbs` [207].
+  `c1_which_case` [235] cannot be built until all four have shipped.
