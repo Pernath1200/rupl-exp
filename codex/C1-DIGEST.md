@@ -2339,6 +2339,266 @@ remain the tail of the level, and `c1_vocative_note` [237] sits after the gym pe
 
 ---
 
+## Batch 12 — `c1_prefix_semantics`, `c1_dawac_perf`, `c1_imperative_stems`
+
+Block 7's tail. `codex/REPAIR-QUEUE.md` was checked first and is still empty
+(*"Remaining in this queue: none"*, and no unticked box survives a grep), so the
+whole run went to the C1 build track. Three units, one commit each, pushed
+individually, plus one follow-up commit amending the first (see below).
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_prefix_semantics` | 217 | **0** | `prefix_semantics` | `089e501`, amended `f4facb0` |
+| `c1_dawac_perf` | 218 | 19 | `dawac_perf` | `d681cc1` |
+| `c1_imperative_stems` | 219 | 5 | `imperative_stems` | `63dc956` |
+
+Audit after each: **0 errors**. Warns stayed at **6** throughout and the warn set
+is unchanged — all six are `teaches_empty_grammar` on the four live which-case
+units and the two review nodes `a2_prep_review` / `b1_two_futures`. Neither
+`c1_dawac_perf` nor `c1_imperative_stems` contributed one, and
+`c1_prefix_semantics` does not either despite teaching zero lemmas, because its
+`teaches_structures` is non-empty. `data/tree.json` was diffed against HEAD
+before every commit and proved to change exactly one node each time, with
+`path_order` byte-identical.
+
+### `c1_which_case` was again NOT built, and the reason is unchanged
+
+It is still `planned` at [235] and the standing routine puts the five *Który
+przypadek?* units ahead of new C1 work. Batches 2 and 11 both took the
+conservative branch and logged it; this run re-verified the premise rather than
+inheriting it, and it holds. `data/case-map.json` is current through
+`c1_gen_verbs` [207] — **29 trigger rows, none later than 207, checked this
+run** — and `c1_quantifiers` [229], `c1_collective_num` [228] and
+`c1_dates_full` [227] will each ship governors that belong in this unit's table.
+`WHICH-CASE-SPEC.md` derives that table from the file, filtered to rows at or
+before the unit, and calls it *"verifiable, not authored from memory"*; building
+now would derive a table missing its own level's last governors, which is the
+drift rule #4 exists to prevent. **None of the three units in this batch ships a
+governor, so no `case-map.json` row was owed or added.**
+
+### The run's biggest finding: two units silently contradicted the course, and one of them was mine
+
+`c1_prefix_semantics` is the R1/R2 unit — the only one in RUPL that teaches
+productive prefix semantics. The obvious risk was pool leakage. The real risk
+turned out to be **the course arguing with itself in plain English**, and it was
+found by grepping every pack's learner-facing slide text for prefix claims
+instead of trusting either the spine or the draft.
+
+**Contradiction 1, expected and handled on purpose.** `b2_prefix_lens` [169]
+slide 3 tells the learner: *"There are other front pieces — za-, po-, prze- and
+more. They make no promise at all: there is no reliable meaning to read off
+them, so do not try."* R2 promotes `prze-` to the reliable set. Those cannot
+both stand, so slide 5 **names** the retraction: `prze-` upgraded by name,
+za-/po- confirmed unchanged, and *przepłacić* given in the same breath as the
+price of the upgrade. Silently reversing a plain-English warning would cost
+trust that correct grammar does not buy back.
+
+**Contradiction 2 was mine, it shipped, and it was fixed in a follow-up
+commit.** The first version taught `pod-` as *underneath AND up close* with
+*podawać* as the up-close example. Two packs had already fenced that exact verb:
+`b2_verb_family2` [173] slide 2 — *"podawać is not in the lens at all. Note that
+its pod- is the very same pod- you met in podpisać one unit ago, where it was
+under. It is doing something else here."* — and `b2_pisac_family` [172], which
+gives pod- = under as *"One memory hook, about podpisać and about no other
+word."* **The fork, taken conservatively:** R2 glosses pod- as *(under/approach)*
+and *podawać* is the only owned verb carrying the approach sense, so teaching it
+means a third retraction on the one verb two packs went out of their way to
+fence. Refused. pod- is taught as **underneath only**, on *podpisać* — which
+`b2_verb_family2` itself endorses as *"where it was under"* — plus *podłoga*, and
+*podawać* moved to the counterexample slide where it now **agrees** with what the
+learner was already told.
+
+> **Open for James (batch 12, item 1).** R2's *approach* sense of `pod-` is
+> **untaught**, and `pod-` is consequently thin: two examples, one of them a
+> noun. If you want it taught, *podawać* moves back to slide 2 and its
+> retraction gets named on slide 5 exactly the way `prze-`'s is. It is a
+> one-slide change in either direction and nothing else moves.
+
+Slide 5 therefore names **two** lifts rather than one: `prze-` upgraded, and
+pod-=underneath widened past the *"about no other word"* hook to cover *podłoga*
+— a real widening of a stated limit, so it is stated rather than assumed, with
+the same slide saying the lift still does not reach *podawać*.
+
+### `roz-` is thin, and the thinness is structural
+
+The course owns **exactly one** `roz-` verb — *rozmawiać* ← `a2_phone_func` [89]
+— and only its infinitive: *rozmawiam/rozmawiasz/rozmawia* are all verified NEW.
+So every `roz-` item in the unit is infinitival or nominal. The verb slide is
+carried by the *mówić → rozmawiać* derivation, which is readable, true, and has
+its base owned since [16]; the rest of `roz-` is shown in owned **nouns**
+(*rozmowa, rozkład, rozwiązanie*). Teaching *rozmawiam* to thicken it was
+refused — a semantics unit that quietly opens a paradigm is the load-split
+AGENTS forbids. *rozwiązanie* and *rozkład* are glossed with **English-only
+roots** (*an untying*, *laid out apart*), because their `roz-` is transparent
+only against *wiązać* and *kłaść*, neither of which is taught: the morphology is
+made readable without one untaught Polish string.
+
+**No starred non-word is printed anywhere in the unit.** C1-SPINE names the
+`*wyrobić` trap as the reason the productive ban existed, and slide 6 makes that
+warning in full — a verb you assemble yourself may simply not exist and nothing
+about the pieces will tell you — without printing one. Conservative call, and
+arguable: a linguistically-minded adult probably learns more from seeing exactly
+what an invented verb looks like, but AGENTS bans fabricated non-words and the
+risk of the invention being the thing that sticks is not worth the illustration.
+
+### `c1_dawac_perf`: the "new paradigm" was never new, and the unit's shape turned on one check
+
+C1-SPINE quotes `b2_verb_family2`'s fence as this unit's whole reason for
+existing: *"dać is irregular (dam/dasz/da, an -m/-sz paradigm **the course has
+never taught**), so the family's perfective half is a genuine second system."*
+It is not a second system. `check_new.py` against 209 live nodes: the -m/-sz
+endings are owned **since A1 on `mieć`** (*mam/masz/ma/mamy/macie/mają* ← [9]),
+and `c1_wiedziec` [185] already ran them down the page a second time as an
+explicit `mieć` parallel — its own catalogue entry says so in as many words.
+*jem/jesz* ← [75] and *umiem* ← [24] are the same set again. So *dam/dasz/da* is
+the **fourth** meeting with these endings, slide 1 is a payoff rather than a new
+paradigm, and the unit costs one new ending in total.
+
+That one ending is **`dadzą`**, and it is the batch's best fact because the
+learner has met the identical break once already: `c1_wiedziec` named *wiedzą* as
+*"the ONE place the parallel breaks — mają would predict a form that does not
+exist."* Slide 2 runs *mają / wiedzą / dadzą* side by side so the exceptions read
+as a pattern rather than a list.
+
+**The plural is taught on `dać` and no other verb, and an earlier draft this run
+got it backwards — recorded so the reasoning is not rediscovered.** The draft was
+going to fence the plural entirely, reasoning that `dawac_family` was
+singular-only and so the *dadzą* break could not be demonstrated. Checked rather
+than assumed: *dają/dajemy/dajecie* came back **TAUGHT since `b1_giving`
+[120]** — that fence covered the three verbs `dawac_family` ADDED, not *dawać*
+itself, which B1 had already given in full. So the perfective column now mirrors
+the imperfective column exactly (*dać* full, the other three singular), which
+buys two things: the break is **demonstrable**, because the learner owns the
+*dają* he would wrongly predict; and no perfective outruns its own imperfective,
+since *oddają/podają/wydają* are all verified NEW. The unit's whole shape rests
+on that single `check_new.py` call.
+
+R7 was honoured without being touched: *podać* is pass/serve only and *wydać* is
+the money sense only, so **`wydaje mi się` appears nowhere** — it is
+`c1_nuance`'s material by James's own ruling — and *wydaje* occurs exactly once,
+as a distractor inside a money sentence, the sense it was taught in.
+
+### `c1_imperative_stems`: both debts were named four levels ago, in learner-facing text
+
+This unit pays two debts `b1_imperative_rule` [125] wrote into its own slides,
+and reading that pack rather than this catalogue's summary of it was the whole
+game. Debt 1, its slide 0, in parentheses: *"(Daj stays exactly as opaque as it
+always was — its own dictionary form was never shown to you, and this unit
+doesn't change that.)"* Debt 2, its slide 2, last line: *"A few common verbs need
+one extra sound change on top of it — those are for a later unit, not this
+one."*
+
+**The `daj` payoff is why the unit sits at 219, and the spine's ordering was
+already right for a reason it did not state.** The imperative rule needs a 3sg to
+operate on, and *dać* had none until `c1_dawac_perf` [218] — one node back. So
+*da* → vowel-final → add -j → *Daj!* now falls straight out of a rule owned since
+B1, at **zero new strings**, and A2's last unexplained chunk becomes derivable.
+
+**Two corrections to this catalogue's own `imperative_rule` entry, both found by
+reading the pack.** (1) It says *robić→rób* and *"all other stem-alternating
+irregulars are fenced out — not taught, not shown, not a distractor"*; in fact
+slide 0 SHOWS *idź* and *chodź* with their sound change, labelled *"same rule,
+plus the dzie→dź sound you already know by heart"*. That alternation is
+therefore already explained, which is exactly why *jedź* costs one string and no
+mechanism. (2) It lists A2's chunk set as *daj, idź, czekaj, patrz, słuchaj*;
+*patrz* is verified **NEW**, and that pack's own slide-0 title gives the real five
+as *Czekaj / Słuchaj / Idź / Chodź / Daj*. Nothing in the new unit rests on the
+wrong inventory, and **`patrz` is still untaught** — worth knowing, since it is a
+common command.
+
+The o→ó shift is taught only where the derivation is fully anchored (*robi*,
+*zrobi* both owned), with *mów* as the **contrast** case rather than a third
+instance — its ó was there all along, so beside *rób* it separates a vowel that
+appears from one that was always written. **Two o→ó verbs were drafted and
+dropped for the same verifiable reason — the rule needs a 3sg and the 3sg is not
+owned:** *pomóż* (*pomoże* verified NEW, and teaching it would open
+*pomogę/pomożesz*' g/ż alternation, a separate system, and graze the MÓGŁBY
+QUARANTINE's neighbourhood for no gain) and *otwórz* (*otworzyć* owned as an
+infinitive since [24], but *otworzy* verified NEW). **`móc` appears nowhere in
+the pack in any form.**
+
+Regular imperatives are deliberately **not** taught: *napisz, podpisz, zapisz,
+opisz, przepisz* are all verified NEW but all regular, so the productive rule
+owned since [125] already generates them — and `b2_pisac_family`'s description of
+*podpisz*/*zapisz* as *"imperative_rule's stem-alternating material"* is
+inaccurate, since they alternate nothing.
+
+### What the pre-commit checks caught that `audit.py` cannot see
+
+The auditor reads tags, not learner-facing text, so all of this was found by a
+token sweep over every Polish surface in each pack (titles, `title_pl`,
+`body_pl`, table cells, examples, match, quiz prompts/choices, type answers and
+`accepts`) plus a Python mirror of the engine's own `norm()`.
+
+- **Five `body_pl` leaks in `c1_prefix_semantics`**, every one verified NEW:
+  *każdy*; *niżej*; *bez* + *reguły*; *budujemy*; *tendencja*. Two of those are
+  repeat offenders and worth naming as a class. *bez*/*reguły* were inherited
+  straight from `b2_prefix_lens`' own `body_pl` line — so the leak is **stopped
+  here rather than propagated**, and `b2_which_case` had already flagged *bez*.
+  *budujemy* is the second time that root has tried to get in; `c1_sec_imperf`
+  caught *buduj*. All six `body_pl` lines were rewritten to owned forms.
+  **`Przedrostek` is the only untaught learner-facing string left in the pack**,
+  and it is the licensed metalanguage `prefix_lens`, `prefix_two_jobs` and
+  `sec_imperf` each kept on the same basis. *tendencja* was refused even though
+  it is a transparent cognate and arguably metalanguage of the same class — the
+  conservative call, since unlike *przedrostek* it names nothing the unit is
+  about and was there for flavour.
+- **Three quiz distractors that were coinages, not pool-legal forms**, in
+  `c1_prefix_semantics`: *przepisuje*, *przepisała*, *przepłaciła*. All three
+  came back NEW — the secondary imperfectives are infinitive-only by
+  `placic_family`/`pisac_family2` policy, and neither counterexample verb has a
+  taught feminine past. Replaced with *podpisuje* and a masculine subject.
+- **`*dadzę` in `c1_dawac_perf`** — the shape a learner might build by analogy
+  from *dam* — was drafted as a distractor on item 12 and removed.
+- **A duplicate Kontrola answer in `c1_imperative_stems`** that an eye-scan
+  passes: items 4 and 10 answered *Jedź* and *jedź*, which the engine's own
+  `norm()` lowercases into one answer. Item 10 was rebuilt on *jedzie*, which
+  also sharpens it into an imperative-versus-present discrimination.
+- **A title-rule violation in the planned tree label for
+  `c1_prefix_semantics`**: *Przedrostki · znaczenia* carries **two** untaught
+  Polish words (*przedrostki*, *znaczenia*, both verified NEW) in
+  learner-visible chrome. Retitled to three owned verbs, one per prefix. This is
+  the same correction `prefix_lens` had to make against its own planned label
+  (*Przedrostki · soczewka*) — **the third time a planned C1/B2 tree label has
+  shipped untaught Polish, which is now a pattern rather than an accident.**
+  `c1_dawac_perf`'s and `c1_imperative_stems`' planned labels were checked and
+  are fine, because each names forms its own unit teaches.
+
+### Open for James, from this batch
+
+1. **`pod-`'s approach sense is untaught** (detailed above with the exact
+   one-slide fix either way). The item that most wants your eye in this batch.
+2. **`c1_prefix_semantics` prints no starred non-word**, so the *"a verb you
+   build yourself may not exist"* warning is made in prose only. If you would
+   rather he saw one concrete invented verb, that is one line on slide 6.
+3. **Smoke the retraction slides.** `c1_prefix_semantics` slide 5 tells Dad that
+   two things he was taught earlier were too strict. That is honest and it is
+   the first time the course has done it out loud; whether it reassures or
+   unsettles is a question only the hand can answer.
+4. **`patrz` is untaught** and *Patrz!* is a genuinely common command. It is one
+   row in a later pack if you want it; nothing schedules it at present.
+5. **Still carried forward unresolved, not touched this run:** the 161 fold
+   variants across 18 packs whose `accepts` contains the deaccented form of
+   their own answer, suppressing the „z ogonkami" correction on precisely the
+   words where the ogonki matter. Still a one-line script in either direction
+   once you rule.
+6. **Still carried forward from batch 11:** the course ends with no verb for
+   cleaning (*sprzątać* refused by `c1_verb_family4`, cheapest home two rows in a
+   later vocab pack).
+
+### State at the end of this batch
+
+Live: **211 nodes**. Block 7 has four units left — `c1_imperative_more` [220],
+`c1_cond_past` [221], `c1_by_plural` [222], `c1_modal_pl` [223] — then
+`c1_stac_sie` [224] and `c1_nuance` [225] close it. `c1_imperative_more` is the
+natural next unit and it is well set up: this batch's own note fences *róbcie*,
+*chodźmy*, *niech pan*/*niech pani* to it by name, and `niech` is verified NEW.
+`data/case-map.json` is owed nothing until `c1_dates_full` [227]. `c1_which_case`
+[235] and `c1_case_gym` [236] remain the tail of the level, with
+`c1_vocative_note` [237] after the gym per **R5**.
+
+---
+
 ## Batch 11 — `c1_sec_imperf`, `c1_verb_family3`, `c1_verb_family4`
 
 Block 7's middle. `codex/REPAIR-QUEUE.md` was checked first and is still empty
