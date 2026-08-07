@@ -3092,3 +3092,243 @@ modal, and the construction it leans on now exists. **`c1_nuance` carries R7**
 absorb `byłoby` and the `sprzątać` pair if either is wanted. **Every C1 unit that
 ships a new governor must add its row to `data/case-map.json` in the same
 commit.**
+
+---
+
+## Batch 14 — `c1_modal_pl`, `c1_stac_sie`, `c1_nuance`
+
+Three units, one commit each, pushed individually, plus one repair to
+already-shipped content that a control test turned up. `codex/REPAIR-QUEUE.md`
+was checked first and is still empty (all 19 packs ticked), so the run's whole
+capacity went to the build track.
+
+| unit | path | new strings | structure IDs | commit |
+|---|---|---|---|---|
+| `c1_modal_pl` | 223 | 12 | `modal_pl`, `powinien_byl` | `52a623d` |
+| `c1_stac_sie` | 224 | 14 | `stac_sie` | `c086575` |
+| `c1_nuance` | 225 | 14 (12 words) | — (vocab) | `8a1a432` |
+| _repair_ `c1_society` | 197 | — | — | `bb6f12e` |
+
+Audit after each: **0 errors**. Warns stayed at **6** throughout — the same six
+`teaches_empty_grammar` nodes (`a2_prep_review`, `b1_two_futures`, and the four
+`*_which_case` units). Not one new warn. 217 live nodes; **13 non-station nodes
+remain**, all C1.
+
+### Why this was a C1 build run and not a which-case run
+
+The standing priority is the five `Który przypadek?` units, and `c1_which_case`
+[235] is still `planned` — but it is **blocked by its own spec**, not skipped.
+`WHICH-CASE-SPEC.md` says its table is *derived* from `case-map.json` filtered
+to rows at or before it on `path_order`, and calls it *"the whole system on one
+page… the last teaching unit of the course."* Twelve C1 nodes still sit between
+here and there. Building it now would derive a table missing its own level.
+Batch 1 and batch 2 of the which-case digest both said so; this is the third
+run to confirm it. **No `case-map.json` row was added this run** — none of the
+three units ships a governor, which was checked rather than assumed.
+
+### `c1_modal_pl` — one mechanism wearing two words, and one that isn't
+
+`b2_powinien` fenced the whole plural in a single sentence: *"the virile plural
+would drag `virile_past`'s gender split back into a unit that already has two."*
+The thing it was avoiding is the **same** split for both modals —
+`powinni`/`powinny` and `musieli`/`musiały` differ by exactly the `-i`/`-y`
+contrast owned since `a2_past_plural`'s *byli*/*były* and met again as *ci*/*te*,
+in `c1_irreg_virile` and in `c1_adj_pl_virile`. So the unit does not **teach**
+the virile split; it applies an owned split to two modals at once. That is the
+argument for one unit rather than two, and it is why the pair is registered
+under one ID.
+
+The person markers cost nothing: `-śmy`/`-ście` attach to *powinni* exactly as
+they attached to *gdyby*/*żeby* one node back in `c1_by_plural`, on their fifth
+job. **Not one new ending in the whole unit.**
+
+`powinien był` is registered **separately** as `powinien_byl`, following batch
+13's `imperative_niech` precedent — when a unit carries two mechanisms, the call
+should be visible rather than smuggled under one ID. Its anchor is deliberately
+**`b2_powinien`'s own move, not `c1_cond_past`'s**: that pack taught *trzeba
+było* / *można było*, a modal put into the past by **adding** an owned word
+rather than reshaping, which is a smaller step than *byłbym zrobił* — and
+reading the construction as "the conditional again" would invite \*`powinienem
+byłbym`. `cond_past` is cited on no slide.
+
+**The sharpest scope cut, logged rather than silent:** `powinnyśmy` and
+`powinnyście` are verified NEW and appear **nowhere** — not in a table, not as a
+distractor. Polish takes the virile form whenever the group contains any man, so
+Dad produces *powinniśmy* in every group he belongs to; the non-virile 1pl/2pl is
+producible only by women speaking about themselves. `b2_powinien`'s own reason
+for dropping neuter *powinno* — *"no everyday first-person payoff"* — applies
+with more force. No slide claims the 1pl/2pl has only one shape. If James wants
+the paradigm closed it is a one-line addition to slide 0 and costs no mechanism.
+
+**Caught in my own draft before wiring:** slide 1's `body_pl` read *grupa z
+mężczyzną*. `mężczyzną` is verified **NEW** — the course owns *mężczyzna* and
+*mężczyźni* and has never taught the Instrumental. Rewritten to *ci lekarze → powinni · te kobiety → powinny*, both owned. The auditor would have passed it.
+
+### `c1_stac_sie` — and a sense collision O13 did not list
+
+`b1_stories_func` handed `stało` over as *"one closed word inside three fixed
+frames, never conjugated, no się-stać paradigm"* and logged the opening as a
+fork. This is that opening. The homograph is the unit's first move, as the spine
+requires: **`stać` without `się` is a different verb, *to stand*, verified NEW** —
+named on slide 0, tagged because the string is on screen, given one match row so
+the contrast is drilled rather than merely mentioned, and demanded nowhere in
+that sense.
+
+**The finding worth having from building it.** `zostać` is already TAUGHT
+(`c1_zostac` [211]) — but **only** as the dynamic-passive auxiliary, always with
+a participle. It also means *become*, and for a job title **`został lekarzem` is
+the commoner Polish**. This is not in O13's homograph table. Saying nothing would
+have taught `stać się` as though it were the only option; teaching `zostać`'s
+second job would ship a governor out of turn in the last level. Taken the R7 way:
+**one honest English line on slide 2 naming both verbs and which one native
+speakers reach for with a job title**, with `zostać` demanded nowhere in that
+sense — not in a stage, not as a distractor. **This is the unit's biggest
+judgment call and the first thing to smoke.**
+
+**Adjective complements are refused.** `stać się` + NOUN takes the Instrumental
+unambiguously, and that is exactly `być`'s own complement (`inst_identity`), so
+*Jestem lekarzem* → *Stałem się lekarzem* is one new verb on an owned case.
+`stać się` + ADJECTIVE is genuinely variable in modern Polish, and the precedent
+that governs is the one that killed the fleeting-e rule in `b2_gen_pl_full`:
+*this learner gets no value from a rule he cannot trust.* No adjective complement
+appears anywhere.
+
+**Why the paradigm is the singular past.** *Happen* takes `co`/`coś`/`nic`, all
+neuter, so its past is effectively the one owned form *stało się* — a
+happen-only unit would carry almost no new material, which is why the label says
+*Becoming*. The person forms only earn their place in the second job. Six
+singular pasts, complete; **the plural (`stali się`/`stały się`) is fenced** and
+appears nowhere; every ending is `past_ac`'s own, so the only new thing in the
+past set is the stem `stał-`.
+
+**The future is an addition beyond the spine brief and is logged as one.**
+*Co się stanie?* and *Nic się nie stanie.* are the future twins of the two B1
+chunks. The stem shift `stać`→`stanie` is unpredictable, so the slide says so and
+hands the form over whole in the `a2_aspect` idiom; `stanę`/`staniesz`/`staną`
+appear nowhere and no future paradigm is claimed. The conservative alternative
+was a past-only unit — rejected because *What will happen?* is a sentence Dad
+will want on a day something has gone wrong, and it costs one stem.
+
+**Caught before wiring:** the Pisanie cloze *Mama ___ się nauczycielką.* +
+`stała` reconstructed Użycie item 2 character-for-character. Rewritten to
+*Siostra ___ się lekarką.*
+
+### `c1_nuance` — R7 executed, and the last vocab pack in the course
+
+**R7 is done.** *wydaje mi się* is taught as a chunk with an explicit homograph
+line naming both senses. `b2_discussion_func` dropped it and called the drop
+*"the loudest judgment call in the batch"*: `wydaje` is TAUGHT since
+`b2_verb_family2` as the 3sg of *wydawać*, **to spend money**, and `mi` and `się`
+are owned too — three familiar strings, every one of them doing something else,
+colliding at the worst possible distance. That pack said the phrase *"needs its
+own moment naming the collision out loud… not a line in a chunk board."* It has
+that moment: the item's `explain` names *wydawać* = spend, names the pack that
+taught it, and says the seeming-sense lives **only** in the whole three-word
+phrase. Nothing in the pack decomposes it, and no sentence anywhere uses `wydaje`
+in its spending job.
+
+**Twelve words in four jobs**, which is `b2_discussion_func`'s own shape and its
+own warning — near-synonymous adverbs dumped together is the cliff load-splitting
+forbids. HEDGING (`pewnie`, `wydaje mi się`, `byłoby dobrze`) · PRECISION
+(`naprawdę`, `dokładnie`, `właściwie`, `przynajmniej`) · DEGREE (`całkiem`,
+`zupełnie`) · FRAMING (`szczerze mówiąc`) · and opening `uważać` (`uważasz`,
+`uważa`). **No two items are interchangeable in a sentence** — that was the test
+each candidate had to pass, and it is what killed `prawdopodobnie`.
+
+`pewnie` is a trap and is named: `na pewno` (owned since B1) means **definitely**;
+`pewnie` alone is the other end of the same scale. `byłoby` is absorbed from
+`c1_cond_past`, which logged it held with *"cheapest home `c1_nuance` or
+`c1_register`"* — it arrives as `byłoby dobrze`, genuinely on-register for a
+hedging pack rather than a form parked in a convenient bin. `uważasz`/`uważa`
+pay `b2_discussion_func`'s logged cost, which that pack stated plainly: Dad could
+say what **he** considered and could not ask.
+
+**`sprzątać`/`posprzątać` was NOT taken, and that is now permanent unless James
+overrules.** Carried unresolved since batch 11; batch 13 named this pack as the
+one that "could cheaply absorb" it. It was refused because the vocab register
+principle carried unchanged from B1 and B2 forbids revisiting an earlier topic
+domain, and a cleaning verb in a hedging pack reads as a dumping ground. **This
+was the last vocab pack on the path** — every remaining C1 node is grammar, a
+gym, a footnote or the capstone — so **the course now ends with no verb for
+cleaning.** The fix is one line in this pack's block plus two sentences.
+
+Also refused, all verified: `około` (real and useful, but it is a **Genitive
+governor**, and this course's vocab packs do not ship governors; it would need a
+`case-map.json` row and would step on `c1_time_minutes`' *około piątej*); `wcale`
+(`c1_neg_polarity`'s, three nodes ahead); `racja`/`rację` (NEW as bare forms —
+`b1_opinions` owns *mam rację* whole, and chunks are never decomposed, so
+*masz rację* appears entire and nothing blanks inside it).
+
+### How the three units were verified, and the one live defect it found
+
+Beyond `audit.py` — which only ever checks **declared** tags and so cannot see a
+stray Polish word — each pack was run through a token-level checker over every
+learner-facing surface against its own position-aware pool. It asserts twelve
+match rows, no duplicate answers or prompts inside any stage under a mirror of
+the engine's `norm()`, one `___` per cloze frame, the Pisanie ≤3-word cap, that
+no Pisanie frame reconstructs a Użycie sentence, that every declared
+`uses_lemma`/`uses_structure` is pool-legal, and that the GLUE_LEMMAS pronouns
+(`on`/`ona`/`my`/`wy`) — which the auditor structurally cannot see — appear
+nowhere. It was **tightened mid-run**: English situational prose in a quiz prompt
+was masking the Polish check, so the checker now treats a prompt carrying `___`
+as a Polish frame and one without as English, and grades a diacritic-bearing
+unknown as an error against an ASCII-only unknown as a warn to read by eye.
+
+**The vocab checker was then run against an already-shipped pack as a control,
+to prove it was not passing vacuously — and it failed.** `c1_society`
+[197] had **two `Czy…?` sentences whose `accepts` did not include the czy-less
+form**, which is a live false wrong on exactly the correction James smoke-flagged
+on 2026-08-07. A course-wide scan of every `sentences[]`, `use_items[]` and
+`type_items[]` answer in all 216 packs confirms those two were the **only**
+survivors of that sweep — everywhere else the rule holds. Fixed in `bb6f12e`.
+
+### For James to smoke — batch 14
+
+1. **`stać się` against `został`.** Slide 2 of `c1_stac_sie` tells you that for a
+   job title Polish more often says *został lekarzem*, then goes on to drill
+   *stał się lekarzem*. That is honest and it is the only complement the pool
+   offers — every Instrumental identity noun the course owns is a profession. If
+   it reads as "here is a verb, but use the other one", the fix is to move the
+   unit's centre of gravity onto the *happen* sense and cut the become half to
+   one slide.
+2. **`stać` = to stand, as a scored match row.** Naming the homograph is the
+   spine's instruction; giving it a board row goes one step further and teaches
+   the string. It is the safest way to stop the collision stinging, but it does
+   put a sense in the learner's head that nothing else in the course uses.
+3. **`powinnyśmy`/`powinnyście` missing.** The paradigm you meet is 4-of-6 by
+   design, for a stated reason. Say the word if you want it closed.
+4. **`powinienem był` at all.** Slide 3 says outright that it belongs more to
+   careful speech and writing and that nobody will pull you up for leaving the
+   *był* out — the same posture `c1_cond_past` took one node earlier, now twice
+   in three units. Two units in a row telling you "you probably won't need this"
+   is worth a check before `c1_register` takes the same line a third time.
+5. **`sprzątać`.** Last call, and it has now passed. See above.
+
+### Still open after batch 14
+
+- **`c1_which_case` [235]** — still buildable only once path 234 is live. Fourth
+  run in a row it has had to wait; **9 nodes to go**.
+- **`sprzątać`/`posprzątać`** — no longer "carried"; the last vocab pack has
+  shipped without it. James's call or it is out of RUPL for good.
+- **`bylibyśmy`/`byliby`**, **`mieli`/`miały`**, **`stali się`/`stały się`**,
+  **`stanę`/`staniesz`/`staną`**, **`uważają`**, **`powinnyśmy`/`powinnyście`**,
+  **`powinniśmy byli`** — all verified NEW, all deliberately untaught, each
+  logged in its own pack's note.
+- **The 161 fold variants** whose `accepts` contains the deaccented form of their
+  own answer, suppressing the „z ogonkami" correction. Unresolved since the fifth
+  repair run; still a one-line script in either direction, still James's call.
+- **The vocabulary volume finding** (`codex/LEVEL-AUDIT-2026-08-07.md`) — untouched.
+
+### Next run
+
+`c1_time_minutes` [226] is next in `path_order`, then `c1_dates_full` [227] and
+`c1_collective_num` [228] — Block 8, numerals and time. Two warnings for whoever
+takes them. **`za` is TAUGHT in the thanking job only** (`b1_polite`), and
+`c1_time_minutes` owns its second, time job — *za piętnaście* — so that unit must
+name the two-job split the way `b2_prosic_o` named `o`'s. **`c1_time_minutes`
+also carries `a2_ordinals_time`'s second fence**, the feminine Nominative hour
+(*Jest trzecia*), which that pack called "a THIRD inflected set" and deferred
+under load-splitting. And the standing rule holds: **every C1 unit that ships a
+new governor must add its row to `data/case-map.json` in the same commit** —
+`około` was refused here partly on that ground, and `case-map.json` still has no
+rows after `b2_prosic_o` [165] except the ones Block 5 added.
