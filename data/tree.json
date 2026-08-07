@@ -3843,18 +3843,19 @@
     {
       "id": "c1_adj_pl_loc",
       "domain": "grammar",
-      "label": "W dużych sklepach · miejscownik",
+      "label": "W dużych sklepach",
       "label_en": "Plural adjectives in the Locative · -ych again",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 2. NO NEW ENDINGS - -ych doing its second job, after w/na/o. The course's 'same ending, another job' idiom, FIFTH turn (inst_identity -> inst_z -> inst_transport -> b2_adj_inst -> here). Directly unblocks the sentence b2_loc_pl's digest flagged as unsayable: 'in the big cities'. FENCE: -ymi, -ym nowhere. Spine O2's alternative was merging this into unit 1 (same ending); rejected on the b2_adj_loc/b2_adj_inst precedent - different governors - and it is the FIRST item on the O1 trim list if C1 must shrink.",
+      "note": "C1 Block 2, unit 2 (C1-SPINE O2) — -ych doing its second job, and the course's 'same ending, another job' idiom on its fifth turn (inst_identity -> inst_z -> inst_transport -> b2_adj_inst -> here). ZERO NEW FORMS in the whole unit, so teaches_lemmas is legitimately empty on the copular_future / adj_inst / ze_clauses / passive / existential_tense convention: dobrych, nowych, małych and dużych came from c1_adj_pl_gen one node back, every noun is one of the eleven Locative plurals b2_loc_pl owns, and all three governors (w, na, o) have been in the course since A1/A2. Unblocks the sentence b2_loc_pl's digest flagged as unsayable — w dużych miastach, 'in the big cities'. The spine's own illustration Myślę o starych filmach is unbuildable and was replaced rather than smuggled in: starych and filmach are BOTH verified NEW. na appears exactly once because biurkach is the only one of the eleven nouns that takes it. The singular contrast is fully owned (b2_adj_loc's -ym, b2_adj_gen's -ej), so the choice is shown honestly and then collapsed across all three genders. Distractor catch, recurring from the previous node: duży has no taught singular oblique — dużym, dużego, dużej are all NEW — so every singular row uses dobry/nowy/mały. Fenced: no -ymi (c1_adj_pl_inst) and no plural-Dative -ym (c1_adj_pl_dat); -ym appears only as the singular Locative b2_adj_loc taught, and c1_adj_pl_dat must name that collision rather than assume it. No virile forms; ludzie appears once as a bare subject with no adjective on it. Pisanie is eight three-word prepositional phrases — the Locative has no minimal unit without its governor, which is the w domu shape AGENTS names.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_loc.json"
     },
     {
       "id": "c1_adj_pl_inst",

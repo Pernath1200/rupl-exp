@@ -138,6 +138,7 @@ STRUCTURE_CATALOGUE = {
     "existential_tense",
     "wiedziec",
     "adj_pl_gen",
+    "adj_pl_loc",
 }
 
 GLUE_LEMMAS = {
