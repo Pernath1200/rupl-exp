@@ -1,0 +1,716 @@
+{
+  "id": "c1_dawac_perf",
+  "title": "Dam, dasz, da",
+  "title_en": "Giving, finished off · the one-go half",
+  "level": "C1",
+  "tree_node": "c1_dawac_perf",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 9 (path 218). The perfective half of the -dawac family, which dawac_family [173] fenced entire and by name.\n\nTHE BRIEF'S CENTRAL PREMISE IS WRONG AND THIS PACK CORRECTS IT - the fourth time a C1 unit has had to. C1-SPINE quotes dawac_family's fence as the reason this unit exists: 'dac is irregular (dam/dasz/da, an -m/-sz paradigm THE COURSE HAS NEVER TAUGHT), so the family's perfective half is a genuine second system'. It is not a second system. check_new.py against 209 live nodes: the -m/-sz endings are owned SINCE A1 ON miec (mam/masz/ma/mamy/macie/maja <- a1_miec [9]) and were run down the page a second time as an explicit parallel by wiedziec [185], whose own catalogue entry says so in as many words - 'the endings are the -m/-sz set owned since A1 on miec, run down the page as a parallel'. jem/jesz <- a2_routine [75] and umiem <- trunk_can_a1 [24] are the same set again. So dam/dasz/da is the FOURTH meeting with these endings, not the first, and slide 1 is a payoff rather than a new paradigm. NINETEEN NEW STRINGS, FOUR NEW VERBS, and - after the correction - exactly ONE new ending in the whole unit.\n\nTHAT ONE ENDING IS dadza, AND IT IS THE UNIT'S BEST FACT BECAUSE THE LEARNER HAS ALREADY MET THE SAME BREAK ONCE. wiedziec named wiedza as 'the ONE place the parallel breaks - maja would predict a form that does not exist'. dadza is that break a second time, on a different verb, and slide 2 runs all three third-person plurals side by side (maja / wiedza / dadza) so the learner sees a pattern in the exceptions rather than a list of them.\n\nTHE PLURAL IS TAUGHT ON dac AND ON NO OTHER VERB, and this is a deliberate mirror rather than an inconsistency. Verified this run: dawac's plural is OWNED IN FULL (daja, dajemy, dajecie <- b1_giving [120]) while oddawac/wydawac/podawac are SINGULAR-ONLY (oddaja, podaja, wydaja, oddajemy, podajemy, wydajemy all verified NEW - dawac_family fenced the plural for the three it added). So the perfective column is built to mirror the imperfective column EXACTLY: dac full, the other three singular. Two consequences, both load-bearing. (1) The dadza break is DEMONSTRABLE, because daja is owned - the learner can be shown the form he would predict. (2) Teaching oddadza/podadza/wydadza would outrun the imperfective side on verbs whose plural he cannot yet say at all, which is the lopsided inventory load-splitting exists to prevent.\n\nAN EARLIER DRAFT OF THIS RUN GOT THAT BACKWARDS AND IS RECORDED SO THE REASONING IS NOT REDISCOVERED: it was going to fence the plural entirely, on the ground that dawac_family was singular-only and the break could not be shown. That was checked rather than assumed, and check_new.py reported daja/dajemy/dajecie TAUGHT since [120] - dawac_family's fence covered the three verbs it ADDED, not dawac itself, which b1_giving had already given in full. The unit's whole shape turns on that one check.\n\nTHE PERFECTIVE-PRESENT-IS-FUTURE FACT IS RECYCLED, NOT TAUGHT: perf_future is owned since b1_perf_future [102], so slide 4 restates it on four new verbs (daje = I give / I am giving against dam = I will give) rather than introducing it. That is the second reason this unit is cheap.\n\nGOVERNMENT IS INHERITED WHOLESALE FROM dawac_family SLIDE 3 and re-shown on the perfectives: three of the four take a Dative person plus an Accusative thing (dative_sg's mamie/tacie/siostrze/bratu, dative_pron's mi/ci), and wydac takes NO Dative at all because money does not go to a named person. Keeping that asymmetry visible is what makes the four verbs a family rather than a list.\n\nSENSE CUTS HELD EXACTLY AS dawac_family SET THEM, and one of them is a James-locked fence: podac is pass/serve ONLY, and wydac is the MONEY sense ONLY - so wydac ksiazke (to publish) appears nowhere, and *wydaje mi sie* APPEARS NOWHERE, which matters because R7 assigns it to c1_nuance as a chunk with an explicit homograph line. wydaje occurs in this pack exactly once, as a quiz distractor inside a money sentence, which is the sense it was taught in.\n\ndaj IS NOT EXPLAINED HERE AND THAT IS DELIBERATE: it is TAUGHT <- a2_imperative [95] as a frozen chunk and c1_imperative_stems [219] - the very next node - exists partly to explain it. No imperative of any of these four verbs appears anywhere in this pack.\n\nKONTROLA IS TWELVE REAL-FORM CHOICES AND NO META-QUESTION; the discrimination is carried by a time word or an English gloss deciding aspect and person (jutro/teraz <- leaf_time_cal_a1 [37]), never by a question about the language. NO FABRICATED NON-WORDS: *dadze - the shape a learner might build by analogy from dam - was drafted as a distractor on item 12 and REMOVED; every choice in the pack is a real form either owned or taught here. HOMOGRAPH DISCIPLINE: mamy appears once, in slide 1's miec column, in the job AGENTS' homograph table assigns it (the verb 'we have'), and nowhere as a Genitive; ksiazke is the Accusative and ksiazki never appears. czy IS OPTIONAL: both Uzycie questions accept the czy-less form per the AGENTS accepts rule.\n\nPISANIE IS TEN SINGLE FORMS TYPED WHOLE; Uzycie carries the sentences, disjoint by construction. MATCH CANNOT HOLD ALL NINETEEN STRINGS (the sec_imperf/pisac_family precedent, logged): twelve rows carry all four infinitives, the whole singular of dac plus dadza, and one form of each other verb, while the intro grids show damy/dacie/oddasz/wydasz/podasz/poda - so every-form-taught is met by the tables. NO case-map.json ROW IS ADDED: this unit ships no governor, and its Dative and Accusative are both long since mapped.",
+  "focus_structures": [
+    "dawac_perf"
+  ],
+  "teaches_structures": [
+    "dawac_perf"
+  ],
+  "teaches_lemmas": [
+    "dać",
+    "dam",
+    "dasz",
+    "da",
+    "damy",
+    "dacie",
+    "dadzą",
+    "oddać",
+    "oddam",
+    "oddasz",
+    "odda",
+    "wydać",
+    "wydam",
+    "wydasz",
+    "wyda",
+    "podać",
+    "podam",
+    "podasz",
+    "poda"
+  ],
+  "uses_structures": [
+    "dawac_perf",
+    "dawac_family",
+    "perf_future",
+    "aspect_past",
+    "aspect_prefixes",
+    "miec_present",
+    "miec_acc",
+    "wiedziec",
+    "dative_sg",
+    "dative_pron",
+    "musiec",
+    "can_inf",
+    "question",
+    "present_e_esz",
+    "prefix_lens",
+    "prefix_semantics"
+  ],
+  "intro": [
+    {
+      "title": "The other half of the family",
+      "title_pl": "dawać → dać",
+      "body": "You have four verbs on the root -dawać, and every one of them is the version you use for something in progress or something done again and again.\n\nEach has a partner for the same action done once, and finished. Those four partners are what this unit gives you. Nothing about the meanings changes.",
+      "body_pl": "dawać · oddawać · wydawać · podawać",
+      "table": {
+        "headers": [
+          "In progress / repeated",
+          "What it means",
+          "Once, and done"
+        ],
+        "rows": [
+          [
+            "dawać",
+            "to give",
+            "dać"
+          ],
+          [
+            "oddawać",
+            "to give back",
+            "oddać"
+          ],
+          [
+            "wydawać",
+            "to spend money",
+            "wydać"
+          ],
+          [
+            "podawać",
+            "to pass, to hand over, to serve",
+            "podać"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "You have had these endings since A1",
+      "title_pl": "mam · wiem · dam",
+      "body": "dać takes the -m / -sz set. That is not a new pattern: it is the set mieć has had since your first week, and you met it a second time on wiedzieć.\n\nRead the table across. Three different verbs, one set of endings.",
+      "body_pl": "mam · wiem · dam",
+      "table": {
+        "headers": [
+          "",
+          "mieć",
+          "wiedzieć",
+          "dać"
+        ],
+        "rows": [
+          [
+            "I …",
+            "mam",
+            "wiem",
+            "dam"
+          ],
+          [
+            "you …",
+            "masz",
+            "wiesz",
+            "dasz"
+          ],
+          [
+            "he / she …",
+            "ma",
+            "wie",
+            "da"
+          ],
+          [
+            "we …",
+            "mamy",
+            "wiemy",
+            "damy"
+          ],
+          [
+            "you (more than one) …",
+            "macie",
+            "wiecie",
+            "dacie"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One row breaks, and it breaks the same way twice",
+      "title_pl": "mają · wiedzą · dadzą",
+      "body": "The they row is where these verbs stop agreeing with each other, and you have already seen this once: when you learned wiedzieć you were told that wiedzą is the one form mieć would not predict.\n\ndać does the same thing. From dam you would expect dają — and dają is a real word, but it belongs to dawać, not to dać. The one-go verb is dadzą.",
+      "body_pl": "dadzą — nie dają.",
+      "table": {
+        "headers": [
+          "",
+          "mieć",
+          "wiedzieć",
+          "dać"
+        ],
+        "rows": [
+          [
+            "they …",
+            "mają",
+            "wiedzą",
+            "dadzą"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "My parents give Dad a present.",
+          "pl": "Rodzice dają tacie prezent."
+        },
+        {
+          "en": "My parents will give Dad a present.",
+          "pl": "Rodzice dadzą tacie prezent."
+        }
+      ]
+    },
+    {
+      "title": "Four verbs, one set of endings",
+      "title_pl": "dam · oddam · wydam · podam",
+      "body": "The prefix does not touch the endings. Read across: each row is one person, and the four verbs behave identically at every one of them.",
+      "body_pl": "dać · oddać · wydać · podać",
+      "table": {
+        "headers": [
+          "",
+          "dać",
+          "oddać",
+          "wydać",
+          "podać"
+        ],
+        "rows": [
+          [
+            "I …",
+            "dam",
+            "oddam",
+            "wydam",
+            "podam"
+          ],
+          [
+            "you …",
+            "dasz",
+            "oddasz",
+            "wydasz",
+            "podasz"
+          ],
+          [
+            "he / she …",
+            "da",
+            "odda",
+            "wyda",
+            "poda"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "These forms point at the future",
+      "title_pl": "daję → dam",
+      "body": "This is the part worth slowing down on, and it is a fact you already have: a one-go verb has no present. Its present-shaped forms mean the future.\n\nSo daję is I give or I am giving — happening now. dam is I will give — one go, and it will be done.",
+      "body_pl": "daję — teraz. dam — jutro.",
+      "table": {
+        "headers": [
+          "In progress",
+          "means",
+          "Once, and done",
+          "means"
+        ],
+        "rows": [
+          [
+            "daję",
+            "I give / I am giving",
+            "dam",
+            "I will give"
+          ],
+          [
+            "oddaję",
+            "I give back",
+            "oddam",
+            "I will give back"
+          ],
+          [
+            "wydaję",
+            "I spend",
+            "wydam",
+            "I will spend"
+          ],
+          [
+            "podaję",
+            "I pass",
+            "podam",
+            "I will pass"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I am giving Mum the key now.",
+          "pl": "Teraz daję mamie klucz."
+        },
+        {
+          "en": "I will give Mum the key tomorrow.",
+          "pl": "Jutro dam mamie klucz."
+        }
+      ]
+    },
+    {
+      "title": "What each one takes after it",
+      "title_pl": "Dam mamie klucz.",
+      "body": "Nothing changes here either. Three of the four move a thing from one person to another, so they take a person in the Dative and a thing in the Accusative — the frame you built across the whole of B1's dative block.\n\nwydać is the odd one out, exactly as wydawać was. Money does not go to a named person, so there is no Dative in the sentence at all.",
+      "body_pl": "komu — co",
+      "table": {
+        "headers": [
+          "Verb",
+          "person (Dative)",
+          "thing (Accusative)"
+        ],
+        "rows": [
+          [
+            "Dam",
+            "mamie",
+            "klucz."
+          ],
+          [
+            "Oddam",
+            "siostrze",
+            "książkę."
+          ],
+          [
+            "Podam",
+            "tacie",
+            "sól."
+          ],
+          [
+            "Wydam",
+            "—",
+            "pieniądze."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "to give — one go, and it is done",
+      "pl": "dać"
+    },
+    {
+      "en": "I will give",
+      "pl": "dam"
+    },
+    {
+      "en": "you will give",
+      "pl": "dasz"
+    },
+    {
+      "en": "he will give",
+      "pl": "da"
+    },
+    {
+      "en": "they will give",
+      "pl": "dadzą"
+    },
+    {
+      "en": "to give back — one go",
+      "pl": "oddać"
+    },
+    {
+      "en": "I will give back",
+      "pl": "oddam"
+    },
+    {
+      "en": "he will give back",
+      "pl": "odda"
+    },
+    {
+      "en": "to spend money — one go",
+      "pl": "wydać"
+    },
+    {
+      "en": "I will spend",
+      "pl": "wydam"
+    },
+    {
+      "en": "to pass, to hand over — one go",
+      "pl": "podać"
+    },
+    {
+      "en": "I will pass",
+      "pl": "podam"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Jutro ___ mamie klucz. (I will give it — one go)",
+      "choices": [
+        "dam",
+        "daję",
+        "dać",
+        "dasz"
+      ],
+      "answer": "dam",
+      "explain": "Tomorrow, and finished: the one-go verb. Its present-shaped form is the future."
+    },
+    {
+      "prompt": "Teraz ___ mamie klucz. (I am giving it)",
+      "choices": [
+        "daję",
+        "dam",
+        "dać",
+        "da"
+      ],
+      "answer": "daję",
+      "explain": "Happening now, so the in-progress verb. dam could only mean tomorrow."
+    },
+    {
+      "prompt": "Brat ___ siostrze książkę. (will give it back)",
+      "choices": [
+        "odda",
+        "oddam",
+        "oddaje",
+        "oddać"
+      ],
+      "answer": "odda",
+      "explain": "He, not I — the -sz/-m set puts nothing on the end for he."
+    },
+    {
+      "prompt": "___ pieniądze. (I will spend)",
+      "choices": [
+        "Wydam",
+        "Wydaję",
+        "Wydać",
+        "Wydasz"
+      ],
+      "answer": "Wydam",
+      "explain": "One go, first person. Note there is no Dative here: money goes to nobody named."
+    },
+    {
+      "prompt": "Mama ___ tacie sól. (will pass it)",
+      "choices": [
+        "poda",
+        "podam",
+        "podaje",
+        "podać"
+      ],
+      "answer": "poda",
+      "explain": "Same ending as da and odda — the prefix never touches it."
+    },
+    {
+      "prompt": "___ mi klucz? (will you give it — one go)",
+      "choices": [
+        "Dasz",
+        "Dajesz",
+        "Dam",
+        "Da"
+      ],
+      "answer": "Dasz",
+      "explain": "Dajesz would ask whether you give it as a habit. This asks about one occasion."
+    },
+    {
+      "prompt": "Muszę ___ mamie prezent. (give it)",
+      "choices": [
+        "dać",
+        "dam",
+        "daję",
+        "dasz"
+      ],
+      "answer": "dać",
+      "explain": "muszę is followed by the plain dictionary form, so no ending is chosen at all."
+    },
+    {
+      "prompt": "Chcę ___ książkę. (give it back)",
+      "choices": [
+        "oddać",
+        "oddam",
+        "oddaję",
+        "odda"
+      ],
+      "answer": "oddać",
+      "explain": "chcę takes the same plain form as muszę."
+    },
+    {
+      "prompt": "___ ci adres. (I will give you)",
+      "choices": [
+        "Podam",
+        "Podaję",
+        "Podać",
+        "Poda"
+      ],
+      "answer": "Podam",
+      "explain": "Handing over a piece of information is podać, and one go makes it the future."
+    },
+    {
+      "prompt": "Tata ___ pieniądze. (will spend)",
+      "choices": [
+        "wyda",
+        "wydam",
+        "wydaje",
+        "wydać"
+      ],
+      "answer": "wyda",
+      "explain": "He, one go. wydaje would mean he spends as a matter of habit."
+    },
+    {
+      "prompt": "Czy ___ mi sól? (will you pass it)",
+      "choices": [
+        "podasz",
+        "podajesz",
+        "podam",
+        "podać"
+      ],
+      "answer": "podasz",
+      "explain": "At a table you are asking about this once, so the one-go verb."
+    },
+    {
+      "prompt": "Rodzice ___ tacie prezent. (they will give)",
+      "choices": [
+        "dadzą",
+        "dają",
+        "dajemy",
+        "dacie"
+      ],
+      "answer": "dadzą",
+      "explain": "The one row mieć will not predict for you. dają is real, but it belongs to dawać."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "to give — one go, and it is done",
+      "mode": "full_word",
+      "answer": "dać",
+      "accepts": [
+        "dać"
+      ]
+    },
+    {
+      "prompt_en": "I will give",
+      "mode": "full_word",
+      "answer": "dam",
+      "accepts": [
+        "dam"
+      ],
+      "explain": "The same -m you have on mam and wiem."
+    },
+    {
+      "prompt_en": "you will give",
+      "mode": "full_word",
+      "answer": "dasz",
+      "accepts": [
+        "dasz"
+      ]
+    },
+    {
+      "prompt_en": "he will give",
+      "mode": "full_word",
+      "answer": "da",
+      "accepts": [
+        "da"
+      ]
+    },
+    {
+      "prompt_en": "they will give",
+      "mode": "full_word",
+      "answer": "dadzą",
+      "accepts": [
+        "dadzą"
+      ],
+      "explain": "The one form the mieć pattern would get wrong — it would give you dają, which belongs to dawać."
+    },
+    {
+      "prompt_en": "to give back — one go",
+      "mode": "full_word",
+      "answer": "oddać",
+      "accepts": [
+        "oddać"
+      ]
+    },
+    {
+      "prompt_en": "I will give back",
+      "mode": "full_word",
+      "answer": "oddam",
+      "accepts": [
+        "oddam"
+      ]
+    },
+    {
+      "prompt_en": "to spend money — one go",
+      "mode": "full_word",
+      "answer": "wydać",
+      "accepts": [
+        "wydać"
+      ]
+    },
+    {
+      "prompt_en": "to pass, to hand over — one go",
+      "mode": "full_word",
+      "answer": "podać",
+      "accepts": [
+        "podać"
+      ]
+    },
+    {
+      "prompt_en": "I will pass",
+      "mode": "full_word",
+      "answer": "podam",
+      "accepts": [
+        "podam"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I will give Mum the key.",
+      "answer": "Dam mamie klucz.",
+      "accepts": [
+        "Dam mamie klucz.",
+        "Dam mamie klucz"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will give my sister the book back.",
+      "answer": "Oddam siostrze książkę.",
+      "accepts": [
+        "Oddam siostrze książkę.",
+        "Oddam siostrze książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will pass Dad the salt.",
+      "answer": "Podam tacie sól.",
+      "accepts": [
+        "Podam tacie sól.",
+        "Podam tacie sól"
+      ]
+    },
+    {
+      "prompt_en": "Type: I will spend the money.",
+      "answer": "Wydam pieniądze.",
+      "accepts": [
+        "Wydam pieniądze.",
+        "Wydam pieniądze"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother will give me the key back.",
+      "answer": "Brat odda mi klucz.",
+      "accepts": [
+        "Brat odda mi klucz.",
+        "Brat odda mi klucz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum will serve dinner.",
+      "answer": "Mama poda obiad.",
+      "accepts": [
+        "Mama poda obiad.",
+        "Mama poda obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad will spend the money.",
+      "answer": "Tata wyda pieniądze.",
+      "accepts": [
+        "Tata wyda pieniądze.",
+        "Tata wyda pieniądze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Will you give me the address?",
+      "answer": "Czy dasz mi adres?",
+      "accepts": [
+        "Czy dasz mi adres?",
+        "Czy dasz mi adres",
+        "Dasz mi adres?",
+        "Dasz mi adres"
+      ]
+    },
+    {
+      "prompt_en": "Type: I must give Mum a present.",
+      "answer": "Muszę dać mamie prezent.",
+      "accepts": [
+        "Muszę dać mamie prezent.",
+        "Muszę dać mamie prezent"
+      ]
+    },
+    {
+      "prompt_en": "Type: My parents will give Dad a present.",
+      "answer": "Rodzice dadzą tacie prezent.",
+      "accepts": [
+        "Rodzice dadzą tacie prezent.",
+        "Rodzice dadzą tacie prezent"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "dawać",
+    "daję",
+    "dajesz",
+    "daje",
+    "dajemy",
+    "dajecie",
+    "dają",
+    "oddawać",
+    "oddaję",
+    "oddaje",
+    "wydawać",
+    "wydaję",
+    "wydaje",
+    "podawać",
+    "podaję",
+    "podajesz",
+    "podaje",
+    "mieć",
+    "mam",
+    "masz",
+    "ma",
+    "mamy",
+    "macie",
+    "mają",
+    "wiedzieć",
+    "wiem",
+    "wiesz",
+    "wie",
+    "wiemy",
+    "wiecie",
+    "wiedzą",
+    "mamie",
+    "tacie",
+    "siostrze",
+    "bratu",
+    "mi",
+    "ci",
+    "klucz",
+    "klucze",
+    "książkę",
+    "sól",
+    "prezent",
+    "adres",
+    "obiad",
+    "pieniądze",
+    "mama",
+    "tata",
+    "brat",
+    "rodzice",
+    "muszę",
+    "chcę",
+    "czy",
+    "jutro",
+    "teraz"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_dawac_perf",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

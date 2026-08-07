@@ -165,6 +165,7 @@ STRUCTURE_CATALOGUE = {
     "placic_family",
     "pisac_family2",
     "prefix_semantics",
+    "dawac_perf",
 }
 
 GLUE_LEMMAS = {

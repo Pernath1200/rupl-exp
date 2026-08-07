@@ -4358,17 +4358,18 @@
       "id": "c1_dawac_perf",
       "domain": "grammar",
       "label": "Dam, dasz, da",
-      "label_en": "The perfective of dawać · a new pattern",
+      "label_en": "Giving, finished off · the one-go half",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 7, unit 6. dac/oddac/wydac/podac (all verified NEW) and the -m/-sz IRREGULAR PARADIGM (dam, dasz, da). b2_verb_family2 fenced the ENTIRE perfective half of the dawac family and said exactly why: 'dac is irregular (dam/dasz/da, an -m/-sz paradigm the course has never taught), so the family's perfective half is a genuine second system and belongs to C1 or a later run.' This is that unit. ONE new paradigm, four verbs that already exist imperfectively.",
+      "note": "[C1 SPINE] Block 7, unit 6. dac/oddac/wydac/podac (all verified NEW) and the -m/-sz IRREGULAR PARADIGM (dam, dasz, da). b2_verb_family2 fenced the ENTIRE perfective half of the dawac family and said exactly why: 'dac is irregular (dam/dasz/da, an -m/-sz paradigm the course has never taught), so the family's perfective half is a genuine second system and belongs to C1 or a later run.' This is that unit. ONE new paradigm, four verbs that already exist imperfectively. [WIRED LIVE] THE BRIEF'S PREMISE IS WRONG AND THE PACK CORRECTS IT: the -m/-sz endings are NOT new - owned since A1 on miec (mam/masz/ma/mamy/macie/maja <- a1_miec [9]) and run down the page a second time by c1_wiedziec [185] as an explicit miec parallel; jem/jesz [75] and umiem [24] are the same set again. dam/dasz/da is the FOURTH meeting with these endings, so slide 1 is a payoff, not a new paradigm. NINETEEN NEW STRINGS, FOUR NEW VERBS, exactly ONE new ending: dadza, which is the SAME break wiedziec already named on wiedza ('maja would predict a form that does not exist'), so slide 2 runs maja/wiedza/dadza side by side. THE PLURAL IS TAUGHT ON dac ONLY, mirroring the imperfective side exactly: dawac's plural is owned in full (daja/dajemy/dajecie <- b1_giving [120]) while oddawac/wydawac/podawac are singular-only, so the dadza break is demonstrable (daja is owned) and no perfective outruns its imperfective. An earlier draft was going to fence the plural entirely on the assumption that dawac_family's singular-only fence covered dawac too - check_new.py disproved it, and the unit's shape turns on that one check. perf_future is recycled not taught. Sense cuts held: podac = pass/serve only, wydac = money only, so wydaje mi sie appears NOWHERE (R7 gives it to c1_nuance). daj is NOT explained here - c1_imperative_stems [219] owns it. *dadze was drafted as a distractor and removed. Structure ID dawac_perf registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_dawac_perf.json"
     },
     {
       "id": "c1_imperative_stems",
