@@ -1,0 +1,1206 @@
+{
+  "id": "c1_which_case",
+  "title": "Który przypadek?",
+  "title_en": "Which case? · the whole system",
+  "level": "C1",
+  "tree_node": "c1_which_case",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "CASE-SELECTION UNIT, the LAST of five (codex/WHICH-CASE-SPEC.md, JAMES-LOCKED 2026-08-07), sitting immediately before c1_case_gym [236]. TEACHES NOTHING NEW - teaches_structures [] and teaches_lemmas []; every Polish string on every learner-facing surface was checked token by token against the position-aware pool for this node (make_pool.py --before c1_which_case, 223 live nodes, 2874 lemmas, 150 structures). INTRO TABLE IS DERIVED from data/case-map.json filtered to taught_by <= path 235 - THIRTY rows, six cases, split across THREE slides by case (Nom+Acc / Gen / Loc+Inst+Dat). The B2 unit needed two slides for twenty rows; three was planned from the start here rather than after a complaint, and it is also what C1-SPINE tells c1_case_gym to do with its own board. THE VOCATIVE APPEARS NOWHERE - c1_vocative_note is at path 237, two nodes AFTER this unit, so naming a seventh case here would break the spec's own rule that cases the level has not taught appear nowhere. The six cases on this map are the whole system as the learner owns it at this point. WHAT C1 ADDED TO THE MAP, and it is the largest single-level addition in the course: TEN new trigger rows across four units - na + Accusative in two jobs (c1_na_acc [204]), przez + Accusative in three (c1_przez [205]), od + Genitive in its SOURCE job as opposed to its comparison job (c1_od_source [206]), the Genitive-demanding verbs and the verbal-noun object (c1_gen_verbs [207]), and wiele/kilka (c1_quantifiers [229]). The Accusative went from two triggers to seven and the Genitive from six to twelve. TWO STRUCTURAL FACTS CARRY THE UNIT BEYOND THE TABLE: (1) five little words now do more than one job, and they split into two kinds - z, o and na CHANGE THE CASE between their jobs, while przez and od keep the same case and change only the meaning, so the case question is settled but the sentence still has to be read; (2) the case now sits on the whole phrase and the plural has its own endings, which is Block 2's payoff - and it comes with the -ych/-ym collision the spine warned about (-ych is Genitive plural, Locative plural AND virile Accusative plural; -ym is the singular m/n Locative and Instrumental as well as the plural Dative). PRONOUNS GET THEIR OWN SLIDE and they are the surface the auditor is structurally blind to: person pronouns sit in audit.py's GLUE_LEMMAS, so every pronoun string here (mnie, tobie, ciebie, mna, je, mi, ci, te) was checked by hand against the pool rather than by the gate. DISTRACTORS are real pool-legal Polish throughout - no fabricated non-words. kawie is STILL untaught at path 235 and was avoided, as it was at A1 and B2; autobusie, autobusu, spaceru, studentami, praca-Instrumental and bracie are all untaught and were wanted and refused. Where a noun had too few taught forms to fill four choices, the fourth is a DIFFERENT TRIGGER carrying its own correct form (lubie muzyke against slucham muzyki; do parku and w parku against przez park), which discriminates the governor instead of inventing a word - the a1_which_case shape. Kontrola is 8 form-choice + 4 name-the-case, the two-thirds/one-third weighting the first batch settled on and the FIFTH time it has been made without James's verdict on it.",
+  "focus_structures": [
+    "na_acc",
+    "przez_acc",
+    "od_source",
+    "gen_verbs",
+    "quantifiers",
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "pron_prep_12",
+    "pron_je"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "ten_ta_to",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "neg_gen",
+    "gen_endings",
+    "gen_pl",
+    "gen_pl_full",
+    "plural_nom",
+    "numbers_gen",
+    "quantifiers",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "o_loc",
+    "prosic_o",
+    "na_acc",
+    "przez_acc",
+    "od_source",
+    "gen_verbs",
+    "motion_chunk",
+    "chodzic",
+    "jechac",
+    "inst_identity",
+    "inst_z",
+    "inst_transport",
+    "dat_chunks",
+    "dative_sg",
+    "dative_pron",
+    "comparative",
+    "superlative",
+    "adj_acc",
+    "adj_gen",
+    "adj_loc",
+    "adj_inst",
+    "adj_dat",
+    "adj_pl_gen",
+    "adj_pl_loc",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "adj_pl_virile",
+    "loc_pl",
+    "inst_pl",
+    "dat_pl",
+    "pron_acc",
+    "pron_prep",
+    "pron_prep_12",
+    "pron_je",
+    "passive",
+    "participle_pass",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "The map, part one — Nominative and Accusative",
+      "title_pl": "mianownik · biernik",
+      "body": "Thirty triggers now, and the instruction behind all of them is the one you were given at A1: the case is chosen by the word standing in front of the noun, not by what the phrase means in English.\n\nNothing on this map is new. Every trigger here is one you have already met and used. What is new is seeing them in one place, because that is where the choosing actually happens.\n\nThe Accusative has grown more than any other case this level. It had two triggers at B2. It has seven now, and three of them are the same little word doing different work.",
+      "body_pl": "przyimek albo czasownik → przypadek",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "to jest…",
+            "Nominative · mianownik",
+            "naming something",
+            "To jest kawa."
+          ],
+          [
+            "the subject — who is doing it",
+            "Nominative · mianownik",
+            "the actor of the verb",
+            "Kawa jest dobra."
+          ],
+          [
+            "to są…",
+            "Nominative · mianownik",
+            "naming more than one",
+            "To są gazety."
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "a verb acting on a thing",
+            "Mam kawę."
+          ],
+          [
+            "proszę o…",
+            "Accusative · biernik",
+            "asking FOR something",
+            "Proszę o kawę."
+          ],
+          [
+            "na… (going TO an activity or event)",
+            "Accusative · biernik",
+            "an activity or event, not a place — a place takes do",
+            "Idę na spacer."
+          ],
+          [
+            "czekam na… (waiting FOR something)",
+            "Accusative · biernik",
+            "the thing you are waiting for — czekać chooses na",
+            "Czekam na autobus."
+          ],
+          [
+            "przez… (through, across)",
+            "Accusative · biernik",
+            "the way through — not the destination, which takes do",
+            "Idę przez park."
+          ],
+          [
+            "przez… (for how long)",
+            "Accusative · biernik",
+            "a stretch of time the action filled",
+            "przez cały dzień"
+          ],
+          [
+            "przez… (BY whom — who did it)",
+            "Accusative · biernik",
+            "the doer in a passive sentence — never the means, which is the Instrumental",
+            "List jest napisany przez tatę."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The map, part two — the Genitive, twelve triggers",
+      "title_pl": "dopełniacz",
+      "body": "The Genitive takes more triggers than any other case, and it has taken four more this level. It is worth knowing that as a fact about the language rather than meeting it one preposition at a time: when a Polish noun is not the subject and not the plain object, the Genitive is the likeliest place it has gone.\n\nRead down the column of triggers and the thread is visible. Absence, distance from, quantity, origin, comparison — all of them are about a thing being measured, missing, or come from somewhere.\n\nThe last three rows are the ones C1 added, and they are the least English-like on the whole map. No preposition stands in front of them at all. The verb itself does the choosing.",
+      "body_pl": "dwanaście przyimków i czasowników — dopełniacz",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "nie ma… / nie mam…",
+            "Genitive · dopełniacz",
+            "saying something is absent",
+            "Nie ma mleka."
+          ],
+          [
+            "ANY negated verb, not just nie mam",
+            "Genitive · dopełniacz",
+            "negation takes the object's case away",
+            "Nie kupiłem chleba."
+          ],
+          [
+            "do… (going TO a place)",
+            "Genitive · dopełniacz",
+            "destination",
+            "Idę do sklepu."
+          ],
+          [
+            "z / ze… (coming FROM)",
+            "Genitive · dopełniacz",
+            "origin",
+            "Wracam ze sklepu."
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "quantity and nearness",
+            "Dużo kawy."
+          ],
+          [
+            "pięć · sześć… (5 and above)",
+            "Genitive · dopełniacz",
+            "counted things from five up",
+            "pięć piw"
+          ],
+          [
+            "wiele · wielu · kilka · kilku",
+            "Genitive · dopełniacz",
+            "many and a few — the same many-form pięć takes",
+            "wiele książek"
+          ],
+          [
+            "od… (older THAN, cheaper THAN)",
+            "Genitive · dopełniacz",
+            "what you are comparing against",
+            "starszy od brata"
+          ],
+          [
+            "od… (FROM a person)",
+            "Genitive · dopełniacz",
+            "who something came from — a PLACE takes z/ze instead",
+            "Mam list od brata."
+          ],
+          [
+            "od… (FROM a time onwards)",
+            "Genitive · dopełniacz",
+            "when something starts — do closes the other end",
+            "od piątej do siódmej"
+          ],
+          [
+            "szukam · słucham · uczę się",
+            "Genitive · dopełniacz",
+            "a few verbs demand it where English just puts an object",
+            "Szukam pracy."
+          ],
+          [
+            "gotowanie · kupowanie · robienie (a -nie noun)",
+            "Genitive · dopełniacz",
+            "what a verbal noun acts on — it is a noun, so it cannot take an object",
+            "gotowanie obiadu"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The map, part three — Locative, Instrumental, Dative",
+      "title_pl": "miejscownik · narzędnik · celownik",
+      "body": "The other three cases, unchanged since B2. Between them they hold the two triggers that are easiest to lose entirely.\n\nThe Locative never appears without a preposition. There is no sentence in Polish where a noun stands in the Locative on its own, so if you cannot find a w, na or o in front of it, it is not Locative.\n\nThe Instrumental is the opposite, and it is the only invisible trigger on the whole map: a vehicle takes the Instrumental with nothing in front of it at all.",
+      "body_pl": "miejscownik — zawsze przyimek · narzędnik — nie zawsze",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w / na — meaning WHERE something is",
+            "Locative · miejscownik",
+            "static position, never movement",
+            "Jestem w sklepie."
+          ],
+          [
+            "o… (ABOUT a topic)",
+            "Locative · miejscownik",
+            "what you are talking about",
+            "Mówię o pracy."
+          ],
+          [
+            "jestem… (a job or an identity)",
+            "Instrumental · narzędnik",
+            "what someone IS",
+            "Jestem nauczycielem."
+          ],
+          [
+            "z… (WITH a person)",
+            "Instrumental · narzędnik",
+            "company — the same word z, a different job from z + Genitive",
+            "Idę z bratem."
+          ],
+          [
+            "travelling BY something",
+            "Instrumental · narzędnik",
+            "means of transport, no preposition at all",
+            "Jadę autobusem."
+          ],
+          [
+            "podoba mi się · smakuje mi",
+            "Dative · celownik",
+            "liking and tasting — learned whole at A2",
+            "Podoba mi się."
+          ],
+          [
+            "pomagam · dziękuję",
+            "Dative · celownik",
+            "the person you help or thank",
+            "Pomagam mamie."
+          ],
+          [
+            "daję · oddaję",
+            "Dative · celownik",
+            "the person who receives it",
+            "Rodzice dają tacie prezent."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Five little words do more than one job — in two different ways",
+      "title_pl": "z · o · na · przez · od",
+      "body": "This is where the map costs you something, and it is worth separating the two kinds of double duty, because only one of them is a case problem.\n\nz, o and na change the case between their jobs. z takes the Genitive for FROM and the Instrumental for WITH; o takes the Locative for about and the Accusative after proszę; na takes the Locative for where something is and the Accusative for an activity you are setting off to. For these three, reading the sentence wrong gives you the wrong ending.\n\nprzez and od are different. Each does several jobs but keeps one case throughout — przez is always Accusative, od is always Genitive. The ending is safe. Only the meaning has to be worked out, and the sentence around it does that for you.",
+      "body_pl": "ten przyimek — dwa przypadki",
+      "table": {
+        "headers": [
+          "The word",
+          "The job",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "z / ze",
+            "coming from",
+            "Genitive · dopełniacz",
+            "Wracam ze sklepu."
+          ],
+          [
+            "z",
+            "together with",
+            "Instrumental · narzędnik",
+            "Idę z bratem."
+          ],
+          [
+            "o",
+            "about a topic",
+            "Locative · miejscownik",
+            "Mówię o pracy."
+          ],
+          [
+            "proszę o",
+            "asking for something",
+            "Accusative · biernik",
+            "Proszę o kawę."
+          ],
+          [
+            "w / na",
+            "where something is",
+            "Locative · miejscownik",
+            "Jestem w sklepie."
+          ],
+          [
+            "na",
+            "off to an activity",
+            "Accusative · biernik",
+            "Idę na spacer."
+          ],
+          [
+            "przez",
+            "through, across",
+            "Accusative · biernik",
+            "Idę przez park."
+          ],
+          [
+            "przez",
+            "by whom — who did it",
+            "Accusative · biernik",
+            "List jest napisany przez tatę."
+          ],
+          [
+            "od",
+            "older than, cheaper than",
+            "Genitive · dopełniacz",
+            "starszy od brata"
+          ],
+          [
+            "od",
+            "a letter from someone",
+            "Genitive · dopełniacz",
+            "Mam list od brata."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The case sits on the whole phrase now — and the plural has its own endings",
+      "title_pl": "dużo dobrych książek · w dużych sklepach",
+      "body": "One trigger, and everything after it answers. B2 taught you that for the adjective in the singular; this level taught it for the plural, so the map now works the same way whatever you put after the trigger.\n\nRead the last two columns across, not down. The trigger never changes. Only the number does.\n\nOne warning, because it is the place this gets hard to read rather than hard to choose. The plural endings collide: -ych is the Genitive plural, the Locative plural AND the object form of a men-group all at once, and -ym is the plural Dative as well as the singular Locative and Instrumental you have had since B2. That is a reason to name the case out loud before writing the ending. Get the trigger right and the collision cannot hurt you; guess from the ending and it will.",
+      "body_pl": "przymiotnik i rzeczownik — jeden przypadek",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Case",
+          "One thing",
+          "More than one"
+        ],
+        "rows": [
+          [
+            "mam · znam",
+            "Accusative · biernik",
+            "mam dobrą kawę",
+            "mam dobre filmy"
+          ],
+          [
+            "dużo · wiele",
+            "Genitive · dopełniacz",
+            "dużo dobrej kawy",
+            "dużo dobrych książek"
+          ],
+          [
+            "w · na — where",
+            "Locative · miejscownik",
+            "w nowym sklepie",
+            "w dużych sklepach"
+          ],
+          [
+            "z — with",
+            "Instrumental · narzędnik",
+            "z dobrym kolegą",
+            "z dobrymi kolegami"
+          ],
+          [
+            "pomagam · dziękuję",
+            "Dative · celownik",
+            "pomagam nowemu studentowi",
+            "pomagam nowym studentom"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "There are a lot of good books at home.",
+          "pl": "W domu jest dużo dobrych książek."
+        },
+        {
+          "en": "People live in new houses.",
+          "pl": "Ludzie mieszkają w nowych domach."
+        },
+        {
+          "en": "Dad works with good colleagues.",
+          "pl": "Tata pracuje z dobrymi kolegami."
+        },
+        {
+          "en": "I help the new students.",
+          "pl": "Pomagam nowym studentom."
+        }
+      ]
+    },
+    {
+      "title": "A pronoun answers the same trigger a noun would",
+      "title_pl": "o pracy → o tobie · z bratem → ze mną",
+      "body": "A pronoun stands where a noun stood, so the trigger in front of it has not changed and neither has the question. do still wants the Genitive; it is only the shape of the word that is irregular.\n\nThis is worth stating because the pronoun forms look nothing like the noun endings and it is easy to treat them as a separate system to be memorised. They are not. They are the same six cases, with their own irregular shapes.\n\nOne shape rule rides along: z becomes ze in front of mną, for exactly the reason it becomes ze in front of sklepu — two consonants that would otherwise collide.",
+      "body_pl": "zaimek — przypadek jak rzeczownik",
+      "table": {
+        "headers": [
+          "Trigger",
+          "Case",
+          "With a noun",
+          "With a pronoun"
+        ],
+        "rows": [
+          [
+            "o — about",
+            "Locative · miejscownik",
+            "Mówię o pracy.",
+            "Mówię o tobie."
+          ],
+          [
+            "z — with",
+            "Instrumental · narzędnik",
+            "Idę z bratem.",
+            "Brat pracuje ze mną."
+          ],
+          [
+            "do — going to",
+            "Genitive · dopełniacz",
+            "Idę do sklepu.",
+            "Idę do ciebie."
+          ],
+          [
+            "od — from",
+            "Genitive · dopełniacz",
+            "Mam list od brata.",
+            "Brat jest starszy od ciebie."
+          ],
+          [
+            "znam · mam — a thing",
+            "Accusative · biernik",
+            "Znam te filmy.",
+            "Znam je."
+          ],
+          [
+            "pomagam — a person",
+            "Dative · celownik",
+            "Pomagam mamie.",
+            "Mama pomaga mi."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The question to ask, every time",
+      "title_pl": "przyimek → czasownik → nie? → końcówka",
+      "body": "The order of the questions has not changed since A1. There is simply more that answers to each one, and this is the last time the course will set it out.\n\nIs there a preposition in front? Then the preposition chooses — and check which job it is doing, because z, o and na each take two different cases.\n\nNo preposition, but a verb? Then the verb chooses: a thing takes the Accusative, a person on the receiving end takes the Dative, and a small group of verbs — szukać, słuchać, uczyć się — demand the Genitive instead. If there is a nie on that verb, an Accusative object becomes Genitive.\n\nOnly then ask what ending that case takes: singular or plural, on the adjective as well as the noun.",
+      "body_pl": "sześć przypadków · zawsze przyimek albo czasownik",
+      "table": {
+        "headers": [
+          "What decides it",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "nothing — the noun names or acts",
+            "Nominative · mianownik",
+            "To jest książka."
+          ],
+          [
+            "mam · piję · znam — a thing",
+            "Accusative · biernik",
+            "mam dobrą kawę"
+          ],
+          [
+            "proszę o — asking for it",
+            "Accusative · biernik",
+            "proszę o rachunek"
+          ],
+          [
+            "na — off to an activity",
+            "Accusative · biernik",
+            "na spacer"
+          ],
+          [
+            "czekam na — waiting for it",
+            "Accusative · biernik",
+            "czekam na autobus"
+          ],
+          [
+            "przez — across it, or who did it",
+            "Accusative · biernik",
+            "przez park"
+          ],
+          [
+            "do · z + a place",
+            "Genitive · dopełniacz",
+            "do nowego sklepu"
+          ],
+          [
+            "dużo · wiele · kilka",
+            "Genitive · dopełniacz",
+            "wiele książek"
+          ],
+          [
+            "pięć and above",
+            "Genitive · dopełniacz",
+            "pięć złotych"
+          ],
+          [
+            "od — than, or from",
+            "Genitive · dopełniacz",
+            "od brata"
+          ],
+          [
+            "szukam · słucham · uczę się",
+            "Genitive · dopełniacz",
+            "szukam pracy"
+          ],
+          [
+            "nie on the verb",
+            "Genitive · dopełniacz",
+            "nie piję kawy"
+          ],
+          [
+            "w · na — where you are",
+            "Locative · miejscownik",
+            "w dużych sklepach"
+          ],
+          [
+            "o — what it is about",
+            "Locative · miejscownik",
+            "o pracy"
+          ],
+          [
+            "jestem + a job",
+            "Instrumental · narzędnik",
+            "jestem nauczycielem"
+          ],
+          [
+            "z + a person",
+            "Instrumental · narzędnik",
+            "z dobrymi kolegami"
+          ],
+          [
+            "nothing at all — a vehicle",
+            "Instrumental · narzędnik",
+            "pociągiem"
+          ],
+          [
+            "pomagam · dziękuję · daję — a person",
+            "Dative · celownik",
+            "pomagam nowym studentom"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Nominative",
+          "pl": "mianownik"
+        },
+        {
+          "en": "Accusative",
+          "pl": "biernik"
+        },
+        {
+          "en": "Genitive",
+          "pl": "dopełniacz"
+        },
+        {
+          "en": "Locative",
+          "pl": "miejscownik"
+        },
+        {
+          "en": "Instrumental",
+          "pl": "narzędnik"
+        },
+        {
+          "en": "Dative",
+          "pl": "celownik"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "after na · a walk (setting off for one)",
+      "pl": "na spacer"
+    },
+    {
+      "en": "after czekam na · the bus",
+      "pl": "czekam na autobus"
+    },
+    {
+      "en": "after przez · the park (across it)",
+      "pl": "przez park"
+    },
+    {
+      "en": "after przez · Dad (the one who wrote it)",
+      "pl": "przez tatę"
+    },
+    {
+      "en": "after od · my brother (a letter from him)",
+      "pl": "od brata"
+    },
+    {
+      "en": "after szukam · work",
+      "pl": "szukam pracy"
+    },
+    {
+      "en": "after wiele · books",
+      "pl": "wiele książek"
+    },
+    {
+      "en": "after dużo · good books",
+      "pl": "dużo dobrych książek"
+    },
+    {
+      "en": "after w · the big shops",
+      "pl": "w dużych sklepach"
+    },
+    {
+      "en": "after z · good colleagues (together)",
+      "pl": "z dobrymi kolegami"
+    },
+    {
+      "en": "after pomagam · the new students",
+      "pl": "pomagam nowym studentom"
+    },
+    {
+      "en": "after ze · me (working with me)",
+      "pl": "ze mną"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You're meeting up for one — a coffee →",
+      "choices": [
+        "na kawę",
+        "na kawy",
+        "na kawa",
+        "na kaw"
+      ],
+      "answer": "na kawę",
+      "explain": "na has two jobs. For where something is it takes the Locative; for an activity you are setting off to it takes the Accusative — kawę."
+    },
+    {
+      "prompt": "You're waiting FOR it — the bus →",
+      "choices": [
+        "czekam na autobus",
+        "czekam na autobusem",
+        "czekam autobusem",
+        "czekam autobus"
+      ],
+      "answer": "czekam na autobus",
+      "explain": "czekać chooses na, and na here takes the Accusative. czekam autobusem would be the transport Instrumental — travelling by bus, not waiting for one."
+    },
+    {
+      "prompt": "Across it, not to it — the park →",
+      "choices": [
+        "przez park",
+        "przez parku",
+        "do parku",
+        "w parku"
+      ],
+      "answer": "przez park",
+      "explain": "przez takes the Accusative, and for an inanimate noun that form is the plain dictionary form. do parku and w parku are both correct Polish — they just answer a different question."
+    },
+    {
+      "prompt": "Who wrote it — Dad →",
+      "choices": [
+        "przez tatę",
+        "przez tata",
+        "przez taty",
+        "przez tacie"
+      ],
+      "answer": "przez tatę",
+      "explain": "In a passive sentence the doer stands after przez, which takes the Accusative in this job exactly as it does in the others."
+    },
+    {
+      "prompt": "A letter FROM him — my brother →",
+      "choices": [
+        "od brata",
+        "od bratem",
+        "od brat",
+        "od braci"
+      ],
+      "answer": "od brata",
+      "explain": "od always takes the Genitive, whether it means from or than. od braci is the same case in the plural — from the brothers."
+    },
+    {
+      "prompt": "The verb chooses it — music (listening to) →",
+      "choices": [
+        "słucham muzyki",
+        "słucham muzykę",
+        "słucham muzyka",
+        "lubię muzykę"
+      ],
+      "answer": "słucham muzyki",
+      "explain": "słuchać is one of the few verbs that demands the Genitive. lubić does not — lubię muzykę is right, with the ordinary Accusative."
+    },
+    {
+      "prompt": "Many of them — books →",
+      "choices": [
+        "wiele książek",
+        "wiele książki",
+        "wiele książkę",
+        "wiele książka"
+      ],
+      "answer": "wiele książek",
+      "explain": "wiele takes the Genitive plural, the same form pięć takes. książek is that form."
+    },
+    {
+      "prompt": "Where they are — the big shops →",
+      "choices": [
+        "w dużych sklepach",
+        "w dużych sklepy",
+        "w duże sklepy",
+        "w dużych sklepów"
+      ],
+      "answer": "w dużych sklepach",
+      "explain": "w for position is the Locative, and both words answer: dużych sklepach. w dużych sklepów mixes the Locative adjective with the Genitive noun."
+    },
+    {
+      "prompt": "Idę na spacer, czekam na kawę — which case does na take here?",
+      "choices": [
+        "Accusative · biernik",
+        "Locative · miejscownik",
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik"
+      ],
+      "answer": "Accusative · biernik"
+    },
+    {
+      "prompt": "Szukam pracy, słucham muzyki, uczę się polskiego — which case do these verbs demand?",
+      "choices": [
+        "Genitive · dopełniacz",
+        "Accusative · biernik",
+        "Dative · celownik",
+        "Locative · miejscownik"
+      ],
+      "answer": "Genitive · dopełniacz"
+    },
+    {
+      "prompt": "w dużych sklepach, w nowych domach — which case?",
+      "choices": [
+        "Locative · miejscownik",
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik",
+        "Nominative · mianownik"
+      ],
+      "answer": "Locative · miejscownik"
+    },
+    {
+      "prompt": "ze mną, z dobrymi kolegami — which case?",
+      "choices": [
+        "Instrumental · narzędnik",
+        "Genitive · dopełniacz",
+        "Dative · celownik",
+        "Accusative · biernik"
+      ],
+      "answer": "Instrumental · narzędnik"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm going for a walk. — na for an activity takes the Accusative",
+      "mode": "cloze",
+      "frame": "Idę na ___.",
+      "answer": "spacer",
+      "accepts": [
+        "spacer"
+      ]
+    },
+    {
+      "prompt_en": "I'm waiting for the bus.",
+      "mode": "cloze",
+      "frame": "Czekam na ___.",
+      "answer": "autobus",
+      "accepts": [
+        "autobus"
+      ]
+    },
+    {
+      "prompt_en": "I'm going through the park.",
+      "mode": "cloze",
+      "frame": "Idę przez ___.",
+      "answer": "park",
+      "accepts": [
+        "park"
+      ]
+    },
+    {
+      "prompt_en": "The letter was written by Dad. — przez names the doer",
+      "mode": "cloze",
+      "frame": "List jest napisany przez ___.",
+      "answer": "tatę",
+      "accepts": [
+        "tatę"
+      ]
+    },
+    {
+      "prompt_en": "I have a letter from my brother.",
+      "mode": "cloze",
+      "frame": "Mam list od ___.",
+      "answer": "brata",
+      "accepts": [
+        "brata"
+      ]
+    },
+    {
+      "prompt_en": "I'm looking for work. — szukać demands the Genitive",
+      "mode": "cloze",
+      "frame": "Szukam ___.",
+      "answer": "pracy",
+      "accepts": [
+        "pracy"
+      ]
+    },
+    {
+      "prompt_en": "Mum is listening to music.",
+      "mode": "cloze",
+      "frame": "Mama słucha ___.",
+      "answer": "muzyki",
+      "accepts": [
+        "muzyki"
+      ]
+    },
+    {
+      "prompt_en": "There are many books at home.",
+      "mode": "cloze",
+      "frame": "W domu jest wiele ___.",
+      "answer": "książek",
+      "accepts": [
+        "książek"
+      ]
+    },
+    {
+      "prompt_en": "I work in the big shops. — the Locative plural",
+      "mode": "cloze",
+      "frame": "Pracuję w dużych ___.",
+      "answer": "sklepach",
+      "accepts": [
+        "sklepach"
+      ]
+    },
+    {
+      "prompt_en": "I'm going with good colleagues. — the Instrumental plural",
+      "mode": "cloze",
+      "frame": "Idę z dobrymi ___.",
+      "answer": "kolegami",
+      "accepts": [
+        "kolegami"
+      ]
+    },
+    {
+      "prompt_en": "I help the new students. — the Dative plural",
+      "mode": "cloze",
+      "frame": "Pomagam nowym ___.",
+      "answer": "studentom",
+      "accepts": [
+        "studentom"
+      ]
+    },
+    {
+      "prompt_en": "Mum is talking about me. — the trigger is the same, the shape is irregular",
+      "mode": "cloze",
+      "frame": "Mama mówi o ___.",
+      "answer": "mnie",
+      "accepts": [
+        "mnie"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum is going for a walk.",
+      "answer": "Mama idzie na spacer.",
+      "accepts": [
+        "Mama idzie na spacer.",
+        "Mama idzie na spacer"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is waiting for the bus.",
+      "answer": "Tata czeka na autobus.",
+      "accepts": [
+        "Tata czeka na autobus.",
+        "Tata czeka na autobus"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is walking through the park.",
+      "answer": "Siostra idzie przez park.",
+      "accepts": [
+        "Siostra idzie przez park.",
+        "Siostra idzie przez park"
+      ]
+    },
+    {
+      "prompt_en": "Type: The book was written by Mum.",
+      "answer": "Książka jest napisana przez mamę.",
+      "accepts": [
+        "Książka jest napisana przez mamę.",
+        "Książka jest napisana przez mamę"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have a present from Grandma.",
+      "answer": "Mam prezent od babci.",
+      "accepts": [
+        "Mam prezent od babci.",
+        "Mam prezent od babci"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is looking for work.",
+      "answer": "Brat szuka pracy.",
+      "accepts": [
+        "Brat szuka pracy.",
+        "Brat szuka pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is listening to music.",
+      "answer": "Siostra słucha muzyki.",
+      "accepts": [
+        "Siostra słucha muzyki.",
+        "Siostra słucha muzyki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Many books are in the shop.",
+      "answer": "Wiele książek jest w sklepie.",
+      "accepts": [
+        "Wiele książek jest w sklepie.",
+        "Wiele książek jest w sklepie"
+      ]
+    },
+    {
+      "prompt_en": "Type: The students work in the big shops.",
+      "answer": "Studenci pracują w dużych sklepach.",
+      "accepts": [
+        "Studenci pracują w dużych sklepach.",
+        "Studenci pracują w dużych sklepach"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad works with good colleagues.",
+      "answer": "Tata pracuje z dobrymi kolegami.",
+      "accepts": [
+        "Tata pracuje z dobrymi kolegami.",
+        "Tata pracuje z dobrymi kolegami"
+      ]
+    },
+    {
+      "prompt_en": "Type: The teacher helps the new students.",
+      "answer": "Nauczyciel pomaga nowym studentom.",
+      "accepts": [
+        "Nauczyciel pomaga nowym studentom.",
+        "Nauczyciel pomaga nowym studentom"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is thinking about you.",
+      "answer": "Tata myśli o tobie.",
+      "accepts": [
+        "Tata myśli o tobie.",
+        "Tata myśli o tobie"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "kawa",
+    "kawy",
+    "kawę",
+    "kaw",
+    "dobra",
+    "dobrą",
+    "dobrej",
+    "dobre",
+    "dobrym",
+    "dobrymi",
+    "dobrych",
+    "duże",
+    "dużych",
+    "nowy",
+    "nowe",
+    "nowym",
+    "nowego",
+    "nowemu",
+    "nowych",
+    "książka",
+    "książki",
+    "książkę",
+    "książek",
+    "praca",
+    "pracy",
+    "do pracy",
+    "o pracy",
+    "w pracy",
+    "sklep",
+    "sklepu",
+    "sklepie",
+    "sklepy",
+    "sklepach",
+    "sklepów",
+    "do sklepu",
+    "ze sklepu",
+    "w sklepie",
+    "dom",
+    "domu",
+    "domach",
+    "w domu",
+    "park",
+    "parku",
+    "do parku",
+    "w parku",
+    "spacer",
+    "na spacer",
+    "autobus",
+    "autobusem",
+    "pociągiem",
+    "gazety",
+    "mleka",
+    "piwo",
+    "piw",
+    "chleba",
+    "filmy",
+    "muzyka",
+    "muzyki",
+    "muzykę",
+    "gotowanie",
+    "kupowanie",
+    "robienie",
+    "obiadu",
+    "list",
+    "napisany",
+    "napisana",
+    "cały",
+    "dzień",
+    "piątej",
+    "siódmej",
+    "brat",
+    "brata",
+    "bratem",
+    "braci",
+    "z bratem",
+    "od brata",
+    "mama",
+    "mamie",
+    "mamę",
+    "tata",
+    "tatę",
+    "taty",
+    "tacie",
+    "babci",
+    "siostra",
+    "rodzice",
+    "prezent",
+    "rachunek",
+    "nauczyciel",
+    "nauczycielem",
+    "kolega",
+    "kolegą",
+    "kolegami",
+    "z kolegą",
+    "student",
+    "studenci",
+    "studentom",
+    "studentowi",
+    "ludzie",
+    "mieszkają",
+    "starszy",
+    "od",
+    "przez",
+    "ulicę",
+    "złotych",
+    "wiele",
+    "wielu",
+    "kilka",
+    "kilku",
+    "dużo",
+    "blisko",
+    "pięć",
+    "szukam",
+    "szuka",
+    "słucham",
+    "słucha",
+    "uczę się",
+    "polskiego",
+    "czekam",
+    "czeka",
+    "znam",
+    "je",
+    "te",
+    "ten",
+    "mnie",
+    "tobie",
+    "ciebie",
+    "mną",
+    "ze",
+    "mi",
+    "jestem",
+    "jest",
+    "są",
+    "to są",
+    "mam",
+    "nie mam",
+    "nie ma",
+    "idę",
+    "idzie",
+    "mówię",
+    "mówi",
+    "myśli",
+    "piję",
+    "chcę",
+    "lubię",
+    "kupuję",
+    "kupiłem",
+    "pracuję",
+    "pracuje",
+    "pracują",
+    "pomagam",
+    "pomaga",
+    "dziękuję",
+    "daję",
+    "dają",
+    "oddaję",
+    "proszę o",
+    "proszę o kawę",
+    "jadę",
+    "nie",
+    "o"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_which_case",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
