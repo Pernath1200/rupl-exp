@@ -1,0 +1,709 @@
+{
+  "id": "c1_collective_num",
+  "title": "Dwoje dzieci · dwaj studenci",
+  "title_en": "Counting mixed groups, and the other way to count men",
+  "level": "C1",
+  "tree_node": "c1_collective_num",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE Block 8 unit 3. Two facts, both about counting PEOPLE, which is the spine's stated reason for sharing a unit and why it sits after the whole virile apparatus. SEVEN NEW STRINGS AND NOT ONE NEW ENDING OR AGREEMENT RULE - that is what makes the double load legal here. (1) COLLECTIVE NUMERALS dwoje/troje/czworo/piecioro: for a group with both men and women in it, and for children. They pull the Genitive plural (owned - gen_pl, gen_pl_full, num_virile) and the neuter-singular verb (owned - num_subject taught exactly this for five-and-up), so the only new material is the four words. (2) DWAJ, which b2_num_virile [160] fenced by name with 'it is a second system - nominative numeral, nominative noun, plural verb - and would undo slide 2's entire claim in one line'. That claim (with the man-numbers there is no 2-4 exception) is now a level behind and safe to sit beside its alternative. DELIBERATE DEVIATION FROM THE SPINE'S LETTER, LOGGED: the spine says 'dwaj'; this unit teaches dwaj, trzej AND czterej. They are the COMPLETE closed set - there is no nominative virile numeral above four - and teaching one of three would leave the learner with a shape he cannot use for the other two numbers he meets constantly, which is the half-teaching this course avoids. Two extra strings, no extra mechanism. Slide 3 states plainly that the set stops at four and that from five up pieciu studentow jest is the only option. THE FEMININE GUARD IS CARRIED FORWARD FROM b2_num_virile, which called it 'the most important thing in the pack': osoba is FEMININE, so it takes the ordinary numbers - piec osob - and neither the man-numbers nor the collectives. Quiz item 8 and use item 10 are that guard. kobiet (the Genitive plural of kobieta) is NOT TAUGHT anywhere in the course and was wanted for a second guard example; it was refused and osob used instead, which is b2_num_virile's own example. NOT TAUGHT, deliberately: collective numerals with PLURAL-ONLY nouns (dwoje drzwi) - the same word in a third job, cheap but a third job, and drzwi/okulary/spodnie are the only owned members; the -oro set above piecioro, named as continuing but with no forms shown so nothing untagged reaches the screen; and dwiema/dwoma (the oblique numerals), which no unit needs. CAUGHT IN SELF-REVIEW AND REMOVED: a use item read 'Czterej koledzy graja w pilke' - pilke is TAUGHT (a2_sport [94], in 'Mam nowa pilke') but 'grac w pilke' is w + ACCUSATIVE, an untaught governor (prep_w_loc is w + Locative), and the phrase appears nowhere in the course. Replaced with 'Czterej koledzy pija kawe'. HOMOGRAPH WATCH: dzieci is TAUGHT (a2_family2 [58]) and its Genitive plural is the SAME STRING, so troje dzieci uses a form the learner already reads correctly - named on slide 1 rather than left to look like a new word.",
+  "focus_structures": [
+    "collective_num"
+  ],
+  "teaches_structures": [
+    "collective_num"
+  ],
+  "teaches_lemmas": [
+    "dwoje",
+    "troje",
+    "czworo",
+    "pięcioro",
+    "dwaj",
+    "trzej",
+    "czterej"
+  ],
+  "uses_structures": [
+    "collective_num",
+    "num_virile",
+    "num_subject",
+    "numbers_gen",
+    "gen_pl",
+    "gen_pl_full",
+    "plural_nom",
+    "virile_nom",
+    "virile_irreg",
+    "virile_owie",
+    "byc_present",
+    "past_byc",
+    "past_plural",
+    "existential_jest",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_am",
+    "prep_w_loc",
+    "na_acc"
+  ],
+  "intro": [
+    {
+      "title": "A third set of numbers — for mixed groups, and for children",
+      "title_pl": "Dwoje dzieci · troje ludzi",
+      "body": "You already have two sets of numbers for counting: the ordinary ones (dwa koty, pięć osób) and the man-numbers (dwóch studentów). There is a third, and it covers the case the other two cannot: a group with men and women in it, and children.\n\nDwoje, troje, czworo, pięcioro. Four words, and that is the whole of what is new here.\n\nEverything they pull, you own. The noun goes into the many-form, exactly as it does after pięć. The verb goes into the -o form, exactly as it does after pięć. And dzieci is its own many-form already — the word looks the same after troje as it does on its own, so there is nothing extra to learn there either.\n\nThe set continues upward in the same shape past five, but these four cover the groups you will actually be counting.",
+      "body_pl": "Dwoje dzieci. Troje dzieci. Czworo dzieci. Pięcioro dzieci.",
+      "table": {
+        "headers": [
+          "Number",
+          "Collective",
+          "With children",
+          "English"
+        ],
+        "rows": [
+          [
+            "2",
+            "dwoje",
+            "dwoje dzieci",
+            "two children"
+          ],
+          [
+            "3",
+            "troje",
+            "troje dzieci",
+            "three children"
+          ],
+          [
+            "4",
+            "czworo",
+            "czworo dzieci",
+            "four children"
+          ],
+          [
+            "5",
+            "pięcioro",
+            "pięcioro dzieci",
+            "five children"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Two children are at home.",
+          "pl": "Dwoje dzieci jest w domu."
+        },
+        {
+          "en": "Five children were at school.",
+          "pl": "Pięcioro dzieci było w szkole."
+        }
+      ]
+    },
+    {
+      "title": "Which set, and when",
+      "title_pl": "Dwa koty · dwóch studentów · dwoje studentów",
+      "body": "The question is never what the words mean. It is what kind of word the noun is, and whether the group is mixed.\n\nThings and animals take the ordinary numbers. Feminine words take the ordinary numbers too — and this is the one that catches people: osoba means person, but it is feminine, so it is pięć osób and never anything else. That was true when you learned the man-numbers and it is still true now.\n\nMen only: the man-numbers. Men and women together, or children: the collectives.\n\nSo dwóch studentów is two male students, and dwoje studentów is one of each. Same noun, same number, different group — and the numeral is the only thing that says so.",
+      "body_pl": "Dwa koty. Pięć osób. Dwóch studentów. Dwoje studentów.",
+      "table": {
+        "headers": [
+          "What you are counting",
+          "Numbers",
+          "Example",
+          "English"
+        ],
+        "rows": [
+          [
+            "things, animals",
+            "ordinary",
+            "dwa koty",
+            "two cats"
+          ],
+          [
+            "feminine words — including osoba",
+            "ordinary",
+            "pięć osób",
+            "five people"
+          ],
+          [
+            "men only",
+            "man-numbers",
+            "dwóch studentów",
+            "two students (men)"
+          ],
+          [
+            "men and women together",
+            "collectives",
+            "dwoje studentów",
+            "two students (a man and a woman)"
+          ],
+          [
+            "children",
+            "collectives",
+            "troje dzieci",
+            "three children"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Dwaj studenci są — the other way to count men",
+      "title_pl": "Dwóch studentów jest = dwaj studenci są",
+      "body": "When you learned the man-numbers you learned one shape: dwóch studentów jest — numeral and noun in the many-form, verb in the singular.\n\nThere is a second shape, just as common, and it is the plain one. Dwaj studenci są. The numeral names, the noun names, and the verb is an ordinary plural. Nothing is pulled anywhere.\n\nThe two mean exactly the same thing. Choose either.\n\nThe catch is that this shape exists only for two, three and four — dwaj, trzej, czterej. There is no such word above four. From five up, pięciu studentów jest is your only option, and that is the shape you already have.",
+      "body_pl": "Dwaj studenci są. Trzej synowie są. Czterej koledzy są.",
+      "table": {
+        "headers": [
+          "The shape you have",
+          "The shape here",
+          "English"
+        ],
+        "rows": [
+          [
+            "dwóch studentów jest",
+            "dwaj studenci są",
+            "two students are"
+          ],
+          [
+            "trzech synów jest",
+            "trzej synowie są",
+            "three sons are"
+          ],
+          [
+            "czterech kolegów jest",
+            "czterej koledzy są",
+            "four friends are"
+          ],
+          [
+            "pięciu studentów jest",
+            "— no such shape —",
+            "five students are"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Two students are in the park.",
+          "pl": "Dwaj studenci są w parku."
+        },
+        {
+          "en": "Two brothers live in Poland.",
+          "pl": "Dwaj bracia mieszkają w Polsce."
+        }
+      ]
+    },
+    {
+      "title": "Which numeral pulls which verb",
+      "title_pl": "Dwaj są · dwóch jest · dwoje jest",
+      "body": "One table, and it settles every sentence in this unit.\n\nOnly the naming shapes take a plural verb. Everything that pulls the noun into the many-form pulls the verb into the singular as well — and in the past that singular is the -o form, which is the one you met with pięć.",
+      "body_pl": "Dwa koty są. Dwaj studenci są. Dwóch studentów jest. Dwoje dzieci jest.",
+      "table": {
+        "headers": [
+          "Phrase",
+          "Now",
+          "Past",
+          "English"
+        ],
+        "rows": [
+          [
+            "dwa koty",
+            "są",
+            "były",
+            "two cats"
+          ],
+          [
+            "dwaj studenci",
+            "są",
+            "byli",
+            "two students (men)"
+          ],
+          [
+            "dwóch studentów",
+            "jest",
+            "było",
+            "two students (men)"
+          ],
+          [
+            "dwoje dzieci",
+            "jest",
+            "było",
+            "two children"
+          ],
+          [
+            "pięć osób",
+            "jest",
+            "było",
+            "five people"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Four children were in the park.",
+          "pl": "Czworo dzieci było w parku."
+        },
+        {
+          "en": "Two students were in the shop.",
+          "pl": "Dwaj studenci byli w sklepie."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "two children",
+      "pl": "dwoje dzieci"
+    },
+    {
+      "en": "three children",
+      "pl": "troje dzieci"
+    },
+    {
+      "en": "four children",
+      "pl": "czworo dzieci"
+    },
+    {
+      "en": "five children",
+      "pl": "pięcioro dzieci"
+    },
+    {
+      "en": "two people — a man and a woman",
+      "pl": "dwoje ludzi"
+    },
+    {
+      "en": "two students — a man and a woman",
+      "pl": "dwoje studentów"
+    },
+    {
+      "en": "two students — both men, naming shape",
+      "pl": "dwaj studenci"
+    },
+    {
+      "en": "three students — all men, naming shape",
+      "pl": "trzej studenci"
+    },
+    {
+      "en": "four students — all men, naming shape",
+      "pl": "czterej studenci"
+    },
+    {
+      "en": "two brothers",
+      "pl": "dwaj bracia"
+    },
+    {
+      "en": "three sons",
+      "pl": "trzej synowie"
+    },
+    {
+      "en": "two doctors — both men",
+      "pl": "dwaj lekarze"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "two children →",
+      "choices": [
+        "dwoje dzieci",
+        "dwa dzieci",
+        "dwie dzieci",
+        "dwóch dzieci"
+      ],
+      "answer": "dwoje dzieci",
+      "explain": "Children take the collectives. Neither the ordinary numbers nor the man-numbers work here, whichever children they are."
+    },
+    {
+      "prompt": "five children →",
+      "choices": [
+        "pięcioro dzieci",
+        "pięć dzieci",
+        "pięciu dzieci",
+        "troje dzieci"
+      ],
+      "answer": "pięcioro dzieci",
+      "explain": "The collectives run past five the same way they start. Troje is three."
+    },
+    {
+      "prompt": "two students — one man and one woman →",
+      "choices": [
+        "dwoje studentów",
+        "dwaj studenci",
+        "dwóch studentów",
+        "trzech studentów"
+      ],
+      "answer": "dwoje studentów",
+      "explain": "The other two are both correct Polish for two MALE students. Only the collective says the group is mixed — and the noun is the same word in all three."
+    },
+    {
+      "prompt": "Dwaj studenci ___ w parku. (are)",
+      "choices": [
+        "są",
+        "jest",
+        "było",
+        "byli"
+      ],
+      "answer": "są",
+      "explain": "Dwaj is a naming shape, so nothing is pulled anywhere and the verb is an ordinary plural."
+    },
+    {
+      "prompt": "Dwóch studentów ___ w parku. (is/are)",
+      "choices": [
+        "jest",
+        "są",
+        "byli",
+        "będą"
+      ],
+      "answer": "jest",
+      "explain": "This is the shape you already had: the numeral pulls the noun into the many-form and the verb into the singular. Same meaning as dwaj studenci są, opposite machinery."
+    },
+    {
+      "prompt": "Dwoje dzieci ___ w domu. (was)",
+      "choices": [
+        "było",
+        "byli",
+        "były",
+        "był"
+      ],
+      "answer": "było",
+      "explain": "The collectives behave like pięć: singular verb now, the -o form in the past."
+    },
+    {
+      "prompt": "Trzej ___ są w domu. (three sons)",
+      "choices": [
+        "synowie",
+        "synów",
+        "syn",
+        "dziadkowie"
+      ],
+      "answer": "synowie",
+      "explain": "Trzej is the naming shape, so the noun names too — synowie, the plural you learned in the -owie family. Synów is the many-form that goes with trzech."
+    },
+    {
+      "prompt": "five people (osoba) →",
+      "choices": [
+        "pięć osób",
+        "pięcioro osób",
+        "pięciu osób",
+        "pięć osoby"
+      ],
+      "answer": "pięć osób",
+      "explain": "Osoba means person but it is a feminine word, so it takes the ordinary numbers and nothing else. This is the one that catches everybody."
+    },
+    {
+      "prompt": "two doctors — both men, naming shape →",
+      "choices": [
+        "dwaj lekarze",
+        "dwoje lekarzy",
+        "dwa lekarze",
+        "dwie lekarze"
+      ],
+      "answer": "dwaj lekarze",
+      "explain": "Lekarze is the naming plural, and dwaj is the numeral that leaves it alone. Dwoje lekarzy would be one man and one woman."
+    },
+    {
+      "prompt": "four children →",
+      "choices": [
+        "czworo dzieci",
+        "cztery dzieci",
+        "czterech dzieci",
+        "czterej dzieci"
+      ],
+      "answer": "czworo dzieci",
+      "explain": "Czterej counts men in the naming shape and cannot reach children; czterech is the man-number. Only czworo does this job."
+    },
+    {
+      "prompt": "two people — a man and a woman →",
+      "choices": [
+        "dwoje ludzi",
+        "dwóch ludzi",
+        "dwie osoby",
+        "dwaj studenci"
+      ],
+      "answer": "dwoje ludzi",
+      "explain": "Dwóch ludzi is two men. Dwie osoby is two people with nothing said about who they are — correct, but it is not what the collective says."
+    },
+    {
+      "prompt": "three people — men and women →",
+      "choices": [
+        "troje ludzi",
+        "trzech ludzi",
+        "trzy ludzie",
+        "trzej ludzie"
+      ],
+      "answer": "troje ludzi",
+      "explain": "The collective is the only one of the four that says the group is mixed."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "two children",
+      "mode": "full_word",
+      "answer": "dwoje dzieci",
+      "accepts": [
+        "dwoje dzieci"
+      ],
+      "explain": "Dzieci is already its own many-form, so the noun does not move at all."
+    },
+    {
+      "prompt_en": "three children",
+      "mode": "full_word",
+      "answer": "troje dzieci",
+      "accepts": [
+        "troje dzieci"
+      ]
+    },
+    {
+      "prompt_en": "four children",
+      "mode": "full_word",
+      "answer": "czworo dzieci",
+      "accepts": [
+        "czworo dzieci"
+      ]
+    },
+    {
+      "prompt_en": "five children",
+      "mode": "full_word",
+      "answer": "pięcioro dzieci",
+      "accepts": [
+        "pięcioro dzieci"
+      ]
+    },
+    {
+      "prompt_en": "two people — a man and a woman",
+      "mode": "full_word",
+      "answer": "dwoje ludzi",
+      "accepts": [
+        "dwoje ludzi"
+      ],
+      "explain": "Ludzi is the many-form of ludzie, and it is the form every one of these numerals pulls."
+    },
+    {
+      "prompt_en": "two students — both men, naming shape",
+      "mode": "full_word",
+      "answer": "dwaj studenci",
+      "accepts": [
+        "dwaj studenci"
+      ],
+      "explain": "Naming numeral, naming noun. Nothing is pulled into the many-form here."
+    },
+    {
+      "prompt_en": "three students — all men, naming shape",
+      "mode": "full_word",
+      "answer": "trzej studenci",
+      "accepts": [
+        "trzej studenci"
+      ]
+    },
+    {
+      "prompt_en": "four students — all men, naming shape",
+      "mode": "full_word",
+      "answer": "czterej studenci",
+      "accepts": [
+        "czterej studenci"
+      ],
+      "explain": "Four is where this set stops. There is no word above it — five is pięciu studentów and the other machinery."
+    },
+    {
+      "prompt_en": "two brothers — naming shape",
+      "mode": "full_word",
+      "answer": "dwaj bracia",
+      "accepts": [
+        "dwaj bracia"
+      ]
+    },
+    {
+      "prompt_en": "Five children were at home.",
+      "mode": "cloze",
+      "frame": "___ dzieci było w domu.",
+      "answer": "Pięcioro",
+      "accepts": [
+        "Pięcioro",
+        "pięcioro"
+      ],
+      "explain": "The -o verb after it is your clue: only a numeral that pulls the noun can pull było as well."
+    },
+    {
+      "prompt_en": "Two students are in the park.",
+      "mode": "cloze",
+      "frame": "Dwaj studenci ___ w parku.",
+      "answer": "są",
+      "accepts": [
+        "są"
+      ],
+      "explain": "Dwaj leaves everything in its naming shape, so the verb is a plain plural."
+    },
+    {
+      "prompt_en": "Two children were at home.",
+      "mode": "cloze",
+      "frame": "Dwoje dzieci ___ w domu.",
+      "answer": "było",
+      "accepts": [
+        "było"
+      ],
+      "explain": "Two children, and still the singular -o form — the collectives behave like pięć at every number."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Two children are at home.",
+      "answer": "Dwoje dzieci jest w domu.",
+      "accepts": [
+        "Dwoje dzieci jest w domu.",
+        "Dwoje dzieci jest w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Five children were at school.",
+      "answer": "Pięcioro dzieci było w szkole.",
+      "accepts": [
+        "Pięcioro dzieci było w szkole.",
+        "Pięcioro dzieci było w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two students are at school. (both men, naming shape)",
+      "answer": "Dwaj studenci są w szkole.",
+      "accepts": [
+        "Dwaj studenci są w szkole.",
+        "Dwaj studenci są w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two students are at school. (both men, the shape you already had)",
+      "answer": "Dwóch studentów jest w szkole.",
+      "accepts": [
+        "Dwóch studentów jest w szkole.",
+        "Dwóch studentów jest w szkole"
+      ],
+      "explain": "The same sentence twice over, in the two shapes Polish allows. Nothing chooses between them but your ear."
+    },
+    {
+      "prompt_en": "Type: Three sons live in Poland.",
+      "answer": "Trzej synowie mieszkają w Polsce.",
+      "accepts": [
+        "Trzej synowie mieszkają w Polsce.",
+        "Trzej synowie mieszkają w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: Three children have a dog.",
+      "answer": "Troje dzieci ma psa.",
+      "accepts": [
+        "Troje dzieci ma psa.",
+        "Troje dzieci ma psa"
+      ],
+      "explain": "Ma, not mają — the collective pulls the verb into the singular even when three people own the dog."
+    },
+    {
+      "prompt_en": "Type: Four children were in the park.",
+      "answer": "Czworo dzieci było w parku.",
+      "accepts": [
+        "Czworo dzieci było w parku.",
+        "Czworo dzieci było w parku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two doctors work in the hospital.",
+      "answer": "Dwaj lekarze pracują w szpitalu.",
+      "accepts": [
+        "Dwaj lekarze pracują w szpitalu.",
+        "Dwaj lekarze pracują w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Two students live in Poland. (a man and a woman)",
+      "answer": "Dwoje studentów mieszka w Polsce.",
+      "accepts": [
+        "Dwoje studentów mieszka w Polsce.",
+        "Dwoje studentów mieszka w Polsce"
+      ],
+      "explain": "Mieszka, singular, because the collective pulls the verb the way pięć does."
+    },
+    {
+      "prompt_en": "Type: Five people were in the shop.",
+      "answer": "Pięć osób było w sklepie.",
+      "accepts": [
+        "Pięć osób było w sklepie.",
+        "Pięć osób było w sklepie"
+      ],
+      "explain": "Osoba is feminine, so it takes the ordinary numbers — not the collectives and not the man-numbers."
+    },
+    {
+      "prompt_en": "Type: Three people are waiting for the bus.",
+      "answer": "Troje ludzi czeka na autobus.",
+      "accepts": [
+        "Troje ludzi czeka na autobus.",
+        "Troje ludzi czeka na autobus"
+      ]
+    },
+    {
+      "prompt_en": "Type: Four friends are drinking coffee.",
+      "answer": "Czterej koledzy piją kawę.",
+      "accepts": [
+        "Czterej koledzy piją kawę.",
+        "Czterej koledzy piją kawę"
+      ],
+      "explain": "Naming numeral, naming noun, plural verb — and the object behaves exactly as it always has."
+    }
+  ],
+  "uses_lemmas": [
+    "dwa",
+    "dwie",
+    "trzy",
+    "cztery",
+    "pięć",
+    "dwóch",
+    "trzech",
+    "czterech",
+    "pięciu",
+    "dzieci",
+    "ludzie",
+    "ludzi",
+    "studenci",
+    "studentów",
+    "synowie",
+    "synów",
+    "koledzy",
+    "kolegów",
+    "lekarze",
+    "lekarzy",
+    "bracia",
+    "dziadkowie",
+    "syn",
+    "osoba",
+    "osoby",
+    "osób",
+    "koty",
+    "psa",
+    "jest",
+    "są",
+    "było",
+    "były",
+    "byli",
+    "był",
+    "będą",
+    "ma",
+    "mają",
+    "mieszka",
+    "mieszkają",
+    "pracują",
+    "czeka",
+    "autobus",
+    "w domu",
+    "w szkole",
+    "w sklepie",
+    "w parku",
+    "szpitalu",
+    "polsce",
+    "piją",
+    "kawę"
+  ],
+  "sequencing": {
+    "spec": "rupl-codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_collective_num",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

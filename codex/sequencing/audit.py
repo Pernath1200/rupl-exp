@@ -176,6 +176,7 @@ STRUCTURE_CATALOGUE = {
     "stac_sie",
     "time_minutes",
     "dates_full",
+    "collective_num",
 }
 
 GLUE_LEMMAS = {

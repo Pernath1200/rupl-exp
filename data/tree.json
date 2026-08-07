@@ -4527,17 +4527,18 @@
       "id": "c1_collective_num",
       "domain": "grammar",
       "label": "Dwoje dzieci · dwaj studenci",
-      "label_en": "Collective and virile numerals",
+      "label_en": "Counting mixed groups, and the other way to count men",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 8, unit 3. Inbox item 21: collective numerals dwoje, troje, piecioro (all verified NEW). PLUS dwaj, which b2_num_virile fenced with 'it is a second system - nominative numeral, nominative noun, plural verb - and would undo slide 2's entire claim in one line'. Both facts are about counting PEOPLE, which is why they share a unit and why it sits after the whole virile apparatus.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_collective_num.json"
     },
     {
       "id": "c1_quantifiers",
