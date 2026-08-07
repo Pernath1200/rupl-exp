@@ -4227,12 +4227,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 6, unit 2 (B2-SPINE O4's second deferral). The ACTIVE adjectival participle pracujacy (verified NEW). Formed off the 3pl present, which the learner owns for every present class. Declines like the participle taught one unit earlier, so agreement costs nothing. B2 rejected pulling this into its own level for lack of an anchor comparable to otwarty/zamkniety; the anchor here is the previous unit.",
+      "note": "[C1 SPINE] Block 6, unit 2 (B2-SPINE O4's second deferral). The ACTIVE adjectival participle pracujacy (verified NEW). Formed off the 3pl present, which the learner owns for every present class. Declines like the participle taught one unit earlier, so agreement costs nothing. B2 rejected pulling this into its own level for lack of an anchor comparable to otwarty/zamkniety; the anchor here is the previous unit. [WIRED LIVE] TEN new strings: pracujacy, pracujaca, pracujace, pracujacego, czytajacy, czytajaca, mowiacy, mowiaca, mieszkajacy, mieszkajaca. THE ANCHOR WAS FOUND BY check_new.py: spiacy is TAUGHT <- a2_feelings [55] as a plain adjective 'sleepy' and is literally 'sleeping'. It is NOT derived - spia is verified NEW and spac has no owned present paradigm - so it is handed over whole, the participle_pass zamkniety precedent. The rule runs on four verbs whose 3pl IS owned (pracuja, czytaja, mowia, mieszkaja). -acy does two jobs (masc sg + virile pl) and -ace two (neuter sg + non-virile pl), both named. THE PREDICTABLE ERROR GETS ITS OWN SLIDE: -acy is NOT the English -ing of 'I am working' (that is Pracuje), and the participle is named as rarer in speech than English -ing with ktory pointed at as the usual choice. kobiete REJECTED as verified NEW. The -ac adverbial participle is not mentioned at all, not even as a contrast, because that is c1_part_adv's opening move. Structure ID part_active registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_part_active.json"
     },
     {
       "id": "c1_part_adv",

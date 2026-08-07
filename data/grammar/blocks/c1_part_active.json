@@ -1,0 +1,604 @@
+{
+  "id": "c1_part_active",
+  "title": "Pracujący lekarz",
+  "title_en": "The -ący participle",
+  "level": "C1",
+  "tree_node": "c1_part_active",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 6, unit 2 (B2-SPINE O4's second deferral, C1-SPINE Block 6). The ACTIVE adjectival participle: the word for the one who is DOING the thing, after a unit of words for the thing DONE.\n\nTHE ANCHOR IS AS GOOD AS b2_participle_pass'S AND IT WAS FOUND BY check_new.py RATHER THAN ASSUMED: spiacy is TAUGHT <- a2_feelings [55], as a plain adjective glossed 'sleepy'. It is an active participle and it literally says 'sleeping'. So the unit opens on the house pattern - a word read since A2 turns out to be built by a rule - which is the third outing of that opener in this block (participle_pass had otwarty/zamkniety, virile_alt had kelnerzy).\n\nspiacy IS NOT DERIVED, AND THE REASON IS CHECKED: spia (the 3pl of spac) is verified NEW, and spac has NO owned present paradigm at all - trunk_can_a1 [24] taught only the infinitive after moge. So slide 1 uses spiacy as an anchor and says outright that it is a word learned whole, exactly as participle_pass refused to derive zamkniety from a NEW zamknac. The rule is then stated over four verbs whose 3pl the learner DOES own.\n\nTHE RULE IS THE UNIT AND IT IS ONE OPERATION: take the they-form, drop the final -a, add -acy. pracuja -> pracujacy, czytaja -> czytajacy, mowia -> mowiacy, mieszkaja -> mieszkajacy. All four 3pl forms verified TAUGHT (a1_present [15], a1_present_e_isz [16], a1_present_uje [18]), so nothing in the derivation is a form the learner has to take on trust. This is why the unit sits after the whole present system rather than anywhere else.\n\nTEN NEW STRINGS: pracujacy, pracujaca, pracujace, pracujacego, czytajacy, czytajaca, mowiacy, mowiaca, mieszkajacy, mieszkajaca.\n\nAGREEMENT COSTS NOTHING AND THAT IS DELIBERATE - it is c1_part_attrib's lesson one node old, so slide 3 recycles rather than teaches. TWO STRINGS DO TWO JOBS EACH and both are named on the slide, on the homograph discipline the previous unit used: -acy is the masculine singular AND the virile plural (pracujacy lekarz / pracujacy lekarze), -ace is the neuter singular AND the non-virile plural (pracujace kobiety). ONE oblique form is taught, pracujacego, and no more - the declension was the previous unit's content and repeating a paradigm here would buy nothing.\n\nTHE MASCULINE-ANIMATE Acc=Gen IDENTITY IS NAMED rather than let slip (AGENTS's honest exception): 'Znam pracujacego lekarza' has BOTH words in a form that is Accusative and Genitive at once, and lekarza itself is TAUGHT <- c1_od_source [206] as a GENITIVE (od lekarza). Said in one line in the item's explain.\n\nTHE PREDICTABLE ERROR GETS ITS OWN SLIDE, and it is the reason this unit needs a limit slide at all: an English speaker reads -acy as the English -ing and reaches for 'jestem pracujacy' for 'I am working'. Polish says Pracuje. The -acy word is an ADJECTIVE naming somebody by what they do, it is far rarer in speech than English -ing, and it is NEVER how a Polish tense is built. Stated plainly, with the correct form beside it.\n\nWORD ORDER: a participle carrying a complement follows its noun (lekarz mowiacy po polsku, student mieszkajacy w Polsce) while a bare one precedes it (pracujacy lekarz). Both shapes are shown as a picture rather than as a rule, on the c1_word_order [197] idiom.\n\nNOUN DISCIPLINE, checked pack by pack: kobiety is used ONLY as the non-virile plural b1_virile_reco [111] taught; lekarza only in the Accusative-equals-Genitive job named above; studenci <- b1_virile_reco, lekarze <- b1_virile_reco, student <- leaf_school_a1. kobiete was wanted for 'I know a woman speaking Polish' and REJECTED as verified NEW - the Accusative singular of kobieta is untaught after 209 nodes.\n\nzmeczeni / zmeczone <- c1_adj_pl_virile [190] are recycled in Uzycie, which puts the block's virile split and this unit's participle in one sentence at zero new cost.\n\nFENCED, verified NEW and appearing NOWHERE - not on a slide, not as a distractor: robiac and zrobiwszy and every adverbial participle (c1_part_adv, the very next node - the -ac form is not mentioned, not even to contrast with -acy, because the contrast is that unit's opening move); zostac / zostal / zostanie (c1_zostac); spia, jedza, ucza, czekaja and czekajacy; pijacy, idacy and jadacy (their 3pl forms are owned but four participles are a complete demonstration and a fifth buys nothing - the participle_pass 'kupiony drafted and cut' precedent); interesujacy.\n\nPISANIE IS ELEVEN PATTERN PHRASES, every one two or three words, no composed sentence anywhere, so the cloze rule is met by shape. No duplicate answers in any stage. Uzycie is ten real sentences, every one with a noun subject or a noun object.",
+  "focus_structures": [
+    "part_active"
+  ],
+  "teaches_structures": [
+    "part_active"
+  ],
+  "teaches_lemmas": [
+    "pracujący",
+    "pracująca",
+    "pracujące",
+    "pracującego",
+    "czytający",
+    "czytająca",
+    "mówiący",
+    "mówiąca",
+    "mieszkający",
+    "mieszkająca"
+  ],
+  "uses_structures": [
+    "part_active",
+    "part_attrib",
+    "participle_pass",
+    "zgoda",
+    "byc_present",
+    "byc_adj",
+    "to_jest",
+    "plural_nom",
+    "virile_nom",
+    "virile_reco",
+    "adj_pl_virile",
+    "adj_gen",
+    "adj_acc",
+    "present",
+    "present_uje",
+    "present_e_isz",
+    "prep_w_loc",
+    "prep_place",
+    "gen_endings",
+    "neg_gen",
+    "miec_present"
+  ],
+  "intro": [
+    {
+      "title": "You have owned one of these since A2",
+      "title_pl": "śpiący",
+      "body": "When you learned how to say you were tired, you learned this word:\n\nśpiący — sleepy\n\nIt is not really an adjective. It is built from spać, and what it actually says is sleeping — the one who is asleep.\n\nPolish makes a word like this from almost any verb. It names somebody by what they are doing, and then behaves like an ordinary adjective:\n\npracujący lekarz — a working doctor, a doctor who works\nczytający student — a reading student\n\nśpiący itself stays a word you know rather than a word you build, because the they-form of spać is not yet part of your Polish. The next slide builds the others from verbs where every piece is already yours.",
+      "body_pl": "Imiesłów czynny — kto coś robi.",
+      "examples": [
+        {
+          "en": "a working doctor",
+          "pl": "pracujący lekarz"
+        },
+        {
+          "en": "a working woman",
+          "pl": "pracująca kobieta"
+        },
+        {
+          "en": "a reading student",
+          "pl": "czytający student"
+        }
+      ]
+    },
+    {
+      "title": "Take the they-form and add -cy",
+      "title_pl": "pracują → pracujący",
+      "body": "There is one operation, and it works off a form you have produced since A1: the they-form of the present.\n\nTake it, drop the final -ą, and put -ący in its place.\n\npracują − ą = pracuj, + ący = pracujący\nczytają − ą = czytaj, + ący = czytający\n\nIt does not matter which of the present-tense groups the verb belongs to. -am, -isz, -esz, -uję — the they-form is where they all end up looking alike, and this is built on the they-form.",
+      "body_pl": "Forma „oni” → -ący: pracują → pracujący.",
+      "table": {
+        "headers": [
+          "They-form",
+          "Participle",
+          "It means"
+        ],
+        "rows": [
+          [
+            "pracują",
+            "pracujący",
+            "working"
+          ],
+          [
+            "czytają",
+            "czytający",
+            "reading"
+          ],
+          [
+            "mówią",
+            "mówiący",
+            "speaking"
+          ],
+          [
+            "mieszkają",
+            "mieszkający",
+            "living"
+          ],
+          [
+            "(spać)",
+            "śpiący",
+            "sleeping — learned whole"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "It agrees, and you did that last unit",
+      "title_pl": "pracujący · pracująca · pracujące",
+      "body": "Once the word exists it is an adjective, so everything from the previous unit applies unchanged. Two of the endings do double duty, exactly as zamknięte did:\n\n-ący is the masculine singular AND the form for a group with a man in it.\n-ące is the neuter singular AND the plural for everything else.\n\npracujący lekarz — one doctor\npracujący lekarze — several doctors, a group with men in it\npracujące kobiety — women\n\nAnd it takes case endings like any other adjective:\n\nZnam pracującego lekarza.",
+      "body_pl": "Odmienia się jak przymiotnik.",
+      "table": {
+        "headers": [
+          "Form",
+          "Used for",
+          "Example"
+        ],
+        "rows": [
+          [
+            "pracujący",
+            "masculine singular",
+            "pracujący lekarz"
+          ],
+          [
+            "pracująca",
+            "feminine singular",
+            "pracująca kobieta"
+          ],
+          [
+            "pracujące",
+            "neuter, and the plural",
+            "pracujące kobiety"
+          ],
+          [
+            "pracujący",
+            "a group with a man in it",
+            "pracujący lekarze"
+          ],
+          [
+            "pracującego",
+            "as an object, masculine",
+            "Znam pracującego lekarza."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where it stands depends on whether it brings anything with it",
+      "title_pl": "lekarz mówiący po polsku",
+      "body": "On its own, the participle goes in front of the noun, where an adjective goes:\n\npracujący lekarz\n\nBut a participle can bring a phrase with it — speaking Polish, living in Poland — and when it does, the whole group moves behind the noun:\n\nlekarz mówiący po polsku — a doctor who speaks Polish\nstudent mieszkający w Polsce — a student living in Poland\n\nThis is worth having because it is how you say the thing English says with who: the doctor who speaks Polish, the woman who lives in Poland. You already have another way of saying it, with który, and both are good Polish.",
+      "body_pl": "Imiesłów z dopełnieniem — po rzeczowniku.",
+      "examples": [
+        {
+          "en": "This is a doctor who speaks Polish.",
+          "pl": "To jest lekarz mówiący po polsku."
+        },
+        {
+          "en": "This is a woman who speaks Polish.",
+          "pl": "To jest kobieta mówiąca po polsku."
+        },
+        {
+          "en": "This is a student living in Poland.",
+          "pl": "To jest student mieszkający w Polsce."
+        }
+      ]
+    },
+    {
+      "title": "It is not the English -ing, and this one matters",
+      "title_pl": "Pracuję. — nie „jestem pracujący”",
+      "body": "English uses -ing for two quite different jobs, and Polish uses this word for only one of them.\n\nEnglish: I am working. → Polish: Pracuję. One word, the ordinary present, which you have had since A1. There is no Polish sentence built out of jestem and a -ący word, and reaching for one is the mistake an English speaker makes here.\n\nEnglish: a working doctor, a doctor who works → Polish: pracujący lekarz. This is what the -ący word is for: naming somebody by what they do.\n\nIt is also much rarer in speech than English -ing. You will read it far more often than you say it, and when you do want to say who does what, który is usually the more natural choice.",
+      "body_pl": "Imiesłów to przymiotnik, nie czas.",
+      "examples": [
+        {
+          "en": "I am working.",
+          "pl": "Pracuję."
+        },
+        {
+          "en": "The working doctors are tired.",
+          "pl": "Pracujący lekarze są zmęczeni."
+        },
+        {
+          "en": "The working women are tired.",
+          "pl": "Pracujące kobiety są zmęczone."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "a working doctor",
+      "pl": "pracujący lekarz"
+    },
+    {
+      "en": "a working woman",
+      "pl": "pracująca kobieta"
+    },
+    {
+      "en": "working doctors",
+      "pl": "pracujący lekarze"
+    },
+    {
+      "en": "working women",
+      "pl": "pracujące kobiety"
+    },
+    {
+      "en": "a working doctor (as an object)",
+      "pl": "pracującego lekarza"
+    },
+    {
+      "en": "a reading student",
+      "pl": "czytający student"
+    },
+    {
+      "en": "a reading woman",
+      "pl": "czytająca kobieta"
+    },
+    {
+      "en": "reading students",
+      "pl": "czytający studenci"
+    },
+    {
+      "en": "a doctor who speaks Polish",
+      "pl": "lekarz mówiący po polsku"
+    },
+    {
+      "en": "a woman who speaks Polish",
+      "pl": "kobieta mówiąca po polsku"
+    },
+    {
+      "en": "a student living in Poland",
+      "pl": "student mieszkający w Polsce"
+    },
+    {
+      "en": "a woman living in Poland",
+      "pl": "kobieta mieszkająca w Polsce"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ lekarz (working)",
+      "choices": [
+        "pracujący",
+        "pracująca",
+        "pracujące",
+        "pracującego"
+      ],
+      "answer": "pracujący",
+      "explain": "lekarz is masculine, so the participle ends in -ący — the same -y an adjective would have."
+    },
+    {
+      "prompt": "___ kobieta (working)",
+      "choices": [
+        "pracująca",
+        "pracujący",
+        "pracujące",
+        "pracującego"
+      ],
+      "answer": "pracująca",
+      "explain": "Feminine, so -ąca."
+    },
+    {
+      "prompt": "___ kobiety (working)",
+      "choices": [
+        "pracujące",
+        "pracująca",
+        "pracujący",
+        "pracującego"
+      ],
+      "answer": "pracujące",
+      "explain": "A plural with no man in it, so -ące — the same string the neuter singular uses."
+    },
+    {
+      "prompt": "___ lekarze (working)",
+      "choices": [
+        "pracujący",
+        "pracujące",
+        "pracująca",
+        "pracującego"
+      ],
+      "answer": "pracujący",
+      "explain": "A group with men in it takes the same string as the masculine singular. Only the noun tells you which one you are looking at."
+    },
+    {
+      "prompt": "Znam ___ lekarza. (working)",
+      "choices": [
+        "pracującego",
+        "pracujący",
+        "pracująca",
+        "pracujące"
+      ],
+      "answer": "pracującego",
+      "explain": "An object, and lekarz is a person — so both words take the form that is Accusative and Genitive at once, the same identity you have had since Znam brata."
+    },
+    {
+      "prompt": "czytają → ___",
+      "choices": [
+        "czytający",
+        "czytająca",
+        "pracujący",
+        "mówiący"
+      ],
+      "answer": "czytający",
+      "explain": "Drop the -ą from the they-form and add -ący: czytaj + ący."
+    },
+    {
+      "prompt": "___ kobieta (reading)",
+      "choices": [
+        "czytająca",
+        "czytający",
+        "pracująca",
+        "mówiąca"
+      ],
+      "answer": "czytająca",
+      "explain": "pracująca has the right ending and the wrong verb underneath."
+    },
+    {
+      "prompt": "To jest lekarz ___ po polsku. (speaking)",
+      "choices": [
+        "mówiący",
+        "mówiąca",
+        "czytający",
+        "pracujący"
+      ],
+      "answer": "mówiący",
+      "explain": "From mówią. It stands after the noun because it brings po polsku with it."
+    },
+    {
+      "prompt": "To jest kobieta ___ po polsku. (speaking)",
+      "choices": [
+        "mówiąca",
+        "mówiący",
+        "czytająca",
+        "pracująca"
+      ],
+      "answer": "mówiąca",
+      "explain": "Behind the noun or in front of it, the ending is decided by the noun and nothing else."
+    },
+    {
+      "prompt": "To jest student ___ w Polsce. (living)",
+      "choices": [
+        "mieszkający",
+        "mieszkająca",
+        "pracujący",
+        "czytający"
+      ],
+      "answer": "mieszkający",
+      "explain": "From mieszkają, the they-form you have had since A1."
+    },
+    {
+      "prompt": "To jest kobieta ___ w Polsce. (living)",
+      "choices": [
+        "mieszkająca",
+        "mieszkający",
+        "mówiąca",
+        "pracująca"
+      ],
+      "answer": "mieszkająca",
+      "explain": "kobieta is feminine, so -ąca."
+    },
+    {
+      "prompt": "I am working. →",
+      "choices": [
+        "Pracuję.",
+        "Jestem pracujący.",
+        "Jestem pracująca.",
+        "Pracujący jestem."
+      ],
+      "answer": "Pracuję.",
+      "explain": "Polish has no tense built out of jestem and a -ący word. The participle names somebody by what they do; it never says what is happening now."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "a working doctor",
+      "mode": "full_word",
+      "answer": "pracujący lekarz",
+      "accepts": [
+        "pracujący lekarz"
+      ],
+      "explain": "From pracują, with the ending the noun asks for."
+    },
+    {
+      "prompt_en": "a working woman",
+      "mode": "full_word",
+      "answer": "pracująca kobieta",
+      "accepts": [
+        "pracująca kobieta"
+      ]
+    },
+    {
+      "prompt_en": "working doctors",
+      "mode": "full_word",
+      "answer": "pracujący lekarze",
+      "accepts": [
+        "pracujący lekarze"
+      ],
+      "explain": "The same string as the singular — the noun carries the number."
+    },
+    {
+      "prompt_en": "working women",
+      "mode": "full_word",
+      "answer": "pracujące kobiety",
+      "accepts": [
+        "pracujące kobiety"
+      ]
+    },
+    {
+      "prompt_en": "a working doctor (as an object)",
+      "mode": "full_word",
+      "answer": "pracującego lekarza",
+      "accepts": [
+        "pracującego lekarza"
+      ]
+    },
+    {
+      "prompt_en": "a reading student",
+      "mode": "full_word",
+      "answer": "czytający student",
+      "accepts": [
+        "czytający student"
+      ]
+    },
+    {
+      "prompt_en": "a reading woman",
+      "mode": "full_word",
+      "answer": "czytająca kobieta",
+      "accepts": [
+        "czytająca kobieta"
+      ]
+    },
+    {
+      "prompt_en": "speaking Polish (masculine)",
+      "mode": "full_word",
+      "answer": "mówiący po polsku",
+      "accepts": [
+        "mówiący po polsku"
+      ]
+    },
+    {
+      "prompt_en": "speaking Polish (feminine)",
+      "mode": "full_word",
+      "answer": "mówiąca po polsku",
+      "accepts": [
+        "mówiąca po polsku"
+      ]
+    },
+    {
+      "prompt_en": "living in Poland (masculine)",
+      "mode": "full_word",
+      "answer": "mieszkający w Polsce",
+      "accepts": [
+        "mieszkający w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "living in Poland (feminine)",
+      "mode": "full_word",
+      "answer": "mieszkająca w Polsce",
+      "accepts": [
+        "mieszkająca w Polsce"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: This is a doctor who speaks Polish.",
+      "answer": "To jest lekarz mówiący po polsku.",
+      "accepts": [
+        "To jest lekarz mówiący po polsku.",
+        "To jest lekarz mówiący po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a woman who speaks Polish.",
+      "answer": "To jest kobieta mówiąca po polsku.",
+      "accepts": [
+        "To jest kobieta mówiąca po polsku.",
+        "To jest kobieta mówiąca po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know a working doctor.",
+      "answer": "Znam pracującego lekarza.",
+      "accepts": [
+        "Znam pracującego lekarza.",
+        "Znam pracującego lekarza"
+      ],
+      "explain": "lekarz is a person, so its object form is the one that doubles as the Genitive — and the participle in front of it does the same."
+    },
+    {
+      "prompt_en": "Type: The working doctors are tired.",
+      "answer": "Pracujący lekarze są zmęczeni.",
+      "accepts": [
+        "Pracujący lekarze są zmęczeni.",
+        "Pracujący lekarze są zmęczeni"
+      ],
+      "explain": "A group with men in it, twice over: the participle in front and the adjective after."
+    },
+    {
+      "prompt_en": "Type: The working women are tired.",
+      "answer": "Pracujące kobiety są zmęczone.",
+      "accepts": [
+        "Pracujące kobiety są zmęczone.",
+        "Pracujące kobiety są zmęczone"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a student living in Poland.",
+      "answer": "To jest student mieszkający w Polsce.",
+      "accepts": [
+        "To jest student mieszkający w Polsce.",
+        "To jest student mieszkający w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: This is a woman living in Poland.",
+      "answer": "To jest kobieta mieszkająca w Polsce.",
+      "accepts": [
+        "To jest kobieta mieszkająca w Polsce.",
+        "To jest kobieta mieszkająca w Polsce"
+      ]
+    },
+    {
+      "prompt_en": "Type: The reading student is at school.",
+      "answer": "Czytający student jest w szkole.",
+      "accepts": [
+        "Czytający student jest w szkole.",
+        "Czytający student jest w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: A working woman has no time.",
+      "answer": "Pracująca kobieta nie ma czasu.",
+      "accepts": [
+        "Pracująca kobieta nie ma czasu.",
+        "Pracująca kobieta nie ma czasu"
+      ],
+      "explain": "The negation takes the object into the Genitive; the participle agrees with the subject and is untouched by it."
+    },
+    {
+      "prompt_en": "Type: Students living in Poland speak Polish.",
+      "answer": "Studenci mieszkający w Polsce mówią po polsku.",
+      "accepts": [
+        "Studenci mieszkający w Polsce mówią po polsku.",
+        "Studenci mieszkający w Polsce mówią po polsku"
+      ],
+      "explain": "The participle group sits behind its noun and the sentence carries on around it."
+    }
+  ],
+  "uses_lemmas": [
+    "śpiący",
+    "śpiąca",
+    "spać",
+    "pracują",
+    "czytają",
+    "mówią",
+    "mieszkają",
+    "pracuję",
+    "mówią",
+    "znam",
+    "lekarz",
+    "lekarza",
+    "lekarze",
+    "student",
+    "studenci",
+    "kobieta",
+    "kobiety",
+    "zmęczeni",
+    "zmęczone",
+    "zamknięte",
+    "jest",
+    "są",
+    "jestem",
+    "czas",
+    "czasu",
+    "nie ma",
+    "szkole",
+    "po polsku",
+    "polsce",
+    "który",
+    "w szkole",
+    "w polsce"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_part_active",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
