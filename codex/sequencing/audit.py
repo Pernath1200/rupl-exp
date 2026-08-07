@@ -180,6 +180,7 @@ STRUCTURE_CATALOGUE = {
     "quantifiers",
     "concessive",
     "cause_time",
+    "neg_polarity",
 }
 
 GLUE_LEMMAS = {

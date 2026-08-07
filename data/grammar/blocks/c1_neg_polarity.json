@@ -1,0 +1,710 @@
+{
+  "id": "c1_neg_polarity",
+  "title": "Już nie, jeszcze nie",
+  "title_en": "Not any more, not yet, not any",
+  "level": "C1",
+  "tree_node": "c1_neg_polarity",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 9, unit 3. ONE IDEA, STATED AS THE UNIT'S TITLE SLIDE: what a nie does to three words. juz and jeszcze FLIP into their own opposites when a nie lands on the verb, and zaden exists ONLY in a negative sentence. That framing is what lets the spine's two halves sit in one unit without breaking the load-splitting rule - they are not two systems, they are one fact about negative polarity seen on invariable words and then on a declining one. SEVEN NEW STRINGS, ZERO NEW ENDINGS. juz nie and jeszcze nie are pairs of words the learner already owns separately (juz/jeszcze <- b2_conjunctions [133], which taught them in their POSITIVE jobs and fenced both negative senses absolutely). zaden/zadna/zadne/zadnego/zadnej are the one new word, and every ending it takes is owned: the m/f/n nominative is the ten_ta_to shape, and -ego/-ej are b2_adj_gen's own genitive endings, already produced on dobrego/dobrej/nowego/nowej. THIS PAYS b2_double_neg's LOGGED SCOPE CUT IN FULL. That pack dropped zaden from the spine's own list because 'zaden is adjective-shaped with a full declension and stacks a new declining word directly on top of b2_neg_gen, taught one node earlier'. Both objections are gone at this distance: neg_gen is 70 nodes back and the adjective genitive is owned, so zaden costs one word rather than a system. THE ENGLISH TRAP GETS ITS OWN SLIDE and it is the reason this unit is worth building: English has FOUR ways of saying what Polish says with TWO. 'I'm not working yet' and 'I'm still not working' are both jeszcze nie pracuje; 'I don't work any more' and 'I no longer work' are both juz nie pracuje. An English speaker reaching for 'still' in a negative sentence will produce jeszcze and then stop, or reach for a word for 'longer' that does not exist. Taught as a four-into-two table, never derived. THE DOUBLE NEGATIVE IS RE-DRILLED AT ZERO COST, which is why this unit sits where it does: zaden takes the same obligatory second nie on the verb that nikt, nic, nigdy and nigdzie take, so slide 5 is b2_double_neg's rule seen a fifth time rather than a new claim. HOMOGRAPH AND CHUNK NOTES: problemu is TAUGHT only inside the frozen chunk nie ma problemu (= no problem), and Nie ma zadnego problemu is that chunk with a real slot opened in it - the dziekuje/ktorej/nowego chunk-to-slot treatment, said out loud on the slide. pomysl is TAUGHT but pomyslu is NOT, so the obvious English example 'no idea at all' was wanted and REFUSED rather than shipped on an untaught genitive. FENCED, all verified NEW: every oblique of zaden beyond the two genitives (zadnym, zadna-instrumental, zadnej-dative), the whole plural (zadne as a plural, zadnych, zadnym), and choc/jednak. zaden as a standalone pronoun (Zaden nie pracuje = none of them) is deliberately NOT taught and NEVER offered as a wrong choice, because it is correct Polish and marking it wrong would be the false-wrong James smoke-flagged on 2026-08-07. DISTRACTORS are agreement errors and word-order errors built from real taught forms - no fabricated non-words anywhere.",
+  "focus_structures": [
+    "neg_polarity",
+    "double_neg",
+    "neg_gen"
+  ],
+  "teaches_structures": [
+    "neg_polarity"
+  ],
+  "teaches_lemmas": [
+    "już nie",
+    "jeszcze nie",
+    "żaden",
+    "żadna",
+    "żadne",
+    "żadnego",
+    "żadnej"
+  ],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "existential_jest",
+    "ten_ta_to",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "neg_gen",
+    "double_neg",
+    "gen_endings",
+    "conjunctions",
+    "prep_w_loc",
+    "prep_place",
+    "adj_gen",
+    "plural_nom",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje",
+    "passive"
+  ],
+  "intro": [
+    {
+      "title": "Two words that turn into their own opposites",
+      "title_pl": "już · jeszcze",
+      "body": "You have had już and jeszcze since the start of B2, both in their positive jobs: już is already or now, jeszcze is still.\n\nPut a nie on the verb and neither of them simply becomes negative. Each one flips into a different idea altogether. już nie is not any more — something that used to be true and has stopped. jeszcze nie is not yet — something that is not true so far and is expected.\n\nThe pair is fixed in that order and the nie stays glued to the verb. There is no nie już.",
+      "body_pl": "już nie · jeszcze nie",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What the nie did"
+        ],
+        "rows": [
+          [
+            "Już pracuję.",
+            "I'm working already.",
+            "—"
+          ],
+          [
+            "Już nie pracuję.",
+            "I don't work any more.",
+            "already → not any more"
+          ],
+          [
+            "Jeszcze pracuję.",
+            "I'm still working.",
+            "—"
+          ],
+          [
+            "Jeszcze nie pracuję.",
+            "I'm not working yet.",
+            "still → not yet"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "English has four ways of saying this. Polish has two.",
+      "title_pl": "cztery po angielsku, dwa po polsku",
+      "body": "This is where an English speaker goes wrong, and it is worth reading the table in the English column first.\n\nEnglish splits each idea in two — not yet against still not, not any more against no longer — and none of those four phrases translates word for word. Polish does not split them at all. Two Polish sentences cover all four.\n\nSo the useful move is to stop looking for a word for still or for longer, and ask instead which of the two ideas you mean: has it stopped, or has it not started?",
+      "body_pl": "dwa zdania — cztery znaczenia",
+      "table": {
+        "headers": [
+          "English",
+          "Polish",
+          "Which idea"
+        ],
+        "rows": [
+          [
+            "I'm not working yet.",
+            "Jeszcze nie pracuję.",
+            "has not started"
+          ],
+          [
+            "I'm still not working.",
+            "Jeszcze nie pracuję.",
+            "has not started"
+          ],
+          [
+            "I don't work any more.",
+            "Już nie pracuję.",
+            "has stopped"
+          ],
+          [
+            "I no longer work.",
+            "Już nie pracuję.",
+            "has stopped"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The shop isn't open any more.",
+          "pl": "Sklep już nie jest otwarty."
+        },
+        {
+          "en": "Mum isn't at home yet.",
+          "pl": "Mama jeszcze nie jest w domu."
+        }
+      ]
+    },
+    {
+      "title": "żaden — the negative word that agrees",
+      "title_pl": "żaden · żadna · żadne",
+      "body": "B2 gave you four negative words that never change shape: nikt, nic, nigdy, nigdzie. żaden is the fifth and the last, and it is the only one that behaves like an adjective — it agrees with the noun it stands in front of.\n\nIt means not a single one, or not any. It cannot be used in a positive sentence at all; there is no sentence in Polish where żaden appears without a negation somewhere.\n\nAnd, exactly like the other four, the verb still carries its own nie. Two negatives, as always.",
+      "body_pl": "żaden — słowo przeczące",
+      "table": {
+        "headers": [
+          "The noun",
+          "Form",
+          "Example"
+        ],
+        "rows": [
+          [
+            "sklep — masculine",
+            "żaden",
+            "Żaden sklep nie jest otwarty."
+          ],
+          [
+            "apteka — feminine",
+            "żadna",
+            "Żadna apteka nie jest otwarta."
+          ],
+          [
+            "biuro — neuter",
+            "żadne",
+            "Żadne biuro nie jest otwarte."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "After a negated verb it takes the of-form, like every other object",
+      "title_pl": "żadnego · żadnej",
+      "body": "B2 taught the rule and it has not changed: put a nie in front of a verb and its object moves into the of-form. Nie mam telefonu, not telefon.\n\nżaden is an adjective, so it takes the adjective's of-form — the same -ego and -ej you already produce on dobrego, dobrej, nowego, nowej. Nothing new is being asked of you here; the ending is one you own and the noun behind it moves exactly as it did before.\n\nNie ma problemu is worth a second look. You have said it since B1 as one frozen piece meaning no problem. It turns out to have a slot in it, and this is the word that goes there.",
+      "body_pl": "nie + czasownik → dopełniacz",
+      "table": {
+        "headers": [
+          "Positive",
+          "Negative",
+          "Both words moved"
+        ],
+        "rows": [
+          [
+            "Mam telefon.",
+            "Nie mam żadnego telefonu.",
+            "żadnego telefonu"
+          ],
+          [
+            "Mam książkę.",
+            "Nie mam żadnej książki.",
+            "żadnej książki"
+          ],
+          [
+            "Mam czas.",
+            "Nie mam żadnego czasu.",
+            "żadnego czasu"
+          ],
+          [
+            "Nie ma problemu.",
+            "Nie ma żadnego problemu.",
+            "żadnego problemu"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Mum hasn't got a phone at all.",
+          "pl": "Mama nie ma żadnego telefonu."
+        },
+        {
+          "en": "My sister hasn't got a book at all.",
+          "pl": "Siostra nie ma żadnej książki."
+        }
+      ]
+    },
+    {
+      "title": "The five negative words, and the nie that never leaves",
+      "title_pl": "nikt · nic · nigdy · nigdzie · żaden",
+      "body": "The set is closed now. These five are all of them, and every one of them takes a second nie on the verb — the rule you met at B2, seen for the last time.\n\nFour of the five never change. żaden is the exception, and it changes for the reason an adjective changes: it has a noun to agree with.\n\nEnglish will not help you here. English allows only one negative per sentence and Polish demands two, so the sentence that sounds wrong in English is the correct one in Polish.",
+      "body_pl": "dwa przeczenia — zawsze",
+      "table": {
+        "headers": [
+          "Word",
+          "What it covers",
+          "Example"
+        ],
+        "rows": [
+          [
+            "nikt",
+            "nobody",
+            "Nikt nie pracuje."
+          ],
+          [
+            "nic",
+            "nothing",
+            "Nic nie mam."
+          ],
+          [
+            "nigdy",
+            "never",
+            "Nigdy nie piję kawy."
+          ],
+          [
+            "nigdzie",
+            "nowhere",
+            "Nigdzie nie idę."
+          ],
+          [
+            "żaden · żadna · żadne",
+            "not a single one",
+            "Żaden sklep nie jest otwarty."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Nobody works here any more.",
+          "pl": "Nikt już nie pracuje."
+        },
+        {
+          "en": "The children aren't at school yet.",
+          "pl": "Dzieci jeszcze nie są w szkole."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "not any more · Dad doesn't work any more",
+      "pl": "Tata już nie pracuje."
+    },
+    {
+      "en": "not any more · I don't drink coffee any more",
+      "pl": "Już nie piję kawy."
+    },
+    {
+      "en": "not any more · the shop isn't open any more",
+      "pl": "Sklep już nie jest otwarty."
+    },
+    {
+      "en": "not yet · Mum isn't at home yet",
+      "pl": "Mama jeszcze nie jest w domu."
+    },
+    {
+      "en": "not yet · I'm not working yet",
+      "pl": "Jeszcze nie pracuję."
+    },
+    {
+      "en": "not a single shop (masculine)",
+      "pl": "Żaden sklep nie jest otwarty."
+    },
+    {
+      "en": "not a single chemist's (feminine)",
+      "pl": "Żadna apteka nie jest otwarta."
+    },
+    {
+      "en": "not a single office (neuter)",
+      "pl": "Żadne biuro nie jest otwarte."
+    },
+    {
+      "en": "no phone at all",
+      "pl": "Nie mam żadnego telefonu."
+    },
+    {
+      "en": "no time at all",
+      "pl": "Nie mam żadnego czasu."
+    },
+    {
+      "en": "no book at all",
+      "pl": "Nie mam żadnej książki."
+    },
+    {
+      "en": "no problem at all",
+      "pl": "Nie ma żadnego problemu."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You used to work, and now you don't →",
+      "choices": [
+        "już nie pracuję",
+        "jeszcze nie pracuję",
+        "już pracuję",
+        "nie już pracuję"
+      ],
+      "answer": "już nie pracuję",
+      "explain": "już nie is the pair for something that has stopped. jeszcze nie would say the opposite — that it has not started yet."
+    },
+    {
+      "prompt": "You start on Monday, so you haven't started →",
+      "choices": [
+        "jeszcze nie pracuję",
+        "już nie pracuję",
+        "jeszcze pracuję",
+        "nie jeszcze pracuję"
+      ],
+      "answer": "jeszcze nie pracuję",
+      "explain": "jeszcze nie covers both of English's ways of saying this — not working yet, and still not working."
+    },
+    {
+      "prompt": "The shop was open this morning and is closed now →",
+      "choices": [
+        "Sklep już nie jest otwarty.",
+        "Sklep jeszcze nie jest otwarty.",
+        "Sklep już jest otwarty.",
+        "Sklep jeszcze jest otwarty."
+      ],
+      "answer": "Sklep już nie jest otwarty.",
+      "explain": "It has stopped being true, so już nie. jeszcze nie would mean it has not opened yet — the other end of the day."
+    },
+    {
+      "prompt": "Mum is on her way and hasn't arrived →",
+      "choices": [
+        "Mama jeszcze nie jest w domu.",
+        "Mama już nie jest w domu.",
+        "Mama jeszcze jest w domu.",
+        "Mama już jest w domu."
+      ],
+      "answer": "Mama jeszcze nie jest w domu.",
+      "explain": "Not there so far, and expected — that is jeszcze nie."
+    },
+    {
+      "prompt": "Not a single one — sklep is masculine →",
+      "choices": [
+        "żaden sklep",
+        "żadna sklep",
+        "żadne sklep",
+        "żadnej sklep"
+      ],
+      "answer": "żaden sklep",
+      "explain": "żaden agrees with its noun exactly as an adjective does, so a masculine noun takes żaden."
+    },
+    {
+      "prompt": "Not a single one — apteka is feminine →",
+      "choices": [
+        "żadna apteka",
+        "żaden apteka",
+        "żadne apteka",
+        "żadnego apteka"
+      ],
+      "answer": "żadna apteka",
+      "explain": "Feminine noun, feminine form — żadna, the same -a you have on dobra and nowa."
+    },
+    {
+      "prompt": "Not a single one — biuro is neuter →",
+      "choices": [
+        "żadne biuro",
+        "żaden biuro",
+        "żadna biuro",
+        "żadnej biuro"
+      ],
+      "answer": "żadne biuro",
+      "explain": "Neuter noun, neuter form — żadne."
+    },
+    {
+      "prompt": "You haven't got one at all — a phone →",
+      "choices": [
+        "nie mam żadnego telefonu",
+        "nie mam żadnego telefon",
+        "nie mam żadnej telefonu",
+        "nie mam żaden telefon"
+      ],
+      "answer": "nie mam żadnego telefonu",
+      "explain": "The nie on mam moves the object into the of-form, and żaden goes with it: żadnego telefonu, both words."
+    },
+    {
+      "prompt": "You haven't got one at all — a book →",
+      "choices": [
+        "nie mam żadnej książki",
+        "nie mam żadnego książki",
+        "nie mam żadnej książkę",
+        "nie mam żadna książka"
+      ],
+      "answer": "nie mam żadnej książki",
+      "explain": "Feminine, and after the negation: żadnej książki. The -ej is the same ending you produce on dobrej and nowej."
+    },
+    {
+      "prompt": "You haven't got any at all — time →",
+      "choices": [
+        "nie mam żadnego czasu",
+        "nie mam żadnego czas",
+        "nie mam żadnej czasu",
+        "nie mam żaden czas"
+      ],
+      "answer": "nie mam żadnego czasu",
+      "explain": "czas is masculine, so żadnego, and the negation puts the noun into czasu — the pair you have had since B2 with one word added in front."
+    },
+    {
+      "prompt": "There isn't one at all — a problem →",
+      "choices": [
+        "Nie ma żadnego problemu.",
+        "Nie ma żadnego problem.",
+        "Nie ma żadnej problemu.",
+        "Nie ma żaden problem."
+      ],
+      "answer": "Nie ma żadnego problemu.",
+      "explain": "Nie ma problemu was one frozen piece meaning no problem. This is the same sentence with a slot opened in it."
+    },
+    {
+      "prompt": "Nobody is working →",
+      "choices": [
+        "nikt nie pracuje",
+        "nikt pracuje",
+        "nic nie pracuje",
+        "nigdy nie pracuje"
+      ],
+      "answer": "nikt nie pracuje",
+      "explain": "The second nie on the verb is obligatory, exactly as it is with żaden. nigdy nie pracuje is correct Polish too — it just says never rather than nobody."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "not any more — the pair that stands in front of the verb",
+      "answer": "już nie",
+      "accepts": [
+        "już nie"
+      ]
+    },
+    {
+      "prompt_en": "not yet — the pair that stands in front of the verb",
+      "answer": "jeszcze nie",
+      "accepts": [
+        "jeszcze nie"
+      ]
+    },
+    {
+      "prompt_en": "not a single… — in front of a masculine noun",
+      "answer": "żaden",
+      "accepts": [
+        "żaden"
+      ]
+    },
+    {
+      "prompt_en": "not a single… — in front of a feminine noun",
+      "answer": "żadna",
+      "accepts": [
+        "żadna"
+      ]
+    },
+    {
+      "prompt_en": "not a single… — in front of a neuter noun",
+      "answer": "żadne",
+      "accepts": [
+        "żadne"
+      ]
+    },
+    {
+      "prompt_en": "Dad doesn't work any more.",
+      "mode": "cloze",
+      "frame": "Tata już nie ___.",
+      "answer": "pracuje",
+      "accepts": [
+        "pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Mum isn't at home yet.",
+      "mode": "cloze",
+      "frame": "Mama jeszcze nie ___ w domu.",
+      "answer": "jest",
+      "accepts": [
+        "jest"
+      ]
+    },
+    {
+      "prompt_en": "I don't drink coffee any more. — the negation still takes the of-form",
+      "mode": "cloze",
+      "frame": "Już nie piję ___.",
+      "answer": "kawy",
+      "accepts": [
+        "kawy"
+      ]
+    },
+    {
+      "prompt_en": "Not a single shop is open.",
+      "mode": "cloze",
+      "frame": "Żaden sklep nie jest ___.",
+      "answer": "otwarty",
+      "accepts": [
+        "otwarty"
+      ]
+    },
+    {
+      "prompt_en": "Not a single chemist's is open.",
+      "mode": "cloze",
+      "frame": "Żadna apteka nie jest ___.",
+      "answer": "otwarta",
+      "accepts": [
+        "otwarta"
+      ]
+    },
+    {
+      "prompt_en": "I haven't got a phone at all.",
+      "mode": "cloze",
+      "frame": "Nie mam ___ telefonu.",
+      "answer": "żadnego",
+      "accepts": [
+        "żadnego"
+      ]
+    },
+    {
+      "prompt_en": "I haven't got a book at all.",
+      "mode": "cloze",
+      "frame": "Nie mam ___ książki.",
+      "answer": "żadnej",
+      "accepts": [
+        "żadnej"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: My brother doesn't work any more.",
+      "answer": "Brat już nie pracuje.",
+      "accepts": [
+        "Brat już nie pracuje.",
+        "Brat już nie pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: The shop isn't open any more.",
+      "answer": "Sklep już nie jest otwarty.",
+      "accepts": [
+        "Sklep już nie jest otwarty.",
+        "Sklep już nie jest otwarty"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad doesn't drink coffee any more.",
+      "answer": "Tata już nie pije kawy.",
+      "accepts": [
+        "Tata już nie pije kawy.",
+        "Tata już nie pije kawy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister isn't at home yet.",
+      "answer": "Siostra jeszcze nie jest w domu.",
+      "accepts": [
+        "Siostra jeszcze nie jest w domu.",
+        "Siostra jeszcze nie jest w domu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum isn't working yet.",
+      "answer": "Mama jeszcze nie pracuje.",
+      "accepts": [
+        "Mama jeszcze nie pracuje.",
+        "Mama jeszcze nie pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children aren't at school yet.",
+      "answer": "Dzieci jeszcze nie są w szkole.",
+      "accepts": [
+        "Dzieci jeszcze nie są w szkole.",
+        "Dzieci jeszcze nie są w szkole"
+      ]
+    },
+    {
+      "prompt_en": "Type: Not a single office is open.",
+      "answer": "Żadne biuro nie jest otwarte.",
+      "accepts": [
+        "Żadne biuro nie jest otwarte.",
+        "Żadne biuro nie jest otwarte"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum hasn't got a phone at all.",
+      "answer": "Mama nie ma żadnego telefonu.",
+      "accepts": [
+        "Mama nie ma żadnego telefonu.",
+        "Mama nie ma żadnego telefonu"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister hasn't got a book at all.",
+      "answer": "Siostra nie ma żadnej książki.",
+      "accepts": [
+        "Siostra nie ma żadnej książki.",
+        "Siostra nie ma żadnej książki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad hasn't got any time at all.",
+      "answer": "Tata nie ma żadnego czasu.",
+      "accepts": [
+        "Tata nie ma żadnego czasu.",
+        "Tata nie ma żadnego czasu"
+      ]
+    },
+    {
+      "prompt_en": "Type: Nobody works here any more.",
+      "answer": "Nikt już nie pracuje.",
+      "accepts": [
+        "Nikt już nie pracuje.",
+        "Nikt już nie pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother never drinks beer.",
+      "answer": "Brat nigdy nie pije piwa.",
+      "accepts": [
+        "Brat nigdy nie pije piwa.",
+        "Brat nigdy nie pije piwa"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "już",
+    "jeszcze",
+    "nikt",
+    "nic",
+    "nigdy",
+    "nigdzie",
+    "nie",
+    "nie mam",
+    "nie ma",
+    "nie ma problemu",
+    "problem",
+    "problemu",
+    "telefon",
+    "telefonu",
+    "książka",
+    "książkę",
+    "książki",
+    "czas",
+    "czasu",
+    "kawa",
+    "kawy",
+    "piwa",
+    "sklep",
+    "sklepie",
+    "apteka",
+    "biuro",
+    "otwarty",
+    "otwarta",
+    "otwarte",
+    "dom",
+    "domu",
+    "w domu",
+    "szkole",
+    "w szkole",
+    "dzieci",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "dobrego",
+    "dobrej",
+    "nowego",
+    "nowej",
+    "jestem",
+    "jest",
+    "są",
+    "mam",
+    "pracuję",
+    "pracuje",
+    "piję",
+    "pije",
+    "idę",
+    "robię",
+    "kupuje"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_neg_polarity",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

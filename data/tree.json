@@ -4600,12 +4600,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 9, unit 3. Negative polarity and the last negative word. (a) juz nie / jeszcze nie: b2_conjunctions fenced BOTH senses absolutely, having taught juz/jeszcze in their positive jobs. (b) zaden/zadna/zadne, which b2_double_neg DROPPED from the spine's own list because 'zaden is adjective-shaped with a full declension and stacks a new declining word directly on top of neg_gen, taught one node earlier'. Block 2 and b2_neg_gen are both far behind now.",
+      "note": "[C1 SPINE] Block 9, unit 3. Negative polarity and the last negative word. (a) juz nie / jeszcze nie: b2_conjunctions fenced BOTH senses absolutely, having taught juz/jeszcze in their positive jobs. (b) zaden/zadna/zadne, which b2_double_neg DROPPED from the spine's own list because 'zaden is adjective-shaped with a full declension and stacks a new declining word directly on top of neg_gen, taught one node earlier'. Block 2 and b2_neg_gen are both far behind now. [WIRED LIVE] Structure neg_polarity, registered in SEQUENCING.md and audit.py before the audit ran. SEVEN new strings, ZERO new endings: juz nie / jeszcze nie are owned words in a new pairing, and zaden/zadna/zadne take the ten_ta_to shape while zadnego/zadnej take adj_gen's own -ego/-ej. ONE IDEA holds the spine's two halves together - what a nie does to a word: juz and jeszcze flip into their opposites under negation, zaden exists only under it. THE HEADLINE IS A FOUR-INTO-TWO TABLE (English's not yet / still not / not any more / no longer against Polish's jeszcze nie / juz nie). b2_double_neg's logged drop of zaden is paid in full. Chunk to slot: nie ma problemu -> Nie ma zadnego problemu, named on the slide. pomyslu is untaught and the obvious 'no idea at all' example was refused rather than shipped on it. Standalone zaden (= none of them) is neither taught nor ever offered as a wrong choice - it is correct Polish.",
       "pedagogy": "teach",
       "root": "sentence",
-      "tree_part": "sentence"
+      "tree_part": "sentence",
+      "content": "grammar/blocks/c1_neg_polarity.json"
     },
     {
       "id": "c1_comp_analytic",
