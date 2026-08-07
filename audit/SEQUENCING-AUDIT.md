@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 187 · **errors:** 0 · **warns:** 5 · **missing_tags:** 0
+**Nodes audited:** 188 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -15,6 +15,7 @@ _None._
 - **a2_prep_review** [teaches_empty_grammar] `a2_prep_review` — Grammar teach node has empty teaches_*; confirm intentional.
 - **b1_two_futures** [teaches_empty_grammar] `b1_two_futures` — Grammar teach node has empty teaches_*; confirm intentional.
 - **b1_which_case** [teaches_empty_grammar] `b1_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
+- **b2_which_case** [teaches_empty_grammar] `b2_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
 
 ## Path unlock trail
 
@@ -193,6 +194,7 @@ _None._
 | 177 | `b2_passive` | `passive` | 0 | `bedzie`, `byc_adj`, `byc_present`, `copular_future`, `participle_pass`, `passive`, `past_byc`, `zgoda` |
 | 178 | `b2_travel_func` | `situation_chunk` | 27 | `bedzie`, `byc_adj`, `byc_present`, `can_inf`, `conditional_sg`, `existential_jest`, `miec_acc`, `miec_present`, `ordinals_time`, `participle_pass`, `passive`, `prep_place`, `prep_w_loc`, `question`, `situation_chunk`, `zgoda` |
 | 179 | `b2_discussion_func` | `situation_chunk` | 12 | `bedzie`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `miec_present`, `present`, `question`, `questions2`, `situation_chunk`, `ten_ta_to`, `ze_clauses`, `zgoda` |
+| 180 | `b2_which_case` | — | 0 | `adj_acc`, `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `adverb_comp`, `aspect_past`, `byc_adj`, `byc_present`, `chodzic`, `comparative`, `dat_chunks`, `dat_pl`, `dative_pron`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `gen_pl_full`, `inst_identity`, `inst_pl`, `inst_transport`, `inst_z`, `jechac`, `ktory_cases`, `loc_pl`, `miec_acc`, `miec_present`, `motion_chunk`, `neg_gen`, `negation`, `numbers_gen`, `o_loc`, `past_ac`, `past_rest`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `prosic_o`, `superlative`, `ten_ta_to`, `to_jest`, `zgoda` |
 | 181 | `b2_case_gym` | — | 0 | `byc_present`, `conjunctions`, `dat_chunks`, `dative_pron`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `neg_gen`, `negation`, `o_loc`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `prosic_o`, `question`, `question_cases` |
 | 182 | `b2_wrapup` | `situation_chunk` | 0 | `byc_adj`, `byc_present`, `conjunctions`, `existential_jest`, `miec_acc`, `miec_present`, `participle_pass`, `passive`, `past_byc`, `plural_nom`, `prep_w_loc`, `question`, `questions2`, `situation_chunk`, `ze_clauses`, `zgoda` |
 | 184 | `c1_existential` | `existential_tense` | 0 | `bedzie`, `byc_present`, `conjunctions`, `copular_future`, `existential_jest`, `existential_tense`, `gen_endings`, `gen_pl`, `gen_pl_full`, `neg_gen`, `negation`, `past_byc`, `plural_nom`, `prep_w_loc`, `time_past_chunk` |
