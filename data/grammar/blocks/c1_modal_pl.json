@@ -1,0 +1,682 @@
+{
+  "id": "c1_modal_pl",
+  "title": "Powinniśmy, musieli",
+  "title_en": "Should and must, in the plural",
+  "level": "C1",
+  "tree_node": "c1_modal_pl",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 7, unit 14 (path 223). TWELVE NEW STRINGS AND ZERO NEW ENDINGS, in two mechanisms registered as two structure IDs so the load call is visible: modal_pl (the plural of powinien - powinnismy/powinniscie/powinni/powinny - plus the plural past of musiec - musieli/musialy) and powinien_byl (the 'should have' construction, singular, all six persons).\n\nWHY THE TWO PLURALS ARE ONE MECHANISM AND NOT TWO. b2_powinien [174] fenced the whole plural in one sentence: 'the virile plural would drag virile_past's gender split back into a unit that already has two.' The split it was avoiding is the SAME split for both words - powinni/powinny and musieli/musialy differ by exactly the -i/-y contrast the learner has owned since a2_past_plural [57] (byli/byly) and met again in ci/te at b1_virile_reco [111], in c1_irreg_virile [201] and in c1_adj_pl_virile's nowi/mlodzi/zmeczeni/zmeczone. So this unit does not TEACH the virile split; it applies an owned split to two modals at once, which is the argument for one unit rather than two.\n\nTHE PERSON MARKERS ARE THE FAMILY c1_by_plural NAMED ONE NODE BACK. -smy and -scie attach to powinni exactly as they attached to gdyby and zeby at [222], and as they already sit in jestesmy/jestescie, bylismy/byliscie, chcielibysmy/chcielibyscie. The unit therefore adds no ending anywhere - it attaches an owned marker to an owned stem. That adjacency is why powinnismy is presented BEFORE the virile split rather than after it: the marker slide is free, the split slide is recall.\n\nTHE 'SHOULD HAVE' CONSTRUCTION IS ANCHORED ON b2_powinien's OWN MOVE, not on cond_past. That pack taught trzeba bylo and mozna bylo - a modal put into the past by ADDING an owned word rather than by changing shape. powinien byl is the same move with the byl-word agreeing in person and gender. The anchor is deliberately b2_powinien's rather than c1_cond_past's [221] bylbym zrobil, because bolting a plain owned byl onto an owned powinienem is a smaller step than the conditional compound, and reading it as 'the conditional again' would invite *powinienem bylbym.\n\nALL SIX SINGULAR PERSONS ARE TAUGHT, THE PLURAL OF THE CONSTRUCTION IS FENCED. powinnismy byli / powinniscie byli / powinni byli are NOT taught, NOT shown and are NOT distractors. Reason, logged rather than silent: the unit already teaches the plural of powinien in its OTHER half, and combining the two new things in one form is exactly the cliff AGENTS' load-splitting rule exists to prevent. The six singular forms are a complete small paradigm, which is the shape this course teaches; a 4-of-6 set would have been neither complete nor fenced.\n\nTHE NON-VIRILE 1pl/2pl IS DELIBERATELY UNTAUGHT AND THIS IS THE UNIT'S SHARPEST SCOPE CUT. powinnysmy and powinnyscie are both verified NEW and appear NOWHERE - not in a table, not as a distractor. b2_powinien's own reason for dropping the neuter powinno was 'no everyday first-person payoff', and the same reason applies with more force here: Polish takes the virile form whenever the group contains any man, so Dad produces powinnismy in every group he is a member of. powinnysmy is producible only by a group of women speaking about themselves. Slide 1 states the -i/-y split as a rule about who is in the group, which is TRUE of the third person it demonstrates, and no slide claims the first and second person plural have only one shape. Logged for James: if he wants the paradigm closed, the two forms are a one-line addition to slide 0's table and cost no mechanism.\n\nPRONOUN DISCIPLINE - THE FENCE THE AUDITOR CANNOT SEE. on / ona / my / wy sit in audit.py's GLUE_LEMMAS and are reported NEW by the pool, so nothing machine-checked would have caught them. c1_by_plural's own digest records catching my/wy in its slide-0 body_pl. Every learner-facing surface here was scanned by hand: NO on, ona, my or wy appears anywhere, and every subject in every item is a noun. oni/one ARE owned and are used only in the English glosses' Polish column where they were checked.\n\nHOMOGRAPH AND AGREEMENT DISCIPLINE, CHECKED PER SENTENCE. kobiety is TAUGHT <- b1_virile_reco [111] as the NOMINATIVE PLURAL 'women' and as that pack's own non-virile contrast partner, which is exactly the job it does here - it is not a genitive singular anywhere in this pack. dzieci and kobiety take the non-virile (powinny, musialy); studenci, koledzy, rodzice and lekarze take the virile (powinni, musieli). Getting either wrong would teach a false agreement in the level that closed the virile system, so every sentence was checked individually.\n\nWORDS WANTED AND REFUSED, all caught by the position-aware pool rather than by eye: zadzwonic, wrocic, razem, wczesniej, pozniej, czekali, pomagali, biblioteka, punktualnie, kolacje - all verified NEW, none used. 'zaplacic za bilety' was drafted and DROPPED: za is TAUGHT <- b1_polite in the THANKING job only (spine O13), and c1_time_minutes owns its second job, so an Accusative za here would ship a governor out of turn. NO case-map.json ROW IS ADDED - this unit ships no governor.\n\nSTAGE SHAPES. Match is exactly the twelve new forms, six plural modals against six should-haves, so the whole board IS the unit. Kontrola is twelve real-form choices with twelve DISTINCT answers covering all twelve new forms and no meta-questions. Pisanie is eight single-form or two-word pattern answers plus two cloze items blanking the byl-word - the construction's actual teaching point - and no answer repeats. Uzycie is ten real sentences, every one with a noun subject, and none of them reconstructs a Pisanie frame.",
+  "focus_structures": [
+    "modal_pl",
+    "powinien_byl"
+  ],
+  "teaches_structures": [
+    "modal_pl",
+    "powinien_byl"
+  ],
+  "teaches_lemmas": [
+    "powinniśmy",
+    "powinniście",
+    "powinni",
+    "powinny",
+    "musieli",
+    "musiały",
+    "powinienem był",
+    "powinieneś był",
+    "powinien był",
+    "powinnam była",
+    "powinnaś była",
+    "powinna była"
+  ],
+  "uses_structures": [
+    "modal_pl",
+    "powinien_byl",
+    "powinien",
+    "musiec",
+    "can_inf",
+    "virile_past",
+    "past_plural",
+    "past_ac",
+    "past_rest",
+    "plural_nom",
+    "prep_w_loc",
+    "na_acc",
+    "dat_pl",
+    "dative_sg"
+  ],
+  "intro": [
+    {
+      "title": "The plural of powinien — the marker is already yours",
+      "title_pl": "powinienem · powinniśmy",
+      "body": "You have said powinienem — I should — since B2, along with powinieneś and powinien. What you have never had is the plural.\n\nIt costs no new ending. The plural stem is powinni, and onto it go the same two person markers you put onto gdyby and żeby one unit ago: -śmy for we, -ście for you-more-than-one.\n\nThose markers are now on their fifth job. You have them in the present, in the past, in the conditional, on gdyby and żeby — and here.",
+      "body_pl": "powinni + śmy → powinniśmy · powinni + ście → powinniście",
+      "table": {
+        "headers": [
+          "Who",
+          "Owned since B2",
+          "New here"
+        ],
+        "rows": [
+          [
+            "I / we",
+            "powinienem",
+            "powinniśmy"
+          ],
+          [
+            "you — one / you — more than one",
+            "powinieneś",
+            "powinniście"
+          ],
+          [
+            "he / they",
+            "powinien",
+            "powinni"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "We should buy bread.",
+          "pl": "Powinniśmy kupić chleb."
+        }
+      ]
+    },
+    {
+      "title": "powinni and powinny — the split you already carry",
+      "title_pl": "powinni · powinny",
+      "body": "In the third person the two shapes are one letter apart, and the letter is decided by the same thing that decides ci against te: whether the group contains a man.\n\nThis is not a new rule. It is the rule you have used on byli against były since A2, and on ci lekarze against te kobiety since B1.",
+      "body_pl": "ci lekarze → powinni · te kobiety → powinny",
+      "table": {
+        "headers": [
+          "Group",
+          "Marker you know",
+          "should"
+        ],
+        "rows": [
+          [
+            "a group with at least one man",
+            "ci",
+            "powinni"
+          ],
+          [
+            "women, children, things",
+            "te",
+            "powinny"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The students should work in the morning.",
+          "pl": "Studenci powinni pracować rano."
+        },
+        {
+          "en": "The children should sleep.",
+          "pl": "Dzieci powinny spać."
+        }
+      ]
+    },
+    {
+      "title": "musieli and musiały — the same split, on the past",
+      "title_pl": "musiał → musieli · musiała → musiały",
+      "body": "B2 gave you musiałem, musiałaś, musiał, musiała — the past of musieć, singular. The plural is the ordinary plural past you have owned since A2, and it takes the split you have just seen.\n\nSo the pair sits exactly where byli and były sit, and for the same reason.",
+      "body_pl": "byli → musieli · były → musiały",
+      "table": {
+        "headers": [
+          "Group",
+          "were",
+          "had to"
+        ],
+        "rows": [
+          [
+            "a group with at least one man",
+            "byli",
+            "musieli"
+          ],
+          [
+            "women, children, things",
+            "były",
+            "musiały"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "The colleagues had to wait for the bus.",
+          "pl": "Koledzy musieli czekać na autobus."
+        },
+        {
+          "en": "The women had to wait at the hospital.",
+          "pl": "Kobiety musiały czekać w szpitalu."
+        }
+      ]
+    },
+    {
+      "title": "powinienem był — should have",
+      "title_pl": "trzeba → trzeba było · powinien → powinien był",
+      "body": "B2 showed you how Polish puts trzeba and można into the past: it does not reshape the word, it adds an owned one — trzeba było, można było.\n\npowinien does the same thing. Put the był-word after it, agreeing with whoever is speaking, and you have the sentence you have not been able to build: not I should buy bread, but I should have bought bread.\n\nOne honest note. This belongs more to careful speech and to writing than to a hurried conversation, where people often leave the był-word out and let the rest of the sentence carry the fact that it is over. You will read it and you will hear it; nobody will pull you up for saying the shorter thing.",
+      "body_pl": "powinienem + był · powinnam + była",
+      "table": {
+        "headers": [
+          "Who",
+          "should",
+          "should have"
+        ],
+        "rows": [
+          [
+            "I — a man speaking",
+            "powinienem",
+            "powinienem był"
+          ],
+          [
+            "I — a woman speaking",
+            "powinnam",
+            "powinnam była"
+          ],
+          [
+            "you — a man",
+            "powinieneś",
+            "powinieneś był"
+          ],
+          [
+            "you — a woman",
+            "powinnaś",
+            "powinnaś była"
+          ],
+          [
+            "he",
+            "powinien",
+            "powinien był"
+          ],
+          [
+            "she",
+            "powinna",
+            "powinna była"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I should have bought bread. (a man speaking)",
+          "pl": "Powinienem był kupić chleb."
+        },
+        {
+          "en": "Mum should have waited.",
+          "pl": "Mama powinna była czekać."
+        }
+      ]
+    },
+    {
+      "title": "Everything this unit added",
+      "title_pl": "powinniśmy · powinniście · powinni · powinny · musieli · musiały",
+      "body": "Six plural forms and one construction, and between them not a single new ending.\n\nThe place to be careful is the third person. powinni and powinny are one letter apart and mean the same thing about two different groups — so the letter is not a spelling detail, it is the whole information.",
+      "body_pl": "powinien był · powinna była",
+      "table": {
+        "headers": [
+          "Form",
+          "What it says"
+        ],
+        "rows": [
+          [
+            "powinniśmy",
+            "we should"
+          ],
+          [
+            "powinniście",
+            "you should — more than one"
+          ],
+          [
+            "powinni",
+            "they should — a group with a man"
+          ],
+          [
+            "powinny",
+            "they should — women, children, things"
+          ],
+          [
+            "musieli",
+            "they had to — a group with a man"
+          ],
+          [
+            "musiały",
+            "they had to — women, children, things"
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "we should",
+      "pl": "powinniśmy"
+    },
+    {
+      "en": "you should — more than one",
+      "pl": "powinniście"
+    },
+    {
+      "en": "they should — a group with a man",
+      "pl": "powinni"
+    },
+    {
+      "en": "they should — women or children",
+      "pl": "powinny"
+    },
+    {
+      "en": "they had to — a group with a man",
+      "pl": "musieli"
+    },
+    {
+      "en": "they had to — women or children",
+      "pl": "musiały"
+    },
+    {
+      "en": "I should have — a man speaking",
+      "pl": "powinienem był"
+    },
+    {
+      "en": "I should have — a woman speaking",
+      "pl": "powinnam była"
+    },
+    {
+      "en": "you should have — a man",
+      "pl": "powinieneś był"
+    },
+    {
+      "en": "you should have — a woman",
+      "pl": "powinnaś była"
+    },
+    {
+      "en": "he should have",
+      "pl": "powinien był"
+    },
+    {
+      "en": "she should have",
+      "pl": "powinna była"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Studenci ___ pracować rano. (the students should work in the morning)",
+      "choices": [
+        "powinni",
+        "powinny",
+        "powinien",
+        "powinniśmy"
+      ],
+      "answer": "powinni",
+      "explain": "Studenci is a ci group — at least one man — so the third person takes -i."
+    },
+    {
+      "prompt": "Dzieci ___ spać. (the children should sleep)",
+      "choices": [
+        "powinny",
+        "powinni",
+        "powinna",
+        "powinniście"
+      ],
+      "answer": "powinny",
+      "explain": "Dzieci is a te group, like te domy and te kobiety, so the third person takes -y."
+    },
+    {
+      "prompt": "___ kupić chleb. (we should buy bread)",
+      "choices": [
+        "Powinniśmy",
+        "Powinniście",
+        "Powinni",
+        "Powinienem"
+      ],
+      "answer": "Powinniśmy",
+      "explain": "-śmy is the we marker, the same one in jesteśmy, byliśmy and gdybyśmy."
+    },
+    {
+      "prompt": "___ zrobić obiad. (you should make dinner — more than one person)",
+      "choices": [
+        "Powinniście",
+        "Powinniśmy",
+        "Powinny",
+        "Powinieneś"
+      ],
+      "answer": "Powinniście",
+      "explain": "Powinieneś would be speaking to one person only."
+    },
+    {
+      "prompt": "Koledzy ___ czekać na autobus. (the colleagues had to wait for the bus)",
+      "choices": [
+        "musieli",
+        "musiały",
+        "musiał",
+        "muszą"
+      ],
+      "answer": "musieli",
+      "explain": "Koledzy is a ci group, so the plural past takes -li, exactly as byli does."
+    },
+    {
+      "prompt": "Kobiety ___ czekać w szpitalu. (the women had to wait at the hospital)",
+      "choices": [
+        "musiały",
+        "musieli",
+        "musiała",
+        "muszą"
+      ],
+      "answer": "musiały",
+      "explain": "A group of only women is a te group, so the plural past takes -ły, exactly as były does."
+    },
+    {
+      "prompt": "___ był kupić bilety. (I should have bought the tickets — a man speaking)",
+      "choices": [
+        "Powinienem",
+        "Powinnam",
+        "Powinien",
+        "Powinniśmy"
+      ],
+      "answer": "Powinienem",
+      "explain": "The był-word does not carry the person — powinienem does, exactly as it does without it."
+    },
+    {
+      "prompt": "___ była zapytać lekarza. (I should have asked the doctor — a woman speaking)",
+      "choices": [
+        "Powinnam",
+        "Powinienem",
+        "Powinna",
+        "Powinny"
+      ],
+      "answer": "Powinnam",
+      "explain": "była tells you the speaker is a woman; powinnam tells you it is the speaker and not somebody else."
+    },
+    {
+      "prompt": "Brat powinien ___ kupić bilety. (my brother should have bought the tickets)",
+      "choices": [
+        "był",
+        "była",
+        "byli",
+        "być"
+      ],
+      "answer": "był",
+      "explain": "The added word agrees with the subject: brat is one man, so był."
+    },
+    {
+      "prompt": "Siostra powinna ___ zrobić obiad. (my sister should have made dinner)",
+      "choices": [
+        "była",
+        "był",
+        "były",
+        "być"
+      ],
+      "answer": "była",
+      "explain": "powinna has already said she; the added word matches it."
+    },
+    {
+      "prompt": "___ był czekać na lekarza. (you should have waited for the doctor — to a man)",
+      "choices": [
+        "Powinieneś",
+        "Powinnaś",
+        "Powinienem",
+        "Powinni"
+      ],
+      "answer": "Powinieneś",
+      "explain": "-ś is the you marker on powinien, the same marker as in byłeś and gdybyś."
+    },
+    {
+      "prompt": "___ była pomóc mamie. (you should have helped Mum — to a woman)",
+      "choices": [
+        "Powinnaś",
+        "Powinieneś",
+        "Powinnam",
+        "Powinny"
+      ],
+      "answer": "Powinnaś",
+      "explain": "Powinnam would be talking about yourself, not to somebody else."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "we should",
+      "mode": "full_word",
+      "answer": "powinniśmy",
+      "accepts": [
+        "powinniśmy"
+      ],
+      "explain": "powinni plus the śmy marker you already use in jesteśmy and gdybyśmy."
+    },
+    {
+      "prompt_en": "you should — more than one",
+      "mode": "full_word",
+      "answer": "powinniście",
+      "accepts": [
+        "powinniście"
+      ]
+    },
+    {
+      "prompt_en": "they should — a group with at least one man",
+      "mode": "full_word",
+      "answer": "powinni",
+      "accepts": [
+        "powinni"
+      ]
+    },
+    {
+      "prompt_en": "they should — women, children or things",
+      "mode": "full_word",
+      "answer": "powinny",
+      "accepts": [
+        "powinny"
+      ],
+      "explain": "One letter apart from powinni, and the letter is the whole information about who is in the group."
+    },
+    {
+      "prompt_en": "they had to — a group with at least one man",
+      "mode": "full_word",
+      "answer": "musieli",
+      "accepts": [
+        "musieli"
+      ]
+    },
+    {
+      "prompt_en": "they had to — women, children or things",
+      "mode": "full_word",
+      "answer": "musiały",
+      "accepts": [
+        "musiały"
+      ],
+      "explain": "The same -li / -ły pair as byli and były, on the modal."
+    },
+    {
+      "prompt_en": "I should have — a man speaking",
+      "mode": "full_word",
+      "answer": "powinienem był",
+      "accepts": [
+        "powinienem był"
+      ],
+      "explain": "The past is added, not built: powinienem keeps its shape and był arrives after it."
+    },
+    {
+      "prompt_en": "I should have — a woman speaking",
+      "mode": "full_word",
+      "answer": "powinnam była",
+      "accepts": [
+        "powinnam była"
+      ]
+    },
+    {
+      "prompt_en": "Dad should have helped.",
+      "mode": "cloze",
+      "frame": "Tata powinien ___ pomóc.",
+      "answer": "był",
+      "accepts": [
+        "był"
+      ],
+      "explain": "Without this word the sentence says Dad should help — present, still open."
+    },
+    {
+      "prompt_en": "Mum should have waited.",
+      "mode": "cloze",
+      "frame": "Mama powinna ___ czekać.",
+      "answer": "była",
+      "accepts": [
+        "była"
+      ],
+      "explain": "powinna has already marked her as she, so the added word matches: była."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: The students should work in the morning.",
+      "answer": "Studenci powinni pracować rano.",
+      "accepts": [
+        "Studenci powinni pracować rano.",
+        "Studenci powinni pracować rano"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children should sleep.",
+      "answer": "Dzieci powinny spać.",
+      "accepts": [
+        "Dzieci powinny spać.",
+        "Dzieci powinny spać"
+      ]
+    },
+    {
+      "prompt_en": "Type: We should buy bread.",
+      "answer": "Powinniśmy kupić chleb.",
+      "accepts": [
+        "Powinniśmy kupić chleb.",
+        "Powinniśmy kupić chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: You should make dinner. (more than one person)",
+      "answer": "Powinniście zrobić obiad.",
+      "accepts": [
+        "Powinniście zrobić obiad.",
+        "Powinniście zrobić obiad"
+      ]
+    },
+    {
+      "prompt_en": "Type: The colleagues had to wait for the bus.",
+      "answer": "Koledzy musieli czekać na autobus.",
+      "accepts": [
+        "Koledzy musieli czekać na autobus.",
+        "Koledzy musieli czekać na autobus"
+      ]
+    },
+    {
+      "prompt_en": "Type: The women had to wait at the hospital.",
+      "answer": "Kobiety musiały czekać w szpitalu.",
+      "accepts": [
+        "Kobiety musiały czekać w szpitalu.",
+        "Kobiety musiały czekać w szpitalu"
+      ]
+    },
+    {
+      "prompt_en": "Type: I should have bought bread. (a man speaking)",
+      "answer": "Powinienem był kupić chleb.",
+      "accepts": [
+        "Powinienem był kupić chleb.",
+        "Powinienem był kupić chleb"
+      ]
+    },
+    {
+      "prompt_en": "Type: I should have asked the doctor. (a woman speaking)",
+      "answer": "Powinnam była zapytać lekarza.",
+      "accepts": [
+        "Powinnam była zapytać lekarza.",
+        "Powinnam była zapytać lekarza"
+      ]
+    },
+    {
+      "prompt_en": "Type: The doctors should help the children.",
+      "answer": "Lekarze powinni pomagać dzieciom.",
+      "accepts": [
+        "Lekarze powinni pomagać dzieciom.",
+        "Lekarze powinni pomagać dzieciom"
+      ]
+    },
+    {
+      "prompt_en": "Type: The parents had to be at home.",
+      "answer": "Rodzice musieli być w domu.",
+      "accepts": [
+        "Rodzice musieli być w domu.",
+        "Rodzice musieli być w domu"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "powinienem",
+    "powinieneś",
+    "powinien",
+    "powinnam",
+    "powinnaś",
+    "powinna",
+    "musiał",
+    "musiała",
+    "trzeba było",
+    "można było",
+    "był",
+    "była",
+    "byli",
+    "były",
+    "być",
+    "ci",
+    "te",
+    "studenci",
+    "dzieci",
+    "kobiety",
+    "koledzy",
+    "rodzice",
+    "lekarze",
+    "lekarza",
+    "brat",
+    "siostra",
+    "tata",
+    "mama",
+    "mamie",
+    "dzieciom",
+    "kupić",
+    "zrobić",
+    "pracować",
+    "spać",
+    "czekać",
+    "zapytać",
+    "pomóc",
+    "pomagać",
+    "chleb",
+    "obiad",
+    "bilety",
+    "autobus",
+    "rano",
+    "szpitalu",
+    "domu",
+    "gdybyśmy",
+    "gdybyś",
+    "żeby",
+    "gdyby",
+    "jesteśmy",
+    "jesteście",
+    "byliśmy",
+    "byliście",
+    "chcielibyśmy",
+    "chcielibyście",
+    "byłeś",
+    "domy",
+    "muszą",
+    "musiała",
+    "być"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_modal_pl",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

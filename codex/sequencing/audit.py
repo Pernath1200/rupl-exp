@@ -171,6 +171,8 @@ STRUCTURE_CATALOGUE = {
     "imperative_niech",
     "cond_past",
     "by_plural",
+    "modal_pl",
+    "powinien_byl",
 }
 
 GLUE_LEMMAS = {

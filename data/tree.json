@@ -4448,12 +4448,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "note": "[C1 SPINE] Block 7, unit 11. powinnismy/powinniscie/powinni/powinny and musieli/musialy (all verified NEW) - b2_powinien fenced the whole plural because 'the virile plural would drag virile_past's gender split back into a unit that already has two'. Block 2 and B1 have both since paid for that split. ALSO powinienem byl, the conditional-past modal a2_musiec dropped BY NAME and O6 fenced for all of B2 - which is why this unit sits AFTER c1_cond_past on the path. b2_powinien's own note calls the missing third modal 'the pack's sharpest scope cut'; this closes it.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_modal_pl.json"
     },
     {
       "id": "c1_stac_sie",
