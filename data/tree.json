@@ -3934,11 +3934,12 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "vocab",
-      "note": "[C1 SPINE] Block 2 vocab (spine O8). Evaluative adjectives, placed here so the block's new endings get a wider adjective set than dobry/duzy. ALL VERIFIED NEW this run: latwy, trudny, gotowy, pusty, pelny, dziwny, zwykly, oczywisty, konieczny, mozliwy, niemozliwy, skuteczny. Trim to 12. latwy/trudny pay a1_trunk_adjectives' own deferral ('no anchorable noun this early') - THE OLDEST OPEN IOU IN THE COURSE, four levels old. gotowy pays b2_passive's logged absence. ANCHORS, never re-taught: wolny, zajety, ciekawy, nudny (leaf_freetime_a1), wazny (b2_travel_func).",
+      "note": "C1 Block 2 vocab (C1-SPINE O8) — evaluative adjectives, and the pack that pays the oldest open IOU in the course. Twelve new words, every one re-verified NEW with check_new.py at this node's own path position: łatwy, trudny, gotowy, pusty, pełny, dziwny, zwykły, oczywisty, konieczny, możliwy, niemożliwy, skuteczny. a1_trunk_adjectives deferred łatwy/trudny at A1 for want of an anchorable noun; there are hundreds now. Twenty taught forms for twelve words, the b2_abstract shape — eight of them are the feminine, neuter or plural of a word whose masculine is taught here, built by agreement rules the learner has just spent five units drilling, and tagged so the auditor can police them. THE ANCHOR RULE DECIDED THE SENTENCE BANK: AGENTS names this pack's own trap in its text (\"never write lookalike frames where both halves are new — To jest łatwe / trudne\"), so neither headline word is ever introduced in a bare To jest frame; łatwy arrives on Angielski jest łatwy and trudny on Polski jest trudny. Four words take a lexical anchor already in the course rather than an icon — oczywisty from oczywiście, możliwy from możliwość and można, niemożliwy from możliwy, skuteczny from skutek — and the other eight carry an icon. THE HOMOGRAPH IS gotowy: gotować, gotowanie and ugotowany are all taught, gotowy looks like family and is not, and Obiad jest gotowy is about the dinner being finished rather than about anyone having cooked it. Named on the item. konieczny/koniec is the milder second case. Placed at the end of Block 2 on purpose and the placement is used: sentence 25 (W pustych sklepach nie ma chleba) runs the block's -ych on an adjective that did not exist until this pack, and pustych is the one plural oblique taught here.",
       "pedagogy": "teach",
-      "parent": "trunk"
+      "parent": "trunk",
+      "content": "vocab/blocks/c1_evaluation.json"
     },
     {
       "id": "c1_ktory_plural",
