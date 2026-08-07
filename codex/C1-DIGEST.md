@@ -3332,3 +3332,276 @@ under load-splitting. And the standing rule holds: **every C1 unit that ships a
 new governor must add its row to `data/case-map.json` in the same commit** —
 `około` was refused here partly on that ground, and `case-map.json` still has no
 rows after `b2_prosic_o` [165] except the ones Block 5 added.
+
+---
+
+## Batch 15 — Block 8 opened: the clock, the calendar, and the third set of numbers
+
+Three units, one commit each, pushed individually. `codex/REPAIR-QUEUE.md` was
+checked first and is **still empty** — every one of its 19 packs and 104 items
+is ticked, so the whole run went to the build track. The five "Który przypadek?"
+units were checked next: four are live and `c1_which_case` [235] is still the
+last of the family and still blocked, so this is a C1 build run under step 2 of
+the routine.
+
+| unit | path | new strings | commit |
+|---|---|---|---|
+| `c1_time_minutes` | 226 | 14 | `8773aac` |
+| `c1_dates_full` | 227 | 24 production + 8 recognition | `b7e3e34` (+ `b95d3af`) |
+| `c1_collective_num` | 228 | 7 | `261e109` |
+
+Audit after each: **0 errors**. Warns held at **6** throughout — the same six
+`teaches_empty_grammar` nodes (`a2_prep_review`, `b1_two_futures` and the four
+shipped which-case units). Nothing else entered the warn set.
+
+Structure IDs `time_minutes`, `dates_full` and `collective_num` were registered
+in `codex/SEQUENCING.md` **and** `audit.py`'s `STRUCTURE_CATALOGUE` before any
+audit ran, per the build protocol.
+
+### How the three were verified
+
+Beyond `audit.py` — which only ever checks **declared** tags and so structurally
+cannot see a stray Polish word — each pack was run through a token-level checker
+over every learner-facing surface (slide `title_pl` / `body_pl` / every table
+cell / every example, match rows, quiz choices, cloze frames, and every Pisanie
+and Użycie answer and accept) against its own position-aware pool from
+`make_pool.py --before <node>`. It also asserts twelve match rows, one `___` per
+cloze frame, the Pisanie ≤3-word cap on typed-whole answers, no duplicate
+answers or prompts inside a stage under a mirror of the engine's `norm()`, that
+no Pisanie frame reconstructs a Użycie sentence, that every declared
+`uses_lemma`/`uses_structure` is pool-legal, and that no `teaches_lemma` is
+already owned upstream.
+
+**It found three live defects, and a fourth was caught by hand.** All four are
+the class the auditor cannot reach:
+
+1. **`c1_time_minutes` declared `do` and `na` in `uses_lemmas`.** Both are the
+   function-word artifact C1-SPINE warns about for `na`: they never appear as
+   bare lemmas because they live inside multi-word lemmas, and their case jobs
+   are carried by the `prep_do_gen` / `na_acc` **structures**. Left in, they
+   would have been hard auditor errors. Removed.
+2. **`c1_collective_num`'s Użycie item 12 read *Czterej koledzy grają w
+   piłkę*.** `piłkę` is TAUGHT (`a2_sport` [94], inside *Mam nową piłkę*), so
+   `check_new.py` says yes and the auditor says yes — but **`grać w piłkę` is
+   `w` + ACCUSATIVE**, and the only `w` this course has ever taught is
+   `prep_w_loc`, `w` + Locative. An untaught governor smuggled in behind a
+   taught noun. Replaced with *Czterej koledzy piją kawę*.
+3. **`c1_collective_num`'s Użycie item 3 reconstructed a Pisanie cloze frame**
+   character for character (*Dwaj studenci są w parku.*). Both moved to
+   `w szkole`, which also keeps the deliberate two-shape pair (item 3 and item
+   4 are the same English sentence in `dwaj studenci są` and `dwóch studentów
+   jest`) intact.
+4. **`c1_dates_full` shipped a garbled explain** — "Kwiecień turns its ie into
+   ie plus -nia" — corrected in `b95d3af` to what actually happens: the e in
+   front of the ń drops and the ń hardens.
+
+**No diacritic-bearing unknown token survived in any of the three packs**, and
+the GLUE_LEMMAS pronouns (`on`/`ona`/`my`/`wy`/`oni`/`one`), which the auditor
+structurally cannot see, were scanned for by hand across every surface: every
+hit was the English word *on* or *one* in explanatory prose. None of the three
+units uses a Polish personal pronoun anywhere.
+
+### `c1_time_minutes` — and a correction to the spine that made the unit easier
+
+**The unit pays both of `a2_ordinals_time` [90]'s fences at once**, which is
+what the spine asked for: its largest, quoted in its own note — *"wpół do, za
+piętnaście, kwadrans po, any minutes-past-the-hour, any half-past or quarter
+form"* — and its second, the feminine Nominative hour (*Jest trzecia*), which
+that pack called *"a THIRD inflected set"* and deferred under load-splitting.
+
+**The load turned out to be far smaller than four mechanisms suggest, and that
+is the finding.** The only genuinely new inflected set is the feminine
+Nominative ordinal, and it is the A1 `zgoda` rule (*dobry → dobra*) applied to
+twelve ordinals the learner already owns — **fully regular, no exception in the
+twelve, derivable rather than memorised**. Everything after `o` / `po` / `do` /
+`od` is the **-ej form `a2_ordinals_time` already taught whole**, and
+`c1_od_source` [206] has already used it in a Genitive job (*od piątej do
+siódmej*), so **not one clock word changes shape anywhere in the unit**. That
+left fourteen new strings — twelve hours, plus `wpół` and `po` — for four phrase
+shapes, and one idea to hold them together: after half past, Polish stops
+counting up from the hour gone and starts counting down to the hour coming.
+*Wpół do czwartej is 3:30, not 4:30* is the single fact the learner most needs
+and it gets its own slide.
+
+**C1-SPINE O13 is wrong about `za`, and it was checked rather than assumed.**
+The spine and the batch-14 digest both say *"`za` is TAUGHT in the thanking job
+only (`b1_polite`)"* and instruct this unit to name a two-job split the way
+`b2_prosic_o` named `o`'s. In fact **`b1_plans` [104] teaches `za tydzień` and
+states the rule in its own explain** — *"za + a stretch of time means that far
+into the future"*. So *za piętnaście czwarta* is **not a new job at all**: it is
+`b1_plans`' own rule applied to minutes instead of weeks, and the unit anchors
+it there explicitly. The two jobs that do need naming side by side are
+*dziękuję za* (thanks FOR) and `za` + time (that far ahead), and slide 4 names
+both.
+
+**No `case-map.json` row was added, and this was a decision rather than an
+oversight.** `po` appears only in front of the closed set of twelve clock words,
+taught whole, and the unit **states no case rule about it** — so by the
+`b2_which_case` precedent, which refused rows for `za` (`b1_polite`) and
+`według` (`b2_discussion_func`) on exactly that ground ("that pack is chunk-lane
+— it teaches `situation_chunk`, states no case rule, and its complements are a
+closed set"), it does not earn a row. The same reasoning holds for `za`. **Both
+remain James's call**, and the `za` question is now sharper than the
+`b2_which_case` digest could make it: the word has had two jobs since B1, not
+since this unit.
+
+**One line is recognition-only and never drilled:** slide 5 names the digital
+reading (*trzecia dwadzieścia*) in a sentence, because the learner will hear it
+constantly and it costs nothing new once slide 1 has landed. It appears in no
+item. **Deliberately not taught:** minutes above twenty as single words, the
+24-hour clock, `w nocy` (`nocy` is NEW), and `po południu` (still not in pool
+four levels after `a2_ordinals_time` logged the same absence).
+
+### `c1_dates_full` — the spine's own example is not buildable, and that is the run's loudest finding
+
+The unit's one new thing is small and clean: **a Polish date is two Genitives
+with nothing in front of either** — *pierwszego stycznia*, against English's
+*on the first OF January*. The day half is not new machinery at all, since
+ordinals are adjectives and `b2_adj_gen` [137] has owned `-ego` for a level; the
+month half is the real content and it is a **closed set of whole forms** in the
+`gen_pl_full` idiom (*marzec → marca*, *kwiecień → kwietnia*, *wrzesień →
+września*), with `luty` the odd one because it is an old adjective and so makes
+*lutego*.
+
+**But C1-SPINE names this node's example as *piętnastego stycznia*, and that
+phrase cannot be built at this path position.** `a2_ordinals_time` taught
+ordinals **1st–12th only** — verified, not assumed — so `piętnasty`,
+`dwudziesty` and `trzydziesty` are all NEW and none of them is owned. Closing
+days 13–31 needs seven teens ordinals, plus `dwudziesty`/`trzydziesty`, plus
+every one of their Genitives, plus the compound rule (*dwudziestego piątego* —
+**both** words decline): roughly eighteen further strings and a second formation
+rule stacked on top of twelve irregular month forms. AGENTS' load-splitting rule
+forbids that in one unit, and James's stated reason for the rule — *"if students
+get frustrated they give up"* — applies exactly here.
+
+**So production is fenced to days 1–12, and slide 4 says so out loud** rather
+than hiding it: the rule for the higher days is named, four rows
+(13/15/20/30) are shown as **recognition only**, tagged in `teaches_lemmas` so
+nothing leaks past the auditor, and demanded **nowhere** in match, quiz, Pisanie
+or Użycie. The slide names the cost in the sharpest available terms — the course
+cannot say *dwudziestego piątego grudnia*, Christmas Day.
+
+**This is James's call and it has a cheap fix.** `c1_quantifiers` [229] is the
+last numeral unit on the path and is the next-but-one node to be built; it could
+absorb the teens ordinals for the price of one slide, since `-nasty` is a rule
+the learner has already seen in *jedenaście → jedenasty*. Whoever builds it
+should read this section first.
+
+**The node's learner-visible label was corrected at the wire**, per the standing
+title instruction from `b1_wrapup`'s digest: `Piętnastego stycznia` →
+**`Pierwszego stycznia`**, so the map does not advertise a form the unit never
+drills. `label_en` stays *Full dates*.
+
+**Also fenced, logged rather than forgotten:** years (`roku` is NEW), the
+Locative month (*w styczniu*, `styczniu` NEW), and **`Którego?` as the date
+question** — `którego` is TAUGHT (`b1_ktory_cases` [121]) but **only as a
+relative pronoun**, so asking a date with it would be a homograph sting for no
+gain. The unit asks with `Kiedy?`, which is owned.
+
+**A near-homograph found in self-review and named on the item:** *maja*, the
+Genitive of *maj*, differs from *mają*, the 3pl of *mieć* (`a1_miec` [9]), **by
+the ogonek alone** — and the grammar engine's accent near-miss branch makes that
+difference live at the keyboard. The *trzeciego maja* Pisanie explain says so.
+
+### `c1_collective_num` — two facts, seven strings, no new machinery
+
+The spine puts collective numerals and `dwaj` in one unit because both are about
+counting people. That is defensible here for a reason worth stating: **seven new
+strings carry not one new ending and not one new agreement rule.**
+
+`dwoje` / `troje` / `czworo` / `pięcioro` pull the Genitive plural (owned) and
+the neuter-singular verb (owned — `b2_num_subject` [159] taught exactly this for
+five-and-up), and `dzieci` is its own many-form already, so the four words are
+the entire cost. `dwaj` is the shape `b2_num_virile` [160] fenced by name:
+*"it is a second system — nominative numeral, nominative noun, plural verb — and
+would undo slide 2's entire claim in one line."* That claim (with the
+man-numbers there is no 2–4 exception) is a level behind now, so the two shapes
+can sit side by side, and slide 3 does exactly that: **dwóch studentów jest ≡
+dwaj studenci są**, same meaning, opposite machinery, choose either.
+
+The unit's sharpest single fact is the three-way contrast, which no earlier unit
+could state: **`dwóch studentów`** = two male students · **`dwaj studenci`** =
+the same thing in the naming shape · **`dwoje studentów`** = one man and one
+woman. Same noun, same number, and the numeral is the only thing that says so.
+
+**Deliberate deviation from the spine's letter, logged as required.** The spine
+says `dwaj`; the unit teaches **`dwaj`, `trzej` and `czterej`** — the complete
+closed set, since there is no nominative virile numeral above four. Teaching one
+of three would hand the learner a shape he cannot use at the other two numbers
+he meets constantly, which is the half-teaching this course avoids everywhere
+else. Two extra strings, no extra mechanism, and slide 3 states plainly that the
+set stops at four and that from five up *pięciu studentów jest* is the only
+option.
+
+**`b2_num_virile`'s feminine guard is carried forward intact** — that pack called
+it *"the most important thing in the pack"*, and it is: `osoba` means person but
+is grammatically feminine, so it takes the ordinary numbers (*pięć osób*) and
+neither the man-numbers nor the collectives. Quiz item 8 and Użycie item 10 are
+that guard. **`kobiet` was wanted for a second guard example and refused** — the
+Genitive plural of `kobieta` is untaught anywhere in the course, so `osób` does
+the work, which is `b2_num_virile`'s own example.
+
+**Refused, all logged:** collectives with plural-only nouns (*dwoje drzwi* — the
+same word in a third job, and `drzwi`/`okulary`/`spodnie` are the only owned
+members); the `-oro` set above `pięcioro`, named as continuing upward with **no
+forms shown** so nothing untagged reaches the screen; and the oblique numerals
+`dwiema`/`dwoma`, which no remaining unit needs.
+
+### For James to smoke — batch 15
+
+1. **`wpół do czwartej` = 3:30.** This is the one thing in the batch most likely
+   to be got wrong in the hand, and it is a fact about Polish rather than about
+   the unit. Slide 3 does nothing but that, and quiz items 2, 3 and 9 all attack
+   it from different angles. If it still slips, the fix is a second pass at the
+   Which-one-is-4:30 shape rather than more prose.
+2. **A cloze frame that OPENS with the blank.** `c1_collective_num` Pisanie item
+   10 is `___ dzieci było w domu.` — the fifth repair run flagged `b2_jesli` #6
+   as the first frame to *end* at the blank; this is the first to *begin* at
+   one. It should render fine, but it is worth one look, and the answer is
+   capitalised (`Pięcioro`) with the lower-case form also accepted.
+3. **Days 13–31, and Christmas.** See the `c1_dates_full` section. The course
+   currently cannot say *dwudziestego piątego grudnia*, and slide 4 tells the
+   learner so. Say the word and `c1_quantifiers` absorbs the teens ordinals next
+   run.
+4. **`dwaj` / `trzej` / `czterej` against `dwóch` / `trzech` / `czterech`.**
+   Użycie items 3 and 4 are deliberately the *same English sentence* in the two
+   shapes, back to back. That is honest — Polish really does allow both — but it
+   is the first time the course has asked for one sentence twice, and it may
+   read as a mistake rather than as a point.
+5. **`za` in the map.** The correction above means `za` has carried two jobs
+   since `b1_plans` at B1, not since this unit. If you want it in the **Przypadki**
+   panel, its row is *za… (that far ahead in time / thanks FOR) → Accusative*,
+   and `taught_by` should be `b1_plans` — which would mean backfilling
+   `b1_which_case` and `b2_which_case`, exactly as `od` was backfilled in
+   which-case batch 2.
+
+### Still open after batch 15
+
+- **`c1_which_case` [235]** — still blocked until the C1 build track reaches path
+  234. **Six nodes to go**: `c1_quantifiers`, `c1_concessive`, `c1_cause_time`,
+  `c1_neg_polarity`, `c1_comp_analytic`, `c1_register`.
+- **Days 13–31 of the month** — new this batch, and the largest open gap in the
+  course. James's call; `c1_quantifiers` is the cheapest home.
+- **`po` and `za` as `case-map.json` rows** — refused this run on the settled
+  chunk-lane precedent, still James's call, now with better evidence on `za`.
+- **`sprzątać`/`posprzątać`** — unchanged; the last vocab pack has shipped
+  without it.
+- **`kobiet`** — the Genitive plural of *kobieta* is untaught anywhere in the
+  course, found while writing the feminine guard. One row in any remaining pack
+  would close it; nothing in Block 8 or 9 has an honest home for it.
+- **The 161 fold variants** whose `accepts` contains the deaccented form of their
+  own answer — unresolved since the fifth repair run. None of this batch's items
+  adds to the count; every `accepts` here is exact-only.
+- **The vocabulary volume finding** (`codex/LEVEL-AUDIT-2026-08-07.md`) —
+  untouched.
+
+### Next run
+
+`c1_quantifiers` [229] is next in `path_order`, then `c1_concessive` [230] and
+`c1_cause_time` [231]. Two things for whoever takes them. **Read the
+`c1_dates_full` section above before starting `c1_quantifiers`** — it is the last
+numeral unit on the path and the only cheap home for the teens ordinals if James
+wants dates past the twelfth. And the standing rule still holds: **every unit
+that ships a new case governor must add its row to `data/case-map.json` in the
+same commit**; Block 8 added none, for the reasons logged above, so the map is
+unchanged since Block 5.
