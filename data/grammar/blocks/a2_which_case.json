@@ -137,6 +137,12 @@
             "Mówię o pracy."
           ],
           [
+            "od… (older THAN, cheaper THAN)",
+            "Genitive · dopełniacz",
+            "what you are comparing against",
+            "starszy od brata"
+          ],
+          [
             "jestem… (a job or an identity)",
             "Instrumental · narzędnik",
             "what someone IS",
@@ -345,6 +351,11 @@
             "pięć and above",
             "Genitive · dopełniacz",
             "pięć godzin"
+          ],
+          [
+            "od — comparing two things",
+            "Genitive · dopełniacz",
+            "starszy od brata"
           ],
           [
             "mam · piję · chcę · lubię · kupuję",
@@ -900,7 +911,10 @@
     "pięć",
     "mój",
     "moja",
-    "dobra"
+    "dobra",
+    "od",
+    "od brata",
+    "starszy"
   ],
   "sequencing": {
     "spec": "codex/SEQUENCING.md",
