@@ -1,0 +1,565 @@
+{
+ "id": "c1_adj_pl_gen",
+ "title": "Dużo dobrych filmów",
+ "title_en": "Plural adjectives · the Genitive",
+ "level": "C1",
+ "tree_node": "c1_adj_pl_gen",
+ "default_direction": "en_to_pl",
+ "kind": "morphology",
+ "type": {
+  "mode": "full_word"
+ },
+ "check": {
+  "sequence": [
+   "match",
+   "quiz"
+  ]
+ },
+ "note": "C1 Block 2, unit 1 (C1-SPINE O2) — the first unit of the largest untaught system left in the course. B2-SPINE O3 sent the plural adjective to C1, and NINE CONSECUTIVE B2 UNITS shipped bare-noun because of it: b2_loc_pl through b2_sie_impersonal each logged the same line in their own notes. This node starts paying that back.\n\nWHY THE GENITIVE FIRST, and it is not arbitrary: the Genitive is the one oblique case where the learner ALREADY puts plurals. dużo + Genitive plural has been in the course since a1_gen_endings, nie ma + Genitive plural since a2_gen_pl (W sklepie nie ma gazet), and b2_gen_pl_full closed the noun families. So this unit changes exactly one thing about sentences the learner already builds: the adjective comes along.\n\nFOUR NEW FORMS, ONE ENDING, and the ending is the headline. In the singular the Genitive made the learner choose between -ego and -ej; in the plural there is nothing to choose — -ych covers masculine, feminine and neuter alike. dobrych, nowych, małych, dużych all verified NEW. Four adjectives rather than six is the b2_adj_gen discipline held: stary and zimny were dropped, and there was a second reason to drop them beyond form count — stare and zimne are BOTH verified NEW as nominative plurals, so neither could anchor the Nominative→Genitive table on slide 4. dobre, nowe, małe and duże are all owned as plurals, which is why exactly these four are here.\n\nZERO NEW GOVERNORS, and one of them is two nodes old: dużo (a1_gen_endings), nie ma (a1_negation), and nie było / nie będzie, which c1_existential taught at the top of this same level. Recycling the level's own opening unit inside its second block is the AGENTS gyms rule doing its intended work — new grammar used actively in later units' sentences rather than drilled in a gym.\n\nHOMOGRAPH DISCIPLINE. okien / książek / kurtek / hoteli are the b2_gen_pl_full closed families and are used only as Genitive PLURALS. Where the singular column of a table needs a Genitive singular, it takes nowej książki and małej kurtki — both TAUGHT AS genitive singulars by a1_gen_ki [39], which was checked rather than assumed. okna is NOT used as a Genitive singular anywhere: a2_plural_nom owns that string as a NOMINATIVE PLURAL and it is the second row of the AGENTS homograph table.\n\nTHE dużo / dużych COLLISION IS NAMED, not hidden. They share four letters and do unrelated jobs, they can legally stand next to each other (dużo dużych domów), and quiz item 12 offers dużo as a distractor against dużych for exactly that reason.\n\nFENCED, and this is the single easiest fence in C1 to break by accident because the three strings are so close: NO -ymi and NO -ym anywhere — not in a slide, not as a distractor. c1_adj_pl_inst and c1_adj_pl_dat own those, and c1_adj_pl_loc gets -ych's second job. Also fenced: VIRILE forms of every kind, which means no person nouns take an adjective here — mali, duzi, zmęczeni and dobrzy appear nowhere, and c1_adj_pl_virile owns them. Note the honest fact this fence costs nothing: the Genitive plural has NO virile split, so dużo dobrych lekarzy would have been correct, and it is still held out so the unit says nothing at all about people-plurals before the unit that owns them. -ich (wysokich, drogich) is out too — every adjective here is a hard stem, so the rule as stated is trustworthy for exactly the words shown.\n\nPISANIE follows b2_adj_gen exactly: eight bare two-word Genitive phrases glossed 'of good films', which is the honest reading under all three governors used. Two words, minimal pattern unit, typed whole under the James 2026-08-06 cap.",
+ "focus_structures": [
+  "adj_pl_gen"
+ ],
+ "teaches_structures": [
+  "adj_pl_gen"
+ ],
+ "teaches_lemmas": [
+  "dobrych",
+  "nowych",
+  "małych",
+  "dużych"
+ ],
+ "uses_structures": [
+  "adj_pl_gen",
+  "adj_gen",
+  "zgoda",
+  "plural_nom",
+  "gen_endings",
+  "gen_pl",
+  "gen_pl_full",
+  "negation",
+  "neg_gen",
+  "existential_jest",
+  "existential_tense",
+  "byc_present",
+  "past_byc",
+  "bedzie",
+  "miec_present",
+  "miec_acc",
+  "prep_w_loc",
+  "conjunctions"
+ ],
+ "intro": [
+  {
+   "title": "The plural adjective starts here",
+   "title_pl": "dobre filmy → dużo dobrych filmów",
+   "body": "Every oblique case you learned in B2 — Genitive, Locative, Instrumental, Dative — took a bare noun with no adjective in front of it, because the plural forms had not been taught. They start now, and they start with the Genitive for a plain reason: the Genitive is the one case where you already put plurals. dużo has taken a Genitive plural since A1 and nie ma since A2. Only the adjective is new.",
+   "body_pl": "dopełniacz liczby mnogiej — dobrych",
+   "table": {
+    "headers": [
+     "You already say",
+     "From now on"
+    ],
+    "rows": [
+     [
+      "dużo filmów",
+      "dużo dobrych filmów"
+     ],
+     [
+      "Nie ma gazet.",
+      "Nie ma nowych gazet."
+     ],
+     [
+      "W domu jest dużo okien.",
+      "W domu jest dużo małych okien."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "One ending for the whole plural",
+   "title_pl": "-ych",
+   "body": "In the singular this case made you choose: -ego for masculine and neuter, -ej for feminine. In the plural there is nothing to choose. One string, -ych, whatever the gender of the noun behind it.",
+   "body_pl": "dobrego · dobrej → dobrych",
+   "table": {
+    "headers": [
+     "Singular Genitive",
+     "Plural Genitive"
+    ],
+    "rows": [
+     [
+      "dużo dobrego piwa",
+      "dużo dobrych filmów"
+     ],
+     [
+      "dużo dobrej kawy",
+      "dużo dobrych gazet"
+     ],
+     [
+      "nie ma nowego telefonu",
+      "nie ma nowych telefonów"
+     ],
+     [
+      "nie ma małej kurtki",
+      "nie ma małych kurtek"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "There are a lot of good films in the shop.",
+     "pl": "W sklepie jest dużo dobrych filmów."
+    },
+    {
+     "en": "There are no new jackets.",
+     "pl": "Nie ma nowych kurtek."
+    }
+   ]
+  },
+  {
+   "title": "Nothing new asks for it",
+   "title_pl": "dużo · nie ma · nie było · nie będzie",
+   "body": "No new trigger comes with this ending. dużo and nie ma are the two you have had longest, and the past and future of nie ma arrived two units ago at the top of this level. All four take the same phrase.",
+   "table": {
+    "headers": [
+     "Trigger",
+     "Example"
+    ],
+    "rows": [
+     [
+      "dużo",
+      "W sklepie jest dużo dobrych filmów."
+     ],
+     [
+      "nie ma",
+      "W sklepie nie ma nowych kurtek."
+     ],
+     [
+      "nie było",
+      "W biurze nie było dużych okien."
+     ],
+     [
+      "nie będzie",
+      "W sklepie nie będzie nowych telefonów."
+     ]
+    ]
+   }
+  },
+  {
+   "title": "From the plain plural to the Genitive plural",
+   "title_pl": "duże domy → dużo dużych domów",
+   "body": "The left column is a phrase you can already say; the right one is the same phrase after dużo. Both words move, the adjective to -ych and the noun to its Genitive plural. One warning on the last row: dużo and dużych are not the same word. dużo means \"a lot of\" and never changes shape; dużych is the plural Genitive of duży, \"big\". They can stand next to each other, and they often do.",
+   "table": {
+    "headers": [
+     "Plain plural",
+     "After dużo"
+    ],
+    "rows": [
+     [
+      "dobre filmy",
+      "dużo dobrych filmów"
+     ],
+     [
+      "nowe sklepy",
+      "dużo nowych sklepów"
+     ],
+     [
+      "małe okna",
+      "dużo małych okien"
+     ],
+     [
+      "duże domy",
+      "dużo dużych domów"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "en": "There are a lot of big houses in the city.",
+     "pl": "W mieście jest dużo dużych domów."
+    }
+   ]
+  }
+ ],
+ "match": [
+  {
+   "en": "There are a lot of good films in the shop.",
+   "pl": "W sklepie jest dużo dobrych filmów."
+  },
+  {
+   "en": "There are no new jackets.",
+   "pl": "Nie ma nowych kurtek."
+  },
+  {
+   "en": "There are a lot of new shops.",
+   "pl": "Jest dużo nowych sklepów."
+  },
+  {
+   "en": "There are no big shops.",
+   "pl": "Nie ma dużych sklepów."
+  },
+  {
+   "en": "There are a lot of small cats in the park.",
+   "pl": "W parku jest dużo małych kotów."
+  },
+  {
+   "en": "There are no good hotels.",
+   "pl": "Nie ma dobrych hoteli."
+  },
+  {
+   "en": "There are a lot of big houses in the city.",
+   "pl": "W mieście jest dużo dużych domów."
+  },
+  {
+   "en": "There are no small windows.",
+   "pl": "Nie ma małych okien."
+  },
+  {
+   "en": "At home there are a lot of good books.",
+   "pl": "W domu jest dużo dobrych książek."
+  },
+  {
+   "en": "There are a lot of new newspapers.",
+   "pl": "Jest dużo nowych gazet."
+  },
+  {
+   "en": "There were no big windows in the office.",
+   "pl": "W biurze nie było dużych okien."
+  },
+  {
+   "en": "There will be no new phones in the shop.",
+   "pl": "W sklepie nie będzie nowych telefonów."
+  }
+ ],
+ "quiz": [
+  {
+   "prompt": "a lot of good films →",
+   "choices": [
+    "dużo dobrych filmów",
+    "dużo dobre filmów",
+    "dużo dobrego filmów",
+    "dużo dobrych filmy"
+   ],
+   "answer": "dużo dobrych filmów",
+   "explain": "Both words have to move: the adjective to -ych and the noun to its Genitive plural. dobre is the plain plural and dobrego is the singular."
+  },
+  {
+   "prompt": "There are no new jackets. →",
+   "choices": [
+    "Nie ma nowych kurtek.",
+    "Nie ma nowe kurtek.",
+    "Nie ma nowej kurtek.",
+    "Nie ma nowej kurtki."
+   ],
+   "answer": "Nie ma nowych kurtek.",
+   "explain": "The last option is good Polish but says something else — \"there is no new jacket\", one of them. nowej is the singular ending."
+  },
+  {
+   "prompt": "W sklepie jest dużo ___ filmów. (good)",
+   "choices": [
+    "dobrych",
+    "dobre",
+    "dobrego",
+    "dobrej"
+   ],
+   "answer": "dobrych",
+   "explain": "filmów is a Genitive plural, so the adjective in front of it takes the one plural ending this case has."
+  },
+  {
+   "prompt": "Nie ma ___ okien. (small)",
+   "choices": [
+    "małych",
+    "małe",
+    "małego",
+    "małej"
+   ],
+   "answer": "małych",
+   "explain": "-ych is the same whatever the gender behind it — okno is neuter and it makes no difference at all."
+  },
+  {
+   "prompt": "a lot of good coffee →",
+   "choices": [
+    "dużo dobrej kawy",
+    "dużo dobrych kawy",
+    "dużo dobrej kaw",
+    "dużo dobrych kaw"
+   ],
+   "answer": "dużo dobrej kawy",
+   "explain": "Coffee here is one substance, not a count of coffees, so this stays singular — the -ej you learned in B2. The new ending is for plurals only."
+  },
+  {
+   "prompt": "There are no big shops. →",
+   "choices": [
+    "Nie ma dużych sklepów.",
+    "Nie ma duże sklepy.",
+    "Nie ma duże sklepów.",
+    "Nie ma dużych sklepy."
+   ],
+   "answer": "Nie ma dużych sklepów.",
+   "explain": "Both words move together or neither does. Nie ma duże sklepy is the plain plural left exactly as it stands — the shape English invites, because English changes nothing after \"there are no\"."
+  },
+  {
+   "prompt": "There were no big windows in the office. →",
+   "choices": [
+    "W biurze nie było dużych okien.",
+    "W biurze nie były dużych okien.",
+    "W biurze nie było duże okna.",
+    "W biurze nie było dużych okna."
+   ],
+   "answer": "W biurze nie było dużych okien.",
+   "explain": "Two things from two different units. nie było never becomes nie były, because a negative existential has no subject to agree with; and after it the whole phrase goes into the Genitive plural."
+  },
+  {
+   "prompt": "Jutro nie będzie ___ telefonów. (new)",
+   "choices": [
+    "nowych",
+    "nowe",
+    "nowego",
+    "nowej"
+   ],
+   "answer": "nowych",
+   "explain": "nie będzie takes the same Genitive nie ma takes, and telefonów is plural, so the adjective is nowych."
+  },
+  {
+   "prompt": "a lot of new shops →",
+   "choices": [
+    "dużo nowych sklepów",
+    "dużo nowe sklepy",
+    "dużo nowych sklepy",
+    "dużo nowego sklepu"
+   ],
+   "answer": "dużo nowych sklepów",
+   "explain": "dużo nowe sklepy is the plain plural left untouched — the shape English would tempt you into, since English changes nothing after \"a lot of\"."
+  },
+  {
+   "prompt": "There are no good hotels. →",
+   "choices": [
+    "Nie ma dobrych hoteli.",
+    "Nie ma dobre hotele.",
+    "Nie ma dobrych hotele.",
+    "Nie ma dobrego hotelu."
+   ],
+   "answer": "Nie ma dobrych hoteli.",
+   "explain": "hotele is the plain plural; after nie ma it becomes hoteli, and the adjective moves with it."
+  },
+  {
+   "prompt": "a lot of small cats →",
+   "choices": [
+    "dużo małych kotów",
+    "dużo małe koty",
+    "dużo małych koty",
+    "dużo małego kota"
+   ],
+   "answer": "dużo małych kotów",
+   "explain": "koty is the plain plural and kotów is its Genitive — a shape you have had since A2. All that is new here is małych in front of it."
+  },
+  {
+   "prompt": "W domu jest dużo ___ okien. (big)",
+   "choices": [
+    "dużych",
+    "duże",
+    "duża",
+    "dużo"
+   ],
+   "answer": "dużych",
+   "explain": "dużo and dużych are two different words that happen to start the same way. dużo is the quantity word and it never changes; dużych is the adjective \"big\" in the plural Genitive. Both can appear in one phrase."
+  }
+ ],
+ "type_items": [
+  {
+   "prompt_en": "of good films (genitive plural)",
+   "mode": "full_word",
+   "answer": "dobrych filmów",
+   "accepts": [
+    "dobrych filmów"
+   ]
+  },
+  {
+   "prompt_en": "of new shops (genitive plural)",
+   "mode": "full_word",
+   "answer": "nowych sklepów",
+   "accepts": [
+    "nowych sklepów"
+   ]
+  },
+  {
+   "prompt_en": "of small windows (genitive plural)",
+   "mode": "full_word",
+   "answer": "małych okien",
+   "accepts": [
+    "małych okien"
+   ],
+   "explain": "okno is neuter, and the plural Genitive does not care — the adjective ending is the same one a masculine or a feminine noun would take."
+  },
+  {
+   "prompt_en": "of big houses (genitive plural)",
+   "mode": "full_word",
+   "answer": "dużych domów",
+   "accepts": [
+    "dużych domów"
+   ]
+  },
+  {
+   "prompt_en": "of good books (genitive plural)",
+   "mode": "full_word",
+   "answer": "dobrych książek",
+   "accepts": [
+    "dobrych książek"
+   ]
+  },
+  {
+   "prompt_en": "of new jackets (genitive plural)",
+   "mode": "full_word",
+   "answer": "nowych kurtek",
+   "accepts": [
+    "nowych kurtek"
+   ]
+  },
+  {
+   "prompt_en": "of small cats (genitive plural)",
+   "mode": "full_word",
+   "answer": "małych kotów",
+   "accepts": [
+    "małych kotów"
+   ]
+  },
+  {
+   "prompt_en": "of big shops (genitive plural)",
+   "mode": "full_word",
+   "answer": "dużych sklepów",
+   "accepts": [
+    "dużych sklepów"
+   ]
+  }
+ ],
+ "use_items": [
+  {
+   "prompt_en": "Type: There are a lot of good films in the shop.",
+   "answer": "W sklepie jest dużo dobrych filmów.",
+   "accepts": [
+    "W sklepie jest dużo dobrych filmów.",
+    "W sklepie jest dużo dobrych filmów"
+   ]
+  },
+  {
+   "prompt_en": "Type: There are no new jackets in the shop.",
+   "answer": "W sklepie nie ma nowych kurtek.",
+   "accepts": [
+    "W sklepie nie ma nowych kurtek.",
+    "W sklepie nie ma nowych kurtek"
+   ]
+  },
+  {
+   "prompt_en": "Type: There were no big windows in the office.",
+   "answer": "W biurze nie było dużych okien.",
+   "accepts": [
+    "W biurze nie było dużych okien.",
+    "W biurze nie było dużych okien"
+   ],
+   "explain": "Both halves of this level so far in one sentence: the frozen nie było from unit 1, and the plural adjective from this one."
+  },
+  {
+   "prompt_en": "Type: Tomorrow there will be no new newspapers.",
+   "answer": "Jutro nie będzie nowych gazet.",
+   "accepts": [
+    "Jutro nie będzie nowych gazet.",
+    "Jutro nie będzie nowych gazet"
+   ]
+  },
+  {
+   "prompt_en": "Type: There are a lot of big houses in the city.",
+   "answer": "W mieście jest dużo dużych domów.",
+   "accepts": [
+    "W mieście jest dużo dużych domów.",
+    "W mieście jest dużo dużych domów"
+   ],
+   "explain": "dużo and dużych side by side, doing unrelated jobs: the first is the quantity, the second is the size."
+  },
+  {
+   "prompt_en": "Type: There are no good hotels here.",
+   "answer": "Nie ma tu dobrych hoteli.",
+   "accepts": [
+    "Nie ma tu dobrych hoteli.",
+    "Nie ma tu dobrych hoteli"
+   ]
+  },
+  {
+   "prompt_en": "Type: At home there are a lot of small windows.",
+   "answer": "W domu jest dużo małych okien.",
+   "accepts": [
+    "W domu jest dużo małych okien.",
+    "W domu jest dużo małych okien"
+   ]
+  },
+  {
+   "prompt_en": "Type: There are a lot of good books at home.",
+   "answer": "W domu jest dużo dobrych książek.",
+   "accepts": [
+    "W domu jest dużo dobrych książek.",
+    "W domu jest dużo dobrych książek"
+   ]
+  },
+  {
+   "prompt_en": "Type: In the shop there are a lot of good films, but there are no new phones.",
+   "answer": "W sklepie jest dużo dobrych filmów, ale nie ma nowych telefonów.",
+   "accepts": [
+    "W sklepie jest dużo dobrych filmów, ale nie ma nowych telefonów.",
+    "W sklepie jest dużo dobrych filmów, ale nie ma nowych telefonów"
+   ],
+   "explain": "Two Genitive plurals in one sentence under two different triggers — dużo in the first half, nie ma in the second. The ending is the same both times."
+  }
+ ],
+ "uses_lemmas": [
+  "dobre",
+  "nowe",
+  "małe",
+  "duże",
+  "dobrego",
+  "dobrej",
+  "nowego",
+  "nowej",
+  "małej",
+  "dużo",
+  "nie ma",
+  "było",
+  "będzie",
+  "jest",
+  "filmy",
+  "filmów",
+  "sklepy",
+  "sklepów",
+  "domy",
+  "domów",
+  "okna",
+  "okien",
+  "gazety",
+  "gazet",
+  "telefonów",
+  "telefonu",
+  "kotów",
+  "koty",
+  "książek",
+  "książki",
+  "kurtek",
+  "kurtki",
+  "hotele",
+  "hoteli",
+  "piwa",
+  "kawy",
+  "w sklepie",
+  "w biurze",
+  "w domu",
+  "w parku",
+  "w mieście",
+  "jutro",
+  "tu",
+  "ale",
+  "nie",
+  "duża"
+ ],
+ "sequencing": {
+  "spec": "codex/SEQUENCING.md",
+  "phase": 1,
+  "node_id": "c1_adj_pl_gen",
+  "pool_model": "cumulative_focus_recycle"
+ }
+}

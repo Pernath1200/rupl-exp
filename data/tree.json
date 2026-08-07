@@ -3826,18 +3826,19 @@
     {
       "id": "c1_adj_pl_gen",
       "domain": "grammar",
-      "label": "Dużo dobrych książek · dopełniacz",
-      "label_en": "Plural adjectives in the Genitive · -ych",
+      "label": "Dużo dobrych filmów",
+      "label_en": "Plural adjectives · the Genitive",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 2, unit 1 (spine O2). Closes B2-SPINE O3 - the largest untaught system left, and the reason NINE consecutive B2 units shipped bare-noun. -ych, ONE ending, ONE governor. Rides quantity words and negation, both owned (duzo dobrych ksiazek; nie mam nowych butow); nouns come from b2_gen_pl_full's closed families so no new noun form rides along. FENCE, the easiest in C1 to break: -ymi and -ym appear nowhere, distractors included.",
+      "note": "C1 Block 2, unit 1 (C1-SPINE O2) — the first unit of the largest untaught system left in the course. B2-SPINE O3 sent the plural adjective to C1 and nine consecutive B2 units shipped bare-noun because of it. The Genitive comes first because it is the one oblique case where the learner already puts plurals: dużo + Genitive plural since a1_gen_endings, nie ma + Genitive plural since a2_gen_pl, noun families closed by b2_gen_pl_full. Four new forms, one ending — the singular made the learner choose between -ego and -ej, the plural has nothing to choose: -ych covers masculine, feminine and neuter alike. dobrych, nowych, małych, dużych all verified NEW; stary and zimny were dropped because stare and zimne are themselves NEW as nominative plurals and could not anchor the Nominative→Genitive table. Zero new governors, and nie było / nie będzie come from c1_existential two nodes back. Distractor catch: dużego is verified NEW (b2_adj_gen dropped duży), so three drafted distractors were replaced. Fenced absolutely: -ym, -ymi and every virile form.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_adj_pl_gen.json"
     },
     {
       "id": "c1_adj_pl_loc",
