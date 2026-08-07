@@ -1584,3 +1584,271 @@ to be English rather than an undiacriticked Polish word.
   row in its own commit**, and once all three have shipped `c1_which_case` [235]
   becomes buildable for the first time — though it sits at path 235, so the
   build track still has to walk Blocks 6 to 9 to reach it in order.
+
+## Batch 8 — Block 5 closes, and `c1_which_case` unblocks (3 units)
+
+`c1_przez` [205], `c1_od_source` [206] and `c1_gen_verbs` [207], in
+`path_order` order, one commit each, pushed individually.
+`codex/REPAIR-QUEUE.md` was checked first: **19 packs, all ticked, nothing
+outstanding.**
+
+| unit | path | new strings | structure ID | commit |
+|---|---|---|---|---|
+| `c1_przez` | 205 | 18 — `przez` + two verb paradigms + `ulicę`, `rzekę`, `cały` | `przez_acc` | `d667a0e` |
+| `c1_od_source` | 206 | 6 — `mamy`, `taty`, `siostry`, `babci`, `dziadka`, `lekarza` | `od_source` | `6c923ed` |
+| `c1_gen_verbs` | 207 | 5 — `muzyki`, `polskiego`, `obiadu`, `racji`, `pracę` | `gen_verbs` | `3a8c2b6` |
+
+Audit after each: **0 errors**, warns unchanged at 6 throughout — verified
+against the committed 196-node artefact rather than assumed, and they are the
+same six `teaches_empty_grammar` review nodes as ever. All three structure IDs
+were registered in `codex/SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before their audit ran.
+
+### The headline: Block 5's governors are complete
+
+`c1_which_case` [235] has been the last outstanding member of the which-case
+family since batch 2, blocked on a `data/case-map.json` that had no row after
+`b2_prosic_o` [165]. Batch 7 paid the first instalment. **This run paid the
+other three, seven rows in total, each in its own unit's commit** — and with
+them the file now describes every governor C1 teaches. The spec's brief for
+that unit (*"`na`/`przez`/`od` as governors · Genitive-taking verbs · everything
+C1 closed"*) is satisfiable for the first time.
+
+It is still **not buildable in path order**: it sits at 235 and the build track
+must walk Blocks 6 to 9 to reach it. But the blocker is gone, and it is now a
+sequencing question rather than a dependency one.
+
+`data/case-map.json` went from 22 rows to 29. Its compact one-object-per-line
+formatting was preserved by text-level insertion — a first attempt that
+round-tripped it through `json.dump` reformatted all 22 existing rows and was
+reverted before it reached a commit.
+
+### `c1_przez` — the governor is the unit, and the prefix it unblocks
+
+`b2_motion_prefixes2` [167] dropped the `prze-` prefix **entirely**, and said
+why in its own note: *"przejść's everyday use is przejść PRZEZ ulicę, and przez
+is untaught: it is a preposition governing the Accusative, i.e. a whole new
+governor. Teaching it here would put a second new system in one unit… Deferred:
+it needs either its own small slot after a przez unit, or C1."* This is that
+slot, and the fence is paid exactly as that pack would have wanted: `przejść`
+and `przejechać` weld onto the `poszedłem` / `pojechałem` mirror tables it
+already built, so each verb is one new word read off a table, never derived.
+
+**`przez` really is new, and this is not the `na` situation.** One unit earlier
+`c1_na_acc` correctly refused to teach `na` because `check_new.py` reports it
+NEW as a tooling artifact — it lives only inside multiword lemmas. `przez` was
+checked against the same tooling and appears in **no** lemma anywhere in the
+course. It is genuinely untaught and it is in `teaches_lemmas`.
+
+**The anchor nouns all hide the case — the same trap, one unit later.** Batch 7
+recorded that all three of `c1_na_acc`'s anchor chunks concealed the Accusative
+because they were masculine inanimate or neuter. `przez park`, `przez most`,
+`przez las` and `przez miasto` do exactly the same thing. Slide 2 exists for the
+same reason its predecessor's did, and runs the visible demonstration on two
+feminines: **`ulicę` and `rzekę` are the pack's only new noun forms.**
+
+**Persons are deliberately lighter than the pack it inherits from.**
+`b2_motion_prefixes2` taught eleven forms per verb because the verbs *were* its
+new system. Here the governor is, so only 1sg and 3sg are taught, both genders
+in the past, and **no 2sg is taught or used anywhere** — every second-person
+frame uses a noun subject instead.
+
+**A fourth job was added beyond the spine brief, and the reason is arithmetic
+rather than ambition.** Duration (*przez rok, przez dwa lata, przez dwie
+godziny*) costs **zero new endings**: `dwa lata` is `a2_numbers_gen` [61]'s own
+2–4 counted form, re-verified as that rather than assumed, and `rok`, `tydzień`
+and `dzień` are masculine so the Accusative is invisible on them. `cały` is the
+single new word it needs and is used only on those masculine time nouns — no
+feminine or neuter form of `cały` is taught, shown or demanded anywhere.
+
+**`zostać` and the dynamic passive appear nowhere.** That fence is the entire
+reason C1-SPINE puts this unit three nodes ahead of `c1_zostac`. The by-agent
+slide rides `b2_passive`'s own `X jest <participle>` construction unchanged, so
+*List jest napisany przez tatę* introduces the governor without borrowing a
+single thing from the unit that will use it properly.
+
+### `wjechać` was NOT built, and C1 is the last level
+
+C1-SPINE names `wjechać` for this unit. It is not here, and this is a genuine
+fork taken on the conservative path rather than a silent omission:
+
+1. **It is not a `przez` verb.** Its frame is `wjechać do garażu` — `do` +
+   Genitive, owned since A1. Nothing about it needs this unit.
+2. **`b2_motion_prefixes2` dropped it for a reason this unit does not remove:**
+   *"the front piece changes shape between the two stems (we-/w-), which would
+   be a THIRD irregularity in a unit that already carries two, and 'to drive
+   into' is not everyday language for this learner."* Both halves still hold.
+3. Putting it here would import an unrelated prefix irregularity into a
+   governor unit — the load-split AGENTS forbids.
+
+**`przejechać` was built in its place**, because it *is* `przejść`'s partner,
+it takes `przez`, and it completes the `prze-` row that pack dropped.
+
+**James: C1 is the last level, so this is a permanent deferral unless you
+overrule it.** Say the word and `wjechać` gets a slide in a later C1 unit.
+
+### `c1_od_source` — the spine's own example walked into a named homograph
+
+C1-SPINE writes the brief as *"Pożyczam od mamy. List od siostry."* Both nouns
+were run through `check_new.py` rather than taken on trust, and both are traps
+**AGENTS names by name**:
+
+- **`mamy`** is TAUGHT ← `a1_miec` [9] as the VERB *we have*. AGENTS lists it as
+  its first homograph example.
+- **`siostry`** is the `córki` trap in mirror image: a feminine `-a` noun's
+  Genitive singular and Nominative plural are one string, so it reads as
+  *sisters*.
+
+The conservative move would have been to avoid both words. **That was rejected,
+and the reasoning is worth recording**, because it is the first time this
+project has chosen to open a homograph rather than route around one: avoiding
+`mamy` would have cost Dad *"from mum"* — the most natural source phrase there
+is — permanently, C1 being the last level. AGENTS explicitly sanctions the
+alternative (*"either pick a different word or teach the form yourself and say
+so"*), and `c1_society`'s `prawo` and `c1_pron_je`'s `je`/`czemu` are the
+precedent for doing it in a small unit with the collision named on its own
+slide.
+
+So both forms are taught, and **`Mamy list od mamy.` is on screen deliberately**
+— one sentence holding both `mamy`, where the preposition alone separates them.
+It is either the best item in the unit or the worst; it is item 2 of Użycie and
+easy to find.
+
+**The unit's real content turned out to be `z` versus `od`**, which the brief
+does not name. A place takes `z`/`ze`, a person takes `od`, **the case never
+changes** — both are the Genitive — and English says *from* for both. That is
+precisely the shape `c1_na_acc` found one unit earlier with `do` versus `na`,
+and it is the shape the whole which-case family exists to teach.
+
+**The payoff slide closes a fence `b1_giving` [120] wrote in its own explain
+string:** *"pożyczać can mean either lend or borrow in Polish, depending on the
+frame. This unit teaches only… borrowing-from is a different pattern, for a
+later unit."* This is that unit, and the contrast is as clean as the course
+gets — **same verb, two cases, opposite directions**: `Pożyczam bratu` (Dative,
+lend TO) against `Pożyczam od brata` (Genitive, borrow FROM), at **zero new
+forms**. That is inbox item 13's actual content, and confirms the spine's own
+correction: what was missing was a **sense**, not a verb and not a governor.
+
+### `c1_gen_verbs` — every verb was already owned
+
+The unit teaches no paradigm at all. `szukam`/`szuka`, `słucham`/`słucha` and
+`uczę`/`uczy` have all been live since A2, so the verbs are old and **the case
+they take is the entire lesson**. Five new strings, four of them one noun's
+Genitive.
+
+**The anchor is the best in C1 and it was verified rather than inherited:**
+`szukam pracy` is TAUGHT ← `a2_work2` [79] **as a whole chunk** and is already
+this construction. Dad has been producing a Genitive-governing verb for 120
+nodes without being told that is what he was doing.
+
+**The demonstration runs on `muzyka` because it is the only noun that can carry
+it.** `muzykę` is TAUGHT ← `trunk_want_like_a1` [23] in *Lubię muzykę*, so
+*Lubię muzykę* against *Słucham muzyki* is one noun, two verbs, two cases, with
+the Accusative side already in his mouth. Nothing else in the pool does this.
+
+**A pool surprise, logged rather than quietly patched: `pracę` was untaught
+after 200 nodes.** `praca` has been live since `leaf_places` [31] and its
+Accusative — an ordinary `-a` → `-ę` on an ending owned since A1 — had simply
+never been tagged by anyone. It is taught here as the fifth new string so that
+*Mam pracę* / *Szukam pracy* is sayable at all. **James may want to know this
+class of gap exists**; the pool found it, no brief predicted it, and there may
+be others.
+
+Two IOUs closed by name: `a2_sie` [74]'s *uczę się polskiego* (slide 4 contrasts
+the frozen `po polsku` with the declined `polskiego`, riding `b2_adj_gen`
+[137]'s `-ego`), and `b2_verbal_nouns` [175]'s **"significant scope cut"** —
+Genitive objects after a verbal noun — paid with *gotowanie obiadu*, *kupowanie
+chleba* and *robienie kawy*, of which only `obiadu` is new. Inbox item 12 closed
+with `racji`: `b2_neg_gen` [162]'s rule meeting `b1_opinions` [128]'s owned
+chunk, so *mam rację* becomes *nie mam racji* and the only new thing is a form.
+
+**`gazety` appears nowhere in this pack** despite being the most obvious
+"listening to / looking for" object available. AGENTS names it as one of the
+four nominative plurals that would be read as Genitive singulars, and this is a
+Genitive unit — it was the single easiest homograph in the batch to walk into.
+
+### How the packs were verified
+
+The token-level checker was rebuilt for this run and every Polish string on
+every learner-facing surface — `title_pl`, `body_pl`, every table cell,
+`examples`, match rows, quiz `choices`/`answer`/`explain`, cloze frames,
+answers, `accepts`, Użycie answers — was tokenised against the position-aware
+pool for that node. It also asserts twelve match rows, one `___` per cloze
+frame, the ≤3-word Pisanie cap, no duplicate answers/prompts/frames within a
+stage under a mirror of the engine's `norm()`, that no Pisanie cloze
+reconstructs a Użycie sentence, and that every `uses_lemma` is in the pool and
+not also a `teaches_lemma`.
+
+**It caught five things `audit.py` structurally cannot**, all of them in drafts
+and none of them shipped:
+
+1. **`zadania` and `biorę` on `body_pl` lines** in `c1_od_source`. The AGENTS
+   convention admits *metalanguage* there — `dopełniacz`, `czasownik` — not new
+   lexis. This is the same finding batch 7 made with `czasem` and `bez`; it is
+   now clearly a recurring authoring reflex worth watching.
+2. **A Pisanie cloze that rebuilt a Użycie sentence** — `Mam list od ___.` +
+   `brata` reconstructed Użycie item 1 exactly. Reframed to `Mam parasol od ___.`
+3. **`radia`** in a Użycie sentence in `c1_gen_verbs`. `radio` is taught;
+   its Genitive is not, and the draft used the Genitive.
+4. **`uczą`** in another — the 3pl of `uczyć się`, never taught. Rewritten
+   around a singular subject.
+5. **`prawdy`, in a table cell**, in the row *mówienie prawdy · telling the
+   truth*. This one is the important one: **it is undiacriticked, so no
+   structural check saw it**, and it is untaught anywhere in the entire course.
+   It was caught only by the hand review of the checker's "treated as English
+   prose" list, which batch 7 introduced for exactly this reason. That review is
+   not optional and this run is the second consecutive proof of it.
+
+### For James to smoke — batch 8
+
+1. **`Mamy list od mamy.`** — the deliberate homograph sentence in
+   `c1_od_source`. This is the batch's one real gamble. If it reads as a clever
+   trick rather than as the thing that makes the collision harmless, the
+   sentence deletes cleanly and the slide still works without it.
+2. **`Pożyczam bratu` against `Pożyczam od brata`.** Same verb, opposite
+   directions, decided entirely by the case. It is the sharpest single contrast
+   in Block 5 and it costs nothing. If it lands, it is the model for how the
+   remaining sense-gaps should be closed.
+3. **The duration job in `c1_przez`.** It was added beyond the spine brief on a
+   zero-cost argument. Four jobs of one preposition on six slides is the most
+   any governor unit has carried — if it is one job too many, duration is the
+   one to cut and *przez cały dzień* is the phrase to keep.
+4. **`Lubię muzykę` / `Słucham muzyki`.** The whole of `c1_gen_verbs` in two
+   sentences, both already yours. If this lands, the unit could arguably have
+   been three slides rather than six.
+5. **`wjechać`'s absence** — see the argument above. It is a permanent
+   deferral and needs your yes or no.
+
+### Still open after batch 8
+
+- The **161 fold variants across 18 packs**, unresolved since the fifth repair
+  run. **None of the three packs in this batch adds to it** — every `accepts`
+  holds the exact answer, plus the no-final-stop variant on whole-sentence
+  Użycie items, which is the standing convention and is not a fold.
+- **`wydaje mi się`** — settled by R7, not yet built (`c1_nuance`).
+- **`duży`'s incomplete oblique paradigm**, carried from batch 2, still unfixed.
+- **`mali` / `duzi`**, dropped in batch 3.
+- The **benefactive Dative** and the **reciprocal `sobie`**, both from batch 5.
+- From batch 6: `menedżer`'s contested plural; `ojcowie`/`mężowie`;
+  `przyjaciółmi`/`gośćmi`; `mężczyzna`'s plural obliques.
+- From batch 7: the plural obliques of `oczy`/`uszy`/`ręce`; the eight rejected
+  society words; `czekasz`; whether `mieć wpływ na` deserves a `case-map.json`
+  row.
+- **New this batch, and all of it permanent unless James overrules:**
+  **`wjechać`** (argued above); **`przejdziesz`/`przejedziesz`** and every other
+  2sg of the two `prze-` verbs; **Genitive time nouns after `od`** (*od rana*,
+  *od poniedziałku*) — refused as new lexis, though *od piątej do siódmej* ships
+  at zero cost; **`dostać`/`dostaję`** as a source verb, refused for the same
+  reason; **`potrzebować`, `używać` and `bać się`**, the three other everyday
+  Genitive-governing verbs — each a whole new paradigm, named nowhere in
+  C1-SPINE, and therefore out of the level's scope; **`słuchanie`**, a seventh
+  verbal noun, the fence being paid by the six that exist; and **`prawdy`**,
+  which this run discovered is untaught anywhere in the course.
+- **A gap class worth a look:** `pracę` was untaught after 200 nodes with no
+  brief noticing. There may be other citation-form nouns whose everyday
+  Accusative was never tagged.
+- Next up: **Block 6 opens** — `c1_part_attrib` [208], `c1_part_active` [209]
+  and `c1_part_adv` [210], the participles and the passive (B2-SPINE O4/O5).
+  `c1_zostac` [211] follows and **its agent phrase is now available**, three
+  nodes back, exactly as C1-SPINE planned. No unit in Block 6 ships a governor,
+  so `data/case-map.json` is owed nothing until Block 8's quantifiers.
