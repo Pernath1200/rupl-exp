@@ -1,0 +1,911 @@
+{
+  "id": "a2_which_case",
+  "title": "Który przypadek?",
+  "title_en": "Which case? · the A2 map",
+  "level": "A2",
+  "tree_node": "a2_which_case",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "CASE-SELECTION UNIT, the second of five (codex/WHICH-CASE-SPEC.md, JAMES-LOCKED 2026-08-07), sitting immediately before a2_case_gym2 [98] so the choice is explained and then drilled at speed. TEACHES NOTHING NEW - teaches_structures [] and teaches_lemmas []; every form was checked against the position-aware pool for this node (make_pool.py --before a2_which_case, 1794 lemmas). INTRO TABLE IS DERIVED from data/case-map.json filtered to taught_by <= path 97 - fifteen rows, six cases, the Dative arriving for the first time. THE HEADLINE, and the honest line the spec demands, is now TRUE and is slide 1's whole subject: z governs TWO cases with no change of spelling - a place behind it goes Genitive (ze sklepu, z pracy) and a person behind it goes Instrumental (z bratem, z mamą). At A1 this could not be said, because a1_prep_do_z teaches only z + Genitive; a2_inst_z [64] is what makes it true, and the A1 unit's note records that the point was deferred to here rather than stated early. The place/person test is given as the test that covers everything the learner owns (every z + Instrumental in a2_inst_z is a person), not as the whole rule - kawa z mlekiem is untaught and appears nowhere. SLIDE 2 NAMES THE ONE PLACE THE UNIT'S OWN METHOD FAILS: transport takes the Instrumental with NO preposition at all (Jadę autobusem), so there is nothing in front to look at and the ending alone carries 'by means of'. Saying that plainly is better than letting the learner discover the exception in the gym. SLIDE 3 is praca: do pracy and z pracy are Genitive, w pracy and o pracy are Locative, and all four are the same string pracy - the A1 unit made the same point on domu/parku/banku, and here it is sharper because the two cases have four triggers between them. THE DATIVE IS NAMED BUT NARROWED, and this is the one correction to the spec's own wording. The spec says 'the mi/mnie Dative chunks'; mnie is NOT Dative - a2_dat_chunks teaches it inside boli mnie, which is an Accusative experiencer that b2_pron_acc later explains as such. So this unit names ONLY mi (podoba mi się, smakuje mi) as the Dative, and mnie appears nowhere in the unit - not in the table, not as a distractor. Calling it Dative would have been a false claim the learner has to un-learn at B2. KONTROLA is 8 form/phrase-choice items + 4 name-the-case items, the same two-thirds weighting the A1 unit used against AGENTS.md's 'real forms, not meta-questions' rule. Item 1's four choices are all the SAME noun form (z pracy / w pracy / o pracy / do pracy) so the item tests the governor and nothing else - the purest item in the unit. Item 4's distractors are motivated one each: wrong case (Jadę autobus.), a spurious preposition (Jadę z autobusem. - the exact error slide 2 prevents), and the right case with the wrong motion verb (Idę autobusem. - a real a2_jechac discrimination). Items 6 and 7 are a pair on the 2-4 / 5+ split, and each carries the other's correct answer as a distractor. Every distractor is real, pool-legal Polish. PISANIE is 12 mode:cloze items blanking the governed noun, twelve distinct answers. UZYCIE is 12 whole sentences with noun subjects and/or objects, none shared with Pisanie. TWO WORDS WERE WANTED AND REFUSED after check_new/pool checks: gazetę (the Accusative of gazeta is not taught - a2_plural_nom teaches only the plural gazety, so Pisanie item 11 blanks książkę instead), and wraca (a1_motion's chunk lane taught only wracam/wracasz and a2_chodzic closed the iść grid, not wracać - so Uzycie 9 is Mama idzie do pracy). HOMOGRAPHS CHECKED: mamy was avoided everywhere - it is the VERB 'we have' from a1_miec, never the Genitive of mama, so no z-Genitive distractor uses it; gazety/córki/okna/wina are a2_plural_nom NOMINATIVE PLURALS and gazety is used only as a nominative plural (To są gazety.); piwa/mleka/kawy are a1_gen_endings genitive singulars and none is used as a plural; piw/godzin/lat/minut are a2_gen_pl genitive plurals used as genitive plurals; pracy is deliberately used in BOTH its cases and slide 3 exists to say so out loud.",
+  "focus_structures": [
+    "inst_z",
+    "inst_transport",
+    "o_loc",
+    "numbers_gen",
+    "dat_chunks"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "to_jest",
+    "poss_nom",
+    "byc_present",
+    "existential_jest",
+    "ten_ta_to",
+    "zgoda",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "gen_endings",
+    "gen_pl",
+    "plural_nom",
+    "numbers_gen",
+    "prep_w_loc",
+    "prep_do_gen",
+    "prep_z_gen",
+    "prep_place",
+    "o_loc",
+    "motion_chunk",
+    "chodzic",
+    "jechac",
+    "inst_identity",
+    "inst_z",
+    "inst_transport",
+    "dat_chunks",
+    "present_am",
+    "present_e_esz",
+    "present_e_isz",
+    "present_uje"
+  ],
+  "intro": [
+    {
+      "title": "Six cases now — and the trigger still chooses",
+      "title_pl": "Sześć przypadków",
+      "body": "One case has been added since the last map, and four new triggers with it. The method has not changed: look at the word standing in front of the noun, and the case follows.\n\nTwo things at this level do not fit that sentence neatly, and both get a slide of their own — one word that governs two different cases, and one case that arrives with no trigger word at all.\n\nHere is everything you own.",
+      "body_pl": "mianownik · biernik · dopełniacz · miejscownik · narzędnik · celownik",
+      "table": {
+        "headers": [
+          "Trigger — what stands in front",
+          "Case",
+          "What it does",
+          "Example"
+        ],
+        "rows": [
+          [
+            "to jest…",
+            "Nominative · mianownik",
+            "naming something",
+            "To jest kawa."
+          ],
+          [
+            "the subject — who is doing it",
+            "Nominative · mianownik",
+            "the actor of the verb",
+            "Kawa jest dobra."
+          ],
+          [
+            "to są…",
+            "Nominative · mianownik",
+            "naming more than one",
+            "To są gazety."
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "a verb acting on a thing",
+            "Mam kawę."
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "quantity and nearness",
+            "Dużo kawy."
+          ],
+          [
+            "do… (going TO a place)",
+            "Genitive · dopełniacz",
+            "destination",
+            "Idę do sklepu."
+          ],
+          [
+            "z / ze… (coming FROM)",
+            "Genitive · dopełniacz",
+            "origin",
+            "Wracam ze sklepu."
+          ],
+          [
+            "nie ma… / nie mam…",
+            "Genitive · dopełniacz",
+            "saying something is absent",
+            "Nie ma mleka."
+          ],
+          [
+            "pięć · sześć… (5 and above)",
+            "Genitive · dopełniacz",
+            "counted things from five up",
+            "pięć piw"
+          ],
+          [
+            "w / na — meaning WHERE something is",
+            "Locative · miejscownik",
+            "static position, never movement",
+            "Jestem w sklepie."
+          ],
+          [
+            "o… (ABOUT a topic)",
+            "Locative · miejscownik",
+            "what you are talking about",
+            "Mówię o pracy."
+          ],
+          [
+            "jestem… (a job or an identity)",
+            "Instrumental · narzędnik",
+            "what someone IS",
+            "Jestem nauczycielem."
+          ],
+          [
+            "z… (WITH a person)",
+            "Instrumental · narzędnik",
+            "company — the same word z, a different job from z + Genitive",
+            "Idę z bratem."
+          ],
+          [
+            "travelling BY something",
+            "Instrumental · narzędnik",
+            "means of transport, no preposition at all",
+            "Jadę autobusem."
+          ],
+          [
+            "podoba mi się · smakuje mi",
+            "Dative · celownik",
+            "liking and tasting — learned whole at A2",
+            "Podoba mi się."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "z does two jobs — and they are two different cases",
+      "title_pl": "ze sklepu · z bratem",
+      "body": "z is the first word in this course that governs two cases, and it gives you no warning: the spelling is identical either way.\n\nA PLACE behind z goes into the Genitive. That is the origin sense — coming from somewhere: ze sklepu, z domu, z pracy.\n\nA PERSON behind z goes into the Instrumental. That is the company sense — together with someone: z bratem, z mamą, z siostrą.\n\nEvery z + Instrumental you have met so far is a person, so that is the test to use: place behind z, Genitive; person behind z, Instrumental. English splits the same two meanings too — from a shop, with a brother — it simply spends two different words on it.",
+      "body_pl": "ze sklepu → dopełniacz · z bratem → narzędnik",
+      "table": {
+        "headers": [
+          "What follows z",
+          "Case",
+          "Meaning",
+          "Example"
+        ],
+        "rows": [
+          [
+            "a place — ze sklepu, z domu, z pracy",
+            "Genitive · dopełniacz",
+            "coming FROM there",
+            "Wracam ze sklepu."
+          ],
+          [
+            "a person — z bratem, z mamą, z siostrą",
+            "Instrumental · narzędnik",
+            "together WITH them",
+            "Idę z bratem."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "I'm coming back from the shop.",
+          "pl": "Wracam ze sklepu."
+        },
+        {
+          "en": "I'm coming back from work.",
+          "pl": "Wracam z pracy."
+        },
+        {
+          "en": "I'm going with my brother.",
+          "pl": "Idę z bratem."
+        },
+        {
+          "en": "Mum is going with my sister.",
+          "pl": "Mama idzie z siostrą."
+        }
+      ]
+    },
+    {
+      "title": "The Instrumental with nothing in front of it",
+      "title_pl": "Jadę autobusem.",
+      "body": "Transport is the one thing at this level that breaks the rule this unit is built on, and it is worth meeting head-on rather than in the gym.\n\nJadę autobusem — I'm going by bus. There is no preposition. Nothing stands in front of autobusem demanding a case; the Instrumental ending is doing the whole job by itself, and what it means is 'by means of'.\n\nSo the Instrumental now reaches you three ways, with the same endings each time: -em on masculine and neuter nouns, -ą on feminine ones.",
+      "body_pl": "Jadę autobusem · Jadę pociągiem · Jadę rowerem",
+      "table": {
+        "headers": [
+          "What triggers it",
+          "Example",
+          "The job"
+        ],
+        "rows": [
+          [
+            "jestem + a job",
+            "Jestem nauczycielem.",
+            "what you are"
+          ],
+          [
+            "z + a person",
+            "Idę z bratem.",
+            "who you are with"
+          ],
+          [
+            "nothing at all — a vehicle",
+            "Jadę autobusem.",
+            "how you travel"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "o is a third door into the Locative — and praca hides the difference",
+      "title_pl": "do pracy · z pracy · w pracy · o pracy",
+      "body": "The Locative arrived with w and na, meaning where something is. o adds a second job to the same case: what you are talking or thinking about. Same endings, new trigger — mówię o pracy, myślę o domu.\n\npraca then earns a table of its own, because its Genitive and its Locative are the same word: pracy. do pracy and z pracy are Genitive; w pracy and o pracy are Locative. Four phrases, one form, four different jobs — and the preposition in front is the only thing separating them. That is this whole unit inside a single noun.",
+      "body_pl": "o pracy → miejscownik · z pracy → dopełniacz",
+      "table": {
+        "headers": [
+          "Phrase",
+          "Trigger",
+          "Case",
+          "The job"
+        ],
+        "rows": [
+          [
+            "do pracy",
+            "do",
+            "Genitive · dopełniacz",
+            "going to work"
+          ],
+          [
+            "z pracy",
+            "z",
+            "Genitive · dopełniacz",
+            "coming from work"
+          ],
+          [
+            "w pracy",
+            "w",
+            "Locative · miejscownik",
+            "being at work"
+          ],
+          [
+            "o pracy",
+            "o",
+            "Locative · miejscownik",
+            "talking about work"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A number in front is a trigger too",
+      "title_pl": "dwie godziny · pięć godzin",
+      "body": "A number standing in front of a noun chooses a case exactly as a preposition does, and there are two answers depending on the number.\n\n2, 3 and 4 leave the noun in the Nominative plural: dwie godziny, dwa lata.\n\n5 and everything above it take the Genitive plural: pięć godzin, pięć lat, pięć piw. That is the ending that often looks like no ending at all — godzin, lat, piw — which is exactly why it is worth recognising as a case rather than as a word with something missing.",
+      "body_pl": "2–4 → mianownik liczby mnogiej · 5+ → dopełniacz liczby mnogiej",
+      "table": {
+        "headers": [
+          "The number",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "dwa · dwie · trzy · cztery",
+            "Nominative plural · mianownik",
+            "dwie godziny · dwa lata"
+          ],
+          [
+            "pięć and everything above",
+            "Genitive plural · dopełniacz",
+            "pięć godzin · pięć lat · pięć piw"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A sixth case, so far only inside two chunks",
+      "title_pl": "podoba mi się · smakuje mi",
+      "body": "podoba mi się and smakuje mi have been in your mouth for a while as whole phrases. It is worth naming what mi actually is: the Dative — the sixth case, the person something is done for or happens to.\n\nIn these two phrases the thing being liked is the subject and you are the one it happens to, which is why the Polish runs the opposite way round from the English. Smakuje mi ta kawa is, word for word, 'this coffee tastes good to me'.\n\nThe Dative with ordinary nouns comes later. For now it is one word, mi, inside two chunks — but it is a case doing a job, not decoration.\n\nAnd the question to ask has not changed.",
+      "body_pl": "mi → celownik",
+      "table": {
+        "headers": [
+          "What stands in front",
+          "Case",
+          "Example"
+        ],
+        "rows": [
+          [
+            "w · na — where you are",
+            "Locative · miejscownik",
+            "w pracy"
+          ],
+          [
+            "o — what it is about",
+            "Locative · miejscownik",
+            "o pracy"
+          ],
+          [
+            "do · z + a place",
+            "Genitive · dopełniacz",
+            "z pracy"
+          ],
+          [
+            "dużo · blisko",
+            "Genitive · dopełniacz",
+            "dużo kawy"
+          ],
+          [
+            "nie ma · nie mam",
+            "Genitive · dopełniacz",
+            "nie mam czasu"
+          ],
+          [
+            "pięć and above",
+            "Genitive · dopełniacz",
+            "pięć godzin"
+          ],
+          [
+            "mam · piję · chcę · lubię · kupuję",
+            "Accusative · biernik",
+            "mam książkę"
+          ],
+          [
+            "jestem + a job",
+            "Instrumental · narzędnik",
+            "jestem nauczycielem"
+          ],
+          [
+            "z + a person",
+            "Instrumental · narzędnik",
+            "z bratem"
+          ],
+          [
+            "nothing at all — a vehicle",
+            "Instrumental · narzędnik",
+            "autobusem"
+          ],
+          [
+            "mi, inside the two chunks",
+            "Dative · celownik",
+            "podoba mi się"
+          ],
+          [
+            "nothing — the noun names or acts",
+            "Nominative · mianownik",
+            "To są gazety."
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Nominative",
+          "pl": "mianownik"
+        },
+        {
+          "en": "Accusative",
+          "pl": "biernik"
+        },
+        {
+          "en": "Genitive",
+          "pl": "dopełniacz"
+        },
+        {
+          "en": "Locative",
+          "pl": "miejscownik"
+        },
+        {
+          "en": "Instrumental",
+          "pl": "narzędnik"
+        },
+        {
+          "en": "Dative",
+          "pl": "celownik"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "after to są · newspapers",
+      "pl": "to są gazety"
+    },
+    {
+      "en": "after mam · a book",
+      "pl": "mam książkę"
+    },
+    {
+      "en": "after nie mam · time",
+      "pl": "nie mam czasu"
+    },
+    {
+      "en": "after do · work",
+      "pl": "do pracy"
+    },
+    {
+      "en": "after ze · school",
+      "pl": "ze szkoły"
+    },
+    {
+      "en": "after pięć · beers",
+      "pl": "pięć piw"
+    },
+    {
+      "en": "after w · work",
+      "pl": "w pracy"
+    },
+    {
+      "en": "after o · the house",
+      "pl": "o domu"
+    },
+    {
+      "en": "after z · Mum (together)",
+      "pl": "z mamą"
+    },
+    {
+      "en": "no word at all · by bus",
+      "pl": "autobusem"
+    },
+    {
+      "en": "after jestem · a teacher (a man)",
+      "pl": "jestem nauczycielem"
+    },
+    {
+      "en": "the chunk · I like it",
+      "pl": "podoba mi się"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Coming back FROM there — work →",
+      "choices": [
+        "z pracy",
+        "w pracy",
+        "o pracy",
+        "do pracy"
+      ],
+      "answer": "z pracy",
+      "explain": "All four are the same word, pracy. Only the preposition tells you which case it is in, and z is the one that means coming from."
+    },
+    {
+      "prompt": "Which one means WITH a person? →",
+      "choices": [
+        "z bratem",
+        "z domu",
+        "z pracy",
+        "ze sklepu"
+      ],
+      "answer": "z bratem",
+      "explain": "A person behind z takes the Instrumental — bratem. The other three are places, so they take the Genitive and mean coming from."
+    },
+    {
+      "prompt": "You're going WITH her — Mum →",
+      "choices": [
+        "z mamą",
+        "z mamę",
+        "z mama",
+        "mamą"
+      ],
+      "answer": "z mamą",
+      "explain": "z + a person is the Instrumental, and a feminine noun takes -ą: mama → mamą."
+    },
+    {
+      "prompt": "I'm going by bus →",
+      "choices": [
+        "Jadę autobusem.",
+        "Jadę autobus.",
+        "Jadę z autobusem.",
+        "Idę autobusem."
+      ],
+      "answer": "Jadę autobusem.",
+      "explain": "No preposition at all — the Instrumental ending alone means 'by'. Idę would put you on foot, which a bus rules out."
+    },
+    {
+      "prompt": "Talking ABOUT it — work →",
+      "choices": [
+        "o pracy",
+        "w pracy",
+        "z pracy",
+        "do pracy"
+      ],
+      "answer": "o pracy",
+      "explain": "o takes the Locative, the same case w takes — and on praca the two cases look identical anyway. The trigger is the whole difference."
+    },
+    {
+      "prompt": "Five of them — hours →",
+      "choices": [
+        "pięć godzin",
+        "dwie godziny",
+        "pięć godziny",
+        "pięć godzina"
+      ],
+      "answer": "pięć godzin",
+      "explain": "5 and above take the Genitive plural. godzin looks like a word with the ending removed, but that bare form is the ending."
+    },
+    {
+      "prompt": "Two of them — hours →",
+      "choices": [
+        "dwie godziny",
+        "dwie godzin",
+        "pięć godzin",
+        "dwie godzina"
+      ],
+      "answer": "dwie godziny",
+      "explain": "2, 3 and 4 keep the Nominative plural — godziny. Only from 5 up does the Genitive plural take over."
+    },
+    {
+      "prompt": "It tastes good to you →",
+      "choices": [
+        "smakuje mi",
+        "podoba mi się",
+        "nie smakuje mi",
+        "smakuje"
+      ],
+      "answer": "smakuje mi",
+      "explain": "mi is the Dative — the person it happens to. Without mi the sentence never says who is tasting it."
+    },
+    {
+      "prompt": "z + a place, as in ze sklepu — which case?",
+      "choices": [
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik",
+        "Locative · miejscownik",
+        "Accusative · biernik"
+      ],
+      "answer": "Genitive · dopełniacz"
+    },
+    {
+      "prompt": "z + a person, as in z bratem — which case?",
+      "choices": [
+        "Instrumental · narzędnik",
+        "Genitive · dopełniacz",
+        "Dative · celownik",
+        "Locative · miejscownik"
+      ],
+      "answer": "Instrumental · narzędnik"
+    },
+    {
+      "prompt": "After o, when you say what you are talking about — which case?",
+      "choices": [
+        "Locative · miejscownik",
+        "Genitive · dopełniacz",
+        "Instrumental · narzędnik",
+        "Accusative · biernik"
+      ],
+      "answer": "Locative · miejscownik"
+    },
+    {
+      "prompt": "After pięć and every number above it — which case?",
+      "choices": [
+        "Genitive · dopełniacz",
+        "Nominative · mianownik",
+        "Accusative · biernik",
+        "Dative · celownik"
+      ],
+      "answer": "Genitive · dopełniacz"
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "I'm coming back from work. — z + a place",
+      "mode": "cloze",
+      "frame": "Wracam z ___.",
+      "answer": "pracy",
+      "accepts": [
+        "pracy"
+      ]
+    },
+    {
+      "prompt_en": "Mum is at school.",
+      "mode": "cloze",
+      "frame": "Mama jest w ___.",
+      "answer": "szkole",
+      "accepts": [
+        "szkole"
+      ]
+    },
+    {
+      "prompt_en": "I'm talking about the house. — o takes the Locative",
+      "mode": "cloze",
+      "frame": "Mówię o ___.",
+      "answer": "domu",
+      "accepts": [
+        "domu"
+      ]
+    },
+    {
+      "prompt_en": "I'm going with my brother. — z + a person",
+      "mode": "cloze",
+      "frame": "Idę z ___.",
+      "answer": "bratem",
+      "accepts": [
+        "bratem"
+      ]
+    },
+    {
+      "prompt_en": "Mum is going with my sister.",
+      "mode": "cloze",
+      "frame": "Mama idzie z ___.",
+      "answer": "siostrą",
+      "accepts": [
+        "siostrą"
+      ]
+    },
+    {
+      "prompt_en": "I'm going by bus. — no preposition at all",
+      "mode": "cloze",
+      "frame": "Jadę ___.",
+      "answer": "autobusem",
+      "accepts": [
+        "autobusem"
+      ]
+    },
+    {
+      "prompt_en": "I am a teacher. (a man speaking)",
+      "mode": "cloze",
+      "frame": "Jestem ___.",
+      "answer": "nauczycielem",
+      "accepts": [
+        "nauczycielem"
+      ]
+    },
+    {
+      "prompt_en": "I don't have time.",
+      "mode": "cloze",
+      "frame": "Nie mam ___.",
+      "answer": "czasu",
+      "accepts": [
+        "czasu"
+      ]
+    },
+    {
+      "prompt_en": "five hours",
+      "mode": "cloze",
+      "frame": "pięć ___",
+      "answer": "godzin",
+      "accepts": [
+        "godzin"
+      ]
+    },
+    {
+      "prompt_en": "two hours",
+      "mode": "cloze",
+      "frame": "dwie ___",
+      "answer": "godziny",
+      "accepts": [
+        "godziny"
+      ]
+    },
+    {
+      "prompt_en": "I have a book.",
+      "mode": "cloze",
+      "frame": "Mam ___.",
+      "answer": "książkę",
+      "accepts": [
+        "książkę"
+      ]
+    },
+    {
+      "prompt_en": "These are newspapers.",
+      "mode": "cloze",
+      "frame": "To są ___.",
+      "answer": "gazety",
+      "accepts": [
+        "gazety"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Mum is going with my brother.",
+      "answer": "Mama idzie z bratem.",
+      "accepts": [
+        "Mama idzie z bratem.",
+        "Mama idzie z bratem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is talking about work.",
+      "answer": "Tata mówi o pracy.",
+      "accepts": [
+        "Tata mówi o pracy.",
+        "Tata mówi o pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My sister is going by bus.",
+      "answer": "Moja siostra jedzie autobusem.",
+      "accepts": [
+        "Moja siostra jedzie autobusem.",
+        "Moja siostra jedzie autobusem"
+      ]
+    },
+    {
+      "prompt_en": "Type: I don't like this film.",
+      "answer": "Nie podoba mi się ten film.",
+      "accepts": [
+        "Nie podoba mi się ten film.",
+        "Nie podoba mi się ten film"
+      ]
+    },
+    {
+      "prompt_en": "Type: I like this coffee. (it tastes good to me)",
+      "answer": "Smakuje mi ta kawa.",
+      "accepts": [
+        "Smakuje mi ta kawa.",
+        "Smakuje mi ta kawa"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad works in the city.",
+      "answer": "Tata pracuje w mieście.",
+      "accepts": [
+        "Tata pracuje w mieście.",
+        "Tata pracuje w mieście"
+      ]
+    },
+    {
+      "prompt_en": "Type: I have five hours.",
+      "answer": "Mam pięć godzin.",
+      "accepts": [
+        "Mam pięć godzin.",
+        "Mam pięć godzin"
+      ]
+    },
+    {
+      "prompt_en": "Type: These are new shops.",
+      "answer": "To są nowe sklepy.",
+      "accepts": [
+        "To są nowe sklepy.",
+        "To są nowe sklepy"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is going to work.",
+      "answer": "Mama idzie do pracy.",
+      "accepts": [
+        "Mama idzie do pracy.",
+        "Mama idzie do pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is a student.",
+      "answer": "Mój brat jest studentem.",
+      "accepts": [
+        "Mój brat jest studentem.",
+        "Mój brat jest studentem"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is thinking about work.",
+      "answer": "Mama myśli o pracy.",
+      "accepts": [
+        "Mama myśli o pracy.",
+        "Mama myśli o pracy"
+      ]
+    },
+    {
+      "prompt_en": "Type: There is no milk in the shop.",
+      "answer": "Nie ma mleka w sklepie.",
+      "accepts": [
+        "Nie ma mleka w sklepie.",
+        "Nie ma mleka w sklepie"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "kawa",
+    "kawy",
+    "kawę",
+    "ta",
+    "książka",
+    "książkę",
+    "praca",
+    "pracy",
+    "do pracy",
+    "z pracy",
+    "w pracy",
+    "o pracy",
+    "szkoła",
+    "szkoły",
+    "szkole",
+    "ze szkoły",
+    "o szkole",
+    "sklep",
+    "sklepu",
+    "sklepie",
+    "ze sklepu",
+    "w sklepie",
+    "sklepy",
+    "nowe",
+    "dom",
+    "domu",
+    "z domu",
+    "o domu",
+    "miasto",
+    "mieście",
+    "w mieście",
+    "gazeta",
+    "gazety",
+    "czas",
+    "czasu",
+    "mleko",
+    "mleka",
+    "piwo",
+    "piwa",
+    "piw",
+    "godzina",
+    "godziny",
+    "godzin",
+    "rok",
+    "lata",
+    "lat",
+    "brat",
+    "bratem",
+    "z bratem",
+    "mama",
+    "mamą",
+    "z mamą",
+    "mamę",
+    "siostra",
+    "siostrą",
+    "z siostrą",
+    "tata",
+    "film",
+    "ten",
+    "nauczyciel",
+    "nauczycielem",
+    "student",
+    "studentem",
+    "autobus",
+    "autobusem",
+    "pociągiem",
+    "rowerem",
+    "mi",
+    "podoba mi się",
+    "nie podoba mi się",
+    "smakuje mi",
+    "nie smakuje mi",
+    "smakuje",
+    "jestem",
+    "jest",
+    "są",
+    "to są",
+    "mam",
+    "nie mam",
+    "nie ma",
+    "idę",
+    "idzie",
+    "jadę",
+    "jedzie",
+    "wracam",
+    "mówię",
+    "mówi",
+    "myślę",
+    "myśli",
+    "piję",
+    "chcę",
+    "lubię",
+    "kupuję",
+    "pracuje",
+    "dużo",
+    "blisko",
+    "nie",
+    "o",
+    "dwa",
+    "dwie",
+    "trzy",
+    "cztery",
+    "pięć",
+    "mój",
+    "moja",
+    "dobra"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_which_case",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

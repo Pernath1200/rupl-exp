@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 185 · **errors:** 0 · **warns:** 3 · **missing_tags:** 0
+**Nodes audited:** 186 · **errors:** 0 · **warns:** 4 · **missing_tags:** 0
 
 ## Errors
 
@@ -11,6 +11,7 @@ _None._
 ## Warnings
 
 - **a1_which_case** [teaches_empty_grammar] `a1_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
+- **a2_which_case** [teaches_empty_grammar] `a2_which_case` — Grammar teach node has empty teaches_*; confirm intentional.
 - **a2_prep_review** [teaches_empty_grammar] `a2_prep_review` — Grammar teach node has empty teaches_*; confirm intentional.
 - **b1_two_futures** [teaches_empty_grammar] `b1_two_futures` — Grammar teach node has empty teaches_*; confirm intentional.
 
@@ -112,6 +113,7 @@ _None._
 | 94 | `a2_sport` | — | 19 | `byc_adj`, `byc_present`, `existential_jest`, `inst_identity`, `miec_acc`, `miec_present`, `motion_chunk`, `past_byc`, `past_rest`, `poss_nom`, `prep_w_loc`, `present_am`, `to_jest`, `zgoda` |
 | 95 | `a2_imperative` | `imperative` | 18 | `byc_adj`, `byc_present`, `imperative`, `miec_acc`, `motion_chunk`, `negation`, `prep_do_gen`, `prep_w_loc`, `present_am`, `question`, `situation_chunk`, `social_chunk` |
 | 96 | `a2_questions2` | `questions2` | 8 | `byc_adj`, `byc_present`, `existential_jest`, `musiec`, `present_e_esz`, `present_e_isz`, `present_uje`, `question`, `questions2`, `ten_ta_to` |
+| 97 | `a2_which_case` | — | 0 | `byc_present`, `chodzic`, `dat_chunks`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `negation`, `numbers_gen`, `o_loc`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `ten_ta_to`, `to_jest`, `zgoda` |
 | 98 | `a2_case_gym2` | — | 0 | `byc_present`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `negation`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_isz`, `to_jest` |
 | 99 | `a2_prep_review` | — | 0 | `chodzic`, `inst_transport`, `inst_z`, `jechac`, `o_loc`, `past_ac`, `past_byc`, `past_plural`, `past_rest`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_e_isz`, `question` |
 | 100 | `a2_wrapup_func` | `situation_chunk` | 0 | `byc_adj`, `byc_present`, `can_inf`, `existential_jest`, `inst_z`, `miec_acc`, `miec_present`, `negation`, `past_byc`, `past_rest`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `present_am`, `present_e_isz`, `present_uje`, `question`, `situation_chunk`, `smalltalk_chunk`, `social_chunk`, `ten_ta_to`, `time_past_chunk`, `to_jest`, `zgoda` |
