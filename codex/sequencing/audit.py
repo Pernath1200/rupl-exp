@@ -147,6 +147,7 @@ STRUCTURE_CATALOGUE = {
     "pron_je",
     "siebie_sobie",
     "word_order",
+    "virile_alt",
 }
 
 GLUE_LEMMAS = {

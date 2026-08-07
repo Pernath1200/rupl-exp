@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 190 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
+**Nodes audited:** 191 · **errors:** 0 · **warns:** 6 · **missing_tags:** 0
 
 ## Errors
 
@@ -211,4 +211,5 @@ _None._
 | 195 | `c1_pron_je` | `pron_je` | 2 | `aspect_prefixes`, `byc_adj`, `byc_present`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `plural_nom`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_je`, `pron_prep_12`, `question`, `question_cases`, `questions2`, `ten_ta_to`, `to_jest`, `virile_reco` |
 | 196 | `c1_siebie` | `siebie_sobie` | 3 | `byc_present`, `chodzic`, `dative_pron`, `dative_sg`, `inst_z`, `miec_acc`, `miec_present`, `motion_chunk`, `o_loc`, `plural_nom`, `prep_do_gen`, `prep_w_loc`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `pron_prep_12`, `sie_reflexive`, `virile_nom` |
 | 197 | `c1_word_order` | `word_order` | 1 | `byc_present`, `dative_pron`, `dative_sg`, `gen_pl`, `gen_pl_full`, `miec_acc`, `miec_present`, `negation`, `num_subject`, `numbers_gen`, `participle_pass`, `past_byc`, `plural_nom`, `prep_w_loc`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep_12`, `question`, `questions2`, `sie_impersonal`, `sie_reflexive`, `virile_nom`, `ze_clauses` |
+| 199 | `c1_virile_alt` | `virile_alt` | 3 | `adj_pl_virile`, `byc_adj`, `byc_present`, `inst_identity`, `miec_present`, `plural_nom`, `prep_place`, `prep_w_loc`, `present`, `present_am`, `present_uje`, `ten_ta_to`, `virile_alt`, `virile_nom`, `virile_reco`, `zgoda` |
 

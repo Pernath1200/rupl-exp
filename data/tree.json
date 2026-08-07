@@ -4058,12 +4058,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 4, unit 1. Inbox item 9. The consonant alternations b1_virile_nom left RECOGNITION-ONLY: kelner->kelnerzy (r->rz) and the rest of that pack's fenced set. kelnerzy verified TAUGHT <- b1_virile_reco [109] as a whole form, so the unit's idea is 'a form you have read since B1 is built by a rule' - the b2_verbal_nouns / b2_participle_pass anchor shape. NO FABRICATED NON-WORDS as distractors (AGENTS; b2_verbal_nouns had to rebuild a whole quiz shape over this, and alternation units are the genre where the temptation is strongest).",
+      "note": "[C1 SPINE] Block 4, unit 1. Inbox item 9. The consonant alternations b1_virile_nom left RECOGNITION-ONLY: kelner->kelnerzy (r->rz) and the rest of that pack's fenced set. kelnerzy verified TAUGHT <- b1_virile_reco [109] as a whole form, so the unit's idea is 'a form you have read since B1 is built by a rule' - the b2_verbal_nouns / b2_participle_pass anchor shape. NO FABRICATED NON-WORDS as distractors (AGENTS; b2_verbal_nouns had to rebuild a whole quiz shape over this, and alternation units are the genre where the temptation is strongest). [WIRED LIVE] THREE new strings: aktorzy, trenerzy, partnerzy; kelnerzy is the recycled anchor. Structure ID virile_alt registered in codex/SEQUENCING.md and audit.py before the audit. THE UNIT'S IDEA IS THE UNIFYING ONE: b1_virile_nom's three moves (-t->-ci, -k->-cy, soft+e) are one event - the last stem consonant softening under the virile ending - and -r->-rzy is the fourth member of that family. STATED AS A TENDENCY WITH A NAMED COUNTEREXAMPLE: of the six -r person nouns the learner owns, inzynier and menedzer take -owie instead; inzynier is named on slide 4 and hands off to c1_owie, menedzer is not mentioned (its plural is contested). NO CLAIM the -r survives everywhere else - false for the Locative singular kelnerze; slide 3 claims only kelner/kelnerem. No fabricated non-words in any distractor. brat/kolega/mezczyzna/-owie appear nowhere.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_virile_alt.json"
     },
     {
       "id": "c1_owie",
