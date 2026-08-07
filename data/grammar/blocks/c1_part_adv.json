@@ -1,0 +1,594 @@
+{
+  "id": "c1_part_adv",
+  "title": "Robiąc obiad…",
+  "title_en": "Doing one thing while doing another",
+  "level": "C1",
+  "tree_node": "c1_part_adv",
+  "default_direction": "en_to_pl",
+  "kind": "syntax",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 6, unit 3 (C1-SPINE O5). The adverbial participle: robiac PRODUCED, zrobiwszy shown ONCE, named literary and NEVER DEMANDED.\n\nTHE OPENING MOVE IS THE PREVIOUS UNIT MINUS ONE LETTER, which is why c1_part_active fenced the -ac form completely rather than contrasting with it: pracujacy (adjective, agrees, names a person) against pracujac (never changes, names the circumstances). Same stem, same block, one letter apart. The whole formation is therefore free - the learner built the -acy form off the 3pl one node ago and this is the same operation stopping earlier.\n\nSEVEN NEW STRINGS: robiac, czytajac, pracujac, idac, jadac, mowiac, and zrobiwszy (recognition only). All six productive forms come off 3pl forms verified TAUGHT: robia/mowia <- a1_present_e_isz [16], czytaja <- a1_present [15], pracuja <- a1_present_uje [18], ida <- a2_chodzic [72], jada <- a2_jechac [66].\n\nTHE ONE NEW FACT IS THAT THE -ac FORM CARRIES NOTHING, and it is presented as one fact with two consequences rather than as two rules: it has NO SUBJECT (so both halves of the sentence must be the same person - the main verb says who) and NO TENSE (so 'Czytajac gazety, pilem herbate' is past only because pilem is past). C1-SPINE names the subject half; the tense half falls out of the same fact and costs nothing to say.\n\nTHE SPINE'S OWN EXAMPLE IS NOT BUILDABLE AND WAS CHECKED RATHER THAN COPIED. C1-SPINE writes 'Robiac obiad, sluchalem radia'. BOTH of the last two words are verified NEW: sluchalem (slucham is TAUGHT <- a2_phone_func [89], but no past of sluchac exists anywhere in the course) and radia (already caught and replaced once, in c1_gen_verbs' own build). The sentence ships as 'Robiac obiad, slucham muzyki' - present tense, and muzyki <- c1_gen_verbs [207], the Genitive that unit taught two nodes back.\n\nzrobiwszy IS SHOWN ON ONE SLIDE AND APPEARS IN NO STAGE - not in Dopasuj, not as a distractor, not in Pisanie, not in Uzycie. NO FORMATION RULE IS STATED for it. It is named as the form for something finished before the main event, named as literary, and named as something to recognise rather than make. This is exactly C1-SPINE O5's default and the reason both alternatives were rejected there: teaching it is a second formation for a word he will read and never say, and dropping it would leave the only anterior participle unnamed in the last level of the course. It is in teaches_lemmas because the string is on screen and a later pack must see that it is owned.\n\nWORD ORDER IS FENCED TO ONE SHAPE, logged: the participle clause comes FIRST, with a comma. Polish also allows it trailing (Slucham muzyki, robiac obiad) and that is perfectly good, but a second order is a second fact and every subordinate shape this learner owns - ze, zeby, ktory, jesli, embedded questions - was taught in one position first. Handed to James rather than smuggled in.\n\nPISANIE IS EIGHT CLOZE ITEMS AND COULD NOT BE ANYTHING ELSE: every sentence in this unit is composed of two clauses, so the queue's rule makes all of them cloze regardless of length. SIX blank the teaching point - one per productive participle, which is EXACTLY the number of distinct answers available, the c1_ktory_plural situation - and TWO fall back onto the MAIN verb (pilem, mysle), logged per item under the queue's fallback clause. Those two are not arbitrary: the main verb is precisely where this unit says the tense and the person live, so the fallback items drill the unit's own second fact.\n\nPISANIE AND UZYCIE ARE DISJOINT SENTENCE SETS, checked by assertion rather than by eye - no Pisanie frame reconstructs a Uzycie sentence. Dopasuj draws six sentences from each, which is the recognition-then-production ladder AGENTS endorses.\n\nGLOSSING: pilem is glossed 'was drinking' per the AGENTS dynamic-verb rule, never 'drank'.\n\nDISTRACTORS are all real taught forms of the same verb - the 3pl the participle is built from, the 1sg or 3sg, and the infinitive. NOTHING IS FABRICATED. In particular no -acy form of a verb this course has not taught one for appears anywhere; the only -acy words used are pracujacy / pracujaca <- c1_part_active [209], and they appear in the two items that discriminate the adjective from the adverb.\n\nFENCED, verified NEW and appearing NOWHERE: zostac / zostal / zostanie and the dynamic passive (c1_zostac, the very next node); sluchalem, sluchala and every past of sluchac; radia; jedzac, kupujac, sluchajac (their 3pl forms are owned, but six participles are a complete demonstration).",
+  "focus_structures": [
+    "part_adv"
+  ],
+  "teaches_structures": [
+    "part_adv"
+  ],
+  "teaches_lemmas": [
+    "robiąc",
+    "czytając",
+    "pracując",
+    "idąc",
+    "jadąc",
+    "mówiąc",
+    "zrobiwszy"
+  ],
+  "uses_structures": [
+    "part_adv",
+    "part_active",
+    "part_attrib",
+    "present",
+    "present_am",
+    "present_uje",
+    "present_e_isz",
+    "present_e_esz",
+    "past_ac",
+    "past_rest",
+    "motion_chunk",
+    "jechac",
+    "chodzic",
+    "prep_do_gen",
+    "prep_w_loc",
+    "prep_place",
+    "o_loc",
+    "gen_verbs",
+    "gen_endings",
+    "plural_nom",
+    "miec_acc",
+    "sie_reflexive",
+    "byc_present",
+    "zgoda"
+  ],
+  "intro": [
+    {
+      "title": "One letter less, and the word stops being an adjective",
+      "title_pl": "pracujący · pracując",
+      "body": "Last unit you built pracujący off the they-form. Stop one letter earlier and you get a different word doing a different job:\n\npracujący — working, as a description of a person. It agrees: pracujący lekarz, pracująca kobieta.\n\npracując — while working. It describes the circumstances, not a person, and it never changes its shape. Not for a woman, not for a plural, not for a case. There is one form and that is all there is.\n\nPracując w biurze, tata pije kawę. — Working in the office, Dad drinks coffee.\n\nThat sentence says two things are going on at once, and it says it in three words fewer than English would need with while.",
+      "body_pl": "Imiesłów przysłówkowy — nie odmienia się.",
+      "examples": [
+        {
+          "en": "Making dinner, I listen to music.",
+          "pl": "Robiąc obiad, słucham muzyki."
+        },
+        {
+          "en": "Reading a book, I drink coffee.",
+          "pl": "Czytając książkę, piję kawę."
+        },
+        {
+          "en": "Working in the office, Dad drinks coffee.",
+          "pl": "Pracując w biurze, tata pije kawę."
+        }
+      ]
+    },
+    {
+      "title": "The same they-form, and this time you stop at -ąc",
+      "title_pl": "robią → robiąc",
+      "body": "The operation is the one you did last unit. Take the they-form of the present, drop the final -ą, and add -ąc.\n\nrobią − ą = robi, + ąc = robiąc\n\nThat is the whole formation, and it works the same way whichever present-tense group the verb belongs to — including the two motion verbs, where the they-form is the only part that is at all irregular and you have owned it since A2.",
+      "body_pl": "Forma „oni” → -ąc.",
+      "table": {
+        "headers": [
+          "They-form",
+          "Participle",
+          "It means"
+        ],
+        "rows": [
+          [
+            "robią",
+            "robiąc",
+            "while making, doing"
+          ],
+          [
+            "czytają",
+            "czytając",
+            "while reading"
+          ],
+          [
+            "pracują",
+            "pracując",
+            "while working"
+          ],
+          [
+            "mówią",
+            "mówiąc",
+            "while speaking"
+          ],
+          [
+            "idą",
+            "idąc",
+            "while walking, on the way"
+          ],
+          [
+            "jadą",
+            "jadąc",
+            "while travelling"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The -ąc word carries nothing, and the other verb carries everything",
+      "title_pl": "Robiąc obiad, słucham muzyki.",
+      "body": "This is the one fact in the unit, and two things follow from it.\n\nIt has no person. Robiąc obiad, słucham muzyki — who is making the dinner? I am, and the only reason you know that is słucham. Change the main verb and you change who is doing both halves: Robiąc kawę, mama słucha muzyki.\n\nSo both halves must be the same person. Polish will not let you use this form to say that one person was cooking while a different person listened — for that you need two proper clauses.\n\nIt has no tense either. The -ąc word looks identical whether the sentence is now or years ago; the main verb decides.\n\nCzytając gazety, piłem herbatę. — Reading the newspapers, I was drinking tea.\n\nThe comma is not optional. The participle clause is always fenced off with one.",
+      "body_pl": "-ąc — nie ma osoby, nie ma czasu.",
+      "examples": [
+        {
+          "en": "Making coffee, Mum listens to music.",
+          "pl": "Robiąc kawę, mama słucha muzyki."
+        },
+        {
+          "en": "Reading the newspapers, I was drinking tea.",
+          "pl": "Czytając gazety, piłem herbatę."
+        },
+        {
+          "en": "Walking to the shop, I think about work.",
+          "pl": "Idąc do sklepu, myślę o pracy."
+        }
+      ]
+    },
+    {
+      "title": "Where it earns its keep",
+      "title_pl": "Idąc do pracy, kupuję chleb.",
+      "body": "The everyday use is the small one: two things happening together, said in one sentence instead of two.\n\nIdąc do pracy, kupuję chleb. — On the way to work I buy bread.\nJadąc do pracy, czytam gazety. — Travelling to work I read the newspapers.\n\nNotice the difference between those two. Polish has kept its walking verb and its riding verb apart since A2, and the participle keeps them apart too — idąc is on foot, jadąc is in something.\n\nMówiąc po polsku, czuję się dobrze. — Speaking Polish, I feel good.",
+      "body_pl": "Idąc — pieszo. Jadąc — autobusem.",
+      "examples": [
+        {
+          "en": "Walking to work, I buy bread.",
+          "pl": "Idąc do pracy, kupuję chleb."
+        },
+        {
+          "en": "Travelling to work, I read the newspapers.",
+          "pl": "Jadąc do pracy, czytam gazety."
+        },
+        {
+          "en": "Speaking Polish, I feel good.",
+          "pl": "Mówiąc po polsku, czuję się dobrze."
+        }
+      ]
+    },
+    {
+      "title": "There is a second one, and it is for reading",
+      "title_pl": "zrobiwszy",
+      "body": "Polish has one more adverbial participle. It is for something that was finished before the main event started, where -ąc is for something going on at the same time.\n\nzrobiwszy — having done, having finished\n\nYou will meet it in books, in older writing, and in careful formal prose. You will very seldom hear anybody say it, and nothing in this unit asks you to make one — there is no rule for it here and no exercise wants it.\n\nIt is on this slide for one reason: it is the only other participle Polish has, this is the last time the course will be in a position to name it, and a form you can recognise is worth more than a form nobody told you about.",
+      "body_pl": "zrobiwszy — stara forma. Tylko czytamy.",
+      "examples": [
+        {
+          "en": "Working in Poland, I speak Polish.",
+          "pl": "Pracując w Polsce, mówię po polsku."
+        },
+        {
+          "en": "Travelling to town, I read a book.",
+          "pl": "Jadąc do miasta, czytam książkę."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Making dinner, I listen to music.",
+      "pl": "Robiąc obiad, słucham muzyki."
+    },
+    {
+      "en": "Reading a book, I drink coffee.",
+      "pl": "Czytając książkę, piję kawę."
+    },
+    {
+      "en": "Working in the office, Dad drinks coffee.",
+      "pl": "Pracując w biurze, tata pije kawę."
+    },
+    {
+      "en": "Walking to work, I buy bread.",
+      "pl": "Idąc do pracy, kupuję chleb."
+    },
+    {
+      "en": "Travelling to work, I read the newspapers.",
+      "pl": "Jadąc do pracy, czytam gazety."
+    },
+    {
+      "en": "Speaking Polish, I feel good.",
+      "pl": "Mówiąc po polsku, czuję się dobrze."
+    },
+    {
+      "en": "Making coffee, Mum listens to music.",
+      "pl": "Robiąc kawę, mama słucha muzyki."
+    },
+    {
+      "en": "Working in Poland, I speak Polish.",
+      "pl": "Pracując w Polsce, mówię po polsku."
+    },
+    {
+      "en": "Travelling to town, I read a book.",
+      "pl": "Jadąc do miasta, czytam książkę."
+    },
+    {
+      "en": "Reading the newspapers, I drink coffee.",
+      "pl": "Czytając gazety, piję kawę."
+    },
+    {
+      "en": "Travelling to work, Dad reads the newspapers.",
+      "pl": "Jadąc do pracy, tata czyta gazety."
+    },
+    {
+      "en": "Making dinner, Mum drinks coffee.",
+      "pl": "Robiąc obiad, mama pije kawę."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "___ obiad, słucham muzyki. (making)",
+      "choices": [
+        "Robiąc",
+        "Robią",
+        "Robię",
+        "Robić"
+      ],
+      "answer": "Robiąc",
+      "explain": "The they-form robią, minus its -ą, plus -ąc. Robię would give the sentence a second finite verb and no link between the halves."
+    },
+    {
+      "prompt": "___ książkę, piję kawę. (reading)",
+      "choices": [
+        "Czytając",
+        "Czytają",
+        "Czytam",
+        "Czytać"
+      ],
+      "answer": "Czytając",
+      "explain": "czytają − ą + ąc."
+    },
+    {
+      "prompt": "___ w biurze, tata pije kawę. (working)",
+      "choices": [
+        "Pracując",
+        "Pracują",
+        "Pracuje",
+        "Pracować"
+      ],
+      "answer": "Pracując",
+      "explain": "The -ować group behaves like every other one here, because the form is built off the they-form and not off the infinitive."
+    },
+    {
+      "prompt": "___ do pracy, kupuję chleb. (walking)",
+      "choices": [
+        "Idąc",
+        "Idą",
+        "Idę",
+        "Iść"
+      ],
+      "answer": "Idąc",
+      "explain": "On foot. idą − ą + ąc."
+    },
+    {
+      "prompt": "___ do pracy, czytam gazety. (travelling, not on foot)",
+      "choices": [
+        "Jadąc",
+        "Jadą",
+        "Jadę",
+        "Jechać"
+      ],
+      "answer": "Jadąc",
+      "explain": "In something — a bus, a car, a train. The walking and riding verbs stay apart here exactly as they do everywhere else."
+    },
+    {
+      "prompt": "___ po polsku, czuję się dobrze. (speaking)",
+      "choices": [
+        "Mówiąc",
+        "Mówią",
+        "Mówię",
+        "Mówić"
+      ],
+      "answer": "Mówiąc",
+      "explain": "mówią − ą + ąc."
+    },
+    {
+      "prompt": "To jest ___ lekarz. (working)",
+      "choices": [
+        "pracujący",
+        "pracując",
+        "pracują",
+        "pracuje"
+      ],
+      "answer": "pracujący",
+      "explain": "This one describes the doctor, so it is the adjective from the previous unit and it agrees with him. The -ąc form describes circumstances and cannot sit in front of a noun."
+    },
+    {
+      "prompt": "___ w Polsce, mówię po polsku. (working)",
+      "choices": [
+        "Pracując",
+        "Pracujący",
+        "Pracująca",
+        "Pracuje"
+      ],
+      "answer": "Pracując",
+      "explain": "The mirror of the last item: here nothing is being described, so the ending stops at -ąc."
+    },
+    {
+      "prompt": "Czytając gazety, ___ herbatę. (I was drinking)",
+      "choices": [
+        "piłem",
+        "piję",
+        "pił",
+        "pije"
+      ],
+      "answer": "piłem",
+      "explain": "The participle looks the same in any tense, so the main verb is the only place the past can show."
+    },
+    {
+      "prompt": "Idąc do pracy, ___ chleb. (I buy)",
+      "choices": [
+        "kupuję",
+        "kupuje",
+        "kupują",
+        "kupować"
+      ],
+      "answer": "kupuję",
+      "explain": "And the only place the person can show. The -ąc word never says who."
+    },
+    {
+      "prompt": "___ gazety, piję kawę. (reading)",
+      "choices": [
+        "Czytając",
+        "Czytają",
+        "Czytający",
+        "Czytać"
+      ],
+      "answer": "Czytając",
+      "explain": "Czytający would be describing somebody, and there is no noun here for it to describe."
+    },
+    {
+      "prompt": "___ do miasta, czytam książkę. (travelling, not on foot)",
+      "choices": [
+        "Jadąc",
+        "Idąc",
+        "Jadą",
+        "Jechać"
+      ],
+      "answer": "Jadąc",
+      "explain": "Idąc is good Polish and says something else: that you walked the whole way into town."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "Making dinner, I listen to music.",
+      "mode": "cloze",
+      "frame": "___ obiad, słucham muzyki.",
+      "answer": "Robiąc",
+      "accepts": [
+        "Robiąc"
+      ],
+      "explain": "robią − ą + ąc."
+    },
+    {
+      "prompt_en": "Reading a book, I drink coffee.",
+      "mode": "cloze",
+      "frame": "___ książkę, piję kawę.",
+      "answer": "Czytając",
+      "accepts": [
+        "Czytając"
+      ]
+    },
+    {
+      "prompt_en": "Working in the office, Dad drinks coffee.",
+      "mode": "cloze",
+      "frame": "___ w biurze, tata pije kawę.",
+      "answer": "Pracując",
+      "accepts": [
+        "Pracując"
+      ]
+    },
+    {
+      "prompt_en": "Walking to work, I buy bread.",
+      "mode": "cloze",
+      "frame": "___ do pracy, kupuję chleb.",
+      "answer": "Idąc",
+      "accepts": [
+        "Idąc"
+      ],
+      "explain": "On foot."
+    },
+    {
+      "prompt_en": "Travelling to work, I read the newspapers.",
+      "mode": "cloze",
+      "frame": "___ do pracy, czytam gazety.",
+      "answer": "Jadąc",
+      "accepts": [
+        "Jadąc"
+      ],
+      "explain": "In something rather than on foot."
+    },
+    {
+      "prompt_en": "Speaking Polish, I feel good.",
+      "mode": "cloze",
+      "frame": "___ po polsku, czuję się dobrze.",
+      "answer": "Mówiąc",
+      "accepts": [
+        "Mówiąc"
+      ]
+    },
+    {
+      "prompt_en": "Reading the newspapers, I was drinking tea.",
+      "mode": "cloze",
+      "frame": "Czytając gazety, ___ herbatę.",
+      "answer": "piłem",
+      "accepts": [
+        "piłem"
+      ],
+      "explain": "The blank is the main verb because the main verb is the only thing in the sentence that knows it is the past."
+    },
+    {
+      "prompt_en": "Walking to the shop, I think about work.",
+      "mode": "cloze",
+      "frame": "Idąc do sklepu, ___ o pracy.",
+      "answer": "myślę",
+      "accepts": [
+        "myślę"
+      ],
+      "explain": "And the only thing that knows it is I who am walking."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Making coffee, Mum listens to music.",
+      "answer": "Robiąc kawę, mama słucha muzyki.",
+      "accepts": [
+        "Robiąc kawę, mama słucha muzyki.",
+        "Robiąc kawę, mama słucha muzyki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Reading a book, Dad drinks tea.",
+      "answer": "Czytając książkę, tata pije herbatę.",
+      "accepts": [
+        "Czytając książkę, tata pije herbatę.",
+        "Czytając książkę, tata pije herbatę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Working in Poland, I speak Polish.",
+      "answer": "Pracując w Polsce, mówię po polsku.",
+      "accepts": [
+        "Pracując w Polsce, mówię po polsku.",
+        "Pracując w Polsce, mówię po polsku"
+      ]
+    },
+    {
+      "prompt_en": "Type: Walking to the shop, I buy the newspapers.",
+      "answer": "Idąc do sklepu, kupuję gazety.",
+      "accepts": [
+        "Idąc do sklepu, kupuję gazety.",
+        "Idąc do sklepu, kupuję gazety"
+      ]
+    },
+    {
+      "prompt_en": "Type: Travelling to town, I read a book.",
+      "answer": "Jadąc do miasta, czytam książkę.",
+      "accepts": [
+        "Jadąc do miasta, czytam książkę.",
+        "Jadąc do miasta, czytam książkę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Speaking Polish, Mum feels good.",
+      "answer": "Mówiąc po polsku, mama czuje się dobrze.",
+      "accepts": [
+        "Mówiąc po polsku, mama czuje się dobrze.",
+        "Mówiąc po polsku, mama czuje się dobrze"
+      ]
+    },
+    {
+      "prompt_en": "Type: Reading the newspapers, I drink coffee.",
+      "answer": "Czytając gazety, piję kawę.",
+      "accepts": [
+        "Czytając gazety, piję kawę.",
+        "Czytając gazety, piję kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Working in the office, Mum listens to music.",
+      "answer": "Pracując w biurze, mama słucha muzyki.",
+      "accepts": [
+        "Pracując w biurze, mama słucha muzyki.",
+        "Pracując w biurze, mama słucha muzyki"
+      ]
+    },
+    {
+      "prompt_en": "Type: Travelling to work, Dad reads the newspapers.",
+      "answer": "Jadąc do pracy, tata czyta gazety.",
+      "accepts": [
+        "Jadąc do pracy, tata czyta gazety.",
+        "Jadąc do pracy, tata czyta gazety"
+      ]
+    },
+    {
+      "prompt_en": "Type: Making dinner, Mum drinks coffee.",
+      "answer": "Robiąc obiad, mama pije kawę.",
+      "accepts": [
+        "Robiąc obiad, mama pije kawę.",
+        "Robiąc obiad, mama pije kawę"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "robią",
+    "robię",
+    "robi",
+    "robić",
+    "czytają",
+    "czytam",
+    "czyta",
+    "czytać",
+    "czytałem",
+    "pracują",
+    "pracuje",
+    "pracować",
+    "mówią",
+    "mówię",
+    "mówić",
+    "idą",
+    "idę",
+    "iść",
+    "jadą",
+    "jadę",
+    "jechać",
+    "pracujący",
+    "pracująca",
+    "czytający",
+    "kupuję",
+    "kupuje",
+    "kupują",
+    "kupować",
+    "piję",
+    "pije",
+    "piłem",
+    "pił",
+    "słucham",
+    "słucha",
+    "myślę",
+    "czuję się",
+    "czuje się",
+    "czuję się dobrze",
+    "muzyki",
+    "obiad",
+    "kawę",
+    "herbatę",
+    "książkę",
+    "chleb",
+    "gazety",
+    "biurze",
+    "miasta",
+    "polsce",
+    "mama",
+    "tata",
+    "lekarz",
+    "po polsku",
+    "do pracy",
+    "do sklepu",
+    "w biurze",
+    "w polsce",
+    "o pracy",
+    "dobrze"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_part_adv",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

@@ -157,6 +157,7 @@ STRUCTURE_CATALOGUE = {
     "gen_verbs",
     "part_attrib",
     "part_active",
+    "part_adv",
 }
 
 GLUE_LEMMAS = {

@@ -4244,12 +4244,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 6, unit 3 (spine O5). ADVERBIAL PARTICIPLES: robiac PRODUCED (Robiac obiad, sluchalem radia); zrobiwszy shown ONCE, named literary, NEVER DEMANDED - both verified NEW. The one new fact: the -ac form has NO SUBJECT OF ITS OWN and borrows the main clause's. Teaching both as production was rejected (a second formation for a form he will read and never say); dropping zrobiwszy entirely was also rejected (it would leave the only anterior participle unnamed in the last level of the course).",
+      "note": "[C1 SPINE] Block 6, unit 3 (spine O5). ADVERBIAL PARTICIPLES: robiac PRODUCED (Robiac obiad, sluchalem radia); zrobiwszy shown ONCE, named literary, NEVER DEMANDED - both verified NEW. The one new fact: the -ac form has NO SUBJECT OF ITS OWN and borrows the main clause's. Teaching both as production was rejected (a second formation for a form he will read and never say); dropping zrobiwszy entirely was also rejected (it would leave the only anterior participle unnamed in the last level of the course). [WIRED LIVE] SEVEN new strings: robiac, czytajac, pracujac, idac, jadac, mowiac, zrobiwszy (recognition only). The opening move is the previous unit minus one letter - pracujacy agrees and names a person, pracujac never changes and names the circumstances - which is why c1_part_active fenced the -ac form completely instead of contrasting with it. THE SPINE'S OWN EXAMPLE IS NOT BUILDABLE: 'Robiac obiad, sluchalem radia' has TWO verified-NEW words (no past of sluchac exists anywhere in the course; radia was caught and replaced once already in c1_gen_verbs). It ships as 'Robiac obiad, slucham muzyki' on c1_gen_verbs' own Genitive. The one new fact - the -ac form has no person and no tense, so the main verb carries both - is given as ONE fact with two consequences. zrobiwszy is on one slide, in NO stage, with NO formation rule. Word order fenced to participle-clause-first, logged for James. Pisanie is eight cloze (all sentences are two-clause): six on the teaching point, two on the main verb under the queue's fallback clause, and the Pisanie and Uzycie sentence sets are disjoint by assertion. Structure ID part_adv registered in codex/SEQUENCING.md and audit.py before the audit.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_part_adv.json"
     },
     {
       "id": "c1_zostac",
