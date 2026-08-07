@@ -135,6 +135,7 @@ STRUCTURE_CATALOGUE = {
     "verbal_nouns",
     "participle_pass",
     "passive",
+    "existential_tense",
 }
 
 GLUE_LEMMAS = {

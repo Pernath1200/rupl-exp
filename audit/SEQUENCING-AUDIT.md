@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 172 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
+**Nodes audited:** 173 · **errors:** 0 · **warns:** 2 · **missing_tags:** 0
 
 ## Errors
 
@@ -189,4 +189,5 @@ _None._
 | 176 | `b2_discussion_func` | `situation_chunk` | 12 | `bedzie`, `byc_adj`, `byc_present`, `conjunctions`, `copular_future`, `miec_present`, `present`, `question`, `questions2`, `situation_chunk`, `ten_ta_to`, `ze_clauses`, `zgoda` |
 | 177 | `b2_case_gym` | — | 0 | `byc_present`, `conjunctions`, `dat_chunks`, `dative_pron`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `inst_identity`, `inst_transport`, `inst_z`, `jechac`, `miec_acc`, `miec_present`, `motion_chunk`, `neg_gen`, `negation`, `o_loc`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_w_loc`, `present`, `present_am`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_prep`, `prosic_o`, `question`, `question_cases` |
 | 178 | `b2_wrapup` | `situation_chunk` | 0 | `byc_adj`, `byc_present`, `conjunctions`, `existential_jest`, `miec_acc`, `miec_present`, `participle_pass`, `passive`, `past_byc`, `plural_nom`, `prep_w_loc`, `question`, `questions2`, `situation_chunk`, `ze_clauses`, `zgoda` |
+| 180 | `c1_existential` | `existential_tense` | 0 | `bedzie`, `byc_present`, `conjunctions`, `copular_future`, `existential_jest`, `existential_tense`, `gen_endings`, `gen_pl`, `gen_pl_full`, `neg_gen`, `negation`, `past_byc`, `plural_nom`, `prep_w_loc`, `time_past_chunk` |
 

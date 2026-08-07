@@ -3798,12 +3798,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 1, unit 1. Existential byc across three tenses (Jest/Byla/Bedzie kawa) and its negative twin (Nie ma/Nie bylo/Nie bedzie kawy). ZERO NEW FORMS. Pays b2_copular_future's explicit fence on the plain existential future ('it is the twin of the negative above and they are not worth separating'); b2_neg_gen supplies the Genitive half. Cheapest high-value unit in C1 - the b2_copular_future slot, one level on.",
+      "note": "C1 Block 1, unit 1 — the level opens on its cheapest high-value unit, the b2_copular_future slot one level on. Zero new lemmas: jest/są, był/była/było/były, będzie/będą and nie ma are all owned, and so is every Genitive used. Pays two explicit fences at once — b2_copular_future's plain existential future (Będzie kawa, fenced as 'the twin of the negative') and the negated future nie będzie kawy, which b2_neg_gen never reached because it taught the Genitive of negation off a transitive verb only. The one fact is an asymmetry: the positive existential has a Nominative subject and być agrees with it in all four past shapes; the negative has no subject at all, so it is one frozen form per tense (nie ma / nie było / nie będzie) with the thing behind it in the Genitive. Going negative freezes the verb and moves the noun at the same time. Homograph catch that changed the unit: książki is taught only as a genitive singular (a1_gen_ki, a1_negation) and is not owned as a nominative plural, so 'there were books' appears nowhere; gazety carries every plural instead, in exactly the job a2_plural_nom taught it in. Fenced: plural adjectives, counted subjects, na + Accusative.",
       "pedagogy": "teach",
       "root": "verbs",
-      "tree_part": "verbs"
+      "tree_part": "verbs",
+      "content": "grammar/blocks/c1_existential.json"
     },
     {
       "id": "c1_wiedziec",
