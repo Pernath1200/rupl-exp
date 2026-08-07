@@ -152,6 +152,7 @@ STRUCTURE_CATALOGUE = {
     "virile_irreg",
     "suppl_pl",
     "na_acc",
+    "przez_acc",
 }
 
 GLUE_LEMMAS = {

@@ -4153,18 +4153,19 @@
     {
       "id": "c1_przez",
       "domain": "grammar",
-      "label": "Przez park",
+      "label": "Przez park, przez most",
       "label_en": "przez + Accusative · through, across, by",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 5, unit 2. przez + Accusative (verified NEW): through, across, and - the reason this precedes c1_zostac - BY in an agent phrase. PAYOFF: przejsc przez ulice and wjechac, which b2_motion_prefixes2 fenced with the words 'it needs either its own small slot after a przez unit, or C1'. This is that slot. The verbs ride the prefixed-motion stem table that pack already built, so each is ONE NEW WORD, not a new system.",
+      "note": "[C1 SPINE] Block 5, unit 2. przez + Accusative (verified NEW): through, across, and - the reason this precedes c1_zostac - BY in an agent phrase. PAYOFF: przejsc przez ulice and wjechac, which b2_motion_prefixes2 fenced with the words 'it needs either its own small slot after a przez unit, or C1'. This is that slot. The verbs ride the prefixed-motion stem table that pack already built, so each is ONE NEW WORD, not a new system. [WIRED LIVE] EIGHTEEN new strings, fifteen of them two verb paradigms read off the poszedlem/pojechalem mirror tables motion_prefixed2 [167] already built. Structure ID przez_acc registered in codex/SEQUENCING.md and audit.py before the audit. THREE ROWS ADDED TO data/case-map.json IN THIS SAME COMMIT (przez = through/across, przez = for how long, przez = the by-agent), per the standing instruction in codex/WHICH-CASE-DIGEST.md - c1_which_case [235] derives its table from that file. przez IS in teaches_lemmas: unlike na, check_new's NEW report is real, not the multiword artifact - przez sits inside no lemma anywhere in the course. THE ANCHOR NOUNS ALL HIDE THE CASE (park, most, las masculine inanimate; miasto neuter), the same trap c1_na_acc hit one unit earlier, so slide 2 runs the visible demonstration on two feminines - przez ulice, przez rzeke - and ulice/rzeke are the pack's only new NOUN forms. FOURTH JOB ADDED BEYOND THE SPINE BRIEF: duration (przez rok, przez dwa lata, przez caly dzien) costs ZERO new endings - dwa lata is a2_numbers_gen's own 2-4 counted form, verified - and caly is the single new word, used only on masculine time nouns where the Accusative equals the dictionary form. PERSONS LIGHTER THAN motion_prefixed2 ON PURPOSE: 1sg and 3sg only, both genders in the past, no 2sg taught and none used - that pack taught 11 forms per verb because the verbs were its new system; here the governor is. zostac AND THE DYNAMIC PASSIVE APPEAR NOWHERE - fenced to c1_zostac, which is why this unit sits three nodes ahead of it; the by-agent slide rides b2_passive's own X jest <participle> construction unchanged. FORK LOGGED, NOT SILENTLY TAKEN: wjechac is NOT built. It is not a przez verb (its frame is wjechac DO + Genitive) and b2_motion_prefixes2 dropped it for a we-/w- shape irregularity this unit does nothing to remove; przejechac was built in its place because it IS przejsc's partner and completes the prze- row that pack dropped. C1 is the last level, so this is a PERMANENT deferral unless James overrules - flagged loudly in C1-DIGEST batch 8. HOMOGRAPHS CHECKED: mamy and gory are both avoided by name (AGENTS lists them); lata re-verified as a2_numbers_gen's counted plural of rok, which is the job it does here. szly and jechal are untaught and appear nowhere. All quiz distractors are pool-legal taught forms - ulicy <- b2_fem_soft [135], and rzeka/wode/most/park/las/dobry/duzy/nowy all owned. Title re-checked at the wire: przez is taught by this unit and park/most are owned.",
       "pedagogy": "teach",
       "root": "links",
-      "tree_part": "links"
+      "tree_part": "links",
+      "content": "grammar/blocks/c1_przez.json"
     },
     {
       "id": "c1_od_source",

@@ -30,6 +30,9 @@
     { "case": "gen", "trigger": "ANY negated verb, not just nie mam", "gloss": "negation takes the object's case away", "example": "Nie kupiłem chleba.", "taught_by": "b2_neg_gen" },
     { "case": "acc", "trigger": "proszę o…", "gloss": "asking FOR something — o's second job", "example": "Proszę o kawę.", "taught_by": "b2_prosic_o" },
     { "case": "acc", "trigger": "na… (going TO an activity or event)", "gloss": "an activity or event, not a place — a place takes do", "example": "Idę na spacer.", "taught_by": "c1_na_acc" },
-    { "case": "acc", "trigger": "czekam na… (waiting FOR something)", "gloss": "the thing you are waiting for — czekać chooses na", "example": "Czekam na autobus.", "taught_by": "c1_na_acc" }
+    { "case": "acc", "trigger": "czekam na… (waiting FOR something)", "gloss": "the thing you are waiting for — czekać chooses na", "example": "Czekam na autobus.", "taught_by": "c1_na_acc" },
+    { "case": "acc", "trigger": "przez… (through, across)", "gloss": "the way through — not the destination, which takes do", "example": "Idę przez park.", "taught_by": "c1_przez" },
+    { "case": "acc", "trigger": "przez… (for how long)", "gloss": "a stretch of time the action filled", "example": "przez cały dzień", "taught_by": "c1_przez" },
+    { "case": "acc", "trigger": "przez… (BY whom — who did it)", "gloss": "the doer in a passive sentence — never the means, which is the Instrumental", "example": "List jest napisany przez tatę.", "taught_by": "c1_przez" }
   ]
 }
