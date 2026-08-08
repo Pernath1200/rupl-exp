@@ -4651,12 +4651,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 10, unit 1. ZERO NEW (spine O11). The final case board: everything b2_case_gym had, PLUS plural adjectives in five jobs, the closed pronoun system including 1st/2nd person after prepositions, and the irregular plurals. THIS BOARD WILL BE DENSER THAN b2_case_gym's, which already had to split across two intro slides - PLAN FOR THREE and log the call rather than compressing.",
+      "note": "[C1 SPINE] Block 10, unit 1. ZERO NEW (spine O11). The final case board: everything b2_case_gym had, PLUS plural adjectives in five jobs, the closed pronoun system including 1st/2nd person after prepositions, and the irregular plurals. THIS BOARD WILL BE DENSER THAN b2_case_gym's, which already had to split across two intro slides - PLAN FOR THREE and log the call rather than compressing. [WIRED LIVE] ZERO NEW - teaches_structures and teaches_lemmas both empty, gym idiom, no new structure ID needed. THE SPINE'S BRIEF WAS NARROWED and the call is logged loudly, exactly as b2_case_gym narrowed its own under AGENTS' post-spine gyms rule. (a) Plural adjectives in five jobs ARE c1_adj_pl_gym's entire board, forty-odd nodes back - re-running it is the a2_past_gym failure verbatim, so plural adjective phrases appear MIXED IN as the noun half of pronoun contrasts and never as their own paradigm board. (b) The -owie family and the suppletives CANNOT be case-drilled at all: c1_owie taught six nominatives and c1_suppl_pl taught oczy/uszy/rece only - oczu, rak, uszu, dziadkow are all verified NEW, so an oblique board would have to TEACH, which a gym may not. Logged so a later reader does not think it was forgotten. (c) The irregular virile plural IS drilled, on the three forms c1_irreg_virile actually taught (bracia/braci/braciom), inside real frames. WHAT THE GYM IS FOR: the pronoun table is finally complete. b2_case_gym shipped it with TWO VISIBLY EMPTY CELLS - me and you had no after-a-preposition column - and c1_pron_12_prep was built to fill them; slide 1 is that same table with the gaps closed. The cliff is that ty has FOUR shapes decided purely by what stands in front (cie / ciebie / tobie / toba), which is what massed discrimination is for. The ze rule is drilled as the closed fact it is: z becomes ze before mna and no other pronoun. bratom is NEVER shown, not even as a distractor - it is not a Polish word and O12 bans fabricated non-words; the braciom item discriminates against braci, bracia and brata, all real taught forms in the wrong case. je and czemu restated as homographs in one line each. THREE INTRO SLIDES as instructed; no fourth needed once the plural-adjective board was refused. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_case_gym.json"
     },
     {
       "id": "c1_wrapup",

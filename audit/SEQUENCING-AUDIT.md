@@ -2,7 +2,7 @@
 
 **Spec:** `codex/SEQUENCING.md`  
 **Path source:** `data/tree.json`  
-**Nodes audited:** 227 · **errors:** 0 · **warns:** 7 · **missing_tags:** 0
+**Nodes audited:** 228 · **errors:** 0 · **warns:** 7 · **missing_tags:** 0
 
 ## Errors
 
@@ -249,4 +249,5 @@ _None._
 | 233 | `c1_comp_analytic` | `comp_analytic` | 2 | `adj_pl_virile`, `byc_adj`, `byc_present`, `comparative`, `negation`, `plural_nom`, `superlative`, `ten_ta_to`, `to_jest` |
 | 234 | `c1_register` | `register_switch` | 0 | `byc_present`, `can_inf`, `conditional_sg`, `existential_jest`, `miec_acc`, `miec_present`, `prep_place`, `present`, `present_e_esz`, `present_e_isz`, `present_uje`, `prosic_o`, `question`, `situation_chunk` |
 | 235 | `c1_which_case` | — | 0 | `adj_acc`, `adj_dat`, `adj_gen`, `adj_inst`, `adj_loc`, `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `adj_pl_loc`, `adj_pl_virile`, `byc_adj`, `byc_present`, `chodzic`, `comparative`, `dat_chunks`, `dat_pl`, `dative_pron`, `dative_sg`, `existential_jest`, `gen_endings`, `gen_pl`, `gen_pl_full`, `gen_verbs`, `inst_identity`, `inst_pl`, `inst_transport`, `inst_z`, `jechac`, `loc_pl`, `miec_acc`, `miec_present`, `motion_chunk`, `na_acc`, `neg_gen`, `negation`, `numbers_gen`, `o_loc`, `od_source`, `participle_pass`, `passive`, `plural_nom`, `poss_nom`, `prep_do_gen`, `prep_place`, `prep_w_loc`, `prep_z_gen`, `present_am`, `present_e_esz`, `present_e_isz`, `present_uje`, `pron_acc`, `pron_je`, `pron_prep`, `pron_prep_12`, `prosic_o`, `przez_acc`, `quantifiers`, `superlative`, `ten_ta_to`, `to_jest` |
+| 236 | `c1_case_gym` | — | 0 | `adj_pl_dat`, `adj_pl_gen`, `adj_pl_inst`, `byc_present`, `comparative`, `dat_pl`, `dative_pron`, `gen_pl_full`, `inst_pl`, `inst_z`, `miec_acc`, `miec_present`, `neg_gen`, `negation`, `o_loc`, `prep_do_gen`, `prep_w_loc`, `prep_z_gen`, `present`, `present_e_esz`, `present_e_isz`, `pron_acc`, `pron_je`, `pron_prep`, `pron_prep_12`, `superlative`, `virile_irreg` |
 
