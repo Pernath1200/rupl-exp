@@ -183,6 +183,7 @@ STRUCTURE_CATALOGUE = {
     "neg_polarity",
     "comp_analytic",
     "register_switch",
+    "vocative_note",
 }
 
 GLUE_LEMMAS = {

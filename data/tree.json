@@ -4711,18 +4711,19 @@
     {
       "id": "c1_vocative_note",
       "domain": "grammar",
-      "label": "Wołacz · przypis",
+      "label": "Wołacz · siódmy przypadek",
       "label_en": "The Vocative · a footnote",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "forms",
       "tree_part": "forms",
-      "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only.",
-      "pedagogy": "teach"
+      "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only. [WIRED LIVE] TITLE CORRECTED AT THE WIRE per b1_wrapup's standing instruction: the draft label read 'Wolacz - przypis' and przypis is an ordinary untaught noun, not case metalanguage; 'siodmy przypadek' replaces it - siodmy is TAUGHT <- a2_ordinals_time [90] and przypadek is the same case metalanguage AGENTS sanctions in titles ('Miec + biernik'), already learner-visible on the app's own Przypadki panel. RECOGNITION-ONLY PACK, the b1_virile_reco / b2_prefix_lens shape: intro + Dopasuj + Kontrola, with NO type_items and NO use_items in the file at all. That is the only shape that honours R5's 'nothing to produce' literally; the engine auto-passes an empty Pisanie stage (practice-grammar.js beginType), so the ladder shows a Pisanie step that completes itself - the same cosmetic quirk those two packs already live with. Structure vocative_note registered in SEQUENCING.md and audit.py before the audit ran; teaches_lemmas deliberately EMPTY, matching virile_reco and prefix_lens, which is also why this node does NOT add a teaches_empty_grammar warn. ZERO NEW LEMMAS - every Polish string on every surface pool-verified at path 237. NO ENDINGS TABLE: the six calling-forms are listed with English glosses only, never beside their plain forms, so no -o/-u rule can be read off the slide. THE RARITY CLAIM CARRIES NO POLISH EXAMPLE - illustrating it would mean printing a name-vocative, which R5 forbids, so slide 3 says it in English and shows nothing. HOMOGRAPH DISCIPLINE: mamy is NEVER offered as a distractor although b1_vocative_chunks used it - it is TAUGHT as the VERB 'we have' (a1_miec), spine O13's first row. Bare panie and bare Piotrze never appear; only the whole chunks Panie Piotrze! and Pani Anno!, with formal distractors built from pan/pani plus the glue names, because panie/pana/panu are all NEW and c1_register fenced them four nodes back. No fabricated non-words - distractors are real taught forms in the wrong case or real words in an illegal combination. NO CASE GOVERNOR ADDED and case-map.json is UNTOUCHED: the Vocative has no governor, and app.js renderCaseMap skips any case with no trigger rows, so a voc entry would be dead data. Logged as a fork in C1-DIGEST.md.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/c1_vocative_note.json"
     },
     {
       "id": "a1_which_case",
