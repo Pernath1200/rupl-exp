@@ -181,6 +181,7 @@ STRUCTURE_CATALOGUE = {
     "concessive",
     "cause_time",
     "neg_polarity",
+    "comp_analytic",
 }
 
 GLUE_LEMMAS = {

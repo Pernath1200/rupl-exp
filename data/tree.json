@@ -4617,12 +4617,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 9, unit 4. Inbox item 11: bardziej / najbardziej + adjective (both verified NEW) - deferred by a1_comparatives AND by a2_superlatives, twice over, and named in both packs' own notes. THE DECISION RULE (which adjectives take the ending, which take bardziej) IS TAUGHT AS A TENDENCY WITH A CLOSED LIST OF THE ONES HE OWNS, never as a productive test - the b2_gen_pl_full fleeting-e precedent: this learner gets no value from a rule he cannot trust.",
+      "note": "[C1 SPINE] Block 9, unit 4. Inbox item 11: bardziej / najbardziej + adjective (both verified NEW) - deferred by a1_comparatives AND by a2_superlatives, twice over, and named in both packs' own notes. THE DECISION RULE (which adjectives take the ending, which take bardziej) IS TAUGHT AS A TENDENCY WITH A CLOSED LIST OF THE ONES HE OWNS, never as a productive test - the b2_gen_pl_full fleeting-e precedent: this learner gets no value from a rule he cannot trust. [WIRED LIVE] Structure comp_analytic, registered in SEQUENCING.md and audit.py before the audit ran. TWO NEW STRINGS, ZERO NEW ENDINGS - bardziej and najbardziej are invariable and the adjective behind them goes on agreeing exactly as before, so the whole grammatical content is 'the word in front is new and nothing else moves'. THE TENDENCY IS TAUGHT OVER TWO CLOSED LISTS: the nine -szy comparatives owned since A1, which can NEVER take bardziej, against six owned adjectives that always do (zmeczony, zajety, chory, popularny, nowoczesny, skuteczny). Slide 4 states out loud that ordinary adjectives on NEITHER list take the ending (trudny -> trudniejszy) and that an unfamiliar adjective must be checked, not built - R2's verified-never-coined discipline. bardzo is the anchor AND the trap: TAUGHT since A2 in front of adjectives, so bardzo/bardziej/najbardziej is a three-step ladder on one root and the very/more confusion gets its own slide plus two Kontrola items. Agreement shown on zmeczony/zmeczona/zmeczone/zmeczeni and chory/chora - all five forms already taught, so it costs nothing. HOMOGRAPH HELD: zmeczone is taught as the NON-VIRILE PLURAL (c1_adj_pl_virile), never as a neuter singular, and appears only with Dzieci. List B's four other members are masculine-only throughout because their feminine forms are all NEW. mniej + adjective fenced under load-splitting. No fabricated non-words: every distractor is real taught Polish in an illegal combination. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_comp_analytic.json"
     },
     {
       "id": "c1_register",

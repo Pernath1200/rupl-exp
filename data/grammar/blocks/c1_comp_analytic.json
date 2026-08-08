@@ -1,0 +1,678 @@
+{
+  "id": "c1_comp_analytic",
+  "title": "Bardziej, najbardziej",
+  "title_en": "The other way to compare",
+  "level": "C1",
+  "tree_node": "c1_comp_analytic",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 9, unit 4. Inbox item 11, deferred TWICE by name: a1_comparatives ('bardziej-comparatives and od+Gen deferred to A2') and then a2_superlatives, which fenced 'najbardziej + adjective' explicitly and paid only the od+Gen half. TWO NEW STRINGS, ZERO NEW ENDINGS: bardziej and najbardziej are invariable words that stand in front of an adjective which goes on agreeing exactly as it always did. THE DECISION RULE IS TAUGHT AS A TENDENCY OVER TWO CLOSED LISTS, NEVER AS A PRODUCTIVE TEST - the spine locks this and the b2_gen_pl_full fleeting-e precedent governs: this learner gets no value from a rule he cannot trust. List A = the NINE -szy comparatives he has owned since A1 (lepszy, gorszy, wiekszy, mniejszy, starszy, mlodszy, drozszy, tanszy, nowszy), which can NEVER take bardziej. List B = SIX owned adjectives that always do (zmeczony, zajety, chory, popularny, nowoczesny, skuteczny). Slide 4 says out loud that between the two lists Polish has adjectives which take the ending and are not in either list (trudniejszy from trudny), and that an unfamiliar adjective is to be CHECKED, not built - the same verified-never-coined discipline R2 imposed on prefixes. ANCHOR AND TRAP IN ONE WORD: bardzo is TAUGHT <- a2_directions_func [69] and has stood in front of adjectives since A2 (bardzo smaczna, bardzo dobry, bardzo blisko). bardzo/bardziej/najbardziej is a three-step ladder on one root, and the very/more confusion is the error this unit exists to prevent - it gets its own slide, two Kontrola items and a Uzycie item. AGREEMENT IS THE ONE GRAMMATICAL FACT: bardziej never changes, the adjective still does. Shown on zmeczony/zmeczona/zmeczone/zmeczeni and chory/chora - EVERY ONE OF THOSE FIVE FORMS IS ALREADY TAUGHT, so the agreement point costs nothing. HOMOGRAPH HELD: zmeczone is TAUGHT <- c1_adj_pl_virile [190] as the NON-VIRILE PLURAL, not as a neuter singular, and it is used here only with Dzieci - its own taught job. zmeczeni likewise stays virile. FENCED, all verified NEW: zajeta, zajete, chore, popularna, popularne (so no agreement-error distractor is possible on List B's masculine-only members - those items use WORD-ORDER errors instead, popularny bardziej), nowoczesna, nowoczesne, skuteczna, skuteczne, zadowolony, znany, interesujacy, tamten - so List B's five non-zmeczony/chory members appear in the MASCULINE ONLY, everywhere, deliberately. mniej + adjective (less tired) is fenced although mniej is TAUGHT <- b1_adverb_comp [126]: it is a second construction and a second decision, and load-splitting says no. Comparison of ADVERBS is b1_adverb_comp's and is never touched. NO FABRICATED NON-WORDS ANYWHERE (spine O12): there is no *zmeczenszy in any distractor. Every wrong choice is real taught Polish in an illegal combination or with the wrong agreement - bardziej dobry, najbardziej duzy, bardzo zmeczona against a masculine subject. NO CASE GOVERNOR IS ADDED, so data/case-map.json is unchanged; niz + Nominative and od + Genitive both ride in unchanged from comparative [26] and superlative [92].",
+  "focus_structures": [
+    "comp_analytic",
+    "comparative",
+    "superlative"
+  ],
+  "teaches_structures": [
+    "comp_analytic"
+  ],
+  "teaches_lemmas": [
+    "bardziej",
+    "najbardziej"
+  ],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "ten_ta_to",
+    "comparative",
+    "superlative",
+    "plural_nom",
+    "adj_pl_virile",
+    "negation"
+  ],
+  "intro": [
+    {
+      "title": "Nine adjectives change shape. The rest take a word in front.",
+      "title_pl": "-szy · bardziej",
+      "body": "The comparative you own is built by changing the adjective itself: dobry becomes lepszy, duży becomes większy. That is nine adjectives, and it has been nine since A1.\n\nMost Polish adjectives do not work that way. They keep their own shape and Polish puts a separate word in front of them: bardziej. The adjective is untouched; only the word in front is new.\n\nThis is the second half of a system you have had for four levels. A1 gave you the ending; the other word was held back until there were enough adjectives to use it on.",
+      "body_pl": "stopień wyższy — dwie drogi",
+      "table": {
+        "headers": [
+          "Adjective",
+          "Comparative",
+          "How it is built"
+        ],
+        "rows": [
+          [
+            "dobry",
+            "lepszy",
+            "the word itself changes"
+          ],
+          [
+            "duży",
+            "większy",
+            "the word itself changes"
+          ],
+          [
+            "zmęczony",
+            "bardziej zmęczony",
+            "a word goes in front"
+          ],
+          [
+            "popularny",
+            "bardziej popularny",
+            "a word goes in front"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "bardzo, bardziej, najbardziej — one root, three steps",
+      "title_pl": "bardzo · bardziej · najbardziej",
+      "body": "You have said bardzo since A2 and it means very: bardzo dobry, bardzo smaczna, bardzo blisko.\n\nbardziej is the same root one step along, and it means more. najbardziej takes the naj- you already put on the nine — najlepszy, najstarszy — and puts it on bardziej instead, giving the most.\n\nThe three words look alike and mean three different things. Choosing bardzo where you want bardziej is the commonest mistake here, and it is worth reading the table slowly.",
+      "body_pl": "bardzo ≠ bardziej",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "Step"
+        ],
+        "rows": [
+          [
+            "Tata jest bardzo zmęczony.",
+            "Dad is very tired.",
+            "plain"
+          ],
+          [
+            "Tata jest bardziej zmęczony.",
+            "Dad is more tired.",
+            "comparative"
+          ],
+          [
+            "Tata jest najbardziej zmęczony.",
+            "Dad is the most tired.",
+            "superlative"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "This shop is very modern.",
+          "pl": "Ten sklep jest bardzo nowoczesny."
+        },
+        {
+          "en": "This shop is more modern.",
+          "pl": "Ten sklep jest bardziej nowoczesny."
+        }
+      ]
+    },
+    {
+      "title": "bardziej never changes. The adjective still agrees.",
+      "title_pl": "bardziej + przymiotnik",
+      "body": "bardziej and najbardziej are invariable — one shape, always, for every gender and every number.\n\nThe adjective behind them is untouched, which means it goes on agreeing exactly as it did before you met this construction. If you could say Mama jest zmęczona, you can say Mama jest bardziej zmęczona, and nothing else moves.\n\nThat is the whole grammar of the unit. Everything else on the remaining slides is about which adjectives take it.",
+      "body_pl": "bardziej — bez odmiany",
+      "table": {
+        "headers": [
+          "Subject",
+          "Polish",
+          "The adjective"
+        ],
+        "rows": [
+          [
+            "Tata",
+            "Tata jest bardziej zmęczony.",
+            "zmęczony"
+          ],
+          [
+            "Mama",
+            "Mama jest bardziej zmęczona.",
+            "zmęczona"
+          ],
+          [
+            "Dzieci",
+            "Dzieci są bardziej zmęczone.",
+            "zmęczone"
+          ],
+          [
+            "Rodzice",
+            "Rodzice są bardziej zmęczeni.",
+            "zmęczeni"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which adjectives take bardziej — two lists, and an honest gap between them",
+      "title_pl": "-szy czy bardziej?",
+      "body": "There is a tendency here, and it is worth knowing: adjectives built from verbs — the -ony and -ty shapes you know from participles, like zmęczony and zajęty — take bardziej, and so do several of the longer ones.\n\nBut a tendency is not a test, and this course will not hand you one you cannot trust. Polish has plenty of ordinary adjectives that take the ending and are on neither list — trudny gives trudniejszy, not bardziej trudny.\n\nSo: learn the two lists. The nine on the left can never take bardziej. The six on the right always do. For any other adjective, look the comparative up rather than building it — the same discipline the prefix unit asked for.",
+      "body_pl": "tendencja, nie reguła",
+      "table": {
+        "headers": [
+          "Never bardziej — the nine",
+          "Always bardziej — six you own",
+          "—"
+        ],
+        "rows": [
+          [
+            "dobry → lepszy",
+            "zmęczony → bardziej zmęczony",
+            "from a verb"
+          ],
+          [
+            "zły → gorszy",
+            "zajęty → bardziej zajęty",
+            "from a verb"
+          ],
+          [
+            "duży → większy · mały → mniejszy",
+            "chory → bardziej chory",
+            "no -szy form exists"
+          ],
+          [
+            "stary → starszy · młody → młodszy",
+            "popularny → bardziej popularny",
+            "long adjective"
+          ],
+          [
+            "drogi → droższy · tani → tańszy",
+            "nowoczesny → bardziej nowoczesny",
+            "long adjective"
+          ],
+          [
+            "nowy → nowszy",
+            "skuteczny → bardziej skuteczny",
+            "long adjective"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "najbardziej, and the naj- you already have",
+      "title_pl": "najbardziej · naj-",
+      "body": "The superlative rule does not change: put naj- on the comparative. It is just that here the comparative is a separate word, so naj- lands on bardziej and the adjective is left alone.\n\nThe two lists hold for the superlative exactly as they held for the comparative. najlepszy is right and najbardziej dobry is not Polish; najbardziej popularny is right and there is no naj- to put on popularny.\n\nniż and od work here unchanged, which is worth saying plainly: bardziej zmęczony niż mama, bardziej zmęczony od brata. Nothing about the comparison itself is new.",
+      "body_pl": "stopień najwyższy",
+      "table": {
+        "headers": [
+          "Plain",
+          "Comparative",
+          "Superlative"
+        ],
+        "rows": [
+          [
+            "dobry",
+            "lepszy",
+            "najlepszy"
+          ],
+          [
+            "stary",
+            "starszy",
+            "najstarszy"
+          ],
+          [
+            "popularny",
+            "bardziej popularny",
+            "najbardziej popularny"
+          ],
+          [
+            "zmęczony",
+            "bardziej zmęczony",
+            "najbardziej zmęczony"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "This film is the most popular.",
+          "pl": "Ten film jest najbardziej popularny."
+        },
+        {
+          "en": "Dad is more tired than my brother.",
+          "pl": "Tata jest bardziej zmęczony niż brat."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "more tired · about a man",
+      "pl": "bardziej zmęczony"
+    },
+    {
+      "en": "more tired · about a woman",
+      "pl": "bardziej zmęczona"
+    },
+    {
+      "en": "more tired · about the children",
+      "pl": "bardziej zmęczone"
+    },
+    {
+      "en": "more tired · about the parents",
+      "pl": "bardziej zmęczeni"
+    },
+    {
+      "en": "more ill · about a man",
+      "pl": "bardziej chory"
+    },
+    {
+      "en": "more ill · about a woman",
+      "pl": "bardziej chora"
+    },
+    {
+      "en": "busier · about a man",
+      "pl": "bardziej zajęty"
+    },
+    {
+      "en": "more popular",
+      "pl": "bardziej popularny"
+    },
+    {
+      "en": "more modern",
+      "pl": "bardziej nowoczesny"
+    },
+    {
+      "en": "more effective",
+      "pl": "bardziej skuteczny"
+    },
+    {
+      "en": "the most tired · about a man",
+      "pl": "najbardziej zmęczony"
+    },
+    {
+      "en": "the most popular",
+      "pl": "najbardziej popularny"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Dad is more tired →",
+      "choices": [
+        "Tata jest bardziej zmęczony.",
+        "Tata jest bardzo zmęczony.",
+        "Tata jest najbardziej zmęczony.",
+        "Tata jest bardziej zmęczona."
+      ],
+      "answer": "Tata jest bardziej zmęczony.",
+      "explain": "bardziej is more. bardzo would say very — the plain adjective with no comparison in it at all."
+    },
+    {
+      "prompt": "Dad is very tired →",
+      "choices": [
+        "Tata jest bardzo zmęczony.",
+        "Tata jest bardziej zmęczony.",
+        "Tata jest najbardziej zmęczony.",
+        "Tata jest bardzo zmęczona."
+      ],
+      "answer": "Tata jest bardzo zmęczony.",
+      "explain": "The word you have had since A2 is bardzo. This item and the one before it are one letter group apart and mean different things."
+    },
+    {
+      "prompt": "Dad is the most tired →",
+      "choices": [
+        "Tata jest najbardziej zmęczony.",
+        "Tata jest bardziej zmęczony.",
+        "Tata jest bardzo zmęczony.",
+        "Tata jest najbardziej zmęczona."
+      ],
+      "answer": "Tata jest najbardziej zmęczony.",
+      "explain": "naj- goes on bardziej, not on the adjective — the adjective is left exactly as it is."
+    },
+    {
+      "prompt": "Mum is more tired →",
+      "choices": [
+        "Mama jest bardziej zmęczona.",
+        "Mama jest bardziej zmęczony.",
+        "Mama jest bardzo zmęczona.",
+        "Mama jest najbardziej zmęczona."
+      ],
+      "answer": "Mama jest bardziej zmęczona.",
+      "explain": "bardziej never changes; the adjective still agrees, so a feminine subject takes zmęczona."
+    },
+    {
+      "prompt": "The children are more tired →",
+      "choices": [
+        "Dzieci są bardziej zmęczone.",
+        "Dzieci są bardziej zmęczeni.",
+        "Dzieci są bardzo zmęczone.",
+        "Dzieci są bardziej zmęczona."
+      ],
+      "answer": "Dzieci są bardziej zmęczone.",
+      "explain": "dzieci is not a men-group, so the adjective takes zmęczone — the plural form you met with this noun already. Only the word in front is new."
+    },
+    {
+      "prompt": "better · dobry is one of the nine →",
+      "choices": [
+        "lepszy",
+        "bardziej dobry",
+        "najbardziej dobry",
+        "bardzo dobry"
+      ],
+      "answer": "lepszy",
+      "explain": "dobry builds its comparative by changing the word. bardziej dobry is not Polish — the nine on the left-hand list never take it."
+    },
+    {
+      "prompt": "bigger · duży is one of the nine →",
+      "choices": [
+        "większy",
+        "bardziej duży",
+        "najbardziej duży",
+        "bardzo duży"
+      ],
+      "answer": "większy",
+      "explain": "Same list, same answer: the word itself changes. bardzo duży is real Polish but it means very big, not bigger."
+    },
+    {
+      "prompt": "the best →",
+      "choices": [
+        "najlepszy",
+        "najbardziej dobry",
+        "bardziej dobry",
+        "najbardziej lepszy"
+      ],
+      "answer": "najlepszy",
+      "explain": "naj- on the comparative, and dobry's comparative is lepszy. najbardziej lepszy stacks two comparatives on one adjective."
+    },
+    {
+      "prompt": "more popular · popularny is on the other list →",
+      "choices": [
+        "bardziej popularny",
+        "bardzo popularny",
+        "najbardziej popularny",
+        "popularny bardziej"
+      ],
+      "answer": "bardziej popularny",
+      "explain": "popularny has no -szy form to reach for, so the comparative is built with the word in front."
+    },
+    {
+      "prompt": "This film is the most popular →",
+      "choices": [
+        "Ten film jest najbardziej popularny.",
+        "Ten film jest bardziej popularny.",
+        "Ten film jest bardzo popularny.",
+        "Ten film jest popularny najbardziej."
+      ],
+      "answer": "Ten film jest najbardziej popularny.",
+      "explain": "film is masculine, so popularny — and the superlative is carried entirely by najbardziej."
+    },
+    {
+      "prompt": "Mum is more ill →",
+      "choices": [
+        "Mama jest bardziej chora.",
+        "Mama jest bardziej chory.",
+        "Mama jest bardzo chora.",
+        "Mama jest najbardziej chora."
+      ],
+      "answer": "Mama jest bardziej chora.",
+      "explain": "chory is on the bardziej list because it has no comparative ending of its own, and the adjective still agrees: chora."
+    },
+    {
+      "prompt": "This shop is more modern →",
+      "choices": [
+        "Ten sklep jest bardziej nowoczesny.",
+        "Ten sklep jest bardzo nowoczesny.",
+        "Ten sklep jest najbardziej nowoczesny.",
+        "Ten sklep jest bardziej nowszy."
+      ],
+      "answer": "Ten sklep jest bardziej nowoczesny.",
+      "explain": "nowszy is already a comparative — nowy's — so bardziej nowszy would mark it twice. nowoczesny is a different word and takes bardziej."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "more — the word that stands in front of an adjective",
+      "answer": "bardziej",
+      "accepts": [
+        "bardziej"
+      ]
+    },
+    {
+      "prompt_en": "the most — the same word with naj- on the front",
+      "answer": "najbardziej",
+      "accepts": [
+        "najbardziej"
+      ]
+    },
+    {
+      "prompt_en": "more tired — about a man",
+      "answer": "bardziej zmęczony",
+      "accepts": [
+        "bardziej zmęczony"
+      ]
+    },
+    {
+      "prompt_en": "more tired — about a woman",
+      "answer": "bardziej zmęczona",
+      "accepts": [
+        "bardziej zmęczona"
+      ]
+    },
+    {
+      "prompt_en": "more tired — about the children",
+      "answer": "bardziej zmęczone",
+      "accepts": [
+        "bardziej zmęczone"
+      ]
+    },
+    {
+      "prompt_en": "more tired — about the parents",
+      "answer": "bardziej zmęczeni",
+      "accepts": [
+        "bardziej zmęczeni"
+      ]
+    },
+    {
+      "prompt_en": "more ill — about a woman",
+      "answer": "bardziej chora",
+      "accepts": [
+        "bardziej chora"
+      ]
+    },
+    {
+      "prompt_en": "busier — about a man",
+      "answer": "bardziej zajęty",
+      "accepts": [
+        "bardziej zajęty"
+      ]
+    },
+    {
+      "prompt_en": "more popular",
+      "answer": "bardziej popularny",
+      "accepts": [
+        "bardziej popularny"
+      ]
+    },
+    {
+      "prompt_en": "more modern",
+      "answer": "bardziej nowoczesny",
+      "accepts": [
+        "bardziej nowoczesny"
+      ]
+    },
+    {
+      "prompt_en": "more effective",
+      "answer": "bardziej skuteczny",
+      "accepts": [
+        "bardziej skuteczny"
+      ]
+    },
+    {
+      "prompt_en": "the most tired — about a man",
+      "answer": "najbardziej zmęczony",
+      "accepts": [
+        "najbardziej zmęczony"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Dad is more tired than Mum.",
+      "answer": "Tata jest bardziej zmęczony niż mama.",
+      "accepts": [
+        "Tata jest bardziej zmęczony niż mama.",
+        "Tata jest bardziej zmęczony niż mama"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is more tired than Dad.",
+      "answer": "Mama jest bardziej zmęczona niż tata.",
+      "accepts": [
+        "Mama jest bardziej zmęczona niż tata.",
+        "Mama jest bardziej zmęczona niż tata"
+      ]
+    },
+    {
+      "prompt_en": "Type: Dad is more tired than my brother. — with od instead of niż",
+      "answer": "Tata jest bardziej zmęczony od brata.",
+      "accepts": [
+        "Tata jest bardziej zmęczony od brata.",
+        "Tata jest bardziej zmęczony od brata"
+      ]
+    },
+    {
+      "prompt_en": "Type: The children are more tired than Mum.",
+      "answer": "Dzieci są bardziej zmęczone niż mama.",
+      "accepts": [
+        "Dzieci są bardziej zmęczone niż mama.",
+        "Dzieci są bardziej zmęczone niż mama"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is busier than my sister.",
+      "answer": "Brat jest bardziej zajęty niż siostra.",
+      "accepts": [
+        "Brat jest bardziej zajęty niż siostra.",
+        "Brat jest bardziej zajęty niż siostra"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is more ill than Dad.",
+      "answer": "Mama jest bardziej chora niż tata.",
+      "accepts": [
+        "Mama jest bardziej chora niż tata.",
+        "Mama jest bardziej chora niż tata"
+      ]
+    },
+    {
+      "prompt_en": "Type: This film is more popular than this book.",
+      "answer": "Ten film jest bardziej popularny niż ta książka.",
+      "accepts": [
+        "Ten film jest bardziej popularny niż ta książka.",
+        "Ten film jest bardziej popularny niż ta książka"
+      ]
+    },
+    {
+      "prompt_en": "Type: This shop is more modern than the chemist's.",
+      "answer": "Ten sklep jest bardziej nowoczesny niż apteka.",
+      "accepts": [
+        "Ten sklep jest bardziej nowoczesny niż apteka.",
+        "Ten sklep jest bardziej nowoczesny niż apteka"
+      ]
+    },
+    {
+      "prompt_en": "Type: This film is the most popular.",
+      "answer": "Ten film jest najbardziej popularny.",
+      "accepts": [
+        "Ten film jest najbardziej popularny.",
+        "Ten film jest najbardziej popularny"
+      ]
+    },
+    {
+      "prompt_en": "Type: This computer is very modern. — very, not more",
+      "answer": "Ten komputer jest bardzo nowoczesny.",
+      "accepts": [
+        "Ten komputer jest bardzo nowoczesny.",
+        "Ten komputer jest bardzo nowoczesny"
+      ]
+    },
+    {
+      "prompt_en": "Type: Coffee is better than tea. — dobry is one of the nine",
+      "answer": "Kawa jest lepsza niż herbata.",
+      "accepts": [
+        "Kawa jest lepsza niż herbata.",
+        "Kawa jest lepsza niż herbata"
+      ]
+    },
+    {
+      "prompt_en": "Type: This car is more expensive than a bike. — drogi is one of the nine",
+      "answer": "Ten samochód jest droższy niż rower.",
+      "accepts": [
+        "Ten samochód jest droższy niż rower.",
+        "Ten samochód jest droższy niż rower"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "bardzo",
+    "niż",
+    "od",
+    "od brata",
+    "dobry",
+    "dobra",
+    "zły",
+    "duży",
+    "mały",
+    "stary",
+    "młody",
+    "drogi",
+    "tani",
+    "nowy",
+    "lepszy",
+    "lepsza",
+    "gorszy",
+    "większy",
+    "mniejszy",
+    "starszy",
+    "młodszy",
+    "droższy",
+    "tańszy",
+    "nowszy",
+    "najlepszy",
+    "najstarszy",
+    "zmęczony",
+    "zmęczona",
+    "zmęczone",
+    "zmęczeni",
+    "chory",
+    "chora",
+    "zajęty",
+    "popularny",
+    "nowoczesny",
+    "skuteczny",
+    "trudny",
+    "smaczna",
+    "blisko",
+    "film",
+    "książka",
+    "sklep",
+    "apteka",
+    "samochód",
+    "rower",
+    "komputer",
+    "kawa",
+    "herbata",
+    "dzieci",
+    "rodzice",
+    "tata",
+    "mama",
+    "brat",
+    "siostra",
+    "ten",
+    "ta",
+    "jest",
+    "są"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_comp_analytic",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
