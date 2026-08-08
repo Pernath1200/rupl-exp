@@ -12,14 +12,15 @@ audit's guarantee survives this work by construction rather than by care. A word
 that cannot be taught without a new structure is skipped and logged, never
 accommodated.
 
-Running scope: **883 rows at start · 858 remaining** (88 A1 · 325 A2 · 445 B1).
+Running scope: **883 rows at start · 846 remaining** (88 A1 · 313 A2 · 445 B1).
 
 ---
 
 ## 2026-08-08 · batch 1 — cloud routine
 
-Built **2 packs**, `a2_jobs2` and `a2_places2` (25 gap rows consumed: 24
-authored, 1 dropped as already taught). Audit 0 errors after each, 7 warns —
+Built **3 packs**, `a2_jobs2`, `a2_places2` and `a2_food3` (37 gap rows
+consumed: 36 authored, 1 dropped as already taught). Audit 0 errors after each,
+7 warns —
 all seven pre-existing and none of them these packs' (`teaches_empty_grammar` on
 the five which-case units, which carry empty teaches by design, plus the two
 long-standing review nodes `a2_prep_review` and `b1_two_futures`).
@@ -167,6 +168,60 @@ a real Polish word and a real Oxford A2 row, but it is transparent to an English
 speaker and teaches almost nothing. If transparent loanwords should simply be
 struck from the gap list rather than authored, say so and the rule will apply
 from batch 2 (there are perhaps a dozen more of them in the A2 remainder).
+
+### `a2_food3` — „Jedzenie 3" / Food & cooking 3 · path index 103
+
+**Grouping rationale.** Twelve Oxford-A2 food and kitchen nouns — fasola,
+wołowina, ciastko, miska, cytryna, orzech, sos, przepis, piekarnik, kuchenka,
+olej, frytki. The three packs of this batch were deliberately built on three
+*different* already-taught frames so the batch does not drill one slot to death:
+`a2_jobs2` rides `inst_identity`, `a2_places2` rides the locative, and this one
+rides the **accusative**. `miec_acc` has been live since A1 and `a1_shopping` /
+`a1_freetime` already demand kawę, herbatę, zupę, muzykę, grę, so nothing here
+is new machinery. a1_food and a2_food2 own the whole staple list (chleb, mleko,
+ser, ryż, mięso, jajko, masło, cukier, talerz, widelec, nóż, łyżka…) — anchors,
+never re-taught.
+
+**Placement.** Path index 103, after `a2_places2`, still before `a2_station_4`.
+
+**Nothing was skipped for needing a structure**, and `check_new.py` found all
+sixteen forms (twelve nouns plus four accusatives) genuinely new.
+
+**Judgment calls.**
+
+1. **Block 2 mixes what changes with what does not, on purpose.** Four feminine
+   accusatives (fasolę, wołowinę, cytrynę, miskę) sit beside a masculine
+   inanimate and a plural that are identical to their citation forms (*Kupuję
+   olej*, *Lubię frytki*). Both halves are behaviour the learner already has;
+   putting them on one board makes the -ę ending informative rather than
+   something to apply everywhere.
+2. **Three adjectives were wanted and refused by the pool** — `żółta` for
+   cytryna (only `żółty` is taught), `słodkie` for ciastko (only `słodka` /
+   `słodki`), `gorące` for frytki (only `gorąca` / `gorący` / `gorąco`). Each is
+   a gender form of an adjective whose citation form *is* taught: **the same
+   trap as `stare` in `a2_places2`, three more times in one pack.** The
+   sentences were rewritten around taught forms. Two packs in a row have hit
+   this, so it is now the single most likely way a vocab pack leaks — flagged
+   here as the thing to check first in batch 2.
+3. **`przepis` is glossed "recipe (for cooking)"** and carries an explain that
+   names `recepta` (*prescription*, `a2_health2`) and tells the learner they are
+   two different words. An English speaker will otherwise map "recipe" onto
+   recepta on sight.
+4. **`orzech` gets one sentence, not two.** Every natural second frame needed a
+   plural (`orzechy`) or a locative (`w torcie`, `w misce`) that is taught
+   nowhere. Padding the pack would have cost an untaught form; a word with one
+   good sentence is the better trade.
+5. **`fasola` is singular in Polish** where English says *beans are* — given its
+   own explain, since the mismatch is invisible otherwise. `frytki` is the
+   mirror image, plural-only like `meble` and `schody`, and its explain points
+   back at both.
+6. **`Mamy nowy piekarnik.` uses `mamy` as the verb**, which is how `a1_miec`
+   teaches it. AGENTS.md's homograph example is `mamy` read as the genitive of
+   `mama` — that is the reading this pack does *not* use, and no sentence here
+   goes near it.
+
+**Verification beyond the auditor.** Same token-level check. Zero findings on
+the shipped file.
 
 ---
 

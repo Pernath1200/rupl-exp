@@ -121,21 +121,17 @@ a2	background	noun
 a2	badly	adverb
 a2	baseball	noun
 a2	basketball	noun
-a2	bean	noun
 a2	beat	noun/verb
-a2	beef	noun
 a2	behaviour	noun
 a2	belt	noun
 a2	billion	number
 a2	bin	noun
 a2	biology	noun
 a2	birth	noun
-a2	biscuit	noun
 a2	blow	noun/verb
 a2	boil	verb
 a2	bone	noun
 a2	bottom	adjective/noun
-a2	bowl	noun
 a2	brain	noun
 a2	bright	adjective
 a2	brilliant	adjective
@@ -149,7 +145,6 @@ a2	certain	adjective
 a2	charity	noun
 a2	chat	noun/verb
 a2	chemistry	noun
-a2	chip	noun
 a2	cigarette	noun
 a2	circle	noun/verb
 a2	classical	adjective
@@ -167,7 +162,6 @@ a2	connect	verb
 a2	consider	verb
 a2	continent	noun
 a2	continue	verb
-a2	cooker	noun
 a2	couple	noun
 a2	crazy	adjective
 a2	creative	adjective
@@ -268,7 +262,6 @@ a2	laughter	noun
 a2	lazy	adjective
 a2	lead	noun/verb
 a2	leader	noun
-a2	lemon	noun
 a2	lifestyle	noun
 a2	lift	noun/verb
 a2	lorry	noun
@@ -288,14 +281,11 @@ a2	musical	adjective/noun
 a2	national	adjective/noun
 a2	network	noun
 a2	novel	adjective/noun
-a2	nut	noun
 a2	ocean	noun
 a2	officer	noun
-a2	oil	noun
 a2	opportunity	noun
 a2	organization	noun
 a2	organize	verb
-a2	oven	noun
 a2	pants	noun
 a2	passenger	noun
 a2	peace	noun
@@ -330,7 +320,6 @@ a2	raise	verb
 a2	rate	noun/verb
 a2	realize	verb
 a2	receive	verb
-a2	recipe	noun
 a2	reduce	verb
 a2	refer	verb
 a2	region	noun
@@ -347,7 +336,6 @@ a2	runner	noun
 a2	sadly	adverb
 a2	sail	noun/verb
 a2	sailing	noun
-a2	sauce	noun
 a2	scared	adjective
 a2	scary	adjective
 a2	schedule	noun/verb

@@ -120,6 +120,7 @@
     "a2_wrapup_func",
     "a2_jobs2",
     "a2_places2",
+    "a2_food3",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2469,6 +2470,24 @@
       "parent": "trunk",
       "tree_part": "travel_city",
       "content": "vocab/blocks/a2_places2.json"
+    },
+    {
+      "id": "a2_food3",
+      "domain": "vocab",
+      "label": "Jedzenie 3",
+      "label_en": "Food & cooking 3",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve food/kitchen nouns riding miec_acc, live since A1 - teaches_structures is [] by construction. Block 2 mixes the feminines that take -e (fasole, wolowine, cytryne, miske) with a masculine inanimate and a plural that do not (olej, frytki); the contrast is the point. Three wanted adjectives were refused by the pool and the sentences rewritten: zolta, slodkie and gorace are all untaught gender forms of taught adjectives. przepis glossed 'recipe (for cooking)' to fence it off from recepta ('prescription', a2_health2).",
+      "unit_id": "PL2_55",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "food_shopping",
+      "content": "vocab/blocks/a2_food3.json"
     },
     {
       "id": "a2_station_4",
