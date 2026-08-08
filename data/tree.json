@@ -4668,12 +4668,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 10, unit 2. THE COURSE CAPSTONE. Genre of a2_wrapup_func / b1_wrapup / b2_wrapup, ZERO NEW. Recombines the registers C1 added - evaluation, society, nuance, register-switching - into mixed scenes. FOUR REGISTERS, NO FIFTH, holding b1_wrapup's deliberate limit for the fourth time. TITLE: 'Koniec drogi' was rejected - drogi is TAUGHT as the ADJECTIVE 'expensive' (leaf_shopping_a1), b2_gen_pl_full's sharpest homograph catch. THE RUN THAT WIRES THIS LIVE writes codex/COURSE-COMPLETE.md, provided the repair queue is fully ticked.",
+      "note": "[C1 SPINE] Block 10, unit 2. THE COURSE CAPSTONE. Genre of a2_wrapup_func / b1_wrapup / b2_wrapup, ZERO NEW. Recombines the registers C1 added - evaluation, society, nuance, register-switching - into mixed scenes. FOUR REGISTERS, NO FIFTH, holding b1_wrapup's deliberate limit for the fourth time. TITLE: 'Koniec drogi' was rejected - drogi is TAUGHT as the ADJECTIVE 'expensive' (leaf_shopping_a1), b2_gen_pl_full's sharpest homograph catch. THE RUN THAT WIRES THIS LIVE writes codex/COURSE-COMPLETE.md, provided the repair queue is fully ticked. [WIRED LIVE 2026-08-08] GRAMMAR IS NOW COMPLETE: A1 through C1, 230 live nodes on a 240-slot path_order, every non-station node built; the only ten remaining are the permanent station placeholders (plus a2_past_gym, retired off-path). COURSE-COMPLETE.md WAS DELIBERATELY NOT WRITTEN THIS RUN, and this is not an oversight - James's routine brief of 2026-08-08 SUPERSEDES the instruction above: once grammar finishes, the routine pivots to VOCABULARY AUTHORING from codex/vocab/oxford-b1-gap.tsv (883 rows, A2 first then B1), and COURSE-COMPLETE.md is written only when the gap list is empty as well. See codex/VOCAB-REORIENTATION-2026-08-07.md and the C1-DIGEST batch 19 entry. Structure situation_chunk re-declared, matching all three earlier capstones; no new structure ID, teaches_lemmas empty, ZERO NEW LEMMAS verified by check_new.py at path 238. Titles re-verified at the wire per b1_wrapup's standing instruction: wszystko, co and znam all TAUGHT. Pisanie: two typed whole, ten clozes, every cloze verified by assertion to reconstruct its sentence; NOTHING ADDED TO THE REPAIR QUEUE. One logged fallback (Spoleczenstwo ma ___ blanks problem, not the register noun). prawo produced with its homograph named in the explain - na prawo since A1, law/right since c1_society. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/c1_wrapup.json"
     },
     {
       "id": "c1_station_2",
