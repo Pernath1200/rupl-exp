@@ -106,7 +106,6 @@ a2	allow	verb
 a2	ancient	adjective
 a2	ankle	noun
 a2	any more	adverb
-a2	architecture	noun
 a2	argue	verb
 a2	army	noun
 a2	asleep	adjective
@@ -125,7 +124,6 @@ a2	behaviour	noun
 a2	belt	noun
 a2	billion	number
 a2	bin	noun
-a2	biology	noun
 a2	birth	noun
 a2	blow	noun/verb
 a2	boil	verb
@@ -143,7 +141,6 @@ a2	celebrity	noun
 a2	certain	adjective
 a2	charity	noun
 a2	chat	noun/verb
-a2	chemistry	noun
 a2	cigarette	noun
 a2	circle	noun/verb
 a2	classical	adjective
@@ -175,16 +172,13 @@ a2	designer	noun
 a2	destroy	verb
 a2	detective	noun
 a2	develop	verb
-a2	diary	noun
 a2	digital	adjective
 a2	disappear	verb
 a2	disaster	noun
-a2	discovery	noun
 a2	disease	noun
 a2	divorced	adjective
 a2	download	noun/verb
 a2	drama	noun
-a2	drawing	noun
 a2	dream	noun/verb
 a2	drug	noun
 a2	electric	adjective
@@ -196,7 +190,6 @@ a2	enormous	adjective
 a2	enter	verb
 a2	equipment	noun
 a2	especially	adverb
-a2	essay	noun
 a2	excellent	adjective
 a2	experiment	noun/verb
 a2	expert	adjective/noun
@@ -234,9 +227,7 @@ a2	instructor	noun
 a2	instrument	noun
 a2	intelligent	adjective
 a2	international	adjective
-a2	introduction	noun
 a2	invent	verb
-a2	invention	noun
 a2	involve	verb
 a2	jazz	noun
 a2	jewellery	noun
@@ -255,8 +246,6 @@ a2	lorry	noun
 a2	major	adjective
 a2	manage	verb
 a2	marry	verb
-a2	mathematics	noun
-a2	maths	noun
 a2	media	noun
 a2	medical	adjective
 a2	metal	noun
@@ -279,7 +268,6 @@ a2	per cent	adjective/adverb/noun
 a2	perform	verb
 a2	personality	noun
 a2	petrol	noun
-a2	physics	noun
 a2	pleased	adjective
 a2	pollution	noun
 a2	pop	adjective/noun/verb
@@ -349,7 +337,6 @@ a2	succeed	verb
 a2	successful	adjective
 a2	suggestion	noun
 a2	suppose	verb
-a2	survey	noun/verb
 a2	symbol	noun
 a2	tablet	noun
 a2	teenage	adjective

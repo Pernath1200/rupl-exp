@@ -123,6 +123,7 @@
     "a2_food3",
     "a2_people3",
     "a2_world",
+    "a2_subjects",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2526,6 +2527,24 @@
       "parent": "trunk",
       "tree_part": "nature",
       "content": "vocab/blocks/a2_world.json"
+    },
+    {
+      "id": "a2_subjects",
+      "domain": "vocab",
+      "label": "W szkole 2",
+      "label_en": "School subjects & study",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 2. Twelve school/study nouns riding miec_acc and the -uje / -isz presents - teaches_structures is [] by construction. Thirteen gap rows, because Oxford lists mathematics and maths separately. ID is a2_subjects, NOT a2_school2: that id is a live pack at path 80 and the collision was caught by checking tree.json rather than assumed. Built on VERBS, not adjectives: the pool has no trudny, latwy, wazny or interesujacy in any gender and only masculine ciekawy, which is no use to six feminine nouns, so the pack says what you DO with a subject. Second block is an accusative board, the same shape as a2_food3 one batch earlier - deliberate, and it adds the -ia -> -ie pair (chemia -> chemie, biologia -> biologie) that food3 had no example of. wiedza ('knowledge') was drafted and cut: abstract, and nothing true could be said about it without an untaught adjective; its row stays in the gap file. Two explains were rewritten after a pool check - the first drafts cited odkryc and pamietac, neither of which is taught. No icons: every candidate reads as szkola or ksiazka, both taught.",
+      "unit_id": "PL2_58",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "knowledge",
+      "content": "vocab/blocks/a2_subjects.json"
     },
     {
       "id": "a2_station_4",
