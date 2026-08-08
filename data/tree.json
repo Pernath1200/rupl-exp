@@ -4634,12 +4634,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 9, unit 5 (spine O7, inbox item 22). SITUATIONS GENRE, near-zero new lemmas: the same errand said both ways with material already owned - Czesc / Dzien dobry, Chce / Chcialbym, Mozesz...? / Czy moglby pan...?, ty / pan. The one honest fact: Polish forces the choice earlier and more visibly than English does. The written/spoken split as a SYSTEM is refused (spine O12) - it is a lifetime's material, not a unit.",
+      "note": "[C1 SPINE] Block 9, unit 5 (spine O7, inbox item 22). SITUATIONS GENRE, near-zero new lemmas: the same errand said both ways with material already owned - Czesc / Dzien dobry, Chce / Chcialbym, Mozesz...? / Czy moglby pan...?, ty / pan. The one honest fact: Polish forces the choice earlier and more visibly than English does. The written/spoken split as a SYSTEM is refused (spine O12) - it is a lifetime's material, not a unit. [WIRED LIVE] Structure register_switch, registered in SEQUENCING.md and audit.py before the audit ran. ZERO NEW LEMMAS - every word on every surface verified owned by check_new.py. What is taught is a DECISION, which is why it carries a structure ID and an empty teaches_lemmas. THE ONE HONEST FACT: formal Polish is not a different word for 'you', it is a different PERSON of the verb - Masz czas? is second person, Czy ma pan czas? is THIRD, with pan standing where a name would. Nothing in the course had said this: b1_polite shipped Czy moglby pan mi pomoc? frozen and a2_ordering_func shipped Co pan poleca? opaque, both unanalysed on purpose. The pattern opens on verbs conjugated since A1 (ma, mieszka, robi, pracuje), so it costs no new forms and turns two frozen chunks into a system. chcialbym is re-read as a register move on chce rather than re-taught. MOGLBY QUARANTINE HELD: both polite frames recycled WHOLE, nothing derived, and the one Pisanie item on that frame blanks pomoc not moglby. THE VOCATIVE IS NOWHERE - no Prosze pana, no address forms; c1_vocative_note is four nodes later and R5 gives it the first mention. Fenced and verified NEW: pana, panu, dobranoc, dzieki, witam, pozdrawiam, panstwo, and the whole written register (O12's permanent refusal - only the spoken half is taken). Synonym rule applied to every greeting item. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/c1_register.json"
     },
     {
       "id": "c1_case_gym",

@@ -182,6 +182,7 @@ STRUCTURE_CATALOGUE = {
     "cause_time",
     "neg_polarity",
     "comp_analytic",
+    "register_switch",
 }
 
 GLUE_LEMMAS = {

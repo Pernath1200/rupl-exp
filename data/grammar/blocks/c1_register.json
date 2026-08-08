@@ -1,0 +1,672 @@
+{
+  "id": "c1_register",
+  "title": "Cześć czy dzień dobry?",
+  "title_en": "Formal and casual, side by side",
+  "level": "C1",
+  "tree_node": "c1_register",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 9, unit 5 (spine O7, B2-SPINE inbox item 22). SITUATIONS GENRE, ZERO NEW LEMMAS - every word on every screen is already owned, and check_new.py was run over all of them. What is new is a DECISION, and it is registered as the structure register_switch: English says you to everyone, Polish makes you choose before you reach the verb. THE ONE HONEST FACT, and the reason the unit is worth a slot: FORMAL POLISH IS NOT A DIFFERENT WORD FOR you - IT IS A DIFFERENT PERSON OF THE VERB. Masz czas? is second person; Czy ma pan czas? is THIRD person with pan standing where a name would. Nothing in the course had said this: b1_polite shipped Czy moglby pan mi pomoc? as a frozen chunk and a2_ordering_func shipped Co pan poleca? as an opaque one, both deliberately unanalysed. This unit opens the pattern on verbs the learner has conjugated since A1 (ma, mieszka, robi, pracuje), so it costs zero new forms and turns two frozen chunks into a system - the dziekuje / ktorej / nowego chunk-to-slot treatment, fourth register. THE CONDITIONAL IS RE-READ, NOT RE-TAUGHT: b1_conditional_sg's chcialbym was glossed as politeness and is named here as what it actually is, a register move on chce with the same meaning. MOGLBY QUARANTINE HELD, and deliberately: Czy moglby pan mi pomoc? and Czy moglaby pani mi pomoc? are recycled WHOLE from b1_polite, no conditional of moc is derived, no new person is shown, and the one Pisanie item touching that frame blanks pomoc rather than moglby - the same conservative fork b1_vocative_chunks took. THE VOCATIVE IS NOWHERE: no Prosze pana / Prosze pani (pana is NEW anyway), no address forms, no seventh case - c1_vocative_note is four nodes later and R5 gives it the first mention. FENCED, all verified NEW: pana, panu, dobranoc, dzieki, witam, pozdrawiam, panstwo, and the whole written register - the written/spoken split as a SYSTEM is spine O12's permanent refusal and this unit takes only the spoken half. SYNONYM RULE (C1 batch 17) APPLIED: no Kontrola item offers Czesc beside Dzien dobry in a situation where both would pass. Every greeting item names a situation where the other choice is genuinely marked, and the two items where it is a matter of degree rather than of grammar say so in their explain string rather than pretending otherwise. DISTRACTORS are person-mixing (Czy masz pan czas?), gender errors (pani to a man) and register errors - all real taught Polish in the wrong slot, no fabricated non-words. NO CASE GOVERNOR ADDED; data/case-map.json unchanged.",
+  "focus_structures": [
+    "register_switch",
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "register_switch"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "byc_present",
+    "question",
+    "miec_present",
+    "miec_acc",
+    "present",
+    "present_e_isz",
+    "present_e_esz",
+    "present_uje",
+    "can_inf",
+    "conditional_sg",
+    "prosic_o",
+    "situation_chunk",
+    "existential_jest",
+    "prep_place"
+  ],
+  "intro": [
+    {
+      "title": "English says you to everybody. Polish makes you choose first.",
+      "title_pl": "ty · pan · pani",
+      "body": "There is no neutral you in Polish. Before you reach the verb you have already decided how you are addressing the person, and the decision shows in every sentence you say to them.\n\nCasual is ty — the second-person verb you have used since A1, with the pronoun itself almost always left out.\n\nFormal is pan to a man and pani to a woman. English has nothing corresponding; the nearest thing is the difference between calling somebody by their first name and calling them sir.\n\nThis unit teaches no new words. Every form on every slide is one you already own. What is new is knowing which of the two sets to reach for.",
+      "body_pl": "ty albo pan",
+      "table": {
+        "headers": [
+          "Casual",
+          "Formal",
+          "When"
+        ],
+        "rows": [
+          [
+            "Cześć.",
+            "Dzień dobry.",
+            "arriving"
+          ],
+          [
+            "Na razie.",
+            "Do widzenia.",
+            "leaving"
+          ],
+          [
+            "Masz czas?",
+            "Czy ma pan czas?",
+            "asking"
+          ],
+          [
+            "Chcę kawę.",
+            "Poproszę o kawę.",
+            "ordering"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Formal Polish is not a different word for you. It is a different person of the verb.",
+      "title_pl": "pan + trzecia osoba",
+      "body": "This is the fact the course has been holding back, and it is the whole unit.\n\nWhen you address somebody as pan or pani, the verb goes into the THIRD person — the same form you use for he and she. pan is standing where a name would stand. Czy ma pan czas? is, word for word, does the gentleman have time.\n\nSo you need no new verb forms at all. You have had ma, mieszka, robi and pracuje since A1 as third-person forms; formal address simply puts them to a different use.\n\nTwo sentences you have known as frozen pieces turn out to be built this way: Czy mógłby pan mi pomóc? and Co pan poleca?",
+      "body_pl": "trzecia osoba — nie druga",
+      "table": {
+        "headers": [
+          "To a friend — 2nd person",
+          "To a man — 3rd person",
+          "To a woman — 3rd person"
+        ],
+        "rows": [
+          [
+            "Masz czas?",
+            "Czy ma pan czas?",
+            "Czy ma pani czas?"
+          ],
+          [
+            "Gdzie mieszkasz?",
+            "Gdzie pan mieszka?",
+            "Gdzie pani mieszka?"
+          ],
+          [
+            "Co robisz?",
+            "Co pan robi?",
+            "Co pani robi?"
+          ],
+          [
+            "Gdzie pracujesz?",
+            "Gdzie pan pracuje?",
+            "Gdzie pani pracuje?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same errand, said both ways",
+      "title_pl": "Cześć · Dzień dobry",
+      "body": "Nothing here is new. It is the material you already have, sorted by which of the two sets it belongs to.\n\nRead down the formal column: it is the language of a counter, a surgery, an office — which is where you will hear it, and where it will be said to you.\n\nRead down the casual column: family, friends, children, anyone who has invited you to.",
+      "body_pl": "w sklepie · w domu",
+      "table": {
+        "headers": [
+          "Errand",
+          "Casual",
+          "Formal"
+        ],
+        "rows": [
+          [
+            "greeting",
+            "Cześć.",
+            "Dzień dobry."
+          ],
+          [
+            "asking for help",
+            "Możesz mi pomóc?",
+            "Czy mógłby pan mi pomóc?"
+          ],
+          [
+            "asking a woman for help",
+            "Możesz mi pomóc?",
+            "Czy mogłaby pani mi pomóc?"
+          ],
+          [
+            "ordering",
+            "Chcę kawę.",
+            "Poproszę o kawę."
+          ],
+          [
+            "leaving",
+            "Na razie.",
+            "Do widzenia."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "chcę and chciałbym are the same wish at two levels",
+      "title_pl": "chcę · chciałbym",
+      "body": "You met chciałbym at B1 and it was called polite. That was true but incomplete. It is a register move, not a softer meaning — the wish is identical and only the level changes.\n\nThe same is true of możesz against czy mógłby pan. Polish reaches for the conditional where English reaches for could rather than can, and it does it much more readily.\n\nOne consequence worth having: Chcę kawę at a counter is not rude in the way it would be in English, but it does mark you as either very familiar or a foreigner. Poproszę o kawę is what is actually said.",
+      "body_pl": "tryb przypuszczający",
+      "table": {
+        "headers": [
+          "Plain",
+          "Raised",
+          "Same meaning?"
+        ],
+        "rows": [
+          [
+            "Chcę kawę.",
+            "Chciałbym kawę.",
+            "yes"
+          ],
+          [
+            "Chcę herbatę.",
+            "Chciałabym herbatę.",
+            "yes — a woman speaking"
+          ],
+          [
+            "Możesz mi pomóc?",
+            "Czy mógłby pan mi pomóc?",
+            "yes"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Which to use, and what happens if you get it wrong",
+      "title_pl": "ty czy pan?",
+      "body": "pan and pani with anyone you do not know, and with everybody at a counter, in an office, at the doctor's — whatever their age. ty with family, with friends, with children, and with anyone who has moved to ty first.\n\nWhen you are not sure, use pan or pani. Being too formal in Polish reads as slightly stiff and nothing worse. Being too casual reads as a claim on the other person that you have not earned, and that one is heard.\n\nThe other direction matters just as much: you will be addressed as pan constantly, and a question aimed at you will arrive in the third person. Czy ma pan skierowanie? is being asked of you, not about somebody else.",
+      "body_pl": "pan · pani",
+      "table": {
+        "headers": [
+          "Person",
+          "Which",
+          "Example"
+        ],
+        "rows": [
+          [
+            "your brother",
+            "ty",
+            "Gdzie mieszkasz?"
+          ],
+          [
+            "a doctor",
+            "pan · pani",
+            "Czy ma pani czas?"
+          ],
+          [
+            "somebody in a shop",
+            "pan · pani",
+            "Czy mógłby pan mi pomóc?"
+          ],
+          [
+            "a child",
+            "ty",
+            "Co robisz?"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Excuse me, where is the chemist's?",
+          "pl": "Przepraszam, gdzie jest apteka?"
+        },
+        {
+          "en": "Have you got a referral? — a receptionist, to you",
+          "pl": "Czy ma pan skierowanie?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "hello · to a friend",
+      "pl": "Cześć."
+    },
+    {
+      "en": "hello · to somebody you don't know",
+      "pl": "Dzień dobry."
+    },
+    {
+      "en": "goodbye · to a friend",
+      "pl": "Na razie."
+    },
+    {
+      "en": "goodbye · to somebody you don't know",
+      "pl": "Do widzenia."
+    },
+    {
+      "en": "Have you got time? · to a friend",
+      "pl": "Masz czas?"
+    },
+    {
+      "en": "Have you got time? · to a man, formally",
+      "pl": "Czy ma pan czas?"
+    },
+    {
+      "en": "Have you got time? · to a woman, formally",
+      "pl": "Czy ma pani czas?"
+    },
+    {
+      "en": "Where do you live? · to a friend",
+      "pl": "Gdzie mieszkasz?"
+    },
+    {
+      "en": "Where do you live? · to a man, formally",
+      "pl": "Gdzie pan mieszka?"
+    },
+    {
+      "en": "Can you help me? · to a friend",
+      "pl": "Możesz mi pomóc?"
+    },
+    {
+      "en": "Could you help me? · to a man, formally",
+      "pl": "Czy mógłby pan mi pomóc?"
+    },
+    {
+      "en": "A coffee, please. · at a counter",
+      "pl": "Poproszę o kawę."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You walk into the doctor's surgery →",
+      "choices": [
+        "Dzień dobry.",
+        "Cześć.",
+        "Na razie.",
+        "Do widzenia."
+      ],
+      "answer": "Dzień dobry.",
+      "explain": "Cześć claims a familiarity you do not have with the receptionist. Dzień dobry is what everyone says walking in."
+    },
+    {
+      "prompt": "Your brother comes home →",
+      "choices": [
+        "Cześć.",
+        "Dzień dobry.",
+        "Do widzenia.",
+        "Poproszę o kawę."
+      ],
+      "answer": "Cześć.",
+      "explain": "Dzień dobry to your own brother is not wrong Polish — it is a joke, and it would be heard as one."
+    },
+    {
+      "prompt": "Leaving the chemist's →",
+      "choices": [
+        "Do widzenia.",
+        "Na razie.",
+        "Dzień dobry.",
+        "Cześć."
+      ],
+      "answer": "Do widzenia.",
+      "explain": "Na razie is the casual half of the same pair — right for a friend, too easy for a counter."
+    },
+    {
+      "prompt": "Have you got time? — to a man you don't know →",
+      "choices": [
+        "Czy ma pan czas?",
+        "Czy masz pan czas?",
+        "Czy ma pani czas?",
+        "Masz czas?"
+      ],
+      "answer": "Czy ma pan czas?",
+      "explain": "pan takes the third person, so ma and not masz. Czy masz pan czas? mixes the two registers inside one sentence."
+    },
+    {
+      "prompt": "Have you got time? — to a woman you don't know →",
+      "choices": [
+        "Czy ma pani czas?",
+        "Czy ma pan czas?",
+        "Czy masz pani czas?",
+        "Masz czas?"
+      ],
+      "answer": "Czy ma pani czas?",
+      "explain": "Same third-person verb; only the word for the person changes with their gender."
+    },
+    {
+      "prompt": "Have you got time? — to your sister →",
+      "choices": [
+        "Masz czas?",
+        "Czy ma pani czas?",
+        "Czy masz pani czas?",
+        "Ma czas?"
+      ],
+      "answer": "Masz czas?",
+      "explain": "Second person, and the pronoun ty is left out as always. Ma czas? without pan or pani would be asking about somebody else."
+    },
+    {
+      "prompt": "Where do you live? — to a man you don't know →",
+      "choices": [
+        "Gdzie pan mieszka?",
+        "Gdzie pan mieszkasz?",
+        "Gdzie pani mieszka?",
+        "Gdzie mieszkasz?"
+      ],
+      "answer": "Gdzie pan mieszka?",
+      "explain": "mieszka is the form you already use for he lives. Formal address is that form, with pan standing where the name would."
+    },
+    {
+      "prompt": "What are you doing? — to a child →",
+      "choices": [
+        "Co robisz?",
+        "Co pan robi?",
+        "Co pani robi?",
+        "Co pan robisz?"
+      ],
+      "answer": "Co robisz?",
+      "explain": "Children are addressed as ty. Using pan to a child would be heard as sarcasm."
+    },
+    {
+      "prompt": "Could you help me? — to a woman at a counter →",
+      "choices": [
+        "Czy mogłaby pani mi pomóc?",
+        "Czy mógłby pani mi pomóc?",
+        "Czy mogłaby pan mi pomóc?",
+        "Możesz mi pomóc?"
+      ],
+      "answer": "Czy mogłaby pani mi pomóc?",
+      "explain": "pani goes with mogłaby, pan with mógłby — the two halves have to agree with each other."
+    },
+    {
+      "prompt": "Ordering at a counter →",
+      "choices": [
+        "Poproszę o kawę.",
+        "Chcę kawę.",
+        "Masz kawę?",
+        "Chcesz kawę?"
+      ],
+      "answer": "Poproszę o kawę.",
+      "explain": "Chcę kawę is not rude the way I want a coffee is in English, but it is not what is said at a counter."
+    },
+    {
+      "prompt": "The raised form of Chcę kawę, a man speaking →",
+      "choices": [
+        "Chciałbym kawę.",
+        "Chciałabym kawę.",
+        "Chcesz kawę.",
+        "Chcę kawę."
+      ],
+      "answer": "Chciałbym kawę.",
+      "explain": "Same wish, higher register. The -bym ending is the man's form; a woman says chciałabym."
+    },
+    {
+      "prompt": "A receptionist is asking YOU whether you have a referral →",
+      "choices": [
+        "Czy ma pan skierowanie?",
+        "Czy masz skierowanie?",
+        "Czy mam skierowanie?",
+        "Czy ma skierowanie?"
+      ],
+      "answer": "Czy ma pan skierowanie?",
+      "explain": "This is the direction that catches people out: a third-person verb plus pan is aimed straight at you. Czy ma skierowanie? without pan would be asking about somebody else."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "hello — to a friend",
+      "answer": "Cześć.",
+      "accepts": [
+        "Cześć.",
+        "Cześć"
+      ]
+    },
+    {
+      "prompt_en": "hello — to somebody you don't know",
+      "answer": "Dzień dobry.",
+      "accepts": [
+        "Dzień dobry.",
+        "Dzień dobry"
+      ]
+    },
+    {
+      "prompt_en": "goodbye — to a friend",
+      "answer": "Na razie.",
+      "accepts": [
+        "Na razie.",
+        "Na razie"
+      ]
+    },
+    {
+      "prompt_en": "goodbye — to somebody you don't know",
+      "answer": "Do widzenia.",
+      "accepts": [
+        "Do widzenia.",
+        "Do widzenia"
+      ]
+    },
+    {
+      "prompt_en": "Have you got time? — to a friend",
+      "answer": "Masz czas?",
+      "accepts": [
+        "Masz czas?",
+        "Masz czas"
+      ]
+    },
+    {
+      "prompt_en": "Have you got time? — to a man you don't know.",
+      "mode": "cloze",
+      "frame": "Czy ma ___ czas?",
+      "answer": "pan",
+      "accepts": [
+        "pan"
+      ]
+    },
+    {
+      "prompt_en": "Have you got time? — to a woman you don't know.",
+      "mode": "cloze",
+      "frame": "Czy ma ___ czas?",
+      "answer": "pani",
+      "accepts": [
+        "pani"
+      ]
+    },
+    {
+      "prompt_en": "Where do you live? — to a man you don't know. The verb is the third-person form.",
+      "mode": "cloze",
+      "frame": "Gdzie pan ___?",
+      "answer": "mieszka",
+      "accepts": [
+        "mieszka"
+      ]
+    },
+    {
+      "prompt_en": "Where do you live? — to a friend.",
+      "mode": "cloze",
+      "frame": "Gdzie ___?",
+      "answer": "mieszkasz",
+      "accepts": [
+        "mieszkasz"
+      ]
+    },
+    {
+      "prompt_en": "I want a coffee. — the plain form",
+      "answer": "Chcę kawę.",
+      "accepts": [
+        "Chcę kawę.",
+        "Chcę kawę"
+      ]
+    },
+    {
+      "prompt_en": "I'd like a coffee. — the raised form, a man speaking",
+      "answer": "Chciałbym kawę.",
+      "accepts": [
+        "Chciałbym kawę.",
+        "Chciałbym kawę"
+      ]
+    },
+    {
+      "prompt_en": "Could you help me? — to a man you don't know.",
+      "mode": "cloze",
+      "frame": "Czy mógłby pan mi ___?",
+      "answer": "pomóc",
+      "accepts": [
+        "pomóc"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: Have you got time? — to a man you don't know.",
+      "answer": "Czy ma pan czas?",
+      "accepts": [
+        "Czy ma pan czas?",
+        "Czy ma pan czas",
+        "Ma pan czas?",
+        "Ma pan czas"
+      ]
+    },
+    {
+      "prompt_en": "Type: Have you got time? — to a woman you don't know.",
+      "answer": "Czy ma pani czas?",
+      "accepts": [
+        "Czy ma pani czas?",
+        "Czy ma pani czas",
+        "Ma pani czas?",
+        "Ma pani czas"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you live? — to a man you don't know.",
+      "answer": "Gdzie pan mieszka?",
+      "accepts": [
+        "Gdzie pan mieszka?",
+        "Gdzie pan mieszka"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you live? — to a woman you don't know.",
+      "answer": "Gdzie pani mieszka?",
+      "accepts": [
+        "Gdzie pani mieszka?",
+        "Gdzie pani mieszka"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you work? — to a man you don't know.",
+      "answer": "Gdzie pan pracuje?",
+      "accepts": [
+        "Gdzie pan pracuje?",
+        "Gdzie pan pracuje"
+      ]
+    },
+    {
+      "prompt_en": "Type: What are you doing? — to a woman you don't know.",
+      "answer": "Co pani robi?",
+      "accepts": [
+        "Co pani robi?",
+        "Co pani robi"
+      ]
+    },
+    {
+      "prompt_en": "Type: What are you doing? — to your brother.",
+      "answer": "Co robisz?",
+      "accepts": [
+        "Co robisz?",
+        "Co robisz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Where do you work? — to your sister.",
+      "answer": "Gdzie pracujesz?",
+      "accepts": [
+        "Gdzie pracujesz?",
+        "Gdzie pracujesz"
+      ]
+    },
+    {
+      "prompt_en": "Type: Could you help me? — to a man you don't know.",
+      "answer": "Czy mógłby pan mi pomóc?",
+      "accepts": [
+        "Czy mógłby pan mi pomóc?",
+        "Czy mógłby pan mi pomóc",
+        "Mógłby pan mi pomóc?",
+        "Mógłby pan mi pomóc"
+      ]
+    },
+    {
+      "prompt_en": "Type: Could you help me? — to a woman you don't know.",
+      "answer": "Czy mogłaby pani mi pomóc?",
+      "accepts": [
+        "Czy mogłaby pani mi pomóc?",
+        "Czy mogłaby pani mi pomóc",
+        "Mogłaby pani mi pomóc?",
+        "Mogłaby pani mi pomóc"
+      ]
+    },
+    {
+      "prompt_en": "Type: A coffee, please. — at a counter",
+      "answer": "Poproszę o kawę.",
+      "accepts": [
+        "Poproszę o kawę.",
+        "Poproszę o kawę"
+      ]
+    },
+    {
+      "prompt_en": "Type: Excuse me, where is the chemist's?",
+      "answer": "Przepraszam, gdzie jest apteka?",
+      "accepts": [
+        "Przepraszam, gdzie jest apteka?",
+        "Przepraszam, gdzie jest apteka"
+      ]
+    }
+  ],
+  "uses_lemmas": [
+    "cześć",
+    "dzień dobry",
+    "do widzenia",
+    "na razie",
+    "przepraszam",
+    "proszę",
+    "poproszę o",
+    "proszę o kawę",
+    "dziękuję",
+    "pan",
+    "pani",
+    "masz",
+    "ma",
+    "mam",
+    "mieszkasz",
+    "mieszka",
+    "robisz",
+    "robi",
+    "pracujesz",
+    "pracuje",
+    "chcę",
+    "chcesz",
+    "chciałbym",
+    "chciałabym",
+    "możesz",
+    "mogę",
+    "mógłby",
+    "mogłaby",
+    "pomóc",
+    "mi",
+    "czas",
+    "kawa",
+    "kawę",
+    "herbata",
+    "herbatę",
+    "apteka",
+    "skierowanie",
+    "gdzie",
+    "co",
+    "jest",
+    "poleca"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_register",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
