@@ -549,7 +549,9 @@
         "Czy tutaj można płacić kartą?",
         "Czy tutaj można płacić kartą",
         "Tu można płacić kartą?",
-        "Tu można płacić kartą"
+        "Tu można płacić kartą",
+        "Można tu płacić kartą?",
+        "Można tu płacić kartą"
       ],
       "explain": "Można, not mogę. The question is about what this shop allows, so nobody is named — and with no person named there is no ending to get wrong."
     },
@@ -560,7 +562,9 @@
         "Tu trzeba płacić gotówką.",
         "Tu trzeba płacić gotówką",
         "Tutaj trzeba płacić gotówką.",
-        "Tutaj trzeba płacić gotówką"
+        "Tutaj trzeba płacić gotówką",
+        "Trzeba tu płacić gotówką.",
+        "Trzeba tu płacić gotówką"
       ]
     },
     {

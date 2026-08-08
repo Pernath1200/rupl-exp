@@ -155,7 +155,11 @@
         "Czy wstajesz wcześnie?",
         "Czy wstajesz wcześnie",
         "Wstajesz wcześnie?",
-        "Wstajesz wcześnie"
+        "Wstajesz wcześnie",
+        "Wcześnie wstajesz?",
+        "Wcześnie wstajesz",
+        "Czy wcześnie wstajesz?",
+        "Czy wcześnie wstajesz"
       ],
       "structures": [
         "present",
@@ -192,7 +196,9 @@
         "Czy budzisz się wcześnie?",
         "Czy budzisz się wcześnie",
         "Budzisz się wcześnie?",
-        "Budzisz się wcześnie"
+        "Budzisz się wcześnie",
+        "Czy wcześnie budzisz się?",
+        "Czy wcześnie budzisz się"
       ],
       "structures": [
         "present",
