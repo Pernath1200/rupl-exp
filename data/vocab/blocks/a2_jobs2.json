@@ -1,0 +1,632 @@
+{
+  "id": "a2_jobs2",
+  "title": "Zawód 2",
+  "title_en": "Jobs & roles 2",
+  "level": "A2",
+  "tree_node": "a2_jobs2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · FIRST pack of the Oxford A2 vocab-gap build (VOCAB-BUILD-DIGEST batch 1). Grouping rationale: twelve Oxford-A2 job/role nouns pulled from the gap list as one theme, chosen because a1_inst_job already owns inst_identity — so every one of them lands in a frame the learner has had since A1 (Jestem nauczycielem → Jestem architektem) and the pack introduces ZERO structures. teaches_structures is [] by construction; the pack rides byc_present/inst_identity/poss_nom/present_uje/prep_w_loc/past_byc/miec_acc/ten_ta_to, all live long before this slot. A1/A2 already own nauczyciel, lekarz, kelner, kierowca, inżynier, rolnik, sprzedawca, menedżer, szef, naukowiec, pielęgniarka, artysta, aktor, piosenkarz, pisarz, tancerz, trener, dentysta — those are ANCHORS here, never re-taught. Judgment calls, all reported: (1) TITLE. 'Zawody' was rejected outright — a2_sport already teaches zawody as 'competition (sports event)', so a plural title would have read as 'Competitions 2'. The singular zawód (a2_work2, 'profession / trade') is unambiguous, hence 'Zawód 2'. (2) chef was DROPPED from the gap list without authoring: b1_people already teaches kucharz, glossed 'cook (m)' — the Oxford row survived only because the English gloss says 'cook', not 'chef'. Row deleted, logged in the digest. (3) INSTRUMENTAL FORMS are taught explicitly as whole Jestem/On jest phrases in block 2, not left to be derived, so every instrumental a sentence demands appears in a block and in teaches_lemmas (the every-form-taught rule). Nine are taught; the three nouns with no instrumental slot (złodziej, profesor, biznesmen) are used in the nominative only. (4) sportowiec → sportowcem drops the -e- of -ec. That alternation is a lexical fact about one word, taught with an explain, not a new system — the same shape as a2_countries' Anglik → Angielka → Angielką. (5) 'Muzyk gra w parku.' was drafted and then CUT: gra is taught twice over, as the verb (a1_present) and as the noun 'game' (a1_freetime), so the sentence would have been readable as 'A musician, a game in the park'. Replaced with 'Ten muzyk jest popularny.' (6) policja was FOLDED IN from codex/vocab/pl-frequency-crosscheck.tsv (rank 303), not from the Oxford gap list — it is thematically adjacent to zlodziej/zolnierz and is a plain noun needing no structure, so the cross-check's own instruction applied. It is the institution; b1_people teaches policjant (the person) later, and the two do not collide. Its explain names the singular/plural mismatch with English. (7) Adjectives and instrumental phrases take no gender badge — that field is for citation-form nouns only.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "inst_identity",
+    "poss_nom",
+    "present_uje",
+    "prep_w_loc",
+    "past_byc",
+    "miec_acc",
+    "ten_ta_to",
+    "existential_jest",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "jobs2_words",
+      "title": "Jobs & roles · new words",
+      "items": [
+        {
+          "en": "architect",
+          "pl": "architekt",
+          "icon": "📐",
+          "gender": "m"
+        },
+        {
+          "en": "lawyer",
+          "pl": "prawnik",
+          "icon": "⚖️",
+          "gender": "m"
+        },
+        {
+          "en": "director (head of a company)",
+          "pl": "dyrektor",
+          "gender": "m"
+        },
+        {
+          "en": "musician",
+          "pl": "muzyk",
+          "icon": "🎵",
+          "gender": "m"
+        },
+        {
+          "en": "painter (artist)",
+          "pl": "malarz",
+          "icon": "🎨",
+          "gender": "m"
+        },
+        {
+          "en": "pilot",
+          "pl": "pilot",
+          "icon": "✈️",
+          "gender": "m"
+        },
+        {
+          "en": "soldier",
+          "pl": "żołnierz",
+          "gender": "m"
+        },
+        {
+          "en": "thief",
+          "pl": "złodziej",
+          "gender": "m"
+        },
+        {
+          "en": "secretary",
+          "pl": "sekretarka",
+          "gender": "f"
+        },
+        {
+          "en": "athlete",
+          "pl": "sportowiec",
+          "icon": "🏃",
+          "gender": "m"
+        },
+        {
+          "en": "professor",
+          "pl": "profesor",
+          "icon": "🎓",
+          "gender": "m"
+        },
+        {
+          "en": "businessman",
+          "pl": "biznesmen",
+          "icon": "💼",
+          "gender": "m"
+        },
+        {
+          "en": "the police (singular in Polish)",
+          "pl": "policja",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "id": "jobs2_saying",
+      "title": "Saying what someone is · the -em / -ą slot",
+      "items": [
+        {
+          "en": "I am an architect",
+          "pl": "Jestem architektem"
+        },
+        {
+          "en": "I am a lawyer",
+          "pl": "Jestem prawnikiem"
+        },
+        {
+          "en": "he is a director",
+          "pl": "On jest dyrektorem"
+        },
+        {
+          "en": "he is a musician",
+          "pl": "On jest muzykiem"
+        },
+        {
+          "en": "he is a painter",
+          "pl": "On jest malarzem"
+        },
+        {
+          "en": "he is a pilot",
+          "pl": "On jest pilotem"
+        },
+        {
+          "en": "he is a soldier",
+          "pl": "On jest żołnierzem"
+        },
+        {
+          "en": "he is an athlete",
+          "pl": "On jest sportowcem"
+        },
+        {
+          "en": "she is a secretary",
+          "pl": "Ona jest sekretarką"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is a good lawyer.",
+      "pl": "To jest dobry prawnik.",
+      "accepts": [
+        "To jest dobry prawnik.",
+        "To jest dobry prawnik",
+        "To dobry prawnik.",
+        "To dobry prawnik"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prawnik"
+      ]
+    },
+    {
+      "en": "My dad is a lawyer.",
+      "pl": "Mój tata jest prawnikiem.",
+      "accepts": [
+        "Mój tata jest prawnikiem.",
+        "Mój tata jest prawnikiem",
+        "Tata jest prawnikiem.",
+        "Tata jest prawnikiem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "prawnikiem"
+      ],
+      "explain": "A job after jest goes into the instrumental, exactly as in Jestem nauczycielem. A word ending in -k takes -iem rather than plain -em, so prawnik → prawnikiem. The k is why the i is there."
+    },
+    {
+      "en": "I am an architect.",
+      "pl": "Jestem architektem.",
+      "accepts": [
+        "Jestem architektem.",
+        "Jestem architektem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "architektem"
+      ],
+      "explain": "The plain -em ending, the same one you already use in Jestem kelnerem: architekt → architektem. Nothing else in the sentence moves."
+    },
+    {
+      "en": "The architect works in an office.",
+      "pl": "Architekt pracuje w biurze.",
+      "accepts": [
+        "Architekt pracuje w biurze.",
+        "Architekt pracuje w biurze",
+        "W biurze pracuje architekt.",
+        "W biurze pracuje architekt"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "architekt"
+      ]
+    },
+    {
+      "en": "The director is in the office.",
+      "pl": "Dyrektor jest w biurze.",
+      "accepts": [
+        "Dyrektor jest w biurze.",
+        "Dyrektor jest w biurze",
+        "W biurze jest dyrektor.",
+        "W biurze jest dyrektor"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dyrektor"
+      ]
+    },
+    {
+      "en": "My boss is a director.",
+      "pl": "Mój szef jest dyrektorem.",
+      "accepts": [
+        "Mój szef jest dyrektorem.",
+        "Mój szef jest dyrektorem",
+        "Szef jest dyrektorem.",
+        "Szef jest dyrektorem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "dyrektorem"
+      ]
+    },
+    {
+      "en": "This musician is popular.",
+      "pl": "Ten muzyk jest popularny.",
+      "accepts": [
+        "Ten muzyk jest popularny.",
+        "Ten muzyk jest popularny",
+        "Muzyk jest popularny.",
+        "Muzyk jest popularny"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "muzyk"
+      ]
+    },
+    {
+      "en": "He is a musician.",
+      "pl": "On jest muzykiem.",
+      "accepts": [
+        "On jest muzykiem.",
+        "On jest muzykiem",
+        "Jest muzykiem.",
+        "Jest muzykiem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "muzykiem"
+      ],
+      "explain": "Another -k word, so another -iem: muzyk → muzykiem. Same reason as prawnikiem."
+    },
+    {
+      "en": "The painter is very young.",
+      "pl": "Malarz jest bardzo młody.",
+      "accepts": [
+        "Malarz jest bardzo młody.",
+        "Malarz jest bardzo młody"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "malarz"
+      ]
+    },
+    {
+      "en": "My brother is a painter.",
+      "pl": "Mój brat jest malarzem.",
+      "accepts": [
+        "Mój brat jest malarzem.",
+        "Mój brat jest malarzem",
+        "Brat jest malarzem.",
+        "Brat jest malarzem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "malarzem"
+      ],
+      "explain": "malarz already ends in -rz, so the instrumental simply adds -em: malarzem. The rz does not change."
+    },
+    {
+      "en": "The pilot is tired.",
+      "pl": "Pilot jest zmęczony.",
+      "accepts": [
+        "Pilot jest zmęczony.",
+        "Pilot jest zmęczony"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pilot"
+      ]
+    },
+    {
+      "en": "My son is a pilot.",
+      "pl": "Mój syn jest pilotem.",
+      "accepts": [
+        "Mój syn jest pilotem.",
+        "Mój syn jest pilotem",
+        "Syn jest pilotem.",
+        "Syn jest pilotem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "pilotem"
+      ]
+    },
+    {
+      "en": "Where does the pilot work?",
+      "pl": "Gdzie pracuje pilot?",
+      "accepts": [
+        "Gdzie pracuje pilot?",
+        "Gdzie pracuje pilot",
+        "Gdzie pilot pracuje?",
+        "Gdzie pilot pracuje"
+      ],
+      "structures": [
+        "question",
+        "present_uje"
+      ],
+      "lemmas": [
+        "pilot"
+      ]
+    },
+    {
+      "en": "The soldier was in Poland.",
+      "pl": "Żołnierz był w Polsce.",
+      "accepts": [
+        "Żołnierz był w Polsce.",
+        "Żołnierz był w Polsce",
+        "W Polsce był żołnierz.",
+        "W Polsce był żołnierz"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "żołnierz"
+      ]
+    },
+    {
+      "en": "My brother is a soldier.",
+      "pl": "Mój brat jest żołnierzem.",
+      "accepts": [
+        "Mój brat jest żołnierzem.",
+        "Mój brat jest żołnierzem",
+        "Brat jest żołnierzem.",
+        "Brat jest żołnierzem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "żołnierzem"
+      ],
+      "explain": "Same shape as malarzem — a word ending in -rz just adds -em: żołnierz → żołnierzem."
+    },
+    {
+      "en": "The thief was in the shop.",
+      "pl": "Złodziej był w sklepie.",
+      "accepts": [
+        "Złodziej był w sklepie.",
+        "Złodziej był w sklepie",
+        "W sklepie był złodziej.",
+        "W sklepie był złodziej"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "złodziej"
+      ]
+    },
+    {
+      "en": "The thief has my key.",
+      "pl": "Złodziej ma mój klucz.",
+      "accepts": [
+        "Złodziej ma mój klucz.",
+        "Złodziej ma mój klucz"
+      ],
+      "structures": [
+        "miec_acc",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "złodziej"
+      ],
+      "explain": "klucz is a thing, not a person, so it looks identical after ma — mój klucz, unchanged. That is the masculine-inanimate rule you already met with komputer."
+    },
+    {
+      "en": "The police were in the shop.",
+      "pl": "Policja była w sklepie.",
+      "accepts": [
+        "Policja była w sklepie.",
+        "Policja była w sklepie",
+        "W sklepie była policja.",
+        "W sklepie była policja"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "policja"
+      ],
+      "explain": "English treats the police as many people — the police were. Polish treats it as one body: policja is a single feminine noun, so it takes była, not były."
+    },
+    {
+      "en": "The secretary works in a company.",
+      "pl": "Sekretarka pracuje w firmie.",
+      "accepts": [
+        "Sekretarka pracuje w firmie.",
+        "Sekretarka pracuje w firmie",
+        "W firmie pracuje sekretarka.",
+        "W firmie pracuje sekretarka"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "sekretarka"
+      ]
+    },
+    {
+      "en": "My sister is a secretary.",
+      "pl": "Moja siostra jest sekretarką.",
+      "accepts": [
+        "Moja siostra jest sekretarką.",
+        "Moja siostra jest sekretarką",
+        "Siostra jest sekretarką.",
+        "Siostra jest sekretarką"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "sekretarką"
+      ],
+      "explain": "A feminine -ka word takes -ką, exactly like nauczycielka → nauczycielką: sekretarka → sekretarką. Men get -em, women get -ą."
+    },
+    {
+      "en": "The athlete is strong.",
+      "pl": "Sportowiec jest silny.",
+      "accepts": [
+        "Sportowiec jest silny.",
+        "Sportowiec jest silny"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "sportowiec"
+      ]
+    },
+    {
+      "en": "He is an athlete.",
+      "pl": "On jest sportowcem.",
+      "accepts": [
+        "On jest sportowcem.",
+        "On jest sportowcem",
+        "Jest sportowcem.",
+        "Jest sportowcem"
+      ],
+      "structures": [
+        "byc_present",
+        "inst_identity"
+      ],
+      "lemmas": [
+        "sportowcem"
+      ],
+      "explain": "This one is worth a second look. Words ending in -ec lose that e as soon as an ending is added: sportowiec → sportowcem, not sportowiecem. It is a quirk of this ending, not a rule about jobs — learn the pair whole."
+    },
+    {
+      "en": "The professor is very clever.",
+      "pl": "Profesor jest bardzo mądry.",
+      "accepts": [
+        "Profesor jest bardzo mądry.",
+        "Profesor jest bardzo mądry"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "profesor"
+      ]
+    },
+    {
+      "en": "The businessman is rich.",
+      "pl": "Biznesmen jest bogaty.",
+      "accepts": [
+        "Biznesmen jest bogaty.",
+        "Biznesmen jest bogaty"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "biznesmen"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "architekt",
+    "architektem",
+    "prawnik",
+    "prawnikiem",
+    "dyrektor",
+    "dyrektorem",
+    "muzyk",
+    "muzykiem",
+    "malarz",
+    "malarzem",
+    "pilot",
+    "pilotem",
+    "żołnierz",
+    "żołnierzem",
+    "złodziej",
+    "sekretarka",
+    "sekretarką",
+    "sportowiec",
+    "sportowcem",
+    "profesor",
+    "biznesmen",
+    "policja"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "jestem",
+    "on",
+    "ona",
+    "był",
+    "ma",
+    "pracuje",
+    "gdzie",
+    "bardzo",
+    "ten",
+    "mój",
+    "moja",
+    "tata",
+    "brat",
+    "syn",
+    "siostra",
+    "szef",
+    "klucz",
+    "w biurze",
+    "biurze",
+    "w firmie",
+    "firmie",
+    "w sklepie",
+    "sklepie",
+    "w polsce",
+    "polsce",
+    "dobry",
+    "popularny",
+    "młody",
+    "zmęczony",
+    "silny",
+    "mądry",
+    "bogaty"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_jobs2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

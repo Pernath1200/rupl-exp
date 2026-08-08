@@ -118,6 +118,11 @@
     "a2_case_gym2",
     "a2_prep_review",
     "a2_wrapup_func",
+    "a2_jobs2",
+    "a2_places2",
+    "a2_food3",
+    "a2_people3",
+    "a2_world",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2433,6 +2438,96 @@
       "content": "grammar/blocks/a2_wrapup_func.json"
     },
     {
+      "id": "a2_jobs2",
+      "domain": "vocab",
+      "label": "Zawód 2",
+      "label_en": "Jobs & roles 2",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve job/role nouns riding inst_identity (a1_inst_job) - teaches_structures is [] by construction. kucharz/chef dropped, already taught by b1_people as 'cook'. Title uses the singular zawod ('profession', a2_work2) because zawody is already taught by a2_sport as 'competition'. sportowiec -> sportowcem taught with an explain (the -ec drops its e).",
+      "unit_id": "PL2_53",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "work",
+      "content": "vocab/blocks/a2_jobs2.json"
+    },
+    {
+      "id": "a2_places2",
+      "domain": "vocab",
+      "label": "W mieście",
+      "label_en": "Buildings & places",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve building/place nouns plus six locative phrases, riding prep_w_loc / prep_place - teaches_structures is [] by construction. Title 'Miejsca 2' rejected: the plural miejsca is untaught, only the singular miejsce. Two sentences rewritten after a pool check - stare (neuter sg / non-virile pl of stary) is taught nowhere. koscioł -> w kosciele carries the o-alternation, taught with an explain as a lexical pair, not a rule. schody is plural-only, like meble.",
+      "unit_id": "PL2_54",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "travel_city",
+      "content": "vocab/blocks/a2_places2.json"
+    },
+    {
+      "id": "a2_food3",
+      "domain": "vocab",
+      "label": "Jedzenie 3",
+      "label_en": "Food & cooking 3",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve food/kitchen nouns riding miec_acc, live since A1 - teaches_structures is [] by construction. Block 2 mixes the feminines that take -e (fasole, wolowine, cytryne, miske) with a masculine inanimate and a plural that do not (olej, frytki); the contrast is the point. Three wanted adjectives were refused by the pool and the sentences rewritten: zolta, slodkie and gorace are all untaught gender forms of taught adjectives. przepis glossed 'recipe (for cooking)' to fence it off from recepta ('prescription', a2_health2).",
+      "unit_id": "PL2_55",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "food_shopping",
+      "content": "vocab/blocks/a2_food3.json"
+    },
+    {
+      "id": "a2_people3",
+      "domain": "vocab",
+      "label": "Kto to jest?",
+      "label_en": "People around us",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 2. Twelve nouns for kinds of person - not jobs (a2_jobs2) and not looks/character (a2_people2) - riding the NOMINATIVE only, so teaches_structures is [] by construction. Three words folded in from pl-frequency-crosscheck: dziewczyna (175), chlopak (275), chlopiec (315), which the Oxford route never asks for because 'girl' and 'boy' are A1 concepts. Block 2 is a gender board rather than a case board, carrying the two traps: przywodca (-a, masculine) and publicznosc (-osc, feminine). No icons: the crown emoji points at both krol and krolowa, and the two-people emoji reads as para ('pair', already taught). popularna was refused by the pool (only popularny is taught) and the sentence moved to krol. nowego is taught only inside 'nic nowego' and was deliberately not reused as an accusative.",
+      "unit_id": "PL2_56",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "people",
+      "content": "vocab/blocks/a2_people3.json"
+    },
+    {
+      "id": "a2_world",
+      "domain": "vocab",
+      "label": "Świat",
+      "label_en": "The world: land, sky and what it holds",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 2. Twelve nouns for the physical world, riding prep_w_loc / prep_place with a locative second block copied from a2_places2 - teaches_structures is [] by construction. gold, silver, rock and desert are authored in their NOUN sense only. The word list was decided by the ADJECTIVE pool, not by the nouns: the course teaches masculine adjective forms for almost everything and neuter forms for almost nothing, so drewno, metal, gaz and zanieczyszczenie were dropped and the three surviving neuters are described with duze / male / nowe / drozsze / tansze, the neuter forms that exist. na Ksiezycu is capitalised, on the Polska vs polska ksiazka rule a2_countries already teaches. The na/w split (na Ksiezycu, na wybrzezu, na pustyni against w oceanie, w dolinie, w regionie) is taught as whole phrases because nothing in the meaning predicts it. Only icon is the moon; the wave emoji was cut because it reads as morze or woda.",
+      "unit_id": "PL2_57",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "nature",
+      "content": "vocab/blocks/a2_world.json"
+    },
+    {
       "id": "a2_station_4",
       "domain": "grammar",
       "label": "Stacja 4 · tempo",
@@ -4668,12 +4763,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 10, unit 2. THE COURSE CAPSTONE. Genre of a2_wrapup_func / b1_wrapup / b2_wrapup, ZERO NEW. Recombines the registers C1 added - evaluation, society, nuance, register-switching - into mixed scenes. FOUR REGISTERS, NO FIFTH, holding b1_wrapup's deliberate limit for the fourth time. TITLE: 'Koniec drogi' was rejected - drogi is TAUGHT as the ADJECTIVE 'expensive' (leaf_shopping_a1), b2_gen_pl_full's sharpest homograph catch. THE RUN THAT WIRES THIS LIVE writes codex/COURSE-COMPLETE.md, provided the repair queue is fully ticked.",
+      "note": "[C1 SPINE] Block 10, unit 2. THE COURSE CAPSTONE. Genre of a2_wrapup_func / b1_wrapup / b2_wrapup, ZERO NEW. Recombines the registers C1 added - evaluation, society, nuance, register-switching - into mixed scenes. FOUR REGISTERS, NO FIFTH, holding b1_wrapup's deliberate limit for the fourth time. TITLE: 'Koniec drogi' was rejected - drogi is TAUGHT as the ADJECTIVE 'expensive' (leaf_shopping_a1), b2_gen_pl_full's sharpest homograph catch. THE RUN THAT WIRES THIS LIVE writes codex/COURSE-COMPLETE.md, provided the repair queue is fully ticked. [WIRED LIVE 2026-08-08] GRAMMAR IS NOW COMPLETE: A1 through C1, 230 live nodes on a 240-slot path_order, every non-station node built; the only ten remaining are the permanent station placeholders (plus a2_past_gym, retired off-path). COURSE-COMPLETE.md WAS DELIBERATELY NOT WRITTEN THIS RUN, and this is not an oversight - James's routine brief of 2026-08-08 SUPERSEDES the instruction above: once grammar finishes, the routine pivots to VOCABULARY AUTHORING from codex/vocab/oxford-b1-gap.tsv (883 rows, A2 first then B1), and COURSE-COMPLETE.md is written only when the gap list is empty as well. See codex/VOCAB-REORIENTATION-2026-08-07.md and the C1-DIGEST batch 19 entry. Structure situation_chunk re-declared, matching all three earlier capstones; no new structure ID, teaches_lemmas empty, ZERO NEW LEMMAS verified by check_new.py at path 238. Titles re-verified at the wire per b1_wrapup's standing instruction: wszystko, co and znam all TAUGHT. Pisanie: two typed whole, ten clozes, every cloze verified by assertion to reconstruct its sentence; NOTHING ADDED TO THE REPAIR QUEUE. One logged fallback (Spoleczenstwo ma ___ blanks problem, not the register noun). prawo produced with its homograph named in the explain - na prawo since A1, law/right since c1_society. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/c1_wrapup.json"
     },
     {
       "id": "c1_station_2",
@@ -4711,18 +4807,19 @@
     {
       "id": "c1_vocative_note",
       "domain": "grammar",
-      "label": "Wołacz · przypis",
+      "label": "Wołacz · siódmy przypadek",
       "label_en": "The Vocative · a footnote",
       "kind": "topic",
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
       "root": "forms",
       "tree_part": "forms",
-      "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only.",
-      "pedagogy": "teach"
+      "note": "[C1, JAMES-LOCKED 2026-08-07] James: \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" SMALL unit, placed after the final case gym so every other case is closed first. Names the Wolacz as the seventh case, states honestly that outside address chunks it is rare in everyday spoken Polish, and points BACK at the six address chunks b1_vocative_chunks already taught whole (Mamo/Tato/Babciu/Dziadku/Panie Piotrze/Pani Anno) as the forms that matter. NOT a paradigm: no endings table to produce from, no proper-name rule - B1 decision #4 is softened to a named footnote, NOT reopened as a case to learn. Recognition/awareness only. [WIRED LIVE] TITLE CORRECTED AT THE WIRE per b1_wrapup's standing instruction: the draft label read 'Wolacz - przypis' and przypis is an ordinary untaught noun, not case metalanguage; 'siodmy przypadek' replaces it - siodmy is TAUGHT <- a2_ordinals_time [90] and przypadek is the same case metalanguage AGENTS sanctions in titles ('Miec + biernik'), already learner-visible on the app's own Przypadki panel. RECOGNITION-ONLY PACK, the b1_virile_reco / b2_prefix_lens shape: intro + Dopasuj + Kontrola, with NO type_items and NO use_items in the file at all. That is the only shape that honours R5's 'nothing to produce' literally; the engine auto-passes an empty Pisanie stage (practice-grammar.js beginType), so the ladder shows a Pisanie step that completes itself - the same cosmetic quirk those two packs already live with. Structure vocative_note registered in SEQUENCING.md and audit.py before the audit ran; teaches_lemmas deliberately EMPTY, matching virile_reco and prefix_lens, which is also why this node does NOT add a teaches_empty_grammar warn. ZERO NEW LEMMAS - every Polish string on every surface pool-verified at path 237. NO ENDINGS TABLE: the six calling-forms are listed with English glosses only, never beside their plain forms, so no -o/-u rule can be read off the slide. THE RARITY CLAIM CARRIES NO POLISH EXAMPLE - illustrating it would mean printing a name-vocative, which R5 forbids, so slide 3 says it in English and shows nothing. HOMOGRAPH DISCIPLINE: mamy is NEVER offered as a distractor although b1_vocative_chunks used it - it is TAUGHT as the VERB 'we have' (a1_miec), spine O13's first row. Bare panie and bare Piotrze never appear; only the whole chunks Panie Piotrze! and Pani Anno!, with formal distractors built from pan/pani plus the glue names, because panie/pana/panu are all NEW and c1_register fenced them four nodes back. No fabricated non-words - distractors are real taught forms in the wrong case or real words in an illegal combination. NO CASE GOVERNOR ADDED and case-map.json is UNTOUCHED: the Vocative has no governor, and app.js renderCaseMap skips any case with no trigger rows, so a voc entry would be dead data. Logged as a fork in C1-DIGEST.md.",
+      "pedagogy": "teach",
+      "content": "grammar/blocks/c1_vocative_note.json"
     },
     {
       "id": "a1_which_case",

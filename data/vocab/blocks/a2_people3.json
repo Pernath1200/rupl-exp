@@ -1,0 +1,613 @@
+{
+  "id": "a2_people3",
+  "title": "Kto to jest?",
+  "title_en": "People around us",
+  "level": "A2",
+  "tree_node": "a2_people3",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · FIRST pack of Oxford A2 vocab-gap batch 2 (VOCAB-BUILD-DIGEST batch 2). Grouping rationale: twelve nouns for KINDS OF PERSON — not jobs (a2_jobs2 owns those) and not looks or character (a2_people2 owns those), but who somebody is: facet, dziewczyna, chłopak, chłopiec, dzieciak, król, królowa, bohater, prezydent, przywódca, tłum, publiczność. Nine are Oxford A2 rows (guy, kid, king, queen, hero, president, leader, crowd, audience); three — dziewczyna, chłopak, chłopiec — are folded in from pl-frequency-crosscheck.tsv, where they rank 175, 275 and 315 among untaught Polish lemmas. They are the clearest case yet of the cross-check earning its keep: the Oxford route never asks for them because English 'girl' and 'boy' are A1 concepts RUPL appears to cover, but the Polish words are simply not taught anywhere. The pack rides the NOMINATIVE and nothing else — every noun appears in its citation form in every sentence, so no case form has to be taught and teaches_structures is [] by construction. It runs on to_jest, byc_present, byc_adj, zgoda, ten_ta_to, poss_nom, past_byc, prep_w_loc, present_am, present_uje, present_e_isz and miec_acc, all live since A1 or early A2. ANCHORS, never re-taught: dziecko, mama, tata, brat, siostra, kolega, koleżanka, pan, pani, para ('pair'), osoba, człowiek-words already owned by A1/A2, plus every job noun from a1_inst_job, a2_work2 and a2_jobs2. Judgment calls, all reported: (1) THE SECOND BLOCK IS A GENDER BOARD, not a case board. Where a2_food3 used its second block to show the accusative, this pack has no case to show, so the block drills the thing that IS load-bearing for these words — which of ten / ta each takes. It deliberately carries the two that an English speaker gets wrong: przywódca, which ends in -a and is masculine (ten przywódca), and publiczność, which ends in a consonant and is feminine (ta publiczność). (2) NO ICONS ANYWHERE IN THIS PACK. 👑 was drafted for król and cut, because królowa sits four rows below it and the emoji points at both; 👥 was drafted for tłum and cut, because it reads as 'two people' and para is already taught as 'pair'. a2_places2 set the rule — a visual anchor that points at an already-taught different word, or at two words in the same pack, is worse than no anchor — and here it removes the whole set. Every item carries an English gloss instead. (3) popularna WAS WANTED FOR królowa AND REFUSED BY THE POOL: only the masculine popularny is taught. Same trap as stare in a2_places2 and żółta in a2_food3, now three batches running — the sentence was rewritten to put popularny on król, where the taught form fits. (4) nowego IS TAUGHT BUT WAS NOT USED. It is in the pool only inside 'nic nowego', where it is a genitive after nic; using it as the masculine-animate accusative of nowy ('mam nowego chłopaka') would be the homograph trap exactly as AGENTS.md describes it. Every sentence keeps its nouns in the nominative and the question never arises. (5) chłopak and chłopiec ARE GLOSSED APART AND EXPLAINED. Both translate as 'boy' in a dictionary; in use chłopiec is a child and chłopak is a young man or a boyfriend. Left unfenced, the learner would produce 'mój chłopiec' for a partner. (6) dzieciak is glossed as the casual word and its explain names dziecko as the neutral one, so the register is content rather than a trap. (7) NO PLURALS. Masculine-personal plurals (chłopcy, królowie, bohaterowie) are a virile paradigm this pack has no business opening; tłum and publiczność are exactly the two words that let a learner talk about many people with a singular verb, and their explains say so.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to",
+    "poss_nom",
+    "past_byc",
+    "prep_w_loc",
+    "present_am",
+    "present_uje",
+    "present_e_isz",
+    "miec_acc"
+  ],
+  "blocks": [
+    {
+      "id": "people3_words",
+      "title": "People · new words",
+      "items": [
+        {
+          "en": "guy / bloke (informal)",
+          "pl": "facet",
+          "gender": "m"
+        },
+        {
+          "en": "girl / girlfriend",
+          "pl": "dziewczyna",
+          "gender": "f"
+        },
+        {
+          "en": "boyfriend / young man",
+          "pl": "chłopak",
+          "gender": "m"
+        },
+        {
+          "en": "boy (a child)",
+          "pl": "chłopiec",
+          "gender": "m"
+        },
+        {
+          "en": "kid (casual word for a child)",
+          "pl": "dzieciak",
+          "gender": "m"
+        },
+        {
+          "en": "king",
+          "pl": "król",
+          "gender": "m"
+        },
+        {
+          "en": "queen",
+          "pl": "królowa",
+          "gender": "f"
+        },
+        {
+          "en": "hero",
+          "pl": "bohater",
+          "gender": "m"
+        },
+        {
+          "en": "president",
+          "pl": "prezydent",
+          "gender": "m"
+        },
+        {
+          "en": "leader (of a country or a movement)",
+          "pl": "przywódca",
+          "gender": "m"
+        },
+        {
+          "en": "crowd",
+          "pl": "tłum",
+          "gender": "m"
+        },
+        {
+          "en": "audience",
+          "pl": "publiczność",
+          "gender": "f"
+        }
+      ]
+    },
+    {
+      "id": "people3_gender",
+      "title": "Ten or ta? · the two that catch English speakers out",
+      "items": [
+        {
+          "en": "this guy",
+          "pl": "ten facet"
+        },
+        {
+          "en": "this girl",
+          "pl": "ta dziewczyna"
+        },
+        {
+          "en": "this boy",
+          "pl": "ten chłopiec"
+        },
+        {
+          "en": "this queen",
+          "pl": "ta królowa"
+        },
+        {
+          "en": "this leader — masculine, despite the -a",
+          "pl": "ten przywódca"
+        },
+        {
+          "en": "this audience — feminine, despite the consonant",
+          "pl": "ta publiczność"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This guy is very nice.",
+      "pl": "Ten facet jest bardzo miły.",
+      "accepts": [
+        "Ten facet jest bardzo miły.",
+        "Ten facet jest bardzo miły",
+        "Facet jest bardzo miły.",
+        "Facet jest bardzo miły"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "facet"
+      ],
+      "explain": "facet is what you say among friends, roughly 'bloke'. It is not rude, but it is not a word for a formal introduction — pan does that job."
+    },
+    {
+      "en": "This guy works at a bank.",
+      "pl": "Ten facet pracuje w banku.",
+      "accepts": [
+        "Ten facet pracuje w banku.",
+        "Ten facet pracuje w banku",
+        "Facet pracuje w banku.",
+        "Facet pracuje w banku"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "facet"
+      ]
+    },
+    {
+      "en": "This is my girlfriend.",
+      "pl": "To jest moja dziewczyna.",
+      "accepts": [
+        "To jest moja dziewczyna.",
+        "To jest moja dziewczyna",
+        "To moja dziewczyna.",
+        "To moja dziewczyna"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "dziewczyna"
+      ],
+      "explain": "One word covers both 'girl' and 'girlfriend'. What decides is moja: dziewczyna on its own is a girl, moja dziewczyna is a partner."
+    },
+    {
+      "en": "This girl is very clever.",
+      "pl": "Ta dziewczyna jest bardzo mądra.",
+      "accepts": [
+        "Ta dziewczyna jest bardzo mądra.",
+        "Ta dziewczyna jest bardzo mądra",
+        "Dziewczyna jest bardzo mądra.",
+        "Dziewczyna jest bardzo mądra"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dziewczyna"
+      ]
+    },
+    {
+      "en": "The girl is reading a book.",
+      "pl": "Dziewczyna czyta książkę.",
+      "accepts": [
+        "Dziewczyna czyta książkę.",
+        "Dziewczyna czyta książkę"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "dziewczyna"
+      ]
+    },
+    {
+      "en": "My boyfriend lives in Poland.",
+      "pl": "Mój chłopak mieszka w Polsce.",
+      "accepts": [
+        "Mój chłopak mieszka w Polsce.",
+        "Mój chłopak mieszka w Polsce"
+      ],
+      "structures": [
+        "poss_nom",
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "chłopak"
+      ],
+      "explain": "chłopak is a young man, and with mój / moja in front of it, a boyfriend. It is the everyday word — nobody says mój chłopiec for a partner."
+    },
+    {
+      "en": "This young man has a new phone.",
+      "pl": "Ten chłopak ma nowy telefon.",
+      "accepts": [
+        "Ten chłopak ma nowy telefon.",
+        "Ten chłopak ma nowy telefon",
+        "Chłopak ma nowy telefon.",
+        "Chłopak ma nowy telefon"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "chłopak"
+      ]
+    },
+    {
+      "en": "This boy is very small.",
+      "pl": "Ten chłopiec jest bardzo mały.",
+      "accepts": [
+        "Ten chłopiec jest bardzo mały.",
+        "Ten chłopiec jest bardzo mały",
+        "Chłopiec jest bardzo mały.",
+        "Chłopiec jest bardzo mały"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "chłopiec"
+      ],
+      "explain": "chłopiec is a child. chłopak is old enough to have a job. English uses 'boy' for both and Polish does not — the pair is worth keeping apart from the start."
+    },
+    {
+      "en": "The boy was at school.",
+      "pl": "Chłopiec był w szkole.",
+      "accepts": [
+        "Chłopiec był w szkole.",
+        "Chłopiec był w szkole"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "chłopiec"
+      ]
+    },
+    {
+      "en": "My kid is at home.",
+      "pl": "Mój dzieciak jest w domu.",
+      "accepts": [
+        "Mój dzieciak jest w domu.",
+        "Mój dzieciak jest w domu"
+      ],
+      "structures": [
+        "poss_nom",
+        "byc_present",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "dzieciak"
+      ],
+      "explain": "dziecko is the neutral word for a child and is the one to use in a shop or a surgery. dzieciak is the affectionate, casual one — closer to 'kid' than to 'child'."
+    },
+    {
+      "en": "This is a young king.",
+      "pl": "To jest młody król.",
+      "accepts": [
+        "To jest młody król.",
+        "To jest młody król",
+        "To młody król.",
+        "To młody król"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "król"
+      ]
+    },
+    {
+      "en": "The king was very popular.",
+      "pl": "Król był bardzo popularny.",
+      "accepts": [
+        "Król był bardzo popularny.",
+        "Król był bardzo popularny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "król"
+      ]
+    },
+    {
+      "en": "The queen lives in England.",
+      "pl": "Królowa mieszka w Anglii.",
+      "accepts": [
+        "Królowa mieszka w Anglii.",
+        "Królowa mieszka w Anglii"
+      ],
+      "structures": [
+        "present_am",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "królowa"
+      ]
+    },
+    {
+      "en": "This is a new queen.",
+      "pl": "To jest nowa królowa.",
+      "accepts": [
+        "To jest nowa królowa.",
+        "To jest nowa królowa",
+        "To nowa królowa.",
+        "To nowa królowa"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "królowa"
+      ],
+      "explain": "królowa is built straight off król with a feminine ending, the way nauczyciel gives nauczycielka — so it takes nowa, not nowy."
+    },
+    {
+      "en": "This is my hero.",
+      "pl": "To jest mój bohater.",
+      "accepts": [
+        "To jest mój bohater.",
+        "To jest mój bohater",
+        "To mój bohater.",
+        "To mój bohater"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "bohater"
+      ]
+    },
+    {
+      "en": "The hero was very strong.",
+      "pl": "Bohater był bardzo silny.",
+      "accepts": [
+        "Bohater był bardzo silny.",
+        "Bohater był bardzo silny"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "bohater"
+      ],
+      "explain": "bohater is both the hero of a story and a person who does something brave. Polish uses one word where English splits 'hero' and 'protagonist'."
+    },
+    {
+      "en": "The president speaks Polish.",
+      "pl": "Prezydent mówi po polsku.",
+      "accepts": [
+        "Prezydent mówi po polsku.",
+        "Prezydent mówi po polsku"
+      ],
+      "structures": [
+        "present_e_isz"
+      ],
+      "lemmas": [
+        "prezydent"
+      ]
+    },
+    {
+      "en": "The president was in hospital.",
+      "pl": "Prezydent był w szpitalu.",
+      "accepts": [
+        "Prezydent był w szpitalu.",
+        "Prezydent był w szpitalu"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "prezydent"
+      ]
+    },
+    {
+      "en": "This is a new leader.",
+      "pl": "To jest nowy przywódca.",
+      "accepts": [
+        "To jest nowy przywódca.",
+        "To jest nowy przywódca",
+        "To nowy przywódca.",
+        "To nowy przywódca"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przywódca"
+      ],
+      "explain": "It ends in -a and it is still masculine — nowy przywódca, not nowa. Polish has a small set of these for men: tata, kolega, artysta, dentysta, sprzedawca. The ending tells you how the word declines, not who it refers to."
+    },
+    {
+      "en": "This leader is very clever.",
+      "pl": "Ten przywódca jest bardzo mądry.",
+      "accepts": [
+        "Ten przywódca jest bardzo mądry.",
+        "Ten przywódca jest bardzo mądry",
+        "Przywódca jest bardzo mądry.",
+        "Przywódca jest bardzo mądry"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przywódca"
+      ]
+    },
+    {
+      "en": "The crowd is very big.",
+      "pl": "Tłum jest bardzo duży.",
+      "accepts": [
+        "Tłum jest bardzo duży.",
+        "Tłum jest bardzo duży"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "tłum"
+      ],
+      "explain": "A crowd is many people but one word, so Polish keeps it singular: tłum jest, never tłum są."
+    },
+    {
+      "en": "There was a crowd in the centre.",
+      "pl": "W centrum był tłum.",
+      "accepts": [
+        "W centrum był tłum.",
+        "W centrum był tłum",
+        "Tłum był w centrum.",
+        "Tłum był w centrum"
+      ],
+      "structures": [
+        "prep_w_loc",
+        "past_byc"
+      ],
+      "lemmas": [
+        "tłum"
+      ],
+      "explain": "Polish likes to set the scene first and put the new thing last, so the place opens the sentence. Tłum był w centrum. is equally correct — it just answers a different question."
+    },
+    {
+      "en": "The audience was big.",
+      "pl": "Publiczność była duża.",
+      "accepts": [
+        "Publiczność była duża.",
+        "Publiczność była duża"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "publiczność"
+      ],
+      "explain": "Two things at once here. publiczność ends in a consonant and is still feminine — była, duża — because nouns in -ość always are. And like tłum it is singular, where English allows 'the audience were'."
+    },
+    {
+      "en": "The audience likes this film.",
+      "pl": "Publiczność lubi ten film.",
+      "accepts": [
+        "Publiczność lubi ten film.",
+        "Publiczność lubi ten film"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc",
+        "ten_ta_to"
+      ],
+      "lemmas": [
+        "publiczność"
+      ]
+    },
+    {
+      "en": "This kid is tired.",
+      "pl": "Ten dzieciak jest zmęczony.",
+      "accepts": [
+        "Ten dzieciak jest zmęczony.",
+        "Ten dzieciak jest zmęczony",
+        "Dzieciak jest zmęczony.",
+        "Dzieciak jest zmęczony"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dzieciak"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "facet",
+    "dziewczyna",
+    "chłopak",
+    "chłopiec",
+    "dzieciak",
+    "król",
+    "królowa",
+    "bohater",
+    "prezydent",
+    "przywódca",
+    "tłum",
+    "publiczność"
+  ],
+  "uses_lemmas": [
+    "jest",
+    "był",
+    "była",
+    "ten",
+    "ta",
+    "mój",
+    "moja",
+    "bardzo",
+    "miły",
+    "mądra",
+    "mądry",
+    "mały",
+    "młody",
+    "popularny",
+    "nowa",
+    "nowy",
+    "silny",
+    "duży",
+    "duża",
+    "zmęczony",
+    "pracuje",
+    "mieszka",
+    "czyta",
+    "ma",
+    "mówi",
+    "lubi",
+    "książkę",
+    "telefon",
+    "film",
+    "w banku",
+    "w polsce",
+    "w szkole",
+    "w domu",
+    "w anglii",
+    "w szpitalu",
+    "w centrum",
+    "po polsku"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_people3",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

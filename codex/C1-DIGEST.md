@@ -4069,3 +4069,215 @@ Two nodes left: **`c1_vocative_note` [237]** and **`c1_wrapup` [238]** (plus
    wires it live writes `codex/COURSE-COMPLETE.md` and then STOPS PERMANENTLY**
    under R8: no rep-station engine, no other app code, that is a design session
    with James first. The repair queue is empty, so that condition is met.
+
+## Batch 19 — `c1_vocative_note`, `c1_wrapup`. C1 IS COMPLETE, AND SO IS THE GRAMMAR COURSE.
+
+Built the last two unbuilt nodes on `path_order`. Each audit-clean, committed
+and pushed to `origin/b1-build` one at a time, not batched. **The path is now
+live from `trunk_social_a1` [0] to `c1_wrapup` [238]: 230 live nodes on a
+240-slot `path_order`, and the only ten that are not live are the permanent
+station placeholders** (four at A2, two at B1, two at B2, two at C1), plus
+`a2_past_gym`, which stays retired off-path. Audit: **230 nodes · errors 0 ·
+warns 7**, and the warn count is *unchanged* by this batch — all seven are the
+five `*_which_case` units and the two long-standing empty-teaches review nodes
+(`a2_prep_review`, `b1_two_futures`). The repair queue is still empty; **neither
+of these units added an item to it.**
+
+One new structure registered in `SEQUENCING.md` **and** `audit.py`'s
+`STRUCTURE_CATALOGUE` before its audit ran: `vocative_note`. `c1_wrapup` needed
+none — it re-declares `situation_chunk`, exactly as all three earlier capstones
+did.
+
+### `c1_vocative_note` — R5 taken literally, which meant building a shape
+
+R5 reads: *"mention it as a kind of footnote, for completion, but say that it is
+seldom used… No endings table, no proper-name rule, nothing to produce."* The
+last three words are the ones that decided the pack's shape, and it is worth
+recording how, because the obvious reading was wrong.
+
+The engine's ladder always contains a Pisanie step, so "nothing to produce"
+cannot be satisfied by writing gentle Pisanie items — it can only be satisfied
+by **having no Pisanie stage at all**. Two packs in the course are already built
+that way, and both are recognition-only: `b1_virile_reco` and `b2_prefix_lens`.
+This pack copies them: **`intro` + `match` + `quiz`, with no `type_items` and no
+`use_items` in the file.** `beginType` in `practice-grammar.js` auto-passes an
+empty stage and hands straight on, so the unit completes normally; the only
+visible consequence is that the ladder shows a "Pisanie" step that fills itself
+in, which is the same cosmetic quirk those two packs have lived with since B1.
+**Worth a look in the hand** — it is the third instance and the first at C1.
+
+**Those two packs also settled the structure-ID question.** Both carry a
+structure ID with an empty `teaches_lemmas`, because what they teach is the
+*existence of a category*, not a form. `vocative_note` follows, which is also
+why this node does **not** add an eighth `teaches_empty_grammar` warn. The
+alternative — copying the five `which_case` units, which teach nothing at all
+and accept the warn — was considered and rejected: those are zero-new drill
+units with a James-locked spec, and this unit does state a fact the learner did
+not have.
+
+**No endings table, and the conservative fork was taken on how to show the six
+chunks.** `b1_vocative_chunks` prints them in a two-column *Saying it / Calling
+them* table. Reprinting that here would have been a derivation table in all but
+name — four rows from which an `-o`/`-u` rule can be read off in about two
+seconds. So slide 2 lists the six calling-forms against **English glosses only**,
+with no plain-form column anywhere in the pack.
+
+**The rarity claim ships without a Polish example, deliberately.** The honest
+illustration of *most speakers now use the ordinary form when calling a first
+name* is a name beside its calling-form, and printing the calling-form of a name
+is precisely what R5 forbids. Slide 3 therefore states it in English and
+demonstrates nothing. If James wants it demonstrated, that is a decision to
+reopen the proper-name pattern, not an authoring detail.
+
+**A homograph inherited from B1 was corrected rather than copied.**
+`b1_vocative_chunks` offers `Mamy` as a distractor and glosses it as a genitive.
+`mamy` is TAUGHT as the **verb** *we have* (`a1_miec`) — it is the first row of
+the spine's own O13 table, and the AGENTS homograph rule exists for exactly this.
+**It is never offered here.** The distractors are `mamę` (Acc), `tacie` (Dat),
+`babcią`/`dziadkiem` (Inst) and `dziadka`/`babci` (Gen ← `c1_od_source`) — real
+taught forms in the wrong case — or real taught words in an illegal combination.
+No fabricated non-word appears anywhere. **`b1_vocative_chunks` was NOT edited**;
+it is not in the repair queue and rewriting a live pack was out of scope for this
+run. Flagged here so the decision is James's.
+
+**Bare `panie` and bare `Piotrze` never appear.** Only the whole taught chunks
+*Panie Piotrze!* and *Pani Anno!* are used. `panie`, `pana` and `panu` are all
+verified NEW and `c1_register` fenced them four nodes back, so the formal
+distractors are built from `pan`/`pani` plus the glue names instead — which is
+why *Panie Anno!*, `b1_vocative_chunks`' own distractor, is absent here.
+
+**Title corrected at the wire**, per `b1_wrapup`'s standing instruction. The
+draft label read *Wołacz · przypis*; `przypis` is an ordinary untaught noun, not
+metalanguage. It is now **`Wołacz · siódmy przypadek`** — `siódmy` is TAUGHT
+(`a2_ordinals_time` [90]) and `przypadek` is the same case metalanguage AGENTS
+sanctions in titles by its own example (*Mieć + biernik*), already on screen in
+the app's Przypadki panel.
+
+### `c1_wrapup` — the capstone, fourth turn
+
+Zero new material, four registers, no fifth: **evaluation** (`c1_evaluation`),
+**society and values** (`c1_society`), **hedging and precision** (`c1_nuance`),
+and **formal-versus-casual address** (`c1_register`). Twelve match rows (three
+per register), twelve Kontrola items, twelve Pisanie, twelve Użycie.
+
+**What was considered for a fifth register and dropped, logged because C1 is
+last:** the plural adjective, the closed pronoun system and the participles are
+C1's three largest additions by volume. All three are **form systems, not
+registers**, and `c1_case_gym` — two nodes back on the path — is the node that
+recombines them. Stacking them here would have been the `a2_past_gym` failure
+verbatim: massed reps on material that already had its board.
+
+**Capstone consistency rule applied** (repair queue, third run). Three Pisanie
+items come from `c1_register`, and each takes that pack's **own** frame and
+blank rather than a fresh choice: *Dzień dobry.* and *Masz czas?* typed whole,
+and *Czy ma ___ czas?* blanking `pan`. The other three registers are **vocab**
+packs with no Pisanie stage, so no source frame existed to mirror — the same gap
+`b1_wrapup` and `b2_wrapup` each logged in their turn.
+
+**Pisanie: two typed whole, ten clozes, nothing added to the repair queue.** The
+two whole-typed items are both two-word frozen chunks. Everything else is a
+composed sentence and therefore a cloze at any length, per the 2026-08-06
+refinement. Every cloze was verified **by assertion** to reconstruct its intended
+sentence character-for-character, and no answer repeats within any stage under a
+Python mirror of the engine's own `norm()`.
+
+**One blank in ten falls off its unit's teaching point**, logged in the item's
+own `note` under the fallback clause: *Społeczeństwo ma ___* blanks `problem`
+rather than the register's own noun. Blanking `społeczeństwo` needs a
+frame-initial blank, and the environment item already carries the other society
+noun visible in its frame — two frame-initial blanks in one stage was the worse
+trade. (Frame-initial blanks are legal and there are 29 of them in the course;
+this was a density judgement, not a legality one.)
+
+**`prawo` is produced with its homograph named in the `explain`.** The learner
+has had the string since A1 inside *na prawo* (to the right, `leaf_places`);
+`c1_society` then taught it as *law*. The Pisanie item that demands it says which
+one it is, rather than letting the collision sit.
+
+**Title re-verified at the wire:** *Wszystko, co znam* — `wszystko`
+(`a2_smalltalk`), `co` (`a1_questions`) and `znam` (`a1_present`) all TAUGHT.
+*Koniec drogi* stays rejected: `drogi` is TAUGHT as the **adjective** *expensive*.
+
+### The fork this batch did not take: `case-map.json`
+
+The routine's standing instruction is to add a row to `data/case-map.json`
+whenever a unit ships a new case governor. **`c1_vocative_note` ships none, and
+the file is untouched** — but the reasoning is worth recording, because "the
+seventh case is missing from the Przypadki panel" will look like an oversight to
+the next reader.
+
+`case-map.json` is organised **by trigger**, and the Vocative has no trigger:
+nothing stands in front of it and no verb selects it. It is chosen by the act of
+addressing someone. Beyond the design objection there is a mechanical one that
+settles it: `renderCaseMap` in `app.js` does `if (!rows || !rows.length) continue`
+— **a case with no trigger rows cannot render at all**, so a `voc` entry would be
+dead data in the file and invisible in the app.
+
+Making it visible would mean inventing a trigger row whose "trigger" is not a
+governor word, inside a table whose entire organising claim — stated on
+`c1_which_case`'s own slide 1 — is that *the case is chosen by the word standing
+in front of the noun*. That is a real cost to the panel that teaches the system,
+paid for one row. **Conservative default taken: no row. James's call if he wants
+the panel to read seven.**
+
+### COURSE-COMPLETE.md was deliberately NOT written, and this is the supersession
+
+`C1-SPINE.md`'s build protocol and `c1_wrapup`'s own node stub both say the run
+that wires the capstone live writes `codex/COURSE-COMPLETE.md` and stops.
+**James's routine brief of 2026-08-08 supersedes that**, explicitly and by his
+own decision: once grammar finishes, the routine **pivots to vocabulary
+authoring** from `codex/vocab/oxford-b1-gap.tsv`, and `COURSE-COMPLETE.md` is
+written only when that list is empty as well. His stated reason is that he is
+progressing through the app himself — finishing A2 that weekend, B1 the week
+after — and the vocabulary gap at his own level matters more right now than the
+last increment of grammar polish. See `codex/VOCAB-REORIENTATION-2026-08-07.md`.
+
+**So the file does not exist yet, on purpose.** R8's "then STOP permanently"
+still governs what happens after the vocab work: no rep-station engine, no A1/C1
+vocab remainder, no other app code.
+
+### Open for James — carried forward, with two added
+
+- **NEW — the recognition-only ladder quirk.** `c1_vocative_note` is the third
+  pack with no Pisanie stage, and the ladder still shows a Pisanie step that
+  auto-passes. Fine in `b1_virile_reco` and `b2_prefix_lens`; worth one look at
+  C1, where it is the very last teaching content before the capstone.
+- **NEW — `b1_vocative_chunks`' `Mamy` distractor.** A live pack offers a form
+  glossed as a genitive that the course teaches as the verb *we have*. Not
+  edited: that pack is not in the repair queue and rewriting live packs was out
+  of this run's scope. One-line fix whenever he wants it.
+- **The seventh case in the Przypadki panel** — the fork above.
+- **The `-owie` and suppletive obliques** (`oczu`, `rąk`, `uszu`, `dziadków`,
+  `synów`), unchanged from batch 18 and now genuinely homeless: Block 10 is
+  closed and there are no grammar nodes left. Any addition is a new node, which
+  is a design session.
+- **Days 13–31 of the month**, **the `chory` list-B entry**, **`c1_register`
+  teaching a productive pattern under a "near-zero" brief**, **`za` and `po` as
+  `case-map.json` rows**, **the synonym-in-`accepts` policy**, **the 161 fold
+  variants**, **`kobiet`**, **`sprzątać`/`posprzątać`** and **the vocabulary
+  volume finding** — all unchanged.
+
+### Next run — the FIRST VOCAB BUILD RUN (step 3 of the routine brief)
+
+Grammar is done and the which-case units are done, so the decision tree lands on
+step 3. The next run builds **2–3 thematic vocab packs** from
+`codex/vocab/oxford-b1-gap.tsv`, **A2 rows first**.
+
+State handed over, verified this run rather than assumed:
+
+- **The gap file is untouched: 883 rows** — 88 a1 · **350 a2** · 445 b1, plus
+  three comment lines. No pack has consumed from it yet, so
+  `codex/VOCAB-BUILD-DIGEST.md` does not exist and the next run creates it.
+- **Hard constraint that makes this safe:** every gap pack is
+  `teaches_structures: []`. No new structure, ever — that is what preserves the
+  sequencing audit's guarantee by construction, without the reading-lane
+  architecture James decided against.
+- Read 2–3 existing same-level vocab packs first (`a2_house.json`,
+  `a2_countries.json` are the brief's own examples) for tone, gender-badge
+  convention and `teaches_lemmas` discipline. Cross-check every candidate
+  against `codex/vocab/pl-frequency-crosscheck.tsv`.
+- Consume the list as you go: delete a pack's rows from the TSV **in the same
+  commit** that ships the pack.
+- Placement: after the last currently-live unit of the pack's own level. Note
+  that every level's own wrapup is already live, so the natural slot is
+  immediately after it — log the call either way.

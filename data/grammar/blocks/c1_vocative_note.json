@@ -1,0 +1,379 @@
+{
+  "id": "c1_vocative_note",
+  "title": "Wołacz · siódmy przypadek",
+  "title_en": "The Vocative · a footnote",
+  "level": "C1",
+  "tree_node": "c1_vocative_note",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1-SPINE RULING R5 (James, 2026-08-07, LOCKED): \"mention it as a kind of footnote, for completion, but say that it is seldom used. do this at an appropriate point, e.g. when all the other cases have been covered.\" Placed after c1_case_gym, so every other case is closed before the seventh is named. RECOGNITION-ONLY PACK: intro + Dopasuj + Kontrola, NO Pisanie and NO Użycie stage at all — the b1_virile_reco / b2_prefix_lens shape, which is the only shape in the course that honours R5's 'nothing to produce' literally. NO ENDINGS TABLE ANYWHERE: the six calling-forms are listed with their English glosses only and are never set beside their plain forms in a two-column derivation table, so nothing here invites the learner to build a seventh form from a sixth. B1 decision #4 is SOFTENED TO A NAMED FOOTNOTE, NOT REOPENED — no proper-name rule, no rule connecting mama to Mamo, no oblique, no plural. ZERO NEW LEMMAS: every Polish string on every surface is pool-verified at path 237, and teaches_lemmas is deliberately empty. Structure vocative_note registered in SEQUENCING.md and audit.py before the audit ran, matching virile_reco and prefix_lens, which are the course's two other recognition-only packs and both carry a structure ID with an empty lemma list. WHAT IS ACTUALLY TAUGHT is a fact about the system, not a form: that the six chunks b1_vocative_chunks handed over whole at path 127 are a case, that it is the seventh in the order Polish schools recite, and that it is genuinely rare outside address. THE RARITY CLAIM IS STATED WITHOUT A POLISH EXAMPLE: the honest fact is that most speakers now use the ordinary form when calling a first name, but demonstrating it would have meant printing a name-vocative, which R5 forbids — so slide 3 states it in English and shows nothing. HOMOGRAPH DISCIPLINE ON DISTRACTORS: mamy is NEVER offered, although b1_vocative_chunks used it — it is TAUGHT as the VERB 'we have' (a1_miec), which is C1-SPINE O13's first row, and a genitive reading of it would be exactly the trap AGENTS names. Distractors are real taught forms in the wrong case (mamę Acc, tacie Dat, babcią Inst, dziadkiem Inst, dziadka/babci Gen from c1_od_source) or real words in an illegal combination; no fabricated non-word appears anywhere, per spine O12. BARE panie AND bare Piotrze ARE NEVER USED: only the whole taught chunks Panie Piotrze! and Pani Anno! appear — panie, pana and panu are all verified NEW and were fenced by c1_register four nodes back, so the formal distractors are built from pan/pani (taught) plus the glue names instead. CASE-MAP NOT TOUCHED, and it cannot be: the Wołacz has no governor, and app.js renderCaseMap skips any case with no trigger rows, so a voc entry would be dead data. Logged as a fork in the digest.",
+  "focus_structures": [
+    "vocative_note"
+  ],
+  "teaches_structures": [
+    "vocative_note"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "vocative_note",
+    "vocative_chunk",
+    "situation_chunk",
+    "social_chunk",
+    "question",
+    "byc_present",
+    "byc_adj",
+    "prep_w_loc",
+    "conditional_sg"
+  ],
+  "uses_lemmas": [
+    "mama",
+    "mamo",
+    "mamę",
+    "tata",
+    "tato",
+    "tacie",
+    "babcia",
+    "babciu",
+    "babcią",
+    "babci",
+    "dziadek",
+    "dziadku",
+    "dziadka",
+    "dziadkiem",
+    "pan",
+    "pani",
+    "panie piotrze",
+    "pani anno",
+    "mamo, gdzie jest apteka",
+    "tato, dziękuję za prezent",
+    "babciu, jak się masz",
+    "dziadku, jestem głodny",
+    "panie piotrze, przepraszam, czy mógłby pan mi pomóc",
+    "pani anno, dziękuję bardzo",
+    "gdzie jest apteka",
+    "gdzie jest dworzec",
+    "dworzec",
+    "apteka",
+    "dziękuję za prezent",
+    "prezent",
+    "dziękuję bardzo za",
+    "dziękuję bardzo",
+    "obiad",
+    "jak się masz",
+    "wszystko dobrze",
+    "do widzenia",
+    "jestem",
+    "jest",
+    "głodny",
+    "zmęczony",
+    "w domu",
+    "czy mogłaby pani mi pomóc",
+    "czy mógłby pan mi pomóc",
+    "przepraszam"
+  ],
+  "intro": [
+    {
+      "title": "The seventh case",
+      "title_pl": "Wołacz — siódmy przypadek",
+      "body": "Polish has seven cases. You have now met, drilled and closed six of them, and the last unit put all six on one board.\n\nThe seventh is the Wołacz. It has one job and no other: calling or addressing someone directly. It never names a subject, it never follows a preposition, and it never answers a question about who did what to whom — which is why the whole course could be built without it and why it has waited until every other case was finished.\n\nThe table below is the order Polish schools recite the cases in. That order is the reason this one is called the seventh.",
+      "body_pl": "Siedem przypadków — wołacz jest siódmy.",
+      "table": {
+        "headers": [
+          "Polish",
+          "English",
+          "What it does"
+        ],
+        "rows": [
+          [
+            "mianownik",
+            "Nominative",
+            "naming — the dictionary form, and the subject of a sentence"
+          ],
+          [
+            "dopełniacz",
+            "Genitive",
+            "absence, quantity, origin, possession"
+          ],
+          [
+            "celownik",
+            "Dative",
+            "the person something is given, said or done FOR"
+          ],
+          [
+            "biernik",
+            "Accusative",
+            "the thing an action lands on — the direct object"
+          ],
+          [
+            "narzędnik",
+            "Instrumental",
+            "what you are, what you travel by, who you are with"
+          ],
+          [
+            "miejscownik",
+            "Locative",
+            "where something is, and what a topic is about — never without a preposition"
+          ],
+          [
+            "wołacz",
+            "Vocative",
+            "calling someone directly — and nothing else"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "You have had six of them in your mouth since B1",
+      "title_pl": "Sześć zwrotów — całe słowa",
+      "body": "This is not a new form to learn. Every Wołacz this course contains was handed to you whole, a hundred units ago, as a set of calling-chunks — and those six are still the whole set.\n\nThey are listed here so that you can see what they were. There is no endings table under this unit and nothing to work out: what you memorised is what there is.",
+      "body_pl": "Bez tabeli końcówek. Bez reguły.",
+      "table": {
+        "headers": [
+          "Calling-form",
+          "Who you are calling"
+        ],
+        "rows": [
+          [
+            "Mamo!",
+            "your mother"
+          ],
+          [
+            "Tato!",
+            "your father"
+          ],
+          [
+            "Babciu!",
+            "your grandmother"
+          ],
+          [
+            "Dziadku!",
+            "your grandfather"
+          ],
+          [
+            "Panie Piotrze!",
+            "a man named Piotr, formally"
+          ],
+          [
+            "Pani Anno!",
+            "a woman named Anna, formally"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Where it survives, and where it has quietly gone",
+      "title_pl": "Wołacz — dziś rzadki",
+      "body": "The honest position, which is the reason this is a footnote and not a unit: the Wołacz has been retreating from spoken Polish for a long time. Call a friend by their first name today and most speakers simply use the ordinary form; the calling-form is still correct, still taught in schools, and increasingly not what you will hear.\n\nTwo places hold on to it firmly, and they are exactly the two you already own. Family address words — Mamo, Tato, Babciu, Dziadku — are alive and unremarkable. And formal address, panie or pani in front of a name, keeps it obligatorily; that is the one you are most likely to have said to you.\n\nSo: nothing to produce here, and nothing new to memorise. The case list is now closed at seven.",
+      "body_pl": "Rodzina · pan i pani — tu wołacz został.",
+      "examples": [
+        {
+          "en": "Mom, where is the pharmacy?",
+          "pl": "Mamo, gdzie jest apteka?"
+        },
+        {
+          "en": "Mr. Piotr, excuse me, could you help me?",
+          "pl": "Panie Piotrze, przepraszam, czy mógłby pan mi pomóc?"
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Mom! (calling her)",
+      "pl": "Mamo!"
+    },
+    {
+      "en": "Dad! (calling him)",
+      "pl": "Tato!"
+    },
+    {
+      "en": "Grandma! (calling her)",
+      "pl": "Babciu!"
+    },
+    {
+      "en": "Grandpa! (calling him)",
+      "pl": "Dziadku!"
+    },
+    {
+      "en": "Mr. Piotr! (formal)",
+      "pl": "Panie Piotrze!"
+    },
+    {
+      "en": "Ms. Anna! (formal)",
+      "pl": "Pani Anno!"
+    },
+    {
+      "en": "Mom, thank you very much for the lunch!",
+      "pl": "Mamo, dziękuję bardzo za obiad!"
+    },
+    {
+      "en": "Dad, where is the station?",
+      "pl": "Tato, gdzie jest dworzec?"
+    },
+    {
+      "en": "Grandma, is everything OK?",
+      "pl": "Babciu, wszystko dobrze?"
+    },
+    {
+      "en": "Grandpa, goodbye!",
+      "pl": "Dziadku, do widzenia!"
+    },
+    {
+      "en": "Mr. Piotr, thank you for the present!",
+      "pl": "Panie Piotrze, dziękuję za prezent!"
+    },
+    {
+      "en": "Ms. Anna, could you help me?",
+      "pl": "Pani Anno, czy mogłaby pani mi pomóc?"
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You come in and want your mother's attention. You call out:",
+      "choices": [
+        "Mamo!",
+        "Mama!",
+        "Mamę!",
+        "Mamie!"
+      ],
+      "answer": "Mamo!",
+      "explain": "Mamo is the Wołacz — the only one of the four that calls her. Mama names her, Mamę makes her the object of a verb, Mamie is the one you give something to."
+    },
+    {
+      "prompt": "Calling out to your father:",
+      "choices": [
+        "Tato!",
+        "Tata!",
+        "Tacie!",
+        "Tatą!"
+      ],
+      "answer": "Tato!",
+      "explain": "Four real forms of the same word, and only one of them is for calling. Tacie and Tatą belong to a verb or a preposition — there is none here."
+    },
+    {
+      "prompt": "Calling out to your grandmother:",
+      "choices": [
+        "Babciu!",
+        "Babcia!",
+        "Babcią!",
+        "Babci!"
+      ],
+      "answer": "Babciu!",
+      "explain": "Babcią is what you say after z, and Babci after od — both need a preposition standing in front. Calling her needs nothing in front at all."
+    },
+    {
+      "prompt": "Calling out to your grandfather:",
+      "choices": [
+        "Dziadku!",
+        "Dziadek!",
+        "Dziadkiem!",
+        "Dziadka!"
+      ],
+      "answer": "Dziadku!",
+      "explain": "Dziadek is how you refer to him, Dziadkiem how you travel with him, Dziadka what you get a letter from. The Wołacz is the one you shout."
+    },
+    {
+      "prompt": "Speaking formally, you call to a man named Piotr:",
+      "choices": [
+        "Panie Piotrze!",
+        "Pan Piotr!",
+        "Pani Anno!",
+        "Dziadku!"
+      ],
+      "answer": "Panie Piotrze!",
+      "explain": "Pan Piotr is how you would refer to him to somebody else. Panie Piotrze is the whole calling-block, memorised as one piece since B1 — nothing in it is built from a rule."
+    },
+    {
+      "prompt": "Speaking formally, you call to a woman named Anna:",
+      "choices": [
+        "Pani Anno!",
+        "Pani Anna!",
+        "Panie Piotrze!",
+        "Babciu!"
+      ],
+      "answer": "Pani Anno!",
+      "explain": "Pani Anna names her; Pani Anno calls her. The two differ by one letter and by one job."
+    },
+    {
+      "prompt": "You are telling a friend where your grandfather is. You say:",
+      "choices": [
+        "Dziadek jest w domu.",
+        "Dziadku jest w domu.",
+        "Dziadkiem jest w domu.",
+        "Dziadka jest w domu."
+      ],
+      "answer": "Dziadek jest w domu.",
+      "explain": "This is the whole footnote in one item. You are speaking ABOUT him, not TO him, so the Wołacz has no business here — the plain naming form does the work."
+    },
+    {
+      "prompt": "Now you are speaking TO him, and asking where the station is:",
+      "choices": [
+        "Dziadku, gdzie jest dworzec?",
+        "Dziadek, gdzie jest dworzec?",
+        "Dziadka, gdzie jest dworzec?",
+        "Dziadkiem, gdzie jest dworzec?"
+      ],
+      "answer": "Dziadku, gdzie jest dworzec?",
+      "explain": "Same man, same sentence, different job — and the calling-form is what marks the difference. The question behind it does not change at all."
+    },
+    {
+      "prompt": "Your mother has cooked lunch and you thank her directly:",
+      "choices": [
+        "Mamo, dziękuję bardzo za obiad!",
+        "Mamę, dziękuję bardzo za obiad!",
+        "Mamie, dziękuję bardzo za obiad!",
+        "Mamą, dziękuję bardzo za obiad!"
+      ],
+      "answer": "Mamo, dziękuję bardzo za obiad!",
+      "explain": "Thanking her is not the same as calling her, but you are still addressing her — and the word in front of a sentence you say TO somebody stands in the Wołacz."
+    },
+    {
+      "prompt": "You are a man, you are hungry, and you are calling out to your grandmother. You say:",
+      "choices": [
+        "Babciu, jestem głodny.",
+        "Babcia jest głodna.",
+        "Babciu, jestem zmęczony.",
+        "Babcia, jestem głodny."
+      ],
+      "answer": "Babciu, jestem głodny.",
+      "explain": "Babcia jest głodna says something about her instead. Głodny is the man's form and describes the speaker, never the person he is calling."
+    },
+    {
+      "prompt": "You want to ask your mother where the pharmacy is:",
+      "choices": [
+        "Mamo, gdzie jest apteka?",
+        "Mama, gdzie jest apteka?",
+        "Mamie, gdzie jest apteka?",
+        "Mamo, gdzie jest dworzec?"
+      ],
+      "answer": "Mamo, gdzie jest apteka?",
+      "explain": "The last one is good Polish about the wrong building. Of the first three, only the Wołacz can open a sentence addressed to her."
+    },
+    {
+      "prompt": "You are speaking straight to your father, not about him. You say:",
+      "choices": [
+        "Tato, dziękuję za prezent!",
+        "Tata jest w domu.",
+        "Mama ma prezent.",
+        "Dziadek jest zmęczony."
+      ],
+      "answer": "Tato, dziękuję za prezent!",
+      "explain": "Three statements about people, one word said to a person. That is the whole distinction the seventh case exists to carry."
+    }
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": "c1",
+    "node_id": "c1_vocative_note",
+    "pool_model": "before:c1_vocative_note"
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "id": "a2_places2",
+  "title": "W mieście",
+  "title_en": "Buildings & places",
+  "level": "A2",
+  "tree_node": "a2_places2",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · SECOND pack of the Oxford A2 vocab-gap build (VOCAB-BUILD-DIGEST batch 1). Grouping rationale: twelve Oxford-A2 building/place nouns taken as one theme, chosen because a1_places, a1_city and a2_travel have already built the frames these words need — prep_w_loc and prep_place have been live since A1, so the pack introduces ZERO structures. teaches_structures is [] by construction. A1/A2 already own dom, mieszkanie, sklep, szkoła, szpital, bank, poczta, apteka, hotel, restauracja, kawiarnia, kino, park, rynek, plac, most, dworzec, przystanek, lotnisko, muzeum-less list — those are ANCHORS here, never re-taught. Judgment calls, all reported: (1) TITLE. 'Miejsca 2' was the obvious match to a1_places ('Miejsca'), and was REJECTED: the plural miejsca is not in teaches_lemmas anywhere, only the singular miejsce, and a title may not carry an untaught form. 'W mieście' uses the taught locative phrase whole, on the a2_work2 ('W pracy') pattern. (2) TWO SENTENCES WERE REWRITTEN AFTER A POOL CHECK: 'To jest stare więzienie.' and 'Te schody są stare.' both failed because stare — the neuter singular and non-virile plural of stary — is NOT taught anywhere; the pool has stara/stary/starsza/starsze/starszy only. Rewritten to duże więzienie and schody są nowe, which use forms that are taught. The assumption that a paradigm is complete because its citation form is taught is exactly the trap the pool exists to catch. (3) SIX LOCATIVE FORMS are taught explicitly as whole w-/na- phrases, so every locative any sentence demands appears in a block and in teaches_lemmas (the every-form-taught rule), the same mechanism a2_house uses. kościół → w kościele carries the ó → o alternation and gets its own explain; it is a sound change inside one word, not a new system, and needs no structure ID. The remaining six nouns are used in the nominative only. (4) schody is plural-only, like meble in a2_house: it takes są, never jest, and no singular exists. (5) galeria is glossed 'gallery (for art)' deliberately — in everyday Polish it far more often means a shopping mall, and the gloss has to fence the sense the pack actually teaches. (6) Two emoji were rejected as visual anchors: 🚪 for brama (it reads as drzwi, already taught) and 🏠 for dach (it reads as dom). Where no safe icon exists the English gloss carries the anchor. (7) złodziej is recycled from a2_jobs2, the pack immediately before this one on the path — the first use of new vocab-gap material as an anchor for later vocab-gap material.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "existential_jest",
+    "prep_w_loc",
+    "prep_place",
+    "past_byc",
+    "ten_ta_to",
+    "present_uje",
+    "plural_nom",
+    "question"
+  ],
+  "blocks": [
+    {
+      "id": "places2_words",
+      "title": "Buildings & places · new words",
+      "items": [
+        {
+          "en": "church",
+          "pl": "kościół",
+          "icon": "⛪",
+          "gender": "m"
+        },
+        {
+          "en": "factory",
+          "pl": "fabryka",
+          "icon": "🏭",
+          "gender": "f"
+        },
+        {
+          "en": "palace",
+          "pl": "pałac",
+          "icon": "🏰",
+          "gender": "m"
+        },
+        {
+          "en": "prison",
+          "pl": "więzienie",
+          "gender": "n"
+        },
+        {
+          "en": "roof",
+          "pl": "dach",
+          "gender": "m"
+        },
+        {
+          "en": "stairs (plural only)",
+          "pl": "schody",
+          "gender": "pl"
+        },
+        {
+          "en": "tower",
+          "pl": "wieża",
+          "icon": "🗼",
+          "gender": "f"
+        },
+        {
+          "en": "gate",
+          "pl": "brama",
+          "gender": "f"
+        },
+        {
+          "en": "gallery (for art)",
+          "pl": "galeria",
+          "gender": "f"
+        },
+        {
+          "en": "car park",
+          "pl": "parking",
+          "icon": "🅿️",
+          "gender": "m"
+        },
+        {
+          "en": "hall (large building: sports or market hall)",
+          "pl": "hala",
+          "gender": "f"
+        },
+        {
+          "en": "pub",
+          "pl": "pub",
+          "icon": "🍺",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "places2_where",
+      "title": "Where? · w / na + these words",
+      "items": [
+        {
+          "en": "in church",
+          "pl": "w kościele"
+        },
+        {
+          "en": "in the factory",
+          "pl": "w fabryce"
+        },
+        {
+          "en": "in prison",
+          "pl": "w więzieniu"
+        },
+        {
+          "en": "on the roof",
+          "pl": "na dachu"
+        },
+        {
+          "en": "in the gallery",
+          "pl": "w galerii"
+        },
+        {
+          "en": "in the car park",
+          "pl": "na parkingu"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is an old church.",
+      "pl": "To jest stary kościół.",
+      "accepts": [
+        "To jest stary kościół.",
+        "To jest stary kościół",
+        "To stary kościół.",
+        "To stary kościół"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kościół"
+      ]
+    },
+    {
+      "en": "The church is in the centre.",
+      "pl": "Kościół jest w centrum.",
+      "accepts": [
+        "Kościół jest w centrum.",
+        "Kościół jest w centrum",
+        "W centrum jest kościół.",
+        "W centrum jest kościół"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kościół"
+      ]
+    },
+    {
+      "en": "Mum was in church.",
+      "pl": "Mama była w kościele.",
+      "accepts": [
+        "Mama była w kościele.",
+        "Mama była w kościele",
+        "W kościele była mama.",
+        "W kościele była mama"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "kościele",
+        "w kościele"
+      ],
+      "explain": "Worth a close look: the ó does not survive the ending. kościół → w kościele — the vowel drops back to a plain o as soon as anything is added. Polish does this in a small set of words, so learn the pair whole rather than the rule."
+    },
+    {
+      "en": "The factory is big.",
+      "pl": "Fabryka jest duża.",
+      "accepts": [
+        "Fabryka jest duża.",
+        "Fabryka jest duża"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "fabryka"
+      ]
+    },
+    {
+      "en": "Dad works in a factory.",
+      "pl": "Tata pracuje w fabryce.",
+      "accepts": [
+        "Tata pracuje w fabryce.",
+        "Tata pracuje w fabryce",
+        "W fabryce pracuje tata.",
+        "W fabryce pracuje tata"
+      ],
+      "structures": [
+        "present_uje",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "fabryce",
+        "w fabryce"
+      ],
+      "explain": "The k turns into c before this ending: fabryka → w fabryce. You have already had exactly this in lodówka → w lodówce."
+    },
+    {
+      "en": "This palace is very old.",
+      "pl": "Ten pałac jest bardzo stary.",
+      "accepts": [
+        "Ten pałac jest bardzo stary.",
+        "Ten pałac jest bardzo stary",
+        "Pałac jest bardzo stary.",
+        "Pałac jest bardzo stary"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pałac"
+      ]
+    },
+    {
+      "en": "The palace is in the city.",
+      "pl": "Pałac jest w mieście.",
+      "accepts": [
+        "Pałac jest w mieście.",
+        "Pałac jest w mieście",
+        "W mieście jest pałac.",
+        "W mieście jest pałac"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "pałac"
+      ]
+    },
+    {
+      "en": "This is a big prison.",
+      "pl": "To jest duże więzienie.",
+      "accepts": [
+        "To jest duże więzienie.",
+        "To jest duże więzienie",
+        "To duże więzienie.",
+        "To duże więzienie"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "więzienie"
+      ],
+      "explain": "więzienie ends in -e, so it is neuter — and that is why the adjective is duże, not duży or duża. Same shape as zdjęcie."
+    },
+    {
+      "en": "The thief was in prison.",
+      "pl": "Złodziej był w więzieniu.",
+      "accepts": [
+        "Złodziej był w więzieniu.",
+        "Złodziej był w więzieniu",
+        "W więzieniu był złodziej.",
+        "W więzieniu był złodziej"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "więzieniu",
+        "w więzieniu"
+      ],
+      "explain": "A neuter noun takes -u here, the same move as biurko → na biurku: więzienie → w więzieniu."
+    },
+    {
+      "en": "The roof is new.",
+      "pl": "Dach jest nowy.",
+      "accepts": [
+        "Dach jest nowy.",
+        "Dach jest nowy"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dach"
+      ]
+    },
+    {
+      "en": "The cat is on the roof.",
+      "pl": "Kot jest na dachu.",
+      "accepts": [
+        "Kot jest na dachu.",
+        "Kot jest na dachu",
+        "Na dachu jest kot.",
+        "Na dachu jest kot"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "dachu",
+        "na dachu"
+      ],
+      "explain": "A masculine noun ending in -ch takes -u rather than -ie: dach → na dachu. na and w take the same case, so the ending would be identical after either."
+    },
+    {
+      "en": "These stairs are new.",
+      "pl": "Te schody są nowe.",
+      "accepts": [
+        "Te schody są nowe.",
+        "Te schody są nowe",
+        "Schody są nowe.",
+        "Schody są nowe"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "plural_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "schody"
+      ],
+      "explain": "schody has no singular — Polish counts a staircase as many things, exactly like meble and like English stairs. So it takes te, są and nowe, never ten, jest or nowy."
+    },
+    {
+      "en": "The tower is high.",
+      "pl": "Wieża jest wysoka.",
+      "accepts": [
+        "Wieża jest wysoka.",
+        "Wieża jest wysoka"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wieża"
+      ]
+    },
+    {
+      "en": "This is a new gate.",
+      "pl": "To jest nowa brama.",
+      "accepts": [
+        "To jest nowa brama.",
+        "To jest nowa brama",
+        "To nowa brama.",
+        "To nowa brama"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "brama"
+      ]
+    },
+    {
+      "en": "Where is the gate?",
+      "pl": "Gdzie jest brama?",
+      "accepts": [
+        "Gdzie jest brama?",
+        "Gdzie jest brama"
+      ],
+      "structures": [
+        "question",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "brama"
+      ]
+    },
+    {
+      "en": "The gallery is new.",
+      "pl": "Galeria jest nowa.",
+      "accepts": [
+        "Galeria jest nowa.",
+        "Galeria jest nowa"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "galeria"
+      ]
+    },
+    {
+      "en": "I was in the gallery. (m)",
+      "pl": "Byłem w galerii.",
+      "accepts": [
+        "Byłem w galerii.",
+        "Byłem w galerii"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "galerii",
+        "w galerii"
+      ],
+      "explain": "A word ending in -ia doubles the i here: galeria → w galerii. It is the same pair you already have in Anglia → w Anglii."
+    },
+    {
+      "en": "The car park is small.",
+      "pl": "Parking jest mały.",
+      "accepts": [
+        "Parking jest mały.",
+        "Parking jest mały"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "parking"
+      ]
+    },
+    {
+      "en": "The car is in the car park.",
+      "pl": "Samochód jest na parkingu.",
+      "accepts": [
+        "Samochód jest na parkingu.",
+        "Samochód jest na parkingu",
+        "Na parkingu jest samochód.",
+        "Na parkingu jest samochód"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_place"
+      ],
+      "lemmas": [
+        "parkingu",
+        "na parkingu"
+      ],
+      "explain": "A noun ending in -g takes -u, the same way -ch does in na dachu: parking → na parkingu. Note it is na, not w — Polish parks a car on the car park."
+    },
+    {
+      "en": "The hall is very big.",
+      "pl": "Hala jest bardzo duża.",
+      "accepts": [
+        "Hala jest bardzo duża.",
+        "Hala jest bardzo duża"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "hala"
+      ]
+    },
+    {
+      "en": "There is a pub in the centre.",
+      "pl": "W centrum jest pub.",
+      "accepts": [
+        "W centrum jest pub.",
+        "W centrum jest pub",
+        "Pub jest w centrum.",
+        "Pub jest w centrum"
+      ],
+      "structures": [
+        "existential_jest",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "pub"
+      ]
+    }
+  ],
+  "teaches_lemmas": [
+    "kościół",
+    "kościele",
+    "w kościele",
+    "fabryka",
+    "fabryce",
+    "w fabryce",
+    "pałac",
+    "więzienie",
+    "więzieniu",
+    "w więzieniu",
+    "dach",
+    "dachu",
+    "na dachu",
+    "schody",
+    "wieża",
+    "brama",
+    "galeria",
+    "galerii",
+    "w galerii",
+    "parking",
+    "parkingu",
+    "na parkingu",
+    "hala",
+    "pub"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "są",
+    "był",
+    "była",
+    "byłem",
+    "pracuje",
+    "gdzie",
+    "bardzo",
+    "ten",
+    "te",
+    "mama",
+    "tata",
+    "kot",
+    "samochód",
+    "złodziej",
+    "centrum",
+    "w centrum",
+    "mieście",
+    "w mieście",
+    "stary",
+    "nowy",
+    "nowa",
+    "nowe",
+    "duża",
+    "duże",
+    "wysoka",
+    "mały"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_places2",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

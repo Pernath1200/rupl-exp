@@ -1,0 +1,667 @@
+{
+  "id": "c1_wrapup",
+  "title": "Wszystko, co znam",
+  "title_en": "The course capstone",
+  "level": "C1",
+  "tree_node": "c1_wrapup",
+  "default_direction": "en_to_pl",
+  "kind": "chunks",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "THE COURSE CAPSTONE — the last teaching node in RUPL. Genre of a2_wrapup_func / b1_wrapup / b2_wrapup, fourth and final turn: ZERO NEW MATERIAL, structure situation_chunk re-declared exactly as those three did (no new structure ID, teaches_lemmas empty). FOUR REGISTERS, NO FIFTH, holding b1_wrapup's deliberate limit for the fourth time, and the four are the ones the C1 spine names: evaluation (c1_evaluation), society and values (c1_society), hedging and precision (c1_nuance), and formal-versus-casual address (c1_register). CANDIDATES CONSIDERED AND DROPPED to hold the limit, logged because C1 is last: the plural adjective, the closed pronoun system and the participles are all C1's largest additions, and all three are FORM systems rather than registers - c1_case_gym is the node that recombines those, two back on the path, and doubling it here would be the a2_past_gym failure. CAPSTONE CONSISTENCY RULE APPLIED (repair queue, third run): the three Pisanie items lifted from c1_register take that pack's OWN frames and blanks verbatim - Dzien dobry. and Masz czas? typed whole, and Czy ma ___ czas? blanking pan - rather than fresh choices, because a capstone should drill a phrase the way it was taught. The other three registers are VOCAB packs with no Pisanie stage, so no source frame existed to mirror; that is the same gap b1_wrapup and b2_wrapup both logged. PISANIE HARD CAP HELD, and this pack adds NOTHING to the repair queue: TWO items are typed whole (Dzien dobry. and Masz czas?, both two-word frozen chunks / pattern phrases) and TEN are clozes, nine of which blank a teaching point of the unit they came from; the tenth is the logged fallback below. Every cloze was verified by assertion to reconstruct its intended sentence character-for-character, and no answer repeats within any stage under a Python mirror of the engine's own norm(). ZERO NEW LEMMAS - every Polish string on every surface was run through check_new.py at path 238 and is owned. HOMOGRAPH NAMED ON THE SLIDE AND IN AN EXPLAIN: prawo is TAUGHT twice over - inside na prawo (to the right, leaf_places) and as law/right (c1_society) - so the Pisanie item that produces it says which one it is. FALLBACK CLAUSE USED ONCE, logged per-item: the society item Spoleczenstwo ma ___ blanks problem rather than the register's own noun, because the frame-initial alternative would have made two of the three society items open with a blank. NO CASE GOVERNOR ADDED - data/case-map.json unchanged. TITLE: 'Wszystko, co znam' verified at the wire per b1_wrapup's standing instruction - wszystko (a2_smalltalk), co (a1_questions) and znam (a1_present) are all TAUGHT. 'Koniec drogi' stays rejected: drogi is TAUGHT as the ADJECTIVE expensive (leaf_shopping_a1), b2_gen_pl_full's sharpest homograph catch.",
+  "focus_structures": [
+    "situation_chunk"
+  ],
+  "teaches_structures": [
+    "situation_chunk"
+  ],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "situation_chunk",
+    "register_switch",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to",
+    "to_jest",
+    "miec_present",
+    "miec_acc",
+    "question",
+    "questions2",
+    "negation",
+    "prep_w_loc",
+    "conjunctions",
+    "ze_clauses",
+    "reported",
+    "indirect_q",
+    "wiedziec",
+    "conditional_sg",
+    "part_adv",
+    "prosic_o",
+    "social_chunk"
+  ],
+  "uses_lemmas": [
+    "łatwy",
+    "trudny",
+    "trudna",
+    "gotowy",
+    "pusty",
+    "pusta",
+    "pełna",
+    "dziwny",
+    "zwykły",
+    "oczywisty",
+    "konieczny",
+    "możliwy",
+    "niemożliwy",
+    "skuteczny",
+    "społeczeństwo",
+    "środowisko",
+    "wolność",
+    "prawo",
+    "obowiązki",
+    "nauka",
+    "technologia",
+    "rząd",
+    "klimat",
+    "ważne",
+    "ważna",
+    "pewnie",
+    "wydaje mi się",
+    "naprawdę",
+    "dokładnie",
+    "właściwie",
+    "przynajmniej",
+    "całkiem",
+    "szczerze mówiąc",
+    "mówiąc",
+    "cześć",
+    "dzień dobry",
+    "na razie",
+    "do widzenia",
+    "czy mógłby pan mi pomóc",
+    "czy mogłaby pani mi pomóc",
+    "chcę kawę",
+    "chciałbym",
+    "przepraszam",
+    "pan",
+    "pani",
+    "czas",
+    "kawa",
+    "kawę",
+    "dobra",
+    "dobry",
+    "dobre",
+    "nowy",
+    "nowe",
+    "plan",
+    "problem",
+    "termin",
+    "lodówka",
+    "obiad",
+    "film",
+    "bank",
+    "sklep",
+    "praca",
+    "pogoda",
+    "ładna",
+    "polski",
+    "myślę",
+    "powiedział",
+    "robi",
+    "ma",
+    "tata",
+    "mama",
+    "jest",
+    "w domu",
+    "nie wiem",
+    "zmęczony",
+    "ale",
+    "a",
+    "ten",
+    "ta",
+    "to",
+    "masz",
+    "poproszę",
+    "o",
+    "mieszka",
+    "mógłby",
+    "mogłaby",
+    "pomóc",
+    "że",
+    "gdzie",
+    "co",
+    "nie",
+    "wydaje",
+    "cztery",
+    "rozmowa",
+    "nic nowego",
+    "koniec"
+  ],
+  "intro": [
+    {
+      "title": "Four registers, nothing new",
+      "title_pl": "Cztery rejestry, nic nowego",
+      "body": "This is the last unit of the course, and it teaches you no new Polish at all. Every phrase in it comes from one of the four registers C1 added: judging what something is like, talking about society and what a country owes its people, saying how sure you are, and choosing between formal and casual address.\n\nUntil now each of the four was practised on its own. Here they are mixed, because that is how they actually arrive — you form a view, you say how firmly you hold it, and you pitch it at the person in front of you.",
+      "body_pl": "Obiad jest gotowy. · Środowisko jest ważne. · Wydaje mi się… · Czy ma pan czas?",
+      "examples": [
+        {
+          "en": "Dinner is ready. (evaluation)",
+          "pl": "Obiad jest gotowy."
+        },
+        {
+          "en": "The environment is important. (society)",
+          "pl": "Środowisko jest ważne."
+        },
+        {
+          "en": "It seems to me that the film is good. (hedging)",
+          "pl": "Wydaje mi się, że film jest dobry."
+        },
+        {
+          "en": "Have you got time? — to a man you don't know. (register)",
+          "pl": "Czy ma pan czas?"
+        }
+      ]
+    },
+    {
+      "title": "Four registers, one shape each",
+      "title_pl": "…jest trudny · …jest ważne · Wydaje mi się… · Czy ma pan…?",
+      "body": "Each register has a shape, and once the shape is visible you can hear which one someone is in.\n\nEvaluation and society look identical on the page — a noun, jest, and an adjective — and differ only in what stands in the subject slot: a fridge and a deadline on one side, freedom and the law on the other. Hedging is the only one that does not describe anything: it wraps a sentence you have already built and lowers or raises how firmly you are claiming it. Register is the only one that changes the verb rather than the words.\n\nThat last row is what a capstone can show and no single unit could: the same fact goes out four different ways depending on who is listening.",
+      "body_pl": "Lodówka jest pusta. · Rząd ma nowy plan. · Tata pewnie jest w domu. · Czy ma pan czas?",
+      "table": {
+        "headers": [
+          "Register",
+          "Shape",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Evaluation",
+            "…jest trudny / gotowy / pusty",
+            "Lodówka jest pusta."
+          ],
+          [
+            "Society & values",
+            "…jest ważne / Rząd ma…",
+            "Rząd ma nowy plan."
+          ],
+          [
+            "Hedging & precision",
+            "Wydaje mi się, że… / pewnie / naprawdę",
+            "Tata pewnie jest w domu."
+          ],
+          [
+            "Formal & casual",
+            "Masz…? against Czy ma pan…?",
+            "Czy ma pan czas?"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One conversation, four registers",
+      "title_pl": "Rozmowa: cztery rejestry",
+      "body": "Here is the whole thing chained together — you stop a stranger, you say how sure you are, you say what you think of a law, and you judge how the day is going. Nothing in it is new. Every sentence is a phrase from one of the four units you have already finished.\n\nRead it once as a conversation before you start the exercises. Then it is over: this is the last thing the course has to teach you.",
+      "body_pl": "Dzień dobry. Czy ma pan czas? Wydaje mi się, że nowe prawo jest dobre. Szczerze mówiąc, ta praca jest trudna. Przynajmniej pogoda jest ładna.",
+      "examples": [
+        {
+          "en": "Register: Good morning. Have you got time? (to a man you don't know)",
+          "pl": "Dzień dobry. Czy ma pan czas?"
+        },
+        {
+          "en": "Hedging + society: It seems to me that the new law is good.",
+          "pl": "Wydaje mi się, że nowe prawo jest dobre."
+        },
+        {
+          "en": "Hedging + evaluation: Frankly speaking, this work is difficult.",
+          "pl": "Szczerze mówiąc, ta praca jest trudna."
+        },
+        {
+          "en": "Hedging + evaluation: At least the weather is nice.",
+          "pl": "Przynajmniej pogoda jest ładna."
+        }
+      ]
+    }
+  ],
+  "match": [
+    {
+      "en": "Polish is difficult.",
+      "pl": "Polski jest trudny."
+    },
+    {
+      "en": "The fridge is empty.",
+      "pl": "Lodówka jest pusta."
+    },
+    {
+      "en": "Dinner is ready.",
+      "pl": "Obiad jest gotowy."
+    },
+    {
+      "en": "The environment is important.",
+      "pl": "Środowisko jest ważne."
+    },
+    {
+      "en": "The government has a new plan.",
+      "pl": "Rząd ma nowy plan."
+    },
+    {
+      "en": "Freedom is important.",
+      "pl": "Wolność jest ważna."
+    },
+    {
+      "en": "Dad is probably at home.",
+      "pl": "Tata pewnie jest w domu."
+    },
+    {
+      "en": "This coffee is really good.",
+      "pl": "Ta kawa jest naprawdę dobra."
+    },
+    {
+      "en": "Frankly speaking, I'm tired.",
+      "pl": "Szczerze mówiąc, jestem zmęczony."
+    },
+    {
+      "en": "Have you got time? · to a friend",
+      "pl": "Masz czas?"
+    },
+    {
+      "en": "Have you got time? · to a man, formally",
+      "pl": "Czy ma pan czas?"
+    },
+    {
+      "en": "I'd like a coffee. · the raised form",
+      "pl": "Chciałbym kawę."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "You open the fridge and there is nothing in it. You say:",
+      "choices": [
+        "Lodówka jest pusta.",
+        "Lodówka jest pełna.",
+        "Lodówka jest gotowa.",
+        "Lodówka jest dziwna."
+      ],
+      "answer": "Lodówka jest pusta.",
+      "explain": "pusty and pełny are the pair, and they are the two that answer this question. gotowa would say the fridge itself had been prepared, which is not a thing anyone says about a fridge."
+    },
+    {
+      "prompt": "You have finished cooking and lunch can go on the table. You say:",
+      "choices": [
+        "Obiad jest gotowy.",
+        "Obiad jest pełny.",
+        "Obiad jest konieczny.",
+        "Obiad jest zwykły."
+      ],
+      "answer": "Obiad jest gotowy.",
+      "explain": "gotowy is about the state of a thing, not about the person who made it — nothing in the sentence says who cooked. Obiad jest konieczny would be an argument for having lunch at all."
+    },
+    {
+      "prompt": "A deadline has been set that nobody could possibly meet. You say:",
+      "choices": [
+        "Ten termin jest niemożliwy.",
+        "Ten termin jest możliwy.",
+        "Ten termin jest oczywisty.",
+        "Ten termin jest zwykły."
+      ],
+      "answer": "Ten termin jest niemożliwy.",
+      "explain": "The nie- on the front is the whole difference between the first two, and it is the only piece of the word that moves. Ten termin jest zwykły says the opposite — that there is nothing remarkable about it."
+    },
+    {
+      "prompt": "You are saying that clean air and nature matter. You say:",
+      "choices": [
+        "Środowisko jest ważne.",
+        "Społeczeństwo jest ważne.",
+        "Prawo jest ważne.",
+        "Technologia jest ważna."
+      ],
+      "answer": "Środowisko jest ważne.",
+      "explain": "Four subjects, one predicate. środowisko is the natural world; społeczeństwo is the people in it. Note the last one: technologia is feminine, so its adjective is ważna, not ważne."
+    },
+    {
+      "prompt": "The government has announced what it intends to do. You say:",
+      "choices": [
+        "Rząd ma nowy plan.",
+        "Rząd ma nowe prawo.",
+        "Rząd ma problem.",
+        "Rząd ma obowiązki."
+      ],
+      "answer": "Rząd ma nowy plan.",
+      "explain": "All four are things a government can have, and only the first is an intention. Rząd ma nowe prawo would mean the law has already been passed."
+    },
+    {
+      "prompt": "Someone asks what you make of technology, and you want to commit to a view rather than report a fact. You say:",
+      "choices": [
+        "Myślę, że technologia jest dobra.",
+        "Technologia jest nowa.",
+        "Nauka jest trudna.",
+        "Nie wiem, co robi rząd."
+      ],
+      "answer": "Myślę, że technologia jest dobra.",
+      "explain": "Myślę, że opens an opinion; Technologia jest nowa states something anyone could check. That is the difference between saying what you think and saying what is so."
+    },
+    {
+      "prompt": "You are fairly sure your father is home, but you have not checked. You say:",
+      "choices": [
+        "Tata pewnie jest w domu.",
+        "Tata jest w domu.",
+        "Tata naprawdę jest w domu.",
+        "Tata właściwie jest w domu."
+      ],
+      "answer": "Tata pewnie jest w domu.",
+      "explain": "pewnie lowers the claim to a guess. The bare sentence asserts it flatly, and naprawdę raises it further still — it insists. właściwie corrects something the other person said rather than hedging."
+    },
+    {
+      "prompt": "You want to offer your view of the film as an impression, not as a verdict. You say:",
+      "choices": [
+        "Wydaje mi się, że film jest dobry.",
+        "Film jest dobry.",
+        "Film jest naprawdę dobry.",
+        "Wiem, że film jest dobry."
+      ],
+      "answer": "Wydaje mi się, że film jest dobry.",
+      "explain": "Only the first lowers the claim. The other three go the other way — the bare statement asserts it, naprawdę insists on it, and Wiem, że claims you have grounds."
+    },
+    {
+      "prompt": "You are about to say something honest that the other person may not want to hear. You say:",
+      "choices": [
+        "Szczerze mówiąc, ta praca jest trudna.",
+        "Właściwie ta praca jest trudna.",
+        "Przynajmniej ta praca jest trudna.",
+        "Ta praca jest całkiem trudna."
+      ],
+      "answer": "Szczerze mówiąc, ta praca jest trudna.",
+      "explain": "Szczerze mówiąc warns that candour is coming. Właściwie corrects, przynajmniej salvages one good thing from a bad situation, and całkiem softens the adjective itself — four different jobs on one sentence."
+    },
+    {
+      "prompt": "You stop a man you have never met and ask whether he has a moment. You say:",
+      "choices": [
+        "Czy ma pan czas?",
+        "Masz czas?",
+        "Czy masz pan czas?",
+        "Czy ma pani czas?"
+      ],
+      "answer": "Czy ma pan czas?",
+      "explain": "Masz czas? is second person and is what you say to a friend. Czy masz pan czas? mixes the two — pan needs the third person ma, never masz. The last one is right in every respect except that he is a man."
+    },
+    {
+      "prompt": "You are at a café counter, ordering a coffee the way one does. You say:",
+      "choices": [
+        "Poproszę o kawę.",
+        "Chcę kawę.",
+        "Masz kawę?",
+        "Kawa jest gotowa."
+      ],
+      "answer": "Poproszę o kawę.",
+      "explain": "Chcę kawę is not rude, but it states a want where Polish expects a request. Masz kawę? asks whether the person has any, which is a different question altogether."
+    },
+    {
+      "prompt": "You greet a woman you have never met before. You say:",
+      "choices": [
+        "Dzień dobry.",
+        "Cześć.",
+        "Na razie.",
+        "Do widzenia."
+      ],
+      "answer": "Dzień dobry.",
+      "explain": "Cześć is a real greeting, but only to somebody you are already on ty terms with — to a stranger it is not warm, it is presumptuous. The last two are goodbyes, and the wrong end of the conversation."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "hello — to somebody you don't know",
+      "mode": "full_word",
+      "answer": "Dzień dobry.",
+      "accepts": [
+        "Dzień dobry.",
+        "Dzień dobry"
+      ],
+      "note": "Lifted whole from c1_register's own Pisanie item, per the capstone consistency rule. Frozen chunk, two words — under the cap and not composed."
+    },
+    {
+      "prompt_en": "Have you got time? — to a friend",
+      "mode": "full_word",
+      "answer": "Masz czas?",
+      "accepts": [
+        "Masz czas?",
+        "Masz czas"
+      ],
+      "note": "c1_register's own frame and treatment. Pattern phrase, two words."
+    },
+    {
+      "prompt_en": "Have you got time? — to a man you don't know.",
+      "mode": "cloze",
+      "frame": "Czy ma ___ czas?",
+      "answer": "pan",
+      "accepts": [
+        "pan"
+      ],
+      "explain": "The verb has already gone into the third person — ma, not masz — and pan is the word that put it there.",
+      "note": "c1_register's own frame and blank, copied exactly rather than chosen afresh (capstone consistency rule, repair queue third run)."
+    },
+    {
+      "prompt_en": "Dinner is ready.",
+      "mode": "cloze",
+      "frame": "Obiad jest ___.",
+      "answer": "gotowy",
+      "accepts": [
+        "gotowy"
+      ],
+      "explain": "obiad is masculine, so the adjective ends in -y. Nothing in the sentence says who did the cooking — gotowy describes the state the meal is in.",
+      "note": "Pisanie hard cap. Composed (noun + jest + adjective), so a cloze at three words. Blanks c1_evaluation's teaching point."
+    },
+    {
+      "prompt_en": "The fridge is empty.",
+      "mode": "cloze",
+      "frame": "Lodówka jest ___.",
+      "answer": "pusta",
+      "accepts": [
+        "pusta"
+      ],
+      "explain": "lodówka is feminine, so pusty becomes pusta. The ending is chosen by the fridge, not by the emptiness.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_evaluation's teaching point."
+    },
+    {
+      "prompt_en": "This deadline is impossible.",
+      "mode": "cloze",
+      "frame": "Ten termin jest ___.",
+      "answer": "niemożliwy",
+      "accepts": [
+        "niemożliwy"
+      ],
+      "explain": "One word carries both halves: nie- on the front negates, and the -y agrees with termin. Polish writes it as a single word, not as two.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_evaluation's teaching point."
+    },
+    {
+      "prompt_en": "The environment is important.",
+      "mode": "cloze",
+      "frame": "Środowisko jest ___.",
+      "answer": "ważne",
+      "accepts": [
+        "ważne"
+      ],
+      "explain": "środowisko is neuter, which is why the adjective ends in -e here and in -a after wolność.",
+      "note": "Pisanie hard cap. Composed, cloze. ważne is one of c1_society's own taught forms, so the blank is on that pack's teaching point."
+    },
+    {
+      "prompt_en": "This is a new law.",
+      "mode": "cloze",
+      "frame": "To jest nowe ___.",
+      "answer": "prawo",
+      "accepts": [
+        "prawo"
+      ],
+      "explain": "This is the law, not the direction. You have known prawo since A1 inside na prawo — to the right — and it is the same string doing an entirely different job.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_society's teaching point, and it is the pack's homograph — named in the explain rather than left to sting."
+    },
+    {
+      "prompt_en": "Society has a problem.",
+      "mode": "cloze",
+      "frame": "Społeczeństwo ma ___.",
+      "answer": "problem",
+      "accepts": [
+        "problem"
+      ],
+      "explain": "problem is masculine and not alive, so the accusative after ma leaves it exactly as it stands.",
+      "note": "FALLBACK CLAUSE, logged: this blank is NOT on the unit's teaching point. społeczeństwo is the register's own word, but blanking it would need a frame opening with the blank, and the environment item above already carries the society noun in its frame — two frame-initial blanks in one stage was the worse trade. The teaching point stays visible and is read whole."
+    },
+    {
+      "prompt_en": "Dad is probably at home.",
+      "mode": "cloze",
+      "frame": "Tata ___ jest w domu.",
+      "answer": "pewnie",
+      "accepts": [
+        "pewnie"
+      ],
+      "explain": "pewnie sits between the subject and the verb and changes nothing around it — the sentence underneath is the same one you have said since A1.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_nuance's teaching point."
+    },
+    {
+      "prompt_en": "This coffee is really good.",
+      "mode": "cloze",
+      "frame": "Ta kawa jest ___ dobra.",
+      "answer": "naprawdę",
+      "accepts": [
+        "naprawdę"
+      ],
+      "explain": "naprawdę stands in front of the adjective and raises the claim. It never changes shape, whatever it is standing in front of.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_nuance's teaching point."
+    },
+    {
+      "prompt_en": "I don't know exactly where the bank is.",
+      "mode": "cloze",
+      "frame": "Nie wiem ___, gdzie jest bank.",
+      "answer": "dokładnie",
+      "accepts": [
+        "dokładnie"
+      ],
+      "explain": "dokładnie narrows what you are denying: not that you have no idea, but that you cannot be precise about it.",
+      "note": "Pisanie hard cap. Composed, cloze. Blanks c1_nuance's teaching point."
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I think the environment is important.",
+      "answer": "Myślę, że środowisko jest ważne.",
+      "accepts": [
+        "Myślę, że środowisko jest ważne.",
+        "Myślę, że środowisko jest ważne"
+      ],
+      "explain": "The opinion frame takes the society sentence whole — nothing inside it changes, że just joins it on."
+    },
+    {
+      "prompt_en": "Type: It seems to me that this deadline is impossible.",
+      "answer": "Wydaje mi się, że ten termin jest niemożliwy.",
+      "accepts": [
+        "Wydaje mi się, że ten termin jest niemożliwy.",
+        "Wydaje mi się, że ten termin jest niemożliwy"
+      ],
+      "explain": "Hedging in front, evaluation behind. The hedge does not touch the sentence it is lowering."
+    },
+    {
+      "prompt_en": "Type: Frankly speaking, this coffee is really good.",
+      "answer": "Szczerze mówiąc, ta kawa jest naprawdę dobra.",
+      "accepts": [
+        "Szczerze mówiąc, ta kawa jest naprawdę dobra.",
+        "Szczerze mówiąc, ta kawa jest naprawdę dobra"
+      ],
+      "explain": "Two hedging words in one sentence pulling opposite ways: szczerze mówiąc warns you are being blunt, naprawdę makes the praise stronger."
+    },
+    {
+      "prompt_en": "Type: The government has a new plan, but this plan is strange.",
+      "answer": "Rząd ma nowy plan, ale ten plan jest dziwny.",
+      "accepts": [
+        "Rząd ma nowy plan, ale ten plan jest dziwny.",
+        "Rząd ma nowy plan, ale ten plan jest dziwny"
+      ],
+      "explain": "Society on one side of ale, evaluation on the other. That is the whole capstone in one sentence."
+    },
+    {
+      "prompt_en": "Type: Excuse me, could you help me? — to a man you don't know.",
+      "answer": "Przepraszam, czy mógłby pan mi pomóc?",
+      "accepts": [
+        "Przepraszam, czy mógłby pan mi pomóc?",
+        "Przepraszam, czy mógłby pan mi pomóc",
+        "Przepraszam, mógłby pan mi pomóc?",
+        "Przepraszam, mógłby pan mi pomóc"
+      ]
+    },
+    {
+      "prompt_en": "Type: Mum is probably at home, and lunch is ready.",
+      "answer": "Mama pewnie jest w domu, a obiad jest gotowy.",
+      "accepts": [
+        "Mama pewnie jest w domu, a obiad jest gotowy.",
+        "Mama pewnie jest w domu, a obiad jest gotowy"
+      ],
+      "explain": "a joins two sentences that sit side by side without arguing with each other — ale would suggest the second undercuts the first."
+    },
+    {
+      "prompt_en": "Type: I don't know exactly what the government is doing.",
+      "answer": "Nie wiem dokładnie, co robi rząd.",
+      "accepts": [
+        "Nie wiem dokładnie, co robi rząd.",
+        "Nie wiem dokładnie, co robi rząd"
+      ],
+      "explain": "The subject stands after the verb inside the indirect question — co robi rząd, not co rząd robi. Both are heard; this is the ordinary one."
+    },
+    {
+      "prompt_en": "Type: Have you got time? — to a woman you don't know.",
+      "answer": "Czy ma pani czas?",
+      "accepts": [
+        "Czy ma pani czas?",
+        "Czy ma pani czas",
+        "Ma pani czas?",
+        "Ma pani czas"
+      ]
+    },
+    {
+      "prompt_en": "Type: Good morning. Could you help me? — to a woman you don't know.",
+      "answer": "Dzień dobry. Czy mogłaby pani mi pomóc?",
+      "accepts": [
+        "Dzień dobry. Czy mogłaby pani mi pomóc?",
+        "Dzień dobry. Czy mogłaby pani mi pomóc",
+        "Dzień dobry. Mogłaby pani mi pomóc?",
+        "Dzień dobry. Mogłaby pani mi pomóc"
+      ],
+      "explain": "The greeting and the request are pitched at the same person, so they have to agree — Cześć in front of this request would be a mismatch."
+    },
+    {
+      "prompt_en": "Type: Dad said that the new law is good.",
+      "answer": "Tata powiedział, że nowe prawo jest dobre.",
+      "accepts": [
+        "Tata powiedział, że nowe prawo jest dobre.",
+        "Tata powiedział, że nowe prawo jest dobre"
+      ],
+      "explain": "Polish keeps the words he actually said, so jest stays in the present even though the English shifts it back."
+    },
+    {
+      "prompt_en": "Type: At least the weather is nice.",
+      "answer": "Przynajmniej pogoda jest ładna.",
+      "accepts": [
+        "Przynajmniej pogoda jest ładna.",
+        "Przynajmniej pogoda jest ładna"
+      ]
+    },
+    {
+      "prompt_en": "Type: A coffee, please. — at a counter",
+      "answer": "Poproszę o kawę.",
+      "accepts": [
+        "Poproszę o kawę.",
+        "Poproszę o kawę"
+      ]
+    }
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": "c1",
+    "node_id": "c1_wrapup",
+    "pool_model": "before:c1_wrapup"
+  }
+}

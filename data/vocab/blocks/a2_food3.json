@@ -1,0 +1,534 @@
+{
+  "id": "a2_food3",
+  "title": "Jedzenie 3",
+  "title_en": "Food & cooking 3",
+  "level": "A2",
+  "tree_node": "a2_food3",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · THIRD pack of the Oxford A2 vocab-gap build (VOCAB-BUILD-DIGEST batch 1). Grouping rationale: twelve Oxford-A2 food and kitchen nouns as one theme. Where a2_jobs2 rides inst_identity and a2_places2 rides the locative, this pack rides the ACCUSATIVE — miec_acc has been live since A1 and a1_shopping / a1_freetime already demand kawę, herbatę, zupę, muzykę, grę — so the pack introduces ZERO structures. teaches_structures is [] by construction. a1_food and a2_food2 already own chleb, mleko, kawa, herbata, woda, piwo, wino, zupa, ser, ryż, mięso, jajko, masło, cukier, sok, sałatka, kurczak, deser, obiad, śniadanie, kolacja, danie, napój, talerz, widelec, nóż, łyżka, filiżanka, kubek, szklanka, butelka — ANCHORS here, never re-taught. Judgment calls, all reported: (1) FOUR ACCUSATIVE FORMS are taught explicitly as whole Lubię / Kupuję phrases in block 2, so every form a sentence demands appears in a block and in teaches_lemmas. The block deliberately mixes the feminines that DO change (fasolę, wołowinę, cytrynę, miskę) with a masculine inanimate and a plural that do NOT (olej, frytki) — the contrast is the point, and both halves are already-taught behaviour, not new rules. (2) THREE ADJECTIVES WERE WANTED AND REFUSED BY THE POOL: żółta for cytryna (only żółty is taught), słodkie for ciastko (only słodka/słodki), gorące for frytki (only gorąca/gorący/gorąco). Every one is a gender form of an adjective whose citation form IS taught — the same trap that caught stare in a2_places2. Sentences were rewritten around taught forms rather than the forms being smuggled in. (3) przepis is glossed 'recipe (for cooking)' because it also means a regulation, and because a2_health2 already teaches recepta ('prescription'), which an English speaker will want to map onto 'recipe'. The gloss has to do that work. (4) orzech gets one sentence rather than two: every natural second frame for it needed either a plural (orzechy) or a locative (w torcie, w misce) that is taught nowhere, and inventing one to pad the pack would have cost a form. (5) 'Mamy nowy piekarnik.' uses mamy as the VERB, which is how a1_miec teaches it — the AGENTS.md homograph example (mamy as the genitive of mama) is the reading this pack does NOT use. (6) Icons kept to the Emoji-1.0 set (🍋 🍟 🍪) after a2_countries' note that a newer sequence failed to render on Win10.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "miec_acc",
+    "present_uje",
+    "present_e_isz",
+    "past_byc",
+    "ten_ta_to",
+    "plural_nom"
+  ],
+  "blocks": [
+    {
+      "id": "food3_words",
+      "title": "Food & kitchen · new words",
+      "items": [
+        {
+          "en": "beans",
+          "pl": "fasola",
+          "gender": "f"
+        },
+        {
+          "en": "beef",
+          "pl": "wołowina",
+          "gender": "f"
+        },
+        {
+          "en": "biscuit",
+          "pl": "ciastko",
+          "icon": "🍪",
+          "gender": "n"
+        },
+        {
+          "en": "bowl",
+          "pl": "miska",
+          "gender": "f"
+        },
+        {
+          "en": "lemon",
+          "pl": "cytryna",
+          "icon": "🍋",
+          "gender": "f"
+        },
+        {
+          "en": "nut",
+          "pl": "orzech",
+          "gender": "m"
+        },
+        {
+          "en": "sauce",
+          "pl": "sos",
+          "gender": "m"
+        },
+        {
+          "en": "recipe (for cooking)",
+          "pl": "przepis",
+          "gender": "m"
+        },
+        {
+          "en": "oven",
+          "pl": "piekarnik",
+          "gender": "m"
+        },
+        {
+          "en": "cooker / hob",
+          "pl": "kuchenka",
+          "gender": "f"
+        },
+        {
+          "en": "oil (for cooking)",
+          "pl": "olej",
+          "gender": "m"
+        },
+        {
+          "en": "chips / fries (plural only)",
+          "pl": "frytki",
+          "icon": "🍟",
+          "gender": "pl"
+        }
+      ]
+    },
+    {
+      "id": "food3_object",
+      "title": "As the object · what changes and what does not",
+      "items": [
+        {
+          "en": "I like beans",
+          "pl": "Lubię fasolę"
+        },
+        {
+          "en": "I'm buying beef",
+          "pl": "Kupuję wołowinę"
+        },
+        {
+          "en": "I like lemon",
+          "pl": "Lubię cytrynę"
+        },
+        {
+          "en": "I'm buying a bowl",
+          "pl": "Kupuję miskę"
+        },
+        {
+          "en": "I'm buying oil — no change",
+          "pl": "Kupuję olej"
+        },
+        {
+          "en": "I like chips — no change",
+          "pl": "Lubię frytki"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is good beef.",
+      "pl": "To jest dobra wołowina.",
+      "accepts": [
+        "To jest dobra wołowina.",
+        "To jest dobra wołowina",
+        "To dobra wołowina.",
+        "To dobra wołowina"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wołowina"
+      ]
+    },
+    {
+      "en": "Mum is buying beef.",
+      "pl": "Mama kupuje wołowinę.",
+      "accepts": [
+        "Mama kupuje wołowinę.",
+        "Mama kupuje wołowinę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "wołowinę"
+      ],
+      "explain": "A feminine word in -a swaps to -ę when it is the thing being bought or liked: wołowina → wołowinę. You already do this every time you say Kupuję kawę."
+    },
+    {
+      "en": "Beans are cheap.",
+      "pl": "Fasola jest tania.",
+      "accepts": [
+        "Fasola jest tania.",
+        "Fasola jest tania"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "fasola"
+      ],
+      "explain": "Polish treats beans as one substance, not many things, so fasola is singular and takes jest — where English says beans are, Polish says fasola jest."
+    },
+    {
+      "en": "I like beans.",
+      "pl": "Lubię fasolę.",
+      "accepts": [
+        "Lubię fasolę.",
+        "Lubię fasolę"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "fasolę"
+      ]
+    },
+    {
+      "en": "This biscuit is good.",
+      "pl": "To ciastko jest dobre.",
+      "accepts": [
+        "To ciastko jest dobre.",
+        "To ciastko jest dobre",
+        "Ciastko jest dobre.",
+        "Ciastko jest dobre"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ciastko"
+      ],
+      "explain": "ciastko ends in -o, so it is neuter — that is why it takes to rather than ten or ta, and why the adjective is dobre."
+    },
+    {
+      "en": "I have a biscuit.",
+      "pl": "Mam ciastko.",
+      "accepts": [
+        "Mam ciastko.",
+        "Mam ciastko"
+      ],
+      "structures": [
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ciastko"
+      ],
+      "explain": "Nothing moves. A neuter noun looks exactly the same as the object as it does on its own — the same reason Mam dziecko needs no change."
+    },
+    {
+      "en": "The bowl is small.",
+      "pl": "Miska jest mała.",
+      "accepts": [
+        "Miska jest mała.",
+        "Miska jest mała"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "miska"
+      ]
+    },
+    {
+      "en": "I'm buying a bowl.",
+      "pl": "Kupuję miskę.",
+      "accepts": [
+        "Kupuję miskę.",
+        "Kupuję miskę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "miskę"
+      ]
+    },
+    {
+      "en": "This is a lemon.",
+      "pl": "To jest cytryna.",
+      "accepts": [
+        "To jest cytryna.",
+        "To jest cytryna",
+        "To cytryna.",
+        "To cytryna"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "cytryna"
+      ]
+    },
+    {
+      "en": "I like lemon.",
+      "pl": "Lubię cytrynę.",
+      "accepts": [
+        "Lubię cytrynę.",
+        "Lubię cytrynę"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "cytrynę"
+      ],
+      "explain": "The third one of these: cytryna → cytrynę. The ending is always -ę and it never depends on the verb, only on the word being feminine and ending in -a."
+    },
+    {
+      "en": "This nut is very small.",
+      "pl": "Ten orzech jest bardzo mały.",
+      "accepts": [
+        "Ten orzech jest bardzo mały.",
+        "Ten orzech jest bardzo mały",
+        "Orzech jest bardzo mały.",
+        "Orzech jest bardzo mały"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "orzech"
+      ]
+    },
+    {
+      "en": "The sauce is hot.",
+      "pl": "Sos jest gorący.",
+      "accepts": [
+        "Sos jest gorący.",
+        "Sos jest gorący"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "sos"
+      ]
+    },
+    {
+      "en": "The sauce was very good.",
+      "pl": "Sos był bardzo dobry.",
+      "accepts": [
+        "Sos był bardzo dobry.",
+        "Sos był bardzo dobry"
+      ],
+      "structures": [
+        "past_byc",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "sos"
+      ]
+    },
+    {
+      "en": "This is a good recipe.",
+      "pl": "To jest dobry przepis.",
+      "accepts": [
+        "To jest dobry przepis.",
+        "To jest dobry przepis",
+        "To dobry przepis.",
+        "To dobry przepis"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przepis"
+      ],
+      "explain": "Do not let recepta pull this one about. recepta is what the doctor writes; przepis is what you cook from. They are two different words that happen to sit close together in English."
+    },
+    {
+      "en": "Mum has a new recipe.",
+      "pl": "Mama ma nowy przepis.",
+      "accepts": [
+        "Mama ma nowy przepis.",
+        "Mama ma nowy przepis"
+      ],
+      "structures": [
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "przepis"
+      ]
+    },
+    {
+      "en": "The oven is new.",
+      "pl": "Piekarnik jest nowy.",
+      "accepts": [
+        "Piekarnik jest nowy.",
+        "Piekarnik jest nowy"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "piekarnik"
+      ]
+    },
+    {
+      "en": "We have a new oven.",
+      "pl": "Mamy nowy piekarnik.",
+      "accepts": [
+        "Mamy nowy piekarnik.",
+        "Mamy nowy piekarnik"
+      ],
+      "structures": [
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "piekarnik"
+      ]
+    },
+    {
+      "en": "The cooker is old.",
+      "pl": "Kuchenka jest stara.",
+      "accepts": [
+        "Kuchenka jest stara.",
+        "Kuchenka jest stara"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kuchenka"
+      ]
+    },
+    {
+      "en": "The oil is cheap.",
+      "pl": "Olej jest tani.",
+      "accepts": [
+        "Olej jest tani.",
+        "Olej jest tani"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "olej"
+      ]
+    },
+    {
+      "en": "I'm buying oil.",
+      "pl": "Kupuję olej.",
+      "accepts": [
+        "Kupuję olej.",
+        "Kupuję olej"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "olej"
+      ],
+      "explain": "Here nothing changes. olej is masculine and it is a thing, not a person, so the object form is identical to the plain form — the same as Kupuję chleb."
+    },
+    {
+      "en": "The chips are good.",
+      "pl": "Frytki są dobre.",
+      "accepts": [
+        "Frytki są dobre.",
+        "Frytki są dobre"
+      ],
+      "structures": [
+        "plural_nom",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "frytki"
+      ],
+      "explain": "frytki has no singular, like meble and schody. So it takes są and dobre, never jest and dobry."
+    },
+    {
+      "en": "I like chips.",
+      "pl": "Lubię frytki.",
+      "accepts": [
+        "Lubię frytki.",
+        "Lubię frytki"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "frytki"
+      ],
+      "explain": "A plural word for things does not change as the object either: Frytki są dobre → Lubię frytki. Only the singular feminines in -a move."
+    }
+  ],
+  "teaches_lemmas": [
+    "fasola",
+    "fasolę",
+    "wołowina",
+    "wołowinę",
+    "ciastko",
+    "miska",
+    "miskę",
+    "cytryna",
+    "cytrynę",
+    "orzech",
+    "sos",
+    "przepis",
+    "piekarnik",
+    "kuchenka",
+    "olej",
+    "frytki"
+  ],
+  "uses_lemmas": [
+    "to",
+    "jest",
+    "są",
+    "był",
+    "mam",
+    "mamy",
+    "ma",
+    "kupuje",
+    "kupuję",
+    "lubię",
+    "mama",
+    "ten",
+    "bardzo",
+    "dobra",
+    "dobre",
+    "dobry",
+    "tania",
+    "tani",
+    "mała",
+    "mały",
+    "gorący",
+    "nowy",
+    "stara"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_food3",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
