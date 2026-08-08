@@ -118,6 +118,7 @@
     "a2_case_gym2",
     "a2_prep_review",
     "a2_wrapup_func",
+    "a2_jobs2",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2431,6 +2432,24 @@
       "root": "links",
       "tree_part": "links",
       "content": "grammar/blocks/a2_wrapup_func.json"
+    },
+    {
+      "id": "a2_jobs2",
+      "domain": "vocab",
+      "label": "Zawód 2",
+      "label_en": "Jobs & roles 2",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve job/role nouns riding inst_identity (a1_inst_job) - teaches_structures is [] by construction. kucharz/chef dropped, already taught by b1_people as 'cook'. Title uses the singular zawod ('profession', a2_work2) because zawody is already taught by a2_sport as 'competition'. sportowiec -> sportowcem taught with an explain (the -ec drops its e).",
+      "unit_id": "PL2_53",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "work",
+      "content": "vocab/blocks/a2_jobs2.json"
     },
     {
       "id": "a2_station_4",
