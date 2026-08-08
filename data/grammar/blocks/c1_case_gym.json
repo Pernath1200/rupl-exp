@@ -1,0 +1,666 @@
+{
+  "id": "c1_case_gym",
+  "title": "Siłownia · koniec",
+  "title_en": "The final case gym",
+  "level": "C1",
+  "tree_node": "c1_case_gym",
+  "default_direction": "en_to_pl",
+  "kind": "morphology",
+  "type": {
+    "mode": "full_word"
+  },
+  "check": {
+    "sequence": [
+      "match",
+      "quiz"
+    ]
+  },
+  "note": "C1 Block 10, unit 1. Gym idiom (a1_case_gym / a2_case_gym2 / b1_case_gym / b1_virile_gym / b2_adj_gym / b2_plural_gym / b2_case_gym / c1_adj_pl_gym line): ZERO new material, teaches_structures and teaches_lemmas both EMPTY. THE SPINE'S BRIEF WAS NARROWED, exactly as b2_case_gym narrowed its own, and the reasoning is the same one AGENTS made binding after James retired a2_past_gym. The spine asks for 'everything b2_case_gym had, plus plural adjectives in five jobs, the closed pronoun system including 1st/2nd person after prepositions, and the irregular plurals'. Checked rather than obeyed: (a) PLURAL ADJECTIVES IN FIVE JOBS ARE c1_adj_pl_gym's ENTIRE BOARD, forty-odd nodes back and built after the spine was written - re-running it here is the a2_past_gym failure verbatim ('a repetition of things that were not difficult'), so plural adjective phrases appear MIXED IN as the noun half of pronoun contrasts (dobrymi kolegami, nowym studentom, dobrych filmow) and never as their own paradigm board. (b) THE -owie FAMILY AND THE SUPPLETIVES CANNOT BE CASE-DRILLED AT ALL: c1_owie teaches six NOMINATIVES and c1_suppl_pl teaches oczy/uszy/rece and nothing else - oczu, rak, uszu, dziadkow are all verified NEW, so any oblique board would have to TEACH, which a gym may not do. Logged so a later reader does not think it was forgotten. (c) THE IRREGULAR VIRILE PLURAL IS drillable and IS drilled, but only on the three forms c1_irreg_virile actually taught (bracia / braci / braciom), inside real frames rather than as a paradigm. WHAT THE GYM IS FOR, and it is a real cliff: THE PRONOUN TABLE IS FINALLY COMPLETE. b2_case_gym shipped that table with TWO VISIBLY EMPTY CELLS - me and you had no after-a-preposition column - and c1_pron_12_prep was built to fill them. Slide 1 is that same table with the gaps closed, which is the sharpest possible statement of what the last level bought. THE HARD PART IS NOT THE FORMS, IT IS THAT ty HAS FOUR: cie beside the verb, ciebie after do/od, tobie after o, toba after z. Nothing else in the course makes one English word take four Polish shapes decided purely by what stands in front, and that is exactly what massed discrimination is for. THE ze RULE IS DRILLED AS THE CLOSED FACT IT IS: z becomes ze before mna and before NO OTHER PRONOUN, so z toba / z nami / z wami / z nimi all keep the plain z. bratom IS NEVER SHOWN, not even as a distractor: it is not a Polish word, and spine O12 bans fabricated non-words outright - the braciom item discriminates against braci, bracia and brata, all real taught forms in the wrong case. HOMOGRAPHS NAMED, NOT DODGED: je is the thing-object pronoun AND the third person of jesc, and czemu is the Dative of co AND colloquial why - both were named on c1_pron_je's own slides and both are restated here in one line. AUDITOR NOTE: the bare subject pronouns sit in audit.py's GLUE_LEMMAS, but every oblique form on this board (mnie, cie, ci, nas, was, nam, wam, tobie, ciebie, mna, toba, nami, wami, go, mu, ja, jej, ich, im, nim, niej, nia, nich, nimi, niego, je) is VISIBLE to the gate and IS policed - checked, not assumed. THREE INTRO SLIDES as the spine instructed; no fourth was needed once the plural-adjective board was correctly refused. NO CASE GOVERNOR ADDED; data/case-map.json unchanged.",
+  "focus_structures": [
+    "pron_prep_12",
+    "pron_je",
+    "pron_acc",
+    "dative_pron",
+    "pron_prep",
+    "virile_irreg"
+  ],
+  "teaches_structures": [],
+  "teaches_lemmas": [],
+  "uses_structures": [
+    "byc_present",
+    "present",
+    "present_e_isz",
+    "present_e_esz",
+    "miec_present",
+    "miec_acc",
+    "negation",
+    "neg_gen",
+    "pron_acc",
+    "dative_pron",
+    "pron_prep",
+    "pron_prep_12",
+    "pron_je",
+    "virile_irreg",
+    "dat_pl",
+    "inst_pl",
+    "gen_pl_full",
+    "adj_pl_gen",
+    "adj_pl_inst",
+    "adj_pl_dat",
+    "prep_do_gen",
+    "prep_z_gen",
+    "inst_z",
+    "o_loc",
+    "superlative",
+    "comparative",
+    "prep_w_loc"
+  ],
+  "intro": [
+    {
+      "title": "The pronoun table, finished",
+      "title_pl": "mnie · tobie · nim · nimi",
+      "body": "Nothing new below. Every form is one you already own.\n\nWhen you last saw this table at B2 it had two holes in it: the rows for me and you had nothing in the last column, because the course had not yet taught what a first or second person pronoun looks like after a preposition. That gap is now closed, and this is the completed board.\n\nWhat you have never had to do is choose between the columns at speed. English gives you one word — you — for the whole of a row. Polish gives you three or four, and the word standing in front of the pronoun is the only thing that decides which.",
+      "body_pl": "mnie · mi · o mnie",
+      "table": {
+        "headers": [
+          "English",
+          "The object · znam…",
+          "The recipient · pomagam…",
+          "After a preposition"
+        ],
+        "rows": [
+          [
+            "me",
+            "mnie",
+            "mi",
+            "o mnie · do mnie · ze mną"
+          ],
+          [
+            "you",
+            "cię",
+            "ci",
+            "o tobie · do ciebie · z tobą"
+          ],
+          [
+            "him",
+            "go",
+            "mu",
+            "o nim · do niego"
+          ],
+          [
+            "her",
+            "ją",
+            "jej",
+            "o niej · z nią"
+          ],
+          [
+            "us",
+            "nas",
+            "nam",
+            "o nas · z nami"
+          ],
+          [
+            "you — more than one",
+            "was",
+            "wam",
+            "o was · z wami"
+          ],
+          [
+            "them — people",
+            "ich",
+            "im",
+            "o nich · z nimi"
+          ],
+          [
+            "them — things",
+            "je",
+            "—",
+            "—"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "One English word, four Polish shapes — and the preposition picks",
+      "title_pl": "cię · ciebie · tobie · tobą",
+      "body": "This is the row that costs the most, and it is worth taking on its own.\n\nyou has four forms and nothing about the meaning separates them. What separates them is what stands in front: nothing at all, or do, or o, or z. Read the row across rather than trying to remember four rules.\n\nThe row for me works the same way, with one extra fact — z turns into ze in front of mną, and in front of nothing else. z tobą, z nami, z wami, z nimi all keep the plain z. It is a one-word exception, not a sound rule to apply.",
+      "body_pl": "znam cię · o tobie · z tobą",
+      "table": {
+        "headers": [
+          "What stands in front",
+          "you",
+          "me",
+          "Example"
+        ],
+        "rows": [
+          [
+            "nothing — beside the verb",
+            "cię",
+            "mnie",
+            "Znam cię."
+          ],
+          [
+            "pomagam · dziękuję",
+            "ci",
+            "mi",
+            "Pomagam ci."
+          ],
+          [
+            "o — about",
+            "tobie",
+            "mnie",
+            "Mówię o tobie."
+          ],
+          [
+            "do · od",
+            "ciebie",
+            "mnie",
+            "Idę do ciebie."
+          ],
+          [
+            "z — with",
+            "tobą",
+            "mną",
+            "Idziesz ze mną."
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The same trigger, with a noun and with a pronoun",
+      "title_pl": "rzeczownik · zaimek",
+      "body": "A pronoun answers exactly the trigger a noun would. If you can see which case the sentence wants, you already know which column to reach into — the two halves of this table are the same decision made twice.\n\nTwo forms on the board are worth a line each, because both are one string doing two jobs and both have caught people out. je is them for things, and it is also the he-and-she form of jeść — Ona je can be she eats. czemu is the of-form of co in the recipient column, and colloquially it also means why.\n\nAnd one plural is irregular all the way down: brat's plural is bracia, and the recipient form is braciom, built on the plural's own stem rather than on brat.",
+      "body_pl": "rzeczownik albo zaimek",
+      "table": {
+        "headers": [
+          "Trigger",
+          "With a noun",
+          "With a pronoun"
+        ],
+        "rows": [
+          [
+            "znam · mam — a thing",
+            "Znam te filmy.",
+            "Znam je."
+          ],
+          [
+            "o — about",
+            "Mówię o pracy.",
+            "Mówię o tobie."
+          ],
+          [
+            "z — with",
+            "Pracuję z dobrymi kolegami.",
+            "Pracujesz ze mną."
+          ],
+          [
+            "do — going to",
+            "Idę do sklepu.",
+            "Idę do ciebie."
+          ],
+          [
+            "pomagam — a person",
+            "Pomagam braciom.",
+            "Pomagam im."
+          ],
+          [
+            "nie on the verb",
+            "Nie mam dobrych filmów.",
+            "Nie znam ich."
+          ]
+        ]
+      }
+    }
+  ],
+  "match": [
+    {
+      "en": "about me",
+      "pl": "o mnie"
+    },
+    {
+      "en": "with me",
+      "pl": "ze mną"
+    },
+    {
+      "en": "about you",
+      "pl": "o tobie"
+    },
+    {
+      "en": "to you · idę…",
+      "pl": "do ciebie"
+    },
+    {
+      "en": "with you",
+      "pl": "z tobą"
+    },
+    {
+      "en": "with us",
+      "pl": "z nami"
+    },
+    {
+      "en": "with you · more than one",
+      "pl": "z wami"
+    },
+    {
+      "en": "with them · people",
+      "pl": "z nimi"
+    },
+    {
+      "en": "I know you",
+      "pl": "Znam cię."
+    },
+    {
+      "en": "I'm helping you",
+      "pl": "Pomagam ci."
+    },
+    {
+      "en": "I know them · things",
+      "pl": "Znam je."
+    },
+    {
+      "en": "I'm helping my brothers",
+      "pl": "Pomagam braciom."
+    }
+  ],
+  "quiz": [
+    {
+      "prompt": "Mówię o ___. (you)",
+      "choices": [
+        "tobie",
+        "ciebie",
+        "cię",
+        "tobą"
+      ],
+      "answer": "tobie",
+      "explain": "o takes the in-form, and for you that is tobie. All four choices are real, and each one is right after a different word — this question is only about which word is in front."
+    },
+    {
+      "prompt": "Idę do ___. (you)",
+      "choices": [
+        "ciebie",
+        "tobie",
+        "cię",
+        "tobą"
+      ],
+      "answer": "ciebie",
+      "explain": "do has always taken the of-form, and for you that is ciebie — not the tobie that o takes. Same four choices as the last question, different preposition, different answer."
+    },
+    {
+      "prompt": "Idę z ___. (you)",
+      "choices": [
+        "tobą",
+        "tobie",
+        "ciebie",
+        "cię"
+      ],
+      "answer": "tobą",
+      "explain": "z with a person takes the with-form: tobą. The plain z stays — only mną turns it into ze."
+    },
+    {
+      "prompt": "Znam ___. (you)",
+      "choices": [
+        "cię",
+        "ciebie",
+        "tobie",
+        "tobą"
+      ],
+      "answer": "cię",
+      "explain": "Nothing stands in front, so the short form sits beside the verb: cię. ciebie is the same case but belongs after a preposition."
+    },
+    {
+      "prompt": "Idziesz ___. (with me)",
+      "choices": [
+        "ze mną",
+        "z mną",
+        "o mnie",
+        "do mnie"
+      ],
+      "answer": "ze mną",
+      "explain": "mną is the only pronoun in the language that turns z into ze. Every other one — z tobą, z nami, z wami, z nimi — keeps the plain z."
+    },
+    {
+      "prompt": "Mówisz o ___. (me)",
+      "choices": [
+        "mnie",
+        "mi",
+        "mną",
+        "ze mną"
+      ],
+      "answer": "mnie",
+      "explain": "After o, me is mnie — the same string you already use as the object. mi is the recipient column and mną belongs after z."
+    },
+    {
+      "prompt": "Pomagam ___. (you)",
+      "choices": [
+        "ci",
+        "cię",
+        "ciebie",
+        "tobie"
+      ],
+      "answer": "ci",
+      "explain": "pomagać governs the recipient column, so ci and not cię — the same split you have had since Pomagam bratu rather than brata."
+    },
+    {
+      "prompt": "Znam ___. (them — the films)",
+      "choices": [
+        "je",
+        "ich",
+        "im",
+        "nich"
+      ],
+      "answer": "je",
+      "explain": "ich is them for people. For things the object form is je — the same string that is also she eats, which the sentence around it always settles."
+    },
+    {
+      "prompt": "Pomagam ___. (them — people)",
+      "choices": [
+        "im",
+        "ich",
+        "je",
+        "nimi"
+      ],
+      "answer": "im",
+      "explain": "Recipient column, people: im. ich is the object column and nimi only ever appears after a preposition."
+    },
+    {
+      "prompt": "Mówię o ___. (them — people)",
+      "choices": [
+        "nich",
+        "ich",
+        "im",
+        "nimi"
+      ],
+      "answer": "nich",
+      "explain": "After a preposition the third-person forms grow an n-. o takes nich; nimi is the same row but the with-form, which z would take."
+    },
+    {
+      "prompt": "Idę z ___. (them — people)",
+      "choices": [
+        "nimi",
+        "nich",
+        "ich",
+        "im"
+      ],
+      "answer": "nimi",
+      "explain": "Same row as the last question, different preposition. z takes the with-form nimi."
+    },
+    {
+      "prompt": "Dziękuję ___. (my brothers)",
+      "choices": [
+        "braciom",
+        "braci",
+        "bracia",
+        "brata"
+      ],
+      "answer": "braciom",
+      "explain": "dziękować takes the recipient column, and brat's plural is irregular all the way down — braciom is built on bracia, not on brat. braci is the of-form and bracia is the plain plural."
+    }
+  ],
+  "type_items": [
+    {
+      "prompt_en": "about me",
+      "answer": "o mnie",
+      "accepts": [
+        "o mnie"
+      ]
+    },
+    {
+      "prompt_en": "with me — the one pronoun that changes the z",
+      "answer": "ze mną",
+      "accepts": [
+        "ze mną"
+      ]
+    },
+    {
+      "prompt_en": "about you",
+      "answer": "o tobie",
+      "accepts": [
+        "o tobie"
+      ]
+    },
+    {
+      "prompt_en": "to you — idę…",
+      "answer": "do ciebie",
+      "accepts": [
+        "do ciebie"
+      ]
+    },
+    {
+      "prompt_en": "with you",
+      "answer": "z tobą",
+      "accepts": [
+        "z tobą"
+      ]
+    },
+    {
+      "prompt_en": "with us",
+      "answer": "z nami",
+      "accepts": [
+        "z nami"
+      ]
+    },
+    {
+      "prompt_en": "with you — more than one",
+      "answer": "z wami",
+      "accepts": [
+        "z wami"
+      ]
+    },
+    {
+      "prompt_en": "with them — people",
+      "answer": "z nimi",
+      "accepts": [
+        "z nimi"
+      ]
+    },
+    {
+      "prompt_en": "you — the object, znam…",
+      "answer": "cię",
+      "accepts": [
+        "cię"
+      ]
+    },
+    {
+      "prompt_en": "you — the recipient, pomagam…",
+      "answer": "ci",
+      "accepts": [
+        "ci"
+      ]
+    },
+    {
+      "prompt_en": "them — things, the object",
+      "answer": "je",
+      "accepts": [
+        "je"
+      ]
+    },
+    {
+      "prompt_en": "my brothers — the recipient, dziękuję…",
+      "answer": "braciom",
+      "accepts": [
+        "braciom"
+      ]
+    }
+  ],
+  "use_items": [
+    {
+      "prompt_en": "Type: I know you and I'm helping you.",
+      "answer": "Znam cię i pomagam ci.",
+      "accepts": [
+        "Znam cię i pomagam ci.",
+        "Znam cię i pomagam ci"
+      ],
+      "explain": "One person, one sentence, two different words for you — the object form beside znam and the recipient form beside pomagam."
+    },
+    {
+      "prompt_en": "Type: Mum is talking about me, and Dad is talking about you.",
+      "answer": "Mama mówi o mnie, a tata mówi o tobie.",
+      "accepts": [
+        "Mama mówi o mnie, a tata mówi o tobie.",
+        "Mama mówi o mnie, a tata mówi o tobie"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm going to you, and my brother is going to him.",
+      "answer": "Idę do ciebie, a brat idzie do niego.",
+      "accepts": [
+        "Idę do ciebie, a brat idzie do niego.",
+        "Idę do ciebie, a brat idzie do niego"
+      ],
+      "explain": "do takes the of-form in both halves: ciebie for you, niego for him."
+    },
+    {
+      "prompt_en": "Type: My brother works with me, and my sister works with you.",
+      "answer": "Brat pracuje ze mną, a siostra pracuje z tobą.",
+      "accepts": [
+        "Brat pracuje ze mną, a siostra pracuje z tobą.",
+        "Brat pracuje ze mną, a siostra pracuje z tobą"
+      ],
+      "explain": "Both halves are z with a person, and only the first turns it into ze — because only mną does that."
+    },
+    {
+      "prompt_en": "Type: Mum is going with us, and Dad is going with you.",
+      "answer": "Mama idzie z nami, a tata idzie z wami.",
+      "accepts": [
+        "Mama idzie z nami, a tata idzie z wami.",
+        "Mama idzie z nami, a tata idzie z wami"
+      ]
+    },
+    {
+      "prompt_en": "Type: I know these films and I've got them at home.",
+      "answer": "Znam te filmy i mam je w domu.",
+      "accepts": [
+        "Znam te filmy i mam je w domu.",
+        "Znam te filmy i mam je w domu"
+      ],
+      "explain": "filmy are things, so them is je rather than ich."
+    },
+    {
+      "prompt_en": "Type: I'm helping my brothers and I'm thanking them.",
+      "answer": "Pomagam braciom i dziękuję im.",
+      "accepts": [
+        "Pomagam braciom i dziękuję im.",
+        "Pomagam braciom i dziękuję im"
+      ],
+      "explain": "Both verbs take the recipient column — the irregular plural braciom for the noun, im for the pronoun."
+    },
+    {
+      "prompt_en": "Type: I work with good colleagues.",
+      "answer": "Pracuję z dobrymi kolegami.",
+      "accepts": [
+        "Pracuję z dobrymi kolegami.",
+        "Pracuję z dobrymi kolegami"
+      ]
+    },
+    {
+      "prompt_en": "Type: I'm helping the new students.",
+      "answer": "Pomagam nowym studentom.",
+      "accepts": [
+        "Pomagam nowym studentom.",
+        "Pomagam nowym studentom"
+      ]
+    },
+    {
+      "prompt_en": "Type: I haven't got any good films.",
+      "answer": "Nie mam dobrych filmów.",
+      "accepts": [
+        "Nie mam dobrych filmów.",
+        "Nie mam dobrych filmów"
+      ],
+      "explain": "The nie moves the whole phrase into the of-form — the adjective with it, not just the noun."
+    },
+    {
+      "prompt_en": "Type: I'm talking about you and about him.",
+      "answer": "Mówię o tobie i o nim.",
+      "accepts": [
+        "Mówię o tobie i o nim.",
+        "Mówię o tobie i o nim"
+      ]
+    },
+    {
+      "prompt_en": "Type: My brother is older than you.",
+      "answer": "Brat jest starszy od ciebie.",
+      "accepts": [
+        "Brat jest starszy od ciebie.",
+        "Brat jest starszy od ciebie"
+      ],
+      "explain": "od takes the same of-form do takes, so it is ciebie here too."
+    }
+  ],
+  "uses_lemmas": [
+    "mnie",
+    "mi",
+    "cię",
+    "ci",
+    "ciebie",
+    "tobie",
+    "mną",
+    "tobą",
+    "nas",
+    "nam",
+    "was",
+    "wam",
+    "nami",
+    "wami",
+    "ze",
+    "go",
+    "mu",
+    "ją",
+    "jej",
+    "ich",
+    "im",
+    "nim",
+    "niej",
+    "nią",
+    "nich",
+    "nimi",
+    "niego",
+    "je",
+    "czemu",
+    "bracia",
+    "braci",
+    "braciom",
+    "brata",
+    "znam",
+    "mam",
+    "pomagam",
+    "dziękuję",
+    "mówię",
+    "mówisz",
+    "mówi",
+    "idę",
+    "idzie",
+    "idziesz",
+    "pracuję",
+    "pracuje",
+    "pracujesz",
+    "nie mam",
+    "te",
+    "filmy",
+    "filmów",
+    "dobrych",
+    "dobrymi",
+    "kolegami",
+    "nowym",
+    "studentom",
+    "praca",
+    "pracy",
+    "sklep",
+    "sklepu",
+    "dom",
+    "domu",
+    "w domu",
+    "starszy",
+    "od",
+    "brat",
+    "siostra",
+    "mama",
+    "tata"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "c1_case_gym",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

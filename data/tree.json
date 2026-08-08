@@ -4617,12 +4617,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 9, unit 4. Inbox item 11: bardziej / najbardziej + adjective (both verified NEW) - deferred by a1_comparatives AND by a2_superlatives, twice over, and named in both packs' own notes. THE DECISION RULE (which adjectives take the ending, which take bardziej) IS TAUGHT AS A TENDENCY WITH A CLOSED LIST OF THE ONES HE OWNS, never as a productive test - the b2_gen_pl_full fleeting-e precedent: this learner gets no value from a rule he cannot trust.",
+      "note": "[C1 SPINE] Block 9, unit 4. Inbox item 11: bardziej / najbardziej + adjective (both verified NEW) - deferred by a1_comparatives AND by a2_superlatives, twice over, and named in both packs' own notes. THE DECISION RULE (which adjectives take the ending, which take bardziej) IS TAUGHT AS A TENDENCY WITH A CLOSED LIST OF THE ONES HE OWNS, never as a productive test - the b2_gen_pl_full fleeting-e precedent: this learner gets no value from a rule he cannot trust. [WIRED LIVE] Structure comp_analytic, registered in SEQUENCING.md and audit.py before the audit ran. TWO NEW STRINGS, ZERO NEW ENDINGS - bardziej and najbardziej are invariable and the adjective behind them goes on agreeing exactly as before, so the whole grammatical content is 'the word in front is new and nothing else moves'. THE TENDENCY IS TAUGHT OVER TWO CLOSED LISTS: the nine -szy comparatives owned since A1, which can NEVER take bardziej, against six owned adjectives that always do (zmeczony, zajety, chory, popularny, nowoczesny, skuteczny). Slide 4 states out loud that ordinary adjectives on NEITHER list take the ending (trudny -> trudniejszy) and that an unfamiliar adjective must be checked, not built - R2's verified-never-coined discipline. bardzo is the anchor AND the trap: TAUGHT since A2 in front of adjectives, so bardzo/bardziej/najbardziej is a three-step ladder on one root and the very/more confusion gets its own slide plus two Kontrola items. Agreement shown on zmeczony/zmeczona/zmeczone/zmeczeni and chory/chora - all five forms already taught, so it costs nothing. HOMOGRAPH HELD: zmeczone is taught as the NON-VIRILE PLURAL (c1_adj_pl_virile), never as a neuter singular, and appears only with Dzieci. List B's four other members are masculine-only throughout because their feminine forms are all NEW. mniej + adjective fenced under load-splitting. No fabricated non-words: every distractor is real taught Polish in an illegal combination. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_comp_analytic.json"
     },
     {
       "id": "c1_register",
@@ -4633,12 +4634,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 9, unit 5 (spine O7, inbox item 22). SITUATIONS GENRE, near-zero new lemmas: the same errand said both ways with material already owned - Czesc / Dzien dobry, Chce / Chcialbym, Mozesz...? / Czy moglby pan...?, ty / pan. The one honest fact: Polish forces the choice earlier and more visibly than English does. The written/spoken split as a SYSTEM is refused (spine O12) - it is a lifetime's material, not a unit.",
+      "note": "[C1 SPINE] Block 9, unit 5 (spine O7, inbox item 22). SITUATIONS GENRE, near-zero new lemmas: the same errand said both ways with material already owned - Czesc / Dzien dobry, Chce / Chcialbym, Mozesz...? / Czy moglby pan...?, ty / pan. The one honest fact: Polish forces the choice earlier and more visibly than English does. The written/spoken split as a SYSTEM is refused (spine O12) - it is a lifetime's material, not a unit. [WIRED LIVE] Structure register_switch, registered in SEQUENCING.md and audit.py before the audit ran. ZERO NEW LEMMAS - every word on every surface verified owned by check_new.py. What is taught is a DECISION, which is why it carries a structure ID and an empty teaches_lemmas. THE ONE HONEST FACT: formal Polish is not a different word for 'you', it is a different PERSON of the verb - Masz czas? is second person, Czy ma pan czas? is THIRD, with pan standing where a name would. Nothing in the course had said this: b1_polite shipped Czy moglby pan mi pomoc? frozen and a2_ordering_func shipped Co pan poleca? opaque, both unanalysed on purpose. The pattern opens on verbs conjugated since A1 (ma, mieszka, robi, pracuje), so it costs no new forms and turns two frozen chunks into a system. chcialbym is re-read as a register move on chce rather than re-taught. MOGLBY QUARANTINE HELD: both polite frames recycled WHOLE, nothing derived, and the one Pisanie item on that frame blanks pomoc not moglby. THE VOCATIVE IS NOWHERE - no Prosze pana, no address forms; c1_vocative_note is four nodes later and R5 gives it the first mention. Fenced and verified NEW: pana, panu, dobranoc, dzieki, witam, pozdrawiam, panstwo, and the whole written register (O12's permanent refusal - only the spoken half is taken). Synonym rule applied to every greeting item. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "chunks",
-      "tree_part": "chunks"
+      "tree_part": "chunks",
+      "content": "grammar/blocks/c1_register.json"
     },
     {
       "id": "c1_case_gym",
@@ -4649,12 +4651,13 @@
       "levels": [
         "C1"
       ],
-      "status": "planned",
+      "status": "live",
       "practice": "grammar",
-      "note": "[C1 SPINE] Block 10, unit 1. ZERO NEW (spine O11). The final case board: everything b2_case_gym had, PLUS plural adjectives in five jobs, the closed pronoun system including 1st/2nd person after prepositions, and the irregular plurals. THIS BOARD WILL BE DENSER THAN b2_case_gym's, which already had to split across two intro slides - PLAN FOR THREE and log the call rather than compressing.",
+      "note": "[C1 SPINE] Block 10, unit 1. ZERO NEW (spine O11). The final case board: everything b2_case_gym had, PLUS plural adjectives in five jobs, the closed pronoun system including 1st/2nd person after prepositions, and the irregular plurals. THIS BOARD WILL BE DENSER THAN b2_case_gym's, which already had to split across two intro slides - PLAN FOR THREE and log the call rather than compressing. [WIRED LIVE] ZERO NEW - teaches_structures and teaches_lemmas both empty, gym idiom, no new structure ID needed. THE SPINE'S BRIEF WAS NARROWED and the call is logged loudly, exactly as b2_case_gym narrowed its own under AGENTS' post-spine gyms rule. (a) Plural adjectives in five jobs ARE c1_adj_pl_gym's entire board, forty-odd nodes back - re-running it is the a2_past_gym failure verbatim, so plural adjective phrases appear MIXED IN as the noun half of pronoun contrasts and never as their own paradigm board. (b) The -owie family and the suppletives CANNOT be case-drilled at all: c1_owie taught six nominatives and c1_suppl_pl taught oczy/uszy/rece only - oczu, rak, uszu, dziadkow are all verified NEW, so an oblique board would have to TEACH, which a gym may not. Logged so a later reader does not think it was forgotten. (c) The irregular virile plural IS drilled, on the three forms c1_irreg_virile actually taught (bracia/braci/braciom), inside real frames. WHAT THE GYM IS FOR: the pronoun table is finally complete. b2_case_gym shipped it with TWO VISIBLY EMPTY CELLS - me and you had no after-a-preposition column - and c1_pron_12_prep was built to fill them; slide 1 is that same table with the gaps closed. The cliff is that ty has FOUR shapes decided purely by what stands in front (cie / ciebie / tobie / toba), which is what massed discrimination is for. The ze rule is drilled as the closed fact it is: z becomes ze before mna and no other pronoun. bratom is NEVER shown, not even as a distractor - it is not a Polish word and O12 bans fabricated non-words; the braciom item discriminates against braci, bracia and brata, all real taught forms in the wrong case. je and czemu restated as homographs in one line each. THREE INTRO SLIDES as instructed; no fourth needed once the plural-adjective board was refused. NO CASE GOVERNOR ADDED - case-map.json unchanged.",
       "pedagogy": "teach",
       "root": "forms",
-      "tree_part": "forms"
+      "tree_part": "forms",
+      "content": "grammar/blocks/c1_case_gym.json"
     },
     {
       "id": "c1_wrapup",
