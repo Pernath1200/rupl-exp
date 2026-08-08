@@ -119,6 +119,7 @@
     "a2_prep_review",
     "a2_wrapup_func",
     "a2_jobs2",
+    "a2_places2",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2450,6 +2451,24 @@
       "parent": "trunk",
       "tree_part": "work",
       "content": "vocab/blocks/a2_jobs2.json"
+    },
+    {
+      "id": "a2_places2",
+      "domain": "vocab",
+      "label": "W mieście",
+      "label_en": "Buildings & places",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 1. Twelve building/place nouns plus six locative phrases, riding prep_w_loc / prep_place - teaches_structures is [] by construction. Title 'Miejsca 2' rejected: the plural miejsca is untaught, only the singular miejsce. Two sentences rewritten after a pool check - stare (neuter sg / non-virile pl of stary) is taught nowhere. koscioł -> w kosciele carries the o-alternation, taught with an explain as a lexical pair, not a rule. schody is plural-only, like meble.",
+      "unit_id": "PL2_54",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "travel_city",
+      "content": "vocab/blocks/a2_places2.json"
     },
     {
       "id": "a2_station_4",
