@@ -103,6 +103,16 @@ re-teaching), no duplicate answer inside a block or across the sentences, every
 `teaches_lemma` surfacing in a block item, and a gender badge on every citation
 noun with none on any phrase. Zero findings.
 
+**One word folded in from the cross-check.** `policja` (rank 303 in
+`pl-frequency-crosscheck.tsv`) is not an Oxford gap row, but it is thematically
+adjacent to `złodziej` / `żołnierz`, is a plain noun needing no structure, and
+sits high in Polish corpus frequency — so the cross-check's own instruction
+applied and it was added, with a sentence (*Policja była w sklepie.*) that pairs
+directly with the thief sentence before it. It is the institution; `b1_people`
+teaches `policjant`, the person, at index 117, and the two do not collide. Its
+explain names the singular/plural mismatch — English *the police were*, Polish
+`policja była`.
+
 **For James to smoke-check.** The instrumental block asks for the whole phrase
 (*Jestem architektem*) in the word stages. That is the `a2_countries` precedent
 and it reads correctly, but it is the shape most worth a look in the hand.
@@ -224,6 +234,49 @@ sixteen forms (twelve nouns plus four accusatives) genuinely new.
 the shipped file.
 
 ---
+
+## The cross-check has a finding, and it is a design question, not a bug
+
+`codex/vocab/pl-frequency-crosscheck.tsv` was run against all 37 words this
+batch teaches. **Two of them appear in the Polish corpus top 1,000:** `żołnierz`
+(881) and `prawnik` (954). One more, `policja` (303), was pulled *from* the
+cross-check rather than found in it. The other 34 do not appear at all.
+
+That is the known weakness of the Oxford route behaving exactly as
+`VOCAB-REORIENTATION-2026-08-07.md` predicted — English concept-frequency is
+being imported, and it does not line up with Polish. It is not an argument
+against the batch: these are real, useful, level-appropriate words, and the
+Oxford banding is why they are junk-free. But it means **the Oxford list alone
+will not close the Polish-specific gap**, and the cross-check file is not a
+garnish.
+
+**The problem is that the cross-check's own top is almost entirely off-limits
+under the zero-new-structures rule.** Its highest-ranking untaught items are
+`dla` (46), `taki` (63), `sam` (68), `by` (70), `zostać` (73), `swój` (81),
+`ktoś` (82), `jakiś` (95), `inny` (102), `znaleźć` (104), `potrzebować` (117),
+`każdy` (135), `wrócić` (140), `rozumieć` (146), `wziąć` (153), `żaden` (157),
+`wiele` (171), `zacząć` (173), `pamiętać` (179), `przestać` (183). Every one is
+a preposition governing a case, a pronoun/determiner with a paradigm, or a verb
+needing a conjugation — that is, **precisely the material the constraint that
+makes this work safe also forbids.** `wiele` is the exception that proves it:
+`c1_quantifiers` already teaches it, at C1, because it needed a structure.
+
+So the batches can keep producing good A2/B1 nouns and adjectives indefinitely,
+and the 62%-of-top-500 number will barely move, because what is missing from the
+top 500 is function words. **This is James's call and nothing was done about it
+here.** The two honest options look like: (a) accept it — vocabulary breadth is
+the goal, corpus coverage is not, and the function words arrive as small
+grammar units later; or (b) commission a short series of *grammar* units for the
+highest-value governors (`dla` + genitive, `swój`, `każdy` / `żaden` / `inny`,
+and a perfective-verb set), which is a spine decision, not vocab-batch work.
+Nothing in the routine authorises starting (b), and it was not started.
+
+Foldable nouns noticed in the cross-check top 400 and **not** used, because they
+belong to people/abstract themes rather than to this batch's three:
+`dziewczyna` (175), `facet` (214), `pomoc` (246), `śmierć` (249), `chłopak`
+(275), `imię` (307), `chłopiec` (315), `szansa` (328), `miłość` (352). They are
+plain nouns, need no structure, and are the obvious spine of a
+people-and-feelings pack in batch 2.
 
 ## Open for James to overrule
 

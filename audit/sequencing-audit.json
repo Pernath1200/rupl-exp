@@ -1,7 +1,7 @@
 {
   "version": 1,
   "spec": "codex/SEQUENCING.md",
-  "generated_at": "2026-08-08T14:57:39+00:00",
+  "generated_at": "2026-08-08T15:00:11+00:00",
   "path_source": "data/tree.json",
   "path": [
     "trunk_social_a1",
@@ -5311,7 +5311,7 @@
       "pack_id": "a2_jobs2",
       "domain": "vocab",
       "teaches_structures": [],
-      "teaches_lemmas_n": 21,
+      "teaches_lemmas_n": 22,
       "uses_structures": [
         "byc_adj",
         "byc_present",

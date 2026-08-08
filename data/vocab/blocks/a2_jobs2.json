@@ -5,7 +5,7 @@
   "level": "A2",
   "tree_node": "a2_jobs2",
   "default_direction": "en_to_pl",
-  "note": "A2 liść · FIRST pack of the Oxford A2 vocab-gap build (VOCAB-BUILD-DIGEST batch 1). Grouping rationale: twelve Oxford-A2 job/role nouns pulled from the gap list as one theme, chosen because a1_inst_job already owns inst_identity — so every one of them lands in a frame the learner has had since A1 (Jestem nauczycielem → Jestem architektem) and the pack introduces ZERO structures. teaches_structures is [] by construction; the pack rides byc_present/inst_identity/poss_nom/present_uje/prep_w_loc/past_byc/miec_acc/ten_ta_to, all live long before this slot. A1/A2 already own nauczyciel, lekarz, kelner, kierowca, inżynier, rolnik, sprzedawca, menedżer, szef, naukowiec, pielęgniarka, artysta, aktor, piosenkarz, pisarz, tancerz, trener, dentysta — those are ANCHORS here, never re-taught. Judgment calls, all reported: (1) TITLE. 'Zawody' was rejected outright — a2_sport already teaches zawody as 'competition (sports event)', so a plural title would have read as 'Competitions 2'. The singular zawód (a2_work2, 'profession / trade') is unambiguous, hence 'Zawód 2'. (2) chef was DROPPED from the gap list without authoring: b1_people already teaches kucharz, glossed 'cook (m)' — the Oxford row survived only because the English gloss says 'cook', not 'chef'. Row deleted, logged in the digest. (3) INSTRUMENTAL FORMS are taught explicitly as whole Jestem/On jest phrases in block 2, not left to be derived, so every instrumental a sentence demands appears in a block and in teaches_lemmas (the every-form-taught rule). Nine are taught; the three nouns with no instrumental slot (złodziej, profesor, biznesmen) are used in the nominative only. (4) sportowiec → sportowcem drops the -e- of -ec. That alternation is a lexical fact about one word, taught with an explain, not a new system — the same shape as a2_countries' Anglik → Angielka → Angielką. (5) 'Muzyk gra w parku.' was drafted and then CUT: gra is taught twice over, as the verb (a1_present) and as the noun 'game' (a1_freetime), so the sentence would have been readable as 'A musician, a game in the park'. Replaced with 'Ten muzyk jest popularny.' (6) Adjectives and instrumental phrases take no gender badge — that field is for citation-form nouns only.",
+  "note": "A2 liść · FIRST pack of the Oxford A2 vocab-gap build (VOCAB-BUILD-DIGEST batch 1). Grouping rationale: twelve Oxford-A2 job/role nouns pulled from the gap list as one theme, chosen because a1_inst_job already owns inst_identity — so every one of them lands in a frame the learner has had since A1 (Jestem nauczycielem → Jestem architektem) and the pack introduces ZERO structures. teaches_structures is [] by construction; the pack rides byc_present/inst_identity/poss_nom/present_uje/prep_w_loc/past_byc/miec_acc/ten_ta_to, all live long before this slot. A1/A2 already own nauczyciel, lekarz, kelner, kierowca, inżynier, rolnik, sprzedawca, menedżer, szef, naukowiec, pielęgniarka, artysta, aktor, piosenkarz, pisarz, tancerz, trener, dentysta — those are ANCHORS here, never re-taught. Judgment calls, all reported: (1) TITLE. 'Zawody' was rejected outright — a2_sport already teaches zawody as 'competition (sports event)', so a plural title would have read as 'Competitions 2'. The singular zawód (a2_work2, 'profession / trade') is unambiguous, hence 'Zawód 2'. (2) chef was DROPPED from the gap list without authoring: b1_people already teaches kucharz, glossed 'cook (m)' — the Oxford row survived only because the English gloss says 'cook', not 'chef'. Row deleted, logged in the digest. (3) INSTRUMENTAL FORMS are taught explicitly as whole Jestem/On jest phrases in block 2, not left to be derived, so every instrumental a sentence demands appears in a block and in teaches_lemmas (the every-form-taught rule). Nine are taught; the three nouns with no instrumental slot (złodziej, profesor, biznesmen) are used in the nominative only. (4) sportowiec → sportowcem drops the -e- of -ec. That alternation is a lexical fact about one word, taught with an explain, not a new system — the same shape as a2_countries' Anglik → Angielka → Angielką. (5) 'Muzyk gra w parku.' was drafted and then CUT: gra is taught twice over, as the verb (a1_present) and as the noun 'game' (a1_freetime), so the sentence would have been readable as 'A musician, a game in the park'. Replaced with 'Ten muzyk jest popularny.' (6) policja was FOLDED IN from codex/vocab/pl-frequency-crosscheck.tsv (rank 303), not from the Oxford gap list — it is thematically adjacent to zlodziej/zolnierz and is a plain noun needing no structure, so the cross-check's own instruction applied. It is the institution; b1_people teaches policjant (the person) later, and the two do not collide. Its explain names the singular/plural mismatch with English. (7) Adjectives and instrumental phrases take no gender badge — that field is for citation-form nouns only.",
   "teaches_structures": [],
   "uses_structures": [
     "to_jest",
@@ -94,6 +94,11 @@
           "pl": "biznesmen",
           "icon": "💼",
           "gender": "m"
+        },
+        {
+          "en": "the police (singular in Polish)",
+          "pl": "policja",
+          "gender": "f"
         }
       ]
     },
@@ -438,6 +443,24 @@
       "explain": "klucz is a thing, not a person, so it looks identical after ma — mój klucz, unchanged. That is the masculine-inanimate rule you already met with komputer."
     },
     {
+      "en": "The police were in the shop.",
+      "pl": "Policja była w sklepie.",
+      "accepts": [
+        "Policja była w sklepie.",
+        "Policja była w sklepie",
+        "W sklepie była policja.",
+        "W sklepie była policja"
+      ],
+      "structures": [
+        "past_byc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "policja"
+      ],
+      "explain": "English treats the police as many people — the police were. Polish treats it as one body: policja is a single feminine noun, so it takes była, not były."
+    },
+    {
       "en": "The secretary works in a company.",
       "pl": "Sekretarka pracuje w firmie.",
       "accepts": [
@@ -561,7 +584,8 @@
     "sportowiec",
     "sportowcem",
     "profesor",
-    "biznesmen"
+    "biznesmen",
+    "policja"
   ],
   "uses_lemmas": [
     "to",
