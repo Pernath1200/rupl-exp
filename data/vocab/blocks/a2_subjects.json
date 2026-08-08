@@ -1,0 +1,579 @@
+{
+  "id": "a2_subjects",
+  "title": "W szkole 2",
+  "title_en": "School subjects & study",
+  "level": "A2",
+  "tree_node": "a2_subjects",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · THIRD pack of Oxford A2 vocab-gap batch 2 (VOCAB-BUILD-DIGEST batch 2). Grouping rationale: twelve Oxford-A2 nouns from school and study — matematyka, fizyka, chemia, biologia, architektura, ankieta, odkrycie, wynalazek, rysunek, esej, wstęp, pamiętnik. Thirteen gap rows, because Oxford lists mathematics and maths separately and both are matematyka. leaf_school_a1 and a2_school2 already own szkoła, uczeń, student, klasa, lekcja, wykład, uniwersytet, egzamin, sprawdzian, zadanie, zdanie, ocena, błąd, praca domowa, ćwiczenie, zeszyt, tablica, ołówek, długopis, historia, geografia, nauki ścisłe, język polski, przedmiot, książka, czytanie, pisanie, powtarzać, zdać, oblać — ANCHORS, never re-taught. The pack rides miec_acc plus the -uje and -isz present tenses, so teaches_structures is [] by construction. Judgment calls, all reported: (1) THE NODE ID IS a2_subjects, NOT a2_school2. a2_school2 is a LIVE pack at path index 80 („W szkole\" / Learning & school) and this one was drafted under that id before the collision was caught; the id was checked against tree.json and freed rather than assumed. Recording it because the gap build will keep wanting obvious ids that A1/A2 already hold. (2) THIS PACK IS BUILT ON VERBS BECAUSE THE ADJECTIVES DO NOT EXIST. The natural things to say about a school subject are that it is hard, easy, important or interesting, and the pool has NONE of trudny, łatwy, ważny or interesujący in any gender, while ciekawy exists only in the masculine — which is no use to six feminine nouns. Rather than bend the grammar or invent an adjective, the pack says what you DO with a subject: Studiuję fizykę, Lubię biologię, Moja siostra lubi chemię. That is also the more useful Polish. (3) THE SECOND BLOCK IS AN ACCUSATIVE BOARD AND SO WAS a2_food3's, one batch earlier. The repeat is deliberate and is named here rather than hidden: the accusative is what these nouns need, -a → -ę is the single most productive ending an A2 learner meets, and inventing a different second block to avoid looking repetitive would have cost the pack its point. The board carries the -ia → -ię pair (chemia → chemię, biologia → biologię) that food3 had no example of, and closes with Lubię rysunek to show a masculine that does not move. (4) wiedza ('knowledge') WAS DRAFTED AND CUT. It is abstract, and with no taught word for hard, easy, important or useful there was nothing true to say about it at this level. Its row stays in the gap file for a pack that can carry it; nothing was authored and nothing deleted. pamiętnik took its slot — concrete, a real Oxford A2 row ('diary'), and easy to talk about. (5) ankieta is glossed 'survey (a set of questions)' because an English speaker reading 'survey' may reach for a land survey or a general look-round; the Polish word is only the questionnaire sense. (6) wstęp is glossed as the first part of a book or a talk, and its explain also names the 'entry' sense, because a learner who meets Wstęp wolny on a door should not read it as 'free introduction'. (7) NO ICONS. Every candidate emoji for these words is either a school building (reads as szkoła, taught) or a book (reads as książka, taught); the same rule that emptied the icon set in a2_people3 empties it here. (8) TWO EXPLAINS WERE REWRITTEN AFTER A POOL CHECK: the first drafts cited odkryć and pamiętać as roots, and neither verb is taught anywhere — an explain may not introduce Polish the learner has not met, even in passing.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to",
+    "poss_nom",
+    "present_uje",
+    "present_e_isz",
+    "present_am",
+    "miec_acc"
+  ],
+  "blocks": [
+    {
+      "id": "subjects_words",
+      "title": "School subjects & study · new words",
+      "items": [
+        {
+          "en": "mathematics / maths",
+          "pl": "matematyka",
+          "gender": "f"
+        },
+        {
+          "en": "physics",
+          "pl": "fizyka",
+          "gender": "f"
+        },
+        {
+          "en": "chemistry",
+          "pl": "chemia",
+          "gender": "f"
+        },
+        {
+          "en": "biology",
+          "pl": "biologia",
+          "gender": "f"
+        },
+        {
+          "en": "architecture",
+          "pl": "architektura",
+          "gender": "f"
+        },
+        {
+          "en": "survey (a set of questions)",
+          "pl": "ankieta",
+          "gender": "f"
+        },
+        {
+          "en": "discovery",
+          "pl": "odkrycie",
+          "gender": "n"
+        },
+        {
+          "en": "invention",
+          "pl": "wynalazek",
+          "gender": "m"
+        },
+        {
+          "en": "drawing",
+          "pl": "rysunek",
+          "gender": "m"
+        },
+        {
+          "en": "essay",
+          "pl": "esej",
+          "gender": "m"
+        },
+        {
+          "en": "introduction (the first part of a book or a talk)",
+          "pl": "wstęp",
+          "gender": "m"
+        },
+        {
+          "en": "diary",
+          "pl": "pamiętnik",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "subjects_object",
+      "title": "As the object · -a becomes -ę",
+      "items": [
+        {
+          "en": "I study maths",
+          "pl": "Studiuję matematykę"
+        },
+        {
+          "en": "I study physics",
+          "pl": "Studiuję fizykę"
+        },
+        {
+          "en": "I study chemistry",
+          "pl": "Studiuję chemię"
+        },
+        {
+          "en": "I study biology",
+          "pl": "Studiuję biologię"
+        },
+        {
+          "en": "I study architecture",
+          "pl": "Studiuję architekturę"
+        },
+        {
+          "en": "we have a survey",
+          "pl": "Mamy ankietę"
+        },
+        {
+          "en": "I like drawing — no change",
+          "pl": "Lubię rysunek"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "This is maths.",
+      "pl": "To jest matematyka.",
+      "accepts": [
+        "To jest matematyka.",
+        "To jest matematyka",
+        "To matematyka.",
+        "To matematyka"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "matematyka"
+      ]
+    },
+    {
+      "en": "I study maths.",
+      "pl": "Studiuję matematykę.",
+      "accepts": [
+        "Studiuję matematykę.",
+        "Studiuję matematykę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "matematykę"
+      ],
+      "explain": "The subject you study is the object of the verb, so the feminine -a swaps to -ę: matematyka → matematykę. It is the same move as kawa → kawę."
+    },
+    {
+      "en": "My brother studies physics.",
+      "pl": "Mój brat studiuje fizykę.",
+      "accepts": [
+        "Mój brat studiuje fizykę.",
+        "Mój brat studiuje fizykę"
+      ],
+      "structures": [
+        "poss_nom",
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "fizykę"
+      ]
+    },
+    {
+      "en": "I like physics.",
+      "pl": "Lubię fizykę.",
+      "accepts": [
+        "Lubię fizykę.",
+        "Lubię fizykę"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "fizykę"
+      ]
+    },
+    {
+      "en": "I study chemistry.",
+      "pl": "Studiuję chemię.",
+      "accepts": [
+        "Studiuję chemię.",
+        "Studiuję chemię"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "chemię"
+      ],
+      "explain": "Words in -ia do the same thing one step further back: chemia → chemię, biologia → biologię. The ending is still -ę; only the letter in front of it looks different."
+    },
+    {
+      "en": "My sister likes chemistry.",
+      "pl": "Moja siostra lubi chemię.",
+      "accepts": [
+        "Moja siostra lubi chemię.",
+        "Moja siostra lubi chemię"
+      ],
+      "structures": [
+        "poss_nom",
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "chemię"
+      ]
+    },
+    {
+      "en": "This is biology.",
+      "pl": "To jest biologia.",
+      "accepts": [
+        "To jest biologia.",
+        "To jest biologia",
+        "To biologia.",
+        "To biologia"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "biologia"
+      ]
+    },
+    {
+      "en": "I like biology.",
+      "pl": "Lubię biologię.",
+      "accepts": [
+        "Lubię biologię.",
+        "Lubię biologię"
+      ],
+      "structures": [
+        "present_e_isz",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "biologię"
+      ]
+    },
+    {
+      "en": "The architecture is old.",
+      "pl": "Architektura jest stara.",
+      "accepts": [
+        "Architektura jest stara.",
+        "Architektura jest stara"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "architektura"
+      ],
+      "explain": "architektura is both the subject you study and the buildings themselves — here it is the buildings. Polish uses the one word for both, exactly as English does."
+    },
+    {
+      "en": "I study architecture.",
+      "pl": "Studiuję architekturę.",
+      "accepts": [
+        "Studiuję architekturę.",
+        "Studiuję architekturę"
+      ],
+      "structures": [
+        "present_uje",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "architekturę"
+      ]
+    },
+    {
+      "en": "This is a new survey.",
+      "pl": "To jest nowa ankieta.",
+      "accepts": [
+        "To jest nowa ankieta.",
+        "To jest nowa ankieta",
+        "To nowa ankieta.",
+        "To nowa ankieta"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "ankieta"
+      ]
+    },
+    {
+      "en": "We have a survey today.",
+      "pl": "Mamy dzisiaj ankietę.",
+      "accepts": [
+        "Mamy dzisiaj ankietę.",
+        "Mamy dzisiaj ankietę",
+        "Dzisiaj mamy ankietę.",
+        "Dzisiaj mamy ankietę"
+      ],
+      "structures": [
+        "miec_acc"
+      ],
+      "lemmas": [
+        "ankietę"
+      ]
+    },
+    {
+      "en": "This is a new discovery.",
+      "pl": "To jest nowe odkrycie.",
+      "accepts": [
+        "To jest nowe odkrycie.",
+        "To jest nowe odkrycie",
+        "To nowe odkrycie.",
+        "To nowe odkrycie"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "odkrycie"
+      ],
+      "explain": "odkrycie ends in -e, so it is neuter and takes nowe rather than nowy or nowa. It behaves like the -e nouns you already have, such as danie and zdanie."
+    },
+    {
+      "en": "This discovery is good.",
+      "pl": "To odkrycie jest dobre.",
+      "accepts": [
+        "To odkrycie jest dobre.",
+        "To odkrycie jest dobre",
+        "Odkrycie jest dobre.",
+        "Odkrycie jest dobre"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "odkrycie"
+      ]
+    },
+    {
+      "en": "This is a new invention.",
+      "pl": "To jest nowy wynalazek.",
+      "accepts": [
+        "To jest nowy wynalazek.",
+        "To jest nowy wynalazek",
+        "To nowy wynalazek.",
+        "To nowy wynalazek"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wynalazek"
+      ]
+    },
+    {
+      "en": "This invention is interesting.",
+      "pl": "Ten wynalazek jest ciekawy.",
+      "accepts": [
+        "Ten wynalazek jest ciekawy.",
+        "Ten wynalazek jest ciekawy",
+        "Wynalazek jest ciekawy.",
+        "Wynalazek jest ciekawy"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wynalazek"
+      ]
+    },
+    {
+      "en": "This is a nice drawing.",
+      "pl": "To jest ładny rysunek.",
+      "accepts": [
+        "To jest ładny rysunek.",
+        "To jest ładny rysunek",
+        "To ładny rysunek.",
+        "To ładny rysunek"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rysunek"
+      ]
+    },
+    {
+      "en": "This drawing is very good.",
+      "pl": "Ten rysunek jest bardzo dobry.",
+      "accepts": [
+        "Ten rysunek jest bardzo dobry.",
+        "Ten rysunek jest bardzo dobry",
+        "Rysunek jest bardzo dobry.",
+        "Rysunek jest bardzo dobry"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "rysunek"
+      ]
+    },
+    {
+      "en": "This is my essay.",
+      "pl": "To jest mój esej.",
+      "accepts": [
+        "To jest mój esej.",
+        "To jest mój esej",
+        "To mój esej.",
+        "To mój esej"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "esej"
+      ]
+    },
+    {
+      "en": "The teacher is reading an essay.",
+      "pl": "Nauczyciel czyta esej.",
+      "accepts": [
+        "Nauczyciel czyta esej.",
+        "Nauczyciel czyta esej"
+      ],
+      "structures": [
+        "present_am",
+        "miec_acc"
+      ],
+      "lemmas": [
+        "esej"
+      ],
+      "explain": "esej does not move as the object. It is masculine and it is a thing, not a person, so the object form is identical — the same as Kupuję chleb."
+    },
+    {
+      "en": "The introduction is short.",
+      "pl": "Wstęp jest krótki.",
+      "accepts": [
+        "Wstęp jest krótki.",
+        "Wstęp jest krótki"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "wstęp"
+      ]
+    },
+    {
+      "en": "This is only the introduction.",
+      "pl": "To jest tylko wstęp.",
+      "accepts": [
+        "To jest tylko wstęp.",
+        "To jest tylko wstęp",
+        "To tylko wstęp.",
+        "To tylko wstęp"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "wstęp"
+      ],
+      "explain": "In a book or a talk, wstęp is the opening part. On a door it means entry — Wstęp wolny is 'free admission', not 'free introduction'. Take the meaning from where you find the word."
+    },
+    {
+      "en": "This is my diary.",
+      "pl": "To jest mój pamiętnik.",
+      "accepts": [
+        "To jest mój pamiętnik.",
+        "To jest mój pamiętnik",
+        "To mój pamiętnik.",
+        "To mój pamiętnik"
+      ],
+      "structures": [
+        "to_jest",
+        "poss_nom"
+      ],
+      "lemmas": [
+        "pamiętnik"
+      ]
+    },
+    {
+      "en": "I have a new diary.",
+      "pl": "Mam nowy pamiętnik.",
+      "accepts": [
+        "Mam nowy pamiętnik.",
+        "Mam nowy pamiętnik"
+      ],
+      "structures": [
+        "miec_acc",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pamiętnik"
+      ],
+      "explain": "pamiętnik is the book you write your own life in — a journal. English also calls the book you write appointments in a diary; Polish does not use pamiętnik for that one."
+    }
+  ],
+  "teaches_lemmas": [
+    "matematyka",
+    "matematykę",
+    "fizyka",
+    "fizykę",
+    "chemia",
+    "chemię",
+    "biologia",
+    "biologię",
+    "architektura",
+    "architekturę",
+    "ankieta",
+    "ankietę",
+    "odkrycie",
+    "wynalazek",
+    "rysunek",
+    "esej",
+    "wstęp",
+    "pamiętnik"
+  ],
+  "uses_lemmas": [
+    "jest",
+    "bardzo",
+    "mój",
+    "moja",
+    "brat",
+    "siostra",
+    "nauczyciel",
+    "czyta",
+    "studiuje",
+    "studiuję",
+    "lubi",
+    "lubię",
+    "mam",
+    "mamy",
+    "dzisiaj",
+    "nowa",
+    "nowe",
+    "nowy",
+    "dobre",
+    "dobry",
+    "stara",
+    "ciekawy",
+    "ładny",
+    "krótki",
+    "tylko",
+    "ten"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_subjects",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}
