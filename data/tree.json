@@ -122,6 +122,7 @@
     "a2_places2",
     "a2_food3",
     "a2_people3",
+    "a2_world",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2507,6 +2508,24 @@
       "parent": "trunk",
       "tree_part": "people",
       "content": "vocab/blocks/a2_people3.json"
+    },
+    {
+      "id": "a2_world",
+      "domain": "vocab",
+      "label": "Świat",
+      "label_en": "The world: land, sky and what it holds",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 2. Twelve nouns for the physical world, riding prep_w_loc / prep_place with a locative second block copied from a2_places2 - teaches_structures is [] by construction. gold, silver, rock and desert are authored in their NOUN sense only. The word list was decided by the ADJECTIVE pool, not by the nouns: the course teaches masculine adjective forms for almost everything and neuter forms for almost nothing, so drewno, metal, gaz and zanieczyszczenie were dropped and the three surviving neuters are described with duze / male / nowe / drozsze / tansze, the neuter forms that exist. na Ksiezycu is capitalised, on the Polska vs polska ksiazka rule a2_countries already teaches. The na/w split (na Ksiezycu, na wybrzezu, na pustyni against w oceanie, w dolinie, w regionie) is taught as whole phrases because nothing in the meaning predicts it. Only icon is the moon; the wave emoji was cut because it reads as morze or woda.",
+      "unit_id": "PL2_57",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "nature",
+      "content": "vocab/blocks/a2_world.json"
     },
     {
       "id": "a2_station_4",

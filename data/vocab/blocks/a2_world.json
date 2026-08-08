@@ -1,0 +1,613 @@
+{
+  "id": "a2_world",
+  "title": "Świat",
+  "title_en": "The world: land, sky and what it holds",
+  "level": "A2",
+  "tree_node": "a2_world",
+  "default_direction": "en_to_pl",
+  "note": "A2 liść · SECOND pack of Oxford A2 vocab-gap batch 2 (VOCAB-BUILD-DIGEST batch 2). Grouping rationale: twelve Oxford-A2 nouns for the physical world — księżyc, planeta, ocean, wybrzeże, dolina, pustynia, kontynent, skała, region, złoto, srebro, prąd. All twelve are Oxford A2 rows (moon, planet, ocean, coast, valley, desert, continent, rock, region, gold, silver, electricity); the four listed by Oxford as adjective/noun or noun/verb (gold, silver, rock, desert) are authored in their NOUN sense only, which is noted here so a later batch does not assume the adjective is covered. a1_nature already owns niebo, słońce, gwiazda, morze, jezioro, wyspa, las, góra, rzeka, ziemia, kamień, drzewo, świat — ANCHORS, never re-taught, and the pack leans on them hard (Ocean jest większy niż morze). The pack rides prep_w_loc / prep_place and the second block is a locative board, copying a2_places2's shape exactly, so teaches_structures is [] by construction. Judgment calls, all reported: (1) THE ADJECTIVE POOL, NOT THE NOUNS, DECIDED THE WORD LIST. Batch 1 flagged untaught gender forms of taught adjectives as the likeliest way a vocab pack leaks; measured properly this batch, the pool holds masculine forms for almost everything and feminine or neuter forms for only a fraction — of zimny, suchy, mokry, szary, zielony, ciekawy, niebezpieczny, ciemny, jasny, wysoki NOT ONE has a taught neuter form, and only wysoka, spokojna, zimna, gorąca survive in the feminine. drewno, metal, gaz and zanieczyszczenie were dropped from the draft list for exactly this reason — three neuters were already at the limit of what can be said about them — and the surviving neuters (wybrzeże, złoto, srebro) are described with duże / małe / nowe / droższe / tańsze, which are the neuter forms the pool actually has. (2) na Księżycu IS CAPITALISED and its explain says why: as the name of our moon it is a proper noun in Polish, the same rule that gives Polska a capital and polska książka none. That rule is already taught as content by a2_countries, so this is a recycled fact rather than a new one. (3) THE PREPOSITION IS PART OF THE LEXICAL ITEM, not derivable. na Księżycu, na wybrzeżu and na pustyni take na; w oceanie, w dolinie and w regionie take w. Nothing in the meaning predicts the split, so the block teaches the whole phrase and the explain tells the learner to take each one whole — the same treatment a2_places2 gives na dachu against w kościele. (4) dużo + genitive plural (dużo ryb, dużo parków) WAS CHECKED BEFORE USE rather than assumed: the course already ships 56 instances of it, so it is recycled, not introduced. (5) NO ICONS EXCEPT 🌙. 🌊 was drafted for ocean and cut because it reads as morze or woda, both already taught; the desert and mountain emoji carry variation selectors of the kind a2_countries found not to render on Win10. 🌙 is Emoji 1.0, unambiguous, and the only word in the pack it can point at. (6) NO PLURALS. planety, oceany, doliny and skały would all be new forms, and skały and doliny are the AGENTS.md homograph shape exactly — identical to the genitive singular — so a pack that has no need of them does not open the question.",
+  "teaches_structures": [],
+  "uses_structures": [
+    "to_jest",
+    "byc_present",
+    "byc_adj",
+    "zgoda",
+    "ten_ta_to",
+    "existential_jest",
+    "prep_w_loc",
+    "prep_place",
+    "past_byc",
+    "past_plural",
+    "negation",
+    "gen_endings",
+    "gen_pl",
+    "comparative",
+    "weather_chunk",
+    "miec_acc"
+  ],
+  "blocks": [
+    {
+      "id": "world_words",
+      "title": "The world · new words",
+      "items": [
+        {
+          "en": "moon",
+          "pl": "księżyc",
+          "icon": "🌙",
+          "gender": "m"
+        },
+        {
+          "en": "planet",
+          "pl": "planeta",
+          "gender": "f"
+        },
+        {
+          "en": "ocean",
+          "pl": "ocean",
+          "gender": "m"
+        },
+        {
+          "en": "coast",
+          "pl": "wybrzeże",
+          "gender": "n"
+        },
+        {
+          "en": "valley",
+          "pl": "dolina",
+          "gender": "f"
+        },
+        {
+          "en": "desert",
+          "pl": "pustynia",
+          "gender": "f"
+        },
+        {
+          "en": "continent",
+          "pl": "kontynent",
+          "gender": "m"
+        },
+        {
+          "en": "rock (a big one, in the ground)",
+          "pl": "skała",
+          "gender": "f"
+        },
+        {
+          "en": "region",
+          "pl": "region",
+          "gender": "m"
+        },
+        {
+          "en": "gold",
+          "pl": "złoto",
+          "gender": "n"
+        },
+        {
+          "en": "silver",
+          "pl": "srebro",
+          "gender": "n"
+        },
+        {
+          "en": "electricity",
+          "pl": "prąd",
+          "gender": "m"
+        }
+      ]
+    },
+    {
+      "id": "world_where",
+      "title": "Where? · which ones take na, which take w",
+      "items": [
+        {
+          "en": "on the Moon",
+          "pl": "na Księżycu"
+        },
+        {
+          "en": "on the coast",
+          "pl": "na wybrzeżu"
+        },
+        {
+          "en": "in the desert",
+          "pl": "na pustyni"
+        },
+        {
+          "en": "in the ocean",
+          "pl": "w oceanie"
+        },
+        {
+          "en": "in the valley",
+          "pl": "w dolinie"
+        },
+        {
+          "en": "in the region",
+          "pl": "w regionie"
+        }
+      ]
+    }
+  ],
+  "sentences": [
+    {
+      "en": "The moon is very far away.",
+      "pl": "Księżyc jest bardzo daleko.",
+      "accepts": [
+        "Księżyc jest bardzo daleko.",
+        "Księżyc jest bardzo daleko"
+      ],
+      "structures": [
+        "byc_present"
+      ],
+      "lemmas": [
+        "księżyc"
+      ]
+    },
+    {
+      "en": "There is no water on the Moon.",
+      "pl": "Na Księżycu nie ma wody.",
+      "accepts": [
+        "Na Księżycu nie ma wody.",
+        "Na Księżycu nie ma wody",
+        "Na księżycu nie ma wody.",
+        "Na księżycu nie ma wody"
+      ],
+      "structures": [
+        "prep_place",
+        "negation",
+        "gen_endings"
+      ],
+      "lemmas": [
+        "księżycu",
+        "na księżycu"
+      ],
+      "explain": "Two things worth having. It is na, not w — you are on its surface. And Polish writes Księżyc with a capital when it means our moon, the same rule that gives Polska a capital and polska książka none."
+    },
+    {
+      "en": "This is a small planet.",
+      "pl": "To jest mała planeta.",
+      "accepts": [
+        "To jest mała planeta.",
+        "To jest mała planeta",
+        "To mała planeta.",
+        "To mała planeta"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "planeta"
+      ]
+    },
+    {
+      "en": "This planet is very cold.",
+      "pl": "Ta planeta jest bardzo zimna.",
+      "accepts": [
+        "Ta planeta jest bardzo zimna.",
+        "Ta planeta jest bardzo zimna",
+        "Planeta jest bardzo zimna.",
+        "Planeta jest bardzo zimna"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "planeta"
+      ]
+    },
+    {
+      "en": "The ocean is bigger than a sea.",
+      "pl": "Ocean jest większy niż morze.",
+      "accepts": [
+        "Ocean jest większy niż morze.",
+        "Ocean jest większy niż morze"
+      ],
+      "structures": [
+        "comparative"
+      ],
+      "lemmas": [
+        "ocean"
+      ],
+      "explain": "morze is any sea; ocean is one of the handful of great ones. Polish keeps the two words as far apart as English does, so morze here is the anchor telling you what ocean must mean."
+    },
+    {
+      "en": "There are a lot of fish in the ocean.",
+      "pl": "W oceanie jest dużo ryb.",
+      "accepts": [
+        "W oceanie jest dużo ryb.",
+        "W oceanie jest dużo ryb",
+        "Jest dużo ryb w oceanie.",
+        "Jest dużo ryb w oceanie"
+      ],
+      "structures": [
+        "prep_w_loc",
+        "existential_jest",
+        "gen_pl"
+      ],
+      "lemmas": [
+        "oceanie",
+        "w oceanie"
+      ]
+    },
+    {
+      "en": "We were on the coast.",
+      "pl": "Byliśmy na wybrzeżu.",
+      "accepts": [
+        "Byliśmy na wybrzeżu.",
+        "Byliśmy na wybrzeżu"
+      ],
+      "structures": [
+        "past_byc",
+        "past_plural",
+        "prep_place"
+      ],
+      "lemmas": [
+        "wybrzeżu",
+        "na wybrzeżu"
+      ]
+    },
+    {
+      "en": "It is cold on the coast.",
+      "pl": "Na wybrzeżu jest zimno.",
+      "accepts": [
+        "Na wybrzeżu jest zimno.",
+        "Na wybrzeżu jest zimno",
+        "Jest zimno na wybrzeżu.",
+        "Jest zimno na wybrzeżu"
+      ],
+      "structures": [
+        "prep_place",
+        "weather_chunk"
+      ],
+      "lemmas": [
+        "wybrzeżu",
+        "na wybrzeżu"
+      ],
+      "explain": "wybrzeże is the strip of land where the country stops. It takes na, like dach and parking — you are on it, not inside it."
+    },
+    {
+      "en": "This valley is very peaceful.",
+      "pl": "Ta dolina jest bardzo spokojna.",
+      "accepts": [
+        "Ta dolina jest bardzo spokojna.",
+        "Ta dolina jest bardzo spokojna",
+        "Dolina jest bardzo spokojna.",
+        "Dolina jest bardzo spokojna"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "dolina"
+      ]
+    },
+    {
+      "en": "There is a river in the valley.",
+      "pl": "W dolinie jest rzeka.",
+      "accepts": [
+        "W dolinie jest rzeka.",
+        "W dolinie jest rzeka",
+        "Rzeka jest w dolinie.",
+        "Rzeka jest w dolinie"
+      ],
+      "structures": [
+        "prep_w_loc",
+        "existential_jest"
+      ],
+      "lemmas": [
+        "dolinie",
+        "w dolinie"
+      ]
+    },
+    {
+      "en": "The desert is very hot.",
+      "pl": "Pustynia jest bardzo gorąca.",
+      "accepts": [
+        "Pustynia jest bardzo gorąca.",
+        "Pustynia jest bardzo gorąca"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "pustynia"
+      ]
+    },
+    {
+      "en": "There was wind in the desert.",
+      "pl": "Na pustyni był wiatr.",
+      "accepts": [
+        "Na pustyni był wiatr.",
+        "Na pustyni był wiatr",
+        "Wiatr był na pustyni.",
+        "Wiatr był na pustyni"
+      ],
+      "structures": [
+        "prep_place",
+        "past_byc"
+      ],
+      "lemmas": [
+        "pustyni",
+        "na pustyni"
+      ],
+      "explain": "English says in the desert, Polish says na pustyni. There is no rule to work it out from — take the phrase whole, the way you took na dachu."
+    },
+    {
+      "en": "This is a big continent.",
+      "pl": "To jest duży kontynent.",
+      "accepts": [
+        "To jest duży kontynent.",
+        "To jest duży kontynent",
+        "To duży kontynent.",
+        "To duży kontynent"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kontynent"
+      ]
+    },
+    {
+      "en": "This continent is very old.",
+      "pl": "Ten kontynent jest bardzo stary.",
+      "accepts": [
+        "Ten kontynent jest bardzo stary.",
+        "Ten kontynent jest bardzo stary",
+        "Kontynent jest bardzo stary.",
+        "Kontynent jest bardzo stary"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "kontynent"
+      ]
+    },
+    {
+      "en": "This is a big rock.",
+      "pl": "To jest duża skała.",
+      "accepts": [
+        "To jest duża skała.",
+        "To jest duża skała",
+        "To duża skała.",
+        "To duża skała"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "skała"
+      ],
+      "explain": "kamień is a stone you can pick up. skała is rock in the ground — a cliff, a crag, the thing a road is cut through."
+    },
+    {
+      "en": "This rock is very tall.",
+      "pl": "Ta skała jest bardzo wysoka.",
+      "accepts": [
+        "Ta skała jest bardzo wysoka.",
+        "Ta skała jest bardzo wysoka",
+        "Skała jest bardzo wysoka.",
+        "Skała jest bardzo wysoka"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "skała"
+      ]
+    },
+    {
+      "en": "This is an interesting region.",
+      "pl": "To jest ciekawy region.",
+      "accepts": [
+        "To jest ciekawy region.",
+        "To jest ciekawy region",
+        "To ciekawy region.",
+        "To ciekawy region"
+      ],
+      "structures": [
+        "to_jest",
+        "zgoda"
+      ],
+      "lemmas": [
+        "region"
+      ]
+    },
+    {
+      "en": "There are a lot of parks in the region.",
+      "pl": "W regionie jest dużo parków.",
+      "accepts": [
+        "W regionie jest dużo parków.",
+        "W regionie jest dużo parków",
+        "Jest dużo parków w regionie.",
+        "Jest dużo parków w regionie"
+      ],
+      "structures": [
+        "prep_w_loc",
+        "existential_jest",
+        "gen_pl"
+      ],
+      "lemmas": [
+        "regionie",
+        "w regionie"
+      ]
+    },
+    {
+      "en": "This is gold.",
+      "pl": "To jest złoto.",
+      "accepts": [
+        "To jest złoto.",
+        "To jest złoto",
+        "To złoto.",
+        "To złoto"
+      ],
+      "structures": [
+        "to_jest"
+      ],
+      "lemmas": [
+        "złoto"
+      ]
+    },
+    {
+      "en": "Gold is more expensive.",
+      "pl": "Złoto jest droższe.",
+      "accepts": [
+        "Złoto jest droższe.",
+        "Złoto jest droższe"
+      ],
+      "structures": [
+        "comparative"
+      ],
+      "lemmas": [
+        "złoto"
+      ],
+      "explain": "złoto ends in -o, so it is neuter, and the comparative follows it: droższe, not droższy. Compare Ten telefon jest droższy."
+    },
+    {
+      "en": "Silver is cheaper.",
+      "pl": "Srebro jest tańsze.",
+      "accepts": [
+        "Srebro jest tańsze.",
+        "Srebro jest tańsze"
+      ],
+      "structures": [
+        "comparative"
+      ],
+      "lemmas": [
+        "srebro"
+      ]
+    },
+    {
+      "en": "This silver is new.",
+      "pl": "To srebro jest nowe.",
+      "accepts": [
+        "To srebro jest nowe.",
+        "To srebro jest nowe",
+        "Srebro jest nowe.",
+        "Srebro jest nowe"
+      ],
+      "structures": [
+        "ten_ta_to",
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "srebro"
+      ]
+    },
+    {
+      "en": "Electricity is dangerous.",
+      "pl": "Prąd jest niebezpieczny.",
+      "accepts": [
+        "Prąd jest niebezpieczny.",
+        "Prąd jest niebezpieczny"
+      ],
+      "structures": [
+        "byc_present",
+        "byc_adj",
+        "zgoda"
+      ],
+      "lemmas": [
+        "prąd"
+      ]
+    },
+    {
+      "en": "We have electricity at home.",
+      "pl": "Mamy prąd w domu.",
+      "accepts": [
+        "Mamy prąd w domu.",
+        "Mamy prąd w domu"
+      ],
+      "structures": [
+        "miec_acc",
+        "prep_w_loc"
+      ],
+      "lemmas": [
+        "prąd"
+      ],
+      "explain": "prąd is the electricity in the wires, and also a current in a river. Nothing changes as the object here — it is masculine and it is a thing, so Mamy prąd looks exactly like Prąd jest."
+    }
+  ],
+  "teaches_lemmas": [
+    "księżyc",
+    "księżycu",
+    "na księżycu",
+    "planeta",
+    "ocean",
+    "oceanie",
+    "w oceanie",
+    "wybrzeże",
+    "wybrzeżu",
+    "na wybrzeżu",
+    "dolina",
+    "dolinie",
+    "w dolinie",
+    "pustynia",
+    "pustyni",
+    "na pustyni",
+    "kontynent",
+    "skała",
+    "region",
+    "regionie",
+    "w regionie",
+    "złoto",
+    "srebro",
+    "prąd"
+  ],
+  "uses_lemmas": [
+    "jest",
+    "był",
+    "byliśmy",
+    "bardzo",
+    "daleko",
+    "nie ma",
+    "wody",
+    "morze",
+    "niż",
+    "większy",
+    "dużo",
+    "ryb",
+    "zimno",
+    "rzeka",
+    "wiatr",
+    "parków",
+    "mała",
+    "zimna",
+    "duży",
+    "duża",
+    "stary",
+    "wysoka",
+    "spokojna",
+    "gorąca",
+    "ciekawy",
+    "droższe",
+    "tańsze",
+    "nowe",
+    "niebezpieczny",
+    "mamy",
+    "w domu",
+    "ten",
+    "ta"
+  ],
+  "sequencing": {
+    "spec": "codex/SEQUENCING.md",
+    "phase": 1,
+    "node_id": "a2_world",
+    "pool_model": "cumulative_focus_recycle"
+  }
+}

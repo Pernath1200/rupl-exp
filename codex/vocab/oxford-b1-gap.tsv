@@ -149,7 +149,6 @@ a2	circle	noun/verb
 a2	classical	adjective
 a2	clear	adjective/verb
 a2	clothing	noun
-a2	coast	noun
 a2	collect	verb
 a2	comedy	noun
 a2	communicate	verb
@@ -159,7 +158,6 @@ a2	complain	verb
 a2	conference	noun
 a2	connect	verb
 a2	consider	verb
-a2	continent	noun
 a2	continue	verb
 a2	crazy	adjective
 a2	creative	adjective
@@ -173,7 +171,6 @@ a2	cycle	noun/verb
 a2	danger	noun
 a2	deal	noun/verb
 a2	death	noun
-a2	desert	noun/verb
 a2	designer	noun
 a2	destroy	verb
 a2	detective	noun
@@ -192,7 +189,6 @@ a2	dream	noun/verb
 a2	drug	noun
 a2	electric	adjective
 a2	electrical	adjective
-a2	electricity	noun
 a2	electronic	adjective
 a2	employ	verb
 a2	energy	noun
@@ -220,7 +216,6 @@ a2	flying	adjective/noun
 a2	foreign	adjective
 a2	gas	noun
 a2	god	noun
-a2	gold	adjective/noun
 a2	golf	noun
 a2	guide	noun/verb
 a2	gun	noun
@@ -267,13 +262,11 @@ a2	medical	adjective
 a2	metal	noun
 a2	mind	noun/verb
 a2	mine	noun/pronoun
-a2	moon	noun
 a2	motorcycle	noun
 a2	musical	adjective/noun
 a2	national	adjective/noun
 a2	network	noun
 a2	novel	adjective/noun
-a2	ocean	noun
 a2	officer	noun
 a2	opportunity	noun
 a2	organization	noun
@@ -287,7 +280,6 @@ a2	perform	verb
 a2	personality	noun
 a2	petrol	noun
 a2	physics	noun
-a2	planet	noun
 a2	pleased	adjective
 a2	pollution	noun
 a2	pop	adjective/noun/verb
@@ -312,14 +304,12 @@ a2	realize	verb
 a2	receive	verb
 a2	reduce	verb
 a2	refer	verb
-a2	region	noun
 a2	replace	verb
 a2	reporter	noun
 a2	research	noun/verb
 a2	researcher	noun
 a2	respond	verb
 a2	rise	noun/verb
-a2	rock	noun/verb
 a2	role	noun
 a2	rubbish	noun
 a2	runner	noun
@@ -340,7 +330,6 @@ a2	shake	noun/verb
 a2	shall	modal verb
 a2	sheet	noun
 a2	shout	noun/verb
-a2	silver	adjective/noun
 a2	singing	noun
 a2	site	noun
 a2	ski	adjective/noun/verb
@@ -382,7 +371,6 @@ a2	unhappy	adjective
 a2	united	adjective
 a2	used to	modal verb
 a2	user	noun
-a2	valley	noun
 a2	van	noun
 a2	virus	noun
 a2	war	noun
