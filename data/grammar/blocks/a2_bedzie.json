@@ -221,7 +221,7 @@
       "explain": "jutro puts the sentence in the future, and the helper carries the person — ja takes będę."
     },
     {
-      "prompt": "I will be cooking — a woman speaking →",
+      "prompt": "I will be cooking →",
       "choices": [
         "będę gotować",
         "będziesz gotować",
@@ -274,7 +274,7 @@
       "answer": "będziecie"
     },
     {
-      "prompt": "Which is Polish?",
+      "prompt": "Which is correct?",
       "choices": [
         "Będę pracować.",
         "Będę pracuję.",

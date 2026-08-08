@@ -584,7 +584,9 @@
       "answer": "Kolega jedzie do domu pociągiem.",
       "accepts": [
         "Kolega jedzie do domu pociągiem.",
-        "Kolega jedzie do domu pociągiem"
+        "Kolega jedzie do domu pociągiem",
+        "Mój kolega jedzie do domu pociągiem.",
+        "Mój kolega jedzie do domu pociągiem"
       ]
     },
     {

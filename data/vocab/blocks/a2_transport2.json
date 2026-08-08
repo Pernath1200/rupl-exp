@@ -264,7 +264,10 @@
       "accepts": [
         "Jestem spóźniony, jadę samochodem.",
         "Jestem spóźniony, jadę samochodem",
-        "Jestem spóźniony jadę samochodem"
+        "Jestem spóźniony jadę samochodem",
+        "Jestem spóźniony, jadę autem.",
+        "Jestem spóźniony, jadę autem",
+        "Jestem spóźniony jadę autem"
       ],
       "structures": [
         "byc_present",
