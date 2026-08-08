@@ -6,9 +6,11 @@
 
 | Layer | Shared? | Where |
 |-------|---------|--------|
-| Tree **topology** | Yes (universal seats) | `topology.json` |
+| Tree **topology** | Yes (universal seats) | **Canonical: `rue-codex/topology.json`** (promoted there 2026-08-08); local `topology.json` = PL-labelled mirror |
 | Unit **lists** | Per language | This repo for PL |
 | EN source of influence | Parent model | `../rue-codex` |
+
+Seat changes go to the parent first, then propagate to this mirror (which additionally carries `label_pl` / `student_labels_pl`).
 
 Apps: RUPL2 (grammar) · RUPL3 (vocab) · **RUPL-exp** (combined).  
 Student UI uses PL labels only — never NP/VP teacher codes.
