@@ -3859,3 +3859,213 @@ them:
    Read this batch's synonym rule before authoring its Kontrola stage; the
    temptation to mark a defensible answer wrong will be stronger there than it
    was here.
+
+---
+
+## Batch 18 — Block 9 closed, Block 10 opened, and a gym brief that had to be narrowed
+
+**Built:** `c1_comp_analytic` [233], `c1_register` [234], `c1_case_gym` [236].
+Audit after each commit: **0 errors**, 7 warns — every one of them the
+pre-existing `teaches_empty_grammar` on a pure-discrimination node
+(`a2_prep_review`, `b1_two_futures`, and the five `*_which_case` units). No
+warn in this batch is new. The repair queue was checked first and is still
+empty; all five which-case units were already live, so this was a plain C1
+build run.
+
+**Two new structure IDs**, both registered in `SEQUENCING.md` and `audit.py`
+before any audit ran: `comp_analytic`, `register_switch`. `c1_case_gym` needed
+none — it is a gym and teaches nothing. **No unit in this batch adds a case
+governor**, so `data/case-map.json` is untouched and `c1_which_case` [235],
+which sits between units 2 and 3 on the path, did not have to be re-derived.
+That was checked rather than assumed, because [235] was built last run from a
+map filtered at its own path position and two of this batch's units sit
+*before* it.
+
+### `c1_comp_analytic` — a tendency, and the honest gap between two lists
+
+Inbox item 11, deferred **twice by name**: `a1_comparatives` wrote
+*"bardziej-comparatives and od+Gen deferred to A2"*, and `a2_superlatives` then
+paid only the `od`+Genitive half, fencing *najbardziej + adjective* explicitly.
+Both halves of that IOU are now closed.
+
+Two new strings, **zero new endings**. `bardziej` and `najbardziej` are
+invariable, and the adjective behind them goes on agreeing exactly as it did —
+so the whole grammatical content of the unit is *the word in front is new and
+nothing else moves.*
+
+**The decision rule is the unit's real difficulty, and the spine locks how it
+ships: a tendency over two closed lists, never a productive test.** List A is
+the nine `-szy` comparatives owned since A1, which can *never* take `bardziej`.
+List B is six owned adjectives that always do — `zmęczony` and `zajęty`
+(verb-derived, the `-ony`/`-ty` participle shapes), `chory` (which has no `-szy`
+form at all), and the three long ones `popularny`, `nowoczesny`, `skuteczny`.
+
+Slide 4 then says out loud what a less honest unit would hide: **there are
+ordinary adjectives on neither list**, and `trudny` gives `trudniejszy`, not
+`bardziej trudny`. An unfamiliar adjective must be **checked, not built** — the
+same verified-never-coined discipline R2 imposed on the prefixes. This is the
+`b2_gen_pl_full` fleeting-e precedent applied to a second system.
+
+**`bardzo` is the anchor and the trap in one word.** It is TAUGHT ←
+`a2_directions_func` [69] and has stood in front of adjectives since A2 (*bardzo
+smaczna*, *bardzo dobry*, *bardzo blisko*), so `bardzo / bardziej / najbardziej`
+is a three-step ladder on one root. Choosing *very* where *more* was meant is
+the error the unit exists to prevent, and it gets its own slide, two Kontrola
+items and a Użycie item.
+
+**Agreement costs nothing**, which is why it could be taught at all: it is shown
+on `zmęczony / zmęczona / zmęczone / zmęczeni` and `chory / chora`, and every one
+of those five forms was already taught. **`zmęczone` is used only with `Dzieci`**
+— it is TAUGHT ← `c1_adj_pl_virile` [190] as the **non-virile plural**, not as a
+neuter singular, and putting it anywhere else would have been a homograph.
+
+**A leak was caught in self-review and fixed before the commit**, and it is
+worth recording because it is the shape the next builder will hit. `popularna`
+and `popularne` are NEW, so **no agreement-error distractor is possible** on
+List B's masculine-only members — and the first draft used `bardziej popularne`
+and `najbardziej popularne` as wrong choices anyway. Both were replaced with
+**word-order errors built from taught forms** (`popularny bardziej`, `Ten film
+jest popularny najbardziej.`). Two other first-draft slips were caught in the
+same pass: a slide body naming a unit code (`a1_comparatives`) on a
+learner-facing surface, and a `title_pl` reading *dwie listy* with `listy`
+untaught.
+
+### `c1_register` — the fact the course had been holding back
+
+Spine O7, inbox item 22. **Zero new lemmas**, and that was verified rather than
+claimed: every word on every surface went through `check_new.py`. What is new is
+a **decision**, which is why the unit carries a structure ID (`register_switch`)
+and an empty `teaches_lemmas` — and why it does *not* trip the empty-teaches
+warn the way a pure-discrimination unit does.
+
+**The one honest fact, and the reason it is worth a path slot: formal Polish is
+not a different word for *you* — it is a different PERSON of the verb.**
+*Masz czas?* is second person; *Czy ma pan czas?* is **third**, with `pan`
+standing where a name would. Nothing in four levels had said this. `b1_polite`
+shipped *Czy mógłby pan mi pomóc?* as a frozen chunk and `a2_ordering_func`
+shipped *Co pan poleca?* as an opaque one, both deliberately unanalysed. The
+unit opens the pattern on verbs conjugated since A1 (`ma`, `mieszka`, `robi`,
+`pracuje`), so it costs **no new forms** and turns two frozen chunks into a
+system — the *dziękuję* / *której* / *nowego* chunk-to-slot treatment, fourth
+register.
+
+**`chciałbym` is re-read, not re-taught.** `b1_conditional_sg` glossed it as
+*polite*; slide 4 names it as what it actually is — a register move on `chcę`,
+identical in meaning — and says plainly that *Chcę kawę* at a counter is not
+rude the way *I want a coffee* is in English, but does mark you.
+
+**MÓGŁBY QUARANTINE HELD, deliberately.** Both polite frames are recycled
+**whole** from `b1_polite`, no conditional of *móc* is derived, no new person is
+shown, and the single Pisanie item touching that frame **blanks `pomóc`, not
+`mógłby`** — the conservative fork `b1_vocative_chunks` took. This adds no third
+production site for a quarantined form.
+
+**The Vocative appears nowhere.** No *Proszę pana* / *Proszę pani* (`pana` is NEW
+in any case), no address forms, no seventh case. R5's `c1_vocative_note` is two
+nodes further on and owns the first mention.
+
+**The synonym rule from batch 17 was applied to every greeting item**, and one
+item needed an honest `explain` rather than a pretence: *Dzień dobry* to your own
+brother is **not wrong Polish — it is a joke**, and the explain says so. A
+first-draft Kontrola item that asked *who is this sentence about?* with
+English-annotated choices was **rewritten**: it was a meta-question about the
+language wearing a form-choice costume, and AGENTS bans that. It now offers four
+real Polish sentences.
+
+### `c1_case_gym` — the brief was narrowed, and here is exactly why
+
+The spine asks for *"everything `b2_case_gym` had, plus plural adjectives in
+five jobs, the closed pronoun system including 1st/2nd person after
+prepositions, and the irregular plurals."* That was **checked rather than
+obeyed**, the way `b2_case_gym` checked its own, and two of the three additions
+did not survive:
+
+- **Plural adjectives in five jobs are `c1_adj_pl_gym`'s entire board**, forty-odd
+  nodes back and built after the spine was written. Re-running it here is the
+  `a2_past_gym` failure verbatim — *"a repetition of things that were not
+  difficult, and just seemed a waste of time."* So plural adjective phrases
+  appear **mixed in** as the noun half of pronoun contrasts (*z dobrymi
+  kolegami*, *nowym studentom*, *dobrych filmów*) and never as their own
+  paradigm board.
+- **The `-owie` family and the suppletives cannot be case-drilled at all.**
+  `c1_owie` taught six **nominatives** and `c1_suppl_pl` taught `oczy`/`uszy`/
+  `ręce` and nothing else — `oczu`, `rąk`, `uszu`, `dziadków` are **all verified
+  NEW**. Any oblique board would have had to *teach*, which a gym may not do.
+  Recorded here so a later reader does not mistake this for an oversight; if
+  those obliques are wanted, they are a unit, not a gym slot.
+- **The irregular virile plural IS drillable and IS drilled** — but only on the
+  three forms `c1_irreg_virile` actually taught (`bracia` / `braci` / `braciom`),
+  inside real frames rather than as a paradigm.
+
+**What the gym is actually for is a genuine cliff.** `b2_case_gym` shipped its
+pronoun table with **two visibly empty cells** — *me* and *you* had nothing in
+the after-a-preposition column — and `c1_pron_12_prep` was built to fill them.
+Slide 1 is that same table with the gaps closed, which is the sharpest available
+statement of what the last level bought. The hard part is not the forms but that
+**`ty` has four shapes decided purely by what stands in front**: `cię` beside the
+verb, `ciebie` after `do`/`od`, `tobie` after `o`, `tobą` after `z`. Nothing else
+in the course makes one English word take four Polish shapes on that basis, and
+that is what massed discrimination is for.
+
+**`bratom` is never shown, not even as a distractor.** It is not a Polish word,
+and O12 bans fabricated non-words outright; the `braciom` item discriminates
+against `braci`, `bracia` and `brata` — all real taught forms in the wrong case.
+The one distractor that is a wrong *combination* rather than a wrong form is
+`z mną` (against `ze mną`), which is exactly the error the `ze` rule exists to
+prevent, built from two owned words.
+
+**Three intro slides, as the spine instructed.** No fourth was needed once the
+plural-adjective board was refused — so the spine's *"plan for three and log the
+call rather than compressing"* was met from the other direction than expected.
+
+### Where the Pisanie items landed
+
+All three units cleared the ≤3-word cap with room to spare and **added nothing
+to the repair queue**. `c1_comp_analytic` and `c1_case_gym` are twelve
+whole-typed pattern phrases each (`bardziej zmęczona`, `ze mną`, `do ciebie`) —
+the *dobra kawa* / *w domu* shape, where the pattern **is** the phrase — so
+every item blanks the teaching point and no fallback was needed anywhere.
+`c1_register` mixes seven whole-typed frozen chunks and minimal clauses with
+five clozes; the two clozes that share the frame *Czy ma ___ czas?* are
+distinguished by their `prompt_en` (to a man / to a woman), which is the
+`a2_phone_func` precedent. Duplicate answers were checked with a Python mirror
+of the engine's own `norm()` rather than by eye: **48 items across the four
+stages of each unit, all distinct.**
+
+### Open for James — carried forward and added to
+
+- **The `chory` list-B entry.** *bardziej chory* is right because no `-szy` form
+  exists, but it sits in a group otherwise justified by length or by
+  verb-derivation. It is a one-off and slide 4 says so; if it reads as an
+  inconsistency in the hand, it can move to its own row.
+- **`c1_register` teaches a productive pattern under a "near-zero" brief.**
+  `pan`/`pani` + third person costs no new *words*, but it is a re-arrangement
+  the course had never made explicit, and it is more than a situations unit
+  usually carries. It was taken because it is the single most useful thing about
+  Polish register for somebody who will be addressed as *pan* daily. Worth a
+  smoke check that it does not feel like a grammar unit in chunk clothing.
+- **The `-owie` and suppletive obliques** — new this batch. `oczu`, `rąk`,
+  `uszu`, `dziadków`, `synów` and the rest are untaught and now have no home
+  left: Block 10 is the closers. If they are wanted the honest place is a note
+  on `c1_wrapup` or a small addition to `c1_suppl_pl` / `c1_owie`, and it is
+  James's call.
+- **Days 13–31 of the month** — unchanged from batch 17, still open, still a
+  word-list rather than a mechanism.
+- **`za` and `po` as `case-map.json` rows**, **the synonym-in-`accepts`
+  policy**, **the 161 fold variants**, **`kobiet`**, **`sprzątać`/`posprzątać`**
+  and **the vocabulary volume finding** — all unchanged.
+
+### Next run
+
+Two nodes left: **`c1_vocative_note` [237]** and **`c1_wrapup` [238]** (plus
+`c1_station_2`, which stays `planned` forever).
+
+1. `c1_vocative_note` is **R5** and is tightly bounded: it names the Wołacz as
+   the seventh case, says honestly that it is rare outside address forms, and
+   points back at `b1_vocative_chunks`' six memorised chunks. **No endings
+   table, no proper-name rule, nothing to produce.** Every other case is now
+   closed, which is the condition James set for it.
+2. `c1_wrapup` is the course capstone — four registers, no fifth. **The run that
+   wires it live writes `codex/COURSE-COMPLETE.md` and then STOPS PERMANENTLY**
+   under R8: no rep-station engine, no other app code, that is a design session
+   with James first. The repair queue is empty, so that condition is met.
