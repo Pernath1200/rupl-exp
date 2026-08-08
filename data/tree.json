@@ -121,6 +121,7 @@
     "a2_jobs2",
     "a2_places2",
     "a2_food3",
+    "a2_people3",
     "a2_station_4",
     "b1_perf_future",
     "b1_two_futures",
@@ -2488,6 +2489,24 @@
       "parent": "trunk",
       "tree_part": "food_shopping",
       "content": "vocab/blocks/a2_food3.json"
+    },
+    {
+      "id": "a2_people3",
+      "domain": "vocab",
+      "label": "Kto to jest?",
+      "label_en": "People around us",
+      "kind": "leaf",
+      "levels": [
+        "A2"
+      ],
+      "status": "live",
+      "practice": "vocab",
+      "note": "Oxford A2 vocab-gap batch 2. Twelve nouns for kinds of person - not jobs (a2_jobs2) and not looks/character (a2_people2) - riding the NOMINATIVE only, so teaches_structures is [] by construction. Three words folded in from pl-frequency-crosscheck: dziewczyna (175), chlopak (275), chlopiec (315), which the Oxford route never asks for because 'girl' and 'boy' are A1 concepts. Block 2 is a gender board rather than a case board, carrying the two traps: przywodca (-a, masculine) and publicznosc (-osc, feminine). No icons: the crown emoji points at both krol and krolowa, and the two-people emoji reads as para ('pair', already taught). popularna was refused by the pool (only popularny is taught) and the sentence moved to krol. nowego is taught only inside 'nic nowego' and was deliberately not reused as an accusative.",
+      "unit_id": "PL2_56",
+      "pedagogy": "use",
+      "parent": "trunk",
+      "tree_part": "people",
+      "content": "vocab/blocks/a2_people3.json"
     },
     {
       "id": "a2_station_4",

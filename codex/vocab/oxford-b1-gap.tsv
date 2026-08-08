@@ -113,7 +113,6 @@ a2	asleep	adjective
 a2	attack	noun/verb
 a2	attend	verb
 a2	attractive	adjective
-a2	audience	noun
 a2	average	adjective/noun/verb
 a2	award	noun/verb
 a2	awful	adjective
@@ -162,13 +161,11 @@ a2	connect	verb
 a2	consider	verb
 a2	continent	noun
 a2	continue	verb
-a2	couple	noun
 a2	crazy	adjective
 a2	creative	adjective
 a2	credit	noun/verb
 a2	crime	noun
 a2	criminal	adjective/noun
-a2	crowd	noun
 a2	crowded	adjective
 a2	cry	noun/verb
 a2	curly	adjective
@@ -227,11 +224,9 @@ a2	gold	adjective/noun
 a2	golf	noun
 a2	guide	noun/verb
 a2	gun	noun
-a2	guy	noun
 a2	happily	adverb
 a2	height	noun
 a2	helpful	adjective
-a2	hero	noun
 a2	hockey	noun
 a2	huge	adjective
 a2	identify	verb
@@ -252,8 +247,6 @@ a2	jazz	noun
 a2	jewellery	noun
 a2	joke	noun/verb
 a2	jump	noun/verb
-a2	kid	noun
-a2	king	noun
 a2	knock	noun/verb
 a2	knowledge	noun
 a2	lab	noun
@@ -261,7 +254,6 @@ a2	lady	noun
 a2	laughter	noun
 a2	lazy	adjective
 a2	lead	noun/verb
-a2	leader	noun
 a2	lifestyle	noun
 a2	lift	noun/verb
 a2	lorry	noun
@@ -303,7 +295,6 @@ a2	population	noun
 a2	possession	noun
 a2	poster	noun
 a2	power	noun/verb
-a2	president	noun
 a2	prize	noun
 a2	process	noun/verb
 a2	professional	adjective/noun
@@ -314,7 +305,6 @@ a2	provide	verb
 a2	public	adjective/noun
 a2	publish	verb
 a2	push	noun/verb
-a2	queen	noun
 a2	race	noun/verb
 a2	raise	verb
 a2	rate	noun/verb
