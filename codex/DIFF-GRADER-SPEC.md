@@ -60,9 +60,15 @@ judged against that variant.
   test file exercising each classification with real pack data shapes
   (reorder accept, strict_order refusal, form-miss highlight, sub/super-set,
   diacritics interplay). All green before James smokes.
-- **Optional, cheap, worth including:** every press of "Miałem rację →
-  policz to" auto-logs a smoke-flag with the typed answer and item — each
-  press is the grader failing, and the log is the free regression list.
+- **Cut the "Miałem rację → policz to" button** (practice-vocab.js, two
+  sites: word-mode and sentence-mode fail paths; grammar engine never had
+  it). James has never used it and the flag button's "my answer was correct"
+  option already covers the reporting job — it is how every false-wrong to
+  date actually arrived. With reorder-accept live, the button's remaining
+  use-case shrinks to near zero, and cutting it is one less chrome element in
+  front of Dad (learner-clean rule). An earlier draft of this spec proposed
+  auto-logging its presses as smoke flags — dead with the button; the flag
+  flow IS the regression list.
 
 ## Open questions (decide while building, log the call)
 
